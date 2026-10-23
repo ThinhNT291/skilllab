@@ -21,6 +21,9 @@ Học sinh cuối cấp 1 đến hết cấp 2 (lớp 4–9, khoảng 9–15 tu�
 5. Không sao chép nội dung, mã hay hình ảnh của game/website khác (IOE, "Đảo Kho Báu Từ Vựng"…); chỉ học ý tưởng.
 6. Luôn có tùy chọn tắt âm thanh và giảm chuyển động (`prefers-reduced-motion`). Hạn chế thu thập dữ liệu cá nhân của trẻ vị thành niên; xếp hạng dùng biệt danh và có thể tắt; không quảng cáo.
 
+## Chuẩn nội dung
+Xem `docs/chuan-noi-dung.md` (30 câu/chuyên đề chia 10/10/10 theo độ khó; mỗi lượt bốc 10 câu dễ→khó; `choiceExplanations` bắt buộc; đáp án đúng rải đều A/B/C/D; không kiểm tra điều chưa dạy; chuyên đề mới theo Anh-Mỹ; nhãn cấp độ chuyên đề không hiển thị cho người học). **Nội dung đầy đủ bản cũ nằm trên Google Drive** (`TrainingZone_ContentStore_DoNotDelete`, tệp `grammar__<topicId>.json`), chưa có trong repo.
+
 ## Hiện trạng kỹ thuật
 Đã dựng khung Next.js 16.4 (Cache Components bật) + React 19 + Tailwind 4, Nunito qua `next/font`. Đã có Supabase (client, đăng nhập ẩn danh, bảng `profiles`/`answers` trong `supabase/migrations/0001_init.sql`, lớp `src/lib/db`); chưa cài shadcn/ui, `@dnd-kit` (thêm khi cần). Có: 3 skin giao diện bằng biến CSS (`[data-skin]` trên `<html>`: explore, adventure, space), `ExerciseRunner` (một câu mỗi lần, combo, sao, pháo giấy, tắt âm, tôn trọng giảm chuyển động), mô hình nội dung `src/lib/content/types.ts`, khu Học: `/hoc` (23 chuyên đề ngữ pháp tiếng Anh, lý thuyết chuyển từ bản cũ sang `src/content/grammar/en/*.json`), `/hoc/[topic]`, `/hoc/[topic]/luyen-tap`; bài tập mới có 18 câu cho `present-simple` (`src/content/exercises/en/`). **Ngân hàng bài tập cũ (330 câu, 11 chuyên đề) KHÔNG nằm trong repo** (ở backend Google Apps Script/Drive); cần chủ dự án cung cấp hoặc soạn mới. Kiểm tra nội dung: `npm run check:content`. Chi tiết cấu trúc: `README.md`. Mã cũ nằm ở `legacy/` (không build, không lint).
 

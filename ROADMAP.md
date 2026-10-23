@@ -22,8 +22,9 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 
 ## Giai đoạn 1 — Lõi học và luyện (ưu tiên cao nhất)
 - [x] Lý thuyết 23 chuyên đề tiếng Anh đã chuyển sang JSON (`src/content/grammar/en`), có trang `/hoc` và `/hoc/[topic]`; validator `npm run check:content`.
-- [ ] Ngân hàng bài tập: nhập bản cũ (330 câu/11 chuyên đề, cần chủ dự án gửi từ GAS/Drive) và soạn cho 12 chuyên đề còn lại. Mẫu chuẩn: `present-simple` (18 câu, có giải thích từng đáp án, gắn `usageId`).
-- [ ] Rà soát nhãn cấp độ từng chuyên đề theo CEFR (hiện lấy nguyên từ bản cũ, một số ghi 2 cấp như A1/A2).
+- [ ] Ngân hàng bài tập: nhập bản cũ từ Drive (`grammar__<topicId>.json`, theo ghi chú cũ khoảng 17–23 chuyên đề × 30 câu; cần chủ dự án tải về `import/grammar/`, xem `docs/chuan-noi-dung.md`) và soạn cho 12 chuyên đề còn lại. Mẫu chuẩn: `present-simple` (18 câu, có giải thích từng đáp án, gắn `usageId`).
+- [x] Nhãn cấp độ của chuyên đề không hiển thị cho người học (quyết định cũ). [ ] Gắn cấp CEFR ở mức từng câu và mô tả năng lực (giai đoạn 3).
+- [x] Mỗi lượt bốc 10 câu theo từng mức độ khó, xếp dễ → khó. [ ] Chế độ "Nhức đầu" (10 câu khó).
 - [x] `commonMistakes` đã tách thành {mô tả, cặp ví dụ sai/đúng, ghi chú} (105/106 mục có ví dụ). [ ] Gắn thẻ lỗi (`tags`) cho từng mục để nối với bài tập và phân tích.
 - [ ] Mô hình dữ liệu nội dung dùng chung: mục học (từ, cụm, chủ điểm ngữ pháp, bài đọc, bài nghe), gắn **ngôn ngữ, thang, cấp độ, kỹ năng, chủ đề, thẻ lỗi (tag)**.
 - [ ] Khu Học → Bài tập: một câu mỗi lần, tiến độ, phản hồi tức thì, kết quả cuối bài, làm lại câu sai.
