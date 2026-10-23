@@ -151,13 +151,76 @@
       }
     ],
     "commonMistakes": [
-      "Sai: `a red small old car`. **ĐÚNG**: `a small old red car` (thứ tự OSASCOMP: Kích thước → Tuổi → Màu sắc).",
-      "Sai: `She arrives always on time.` **ĐÚNG**: `She always arrives on time.` (trạng từ tần suất đứng trước động từ thường).",
-      "Sai: `She is late always.` **ĐÚNG**: `She is always late.` (trạng từ tần suất đứng sau động từ 'to be').",
-      "Sai: `The bag is enough big to carry all my books.` **ĐÚNG**: `The bag is big enough to carry all my books.` ('enough' đứng sau tính từ, không đứng trước).",
-      "Sai: `I am boring with this lecture.` **ĐÚNG**: `I am bored with this lecture.` (dùng dạng '-ed' để diễn tả cảm giác của bản thân, không phải '-ing').",
-      "Sai: `an interesting something to read` **ĐÚNG**: `something interesting to read` (tính từ đứng sau đại từ bất định -thing/-body/-one, không đứng trước).",
-      "Sai: `He walks too fast enough to catch the bus.` **ĐÚNG**: `He walks fast enough to catch the bus.` (không trộn lẫn 'too' và 'enough' trong cùng một cụm bổ nghĩa)."
+      {
+        "id": "adjective-adverb-order-m1",
+        "examples": [
+          {
+            "wrong": "a red small old car",
+            "correct": "a small old red car"
+          }
+        ],
+        "note": "Thứ tự OSASCOMP: Kích thước → Tuổi → Màu sắc."
+      },
+      {
+        "id": "adjective-adverb-order-m2",
+        "note": "Trạng từ tần suất đứng trước động từ thường.",
+        "examples": [
+          {
+            "wrong": "She arrives always on time.",
+            "correct": "She always arrives on time."
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-m3",
+        "note": "Trạng từ tần suất đứng sau động từ 'to be'.",
+        "examples": [
+          {
+            "wrong": "She is late always.",
+            "correct": "She is always late."
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-m4",
+        "note": "'enough' đứng sau tính từ, không đứng trước.",
+        "examples": [
+          {
+            "wrong": "The bag is enough big to carry all my books.",
+            "correct": "The bag is big enough to carry all my books."
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-m5",
+        "note": "Dùng dạng '-ed' để diễn tả cảm giác của bản thân, không phải '-ing'.",
+        "examples": [
+          {
+            "wrong": "I am boring with this lecture.",
+            "correct": "I am bored with this lecture."
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-m6",
+        "note": "Tính từ đứng sau đại từ bất định -thing/-body/-one, không đứng trước.",
+        "examples": [
+          {
+            "wrong": "an interesting something to read",
+            "correct": "something interesting to read"
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-m7",
+        "note": "Không trộn lẫn 'too' và 'enough' trong cùng một cụm bổ nghĩa.",
+        "examples": [
+          {
+            "wrong": "He walks too fast enough to catch the bus.",
+            "correct": "He walks fast enough to catch the bus."
+          }
+        ]
+      }
     ]
   }
 }

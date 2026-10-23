@@ -120,10 +120,46 @@
       }
     ],
     "commonMistakes": [
-      "Dùng Quá khứ đơn thay vì Hiện tại hoàn thành khi câu có 'since/for': hành động bắt đầu trong quá khứ và còn tiếp diễn đến hiện tại phải dùng Hiện tại hoàn thành, không dùng Quá khứ đơn. SAI: I lived in this city since 2015. ĐÚNG: I have lived in this city since 2015.",
-      "Chia lại động từ chính thành dạng '-ed' sau khi câu phủ định/nghi vấn đã có 'did': trợ động từ 'did' đã mang chức năng chỉ thì quá khứ, động từ chính phải giữ nguyên dạng nguyên mẫu, không chia thêm lần nữa. SAI: Did you went to school yesterday? ĐÚNG: Did you go to school yesterday?",
-      "Chia sai động từ bất quy tắc theo công thức thêm '-ed': không phải mọi động từ đều thêm '-ed' ở Quá khứ đơn, cần học thuộc bảng động từ bất quy tắc (go→went, buy→bought...). SAI: She goed to the market by bike. ĐÚNG: She went to the market by bike.",
-      "Chỉ thêm 'not' sau động từ mà quên trợ động từ 'did' trong câu phủ định: câu phủ định Quá khứ đơn bắt buộc phải có 'did not/didn't' đứng trước động từ nguyên mẫu. SAI: I not finished my homework last night. ĐÚNG: I didn't finish my homework last night."
+      {
+        "id": "past-simple-m1",
+        "description": "Dùng Quá khứ đơn thay vì Hiện tại hoàn thành khi câu có 'since/for': hành động bắt đầu trong quá khứ và còn tiếp diễn đến hiện tại phải dùng Hiện tại hoàn thành, không dùng Quá khứ đơn.",
+        "examples": [
+          {
+            "wrong": "I lived in this city since 2015.",
+            "correct": "I have lived in this city since 2015."
+          }
+        ]
+      },
+      {
+        "id": "past-simple-m2",
+        "description": "Chia lại động từ chính thành dạng '-ed' sau khi câu phủ định/nghi vấn đã có 'did': trợ động từ 'did' đã mang chức năng chỉ thì quá khứ, động từ chính phải giữ nguyên dạng nguyên mẫu, không chia thêm lần nữa.",
+        "examples": [
+          {
+            "wrong": "Did you went to school yesterday?",
+            "correct": "Did you go to school yesterday?"
+          }
+        ]
+      },
+      {
+        "id": "past-simple-m3",
+        "description": "Chia sai động từ bất quy tắc theo công thức thêm '-ed': không phải mọi động từ đều thêm '-ed' ở Quá khứ đơn, cần học thuộc bảng động từ bất quy tắc (go→went, buy→bought...)",
+        "examples": [
+          {
+            "wrong": "She goed to the market by bike.",
+            "correct": "She went to the market by bike."
+          }
+        ]
+      },
+      {
+        "id": "past-simple-m4",
+        "description": "Chỉ thêm 'not' sau động từ mà quên trợ động từ 'did' trong câu phủ định: câu phủ định Quá khứ đơn bắt buộc phải có 'did not/didn't' đứng trước động từ nguyên mẫu.",
+        "examples": [
+          {
+            "wrong": "I not finished my homework last night.",
+            "correct": "I didn't finish my homework last night."
+          }
+        ]
+      }
     ],
     "formulas": {
       "affirmative": "S + V-ed (động từ có quy tắc) / S + V2 (động từ bất quy tắc — phải học thuộc theo bảng, không thêm '-ed') + O",

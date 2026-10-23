@@ -117,10 +117,50 @@
       }
     ],
     "commonMistakes": [
-      "Lỗi chia thì tiếp diễn cho các động từ chỉ trạng thái (state verbs) như like, want, know, believe, belong, understand — các động từ này thường KHÔNG dùng ở thì tiếp diễn vì diễn tả trạng thái tĩnh chứ không phải hành động đang xảy ra. Ví dụ sai: 'I am liking this song very much.' ĐÚNG: 'I like this song very much.'",
-      "Lỗi quên trợ động từ am/is/are khi chia thể khẳng định hoặc nghi vấn. Ví dụ sai: 'She cooking dinner right now.' ĐÚNG: 'She is cooking dinner right now.'",
-      "Lỗi thêm đuôi '-ing' sai chính tả: quên bỏ 'e' câm ở cuối động từ (write, make, take...) hoặc quên nhân đôi phụ âm cuối ở động từ 1 âm tiết kết thúc bằng 1 phụ âm sau 1 nguyên âm ngắn (run, sit, stop...). Ví dụ sai: 'He is writeing a report now.' / 'They are runing in the park.' ĐÚNG: 'He is writing a report now.' / 'They are running in the park.'",
-      "Lỗi dùng thì hiện tại tiếp diễn cho thói quen hoặc sự thật chung chung (nên dùng hiện tại đơn) thay vì một hành động đang thực sự diễn ra. Ví dụ sai: 'The Earth is going around the Sun.' ĐÚNG: 'The Earth goes around the Sun.'"
+      {
+        "id": "present-continuous-m1",
+        "description": "Lỗi chia thì tiếp diễn cho các động từ chỉ trạng thái (state verbs) như like, want, know, believe, belong, understand — các động từ này thường KHÔNG dùng ở thì tiếp diễn vì diễn tả trạng thái tĩnh chứ không phải hành động đang xảy ra.",
+        "examples": [
+          {
+            "wrong": "I am liking this song very much.",
+            "correct": "I like this song very much."
+          }
+        ]
+      },
+      {
+        "id": "present-continuous-m2",
+        "description": "Lỗi quên trợ động từ am/is/are khi chia thể khẳng định hoặc nghi vấn.",
+        "examples": [
+          {
+            "wrong": "She cooking dinner right now.",
+            "correct": "She is cooking dinner right now."
+          }
+        ]
+      },
+      {
+        "id": "present-continuous-m3",
+        "description": "Lỗi thêm đuôi '-ing' sai chính tả: quên bỏ 'e' câm ở cuối động từ (write, make, take...) hoặc quên nhân đôi phụ âm cuối ở động từ 1 âm tiết kết thúc bằng 1 phụ âm sau 1 nguyên âm ngắn (run, sit, stop...).",
+        "examples": [
+          {
+            "wrong": "He is writeing a report now.",
+            "correct": "He is writing a report now."
+          },
+          {
+            "wrong": "They are runing in the park.",
+            "correct": "They are running in the park."
+          }
+        ]
+      },
+      {
+        "id": "present-continuous-m4",
+        "description": "Lỗi dùng thì hiện tại tiếp diễn cho thói quen hoặc sự thật chung chung (nên dùng hiện tại đơn) thay vì một hành động đang thực sự diễn ra.",
+        "examples": [
+          {
+            "wrong": "The Earth is going around the Sun.",
+            "correct": "The Earth goes around the Sun."
+          }
+        ]
+      }
     ],
     "formulas": {
       "affirmative": "S + am/is/are + V-ing. Lưu ý cách thêm '-ing': động từ 1 âm tiết tận cùng bằng 1 phụ âm đứng sau 1 nguyên âm ngắn thì nhân đôi phụ âm cuối (run → running, sit → sitting, stop → stopping); động từ tận cùng bằng 'e' câm thì bỏ 'e' rồi thêm '-ing' (write → writing, make → making, take → taking); động từ tận cùng bằng '-ie' thì đổi thành 'y' rồi thêm '-ing' (lie → lying, die → dying).",

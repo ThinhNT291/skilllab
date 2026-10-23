@@ -135,9 +135,37 @@
       }
     ],
     "commonMistakes": [
-      "Sử dụng 'that' sau dấu phẩy. Đây là lỗi cực kỳ phổ biến. Mệnh đề có dấu phẩy (không xác định) bắt buộc phải dùng 'who/whom' cho người hoặc 'which' cho vật. Ví dụ sai: 'Hanoi, that is the capital of Vietnam...' (Phải dùng 'which').",
-      "Giữ lại đại từ nhân xưng thừa trong mệnh đề quan hệ. Khi đại từ quan hệ đã làm chủ ngữ hoặc tân ngữ, ta không được để lại từ chỉ ngôi cũ nữa. Ví dụ sai: 'The man who he is reading a book is my dad.' (Chữ 'he' bị thừa, phải bỏ đi).",
-      "Dùng 'what' để bổ nghĩa cho danh từ đứng trước nó thay vì dùng 'which/that'. 'What' mang nghĩa 'những gì' và bản thân nó là một mệnh đề danh ngữ, không phải đại từ quan hệ bổ nghĩa cho danh từ. Ví dụ sai: 'The car what I bought...' (Phải dùng 'which/that')."
+      {
+        "id": "relative-clauses-m1",
+        "description": "Sử dụng 'that' sau dấu phẩy. Đây là lỗi cực kỳ phổ biến: mệnh đề có dấu phẩy (không xác định) bắt buộc phải dùng 'who/whom' cho người hoặc 'which' cho vật.",
+        "examples": [
+          {
+            "wrong": "Hanoi, that is the capital of Vietnam...",
+            "correct": "Hanoi, which is the capital of Vietnam..."
+          }
+        ]
+      },
+      {
+        "id": "relative-clauses-m2",
+        "description": "Giữ lại đại từ nhân xưng thừa trong mệnh đề quan hệ. Khi đại từ quan hệ đã làm chủ ngữ hoặc tân ngữ, không được để lại từ chỉ ngôi cũ nữa.",
+        "examples": [
+          {
+            "wrong": "The man who he is reading a book is my dad.",
+            "correct": "The man who is reading a book is my dad."
+          }
+        ],
+        "note": "Chữ 'he' bị thừa, phải bỏ đi."
+      },
+      {
+        "id": "relative-clauses-m3",
+        "description": "Dùng 'what' để bổ nghĩa cho danh từ đứng trước nó thay vì dùng 'which/that'. 'What' mang nghĩa 'những gì' và bản thân nó là một mệnh đề danh ngữ, không phải đại từ quan hệ bổ nghĩa cho danh từ.",
+        "examples": [
+          {
+            "wrong": "The car what I bought...",
+            "correct": "The car which/that I bought..."
+          }
+        ]
+      }
     ]
   }
 }

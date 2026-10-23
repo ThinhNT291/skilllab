@@ -121,11 +121,61 @@
       }
     ],
     "commonMistakes": [
-      "Lỗi dùng quá khứ đơn thay vì quá khứ tiếp diễn cho hành động đang diễn ra (hành động nền) khi bị một hành động khác xen vào. Ví dụ sai: 'I read a book when the doorbell rang.' ĐÚNG: 'I was reading a book when the doorbell rang.'",
-      "Lỗi chia sai 'was/were' theo chủ ngữ: 'was' dùng cho I/He/She/It, 'were' dùng cho You/We/They. Ví dụ sai: 'They was watching TV at 9 p.m.' ĐÚNG: 'They were watching TV at 9 p.m.'",
-      "Lỗi quên thêm đuôi -ing hoặc viết sai chính tả khi thêm -ing (gấp đôi phụ âm cuối, bỏ 'e' câm...). Ví dụ sai: 'She was siting at her desk and writeing a letter.' ĐÚNG: 'She was sitting at her desk and writing a letter.'",
-      "Lỗi nhầm lẫn giữa 'when' và 'while': 'while' thường đi với hành động dài (quá khứ tiếp diễn), còn 'when' thường đứng trước hành động ngắn (quá khứ đơn) xen vào hành động dài. Ví dụ sai: 'While the phone rang, I was taking a shower.' ĐÚNG: 'While I was taking a shower, the phone rang.' (hoặc 'I was taking a shower when the phone rang.')",
-      "Lỗi thiếu trợ động từ 'was/were' khi đặt câu hỏi, hoặc chia kép/thừa 'not' trong câu phủ định. Ví dụ sai: 'You working late last night?' (thiếu trợ động từ) và 'He wasn't studying not.' (thừa 'not'). ĐÚNG: 'Were you working late last night?' và 'He wasn't studying.'"
+      {
+        "id": "past-continuous-m1",
+        "description": "Lỗi dùng quá khứ đơn thay vì quá khứ tiếp diễn cho hành động đang diễn ra (hành động nền) khi bị một hành động khác xen vào.",
+        "examples": [
+          {
+            "wrong": "I read a book when the doorbell rang.",
+            "correct": "I was reading a book when the doorbell rang."
+          }
+        ]
+      },
+      {
+        "id": "past-continuous-m2",
+        "description": "Lỗi chia sai 'was/were' theo chủ ngữ: 'was' dùng cho I/He/She/It, 'were' dùng cho You/We/They.",
+        "examples": [
+          {
+            "wrong": "They was watching TV at 9 p.m.",
+            "correct": "They were watching TV at 9 p.m."
+          }
+        ]
+      },
+      {
+        "id": "past-continuous-m3",
+        "description": "Lỗi quên thêm đuôi -ing hoặc viết sai chính tả khi thêm -ing (gấp đôi phụ âm cuối, bỏ 'e' câm...)",
+        "examples": [
+          {
+            "wrong": "She was siting at her desk and writeing a letter.",
+            "correct": "She was sitting at her desk and writing a letter."
+          }
+        ]
+      },
+      {
+        "id": "past-continuous-m4",
+        "description": "Lỗi nhầm lẫn giữa 'when' và 'while': 'while' thường đi với hành động dài (quá khứ tiếp diễn), còn 'when' thường đứng trước hành động ngắn (quá khứ đơn) xen vào hành động dài.",
+        "note": "Hoặc 'I was taking a shower when the phone rang.'.",
+        "examples": [
+          {
+            "wrong": "While the phone rang, I was taking a shower.",
+            "correct": "While I was taking a shower, the phone rang."
+          }
+        ]
+      },
+      {
+        "id": "past-continuous-m5",
+        "description": "Lỗi thiếu trợ động từ 'was/were' khi đặt câu hỏi, hoặc chia kép/thừa 'not' trong câu phủ định.",
+        "examples": [
+          {
+            "wrong": "You working late last night?",
+            "correct": "Were you working late last night?"
+          },
+          {
+            "wrong": "He wasn't studying not.",
+            "correct": "He wasn't studying."
+          }
+        ]
+      }
     ],
     "formulas": {
       "affirmative": "I/He/She/It + was + V-ing. Ví dụ: I was studying at 8 p.m. yesterday. | You/We/They + were + V-ing. Ví dụ: They were studying at 8 p.m. yesterday.",

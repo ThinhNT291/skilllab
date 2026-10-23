@@ -120,10 +120,50 @@
       }
     ],
     "commonMistakes": [
-      "Lỗi quên thêm -s/-es vào động từ khi chủ ngữ là ngôi thứ ba số ít (he/she/it). Ví dụ sai: 'My sister work in a hospital.' ĐÚNG: 'My sister works in a hospital.'",
-      "Lỗi chia động từ chỉ trạng thái (state verbs) ở dạng tiếp diễn (-ing) thay vì dùng hiện tại đơn. Ví dụ sai: 'I am wanting a cup of tea right now.' ĐÚNG: 'I want a cup of tea right now.'",
-      "Lỗi đặt sai vị trí trạng từ chỉ tần suất: với động từ thường, trạng từ đứng TRƯỚC động từ chính, nhưng với động từ 'to be', trạng từ đứng SAU 'to be'. Ví dụ sai: 'She goes always to school by bike.' và 'She always is late.' ĐÚNG: 'She always goes to school by bike.' và 'She is always late.'",
-      "Lỗi chia kép (double marking): khi câu phủ định hoặc nghi vấn đã có 'does', động từ chính phải giữ nguyên thể, không thêm -s nữa. Ví dụ sai: 'Does he plays football on Sundays?' ĐÚNG: 'Does he play football on Sundays?'"
+      {
+        "id": "present-simple-m1",
+        "description": "Lỗi quên thêm -s/-es vào động từ khi chủ ngữ là ngôi thứ ba số ít (he/she/it)",
+        "examples": [
+          {
+            "wrong": "My sister work in a hospital.",
+            "correct": "My sister works in a hospital."
+          }
+        ]
+      },
+      {
+        "id": "present-simple-m2",
+        "description": "Lỗi chia động từ chỉ trạng thái (state verbs) ở dạng tiếp diễn (-ing) thay vì dùng hiện tại đơn.",
+        "examples": [
+          {
+            "wrong": "I am wanting a cup of tea right now.",
+            "correct": "I want a cup of tea right now."
+          }
+        ]
+      },
+      {
+        "id": "present-simple-m3",
+        "description": "Lỗi đặt sai vị trí trạng từ chỉ tần suất: với động từ thường, trạng từ đứng TRƯỚC động từ chính, nhưng với động từ 'to be', trạng từ đứng SAU 'to be'.",
+        "examples": [
+          {
+            "wrong": "She goes always to school by bike.",
+            "correct": "She always goes to school by bike."
+          },
+          {
+            "wrong": "She always is late.",
+            "correct": "She is always late."
+          }
+        ]
+      },
+      {
+        "id": "present-simple-m4",
+        "description": "Lỗi chia kép (double marking): khi câu phủ định hoặc nghi vấn đã có 'does', động từ chính phải giữ nguyên thể, không thêm -s nữa.",
+        "examples": [
+          {
+            "wrong": "Does he plays football on Sundays?",
+            "correct": "Does he play football on Sundays?"
+          }
+        ]
+      }
     ],
     "formulas": {
       "affirmative": "I/You/We/They + V (nguyên thể). Ví dụ: I work every day. | He/She/It + V-s/es. Ví dụ: He works every day.",

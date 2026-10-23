@@ -64,13 +64,20 @@ export interface GrammarUsage {
   examples: GrammarExample[]
 }
 
+/** Một lỗi thường gặp: mô tả lỗi, các cặp ví dụ sai/đúng và giải thích. Có thể chỉ có mô tả (chưa có ví dụ). */
+export interface GrammarMistake {
+  id: string
+  description?: string
+  examples: { wrong: string; correct: string }[]
+  note?: string
+}
+
 export interface GrammarTheory {
   usages: GrammarUsage[]
   /** Công thức theo dạng câu (khẳng định, phủ định, nghi vấn...). Một số chuyên đề chưa có */
   formulas?: Record<string, string>
   signalWords: { word: string; meaningVi: string }[]
-  /** Mỗi mục là một đoạn văn bản (lỗi + ví dụ sai/đúng). Chưa tách cấu trúc */
-  commonMistakes: string[]
+  commonMistakes: GrammarMistake[]
 }
 
 /** Thông tin ngắn của chuyên đề, dùng cho danh sách/lộ trình. */

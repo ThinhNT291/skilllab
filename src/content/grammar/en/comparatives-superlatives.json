@@ -120,10 +120,54 @@
       }
     ],
     "commonMistakes": [
-      "Dùng cả **more** và **-er** cùng lúc, hoặc dùng **-er** cho tính từ dài thay vì **more**. Ví dụ sai: `She is more taller than me.` ĐÚNG: `She is taller than me.` / Ví dụ sai: `This book is interestinger than that one.` ĐÚNG: `This book is more interesting than that one.`",
-      "Quên **the** bắt buộc trước so sánh nhất. Ví dụ sai: `He is tallest student in the class.` ĐÚNG: `He is the tallest student in the class.`",
-      "Sai quy tắc chính tả khi thêm **-er/-est**: không nhân đôi phụ âm cuối, không đổi y→i, hoặc thêm dư -e. Ví dụ sai: `This bag is biger than mine.` / `She is the happyest person I know.` ĐÚNG: `This bag is bigger than mine.` / `She is the happiest person I know.`",
-      "Nhầm lẫn giữa `than` (dùng trong câu so sánh) và `then` (chỉ trình tự thời gian, nghĩa 'sau đó'). Ví dụ sai: `My score is higher then hers.` ĐÚNG: `My score is higher than hers.`"
+      {
+        "id": "comparatives-superlatives-m1",
+        "description": "Dùng cả more và -er cùng lúc, hoặc dùng -er cho tính từ dài thay vì more.",
+        "examples": [
+          {
+            "wrong": "She is more taller than me.",
+            "correct": "She is taller than me."
+          },
+          {
+            "wrong": "This book is interestinger than that one.",
+            "correct": "This book is more interesting than that one."
+          }
+        ]
+      },
+      {
+        "id": "comparatives-superlatives-m2",
+        "description": "Quên the bắt buộc trước so sánh nhất.",
+        "examples": [
+          {
+            "wrong": "He is tallest student in the class.",
+            "correct": "He is the tallest student in the class."
+          }
+        ]
+      },
+      {
+        "id": "comparatives-superlatives-m3",
+        "description": "Sai quy tắc chính tả khi thêm -er/-est: không nhân đôi phụ âm cuối, không đổi y→i, hoặc thêm dư -e.",
+        "examples": [
+          {
+            "wrong": "This bag is biger than mine.",
+            "correct": "This bag is bigger than mine."
+          },
+          {
+            "wrong": "She is the happyest person I know.",
+            "correct": "She is the happiest person I know."
+          }
+        ]
+      },
+      {
+        "id": "comparatives-superlatives-m4",
+        "description": "Nhầm lẫn giữa than (dùng trong câu so sánh) và then (chỉ trình tự thời gian, nghĩa 'sau đó')",
+        "examples": [
+          {
+            "wrong": "My score is higher then hers.",
+            "correct": "My score is higher than hers."
+          }
+        ]
+      }
     ]
   }
 }

@@ -120,9 +120,37 @@
       }
     ],
     "commonMistakes": [
-      "Quên biến đổi động từ 'to be' theo thì của câu gốc. Ví dụ: Viết sai 'The letter be sent yesterday' thay vì câu đúng 'The letter was sent yesterday'.",
-      "Nhầm lẫn giữa phân từ 2 (V3) và quá khứ đơn (V2) đối với các động từ bất quy tắc. Ví dụ: Viết sai 'The window was broke' thay vì câu đúng 'The window was broken'.",
-      "Lạm dụng 'by + tân ngữ' ngay cả khi không cần thiết. Nhiều người học hay viết 'The street is cleaned by people', trong khi chỉ cần nói 'The street is cleaned' là đã đủ tự nhiên và chính xác."
+      {
+        "id": "passive-voice-m1",
+        "description": "Quên biến đổi động từ 'to be' theo thì của câu gốc.",
+        "examples": [
+          {
+            "wrong": "The letter be sent yesterday.",
+            "correct": "The letter was sent yesterday."
+          }
+        ]
+      },
+      {
+        "id": "passive-voice-m2",
+        "description": "Nhầm lẫn giữa phân từ 2 (V3) và quá khứ đơn (V2) đối với các động từ bất quy tắc.",
+        "examples": [
+          {
+            "wrong": "The window was broke.",
+            "correct": "The window was broken."
+          }
+        ]
+      },
+      {
+        "id": "passive-voice-m3",
+        "description": "Lạm dụng 'by + tân ngữ' ngay cả khi không cần thiết.",
+        "examples": [
+          {
+            "wrong": "The street is cleaned by people.",
+            "correct": "The street is cleaned."
+          }
+        ],
+        "note": "Chỉ cần nói \"The street is cleaned\" là đã đủ tự nhiên và chính xác."
+      }
     ],
     "formulas": {
       "affirmative": "S + be + V3/Ved",

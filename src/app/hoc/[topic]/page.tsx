@@ -83,7 +83,7 @@ export default async function TopicPage({ params }: PageProps<"/hoc/[topic]">) {
           <h2 className="mb-2 mt-8 text-xl font-extrabold">Dấu hiệu nhận biết</h2>
           <ul className="flex flex-wrap gap-2">
             {theory.signalWords.map((s) => (
-              <li key={s.word} className="rounded-full border-2 border-border bg-card px-3 py-1">
+              <li key={s.word} className="max-w-full break-words rounded-2xl border-2 border-border bg-card px-3 py-1">
                 <span className="font-extrabold">{s.word}</span> <span className="text-sm text-muted-foreground">{s.meaningVi}</span>
               </li>
             ))}
@@ -95,9 +95,28 @@ export default async function TopicPage({ params }: PageProps<"/hoc/[topic]">) {
         <>
           <h2 className="mb-2 mt-8 text-xl font-extrabold">Lỗi thường gặp</h2>
           <ul className="space-y-3">
-            {theory.commonMistakes.map((m, i) => (
-              <li key={i} className="rounded-game border-2 border-danger-soft bg-card p-4 font-semibold leading-relaxed">
-                {m}
+            {theory.commonMistakes.map((m) => (
+              <li key={m.id} id={m.id} className="scroll-mt-4 rounded-game border-2 border-border bg-card p-4 leading-relaxed target:border-primary">
+                {m.description && <p className="font-semibold">{m.description}</p>}
+                {m.examples.length > 0 && (
+                  <ul className="mt-2 space-y-2">
+                    {m.examples.map((e, k) => (
+                      <li key={k} className="space-y-1">
+                        <p className="rounded-lg bg-danger-soft px-3 py-1.5">
+                          <span aria-hidden="true">❌ </span>
+                          <span className="sr-only">Sai: </span>
+                          {e.wrong}
+                        </p>
+                        <p className="rounded-lg bg-success-soft px-3 py-1.5">
+                          <span aria-hidden="true">✅ </span>
+                          <span className="sr-only">Đúng: </span>
+                          {e.correct}
+                        </p>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {m.note && <p className="mt-2 text-sm text-muted-foreground">{m.note}</p>}
               </li>
             ))}
           </ul>

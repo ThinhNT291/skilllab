@@ -116,11 +116,56 @@
       }
     ],
     "commonMistakes": [
-      "Lỗi dùng 'will' trong mệnh đề thời gian bắt đầu bằng when/as soon as/before/after/until/by the time - mệnh đề này phải chia ở thì hiện tại đơn dù mang nghĩa tương lai. Ví dụ sai: 'I will call you when I will arrive home.' ĐÚNG: 'I will call you when I arrive home.'",
-      "Lỗi chia 'will' theo chủ ngữ (thêm -s như động từ thường) - 'will' là trợ động từ khiếm khuyết (modal verb), giữ nguyên ở mọi ngôi. Ví dụ sai: 'She wills help you tomorrow.' ĐÚNG: 'She will help you tomorrow.'",
-      "Lỗi quên đảo 'will' lên trước chủ ngữ khi đặt câu hỏi. Ví dụ sai: 'You will come to the party tonight?' ĐÚNG: 'Will you come to the party tonight?'",
-      "Lỗi viết thiếu dấu nháy đơn hoặc quên 'not' khi viết câu phủ định rút gọn của 'will not'. Ví dụ sai: 'I wont be late for the meeting.' ĐÚNG: 'I won't be late for the meeting.'",
-      "Lỗi dùng 'will' khi tình huống thực ra là một dự định/kế hoạch đã được quyết định từ trước (nên dùng 'be going to'), chứ không phải quyết định tức thời. Ví dụ sai: 'I've already bought the train tickets - I will visit my hometown next week.' ĐÚNG: 'I've already bought the train tickets - I'm going to visit my hometown next week.'"
+      {
+        "id": "future-simple-m1",
+        "description": "Lỗi dùng 'will' trong mệnh đề thời gian bắt đầu bằng when/as soon as/before/after/until/by the time - mệnh đề này phải chia ở thì hiện tại đơn dù mang nghĩa tương lai.",
+        "examples": [
+          {
+            "wrong": "I will call you when I will arrive home.",
+            "correct": "I will call you when I arrive home."
+          }
+        ]
+      },
+      {
+        "id": "future-simple-m2",
+        "description": "Lỗi chia 'will' theo chủ ngữ (thêm -s như động từ thường) - 'will' là trợ động từ khiếm khuyết (modal verb), giữ nguyên ở mọi ngôi.",
+        "examples": [
+          {
+            "wrong": "She wills help you tomorrow.",
+            "correct": "She will help you tomorrow."
+          }
+        ]
+      },
+      {
+        "id": "future-simple-m3",
+        "description": "Lỗi quên đảo 'will' lên trước chủ ngữ khi đặt câu hỏi.",
+        "examples": [
+          {
+            "wrong": "You will come to the party tonight?",
+            "correct": "Will you come to the party tonight?"
+          }
+        ]
+      },
+      {
+        "id": "future-simple-m4",
+        "description": "Lỗi viết thiếu dấu nháy đơn hoặc quên 'not' khi viết câu phủ định rút gọn của 'will not'.",
+        "examples": [
+          {
+            "wrong": "I wont be late for the meeting.",
+            "correct": "I won't be late for the meeting."
+          }
+        ]
+      },
+      {
+        "id": "future-simple-m5",
+        "description": "Lỗi dùng 'will' khi tình huống thực ra là một dự định/kế hoạch đã được quyết định từ trước (nên dùng 'be going to'), chứ không phải quyết định tức thời.",
+        "examples": [
+          {
+            "wrong": "I've already bought the train tickets - I will visit my hometown next week.",
+            "correct": "I've already bought the train tickets - I'm going to visit my hometown next week."
+          }
+        ]
+      }
     ],
     "formulas": {
       "affirmative": "S + will + V (nguyên thể) - 'will' không chia theo chủ ngữ ở bất kỳ ngôi nào. Ví dụ: She will arrive tomorrow morning.",

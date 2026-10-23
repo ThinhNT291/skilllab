@@ -168,10 +168,52 @@
       }
     ],
     "commonMistakes": [
-      "Dùng to-V ngay sau giới từ thay vì V-ing, kể cả khi 'to' đóng vai trò giới từ trong các cụm cố định. Sai: *\"I am looking forward to see you soon.\"* ĐÚNG: \"I am looking forward to seeing you soon.\"",
-      "Nhầm lẫn giữa 'be/get used to + V-ing' (quen với việc gì ở hiện tại) và 'used to + V nguyên thể' (thói quen trong quá khứ, nay đã chấm dứt). Sai: *\"She is used to work night shifts now.\"* ĐÚNG: \"She is used to working night shifts now.\" (còn \"She used to work night shifts\" lại mang nghĩa hoàn toàn khác — thói quen quá khứ đã kết thúc).",
-      "Nhầm nghĩa của các động từ đổi nghĩa theo dạng V-ing/to-V như remember, stop, try, regret, dẫn đến hiểu sai hoàn toàn ý câu. Sai (hiểu nhầm ý định): *\"He stopped to smoke after the doctor's warning.\"* (câu này thực chất có nghĩa là 'anh ấy dừng lại để hút thuốc', trái ngược với ý muốn diễn đạt). ĐÚNG (bỏ hẳn thuốc lá): \"He stopped smoking after the doctor's warning.\"",
-      "Dùng nhầm dạng V-ing cho các động từ chỉ đi với to-V (như want, decide, promise, agree...) hoặc ngược lại dùng to-V cho các động từ chỉ đi với V-ing (như enjoy, avoid, finish, suggest...). Sai: *\"I want going home now.\"* / *\"She suggested to leave early.\"* ĐÚNG: \"I want to go home now.\" / \"She suggested leaving early.\""
+      {
+        "id": "gerund-infinitive-m1",
+        "description": "Dùng to-V ngay sau giới từ thay vì V-ing, kể cả khi 'to' đóng vai trò giới từ trong các cụm cố định.",
+        "examples": [
+          {
+            "wrong": "I am looking forward to see you soon.",
+            "correct": "I am looking forward to seeing you soon."
+          }
+        ]
+      },
+      {
+        "id": "gerund-infinitive-m2",
+        "description": "Nhầm lẫn giữa 'be/get used to + V-ing' (quen với việc gì ở hiện tại) và 'used to + V nguyên thể' (thói quen trong quá khứ, nay đã chấm dứt).",
+        "examples": [
+          {
+            "wrong": "She is used to work night shifts now.",
+            "correct": "She is used to working night shifts now."
+          }
+        ],
+        "note": "\"She used to work night shifts\" lại mang nghĩa hoàn toàn khác: thói quen quá khứ đã kết thúc."
+      },
+      {
+        "id": "gerund-infinitive-m3",
+        "description": "Nhầm nghĩa của các động từ đổi nghĩa theo dạng V-ing/to-V như remember, stop, try, regret, dẫn đến hiểu sai hoàn toàn ý câu.",
+        "examples": [
+          {
+            "wrong": "He stopped to smoke after the doctor's warning.",
+            "correct": "He stopped smoking after the doctor's warning."
+          }
+        ],
+        "note": "Câu sai thực chất có nghĩa 'anh ấy dừng lại để hút thuốc', trái với ý muốn diễn đạt (bỏ hẳn thuốc lá)."
+      },
+      {
+        "id": "gerund-infinitive-m4",
+        "description": "Dùng nhầm dạng V-ing cho các động từ chỉ đi với to-V (như want, decide, promise, agree...) hoặc ngược lại dùng to-V cho các động từ chỉ đi với V-ing (như enjoy, avoid, finish, suggest...).",
+        "examples": [
+          {
+            "wrong": "I want going home now.",
+            "correct": "I want to go home now."
+          },
+          {
+            "wrong": "She suggested to leave early.",
+            "correct": "She suggested leaving early."
+          }
+        ]
+      }
     ]
   }
 }

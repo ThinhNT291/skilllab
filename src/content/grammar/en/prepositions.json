@@ -127,9 +127,32 @@
       }
     ],
     "commonMistakes": [
-      "Nhầm lẫn các buổi trong ngày: Chúng ta nói 'in the morning', 'in the afternoon', 'in the evening' nhưng dùng 'at night' hoặc 'at noon' cho các mốc giờ cụ thể; 'in the night' thường chỉ xuất hiện trong một số cụm cố định (in the dead of night, woke up in the night) chứ không dùng thay thế 'at night' một cách tuỳ tiện.",
-      "Dùng sai giới từ với từ 'married': Người Việt hay dịch word-by-word là 'married with' (kết hôn với), nhưng đúng ngữ pháp tiếng Anh chuẩn phải là 'married to'.",
-      "Dùng giới từ chỉ hướng 'to' sau động từ 'arrive': Nhiều người học nói 'arrive to the airport', nhưng cách dùng đúng phải là 'arrive at the airport' (với địa điểm nhỏ) hoặc 'arrive in London' (với thành phố/quốc gia)."
+      {
+        "id": "prepositions-m1",
+        "description": "Nhầm lẫn các buổi trong ngày: nói 'in the morning', 'in the afternoon', 'in the evening' nhưng dùng 'at night' hoặc 'at noon'; 'in the night' thường chỉ xuất hiện trong một số cụm cố định (in the dead of night, woke up in the night) chứ không dùng thay thế 'at night' một cách tuỳ tiện.",
+        "examples": []
+      },
+      {
+        "id": "prepositions-m2",
+        "description": "Dùng sai giới từ với từ 'married': người Việt hay dịch từng từ là 'married with' (kết hôn với), nhưng đúng phải là 'married to'.",
+        "examples": [
+          {
+            "wrong": "married with",
+            "correct": "married to"
+          }
+        ]
+      },
+      {
+        "id": "prepositions-m3",
+        "description": "Dùng giới từ chỉ hướng 'to' sau động từ 'arrive'.",
+        "examples": [
+          {
+            "wrong": "arrive to the airport",
+            "correct": "arrive at the airport"
+          }
+        ],
+        "note": "Dùng 'arrive at' với địa điểm nhỏ; 'arrive in' (vd: arrive in London) với thành phố/quốc gia."
+      }
     ]
   }
 }

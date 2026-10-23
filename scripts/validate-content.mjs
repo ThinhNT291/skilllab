@@ -14,6 +14,7 @@ for (const lang of fs.readdirSync(path.join(root, 'grammar'))) {
   const index = read(path.join(root, 'grammar', lang, 'index.json'))
   const usageIdsByTopic = new Map()
   const seenUsage = new Set()
+  const seenMistake = new Set()
 
   for (const meta of index) {
     topicCount++
@@ -31,6 +32,13 @@ for (const lang of fs.readdirSync(path.join(root, 'grammar'))) {
       for (const e of u.examples ?? []) if (!e.en || !e.vi) at(`usage ${u.id} có ví dụ thiếu en/vi`)
       if (seenUsage.has(u.id)) at(`usage id trùng: ${u.id}`)
       seenUsage.add(u.id); ids.add(u.id)
+    }
+    for (const m of t.theory?.commonMistakes ?? []) {
+      if (typeof m !== 'object' || !m.id) { at(`commonMistakes phải là đối tượng có id: ${JSON.stringify(m).slice(0, 60)}`); continue }
+      if (seenMistake.has(m.id)) at(`mistake id trùng: ${m.id}`)
+      seenMistake.add(m.id)
+      if (!m.description && !m.note && !(m.examples ?? []).length) at(`mistake ${m.id} rỗng`)
+      for (const e of m.examples ?? []) if (!e.wrong || !e.correct || e.wrong === e.correct) at(`mistake ${m.id}: ví dụ thiếu hoặc sai trùng đúng`)
     }
     if (meta.usageCount !== (t.theory?.usages ?? []).length) at(`index.usageCount (${meta.usageCount}) khác số usage thực`)
     usageIdsByTopic.set(meta.id, ids)

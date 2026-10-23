@@ -135,12 +135,71 @@
       }
     ],
     "commonMistakes": [
-      "Nhầm lẫn giữa 'because' (liên từ, theo sau là mệnh đề) và 'because of' (giới từ, theo sau là cụm danh từ) — đây là lỗi phổ biến nhất của chủ điểm này. Sai: `Because the bad traffic, I was late for work.` **ĐÚNG**: `Because of the bad traffic, I was late for work.` (hoặc `Because there was bad traffic, I was late for work.`)",
-      "Dùng 'because of' nhưng lại theo sau bằng cả một mệnh đề có chủ ngữ và động từ. Sai: `Because of it rained heavily, the match was canceled.` **ĐÚNG**: `Because it rained heavily, the match was canceled.` (hoặc `Because of the heavy rain, the match was canceled.`)",
-      "Nhầm lẫn giữa 'although' (liên từ, theo sau là mệnh đề) và 'despite/in spite of' (giới từ, theo sau là danh từ/danh động từ). Sai: `Despite he was very tired, he finished the report.` **ĐÚNG**: `Although he was very tired, he finished the report.` (hoặc `Despite being very tired, he finished the report.`)",
-      "Muốn dùng 'despite/in spite of' trước một mệnh đề đầy đủ nhưng quên thêm cụm nối 'the fact that'. Sai: `In spite of she had no experience, she got the job.` **ĐÚNG**: `In spite of the fact that she had no experience, she got the job.` (hoặc đơn giản hơn: `Although she had no experience, she got the job.`)",
-      "Nhầm lẫn giữa 'so' (đứng trước tính từ/trạng từ đơn thuần) và 'such' (đứng trước cụm danh từ, có thể kèm mạo từ). Sai: `It was so an interesting movie that we watched it twice.` **ĐÚNG**: `It was such an interesting movie that we watched it twice.` (hoặc nếu bỏ danh từ: `The movie was so interesting that we watched it twice.`)",
-      "Dùng động từ nguyên mẫu 'to' để diễn tả mục đích dù chủ ngữ của hai mệnh đề khác nhau. Sai: `I turned on the fan to my brother could cool down.` **ĐÚNG**: `I turned on the fan so that my brother could cool down.`"
+      {
+        "id": "adverbial-clauses-m1",
+        "description": "Nhầm lẫn giữa 'because' (liên từ, theo sau là mệnh đề) và 'because of' (giới từ, theo sau là cụm danh từ) — đây là lỗi phổ biến nhất của chủ điểm này.",
+        "note": "Hoặc Because there was bad traffic, I was late for work.",
+        "examples": [
+          {
+            "wrong": "Because the bad traffic, I was late for work.",
+            "correct": "Because of the bad traffic, I was late for work."
+          }
+        ]
+      },
+      {
+        "id": "adverbial-clauses-m2",
+        "description": "Dùng 'because of' nhưng lại theo sau bằng cả một mệnh đề có chủ ngữ và động từ.",
+        "note": "Hoặc Because of the heavy rain, the match was canceled.",
+        "examples": [
+          {
+            "wrong": "Because of it rained heavily, the match was canceled.",
+            "correct": "Because it rained heavily, the match was canceled."
+          }
+        ]
+      },
+      {
+        "id": "adverbial-clauses-m3",
+        "description": "Nhầm lẫn giữa 'although' (liên từ, theo sau là mệnh đề) và 'despite/in spite of' (giới từ, theo sau là danh từ/danh động từ)",
+        "note": "Hoặc Despite being very tired, he finished the report.",
+        "examples": [
+          {
+            "wrong": "Despite he was very tired, he finished the report.",
+            "correct": "Although he was very tired, he finished the report."
+          }
+        ]
+      },
+      {
+        "id": "adverbial-clauses-m4",
+        "description": "Muốn dùng 'despite/in spite of' trước một mệnh đề đầy đủ nhưng quên thêm cụm nối 'the fact that'.",
+        "note": "Hoặc đơn giản hơn: Although she had no experience, she got the job.",
+        "examples": [
+          {
+            "wrong": "In spite of she had no experience, she got the job.",
+            "correct": "In spite of the fact that she had no experience, she got the job."
+          }
+        ]
+      },
+      {
+        "id": "adverbial-clauses-m5",
+        "description": "Nhầm lẫn giữa 'so' (đứng trước tính từ/trạng từ đơn thuần) và 'such' (đứng trước cụm danh từ, có thể kèm mạo từ)",
+        "note": "Hoặc nếu bỏ danh từ: The movie was so interesting that we watched it twice.",
+        "examples": [
+          {
+            "wrong": "It was so an interesting movie that we watched it twice.",
+            "correct": "It was such an interesting movie that we watched it twice."
+          }
+        ]
+      },
+      {
+        "id": "adverbial-clauses-m6",
+        "description": "Dùng động từ nguyên mẫu 'to' để diễn tả mục đích dù chủ ngữ của hai mệnh đề khác nhau.",
+        "examples": [
+          {
+            "wrong": "I turned on the fan to my brother could cool down.",
+            "correct": "I turned on the fan so that my brother could cool down."
+          }
+        ]
+      }
     ]
   }
 }

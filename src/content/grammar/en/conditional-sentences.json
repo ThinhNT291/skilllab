@@ -136,9 +136,38 @@
       }
     ],
     "commonMistakes": [
-      "Sử dụng thì tương lai (will/would) ngay bên trong mệnh đề 'If'. Ví dụ sai: 'If it will rain...'. Cần nhớ mệnh đề If luôn dùng thì hiện tại/quá khứ, thì tương lai/giả định chỉ dùng ở mệnh đề chính.",
-      "Nhầm lẫn to be 'was' và 'were' trong câu điều kiện loại 2. Trong tiếng Anh chuẩn, đặc biệt ở ngữ cảnh trang trọng, ta phải dùng 'were' cho mọi chủ ngữ (If I were, If she were) thay vì 'was'.",
-      "Quên trợ động từ 'have' trong mệnh đề chính của câu điều kiện loại 3. Ví dụ sai: 'would had done' hoặc 'would done', cách chia đúng luôn phải là 'would have + V3/ed'."
+      {
+        "id": "conditional-sentences-m1",
+        "description": "Sử dụng thì tương lai (will/would) ngay bên trong mệnh đề 'If'.",
+        "examples": [
+          {
+            "wrong": "If it will rain...",
+            "correct": "If it rains..."
+          }
+        ],
+        "note": "Mệnh đề If luôn dùng thì hiện tại/quá khứ; thì tương lai/giả định chỉ dùng ở mệnh đề chính."
+      },
+      {
+        "id": "conditional-sentences-m2",
+        "description": "Nhầm lẫn to be 'was' và 'were' trong câu điều kiện loại 2.",
+        "examples": [
+          {
+            "wrong": "If I was you...",
+            "correct": "If I were you..."
+          }
+        ],
+        "note": "Trong tiếng Anh chuẩn, đặc biệt ở ngữ cảnh trang trọng, dùng 'were' cho mọi chủ ngữ (If I were, If she were) thay vì 'was'."
+      },
+      {
+        "id": "conditional-sentences-m3",
+        "description": "Quên trợ động từ 'have' trong mệnh đề chính của câu điều kiện loại 3.",
+        "examples": [
+          {
+            "wrong": "would had done / would done",
+            "correct": "would have + V3/ed"
+          }
+        ]
+      }
     ]
   }
 }

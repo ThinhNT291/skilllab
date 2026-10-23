@@ -120,10 +120,49 @@
       }
     ],
     "commonMistakes": [
-      "Bỏ qua hoàn toàn mạo từ trước danh từ đếm được số ít vì tiếng Việt không có khái niệm mạo từ. Ví dụ sai: `I have dog and I like it very much.` **ĐÚNG**: `I have a dog and I like it very much.`",
-      "Dùng \"a/an\" trước danh từ không đếm được, vì nghĩ rằng cứ có \"một\" trong đầu là phải thêm \"a/an\". Ví dụ sai: `She gave me an advice before the interview.` **ĐÚNG**: `She gave me some advice before the interview.` (hoặc `a piece of advice`)",
-      "Chọn \"a\" hay \"an\" theo chữ cái viết đầu tiên thay vì âm đọc thực tế của từ đứng ngay sau. Ví dụ sai: `He is a honest man who never lies.` **ĐÚNG**: `He is an honest man who never lies.` (vì \"h\" trong \"honest\" là âm câm, từ này đọc bắt đầu bằng nguyên âm)",
-      "Thêm \"the\" trước danh từ mang nghĩa chung chung, khái quát, trong khi lẽ ra không cần mạo từ nào. Ví dụ sai: `The money can't buy real happiness.` **ĐÚNG**: `Money can't buy real happiness.` (nói về tiền bạc nói chung, không phải một khoản tiền cụ thể)"
+      {
+        "id": "articles-countable-uncountable-m1",
+        "description": "Bỏ qua hoàn toàn mạo từ trước danh từ đếm được số ít vì tiếng Việt không có khái niệm mạo từ.",
+        "examples": [
+          {
+            "wrong": "I have dog and I like it very much.",
+            "correct": "I have a dog and I like it very much."
+          }
+        ]
+      },
+      {
+        "id": "articles-countable-uncountable-m2",
+        "description": "Dùng \"a/an\" trước danh từ không đếm được, vì nghĩ rằng cứ có \"một\" trong đầu là phải thêm \"a/an\"",
+        "note": "Hoặc a piece of advice.",
+        "examples": [
+          {
+            "wrong": "She gave me an advice before the interview.",
+            "correct": "She gave me some advice before the interview."
+          }
+        ]
+      },
+      {
+        "id": "articles-countable-uncountable-m3",
+        "description": "Chọn \"a\" hay \"an\" theo chữ cái viết đầu tiên thay vì âm đọc thực tế của từ đứng ngay sau.",
+        "note": "Vì \"h\" trong \"honest\" là âm câm, từ này đọc bắt đầu bằng nguyên âm.",
+        "examples": [
+          {
+            "wrong": "He is a honest man who never lies.",
+            "correct": "He is an honest man who never lies."
+          }
+        ]
+      },
+      {
+        "id": "articles-countable-uncountable-m4",
+        "description": "Thêm \"the\" trước danh từ mang nghĩa chung chung, khái quát, trong khi lẽ ra không cần mạo từ nào.",
+        "note": "Nói về tiền bạc nói chung, không phải một khoản tiền cụ thể.",
+        "examples": [
+          {
+            "wrong": "The money can't buy real happiness.",
+            "correct": "Money can't buy real happiness."
+          }
+        ]
+      }
     ]
   }
 }

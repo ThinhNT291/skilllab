@@ -117,12 +117,66 @@
       }
     ],
     "commonMistakes": [
-      "Dùng Present Perfect Continuous với động từ trạng thái (stative verbs: know, want, believe, own, love, understand, belong...). Sai: `I have been knowing him for years.` **ĐÚNG**: `I have known him for years.`",
-      "Nhầm với Present Continuous, quên mất trợ động từ 'have/has been'. Sai: `I am studying English for two years.` **ĐÚNG**: `I have been studying English for two years.`",
-      "Bỏ sót từ 'been' trong công thức, chỉ chia have/has + V-ing. Sai: `She has working here since March.` **ĐÚNG**: `She has been working here since March.`",
-      "Dùng Present Perfect Continuous khi câu nhấn mạnh SỐ LẦN/SỐ LƯỢNG cụ thể đã hoàn thành — trường hợp này phải dùng Present Perfect đơn. Sai: `I have been reading this book three times this year.` **ĐÚNG**: `I have read this book three times this year.`",
-      "Chia sai trợ động từ have/has theo chủ ngữ số ít/số nhiều. Sai: `He have been waiting for an hour.` **ĐÚNG**: `He has been waiting for an hour.`",
-      "Dùng nhầm 'for' với mốc thời gian hoặc 'since' với khoảng thời gian. Sai: `I have been living here for 2015.` **ĐÚNG**: `I have been living here since 2015.`"
+      {
+        "id": "present-perfect-continuous-m1",
+        "description": "Dùng Present Perfect Continuous với động từ trạng thái (stative verbs: know, want, believe, own, love, understand, belong...)",
+        "examples": [
+          {
+            "wrong": "I have been knowing him for years.",
+            "correct": "I have known him for years."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-m2",
+        "description": "Nhầm với Present Continuous, quên mất trợ động từ 'have/has been'.",
+        "examples": [
+          {
+            "wrong": "I am studying English for two years.",
+            "correct": "I have been studying English for two years."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-m3",
+        "description": "Bỏ sót từ 'been' trong công thức, chỉ chia have/has + V-ing.",
+        "examples": [
+          {
+            "wrong": "She has working here since March.",
+            "correct": "She has been working here since March."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-m4",
+        "description": "Dùng Present Perfect Continuous khi câu nhấn mạnh SỐ LẦN/SỐ LƯỢNG cụ thể đã hoàn thành — trường hợp này phải dùng Present Perfect đơn.",
+        "examples": [
+          {
+            "wrong": "I have been reading this book three times this year.",
+            "correct": "I have read this book three times this year."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-m5",
+        "description": "Chia sai trợ động từ have/has theo chủ ngữ số ít/số nhiều.",
+        "examples": [
+          {
+            "wrong": "He have been waiting for an hour.",
+            "correct": "He has been waiting for an hour."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-m6",
+        "description": "Dùng nhầm 'for' với mốc thời gian hoặc 'since' với khoảng thời gian.",
+        "examples": [
+          {
+            "wrong": "I have been living here for 2015.",
+            "correct": "I have been living here since 2015."
+          }
+        ]
+      }
     ],
     "formulas": {
       "affirmative": "S + have/has + been + V-ing — ví dụ: 'They have been playing football for two hours.'",

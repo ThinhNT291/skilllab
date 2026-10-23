@@ -112,10 +112,47 @@
       }
     ],
     "commonMistakes": [
-      "Quên từ **\"to\"** sau \"going\", viết liền với động từ nguyên thể. Ví dụ sai: `I am going study tonight.` ĐÚNG: `I am going to study tonight.`",
-      "Dùng \"going to\" cho một quyết định BỘC PHÁT, nảy ra ngay tại thời điểm nói, thay vì dùng \"will\". Ví dụ sai (nếu đây là phản ứng tức thời): `The phone is ringing! I am going to answer it.` ĐÚNG: `The phone is ringing! I'll answer it.`",
-      "Quên chia **am/is/are** đúng theo chủ ngữ trước \"going to\". Ví dụ sai: `She going to travel to Japan next year.` ĐÚNG: `She is going to travel to Japan next year.`",
-      "Lặp lại một cách không tự nhiên cấu trúc `going to go` với động từ chuyển động \"go\", trong khi nên dùng hiện tại tiếp diễn cho gọn và tự nhiên hơn. Ví dụ kém tự nhiên: `We are going to go to the beach this weekend.` Tự nhiên hơn: `We are going to the beach this weekend.`"
+      {
+        "id": "future-going-to-m1",
+        "description": "Quên từ \"to\" sau \"going\", viết liền với động từ nguyên thể.",
+        "examples": [
+          {
+            "wrong": "I am going study tonight.",
+            "correct": "I am going to study tonight."
+          }
+        ]
+      },
+      {
+        "id": "future-going-to-m2",
+        "description": "Dùng \"going to\" cho một quyết định BỘC PHÁT, nảy ra ngay tại thời điểm nói, thay vì dùng \"will\".",
+        "examples": [
+          {
+            "wrong": "The phone is ringing! I am going to answer it.",
+            "correct": "The phone is ringing! I'll answer it."
+          }
+        ],
+        "note": "Câu sai nếu đây là phản ứng tức thời."
+      },
+      {
+        "id": "future-going-to-m3",
+        "description": "Quên chia am/is/are đúng theo chủ ngữ trước \"going to\"",
+        "examples": [
+          {
+            "wrong": "She going to travel to Japan next year.",
+            "correct": "She is going to travel to Japan next year."
+          }
+        ]
+      },
+      {
+        "id": "future-going-to-m4",
+        "description": "Lặp lại một cách không tự nhiên cấu trúc going to go với động từ chuyển động \"go\", trong khi nên dùng hiện tại tiếp diễn cho gọn và tự nhiên hơn.",
+        "examples": [
+          {
+            "wrong": "We are going to go to the beach this weekend.",
+            "correct": "We are going to the beach this weekend."
+          }
+        ]
+      }
     ],
     "formulas": {
       "affirmative": "S + am/is/are + going to + V (nguyên thể). Ví dụ: 'They are going to build a new bridge here.' (Họ sắp/định xây một cây cầu mới ở đây.)",

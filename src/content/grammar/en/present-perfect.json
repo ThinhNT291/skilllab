@@ -124,9 +124,36 @@
       }
     ],
     "commonMistakes": [
-      "Nhầm lẫn giữa thì Hiện tại hoàn thành và Quá khứ đơn: Người Việt hay dùng thì này với mốc thời gian cụ thể trong quá khứ. SAI: I have visited Hanoi yesterday. ĐÚNG: I visited Hanoi yesterday.",
-      "Dùng sai Since và For: 'For' đi với khoảng thời gian, 'Since' đi với mốc thời gian. SAI: I have worked here since 5 years. ĐÚNG: I have worked here for 5 years.",
-      "Quên chia V-p2 hoặc quên 'have/has': Đây là lỗi cấu trúc cơ bản. SAI: She has finish her homework. ĐÚNG: She has finished her homework."
+      {
+        "id": "present-perfect-m1",
+        "description": "Nhầm lẫn giữa thì Hiện tại hoàn thành và Quá khứ đơn: Người Việt hay dùng thì này với mốc thời gian cụ thể trong quá khứ.",
+        "examples": [
+          {
+            "wrong": "I have visited Hanoi yesterday.",
+            "correct": "I visited Hanoi yesterday."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-m2",
+        "description": "Dùng sai Since và For: 'For' đi với khoảng thời gian, 'Since' đi với mốc thời gian.",
+        "examples": [
+          {
+            "wrong": "I have worked here since 5 years.",
+            "correct": "I have worked here for 5 years."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-m3",
+        "description": "Quên chia V-p2 hoặc quên 'have/has': Đây là lỗi cấu trúc cơ bản.",
+        "examples": [
+          {
+            "wrong": "She has finish her homework.",
+            "correct": "She has finished her homework."
+          }
+        ]
+      }
     ],
     "formulas": {
       "affirmative": "S + have/has + V(p2) + O",

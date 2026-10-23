@@ -120,11 +120,57 @@
       }
     ],
     "commonMistakes": [
-      "Quên lùi thì khi động từ tường thuật ở quá khứ. Ví dụ sai: 'She said she is happy.' ĐÚNG: 'She said she was happy.'",
-      "Giữ nguyên trật tự đảo ngữ của câu hỏi trong câu tường thuật thay vì đổi về trật tự khẳng định. Ví dụ sai: 'He asked me where did I live.' ĐÚNG: 'He asked me where I lived.'",
-      "Dùng 'that' sai trong câu hỏi tường thuật; câu hỏi Yes/No và Wh-question tường thuật không dùng 'that'. Ví dụ sai: 'She asked that if I was ready.' ĐÚNG: 'She asked if I was ready.'",
-      "Quên đổi đại từ nhân xưng/sở hữu và từ chỉ thời gian, nơi chốn cho phù hợp với ngữ cảnh mới. Ví dụ sai: 'He said he would call me tomorrow.' (thuật lại một ngày sau đó) ĐÚNG: 'He said he would call me the next day.'",
-      "Đặt sai vị trí 'not' trong câu mệnh lệnh phủ định tường thuật. Ví dụ sai: 'She told me to not open the window.' ĐÚNG: 'She told me not to open the window.'"
+      {
+        "id": "reported-speech-m1",
+        "description": "Quên lùi thì khi động từ tường thuật ở quá khứ.",
+        "examples": [
+          {
+            "wrong": "She said she is happy.",
+            "correct": "She said she was happy."
+          }
+        ]
+      },
+      {
+        "id": "reported-speech-m2",
+        "description": "Giữ nguyên trật tự đảo ngữ của câu hỏi trong câu tường thuật thay vì đổi về trật tự khẳng định.",
+        "examples": [
+          {
+            "wrong": "He asked me where did I live.",
+            "correct": "He asked me where I lived."
+          }
+        ]
+      },
+      {
+        "id": "reported-speech-m3",
+        "description": "Dùng 'that' sai trong câu hỏi tường thuật; câu hỏi Yes/No và Wh-question tường thuật không dùng 'that'.",
+        "examples": [
+          {
+            "wrong": "She asked that if I was ready.",
+            "correct": "She asked if I was ready."
+          }
+        ]
+      },
+      {
+        "id": "reported-speech-m4",
+        "description": "Quên đổi đại từ nhân xưng/sở hữu và từ chỉ thời gian, nơi chốn cho phù hợp với ngữ cảnh mới.",
+        "examples": [
+          {
+            "wrong": "He said he would call me tomorrow.",
+            "correct": "He said he would call me the next day."
+          }
+        ],
+        "note": "Khi thuật lại vào một ngày sau đó, 'tomorrow' phải đổi thành 'the next day'."
+      },
+      {
+        "id": "reported-speech-m5",
+        "description": "Đặt sai vị trí 'not' trong câu mệnh lệnh phủ định tường thuật.",
+        "examples": [
+          {
+            "wrong": "She told me to not open the window.",
+            "correct": "She told me not to open the window."
+          }
+        ]
+      }
     ]
   }
 }

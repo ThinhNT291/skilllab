@@ -121,12 +121,67 @@
       }
     ],
     "commonMistakes": [
-      "Sai: `She has a new car, does she?` — **ĐÚNG**: `She has a new car, doesn't she?` (ở đây 'has' là ĐỘNG TỪ THƯỜNG mang nghĩa sở hữu, không phải trợ động từ hoàn thành, nên tag phải mượn do-support 'doesn't she', khác với 'She has finished her homework, hasn't she?' khi 'has' là trợ động từ).",
-      "Sai: `There isn't any milk left, is it?` — **ĐÚNG**: `There isn't any milk left, is there?` (chủ ngữ giả 'there' phải được lặp lại trong tag, không được đổi thành 'it').",
-      "Sai: `Nobody answered the phone, didn't they?` — **ĐÚNG**: `Nobody answered the phone, did they?` ('nobody' đã mang nghĩa phủ định nên tag phải ở dạng khẳng định, không thêm 'not' nữa).",
-      "Sai: `Let's have lunch now, will we?` — **ĐÚNG**: `Let's have lunch now, shall we?` (câu rủ rê với 'Let's' luôn dùng tag cố định 'shall we', không dùng 'will we').",
-      "Sai: `I'm right, amn't I?` hoặc quá trang trọng `I'm invited, am I not?` trong văn nói thông thường — **ĐÚNG**: `I'm invited to the party, aren't I?` (trong tiếng Anh chuẩn, 'I am' luôn ghép với tag 'aren't I', đây là ngoại lệ cần học thuộc).",
-      "Sai: `Open the window, do you?` — **ĐÚNG**: `Open the window, will you?` (câu mệnh lệnh không phải câu trần thuật nên không dùng do-support, phải dùng 'will you' để tạo tag)."
+      {
+        "id": "tag-questions-m1",
+        "note": "Ở đây 'has' là ĐỘNG TỪ THƯỜNG mang nghĩa sở hữu, không phải trợ động từ hoàn thành, nên tag phải mượn do-support 'doesn't she', khác với 'She has finished her homework, hasn't she?' khi 'has' là trợ động từ.",
+        "examples": [
+          {
+            "wrong": "She has a new car, does she?",
+            "correct": "She has a new car, doesn't she?"
+          }
+        ]
+      },
+      {
+        "id": "tag-questions-m2",
+        "note": "Chủ ngữ giả 'there' phải được lặp lại trong tag, không được đổi thành 'it'.",
+        "examples": [
+          {
+            "wrong": "There isn't any milk left, is it?",
+            "correct": "There isn't any milk left, is there?"
+          }
+        ]
+      },
+      {
+        "id": "tag-questions-m3",
+        "note": "'nobody' đã mang nghĩa phủ định nên tag phải ở dạng khẳng định, không thêm 'not' nữa.",
+        "examples": [
+          {
+            "wrong": "Nobody answered the phone, didn't they?",
+            "correct": "Nobody answered the phone, did they?"
+          }
+        ]
+      },
+      {
+        "id": "tag-questions-m4",
+        "note": "Câu rủ rê với 'Let's' luôn dùng tag cố định 'shall we', không dùng 'will we'.",
+        "examples": [
+          {
+            "wrong": "Let's have lunch now, will we?",
+            "correct": "Let's have lunch now, shall we?"
+          }
+        ]
+      },
+      {
+        "id": "tag-questions-m5",
+        "description": "'I am' luôn ghép với tag 'aren't I' (đây là ngoại lệ cần học thuộc); không dùng 'amn't I', và 'am I not' quá trang trọng trong văn nói thông thường.",
+        "examples": [
+          {
+            "wrong": "I'm right, amn't I?",
+            "correct": "I'm right, aren't I?"
+          }
+        ],
+        "note": "Ví dụ khác: I'm invited to the party, aren't I?"
+      },
+      {
+        "id": "tag-questions-m6",
+        "note": "Câu mệnh lệnh không phải câu trần thuật nên không dùng do-support, phải dùng 'will you' để tạo tag.",
+        "examples": [
+          {
+            "wrong": "Open the window, do you?",
+            "correct": "Open the window, will you?"
+          }
+        ]
+      }
     ],
     "formulas": {
       "affirmative": "Mệnh đề chính KHẲNG ĐỊNH + trợ động từ/modal của mệnh đề chính ở dạng PHỦ ĐỊNH rút gọn + đại từ chủ ngữ? — Ví dụ: 'They are watching TV, aren't they?' / 'He works late, doesn't he?'",

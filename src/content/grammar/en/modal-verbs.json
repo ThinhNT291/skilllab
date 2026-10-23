@@ -120,11 +120,61 @@
       }
     ],
     "commonMistakes": [
-      "Thêm \"to\" sau modal verb (modal verbs luôn đi với động từ nguyên thể KHÔNG \"to\"). Sai: `She can to swim very well.` **ĐÚNG**: `She can swim very well.`",
-      "Chia động từ modal theo ngôi thứ ba số ít (thêm \"-s\") — modal verbs không bao giờ đổi dạng theo chủ ngữ. Sai: `He cans speak French.` **ĐÚNG**: `He can speak French.`",
-      "Nhầm lẫn `must not` (bị CẤM, bắt buộc không được làm) với `don't have to` (KHÔNG bắt buộc, được phép không làm). Ví dụ nghĩa sai: nói `You must not finish the homework tonight` khi ý thực sự chỉ là bài tập không cần nộp gấp. **ĐÚNG**: `You don't have to finish the homework tonight` (không bắt buộc, để mai làm cũng được).",
-      "Dùng hai modal verbs liên tiếp trong cùng một mệnh đề (tiếng Anh chỉ cho phép một modal verb đứng trước động từ chính). Sai: `I might can help you tomorrow.` **ĐÚNG**: `I might be able to help you tomorrow.`",
-      "'Ought to' là modal HIẾM HOI có 'to' ngay sau nó (khác các modal khác trong công thức chung ở trên) — vẫn viết đúng `You ought to see a doctor`, không phải `ought see`. Ngoài ra 'have to' tuy mang nghĩa gần giống modal nhưng KHÔNG phải modal thật sự — nó CHIA theo chủ ngữ/thì như động từ thường ('has to' ở ngôi ba số ít, 'had to' ở quá khứ) và cần trợ động từ do/does/did khi phủ định/nghi vấn (`Does she have to work on Saturdays?`), khác hẳn công thức modal chuẩn ở trên."
+      {
+        "id": "modal-verbs-m1",
+        "description": "Thêm \"to\" sau modal verb (modal verbs luôn đi với động từ nguyên thể KHÔNG \"to\")",
+        "examples": [
+          {
+            "wrong": "She can to swim very well.",
+            "correct": "She can swim very well."
+          }
+        ]
+      },
+      {
+        "id": "modal-verbs-m2",
+        "description": "Chia động từ modal theo ngôi thứ ba số ít (thêm \"-s\") — modal verbs không bao giờ đổi dạng theo chủ ngữ.",
+        "examples": [
+          {
+            "wrong": "He cans speak French.",
+            "correct": "He can speak French."
+          }
+        ]
+      },
+      {
+        "id": "modal-verbs-m3",
+        "description": "Nhầm lẫn must not (bị CẤM, bắt buộc không được làm) với don't have to (KHÔNG bắt buộc, được phép không làm).",
+        "examples": [
+          {
+            "wrong": "You must not finish the homework tonight",
+            "correct": "You don't have to finish the homework tonight"
+          }
+        ],
+        "note": "Câu sai nghĩa là bị cấm làm bài tập, trong khi ý thực sự chỉ là bài tập không cần nộp gấp (không bắt buộc, để mai làm cũng được)."
+      },
+      {
+        "id": "modal-verbs-m4",
+        "description": "Dùng hai modal verbs liên tiếp trong cùng một mệnh đề (tiếng Anh chỉ cho phép một modal verb đứng trước động từ chính)",
+        "examples": [
+          {
+            "wrong": "I might can help you tomorrow.",
+            "correct": "I might be able to help you tomorrow."
+          }
+        ]
+      },
+      {
+        "id": "modal-verbs-m5",
+        "description": "'Ought to' là modal HIẾM HOI có 'to' ngay sau nó (khác các modal khác). Ngoài ra 'have to' tuy mang nghĩa gần giống modal nhưng KHÔNG phải modal thật sự: nó CHIA theo chủ ngữ/thì như động từ thường ('has to' ở ngôi ba số ít, 'had to' ở quá khứ) và cần trợ động từ do/does/did khi phủ định/nghi vấn.",
+        "examples": [
+          {
+            "wrong": "You ought see a doctor.",
+            "correct": "You ought to see a doctor."
+          },
+          {
+            "wrong": "Has she to work on Saturdays?",
+            "correct": "Does she have to work on Saturdays?"
+          }
+        ]
+      }
     ],
     "formulas": {
       "affirmative": "S + modal + V (nguyên thể, KHÔNG chia theo chủ ngữ, KHÔNG có 'to') — ví dụ: 'She can drive a truck.'",

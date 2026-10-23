@@ -166,13 +166,77 @@
       }
     ],
     "commonMistakes": [
-      "Sai: `I wish I would be taller.` **ĐÚNG**: `I wish I were taller.` — ước về tính trạng của chính người nói ở hiện tại dùng quá khứ đơn (were), không dùng \"would\" vì \"would\" chỉ dành cho hành vi của người/vật KHÁC.",
-      "Sai: `It's so annoying that it never stops raining. I wish it stops raining right now.` **ĐÚNG**: `I wish it would stop raining right now.` — phàn nàn về sự việc gây khó chịu lặp lại ở hiện tại (mưa) phải dùng \"wish + would\", không dùng hiện tại đơn.",
-      "Sai: `She wishes she can speak French fluently.` **ĐÚNG**: `She wishes she could speak French fluently.` — ước về khả năng ở hiện tại phải lùi về quá khứ đơn/could, không giữ nguyên hiện tại đơn.",
-      "Sai: `I would rather you stay here tonight.` (khi muốn nói về mong muốn với hành động của NGƯỜI KHÁC ở hiện tại) **ĐÚNG**: `I would rather you stayed here tonight.` — \"would rather + S + quá khứ đơn\" mang nghĩa hiện tại/tương lai khi nói về mong muốn đối với hành động của người khác, không dùng V nguyên mẫu trong trường hợp này.",
-      "Sai: `The manager insisted that the report is finished by Friday.` **ĐÚNG**: `The manager insisted that the report be finished by Friday.` — động từ trong mệnh đề \"that\" sau insist/demand/require/recommend/suggest luôn ở dạng nguyên mẫu (be), không chia theo thì hay ngôi.",
-      "Sai: `The doctor recommended that he sees a specialist.` **ĐÚNG**: `The doctor recommended that he see a specialist.` — dù chủ ngữ là \"he\" (ngôi ba số ít), động từ trong mandative subjunctive vẫn giữ nguyên dạng gốc \"see\", không thêm \"-s\".",
-      "Sai: `It's time we go to bed.` **ĐÚNG**: `It's time we went to bed.` — sau \"it's (high) time + S\", động từ chia quá khứ đơn dù mang nghĩa hiện tại/tương lai gần, thể hiện ý phê phán việc chưa xảy ra."
+      {
+        "id": "subjunctive-m1",
+        "note": "Ước về tính trạng của chính người nói ở hiện tại dùng quá khứ đơn (were), không dùng \"would\" vì \"would\" chỉ dành cho hành vi của người/vật KHÁC.",
+        "examples": [
+          {
+            "wrong": "I wish I would be taller.",
+            "correct": "I wish I were taller."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-m2",
+        "note": "Phàn nàn về sự việc gây khó chịu lặp lại ở hiện tại (mưa) phải dùng \"wish + would\", không dùng hiện tại đơn.",
+        "examples": [
+          {
+            "wrong": "It's so annoying that it never stops raining. I wish it stops raining right now.",
+            "correct": "I wish it would stop raining right now."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-m3",
+        "note": "Ước về khả năng ở hiện tại phải lùi về quá khứ đơn/could, không giữ nguyên hiện tại đơn.",
+        "examples": [
+          {
+            "wrong": "She wishes she can speak French fluently.",
+            "correct": "She wishes she could speak French fluently."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-m4",
+        "description": "Mong muốn đối với hành động của NGƯỜI KHÁC ở hiện tại.",
+        "examples": [
+          {
+            "wrong": "I would rather you stay here tonight.",
+            "correct": "I would rather you stayed here tonight."
+          }
+        ],
+        "note": "\"would rather + S + quá khứ đơn\" mang nghĩa hiện tại/tương lai khi nói về mong muốn đối với hành động của người khác, không dùng V nguyên mẫu trong trường hợp này."
+      },
+      {
+        "id": "subjunctive-m5",
+        "note": "Động từ trong mệnh đề \"that\" sau insist/demand/require/recommend/suggest luôn ở dạng nguyên mẫu (be), không chia theo thì hay ngôi.",
+        "examples": [
+          {
+            "wrong": "The manager insisted that the report is finished by Friday.",
+            "correct": "The manager insisted that the report be finished by Friday."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-m6",
+        "note": "Dù chủ ngữ là \"he\" (ngôi ba số ít), động từ trong mandative subjunctive vẫn giữ nguyên dạng gốc \"see\", không thêm \"-s\".",
+        "examples": [
+          {
+            "wrong": "The doctor recommended that he sees a specialist.",
+            "correct": "The doctor recommended that he see a specialist."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-m7",
+        "note": "Sau \"it's (high) time + S\", động từ chia quá khứ đơn dù mang nghĩa hiện tại/tương lai gần, thể hiện ý phê phán việc chưa xảy ra.",
+        "examples": [
+          {
+            "wrong": "It's time we go to bed.",
+            "correct": "It's time we went to bed."
+          }
+        ]
+      }
     ]
   }
 }

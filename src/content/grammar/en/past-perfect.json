@@ -124,10 +124,47 @@
       }
     ],
     "commonMistakes": [
-      "Dùng hai quá khứ đơn liên tiếp khi cần thể hiện rõ việc nào xảy ra trước, việc nào xảy ra sau, khiến trình tự thời gian bị mơ hồ. Ví dụ sai: *'When I arrived, the meeting already finished.'*. **Đúng:** *'When I arrived, the meeting had already finished.'*",
-      "Quên từ \"had\", chỉ dùng một mình V-p2 khiến câu không còn mang nghĩa quá khứ hoàn thành. Ví dụ sai: *'She already left when I called her.'*. **Đúng:** *'She had already left when I called her.'*",
-      "Nhầm quá khứ hoàn thành với hiện tại hoàn thành khi mốc quy chiếu là một thời điểm trong quá khứ chứ không phải hiện tại. Ví dụ sai: *'By the time he was 20, he has traveled to five countries.'*. **Đúng:** *'By the time he was 20, he had traveled to five countries.'*",
-      "Lạm dụng quá khứ hoàn thành cho MỌI hành động trong quá khứ dù không cần thể hiện trình tự trước-sau, làm câu rối và sai nghĩa. Ví dụ sai: *'Yesterday I had gone to school and had met my friend.'* (hai việc diễn ra bình thường, không có việc nào cần nhấn mạnh là xảy ra trước việc kia). **Đúng:** *'Yesterday I went to school and met my friend.'*"
+      {
+        "id": "past-perfect-m1",
+        "description": "Dùng hai quá khứ đơn liên tiếp khi cần thể hiện rõ việc nào xảy ra trước, việc nào xảy ra sau, khiến trình tự thời gian bị mơ hồ.",
+        "examples": [
+          {
+            "wrong": "When I arrived, the meeting already finished.",
+            "correct": "When I arrived, the meeting had already finished."
+          }
+        ]
+      },
+      {
+        "id": "past-perfect-m2",
+        "description": "Quên từ \"had\", chỉ dùng một mình V-p2 khiến câu không còn mang nghĩa quá khứ hoàn thành.",
+        "examples": [
+          {
+            "wrong": "She already left when I called her.",
+            "correct": "She had already left when I called her."
+          }
+        ]
+      },
+      {
+        "id": "past-perfect-m3",
+        "description": "Nhầm quá khứ hoàn thành với hiện tại hoàn thành khi mốc quy chiếu là một thời điểm trong quá khứ chứ không phải hiện tại.",
+        "examples": [
+          {
+            "wrong": "By the time he was 20, he has traveled to five countries.",
+            "correct": "By the time he was 20, he had traveled to five countries."
+          }
+        ]
+      },
+      {
+        "id": "past-perfect-m4",
+        "description": "Lạm dụng quá khứ hoàn thành cho MỌI hành động trong quá khứ dù không cần thể hiện trình tự trước-sau, làm câu rối và sai nghĩa.",
+        "examples": [
+          {
+            "wrong": "Yesterday I had gone to school and had met my friend.",
+            "correct": "Yesterday I went to school and met my friend."
+          }
+        ],
+        "note": "Hai việc diễn ra bình thường, không có việc nào cần nhấn mạnh là xảy ra trước việc kia."
+      }
     ],
     "formulas": {
       "affirmative": "S + had + V-p2 (quá khứ phân từ). Ví dụ: 'They had finished dinner by 8 p.m.' (Họ đã ăn xong bữa tối trước 8 giờ tối.)",

@@ -24,7 +24,7 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [x] Lý thuyết 23 chuyên đề tiếng Anh đã chuyển sang JSON (`src/content/grammar/en`), có trang `/hoc` và `/hoc/[topic]`; validator `npm run check:content`.
 - [ ] Ngân hàng bài tập: nhập bản cũ (330 câu/11 chuyên đề, cần chủ dự án gửi từ GAS/Drive) và soạn cho 12 chuyên đề còn lại. Mẫu chuẩn: `present-simple` (18 câu, có giải thích từng đáp án, gắn `usageId`).
 - [ ] Rà soát nhãn cấp độ từng chuyên đề theo CEFR (hiện lấy nguyên từ bản cũ, một số ghi 2 cấp như A1/A2).
-- [ ] Tách `commonMistakes` (đang là đoạn văn) thành dữ liệu có cấu trúc (lỗi, sai, đúng, thẻ lỗi).
+- [x] `commonMistakes` đã tách thành {mô tả, cặp ví dụ sai/đúng, ghi chú} (105/106 mục có ví dụ). [ ] Gắn thẻ lỗi (`tags`) cho từng mục để nối với bài tập và phân tích.
 - [ ] Mô hình dữ liệu nội dung dùng chung: mục học (từ, cụm, chủ điểm ngữ pháp, bài đọc, bài nghe), gắn **ngôn ngữ, thang, cấp độ, kỹ năng, chủ đề, thẻ lỗi (tag)**.
 - [ ] Khu Học → Bài tập: một câu mỗi lần, tiến độ, phản hồi tức thì, kết quả cuối bài, làm lại câu sai.
 - [ ] Nhiều kiểu câu: trắc nghiệm, xếp từ thành câu, điền từ (gõ), nghe-chọn/gõ, ghép cặp, sửa lỗi sai.

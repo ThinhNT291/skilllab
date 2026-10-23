@@ -160,13 +160,79 @@
       }
     ],
     "commonMistakes": [
-      "Sai: `I'm not lonely — I have few close friends who I trust completely.` / **ĐÚNG**: `I'm not lonely — I have a few close friends who I trust completely.` (ý muốn nói tích cực 'có một số bạn' nên phải dùng 'a few' có mạo từ, không dùng 'few' mang nghĩa tiêu cực 'hầu như không có').",
-      "Sai: `How much people came to the party last night?` / **ĐÚNG**: `How many people came to the party last night?` ('people' là danh từ đếm được số nhiều nên phải dùng 'many', không dùng 'much').",
-      "Sai: `She doesn't have many information about the new policy.` / **ĐÚNG**: `She doesn't have much information about the new policy.` ('information' là danh từ không đếm được nên phải dùng 'much', không dùng 'many').",
-      "Sai: `Tom and Mary looked at themselves and smiled when they met at the station.` / **ĐÚNG**: `Tom and Mary looked at each other and smiled when they met at the station.` (hai người nhìn NHAU — hành động qua lại — nên phải dùng đại từ tương hỗ 'each other', không dùng đại từ phản thân 'themselves' vốn chỉ mỗi người tự nhìn chính mình).",
-      "Sai: `This is mine car; yours is over there.` / **ĐÚNG**: `This is my car; yours is over there.` (đứng trước danh từ 'car' phải dùng tính từ sở hữu 'my', không dùng đại từ sở hữu 'mine' vốn chỉ đứng một mình, không theo sau bởi danh từ).",
-      "Sai: `I don't have some time to help you today, sorry.` / **ĐÚNG**: `I don't have any time to help you today, sorry.` (câu phủ định thông thường cần dùng 'any', không dùng 'some' trừ khi là lời mời/đề nghị).",
-      "Sai: `None students came to class because of the storm.` / **ĐÚNG**: `No students came to class because of the storm.` hoặc `None of the students came to class.` ('none' không đứng trực tiếp trước danh từ như 'students'; phải dùng 'no + danh từ' hoặc 'none of + danh từ')."
+      {
+        "id": "pronouns-determiners-m1",
+        "description": "Dùng 'few' (nghĩa tiêu cực: hầu như không có) khi muốn nói tích cực 'có một số'.",
+        "examples": [
+          {
+            "wrong": "I'm not lonely — I have few close friends who I trust completely.",
+            "correct": "I'm not lonely — I have a few close friends who I trust completely."
+          }
+        ],
+        "note": "Ý muốn nói tích cực 'có một số bạn' nên phải dùng 'a few' có mạo từ."
+      },
+      {
+        "id": "pronouns-determiners-m2",
+        "note": "'people' là danh từ đếm được số nhiều nên phải dùng 'many', không dùng 'much'.",
+        "examples": [
+          {
+            "wrong": "How much people came to the party last night?",
+            "correct": "How many people came to the party last night?"
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-m3",
+        "note": "'information' là danh từ không đếm được nên phải dùng 'much', không dùng 'many'.",
+        "examples": [
+          {
+            "wrong": "She doesn't have many information about the new policy.",
+            "correct": "She doesn't have much information about the new policy."
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-m4",
+        "description": "Dùng đại từ phản thân thay cho đại từ tương hỗ.",
+        "examples": [
+          {
+            "wrong": "Tom and Mary looked at themselves and smiled when they met at the station.",
+            "correct": "Tom and Mary looked at each other and smiled when they met at the station."
+          }
+        ],
+        "note": "Hai người nhìn NHAU (hành động qua lại) nên dùng đại từ tương hỗ 'each other', không dùng đại từ phản thân 'themselves' vốn chỉ mỗi người tự nhìn chính mình."
+      },
+      {
+        "id": "pronouns-determiners-m5",
+        "note": "Đứng trước danh từ 'car' phải dùng tính từ sở hữu 'my', không dùng đại từ sở hữu 'mine' vốn chỉ đứng một mình, không theo sau bởi danh từ.",
+        "examples": [
+          {
+            "wrong": "This is mine car; yours is over there.",
+            "correct": "This is my car; yours is over there."
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-m6",
+        "note": "Câu phủ định thông thường cần dùng 'any', không dùng 'some' trừ khi là lời mời/đề nghị.",
+        "examples": [
+          {
+            "wrong": "I don't have some time to help you today, sorry.",
+            "correct": "I don't have any time to help you today, sorry."
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-m7",
+        "description": "Dùng 'none' trực tiếp trước danh từ.",
+        "examples": [
+          {
+            "wrong": "None students came to class because of the storm.",
+            "correct": "No students came to class because of the storm."
+          }
+        ],
+        "note": "'none' không đứng trực tiếp trước danh từ; dùng 'no + danh từ' hoặc 'none of + danh từ' (None of the students came to class)."
+      }
     ]
   }
 }
