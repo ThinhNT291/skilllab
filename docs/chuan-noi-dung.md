@@ -4,8 +4,8 @@ Các quy tắc đã chốt từ quá trình xây bản cũ (rút từ ghi chú �
 
 ## Cấu trúc một chuyên đề
 - `theory`: `usages` (mỗi mục một cách dùng, có ví dụ song ngữ và `id` ổn định), `formulas` (có thể không có), `signalWords`, `commonMistakes`.
-- `exercises`: **30 câu/chuyên đề**, trắc nghiệm 4 đáp án, chia đúng **10 dễ / 10 vừa / 10 khó** (`difficulty` 1/2/3).
-- Mỗi lượt học bốc **10 câu** từ 30 câu, ngẫu nhiên trong từng mức độ khó, rồi xếp **dễ → khó** (chống học vẹt nhưng vẫn mạch tăng dần). Hiện đang bốc 4 dễ / 3 vừa / 3 khó.
+- `exercises`: **tối thiểu 30 câu/chuyên đề** (mục tiêu dài hạn **50–70 câu** để bớt lặp), trắc nghiệm 4 đáp án, chia **đều ba mức** (10/10/10 khi đủ 30; mức khó `difficulty` 1/2/3). Một chuyên đề có thể nhiều hơn mức chuẩn nếu nhận thêm câu chuyển từ chuyên đề khác (hiện present-continuous: 34 câu).
+- Mỗi lượt học bốc **10 câu** từ cả ngân hàng của chuyên đề, ngẫu nhiên trong từng mức độ khó, rồi xếp **dễ → khó** (chống học vẹt nhưng vẫn mạch tăng dần). Hiện đang bốc 4 dễ / 3 vừa / 3 khó.
 - Chế độ "Nhức đầu" (dự kiến làm lại): 10 câu `difficulty = 3` của chuyên đề.
 
 ## Quy tắc bắt buộc
