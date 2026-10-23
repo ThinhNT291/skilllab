@@ -28,13 +28,15 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [ ] **Viết lại để mỗi câu chỉ còn một đáp án đúng** (hiện học sinh chọn đáp án "sai" nhưng vẫn nói được sẽ bị tính sai). Ít nhất 26 câu đã được lời giải thích ghi nhận điều này: conditional-sentences 003; future-simple 011, 014, 023, 024, 030; modal-verbs 025; passive-voice 003, 004; past-continuous 013, 016, 017, 018, 020, 023, 025, 028; present-continuous 014, 028; present-perfect 013, 017, 019, 023, 025, 029; reported-speech 010. Cách sửa: thêm dấu hiệu rõ hơn vào đề (at that exact moment, while, schedule...). Lưu ý thêm: future-simple 021 dùng 'will still prepare' (tự nhiên hơn là 'will still be preparing').
 - [x] Cân lại độ khó 10/10/10 cho 6 chuyên đề lệch (subjunctive, pronouns-determiners, adverbial-clauses, tag-questions, present-perfect-continuous, adjective-adverb-order) bằng cách xếp lại mức theo độ phức tạp thực của từng câu, không đổi nội dung. present-continuous nay có 34 câu (10/10/14) do nhận 4 câu tương phản; cân nhắc rút còn 30. [ ] Kiểm định độc lập chuyên đề 18–23 (chưa thấy ghi nhận đã audit).
 - [x] Nhãn cấp độ của chuyên đề không hiển thị cho người học (quyết định cũ). [ ] Gắn cấp CEFR ở mức từng câu và mô tả năng lực (giai đoạn 3).
-- [x] Mỗi lượt bốc 10 câu theo từng mức độ khó, xếp dễ → khó. [ ] Chế độ "Nhức đầu" (10 câu khó).
+- [x] Mỗi lượt bốc 10 câu theo từng mức độ khó, xếp dễ → khó. [x] Chế độ "Nhức đầu" (`/hoc/[topic]/nhuc-dau`, 10 câu khó nhất; chưa tách riêng điểm số so với lượt thường).
 - [x] `commonMistakes` đã tách thành {mô tả, cặp ví dụ sai/đúng, ghi chú} (105/106 mục có ví dụ). [ ] Gắn thẻ lỗi (`tags`) cho từng mục để nối với bài tập và phân tích.
 - [ ] Mô hình dữ liệu nội dung dùng chung: mục học (từ, cụm, chủ điểm ngữ pháp, bài đọc, bài nghe), gắn **ngôn ngữ, thang, cấp độ, kỹ năng, chủ đề, thẻ lỗi (tag)**.
 - [ ] Khu Học → Bài tập: một câu mỗi lần, tiến độ, phản hồi tức thì, kết quả cuối bài, làm lại câu sai.
 - [ ] Nhiều kiểu câu: trắc nghiệm, xếp từ thành câu, điền từ (gõ), nghe-chọn/gõ, ghép cặp, sửa lỗi sai.
 - [ ] Nhận xét và gợi ý có cấu trúc: vì sao sai, quy tắc liên quan, link về lý thuyết, mục nên ôn tiếp.
-- [ ] Phân tích: mức thuộc từng mục, lỗi hay sai theo tag, tiến độ theo thang trình độ, SRS.
+- [x] Màn **Tiến độ** `/tien-do`: tổng quan (số câu, % đúng, số chuyên đề), danh sách **mục cần ôn lại** (thẻ sai nhiều nhất lên đầu) kèm nút "Xem lại lý thuyết" và "Luyện lại mục này", và tỷ lệ đúng theo chuyên đề. Dùng bảng `answers`; tổng hợp lúc đọc (`src/lib/analytics`).
+- [ ] Phân tích nâng cao: mức thuộc từng mục theo thời gian, tiến độ theo thang trình độ, chuỗi ngày học và bản đồ nhiệt (cần ghi ngày hoạt động), gợi ý chuyên đề nên học tiếp.
+- [ ] Thẻ ôn tập ngắt quãng (SRS) tự tạo từ câu sai, không tạo trùng (cần bảng mới và màn ôn tập).
 - [ ] Bước dạy trước khi thi; ví dụ che từ đích; độ khó đổi theo màn (không chỉ đổi kiểu bài).
 
 ## Giai đoạn 2 — Lớp game

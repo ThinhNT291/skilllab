@@ -27,12 +27,20 @@ export default async function TopicPage({ params }: PageProps<"/hoc/[topic]">) {
       <h1 className="mt-2 text-3xl font-extrabold">{data.title}</h1>
 
       {hasExercises ? (
-        <Link
-          href={`/hoc/${topic}/luyen-tap`}
-          className="mt-4 inline-block rounded-game border-b-[5px] border-primary-deep bg-primary px-6 py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2"
-        >
-          Luyện chủ điểm này
-        </Link>
+        <div className="mt-4 flex flex-wrap gap-3">
+          <Link
+            href={`/hoc/${topic}/luyen-tap`}
+            className="inline-block rounded-game border-b-[5px] border-primary-deep bg-primary px-6 py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2"
+          >
+            Luyện chủ điểm này
+          </Link>
+          <Link
+            href={`/hoc/${topic}/nhuc-dau`}
+            className="inline-block rounded-game border-2 border-b-[5px] border-accent-deep bg-card px-6 py-3 text-lg font-extrabold text-foreground active:translate-y-[3px] active:border-b-2"
+          >
+            Nhức đầu 🔥
+          </Link>
+        </div>
       ) : (
         <p className="mt-4 rounded-game border-2 border-dashed border-border px-4 py-3 text-muted-foreground">Bài tập cho chuyên đề này đang được soạn.</p>
       )}
