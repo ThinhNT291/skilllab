@@ -1,0 +1,627 @@
+[
+  {
+    "id": "en-conditional-sentences-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u1-zero",
+    "tags": [
+      "cond-u1-zero"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If you mix blue and yellow, you ______ green.",
+    "choices": [
+      "are getting",
+      "get",
+      "gets",
+      "will getting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu điều kiện loại 0 diễn tả một chân lý, sự thật hiển nhiên (pha màu). Mệnh đề chính chia ở thì hiện tại đơn. Chủ ngữ 'you' đi với động từ nguyên mẫu 'get'."
+  },
+  {
+    "id": "en-conditional-sentences-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u2-first",
+    "tags": [
+      "cond-u2-first"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If the weather ______ nice tomorrow, we will go for a picnic.",
+    "choices": [
+      "is",
+      "will be",
+      "was",
+      "were"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu điều kiện loại 1 nói về sự việc có thể xảy ra ở tương lai ('tomorrow'). Mệnh đề If phải chia ở thì hiện tại đơn. Chủ ngữ 'the weather' số ít đi với 'is'."
+  },
+  {
+    "id": "en-conditional-sentences-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u3-second",
+    "tags": [
+      "cond-u3-second"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If I ______ a millionaire, I would buy a large mansion in the countryside.",
+    "choices": [
+      "were",
+      "am",
+      "have been",
+      "was"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu điều kiện loại 2 giả định điều không có thật ở hiện tại ('Tôi không phải triệu phú'). Với động từ 'to be', ta dùng 'were' cho mọi ngôi."
+  },
+  {
+    "id": "en-conditional-sentences-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u4-third",
+    "tags": [
+      "cond-u4-third"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We wouldn't have got wet if you ______ to bring the umbrella.",
+    "choices": [
+      "haven't forgotten",
+      "didn't forget",
+      "wouldn't forget",
+      "hadn't forgotten"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu điều kiện loại 3 diễn tả điều trái ngược với quá khứ. Mệnh đề chính dùng 'wouldn't have + V3', nên mệnh đề If phải dùng quá khứ hoàn thành (had + V3)."
+  },
+  {
+    "id": "en-conditional-sentences-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u2-first",
+    "tags": [
+      "cond-u2-first"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She will be very happy if you ______ her a nice birthday gift.",
+    "choices": [
+      "will give",
+      "gave",
+      "give",
+      "gives"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu điều kiện loại 1 (nhận biết qua vế chính 'will be'). Mệnh đề If dùng hiện tại đơn. Chủ ngữ 'you' đi với động từ 'give' nguyên thể."
+  },
+  {
+    "id": "en-conditional-sentences-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "tags": [
+      "cond-connectors"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you study hard, you won't pass the final examination.",
+    "choices": [
+      "Unless",
+      "Provided that",
+      "If",
+      "As long as"
+    ],
+    "correctIndex": 0,
+    "explanation": "Về mặt ngữ nghĩa: 'Trừ khi bạn học chăm, nếu không bạn sẽ trượt'. 'Unless' mang nghĩa phủ định (If you don't study hard), phù hợp nhất với ngữ cảnh."
+  },
+  {
+    "id": "en-conditional-sentences-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "tags": [
+      "cond-connectors"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I will give you my phone number ______ you need to contact me urgently.",
+    "choices": [
+      "even if",
+      "unless",
+      "in case",
+      "supposing"
+    ],
+    "correctIndex": 2,
+    "explanation": "'In case' có nghĩa là 'phòng khi, trong trường hợp'. Câu này mang nghĩa: 'Tôi sẽ đưa số cho bạn phòng khi bạn cần liên lạc khẩn cấp'."
+  },
+  {
+    "id": "en-conditional-sentences-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u4-third",
+    "tags": [
+      "cond-u4-third"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If he ______ the speed limit, he wouldn't have paid such a heavy fine.",
+    "choices": [
+      "hasn't exceeded",
+      "hadn't exceeded",
+      "doesn't exceed",
+      "didn't exceed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mệnh đề chính dùng 'wouldn't have paid' (Loại 3). Do đó mệnh đề If cần lùi về quá khứ hoàn thành 'hadn't exceeded' (nếu anh ta đã không vượt quá tốc độ)."
+  },
+  {
+    "id": "en-conditional-sentences-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "tags": [
+      "cond-connectors"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You can use my laptop ______ you promise to handle it carefully.",
+    "choices": [
+      "unless",
+      "in case",
+      "even if",
+      "as long as"
+    ],
+    "correctIndex": 3,
+    "explanation": "'As long as' có nghĩa là 'miễn là'. Ngữ nghĩa câu: Bạn có thể dùng máy của tôi miễn là bạn hứa sẽ giữ gìn cẩn thận."
+  },
+  {
+    "id": "en-conditional-sentences-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u3-second",
+    "tags": [
+      "cond-u3-second"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What would you do if you ______ a wallet full of cash on the street?",
+    "choices": [
+      "had found",
+      "will find",
+      "found",
+      "find"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là câu hỏi của câu điều kiện loại 2 ('would you do'). Do đó, mệnh đề If phải chia ở thì quá khứ đơn, dạng quá khứ của find là 'found'."
+  },
+  {
+    "id": "en-conditional-sentences-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u5-mixed",
+    "tags": [
+      "cond-u5-mixed"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If I had listened to my parents, I ______ in this messy situation right now.",
+    "choices": [
+      "won't be",
+      "wouldn't have been",
+      "wouldn't be",
+      "am not"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là câu điều kiện hỗn hợp (Mixed conditional). Mệnh đề If dùng quá khứ hoàn thành (giả định ở quá khứ), nhưng mệnh đề chính có dấu hiệu 'right now' nên phải dùng 'would + V' để chỉ hậu quả ở hiện tại."
+  },
+  {
+    "id": "en-conditional-sentences-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-inversion",
+    "tags": [
+      "cond-inversion"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you need any further assistance, please inform our reception desk.",
+    "choices": [
+      "Had",
+      "Would",
+      "Were",
+      "Should"
+    ],
+    "correctIndex": 3,
+    "explanation": "Đây là hiện tượng đảo ngữ của câu điều kiện loại 1. Ta bỏ 'If' và đưa 'Should' lên đầu câu: Should + S + V(nguyên mẫu). Cấu trúc gốc là 'If you should need...'."
+  },
+  {
+    "id": "en-conditional-sentences-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-inversion",
+    "tags": [
+      "cond-inversion"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ about the terrible traffic jam, we would have taken a different route.",
+    "choices": [
+      "Were we to know",
+      "Did we know",
+      "If we know",
+      "Had we known"
+    ],
+    "correctIndex": 3,
+    "explanation": "Đảo ngữ của câu điều kiện loại 3. Ta bỏ 'If' và đảo 'Had' lên trước chủ ngữ: Had + S + V3. Câu đầy đủ là 'If we had known...'."
+  },
+  {
+    "id": "en-conditional-sentences-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-inversion",
+    "tags": [
+      "cond-inversion"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the CEO of this company, I would strictly ban single-use plastics.",
+    "choices": [
+      "Had I been",
+      "Were I",
+      "Should I be",
+      "If I am"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đảo ngữ của câu điều kiện loại 2 với động từ to be. Ta bỏ 'If' và đưa 'Were' lên đầu: Were + S + N/Adj. Câu đầy đủ là 'If I were the CEO...'."
+  },
+  {
+    "id": "en-conditional-sentences-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u5-mixed",
+    "tags": [
+      "cond-u5-mixed"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If she wasn't so afraid of flying, she ______ to Paris with us last summer.",
+    "choices": [
+      "would travel",
+      "would have traveled",
+      "will travel",
+      "traveled"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu điều kiện hỗn hợp loại 2-3 (Ngược với loại 3-2). Mệnh đề If dùng Loại 2 (bản tính, sự thật hiện tại: cô ấy vốn sợ bay), nhưng kết quả trái ngược lại nằm trong quá khứ ('last summer') nên vế chính dùng Loại 3: 'would have + V3'."
+  },
+  {
+    "id": "en-conditional-sentences-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u1-zero",
+    "tags": [
+      "cond-u1-zero"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If you heat ice, it ______ into water.",
+    "choices": [
+      "is melting",
+      "melt",
+      "will melt",
+      "melts"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu điều kiện loại 0 diễn tả một sự thật khoa học hiển nhiên (băng tan chảy khi bị đun nóng). Cả hai mệnh đề đều dùng thì hiện tại đơn; chủ ngữ 'it' số ít nên thêm -s: melts."
+  },
+  {
+    "id": "en-conditional-sentences-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u1-zero",
+    "tags": [
+      "cond-u1-zero"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Water ______ into ice if the temperature drops below zero degrees Celsius.",
+    "choices": [
+      "turns",
+      "would turn",
+      "turned",
+      "will turn"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu điều kiện loại 0 nói về hiện tượng vật lý tự nhiên. Cấu trúc: If + S + V(hiện tại đơn), S + V(hiện tại đơn)."
+  },
+  {
+    "id": "en-conditional-sentences-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u2-first",
+    "tags": [
+      "cond-u2-first"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If she ______ the final exam, her parents will buy her a new bicycle.",
+    "choices": [
+      "passed",
+      "passes",
+      "will pass",
+      "is passing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu điều kiện loại 1 diễn tả sự việc có thể xảy ra ở tương lai. Mệnh đề If chia ở thì hiện tại đơn."
+  },
+  {
+    "id": "en-conditional-sentences-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u2-first",
+    "tags": [
+      "cond-u2-first"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ a taxi to the airport if the bus doesn't arrive in the next ten minutes.",
+    "choices": [
+      "will take",
+      "take",
+      "took",
+      "would take"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu điều kiện loại 1. Mệnh đề If chia thì hiện tại đơn (doesn't arrive), mệnh đề chính dùng tương lai đơn (will + V)."
+  },
+  {
+    "id": "en-conditional-sentences-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u2-first",
+    "tags": [
+      "cond-u2-first"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If you happen to see David at the conference, ______ him to call his manager immediately.",
+    "choices": [
+      "tell",
+      "to tell",
+      "will tell",
+      "telling"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dạng câu mệnh lệnh trong câu điều kiện loại 1. Mệnh đề chính không có chủ ngữ mà bắt đầu bằng động từ nguyên thể."
+  },
+  {
+    "id": "en-conditional-sentences-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u3-second",
+    "tags": [
+      "cond-u3-second"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If I ______ a million dollars, I would donate half of it to local charities.",
+    "choices": [
+      "have",
+      "will have",
+      "had",
+      "had had"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu điều kiện loại 2 giả định điều không có thật ở hiện tại. Mệnh đề If dùng thì quá khứ đơn (V2/ed)."
+  },
+  {
+    "id": "en-conditional-sentences-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u4-third",
+    "tags": [
+      "cond-u4-third"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They wouldn't have been late for the meeting if they ______ the early train.",
+    "choices": [
+      "caught",
+      "would catch",
+      "had caught",
+      "have caught"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu điều kiện loại 3 giả định trái ngược với quá khứ. Mệnh đề If dùng thì quá khứ hoàn thành (had + PII)."
+  },
+  {
+    "id": "en-conditional-sentences-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u3-second",
+    "tags": [
+      "cond-u3-second"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What ______ if you suddenly found a large sum of money on the street?",
+    "choices": [
+      "would you do",
+      "had you done",
+      "will you do",
+      "did you do"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu hỏi của câu điều kiện loại 2 vì mệnh đề If chia quá khứ đơn (found). Mệnh đề chính dùng 'would + V'."
+  },
+  {
+    "id": "en-conditional-sentences-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "tags": [
+      "cond-connectors"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You cannot enter this restricted area ______ you have a special security pass.",
+    "choices": [
+      "provided that",
+      "as long as",
+      "if",
+      "unless"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Unless' mang nghĩa là 'Trừ khi' (bằng If... not). Ngữ cảnh yêu cầu nghĩa phủ định: 'Bạn không thể vào trừ khi có thẻ'."
+  },
+  {
+    "id": "en-conditional-sentences-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "tags": [
+      "cond-connectors"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You are allowed to use my personal computer ______ you don't delete any of my project files.",
+    "choices": [
+      "unless",
+      "even if",
+      "in case",
+      "as long as"
+    ],
+    "correctIndex": 3,
+    "explanation": "'As long as' mang nghĩa 'miễn là', dùng để thay thế 'if' với tính chất ra điều kiện. 'Unless' sẽ làm sai nghĩa câu."
+  },
+  {
+    "id": "en-conditional-sentences-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u5-mixed",
+    "tags": [
+      "cond-u5-mixed"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If I had bought Bitcoin ten years ago, I ______ a billionaire now.",
+    "choices": [
+      "will be",
+      "am",
+      "would be",
+      "would have been"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu điều kiện hỗn hợp (3+2): Giả định trái quá khứ (had bought) dẫn đến kết quả trái với hiện tại, có dấu hiệu 'now' (would + V)."
+  },
+  {
+    "id": "en-conditional-sentences-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-u5-mixed",
+    "tags": [
+      "cond-u5-mixed"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If Sarah wasn't so terrified of heights, she ______ skydiving with us last weekend.",
+    "choices": [
+      "would have gone",
+      "will go",
+      "would go",
+      "went"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu điều kiện hỗn hợp (2+3): Giả định trái hiện tại (tính cách sợ độ cao) dẫn đến kết quả trái quá khứ (last weekend). Dùng 'would have + PII'."
+  },
+  {
+    "id": "en-conditional-sentences-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-inversion",
+    "tags": [
+      "cond-inversion"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you require any further assistance with your application, please do not hesitate to contact our support team.",
+    "choices": [
+      "Would",
+      "Should",
+      "Were",
+      "Had"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đảo ngữ câu điều kiện loại 1: Đưa 'Should' lên đầu, bỏ 'If', động từ chính giữ dạng nguyên thể (require)."
+  },
+  {
+    "id": "en-conditional-sentences-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-inversion",
+    "tags": [
+      "cond-inversion"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ I the manager of this department, I would allow employees to work from home twice a week.",
+    "choices": [
+      "Was",
+      "Were",
+      "Should",
+      "Had"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đảo ngữ câu điều kiện loại 2: Đưa 'Were' lên đầu câu và bỏ 'If'. Không dùng 'Was' trong đảo ngữ điều kiện loại 2."
+  },
+  {
+    "id": "en-conditional-sentences-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditional-sentences",
+    "usageId": "cond-inversion",
+    "tags": [
+      "cond-inversion"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ strictly to the doctor's advice, he would have recovered from the illness much faster.",
+    "choices": [
+      "Should he listen",
+      "Had he listened",
+      "Did he listen",
+      "If he listened"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đảo ngữ câu điều kiện loại 3: Đưa 'Had' lên đầu câu và bỏ 'If', theo sau là chủ ngữ và động từ phân từ II (Had + S + PII)."
+  }
+]

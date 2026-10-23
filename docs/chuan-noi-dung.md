@@ -25,10 +25,23 @@ Các quy tắc đã chốt từ quá trình xây bản cũ (rút từ ghi chú �
 
 ## Thẻ (tag)
 - Mỗi mục `usages` có `id` duy nhất toàn hệ thống (bản cũ gọi `tagId`, ví dụ `ps-u1-habits-routines`). Bài tập gắn `usageId` và `tags` (thẻ lỗi). Dùng chung một kho tên, không tách theo module, để sau này gắn cho Nói/Viết.
-- Thẻ "chéo chủ điểm" bản cũ: `pp-vs-simple-past`, `prep-since-for`, `rc-reduced-clauses`, `cond-connectors`, `cond-inversion`, `ps-vs-pc`, `past-simple-vs-continuous`. Nhãn tiếng Việt của chúng nằm ở `Controller_ErrorLog.gs` (chưa có trong repo; cần chủ dự án gửi nếu muốn dùng). Mỗi thẻ chéo phải có mục lý thuyết dạy nội dung đó (quy tắc 1).
+- Thẻ "chéo chủ điểm" bản cũ: `pp-vs-simple-past`, `prep-since-for`, `rc-reduced-clauses`, `cond-connectors`, `cond-inversion`, `ps-vs-pc`, `past-simple-vs-continuous`. Nhãn tiếng Việt nằm ở mục "Dữ liệu từ nhật ký lỗi sai" bên dưới. **Bốn thẻ trong số đó chưa có mục lý thuyết nào dạy riêng** (`cond-connectors`, `ps-vs-pc`, `pp-vs-simple-past`, `past-simple-vs-continuous`), trái với quy tắc 1: xem danh sách ở `ROADMAP.md`. Mỗi thẻ chéo phải có mục lý thuyết dạy nội dung đó (quy tắc 1).
 
-## Nhập nội dung từ bản cũ
-Nội dung đầy đủ (lý thuyết + bài tập) của bản cũ nằm trên Google Drive, thư mục `TrainingZone_ContentStore_DoNotDelete`, mỗi chuyên đề một tệp `grammar__<topicId>.json`. Cách đưa vào repo:
-1. Tải cả thư mục về, giải nén vào `import/grammar/` trong thư mục dự án.
-2. Commit và push (tạm thời, sau khi chuyển xong sẽ xóa thư mục `import/`).
-3. Claude chuyển sang `src/content/` theo mô hình mới, chạy `npm run check:content`, và so với lý thuyết hiện có.
+## Dữ liệu từ nhật ký lỗi sai (bản cũ, `Controller_ErrorLog.gs`)
+Thiết kế đã chốt, dùng làm nền cho phần phân tích khi làm lại:
+- Mỗi lần trả lời sai ghi một sự kiện thô: (người dùng, ngày, kỹ năng, ngôn ngữ, chuyên đề, mã câu, danh sách thẻ). **Không cộng dồn lúc ghi**; việc tổng hợp theo thẻ làm lúc đọc. Trong dự án mới, bảng `answers` (ghi cả đúng lẫn sai) đã thay vai trò này.
+- Tổng hợp: sắp thẻ **yếu nhất (sai nhiều nhất) lên đầu**, kèm chuyên đề, số lần sai, ngày gần nhất, để dựng nút "Xem lại" (cuộn tới đúng mục lý thuyết) và "Học lại" (mở lại cả chuyên đề).
+- Từ câu sai tự sinh thẻ ôn tập ngắt quãng (SRS), **không tạo trùng**: nếu đã có thẻ chưa thuộc cho cùng câu của người đó thì bỏ qua.
+- Mọi lượt trả lời (đúng lẫn sai) đều tính vào chuỗi ngày học và bản đồ nhiệt.
+- Hướng mở chưa làm: sắp lại lộ trình theo điểm yếu từng người; xếp hạng theo số điểm yếu đã khắc phục; sau này gắn thẻ cho Nói/Viết.
+- Nhãn tiếng Việt của thẻ chéo chủ điểm:
+  - `pp-vs-simple-past`: Phân biệt Hiện tại hoàn thành và Quá khứ đơn
+  - `prep-since-for`: Phân biệt giới từ Since và For
+  - `rc-reduced-clauses`: Rút gọn mệnh đề quan hệ
+  - `cond-connectors`: Liên từ điều kiện (unless, in case, as long as, even if...)
+  - `cond-inversion`: Đảo ngữ trong câu điều kiện
+  - `ps-vs-pc`: Phân biệt Hiện tại đơn và Hiện tại tiếp diễn
+  - `past-simple-vs-continuous`: Phân biệt Quá khứ đơn và Quá khứ tiếp diễn
+
+## Nhập nội dung từ bản cũ (đã xong)
+Nội dung đầy đủ của bản cũ nằm trên Google Drive, thư mục `TrainingZone_ContentStore_DoNotDelete`, mỗi chuyên đề một tệp `grammar__<topicId>.json`. Đã nhập 23 chuyên đề × 30 câu = 690 câu vào `src/content/exercises/en/`: mã câu đổi thành `en-<chuyên-đề>-NNN`, `tags` giữ nguyên, `usageId` lấy từ thẻ khớp mục lý thuyết của chính chuyên đề, thêm `kind: "mcq"`. Lý thuyết trong tệp Drive trùng với lý thuyết đã chuyển trước đó (đã đối chiếu mã mục và ví dụ). Tệp gốc vẫn nằm trên Drive.

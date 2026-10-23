@@ -1,0 +1,632 @@
+[
+  {
+    "id": "en-prepositions-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u1-time",
+    "tags": [
+      "prep-u1-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The English test starts ______ 9:00 AM tomorrow.",
+    "choices": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đứng trước một giờ cụ thể (9:00 AM), ta phải dùng giới từ chỉ thời gian 'at'."
+  },
+  {
+    "id": "en-prepositions-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u1-time",
+    "tags": [
+      "prep-u1-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My parents always go to the supermarket ______ Sunday mornings.",
+    "choices": [
+      "at",
+      "in",
+      "for",
+      "on"
+    ],
+    "correctIndex": 3,
+    "explanation": "Khi có nhắc đến thứ trong tuần (Sunday), cho dù có kèm theo buổi (mornings) thì ta vẫn ưu tiên dùng giới từ 'on'."
+  },
+  {
+    "id": "en-prepositions-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u1-time",
+    "tags": [
+      "prep-u1-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It snows a lot in this country ______ winter.",
+    "choices": [
+      "with",
+      "in",
+      "at",
+      "on"
+    ],
+    "correctIndex": 1,
+    "explanation": "Với các mùa trong năm (spring, summer, autumn, winter), giới từ thời gian đi kèm luôn là 'in'."
+  },
+  {
+    "id": "en-prepositions-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u2-place",
+    "tags": [
+      "prep-u2-place"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please don't put your dirty shoes ______ the sofa.",
+    "choices": [
+      "on",
+      "in",
+      "at",
+      "from"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The sofa' (ghế sô-pha) là một bề mặt phẳng. Để chỉ vị trí ở phía trên bề mặt, ta dùng 'on'."
+  },
+  {
+    "id": "en-prepositions-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u2-place",
+    "tags": [
+      "prep-u2-place"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My best friend lives ______ Ho Chi Minh City.",
+    "choices": [
+      "at",
+      "in",
+      "to",
+      "on"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ho Chi Minh City là tên một thành phố lớn, một khu vực địa lý rộng. Theo quy tắc, ta dùng 'in' cho phường/xã, quận/huyện, thành phố, quốc gia."
+  },
+  {
+    "id": "en-prepositions-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u3-movement",
+    "tags": [
+      "prep-u3-movement"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You must hold my hand when we walk ______ the busy street to reach the other side.",
+    "choices": [
+      "into",
+      "along",
+      "across",
+      "through"
+    ],
+    "correctIndex": 2,
+    "explanation": "Khi đi bộ từ bên này sang bên kia của một con đường phẳng, ta dùng giới từ 'across' (băng qua)."
+  },
+  {
+    "id": "en-prepositions-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u3-movement",
+    "tags": [
+      "prep-u3-movement"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When it started to rain, everyone ran ______ the building.",
+    "choices": [
+      "through",
+      "into",
+      "on",
+      "in"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hành động chạy từ ngoài hướng vào bên trong một không gian kín cần giới từ chỉ chuyển động 'into'."
+  },
+  {
+    "id": "en-prepositions-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u4-adjective-prep",
+    "tags": [
+      "prep-u4-adjective-prep"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Sarah is very good ______ learning new languages.",
+    "choices": [
+      "at",
+      "for",
+      "with",
+      "in"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cụm tính từ cố định: 'good at something / doing something' mang nghĩa là giỏi về việc gì đó."
+  },
+  {
+    "id": "en-prepositions-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u4-adjective-prep",
+    "tags": [
+      "prep-u4-adjective-prep"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Are you interested ______ joining our music club?",
+    "choices": [
+      "in",
+      "of",
+      "at",
+      "on"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tính từ 'interested' luôn đi kèm với giới từ 'in' để tạo thành cụm mang nghĩa 'hứng thú, quan tâm đến cái gì'."
+  },
+  {
+    "id": "en-prepositions-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u4-adjective-prep",
+    "tags": [
+      "prep-u4-adjective-prep"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Vietnam is famous ______ its delicious street food.",
+    "choices": [
+      "with",
+      "of",
+      "to",
+      "for"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cụm tính từ cố định 'famous for' có nghĩa là nổi tiếng vì điều gì."
+  },
+  {
+    "id": "en-prepositions-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u5-verb-prep",
+    "tags": [
+      "prep-u5-verb-prep"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I don't like this song. Can we listen ______ something else?",
+    "choices": [
+      "at",
+      "with",
+      "to",
+      "for"
+    ],
+    "correctIndex": 2,
+    "explanation": "Động từ 'listen' (lắng nghe) luôn bắt buộc đi kèm với giới từ 'to' khi theo sau là một đối tượng."
+  },
+  {
+    "id": "en-prepositions-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u5-verb-prep",
+    "tags": [
+      "prep-u5-verb-prep"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We might go to the beach tomorrow, but it depends ______ the weather.",
+    "choices": [
+      "at",
+      "on",
+      "in",
+      "of"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cụm động từ 'depend on' có nghĩa là phụ thuộc vào điều gì/ai đó."
+  },
+  {
+    "id": "en-prepositions-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u5-verb-prep",
+    "tags": [
+      "prep-u5-verb-prep"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I have been waiting ______ the bus for 30 minutes.",
+    "choices": [
+      "at",
+      "to",
+      "in",
+      "for"
+    ],
+    "correctIndex": 3,
+    "explanation": "Khi muốn nói 'chờ đợi ai/cái gì', động từ 'wait' phải luôn đi kèm với giới từ 'for'."
+  },
+  {
+    "id": "en-prepositions-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-since-for",
+    "tags": [
+      "prep-since-for"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mr. John has worked in this hospital ______ 2015.",
+    "choices": [
+      "since",
+      "for",
+      "in",
+      "at"
+    ],
+    "correctIndex": 0,
+    "explanation": "'2015' là một mốc thời gian cụ thể. Trong thì hiện tại hoàn thành, ta dùng 'since' trước mốc thời gian (từ năm 2015)."
+  },
+  {
+    "id": "en-prepositions-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u5-verb-prep",
+    "tags": [
+      "prep-u5-verb-prep"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What time did you arrive ______ the airport yesterday?",
+    "choices": [
+      "at",
+      "on",
+      "in",
+      "to"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sân bay (the airport) được xem là một địa điểm nhỏ, một điểm dừng chân chức năng. Do đó động từ arrive phải đi với 'at' (arrive at the airport)."
+  },
+  {
+    "id": "en-prepositions-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u1-time",
+    "tags": [
+      "prep-u1-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My birthday is ______ 15th August.",
+    "choices": [
+      "of",
+      "in",
+      "on",
+      "at"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dùng giới từ 'on' trước một ngày cụ thể hoặc ngày đi kèm tháng."
+  },
+  {
+    "id": "en-prepositions-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u1-time",
+    "tags": [
+      "prep-u1-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We usually go skiing ______ the winter.",
+    "choices": [
+      "in",
+      "on",
+      "at",
+      "from"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dùng giới từ 'in' trước các mùa trong năm (in the spring, in the winter)."
+  },
+  {
+    "id": "en-prepositions-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u2-place",
+    "tags": [
+      "prep-u2-place"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I am waiting for you ______ the bus stop.",
+    "choices": [
+      "on",
+      "under",
+      "at",
+      "in"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dùng giới từ 'at' để chỉ một địa điểm, điểm dừng cụ thể (at the bus stop, at the station)."
+  },
+  {
+    "id": "en-prepositions-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u2-place",
+    "tags": [
+      "prep-u2-place"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She has lived ______ Paris for three years.",
+    "choices": [
+      "in",
+      "to",
+      "on",
+      "at"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dùng giới từ 'in' cho các địa điểm không gian rộng lớn như thành phố, đất nước."
+  },
+  {
+    "id": "en-prepositions-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u1-time",
+    "tags": [
+      "prep-u1-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The movie starts ______ 8 o'clock tonight.",
+    "choices": [
+      "with",
+      "at",
+      "in",
+      "on"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dùng giới từ 'at' trước giờ giấc cụ thể."
+  },
+  {
+    "id": "en-prepositions-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u3-movement",
+    "tags": [
+      "prep-u3-movement"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Be careful when you walk ______ the street.",
+    "choices": [
+      "through",
+      "into",
+      "across",
+      "under"
+    ],
+    "correctIndex": 2,
+    "explanation": "Giới từ 'across' mang nghĩa băng qua, đi ngang qua từ bên này sang bên kia (đường, sông)."
+  },
+  {
+    "id": "en-prepositions-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u3-movement",
+    "tags": [
+      "prep-u3-movement"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The children jumped ______ the swimming pool.",
+    "choices": [
+      "on",
+      "up",
+      "out",
+      "into"
+    ],
+    "correctIndex": 3,
+    "explanation": "Giới từ 'into' diễn tả sự chuyển động đi vào bên trong một không gian."
+  },
+  {
+    "id": "en-prepositions-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u4-adjective-prep",
+    "tags": [
+      "prep-u4-adjective-prep"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My little brother is afraid ______ dogs.",
+    "choices": [
+      "at",
+      "of",
+      "for",
+      "on"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cụm tính từ 'afraid of' mang nghĩa là sợ hãi cái gì đó."
+  },
+  {
+    "id": "en-prepositions-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u4-adjective-prep",
+    "tags": [
+      "prep-u4-adjective-prep"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Are you interested ______ learning a new language?",
+    "choices": [
+      "with",
+      "in",
+      "at",
+      "on"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cụm tính từ 'interested in' mang nghĩa là quan tâm, có hứng thú với điều gì."
+  },
+  {
+    "id": "en-prepositions-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u4-adjective-prep",
+    "tags": [
+      "prep-u4-adjective-prep"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Lisa is very good ______ playing the guitar.",
+    "choices": [
+      "for",
+      "on",
+      "at",
+      "in"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cụm tính từ 'good at' dùng để nói ai đó giỏi về việc gì. Lưu ý không dùng 'good in'."
+  },
+  {
+    "id": "en-prepositions-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u5-verb-prep",
+    "tags": [
+      "prep-u5-verb-prep"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I usually listen ______ music when I do my homework.",
+    "choices": [
+      "with",
+      "for",
+      "at",
+      "to"
+    ],
+    "correctIndex": 3,
+    "explanation": "Động từ 'listen' luôn đi kèm với giới từ 'to' (listen to: lắng nghe ai/cái gì)."
+  },
+  {
+    "id": "en-prepositions-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u5-verb-prep",
+    "tags": [
+      "prep-u5-verb-prep"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We can go to the park, but it depends ______ the weather.",
+    "choices": [
+      "on",
+      "at",
+      "of",
+      "in"
+    ],
+    "correctIndex": 0,
+    "explanation": "Động từ 'depend' đi kèm với giới từ 'on' (depend on: phụ thuộc vào)."
+  },
+  {
+    "id": "en-prepositions-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u5-verb-prep",
+    "tags": [
+      "prep-u5-verb-prep"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please wait ______ me! I am coming.",
+    "choices": [
+      "to",
+      "with",
+      "at",
+      "for"
+    ],
+    "correctIndex": 3,
+    "explanation": "Động từ 'wait' đi kèm với giới từ 'for' (wait for: chờ đợi ai/cái gì)."
+  },
+  {
+    "id": "en-prepositions-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-since-for",
+    "tags": [
+      "prep-since-for"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I have known my best friend ______ 2015.",
+    "choices": [
+      "at",
+      "in",
+      "for",
+      "since"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dùng 'since' cộng với một mốc thời gian cụ thể trong quá khứ (từ năm 2015)."
+  },
+  {
+    "id": "en-prepositions-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-since-for",
+    "tags": [
+      "prep-since-for"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They have studied English ______ five months.",
+    "choices": [
+      "since",
+      "for",
+      "in",
+      "during"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dùng 'for' cộng với một khoảng thời gian đếm được (trong khoảng 5 tháng)."
+  }
+]

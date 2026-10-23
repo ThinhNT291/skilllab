@@ -1,0 +1,812 @@
+[
+  {
+    "id": "en-pronouns-determiners-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u1-some-any",
+    "tags": [
+      "pronouns-determiners-u1-some-any"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There isn't ______ sugar left in the jar; we need to buy more.",
+    "choices": [
+      "a few",
+      "many",
+      "some",
+      "any"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Any' dùng trong câu phủ định với danh từ không đếm được 'sugar'.",
+    "choiceExplanations": [
+      "Sai — 'a few' dùng với danh từ đếm được số nhiều, không phù hợp với 'sugar'.",
+      "Sai — 'many' dùng với danh từ đếm được số nhiều, còn 'sugar' là danh từ không đếm được.",
+      "Sai — 'some' thường dùng trong câu khẳng định, không phù hợp với câu phủ định 'isn't'.",
+      "Đúng — 'any' dùng trong câu phủ định 'isn't ... left', phù hợp với 'sugar' (không đếm được)."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u1-some-any",
+    "tags": [
+      "pronouns-determiners-u1-some-any"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Could I have ______ water, please? I'm really thirsty.",
+    "choices": [
+      "some",
+      "none",
+      "any",
+      "no"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đây là một lời yêu cầu lịch sự (request) nên 'some' tự nhiên hơn 'any'.",
+    "choiceExplanations": [
+      "Đúng — trong câu hỏi mang tính yêu cầu/mời (mong đợi câu trả lời 'có'), 'some' được dùng thay vì 'any'.",
+      "Sai — 'none' đứng một mình, không đứng trực tiếp trước danh từ 'water'.",
+      "Sai — 'any' thường dùng trong câu hỏi thông thường, nhưng đây là một lời yêu cầu lịch sự nên 'some' tự nhiên hơn.",
+      "Sai — 'no' + danh từ mang nghĩa phủ định hoàn toàn, không phù hợp với câu hỏi xin nước."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u1-some-any",
+    "tags": [
+      "pronouns-determiners-u1-some-any"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You can borrow ______ book from this shelf — it doesn't matter which one, they're all great.",
+    "choices": [
+      "none",
+      "no",
+      "some",
+      "any"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Any' trong câu khẳng định mang nghĩa 'bất kỳ cái nào cũng được', phù hợp với 'doesn't matter which one'.",
+    "choiceExplanations": [
+      "Sai — 'none' đứng một mình, không đứng trực tiếp trước danh từ 'book'.",
+      "Sai — 'no' + danh từ mang nghĩa phủ định, trái với ý cho phép mượn sách.",
+      "Sai — 'some' không mang nghĩa 'bất kỳ, không quan trọng cái nào'.",
+      "Đúng — 'any' trong câu khẳng định ở đây mang nghĩa 'bất kỳ quyển nào cũng được'."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u1-some-any",
+    "tags": [
+      "pronouns-determiners-u1-some-any"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I searched the whole house but I couldn't find ______ .",
+    "choices": [
+      "someone",
+      "anyone",
+      "some",
+      "any"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu phủ định 'couldn't find' cần dùng 'anyone' chứ không phải 'someone'.",
+    "choiceExplanations": [
+      "Sai — 'someone' thường dùng trong câu khẳng định, không phù hợp với 'couldn't find'.",
+      "Đúng — 'anyone' phù hợp với câu phủ định 'couldn't find anyone'.",
+      "Sai — 'some' cần đi kèm danh từ hoặc ghép thành 'someone/something', không đứng một mình để chỉ người ở đây.",
+      "Sai — 'any' cần đi kèm danh từ hoặc ghép thành 'anyone/anything', không đứng riêng để chỉ người."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u1-some-any",
+    "tags": [
+      "pronouns-determiners-u1-some-any"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Feel free to call me ______ time if you need advice; I'm always available.",
+    "choices": [
+      "any",
+      "no",
+      "some",
+      "every"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Any time' trong câu khẳng định mang nghĩa 'bất cứ lúc nào cũng được'.",
+    "choiceExplanations": [
+      "Đúng — 'any time' ở đây mang nghĩa 'bất cứ lúc nào, không quan trọng lúc nào'.",
+      "Sai — 'no time' mang nghĩa phủ định 'không có thời gian', trái với nghĩa câu.",
+      "Sai — 'some time' mang nghĩa 'một khoảng thời gian nào đó', không diễn tả ý 'bất cứ lúc nào'.",
+      "Sai — 'every time' mang nghĩa 'mỗi lần', không phù hợp về nghĩa khi mời gọi gọi điện bất cứ lúc nào."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u2-much-many-alotof",
+    "tags": [
+      "pronouns-determiners-u2-much-many-alotof"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Do you have ______ time to finish the report before the meeting?",
+    "choices": [
+      "several",
+      "much",
+      "a few",
+      "many"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Much' dùng với danh từ không đếm được 'time' trong câu hỏi.",
+    "choiceExplanations": [
+      "Sai — 'several' dùng với danh từ đếm được số nhiều, không phù hợp với 'time'.",
+      "Đúng — 'much' dùng với danh từ không đếm được trong câu hỏi, tự nhiên trong ngữ cảnh này.",
+      "Sai — 'a few' dùng với danh từ đếm được số nhiều, không phù hợp với 'time'.",
+      "Sai — 'many' dùng với danh từ đếm được số nhiều, 'time' ở đây không đếm được."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u2-much-many-alotof",
+    "tags": [
+      "pronouns-determiners-u2-much-many-alotof"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There were ______ people at the concert last night — the stadium was completely full.",
+    "choices": [
+      "a lot of",
+      "much",
+      "little",
+      "a little"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trong câu khẳng định miêu tả, 'a lot of' tự nhiên hơn 'many' và dùng được với danh từ đếm được 'people'.",
+    "choiceExplanations": [
+      "Đúng — 'a lot of' dùng được với danh từ đếm được và rất tự nhiên trong câu khẳng định.",
+      "Sai — 'much' dùng với danh từ không đếm được, 'people' là danh từ đếm được số nhiều.",
+      "Sai — 'little' mang nghĩa 'rất ít' và dùng với danh từ không đếm được, trái với ý 'hoàn toàn kín chỗ'.",
+      "Sai — 'a little' dùng với danh từ không đếm được, không phù hợp với 'people'."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u2-much-many-alotof",
+    "tags": [
+      "pronouns-determiners-u2-much-many-alotof"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She doesn't have ______ money to buy a new car right now.",
+    "choices": [
+      "much",
+      "a few",
+      "several",
+      "many"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Money' không đếm được và câu phủ định nên 'much' tự nhiên hơn 'a lot of'.",
+    "choiceExplanations": [
+      "Đúng — 'much' dùng với danh từ không đếm được trong câu phủ định, đúng ngữ pháp và tự nhiên.",
+      "Sai — 'a few' dùng với danh từ đếm được số nhiều.",
+      "Sai — 'several' dùng với danh từ đếm được số nhiều.",
+      "Sai — 'many' dùng với danh từ đếm được, 'money' không đếm được."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u2-much-many-alotof",
+    "tags": [
+      "pronouns-determiners-u2-much-many-alotof"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "How ______ books did you read last summer?",
+    "choices": [
+      "a lot of",
+      "much",
+      "many",
+      "little"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Books' là danh từ đếm được nên câu hỏi 'How ___' cần dùng 'many'.",
+    "choiceExplanations": [
+      "Sai — 'a lot of' không dùng ngay sau 'How' theo cấu trúc câu hỏi số lượng chuẩn.",
+      "Sai — 'much' chỉ dùng với danh từ không đếm được.",
+      "Đúng — 'many' dùng với danh từ đếm được số nhiều 'books' trong câu hỏi 'How many...?'.",
+      "Sai — 'little' mang nghĩa 'rất ít' và không dùng trong cấu trúc 'How ___ books'."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u2-much-many-alotof",
+    "tags": [
+      "pronouns-determiners-u2-much-many-alotof"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We got ______ useful feedback from the customers after the survey — it really helped us improve.",
+    "choices": [
+      "several",
+      "few",
+      "many",
+      "a lot of"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Feedback' không đếm được và câu khẳng định nên 'a lot of' tự nhiên hơn 'much'.",
+    "choiceExplanations": [
+      "Sai — 'several' dùng với danh từ đếm được số nhiều, không phù hợp với 'feedback'.",
+      "Sai — 'few' mang nghĩa 'rất ít' (tiêu cực) và dùng với danh từ đếm được, trái với ý 'hữu ích, giúp cải thiện'.",
+      "Sai — 'many' dùng với danh từ đếm được, 'feedback' là danh từ không đếm được.",
+      "Đúng — 'a lot of' dùng được với danh từ không đếm được và rất tự nhiên trong câu khẳng định."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u3-few-little",
+    "tags": [
+      "pronouns-determiners-u3-few-little"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Don't worry about the exam — we still have ______ weeks to prepare, so there's no need to panic.",
+    "choices": [
+      "few",
+      "a few",
+      "much",
+      "little"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ngữ cảnh trấn an 'don't worry...no need to panic' cho thấy nghĩa tích cực, nên dùng 'a few'.",
+    "choiceExplanations": [
+      "Sai — 'few' (không mạo từ) mang nghĩa tiêu cực 'hầu như không có', trái với ngữ cảnh trấn an 'don't worry'.",
+      "Đúng — 'a few' mang nghĩa tích cực 'có một số, đủ dùng', phù hợp với ngữ cảnh trấn an.",
+      "Sai — 'much' dùng với danh từ không đếm được, không phù hợp với 'weeks'.",
+      "Sai — 'little' dùng với danh từ không đếm được, 'weeks' là danh từ đếm được."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u3-few-little",
+    "tags": [
+      "pronouns-determiners-u3-few-little"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hurry up! We have ______ time left before the store closes.",
+    "choices": [
+      "a few",
+      "little",
+      "few",
+      "a little"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hurry up' cho thấy nghĩa tiêu cực 'không đủ thời gian'; 'time' không đếm được nên dùng 'little'.",
+    "choiceExplanations": [
+      "Sai — 'a few' dùng với danh từ đếm được, 'time' không đếm được.",
+      "Đúng — 'little' (không mạo từ) mang nghĩa tiêu cực 'rất ít, không đủ', phù hợp với 'Hurry up! ... time left'.",
+      "Sai — 'few' dùng với danh từ đếm được số nhiều, không phù hợp với 'time' (không đếm được).",
+      "Sai — 'a little' mang nghĩa tích cực 'có một chút, đủ dùng', trái với ngữ cảnh khẩn cấp 'Hurry up'."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u3-few-little",
+    "tags": [
+      "pronouns-determiners-u3-few-little"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm not lonely at all — I have ______ close friends who I can always rely on.",
+    "choices": [
+      "little",
+      "a few",
+      "few",
+      "a little"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Not lonely at all' cho thấy nghĩa tích cực; 'friends' đếm được nên dùng 'a few'.",
+    "choiceExplanations": [
+      "Sai — 'little' dùng với danh từ không đếm được và mang nghĩa tiêu cực.",
+      "Đúng — 'a few' mang nghĩa tích cực 'có một số bạn', phù hợp với 'not lonely at all'.",
+      "Sai — 'few' mang nghĩa tiêu cực 'hầu như không có bạn', trái với 'not lonely at all'.",
+      "Sai — 'a little' dùng với danh từ không đếm được, 'friends' là danh từ đếm được."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u3-few-little",
+    "tags": [
+      "pronouns-determiners-u3-few-little"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Unfortunately, ______ people showed up to the meeting, so we had to postpone it.",
+    "choices": [
+      "a few",
+      "a little",
+      "few",
+      "much"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Unfortunately... had to postpone' cho thấy nghĩa tiêu cực 'quá ít người'; 'people' đếm được nên dùng 'few'.",
+    "choiceExplanations": [
+      "Sai — 'a few' mang nghĩa tích cực 'có một số người', không phù hợp với 'Unfortunately... had to postpone'.",
+      "Sai — 'a little' dùng với danh từ không đếm được, 'people' là danh từ đếm được.",
+      "Đúng — 'few' mang nghĩa tiêu cực 'quá ít, không đủ', phù hợp với việc phải hoãn cuộc họp.",
+      "Sai — 'much' dùng với danh từ không đếm được, không phù hợp với 'people' và không diễn tả đúng nghĩa 'few'."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u3-few-little",
+    "tags": [
+      "pronouns-determiners-u3-few-little"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She speaks ______ English, so it's hard for her to communicate with the tourists.",
+    "choices": [
+      "a little",
+      "a few",
+      "little",
+      "few"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Hard for her to communicate' cho thấy nghĩa tiêu cực; 'English' không đếm được nên dùng 'little'.",
+    "choiceExplanations": [
+      "Sai — 'a little' mang nghĩa tích cực 'biết một chút, đủ dùng', trái với 'hard... to communicate'.",
+      "Sai — 'a few' dùng với danh từ đếm được, 'English' là danh từ không đếm được.",
+      "Đúng — 'little' mang nghĩa tiêu cực 'rất ít, không đủ', phù hợp với 'hard for her to communicate'.",
+      "Sai — 'few' dùng với danh từ đếm được số nhiều, 'English' không đếm được."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u3-few-little",
+    "tags": [
+      "pronouns-determiners-u3-few-little"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There's ______ milk left in the carton — enough for one more cup of coffee.",
+    "choices": [
+      "a little",
+      "few",
+      "a few",
+      "little"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Enough for one more cup' cho thấy nghĩa tích cực; 'milk' không đếm được nên dùng 'a little'.",
+    "choiceExplanations": [
+      "Đúng — 'a little' mang nghĩa tích cực 'còn một chút, đủ dùng', phù hợp với 'enough for one more cup'.",
+      "Sai — 'few' dùng với danh từ đếm được số nhiều, 'milk' không đếm được.",
+      "Sai — 'a few' dùng với danh từ đếm được, 'milk' không đếm được.",
+      "Sai — 'little' (không mạo từ) mang nghĩa tiêu cực 'hầu như không còn', trái với 'enough for one more cup'."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u3-few-little",
+    "tags": [
+      "pronouns-determiners-u3-few-little"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ students in the class understood the difficult lecture, so the professor decided to explain it again.",
+    "choices": [
+      "A little",
+      "Little",
+      "Very few",
+      "A few"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Decided to explain it again' cho thấy hầu như không ai hiểu (tiêu cực); 'students' đếm được nên dùng 'few'.",
+    "choiceExplanations": [
+      "Sai — 'a little' dùng với danh từ không đếm được, 'students' là danh từ đếm được.",
+      "Sai — 'little' dùng với danh từ không đếm được, không phù hợp với 'students'.",
+      "Đúng — 'very few' nhấn mạnh nghĩa tiêu cực 'hầu như không ai hiểu', phù hợp với việc giáo sư phải giảng lại.",
+      "Sai — 'a few' mang nghĩa tích cực 'có một số học sinh hiểu', trái với việc phải giảng lại toàn bộ."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u3-few-little",
+    "tags": [
+      "pronouns-determiners-u3-few-little"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We have ______ extra time before the flight, so let's grab a coffee.",
+    "choices": [
+      "a little",
+      "a few",
+      "little",
+      "few"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Let's grab a coffee' cho thấy nghĩa tích cực (có đủ thời gian rảnh); 'time' không đếm được nên dùng 'a little'.",
+    "choiceExplanations": [
+      "Đúng — 'a little' mang nghĩa tích cực 'có một chút thời gian rảnh', phù hợp với đề nghị đi uống cà phê.",
+      "Sai — 'a few' dùng với danh từ đếm được, 'time' là danh từ không đếm được.",
+      "Sai — 'little' (không mạo từ) mang nghĩa tiêu cực 'hầu như không có thời gian', trái với đề nghị thư giãn uống cà phê.",
+      "Sai — 'few' dùng với danh từ đếm được số nhiều, 'time' không đếm được."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u4-reflexive-reciprocal",
+    "tags": [
+      "pronouns-determiners-u4-reflexive-reciprocal"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The two roommates always help ______ with the household chores.",
+    "choices": [
+      "each other",
+      "themselves",
+      "herself",
+      "himself"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hai bạn cùng phòng giúp đỡ lẫn nhau (hành động qua lại), nên dùng đại từ tương hỗ 'each other'.",
+    "choiceExplanations": [
+      "Đúng — 'each other' diễn tả hành động qua lại giữa hai người (hai bạn cùng phòng giúp đỡ lẫn nhau).",
+      "Sai — 'themselves' (phản thân) nghĩa là mỗi người tự giúp chính bản thân mình, không phải giúp người kia.",
+      "Sai — 'herself' chỉ dùng khi chủ ngữ số ít là nữ giới tự làm gì đó cho chính mình.",
+      "Sai — 'himself' chỉ dùng khi chủ ngữ số ít là nam giới tự làm gì đó cho chính mình."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u4-reflexive-reciprocal",
+    "tags": [
+      "pronouns-determiners-u4-reflexive-reciprocal"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He looked at ______ in the mirror before leaving for the interview.",
+    "choices": [
+      "one another",
+      "themselves",
+      "each other",
+      "himself"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chủ ngữ 'He' và tân ngữ là cùng một người (nhìn chính mình), nên dùng đại từ phản thân 'himself'.",
+    "choiceExplanations": [
+      "Sai — 'one another' tương tự 'each other', cần từ hai chủ thể trở lên.",
+      "Sai — 'themselves' là số nhiều, không khớp với chủ ngữ số ít 'He'.",
+      "Sai — 'each other' dùng cho hành động qua lại giữa từ hai người trở lên, không phù hợp với chủ ngữ số ít 'He'.",
+      "Đúng — 'himself' là đại từ phản thân phù hợp với chủ ngữ số ít nam giới 'He' khi nhìn chính mình."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u4-reflexive-reciprocal",
+    "tags": [
+      "pronouns-determiners-u4-reflexive-reciprocal"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The three friends promised to support ______ no matter what happened.",
+    "choices": [
+      "himself",
+      "herself",
+      "itself",
+      "one another"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ba người bạn hỗ trợ lẫn nhau (hành động qua lại giữa nhiều người), nên dùng đại từ tương hỗ 'one another'.",
+    "choiceExplanations": [
+      "Sai — 'himself' chỉ dùng cho chủ ngữ số ít nam giới, không phù hợp với 'the three friends'.",
+      "Sai — 'herself' chỉ dùng cho chủ ngữ số ít nữ giới, không phù hợp với chủ ngữ số nhiều.",
+      "Sai — 'itself' chỉ dùng cho chủ ngữ số ít là vật/con vật, không phù hợp ở đây.",
+      "Đúng — 'one another' diễn tả hành động qua lại giữa nhiều người (ba người bạn hỗ trợ lẫn nhau)."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u4-reflexive-reciprocal",
+    "tags": [
+      "pronouns-determiners-u4-reflexive-reciprocal"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The cat cleaned ______ carefully after playing outside in the mud.",
+    "choices": [
+      "itself",
+      "each other",
+      "one another",
+      "themselves"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chủ ngữ 'The cat' là số ít, hành động tự làm sạch chính nó nên dùng đại từ phản thân 'itself'.",
+    "choiceExplanations": [
+      "Đúng — 'itself' là đại từ phản thân phù hợp với chủ ngữ số ít không phải người 'the cat'.",
+      "Sai — 'each other' cần ít nhất hai chủ thể thực hiện hành động qua lại, 'the cat' là một chủ thể duy nhất.",
+      "Sai — 'one another' cần ít nhất hai chủ thể, không phù hợp với một con mèo.",
+      "Sai — 'themselves' là số nhiều, không khớp với chủ ngữ số ít 'the cat'."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u5-possessive",
+    "tags": [
+      "pronouns-determiners-u5-possessive"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This isn't my umbrella — I think it's ______ .",
+    "choices": [
+      "its",
+      "her",
+      "their",
+      "hers"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Hers' đứng một mình (không theo sau bởi danh từ), là đại từ sở hữu thay cho 'her umbrella'.",
+    "choiceExplanations": [
+      "Sai — 'its' là tính từ sở hữu, cần theo sau bởi danh từ, không đứng một mình như vậy.",
+      "Sai — 'her' là tính từ sở hữu, cần theo sau bởi một danh từ, không thể đứng một mình ở cuối câu.",
+      "Sai — 'their' là tính từ sở hữu số nhiều, cũng cần theo sau bởi danh từ.",
+      "Đúng — 'hers' là đại từ sở hữu, đứng một mình thay cho 'her umbrella'."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u5-possessive",
+    "tags": [
+      "pronouns-determiners-u5-possessive"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please remember to bring ______ passport when you travel abroad.",
+    "choices": [
+      "theirs",
+      "mine",
+      "your",
+      "yours"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Your' là tính từ sở hữu, đứng trước danh từ 'passport' để bổ nghĩa.",
+    "choiceExplanations": [
+      "Sai — 'theirs' là đại từ sở hữu, không đứng trước danh từ.",
+      "Sai — 'mine' là đại từ sở hữu ngôi thứ nhất, không phù hợp về nghĩa và không đứng trước danh từ.",
+      "Đúng — 'your' là tính từ sở hữu, đứng trước danh từ 'passport' một cách chính xác.",
+      "Sai — 'yours' là đại từ sở hữu, không đứng trực tiếp trước danh từ 'passport'."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u5-possessive",
+    "tags": [
+      "pronouns-determiners-u5-possessive"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our team worked hard, but ______ still won the championship.",
+    "choices": [
+      "they",
+      "theirs",
+      "their",
+      "them"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Theirs' đứng một mình, thay cho 'their team', làm chủ ngữ của mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'they' là đại từ chủ ngữ thông thường, không mang nghĩa sở hữu 'đội của họ'.",
+      "Đúng — 'theirs' là đại từ sở hữu, thay thế cho 'their team' và đứng một mình làm chủ ngữ.",
+      "Sai — 'their' là tính từ sở hữu, cần có danh từ theo sau, không thể đứng một mình làm chủ ngữ.",
+      "Sai — 'them' là đại từ tân ngữ, không mang nghĩa sở hữu."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u5-possessive",
+    "tags": [
+      "pronouns-determiners-u5-possessive"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The dog wagged ______ tail happily when its owner came home.",
+    "choices": [
+      "itself",
+      "it",
+      "it's",
+      "its"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Its' (không có dấu nháy đơn) là tính từ sở hữu, đứng trước danh từ 'tail'.",
+    "choiceExplanations": [
+      "Sai — 'itself' là đại từ phản thân, không mang nghĩa sở hữu và không đứng trước danh từ.",
+      "Sai — 'it' là đại từ chủ ngữ/tân ngữ thông thường, không mang nghĩa sở hữu.",
+      "Sai — 'it's' là dạng viết tắt của 'it is/it has', không phải tính từ sở hữu.",
+      "Đúng — 'its' (không có dấu nháy đơn) là tính từ sở hữu, đứng trước danh từ 'tail' một cách chính xác."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u6-no-none-neither-either",
+    "tags": [
+      "pronouns-determiners-u6-no-none-neither-either"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ of the two restaurants was open, so we ended up cooking at home.",
+    "choices": [
+      "Either",
+      "No",
+      "Neither",
+      "None"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Neither... was open' phủ định cho hai lựa chọn (hai nhà hàng), nên dùng 'Neither of the two'.",
+    "choiceExplanations": [
+      "Sai — 'Either' mang nghĩa khẳng định 'một trong hai', không phù hợp với ý phủ định 'cả hai đều không mở'.",
+      "Sai — 'No' không đứng trước 'of the two'; cần dùng 'No' trực tiếp trước danh từ, ví dụ 'No restaurant was open'.",
+      "Đúng — 'Neither' dùng cho đúng hai lựa chọn và mang nghĩa phủ định 'không cái nào trong hai'.",
+      "Sai — 'None' dùng cho từ ba đối tượng trở lên, không phù hợp khi chỉ có 'the two restaurants'."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u6-no-none-neither-either",
+    "tags": [
+      "pronouns-determiners-u6-no-none-neither-either"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You can choose ______ tea or coffee — both are free this morning.",
+    "choices": [
+      "neither",
+      "either",
+      "no",
+      "none"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Either... or' diễn tả sự lựa chọn 1 trong 2, mang nghĩa khẳng định 'cái nào cũng được'.",
+    "choiceExplanations": [
+      "Sai — 'neither' mang nghĩa phủ định 'không cái nào', trái với ý cho phép chọn.",
+      "Đúng — 'either... or' diễn tả việc được chọn một trong hai, phù hợp với ngữ cảnh 'both are free'.",
+      "Sai — 'no' + danh từ mang nghĩa phủ định hoàn toàn, không phù hợp với cấu trúc lựa chọn '___ tea or coffee'.",
+      "Sai — 'none' đứng một mình, không đi với cấu trúc '___ tea or coffee'."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u6-no-none-neither-either",
+    "tags": [
+      "pronouns-determiners-u6-no-none-neither-either"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ of the answers on this test are correct — every single one is wrong.",
+    "choices": [
+      "No",
+      "None",
+      "Neither",
+      "Either"
+    ],
+    "correctIndex": 1,
+    "explanation": "'None of the answers' (nhiều hơn 2 đáp án) đứng một mình trước 'of + danh từ', mang nghĩa phủ định hoàn toàn.",
+    "choiceExplanations": [
+      "Sai — 'No' không thể đi trực tiếp với 'of the answers'; 'no' phải đứng ngay trước danh từ, ví dụ 'No answer is correct'.",
+      "Đúng — 'none' đứng trước 'of the answers' (nhiều hơn hai đối tượng) mang nghĩa 'không cái nào cả', khớp với 'every single one is wrong'.",
+      "Sai — 'Neither' chỉ dùng cho đúng hai đối tượng, ở đây là cả bài kiểm tra với nhiều câu hỏi.",
+      "Sai — 'Either' mang nghĩa khẳng định và chỉ dùng cho hai đối tượng, không phù hợp."
+    ]
+  },
+  {
+    "id": "en-pronouns-determiners-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "pronouns-determiners",
+    "usageId": "pronouns-determiners-u6-no-none-neither-either",
+    "tags": [
+      "pronouns-determiners-u6-no-none-neither-either"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There is ______ reason to worry — everything is under control.",
+    "choices": [
+      "none",
+      "neither",
+      "no",
+      "either"
+    ],
+    "correctIndex": 2,
+    "explanation": "'No' + danh từ số ít 'reason' đứng ngay trước danh từ, mang nghĩa phủ định.",
+    "choiceExplanations": [
+      "Sai — 'none' đứng một mình, không đứng trực tiếp trước danh từ 'reason'.",
+      "Sai — 'neither' chỉ dùng cho đúng hai đối tượng cụ thể, ở đây không có sự so sánh giữa hai lựa chọn.",
+      "Đúng — 'no' đứng ngay trước danh từ 'reason', diễn tả nghĩa phủ định 'không có lý do nào'.",
+      "Sai — 'either' mang nghĩa khẳng định 'một trong hai', không phù hợp với ngữ cảnh phủ định này."
+    ]
+  }
+]

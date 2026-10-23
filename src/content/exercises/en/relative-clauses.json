@@ -1,0 +1,634 @@
+[
+  {
+    "id": "en-relative-clauses-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u1-who-whom",
+    "tags": [
+      "rc-u1-who-whom"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The woman ______ is standing next to the window is our new marketing manager.",
+    "choices": [
+      "which",
+      "whose",
+      "who",
+      "whom"
+    ],
+    "correctIndex": 2,
+    "explanation": "Chỗ trống cần một đại từ quan hệ chỉ người (The woman) và đóng vai trò làm chủ ngữ cho động từ 'is standing'. Do đó, ta chọn 'who'."
+  },
+  {
+    "id": "en-relative-clauses-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u2-which-that",
+    "tags": [
+      "rc-u2-which-that"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We are looking for a laptop ______ has a long battery life.",
+    "choices": [
+      "who",
+      "where",
+      "which",
+      "whom"
+    ],
+    "correctIndex": 2,
+    "explanation": "Danh từ đứng trước là 'a laptop' (chỉ vật) nên đại từ quan hệ thay thế phải là 'which' (hoặc 'that'). Ở đây 'which' làm chủ ngữ cho động từ 'has'."
+  },
+  {
+    "id": "en-relative-clauses-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u3-whose",
+    "tags": [
+      "rc-u3-whose"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I have a friend ______ brother is a professional footballer.",
+    "choices": [
+      "whose",
+      "whom",
+      "that",
+      "who"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ngay sau chỗ trống là một danh từ (brother), mang ý nghĩa sở hữu 'anh trai của người bạn đó'. Ta bắt buộc dùng 'whose' để nối sự sở hữu này."
+  },
+  {
+    "id": "en-relative-clauses-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u4-where-when-why",
+    "tags": [
+      "rc-u4-where-when-why"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This is the restaurant ______ we celebrated our parents' wedding anniversary.",
+    "choices": [
+      "when",
+      "where",
+      "which",
+      "whom"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu này ám chỉ địa điểm (the restaurant) mà hành động 'celebrated' đã xảy ra tại đó. 'Where' đóng vai trò là trạng từ chỉ nơi chốn (bằng 'in/at which')."
+  },
+  {
+    "id": "en-relative-clauses-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u4-where-when-why",
+    "tags": [
+      "rc-u4-where-when-why"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Summer is the season ______ the weather gets really hot and humid.",
+    "choices": [
+      "where",
+      "when",
+      "why",
+      "which"
+    ],
+    "correctIndex": 1,
+    "explanation": "Danh từ đứng trước là 'the season' chỉ thời gian, do đó trạng từ quan hệ phù hợp nhất là 'when'."
+  },
+  {
+    "id": "en-relative-clauses-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u1-who-whom",
+    "tags": [
+      "rc-u1-who-whom"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The man to ______ I was complaining turned out to be the CEO.",
+    "choices": [
+      "whom",
+      "whose",
+      "that",
+      "who"
+    ],
+    "correctIndex": 0,
+    "explanation": "Giới từ (to, for, with...) trong tiếng Anh chuẩn không bao giờ đứng ngay trước 'who' hay 'that'. Ta bắt buộc dùng 'whom' cho người khi đứng ngay sau một giới từ."
+  },
+  {
+    "id": "en-relative-clauses-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u2-which-that",
+    "tags": [
+      "rc-u2-which-that",
+      "rc-u5-defining-nondefining"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My latest smartphone, ______ cost me a month's salary, is not working properly.",
+    "choices": [
+      "what",
+      "it",
+      "which",
+      "that"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là mệnh đề quan hệ không xác định (có dấu phẩy), bổ nghĩa cho vật 'My latest smartphone'. Tuyệt đối không dùng 'that' sau dấu phẩy, nên 'which' là đáp án duy nhất."
+  },
+  {
+    "id": "en-relative-clauses-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u2-which-that",
+    "tags": [
+      "rc-u2-which-that"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Everything ______ he said during the interview was a complete lie.",
+    "choices": [
+      "which",
+      "that",
+      "what",
+      "who"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sau các đại từ bất định (everything, nothing, something, all, much, little...), tiếng Anh chuẩn BẮT BUỘC dùng đại từ quan hệ 'that', không dùng 'which'."
+  },
+  {
+    "id": "en-relative-clauses-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u4-where-when-why",
+    "tags": [
+      "rc-u4-where-when-why"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Is there any reason ______ she didn't attend the meeting yesterday?",
+    "choices": [
+      "which",
+      "where",
+      "when",
+      "why"
+    ],
+    "correctIndex": 3,
+    "explanation": "Danh từ đứng trước là 'reason' (lý do). Trạng từ quan hệ chuyên đi kèm để giải thích cho the reason là 'why' (= for which)."
+  },
+  {
+    "id": "en-relative-clauses-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u4-where-when-why",
+    "tags": [
+      "rc-u4-where-when-why"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The hotel ______ we stayed last year has closed down.",
+    "choices": [
+      "in where",
+      "that",
+      "at which",
+      "which"
+    ],
+    "correctIndex": 2,
+    "explanation": "Từ 'stay' yêu cầu giới từ chỉ nơi chốn (stay at/in a hotel). Khi đưa đại từ lên nối câu, ta có thể dùng 'where' hoặc 'giới từ + which'. Vì không có 'where' đứng một mình, 'at which' là đáp án đúng."
+  },
+  {
+    "id": "en-relative-clauses-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The girl ______ in the corner of the room is waiting for you.",
+    "choices": [
+      "who stand",
+      "standing",
+      "is standing",
+      "stood"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đây là dạng rút gọn mệnh đề quan hệ mang nghĩa chủ động (the girl who is standing). Ta bỏ đại từ quan hệ và động từ to be, biến động từ chính thành dạng V-ing: 'standing'."
+  },
+  {
+    "id": "en-relative-clauses-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The ancient bridge ______ in the 15th century is being repaired now.",
+    "choices": [
+      "to build",
+      "was built",
+      "built",
+      "building"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là dạng rút gọn mệnh đề quan hệ bị động (the bridge which was built). Ta bỏ đại từ quan hệ và to be, giữ lại phân từ hai V3/ed là 'built'."
+  },
+  {
+    "id": "en-relative-clauses-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Neil Armstrong was the first person ______ foot on the moon.",
+    "choices": [
+      "who setting",
+      "set",
+      "setting",
+      "to set"
+    ],
+    "correctIndex": 3,
+    "explanation": "Khi danh từ đứng trước có chứa số thứ tự (the first, the second, the last) hoặc cực cấp (the only), mệnh đề quan hệ rút gọn được chuyển thành dạng 'to + V'."
+  },
+  {
+    "id": "en-relative-clauses-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u2-which-that",
+    "tags": [
+      "rc-u2-which-that",
+      "rc-u5-defining-nondefining"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He successfully completed the project ahead of schedule, ______ really surprised the director.",
+    "choices": [
+      "that",
+      "which",
+      "what",
+      "it"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đại từ 'which' ở đây không thay thế cho một danh từ mà thay thế cho toàn bộ sự việc ở mệnh đề phía trước (việc anh ấy hoàn thành dự án). Mệnh đề này luôn có dấu phẩy đứng trước."
+  },
+  {
+    "id": "en-relative-clauses-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u3-whose",
+    "tags": [
+      "rc-u3-whose"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They are the scientists ______ research won the Nobel Prize last year.",
+    "choices": [
+      "who's",
+      "that's",
+      "whom",
+      "whose"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cần đại từ biểu thị sự sở hữu cho 'research' (nghiên cứu CỦA những nhà khoa học đó). 'Whose' là đáp án đúng. Tránh nhầm lẫn với 'Who's' (là dạng viết tắt của who is / who has)."
+  },
+  {
+    "id": "en-relative-clauses-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u1-who-whom",
+    "tags": [
+      "rc-u1-who-whom"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The mechanic ______ fixed my car yesterday is very experienced.",
+    "choices": [
+      "whose",
+      "who",
+      "whom",
+      "which"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đại từ quan hệ 'who' dùng để thay thế cho danh từ chỉ người (The mechanic) và làm chủ ngữ trong mệnh đề quan hệ."
+  },
+  {
+    "id": "en-relative-clauses-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u2-which-that",
+    "tags": [
+      "rc-u2-which-that"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I lost the watch ______ my father gave me on my birthday.",
+    "choices": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đại từ 'which' dùng để thay thế cho danh từ chỉ vật (the watch) và làm tân ngữ trong mệnh đề quan hệ."
+  },
+  {
+    "id": "en-relative-clauses-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u1-who-whom",
+    "tags": [
+      "rc-u1-who-whom"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The manager to ______ I sent the email has just replied.",
+    "choices": [
+      "who",
+      "whose",
+      "that",
+      "whom"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sau giới từ (ở đây là 'to'), bắt buộc phải dùng đại từ quan hệ 'whom' để chỉ người, không được dùng 'who' hay 'that'."
+  },
+  {
+    "id": "en-relative-clauses-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u3-whose",
+    "tags": [
+      "rc-u3-whose"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I have a friend ______ mother is a famous actress.",
+    "choices": [
+      "whose",
+      "whom",
+      "that",
+      "who"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đại từ 'whose' dùng để chỉ sự sở hữu (mẹ của người bạn đó). Đứng ngay sau 'whose' luôn là một danh từ."
+  },
+  {
+    "id": "en-relative-clauses-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u2-which-that",
+    "tags": [
+      "rc-u2-which-that"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The cookies ______ you baked this morning are delicious.",
+    "choices": [
+      "that",
+      "whom",
+      "who",
+      "whose"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đại từ 'that' dùng để thay thế cho danh từ chỉ vật (The cookies) trong mệnh đề quan hệ xác định."
+  },
+  {
+    "id": "en-relative-clauses-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u4-where-when-why",
+    "tags": [
+      "rc-u4-where-when-why"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They visited the town ______ they met each other ten years ago.",
+    "choices": [
+      "where",
+      "when",
+      "why",
+      "which"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trạng từ quan hệ 'where' dùng để thay thế cho cụm từ chỉ nơi chốn (the town), mang nghĩa là 'nơi mà'."
+  },
+  {
+    "id": "en-relative-clauses-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u4-where-when-why",
+    "tags": [
+      "rc-u4-where-when-why"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I will never forget the day ______ I received my university acceptance letter.",
+    "choices": [
+      "which",
+      "when",
+      "who",
+      "where"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trạng từ quan hệ 'when' dùng để thay thế cho danh từ chỉ thời gian (the day), mang nghĩa là 'khi mà'."
+  },
+  {
+    "id": "en-relative-clauses-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u4-where-when-why",
+    "tags": [
+      "rc-u4-where-when-why"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Can you explain the reason ______ you were late for the meeting?",
+    "choices": [
+      "where",
+      "when",
+      "which",
+      "why"
+    ],
+    "correctIndex": 3,
+    "explanation": "Trạng từ quan hệ 'why' luôn đi sau danh từ 'the reason' để giải thích lý do cho một sự việc."
+  },
+  {
+    "id": "en-relative-clauses-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u5-defining-nondefining",
+    "tags": [
+      "rc-u5-defining-nondefining"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My grandfather, ______ is 80 years old, still goes jogging every morning.",
+    "choices": [
+      "which",
+      "that",
+      "who",
+      "whom"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là mệnh đề quan hệ không xác định (có dấu phẩy), phải dùng 'who' để chỉ người, tuyệt đối KHÔNG được dùng 'that' sau dấu phẩy."
+  },
+  {
+    "id": "en-relative-clauses-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u5-defining-nondefining",
+    "tags": [
+      "rc-u5-defining-nondefining"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The Eiffel Tower, ______ was built in 1889, is a symbol of Paris.",
+    "choices": [
+      "which",
+      "that",
+      "where",
+      "who"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề quan hệ không xác định (có dấu phẩy) chỉ vật, bắt buộc dùng 'which'. Không dùng 'that' sau dấu phẩy và không dùng 'where' vì vị trí này cần một chủ ngữ."
+  },
+  {
+    "id": "en-relative-clauses-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The woman ______ next to the window is my English teacher.",
+    "choices": [
+      "sits",
+      "sat",
+      "to sit",
+      "sitting"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rút gọn mệnh đề quan hệ dạng chủ động (who is sitting -> sitting). Động từ thêm 'ing' (V-ing) được dùng khi hành động mang tính chủ động."
+  },
+  {
+    "id": "en-relative-clauses-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "All the products ______ in this factory are exported to Europe.",
+    "choices": [
+      "make",
+      "making",
+      "made",
+      "to make"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rút gọn mệnh đề quan hệ dạng bị động (which are made -> made). Quá khứ phân từ (V3/ed) được dùng khi sự việc mang nghĩa bị động (được làm ra)."
+  },
+  {
+    "id": "en-relative-clauses-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Yuri Gagarin was the first human ______ into space.",
+    "choices": [
+      "to travel",
+      "travel",
+      "traveled",
+      "traveling"
+    ],
+    "correctIndex": 0,
+    "explanation": "Khi danh từ đứng trước có kèm các từ chỉ số thứ tự hoặc cực cấp (the first, the second, the last, the only...), ta rút gọn mệnh đề quan hệ bằng 'to V'."
+  },
+  {
+    "id": "en-relative-clauses-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Students ______ late for the exam will not be allowed to enter the room.",
+    "choices": [
+      "arrive",
+      "to arrive",
+      "arrived",
+      "arriving"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rút gọn mệnh đề quan hệ mang nghĩa chủ động (who arrive -> arriving) bằng cách sử dụng hiện tại phân từ (V-ing)."
+  },
+  {
+    "id": "en-relative-clauses-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The bridge ______ by the local government last year has significantly reduced traffic jams.",
+    "choices": [
+      "to build",
+      "built",
+      "building",
+      "builds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rút gọn mệnh đề quan hệ dạng bị động (which was built -> built). Dùng V3/ed vì cây cầu bị tác động bởi hành động 'được xây'."
+  }
+]

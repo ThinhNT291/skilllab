@@ -47,11 +47,16 @@ for (const lang of fs.readdirSync(path.join(root, 'grammar'))) {
   const exDir = path.join(root, 'exercises', lang)
   if (!fs.existsSync(exDir)) continue
   const seenEx = new Set()
-  for (const f of fs.readdirSync(exDir)) {
+  const seenPrompt = new Map()
+  for (const f of fs.readdirSync(exDir).sort()) {
     const topic = f.replace(/\.json$/, '')
     const list = read(path.join(exDir, f))
     if (!usageIdsByTopic.has(topic)) { errors.push(`exercises ${lang}/${f}: không có chuyên đề tương ứng`); continue }
-    if (list.length < 10) warnings.push(`exercises ${lang}/${f}: chỉ có ${list.length} câu (nên ≥ 10 để mỗi lượt không lặp)`)
+    const note = (m) => warnings.push(`${lang}/${topic}: ${m}`)
+    const diff = { 1: 0, 2: 0, 3: 0 }
+    const pos = [0, 0, 0, 0]
+    let noUsage = 0
+    let noChoiceExpl = 0
     const covered = new Set()
     list.forEach((ex, i) => {
       exerciseCount++
@@ -60,22 +65,35 @@ for (const lang of fs.readdirSync(path.join(root, 'grammar'))) {
       if (ex.kind !== 'mcq') at(`kind lạ: ${ex.kind}`)
       if (ex.language !== lang) at(`language (${ex.language}) khác thư mục (${lang})`)
       if (ex.topic !== topic) at(`topic (${ex.topic}) khác tên tệp (${topic})`)
-      if (!LEVELS.includes(ex.level)) at(`level lạ: ${ex.level}`)
-      if (![1, 2, 3].includes(ex.difficulty)) at(`difficulty lạ: ${ex.difficulty}`)
-      if (!ex.prompt || !ex.title || !ex.explanation) at('thiếu prompt/title/explanation')
+      if (ex.level !== undefined && !LEVELS.includes(ex.level)) at(`level lạ: ${ex.level}`)
+      if (![1, 2, 3].includes(ex.difficulty)) at(`difficulty lạ: ${ex.difficulty}`); else diff[ex.difficulty]++
+      if (!ex.prompt || !ex.explanation) at('thiếu prompt/explanation')
       const ch = ex.choices ?? []
       if (ch.length < 2) at('cần ≥ 2 đáp án')
       if (new Set(ch.map((c) => String(c).trim().toLowerCase())).size !== ch.length) at('có đáp án trùng nhau')
       if (!Number.isInteger(ex.correctIndex) || ex.correctIndex < 0 || ex.correctIndex >= ch.length) at(`correctIndex ngoài phạm vi: ${ex.correctIndex}`)
-      if (ex.choiceExplanations && ex.choiceExplanations.length !== ch.length) at('choiceExplanations khác số đáp án')
-      if (ex.choiceExplanations?.some((s) => !String(s).trim())) at('choiceExplanations có mục trống')
-      if (ex.prompt.includes('____') && ch.some((c) => c.includes('____'))) at('đáp án chứa chỗ trống')
-      if (!ex.usageId) warnings.push(`${ex.id}: chưa gắn usageId (không có link "Xem lại lý thuyết")`)
+      else pos[ex.correctIndex]++
+      if (ex.choiceExplanations) {
+        if (ex.choiceExplanations.length !== ch.length) at('choiceExplanations khác số đáp án')
+        if (ex.choiceExplanations.some((s) => !String(s).trim())) at('choiceExplanations có mục trống')
+      } else noChoiceExpl++
+      if (/_{2,}/.test(ex.prompt ?? '') && ch.some((c) => /_{2,}/.test(c))) at('đáp án chứa chỗ trống')
+      if (!ex.usageId) noUsage++
       else if (!usageIdsByTopic.get(topic).has(ex.usageId)) at(`usageId không tồn tại trong chuyên đề: ${ex.usageId}`)
       else covered.add(ex.usageId)
       if (!Array.isArray(ex.tags)) at('tags phải là mảng')
+      const key = String(ex.prompt ?? '').trim().toLowerCase()
+      if (seenPrompt.has(key)) warnings.push(`${ex.id}: đề trùng với ${seenPrompt.get(key)}`)
+      else seenPrompt.set(key, ex.id)
     })
-    for (const id of usageIdsByTopic.get(topic)) if (!covered.has(id)) warnings.push(`exercises ${lang}/${f}: chưa có câu cho mục lý thuyết ${id}`)
+    if (list.length < 30) note(`${list.length} câu (chuẩn là 30)`)
+    if (diff[1] < 4 || diff[2] < 3 || diff[3] < 3) note(`độ khó ${diff[1]}/${diff[2]}/${diff[3]}: không đủ câu cho hạn mức mỗi lượt 4 dễ/3 vừa/3 khó (lượt sẽ bù bằng câu khó khác, mạch dễ → khó yếu đi)`)
+    else if (list.length === 30 && (diff[1] !== 10 || diff[2] !== 10 || diff[3] !== 10)) note(`độ khó ${diff[1]}/${diff[2]}/${diff[3]} (chuẩn 10/10/10)`)
+    const maxPos = Math.max(...pos)
+    if (list.length >= 8 && maxPos / list.length > 0.4) note(`đáp án đúng dồn vào một vị trí (${pos.join('/')}) cho A/B/C/D`)
+    if (noUsage) note(`${noUsage} câu chưa gắn usageId (chưa có mục lý thuyết dạy riêng; link "Xem lại lý thuyết" trỏ về đầu trang)`)
+    if (noChoiceExpl) note(`${noChoiceExpl} câu chưa có choiceExplanations`)
+    for (const id of usageIdsByTopic.get(topic)) if (!covered.has(id)) note(`chưa có câu nào cho mục lý thuyết ${id}`)
   }
 }
 

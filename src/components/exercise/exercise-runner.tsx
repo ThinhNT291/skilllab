@@ -110,7 +110,7 @@ export function ExerciseRunner({
 
       <div key={ex!.id} className="anim-pop rounded-game border-2 border-border bg-card p-5">
         <p className="text-sm uppercase tracking-wide text-muted-foreground">
-          Câu {index + 1}/{total} · {ex!.title}
+          Câu {index + 1}/{total}{ex!.title ? ` · ${ex!.title}` : ""}
         </p>
         <p className="my-2 mb-4 text-2xl font-extrabold leading-relaxed">{ex!.prompt}</p>
 

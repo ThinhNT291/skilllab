@@ -1,0 +1,634 @@
+[
+  {
+    "id": "en-present-continuous-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u1-happening-now",
+    "tags": [
+      "pc-u1-happening-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Listen! Someone ______ (knock) on the door.",
+    "choices": [
+      "is knocking",
+      "knock",
+      "knocks",
+      "are knocking"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tín hiệu 'Listen!' cho biết hành động đang xảy ra ngay lúc nói → dùng hiện tại tiếp diễn; chủ ngữ 'someone' số ít nên dùng 'is knocking'."
+  },
+  {
+    "id": "en-present-continuous-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u1-happening-now",
+    "tags": [
+      "pc-u1-happening-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Look! The children ______ (play) in the garden.",
+    "choices": [
+      "are playing",
+      "is playing",
+      "plays",
+      "play"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Look!' báo hiệu hành động đang diễn ra ngay lúc nói; chủ ngữ 'the children' số nhiều nên dùng 'are playing'."
+  },
+  {
+    "id": "en-present-continuous-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u1-happening-now",
+    "tags": [
+      "pc-u1-happening-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ (not/watch) TV right now; I'm doing my homework.",
+    "choices": [
+      "don't watch",
+      "isn't watching",
+      "am not watching",
+      "not watching"
+    ],
+    "correctIndex": 2,
+    "explanation": "Thể phủ định hiện tại tiếp diễn: am/is/are + not + V-ing. Chủ ngữ 'I' → am not watching."
+  },
+  {
+    "id": "en-present-continuous-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u1-happening-now",
+    "tags": [
+      "pc-u1-happening-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ your brother ______ (study) in his room at the moment?",
+    "choices": [
+      "Are / studying",
+      "Do / study",
+      "Does / study",
+      "Is / studying"
+    ],
+    "correctIndex": 3,
+    "explanation": "'At the moment' là tín hiệu hiện tại tiếp diễn; chủ ngữ 'your brother' số ít → Is ... studying?"
+  },
+  {
+    "id": "en-present-continuous-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u1-happening-now",
+    "tags": [
+      "pc-u1-happening-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She ______ (write) a letter to her grandmother now.",
+    "choices": [
+      "writes",
+      "is writting",
+      "is writing",
+      "write"
+    ],
+    "correctIndex": 2,
+    "explanation": "Động từ 'write' bỏ 'e' câm trước khi thêm '-ing': write → writing. Chủ ngữ số ít nên dùng 'is'."
+  },
+  {
+    "id": "en-present-continuous-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u1-happening-now",
+    "tags": [
+      "pc-u1-happening-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ (sit) in the waiting room, hoping to see the doctor soon.",
+    "choices": [
+      "are sitting",
+      "is sitting",
+      "sit",
+      "sits"
+    ],
+    "correctIndex": 0,
+    "explanation": "'sit' tận cùng bằng 1 phụ âm sau 1 nguyên âm ngắn nên nhân đôi phụ âm: sit → sitting. Chủ ngữ 'we' → are sitting."
+  },
+  {
+    "id": "en-present-continuous-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u2-temporary-around-now",
+    "tags": [
+      "pc-u2-temporary-around-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "At present, the workers ______ (build) a new bridge across the river.",
+    "choices": [
+      "build",
+      "is building",
+      "are building",
+      "builds"
+    ],
+    "correctIndex": 2,
+    "explanation": "'At present' cho thấy một công việc đang diễn ra trong giai đoạn hiện tại (không nhất thiết đúng giây phút nói); chủ ngữ 'the workers' số nhiều → are building."
+  },
+  {
+    "id": "en-present-continuous-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u1-happening-now",
+    "tags": [
+      "pc-u1-happening-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My grandmother ______ (lie) on the sofa, taking a short nap.",
+    "choices": [
+      "is lying",
+      "lies",
+      "is lieing",
+      "lying"
+    ],
+    "correctIndex": 0,
+    "explanation": "Động từ 'lie' (nằm) tận cùng bằng '-ie' đổi thành 'y' trước khi thêm '-ing': lie → lying."
+  },
+  {
+    "id": "en-present-continuous-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u2-temporary-around-now",
+    "tags": [
+      "pc-u2-temporary-around-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Currently, my parents ______ (repaint) the fence in front of our house.",
+    "choices": [
+      "repaints",
+      "is repainting",
+      "repaint",
+      "are repainting"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Currently' chỉ một việc đang được thực hiện trong giai đoạn hiện tại; chủ ngữ 'my parents' số nhiều → are repainting."
+  },
+  {
+    "id": "en-present-continuous-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "tags": [
+      "ps-vs-pc"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ (know) the correct answer, so please don't tell me!",
+    "choices": [
+      "is knowing",
+      "am knowing",
+      "know",
+      "are knowing"
+    ],
+    "correctIndex": 2,
+    "explanation": "'know' là động từ chỉ trạng thái (state verb), không dùng ở thì tiếp diễn → phải chia hiện tại đơn: I know."
+  },
+  {
+    "id": "en-present-continuous-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u2-temporary-around-now",
+    "tags": [
+      "pc-u2-temporary-around-now"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "These days, I ______ (read) a fascinating novel about space exploration.",
+    "choices": [
+      "read",
+      "am reading",
+      "is reading",
+      "reads"
+    ],
+    "correctIndex": 1,
+    "explanation": "'These days' chỉ tình huống tạm thời quanh hiện tại, không nhất thiết đúng lúc nói → dùng hiện tại tiếp diễn: am reading."
+  },
+  {
+    "id": "en-present-continuous-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u2-temporary-around-now",
+    "tags": [
+      "pc-u2-temporary-around-now"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My cousin ______ (stay) at our house this month because her apartment is being renovated.",
+    "choices": [
+      "are staying",
+      "stay",
+      "stays",
+      "is staying"
+    ],
+    "correctIndex": 3,
+    "explanation": "'This month' cho thấy một tình huống tạm thời quanh hiện tại → is staying (chủ ngữ số ít)."
+  },
+  {
+    "id": "en-present-continuous-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u3-future-arrangement",
+    "tags": [
+      "pc-u3-future-arrangement"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ (meet) our old classmates for a reunion next Friday evening.",
+    "choices": [
+      "meet",
+      "is meeting",
+      "meets",
+      "are meeting"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu diễn tả một kế hoạch đã định cho tương lai gần ('next Friday evening') → hiện tại tiếp diễn: are meeting."
+  },
+  {
+    "id": "en-present-continuous-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u3-future-arrangement",
+    "tags": [
+      "pc-u3-future-arrangement"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The new manager ______ (start) her job at our company next Monday.",
+    "choices": [
+      "are starting",
+      "is starting",
+      "starts",
+      "start"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kế hoạch cụ thể đã sắp xếp cho tương lai gần → hiện tại tiếp diễn: is starting."
+  },
+  {
+    "id": "en-present-continuous-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u4-changing-trend",
+    "tags": [
+      "pc-u4-changing-trend"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "More and more companies ______ (switch) to renewable energy sources these days.",
+    "choices": [
+      "are switching",
+      "switches",
+      "is switching",
+      "switch"
+    ],
+    "correctIndex": 0,
+    "explanation": "'More and more' diễn tả xu hướng thay đổi dần theo thời gian → hiện tại tiếp diễn; chủ ngữ số nhiều → are switching."
+  },
+  {
+    "id": "en-present-continuous-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u4-changing-trend",
+    "tags": [
+      "pc-u4-changing-trend"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The number of tourists visiting this island ______ (increase) year after year.",
+    "choices": [
+      "are increasing",
+      "increases",
+      "is increasing",
+      "increase"
+    ],
+    "correctIndex": 2,
+    "explanation": "Diễn tả xu hướng tăng dần theo thời gian → hiện tại tiếp diễn; chủ ngữ chính là 'the number' (số ít) → is increasing."
+  },
+  {
+    "id": "en-present-continuous-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u5-annoying-habit",
+    "tags": [
+      "pc-u5-annoying-habit"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My little brother ______ (always/forget) to turn off the lights before he leaves his room!",
+    "choices": [
+      "is forgetting always",
+      "is always forgetting",
+      "always forgetting",
+      "always forgets"
+    ],
+    "correctIndex": 1,
+    "explanation": "Diễn tả sự phàn nàn về thói quen lặp lại quá thường xuyên → hiện tại tiếp diễn với 'always': is always forgetting."
+  },
+  {
+    "id": "en-present-continuous-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u5-annoying-habit",
+    "tags": [
+      "pc-u5-annoying-habit"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Honestly, our neighbor ______ (always/complain) about the noise from our garden, even when we're quiet!",
+    "choices": [
+      "always complains",
+      "complains always",
+      "is always complaining",
+      "always complaining"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Always' + hiện tại tiếp diễn diễn tả sự khó chịu về thói quen lặp đi lặp lại quá nhiều: is always complaining."
+  },
+  {
+    "id": "en-present-continuous-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u3-future-arrangement",
+    "tags": [
+      "pc-u3-future-arrangement"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you ______ (do) anything special this weekend?",
+    "choices": [
+      "Are / doing",
+      "Does / do",
+      "Is / doing",
+      "Do / do"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hỏi về kế hoạch đã sắp xếp cho tương lai gần ('this weekend') → Are you doing...?"
+  },
+  {
+    "id": "en-present-continuous-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "tags": [
+      "ps-vs-pc"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This bag ______ (belong) to my sister, not to me.",
+    "choices": [
+      "belong",
+      "belongs",
+      "is belonging",
+      "are belonging"
+    ],
+    "correctIndex": 1,
+    "explanation": "'belong' là động từ chỉ trạng thái sở hữu, không dùng ở thì tiếp diễn → chia hiện tại đơn: belongs."
+  },
+  {
+    "id": "en-present-continuous-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u2-temporary-around-now",
+    "tags": [
+      "pc-u2-temporary-around-now",
+      "ps-vs-pc"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She usually ______ (drive) to work, but this week she ______ (take) the bus because of the bus strike.",
+    "choices": [
+      "drives / is taking",
+      "is taking / drives",
+      "is driving / takes",
+      "takes / is driving"
+    ],
+    "correctIndex": 0,
+    "explanation": "Thói quen thường xuyên 'usually' → hiện tại đơn: drives. Tình huống tạm thời trong 'this week' do sự việc bất thường → hiện tại tiếp diễn: is taking."
+  },
+  {
+    "id": "en-present-continuous-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u2-temporary-around-now",
+    "tags": [
+      "pc-u2-temporary-around-now",
+      "ps-vs-pc"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My father ______ (work) in a bank, but today he ______ (work) from home because of a power cut at the office.",
+    "choices": [
+      "works / works",
+      "works / is working",
+      "is working / is working",
+      "is working / works"
+    ],
+    "correctIndex": 1,
+    "explanation": "'works in a bank' là sự thật lâu dài về nghề nghiệp → hiện tại đơn. 'Today' cùng tình huống bất thường → hiện tại tiếp diễn: is working."
+  },
+  {
+    "id": "en-present-continuous-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u1-happening-now",
+    "tags": [
+      "pc-u1-happening-now",
+      "ps-vs-pc"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Water ______ (boil) at 100 degrees Celsius, but look, the soup in this pot ______ (boil) already!",
+    "choices": [
+      "is boiling / is boiling",
+      "boils / is boiling",
+      "is boiling / boils",
+      "boils / boils"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sự thật khoa học → hiện tại đơn: boils. 'Look' + hành động đang xảy ra ngay lúc nói → hiện tại tiếp diễn: is boiling."
+  },
+  {
+    "id": "en-present-continuous-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u1-happening-now",
+    "tags": [
+      "pc-u1-happening-now",
+      "ps-vs-pc"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He ______ (not/usually/eat) fast food, but he ______ (eat) a burger right now because he's in a hurry.",
+    "choices": [
+      "isn't usually eating / eats",
+      "doesn't usually eat / is eating",
+      "isn't usually eating / is eating",
+      "doesn't usually eat / eats"
+    ],
+    "correctIndex": 1,
+    "explanation": "Thói quen phủ định → hiện tại đơn: doesn't usually eat. Hành động đang xảy ra ngay lúc nói → hiện tại tiếp diễn: is eating."
+  },
+  {
+    "id": "en-present-continuous-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u4-changing-trend",
+    "tags": [
+      "pc-u4-changing-trend"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Nowadays, fewer and fewer people ______ (write) letters by hand; most of them prefer texting.",
+    "choices": [
+      "writes",
+      "is writing",
+      "write",
+      "are writing"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Nowadays' cùng xu hướng giảm dần theo thời gian ('fewer and fewer') → hiện tại tiếp diễn: are writing."
+  },
+  {
+    "id": "en-present-continuous-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u5-annoying-habit",
+    "tags": [
+      "pc-u5-annoying-habit"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I can't stand my colleague – he ______ (always/take) credit for other people's work in meetings!",
+    "choices": [
+      "is always taking",
+      "always takes",
+      "take always",
+      "always taking"
+    ],
+    "correctIndex": 0,
+    "explanation": "'I can't stand' thể hiện sự khó chịu, kết hợp 'always' + hiện tại tiếp diễn để phàn nàn về thói quen lặp lại: is always taking."
+  },
+  {
+    "id": "en-present-continuous-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u2-temporary-around-now",
+    "tags": [
+      "pc-u2-temporary-around-now"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "According to the latest report, the local government ______ (currently/negotiate) a new trade agreement with several neighboring countries.",
+    "choices": [
+      "currently negotiates",
+      "negotiates currently",
+      "currently negotiating",
+      "is currently negotiating"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Currently' chỉ tình huống đang diễn ra trong giai đoạn hiện tại (không nhất thiết ngay lúc nói) → hiện tại tiếp diễn: is currently negotiating."
+  },
+  {
+    "id": "en-present-continuous-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u3-future-arrangement",
+    "tags": [
+      "pc-u3-future-arrangement"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ (fly) to Hanoi at 6 a.m. tomorrow, so we need to leave for the airport very early.",
+    "choices": [
+      "flies",
+      "are flying",
+      "is flying",
+      "fly"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kế hoạch bay đã được đặt vé, sắp xếp cụ thể cho tương lai gần → hiện tại tiếp diễn: are flying."
+  },
+  {
+    "id": "en-present-continuous-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u1-happening-now",
+    "tags": [
+      "pc-u1-happening-now"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Even though it's midnight, my neighbors' dog ______ (bark) non-stop outside; it's driving me crazy.",
+    "choices": [
+      "bark",
+      "are barking",
+      "barks",
+      "is barking"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hành động đang xảy ra ngay lúc nói (kèm sắc thái khó chịu 'driving me crazy') → hiện tại tiếp diễn: is barking."
+  },
+  {
+    "id": "en-present-continuous-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-continuous",
+    "usageId": "pc-u4-changing-trend",
+    "tags": [
+      "pc-u4-changing-trend"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Global temperatures ______ (rise) at an alarming rate, and more countries ______ (introduce) stricter carbon regulations this year.",
+    "choices": [
+      "rise / introduce",
+      "rise / are introducing",
+      "are rising / are introducing",
+      "are rising / introduce"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cả hai vế đều diễn tả xu hướng đang phát triển/thay đổi theo thời gian gần đây → hiện tại tiếp diễn cho cả hai: are rising, are introducing."
+  }
+]

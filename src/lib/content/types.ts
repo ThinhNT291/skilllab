@@ -11,7 +11,8 @@ export type Level = "A1" | "A2" | "B1" | "B2" | "C1" | "C2"
 interface ExerciseBase {
   id: string
   language: Language
-  level: Level
+  /** Cấp CEFR của riêng câu này. Bản nhập từ bản cũ chưa có (sẽ gắn ở giai đoạn 3 của lộ trình) */
+  level?: Level
   /** Chủ điểm, ví dụ "present-simple". Dùng cho phân tích lỗi theo chủ điểm */
   topic: string
   /** Mục lý thuyết (usage) mà câu này luyện; dùng để dẫn về đúng chỗ khi trả lời sai. Phải trùng `GrammarUsage.id` của chuyên đề */
@@ -25,7 +26,7 @@ interface ExerciseBase {
 export interface McqExercise extends ExerciseBase {
   kind: "mcq"
   /** Tiêu đề kiểu bài, ví dụ "Điền từ vào chỗ trống" */
-  title: string
+  title?: string
   /** Đề bài. Chỗ trống dùng "____" */
   prompt: string
   choices: string[]

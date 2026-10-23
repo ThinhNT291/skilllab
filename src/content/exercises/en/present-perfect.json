@@ -1,0 +1,625 @@
+[
+  {
+    "id": "en-present-perfect-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u4-result-now",
+    "tags": [
+      "pp-u4-result-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My brother ______ just ______ his new car.",
+    "choices": [
+      "has / wash",
+      "have / washed",
+      "has / washed",
+      "have / wash"
+    ],
+    "correctIndex": 2,
+    "explanation": "Chủ ngữ 'My brother' là số ít nên dùng 'has'. V-p2 của 'wash' là 'washed'. Công thức: S + has + V(p2)."
+  },
+  {
+    "id": "en-present-perfect-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u3-repeated",
+    "tags": [
+      "pp-u3-repeated"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They ______ to London twice.",
+    "choices": [
+      "have been",
+      "has be",
+      "have be",
+      "has been"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chủ ngữ 'They' số nhiều đi với 'have'. V-p2 của 'be' là 'been'."
+  },
+  {
+    "id": "en-present-perfect-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u5-experience",
+    "tags": [
+      "pp-u5-experience"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you ever ______ sushi?",
+    "choices": [
+      "Have / eaten",
+      "Has / eat",
+      "Have / eat",
+      "Has / eaten"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cấu trúc nghi vấn với 'you' dùng 'Have'. V-p2 của 'eat' là 'eaten'."
+  },
+  {
+    "id": "en-present-perfect-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u1-unspecified-past",
+    "tags": [
+      "pp-u1-unspecified-past"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She ______ not ______ the movie yet.",
+    "choices": [
+      "has / see",
+      "have / see",
+      "has / seen",
+      "have / seen"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dạng phủ định với chủ ngữ 'She' là 'has not' (hasn't). V-p2 của 'see' là 'seen'."
+  },
+  {
+    "id": "en-present-perfect-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u2-since-for",
+    "tags": [
+      "pp-u2-since-for"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ this book since last week.",
+    "choices": [
+      "have read",
+      "has read",
+      "reads",
+      "have reading"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chủ ngữ 'I' dùng 'have'. V-p2 của 'read' vẫn là 'read'."
+  },
+  {
+    "id": "en-present-perfect-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u1-unspecified-past",
+    "tags": [
+      "pp-u1-unspecified-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I have ______ finished my assignment.",
+    "choices": [
+      "yet",
+      "already",
+      "for",
+      "since"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Already' thường đứng giữa have/has và V-p2 trong câu khẳng định để nhấn mạnh việc đã làm xong."
+  },
+  {
+    "id": "en-present-perfect-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u1-unspecified-past",
+    "tags": [
+      "pp-u1-unspecified-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Have you finished your dinner ______?",
+    "choices": [
+      "yet",
+      "for",
+      "since",
+      "ago"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Yet' dùng trong câu nghi vấn hoặc phủ định, thường đứng cuối câu. 'ago' chỉ dùng với quá khứ đơn kèm mốc thời gian cụ thể (three days ago), không phù hợp ở đây."
+  },
+  {
+    "id": "en-present-perfect-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u2-since-for",
+    "tags": [
+      "pp-u2-since-for"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He has been a doctor ______ 10 years.",
+    "choices": [
+      "already",
+      "for",
+      "since",
+      "yet"
+    ],
+    "correctIndex": 1,
+    "explanation": "'10 years' là một khoảng thời gian, nên dùng 'for'."
+  },
+  {
+    "id": "en-present-perfect-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u2-since-for",
+    "tags": [
+      "pp-u2-since-for"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I haven't seen her ______ last summer.",
+    "choices": [
+      "for",
+      "just",
+      "since",
+      "already"
+    ],
+    "correctIndex": 2,
+    "explanation": "'last summer' là một mốc thời gian cụ thể, nên dùng 'since'."
+  },
+  {
+    "id": "en-present-perfect-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u5-experience",
+    "tags": [
+      "pp-u5-experience"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They have ______ been to Paris; they want to go someday.",
+    "choices": [
+      "yet",
+      "ever",
+      "never",
+      "already"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Never' dùng trong câu khẳng định để diễn tả ý phủ định (chưa bao giờ)."
+  },
+  {
+    "id": "en-present-perfect-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "tags": [
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ to the cinema last night.",
+    "choices": [
+      "have been",
+      "gone",
+      "have gone",
+      "went"
+    ],
+    "correctIndex": 3,
+    "explanation": "'last night' là thời gian cụ thể trong quá khứ nên phải dùng Quá khứ đơn (went), không dùng Hiện tại hoàn thành."
+  },
+  {
+    "id": "en-present-perfect-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "tags": [
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She ______ her homework an hour ago.",
+    "choices": [
+      "finish",
+      "finished",
+      "has finished",
+      "is finished"
+    ],
+    "correctIndex": 1,
+    "explanation": "'an hour ago' là mốc thời gian quá khứ xác định nên phải dùng Quá khứ đơn (finished)."
+  },
+  {
+    "id": "en-present-perfect-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u4-result-now",
+    "tags": [
+      "pp-u4-result-now"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Look! The baby ______ (fall) asleep.",
+    "choices": [
+      "falls",
+      "has fallen",
+      "fell",
+      "is fall"
+    ],
+    "correctIndex": 1,
+    "explanation": "Từ 'Look!' cho thấy kết quả ở hiện tại (đứa bé đang ngủ), nên dùng Hiện tại hoàn thành (has fallen). (Lưu ý: văn nói Anh-Mỹ đời thường đôi khi chấp nhận dùng Quá khứ đơn ở đây, nhưng Hiện tại hoàn thành là đáp án chuẩn mực, phổ biến trong Anh-Anh và văn viết trang trọng — app dùng chuẩn này xuyên suốt.)"
+  },
+  {
+    "id": "en-present-perfect-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u2-since-for",
+    "tags": [
+      "pp-u2-since-for"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My father ______ in this company for 20 years, and he still works here.",
+    "choices": [
+      "works",
+      "worked",
+      "is working",
+      "has worked"
+    ],
+    "correctIndex": 3,
+    "explanation": "Việc làm từ quá khứ đến hiện tại vẫn còn tiếp diễn (still works here) nên dùng Hiện tại hoàn thành (has worked)."
+  },
+  {
+    "id": "en-present-perfect-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "tags": [
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When ______ you ______ this house?",
+    "choices": [
+      "have / bought",
+      "did / buy",
+      "have / buy",
+      "did / bought"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu hỏi với 'When' yêu cầu dùng Quá khứ đơn vì hỏi về mốc thời gian, nên dùng 'Did... buy'."
+  },
+  {
+    "id": "en-present-perfect-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u5-experience",
+    "tags": [
+      "pp-u5-experience"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Have you ever ______ Japanese food before?",
+    "choices": [
+      "ate",
+      "eat",
+      "eaten",
+      "eating"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu hỏi về trải nghiệm sống (có từ 'ever') dùng thì Hiện tại hoàn thành. Cấu trúc là Have/Has + S + V-p2."
+  },
+  {
+    "id": "en-present-perfect-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u4-result-now",
+    "tags": [
+      "pp-u4-result-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Oh no! Someone ______ my bicycle. It is not outside anymore.",
+    "choices": [
+      "stole",
+      "steals",
+      "is stealing",
+      "has stolen"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hành động ăn cắp xảy ra trong quá khứ không rõ thời gian và để lại kết quả rõ ràng ở hiện tại (xe không còn ở ngoài). (Lưu ý: văn nói Anh-Mỹ đời thường đôi khi chấp nhận dùng Quá khứ đơn ở đây, nhưng Hiện tại hoàn thành là đáp án chuẩn mực, phổ biến trong Anh-Anh và văn viết trang trọng — app dùng chuẩn này xuyên suốt.)"
+  },
+  {
+    "id": "en-present-perfect-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u2-since-for",
+    "tags": [
+      "pp-u2-since-for"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mr. Thomas ______ as a high school teacher for more than a decade.",
+    "choices": [
+      "worked",
+      "is working",
+      "works",
+      "has worked"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dấu hiệu 'for more than a decade' chỉ hành động bắt đầu trong quá khứ và còn tiếp diễn đến hiện tại, cần dùng thì Hiện tại hoàn thành."
+  },
+  {
+    "id": "en-present-perfect-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u4-result-now",
+    "tags": [
+      "pp-u4-result-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please take off your shoes. I ______ the floor.",
+    "choices": [
+      "have just cleaned",
+      "am just cleaning",
+      "just cleaned",
+      "clean just"
+    ],
+    "correctIndex": 0,
+    "explanation": "Từ 'just' dùng trong Hiện tại hoàn thành để diễn tả hành động vừa mới xảy ra, để lại hậu quả ở hiện tại (sàn đang sạch). (Lưu ý: văn nói Anh-Mỹ đời thường đôi khi chấp nhận dùng Quá khứ đơn ở đây, nhưng Hiện tại hoàn thành là đáp án chuẩn mực, phổ biến trong Anh-Anh và văn viết trang trọng — app dùng chuẩn này xuyên suốt.)"
+  },
+  {
+    "id": "en-present-perfect-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u3-repeated",
+    "tags": [
+      "pp-u3-repeated"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My sister ______ that romantic movie at least three times.",
+    "choices": [
+      "watched",
+      "has watched",
+      "watches",
+      "is watching"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hành động lặp đi lặp lại nhiều lần trong quá khứ tính đến thời điểm hiện tại ('three times') được chia ở thì Hiện tại hoàn thành."
+  },
+  {
+    "id": "en-present-perfect-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u2-since-for",
+    "tags": [
+      "pp-u2-since-for"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ each other since we graduated from university.",
+    "choices": [
+      "haven't seen",
+      "don't see",
+      "haven't see",
+      "didn't see"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dấu hiệu 'since' + mốc thời gian trong quá khứ (graduated) yêu cầu mệnh đề chính chia ở Hiện tại hoàn thành."
+  },
+  {
+    "id": "en-present-perfect-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u5-experience",
+    "tags": [
+      "pp-u5-experience"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Emily is very excited because she ______ to another country before.",
+    "choices": [
+      "is never travelling",
+      "has never travelled",
+      "did never travel",
+      "never travels"
+    ],
+    "correctIndex": 1,
+    "explanation": "Từ 'never' chỉ trải nghiệm từ trước đến nay (chưa từng làm gì). Cấu trúc: S + have/has + never + V-p2."
+  },
+  {
+    "id": "en-present-perfect-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u1-unspecified-past",
+    "tags": [
+      "pp-u1-unspecified-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You don't need to remind him. He ______ the weekly report.",
+    "choices": [
+      "already finishes",
+      "already finished",
+      "is already finishing",
+      "has already finished"
+    ],
+    "correctIndex": 3,
+    "explanation": "Từ 'already' (đã... rồi) nhấn mạnh một việc đã hoàn tất sớm hơn dự kiến, thường dùng với thì Hiện tại hoàn thành. (Lưu ý: văn nói Anh-Mỹ đời thường đôi khi chấp nhận dùng Quá khứ đơn ở đây, nhưng Hiện tại hoàn thành là đáp án chuẩn mực, phổ biến trong Anh-Anh và văn viết trang trọng — app dùng chuẩn này xuyên suốt.)"
+  },
+  {
+    "id": "en-present-perfect-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u3-repeated",
+    "tags": [
+      "pp-u3-repeated"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The author is quite famous. He ______ five best-selling novels so far.",
+    "choices": [
+      "is writing",
+      "writes",
+      "has written",
+      "wrote"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cụm từ 'so far' (cho đến nay) là dấu hiệu đặc trưng của thì Hiện tại hoàn thành, diễn tả số lượng tích lũy được."
+  },
+  {
+    "id": "en-present-perfect-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u1-unspecified-past",
+    "tags": [
+      "pp-u1-unspecified-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Can you tell me if the train from Manchester ______ yet?",
+    "choices": [
+      "has arrived",
+      "did arrive",
+      "arrived",
+      "is arriving"
+    ],
+    "correctIndex": 0,
+    "explanation": "Từ 'yet' thường dùng trong câu hỏi hoặc phủ định của thì Hiện tại hoàn thành để hỏi/nói về việc gì đó đã xảy ra chưa. (Lưu ý: văn nói Anh-Mỹ đời thường đôi khi chấp nhận dùng Quá khứ đơn ở đây, nhưng Hiện tại hoàn thành là đáp án chuẩn mực, phổ biến trong Anh-Anh và văn viết trang trọng — app dùng chuẩn này xuyên suốt.)"
+  },
+  {
+    "id": "en-present-perfect-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "tags": [
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ Peter at the shopping mall yesterday afternoon.",
+    "choices": [
+      "was seeing",
+      "saw",
+      "see",
+      "have seen"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu có mốc thời gian cụ thể trong quá khứ ('yesterday afternoon') bắt buộc phải dùng thì Quá khứ đơn, không dùng Hiện tại hoàn thành."
+  },
+  {
+    "id": "en-present-perfect-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "tags": [
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Have you done your homework? - B: Yes, I ______ it an hour ago.",
+    "choices": [
+      "finish",
+      "have finished",
+      "was finishing",
+      "finished"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dù câu hỏi dùng Hiện tại hoàn thành, câu trả lời có chứa cụm thời gian xác định 'an hour ago' nên phải dùng Quá khứ đơn."
+  },
+  {
+    "id": "en-present-perfect-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "tags": [
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My parents ______ this beautiful house in the suburbs in 2015.",
+    "choices": [
+      "buy",
+      "were buying",
+      "have bought",
+      "bought"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mốc thời gian 'in 2015' là một thời điểm xác định đã kết thúc trong quá khứ. Do đó, động từ 'buy' phải chia ở Quá khứ đơn."
+  },
+  {
+    "id": "en-present-perfect-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u4-result-now",
+    "tags": [
+      "pp-u4-result-now"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I can't get into my apartment because I ______ my keys.",
+    "choices": [
+      "lost",
+      "was losing",
+      "have lost",
+      "lose"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sự việc mất chìa khóa xảy ra ở quá khứ (không rõ khi nào) và kết quả hiện tại là không thể vào nhà, vì vậy dùng Hiện tại hoàn thành. (Lưu ý: văn nói Anh-Mỹ đời thường đôi khi chấp nhận dùng Quá khứ đơn ở đây, nhưng Hiện tại hoàn thành là đáp án chuẩn mực, phổ biến trong Anh-Anh và văn viết trang trọng — app dùng chuẩn này xuyên suốt.)"
+  },
+  {
+    "id": "en-present-perfect-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "tags": [
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "William Shakespeare ______ many famous plays and poems during his lifetime.",
+    "choices": [
+      "wrote",
+      "is writing",
+      "writes",
+      "has written"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chủ thể 'William Shakespeare' đã qua đời, hành động viết kịch không thể tiếp diễn hoặc lặp lại ở hiện tại. Do đó, phải dùng thì Quá khứ đơn."
+  }
+]

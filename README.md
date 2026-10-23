@@ -12,7 +12,7 @@ npm run dev                  # http://localhost:3000
 Kiểm tra trước khi đẩy code: `npm run check:content`, `npm run lint` và `npm run build`.
 
 ## Thêm bài tập
-Mỗi chuyên đề một tệp `src/content/exercises/en/<id-chuyên-đề>.json`, là mảng câu (xem `src/content/exercises/en/present-simple.json` làm mẫu). Mỗi câu cần: `id` duy nhất, `usageId` trùng một mục `usages[].id` của chuyên đề (để có link "Xem lại lý thuyết"), `choices`, `correctIndex`, `explanation` và nên có `choiceExplanations` (giải thích riêng từng đáp án). Chạy `npm run check:content` để bắt lỗi trước khi đẩy.
+Mỗi chuyên đề một tệp `src/content/exercises/en/<id-chuyên-đề>.json`, là mảng câu (xem `src/content/exercises/en/subjunctive.json` làm mẫu, có đủ `choiceExplanations`). Quy tắc soạn: `docs/chuan-noi-dung.md`. Mỗi câu cần: `id` duy nhất, `usageId` trùng một mục `usages[].id` của chuyên đề (để có link "Xem lại lý thuyết"), `choices`, `correctIndex`, `explanation` và nên có `choiceExplanations` (giải thích riêng từng đáp án). Chạy `npm run check:content` để bắt lỗi trước khi đẩy.
 
 ## Cấu trúc
 - `src/app/` trang: `/` trang chủ, `/hoc` danh sách chuyên đề, `/hoc/[topic]` lý thuyết, `/hoc/[topic]/luyen-tap` luyện tập (10 câu xáo ngẫu nhiên mỗi lượt)

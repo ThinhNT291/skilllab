@@ -22,7 +22,10 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 
 ## Giai đoạn 1 — Lõi học và luyện (ưu tiên cao nhất)
 - [x] Lý thuyết 23 chuyên đề tiếng Anh đã chuyển sang JSON (`src/content/grammar/en`), có trang `/hoc` và `/hoc/[topic]`; validator `npm run check:content`.
-- [ ] Ngân hàng bài tập: nhập bản cũ từ Drive (`grammar__<topicId>.json`, theo ghi chú cũ khoảng 17–23 chuyên đề × 30 câu; cần chủ dự án tải về `import/grammar/`, xem `docs/chuan-noi-dung.md`) và soạn cho 12 chuyên đề còn lại. Mẫu chuẩn: `present-simple` (18 câu, có giải thích từng đáp án, gắn `usageId`).
+- [x] Nhập ngân hàng bài tập cũ: 23 chuyên đề × 30 = 690 câu (`src/content/exercises/en/`).
+- [ ] **Vá lỗ hổng nội dung (quy tắc 1: không kiểm tra điều chưa dạy)**: 4 thẻ chéo chưa có mục lý thuyết riêng, ảnh hưởng 35 câu: `cond-connectors` (5 câu, conditional-sentences), `ps-vs-pc` (6 câu present-continuous + 4 present-simple), `pp-vs-simple-past` (7 present-perfect + 5 past-simple), `past-simple-vs-continuous` (8 past-continuous). Cần thêm mục dạy cho từng thẻ rồi gắn `usageId`.
+- [ ] Bổ sung `choiceExplanations` cho 11 chuyên đề cũ chưa có (present-simple, present-continuous, past-simple, past-continuous, future-simple, present-perfect, prepositions, passive-voice, relative-clauses, reported-speech, conditional-sentences).
+- [ ] Cân lại độ khó 6 chuyên đề lệch 10/10/10 (subjunctive 2/14/14, pronouns-determiners 11/16/3, adverbial-clauses 8/15/7, tag-questions 8/15/7, present-perfect-continuous 7/13/10, adjective-adverb-order 7/12/11) và kiểm định độc lập chuyên đề 18–23 (chưa thấy ghi nhận đã audit). và soạn cho 12 chuyên đề còn lại. Mẫu chuẩn: `present-simple` (18 câu, có giải thích từng đáp án, gắn `usageId`).
 - [x] Nhãn cấp độ của chuyên đề không hiển thị cho người học (quyết định cũ). [ ] Gắn cấp CEFR ở mức từng câu và mô tả năng lực (giai đoạn 3).
 - [x] Mỗi lượt bốc 10 câu theo từng mức độ khó, xếp dễ → khó. [ ] Chế độ "Nhức đầu" (10 câu khó).
 - [x] `commonMistakes` đã tách thành {mô tả, cặp ví dụ sai/đúng, ghi chú} (105/106 mục có ví dụ). [ ] Gắn thẻ lỗi (`tags`) cho từng mục để nối với bài tập và phân tích.

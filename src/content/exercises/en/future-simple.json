@@ -1,0 +1,633 @@
+[
+  {
+    "id": "en-future-simple-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u1-spontaneous-decision",
+    "tags": [
+      "fs-u1-spontaneous-decision"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's really cold in here - I ______ (close) the window.",
+    "choices": [
+      "will close",
+      "close",
+      "closed",
+      "am closing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đây là quyết định được đưa ra ngay tại thời điểm nói (vừa cảm thấy lạnh nên quyết định đóng cửa sổ), chưa phải kế hoạch có từ trước, nên dùng 'will + V nguyên thể': will close."
+  },
+  {
+    "id": "en-future-simple-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I think it ______ (rain) tomorrow afternoon.",
+    "choices": [
+      "rains",
+      "is raining",
+      "will rains",
+      "will rain"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sau 'I think' diễn tả dự đoán dựa trên suy nghĩ cá nhân, ta dùng 'will + V nguyên thể': will rain. 'will rains' sai vì động từ theo sau will luôn ở dạng nguyên thể, không chia."
+  },
+  {
+    "id": "en-future-simple-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u3-promise-offer-request",
+    "tags": [
+      "fs-u3-promise-offer-request"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Don't worry, I ______ (help) you move the furniture this weekend.",
+    "choices": [
+      "helps",
+      "help",
+      "will help",
+      "am helping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là lời hứa/đề nghị giúp đỡ ngay tại thời điểm nói, nên dùng 'will help'."
+  },
+  {
+    "id": "en-future-simple-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u4-facts-certainty",
+    "tags": [
+      "fs-u4-facts-certainty"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Without proper maintenance, this old bridge ______ (deteriorate) rapidly over the next few years.",
+    "choices": [
+      "is deteriorating",
+      "will deteriorate",
+      "will deteriorates",
+      "deteriorates"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đây là hệ quả tất yếu, chắc chắn xảy ra theo quy luật tự nhiên (vật liệu xuống cấp theo thời gian nếu không bảo trì), không phải một lịch trình đã định sẵn, nên dùng 'will deteriorate'."
+  },
+  {
+    "id": "en-future-simple-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When the movie ______ (finish), we ______ (go) straight home.",
+    "choices": [
+      "will finish / go",
+      "finishes / go",
+      "finishes / will go",
+      "will finish / will go"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mệnh đề thời gian bắt đầu bằng 'when' không dùng 'will' mà dùng hiện tại đơn: finishes. Mệnh đề chính vẫn dùng 'will': will go."
+  },
+  {
+    "id": "en-future-simple-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u1-spontaneous-decision",
+    "tags": [
+      "fs-u1-spontaneous-decision"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Oh, I forgot my umbrella! I ______ (take) yours if you don't mind.",
+    "choices": [
+      "take",
+      "am taking",
+      "will take",
+      "took"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là quyết định vừa nghĩ ra ngay lúc nói (nhận ra quên ô), chưa có kế hoạch từ trước, nên dùng 'will take'."
+  },
+  {
+    "id": "en-future-simple-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm sure she ______ (pass) the exam - she has studied so hard.",
+    "choices": [
+      "passes",
+      "will pass",
+      "is passing",
+      "will passes"
+    ],
+    "correctIndex": 1,
+    "explanation": "'I'm sure' đi kèm dự đoán dựa trên niềm tin cá nhân, nên dùng 'will pass'. 'will passes' sai vì động từ sau will không chia."
+  },
+  {
+    "id": "en-future-simple-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u3-promise-offer-request",
+    "tags": [
+      "fs-u3-promise-offer-request"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you ______ (open) the door for me? My hands are full.",
+    "choices": [
+      "Do / open",
+      "Are / opening",
+      "Will / open",
+      "Will / opens"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là câu yêu cầu ai đó làm gì với cấu trúc 'Will you...?': Will đứng đầu câu, theo sau là chủ ngữ và động từ nguyên thể: Will / open."
+  },
+  {
+    "id": "en-future-simple-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Look at that potted plant on the balcony - if nobody waters it soon, it ______ (die) within a few days.",
+    "choices": [
+      "dies",
+      "will die",
+      "will dies",
+      "is dying"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đây là dự đoán cụ thể về MỘT chậu cây cụ thể trong tình huống hiện tại (không phải chân lý chung cho mọi loại cây), nên dùng 'will die' thay vì hiện tại đơn."
+  },
+  {
+    "id": "en-future-simple-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ (not/leave) the office until my boss ______ (approve) the report.",
+    "choices": [
+      "won't leave / approves",
+      "don't leave / approves",
+      "won't leave / will approve",
+      "will not leave / will approve"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề chính dùng 'will not (won't) leave'; mệnh đề thời gian bắt đầu bằng 'until' dùng hiện tại đơn: approves, không dùng will."
+  },
+  {
+    "id": "en-future-simple-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u1-spontaneous-decision",
+    "tags": [
+      "fs-u1-spontaneous-decision"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: 'We're out of milk.' B: 'Okay, I ______ (go) to the store and buy some right now.'",
+    "choices": [
+      "will go",
+      "am going",
+      "went",
+      "go"
+    ],
+    "correctIndex": 0,
+    "explanation": "B vừa nghe tin và quyết định ngay tại thời điểm nói, chưa hề có kế hoạch từ trước, nên dùng 'will go'."
+  },
+  {
+    "id": "en-future-simple-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Experts believe that traffic in this city ______ (get) worse over the next ten years.",
+    "choices": [
+      "will gets",
+      "will get",
+      "gets",
+      "is getting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sau 'believe' diễn tả dự đoán dựa trên nhận định của giới chuyên gia (quan điểm cá nhân, không phải sự thật hiện tại), nên dùng 'will get'."
+  },
+  {
+    "id": "en-future-simple-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u3-promise-offer-request",
+    "tags": [
+      "fs-u3-promise-offer-request"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I promise I ______ (not/tell) anyone about your secret.",
+    "choices": [
+      "will not tells",
+      "will not tell",
+      "don't tell",
+      "am not telling"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đây là lời hứa, dùng 'will not (won't) + V nguyên thể': will not tell."
+  },
+  {
+    "id": "en-future-simple-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u4-facts-certainty",
+    "tags": [
+      "fs-u4-facts-certainty"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "According to the doctor, this scar ______ (fade) completely in about a year.",
+    "choices": [
+      "will fades",
+      "is fading",
+      "fades",
+      "will fade"
+    ],
+    "correctIndex": 3,
+    "explanation": "Đây là điều gần như chắc chắn xảy ra theo quy luật tự nhiên (cơ thể tự lành), không do con người lên lịch, nên dùng 'will fade'."
+  },
+  {
+    "id": "en-future-simple-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "As soon as I ______ (get) my exam results, I ______ (send) you a message.",
+    "choices": [
+      "will get / send",
+      "get / will send",
+      "will get / will send",
+      "get / send"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mệnh đề thời gian với 'as soon as' dùng hiện tại đơn: get. Mệnh đề chính dùng 'will': will send."
+  },
+  {
+    "id": "en-future-simple-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u1-spontaneous-decision",
+    "tags": [
+      "fs-u1-spontaneous-decision"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This box is too heavy for you - I ______ (carry) it upstairs instead.",
+    "choices": [
+      "will carry",
+      "will carries",
+      "carry",
+      "am carrying"
+    ],
+    "correctIndex": 0,
+    "explanation": "Người nói vừa nhìn thấy tình huống và quyết định giúp ngay lúc đó, chưa có kế hoạch từ trước, nên dùng 'will carry'."
+  },
+  {
+    "id": "en-future-simple-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Perhaps my parents ______ (agree) to let me study abroad if I explain everything carefully.",
+    "choices": [
+      "will agree",
+      "are agreeing",
+      "will agrees",
+      "agree"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Perhaps' đi kèm dự đoán mang tính suy đoán cá nhân, chưa chắc chắn, nên dùng 'will agree'."
+  },
+  {
+    "id": "en-future-simple-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u3-promise-offer-request",
+    "tags": [
+      "fs-u3-promise-offer-request"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you ______ (turn) down the music a little? The baby is sleeping.",
+    "choices": [
+      "Will / turns",
+      "Will / turn",
+      "Are / turning",
+      "Do / turn"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đây là câu yêu cầu lịch sự với cấu trúc 'Will you...?' - will đứng đầu câu trước chủ ngữ, động từ theo sau giữ nguyên thể: Will / turn."
+  },
+  {
+    "id": "en-future-simple-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If nothing changes, the population of this town ______ (double) within twenty years.",
+    "choices": [
+      "will doubles",
+      "is doubling",
+      "will double",
+      "doubles"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là dự đoán về xu hướng tất yếu theo quy luật phát triển dân số, không do ai lên lịch cố định, nên dùng 'will double'."
+  },
+  {
+    "id": "en-future-simple-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You ______ (not/understand) this lesson well until you ______ (practise) it several times.",
+    "choices": [
+      "won't understand / practise",
+      "won't understand / will practise",
+      "don't understand / practise",
+      "will not understand / will practise"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề chính dùng 'will not (won't) understand'; mệnh đề thời gian với 'until' dùng hiện tại đơn: practise, không dùng will."
+  },
+  {
+    "id": "en-future-simple-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time the guests ______ (arrive) tonight, I ______ (still/prepare) the decorations, so could you greet them for me?",
+    "choices": [
+      "will arrive / still prepare",
+      "arrive / will still prepare",
+      "arrive / still prepare",
+      "will arrive / will still prepare"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mệnh đề thời gian với 'by the time' dùng hiện tại đơn: arrive. Mệnh đề chính dùng 'will' + trạng từ 'still' diễn tả hành động vẫn đang tiếp diễn tại mốc đó: will still prepare."
+  },
+  {
+    "id": "en-future-simple-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My father says he ______ (retire) as soon as his youngest daughter ______ (graduate) from university.",
+    "choices": [
+      "will retire / will graduate",
+      "retires / graduates",
+      "will retire / graduates",
+      "retires / will graduate"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mệnh đề chính (ý định của bố) dùng 'will retire'; mệnh đề thời gian với 'as soon as' dùng hiện tại đơn: graduates, không dùng will."
+  },
+  {
+    "id": "en-future-simple-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Before you ______ (sign) the contract, you ______ (need) to read every clause carefully.",
+    "choices": [
+      "will sign / will need",
+      "sign / need",
+      "will sign / need",
+      "sign / will need"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mệnh đề thời gian với 'before' dùng hiện tại đơn: sign. Mệnh đề chính dùng 'will': will need."
+  },
+  {
+    "id": "en-future-simple-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ (not/start) the meeting until everyone ______ (be) present in the room.",
+    "choices": [
+      "don't start / is",
+      "will not start / will be",
+      "won't start / will be",
+      "won't start / is"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mệnh đề chính dùng 'will not (won't) start'; mệnh đề thời gian với 'until' dùng hiện tại đơn của 'to be': is, không dùng will be."
+  },
+  {
+    "id": "en-future-simple-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "As soon as the weather ______ (improve), the farmers ______ (continue) harvesting the rice.",
+    "choices": [
+      "improves / continue",
+      "will improve / will continue",
+      "will improve / continue",
+      "improves / will continue"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mệnh đề thời gian với 'as soon as' dùng hiện tại đơn: improves. Mệnh đề chính dùng 'will': will continue."
+  },
+  {
+    "id": "en-future-simple-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction",
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When you ______ (visit) Hanoi next spring, the weather probably ______ (be) cool and pleasant.",
+    "choices": [
+      "visit / will be",
+      "will visit / will be",
+      "visit / is",
+      "will visit / is"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề thời gian với 'when' chỉ tương lai dùng hiện tại đơn: visit. Mệnh đề chính mang ý dự đoán ('probably') dùng 'will': will be."
+  },
+  {
+    "id": "en-future-simple-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u1-spontaneous-decision",
+    "tags": [
+      "fs-u1-spontaneous-decision"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I didn't plan this at all, but since you look so tired, I ______ (drive) you home tonight.",
+    "choices": [
+      "will drives",
+      "drive",
+      "am driving",
+      "will drive"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cụm 'I didn't plan this at all' khẳng định đây là quyết định vừa được đưa ra tại thời điểm nói, không phải kế hoạch có từ trước, nên dùng 'will drive' (không dùng 'be going to')."
+  },
+  {
+    "id": "en-future-simple-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Honestly, I don't think the new policy ______ (change) much in practice, even though everyone is talking about it.",
+    "choices": [
+      "is changing",
+      "will changes",
+      "will change",
+      "changes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là quan điểm cá nhân về tương lai (sau 'I don't think'), không dựa trên bằng chứng rõ ràng ở hiện tại, nên dùng 'will change'. 'will changes' sai vì will không chia theo chủ ngữ."
+  },
+  {
+    "id": "en-future-simple-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u3-promise-offer-request",
+    "tags": [
+      "fs-u3-promise-offer-request"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Even though we've never met before, I ______ (help) you find your way around the city if you need it.",
+    "choices": [
+      "will helps",
+      "am helping",
+      "help",
+      "will help"
+    ],
+    "correctIndex": 3,
+    "explanation": "Đây là lời đề nghị giúp đỡ được đưa ra ngay trong lúc nói chuyện (offer), nên dùng 'will help'."
+  },
+  {
+    "id": "en-future-simple-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u4-facts-certainty",
+    "tags": [
+      "fs-u4-facts-certainty"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Even the strongest steel bridge ______ (rust) eventually if it's not properly protected from the weather.",
+    "choices": [
+      "will rust",
+      "is rusting",
+      "rusts",
+      "will rusts"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đây là quy luật tự nhiên tất yếu (kim loại sẽ rỉ sét theo thời gian nếu không được bảo vệ), không phải một sự kiện đã được tính toán/lên lịch trước, nên dùng 'will rust'."
+  }
+]
