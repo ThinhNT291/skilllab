@@ -116,7 +116,7 @@
     "tags": [
       "tag-questions-u1-basic-rule"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
     "prompt": "My parents will arrive at 6 pm, ______?",
     "choices": [
@@ -170,7 +170,7 @@
     "tags": [
       "tag-questions-u1-basic-rule"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "We shouldn't have left the windows open, ______?",
     "choices": [
@@ -413,7 +413,7 @@
     "tags": [
       "tag-questions-u3-special-cases"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "I am not being too harsh with the new intern, ______?",
     "choices": [
@@ -440,7 +440,7 @@
     "tags": [
       "tag-questions-u3-special-cases"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Close the window, ______?",
     "choices": [
@@ -657,7 +657,7 @@
     "tags": [
       "tag-questions-u4-negative-words"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "He hardly ever exercises these days, ______?",
     "choices": [

@@ -62,7 +62,7 @@
     "tags": [
       "subjunctive-u1-wish-present"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
     "prompt": "I don't enjoy living in this noisy city. I wish I ______ in a quiet countryside town instead.",
     "choices": [
@@ -89,7 +89,7 @@
     "tags": [
       "subjunctive-u1-wish-present"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
     "prompt": "He wishes he ______ a car so he wouldn't have to take the bus every day.",
     "choices": [
@@ -224,7 +224,7 @@
     "tags": [
       "subjunctive-u3-wish-would"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
     "prompt": "My neighbor plays loud music every night. I wish he ______ turn it down after 10 p.m.",
     "choices": [
@@ -359,7 +359,7 @@
     "tags": [
       "subjunctive-u4-if-only"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
     "prompt": "If only I ______ enough courage to speak up in meetings; I always stay silent.",
     "choices": [
@@ -440,7 +440,7 @@
     "tags": [
       "subjunctive-u5-would-rather"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
     "prompt": "I'm exhausted. I would rather ______ home tonight than go to the party.",
     "choices": [
@@ -521,7 +521,7 @@
     "tags": [
       "subjunctive-u5-would-rather"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Chọn đáp án đúng",
     "prompt": "Choose the correct sentence about the speaker's OWN preference (same subject).",
     "choices": [
@@ -575,7 +575,7 @@
     "tags": [
       "subjunctive-u6-its-time"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
     "prompt": "It's time you ______ responsibility for your own mistakes instead of blaming others.",
     "choices": [
@@ -656,7 +656,7 @@
     "tags": [
       "subjunctive-u6-its-time"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
     "prompt": "It's about time someone ______ this broken elevator; it's been out of service for two weeks.",
     "choices": [
@@ -683,7 +683,7 @@
     "tags": [
       "subjunctive-u7-mandative"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "The professor recommended that every student ______ the reading before the seminar.",
     "choices": [
@@ -710,7 +710,7 @@
     "tags": [
       "subjunctive-u7-mandative"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "It is essential that each application ______ submitted before the deadline.",
     "choices": [
@@ -737,7 +737,7 @@
     "tags": [
       "subjunctive-u7-mandative"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "The doctor insisted that the patient ______ smoking immediately, regardless of how difficult it would be.",
     "choices": [
@@ -764,7 +764,7 @@
     "tags": [
       "subjunctive-u7-mandative"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "The safety regulations require that every worker ______ a helmet on the construction site.",
     "choices": [

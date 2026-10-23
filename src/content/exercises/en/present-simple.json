@@ -679,27 +679,26 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u1-habits-routines",
+    "usageId": "ps-u3-schedules-timetables",
     "tags": [
-      "ps-u1-habits-routines",
-      "ps-vs-pc"
+      "ps-u3-schedules-timetables"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "My father usually ______ (read) the newspaper after dinner, but tonight he ______ (read) a novel instead because he's on holiday.",
+    "prompt": "According to the timetable on the wall, the first ferry ______ (leave) the island at 5:45 a.m. and ______ (return) at 9 p.m.",
     "choices": [
-      "reads / is reading",
-      "read / reading",
-      "is reading / reads",
-      "reads / read"
+      "leaves / returns",
+      "is leaving / returns",
+      "leaves / are returning",
+      "leave / return"
     ],
     "correctIndex": 0,
-    "explanation": "Hành động thường xuyên 'usually' dùng hiện tại đơn với chủ ngữ số ít 'my father': reads. Hành động đang xảy ra 'tonight' dùng hiện tại tiếp diễn: is reading.",
+    "explanation": "Giờ chạy cố định theo lịch trình dùng hiện tại đơn; chủ ngữ 'the first ferry' là số ít nên cả hai động từ thêm -s: leaves, returns.",
     "choiceExplanations": [
-      "Đúng — 'usually' dùng hiện tại đơn (reads); 'tonight' là việc khác thường đang xảy ra nên dùng tiếp diễn (is reading).",
-      "Sai — 'read' (không -s) không hợp với 'My father', và 'reading' thiếu 'is'.",
-      "Sai — đảo ngược thì: thói quen 'usually' phải dùng hiện tại đơn, việc đang xảy ra 'tonight' dùng tiếp diễn.",
-      "Sai — vế sau dùng hiện tại đơn (read) nên không diễn tả được việc đang xảy ra tối nay."
+      "Đúng — giờ chạy cố định theo lịch trình dùng hiện tại đơn; 'the first ferry' là số ít nên cả hai động từ thêm -s: leaves, returns.",
+      "Sai — 'is leaving' (hiện tại tiếp diễn) thường nói về một sắp xếp riêng hoặc việc đang diễn ra; với giờ chạy ghi trong bảng lịch trình thì dùng hiện tại đơn, và hai vế nên cùng một thì.",
+      "Sai — 'are returning' sai cả thì (lịch trình cố định cần hiện tại đơn) lẫn hòa hợp: 'the first ferry' là số ít, không đi với 'are'.",
+      "Sai — 'the first ferry' là số ít nên động từ cần thêm -s; 'leave/return' chỉ dùng với chủ ngữ số nhiều hoặc I/you/we/they."
     ]
   },
   {
@@ -707,27 +706,27 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u1-habits-routines",
+    "usageId": "ps-u4-state-verbs",
     "tags": [
-      "ps-u1-habits-routines",
-      "ps-vs-pc"
+      "ps-u4-state-verbs",
+      "ps-u1-habits-routines"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Look! The kids ______ (play) football in the yard right now, even though they usually ______ (play) video games after school.",
+    "prompt": "My grandfather ______ (not/remember) names easily, so he always ______ (write) them down in a small notebook.",
     "choices": [
-      "play / are playing",
-      "are playing / plays",
-      "are playing / play",
-      "is playing / plays"
+      "isn't remembering / writes",
+      "doesn't remember / is writing",
+      "doesn't remember / writes",
+      "doesn't remembers / write"
     ],
     "correctIndex": 2,
-    "explanation": "'Look! ... right now' báo hiệu hành động đang diễn ra nên dùng hiện tại tiếp diễn với chủ ngữ số nhiều 'the kids': are playing. Thói quen thường lệ 'usually' dùng hiện tại đơn, chủ ngữ số nhiều không thêm -s: play.",
+    "explanation": "'remember' (nhớ được) là động từ chỉ nhận thức nên giữ hiện tại đơn: doesn't remember; 'always' chỉ thói quen, chủ ngữ 'he' số ít nên writes.",
     "choiceExplanations": [
-      "Sai — đảo ngược thì: 'Look! ... right now' cần tiếp diễn, còn 'usually' cần hiện tại đơn.",
-      "Sai — 'plays' không hợp với 'they' (số nhiều).",
-      "Đúng — 'Look! ... right now' → are playing; 'usually' + chủ ngữ số nhiều → play.",
-      "Sai — 'is playing' và 'plays' đều dành cho chủ ngữ số ít, trong khi 'The kids' và 'they' là số nhiều."
+      "Sai — 'remember' ở nghĩa 'nhớ được' là động từ chỉ nhận thức, thường không chia tiếp diễn; vế đầu phải là 'doesn't remember'.",
+      "Sai — 'always' đứng trước động từ thường nên ghép với 'is writing' thành 'always is writing' là sai vị trí trạng từ; hơn nữa đây là thói quen nên cần hiện tại đơn: writes.",
+      "Đúng — 'doesn't remember' (động từ nhận thức giữ hiện tại đơn) và 'always writes' (thói quen, ngôi thứ ba số ít).",
+      "Sai — chia kép ('doesn't remembers' đã có -s sau 'doesn't') và 'write' thiếu -s dù chủ ngữ 'he' là số ít."
     ]
   },
   {
@@ -735,27 +734,26 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u4-state-verbs",
+    "usageId": "ps-u5-instructions-directions",
     "tags": [
-      "ps-u4-state-verbs",
-      "ps-vs-pc"
+      "ps-u5-instructions-directions"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "I ______ (not/understand) this math problem yet, so right now I ______ (ask) my classmate for help.",
+    "prompt": "To reset the router, you ______ (press) and hold the small button for ten seconds, and then you ______ (wait) until the light turns green.",
     "choices": [
-      "am not understanding / ask",
-      "don't understand / ask",
-      "don't understand / am asking",
-      "doesn't understand / am asking"
+      "press / are waiting",
+      "are pressing / wait",
+      "press / wait",
+      "presses / wait"
     ],
     "correctIndex": 2,
-    "explanation": "'understand' là state verb nên vẫn ở dạng hiện tại đơn dù đang nói tại thời điểm này: don't understand. Hành động 'right now' dùng hiện tại tiếp diễn: am asking.",
+    "explanation": "Hướng dẫn từng bước với chủ ngữ 'you' dùng hiện tại đơn, động từ nguyên thể: press, wait.",
     "choiceExplanations": [
-      "Sai — 'understand' là động từ chỉ trạng thái nên không chia tiếp diễn, và vế 'ask' cần tiếp diễn cho 'right now'.",
-      "Sai — vế 'ask' cần tiếp diễn (am asking) vì có 'right now'.",
-      "Đúng — 'understand' giữ hiện tại đơn (don't understand); 'right now' → am asking.",
-      "Sai — 'doesn't' dùng với he/she/it, không dùng với 'I'."
+      "Sai — 'are waiting' (tiếp diễn) không hợp với chỉ dẫn từng bước; cả hai vế đều dùng hiện tại đơn.",
+      "Sai — 'are pressing' diễn tả việc đang xảy ra, trong khi đây là hướng dẫn chung nên 'press' cần ở hiện tại đơn.",
+      "Đúng — hướng dẫn từng bước với 'you' dùng hiện tại đơn, động từ nguyên thể: press, wait.",
+      "Sai — 'presses' dành cho ngôi thứ ba số ít; chủ ngữ 'you' không thêm -s."
     ]
   },
   {
@@ -763,27 +761,26 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u3-schedules-timetables",
+    "usageId": "ps-u2-facts-truths",
     "tags": [
-      "ps-u3-schedules-timetables",
-      "ps-vs-pc"
+      "ps-u2-facts-truths"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The 6 p.m. bus to the port ______ (leave) from this station every day, but today it ______ (leave) from the next street because of the road repair.",
+    "prompt": "The Moon ______ (not/produce) its own light; it ______ (reflect) sunlight instead.",
     "choices": [
-      "is leaving / leaves",
-      "leaves / is leaving",
-      "leaves / leaving",
-      "leave / leaving"
+      "isn't producing / reflects",
+      "doesn't produce / reflects",
+      "doesn't produces / reflect",
+      "don't produce / reflects"
     ],
     "correctIndex": 1,
-    "explanation": "Lịch trình cố định 'every day' dùng hiện tại đơn, chủ ngữ số ít 'The 6 p.m. bus' thêm -s: leaves. Tình huống ngoại lệ hôm nay 'today' đang diễn ra tạm thời nên dùng hiện tại tiếp diễn: is leaving.",
+    "explanation": "Sự thật khoa học dùng hiện tại đơn; 'The Moon' là số ít nên phủ định dùng doesn't + động từ nguyên thể và vế sau thêm -s: reflects.",
     "choiceExplanations": [
-      "Sai — đảo ngược thì: 'every day' cần hiện tại đơn, còn 'today' (tình huống tạm thời) cần tiếp diễn.",
-      "Đúng — 'every day' → leaves; 'today' do sửa đường → is leaving.",
-      "Sai — 'leaving' thiếu 'is' nên không thành động từ chính của câu.",
-      "Sai — 'leave' thiếu -s với 'The 6 p.m. bus' (số ít), và 'leaving' thiếu 'is'."
+      "Sai — sự thật khoa học dùng hiện tại đơn, không dùng tiếp diễn ('isn't producing').",
+      "Đúng — sự thật khoa học dùng hiện tại đơn; 'The Moon' số ít nên 'doesn't produce' và 'reflects'.",
+      "Sai — chia kép ('doesn't produces') và 'reflect' thiếu -s với chủ ngữ số ít.",
+      "Sai — 'don't' không đi với chủ ngữ số ít 'The Moon'."
     ]
   },
   {

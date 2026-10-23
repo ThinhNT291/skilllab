@@ -91,7 +91,7 @@ for (const lang of fs.readdirSync(path.join(root, 'grammar'))) {
     })
     if (list.length < 30) note(`${list.length} câu (chuẩn là 30)`)
     if (diff[1] < 4 || diff[2] < 3 || diff[3] < 3) note(`độ khó ${diff[1]}/${diff[2]}/${diff[3]}: không đủ câu cho hạn mức mỗi lượt 4 dễ/3 vừa/3 khó (lượt sẽ bù bằng câu khó khác, mạch dễ → khó yếu đi)`)
-    else if (list.length === 30 && (diff[1] !== 10 || diff[2] !== 10 || diff[3] !== 10)) note(`độ khó ${diff[1]}/${diff[2]}/${diff[3]} (chuẩn 10/10/10)`)
+    else if (Math.max(diff[1], diff[2], diff[3]) - Math.min(diff[1], diff[2], diff[3]) > 1) note(`độ khó ${diff[1]}/${diff[2]}/${diff[3]} lệch (chuẩn: chia đều, 10/10/10 khi đủ 30 câu)`)
     const maxPos = Math.max(...pos)
     if (list.length >= 8 && maxPos / list.length > 0.4) note(`đáp án đúng dồn vào một vị trí (${pos.join('/')}) cho A/B/C/D`)
     if (noUsage) note(`${noUsage} câu chưa gắn usageId (chưa có mục lý thuyết dạy riêng; link "Xem lại lý thuyết" trỏ về đầu trang)`)
