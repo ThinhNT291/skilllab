@@ -12,8 +12,9 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [x] Chốt hướng A: Next.js + Supabase + Vercel; bỏ Google Apps Script.
 - [ ] Rà kỹ component/design token của `daotao`, chọn cái dùng lại (bảng màu mới tươi hơn cho học sinh).
 - [ ] Kiểm tra số project Supabase đang hoạt động, tạo project riêng; tạo project Vercel; chủ dự án cấp biến môi trường.
-- [ ] Dựng khung Next.js (đọc tài liệu Next.js trong `node_modules` trước), thư mục `supabase/migrations`, lớp truy cập dữ liệu mỏng.
-- [ ] Chuyển `grammar_theory_bank.js` thành dữ liệu nguồn; xóa code cũ sau khi chủ dự án xác nhận.
+- [x] Dựng khung Next.js, 3 skin, `ExerciseRunner` với câu mẫu (chưa nối dữ liệu).
+- [ ] Thư mục `supabase/migrations`, lớp truy cập dữ liệu mỏng, nối Supabase.
+- [ ] Chuyển `legacy/grammar_theory_bank.js` thành dữ liệu nguồn; xóa phần còn lại của `legacy/` sau khi chủ dự án xác nhận.
 - [ ] Đưa phần Gemini (chấm, nhận xét, TTS) vào API route phía server.
 
 ## Giai đoạn 1 — Lõi học và luyện (ưu tiên cao nhất)

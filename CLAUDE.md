@@ -1,5 +1,7 @@
 # Skilllab / Training Zone — ngữ cảnh dự án
 
+@AGENTS.md
+
 > Tệp này là "bộ nhớ" của dự án. Đọc trước khi làm việc; cập nhật khi có quyết định mới. Lộ trình chi tiết nằm ở `ROADMAP.md`.
 
 ## Dự án là gì
@@ -18,7 +20,10 @@ Học sinh cuối cấp 1 đến hết cấp 2 (lớp 4–9, khoảng 9–15 tu�
 5. Không sao chép nội dung, mã hay hình ảnh của game/website khác (IOE, "Đảo Kho Báu Từ Vựng"…); chỉ học ý tưởng.
 6. Luôn có tùy chọn tắt âm thanh và giảm chuyển động (`prefers-reduced-motion`). Hạn chế thu thập dữ liệu cá nhân của trẻ vị thành niên; xếp hạng dùng biệt danh và có thể tắt; không quảng cáo.
 
-## Hiện trạng kỹ thuật (trước khi xây lại)
+## Hiện trạng kỹ thuật
+Đã dựng khung Next.js 16.4 (Cache Components bật) + React 19 + Tailwind 4, Nunito qua `next/font`. Chưa cài shadcn/ui, Supabase, `@dnd-kit` (thêm khi cần). Có: 3 skin giao diện bằng biến CSS (`[data-skin]` trên `<html>`: explore, adventure, space), `ExerciseRunner` (một câu mỗi lần, combo, sao, pháo giấy, tắt âm, tôn trọng giảm chuyển động), mô hình nội dung `src/lib/content/types.ts`, trang `/luyen-tap` dùng 3 câu mẫu. Chi tiết cấu trúc: `README.md`. Mã cũ nằm ở `legacy/` (không build, không lint).
+
+## Hiện trạng kỹ thuật bản cũ (trong `legacy/`)
 JS/HTML/CSS thuần, không build. `app.js` ~4.000 dòng, `index.html` ~960 dòng, `style.css` ~560 dòng, `grammar_theory_bank.js` (lý thuyết ngữ pháp) ~3.200 dòng. Backend: Google Apps Script (`callBackendAPI`) + Gemini API (chấm, nhận xét, TTS). Triển khai: GitHub Pages.
 Bài tập ngữ pháp hiện chỉ có trắc nghiệm 4 đáp án, chấm tại client, có giải thích theo từng đáp án, ghi log SRS/streak ở backend, chế độ "Nhức đầu" (câu khó).
 
