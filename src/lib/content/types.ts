@@ -60,6 +60,8 @@ export interface GrammarExample {
 /** Một cách dùng của chuyên đề. `id` là nhãn ổn định, được bài tập tham chiếu qua `usageId`. */
 export interface GrammarUsage {
   id: string
+  /** Cấp CEFR định hướng của mục này (chưa kiểm chứng với nguồn chính thức, không hiển thị cho người học). Mới gắn cho một số mục */
+  level?: Level
   label: string
   explanationVi: string
   examples: GrammarExample[]

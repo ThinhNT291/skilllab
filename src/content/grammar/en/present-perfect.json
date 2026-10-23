@@ -83,6 +83,26 @@
             "vi": "Tôi chưa bao giờ nếm thử loại trái cây này."
           }
         ]
+      },
+      {
+        "id": "pp-vs-simple-past",
+        "level": "B1",
+        "label": "Phân biệt Hiện tại hoàn thành và Quá khứ đơn",
+        "explanationVi": "Hiện tại hoàn thành (have/has + V-p2) nối quá khứ với hiện tại: hành động không nêu thời điểm cụ thể, hoặc kéo dài/để lại kết quả đến nay; thường đi với ever, never, already, yet, just, so far, recently, since, for. Quá khứ đơn (V-ed/V2) nói về hành động đã kết thúc tại một thời điểm xác định trong quá khứ; đi với yesterday, last night/week/year, ago, in 2015, when... Quy tắc then chốt: hễ câu có (hoặc đang hỏi về) mốc thời gian quá khứ cụ thể thì phải dùng Quá khứ đơn, KHÔNG dùng Hiện tại hoàn thành; câu hỏi 'When ...?' luôn dùng Quá khứ đơn. Trong hội thoại, người ta thường mở bằng Hiện tại hoàn thành để hỏi trải nghiệm ('Have you ever...?') rồi chuyển sang Quá khứ đơn khi nêu chi tiết cụ thể ('Yes, I went there last year'). Với người đã mất hoặc giai đoạn đã chấm dứt hẳn (Shakespeare wrote...), dùng Quá khứ đơn vì không còn liên hệ với hiện tại. Lưu ý: tiếng Anh Mỹ đôi khi dùng Quá khứ đơn với just/already/yet; bài học này theo chuẩn Anh-Anh.",
+        "examples": [
+          {
+            "en": "I have lost my keys, so I can't open the door.",
+            "vi": "Tôi làm mất chìa khóa rồi nên không mở được cửa. (kết quả còn ở hiện tại)"
+          },
+          {
+            "en": "I lost my keys yesterday, so I called a locksmith.",
+            "vi": "Hôm qua tôi làm mất chìa khóa nên đã gọi thợ khóa. (mốc 'yesterday' → Quá khứ đơn)"
+          },
+          {
+            "en": "A: Have you ever been to Hue? B: Yes, I went there with my class in 2019.",
+            "vi": "A: Bạn đã từng đến Huế chưa? B: Rồi, mình đến đó cùng lớp năm 2019."
+          }
+        ]
       }
     ],
     "signalWords": [

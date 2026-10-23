@@ -206,7 +206,8 @@
       "are knowing"
     ],
     "correctIndex": 2,
-    "explanation": "'know' là động từ chỉ trạng thái (state verb), không dùng ở thì tiếp diễn → phải chia hiện tại đơn: I know."
+    "explanation": "'know' là động từ chỉ trạng thái (state verb), không dùng ở thì tiếp diễn → phải chia hiện tại đơn: I know.",
+    "usageId": "ps-vs-pc"
   },
   {
     "id": "en-present-continuous-011",
@@ -415,7 +416,8 @@
       "are belonging"
     ],
     "correctIndex": 1,
-    "explanation": "'belong' là động từ chỉ trạng thái sở hữu, không dùng ở thì tiếp diễn → chia hiện tại đơn: belongs."
+    "explanation": "'belong' là động từ chỉ trạng thái sở hữu, không dùng ở thì tiếp diễn → chia hiện tại đơn: belongs.",
+    "usageId": "ps-vs-pc"
   },
   {
     "id": "en-present-continuous-021",

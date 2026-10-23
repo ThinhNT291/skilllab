@@ -46,6 +46,7 @@ for (const lang of fs.readdirSync(path.join(root, 'grammar'))) {
 
   const exDir = path.join(root, 'exercises', lang)
   if (!fs.existsSync(exDir)) continue
+  const allUsageIds = new Set([...usageIdsByTopic.values()].flatMap((s) => [...s]))
   const seenEx = new Set()
   const seenPrompt = new Map()
   for (const f of fs.readdirSync(exDir).sort()) {
@@ -82,6 +83,8 @@ for (const lang of fs.readdirSync(path.join(root, 'grammar'))) {
       else if (!usageIdsByTopic.get(topic).has(ex.usageId)) at(`usageId không tồn tại trong chuyên đề: ${ex.usageId}`)
       else covered.add(ex.usageId)
       if (!Array.isArray(ex.tags)) at('tags phải là mảng')
+      // Quy tắc 1 (docs/chuan-noi-dung.md): mọi thẻ của câu phải có mục lý thuyết dạy nó ở đâu đó
+      for (const tag of ex.tags ?? []) if (!allUsageIds.has(tag)) at(`thẻ "${tag}" chưa có mục lý thuyết nào dạy (vi phạm quy tắc "không kiểm tra điều chưa dạy")`)
       const key = String(ex.prompt ?? '').trim().toLowerCase()
       if (seenPrompt.has(key)) warnings.push(`${ex.id}: đề trùng với ${seenPrompt.get(key)}`)
       else seenPrompt.set(key, ex.id)

@@ -122,7 +122,8 @@
       "As long as"
     ],
     "correctIndex": 0,
-    "explanation": "Về mặt ngữ nghĩa: 'Trừ khi bạn học chăm, nếu không bạn sẽ trượt'. 'Unless' mang nghĩa phủ định (If you don't study hard), phù hợp nhất với ngữ cảnh."
+    "explanation": "Về mặt ngữ nghĩa: 'Trừ khi bạn học chăm, nếu không bạn sẽ trượt'. 'Unless' mang nghĩa phủ định (If you don't study hard), phù hợp nhất với ngữ cảnh.",
+    "usageId": "cond-connectors"
   },
   {
     "id": "en-conditional-sentences-007",
@@ -142,7 +143,8 @@
       "supposing"
     ],
     "correctIndex": 2,
-    "explanation": "'In case' có nghĩa là 'phòng khi, trong trường hợp'. Câu này mang nghĩa: 'Tôi sẽ đưa số cho bạn phòng khi bạn cần liên lạc khẩn cấp'."
+    "explanation": "'In case' có nghĩa là 'phòng khi, trong trường hợp'. Câu này mang nghĩa: 'Tôi sẽ đưa số cho bạn phòng khi bạn cần liên lạc khẩn cấp'.",
+    "usageId": "cond-connectors"
   },
   {
     "id": "en-conditional-sentences-008",
@@ -183,7 +185,8 @@
       "as long as"
     ],
     "correctIndex": 3,
-    "explanation": "'As long as' có nghĩa là 'miễn là'. Ngữ nghĩa câu: Bạn có thể dùng máy của tôi miễn là bạn hứa sẽ giữ gìn cẩn thận."
+    "explanation": "'As long as' có nghĩa là 'miễn là'. Ngữ nghĩa câu: Bạn có thể dùng máy của tôi miễn là bạn hứa sẽ giữ gìn cẩn thận.",
+    "usageId": "cond-connectors"
   },
   {
     "id": "en-conditional-sentences-010",
@@ -497,7 +500,8 @@
       "unless"
     ],
     "correctIndex": 3,
-    "explanation": "'Unless' mang nghĩa là 'Trừ khi' (bằng If... not). Ngữ cảnh yêu cầu nghĩa phủ định: 'Bạn không thể vào trừ khi có thẻ'."
+    "explanation": "'Unless' mang nghĩa là 'Trừ khi' (bằng If... not). Ngữ cảnh yêu cầu nghĩa phủ định: 'Bạn không thể vào trừ khi có thẻ'.",
+    "usageId": "cond-connectors"
   },
   {
     "id": "en-conditional-sentences-025",
@@ -517,7 +521,8 @@
       "as long as"
     ],
     "correctIndex": 3,
-    "explanation": "'As long as' mang nghĩa 'miễn là', dùng để thay thế 'if' với tính chất ra điều kiện. 'Unless' sẽ làm sai nghĩa câu."
+    "explanation": "'As long as' mang nghĩa 'miễn là', dùng để thay thế 'if' với tính chất ra điều kiện. 'Unless' sẽ làm sai nghĩa câu.",
+    "usageId": "cond-connectors"
   },
   {
     "id": "en-conditional-sentences-026",

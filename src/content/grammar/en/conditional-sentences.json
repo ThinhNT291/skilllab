@@ -90,6 +90,30 @@
         ]
       },
       {
+        "id": "cond-connectors",
+        "level": "B1",
+        "label": "Các liên từ điều kiện khác thay cho 'if' (unless, as long as, provided that, in case, even if, supposing)",
+        "explanationVi": "Ngoài 'if', có thể dùng các liên từ khác để nêu điều kiện, mỗi từ mang một sắc thái nghĩa riêng: 'unless' = 'if ... not' (trừ khi, nếu không); 'as long as / so long as / provided (that) / providing (that)' = miễn là, với điều kiện là (nhấn mạnh điều kiện bắt buộc phải thoả mãn); 'in case' = phòng khi, để đề phòng (KHÔNG phải điều kiện: việc ở mệnh đề chính được làm TRƯỚC, phòng khi tình huống ở mệnh đề 'in case' xảy ra); 'even if' = dù cho, kể cả khi (kết quả không đổi dù điều kiện có xảy ra hay không); 'suppose/supposing (that)' = giả sử như, dùng để đặt một giả thiết. Cũng như 'if', sau các liên từ này mệnh đề điều kiện dùng hiện tại đơn để nói về tương lai (không dùng 'will'). Lưu ý: 'unless' đã mang nghĩa phủ định nên KHÔNG đi với động từ phủ định (Unless you study, chứ không phải Unless you don't study).",
+        "examples": [
+          {
+            "en": "You will not pass the exam unless you study harder.",
+            "vi": "Bạn sẽ không đỗ kỳ thi trừ khi bạn học chăm hơn."
+          },
+          {
+            "en": "You can borrow my laptop as long as you take good care of it.",
+            "vi": "Bạn có thể mượn máy tính của tôi miễn là bạn giữ gìn nó cẩn thận."
+          },
+          {
+            "en": "Take an umbrella in case it rains this afternoon.",
+            "vi": "Hãy mang theo ô phòng khi chiều nay trời mưa. (mang ô trước; khác với 'if it rains' là chỉ làm khi mưa đã xảy ra)"
+          },
+          {
+            "en": "We will go hiking even if it rains.",
+            "vi": "Chúng tôi vẫn sẽ đi bộ đường dài dù trời có mưa."
+          }
+        ]
+      },
+      {
         "id": "cond-inversion",
         "label": "Đảo ngữ trong câu điều kiện (Inversion)",
         "explanationVi": "Trong văn phong trang trọng (formal/written English), có thể bỏ 'If' và đảo trợ động từ lên đầu câu: Loại 1 trang trọng: Should + S + V(nguyên mẫu) [thay cho If + S + should + V]; Loại 2: Were + S (+ to V) [thay cho If + S + were]; Loại 3: Had + S + V3/ed [thay cho If + S + had + V3/ed]. Lưu ý: dạng đảo ngữ 'Was' KHÔNG bao giờ đúng (chỉ dùng 'Were'), khác với 'If I was' vốn được chấp nhận trong văn nói không trang trọng.",

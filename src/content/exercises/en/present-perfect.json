@@ -227,7 +227,8 @@
       "went"
     ],
     "correctIndex": 3,
-    "explanation": "'last night' là thời gian cụ thể trong quá khứ nên phải dùng Quá khứ đơn (went), không dùng Hiện tại hoàn thành."
+    "explanation": "'last night' là thời gian cụ thể trong quá khứ nên phải dùng Quá khứ đơn (went), không dùng Hiện tại hoàn thành.",
+    "usageId": "pp-vs-simple-past"
   },
   {
     "id": "en-present-perfect-012",
@@ -247,7 +248,8 @@
       "is finished"
     ],
     "correctIndex": 1,
-    "explanation": "'an hour ago' là mốc thời gian quá khứ xác định nên phải dùng Quá khứ đơn (finished)."
+    "explanation": "'an hour ago' là mốc thời gian quá khứ xác định nên phải dùng Quá khứ đơn (finished).",
+    "usageId": "pp-vs-simple-past"
   },
   {
     "id": "en-present-perfect-013",
@@ -309,7 +311,8 @@
       "did / bought"
     ],
     "correctIndex": 1,
-    "explanation": "Câu hỏi với 'When' yêu cầu dùng Quá khứ đơn vì hỏi về mốc thời gian, nên dùng 'Did... buy'."
+    "explanation": "Câu hỏi với 'When' yêu cầu dùng Quá khứ đơn vì hỏi về mốc thời gian, nên dùng 'Did... buy'.",
+    "usageId": "pp-vs-simple-past"
   },
   {
     "id": "en-present-perfect-016",
@@ -539,7 +542,8 @@
       "have seen"
     ],
     "correctIndex": 1,
-    "explanation": "Câu có mốc thời gian cụ thể trong quá khứ ('yesterday afternoon') bắt buộc phải dùng thì Quá khứ đơn, không dùng Hiện tại hoàn thành."
+    "explanation": "Câu có mốc thời gian cụ thể trong quá khứ ('yesterday afternoon') bắt buộc phải dùng thì Quá khứ đơn, không dùng Hiện tại hoàn thành.",
+    "usageId": "pp-vs-simple-past"
   },
   {
     "id": "en-present-perfect-027",
@@ -559,7 +563,8 @@
       "finished"
     ],
     "correctIndex": 3,
-    "explanation": "Dù câu hỏi dùng Hiện tại hoàn thành, câu trả lời có chứa cụm thời gian xác định 'an hour ago' nên phải dùng Quá khứ đơn."
+    "explanation": "Dù câu hỏi dùng Hiện tại hoàn thành, câu trả lời có chứa cụm thời gian xác định 'an hour ago' nên phải dùng Quá khứ đơn.",
+    "usageId": "pp-vs-simple-past"
   },
   {
     "id": "en-present-perfect-028",
@@ -579,7 +584,8 @@
       "bought"
     ],
     "correctIndex": 3,
-    "explanation": "Mốc thời gian 'in 2015' là một thời điểm xác định đã kết thúc trong quá khứ. Do đó, động từ 'buy' phải chia ở Quá khứ đơn."
+    "explanation": "Mốc thời gian 'in 2015' là một thời điểm xác định đã kết thúc trong quá khứ. Do đó, động từ 'buy' phải chia ở Quá khứ đơn.",
+    "usageId": "pp-vs-simple-past"
   },
   {
     "id": "en-present-perfect-029",
@@ -620,6 +626,7 @@
       "has written"
     ],
     "correctIndex": 0,
-    "explanation": "Chủ thể 'William Shakespeare' đã qua đời, hành động viết kịch không thể tiếp diễn hoặc lặp lại ở hiện tại. Do đó, phải dùng thì Quá khứ đơn."
+    "explanation": "Chủ thể 'William Shakespeare' đã qua đời, hành động viết kịch không thể tiếp diễn hoặc lặp lại ở hiện tại. Do đó, phải dùng thì Quá khứ đơn.",
+    "usageId": "pp-vs-simple-past"
   }
 ]

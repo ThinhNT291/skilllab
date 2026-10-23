@@ -18,7 +18,13 @@
       "to clean"
     ],
     "correctIndex": 0,
-    "explanation": "Chủ ngữ 'She' là ngôi thứ ba số ít nên động từ thường phải thêm -s: 'cleans'. 'clean' dùng cho I/you/we/they, 'is cleaning' là thì hiện tại tiếp diễn, 'to clean' sai cấu trúc."
+    "explanation": "Chủ ngữ 'She' là ngôi thứ ba số ít nên động từ thường phải thêm -s: 'cleans'. 'clean' dùng cho I/you/we/they, 'is cleaning' là thì hiện tại tiếp diễn, 'to clean' sai cấu trúc.",
+    "choiceExplanations": [
+      "Đúng — 'She' là ngôi thứ ba số ít và 'every Saturday morning' chỉ thói quen lặp lại, nên dùng hiện tại đơn và thêm -s: cleans.",
+      "Sai — 'clean' không thêm -s chỉ dùng với I/you/we/they, không dùng với 'She'.",
+      "Sai — 'is cleaning' là hiện tại tiếp diễn, diễn tả việc đang xảy ra lúc nói, không dùng cho thói quen có 'every Saturday morning'.",
+      "Sai — 'to clean' (to + động từ) không thể đứng làm động từ chính đã chia của câu."
+    ]
   },
   {
     "id": "en-present-simple-002",
@@ -39,7 +45,13 @@
       "is rising"
     ],
     "correctIndex": 0,
-    "explanation": "Đây là chân lý khoa học nên dùng thì hiện tại đơn. Chủ ngữ 'The Sun' số ít nên thêm -s: rise -> rises."
+    "explanation": "Đây là chân lý khoa học nên dùng thì hiện tại đơn. Chủ ngữ 'The Sun' số ít nên thêm -s: rise -> rises.",
+    "choiceExplanations": [
+      "Đúng — chân lý khoa học dùng hiện tại đơn; 'The Sun' là số ít nên thêm -s: rises.",
+      "Sai — 'rose' là quá khứ đơn, không dùng cho sự thật luôn đúng.",
+      "Sai — 'The Sun' là số ít nên cần thêm -s; 'rise' không thêm -s chỉ dùng với chủ ngữ số nhiều.",
+      "Sai — 'is rising' (đang mọc) diễn tả một lần đang diễn ra, không nêu quy luật luôn đúng."
+    ]
   },
   {
     "id": "en-present-simple-003",
@@ -60,7 +72,13 @@
       "want"
     ],
     "correctIndex": 3,
-    "explanation": "'want' là động từ chỉ trạng thái (mong muốn), không dùng dạng tiếp diễn. Chủ ngữ 'I' dùng động từ nguyên thể 'want'."
+    "explanation": "'want' là động từ chỉ trạng thái (mong muốn), không dùng dạng tiếp diễn. Chủ ngữ 'I' dùng động từ nguyên thể 'want'.",
+    "choiceExplanations": [
+      "Sai — 'wants' dành cho he/she/it; chủ ngữ 'I' không thêm -s.",
+      "Sai — 'want' là động từ chỉ trạng thái nên không dùng thì tiếp diễn.",
+      "Sai — 'wanted' là quá khứ đơn, không khớp với mong muốn ở hiện tại.",
+      "Đúng — 'want' là động từ chỉ trạng thái nên dùng hiện tại đơn; chủ ngữ 'I' dùng động từ nguyên thể."
+    ]
   },
   {
     "id": "en-present-simple-004",
@@ -81,7 +99,13 @@
       "left"
     ],
     "correctIndex": 2,
-    "explanation": "Câu nói về lịch trình xe buýt cố định nên dùng hiện tại đơn. Chủ ngữ số ít 'The last bus' cần thêm -s: leave -> leaves."
+    "explanation": "Câu nói về lịch trình xe buýt cố định nên dùng hiện tại đơn. Chủ ngữ số ít 'The last bus' cần thêm -s: leave -> leaves.",
+    "choiceExplanations": [
+      "Sai — 'The last bus' là số ít nên động từ cần thêm -s.",
+      "Sai — 'is leaving' (hiện tại tiếp diễn) cũng có thể nói về kế hoạch tương lai, nhưng với giờ xe chạy cố định theo lịch thì chuẩn là hiện tại đơn.",
+      "Đúng — lịch trình cố định dùng hiện tại đơn; 'The last bus' là số ít nên thêm -s: leaves.",
+      "Sai — 'left' là quá khứ đơn, không phù hợp với lịch trình xe chạy hiện hành."
+    ]
   },
   {
     "id": "en-present-simple-005",
@@ -102,7 +126,13 @@
       "are adding"
     ],
     "correctIndex": 0,
-    "explanation": "Đây là câu hướng dẫn nấu ăn từng bước với chủ ngữ 'you' nên động từ giữ nguyên thể 'add', không thêm -s."
+    "explanation": "Đây là câu hướng dẫn nấu ăn từng bước với chủ ngữ 'you' nên động từ giữ nguyên thể 'add', không thêm -s.",
+    "choiceExplanations": [
+      "Đúng — hướng dẫn từng bước với 'you' dùng hiện tại đơn, động từ nguyên thể: add.",
+      "Sai — 'adds' dành cho ngôi thứ ba số ít; chủ ngữ 'you' không thêm -s.",
+      "Sai — 'added' là quá khứ đơn, không dùng cho chỉ dẫn các bước của một công thức.",
+      "Sai — 'are adding' diễn tả việc đang xảy ra ngay lúc nói, không phải chỉ dẫn chung."
+    ]
   },
   {
     "id": "en-present-simple-006",
@@ -123,7 +153,13 @@
       "not likes"
     ],
     "correctIndex": 1,
-    "explanation": "Chủ ngữ ngôi thứ ba số ít 'He' ở câu phủ định dùng 'doesn't' + động từ nguyên thể: doesn't like. Không thêm -s vào 'like' vì đã có 'does' (tránh chia kép)."
+    "explanation": "Chủ ngữ ngôi thứ ba số ít 'He' ở câu phủ định dùng 'doesn't' + động từ nguyên thể: doesn't like. Không thêm -s vào 'like' vì đã có 'does' (tránh chia kép).",
+    "choiceExplanations": [
+      "Sai — chia kép: 'doesn't' đã mang dấu ngôi thứ ba nên 'like' không thêm -s.",
+      "Đúng — He + doesn't + động từ nguyên thể.",
+      "Sai — 'don't' dùng với I/you/we/they, không dùng với 'He'.",
+      "Sai — không thể phủ định động từ thường chỉ bằng 'not'; cần trợ động từ 'doesn't'."
+    ]
   },
   {
     "id": "en-present-simple-007",
@@ -144,7 +180,13 @@
       "studys"
     ],
     "correctIndex": 1,
-    "explanation": "Động từ tận cùng bằng phụ âm + y (study) khi chia cho ngôi thứ ba số ít phải đổi y thành i rồi thêm -es: studies. 'studys' sai chính tả."
+    "explanation": "Động từ tận cùng bằng phụ âm + y (study) khi chia cho ngôi thứ ba số ít phải đổi y thành i rồi thêm -es: studies. 'studys' sai chính tả.",
+    "choiceExplanations": [
+      "Sai — 'is studying' là hiện tại tiếp diễn, không hợp với thói quen 'every Monday and Wednesday'.",
+      "Đúng — tận cùng phụ âm + y thì đổi y thành i rồi thêm -es: studies.",
+      "Sai — 'My brother' là số ít nên động từ cần thêm -s/-es.",
+      "Sai — sai chính tả: tận cùng phụ âm + y phải đổi thành -ies, không chỉ thêm -s."
+    ]
   },
   {
     "id": "en-present-simple-008",
@@ -165,7 +207,13 @@
       "is freezing"
     ],
     "correctIndex": 0,
-    "explanation": "Sự thật khoa học nên dùng hiện tại đơn. Chủ ngữ 'Water' số ít, động từ 'freeze' đã tận cùng bằng 'e' nên chỉ thêm -s: freezes."
+    "explanation": "Sự thật khoa học nên dùng hiện tại đơn. Chủ ngữ 'Water' số ít, động từ 'freeze' đã tận cùng bằng 'e' nên chỉ thêm -s: freezes.",
+    "choiceExplanations": [
+      "Đúng — sự thật khoa học dùng hiện tại đơn; 'Water' là số ít, 'freeze' đã tận cùng -e nên chỉ thêm -s: freezes.",
+      "Sai — 'Water' là chủ ngữ số ít nên cần thêm -s.",
+      "Sai — 'froze' là quá khứ đơn, không dùng cho sự thật luôn đúng.",
+      "Sai — 'is freezing' diễn tả quá trình đang xảy ra, không nêu quy luật."
+    ]
   },
   {
     "id": "en-present-simple-009",
@@ -186,7 +234,13 @@
       "Do / plays"
     ],
     "correctIndex": 0,
-    "explanation": "Câu hỏi với chủ ngữ 'you' dùng trợ động từ 'Do' đứng đầu câu, theo sau là động từ nguyên thể 'play' (không chia -s vì đã có 'Do')."
+    "explanation": "Câu hỏi với chủ ngữ 'you' dùng trợ động từ 'Do' đứng đầu câu, theo sau là động từ nguyên thể 'play' (không chia -s vì đã có 'Do').",
+    "choiceExplanations": [
+      "Đúng — với chủ ngữ 'you', câu hỏi dùng 'Do' đứng đầu, theo sau là động từ nguyên thể: Do you play.",
+      "Sai — 'Are ... playing' là hiện tại tiếp diễn, không hợp với 'every weekend' (thói quen).",
+      "Sai — 'Does' dùng với he/she/it, không dùng với 'you'.",
+      "Sai — sau 'Do' động từ giữ nguyên thể, không thêm -s (plays)."
+    ]
   },
   {
     "id": "en-present-simple-010",
@@ -207,7 +261,13 @@
       "close"
     ],
     "correctIndex": 0,
-    "explanation": "Giờ đóng cửa cố định của cửa hàng là lịch trình nên dùng hiện tại đơn; chủ ngữ số ít 'This shop' cần thêm -s: closes."
+    "explanation": "Giờ đóng cửa cố định của cửa hàng là lịch trình nên dùng hiện tại đơn; chủ ngữ số ít 'This shop' cần thêm -s: closes.",
+    "choiceExplanations": [
+      "Đúng — giờ đóng cửa cố định là lịch trình nên dùng hiện tại đơn; 'This shop' là số ít nên thêm -s.",
+      "Sai — 'is closing' thường nói việc đang hoặc sắp xảy ra, không hợp với giờ đóng cửa cố định lặp lại hằng tuần.",
+      "Sai — 'closed' là quá khứ đơn, không dùng cho lịch hiện hành.",
+      "Sai — 'This shop' là số ít nên động từ cần thêm -s."
+    ]
   },
   {
     "id": "en-present-simple-011",
@@ -228,7 +288,13 @@
       "is always"
     ],
     "correctIndex": 3,
-    "explanation": "Với động từ 'to be', trạng từ tần suất đứng SAU 'to be': is always, không phải trước. Chủ ngữ số ít 'My little brother' dùng 'is'."
+    "explanation": "Với động từ 'to be', trạng từ tần suất đứng SAU 'to be': is always, không phải trước. Chủ ngữ số ít 'My little brother' dùng 'is'.",
+    "choiceExplanations": [
+      "Sai — 'be' nguyên thể không thể làm động từ chia với 'My little brother'; cần 'is'.",
+      "Sai — với 'to be', trạng từ tần suất đứng sau 'be', không đứng trước (always is).",
+      "Sai — 'is being always' sai thứ tự trạng từ và không dùng để nêu đặc điểm thường xuyên.",
+      "Đúng — 'is' + trạng từ tần suất: is always."
+    ]
   },
   {
     "id": "en-present-simple-012",
@@ -249,7 +315,13 @@
       "doesn't open"
     ],
     "correctIndex": 3,
-    "explanation": "Chủ ngữ số ít 'The museum' ở câu phủ định dùng 'doesn't' + động từ nguyên thể: doesn't open. Không thêm -s vào 'open' để tránh chia kép."
+    "explanation": "Chủ ngữ số ít 'The museum' ở câu phủ định dùng 'doesn't' + động từ nguyên thể: doesn't open. Không thêm -s vào 'open' để tránh chia kép.",
+    "choiceExplanations": [
+      "Sai — 'The museum' là số ít nên cần 'doesn't', không dùng 'don't'.",
+      "Sai — chia kép: sau 'doesn't', 'open' giữ nguyên thể, không thêm -s.",
+      "Sai — không thể phủ định động từ thường chỉ bằng 'not'; cần trợ động từ 'doesn't'.",
+      "Đúng — chủ ngữ số ít + doesn't + động từ nguyên thể."
+    ]
   },
   {
     "id": "en-present-simple-013",
@@ -270,7 +342,13 @@
       "are believing"
     ],
     "correctIndex": 1,
-    "explanation": "'believe' là động từ chỉ nhận thức (state verb), không chia tiếp diễn. Chủ ngữ số nhiều 'scientists' dùng động từ nguyên thể 'believe', không thêm -s."
+    "explanation": "'believe' là động từ chỉ nhận thức (state verb), không chia tiếp diễn. Chủ ngữ số nhiều 'scientists' dùng động từ nguyên thể 'believe', không thêm -s.",
+    "choiceExplanations": [
+      "Sai — 'believed' là quá khứ, trong khi câu nêu quan điểm hiện nay của các nhà khoa học.",
+      "Đúng — 'Most scientists' là số nhiều nên dùng động từ nguyên thể; 'believe' là động từ chỉ nhận thức, không chia tiếp diễn.",
+      "Sai — 'believes' dành cho ngôi thứ ba số ít, còn 'Most scientists' là số nhiều.",
+      "Sai — 'believe' là động từ chỉ nhận thức nên không chia tiếp diễn."
+    ]
   },
   {
     "id": "en-present-simple-014",
@@ -291,7 +369,13 @@
       "Does / depart"
     ],
     "correctIndex": 3,
-    "explanation": "Chủ ngữ số ít 'the 7 a.m. train' dùng trợ động từ 'Does' cho câu hỏi, theo sau là động từ nguyên thể 'depart' (không thêm -s vì đã có 'Does')."
+    "explanation": "Chủ ngữ số ít 'the 7 a.m. train' dùng trợ động từ 'Does' cho câu hỏi, theo sau là động từ nguyên thể 'depart' (không thêm -s vì đã có 'Does').",
+    "choiceExplanations": [
+      "Sai — 'Is ... departing' (tiếp diễn) không hợp với 'usually' (thói quen/lịch trình).",
+      "Sai — 'Do' dùng với I/you/we/they; 'the 7 a.m. train' là số ít nên cần 'Does'.",
+      "Sai — chia kép: sau 'Does' động từ giữ nguyên thể, không thêm -s (departs).",
+      "Đúng — chủ ngữ số ít + Does + động từ nguyên thể."
+    ]
   },
   {
     "id": "en-present-simple-015",
@@ -312,7 +396,13 @@
       "never wants"
     ],
     "correctIndex": 1,
-    "explanation": "'never' đã mang nghĩa phủ định nên không cần thêm 'don't'; động từ trạng thái 'want' không chia tiếp diễn. Chủ ngữ 'I' dùng nguyên thể 'want'."
+    "explanation": "'never' đã mang nghĩa phủ định nên không cần thêm 'don't'; động từ trạng thái 'want' không chia tiếp diễn. Chủ ngữ 'I' dùng nguyên thể 'want'.",
+    "choiceExplanations": [
+      "Sai — 'want' là động từ chỉ trạng thái nên không chia tiếp diễn.",
+      "Đúng — 'I' + never + động từ nguyên thể; 'never' đã mang nghĩa phủ định.",
+      "Sai — phủ định kép: 'never' đã phủ định nên không thêm 'don't'.",
+      "Sai — 'wants' dành cho ngôi thứ ba số ít, không dùng với 'I'."
+    ]
   },
   {
     "id": "en-present-simple-016",
@@ -333,7 +423,13 @@
       "not tighten"
     ],
     "correctIndex": 2,
-    "explanation": "Chủ ngữ 'you' ở câu phủ định dùng 'don't' + động từ nguyên thể: don't tighten."
+    "explanation": "Chủ ngữ 'you' ở câu phủ định dùng 'don't' + động từ nguyên thể: don't tighten.",
+    "choiceExplanations": [
+      "Sai — 'doesn't' dùng với he/she/it, không dùng với 'you'.",
+      "Sai — 'aren't tightening' diễn tả việc đang xảy ra; đây là chỉ dẫn chung nên dùng hiện tại đơn.",
+      "Đúng — 'you' + don't + động từ nguyên thể.",
+      "Sai — thiếu trợ động từ: không thể phủ định động từ thường chỉ bằng 'not'."
+    ]
   },
   {
     "id": "en-present-simple-017",
@@ -354,7 +450,13 @@
       "visited"
     ],
     "correctIndex": 0,
-    "explanation": "Chủ ngữ số nhiều 'My parents' dùng động từ nguyên thể, không thêm -s: visit. 'visits' chỉ dùng cho ngôi thứ ba số ít."
+    "explanation": "Chủ ngữ số nhiều 'My parents' dùng động từ nguyên thể, không thêm -s: visit. 'visits' chỉ dùng cho ngôi thứ ba số ít.",
+    "choiceExplanations": [
+      "Đúng — 'My parents' là số nhiều nên dùng động từ nguyên thể; 'sometimes' chỉ thói quen.",
+      "Sai — 'is' không hợp với chủ ngữ số nhiều, và tiếp diễn không hợp với 'sometimes'.",
+      "Sai — 'visits' chỉ dùng với ngôi thứ ba số ít.",
+      "Sai — 'visited' là quá khứ đơn, không hợp với thói quen ở hiện tại."
+    ]
   },
   {
     "id": "en-present-simple-018",
@@ -375,7 +477,13 @@
       "is always travelling"
     ],
     "correctIndex": 2,
-    "explanation": "Với động từ thường, trạng từ tần suất đứng TRƯỚC động từ chính: always travels. Chủ ngữ số ít 'Light' cần thêm -s: travels."
+    "explanation": "Với động từ thường, trạng từ tần suất đứng TRƯỚC động từ chính: always travels. Chủ ngữ số ít 'Light' cần thêm -s: travels.",
+    "choiceExplanations": [
+      "Sai — 'Light' là số ít nên cần thêm -s.",
+      "Sai — với động từ thường, trạng từ tần suất đứng trước động từ chính, không đặt sau (travels always).",
+      "Đúng — trạng từ tần suất đứng trước động từ thường; 'Light' là số ít nên thêm -s: always travels.",
+      "Sai — 'is always travelling' (tiếp diễn + always) thường dùng để phàn nàn một thói quen, không dùng cho quy luật vật lý."
+    ]
   },
   {
     "id": "en-present-simple-019",
@@ -396,7 +504,13 @@
       "Don't / know"
     ],
     "correctIndex": 1,
-    "explanation": "Chủ ngữ số ít 'your sister' dùng 'Doesn't' cho câu hỏi phủ định, theo sau là động từ nguyên thể 'know' (không thêm -s vì đã có 'does')."
+    "explanation": "Chủ ngữ số ít 'your sister' dùng 'Doesn't' cho câu hỏi phủ định, theo sau là động từ nguyên thể 'know' (không thêm -s vì đã có 'does').",
+    "choiceExplanations": [
+      "Sai — 'know' là động từ chỉ trạng thái nên không chia tiếp diễn.",
+      "Đúng — 'your sister' là số ít nên dùng 'Doesn't' + động từ nguyên thể.",
+      "Sai — chia kép: sau 'Doesn't' động từ giữ nguyên thể, không thêm -s.",
+      "Sai — 'Don't' dùng với I/you/we/they; 'your sister' cần 'Doesn't'."
+    ]
   },
   {
     "id": "en-present-simple-020",
@@ -417,7 +531,13 @@
       "closed"
     ],
     "correctIndex": 1,
-    "explanation": "Chủ ngữ số ít 'The library' cần thêm -es vì 'close' đã tận cùng bằng 'e': closes. Trạng từ 'usually' đứng trước động từ thường là đúng vị trí."
+    "explanation": "Chủ ngữ số ít 'The library' cần thêm -es vì 'close' đã tận cùng bằng 'e': closes. Trạng từ 'usually' đứng trước động từ thường là đúng vị trí.",
+    "choiceExplanations": [
+      "Sai — 'usually' báo hiệu thói quen/quy định lặp lại nên dùng hiện tại đơn, không dùng tiếp diễn.",
+      "Đúng — 'The library' là số ít; 'close' đã tận cùng -e nên chỉ thêm -s: closes.",
+      "Sai — chủ ngữ số ít cần động từ thêm -s.",
+      "Sai — 'closed' là quá khứ đơn, không hợp với 'usually' khi nói quy định chung."
+    ]
   },
   {
     "id": "en-present-simple-021",
@@ -438,7 +558,13 @@
       "departs"
     ],
     "correctIndex": 3,
-    "explanation": "Mệnh đề 'Because...' có chủ ngữ số ít 'the flight' nên động từ thêm -s: departs. Đây là hiện tại đơn diễn tả một xu hướng/thói quen lặp lại thường xuyên (thường bị trễ vào mùa mưa), không phải lịch trình cố định."
+    "explanation": "Mệnh đề 'Because...' có chủ ngữ số ít 'the flight' nên động từ thêm -s: departs. Đây là hiện tại đơn diễn tả một xu hướng/thói quen lặp lại thường xuyên (thường bị trễ vào mùa mưa), không phải lịch trình cố định.",
+    "choiceExplanations": [
+      "Sai — 'the flight' là số ít nên động từ cần thêm -s.",
+      "Sai — 'departed' là quá khứ, trong khi câu nói về xu hướng lặp lại thường xuyên (often, in the rainy season).",
+      "Sai — tiếp diễn không hợp với 'often' (thói quen/xu hướng lặp lại).",
+      "Đúng — hiện tại đơn, chủ ngữ số ít: departs."
+    ]
   },
   {
     "id": "en-present-simple-022",
@@ -459,7 +585,13 @@
       "needs"
     ],
     "correctIndex": 3,
-    "explanation": "Chủ ngữ chính của câu là 'Everyone' (số ít) dù có mệnh đề quan hệ 'who works...' chen giữa; động từ chính vẫn chia theo 'Everyone': needs. 'need' là state verb nên không chia tiếp diễn."
+    "explanation": "Chủ ngữ chính của câu là 'Everyone' (số ít) dù có mệnh đề quan hệ 'who works...' chen giữa; động từ chính vẫn chia theo 'Everyone': needs. 'need' là state verb nên không chia tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — 'need' là động từ chỉ trạng thái nên không chia tiếp diễn.",
+      "Sai — 'needed' là quá khứ, không hợp với quy định đang áp dụng.",
+      "Sai — chủ ngữ chính là 'Everyone' (số ít), nên động từ cần -s dù có mệnh đề 'who works...' chen giữa.",
+      "Đúng — chia theo chủ ngữ chính 'Everyone' (số ít): needs."
+    ]
   },
   {
     "id": "en-present-simple-023",
@@ -480,7 +612,13 @@
       "left"
     ],
     "correctIndex": 2,
-    "explanation": "Đây là câu hướng dẫn từng bước với chủ ngữ 'you', động từ giữ nguyên thể: leave."
+    "explanation": "Đây là câu hướng dẫn từng bước với chủ ngữ 'you', động từ giữ nguyên thể: leave.",
+    "choiceExplanations": [
+      "Sai — 'you' không thêm -s trong hiện tại đơn.",
+      "Sai — chỉ dẫn các bước dùng hiện tại đơn, không dùng tiếp diễn.",
+      "Đúng — hướng dẫn từng bước với 'you' dùng động từ nguyên thể: leave.",
+      "Sai — 'left' là quá khứ đơn, không hợp với công thức hướng dẫn hiện hành."
+    ]
   },
   {
     "id": "en-present-simple-024",
@@ -501,7 +639,13 @@
       "own"
     ],
     "correctIndex": 1,
-    "explanation": "'own' là state verb chỉ sự sở hữu, không chia tiếp diễn. Chủ ngữ 'my uncle' số ít nên thêm -s: owns."
+    "explanation": "'own' là state verb chỉ sự sở hữu, không chia tiếp diễn. Chủ ngữ 'my uncle' số ít nên thêm -s: owns.",
+    "choiceExplanations": [
+      "Sai — 'owned' là quá khứ, trong khi câu mô tả tình trạng hiện tại ('never lets').",
+      "Đúng — 'own' là động từ chỉ sở hữu nên dùng hiện tại đơn; 'my uncle' là số ít nên thêm -s: owns.",
+      "Sai — 'own' là động từ chỉ trạng thái nên không chia tiếp diễn.",
+      "Sai — 'my uncle' là số ít nên cần thêm -s."
+    ]
   },
   {
     "id": "en-present-simple-025",
@@ -522,7 +666,13 @@
       "drank"
     ],
     "correctIndex": 2,
-    "explanation": "Cụm chủ ngữ 'Not a single person' mang nghĩa số ít (không một ai), nên động từ chia theo ngôi thứ ba số ít: drinks."
+    "explanation": "Cụm chủ ngữ 'Not a single person' mang nghĩa số ít (không một ai), nên động từ chia theo ngôi thứ ba số ít: drinks.",
+    "choiceExplanations": [
+      "Sai — tiếp diễn không dùng cho thói quen/sở thích lâu dài.",
+      "Sai — 'Not a single person' mang nghĩa số ít nên động từ cần thêm -s.",
+      "Đúng — 'Not a single person' là số ít: drinks.",
+      "Sai — 'drank' là quá khứ đơn, không hợp với thói quen hiện tại (we're all tea lovers)."
+    ]
   },
   {
     "id": "en-present-simple-026",
@@ -544,7 +694,13 @@
       "reads / read"
     ],
     "correctIndex": 0,
-    "explanation": "Hành động thường xuyên 'usually' dùng hiện tại đơn với chủ ngữ số ít 'my father': reads. Hành động đang xảy ra 'tonight' dùng hiện tại tiếp diễn: is reading."
+    "explanation": "Hành động thường xuyên 'usually' dùng hiện tại đơn với chủ ngữ số ít 'my father': reads. Hành động đang xảy ra 'tonight' dùng hiện tại tiếp diễn: is reading.",
+    "choiceExplanations": [
+      "Đúng — 'usually' dùng hiện tại đơn (reads); 'tonight' là việc khác thường đang xảy ra nên dùng tiếp diễn (is reading).",
+      "Sai — 'read' (không -s) không hợp với 'My father', và 'reading' thiếu 'is'.",
+      "Sai — đảo ngược thì: thói quen 'usually' phải dùng hiện tại đơn, việc đang xảy ra 'tonight' dùng tiếp diễn.",
+      "Sai — vế sau dùng hiện tại đơn (read) nên không diễn tả được việc đang xảy ra tối nay."
+    ]
   },
   {
     "id": "en-present-simple-027",
@@ -566,7 +722,13 @@
       "is playing / plays"
     ],
     "correctIndex": 2,
-    "explanation": "'Look! ... right now' báo hiệu hành động đang diễn ra nên dùng hiện tại tiếp diễn với chủ ngữ số nhiều 'the kids': are playing. Thói quen thường lệ 'usually' dùng hiện tại đơn, chủ ngữ số nhiều không thêm -s: play."
+    "explanation": "'Look! ... right now' báo hiệu hành động đang diễn ra nên dùng hiện tại tiếp diễn với chủ ngữ số nhiều 'the kids': are playing. Thói quen thường lệ 'usually' dùng hiện tại đơn, chủ ngữ số nhiều không thêm -s: play.",
+    "choiceExplanations": [
+      "Sai — đảo ngược thì: 'Look! ... right now' cần tiếp diễn, còn 'usually' cần hiện tại đơn.",
+      "Sai — 'plays' không hợp với 'they' (số nhiều).",
+      "Đúng — 'Look! ... right now' → are playing; 'usually' + chủ ngữ số nhiều → play.",
+      "Sai — 'is playing' và 'plays' đều dành cho chủ ngữ số ít, trong khi 'The kids' và 'they' là số nhiều."
+    ]
   },
   {
     "id": "en-present-simple-028",
@@ -588,7 +750,13 @@
       "doesn't understand / am asking"
     ],
     "correctIndex": 2,
-    "explanation": "'understand' là state verb nên vẫn ở dạng hiện tại đơn dù đang nói tại thời điểm này: don't understand. Hành động 'right now' dùng hiện tại tiếp diễn: am asking."
+    "explanation": "'understand' là state verb nên vẫn ở dạng hiện tại đơn dù đang nói tại thời điểm này: don't understand. Hành động 'right now' dùng hiện tại tiếp diễn: am asking.",
+    "choiceExplanations": [
+      "Sai — 'understand' là động từ chỉ trạng thái nên không chia tiếp diễn, và vế 'ask' cần tiếp diễn cho 'right now'.",
+      "Sai — vế 'ask' cần tiếp diễn (am asking) vì có 'right now'.",
+      "Đúng — 'understand' giữ hiện tại đơn (don't understand); 'right now' → am asking.",
+      "Sai — 'doesn't' dùng với he/she/it, không dùng với 'I'."
+    ]
   },
   {
     "id": "en-present-simple-029",
@@ -610,7 +778,13 @@
       "leave / leaving"
     ],
     "correctIndex": 1,
-    "explanation": "Lịch trình cố định 'every day' dùng hiện tại đơn, chủ ngữ số ít 'The 6 p.m. bus' thêm -s: leaves. Tình huống ngoại lệ hôm nay 'today' đang diễn ra tạm thời nên dùng hiện tại tiếp diễn: is leaving."
+    "explanation": "Lịch trình cố định 'every day' dùng hiện tại đơn, chủ ngữ số ít 'The 6 p.m. bus' thêm -s: leaves. Tình huống ngoại lệ hôm nay 'today' đang diễn ra tạm thời nên dùng hiện tại tiếp diễn: is leaving.",
+    "choiceExplanations": [
+      "Sai — đảo ngược thì: 'every day' cần hiện tại đơn, còn 'today' (tình huống tạm thời) cần tiếp diễn.",
+      "Đúng — 'every day' → leaves; 'today' do sửa đường → is leaving.",
+      "Sai — 'leaving' thiếu 'is' nên không thành động từ chính của câu.",
+      "Sai — 'leave' thiếu -s với 'The 6 p.m. bus' (số ít), và 'leaving' thiếu 'is'."
+    ]
   },
   {
     "id": "en-present-simple-030",
@@ -631,6 +805,12 @@
       "doesn't copy"
     ],
     "correctIndex": 3,
-    "explanation": "Chủ ngữ 'a good student' số ít nên phủ định dùng 'doesn't' + động từ nguyên thể: doesn't copy. Không thêm -s vào 'copy' để tránh chia kép (double marking)."
+    "explanation": "Chủ ngữ 'a good student' số ít nên phủ định dùng 'doesn't' + động từ nguyên thể: doesn't copy. Không thêm -s vào 'copy' để tránh chia kép (double marking).",
+    "choiceExplanations": [
+      "Sai — thiếu trợ động từ: không thể phủ định động từ thường chỉ bằng 'not'.",
+      "Sai — chia kép: sau 'doesn't', 'copy' giữ nguyên thể, không đổi thành 'copies'.",
+      "Sai — 'don't' không đi với chủ ngữ số ít 'a good student'.",
+      "Đúng — chủ ngữ số ít + doesn't + động từ nguyên thể."
+    ]
   }
 ]

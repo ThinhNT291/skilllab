@@ -84,6 +84,26 @@
             "vi": "Anh ấy lúc nào cũng ngắt lời tôi khi tôi đang cố giải thích điều gì đó."
           }
         ]
+      },
+      {
+        "id": "ps-vs-pc",
+        "level": "A2",
+        "label": "Phân biệt Hiện tại đơn và Hiện tại tiếp diễn",
+        "explanationVi": "Hiện tại đơn nói về thói quen, sự thật, lịch trình và tình trạng lâu dài (dấu hiệu: always, usually, often, every day). Hiện tại tiếp diễn nói về việc đang diễn ra ngay lúc nói hoặc tình huống tạm thời quanh thời điểm này (dấu hiệu: now, right now, at the moment, today, this week, Look!, Listen!). Một câu có thể dùng cả hai thì khi đối chiếu việc 'thường lệ' với việc 'lúc này'. Ngoại lệ quan trọng: động từ chỉ trạng thái (state verbs: know, understand, belong, want, like, love, need, believe, own...) thường KHÔNG dùng ở thì tiếp diễn, kể cả khi nói về lúc này, vẫn dùng hiện tại đơn (I know the answer, KHÔNG phải I am knowing). Cách chọn thì: hỏi 'việc này là thói quen/lâu dài, hay đang xảy ra/tạm thời?', rồi kiểm tra động từ có phải state verb không.",
+        "examples": [
+          {
+            "en": "Tom plays the guitar every evening, but right now he is doing his homework.",
+            "vi": "Tối nào Tom cũng chơi ghi-ta, nhưng ngay lúc này cậu ấy đang làm bài tập."
+          },
+          {
+            "en": "My cousin lives in Hanoi, but this month he is staying with us in Hue.",
+            "vi": "Anh họ tôi sống ở Hà Nội, nhưng tháng này anh ấy đang ở với chúng tôi ở Huế. (tạm thời)"
+          },
+          {
+            "en": "I don't understand this word. Can you explain it?",
+            "vi": "Tôi không hiểu từ này. Bạn giải thích được không? (không nói 'I am not understanding' vì 'understand' là state verb)"
+          }
+        ]
       }
     ],
     "signalWords": [

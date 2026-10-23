@@ -21,7 +21,7 @@ Các quy tắc đã chốt từ quá trình xây bản cũ (rút từ ghi chú �
 ## Thứ tự, nhóm và cấp độ
 - `order` là **thứ tự học thực tế** (nền tảng trước). Mỗi lần thêm chuyên đề phải rà lại `order` của tất cả, không chỉ gắn số cuối.
 - `category`: đúng một trong `tenses` (Thì), `word-classes` (Từ loại), `sentence-structure` (Cấu trúc câu). Thứ tự hiển thị nhóm = `order` nhỏ nhất trong nhóm. Không tự thêm nhóm thứ tư khi chưa bàn.
-- **Nhãn cấp độ (`level`/`levels`) của chuyên đề chỉ để tham khảo nội bộ, không hiển thị cho người học**: một chuyên đề trải nhiều cấp, nhãn một cấp dễ gây hiểu nhầm. Cấp độ có ý nghĩa nằm ở từng câu (`level` của bài tập) và ở các mô tả năng lực (can-do) theo CEFR, làm ở giai đoạn 3 của lộ trình.
+- **Nhãn cấp độ (`level`/`levels`) của chuyên đề chỉ để tham khảo nội bộ, không hiển thị cho người học**: một chuyên đề trải nhiều cấp, nhãn một cấp dễ gây hiểu nhầm. Cấp độ có ý nghĩa nằm ở từng mục dạy và từng câu (`level`, tùy chọn) và ở các mô tả năng lực (can-do) theo CEFR. Chi tiết và phần chưa kiểm chứng: `docs/khung-cefr-vstep.md`.
 
 ## Thẻ (tag)
 - Mỗi mục `usages` có `id` duy nhất toàn hệ thống (bản cũ gọi `tagId`, ví dụ `ps-u1-habits-routines`). Bài tập gắn `usageId` và `tags` (thẻ lỗi). Dùng chung một kho tên, không tách theo module, để sau này gắn cho Nói/Viết.

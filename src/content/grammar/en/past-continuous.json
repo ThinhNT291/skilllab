@@ -84,6 +84,26 @@
             "vi": "Âm nhạc dân gian truyền thống đang trở nên phổ biến hơn với giới trẻ trong thành phố vào thời điểm đó."
           }
         ]
+      },
+      {
+        "id": "past-simple-vs-continuous",
+        "level": "B1",
+        "label": "Phân biệt Quá khứ đơn và Quá khứ tiếp diễn",
+        "explanationVi": "Quá khứ đơn nói về hành động đã hoàn tất, xảy ra một lần hoặc nối tiếp nhau; Quá khứ tiếp diễn nói về hành động đang diễn ra (chưa xong) tại một thời điểm hoặc trong một quãng thời gian trong quá khứ. Khi hai hành động cùng xuất hiện: hành động DÀI, làm nền (đang diễn ra) dùng Quá khứ tiếp diễn; hành động NGẮN, xen vào hoặc xảy ra bất ngờ dùng Quá khứ đơn (When the phone rang, I was cooking). 'While/as' thường đi với hành động đang diễn ra; 'when' đi được với cả hai, tuỳ hành động nào là nền. Hai cách dùng cho nghĩa khác nhau: 'When I walked into the kitchen, she made a cup of tea' (tôi vào rồi cô ấy mới pha trà: hai việc nối tiếp) khác 'When I walked into the kitchen, she was making a cup of tea' (cô ấy đã đang pha trà sẵn). Động từ chỉ trạng thái/giác quan (know, hear, see, understand, like...) thường dùng Quá khứ đơn dù nói về một thời điểm cụ thể (I didn't hear the phone because I was listening to music).",
+        "examples": [
+          {
+            "en": "I was reading in my room when the lights suddenly went out.",
+            "vi": "Tôi đang đọc sách trong phòng thì đèn đột ngột tắt."
+          },
+          {
+            "en": "She read the whole novel last night.",
+            "vi": "Tối qua cô ấy đã đọc hết cả cuốn tiểu thuyết. (hành động hoàn tất → Quá khứ đơn)"
+          },
+          {
+            "en": "At nine o'clock last night, she was reading the novel.",
+            "vi": "Lúc 9 giờ tối qua, cô ấy đang đọc cuốn tiểu thuyết. (đang diễn ra, chưa rõ đã xong chưa → Quá khứ tiếp diễn)"
+          }
+        ]
       }
     ],
     "signalWords": [
