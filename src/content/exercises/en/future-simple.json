@@ -18,7 +18,13 @@
       "am closing"
     ],
     "correctIndex": 0,
-    "explanation": "Đây là quyết định được đưa ra ngay tại thời điểm nói (vừa cảm thấy lạnh nên quyết định đóng cửa sổ), chưa phải kế hoạch có từ trước, nên dùng 'will + V nguyên thể': will close."
+    "explanation": "Đây là quyết định được đưa ra ngay tại thời điểm nói (vừa cảm thấy lạnh nên quyết định đóng cửa sổ), chưa phải kế hoạch có từ trước, nên dùng 'will + V nguyên thể': will close.",
+    "choiceExplanations": [
+      "Đúng — quyết định vừa nảy ra ngay lúc nói (thấy lạnh) → will + động từ nguyên thể: will close.",
+      "Sai — 'close' (hiện tại đơn) không diễn tả quyết định tức thời về việc sắp làm.",
+      "Sai — 'closed' là quá khứ đơn, trong khi việc đóng cửa chưa xảy ra.",
+      "Sai — 'am closing' (hiện tại tiếp diễn) nói về việc đang làm hoặc đã sắp xếp trước; ở đây là quyết định vừa nảy ra."
+    ]
   },
   {
     "id": "en-future-simple-002",
@@ -39,7 +45,13 @@
       "will rain"
     ],
     "correctIndex": 3,
-    "explanation": "Sau 'I think' diễn tả dự đoán dựa trên suy nghĩ cá nhân, ta dùng 'will + V nguyên thể': will rain. 'will rains' sai vì động từ theo sau will luôn ở dạng nguyên thể, không chia."
+    "explanation": "Sau 'I think' diễn tả dự đoán dựa trên suy nghĩ cá nhân, ta dùng 'will + V nguyên thể': will rain. 'will rains' sai vì động từ theo sau will luôn ở dạng nguyên thể, không chia.",
+    "choiceExplanations": [
+      "Sai — 'rains' là hiện tại đơn, không dùng cho dự đoán sau 'I think' về ngày mai.",
+      "Sai — 'is raining' nói việc đang xảy ra hoặc đã sắp xếp, không phải dự đoán chủ quan.",
+      "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
+      "Đúng — 'I think' + dự đoán cá nhân → will rain."
+    ]
   },
   {
     "id": "en-future-simple-003",
@@ -60,7 +72,13 @@
       "am helping"
     ],
     "correctIndex": 2,
-    "explanation": "Đây là lời hứa/đề nghị giúp đỡ ngay tại thời điểm nói, nên dùng 'will help'."
+    "explanation": "Đây là lời hứa/đề nghị giúp đỡ ngay tại thời điểm nói, nên dùng 'will help'.",
+    "choiceExplanations": [
+      "Sai — 'helps' là hiện tại đơn và dành cho ngôi thứ ba, không hợp với 'I'.",
+      "Sai — 'help' (hiện tại đơn) không diễn tả lời đề nghị tức thời.",
+      "Đúng — lời hứa/đề nghị giúp đỡ ngay lúc nói → will help.",
+      "Sai — 'am helping' (tiếp diễn) hợp với việc đã sắp xếp sẵn; ở đây là lời đề nghị tức thời ('Don't worry')."
+    ]
   },
   {
     "id": "en-future-simple-004",
@@ -81,7 +99,13 @@
       "deteriorates"
     ],
     "correctIndex": 1,
-    "explanation": "Đây là hệ quả tất yếu, chắc chắn xảy ra theo quy luật tự nhiên (vật liệu xuống cấp theo thời gian nếu không bảo trì), không phải một lịch trình đã định sẵn, nên dùng 'will deteriorate'."
+    "explanation": "Đây là hệ quả tất yếu, chắc chắn xảy ra theo quy luật tự nhiên (vật liệu xuống cấp theo thời gian nếu không bảo trì), không phải một lịch trình đã định sẵn, nên dùng 'will deteriorate'.",
+    "choiceExplanations": [
+      "Sai — 'is deteriorating' nói việc đang diễn ra ngay lúc này, trong khi câu dự đoán tương lai nếu thiếu bảo trì.",
+      "Đúng — hệ quả tất yếu ở tương lai nếu không bảo trì → will deteriorate.",
+      "Sai — sau 'will' động từ không thêm -s.",
+      "Sai — 'deteriorates' (hiện tại đơn) nêu sự thật hiện tại/lịch trình, không phải dự đoán về 'next few years'."
+    ]
   },
   {
     "id": "en-future-simple-005",
@@ -102,7 +126,13 @@
       "will finish / will go"
     ],
     "correctIndex": 2,
-    "explanation": "Mệnh đề thời gian bắt đầu bằng 'when' không dùng 'will' mà dùng hiện tại đơn: finishes. Mệnh đề chính vẫn dùng 'will': will go."
+    "explanation": "Mệnh đề thời gian bắt đầu bằng 'when' không dùng 'will' mà dùng hiện tại đơn: finishes. Mệnh đề chính vẫn dùng 'will': will go.",
+    "choiceExplanations": [
+      "Sai — mệnh đề thời gian với 'when' không dùng 'will'; vế chính cũng cần 'will go'.",
+      "Sai — vế chính (ý định) cần 'will go', không dùng 'go'.",
+      "Đúng — mệnh đề thời gian (when) dùng hiện tại đơn: finishes; mệnh đề chính dùng will go.",
+      "Sai — mệnh đề thời gian 'when' không dùng 'will finish'; phải dùng hiện tại đơn (finishes)."
+    ]
   },
   {
     "id": "en-future-simple-006",
@@ -123,7 +153,13 @@
       "took"
     ],
     "correctIndex": 2,
-    "explanation": "Đây là quyết định vừa nghĩ ra ngay lúc nói (nhận ra quên ô), chưa có kế hoạch từ trước, nên dùng 'will take'."
+    "explanation": "Đây là quyết định vừa nghĩ ra ngay lúc nói (nhận ra quên ô), chưa có kế hoạch từ trước, nên dùng 'will take'.",
+    "choiceExplanations": [
+      "Sai — 'take' (hiện tại đơn) không diễn tả quyết định tức thời.",
+      "Sai — 'am taking' nói việc đã sắp xếp trước; ở đây vừa quyết định ngay lúc nhận ra quên ô.",
+      "Đúng — quyết định vừa nghĩ ra ngay lúc nói → will take.",
+      "Sai — 'took' là quá khứ, trong khi hành động chưa xảy ra."
+    ]
   },
   {
     "id": "en-future-simple-007",
@@ -144,7 +180,13 @@
       "will passes"
     ],
     "correctIndex": 1,
-    "explanation": "'I'm sure' đi kèm dự đoán dựa trên niềm tin cá nhân, nên dùng 'will pass'. 'will passes' sai vì động từ sau will không chia."
+    "explanation": "'I'm sure' đi kèm dự đoán dựa trên niềm tin cá nhân, nên dùng 'will pass'. 'will passes' sai vì động từ sau will không chia.",
+    "choiceExplanations": [
+      "Sai — 'passes' là hiện tại đơn; 'I'm sure' + dự đoán cần 'will'.",
+      "Đúng — 'I'm sure' + dự đoán dựa trên niềm tin → will pass.",
+      "Sai — 'is passing' (tiếp diễn) nói việc đang xảy ra hoặc đã sắp xếp, không phải dự đoán.",
+      "Sai — sau 'will' động từ không thêm -s."
+    ]
   },
   {
     "id": "en-future-simple-008",
@@ -165,7 +207,13 @@
       "Will / opens"
     ],
     "correctIndex": 2,
-    "explanation": "Đây là câu yêu cầu ai đó làm gì với cấu trúc 'Will you...?': Will đứng đầu câu, theo sau là chủ ngữ và động từ nguyên thể: Will / open."
+    "explanation": "Đây là câu yêu cầu ai đó làm gì với cấu trúc 'Will you...?': Will đứng đầu câu, theo sau là chủ ngữ và động từ nguyên thể: Will / open.",
+    "choiceExplanations": [
+      "Sai — 'Do you open ...?' là hiện tại đơn, hỏi thói quen, không phải lời nhờ.",
+      "Sai — 'Are you opening ...?' hỏi việc đang làm hoặc kế hoạch, không phải lời nhờ lịch sự.",
+      "Đúng — Will you + động từ nguyên thể ...? dùng để nhờ vả.",
+      "Sai — sau 'Will you' động từ giữ nguyên thể, không thêm -s."
+    ]
   },
   {
     "id": "en-future-simple-009",
@@ -186,7 +234,13 @@
       "is dying"
     ],
     "correctIndex": 1,
-    "explanation": "Đây là dự đoán cụ thể về MỘT chậu cây cụ thể trong tình huống hiện tại (không phải chân lý chung cho mọi loại cây), nên dùng 'will die' thay vì hiện tại đơn."
+    "explanation": "Đây là dự đoán cụ thể về MỘT chậu cây cụ thể trong tình huống hiện tại (không phải chân lý chung cho mọi loại cây), nên dùng 'will die' thay vì hiện tại đơn.",
+    "choiceExplanations": [
+      "Sai — 'dies' (hiện tại đơn) hợp với sự thật chung; ở đây là dự đoán về một chậu cây cụ thể trong vài ngày tới.",
+      "Đúng — dự đoán về một chậu cây cụ thể nếu không ai tưới → will die.",
+      "Sai — sau 'will' động từ không thêm -s.",
+      "Sai — 'is dying' nghĩa là đang chết dần ngay lúc này, trong khi câu nêu dự đoán nếu không tưới."
+    ]
   },
   {
     "id": "en-future-simple-010",
@@ -207,7 +261,13 @@
       "will not leave / will approve"
     ],
     "correctIndex": 0,
-    "explanation": "Mệnh đề chính dùng 'will not (won't) leave'; mệnh đề thời gian bắt đầu bằng 'until' dùng hiện tại đơn: approves, không dùng will."
+    "explanation": "Mệnh đề chính dùng 'will not (won't) leave'; mệnh đề thời gian bắt đầu bằng 'until' dùng hiện tại đơn: approves, không dùng will.",
+    "choiceExplanations": [
+      "Đúng — vế chính won't leave; mệnh đề 'until' dùng hiện tại đơn: approves.",
+      "Sai — vế chính cần 'won't leave' (ý định về tương lai), không dùng 'don't leave'.",
+      "Sai — mệnh đề thời gian 'until' không dùng 'will approve'; phải là approves.",
+      "Sai — mệnh đề thời gian 'until' không dùng 'will approve'."
+    ]
   },
   {
     "id": "en-future-simple-011",
@@ -228,7 +288,13 @@
       "go"
     ],
     "correctIndex": 0,
-    "explanation": "B vừa nghe tin và quyết định ngay tại thời điểm nói, chưa hề có kế hoạch từ trước, nên dùng 'will go'."
+    "explanation": "B vừa nghe tin và quyết định ngay tại thời điểm nói, chưa hề có kế hoạch từ trước, nên dùng 'will go'.",
+    "choiceExplanations": [
+      "Đúng — nghe tin và quyết định ngay tại lúc nói → will go.",
+      "Sai — 'am going' cũng nghe tự nhiên khi vừa quyết định đi, nên không sai hẳn, nhưng cách dùng chuẩn cho quyết định tức thời là 'will'.",
+      "Sai — 'went' là quá khứ, trong khi việc đi mua chưa xảy ra.",
+      "Sai — 'go' (hiện tại đơn) không diễn tả quyết định tức thời."
+    ]
   },
   {
     "id": "en-future-simple-012",
@@ -249,7 +315,13 @@
       "is getting"
     ],
     "correctIndex": 1,
-    "explanation": "Sau 'believe' diễn tả dự đoán dựa trên nhận định của giới chuyên gia (quan điểm cá nhân, không phải sự thật hiện tại), nên dùng 'will get'."
+    "explanation": "Sau 'believe' diễn tả dự đoán dựa trên nhận định của giới chuyên gia (quan điểm cá nhân, không phải sự thật hiện tại), nên dùng 'will get'.",
+    "choiceExplanations": [
+      "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
+      "Đúng — 'Experts believe' + dự đoán → will get.",
+      "Sai — 'gets' (hiện tại đơn) nêu sự thật hiện tại, không dự đoán 'over the next ten years'.",
+      "Sai — 'is getting' nói quá trình đang diễn ra hiện nay; 'over the next ten years' là dự đoán tương lai nên cần 'will'."
+    ]
   },
   {
     "id": "en-future-simple-013",
@@ -270,7 +342,13 @@
       "am not telling"
     ],
     "correctIndex": 1,
-    "explanation": "Đây là lời hứa, dùng 'will not (won't) + V nguyên thể': will not tell."
+    "explanation": "Đây là lời hứa, dùng 'will not (won't) + V nguyên thể': will not tell.",
+    "choiceExplanations": [
+      "Sai — sau 'will not' động từ giữ nguyên thể, không thêm -s.",
+      "Đúng — lời hứa → will not tell.",
+      "Sai — 'don't tell' (hiện tại đơn) không diễn tả lời hứa về tương lai.",
+      "Sai — 'am not telling' nghĩa là đang không nói (từ chối ở hiện tại), không phải lời hứa."
+    ]
   },
   {
     "id": "en-future-simple-014",
@@ -291,7 +369,13 @@
       "will fade"
     ],
     "correctIndex": 3,
-    "explanation": "Đây là điều gần như chắc chắn xảy ra theo quy luật tự nhiên (cơ thể tự lành), không do con người lên lịch, nên dùng 'will fade'."
+    "explanation": "Đây là điều gần như chắc chắn xảy ra theo quy luật tự nhiên (cơ thể tự lành), không do con người lên lịch, nên dùng 'will fade'.",
+    "choiceExplanations": [
+      "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
+      "Sai — 'is fading' nói vết sẹo đang mờ đi ngay lúc này, không phải dự đoán 'in about a year'.",
+      "Sai — 'fades' (hiện tại đơn) nêu được quy luật chung nên không sai hẳn ngữ pháp, nhưng câu dự đoán về một vết sẹo cụ thể trong một năm tới dùng 'will'.",
+      "Đúng — điều gần như chắc chắn theo quy luật tự nhiên → will fade."
+    ]
   },
   {
     "id": "en-future-simple-015",
@@ -312,7 +396,13 @@
       "get / send"
     ],
     "correctIndex": 1,
-    "explanation": "Mệnh đề thời gian với 'as soon as' dùng hiện tại đơn: get. Mệnh đề chính dùng 'will': will send."
+    "explanation": "Mệnh đề thời gian với 'as soon as' dùng hiện tại đơn: get. Mệnh đề chính dùng 'will': will send.",
+    "choiceExplanations": [
+      "Sai — mệnh đề thời gian 'as soon as' không dùng 'will get'; vế chính cần 'will send'.",
+      "Đúng — mệnh đề thời gian dùng hiện tại đơn: get; mệnh đề chính dùng will send.",
+      "Sai — 'will get' sai trong mệnh đề thời gian 'as soon as'.",
+      "Sai — vế chính (lời hứa/ý định) cần 'will send', không dùng 'send'."
+    ]
   },
   {
     "id": "en-future-simple-016",
@@ -333,7 +423,13 @@
       "am carrying"
     ],
     "correctIndex": 0,
-    "explanation": "Người nói vừa nhìn thấy tình huống và quyết định giúp ngay lúc đó, chưa có kế hoạch từ trước, nên dùng 'will carry'."
+    "explanation": "Người nói vừa nhìn thấy tình huống và quyết định giúp ngay lúc đó, chưa có kế hoạch từ trước, nên dùng 'will carry'.",
+    "choiceExplanations": [
+      "Đúng — quyết định vừa nảy ra khi thấy hộp nặng → will carry.",
+      "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
+      "Sai — 'carry' (hiện tại đơn) không diễn tả quyết định tức thời.",
+      "Sai — 'am carrying' nghĩa là đang mang hoặc đã sắp xếp trước; ở đây là quyết định vừa nảy ra."
+    ]
   },
   {
     "id": "en-future-simple-017",
@@ -354,7 +450,13 @@
       "agree"
     ],
     "correctIndex": 0,
-    "explanation": "'Perhaps' đi kèm dự đoán mang tính suy đoán cá nhân, chưa chắc chắn, nên dùng 'will agree'."
+    "explanation": "'Perhaps' đi kèm dự đoán mang tính suy đoán cá nhân, chưa chắc chắn, nên dùng 'will agree'.",
+    "choiceExplanations": [
+      "Đúng — 'Perhaps' + suy đoán cá nhân → will agree.",
+      "Sai — 'are agreeing' (tiếp diễn) nói việc đang diễn ra hoặc đã sắp xếp.",
+      "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
+      "Sai — 'agree' (hiện tại đơn) không diễn tả dự đoán về tương lai."
+    ]
   },
   {
     "id": "en-future-simple-018",
@@ -375,7 +477,13 @@
       "Do / turn"
     ],
     "correctIndex": 1,
-    "explanation": "Đây là câu yêu cầu lịch sự với cấu trúc 'Will you...?' - will đứng đầu câu trước chủ ngữ, động từ theo sau giữ nguyên thể: Will / turn."
+    "explanation": "Đây là câu yêu cầu lịch sự với cấu trúc 'Will you...?' - will đứng đầu câu trước chủ ngữ, động từ theo sau giữ nguyên thể: Will / turn.",
+    "choiceExplanations": [
+      "Sai — sau 'Will you' động từ giữ nguyên thể (turn), không thêm -s.",
+      "Đúng — Will you + động từ nguyên thể ...? → lời nhờ lịch sự.",
+      "Sai — 'Are you turning ...?' hỏi việc đang làm, không phải lời nhờ.",
+      "Sai — 'Do you turn ...?' hỏi thói quen, không phải lời nhờ."
+    ]
   },
   {
     "id": "en-future-simple-019",
@@ -396,7 +504,13 @@
       "doubles"
     ],
     "correctIndex": 2,
-    "explanation": "Đây là dự đoán về xu hướng tất yếu theo quy luật phát triển dân số, không do ai lên lịch cố định, nên dùng 'will double'."
+    "explanation": "Đây là dự đoán về xu hướng tất yếu theo quy luật phát triển dân số, không do ai lên lịch cố định, nên dùng 'will double'.",
+    "choiceExplanations": [
+      "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
+      "Sai — 'is doubling' nói quá trình đang diễn ra, trong khi câu dự đoán 'within twenty years'.",
+      "Đúng — dự đoán về xu hướng tất yếu → will double.",
+      "Sai — 'doubles' (hiện tại đơn) không dự đoán về tương lai."
+    ]
   },
   {
     "id": "en-future-simple-020",
@@ -417,7 +531,13 @@
       "will not understand / will practise"
     ],
     "correctIndex": 0,
-    "explanation": "Mệnh đề chính dùng 'will not (won't) understand'; mệnh đề thời gian với 'until' dùng hiện tại đơn: practise, không dùng will."
+    "explanation": "Mệnh đề chính dùng 'will not (won't) understand'; mệnh đề thời gian với 'until' dùng hiện tại đơn: practise, không dùng will.",
+    "choiceExplanations": [
+      "Đúng — vế chính won't understand; mệnh đề 'until' dùng hiện tại đơn: practise.",
+      "Sai — mệnh đề 'until' không dùng 'will practise'.",
+      "Sai — vế chính cần 'won't understand' (dự đoán về tương lai), không dùng 'don't understand'.",
+      "Sai — mệnh đề 'until' không dùng 'will practise'."
+    ]
   },
   {
     "id": "en-future-simple-021",
@@ -438,7 +558,13 @@
       "will arrive / will still prepare"
     ],
     "correctIndex": 1,
-    "explanation": "Mệnh đề thời gian với 'by the time' dùng hiện tại đơn: arrive. Mệnh đề chính dùng 'will' + trạng từ 'still' diễn tả hành động vẫn đang tiếp diễn tại mốc đó: will still prepare."
+    "explanation": "Mệnh đề thời gian với 'by the time' dùng hiện tại đơn: arrive. Mệnh đề chính dùng 'will' + trạng từ 'still' diễn tả hành động vẫn đang tiếp diễn tại mốc đó: will still prepare.",
+    "choiceExplanations": [
+      "Sai — mệnh đề 'by the time' không dùng 'will arrive'; vế chính cũng cần 'will still prepare'.",
+      "Đúng — mệnh đề thời gian dùng hiện tại đơn: arrive; vế chính dùng 'will' + still. (Cách nói tự nhiên hơn là 'will still be preparing', nhưng trong các lựa chọn này chỉ đáp án này đúng quy tắc mệnh đề thời gian.)",
+      "Sai — vế chính cần 'will' để nói việc vẫn đang diễn ra tại mốc tương lai đó.",
+      "Sai — 'will arrive' sai trong mệnh đề 'by the time'."
+    ]
   },
   {
     "id": "en-future-simple-022",
@@ -459,7 +585,13 @@
       "retires / will graduate"
     ],
     "correctIndex": 2,
-    "explanation": "Mệnh đề chính (ý định của bố) dùng 'will retire'; mệnh đề thời gian với 'as soon as' dùng hiện tại đơn: graduates, không dùng will."
+    "explanation": "Mệnh đề chính (ý định của bố) dùng 'will retire'; mệnh đề thời gian với 'as soon as' dùng hiện tại đơn: graduates, không dùng will.",
+    "choiceExplanations": [
+      "Sai — mệnh đề 'as soon as' không dùng 'will graduate'.",
+      "Sai — vế chính nêu ý định tương lai nên cần 'will retire'.",
+      "Đúng — vế chính will retire; mệnh đề 'as soon as' dùng hiện tại đơn: graduates.",
+      "Sai — hai vế đặt ngược: vế chính cần 'will', mệnh đề thời gian dùng hiện tại đơn."
+    ]
   },
   {
     "id": "en-future-simple-023",
@@ -480,7 +612,13 @@
       "sign / will need"
     ],
     "correctIndex": 3,
-    "explanation": "Mệnh đề thời gian với 'before' dùng hiện tại đơn: sign. Mệnh đề chính dùng 'will': will need."
+    "explanation": "Mệnh đề thời gian với 'before' dùng hiện tại đơn: sign. Mệnh đề chính dùng 'will': will need.",
+    "choiceExplanations": [
+      "Sai — mệnh đề 'before' không dùng 'will sign'.",
+      "Sai — 'need' (hiện tại đơn) vẫn nói được lời dặn chung nên không sai hẳn, nhưng bài luyện cấu trúc 'will' ở vế chính sau mệnh đề thời gian.",
+      "Sai — 'will sign' sai trong mệnh đề thời gian 'before'.",
+      "Đúng — 'before' + hiện tại đơn (sign); vế chính dùng will need."
+    ]
   },
   {
     "id": "en-future-simple-024",
@@ -501,7 +639,13 @@
       "won't start / is"
     ],
     "correctIndex": 3,
-    "explanation": "Mệnh đề chính dùng 'will not (won't) start'; mệnh đề thời gian với 'until' dùng hiện tại đơn của 'to be': is, không dùng will be."
+    "explanation": "Mệnh đề chính dùng 'will not (won't) start'; mệnh đề thời gian với 'until' dùng hiện tại đơn của 'to be': is, không dùng will be.",
+    "choiceExplanations": [
+      "Sai — 'don't start' nêu được quy tắc chung nên không sai hẳn, nhưng câu nói về cuộc họp sắp tới nên dùng 'won't start'.",
+      "Sai — mệnh đề 'until' không dùng 'will be'.",
+      "Sai — mệnh đề 'until' không dùng 'will be'; phải là 'is'.",
+      "Đúng — vế chính won't start; mệnh đề 'until' dùng hiện tại đơn của 'be': is."
+    ]
   },
   {
     "id": "en-future-simple-025",
@@ -522,7 +666,13 @@
       "improves / will continue"
     ],
     "correctIndex": 3,
-    "explanation": "Mệnh đề thời gian với 'as soon as' dùng hiện tại đơn: improves. Mệnh đề chính dùng 'will': will continue."
+    "explanation": "Mệnh đề thời gian với 'as soon as' dùng hiện tại đơn: improves. Mệnh đề chính dùng 'will': will continue.",
+    "choiceExplanations": [
+      "Sai — vế chính cần 'will continue' (tương lai).",
+      "Sai — mệnh đề 'as soon as' không dùng 'will improve'.",
+      "Sai — 'will improve' sai trong mệnh đề thời gian, và vế chính cũng cần 'will continue'.",
+      "Đúng — mệnh đề thời gian dùng hiện tại đơn: improves; vế chính dùng will continue."
+    ]
   },
   {
     "id": "en-future-simple-026",
@@ -544,7 +694,13 @@
       "will visit / is"
     ],
     "correctIndex": 0,
-    "explanation": "Mệnh đề thời gian với 'when' chỉ tương lai dùng hiện tại đơn: visit. Mệnh đề chính mang ý dự đoán ('probably') dùng 'will': will be."
+    "explanation": "Mệnh đề thời gian với 'when' chỉ tương lai dùng hiện tại đơn: visit. Mệnh đề chính mang ý dự đoán ('probably') dùng 'will': will be.",
+    "choiceExplanations": [
+      "Đúng — 'when' + hiện tại đơn (visit); 'probably' + dự đoán → will be.",
+      "Sai — mệnh đề 'when' không dùng 'will visit'.",
+      "Sai — vế chính có 'probably' (dự đoán tương lai) nên cần 'will be', không dùng 'is'.",
+      "Sai — 'will visit' sai trong mệnh đề thời gian, và vế chính cần 'will be'."
+    ]
   },
   {
     "id": "en-future-simple-027",
@@ -565,7 +721,13 @@
       "will drive"
     ],
     "correctIndex": 3,
-    "explanation": "Cụm 'I didn't plan this at all' khẳng định đây là quyết định vừa được đưa ra tại thời điểm nói, không phải kế hoạch có từ trước, nên dùng 'will drive' (không dùng 'be going to')."
+    "explanation": "Cụm 'I didn't plan this at all' khẳng định đây là quyết định vừa được đưa ra tại thời điểm nói, không phải kế hoạch có từ trước, nên dùng 'will drive' (không dùng 'be going to').",
+    "choiceExplanations": [
+      "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
+      "Sai — 'drive' (hiện tại đơn) không diễn tả quyết định tức thời.",
+      "Sai — 'am driving' nói kế hoạch đã sắp xếp; câu có 'I didn't plan this at all' nên đây là quyết định tức thời.",
+      "Đúng — quyết định vừa đưa ra ngay lúc nói → will drive."
+    ]
   },
   {
     "id": "en-future-simple-028",
@@ -586,7 +748,13 @@
       "changes"
     ],
     "correctIndex": 2,
-    "explanation": "Đây là quan điểm cá nhân về tương lai (sau 'I don't think'), không dựa trên bằng chứng rõ ràng ở hiện tại, nên dùng 'will change'. 'will changes' sai vì will không chia theo chủ ngữ."
+    "explanation": "Đây là quan điểm cá nhân về tương lai (sau 'I don't think'), không dựa trên bằng chứng rõ ràng ở hiện tại, nên dùng 'will change'. 'will changes' sai vì will không chia theo chủ ngữ.",
+    "choiceExplanations": [
+      "Sai — 'is changing' nói việc đang diễn ra, không phải quan điểm về tương lai sau 'I don't think'.",
+      "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
+      "Đúng — quan điểm cá nhân về tương lai → will change.",
+      "Sai — 'changes' (hiện tại đơn) không diễn tả dự đoán."
+    ]
   },
   {
     "id": "en-future-simple-029",
@@ -607,7 +775,13 @@
       "will help"
     ],
     "correctIndex": 3,
-    "explanation": "Đây là lời đề nghị giúp đỡ được đưa ra ngay trong lúc nói chuyện (offer), nên dùng 'will help'."
+    "explanation": "Đây là lời đề nghị giúp đỡ được đưa ra ngay trong lúc nói chuyện (offer), nên dùng 'will help'.",
+    "choiceExplanations": [
+      "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
+      "Sai — 'am helping' hợp với việc đã sắp xếp hoặc đang làm; đây là lời đề nghị tức thời.",
+      "Sai — 'help' (hiện tại đơn) không diễn tả lời đề nghị.",
+      "Đúng — lời đề nghị giúp đỡ ngay trong lúc nói → will help."
+    ]
   },
   {
     "id": "en-future-simple-030",
@@ -628,6 +802,12 @@
       "will rusts"
     ],
     "correctIndex": 0,
-    "explanation": "Đây là quy luật tự nhiên tất yếu (kim loại sẽ rỉ sét theo thời gian nếu không được bảo vệ), không phải một sự kiện đã được tính toán/lên lịch trước, nên dùng 'will rust'."
+    "explanation": "Đây là quy luật tự nhiên tất yếu (kim loại sẽ rỉ sét theo thời gian nếu không được bảo vệ), không phải một sự kiện đã được tính toán/lên lịch trước, nên dùng 'will rust'.",
+    "choiceExplanations": [
+      "Đúng — dự đoán tất yếu về một cây cầu cụ thể nếu không được bảo vệ → will rust.",
+      "Sai — 'is rusting' nói đang rỉ ngay lúc này.",
+      "Sai — 'rusts' (hiện tại đơn) nêu được quy luật chung nên không sai hẳn ngữ pháp, nhưng câu nói về một cây cầu cụ thể trong tương lai có điều kiện nên dùng 'will'.",
+      "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s."
+    ]
   }
 ]

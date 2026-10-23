@@ -18,7 +18,13 @@
       "whom"
     ],
     "correctIndex": 2,
-    "explanation": "Chỗ trống cần một đại từ quan hệ chỉ người (The woman) và đóng vai trò làm chủ ngữ cho động từ 'is standing'. Do đó, ta chọn 'who'."
+    "explanation": "Chỗ trống cần một đại từ quan hệ chỉ người (The woman) và đóng vai trò làm chủ ngữ cho động từ 'is standing'. Do đó, ta chọn 'who'.",
+    "choiceExplanations": [
+      "Sai — 'which' dùng cho vật, trong khi 'The woman' chỉ người.",
+      "Sai — 'whose' chỉ sự sở hữu và phải đi kèm danh từ, ở đây theo sau là động từ.",
+      "Đúng — 'The woman' (người) làm chủ ngữ của 'is standing' → who.",
+      "Sai — 'whom' làm tân ngữ; ở đây chỗ trống là chủ ngữ của 'is standing'."
+    ]
   },
   {
     "id": "en-relative-clauses-002",
@@ -39,7 +45,13 @@
       "whom"
     ],
     "correctIndex": 2,
-    "explanation": "Danh từ đứng trước là 'a laptop' (chỉ vật) nên đại từ quan hệ thay thế phải là 'which' (hoặc 'that'). Ở đây 'which' làm chủ ngữ cho động từ 'has'."
+    "explanation": "Danh từ đứng trước là 'a laptop' (chỉ vật) nên đại từ quan hệ thay thế phải là 'which' (hoặc 'that'). Ở đây 'which' làm chủ ngữ cho động từ 'has'.",
+    "choiceExplanations": [
+      "Sai — 'who' dùng cho người, trong khi 'a laptop' là vật.",
+      "Sai — 'where' dùng cho nơi chốn, không thay cho chủ ngữ 'a laptop'.",
+      "Đúng — 'a laptop' (vật) làm chủ ngữ của 'has' → which.",
+      "Sai — 'whom' dùng cho người và làm tân ngữ."
+    ]
   },
   {
     "id": "en-relative-clauses-003",
@@ -60,7 +72,13 @@
       "who"
     ],
     "correctIndex": 0,
-    "explanation": "Ngay sau chỗ trống là một danh từ (brother), mang ý nghĩa sở hữu 'anh trai của người bạn đó'. Ta bắt buộc dùng 'whose' để nối sự sở hữu này."
+    "explanation": "Ngay sau chỗ trống là một danh từ (brother), mang ý nghĩa sở hữu 'anh trai của người bạn đó'. Ta bắt buộc dùng 'whose' để nối sự sở hữu này.",
+    "choiceExplanations": [
+      "Đúng — 'whose' + danh từ (brother) chỉ sự sở hữu: anh trai của người bạn đó.",
+      "Sai — 'whom' làm tân ngữ và không đi với danh từ sở hữu 'brother'.",
+      "Sai — 'that' không dùng để chỉ sở hữu; cần 'whose' trước 'brother'.",
+      "Sai — 'who' làm chủ ngữ, không chỉ sự sở hữu."
+    ]
   },
   {
     "id": "en-relative-clauses-004",
@@ -81,7 +99,13 @@
       "whom"
     ],
     "correctIndex": 1,
-    "explanation": "Câu này ám chỉ địa điểm (the restaurant) mà hành động 'celebrated' đã xảy ra tại đó. 'Where' đóng vai trò là trạng từ chỉ nơi chốn (bằng 'in/at which')."
+    "explanation": "Câu này ám chỉ địa điểm (the restaurant) mà hành động 'celebrated' đã xảy ra tại đó. 'Where' đóng vai trò là trạng từ chỉ nơi chốn (bằng 'in/at which').",
+    "choiceExplanations": [
+      "Sai — 'when' dùng cho thời gian, trong khi 'the restaurant' là nơi chốn.",
+      "Đúng — 'the restaurant' chỉ nơi chốn → where (= at which).",
+      "Sai — 'which' làm chủ ngữ/tân ngữ; ở đây cần trạng từ chỉ nơi chốn.",
+      "Sai — 'whom' dùng cho người."
+    ]
   },
   {
     "id": "en-relative-clauses-005",
@@ -102,7 +126,13 @@
       "which"
     ],
     "correctIndex": 1,
-    "explanation": "Danh từ đứng trước là 'the season' chỉ thời gian, do đó trạng từ quan hệ phù hợp nhất là 'when'."
+    "explanation": "Danh từ đứng trước là 'the season' chỉ thời gian, do đó trạng từ quan hệ phù hợp nhất là 'when'.",
+    "choiceExplanations": [
+      "Sai — 'where' dùng cho nơi chốn, trong khi 'the season' chỉ thời gian.",
+      "Đúng — 'the season' chỉ thời gian → when.",
+      "Sai — 'why' đi với 'the reason'.",
+      "Sai — 'which' làm chủ ngữ/tân ngữ; ở đây cần trạng từ chỉ thời gian."
+    ]
   },
   {
     "id": "en-relative-clauses-006",
@@ -123,7 +153,13 @@
       "who"
     ],
     "correctIndex": 0,
-    "explanation": "Giới từ (to, for, with...) trong tiếng Anh chuẩn không bao giờ đứng ngay trước 'who' hay 'that'. Ta bắt buộc dùng 'whom' cho người khi đứng ngay sau một giới từ."
+    "explanation": "Giới từ (to, for, with...) trong tiếng Anh chuẩn không bao giờ đứng ngay trước 'who' hay 'that'. Ta bắt buộc dùng 'whom' cho người khi đứng ngay sau một giới từ.",
+    "choiceExplanations": [
+      "Đúng — sau giới từ 'to' và chỉ người, dùng 'whom'.",
+      "Sai — 'whose' chỉ sở hữu, không đứng sau giới từ 'to' ở nghĩa này.",
+      "Sai — 'that' không đứng ngay sau giới từ.",
+      "Sai — 'who' không đứng ngay sau giới từ; dùng 'whom'."
+    ]
   },
   {
     "id": "en-relative-clauses-007",
@@ -145,7 +181,13 @@
       "that"
     ],
     "correctIndex": 2,
-    "explanation": "Đây là mệnh đề quan hệ không xác định (có dấu phẩy), bổ nghĩa cho vật 'My latest smartphone'. Tuyệt đối không dùng 'that' sau dấu phẩy, nên 'which' là đáp án duy nhất."
+    "explanation": "Đây là mệnh đề quan hệ không xác định (có dấu phẩy), bổ nghĩa cho vật 'My latest smartphone'. Tuyệt đối không dùng 'that' sau dấu phẩy, nên 'which' là đáp án duy nhất.",
+    "choiceExplanations": [
+      "Sai — 'what' không dùng làm đại từ quan hệ bổ nghĩa cho danh từ đứng trước.",
+      "Sai — 'it' là đại từ nhân xưng, tạo thừa chủ ngữ trong mệnh đề quan hệ.",
+      "Đúng — mệnh đề không xác định (có dấu phẩy) chỉ vật → which.",
+      "Sai — 'that' không dùng sau dấu phẩy."
+    ]
   },
   {
     "id": "en-relative-clauses-008",
@@ -166,7 +208,13 @@
       "who"
     ],
     "correctIndex": 1,
-    "explanation": "Sau các đại từ bất định (everything, nothing, something, all, much, little...), tiếng Anh chuẩn BẮT BUỘC dùng đại từ quan hệ 'that', không dùng 'which'."
+    "explanation": "Sau các đại từ bất định (everything, nothing, something, all, much, little...), tiếng Anh chuẩn BẮT BUỘC dùng đại từ quan hệ 'that', không dùng 'which'.",
+    "choiceExplanations": [
+      "Sai — sau 'everything' tiếng Anh chuẩn ưu tiên 'that'; 'which' ít dùng hơn nên không phù hợp với quy tắc bài học.",
+      "Đúng — sau đại từ bất định như 'everything' dùng 'that'.",
+      "Sai — 'what' không đi sau 'everything' (đã có danh từ/đại từ đứng trước).",
+      "Sai — 'who' dùng cho người."
+    ]
   },
   {
     "id": "en-relative-clauses-009",
@@ -187,7 +235,13 @@
       "why"
     ],
     "correctIndex": 3,
-    "explanation": "Danh từ đứng trước là 'reason' (lý do). Trạng từ quan hệ chuyên đi kèm để giải thích cho the reason là 'why' (= for which)."
+    "explanation": "Danh từ đứng trước là 'reason' (lý do). Trạng từ quan hệ chuyên đi kèm để giải thích cho the reason là 'why' (= for which).",
+    "choiceExplanations": [
+      "Sai — 'which' không đi với 'reason' mà không có giới từ ('the reason for which' mới đúng).",
+      "Sai — 'where' dùng cho nơi chốn.",
+      "Sai — 'when' dùng cho thời gian.",
+      "Đúng — 'the reason' đi với trạng từ quan hệ 'why' (= for which)."
+    ]
   },
   {
     "id": "en-relative-clauses-010",
@@ -208,7 +262,13 @@
       "which"
     ],
     "correctIndex": 2,
-    "explanation": "Từ 'stay' yêu cầu giới từ chỉ nơi chốn (stay at/in a hotel). Khi đưa đại từ lên nối câu, ta có thể dùng 'where' hoặc 'giới từ + which'. Vì không có 'where' đứng một mình, 'at which' là đáp án đúng."
+    "explanation": "Từ 'stay' yêu cầu giới từ chỉ nơi chốn (stay at/in a hotel). Khi đưa đại từ lên nối câu, ta có thể dùng 'where' hoặc 'giới từ + which'. Vì không có 'where' đứng một mình, 'at which' là đáp án đúng.",
+    "choiceExplanations": [
+      "Sai — 'in where' không đúng cấu trúc: 'where' đã có nghĩa giới từ + which.",
+      "Sai — 'that' không đi sau giới từ và thiếu giới từ 'at', nên 'stayed' thiếu giới từ.",
+      "Đúng — 'stay at' + which → 'at which' (hoặc dùng 'where').",
+      "Sai — 'which' đứng một mình thiếu giới từ 'at' sau 'stayed'."
+    ]
   },
   {
     "id": "en-relative-clauses-011",
@@ -229,7 +289,13 @@
       "stood"
     ],
     "correctIndex": 1,
-    "explanation": "Đây là dạng rút gọn mệnh đề quan hệ mang nghĩa chủ động (the girl who is standing). Ta bỏ đại từ quan hệ và động từ to be, biến động từ chính thành dạng V-ing: 'standing'."
+    "explanation": "Đây là dạng rút gọn mệnh đề quan hệ mang nghĩa chủ động (the girl who is standing). Ta bỏ đại từ quan hệ và động từ to be, biến động từ chính thành dạng V-ing: 'standing'.",
+    "choiceExplanations": [
+      "Sai — 'who stand' sai chia động từ ('The girl who stands') và không phải dạng rút gọn.",
+      "Đúng — rút gọn mệnh đề chủ động: who is standing → standing.",
+      "Sai — 'is standing' làm câu có hai động từ chia liền nhau ('The girl is standing ... is waiting').",
+      "Sai — 'stood' (quá khứ) không phải dạng rút gọn chủ động và sai thì."
+    ]
   },
   {
     "id": "en-relative-clauses-012",
@@ -250,7 +316,13 @@
       "building"
     ],
     "correctIndex": 2,
-    "explanation": "Đây là dạng rút gọn mệnh đề quan hệ bị động (the bridge which was built). Ta bỏ đại từ quan hệ và to be, giữ lại phân từ hai V3/ed là 'built'."
+    "explanation": "Đây là dạng rút gọn mệnh đề quan hệ bị động (the bridge which was built). Ta bỏ đại từ quan hệ và to be, giữ lại phân từ hai V3/ed là 'built'.",
+    "choiceExplanations": [
+      "Sai — 'to build' dùng cho rút gọn với số thứ tự/cực cấp, không hợp nghĩa bị động ở đây.",
+      "Sai — 'was built' làm câu có hai động từ chia liền nhau ('The ancient bridge was built ... is being repaired').",
+      "Đúng — rút gọn mệnh đề bị động: which was built → built.",
+      "Sai — 'building' mang nghĩa chủ động, trong khi cây cầu được xây."
+    ]
   },
   {
     "id": "en-relative-clauses-013",
@@ -271,7 +343,13 @@
       "to set"
     ],
     "correctIndex": 3,
-    "explanation": "Khi danh từ đứng trước có chứa số thứ tự (the first, the second, the last) hoặc cực cấp (the only), mệnh đề quan hệ rút gọn được chuyển thành dạng 'to + V'."
+    "explanation": "Khi danh từ đứng trước có chứa số thứ tự (the first, the second, the last) hoặc cực cấp (the only), mệnh đề quan hệ rút gọn được chuyển thành dạng 'to + V'.",
+    "choiceExplanations": [
+      "Sai — 'who setting' không đúng cấu trúc (phải có động từ chia hoặc dạng rút gọn đầy đủ).",
+      "Sai — 'set' không phải dạng rút gọn đúng sau 'the first person'.",
+      "Sai — 'setting' không dùng sau số thứ tự 'the first'; dạng rút gọn đúng là 'to + V'.",
+      "Đúng — sau 'the first/the last/the only' rút gọn bằng 'to + V': to set."
+    ]
   },
   {
     "id": "en-relative-clauses-014",
@@ -293,7 +371,13 @@
       "it"
     ],
     "correctIndex": 1,
-    "explanation": "Đại từ 'which' ở đây không thay thế cho một danh từ mà thay thế cho toàn bộ sự việc ở mệnh đề phía trước (việc anh ấy hoàn thành dự án). Mệnh đề này luôn có dấu phẩy đứng trước."
+    "explanation": "Đại từ 'which' ở đây không thay thế cho một danh từ mà thay thế cho toàn bộ sự việc ở mệnh đề phía trước (việc anh ấy hoàn thành dự án). Mệnh đề này luôn có dấu phẩy đứng trước.",
+    "choiceExplanations": [
+      "Sai — 'that' không dùng sau dấu phẩy và không thay cho cả mệnh đề trước.",
+      "Đúng — 'which' (sau dấu phẩy) thay cho cả mệnh đề trước: việc hoàn thành dự án.",
+      "Sai — 'what' không dùng làm đại từ quan hệ trong trường hợp này.",
+      "Sai — 'it' không nối được hai mệnh đề (thiếu liên từ/đại từ quan hệ)."
+    ]
   },
   {
     "id": "en-relative-clauses-015",
@@ -314,7 +398,13 @@
       "whose"
     ],
     "correctIndex": 3,
-    "explanation": "Cần đại từ biểu thị sự sở hữu cho 'research' (nghiên cứu CỦA những nhà khoa học đó). 'Whose' là đáp án đúng. Tránh nhầm lẫn với 'Who's' (là dạng viết tắt của who is / who has)."
+    "explanation": "Cần đại từ biểu thị sự sở hữu cho 'research' (nghiên cứu CỦA những nhà khoa học đó). 'Whose' là đáp án đúng. Tránh nhầm lẫn với 'Who's' (là dạng viết tắt của who is / who has).",
+    "choiceExplanations": [
+      "Sai — 'who's' là 'who is/has', không chỉ sở hữu.",
+      "Sai — 'that's' là 'that is/has', không chỉ sở hữu.",
+      "Sai — 'whom' làm tân ngữ và không chỉ sở hữu 'research'.",
+      "Đúng — 'whose' + danh từ (research): nghiên cứu của các nhà khoa học đó."
+    ]
   },
   {
     "id": "en-relative-clauses-016",
@@ -335,7 +425,13 @@
       "which"
     ],
     "correctIndex": 1,
-    "explanation": "Đại từ quan hệ 'who' dùng để thay thế cho danh từ chỉ người (The mechanic) và làm chủ ngữ trong mệnh đề quan hệ."
+    "explanation": "Đại từ quan hệ 'who' dùng để thay thế cho danh từ chỉ người (The mechanic) và làm chủ ngữ trong mệnh đề quan hệ.",
+    "choiceExplanations": [
+      "Sai — 'whose' chỉ sự sở hữu, trong khi sau chỗ trống là động từ 'fixed'.",
+      "Đúng — 'The mechanic' (người) làm chủ ngữ của 'fixed' → who.",
+      "Sai — 'whom' làm tân ngữ, không làm chủ ngữ.",
+      "Sai — 'which' dùng cho vật."
+    ]
   },
   {
     "id": "en-relative-clauses-017",
@@ -356,7 +452,13 @@
       "whose"
     ],
     "correctIndex": 0,
-    "explanation": "Đại từ 'which' dùng để thay thế cho danh từ chỉ vật (the watch) và làm tân ngữ trong mệnh đề quan hệ."
+    "explanation": "Đại từ 'which' dùng để thay thế cho danh từ chỉ vật (the watch) và làm tân ngữ trong mệnh đề quan hệ.",
+    "choiceExplanations": [
+      "Đúng — 'the watch' (vật) làm tân ngữ của 'gave' → which.",
+      "Sai — 'who' dùng cho người.",
+      "Sai — 'whom' dùng cho người.",
+      "Sai — 'whose' chỉ sở hữu và phải đi kèm danh từ."
+    ]
   },
   {
     "id": "en-relative-clauses-018",
@@ -377,7 +479,13 @@
       "whom"
     ],
     "correctIndex": 3,
-    "explanation": "Sau giới từ (ở đây là 'to'), bắt buộc phải dùng đại từ quan hệ 'whom' để chỉ người, không được dùng 'who' hay 'that'."
+    "explanation": "Sau giới từ (ở đây là 'to'), bắt buộc phải dùng đại từ quan hệ 'whom' để chỉ người, không được dùng 'who' hay 'that'.",
+    "choiceExplanations": [
+      "Sai — 'who' không đứng ngay sau giới từ 'to'.",
+      "Sai — 'whose' chỉ sở hữu, không dùng sau giới từ 'to' với nghĩa này.",
+      "Sai — 'that' không đứng ngay sau giới từ.",
+      "Đúng — sau giới từ 'to' và chỉ người, dùng 'whom'."
+    ]
   },
   {
     "id": "en-relative-clauses-019",
@@ -398,7 +506,13 @@
       "who"
     ],
     "correctIndex": 0,
-    "explanation": "Đại từ 'whose' dùng để chỉ sự sở hữu (mẹ của người bạn đó). Đứng ngay sau 'whose' luôn là một danh từ."
+    "explanation": "Đại từ 'whose' dùng để chỉ sự sở hữu (mẹ của người bạn đó). Đứng ngay sau 'whose' luôn là một danh từ.",
+    "choiceExplanations": [
+      "Đúng — 'whose' + danh từ (mother): mẹ của người bạn đó.",
+      "Sai — 'whom' không đi với danh từ sở hữu 'mother'.",
+      "Sai — 'that' không chỉ sở hữu.",
+      "Sai — 'who' không chỉ sở hữu."
+    ]
   },
   {
     "id": "en-relative-clauses-020",
@@ -419,7 +533,13 @@
       "whose"
     ],
     "correctIndex": 0,
-    "explanation": "Đại từ 'that' dùng để thay thế cho danh từ chỉ vật (The cookies) trong mệnh đề quan hệ xác định."
+    "explanation": "Đại từ 'that' dùng để thay thế cho danh từ chỉ vật (The cookies) trong mệnh đề quan hệ xác định.",
+    "choiceExplanations": [
+      "Đúng — 'The cookies' (vật) làm tân ngữ của 'baked' trong mệnh đề xác định → that.",
+      "Sai — 'whom' dùng cho người.",
+      "Sai — 'who' dùng cho người.",
+      "Sai — 'whose' chỉ sở hữu và phải đi kèm danh từ."
+    ]
   },
   {
     "id": "en-relative-clauses-021",
@@ -440,7 +560,13 @@
       "which"
     ],
     "correctIndex": 0,
-    "explanation": "Trạng từ quan hệ 'where' dùng để thay thế cho cụm từ chỉ nơi chốn (the town), mang nghĩa là 'nơi mà'."
+    "explanation": "Trạng từ quan hệ 'where' dùng để thay thế cho cụm từ chỉ nơi chốn (the town), mang nghĩa là 'nơi mà'.",
+    "choiceExplanations": [
+      "Đúng — 'the town' (nơi chốn) → where.",
+      "Sai — 'when' dùng cho thời gian.",
+      "Sai — 'why' đi với 'the reason'.",
+      "Sai — 'which' làm chủ ngữ/tân ngữ; ở đây cần trạng từ chỉ nơi chốn (hoặc 'in which')."
+    ]
   },
   {
     "id": "en-relative-clauses-022",
@@ -461,7 +587,13 @@
       "where"
     ],
     "correctIndex": 1,
-    "explanation": "Trạng từ quan hệ 'when' dùng để thay thế cho danh từ chỉ thời gian (the day), mang nghĩa là 'khi mà'."
+    "explanation": "Trạng từ quan hệ 'when' dùng để thay thế cho danh từ chỉ thời gian (the day), mang nghĩa là 'khi mà'.",
+    "choiceExplanations": [
+      "Sai — 'which' làm chủ ngữ/tân ngữ; ở đây cần trạng từ chỉ thời gian.",
+      "Đúng — 'the day' (thời gian) → when.",
+      "Sai — 'who' dùng cho người.",
+      "Sai — 'where' dùng cho nơi chốn."
+    ]
   },
   {
     "id": "en-relative-clauses-023",
@@ -482,7 +614,13 @@
       "why"
     ],
     "correctIndex": 3,
-    "explanation": "Trạng từ quan hệ 'why' luôn đi sau danh từ 'the reason' để giải thích lý do cho một sự việc."
+    "explanation": "Trạng từ quan hệ 'why' luôn đi sau danh từ 'the reason' để giải thích lý do cho một sự việc.",
+    "choiceExplanations": [
+      "Sai — 'where' dùng cho nơi chốn.",
+      "Sai — 'when' dùng cho thời gian.",
+      "Sai — 'which' đứng một mình không đi với 'the reason' (cần 'for which').",
+      "Đúng — 'the reason' đi với 'why'."
+    ]
   },
   {
     "id": "en-relative-clauses-024",
@@ -503,7 +641,13 @@
       "whom"
     ],
     "correctIndex": 2,
-    "explanation": "Đây là mệnh đề quan hệ không xác định (có dấu phẩy), phải dùng 'who' để chỉ người, tuyệt đối KHÔNG được dùng 'that' sau dấu phẩy."
+    "explanation": "Đây là mệnh đề quan hệ không xác định (có dấu phẩy), phải dùng 'who' để chỉ người, tuyệt đối KHÔNG được dùng 'that' sau dấu phẩy.",
+    "choiceExplanations": [
+      "Sai — 'which' dùng cho vật, trong khi 'My grandfather' chỉ người.",
+      "Sai — 'that' không dùng sau dấu phẩy.",
+      "Đúng — mệnh đề không xác định (có dấu phẩy) chỉ người → who.",
+      "Sai — 'whom' làm tân ngữ; ở đây cần chủ ngữ của 'is'."
+    ]
   },
   {
     "id": "en-relative-clauses-025",
@@ -524,7 +668,13 @@
       "who"
     ],
     "correctIndex": 0,
-    "explanation": "Mệnh đề quan hệ không xác định (có dấu phẩy) chỉ vật, bắt buộc dùng 'which'. Không dùng 'that' sau dấu phẩy và không dùng 'where' vì vị trí này cần một chủ ngữ."
+    "explanation": "Mệnh đề quan hệ không xác định (có dấu phẩy) chỉ vật, bắt buộc dùng 'which'. Không dùng 'that' sau dấu phẩy và không dùng 'where' vì vị trí này cần một chủ ngữ.",
+    "choiceExplanations": [
+      "Đúng — mệnh đề không xác định chỉ vật → which.",
+      "Sai — 'that' không dùng sau dấu phẩy.",
+      "Sai — 'where' dùng cho nơi chốn và không làm chủ ngữ.",
+      "Sai — 'who' dùng cho người."
+    ]
   },
   {
     "id": "en-relative-clauses-026",
@@ -545,7 +695,13 @@
       "sitting"
     ],
     "correctIndex": 3,
-    "explanation": "Rút gọn mệnh đề quan hệ dạng chủ động (who is sitting -> sitting). Động từ thêm 'ing' (V-ing) được dùng khi hành động mang tính chủ động."
+    "explanation": "Rút gọn mệnh đề quan hệ dạng chủ động (who is sitting -> sitting). Động từ thêm 'ing' (V-ing) được dùng khi hành động mang tính chủ động.",
+    "choiceExplanations": [
+      "Sai — 'sits' làm câu có hai động từ chia liền nhau ('The woman sits ... is my English teacher').",
+      "Sai — 'sat' làm câu có hai động từ chia liền nhau và sai thì.",
+      "Sai — 'to sit' dùng cho rút gọn với số thứ tự/cực cấp, không hợp ở đây.",
+      "Đúng — rút gọn mệnh đề chủ động: who is sitting → sitting."
+    ]
   },
   {
     "id": "en-relative-clauses-027",
@@ -566,7 +722,13 @@
       "to make"
     ],
     "correctIndex": 2,
-    "explanation": "Rút gọn mệnh đề quan hệ dạng bị động (which are made -> made). Quá khứ phân từ (V3/ed) được dùng khi sự việc mang nghĩa bị động (được làm ra)."
+    "explanation": "Rút gọn mệnh đề quan hệ dạng bị động (which are made -> made). Quá khứ phân từ (V3/ed) được dùng khi sự việc mang nghĩa bị động (được làm ra).",
+    "choiceExplanations": [
+      "Sai — 'make' (nguyên thể) không phải dạng rút gọn; sản phẩm là vật được làm.",
+      "Sai — 'making' mang nghĩa chủ động, trong khi sản phẩm được làm ra.",
+      "Đúng — rút gọn mệnh đề bị động: which are made → made.",
+      "Sai — 'to make' dùng cho rút gọn với số thứ tự/cực cấp hoặc mục đích, không hợp ở đây."
+    ]
   },
   {
     "id": "en-relative-clauses-028",
@@ -587,7 +749,13 @@
       "traveling"
     ],
     "correctIndex": 0,
-    "explanation": "Khi danh từ đứng trước có kèm các từ chỉ số thứ tự hoặc cực cấp (the first, the second, the last, the only...), ta rút gọn mệnh đề quan hệ bằng 'to V'."
+    "explanation": "Khi danh từ đứng trước có kèm các từ chỉ số thứ tự hoặc cực cấp (the first, the second, the last, the only...), ta rút gọn mệnh đề quan hệ bằng 'to V'.",
+    "choiceExplanations": [
+      "Đúng — sau 'the first' rút gọn bằng 'to + V': to travel.",
+      "Sai — 'travel' (nguyên thể) không phải dạng rút gọn đúng.",
+      "Sai — 'traveled' mang nghĩa bị động, không hợp ('the first human traveled').",
+      "Sai — 'traveling' không dùng sau số thứ tự 'the first'."
+    ]
   },
   {
     "id": "en-relative-clauses-029",
@@ -608,7 +776,13 @@
       "arriving"
     ],
     "correctIndex": 3,
-    "explanation": "Rút gọn mệnh đề quan hệ mang nghĩa chủ động (who arrive -> arriving) bằng cách sử dụng hiện tại phân từ (V-ing)."
+    "explanation": "Rút gọn mệnh đề quan hệ mang nghĩa chủ động (who arrive -> arriving) bằng cách sử dụng hiện tại phân từ (V-ing).",
+    "choiceExplanations": [
+      "Sai — 'arrive' làm câu thiếu động từ chính phù hợp ('Students arrive late for the exam will not ...').",
+      "Sai — 'to arrive' dùng cho rút gọn với số thứ tự/cực cấp, không hợp ở đây.",
+      "Sai — 'arrived' mang nghĩa bị động hoặc quá khứ, không hợp nghĩa chủ động 'những học sinh đến muộn'.",
+      "Đúng — rút gọn mệnh đề chủ động: who arrive → arriving."
+    ]
   },
   {
     "id": "en-relative-clauses-030",
@@ -629,6 +803,12 @@
       "builds"
     ],
     "correctIndex": 1,
-    "explanation": "Rút gọn mệnh đề quan hệ dạng bị động (which was built -> built). Dùng V3/ed vì cây cầu bị tác động bởi hành động 'được xây'."
+    "explanation": "Rút gọn mệnh đề quan hệ dạng bị động (which was built -> built). Dùng V3/ed vì cây cầu bị tác động bởi hành động 'được xây'.",
+    "choiceExplanations": [
+      "Sai — 'to build' dùng cho rút gọn với số thứ tự/cực cấp, không hợp nghĩa bị động ở đây.",
+      "Đúng — rút gọn mệnh đề bị động: which was built → built.",
+      "Sai — 'building' mang nghĩa chủ động, trong khi cây cầu được xây.",
+      "Sai — 'builds' làm câu có hai động từ chia liền nhau và sai nghĩa."
+    ]
   }
 ]

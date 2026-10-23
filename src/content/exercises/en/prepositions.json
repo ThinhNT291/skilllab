@@ -18,7 +18,13 @@
       "to"
     ],
     "correctIndex": 2,
-    "explanation": "Đứng trước một giờ cụ thể (9:00 AM), ta phải dùng giới từ chỉ thời gian 'at'."
+    "explanation": "Đứng trước một giờ cụ thể (9:00 AM), ta phải dùng giới từ chỉ thời gian 'at'.",
+    "choiceExplanations": [
+      "Sai — 'on' dùng với ngày, không dùng với giờ cụ thể.",
+      "Sai — 'in' dùng với buổi/tháng/năm, không dùng với giờ cụ thể.",
+      "Đúng — 'at' dùng với giờ cụ thể (9:00 AM).",
+      "Sai — 'to' không phải giới từ chỉ thời điểm."
+    ]
   },
   {
     "id": "en-prepositions-002",
@@ -39,7 +45,13 @@
       "on"
     ],
     "correctIndex": 3,
-    "explanation": "Khi có nhắc đến thứ trong tuần (Sunday), cho dù có kèm theo buổi (mornings) thì ta vẫn ưu tiên dùng giới từ 'on'."
+    "explanation": "Khi có nhắc đến thứ trong tuần (Sunday), cho dù có kèm theo buổi (mornings) thì ta vẫn ưu tiên dùng giới từ 'on'.",
+    "choiceExplanations": [
+      "Sai — 'at' dùng với giờ cụ thể hoặc cụm như 'at night', không dùng với 'Sunday mornings'.",
+      "Sai — 'in the morning' dùng 'in', nhưng khi kèm thứ trong tuần (Sunday mornings) thì dùng 'on'.",
+      "Sai — 'for' nêu khoảng thời gian, không nêu thời điểm.",
+      "Đúng — kèm thứ trong tuần (Sunday), kể cả có buổi (mornings), dùng 'on'."
+    ]
   },
   {
     "id": "en-prepositions-003",
@@ -60,7 +72,13 @@
       "on"
     ],
     "correctIndex": 1,
-    "explanation": "Với các mùa trong năm (spring, summer, autumn, winter), giới từ thời gian đi kèm luôn là 'in'."
+    "explanation": "Với các mùa trong năm (spring, summer, autumn, winter), giới từ thời gian đi kèm luôn là 'in'.",
+    "choiceExplanations": [
+      "Sai — 'with' không phải giới từ chỉ thời gian.",
+      "Đúng — mùa trong năm dùng 'in'.",
+      "Sai — 'at' dùng với giờ hoặc điểm thời gian cụ thể.",
+      "Sai — 'on' dùng với ngày."
+    ]
   },
   {
     "id": "en-prepositions-004",
@@ -81,7 +99,13 @@
       "from"
     ],
     "correctIndex": 0,
-    "explanation": "'The sofa' (ghế sô-pha) là một bề mặt phẳng. Để chỉ vị trí ở phía trên bề mặt, ta dùng 'on'."
+    "explanation": "'The sofa' (ghế sô-pha) là một bề mặt phẳng. Để chỉ vị trí ở phía trên bề mặt, ta dùng 'on'.",
+    "choiceExplanations": [
+      "Đúng — ghế sô-pha là bề mặt, vị trí phía trên bề mặt dùng 'on'.",
+      "Sai — 'in' chỉ ở bên trong một không gian; ghế sô-pha là bề mặt nên dùng 'on'.",
+      "Sai — 'at' chỉ một điểm/địa điểm, không chỉ vị trí trên bề mặt.",
+      "Sai — 'from' chỉ điểm xuất phát, không nêu vị trí đặt đồ."
+    ]
   },
   {
     "id": "en-prepositions-005",
@@ -102,7 +126,13 @@
       "on"
     ],
     "correctIndex": 1,
-    "explanation": "Ho Chi Minh City là tên một thành phố lớn, một khu vực địa lý rộng. Theo quy tắc, ta dùng 'in' cho phường/xã, quận/huyện, thành phố, quốc gia."
+    "explanation": "Ho Chi Minh City là tên một thành phố lớn, một khu vực địa lý rộng. Theo quy tắc, ta dùng 'in' cho phường/xã, quận/huyện, thành phố, quốc gia.",
+    "choiceExplanations": [
+      "Sai — 'at' dùng cho địa điểm nhỏ/điểm cụ thể, không dùng cho thành phố lớn.",
+      "Đúng — thành phố, quốc gia dùng 'in'.",
+      "Sai — 'to' chỉ hướng di chuyển, không nêu nơi sống.",
+      "Sai — 'on' dùng cho bề mặt hoặc ngày, không dùng cho thành phố."
+    ]
   },
   {
     "id": "en-prepositions-006",
@@ -123,7 +153,13 @@
       "through"
     ],
     "correctIndex": 2,
-    "explanation": "Khi đi bộ từ bên này sang bên kia của một con đường phẳng, ta dùng giới từ 'across' (băng qua)."
+    "explanation": "Khi đi bộ từ bên này sang bên kia của một con đường phẳng, ta dùng giới từ 'across' (băng qua).",
+    "choiceExplanations": [
+      "Sai — 'into' chỉ đi vào bên trong một không gian.",
+      "Sai — 'along' nghĩa là đi dọc theo con đường, không phải sang bên kia.",
+      "Đúng — đi từ bên này sang bên kia của một con đường → across.",
+      "Sai — 'through' chỉ đi xuyên qua một không gian có thành bao quanh (rừng, đường hầm), không phải băng ngang đường."
+    ]
   },
   {
     "id": "en-prepositions-007",
@@ -144,7 +180,13 @@
       "in"
     ],
     "correctIndex": 1,
-    "explanation": "Hành động chạy từ ngoài hướng vào bên trong một không gian kín cần giới từ chỉ chuyển động 'into'."
+    "explanation": "Hành động chạy từ ngoài hướng vào bên trong một không gian kín cần giới từ chỉ chuyển động 'into'.",
+    "choiceExplanations": [
+      "Sai — 'through' chỉ đi xuyên qua; ở đây mọi người chạy vào trong tòa nhà để trú mưa.",
+      "Đúng — chuyển động từ ngoài vào trong một không gian → into.",
+      "Sai — 'ran on the building' nghĩa là chạy trên bề mặt tòa nhà, không hợp nghĩa.",
+      "Sai — 'ran in the building' nghĩa là chạy ở bên trong tòa nhà (đã ở trong); 'into' mới diễn tả chuyển động từ ngoài vào."
+    ]
   },
   {
     "id": "en-prepositions-008",
@@ -165,7 +207,13 @@
       "in"
     ],
     "correctIndex": 0,
-    "explanation": "Cụm tính từ cố định: 'good at something / doing something' mang nghĩa là giỏi về việc gì đó."
+    "explanation": "Cụm tính từ cố định: 'good at something / doing something' mang nghĩa là giỏi về việc gì đó.",
+    "choiceExplanations": [
+      "Đúng — cụm cố định 'good at' (giỏi về việc gì).",
+      "Sai — 'good for' nghĩa là có lợi cho, không nói về việc giỏi.",
+      "Sai — 'good with' dùng cho khéo léo với người/vật (good with children), không dùng khi nói giỏi làm việc gì.",
+      "Sai — không dùng 'good in' để nói giỏi làm việc gì; cụm cố định là 'good at'."
+    ]
   },
   {
     "id": "en-prepositions-009",
@@ -186,7 +234,13 @@
       "on"
     ],
     "correctIndex": 0,
-    "explanation": "Tính từ 'interested' luôn đi kèm với giới từ 'in' để tạo thành cụm mang nghĩa 'hứng thú, quan tâm đến cái gì'."
+    "explanation": "Tính từ 'interested' luôn đi kèm với giới từ 'in' để tạo thành cụm mang nghĩa 'hứng thú, quan tâm đến cái gì'.",
+    "choiceExplanations": [
+      "Đúng — cụm cố định 'interested in'.",
+      "Sai — 'interested of' không tồn tại; dùng 'interested in'.",
+      "Sai — 'interested at' không phải cụm đúng.",
+      "Sai — 'interested on' không phải cụm đúng."
+    ]
   },
   {
     "id": "en-prepositions-010",
@@ -207,7 +261,13 @@
       "for"
     ],
     "correctIndex": 3,
-    "explanation": "Cụm tính từ cố định 'famous for' có nghĩa là nổi tiếng vì điều gì."
+    "explanation": "Cụm tính từ cố định 'famous for' có nghĩa là nổi tiếng vì điều gì.",
+    "choiceExplanations": [
+      "Sai — 'famous with' không phải cụm đúng.",
+      "Sai — 'famous of' không phải cụm đúng.",
+      "Sai — 'famous to' không dùng với nghĩa 'nổi tiếng vì'; nghĩa này dùng 'for'.",
+      "Đúng — cụm cố định 'famous for' (nổi tiếng vì)."
+    ]
   },
   {
     "id": "en-prepositions-011",
@@ -228,7 +288,13 @@
       "for"
     ],
     "correctIndex": 2,
-    "explanation": "Động từ 'listen' (lắng nghe) luôn bắt buộc đi kèm với giới từ 'to' khi theo sau là một đối tượng."
+    "explanation": "Động từ 'listen' (lắng nghe) luôn bắt buộc đi kèm với giới từ 'to' khi theo sau là một đối tượng.",
+    "choiceExplanations": [
+      "Sai — 'listen at' không phải cụm đúng.",
+      "Sai — 'listen with' không đi với đối tượng được nghe.",
+      "Đúng — 'listen to' + đối tượng được nghe.",
+      "Sai — 'listen for' nghĩa là lắng nghe để chờ một âm thanh nào đó (listen for the bell), không phải nghe nhạc."
+    ]
   },
   {
     "id": "en-prepositions-012",
@@ -249,7 +315,13 @@
       "of"
     ],
     "correctIndex": 1,
-    "explanation": "Cụm động từ 'depend on' có nghĩa là phụ thuộc vào điều gì/ai đó."
+    "explanation": "Cụm động từ 'depend on' có nghĩa là phụ thuộc vào điều gì/ai đó.",
+    "choiceExplanations": [
+      "Sai — 'depend at' không phải cụm đúng; dùng 'depend on'.",
+      "Đúng — cụm động từ 'depend on' (phụ thuộc vào).",
+      "Sai — 'depend in' không phải cụm đúng; dùng 'depend on'.",
+      "Sai — 'depend of' không phải cụm đúng; dùng 'depend on'."
+    ]
   },
   {
     "id": "en-prepositions-013",
@@ -270,7 +342,13 @@
       "for"
     ],
     "correctIndex": 3,
-    "explanation": "Khi muốn nói 'chờ đợi ai/cái gì', động từ 'wait' phải luôn đi kèm với giới từ 'for'."
+    "explanation": "Khi muốn nói 'chờ đợi ai/cái gì', động từ 'wait' phải luôn đi kèm với giới từ 'for'.",
+    "choiceExplanations": [
+      "Sai — 'wait at' dùng với nơi chốn (wait at the bus stop), không đi trực tiếp trước đối tượng được chờ.",
+      "Sai — 'wait to' đi với động từ nguyên thể (wait to go), không đi trước danh từ 'the bus'.",
+      "Sai — 'wait in' dùng với nơi chốn (wait in line), không đi trước đối tượng được chờ.",
+      "Đúng — 'wait for' (chờ ai/cái gì)."
+    ]
   },
   {
     "id": "en-prepositions-014",
@@ -291,7 +369,13 @@
       "at"
     ],
     "correctIndex": 0,
-    "explanation": "'2015' là một mốc thời gian cụ thể. Trong thì hiện tại hoàn thành, ta dùng 'since' trước mốc thời gian (từ năm 2015)."
+    "explanation": "'2015' là một mốc thời gian cụ thể. Trong thì hiện tại hoàn thành, ta dùng 'since' trước mốc thời gian (từ năm 2015).",
+    "choiceExplanations": [
+      "Đúng — 2015 là mốc thời gian, hiện tại hoàn thành dùng 'since'.",
+      "Sai — 'for' đi với khoảng thời gian, trong khi 2015 là mốc thời gian.",
+      "Sai — 'in 2015' dùng với quá khứ đơn; câu ở hiện tại hoàn thành ('has worked') cần 'since'.",
+      "Sai — 'at' dùng với giờ, không dùng với năm."
+    ]
   },
   {
     "id": "en-prepositions-015",
@@ -312,7 +396,13 @@
       "to"
     ],
     "correctIndex": 0,
-    "explanation": "Sân bay (the airport) được xem là một địa điểm nhỏ, một điểm dừng chân chức năng. Do đó động từ arrive phải đi với 'at' (arrive at the airport)."
+    "explanation": "Sân bay (the airport) được xem là một địa điểm nhỏ, một điểm dừng chân chức năng. Do đó động từ arrive phải đi với 'at' (arrive at the airport).",
+    "choiceExplanations": [
+      "Đúng — sân bay là địa điểm cụ thể nên 'arrive at'.",
+      "Sai — 'on' không đi với 'arrive' trước địa điểm này.",
+      "Sai — 'arrive in' dùng với thành phố/quốc gia; sân bay là địa điểm cụ thể nên dùng 'at'.",
+      "Sai — 'arrive to' không đúng; 'arrive' đi với 'at' hoặc 'in'."
+    ]
   },
   {
     "id": "en-prepositions-016",
@@ -333,7 +423,13 @@
       "at"
     ],
     "correctIndex": 2,
-    "explanation": "Dùng giới từ 'on' trước một ngày cụ thể hoặc ngày đi kèm tháng."
+    "explanation": "Dùng giới từ 'on' trước một ngày cụ thể hoặc ngày đi kèm tháng.",
+    "choiceExplanations": [
+      "Sai — trước ngày cụ thể không dùng 'of' ('is of 15th August' sai); dùng 'on'.",
+      "Sai — 'in' dùng với tháng/năm (in August), không dùng với ngày cụ thể.",
+      "Đúng — trước ngày cụ thể dùng 'on'.",
+      "Sai — 'at' dùng với giờ."
+    ]
   },
   {
     "id": "en-prepositions-017",
@@ -354,7 +450,13 @@
       "from"
     ],
     "correctIndex": 0,
-    "explanation": "Dùng giới từ 'in' trước các mùa trong năm (in the spring, in the winter)."
+    "explanation": "Dùng giới từ 'in' trước các mùa trong năm (in the spring, in the winter).",
+    "choiceExplanations": [
+      "Đúng — mùa trong năm dùng 'in'.",
+      "Sai — 'on' dùng với ngày.",
+      "Sai — 'at' dùng với giờ hoặc điểm thời gian.",
+      "Sai — 'from the winter' không đúng; 'from' chỉ điểm bắt đầu."
+    ]
   },
   {
     "id": "en-prepositions-018",
@@ -375,7 +477,13 @@
       "in"
     ],
     "correctIndex": 2,
-    "explanation": "Dùng giới từ 'at' để chỉ một địa điểm, điểm dừng cụ thể (at the bus stop, at the station)."
+    "explanation": "Dùng giới từ 'at' để chỉ một địa điểm, điểm dừng cụ thể (at the bus stop, at the station).",
+    "choiceExplanations": [
+      "Sai — 'on' dùng cho bề mặt.",
+      "Sai — 'under' nghĩa là bên dưới, không hợp với ngữ cảnh trạm xe buýt.",
+      "Đúng — địa điểm/điểm dừng cụ thể dùng 'at'.",
+      "Sai — 'in the bus stop' không tự nhiên; trạm xe buýt là một điểm nên dùng 'at'."
+    ]
   },
   {
     "id": "en-prepositions-019",
@@ -396,7 +504,13 @@
       "at"
     ],
     "correctIndex": 0,
-    "explanation": "Dùng giới từ 'in' cho các địa điểm không gian rộng lớn như thành phố, đất nước."
+    "explanation": "Dùng giới từ 'in' cho các địa điểm không gian rộng lớn như thành phố, đất nước.",
+    "choiceExplanations": [
+      "Đúng — thành phố dùng 'in'.",
+      "Sai — 'to' chỉ hướng di chuyển, không nêu nơi sống.",
+      "Sai — 'on' dùng cho bề mặt hoặc ngày.",
+      "Sai — 'at' dùng cho điểm nhỏ; Paris là thành phố lớn nên dùng 'in'."
+    ]
   },
   {
     "id": "en-prepositions-020",
@@ -417,7 +531,13 @@
       "on"
     ],
     "correctIndex": 1,
-    "explanation": "Dùng giới từ 'at' trước giờ giấc cụ thể."
+    "explanation": "Dùng giới từ 'at' trước giờ giấc cụ thể.",
+    "choiceExplanations": [
+      "Sai — 'with' không phải giới từ chỉ thời gian.",
+      "Đúng — giờ cụ thể dùng 'at'.",
+      "Sai — 'in' dùng với buổi/tháng/năm, không dùng với giờ cụ thể.",
+      "Sai — 'on' dùng với ngày."
+    ]
   },
   {
     "id": "en-prepositions-021",
@@ -438,7 +558,13 @@
       "under"
     ],
     "correctIndex": 2,
-    "explanation": "Giới từ 'across' mang nghĩa băng qua, đi ngang qua từ bên này sang bên kia (đường, sông)."
+    "explanation": "Giới từ 'across' mang nghĩa băng qua, đi ngang qua từ bên này sang bên kia (đường, sông).",
+    "choiceExplanations": [
+      "Sai — 'through' chỉ đi xuyên qua không gian có thành bao quanh.",
+      "Sai — 'into' chỉ đi vào bên trong một không gian.",
+      "Đúng — băng qua đường từ bên này sang bên kia → across.",
+      "Sai — 'under' nghĩa là bên dưới."
+    ]
   },
   {
     "id": "en-prepositions-022",
@@ -459,7 +585,13 @@
       "into"
     ],
     "correctIndex": 3,
-    "explanation": "Giới từ 'into' diễn tả sự chuyển động đi vào bên trong một không gian."
+    "explanation": "Giới từ 'into' diễn tả sự chuyển động đi vào bên trong một không gian.",
+    "choiceExplanations": [
+      "Sai — 'jumped on the pool' nghĩa là nhảy lên trên, không hợp nghĩa nhảy xuống nước.",
+      "Sai — 'up' chỉ hướng lên, không có đích đến là hồ bơi.",
+      "Sai — 'out' chỉ đi ra ngoài; ở đây là nhảy vào.",
+      "Đúng — chuyển động đi vào bên trong → into."
+    ]
   },
   {
     "id": "en-prepositions-023",
@@ -480,7 +612,13 @@
       "on"
     ],
     "correctIndex": 1,
-    "explanation": "Cụm tính từ 'afraid of' mang nghĩa là sợ hãi cái gì đó."
+    "explanation": "Cụm tính từ 'afraid of' mang nghĩa là sợ hãi cái gì đó.",
+    "choiceExplanations": [
+      "Sai — 'afraid at' không phải cụm đúng.",
+      "Đúng — cụm cố định 'afraid of' (sợ cái gì).",
+      "Sai — 'afraid for' nghĩa là lo lắng cho ai (afraid for her safety), không phải sợ.",
+      "Sai — 'afraid on' không phải cụm đúng."
+    ]
   },
   {
     "id": "en-prepositions-024",
@@ -501,7 +639,13 @@
       "on"
     ],
     "correctIndex": 1,
-    "explanation": "Cụm tính từ 'interested in' mang nghĩa là quan tâm, có hứng thú với điều gì."
+    "explanation": "Cụm tính từ 'interested in' mang nghĩa là quan tâm, có hứng thú với điều gì.",
+    "choiceExplanations": [
+      "Sai — 'interested with' không phải cụm đúng.",
+      "Đúng — cụm cố định 'interested in'.",
+      "Sai — 'interested at' không phải cụm đúng.",
+      "Sai — 'interested on' không phải cụm đúng."
+    ]
   },
   {
     "id": "en-prepositions-025",
@@ -522,7 +666,13 @@
       "in"
     ],
     "correctIndex": 2,
-    "explanation": "Cụm tính từ 'good at' dùng để nói ai đó giỏi về việc gì. Lưu ý không dùng 'good in'."
+    "explanation": "Cụm tính từ 'good at' dùng để nói ai đó giỏi về việc gì. Lưu ý không dùng 'good in'.",
+    "choiceExplanations": [
+      "Sai — 'good for' nghĩa là có lợi cho, không nói về việc giỏi.",
+      "Sai — 'good on' không phải cụm đúng trong ngữ cảnh này.",
+      "Đúng — cụm cố định 'good at'.",
+      "Sai — không dùng 'good in' để nói giỏi làm việc gì."
+    ]
   },
   {
     "id": "en-prepositions-026",
@@ -543,7 +693,13 @@
       "to"
     ],
     "correctIndex": 3,
-    "explanation": "Động từ 'listen' luôn đi kèm với giới từ 'to' (listen to: lắng nghe ai/cái gì)."
+    "explanation": "Động từ 'listen' luôn đi kèm với giới từ 'to' (listen to: lắng nghe ai/cái gì).",
+    "choiceExplanations": [
+      "Sai — 'listen with' không phải cụm đúng.",
+      "Sai — 'listen for' nghĩa là lắng nghe để chờ một âm thanh, không phải nghe nhạc.",
+      "Sai — 'listen at' không phải cụm đúng.",
+      "Đúng — 'listen to' + đối tượng được nghe."
+    ]
   },
   {
     "id": "en-prepositions-027",
@@ -564,7 +720,13 @@
       "in"
     ],
     "correctIndex": 0,
-    "explanation": "Động từ 'depend' đi kèm với giới từ 'on' (depend on: phụ thuộc vào)."
+    "explanation": "Động từ 'depend' đi kèm với giới từ 'on' (depend on: phụ thuộc vào).",
+    "choiceExplanations": [
+      "Đúng — cụm động từ 'depend on' (phụ thuộc vào).",
+      "Sai — 'depend at' không phải cụm đúng; dùng 'depend on'.",
+      "Sai — 'depend of' không phải cụm đúng; dùng 'depend on'.",
+      "Sai — 'depend in' không phải cụm đúng; dùng 'depend on'."
+    ]
   },
   {
     "id": "en-prepositions-028",
@@ -585,7 +747,13 @@
       "for"
     ],
     "correctIndex": 3,
-    "explanation": "Động từ 'wait' đi kèm với giới từ 'for' (wait for: chờ đợi ai/cái gì)."
+    "explanation": "Động từ 'wait' đi kèm với giới từ 'for' (wait for: chờ đợi ai/cái gì).",
+    "choiceExplanations": [
+      "Sai — 'wait to' đi với động từ nguyên thể (wait to go), không đi trước đại từ 'me'.",
+      "Sai — 'wait with me' nghĩa là chờ cùng tôi, không phải chờ tôi.",
+      "Sai — 'wait at' dùng với nơi chốn, không đi trước đối tượng được chờ.",
+      "Đúng — 'wait for' (chờ ai)."
+    ]
   },
   {
     "id": "en-prepositions-029",
@@ -606,7 +774,13 @@
       "since"
     ],
     "correctIndex": 3,
-    "explanation": "Dùng 'since' cộng với một mốc thời gian cụ thể trong quá khứ (từ năm 2015)."
+    "explanation": "Dùng 'since' cộng với một mốc thời gian cụ thể trong quá khứ (từ năm 2015).",
+    "choiceExplanations": [
+      "Sai — 'at' dùng với giờ, không dùng với năm.",
+      "Sai — 'in 2015' dùng với quá khứ đơn; câu hiện tại hoàn thành ('have known') cần 'since'.",
+      "Sai — 'for' đi với khoảng thời gian, không phải mốc thời gian.",
+      "Đúng — mốc thời gian 2015 → since."
+    ]
   },
   {
     "id": "en-prepositions-030",
@@ -627,6 +801,12 @@
       "during"
     ],
     "correctIndex": 1,
-    "explanation": "Dùng 'for' cộng với một khoảng thời gian đếm được (trong khoảng 5 tháng)."
+    "explanation": "Dùng 'for' cộng với một khoảng thời gian đếm được (trong khoảng 5 tháng).",
+    "choiceExplanations": [
+      "Sai — 'since' cần mốc thời gian, không phải khoảng thời gian 'five months'.",
+      "Đúng — khoảng thời gian đã kéo dài đến nay → for.",
+      "Sai — 'in five months' nghĩa là 'sau năm tháng nữa' hoặc 'trong vòng năm tháng', không diễn tả khoảng thời gian đã kéo dài đến nay.",
+      "Sai — 'during' đi với một sự kiện/giai đoạn có tên (during the summer), không đi với số đo thời gian như 'five months'."
+    ]
   }
 ]
