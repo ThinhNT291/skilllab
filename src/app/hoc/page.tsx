@@ -32,7 +32,6 @@ export default async function LearnPage() {
                     <span className="font-extrabold">{t.title}</span>
                     <span className="flex shrink-0 items-center gap-2 text-sm">
                       {(counts.get(t.id) ?? 0) > 0 && <span className="rounded-full bg-success-soft px-2 py-0.5 text-success">Có bài tập</span>}
-                      <span className="rounded-full border border-border px-2 py-0.5 text-muted-foreground">{t.levels.join("/")}</span>
                     </span>
                   </Link>
                 </li>

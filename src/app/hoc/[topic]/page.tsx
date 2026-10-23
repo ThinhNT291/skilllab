@@ -25,7 +25,6 @@ export default async function TopicPage({ params }: PageProps<"/hoc/[topic]">) {
         ← Danh sách chuyên đề
       </Link>
       <h1 className="mt-2 text-3xl font-extrabold">{data.title}</h1>
-      <p className="mt-1 text-muted-foreground">Cấp độ: {data.levels.join("/")}</p>
 
       {hasExercises ? (
         <Link
