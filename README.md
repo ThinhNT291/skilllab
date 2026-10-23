@@ -1,7 +1,7 @@
 # Training Zone (skilllab)
 
 Web học và luyện ngoại ngữ có chấm điểm, nhận xét, gợi ý và phân tích tiến độ.
-Ngữ cảnh và quyết định dự án: `CLAUDE.md`. Lộ trình: `ROADMAP.md`.
+Ngữ cảnh và quyết định dự án: `CLAUDE.md`. Lộ trình: `ROADMAP.md`. Quy trình pull/gộp/Supabase/Vercel: `docs/quy-trinh-lam-viec.md`.
 
 ## Chạy trên máy
 ```bash
@@ -15,5 +15,6 @@ Kiểm tra trước khi đẩy code: `npm run lint` và `npm run build`.
 - `src/app/` trang (`/` trang chủ, `/luyen-tap` bài tập mẫu)
 - `src/components/exercise/` bài tập: `ExerciseRunner`, `ChoiceButton`, `ProgressBar`
 - `src/lib/content/` mô hình nội dung (`types.ts`) và câu mẫu
+- `src/lib/supabase/` client Supabase (chỉ lớp truy cập dữ liệu được gọi), `src/app/api/health` kiểm tra kết nối
 - `src/lib/settings.ts` giao diện (3 skin) và âm thanh, lưu trong trình duyệt
 - `legacy/` bản JS thuần cũ, giữ để tham khảo (đặc biệt `grammar_theory_bank.js`), không build

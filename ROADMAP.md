@@ -13,7 +13,8 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [ ] Rà kỹ component/design token của `daotao`, chọn cái dùng lại (bảng màu mới tươi hơn cho học sinh).
 - [ ] Kiểm tra số project Supabase đang hoạt động, tạo project riêng; tạo project Vercel; chủ dự án cấp biến môi trường.
 - [x] Dựng khung Next.js, 3 skin, `ExerciseRunner` với câu mẫu (chưa nối dữ liệu).
-- [ ] Thư mục `supabase/migrations`, lớp truy cập dữ liệu mỏng, nối Supabase.
+- [x] Client Supabase (browser/server) và route `/api/health` kiểm tra kết nối khi chạy dev.
+- [ ] Chốt cách đăng nhập (xem câu hỏi mở), rồi `supabase/migrations`, bảng `profiles`/câu trả lời, lớp truy cập dữ liệu `src/lib/db`.
 - [ ] Chuyển `legacy/grammar_theory_bank.js` thành dữ liệu nguồn; xóa phần còn lại của `legacy/` sau khi chủ dự án xác nhận.
 - [ ] Đưa phần Gemini (chấm, nhận xét, TTS) vào API route phía server.
 
@@ -68,6 +69,7 @@ Chủ đề cần đề xuất (mỗi chủ đề: vấn đề, bằng chứng, 
 - [ ] Khả năng truy cập: cỡ chữ, tương phản, bàn phím, thiết bị di động.
 
 ## Câu hỏi mở
+- Cách đăng nhập cho học sinh 9–15 tuổi: Google (nhiều bé dưới 13 không có), tài khoản do giáo viên/phụ huynh tạo, hay đăng nhập ẩn danh trước rồi gắn tài khoản sau?
 - Kế hoạch chuyển nền tảng dữ liệu khi mở rộng (Amazon Postgres hay Cloudflare): chọn hệ đăng nhập thay thế Supabase Auth khi đến lúc; xem nguyên tắc ở CLAUDE.md mục 3b.
 - Nhân vật: emoji, SVG tự vẽ, hay bộ hình miễn phí bản quyền?
 - Theo dõi tiến độ của học sinh: chỉ trên máy, hay đăng nhập? Có khu cho phụ huynh/giáo viên xem từ xa không?
