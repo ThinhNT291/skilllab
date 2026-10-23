@@ -8,9 +8,13 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - Mọi gợi ý học thuật phải truy được về nguồn (khung chuẩn, danh mục từ vựng/ngữ pháp, nghiên cứu); không bịa quy đổi.
 
 ## Giai đoạn 0 — Chuẩn bị
-- [ ] Cấp quyền cho phiên Claude vào repo `daotao`, rà component/design token/bảng màu dùng lại được.
-- [ ] Quyết định có giữ backend Google Apps Script hay làm lại (dữ liệu cũ xóa được; hợp đồng API có thể thiết kế lại).
-- [ ] Dựng khung Vite + React + Tailwind, GitHub Action build và đưa lên Pages.
+- [x] Cấp quyền cho phiên Claude vào repo `daotao`.
+- [x] Chốt hướng A: Next.js + Supabase + Vercel; bỏ Google Apps Script.
+- [ ] Rà kỹ component/design token của `daotao`, chọn cái dùng lại (bảng màu mới tươi hơn cho học sinh).
+- [ ] Kiểm tra số project Supabase đang hoạt động, tạo project riêng; tạo project Vercel; chủ dự án cấp biến môi trường.
+- [ ] Dựng khung Next.js (đọc tài liệu Next.js trong `node_modules` trước), thư mục `supabase/migrations`, lớp truy cập dữ liệu mỏng.
+- [ ] Chuyển `grammar_theory_bank.js` thành dữ liệu nguồn; xóa code cũ sau khi chủ dự án xác nhận.
+- [ ] Đưa phần Gemini (chấm, nhận xét, TTS) vào API route phía server.
 
 ## Giai đoạn 1 — Lõi học và luyện (ưu tiên cao nhất)
 - [ ] Mô hình dữ liệu nội dung dùng chung: mục học (từ, cụm, chủ điểm ngữ pháp, bài đọc, bài nghe), gắn **ngôn ngữ, thang, cấp độ, kỹ năng, chủ đề, thẻ lỗi (tag)**.
@@ -63,7 +67,7 @@ Chủ đề cần đề xuất (mỗi chủ đề: vấn đề, bằng chứng, 
 - [ ] Khả năng truy cập: cỡ chữ, tương phản, bàn phím, thiết bị di động.
 
 ## Câu hỏi mở
-- Giữ hay làm lại backend Google Apps Script?
+- Kế hoạch chuyển nền tảng dữ liệu khi mở rộng (Amazon Postgres hay Cloudflare): chọn hệ đăng nhập thay thế Supabase Auth khi đến lúc; xem nguyên tắc ở CLAUDE.md mục 3b.
 - Nhân vật: emoji, SVG tự vẽ, hay bộ hình miễn phí bản quyền?
 - Theo dõi tiến độ của học sinh: chỉ trên máy, hay đăng nhập? Có khu cho phụ huynh/giáo viên xem từ xa không?
 - Giai đoạn 3 bắt đầu với ngôn ngữ nào sau tiếng Anh (Nhật, Trung hay Hàn)?
