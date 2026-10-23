@@ -25,6 +25,13 @@ Sau khi gộp, nhánh làm việc vẫn dùng tiếp được; nếu Claude báo
 3. Chạy `npm run dev`, mở http://localhost:3000/api/health, thấy `"ok": true` là đã kết nối.
 4. **Không** dán khóa `service_role` hay khóa Gemini vào chat hoặc commit. Chỉ để trong `.env.local` và Vercel.
 
+## Bật đăng nhập ẩn danh và tạo bảng (một lần)
+1. Supabase > Authentication > Sign In / Providers > bật **Allow anonymous sign-ins** > Save.
+2. Supabase > SQL Editor > New query > dán toàn bộ nội dung `supabase/migrations/0001_init.sql` > Run. Thấy "Success" là xong (chạy lại không hại gì).
+3. `npm run dev`, mở http://localhost:3000/luyen-tap, làm một câu. Dưới ô bài tập hiện "Đã lưu kết quả." là đã ghi được.
+4. Xem dữ liệu: Supabase > Table Editor > `answers` (và `profiles`). Mỗi trình duyệt/thiết bị là một người dùng ẩn danh riêng; xóa dữ liệu trình duyệt thì mất định danh đó.
+5. Trước khi mở cho nhiều người dùng thật: bật CAPTCHA cho đăng nhập ẩn danh (Authentication > Attack Protection) để tránh bị tạo hàng loạt tài khoản rác.
+
 ## Kết nối Vercel (khi sẵn sàng)
 1. Vercel > project mới > Import repo `ThinhNT291/skilllab`, Framework: Next.js (tự nhận).
 2. Project Settings > Environment Variables: thêm đúng các biến như `.env.local`.
