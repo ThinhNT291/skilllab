@@ -1,0 +1,131 @@
+{
+  "id": "present-continuous",
+  "language": "en",
+  "title": "Thì hiện tại tiếp diễn (Present Continuous)",
+  "levels": [
+    "A1",
+    "A2"
+  ],
+  "order": 2,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "pc-u1-happening-now",
+        "label": "Hành động đang xảy ra ngay lúc nói",
+        "explanationVi": "Diễn tả một hành động đang diễn ra ngay tại thời điểm nói, thường có thể nhìn thấy hoặc nghe thấy được.",
+        "examples": [
+          {
+            "en": "Please be quiet, the baby is sleeping in the next room.",
+            "vi": "Làm ơn giữ yên lặng, em bé đang ngủ ở phòng bên cạnh."
+          },
+          {
+            "en": "Look! Those two dogs are chasing each other around the yard.",
+            "vi": "Nhìn kìa! Hai con chó đó đang đuổi nhau quanh sân."
+          }
+        ]
+      },
+      {
+        "id": "pc-u2-temporary-around-now",
+        "label": "Tình huống tạm thời đang diễn ra quanh thời điểm hiện tại",
+        "explanationVi": "Diễn tả một việc đang xảy ra trong một khoảng thời gian tạm thời quanh hiện tại (ví dụ: tuần này, tháng này, học kỳ này), nhưng không nhất thiết đúng vào lúc đang nói.",
+        "examples": [
+          {
+            "en": "My sister is staying with us for a few weeks while her flat is being repaired.",
+            "vi": "Em gái tôi đang ở tạm với chúng tôi vài tuần trong khi căn hộ của cô ấy đang được sửa."
+          },
+          {
+            "en": "I'm taking an online course on data analysis this semester.",
+            "vi": "Học kỳ này tôi đang học một khóa học trực tuyến về phân tích dữ liệu."
+          }
+        ]
+      },
+      {
+        "id": "pc-u3-future-arrangement",
+        "label": "Kế hoạch, sắp xếp đã định trong tương lai gần",
+        "explanationVi": "Diễn tả một kế hoạch hoặc sự sắp xếp đã được quyết định cụ thể cho tương lai gần, thường có thời gian hoặc địa điểm rõ ràng.",
+        "examples": [
+          {
+            "en": "We are having dinner with the Nguyens on Saturday evening.",
+            "vi": "Chúng tôi sẽ dùng bữa tối với gia đình Nguyễn vào tối thứ Bảy."
+          },
+          {
+            "en": "The manager is flying to Da Nang next Monday for a client meeting.",
+            "vi": "Vị quản lý sẽ bay đến Đà Nẵng vào thứ Hai tới để họp với khách hàng."
+          }
+        ]
+      },
+      {
+        "id": "pc-u4-changing-trend",
+        "label": "Xu hướng thay đổi, phát triển dần theo thời gian",
+        "explanationVi": "Diễn tả một xu hướng đang thay đổi hoặc phát triển dần dần, thường đi kèm các từ như 'increasingly', 'more and more', 'fewer and fewer'.",
+        "examples": [
+          {
+            "en": "More and more young people are choosing to work remotely nowadays.",
+            "vi": "Ngày càng nhiều người trẻ chọn làm việc từ xa trong thời gian gần đây."
+          },
+          {
+            "en": "The price of fresh vegetables is rising steadily this year.",
+            "vi": "Giá rau củ tươi đang tăng đều đặn trong năm nay."
+          }
+        ]
+      },
+      {
+        "id": "pc-u5-annoying-habit",
+        "label": "Phàn nàn về thói quen lặp lại quá thường xuyên (luôn dùng với 'always')",
+        "explanationVi": "Diễn tả sự phàn nàn hoặc khó chịu về một thói quen lặp đi lặp lại quá thường xuyên, luôn đi kèm trạng từ 'always' (đôi khi 'forever', 'constantly').",
+        "examples": [
+          {
+            "en": "My roommate is always leaving dirty dishes in the sink!",
+            "vi": "Bạn cùng phòng tôi lúc nào cũng để bát đĩa bẩn trong bồn rửa!"
+          },
+          {
+            "en": "He is always interrupting me when I'm trying to explain something.",
+            "vi": "Anh ấy lúc nào cũng ngắt lời tôi khi tôi đang cố giải thích điều gì đó."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "now",
+        "meaningVi": "bây giờ"
+      },
+      {
+        "word": "right now",
+        "meaningVi": "ngay bây giờ"
+      },
+      {
+        "word": "at the moment",
+        "meaningVi": "vào lúc này"
+      },
+      {
+        "word": "currently",
+        "meaningVi": "hiện đang"
+      },
+      {
+        "word": "at present",
+        "meaningVi": "hiện nay"
+      },
+      {
+        "word": "Look! / Listen!",
+        "meaningVi": "Nhìn kìa! / Nghe kìa! (báo hiệu hành động đang xảy ra ngay lúc nói)"
+      },
+      {
+        "word": "these days",
+        "meaningVi": "dạo này"
+      }
+    ],
+    "commonMistakes": [
+      "Lỗi chia thì tiếp diễn cho các động từ chỉ trạng thái (state verbs) như like, want, know, believe, belong, understand — các động từ này thường KHÔNG dùng ở thì tiếp diễn vì diễn tả trạng thái tĩnh chứ không phải hành động đang xảy ra. Ví dụ sai: 'I am liking this song very much.' ĐÚNG: 'I like this song very much.'",
+      "Lỗi quên trợ động từ am/is/are khi chia thể khẳng định hoặc nghi vấn. Ví dụ sai: 'She cooking dinner right now.' ĐÚNG: 'She is cooking dinner right now.'",
+      "Lỗi thêm đuôi '-ing' sai chính tả: quên bỏ 'e' câm ở cuối động từ (write, make, take...) hoặc quên nhân đôi phụ âm cuối ở động từ 1 âm tiết kết thúc bằng 1 phụ âm sau 1 nguyên âm ngắn (run, sit, stop...). Ví dụ sai: 'He is writeing a report now.' / 'They are runing in the park.' ĐÚNG: 'He is writing a report now.' / 'They are running in the park.'",
+      "Lỗi dùng thì hiện tại tiếp diễn cho thói quen hoặc sự thật chung chung (nên dùng hiện tại đơn) thay vì một hành động đang thực sự diễn ra. Ví dụ sai: 'The Earth is going around the Sun.' ĐÚNG: 'The Earth goes around the Sun.'"
+    ],
+    "formulas": {
+      "affirmative": "S + am/is/are + V-ing. Lưu ý cách thêm '-ing': động từ 1 âm tiết tận cùng bằng 1 phụ âm đứng sau 1 nguyên âm ngắn thì nhân đôi phụ âm cuối (run → running, sit → sitting, stop → stopping); động từ tận cùng bằng 'e' câm thì bỏ 'e' rồi thêm '-ing' (write → writing, make → making, take → taking); động từ tận cùng bằng '-ie' thì đổi thành 'y' rồi thêm '-ing' (lie → lying, die → dying).",
+      "negative": "S + am/is/are + not + V-ing (thường viết tắt: isn't, aren't; riêng 'am not' không có dạng viết tắt chuẩn).",
+      "question": "Am/Is/Are + S + V-ing? Trả lời ngắn: Yes, I am. / No, he isn't. / No, they aren't."
+    }
+  }
+}

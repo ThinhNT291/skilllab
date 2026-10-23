@@ -1,0 +1,178 @@
+{
+  "id": "subjunctive",
+  "language": "en",
+  "title": "Câu giả định (Subjunctive: wish, if only, would rather, it's time...)",
+  "levels": [
+    "B2"
+  ],
+  "order": 21,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "subjunctive-u1-wish-present",
+        "label": "Wish + quá khứ đơn (ước về hiện tại)",
+        "explanationVi": "\"Wish + S + quá khứ đơn\" diễn tả ước muốn về một điều KHÔNG CÓ THẬT ở HIỆN TẠI, cấu trúc này chính là \"bản sao\" của mệnh đề if trong câu điều kiện loại 2 (unreal present: if + quá khứ đơn), chỉ khác là đặt sau \"wish\" thay vì \"if\". Ví dụ: \"If I had more time, I would travel more\" (điều kiện) ~ \"I wish I had more time\" (ước muốn). Vì diễn tả điều trái với thực tế hiện tại, động từ TO BE nên dùng \"were\" cho mọi ngôi (kể cả I/he/she) trong văn phong trang trọng, chuẩn mực: \"I wish I were taller\" chứ không phải \"I wish I was taller\" (dù \"was\" vẫn được chấp nhận trong văn nói thân mật). Cấu trúc này KHÔNG dùng để phàn nàn về hành vi của người khác (xem usage \"wish + would\" bên dưới) và cũng không dùng để diễn tả tiếc nuối về quá khứ (xem usage tiếp theo).",
+        "examples": [
+          {
+            "en": "I wish I had a bigger apartment.",
+            "vi": "Tôi ước gì mình có một căn hộ rộng hơn."
+          },
+          {
+            "en": "He wishes he spoke Japanese.",
+            "vi": "Anh ấy ước gì mình biết nói tiếng Nhật."
+          },
+          {
+            "en": "I wish I were on a beach right now instead of sitting in this office.",
+            "vi": "Tôi ước gì bây giờ mình đang ở trên bãi biển thay vì ngồi trong văn phòng này."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-u2-wish-past",
+        "label": "Wish + quá khứ hoàn thành (tiếc nuối quá khứ)",
+        "explanationVi": "\"Wish + S + quá khứ hoàn thành\" (had + V3/ed) diễn tả sự tiếc nuối về một điều đã KHÔNG XẢY RA (hoặc đã xảy ra không như mong muốn) trong QUÁ KHỨ — điều này không thể thay đổi được nữa. Cấu trúc song song hoàn toàn với mệnh đề if của câu điều kiện loại 3 (unreal past: if + had + V3): \"If I had studied harder, I would have passed\" ~ \"I wish I had studied harder.\" Điểm khác biệt cốt lõi với usage \"wish + quá khứ đơn\" ở trên là MỐC THỜI GIAN của điều được ước: quá khứ đơn dùng cho việc ước về HIỆN TẠI, còn quá khứ hoàn thành dùng cho việc ước về một thời điểm ĐÃ QUA, thường đi kèm các mốc thời gian như \"last month\", \"back then\", \"yesterday\". Thể phủ định \"hadn't\" thường xuất hiện khi diễn tả tiếc nuối về việc đã LÀM một điều gì đó mà giờ đây ước gì đừng làm.",
+        "examples": [
+          {
+            "en": "I wish I had listened to my parents' advice when I was younger.",
+            "vi": "Tôi ước gì mình đã nghe lời khuyên của bố mẹ khi còn trẻ."
+          },
+          {
+            "en": "She wishes she hadn't quit her job so suddenly.",
+            "vi": "Cô ấy ước gì mình đã không nghỉ việc một cách đột ngột như vậy."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-u3-wish-would",
+        "label": "Wish + would (phàn nàn về người/vật khác)",
+        "explanationVi": "\"Wish + S + would\" dùng để phàn nàn/khó chịu về hành vi hay thói quen LẶP LẠI của NGƯỜI KHÁC hoặc SỰ VẬT (thời tiết, máy móc...) ở hiện tại mà người nói muốn nó THAY ĐỔI hoặc DỪNG LẠI, thể hiện cảm xúc bực bội, sốt ruột — HOẶC để bày tỏ sự sốt ruột/mong đợi một SỰ KIỆN CỤ THỂ, chỉ xảy ra một lần, mà người nói không kiểm soát được (vd mong xe buýt mau đến), miễn chủ thể vẫn là người/vật KHÁC người nói. Ba giới hạn quan trọng cần nhớ (đây là điểm hay bị hỏi trong đề thi): (1) KHÔNG dùng \"wish + would\" cho chính hành động hay khả năng của NGƯỜI NÓI — chủ ngữ \"I\" không thể tự ước bản thân mình bằng \"would\", phải dùng \"wish + could\" (khả năng) hoặc \"wish + quá khứ đơn\" (trạng thái); (2) KHÔNG dùng cho các ĐỘNG TỪ TRẠNG THÁI (stative verbs: be, know, like, love, understand...) hay sự thật/tình trạng chung chung — trường hợp này quay lại dùng \"wish + quá khứ đơn\"; (3) chủ thể được nhắc tới sau \"would\" phải khác với người nói — đây luôn là lời phàn nàn hướng RA NGOÀI, không hướng vào bản thân.",
+        "examples": [
+          {
+            "en": "I wish you would stop interrupting me when I'm talking.",
+            "vi": "Tôi ước gì bạn ngừng ngắt lời tôi khi tôi đang nói."
+          },
+          {
+            "en": "I wish it would stop raining so we could go outside.",
+            "vi": "Tôi ước gì trời ngừng mưa để chúng ta có thể ra ngoài."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-u4-if-only",
+        "label": "If only (nhấn mạnh hơn wish)",
+        "explanationVi": "\"If only\" mang cùng ba cấu trúc như \"wish\" (S + quá khứ đơn cho hiện tại, S + quá khứ hoàn thành cho quá khứ, S + would cho sự khó chịu/mong thay đổi) nhưng mang SẮC THÁI CẢM XÚC MẠNH HƠN, thể hiện sự tiếc nuối hoặc khao khát tha thiết hơn \"wish\" — thường dùng trong văn nói giàu cảm xúc hoặc văn viết trang trọng. Một điểm khác biệt về CÚ PHÁP đáng chú ý: \"if only\" có thể ĐỨNG MỘT MÌNH tạo thành câu cảm thán hoàn chỉnh (thường kết thúc bằng dấu chấm than), không cần mệnh đề chính đi kèm, trong khi \"wish\" luôn cần một mệnh đề chính \"S + wish\" phía trước để câu có nghĩa trọn vẹn. Ví dụ: \"If only I had more money!\" là một câu hoàn chỉnh, tự nhiên; còn muốn diễn đạt tương tự bằng wish thì bắt buộc phải có \"I wish I had more money.\"",
+        "examples": [
+          {
+            "en": "If only I hadn't lost my temper at the meeting.",
+            "vi": "Giá như tôi đã không nổi nóng trong cuộc họp đó."
+          },
+          {
+            "en": "If only she would answer her phone!",
+            "vi": "Giá như cô ấy chịu nghe điện thoại!"
+          },
+          {
+            "en": "If only I knew the answer to this question.",
+            "vi": "Giá như tôi biết câu trả lời cho câu hỏi này."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-u5-would-rather",
+        "label": "Would rather (sở thích bản thân vs mong muốn ở người khác)",
+        "explanationVi": "\"Would rather\" (thường viết tắt 'd rather) diễn tả sự ưa thích/lựa chọn hơn giữa hai điều, và có HAI cấu trúc cần phân biệt rõ ràng tùy vào chủ thể của hành động được nói tới. (1) Khi nói về sở thích của CHÍNH NGƯỜI NÓI (chủ ngữ ngầm định giống nhau ở cả hai vế), dùng \"would rather + V nguyên mẫu không to\": \"I would rather stay home tonight.\" (2) Khi người nói bày tỏ mong muốn về hành động của MỘT NGƯỜI KHÁC (chủ ngữ khác nhau), dùng \"would rather + S + quá khứ đơn\" để nói về hiện tại/tương lai gần (\"I would rather you left now\" = ý muốn ngay bây giờ, KHÔNG mang nghĩa quá khứ thực), hoặc \"would rather + S + quá khứ hoàn thành\" để nói về một việc đã xảy ra trong quá khứ (\"I would rather you hadn't told him\"). Đây chính là điểm gây nhầm lẫn nhất: quá khứ đơn ở cấu trúc thứ hai KHÔNG mang nghĩa quá khứ, giống hệt logic của \"wish + quá khứ đơn\". Phủ định của dạng nguyên mẫu là \"would rather not + V\".",
+        "examples": [
+          {
+            "en": "I would rather eat at home than go to a restaurant tonight.",
+            "vi": "Tôi thà ăn ở nhà còn hơn là đi ăn nhà hàng tối nay."
+          },
+          {
+            "en": "I would rather you didn't smoke in the house.",
+            "vi": "Tôi mong bạn đừng hút thuốc trong nhà."
+          },
+          {
+            "en": "I would rather you had told me the truth from the start.",
+            "vi": "Tôi ước gì bạn đã nói thật với tôi ngay từ đầu."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-u6-its-time",
+        "label": "It's (high/about) time + quá khứ đơn",
+        "explanationVi": "Cấu trúc \"It's (about/high) time + S + quá khứ đơn\" dùng để PHÊ PHÁN hoặc nhấn mạnh rằng một việc ĐÁNG LẼ ĐÃ PHẢI xảy ra rồi nhưng vẫn CHƯA xảy ra, thể hiện sự sốt ruột hoặc trách móc nhẹ nhàng. Về mặt thời gian, cấu trúc này nói về HIỆN TẠI/TƯƠNG LAI GẦN dù động từ ở dạng QUÁ KHỨ ĐƠN — đây là một dạng \"giả định\" tương tự logic của wish và would rather, không phải quá khứ thực. Thêm \"about\" hoặc \"high\" trước \"time\" làm tăng mức độ nhấn mạnh, thể hiện cảm xúc bực bội mạnh hơn \"it's time\" đơn thuần. Cần phân biệt rõ với cấu trúc trung tính, không mang sắc thái phê phán: \"It's time to + V nguyên mẫu\" hoặc \"It's time for + N\", chỉ đơn thuần báo hiệu đã đến giờ làm gì đó — ví dụ \"It's time to go\" chỉ báo giờ giấc, còn \"It's time we went\" ngụ ý lẽ ra phải đi từ trước rồi.",
+        "examples": [
+          {
+            "en": "It's time you started taking your studies more seriously.",
+            "vi": "Đã đến lúc bạn phải nghiêm túc hơn với việc học rồi."
+          },
+          {
+            "en": "It's high time the government did something about traffic congestion.",
+            "vi": "Đã đến lúc chính phủ phải làm gì đó về tình trạng tắc nghẽn giao thông."
+          }
+        ]
+      },
+      {
+        "id": "subjunctive-u7-mandative",
+        "label": "Giả định mệnh lệnh trang trọng (mandative subjunctive)",
+        "explanationVi": "Đây là nhóm cấu trúc giả định HOÀN TOÀN KHÁC về bản chất so với các usage wish/would rather/it's time ở trên — không diễn tả ước muốn hay tiếc nuối, mà diễn tả một ĐỀ NGHỊ, KHUYẾN NGHỊ, YÊU CẦU hay MỆNH LỆNH mang tính TRANG TRỌNG, thường gặp trong văn phong học thuật, báo chí, văn bản hành chính — rất hay xuất hiện trong bài thi VSTEP phần đọc/viết học thuật. Sau các động từ như suggest, recommend, insist, demand, require, request, propose (hoặc các cụm \"it is essential/important/vital that\") + \"that\" + S + V, động từ trong mệnh đề \"that\" luôn ở DẠNG NGUYÊN MẪU KHÔNG \"TO\" (base form): giữ NGUYÊN, không chia theo ngôi (không thêm -s ở ngôi ba số ít) và KHÔNG lùi thì dù mệnh đề chính ở thì quá khứ — đây là điểm khác biệt lớn so với reported speech thông thường. Ở dạng phủ định, \"not\" đặt trực tiếp trước động từ nguyên mẫu: \"...that he not attend the meeting.\" Với động từ \"to be\", dạng nguyên mẫu là \"be\" (không phải is/was/are): \"The committee insisted that the policy be reviewed.\"",
+        "examples": [
+          {
+            "en": "The teacher suggested that every student submit the assignment by Friday.",
+            "vi": "Giáo viên đề nghị mọi sinh viên nộp bài tập trước thứ Sáu."
+          },
+          {
+            "en": "The board demanded that the CEO resign immediately.",
+            "vi": "Hội đồng quản trị yêu cầu CEO từ chức ngay lập tức."
+          },
+          {
+            "en": "The committee recommended that the proposal not be approved without further review.",
+            "vi": "Ủy ban khuyến nghị rằng đề xuất không nên được thông qua nếu chưa xem xét thêm."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "wish",
+        "meaningVi": "ước gì, mong muốn điều trái thực tế (ở hiện tại hoặc quá khứ)"
+      },
+      {
+        "word": "if only",
+        "meaningVi": "giá như, ước gì (nhấn mạnh, cảm xúc mạnh hơn wish, có thể đứng một mình)"
+      },
+      {
+        "word": "would rather",
+        "meaningVi": "thà..., muốn... hơn (thể hiện lựa chọn ưu tiên của bản thân hoặc mong muốn ở người khác)"
+      },
+      {
+        "word": "it's (high/about) time",
+        "meaningVi": "đã đến lúc (phải)... — phê phán việc đáng lẽ đã xảy ra nhưng chưa xảy ra"
+      },
+      {
+        "word": "wish/if only + would",
+        "meaningVi": "phàn nàn, mong người khác hoặc sự vật thay đổi một hành vi khó chịu lặp lại ở hiện tại"
+      },
+      {
+        "word": "suggest/recommend/insist/demand/require/propose",
+        "meaningVi": "nhóm động từ đi với \"that + S + V nguyên mẫu\" (giả định mệnh lệnh trang trọng)"
+      },
+      {
+        "word": "were",
+        "meaningVi": "dạng giả định của \"to be\" dùng cho mọi ngôi trong câu ước/giả định trang trọng (I wish I were...)"
+      },
+      {
+        "word": "that",
+        "meaningVi": "từ nối dẫn mệnh đề chứa động từ nguyên mẫu sau các động từ đề nghị/yêu cầu/khuyến nghị"
+      }
+    ],
+    "commonMistakes": [
+      "Sai: `I wish I would be taller.` **ĐÚNG**: `I wish I were taller.` — ước về tính trạng của chính người nói ở hiện tại dùng quá khứ đơn (were), không dùng \"would\" vì \"would\" chỉ dành cho hành vi của người/vật KHÁC.",
+      "Sai: `It's so annoying that it never stops raining. I wish it stops raining right now.` **ĐÚNG**: `I wish it would stop raining right now.` — phàn nàn về sự việc gây khó chịu lặp lại ở hiện tại (mưa) phải dùng \"wish + would\", không dùng hiện tại đơn.",
+      "Sai: `She wishes she can speak French fluently.` **ĐÚNG**: `She wishes she could speak French fluently.` — ước về khả năng ở hiện tại phải lùi về quá khứ đơn/could, không giữ nguyên hiện tại đơn.",
+      "Sai: `I would rather you stay here tonight.` (khi muốn nói về mong muốn với hành động của NGƯỜI KHÁC ở hiện tại) **ĐÚNG**: `I would rather you stayed here tonight.` — \"would rather + S + quá khứ đơn\" mang nghĩa hiện tại/tương lai khi nói về mong muốn đối với hành động của người khác, không dùng V nguyên mẫu trong trường hợp này.",
+      "Sai: `The manager insisted that the report is finished by Friday.` **ĐÚNG**: `The manager insisted that the report be finished by Friday.` — động từ trong mệnh đề \"that\" sau insist/demand/require/recommend/suggest luôn ở dạng nguyên mẫu (be), không chia theo thì hay ngôi.",
+      "Sai: `The doctor recommended that he sees a specialist.` **ĐÚNG**: `The doctor recommended that he see a specialist.` — dù chủ ngữ là \"he\" (ngôi ba số ít), động từ trong mandative subjunctive vẫn giữ nguyên dạng gốc \"see\", không thêm \"-s\".",
+      "Sai: `It's time we go to bed.` **ĐÚNG**: `It's time we went to bed.` — sau \"it's (high) time + S\", động từ chia quá khứ đơn dù mang nghĩa hiện tại/tương lai gần, thể hiện ý phê phán việc chưa xảy ra."
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "present-perfect",
+  "language": "en",
+  "title": "Thì hiện tại hoàn thành (Present Perfect)",
+  "levels": [
+    "B1"
+  ],
+  "order": 7,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "pp-u1-unspecified-past",
+        "label": "Hành động xảy ra trong quá khứ không rõ thời gian",
+        "explanationVi": "Dùng để diễn tả một hành động đã xảy ra tại một thời điểm không xác định trong quá khứ, chúng ta không quan tâm 'khi nào' mà quan tâm 'đã làm'.",
+        "examples": [
+          {
+            "en": "I have visited that ancient castle before.",
+            "vi": "Tôi đã từng thăm tòa lâu đài cổ đó trước đây."
+          },
+          {
+            "en": "They have finished their project.",
+            "vi": "Họ đã hoàn thành dự án của họ rồi."
+          }
+        ]
+      },
+      {
+        "id": "pp-u2-since-for",
+        "label": "Hành động bắt đầu trong quá khứ và còn tiếp diễn đến hiện tại",
+        "explanationVi": "Dùng để diễn tả một hành động bắt đầu ở quá khứ và kéo dài đến tận bây giờ, thường đi với since (mốc thời gian) hoặc for (khoảng thời gian).",
+        "examples": [
+          {
+            "en": "We have lived in this city for ten years.",
+            "vi": "Chúng tôi đã sống ở thành phố này được mười năm rồi."
+          },
+          {
+            "en": "She has worked at this school since 2015.",
+            "vi": "Cô ấy đã làm việc tại ngôi trường này từ năm 2015."
+          }
+        ]
+      },
+      {
+        "id": "pp-u3-repeated",
+        "label": "Hành động lặp lại nhiều lần trong quá khứ",
+        "explanationVi": "Dùng để diễn tả một việc đã được thực hiện nhiều lần từ quá khứ cho đến hiện tại.",
+        "examples": [
+          {
+            "en": "I have seen this movie three times.",
+            "vi": "Tôi đã xem bộ phim này ba lần rồi."
+          },
+          {
+            "en": "He has called her several times today.",
+            "vi": "Hôm nay anh ấy đã gọi cho cô ấy vài lần rồi."
+          }
+        ]
+      },
+      {
+        "id": "pp-u4-result-now",
+        "label": "Hành động vừa xảy ra để lại dấu hiệu hoặc kết quả ở hiện tại",
+        "explanationVi": "Dùng để diễn tả một việc vừa kết thúc và kết quả của nó vẫn còn nhìn thấy được ở ngay lúc nói.",
+        "examples": [
+          {
+            "en": "I have lost my key, so I cannot enter the house.",
+            "vi": "Tôi đã làm mất chìa khóa, vì vậy tôi không thể vào nhà."
+          },
+          {
+            "en": "She has just cleaned the room; it looks very tidy.",
+            "vi": "Cô ấy vừa mới dọn phòng xong; nó trông rất gọn gàng."
+          }
+        ]
+      },
+      {
+        "id": "pp-u5-experience",
+        "label": "Diễn tả kinh nghiệm hoặc trải nghiệm sống",
+        "explanationVi": "Dùng để hỏi hoặc kể về những kinh nghiệm, trải nghiệm bản thân đã có hoặc chưa từng có từ trước đến nay.",
+        "examples": [
+          {
+            "en": "Have you ever travelled to Japan?",
+            "vi": "Bạn đã từng đi du lịch tới Nhật Bản chưa?"
+          },
+          {
+            "en": "I have never tasted this kind of fruit.",
+            "vi": "Tôi chưa bao giờ nếm thử loại trái cây này."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "already",
+        "meaningVi": "đã ... rồi (dùng trong câu khẳng định, đứng sau have/has và trước V-p2)"
+      },
+      {
+        "word": "just",
+        "meaningVi": "vừa mới (dùng trong câu khẳng định, đứng sau have/has)"
+      },
+      {
+        "word": "yet",
+        "meaningVi": "chưa (dùng trong câu phủ định/nghi vấn, đứng cuối câu)"
+      },
+      {
+        "word": "ever",
+        "meaningVi": "đã từng (dùng trong câu nghi vấn)"
+      },
+      {
+        "word": "never",
+        "meaningVi": "chưa bao giờ (dùng trong câu khẳng định mang nghĩa phủ định)"
+      },
+      {
+        "word": "since",
+        "meaningVi": "kể từ khi (cộng với mốc thời gian)"
+      },
+      {
+        "word": "for",
+        "meaningVi": "trong khoảng (cộng với khoảng thời gian)"
+      },
+      {
+        "word": "recently / lately",
+        "meaningVi": "gần đây"
+      },
+      {
+        "word": "so far / up to now",
+        "meaningVi": "cho đến bây giờ"
+      }
+    ],
+    "commonMistakes": [
+      "Nhầm lẫn giữa thì Hiện tại hoàn thành và Quá khứ đơn: Người Việt hay dùng thì này với mốc thời gian cụ thể trong quá khứ. SAI: I have visited Hanoi yesterday. ĐÚNG: I visited Hanoi yesterday.",
+      "Dùng sai Since và For: 'For' đi với khoảng thời gian, 'Since' đi với mốc thời gian. SAI: I have worked here since 5 years. ĐÚNG: I have worked here for 5 years.",
+      "Quên chia V-p2 hoặc quên 'have/has': Đây là lỗi cấu trúc cơ bản. SAI: She has finish her homework. ĐÚNG: She has finished her homework."
+    ],
+    "formulas": {
+      "affirmative": "S + have/has + V(p2) + O",
+      "negative": "S + have/has + not + V(p2) + O",
+      "question": "Have/Has + S + V(p2) + O?"
+    }
+  }
+}

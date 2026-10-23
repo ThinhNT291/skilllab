@@ -1,0 +1,129 @@
+{
+  "id": "comparatives-superlatives",
+  "language": "en",
+  "title": "So sánh (Comparatives & Superlatives)",
+  "levels": [
+    "A2"
+  ],
+  "order": 13,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "comp-u1-short-adjectives",
+        "label": "So sánh hơn với tính từ/trạng từ ngắn (adj/adv-er + than)",
+        "explanationVi": "Với tính từ/trạng từ có 1 âm tiết (tall, fast, cheap, small...) và một số tính từ 2 âm tiết kết thúc bằng -y, -er, -ow, -le (happy, clever, narrow, simple...), ta thêm đuôi -er vào sau tính từ/trạng từ, rồi thêm than trước đối tượng được so sánh. Cấu trúc: S + V + adj/adv-er + than + N/Pronoun.\n\nQuy tắc chính tả cần nhớ:\n- Tính từ tận cùng bằng -e: chỉ thêm -r (nice → nicer, large → larger).\n- Tính từ 1 âm tiết tận cùng là 1 phụ âm đứng sau 1 nguyên âm: nhân đôi phụ âm cuối rồi thêm -er (big → bigger, hot → hotter, thin → thinner). Không nhân đôi nếu tận cùng là w, x, y (new → newer, low → lower).\n- Tính từ tận cùng bằng phụ âm + y: đổi y thành i rồi thêm -er (happy → happier, easy → easier, early → earlier). Nếu y đứng sau một nguyên âm thì giữ nguyên (gray → grayer).",
+        "examples": [
+          {
+            "en": "This laptop is lighter than my old one.",
+            "vi": "Chiếc laptop này nhẹ hơn chiếc cũ của tôi."
+          },
+          {
+            "en": "She runs faster than her brother.",
+            "vi": "Cô ấy chạy nhanh hơn anh trai mình."
+          }
+        ]
+      },
+      {
+        "id": "comp-u2-long-adjectives",
+        "label": "So sánh hơn với tính từ/trạng từ dài (more + adj/adv + than)",
+        "explanationVi": "Với tính từ/trạng từ có từ 2 âm tiết trở lên và không thuộc nhóm ngoại lệ ở trên — ví dụ beautiful, expensive, comfortable, carefully, seriously — ta không thêm -er mà dùng more đứng trước tính từ/trạng từ ở dạng nguyên gốc, rồi thêm than. Cấu trúc: S + V + more + adj/adv + than + N/Pronoun.\n\nMột số tính từ 2 âm tiết (quiet, clever, narrow, common, polite...) có thể chấp nhận cả hai cách, nhưng từ 3 âm tiết trở lên thì bắt buộc dùng more, tuyệt đối không thêm -er. Có thể thêm far/much/a lot trước more để nhấn mạnh mức chênh lệch lớn: far more expensive. Lưu ý riêng cho trạng từ: trạng từ hình thành đều đặn bằng cách thêm đuôi -ly vào tính từ (regularly formed -ly adverbs, ví dụ clearly, effectively, carefully) LUÔN dùng more/most, không bao giờ thêm -er/-est, kể cả khi tính từ gốc là từ ngắn (ví dụ tính từ 'slow' dùng được 'slower', nhưng trạng từ 'slowly' phải là 'more slowly', không phải 'slowlier').",
+        "examples": [
+          {
+            "en": "Working from home is more convenient than commuting every day.",
+            "vi": "Làm việc tại nhà tiện lợi hơn việc phải đi lại mỗi ngày."
+          },
+          {
+            "en": "He explained the plan more carefully than I expected.",
+            "vi": "Anh ấy giải thích kế hoạch cẩn thận hơn tôi tưởng."
+          }
+        ]
+      },
+      {
+        "id": "comp-u3-superlatives",
+        "label": "So sánh nhất (the + adj/adv-est / the most + adj/adv)",
+        "explanationVi": "So sánh nhất dùng để so sánh một người/vật với tất cả những người/vật còn lại trong một nhóm hoặc phạm vi nhất định, và luôn có the đứng trước.\n\n- Tính từ/trạng từ ngắn: the + adj/adv-est, áp dụng cùng quy tắc chính tả như -er (nhân đôi phụ âm, đổi y thành i, chỉ thêm -st nếu đã tận cùng bằng -e). Ví dụ: the tallest, the biggest, the happiest.\n- Tính từ/trạng từ dài: the most + adj/adv. Ví dụ: the most expensive, the most carefully.\n\nSau so sánh nhất thường có in + danh từ số ít chỉ địa điểm/phạm vi, hoặc of + danh từ số nhiều/nhóm người. Có thể thêm by far trước the để nhấn mạnh mức độ vượt trội tuyệt đối (by far the best). Lưu ý: nếu chỉ so sánh ĐÚNG hai đối tượng, phải dùng so sánh hơn (comparative), không dùng so sánh nhất — ví dụ 'Of the two routes, the coastal road is flatter' (không phải 'the flattest'), vì so sánh nhất chỉ dùng khi so sánh từ ba đối tượng trở lên.",
+        "examples": [
+          {
+            "en": "Mount Everest is the highest mountain in the world.",
+            "vi": "Đỉnh Everest là ngọn núi cao nhất thế giới."
+          },
+          {
+            "en": "Of the three candidates, she answered the questions the most confidently.",
+            "vi": "Trong ba ứng viên, cô ấy trả lời câu hỏi tự tin nhất."
+          }
+        ]
+      },
+      {
+        "id": "comp-u4-equality",
+        "label": "So sánh bằng (as...as) và dạng phủ định (not as/so...as)",
+        "explanationVi": "So sánh bằng dùng để nói hai đối tượng ở cùng một mức độ: as + adj/adv (giữ nguyên dạng, không chia -er/-est) + as. Cấu trúc: S + V + as + adj/adv + as + N/Pronoun/Clause.\n\nỞ dạng phủ định, dùng not as...as hoặc not so...as (hai cách tương đương về nghĩa, trong đó not as...as phổ biến hơn trong văn phong hiện đại) để nói một đối tượng không đạt mức độ như đối tượng kia — về nghĩa gần tương đương với 'kém hơn'.\n\nCó thể thêm just/nearly/almost/twice/three times trước as...as để bổ sung sắc thái: just as...as (y hệt), nearly/almost as...as (gần bằng), twice as...as (gấp đôi).",
+        "examples": [
+          {
+            "en": "This exam is as difficult as the last one.",
+            "vi": "Bài thi này khó ngang với bài lần trước."
+          },
+          {
+            "en": "My brother doesn't drive as carefully as my father.",
+            "vi": "Em trai tôi lái xe không cẩn thận bằng bố tôi."
+          }
+        ]
+      },
+      {
+        "id": "comp-u5-irregular-double",
+        "label": "So sánh bất quy tắc và so sánh kép tăng tiến",
+        "explanationVi": "Một số tính từ/trạng từ có dạng so sánh hơn và so sánh nhất bất quy tắc, không theo hai quy tắc -er/more ở trên, cần học thuộc:\n- good/well → better → the best\n- bad/badly → worse → the worst\n- far → further/farther → the furthest/farthest (further thường dùng cho nghĩa trừu tượng như 'thêm nữa', farther thiên về khoảng cách vật lý; cả hai đều dùng được trong tiếng Anh-Mỹ)\n- little (không đếm được) → less → the least\n- many/much → more → the most\n\nSo sánh kép tăng tiến diễn tả một sự thay đổi diễn ra liên tục theo thời gian, gồm hai dạng:\n- Lặp lại tính từ/trạng từ so sánh hơn, nối bằng and: taller and taller (ngày càng cao), more and more expensive (ngày càng đắt).\n- Cấu trúc song song 'the + so sánh hơn..., the + so sánh hơn...' diễn tả quan hệ tỉ lệ thuận giữa hai vế: The more you practice, the better you get (Càng luyện tập nhiều càng tiến bộ). Lưu ý: 'good' là TÍNH TỪ (bổ nghĩa danh từ, đi sau is/looks/seems...), còn 'well' là TRẠNG TỪ tương ứng (bổ nghĩa động từ, ví dụ play well, sing well) — dạng so sánh của cả hai đều là better/best, nhưng phải chọn đúng từ loại theo vai trò trong câu: 'She is a good singer' (tính từ, bổ nghĩa danh từ 'singer') nhưng 'She sings well' (trạng từ, bổ nghĩa động từ 'sings').",
+        "examples": [
+          {
+            "en": "The weather here gets colder and colder every winter.",
+            "vi": "Thời tiết ở đây ngày càng lạnh hơn mỗi mùa đông."
+          },
+          {
+            "en": "The more information you give us, the faster we can help you.",
+            "vi": "Bạn cung cấp càng nhiều thông tin, chúng tôi càng giúp bạn nhanh hơn."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "than",
+        "meaningVi": "hơn (đứng sau tính từ/trạng từ so sánh hơn)"
+      },
+      {
+        "word": "as ... as",
+        "meaningVi": "bằng, ngang bằng"
+      },
+      {
+        "word": "not as / not so ... as",
+        "meaningVi": "không bằng, kém hơn"
+      },
+      {
+        "word": "much / far / a lot + so sánh hơn",
+        "meaningVi": "hơn hẳn, hơn nhiều (nhấn mạnh mức chênh lệch lớn)"
+      },
+      {
+        "word": "a little / a bit / slightly + so sánh hơn",
+        "meaningVi": "hơn một chút (nhấn mạnh mức chênh lệch nhỏ)"
+      },
+      {
+        "word": "by far the + so sánh nhất",
+        "meaningVi": "vượt trội hơn hẳn tất cả"
+      },
+      {
+        "word": "the same as",
+        "meaningVi": "giống hệt, bằng với"
+      },
+      {
+        "word": "twice / three times as ... as",
+        "meaningVi": "gấp đôi / gấp ba lần"
+      }
+    ],
+    "commonMistakes": [
+      "Dùng cả **more** và **-er** cùng lúc, hoặc dùng **-er** cho tính từ dài thay vì **more**. Ví dụ sai: `She is more taller than me.` ĐÚNG: `She is taller than me.` / Ví dụ sai: `This book is interestinger than that one.` ĐÚNG: `This book is more interesting than that one.`",
+      "Quên **the** bắt buộc trước so sánh nhất. Ví dụ sai: `He is tallest student in the class.` ĐÚNG: `He is the tallest student in the class.`",
+      "Sai quy tắc chính tả khi thêm **-er/-est**: không nhân đôi phụ âm cuối, không đổi y→i, hoặc thêm dư -e. Ví dụ sai: `This bag is biger than mine.` / `She is the happyest person I know.` ĐÚNG: `This bag is bigger than mine.` / `She is the happiest person I know.`",
+      "Nhầm lẫn giữa `than` (dùng trong câu so sánh) và `then` (chỉ trình tự thời gian, nghĩa 'sau đó'). Ví dụ sai: `My score is higher then hers.` ĐÚNG: `My score is higher than hers.`"
+    ]
+  }
+}

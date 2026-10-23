@@ -1,0 +1,137 @@
+{
+  "id": "tag-questions",
+  "language": "en",
+  "title": "Câu hỏi đuôi (Tag Questions)",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "order": 19,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "tag-questions-u1-basic-rule",
+        "label": "Quy tắc cơ bản: đối lập và khớp trợ động từ",
+        "explanationVi": "Quy tắc cơ bản của câu hỏi đuôi (tag question) là: nếu mệnh đề chính ở dạng KHẲNG ĐỊNH thì phần đuôi phải ở dạng PHỦ ĐỊNH, và ngược lại nếu mệnh đề chính ở dạng PHỦ ĐỊNH thì phần đuôi phải ở dạng KHẲNG ĐỊNH — gọi là nguyên tắc 'đối lập' (opposite polarity). Phần đuôi luôn dùng ĐÚNG trợ động từ (auxiliary) hoặc động từ khuyết thiếu (modal) đã xuất hiện sẵn trong mệnh đề chính — is/are/was/were, have/has/had, can/could/will/would/should/must... — và giữ nguyên thì của trợ động từ đó. Chủ ngữ trong tag luôn là ĐẠI TỪ tương ứng (danh từ riêng/chung đều chuyển thành he/she/it/they/we...). Điểm dễ nhầm nhất là học viên hay chêm do/does/did vào ngay cả khi mệnh đề chính đã có sẵn trợ động từ khác — điều này SAI; chỉ dùng do/does/did khi mệnh đề chính KHÔNG hề có trợ động từ nào (xem usage số 2).",
+        "examples": [
+          {
+            "en": "They are traveling to Japan next month, aren't they?",
+            "vi": "Họ sẽ đi du lịch Nhật Bản vào tháng tới, phải không?"
+          },
+          {
+            "en": "Emma isn't coming to the party tonight, is she?",
+            "vi": "Emma sẽ không đến bữa tiệc tối nay, đúng không?"
+          }
+        ]
+      },
+      {
+        "id": "tag-questions-u2-do-does-did",
+        "label": "Không có trợ động từ: mượn do/does/did",
+        "explanationVi": "Khi mệnh đề chính chỉ có một ĐỘNG TỪ THƯỜNG (không có is/are/have/can/will...) ở thì hiện tại đơn hoặc quá khứ đơn, phần đuôi phải mượn trợ động từ do-support: dùng 'do/don't' với I/you/we/they, 'does/doesn't' với chủ ngữ số ít ngôi ba (he/she/it) ở hiện tại đơn, và 'did/didn't' cho quá khứ đơn ở mọi chủ ngữ. Đây là điểm khác biệt cốt lõi so với usage số 1: usage 1 áp dụng khi câu ĐÃ CÓ trợ động từ/modal thì lặp lại chính từ đó; usage này chỉ áp dụng khi câu hoàn toàn KHÔNG có trợ động từ, bắt buộc phải 'mượn' do/does/did. Lỗi phổ biến là học viên dùng 'isn't it' cho câu có động từ thường như 'She works here' (đúng phải là 'doesn't she'), hoặc chia sai does/did theo ngôi và thì của động từ chính.",
+        "examples": [
+          {
+            "en": "Tom plays tennis every weekend, doesn't he?",
+            "vi": "Tom chơi tennis mỗi cuối tuần, phải không?"
+          },
+          {
+            "en": "The train arrived late again yesterday, didn't it?",
+            "vi": "Chuyến tàu lại đến trễ hôm qua, đúng không?"
+          }
+        ]
+      },
+      {
+        "id": "tag-questions-u3-special-cases",
+        "label": "Các trường hợp đặc biệt",
+        "explanationVi": "Một số cấu trúc có phần đuôi KHÔNG theo quy tắc trợ động từ thông thường mà là trường hợp cần học thuộc: (1) Với chủ ngữ 'I am' + tính từ/danh từ, tag luôn là 'aren't I?'; nếu mệnh đề là 'I am not', tag là 'am I?'. (2) Với câu MỆNH LỆNH (cả khẳng định lẫn phủ định, ví dụ 'Open the door' hay 'Don't be late'), tag thường dùng 'will you?' để yêu cầu ai đó làm gì. (3) Với câu rủ rê bắt đầu bằng 'Let's...', tag luôn là 'shall we?', dù là 'Let's...' hay 'Let's not...'. (4) Với câu có chủ ngữ giả 'There is/are/was/were', tag phải lặp lại từ 'there' thay vì chuyển thành it/they — đây là lỗi học viên hay mắc nhất, nhầm 'there' thành 'it'.",
+        "examples": [
+          {
+            "en": "Close the window, will you?",
+            "vi": "Đóng cửa sổ lại nhé, được không?"
+          },
+          {
+            "en": "There is a problem with the printer, isn't there?",
+            "vi": "Cái máy in đang có vấn đề, đúng không?"
+          }
+        ]
+      },
+      {
+        "id": "tag-questions-u4-negative-words",
+        "label": "Từ phủ định không có 'not' (never, no one, hardly...)",
+        "explanationVi": "Một số từ tuy không có 'not' nhưng mang NGHĨA PHỦ ĐỊNH: never, no/no one/nobody/nothing/none, hardly, scarcely, barely, rarely, seldom, few, little. Khi mệnh đề chính chứa các từ này, câu được xem là PHỦ ĐỊNH VỀ Ý NGHĨA, nên tag PHẢI Ở DẠNG KHẲNG ĐỊNH — đây là điểm khác biệt quan trọng nhất so với usage số 1, nơi tag chỉ dựa vào hình thức có/không có 'not' trên bề mặt câu chứ không dựa vào nghĩa ẩn. Ví dụ 'She never lies, does she?' chứ không phải 'doesn't she?' vì 'never' đã mang nghĩa phủ định sẵn rồi. Với đại từ bất định như 'no one/nobody' làm chủ ngữ, đại từ trong tag hiện đại thường dùng 'they' (số nhiều trung tính) thay vì 'he', theo cách dùng phổ biến trong tiếng Anh hiện đại (singular they).",
+        "examples": [
+          {
+            "en": "He hardly ever exercises these days, does he?",
+            "vi": "Dạo này anh ấy hầu như không tập thể dục, đúng không?"
+          },
+          {
+            "en": "Nobody called while I was out, did they?",
+            "vi": "Không ai gọi điện lúc tôi ra ngoài, đúng không?"
+          }
+        ]
+      },
+      {
+        "id": "tag-questions-u5-intonation",
+        "label": "Ngữ điệu và ý nghĩa giao tiếp",
+        "explanationVi": "Ngữ điệu (intonation) của phần đuôi khi NÓI quyết định ý nghĩa giao tiếp của câu, dù NGỮ PHÁP của tag vẫn không đổi: nếu người nói XUỐNG giọng (falling intonation) ở phần đuôi, điều đó thể hiện người nói khá CHẮC CHẮN về điều vừa nói và chỉ đang muốn xác nhận lại — giống một lời khẳng định lịch sự hơn là một câu hỏi thật sự, ví dụ 'It's a beautiful day, isn't it?' nói với giọng xuống nghĩa là 'đúng không nào'. Ngược lại, nếu người nói LÊN giọng (rising intonation) ở phần đuôi, đó là một CÂU HỎI THẬT SỰ, thể hiện người nói không chắc chắn và thực sự muốn biết câu trả lời, ví dụ khi hỏi đường vì không chắc. Vì đây là nội dung dạng văn bản, học viên cần nhớ: phần NGỮ PHÁP của tag (chọn đúng trợ động từ, đúng cực khẳng định/phủ định, đúng đại từ) luôn cố định và KHÔNG phụ thuộc vào ngữ điệu — ngữ điệu chỉ thay đổi Ý NGHĨA giao tiếp khi nói, không làm thay đổi công thức ngữ pháp của tag.",
+        "examples": [
+          {
+            "en": "You've met my wife before, haven't you?",
+            "vi": "Anh đã gặp vợ tôi trước đây rồi, đúng không? (nói với giọng xuống, khá chắc chắn, chỉ muốn xác nhận)"
+          },
+          {
+            "en": "This isn't the right bus to the airport, is it?",
+            "vi": "Đây không phải xe buýt đi sân bay đúng không? (nói với giọng lên, thực sự không chắc và muốn hỏi)"
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "never / no one / nothing / hardly / rarely",
+        "meaningVi": "Các từ phủ định không có 'not' — coi mệnh đề chính là phủ định về nghĩa, nên tag phải ở dạng KHẲNG ĐỊNH."
+      },
+      {
+        "word": "Let's ...",
+        "meaningVi": "Câu rủ rê luôn dùng tag cố định 'shall we?', không phụ thuộc vào trợ động từ nào khác, kể cả khi là 'Let's not...'."
+      },
+      {
+        "word": "There is/are/was/were ...",
+        "meaningVi": "Chủ ngữ giả 'there' phải được lặp lại trong tag (is/are/was/were + there), tuyệt đối không chuyển thành it/they."
+      },
+      {
+        "word": "I am / I'm ...",
+        "meaningVi": "Chủ ngữ 'I am' có tag đặc biệt: 'aren't I?' khi mệnh đề khẳng định, 'am I?' khi mệnh đề là 'I am not'."
+      },
+      {
+        "word": "câu mệnh lệnh (Open.../ Don't be...)",
+        "meaningVi": "Câu yêu cầu, ra lệnh thường dùng tag 'will you?' dù mệnh đề chính khẳng định hay phủ định."
+      },
+      {
+        "word": "is/are/was/were, has/have/had, can/will/should/must...",
+        "meaningVi": "Khi mệnh đề chính đã có sẵn trợ động từ hoặc modal này, tag phải lặp lại ĐÚNG từ đó, tuyệt đối không thêm do/does/did."
+      },
+      {
+        "word": "động từ thường ở hiện tại đơn/quá khứ đơn (không có trợ động từ)",
+        "meaningVi": "Phải mượn do/does (hiện tại đơn) hoặc did (quá khứ đơn) để tạo tag, vì câu không có sẵn trợ động từ nào."
+      },
+      {
+        "word": "few / little",
+        "meaningVi": "Các lượng từ mang nghĩa phủ định (rất ít, hầu như không có) khiến mệnh đề chính thành phủ định về nghĩa, nên tag phải khẳng định."
+      }
+    ],
+    "commonMistakes": [
+      "Sai: `She has a new car, does she?` — **ĐÚNG**: `She has a new car, doesn't she?` (ở đây 'has' là ĐỘNG TỪ THƯỜNG mang nghĩa sở hữu, không phải trợ động từ hoàn thành, nên tag phải mượn do-support 'doesn't she', khác với 'She has finished her homework, hasn't she?' khi 'has' là trợ động từ).",
+      "Sai: `There isn't any milk left, is it?` — **ĐÚNG**: `There isn't any milk left, is there?` (chủ ngữ giả 'there' phải được lặp lại trong tag, không được đổi thành 'it').",
+      "Sai: `Nobody answered the phone, didn't they?` — **ĐÚNG**: `Nobody answered the phone, did they?` ('nobody' đã mang nghĩa phủ định nên tag phải ở dạng khẳng định, không thêm 'not' nữa).",
+      "Sai: `Let's have lunch now, will we?` — **ĐÚNG**: `Let's have lunch now, shall we?` (câu rủ rê với 'Let's' luôn dùng tag cố định 'shall we', không dùng 'will we').",
+      "Sai: `I'm right, amn't I?` hoặc quá trang trọng `I'm invited, am I not?` trong văn nói thông thường — **ĐÚNG**: `I'm invited to the party, aren't I?` (trong tiếng Anh chuẩn, 'I am' luôn ghép với tag 'aren't I', đây là ngoại lệ cần học thuộc).",
+      "Sai: `Open the window, do you?` — **ĐÚNG**: `Open the window, will you?` (câu mệnh lệnh không phải câu trần thuật nên không dùng do-support, phải dùng 'will you' để tạo tag)."
+    ],
+    "formulas": {
+      "affirmative": "Mệnh đề chính KHẲNG ĐỊNH + trợ động từ/modal của mệnh đề chính ở dạng PHỦ ĐỊNH rút gọn + đại từ chủ ngữ? — Ví dụ: 'They are watching TV, aren't they?' / 'He works late, doesn't he?'",
+      "negative": "Mệnh đề chính PHỦ ĐỊNH (hoặc mang nghĩa phủ định với never/no one/hardly...) + trợ động từ/modal của mệnh đề chính ở dạng KHẲNG ĐỊNH + đại từ chủ ngữ? — Ví dụ: 'She isn't coming, is she?' / 'He never smokes, does he?'",
+      "question": "Các trường hợp đặc biệt có tag riêng cần học thuộc: I am... → aren't I?; câu mệnh lệnh → will you?; Let's... → shall we?; There is/are... → is/are there? — Ví dụ: 'Close the door, will you?' / 'Let's start now, shall we?' / 'There's a meeting today, isn't there?'"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "adjective-adverb-order",
+  "language": "en",
+  "title": "Tính từ & Trạng từ — vị trí, thứ tự (Adjective & Adverb Order)",
+  "levels": [
+    "B1"
+  ],
+  "order": 23,
+  "category": "word-classes",
+  "theory": {
+    "usages": [
+      {
+        "id": "adjective-adverb-order-u1-adj-order",
+        "label": "Thứ tự tính từ trước danh từ (OSASCOMP)",
+        "explanationVi": "Khi nhiều tính từ đứng trước một danh từ, chúng phải theo một thứ tự cố định, gọi tắt là OSASCOMP: Ý kiến (Opinion) → Kích thước (Size) → Tuổi/độ mới (Age) → Hình dáng (Shape) → Màu sắc (Color) → Nguồn gốc (Origin) → Chất liệu (Material) → Mục đích/công dụng (Purpose) → Danh từ. Ví dụ: 'a beautiful small old round black Italian leather handbag' đi đúng theo tám nhóm này. Tuy nhiên, người bản ngữ hiếm khi xếp chồng quá 3-4 tính từ một lúc vì câu sẽ trở nên nặng nề; tự nhiên nhất là 2-3 tính từ. Nhưng dù chỉ dùng một tập hợp con (ví dụ chỉ 'kích thước + màu sắc' hay 'ý kiến + chất liệu'), thứ tự tương đối giữa các nhóm đó vẫn phải tuân theo OSASCOMP. Đây là lỗi rất phổ biến của người Việt vì tiếng Việt không có quy tắc thứ tự tính từ chặt chẽ như vậy.",
+        "examples": [
+          {
+            "en": "She bought a gorgeous small antique wooden jewelry box.",
+            "vi": "Cô ấy đã mua một chiếc hộp trang sức gỗ cổ nhỏ xinh."
+          },
+          {
+            "en": "He was wearing a pair of old blue jeans.",
+            "vi": "Anh ấy đang mặc một chiếc quần jean xanh cũ."
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-u2-freq-adverbs",
+        "label": "Vị trí trạng từ chỉ tần suất",
+        "explanationVi": "Các trạng từ chỉ tần suất như always, usually, often, sometimes, rarely, never, hardly ever thường đứng NGAY TRƯỚC động từ chính (động từ thường), nhưng lại đứng SAU động từ 'to be' và sau trợ động từ/động từ khiếm khuyết (auxiliary/modal). So sánh: 'She always arrives on time' (trước động từ thường 'arrives') với 'She is always late' (sau 'to be') và 'He has never been to Japan' (sau trợ động từ 'has'). Với câu có nhiều trợ động từ (ví dụ thì hoàn thành tiếp diễn hay bị động), trạng từ tần suất đứng ngay sau trợ động từ đầu tiên: 'She has usually been working late.' Người học tiếng Việt hay đặt nhầm các trạng từ này ở đầu câu hoặc sau động từ chính, vì trong tiếng Việt trạng từ tần suất thường đứng trước cả cụm động từ mà không phân biệt loại động từ.",
+        "examples": [
+          {
+            "en": "My brother rarely eats breakfast before school.",
+            "vi": "Em trai tôi hiếm khi ăn sáng trước khi đi học."
+          },
+          {
+            "en": "The trains are usually crowded during rush hour.",
+            "vi": "Tàu điện thường đông đúc vào giờ cao điểm."
+          },
+          {
+            "en": "We have never seen such a beautiful sunset.",
+            "vi": "Chúng tôi chưa bao giờ thấy cảnh hoàng hôn đẹp như vậy."
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-u3-manner-place-time",
+        "label": "Thứ tự trạng từ Cách thức - Nơi chốn - Thời gian",
+        "explanationVi": "Khi một câu có nhiều trạng ngữ (adverbials) chỉ cách thức (manner), nơi chốn (place) và thời gian (time) cùng xuất hiện, thứ tự chuẩn trong tiếng Anh là: Cách thức → Nơi chốn → Thời gian (Manner - Place - Time), viết tắt M-P-T. Ví dụ: 'She sang beautifully (cách thức) at the concert (nơi chốn) last night (thời gian).' Đây gần như ngược với trật tự quen thuộc trong tiếng Việt, nơi trạng ngữ thời gian thường đứng ở đầu câu. Lưu ý là trạng ngữ thời gian trong tiếng Anh cũng có thể di chuyển lên đầu câu để nhấn mạnh: 'Last night, she sang beautifully at the concert.' — nhưng nếu để ở cuối câu thì bắt buộc phải theo đúng thứ tự M-P-T, không được đảo lộn tùy ý.",
+        "examples": [
+          {
+            "en": "The children played happily in the garden all afternoon.",
+            "vi": "Bọn trẻ chơi vui vẻ trong vườn suốt cả buổi chiều."
+          },
+          {
+            "en": "He drove carefully through the city center this morning.",
+            "vi": "Sáng nay anh ấy đã lái xe cẩn thận qua trung tâm thành phố."
+          },
+          {
+            "en": "Last summer, we traveled slowly across the country by train.",
+            "vi": "Mùa hè năm ngoái, chúng tôi đã đi chậm rãi khắp đất nước bằng tàu hỏa."
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-u4-enough-too",
+        "label": "'Enough' và 'too' — vị trí trái ngược nhau",
+        "explanationVi": "'Enough' (đủ) đứng SAU tính từ hoặc trạng từ mà nó bổ nghĩa: 'big enough', 'quickly enough', trong khi 'too' (quá) đứng TRƯỚC tính từ/trạng từ: 'too big', 'too quickly'. Đây là một trong những lỗi trật tự từ phổ biến nhất với người Việt vì tiếng Việt không có ràng buộc vị trí kiểu này — 'đủ lớn' và 'quá lớn' đều đặt từ chỉ mức độ trước tính từ, khiến người học dễ nói nhầm 'enough big' thay vì 'big enough'. Cấu trúc đầy đủ thường là: 'adj/adv + enough + (for sb) + to do sth' (ví dụ: 'old enough to drive') và 'too + adj/adv + (for sb) + to do sth' (ví dụ: 'too tired to walk'). Ngoài ra 'enough' còn có thể đứng TRƯỚC danh từ với vai trò định lượng ('enough time'), nhưng khi bổ nghĩa cho tính từ/trạng từ thì luôn đứng sau.",
+        "examples": [
+          {
+            "en": "This box isn't strong enough to hold all these books.",
+            "vi": "Chiếc hộp này không đủ chắc để đựng hết số sách này."
+          },
+          {
+            "en": "He was too nervous to give the presentation clearly.",
+            "vi": "Anh ấy quá lo lắng nên không thể thuyết trình rõ ràng."
+          },
+          {
+            "en": "Is she old enough to get a driver's license?",
+            "vi": "Cô ấy đã đủ tuổi để lấy bằng lái xe chưa?"
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-u5-ing-ed",
+        "label": "Chọn dạng tính từ -ing hay -ed (cảm giác/nguyên nhân)",
+        "explanationVi": "Đây không phải là quy tắc về vị trí mà là quy tắc về việc CHỌN ĐÚNG DẠNG tính từ. Tính từ đuôi -ing (boring, interesting, exciting, tiring...) dùng để mô tả một SỰ VẬT/SỰ VIỆC/NGƯỜI gây ra cảm giác đó — nó mang tính chủ động, 'nguyên nhân'. Tính từ đuôi -ed (bored, interested, excited, tired...) dùng để mô tả CẢM GIÁC mà một người trải qua — mang tính bị động, 'kết quả'. So sánh: 'The movie was boring' (bộ phim [là thứ] gây nhàm chán) với 'I was bored' (tôi [là người] cảm thấy nhàm chán). Lỗi cực kỳ phổ biến là người học nói 'I am boring' khi thực ra muốn nói 'tôi cảm thấy chán' (phải là 'I am bored'); 'I am boring' lại có nghĩa 'tôi là người nhàm chán, tẻ nhạt' — hoàn toàn khác nghĩa và có thể gây hiểu lầm tai hại.",
+        "examples": [
+          {
+            "en": "I found the lecture really confusing, so I was confused by the end.",
+            "vi": "Tôi thấy bài giảng thực sự khó hiểu, nên đến cuối tôi đã bị rối."
+          },
+          {
+            "en": "The children were amazed by the amazing fireworks display.",
+            "vi": "Bọn trẻ đã kinh ngạc trước màn pháo hoa tuyệt vời."
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-u6-indefinite-pronouns",
+        "label": "Tính từ sau đại từ bất định -thing/-body/-one",
+        "explanationVi": "Với các đại từ bất định kết thúc bằng -thing, -body, -one (something, nothing, anything, everything, somebody, nobody, everyone, anyone...), tính từ bổ nghĩa phải đứng SAU đại từ đó, ngược hoàn toàn với quy tắc thông thường là tính từ đứng trước danh từ. Ví dụ: 'something interesting' (không phải 'an interesting something'), 'nobody special' (không phải 'a special nobody'). Nếu có thêm mệnh đề động từ nguyên thể (to-infinitive), thứ tự sẽ là: đại từ bất định + tính từ + to-infinitive, ví dụ 'something cold to drink'. Đây là điểm học sinh Việt Nam hay quên vì phản xạ tự nhiên là đặt tính từ trước danh từ/đại từ như thông lệ. Cùng quy tắc \"đứng SAU\" này còn áp dụng cho từ 'else' (nghĩa \"khác\") khi đi cùng các đại từ bất định — 'else' cũng luôn đứng NGAY SAU đại từ, không phải trước, ví dụ 'everybody else' (không phải 'else everybody'), 'something else', 'anyone else'. Nếu câu có cả tính từ lẫn 'else', thứ tự là: đại từ bất định + tính từ + else, ví dụ 'something nice else' hiếm gặp hơn, thực tế phổ biến nhất vẫn là 'else' đứng một mình ngay sau đại từ.",
+        "examples": [
+          {
+            "en": "Did anything unusual happen at the meeting yesterday?",
+            "vi": "Có chuyện gì bất thường xảy ra trong cuộc họp hôm qua không?"
+          },
+          {
+            "en": "I want to eat something spicy for dinner tonight.",
+            "vi": "Tối nay tôi muốn ăn món gì đó cay cay."
+          },
+          {
+            "en": "There's nobody available to help you right now.",
+            "vi": "Hiện không có ai rảnh để giúp bạn cả."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "opinion (ý kiến)",
+        "meaningVi": "Nhóm đầu tiên trong OSASCOMP — tính từ thể hiện đánh giá chủ quan (beautiful, nice, terrible), luôn đứng đầu tiên trong chuỗi tính từ."
+      },
+      {
+        "word": "size (kích thước)",
+        "meaningVi": "Tính từ chỉ độ lớn/nhỏ (small, big, huge, long) — đứng sau opinion, trước age."
+      },
+      {
+        "word": "age (tuổi/độ mới)",
+        "meaningVi": "Tính từ chỉ tuổi tác hoặc độ mới/cũ (old, new, young, ancient) — đứng sau size, trước shape."
+      },
+      {
+        "word": "always / usually / often",
+        "meaningVi": "Trạng từ tần suất cao — đứng trước động từ thường, sau 'to be'/trợ động từ."
+      },
+      {
+        "word": "rarely / never / hardly ever",
+        "meaningVi": "Trạng từ tần suất thấp hoặc mang nghĩa phủ định — vị trí giống always/usually nhưng không dùng thêm 'not' trong câu."
+      },
+      {
+        "word": "enough",
+        "meaningVi": "Đứng SAU tính từ/trạng từ mà nó bổ nghĩa: 'big enough', 'fast enough'."
+      },
+      {
+        "word": "too",
+        "meaningVi": "Đứng TRƯỚC tính từ/trạng từ mà nó bổ nghĩa: 'too big', 'too fast'."
+      },
+      {
+        "word": "-ing / -ed",
+        "meaningVi": "-ing mô tả vật/việc gây ra cảm giác (boring, tiring); -ed mô tả người trải qua cảm giác (bored, tired)."
+      }
+    ],
+    "commonMistakes": [
+      "Sai: `a red small old car`. **ĐÚNG**: `a small old red car` (thứ tự OSASCOMP: Kích thước → Tuổi → Màu sắc).",
+      "Sai: `She arrives always on time.` **ĐÚNG**: `She always arrives on time.` (trạng từ tần suất đứng trước động từ thường).",
+      "Sai: `She is late always.` **ĐÚNG**: `She is always late.` (trạng từ tần suất đứng sau động từ 'to be').",
+      "Sai: `The bag is enough big to carry all my books.` **ĐÚNG**: `The bag is big enough to carry all my books.` ('enough' đứng sau tính từ, không đứng trước).",
+      "Sai: `I am boring with this lecture.` **ĐÚNG**: `I am bored with this lecture.` (dùng dạng '-ed' để diễn tả cảm giác của bản thân, không phải '-ing').",
+      "Sai: `an interesting something to read` **ĐÚNG**: `something interesting to read` (tính từ đứng sau đại từ bất định -thing/-body/-one, không đứng trước).",
+      "Sai: `He walks too fast enough to catch the bus.` **ĐÚNG**: `He walks fast enough to catch the bus.` (không trộn lẫn 'too' và 'enough' trong cùng một cụm bổ nghĩa)."
+    ]
+  }
+}

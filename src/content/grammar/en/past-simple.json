@@ -1,0 +1,134 @@
+{
+  "id": "past-simple",
+  "language": "en",
+  "title": "Thì quá khứ đơn (Past Simple)",
+  "levels": [
+    "A2"
+  ],
+  "order": 3,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "past-u1-finished-action",
+        "label": "Hành động đã kết thúc tại một thời điểm/khoảng thời gian xác định trong quá khứ",
+        "explanationVi": "Dùng để diễn tả một hành động đã xảy ra và hoàn toàn kết thúc tại một thời điểm hoặc khoảng thời gian cụ thể trong quá khứ, thường đi kèm mốc thời gian rõ ràng như yesterday, last week, in 2019...",
+        "examples": [
+          {
+            "en": "The plumber repaired the leaking pipe yesterday afternoon.",
+            "vi": "Người thợ sửa ống nước đã sửa xong đường ống bị rò rỉ vào chiều hôm qua."
+          },
+          {
+            "en": "Our company launched this product in 2019.",
+            "vi": "Công ty chúng tôi đã ra mắt sản phẩm này vào năm 2019."
+          }
+        ]
+      },
+      {
+        "id": "past-u2-sequence-of-actions",
+        "label": "Chuỗi hành động liên tiếp xảy ra trong quá khứ (kể chuyện)",
+        "explanationVi": "Dùng Quá khứ đơn để kể lại nhiều hành động xảy ra nối tiếp nhau theo trình tự thời gian trong một câu chuyện, hành động này kết thúc rồi hành động sau mới bắt đầu.",
+        "examples": [
+          {
+            "en": "The old fisherman untied his boat, rowed out to the middle of the lake, and cast his net.",
+            "vi": "Người ngư dân già cởi dây buộc thuyền, chèo ra giữa hồ, rồi thả lưới."
+          },
+          {
+            "en": "She grabbed her umbrella, locked the front door, and hurried to catch the bus.",
+            "vi": "Cô ấy cầm lấy chiếc ô, khóa cửa trước, rồi vội vã chạy đi bắt xe buýt."
+          }
+        ]
+      },
+      {
+        "id": "past-u3-habit-state",
+        "label": "Thói quen hoặc tình trạng kéo dài trong quá khứ nhưng nay đã chấm dứt",
+        "explanationVi": "Diễn tả một thói quen lặp đi lặp lại hoặc một tình trạng kéo dài trong quá khứ, nhưng đến hiện tại không còn diễn ra nữa; thường xuất hiện cùng cụm 'when I was young/a child/a student'. Chỉ cần dùng Quá khứ đơn thông thường, không bắt buộc phải dùng 'used to'.",
+        "examples": [
+          {
+            "en": "When I was a child, I played football with my neighbors every afternoon.",
+            "vi": "Hồi còn nhỏ, chiều nào tôi cũng chơi bóng đá với đám bạn hàng xóm."
+          },
+          {
+            "en": "My grandfather smoked two packs of cigarettes a day when he was young.",
+            "vi": "Hồi trẻ, ông tôi hút hai gói thuốc lá mỗi ngày."
+          }
+        ]
+      },
+      {
+        "id": "past-u4-to-be-past",
+        "label": "Động từ 'to be' (was/were) diễn tả trạng thái/tính chất trong quá khứ",
+        "explanationVi": "Dùng 'was' với chủ ngữ số ít (I/he/she/it) và 'were' với chủ ngữ số nhiều (we/you/they) để miêu tả đặc điểm, cảm xúc, hoặc trạng thái của người/vật/sự việc tại một thời điểm đã qua.",
+        "examples": [
+          {
+            "en": "The weather was extremely cold during our trip to Sapa.",
+            "vi": "Thời tiết cực kỳ lạnh trong chuyến đi Sa Pa của chúng tôi."
+          },
+          {
+            "en": "My classmates were very excited before the final exam results came out.",
+            "vi": "Các bạn cùng lớp tôi rất hào hứng trước khi kết quả thi cuối kỳ được công bố."
+          }
+        ]
+      },
+      {
+        "id": "past-u5-definite-time-marker",
+        "label": "Bắt buộc dùng Quá khứ đơn (không dùng Hiện tại hoàn thành) khi câu có mốc thời gian quá khứ cụ thể",
+        "explanationVi": "Khi trong câu xuất hiện một mốc thời gian xác định đã kết thúc trong quá khứ (yesterday, last year, in 2020, ... ago), ta PHẢI dùng Quá khứ đơn, tuyệt đối không dùng Hiện tại hoàn thành — dù hành động đó nghe có vẻ 'liên quan' đến hiện tại.",
+        "examples": [
+          {
+            "en": "I met my current business partner two years ago.",
+            "vi": "Tôi đã gặp đối tác kinh doanh hiện tại của mình cách đây hai năm."
+          },
+          {
+            "en": "They moved to this apartment last March.",
+            "vi": "Họ đã chuyển đến căn hộ này vào tháng Ba năm ngoái."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "yesterday",
+        "meaningVi": "hôm qua"
+      },
+      {
+        "word": "last night / last week / last month / last year",
+        "meaningVi": "tối qua / tuần trước / tháng trước / năm ngoái"
+      },
+      {
+        "word": "... ago",
+        "meaningVi": "cách đây ... (three days ago, two years ago)"
+      },
+      {
+        "word": "in + năm quá khứ",
+        "meaningVi": "vào năm ... đã qua (in 2018, in 1990)"
+      },
+      {
+        "word": "when I was young/a child/a student",
+        "meaningVi": "hồi tôi còn trẻ/còn nhỏ/còn là học sinh"
+      },
+      {
+        "word": "at that time / at that moment",
+        "meaningVi": "vào thời điểm đó"
+      },
+      {
+        "word": "in the past",
+        "meaningVi": "trong quá khứ"
+      },
+      {
+        "word": "the day before yesterday",
+        "meaningVi": "hôm kia"
+      }
+    ],
+    "commonMistakes": [
+      "Dùng Quá khứ đơn thay vì Hiện tại hoàn thành khi câu có 'since/for': hành động bắt đầu trong quá khứ và còn tiếp diễn đến hiện tại phải dùng Hiện tại hoàn thành, không dùng Quá khứ đơn. SAI: I lived in this city since 2015. ĐÚNG: I have lived in this city since 2015.",
+      "Chia lại động từ chính thành dạng '-ed' sau khi câu phủ định/nghi vấn đã có 'did': trợ động từ 'did' đã mang chức năng chỉ thì quá khứ, động từ chính phải giữ nguyên dạng nguyên mẫu, không chia thêm lần nữa. SAI: Did you went to school yesterday? ĐÚNG: Did you go to school yesterday?",
+      "Chia sai động từ bất quy tắc theo công thức thêm '-ed': không phải mọi động từ đều thêm '-ed' ở Quá khứ đơn, cần học thuộc bảng động từ bất quy tắc (go→went, buy→bought...). SAI: She goed to the market by bike. ĐÚNG: She went to the market by bike.",
+      "Chỉ thêm 'not' sau động từ mà quên trợ động từ 'did' trong câu phủ định: câu phủ định Quá khứ đơn bắt buộc phải có 'did not/didn't' đứng trước động từ nguyên mẫu. SAI: I not finished my homework last night. ĐÚNG: I didn't finish my homework last night."
+    ],
+    "formulas": {
+      "affirmative": "S + V-ed (động từ có quy tắc) / S + V2 (động từ bất quy tắc — phải học thuộc theo bảng, không thêm '-ed') + O",
+      "negative": "S + did not (didn't) + V (nguyên mẫu, KHÔNG chia lại) + O",
+      "question": "Did + S + V (nguyên mẫu, KHÔNG chia lại) + O?"
+    }
+  }
+}

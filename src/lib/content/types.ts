@@ -14,6 +14,8 @@ interface ExerciseBase {
   level: Level
   /** Chủ điểm, ví dụ "present-simple". Dùng cho phân tích lỗi theo chủ điểm */
   topic: string
+  /** Mục lý thuyết (usage) mà câu này luyện; dùng để dẫn về đúng chỗ khi trả lời sai. Phải trùng `GrammarUsage.id` của chuyên đề */
+  usageId?: string
   /** Nhãn lỗi chi tiết hơn chủ điểm, dùng để gợi ý ôn lại */
   tags: string[]
   /** 1 = dễ, 3 = khó (chế độ thử thách) */
@@ -41,4 +43,49 @@ export interface AnswerRecord {
   correct: boolean
   /** Chỉ số đáp án đã chọn (mcq) */
   choiceIndex: number
+}
+
+// ---------------------------------------------------------------------------
+// Lý thuyết ngữ pháp (khu "Học")
+// ---------------------------------------------------------------------------
+
+export type GrammarCategory = "tenses" | "word-classes" | "sentence-structure"
+
+export interface GrammarExample {
+  en: string
+  vi: string
+}
+
+/** Một cách dùng của chuyên đề. `id` là nhãn ổn định, được bài tập tham chiếu qua `usageId`. */
+export interface GrammarUsage {
+  id: string
+  label: string
+  explanationVi: string
+  examples: GrammarExample[]
+}
+
+export interface GrammarTheory {
+  usages: GrammarUsage[]
+  /** Công thức theo dạng câu (khẳng định, phủ định, nghi vấn...). Một số chuyên đề chưa có */
+  formulas?: Record<string, string>
+  signalWords: { word: string; meaningVi: string }[]
+  /** Mỗi mục là một đoạn văn bản (lỗi + ví dụ sai/đúng). Chưa tách cấu trúc */
+  commonMistakes: string[]
+}
+
+/** Thông tin ngắn của chuyên đề, dùng cho danh sách/lộ trình. */
+export interface GrammarTopicMeta {
+  id: string
+  title: string
+  /** Một chuyên đề có thể trải nhiều cấp, ví dụ ["A1", "A2"] */
+  levels: Level[]
+  /** Thứ tự gợi ý trong lộ trình */
+  order: number
+  category: GrammarCategory
+  usageCount: number
+}
+
+export interface GrammarTopic extends Omit<GrammarTopicMeta, "usageCount"> {
+  language: Language
+  theory: GrammarTheory
 }

@@ -1,0 +1,130 @@
+{
+  "id": "reported-speech",
+  "language": "en",
+  "title": "Câu tường thuật (Reported Speech)",
+  "levels": [
+    "B1"
+  ],
+  "order": 16,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "rs-u1-statements-backshift",
+        "label": "Câu tường thuật câu kể và quy tắc lùi thì (backshift)",
+        "explanationVi": "Khi tường thuật lại một câu kể (statement) bằng động từ tường thuật ở quá khứ (said, told), động từ trong câu trực tiếp thường phải lùi một thì về quá khứ (backshift), có thể thêm liên từ 'that' (thường được lược bỏ trong văn nói). Quy tắc lùi thì cụ thể: hiện tại đơn -> quá khứ đơn; hiện tại tiếp diễn -> quá khứ tiếp diễn; hiện tại hoàn thành -> quá khứ hoàn thành; quá khứ đơn -> quá khứ hoàn thành; will -> would; can -> could; may -> might; must -> had to. Nếu động từ tường thuật ở thì hiện tại (says), động từ trong câu tường thuật không cần lùi thì.",
+        "examples": [
+          {
+            "en": "Direct: \"I am tired,\" she said. -> Reported: She said (that) she was tired.",
+            "vi": "Động từ 'am' (hiện tại đơn của to be) lùi thành 'was' (quá khứ đơn); đại từ 'I' đổi thành 'she' vì người tường thuật là người khác."
+          },
+          {
+            "en": "Direct: \"I have finished my homework,\" he told me. -> Reported: He told me (that) he had finished his homework.",
+            "vi": "Động từ 'have finished' (hiện tại hoàn thành) lùi thành 'had finished' (quá khứ hoàn thành); đại từ sở hữu 'my' đổi thành 'his' cho phù hợp với chủ thể mới."
+          }
+        ]
+      },
+      {
+        "id": "rs-u2-yes-no-questions",
+        "label": "Câu tường thuật câu hỏi Yes/No",
+        "explanationVi": "Khi tường thuật câu hỏi Yes/No (câu hỏi đảo trợ động từ lên đầu, không có từ để hỏi), ta dùng động từ tường thuật 'asked' rồi nối bằng 'if' hoặc 'whether', sau đó đưa trật tự từ về trật tự câu khẳng định (chủ ngữ đứng trước động từ), bỏ trợ động từ do/does/did, không dùng dấu chấm hỏi ở cuối câu, và vẫn áp dụng đầy đủ quy tắc lùi thì như câu kể.",
+        "examples": [
+          {
+            "en": "Direct: \"Do you like coffee?\" she asked me. -> Reported: She asked me if I liked coffee.",
+            "vi": "Trợ động từ 'Do' bị lược bỏ, trật tự đảo ngữ 'you like' được đưa về trật tự khẳng định 'I liked' (lùi thì hiện tại đơn -> quá khứ đơn), nối bằng 'if'."
+          },
+          {
+            "en": "Direct: \"Have you finished the report?\" he asked. -> Reported: He asked whether I had finished the report.",
+            "vi": "Trật tự 'Have you finished' đổi thành 'I had finished' (lùi thì hiện tại hoàn thành -> quá khứ hoàn thành), nối bằng 'whether' thay cho 'if'."
+          }
+        ]
+      },
+      {
+        "id": "rs-u3-wh-questions",
+        "label": "Câu tường thuật câu hỏi có từ để hỏi (Wh-questions)",
+        "explanationVi": "Khi tường thuật câu hỏi có từ để hỏi (what, where, when, who, why, how...), ta giữ nguyên từ để hỏi đó và đặt nó ngay sau động từ tường thuật 'asked', sau đó đưa trật tự từ về trật tự câu khẳng định (chủ ngữ đứng trước động từ), không dùng trợ động từ do/does/did, không có dấu chấm hỏi, và vẫn áp dụng quy tắc lùi thì.",
+        "examples": [
+          {
+            "en": "Direct: \"Where do you live?\" he asked her. -> Reported: He asked her where she lived.",
+            "vi": "Từ để hỏi 'where' được giữ nguyên; trật tự đảo 'do you live' đổi thành trật tự khẳng định 'she lived' (lùi thì, đổi đại từ)."
+          },
+          {
+            "en": "Direct: \"What time will the train arrive?\" she asked. -> Reported: She asked what time the train would arrive.",
+            "vi": "Cụm từ để hỏi 'what time' giữ nguyên vị trí đầu mệnh đề tường thuật; 'will' lùi thành 'would', trật tự chuyển về khẳng định 'the train would arrive'."
+          }
+        ]
+      },
+      {
+        "id": "rs-u4-commands-requests",
+        "label": "Câu tường thuật câu mệnh lệnh, yêu cầu",
+        "explanationVi": "Khi tường thuật câu mệnh lệnh hoặc lời yêu cầu, ta dùng cấu trúc: told/asked + tân ngữ (O) + (not) + to V (động từ nguyên thể có 'to'). Với câu mệnh lệnh khẳng định, chỉ cần thêm 'to' trước động từ nguyên thể; với câu mệnh lệnh phủ định (có 'don't'), từ 'not' phải đứng ngay trước 'to V'.",
+        "examples": [
+          {
+            "en": "Direct: \"Close the door, please,\" she said to me. -> Reported: She told me to close the door.",
+            "vi": "Câu mệnh lệnh khẳng định chuyển thành cấu trúc 'told + O + to V': 'told me to close the door'."
+          },
+          {
+            "en": "Direct: \"Don't touch that wire!\" the teacher said to the students. -> Reported: The teacher told the students not to touch that wire.",
+            "vi": "Câu mệnh lệnh phủ định (Don't + V) chuyển thành 'told + O + not + to V', từ 'not' đứng ngay trước 'to touch'."
+          }
+        ]
+      },
+      {
+        "id": "rs-u5-time-place-pronoun-changes",
+        "label": "Thay đổi trạng từ chỉ thời gian/nơi chốn và đại từ",
+        "explanationVi": "Khi tường thuật, nếu thời điểm hoặc địa điểm nói đã thay đổi so với lúc phát ngôn gốc, các trạng từ chỉ thời gian/nơi chốn và đại từ nhân xưng/sở hữu phải được đổi cho phù hợp với ngữ cảnh của người tường thuật. Một số thay đổi phổ biến: this -> that, these -> those, here -> there, now -> then, today -> that day, tomorrow -> the next day/the following day, yesterday -> the day before/the previous day, next week -> the following week, ago -> before. Đại từ I/you cũng phải đổi thành he/she/they... tùy theo người được tường thuật lại.",
+        "examples": [
+          {
+            "en": "Direct: \"I will meet you here tomorrow,\" he said. -> Reported: He said (that) he would meet me there the next day.",
+            "vi": "'here' đổi thành 'there', 'tomorrow' đổi thành 'the next day', đại từ 'I'/'you' đổi thành 'he'/'me' theo đúng ngữ cảnh người tường thuật."
+          },
+          {
+            "en": "Direct: \"I bought this laptop three days ago,\" she said. -> Reported: She said (that) she had bought that laptop three days before.",
+            "vi": "'this' đổi thành 'that', 'ago' đổi thành 'before'; động từ 'bought' lùi thành 'had bought' theo quy tắc lùi thì."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "said (that)",
+        "meaningVi": "tường thuật câu kể, không bắt buộc có tân ngữ, có thể lược bỏ 'that'"
+      },
+      {
+        "word": "told + O",
+        "meaningVi": "tường thuật câu kể, bắt buộc phải có tân ngữ chỉ người nghe ngay sau 'told'"
+      },
+      {
+        "word": "asked if/whether",
+        "meaningVi": "tường thuật câu hỏi Yes/No, nối mệnh đề bằng 'if' hoặc 'whether'"
+      },
+      {
+        "word": "asked + Wh-word",
+        "meaningVi": "tường thuật câu hỏi có từ để hỏi, giữ nguyên từ để hỏi ngay sau 'asked'"
+      },
+      {
+        "word": "told/asked + O + to V",
+        "meaningVi": "tường thuật câu mệnh lệnh, yêu cầu ở thể khẳng định"
+      },
+      {
+        "word": "told/asked + O + not to V",
+        "meaningVi": "tường thuật câu mệnh lệnh, yêu cầu ở thể phủ định"
+      },
+      {
+        "word": "advised/suggested/wanted",
+        "meaningVi": "các động từ tường thuật khác, thường đi theo cấu trúc tương tự told/asked tùy ngữ cảnh"
+      },
+      {
+        "word": "reminded + O + to V",
+        "meaningVi": "nhắc nhở ai đó làm việc gì, cấu trúc giống 'told + O + to V'"
+      }
+    ],
+    "commonMistakes": [
+      "Quên lùi thì khi động từ tường thuật ở quá khứ. Ví dụ sai: 'She said she is happy.' ĐÚNG: 'She said she was happy.'",
+      "Giữ nguyên trật tự đảo ngữ của câu hỏi trong câu tường thuật thay vì đổi về trật tự khẳng định. Ví dụ sai: 'He asked me where did I live.' ĐÚNG: 'He asked me where I lived.'",
+      "Dùng 'that' sai trong câu hỏi tường thuật; câu hỏi Yes/No và Wh-question tường thuật không dùng 'that'. Ví dụ sai: 'She asked that if I was ready.' ĐÚNG: 'She asked if I was ready.'",
+      "Quên đổi đại từ nhân xưng/sở hữu và từ chỉ thời gian, nơi chốn cho phù hợp với ngữ cảnh mới. Ví dụ sai: 'He said he would call me tomorrow.' (thuật lại một ngày sau đó) ĐÚNG: 'He said he would call me the next day.'",
+      "Đặt sai vị trí 'not' trong câu mệnh lệnh phủ định tường thuật. Ví dụ sai: 'She told me to not open the window.' ĐÚNG: 'She told me not to open the window.'"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "modal-verbs",
+  "language": "en",
+  "title": "Động từ khuyết thiếu (Modal Verbs)",
+  "levels": [
+    "B1"
+  ],
+  "order": 11,
+  "category": "word-classes",
+  "theory": {
+    "usages": [
+      {
+        "id": "modal-u1-ability",
+        "label": "Khả năng (Ability)",
+        "explanationVi": "Dùng 'can' để nói về khả năng ở hiện tại. Với quá khứ, có hai lựa chọn cần phân biệt rõ: 'could' diễn tả một khả năng CHUNG mà ai đó có được trong một khoảng thời gian dài ở quá khứ (ví dụ: kỹ năng học được từ nhỏ, hoặc một sự thật chung của cả một giai đoạn), còn 'was/were able to' diễn tả việc ai đó đã LÀM ĐƯỢC một việc CỤ THỂ, chỉ một lần, nhờ nỗ lực hoặc hoàn cảnh tại thời điểm đó — đây chính là điểm hay gây nhầm lẫn nhất của chủ điểm này. Ở thể phủ định, 'couldn't' và 'wasn't/weren't able to' đều dùng được cho cả hai trường hợp (chung lẫn cụ thể) mà không phân biệt nghiêm ngặt như thể khẳng định. Ngoài ra, 'be able to' còn được dùng ở các thì mà 'can' không có dạng tương ứng, ví dụ thì tương lai ('will be able to') hoặc sau một modal khác ('might be able to').",
+        "examples": [
+          {
+            "en": "My grandfather could speak three languages by the time he finished high school.",
+            "vi": "Ông tôi có thể nói được ba thứ tiếng vào lúc ông học xong trung học."
+          },
+          {
+            "en": "After hours of searching in the storm, the rescue team was able to find the missing hiker.",
+            "vi": "Sau nhiều giờ tìm kiếm trong cơn bão, đội cứu hộ đã tìm được người đi bộ đường dài bị mất tích."
+          }
+        ]
+      },
+      {
+        "id": "modal-u2-permission",
+        "label": "Sự cho phép (Permission)",
+        "explanationVi": "'Can', 'could' và 'may' đều dùng để xin phép hoặc cho phép ai đó làm việc gì, nhưng khác nhau về mức độ trang trọng. 'Can' là cách nói thông thường, thân mật, dùng nhiều trong giao tiếp hằng ngày. 'Could' lịch sự và nhẹ nhàng hơn một chút, thường dùng khi xin phép người lạ hoặc người lớn tuổi hơn. 'May' là cách nói TRANG TRỌNG nhất, thường xuất hiện trong văn viết, quy định, thông báo chính thức, hoặc khi nói chuyện với người có vị trí cao hơn (giáo viên, cấp trên). Ở thể phủ định, 'may not' thường mang nghĩa 'không được phép' một cách trang trọng (gần với sự cấm đoán), trong khi 'can't' mang tính thông thường hơn. Ở thể khẳng định, 'could' còn dùng để diễn tả một sự cho phép/quy định CHUNG đã tồn tại trong một giai đoạn quá khứ (không phải đang xin phép ngay lúc nói) — ví dụ: 'When my dad was young, teenagers could drive after getting a license at sixteen' (ngày đó, luật cho phép việc này).",
+        "examples": [
+          {
+            "en": "Could I leave the meeting a few minutes early today? I have a doctor's appointment.",
+            "vi": "Hôm nay tôi xin phép rời cuộc họp sớm vài phút được không ạ? Tôi có hẹn khám bệnh."
+          },
+          {
+            "en": "Visitors may not enter the laboratory without a security badge.",
+            "vi": "Khách tham quan không được phép vào phòng thí nghiệm nếu không có thẻ an ninh."
+          }
+        ]
+      },
+      {
+        "id": "modal-u3-obligation",
+        "label": "Nghĩa vụ - Sự cần thiết (Obligation & Necessity)",
+        "explanationVi": "'Must' và 'have to' đều diễn tả một việc bắt buộc phải làm, nhưng nguồn gốc của nghĩa vụ khác nhau. 'Must' thường được dùng khi nghĩa vụ đến từ chính người nói — cảm giác cá nhân, ý kiến chủ quan, hoặc một quy tắc mà người nói tự đặt ra cho mình. 'Have to' thường được dùng khi nghĩa vụ đến từ một yếu tố KHÁCH QUAN bên ngoài, như luật pháp, quy định của tổ chức, hoặc hoàn cảnh không thể thay đổi. Điểm CỰC KỲ dễ nhầm lẫn nằm ở thể phủ định: 'must not' (viết tắt 'mustn't') mang nghĩa BỊ CẤM — bắt buộc KHÔNG được làm việc đó; trong khi 'don't have to' mang nghĩa hoàn toàn khác — KHÔNG CẦN THIẾT phải làm việc đó, nhưng nếu muốn thì vẫn được phép làm. Hai cấu trúc này thường bị người học nhầm lẫn vì cả hai đều chứa từ phủ định nhưng mang ý nghĩa trái ngược nhau hoàn toàn.",
+        "examples": [
+          {
+            "en": "I must call my sister tonight; I promised her I would, and I don't want to break that promise.",
+            "vi": "Tối nay tôi phải gọi cho chị gái; tôi đã hứa với chị ấy rồi và tôi không muốn thất hứa."
+          },
+          {
+            "en": "Employees have to wear a helmet on the construction site, according to the safety regulations.",
+            "vi": "Theo quy định an toàn, nhân viên bắt buộc phải đội mũ bảo hộ tại công trường."
+          }
+        ]
+      },
+      {
+        "id": "modal-u4-advice",
+        "label": "Lời khuyên (Advice)",
+        "explanationVi": "'Should' và 'ought to' đều dùng để đưa ra lời khuyên hoặc ý kiến về điều nên làm, và về cơ bản có thể thay thế cho nhau; tuy nhiên 'ought to' nghe trang trọng hơn một chút và ít phổ biến hơn trong văn nói hằng ngày so với 'should'. 'Had better' (thường rút gọn thành 'I'd better', 'you'd better'...) mang sắc thái MẠNH và KHẨN CẤP hơn hẳn — nó thường được dùng cho một tình huống CỤ THỂ, trước mắt, kèm theo cảnh báo về một hậu quả xấu nếu người nghe không làm theo. Vì mang tính cảnh báo mạnh, 'had better' ít phù hợp để đưa ra lời khuyên chung chung, nhẹ nhàng — trường hợp đó nên dùng 'should' hoặc 'ought to' thay vì 'had better'.",
+        "examples": [
+          {
+            "en": "You should drink more water during the hot summer months to avoid dehydration.",
+            "vi": "Bạn nên uống nhiều nước hơn trong những tháng hè nóng bức để tránh mất nước."
+          },
+          {
+            "en": "You'd better call the doctor right now; that cut on your hand looks infected.",
+            "vi": "Bạn nên gọi bác sĩ ngay bây giờ đi; vết cắt trên tay bạn trông có vẻ bị nhiễm trùng rồi."
+          }
+        ]
+      },
+      {
+        "id": "modal-u5-deduction",
+        "label": "Suy đoán - Khả năng xảy ra ở hiện tại (Present Deduction & Possibility)",
+        "explanationVi": "Khi muốn đưa ra một suy đoán về việc gì đó có đúng hay không ở HIỆN TẠI, dựa trên bằng chứng hoặc lý lẽ logic, ta dùng các modal verb theo mức độ chắc chắn khác nhau. 'Must' dùng khi người nói gần như CHẮC CHẮN điều đó đúng, dựa trên bằng chứng rõ ràng. 'May', 'might' và 'could' dùng khi người nói cho rằng điều đó CÓ THỂ đúng nhưng không chắc chắn hoàn toàn; trong ba từ này, 'might' thường được xem là mang mức độ chắc chắn thấp hơn một chút so với 'may', còn 'could' cũng diễn tả khả năng tương tự nhưng ít khi dùng ở thể phủ định với nghĩa này. Khi muốn suy đoán rằng điều gì đó CHẮC CHẮN KHÔNG đúng, ta dùng 'can't' — đây là điểm cần lưu ý vì phủ định của 'must' trong ngữ cảnh suy đoán KHÔNG phải là 'must not' (vốn mang nghĩa cấm đoán) mà là 'can't'.",
+        "examples": [
+          {
+            "en": "The lights are off and no one is answering the door; they must be out right now.",
+            "vi": "Đèn tắt hết và không ai ra mở cửa; chắc là họ đang đi vắng."
+          },
+          {
+            "en": "She can't be at work today — I just saw her car parked in the driveway.",
+            "vi": "Chắc chắn hôm nay cô ấy không đi làm đâu — tôi vừa thấy xe của cô ấy đậu trong sân nhà."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "definitely / certainly",
+        "meaningVi": "chắc chắn — thường đi kèm suy đoán mạnh với 'must'"
+      },
+      {
+        "word": "perhaps / maybe",
+        "meaningVi": "có lẽ — thường đi kèm suy đoán không chắc chắn với 'may/might/could'"
+      },
+      {
+        "word": "It's forbidden to / not allowed to",
+        "meaningVi": "bị cấm làm gì — tương đương về nghĩa với 'must not'"
+      },
+      {
+        "word": "It's not necessary to / there's no need to",
+        "meaningVi": "không cần thiết phải làm gì — tương đương về nghĩa với 'don't have to'"
+      },
+      {
+        "word": "It's compulsory / mandatory",
+        "meaningVi": "bắt buộc theo quy định — thường đi cùng 'have to'"
+      },
+      {
+        "word": "I'm sure that / I'm positive that",
+        "meaningVi": "tôi chắc chắn rằng — dấu hiệu nên dùng 'must' khi suy đoán"
+      },
+      {
+        "word": "Is it OK if...? / Do you mind if...?",
+        "meaningVi": "cách xin phép thân mật, có thể thay cho 'Can/Could I...?'"
+      },
+      {
+        "word": "...or else / ...or you'll...",
+        "meaningVi": "cấu trúc cảnh báo hậu quả, thường đi cùng 'had better'"
+      }
+    ],
+    "commonMistakes": [
+      "Thêm \"to\" sau modal verb (modal verbs luôn đi với động từ nguyên thể KHÔNG \"to\"). Sai: `She can to swim very well.` **ĐÚNG**: `She can swim very well.`",
+      "Chia động từ modal theo ngôi thứ ba số ít (thêm \"-s\") — modal verbs không bao giờ đổi dạng theo chủ ngữ. Sai: `He cans speak French.` **ĐÚNG**: `He can speak French.`",
+      "Nhầm lẫn `must not` (bị CẤM, bắt buộc không được làm) với `don't have to` (KHÔNG bắt buộc, được phép không làm). Ví dụ nghĩa sai: nói `You must not finish the homework tonight` khi ý thực sự chỉ là bài tập không cần nộp gấp. **ĐÚNG**: `You don't have to finish the homework tonight` (không bắt buộc, để mai làm cũng được).",
+      "Dùng hai modal verbs liên tiếp trong cùng một mệnh đề (tiếng Anh chỉ cho phép một modal verb đứng trước động từ chính). Sai: `I might can help you tomorrow.` **ĐÚNG**: `I might be able to help you tomorrow.`",
+      "'Ought to' là modal HIẾM HOI có 'to' ngay sau nó (khác các modal khác trong công thức chung ở trên) — vẫn viết đúng `You ought to see a doctor`, không phải `ought see`. Ngoài ra 'have to' tuy mang nghĩa gần giống modal nhưng KHÔNG phải modal thật sự — nó CHIA theo chủ ngữ/thì như động từ thường ('has to' ở ngôi ba số ít, 'had to' ở quá khứ) và cần trợ động từ do/does/did khi phủ định/nghi vấn (`Does she have to work on Saturdays?`), khác hẳn công thức modal chuẩn ở trên."
+    ],
+    "formulas": {
+      "affirmative": "S + modal + V (nguyên thể, KHÔNG chia theo chủ ngữ, KHÔNG có 'to') — ví dụ: 'She can drive a truck.'",
+      "negative": "S + modal + not + V (nguyên thể) — ví dụ: 'He should not (shouldn't) skip breakfast.'",
+      "question": "Modal + S + V (nguyên thể) ...? — ví dụ: 'Can you finish this report by Friday?'"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import confetti from "canvas-confetti"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { sfx } from "@/lib/audio/sfx"
@@ -25,7 +26,16 @@ function reducedMotion() {
  * Chạy một lượt bài tập: một câu mỗi lần, chấm tức thì, combo, sao cuối bài.
  * `onAnswer` sau này nối với lớp ghi dữ liệu (SRS, phân tích lỗi); hiện chỉ báo ra ngoài.
  */
-export function ExerciseRunner({ exercises, onAnswer }: { exercises: Exercise[]; onAnswer?: (record: AnswerRecord) => void }) {
+export function ExerciseRunner({
+  exercises,
+  onAnswer,
+  theoryHref,
+}: {
+  exercises: Exercise[]
+  onAnswer?: (record: AnswerRecord) => void
+  /** Đường dẫn về đúng mục lý thuyết của câu (hiện khi trả lời sai). Trả null nếu không có. */
+  theoryHref?: (exercise: Exercise) => string | null
+}) {
   const { sound } = useSettings()
   const [index, setIndex] = useState(0)
   const [picked, setPicked] = useState<number | null>(null)
@@ -119,10 +129,23 @@ export function ExerciseRunner({ exercises, onAnswer }: { exercises: Exercise[];
 
         {answered && (
           <div className="mt-4 rounded-game bg-background p-3 font-semibold leading-relaxed" role="status">
-            <p>
-              {picked === ex!.correctIndex ? "✅ Chính xác! " : "❌ Chưa đúng. "}
-              {ex!.explanation}
-            </p>
+            <p>{picked === ex!.correctIndex ? "✅ Chính xác!" : "❌ Chưa đúng."}</p>
+            {ex!.choiceExplanations && ex!.choiceExplanations.length === ex!.choices.length ? (
+              <ul className="mt-2 space-y-1.5 text-base">
+                {ex!.choiceExplanations.map((text, i) => (
+                  <li key={i} className={i === ex!.correctIndex ? "text-success" : ""}>
+                    <span className="text-muted-foreground">{"ABCD"[i]}.</span> {text}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="mt-1">{ex!.explanation}</p>
+            )}
+            {picked !== ex!.correctIndex && theoryHref?.(ex!) && (
+              <Link href={theoryHref(ex!)!} target="_blank" className="mt-2 inline-block text-primary underline underline-offset-4">
+                Xem lại lý thuyết
+              </Link>
+            )}
             <button type="button" onClick={next} className="mt-3 w-full rounded-game border-b-[5px] border-primary-deep bg-primary py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2">
               {index + 1 < total ? "Tiếp tục" : "Xem kết quả"}
             </button>

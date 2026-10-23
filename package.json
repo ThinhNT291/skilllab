@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:content": "node scripts/validate-content.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

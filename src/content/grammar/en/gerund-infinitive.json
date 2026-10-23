@@ -1,0 +1,177 @@
+{
+  "id": "gerund-infinitive",
+  "language": "en",
+  "title": "Danh động từ & Động từ nguyên mẫu (Gerund vs Infinitive)",
+  "levels": [
+    "B1"
+  ],
+  "order": 12,
+  "category": "word-classes",
+  "theory": {
+    "usages": [
+      {
+        "id": "gi-u1-gerund-only",
+        "label": "Động từ CHỈ theo sau bởi V-ing (Gerund)",
+        "explanationVi": "Một số động từ trong tiếng Anh luôn đòi hỏi động từ theo sau nó phải ở dạng V-ing (danh động từ), không bao giờ dùng to-V. Nhóm này gồm các động từ phổ biến sau: **enjoy** (thích), **avoid** (tránh), **finish** (hoàn thành xong), **mind** (phiền/ngại), **suggest** (đề nghị), **admit** (thừa nhận), **consider** (cân nhắc), **practice** (luyện tập), **imagine** (tưởng tượng), **risk** (liều lĩnh làm gì), **deny** (phủ nhận), **quit** (bỏ hẳn), **keep/keep on** (tiếp tục, cứ mãi làm gì). Học sinh cần ghi nhớ nhóm động từ này như một danh sách cố định vì không có quy tắc suy luận chung, chỉ có thể học thuộc qua luyện tập nhiều. Lưu ý: sau các động từ này TUYỆT ĐỐI không được dùng 'to + V nguyên mẫu'.",
+        "examples": [
+          {
+            "en": "My little brother really enjoys playing video games after school.",
+            "vi": "Em trai tôi rất thích chơi trò chơi điện tử sau giờ học."
+          },
+          {
+            "en": "The manager suggested rescheduling the meeting to next Monday.",
+            "vi": "Người quản lý đề nghị dời cuộc họp sang thứ Hai tuần sau."
+          }
+        ]
+      },
+      {
+        "id": "gi-u2-infinitive-only",
+        "label": "Động từ CHỈ theo sau bởi to-V (Infinitive)",
+        "explanationVi": "Ngược lại với nhóm trên, một số động từ luôn đòi hỏi động từ theo sau ở dạng to-V (động từ nguyên mẫu có 'to'), không bao giờ dùng V-ing trực tiếp. Nhóm này gồm: **want** (muốn), **decide** (quyết định), **promise** (hứa), **hope** (hy vọng), **agree** (đồng ý), **refuse** (từ chối), **plan** (lên kế hoạch), **offer** (đề nghị/ngỏ ý), **manage** (xoay xở làm được), **afford** (đủ khả năng), **learn** (học được cách), **seem** (dường như), **tend** (có xu hướng). Cũng giống nhóm V-ing, đây là danh sách cần học thuộc qua luyện tập vì không có quy tắc chung để suy ra. Lưu ý: sau các động từ này TUYỆT ĐỐI không được dùng V-ing trực tiếp làm tân ngữ.",
+        "examples": [
+          {
+            "en": "She decided to apply for the scholarship before the deadline.",
+            "vi": "Cô ấy quyết định nộp đơn xin học bổng trước hạn chót."
+          },
+          {
+            "en": "They promised to finish the project by Friday afternoon.",
+            "vi": "Họ hứa sẽ hoàn thành dự án trước chiều thứ Sáu."
+          }
+        ]
+      },
+      {
+        "id": "gi-u3-both-same-meaning",
+        "label": "Động từ theo sau bởi CẢ HAI dạng, ý nghĩa gần như KHÔNG đổi",
+        "explanationVi": "Một nhóm động từ khác có thể đứng trước cả V-ing lẫn to-V mà ý nghĩa của câu hầu như không thay đổi, chỉ khác đôi chút về sắc thái trang trọng hoặc thói quen sử dụng. Các động từ tiêu biểu: **start**, **begin** (bắt đầu), **continue** (tiếp tục), **like**, **love**, **hate** (thích/ghét), **prefer** (thích hơn). Ví dụ 'It started to rain' và 'It started raining' đều mang nghĩa 'Trời bắt đầu mưa', có thể dùng thay thế cho nhau trong hầu hết ngữ cảnh. Một lưu ý nhỏ: khi bản thân động từ chính đã ở dạng V-ing (ví dụ đang chia thì tiếp diễn: 'It is starting...'), người bản ngữ thường tránh lặp lại V-ing hai lần liên tiếp và ưu tiên dùng to-V, ví dụ 'It is starting to rain' nghe tự nhiên hơn 'It is starting raining'.",
+        "examples": [
+          {
+            "en": "I like reading mystery novels before bed.",
+            "vi": "Tôi thích đọc tiểu thuyết trinh thám trước khi đi ngủ."
+          },
+          {
+            "en": "He began learning French when he was ten years old.",
+            "vi": "Anh ấy bắt đầu học tiếng Pháp khi mười tuổi."
+          }
+        ]
+      },
+      {
+        "id": "gi-u4-both-different-meaning",
+        "label": "Động từ theo sau bởi CẢ HAI dạng nhưng Ý NGHĨA THAY ĐỔI HẲN",
+        "explanationVi": "Đây là điểm ngữ pháp khó và hay xuất hiện trong đề thi nhất của chuyên đề này: một số động từ khi theo sau bởi V-ing và theo sau bởi to-V sẽ mang HAI NGHĨA HOÀN TOÀN KHÁC NHAU. **remember/forget + V-ing** = nhớ/quên một việc ĐÃ làm trong quá khứ (nhìn lại một ký ức); **remember/forget + to-V** = nhớ/quên phải làm một việc CẦN làm (nghĩa vụ ở hiện tại/tương lai). **stop + V-ing** = dừng hẳn, chấm dứt việc đang làm (bỏ luôn); **stop + to-V** = dừng một hành động lại ĐỂ làm việc khác (to-V ở đây là mệnh đề chỉ mục đích, không phải tân ngữ của 'stop'). **try + V-ing** = thử làm một cách nào đó xem kết quả ra sao (thử nghiệm); **try + to-V** = cố gắng, nỗ lực làm một việc khó khăn (có thể thành công hoặc thất bại). **regret + V-ing** = hối hận, lấy làm tiếc về một việc ĐÃ làm trong quá khứ; **regret + to-V** = lấy làm tiếc khi phải thông báo một tin gì đó (thường dùng trong văn phong trang trọng, thư từ, thông báo chính thức).",
+        "examples": [
+          {
+            "en": "I remember meeting him at a conference in Chicago two years ago.",
+            "vi": "Tôi nhớ là mình đã gặp anh ấy tại một hội nghị ở Chicago hai năm trước."
+          },
+          {
+            "en": "Please remember to call the dentist and confirm your appointment.",
+            "vi": "Hãy nhớ gọi cho nha sĩ để xác nhận lịch hẹn của bạn."
+          },
+          {
+            "en": "He stopped smoking completely after his doctor's warning.",
+            "vi": "Anh ấy đã bỏ hẳn hút thuốc sau lời cảnh báo của bác sĩ."
+          },
+          {
+            "en": "We stopped to check the map because we were completely lost.",
+            "vi": "Chúng tôi dừng lại để xem bản đồ vì bị lạc đường hoàn toàn."
+          },
+          {
+            "en": "Try restarting your computer if the screen suddenly freezes.",
+            "vi": "Hãy thử khởi động lại máy tính nếu màn hình đột nhiên bị đơ."
+          },
+          {
+            "en": "We tried to fix the old printer for an hour but couldn't manage it.",
+            "vi": "Chúng tôi đã cố gắng sửa chiếc máy in cũ trong một tiếng nhưng không xoay xở được."
+          },
+          {
+            "en": "She regrets quitting her stable job at the bank last year.",
+            "vi": "Cô ấy hối hận vì đã bỏ công việc ổn định tại ngân hàng năm ngoái."
+          },
+          {
+            "en": "We regret to inform you that your application was not successful.",
+            "vi": "Chúng tôi rất tiếc phải thông báo rằng đơn ứng tuyển của bạn không thành công."
+          }
+        ]
+      },
+      {
+        "id": "gi-u5-after-preposition",
+        "label": "V-ing bắt buộc sau giới từ (kể cả 'to' khi là giới từ) và các cấu trúc cố định với tính từ",
+        "explanationVi": "Sau BẤT KỲ giới từ nào (in, on, at, about, for, of, without, before, after...) động từ theo sau luôn ở dạng V-ing, không bao giờ dùng to-V hay động từ nguyên thể. Điểm CỰC KỲ hay nhầm: trong một số cụm từ, chữ 'to' không phải là dấu hiệu của động từ nguyên mẫu mà đóng vai trò GIỚI TỪ, nên động từ theo sau nó vẫn phải chia V-ing. Các cụm tiêu biểu: **look forward to V-ing** (mong chờ), **be/get used to V-ing** (quen với việc gì), **object to V-ing** (phản đối), **be committed to V-ing** (cam kết với việc gì). PHẢI phân biệt rõ 'be used to V-ing' (trạng thái quen thuộc ở hiện tại) với cấu trúc hoàn toàn khác 'used to + V nguyên thể' (diễn tả một thói quen hoặc trạng thái đã từng xảy ra trong QUÁ KHỨ nhưng nay không còn nữa) — hai cấu trúc trông giống nhau nhưng ý nghĩa và cách chia động từ theo sau khác hẳn nhau. Ngoài ra, một số cấu trúc với tính từ cũng cần lưu ý: 'It is + adj + to V' (ví dụ It's important to save money) dùng to-V, trong khi 'be interested in V-ing', 'be good at V-ing', 'be afraid of V-ing' lại dùng V-ing vì có giới từ đứng trước.",
+        "examples": [
+          {
+            "en": "She is interested in learning about ancient Roman history.",
+            "vi": "Cô ấy quan tâm đến việc tìm hiểu về lịch sử La Mã cổ đại."
+          },
+          {
+            "en": "After graduating, he looked forward to starting his new job.",
+            "vi": "Sau khi tốt nghiệp, anh ấy mong chờ được bắt đầu công việc mới."
+          },
+          {
+            "en": "I am used to working late at night now that I run my own business.",
+            "vi": "Bây giờ khi tự kinh doanh, tôi đã quen với việc làm việc muộn vào ban đêm."
+          },
+          {
+            "en": "I used to work late at night when I was in college, but not anymore.",
+            "vi": "Hồi còn học đại học tôi từng làm việc muộn vào ban đêm, nhưng bây giờ thì không."
+          },
+          {
+            "en": "It is important to drink enough water during hot weather.",
+            "vi": "Việc uống đủ nước trong thời tiết nóng bức là điều quan trọng."
+          },
+          {
+            "en": "He apologized for being late to the interview.",
+            "vi": "Anh ấy xin lỗi vì đã đến muộn buổi phỏng vấn."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "afford (to V)",
+        "meaningVi": "đủ khả năng (thời gian/tiền bạc) để làm gì"
+      },
+      {
+        "word": "manage (to V)",
+        "meaningVi": "xoay xở và thành công làm được việc gì (thường khó khăn)"
+      },
+      {
+        "word": "avoid (V-ing)",
+        "meaningVi": "tránh, né việc làm gì"
+      },
+      {
+        "word": "can't help + V-ing",
+        "meaningVi": "không thể kìm được, không nhịn được việc làm gì"
+      },
+      {
+        "word": "mind (V-ing)",
+        "meaningVi": "phiền, ngại làm gì (thường dùng trong câu hỏi/phủ định)"
+      },
+      {
+        "word": "consider (V-ing)",
+        "meaningVi": "cân nhắc, xem xét việc làm gì"
+      },
+      {
+        "word": "appreciate (V-ing)",
+        "meaningVi": "đánh giá cao, biết ơn việc ai đó làm gì"
+      },
+      {
+        "word": "would like/would love + to V",
+        "meaningVi": "muốn/rất muốn làm gì trong một tình huống cụ thể (khác với like/love + V-ing chỉ sở thích chung)"
+      },
+      {
+        "word": "spend/waste time + V-ing",
+        "meaningVi": "dành/lãng phí thời gian làm gì"
+      },
+      {
+        "word": "feel like + V-ing",
+        "meaningVi": "cảm thấy muốn làm gì (thường dùng trong văn nói)"
+      }
+    ],
+    "commonMistakes": [
+      "Dùng to-V ngay sau giới từ thay vì V-ing, kể cả khi 'to' đóng vai trò giới từ trong các cụm cố định. Sai: *\"I am looking forward to see you soon.\"* ĐÚNG: \"I am looking forward to seeing you soon.\"",
+      "Nhầm lẫn giữa 'be/get used to + V-ing' (quen với việc gì ở hiện tại) và 'used to + V nguyên thể' (thói quen trong quá khứ, nay đã chấm dứt). Sai: *\"She is used to work night shifts now.\"* ĐÚNG: \"She is used to working night shifts now.\" (còn \"She used to work night shifts\" lại mang nghĩa hoàn toàn khác — thói quen quá khứ đã kết thúc).",
+      "Nhầm nghĩa của các động từ đổi nghĩa theo dạng V-ing/to-V như remember, stop, try, regret, dẫn đến hiểu sai hoàn toàn ý câu. Sai (hiểu nhầm ý định): *\"He stopped to smoke after the doctor's warning.\"* (câu này thực chất có nghĩa là 'anh ấy dừng lại để hút thuốc', trái ngược với ý muốn diễn đạt). ĐÚNG (bỏ hẳn thuốc lá): \"He stopped smoking after the doctor's warning.\"",
+      "Dùng nhầm dạng V-ing cho các động từ chỉ đi với to-V (như want, decide, promise, agree...) hoặc ngược lại dùng to-V cho các động từ chỉ đi với V-ing (như enjoy, avoid, finish, suggest...). Sai: *\"I want going home now.\"* / *\"She suggested to leave early.\"* ĐÚNG: \"I want to go home now.\" / \"She suggested leaving early.\""
+    ]
+  }
+}

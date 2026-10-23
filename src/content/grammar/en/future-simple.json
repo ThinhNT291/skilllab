@@ -1,0 +1,131 @@
+{
+  "id": "future-simple",
+  "language": "en",
+  "title": "Thì tương lai đơn (Future Simple - will)",
+  "levels": [
+    "A2"
+  ],
+  "order": 5,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "fs-u1-spontaneous-decision",
+        "label": "Quyết định tức thời tại thời điểm nói",
+        "explanationVi": "Dùng 'will' khi vừa nghĩ ra và quyết định làm gì ngay tại thời điểm nói, chưa hề lên kế hoạch từ trước. Đây là điểm khác với 'be going to' (dùng cho dự định đã có sẵn kế hoạch từ trước đó).",
+        "examples": [
+          {
+            "en": "The phone is ringing - I will answer it.",
+            "vi": "Điện thoại đang reo - để tôi nghe cho."
+          },
+          {
+            "en": "I don't have any cash on me, so I'll pay by card.",
+            "vi": "Tôi không mang tiền mặt, nên tôi sẽ trả bằng thẻ vậy."
+          }
+        ]
+      },
+      {
+        "id": "fs-u2-prediction-belief",
+        "label": "Dự đoán dựa trên suy nghĩ, quan điểm cá nhân",
+        "explanationVi": "Dùng 'will' để đưa ra dự đoán về tương lai dựa trên suy nghĩ, niềm tin hoặc cảm nhận chủ quan của người nói, không dựa trên bằng chứng rõ ràng ở hiện tại. Thường đi kèm các động từ think/believe/suppose/expect hoặc probably/perhaps, I'm sure.",
+        "examples": [
+          {
+            "en": "I think our team will win the match tonight.",
+            "vi": "Tôi nghĩ đội của chúng ta sẽ thắng trận đấu tối nay."
+          },
+          {
+            "en": "She will probably forget about the meeting again.",
+            "vi": "Có lẽ cô ấy sẽ lại quên mất cuộc họp thôi."
+          }
+        ]
+      },
+      {
+        "id": "fs-u3-promise-offer-request",
+        "label": "Lời hứa, đề nghị giúp đỡ, yêu cầu (Will you...?)",
+        "explanationVi": "Dùng 'will' trong các câu hứa hẹn (promise), đề nghị giúp đỡ ai đó (offer), hoặc câu yêu cầu ai đó làm gì với cấu trúc 'Will you...?'.",
+        "examples": [
+          {
+            "en": "I promise I will call you as soon as I land.",
+            "vi": "Anh hứa sẽ gọi cho em ngay khi hạ cánh."
+          },
+          {
+            "en": "Will you pass me the salt, please?",
+            "vi": "Bạn làm ơn đưa giúp tôi lọ muối được không?"
+          }
+        ]
+      },
+      {
+        "id": "fs-u4-facts-certainty",
+        "label": "Sự việc chắc chắn xảy ra trong tương lai theo lẽ tự nhiên",
+        "explanationVi": "Dùng 'will' cho những sự việc gần như chắc chắn sẽ xảy ra trong tương lai theo quy luật tự nhiên hoặc điều hiển nhiên, không phụ thuộc vào ý muốn hay kế hoạch của con người. Điều này khác với hiện tại đơn dùng cho lịch trình, thời gian biểu đã được sắp xếp cố định từ trước.",
+        "examples": [
+          {
+            "en": "Ice will melt if you leave it outside in this heat.",
+            "vi": "Đá sẽ tan chảy nếu bạn để nó ngoài trời nắng nóng thế này."
+          },
+          {
+            "en": "This old wooden bridge will collapse eventually if no one repairs it.",
+            "vi": "Cây cầu gỗ cũ này sẽ sập trong tương lai nếu không ai sửa chữa nó."
+          }
+        ]
+      },
+      {
+        "id": "fs-u5-time-clause-restriction",
+        "label": "Không dùng will trong mệnh đề thời gian",
+        "explanationVi": "Trong mệnh đề trạng ngữ chỉ thời gian bắt đầu bằng when/as soon as/before/after/until/by the time, KHÔNG dùng 'will' mà dùng thì hiện tại đơn, dù ý nghĩa của mệnh đề đó vẫn chỉ về tương lai. Mệnh đề chính (mang ý chính của câu) vẫn dùng 'will' bình thường.",
+        "examples": [
+          {
+            "en": "I will text you as soon as the bus arrives at the station.",
+            "vi": "Tôi sẽ nhắn tin cho bạn ngay khi xe buýt đến bến."
+          },
+          {
+            "en": "We will not leave the house until the rain stops.",
+            "vi": "Chúng tôi sẽ không rời khỏi nhà cho đến khi mưa tạnh."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "tomorrow",
+        "meaningVi": "ngày mai"
+      },
+      {
+        "word": "next week/month/year",
+        "meaningVi": "tuần/tháng/năm tới"
+      },
+      {
+        "word": "soon",
+        "meaningVi": "chẳng bao lâu nữa, sớm thôi"
+      },
+      {
+        "word": "in the future",
+        "meaningVi": "trong tương lai"
+      },
+      {
+        "word": "someday/one day",
+        "meaningVi": "một ngày nào đó"
+      },
+      {
+        "word": "in + khoảng thời gian (in two days, in a few years)",
+        "meaningVi": "trong vòng ... nữa (tính từ hiện tại)"
+      },
+      {
+        "word": "I think/I'm sure/probably/perhaps",
+        "meaningVi": "tôi nghĩ/tôi chắc chắn/có lẽ"
+      }
+    ],
+    "commonMistakes": [
+      "Lỗi dùng 'will' trong mệnh đề thời gian bắt đầu bằng when/as soon as/before/after/until/by the time - mệnh đề này phải chia ở thì hiện tại đơn dù mang nghĩa tương lai. Ví dụ sai: 'I will call you when I will arrive home.' ĐÚNG: 'I will call you when I arrive home.'",
+      "Lỗi chia 'will' theo chủ ngữ (thêm -s như động từ thường) - 'will' là trợ động từ khiếm khuyết (modal verb), giữ nguyên ở mọi ngôi. Ví dụ sai: 'She wills help you tomorrow.' ĐÚNG: 'She will help you tomorrow.'",
+      "Lỗi quên đảo 'will' lên trước chủ ngữ khi đặt câu hỏi. Ví dụ sai: 'You will come to the party tonight?' ĐÚNG: 'Will you come to the party tonight?'",
+      "Lỗi viết thiếu dấu nháy đơn hoặc quên 'not' khi viết câu phủ định rút gọn của 'will not'. Ví dụ sai: 'I wont be late for the meeting.' ĐÚNG: 'I won't be late for the meeting.'",
+      "Lỗi dùng 'will' khi tình huống thực ra là một dự định/kế hoạch đã được quyết định từ trước (nên dùng 'be going to'), chứ không phải quyết định tức thời. Ví dụ sai: 'I've already bought the train tickets - I will visit my hometown next week.' ĐÚNG: 'I've already bought the train tickets - I'm going to visit my hometown next week.'"
+    ],
+    "formulas": {
+      "affirmative": "S + will + V (nguyên thể) - 'will' không chia theo chủ ngữ ở bất kỳ ngôi nào. Ví dụ: She will arrive tomorrow morning.",
+      "negative": "S + will not (won't) + V (nguyên thể). Ví dụ: He won't finish the report today.",
+      "question": "Will + S + V (nguyên thể) ...? Ví dụ: Will you join us for dinner tonight?"
+    }
+  }
+}
