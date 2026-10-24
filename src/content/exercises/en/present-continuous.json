@@ -1124,12 +1124,12 @@
     "correctIndex": 2,
     "explanation": "Kế hoạch đã sắp xếp (đã mua vé) cho tương lai gần dùng hiện tại tiếp diễn: are visiting.",
     "choiceExplanations": [
-      "Sai — 'visit' (hiện tại đơn) không diễn tả kế hoạch đã sắp xếp theo cách thông thường của câu này.",
+      "Sai — hiện tại đơn chỉ dùng cho lịch trình cố định kiểu giờ tàu; đây là kế hoạch của gia đình (đã mua vé) nên dùng tiếp diễn.",
       "Sai — 'visits' sai chủ ngữ ('We' số nhiều).",
       "Đúng — kế hoạch đã định (đã mua vé) → are visiting.",
       "Sai — 'visiting' thiếu trợ động từ 'are'."
     ],
-    "bac": 1
+    "bac": 2
   },
   {
     "id": "en-present-continuous-041",
@@ -1170,20 +1170,20 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Our class ______ (learn) about volcanoes this month, so we have a lot of projects.",
+    "prompt": "Mr. Lee ______ (teach) us about volcanoes this month, so we have a lot of projects.",
     "choices": [
-      "is learning",
-      "learns",
-      "learned",
-      "are learning"
+      "is teaching",
+      "teaches",
+      "taught",
+      "are teaching"
     ],
     "correctIndex": 0,
-    "explanation": "'This month' chỉ khoảng thời gian tạm thời quanh hiện tại; 'our class' số ít nên dùng 'is learning'.",
+    "explanation": "'This month' chỉ khoảng thời gian tạm thời quanh hiện tại; 'Mr. Lee' số ít nên dùng 'is teaching'.",
     "choiceExplanations": [
-      "Đúng — việc diễn ra trong tháng này (tạm thời) → is learning; 'our class' số ít.",
-      "Sai — 'learns' (hiện tại đơn) hợp với thói quen hoặc sự thật chung, còn ở đây là việc tạm thời trong tháng này.",
-      "Sai — 'learned' là quá khứ, không hợp với 'this month' đang diễn ra.",
-      "Sai — 'are' không hợp với 'Our class' (số ít)."
+      "Đúng — việc diễn ra trong tháng này (tạm thời) → is teaching.",
+      "Sai — 'teaches' (hiện tại đơn) hợp với thói quen hoặc sự thật chung, còn ở đây là việc tạm thời trong tháng này.",
+      "Sai — 'taught' là quá khứ, không hợp với 'this month' đang diễn ra.",
+      "Sai — 'are' không hợp với 'Mr. Lee' (số ít)."
     ],
     "bac": 2
   },
@@ -1236,7 +1236,7 @@
     "correctIndex": 2,
     "explanation": "'Warmer and warmer' và 'these days' diễn tả sự thay đổi dần dần đang diễn ra → hiện tại tiếp diễn.",
     "choiceExplanations": [
-      "Sai — 'gets' vẫn có thể nói về quy luật chung, nhưng 'warmer and warmer these days' nhấn mạnh sự thay đổi đang diễn ra nên dùng tiếp diễn.",
+      "Sai — 'gets' không sai hẳn về ngữ pháp (nói quy luật chung, như mùa xuân), nhưng 'warmer and warmer these days' nhấn mạnh sự thay đổi đang diễn ra nên dùng tiếp diễn.",
       "Sai — 'get' không hợp với chủ ngữ số ít 'The weather'.",
       "Đúng — xu hướng đang thay đổi dần → is getting.",
       "Sai — 'are' không hợp với chủ ngữ số ít."
@@ -1254,19 +1254,19 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "My little sister ______ (always/borrow) my pens and never gives them back!",
+    "prompt": "My cousin ______ (always/borrow) my pens and never gives them back!",
     "choices": [
       "always borrowing",
       "are always borrowing",
-      "borrow always",
+      "always borrows",
       "is always borrowing"
     ],
     "correctIndex": 3,
     "explanation": "Phàn nàn về thói quen lặp lại gây khó chịu: is/are + always + V-ing; chủ ngữ số ít nên dùng 'is'.",
     "choiceExplanations": [
       "Sai — thiếu trợ động từ 'is'.",
-      "Sai — 'are' không hợp với chủ ngữ số ít 'My little sister'.",
-      "Sai — 'borrow always' không phải dạng động từ đã chia đúng và sai trật tự từ.",
+      "Sai — 'are' không hợp với chủ ngữ số ít 'My cousin'.",
+      "Sai — 'always borrows' (hiện tại đơn) nói thói quen một cách trung tính, không mang sắc thái phàn nàn như 'is always borrowing'.",
       "Đúng — phàn nàn thói quen → is always borrowing."
     ],
     "bac": 4
@@ -1282,20 +1282,20 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Our school ______ (hold) a book fair this week, so the library is very crowded.",
+    "prompt": "The students ______ (prepare) for the book fair this week, so the library is very crowded.",
     "choices": [
-      "is holding",
-      "holds",
-      "hold",
-      "are holding"
+      "are preparing",
+      "prepares",
+      "prepare",
+      "is preparing"
     ],
     "correctIndex": 0,
-    "explanation": "'This week' chỉ sự việc tạm thời quanh hiện tại → hiện tại tiếp diễn; 'Our school' số ít nên dùng 'is holding'.",
+    "explanation": "'This week' chỉ sự việc tạm thời quanh hiện tại → hiện tại tiếp diễn; 'The students' số nhiều nên dùng 'are preparing'.",
     "choiceExplanations": [
-      "Đúng — việc diễn ra trong tuần này (tạm thời) → is holding.",
-      "Sai — 'holds' nói về thói quen hoặc việc thường xuyên, còn ở đây là hội sách trong tuần này.",
-      "Sai — 'hold' không hợp với chủ ngữ số ít.",
-      "Sai — 'are' không hợp với 'Our school' (số ít)."
+      "Đúng — việc diễn ra trong tuần này (tạm thời) → are preparing.",
+      "Sai — 'prepares' sai chủ ngữ ('The students' số nhiều).",
+      "Sai — 'prepare' (hiện tại đơn) nói thói quen hoặc việc thường xuyên, còn ở đây là việc tạm thời trong tuần này.",
+      "Sai — 'is' không hợp với 'The students' (số nhiều)."
     ],
     "bac": 2
   },
@@ -1368,20 +1368,20 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Max usually ______ (ride) his bike to school, but it is raining today, so his dad ______ (drive) him there.",
+    "prompt": "I ______ (like) this soup, but I ______ (not/eat) it right now because it is too hot.",
     "choices": [
-      "is riding / drives",
-      "rides / drives",
-      "ride / is driving",
-      "rides / is driving"
+      "am liking / am not eating",
+      "like / don't eat",
+      "am liking / don't eat",
+      "like / am not eating"
     ],
     "correctIndex": 3,
-    "explanation": "'Usually' → hiện tại đơn (rides); 'today' do trời mưa là tình huống tạm thời → hiện tại tiếp diễn (is driving).",
+    "explanation": "'Like' là động từ chỉ trạng thái nên dùng hiện tại đơn; 'right now' → am not eating.",
     "choiceExplanations": [
-      "Sai — đảo ngược thì: 'usually' cần hiện tại đơn, còn 'today' cần tiếp diễn.",
-      "Sai — vế sau 'today' (tình huống tạm thời) cần hiện tại tiếp diễn, không dùng 'drives'.",
-      "Sai — 'ride' thiếu -s với chủ ngữ 'Max'.",
-      "Đúng — usually rides (thói quen); today is driving (tạm thời)."
+      "Sai — 'like' là động từ chỉ trạng thái, không dùng dạng tiếp diễn ('am liking').",
+      "Sai — 'right now' cần hiện tại tiếp diễn ('am not eating'), không dùng 'don't eat'.",
+      "Sai — 'am liking' sai vì 'like' là động từ trạng thái, và 'don't eat' không hợp với 'right now'.",
+      "Đúng — like (trạng thái, hiện tại đơn); am not eating (right now)."
     ],
     "bac": 3
   },
@@ -1397,20 +1397,20 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Prices of school supplies ______ (go) up this year, so my mom ______ (compare) prices in three stores right now.",
+    "prompt": "More students ______ (use) tablets this year, so our teacher ______ (set up) a charging station right now.",
     "choices": [
-      "are going / is comparing",
-      "go / compares",
-      "are going / compares",
-      "go / is comparing"
+      "are using / is setting up",
+      "use / sets up",
+      "are using / sets up",
+      "use / is setting up"
     ],
     "correctIndex": 0,
-    "explanation": "'Go up this year' là xu hướng đang thay đổi → are going; 'right now' → is comparing.",
+    "explanation": "'This year' diễn tả xu hướng đang thay đổi → are using; 'right now' → is setting up.",
     "choiceExplanations": [
-      "Đúng — xu hướng đang thay đổi (are going); 'right now' → is comparing.",
-      "Sai — 'go' và 'compares' đều là hiện tại đơn; câu có xu hướng đang thay đổi và 'right now'.",
-      "Sai — 'compares' là hiện tại đơn, không hợp với 'right now'.",
-      "Sai — 'go' không diễn tả xu hướng đang thay đổi trong năm nay."
+      "Đúng — xu hướng đang thay đổi (are using); 'right now' → is setting up.",
+      "Sai — 'use' và 'sets up' đều là hiện tại đơn; câu có xu hướng đang thay đổi và 'right now'.",
+      "Sai — 'sets up' là hiện tại đơn, không hợp với 'right now'.",
+      "Sai — 'use' không diễn tả xu hướng đang thay đổi trong năm nay."
     ],
     "bac": 3
   }
