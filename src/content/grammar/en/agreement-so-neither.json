@@ -30,7 +30,7 @@
         "id": "asr-u2-neither-agreement",
         "bac": 4,
         "label": "Đồng tình với câu phủ định: Neither / Nor + trợ động từ + chủ ngữ",
-        "explanationVi": "Khi ai đó nói một câu phủ định và bạn cũng như vậy, dùng Neither (hoặc Nor) + trợ động từ + chủ ngữ. Trợ động từ ở dạng KHẲNG ĐỊNH vì 'neither' đã mang nghĩa phủ định. Nếu thêm not nữa sẽ thành phủ định kép (sai). Trợ động từ vẫn khớp với câu gốc.",
+        "explanationVi": "Khi ai đó nói một câu phủ định và bạn cũng như vậy, dùng Neither (hoặc Nor) + trợ động từ + chủ ngữ. Trợ động từ ở dạng KHẲNG ĐỊNH vì 'neither' đã mang nghĩa phủ định. Nếu thêm not nữa sẽ thành phủ định kép (sai). Trợ động từ vẫn khớp với câu gốc. Các từ như never, hardly, hardly ever, rarely, nobody, nothing cũng làm câu mang nghĩa phủ định nên dùng Neither/Nor (I hardly ever eat breakfast. → Neither do I). Neither và Nor thay thế được cho nhau trong mẫu này; Nor thường trang trọng hơn.",
         "examples": [
           {
             "en": "A: Tom doesn't like coffee. B: Neither does Mai.",
@@ -46,7 +46,7 @@
         "id": "asr-u3-too-either",
         "bac": 3,
         "label": "Too và either ở cuối câu",
-        "explanationVi": "Cách khác để nói 'cũng' là đặt too hoặc either ở cuối câu. Too dùng sau câu khẳng định: I like hiking, and my brother does, too. Either dùng sau câu phủ định: They don't live here, and we don't either. Thường có dấu phẩy trước too. Không dùng too sau câu phủ định và không dùng either sau câu khẳng định.",
+        "explanationVi": "Cách khác để nói 'cũng' là đặt too hoặc either ở cuối câu. Too dùng sau câu khẳng định: I like hiking, and my brother does, too. Either dùng sau câu phủ định: They don't live here, and we don't either. Thường có dấu phẩy trước too. Thường không dùng too sau câu phủ định và không dùng either sau câu khẳng định.",
         "examples": [
           {
             "en": "I like hiking, and my brother does, too.",
@@ -62,7 +62,7 @@
         "id": "asr-u4-choosing-auxiliary",
         "bac": 3,
         "label": "Chọn trợ động từ cho đúng",
-        "explanationVi": "Nhìn vào động từ của câu gốc để chọn trợ động từ trả lời: 'I'm tired' → am; 'I love pizza' → do; 'She plays' → does; 'I went' → did; 'I've finished' → have; 'I'll go' → will; 'I can swim' → can; 'I'd like' → would. Với chủ ngữ ngôi thứ ba số ít ở hiện tại đơn dùng does, với I/you/we/they dùng do.",
+        "explanationVi": "Nhìn vào động từ của câu gốc để chọn trợ động từ trả lời: 'I'm tired' → am; 'I love pizza' → do; 'She plays' → does; 'I went' → did; 'I've finished' → have; 'I'll go' → will; 'I can swim' → can; 'I'd like' → would. Với chủ ngữ ngôi thứ ba số ít ở hiện tại đơn dùng does, với I/you/we/they dùng do. Với động từ khuyết thiếu thì lặp lại chính nó (We should leave. → So should they). Nếu câu gốc có mệnh đề phụ (I wish ..., I hope ...) thì nhìn động từ chính: I wish I had more time. → So do I; I hope it's sunny. → So do I. Quá khứ tiếp diễn dùng was/were: My parents were watching TV. → So were we.",
         "examples": [
           {
             "en": "A: I have to leave early. B: So do I.",
@@ -78,7 +78,7 @@
         "id": "asr-u5-short-replies",
         "bac": 4,
         "label": "Đáp lời ngắn: Me too, Me neither và khi không đồng ý",
-        "explanationVi": "Trong hội thoại thân mật, có thể chỉ nói Me too (với câu khẳng định) hoặc Me neither (với câu phủ định). Khi không đồng ý thì dùng trợ động từ trái nghĩa: A: I love early mornings. B: I don't. / A: I don't like fish. B: I do. Lưu ý: Me neither dùng với câu phủ định, Me too dùng với câu khẳng định.",
+        "explanationVi": "Trong hội thoại thân mật, có thể chỉ nói Me too (với câu khẳng định) hoặc Me neither (với câu phủ định). Khi không đồng ý thì dùng trợ động từ trái nghĩa: A: I love early mornings. B: I don't. / A: I don't like fish. B: I do. Lưu ý: Me neither dùng với câu phủ định, Me too dùng với câu khẳng định. Trong tiếng Anh Mỹ thân mật cũng hay nghe 'Me either'; bài này dùng dạng chuẩn Me neither.",
         "examples": [
           {
             "en": "A: I love horror movies. B: Me too.",
