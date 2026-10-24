@@ -24,7 +24,7 @@
       "Sai — 'so': 'so' nêu kết quả, còn hai mệnh đề này tương phản.",
       "Đúng — hai mệnh đề tương phản nên dùng but.",
       "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa.",
-      "Sai — 'because': 'because' nêu lý do và không đứng giữa hai mệnh đề độc lập như vậy."
+      "Sai — 'because': 'because' chỉ nguyên nhân, không hợp nghĩa (giàu mà không vui thì không phải lý do)."
     ]
   },
   {
@@ -205,7 +205,7 @@
       "conj-u4-agreement"
     ],
     "difficulty": 1,
-    "bac": 4,
+    "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Both Anna and Ben ______ here.",
     "choices": [
@@ -233,7 +233,7 @@
       "conj-u5-parallel"
     ],
     "difficulty": 1,
-    "bac": 4,
+    "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "She likes swimming and ______.",
     "choices": [
@@ -260,8 +260,8 @@
     "tags": [
       "conj-u5-parallel"
     ],
-    "difficulty": 1,
-    "bac": 4,
+    "difficulty": 2,
+    "bac": 3,
     "title": "Chọn câu đúng",
     "prompt": "Which list of activities is written in parallel form?",
     "choices": [
@@ -289,7 +289,7 @@
       "conj-u1-coordinating"
     ],
     "difficulty": 2,
-    "bac": 2,
+    "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "He studied hard, ______ he failed the exam.",
     "choices": [
@@ -319,20 +319,20 @@
     "difficulty": 2,
     "bac": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "It was cold, ______ we wore coats.",
+    "prompt": "I forgot my umbrella, ______ I got wet.",
     "choices": [
-      "because",
-      "so",
       "but",
-      "or"
+      "so",
+      "or",
+      "because"
     ],
     "correctIndex": 1,
-    "explanation": "So + kết quả; because + nguyên nhân.",
+    "explanation": "So nối nguyên nhân với kết quả.",
     "choiceExplanations": [
-      "Sai — 'because': 'because' nêu nguyên nhân; câu này đã nêu nguyên nhân ở vế trước nên cần 'so' cho kết quả.",
-      "Đúng — mặc áo khoác là kết quả của trời lạnh nên dùng so.",
       "Sai — 'but': 'but' nêu tương phản, không hợp nghĩa.",
-      "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa."
+      "Đúng — bị ướt là kết quả của việc quên ô nên dùng so.",
+      "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa.",
+      "Sai — 'because': 'because' nêu nguyên nhân; ở đây vế sau là kết quả."
     ]
   },
   {
@@ -400,7 +400,7 @@
     "tags": [
       "conj-u3-correlative"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "You can ______ stay here or come with us.",
@@ -513,7 +513,7 @@
       "conj-u5-parallel"
     ],
     "difficulty": 2,
-    "bac": 4,
+    "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "She is smart, funny, and ______.",
     "choices": [
@@ -569,22 +569,22 @@
       "conj-u1-coordinating"
     ],
     "difficulty": 3,
-    "bac": 2,
+    "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "She didn't study, ______ she passed the exam.",
+    "prompt": "Lan wanted to join the club, ______ she was too shy to sign up.",
     "choices": [
-      "yet",
+      "but",
       "so",
-      "for",
-      "or"
+      "or",
+      "and"
     ],
     "correctIndex": 0,
-    "explanation": "Yet nối hai ý tương phản bất ngờ.",
+    "explanation": "But nối hai ý tương phản.",
     "choiceExplanations": [
-      "Đúng — kết quả bất ngờ trái với mong đợi nên dùng yet.",
-      "Sai — 'so': 'so' nêu kết quả hợp lý, còn ở đây kết quả bất ngờ.",
-      "Sai — 'for': 'for' nêu lý do, không hợp nghĩa ở đây.",
-      "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa."
+      "Đúng — hai ý tương phản (muốn tham gia nhưng quá ngại) nên dùng but. (Lưu ý: 'yet' cũng đúng, chỉ không có trong lựa chọn.)",
+      "Sai — 'so': 'so' nêu kết quả, còn ở đây là tương phản.",
+      "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa.",
+      "Sai — 'and': 'and' chỉ thêm thông tin, không nêu sự tương phản."
     ]
   },
   {
@@ -654,21 +654,21 @@
     ],
     "difficulty": 3,
     "bac": 3,
-    "title": "Tìm câu sai",
-    "prompt": "Which sentence contains a mistake with commas?",
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence needs NO comma before 'and'?",
     "choices": [
-      "She was tired, and she went to bed.",
-      "She was tired. She went to bed.",
-      "She was tired so, she went to bed.",
-      "She was tired, so she went to bed."
+      "I bought apples, and I bought oranges.",
+      "I was tired, so I went to bed.",
+      "I bought apples and oranges.",
+      "I called her, but she didn't answer."
     ],
     "correctIndex": 2,
-    "explanation": "Dấu phẩy đứng trước liên từ.",
+    "explanation": "Chỉ cần dấu phẩy khi nối hai mệnh đề độc lập.",
     "choiceExplanations": [
-      "Không chọn — 'She was tired, and she went to bed.' câu này đúng nên không phải đáp án cần chọn.",
-      "Không chọn — 'She was tired. She went to bed.' câu này đúng nên không phải đáp án cần chọn.",
-      "Đúng — dấu phẩy phải đứng trước liên từ 'so', không đứng sau.",
-      "Không chọn — 'She was tired, so she went to bed.' câu này đúng nên không phải đáp án cần chọn."
+      "Sai — 'I bought apples, and I bought oranges.': hai mệnh đề độc lập có thể dùng dấu phẩy trước 'and' nên câu này không phải đáp án cần chọn.",
+      "Sai — 'I was tired, so I went to bed.': hai mệnh đề độc lập có dấu phẩy trước 'so' nên câu này không phải đáp án cần chọn.",
+      "Đúng — 'and' chỉ nối hai danh từ (không phải hai mệnh đề) nên không cần dấu phẩy.",
+      "Sai — 'I called her, but she didn't answer.': hai mệnh đề độc lập có dấu phẩy trước 'but' nên câu này không phải đáp án cần chọn."
     ]
   },
   {
@@ -693,7 +693,7 @@
     "correctIndex": 2,
     "explanation": "not only A but also B với A, B cùng dạng.",
     "choiceExplanations": [
-      "Sai — 'She is not only clever but also is hard-working.': thêm 'is' làm hai vế không song song (clever / is hard-working).",
+      "Sai — 'She is not only clever but also is hard-working.': vẫn hiểu được nhưng hai vế không song song (clever / is hard-working), nên nghe lủng củng.",
       "Sai — 'She is not only clever or also hard-working.': 'or also' không tạo cặp; dùng 'but also'.",
       "Đúng — đúng cặp not only ... but also, hai tính từ song song.",
       "Sai — 'She is not only clever but and hard-working.': 'but and' không tạo cặp; dùng 'but also'."
@@ -769,16 +769,16 @@
     "title": "Tìm câu sai",
     "prompt": "Which sentence has a wrong verb after neither ... nor?",
     "choices": [
-      "Neither the teacher nor the students is ready.",
-      "Neither the teacher nor the students are ready.",
+      "Neither Lan nor her friends is hungry.",
+      "Neither Lan nor her brother is hungry.",
       "Either Tom or Anna is coming.",
       "Both Tom and Anna are coming."
     ],
     "correctIndex": 0,
     "explanation": "Chọn động từ theo chủ ngữ gần nhất.",
     "choiceExplanations": [
-      "Đúng — động từ phải chia theo chủ ngữ gần nhất 'the students' (số nhiều): are.",
-      "Sai — 'Neither the teacher nor the students are ready.': câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — động từ phải chia theo chủ ngữ gần nhất 'her friends' (số nhiều): are.",
+      "Sai — 'Neither Lan nor her brother is hungry.': câu này đúng (gần nhất là 'her brother', số ít) nên không phải đáp án cần chọn.",
       "Sai — 'Either Tom or Anna is coming.': câu này đúng nên không phải đáp án cần chọn.",
       "Sai — 'Both Tom and Anna are coming.': câu này đúng nên không phải đáp án cần chọn."
     ]
@@ -823,20 +823,20 @@
     "difficulty": 3,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The company wants to reduce costs, improve quality, and ______ customers.",
+    "prompt": "Our club wants to help students, save energy, and ______ new members.",
     "choices": [
-      "attracted",
-      "attract",
-      "attracting",
-      "attractive"
+      "finding",
+      "find",
+      "found",
+      "finder"
     ],
     "correctIndex": 1,
-    "explanation": "Các động từ trong danh sách phải cùng dạng. (Lưu ý: 'to attract' cũng song song, chỉ không có trong lựa chọn.)",
+    "explanation": "Các động từ trong danh sách phải cùng dạng.",
     "choiceExplanations": [
-      "Sai — 'attracted': 'attracted' (quá khứ) không song song với reduce, improve (nguyên thể).",
-      "Đúng — sau 'wants to' các động từ song song ở nguyên thể: reduce, improve, attract.",
-      "Sai — 'attracting': 'attracting' (V-ing) không song song với reduce, improve (nguyên thể).",
-      "Sai — 'attractive': 'attractive' là tính từ, không song song với các động từ reduce, improve."
+      "Sai — 'finding': 'finding' (V-ing) không song song với help, save (nguyên thể).",
+      "Đúng — sau 'wants to' các động từ song song ở nguyên thể: help, save, find. (Lưu ý: 'to find' cũng song song, chỉ không có trong lựa chọn.)",
+      "Sai — 'found': 'found' (quá khứ) không song song với help, save (nguyên thể).",
+      "Sai — 'finder': 'finder' là danh từ, không song song với các động từ help, save."
     ]
   }
 ]

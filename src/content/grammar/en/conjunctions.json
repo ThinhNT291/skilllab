@@ -14,7 +14,7 @@
         "id": "conj-u1-coordinating",
         "bac": 2,
         "label": "Liên từ đẳng lập: and, but, or, so, yet, for",
-        "explanationVi": "Liên từ đẳng lập nối hai từ, hai cụm từ hoặc hai mệnh đề ngang hàng. And thêm thông tin; but nêu sự tương phản; or nêu lựa chọn; so nêu kết quả; yet nêu tương phản bất ngờ (gần nghĩa với but); for nêu lý do (trang trọng, giống because). So chỉ kết quả, còn because chỉ nguyên nhân, nên đừng dùng lẫn: It was cold, so we wore coats. = We wore coats because it was cold.",
+        "explanationVi": "Liên từ đẳng lập nối hai từ, hai cụm từ hoặc hai mệnh đề ngang hàng. And thêm thông tin; but nêu sự tương phản; or nêu lựa chọn; so nêu kết quả; yet nêu tương phản bất ngờ (gần nghĩa với but); for nêu lý do (trang trọng, giống because). So chỉ kết quả, còn because chỉ nguyên nhân, nên đừng dùng lẫn: It was cold, so we wore coats. = We wore coats because it was cold. For và yet mang sắc thái trang trọng hơn, thường gặp ở trình độ cao hơn.",
         "examples": [
           {
             "en": "I wanted to swim, but the pool was closed.",
@@ -30,7 +30,7 @@
         "id": "conj-u2-commas",
         "bac": 3,
         "label": "Dấu phẩy trước liên từ đẳng lập",
-        "explanationVi": "Khi nối hai mệnh đề độc lập (mỗi mệnh đề có chủ ngữ và động từ riêng) bằng and, but, or, so, yet, thường đặt dấu phẩy TRƯỚC liên từ: We missed the bus, so we walked. Dấu phẩy đứng trước liên từ, không đứng sau nó. Không dùng chỉ một dấu phẩy để nối hai mệnh đề mà không có liên từ (lỗi 'comma splice'), và cũng không viết hai mệnh đề liền nhau không có dấu câu hay liên từ (lỗi 'run-on'). Với câu rất ngắn, đôi khi có thể bỏ dấu phẩy.",
+        "explanationVi": "Khi nối hai mệnh đề độc lập (mỗi mệnh đề có chủ ngữ và động từ riêng) bằng and, but, or, so, yet, thường đặt dấu phẩy TRƯỚC liên từ: We missed the bus, so we walked. Dấu phẩy đứng trước liên từ, không đứng sau nó. Không dùng chỉ một dấu phẩy để nối hai mệnh đề mà không có liên từ (lỗi 'comma splice'), và cũng không viết hai mệnh đề liền nhau không có dấu câu hay liên từ (lỗi 'run-on'). Với câu rất ngắn, đôi khi có thể bỏ dấu phẩy. Khi and chỉ nối hai từ hoặc hai cụm từ (apples and oranges), không cần dấu phẩy.",
         "examples": [
           {
             "en": "The store was open, but the lights were off.",
@@ -55,6 +55,10 @@
           {
             "en": "I can't decide whether to go or to stay.",
             "vi": "Tôi không thể quyết định nên đi hay ở."
+          },
+          {
+            "en": "I don't know whether he will come or not.",
+            "vi": "Tôi không biết liệu anh ấy có đến hay không."
           }
         ]
       },
@@ -76,9 +80,9 @@
       },
       {
         "id": "conj-u5-parallel",
-        "bac": 4,
+        "bac": 3,
         "label": "Cấu trúc song song (parallel structure)",
-        "explanationVi": "Các thành phần được nối bằng liên từ phải có cùng dạng ngữ pháp: danh từ với danh từ, V-ing với V-ing, to-V với to-V, tính từ với tính từ. Ví dụ: I like swimming, hiking, and reading (không viết swimming, hiking, and to read). Với to-V có thể lặp to cho mọi mục hoặc chỉ dùng to cho mục đầu (to swim, hike, and read), miễn là nhất quán. Lỗi không song song làm câu nghe lủng củng.",
+        "explanationVi": "Các thành phần được nối bằng liên từ phải có cùng dạng ngữ pháp: danh từ với danh từ, V-ing với V-ing, to-V với to-V, tính từ với tính từ. Ví dụ: I like swimming, hiking, and reading (không viết swimming, hiking, and to read). Với to-V có thể lặp to cho mọi mục hoặc chỉ dùng to cho mục đầu (to swim, hike, and read), miễn là nhất quán. Lỗi không song song làm câu nghe lủng củng. Sau động từ khuyết thiếu như must, can, động từ không có to; khi nối bằng and thì các động từ cùng ở dạng nguyên thể.",
         "examples": [
           {
             "en": "She is honest, patient, and creative.",
