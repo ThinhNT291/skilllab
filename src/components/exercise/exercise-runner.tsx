@@ -51,10 +51,13 @@ function correctText(ex: Exercise): string | null {
 export function ExerciseRunner({
   exercises,
   onAnswer,
+  onFinish,
   theoryHref,
 }: {
   exercises: Exercise[]
   onAnswer?: (record: AnswerRecord) => void
+  /** Gọi một lần khi người học bấm "Xem kết quả" ở câu cuối. */
+  onFinish?: () => void
   /** Đường dẫn về đúng mục lý thuyết của câu (hiện khi trả lời sai). Trả null nếu không có. */
   theoryHref?: (exercise: Exercise) => string | null
 }) {
@@ -92,6 +95,7 @@ export function ExerciseRunner({
     const last = index + 1 >= total
     setIndex((n) => n + 1)
     setResult(null)
+    if (last) onFinish?.()
     if (last && correctCount === total && !reducedMotion()) {
       confetti({ particleCount: 120, spread: 80, origin: { y: 0.6 } })
     }
