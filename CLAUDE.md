@@ -19,7 +19,7 @@ Học sinh cuối cấp 1 đến hết cấp 2 (lớp 4–9, khoảng 9–15 tu�
 3c. **Đăng nhập:** giai đoạn đầu dùng **đăng nhập ẩn danh** của Supabase (học sinh dùng ngay, không đăng ký). Sau này thêm **hai đường**: tài khoản do quản trị tạo và Google; hồ sơ (`profiles`) giữ nguyên cách tạo, chỉ thêm cách gắn tài khoản. Dữ liệu học tập tham chiếu `profiles.id`, không tham chiếu thẳng hệ đăng nhập; chỗ duy nhất gắn với Supabase Auth là `profiles.auth_user_id` và hàm SQL `current_profile_id()`.
 4. Game mini dạng "học xong vài vòng thì chơi": mỗi game là component độc lập, nhận danh sách mục học và trả về điểm; dùng chung ngân hàng nội dung.
 5. Không sao chép nội dung, mã hay hình ảnh của game/website khác (IOE, "Đảo Kho Báu Từ Vựng"…); chỉ học ý tưởng.
-6a. **Gemini (khi làm):** chấm/nhận xét dùng mô hình Flash-Lite bản mới nhất, đọc to dùng Flash-Lite TTS bản mới nhất; gọi ở API route, khóa chỉ ở biến môi trường server. Tra mã mô hình hiện hành trong tài liệu Google trước khi viết code, không đoán.
+6a. **Gemini (khi làm):** khóa đọc từ biến môi trường server `GEMINI_API_KEY` (chữ hoa; chủ dự án đã đặt tên `Gemini_api_key` trên Vercel, cần đổi sang chữ hoa trước khi dùng), chấm/nhận xét dùng mô hình Flash-Lite bản mới nhất, đọc to dùng Flash-Lite TTS bản mới nhất; gọi ở API route. Tra mã mô hình hiện hành trong tài liệu Google trước khi viết code, không đoán.
 6. Luôn có tùy chọn tắt âm thanh và giảm chuyển động (`prefers-reduced-motion`). Hạn chế thu thập dữ liệu cá nhân của trẻ vị thành niên; xếp hạng dùng biệt danh và có thể tắt; không quảng cáo.
 
 ## Chuẩn nội dung
