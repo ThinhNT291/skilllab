@@ -79,7 +79,22 @@ export interface DictationExercise extends ExerciseBase {
   card: CardSource
 }
 
-export type Exercise = McqExercise | ReorderExercise | TypedExercise | DictationExercise
+/** Tìm từ sai trong câu: câu bị điền một đáp án sai, người học chạm vào chỗ sai. Sinh từ câu trắc nghiệm gốc. */
+export interface SpotExercise extends ExerciseBase {
+  kind: "spot"
+  prompt: string
+  words: string[]
+  /** Khoảng chỉ số từ chứa lỗi (gồm cả hai đầu) */
+  errorFrom: number
+  errorTo: number
+  /** Câu đúng, hiện sau khi trả lời */
+  correctSentence: string
+  /** Vì sao chỗ đó sai (lấy từ lời giải thích của đáp án sai gốc) */
+  explanation: string
+  card: CardSource
+}
+
+export type Exercise = McqExercise | ReorderExercise | TypedExercise | DictationExercise | SpotExercise
 
 export interface AnswerRecord {
   exerciseId: string

@@ -32,7 +32,7 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [x] `commonMistakes` đã tách thành {mô tả, cặp ví dụ sai/đúng, ghi chú} (105/106 mục có ví dụ). [ ] Gắn thẻ lỗi (`tags`) cho từng mục để nối với bài tập và phân tích.
 - [ ] Mô hình dữ liệu nội dung dùng chung: mục học (từ, cụm, chủ điểm ngữ pháp, bài đọc, bài nghe), gắn **ngôn ngữ, thang, cấp độ, kỹ năng, chủ đề, thẻ lỗi (tag)**.
 - [x] Khu Học → Bài tập: một câu mỗi lần, tiến độ, phản hồi tức thì, kết quả cuối bài, làm lại.
-- [x] Kiểu câu: trắc nghiệm, xếp từ, gõ đáp án, nghe chép. [ ] Còn: ghép cặp, sửa lỗi sai.
+- [x] Kiểu câu: trắc nghiệm, xếp từ, gõ đáp án, nghe chép, tìm lỗi sai (chạm vào chỗ sai). [x] Ghép cặp là game mini bấm giờ. [ ] Chưa có: sửa lỗi bằng cách gõ lại câu đúng.
 - [ ] Nhận xét và gợi ý có cấu trúc: vì sao sai, quy tắc liên quan, link về lý thuyết, mục nên ôn tiếp.
 - [x] Màn **Tiến độ** `/tien-do`: tổng quan (số câu, % đúng, số chuyên đề), danh sách **mục cần ôn lại** (thẻ sai nhiều nhất lên đầu) kèm nút "Xem lại lý thuyết" và "Luyện lại mục này", và tỷ lệ đúng theo chuyên đề. Dùng bảng `answers`; tổng hợp lúc đọc (`src/lib/analytics`).
 - [x] Chuỗi ngày học (hiện tại và dài nhất), mục tiêu hằng ngày (10 câu, có vòng tiến độ) và bản đồ nhiệt 12 tuần trên `/tien-do`; tính từ bảng `answers`, mọi lượt trả lời (đúng lẫn sai) đều tính. Ngày theo giờ trình duyệt.
@@ -45,7 +45,7 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 ## Giai đoạn 2 — Lớp game
 - [ ] Nhân vật 4 trạng thái, 5 âm thanh (đúng, sai, bấm, lên cấp, xu), hiệu ứng pop/lắc/nảy/pháo giấy, combo, sao, xu có chỗ tiêu, huy hiệu.
 - [ ] Bản đồ tiến trình mở khóa theo chủ điểm (khuyến khích đạt ngưỡng, không khóa cứng).
-- [ ] Game mini sau mỗi N vòng, mỗi game một component độc lập, dùng chung ngân hàng nội dung. Ưu tiên ý: ghép cặp bấm giờ, xếp từ chạy đua, nghe-gõ, "trùm cuối" gom mục hay sai.
+- [ ] Game mini sau mỗi N vòng (đã có ghép cặp bấm giờ; chưa tự mở sau N vòng), mỗi game một component độc lập, dùng chung ngân hàng nội dung. Ưu tiên ý: ghép cặp bấm giờ, xếp từ chạy đua, nghe-gõ, "trùm cuối" gom mục hay sai.
 - [ ] Hai bộ giao diện theo lứa tuổi (cuối cấp 1 / cấp 2), cho chọn nhân vật/chủ đề.
 
 ## Giai đoạn 3 — Chuẩn đánh giá và đa ngôn ngữ

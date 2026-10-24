@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import type { DictationExercise, McqExercise, ReorderExercise, TypedExercise } from "@/lib/content/types"
-import { gradeReorder, gradeTyped } from "@/lib/grading"
+import type { DictationExercise, McqExercise, ReorderExercise, SpotExercise, TypedExercise } from "@/lib/content/types"
+import { gradeReorder, gradeSpot, gradeTyped } from "@/lib/grading"
 import { speak, stopSpeaking, useTtsSupported } from "@/lib/audio/tts"
 import { cn } from "@/lib/utils"
 import { ChoiceButton } from "./choice-button"
@@ -171,6 +171,42 @@ export function DictationView({ ex, result, onResolve }: { ex: DictationExercise
         <p className="mb-3 rounded-game border-2 border-dashed border-border px-3 py-2 text-muted-foreground">Trình duyệt này chưa hỗ trợ đọc to. Hãy thử Chrome, Edge hoặc Safari.</p>
       )}
       <TextAnswer placeholder="Gõ câu bạn nghe được" result={result} accepted={ex.answers} onResolve={onResolve} multiline />
+    </>
+  )
+}
+
+export function SpotView({ ex, result, onResolve }: { ex: SpotExercise; result: Result | null; onResolve: (r: Result) => void }) {
+  const [tapped, setTapped] = useState<number | null>(null)
+  const done = result !== null
+  return (
+    <>
+      <p className="my-2 text-2xl font-extrabold leading-relaxed">{ex.prompt}</p>
+      <p className="mb-2 text-muted-foreground">Câu này có một chỗ sai. Chạm vào từ sai.</p>
+      <div className="flex flex-wrap gap-2" aria-label="Các từ trong câu">
+        {ex.words.map((w, i) => {
+          const isError = i >= ex.errorFrom && i <= ex.errorTo
+          return (
+            <button
+              key={i}
+              type="button"
+              disabled={done}
+              onClick={() => {
+                setTapped(i)
+                onResolve({ correct: gradeSpot(i, ex.errorFrom, ex.errorTo), response: w })
+              }}
+              className={cn(
+                "rounded-xl border-2 border-b-4 bg-card px-3 py-1.5 text-lg font-extrabold enabled:hover:border-primary enabled:active:translate-y-[2px] enabled:active:border-b-2",
+                !done && "border-border",
+                done && isError && "border-success bg-success-soft",
+                done && !isError && i === tapped && "border-danger bg-danger-soft",
+                done && !isError && i !== tapped && "border-border opacity-60",
+              )}
+            >
+              {w}
+            </button>
+          )
+        })}
+      </div>
     </>
   )
 }

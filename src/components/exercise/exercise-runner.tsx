@@ -10,7 +10,7 @@ import { getOwnedItems } from "@/lib/db"
 import { xpFor, XP_PER_COIN } from "@/lib/game/xp"
 import { Mascot, type Mood } from "@/components/game/mascot"
 import { ProgressBar } from "./progress-bar"
-import { DictationView, McqView, ReorderView, TypedView, type Result } from "./views"
+import { DictationView, McqView, ReorderView, SpotView, TypedView, type Result } from "./views"
 
 /** Sao theo số câu đúng, tính từ tỷ lệ nhưng làm tròn theo số câu thực tế để cả bài 3 câu lẫn 10 câu đều có đủ mức. */
 function starsFor(correct: number, total: number): 0 | 1 | 2 | 3 {
@@ -30,6 +30,7 @@ const KIND_TITLE: Record<Exercise["kind"], string> = {
   reorder: "Sắp xếp từ thành câu",
   typed: "Gõ đáp án",
   dictation: "Nghe và gõ lại",
+  spot: "Tìm lỗi sai",
 }
 
 function titleOf(ex: Exercise): string {
@@ -41,6 +42,7 @@ function correctText(ex: Exercise): string | null {
   if (ex.kind === "reorder") return ex.answerWords.join(" ")
   if (ex.kind === "typed") return ex.answers[0]
   if (ex.kind === "dictation") return ex.text
+  if (ex.kind === "spot") return ex.correctSentence
   return null
 }
 
@@ -160,6 +162,7 @@ export function ExerciseRunner({
         {current.kind === "mcq" && <McqView ex={current} result={result} onResolve={resolve} />}
         {current.kind === "reorder" && <ReorderView ex={current} result={result} onResolve={resolve} />}
         {current.kind === "typed" && <TypedView ex={current} result={result} onResolve={resolve} />}
+        {current.kind === "spot" && <SpotView ex={current} result={result} onResolve={resolve} />}
         {current.kind === "dictation" && <DictationView ex={current} result={result} onResolve={resolve} />}
 
         {result && (

@@ -105,3 +105,32 @@ test("trộn biến thể: giữ nguyên số câu, thay tối đa 3 câu, giữ
   assert.ok(changed.length >= 1 && changed.length <= 3)
   assert.ok(changed.every((e) => e.topic === "present-simple" && e.difficulty === 1))
 })
+
+test("tìm lỗi: điền đáp án sai vào chỗ trống và khoanh đúng vị trí", async () => {
+  const { deriveSpot } = await import("../src/lib/content/derive.ts")
+  const { gradeSpot } = await import("../src/lib/grading.ts")
+  const ex = {
+    id: "en-x-001", kind: "mcq", language: "en", topic: "present-simple", tags: [], difficulty: 1,
+    prompt: "She ______ (clean) her room every Saturday.", choices: ["cleans", "clean", "is cleaning", "to clean"], correctIndex: 0,
+    explanation: "x", choiceExplanations: ["Đúng — x", "Sai — 'She' là ngôi thứ ba.", "Sai — tiếp diễn.", "Sai — cấu trúc."],
+  } as McqExercise
+  const s = deriveSpot(ex, () => 0.5)!
+  assert.equal(s.words.join(" "), "She is cleaning her room every Saturday.")
+  assert.deepEqual([s.errorFrom, s.errorTo], [1, 2])
+  assert.equal(gradeSpot(2, s.errorFrom, s.errorTo), true)
+  assert.equal(gradeSpot(0, s.errorFrom, s.errorTo), false)
+  assert.equal(s.correctSentence, "She cleans her room every Saturday.")
+  assert.equal(s.explanation, "tiếp diễn.")
+  assert.equal(deriveSpot({ ...ex, choiceExplanations: ["Đúng", "x", "y", "z"] }), null)
+})
+
+test("ghép cặp: đủ 5 cặp có đáp án khác nhau, hoặc không có cặp nào", async () => {
+  const { pickMatchPairs } = await import("../src/lib/content/match.ts")
+  const dir = new URL("../src/content/exercises/en/", import.meta.url)
+  const all = JSON.parse(fs.readFileSync(new URL("present-simple.json", dir), "utf8")) as Exercise[]
+  const pairs = pickMatchPairs(all)
+  assert.equal(pairs.length, 5)
+  assert.equal(new Set(pairs.map((p) => p.right.toLowerCase())).size, 5)
+  assert.ok(pairs.every((p) => /_{2,}/.test(p.left) && !/\(/.test(p.left)))
+  assert.deepEqual(pickMatchPairs(all.slice(0, 2)), [])
+})

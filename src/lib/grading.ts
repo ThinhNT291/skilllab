@@ -60,3 +60,8 @@ export function gradeTyped(input: string, accepted: string[]): boolean {
 export function gradeReorder(selected: string[], answerWords: string[]): boolean {
   return selected.length === answerWords.length && selected.every((w, i) => w === answerWords[i])
 }
+
+/** Chạm đúng chỗ sai: chỉ số từ đã chạm nằm trong khoảng lỗi. */
+export function gradeSpot(tapped: number, errorFrom: number, errorTo: number): boolean {
+  return tapped >= errorFrom && tapped <= errorTo
+}

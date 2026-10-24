@@ -1,6 +1,6 @@
 import { answerVariants } from "../grading.ts"
 import { cardContentFromExercise } from "../srs/card-from-exercise.ts"
-import type { CardSource, DictationExercise, Exercise, McqExercise, ReorderExercise, TypedExercise } from "./types.ts"
+import type { CardSource, DictationExercise, Exercise, McqExercise, ReorderExercise, SpotExercise, TypedExercise } from "./types.ts"
 
 /**
  * Sinh câu biến thể (sắp xếp từ, gõ đáp án, nghe chép) từ câu trắc nghiệm gốc đã được kiểm định.
@@ -114,12 +114,41 @@ export function deriveDictation(ex: McqExercise): DictationExercise | null {
   }
 }
 
+/** Tìm lỗi: điền một đáp án sai (có lời giải thích bắt đầu bằng "Sai") vào chỗ trống duy nhất rồi cho người học chạm vào chỗ sai. */
+export function deriveSpot(ex: McqExercise, rng: Rng = Math.random): SpotExercise | null {
+  const filled = filledOf(ex)
+  if (!filled || NOT_A_SENTENCE.test(ex.prompt) || !ex.choiceExplanations || ex.choiceExplanations.length !== ex.choices.length) return null
+  const blank = /_{2,}/.exec(ex.prompt)
+  if (!blank || (ex.prompt.match(/_{2,}/g) ?? []).length !== 1 || ex.choices[ex.correctIndex].includes(" / ")) return null
+  const wrongs = ex.choices.map((_, i) => i).filter((i) => i !== ex.correctIndex && !ex.choices[i].includes(" / ") && /^Sai\b/.test(ex.choiceExplanations![i]))
+  if (!wrongs.length) return null
+  const wi = wrongs[Math.floor(rng() * wrongs.length)]
+  const strip = (s: string) => s.replace(/\s*\((?:[a-z]+\/)*[a-z]+\)/gi, "")
+  const sentence = strip(ex.prompt.replace(/_{2,}/, ex.choices[wi]))
+  const words = sentence.trim().split(/\s+/)
+  if (words.length < 4 || words.length > 14) return null
+  const errorFrom = strip(ex.prompt.slice(0, blank.index)).trim().split(/\s+/).filter(Boolean).length
+  const errorTo = errorFrom + ex.choices[wi].trim().split(/\s+/).length - 1
+  if (errorTo >= words.length) return null
+  return {
+    ...shared(ex, "spot"),
+    kind: "spot",
+    prompt: "Chạm vào chỗ sai trong câu",
+    words,
+    errorFrom,
+    errorTo,
+    correctSentence: filled,
+    explanation: ex.choiceExplanations[wi].replace(/^Sai\.?\s*[—-]?\s*/, ""),
+    card: cardOf(ex),
+  }
+}
+
 /** Thay tối đa `max` câu trắc nghiệm trong một lượt bằng biến thể (sắp xếp hoặc gõ) để lượt luyện đa dạng hơn. */
 export function mixVariants(exercises: Exercise[], rng: Rng = Math.random, max = 3): Exercise[] {
   const candidates: { index: number; options: Exercise[] }[] = []
   exercises.forEach((ex, index) => {
     if (ex.kind !== "mcq") return
-    const options = [deriveReorder(ex, rng), deriveTyped(ex)].filter((x): x is ReorderExercise | TypedExercise => x !== null)
+    const options = [deriveReorder(ex, rng), deriveTyped(ex), deriveSpot(ex, rng)].filter((x): x is ReorderExercise | TypedExercise | SpotExercise => x !== null)
     if (options.length) candidates.push({ index, options })
   })
   const result = [...exercises]
