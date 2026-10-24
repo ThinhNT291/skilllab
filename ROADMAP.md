@@ -44,7 +44,7 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 
 ## Giai đoạn 2 — Lớp game
 - [ ] Nhân vật 4 trạng thái, 5 âm thanh (đúng, sai, bấm, lên cấp, xu), hiệu ứng pop/lắc/nảy/pháo giấy, combo, sao, xu có chỗ tiêu, huy hiệu.
-- [ ] Bản đồ tiến trình mở khóa theo chủ điểm (khuyến khích đạt ngưỡng, không khóa cứng).
+- [x] Bản đồ tiến trình theo chủ điểm ở `/hoc` (không khóa cứng, có gợi ý học tiếp). [ ] Chưa có đường đi dạng bản đồ vẽ tay.
 - [x] Game mini ghép cặp bấm giờ tự được mời sau mỗi 3 lượt luyện (đếm theo trình duyệt). [ ] Thêm các game khác: mỗi game một component độc lập, dùng chung ngân hàng nội dung. Ưu tiên ý: ghép cặp bấm giờ, xếp từ chạy đua, nghe-gõ, "trùm cuối" gom mục hay sai.
 - [ ] Hai bộ giao diện theo lứa tuổi (cuối cấp 1 / cấp 2), cho chọn nhân vật/chủ đề.
 
@@ -62,7 +62,7 @@ Mục tiêu: mỗi mục học và mỗi bài kiểm tra neo vào một thang ch
 
 - [ ] Nghiên cứu: tiêu chí từng cấp theo kỹ năng, mô tả "can-do", và cách chấm Speaking/Writing theo thang (rubric: nội dung, mạch lạc, từ vựng, ngữ pháp, phát âm).
 - [ ] Bảng quy đổi giữa các thang có ghi nguồn và mức độ chắc chắn; không đưa ra giao diện nếu chưa kiểm chứng.
-- [x] Bài xếp trình độ `/xep-trinh-do` (gợi ý chuyên đề, chưa quy đổi thang). [ ] Bài kiểm tra cuối chủ điểm.
+- [x] Bài xếp trình độ `/xep-trinh-do` (gợi ý chuyên đề, chưa quy đổi thang). [x] Bài kiểm tra cuối chủ điểm (10 câu, đạt từ 80%).
 - [ ] Thiết kế để thêm ngôn ngữ mới chỉ là thêm dữ liệu và thang, không sửa lõi (chú ý chữ viết, phiên âm, TTS, nhập liệu khác nhau).
 
 ## Giai đoạn 4 — Đề xuất học thuật + trải nghiệm (làm theo từng đợt khảo sát)

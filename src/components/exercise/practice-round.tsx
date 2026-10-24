@@ -6,10 +6,11 @@ import { deriveDictation, mixVariants, shuffle } from "@/lib/content/derive"
 import { pickMatchPairs } from "@/lib/content/match"
 import { MatchSession } from "@/components/game/match-session"
 import { pickHardRound, pickRound, pickRoundForTag } from "@/lib/content/rounds"
+import { TestSession } from "./test-session"
 import { PracticeSession } from "./practice-session"
 
 /** Một lượt luyện của một chuyên đề. Mỗi lần mở là một lượt câu khác nhau (chạy lúc có yêu cầu, không dựng sẵn lúc build). */
-export async function PracticeRound({ topic, mode = "normal", tag }: { topic: string; mode?: "normal" | "hard" | "dictation" | "match"; tag?: string }) {
+export async function PracticeRound({ topic, mode = "normal", tag }: { topic: string; mode?: "normal" | "hard" | "dictation" | "match" | "test"; tag?: string }) {
   await connection()
   const data = await getGrammarTopic("en", topic)
   if (!data) notFound()
@@ -28,6 +29,22 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
         <h1 className="mt-2 text-3xl font-extrabold">Ghép cặp ⏱</h1>
         <p className="mb-4 text-muted-foreground">Ghép mỗi câu với từ điền đúng chỗ trống, càng nhanh càng tốt.</p>
         <MatchSession pairs={pairs} />
+      </>
+    )
+  }
+
+  if (mode === "test") {
+    // Bài kiểm tra chỉ dùng câu trắc nghiệm đã kiểm định, không trộn biến thể, để chuẩn đạt công bằng giữa các lần làm.
+    const questions = pickRound(all.filter((e) => e.kind === "mcq"))
+    if (questions.length < 10) notFound()
+    return (
+      <>
+        <Link href={`/hoc/${topic}`} className="text-sm text-primary underline underline-offset-4">
+          ← {data.title}
+        </Link>
+        <h1 className="mt-2 text-3xl font-extrabold">Kiểm tra cuối chủ điểm 🏅</h1>
+        <p className="mb-4 text-muted-foreground">10 câu, đúng từ 8 câu là đạt. Làm hết lượt mới biết kết quả.</p>
+        <TestSession exercises={questions} topic={topic} topicTitle={data.title} />
       </>
     )
   }
