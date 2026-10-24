@@ -39,7 +39,7 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [ ] Phân tích nâng cao: mức thuộc từng mục theo thời gian, tiến độ theo thang trình độ, gợi ý chuyên đề nên học tiếp; mục tiêu hằng ngày tùy chỉnh; ôn tập (thẻ) cũng tính vào chuỗi ngày.
 - [x] Kiểm thử tự động cho hàm thuần (`npm test`, 14 ca).
 - [x] **Thẻ ôn tập (SRS)** `/on-tap`: thẻ tự tạo từ câu sai (không trùng; sai lại thẻ đã thuộc thì mở lại), lật 3D có họa tiết, chấm Lại/Khó/Tốt/Dễ (phím 1–4, lật bằng Space), "Lại" xếp thẻ về cuối hàng. Lịch ôn là SM-2 rút gọn viết mới (`src/lib/srs/scheduler.ts`); chưa đối chiếu với thuật toán SRS cũ vì tệp `Controller_Srs.gs` chưa có trong repo. [ ] Cân nhắc FSRS; thêm đọc to (TTS) trên thẻ; thẻ từ vựng/Nghe/Đọc.
-- [ ] Thẻ ôn tập: màn quản lý (xem/xóa thẻ), giới hạn số thẻ mới mỗi ngày.
+- [x] Thẻ ôn tập: màn quản lý `/on-tap/quan-ly` (xem/xóa), giới hạn 10 thẻ mới mỗi ngày (đếm theo trình duyệt). [ ] Còn: chỉnh giới hạn, thử FSRS.
 - [ ] Bước dạy trước khi thi; ví dụ che từ đích; độ khó đổi theo màn (không chỉ đổi kiểu bài).
 
 ## Giai đoạn 2 — Lớp game

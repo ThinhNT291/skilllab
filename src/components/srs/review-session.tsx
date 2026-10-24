@@ -5,6 +5,8 @@ import Link from "next/link"
 import confetti from "canvas-confetti"
 import { getDueCards, reviewCard, type SrsCard } from "@/lib/db"
 import { formatInterval, type Grade } from "@/lib/srs/scheduler"
+import { isNewCard, limitNewCards } from "@/lib/srs/queue"
+import { markNewCardDone, newCardsDoneToday } from "@/lib/srs/daily"
 import { Flashcard } from "./flashcard"
 import { ProgressBar } from "@/components/exercise/progress-bar"
 
@@ -25,6 +27,7 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
   const [reviewed, setReviewed] = useState(0)
   const [total, setTotal] = useState(0)
   const [saveWarning, setSaveWarning] = useState(false)
+  const [deferred, setDeferred] = useState(0)
   const busy = useRef(false)
 
   useEffect(() => {
@@ -36,8 +39,10 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
         setLoad({ status: "error", message: msg })
         return
       }
-      setQueue(res.value)
-      setTotal(res.value.length)
+      const limited = limitNewCards(res.value, newCardsDoneToday())
+      setDeferred(limited.deferred)
+      setQueue(limited.cards)
+      setTotal(limited.cards.length)
       setLoad({ status: "ready" })
     })
     return () => {
@@ -52,6 +57,7 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
       if (!current || busy.current) return
       busy.current = true
       setLeaving(g === "again" || g === "hard" ? "left" : "right")
+      if (isNewCard(current)) markNewCardDone(current.id)
       const res = await reviewCard(current, g)
       if (!res.ok) setSaveWarning(true)
       // Chờ thẻ trượt đi rồi mới sang thẻ kế. "Lại" xếp thẻ về cuối hàng để gặp lại trong lượt này.
@@ -99,13 +105,16 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
           <>
             <p className="text-4xl">🌿</p>
             <p className="mt-2 text-xl font-extrabold">Chưa có thẻ nào cần ôn</p>
-            <p className="mt-1 text-muted-foreground">Thẻ sẽ tự xuất hiện khi bạn trả lời sai một câu trong phần luyện tập.</p>
+            <p className="mt-1 text-muted-foreground">
+              {deferred > 0 ? `Hôm nay bạn đã ôn đủ thẻ mới; còn ${deferred} thẻ để dành cho ngày mai.` : "Thẻ sẽ tự xuất hiện khi bạn trả lời sai một câu trong phần luyện tập."}
+            </p>
           </>
         ) : (
           <>
             <p className="text-4xl">🎉</p>
             <p className="mt-2 text-xl font-extrabold">Xong rồi! Đã ôn {reviewed} thẻ</p>
             <p className="mt-1 text-muted-foreground">Thẻ sẽ quay lại đúng lúc bạn sắp quên.</p>
+            {deferred > 0 && <p className="mt-1 text-muted-foreground">Còn {deferred} thẻ mới để dành cho ngày mai, để bạn không bị ngợp.</p>}
           </>
         )}
         <div className="mt-4 flex justify-center gap-3">
