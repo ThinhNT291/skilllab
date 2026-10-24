@@ -90,6 +90,22 @@
         "bac": 2
       },
       {
+        "id": "pp-u6-been-gone",
+        "label": "Phân biệt been và gone (have been to / have gone to)",
+        "explanationVi": "'Have/has been to' nói về nơi ai đó đã đến rồi và đã quay về (kinh nghiệm), nên hợp với ever/never. 'Have/has gone to' nói về nơi ai đó đã đi và hiện vẫn đang ở đó hoặc đang trên đường, chưa về. Vì vậy 'Have you ever gone to...?' không dùng để hỏi trải nghiệm; hãy dùng 'Have you ever been to...?'.",
+        "examples": [
+          {
+            "en": "My aunt has been to Canada, so she can tell us about it.",
+            "vi": "Dì tôi đã từng đến Canada (và đã về), nên dì có thể kể cho chúng tôi nghe."
+          },
+          {
+            "en": "My aunt has gone to Canada, so she isn't in town this month.",
+            "vi": "Dì tôi đã đi Canada (chưa về), nên tháng này dì không có ở thành phố."
+          }
+        ],
+        "bac": 3
+      },
+      {
         "id": "pp-vs-simple-past",
         "level": "B1",
         "label": "Phân biệt Hiện tại hoàn thành và Quá khứ đơn",

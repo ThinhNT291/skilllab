@@ -838,5 +838,565 @@
       "Sai — hiện tại hoàn thành cần còn liên hệ với hiện tại; Shakespeare đã mất nên không dùng."
     ],
     "bac": 3
+  },
+  {
+    "id": "en-present-perfect-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u6-been-gone",
+    "tags": [
+      "pp-u6-been-gone"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Where is Mai? She ______ to the library, so she isn't here right now.",
+    "choices": [
+      "has been",
+      "has gone",
+      "have gone",
+      "was going"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Has gone to' = đã đi và chưa về; 'has been to' = đã từng đến và đã về. Mai đang vắng mặt nên dùng 'has gone'.",
+    "choiceExplanations": [
+      "Sai — 'has been to' nghĩa là đã đến đó rồi và đã quay về, không hợp với việc Mai đang vắng mặt.",
+      "Đúng — 'has gone' nghĩa là đã đi và hiện vẫn đang ở đó (chưa về), khớp với 'isn't here right now'.",
+      "Sai — chủ ngữ 'She' là số ít nên phải dùng 'has', không dùng 'have'.",
+      "Sai — 'was going' là quá khứ tiếp diễn, không nói về kết quả hiện tại là Mai đang không có mặt."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-present-perfect-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u5-experience",
+    "tags": [
+      "pp-u5-experience"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ never ______ a horse. I am a little nervous about my first lesson.",
+    "choices": [
+      "have / ridden",
+      "has / ridden",
+      "have / rode",
+      "have / ride"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Never' + have + V-p2 diễn tả trải nghiệm chưa từng có. V-p2 của 'ride' là 'ridden'.",
+    "choiceExplanations": [
+      "Đúng — I → have; V-p2 của 'ride' là 'ridden'; 'never' nói về kinh nghiệm chưa từng có.",
+      "Sai — chủ ngữ 'I' đi với 'have', không dùng 'has'.",
+      "Sai — sau 'have' phải dùng V-p2 (ridden), 'rode' là dạng quá khứ đơn.",
+      "Sai — sau 'have' không dùng nguyên thể; cần V-p2 'ridden'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-present-perfect-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u2-since-for",
+    "tags": [
+      "pp-u2-since-for"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our class has had the same teacher ______ September.",
+    "choices": [
+      "for",
+      "ago",
+      "at",
+      "since"
+    ],
+    "correctIndex": 3,
+    "explanation": "Since + mốc thời gian (September); for + khoảng thời gian. Hành động kéo dài đến nay nên dùng hiện tại hoàn thành.",
+    "choiceExplanations": [
+      "Sai — 'for' đi với khoảng thời gian (for three months), không đi với mốc thời gian.",
+      "Sai — 'ago' đứng sau khoảng thời gian (two months ago) và đi với quá khứ đơn.",
+      "Sai — 'at' không diễn tả việc kéo dài từ một mốc đến hiện tại.",
+      "Đúng — 'September' là một mốc thời gian nên dùng 'since'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u1-unspecified-past",
+    "tags": [
+      "pp-u1-unspecified-past"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ my science project yet, so I need more time.",
+    "choices": [
+      "hasn't finished",
+      "didn't finished",
+      "haven't finished",
+      "have finished"
+    ],
+    "correctIndex": 2,
+    "explanation": "Phủ định với 'yet': have/has + not + V-p2. Chủ ngữ 'I' đi với 'have'.",
+    "choiceExplanations": [
+      "Sai — 'hasn't' dùng với chủ ngữ số ít (he/she/it), không đi với 'I'.",
+      "Sai — sau 'didn't' phải dùng nguyên thể 'finish'; hơn nữa 'yet' đi với hiện tại hoàn thành.",
+      "Đúng — 'I' đi với 'have'; phủ định + 'yet' (chưa) dùng haven't + V-p2.",
+      "Sai — đây là dạng khẳng định, trong khi câu nói là chưa xong."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u3-repeated",
+    "tags": [
+      "pp-u3-repeated"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ four tests this month, and we have another one on Friday.",
+    "choices": [
+      "has had",
+      "have had",
+      "have have",
+      "having had"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đếm số lần đã xảy ra trong khoảng thời gian chưa kết thúc (this month) dùng hiện tại hoàn thành: have + had.",
+    "choiceExplanations": [
+      "Sai — 'We' là số nhiều nên không đi với 'has'.",
+      "Đúng — 'We' → have; V-p2 của 'have' là 'had'; số lần tính đến hiện tại.",
+      "Sai — V-p2 của 'have' là 'had', không phải 'have'.",
+      "Sai — thiếu trợ động từ nên không thành thì hiện tại hoàn thành."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u5-experience",
+    "tags": [
+      "pp-u5-experience"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ your sister ever ______ a snake?",
+    "choices": [
+      "Have / touched",
+      "Has / touch",
+      "Does / touched",
+      "Has / touched"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hỏi trải nghiệm: Have/Has + S + ever + V-p2. 'Your sister' → Has.",
+    "choiceExplanations": [
+      "Sai — 'your sister' là số ít nên dùng 'Has'.",
+      "Sai — sau 'Has + chủ ngữ' phải dùng V-p2 (touched), không dùng nguyên thể.",
+      "Sai — 'Does' đi với nguyên thể; không dùng với V-p2.",
+      "Đúng — 'your sister' số ít → Has; câu hỏi trải nghiệm 'ever' + V-p2 (touched)."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-present-perfect-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u4-result-now",
+    "tags": [
+      "pp-u4-result-now"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Look outside! The rain ______, so we can play football now.",
+    "choices": [
+      "has stopped",
+      "have stopped",
+      "has stop",
+      "is stopped"
+    ],
+    "correctIndex": 0,
+    "explanation": "Việc vừa xảy ra và có kết quả ở hiện tại (trời đã tạnh nên chơi được) dùng hiện tại hoàn thành.",
+    "choiceExplanations": [
+      "Đúng — mưa vừa tạnh và kết quả nhìn thấy ngay bây giờ; 'The rain' số ít → has stopped.",
+      "Sai — 'The rain' là số ít nên dùng 'has'.",
+      "Sai — sau 'has' phải dùng V-p2 (stopped), không dùng nguyên thể.",
+      "Sai — dạng bị động này không phù hợp nghĩa; mưa tự tạnh, không bị ai làm dừng."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u6-been-gone",
+    "tags": [
+      "pp-u6-been-gone"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom is back from his trip. He ______ to Da Nang, and he has a lot of photos to show us.",
+    "choices": [
+      "has gone",
+      "goes",
+      "has been",
+      "is going"
+    ],
+    "correctIndex": 2,
+    "explanation": "Been = đã đến và đã về; gone = đã đi và chưa về. Tom đã về nên dùng 'has been'.",
+    "choiceExplanations": [
+      "Sai — 'has gone to' nghĩa là đã đi và chưa về; nhưng Tom đã về rồi.",
+      "Sai — hiện tại đơn nói thói quen, không nói chuyến đi đã xảy ra.",
+      "Đúng — 'has been to' = đã đến đó rồi và đã trở về; Tom đã về nên dùng 'been'.",
+      "Sai — hiện tại tiếp diễn nói việc đang đi hoặc sắp đi, không hợp với việc đã về."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-present-perfect-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u2-since-for",
+    "tags": [
+      "pp-u2-since-for"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We have known our neighbors ______ about six months.",
+    "choices": [
+      "for",
+      "since",
+      "ago",
+      "from"
+    ],
+    "correctIndex": 0,
+    "explanation": "For + khoảng thời gian (six months); since + mốc thời gian.",
+    "choiceExplanations": [
+      "Đúng — 'about six months' là khoảng thời gian nên dùng 'for'.",
+      "Sai — 'since' đi với mốc thời gian (since March), không đi với khoảng thời gian.",
+      "Sai — 'ago' đi với quá khứ đơn và đặt sau khoảng thời gian: 'six months ago'.",
+      "Sai — 'from' không dùng để nối khoảng thời gian với hiện tại hoàn thành."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u5-experience",
+    "tags": [
+      "pp-u5-experience"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Have you ever been to a zoo? B: No, I ______.",
+    "choices": [
+      "didn't",
+      "hadn't",
+      "don't",
+      "haven't"
+    ],
+    "correctIndex": 3,
+    "explanation": "Trả lời ngắn dùng lại trợ động từ của câu hỏi: Have you ever...? → Yes, I have / No, I haven't.",
+    "choiceExplanations": [
+      "Sai — 'didn't' trả lời cho câu hỏi quá khứ đơn (Did you...?).",
+      "Sai — 'hadn't' là quá khứ hoàn thành, không khớp với câu hỏi hiện tại hoàn thành.",
+      "Sai — 'don't' trả lời cho câu hỏi hiện tại đơn (Do you...?).",
+      "Đúng — trả lời câu hỏi 'Have you ever...?' bằng trợ động từ cùng thì: No, I haven't."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-present-perfect-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u1-unspecified-past",
+    "tags": [
+      "pp-u1-unspecified-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Don't buy the tickets. Linh ______ bought them.",
+    "choices": [
+      "already has",
+      "has already",
+      "have already",
+      "had already"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vị trí 'already': have/has + already + V-p2. 'Linh' là số ít → has.",
+    "choiceExplanations": [
+      "Sai — 'already' phải đứng sau 'has', không đứng trước.",
+      "Đúng — 'already' đứng sau have/has và trước V-p2: has already bought.",
+      "Sai — 'Linh' là số ít nên dùng 'has'.",
+      "Sai — 'had' là quá khứ hoàn thành; ngữ cảnh đang nói về hiện tại (đừng mua nữa)."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-vs-simple-past",
+    "tags": [
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My grandfather ______ in a factory for forty years, but he retired in 2010.",
+    "choices": [
+      "has worked",
+      "works",
+      "worked",
+      "is working"
+    ],
+    "correctIndex": 2,
+    "explanation": "'For forty years' có thể đi với cả hai thì. Vì giai đoạn làm việc đã kết thúc (nghỉ hưu năm 2010) nên dùng quá khứ đơn.",
+    "choiceExplanations": [
+      "Sai — hiện tại hoàn thành cho 'for' chỉ dùng khi việc còn kéo dài đến nay; ông đã nghỉ hưu.",
+      "Sai — hiện tại đơn nói về thói quen hiện nay, trong khi ông đã nghỉ hưu.",
+      "Đúng — ông đã nghỉ hưu năm 2010, giai đoạn làm việc đã chấm dứt hẳn nên dùng quá khứ đơn.",
+      "Sai — hiện tại tiếp diễn nói việc đang diễn ra, không phù hợp."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u3-repeated",
+    "tags": [
+      "pp-u3-repeated"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our team ______ two matches so far this season.",
+    "choices": [
+      "has won",
+      "won",
+      "wins",
+      "is winning"
+    ],
+    "correctIndex": 0,
+    "explanation": "'So far' là dấu hiệu của hiện tại hoàn thành: đếm kết quả cho đến thời điểm nói.",
+    "choiceExplanations": [
+      "Đúng — 'so far' (cho đến bây giờ) đếm số lần tính đến hiện tại, 'team' là số ít → has won.",
+      "Sai — quá khứ đơn dùng cho thời điểm đã kết thúc; 'so far' cho thấy mùa giải vẫn đang tiếp diễn.",
+      "Sai — hiện tại đơn nói thói quen hoặc sự thật chung, không đếm số lần đến nay.",
+      "Sai — hiện tại tiếp diễn nói trận đang diễn ra."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u2-since-for",
+    "tags": [
+      "pp-u2-since-for"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ from Anna since Monday, and we are starting to worry.",
+    "choices": [
+      "didn't hear",
+      "don't hear",
+      "haven't heard",
+      "hadn't heard"
+    ],
+    "correctIndex": 2,
+    "explanation": "Since + mốc thời gian đi với hiện tại hoàn thành; dạng phủ định: haven't + V-p2 (heard).",
+    "choiceExplanations": [
+      "Sai — quá khứ đơn không đi với 'since' để nói việc kéo dài đến hiện tại.",
+      "Sai — hiện tại đơn không nói được khoảng thời gian từ Thứ Hai đến nay.",
+      "Đúng — 'since Monday' là mốc kéo dài đến nay, phủ định → haven't heard.",
+      "Sai — 'hadn't heard' là quá khứ hoàn thành, không khớp với 'are starting to worry' ở hiện tại."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u5-experience",
+    "tags": [
+      "pp-u5-experience"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Has your dad ever ______ in a hot-air balloon?",
+    "choices": [
+      "flew",
+      "flown",
+      "fly",
+      "flying"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hỏi trải nghiệm: Has + S + ever + V-p2. V-p2 của 'fly' là 'flown'.",
+    "choiceExplanations": [
+      "Sai — 'flew' là quá khứ đơn, không đi sau 'has'.",
+      "Đúng — sau 'Has ... ever' dùng V-p2; V-p2 của 'fly' là 'flown'.",
+      "Sai — sau 'Has + chủ ngữ' phải dùng V-p2, không dùng nguyên thể.",
+      "Sai — V-ing không thay cho V-p2 trong thì hiện tại hoàn thành."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-present-perfect-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-vs-simple-past",
+    "tags": [
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Have you been to the new aquarium? B: Yes, we ______ there last Saturday.",
+    "choices": [
+      "have been",
+      "have gone",
+      "go",
+      "went"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mở đầu hỏi trải nghiệm bằng hiện tại hoàn thành, nhưng khi nêu thời điểm cụ thể (last Saturday) thì dùng quá khứ đơn.",
+    "choiceExplanations": [
+      "Sai — không dùng hiện tại hoàn thành với mốc thời gian cụ thể 'last Saturday'.",
+      "Sai — 'have gone' nghĩa là đã đi và chưa về, đồng thời vẫn có mốc quá khứ cụ thể.",
+      "Sai — hiện tại đơn không nói được một lần đi trong quá khứ.",
+      "Đúng — có mốc 'last Saturday' nên chuyển sang quá khứ đơn để nêu chi tiết."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-vs-simple-past",
+    "tags": [
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Lan ______ to swim when she was ten years old.",
+    "choices": [
+      "has learned",
+      "learns",
+      "learned",
+      "is learning"
+    ],
+    "correctIndex": 2,
+    "explanation": "Có mốc thời gian quá khứ cụ thể (when she was ten) thì dùng quá khứ đơn. Cả 'learned' và 'learnt' đều đúng, bản Anh-Mỹ ưu tiên 'learned'.",
+    "choiceExplanations": [
+      "Sai — không dùng hiện tại hoàn thành với mệnh đề chỉ thời điểm quá khứ 'when she was ten'.",
+      "Sai — hiện tại đơn không nói việc đã xảy ra khi cô bé mười tuổi.",
+      "Đúng — 'when she was ten years old' là mốc quá khứ đã xác định nên dùng quá khứ đơn.",
+      "Sai — hiện tại tiếp diễn nói việc đang diễn ra bây giờ."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u6-been-gone",
+    "tags": [
+      "pp-u6-been-gone"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ your parents ever ______ to Singapore?",
+    "choices": [
+      "Have / been",
+      "Have / gone",
+      "Has / been",
+      "Did / been"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hỏi 'đã từng đến' dùng 'been to', không dùng 'gone to'. 'Your parents' → Have.",
+    "choiceExplanations": [
+      "Đúng — hỏi về trải nghiệm đã đến nơi đó (rồi trở về): Have + S + ever + been to. 'Your parents' số nhiều → Have.",
+      "Sai — 'gone' nghĩa là đã đi và chưa về, không dùng để hỏi trải nghiệm đã từng đến một nơi.",
+      "Sai — 'your parents' là số nhiều nên dùng 'Have'.",
+      "Sai — 'Did' đi với nguyên thể, không đi với V-p2 'been'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-u2-since-for",
+    "tags": [
+      "pp-u2-since-for"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My best friend and I ______ each other since kindergarten.",
+    "choices": [
+      "know",
+      "knew",
+      "are knowing",
+      "have known"
+    ],
+    "correctIndex": 3,
+    "explanation": "Việc kéo dài từ mốc quá khứ đến nay + since → hiện tại hoàn thành: have known.",
+    "choiceExplanations": [
+      "Sai — hiện tại đơn không diễn tả quãng thời gian kể từ một mốc trong quá khứ.",
+      "Sai — quá khứ đơn nói việc đã kết thúc, trong khi hai bạn vẫn quen nhau.",
+      "Sai — 'know' không dùng ở thì tiếp diễn trong trường hợp này.",
+      "Đúng — 'since kindergarten' là mốc kéo dài đến nay; 'My best friend and I' số nhiều → have known."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-present-perfect-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect",
+    "usageId": "pp-vs-simple-past",
+    "tags": [
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Someone ______ a glass of juice an hour ago, and the floor is still sticky.",
+    "choices": [
+      "has spilled",
+      "spilled",
+      "spills",
+      "is spilling"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Ago' luôn đi với quá khứ đơn, kể cả khi hậu quả vẫn còn ở hiện tại.",
+    "choiceExplanations": [
+      "Sai — không dùng hiện tại hoàn thành với 'ago'; dù kết quả vẫn còn, có mốc cụ thể thì dùng quá khứ đơn.",
+      "Đúng — 'an hour ago' là khoảng thời gian cụ thể trong quá khứ nên dùng quá khứ đơn.",
+      "Sai — hiện tại đơn không nói được việc đã xảy ra một giờ trước.",
+      "Sai — hiện tại tiếp diễn nói việc đang xảy ra lúc này."
+    ],
+    "bac": 3
   }
 ]
