@@ -5,6 +5,7 @@ import Link from "next/link"
 import { summarize, type ProgressSummary, type TagInfo } from "@/lib/analytics/progress"
 import { countDueCards, getAnswerHistory } from "@/lib/db"
 import { ProgressBar } from "@/components/exercise/progress-bar"
+import { ActivityPanel } from "./activity-panel"
 
 type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; summary: ProgressSummary }
 
@@ -55,6 +56,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
           <span className="text-primary underline underline-offset-4">Ôn ngay</span>
         </Link>
       )}
+      <ActivityPanel />
       <section className="grid grid-cols-3 gap-3 text-center" aria-label="Tổng quan">
         <Stat value={String(s.total)} label="câu đã làm" />
         <Stat value={`${accuracy}%`} label="trả lời đúng" />

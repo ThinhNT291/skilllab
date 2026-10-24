@@ -9,7 +9,7 @@ npm install
 cp .env.example .env.local   # điền khóa Supabase/Gemini (chưa cần cho bản demo bài tập)
 npm run dev                  # http://localhost:3000
 ```
-Kiểm tra trước khi đẩy code: `npm run check:content`, `npm run lint` và `npm run build`.
+Kiểm tra trước khi đẩy code: `npm run check:content`, `npm test` (kiểm thử hàm thuần: lịch ôn, chuỗi ngày, tổng hợp tiến độ), `npm run lint` và `npm run build`.
 
 ## Thêm bài tập
 Mỗi chuyên đề một tệp `src/content/exercises/en/<id-chuyên-đề>.json`, là mảng câu (xem `src/content/exercises/en/subjunctive.json` làm mẫu, có đủ `choiceExplanations`). Quy tắc soạn: `docs/chuan-noi-dung.md`. Mỗi câu cần: `id` duy nhất, `usageId` trùng một mục `usages[].id` của chuyên đề (để có link "Xem lại lý thuyết"), `choices`, `correctIndex`, `explanation` và nên có `choiceExplanations` (giải thích riêng từng đáp án). Chạy `npm run check:content` để bắt lỗi trước khi đẩy.
@@ -21,7 +21,8 @@ Mỗi chuyên đề một tệp `src/content/exercises/en/<id-chuyên-đề>.jso
 - `src/components/exercise/` bài tập: `ExerciseRunner`, `ChoiceButton`, `ProgressBar`
 - `src/lib/content/` mô hình nội dung (`types.ts`) và nơi nạp nội dung (`grammar.ts`)
 - `src/components/srs/` thẻ lật 3D (`Flashcard`) và phiên ôn tập; `src/lib/srs/` lịch ôn kiểu SM-2 rút gọn và dựng thẻ từ câu sai
-- `src/lib/analytics/` tổng hợp tiến độ từ lịch sử trả lời (hàm thuần); `src/lib/content/rounds.ts` cách bốc câu cho mỗi lượt
+- `tests/` kiểm thử bằng bộ chạy sẵn của Node (`npm test`)
+- `src/lib/analytics/` tổng hợp tiến độ, chuỗi ngày học và bản đồ nhiệt từ lịch sử trả lời (hàm thuần); `src/lib/content/rounds.ts` cách bốc câu cho mỗi lượt
 - `src/lib/db/` lớp truy cập dữ liệu (đăng nhập ẩn danh, hồ sơ, ghi câu trả lời); `supabase/migrations/` schema SQL
 - `src/lib/supabase/` client Supabase (chỉ lớp truy cập dữ liệu được gọi), `src/app/api/health` kiểm tra kết nối
 - `src/lib/settings.ts` giao diện (3 skin) và âm thanh, lưu trong trình duyệt

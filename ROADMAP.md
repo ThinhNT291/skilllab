@@ -35,7 +35,9 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [ ] Nhiều kiểu câu: trắc nghiệm, xếp từ thành câu, điền từ (gõ), nghe-chọn/gõ, ghép cặp, sửa lỗi sai.
 - [ ] Nhận xét và gợi ý có cấu trúc: vì sao sai, quy tắc liên quan, link về lý thuyết, mục nên ôn tiếp.
 - [x] Màn **Tiến độ** `/tien-do`: tổng quan (số câu, % đúng, số chuyên đề), danh sách **mục cần ôn lại** (thẻ sai nhiều nhất lên đầu) kèm nút "Xem lại lý thuyết" và "Luyện lại mục này", và tỷ lệ đúng theo chuyên đề. Dùng bảng `answers`; tổng hợp lúc đọc (`src/lib/analytics`).
-- [ ] Phân tích nâng cao: mức thuộc từng mục theo thời gian, tiến độ theo thang trình độ, chuỗi ngày học và bản đồ nhiệt (cần ghi ngày hoạt động), gợi ý chuyên đề nên học tiếp.
+- [x] Chuỗi ngày học (hiện tại và dài nhất), mục tiêu hằng ngày (10 câu, có vòng tiến độ) và bản đồ nhiệt 12 tuần trên `/tien-do`; tính từ bảng `answers`, mọi lượt trả lời (đúng lẫn sai) đều tính. Ngày theo giờ trình duyệt.
+- [ ] Phân tích nâng cao: mức thuộc từng mục theo thời gian, tiến độ theo thang trình độ, gợi ý chuyên đề nên học tiếp; mục tiêu hằng ngày tùy chỉnh; ôn tập (thẻ) cũng tính vào chuỗi ngày.
+- [x] Kiểm thử tự động cho hàm thuần (`npm test`, 14 ca).
 - [x] **Thẻ ôn tập (SRS)** `/on-tap`: thẻ tự tạo từ câu sai (không trùng; sai lại thẻ đã thuộc thì mở lại), lật 3D có họa tiết, chấm Lại/Khó/Tốt/Dễ (phím 1–4, lật bằng Space), "Lại" xếp thẻ về cuối hàng. Lịch ôn là SM-2 rút gọn viết mới (`src/lib/srs/scheduler.ts`); chưa đối chiếu với thuật toán SRS cũ vì tệp `Controller_Srs.gs` chưa có trong repo. [ ] Cân nhắc FSRS; thêm đọc to (TTS) trên thẻ; thẻ từ vựng/Nghe/Đọc.
 - [ ] Thẻ ôn tập: màn quản lý (xem/xóa thẻ), giới hạn số thẻ mới mỗi ngày.
 - [ ] Bước dạy trước khi thi; ví dụ che từ đích; độ khó đổi theo màn (không chỉ đổi kiểu bài).
