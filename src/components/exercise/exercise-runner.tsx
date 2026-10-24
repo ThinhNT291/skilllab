@@ -1,12 +1,13 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import Link from "next/link"
 import confetti from "canvas-confetti"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { sfx } from "@/lib/audio/sfx"
 import { useSettings } from "@/lib/settings"
 import { bacLabel } from "@/lib/content/bac"
+import { nextPosition, pickAtPosition, START_POSITION } from "@/lib/content/adaptive"
 import { getOwnedItems } from "@/lib/db"
 import { recordRoundDone } from "@/lib/game/bonus"
 import { xpFor, XP_PER_COIN } from "@/lib/game/xp"
@@ -58,8 +59,11 @@ export function ExerciseRunner({
   onFinish,
   theoryHref,
   bonusHref,
+  adaptive,
 }: {
   exercises: Exercise[]
+  /** Bài thích ứng: câu kế tiếp chọn theo kết quả câu vừa làm (đúng thì khó hơn, sai thì dễ hơn). `exercises` chỉ cần câu đầu. */
+  adaptive?: { ladder: Exercise[]; count: number }
   onAnswer?: (record: AnswerRecord) => void
   /** Gọi một lần khi người học bấm "Xem kết quả" ở câu cuối. */
   onFinish?: () => void
@@ -69,6 +73,8 @@ export function ExerciseRunner({
   bonusHref?: string
 }) {
   const { sound, showBac } = useSettings()
+  const [list, setList] = useState(exercises)
+  const positionRef = useRef(START_POSITION)
   const [index, setIndex] = useState(0)
   const [result, setResult] = useState<Result | null>(null)
   const [correctCount, setCorrectCount] = useState(0)
@@ -81,9 +87,9 @@ export function ExerciseRunner({
     getOwnedItems().then((r) => r.ok && setWorn(r.equipped))
   }, [])
 
-  const total = exercises.length
+  const total = adaptive ? adaptive.count : list.length
   const done = index >= total
-  const ex = done ? null : exercises[index]
+  const ex = done ? null : list[index]
 
   function resolve(r: Result) {
     if (!ex || result) return
@@ -97,6 +103,11 @@ export function ExerciseRunner({
     }
     if (sound) (r.correct ? sfx.correct : sfx.wrong)()
     onAnswer?.({ exerciseId: ex.id, correct: r.correct, choiceIndex: r.choiceIndex, response: r.response })
+    if (adaptive && list.length < adaptive.count) {
+      positionRef.current = nextPosition(positionRef.current, r.correct)
+      const nxt = pickAtPosition(adaptive.ladder, new Set(list.map((x) => x.id)), positionRef.current)
+      if (nxt) setList((l) => [...l, nxt])
+    }
   }
 
   function next() {
@@ -114,6 +125,11 @@ export function ExerciseRunner({
   }
 
   function restart() {
+    if (adaptive) {
+      positionRef.current = START_POSITION
+      const first = pickAtPosition(adaptive.ladder, new Set(), START_POSITION)
+      if (first) setList([first])
+    }
     setIndex(0)
     setResult(null)
     setCorrectCount(0)

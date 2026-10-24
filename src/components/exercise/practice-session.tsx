@@ -8,12 +8,12 @@ import { ExerciseRunner } from "./exercise-runner"
 type Status = "idle" | "saved" | "not_saved"
 
 /** Chạy một lượt bài tập và lưu từng câu trả lời (nếu đã kết nối Supabase). */
-export function PracticeSession({ exercises, theoryBase, bonusHref }: { exercises: Exercise[]; theoryBase?: string; bonusHref?: string }) {
+export function PracticeSession({ exercises, theoryBase, bonusHref, adaptive }: { exercises: Exercise[]; theoryBase?: string; bonusHref?: string; adaptive?: { ladder: Exercise[]; count: number } }) {
   const [status, setStatus] = useState<Status>("idle")
   const [detail, setDetail] = useState("")
 
   async function onAnswer(record: AnswerRecord) {
-    const ex = exercises.find((e) => e.id === record.exerciseId)
+    const ex = [...exercises, ...(adaptive?.ladder ?? [])].find((e) => e.id === record.exerciseId)
     if (!ex) return
     const result = await recordAnswer(record, ex)
     setStatus(result.ok ? "saved" : "not_saved")
@@ -26,6 +26,7 @@ export function PracticeSession({ exercises, theoryBase, bonusHref }: { exercise
         exercises={exercises}
         onAnswer={onAnswer}
         bonusHref={bonusHref}
+        adaptive={adaptive}
         theoryHref={theoryBase ? (ex) => `${theoryBase}${ex.usageId ? `#${ex.usageId}` : ""}` : undefined}
       />
       {/* Dòng trạng thái chỉ để kiểm tra khi dev; sẽ bỏ khi có màn đăng nhập/tiến độ. */}
