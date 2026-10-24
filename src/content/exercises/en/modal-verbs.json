@@ -661,7 +661,7 @@
     "prompt": "The doctor told you plainly that your blood pressure is dangerously high. You ______ ignore this warning, or you could end up in the hospital.",
     "choices": [
       "had better not",
-      "shouldn't",
+      "needn't",
       "aren't able to",
       "may not"
     ],
@@ -669,7 +669,7 @@
     "explanation": "'Had better not' diễn tả cảnh báo mạnh mẽ hơn 'shouldn't' khi có hậu quả nghiêm trọng, tức thời.",
     "choiceExplanations": [
       "Đúng — cảnh báo mạnh, mang tính khẩn cấp, có hậu quả nghiêm trọng cụ thể nếu không làm theo ('could end up in the hospital'), rất phù hợp với 'had better not'.",
-      "Về ngữ pháp, 'shouldn't' không sai và một số người bản ngữ vẫn dùng được ở đây; tuy nhiên 'had better not' phù hợp hơn vì đây là cảnh báo tức thời, cụ thể, có hậu quả nghiêm trọng ngay trước mắt ('could end up in the hospital') — đúng ngữ cảnh kinh điển của 'had better', trong khi 'should' thường dùng cho lời khuyên chung chung hơn.",
+      "Sai — 'needn't' nghĩa là 'không cần phải', làm câu vô nghĩa ('không cần phải phớt lờ cảnh báo').",
       "Sai — diễn tả không có khả năng, hoàn toàn sai nghĩa so với ý cảnh báo không nên bỏ qua lời khuyên của bác sĩ.",
       "Sai — 'may not' diễn tả sự không được phép hoặc khả năng thấp, không phù hợp với ngữ cảnh cảnh báo về sức khỏe."
     ]

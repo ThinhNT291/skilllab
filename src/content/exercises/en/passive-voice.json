@@ -66,7 +66,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "The annual report ______ yet, so the manager is very angry.",
     "choices": [
-      "isn't finished",
+      "didn't finish",
       "wasn't finished",
       "hasn't been finished",
       "hasn't finished"
@@ -74,7 +74,7 @@
     "correctIndex": 2,
     "explanation": "Dấu hiệu 'yet' chỉ thì hiện tại hoàn thành. Báo cáo không tự hoàn thành nên dùng bị động của hiện tại hoàn thành (has/have + been + V3): hasn't been finished.",
     "choiceExplanations": [
-      "Sai — 'isn't finished' (bị động hiện tại đơn) vẫn nói được ('isn't finished yet') nên không sai hẳn ngữ pháp, nhưng bài luyện bị động của hiện tại hoàn thành với dấu hiệu 'yet'.",
+      "Sai — 'didn't finish' là chủ động quá khứ đơn; báo cáo không tự hoàn thành, và 'yet' đi với hiện tại hoàn thành.",
       "Sai — 'wasn't finished' là quá khứ đơn, thường không đi với 'yet'.",
       "Đúng — 'yet' → hiện tại hoàn thành; báo cáo không tự hoàn thành → bị động: hasn't been finished.",
       "Sai — 'hasn't finished' là chủ động; báo cáo không tự hoàn thành chính nó."
@@ -93,7 +93,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "The final results of the exam ______ tomorrow morning.",
     "choices": [
-      "are announced",
+      "were announced",
       "will be announcing",
       "will be announced",
       "will announce"
@@ -101,7 +101,7 @@
     "correctIndex": 2,
     "explanation": "Dấu hiệu 'tomorrow morning' chỉ thì tương lai. Kết quả 'được thông báo' nên dùng bị động của tương lai đơn (will + be + V3): will be announced.",
     "choiceExplanations": [
-      "Sai — 'are announced' (hiện tại đơn) nói được cho lịch công bố nên không sai hẳn, nhưng bài luyện bị động tương lai (will be + V3) với 'tomorrow morning'.",
+      "Sai — 'were announced' là quá khứ, trong khi 'tomorrow morning' chỉ tương lai.",
       "Sai — 'will be announcing' là chủ động tương lai tiếp diễn, không hợp nghĩa (kết quả không tự công bố).",
       "Đúng — 'tomorrow morning' → tương lai; kết quả 'được thông báo' → will be announced.",
       "Sai — 'will announce' là chủ động; kết quả kỳ thi không tự thông báo."

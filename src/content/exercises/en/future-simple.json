@@ -283,7 +283,7 @@
     "prompt": "A: 'We're out of milk.' B: 'Okay, I ______ (go) to the store and buy some right now.'",
     "choices": [
       "will go",
-      "am going",
+      "have gone",
       "went",
       "go"
     ],
@@ -291,7 +291,7 @@
     "explanation": "B vừa nghe tin và quyết định ngay tại thời điểm nói, chưa hề có kế hoạch từ trước, nên dùng 'will go'.",
     "choiceExplanations": [
       "Đúng — nghe tin và quyết định ngay tại lúc nói → will go.",
-      "Sai — 'am going' cũng nghe tự nhiên khi vừa quyết định đi, nên không sai hẳn, nhưng cách dùng chuẩn cho quyết định tức thời là 'will'.",
+      "Sai — 'have gone' là hiện tại hoàn thành, nói việc đã đi rồi, trong khi việc đi mua chưa xảy ra.",
       "Sai — 'went' là quá khứ, trong khi việc đi mua chưa xảy ra.",
       "Sai — 'go' (hiện tại đơn) không diễn tả quyết định tức thời."
     ]
@@ -365,7 +365,7 @@
     "choices": [
       "will fades",
       "is fading",
-      "fades",
+      "faded",
       "will fade"
     ],
     "correctIndex": 3,
@@ -373,7 +373,7 @@
     "choiceExplanations": [
       "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
       "Sai — 'is fading' nói vết sẹo đang mờ đi ngay lúc này, không phải dự đoán 'in about a year'.",
-      "Sai — 'fades' (hiện tại đơn) nêu được quy luật chung nên không sai hẳn ngữ pháp, nhưng câu dự đoán về một vết sẹo cụ thể trong một năm tới dùng 'will'.",
+      "Sai — 'faded' là quá khứ đơn, trong khi việc vết sẹo mờ đi còn ở tương lai ('in about a year').",
       "Đúng — điều gần như chắc chắn theo quy luật tự nhiên → will fade."
     ]
   },
@@ -550,20 +550,20 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "By the time the guests ______ (arrive) tonight, I ______ (still/prepare) the decorations, so could you greet them for me?",
+    "prompt": "I promise that when the guests ______ (arrive) tonight, I ______ (greet) them at the door.",
     "choices": [
-      "will arrive / still prepare",
-      "arrive / will still prepare",
-      "arrive / still prepare",
-      "will arrive / will still prepare"
+      "will arrive / will greet",
+      "arrive / will greet",
+      "arrive / greet",
+      "will arrive / greet"
     ],
     "correctIndex": 1,
-    "explanation": "Mệnh đề thời gian với 'by the time' dùng hiện tại đơn: arrive. Mệnh đề chính dùng 'will' + trạng từ 'still' diễn tả hành động vẫn đang tiếp diễn tại mốc đó: will still prepare.",
+    "explanation": "Mệnh đề thời gian với 'when' dùng hiện tại đơn: arrive. Vế chính là lời hứa về tương lai nên dùng 'will': will greet.",
     "choiceExplanations": [
-      "Sai — mệnh đề 'by the time' không dùng 'will arrive'; vế chính cũng cần 'will still prepare'.",
-      "Đúng — mệnh đề thời gian dùng hiện tại đơn: arrive; vế chính dùng 'will' + still. (Cách nói tự nhiên hơn là 'will still be preparing', nhưng trong các lựa chọn này chỉ đáp án này đúng quy tắc mệnh đề thời gian.)",
-      "Sai — vế chính cần 'will' để nói việc vẫn đang diễn ra tại mốc tương lai đó.",
-      "Sai — 'will arrive' sai trong mệnh đề 'by the time'."
+      "Sai — mệnh đề thời gian 'when' không dùng 'will arrive'.",
+      "Đúng — mệnh đề thời gian dùng hiện tại đơn: arrive; vế chính là lời hứa → will greet.",
+      "Sai — vế chính là lời hứa về tương lai nên cần 'will greet', không dùng hiện tại đơn.",
+      "Sai — 'will arrive' sai trong mệnh đề thời gian, và vế chính cần 'will greet'."
     ]
   },
   {
@@ -607,7 +607,7 @@
     "prompt": "Before you ______ (sign) the contract, you ______ (need) to read every clause carefully.",
     "choices": [
       "will sign / will need",
-      "sign / need",
+      "sign / needed",
       "will sign / need",
       "sign / will need"
     ],
@@ -615,7 +615,7 @@
     "explanation": "Mệnh đề thời gian với 'before' dùng hiện tại đơn: sign. Mệnh đề chính dùng 'will': will need.",
     "choiceExplanations": [
       "Sai — mệnh đề 'before' không dùng 'will sign'.",
-      "Sai — 'need' (hiện tại đơn) vẫn nói được lời dặn chung nên không sai hẳn, nhưng bài luyện cấu trúc 'will' ở vế chính sau mệnh đề thời gian.",
+      "Sai — 'needed' là quá khứ đơn, không hợp với lời dặn về việc sắp ký hợp đồng.",
       "Sai — 'will sign' sai trong mệnh đề thời gian 'before'.",
       "Đúng — 'before' + hiện tại đơn (sign); vế chính dùng will need."
     ]
@@ -633,7 +633,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "We ______ (not/start) the meeting until everyone ______ (be) present in the room.",
     "choices": [
-      "don't start / is",
+      "didn't start / is",
       "will not start / will be",
       "won't start / will be",
       "won't start / is"
@@ -641,7 +641,7 @@
     "correctIndex": 3,
     "explanation": "Mệnh đề chính dùng 'will not (won't) start'; mệnh đề thời gian với 'until' dùng hiện tại đơn của 'to be': is, không dùng will be.",
     "choiceExplanations": [
-      "Sai — 'don't start' nêu được quy tắc chung nên không sai hẳn, nhưng câu nói về cuộc họp sắp tới nên dùng 'won't start'.",
+      "Sai — 'didn't start' là quá khứ đơn, trong khi cuộc họp sắp tới chưa bắt đầu.",
       "Sai — mệnh đề 'until' không dùng 'will be'.",
       "Sai — mệnh đề 'until' không dùng 'will be'; phải là 'is'.",
       "Đúng — vế chính won't start; mệnh đề 'until' dùng hiện tại đơn của 'be': is."
@@ -798,7 +798,7 @@
     "choices": [
       "will rust",
       "is rusting",
-      "rusts",
+      "rusted",
       "will rusts"
     ],
     "correctIndex": 0,
@@ -806,7 +806,7 @@
     "choiceExplanations": [
       "Đúng — dự đoán tất yếu về một cây cầu cụ thể nếu không được bảo vệ → will rust.",
       "Sai — 'is rusting' nói đang rỉ ngay lúc này.",
-      "Sai — 'rusts' (hiện tại đơn) nêu được quy luật chung nên không sai hẳn ngữ pháp, nhưng câu nói về một cây cầu cụ thể trong tương lai có điều kiện nên dùng 'will'.",
+      "Sai — 'rusted' là quá khứ đơn, trong khi câu dự đoán điều sẽ xảy ra 'eventually'.",
       "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s."
     ]
   }

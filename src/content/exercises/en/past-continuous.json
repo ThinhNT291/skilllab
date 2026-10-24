@@ -334,7 +334,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "At 10 o'clock last night, my parents were still awake because they ______ (watch) a long horror movie.",
+    "prompt": "At 10 o'clock last night, my parents were still awake. At that very moment, they ______ (watch) a long horror movie.",
     "choices": [
       "watch",
       "was watching",
@@ -347,7 +347,7 @@
       "Sai — 'watch' là hiện tại/nguyên thể.",
       "Sai — 'was' không đi với chủ ngữ số nhiều 'my parents'.",
       "Đúng — hành động đang diễn ra tại thời điểm xác định, chủ ngữ số nhiều → were watching.",
-      "Sai — 'watched' không sai ngữ pháp trong câu ('they watched a long horror movie' nêu lý do), nhưng không nhấn việc họ đang xem vào lúc 10 giờ tối; ngữ cảnh 'At 10 o'clock ... still awake' cần quá khứ tiếp diễn."
+      "Sai — 'watched' (quá khứ đơn) nói việc đã hoàn tất, trong khi 'At that very moment' nhấn việc đang diễn ra."
     ]
   },
   {
@@ -417,18 +417,18 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Last summer, the city ______ (change) quickly; new buildings ______ (appear) everywhere.",
     "choices": [
-      "was changing / appeared",
+      "was changing / are appearing",
       "was changing / were appearing",
-      "changed / appeared",
-      "changed / were appearing"
+      "were changing / was appearing",
+      "has changed / have appeared"
     ],
     "correctIndex": 1,
     "explanation": "Diễn tả một tình huống đang thay đổi dần trong quá khứ, cả hai vế đều dùng quá khứ tiếp diễn: was changing / were appearing.",
     "choiceExplanations": [
-      "Sai — vế sau cần 'were appearing' để cùng mô tả quá trình thay đổi dần.",
-      "Đúng — tình huống đang thay đổi dần: was changing / were appearing.",
-      "Sai — 'changed / appeared' (quá khứ đơn) nói được về những thay đổi đã xảy ra nên không sai hẳn ngữ pháp, nhưng không nhấn quá trình đang diễn ra dần như 'quickly; new buildings ... everywhere'; bài này luyện quá khứ tiếp diễn cho tình huống đang thay đổi.",
-      "Sai — vế đầu cần 'was changing' để cùng mô tả quá trình thay đổi dần."
+      "Sai — 'are appearing' là hiện tại tiếp diễn, không hợp với 'Last summer' (quá khứ).",
+      "Đúng — tình huống đang thay đổi dần trong quá khứ, cả hai vế dùng quá khứ tiếp diễn: was changing / were appearing.",
+      "Sai — chia sai chủ ngữ: 'the city' số ít dùng 'was changing', còn 'new buildings' số nhiều dùng 'were appearing'.",
+      "Sai — hiện tại hoàn thành không đi với 'Last summer' (mốc quá khứ xác định) và không nhấn quá trình đang diễn ra."
     ]
   },
   {
@@ -444,18 +444,18 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Once upon a time, in a small village, the sun ______ (shine) brightly and birds ______ (sing) in the trees.",
     "choices": [
-      "shone / sang",
-      "shone / were singing",
+      "shines / are singing",
+      "was shining / was singing",
       "was shining / were singing",
-      "was shining / sang"
+      "were shining / were singing"
     ],
     "correctIndex": 2,
     "explanation": "Đây là câu mở đầu miêu tả bối cảnh của một câu chuyện, nên cả hai hành động đều dùng quá khứ tiếp diễn để tạo phông nền: was shining / were singing.",
     "choiceExplanations": [
-      "Sai — 'shone / sang' (quá khứ đơn) vẫn dùng được trong kể chuyện nên không sai hẳn ngữ pháp, nhưng khi tả bối cảnh mở đầu thì quá khứ tiếp diễn là cách dùng được luyện ở đây.",
-      "Sai — hai vế cùng tả bối cảnh nên nên dùng cùng quá khứ tiếp diễn (was shining).",
+      "Sai — 'shines / are singing' ở hiện tại, trong khi câu kể chuyện ở quá khứ ('Once upon a time').",
+      "Sai — 'birds' là số nhiều nên phải dùng 'were singing', không dùng 'was'.",
       "Đúng — miêu tả bối cảnh mở đầu câu chuyện: was shining / were singing.",
-      "Sai — vế sau cũng nên là tiếp diễn (were singing) để cùng tả bối cảnh."
+      "Sai — 'the sun' là số ít nên phải dùng 'was shining', không dùng 'were'."
     ]
   },
   {
@@ -474,7 +474,7 @@
       "Were / doing",
       "Was / doing",
       "Were / do",
-      "Did / do"
+      "Have / done"
     ],
     "correctIndex": 0,
     "explanation": "Chủ ngữ 'you' dùng trợ động từ 'Were' để lập câu hỏi ở quá khứ tiếp diễn, theo sau là V-ing: Were you doing?",
@@ -482,7 +482,7 @@
       "Đúng — Were + you + V-ing.",
       "Sai — 'Was' không đi với chủ ngữ 'you'.",
       "Sai — sau 'Were' động từ phải ở dạng V-ing.",
-      "Sai — 'Did you do ...?' không sai ngữ pháp nhưng hỏi chung về việc đã làm, không nhấn việc đang diễn ra lúc 7 giờ tối thứ Sáu."
+      "Sai — hiện tại hoàn thành không đi với mốc quá khứ xác định 'at 7 p.m. last Friday'."
     ]
   },
   {
@@ -526,18 +526,18 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "At midnight, the streets ______ (become) quiet, and only a few taxis ______ (drive) around.",
     "choices": [
-      "were becoming / drove",
-      "became / drove",
+      "was becoming / were driving",
+      "have become / were driving",
       "were becoming / were driving",
-      "became / were driving"
+      "were becoming / was driving"
     ],
     "correctIndex": 2,
     "explanation": "Diễn tả tình huống đang thay đổi dần (phố xá đang dần trở nên yên tĩnh) kết hợp miêu tả bối cảnh, cả hai vế dùng quá khứ tiếp diễn: were becoming / were driving.",
     "choiceExplanations": [
-      "Sai — vế sau cần 'were driving' để cùng miêu tả bối cảnh.",
-      "Sai — 'became / drove' nói được hai sự việc đã xảy ra nên không sai hẳn ngữ pháp, nhưng không nhấn quá trình đang dần yên tĩnh và bối cảnh lúc nửa đêm.",
+      "Sai — 'the streets' là số nhiều nên phải dùng 'were becoming', không dùng 'was'.",
+      "Sai — 'have become' là hiện tại hoàn thành, không hợp với 'At midnight' (mốc quá khứ) và tình huống đang thay đổi dần.",
       "Đúng — tình huống đang thay đổi dần kết hợp miêu tả bối cảnh: were becoming / were driving.",
-      "Sai — vế đầu cần 'were becoming' để diễn tả quá trình thay đổi dần."
+      "Sai — 'a few taxis' là số nhiều nên phải dùng 'were driving', không dùng 'was'."
     ]
   },
   {
@@ -609,18 +609,18 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "As the sun ______ (set) slowly behind the mountains, the fishermen ______ (pull) their boats onto the shore one last time.",
     "choices": [
-      "was setting / pulled",
-      "set / pulled",
+      "was setting / pulls",
+      "has set / pulled",
       "was setting / were pulling",
-      "set / were pulling"
+      "were setting / were pulling"
     ],
     "correctIndex": 2,
     "explanation": "Hai hành động đang diễn ra song song, tạo bối cảnh cho câu chuyện (mặt trời đang lặn, các ngư dân đang kéo thuyền), đều dùng quá khứ tiếp diễn: was setting / were pulling.",
     "choiceExplanations": [
-      "Sai — vế sau cũng nên là tiếp diễn (were pulling) để cùng tả hai hành động diễn ra song song.",
-      "Sai — 'set / pulled' (quá khứ đơn) kể được hai sự việc nên không sai hẳn ngữ pháp, nhưng không nhấn hai hành động đang diễn ra song song với 'As ...'.",
+      "Sai — 'pulls' là hiện tại đơn, không hợp với ngữ cảnh quá khứ của câu.",
+      "Sai — 'has set' là hiện tại hoàn thành, không hợp với câu kể ở quá khứ và không nhấn việc mặt trời đang lặn dần.",
       "Đúng — hai hành động đang diễn ra song song tạo bối cảnh: was setting / were pulling.",
-      "Sai — vế đầu cần 'was setting' (mặt trời đang lặn dần)."
+      "Sai — 'the sun' là số ít nên phải dùng 'was setting', không dùng 'were'."
     ]
   },
   {
@@ -665,18 +665,18 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "While the government pushed through major reforms, the economy ______ (grow) steadily, and living standards ______ (improve) year by year.",
     "choices": [
-      "grew / were improving",
+      "was growing / was improving",
       "was growing / were improving",
-      "was growing / improved",
-      "grew / improved"
+      "was growing / improves",
+      "has grown / have improved"
     ],
     "correctIndex": 1,
     "explanation": "Mệnh đề 'while the government pushed through reforms' (quá khứ đơn) làm mốc nền cho hai xu hướng đang diễn tiến song song trong cùng giai đoạn đó, nên cả hai vế dùng quá khứ tiếp diễn: was growing / were improving.",
     "choiceExplanations": [
-      "Sai — vế đầu cần 'was growing' để cùng nhấn xu hướng đang diễn tiến song song.",
+      "Sai — 'living standards' là số nhiều nên phải dùng 'were improving', không dùng 'was'.",
       "Đúng — hai xu hướng đang diễn tiến song song: was growing / were improving.",
-      "Sai — vế sau cần 'were improving' để cùng nhấn xu hướng đang diễn tiến.",
-      "Sai — 'grew / improved' nêu kết quả đã xảy ra nên không sai hẳn ngữ pháp, nhưng không nhấn hai xu hướng đang diễn tiến dần song song."
+      "Sai — 'improves' là hiện tại đơn, không hợp với ngữ cảnh quá khứ ('pushed through').",
+      "Sai — hiện tại hoàn thành không hợp với câu kể ở quá khứ và không nhấn xu hướng đang diễn tiến dần."
     ]
   },
   {
@@ -749,18 +749,18 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "By 9 p.m., the restaurant ______ (get) very crowded, and waiters ______ (rush) between the tables to take orders.",
     "choices": [
-      "got / were rushing",
+      "were getting / were rushing",
       "was getting / were rushing",
-      "got / rushed",
-      "was getting / rushed"
+      "has got / were rushing",
+      "was getting / was rushing"
     ],
     "correctIndex": 1,
     "explanation": "Diễn tả tình huống đang thay đổi dần (nhà hàng đang dần đông khách) kết hợp miêu tả bối cảnh nhộn nhịp (các bồi bàn đang tất bật), cả hai vế dùng quá khứ tiếp diễn: was getting / were rushing.",
     "choiceExplanations": [
-      "Sai — vế đầu cần 'was getting' (nhà hàng đang dần đông khách).",
+      "Sai — 'the restaurant' là số ít nên phải dùng 'was getting', không dùng 'were'.",
       "Đúng — tình huống đang thay đổi dần kết hợp tả bối cảnh: was getting / were rushing.",
-      "Sai — 'got / rushed' (quá khứ đơn) dùng được cho hai sự việc đã xảy ra nên không sai hẳn ngữ pháp, nhưng không nhấn tình huống đang thay đổi dần và bối cảnh nhộn nhịp.",
-      "Sai — vế sau cần 'were rushing' để cùng tả bối cảnh."
+      "Sai — 'has got' là hiện tại hoàn thành, không hợp với mốc 'By 9 p.m.' trong câu kể quá khứ.",
+      "Sai — 'waiters' là số nhiều nên phải dùng 'were rushing', không dùng 'was'."
     ]
   },
   {

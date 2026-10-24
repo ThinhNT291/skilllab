@@ -338,7 +338,7 @@
     "choices": [
       "falls",
       "has fallen",
-      "fell",
+      "had fallen",
       "is fall"
     ],
     "correctIndex": 1,
@@ -346,7 +346,7 @@
     "choiceExplanations": [
       "Sai — 'falls' là hiện tại đơn, không diễn tả kết quả của việc vừa xảy ra.",
       "Đúng — 'Look!' + kết quả ở hiện tại → has fallen. (Tiếng Anh Mỹ đời thường đôi khi dùng quá khứ đơn, nhưng bài theo chuẩn Anh-Anh.)",
-      "Sai — 'fell' (quá khứ đơn) được dùng trong tiếng Anh Mỹ đời thường nên không sai hẳn, nhưng bài theo chuẩn Anh-Anh: hiện tại hoàn thành.",
+      "Sai — 'had fallen' là quá khứ hoàn thành, không hợp với 'Look!' (kết quả ở hiện tại).",
       "Sai — 'is fall' không đúng cấu trúc."
     ]
   },
@@ -444,7 +444,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Oh no! Someone ______ my bicycle. It is not outside anymore.",
     "choices": [
-      "stole",
+      "had stolen",
       "steals",
       "is stealing",
       "has stolen"
@@ -452,7 +452,7 @@
     "correctIndex": 3,
     "explanation": "Hành động ăn cắp xảy ra trong quá khứ không rõ thời gian và để lại kết quả rõ ràng ở hiện tại (xe không còn ở ngoài). (Lưu ý: văn nói Anh-Mỹ đời thường đôi khi chấp nhận dùng Quá khứ đơn ở đây, nhưng Hiện tại hoàn thành là đáp án chuẩn mực, phổ biến trong Anh-Anh và văn viết trang trọng — app dùng chuẩn này xuyên suốt.)",
     "choiceExplanations": [
-      "Sai — 'stole' (quá khứ đơn) được dùng trong tiếng Anh Mỹ đời thường nên không sai hẳn, nhưng bài theo chuẩn Anh-Anh.",
+      "Sai — 'had stolen' là quá khứ hoàn thành, không hợp với kết quả ở hiện tại ('is not outside anymore').",
       "Sai — 'steals' là hiện tại đơn.",
       "Sai — 'is stealing' nghĩa là đang lấy ngay lúc này.",
       "Đúng — việc xảy ra trong quá khứ không rõ thời gian, để lại kết quả ở hiện tại → has stolen."
@@ -500,7 +500,7 @@
     "choices": [
       "have just cleaned",
       "am just cleaning",
-      "just cleaned",
+      "had just cleaned",
       "clean just"
     ],
     "correctIndex": 0,
@@ -508,7 +508,7 @@
     "choiceExplanations": [
       "Đúng — 'just' + kết quả ở hiện tại (sàn đang sạch) → have just cleaned.",
       "Sai — 'am just cleaning' nghĩa là đang lau, trong khi sàn đã lau xong.",
-      "Sai — 'just cleaned' (quá khứ đơn) được dùng trong tiếng Anh Mỹ nên không sai hẳn, nhưng bài theo chuẩn Anh-Anh.",
+      "Sai — 'had just cleaned' là quá khứ hoàn thành, không hợp với kết quả ở hiện tại (sàn đang sạch).",
       "Sai — sai trật tự từ: 'just' phải đứng trước động từ chính và cần trợ động từ."
     ]
   },
@@ -607,7 +607,7 @@
     "prompt": "You don't need to remind him. He ______ the weekly report.",
     "choices": [
       "already finishes",
-      "already finished",
+      "had already finished",
       "is already finishing",
       "has already finished"
     ],
@@ -615,7 +615,7 @@
     "explanation": "Từ 'already' (đã... rồi) nhấn mạnh một việc đã hoàn tất sớm hơn dự kiến, thường dùng với thì Hiện tại hoàn thành. (Lưu ý: văn nói Anh-Mỹ đời thường đôi khi chấp nhận dùng Quá khứ đơn ở đây, nhưng Hiện tại hoàn thành là đáp án chuẩn mực, phổ biến trong Anh-Anh và văn viết trang trọng — app dùng chuẩn này xuyên suốt.)",
     "choiceExplanations": [
       "Sai — 'finishes' (hiện tại đơn) không nói việc đã hoàn tất.",
-      "Sai — 'already finished' (quá khứ đơn) được dùng trong tiếng Anh Mỹ đời thường nên không sai hẳn, nhưng bài theo chuẩn Anh-Anh.",
+      "Sai — 'had already finished' là quá khứ hoàn thành, không hợp với lời nói ở hiện tại ('You don't need to remind him').",
       "Sai — 'is already finishing' nghĩa là đang hoàn tất, trong khi việc đã xong.",
       "Đúng — 'already' + việc đã hoàn tất → has already finished."
     ]
@@ -662,7 +662,7 @@
     "choices": [
       "has arrived",
       "did arrive",
-      "arrived",
+      "had arrived",
       "is arriving"
     ],
     "correctIndex": 0,
@@ -670,7 +670,7 @@
     "choiceExplanations": [
       "Đúng — 'yet' trong câu hỏi → hiện tại hoàn thành: has arrived.",
       "Sai — 'did arrive' (quá khứ đơn nhấn mạnh) không đi với 'yet' theo chuẩn Anh-Anh của bài.",
-      "Sai — 'arrived' (quá khứ đơn) được dùng trong tiếng Anh Mỹ với 'yet' nên không sai hẳn, nhưng bài theo chuẩn Anh-Anh.",
+      "Sai — 'had arrived' là quá khứ hoàn thành, không hợp với câu hỏi về tình trạng hiện tại ('yet').",
       "Sai — 'is arriving' nói tàu đang đến, không hỏi việc đã đến chưa."
     ]
   },
@@ -768,7 +768,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "I can't get into my apartment because I ______ my keys.",
     "choices": [
-      "lost",
+      "had lost",
       "was losing",
       "have lost",
       "lose"
@@ -776,7 +776,7 @@
     "correctIndex": 2,
     "explanation": "Sự việc mất chìa khóa xảy ra ở quá khứ (không rõ khi nào) và kết quả hiện tại là không thể vào nhà, vì vậy dùng Hiện tại hoàn thành. (Lưu ý: văn nói Anh-Mỹ đời thường đôi khi chấp nhận dùng Quá khứ đơn ở đây, nhưng Hiện tại hoàn thành là đáp án chuẩn mực, phổ biến trong Anh-Anh và văn viết trang trọng — app dùng chuẩn này xuyên suốt.)",
     "choiceExplanations": [
-      "Sai — 'lost' (quá khứ đơn) được dùng trong tiếng Anh Mỹ đời thường nên không sai hẳn, nhưng bài theo chuẩn Anh-Anh.",
+      "Sai — 'had lost' là quá khứ hoàn thành, không hợp với kết quả ở hiện tại ('I can't get into my apartment').",
       "Sai — 'was losing' nghĩa là đang đánh mất dần.",
       "Đúng — mất chìa khóa (không rõ khi nào) và kết quả ở hiện tại (không vào được nhà) → have lost.",
       "Sai — 'lose' (hiện tại) không nói việc đã mất rồi."

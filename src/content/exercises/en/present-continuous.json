@@ -336,7 +336,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "We ______ (meet) our old classmates for a reunion next Friday evening.",
     "choices": [
-      "meet",
+      "met",
       "is meeting",
       "meets",
       "are meeting"
@@ -344,7 +344,7 @@
     "correctIndex": 3,
     "explanation": "Câu diễn tả một kế hoạch đã định cho tương lai gần ('next Friday evening') → hiện tại tiếp diễn: are meeting.",
     "choiceExplanations": [
-      "Sai — 'meet' (hiện tại đơn) ít tự nhiên khi nói về kế hoạch cá nhân do chính mình sắp xếp; dạng này dành cho lịch trình công khai.",
+      "Sai — 'met' là quá khứ đơn, trong khi buổi họp lớp còn ở tương lai ('next Friday evening').",
       "Sai — 'is' không đi với chủ ngữ 'We'.",
       "Sai — 'meets' dành cho ngôi thứ ba số ít, không dùng với 'We'.",
       "Đúng — kế hoạch cá nhân đã sắp xếp cho tương lai gần → are meeting."
@@ -365,7 +365,7 @@
     "choices": [
       "are starting",
       "is starting",
-      "starts",
+      "started",
       "start"
     ],
     "correctIndex": 1,
@@ -373,7 +373,7 @@
     "choiceExplanations": [
       "Sai — 'are' không đi với chủ ngữ số ít 'The new manager'.",
       "Đúng — kế hoạch đã sắp xếp cho tương lai gần → is starting.",
-      "Sai — 'starts' (hiện tại đơn) vẫn có thể dùng cho ngày bắt đầu làm việc như một lịch cố định nên không sai hẳn về ngữ pháp; bài học chọn 'is starting' để luyện hiện tại tiếp diễn cho kế hoạch đã sắp xếp.",
+      "Sai — 'started' là quá khứ đơn, trong khi việc bắt đầu làm còn ở tương lai ('next Monday').",
       "Sai — 'start' không có -s nên không hợp với chủ ngữ số ít."
     ]
   },
@@ -393,7 +393,7 @@
       "are switching",
       "switches",
       "is switching",
-      "switch"
+      "switched"
     ],
     "correctIndex": 0,
     "explanation": "'More and more' diễn tả xu hướng thay đổi dần theo thời gian → hiện tại tiếp diễn; chủ ngữ số nhiều → are switching.",
@@ -401,7 +401,7 @@
       "Đúng — 'More and more ... these days' diễn tả xu hướng thay đổi dần; 'companies' số nhiều → are switching.",
       "Sai — 'switches' dành cho ngôi thứ ba số ít, không hợp với 'companies'.",
       "Sai — 'is' không đi với chủ ngữ số nhiều 'companies'.",
-      "Sai — 'switch' (hiện tại đơn) nêu được một sự thật chung nhưng không nhấn xu hướng đang thay đổi như 'More and more ... these days'; cần tiếp diễn."
+      "Sai — 'switched' là quá khứ đơn, không hợp với 'these days' (xu hướng hiện nay)."
     ]
   },
   {
@@ -418,7 +418,7 @@
     "prompt": "The number of tourists visiting this island ______ (increase) year after year.",
     "choices": [
       "are increasing",
-      "increases",
+      "is increased",
       "is increasing",
       "increase"
     ],
@@ -426,7 +426,7 @@
     "explanation": "Diễn tả xu hướng tăng dần theo thời gian → hiện tại tiếp diễn; chủ ngữ chính là 'the number' (số ít) → is increasing.",
     "choiceExplanations": [
       "Sai — chủ ngữ chính là 'The number' (số ít) nên không dùng 'are'.",
-      "Sai — 'increases' (hiện tại đơn) có thể nêu một sự thật chung, nhưng khi diễn tả xu hướng đang tăng dần theo thời gian thì dùng tiếp diễn.",
+      "Sai — 'is increased' là dạng bị động, không hợp nghĩa (số lượng khách tự tăng chứ không 'bị tăng').",
       "Đúng — xu hướng tăng dần → hiện tại tiếp diễn; 'The number' số ít → is increasing.",
       "Sai — 'increase' không hợp với chủ ngữ số ít 'The number'."
     ]
@@ -501,7 +501,7 @@
       "Are / doing",
       "Does / do",
       "Is / doing",
-      "Do / do"
+      "Did / do"
     ],
     "correctIndex": 0,
     "explanation": "Hỏi về kế hoạch đã sắp xếp cho tương lai gần ('this weekend') → Are you doing...?",
@@ -509,7 +509,7 @@
       "Đúng — hỏi về kế hoạch đã sắp xếp cho 'this weekend' → Are you doing ...?",
       "Sai — 'Does' không đi với chủ ngữ 'you'.",
       "Sai — 'Is' không đi với chủ ngữ 'you'.",
-      "Sai — 'Do you do ...?' là câu hỏi hiện tại đơn, hỏi thói quen chung; hỏi kế hoạch cụ thể cho cuối tuần này thì dùng hiện tại tiếp diễn."
+      "Sai — 'Did you do ...?' là quá khứ đơn, không hợp với 'this weekend' (sắp tới)."
     ]
   },
   {
@@ -666,7 +666,7 @@
     "choices": [
       "writes",
       "is writing",
-      "write",
+      "wrote",
       "are writing"
     ],
     "correctIndex": 3,
@@ -674,7 +674,7 @@
     "choiceExplanations": [
       "Sai — 'writes' dành cho ngôi thứ ba số ít, trong khi 'people' là số nhiều.",
       "Sai — 'is' không đi với chủ ngữ số nhiều 'people'.",
-      "Sai — 'write' (hiện tại đơn) nêu được một sự thật chung, nhưng với 'Nowadays ... fewer and fewer' (xu hướng giảm dần) thì cần hiện tại tiếp diễn.",
+      "Sai — 'wrote' là quá khứ đơn, không hợp với 'Nowadays' (hiện nay).",
       "Đúng — 'Nowadays' + xu hướng giảm dần → are writing."
     ]
   },
@@ -748,7 +748,7 @@
       "flies",
       "are flying",
       "is flying",
-      "fly"
+      "flew"
     ],
     "correctIndex": 1,
     "explanation": "Kế hoạch bay đã được đặt vé, sắp xếp cụ thể cho tương lai gần → hiện tại tiếp diễn: are flying.",
@@ -756,7 +756,7 @@
       "Sai — 'flies' dành cho ngôi thứ ba số ít, không dùng với 'We'.",
       "Đúng — kế hoạch đã đặt vé, sắp xếp cụ thể cho tương lai gần → are flying.",
       "Sai — 'is' không đi với chủ ngữ 'We'.",
-      "Sai — 'fly' (hiện tại đơn) dùng được cho lịch bay cố định nên không sai hẳn về ngữ pháp, nhưng với kế hoạch cá nhân đã đặt vé của 'we' thì hiện tại tiếp diễn tự nhiên hơn."
+      "Sai — 'flew' là quá khứ đơn, trong khi chuyến bay ở 'tomorrow' (tương lai)."
     ]
   },
   {

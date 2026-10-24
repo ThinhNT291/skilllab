@@ -94,7 +94,7 @@
     "prompt": "The last bus to the city centre ______ (leave) at 11 p.m.",
     "choices": [
       "leave",
-      "is leaving",
+      "leaving",
       "leaves",
       "left"
     ],
@@ -102,7 +102,7 @@
     "explanation": "Câu nói về lịch trình xe buýt cố định nên dùng hiện tại đơn. Chủ ngữ số ít 'The last bus' cần thêm -s: leave -> leaves.",
     "choiceExplanations": [
       "Sai — 'The last bus' là số ít nên động từ cần thêm -s.",
-      "Sai — 'is leaving' (hiện tại tiếp diễn) cũng có thể nói về kế hoạch tương lai, nhưng với giờ xe chạy cố định theo lịch thì chuẩn là hiện tại đơn.",
+      "Sai — 'leaving' (V-ing) đứng một mình không phải động từ chính của câu.",
       "Đúng — lịch trình cố định dùng hiện tại đơn; 'The last bus' là số ít nên thêm -s: leaves.",
       "Sai — 'left' là quá khứ đơn, không phù hợp với lịch trình xe chạy hiện hành."
     ]
@@ -256,7 +256,7 @@
     "prompt": "This shop ______ (close) at 10 p.m. from Monday to Saturday.",
     "choices": [
       "closes",
-      "is closing",
+      "to close",
       "closed",
       "close"
     ],
@@ -264,7 +264,7 @@
     "explanation": "Giờ đóng cửa cố định của cửa hàng là lịch trình nên dùng hiện tại đơn; chủ ngữ số ít 'This shop' cần thêm -s: closes.",
     "choiceExplanations": [
       "Đúng — giờ đóng cửa cố định là lịch trình nên dùng hiện tại đơn; 'This shop' là số ít nên thêm -s.",
-      "Sai — 'is closing' thường nói việc đang hoặc sắp xảy ra, không hợp với giờ đóng cửa cố định lặp lại hằng tuần.",
+      "Sai — 'to close' (to + động từ) không thể đứng làm động từ chính đã chia của câu.",
       "Sai — 'closed' là quá khứ đơn, không dùng cho lịch hiện hành.",
       "Sai — 'This shop' là số ít nên động từ cần thêm -s."
     ]

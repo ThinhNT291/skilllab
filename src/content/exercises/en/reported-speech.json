@@ -41,7 +41,7 @@
     "choices": [
       "has been",
       "be",
-      "is",
+      "were",
       "was"
     ],
     "correctIndex": 3,
@@ -49,7 +49,7 @@
     "choiceExplanations": [
       "Sai — 'has been' chuyển sang hiện tại hoàn thành, không phải cách lùi thì của 'is/am'.",
       "Sai — 'be' nguyên thể không dùng làm động từ chia.",
-      "Sai — 'is' không lùi thì; nếu tình trạng mệt mỏi vẫn còn đúng thì có thể giữ nhưng bài luyện quy tắc lùi thì sau 'told' (quá khứ).",
+      "Sai — 'were' không đi với chủ ngữ số ít 'he'.",
       "Đúng — sau 'told' (quá khứ), hiện tại đơn lùi thành quá khứ đơn: is → was."
     ]
   },
@@ -94,7 +94,7 @@
     "prompt": "Direct: \"I live here,\" he said. -> Reported: He said (that) he lived ______.",
     "choices": [
       "this place",
-      "here",
+      "somewhere",
       "near",
       "there"
     ],
@@ -102,7 +102,7 @@
     "explanation": "Trạng từ chỉ nơi chốn 'here' phải đổi thành 'there' khi tường thuật vì ngữ cảnh nói đã thay đổi.",
     "choiceExplanations": [
       "Sai — 'this place' không phải trạng từ nơi chốn thay thế 'here' ở vị trí này.",
-      "Sai — 'here' giữ nguyên chỉ đúng khi người nghe ở cùng nơi lúc tường thuật; quy tắc đổi chỗ chuẩn là 'here' → 'there'.",
+      "Sai — 'somewhere' (một nơi nào đó) làm đổi nghĩa; câu gốc nói 'here' nên cần đổi thành 'there'.",
       "Sai — 'near' thiếu bổ ngữ và không phải từ thay thế của 'here'.",
       "Đúng — khi tường thuật ở ngữ cảnh khác, 'here' → there."
     ]
@@ -148,7 +148,7 @@
     "prompt": "Direct: \"I will call you tomorrow,\" he said. -> Reported: He said (that) he would call me ______.",
     "choices": [
       "yesterday",
-      "tomorrow",
+      "the day before",
       "today",
       "the next day"
     ],
@@ -156,7 +156,7 @@
     "explanation": "Khi ngày nói đã qua, 'tomorrow' phải đổi thành 'the next day' (hoặc 'the following day') cho phù hợp với thời điểm tường thuật.",
     "choiceExplanations": [
       "Sai — 'yesterday' mâu thuẫn với việc sẽ gọi trong tương lai của người nói.",
-      "Sai — 'tomorrow' chỉ giữ nguyên được nếu việc tường thuật diễn ra cùng ngày; bài luyện quy tắc đổi trạng từ thời gian.",
+      "Sai — 'the day before' là ngày hôm trước, ngược với 'tomorrow' (ngày hôm sau).",
       "Sai — 'today' không thay thế đúng cho 'tomorrow'.",
       "Đúng — 'tomorrow' → the next day (hoặc the following day)."
     ]
@@ -174,16 +174,16 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Direct: \"I can swim very well,\" she said. -> Reported: She said (that) she ______ swim very well.",
     "choices": [
-      "was able",
-      "can",
+      "would can",
+      "cans",
       "may",
       "could"
     ],
     "correctIndex": 3,
     "explanation": "Theo bảng lùi thì, động từ khuyết thiếu 'can' lùi thành 'could' trong câu tường thuật.",
     "choiceExplanations": [
-      "Sai — 'was able' có thể dùng được khi tường thuật nhưng không phải dạng lùi thì tiêu chuẩn của 'can' trong bảng luyện; đáp án chuẩn là 'could'.",
-      "Sai — 'can' giữ nguyên chỉ khi khả năng bơi vẫn đúng ở hiện tại; bài luyện quy tắc lùi thì: can → could.",
+      "Sai — không dùng hai động từ khuyết thiếu liền nhau; 'can' lùi thành 'could'.",
+      "Sai — 'cans' không tồn tại: động từ khuyết thiếu 'can' không thêm -s.",
       "Sai — 'may' đổi nghĩa từ khả năng sang khả năng xảy ra.",
       "Đúng — modal 'can' lùi thành 'could'."
     ]
@@ -258,7 +258,7 @@
       "should",
       "had to",
       "has to",
-      "must"
+      "might"
     ],
     "correctIndex": 1,
     "explanation": "Theo bảng lùi thì, động từ khuyết thiếu 'must' (chỉ sự bắt buộc) lùi thành 'had to' trong câu tường thuật.",
@@ -266,7 +266,7 @@
       "Sai — 'should' đổi nghĩa từ bắt buộc sang lời khuyên.",
       "Đúng — modal 'must' (bắt buộc) lùi thành 'had to'.",
       "Sai — 'has to' ở hiện tại, không lùi thì sau 'said' (quá khứ).",
-      "Sai — 'must' có thể giữ nguyên khi tường thuật nên không sai hẳn trong nhiều ngữ cảnh, nhưng câu có 'that day' (ngữ cảnh quá khứ) nên bài chọn 'had to'."
+      "Sai — 'might' diễn tả khả năng, làm đổi nghĩa từ 'bắt buộc' sang 'có thể'."
     ]
   },
   {
@@ -557,7 +557,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Direct: \"I will finish this report by tomorrow,\" she told her boss. -> Reported: She told her boss (that) she ______ finish that report by the next day.",
     "choices": [
-      "will",
+      "wouldn't",
       "would",
       "shall",
       "must"
@@ -565,7 +565,7 @@
     "correctIndex": 1,
     "explanation": "Ngoài việc đổi 'this' -> 'that' và 'tomorrow' -> 'the next day', động từ khuyết thiếu 'will' cũng phải lùi thành 'would' theo quy tắc backshift.",
     "choiceExplanations": [
-      "Sai — 'will' không lùi thì sau 'told' (quá khứ); nếu việc vẫn ở tương lai thì có thể giữ nguyên, nhưng câu có 'the next day' (mốc đã đổi) nên cần 'would'.",
+      "Sai — 'wouldn't' là phủ định, làm đảo nghĩa câu gốc (cô ấy sẽ hoàn thành báo cáo).",
       "Đúng — modal 'will' lùi thành 'would'.",
       "Sai — 'shall' đổi nghĩa và không phải dạng lùi thì của 'will'.",
       "Sai — 'must' đổi nghĩa từ ý định sang bắt buộc."
@@ -782,7 +782,7 @@
     "choices": [
       "had to",
       "should",
-      "must",
+      "have to",
       "has to"
     ],
     "correctIndex": 0,
@@ -790,7 +790,7 @@
     "choiceExplanations": [
       "Đúng — modal 'must' (bắt buộc) lùi thành 'had to'; 'these' → those; 'tomorrow' → the next day.",
       "Sai — 'should' đổi nghĩa từ bắt buộc sang lời khuyên.",
-      "Sai — 'must' có thể giữ nguyên trong một số ngữ cảnh, nhưng câu có 'the next day' (mốc quá khứ) nên bài chọn 'had to'.",
+      "Sai — 'have to' ở hiện tại và không hợp với chủ ngữ 'she'; 'must' lùi thành 'had to'.",
       "Sai — 'has to' ở hiện tại, không lùi thì sau 'told' (quá khứ)."
     ]
   },
