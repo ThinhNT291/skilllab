@@ -24,7 +24,8 @@
       "Sai — 'in' dùng với buổi/tháng/năm, không dùng với giờ cụ thể.",
       "Đúng — 'at' dùng với giờ cụ thể (9:00 AM).",
       "Sai — 'to' không phải giới từ chỉ thời điểm."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-prepositions-002",
@@ -51,7 +52,8 @@
       "Sai — 'in the morning' dùng 'in', nhưng khi kèm thứ trong tuần (Sunday mornings) thì dùng 'on'.",
       "Sai — 'for' nêu khoảng thời gian, không nêu thời điểm.",
       "Đúng — kèm thứ trong tuần (Sunday), kể cả có buổi (mornings), dùng 'on'."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-prepositions-003",
@@ -78,7 +80,8 @@
       "Đúng — mùa trong năm dùng 'in'.",
       "Sai — 'at' dùng với giờ hoặc điểm thời gian cụ thể.",
       "Sai — 'on' dùng với ngày."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-prepositions-004",
@@ -105,7 +108,8 @@
       "Sai — 'in' chỉ ở bên trong một không gian; ghế sô-pha là bề mặt nên dùng 'on'.",
       "Sai — 'at' chỉ một điểm/địa điểm, không chỉ vị trí trên bề mặt.",
       "Sai — 'from' chỉ điểm xuất phát, không nêu vị trí đặt đồ."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-prepositions-005",
@@ -132,7 +136,8 @@
       "Đúng — thành phố, quốc gia dùng 'in'.",
       "Sai — 'to' chỉ hướng di chuyển, không nêu nơi sống.",
       "Sai — 'on' dùng cho bề mặt hoặc ngày, không dùng cho thành phố."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-prepositions-006",
@@ -159,7 +164,8 @@
       "Sai — 'along' nghĩa là đi dọc theo con đường, không phải sang bên kia.",
       "Đúng — đi từ bên này sang bên kia của một con đường → across.",
       "Sai — 'through' chỉ đi xuyên qua một không gian có thành bao quanh (rừng, đường hầm), không phải băng ngang đường."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-prepositions-007",
@@ -186,7 +192,8 @@
       "Đúng — chuyển động từ ngoài vào trong một không gian → into.",
       "Sai — 'ran on the building' nghĩa là chạy trên bề mặt tòa nhà, không hợp nghĩa.",
       "Sai — 'ran in the building' nghĩa là chạy ở bên trong tòa nhà (đã ở trong); 'into' mới diễn tả chuyển động từ ngoài vào."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-prepositions-008",
@@ -213,7 +220,8 @@
       "Sai — 'good for' nghĩa là có lợi cho, không nói về việc giỏi.",
       "Sai — 'good with' dùng cho khéo léo với người/vật (good with children), không dùng khi nói giỏi làm việc gì.",
       "Sai — không dùng 'good in' để nói giỏi làm việc gì; cụm cố định là 'good at'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-prepositions-009",
@@ -240,7 +248,8 @@
       "Sai — 'interested of' không tồn tại; dùng 'interested in'.",
       "Sai — 'interested at' không phải cụm đúng.",
       "Sai — 'interested on' không phải cụm đúng."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-prepositions-010",
@@ -267,7 +276,8 @@
       "Sai — 'famous of' không phải cụm đúng.",
       "Sai — 'famous to' không dùng với nghĩa 'nổi tiếng vì'; nghĩa này dùng 'for'.",
       "Đúng — cụm cố định 'famous for' (nổi tiếng vì)."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-prepositions-011",
@@ -294,7 +304,8 @@
       "Sai — 'listen with' không đi với đối tượng được nghe.",
       "Đúng — 'listen to' + đối tượng được nghe.",
       "Sai — 'listen for' nghĩa là lắng nghe để chờ một âm thanh nào đó (listen for the bell), không phải nghe nhạc."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-prepositions-012",
@@ -321,7 +332,8 @@
       "Đúng — cụm động từ 'depend on' (phụ thuộc vào).",
       "Sai — 'depend in' không phải cụm đúng; dùng 'depend on'.",
       "Sai — 'depend of' không phải cụm đúng; dùng 'depend on'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-prepositions-013",
@@ -348,7 +360,8 @@
       "Sai — 'wait to' đi với động từ nguyên thể (wait to go), không đi trước danh từ 'the bus'.",
       "Sai — 'wait in' dùng với nơi chốn (wait in line), không đi trước đối tượng được chờ.",
       "Đúng — 'wait for' (chờ ai/cái gì)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-prepositions-014",
@@ -375,7 +388,8 @@
       "Sai — 'for' đi với khoảng thời gian, trong khi 2015 là mốc thời gian.",
       "Sai — 'in 2015' dùng với quá khứ đơn; câu ở hiện tại hoàn thành ('has worked') cần 'since'.",
       "Sai — 'at' dùng với giờ, không dùng với năm."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-prepositions-015",
@@ -402,7 +416,8 @@
       "Sai — 'on' không đi với 'arrive' trước địa điểm này.",
       "Sai — 'arrive in' dùng với thành phố/quốc gia; sân bay là địa điểm cụ thể nên dùng 'at'.",
       "Sai — 'arrive to' không đúng; 'arrive' đi với 'at' hoặc 'in'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-prepositions-016",
@@ -429,7 +444,8 @@
       "Sai — 'in' dùng với tháng/năm (in August), không dùng với ngày cụ thể.",
       "Đúng — trước ngày cụ thể dùng 'on'.",
       "Sai — 'at' dùng với giờ."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-prepositions-017",
@@ -456,7 +472,8 @@
       "Sai — 'on' dùng với ngày.",
       "Sai — 'at' dùng với giờ hoặc điểm thời gian.",
       "Sai — 'from the winter' không đúng; 'from' chỉ điểm bắt đầu."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-prepositions-018",
@@ -483,7 +500,8 @@
       "Sai — 'under' nghĩa là bên dưới, không hợp với ngữ cảnh trạm xe buýt.",
       "Đúng — địa điểm/điểm dừng cụ thể dùng 'at'.",
       "Sai — 'in the bus stop' không tự nhiên; trạm xe buýt là một điểm nên dùng 'at'."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-prepositions-019",
@@ -510,7 +528,8 @@
       "Sai — 'to' chỉ hướng di chuyển, không nêu nơi sống.",
       "Sai — 'on' dùng cho bề mặt hoặc ngày.",
       "Sai — 'at' dùng cho điểm nhỏ; Paris là thành phố lớn nên dùng 'in'."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-prepositions-020",
@@ -537,7 +556,8 @@
       "Đúng — giờ cụ thể dùng 'at'.",
       "Sai — 'in' dùng với buổi/tháng/năm, không dùng với giờ cụ thể.",
       "Sai — 'on' dùng với ngày."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-prepositions-021",
@@ -564,7 +584,8 @@
       "Sai — 'into' chỉ đi vào bên trong một không gian.",
       "Đúng — băng qua đường từ bên này sang bên kia → across.",
       "Sai — 'under' nghĩa là bên dưới."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-prepositions-022",
@@ -591,7 +612,8 @@
       "Sai — 'up' chỉ hướng lên, không có đích đến là hồ bơi.",
       "Sai — 'out' chỉ đi ra ngoài; ở đây là nhảy vào.",
       "Đúng — chuyển động đi vào bên trong → into."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-prepositions-023",
@@ -618,7 +640,8 @@
       "Đúng — cụm cố định 'afraid of' (sợ cái gì).",
       "Sai — 'afraid for' nghĩa là lo lắng cho ai (afraid for her safety), không phải sợ.",
       "Sai — 'afraid on' không phải cụm đúng."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-prepositions-024",
@@ -645,7 +668,8 @@
       "Đúng — cụm cố định 'interested in'.",
       "Sai — 'interested at' không phải cụm đúng.",
       "Sai — 'interested on' không phải cụm đúng."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-prepositions-025",
@@ -672,7 +696,8 @@
       "Sai — 'good on' không phải cụm đúng trong ngữ cảnh này.",
       "Đúng — cụm cố định 'good at'.",
       "Sai — không dùng 'good in' để nói giỏi làm việc gì."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-prepositions-026",
@@ -699,7 +724,8 @@
       "Sai — 'listen for' nghĩa là lắng nghe để chờ một âm thanh, không phải nghe nhạc.",
       "Sai — 'listen at' không phải cụm đúng.",
       "Đúng — 'listen to' + đối tượng được nghe."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-prepositions-027",
@@ -726,7 +752,8 @@
       "Sai — 'depend at' không phải cụm đúng; dùng 'depend on'.",
       "Sai — 'depend of' không phải cụm đúng; dùng 'depend on'.",
       "Sai — 'depend in' không phải cụm đúng; dùng 'depend on'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-prepositions-028",
@@ -753,7 +780,8 @@
       "Sai — 'wait with me' nghĩa là chờ cùng tôi, không phải chờ tôi.",
       "Sai — 'wait at' dùng với nơi chốn, không đi trước đối tượng được chờ.",
       "Đúng — 'wait for' (chờ ai)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-prepositions-029",
@@ -780,7 +808,8 @@
       "Sai — 'in 2015' dùng với quá khứ đơn; câu hiện tại hoàn thành ('have known') cần 'since'.",
       "Sai — 'for' đi với khoảng thời gian, không phải mốc thời gian.",
       "Đúng — mốc thời gian 2015 → since."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-prepositions-030",
@@ -807,6 +836,7 @@
       "Đúng — khoảng thời gian đã kéo dài đến nay → for.",
       "Sai — 'in five months' nghĩa là 'sau năm tháng nữa' hoặc 'trong vòng năm tháng', không diễn tả khoảng thời gian đã kéo dài đến nay.",
       "Sai — 'during' đi với một sự kiện/giai đoạn có tên (during the summer), không đi với số đo thời gian như 'five months'."
-    ]
+    ],
+    "bac": 3
   }
 ]

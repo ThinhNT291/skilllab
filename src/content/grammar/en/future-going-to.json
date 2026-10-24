@@ -22,7 +22,8 @@
             "en": "I'm going to redecorate my living room next month; I've already chosen the paint color and bought the furniture.",
             "vi": "Tôi sắp trang trí lại phòng khách vào tháng tới; tôi đã chọn màu sơn và mua nội thất rồi. (kế hoạch đã có từ trước, dùng 'going to')"
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "fgt-u2-evidence-prediction",
@@ -37,7 +38,8 @@
             "en": "I don't see any clear signs yet, but I think it will rain sometime next week.",
             "vi": "Tôi chưa thấy dấu hiệu gì rõ ràng cả, nhưng tôi nghĩ tuần sau trời sẽ mưa. (chỉ là ý kiến cá nhân, không có bằng chứng cụ thể ngay lúc nói)"
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "fgt-u3-near-future-signs",
@@ -52,7 +54,8 @@
             "en": "Watch out - that stack of plates is going to topple over any second!",
             "vi": "Cẩn thận đó - chồng đĩa kia sắp đổ nhào bất cứ lúc nào! (dấu hiệu quan sát được cho thấy việc sắp xảy ra ngay lập tức)"
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "fgt-u4-going-go-come",
@@ -67,7 +70,8 @@
             "en": "My cousins are coming to our house for Thanksgiving this year.",
             "vi": "Năm nay các anh chị họ của tôi sẽ đến nhà chúng tôi ăn lễ Tạ ơn. (tự nhiên hơn 'are going to come')"
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "fgt-u5-question-negative-vs-continuous",
@@ -82,7 +86,8 @@
             "en": "I'm going to fix the leaking faucet sometime this weekend, but I'm meeting a client at 2 p.m. on Saturday, so it depends on my schedule.",
             "vi": "Tôi định sửa vòi nước bị rò rỉ vào cuối tuần này, nhưng tôi có hẹn gặp khách hàng lúc 2 giờ chiều thứ Bảy đã được xác nhận, nên còn tùy vào lịch trình."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

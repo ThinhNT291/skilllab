@@ -1,3 +1,4 @@
+import { Suspense } from "react"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { getExercises, getGrammarTopic, listGrammarTopics } from "@/lib/content/grammar"
@@ -13,7 +14,16 @@ export async function generateMetadata({ params }: PageProps<"/hoc/[topic]">) {
   return { title: data?.title ?? "Học ngữ pháp" }
 }
 
-export default async function TopicPage({ params }: PageProps<"/hoc/[topic]">) {
+// Đọc `params` phải nằm trong <Suspense> (Next 16 kiểm tra "URL data outside of Suspense" ở chế độ dev).
+export default function TopicPage({ params }: PageProps<"/hoc/[topic]">) {
+  return (
+    <Suspense fallback={<p className="mx-auto w-full max-w-xl px-4 py-6 text-muted-foreground">Đang tải chuyên đề…</p>}>
+      <TopicContent params={params} />
+    </Suspense>
+  )
+}
+
+async function TopicContent({ params }: { params: PageProps<"/hoc/[topic]">["params"] }) {
   const { topic } = await params
   const data = await getGrammarTopic("en", topic)
   if (!data) notFound()

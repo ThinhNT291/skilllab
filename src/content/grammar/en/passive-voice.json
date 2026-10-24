@@ -5,7 +5,7 @@
   "levels": [
     "B1"
   ],
-  "order": 14,
+  "order": 15,
   "category": "sentence-structure",
   "theory": {
     "usages": [
@@ -22,7 +22,8 @@
             "en": "A new bridge was built in this city last year.",
             "vi": "Một cây cầu mới đã được xây dựng ở thành phố này năm ngoái."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "pv-u2-modal",
@@ -37,7 +38,8 @@
             "en": "This math problem can be solved easily.",
             "vi": "Bài toán này có thể được giải quyết dễ dàng."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "pv-u3-two-objects",
@@ -52,7 +54,8 @@
             "en": "A beautiful gift was given to me.",
             "vi": "Một món quà tuyệt đẹp đã được tặng cho tôi."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "pv-u4-reporting",
@@ -71,7 +74,8 @@
             "en": "The man is believed to have left the city years ago.",
             "vi": "Người đàn ông đó được cho là đã rời thành phố từ nhiều năm trước."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "pv-u5-causative",
@@ -86,7 +90,8 @@
             "en": "We will get our house painted next week.",
             "vi": "Chúng tôi sẽ thuê người sơn lại nhà vào tuần tới."
           }
-        ]
+        ],
+        "bac": 4
       }
     ],
     "signalWords": [

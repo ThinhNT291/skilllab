@@ -1,0 +1,154 @@
+{
+  "id": "inversion-emphasis",
+  "language": "en",
+  "title": "Đảo ngữ nhấn mạnh (Inversion)",
+  "levels": [
+    "B2",
+    "C1"
+  ],
+  "order": 28,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "inv-u1-negative-adverbials",
+        "bac": 5,
+        "label": "Đảo ngữ sau trạng từ phủ định (never, rarely, seldom, hardly ever, at no time...)",
+        "explanationVi": "Khi đặt trạng từ phủ định hoặc gần như phủ định ở ĐẦU câu để nhấn mạnh (never, rarely, seldom, hardly ever, at no time, nowhere), ta đảo trợ động từ lên trước chủ ngữ: trạng từ + trợ động từ + chủ ngữ + động từ chính. Khi đó nghĩa không đổi, chỉ nghe trang trọng và nhấn mạnh hơn. Nếu trạng từ đứng giữa câu thì không đảo (I have never seen it).",
+        "examples": [
+          {
+            "en": "Rarely do we see snow in this city.",
+            "vi": "Hiếm khi chúng tôi thấy tuyết ở thành phố này."
+          },
+          {
+            "en": "Never has she missed a deadline.",
+            "vi": "Cô ấy chưa bao giờ trễ hạn."
+          }
+        ]
+      },
+      {
+        "id": "inv-u2-not-only",
+        "bac": 4,
+        "label": "Not only ... but (also) ...",
+        "explanationVi": "Khi 'Not only' mở đầu câu, phần đứng sau nó được đảo: Not only + trợ động từ (hoặc be) + chủ ngữ + động từ chính, but (chủ ngữ) also... Mệnh đề thứ hai sau 'but also' giữ trật tự bình thường. Nếu câu chỉ có động từ 'be' thì đảo luôn 'be' lên trước chủ ngữ, không cần thêm do/does/did. Chỉ đảo khi 'Not only' đứng đầu một mệnh đề đầy đủ (chủ ngữ + động từ). Nếu 'Not only' chỉ đứng trước một danh từ hay cụm từ (Not only Tom but also Anna came) thì không đảo.",
+        "examples": [
+          {
+            "en": "Not only is the room small, but it is also dark.",
+            "vi": "Căn phòng không chỉ nhỏ mà còn tối nữa."
+          },
+          {
+            "en": "Not only did they lose the match, but they also lost their captain.",
+            "vi": "Họ không chỉ thua trận mà còn mất cả đội trưởng."
+          }
+        ]
+      },
+      {
+        "id": "inv-u3-hardly-no-sooner",
+        "bac": 5,
+        "label": "Hardly / Scarcely ... when và No sooner ... than",
+        "explanationVi": "Để nói việc này vừa xảy ra thì việc kia xảy ra ngay, dùng: Hardly (hoặc Scarcely) + had + S + V3 + when ... ; No sooner + had + S + V3 + than ... Mệnh đề đầu dùng quá khứ hoàn thành và đảo had lên trước chủ ngữ; mệnh đề sau dùng quá khứ đơn. Dạng chuẩn: hardly/scarcely đi với WHEN, no sooner đi với THAN (dạng lẫn lộn vẫn gặp nhưng bị coi là không chuẩn). Trong tiếng Anh Mỹ thân mật đôi khi dùng quá khứ đơn (No sooner did he arrive than ...), nhưng bài này luyện dạng chuẩn had + V3.",
+        "examples": [
+          {
+            "en": "Hardly had we reached the station when the train left.",
+            "vi": "Chúng tôi vừa đến ga thì tàu chạy."
+          },
+          {
+            "en": "No sooner had he sat down than the phone rang.",
+            "vi": "Anh ấy vừa ngồi xuống thì điện thoại reo."
+          }
+        ]
+      },
+      {
+        "id": "inv-u4-only-not-until",
+        "bac": 5,
+        "label": "Only + cụm trạng ngữ và Not until",
+        "explanationVi": "Khi 'Only after / when / if / by + ...' hoặc 'Not until + ...' đứng ĐẦU câu, mệnh đề chính được đảo: trợ động từ + chủ ngữ + động từ chính. Chỉ đảo ở mệnh đề chính, không đảo ở mệnh đề đi sau 'only after/when/if' hay 'not until'. Với 'not until', nghĩa là 'mãi đến khi... thì mới...'.",
+        "examples": [
+          {
+            "en": "Only after the guests left did we start cleaning.",
+            "vi": "Chỉ sau khi khách ra về chúng tôi mới bắt đầu dọn dẹp."
+          },
+          {
+            "en": "Not until midnight did the noise stop.",
+            "vi": "Mãi đến nửa đêm tiếng ồn mới dừng."
+          }
+        ]
+      },
+      {
+        "id": "inv-u5-form-rules",
+        "bac": 4,
+        "label": "Quy tắc hình thức của đảo ngữ",
+        "explanationVi": "Cách chọn từ đứng trước chủ ngữ: nếu câu thường đã có trợ động từ hoặc động từ khuyết thiếu (have, will, can...) thì đảo chính từ đó lên trước chủ ngữ. Nếu chỉ có động từ 'be' thì đảo 'be'. Nếu chỉ có động từ thường (hiện tại đơn, quá khứ đơn) thì mượn do/does/did và đưa động từ chính về nguyên thể. Chủ ngữ số nhiều dùng do, số ít dùng does. Đảo ngữ thường gặp ở văn viết và bài phát biểu; hội thoại hằng ngày ít dùng.",
+        "examples": [
+          {
+            "en": "Seldom does it snow here.",
+            "vi": "Hiếm khi tuyết rơi ở đây."
+          },
+          {
+            "en": "Never has the team played so well.",
+            "vi": "Đội chưa bao giờ chơi hay đến thế."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "never, rarely, seldom, hardly ever",
+        "meaningVi": "không bao giờ, hiếm khi (đứng đầu câu)"
+      },
+      {
+        "word": "not only ... but also",
+        "meaningVi": "không chỉ ... mà còn"
+      },
+      {
+        "word": "hardly / scarcely ... when",
+        "meaningVi": "vừa mới ... thì"
+      },
+      {
+        "word": "no sooner ... than",
+        "meaningVi": "vừa mới ... thì"
+      },
+      {
+        "word": "only after / only when / not until",
+        "meaningVi": "chỉ sau khi / chỉ khi / mãi đến khi"
+      }
+    ],
+    "formulas": {
+      "affirmative": "Trạng từ phủ định + trợ động từ + S + V. Ví dụ: Rarely do we eat out. | Hardly + had + S + V3 + when ... | No sooner + had + S + V3 + than ...",
+      "negative": "Not only + trợ động từ + S + V, but (S) also ... Ví dụ: Not only did he win, but he also broke the record.",
+      "question": "Only + cụm trạng ngữ + trợ động từ + S + V. Ví dụ: Only after the rain stopped did we go out. | Not until + mệnh đề + trợ động từ + S + V."
+    },
+    "commonMistakes": [
+      {
+        "id": "inversion-emphasis-m1",
+        "description": "Quên đảo ngữ khi trạng từ phủ định đứng đầu câu.",
+        "examples": [
+          {
+            "wrong": "Seldom she complains about her homework.",
+            "correct": "Seldom does she complain about her homework."
+          }
+        ]
+      },
+      {
+        "id": "inversion-emphasis-m2",
+        "description": "Vừa đảo ngữ vừa chia động từ chính: sau do/does/did động từ chính phải ở dạng nguyên thể.",
+        "examples": [
+          {
+            "wrong": "Rarely does he goes to the gym.",
+            "correct": "Rarely does he go to the gym."
+          }
+        ]
+      },
+      {
+        "id": "inversion-emphasis-m3",
+        "description": "Dùng lẫn cặp từ: dạng chuẩn là hardly/scarcely ... when và no sooner ... than (dạng lẫn lộn bị coi là không chuẩn).",
+        "examples": [
+          {
+            "wrong": "No sooner had I left when it rained.",
+            "correct": "No sooner had I left than it rained."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@
     "A2",
     "B1"
   ],
-  "order": 19,
+  "order": 22,
   "category": "sentence-structure",
   "theory": {
     "usages": [
@@ -23,7 +23,8 @@
             "en": "Emma isn't coming to the party tonight, is she?",
             "vi": "Emma sẽ không đến bữa tiệc tối nay, đúng không?"
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "tag-questions-u2-do-does-did",
@@ -38,7 +39,8 @@
             "en": "The train arrived late again yesterday, didn't it?",
             "vi": "Chuyến tàu lại đến trễ hôm qua, đúng không?"
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "tag-questions-u3-special-cases",
@@ -53,7 +55,8 @@
             "en": "There is a problem with the printer, isn't there?",
             "vi": "Cái máy in đang có vấn đề, đúng không?"
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "tag-questions-u4-negative-words",
@@ -68,7 +71,8 @@
             "en": "Nobody called while I was out, did they?",
             "vi": "Không ai gọi điện lúc tôi ra ngoài, đúng không?"
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "tag-questions-u5-intonation",
@@ -83,7 +87,8 @@
             "en": "This isn't the right bus to the airport, is it?",
             "vi": "Đây không phải xe buýt đi sân bay đúng không? (nói với giọng lên, thực sự không chắc và muốn hỏi)"
           }
-        ]
+        ],
+        "bac": 4
       }
     ],
     "signalWords": [

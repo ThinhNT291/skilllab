@@ -51,6 +51,7 @@ function shared(ex: McqExercise, suffix: string) {
     id: `${ex.id}~${suffix}`,
     language: ex.language,
     level: ex.level,
+    bac: ex.bac,
     topic: ex.topic,
     usageId: ex.usageId,
     tags: ex.tags,

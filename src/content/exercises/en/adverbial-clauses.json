@@ -24,7 +24,8 @@
       "Đúng - 'because' theo sau là mệnh đề đầy đủ 'it was raining heavily' (có chủ ngữ + động từ), diễn tả lý do.",
       "Sai - 'because of' phải theo sau là cụm danh từ, không phải mệnh đề có chủ ngữ và động từ.",
       "Sai - 'so that' diễn tả mục đích, không phù hợp với nghĩa 'vì trời mưa'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adverbial-clauses-002",
@@ -51,7 +52,8 @@
       "Sai - 'despite' mang nghĩa tương phản, không phù hợp.",
       "Đúng - 'since' giới thiệu mệnh đề nêu lý do (đã biết/hiển nhiên), phù hợp ngữ pháp và nghĩa.",
       "Sai - 'in spite of' cũng mang nghĩa tương phản và cần theo sau là danh từ, không phải mệnh đề."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adverbial-clauses-003",
@@ -78,7 +80,8 @@
       "Sai - 'due to' là giới từ, phải theo sau là cụm danh từ, không phải mệnh đề 'she had worked...'.",
       "Sai - 'so as to' dùng với động từ nguyên mẫu để diễn tả mục đích, không phù hợp cấu trúc ở đây.",
       "Đúng - 'as' giới thiệu mệnh đề nêu lý do, phù hợp cả về ngữ pháp (theo sau là mệnh đề đầy đủ) và nghĩa."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adverbial-clauses-004",
@@ -105,7 +108,8 @@
       "Đúng - 'because' giới thiệu mệnh đề nêu lý do chính, phù hợp nghĩa 'vì anh ấy lo lắng về kết quả thi'.",
       "Sai - 'due to' cần cụm danh từ theo sau, ở đây là mệnh đề 'he was worried...'.",
       "Sai - 'although' mang nghĩa tương phản (mặc dù), không đúng nghĩa nguyên nhân cần thiết."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adverbial-clauses-005",
@@ -132,7 +136,8 @@
       "Sai - 'despite' mang nghĩa tương phản, không đúng nghĩa nhân quả trong câu.",
       "Sai - 'so that' diễn tả mục đích, không phù hợp ở vị trí đầu câu nêu lý do này.",
       "Đúng - 'since' mở đầu câu để nêu một lý do đã biết/hiển nhiên, theo sau là mệnh đề đầy đủ 'prices have risen...'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adverbial-clauses-006",
@@ -159,7 +164,8 @@
       "Sai - 'since' cũng cần theo sau là mệnh đề, không phù hợp với cụm danh từ.",
       "Sai - 'as' tương tự cần một mệnh đề theo sau, không phù hợp cấu trúc câu này.",
       "Đúng - 'because of' là giới từ, theo sau đúng bởi cụm danh từ 'the heavy storm'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-007",
@@ -186,7 +192,8 @@
       "Đúng - 'due to' là giới từ trang trọng nêu lý do, theo sau bởi cụm danh từ 'bad weather conditions'.",
       "Sai - 'although' mang nghĩa tương phản, không phù hợp với nguyên nhân trễ chuyến bay.",
       "Sai - 'even though' mang nghĩa tương phản mạnh, không phù hợp nghĩa nguyên nhân."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-008",
@@ -213,7 +220,8 @@
       "Đúng - 'owing to' là giới từ trang trọng, theo sau đúng bởi cụm danh từ nêu lý do.",
       "Sai - 'although' mang nghĩa tương phản, không phù hợp.",
       "Sai - 'because' cần theo sau là mệnh đề S+V, không phải cụm danh từ 'a sudden increase...'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-009",
@@ -240,7 +248,8 @@
       "Đúng - theo sau 'because of' là cụm danh từ 'the sudden drop in temperature', đúng cấu trúc và nghĩa.",
       "Sai - 'because' cần một mệnh đề đầy đủ (S+V) theo sau, không phải cụm danh từ.",
       "Sai - 'so that' diễn tả mục đích, không đúng nghĩa."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-010",
@@ -267,7 +276,8 @@
       "Sai - 'as' cần theo sau là mệnh đề, không phải cụm danh từ như ở đây.",
       "Đúng - 'due to' là giới từ nêu nguyên nhân, phù hợp với cụm danh từ theo sau.",
       "Sai - 'even though' mang nghĩa tương phản, không phù hợp nghĩa nhân quả."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-011",
@@ -294,7 +304,8 @@
       "Sai - 'due to' diễn tả nguyên nhân và cần cụm danh từ, không phù hợp.",
       "Đúng - 'although' giới thiệu mệnh đề tương phản, đúng cấu trúc và nghĩa 'mặc dù bài thi rất khó'.",
       "Sai - 'despite' cần theo sau là cụm danh từ, không phải mệnh đề 'the exam was extremely difficult'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-012",
@@ -321,7 +332,8 @@
       "Sai - 'because of' diễn tả nguyên nhân và cần cụm danh từ, không phù hợp.",
       "Sai - 'in spite of' cần theo sau là cụm danh từ, không phải mệnh đề 'it was raining outside'.",
       "Sai - 'so that' diễn tả mục đích, không đúng nghĩa."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-013",
@@ -348,7 +360,8 @@
       "Sai - 'so that' diễn tả mục đích, không đúng.",
       "Đúng - 'though' (giống 'although') giới thiệu mệnh đề tương phản, theo sau là mệnh đề đầy đủ 'Mai had studied...'.",
       "Sai - 'despite' cần theo sau là cụm danh từ, không phải mệnh đề."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-014",
@@ -375,7 +388,8 @@
       "Sai - 'despite' cần cụm danh từ theo sau, không phải mệnh đề 'their mother had told them...'.",
       "Sai - 'due to' diễn tả nguyên nhân và cần cụm danh từ.",
       "Đúng - 'although' giới thiệu mệnh đề tương phản, phù hợp nghĩa 'mặc dù mẹ đã bảo chúng vào nhà'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-015",
@@ -402,7 +416,8 @@
       "Sai - 'owing to' diễn tả nguyên nhân, không phù hợp nghĩa tương phản.",
       "Đúng - 'even though' giới thiệu mệnh đề tương phản mạnh, phù hợp với mệnh đề 'the company faced...'.",
       "Sai - 'in spite of' cần theo sau là cụm danh từ, không phải mệnh đề đầy đủ."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-016",
@@ -429,7 +444,8 @@
       "Sai - 'although' cần theo sau là mệnh đề S+V, không phải cụm danh từ 'the bad weather'.",
       "Sai - 'though' cũng cần theo sau là mệnh đề, không phù hợp cụm danh từ.",
       "Sai - 'because' diễn tả nguyên nhân, không phù hợp nghĩa tương phản."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-017",
@@ -456,7 +472,8 @@
       "Sai - 'although' cần theo sau là mệnh đề có chủ ngữ và động từ chia, không phải 'having'.",
       "Đúng - 'in spite of' theo sau bởi danh động từ 'having', đúng cấu trúc cụm từ tương phản.",
       "Sai - 'because' diễn tả nguyên nhân, không phù hợp nghĩa."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-018",
@@ -483,7 +500,8 @@
       "Sai - 'because of' diễn tả nguyên nhân, không phù hợp nghĩa 'mặc dù đã chuẩn bị kỹ'.",
       "Sai - 'so that' diễn tả mục đích, không đúng nghĩa.",
       "Đúng - 'despite' là giới từ tương phản, theo sau đúng bởi cụm danh từ 'their careful preparation'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-019",
@@ -510,7 +528,8 @@
       "Đúng - 'despite the fact that + mệnh đề' là cách dùng 'despite' khi muốn theo sau là một mệnh đề đầy đủ, thay vì cụm danh từ.",
       "Sai - 'as' diễn tả nguyên nhân, không phù hợp nghĩa tương phản.",
       "Sai - 'although' thường theo sau trực tiếp bởi mệnh đề, không cần thêm cụm 'the fact that' đã cho sẵn trong đề."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-020",
@@ -537,7 +556,8 @@
       "Sai - 'even though' cũng cần theo sau là mệnh đề, không phù hợp với 'losing'.",
       "Sai - 'because' diễn tả nguyên nhân, không phù hợp nghĩa.",
       "Sai - 'although' cần theo sau là mệnh đề có chủ ngữ và động từ chia, không phải 'losing'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-021",
@@ -564,7 +584,8 @@
       "Sai - 'in order to' tương tự cần động từ nguyên mẫu, không phù hợp cấu trúc mệnh đề ở đây.",
       "Sai - 'to' theo sau là động từ nguyên mẫu, không thể mang modal phủ định 'wouldn't' theo cấu trúc này.",
       "Sai - 'so as to' cũng theo sau là động từ nguyên mẫu, không phù hợp với mệnh đề có modal."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-022",
@@ -591,7 +612,8 @@
       "Sai - 'in order that' cũng cần theo sau là mệnh đề, không phù hợp với 'catch'.",
       "Sai - 'such that' không phải cấu trúc diễn tả mục đích, mà liên quan đến kết quả và cần dùng khác.",
       "Sai - 'so that' cần theo sau là một mệnh đề có chủ ngữ và động từ, không phải động từ nguyên mẫu 'catch'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-023",
@@ -618,7 +640,8 @@
       "Sai - 'so as to' cũng cần chủ ngữ giống nhau và theo sau là động từ nguyên mẫu, không phù hợp.",
       "Đúng - 'so that' theo sau bởi mệnh đề có chủ ngữ khác 'everyone could understand', phù hợp khi hai mệnh đề có chủ ngữ khác nhau.",
       "Sai - 'despite' diễn tả tương phản, không liên quan đến mục đích."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-024",
@@ -645,7 +668,8 @@
       "Sai - 'so as to' cũng cần động từ nguyên mẫu, không phù hợp.",
       "Sai - 'in order to' tương tự cần động từ nguyên mẫu, không phù hợp cấu trúc câu.",
       "Sai - 'to' theo sau là động từ nguyên mẫu, không phù hợp với mệnh đề có modal 'wouldn't'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-025",
@@ -672,7 +696,8 @@
       "Sai - 'in order that' cũng cần theo sau là mệnh đề, không phù hợp với 'discourage' ở đây.",
       "Sai - 'such that' là cấu trúc kết quả, không dùng để diễn tả mục đích.",
       "Sai - 'so that' cần theo sau là mệnh đề có chủ ngữ và động từ, không phải động từ nguyên mẫu 'discourage'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-026",
@@ -699,7 +724,8 @@
       "Đúng - 'so' đứng trực tiếp trước tính từ 'boring', đúng cấu trúc 'so + adj + that' diễn tả kết quả.",
       "Sai - 'such' phải theo sau bởi một cụm danh từ (such a/an + adj + N), không thể đứng trực tiếp trước tính từ 'boring' mà không có danh từ.",
       "Sai - 'very' chỉ mức độ đơn thuần, không tạo được mệnh đề kết quả với 'that'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-027",
@@ -726,7 +752,8 @@
       "Đúng - 'such a' + tính từ + danh từ số ít là cấu trúc đúng để diễn tả kết quả với cụm danh từ có mạo từ.",
       "Sai - 'so' không thể đứng trực tiếp trước cụm danh từ 'difficult exam' có mạo từ; 'so' chỉ đứng trước tính từ/trạng từ đơn thuần.",
       "Sai - 'such' đứng một mình không đủ, cần thêm mạo từ 'a' trước danh từ số ít đếm được 'exam'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-028",
@@ -753,7 +780,8 @@
       "Sai - 'so many' dùng cho danh từ ĐẾM ĐƯỢC số nhiều, nhưng 'traffic' là danh từ KHÔNG đếm được nên không thể dùng 'many'; đúng phải dùng 'such'.",
       "Sai - 'such a' dùng mạo từ 'a' nhưng 'traffic' là danh từ không đếm được, không đi với mạo từ 'a'.",
       "Sai - 'so' chỉ đứng trước tính từ/trạng từ đơn thuần, không thể đứng trực tiếp trước cụm 'heavy traffic' (tính từ + danh từ)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-029",
@@ -780,7 +808,8 @@
       "Sai - 'such' phải theo sau là cụm danh từ, không thể đứng trước trạng từ 'quietly'.",
       "Sai - 'such a' cũng cần theo sau là danh từ, không phù hợp với trạng từ.",
       "Đúng - 'so' đứng trực tiếp trước trạng từ 'quietly', đúng cấu trúc 'so + adv + that' diễn tả kết quả."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adverbial-clauses-030",
@@ -807,6 +836,7 @@
       "Sai - 'such a' dùng với danh từ số ít đếm được, không phù hợp với danh từ số nhiều 'problems'.",
       "Sai - 'such' cần theo sau bởi tính từ + danh từ, nhưng với 'many/much' ta dùng 'so many/so much' chứ không phải 'such many'.",
       "Đúng - 'so many' là cấu trúc ngoại lệ đúng khi đi với danh từ đếm được số nhiều để diễn tả kết quả."
-    ]
+    ],
+    "bac": 3
   }
 ]

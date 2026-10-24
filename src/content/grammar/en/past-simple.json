@@ -22,7 +22,8 @@
             "en": "Our company launched this product in 2019.",
             "vi": "Công ty chúng tôi đã ra mắt sản phẩm này vào năm 2019."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "past-u2-sequence-of-actions",
@@ -37,7 +38,8 @@
             "en": "She grabbed her umbrella, locked the front door, and hurried to catch the bus.",
             "vi": "Cô ấy cầm lấy chiếc ô, khóa cửa trước, rồi vội vã chạy đi bắt xe buýt."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "past-u3-habit-state",
@@ -52,7 +54,8 @@
             "en": "My grandfather smoked two packs of cigarettes a day when he was young.",
             "vi": "Hồi trẻ, ông tôi hút hai gói thuốc lá mỗi ngày."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "past-u4-to-be-past",
@@ -67,7 +70,8 @@
             "en": "My classmates were very excited before the final exam results came out.",
             "vi": "Các bạn cùng lớp tôi rất hào hứng trước khi kết quả thi cuối kỳ được công bố."
           }
-        ]
+        ],
+        "bac": 1
       },
       {
         "id": "past-u5-definite-time-marker",
@@ -82,7 +86,44 @@
             "en": "They moved to this apartment last March.",
             "vi": "Họ đã chuyển đến căn hộ này vào tháng Ba năm ngoái."
           }
-        ]
+        ],
+        "bac": 3
+      },
+      {
+        "id": "past-u6-negatives-questions",
+        "label": "Câu phủ định và câu hỏi ở quá khứ đơn: did/didn't + động từ nguyên thể",
+        "explanationVi": "Với động từ thường, câu phủ định dùng 'didn't' và câu hỏi dùng 'Did' đứng trước chủ ngữ; động từ chính luôn ở dạng nguyên thể vì 'did' đã mang nghĩa quá khứ. Câu hỏi có từ để hỏi: Wh- + did + chủ ngữ + V (What time did the bus leave?). Trả lời ngắn dùng lại 'did/didn't' (Yes, I did. / No, I didn't). Riêng khi từ để hỏi chính là chủ ngữ (who, what, which...) thì không dùng 'did': Who called you? Với 'to be' không dùng 'did': Were you late?",
+        "examples": [
+          {
+            "en": "Did your cousin visit you during the holiday?",
+            "vi": "Anh họ của bạn có đến thăm bạn trong kỳ nghỉ không?"
+          },
+          {
+            "en": "We didn't wait for the bus because it was late.",
+            "vi": "Chúng tôi không đợi xe buýt vì nó đến muộn."
+          },
+          {
+            "en": "Who left the lights on?",
+            "vi": "Ai đã để đèn sáng vậy?"
+          }
+        ],
+        "bac": 2
+      },
+      {
+        "id": "past-u7-regular-irregular-forms",
+        "label": "Dạng quá khứ của động từ: quy tắc (-ed, chính tả) và bất quy tắc",
+        "explanationVi": "Động từ có quy tắc thêm -ed: thêm -d nếu tận cùng là -e (like → liked); phụ âm + y đổi y thành i rồi thêm -ed (carry → carried); từ ngắn có một nguyên âm + một phụ âm cuối thì nhân đôi phụ âm (plan → planned). Nhiều động từ thông dụng là bất quy tắc nên phải học thuộc (eat → ate, make → made, take → took, see → saw, build → built, lose → lost, speak → spoke, ride → rode, do → did, come → came, break → broke). Nguyên âm + y thì giữ nguyên y (play → played, stay → stayed); không nhân đôi w, x, y (fix → fixed). Dạng quá khứ phân từ (eaten, taken, seen) không dùng một mình làm động từ chính ở quá khứ đơn.",
+        "examples": [
+          {
+            "en": "The baby smiled when she saw the puppy.",
+            "vi": "Em bé mỉm cười khi nhìn thấy chú cún con."
+          },
+          {
+            "en": "He dropped his phone and broke the screen.",
+            "vi": "Cậu ấy làm rơi điện thoại và làm vỡ màn hình."
+          }
+        ],
+        "bac": 2
       }
     ],
     "signalWords": [

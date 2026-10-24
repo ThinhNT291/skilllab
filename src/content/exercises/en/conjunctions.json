@@ -1,0 +1,842 @@
+[
+  {
+    "id": "en-conjunctions-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u1-coordinating",
+    "tags": [
+      "conj-u1-coordinating"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She is very rich, ______ she is not happy.",
+    "choices": [
+      "so",
+      "but",
+      "or",
+      "because"
+    ],
+    "correctIndex": 1,
+    "explanation": "But nối hai ý tương phản.",
+    "choiceExplanations": [
+      "Sai — 'so': 'so' nêu kết quả, còn hai mệnh đề này tương phản.",
+      "Đúng — hai mệnh đề tương phản nên dùng but.",
+      "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa.",
+      "Sai — 'because': 'because' chỉ nguyên nhân, không hợp nghĩa (giàu mà không vui thì không phải lý do)."
+    ]
+  },
+  {
+    "id": "en-conjunctions-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u1-coordinating",
+    "tags": [
+      "conj-u1-coordinating"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It was raining, ______ we stayed at home.",
+    "choices": [
+      "but",
+      "so",
+      "or",
+      "because"
+    ],
+    "correctIndex": 1,
+    "explanation": "So nối nguyên nhân với kết quả.",
+    "choiceExplanations": [
+      "Sai — 'but': 'but' nêu tương phản, còn ở đây là kết quả.",
+      "Đúng — việc ở nhà là kết quả của trời mưa nên dùng so.",
+      "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa.",
+      "Sai — 'because': 'because' nêu lý do; câu này đã có kết quả 'we stayed at home' nên phải dùng 'so'."
+    ]
+  },
+  {
+    "id": "en-conjunctions-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u1-coordinating",
+    "tags": [
+      "conj-u1-coordinating"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Do you want tea ______ coffee?",
+    "choices": [
+      "so",
+      "but",
+      "and",
+      "or"
+    ],
+    "correctIndex": 3,
+    "explanation": "Or nối các lựa chọn.",
+    "choiceExplanations": [
+      "Sai — 'so': 'so' nêu kết quả, không hợp nghĩa.",
+      "Sai — 'but': 'but' nêu tương phản, không hợp nghĩa.",
+      "Sai — 'and': 'and' thêm thông tin, không nêu lựa chọn.",
+      "Đúng — hỏi lựa chọn nên dùng or."
+    ]
+  },
+  {
+    "id": "en-conjunctions-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u2-commas",
+    "tags": [
+      "conj-u2-commas"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence uses the comma correctly before 'so'?",
+    "choices": [
+      "It was late, so, we went home.",
+      "It was late, so we went home.",
+      "It was late so, we went home.",
+      "It was late, we went home."
+    ],
+    "correctIndex": 1,
+    "explanation": "Hai mệnh đề độc lập: dấu phẩy + liên từ.",
+    "choiceExplanations": [
+      "Sai — 'It was late, so, we went home.': không đặt thêm dấu phẩy sau liên từ 'so'.",
+      "Đúng — dấu phẩy đứng trước liên từ so, nối hai mệnh đề độc lập.",
+      "Sai — 'It was late so, we went home.': dấu phẩy phải đứng trước liên từ 'so', không đứng sau.",
+      "Sai — 'It was late, we went home.': chỉ dùng dấu phẩy để nối hai mệnh đề (comma splice); cần thêm liên từ như so."
+    ]
+  },
+  {
+    "id": "en-conjunctions-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u3-correlative",
+    "tags": [
+      "conj-u3-correlative"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She speaks ______ English and French.",
+    "choices": [
+      "either",
+      "neither",
+      "both",
+      "each"
+    ],
+    "correctIndex": 2,
+    "explanation": "both ... and",
+    "choiceExplanations": [
+      "Sai — 'either': 'either' đi với 'or', không đi với 'and'.",
+      "Sai — 'neither': 'neither' đi với 'nor' và mang nghĩa phủ định.",
+      "Đúng — 'both ... and' nghĩa là cả hai.",
+      "Sai — 'each': 'each' không tạo cặp với 'and' trong cấu trúc này."
+    ]
+  },
+  {
+    "id": "en-conjunctions-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u3-correlative",
+    "tags": [
+      "conj-u3-correlative"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You can have ______ the red one or the blue one.",
+    "choices": [
+      "both",
+      "neither",
+      "either",
+      "all"
+    ],
+    "correctIndex": 2,
+    "explanation": "either ... or",
+    "choiceExplanations": [
+      "Sai — 'both': 'both' đi với 'and', không đi với 'or'.",
+      "Sai — 'neither': 'neither' đi với 'nor' và mang nghĩa phủ định.",
+      "Đúng — 'either ... or' nghĩa là một trong hai.",
+      "Sai — 'all': 'all' không tạo cặp với 'or' trong cấu trúc này."
+    ]
+  },
+  {
+    "id": "en-conjunctions-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u3-correlative",
+    "tags": [
+      "conj-u3-correlative"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He likes ______ swimming nor running.",
+    "choices": [
+      "neither",
+      "both",
+      "either",
+      "not"
+    ],
+    "correctIndex": 0,
+    "explanation": "neither ... nor",
+    "choiceExplanations": [
+      "Đúng — 'neither ... nor' nghĩa là không cái nào.",
+      "Sai — 'both': 'both' đi với 'and', không đi với 'nor'.",
+      "Sai — 'either': 'either' đi với 'or', không đi với 'nor'.",
+      "Sai — 'not': 'not ... nor' không phải một cặp liên từ chuẩn; dùng neither ... nor."
+    ]
+  },
+  {
+    "id": "en-conjunctions-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u4-agreement",
+    "tags": [
+      "conj-u4-agreement"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Both Anna and Ben ______ here.",
+    "choices": [
+      "am",
+      "are",
+      "is",
+      "be"
+    ],
+    "correctIndex": 1,
+    "explanation": "both ... and + động từ số nhiều.",
+    "choiceExplanations": [
+      "Sai — 'am': 'am' chỉ dùng với chủ ngữ I.",
+      "Đúng — 'both ... and' có chủ ngữ số nhiều nên dùng are.",
+      "Sai — 'is': 'both ... and' tạo chủ ngữ số nhiều nên không dùng is.",
+      "Sai — 'be': 'be' không chia theo chủ ngữ trong câu hiện tại này."
+    ]
+  },
+  {
+    "id": "en-conjunctions-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u5-parallel",
+    "tags": [
+      "conj-u5-parallel"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She likes swimming and ______.",
+    "choices": [
+      "dance",
+      "danced",
+      "to dance",
+      "dancing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Các mục nối bằng and phải cùng dạng.",
+    "choiceExplanations": [
+      "Sai — 'dance': 'dance' (nguyên thể) không song song với 'swimming' (V-ing).",
+      "Sai — 'danced': 'danced' (quá khứ) không song song với 'swimming' (V-ing).",
+      "Sai — 'to dance': 'to dance' thường không song song với 'swimming' (V-ing); dạng chuẩn là dancing.",
+      "Đúng — cần song song với 'swimming' (V-ing): dancing."
+    ]
+  },
+  {
+    "id": "en-conjunctions-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u5-parallel",
+    "tags": [
+      "conj-u5-parallel"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which list of activities is written in parallel form?",
+    "choices": [
+      "I like to read, writing, and drawing.",
+      "I like reading, writing, and to draw.",
+      "I like reading, to write, and drawing.",
+      "I like reading, writing, and drawing."
+    ],
+    "correctIndex": 3,
+    "explanation": "Các mục trong một danh sách phải cùng dạng.",
+    "choiceExplanations": [
+      "Sai — 'I like to read, writing, and drawing.': 'to read' không song song với writing, drawing (V-ing).",
+      "Sai — 'I like reading, writing, and to draw.': 'to draw' không song song với reading, writing (V-ing).",
+      "Sai — 'I like reading, to write, and drawing.': 'to write' không song song với reading, drawing (V-ing).",
+      "Đúng — cả ba mục đều ở dạng V-ing."
+    ]
+  },
+  {
+    "id": "en-conjunctions-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u1-coordinating",
+    "tags": [
+      "conj-u1-coordinating"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He studied hard, ______ he failed the exam.",
+    "choices": [
+      "or",
+      "so",
+      "yet",
+      "for"
+    ],
+    "correctIndex": 2,
+    "explanation": "Yet nối hai ý tương phản bất ngờ. (Lưu ý: 'but' cũng đúng, chỉ không có trong lựa chọn.)",
+    "choiceExplanations": [
+      "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa.",
+      "Sai — 'so': 'so' nêu kết quả hợp lý, còn ở đây kết quả bất ngờ.",
+      "Đúng — kết quả bất ngờ trái với mong đợi nên dùng yet (gần nghĩa với but).",
+      "Sai — 'for': 'for' nêu lý do, không hợp nghĩa ở đây."
+    ]
+  },
+  {
+    "id": "en-conjunctions-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u1-coordinating",
+    "tags": [
+      "conj-u1-coordinating"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I forgot my umbrella, ______ I got wet.",
+    "choices": [
+      "but",
+      "so",
+      "or",
+      "because"
+    ],
+    "correctIndex": 1,
+    "explanation": "So nối nguyên nhân với kết quả.",
+    "choiceExplanations": [
+      "Sai — 'but': 'but' nêu tương phản, không hợp nghĩa.",
+      "Đúng — bị ướt là kết quả của việc quên ô nên dùng so.",
+      "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa.",
+      "Sai — 'because': 'because' nêu nguyên nhân; ở đây vế sau là kết quả."
+    ]
+  },
+  {
+    "id": "en-conjunctions-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u2-commas",
+    "tags": [
+      "conj-u2-commas"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence has a comma splice?",
+    "choices": [
+      "The shop was closed, so we went home.",
+      "The shop was closed. We went home.",
+      "The shop was closed, we went home.",
+      "The shop was closed, and we went home."
+    ],
+    "correctIndex": 2,
+    "explanation": "Hai mệnh đề độc lập cần liên từ hoặc dấu chấm.",
+    "choiceExplanations": [
+      "Sai — 'The shop was closed, so we went home.': câu này đúng (có liên từ so) nên không phải đáp án cần chọn.",
+      "Sai — 'The shop was closed. We went home.': câu này đúng (tách thành hai câu) nên không phải đáp án cần chọn.",
+      "Đúng — hai mệnh đề độc lập chỉ nối bằng dấu phẩy (thiếu liên từ).",
+      "Sai — 'The shop was closed, and we went home.': câu này đúng (có liên từ and) nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-conjunctions-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u2-commas",
+    "tags": [
+      "conj-u2-commas"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence about punctuation.",
+    "choices": [
+      "I called her, but, she didn't answer.",
+      "I called her but, she didn't answer.",
+      "I called her, she didn't answer.",
+      "I called her, but she didn't answer."
+    ],
+    "correctIndex": 3,
+    "explanation": "Dấu phẩy + liên từ + mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'I called her, but, she didn't answer.': không đặt thêm dấu phẩy sau liên từ 'but'.",
+      "Sai — 'I called her but, she didn't answer.': dấu phẩy phải đứng trước liên từ 'but', không đứng sau.",
+      "Sai — 'I called her, she didn't answer.': chỉ dùng dấu phẩy để nối hai mệnh đề (comma splice); cần thêm liên từ.",
+      "Đúng — dấu phẩy đứng trước liên từ but."
+    ]
+  },
+  {
+    "id": "en-conjunctions-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u3-correlative",
+    "tags": [
+      "conj-u3-correlative"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You can ______ stay here or come with us.",
+    "choices": [
+      "both",
+      "either",
+      "neither",
+      "whether"
+    ],
+    "correctIndex": 1,
+    "explanation": "either ... or",
+    "choiceExplanations": [
+      "Sai — 'both': 'both' đi với 'and', không đi với 'or'.",
+      "Đúng — 'either ... or' nghĩa là một trong hai.",
+      "Sai — 'neither': 'neither' đi với 'nor' và mang nghĩa phủ định.",
+      "Sai — 'whether': 'whether' dùng để nói 'liệu có', không thay được 'either' ở đây."
+    ]
+  },
+  {
+    "id": "en-conjunctions-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u3-correlative",
+    "tags": [
+      "conj-u3-correlative"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I don't know ______ he will come or not.",
+    "choices": [
+      "neither",
+      "both",
+      "either",
+      "whether"
+    ],
+    "correctIndex": 3,
+    "explanation": "whether ... or (not) dùng cho câu gián tiếp.",
+    "choiceExplanations": [
+      "Sai — 'neither': 'neither' đi với 'nor' và mang nghĩa phủ định.",
+      "Sai — 'both': 'both' đi với 'and', không dùng ở đây.",
+      "Sai — 'either': 'either' đi với 'or' để nêu lựa chọn, không dùng để nói 'liệu có'.",
+      "Đúng — 'whether ... or not' nghĩa là liệu có ... hay không."
+    ]
+  },
+  {
+    "id": "en-conjunctions-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u4-agreement",
+    "tags": [
+      "conj-u4-agreement"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Either the teacher or the students ______ responsible.",
+    "choices": [
+      "am",
+      "be",
+      "are",
+      "is"
+    ],
+    "correctIndex": 2,
+    "explanation": "either ... or: chia theo chủ ngữ gần nhất.",
+    "choiceExplanations": [
+      "Sai — 'am': 'am' chỉ dùng với chủ ngữ I.",
+      "Sai — 'be': 'be' không chia theo chủ ngữ trong câu hiện tại này.",
+      "Đúng — động từ chia theo chủ ngữ gần nhất 'the students' (số nhiều): are.",
+      "Sai — 'is': chủ ngữ gần động từ nhất là 'the students' (số nhiều) nên không dùng is."
+    ]
+  },
+  {
+    "id": "en-conjunctions-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u4-agreement",
+    "tags": [
+      "conj-u4-agreement"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Neither the students nor the teacher ______ ready.",
+    "choices": [
+      "is",
+      "are",
+      "be",
+      "am"
+    ],
+    "correctIndex": 0,
+    "explanation": "neither ... nor: chia theo chủ ngữ gần nhất.",
+    "choiceExplanations": [
+      "Đúng — động từ chia theo chủ ngữ gần nhất 'the teacher' (số ít): is.",
+      "Sai — 'are': chủ ngữ gần động từ nhất là 'the teacher' (số ít) nên không dùng are.",
+      "Sai — 'be': 'be' không chia theo chủ ngữ trong câu hiện tại này.",
+      "Sai — 'am': 'am' chỉ dùng với chủ ngữ I."
+    ]
+  },
+  {
+    "id": "en-conjunctions-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u5-parallel",
+    "tags": [
+      "conj-u5-parallel"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She is smart, funny, and ______.",
+    "choices": [
+      "kind",
+      "kindly",
+      "kindness",
+      "being kind"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tính từ nối với tính từ.",
+    "choiceExplanations": [
+      "Đúng — cần tính từ song song với smart, funny: kind.",
+      "Sai — 'kindly': 'kindly' là trạng từ, không song song với các tính từ smart, funny.",
+      "Sai — 'kindness': 'kindness' là danh từ, không song song với các tính từ smart, funny.",
+      "Sai — 'being kind': 'being kind' là cụm V-ing, không song song với các tính từ smart, funny."
+    ]
+  },
+  {
+    "id": "en-conjunctions-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u5-parallel",
+    "tags": [
+      "conj-u5-parallel"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "To succeed, you must work hard, stay focused, and ______.",
+    "choices": [
+      "never gave up",
+      "to never give up",
+      "never giving up",
+      "never give up"
+    ],
+    "correctIndex": 3,
+    "explanation": "Các động từ sau must đều ở nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'never gave up': 'gave' (quá khứ) không song song với work, stay (nguyên thể).",
+      "Sai — 'to never give up': 'to never give up' không song song với work, stay (nguyên thể không có to).",
+      "Sai — 'never giving up': 'giving' (V-ing) không song song với work, stay (nguyên thể) sau 'must'.",
+      "Đúng — sau 'must' các động từ phải ở dạng nguyên thể: work, stay, never give up."
+    ]
+  },
+  {
+    "id": "en-conjunctions-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u1-coordinating",
+    "tags": [
+      "conj-u1-coordinating"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Lan wanted to join the club, ______ she was too shy to sign up.",
+    "choices": [
+      "but",
+      "so",
+      "or",
+      "and"
+    ],
+    "correctIndex": 0,
+    "explanation": "But nối hai ý tương phản.",
+    "choiceExplanations": [
+      "Đúng — hai ý tương phản (muốn tham gia nhưng quá ngại) nên dùng but. (Lưu ý: 'yet' cũng đúng, chỉ không có trong lựa chọn.)",
+      "Sai — 'so': 'so' nêu kết quả, còn ở đây là tương phản.",
+      "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa.",
+      "Sai — 'and': 'and' chỉ thêm thông tin, không nêu sự tương phản."
+    ]
+  },
+  {
+    "id": "en-conjunctions-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u2-commas",
+    "tags": [
+      "conj-u2-commas"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence is a run-on sentence (two clauses with no conjunction or punctuation)?",
+    "choices": [
+      "It started to rain. We ran inside.",
+      "It started to rain we ran inside.",
+      "It started to rain, and we ran inside.",
+      "It started to rain, so we ran inside."
+    ],
+    "correctIndex": 1,
+    "explanation": "Hai mệnh đề cần dấu chấm hoặc liên từ.",
+    "choiceExplanations": [
+      "Sai — 'It started to rain. We ran inside.': câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — hai mệnh đề liền nhau không có dấu câu hay liên từ.",
+      "Sai — 'It started to rain, and we ran inside.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'It started to rain, so we ran inside.': câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-conjunctions-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u2-commas",
+    "tags": [
+      "conj-u2-commas"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence puts the comma in the right place before 'or'?",
+    "choices": [
+      "We can eat here, or we can order takeout.",
+      "We can eat here or, we can order takeout.",
+      "We can eat here, or, we can order takeout.",
+      "We can eat here or we can, order takeout."
+    ],
+    "correctIndex": 0,
+    "explanation": "Dấu phẩy + liên từ + mệnh đề.",
+    "choiceExplanations": [
+      "Đúng — dấu phẩy đứng trước liên từ or, nối hai mệnh đề độc lập.",
+      "Sai — 'We can eat here or, we can order takeout.': dấu phẩy phải đứng trước liên từ 'or', không đứng sau.",
+      "Sai — 'We can eat here, or, we can order takeout.': không đặt thêm dấu phẩy sau liên từ 'or'.",
+      "Sai — 'We can eat here or we can, order takeout.': dấu phẩy đặt giữa 'can' và động từ chính 'order' không hợp lý."
+    ]
+  },
+  {
+    "id": "en-conjunctions-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u2-commas",
+    "tags": [
+      "conj-u2-commas"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence needs NO comma before 'and'?",
+    "choices": [
+      "I bought apples, and I bought oranges.",
+      "I was tired, so I went to bed.",
+      "I bought apples and oranges.",
+      "I called her, but she didn't answer."
+    ],
+    "correctIndex": 2,
+    "explanation": "Chỉ cần dấu phẩy khi nối hai mệnh đề độc lập.",
+    "choiceExplanations": [
+      "Sai — 'I bought apples, and I bought oranges.': hai mệnh đề độc lập có thể dùng dấu phẩy trước 'and' nên câu này không phải đáp án cần chọn.",
+      "Sai — 'I was tired, so I went to bed.': hai mệnh đề độc lập có dấu phẩy trước 'so' nên câu này không phải đáp án cần chọn.",
+      "Đúng — 'and' chỉ nối hai danh từ (không phải hai mệnh đề) nên không cần dấu phẩy.",
+      "Sai — 'I called her, but she didn't answer.': hai mệnh đề độc lập có dấu phẩy trước 'but' nên câu này không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-conjunctions-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u3-correlative",
+    "tags": [
+      "conj-u3-correlative"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence uses not only ... but also correctly?",
+    "choices": [
+      "She is not only clever but also is hard-working.",
+      "She is not only clever or also hard-working.",
+      "She is not only clever but also hard-working.",
+      "She is not only clever but and hard-working."
+    ],
+    "correctIndex": 2,
+    "explanation": "not only A but also B với A, B cùng dạng.",
+    "choiceExplanations": [
+      "Sai — 'She is not only clever but also is hard-working.': vẫn hiểu được nhưng hai vế không song song (clever / is hard-working), nên nghe lủng củng.",
+      "Sai — 'She is not only clever or also hard-working.': 'or also' không tạo cặp; dùng 'but also'.",
+      "Đúng — đúng cặp not only ... but also, hai tính từ song song.",
+      "Sai — 'She is not only clever but and hard-working.': 'but and' không tạo cặp; dùng 'but also'."
+    ]
+  },
+  {
+    "id": "en-conjunctions-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u4-agreement",
+    "tags": [
+      "conj-u4-agreement"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Not only the students but also the teacher ______ tired today.",
+    "choices": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "correctIndex": 0,
+    "explanation": "not only ... but also: chia theo chủ ngữ gần nhất.",
+    "choiceExplanations": [
+      "Đúng — động từ chia theo chủ ngữ gần nhất 'the teacher' (số ít): is.",
+      "Sai — 'am': 'am' chỉ dùng với chủ ngữ I.",
+      "Sai — 'are': chủ ngữ gần động từ nhất là 'the teacher' (số ít) nên không dùng are.",
+      "Sai — 'be': 'be' không chia theo chủ ngữ trong câu hiện tại này."
+    ]
+  },
+  {
+    "id": "en-conjunctions-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u4-agreement",
+    "tags": [
+      "conj-u4-agreement"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Either my parents or my sister ______ picking me up.",
+    "choices": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "correctIndex": 0,
+    "explanation": "either ... or: chia theo chủ ngữ gần nhất.",
+    "choiceExplanations": [
+      "Đúng — động từ chia theo chủ ngữ gần nhất 'my sister' (số ít): is.",
+      "Sai — 'am': 'am' chỉ dùng với chủ ngữ I.",
+      "Sai — 'are': chủ ngữ gần động từ nhất là 'my sister' (số ít) nên không dùng are.",
+      "Sai — 'be': 'be' không chia theo chủ ngữ trong câu hiện tại này."
+    ]
+  },
+  {
+    "id": "en-conjunctions-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u4-agreement",
+    "tags": [
+      "conj-u4-agreement"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence has a wrong verb after neither ... nor?",
+    "choices": [
+      "Neither Lan nor her friends is hungry.",
+      "Neither Lan nor her brother is hungry.",
+      "Either Tom or Anna is coming.",
+      "Both Tom and Anna are coming."
+    ],
+    "correctIndex": 0,
+    "explanation": "Chọn động từ theo chủ ngữ gần nhất.",
+    "choiceExplanations": [
+      "Đúng — động từ phải chia theo chủ ngữ gần nhất 'her friends' (số nhiều): are.",
+      "Sai — 'Neither Lan nor her brother is hungry.': câu này đúng (gần nhất là 'her brother', số ít) nên không phải đáp án cần chọn.",
+      "Sai — 'Either Tom or Anna is coming.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'Both Tom and Anna are coming.': câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-conjunctions-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u5-parallel",
+    "tags": [
+      "conj-u5-parallel"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence is NOT parallel?",
+    "choices": [
+      "He likes to hike, swim, and play chess.",
+      "He likes to hike, to swim, and to play chess.",
+      "He enjoys hiking, swimming, and playing chess.",
+      "He enjoys hiking, to swim, and playing chess."
+    ],
+    "correctIndex": 3,
+    "explanation": "Các mục nối bằng liên từ phải cùng dạng.",
+    "choiceExplanations": [
+      "Sai — 'He likes to hike, swim, and play chess.': câu này song song nên không phải đáp án cần chọn.",
+      "Sai — 'He likes to hike, to swim, and to play chess.': câu này song song nên không phải đáp án cần chọn.",
+      "Sai — 'He enjoys hiking, swimming, and playing chess.': câu này song song nên không phải đáp án cần chọn.",
+      "Đúng — 'to swim' không song song với hiking, playing (V-ing)."
+    ]
+  },
+  {
+    "id": "en-conjunctions-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u5-parallel",
+    "tags": [
+      "conj-u5-parallel"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our club wants to help students, save energy, and ______ new members.",
+    "choices": [
+      "finding",
+      "find",
+      "found",
+      "finder"
+    ],
+    "correctIndex": 1,
+    "explanation": "Các động từ trong danh sách phải cùng dạng.",
+    "choiceExplanations": [
+      "Sai — 'finding': 'finding' (V-ing) không song song với help, save (nguyên thể).",
+      "Đúng — sau 'wants to' các động từ song song ở nguyên thể: help, save, find. (Lưu ý: 'to find' cũng song song, chỉ không có trong lựa chọn.)",
+      "Sai — 'found': 'found' (quá khứ) không song song với help, save (nguyên thể).",
+      "Sai — 'finder': 'finder' là danh từ, không song song với các động từ help, save."
+    ]
+  }
+]

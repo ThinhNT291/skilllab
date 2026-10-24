@@ -1,0 +1,842 @@
+[
+  {
+    "id": "en-inversion-emphasis-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u2-not-only",
+    "tags": [
+      "inv-u2-not-only"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Not only ______ smart, but she is also very kind.",
+    "choices": [
+      "is she",
+      "she is",
+      "does she",
+      "she does"
+    ],
+    "correctIndex": 0,
+    "explanation": "Not only + be + S, but ... also ...",
+    "choiceExplanations": [
+      "Đúng — 'Not only' mở đầu câu nên đảo 'be' lên trước chủ ngữ: is she.",
+      "Sai — 'she is': sau 'Not only' ở đầu câu phải đảo: động từ be đứng trước chủ ngữ.",
+      "Sai — 'does she': 'be' là động từ chính nên tự đảo, không dùng does.",
+      "Sai — 'she does': không đảo và cũng không dùng does với 'be'."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u2-not-only",
+    "tags": [
+      "inv-u2-not-only"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Not only ______ (he/win) the race, but he also broke the school record.",
+    "choices": [
+      "did he win",
+      "he won",
+      "he did win",
+      "did he won"
+    ],
+    "correctIndex": 0,
+    "explanation": "Not only + did + S + V nguyên thể.",
+    "choiceExplanations": [
+      "Đúng — 'Not only' mở đầu câu: mượn did, đảo trước chủ ngữ, động từ về nguyên thể: did he win.",
+      "Sai — 'he won': sau 'Not only' ở đầu câu phải đảo ngữ.",
+      "Sai — 'he did win': trợ động từ phải đứng trước chủ ngữ: did he win.",
+      "Sai — 'did he won': sau did động từ phải ở dạng nguyên thể (win)."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u2-not-only",
+    "tags": [
+      "inv-u2-not-only"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Not only ______ (my brother/cook), but he also washes the dishes.",
+    "choices": [
+      "my brother does cook",
+      "does my brother cooks",
+      "does my brother cook",
+      "my brother cooks"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hiện tại đơn: Not only + does/do + S + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'my brother does cook': trợ động từ phải đứng trước chủ ngữ: does my brother cook.",
+      "Sai — 'does my brother cooks': sau does động từ phải ở dạng nguyên thể (cook).",
+      "Đúng — 'Not only' mở đầu câu, hiện tại đơn, ngôi thứ ba số ít: does my brother cook.",
+      "Sai — 'my brother cooks': sau 'Not only' ở đầu câu phải đảo ngữ."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u1-negative-adverbials",
+    "tags": [
+      "inv-u1-negative-adverbials"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Never ______ I seen such a beautiful sunset in my life.",
+    "choices": [
+      "am",
+      "do",
+      "did",
+      "have"
+    ],
+    "correctIndex": 3,
+    "explanation": "Never + have + S + V3.",
+    "choiceExplanations": [
+      "Sai — 'am': 'am' không đi với 'seen' để tạo thì hoàn thành.",
+      "Sai — 'do': 'do' đi với động từ nguyên thể, mà ở đây là 'seen'.",
+      "Sai — 'did': 'did' đi với động từ nguyên thể (Never did I see), còn ở đây có 'seen' nên cần have.",
+      "Đúng — 'in my life' đi với hiện tại hoàn thành, nên trợ động từ là have: Never have I seen."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u1-negative-adverbials",
+    "tags": [
+      "inv-u1-negative-adverbials"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Rarely ______ (we/eat) out; we prefer cooking at home.",
+    "choices": [
+      "we eat",
+      "we do eat",
+      "do we eat",
+      "eat we"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rarely + do/does/did + S + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'we eat': sau 'Rarely' ở đầu câu phải đảo ngữ.",
+      "Sai — 'we do eat': trợ động từ phải đứng trước chủ ngữ: do we eat.",
+      "Đúng — 'Rarely' mở đầu câu: do + chủ ngữ + động từ nguyên thể.",
+      "Sai — 'eat we': chủ ngữ phải đứng sau trợ động từ, không phải sau động từ chính."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u5-form-rules",
+    "tags": [
+      "inv-u5-form-rules"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the sentence with correct inversion.",
+    "choices": [
+      "Seldom my sister takes the bus to school.",
+      "Seldom does my sister takes the bus to school.",
+      "Seldom does my sister take the bus to school.",
+      "Seldom my sister does take the bus to school."
+    ],
+    "correctIndex": 2,
+    "explanation": "Trạng từ phủ định + does + S + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'Seldom my sister takes the bus to school.': 'Seldom' ở đầu câu nên phải đảo ngữ.",
+      "Sai — 'Seldom does my sister takes the bus to school.': sau does động từ chính phải ở dạng nguyên thể (take).",
+      "Đúng — đảo does lên trước chủ ngữ, động từ chính nguyên thể.",
+      "Sai — 'Seldom my sister does take the bus to school.': does phải đứng trước chủ ngữ, không đứng sau."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u5-form-rules",
+    "tags": [
+      "inv-u5-form-rules"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Rarely ______ (Tom/go) to the movies these days.",
+    "choices": [
+      "do Tom go",
+      "does Tom go",
+      "Tom goes",
+      "does Tom goes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chủ ngữ số ít dùng does, số nhiều dùng do.",
+    "choiceExplanations": [
+      "Sai — 'do Tom go': 'Tom' là ngôi thứ ba số ít nên dùng does, không dùng do.",
+      "Đúng — 'Tom' là số ít nên dùng does; động từ chính nguyên thể.",
+      "Sai — 'Tom goes': sau 'Rarely' ở đầu câu phải đảo ngữ.",
+      "Sai — 'does Tom goes': sau does động từ chính phải ở dạng nguyên thể (go)."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u5-form-rules",
+    "tags": [
+      "inv-u5-form-rules"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Never ______ (they/be) late for class these days.",
+    "choices": [
+      "they are",
+      "are they",
+      "do they be",
+      "they do be"
+    ],
+    "correctIndex": 1,
+    "explanation": "Với động từ be, đảo be lên trước chủ ngữ, không mượn do/does/did.",
+    "choiceExplanations": [
+      "Sai — 'they are': sau 'Never' ở đầu câu phải đảo ngữ.",
+      "Đúng — câu chỉ có động từ 'be' nên đảo luôn 'be': are they.",
+      "Sai — 'do they be': 'be' tự đảo, không dùng do.",
+      "Sai — 'they do be': 'be' tự đảo, không dùng do."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u3-hardly-no-sooner",
+    "tags": [
+      "inv-u3-hardly-no-sooner"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "No sooner ______ (I/arrive) than it started to rain.",
+    "choices": [
+      "I had arrived",
+      "I arrived",
+      "have I arrived",
+      "had I arrived"
+    ],
+    "correctIndex": 3,
+    "explanation": "No sooner + had + S + V3 + than + quá khứ đơn.",
+    "choiceExplanations": [
+      "Sai — 'I had arrived': sau 'No sooner' ở đầu câu phải đảo had lên trước chủ ngữ.",
+      "Sai — 'I arrived': sau 'No sooner' ở đầu câu phải đảo ngữ và dùng quá khứ hoàn thành (had + V3).",
+      "Sai — 'have I arrived': 'have' nói về hiện tại, trong khi 'started' ở quá khứ.",
+      "Đúng — 'No sooner' đi với quá khứ hoàn thành và đảo had: had I arrived."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u4-only-not-until",
+    "tags": [
+      "inv-u4-only-not-until"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Only after the bell rang ______ the students leave the classroom.",
+    "choices": [
+      "did",
+      "were",
+      "had",
+      "do"
+    ],
+    "correctIndex": 0,
+    "explanation": "Only after + mệnh đề, + trợ động từ + S + V nguyên thể.",
+    "choiceExplanations": [
+      "Đúng — mệnh đề chính sau 'Only after ...' được đảo: did + chủ ngữ + động từ nguyên thể.",
+      "Sai — 'were': 'were' không đi với động từ nguyên thể 'leave' trong cấu trúc này.",
+      "Sai — 'had': sau 'had' động từ phải là V3, mà ở đây là 'leave' (nguyên thể).",
+      "Sai — 'do': 'rang' ở quá khứ và việc rời lớp đã xảy ra nên dùng did."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u1-negative-adverbials",
+    "tags": [
+      "inv-u1-negative-adverbials"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hardly ever ______ (the children/play) outside in this weather.",
+    "choices": [
+      "the children play",
+      "does the children play",
+      "do the children plays",
+      "do the children play"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hardly ever + do/does + S + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'the children play': sau 'Hardly ever' ở đầu câu phải đảo ngữ.",
+      "Sai — 'does the children play': 'the children' là số nhiều nên dùng do, không dùng does.",
+      "Sai — 'do the children plays': sau do động từ phải ở dạng nguyên thể (play).",
+      "Đúng — 'Hardly ever' mở đầu câu: do + chủ ngữ số nhiều + động từ nguyên thể."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u1-negative-adverbials",
+    "tags": [
+      "inv-u1-negative-adverbials"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "At no time last night ______ (the guard/leave) his post.",
+    "choices": [
+      "the guard did leave",
+      "did the guard left",
+      "did the guard leave",
+      "the guard left"
+    ],
+    "correctIndex": 2,
+    "explanation": "At no time + did + S + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'the guard did leave': did phải đứng trước chủ ngữ: did the guard leave.",
+      "Sai — 'did the guard left': sau did động từ phải ở dạng nguyên thể (leave).",
+      "Đúng — 'At no time' mở đầu câu và việc đã xảy ra: did + chủ ngữ + động từ nguyên thể.",
+      "Sai — 'the guard left': sau 'At no time' ở đầu câu phải đảo ngữ."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u2-not-only",
+    "tags": [
+      "inv-u2-not-only"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Not only ______ (the hotel/be) expensive, but the service was also terrible.",
+    "choices": [
+      "the hotel was",
+      "the hotel did be",
+      "did the hotel be",
+      "was the hotel"
+    ],
+    "correctIndex": 3,
+    "explanation": "Not only + was/were + S, but ... also ...",
+    "choiceExplanations": [
+      "Sai — 'the hotel was': sau 'Not only' ở đầu câu phải đảo ngữ.",
+      "Sai — 'the hotel did be': 'be' tự đảo, không dùng did.",
+      "Sai — 'did the hotel be': 'be' tự đảo, không dùng did.",
+      "Đúng — câu chỉ có động từ 'be' nên đảo 'was' lên trước chủ ngữ: was the hotel."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u3-hardly-no-sooner",
+    "tags": [
+      "inv-u3-hardly-no-sooner"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hardly ______ (she/open) the door when the phone rang.",
+    "choices": [
+      "she had opened",
+      "she opened",
+      "has she opened",
+      "had she opened"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hardly + had + S + V3 + when + quá khứ đơn.",
+    "choiceExplanations": [
+      "Sai — 'she had opened': sau 'Hardly' ở đầu câu phải đảo had lên trước chủ ngữ.",
+      "Sai — 'she opened': sau 'Hardly' ở đầu câu phải đảo ngữ và dùng quá khứ hoàn thành.",
+      "Sai — 'has she opened': 'has' nói về hiện tại, còn 'rang' ở quá khứ.",
+      "Đúng — 'Hardly' đi với quá khứ hoàn thành và đảo had: had she opened."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u3-hardly-no-sooner",
+    "tags": [
+      "inv-u3-hardly-no-sooner"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "No sooner had the movie started ______ the power went out.",
+    "choices": [
+      "than",
+      "before",
+      "until",
+      "when"
+    ],
+    "correctIndex": 0,
+    "explanation": "No sooner ... than; Hardly ... when.",
+    "choiceExplanations": [
+      "Đúng — 'No sooner' đi với 'than'.",
+      "Sai — 'before': 'before' không dùng trong cấu trúc này.",
+      "Sai — 'until': 'until' không dùng trong cấu trúc này.",
+      "Sai — 'when': dạng chuẩn của 'no sooner' là 'than'; 'no sooner ... when' vẫn gặp nhưng bị coi là không chuẩn."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u4-only-not-until",
+    "tags": [
+      "inv-u4-only-not-until"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Not until the teacher explained it ______ (I/understand) the rule.",
+    "choices": [
+      "did I understood",
+      "I understood",
+      "I did understand",
+      "did I understand"
+    ],
+    "correctIndex": 3,
+    "explanation": "Not until + mệnh đề, + trợ động từ + S + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'did I understood': sau did động từ phải ở dạng nguyên thể (understand).",
+      "Sai — 'I understood': sau 'Not until + mệnh đề' ở đầu câu, mệnh đề chính phải đảo ngữ.",
+      "Sai — 'I did understand': did phải đứng trước chủ ngữ: did I understand.",
+      "Đúng — 'Not until ...' mở đầu câu nên mệnh đề chính đảo ngữ: did I understand."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u4-only-not-until",
+    "tags": [
+      "inv-u4-only-not-until"
+    ],
+    "difficulty": 2,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Only when you finish your homework ______ (you/can) watch TV.",
+    "choices": [
+      "you can",
+      "can you",
+      "do you can",
+      "can you to"
+    ],
+    "correctIndex": 1,
+    "explanation": "Only when + mệnh đề, + modal + S + V.",
+    "choiceExplanations": [
+      "Sai — 'you can': sau 'Only when + mệnh đề' ở đầu câu, mệnh đề chính phải đảo ngữ.",
+      "Đúng — mệnh đề chính sau 'Only when ...' đảo động từ khuyết thiếu: can you.",
+      "Sai — 'do you can': 'can' là động từ khuyết thiếu, tự đảo, không mượn do.",
+      "Sai — 'can you to': sau can động từ ở dạng nguyên thể, không có 'to'."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u5-form-rules",
+    "tags": [
+      "inv-u5-form-rules"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence about inversion is INCORRECT?",
+    "choices": [
+      "Seldom do we eat out.",
+      "Rarely does he complain.",
+      "Never I have visited such a lovely place.",
+      "Hardly had she left when it rained."
+    ],
+    "correctIndex": 2,
+    "explanation": "Trạng từ phủ định ở đầu câu thì phải đảo ngữ.",
+    "choiceExplanations": [
+      "Không chọn — 'Seldom do we eat out.' câu này đúng nên không phải đáp án cần chọn.",
+      "Không chọn — 'Rarely does he complain.' câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — 'Never' mở đầu câu nên phải đảo have: Never have I visited.",
+      "Không chọn — 'Hardly had she left when it rained.' câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u5-form-rules",
+    "tags": [
+      "inv-u5-form-rules"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence is correct for the future?",
+    "choices": [
+      "Never will I forget this day.",
+      "Never will forget I this day.",
+      "Never I will forget this day.",
+      "Never do I will forget this day."
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu có will thì đảo will lên trước chủ ngữ.",
+    "choiceExplanations": [
+      "Đúng — đảo will lên trước chủ ngữ: Never will I forget.",
+      "Sai — 'Never will forget I this day.': chủ ngữ phải đứng ngay sau will: Never will I forget.",
+      "Sai — 'Never I will forget this day.': 'Never' ở đầu câu nên phải đảo will lên trước chủ ngữ.",
+      "Sai — 'Never do I will forget this day.': không dùng do cùng will; chỉ cần đảo will."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u3-hardly-no-sooner",
+    "tags": [
+      "inv-u3-hardly-no-sooner"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hardly had I closed my eyes ______ the alarm rang.",
+    "choices": [
+      "before",
+      "than",
+      "until",
+      "when"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hardly ... when; No sooner ... than.",
+    "choiceExplanations": [
+      "Sai — 'before': 'before' không dùng trong cấu trúc này.",
+      "Sai — 'than': dạng chuẩn của 'hardly/scarcely' là 'when'; 'than' vẫn gặp nhưng bị coi là không chuẩn, vì 'than' thuộc cấu trúc 'no sooner ... than'.",
+      "Sai — 'until': 'until' không dùng trong cấu trúc này.",
+      "Đúng — 'Hardly' đi với 'when'."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u1-negative-adverbials",
+    "tags": [
+      "inv-u1-negative-adverbials"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Seldom ______ (such a talented singer/appear) on this stage.",
+    "choices": [
+      "does such a talented singer appears",
+      "does such a talented singer appear",
+      "do such a talented singer appear",
+      "such a talented singer appears"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chủ ngữ dài vẫn đứng sau trợ động từ.",
+    "choiceExplanations": [
+      "Sai — 'does such a talented singer appears': sau does động từ phải ở dạng nguyên thể (appear).",
+      "Đúng — 'Seldom' mở đầu câu, chủ ngữ số ít: does + chủ ngữ + động từ nguyên thể.",
+      "Sai — 'do such a talented singer appear': chủ ngữ 'such a talented singer' là số ít nên dùng does.",
+      "Sai — 'such a talented singer appears': sau 'Seldom' ở đầu câu phải đảo ngữ."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u1-negative-adverbials",
+    "tags": [
+      "inv-u1-negative-adverbials"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence contains a mistake?",
+    "choices": [
+      "Hardly ever do we watch TV on weekdays.",
+      "Never has she lied to us.",
+      "Seldom he goes to the gym on weekdays.",
+      "Rarely do they eat dessert."
+    ],
+    "correctIndex": 2,
+    "explanation": "Trạng từ phủ định ở đầu câu thì phải đảo ngữ.",
+    "choiceExplanations": [
+      "Không chọn — 'Hardly ever do we watch TV on weekdays.' câu này đúng nên không phải đáp án cần chọn.",
+      "Không chọn — 'Never has she lied to us.' câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — 'Seldom' ở đầu câu nên phải đảo ngữ: Seldom does he go.",
+      "Không chọn — 'Rarely do they eat dessert.' câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u2-not-only",
+    "tags": [
+      "inv-u2-not-only"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Not only ______ (the students/finish) the project early, but they also presented it brilliantly.",
+    "choices": [
+      "did the students finish",
+      "the students finished",
+      "the students did finish",
+      "did the students finished"
+    ],
+    "correctIndex": 0,
+    "explanation": "Not only + did + S + V nguyên thể.",
+    "choiceExplanations": [
+      "Đúng — 'Not only' mở đầu câu: did + chủ ngữ + động từ nguyên thể.",
+      "Sai — 'the students finished': sau 'Not only' ở đầu câu phải đảo ngữ.",
+      "Sai — 'the students did finish': did phải đứng trước chủ ngữ.",
+      "Sai — 'did the students finished': sau did động từ phải ở dạng nguyên thể (finish)."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u2-not-only",
+    "tags": [
+      "inv-u2-not-only"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence with 'Not only'.",
+    "choices": [
+      "Not only he has written the report, but he has also presented it.",
+      "Not only has he written the report, but he has also presented it.",
+      "Not only did he written the report, but he has also presented it.",
+      "Not only has he wrote the report, but he has also presented it."
+    ],
+    "correctIndex": 1,
+    "explanation": "Not only + have/has + S + V3, but ... also ...",
+    "choiceExplanations": [
+      "Sai — 'Not only he has written the report, but he has also presented it.': sau 'Not only' ở đầu câu phải đảo has lên trước chủ ngữ.",
+      "Đúng — đảo has lên trước chủ ngữ ở mệnh đề đầu; mệnh đề sau giữ trật tự thường.",
+      "Sai — 'Not only did he written the report, but he has also presented it.': sau did động từ phải ở nguyên thể, và 'written' không đi với did.",
+      "Sai — 'Not only has he wrote the report, but he has also presented it.': 'wrote' là quá khứ đơn; sau has phải dùng V3 (written)."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u3-hardly-no-sooner",
+    "tags": [
+      "inv-u3-hardly-no-sooner"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hardly had the show begun ______ the audience started to laugh.",
+    "choices": [
+      "before",
+      "when",
+      "until",
+      "than"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hardly + had + S + V3 + when + quá khứ đơn.",
+    "choiceExplanations": [
+      "Sai — 'before': 'before' không dùng trong cấu trúc này.",
+      "Đúng — 'Hardly' đi với 'when'.",
+      "Sai — 'until': 'until' không dùng trong cấu trúc này.",
+      "Sai — 'than': dạng chuẩn của 'hardly/scarcely' là 'when'; 'than' vẫn gặp nhưng bị coi là không chuẩn, vì 'than' thuộc cấu trúc 'no sooner ... than'."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u3-hardly-no-sooner",
+    "tags": [
+      "inv-u3-hardly-no-sooner"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "No sooner ______ (the teacher/leave) the room than the students began to talk.",
+    "choices": [
+      "had the teacher left",
+      "has the teacher left",
+      "the teacher left",
+      "the teacher had left"
+    ],
+    "correctIndex": 0,
+    "explanation": "No sooner + had + S + V3 + than + quá khứ đơn.",
+    "choiceExplanations": [
+      "Đúng — 'No sooner' đi với quá khứ hoàn thành và đảo had: had the teacher left.",
+      "Sai — 'has the teacher left': 'has' nói về hiện tại, trong khi 'began' ở quá khứ.",
+      "Sai — 'the teacher left': sau 'No sooner' ở đầu câu phải đảo ngữ và dùng quá khứ hoàn thành (had + V3).",
+      "Sai — 'the teacher had left': sau 'No sooner' ở đầu câu phải đảo had lên trước chủ ngữ."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u3-hardly-no-sooner",
+    "tags": [
+      "inv-u3-hardly-no-sooner"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Scarcely ______ (we/sit) down when the waiter brought the menu.",
+    "choices": [
+      "have we sat",
+      "we sat",
+      "had we sat",
+      "we had sat"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hardly và scarcely dùng giống nhau.",
+    "choiceExplanations": [
+      "Sai — 'have we sat': 'have' nói về hiện tại, trong khi 'brought' ở quá khứ.",
+      "Sai — 'we sat': sau 'Scarcely' ở đầu câu phải đảo ngữ và dùng quá khứ hoàn thành (had + V3).",
+      "Đúng — 'Scarcely' giống 'Hardly': had + chủ ngữ + V3 (sat).",
+      "Sai — 'we had sat': sau 'Scarcely' ở đầu câu phải đảo had lên trước chủ ngữ."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u4-only-not-until",
+    "tags": [
+      "inv-u4-only-not-until"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Only by working together ______ (we/can/solve) this problem.",
+    "choices": [
+      "we can solve",
+      "can we solve",
+      "do we can solve",
+      "can we solved"
+    ],
+    "correctIndex": 1,
+    "explanation": "Only by + V-ing, + modal + S + V.",
+    "choiceExplanations": [
+      "Sai — 'we can solve': sau 'Only by working together' ở đầu câu phải đảo ngữ.",
+      "Đúng — 'Only by + V-ing' ở đầu câu nên đảo modal: can we solve.",
+      "Sai — 'do we can solve': 'can' là động từ khuyết thiếu, tự đảo, không mượn do.",
+      "Sai — 'can we solved': sau can động từ ở dạng nguyên thể (solve)."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u4-only-not-until",
+    "tags": [
+      "inv-u4-only-not-until"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence with 'Only when'.",
+    "choices": [
+      "Only when do you finish your homework can you watch TV.",
+      "Only when you finish your homework can you watch TV.",
+      "Only when you finish your homework you can watch TV.",
+      "Only when do you finish your homework you can watch TV."
+    ],
+    "correctIndex": 1,
+    "explanation": "Not until + thời gian, + did + S + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'Only when do you finish your homework can you watch TV.': không đảo ở mệnh đề đi sau 'Only when' (you finish).",
+      "Đúng — chỉ đảo ở mệnh đề chính (can you), không đảo mệnh đề đi sau 'Only when'.",
+      "Sai — 'Only when you finish your homework you can watch TV.': mệnh đề chính phải đảo ngữ: can you watch.",
+      "Sai — 'Only when do you finish your homework you can watch TV.': không đảo ở mệnh đề phụ và phải đảo ở mệnh đề chính."
+    ]
+  },
+  {
+    "id": "en-inversion-emphasis-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "inversion-emphasis",
+    "usageId": "inv-u4-only-not-until",
+    "tags": [
+      "inv-u4-only-not-until"
+    ],
+    "difficulty": 2,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Only if you have a ticket ______ (you/can/enter) the stadium.",
+    "choices": [
+      "can you enter",
+      "you can enter",
+      "do you can enter",
+      "can you to enter"
+    ],
+    "correctIndex": 0,
+    "explanation": "Only if + mệnh đề, + modal + S + V.",
+    "choiceExplanations": [
+      "Đúng — 'Only if + mệnh đề' ở đầu câu nên đảo ở mệnh đề chính: can you enter.",
+      "Sai — 'you can enter': sau 'Only if + mệnh đề' ở đầu câu, mệnh đề chính phải đảo ngữ.",
+      "Sai — 'do you can enter': 'can' là động từ khuyết thiếu, tự đảo, không mượn do.",
+      "Sai — 'can you to enter': sau can động từ ở dạng nguyên thể, không có 'to'."
+    ]
+  }
+]

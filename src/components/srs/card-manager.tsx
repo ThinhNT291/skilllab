@@ -91,7 +91,7 @@ export function CardManager({ topicTitles }: { topicTitles: Record<string, strin
               <p className="mt-1 text-success">
                 Đáp án: <span className="font-extrabold">{c.answer}</span>
               </p>
-              <Link href={`/hoc/${c.topic}${c.usageId ? `#${c.usageId}` : ""}`} className="mt-1 inline-block text-sm text-primary underline underline-offset-4">
+              <Link href={c.topic.startsWith("vocab-") ? `/tu-vung/${c.topic.slice(6)}` : `/hoc/${c.topic}${c.usageId ? `#${c.usageId}` : ""}`} className="mt-1 inline-block text-sm text-primary underline underline-offset-4">
                 Xem lý thuyết
               </Link>
             </li>

@@ -24,7 +24,8 @@
       "Đúng. \"Pen\" đọc bắt đầu bằng âm phụ âm /p/, và đây là lần đầu nhắc tới một cây bút bất kỳ nên dùng \"a\".",
       "Sai. \"The\" dùng khi vật đã được xác định cụ thể, nhưng ở đây là lần đầu nhắc tới một cây bút bất kỳ, chưa ai biết là cây nào.",
       "Sai. \"An\" chỉ dùng trước từ bắt đầu bằng âm nguyên âm, mà \"pen\" bắt đầu bằng âm phụ âm /p/."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-002",
@@ -51,7 +52,8 @@
       "Đúng. \"Engineer\" đọc bắt đầu bằng âm nguyên âm /ɛ/, và đây là lần đầu nhắc tới nghề nghiệp của cô ấy, nên dùng \"an\".",
       "Sai. \"Engineer\" là danh từ đếm được số ít nên bắt buộc phải có mạo từ, không thể bỏ trống.",
       "Sai. \"A\" chỉ dùng trước từ bắt đầu bằng âm phụ âm, mà \"engineer\" bắt đầu bằng âm nguyên âm /ɛ/."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-003",
@@ -78,7 +80,8 @@
       "Sai. \"An\" không phù hợp vì \"shirt\" bắt đầu bằng âm phụ âm /ʃ/, và vật này cũng đã được nhắc tới trước đó.",
       "Sai. \"Shirt\" là danh từ đếm được số ít đã được xác định cụ thể nên không thể bỏ trống mạo từ.",
       "Đúng. Chiếc áo sơ mi đã được nhắc tới ở câu trước (\"a shirt\"), nên câu sau dùng \"the shirt\" để chỉ đúng chiếc áo đó."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-004",
@@ -105,7 +108,8 @@
       "Sai. \"A\" dùng khi chưa xác định cụ thể là cái nào, nhưng ở đây chỉ có một chiếc đèn duy nhất trong phòng.",
       "Sai. \"Light\" ở đây là danh từ đếm được số ít, chỉ một vật cụ thể, nên phải có mạo từ.",
       "Sai. \"An\" không phù hợp vì \"light\" bắt đầu bằng âm phụ âm /l/, và đèn này cũng đã được xác định rõ."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-005",
@@ -132,7 +136,8 @@
       "Sai. \"An\" không dùng trước danh từ số nhiều \"elephants\".",
       "Đúng. Câu nói về loài voi nói chung (khái quát cả loài), danh từ số nhiều mang nghĩa chung chung nên không cần mạo từ.",
       "Sai. \"A\" không dùng trước danh từ số nhiều \"elephants\"."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-006",
@@ -159,7 +164,8 @@
       "Sai. \"Dinner\" bắt đầu bằng âm phụ âm /d/ nên \"an\" càng không phù hợp, và tên bữa ăn cũng không cần mạo từ.",
       "Đúng. Tên các bữa ăn trong ngày như \"breakfast/lunch/dinner\" thường không đi kèm mạo từ.",
       "Sai. \"Dinner\" là tên bữa ăn, không dùng \"a\" ở cách dùng thông thường này."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-007",
@@ -186,7 +192,8 @@
       "Sai. \"Much\" chỉ dùng với danh từ không đếm được, còn \"chairs\" là danh từ đếm được số nhiều.",
       "Sai. \"Little\" chỉ dùng với danh từ không đếm được, còn \"chairs\" là danh từ đếm được.",
       "Đúng. \"Chairs\" là danh từ đếm được số nhiều, nên dùng \"many\" để hỏi/phủ định về số lượng."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-008",
@@ -213,7 +220,8 @@
       "Sai. \"Many\" chỉ dùng với danh từ đếm được số nhiều, còn \"money\" là danh từ không đếm được.",
       "Đúng. \"Money\" là danh từ không đếm được, nên dùng \"much\" trong câu phủ định này.",
       "Sai. \"Few\" chỉ dùng với danh từ đếm được số nhiều, còn \"money\" là danh từ không đếm được."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-009",
@@ -240,7 +248,8 @@
       "Đúng. Khi \"coffee\" mang nghĩa \"một ly cà phê\" (một đơn vị cụ thể được gọi), nó trở thành danh từ đếm được, dùng \"a\".",
       "Sai. \"The\" chỉ phù hợp nếu ly cà phê đó đã được xác định trước đó, nhưng đây là lần đầu nhắc tới việc anh ấy gọi đồ uống.",
       "Sai. Khi mang nghĩa \"một ly cà phê\" cụ thể, \"coffee\" trở thành danh từ đếm được số ít nên phải có mạo từ."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-articles-countable-uncountable-010",
@@ -267,7 +276,8 @@
       "Sai. Cách nói về việc chơi một nhạc cụ cụ thể trong tiếng Anh luôn có mạo từ \"the\" đi kèm, không bỏ trống.",
       "Đúng. Cụm cố định \"play the guitar\" (và các nhạc cụ khác) luôn dùng \"the\", cần nhớ như một trường hợp đặc biệt.",
       "Sai. Cụm nói về việc chơi nhạc cụ như \"the guitar\" luôn dùng \"the\", không dùng \"a\"."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-articles-countable-uncountable-011",
@@ -294,7 +304,8 @@
       "Đúng. \"Hour\" có \"h\" câm, đọc bắt đầu bằng âm nguyên âm /aʊ/, nên phải dùng \"an\" dù chữ viết bắt đầu bằng \"h\".",
       "Sai. \"The\" dùng khi khoảng thời gian đó đã xác định cụ thể, nhưng ở đây chỉ đang nói chung về một khoảng \"một tiếng\".",
       "Sai. \"A\" dùng trước âm phụ âm, nhưng \"hour\" có \"h\" câm nên đọc bắt đầu bằng âm nguyên âm."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-012",
@@ -321,7 +332,8 @@
       "Sai. \"The\" dùng khi vị trí công việc đó đã xác định cụ thể, nhưng ở đây chỉ đang nói về mong muốn chung chung.",
       "Sai. \"University professor\" là danh từ đếm được số ít nên bắt buộc phải có mạo từ.",
       "Sai. Dù chữ \"u\" là nguyên âm, \"university\" lại đọc bắt đầu bằng âm phụ âm /j/, nên không dùng \"an\"."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-013",
@@ -348,7 +360,8 @@
       "Sai. \"A\" dùng khi chưa xác định cụ thể là báo cáo nào, nhưng mệnh đề theo sau đã xác định rõ.",
       "Sai. \"Report\" là danh từ đếm được số ít đã được xác định rõ nên phải có mạo từ, không thể bỏ trống.",
       "Đúng. Mệnh đề quan hệ \"that you sent me this morning\" xác định chính xác là báo cáo nào, nên dùng \"the\"."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-014",
@@ -375,7 +388,8 @@
       "Sai. Cụm chỉ thứ tự như \"the first person\" luôn cần mạo từ \"the\", không thể bỏ trống.",
       "Sai. \"A\" không phù hợp với các từ chỉ thứ tự như \"first\", vì chỉ có một người duy nhất là người đầu tiên.",
       "Sai. \"An\" không phù hợp vì \"first\" bắt đầu bằng âm phụ âm /f/, và cũng chỉ có một người duy nhất là người đầu tiên."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-015",
@@ -402,7 +416,8 @@
       "Sai. Tên quốc gia thông thường như \"Vietnam\" không đi kèm \"the\".",
       "Sai. \"A\" không dùng trước tên riêng địa danh.",
       "Đúng. Tên quốc gia là tên riêng địa danh, thuộc nhóm danh từ không dùng mạo từ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-016",
@@ -429,7 +444,8 @@
       "Đúng. Sau giới từ \"by\" chỉ phương tiện di chuyển, hầu hết phương tiện không dùng mạo từ (by bus, by car, by bike...).",
       "Sai. \"Bus\" bắt đầu bằng âm phụ âm /b/, và sau \"by\" chỉ phương tiện cũng không dùng mạo từ.",
       "Sai. Sau \"by\" chỉ phương tiện, không dùng \"a\"."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-017",
@@ -456,7 +472,8 @@
       "Sai. \"Tennis\" bắt đầu bằng âm phụ âm /t/, và tên môn thể thao cũng không dùng mạo từ.",
       "Đúng. Tên các môn thể thao (tennis, soccer, basketball...) không đi kèm mạo từ.",
       "Sai. Tên môn thể thao như \"tennis\" không dùng \"a\"."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-018",
@@ -483,7 +500,8 @@
       "Sai. \"Little\" chỉ dùng với danh từ không đếm được, còn \"friends\" là danh từ đếm được số nhiều.",
       "Sai. \"Few\" mang nghĩa tiêu cực (hầu như không có bạn), mâu thuẫn với vế sau \"không thấy cô đơn\".",
       "Đúng. \"A few\" mang nghĩa tích cực (có một số bạn thân), phù hợp với vế sau \"không thấy cô đơn\", và \"friends\" là danh từ đếm được."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-019",
@@ -510,7 +528,8 @@
       "Sai vì 'much' hàm ý một lượng đáng kể/đủ, không phù hợp với ngữ cảnh 'không may, cuộc điều tra chỉ vừa mới bắt đầu' hàm ý RẤT ÍT thông tin.",
       "Sai vì 'a few' chỉ dùng cho danh từ ĐẾM ĐƯỢC, còn 'information' là danh từ KHÔNG đếm được.",
       "Sai vì 'many' chỉ dùng cho danh từ ĐẾM ĐƯỢC số nhiều, còn 'information' là danh từ KHÔNG đếm được."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-020",
@@ -537,7 +556,8 @@
       "Sai. Ở nghĩa \"giấy\" (chất liệu), \"paper\" là danh từ không đếm được nên không dùng \"a\" trực tiếp trước nó.",
       "Sai. \"Papers\" (số nhiều) mang nghĩa khác như \"các bài báo/tài liệu\", không phù hợp với nghĩa \"giấy\" để viết trong câu này.",
       "Đúng. Ở nghĩa \"giấy\" (chất liệu để viết lên), \"paper\" là danh từ không đếm được, dùng \"some paper\" là phù hợp."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-articles-countable-uncountable-021",
@@ -564,7 +584,8 @@
       "Sai. \"Bookstore\" là danh từ đếm được số ít đã được xác định cụ thể, không thể bỏ trống mạo từ.",
       "Đúng. Hiệu sách đã được nhắc tới ở câu trước (\"a small bookstore\"), nên câu sau dùng \"the bookstore\" để chỉ chính xác hiệu sách đó.",
       "Sai. \"A\" dùng cho lần nhắc đầu tiên, nhưng hiệu sách này đã được giới thiệu ở câu trước rồi."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-022",
@@ -592,7 +613,8 @@
       "Đúng. Đây là mong muốn có một con chó (chưa xác định con nào cụ thể) khi còn nhỏ, danh từ đếm được số ít lần đầu nhắc tới nên dùng \"a\".",
       "Sai. \"The\" chỉ phù hợp nếu con chó đó đã được xác định cụ thể trước đó, nhưng đây chỉ là một mong muốn chung chung về việc có một con chó.",
       "Sai. \"Dog\" ở đây là danh từ đếm được số ít (muốn có MỘT con), khác với \"dogs\" số nhiều mang nghĩa chung chung ở vế sau, nên vẫn cần mạo từ."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-023",
@@ -619,7 +641,8 @@
       "Sai. \"A few\" chỉ dùng với danh từ đếm được số nhiều, còn \"experience\" ở đây là danh từ không đếm được.",
       "Sai. \"Few\" chỉ dùng với danh từ đếm được số nhiều, còn \"experience\" ở đây là danh từ không đếm được.",
       "Đúng. \"A little\" mang nghĩa tích cực (có một chút kinh nghiệm, đủ để được đánh giá cao), phù hợp với ngữ cảnh, và \"experience\" là danh từ không đếm được."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-024",
@@ -646,7 +669,8 @@
       "Sai. \"Poor\" là tính từ, không phải danh từ đếm được nên không thể đi với \"a\" theo cách này.",
       "Sai. \"Poor\" là tính từ, không có dạng số nhiều \"poors\".",
       "Sai. \"Poor\" đứng một mình (không có \"the\") là tính từ, không thể đóng vai trò danh từ chỉ một nhóm người ở đây."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-articles-countable-uncountable-025",
@@ -673,7 +697,8 @@
       "Sai. \"A\" dùng khi chưa xác định cụ thể là nhà hàng nào, nhưng cụm \"near the harbor\" đã xác định rõ.",
       "Sai. \"An\" không phù hợp vì \"restaurant\" bắt đầu bằng âm phụ âm /r/, và nhà hàng này cũng đã được xác định rõ.",
       "Sai. \"Restaurant\" là danh từ đếm được số ít đã được xác định rõ nên phải có mạo từ, không thể bỏ trống."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-026",
@@ -700,7 +725,8 @@
       "Đúng. \"Time\" ở đây là danh từ không đếm được mang nghĩa khái quát, trừu tượng, nên không cần mạo từ.",
       "Sai. \"A\" không dùng trước danh từ không đếm được như \"time\" ở nghĩa khái quát này.",
       "Sai. \"An\" không dùng trước danh từ không đếm được, và \"time\" cũng bắt đầu bằng âm phụ âm /t/."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-027",
@@ -727,7 +753,8 @@
       "Sai. \"Lecture\" là danh từ đếm được số ít nên bắt buộc phải có mạo từ.",
       "Sai. \"The\" dùng khi bài giảng đó đã được xác định cụ thể từ trước, nhưng đây là lần đầu nhắc tới sự kiện này.",
       "Sai. Từ đứng ngay sau mạo từ là \"hour-long\" (không phải \"lecture\"), và từ này đọc bắt đầu bằng âm nguyên âm nên không dùng \"a\"."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-articles-countable-uncountable-028",
@@ -754,7 +781,8 @@
       "Đúng. \"Few\" mang nghĩa tiêu cực (hầu như không còn vé), khớp với việc nhiều người hâm mộ thất vọng vì không tham dự được.",
       "Sai. \"A few\" mang nghĩa tích cực (vẫn còn một số vé), mâu thuẫn với việc nhiều người không mua được vé và thất vọng.",
       "Sai. \"A little\" chỉ dùng với danh từ không đếm được, còn \"tickets\" là danh từ đếm được số nhiều."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-029",
@@ -781,7 +809,8 @@
       "Sai. Nếu dùng 'coffee' không mạo từ (nghĩa chất liệu/thức uống chung), câu sẽ mâu thuẫn với vế sau 'a cup too' vốn xác nhận đang nói về một ly cụ thể.",
       "Đúng. Vế sau 'asked... if he wanted a cup too' xác nhận rõ đang nói tới MỘT LY cụ thể, nên 'coffee' ở đây mang nghĩa đếm được, dùng 'a coffee'.",
       "Sai. \"Coffee\" ở nghĩa đếm được (một ly) là danh từ số ít khi chỉ một phần uống, không dùng số nhiều \"coffees\" trong ngữ cảnh này."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-articles-countable-uncountable-030",
@@ -808,6 +837,7 @@
       "Sai. \"A\" dùng khi chưa xác định cụ thể, nhưng \"ending\" ở đây rõ ràng là kết thúc của cuốn tiểu thuyết vừa nhắc tới.",
       "Sai. \"Ending\" là danh từ đếm được số ít đã được xác định cụ thể, không thể bỏ trống mạo từ.",
       "Sai. \"An\" không phù hợp vì tuy \"ending\" bắt đầu bằng âm nguyên âm, kết thúc này đã được xác định rõ nên phải dùng \"the\" chứ không phải \"an\"."
-    ]
+    ],
+    "bac": 1
   }
 ]

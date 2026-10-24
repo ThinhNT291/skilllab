@@ -6,7 +6,7 @@
     "A2",
     "B1"
   ],
-  "order": 22,
+  "order": 30,
   "category": "word-classes",
   "theory": {
     "usages": [
@@ -27,7 +27,8 @@
             "en": "You can call me any time you need help — I don't mind.",
             "vi": "Bạn có thể gọi tôi bất cứ lúc nào bạn cần giúp đỡ — tôi không phiền đâu."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "pronouns-determiners-u2-much-many-alotof",
@@ -46,7 +47,8 @@
             "en": "She doesn't have many close friends in this city.",
             "vi": "Cô ấy không có nhiều bạn thân ở thành phố này."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "pronouns-determiners-u3-few-little",
@@ -65,7 +67,8 @@
             "en": "She speaks little English, so it's hard for her to communicate here.",
             "vi": "Cô ấy biết rất ít tiếng Anh nên khó giao tiếp ở đây."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "pronouns-determiners-u4-reflexive-reciprocal",
@@ -84,7 +87,8 @@
             "en": "The three roommates always help one another with the housework.",
             "vi": "Ba người bạn cùng phòng luôn giúp đỡ lẫn nhau việc nhà."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "pronouns-determiners-u5-possessive",
@@ -103,7 +107,8 @@
             "en": "The dog wagged its tail happily when its owner came home.",
             "vi": "Con chó vẫy đuôi vui vẻ khi chủ nó về nhà."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "pronouns-determiners-u6-no-none-neither-either",
@@ -122,7 +127,8 @@
             "en": "Neither of us wants to go out in this heavy rain.",
             "vi": "Không ai trong hai chúng tôi muốn ra ngoài trong cơn mưa lớn này."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

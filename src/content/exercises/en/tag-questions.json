@@ -24,7 +24,8 @@
       "Sai — không cần do-support vì mệnh đề chính đã có sẵn trợ động từ 'are'.",
       "Đúng — mệnh đề chính đã có trợ động từ 'are', tag lặp lại đúng trợ động từ đó ở dạng phủ định.",
       "Sai — sai cả trợ động từ (phải là 'are' không phải 'is') lẫn đại từ (phải là 'they' không phải 'it')."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-002",
@@ -51,7 +52,8 @@
       "Sai — không cần do-support vì mệnh đề chính đã có trợ động từ hoàn thành 'has'.",
       "Đúng — 'has' là trợ động từ hiện tại hoàn thành, tag phải lặp lại đúng trợ động từ này.",
       "Sai — sai chia động từ theo chủ ngữ, chủ ngữ số ít 'he' phải đi với 'hasn't', không phải 'haven't'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-003",
@@ -78,7 +80,8 @@
       "Sai — sai thì, mệnh đề chính ở quá khứ ('were playing') không phải hiện tại.",
       "Đúng — trợ động từ chính là 'were', tag lặp lại đúng thì và đúng số nhiều ở dạng phủ định.",
       "Sai — sai chia số: chủ ngữ 'the children' là số nhiều nên phải dùng 'were', không phải 'was'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-004",
@@ -105,7 +108,8 @@
       "Sai — mệnh đề chính không dùng động từ 'to be' nên không thể dùng 'aren't'.",
       "Sai — sai modal, mệnh đề chính dùng 'can' (khả năng) chứ không phải 'will' (tương lai).",
       "Sai — không dùng do-support khi mệnh đề chính đã có modal verb 'can'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-005",
@@ -132,7 +136,8 @@
       "Sai — không cần do-support vì mệnh đề chính đã có sẵn trợ động từ 'will'.",
       "Sai — 'wouldn't' là dạng quá khứ/giả định của 'will', không khớp với thì tương lai đơn trong câu.",
       "Đúng — trợ động từ tương lai 'will' được lặp lại đúng ở dạng phủ định rút gọn 'won't'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-006",
@@ -159,7 +164,8 @@
       "Sai — trợ động từ sai: mệnh đề chính dùng động từ 'to be' ('isn't'), không phải động từ thường, nên tag phải lặp lại 'is', không dùng do-support 'does' (cực khẳng định ở đây đã đúng, chỉ sai trợ động từ).",
       "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định thì tag phải khẳng định, không được lặp lại phủ định.",
       "Sai — mệnh đề chính dùng động từ 'to be' ('isn't'), không phải động từ thường, nên không dùng do-support."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-007",
@@ -186,7 +192,8 @@
       "Sai — cấu trúc tag không lặp lại 'have', chỉ cần modal 'should' theo sau bởi đại từ.",
       "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định.",
       "Đúng — tag khẳng định, dùng đúng modal 'should' của mệnh đề chính, không thêm 'have' vào tag."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-008",
@@ -213,7 +220,8 @@
       "Sai — mệnh đề chính dùng động từ 'to be' ('wasn't'), không phải động từ thường, nên không dùng do-support.",
       "Đúng — tag khẳng định, đúng trợ động từ 'was' và đúng đại từ 'he' cho chủ ngữ 'the manager'.",
       "Sai — sai cả cực (phải khẳng định) lẫn giới tính đại từ, 'the manager' trong ngữ cảnh này được ám chỉ là 'he'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-009",
@@ -240,7 +248,8 @@
       "Sai — mệnh đề chính không dùng động từ 'to be' nên không thể dùng 'isn't'.",
       "Đúng — 'plays' là động từ thường, chủ ngữ số ít ngôi ba nên tag mượn 'doesn't' ở dạng phủ định.",
       "Sai — sai chia động từ, chủ ngữ số ít ngôi ba 'he' phải đi với 'doesn't', không phải 'don't'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-010",
@@ -267,7 +276,8 @@
       "Đúng — 'arrived' là động từ thường ở quá khứ đơn, tag mượn 'didn't' để khớp thì quá khứ.",
       "Sai — mệnh đề chính dùng động từ thường 'arrived', không phải động từ 'to be'.",
       "Sai — sai thì, mệnh đề chính ở quá khứ đơn ('yesterday') không phải hiện tại đơn."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-011",
@@ -294,7 +304,8 @@
       "Sai — mệnh đề chính dùng động từ thường 'like' với do-support, không dùng động từ 'to be'.",
       "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định.",
       "Đúng — tag khẳng định, giữ đúng thì hiện tại đơn bằng 'does'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-012",
@@ -321,7 +332,8 @@
       "Đúng — tag khẳng định, giữ đúng thì quá khứ đơn bằng 'did'.",
       "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định.",
       "Sai — sai thì, mệnh đề chính ở quá khứ đơn ('didn't finish'), không phải hiện tại."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-013",
@@ -348,7 +360,8 @@
       "Đúng — 'requires' là động từ thường, chủ ngữ số ít nên tag mượn 'doesn't'.",
       "Sai — mệnh đề chính ở hiện tại đơn, không phải tương lai, nên không dùng 'won't'.",
       "Sai — mệnh đề chính không mang ý nghĩa hoàn thành nên không dùng 'hasn't'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-014",
@@ -375,7 +388,8 @@
       "Sai — mệnh đề chính dùng động từ thường 'moved', không phải động từ 'to be'.",
       "Đúng — 'moved' là động từ thường ở quá khứ đơn, tag mượn 'didn't' để khớp thì.",
       "Sai — mệnh đề chính không mang ý nghĩa hoàn thành nên không dùng 'haven't'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-tag-questions-015",
@@ -402,7 +416,8 @@
       "Đúng — 'I am' luôn có tag đặc biệt cố định là 'aren't I?', đây là ngoại lệ trong tiếng Anh chuẩn.",
       "Sai — 'isn't I' hoàn toàn không đúng ngữ pháp, không tồn tại cách chia này với chủ ngữ 'I'.",
       "Sai — 'amn't I' là dạng không chuẩn/phương ngữ, không được dùng trong tiếng Anh chuẩn."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-016",
@@ -429,7 +444,8 @@
       "Sai — 'isn't I' hoàn toàn không đúng ngữ pháp với chủ ngữ 'I'.",
       "Sai — 'amn't I' là dạng không chuẩn, không dùng trong tiếng Anh chuẩn.",
       "Sai — 'aren't I' chỉ dùng khi mệnh đề chính là 'I am' khẳng định, không dùng khi mệnh đề đã phủ định."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-017",
@@ -456,7 +472,8 @@
       "Sai — câu mệnh lệnh không phải câu trần thuật với chủ ngữ rõ ràng nên không dùng do-support.",
       "Sai — 'shall you' không phải cấu trúc tag chuẩn được dùng cho câu mệnh lệnh.",
       "Đúng — câu mệnh lệnh trực tiếp dùng tag 'will you?' để nhờ vả/yêu cầu."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-018",
@@ -483,7 +500,8 @@
       "Sai — câu mệnh lệnh không dùng do-support để tạo tag.",
       "Đúng — cả câu mệnh lệnh khẳng định lẫn phủ định đều dùng tag cố định 'will you?'.",
       "Sai — 'shall you' không phải cấu trúc tag chuẩn được dùng cho câu mệnh lệnh."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-019",
@@ -510,7 +528,8 @@
       "Đúng — cấu trúc 'Let's...' luôn đi kèm tag cố định 'shall we?'.",
       "Sai — 'Let's' không phải câu trần thuật thông thường nên không dùng do-support.",
       "Sai — 'will we' không phải tag chuẩn dùng cho cấu trúc 'Let's...'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-020",
@@ -537,7 +556,8 @@
       "Sai — 'will we' không phải tag chuẩn dùng cho cấu trúc 'Let's...'.",
       "Sai — 'shan't we' là dạng cổ/hiếm dùng, không phải tag chuẩn cho 'Let's not...'.",
       "Đúng — 'Let's not...' vẫn dùng tag cố định 'shall we?', không thay đổi theo dạng phủ định của mệnh đề chính."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-021",
@@ -564,7 +584,8 @@
       "Sai — không được đổi 'there' thành 'this', tag phải giữ nguyên từ 'there'.",
       "Sai — không được đổi 'there' thành 'it', đây là lỗi phổ biến nhất với cấu trúc There is/are.",
       "Sai — sai cả trợ động từ (không dùng do-support khi đã có 'is') lẫn đại từ (phải là 'there')."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-022",
@@ -591,7 +612,8 @@
       "Sai — sai chia số, chủ ngữ 'enough chairs' là số nhiều nên phải dùng 'were', không phải 'was'.",
       "Sai — sai chia số: chủ ngữ 'enough chairs' số nhiều nên phải dùng 'were', không phải 'was' (cực khẳng định ở đây đã đúng, chỉ sai số ít/nhiều).",
       "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-023",
@@ -618,7 +640,8 @@
       "Sai — mệnh đề chính dùng động từ thường 'eats', không dùng động từ 'to be'.",
       "Sai — 'never' đã mang nghĩa phủ định nên tag phải khẳng định, không được coi mệnh đề là câu khẳng định để tạo tag phủ định.",
       "Sai — sai thì, mệnh đề chính ở hiện tại đơn ('never eats'), không phải quá khứ."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-024",
@@ -646,7 +669,8 @@
       "Sai — sai cả cực (phải khẳng định vì 'nothing' đã phủ định) lẫn đại từ (phải là 'there').",
       "Sai — không được đổi 'there' thành 'it', tag phải giữ nguyên từ 'there'.",
       "Đúng — tag khẳng định vì 'nothing' đã mang nghĩa phủ định, đồng thời giữ đúng 'there' cho chủ ngữ giả."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-025",
@@ -673,7 +697,8 @@
       "Sai — sai thì, mệnh đề chính ở hiện tại đơn ('these days'), không phải quá khứ.",
       "Sai — mệnh đề chính dùng động từ thường 'exercises', không dùng động từ 'to be'.",
       "Sai — 'hardly' đã mang nghĩa phủ định, nếu tag cũng phủ định sẽ khiến câu bị 'phủ định kép' sai ngữ pháp tag question."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-026",
@@ -700,7 +725,8 @@
       "Đúng — 'no one' đã mang nghĩa phủ định nên tag phải khẳng định, và đại từ chuẩn hiện đại là 'they'.",
       "Sai — 'no one' đã mang nghĩa phủ định, nếu tag cũng phủ định sẽ tạo ra 'phủ định kép' sai ngữ pháp tag question.",
       "Sai — mệnh đề chính dùng động từ thường 'called', không dùng động từ 'to be', nên không dùng 'weren't'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-027",
@@ -727,7 +753,8 @@
       "Đúng — 'few' mang nghĩa phủ định nên tag phải khẳng định, giữ đúng thì quá khứ đơn bằng 'did'.",
       "Sai — mệnh đề chính dùng động từ thường 'showed up', không dùng động từ 'to be'.",
       "Sai — mệnh đề chính không mang ý nghĩa hoàn thành nên không dùng 'hadn't'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-028",
@@ -755,7 +782,8 @@
       "Sai — không cần do-support vì mệnh đề chính đã có trợ động từ hoàn thành 'have'.",
       "Sai — sai thì, mệnh đề chính ở hiện tại hoàn thành ('have met'), không phải quá khứ hoàn thành.",
       "Đúng — tag lặp lại đúng trợ động từ hiện tại hoàn thành 'have' ở dạng phủ định rút gọn."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-029",
@@ -783,7 +811,8 @@
       "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định.",
       "Sai — mệnh đề chính đã có trợ động từ 'is' (dạng phủ định), không cần và không được thêm do-support.",
       "Sai — sai thì, mệnh đề chính ở hiện tại đơn ('isn't'), không phải quá khứ."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-tag-questions-030",
@@ -811,6 +840,7 @@
       "Sai — sai thì, mệnh đề chính ở hiện tại hoàn thành ('haven't sold'), không phải quá khứ hoàn thành.",
       "Sai — mệnh đề chính đã có trợ động từ 'have', không dùng do-support 'did'.",
       "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định."
-    ]
+    ],
+    "bac": 4
   }
 ]

@@ -6,7 +6,7 @@
     "B1",
     "B2"
   ],
-  "order": 18,
+  "order": 19,
   "category": "tenses",
   "theory": {
     "usages": [
@@ -23,7 +23,8 @@
             "en": "She has been working at that hospital since 2019.",
             "vi": "Cô ấy đã làm việc tại bệnh viện đó từ năm 2019 (và vẫn đang làm)."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "present-perfect-continuous-u2-recent-result",
@@ -38,7 +39,8 @@
             "en": "The ground is wet — it has been raining.",
             "vi": "Mặt đất ướt — trời vừa mới mưa xong."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "present-perfect-continuous-u3-emphasis",
@@ -53,7 +55,8 @@
             "en": "They've been negotiating the contract for weeks.",
             "vi": "Họ đã đàm phán hợp đồng này suốt nhiều tuần rồi."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "present-perfect-continuous-u4-how-long",
@@ -68,7 +71,8 @@
             "en": "How long has it been snowing?",
             "vi": "Trời đã có tuyết rơi được bao lâu rồi?"
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "present-perfect-continuous-u5-contrast",
@@ -83,7 +87,8 @@
             "en": "I have been painting the fence all day. (nhấn mạnh quá trình, có thể chưa xong hẳn — Present Perfect Continuous)",
             "vi": "Tôi đã sơn hàng rào suốt cả ngày. (nhấn mạnh quá trình kéo dài, chưa chắc đã xong)"
           }
-        ]
+        ],
+        "bac": 4
       }
     ],
     "signalWords": [

@@ -1,0 +1,154 @@
+{
+  "id": "agreement-so-neither",
+  "language": "en",
+  "title": "Đồng tình và phủ định rút gọn (So / Neither / Too / Either)",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "order": 23,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "asr-u1-so-agreement",
+        "bac": 3,
+        "label": "Đồng tình với câu khẳng định: So + trợ động từ + chủ ngữ",
+        "explanationVi": "Khi ai đó nói một câu khẳng định và bạn muốn nói 'tôi cũng vậy', dùng So + trợ động từ + chủ ngữ. Trợ động từ phải khớp với câu gốc: động từ be thì dùng be, thì hiện tại đơn thì dùng do/does, quá khứ đơn thì dùng did, hiện tại hoàn thành thì dùng have/has, will thì dùng will, can thì dùng can. Chú ý trợ động từ đứng trước chủ ngữ.",
+        "examples": [
+          {
+            "en": "A: I'm learning Spanish. B: So am I.",
+            "vi": "A: Tôi đang học tiếng Tây Ban Nha. B: Tôi cũng vậy."
+          },
+          {
+            "en": "A: He passed the test. B: So did she.",
+            "vi": "A: Anh ấy đã đậu bài kiểm tra. B: Cô ấy cũng vậy."
+          }
+        ]
+      },
+      {
+        "id": "asr-u2-neither-agreement",
+        "bac": 4,
+        "label": "Đồng tình với câu phủ định: Neither / Nor + trợ động từ + chủ ngữ",
+        "explanationVi": "Khi ai đó nói một câu phủ định và bạn cũng như vậy, dùng Neither (hoặc Nor) + trợ động từ + chủ ngữ. Trợ động từ ở dạng KHẲNG ĐỊNH vì 'neither' đã mang nghĩa phủ định. Nếu thêm not nữa sẽ thành phủ định kép (sai). Trợ động từ vẫn khớp với câu gốc. Các từ như never, hardly, hardly ever, rarely, nobody, nothing cũng làm câu mang nghĩa phủ định nên dùng Neither/Nor (I hardly ever eat breakfast. → Neither do I). Neither và Nor thay thế được cho nhau trong mẫu này; Nor thường trang trọng hơn.",
+        "examples": [
+          {
+            "en": "A: Tom doesn't like coffee. B: Neither does Mai.",
+            "vi": "A: Tom không thích cà phê. B: Mai cũng không."
+          },
+          {
+            "en": "A: I can't open this jar. B: Neither can I.",
+            "vi": "A: Tôi không mở được hũ này. B: Tôi cũng không."
+          }
+        ]
+      },
+      {
+        "id": "asr-u3-too-either",
+        "bac": 3,
+        "label": "Too và either ở cuối câu",
+        "explanationVi": "Cách khác để nói 'cũng' là đặt too hoặc either ở cuối câu. Too dùng sau câu khẳng định: I like hiking, and my brother does, too. Either dùng sau câu phủ định: They don't live here, and we don't either. Thường có dấu phẩy trước too. Thường không dùng too sau câu phủ định và không dùng either sau câu khẳng định.",
+        "examples": [
+          {
+            "en": "I like hiking, and my brother does, too.",
+            "vi": "Tôi thích đi bộ đường dài, và anh tôi cũng vậy."
+          },
+          {
+            "en": "They don't live here, and we don't either.",
+            "vi": "Họ không sống ở đây, và chúng tôi cũng không."
+          }
+        ]
+      },
+      {
+        "id": "asr-u4-choosing-auxiliary",
+        "bac": 3,
+        "label": "Chọn trợ động từ cho đúng",
+        "explanationVi": "Nhìn vào động từ của câu gốc để chọn trợ động từ trả lời: 'I'm tired' → am; 'I love pizza' → do; 'She plays' → does; 'I went' → did; 'I've finished' → have; 'I'll go' → will; 'I can swim' → can; 'I'd like' → would. Với chủ ngữ ngôi thứ ba số ít ở hiện tại đơn dùng does, với I/you/we/they dùng do. Với động từ khuyết thiếu thì lặp lại chính nó (We should leave. → So should they). Nếu câu gốc có mệnh đề phụ (I wish ..., I hope ...) thì nhìn động từ chính: I wish I had more time. → So do I; I hope it's sunny. → So do I. Quá khứ tiếp diễn dùng was/were: My parents were watching TV. → So were we.",
+        "examples": [
+          {
+            "en": "A: I have to leave early. B: So do I.",
+            "vi": "A: Tôi phải đi sớm. B: Tôi cũng vậy."
+          },
+          {
+            "en": "A: She's been working all day. B: So has her sister.",
+            "vi": "A: Cô ấy làm việc cả ngày. B: Chị cô ấy cũng vậy."
+          }
+        ]
+      },
+      {
+        "id": "asr-u5-short-replies",
+        "bac": 4,
+        "label": "Đáp lời ngắn: Me too, Me neither và khi không đồng ý",
+        "explanationVi": "Trong hội thoại thân mật, có thể chỉ nói Me too (với câu khẳng định) hoặc Me neither (với câu phủ định). Khi không đồng ý thì dùng trợ động từ trái nghĩa: A: I love early mornings. B: I don't. / A: I don't like fish. B: I do. Lưu ý: Me neither dùng với câu phủ định, Me too dùng với câu khẳng định. Trong tiếng Anh Mỹ thân mật cũng hay nghe 'Me either'; bài này dùng dạng chuẩn Me neither.",
+        "examples": [
+          {
+            "en": "A: I love horror movies. B: Me too.",
+            "vi": "A: Tôi thích phim kinh dị. B: Tôi cũng vậy."
+          },
+          {
+            "en": "A: I'm not tired. B: Me neither.",
+            "vi": "A: Tôi không mệt. B: Tôi cũng không."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "So + trợ động từ + S",
+        "meaningVi": "S cũng vậy (đồng tình câu khẳng định)"
+      },
+      {
+        "word": "Neither / Nor + trợ động từ + S",
+        "meaningVi": "S cũng không (đồng tình câu phủ định)"
+      },
+      {
+        "word": "too",
+        "meaningVi": "cũng (sau câu khẳng định)"
+      },
+      {
+        "word": "either",
+        "meaningVi": "cũng (sau câu phủ định)"
+      },
+      {
+        "word": "Me too / Me neither",
+        "meaningVi": "Tôi cũng vậy / Tôi cũng không"
+      }
+    ],
+    "formulas": {
+      "affirmative": "So + trợ động từ + S. Ví dụ: So am I. So does she. | S + trợ động từ, too.",
+      "negative": "Neither/Nor + trợ động từ (khẳng định) + S. Ví dụ: Neither do I. Nor can he. | S + trợ động từ + not, either.",
+      "question": "Khi không đồng ý: S + trợ động từ trái nghĩa. Ví dụ: A: I like it. B: I don't. | A: I don't like it. B: I do."
+    },
+    "commonMistakes": [
+      {
+        "id": "agreement-so-neither-m1",
+        "description": "Dùng trợ động từ phủ định sau Neither: Neither đã mang nghĩa phủ định nên trợ động từ phải ở dạng khẳng định.",
+        "examples": [
+          {
+            "wrong": "A: I don't like spicy food. B: Neither don't I.",
+            "correct": "A: I don't like spicy food. B: Neither do I."
+          }
+        ]
+      },
+      {
+        "id": "agreement-so-neither-m2",
+        "description": "Chọn sai trợ động từ: phải khớp với động từ của câu gốc.",
+        "examples": [
+          {
+            "wrong": "A: I went to the beach. B: So do we.",
+            "correct": "A: I went to the beach. B: So did we."
+          }
+        ]
+      },
+      {
+        "id": "agreement-so-neither-m3",
+        "description": "Nhầm too với either: too dùng sau câu khẳng định, either dùng sau câu phủ định.",
+        "examples": [
+          {
+            "wrong": "She doesn't eat meat, and I don't too.",
+            "correct": "She doesn't eat meat, and I don't either."
+          }
+        ]
+      }
+    ]
+  }
+}

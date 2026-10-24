@@ -6,7 +6,7 @@ import { FONT_SIZES, SKINS, updateSettings, useSettings } from "@/lib/settings"
 
 /** Gắn skin lên <html> và hiện thanh chọn giao diện / bật tắt âm. */
 export function SettingsBar() {
-  const { skin, sound, fontSize } = useSettings()
+  const { skin, sound, fontSize, showBac } = useSettings()
 
   useEffect(() => {
     document.documentElement.dataset.skin = skin
@@ -36,6 +36,9 @@ export function SettingsBar() {
           </button>
         ))}
       </div>
+      <button type="button" className={chip(showBac)} aria-pressed={showBac} onClick={() => updateSettings({ showBac: !showBac })} title="Hiện bậc khung năng lực và độ khó của từng câu (dành cho người duyệt nội dung)">
+        🎓 Hiện bậc
+      </button>
       <button type="button" className={chip(sound)} aria-pressed={sound} onClick={() => updateSettings({ sound: !sound })}>
         {sound ? "🔊 Âm thanh" : "🔇 Âm thanh"}
       </button>

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "en-phrasal-verb-rules-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u1-separable",
+    "tags": [
+      "pvr-u1-separable"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please ______ the lights when you leave.",
+    "choices": [
+      "turn into",
+      "turn off",
+      "turn up",
+      "turn in"
+    ],
+    "correctIndex": 1,
+    "explanation": "turn off = tắt (đèn, máy).",
+    "choiceExplanations": [
+      "Sai — 'turn into': 'turn into' nghĩa là biến thành, không hợp nghĩa.",
+      "Đúng — 'turn off' nghĩa là tắt, hợp nghĩa.",
+      "Sai — 'turn up': 'turn up' nghĩa là vặn to hoặc xuất hiện, không hợp nghĩa.",
+      "Sai — 'turn in': 'turn in' nghĩa là nộp hoặc đi ngủ, không hợp nghĩa."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u1-separable",
+    "tags": [
+      "pvr-u1-separable"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence puts the object in a correct position (pick up)?",
+    "choices": [
+      "He picked the up box.",
+      "He up picked the box.",
+      "He picked to the box up.",
+      "He picked up the box."
+    ],
+    "correctIndex": 3,
+    "explanation": "pick up + danh từ.",
+    "choiceExplanations": [
+      "Sai — 'He picked the up box.': 'the' không được chen vào giữa động từ và tiểu từ.",
+      "Sai — 'He up picked the box.': tiểu từ không đứng trước động từ.",
+      "Sai — 'He picked to the box up.': thêm 'to' sai cấu trúc.",
+      "Đúng — cụm tách được, danh từ đứng sau tiểu từ."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u1-separable",
+    "tags": [
+      "pvr-u1-separable"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It was cold, so she ______ her coat and went outside.",
+    "choices": [
+      "put out",
+      "put on",
+      "put away",
+      "put off"
+    ],
+    "correctIndex": 1,
+    "explanation": "put on = mặc, đội, mang vào.",
+    "choiceExplanations": [
+      "Sai — 'put out': 'put out' nghĩa là dập tắt, không hợp nghĩa.",
+      "Đúng — 'put on' nghĩa là mặc vào.",
+      "Sai — 'put away': 'put away' nghĩa là cất đi, không hợp nghĩa.",
+      "Sai — 'put off': 'put off' nghĩa là hoãn lại, không hợp nghĩa."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u2-inseparable",
+    "tags": [
+      "pvr-u2-inseparable"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She ______ her little brother every afternoon while her parents are at work.",
+    "choices": [
+      "looks after",
+      "looks into",
+      "looks up",
+      "looks at"
+    ],
+    "correctIndex": 0,
+    "explanation": "look after = chăm sóc.",
+    "choiceExplanations": [
+      "Đúng — 'look after' nghĩa là chăm sóc, tiểu từ đi liền động từ.",
+      "Sai — 'looks into': 'look into' nghĩa là điều tra, không hợp nghĩa.",
+      "Sai — 'looks up': 'look up' nghĩa là tra cứu, không hợp nghĩa.",
+      "Sai — 'looks at': 'look at' nghĩa là nhìn, không phải chăm sóc."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u2-inseparable",
+    "tags": [
+      "pvr-u2-inseparable"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence keeps the phrasal verb look for together correctly?",
+    "choices": [
+      "I'm looking up my phone for.",
+      "I'm looking to my phone for.",
+      "I'm looking for my phone.",
+      "I'm looking my phone for."
+    ],
+    "correctIndex": 2,
+    "explanation": "look for + tân ngữ.",
+    "choiceExplanations": [
+      "Sai — 'I'm looking up my phone for.': thêm 'up' sai nghĩa và cấu trúc.",
+      "Sai — 'I'm looking to my phone for.': thêm 'to' sai cấu trúc.",
+      "Đúng — 'look for' không tách được, tân ngữ sau cụm.",
+      "Sai — 'I'm looking my phone for.': không tách 'look for'."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u3-pronoun",
+    "tags": [
+      "pvr-u3-pronoun"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The music is too loud. Please turn ______.",
+    "choices": [
+      "up it",
+      "it down",
+      "it up",
+      "down it"
+    ],
+    "correctIndex": 1,
+    "explanation": "turn it down = vặn nhỏ lại.",
+    "choiceExplanations": [
+      "Sai — 'up it': sai vị trí và ngược nghĩa.",
+      "Đúng — đại từ 'it' đứng giữa động từ và tiểu từ.",
+      "Sai — 'it up': 'up' làm âm nhạc to hơn, ngược nghĩa.",
+      "Sai — 'down it': đại từ phải đứng giữa động từ và tiểu từ, không đứng sau tiểu từ."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u3-pronoun",
+    "tags": [
+      "pvr-u3-pronoun"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I found my keys and picked ______ up.",
+    "choices": [
+      "their",
+      "them",
+      "they",
+      "it"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đại từ tân ngữ: me, you, him, her, it, us, them.",
+    "choiceExplanations": [
+      "Sai — 'their': 'their' là tính từ sở hữu, không đứng một mình làm tân ngữ.",
+      "Đúng — đại từ tân ngữ số nhiều đứng giữa picked và up.",
+      "Sai — 'they': 'they' là đại từ chủ ngữ, không dùng làm tân ngữ.",
+      "Sai — 'it': 'keys' là số nhiều nên dùng them, không dùng it."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u4-three-word",
+    "tags": [
+      "pvr-u4-three-word"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We have no milk. We ______ milk.",
+    "choices": [
+      "ran into",
+      "ran away",
+      "ran out of",
+      "ran up"
+    ],
+    "correctIndex": 2,
+    "explanation": "run out of = hết.",
+    "choiceExplanations": [
+      "Sai — 'ran into': 'run into' nghĩa là tình cờ gặp, không hợp nghĩa.",
+      "Sai — 'ran away': 'run away' nghĩa là bỏ chạy, không hợp nghĩa.",
+      "Đúng — 'run out of' nghĩa là hết, cạn.",
+      "Sai — 'ran up': 'run up' nghĩa là chạy lên hoặc để nợ tăng, không hợp nghĩa."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u4-three-word",
+    "tags": [
+      "pvr-u4-three-word"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm looking forward ______ the vacation.",
+    "choices": [
+      "to",
+      "of",
+      "at",
+      "for"
+    ],
+    "correctIndex": 0,
+    "explanation": "look forward to + danh từ hoặc V-ing.",
+    "choiceExplanations": [
+      "Đúng — 'look forward to' luôn đi với to.",
+      "Sai — 'of': 'look forward of' không đúng.",
+      "Sai — 'at': 'look forward at' không đúng.",
+      "Sai — 'for': 'look forward for' không đúng."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u5-passive",
+    "tags": [
+      "pvr-u5-passive"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The outdoor concert ______ because of the storm.",
+    "choices": [
+      "called off",
+      "was called",
+      "was called off",
+      "was calling off"
+    ],
+    "correctIndex": 2,
+    "explanation": "be + called off = bị hủy.",
+    "choiceExplanations": [
+      "Sai — 'called off': thiếu 'was' nên không phải bị động; buổi hòa nhạc không thể tự hủy chính nó.",
+      "Sai — 'was called': thiếu tiểu từ 'off' nên không có nghĩa hủy.",
+      "Đúng — 'call off' nghĩa là hủy, ở thể bị động.",
+      "Sai — 'was calling off': dạng tiếp diễn chủ động, không hợp nghĩa bị động."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u3-pronoun",
+    "tags": [
+      "pvr-u3-pronoun"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence is NOT correct (throw away)?",
+    "choices": [
+      "She threw the box away.",
+      "She threw it away.",
+      "She threw away the box.",
+      "She threw away it."
+    ],
+    "correctIndex": 3,
+    "explanation": "Với đại từ: V + it + tiểu từ.",
+    "choiceExplanations": [
+      "Sai — 'She threw the box away.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'She threw it away.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'She threw away the box.': câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — đại từ 'it' phải đứng giữa: threw it away."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u1-separable",
+    "tags": [
+      "pvr-u1-separable"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please ______ off the floor and put them in the bag.",
+    "choices": [
+      "pick your toys",
+      "pick up your toys",
+      "up pick your toys",
+      "picking up your toys"
+    ],
+    "correctIndex": 1,
+    "explanation": "pick up + danh từ.",
+    "choiceExplanations": [
+      "Sai — 'pick your toys': thiếu tiểu từ 'up' nên mất nghĩa nhặt lên.",
+      "Đúng — danh từ có thể đứng sau tiểu từ trong cụm tách được.",
+      "Sai — 'up pick your toys': tiểu từ không đứng trước động từ.",
+      "Sai — 'picking up your toys': sau 'Please' dùng động từ nguyên thể, không dùng V-ing."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u3-pronoun",
+    "tags": [
+      "pvr-u3-pronoun"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence is NOT correct (turn off)?",
+    "choices": [
+      "He turned the TV off.",
+      "He turned it off.",
+      "He turned off it.",
+      "He turned off the TV."
+    ],
+    "correctIndex": 2,
+    "explanation": "Với đại từ: V + it + tiểu từ.",
+    "choiceExplanations": [
+      "Sai — 'He turned the TV off.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'He turned it off.': câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — đại từ 'it' phải đứng giữa: turned it off.",
+      "Sai — 'He turned off the TV.': câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u2-inseparable",
+    "tags": [
+      "pvr-u2-inseparable"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence wrongly splits a phrasal verb (look after)?",
+    "choices": [
+      "She looked after the baby.",
+      "She ran into her friend.",
+      "She looked the baby after.",
+      "She got over the flu."
+    ],
+    "correctIndex": 2,
+    "explanation": "Cụm không tách được: V + tiểu từ + tân ngữ.",
+    "choiceExplanations": [
+      "Sai — 'She looked after the baby.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'She ran into her friend.': câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — 'look after' không tách được: looked after the baby.",
+      "Sai — 'She got over the flu.': câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u2-inseparable",
+    "tags": [
+      "pvr-u2-inseparable"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He finally ______ his fear of heights.",
+    "choices": [
+      "got on",
+      "got over",
+      "got up",
+      "got off"
+    ],
+    "correctIndex": 1,
+    "explanation": "get over = vượt qua, hồi phục sau.",
+    "choiceExplanations": [
+      "Sai — 'got on': 'get on' nghĩa là lên xe hoặc hòa hợp, không hợp nghĩa.",
+      "Đúng — 'get over' nghĩa là vượt qua, không tách được.",
+      "Sai — 'got up': 'get up' nghĩa là thức dậy, không hợp nghĩa.",
+      "Sai — 'got off': 'get off' nghĩa là xuống xe, không hợp nghĩa."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u3-pronoun",
+    "tags": [
+      "pvr-u3-pronoun"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My shoes are dirty. I need to take ______.",
+    "choices": [
+      "it off",
+      "them off",
+      "off they",
+      "off them"
+    ],
+    "correctIndex": 1,
+    "explanation": "take them off = cởi chúng ra.",
+    "choiceExplanations": [
+      "Sai — 'it off': 'shoes' là số nhiều nên dùng them, không dùng it.",
+      "Đúng — đại từ 'them' đứng giữa động từ và tiểu từ.",
+      "Sai — 'off they': 'they' là đại từ chủ ngữ và vị trí cũng sai.",
+      "Sai — 'off them': đại từ phải đứng giữa động từ và tiểu từ."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u3-pronoun",
+    "tags": [
+      "pvr-u3-pronoun"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "These shoes look nice. Can I try ______ on?",
+    "choices": [
+      "them",
+      "it",
+      "they",
+      "on them"
+    ],
+    "correctIndex": 0,
+    "explanation": "try on là cụm tách được: đại từ nằm giữa.",
+    "choiceExplanations": [
+      "Đúng — đại từ số nhiều 'them' đứng giữa try và on.",
+      "Sai — 'it': 'shoes' là số nhiều nên dùng them, không dùng it.",
+      "Sai — 'they': 'they' là đại từ chủ ngữ, không dùng làm tân ngữ.",
+      "Sai — 'on them': đại từ phải đứng giữa động từ và tiểu từ."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u4-three-word",
+    "tags": [
+      "pvr-u4-three-word"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I don't know how she ______ her noisy neighbors.",
+    "choices": [
+      "puts up to",
+      "puts with",
+      "puts up",
+      "puts up with"
+    ],
+    "correctIndex": 3,
+    "explanation": "put up with = chịu đựng.",
+    "choiceExplanations": [
+      "Sai — 'puts up to': 'to' thay cho 'with' sai cụm.",
+      "Sai — 'puts with': thiếu 'up' nên sai cụm.",
+      "Sai — 'puts up': thiếu 'with' nên mất nghĩa chịu đựng.",
+      "Đúng — 'put up with' nghĩa là chịu đựng, ba từ."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u4-three-word",
+    "tags": [
+      "pvr-u4-three-word"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She ______ a great idea for the project.",
+    "choices": [
+      "came up",
+      "came with up",
+      "came up with",
+      "came up for"
+    ],
+    "correctIndex": 2,
+    "explanation": "come up with = nghĩ ra.",
+    "choiceExplanations": [
+      "Sai — 'came up': thiếu 'with' nên không có nghĩa nghĩ ra.",
+      "Sai — 'came with up': sai thứ tự tiểu từ.",
+      "Đúng — 'come up with' nghĩa là nghĩ ra, ba từ.",
+      "Sai — 'came up for': 'for' thay cho 'with' sai cụm."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u4-three-word",
+    "tags": [
+      "pvr-u4-three-word"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm looking forward to ______ you.",
+    "choices": [
+      "see",
+      "saw",
+      "seeing",
+      "be seen"
+    ],
+    "correctIndex": 2,
+    "explanation": "look forward to + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'see': 'to' ở đây là giới từ nên không dùng nguyên thể.",
+      "Sai — 'saw': dạng quá khứ không đi sau giới từ.",
+      "Đúng — sau 'look forward to' (to là giới từ) dùng V-ing.",
+      "Sai — 'be seen': dạng bị động không hợp nghĩa."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u5-passive",
+    "tags": [
+      "pvr-u5-passive"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The old building ______ last year.",
+    "choices": [
+      "was torn down",
+      "was tearing down",
+      "was torn",
+      "torn down"
+    ],
+    "correctIndex": 0,
+    "explanation": "be + torn down = bị phá dỡ.",
+    "choiceExplanations": [
+      "Đúng — 'tear down' nghĩa là phá dỡ, ở thể bị động.",
+      "Sai — 'was tearing down': dạng tiếp diễn chủ động, không hợp nghĩa bị động.",
+      "Sai — 'was torn': thiếu tiểu từ 'down' nên mất nghĩa phá dỡ.",
+      "Sai — 'torn down': thiếu 'was' nên không phải bị động."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u3-pronoun",
+    "tags": [
+      "pvr-u3-pronoun"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence is NOT correct (fill out)?",
+    "choices": [
+      "Please fill it out.",
+      "Please fill out it.",
+      "Please fill out the form.",
+      "Please fill the form out."
+    ],
+    "correctIndex": 1,
+    "explanation": "Đại từ phải đứng giữa động từ và tiểu từ.",
+    "choiceExplanations": [
+      "Sai — 'Please fill it out.': câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — đại từ 'it' phải đứng giữa: fill it out.",
+      "Sai — 'Please fill out the form.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'Please fill the form out.': câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u1-separable",
+    "tags": [
+      "pvr-u1-separable"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The teacher marked the tests and handed ______ yesterday.",
+    "choices": [
+      "back them",
+      "it back",
+      "back it",
+      "them back"
+    ],
+    "correctIndex": 3,
+    "explanation": "hand back là cụm tách được: đại từ nằm giữa.",
+    "choiceExplanations": [
+      "Sai — 'back them': đại từ phải đứng giữa động từ và tiểu từ, không đứng sau tiểu từ.",
+      "Sai — 'it back': 'the tests' là số nhiều nên dùng them, không dùng it.",
+      "Sai — 'back it': sai vị trí đại từ và sai số (tests là số nhiều).",
+      "Đúng — đại từ 'them' đứng giữa động từ và tiểu từ của cụm tách được."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u2-inseparable",
+    "tags": [
+      "pvr-u2-inseparable"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence wrongly splits a phrasal verb (run into)?",
+    "choices": [
+      "He ran his friend into at the mall.",
+      "He got over the flu quickly.",
+      "He looked after his sister.",
+      "He ran into his friend at the mall."
+    ],
+    "correctIndex": 0,
+    "explanation": "Cụm không tách được: V + tiểu từ + tân ngữ.",
+    "choiceExplanations": [
+      "Đúng — 'run into' không tách được: ran into his friend.",
+      "Sai — 'He got over the flu quickly.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'He looked after his sister.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'He ran into his friend at the mall.': câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u2-inseparable",
+    "tags": [
+      "pvr-u2-inseparable"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What a surprise! We ______ an old friend at the airport yesterday.",
+    "choices": [
+      "ran out of",
+      "ran after",
+      "ran away",
+      "ran into"
+    ],
+    "correctIndex": 3,
+    "explanation": "run into = tình cờ gặp.",
+    "choiceExplanations": [
+      "Sai — 'ran out of': 'run out of' nghĩa là hết, không hợp nghĩa.",
+      "Sai — 'ran after': 'run after' nghĩa là đuổi theo, không hợp ngữ cảnh bất ngờ.",
+      "Sai — 'ran away': 'run away' nghĩa là bỏ chạy, không hợp nghĩa.",
+      "Đúng — 'run into' nghĩa là tình cờ gặp (ngữ cảnh 'What a surprise')."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u3-pronoun",
+    "tags": [
+      "pvr-u3-pronoun"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence places both pronouns correctly (fill out, send back)?",
+    "choices": [
+      "Fill out it and send it back.",
+      "Fill it out and send back it.",
+      "Fill out it and send back it.",
+      "Fill it out and send it back."
+    ],
+    "correctIndex": 3,
+    "explanation": "Đại từ nằm giữa động từ và tiểu từ.",
+    "choiceExplanations": [
+      "Sai — 'Fill out it and send it back.': 'fill out it' sai vị trí đại từ.",
+      "Sai — 'Fill it out and send back it.': 'send back it' sai vị trí đại từ.",
+      "Sai — 'Fill out it and send back it.': đại từ phải đứng giữa động từ và tiểu từ.",
+      "Đúng — đại từ đứng giữa động từ và tiểu từ ở cả hai cụm."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u4-three-word",
+    "tags": [
+      "pvr-u4-three-word"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence is missing a word in a three-word phrasal verb?",
+    "choices": [
+      "We ran out milk.",
+      "She gets along with everyone.",
+      "I look forward to your reply.",
+      "We ran out of milk."
+    ],
+    "correctIndex": 0,
+    "explanation": "run out of + danh từ.",
+    "choiceExplanations": [
+      "Đúng — thiếu giới từ 'of': ran out of milk.",
+      "Sai — 'She gets along with everyone.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'I look forward to your reply.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'We ran out of milk.': câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u4-three-word",
+    "tags": [
+      "pvr-u4-three-word"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence uses the wrong form after the three-word verb look forward to?",
+    "choices": [
+      "I'm looking forward to meet you.",
+      "She is looking forward to seeing us.",
+      "I'm looking forward to meeting you.",
+      "I'm looking forward to the party."
+    ],
+    "correctIndex": 0,
+    "explanation": "look forward to + danh từ hoặc V-ing.",
+    "choiceExplanations": [
+      "Đúng — sau 'look forward to' dùng V-ing: meeting.",
+      "Sai — 'She is looking forward to seeing us.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'I'm looking forward to meeting you.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'I'm looking forward to the party.': câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u5-passive",
+    "tags": [
+      "pvr-u5-passive"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The children ______ by their grandmother while their parents work.",
+    "choices": [
+      "are looking after",
+      "are looked",
+      "look after",
+      "are looked after"
+    ],
+    "correctIndex": 3,
+    "explanation": "be + looked after = được chăm sóc.",
+    "choiceExplanations": [
+      "Sai — 'are looking after': dạng chủ động tiếp diễn, không hợp với 'by'.",
+      "Sai — 'are looked': thiếu tiểu từ 'after' nên mất nghĩa chăm sóc.",
+      "Sai — 'look after': dạng chủ động, không hợp với 'by their grandmother'.",
+      "Đúng — 'look after' ở bị động: are looked after."
+    ]
+  },
+  {
+    "id": "en-phrasal-verb-rules-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "phrasal-verb-rules",
+    "usageId": "pvr-u5-passive",
+    "tags": [
+      "pvr-u5-passive"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Tìm câu sai",
+    "prompt": "Which passive sentence has lost its particle?",
+    "choices": [
+      "The game was put by the rain.",
+      "The old bridge was torn down.",
+      "The plan was called off.",
+      "The game was put off by the rain."
+    ],
+    "correctIndex": 0,
+    "explanation": "Giữ tiểu từ khi chuyển sang bị động.",
+    "choiceExplanations": [
+      "Đúng — thiếu tiểu từ 'off': was put off.",
+      "Sai — 'The old bridge was torn down.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'The plan was called off.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'The game was put off by the rain.': câu này đúng nên không phải đáp án cần chọn."
+    ]
+  }
+]

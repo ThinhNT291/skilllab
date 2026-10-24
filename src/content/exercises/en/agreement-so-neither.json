@@ -1,0 +1,842 @@
+[
+  {
+    "id": "en-agreement-so-neither-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u1-so-agreement",
+    "tags": [
+      "asr-u1-so-agreement"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: I enjoy pasta. B: So ______ I.",
+    "choices": [
+      "am",
+      "did",
+      "have",
+      "do"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hiện tại đơn → So do/does + S.",
+    "choiceExplanations": [
+      "Sai — 'am': 'am' là trợ động từ của be, còn câu gốc dùng động từ thường 'enjoy'.",
+      "Sai — 'did': 'did' dùng cho quá khứ, còn 'enjoy' ở hiện tại.",
+      "Sai — 'have': 'have' dùng cho thì hoàn thành, còn câu gốc ở hiện tại đơn.",
+      "Đúng — câu gốc ở hiện tại đơn (enjoy) nên trả lời bằng do: So do I."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u1-so-agreement",
+    "tags": [
+      "asr-u1-so-agreement"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: I'm thirsty. B: So ______ I.",
+    "choices": [
+      "do",
+      "did",
+      "have",
+      "am"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu gốc có be → trả lời bằng be.",
+    "choiceExplanations": [
+      "Sai — 'do': 'do' dùng cho động từ thường, còn câu gốc dùng be (am).",
+      "Sai — 'did': 'did' dùng cho quá khứ, còn 'I'm' ở hiện tại.",
+      "Sai — 'have': 'have' dùng cho thì hoàn thành, còn câu gốc dùng be.",
+      "Đúng — câu gốc dùng be (am) nên trả lời bằng am: So am I."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u1-so-agreement",
+    "tags": [
+      "asr-u1-so-agreement"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: My cousin plays chess. B: So ______ my uncle.",
+    "choices": [
+      "does",
+      "do",
+      "plays",
+      "is"
+    ],
+    "correctIndex": 0,
+    "explanation": "So does/do + chủ ngữ.",
+    "choiceExplanations": [
+      "Đúng — câu gốc ở hiện tại đơn, chủ ngữ số ít: So does my uncle.",
+      "Sai — 'do': 'my uncle' là ngôi thứ ba số ít nên dùng does.",
+      "Sai — 'plays': trả lời phải dùng trợ động từ (does), không lặp lại động từ chính.",
+      "Sai — 'is': 'is' dùng với be, còn câu gốc dùng động từ thường 'plays'."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u3-too-either",
+    "tags": [
+      "asr-u3-too-either"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm hungry, and he is ______.",
+    "choices": [
+      "so",
+      "too",
+      "either",
+      "neither"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu khẳng định + too.",
+    "choiceExplanations": [
+      "Sai — 'so': 'so' mở đầu câu trả lời (So do I), không đứng cuối câu như 'too'.",
+      "Đúng — câu khẳng định nên dùng too ở cuối câu.",
+      "Sai — 'either': 'either' dùng sau câu phủ định, còn đây là câu khẳng định.",
+      "Sai — 'neither': 'neither' mở đầu câu trả lời (Neither do I), không đứng cuối câu như 'too' hay 'either'."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u3-too-either",
+    "tags": [
+      "asr-u3-too-either"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My dad doesn't use a laptop, and I don't ______.",
+    "choices": [
+      "too",
+      "neither",
+      "so",
+      "either"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu phủ định + either.",
+    "choiceExplanations": [
+      "Sai — 'too': 'too' dùng sau câu khẳng định, còn đây là câu phủ định.",
+      "Sai — 'neither': 'neither' mở đầu câu trả lời (Neither do I), không đứng cuối câu như 'too' hay 'either'.",
+      "Sai — 'so': 'so' mở đầu câu trả lời (So do I), không đứng cuối câu như 'too'.",
+      "Đúng — câu phủ định nên dùng either ở cuối câu."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u3-too-either",
+    "tags": [
+      "asr-u3-too-either"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My brother speaks French, and my sister ______.",
+    "choices": [
+      "do too",
+      "is too",
+      "does too",
+      "does either"
+    ],
+    "correctIndex": 2,
+    "explanation": "S + does/do + too.",
+    "choiceExplanations": [
+      "Sai — 'do too': 'my sister' là số ít nên dùng does.",
+      "Sai — 'is too': 'is' dùng với be, còn câu gốc dùng động từ thường 'speaks'.",
+      "Đúng — câu gốc ở hiện tại đơn, chủ ngữ số ít: does too.",
+      "Sai — 'does either': 'either' dùng sau câu phủ định, còn đây là câu khẳng định."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u4-choosing-auxiliary",
+    "tags": [
+      "asr-u4-choosing-auxiliary"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: We visited my aunt on Sunday. B: So ______ they.",
+    "choices": [
+      "do",
+      "did",
+      "were",
+      "have"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quá khứ đơn → So did + S.",
+    "choiceExplanations": [
+      "Sai — 'do': 'do' dùng cho hiện tại, còn 'visited' ở quá khứ.",
+      "Đúng — câu gốc ở quá khứ đơn (visited) nên trả lời bằng did.",
+      "Sai — 'were': 'were' dùng với be, còn câu gốc dùng động từ thường 'visited'.",
+      "Sai — 'have': 'have' dùng cho thì hoàn thành, còn câu gốc ở quá khứ đơn."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u4-choosing-auxiliary",
+    "tags": [
+      "asr-u4-choosing-auxiliary"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: I've already eaten. B: So ______ I.",
+    "choices": [
+      "have",
+      "will",
+      "do",
+      "am"
+    ],
+    "correctIndex": 0,
+    "explanation": "So + trợ động từ khớp với trợ động từ gốc (have).",
+    "choiceExplanations": [
+      "Đúng — 'I've' là I have (hiện tại hoàn thành) nên đáp lại bằng So have I.",
+      "Sai — 'will': 'will' không khớp với 'have'.",
+      "Sai — 'do': 'do' không khớp với 'have' (hiện tại hoàn thành).",
+      "Sai — 'am': 'am' không khớp với 'have'."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u2-neither-agreement",
+    "tags": [
+      "asr-u2-neither-agreement"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: I don't need a ruler. B: Neither ______ I.",
+    "choices": [
+      "do",
+      "don't",
+      "am",
+      "did"
+    ],
+    "correctIndex": 0,
+    "explanation": "Neither + do/does + S (khẳng định).",
+    "choiceExplanations": [
+      "Đúng — câu gốc phủ định ở hiện tại đơn; sau Neither dùng do (khẳng định).",
+      "Sai — 'don't': sau Neither phải dùng dạng khẳng định (do); 'don't' tạo phủ định kép.",
+      "Sai — 'am': 'am' dùng với be, còn câu gốc dùng động từ thường.",
+      "Sai — 'did': 'did' dùng cho quá khứ, còn câu gốc ở hiện tại."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u2-neither-agreement",
+    "tags": [
+      "asr-u2-neither-agreement"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: She isn't ready. B: Neither ______ he.",
+    "choices": [
+      "is",
+      "has",
+      "does",
+      "isn't"
+    ],
+    "correctIndex": 0,
+    "explanation": "Neither + be + S (khẳng định).",
+    "choiceExplanations": [
+      "Đúng — câu gốc dùng be nên trả lời bằng is (dạng khẳng định).",
+      "Sai — 'has': 'has' dùng cho thì hoàn thành, còn câu gốc dùng be.",
+      "Sai — 'does': 'does' dùng cho động từ thường, còn câu gốc dùng be.",
+      "Sai — 'isn't': sau Neither phải dùng dạng khẳng định (is); 'isn't' tạo phủ định kép."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u1-so-agreement",
+    "tags": [
+      "asr-u1-so-agreement"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Nobody called me last night. B: Neither ______ I.",
+    "choices": [
+      "do",
+      "am",
+      "did",
+      "didn't"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Nobody' mang nghĩa phủ định → Neither + trợ động từ cùng thì.",
+    "choiceExplanations": [
+      "Sai — 'do': vế gốc ở quá khứ nên không dùng do (hiện tại).",
+      "Sai — 'am': vế gốc không dùng động từ 'be' nên không dùng am.",
+      "Đúng — 'Nobody' mang nghĩa phủ định và vế gốc ở quá khứ đơn nên đáp lại bằng Neither did I.",
+      "Sai — 'didn't': Neither đã mang nghĩa phủ định, nên không thêm 'n't'."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u1-so-agreement",
+    "tags": [
+      "asr-u1-so-agreement"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: I'm not ready yet. B: Neither ______ I.",
+    "choices": [
+      "do",
+      "am",
+      "have",
+      "don't"
+    ],
+    "correctIndex": 1,
+    "explanation": "Neither + am/is/are khi vế gốc dùng 'be'.",
+    "choiceExplanations": [
+      "Sai — 'do': vế gốc dùng 'be' nên không dùng do.",
+      "Đúng — vế gốc dùng 'be' (I'm not) nên đáp lại bằng Neither am I.",
+      "Sai — 'have': vế gốc dùng 'be' nên không dùng have.",
+      "Sai — 'don't': Neither đã mang nghĩa phủ định, nên không thêm 'n't'."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u2-neither-agreement",
+    "tags": [
+      "asr-u2-neither-agreement"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: I didn't see the movie. B: Neither ______ I.",
+    "choices": [
+      "have",
+      "did",
+      "do",
+      "was"
+    ],
+    "correctIndex": 1,
+    "explanation": "Neither + trợ động từ cùng thì với vế gốc.",
+    "choiceExplanations": [
+      "Sai — 'have': 'have' khớp với hiện tại hoàn thành, không khớp với 'didn't'.",
+      "Đúng — vế gốc là quá khứ đơn phủ định (didn't) nên đáp lại bằng Neither did I.",
+      "Sai — 'do': 'do' ở hiện tại, không khớp với 'didn't' (quá khứ).",
+      "Sai — 'was': 'was' là động từ 'be', không khớp với 'didn't see'."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u2-neither-agreement",
+    "tags": [
+      "asr-u2-neither-agreement"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: They haven't called. B: Nor ______ we.",
+    "choices": [
+      "haven't",
+      "are",
+      "do",
+      "have"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nor + have/has + S (khẳng định).",
+    "choiceExplanations": [
+      "Sai — 'haven't': sau Nor phải dùng dạng khẳng định (have); 'haven't' tạo phủ định kép.",
+      "Sai — 'are': 'are' dùng với be, còn câu gốc có 'haven't called'.",
+      "Sai — 'do': 'do' dùng cho hiện tại đơn, còn câu gốc ở hiện tại hoàn thành.",
+      "Đúng — câu gốc ở hiện tại hoàn thành; sau Nor dùng have (khẳng định)."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u3-too-either",
+    "tags": [
+      "asr-u3-too-either"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Lan isn't coming, and Minh isn't ______.",
+    "choices": [
+      "too",
+      "either",
+      "neither",
+      "so"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu phủ định + either.",
+    "choiceExplanations": [
+      "Sai — 'too': 'too' dùng sau câu khẳng định, còn đây là câu phủ định.",
+      "Đúng — câu phủ định nên dùng either.",
+      "Sai — 'neither': 'neither' mở đầu câu trả lời (Neither do I), không đứng cuối câu như 'too' hay 'either'.",
+      "Sai — 'so': 'so' mở đầu câu trả lời (So do I), không đứng cuối câu như 'too'."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u3-too-either",
+    "tags": [
+      "asr-u3-too-either"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Linh was late, and Nam was ______.",
+    "choices": [
+      "too",
+      "so",
+      "either",
+      "neither"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu khẳng định + too.",
+    "choiceExplanations": [
+      "Đúng — câu khẳng định nên dùng too.",
+      "Sai — 'so': 'so' mở đầu câu trả lời (So do I), không đứng cuối câu như 'too'.",
+      "Sai — 'either': 'either' dùng sau câu phủ định, còn đây là câu khẳng định.",
+      "Sai — 'neither': 'neither' mở đầu câu trả lời (Neither do I), không đứng cuối câu như 'too' hay 'either'."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u4-choosing-auxiliary",
+    "tags": [
+      "asr-u4-choosing-auxiliary"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: I'd like to go to the park. B: So ______ I.",
+    "choices": [
+      "do",
+      "would",
+      "could",
+      "am"
+    ],
+    "correctIndex": 1,
+    "explanation": "So + trợ động từ khớp với trợ động từ gốc (would).",
+    "choiceExplanations": [
+      "Sai — 'do': 'do' không khớp với 'would'.",
+      "Đúng — 'I'd' ở đây là I would nên đáp lại bằng So would I.",
+      "Sai — 'could': 'could' không khớp với 'would'.",
+      "Sai — 'am': 'am' không khớp với 'would'."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u2-neither-agreement",
+    "tags": [
+      "asr-u2-neither-agreement"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn câu trả lời đúng",
+    "prompt": "Choose the correct reply to: 'We have never been to Japan.'",
+    "choices": [
+      "So have I.",
+      "Neither have I.",
+      "Neither haven't I.",
+      "Neither do I."
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu có never là phủ định → dùng Neither.",
+    "choiceExplanations": [
+      "Sai — 'So have I.': 'So' dùng với câu khẳng định, còn câu gốc là phủ định (never).",
+      "Đúng — câu gốc có 'never' nên mang nghĩa phủ định; trả lời Neither have I.",
+      "Sai — 'Neither haven't I.': sau Neither phải dùng dạng khẳng định (have); 'haven't' tạo phủ định kép.",
+      "Sai — 'Neither do I.': 'do' không khớp với 'have been'; phải dùng have."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u5-short-replies",
+    "tags": [
+      "asr-u5-short-replies"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: I like cats. B: Me ______.",
+    "choices": [
+      "too",
+      "either",
+      "so",
+      "neither"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu khẳng định → Me too.",
+    "choiceExplanations": [
+      "Đúng — câu gốc khẳng định nên dùng Me too.",
+      "Sai — 'either': 'either' dùng sau câu phủ định, và không dùng trong 'Me ...' khi đáp câu khẳng định.",
+      "Sai — 'so': 'Me so' không dùng; cách đúng là Me too hoặc So do I.",
+      "Sai — 'neither': 'neither' dùng với câu phủ định, còn đây là câu khẳng định."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u5-short-replies",
+    "tags": [
+      "asr-u5-short-replies"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: I don't like cats. B: Me ______.",
+    "choices": [
+      "neither",
+      "also",
+      "too",
+      "so"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu phủ định → Me neither. (Trong tiếng Anh Mỹ thân mật cũng hay nghe 'Me either', nhưng bài này dùng dạng chuẩn Me neither.)",
+    "choiceExplanations": [
+      "Đúng — câu gốc phủ định nên dùng Me neither.",
+      "Sai — 'also': 'Me also' không dùng; cách đúng là Me neither hoặc Neither do I.",
+      "Sai — 'too': 'too' dùng với câu khẳng định, còn đây là câu phủ định.",
+      "Sai — 'so': 'Me so' không dùng; cách đúng là Me neither hoặc Neither do I."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u4-choosing-auxiliary",
+    "tags": [
+      "asr-u4-choosing-auxiliary"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: I wish I had a dog. B: So ______ I.",
+    "choices": [
+      "would",
+      "do",
+      "had",
+      "am"
+    ],
+    "correctIndex": 1,
+    "explanation": "So + trợ động từ khớp với động từ chính (wish → do).",
+    "choiceExplanations": [
+      "Sai — 'would': 'would' không khớp với động từ chính 'wish' (hiện tại đơn).",
+      "Đúng — 'wish' chia ở hiện tại đơn nên trợ động từ là do: So do I.",
+      "Sai — 'had': 'had' không khớp với động từ chính 'wish' (hiện tại đơn).",
+      "Sai — 'am': vế gốc không dùng động từ 'be' nên không dùng am."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u2-neither-agreement",
+    "tags": [
+      "asr-u2-neither-agreement"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Which reply is correct for 'My dad doesn't drive'?",
+    "choices": [
+      "Neither does my mom.",
+      "So does my mom.",
+      "Neither doesn't my mom.",
+      "Neither do my mom."
+    ],
+    "correctIndex": 0,
+    "explanation": "Neither + does + S (số ít).",
+    "choiceExplanations": [
+      "Đúng — câu gốc phủ định ở hiện tại đơn, chủ ngữ số ít: Neither does my mom.",
+      "Sai — 'So does my mom.': 'So' dùng với câu khẳng định, còn câu gốc là phủ định.",
+      "Sai — 'Neither doesn't my mom.': sau Neither phải dùng dạng khẳng định (does); 'doesn't' tạo phủ định kép.",
+      "Sai — 'Neither do my mom.': 'my mom' là số ít nên dùng does, không dùng do."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u2-neither-agreement",
+    "tags": [
+      "asr-u2-neither-agreement"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Tìm câu sai",
+    "prompt": "Which short reply is INCORRECT?",
+    "choices": [
+      "Neither was he.",
+      "Neither do I.",
+      "Nor has she.",
+      "Neither doesn't he know the answer."
+    ],
+    "correctIndex": 3,
+    "explanation": "Neither + trợ động từ khẳng định + S.",
+    "choiceExplanations": [
+      "Không chọn — 'Neither was he.' câu này đúng nên không phải đáp án cần chọn.",
+      "Không chọn — 'Neither do I.' câu này đúng nên không phải đáp án cần chọn.",
+      "Không chọn — 'Nor has she.' câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — sau Neither phải dùng dạng khẳng định: Neither does he know..."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u3-too-either",
+    "tags": [
+      "asr-u3-too-either"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence uses 'too' correctly?",
+    "choices": [
+      "My brother likes jazz, and I don't, too.",
+      "My brother likes jazz, and I do, neither.",
+      "My brother likes jazz, and I do, either.",
+      "My brother likes jazz, and I do, too."
+    ],
+    "correctIndex": 3,
+    "explanation": "Khẳng định + too; phủ định + either.",
+    "choiceExplanations": [
+      "Sai — 'My brother likes jazz, and I don't, too.': 'too' dùng sau câu khẳng định; 'I don't' là phủ định.",
+      "Sai — 'My brother likes jazz, and I do, neither.': 'neither' mở đầu câu trả lời (Neither do I), không đứng cuối câu như 'too' hay 'either'.",
+      "Sai — 'My brother likes jazz, and I do, either.': 'either' dùng sau câu phủ định, còn đây là câu khẳng định.",
+      "Đúng — câu gốc khẳng định nên dùng too ở cuối câu."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u4-choosing-auxiliary",
+    "tags": [
+      "asr-u4-choosing-auxiliary"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: They were watching TV at nine last night. B: So ______ we.",
+    "choices": [
+      "did",
+      "are",
+      "had",
+      "were"
+    ],
+    "correctIndex": 3,
+    "explanation": "So + trợ động từ cùng thì (were).",
+    "choiceExplanations": [
+      "Sai — 'did': 'did' không khớp với 'were watching'.",
+      "Sai — 'are': 'are' ở hiện tại, không khớp với 'were'.",
+      "Sai — 'had': 'had' không khớp với 'were watching'.",
+      "Đúng — vế gốc là quá khứ tiếp diễn (were watching) nên đáp lại bằng So were we."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u4-choosing-auxiliary",
+    "tags": [
+      "asr-u4-choosing-auxiliary"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: You must finish your homework first. B: So ______ you.",
+    "choices": [
+      "do",
+      "did",
+      "must",
+      "are"
+    ],
+    "correctIndex": 2,
+    "explanation": "So + động từ khuyết thiếu giống vế gốc.",
+    "choiceExplanations": [
+      "Sai — 'do': 'do' không khớp với động từ khuyết thiếu 'must'.",
+      "Sai — 'did': 'did' không khớp với 'must'.",
+      "Đúng — vế gốc có 'must' nên đáp lại bằng So must you.",
+      "Sai — 'are': 'are' không khớp với 'must'."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u5-short-replies",
+    "tags": [
+      "asr-u5-short-replies"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn câu trả lời đúng",
+    "prompt": "A: I'm really tired today. You disagree. Choose the best reply.",
+    "choices": [
+      "So am I.",
+      "Me too.",
+      "I'm not.",
+      "Neither am I."
+    ],
+    "correctIndex": 2,
+    "explanation": "Không đồng ý: dùng lại 'be' ở dạng ngược lại (I'm not).",
+    "choiceExplanations": [
+      "Sai — 'So am I.': đây là câu đồng ý, không phải không đồng ý.",
+      "Sai — 'Me too.': đây là câu đồng ý, không phải không đồng ý.",
+      "Đúng — không đồng ý với câu khẳng định dùng 'be' thì đáp lại bằng 'I'm not.'",
+      "Sai — 'Neither am I.': Neither dùng để đồng ý với câu phủ định, không dùng ở đây."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u5-short-replies",
+    "tags": [
+      "asr-u5-short-replies"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Chọn câu trả lời đúng",
+    "prompt": "Which reply agrees with 'I can't swim'?",
+    "choices": [
+      "Me too.",
+      "So can I.",
+      "Me neither.",
+      "Neither can't I."
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu phủ định → Me neither hoặc Neither can I.",
+    "choiceExplanations": [
+      "Sai — 'Me too.': thường nghe trong lời nói thân mật nhưng dễ hiểu nhầm với câu phủ định; chuẩn nhất là Me neither.",
+      "Sai — 'So can I.': 'So' dùng với câu khẳng định, còn câu gốc là phủ định.",
+      "Đúng — câu gốc phủ định nên đồng tình bằng Me neither.",
+      "Sai — 'Neither can't I.': sau Neither phải dùng dạng khẳng định (can); 'can't' tạo phủ định kép."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u5-short-replies",
+    "tags": [
+      "asr-u5-short-replies"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn câu trả lời đúng",
+    "prompt": "A: I didn't enjoy the concert. B: ______ I thought it was great.",
+    "choices": [
+      "Neither did I.",
+      "So did I.",
+      "I did.",
+      "I didn't."
+    ],
+    "correctIndex": 2,
+    "explanation": "Không đồng ý với câu phủ định: trả lời khẳng định bằng trợ động từ (I did).",
+    "choiceExplanations": [
+      "Sai — 'Neither did I.': 'Neither did I' nghĩa là cũng không thích, mâu thuẫn với 'I thought it was great'.",
+      "Sai — 'So did I.': 'So did I' dùng khi đồng tình với câu khẳng định, còn câu gốc là phủ định.",
+      "Đúng — B không đồng ý (thấy hay) nên dùng I did.",
+      "Sai — 'I didn't.': 'I didn't' nghĩa là cũng không thích, mâu thuẫn với 'I thought it was great'."
+    ]
+  },
+  {
+    "id": "en-agreement-so-neither-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "agreement-so-neither",
+    "usageId": "asr-u2-neither-agreement",
+    "tags": [
+      "asr-u2-neither-agreement"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: My sister rarely watches TV. B: Neither ______ I.",
+    "choices": [
+      "don't",
+      "am",
+      "do",
+      "did"
+    ],
+    "correctIndex": 2,
+    "explanation": "'rarely' mang nghĩa phủ định → Neither do I.",
+    "choiceExplanations": [
+      "Sai — 'don't': Neither đã mang nghĩa phủ định, nên không thêm 'n't' (phủ định kép).",
+      "Sai — 'am': vế gốc dùng 'watches' (hiện tại đơn) nên trợ động từ phải là do, không phải am.",
+      "Đúng — 'rarely' mang nghĩa phủ định, nên đáp lại bằng Neither + trợ động từ hiện tại: Neither do I.",
+      "Sai — 'did': vế gốc ở hiện tại đơn nên không dùng did (quá khứ)."
+    ]
+  }
+]

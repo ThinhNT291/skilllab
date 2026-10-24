@@ -1,0 +1,842 @@
+[
+  {
+    "id": "en-future-continuous-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u1-in-progress-at-future-time",
+    "tags": [
+      "fc-u1-in-progress-at-future-time"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This time tomorrow, I ______ (fly) to Da Nang.",
+    "choices": [
+      "flew",
+      "will be fly",
+      "will flying",
+      "will be flying"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hành động đang diễn ra tại một thời điểm cụ thể trong tương lai dùng will be + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'flew': 'tomorrow' chỉ tương lai nên không dùng quá khứ đơn.",
+      "Sai — 'will be fly': sau 'be' phải dùng V-ing (flying), không dùng nguyên thể.",
+      "Sai — 'will flying': thiếu 'be'; sau will phải có be rồi mới đến V-ing.",
+      "Đúng — 'This time tomorrow' là thời điểm cụ thể trong tương lai và hành động sẽ đang diễn ra: will be + V-ing."
+    ]
+  },
+  {
+    "id": "en-future-continuous-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u1-in-progress-at-future-time",
+    "tags": [
+      "fc-u1-in-progress-at-future-time"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "At 8 p.m. tonight, we ______ (have) dinner with my grandparents.",
+    "choices": [
+      "will be have",
+      "will be having",
+      "had",
+      "will having"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mốc giờ cụ thể trong tương lai đi với will be + V-ing để nói hành động đang diễn ra.",
+    "choiceExplanations": [
+      "Sai — 'will be have': sau 'be' phải là V-ing (having), không phải nguyên thể.",
+      "Đúng — 'At 8 p.m. tonight' là thời điểm cụ thể ở tương lai gần, hành động đang diễn ra: will be having.",
+      "Sai — 'had': 'tonight' chỉ tương lai nên không dùng quá khứ đơn.",
+      "Sai — 'will having': thiếu 'be'; will phải đi với be + V-ing."
+    ]
+  },
+  {
+    "id": "en-future-continuous-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u1-in-progress-at-future-time",
+    "tags": [
+      "fc-u1-in-progress-at-future-time"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Don't call me at noon tomorrow. I ______ (take) an exam then.",
+    "choices": [
+      "took",
+      "will be take",
+      "will be taking",
+      "will taking"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nói bạn sẽ bận làm gì vào một giờ cụ thể thì dùng will be + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'took': 'tomorrow' chỉ tương lai nên không dùng quá khứ đơn.",
+      "Sai — 'will be take': sau 'be' phải là V-ing (taking).",
+      "Đúng — 'at noon tomorrow' và 'then' chỉ một thời điểm tương lai, hành động đang diễn ra: will be taking.",
+      "Sai — 'will taking': thiếu 'be'."
+    ]
+  },
+  {
+    "id": "en-future-continuous-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u5-form",
+    "tags": [
+      "fc-u5-form"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the sentence that uses the future continuous correctly.",
+    "choices": [
+      "At 7 a.m. tomorrow, I will be drive to work.",
+      "At 7 a.m. tomorrow, I will be driving to work.",
+      "At 7 a.m. tomorrow, I am be driving to work.",
+      "At 7 a.m. tomorrow, I will driving to work."
+    ],
+    "correctIndex": 1,
+    "explanation": "Cấu trúc đầy đủ: will + be + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'At 7 a.m. tomorrow, I will be drive to work.': sau 'be' phải là V-ing (driving).",
+      "Đúng — đúng cấu trúc will be + V-ing.",
+      "Sai — 'At 7 a.m. tomorrow, I am be driving to work.': 'am be' không tồn tại; công thức là will be + V-ing.",
+      "Sai — 'At 7 a.m. tomorrow, I will driving to work.': thiếu 'be' sau will."
+    ]
+  },
+  {
+    "id": "en-future-continuous-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u5-form",
+    "tags": [
+      "fc-u5-form"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They ______ (not/work) at this time next Sunday.",
+    "choices": [
+      "won't be working",
+      "won't working",
+      "won't be work",
+      "don't be working"
+    ],
+    "correctIndex": 0,
+    "explanation": "Phủ định: will not (won't) be + V-ing.",
+    "choiceExplanations": [
+      "Đúng — phủ định: won't be + V-ing.",
+      "Sai — 'won't working': thiếu 'be'.",
+      "Sai — 'won't be work': sau 'be' phải là V-ing (working).",
+      "Sai — 'don't be working': trợ động từ của tương lai là will/won't, không dùng don't."
+    ]
+  },
+  {
+    "id": "en-future-continuous-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u5-form",
+    "tags": [
+      "fc-u5-form"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you ______ (study) in the library at 9 p.m. tomorrow?",
+    "choices": [
+      "Do / be studying",
+      "Will / be studying",
+      "Will / studying",
+      "Will / be study"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu hỏi: Will + S + be + V-ing?",
+    "choiceExplanations": [
+      "Sai — 'Do / be studying': câu hỏi tương lai tiếp diễn bắt đầu bằng Will, không dùng Do.",
+      "Đúng — câu hỏi: Will + chủ ngữ + be + V-ing.",
+      "Sai — 'Will / studying': thiếu 'be' trước V-ing.",
+      "Sai — 'Will / be study': sau 'be' phải là V-ing (studying)."
+    ]
+  },
+  {
+    "id": "en-future-continuous-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u6-state-verbs",
+    "tags": [
+      "fc-u6-state-verbs"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In a few weeks, you ______ (know) all your classmates by name.",
+    "choices": [
+      "will be knowing",
+      "will knowing",
+      "will be know",
+      "will know"
+    ],
+    "correctIndex": 3,
+    "explanation": "Động từ chỉ trạng thái (know, believe, like...) dùng will + V, không dùng will be + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'will be knowing': 'know' là động từ chỉ trạng thái, thường không dùng dạng -ing.",
+      "Sai — 'will knowing': thiếu 'be' và 'know' cũng không dùng -ing.",
+      "Sai — 'will be know': sai hình thức: sau 'be' phải là V-ing, mà 'know' không dùng -ing.",
+      "Đúng — 'know' là động từ chỉ trạng thái nên dùng will + V nguyên thể: will know."
+    ]
+  },
+  {
+    "id": "en-future-continuous-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u6-state-verbs",
+    "tags": [
+      "fc-u6-state-verbs"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm sure you ______ (believe) me when you see the evidence.",
+    "choices": [
+      "will be believe",
+      "will be believing",
+      "will believing",
+      "will believe"
+    ],
+    "correctIndex": 3,
+    "explanation": "Động từ chỉ trạng thái không dùng thì tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — 'will be believe': sai hình thức: sau 'be' phải là V-ing.",
+      "Sai — 'will be believing': 'believe' (tin) là động từ chỉ trạng thái, thường không dùng dạng -ing.",
+      "Sai — 'will believing': thiếu 'be' và 'believe' không dùng -ing.",
+      "Đúng — 'believe' là động từ chỉ trạng thái nên dùng will + V: will believe."
+    ]
+  },
+  {
+    "id": "en-future-continuous-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u2-arrangements-planned",
+    "tags": [
+      "fc-u2-arrangements-planned"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ (see) Lan at school tomorrow, so I can give her your book.",
+    "choices": [
+      "saw",
+      "will be seeing",
+      "will be see",
+      "will seeing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Việc sẽ xảy ra theo kế hoạch hoặc lẽ thường, nói 'tiện thể', dùng will be + V-ing. Lưu ý: 'I will see Lan' vẫn đúng ngữ pháp, nhưng nghe như người nói vừa quyết định gặp Lan. Lưu ý: will + V hoặc am going to cũng đúng ngữ pháp nhưng sắc thái khác (không nhấn mạnh việc đã sắp xếp hoặc diễn ra như thường lệ).",
+    "choiceExplanations": [
+      "Sai — 'saw': 'tomorrow' chỉ tương lai nên không dùng quá khứ đơn.",
+      "Đúng — nói về việc đã có trong lịch ('tiện thể' gặp Lan): will be seeing.",
+      "Sai — 'will be see': sau 'be' phải là V-ing (seeing).",
+      "Sai — 'will seeing': thiếu 'be'."
+    ]
+  },
+  {
+    "id": "en-future-continuous-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u4-assumptions-about-now",
+    "tags": [
+      "fc-u4-assumptions-about-now"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Don't call Mai now. It's 11 p.m., so she ______ (sleep).",
+    "choices": [
+      "slept",
+      "will be sleep",
+      "will be sleeping",
+      "will sleeping"
+    ],
+    "correctIndex": 2,
+    "explanation": "Will be + V-ing cũng dùng để đoán việc đang xảy ra ở hiện tại.",
+    "choiceExplanations": [
+      "Sai — 'slept': đang nói về lúc này (now), không dùng quá khứ đơn.",
+      "Sai — 'will be sleep': sau 'be' phải là V-ing (sleeping).",
+      "Đúng — đoán việc đang xảy ra ngay lúc này (11 giờ đêm): will be sleeping.",
+      "Sai — 'will sleeping': thiếu 'be'."
+    ]
+  },
+  {
+    "id": "en-future-continuous-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u7-time-clauses",
+    "tags": [
+      "fc-u7-time-clauses"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "While you are taking the exam tomorrow morning, I ______ (work) in the garden.",
+    "choices": [
+      "will working",
+      "will be working",
+      "will be work",
+      "had worked"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nói hành động đang diễn ra song song với một việc khác trong tương lai.",
+    "choiceExplanations": [
+      "Sai — 'will working': thiếu 'be'.",
+      "Đúng — hai hành động diễn ra song song trong tương lai, hành động của tôi đang diễn ra: will be working.",
+      "Sai — 'will be work': sau 'be' phải là V-ing (working).",
+      "Sai — 'had worked': 'tomorrow morning' chỉ tương lai nên không dùng quá khứ hoàn thành."
+    ]
+  },
+  {
+    "id": "en-future-continuous-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u1-in-progress-at-future-time",
+    "tags": [
+      "fc-u1-in-progress-at-future-time"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This time next year, we ______ (live) in a new apartment in Ho Chi Minh City.",
+    "choices": [
+      "will living",
+      "will be living",
+      "will be live",
+      "lived"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mốc thời gian tương lai kèm 'this time' đi với will be + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'will living': thiếu 'be'.",
+      "Đúng — 'This time next year' là mốc cụ thể trong tương lai: will be living.",
+      "Sai — 'will be live': sau 'be' phải là V-ing (living).",
+      "Sai — 'lived': 'next year' chỉ tương lai nên không dùng quá khứ đơn."
+    ]
+  },
+  {
+    "id": "en-future-continuous-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u2-arrangements-planned",
+    "tags": [
+      "fc-u2-arrangements-planned"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mom ______ (go) to the market later, so she can buy the bread for us.",
+    "choices": [
+      "will be go",
+      "will be going",
+      "will going",
+      "went"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dùng will be + V-ing để nói việc xảy ra theo kế hoạch sẵn có. Lưu ý: will + V hoặc am going to cũng đúng ngữ pháp nhưng sắc thái khác (không nhấn mạnh việc đã sắp xếp hoặc diễn ra như thường lệ).",
+    "choiceExplanations": [
+      "Sai — 'will be go': sau 'be' phải là V-ing (going).",
+      "Đúng — việc đã có trong kế hoạch của mẹ, nói 'tiện thể': will be going.",
+      "Sai — 'will going': thiếu 'be'.",
+      "Sai — 'went': 'later' chỉ tương lai nên không dùng quá khứ đơn."
+    ]
+  },
+  {
+    "id": "en-future-continuous-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u2-arrangements-planned",
+    "tags": [
+      "fc-u2-arrangements-planned"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ (visit) the museum on Friday anyway, so I can pick up your tickets.",
+    "choices": [
+      "will be visiting",
+      "will visiting",
+      "will be visit",
+      "visited"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Anyway' (dù sao cũng) cho thấy đây là việc đã có kế hoạch, hợp với will be + V-ing. Lưu ý: will + V hoặc am going to cũng đúng ngữ pháp nhưng sắc thái khác (không nhấn mạnh việc đã sắp xếp hoặc diễn ra như thường lệ).",
+    "choiceExplanations": [
+      "Đúng — việc đã có trong lịch, nên 'tiện thể' lấy vé giúp: will be visiting.",
+      "Sai — 'will visiting': thiếu 'be'.",
+      "Sai — 'will be visit': sau 'be' phải là V-ing (visiting).",
+      "Sai — 'visited': 'on Friday' ở đây chỉ tương lai nên không dùng quá khứ đơn."
+    ]
+  },
+  {
+    "id": "en-future-continuous-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u3-polite-questions",
+    "tags": [
+      "fc-u3-polite-questions"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you ______ (use) the printer this afternoon? I need to print a report.",
+    "choices": [
+      "Do / be using",
+      "Will / be use",
+      "Will / be using",
+      "Will / using"
+    ],
+    "correctIndex": 2,
+    "explanation": "Will you be + V-ing? là cách hỏi lịch sự về kế hoạch của người khác.",
+    "choiceExplanations": [
+      "Sai — 'Do / be using': câu hỏi tương lai tiếp diễn bắt đầu bằng Will, không dùng Do.",
+      "Sai — 'Will / be use': sau 'be' phải là V-ing (using).",
+      "Đúng — câu hỏi lịch sự về kế hoạch của người khác: Will you be using?",
+      "Sai — 'Will / using': thiếu 'be' trước V-ing."
+    ]
+  },
+  {
+    "id": "en-future-continuous-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u3-polite-questions",
+    "tags": [
+      "fc-u3-polite-questions"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ your parents ______ (come) to the school meeting on Saturday?",
+    "choices": [
+      "Will / coming",
+      "Does / be coming",
+      "Will / be coming",
+      "Will / be come"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu hỏi về kế hoạch người khác: Will + S + be + V-ing?",
+    "choiceExplanations": [
+      "Sai — 'Will / coming': thiếu 'be' trước V-ing.",
+      "Sai — 'Does / be coming': 'Does be' không tồn tại; câu hỏi tương lai dùng Will với mọi chủ ngữ.",
+      "Đúng — hỏi lịch sự về kế hoạch của bố mẹ: Will your parents be coming?",
+      "Sai — 'Will / be come': sau 'be' phải là V-ing (coming)."
+    ]
+  },
+  {
+    "id": "en-future-continuous-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u4-assumptions-about-now",
+    "tags": [
+      "fc-u4-assumptions-about-now"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's 3 p.m. now. Mr. Nam is at the office, so he ______ (work) at his desk right now.",
+    "choices": [
+      "will be working",
+      "will working",
+      "will be work",
+      "worked"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đoán việc đang xảy ra ở hiện tại dùng will be + V-ing, cần có dấu hiệu như now, right now.",
+    "choiceExplanations": [
+      "Đúng — đoán việc đang xảy ra ngay lúc này dựa vào hoàn cảnh (đang ở văn phòng): will be working.",
+      "Sai — 'will working': thiếu 'be'.",
+      "Sai — 'will be work': sau 'be' phải là V-ing (working).",
+      "Sai — 'worked': 'right now' chỉ hiện tại nên không dùng quá khứ đơn."
+    ]
+  },
+  {
+    "id": "en-future-continuous-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u5-form",
+    "tags": [
+      "fc-u5-form"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She ______ (not/come) to the party this Saturday, so we will miss her.",
+    "choices": [
+      "won't be coming",
+      "won't coming",
+      "doesn't be coming",
+      "won't be come"
+    ],
+    "correctIndex": 0,
+    "explanation": "Phủ định tương lai tiếp diễn: won't be + V-ing.",
+    "choiceExplanations": [
+      "Đúng — phủ định: won't be + V-ing.",
+      "Sai — 'won't coming': thiếu 'be'.",
+      "Sai — 'doesn't be coming': 'doesn't be' không tồn tại; phủ định tương lai dùng won't.",
+      "Sai — 'won't be come': sau 'be' phải là V-ing (coming)."
+    ]
+  },
+  {
+    "id": "en-future-continuous-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u6-state-verbs",
+    "tags": [
+      "fc-u6-state-verbs"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ (not/know) the results until tomorrow evening.",
+    "choices": [
+      "won't know",
+      "don't be know",
+      "won't knowing",
+      "won't be knowing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Động từ chỉ trạng thái dùng won't + V, không dùng won't be + V-ing.",
+    "choiceExplanations": [
+      "Đúng — 'know' là động từ chỉ trạng thái nên dùng won't + V: won't know.",
+      "Sai — 'don't be know': không tồn tại cấu trúc này; phủ định tương lai dùng won't + V.",
+      "Sai — 'won't knowing': thiếu 'be' và 'know' cũng không dùng -ing.",
+      "Sai — 'won't be knowing': 'know' thường không dùng dạng -ing."
+    ]
+  },
+  {
+    "id": "en-future-continuous-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u6-state-verbs",
+    "tags": [
+      "fc-u6-state-verbs"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm sure the audience ______ (prefer) the second performance.",
+    "choices": [
+      "will preferring",
+      "will be prefer",
+      "will prefer",
+      "will be preferring"
+    ],
+    "correctIndex": 2,
+    "explanation": "Động từ chỉ sở thích, nhận thức không chia tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — 'will preferring': thiếu 'be' và 'prefer' không dùng -ing.",
+      "Sai — 'will be prefer': sai hình thức: sau 'be' phải là V-ing.",
+      "Đúng — 'prefer' là động từ chỉ trạng thái (thích hơn) nên dùng will + V: will prefer.",
+      "Sai — 'will be preferring': 'prefer' chỉ sở thích nên thường không dùng dạng -ing."
+    ]
+  },
+  {
+    "id": "en-future-continuous-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u7-time-clauses",
+    "tags": [
+      "fc-u7-time-clauses"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When you ______ (arrive) at the airport tomorrow, I ______ (wait) at Gate 5.",
+    "choices": [
+      "arrive / will be waiting",
+      "arrives / will be waiting",
+      "arrive / will waiting",
+      "will arrive / will be waiting"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề thời gian dùng hiện tại đơn, mệnh đề chính dùng will be + V-ing.",
+    "choiceExplanations": [
+      "Đúng — mệnh đề thời gian với 'When' dùng hiện tại đơn (arrive); mệnh đề chính dùng will be waiting vì hành động đang diễn ra.",
+      "Sai — 'arrives / will be waiting': 'you' không thêm -s: arrive.",
+      "Sai — 'arrive / will waiting': thiếu 'be' trước waiting.",
+      "Sai — 'will arrive / will be waiting': trong mệnh đề thời gian với 'When' không dùng will; dùng hiện tại đơn."
+    ]
+  },
+  {
+    "id": "en-future-continuous-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u2-arrangements-planned",
+    "tags": [
+      "fc-u2-arrangements-planned"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ (go) to the supermarket this afternoon. Do you want me to buy anything?",
+    "choices": [
+      "will be going",
+      "went",
+      "will be go",
+      "will going"
+    ],
+    "correctIndex": 0,
+    "explanation": "Will be + V-ing nói việc đã định hoặc sẽ xảy ra, hợp để hỏi 'tiện thể' giúp ai. Lưu ý: will + V hoặc am going to cũng đúng ngữ pháp nhưng sắc thái khác (không nhấn mạnh việc đã sắp xếp hoặc diễn ra như thường lệ).",
+    "choiceExplanations": [
+      "Đúng — việc đã có trong kế hoạch, hỏi người khác có cần gì không: will be going.",
+      "Sai — 'went': 'this afternoon' (chưa qua) và câu hỏi nhờ vả cho thấy việc chưa xảy ra nên không dùng quá khứ đơn.",
+      "Sai — 'will be go': sau 'be' phải là V-ing (going).",
+      "Sai — 'will going': thiếu 'be'."
+    ]
+  },
+  {
+    "id": "en-future-continuous-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u3-polite-questions",
+    "tags": [
+      "fc-u3-polite-questions"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Excuse me, ______ you ______ (pass) the post office on your way home? I need to send a letter.",
+    "choices": [
+      "Will / be passing",
+      "Will / be pass",
+      "Do / be passing",
+      "Will / passing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hỏi lịch sự về kế hoạch người khác trước khi nhờ giúp.",
+    "choiceExplanations": [
+      "Đúng — câu hỏi lịch sự về hành trình của người khác trước khi nhờ giúp: Will you be passing?",
+      "Sai — 'Will / be pass': sau 'be' phải là V-ing (passing).",
+      "Sai — 'Do / be passing': câu hỏi tương lai tiếp diễn bắt đầu bằng Will, không dùng Do.",
+      "Sai — 'Will / passing': thiếu 'be' trước V-ing."
+    ]
+  },
+  {
+    "id": "en-future-continuous-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u3-polite-questions",
+    "tags": [
+      "fc-u3-polite-questions"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Sorry to ask, but ______ the manager ______ (attend) tomorrow's meeting? We need his approval.",
+    "choices": [
+      "Will / attending",
+      "Does / be attending",
+      "Will / be attend",
+      "Will / be attending"
+    ],
+    "correctIndex": 3,
+    "explanation": "Will + S + be + V-ing? hỏi kế hoạch người khác một cách lịch sự.",
+    "choiceExplanations": [
+      "Sai — 'Will / attending': thiếu 'be' trước V-ing.",
+      "Sai — 'Does / be attending': 'Does be' không tồn tại; câu hỏi tương lai dùng Will.",
+      "Sai — 'Will / be attend': sau 'be' phải là V-ing (attending).",
+      "Đúng — hỏi lịch sự về kế hoạch của quản lý: Will the manager be attending?"
+    ]
+  },
+  {
+    "id": "en-future-continuous-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u4-assumptions-about-now",
+    "tags": [
+      "fc-u4-assumptions-about-now"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's Saturday night, so the neighbors ______ (have) a party again, I suppose.",
+    "choices": [
+      "had",
+      "will be having",
+      "will be have",
+      "will having"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đoán việc đang xảy ra ở hiện tại dựa trên hoàn cảnh (tối thứ Bảy) bằng will be + V-ing. Cách nói này nâng cao; trong đời thường người ta cũng hay nói 'must be having'.",
+    "choiceExplanations": [
+      "Sai — 'had': đang đoán về lúc này (Saturday night) nên không dùng quá khứ đơn.",
+      "Đúng — đoán việc đang xảy ra ngay lúc này (nhạc đang to): will be having.",
+      "Sai — 'will be have': sau 'be' phải là V-ing (having).",
+      "Sai — 'will having': thiếu 'be'."
+    ]
+  },
+  {
+    "id": "en-future-continuous-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u4-assumptions-about-now",
+    "tags": [
+      "fc-u4-assumptions-about-now"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My parents are on holiday in Italy now. They ______ (enjoy) the sunshine there.",
+    "choices": [
+      "enjoyed",
+      "will be enjoy",
+      "will enjoying",
+      "will be enjoying"
+    ],
+    "correctIndex": 3,
+    "explanation": "Đoán việc đang diễn ra ở hiện tại dựa trên hoàn cảnh (bố mẹ đang đi nghỉ). Trong đời thường người ta cũng hay nói 'are probably enjoying'.",
+    "choiceExplanations": [
+      "Sai — 'enjoyed': 'now' chỉ hiện tại nên không dùng quá khứ đơn.",
+      "Sai — 'will be enjoy': sau 'be' phải là V-ing (enjoying).",
+      "Sai — 'will enjoying': thiếu 'be' trước enjoying.",
+      "Đúng — đoán việc đang xảy ra lúc này (đang đi nghỉ ở Ý): will be enjoying."
+    ]
+  },
+  {
+    "id": "en-future-continuous-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u5-form",
+    "tags": [
+      "fc-u5-form"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which question is correct?",
+    "choices": [
+      "Will you waiting for us at the station?",
+      "Do you be waiting for us at the station?",
+      "Will be you waiting for us at the station?",
+      "Will you be waiting for us at the station?"
+    ],
+    "correctIndex": 3,
+    "explanation": "Thứ tự câu hỏi: Will + chủ ngữ + be + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'Will you waiting for us at the station?': thiếu 'be' trước waiting.",
+      "Sai — 'Do you be waiting for us at the station?': câu hỏi tương lai tiếp diễn bắt đầu bằng Will, không dùng Do.",
+      "Sai — 'Will be you waiting for us at the station?': chủ ngữ phải đứng sau Will: Will you be...?",
+      "Đúng — đúng cấu trúc Will + S + be + V-ing?"
+    ]
+  },
+  {
+    "id": "en-future-continuous-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u5-form",
+    "tags": [
+      "fc-u5-form"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence about a negative future plan is INCORRECT?",
+    "choices": [
+      "He won't be coming to the party.",
+      "They won't be attending the meeting.",
+      "I won't being studying tonight.",
+      "She won't be working on Sunday."
+    ],
+    "correctIndex": 2,
+    "explanation": "Phủ định: won't be + V-ing, không dùng won't being.",
+    "choiceExplanations": [
+      "Không chọn — 'He won't be coming to the party.' đây là câu đúng nên không phải đáp án cần chọn.",
+      "Không chọn — 'They won't be attending the meeting.' đây là câu đúng nên không phải đáp án cần chọn.",
+      "Đúng — dùng 'being' sau won't là sai; phải là won't be studying.",
+      "Không chọn — 'She won't be working on Sunday.' đây là câu đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-future-continuous-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u6-state-verbs",
+    "tags": [
+      "fc-u6-state-verbs"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence about states or ownership is INCORRECT?",
+    "choices": [
+      "I'm sure she will love the present.",
+      "I'll be having lunch with my cousin at noon tomorrow.",
+      "By Friday, you will know the exam results.",
+      "They will be owning a big house next year."
+    ],
+    "correctIndex": 3,
+    "explanation": "Động từ chỉ sở hữu và trạng thái không chia tiếp diễn.",
+    "choiceExplanations": [
+      "Không chọn — 'I'm sure she will love the present.' 'love' dùng will + V; đây là câu đúng nên không phải đáp án.",
+      "Không chọn — 'I'll be having lunch with my cousin at noon tomorrow.' 'have lunch' là hành động, dùng được dạng tiếp diễn; đây là câu đúng nên không phải đáp án.",
+      "Không chọn — 'By Friday, you will know the exam results.' 'know' dùng will + V; đây là câu đúng nên không phải đáp án.",
+      "Đúng — 'own' là động từ chỉ sở hữu nên thường không dùng dạng -ing; phải là will own."
+    ]
+  },
+  {
+    "id": "en-future-continuous-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-continuous",
+    "usageId": "fc-u6-state-verbs",
+    "tags": [
+      "fc-u6-state-verbs"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Next Monday, Tom ______ (think) about his decision, but he ______ (not/know) the answer yet.",
+    "choices": [
+      "will be thinking / won't be knowing",
+      "will think / won't be knowing",
+      "will be thinking / won't know",
+      "will thinking / won't know"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cùng một câu có thể có động từ hành động (dùng tiếp diễn) và động từ trạng thái (không dùng tiếp diễn).",
+    "choiceExplanations": [
+      "Sai — 'will be thinking / won't be knowing': 'know' là động từ chỉ trạng thái, thường không dùng dạng -ing.",
+      "Sai — 'will think / won't be knowing': 'know' thường không dùng dạng -ing, nên đáp án này sai.",
+      "Đúng — 'think' (suy nghĩ) là hành động đang diễn ra nên dùng will be thinking; 'know' là trạng thái nên dùng won't know.",
+      "Sai — 'will thinking / won't know': thiếu 'be' trước thinking."
+    ]
+  }
+]

@@ -24,7 +24,8 @@
       "Sai — 'may' diễn tả sự cho phép hoặc khả năng xảy ra, không phù hợp để nói về kỹ năng đã có trong quá khứ.",
       "Đúng — 'could' thể hiện khả năng bơi lội nói chung trong quá khứ (thời thơ ấu), không phải một lần cụ thể.",
       "Sai — 'must' diễn tả nghĩa vụ hoặc suy đoán, không liên quan đến khả năng bơi."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-modal-verbs-002",
@@ -51,7 +52,8 @@
       "Sai — 'should' dùng để hỏi ý kiến/lời khuyên, không phải xin phép.",
       "Sai — 'had better' không dùng ở dạng câu hỏi xin phép, mà mang tính cảnh báo.",
       "Sai — dùng 'must' để hỏi xin phép nghe rất kỳ lạ và không tự nhiên trong tiếng Anh."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-003",
@@ -78,7 +80,8 @@
       "Đúng — quy định giao thông là nghĩa vụ khách quan do luật pháp đặt ra, phù hợp với 'have to'.",
       "Sai — 'may' diễn tả sự cho phép hoặc suy đoán, không phù hợp với quy tắc bắt buộc.",
       "Sai — 'could' diễn tả khả năng, không diễn tả quy định bắt buộc."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-004",
@@ -105,7 +108,8 @@
       "Sai — 'must not' diễn tả sự cấm đoán, trái ngược hoàn toàn với ý khuyên nên đi khám.",
       "Sai — 'can' diễn tả khả năng/sự cho phép, không phải lời khuyên.",
       "Đúng — đây là lời khuyên chung về sức khỏe, phù hợp với 'should'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-005",
@@ -132,7 +136,8 @@
       "Đúng — dựa trên bằng chứng rõ ràng (áo khoác dày, mũ, găng tay), người nói suy đoán gần như chắc chắn là trời rất lạnh.",
       "Sai — 'can' không dùng để diễn tả suy đoán chắc chắn ở hiện tại theo cách này.",
       "Sai — 'have to' diễn tả nghĩa vụ khách quan, không dùng để suy đoán về thời tiết."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-modal-verbs-006",
@@ -159,7 +164,8 @@
       "Sai — 'may' diễn tả sự cho phép hoặc khả năng xảy ra, không phải kỹ năng hiện có.",
       "Sai — 'must' diễn tả nghĩa vụ hoặc suy đoán, không phù hợp để nói về kỹ năng.",
       "Đúng — diễn tả khả năng ở hiện tại (em trai giờ đã biết đi xe đạp)."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-modal-verbs-007",
@@ -186,7 +192,8 @@
       "Sai — 'had better' mang tính cảnh báo mạnh, không phù hợp với ngữ cảnh thông báo quyền lợi.",
       "Sai — 'must not' diễn tả sự cấm đoán, trái ngược với việc công ty cho phép nghỉ.",
       "Đúng — 'may' diễn tả sự cho phép một cách trang trọng, phù hợp với quy định của công ty cho phép nghỉ giải lao."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-008",
@@ -213,7 +220,8 @@
       "Sai — 'may' diễn tả sự cho phép, không phải bắt buộc.",
       "Sai — 'could' diễn tả khả năng, không diễn tả nghĩa vụ.",
       "Sai — 'would' không dùng để diễn tả nghĩa vụ/bắt buộc."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-009",
@@ -240,7 +248,8 @@
       "Đúng — cảnh báo mạnh cho tình huống trước mắt (thuyết trình vào sáng mai), nếu không làm sẽ có hậu quả xấu.",
       "Sai — 'may' diễn tả sự cho phép hoặc khả năng, không phù hợp với ngữ cảnh khuyên nhủ mạnh.",
       "Sai — 'can' diễn tả khả năng, không phải lời khuyên/cảnh báo."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-010",
@@ -267,7 +276,8 @@
       "Đúng — dựa trên bằng chứng (chưa ăn gì từ sáng), suy đoán gần như chắc chắn là anh ấy đói.",
       "Sai — 'should' diễn tả kỳ vọng/lời khuyên, không phải suy đoán chắc chắn dựa trên bằng chứng cụ thể.",
       "Sai — 'can't' diễn tả suy đoán chắc chắn điều ngược lại (không đói), trái với logic của câu."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-modal-verbs-011",
@@ -294,7 +304,8 @@
       "Sai — 'could' chỉ dùng cho khả năng chung trong quá khứ, không phù hợp để nói về một thành tích cụ thể một lần.",
       "Đúng — diễn tả một thành công CỤ THỂ, một lần trong quá khứ (giải cứu được gia đình mắc kẹt), nên dùng 'were able to' chứ không dùng 'could'.",
       "Sai — 'should' là lời khuyên, không phù hợp với ngữ cảnh kể lại một hành động đã xảy ra."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-modal-verbs-012",
@@ -321,7 +332,8 @@
       "Sai — diễn tả không có khả năng, trong khi ở đây vấn đề là không được PHÉP chứ không phải không có khả năng.",
       "Sai — cấu trúc này mang nghĩa 'không nên phải làm gì đó' (thường vì bất công), không phù hợp với quy định cấm.",
       "Sai — 'don't have to' diễn tả KHÔNG bắt buộc (vẫn được phép làm nếu muốn), khác hoàn toàn với việc bị cấm rời phòng."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-013",
@@ -348,7 +360,8 @@
       "Sai — 'may' diễn tả sự cho phép, không phải nghĩa vụ.",
       "Đúng — thể hiện nghĩa vụ mang tính CHỦ QUAN, xuất phát từ cảm giác trách nhiệm của chính người nói ('tôi cảm thấy mình nợ đội của mình').",
       "Sai — 'could' diễn tả khả năng, không diễn tả nghĩa vụ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-014",
@@ -375,7 +388,8 @@
       "Đúng — cấu trúc cảnh báo mạnh, thường đi kèm hậu quả xấu cụ thể nếu không làm theo ('or you'll be stuck for hours'), rất phù hợp với 'had better'.",
       "Sai — 'may' diễn tả sự cho phép/khả năng, không phải lời khuyên hay cảnh báo.",
       "Sai — 'must not' diễn tả sự cấm đoán, không phù hợp vì câu đang khuyên nên đi đường nào, không phải cấm đoán."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-015",
@@ -402,7 +416,8 @@
       "Sai — 'must' diễn tả suy đoán gần như CHẮC CHẮN, mâu thuẫn với việc người nói tự nói rằng mình không chắc.",
       "Đúng — người nói không chắc chắn hoàn toàn ('not completely sure'), nên dùng 'might' để diễn tả khả năng ở mức độ vừa phải, không chắc chắn tuyệt đối.",
       "Sai — 'can't' diễn tả suy đoán chắc chắn điều ngược lại, không phù hợp với ngữ cảnh nghi ngờ nhẹ."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-modal-verbs-016",
@@ -429,7 +444,8 @@
       "Đúng — đây là một thành công cụ thể, một lần (lắp được kệ ngay lần đầu dù không hiểu tiếng Pháp), nên dùng 'was able to'.",
       "Sai — 'could' dùng cho khả năng chung, không phù hợp để nhấn mạnh một thành tích cụ thể, một lần như trong câu.",
       "Sai — sai thì, ngữ cảnh là quá khứ."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-modal-verbs-017",
@@ -456,7 +472,8 @@
       "Sai — 'must' dùng để hỏi xin phép nghe không tự nhiên/không đúng ngữ cảnh trang trọng này (dù cấu trúc modal+S+V vẫn hợp lệ về mặt hình thức).",
       "Sai — 'should' dùng để hỏi ý kiến/lời khuyên, không phải xin phép một cách trang trọng.",
       "Đúng — 'May I...?' là cách xin phép rất trang trọng, phù hợp với email gửi giáo sư."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-018",
@@ -483,7 +500,8 @@
       "Sai — 'can't' diễn tả không có khả năng hoặc suy đoán phủ định, không phù hợp với ngữ cảnh này.",
       "Sai — 'shouldn't' diễn tả lời khuyên không nên làm gì, không phù hợp với ý 'không cần thiết'.",
       "Sai — 'must not' diễn tả sự CẤM ĐOÁN (bị cấm đến văn phòng), trong khi câu chỉ có nghĩa là không cần thiết phải đến, chứ không phải bị cấm."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-019",
@@ -510,7 +528,8 @@
       "Sai — 'may' diễn tả sự cho phép hoặc khả năng xảy ra, không phù hợp với việc đưa ra lời khuyên.",
       "Đúng — 'ought to' mang nghĩa tương đương 'should', dùng để đưa ra lời khuyên hợp lý dựa trên tình huống (ho kéo dài hai tuần).",
       "Sai — 'must not' diễn tả sự cấm đoán, hoàn toàn trái ngược với ý khuyên nên đi khám bác sĩ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-020",
@@ -537,7 +556,8 @@
       "Sai — 'must' diễn tả suy đoán khẳng định (chắc chắn đúng), ngược hoàn toàn với ý nghi ngờ trong câu.",
       "Sai — 'should' diễn tả kỳ vọng/lời khuyên, không phù hợp để diễn tả sự nghi ngờ mạnh mẽ về tính đúng đắn.",
       "Sai — 'may' diễn tả khả năng không chắc chắn, không đủ mạnh để diễn tả sự phủ định chắc chắn mà câu muốn nói."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-modal-verbs-021",
@@ -564,7 +584,8 @@
       "Sai — 'shouldn't' diễn tả lời khuyên không nên làm, không phù hợp vì câu không phản đối việc gửi qua bưu điện, chỉ nói rằng không bắt buộc nữa.",
       "Đúng — câu nói rõ 'vẫn được chào đón gửi qua đường bưu điện nếu muốn', nghĩa là việc gửi qua bưu điện không còn BẮT BUỘC nữa, chứ không phải bị CẤM — đúng nghĩa 'don't have to'.",
       "Sai — đây là bẫy kinh điển: 'must not' nghĩa là bị CẤM hoàn toàn, nhưng câu lại nói rõ vẫn được phép gửi qua bưu điện nếu muốn, nên 'must not' sai về nghĩa."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-022",
@@ -591,7 +612,8 @@
       "Sai — 'should' là lời khuyên, không diễn tả một thành tích đã đạt được.",
       "Đúng — đây là một thành tích CỤ THỂ, xảy ra một lần (buổi biểu diễn tối qua), nên phải dùng 'was able to' dù trước đó có nền tảng khả năng chung (học piano nhiều năm).",
       "Sai — đây chính là bẫy phổ biến: dù có khả năng chung trong quá khứ (học nhiều năm), nhưng vì câu nói về MỘT sự kiện cụ thể (buổi biểu diễn tối qua) nên không dùng 'could', mà phải dùng 'was able to'."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-modal-verbs-023",
@@ -618,7 +640,8 @@
       "Sai — dù 'must' cũng có thể diễn tả nghĩa vụ, nhưng câu đang nhấn mạnh đây là QUY ĐỊNH khách quan của hãng bay (không phải cảm nhận chủ quan của người nói) và đối lập rõ với phần sau nói về ý muốn cá nhân, nên 'have to' phù hợp hơn.",
       "Sai — 'could' diễn tả khả năng, không phù hợp với ngữ cảnh nói về quy định bắt buộc.",
       "Đúng — nghĩa vụ này đến từ QUY ĐỊNH của hãng hàng không (yếu tố khách quan bên ngoài), nên dùng 'have to' là chính xác nhất, đặc biệt khi câu sau đối lập với ý kiến CHỦ QUAN cá nhân của người nói."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-024",
@@ -645,7 +668,8 @@
       "Sai — 'can't' diễn tả suy đoán phủ định chắc chắn (chắc chắn KHÔNG có gì sai), trái ngược với logic của bằng chứng được đưa ra trong câu.",
       "Sai — 'will' diễn tả dự đoán/quyết định tương lai, không dùng để suy đoán về TÌNH TRẠNG hiện tại dựa trên bằng chứng.",
       "Đúng — dựa trên bằng chứng cụ thể (đèn sáng nhưng không ai trả lời dù thường lệ chỉ hai hồi chuông), người nói suy đoán gần như chắc chắn có điều gì đó không ổn."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-modal-verbs-025",
@@ -672,7 +696,8 @@
       "Sai — 'needn't' nghĩa là 'không cần phải', làm câu vô nghĩa ('không cần phải phớt lờ cảnh báo').",
       "Sai — diễn tả không có khả năng, hoàn toàn sai nghĩa so với ý cảnh báo không nên bỏ qua lời khuyên của bác sĩ.",
       "Sai — 'may not' diễn tả sự không được phép hoặc khả năng thấp, không phù hợp với ngữ cảnh cảnh báo về sức khỏe."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-026",
@@ -699,7 +724,8 @@
       "Đúng — 'may not' diễn tả sự KHÔNG được phép (cấm) một cách trang trọng, phù hợp với biển báo/nội quy khu vực yên tĩnh.",
       "Sai — 'used to' diễn tả một thói quen/tình trạng đã từng đúng trong quá khứ nhưng nay không còn, không phù hợp với 1 quy định đang áp dụng ở hiện tại.",
       "Sai — bẫy dễ nhầm: 'don't have to' nghĩa là KHÔNG BẮT BUỘC (vẫn được phép làm nếu muốn), trong khi câu này đang nói về việc bị CẤM gọi điện thoại tại đây, hai ý hoàn toàn khác nhau."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-027",
@@ -726,7 +752,8 @@
       "Đúng — đây là một tuyên bố mang tính CHUNG về khả năng trong một giai đoạn dài (20 năm trước, nói chung), nên dùng 'couldn't' (phủ định của 'could') là phù hợp nhất.",
       "Sai — sai thì, câu đang nói về quá khứ ('hai mươi năm trước'), 'can't' chỉ dùng cho hiện tại.",
       "Sai — 'mustn't' diễn tả sự cấm đoán/bắt buộc không được làm, không liên quan đến khả năng công nghệ trong câu này."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-modal-verbs-028",
@@ -753,7 +780,8 @@
       "Sai — 'should' diễn tả lời khuyên, không liên quan đến việc được phép lái xe theo luật khi đó.",
       "Sai — 'must' diễn tả nghĩa vụ bắt buộc, không phù hợp với ý 'được phép'.",
       "Đúng — 'could' ở đây diễn tả sự CHO PHÉP trong quá khứ (được phép lái xe ở tuổi 16 vào thời điểm đó), một cách dùng phổ biến của 'could' cho permission trong quá khứ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-029",
@@ -780,7 +808,8 @@
       "Sai — 'can't' diễn tả không có khả năng hoặc suy đoán phủ định, không phù hợp với ngữ cảnh đưa ra lời khuyên.",
       "Sai — diễn tả không có khả năng thể chất, không phù hợp với việc khuyên ai đó không nên hành động vội vàng.",
       "Sai — 'don't have to' diễn tả điều không bắt buộc, không mang nghĩa khuyên can/cảnh báo như câu này yêu cầu."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-modal-verbs-030",
@@ -807,6 +836,7 @@
       "Sai — 'can't' diễn tả suy đoán phủ định (chắc chắn KHÔNG đi vắng), trái ngược hoàn toàn với bằng chứng được đưa ra trong câu.",
       "Sai — 'don't have to' diễn tả điều không bắt buộc, hoàn toàn không liên quan đến việc suy đoán một sự việc.",
       "Sai — 'should' diễn tả kỳ vọng hoặc lời khuyên, không phù hợp để diễn tả một suy đoán chắc chắn dựa trên bằng chứng quan sát được."
-    ]
+    ],
+    "bac": 3
   }
 ]

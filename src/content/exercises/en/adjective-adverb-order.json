@@ -24,7 +24,8 @@
       "Sai — kích thước (small) không được đứng trước ý kiến (lovely).",
       "Sai — kích thước (small) bị đặt trước ý kiến (lovely), sai thứ tự.",
       "Đúng — đúng thứ tự OSASCOMP: ý kiến (lovely) → kích thước (small) → nguồn gốc (French)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-002",
@@ -51,7 +52,8 @@
       "Sai — chất liệu (wooden) bị đặt lên đầu, trong khi nó phải đứng sau cùng.",
       "Sai — hình dáng (round) không được đứng trước tuổi (old).",
       "Sai — hình dáng (round) bị đặt trước tuổi (old), sai thứ tự."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-003",
@@ -78,7 +80,8 @@
       "Đúng — đúng thứ tự OSASCOMP: ý kiến (fascinating) → tuổi (ancient) → nguồn gốc (Egyptian).",
       "Sai — tuổi (ancient) không được đứng trước ý kiến (fascinating).",
       "Sai — nguồn gốc (Egyptian) bị đặt lên đầu, sai vị trí."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-004",
@@ -105,7 +108,8 @@
       "Sai — kích thước (tiny) bị đặt trước ý kiến (gorgeous).",
       "Sai — hình dáng (round) bị đặt trước cả ý kiến và kích thước.",
       "Đúng — đúng thứ tự OSASCOMP: ý kiến (gorgeous) → kích thước (tiny) → hình dáng (round) → chất liệu (silver)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-005",
@@ -132,7 +136,8 @@
       "Sai — màu sắc (black) bị đặt lên đầu, trước cả ý kiến và kích thước.",
       "Đúng — đúng thứ tự OSASCOMP: ý kiến (elegant) → kích thước (long) → màu sắc (black) → mục đích (evening).",
       "Sai — kích thước (long) bị đặt trước ý kiến (elegant)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-006",
@@ -159,7 +164,8 @@
       "Sai — trật tự từ hoàn toàn không tự nhiên, danh từ không thể đứng trước động từ như vậy.",
       "Sai — trạng từ tần suất không đứng ở cuối câu sau tân ngữ trong cách diễn đạt thông thường.",
       "Sai — 'usually' bị chen vào giữa động từ và tân ngữ, phải đứng trước động từ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adjective-adverb-order-007",
@@ -186,7 +192,8 @@
       "Đúng — với 'to be', trạng từ tần suất đứng ngay sau động từ: 'is always nervous'.",
       "Sai — 'always' phải đứng sau động từ 'is', không phải trước.",
       "Sai — trật tự từ không đúng ngữ pháp tiếng Anh."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adjective-adverb-order-008",
@@ -213,7 +220,8 @@
       "Sai — trật tự từ sai, động từ chính 'been' và trợ động từ 'has' bị đảo lộn.",
       "Sai — 'never' phải đứng sau trợ động từ 'has', không phải trước.",
       "Đúng — 'never' đứng ngay sau trợ động từ 'has', trước động từ chính 'been'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adjective-adverb-order-009",
@@ -240,7 +248,8 @@
       "Sai — thứ tự trong cụm 'hardly ever' bị đảo ngược và đặt sai vị trí.",
       "Sai — thứ tự từ trong cụm và vị trí trong câu đều sai.",
       "Đúng — 'hardly ever' đứng trước động từ thường 'watch', đúng quy tắc."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adjective-adverb-order-010",
@@ -267,7 +276,8 @@
       "Sai — 'never' phải đứng sau động từ khiếm khuyết 'should', không phải trước.",
       "Đúng — 'never' đứng ngay sau động từ khiếm khuyết 'should', trước động từ nguyên thể 'be'.",
       "Sai — trật tự từ hoàn toàn không đúng ngữ pháp."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adjective-adverb-order-011",
@@ -294,7 +304,8 @@
       "Sai — trạng ngữ thời gian bị đặt lên đầu cụm cuối câu thay vì đứng cuối cùng.",
       "Sai — thời gian bị đặt trước nơi chốn, sai thứ tự.",
       "Sai — nơi chốn bị đặt trước cách thức, sai thứ tự M-P-T."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-012",
@@ -321,7 +332,8 @@
       "Sai — thời gian bị đặt lên đầu cụm cuối câu, sai thứ tự M-P-T.",
       "Sai — thời gian bị đặt trước nơi chốn, sai thứ tự.",
       "Sai — nơi chốn bị đặt trước cách thức."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-013",
@@ -348,7 +360,8 @@
       "Sai — thời gian bị đặt trước nơi chốn, sai thứ tự.",
       "Đúng — đúng thứ tự Manner - Place - Time.",
       "Sai — thời gian bị đặt lên đầu cụm cuối câu."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-014",
@@ -375,7 +388,8 @@
       "Sai — thời gian bị đặt lên đầu cụm cuối câu.",
       "Sai — nơi chốn bị đặt trước cách thức.",
       "Sai — thời gian bị đặt trước nơi chốn, sai thứ tự."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-015",
@@ -402,7 +416,8 @@
       "Đúng — thời gian được đưa lên đầu câu để nhấn mạnh, phần sau theo đúng thứ tự Cách thức → Nơi chốn.",
       "Sai — nơi chốn bị đặt trước cách thức.",
       "Sai — thời gian bị chen vào giữa động từ và cách thức, sai vị trí."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-016",
@@ -429,7 +444,8 @@
       "Sai — trật tự từ hoàn toàn không đúng ngữ pháp.",
       "Sai — 'too' phải đứng trước tính từ 'hot', không phải sau.",
       "Sai — 'too' bị đặt ở cuối câu, sai vị trí."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-017",
@@ -456,7 +472,8 @@
       "Sai — 'enough' phải đứng sau tính từ 'old', không phải trước.",
       "Đúng — 'enough' đứng sau tính từ 'old', đúng cấu trúc 'adj + enough + to do'.",
       "Sai — 'enough' bị đặt ở cuối câu, sai vị trí."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-018",
@@ -483,7 +500,8 @@
       "Đúng — 'too' đứng trước tính từ 'nervous', đúng cấu trúc.",
       "Sai — trật tự từ hoàn toàn không đúng ngữ pháp.",
       "Sai — 'too' bị đặt ở cuối câu, sai vị trí."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-019",
@@ -510,7 +528,8 @@
       "Đúng — 'enough' đứng sau trạng từ 'fast', đúng cấu trúc 'adv + enough + to do'.",
       "Sai — trật tự từ hoàn toàn không đúng ngữ pháp.",
       "Sai — 'enough' bị đặt sai vị trí, tách rời khỏi trạng từ 'fast'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-020",
@@ -537,7 +556,8 @@
       "Sai — trật tự từ hoàn toàn không đúng ngữ pháp.",
       "Đúng — 'too' đứng trước tính từ 'heavy', đúng cấu trúc 'too + adj + to do'.",
       "Sai — 'too' phải đứng trước tính từ 'heavy', không phải sau."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-021",
@@ -564,7 +584,8 @@
       "Sai — 'bore' là động từ/danh từ, không phải tính từ phù hợp ở đây.",
       "Sai — 'bored' dùng để mô tả cảm giác của người, không phù hợp để mô tả 'the lecture'.",
       "Sai — 'bores' là dạng động từ chia ngôi thứ ba, không phải tính từ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adjective-adverb-order-022",
@@ -591,7 +612,8 @@
       "Sai — 'tires' là động từ chia ngôi thứ ba hoặc danh từ số nhiều (lốp xe), không phù hợp.",
       "Đúng — 'tired' mô tả cảm giác mệt mỏi mà chủ thể 'I' trải qua.",
       "Sai — 'tire' là động từ nguyên thể, không phải tính từ phù hợp."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adjective-adverb-order-023",
@@ -618,7 +640,8 @@
       "Sai — 'amazing' mô tả thứ gây ra sự kinh ngạc, không dùng cho người cảm nhận.",
       "Sai — 'amazes' là động từ chia ngôi thứ ba, không phải tính từ.",
       "Đúng — 'amazed' mô tả cảm giác kinh ngạc mà chủ thể 'we' trải qua."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adjective-adverb-order-024",
@@ -645,7 +668,8 @@
       "Đúng — 'shocking' mô tả 'the news' (nguyên nhân gây ra cảm giác sốc).",
       "Sai — 'shocks' là động từ chia ngôi thứ ba, không phải tính từ.",
       "Sai — 'shock' là danh từ/động từ, không phải tính từ phù hợp ở vị trí này."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adjective-adverb-order-025",
@@ -672,7 +696,8 @@
       "Sai — 'confuses' là động từ chia ngôi thứ ba, không phải tính từ.",
       "Đúng — 'confusing' mô tả 'the results' — chủ thể gây ra sự khó hiểu.",
       "Sai — 'confuse' là động từ nguyên thể, không phải tính từ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-adjective-adverb-order-026",
@@ -699,7 +724,8 @@
       "Sai — thừa mạo từ 'an' và trật tự từ không đúng ngữ pháp.",
       "Sai — 'something' không dùng mạo từ 'an' và tính từ không được đặt trước nó.",
       "Đúng — tính từ 'important' đứng ngay sau đại từ bất định 'something'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-027",
@@ -726,7 +752,8 @@
       "Đúng — tính từ 'cheap' đứng ngay sau đại từ bất định 'anything'.",
       "Sai — tính từ 'cheap' bị đặt trước 'anything', sai vị trí.",
       "Sai — thừa mạo từ 'a' và trật tự từ không đúng ngữ pháp."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-028",
@@ -753,7 +780,8 @@
       "Đúng — tính từ 'important' đứng ngay sau đại từ bất định 'anyone', đúng quy tắc.",
       "Sai — thừa mạo từ 'an' chen vào giữa 'anyone' và 'important', sai ngữ pháp.",
       "Sai — tính từ 'important' vẫn bị đặt trước 'anyone', chỉ là không thừa mạo từ."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-029",
@@ -780,7 +808,8 @@
       "Sai — tính từ 'hot' bị đặt sau cụm to-infinitive, sai thứ tự.",
       "Sai — tính từ 'hot' bị đặt trước 'something', sai vị trí.",
       "Sai — thừa mạo từ 'a' và tính từ bị đặt trước 'something'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-030",
@@ -807,6 +836,7 @@
       "Sai — trật tự từ và mạo từ thừa đều không đúng.",
       "Sai — thừa mạo từ 'an' chen vào giữa, sai ngữ pháp.",
       "Đúng — 'else' đứng ngay sau đại từ bất định 'everybody', đúng cấu trúc quen thuộc."
-    ]
+    ],
+    "bac": 3
   }
 ]

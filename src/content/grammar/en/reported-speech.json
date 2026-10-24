@@ -5,7 +5,7 @@
   "levels": [
     "B1"
   ],
-  "order": 16,
+  "order": 17,
   "category": "sentence-structure",
   "theory": {
     "usages": [
@@ -22,7 +22,8 @@
             "en": "Direct: \"I have finished my homework,\" he told me. -> Reported: He told me (that) he had finished his homework.",
             "vi": "Động từ 'have finished' (hiện tại hoàn thành) lùi thành 'had finished' (quá khứ hoàn thành); đại từ sở hữu 'my' đổi thành 'his' cho phù hợp với chủ thể mới."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "rs-u2-yes-no-questions",
@@ -37,7 +38,8 @@
             "en": "Direct: \"Have you finished the report?\" he asked. -> Reported: He asked whether I had finished the report.",
             "vi": "Trật tự 'Have you finished' đổi thành 'I had finished' (lùi thì hiện tại hoàn thành -> quá khứ hoàn thành), nối bằng 'whether' thay cho 'if'."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "rs-u3-wh-questions",
@@ -52,7 +54,8 @@
             "en": "Direct: \"What time will the train arrive?\" she asked. -> Reported: She asked what time the train would arrive.",
             "vi": "Cụm từ để hỏi 'what time' giữ nguyên vị trí đầu mệnh đề tường thuật; 'will' lùi thành 'would', trật tự chuyển về khẳng định 'the train would arrive'."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "rs-u4-commands-requests",
@@ -67,7 +70,8 @@
             "en": "Direct: \"Don't touch that wire!\" the teacher said to the students. -> Reported: The teacher told the students not to touch that wire.",
             "vi": "Câu mệnh lệnh phủ định (Don't + V) chuyển thành 'told + O + not + to V', từ 'not' đứng ngay trước 'to touch'."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "rs-u5-time-place-pronoun-changes",
@@ -82,7 +86,8 @@
             "en": "Direct: \"I bought this laptop three days ago,\" she said. -> Reported: She said (that) she had bought that laptop three days before.",
             "vi": "'this' đổi thành 'that', 'ago' đổi thành 'before'; động từ 'bought' lùi thành 'had bought' theo quy tắc lùi thì."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

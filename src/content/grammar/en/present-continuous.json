@@ -23,7 +23,8 @@
             "en": "Look! Those two dogs are chasing each other around the yard.",
             "vi": "Nhìn kìa! Hai con chó đó đang đuổi nhau quanh sân."
           }
-        ]
+        ],
+        "bac": 1
       },
       {
         "id": "pc-u2-temporary-around-now",
@@ -38,7 +39,8 @@
             "en": "I'm taking an online course on data analysis this semester.",
             "vi": "Học kỳ này tôi đang học một khóa học trực tuyến về phân tích dữ liệu."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "pc-u3-future-arrangement",
@@ -53,12 +55,13 @@
             "en": "The manager is flying to Da Nang next Monday for a client meeting.",
             "vi": "Vị quản lý sẽ bay đến Đà Nẵng vào thứ Hai tới để họp với khách hàng."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "pc-u4-changing-trend",
         "label": "Xu hướng thay đổi, phát triển dần theo thời gian",
-        "explanationVi": "Diễn tả một xu hướng đang thay đổi hoặc phát triển dần dần, thường đi kèm các từ như 'increasingly', 'more and more', 'fewer and fewer'.",
+        "explanationVi": "Diễn tả một xu hướng đang thay đổi hoặc phát triển dần dần, thường đi kèm các từ như 'increasingly', 'more and more', 'fewer and fewer'. Với tính từ so sánh, dạng lặp cũng hay gặp: The weather is getting warmer and warmer.",
         "examples": [
           {
             "en": "More and more young people are choosing to work remotely nowadays.",
@@ -68,7 +71,8 @@
             "en": "The price of fresh vegetables is rising steadily this year.",
             "vi": "Giá rau củ tươi đang tăng đều đặn trong năm nay."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "pc-u5-annoying-habit",
@@ -83,7 +87,8 @@
             "en": "He is always interrupting me when I'm trying to explain something.",
             "vi": "Anh ấy lúc nào cũng ngắt lời tôi khi tôi đang cố giải thích điều gì đó."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "ps-vs-pc",
@@ -103,7 +108,8 @@
             "en": "I don't understand this word. Can you explain it?",
             "vi": "Tôi không hiểu từ này. Bạn giải thích được không? (không nói 'I am not understanding' vì 'understand' là state verb)"
           }
-        ]
+        ],
+        "bac": 2
       }
     ],
     "signalWords": [

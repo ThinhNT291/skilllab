@@ -1,0 +1,154 @@
+{
+  "id": "phrasal-verb-rules",
+  "language": "en",
+  "title": "Quy tắc cụm động từ (Phrasal verb rules)",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "order": 26,
+  "category": "word-classes",
+  "theory": {
+    "usages": [
+      {
+        "id": "pvr-u1-separable",
+        "bac": 3,
+        "label": "Cụm động từ tách được (separable)",
+        "explanationVi": "Với cụm động từ có tân ngữ và tách được (turn off, pick up, put on, throw away...), danh từ làm tân ngữ có thể đứng giữa động từ và tiểu từ hoặc sau tiểu từ: turn off the light = turn the light off. Cả hai cách đều đúng. Các cụm hay gặp: take off, fill out, hand back, send back, tear down, throw away, try on. Cụm không có tân ngữ (get up, run away, turn up) thì không tách và không dùng bị động.",
+        "examples": [
+          {
+            "en": "She picked up the keys. / She picked the keys up.",
+            "vi": "Cô ấy nhặt chìa khóa lên."
+          },
+          {
+            "en": "Please turn off your phones.",
+            "vi": "Làm ơn tắt điện thoại."
+          }
+        ]
+      },
+      {
+        "id": "pvr-u2-inseparable",
+        "bac": 3,
+        "label": "Cụm động từ không tách được (inseparable)",
+        "explanationVi": "Với một số cụm (look after, get over, run into, depend on, look for), tân ngữ luôn đứng SAU tiểu từ, không được chen vào giữa: look after the baby (không phải look the baby after). Nhiều cụm ở nhóm này có dạng động từ + giới từ.",
+        "examples": [
+          {
+            "en": "We ran into our teacher at the mall.",
+            "vi": "Chúng tôi tình cờ gặp thầy ở trung tâm thương mại."
+          },
+          {
+            "en": "I'm looking for my glasses.",
+            "vi": "Tôi đang tìm kính của mình."
+          }
+        ]
+      },
+      {
+        "id": "pvr-u3-pronoun",
+        "bac": 3,
+        "label": "Đại từ làm tân ngữ với cụm tách được",
+        "explanationVi": "Khi tân ngữ là đại từ (it, them, him, her, me, us), với cụm tách được thì đại từ BẮT BUỘC đứng giữa động từ và tiểu từ: turn it off, pick them up (không viết turn off it, pick up them).",
+        "examples": [
+          {
+            "en": "The music is loud. Turn it down.",
+            "vi": "Nhạc to quá. Vặn nhỏ xuống đi."
+          },
+          {
+            "en": "I found the keys and picked them up.",
+            "vi": "Tôi thấy chìa khóa và nhặt chúng lên."
+          }
+        ]
+      },
+      {
+        "id": "pvr-u4-three-word",
+        "bac": 4,
+        "label": "Cụm động từ ba từ (three-word phrasal verbs)",
+        "explanationVi": "Cụm ba từ gồm động từ + tiểu từ + giới từ (look forward to, get along with, run out of, put up with, come up with). Chúng không tách được và tân ngữ đứng sau cùng. Sau look forward to là danh từ hoặc V-ing vì 'to' ở đây là giới từ: I'm looking forward to seeing you.",
+        "examples": [
+          {
+            "en": "We ran out of milk.",
+            "vi": "Chúng tôi hết sữa rồi."
+          },
+          {
+            "en": "She gets along with her classmates.",
+            "vi": "Cô ấy hòa thuận với các bạn cùng lớp."
+          }
+        ]
+      },
+      {
+        "id": "pvr-u5-passive",
+        "bac": 4,
+        "label": "Cụm động từ ở thể bị động",
+        "explanationVi": "Cụm động từ có tân ngữ có thể chuyển sang bị động: be + V3 + tiểu từ. Tiểu từ đi liền với động từ và ở lại sau V3: The meeting was called off. The baby is looked after by a nanny. Không bỏ tiểu từ.",
+        "examples": [
+          {
+            "en": "The game was put off because of the rain.",
+            "vi": "Trận đấu bị hoãn vì mưa."
+          },
+          {
+            "en": "The children are looked after by their grandmother.",
+            "vi": "Bọn trẻ được bà trông nom."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "turn on / turn off",
+        "meaningVi": "bật / tắt (tách được)"
+      },
+      {
+        "word": "look after / look for",
+        "meaningVi": "chăm sóc / tìm kiếm (không tách được)"
+      },
+      {
+        "word": "look forward to",
+        "meaningVi": "mong chờ (ba từ, theo sau là danh từ hoặc V-ing)"
+      },
+      {
+        "word": "run out of",
+        "meaningVi": "hết, cạn (ba từ)"
+      }
+    ],
+    "formulas": {
+      "affirmative": "Tách được: V + tân ngữ + tiểu từ hoặc V + tiểu từ + tân ngữ. Không tách được: V + tiểu từ + tân ngữ.",
+      "negative": "Đại từ: V + it/them + tiểu từ. Ví dụ: pick them up.",
+      "question": "Bị động: be + V3 + tiểu từ. Ví dụ: The plan was called off."
+    },
+    "commonMistakes": [
+      {
+        "id": "pvr-m1",
+        "description": "Đặt đại từ sau tiểu từ của cụm tách được.",
+        "examples": [
+          {
+            "wrong": "Turn off it.",
+            "correct": "Turn it off."
+          }
+        ]
+      },
+      {
+        "id": "pvr-m2",
+        "description": "Tách cụm không tách được.",
+        "examples": [
+          {
+            "wrong": "She looks the baby after.",
+            "correct": "She looks after the baby."
+          }
+        ]
+      },
+      {
+        "id": "pvr-m3",
+        "description": "Bỏ tiểu từ khi chuyển sang bị động hoặc dùng V nguyên thể sau look forward to.",
+        "examples": [
+          {
+            "wrong": "The game was called.",
+            "correct": "The game was called off."
+          },
+          {
+            "wrong": "I look forward to see you.",
+            "correct": "I look forward to seeing you."
+          }
+        ]
+      }
+    ]
+  }
+}

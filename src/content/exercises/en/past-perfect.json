@@ -24,7 +24,8 @@
       "Sai. Quá khứ đơn không làm rõ việc khách rời đi TRƯỚC mốc 'chúng tôi đến', gây mơ hồ về trình tự.",
       "Sai. Hiện tại hoàn thành lấy mốc là hiện tại, không phù hợp khi mốc quy chiếu là quá khứ ('we arrived').",
       "Sai. Quá khứ tiếp diễn diễn tả hành động đang xảy ra tại một thời điểm, không phù hợp với ý 'đã hoàn tất trước mốc'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-002",
@@ -51,7 +52,8 @@
       "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra, không phù hợp với ý 'đã tạnh xong'.",
       "Sai. Hiện tại hoàn thành không phù hợp vì mốc quy chiếu ở đây là quá khứ, không phải hiện tại.",
       "Đúng. 'had stopped' cho thấy mưa tạnh trước khi trẻ con chạy ra ngoài."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-perfect-003",
@@ -78,7 +80,8 @@
       "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra tại một thời điểm, không nhấn mạnh việc đã HOÀN TẤT trước đó.",
       "Đúng. 'had worked' nêu nguyên nhân xảy ra trước tình trạng kiệt sức.",
       "Sai. Quá khứ đơn không làm rõ việc làm việc cả đêm xảy ra TRƯỚC lúc cô ấy trông kiệt sức."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-004",
@@ -105,7 +108,8 @@
       "Sai. Hiện tại hoàn thành chỉ dùng khi mốc quy chiếu là hiện tại, còn ở đây mốc là 'by 2018' trong quá khứ.",
       "Sai. Quá khứ đơn không nhấn mạnh việc hoàn tất TRƯỚC mốc thời gian đã nêu.",
       "Sai. Quá khứ tiếp diễn không phù hợp để diễn tả một việc đã hoàn tất."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-005",
@@ -132,7 +136,8 @@
       "Đúng. 'had ended' nhấn mạnh phim đã kết thúc trước khi mọi người đứng dậy.",
       "Sai. Hiện tại đơn không phù hợp với ngữ cảnh kể chuyện quá khứ.",
       "Sai. Quá khứ tiếp diễn diễn tả hành động đang xảy ra, không phù hợp với ý 'đã kết thúc xong'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-perfect-006",
@@ -159,7 +164,8 @@
       "Sai. 'wish' đòi hỏi 'had + V-p2' khi tiếc nuối về quá khứ, không dùng quá khứ đơn.",
       "Sai. Hiện tại hoàn thành không đi cùng cấu trúc 'wish' để diễn tả tiếc nuối quá khứ.",
       "Đúng. 'wish + had + V-p2' diễn tả tiếc nuối về quá khứ."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-007",
@@ -186,7 +192,8 @@
       "Sai. Hiện tại đơn không phù hợp trong câu chuyện quá khứ.",
       "Sai. Quá khứ tiếp diễn không nhấn mạnh việc đã hoàn tất/xảy ra xong.",
       "Sai. Quá khứ đơn khiến hai sự việc có vẻ xảy ra cùng lúc thay vì việc lỡ hạn xảy ra TRƯỚC."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-008",
@@ -213,7 +220,8 @@
       "Sai. Hiện tại hoàn thành không phù hợp vì mốc quy chiếu ở đây là quá khứ.",
       "Đúng. Kết hợp 'had' với 'already' diễn tả việc đã hoàn tất trước mốc xe cứu thương đến.",
       "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra, không phù hợp với ý đã hoàn tất."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-009",
@@ -240,7 +248,8 @@
       "Đúng. Thể phủ định quá khứ hoàn thành nêu nguyên nhân xảy ra trước.",
       "Sai. Quá khứ đơn phủ định không làm rõ việc 'chưa mua vé' xảy ra TRƯỚC việc không xem được phim.",
       "Sai. Hiện tại hoàn thành phủ định không phù hợp với mốc quy chiếu là quá khứ."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-010",
@@ -267,7 +276,8 @@
       "Đúng. Tổng kết thành tích tính đến mốc 'by the age of 18' trong quá khứ.",
       "Sai. Quá khứ đơn không nhấn mạnh việc tổng kết tính ĐẾN một mốc quá khứ cụ thể.",
       "Sai. Quá khứ tiếp diễn không phù hợp để tổng kết thành tích đã đạt được."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-011",
@@ -294,7 +304,8 @@
       "Sai. Hiện tại hoàn thành không phù hợp khi mốc quy chiếu là quá khứ.",
       "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra tại mốc đó, không phải đã hoàn tất trước mốc.",
       "Sai. Quá khứ đơn không làm rõ việc cháy lan đã xảy ra TRƯỚC mốc lính cứu hỏa đến."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-012",
@@ -321,7 +332,8 @@
       "Sai. Hiện tại hoàn thành không phù hợp khi cả câu chuyện đang ở quá khứ.",
       "Đúng. 'had finished' cho thấy việc đổ móng hoàn tất trước khi kỹ sư bắt đầu xây tường.",
       "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra, không phải đã hoàn tất."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-perfect-013",
@@ -348,7 +360,8 @@
       "Sai. Hiện tại hoàn thành phủ định không phù hợp khi mốc quy chiếu là quá khứ.",
       "Sai. Quá khứ đơn phủ định không làm rõ việc 'chưa chuẩn bị' xảy ra TRƯỚC buổi phỏng vấn.",
       "Đúng. Thể phủ định quá khứ hoàn thành nêu nguyên nhân xảy ra trước tình trạng lo lắng."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-014",
@@ -375,7 +388,8 @@
       "Sai. Quá khứ tiếp diễn không phù hợp để diễn tả trải nghiệm tính đến một mốc.",
       "Sai. Hiện tại hoàn thành chỉ dùng khi mốc là hiện tại, ở đây mốc là 'before she moved'.",
       "Sai. Quá khứ đơn không nhấn mạnh được ý 'chưa từng...tính đến thời điểm đó'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-015",
@@ -402,7 +416,8 @@
       "Sai. 'would + V' là dạng của mệnh đề kết quả, không phải mệnh đề 'if'.",
       "Đúng. 'had checked' là cấu trúc bắt buộc trong mệnh đề 'if' của câu điều kiện loại 3.",
       "Sai. Hiện tại hoàn thành không dùng trong mệnh đề 'if' của câu điều kiện loại 3."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-016",
@@ -429,7 +444,8 @@
       "Sai. Không lặp lại 'had' vì trợ động từ đã xuất hiện ở đầu câu hỏi.",
       "Sai. Dạng V-ing không dùng trong công thức nghi vấn của quá khứ hoàn thành.",
       "Đúng. Sau 'Had' + S, động từ chính chia ở dạng V-p2."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-017",
@@ -456,7 +472,8 @@
       "Sai. Quá khứ hoàn thành đã được dùng cho hành động 'had already escaped' xảy ra TRƯỚC rồi; không thể cả hai mệnh đề đều là quá khứ hoàn thành.",
       "Sai. Hiện tại hoàn thành không phù hợp trong câu chuyện quá khứ.",
       "Đúng. Đây là hành động xảy ra SAU (mốc quy chiếu), nên dùng quá khứ đơn."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-perfect-018",
@@ -483,7 +500,8 @@
       "Đúng. 'had left' nêu nguyên nhân xảy ra trước niềm vui của bọn trẻ.",
       "Sai. Quá khứ tiếp diễn không diễn tả một việc đã hoàn tất.",
       "Sai. Quá khứ đơn không làm rõ việc để quà xảy ra TRƯỚC lúc bọn trẻ vui mừng."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-019",
@@ -510,7 +528,8 @@
       "Sai. Hiện tại hoàn thành chỉ dùng khi mốc là hiện tại.",
       "Đúng. 'had started' tổng kết số công việc kinh doanh tính đến mốc 'she turned 40'.",
       "Sai. Quá khứ đơn không nhấn mạnh việc tổng kết tính đến một mốc quá khứ cụ thể."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-020",
@@ -537,7 +556,8 @@
       "Đúng. 'hadn't quit' diễn tả ước muốn ngược lại điều đã thực sự xảy ra trong quá khứ.",
       "Sai. Hiện tại hoàn thành phủ định không đi cùng 'wish' khi tiếc nuối về quá khứ.",
       "Sai. 'wouldn't + V' không phải cấu trúc diễn tả tiếc nuối về một hành động đã xảy ra trong quá khứ."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-021",
@@ -564,7 +584,8 @@
       "Sai. Hiện tại hoàn thành không phù hợp vì mốc quy chiếu là quá khứ, không phải hiện tại.",
       "Đúng. Diễn tả việc đã hoàn tất tính đến mốc 'khi các cuộc đàm phán kết thúc'.",
       "Sai. Quá khứ đơn không thể hiện việc đã hoàn tất TRƯỚC mốc 'các cuộc đàm phán kết thúc'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-022",
@@ -591,7 +612,8 @@
       "Đúng. Đây là hành động xảy ra sau, dùng quá khứ đơn làm mốc so sánh.",
       "Sai. Hiện tại hoàn thành không phù hợp trong câu chuyện quá khứ.",
       "Sai. Quá khứ tiếp diễn diễn tả hành động đang xảy ra, không phù hợp với một mốc thời điểm cụ thể như 'phê duyệt'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-perfect-023",
@@ -618,7 +640,8 @@
       "Sai. Quá khứ đơn không làm rõ việc trình diễn xảy ra TRƯỚC phản ứng của khán giả.",
       "Sai. Hiện tại hoàn thành không phù hợp vì mốc quy chiếu ở đây là quá khứ.",
       "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra, không nhấn mạnh việc đã hoàn tất trọn vẹn."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-024",
@@ -645,7 +668,8 @@
       "Sai. Quá khứ đơn không nhấn mạnh việc tổng kết trải nghiệm/thành tựu tính đến một mốc quá khứ.",
       "Sai. Hiện tại hoàn thành chỉ dùng khi mốc là hiện tại.",
       "Sai. Quá khứ tiếp diễn không phù hợp để tổng kết thành tựu đã đạt được."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-025",
@@ -672,7 +696,8 @@
       "Sai. Mệnh đề 'if' loại 3 cần 'had + V-p2', không phải quá khứ đơn.",
       "Sai. 'would + V' thuộc về mệnh đề kết quả, không phải mệnh đề 'if'.",
       "Sai. Hiện tại hoàn thành không được dùng trong mệnh đề 'if' của câu điều kiện loại 3."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-026",
@@ -699,7 +724,8 @@
       "Đúng. 'hadn't finished' diễn tả việc chưa hoàn tất tính đến mốc 'by the deadline on Friday'.",
       "Sai. Quá khứ tiếp diễn phủ định diễn tả hành động không đang diễn ra, không phù hợp với ý 'chưa hoàn tất'.",
       "Sai. Quá khứ đơn phủ định không nhấn mạnh việc 'chưa hoàn tất TÍNH ĐẾN' một mốc cụ thể."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-027",
@@ -726,7 +752,8 @@
       "Không sai hoàn toàn trong văn nói tự nhiên (vì 'as soon as' đã ngụ ý trình tự). Trong tiếng Anh tự nhiên, quá khứ đơn đôi khi vẫn được chấp nhận ở đây vì bản thân từ nối đã ngụ ý trình tự, nhưng bài học này ưu tiên quá khứ hoàn thành để trình tự trước-sau được thể hiện tường minh, rõ ràng.",
       "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra, không phù hợp với ý 'đã sửa xong'.",
       "Đúng. 'had repaired' cho thấy máy chủ đã sửa xong trước khi trang web hoạt động trở lại."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-perfect-028",
@@ -753,7 +780,8 @@
       "Sai. Quá khứ đơn không làm rõ việc thất bại liên tục xảy ra TRƯỚC lúc nhà đầu tư mất niềm tin.",
       "Đúng. 'had failed' nêu nguyên nhân xảy ra trước việc nhà đầu tư mất niềm tin.",
       "Sai. Quá khứ tiếp diễn không nhấn mạnh việc đã lặp lại và hoàn tất trước đó."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-029",
@@ -780,7 +808,8 @@
       "Sai. Quá khứ đơn không nhấn mạnh được ý 'chưa từng...tính đến một mốc quá khứ cụ thể'.",
       "Sai. Quá khứ tiếp diễn không phù hợp để tổng kết trải nghiệm/thành tựu.",
       "Đúng. 'had never achieved' tổng kết thành tựu tính đến mốc 'before he took this position'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-perfect-030",
@@ -807,6 +836,7 @@
       "Đúng. 'had told' diễn tả tiếc nuối về một việc đã không xảy ra trong quá khứ.",
       "Sai. 'would + V' diễn tả một mong muốn cho hiện tại/tương lai, không phù hợp với tiếc nuối về quá khứ đã qua.",
       "Sai. Hiện tại hoàn thành không đi cùng 'wish' khi diễn tả tiếc nuối về quá khứ."
-    ]
+    ],
+    "bac": 4
   }
 ]

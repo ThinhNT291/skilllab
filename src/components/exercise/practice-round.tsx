@@ -5,6 +5,7 @@ import { getExercises, getGrammarTopic } from "@/lib/content/grammar"
 import { deriveDictation, mixVariants, shuffle } from "@/lib/content/derive"
 import { pickMatchPairs } from "@/lib/content/match"
 import { MatchSession } from "@/components/game/match-session"
+import { buildLadder, pickAtPosition, START_POSITION } from "@/lib/content/adaptive"
 import { pickHardRound, pickRound, pickRoundForTag } from "@/lib/content/rounds"
 import { TestSession } from "./test-session"
 import { PracticeSession } from "./practice-session"
@@ -50,15 +51,21 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
   }
 
   // Chế độ thường và luyện lại trộn thêm vài câu sắp xếp/gõ; nhức đầu giữ trắc nghiệm khó; nghe chép gồm toàn câu nghe.
+  // Nghe chép thích ứng: thang câu từ dễ đến khó, đúng thì lên, sai thì lùi (xem lib/content/adaptive.ts).
+  const dictationPool = mode === "dictation" ? shuffle(all).flatMap((e) => (e.kind === "mcq" ? (deriveDictation(e) ?? []) : [])) : []
+  const ladder = buildLadder(dictationPool)
+  const adaptive = mode === "dictation" && ladder.length >= 4 ? { ladder, count: Math.min(8, ladder.length) } : undefined
   const exercises =
     mode === "hard"
       ? pickHardRound(all)
       : mode === "dictation"
-        ? shuffle(all).flatMap((e) => (e.kind === "mcq" ? (deriveDictation(e) ?? []) : [])).slice(0, 8)
+        ? adaptive
+          ? [pickAtPosition(ladder, new Set(), START_POSITION)!]
+          : ladder
         : mixVariants(tagLabel ? pickRoundForTag(all, tag!) : pickRound(all))
   if (!exercises.length) notFound()
   const title = mode === "hard" ? "Nhức đầu 🔥" : mode === "dictation" ? "Nghe chép 🎧" : tagLabel ? "Luyện lại" : "Luyện tập"
-  const subtitle = mode === "hard" ? "10 câu khó nhất của chuyên đề này." : mode === "dictation" ? "Nghe câu rồi gõ lại. Có thể nghe chậm." : tagLabel
+  const subtitle = mode === "hard" ? "10 câu khó nhất của chuyên đề này." : mode === "dictation" ? "Nghe câu rồi gõ lại. Bắt đầu từ câu dễ: đúng thì câu sau khó hơn, sai thì dễ lại. Có thể nghe chậm." : tagLabel
 
   return (
     <>
@@ -68,7 +75,7 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
       <h1 className="mt-2 text-3xl font-extrabold">{title}</h1>
       {subtitle && <p className="mb-4 text-muted-foreground">{subtitle}</p>}
       {!subtitle && <div className="mb-4" />}
-      <PracticeSession exercises={exercises} theoryBase={`/hoc/${topic}`} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
+      <PracticeSession exercises={exercises} adaptive={adaptive} theoryBase={`/hoc/${topic}`} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
     </>
   )
 }

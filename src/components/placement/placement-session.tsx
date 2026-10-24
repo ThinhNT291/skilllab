@@ -4,6 +4,8 @@ import { useState } from "react"
 import Link from "next/link"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { recordAnswer } from "@/lib/db"
+import { bacLabel } from "@/lib/content/bac"
+import type { Bac } from "@/lib/content/types"
 import { scorePlacement, type PlacementTopic } from "@/lib/placement"
 import { ExerciseRunner } from "@/components/exercise/exercise-runner"
 import { ProgressBar } from "@/components/exercise/progress-bar"
@@ -38,6 +40,11 @@ export function PlacementSession({ exercises, topics }: { exercises: Exercise[];
         <p className="mt-1 text-2xl font-extrabold">
           {r.startBand === null ? "Bạn làm rất tốt ở cả ba nhóm! 🎉 Hãy thử chế độ Nhức đầu ở các chuyên đề." : START_MESSAGE[r.startBand]}
         </p>
+        {r.estimatedBac !== null && (
+          <p className="mt-2 text-muted-foreground">
+            Mức ước lượng từ các câu bạn làm: <strong>{r.estimatedBac === 0 ? "dưới Bậc 1" : bacLabel(r.estimatedBac as Bac)}</strong> (chỉ tham khảo)
+          </p>
+        )}
         <ul className="mt-4 space-y-3">
           {r.bands.map((b) => (
             <li key={b.band}>
