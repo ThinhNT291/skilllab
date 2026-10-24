@@ -210,17 +210,17 @@
     "prompt": "A: I've already eaten. B: So ______ I.",
     "choices": [
       "have",
+      "will",
       "do",
-      "did",
       "am"
     ],
     "correctIndex": 0,
-    "explanation": "Hiện tại hoàn thành → So have/has + S.",
+    "explanation": "So + trợ động từ khớp với trợ động từ gốc (have).",
     "choiceExplanations": [
-      "Đúng — câu gốc ở hiện tại hoàn thành (have eaten) nên trả lời bằng have.",
-      "Sai — 'do': 'do' dùng cho hiện tại đơn, còn câu gốc ở hiện tại hoàn thành.",
-      "Sai — 'did': 'did' dùng cho quá khứ đơn, còn câu gốc ở hiện tại hoàn thành.",
-      "Sai — 'am': 'am' dùng với be, còn câu gốc có 'have eaten'."
+      "Đúng — 'I've' là I have (hiện tại hoàn thành) nên đáp lại bằng So have I.",
+      "Sai — 'will': 'will' không khớp với 'have'.",
+      "Sai — 'do': 'do' không khớp với 'have' (hiện tại hoàn thành).",
+      "Sai — 'am': 'am' không khớp với 'have'."
     ]
   },
   {
@@ -288,23 +288,23 @@
     "tags": [
       "asr-u1-so-agreement"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "A: We'll be late. B: So ______ they.",
+    "prompt": "A: Nobody called me last night. B: Neither ______ I.",
     "choices": [
-      "have",
-      "are",
-      "will",
-      "do"
+      "do",
+      "am",
+      "did",
+      "didn't"
     ],
     "correctIndex": 2,
-    "explanation": "Câu gốc có will → So will + S.",
+    "explanation": "'Nobody' mang nghĩa phủ định → Neither + trợ động từ cùng thì.",
     "choiceExplanations": [
-      "Sai — 'have': 'have' dùng cho thì hoàn thành, còn câu gốc dùng will.",
-      "Sai — 'are': 'are' dùng với be, còn câu gốc dùng will.",
-      "Đúng — câu gốc dùng will nên trả lời bằng will: So will they.",
-      "Sai — 'do': 'do' dùng cho hiện tại đơn, còn câu gốc dùng will."
+      "Sai — 'do': vế gốc ở quá khứ nên không dùng do (hiện tại).",
+      "Sai — 'am': vế gốc không dùng động từ 'be' nên không dùng am.",
+      "Đúng — 'Nobody' mang nghĩa phủ định và vế gốc ở quá khứ đơn nên đáp lại bằng Neither did I.",
+      "Sai — 'didn't': Neither đã mang nghĩa phủ định, nên không thêm 'n't'."
     ]
   },
   {
@@ -316,23 +316,23 @@
     "tags": [
       "asr-u1-so-agreement"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "A: I can ski. B: So ______ my cousin.",
+    "prompt": "A: I'm not ready yet. B: Neither ______ I.",
     "choices": [
-      "does",
-      "can",
-      "is",
-      "do"
+      "do",
+      "am",
+      "have",
+      "don't"
     ],
     "correctIndex": 1,
-    "explanation": "Câu gốc có can → So can + S.",
+    "explanation": "Neither + am/is/are khi vế gốc dùng 'be'.",
     "choiceExplanations": [
-      "Sai — 'does': 'does' dùng cho hiện tại đơn, còn câu gốc dùng can.",
-      "Đúng — câu gốc dùng can nên trả lời bằng can: So can my cousin.",
-      "Sai — 'is': 'is' dùng với be, còn câu gốc dùng can.",
-      "Sai — 'do': 'do' dùng cho hiện tại đơn, còn câu gốc dùng can."
+      "Sai — 'do': vế gốc dùng 'be' nên không dùng do.",
+      "Đúng — vế gốc dùng 'be' (I'm not) nên đáp lại bằng Neither am I.",
+      "Sai — 'have': vế gốc dùng 'be' nên không dùng have.",
+      "Sai — 'don't': Neither đã mang nghĩa phủ định, nên không thêm 'n't'."
     ]
   },
   {
@@ -344,23 +344,23 @@
     "tags": [
       "asr-u2-neither-agreement"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "A: I didn't see the film. B: Neither ______ I.",
+    "prompt": "A: I didn't see the movie. B: Neither ______ I.",
     "choices": [
       "have",
       "did",
       "do",
-      "didn't"
+      "was"
     ],
     "correctIndex": 1,
-    "explanation": "Quá khứ đơn phủ định → Neither did + S.",
+    "explanation": "Neither + trợ động từ cùng thì với vế gốc.",
     "choiceExplanations": [
-      "Sai — 'have': 'Neither have I' cũng nghe được nhưng nghĩa là 'tôi chưa từng xem (đến giờ)'; câu gốc nói về một lần trong quá khứ (didn't see) nên dùng did.",
-      "Đúng — câu gốc phủ định ở quá khứ đơn; sau Neither dùng did (khẳng định).",
-      "Sai — 'do': 'do' dùng cho hiện tại, còn câu gốc ở quá khứ.",
-      "Sai — 'didn't': sau Neither phải dùng dạng khẳng định (did); 'didn't' tạo phủ định kép."
+      "Sai — 'have': 'have' khớp với hiện tại hoàn thành, không khớp với 'didn't'.",
+      "Đúng — vế gốc là quá khứ đơn phủ định (didn't) nên đáp lại bằng Neither did I.",
+      "Sai — 'do': 'do' ở hiện tại, không khớp với 'didn't' (quá khứ).",
+      "Sai — 'was': 'was' là động từ 'be', không khớp với 'didn't see'."
     ]
   },
   {
@@ -459,20 +459,20 @@
     "difficulty": 3,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "A: I'd love some coffee. B: So ______ I.",
+    "prompt": "A: I'd like to go to the park. B: So ______ I.",
     "choices": [
-      "did",
-      "would",
       "do",
+      "would",
+      "could",
       "am"
     ],
     "correctIndex": 1,
-    "explanation": "I'd = I would → So would I.",
+    "explanation": "So + trợ động từ khớp với trợ động từ gốc (would).",
     "choiceExplanations": [
-      "Sai — 'did': 'did' dùng cho quá khứ, còn câu gốc dùng would.",
-      "Đúng — câu gốc dùng would (I'd) nên trả lời bằng would.",
-      "Sai — 'do': 'So do I' (tôi cũng muốn) đôi khi nghe trong lời nói thân mật, nhưng 'I'd' = I would nên dạng khớp nhất là would.",
-      "Sai — 'am': 'am' dùng với be, còn câu gốc dùng would."
+      "Sai — 'do': 'do' không khớp với 'would'.",
+      "Đúng — 'I'd' ở đây là I would nên đáp lại bằng So would I.",
+      "Sai — 'could': 'could' không khớp với 'would'.",
+      "Sai — 'am': 'am' không khớp với 'would'."
     ]
   },
   {
@@ -564,14 +564,14 @@
     "kind": "mcq",
     "language": "en",
     "topic": "agreement-so-neither",
-    "usageId": "asr-u1-so-agreement",
+    "usageId": "asr-u4-choosing-auxiliary",
     "tags": [
-      "asr-u1-so-agreement"
+      "asr-u4-choosing-auxiliary"
     ],
     "difficulty": 3,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "A: I wish I had more time. B: So ______ I.",
+    "prompt": "A: I wish I had a dog. B: So ______ I.",
     "choices": [
       "would",
       "do",
@@ -579,12 +579,12 @@
       "am"
     ],
     "correctIndex": 1,
-    "explanation": "Nhìn vào động từ chính của câu gốc (wish), không phải động từ trong mệnh đề sau.",
+    "explanation": "So + trợ động từ khớp với động từ chính (wish → do).",
     "choiceExplanations": [
-      "Sai — 'would': 'would' không khớp với 'wish' ở hiện tại đơn.",
-      "Đúng — 'wish' ở hiện tại đơn nên trả lời bằng do, dù câu có 'had'.",
-      "Sai — 'had': 'had' là động từ trong mệnh đề sau wish, không phải trợ động từ để trả lời.",
-      "Sai — 'am': 'am' dùng với be, còn câu gốc dùng động từ thường 'wish'."
+      "Sai — 'would': 'would' không khớp với động từ chính 'wish' (hiện tại đơn).",
+      "Đúng — 'wish' chia ở hiện tại đơn nên trợ động từ là do: So do I.",
+      "Sai — 'had': 'had' không khớp với động từ chính 'wish' (hiện tại đơn).",
+      "Sai — 'am': vế gốc không dùng động từ 'be' nên không dùng am."
     ]
   },
   {
@@ -680,10 +680,10 @@
     "tags": [
       "asr-u4-choosing-auxiliary"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "A: They were watching TV when I called. B: So ______ we.",
+    "prompt": "A: They were watching TV at nine last night. B: So ______ we.",
     "choices": [
       "did",
       "are",
@@ -691,12 +691,12 @@
       "were"
     ],
     "correctIndex": 3,
-    "explanation": "Quá khứ tiếp diễn → So were/was + S.",
+    "explanation": "So + trợ động từ cùng thì (were).",
     "choiceExplanations": [
-      "Sai — 'did': 'did' dùng cho quá khứ đơn, còn câu gốc ở quá khứ tiếp diễn (were watching).",
-      "Sai — 'are': 'are' là hiện tại, còn câu gốc ở quá khứ.",
-      "Sai — 'had': 'had' dùng cho quá khứ hoàn thành, còn câu gốc ở quá khứ tiếp diễn.",
-      "Đúng — câu gốc dùng were (quá khứ tiếp diễn) nên trả lời bằng were."
+      "Sai — 'did': 'did' không khớp với 'were watching'.",
+      "Sai — 'are': 'are' ở hiện tại, không khớp với 'were'.",
+      "Sai — 'had': 'had' không khớp với 'were watching'.",
+      "Đúng — vế gốc là quá khứ tiếp diễn (were watching) nên đáp lại bằng So were we."
     ]
   },
   {
@@ -708,23 +708,23 @@
     "tags": [
       "asr-u4-choosing-auxiliary"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "A: We should leave soon. B: So ______ they.",
+    "prompt": "A: You must finish your homework first. B: So ______ you.",
     "choices": [
       "do",
       "did",
-      "should",
-      "would"
+      "must",
+      "are"
     ],
     "correctIndex": 2,
-    "explanation": "Trả lời bằng đúng động từ khuyết thiếu của câu gốc.",
+    "explanation": "So + động từ khuyết thiếu giống vế gốc.",
     "choiceExplanations": [
-      "Sai — 'do': 'do' dùng cho hiện tại đơn, còn câu gốc dùng should.",
-      "Sai — 'did': 'did' dùng cho quá khứ đơn, còn câu gốc dùng should.",
-      "Đúng — câu gốc dùng should nên trả lời bằng should: So should they.",
-      "Sai — 'would': 'would' không khớp với 'should' của câu gốc."
+      "Sai — 'do': 'do' không khớp với động từ khuyết thiếu 'must'.",
+      "Sai — 'did': 'did' không khớp với 'must'.",
+      "Đúng — vế gốc có 'must' nên đáp lại bằng So must you.",
+      "Sai — 'are': 'are' không khớp với 'must'."
     ]
   },
   {
@@ -736,23 +736,23 @@
     "tags": [
       "asr-u5-short-replies"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 4,
     "title": "Chọn câu trả lời đúng",
-    "prompt": "You disagree with: 'I love getting up early!' Choose the best reply.",
+    "prompt": "A: I'm really tired today. You disagree. Choose the best reply.",
     "choices": [
+      "So am I.",
       "Me too.",
-      "So do I.",
-      "I don't.",
-      "Neither do I."
+      "I'm not.",
+      "Neither am I."
     ],
     "correctIndex": 2,
-    "explanation": "Không đồng ý: dùng trợ động từ ngược dạng (khẳng định ↔ phủ định) với câu gốc với câu gốc.",
+    "explanation": "Không đồng ý: dùng lại 'be' ở dạng ngược lại (I'm not).",
     "choiceExplanations": [
-      "Sai — 'Me too.': 'Me too' có nghĩa là đồng tình, còn bạn đang không đồng ý.",
-      "Sai — 'So do I.': 'So do I' có nghĩa là đồng tình, còn bạn đang không đồng ý.",
-      "Đúng — không đồng ý nên dùng trợ động từ ngược dạng (khẳng định ↔ phủ định) với câu gốc: I don't.",
-      "Sai — 'Neither do I.': 'Neither' dùng để đồng tình với câu phủ định, còn đây là câu khẳng định."
+      "Sai — 'So am I.': đây là câu đồng ý, không phải không đồng ý.",
+      "Sai — 'Me too.': đây là câu đồng ý, không phải không đồng ý.",
+      "Đúng — không đồng ý với câu khẳng định dùng 'be' thì đáp lại bằng 'I'm not.'",
+      "Sai — 'Neither am I.': Neither dùng để đồng ý với câu phủ định, không dùng ở đây."
     ]
   },
   {
@@ -777,7 +777,7 @@
     "correctIndex": 2,
     "explanation": "Câu phủ định → Me neither hoặc Neither can I.",
     "choiceExplanations": [
-      "Sai — 'Me too.': 'Me too' thường dùng với câu khẳng định; sau câu phủ định dễ gây hiểu nhầm nên dùng Me neither.",
+      "Sai — 'Me too.': thường nghe trong lời nói thân mật nhưng dễ hiểu nhầm với câu phủ định; chuẩn nhất là Me neither.",
       "Sai — 'So can I.': 'So' dùng với câu khẳng định, còn câu gốc là phủ định.",
       "Đúng — câu gốc phủ định nên đồng tình bằng Me neither.",
       "Sai — 'Neither can't I.': sau Neither phải dùng dạng khẳng định (can); 'can't' tạo phủ định kép."
@@ -823,7 +823,7 @@
     "difficulty": 3,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "A: I hardly ever eat breakfast. B: Neither ______ I.",
+    "prompt": "A: My sister rarely watches TV. B: Neither ______ I.",
     "choices": [
       "don't",
       "am",
@@ -831,12 +831,12 @@
       "did"
     ],
     "correctIndex": 2,
-    "explanation": "Me too với khẳng định, Me neither với phủ định.",
+    "explanation": "'rarely' mang nghĩa phủ định → Neither do I.",
     "choiceExplanations": [
-      "Sai — 'don't': sau Neither phải dùng dạng khẳng định (do); 'don't' tạo phủ định kép.",
-      "Sai — 'am': 'am' dùng với be, còn câu gốc dùng động từ thường 'eat'.",
-      "Đúng — 'hardly ever' mang nghĩa phủ định nên dùng Neither + do (khẳng định): Neither do I.",
-      "Sai — 'did': 'did' dùng cho quá khứ, còn câu gốc ở hiện tại."
+      "Sai — 'don't': Neither đã mang nghĩa phủ định, nên không thêm 'n't' (phủ định kép).",
+      "Sai — 'am': vế gốc dùng 'watches' (hiện tại đơn) nên trợ động từ phải là do, không phải am.",
+      "Đúng — 'rarely' mang nghĩa phủ định, nên đáp lại bằng Neither + trợ động từ hiện tại: Neither do I.",
+      "Sai — 'did': vế gốc ở hiện tại đơn nên không dùng did (quá khứ)."
     ]
   }
 ]
