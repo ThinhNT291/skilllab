@@ -1,0 +1,190 @@
+{
+  "id": "future-continuous",
+  "language": "en",
+  "title": "Thì tương lai tiếp diễn (Future Continuous)",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "order": 7,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "fc-u1-in-progress-at-future-time",
+        "bac": 2,
+        "label": "Hành động đang diễn ra tại một thời điểm xác định trong tương lai",
+        "explanationVi": "Dùng will be + V-ing để nói về một hành động sẽ ĐANG diễn ra tại một thời điểm cụ thể trong tương lai. Hãy hình dung bạn 'đứng' ở thời điểm đó trong tương lai và nhìn thấy hành động đang xảy ra. Thường đi kèm mốc thời gian như this time tomorrow, at 8 p.m. tonight, this time next week.",
+        "examples": [
+          {
+            "en": "Tomorrow at 9 a.m., I will be sitting in my first class.",
+            "vi": "Chín giờ sáng mai, tôi sẽ đang ngồi trong tiết học đầu tiên."
+          },
+          {
+            "en": "At this time next Sunday, my parents will be traveling to Hue.",
+            "vi": "Giờ này Chủ nhật tuần sau, bố mẹ tôi sẽ đang trên đường đi Huế."
+          }
+        ]
+      },
+      {
+        "id": "fc-u2-arrangements-planned",
+        "bac": 3,
+        "label": "Việc đã được sắp xếp hoặc sẽ xảy ra theo diễn tiến bình thường",
+        "explanationVi": "Will be + V-ing cũng dùng cho việc đã có trong lịch hoặc chắc chắn sẽ xảy ra như mọi khi, không phải việc người nói vừa quyết định. Cách nói này nghe nhẹ nhàng và trung tính hơn will + V (vì will + V thường mang ý 'tôi quyết định làm'). Rất tiện khi nói 'tiện thể' sẽ làm gì. Lưu ý: hiện tại tiếp diễn (I am seeing her tomorrow) và be going to cũng thường dùng cho việc đã sắp xếp, chỉ khác sắc thái.",
+        "examples": [
+          {
+            "en": "My brother will be visiting Hanoi next week, so he can bring your gift.",
+            "vi": "Tuần sau anh trai tôi sẽ đến Hà Nội, nên anh ấy có thể mang quà của bạn đi."
+          },
+          {
+            "en": "I'll be passing the bakery later. Do you want some bread?",
+            "vi": "Lát nữa tôi sẽ đi ngang tiệm bánh. Bạn có muốn mua bánh mì không?"
+          }
+        ]
+      },
+      {
+        "id": "fc-u3-polite-questions",
+        "bac": 4,
+        "label": "Hỏi lịch trình của người khác một cách lịch sự",
+        "explanationVi": "Câu hỏi Will you be + V-ing...? dùng để hỏi về kế hoạch của người khác một cách lịch sự, không gây áp lực như Will you + V? (nghe giống lời yêu cầu). Thường dùng trước khi nhờ giúp đỡ hoặc mượn đồ.",
+        "examples": [
+          {
+            "en": "Will you be using the computer tonight? I'd like to check my email.",
+            "vi": "Tối nay bạn có dùng máy tính không? Tôi muốn kiểm tra thư."
+          },
+          {
+            "en": "Will your sister be coming to the party on Friday?",
+            "vi": "Chị gái bạn có đến bữa tiệc thứ Sáu không?"
+          }
+        ]
+      },
+      {
+        "id": "fc-u4-assumptions-about-now",
+        "bac": 4,
+        "label": "Đoán điều đang xảy ra ngay lúc này",
+        "explanationVi": "Will be + V-ing còn dùng để ĐOÁN một việc đang diễn ra ở hiện tại khi bạn không nhìn thấy trực tiếp, mà suy ra từ giờ giấc, thói quen hoặc hoàn cảnh (đã khuya nên chắc đang ngủ). Đây là cách dùng nâng cao và ít gặp hơn; trong giao tiếp hằng ngày người ta cũng hay nói 'must be sleeping' hoặc 'is probably sleeping'. Nó nói về hiện tại chứ không phải tương lai.",
+        "examples": [
+          {
+            "en": "Dad hasn't texted yet. He will be driving home now, I guess.",
+            "vi": "Bố chưa nhắn tin. Chắc bây giờ bố đang lái xe về nhà."
+          },
+          {
+            "en": "It's midnight, so my little brother will be sleeping.",
+            "vi": "Đã nửa đêm rồi, chắc em trai tôi đang ngủ."
+          }
+        ]
+      },
+      {
+        "id": "fc-u5-form",
+        "bac": 2,
+        "label": "Hình thức: khẳng định, phủ định, nghi vấn",
+        "explanationVi": "Khẳng định: S + will be + V-ing (viết gọn: I'll be studying). Phủ định: S + will not (won't) be + V-ing. Nghi vấn: Will + S + be + V-ing? Với từ để hỏi: What will you be doing tomorrow? 'Will' là trợ động từ nên không chia theo ngôi và không thêm do/does. 'Be' luôn giữ nguyên thể, không viết am/is/are.",
+        "examples": [
+          {
+            "en": "We won't be having class next Monday.",
+            "vi": "Thứ Hai tuần sau chúng ta sẽ không có tiết học."
+          },
+          {
+            "en": "What will you be doing this time tomorrow?",
+            "vi": "Giờ này ngày mai bạn sẽ đang làm gì?"
+          }
+        ]
+      },
+      {
+        "id": "fc-u6-state-verbs",
+        "bac": 3,
+        "label": "Động từ chỉ trạng thái không dùng ở dạng tiếp diễn",
+        "explanationVi": "Các động từ chỉ trạng thái thường không dùng với -ing, kể cả trong thì tương lai: know, believe, understand, like, love, prefer, belong, own, need, want, seem. Với các động từ này hãy dùng will + V (will know, won't need), không viết will be knowing. Chú ý: một số động từ có hai nghĩa. 'Have' nghĩa ăn/uống, 'think' nghĩa đang suy nghĩ là hành động nên dùng được -ing (I'll be having lunch; she will be thinking about it). 'Have' nghĩa sở hữu, 'think' nghĩa cho rằng là trạng thái nên không dùng -ing (She will have a big house).",
+        "examples": [
+          {
+            "en": "You will know the answer soon.",
+            "vi": "Bạn sẽ sớm biết câu trả lời."
+          },
+          {
+            "en": "I'll be having lunch at noon, but she will have a big house one day.",
+            "vi": "Trưa nay tôi sẽ đang ăn trưa; còn cô ấy một ngày nào đó sẽ có một ngôi nhà lớn."
+          }
+        ]
+      },
+      {
+        "id": "fc-u7-time-clauses",
+        "bac": 3,
+        "label": "Mệnh đề thời gian: when, while + hiện tại; việc chính dùng will be + V-ing",
+        "explanationVi": "Mốc thời gian có thể là một hành động khác. Sau when, while, as soon as, before, until dùng hiện tại đơn (when you arrive) hoặc hiện tại tiếp diễn (while you are taking the exam), không dùng will. Mệnh đề chính dùng will be + V-ing nếu hành động đó đang diễn ra tại lúc ấy.",
+        "examples": [
+          {
+            "en": "When you arrive tomorrow, I will be waiting at the gate.",
+            "vi": "Khi bạn đến vào ngày mai, tôi sẽ đang đợi ở cổng."
+          },
+          {
+            "en": "While you are taking the exam, I will be working in the garden.",
+            "vi": "Trong lúc bạn làm bài thi, tôi sẽ đang làm vườn."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "this time tomorrow / next week",
+        "meaningVi": "giờ này ngày mai / tuần sau"
+      },
+      {
+        "word": "at 8 p.m. tomorrow",
+        "meaningVi": "lúc 8 giờ tối mai"
+      },
+      {
+        "word": "all day tomorrow",
+        "meaningVi": "suốt ngày mai"
+      },
+      {
+        "word": "when you arrive",
+        "meaningVi": "khi bạn đến (mệnh đề thời gian dùng hiện tại đơn)"
+      },
+      {
+        "word": "right now / at the moment",
+        "meaningVi": "ngay lúc này (khi đoán việc đang xảy ra)"
+      }
+    ],
+    "formulas": {
+      "affirmative": "S + will be + V-ing. Ví dụ: I will be studying at 8 p.m. tomorrow.",
+      "negative": "S + will not (won't) be + V-ing. Ví dụ: She won't be working on Sunday.",
+      "question": "Will + S + be + V-ing ...? Ví dụ: Will you be using the car tonight?"
+    },
+    "commonMistakes": [
+      {
+        "id": "future-continuous-m1",
+        "description": "Thiếu 'be' hoặc dùng sai dạng: sau will phải có be, và sau be là V-ing.",
+        "examples": [
+          {
+            "wrong": "At 7 a.m. tomorrow, I will driving to work.",
+            "correct": "At 7 a.m. tomorrow, I will be driving to work."
+          },
+          {
+            "wrong": "At noon tomorrow, she will be sleep.",
+            "correct": "At noon tomorrow, she will be sleeping."
+          }
+        ]
+      },
+      {
+        "id": "future-continuous-m2",
+        "description": "Dùng will trong mệnh đề thời gian: sau when, as soon as, before, after, until dùng hiện tại đơn dù nói về tương lai.",
+        "examples": [
+          {
+            "wrong": "When you will arrive tomorrow, I will be waiting at the gate.",
+            "correct": "When you arrive tomorrow, I will be waiting at the gate."
+          }
+        ]
+      },
+      {
+        "id": "future-continuous-m3",
+        "description": "Dùng tiếp diễn với động từ chỉ trạng thái (know, like, believe...).",
+        "examples": [
+          {
+            "wrong": "In a few weeks, you will be knowing the answer.",
+            "correct": "In a few weeks, you will know the answer."
+          }
+        ]
+      }
+    ]
+  }
+}

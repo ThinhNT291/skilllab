@@ -1,0 +1,158 @@
+{
+  "id": "past-perfect-continuous",
+  "language": "en",
+  "title": "Thì quá khứ hoàn thành tiếp diễn (Past Perfect Continuous)",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "order": 20,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "ppc-u1-duration-before-past-moment",
+        "bac": 3,
+        "label": "Hành động kéo dài cho đến một thời điểm trong quá khứ",
+        "explanationVi": "Dùng had been + V-ing để nói một hành động đã bắt đầu và kéo dài liên tục TRƯỚC một mốc thời gian hoặc một sự việc khác trong quá khứ. Mốc đó thường là hành động chia ở quá khứ đơn (when it started to rain, when the bus arrived). Hãy tưởng tượng bạn 'đứng' ở mốc đó và nhìn ngược lại quãng thời gian trước.",
+        "examples": [
+          {
+            "en": "After the long flight, we had been traveling for twelve hours.",
+            "vi": "Sau chuyến bay dài, chúng tôi đã di chuyển liên tục mười hai tiếng."
+          },
+          {
+            "en": "They had been playing cards for hours when the power went out.",
+            "vi": "Họ đã chơi bài hàng giờ thì mất điện."
+          }
+        ]
+      },
+      {
+        "id": "ppc-u2-cause-of-past-situation",
+        "bac": 4,
+        "label": "Nguyên nhân của một tình huống trong quá khứ",
+        "explanationVi": "Had been + V-ing giải thích NGUYÊN NHÂN của một kết quả nhìn thấy được trong quá khứ: trời ướt vì đã mưa suốt đêm, mắt đỏ vì đã khóc. Hành động nguyên nhân diễn ra trước và để lại dấu vết ở thời điểm đang nói đến.",
+        "examples": [
+          {
+            "en": "The windows were foggy because we had been cooking.",
+            "vi": "Cửa sổ bị mờ hơi nước vì chúng tôi đã nấu ăn."
+          },
+          {
+            "en": "He was sunburned because he had been working in the garden all day.",
+            "vi": "Anh ấy bị cháy nắng vì đã làm vườn suốt cả ngày."
+          }
+        ]
+      },
+      {
+        "id": "ppc-u3-process-vs-result",
+        "bac": 4,
+        "label": "Nhấn mạnh quá trình (had been V-ing) và nhấn mạnh kết quả (had V-ed)",
+        "explanationVi": "Had been + V-ing nhấn mạnh QUÁ TRÌNH, việc còn dang dở hoặc chưa rõ đã xong chưa. Had + V3/V-ed nhấn mạnh KẾT QUẢ, việc đã hoàn thành, thường kèm số lượng (three reports, all the exercises). Câu hỏi 'How long?' đi với quá trình, 'How many?' đi với kết quả.",
+        "examples": [
+          {
+            "en": "The students had been practicing for weeks, so they felt confident.",
+            "vi": "Các em đã luyện tập nhiều tuần, nên cảm thấy tự tin."
+          },
+          {
+            "en": "By noon, she had written four letters.",
+            "vi": "Đến trưa, cô ấy đã viết xong bốn lá thư."
+          }
+        ]
+      },
+      {
+        "id": "ppc-u4-for-since-how-long",
+        "bac": 3,
+        "label": "For, since và câu hỏi How long với thì quá khứ hoàn thành tiếp diễn",
+        "explanationVi": "Dùng for + khoảng thời gian (for two years) hoặc since + mốc thời gian (since morning) để nói hành động đã kéo dài bao lâu trước mốc quá khứ. Hỏi bằng How long + had + S + been + V-ing? Chú ý: nếu nói đến hiện tại thì dùng have/has been V-ing, không dùng had been.",
+        "examples": [
+          {
+            "en": "We had been waiting for twenty minutes when the teacher arrived.",
+            "vi": "Chúng tôi đã đợi hai mươi phút thì cô giáo đến."
+          },
+          {
+            "en": "How long had they been traveling when the car broke down?",
+            "vi": "Họ đã đi được bao lâu thì xe hỏng?"
+          }
+        ]
+      },
+      {
+        "id": "ppc-u5-form-and-state-verbs",
+        "bac": 3,
+        "label": "Hình thức và lưu ý động từ chỉ trạng thái",
+        "explanationVi": "Khẳng định: S + had been + V-ing. Phủ định: S + had not (hadn't) been + V-ing. Nghi vấn: Had + S + been + V-ing? 'Had' giữ nguyên với mọi chủ ngữ. Động từ chỉ trạng thái (know, like, believe, belong...) thường không dùng với -ing, nên dùng had + V3/V-ed (had known).",
+        "examples": [
+          {
+            "en": "He hadn't been sleeping well before the exam.",
+            "vi": "Anh ấy đã ngủ không ngon trước kỳ thi."
+          },
+          {
+            "en": "I had known Minh for years before we became neighbors.",
+            "vi": "Tôi đã quen Minh nhiều năm trước khi chúng tôi thành hàng xóm."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "for + khoảng thời gian",
+        "meaningVi": "trong (bao lâu)"
+      },
+      {
+        "word": "since + mốc thời gian",
+        "meaningVi": "từ (khi nào)"
+      },
+      {
+        "word": "How long ...?",
+        "meaningVi": "bao lâu"
+      },
+      {
+        "word": "when / by the time / before",
+        "meaningVi": "khi / đến lúc / trước khi (mốc quá khứ)"
+      },
+      {
+        "word": "all day / all night",
+        "meaningVi": "suốt ngày / suốt đêm"
+      }
+    ],
+    "formulas": {
+      "affirmative": "S + had been + V-ing. Ví dụ: She had been working since seven o'clock.",
+      "negative": "S + had not (hadn't) been + V-ing. Ví dụ: We hadn't been waiting long.",
+      "question": "Had + S + been + V-ing ...? Ví dụ: Had they been sleeping when the phone rang?"
+    },
+    "commonMistakes": [
+      {
+        "id": "past-perfect-continuous-m1",
+        "description": "Nhầm với hiện tại hoàn thành tiếp diễn: khi nói về mốc trong quá khứ phải dùng had been, không dùng have/has been.",
+        "examples": [
+          {
+            "wrong": "When the teacher entered, the class have been talking for ten minutes.",
+            "correct": "When the teacher entered, the class had been talking for ten minutes."
+          }
+        ]
+      },
+      {
+        "id": "past-perfect-continuous-m2",
+        "description": "Thiếu 'been' hoặc dùng sai dạng động từ: sau had been phải là V-ing.",
+        "examples": [
+          {
+            "wrong": "They had playing cards for hours.",
+            "correct": "They had been playing cards for hours."
+          },
+          {
+            "wrong": "She had been sleep for hours.",
+            "correct": "She had been sleeping for hours."
+          }
+        ]
+      },
+      {
+        "id": "past-perfect-continuous-m3",
+        "description": "Dùng tiếp diễn với động từ chỉ trạng thái (know, like, believe...).",
+        "examples": [
+          {
+            "wrong": "We had been believing him for years.",
+            "correct": "We had believed him for years."
+          }
+        ]
+      }
+    ]
+  }
+}

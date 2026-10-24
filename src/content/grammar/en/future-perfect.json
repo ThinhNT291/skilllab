@@ -1,0 +1,158 @@
+{
+  "id": "future-perfect",
+  "language": "en",
+  "title": "Thì tương lai hoàn thành (Future Perfect)",
+  "levels": [
+    "B2",
+    "C1"
+  ],
+  "order": 21,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "fp-u1-completed-by-future-time",
+        "bac": 4,
+        "label": "Việc sẽ hoàn thành trước một thời điểm trong tương lai",
+        "explanationVi": "Dùng will have + V3/V-ed để nói một việc sẽ ĐÃ HOÀN THÀNH trước một mốc thời gian trong tương lai. Hãy tưởng tượng bạn đứng ở mốc đó và nhìn lại: việc ấy đã xong. Thường đi với by + mốc thời gian (by next June, by 2030, by tomorrow morning).",
+        "examples": [
+          {
+            "en": "By the end of the week, Nam will have read the whole novel.",
+            "vi": "Đến cuối tuần, Nam sẽ đọc xong cả cuốn tiểu thuyết."
+          },
+          {
+            "en": "By midnight, the printers will have printed all the posters.",
+            "vi": "Đến nửa đêm, máy in sẽ in xong tất cả áp phích."
+          }
+        ]
+      },
+      {
+        "id": "fp-u2-duration-up-to-future-time",
+        "bac": 4,
+        "label": "Quãng thời gian kéo dài đến một mốc trong tương lai",
+        "explanationVi": "Dùng will have been + V-ing với for + khoảng thời gian để nhấn mạnh việc đã kéo dài bao lâu tính đến một mốc tương lai. Khi chỉ nêu quãng thời gian, will have + V3 cũng đúng (will have worked here for five years); dạng tiếp diễn nhấn mạnh quá trình hoặc sự liên tục. Câu hỏi: How long + will + S + have been + V-ing?",
+        "examples": [
+          {
+            "en": "By May, we will have been studying together for two years.",
+            "vi": "Đến tháng Năm, chúng tôi sẽ học cùng nhau được hai năm."
+          },
+          {
+            "en": "How long will they have been playing when the match ends?",
+            "vi": "Khi trận đấu kết thúc, họ sẽ chơi được bao lâu?"
+          }
+        ]
+      },
+      {
+        "id": "fp-u3-by-the-time-before",
+        "bac": 4,
+        "label": "By the time, before và by với mệnh đề thời gian",
+        "explanationVi": "Với by the time, before, when, as soon as, until, mệnh đề thời gian dùng hiện tại đơn (không dùng will), còn mệnh đề chính dùng future perfect. Ví dụ: By the time you get home, I will have cooked dinner. Hai việc cùng nhắc đến tương lai nhưng chia khác thì.",
+        "examples": [
+          {
+            "en": "By the time Mom comes back, I will have tidied my room.",
+            "vi": "Khi mẹ về, con sẽ dọn xong phòng."
+          },
+          {
+            "en": "They will have finished eating before the movie starts.",
+            "vi": "Họ sẽ ăn xong trước khi phim bắt đầu."
+          }
+        ]
+      },
+      {
+        "id": "fp-u4-assumptions-about-now",
+        "bac": 5,
+        "label": "Đoán việc đã xảy ra rồi (suy đoán về hiện tại)",
+        "explanationVi": "Will have + V3 còn dùng để ĐOÁN một việc đã xảy ra xong rồi tính đến lúc nói, dựa trên hiểu biết của người nói. Cách dùng này nói về hiện tại, nên đi với các dấu hiệu như by now, already. Mức độ trang trọng hơn trong giao tiếp, thường gặp ở văn viết và trình độ cao.",
+        "examples": [
+          {
+            "en": "It's late, so the bus will have gone by now.",
+            "vi": "Đã muộn rồi, chắc chuyến xe buýt đã đi rồi."
+          },
+          {
+            "en": "He will have reached the airport by now, I suppose.",
+            "vi": "Chắc bây giờ anh ấy đã đến sân bay rồi."
+          }
+        ]
+      },
+      {
+        "id": "fp-u5-form-and-state-verbs",
+        "bac": 4,
+        "label": "Hình thức và động từ chỉ trạng thái",
+        "explanationVi": "Khẳng định: S + will have + V3. Phủ định: S + will not (won't) have + V3. Nghi vấn: Will + S + have + V3? Tiếp diễn: S + will have been + V-ing. 'Will' và 'have' không đổi theo chủ ngữ. Động từ chỉ trạng thái (know, like, belong...) không dùng với -ing: will have known, không viết will have been knowing.",
+        "examples": [
+          {
+            "en": "He won't have arrived by seven.",
+            "vi": "Đến bảy giờ anh ấy sẽ chưa đến."
+          },
+          {
+            "en": "By next year, will you have learned to drive?",
+            "vi": "Đến năm sau, bạn sẽ học lái xe xong chưa?"
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "by + mốc thời gian",
+        "meaningVi": "vào lúc, tính đến (by next June, by 2030)"
+      },
+      {
+        "word": "by the time",
+        "meaningVi": "vào lúc, đến khi"
+      },
+      {
+        "word": "before",
+        "meaningVi": "trước khi"
+      },
+      {
+        "word": "by then / by now",
+        "meaningVi": "đến lúc đó / đến bây giờ"
+      },
+      {
+        "word": "for + khoảng thời gian",
+        "meaningVi": "trong bao lâu (với will have been V-ing)"
+      }
+    ],
+    "formulas": {
+      "affirmative": "S + will have + V3/V-ed. Ví dụ: I will have finished by Friday. | Tiếp diễn: S + will have been + V-ing. Ví dụ: She will have been working here for five years.",
+      "negative": "S + will not (won't) have + V3. Ví dụ: She won't have finished the report by five.",
+      "question": "Will + S + have + V3 ...? Ví dụ: Will you have finished the report by Monday?"
+    },
+    "commonMistakes": [
+      {
+        "id": "future-perfect-m1",
+        "description": "Dùng will trong mệnh đề thời gian: sau by the time, before, when dùng hiện tại đơn dù nói về tương lai.",
+        "examples": [
+          {
+            "wrong": "By the time Mom will come back, I will have tidied my room.",
+            "correct": "By the time Mom comes back, I will have tidied my room."
+          }
+        ]
+      },
+      {
+        "id": "future-perfect-m2",
+        "description": "Sai dạng động từ sau have: phải là V3/V-ed, không phải nguyên thể; và không viết will had.",
+        "examples": [
+          {
+            "wrong": "By Friday, she will have finish the report.",
+            "correct": "By Friday, she will have finished the report."
+          },
+          {
+            "wrong": "By Friday, she will had finished the report.",
+            "correct": "By Friday, she will have finished the report."
+          }
+        ]
+      },
+      {
+        "id": "future-perfect-m3",
+        "description": "Dùng tiếp diễn với động từ chỉ trạng thái (know, like, belong...).",
+        "examples": [
+          {
+            "wrong": "By May, I will have been owning this bike for two years.",
+            "correct": "By May, I will have owned this bike for two years."
+          }
+        ]
+      }
+    ]
+  }
+}
