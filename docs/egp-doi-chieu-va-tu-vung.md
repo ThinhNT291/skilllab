@@ -90,3 +90,9 @@ Bạn hỏi tham khảo cách các hệ thống làm. Kết quả tìm kiếm:
 - Bạn có duyệt cách tách `difficulty` (tương đối trong chuyên đề) và `bac` (bậc khung chuẩn) không?
 - Bạn có đồng ý dùng EVP làm danh sách gốc cho module từ vựng không?
 - Mục `subjunctive`: bạn có tài liệu nào khác (ví dụ sách) để đối chiếu không?
+
+## 6. Kết quả duyệt chuyên đề đầu tiên (đã áp dụng)
+
+- **Trường `bac`** đã thêm vào kiểu dữ liệu (1–6), có kiểm tra trong `check:content`. Đã gắn cho `present-simple` (60 câu, 7 mục lý thuyết): bậc 1 cho thói quen và sự thật, bậc 2 cho lịch trình, trạng thái, chỉ dẫn và trạng từ tần suất, bậc 3 cho hòa hợp chủ-vị.
+- **Chuyên đề `subjunctive`** (30 câu, 7 mục) đã rà soát: đáp án đúng, không có câu trùng, giải thích khớp với `Câu giả định.pdf`. Gắn bậc 4 (B2) theo cấp của chuyên đề, vì EGP không có nhóm tương ứng để đối chiếu thêm. Một điểm mập mờ nhỏ: câu 009 có đáp án "could" bị loại, nên nêu thêm lý do trong giải thích nếu cần.
+- **Việc còn lại:** đặt `bac` cho 22 chuyên đề còn lại theo từng mục lý thuyết, dựa trên bảng ước lượng ở mục 2.

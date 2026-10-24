@@ -67,6 +67,7 @@ for (const lang of fs.readdirSync(path.join(root, 'grammar'))) {
       if (ex.language !== lang) at(`language (${ex.language}) khác thư mục (${lang})`)
       if (ex.topic !== topic) at(`topic (${ex.topic}) khác tên tệp (${topic})`)
       if (ex.level !== undefined && !LEVELS.includes(ex.level)) at(`level lạ: ${ex.level}`)
+      if (ex.bac !== undefined && ![1, 2, 3, 4, 5, 6].includes(ex.bac)) at(`bac lạ: ${ex.bac} (chỉ 1–6)`)
       if (![1, 2, 3].includes(ex.difficulty)) at(`difficulty lạ: ${ex.difficulty}`); else diff[ex.difficulty]++
       if (!ex.prompt || !ex.explanation) at('thiếu prompt/explanation')
       const ch = ex.choices ?? []

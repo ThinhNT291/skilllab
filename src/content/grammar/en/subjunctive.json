@@ -26,7 +26,8 @@
             "en": "I wish I were on a beach right now instead of sitting in this office.",
             "vi": "Tôi ước gì bây giờ mình đang ở trên bãi biển thay vì ngồi trong văn phòng này."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "subjunctive-u2-wish-past",
@@ -41,7 +42,8 @@
             "en": "She wishes she hadn't quit her job so suddenly.",
             "vi": "Cô ấy ước gì mình đã không nghỉ việc một cách đột ngột như vậy."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "subjunctive-u3-wish-would",
@@ -56,7 +58,8 @@
             "en": "I wish it would stop raining so we could go outside.",
             "vi": "Tôi ước gì trời ngừng mưa để chúng ta có thể ra ngoài."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "subjunctive-u4-if-only",
@@ -75,7 +78,8 @@
             "en": "If only I knew the answer to this question.",
             "vi": "Giá như tôi biết câu trả lời cho câu hỏi này."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "subjunctive-u5-would-rather",
@@ -94,7 +98,8 @@
             "en": "I would rather you had told me the truth from the start.",
             "vi": "Tôi ước gì bạn đã nói thật với tôi ngay từ đầu."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "subjunctive-u6-its-time",
@@ -109,7 +114,8 @@
             "en": "It's high time the government did something about traffic congestion.",
             "vi": "Đã đến lúc chính phủ phải làm gì đó về tình trạng tắc nghẽn giao thông."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "subjunctive-u7-mandative",
@@ -128,7 +134,8 @@
             "en": "The committee recommended that the proposal not be approved without further review.",
             "vi": "Ủy ban khuyến nghị rằng đề xuất không nên được thông qua nếu chưa xem xét thêm."
           }
-        ]
+        ],
+        "bac": 4
       }
     ],
     "signalWords": [
