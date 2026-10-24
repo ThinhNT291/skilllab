@@ -4,7 +4,7 @@ import { connection } from "next/server"
 import { notFound } from "next/navigation"
 import { PracticeSession } from "@/components/exercise/practice-session"
 import { getVocab } from "@/lib/vocab/data"
-import { pickVocabRound, VOCAB_LEVELS } from "@/lib/vocab/questions"
+import { pickVocabMatchPairs, pickVocabRound, VOCAB_LEVELS } from "@/lib/vocab/questions"
 import { bacLabel } from "@/lib/content/bac"
 
 export const metadata = { title: "Luyện từ vựng" }
@@ -37,7 +37,7 @@ async function Round({ params }: { params: PageProps<"/tu-vung/[level]">["params
       </Link>
       <h1 className="mt-2 text-3xl font-extrabold">Từ vựng {bacLabel(meta.bac)}</h1>
       <div className="mb-4" />
-      <PracticeSession exercises={exercises} />
+      <PracticeSession exercises={exercises} bonusHref={pickVocabMatchPairs(words, meta.id, () => 0.5).length > 0 ? `/tu-vung/${meta.id}/ghep-cap` : undefined} />
     </>
   )
 }
