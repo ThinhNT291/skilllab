@@ -6,3 +6,4 @@ export { getAnswerHistory, getActivityTimestamps, getAnswerCounts, getRecentTopi
 export type { Profile } from "./types"
 export { getOwnedItems, buyItem, saveEquipped, type OwnedItems, type ItemsResult, type ItemWrite } from "./items"
 export { saveTopicTest, getPassedTopics } from "./tests"
+export { saveAttempt, getAttempts, type NewAttempt } from "./attempts"

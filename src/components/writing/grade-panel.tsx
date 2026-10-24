@@ -4,6 +4,7 @@ import { useRef, useState } from "react"
 import { bacLabel } from "@/lib/content/bac"
 import type { Bac } from "@/lib/content/types"
 import { CRITERIA, countWords, MAX_PER_CRITERION, MAX_WRITING_CHARS, MIN_WORDS, type Feedback, type Skill } from "@/lib/rubric"
+import { saveAttempt } from "@/lib/db"
 import { TASKS, type SpeechTask } from "@/lib/writing-tasks"
 
 const BTN = "rounded-game border-b-[5px] border-primary-deep bg-primary px-5 py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2 disabled:opacity-50"
@@ -30,6 +31,7 @@ export function GradePanel({ skill }: { skill: Skill }) {
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState("")
   const [feedback, setFeedback] = useState<Feedback | null>(null)
+  const [saved, setSaved] = useState<"idle" | "saved" | "failed">("idle")
   const recorder = useRef<MediaRecorder | null>(null)
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -69,6 +71,7 @@ export function GradePanel({ skill }: { skill: Skill }) {
     setBusy(true)
     setError("")
     setFeedback(null)
+    setSaved("idle")
     try {
       const body =
         skill === "writing"
@@ -77,7 +80,13 @@ export function GradePanel({ skill }: { skill: Skill }) {
       const res = await fetch("/api/grade", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) })
       const json = (await res.json()) as { feedback?: Feedback; error?: string }
       if (!res.ok || !json.feedback) setError(json.error ?? "Chưa chấm được, thử lại nhé.")
-      else setFeedback(json.feedback)
+      else {
+        setFeedback(json.feedback)
+        // Chỉ lưu điểm và một nhận xét ngắn, không lưu bài làm hay bản ghi âm.
+        const f = json.feedback
+        const r = await saveAttempt({ skill, taskId: task.id, targetBac: task.bac, total: f.total, estimatedBac: f.estimatedBac, scores: f.scores, note: f.improvements[0] })
+        setSaved(r.ok ? "saved" : "failed")
+      }
     } catch {
       setError("Không kết nối được. Kiểm tra mạng rồi thử lại nhé.")
     } finally {
@@ -158,6 +167,11 @@ export function GradePanel({ skill }: { skill: Skill }) {
       {feedback && (
         <section aria-label="Kết quả chấm" className="anim-pop space-y-3 rounded-game border-2 border-border bg-card p-5">
           <p className="text-3xl font-extrabold">{feedback.total}/10</p>
+          {saved !== "idle" && (
+            <p className="text-sm text-muted-foreground" role="status">
+              {saved === "saved" ? "Đã lưu điểm vào tiến độ." : "Chưa lưu được điểm (có thể chưa kết nối hoặc chưa chạy bản cập nhật cơ sở dữ liệu)."}
+            </p>
+          )}
           <p className="text-muted-foreground">
             Mức bạn thể hiện (máy ước lượng, chỉ để tham khảo): <strong>{bacText(feedback.estimatedBac)}</strong>
           </p>

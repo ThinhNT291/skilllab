@@ -8,6 +8,7 @@ import { ProgressBar } from "@/components/exercise/progress-bar"
 import { PlayerCard } from "@/components/game/player-card"
 import { ActivityPanel } from "./activity-panel"
 import { TrendPanel } from "./trend-panel"
+import { AttemptsPanel } from "./attempts-panel"
 
 type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; summary: ProgressSummary; rows: AnswerRow[] }
 
@@ -61,6 +62,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
       <PlayerCard />
       <ActivityPanel />
       <TrendPanel rows={state.rows} />
+      <AttemptsPanel />
       <section className="grid grid-cols-3 gap-3 text-center" aria-label="Tổng quan">
         <Stat value={String(s.total)} label="câu đã làm" />
         <Stat value={`${accuracy}%`} label="trả lời đúng" />
