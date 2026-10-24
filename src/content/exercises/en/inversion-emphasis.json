@@ -37,7 +37,7 @@
       "inv-u2-not-only"
     ],
     "difficulty": 1,
-    "bac": 4,
+    "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Not only ______ (he/win) the race, but he also broke the school record.",
     "choices": [
@@ -65,7 +65,7 @@
       "inv-u2-not-only"
     ],
     "difficulty": 1,
-    "bac": 4,
+    "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Not only ______ (my brother/cook), but he also washes the dishes.",
     "choices": [
@@ -92,8 +92,8 @@
     "tags": [
       "inv-u1-negative-adverbials"
     ],
-    "difficulty": 1,
-    "bac": 5,
+    "difficulty": 2,
+    "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Never ______ I seen such a beautiful sunset in my life.",
     "choices": [
@@ -148,23 +148,23 @@
     "tags": [
       "inv-u5-form-rules"
     ],
-    "difficulty": 1,
+    "difficulty": 2,
     "bac": 4,
     "title": "Chọn câu đúng",
     "prompt": "Choose the sentence with correct inversion.",
     "choices": [
-      "Seldom does she complains about her homework.",
-      "Seldom she does complain about her homework.",
-      "Seldom does she complain about her homework.",
-      "Seldom she complains about her homework."
+      "Seldom my sister takes the bus to school.",
+      "Seldom does my sister takes the bus to school.",
+      "Seldom does my sister take the bus to school.",
+      "Seldom my sister does take the bus to school."
     ],
     "correctIndex": 2,
     "explanation": "Trạng từ phủ định + does + S + V nguyên thể.",
     "choiceExplanations": [
-      "Sai — 'Seldom does she complains about her homework.': sau does động từ chính phải ở dạng nguyên thể (complain).",
-      "Sai — 'Seldom she does complain about her homework.': does phải đứng trước chủ ngữ, không đứng sau.",
+      "Sai — 'Seldom my sister takes the bus to school.': 'Seldom' ở đầu câu nên phải đảo ngữ.",
+      "Sai — 'Seldom does my sister takes the bus to school.': sau does động từ chính phải ở dạng nguyên thể (take).",
       "Đúng — đảo does lên trước chủ ngữ, động từ chính nguyên thể.",
-      "Sai — 'Seldom she complains about her homework.': 'Seldom' ở đầu câu nên phải đảo ngữ."
+      "Sai — 'Seldom my sister does take the bus to school.': does phải đứng trước chủ ngữ, không đứng sau."
     ]
   },
   {
@@ -176,10 +176,10 @@
     "tags": [
       "inv-u5-form-rules"
     ],
-    "difficulty": 1,
+    "difficulty": 2,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Rarely ______ (Tom/go) to the movies.",
+    "prompt": "Rarely ______ (Tom/go) to the movies these days.",
     "choices": [
       "do Tom go",
       "does Tom go",
@@ -207,7 +207,7 @@
     "difficulty": 1,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Never ______ (they/be) late for class.",
+    "prompt": "Never ______ (they/be) late for class these days.",
     "choices": [
       "they are",
       "are they",
@@ -232,13 +232,13 @@
     "tags": [
       "inv-u3-hardly-no-sooner"
     ],
-    "difficulty": 1,
+    "difficulty": 3,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "No sooner ______ (I/arrive) than it started to rain.",
     "choices": [
       "I had arrived",
-      "did I arrive",
+      "I arrived",
       "have I arrived",
       "had I arrived"
     ],
@@ -246,7 +246,7 @@
     "explanation": "No sooner + had + S + V3 + than + quá khứ đơn.",
     "choiceExplanations": [
       "Sai — 'I had arrived': sau 'No sooner' ở đầu câu phải đảo had lên trước chủ ngữ.",
-      "Sai — 'did I arrive': sau 'No sooner' ở mệnh đề đầu dùng quá khứ hoàn thành (had + V3), không dùng did.",
+      "Sai — 'I arrived': sau 'No sooner' ở đầu câu phải đảo ngữ và dùng quá khứ hoàn thành (had + V3).",
       "Sai — 'have I arrived': 'have' nói về hiện tại, trong khi 'started' ở quá khứ.",
       "Đúng — 'No sooner' đi với quá khứ hoàn thành và đảo had: had I arrived."
     ]
@@ -260,7 +260,7 @@
     "tags": [
       "inv-u4-only-not-until"
     ],
-    "difficulty": 1,
+    "difficulty": 3,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Only after the bell rang ______ the students leave the classroom.",
@@ -276,7 +276,7 @@
       "Đúng — mệnh đề chính sau 'Only after ...' được đảo: did + chủ ngữ + động từ nguyên thể.",
       "Sai — 'were': 'were' không đi với động từ nguyên thể 'leave' trong cấu trúc này.",
       "Sai — 'had': sau 'had' động từ phải là V3, mà ở đây là 'leave' (nguyên thể).",
-      "Sai — 'do': 'rang' ở quá khứ nên mệnh đề chính cũng ở quá khứ: did."
+      "Sai — 'do': 'rang' ở quá khứ và việc rời lớp đã xảy ra nên dùng did."
     ]
   },
   {
@@ -316,10 +316,10 @@
     "tags": [
       "inv-u1-negative-adverbials"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "At no time ______ (the guard/leave) his post during the night.",
+    "prompt": "At no time last night ______ (the guard/leave) his post.",
     "choices": [
       "the guard did leave",
       "did the guard left",
@@ -344,7 +344,7 @@
     "tags": [
       "inv-u2-not-only"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Not only ______ (the hotel/be) expensive, but the service was also terrible.",
@@ -372,14 +372,14 @@
     "tags": [
       "inv-u3-hardly-no-sooner"
     ],
-    "difficulty": 2,
-    "bac": 5,
+    "difficulty": 3,
+    "bac": 6,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Hardly ______ (she/open) the door when the phone rang.",
     "choices": [
       "she had opened",
       "she opened",
-      "did she open",
+      "has she opened",
       "had she opened"
     ],
     "correctIndex": 3,
@@ -387,7 +387,7 @@
     "choiceExplanations": [
       "Sai — 'she had opened': sau 'Hardly' ở đầu câu phải đảo had lên trước chủ ngữ.",
       "Sai — 'she opened': sau 'Hardly' ở đầu câu phải đảo ngữ và dùng quá khứ hoàn thành.",
-      "Sai — 'did she open': sau 'Hardly' ở mệnh đề đầu dùng quá khứ hoàn thành (had + V3).",
+      "Sai — 'has she opened': 'has' nói về hiện tại, còn 'rang' ở quá khứ.",
       "Đúng — 'Hardly' đi với quá khứ hoàn thành và đảo had: had she opened."
     ]
   },
@@ -400,23 +400,23 @@
     "tags": [
       "inv-u3-hardly-no-sooner"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "No sooner had the movie started ______ the power went out.",
     "choices": [
       "than",
-      "that",
-      "then",
+      "before",
+      "until",
       "when"
     ],
     "correctIndex": 0,
     "explanation": "No sooner ... than; Hardly ... when.",
     "choiceExplanations": [
       "Đúng — 'No sooner' đi với 'than'.",
-      "Sai — 'that': 'that' không dùng trong cấu trúc này.",
-      "Sai — 'then': 'then' không phải từ nối trong cấu trúc này.",
-      "Sai — 'when': 'when' đi với hardly/scarcely, không đi với no sooner."
+      "Sai — 'before': 'before' không dùng trong cấu trúc này.",
+      "Sai — 'until': 'until' không dùng trong cấu trúc này.",
+      "Sai — 'when': dạng chuẩn của 'no sooner' là 'than'; 'no sooner ... when' vẫn gặp nhưng bị coi là không chuẩn."
     ]
   },
   {
@@ -428,7 +428,7 @@
     "tags": [
       "inv-u4-only-not-until"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Not until the teacher explained it ______ (I/understand) the rule.",
@@ -457,7 +457,7 @@
       "inv-u4-only-not-until"
     ],
     "difficulty": 2,
-    "bac": 5,
+    "bac": 6,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Only when you finish your homework ______ (you/can) watch TV.",
     "choices": [
@@ -512,7 +512,7 @@
     "tags": [
       "inv-u5-form-rules"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "bac": 4,
     "title": "Chọn câu đúng",
     "prompt": "Which sentence is correct for the future?",
@@ -536,26 +536,26 @@
     "kind": "mcq",
     "language": "en",
     "topic": "inversion-emphasis",
-    "usageId": "inv-u5-form-rules",
+    "usageId": "inv-u3-hardly-no-sooner",
     "tags": [
-      "inv-u5-form-rules"
+      "inv-u3-hardly-no-sooner"
     ],
-    "difficulty": 2,
-    "bac": 4,
+    "difficulty": 3,
+    "bac": 6,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Hardly had I closed my eyes ______ the alarm rang.",
     "choices": [
-      "as",
+      "before",
       "than",
-      "then",
+      "until",
       "when"
     ],
     "correctIndex": 3,
     "explanation": "Hardly ... when; No sooner ... than.",
     "choiceExplanations": [
-      "Sai — 'as': 'as' không thay được 'when' trong cấu trúc cố định này.",
-      "Sai — 'than': 'than' đi với no sooner, không đi với hardly.",
-      "Sai — 'then': 'then' không phải từ nối trong cấu trúc này.",
+      "Sai — 'before': 'before' không dùng trong cấu trúc này.",
+      "Sai — 'than': dạng chuẩn của 'hardly/scarcely' là 'when'; 'than' vẫn gặp nhưng bị coi là không chuẩn, vì 'than' thuộc cấu trúc 'no sooner ... than'.",
+      "Sai — 'until': 'until' không dùng trong cấu trúc này.",
       "Đúng — 'Hardly' đi với 'when'."
     ]
   },
@@ -568,7 +568,7 @@
     "tags": [
       "inv-u1-negative-adverbials"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Seldom ______ (such a talented singer/appear) on this stage.",
@@ -596,12 +596,12 @@
     "tags": [
       "inv-u1-negative-adverbials"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 5,
     "title": "Tìm câu sai",
     "prompt": "Which sentence contains a mistake?",
     "choices": [
-      "At no time did the guards leave the gate.",
+      "Hardly ever do we watch TV on weekdays.",
       "Never has she lied to us.",
       "Seldom he goes to the gym on weekdays.",
       "Rarely do they eat dessert."
@@ -609,7 +609,7 @@
     "correctIndex": 2,
     "explanation": "Trạng từ phủ định ở đầu câu thì phải đảo ngữ.",
     "choiceExplanations": [
-      "Không chọn — 'At no time did the guards leave the gate.' câu này đúng nên không phải đáp án cần chọn.",
+      "Không chọn — 'Hardly ever do we watch TV on weekdays.' câu này đúng nên không phải đáp án cần chọn.",
       "Không chọn — 'Never has she lied to us.' câu này đúng nên không phải đáp án cần chọn.",
       "Đúng — 'Seldom' ở đầu câu nên phải đảo ngữ: Seldom does he go.",
       "Không chọn — 'Rarely do they eat dessert.' câu này đúng nên không phải đáp án cần chọn."
@@ -624,8 +624,8 @@
     "tags": [
       "inv-u2-not-only"
     ],
-    "difficulty": 3,
-    "bac": 4,
+    "difficulty": 1,
+    "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Not only ______ (the students/finish) the project early, but they also presented it brilliantly.",
     "choices": [
@@ -652,8 +652,8 @@
     "tags": [
       "inv-u2-not-only"
     ],
-    "difficulty": 3,
-    "bac": 4,
+    "difficulty": 1,
+    "bac": 5,
     "title": "Chọn câu đúng",
     "prompt": "Choose the correct sentence with 'Not only'.",
     "choices": [
@@ -681,22 +681,22 @@
       "inv-u3-hardly-no-sooner"
     ],
     "difficulty": 3,
-    "bac": 5,
+    "bac": 6,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Hardly had the show begun ______ the audience started to laugh.",
     "choices": [
-      "as",
+      "before",
       "when",
-      "then",
+      "until",
       "than"
     ],
     "correctIndex": 1,
     "explanation": "Hardly + had + S + V3 + when + quá khứ đơn.",
     "choiceExplanations": [
-      "Sai — 'as': 'as' không thay được 'when' trong cấu trúc cố định này.",
+      "Sai — 'before': 'before' không dùng trong cấu trúc này.",
       "Đúng — 'Hardly' đi với 'when'.",
-      "Sai — 'then': 'then' không phải từ nối trong cấu trúc này.",
-      "Sai — 'than': 'than' đi với no sooner, không đi với hardly."
+      "Sai — 'until': 'until' không dùng trong cấu trúc này.",
+      "Sai — 'than': dạng chuẩn của 'hardly/scarcely' là 'when'; 'than' vẫn gặp nhưng bị coi là không chuẩn, vì 'than' thuộc cấu trúc 'no sooner ... than'."
     ]
   },
   {
@@ -715,7 +715,7 @@
     "choices": [
       "had the teacher left",
       "has the teacher left",
-      "did the teacher leave",
+      "the teacher left",
       "the teacher had left"
     ],
     "correctIndex": 0,
@@ -723,7 +723,7 @@
     "choiceExplanations": [
       "Đúng — 'No sooner' đi với quá khứ hoàn thành và đảo had: had the teacher left.",
       "Sai — 'has the teacher left': 'has' nói về hiện tại, trong khi 'began' ở quá khứ.",
-      "Sai — 'did the teacher leave': sau 'No sooner' ở mệnh đề đầu dùng quá khứ hoàn thành (had + V3).",
+      "Sai — 'the teacher left': sau 'No sooner' ở đầu câu phải đảo ngữ và dùng quá khứ hoàn thành (had + V3).",
       "Sai — 'the teacher had left': sau 'No sooner' ở đầu câu phải đảo had lên trước chủ ngữ."
     ]
   },
@@ -737,12 +737,12 @@
       "inv-u3-hardly-no-sooner"
     ],
     "difficulty": 3,
-    "bac": 5,
+    "bac": 6,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Scarcely ______ (we/sit) down when the waiter brought the menu.",
     "choices": [
       "have we sat",
-      "did we sit",
+      "we sat",
       "had we sat",
       "we had sat"
     ],
@@ -750,7 +750,7 @@
     "explanation": "Hardly và scarcely dùng giống nhau.",
     "choiceExplanations": [
       "Sai — 'have we sat': 'have' nói về hiện tại, trong khi 'brought' ở quá khứ.",
-      "Sai — 'did we sit': sau 'Scarcely' ở mệnh đề đầu dùng quá khứ hoàn thành (had + V3).",
+      "Sai — 'we sat': sau 'Scarcely' ở đầu câu phải đảo ngữ và dùng quá khứ hoàn thành (had + V3).",
       "Đúng — 'Scarcely' giống 'Hardly': had + chủ ngữ + V3 (sat).",
       "Sai — 'we had sat': sau 'Scarcely' ở đầu câu phải đảo had lên trước chủ ngữ."
     ]
@@ -765,9 +765,9 @@
       "inv-u4-only-not-until"
     ],
     "difficulty": 3,
-    "bac": 5,
+    "bac": 6,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Only by working together ______ (we/solve) this problem.",
+    "prompt": "Only by working together ______ (we/can/solve) this problem.",
     "choices": [
       "we can solve",
       "can we solve",
@@ -792,23 +792,23 @@
     "tags": [
       "inv-u4-only-not-until"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 5,
-    "title": "Điền từ vào chỗ trống",
-    "prompt": "Not until last year ______ (she/learn) how to swim.",
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence with 'Only when'.",
     "choices": [
-      "did she learned",
-      "did she learn",
-      "she did learn",
-      "she learned"
+      "Only when do you finish your homework can you watch TV.",
+      "Only when you finish your homework can you watch TV.",
+      "Only when you finish your homework you can watch TV.",
+      "Only when do you finish your homework you can watch TV."
     ],
     "correctIndex": 1,
     "explanation": "Not until + thời gian, + did + S + V nguyên thể.",
     "choiceExplanations": [
-      "Sai — 'did she learned': sau did động từ phải ở dạng nguyên thể (learn).",
-      "Đúng — 'Not until last year' ở đầu câu nên đảo: did she learn.",
-      "Sai — 'she did learn': did phải đứng trước chủ ngữ.",
-      "Sai — 'she learned': sau 'Not until + cụm thời gian' ở đầu câu, mệnh đề chính phải đảo ngữ."
+      "Sai — 'Only when do you finish your homework can you watch TV.': không đảo ở mệnh đề đi sau 'Only when' (you finish).",
+      "Đúng — chỉ đảo ở mệnh đề chính (can you), không đảo mệnh đề đi sau 'Only when'.",
+      "Sai — 'Only when you finish your homework you can watch TV.': mệnh đề chính phải đảo ngữ: can you watch.",
+      "Sai — 'Only when do you finish your homework you can watch TV.': không đảo ở mệnh đề phụ và phải đảo ở mệnh đề chính."
     ]
   },
   {
@@ -820,10 +820,10 @@
     "tags": [
       "inv-u4-only-not-until"
     ],
-    "difficulty": 3,
-    "bac": 5,
+    "difficulty": 2,
+    "bac": 6,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Only if you have a ticket ______ (you/enter) the stadium.",
+    "prompt": "Only if you have a ticket ______ (you/can/enter) the stadium.",
     "choices": [
       "can you enter",
       "you can enter",

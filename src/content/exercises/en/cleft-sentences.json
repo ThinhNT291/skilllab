@@ -11,19 +11,19 @@
     "difficulty": 1,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "It is important ______ you arrive on time.",
+    "prompt": "It is surprising ______ the test was so easy.",
     "choices": [
       "what",
       "that",
-      "which",
+      "how",
       "who"
     ],
     "correctIndex": 1,
     "explanation": "It + be + tính từ + that + mệnh đề.",
     "choiceExplanations": [
-      "Sai — 'what': 'what' không dùng để nối mệnh đề nội dung sau It is important.",
+      "Sai — 'what': 'what' không dùng để nối mệnh đề nội dung sau tính từ.",
       "Đúng — 'It is + tính từ + that + mệnh đề': that.",
-      "Sai — 'which': 'which' không dùng để nối mệnh đề nội dung sau tính từ.",
+      "Sai — 'how': 'how' dùng khi nói mức độ (how easy the test was), không dùng với mệnh đề 'the test was so easy'.",
       "Sai — 'who': 'who' dùng cho người, còn ở đây là cả một mệnh đề."
     ]
   },
@@ -69,18 +69,18 @@
     "title": "Chọn câu đúng",
     "prompt": "Choose the correct sentence with 'It is ... that'.",
     "choices": [
-      "It is important that she finishes the report on time.",
-      "Is important that she finishes the report on time.",
-      "It important that she finishes the report on time.",
-      "It is important what she finishes the report on time."
+      "It is lucky that she finished the report on time.",
+      "It is lucky what she finished the report on time.",
+      "It lucky that she finished the report on time.",
+      "Is lucky that she finished the report on time."
     ],
     "correctIndex": 0,
     "explanation": "It + is + tính từ + that + mệnh đề.",
     "choiceExplanations": [
       "Đúng — đúng cấu trúc It + be + tính từ + that + mệnh đề.",
-      "Sai — 'Is important that she finishes the report on time.': thiếu chủ ngữ giả 'It'.",
-      "Sai — 'It important that she finishes the report on time.': thiếu động từ be (is).",
-      "Sai — 'It is important what she finishes the report on time.': sau tính từ phải dùng 'that', không dùng 'what'."
+      "Sai — 'It is lucky what she finished the report on time.': sau tính từ phải dùng 'that', không dùng 'what'.",
+      "Sai — 'It lucky that she finished the report on time.': thiếu động từ be (is).",
+      "Sai — 'Is lucky that she finished the report on time.': thiếu chủ ngữ giả 'It'."
     ]
   },
   {
@@ -95,7 +95,7 @@
     "difficulty": 1,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The problem ______ that the bus is always late.",
+    "prompt": "The problem ______ that the printer has no ink.",
     "choices": [
       "is",
       "are",
@@ -149,7 +149,7 @@
       "cs-u1-it-cleft"
     ],
     "difficulty": 1,
-    "bac": 5,
+    "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "It was Linh ______ won the contest.",
     "choices": [
@@ -265,18 +265,18 @@
     "title": "Chọn câu đúng",
     "prompt": "Choose the correct cleft sentence about a person.",
     "choices": [
-      "Was my sister who broke the vase.",
-      "It was my sister who broke the vase.",
-      "It was my sister what broke the vase.",
-      "It was my sister whom broke the vase."
+      "It was our neighbor what found the lost dog.",
+      "It was our neighbor who found the lost dog.",
+      "It was our neighbor whom found the lost dog.",
+      "Was our neighbor who found the lost dog."
     ],
     "correctIndex": 1,
     "explanation": "It + was + người + who + động từ.",
     "choiceExplanations": [
-      "Sai — 'Was my sister who broke the vase.': thiếu chủ ngữ giả 'It' ở đầu câu.",
-      "Đúng — sau phần nhấn mạnh là người dùng who.",
-      "Sai — 'It was my sister what broke the vase.': sau phần nhấn mạnh dùng who/that, không dùng what.",
-      "Sai — 'It was my sister whom broke the vase.': 'whom' dùng cho tân ngữ; ở đây 'my sister' là chủ ngữ của 'broke'."
+      "Sai — 'It was our neighbor what found the lost dog.': 'what' không dùng sau phần nhấn mạnh trong câu chẻ với It.",
+      "Đúng — sau phần nhấn mạnh là người dùng who (that cũng được).",
+      "Sai — 'It was our neighbor whom found the lost dog.': 'whom' dùng cho tân ngữ; ở đây 'our neighbor' là chủ ngữ của 'found'.",
+      "Sai — 'Was our neighbor who found the lost dog.': thiếu chủ ngữ giả 'It' ở đầu câu."
     ]
   },
   {
@@ -319,7 +319,7 @@
     "difficulty": 2,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "It is Tom ______ always arrives first.",
+    "prompt": "It is Mai ______ always forgets her umbrella.",
     "choices": [
       "what",
       "whose",
@@ -329,10 +329,10 @@
     "correctIndex": 3,
     "explanation": "Động từ sau who chia theo phần được nhấn mạnh (arrives).",
     "choiceExplanations": [
-      "Sai — 'what': sau phần nhấn mạnh dùng who/that, không dùng what.",
-      "Sai — 'whose': 'whose' chỉ sở hữu, không thay được chủ ngữ ở đây.",
-      "Sai — 'which': 'which' dùng cho vật, còn Tom là người.",
-      "Đúng — phần nhấn mạnh là người nên dùng who: It is Tom who ..."
+      "Sai — 'what': 'what' không dùng sau phần nhấn mạnh trong câu chẻ với It.",
+      "Sai — 'whose': 'whose' chỉ sở hữu, không thay chủ ngữ ở đây.",
+      "Sai — 'which': 'which' dùng cho vật, còn Mai là người.",
+      "Đúng — phần nhấn mạnh là người nên dùng who (that cũng được); động từ sau who chia theo Mai (số ít): forgets."
     ]
   },
   {
@@ -347,7 +347,7 @@
     "difficulty": 2,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "What he did ______ call the police immediately.",
+    "prompt": "What she did ______ ask the teacher for help.",
     "choices": [
       "was",
       "did",
@@ -357,9 +357,9 @@
     "correctIndex": 0,
     "explanation": "What + did + S + was + (to) + động từ nguyên thể.",
     "choiceExplanations": [
-      "Đúng — 'What he did' ở quá khứ nên be ở quá khứ: was (call hoặc to call đều được).",
+      "Đúng — 'What she did' ở quá khứ nên be ở quá khứ: was (ask hoặc to ask đều được).",
       "Sai — 'did': 'did' không thay được động từ be trong câu chẻ với What.",
-      "Sai — 'is': 'is' là hiện tại, còn 'did' ở quá khứ.",
+      "Sai — 'is': với việc đã xảy ra trong quá khứ thường dùng was; 'is' chỉ gặp khi kể bằng hiện tại lịch sử.",
       "Sai — 'has': 'has' không thay được động từ be trong câu chẻ với What."
     ]
   },
@@ -372,7 +372,7 @@
     "tags": [
       "cs-u2-what-cleft"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "______ I really enjoyed was the music.",
@@ -428,7 +428,7 @@
     "tags": [
       "cs-u3-the-thing-is"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "The reason ______ I called you is that I need some help.",
@@ -484,7 +484,7 @@
     "tags": [
       "cs-u5-form-and-pitfalls"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 5,
     "title": "Tìm câu sai",
     "prompt": "Which cleft sentence is INCORRECT?",
@@ -564,9 +564,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "cleft-sentences",
-    "usageId": "cs-u1-it-cleft",
+    "usageId": "cs-u5-form-and-pitfalls",
     "tags": [
-      "cs-u1-it-cleft"
+      "cs-u5-form-and-pitfalls"
     ],
     "difficulty": 3,
     "bac": 5,
@@ -596,7 +596,7 @@
     "tags": [
       "cs-u1-it-cleft"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 5,
     "title": "Tìm trọng tâm",
     "prompt": "Which sentence puts the focus on the TIME?",
@@ -624,7 +624,7 @@
     "tags": [
       "cs-u2-what-cleft"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "What surprised everyone ______ his honesty.",
@@ -657,18 +657,18 @@
     "title": "Chọn câu đúng",
     "prompt": "Choose the correct wh-cleft sentence.",
     "choices": [
-      "What I need is to more time.",
-      "What I need are more time.",
-      "What I need is more time.",
-      "What I needs is more time."
+      "What we need are more practice.",
+      "What we need is to more practice.",
+      "What we need is more practice.",
+      "What we needs is more practice."
     ],
     "correctIndex": 2,
     "explanation": "What + mệnh đề + is + phần nhấn mạnh.",
     "choiceExplanations": [
-      "Sai — 'What I need is to more time.': không có 'to' trước danh từ 'more time'.",
-      "Sai — 'What I need are more time.': 'more time' là số ít nên dùng 'is', không dùng 'are'.",
-      "Đúng — đúng cấu trúc What + mệnh đề + is + danh từ số ít.",
-      "Sai — 'What I needs is more time.': 'I' đi với 'need', không thêm -s."
+      "Sai — 'What we need are more practice.': 'more practice' là danh từ không đếm được (số ít) nên dùng 'is'.",
+      "Sai — 'What we need is to more practice.': không có 'to' trước danh từ 'more practice'.",
+      "Đúng — đúng cấu trúc What + mệnh đề + is + danh từ không đếm được (số ít).",
+      "Sai — 'What we needs is more practice.': 'we' đi với 'need', không thêm -s."
     ]
   },
   {
@@ -680,23 +680,23 @@
     "tags": [
       "cs-u3-the-thing-is"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "The reason I left early is ______ I felt sick.",
     "choices": [
-      "what",
+      "because",
       "that",
-      "whose",
-      "how"
+      "what",
+      "whose"
     ],
     "correctIndex": 1,
     "explanation": "The reason ... is that + mệnh đề.",
     "choiceExplanations": [
+      "Sai — 'because': 'The reason is because' hay gặp khi nói, nhưng trong văn viết chuẩn dùng 'that' (vì 'reason' đã mang nghĩa lý do).",
+      "Đúng — 'The reason ... is that ...' là dạng chuẩn.",
       "Sai — 'what': 'what' không nối mệnh đề lý do sau 'The reason ... is'.",
-      "Đúng — 'The reason ... is that ...'.",
-      "Sai — 'whose': 'whose' chỉ sở hữu, không dùng ở đây.",
-      "Sai — 'how': 'how' không nối mệnh đề lý do trong cấu trúc này."
+      "Sai — 'whose': 'whose' chỉ sở hữu, không dùng ở đây."
     ]
   },
   {
@@ -724,7 +724,7 @@
       "Sai — 'The thing is what I forgot my keys.': sau 'is' dùng 'that' để nối mệnh đề, không dùng 'what'.",
       "Sai — 'The thing are that I forgot my keys.': 'The thing' là số ít nên dùng 'is'.",
       "Đúng — đúng cấu trúc The thing + is + that + mệnh đề.",
-      "Sai — 'The thing is I forgetting my keys.': sau 'is that' cần mệnh đề đầy đủ với động từ chia (forgot)."
+      "Sai — 'The thing is I forgetting my keys.': sau 'The thing is' cần một mệnh đề đầy đủ có động từ chia (I forgot my keys)."
     ]
   },
   {
@@ -739,20 +739,20 @@
     "difficulty": 3,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "It is essential ______ every student wears a helmet.",
+    "prompt": "It is surprising ______ every student wears a helmet.",
     "choices": [
-      "which",
+      "what",
       "how",
       "that",
-      "what"
+      "which"
     ],
     "correctIndex": 2,
     "explanation": "It + be + tính từ + that + mệnh đề.",
     "choiceExplanations": [
-      "Sai — 'which': 'which' không dùng để nối mệnh đề nội dung sau tính từ.",
-      "Sai — 'how': 'how' không nối mệnh đề này sau 'essential'.",
-      "Đúng — 'It is essential that + mệnh đề'.",
-      "Sai — 'what': 'what' không dùng để nối mệnh đề nội dung sau tính từ."
+      "Sai — 'what': 'what' không dùng để nối mệnh đề nội dung sau tính từ.",
+      "Sai — 'how': 'how' không nối mệnh đề này sau 'surprising'.",
+      "Đúng — 'It is + tính từ + that + mệnh đề'.",
+      "Sai — 'which': 'which' không dùng để nối mệnh đề nội dung sau tính từ."
     ]
   },
   {
@@ -797,18 +797,18 @@
     "title": "Tìm câu sai",
     "prompt": "Which cleft sentence contains a mistake?",
     "choices": [
-      "It was the rain that ruined our picnic.",
-      "It was the rain who ruined our picnic.",
-      "It was Linh who ruined our picnic.",
-      "What ruined our picnic was the rain."
+      "It was Nam who knocked over the tent.",
+      "It was the wind who knocked over the tent.",
+      "It was the wind that knocked over the tent.",
+      "What knocked over the tent was the wind."
     ],
     "correctIndex": 1,
-    "explanation": "Who chỉ dùng cho người; vật dùng that.",
+    "explanation": "Who dùng cho người; với vật thì dùng that.",
     "choiceExplanations": [
-      "Không chọn — 'It was the rain that ruined our picnic.' câu này đúng nên không phải đáp án cần chọn.",
-      "Đúng — 'the rain' không phải người nên dùng that, không dùng who.",
-      "Không chọn — 'It was Linh who ruined our picnic.' câu này đúng nên không phải đáp án cần chọn.",
-      "Không chọn — 'What ruined our picnic was the rain.' câu này đúng nên không phải đáp án cần chọn."
+      "Không chọn — 'It was Nam who knocked over the tent.' câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — 'the wind' không phải người; thường dùng that: It was the wind that knocked over the tent.",
+      "Không chọn — 'It was the wind that knocked over the tent.' câu này đúng nên không phải đáp án cần chọn.",
+      "Không chọn — 'What knocked over the tent was the wind.' câu này đúng nên không phải đáp án cần chọn."
     ]
   },
   {
@@ -823,20 +823,20 @@
     "difficulty": 3,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "It wasn't Tom ______ broke the window; it was his brother.",
+    "prompt": "It wasn't Nam ______ spilled the juice; it was his cousin.",
     "choices": [
-      "whom",
       "what",
+      "whom",
       "whose",
       "who"
     ],
     "correctIndex": 3,
     "explanation": "It wasn't X who/that ..., it was Y: đính chính người làm việc.",
     "choiceExplanations": [
-      "Sai — 'whom': 'whom' dùng cho tân ngữ; ở đây 'Tom' là chủ ngữ của 'broke'.",
-      "Sai — 'what': sau phần nhấn mạnh dùng that/who, không dùng what.",
+      "Sai — 'what': 'what' không dùng sau phần nhấn mạnh trong câu chẻ với It.",
+      "Sai — 'whom': 'whom' dùng cho tân ngữ; ở đây 'Nam' là chủ ngữ của 'spilled'.",
       "Sai — 'whose': 'whose' chỉ sở hữu, không thay chủ ngữ ở đây.",
-      "Đúng — phần phủ định là người nên dùng who."
+      "Đúng — phần phủ định là người nên dùng who (that cũng được)."
     ]
   }
 ]

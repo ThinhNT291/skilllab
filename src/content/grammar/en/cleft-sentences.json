@@ -14,7 +14,7 @@
         "id": "cs-u1-it-cleft",
         "bac": 5,
         "label": "Câu chẻ với It: It is/was ... that/who ...",
-        "explanationVi": "Dùng để nhấn mạnh một thành phần của câu (người, vật, thời gian, nơi chốn). Cấu trúc: It + is/was + phần cần nhấn mạnh + that/who + phần còn lại. Dùng who hoặc that cho người; that cho vật, thời gian, nơi chốn. Dạng be theo nghĩa: nói chuyện quá khứ dùng was, chuyện hiện tại dùng is. Nghĩa của câu không đổi, chỉ thay đổi trọng tâm.",
+        "explanationVi": "Dùng để nhấn mạnh một thành phần của câu (người, vật, thời gian, nơi chốn). Cấu trúc: It + is/was + phần cần nhấn mạnh + that/who + phần còn lại. Dùng who hoặc that cho người; that cho vật, thời gian, nơi chốn. Dạng be theo nghĩa: nói chuyện quá khứ dùng was, chuyện hiện tại dùng is. Nghĩa của câu không đổi, chỉ thay đổi trọng tâm. Trong nói thân mật, sau cụm thời gian hoặc nơi chốn đôi khi người ta dùng when/where thay cho that.",
         "examples": [
           {
             "en": "It was my cousin who taught me to cook.",
@@ -30,7 +30,7 @@
         "id": "cs-u2-what-cleft",
         "bac": 5,
         "label": "Câu chẻ với What: What ... is/was ...",
-        "explanationVi": "Cấu trúc What + mệnh đề + be + phần nhấn mạnh. Mệnh đề bắt đầu bằng What đóng vai trò chủ ngữ, nên đi với động từ số ít (is/was) khi phần nhấn mạnh là một danh từ số ít. Có thể nói What he did was call the police (động từ nguyên thể, có hoặc không có to). Cách nói này nhấn mạnh việc gì, điều gì.",
+        "explanationVi": "Cấu trúc What + mệnh đề + be + phần nhấn mạnh. Mệnh đề bắt đầu bằng What đóng vai trò chủ ngữ, nên đi với động từ số ít (is/was) khi phần nhấn mạnh là một danh từ số ít. Có thể nói What he did was call the police (động từ nguyên thể, có hoặc không có to). Cách nói này nhấn mạnh việc gì, điều gì. What cũng có thể là chủ ngữ của chính mệnh đề: What surprised everyone was his honesty. Khi phần nhấn mạnh là danh từ số nhiều, đôi khi gặp cả is lẫn are (What I need are new shoes).",
         "examples": [
           {
             "en": "What I miss most is my grandmother's cooking.",
@@ -62,7 +62,7 @@
         "id": "cs-u4-it-be-adjective-that",
         "bac": 3,
         "label": "It + be + tính từ + that + mệnh đề",
-        "explanationVi": "Dùng It làm chủ ngữ giả, tính từ nêu đánh giá, và that + mệnh đề nêu nội dung: It is important that you arrive on time. Cách này nhấn mạnh nhận xét của người nói đối với cả mệnh đề. Tính từ thường gặp: important, necessary, surprising, strange, clear, lucky, essential.",
+        "explanationVi": "Dùng It làm chủ ngữ giả, tính từ nêu đánh giá, và that + mệnh đề nêu nội dung: It is important that you arrive on time. Cách này nhấn mạnh nhận xét của người nói đối với cả mệnh đề. Tính từ thường gặp: important, necessary, surprising, strange, clear, lucky, essential. Lưu ý: cấu trúc này gần với câu chẻ (nhấn mạnh bằng chủ ngữ giả It), nhưng về mặt ngữ pháp là chủ ngữ giả chứ không phải câu chẻ thật. Tính từ -ing mô tả sự việc (amazing, surprising); tính từ -ed mô tả cảm giác của người (amazed, surprised), nên sau 'It is' dùng dạng -ing.",
         "examples": [
           {
             "en": "It is lucky that we brought umbrellas.",
@@ -78,7 +78,7 @@
         "id": "cs-u5-form-and-pitfalls",
         "bac": 5,
         "label": "Hình thức và lỗi hay gặp của câu chẻ",
-        "explanationVi": "Lưu ý: (1) Sau phần nhấn mạnh trong câu chẻ với It dùng that hoặc who, không dùng what. (2) Dùng who cho người, không dùng who cho vật. (3) Động từ trong mệnh đề sau that/who chia theo phần được nhấn mạnh: It is Tom who always arrives first. (4) Có thể phủ định phần nhấn mạnh: It wasn't Tom who broke the window. (5) Câu chẻ nghe trang trọng và nhấn mạnh; nói thường ngày chỉ dùng khi muốn đính chính hay nhấn mạnh.",
+        "explanationVi": "Lưu ý: (1) Sau phần nhấn mạnh trong câu chẻ với It dùng that hoặc who, không dùng what. (2) Who dùng cho người; với vật thì dùng that. Nếu phần nhấn mạnh là tân ngữ chỉ người, có thể dùng whom (trang trọng), who hoặc that (It was Linh whom/who/that I met); nếu là chủ ngữ của động từ sau thì dùng who hoặc that, không dùng whom. (3) Động từ trong mệnh đề sau that/who chia theo phần được nhấn mạnh: It is Tom who always arrives first. (4) Có thể phủ định phần nhấn mạnh: It wasn't Tom who broke the window. (5) Câu chẻ nghe trang trọng và nhấn mạnh; nói thường ngày chỉ dùng khi muốn đính chính hay nhấn mạnh.",
         "examples": [
           {
             "en": "It wasn't the weather that spoiled the trip, but the traffic.",

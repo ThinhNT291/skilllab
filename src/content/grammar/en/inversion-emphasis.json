@@ -30,7 +30,7 @@
         "id": "inv-u2-not-only",
         "bac": 4,
         "label": "Not only ... but (also) ...",
-        "explanationVi": "Khi 'Not only' mở đầu câu, phần đứng sau nó được đảo: Not only + trợ động từ (hoặc be) + chủ ngữ + động từ chính, but (chủ ngữ) also... Mệnh đề thứ hai sau 'but also' giữ trật tự bình thường. Nếu câu chỉ có động từ 'be' thì đảo luôn 'be' lên trước chủ ngữ, không cần thêm do/does/did.",
+        "explanationVi": "Khi 'Not only' mở đầu câu, phần đứng sau nó được đảo: Not only + trợ động từ (hoặc be) + chủ ngữ + động từ chính, but (chủ ngữ) also... Mệnh đề thứ hai sau 'but also' giữ trật tự bình thường. Nếu câu chỉ có động từ 'be' thì đảo luôn 'be' lên trước chủ ngữ, không cần thêm do/does/did. Chỉ đảo khi 'Not only' đứng đầu một mệnh đề đầy đủ (chủ ngữ + động từ). Nếu 'Not only' chỉ đứng trước một danh từ hay cụm từ (Not only Tom but also Anna came) thì không đảo.",
         "examples": [
           {
             "en": "Not only is the room small, but it is also dark.",
@@ -46,7 +46,7 @@
         "id": "inv-u3-hardly-no-sooner",
         "bac": 5,
         "label": "Hardly / Scarcely ... when và No sooner ... than",
-        "explanationVi": "Để nói việc này vừa xảy ra thì việc kia xảy ra ngay, dùng: Hardly (hoặc Scarcely) + had + S + V3 + when ... ; No sooner + had + S + V3 + than ... Mệnh đề đầu dùng quá khứ hoàn thành và đảo had lên trước chủ ngữ; mệnh đề sau dùng quá khứ đơn. Chú ý: hardly/scarcely đi với WHEN, no sooner đi với THAN.",
+        "explanationVi": "Để nói việc này vừa xảy ra thì việc kia xảy ra ngay, dùng: Hardly (hoặc Scarcely) + had + S + V3 + when ... ; No sooner + had + S + V3 + than ... Mệnh đề đầu dùng quá khứ hoàn thành và đảo had lên trước chủ ngữ; mệnh đề sau dùng quá khứ đơn. Dạng chuẩn: hardly/scarcely đi với WHEN, no sooner đi với THAN (dạng lẫn lộn vẫn gặp nhưng bị coi là không chuẩn). Trong tiếng Anh Mỹ thân mật đôi khi dùng quá khứ đơn (No sooner did he arrive than ...), nhưng bài này luyện dạng chuẩn had + V3.",
         "examples": [
           {
             "en": "Hardly had we reached the station when the train left.",
@@ -141,7 +141,7 @@
       },
       {
         "id": "inversion-emphasis-m3",
-        "description": "Nhầm cặp từ: hardly/scarcely đi với when, no sooner đi với than.",
+        "description": "Dùng lẫn cặp từ: dạng chuẩn là hardly/scarcely ... when và no sooner ... than (dạng lẫn lộn bị coi là không chuẩn).",
         "examples": [
           {
             "wrong": "No sooner had I left when it rained.",
