@@ -106,17 +106,6 @@
 "vi": "sân bay"
 },
 {
-"id": "v-alcohol-noun-1",
-"word": "alcohol",
-"pos": "noun",
-"def": "drinks such as wine and beer which can make you drunk",
-"ex": [
-"Most wines contain between 10% and 15% alcohol.",
-"an alcohol-free lager"
-],
-"vi": "rượu bia"
-},
-{
 "id": "v-all-adverb-1",
 "word": "all",
 "pos": "adverb",
@@ -642,17 +631,6 @@
 "a church hall"
 ],
 "vi": "nhà thờ"
-},
-{
-"id": "v-cigarette-noun-1",
-"word": "cigarette",
-"pos": "noun",
-"def": "a small paper tube filled with cut pieces of tobacco, which people smoke",
-"ex": [
-"a packet of cigarettes",
-"She lit a cigarette."
-],
-"vi": "điếu thuốc lá"
 },
 {
 "id": "v-classmate-noun-1",
@@ -2496,17 +2474,6 @@
 "She's written a program to find words which frequently occur together."
 ],
 "vi": "chương trình máy tính"
-},
-{
-"id": "v-pub-noun-1",
-"word": "pub",
-"pos": "noun",
-"def": "a place where you can get drinks such as beer and usually food",
-"ex": [
-"Do you want to go to the pub after work?",
-"our local pub"
-],
-"vi": "quán rượu"
 },
 {
 "id": "v-pull-verb-1",
