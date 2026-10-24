@@ -94,6 +94,6 @@ Chủ đề cần đề xuất (mỗi chủ đề: vấn đề, bằng chứng, 
 ## Cập nhật đối chiếu chuẩn (đã làm)
 - [x] Đọc Thông tư 01/2014 (khung 6 bậc) và Framework CEFR; đối chiếu English Grammar Profile (EGP). Chi tiết: `docs/egp-doi-chieu-va-tu-vung.md`.
 - [x] Thêm trường `bac` (bậc 1–6) cho câu và mục lý thuyết, có kiểm tra trong `check:content`.
-- [x] Rà soát `present-simple` (60 câu, bậc 1–3) và `subjunctive` (30 câu, bậc 4). Danh sách còn lại: đặt `bac` cho 21 chuyên đề khác.
+- [x] Rà soát `present-simple` (60 câu, bậc 1–3) và `subjunctive` (30 câu, bậc 4). Đã đặt `bac` cho toàn bộ 26 chuyên đề (ước lượng, cần chuyên gia kiểm lại).
 - [ ] Module từ vựng: danh sách gốc EVP (bổ sung Oxford 3000/5000 khi cần), tham khảo `Oxford Word Skills`.
 - [ ] Thêm các chuyên đề còn thiếu từ bảng cũ (future continuous, past perfect continuous, future perfect, đảo ngữ không điều kiện, câu chẻ, so/neither, liên từ, phrasal verbs quy tắc).

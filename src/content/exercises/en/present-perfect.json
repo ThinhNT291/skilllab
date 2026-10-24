@@ -24,7 +24,8 @@
       "Sai — 'have' không đi với chủ ngữ số ít 'My brother'.",
       "Đúng — has + V-p2: has just washed.",
       "Sai — 'have' không đi với 'My brother', và 'wash' phải ở dạng V-p2."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-002",
@@ -51,7 +52,8 @@
       "Sai — 'has' không đi với 'They', và 'be' phải ở dạng 'been'.",
       "Sai — 'have' đúng nhưng 'be' phải ở dạng V-p2 (been).",
       "Sai — 'has' không đi với chủ ngữ số nhiều 'They'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-003",
@@ -78,7 +80,8 @@
       "Sai — 'Has' không đi với 'you', và 'eat' phải ở dạng V-p2.",
       "Sai — sau 'Have you ever' động từ phải ở dạng V-p2 (eaten), không dùng nguyên thể.",
       "Sai — 'Has' không đi với chủ ngữ 'you'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-perfect-004",
@@ -105,7 +108,8 @@
       "Sai — 'have' không đi với 'She', và 'see' phải là 'seen'.",
       "Đúng — has not + V-p2: hasn't seen.",
       "Sai — 'have' không đi với chủ ngữ số ít 'She'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-perfect-005",
@@ -132,7 +136,8 @@
       "Sai — 'has' không đi với 'I'.",
       "Sai — 'reads' là hiện tại đơn, không đi với 'since last week'.",
       "Sai — sau 'have' phải là V-p2, không phải V-ing."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-006",
@@ -159,7 +164,8 @@
       "Đúng — 'already' đứng giữa have và V-p2 trong câu khẳng định để nhấn việc đã xong.",
       "Sai — 'for' đi với một khoảng thời gian, không đứng giữa have và V-p2.",
       "Sai — 'since' đi với mốc thời gian, không đứng ở vị trí này."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-perfect-007",
@@ -186,7 +192,8 @@
       "Sai — 'for' cần theo sau một khoảng thời gian.",
       "Sai — 'since' cần theo sau một mốc thời gian.",
       "Sai — 'ago' dùng với quá khứ đơn kèm khoảng thời gian cụ thể, không dùng với hiện tại hoàn thành."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-perfect-008",
@@ -213,7 +220,8 @@
       "Đúng — '10 years' là một khoảng thời gian → for.",
       "Sai — 'since' cần mốc thời gian, không phải khoảng thời gian.",
       "Sai — 'yet' dùng trong câu hỏi/phủ định."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-009",
@@ -240,7 +248,8 @@
       "Sai — 'just' không đi với mốc 'last summer'.",
       "Đúng — 'last summer' là mốc thời gian cụ thể → since.",
       "Sai — 'already' không nối được với mốc thời gian 'last summer'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-010",
@@ -267,7 +276,8 @@
       "Sai — 'ever' dùng trong câu hỏi, không dùng ở câu khẳng định này.",
       "Đúng — 'never' trong câu khẳng định mang nghĩa 'chưa bao giờ'.",
       "Sai — 'already' nghĩa 'đã rồi', mâu thuẫn với 'want to go someday'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-perfect-011",
@@ -294,7 +304,8 @@
       "Sai — 'gone' là V-p2, thiếu 'have' nên không thành động từ chính.",
       "Sai — hiện tại hoàn thành không đi với 'last night'.",
       "Đúng — mốc 'last night' → quá khứ đơn: went."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-012",
@@ -321,7 +332,8 @@
       "Đúng — mốc 'an hour ago' → quá khứ đơn: finished.",
       "Sai — hiện tại hoàn thành không đi với 'an hour ago'.",
       "Sai — 'is finished' là dạng bị động/trạng thái, không hợp nghĩa 'cô ấy đã làm xong'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-013",
@@ -348,7 +360,8 @@
       "Đúng — 'Look!' + kết quả ở hiện tại → has fallen. (Tiếng Anh Mỹ đời thường đôi khi dùng quá khứ đơn, nhưng bài theo chuẩn Anh-Anh.)",
       "Sai — 'had fallen' là quá khứ hoàn thành, không hợp với 'Look!' (kết quả ở hiện tại).",
       "Sai — 'is fall' không đúng cấu trúc."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-014",
@@ -375,7 +388,8 @@
       "Sai — 'worked' nói việc đã chấm dứt, trong khi 'he still works here'.",
       "Sai — 'is working' không đi với 'for 20 years' để nêu khoảng thời gian kéo dài đến nay.",
       "Đúng — việc kéo dài từ quá khứ đến hiện tại → has worked."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-015",
@@ -402,7 +416,8 @@
       "Đúng — 'When' hỏi mốc thời gian → quá khứ đơn: Did ... buy?",
       "Sai — 'When' không đi với hiện tại hoàn thành, và 'buy' phải là V-p2 nếu dùng 'have'.",
       "Sai — chia kép: sau 'did' động từ giữ nguyên thể (buy)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-016",
@@ -429,7 +444,8 @@
       "Sai — nguyên thể không đứng sau 'have' ở thì hoàn thành.",
       "Đúng — Have you ever + V-p2: eaten.",
       "Sai — V-ing không dùng sau 'have' ở thì hoàn thành."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-perfect-017",
@@ -456,7 +472,8 @@
       "Sai — 'steals' là hiện tại đơn.",
       "Sai — 'is stealing' nghĩa là đang lấy ngay lúc này.",
       "Đúng — việc xảy ra trong quá khứ không rõ thời gian, để lại kết quả ở hiện tại → has stolen."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-018",
@@ -483,7 +500,8 @@
       "Sai — 'is working' không đi với 'for more than a decade' để nêu khoảng thời gian kéo dài đến nay.",
       "Sai — 'works' (hiện tại đơn) không nhấn thời gian đã kéo dài.",
       "Đúng — hành động bắt đầu trong quá khứ và còn tiếp diễn → has worked."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-019",
@@ -510,7 +528,8 @@
       "Sai — 'am just cleaning' nghĩa là đang lau, trong khi sàn đã lau xong.",
       "Sai — 'had just cleaned' là quá khứ hoàn thành, không hợp với kết quả ở hiện tại (sàn đang sạch).",
       "Sai — sai trật tự từ: 'just' phải đứng trước động từ chính và cần trợ động từ."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-020",
@@ -537,7 +556,8 @@
       "Đúng — số lần lặp lại tính đến hiện tại → has watched.",
       "Sai — 'watches' là hiện tại đơn (thói quen), không nói số lần đã xảy ra.",
       "Sai — 'is watching' nghĩa là đang xem lúc này."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-021",
@@ -564,7 +584,8 @@
       "Sai — 'don't see' là hiện tại đơn, không đi với 'since'.",
       "Sai — 'haven't' phải đi với V-p2 (seen).",
       "Sai — 'didn't see' là quá khứ đơn, không hợp với 'since' kéo dài đến hiện tại."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-022",
@@ -591,7 +612,8 @@
       "Đúng — 'never' chỉ trải nghiệm từ trước đến nay → has never travelled.",
       "Sai — 'did never travel' sai cấu trúc (phủ định quá khứ đơn là 'didn't travel') và không hợp với 'before'.",
       "Sai — 'never travels' là hiện tại đơn, nói thói quen chung, không nói trải nghiệm."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-perfect-023",
@@ -618,7 +640,8 @@
       "Sai — 'had already finished' là quá khứ hoàn thành, không hợp với lời nói ở hiện tại ('You don't need to remind him').",
       "Sai — 'is already finishing' nghĩa là đang hoàn tất, trong khi việc đã xong.",
       "Đúng — 'already' + việc đã hoàn tất → has already finished."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-perfect-024",
@@ -645,7 +668,8 @@
       "Sai — 'writes' (hiện tại đơn) nêu thói quen, không phải số lượng đã đạt 'so far'.",
       "Đúng — 'so far' (cho đến nay) → hiện tại hoàn thành: has written.",
       "Sai — 'wrote' nói việc đã chấm dứt tại thời điểm cụ thể; 'so far' cần hiện tại hoàn thành."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-025",
@@ -672,7 +696,8 @@
       "Sai — 'did arrive' (quá khứ đơn nhấn mạnh) không đi với 'yet' theo chuẩn Anh-Anh của bài.",
       "Sai — 'had arrived' là quá khứ hoàn thành, không hợp với câu hỏi về tình trạng hiện tại ('yet').",
       "Sai — 'is arriving' nói tàu đang đến, không hỏi việc đã đến chưa."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-perfect-026",
@@ -699,7 +724,8 @@
       "Đúng — mốc 'yesterday afternoon' → quá khứ đơn: saw.",
       "Sai — 'see' (hiện tại) không hợp với 'yesterday afternoon'.",
       "Sai — hiện tại hoàn thành không đi với 'yesterday afternoon'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-027",
@@ -726,7 +752,8 @@
       "Sai — hiện tại hoàn thành không đi với mốc 'an hour ago'.",
       "Sai — 'was finishing' nói việc đang diễn ra, không phải hoàn tất.",
       "Đúng — dù câu hỏi dùng hiện tại hoàn thành, câu trả lời có 'an hour ago' nên dùng quá khứ đơn: finished."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-028",
@@ -753,7 +780,8 @@
       "Sai — 'were buying' nói việc đang diễn ra, không nêu việc đã mua xong.",
       "Sai — hiện tại hoàn thành không đi với 'in 2015'.",
       "Đúng — mốc 'in 2015' → quá khứ đơn: bought."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-029",
@@ -780,7 +808,8 @@
       "Sai — 'was losing' nghĩa là đang đánh mất dần.",
       "Đúng — mất chìa khóa (không rõ khi nào) và kết quả ở hiện tại (không vào được nhà) → have lost.",
       "Sai — 'lose' (hiện tại) không nói việc đã mất rồi."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-perfect-030",
@@ -807,6 +836,7 @@
       "Sai — 'is writing' nghĩa là đang viết lúc này.",
       "Sai — 'writes' là hiện tại đơn, trong khi ông đã mất.",
       "Sai — hiện tại hoàn thành cần còn liên hệ với hiện tại; Shakespeare đã mất nên không dùng."
-    ]
+    ],
+    "bac": 3
   }
 ]

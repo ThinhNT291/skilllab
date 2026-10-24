@@ -22,7 +22,8 @@
             "en": "I don't have any cash on me, so I'll pay by card.",
             "vi": "Tôi không mang tiền mặt, nên tôi sẽ trả bằng thẻ vậy."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "fs-u2-prediction-belief",
@@ -37,7 +38,8 @@
             "en": "She will probably forget about the meeting again.",
             "vi": "Có lẽ cô ấy sẽ lại quên mất cuộc họp thôi."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "fs-u3-promise-offer-request",
@@ -52,7 +54,8 @@
             "en": "Will you pass me the salt, please?",
             "vi": "Bạn làm ơn đưa giúp tôi lọ muối được không?"
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "fs-u4-facts-certainty",
@@ -67,7 +70,8 @@
             "en": "This old wooden bridge will collapse eventually if no one repairs it.",
             "vi": "Cây cầu gỗ cũ này sẽ sập trong tương lai nếu không ai sửa chữa nó."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "fs-u5-time-clause-restriction",
@@ -82,7 +86,8 @@
             "en": "We will not leave the house until the rain stops.",
             "vi": "Chúng tôi sẽ không rời khỏi nhà cho đến khi mưa tạnh."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

@@ -22,7 +22,8 @@
             "en": "The manager whom I met yesterday was very friendly.",
             "vi": "Người quản lý mà tôi gặp hôm qua rất thân thiện."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "rc-u2-which-that",
@@ -37,7 +38,8 @@
             "en": "The movie that we watched last night was terrifying.",
             "vi": "Bộ phim mà chúng tôi xem tối qua thật đáng sợ."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "rc-u3-whose",
@@ -52,7 +54,8 @@
             "en": "They live in a house whose roof is painted green.",
             "vi": "Họ sống trong một ngôi nhà mà mái của nó được sơn màu xanh lá."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "rc-u4-where-when-why",
@@ -67,7 +70,8 @@
             "en": "I will never forget the day when we first met.",
             "vi": "Tôi sẽ không bao giờ quên cái ngày mà lần đầu tiên chúng ta gặp nhau."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "rc-u5-defining-nondefining",
@@ -82,7 +86,8 @@
             "en": "My uncle John, who lives in New York, is visiting us.",
             "vi": "Chú John của tôi, người sống ở New York, đang đến thăm chúng tôi. (Không xác định, có phẩy)"
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "rc-reduced-clauses",
@@ -97,7 +102,8 @@
             "en": "The books which are sold in this shop are very cheap. -> The books sold in this shop are very cheap.",
             "vi": "Mệnh đề bị động rút gọn bằng V3/ed: 'which are sold' rút gọn thành 'sold'."
           }
-        ]
+        ],
+        "bac": 4
       }
     ],
     "signalWords": [

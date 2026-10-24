@@ -22,7 +22,8 @@
             "en": "After hours of searching in the storm, the rescue team was able to find the missing hiker.",
             "vi": "Sau nhiều giờ tìm kiếm trong cơn bão, đội cứu hộ đã tìm được người đi bộ đường dài bị mất tích."
           }
-        ]
+        ],
+        "bac": 1
       },
       {
         "id": "modal-u2-permission",
@@ -37,7 +38,8 @@
             "en": "Visitors may not enter the laboratory without a security badge.",
             "vi": "Khách tham quan không được phép vào phòng thí nghiệm nếu không có thẻ an ninh."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "modal-u3-obligation",
@@ -52,7 +54,8 @@
             "en": "Employees have to wear a helmet on the construction site, according to the safety regulations.",
             "vi": "Theo quy định an toàn, nhân viên bắt buộc phải đội mũ bảo hộ tại công trường."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "modal-u4-advice",
@@ -67,7 +70,8 @@
             "en": "You'd better call the doctor right now; that cut on your hand looks infected.",
             "vi": "Bạn nên gọi bác sĩ ngay bây giờ đi; vết cắt trên tay bạn trông có vẻ bị nhiễm trùng rồi."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "modal-u5-deduction",
@@ -82,7 +86,8 @@
             "en": "She can't be at work today — I just saw her car parked in the driveway.",
             "vi": "Chắc chắn hôm nay cô ấy không đi làm đâu — tôi vừa thấy xe của cô ấy đậu trong sân nhà."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

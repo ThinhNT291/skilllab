@@ -24,7 +24,8 @@
       "Sai vì đây là dạng tính từ nguyên thể, chưa thể hiện ý so sánh hơn cần thiết khi đi với 'than'.",
       "Đúng: 'nice' là tính từ 1 âm tiết tận cùng bằng '-e' nên chỉ cần thêm '-r': nicer.",
       "Sai vì 'nice' là tính từ ngắn (1 âm tiết) nên dùng '-er', không dùng 'more'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-002",
@@ -51,7 +52,8 @@
       "Đúng: tính từ dài dùng cấu trúc 'more + adj + than'.",
       "Sai vì 'expensive' có 3 âm tiết nên không thể thêm -er.",
       "Sai vì thiếu từ so sánh; câu cần một dạng so sánh hơn trước 'than'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-003",
@@ -78,7 +80,8 @@
       "Đúng: so sánh nhất với tính từ ngắn dùng 'the' + adj-est.",
       "Sai vì thiếu cả dạng so sánh và từ 'the' bắt buộc.",
       "Sai vì 'larger' là so sánh hơn, chỉ dùng khi so sánh 2 đối tượng với 'than', không phù hợp ở đây."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-004",
@@ -105,7 +108,8 @@
       "Đúng: cấu trúc so sánh bằng 'as + adj + as' dùng tính từ nguyên dạng, không chia.",
       "Sai vì trộn 'as' với dạng so sánh hơn 'faster' là không đúng cấu trúc.",
       "Sai vì thiếu 'as' đầu câu và dùng sai dạng tính từ (phải giữ nguyên 'fast', không thêm -er)."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-005",
@@ -132,7 +136,8 @@
       "Sai vì 'best' là dạng so sánh nhất, không đi kèm 'than'.",
       "Sai vì không dùng 'more' với 'good'; đây là tính từ có dạng bất quy tắc cần học thuộc.",
       "Đúng: dạng so sánh hơn bất quy tắc của 'good' là 'better'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-comparatives-superlatives-006",
@@ -159,7 +164,8 @@
       "Sai vì không dùng 'more' với tính từ/trạng từ ngắn 1 âm tiết.",
       "Sai vì 'loudest' là so sánh nhất, không phù hợp với yêu cầu tăng thêm một chút trong ngữ cảnh này.",
       "Sai vì thiếu đuôi so sánh hơn -er."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-007",
@@ -186,7 +192,8 @@
       "Sai vì trạng từ dài kết thúc -ly không thêm -er.",
       "Đúng: 'clearly' là trạng từ dài, dùng 'more' đứng trước để tạo so sánh hơn.",
       "Sai vì không tồn tại dạng '-lier' cho trạng từ kết thúc bằng -ly."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-008",
@@ -213,7 +220,8 @@
       "Đúng: 'the most' là dạng so sánh nhất của many/much, dùng với danh từ đếm được số nhiều 'questions'.",
       "Sai vì 'more' là so sánh hơn, trong khi câu cần so sánh nhất vì so với 'all my classmates'.",
       "Sai vì 'much' không phải dạng so sánh, chỉ là tính từ/lượng từ gốc."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-009",
@@ -240,7 +248,8 @@
       "Sai vì trộn 'so' với 'than'; nếu dùng 'so' thì phải là 'so...as', không phải 'so...than'.",
       "Sai vì phải kết thúc bằng 'as', không phải 'than', trong cấu trúc so sánh bằng.",
       "Đúng: phủ định của so sánh bằng dùng đúng cấu trúc 'not as + adj + as'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-010",
@@ -267,7 +276,8 @@
       "Sai vì phải dùng dạng so sánh hơn lặp lại, không dùng tính từ nguyên mẫu 'bad'.",
       "Sai vì 'worst' là so sánh nhất, không dùng trong cấu trúc lặp tăng tiến này.",
       "Đúng: so sánh kép tăng tiến với tính từ bất quy tắc dùng dạng so sánh hơn 'worse and worse'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-comparatives-superlatives-011",
@@ -294,7 +304,8 @@
       "Sai vì thiếu đuôi so sánh hơn.",
       "Sai vì tính từ 2 âm tiết tận cùng -y không dùng 'more', mà phải đổi y→i và thêm -er.",
       "Sai vì 'heaviest' là dạng so sánh nhất, không dùng với 'than'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-012",
@@ -321,7 +332,8 @@
       "Sai vì 'most peaceful' là so sánh nhất, không đi kèm 'than'.",
       "Sai vì không tồn tại dạng '-er' cho tính từ 3 âm tiết như 'peaceful'.",
       "Sai vì không tồn tại dạng '-est' cho tính từ dài, và câu này cần so sánh hơn chứ không phải so sánh nhất."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-013",
@@ -348,7 +360,8 @@
       "Sai vì tính từ 2 âm tiết dạng -ing như 'boring' không thêm -est.",
       "Đúng: so sánh nhất với tính từ dạng -ing 'boring' dùng 'the most', phù hợp với cấu trúc nhấn mạnh 'I have ever watched'.",
       "Sai vì thiếu 'the' bắt buộc trước so sánh nhất."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-014",
@@ -375,7 +388,8 @@
       "Sai vì 'like' không phải từ dùng trong cấu trúc so sánh bằng chuẩn ngữ pháp này.",
       "Đúng: vế thứ hai của cấu trúc 'not as...as' phải là 'as', không phải từ khác.",
       "Sai vì 'than' chỉ dùng với dạng so sánh hơn (-er/more), không dùng trong cấu trúc as...as."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-015",
@@ -402,7 +416,8 @@
       "Sai vì không ghép 'more and more' trước một từ đã có dạng so sánh hơn bất quy tắc riêng — không nói 'more and more little'.",
       "Sai vì 'least' là so sánh nhất (superlative), không dùng trong cấu trúc so sánh kép tăng tiến (chỉ dùng dạng so sánh hơn).",
       "Sai vì 'little' là nguyên thể chưa chia so sánh — so sánh kép tăng tiến phải dùng dạng so sánh hơn: 'less and less'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-comparatives-superlatives-016",
@@ -429,7 +444,8 @@
       "Sai vì 'easiest' là dạng so sánh nhất, trong khi câu này cần so sánh hơn với 'than'.",
       "Sai vì 'easy' là tính từ ngắn 2 âm tiết tận cùng -y, không dùng 'more'.",
       "Đúng: 'easy' tận cùng phụ âm + y nên đổi y thành i rồi thêm -er, tạo thành 'easier'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-017",
@@ -456,7 +472,8 @@
       "Sai vì đây không phải hình thái đúng của trạng từ 'effectively'.",
       "Sai vì không tồn tại dạng '-lier' cho trạng từ kết thúc bằng -ly.",
       "Đúng: trạng từ dài 'effectively' dùng cấu trúc 'more...than'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-018",
@@ -483,7 +500,8 @@
       "Sai vì thiếu 'the' bắt buộc trước so sánh nhất.",
       "Sai vì 'more luxurious' là so sánh hơn, không phù hợp khi so với cả một phạm vi ('the entire city').",
       "Sai vì 'the more' thường dùng trong cấu trúc so sánh kép (the more...the more...), không phải so sánh nhất thông thường."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-019",
@@ -510,7 +528,8 @@
       "Sai vì 'than' chỉ dùng với dạng so sánh hơn, không dùng trong cấu trúc as...as.",
       "Sai vì 'more' tạo thành so sánh hơn, sai cấu trúc và sai nghĩa so với yêu cầu so sánh bằng.",
       "Đúng: cấu trúc 'not + adj + as...as' cần 'as' ở cả hai vị trí xung quanh tính từ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-020",
@@ -537,7 +556,8 @@
       "Sai vì thiếu 'the' bắt buộc ở vế thứ hai của cấu trúc.",
       "Đúng: cả hai vế của cấu trúc song song đều cần 'the' + so sánh hơn.",
       "Sai vì 'confident' là tính từ dài (3 âm tiết), không thể thêm -er."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-comparatives-superlatives-021",
@@ -564,7 +584,8 @@
       "Sai vì thiếu đuôi so sánh hơn -er.",
       "Sai vì không dùng 'more' với tính từ/trạng từ 1 âm tiết như 'fast'.",
       "Sai vì 'fastest' là so sánh nhất, không dùng với 'than'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-022",
@@ -591,7 +612,8 @@
       "Đúng: 'difficult' là tính từ dài (3 âm tiết), dùng 'more...than', phù hợp với trạng từ nhấn mạnh 'considerably'.",
       "Sai vì đây là so sánh nhất, có 'the' thừa và không đi được với 'than' ở cuối câu.",
       "Sai vì không tồn tại dạng '-er' cho tính từ dài như 'difficult'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-023",
@@ -618,7 +640,8 @@
       "Sai vì thiếu 'the' bắt buộc trước so sánh nhất.",
       "Sai vì 'the more' thường dùng trong so sánh kép (the more...the more...), không phải so sánh nhất thông thường.",
       "Sai vì 'more skillful' là so sánh hơn, không khớp với 'of all' (so với toàn bộ nhóm)."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-024",
@@ -645,7 +668,8 @@
       "Sai vì 'than' không dùng trong cấu trúc so sánh bằng 'as...as'.",
       "Đúng: 'play' là động từ nên cần trạng từ 'well' trong cấu trúc so sánh bằng 'as well as'.",
       "Sai vì trộn 'so' với 'than' sai cấu trúc; nếu dùng 'so' thì phải là 'so well as', không phải 'so...than'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-025",
@@ -672,7 +696,8 @@
       "Đúng: 'further' phù hợp với nghĩa trừu tượng 'tiến hành thêm/xa hơn' (điều tra), lựa chọn chuẩn khi không phải khoảng cách vật lý.",
       "Sai vì 'most far' không tồn tại — dạng so sánh nhất bất quy tắc của 'far' là 'furthest/farthest'.",
       "Sai vì 'far' là tính từ/trạng từ bất quy tắc, dạng so sánh hơn là 'further/farther', không ghép với 'more'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-comparatives-superlatives-026",
@@ -699,7 +724,8 @@
       "Sai vì 'flat' là tính từ 1 âm tiết, phải thêm '-er' (nhân đôi phụ âm), không dùng 'more'.",
       "Sai vì đây là dạng tính từ nguyên thể, chưa thể hiện được ý so sánh hơn cần thiết trong câu.",
       "Sai vì 'flattest' là so sánh nhất, chỉ dùng khi so sánh từ ba đối tượng trở lên; ở đây chỉ có hai con đường."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-027",
@@ -726,7 +752,8 @@
       "Sai vì không tồn tại dạng '-er' cho tính từ đa âm tiết như 'complicated'.",
       "Đúng: 'complicated' là tính từ dài, dùng 'far more...than', trong đó 'far' nhấn mạnh mức chênh lệch lớn.",
       "Sai vì đây là so sánh nhất (có 'the' thừa), không đi được với 'than' ở cuối câu."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-028",
@@ -753,7 +780,8 @@
       "Đúng: so sánh nhất tính từ dài 'qualified' cần 'the most', phù hợp với 'among all the excellent applicants'.",
       "Sai vì 'more qualified' là so sánh hơn, không phù hợp khi so với cả một nhóm ('among all').",
       "Sai vì thiếu 'the' bắt buộc trước so sánh nhất."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-029",
@@ -780,7 +808,8 @@
       "Sai vì không dùng dạng so sánh hơn 'better' bên trong cấu trúc 'as...as'.",
       "Sai vì thiếu chữ 'as' đầu tiên và đặt 'better' sai vị trí trong cấu trúc.",
       "Đúng: 'not nearly as + adj + as' là dạng nhấn mạnh của so sánh bằng phủ định, dùng tính từ nguyên dạng 'good'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-comparatives-superlatives-030",
@@ -807,6 +836,7 @@
       "Đúng: so sánh kép tăng tiến với trạng từ ngắn 'hard' dùng dạng so sánh hơn lặp lại 'harder and harder'.",
       "Sai vì 'hard and hard' không phải dạng so sánh hơn, sai cấu trúc so sánh kép tăng tiến.",
       "Sai vì 'hardest' là so sánh nhất, không dùng trong cấu trúc lặp tăng tiến 'and'."
-    ]
+    ],
+    "bac": 3
   }
 ]

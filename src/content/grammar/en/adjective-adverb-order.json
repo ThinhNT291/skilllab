@@ -22,7 +22,8 @@
             "en": "He was wearing a pair of old blue jeans.",
             "vi": "Anh ấy đang mặc một chiếc quần jean xanh cũ."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "adjective-adverb-order-u2-freq-adverbs",
@@ -41,7 +42,8 @@
             "en": "We have never seen such a beautiful sunset.",
             "vi": "Chúng tôi chưa bao giờ thấy cảnh hoàng hôn đẹp như vậy."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "adjective-adverb-order-u3-manner-place-time",
@@ -60,7 +62,8 @@
             "en": "Last summer, we traveled slowly across the country by train.",
             "vi": "Mùa hè năm ngoái, chúng tôi đã đi chậm rãi khắp đất nước bằng tàu hỏa."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "adjective-adverb-order-u4-enough-too",
@@ -79,7 +82,8 @@
             "en": "Is she old enough to get a driver's license?",
             "vi": "Cô ấy đã đủ tuổi để lấy bằng lái xe chưa?"
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "adjective-adverb-order-u5-ing-ed",
@@ -94,7 +98,8 @@
             "en": "The children were amazed by the amazing fireworks display.",
             "vi": "Bọn trẻ đã kinh ngạc trước màn pháo hoa tuyệt vời."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "adjective-adverb-order-u6-indefinite-pronouns",
@@ -113,7 +118,8 @@
             "en": "There's nobody available to help you right now.",
             "vi": "Hiện không có ai rảnh để giúp bạn cả."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

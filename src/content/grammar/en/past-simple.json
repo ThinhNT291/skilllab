@@ -22,7 +22,8 @@
             "en": "Our company launched this product in 2019.",
             "vi": "Công ty chúng tôi đã ra mắt sản phẩm này vào năm 2019."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "past-u2-sequence-of-actions",
@@ -37,7 +38,8 @@
             "en": "She grabbed her umbrella, locked the front door, and hurried to catch the bus.",
             "vi": "Cô ấy cầm lấy chiếc ô, khóa cửa trước, rồi vội vã chạy đi bắt xe buýt."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "past-u3-habit-state",
@@ -52,7 +54,8 @@
             "en": "My grandfather smoked two packs of cigarettes a day when he was young.",
             "vi": "Hồi trẻ, ông tôi hút hai gói thuốc lá mỗi ngày."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "past-u4-to-be-past",
@@ -67,7 +70,8 @@
             "en": "My classmates were very excited before the final exam results came out.",
             "vi": "Các bạn cùng lớp tôi rất hào hứng trước khi kết quả thi cuối kỳ được công bố."
           }
-        ]
+        ],
+        "bac": 1
       },
       {
         "id": "past-u5-definite-time-marker",
@@ -82,7 +86,8 @@
             "en": "They moved to this apartment last March.",
             "vi": "Họ đã chuyển đến căn hộ này vào tháng Ba năm ngoái."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

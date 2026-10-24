@@ -24,7 +24,8 @@
       "Đúng — điều kiện loại 0 (sự thật hiển nhiên): hiện tại đơn ở cả hai vế; 'you' dùng 'get'.",
       "Sai — 'gets' dành cho ngôi thứ ba số ít, không dùng với 'you'.",
       "Sai — 'will getting' sai cấu trúc (sau will phải là động từ nguyên thể)."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-conditional-sentences-002",
@@ -51,7 +52,8 @@
       "Sai — mệnh đề If của loại 1 không dùng 'will'.",
       "Sai — 'was' là quá khứ (loại 2), không hợp với vế chính 'will go'.",
       "Sai — 'were' là quá khứ giả định (loại 2), không hợp với vế chính 'will go'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-conditional-sentences-003",
@@ -78,7 +80,8 @@
       "Sai — 'am' là hiện tại, không hợp với vế chính 'would buy' (loại 2).",
       "Sai — 'have been' là hiện tại hoàn thành, không hợp với loại 2.",
       "Sai — 'would be' không dùng trong mệnh đề If của câu điều kiện loại 2; mệnh đề If dùng quá khứ giả định (were)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-conditional-sentences-004",
@@ -105,7 +108,8 @@
       "Sai — 'didn't forget' là quá khứ đơn (loại 2), không hợp với vế chính 'wouldn't have got' (loại 3).",
       "Sai — 'wouldn't forget' không dùng trong mệnh đề If.",
       "Đúng — loại 3: If + had + V3 (hadn't forgotten), vế chính wouldn't have + V3."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-005",
@@ -132,7 +136,8 @@
       "Sai — 'gave' là quá khứ (loại 2), không hợp với vế chính 'will be'.",
       "Đúng — loại 1: If + hiện tại đơn; 'you' dùng 'give'.",
       "Sai — 'gives' dành cho ngôi thứ ba số ít, không dùng với 'you'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-conditional-sentences-006",
@@ -159,7 +164,8 @@
       "Sai — 'Provided that' nghĩa 'với điều kiện là', cho nghĩa ngược lại.",
       "Sai — 'If you study hard, you won't pass' mâu thuẫn về nghĩa (học chăm mà vẫn không đỗ).",
       "Sai — 'As long as' nghĩa 'miễn là', cho nghĩa mâu thuẫn tương tự."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-007",
@@ -186,7 +192,8 @@
       "Sai — 'unless' nghĩa 'trừ khi', làm đảo nghĩa của câu.",
       "Đúng — 'in case' nghĩa 'phòng khi': đưa số điện thoại phòng khi cần liên lạc khẩn cấp.",
       "Sai — 'supposing' nghĩa 'giả sử', không diễn tả việc làm trước để đề phòng."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-008",
@@ -213,7 +220,8 @@
       "Đúng — loại 3: If + had + V3 (hadn't exceeded), vế chính wouldn't have paid.",
       "Sai — 'doesn't exceed' là hiện tại đơn (loại 0/1), không hợp với vế chính loại 3.",
       "Sai — 'didn't exceed' là quá khứ đơn (loại 2), không hợp với vế chính loại 3."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-009",
@@ -240,7 +248,8 @@
       "Sai — 'in case' nghĩa 'phòng khi', không diễn tả điều kiện cho phép dùng laptop.",
       "Sai — 'even if' nghĩa 'dù cho', không đặt ra điều kiện.",
       "Đúng — 'as long as' = miễn là: được dùng laptop với điều kiện hứa giữ gìn."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-010",
@@ -267,7 +276,8 @@
       "Sai — mệnh đề If của loại 2 không dùng 'will'.",
       "Đúng — loại 2: If + quá khứ đơn (found), vế chính would + V.",
       "Sai — 'find' (hiện tại đơn) là loại 1, không hợp với vế chính 'would you do'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-conditional-sentences-011",
@@ -294,7 +304,8 @@
       "Sai — 'wouldn't have been' là loại 3, nhưng 'right now' cần kết quả ở hiện tại.",
       "Đúng — hỗn hợp loại 3→2: If + had + V3, vế chính would(n't) + V cho kết quả ở hiện tại.",
       "Sai — 'am not' (hiện tại đơn) không phải kết quả giả định trong câu điều kiện."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-012",
@@ -321,7 +332,8 @@
       "Sai — 'Would' không dùng để đảo ngữ điều kiện.",
       "Sai — 'Were' (đảo ngữ loại 2) không hợp với lời đề nghị về khả năng trong tương lai.",
       "Đúng — đảo ngữ loại 1: Should + S + V nguyên thể (= If you should need ...)."
-    ]
+    ],
+    "bac": 5
   },
   {
     "id": "en-conditional-sentences-013",
@@ -348,7 +360,8 @@
       "Sai — 'Did we know' không phải cấu trúc đảo ngữ điều kiện.",
       "Sai — 'If we know' là loại 1, không hợp với vế chính loại 3.",
       "Đúng — đảo ngữ loại 3: Had + S + V3 (= If we had known ...)."
-    ]
+    ],
+    "bac": 5
   },
   {
     "id": "en-conditional-sentences-014",
@@ -375,7 +388,8 @@
       "Đúng — đảo ngữ loại 2: Were + S (+ N/Adj) (= If I were ...).",
       "Sai — 'Should I be' là đảo ngữ loại 1, không hợp với giả định trái thực tế.",
       "Sai — 'If I am' là loại 1, không hợp với vế chính 'would ban'."
-    ]
+    ],
+    "bac": 5
   },
   {
     "id": "en-conditional-sentences-015",
@@ -402,7 +416,8 @@
       "Đúng — hỗn hợp loại 2→3: If + quá khứ đơn (tính cách sợ bay), vế chính would have + V3 cho kết quả trong quá khứ.",
       "Sai — 'will travel' là tương lai, không hợp với 'last summer'.",
       "Sai — 'traveled' không phải dạng 'would + V' của vế chính."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-016",
@@ -429,7 +444,8 @@
       "Sai — 'melt' không có -s; chủ ngữ 'it' số ít cần 'melts'.",
       "Sai — mệnh đề chính của loại 0 dùng hiện tại đơn, không dùng 'will'.",
       "Đúng — loại 0 (sự thật khoa học): hiện tại đơn ở cả hai vế; 'it' số ít → melts."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-conditional-sentences-017",
@@ -456,7 +472,8 @@
       "Sai — 'would turn' (loại 2) không hợp với quy luật chung.",
       "Sai — 'turned' là quá khứ, không hợp với quy luật chung.",
       "Sai — 'will turn' (loại 1) nói tương lai cụ thể, không phải quy luật chung."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-conditional-sentences-018",
@@ -483,7 +500,8 @@
       "Đúng — loại 1: If + hiện tại đơn; 'she' số ít → passes.",
       "Sai — mệnh đề If của loại 1 không dùng 'will'.",
       "Sai — 'is passing' (tiếp diễn) không phải dạng chuẩn của mệnh đề If loại 1."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-conditional-sentences-019",
@@ -510,7 +528,8 @@
       "Sai — 'take' (hiện tại đơn) không diễn tả quyết định/dự định ở vế chính loại 1.",
       "Sai — 'took' là quá khứ, không hợp với loại 1.",
       "Sai — 'would take' là loại 2, không hợp với mệnh đề If hiện tại đơn."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-conditional-sentences-020",
@@ -537,7 +556,8 @@
       "Sai — 'to tell' không dùng làm động từ mệnh lệnh ở vế chính.",
       "Sai — 'will tell' có chủ ngữ ngầm sai nghĩa; ở đây là lời nhờ/mệnh lệnh.",
       "Sai — 'telling' (V-ing) không dùng làm mệnh lệnh."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-conditional-sentences-021",
@@ -564,7 +584,8 @@
       "Sai — mệnh đề If của loại 2 không dùng 'will'.",
       "Đúng — loại 2: If + quá khứ đơn (had), vế chính would + V.",
       "Sai — 'had had' (quá khứ hoàn thành) là loại 3, không hợp với vế chính loại 2."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-conditional-sentences-022",
@@ -591,7 +612,8 @@
       "Sai — mệnh đề If không dùng 'would'.",
       "Đúng — loại 3: If + had + V3 (had caught).",
       "Sai — 'have caught' là hiện tại hoàn thành, không hợp với loại 3."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-023",
@@ -618,7 +640,8 @@
       "Sai — 'had you done' (quá khứ hoàn thành) là loại 3, không hợp với 'found' (quá khứ đơn).",
       "Sai — 'will you do' là loại 1, không hợp với mệnh đề If ở quá khứ đơn.",
       "Sai — 'did you do' (quá khứ đơn) không phải vế chính của câu điều kiện loại 2."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-conditional-sentences-024",
@@ -645,7 +668,8 @@
       "Sai — 'as long as' nghĩa 'miễn là', cho nghĩa mâu thuẫn tương tự.",
       "Sai — 'if' làm câu mâu thuẫn ('không thể vào nếu có thẻ').",
       "Đúng — 'unless' = 'if ... not': không thể vào trừ khi có thẻ."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-025",
@@ -672,7 +696,8 @@
       "Sai — 'even if' nghĩa 'dù cho', không đặt điều kiện cho phép dùng máy tính.",
       "Sai — 'in case' nghĩa 'phòng khi', không diễn tả điều kiện cho phép.",
       "Đúng — 'as long as' = miễn là: được dùng máy tính miễn là không xóa tệp."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-026",
@@ -699,7 +724,8 @@
       "Sai — 'am' (hiện tại đơn) không phải kết quả giả định trái thực tế.",
       "Đúng — hỗn hợp loại 3→2: If + had + V3, vế chính would + V cho kết quả ở hiện tại ('now').",
       "Sai — 'would have been' là loại 3, nhưng 'now' cần kết quả ở hiện tại."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-027",
@@ -726,7 +752,8 @@
       "Sai — 'will go' là tương lai, không hợp với 'last weekend'.",
       "Sai — 'would go' (loại 2) không hợp với mốc quá khứ 'last weekend'.",
       "Sai — 'went' không phải dạng 'would + V' của vế chính."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-028",
@@ -753,7 +780,8 @@
       "Đúng — đảo ngữ loại 1: Should + S + V nguyên thể (= If you should require ...).",
       "Sai — 'Were' (đảo ngữ loại 2) không hợp với lời đề nghị về khả năng trong tương lai.",
       "Sai — 'Had' (đảo ngữ loại 3) cần V3 và nghĩa quá khứ."
-    ]
+    ],
+    "bac": 5
   },
   {
     "id": "en-conditional-sentences-029",
@@ -780,7 +808,8 @@
       "Đúng — đảo ngữ loại 2: Were + S + N (= If I were the manager ...).",
       "Sai — 'Should' (đảo ngữ loại 1) không hợp với giả định trái thực tế.",
       "Sai — 'Had' (đảo ngữ loại 3) cần V3 và nghĩa quá khứ."
-    ]
+    ],
+    "bac": 5
   },
   {
     "id": "en-conditional-sentences-030",
@@ -807,6 +836,7 @@
       "Đúng — đảo ngữ loại 3: Had + S + V3 (= If he had listened ...).",
       "Sai — 'Did he listen' không phải cấu trúc đảo ngữ điều kiện.",
       "Sai — 'If he listened' là loại 2, không hợp với vế chính loại 3."
-    ]
+    ],
+    "bac": 5
   }
 ]

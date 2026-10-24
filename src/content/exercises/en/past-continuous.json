@@ -24,7 +24,8 @@
       "Sai — 'were' không đi với chủ ngữ 'I'.",
       "Sai — 'watched' (quá khứ đơn) nói hành động đã hoàn tất, không nhấn việc đang diễn ra lúc 8 giờ.",
       "Sai — 'watch' là nguyên thể/hiện tại."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-continuous-002",
@@ -51,7 +52,8 @@
       "Sai — 'played' nói hành động đã hoàn tất, không nhấn việc đang diễn ra vào giờ đó.",
       "Sai — 'play' là hiện tại.",
       "Sai — 'was' không đi với chủ ngữ số nhiều 'They'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-continuous-003",
@@ -78,7 +80,8 @@
       "Sai — 'writes' là hiện tại đơn.",
       "Sai — 'were' không đi với chủ ngữ số ít 'She'.",
       "Đúng — 'write' bỏ 'e' câm rồi thêm -ing: writing; 'She' dùng 'was'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-continuous-004",
@@ -105,7 +108,8 @@
       "Sai — 'wasn't' không đi với chủ ngữ 'We'.",
       "Sai — 'didn't sleep' không nhấn trạng thái tại thời điểm 'at midnight' (chưa ngủ); câu cần quá khứ tiếp diễn.",
       "Đúng — 'We' dùng 'weren't' + V-ing."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-continuous-005",
@@ -132,7 +136,8 @@
       "Sai — 'Were' không đi với chủ ngữ số ít 'he'.",
       "Đúng — Was + he + V-ing.",
       "Sai — 'Did ... study' hỏi chung về việc đã làm, không nhấn việc đang diễn ra lúc 9 giờ tối."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-continuous-006",
@@ -159,7 +164,8 @@
       "Sai — sai chính tả: 'sit' phải nhân đôi t (sitting).",
       "Sai — 'were' không đi với chủ ngữ 'I'.",
       "Sai — 'sat' (quá khứ đơn) không nhấn việc đang diễn ra lúc 6 giờ chiều."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-continuous-007",
@@ -186,7 +192,8 @@
       "Đúng — 'You' dùng 'weren't' + V-ing, diễn tả hành động không diễn ra tại thời điểm xác định.",
       "Sai — 'didn't listen' nghĩa chung là không nghe lời, không nhấn việc không chú ý tại thời điểm 'at that moment'; câu cần quá khứ tiếp diễn.",
       "Sai — 'wasn't' không đi với chủ ngữ 'You'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-continuous-008",
@@ -213,7 +220,8 @@
       "Sai — 'were' không đi với chủ ngữ 'He'.",
       "Sai — 'walk' là nguyên thể/hiện tại.",
       "Đúng — hành động đang diễn ra bị mưa xen vào → was walking."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-009",
@@ -240,7 +248,8 @@
       "Sai — 'read' (quá khứ đơn) không nhấn việc đang diễn ra song song với 'was drawing'.",
       "Sai — 'reads' là hiện tại đơn.",
       "Đúng — hai hành động song song nối bằng 'while' đều dùng quá khứ tiếp diễn: was reading."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-010",
@@ -267,7 +276,8 @@
       "Sai — 'were' không đi với chủ ngữ 'It'.",
       "Sai — 'got dark' (quá khứ đơn) nói trời đã tối, không nhấn quá trình tối dần đang diễn ra khi chúng tôi rời công viên.",
       "Sai — 'gets' là hiện tại đơn."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-continuous-011",
@@ -294,7 +304,8 @@
       "Đúng — hai hành động song song nối bằng 'while' đều dùng quá khứ tiếp diễn: was cooking / was reading.",
       "Sai — cả hai vế dùng quá khứ đơn nên không nhấn hai hành động song song đang diễn ra.",
       "Sai — vế sau cũng phải là quá khứ tiếp diễn (was reading) để song song với vế đầu."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-012",
@@ -321,7 +332,8 @@
       "Sai — 'walked' không nhấn việc đang đi dạo thì gặp bạn; hai quá khứ đơn sẽ thành hai việc nối tiếp.",
       "Sai — 'see' (giác quan) thường không chia tiếp diễn; hành động xen vào dùng quá khứ đơn (saw).",
       "Sai — 'was seeing' không đúng: hành động xen vào là việc ngắn, dùng quá khứ đơn (saw)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-013",
@@ -348,7 +360,8 @@
       "Sai — 'was' không đi với chủ ngữ số nhiều 'my parents'.",
       "Đúng — hành động đang diễn ra tại thời điểm xác định, chủ ngữ số nhiều → were watching.",
       "Sai — 'watched' (quá khứ đơn) nói việc đã hoàn tất, trong khi 'At that very moment' nhấn việc đang diễn ra."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-continuous-014",
@@ -375,7 +388,8 @@
       "Đúng — hai hành động song song: weren't studying / were chatting.",
       "Sai — vế sau cần tiếp diễn (were chatting) để song song với vế đầu.",
       "Sai — vế đầu 'didn't study' (quá khứ đơn) không nhấn việc đang không học vào lúc đó; hai vế cần cùng quá khứ tiếp diễn."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-015",
@@ -402,7 +416,8 @@
       "Đúng — trận đấu đang diễn ra → were playing; trời bất ngờ mưa → started.",
       "Sai — 'played' không nhấn trận đấu đang diễn ra khi trời mưa.",
       "Sai — đảo ngược: vế đầu cần tiếp diễn, vế sau cần quá khứ đơn."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-016",
@@ -429,7 +444,8 @@
       "Đúng — tình huống đang thay đổi dần trong quá khứ, cả hai vế dùng quá khứ tiếp diễn: was changing / were appearing.",
       "Sai — chia sai chủ ngữ: 'the city' số ít dùng 'was changing', còn 'new buildings' số nhiều dùng 'were appearing'.",
       "Sai — hiện tại hoàn thành không đi với 'Last summer' (mốc quá khứ xác định) và không nhấn quá trình đang diễn ra."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-continuous-017",
@@ -456,7 +472,8 @@
       "Sai — 'birds' là số nhiều nên phải dùng 'were singing', không dùng 'was'.",
       "Đúng — miêu tả bối cảnh mở đầu câu chuyện: was shining / were singing.",
       "Sai — 'the sun' là số ít nên phải dùng 'was shining', không dùng 'were'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-018",
@@ -483,7 +500,8 @@
       "Sai — 'Was' không đi với chủ ngữ 'you'.",
       "Sai — sau 'Were' động từ phải ở dạng V-ing.",
       "Sai — hiện tại hoàn thành không đi với mốc quá khứ xác định 'at 7 p.m. last Friday'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-continuous-019",
@@ -510,7 +528,8 @@
       "Sai — 'weren't/were' không đi với chủ ngữ số ít 'He'.",
       "Đúng — hai hành động song song: wasn't paying / was staring.",
       "Sai — vế sau cần quá khứ tiếp diễn (was staring) để song song với vế đầu."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-020",
@@ -538,7 +557,8 @@
       "Sai — 'have become' là hiện tại hoàn thành, không hợp với 'At midnight' (mốc quá khứ) và tình huống đang thay đổi dần.",
       "Đúng — tình huống đang thay đổi dần kết hợp miêu tả bối cảnh: were becoming / were driving.",
       "Sai — 'a few taxis' là số nhiều nên phải dùng 'were driving', không dùng 'was'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-continuous-021",
@@ -566,7 +586,8 @@
       "Sai — hành động bất ngờ xen vào (arrive) dùng quá khứ đơn, không dùng tiếp diễn.",
       "Sai — 'cooked' không nhấn việc đang nấu khi chị về.",
       "Đúng — đang nấu (dài) → was cooking; chị bất ngờ về (ngắn) → arrived."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-022",
@@ -594,7 +615,8 @@
       "Sai — vế sau cần tiếp diễn (were still working) vì nhân viên đang làm việc dở.",
       "Đúng — chuông reo (ngắn) → went; nhân viên đang làm việc (dài) → were still working.",
       "Sai — 'was going off' không hợp: chuông báo cháy reo là sự kiện ngắn, dùng quá khứ đơn (went off)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-023",
@@ -621,7 +643,8 @@
       "Sai — 'has set' là hiện tại hoàn thành, không hợp với câu kể ở quá khứ và không nhấn việc mặt trời đang lặn dần.",
       "Đúng — hai hành động đang diễn ra song song tạo bối cảnh: was setting / were pulling.",
       "Sai — 'the sun' là số ít nên phải dùng 'was setting', không dùng 'were'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-024",
@@ -649,7 +672,8 @@
       "Sai — 'hear' là động từ giác quan nên thường không chia tiếp diễn; cần 'didn't hear'.",
       "Sai — 'hear' không chia tiếp diễn, và 'listened' không nhấn việc đang nghe nhạc.",
       "Đúng — 'didn't hear' (động từ giác quan giữ quá khứ đơn); 'was listening' (đang nghe nhạc tại thời điểm đó)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-025",
@@ -677,7 +701,8 @@
       "Đúng — hai xu hướng đang diễn tiến song song: was growing / were improving.",
       "Sai — 'improves' là hiện tại đơn, không hợp với ngữ cảnh quá khứ ('pushed through').",
       "Sai — hiện tại hoàn thành không hợp với câu kể ở quá khứ và không nhấn xu hướng đang diễn tiến dần."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-026",
@@ -705,7 +730,8 @@
       "Sai — 'was entering' không hợp: bước vào là hành động ngắn xen vào nên dùng quá khứ đơn.",
       "Sai — 'chatted' không nhấn việc học sinh đang nói chuyện khi cô vào.",
       "Sai — đảo ngược cả hai vế."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-027",
@@ -733,7 +759,8 @@
       "Sai — 'built' sai thì, và 'were destroying' không hợp với hành động bất ngờ, ngắn.",
       "Sai — 'were destroying' không hợp với hành động bất ngờ, ngắn; cần quá khứ đơn (destroyed).",
       "Đúng — xây cầu (dài) → were building; bão bất ngờ phá hủy (ngắn) → destroyed."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-028",
@@ -761,7 +788,8 @@
       "Đúng — tình huống đang thay đổi dần kết hợp tả bối cảnh: was getting / were rushing.",
       "Sai — 'has got' là hiện tại hoàn thành, không hợp với mốc 'By 9 p.m.' trong câu kể quá khứ.",
       "Sai — 'waiters' là số nhiều nên phải dùng 'were rushing', không dùng 'was'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-past-continuous-029",
@@ -789,7 +817,8 @@
       "Sai — 'was ringing' không hợp với 'suddenly' (hành động ngắn, bất ngờ).",
       "Sai — sai cả hai vế: chuông reo bất ngờ dùng quá khứ đơn, đang xem tivi dùng tiếp diễn.",
       "Sai — 'watched' không nhấn việc đang xem tivi khi chuông reo."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-continuous-030",
@@ -817,6 +846,7 @@
       "Đúng — đang lái xe (dài) → was driving; xe bất ngờ hỏng (ngắn) → broke.",
       "Sai — 'was breaking down' không hợp hành động bất ngờ; cần quá khứ đơn (broke).",
       "Sai — 'drove' không nhấn việc đang lái xe thì xe hỏng."
-    ]
+    ],
+    "bac": 3
   }
 ]

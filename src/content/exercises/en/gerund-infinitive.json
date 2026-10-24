@@ -24,7 +24,8 @@
       "Sai: 'enjoy' không đi với động từ nguyên thể không 'to'.",
       "Sai: 'enjoy' không đi với to-V.",
       "Sai: 'played' là quá khứ, không phù hợp sau 'enjoy'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-002",
@@ -51,7 +52,8 @@
       "Sai: 'decide' không đi với V-ing.",
       "Sai: 'decide' không đi trực tiếp với động từ nguyên thể không 'to'.",
       "Sai: 'rented' là quá khứ, không phù hợp ở đây."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-003",
@@ -78,7 +80,8 @@
       "Đúng: 'suggest' thuộc nhóm động từ chỉ theo sau bởi V-ing.",
       "Sai: thiếu 'to' và cũng không phải dạng đúng sau 'suggest'.",
       "Sai: 'suggest' không đi với to-V."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-004",
@@ -105,7 +108,8 @@
       "Sai: 'promise' không đi với V-ing.",
       "Đúng: 'promise' thuộc nhóm động từ chỉ theo sau bởi to-V.",
       "Sai: 'called' là dạng quá khứ, không phù hợp sau 'promise'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-005",
@@ -132,7 +136,8 @@
       "Sai: 'drinks' là dạng chia động từ, không phải danh động từ.",
       "Sai: 'avoid' không đi với to-V.",
       "Sai: thiếu dạng V-ing bắt buộc sau 'avoid'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-006",
@@ -159,7 +164,8 @@
       "Sai: 'rains' là dạng chia động từ, không phải danh động từ hay động từ nguyên mẫu.",
       "Đúng: 'begin' có thể theo sau bởi V-ing, nghĩa không đổi so với to-V.",
       "Sai: thiếu 'to' hoặc đuôi '-ing' phù hợp."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-gerund-infinitive-007",
@@ -186,7 +192,8 @@
       "Sai: thiếu đuôi '-ing' bắt buộc sau giới từ.",
       "Sai: sau giới từ không dùng to-V.",
       "Sai: 'learned' là dạng quá khứ, không phù hợp sau giới từ."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-gerund-infinitive-008",
@@ -213,7 +220,8 @@
       "Sai: thiếu đuôi '-ing' bắt buộc.",
       "Sai: 'finish' không đi với to-V.",
       "Đúng: 'finish' thuộc nhóm động từ chỉ theo sau bởi V-ing."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-009",
@@ -240,7 +248,8 @@
       "Đúng: 'hope' thuộc nhóm động từ chỉ theo sau bởi to-V.",
       "Sai: thiếu 'to' trước động từ nguyên mẫu.",
       "Sai: 'hope' không đi với V-ing."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-010",
@@ -267,7 +276,8 @@
       "Sai: sau giới từ không dùng động từ nguyên thể trần.",
       "Sai: 'washed' là dạng quá khứ, không phù hợp sau giới từ.",
       "Đúng: sau giới từ 'after' phải dùng V-ing."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-gerund-infinitive-011",
@@ -294,7 +304,8 @@
       "Sai: 'takes' là dạng chia theo ngôi, không phải danh động từ.",
       "Đúng: 'love' có thể theo sau bởi V-ing, nghĩa gần như không đổi so với to-V.",
       "Sai: 'taken' là phân từ hai, không phù hợp ở đây."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-gerund-infinitive-012",
@@ -321,7 +332,8 @@
       "Đúng: 'to' trong 'look forward to' là giới từ, nên theo sau là V-ing.",
       "Sai: đây là lỗi rất phổ biến — nhầm 'to' là dấu hiệu động từ nguyên mẫu, nhưng thực chất nó là giới từ.",
       "Sai: sau giới từ 'to' trong cụm này không dùng động từ nguyên thể trần."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-gerund-infinitive-013",
@@ -348,7 +360,8 @@
       "Sai: đừng nhầm với cấu trúc khác là 'used to + V nguyên thể' (thói quen quá khứ).",
       "Sai: sau giới từ 'to' trong cấu trúc 'be used to' không dùng động từ nguyên thể trần.",
       "Đúng: 'be used to + V-ing' nghĩa là 'quen với việc gì', 'to' ở đây là giới từ."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-gerund-infinitive-014",
@@ -375,7 +388,8 @@
       "Sai: thiếu 'to' trước động từ nguyên mẫu.",
       "Sai: 'signed' là quá khứ, không phù hợp sau 'refuse'.",
       "Đúng: 'refuse' thuộc nhóm động từ chỉ theo sau bởi to-V."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-015",
@@ -402,7 +416,8 @@
       "Đúng: 'keep' thuộc nhóm động từ chỉ theo sau bởi V-ing.",
       "Sai: thiếu đuôi '-ing' bắt buộc sau 'keep'.",
       "Sai: 'talked' là quá khứ, không phù hợp sau 'keep'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-016",
@@ -429,7 +444,8 @@
       "Sai: 'afford' không đi với V-ing.",
       "Sai: 'bought' là quá khứ, không phù hợp sau 'afford'.",
       "Sai: thiếu 'to' trước động từ nguyên mẫu."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-017",
@@ -456,7 +472,8 @@
       "Đúng: 'admit' thuộc nhóm động từ chỉ theo sau bởi V-ing.",
       "Sai: 'eaten' là phân từ hai, không phù hợp sau 'admit'.",
       "Sai: thiếu đuôi '-ing' bắt buộc sau 'admit'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-018",
@@ -483,7 +500,8 @@
       "Sai: 'drank' là quá khứ, không phù hợp ở đây.",
       "Sai: thiếu 'to' trước động từ nguyên mẫu trong cấu trúc 'It's + adj + to V'.",
       "Đúng: 'It is important to V' là cấu trúc cố định dùng to-V."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-gerund-infinitive-019",
@@ -510,7 +528,8 @@
       "Đúng: 'continue' có thể theo sau bởi V-ing, nghĩa gần như không đổi so với to-V.",
       "Sai: thiếu đuôi '-ing' phù hợp cho dạng đúng ở đây.",
       "Sai: 'speaks' là dạng chia theo ngôi, không phải danh động từ."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-gerund-infinitive-020",
@@ -537,7 +556,8 @@
       "Sai: 'manage' không đi với V-ing.",
       "Đúng: 'manage' thuộc nhóm động từ chỉ theo sau bởi to-V.",
       "Sai: thiếu 'to' trước động từ nguyên mẫu."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-gerund-infinitive-021",
@@ -564,7 +584,8 @@
       "Sai: 'to visit' mang nghĩa 'nhớ phải đi thăm' (nghĩa vụ tương lai), không phù hợp với ngữ cảnh hồi tưởng quá khứ ở đây.",
       "Đúng: 'remember + V-ing' = nhớ lại một việc đã làm trong quá khứ, đúng với ngữ cảnh 'as a child'.",
       "Sai: 'visited' là quá khứ, không dùng trực tiếp sau 'remember'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-gerund-infinitive-022",
@@ -591,7 +612,8 @@
       "Sai: 'packed' là quá khứ, không phù hợp sau 'remember'.",
       "Sai: thiếu 'to' trước động từ nguyên mẫu.",
       "Sai: 'packing' mang nghĩa nhớ lại việc đã đóng gói rồi, không phù hợp với lời nhắc nhở cho việc sắp làm."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-gerund-infinitive-023",
@@ -618,7 +640,8 @@
       "Sai: thiếu 'to' trước động từ nguyên mẫu chỉ mục đích.",
       "Đúng: 'stop + to-V' = dừng lại ĐỂ làm việc khác; ở đây là dừng xe để hỏi đường.",
       "Sai: 'stop + V-ing' nghĩa là bỏ hẳn thói quen hỏi đường, không hợp lý trong ngữ cảnh này."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-gerund-infinitive-024",
@@ -645,7 +668,8 @@
       "Đúng: 'stop + V-ing' = chấm dứt hẳn hành động đang làm, phù hợp với 'completely' trong câu.",
       "Sai: thiếu đuôi '-ing' phù hợp cho dạng đúng.",
       "Sai: 'stop + to-V' mang nghĩa dừng lại để làm việc khác, không phù hợp với ý 'chấm dứt hẳn' ở đây."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-gerund-infinitive-025",
@@ -672,7 +696,8 @@
       "Đúng: 'try + V-ing' = thử làm một cách nào đó để xem kết quả, phù hợp với gợi ý thử nghiệm trong câu.",
       "Sai: 'try + to-V' mang nghĩa nỗ lực làm một việc khó khăn, ít phù hợp với sắc thái 'thử xem sao' ở đây.",
       "Sai: thiếu đuôi '-ing' phù hợp cho dạng đúng ở đây."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-gerund-infinitive-026",
@@ -699,7 +724,8 @@
       "Sai: 'try + V-ing' mang nghĩa thử nghiệm xem kết quả, không phù hợp với nỗ lực cứu hộ khẩn cấp ở đây.",
       "Sai: 'reached' là quá khứ, không dùng trực tiếp sau 'tried'.",
       "Sai: thiếu 'to' trước động từ nguyên mẫu."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-gerund-infinitive-027",
@@ -726,7 +752,8 @@
       "Sai: thiếu 'to' trước động từ nguyên mẫu.",
       "Sai: 'regret + V-ing' mang nghĩa hối hận về một việc đã làm trong quá khứ, không phù hợp với hành động thông báo đang diễn ra.",
       "Sai: 'informed' là quá khứ, không dùng trực tiếp sau 'regret'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-gerund-infinitive-028",
@@ -753,7 +780,8 @@
       "Sai: thiếu đuôi '-ing' phù hợp cho dạng đúng.",
       "Sai: 'been' là phân từ hai, không dùng trực tiếp sau 'regrets'.",
       "Đúng: 'regret + V-ing' = hối hận về một việc đã làm trong quá khứ."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-gerund-infinitive-029",
@@ -780,7 +808,8 @@
       "Sai: sau giới từ 'on' không dùng to-V.",
       "Đúng: sau giới từ 'on' phải dùng V-ing.",
       "Sai: 'found' là quá khứ, không dùng sau giới từ."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-gerund-infinitive-030",
@@ -807,6 +836,7 @@
       "Sai: sau giới từ 'to' trong cấu trúc 'get used to' không dùng to-V nguyên mẫu.",
       "Sai: đây là lỗi rất hay gặp — nhầm cấu trúc này với 'used to + V nguyên thể' (thói quen quá khứ đã chấm dứt), trong khi 'get used to' lại có 'to' là giới từ.",
       "Đúng: 'get used to + V-ing' = trở nên quen với việc gì, 'to' ở đây là giới từ nên theo sau là V-ing."
-    ]
+    ],
+    "bac": 3
   }
 ]

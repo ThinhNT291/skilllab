@@ -24,7 +24,8 @@
       "Đúng — sự thật ở hiện tại, đối tượng chịu tác động → bị động hiện tại đơn: is spoken.",
       "Sai — 'is speaking' là chủ động tiếp diễn, không hợp nghĩa (tiếng Anh không tự nói).",
       "Sai — 'spoken' (V3) đứng một mình thiếu 'is' nên không thành động từ chính."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-passive-voice-002",
@@ -51,7 +52,8 @@
       "Sai — 'has stolen' là chủ động hiện tại hoàn thành, không hợp nghĩa và không đi với 'yesterday'.",
       "Sai — 'stole' là chủ động; xe đạp là đối tượng bị trộm nên cần bị động.",
       "Sai — 'is stolen' là bị động hiện tại, không hợp với 'yesterday'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-passive-voice-003",
@@ -78,7 +80,8 @@
       "Sai — 'wasn't finished' là quá khứ đơn, thường không đi với 'yet'.",
       "Đúng — 'yet' → hiện tại hoàn thành; báo cáo không tự hoàn thành → bị động: hasn't been finished.",
       "Sai — 'hasn't finished' là chủ động; báo cáo không tự hoàn thành chính nó."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-passive-voice-004",
@@ -105,7 +108,8 @@
       "Sai — 'will be announcing' là chủ động tương lai tiếp diễn, không hợp nghĩa (kết quả không tự công bố).",
       "Đúng — 'tomorrow morning' → tương lai; kết quả 'được thông báo' → will be announced.",
       "Sai — 'will announce' là chủ động; kết quả kỳ thi không tự thông báo."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-passive-voice-005",
@@ -132,7 +136,8 @@
       "Sai — 'is being prepared' là bị động hiện tại tiếp diễn, không hợp với 'When I came' (quá khứ).",
       "Sai — 'prepared' là chủ động quá khứ đơn (hoặc V3 thiếu trợ động từ).",
       "Đúng — việc đang diễn ra trong quá khứ + bữa tối 'đang được chuẩn bị' → was being prepared."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-passive-voice-006",
@@ -159,7 +164,8 @@
       "Sai — 'must be wearing' là chủ động tiếp diễn, không hợp nghĩa (mũ không tự đội).",
       "Sai — 'must worn' thiếu 'be'.",
       "Sai — 'must wear' là chủ động; mũ bảo hiểm là vật được đội."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-007",
@@ -186,7 +192,8 @@
       "Sai — 'can find' là chủ động; hướng dẫn không tự tìm.",
       "Sai — 'can found' thiếu 'be' và 'found' ở đây không đúng dạng.",
       "Sai — 'can be finding' sai cấu trúc (bị động không đi với V-ing)."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-008",
@@ -213,7 +220,8 @@
       "Sai — 'gave' là quá khứ đơn chủ động, không đi sau 'was'.",
       "Sai — 'give' là nguyên thể, không đi sau 'was' trong câu bị động.",
       "Sai — 'giving' là V-ing; 'was giving' là chủ động tiếp diễn, không hợp nghĩa 'được tặng'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-009",
@@ -240,7 +248,8 @@
       "Sai — 'has sent' là chủ động hiện tại hoàn thành, và không đi với 'last week'.",
       "Sai — 'was sending' là chủ động tiếp diễn; thư không tự gửi.",
       "Đúng — thư (vật) làm chủ ngữ, ở quá khứ → bị động: was sent."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-010",
@@ -267,7 +276,8 @@
       "Sai — 'should taking' sai cấu trúc.",
       "Sai — 'should be took' dùng sai dạng động từ: V3 của 'take' là 'taken'.",
       "Đúng — 'should' + bị động: should be taken."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-011",
@@ -294,7 +304,8 @@
       "Sai — 'is reporting' là chủ động tiếp diễn, không hợp cấu trúc 'It is ... that'.",
       "Sai — 'reports' là chủ động hiện tại đơn, không hợp cấu trúc 'It + be + V3 + that'.",
       "Đúng — 'It is reported that ...' (người ta báo cáo rằng)."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-012",
@@ -321,7 +332,8 @@
       "Sai — 'being' không đi sau 'is said' trong cấu trúc này.",
       "Sai — 'be' không dùng sau 'is said' (cần 'to be').",
       "Sai — 'is' thừa, tạo thành 'is said is'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-013",
@@ -348,7 +360,8 @@
       "Sai — 'make my hair cut' không phải cấu trúc nhờ vả bị động.",
       "Sai — 'do my hair cut' sai cấu trúc; 'do my hair' nghĩa khác (tự làm tóc).",
       "Sai — 'let my hair cut' không đúng cấu trúc (let + tân ngữ + động từ nguyên thể, không đi với V3)."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-014",
@@ -375,7 +388,8 @@
       "Đúng — had + our roof + V3: had our roof repaired.",
       "Sai — 'repairing' (V-ing) không phải V3 của thể nhờ vả bị động.",
       "Sai — 'repair' (nguyên thể) sai dạng; mái nhà là vật được sửa nên cần V3."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-015",
@@ -402,7 +416,8 @@
       "Sai — 'Did ... written' sai: sau 'Did' động từ phải ở nguyên thể.",
       "Đúng — Was + this famous novel + written ...? (bị động quá khứ đơn, chủ ngữ số ít).",
       "Sai — 'Has ... written' là hiện tại hoàn thành chủ động, không hợp nghĩa."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-passive-voice-016",
@@ -429,7 +444,8 @@
       "Đúng — 'every evening' → hiện tại đơn; văn phòng được dọn → is cleaned.",
       "Sai — 'cleans' là chủ động; văn phòng là vật được dọn.",
       "Sai — 'cleaned' (quá khứ đơn chủ động hoặc V3 thiếu 'is') không hợp thì hiện tại."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-passive-voice-017",
@@ -456,7 +472,8 @@
       "Sai — 'builds' là chủ động hiện tại.",
       "Đúng — mốc quá khứ xác định + bị động → was built.",
       "Sai — 'built' là chủ động quá khứ (hoặc V3 thiếu 'was'); cây cầu là vật được xây."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-passive-voice-018",
@@ -483,7 +500,8 @@
       "Sai — 'serve' là chủ động, không hợp nghĩa (các món không tự phục vụ).",
       "Sai — 'is served' không hợp với chủ ngữ số nhiều 'dishes'.",
       "Đúng — chủ ngữ số nhiều + bị động hiện tại đơn: are served."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-passive-voice-019",
@@ -510,7 +528,8 @@
       "Sai — 'has stolen' là chủ động hiện tại hoàn thành, không đi với 'yesterday afternoon'.",
       "Sai — 'stole' là chủ động; xe đạp là đối tượng bị trộm.",
       "Sai — 'is stolen' là bị động hiện tại, không hợp với 'yesterday afternoon'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-passive-voice-020",
@@ -537,7 +556,8 @@
       "Đúng — 'last Friday' → quá khứ; 'reports' số nhiều → were submitted.",
       "Sai — 'was submitted' không hợp với chủ ngữ số nhiều 'reports'.",
       "Sai — 'submitted' là chủ động quá khứ (hoặc V3 thiếu 'were'); báo cáo là vật được nộp."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-passive-voice-021",
@@ -564,7 +584,8 @@
       "Sai — 'have to submit' là chủ động; đơn không tự nộp.",
       "Đúng — 'must' + bị động: must be submitted.",
       "Sai — 'must submitted' thiếu 'be'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-022",
@@ -591,7 +612,8 @@
       "Sai — 'should be handling' sai cấu trúc (bị động không đi với V-ing).",
       "Đúng — 'should' + bị động: should be handled.",
       "Sai — 'should have handled' là chủ động và nói về việc lẽ ra nên làm trong quá khứ."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-023",
@@ -618,7 +640,8 @@
       "Sai — 'is giving' là chủ động hiện tại tiếp diễn, không hợp nghĩa 'được trao'.",
       "Sai — 'gave' là chủ động; học sinh là người nhận.",
       "Sai — 'has given' là chủ động hiện tại hoàn thành, không đi với 'yesterday'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-024",
@@ -645,7 +668,8 @@
       "Đúng — thông điệp (vật) làm chủ ngữ, 'last night' → bị động quá khứ: was sent.",
       "Sai — 'is sent' là hiện tại, không hợp với 'last night'.",
       "Sai — 'was sending' là chủ động tiếp diễn; thông điệp không tự gửi."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-025",
@@ -672,7 +696,8 @@
       "Đúng — modal + bị động: cannot be used.",
       "Sai — 'cannot use' là chủ động; điện thoại là vật được sử dụng.",
       "Sai — 'are not using' là chủ động tiếp diễn, không diễn tả sự cấm đoán."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-026",
@@ -699,7 +724,8 @@
       "Đúng — 'It is believed that ...' (người ta tin rằng).",
       "Sai — 'It believes' là chủ động và sai nghĩa (nó không tin).",
       "Sai — 'They are believed' không đi với mệnh đề 'that' theo cấu trúc này."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-027",
@@ -726,7 +752,8 @@
       "Sai — 'to leave' chỉ hành động đồng thời hoặc sau; ở đây việc rời đi xảy ra trước ('two days ago').",
       "Sai — 'that he left' không đi trực tiếp sau 'is reported' theo cấu trúc này (đã có chủ ngữ 'The suspect').",
       "Đúng — hành động xảy ra trước hành động báo cáo: is reported to have left."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-028",
@@ -753,7 +780,8 @@
       "Sai — 'to repair' không đi sau 'had it' trong thể nhờ vả bị động.",
       "Sai — 'repair' (nguyên thể) sai dạng; laptop là vật được sửa nên cần V3.",
       "Đúng — had it + V3: had it repaired."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-029",
@@ -780,7 +808,8 @@
       "Đúng — get + vật + V3: get our house painted.",
       "Sai — 'to paint' không đi sau 'get + tân ngữ' ở thể nhờ vả bị động.",
       "Sai — 'painting' (V-ing) không phải V3."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-passive-voice-030",
@@ -807,6 +836,7 @@
       "Sai — 'expected' (chủ động quá khứ hoặc V3 thiếu 'is') không hợp nghĩa bị động.",
       "Đúng — S + is expected + to V (được kỳ vọng).",
       "Sai — 'expects' là chủ động; bản cập nhật không tự kỳ vọng."
-    ]
+    ],
+    "bac": 4
   }
 ]

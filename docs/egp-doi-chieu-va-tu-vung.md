@@ -99,3 +99,9 @@ Bạn hỏi tham khảo cách các hệ thống làm. Kết quả tìm kiếm:
 - **Trường `bac`** đã thêm vào kiểu dữ liệu (1–6), có kiểm tra trong `check:content`. Đã gắn cho `present-simple` (60 câu, 7 mục lý thuyết): bậc 1 cho thói quen và sự thật, bậc 2 cho lịch trình, trạng thái, chỉ dẫn và trạng từ tần suất, bậc 3 cho hòa hợp chủ-vị.
 - **Chuyên đề `subjunctive`** (30 câu, 7 mục) đã rà soát: đáp án đúng, không có câu trùng, giải thích khớp với `Câu giả định.pdf`. Gắn bậc 4 (B2) theo cấp của chuyên đề, vì EGP không có nhóm tương ứng để đối chiếu thêm. Một điểm mập mờ nhỏ: câu 009 có đáp án "could" bị loại, nên nêu thêm lý do trong giải thích nếu cần.
 - **Việc còn lại:** đặt `bac` cho 22 chuyên đề còn lại theo từng mục lý thuyết, dựa trên bảng ước lượng ở mục 2.
+
+## 7. Đã gắn `bac` cho toàn bộ kho (cập nhật 24/10/2026)
+
+- Mọi mục lý thuyết và câu của 26 chuyên đề đều có `bac`. Thống kê hiện tại: bậc 1: 62 câu, bậc 2: 248, bậc 3: 313, bậc 4: 179, bậc 5: 12.
+- **Cách gắn:** mỗi mục lý thuyết (usage) có một `bac`, dựa vào phân bố cấp độ của nhóm tương ứng trong EGP; câu thừa hưởng `bac` của mục mình. Đây là **ước lượng của người soạn**, không phải con số chính thức. Các mục không có nhóm EGP tương ứng rõ ràng (ví dụ câu giả định, mệnh đề thời gian trong tương lai tiếp diễn) được đặt theo suy luận và cần chuyên gia kiểm lại.
+- **Ba chuyên đề mới** (tương lai tiếp diễn, quá khứ hoàn thành tiếp diễn, tương lai hoàn thành) đã được viết cùng `bac` và rà bằng agent phản biện độc lập theo quy tắc 8.

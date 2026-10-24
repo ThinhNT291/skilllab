@@ -22,7 +22,8 @@
             "en": "We usually go on holiday in summer.",
             "vi": "Chúng tôi thường đi nghỉ mát vào mùa hè."
           }
-        ]
+        ],
+        "bac": 1
       },
       {
         "id": "prep-u2-place",
@@ -37,7 +38,8 @@
             "en": "I will meet you at the bus stop.",
             "vi": "Tôi sẽ gặp bạn tại trạm xe buýt."
           }
-        ]
+        ],
+        "bac": 1
       },
       {
         "id": "prep-u3-movement",
@@ -52,7 +54,8 @@
             "en": "The train went through a very dark tunnel.",
             "vi": "Đoàn tàu đã đi xuyên qua một đường hầm rất tối."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "prep-u4-adjective-prep",
@@ -67,7 +70,8 @@
             "en": "She is afraid of dogs, so she never goes near them.",
             "vi": "Cô ấy sợ chó, nên cô ấy không bao giờ lại gần chúng."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "prep-u5-verb-prep",
@@ -82,7 +86,8 @@
             "en": "I am waiting for my friend outside the cinema.",
             "vi": "Tôi đang đợi bạn tôi ở bên ngoài rạp chiếu phim."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "prep-since-for",
@@ -97,7 +102,8 @@
             "en": "She has worked here for six months.",
             "vi": "Cô ấy đã làm việc ở đây được sáu tháng."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

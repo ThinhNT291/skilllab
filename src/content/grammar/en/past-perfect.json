@@ -22,7 +22,8 @@
             "en": "By 2015, the city had built two new bridges across the river.",
             "vi": "Tính đến năm 2015, thành phố đã xây xong hai cây cầu mới bắc qua sông."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "pastperf-u2-sequence-of-events",
@@ -37,7 +38,8 @@
             "en": "The train had already departed before we reached the platform.",
             "vi": "Đoàn tàu đã rời đi trước khi chúng tôi đến được sân ga."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "pastperf-u3-reason-for-past-situation",
@@ -52,7 +54,8 @@
             "en": "He couldn't unlock the door because he had left his keys at the office.",
             "vi": "Anh ấy không thể mở khóa cửa vì đã để quên chìa khóa ở văn phòng."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "pastperf-u4-experience-up-to-past-point",
@@ -67,7 +70,8 @@
             "en": "Before he joined our team, Daniel had never worked on a marketing project.",
             "vi": "Trước khi gia nhập đội của chúng tôi, Daniel chưa từng làm dự án marketing nào."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "pastperf-u5-conditional-wish",
@@ -82,7 +86,8 @@
             "en": "I wish I had saved more money when I was younger.",
             "vi": "Giá như tôi đã tiết kiệm nhiều tiền hơn khi còn trẻ."
           }
-        ]
+        ],
+        "bac": 4
       }
     ],
     "signalWords": [

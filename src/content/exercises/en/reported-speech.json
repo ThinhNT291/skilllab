@@ -24,7 +24,8 @@
       "Sai — 'be' nguyên thể không dùng làm động từ chia trong câu tường thuật này.",
       "Sai — 'were' không đi với chủ ngữ số ít 'she'.",
       "Sai — 'is' (hiện tại) không lùi thì; trong bài này cần lùi thành 'was'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-002",
@@ -51,7 +52,8 @@
       "Sai — 'be' nguyên thể không dùng làm động từ chia.",
       "Sai — 'were' không đi với chủ ngữ số ít 'he'.",
       "Đúng — sau 'told' (quá khứ), hiện tại đơn lùi thành quá khứ đơn: is → was."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-003",
@@ -78,7 +80,8 @@
       "Đúng — hiện tại tiếp diễn 'are watching' lùi thành quá khứ tiếp diễn: were watching.",
       "Sai — 'are' không lùi thì.",
       "Sai — 'was' không đi với chủ ngữ số nhiều 'they'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-004",
@@ -105,7 +108,8 @@
       "Sai — 'somewhere' (một nơi nào đó) làm đổi nghĩa; câu gốc nói 'here' nên cần đổi thành 'there'.",
       "Sai — 'near' thiếu bổ ngữ và không phải từ thay thế của 'here'.",
       "Đúng — khi tường thuật ở ngữ cảnh khác, 'here' → there."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-005",
@@ -132,7 +136,8 @@
       "Sai — 'sees' là hiện tại đơn.",
       "Sai — 'saw' không lùi thì; sau 'said' (quá khứ) quá khứ đơn phải lùi thành quá khứ hoàn thành.",
       "Sai — 'see' là nguyên thể/hiện tại."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-006",
@@ -159,7 +164,8 @@
       "Sai — 'the day before' là ngày hôm trước, ngược với 'tomorrow' (ngày hôm sau).",
       "Sai — 'today' không thay thế đúng cho 'tomorrow'.",
       "Đúng — 'tomorrow' → the next day (hoặc the following day)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-007",
@@ -186,7 +192,8 @@
       "Sai — 'cans' không tồn tại: động từ khuyết thiếu 'can' không thêm -s.",
       "Sai — 'may' đổi nghĩa từ khả năng sang khả năng xảy ra.",
       "Đúng — modal 'can' lùi thành 'could'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-008",
@@ -213,7 +220,8 @@
       "Sai — 'it' không thay thế được 'this book' ở chỗ này (câu cần từ chỉ định đứng trước 'book').",
       "Đúng — 'this' → that khi tường thuật ở ngữ cảnh khác.",
       "Sai — 'these' là số nhiều, không hợp với 'book'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-009",
@@ -240,7 +248,8 @@
       "Sai — 'was' không phải cách lùi của hiện tại hoàn thành.",
       "Đúng — hiện tại hoàn thành lùi thành quá khứ hoàn thành: have eaten → had eaten.",
       "Sai — 'has' không lùi thì và không đi với chủ ngữ 'he' trong câu tường thuật này."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-010",
@@ -267,7 +276,8 @@
       "Đúng — modal 'must' (bắt buộc) lùi thành 'had to'.",
       "Sai — 'has to' ở hiện tại, không lùi thì sau 'said' (quá khứ).",
       "Sai — 'might' diễn tả khả năng, làm đổi nghĩa từ 'bắt buộc' sang 'có thể'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-011",
@@ -294,7 +304,8 @@
       "Sai — 'which' không dùng nối câu hỏi Yes/No.",
       "Sai — 'that' dùng cho câu trần thuật, không dùng cho câu hỏi Yes/No.",
       "Sai — 'what' là từ để hỏi, không dùng ở câu hỏi Yes/No."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-012",
@@ -322,7 +333,8 @@
       "Sai — 'did finished' sai cấu trúc (chia kép).",
       "Đúng — hiện tại hoàn thành lùi thành quá khứ hoàn thành: have finished → had finished.",
       "Sai — 'have finished' giữ hiện tại hoàn thành, không lùi thì sau 'asked' (quá khứ)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-013",
@@ -350,7 +362,8 @@
       "Sai — 'were' không đi với chủ ngữ số ít 'he'.",
       "Đúng — sau từ để hỏi 'where', trật tự khẳng định và lùi thì: are → was.",
       "Sai — 'is' không lùi thì sau 'asked' (quá khứ)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-014",
@@ -378,7 +391,8 @@
       "Sai — 'did' không phù hợp trong cấu trúc này.",
       "Sai — 'does' ở hiện tại và không đi với 'will' của câu gốc.",
       "Sai — 'will' không lùi thì sau 'asked' (quá khứ)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-015",
@@ -405,7 +419,8 @@
       "Đúng — mệnh lệnh khẳng định tường thuật: told + O + to V.",
       "Sai — 'that' không dùng cho câu mệnh lệnh tường thuật.",
       "Sai — 'if' dùng cho câu hỏi Yes/No."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-016",
@@ -432,7 +447,8 @@
       "Sai — 'to not' ít dùng; chuẩn là 'not to'.",
       "Đúng — mệnh lệnh phủ định tường thuật: told + O + not to V.",
       "Sai — 'don't' giữ nguyên lời nói trực tiếp, không dùng trong câu tường thuật."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-017",
@@ -459,7 +475,8 @@
       "Sai — 'what' là từ để hỏi, không dùng cho câu hỏi Yes/No.",
       "Đúng — câu hỏi Yes/No tường thuật có thể nối bằng 'whether' (tương đương 'if').",
       "Sai — 'who' là từ để hỏi, không dùng cho câu hỏi Yes/No."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-018",
@@ -486,7 +503,8 @@
       "Đúng — 'Who' làm chủ ngữ của câu hỏi gốc nên giữ nguyên và đứng đầu mệnh đề.",
       "Sai — 'whom' dùng khi hỏi về tân ngữ; ở đây 'who' là chủ ngữ.",
       "Sai — 'that' dùng cho câu trần thuật."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-019",
@@ -513,7 +531,8 @@
       "Sai — 'said' không đi trực tiếp với tân ngữ chỉ người rồi 'to V' (cần 'told').",
       "Sai — 'spoke' không dùng cho tường thuật mệnh lệnh theo cấu trúc này.",
       "Đúng — mệnh lệnh tường thuật: told + O + to V."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-020",
@@ -541,7 +560,8 @@
       "Sai — 'has' là hiện tại hoàn thành, không lùi thì sau 'asked' (quá khứ).",
       "Sai — 'did' không lùi thì và gây chia kép với 'fixed'.",
       "Sai — 'was' không đúng cấu trúc quá khứ hoàn thành 'had fixed'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-021",
@@ -569,7 +589,8 @@
       "Đúng — modal 'will' lùi thành 'would'.",
       "Sai — 'shall' đổi nghĩa và không phải dạng lùi thì của 'will'.",
       "Sai — 'must' đổi nghĩa từ ý định sang bắt buộc."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-022",
@@ -597,7 +618,8 @@
       "Sai — 'moves' là hiện tại đơn.",
       "Đúng — quá khứ đơn lùi thành quá khứ hoàn thành: moved → had moved.",
       "Sai — 'moved' không lùi thì; sau 'said' (quá khứ) quá khứ đơn phải lùi thành quá khứ hoàn thành."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-023",
@@ -625,7 +647,8 @@
       "Đúng — quá khứ đơn lùi thành quá khứ hoàn thành: did leave → had left.",
       "Sai — 'left' không lùi thì sau 'asked' (quá khứ).",
       "Sai — 'leaves' là hiện tại đơn."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-024",
@@ -653,7 +676,8 @@
       "Sai — 'will' không lùi thì sau 'asked' (quá khứ).",
       "Sai — 'can' không lùi thì sau 'asked' (quá khứ).",
       "Đúng — modal 'can' lùi thành 'could'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-025",
@@ -681,7 +705,8 @@
       "Đúng — mệnh lệnh phủ định tường thuật: warned + O + not to V; 'here' → there.",
       "Sai — 'to not' ít dùng; chuẩn là 'not to'.",
       "Sai — 'no' không dùng trong cấu trúc này."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-026",
@@ -708,7 +733,8 @@
       "Sai — 'spoke' không đi trực tiếp với tân ngữ chỉ người theo cách này.",
       "Sai — 'said' không đứng ngay trước tân ngữ chỉ người (phải 'said to me').",
       "Đúng — 'told + O' (tân ngữ chỉ người đứng ngay sau)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-027",
@@ -737,7 +763,8 @@
       "Sai — 'am' không lùi thì và không đi với 'be staying' ở đây.",
       "Sai — 'shall' không phải dạng lùi thì của 'will'.",
       "Sai — 'will' không lùi thì sau 'asked' (quá khứ)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-028",
@@ -764,7 +791,8 @@
       "Sai — 'what' là từ để hỏi, không dùng cho câu hỏi Yes/No.",
       "Sai — 'so' không dùng để nối câu hỏi tường thuật.",
       "Sai — 'that' dùng cho câu trần thuật, không dùng cho câu hỏi Yes/No."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-029",
@@ -792,7 +820,8 @@
       "Sai — 'should' đổi nghĩa từ bắt buộc sang lời khuyên.",
       "Sai — 'have to' ở hiện tại và không hợp với chủ ngữ 'she'; 'must' lùi thành 'had to'.",
       "Sai — 'has to' ở hiện tại, không lùi thì sau 'told' (quá khứ)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-reported-speech-030",
@@ -821,6 +850,7 @@
       "Đúng — quá khứ đơn lùi thành quá khứ hoàn thành: did arrive → had arrived; 'here' → there.",
       "Sai — 'has' là hiện tại hoàn thành, không lùi thì sau 'asked' (quá khứ).",
       "Sai — 'did' gây chia kép với 'arrived'."
-    ]
+    ],
+    "bac": 3
   }
 ]

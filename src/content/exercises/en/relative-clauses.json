@@ -24,7 +24,8 @@
       "Sai — 'whose' chỉ sự sở hữu và phải đi kèm danh từ, ở đây theo sau là động từ.",
       "Đúng — 'The woman' (người) làm chủ ngữ của 'is standing' → who.",
       "Sai — 'whom' làm tân ngữ; ở đây chỗ trống là chủ ngữ của 'is standing'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-relative-clauses-002",
@@ -51,7 +52,8 @@
       "Sai — 'where' dùng cho nơi chốn, không thay cho chủ ngữ 'a laptop'.",
       "Đúng — 'a laptop' (vật) làm chủ ngữ của 'has' → which.",
       "Sai — 'whom' dùng cho người và làm tân ngữ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-relative-clauses-003",
@@ -78,7 +80,8 @@
       "Sai — 'whom' làm tân ngữ và không đi với danh từ sở hữu 'brother'.",
       "Sai — 'that' không dùng để chỉ sở hữu; cần 'whose' trước 'brother'.",
       "Sai — 'who' làm chủ ngữ, không chỉ sự sở hữu."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-004",
@@ -105,7 +108,8 @@
       "Đúng — 'the restaurant' chỉ nơi chốn → where (= at which).",
       "Sai — 'which' làm chủ ngữ/tân ngữ; ở đây cần trạng từ chỉ nơi chốn.",
       "Sai — 'whom' dùng cho người."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-005",
@@ -132,7 +136,8 @@
       "Đúng — 'the season' chỉ thời gian → when.",
       "Sai — 'why' đi với 'the reason'.",
       "Sai — 'which' làm chủ ngữ/tân ngữ; ở đây cần trạng từ chỉ thời gian."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-006",
@@ -159,7 +164,8 @@
       "Sai — 'whose' chỉ sở hữu, không đứng sau giới từ 'to' ở nghĩa này.",
       "Sai — 'that' không đứng ngay sau giới từ.",
       "Sai — 'who' không đứng ngay sau giới từ; dùng 'whom'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-relative-clauses-007",
@@ -187,7 +193,8 @@
       "Sai — 'it' là đại từ nhân xưng, tạo thừa chủ ngữ trong mệnh đề quan hệ.",
       "Đúng — mệnh đề không xác định (có dấu phẩy) chỉ vật → which.",
       "Sai — 'that' không dùng sau dấu phẩy."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-relative-clauses-008",
@@ -214,7 +221,8 @@
       "Đúng — sau đại từ bất định như 'everything' dùng 'that'.",
       "Sai — 'what' không đi sau 'everything' (đã có danh từ/đại từ đứng trước).",
       "Sai — 'who' dùng cho người."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-relative-clauses-009",
@@ -241,7 +249,8 @@
       "Sai — 'where' dùng cho nơi chốn.",
       "Sai — 'when' dùng cho thời gian.",
       "Đúng — 'the reason' đi với trạng từ quan hệ 'why' (= for which)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-010",
@@ -268,7 +277,8 @@
       "Sai — 'that' không đi sau giới từ và thiếu giới từ 'at', nên 'stayed' thiếu giới từ.",
       "Đúng — 'stay at' + which → 'at which' (hoặc dùng 'where').",
       "Sai — 'which' đứng một mình thiếu giới từ 'at' sau 'stayed'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-011",
@@ -295,7 +305,8 @@
       "Đúng — rút gọn mệnh đề chủ động: who is standing → standing.",
       "Sai — 'is standing' làm câu có hai động từ chia liền nhau ('The girl is standing ... is waiting').",
       "Sai — 'stood' (quá khứ) không phải dạng rút gọn chủ động và sai thì."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-relative-clauses-012",
@@ -322,7 +333,8 @@
       "Sai — 'was built' làm câu có hai động từ chia liền nhau ('The ancient bridge was built ... is being repaired').",
       "Đúng — rút gọn mệnh đề bị động: which was built → built.",
       "Sai — 'building' mang nghĩa chủ động, trong khi cây cầu được xây."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-relative-clauses-013",
@@ -349,7 +361,8 @@
       "Sai — 'set' không phải dạng rút gọn đúng sau 'the first person'.",
       "Sai — 'setting' không dùng sau số thứ tự 'the first'; dạng rút gọn đúng là 'to + V'.",
       "Đúng — sau 'the first/the last/the only' rút gọn bằng 'to + V': to set."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-relative-clauses-014",
@@ -377,7 +390,8 @@
       "Đúng — 'which' (sau dấu phẩy) thay cho cả mệnh đề trước: việc hoàn thành dự án.",
       "Sai — 'what' không dùng làm đại từ quan hệ trong trường hợp này.",
       "Sai — 'it' không nối được hai mệnh đề (thiếu liên từ/đại từ quan hệ)."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-relative-clauses-015",
@@ -404,7 +418,8 @@
       "Sai — 'that's' là 'that is/has', không chỉ sở hữu.",
       "Sai — 'whom' làm tân ngữ và không chỉ sở hữu 'research'.",
       "Đúng — 'whose' + danh từ (research): nghiên cứu của các nhà khoa học đó."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-016",
@@ -431,7 +446,8 @@
       "Đúng — 'The mechanic' (người) làm chủ ngữ của 'fixed' → who.",
       "Sai — 'whom' làm tân ngữ, không làm chủ ngữ.",
       "Sai — 'which' dùng cho vật."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-relative-clauses-017",
@@ -458,7 +474,8 @@
       "Sai — 'who' dùng cho người.",
       "Sai — 'whom' dùng cho người.",
       "Sai — 'whose' chỉ sở hữu và phải đi kèm danh từ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-relative-clauses-018",
@@ -485,7 +502,8 @@
       "Sai — 'whose' chỉ sở hữu, không dùng sau giới từ 'to' với nghĩa này.",
       "Sai — 'that' không đứng ngay sau giới từ.",
       "Đúng — sau giới từ 'to' và chỉ người, dùng 'whom'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-relative-clauses-019",
@@ -512,7 +530,8 @@
       "Sai — 'whom' không đi với danh từ sở hữu 'mother'.",
       "Sai — 'that' không chỉ sở hữu.",
       "Sai — 'who' không chỉ sở hữu."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-020",
@@ -539,7 +558,8 @@
       "Sai — 'whom' dùng cho người.",
       "Sai — 'who' dùng cho người.",
       "Sai — 'whose' chỉ sở hữu và phải đi kèm danh từ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-relative-clauses-021",
@@ -566,7 +586,8 @@
       "Sai — 'when' dùng cho thời gian.",
       "Sai — 'why' đi với 'the reason'.",
       "Sai — 'which' làm chủ ngữ/tân ngữ; ở đây cần trạng từ chỉ nơi chốn (hoặc 'in which')."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-022",
@@ -593,7 +614,8 @@
       "Đúng — 'the day' (thời gian) → when.",
       "Sai — 'who' dùng cho người.",
       "Sai — 'where' dùng cho nơi chốn."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-023",
@@ -620,7 +642,8 @@
       "Sai — 'when' dùng cho thời gian.",
       "Sai — 'which' đứng một mình không đi với 'the reason' (cần 'for which').",
       "Đúng — 'the reason' đi với 'why'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-024",
@@ -647,7 +670,8 @@
       "Sai — 'that' không dùng sau dấu phẩy.",
       "Đúng — mệnh đề không xác định (có dấu phẩy) chỉ người → who.",
       "Sai — 'whom' làm tân ngữ; ở đây cần chủ ngữ của 'is'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-025",
@@ -674,7 +698,8 @@
       "Sai — 'that' không dùng sau dấu phẩy.",
       "Sai — 'where' dùng cho nơi chốn và không làm chủ ngữ.",
       "Sai — 'who' dùng cho người."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-relative-clauses-026",
@@ -701,7 +726,8 @@
       "Sai — 'sat' làm câu có hai động từ chia liền nhau và sai thì.",
       "Sai — 'to sit' dùng cho rút gọn với số thứ tự/cực cấp, không hợp ở đây.",
       "Đúng — rút gọn mệnh đề chủ động: who is sitting → sitting."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-relative-clauses-027",
@@ -728,7 +754,8 @@
       "Sai — 'making' mang nghĩa chủ động, trong khi sản phẩm được làm ra.",
       "Đúng — rút gọn mệnh đề bị động: which are made → made.",
       "Sai — 'to make' dùng cho rút gọn với số thứ tự/cực cấp hoặc mục đích, không hợp ở đây."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-relative-clauses-028",
@@ -755,7 +782,8 @@
       "Sai — 'travel' (nguyên thể) không phải dạng rút gọn đúng.",
       "Sai — 'traveled' mang nghĩa bị động, không hợp ('the first human traveled').",
       "Sai — 'traveling' không dùng sau số thứ tự 'the first'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-relative-clauses-029",
@@ -782,7 +810,8 @@
       "Sai — 'to arrive' dùng cho rút gọn với số thứ tự/cực cấp, không hợp ở đây.",
       "Sai — 'arrived' mang nghĩa bị động hoặc quá khứ, không hợp nghĩa chủ động 'những học sinh đến muộn'.",
       "Đúng — rút gọn mệnh đề chủ động: who arrive → arriving."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-relative-clauses-030",
@@ -809,6 +838,7 @@
       "Đúng — rút gọn mệnh đề bị động: which was built → built.",
       "Sai — 'building' mang nghĩa chủ động, trong khi cây cầu được xây.",
       "Sai — 'builds' làm câu có hai động từ chia liền nhau và sai nghĩa."
-    ]
+    ],
+    "bac": 4
   }
 ]

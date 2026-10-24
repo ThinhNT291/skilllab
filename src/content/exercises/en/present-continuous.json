@@ -24,7 +24,8 @@
       "Sai — 'knock' (nguyên thể) không phải dạng động từ đã chia, thiếu trợ động từ 'is' và đuôi -ing.",
       "Sai — 'knocks' là hiện tại đơn, diễn tả thói quen hoặc sự thật, không diễn tả tiếng gõ đang vang lên.",
       "Sai — 'are' không hợp với chủ ngữ số ít 'Someone'."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-present-continuous-002",
@@ -51,7 +52,8 @@
       "Sai — 'is' dành cho chủ ngữ số ít, còn 'The children' là số nhiều.",
       "Sai — 'plays' là hiện tại đơn (thói quen), không hợp với 'Look!' (việc đang xảy ra).",
       "Sai — 'play' là hiện tại đơn; câu có 'Look!' nên cần hiện tại tiếp diễn."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-present-continuous-003",
@@ -78,7 +80,8 @@
       "Sai — 'isn't' đi với he/she/it, không đi với 'I'.",
       "Đúng — phủ định hiện tại tiếp diễn là am/is/are + not + V-ing; với 'I' là am not watching.",
       "Sai — thiếu trợ động từ 'am'; 'not watching' không thể tự làm động từ chính."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-present-continuous-004",
@@ -105,7 +108,8 @@
       "Sai — 'Do ... study' là câu hỏi hiện tại đơn (thói quen), không hợp với 'at the moment'; 'Do' cũng không đi với 'your brother'.",
       "Sai — 'Does ... study' là hiện tại đơn, hỏi về thói quen; 'at the moment' cần hiện tại tiếp diễn.",
       "Đúng — 'at the moment' → hiện tại tiếp diễn; 'your brother' là số ít → Is ... studying?"
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-present-continuous-005",
@@ -132,7 +136,8 @@
       "Sai — sai chính tả: 'write' tận cùng -e câm nên bỏ e rồi thêm -ing (writing), không nhân đôi chữ t.",
       "Đúng — bỏ 'e' câm rồi thêm -ing: writing; chủ ngữ 'She' dùng 'is'.",
       "Sai — 'write' (nguyên thể) không phải dạng động từ chia cho 'She' và không có dạng tiếp diễn."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-present-continuous-006",
@@ -159,7 +164,8 @@
       "Sai — 'is' không đi với chủ ngữ 'We'.",
       "Sai — 'sit' là hiện tại đơn (thói quen); câu mô tả việc đang xảy ra nên cần tiếp diễn.",
       "Sai — 'sits' dành cho ngôi thứ ba số ít, không dùng với 'We'."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-present-continuous-007",
@@ -186,7 +192,8 @@
       "Sai — 'is' dành cho chủ ngữ số ít, còn 'the workers' là số nhiều.",
       "Đúng — 'At present' chỉ giai đoạn hiện tại (không nhất thiết đúng lúc nói); 'the workers' số nhiều → are building.",
       "Sai — 'builds' là hiện tại đơn và dành cho ngôi thứ ba số ít."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-008",
@@ -213,7 +220,8 @@
       "Sai — 'lies' là hiện tại đơn; câu mô tả việc đang xảy ra (đang chợp mắt) nên cần tiếp diễn.",
       "Sai — sai chính tả: -ie phải đổi thành -y (lying), không viết 'lieing'.",
       "Sai — thiếu trợ động từ 'is'; 'lying' không thể tự làm động từ chính."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-present-continuous-009",
@@ -240,7 +248,8 @@
       "Sai — 'is' không đi với chủ ngữ số nhiều 'my parents'.",
       "Sai — 'repaint' là hiện tại đơn; 'Currently' chỉ việc đang thực hiện nên cần tiếp diễn.",
       "Đúng — 'Currently' + 'my parents' số nhiều → are repainting."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-010",
@@ -267,7 +276,8 @@
       "Sai — 'know' là động từ chỉ trạng thái nên không dùng ở thì tiếp diễn, dù đang nói về lúc này.",
       "Đúng — động từ chỉ trạng thái dùng hiện tại đơn: I know.",
       "Sai — 'know' không chia tiếp diễn, và 'are' không đi với 'I'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-011",
@@ -294,7 +304,8 @@
       "Đúng — 'These days' chỉ tình huống tạm thời quanh hiện tại → am reading.",
       "Sai — 'is' không đi với chủ ngữ 'I'.",
       "Sai — 'reads' dành cho ngôi thứ ba số ít và là hiện tại đơn."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-012",
@@ -321,7 +332,8 @@
       "Sai — 'stay' là hiện tại đơn và không hợp với chủ ngữ số ít; 'this month' chỉ tình huống tạm thời.",
       "Sai — 'stays' (hiện tại đơn) diễn tả thói quen hoặc việc lâu dài, không hợp với tình huống tạm thời 'this month'.",
       "Đúng — tình huống tạm thời → hiện tại tiếp diễn; chủ ngữ số ít → is staying."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-013",
@@ -348,7 +360,8 @@
       "Sai — 'is' không đi với chủ ngữ 'We'.",
       "Sai — 'meets' dành cho ngôi thứ ba số ít, không dùng với 'We'.",
       "Đúng — kế hoạch cá nhân đã sắp xếp cho tương lai gần → are meeting."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-014",
@@ -375,7 +388,8 @@
       "Đúng — kế hoạch đã sắp xếp cho tương lai gần → is starting.",
       "Sai — 'started' là quá khứ đơn, trong khi việc bắt đầu làm còn ở tương lai ('next Monday').",
       "Sai — 'start' không có -s nên không hợp với chủ ngữ số ít."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-015",
@@ -402,7 +416,8 @@
       "Sai — 'switches' dành cho ngôi thứ ba số ít, không hợp với 'companies'.",
       "Sai — 'is' không đi với chủ ngữ số nhiều 'companies'.",
       "Sai — 'switched' là quá khứ đơn, không hợp với 'these days' (xu hướng hiện nay)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-continuous-016",
@@ -429,7 +444,8 @@
       "Sai — 'is increased' là dạng bị động, không hợp nghĩa (số lượng khách tự tăng chứ không 'bị tăng').",
       "Đúng — xu hướng tăng dần → hiện tại tiếp diễn; 'The number' số ít → is increasing.",
       "Sai — 'increase' không hợp với chủ ngữ số ít 'The number'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-continuous-017",
@@ -456,7 +472,8 @@
       "Đúng — phàn nàn về thói quen lặp lại quá thường xuyên: is always forgetting.",
       "Sai — thiếu trợ động từ 'is' nên 'forgetting' không thể làm động từ chính.",
       "Sai — 'always forgets' (hiện tại đơn) chỉ nêu thói quen, không mang sắc thái phàn nàn như dấu '!' trong câu."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-present-continuous-018",
@@ -483,7 +500,8 @@
       "Sai — 'always' không đặt sau động từ thường theo cách này; vị trí đúng là trước động từ hoặc sau trợ động từ.",
       "Đúng — 'is always complaining' diễn tả sự khó chịu về thói quen lặp lại quá nhiều.",
       "Sai — thiếu trợ động từ 'is'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-present-continuous-019",
@@ -510,7 +528,8 @@
       "Sai — 'Does' không đi với chủ ngữ 'you'.",
       "Sai — 'Is' không đi với chủ ngữ 'you'.",
       "Sai — 'Did you do ...?' là quá khứ đơn, không hợp với 'this weekend' (sắp tới)."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-020",
@@ -537,7 +556,8 @@
       "Đúng — 'belong' là động từ chỉ sở hữu nên dùng hiện tại đơn; chủ ngữ số ít thêm -s.",
       "Sai — 'belong' là động từ chỉ trạng thái nên không chia tiếp diễn.",
       "Sai — không chia tiếp diễn với 'belong', và 'are' không đi với chủ ngữ số ít."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-021",
@@ -565,7 +585,8 @@
       "Sai — đảo ngược thì: thói quen 'usually' cần hiện tại đơn, tình huống tạm thời cần tiếp diễn.",
       "Sai — 'usually' không đi với tiếp diễn (is driving), còn 'this week' cần tiếp diễn (is taking) thay vì 'takes'.",
       "Sai — nhầm động từ và thì: 'usually' cần hiện tại đơn (drives), còn 'this week' cần tiếp diễn (is taking the bus)."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-022",
@@ -593,7 +614,8 @@
       "Đúng — nghề nghiệp lâu dài → works; 'today' (tình huống bất thường) → is working.",
       "Sai — vế đầu nêu nghề nghiệp lâu dài ('works in a bank') nên cần hiện tại đơn.",
       "Sai — đảo ngược thì giữa hai vế."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-023",
@@ -621,7 +643,8 @@
       "Đúng — sự thật khoa học → boils; 'look' + việc đang xảy ra → is boiling.",
       "Sai — đảo ngược thì giữa hai vế.",
       "Sai — vế sau có 'look' cho thấy việc đang xảy ra nên cần tiếp diễn (is boiling)."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-present-continuous-024",
@@ -649,7 +672,8 @@
       "Đúng — thói quen phủ định → doesn't usually eat; việc đang xảy ra 'right now' → is eating.",
       "Sai — vế đầu nêu thói quen với 'usually' nên không dùng 'isn't usually eating'.",
       "Sai — vế sau có 'right now' nên cần hiện tại tiếp diễn (is eating)."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-present-continuous-025",
@@ -676,7 +700,8 @@
       "Sai — 'is' không đi với chủ ngữ số nhiều 'people'.",
       "Sai — 'wrote' là quá khứ đơn, không hợp với 'Nowadays' (hiện nay).",
       "Đúng — 'Nowadays' + xu hướng giảm dần → are writing."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-continuous-026",
@@ -703,7 +728,8 @@
       "Sai — 'always takes' (hiện tại đơn) chỉ nêu thói quen, không mang sắc thái bực bội như 'I can't stand ...!'.",
       "Sai — 'take' không chia theo chủ ngữ 'he' và 'always' đứng sai vị trí.",
       "Sai — thiếu trợ động từ 'is'."
-    ]
+    ],
+    "bac": 4
   },
   {
     "id": "en-present-continuous-027",
@@ -730,7 +756,8 @@
       "Sai — dùng hiện tại đơn và đặt 'currently' sau động từ; cần hiện tại tiếp diễn.",
       "Sai — thiếu trợ động từ 'is'.",
       "Đúng — 'currently' chỉ việc đang diễn ra trong giai đoạn hiện tại → is currently negotiating."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-028",
@@ -757,7 +784,8 @@
       "Đúng — kế hoạch đã đặt vé, sắp xếp cụ thể cho tương lai gần → are flying.",
       "Sai — 'is' không đi với chủ ngữ 'We'.",
       "Sai — 'flew' là quá khứ đơn, trong khi chuyến bay ở 'tomorrow' (tương lai)."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-029",
@@ -784,7 +812,8 @@
       "Sai — 'are' không đi với chủ ngữ số ít 'dog'.",
       "Sai — 'barks' là hiện tại đơn; 'non-stop' và 'it's driving me crazy' cho thấy việc đang xảy ra lúc này nên cần tiếp diễn.",
       "Đúng — việc đang xảy ra ngay lúc nói (kèm sự khó chịu) → hiện tại tiếp diễn: is barking."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-present-continuous-030",
@@ -811,7 +840,8 @@
       "Sai — vế đầu 'rise' cũng phải ở tiếp diễn (are rising) vì nói về xu hướng đang diễn ra.",
       "Đúng — cả hai vế diễn tả xu hướng đang phát triển gần đây → are rising, are introducing.",
       "Sai — vế sau 'introduce' phải ở tiếp diễn (are introducing) vì 'this year' nói về xu hướng đang diễn ra."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-present-continuous-031",
@@ -840,7 +870,8 @@
       "Sai — 'read' (không -s) không hợp với 'My father', và 'reading' thiếu 'is'.",
       "Sai — đảo ngược thì: thói quen 'usually' phải dùng hiện tại đơn, việc đang xảy ra 'tonight' dùng tiếp diễn.",
       "Sai — vế sau dùng hiện tại đơn (read) nên không diễn tả được việc đang xảy ra tối nay."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-032",
@@ -869,7 +900,8 @@
       "Sai — 'plays' không hợp với 'they' (số nhiều).",
       "Đúng — 'Look! ... right now' → are playing; 'usually' + chủ ngữ số nhiều → play.",
       "Sai — 'is playing' và 'plays' đều dành cho chủ ngữ số ít, trong khi 'The kids' và 'they' là số nhiều."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-033",
@@ -898,7 +930,8 @@
       "Sai — vế 'ask' cần tiếp diễn (am asking) vì có 'right now'.",
       "Đúng — 'understand' giữ hiện tại đơn (don't understand); 'right now' → am asking.",
       "Sai — 'doesn't' dùng với he/she/it, không dùng với 'I'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-present-continuous-034",
@@ -927,6 +960,7 @@
       "Đúng — 'every day' → leaves; 'today' do sửa đường → is leaving.",
       "Sai — 'leaving' thiếu 'is' nên không thành động từ chính của câu.",
       "Sai — 'leave' thiếu -s với 'The 6 p.m. bus' (số ít), và 'leaving' thiếu 'is'."
-    ]
+    ],
+    "bac": 2
   }
 ]

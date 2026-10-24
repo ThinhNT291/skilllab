@@ -22,7 +22,8 @@
             "en": "Since you already know the neighborhood well, could you show the new colleague around?",
             "vi": "Vì bạn đã biết rõ khu vực này rồi, bạn có thể dẫn đồng nghiệp mới đi tham quan không?"
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "adverbial-clauses-u2-reason-phrase",
@@ -37,7 +38,8 @@
             "en": "The concert was canceled due to a technical problem with the sound system.",
             "vi": "Buổi hòa nhạc bị hủy do sự cố kỹ thuật với hệ thống âm thanh."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "adverbial-clauses-u3-concession-clause",
@@ -52,7 +54,8 @@
             "en": "Even though he had trained for months, he didn't win the marathon.",
             "vi": "Mặc dù đã tập luyện nhiều tháng, anh ấy vẫn không thắng giải marathon."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "adverbial-clauses-u4-concession-phrase",
@@ -67,7 +70,8 @@
             "en": "In spite of having very little experience, she performed brilliantly in the interview.",
             "vi": "Mặc dù có rất ít kinh nghiệm, cô ấy vẫn thể hiện xuất sắc trong buổi phỏng vấn."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "adverbial-clauses-u5-purpose",
@@ -82,7 +86,8 @@
             "en": "The manager explained the new policy slowly so that everyone could understand it clearly.",
             "vi": "Người quản lý giải thích chính sách mới một cách chậm rãi để mọi người có thể hiểu rõ."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "adverbial-clauses-u6-result",
@@ -97,7 +102,8 @@
             "en": "It was such a difficult exam that almost no one finished it in time.",
             "vi": "Đó là một bài thi khó đến nỗi hầu như không ai làm xong kịp giờ."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

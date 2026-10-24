@@ -24,7 +24,8 @@
       "Đúng — hành động đã hoàn thành tại mốc 'last night' → quá khứ đơn: finished.",
       "Sai — 'finishes' là hiện tại đơn, không hợp với 'last night'.",
       "Sai — 'finish' là nguyên thể/hiện tại, không diễn tả hành động đã xảy ra."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-002",
@@ -51,7 +52,8 @@
       "Đúng — 'yesterday evening' là mốc quá khứ xác định → watched.",
       "Sai — 'watch' là nguyên thể/hiện tại.",
       "Sai — chia kép: câu khẳng định không dùng 'did', và sau 'did' động từ phải ở nguyên thể."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-003",
@@ -78,7 +80,8 @@
       "Sai — 'calls' là hiện tại đơn, không hợp với 'last Monday morning'.",
       "Sai — 'call' là nguyên thể/hiện tại.",
       "Đúng — 'last Monday morning' là mốc quá khứ xác định → called."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-004",
@@ -105,7 +108,8 @@
       "Sai — cả hai vế còn ở nguyên thể, không diễn tả hành động đã xảy ra.",
       "Sai — 'woke' đúng nhưng 'jog' phải chia quá khứ 'jogged' vì hai hành động liên tiếp đều ở quá khứ.",
       "Đúng — woke (bất quy tắc) và jogged (có quy tắc, nhân đôi g)."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-005",
@@ -132,7 +136,8 @@
       "Sai — 'opened' đúng nhưng 'look' phải là 'looked' để đồng nhất ở quá khứ.",
       "Đúng — chuỗi hành động liên tiếp trong quá khứ: opened, looked, closed.",
       "Sai — cả hai còn ở nguyên thể, không phải quá khứ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-006",
@@ -159,7 +164,8 @@
       "Đúng — tình trạng kéo dài trong quá khứ nay đã chấm dứt → lived.",
       "Sai — 'was lived' là dạng bị động; 'live' ở đây không có tân ngữ nên không dùng bị động.",
       "Sai — 'lives' là hiện tại đơn ngôi thứ ba, không hợp với chủ ngữ 'I' và thì quá khứ."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-simple-007",
@@ -187,7 +193,8 @@
       "Đúng — 'my sister' là số ít, ở quá khứ → was.",
       "Sai — 'be' nguyên thể không thể chia với chủ ngữ này.",
       "Sai — 'were' dành cho you/we/they và chủ ngữ số nhiều, còn 'my sister' là số ít."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-simple-008",
@@ -214,7 +221,8 @@
       "Sai — 'were' dùng với chủ ngữ số nhiều; 'The traffic' là danh từ không đếm được, đi với động từ số ít.",
       "Đúng — 'The traffic' số ít, quá khứ → was.",
       "Sai — 'be' nguyên thể không thể chia với chủ ngữ này."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-past-simple-009",
@@ -241,7 +249,8 @@
       "Sai — 'are' là hiện tại, nhưng câu nói về lúc đã tốt nghiệp ('when I graduated').",
       "Sai — 'is' là hiện tại và dành cho chủ ngữ số ít.",
       "Đúng — 'My parents' số nhiều, ở quá khứ → were."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-past-simple-010",
@@ -269,7 +278,8 @@
       "Sai — 'buys' là hiện tại đơn, không hợp với 'three years ago'.",
       "Đúng — 'buy' là động từ bất quy tắc: bought.",
       "Sai — 'buy' là nguyên thể/hiện tại."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-011",
@@ -296,7 +306,8 @@
       "Sai — 'Do ... see' là hiện tại đơn, không hợp với 'last week'.",
       "Đúng — Did + chủ ngữ + động từ nguyên thể.",
       "Sai — 'Were' đi với tính từ/V-ing, không đi với động từ nguyên thể 'see'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-012",
@@ -323,7 +334,8 @@
       "Đúng — didn't + động từ nguyên thể.",
       "Sai — 'doesn't' là hiện tại, không hợp với vế sau 'his boss was upset' (quá khứ).",
       "Sai — thiếu trợ động từ: không thể phủ định quá khứ chỉ bằng 'not'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-013",
@@ -350,7 +362,8 @@
       "Sai — cả ba vế còn ở nguyên thể/hiện tại.",
       "Sai — 'go' là bất quy tắc: quá khứ là 'went', không phải 'goed'.",
       "Đúng — went, caught, went (đều là động từ bất quy tắc)."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-014",
@@ -377,7 +390,8 @@
       "Sai — 'drive' là hiện tại, nhưng 'when he was younger' chỉ quá khứ.",
       "Đúng — 'drive' bất quy tắc: drove.",
       "Sai — 'drives' là hiện tại đơn."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-simple-015",
@@ -404,7 +418,8 @@
       "Sai — 'a lot of guests' là số nhiều nên cần 'were', không dùng 'was'.",
       "Sai — cả hai chủ ngữ đều số nhiều nên không dùng 'was/wasn't'.",
       "Sai — vế sau có 'chairs' là số nhiều nên cần 'weren't', không phải 'wasn't'."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-past-simple-016",
@@ -431,7 +446,8 @@
       "Sai — 'isn't' là hiện tại và không đi với 'I'.",
       "Sai — 'weren't' không đi với chủ ngữ 'I'.",
       "Sai — động từ 'to be' không dùng trợ động từ 'did' khi phủ định."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-past-simple-017",
@@ -459,7 +475,8 @@
       "Sai — hiện tại hoàn thành không đi với mốc quá khứ xác định như 'Two years ago'.",
       "Sai — 'was worked' là dạng bị động, không hợp nghĩa (cô ấy làm việc chứ không 'bị làm').",
       "Đúng — mốc quá khứ xác định → quá khứ đơn: worked."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-simple-018",
@@ -487,7 +504,8 @@
       "Sai — dù câu hỏi dùng hiện tại hoàn thành, câu trả lời có mốc xác định 'in 2020' nên không dùng hiện tại hoàn thành.",
       "Đúng — mốc 'in 2020' → quá khứ đơn: moved.",
       "Sai — 'move' là nguyên thể/hiện tại."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-simple-019",
@@ -515,7 +533,8 @@
       "Đúng — (1) 'last summer' → visited; (2) 'so far' (cho đến nay, không rõ mốc) → have visited.",
       "Sai — vế (2) có 'so far' nên cần hiện tại hoàn thành, không dùng quá khứ đơn.",
       "Sai — đảo ngược hai thì giữa hai vế."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-simple-020",
@@ -542,7 +561,8 @@
       "Đúng — mốc 'last Sunday' → played.",
       "Sai — 'play' là nguyên thể/hiện tại, không diễn tả hành động đã xảy ra.",
       "Sai — chia kép: câu khẳng định không dùng 'did'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-021",
@@ -569,7 +589,8 @@
       "Sai — 'tell' là nguyên thể/hiện tại.",
       "Sai — chia kép: câu khẳng định không dùng 'did'.",
       "Đúng — thói quen đã chấm dứt trong quá khứ dùng quá khứ đơn: tell → told."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-simple-022",
@@ -596,7 +617,8 @@
       "Đúng — broke, climbed, stole: chuỗi ba hành động liên tiếp trong quá khứ.",
       "Sai — cả ba vế dùng hiện tại đơn, nhưng đây là chuỗi hành động đã xảy ra.",
       "Sai — 'climb' ở vế giữa cũng phải ở quá khứ (climbed)."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-023",
@@ -623,7 +645,8 @@
       "Sai — 'has' là trợ động từ hiện tại hoàn thành, không khớp với câu hỏi quá khứ đơn.",
       "Sai — 'does' là hiện tại.",
       "Sai — 'was' đi với tính từ/V-ing, không thay thế được cụm 'finished the marathon'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-024",
@@ -651,7 +674,8 @@
       "Sai — 'was written' là dạng bị động, trong khi Shakespeare là người viết.",
       "Sai — hiện tại hoàn thành không đi với mốc quá khứ xác định; Shakespeare cũng đã mất nên không còn liên hệ với hiện tại.",
       "Sai — 'writes' là hiện tại đơn."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-simple-025",
@@ -679,7 +703,8 @@
       "Sai — 'have gone' nghĩa là đã đi và chưa quay lại, và hiện tại hoàn thành không đi với mốc 'last April'.",
       "Đúng — mốc 'last April' → quá khứ đơn: went.",
       "Sai — 'was gone' không phải cách nói 'đã đến đó' trong ngữ cảnh này."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-simple-026",
@@ -707,7 +732,8 @@
       "Sai — 'were' không đi với chủ ngữ 'I'.",
       "Sai — 'were' không đi với 'I', và 'didn't had' là chia kép.",
       "Đúng — 'I' dùng 'was'; phủ định quá khứ đơn của 'have' là didn't have."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-past-simple-027",
@@ -734,7 +760,8 @@
       "Sai — chia kép: câu khẳng định không dùng 'did'.",
       "Sai — 'surprise' là nguyên thể/hiện tại.",
       "Sai — 'surprises' là hiện tại đơn."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-028",
@@ -762,7 +789,8 @@
       "Sai — hiện tại hoàn thành không đi với mốc quá khứ xác định 'Fifty years ago'.",
       "Sai — 'was' dành cho chủ ngữ số ít, còn 'most people' là số nhiều.",
       "Sai — 'are' là hiện tại, không hợp với 'Fifty years ago'."
-    ]
+    ],
+    "bac": 1
   },
   {
     "id": "en-past-simple-029",
@@ -789,7 +817,8 @@
       "Sai — sau 'Did' không thêm -s.",
       "Sai — 'gone' là quá khứ phân từ, không dùng sau 'Did'.",
       "Sai — chia kép: sau 'Did' không chia quá khứ lần nữa."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-past-simple-030",
@@ -816,6 +845,7 @@
       "Sai — 'won't win' là tương lai, không hợp với 'In 2021'.",
       "Sai — 'didn't won' là chia kép (sau 'didn't' động từ giữ nguyên thể). ('learnt' chỉ là biến thể Anh-Anh của 'learned', không phải chỗ sai.)",
       "Sai — thiếu trợ động từ: không thể phủ định quá khứ chỉ bằng 'not'."
-    ]
+    ],
+    "bac": 2
   }
 ]

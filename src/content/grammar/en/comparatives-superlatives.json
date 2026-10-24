@@ -22,7 +22,8 @@
             "en": "She runs faster than her brother.",
             "vi": "Cô ấy chạy nhanh hơn anh trai mình."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "comp-u2-long-adjectives",
@@ -37,7 +38,8 @@
             "en": "He explained the plan more carefully than I expected.",
             "vi": "Anh ấy giải thích kế hoạch cẩn thận hơn tôi tưởng."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "comp-u3-superlatives",
@@ -52,7 +54,8 @@
             "en": "Of the three candidates, she answered the questions the most confidently.",
             "vi": "Trong ba ứng viên, cô ấy trả lời câu hỏi tự tin nhất."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "comp-u4-equality",
@@ -67,7 +70,8 @@
             "en": "My brother doesn't drive as carefully as my father.",
             "vi": "Em trai tôi lái xe không cẩn thận bằng bố tôi."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "comp-u5-irregular-double",
@@ -82,7 +86,8 @@
             "en": "The more information you give us, the faster we can help you.",
             "vi": "Bạn cung cấp càng nhiều thông tin, chúng tôi càng giúp bạn nhanh hơn."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

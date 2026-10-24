@@ -23,7 +23,8 @@
             "en": "Plants die if they don't get enough water.",
             "vi": "Cây cối sẽ chết nếu chúng không nhận đủ nước."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "cond-u2-first",
@@ -38,7 +39,8 @@
             "en": "I will send you the report if I finish it early.",
             "vi": "Tôi sẽ gửi cho bạn báo cáo nếu tôi hoàn thành nó sớm."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "cond-u3-second",
@@ -53,7 +55,8 @@
             "en": "If he had a lot of money, he could buy that sports car.",
             "vi": "Nếu anh ấy có nhiều tiền, anh ấy có thể mua chiếc xe thể thao đó."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "cond-u4-third",
@@ -68,7 +71,8 @@
             "en": "We wouldn't have missed the flight if we had left the house earlier.",
             "vi": "Giá như chúng tôi rời nhà sớm hơn thì đã không lỡ chuyến bay."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "cond-u5-mixed",
@@ -87,7 +91,8 @@
             "en": "If she wasn't so afraid of flying, she would have traveled with us last summer.",
             "vi": "Vì tính cách 'sợ bay' của cô ấy không đổi theo thời gian (mệnh đề If dùng quá khứ đơn), nên cô ấy đã không đi du lịch cùng chúng tôi mùa hè trước (kết quả ở mệnh đề chính dùng would have + V3)."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "cond-connectors",
@@ -111,7 +116,8 @@
             "en": "We will go hiking even if it rains.",
             "vi": "Chúng tôi vẫn sẽ đi bộ đường dài dù trời có mưa."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "cond-inversion",
@@ -126,7 +132,8 @@
             "en": "Had I known about the traffic, I would have left earlier.",
             "vi": "Nếu tôi biết trước về tình trạng kẹt xe, tôi đã rời đi sớm hơn. (đảo ngữ loại 3)"
           }
-        ]
+        ],
+        "bac": 5
       }
     ],
     "signalWords": [

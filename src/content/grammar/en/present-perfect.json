@@ -22,7 +22,8 @@
             "en": "They have finished their project.",
             "vi": "Họ đã hoàn thành dự án của họ rồi."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "pp-u2-since-for",
@@ -37,7 +38,8 @@
             "en": "She has worked at this school since 2015.",
             "vi": "Cô ấy đã làm việc tại ngôi trường này từ năm 2015."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "pp-u3-repeated",
@@ -52,7 +54,8 @@
             "en": "He has called her several times today.",
             "vi": "Hôm nay anh ấy đã gọi cho cô ấy vài lần rồi."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "pp-u4-result-now",
@@ -67,7 +70,8 @@
             "en": "She has just cleaned the room; it looks very tidy.",
             "vi": "Cô ấy vừa mới dọn phòng xong; nó trông rất gọn gàng."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "pp-u5-experience",
@@ -82,7 +86,8 @@
             "en": "I have never tasted this kind of fruit.",
             "vi": "Tôi chưa bao giờ nếm thử loại trái cây này."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "pp-vs-simple-past",
@@ -102,7 +107,8 @@
             "en": "A: Have you ever been to Hue? B: Yes, I went there with my class in 2019.",
             "vi": "A: Bạn đã từng đến Huế chưa? B: Rồi, mình đến đó cùng lớp năm 2019."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

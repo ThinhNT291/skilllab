@@ -22,7 +22,8 @@
             "en": "The manager suggested rescheduling the meeting to next Monday.",
             "vi": "Người quản lý đề nghị dời cuộc họp sang thứ Hai tuần sau."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "gi-u2-infinitive-only",
@@ -37,7 +38,8 @@
             "en": "They promised to finish the project by Friday afternoon.",
             "vi": "Họ hứa sẽ hoàn thành dự án trước chiều thứ Sáu."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "gi-u3-both-same-meaning",
@@ -52,7 +54,8 @@
             "en": "He began learning French when he was ten years old.",
             "vi": "Anh ấy bắt đầu học tiếng Pháp khi mười tuổi."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "gi-u4-both-different-meaning",
@@ -91,7 +94,8 @@
             "en": "We regret to inform you that your application was not successful.",
             "vi": "Chúng tôi rất tiếc phải thông báo rằng đơn ứng tuyển của bạn không thành công."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "gi-u5-after-preposition",
@@ -122,7 +126,8 @@
             "en": "He apologized for being late to the interview.",
             "vi": "Anh ấy xin lỗi vì đã đến muộn buổi phỏng vấn."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

@@ -22,7 +22,8 @@
             "en": "He is a university student majoring in economics.",
             "vi": "Anh ấy là sinh viên đại học chuyên ngành kinh tế."
           }
-        ]
+        ],
+        "bac": 1
       },
       {
         "id": "art-u2-definite-article",
@@ -37,7 +38,8 @@
             "en": "Could you turn off the light before you leave the room?",
             "vi": "Bạn tắt đèn trước khi rời phòng được không?"
           }
-        ]
+        ],
+        "bac": 1
       },
       {
         "id": "art-u3-zero-article",
@@ -52,7 +54,8 @@
             "en": "I go to work by bus, but my sister prefers to walk.",
             "vi": "Tôi đi làm bằng xe buýt, còn em gái tôi thích đi bộ hơn."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "art-u4-countable-uncountable",
@@ -67,7 +70,8 @@
             "en": "We don't have much time before the meeting starts.",
             "vi": "Chúng ta không có nhiều thời gian trước khi cuộc họp bắt đầu."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "art-u5-special-cases",
@@ -82,7 +86,8 @@
             "en": "My grandfather learned to play the guitar when he was young, and now he spends hours on the internet watching guitar tutorials.",
             "vi": "Ông tôi học chơi ghi-ta từ khi còn trẻ, giờ đây ông dành hàng giờ trên internet xem video hướng dẫn chơi ghi-ta."
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [

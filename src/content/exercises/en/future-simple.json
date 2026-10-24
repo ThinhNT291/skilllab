@@ -24,7 +24,8 @@
       "Sai — 'close' (hiện tại đơn) không diễn tả quyết định tức thời về việc sắp làm.",
       "Sai — 'closed' là quá khứ đơn, trong khi việc đóng cửa chưa xảy ra.",
       "Sai — 'am closing' (hiện tại tiếp diễn) nói về việc đang làm hoặc đã sắp xếp trước; ở đây là quyết định vừa nảy ra."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-002",
@@ -51,7 +52,8 @@
       "Sai — 'is raining' nói việc đang xảy ra hoặc đã sắp xếp, không phải dự đoán chủ quan.",
       "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
       "Đúng — 'I think' + dự đoán cá nhân → will rain."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-003",
@@ -78,7 +80,8 @@
       "Sai — 'help' (hiện tại đơn) không diễn tả lời đề nghị tức thời.",
       "Đúng — lời hứa/đề nghị giúp đỡ ngay lúc nói → will help.",
       "Sai — 'am helping' (tiếp diễn) hợp với việc đã sắp xếp sẵn; ở đây là lời đề nghị tức thời ('Don't worry')."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-004",
@@ -105,7 +108,8 @@
       "Đúng — hệ quả tất yếu ở tương lai nếu không bảo trì → will deteriorate.",
       "Sai — sau 'will' động từ không thêm -s.",
       "Sai — 'deteriorates' (hiện tại đơn) nêu sự thật hiện tại/lịch trình, không phải dự đoán về 'next few years'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-005",
@@ -132,7 +136,8 @@
       "Sai — vế chính (ý định) cần 'will go', không dùng 'go'.",
       "Đúng — mệnh đề thời gian (when) dùng hiện tại đơn: finishes; mệnh đề chính dùng will go.",
       "Sai — mệnh đề thời gian 'when' không dùng 'will finish'; phải dùng hiện tại đơn (finishes)."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-006",
@@ -159,7 +164,8 @@
       "Sai — 'am taking' nói việc đã sắp xếp trước; ở đây vừa quyết định ngay lúc nhận ra quên ô.",
       "Đúng — quyết định vừa nghĩ ra ngay lúc nói → will take.",
       "Sai — 'took' là quá khứ, trong khi hành động chưa xảy ra."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-007",
@@ -186,7 +192,8 @@
       "Đúng — 'I'm sure' + dự đoán dựa trên niềm tin → will pass.",
       "Sai — 'is passing' (tiếp diễn) nói việc đang xảy ra hoặc đã sắp xếp, không phải dự đoán.",
       "Sai — sau 'will' động từ không thêm -s."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-008",
@@ -213,7 +220,8 @@
       "Sai — 'Are you opening ...?' hỏi việc đang làm hoặc kế hoạch, không phải lời nhờ lịch sự.",
       "Đúng — Will you + động từ nguyên thể ...? dùng để nhờ vả.",
       "Sai — sau 'Will you' động từ giữ nguyên thể, không thêm -s."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-009",
@@ -240,7 +248,8 @@
       "Đúng — dự đoán về một chậu cây cụ thể nếu không ai tưới → will die.",
       "Sai — sau 'will' động từ không thêm -s.",
       "Sai — 'is dying' nghĩa là đang chết dần ngay lúc này, trong khi câu nêu dự đoán nếu không tưới."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-010",
@@ -267,7 +276,8 @@
       "Sai — vế chính cần 'won't leave' (ý định về tương lai), không dùng 'don't leave'.",
       "Sai — mệnh đề thời gian 'until' không dùng 'will approve'; phải là approves.",
       "Sai — mệnh đề thời gian 'until' không dùng 'will approve'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-011",
@@ -294,7 +304,8 @@
       "Sai — 'have gone' là hiện tại hoàn thành, nói việc đã đi rồi, trong khi việc đi mua chưa xảy ra.",
       "Sai — 'went' là quá khứ, trong khi việc đi mua chưa xảy ra.",
       "Sai — 'go' (hiện tại đơn) không diễn tả quyết định tức thời."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-012",
@@ -321,7 +332,8 @@
       "Đúng — 'Experts believe' + dự đoán → will get.",
       "Sai — 'gets' (hiện tại đơn) nêu sự thật hiện tại, không dự đoán 'over the next ten years'.",
       "Sai — 'is getting' nói quá trình đang diễn ra hiện nay; 'over the next ten years' là dự đoán tương lai nên cần 'will'."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-013",
@@ -348,7 +360,8 @@
       "Đúng — lời hứa → will not tell.",
       "Sai — 'don't tell' (hiện tại đơn) không diễn tả lời hứa về tương lai.",
       "Sai — 'am not telling' nghĩa là đang không nói (từ chối ở hiện tại), không phải lời hứa."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-014",
@@ -375,7 +388,8 @@
       "Sai — 'is fading' nói vết sẹo đang mờ đi ngay lúc này, không phải dự đoán 'in about a year'.",
       "Sai — 'faded' là quá khứ đơn, trong khi việc vết sẹo mờ đi còn ở tương lai ('in about a year').",
       "Đúng — điều gần như chắc chắn theo quy luật tự nhiên → will fade."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-015",
@@ -402,7 +416,8 @@
       "Đúng — mệnh đề thời gian dùng hiện tại đơn: get; mệnh đề chính dùng will send.",
       "Sai — 'will get' sai trong mệnh đề thời gian 'as soon as'.",
       "Sai — vế chính (lời hứa/ý định) cần 'will send', không dùng 'send'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-016",
@@ -429,7 +444,8 @@
       "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
       "Sai — 'carry' (hiện tại đơn) không diễn tả quyết định tức thời.",
       "Sai — 'am carrying' nghĩa là đang mang hoặc đã sắp xếp trước; ở đây là quyết định vừa nảy ra."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-017",
@@ -456,7 +472,8 @@
       "Sai — 'are agreeing' (tiếp diễn) nói việc đang diễn ra hoặc đã sắp xếp.",
       "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
       "Sai — 'agree' (hiện tại đơn) không diễn tả dự đoán về tương lai."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-018",
@@ -483,7 +500,8 @@
       "Đúng — Will you + động từ nguyên thể ...? → lời nhờ lịch sự.",
       "Sai — 'Are you turning ...?' hỏi việc đang làm, không phải lời nhờ.",
       "Sai — 'Do you turn ...?' hỏi thói quen, không phải lời nhờ."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-019",
@@ -510,7 +528,8 @@
       "Sai — 'is doubling' nói quá trình đang diễn ra, trong khi câu dự đoán 'within twenty years'.",
       "Đúng — dự đoán về xu hướng tất yếu → will double.",
       "Sai — 'doubles' (hiện tại đơn) không dự đoán về tương lai."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-020",
@@ -537,7 +556,8 @@
       "Sai — mệnh đề 'until' không dùng 'will practise'.",
       "Sai — vế chính cần 'won't understand' (dự đoán về tương lai), không dùng 'don't understand'.",
       "Sai — mệnh đề 'until' không dùng 'will practise'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-021",
@@ -564,7 +584,8 @@
       "Đúng — mệnh đề thời gian dùng hiện tại đơn: arrive; vế chính là lời hứa → will greet.",
       "Sai — vế chính là lời hứa về tương lai nên cần 'will greet', không dùng hiện tại đơn.",
       "Sai — 'will arrive' sai trong mệnh đề thời gian, và vế chính cần 'will greet'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-022",
@@ -591,7 +612,8 @@
       "Sai — vế chính nêu ý định tương lai nên cần 'will retire'.",
       "Đúng — vế chính will retire; mệnh đề 'as soon as' dùng hiện tại đơn: graduates.",
       "Sai — hai vế đặt ngược: vế chính cần 'will', mệnh đề thời gian dùng hiện tại đơn."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-023",
@@ -618,7 +640,8 @@
       "Sai — 'needed' là quá khứ đơn, không hợp với lời dặn về việc sắp ký hợp đồng.",
       "Sai — 'will sign' sai trong mệnh đề thời gian 'before'.",
       "Đúng — 'before' + hiện tại đơn (sign); vế chính dùng will need."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-024",
@@ -645,7 +668,8 @@
       "Sai — mệnh đề 'until' không dùng 'will be'.",
       "Sai — mệnh đề 'until' không dùng 'will be'; phải là 'is'.",
       "Đúng — vế chính won't start; mệnh đề 'until' dùng hiện tại đơn của 'be': is."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-025",
@@ -672,7 +696,8 @@
       "Sai — mệnh đề 'as soon as' không dùng 'will improve'.",
       "Sai — 'will improve' sai trong mệnh đề thời gian, và vế chính cũng cần 'will continue'.",
       "Đúng — mệnh đề thời gian dùng hiện tại đơn: improves; vế chính dùng will continue."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-026",
@@ -700,7 +725,8 @@
       "Sai — mệnh đề 'when' không dùng 'will visit'.",
       "Sai — vế chính có 'probably' (dự đoán tương lai) nên cần 'will be', không dùng 'is'.",
       "Sai — 'will visit' sai trong mệnh đề thời gian, và vế chính cần 'will be'."
-    ]
+    ],
+    "bac": 3
   },
   {
     "id": "en-future-simple-027",
@@ -727,7 +753,8 @@
       "Sai — 'drive' (hiện tại đơn) không diễn tả quyết định tức thời.",
       "Sai — 'am driving' nói kế hoạch đã sắp xếp; câu có 'I didn't plan this at all' nên đây là quyết định tức thời.",
       "Đúng — quyết định vừa đưa ra ngay lúc nói → will drive."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-028",
@@ -754,7 +781,8 @@
       "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s.",
       "Đúng — quan điểm cá nhân về tương lai → will change.",
       "Sai — 'changes' (hiện tại đơn) không diễn tả dự đoán."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-029",
@@ -781,7 +809,8 @@
       "Sai — 'am helping' hợp với việc đã sắp xếp hoặc đang làm; đây là lời đề nghị tức thời.",
       "Sai — 'help' (hiện tại đơn) không diễn tả lời đề nghị.",
       "Đúng — lời đề nghị giúp đỡ ngay trong lúc nói → will help."
-    ]
+    ],
+    "bac": 2
   },
   {
     "id": "en-future-simple-030",
@@ -808,6 +837,7 @@
       "Sai — 'is rusting' nói đang rỉ ngay lúc này.",
       "Sai — 'rusted' là quá khứ đơn, trong khi câu dự đoán điều sẽ xảy ra 'eventually'.",
       "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s."
-    ]
+    ],
+    "bac": 3
   }
 ]

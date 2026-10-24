@@ -23,7 +23,8 @@
             "en": "At this time yesterday, my parents were driving to Da Lat for a short trip.",
             "vi": "Vào giờ này hôm qua, bố mẹ tôi đang lái xe đến Đà Lạt cho một chuyến đi ngắn ngày."
           }
-        ]
+        ],
+        "bac": 2
       },
       {
         "id": "pastcont-u2-interrupted-action",
@@ -38,7 +39,8 @@
             "en": "I was crossing the street when a taxi honked loudly at me.",
             "vi": "Tôi đang băng qua đường thì một chiếc taxi bấm còi inh ỏi khiến tôi giật mình."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "pastcont-u3-parallel-actions",
@@ -53,7 +55,8 @@
             "en": "While the children were playing in the yard, the dog was sleeping quietly under the table.",
             "vi": "Trong khi bọn trẻ đang chơi ở sân thì con chó đang ngủ yên lặng dưới gầm bàn."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "pastcont-u4-background-scene-setting",
@@ -68,7 +71,8 @@
             "en": "The market was full of noise. Vendors were shouting, and customers were bargaining over fresh vegetables.",
             "vi": "Khu chợ đầy ắp tiếng ồn. Những người bán hàng đang rao hàng, còn khách hàng đang mặc cả về rau củ tươi."
           }
-        ]
+        ],
+        "bac": 3
       },
       {
         "id": "pastcont-u5-changing-situation",
@@ -83,7 +87,8 @@
             "en": "Traditional folk music was becoming more popular among young people in the city at that time.",
             "vi": "Âm nhạc dân gian truyền thống đang trở nên phổ biến hơn với giới trẻ trong thành phố vào thời điểm đó."
           }
-        ]
+        ],
+        "bac": 4
       },
       {
         "id": "past-simple-vs-continuous",
@@ -103,7 +108,8 @@
             "en": "At nine o'clock last night, she was reading the novel.",
             "vi": "Lúc 9 giờ tối qua, cô ấy đang đọc cuốn tiểu thuyết. (đang diễn ra, chưa rõ đã xong chưa → Quá khứ tiếp diễn)"
           }
-        ]
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [
