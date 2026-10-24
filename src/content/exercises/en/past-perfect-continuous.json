@@ -21,7 +21,7 @@
     "correctIndex": 1,
     "explanation": "Hành động kéo dài đến một mốc trong quá khứ dùng had been + V-ing.",
     "choiceExplanations": [
-      "Sai — 'had been wait': sau 'been' phải dùng V-ing (waiting).",
+      "Sai — 'had been wait': ở thì này, sau 'been' phải dùng V-ing (waiting).",
       "Đúng — việc chờ kéo dài trước thời điểm xe đến (quá khứ): had been waiting.",
       "Sai — 'had waiting': thiếu 'been'.",
       "Sai — 'have been waiting': 'have been' nói về hiện tại, trong khi mốc thời gian (xe đến) đã ở quá khứ."
@@ -39,7 +39,7 @@
     "difficulty": 1,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "By the time the film started, the children ______ (sit) in the cinema for twenty minutes.",
+    "prompt": "By the time the movie started, the children ______ (sit) in the theater for twenty minutes.",
     "choices": [
       "had sitting",
       "have been sitting",
@@ -51,8 +51,8 @@
     "choiceExplanations": [
       "Sai — 'had sitting': thiếu 'been'.",
       "Sai — 'have been sitting': 'have been' nói về hiện tại, còn mốc thời gian (phim bắt đầu) đã ở quá khứ.",
-      "Đúng — việc ngồi kéo dài trước mốc 'film started': had been sitting.",
-      "Sai — 'had been sit': sau 'been' phải dùng V-ing (sitting)."
+      "Đúng — việc ngồi kéo dài trước mốc 'movie started': had been sitting.",
+      "Sai — 'had been sit': ở thì này, sau 'been' phải dùng V-ing (sitting)."
     ]
   },
   {
@@ -80,7 +80,7 @@
       "Sai — 'has been raining': 'has been' nói về hiện tại, trong khi 'was wet' ở quá khứ.",
       "Đúng — nguyên nhân (mưa suốt đêm) xảy ra trước kết quả (đất ướt): had been raining.",
       "Sai — 'had raining': thiếu 'been'.",
-      "Sai — 'had been rain': sau 'been' phải dùng V-ing (raining)."
+      "Sai — 'had been rain': ở thì này, sau 'been' phải dùng V-ing (raining)."
     ]
   },
   {
@@ -108,7 +108,7 @@
       "Đúng — nguyên nhân (đã khóc) xảy ra trước kết quả (mắt đỏ): had been crying.",
       "Sai — 'had crying': thiếu 'been'.",
       "Sai — 'has been crying': 'has been' nói về hiện tại, trong khi 'were red' ở quá khứ.",
-      "Sai — 'had been cry': sau 'been' phải dùng V-ing (crying)."
+      "Sai — 'had been cry': ở thì này, sau 'been' phải dùng V-ing (crying)."
     ]
   },
   {
@@ -136,7 +136,7 @@
       "Sai — 'has finished': 'has finished' nói về hiện tại, còn mốc thời gian (got to the office) ở quá khứ.",
       "Sai — 'had finishing': thiếu 'been' và dạng V-ing không đứng sau had.",
       "Đúng — có số lượng việc đã hoàn thành (three reports) nên dùng had + V3: had finished.",
-      "Sai — 'had been finishing': khi nêu số lượng việc đã hoàn thành (three reports) người bản ngữ dùng had finished; tiếp diễn nhấn mạnh quá trình chứ không đếm kết quả."
+      "Sai — 'had been finishing': khi nêu số lượng việc đã hoàn thành (three reports) thường dùng had finished; tiếp diễn nhấn mạnh quá trình chứ không đếm kết quả."
     ]
   },
   {
@@ -164,7 +164,7 @@
       "Sai — 'had living': thiếu 'been'.",
       "Đúng — 'for ten years' kéo dài đến mốc chuyển nhà trong quá khứ: had been living.",
       "Sai — 'have been living': 'have been' nói về hiện tại, còn việc chuyển nhà (moved) đã xảy ra trong quá khứ.",
-      "Sai — 'had been live': sau 'been' phải dùng V-ing (living)."
+      "Sai — 'had been live': ở thì này, sau 'been' phải dùng V-ing (living)."
     ]
   },
   {
@@ -190,7 +190,7 @@
     "explanation": "By the time + mốc quá khứ đi với had been + V-ing và for + khoảng thời gian.",
     "choiceExplanations": [
       "Sai — 'have been studying': 'have been' nói về hiện tại, còn mốc (passed the exam) đã ở quá khứ.",
-      "Sai — 'had been study': sau 'been' phải dùng V-ing (studying).",
+      "Sai — 'had been study': ở thì này, sau 'been' phải dùng V-ing (studying).",
       "Đúng — 'for six years' kéo dài đến mốc đỗ kỳ thi trong quá khứ: had been studying.",
       "Sai — 'had studying': thiếu 'been'."
     ]
@@ -218,7 +218,7 @@
     "explanation": "Cấu trúc đầy đủ: had + been + V-ing.",
     "choiceExplanations": [
       "Sai — 'He had working there for years.': thiếu 'been'.",
-      "Sai — 'He had been worked there for years.': sau 'been' phải là V-ing (working), không phải V-ed.",
+      "Sai — 'He had been worked there for years.': ở thì này, sau 'been' phải là V-ing (working), không phải V-ed.",
       "Đúng — đúng cấu trúc had been + V-ing.",
       "Sai — 'He was been working there for years.': 'was been' không tồn tại; cấu trúc đúng là had been + V-ing."
     ]
@@ -232,8 +232,8 @@
     "tags": [
       "ppc-u5-form-and-state-verbs"
     ],
-    "difficulty": 1,
-    "bac": 3,
+    "difficulty": 2,
+    "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "They ______ (not/play) outside long when it started to rain.",
     "choices": [
@@ -284,11 +284,11 @@
     "kind": "mcq",
     "language": "en",
     "topic": "past-perfect-continuous",
-    "usageId": "ppc-u1-duration-before-past-moment",
+    "usageId": "ppc-u4-for-since-how-long",
     "tags": [
-      "ppc-u1-duration-before-past-moment"
+      "ppc-u4-for-since-how-long"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "She was very tired when she got home because she ______ (work) since seven o'clock in the morning.",
@@ -303,7 +303,7 @@
     "choiceExplanations": [
       "Sai — 'has been working': 'has been' nói về hiện tại, còn lúc 'got home' đã ở quá khứ.",
       "Sai — 'had working': thiếu 'been'.",
-      "Sai — 'had been work': sau 'been' phải dùng V-ing (working).",
+      "Sai — 'had been work': ở thì này, sau 'been' phải dùng V-ing (working).",
       "Đúng — việc làm việc kéo dài từ 7 giờ sáng đến lúc về nhà (quá khứ): had been working."
     ]
   },
@@ -312,9 +312,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "past-perfect-continuous",
-    "usageId": "ppc-u1-duration-before-past-moment",
+    "usageId": "ppc-u4-for-since-how-long",
     "tags": [
-      "ppc-u1-duration-before-past-moment"
+      "ppc-u4-for-since-how-long"
     ],
     "difficulty": 2,
     "bac": 3,
@@ -329,7 +329,7 @@
     "correctIndex": 1,
     "explanation": "Thời lượng + when + quá khứ đơn đi với had been + V-ing.",
     "choiceExplanations": [
-      "Sai — 'had been walk': sau 'been' phải dùng V-ing (walking).",
+      "Sai — 'had been walk': ở thì này, sau 'been' phải dùng V-ing (walking).",
       "Đúng — việc đi bộ kéo dài trước lúc trời mưa: had been walking.",
       "Sai — 'had walking': thiếu 'been'.",
       "Sai — 'have been walking': 'have been' nói về hiện tại, còn trời mưa (started to rain) ở quá khứ."
@@ -358,7 +358,7 @@
     "explanation": "Nguyên nhân đã diễn ra rồi dẫn đến kết quả ở quá khứ.",
     "choiceExplanations": [
       "Đúng — nguyên nhân (đã chạy) dẫn đến kết quả (hết hơi): had been running.",
-      "Sai — 'had been run': sau 'been' phải dùng V-ing (running).",
+      "Sai — 'had been run': ở thì này, sau 'been' phải dùng V-ing (running).",
       "Sai — 'has been running': 'has been' nói về hiện tại, còn 'was out of breath' ở quá khứ.",
       "Sai — 'had running': thiếu 'been'."
     ]
@@ -385,7 +385,7 @@
     "correctIndex": 3,
     "explanation": "Dùng để giải thích nguyên nhân của điều nhìn hoặc ngửi thấy trong quá khứ.",
     "choiceExplanations": [
-      "Sai — 'had been bake': sau 'been' phải dùng V-ing (baking).",
+      "Sai — 'had been bake': ở thì này, sau 'been' phải dùng V-ing (baking).",
       "Sai — 'had baking': thiếu 'been'.",
       "Sai — 'has been baking': 'has been' nói về hiện tại, còn 'smelled' ở quá khứ.",
       "Đúng — nguyên nhân của mùi thơm (bà đã nướng bánh) xảy ra trước: had been baking."
@@ -400,10 +400,10 @@
     "tags": [
       "ppc-u3-process-vs-result"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "By the time the guests arrived, Dad ______ (cook) three different dishes.",
+    "prompt": "By the time the guests arrived, Dad ______ (cook) three different dishes, and everything was on the table.",
     "choices": [
       "had been cooking",
       "had cooking",
@@ -413,7 +413,7 @@
     "correctIndex": 3,
     "explanation": "Số lượng việc đã xong đi với had + V3.",
     "choiceExplanations": [
-      "Sai — 'had been cooking': khi nêu số lượng việc đã hoàn thành (three dishes) người bản ngữ dùng had cooked; tiếp diễn nhấn mạnh quá trình chứ không đếm kết quả.",
+      "Sai — 'had been cooking': câu này có thể đúng nếu chỉ nói Dad đang nấu, nhưng ở đây nêu số món và mọi thứ đã xong ('everything was on the table'), nên 'had cooked' tự nhiên hơn.",
       "Sai — 'had cooking': thiếu 'been' và dạng V-ing không đứng sau had.",
       "Sai — 'has cooked': 'has cooked' nói về hiện tại, còn mốc (guests arrived) ở quá khứ.",
       "Đúng — có số lượng món đã hoàn thành (three dishes) nên dùng had + V3: had cooked."
@@ -428,7 +428,7 @@
     "tags": [
       "ppc-u3-process-vs-result"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "The workers ______ (repair) the road for two days when the rain started, so it was still unfinished.",
@@ -456,7 +456,7 @@
     "tags": [
       "ppc-u4-for-since-how-long"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "How long ______ you ______ (wait) when the doctor finally called your name?",
@@ -500,7 +500,7 @@
       "Sai — 'has been looking': 'has been' nói về hiện tại, còn lúc tìm thấy (found) đã ở quá khứ.",
       "Sai — 'had looking': thiếu 'been'.",
       "Đúng — việc tìm kéo dài một tiếng trước lúc tìm thấy: had been looking.",
-      "Sai — 'had been look': sau 'been' phải dùng V-ing (looking)."
+      "Sai — 'had been look': ở thì này, sau 'been' phải dùng V-ing (looking)."
     ]
   },
   {
@@ -512,7 +512,7 @@
     "tags": [
       "ppc-u5-form-and-state-verbs"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 3,
     "title": "Tìm câu sai",
     "prompt": "Which sentence is INCORRECT?",
@@ -520,7 +520,7 @@
       "I had been knowing him for years before we met again.",
       "I had been working all night before I fell asleep.",
       "She had been waiting for an hour when I arrived.",
-      "They had been playing football since morning."
+      "They had been playing football for hours when it got dark."
     ],
     "correctIndex": 0,
     "explanation": "Động từ chỉ trạng thái dùng had + V3, không dùng had been + V-ing.",
@@ -528,7 +528,7 @@
       "Đúng — 'know' là động từ chỉ trạng thái nên thường không dùng dạng -ing; câu đúng là 'I had known him'.",
       "Sai — 'I had been working all night before I fell asleep.': đây là câu đúng nên không phải đáp án.",
       "Sai — 'She had been waiting for an hour when I arrived.': đây là câu đúng nên không phải đáp án.",
-      "Sai — 'They had been playing football since morning.': đây là câu đúng nên không phải đáp án."
+      "Sai — 'They had been playing football for hours when it got dark.': đây là câu đúng nên không phải đáp án."
     ]
   },
   {
@@ -540,7 +540,7 @@
     "tags": [
       "ppc-u5-form-and-state-verbs"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "By the time we became classmates, I ______ (know) Linh for five years.",
@@ -553,7 +553,7 @@
     "correctIndex": 1,
     "explanation": "Động từ chỉ trạng thái dùng thì hoàn thành đơn, không dùng hoàn thành tiếp diễn.",
     "choiceExplanations": [
-      "Sai — 'had been know': sai hình thức: sau 'been' phải là V-ing, mà 'know' không dùng -ing.",
+      "Sai — 'had been know': sai hình thức: ở thì này, sau 'been' phải là V-ing, mà 'know' không dùng -ing.",
       "Đúng — 'know' là động từ chỉ trạng thái nên dùng had + V3: had known.",
       "Sai — 'had knowing': thiếu 'been' và 'know' cũng không dùng -ing.",
       "Sai — 'had been knowing': 'know' là động từ chỉ trạng thái, thường không dùng dạng -ing."
@@ -568,7 +568,7 @@
     "tags": [
       "ppc-u1-duration-before-past-moment"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 3,
     "title": "Chọn câu đúng",
     "prompt": "Choose the sentence that uses the past perfect continuous correctly.",
@@ -582,7 +582,7 @@
     "explanation": "Mốc quá khứ chia quá khứ đơn, hành động kéo dài trước đó chia had been + V-ing.",
     "choiceExplanations": [
       "Sai — 'When the manager arrived, the staff had waiting in the lobby for an hour.': thiếu 'been'.",
-      "Sai — 'When the manager arrived, the staff had been wait in the lobby for an hour.': sau 'been' phải dùng V-ing (waiting).",
+      "Sai — 'When the manager arrived, the staff had been wait in the lobby for an hour.': ở thì này, sau 'been' phải dùng V-ing (waiting).",
       "Sai — 'When the manager arrived, the staff have been waiting in the lobby for an hour.': 'have been' nói về hiện tại, còn mốc 'arrived' ở quá khứ.",
       "Đúng — đúng cấu trúc had been + V-ing, kèm mốc quá khứ 'arrived'."
     ]
@@ -610,7 +610,7 @@
     "explanation": "Mốc thời gian dùng quá khứ đơn, việc diễn ra trước đó kéo dài dùng had been + V-ing.",
     "choiceExplanations": [
       "Đúng — việc Anna đến là mốc thời gian (quá khứ đơn); việc bạn bè chờ kéo dài trước mốc đó (had been waiting).",
-      "Sai — 'had arrived / had been waiting': việc Anna đến là mốc thời gian nên chia quá khứ đơn (arrived), không phải quá khứ hoàn thành.",
+      "Sai — 'had arrived / had been waiting': việc Anna đến là mốc thời gian nên chia quá khứ đơn (arrived); nếu chia 'had arrived' thì việc đến xảy ra trước việc chờ, sai thứ tự.",
       "Sai — 'arrived / have been waiting': 'have been' nói về hiện tại, còn mốc 'arrived' ở quá khứ.",
       "Sai — 'arrived / had waiting': thiếu 'been'."
     ]
@@ -624,7 +624,7 @@
     "tags": [
       "ppc-u2-cause-of-past-situation"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Why was Tom so angry? Someone ______ (use) his laptop without permission.",
@@ -640,7 +640,7 @@
       "Đúng — nguyên nhân kéo dài (ai đó đã dùng máy) dẫn đến kết quả (Tom tức giận): had been using.",
       "Sai — 'had using': thiếu 'been'.",
       "Sai — 'has been using': 'has been' nói về hiện tại, còn 'was so angry' ở quá khứ.",
-      "Sai — 'had been use': sau 'been' phải dùng V-ing (using)."
+      "Sai — 'had been use': ở thì này, sau 'been' phải dùng V-ing (using)."
     ]
   },
   {
@@ -652,7 +652,7 @@
     "tags": [
       "ppc-u2-cause-of-past-situation"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 4,
     "title": "Chọn câu đúng",
     "prompt": "Choose the correct sentence about a past cause.",
@@ -666,7 +666,7 @@
     "explanation": "Nguyên nhân kéo dài trong quá khứ dùng had been + V-ing.",
     "choiceExplanations": [
       "Sai — 'The road was slippery because it had snowing for hours.': thiếu 'been'.",
-      "Sai — 'The road was slippery because it had been snow for hours.': sau 'been' phải dùng V-ing (snowing).",
+      "Sai — 'The road was slippery because it had been snow for hours.': ở thì này, sau 'been' phải dùng V-ing (snowing).",
       "Sai — 'The road was slippery because it has been snowing for hours.': 'has been' nói về hiện tại, trong khi 'was slippery' ở quá khứ.",
       "Đúng — đúng cấu trúc had been + V-ing, nêu nguyên nhân của kết quả quá khứ."
     ]
@@ -693,7 +693,7 @@
     "correctIndex": 1,
     "explanation": "Việc đã hoàn thành trọn vẹn dùng had + V3.",
     "choiceExplanations": [
-      "Sai — 'had been finishing': khi nói đã xong hết (all the exercises) người bản ngữ dùng had finished; tiếp diễn nhấn mạnh quá trình chứ không nêu kết quả hoàn thành.",
+      "Sai — 'had been finishing': khi nói đã xong hết (all the exercises) thường dùng had finished; tiếp diễn nhấn mạnh quá trình chứ không nêu kết quả hoàn thành.",
       "Đúng — việc đã hoàn thành (all the exercises) nên dùng had + V3: had finished.",
       "Sai — 'had finishing': thiếu 'been' và dạng V-ing không đứng sau had.",
       "Sai — 'has finished': 'has finished' nói về hiện tại, còn mốc (came back) ở quá khứ."
@@ -711,19 +711,19 @@
     "difficulty": 3,
     "bac": 4,
     "title": "Tìm câu đúng nghĩa",
-    "prompt": "Which sentence shows an UNFINISHED activity?",
+    "prompt": "Which sentence does NOT say that the cleaning was completed?",
     "choices": [
-      "When I called, she had just finished the kitchen.",
+      "When I called, she had finished the kitchen.",
       "By the time I called, she had finished cleaning the house.",
       "When I called, she had been cleaning the house since morning.",
       "When I called, she had cleaned the whole house."
     ],
     "correctIndex": 2,
-    "explanation": "Việc dang dở dùng had been + V-ing; việc xong hẳn dùng had + V3.",
+    "explanation": "Had been + V-ing nhấn mạnh quá trình, không nói việc đã xong chưa. Had + V3 cho thấy việc đã hoàn thành.",
     "choiceExplanations": [
-      "Sai — 'When I called, she had just finished the kitchen.': câu này nói việc đã xong, không phải việc dang dở.",
+      "Sai — 'When I called, she had finished the kitchen.': câu này nói việc đã xong, không phải việc dang dở.",
       "Sai — 'By the time I called, she had finished cleaning the house.': câu này nói việc đã xong, không phải việc dang dở.",
-      "Đúng — had been + V-ing nhấn mạnh quá trình còn tiếp diễn, chưa rõ đã xong.",
+      "Đúng — had been + V-ing nhấn mạnh quá trình; câu không nói việc đã xong (có thể chưa xong).",
       "Sai — 'When I called, she had cleaned the whole house.': câu này nói việc đã xong ('the whole house'), không phải việc dang dở."
     ]
   },
@@ -765,7 +765,7 @@
       "ppc-u4-for-since-how-long"
     ],
     "difficulty": 3,
-    "bac": 3,
+    "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "We ______ (not/live) in this city for long when the company transferred us again.",
     "choices": [
@@ -779,7 +779,7 @@
     "choiceExplanations": [
       "Sai — 'haven't been living': 'haven't been' nói về hiện tại, còn việc công ty chuyển chúng tôi (transferred) ở quá khứ.",
       "Đúng — 'for long' + mốc quá khứ, phủ định: hadn't been living.",
-      "Sai — 'hadn't been live': sau 'been' phải dùng V-ing (living).",
+      "Sai — 'hadn't been live': ở thì này, sau 'been' phải dùng V-ing (living).",
       "Sai — 'hadn't living': thiếu 'been'."
     ]
   },
@@ -792,7 +792,7 @@
     "tags": [
       "ppc-u4-for-since-how-long"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 3,
     "title": "Chọn câu đúng",
     "prompt": "Choose the correct sentence with 'before'.",
@@ -806,7 +806,7 @@
     "explanation": "For + khoảng thời gian + before + mốc quá khứ đi với had been + V-ing.",
     "choiceExplanations": [
       "Sai — 'She has been learning French for two years before she moved to Paris.': 'has been' nói về hiện tại, còn 'moved to Paris' ở quá khứ.",
-      "Sai — 'She had been learned French for two years before she moved to Paris.': sau 'been' phải là V-ing (learning), không phải V-ed.",
+      "Sai — 'She had been learned French for two years before she moved to Paris.': ở thì này, sau 'been' phải là V-ing (learning), không phải V-ed.",
       "Sai — 'She had learning French for two years before she moved to Paris.': thiếu 'been'.",
       "Đúng — đúng cấu trúc had been + V-ing, kèm for và before + quá khứ đơn."
     ]
@@ -820,23 +820,23 @@
     "tags": [
       "ppc-u5-form-and-state-verbs"
     ],
-    "difficulty": 3,
-    "bac": 3,
+    "difficulty": 2,
+    "bac": 4,
     "title": "Tìm câu sai",
     "prompt": "Which sentence about the past perfect continuous contains a mistake?",
     "choices": [
-      "She had been reading since lunch.",
+      "My cousin had been reading since lunch.",
       "He hadn't been work long when the boss arrived.",
-      "We hadn't been waiting long.",
-      "Had they been sleeping when the phone rang?"
+      "They hadn't been waiting long.",
+      "Had the baby been sleeping when the phone rang?"
     ],
     "correctIndex": 1,
-    "explanation": "Sau had been luôn là V-ing.",
+    "explanation": "Trong thì quá khứ hoàn thành tiếp diễn, sau had been là V-ing.",
     "choiceExplanations": [
-      "Sai — 'She had been reading since lunch.': đây là câu đúng nên không phải đáp án.",
-      "Đúng — sau 'been' phải là V-ing: hadn't been working.",
-      "Sai — 'We hadn't been waiting long.': đây là câu đúng nên không phải đáp án.",
-      "Sai — 'Had they been sleeping when the phone rang?': đây là câu đúng nên không phải đáp án."
+      "Sai — 'My cousin had been reading since lunch.': đây là câu đúng nên không phải đáp án.",
+      "Đúng — ở thì này, sau 'been' phải là V-ing: hadn't been working.",
+      "Sai — 'They hadn't been waiting long.': đây là câu đúng nên không phải đáp án.",
+      "Sai — 'Had the baby been sleeping when the phone rang?': đây là câu đúng nên không phải đáp án."
     ]
   }
 ]

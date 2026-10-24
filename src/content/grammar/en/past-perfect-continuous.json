@@ -14,11 +14,11 @@
         "id": "ppc-u1-duration-before-past-moment",
         "bac": 3,
         "label": "Hành động kéo dài cho đến một thời điểm trong quá khứ",
-        "explanationVi": "Dùng had been + V-ing để nói một hành động đã bắt đầu và kéo dài liên tục TRƯỚC một mốc thời gian hoặc một sự việc khác trong quá khứ. Mốc đó thường là hành động chia ở quá khứ đơn (when it started to rain, when the bus arrived). Hãy tưởng tượng bạn 'đứng' ở mốc đó và nhìn ngược lại quãng thời gian trước.",
+        "explanationVi": "Dùng had been + V-ing để nói một hành động đã bắt đầu và kéo dài liên tục TRƯỚC một mốc thời gian hoặc một sự việc khác trong quá khứ. Mốc đó thường là hành động chia ở quá khứ đơn (when it started to rain, when the bus arrived). Hãy tưởng tượng bạn 'đứng' ở mốc đó và nhìn ngược lại quãng thời gian trước. Mốc thời gian đó thường chia quá khứ đơn.",
         "examples": [
           {
-            "en": "After the long flight, we had been traveling for twelve hours.",
-            "vi": "Sau chuyến bay dài, chúng tôi đã di chuyển liên tục mười hai tiếng."
+            "en": "By the time the teacher came in, the students had been talking for ten minutes.",
+            "vi": "Lúc cô giáo vào lớp, các em đã nói chuyện được mười phút."
           },
           {
             "en": "They had been playing cards for hours when the power went out.",
@@ -62,7 +62,7 @@
         "id": "ppc-u4-for-since-how-long",
         "bac": 3,
         "label": "For, since và câu hỏi How long với thì quá khứ hoàn thành tiếp diễn",
-        "explanationVi": "Dùng for + khoảng thời gian (for two years) hoặc since + mốc thời gian (since morning) để nói hành động đã kéo dài bao lâu trước mốc quá khứ. Hỏi bằng How long + had + S + been + V-ing? Chú ý: nếu nói đến hiện tại thì dùng have/has been V-ing, không dùng had been.",
+        "explanationVi": "Dùng for + khoảng thời gian (for two years) hoặc since + mốc thời gian (since morning) để nói hành động đã kéo dài bao lâu trước mốc quá khứ. Hỏi bằng How long + had + S + been + V-ing? Chú ý: nếu nói đến hiện tại thì dùng have/has been V-ing, không dùng had been. Với câu phủ định và câu hỏi, 'long' có thể đứng một mình chỉ thời lượng (hadn't been waiting long; Had you been waiting long?).",
         "examples": [
           {
             "en": "We had been waiting for twenty minutes when the teacher arrived.",
@@ -78,7 +78,7 @@
         "id": "ppc-u5-form-and-state-verbs",
         "bac": 3,
         "label": "Hình thức và lưu ý động từ chỉ trạng thái",
-        "explanationVi": "Khẳng định: S + had been + V-ing. Phủ định: S + had not (hadn't) been + V-ing. Nghi vấn: Had + S + been + V-ing? 'Had' giữ nguyên với mọi chủ ngữ. Động từ chỉ trạng thái (know, like, believe, belong...) thường không dùng với -ing, nên dùng had + V3/V-ed (had known).",
+        "explanationVi": "Khẳng định: S + had been + V-ing. Phủ định: S + had not (hadn't) been + V-ing. Nghi vấn: Had + S + been + V-ing? 'Had' giữ nguyên với mọi chủ ngữ. Động từ chỉ trạng thái (know, like, believe, belong...) thường không dùng với -ing, nên dùng had + V3/V-ed (had known). Lưu ý: với for/since, các động từ như live, work, stay dùng được cả had lived và had been living.",
         "examples": [
           {
             "en": "He hadn't been sleeping well before the exam.",
