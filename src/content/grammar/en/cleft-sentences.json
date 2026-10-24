@@ -1,0 +1,154 @@
+{
+  "id": "cleft-sentences",
+  "language": "en",
+  "title": "Câu chẻ (Cleft Sentences)",
+  "levels": [
+    "B2",
+    "C1"
+  ],
+  "order": 26,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "cs-u1-it-cleft",
+        "bac": 5,
+        "label": "Câu chẻ với It: It is/was ... that/who ...",
+        "explanationVi": "Dùng để nhấn mạnh một thành phần của câu (người, vật, thời gian, nơi chốn). Cấu trúc: It + is/was + phần cần nhấn mạnh + that/who + phần còn lại. Dùng who hoặc that cho người; that cho vật, thời gian, nơi chốn. Dạng be theo nghĩa: nói chuyện quá khứ dùng was, chuyện hiện tại dùng is. Nghĩa của câu không đổi, chỉ thay đổi trọng tâm.",
+        "examples": [
+          {
+            "en": "It was my cousin who taught me to cook.",
+            "vi": "Chính anh họ tôi đã dạy tôi nấu ăn."
+          },
+          {
+            "en": "It was at the train station that we first met.",
+            "vi": "Chính ở nhà ga chúng tôi đã gặp nhau lần đầu."
+          }
+        ]
+      },
+      {
+        "id": "cs-u2-what-cleft",
+        "bac": 5,
+        "label": "Câu chẻ với What: What ... is/was ...",
+        "explanationVi": "Cấu trúc What + mệnh đề + be + phần nhấn mạnh. Mệnh đề bắt đầu bằng What đóng vai trò chủ ngữ, nên đi với động từ số ít (is/was) khi phần nhấn mạnh là một danh từ số ít. Có thể nói What he did was call the police (động từ nguyên thể, có hoặc không có to). Cách nói này nhấn mạnh việc gì, điều gì.",
+        "examples": [
+          {
+            "en": "What I miss most is my grandmother's cooking.",
+            "vi": "Điều tôi nhớ nhất là món ăn của bà."
+          },
+          {
+            "en": "What we did was wait for the rain to stop.",
+            "vi": "Việc chúng tôi làm là chờ mưa tạnh."
+          }
+        ]
+      },
+      {
+        "id": "cs-u3-the-thing-is",
+        "bac": 4,
+        "label": "The thing / problem / fact / reason + is (that)",
+        "explanationVi": "Dùng một danh từ trừu tượng (thing, problem, fact, reason, point, trouble) làm chủ ngữ, theo sau là is/was (that) + mệnh đề, để nhấn mạnh điều bạn sắp nói. Với reason, có thể nói The reason (why) I left is that ... Động từ be chia theo thời của câu.",
+        "examples": [
+          {
+            "en": "The problem is that the phone has no signal here.",
+            "vi": "Vấn đề là điện thoại ở đây không có sóng."
+          },
+          {
+            "en": "The reason why he left early is that he had an appointment.",
+            "vi": "Lý do anh ấy về sớm là vì anh ấy có hẹn."
+          }
+        ]
+      },
+      {
+        "id": "cs-u4-it-be-adjective-that",
+        "bac": 3,
+        "label": "It + be + tính từ + that + mệnh đề",
+        "explanationVi": "Dùng It làm chủ ngữ giả, tính từ nêu đánh giá, và that + mệnh đề nêu nội dung: It is important that you arrive on time. Cách này nhấn mạnh nhận xét của người nói đối với cả mệnh đề. Tính từ thường gặp: important, necessary, surprising, strange, clear, lucky, essential.",
+        "examples": [
+          {
+            "en": "It is lucky that we brought umbrellas.",
+            "vi": "May là chúng tôi đã mang ô."
+          },
+          {
+            "en": "It is obvious that the plan has failed.",
+            "vi": "Rõ ràng là kế hoạch đã thất bại."
+          }
+        ]
+      },
+      {
+        "id": "cs-u5-form-and-pitfalls",
+        "bac": 5,
+        "label": "Hình thức và lỗi hay gặp của câu chẻ",
+        "explanationVi": "Lưu ý: (1) Sau phần nhấn mạnh trong câu chẻ với It dùng that hoặc who, không dùng what. (2) Dùng who cho người, không dùng who cho vật. (3) Động từ trong mệnh đề sau that/who chia theo phần được nhấn mạnh: It is Tom who always arrives first. (4) Có thể phủ định phần nhấn mạnh: It wasn't Tom who broke the window. (5) Câu chẻ nghe trang trọng và nhấn mạnh; nói thường ngày chỉ dùng khi muốn đính chính hay nhấn mạnh.",
+        "examples": [
+          {
+            "en": "It wasn't the weather that spoiled the trip, but the traffic.",
+            "vi": "Không phải thời tiết làm hỏng chuyến đi, mà là giao thông."
+          },
+          {
+            "en": "It is our teacher who organizes the club every year.",
+            "vi": "Chính cô giáo chúng tôi tổ chức câu lạc bộ mỗi năm."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "It is/was ... that/who",
+        "meaningVi": "Chính ... là người/điều ... (nhấn mạnh)"
+      },
+      {
+        "word": "What ... is/was",
+        "meaningVi": "Điều ... là ..."
+      },
+      {
+        "word": "The thing / problem / reason is (that)",
+        "meaningVi": "Điều / vấn đề / lý do là ..."
+      },
+      {
+        "word": "It is + adj + that",
+        "meaningVi": "Thật là ... khi ..."
+      },
+      {
+        "word": "not ... but ...",
+        "meaningVi": "không phải ... mà là ... (đính chính)"
+      }
+    ],
+    "formulas": {
+      "affirmative": "It + is/was + phần nhấn mạnh + that/who + mệnh đề. Ví dụ: It was my cousin who taught me to cook.",
+      "negative": "It + isn't/wasn't + phần nhấn mạnh + that/who + mệnh đề. Ví dụ: It wasn't Tom who broke the window.",
+      "question": "What + mệnh đề + is/was + phần nhấn mạnh. Ví dụ: What I need is more time. | The problem/reason is (that) + mệnh đề."
+    },
+    "commonMistakes": [
+      {
+        "id": "cleft-sentences-m1",
+        "description": "Dùng what hoặc whom sai chỗ trong câu chẻ với It: sau phần nhấn mạnh dùng that hoặc who.",
+        "examples": [
+          {
+            "wrong": "It was my sister what broke the vase.",
+            "correct": "It was my sister who broke the vase."
+          }
+        ]
+      },
+      {
+        "id": "cleft-sentences-m2",
+        "description": "Dùng who cho vật hoặc nơi chốn: who chỉ dùng cho người.",
+        "examples": [
+          {
+            "wrong": "It was the rain who ruined our picnic.",
+            "correct": "It was the rain that ruined our picnic."
+          }
+        ]
+      },
+      {
+        "id": "cleft-sentences-m3",
+        "description": "Thiếu động từ be hoặc chia sai be trong 'The problem is that ...'.",
+        "examples": [
+          {
+            "wrong": "The problem that the bus is always late.",
+            "correct": "The problem is that the bus is always late."
+          }
+        ]
+      }
+    ]
+  }
+}

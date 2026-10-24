@@ -1,0 +1,842 @@
+[
+  {
+    "id": "en-cleft-sentences-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u4-it-be-adjective-that",
+    "tags": [
+      "cs-u4-it-be-adjective-that"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It is important ______ you arrive on time.",
+    "choices": [
+      "what",
+      "that",
+      "which",
+      "who"
+    ],
+    "correctIndex": 1,
+    "explanation": "It + be + tính từ + that + mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'what': 'what' không dùng để nối mệnh đề nội dung sau It is important.",
+      "Đúng — 'It is + tính từ + that + mệnh đề': that.",
+      "Sai — 'which': 'which' không dùng để nối mệnh đề nội dung sau tính từ.",
+      "Sai — 'who': 'who' dùng cho người, còn ở đây là cả một mệnh đề."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u4-it-be-adjective-that",
+    "tags": [
+      "cs-u4-it-be-adjective-that"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ is clear that she is telling the truth.",
+    "choices": [
+      "This",
+      "It",
+      "What",
+      "There"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chủ ngữ giả It đứng đầu: It is clear that ...",
+    "choiceExplanations": [
+      "Sai — 'This': 'This' không thay được chủ ngữ giả It trong cấu trúc này.",
+      "Đúng — 'It' là chủ ngữ giả: It is clear that ...",
+      "Sai — 'What': 'What' không dùng làm chủ ngữ giả ở đây.",
+      "Sai — 'There': 'There' dùng cho 'there is/are', không dùng với 'clear that'."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u4-it-be-adjective-that",
+    "tags": [
+      "cs-u4-it-be-adjective-that"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence with 'It is ... that'.",
+    "choices": [
+      "It is important that she finishes the report on time.",
+      "Is important that she finishes the report on time.",
+      "It important that she finishes the report on time.",
+      "It is important what she finishes the report on time."
+    ],
+    "correctIndex": 0,
+    "explanation": "It + is + tính từ + that + mệnh đề.",
+    "choiceExplanations": [
+      "Đúng — đúng cấu trúc It + be + tính từ + that + mệnh đề.",
+      "Sai — 'Is important that she finishes the report on time.': thiếu chủ ngữ giả 'It'.",
+      "Sai — 'It important that she finishes the report on time.': thiếu động từ be (is).",
+      "Sai — 'It is important what she finishes the report on time.': sau tính từ phải dùng 'that', không dùng 'what'."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u3-the-thing-is",
+    "tags": [
+      "cs-u3-the-thing-is"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The problem ______ that the bus is always late.",
+    "choices": [
+      "is",
+      "are",
+      "does",
+      "has"
+    ],
+    "correctIndex": 0,
+    "explanation": "The problem + is (that) + mệnh đề.",
+    "choiceExplanations": [
+      "Đúng — 'The problem is that ...': động từ be số ít, hiện tại.",
+      "Sai — 'are': 'The problem' là số ít nên không dùng 'are'.",
+      "Sai — 'does': 'does' không thay được động từ be trong cấu trúc này.",
+      "Sai — 'has': 'has' không thay được động từ be trong cấu trúc này."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u3-the-thing-is",
+    "tags": [
+      "cs-u3-the-thing-is"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The reason I was late ______ that my alarm didn't ring.",
+    "choices": [
+      "did",
+      "was",
+      "were",
+      "had"
+    ],
+    "correctIndex": 1,
+    "explanation": "The reason + was/is + that + mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'did': 'did' không thay được động từ be trong cấu trúc này.",
+      "Đúng — 'The reason ... was that ...': động từ be ở quá khứ, số ít.",
+      "Sai — 'were': 'The reason' là số ít nên không dùng 'were'.",
+      "Sai — 'had': 'had' không thay được động từ be trong cấu trúc này."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u1-it-cleft",
+    "tags": [
+      "cs-u1-it-cleft"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It was Linh ______ won the contest.",
+    "choices": [
+      "whom",
+      "who",
+      "whose",
+      "what"
+    ],
+    "correctIndex": 1,
+    "explanation": "It + was + người + who + động từ.",
+    "choiceExplanations": [
+      "Sai — 'whom': 'whom' dùng cho tân ngữ; ở đây Linh là chủ ngữ của 'won'.",
+      "Đúng — chủ ngữ là người nên dùng who (hoặc that): It was Linh who won.",
+      "Sai — 'whose': 'whose' chỉ sở hữu, không dùng để thay chủ ngữ ở đây.",
+      "Sai — 'what': sau phần nhấn mạnh là người dùng who hoặc that, không dùng what."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u1-it-cleft",
+    "tags": [
+      "cs-u1-it-cleft"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It was in 2019 ______ we moved to Da Nang.",
+    "choices": [
+      "that",
+      "what",
+      "which",
+      "who"
+    ],
+    "correctIndex": 0,
+    "explanation": "It + was + thời gian + that + mệnh đề.",
+    "choiceExplanations": [
+      "Đúng — phần nhấn mạnh là thời gian nên dùng that: It was in 2019 that ...",
+      "Sai — 'what': sau phần nhấn mạnh dùng that/who, không dùng what.",
+      "Sai — 'which': 'which' không dùng sau cụm chỉ thời gian trong câu chẻ.",
+      "Sai — 'who': 'who' chỉ dùng cho người, còn ở đây là thời gian."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u2-what-cleft",
+    "tags": [
+      "cs-u2-what-cleft"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What I need ______ a good rest.",
+    "choices": [
+      "have",
+      "does",
+      "are",
+      "is"
+    ],
+    "correctIndex": 3,
+    "explanation": "What + mệnh đề + is + phần nhấn mạnh.",
+    "choiceExplanations": [
+      "Sai — 'have': 'have' không thay được động từ be.",
+      "Sai — 'does': 'does' không thay được động từ be.",
+      "Sai — 'are': 'What I need' đi với một danh từ số ít (a good rest) nên dùng is.",
+      "Đúng — 'What I need' là chủ ngữ số ít, hiện tại: is."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u2-what-cleft",
+    "tags": [
+      "cs-u2-what-cleft"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What she wants ______ to travel around the world.",
+    "choices": [
+      "is",
+      "were",
+      "has",
+      "does"
+    ],
+    "correctIndex": 0,
+    "explanation": "Thì của be khớp với thì của mệnh đề What.",
+    "choiceExplanations": [
+      "Đúng — 'What she wants' hiện tại nên dùng is.",
+      "Sai — 'were': 'were' là quá khứ, còn 'wants' ở hiện tại.",
+      "Sai — 'has': 'has' không thay được động từ be.",
+      "Sai — 'does': 'does' không thay được động từ be."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u5-form-and-pitfalls",
+    "tags": [
+      "cs-u5-form-and-pitfalls"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct cleft sentence about a person.",
+    "choices": [
+      "Was my sister who broke the vase.",
+      "It was my sister who broke the vase.",
+      "It was my sister what broke the vase.",
+      "It was my sister whom broke the vase."
+    ],
+    "correctIndex": 1,
+    "explanation": "It + was + người + who + động từ.",
+    "choiceExplanations": [
+      "Sai — 'Was my sister who broke the vase.': thiếu chủ ngữ giả 'It' ở đầu câu.",
+      "Đúng — sau phần nhấn mạnh là người dùng who.",
+      "Sai — 'It was my sister what broke the vase.': sau phần nhấn mạnh dùng who/that, không dùng what.",
+      "Sai — 'It was my sister whom broke the vase.': 'whom' dùng cho tân ngữ; ở đây 'my sister' là chủ ngữ của 'broke'."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u1-it-cleft",
+    "tags": [
+      "cs-u1-it-cleft"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It ______ the manager who made the final decision.",
+    "choices": [
+      "had",
+      "did",
+      "was",
+      "were"
+    ],
+    "correctIndex": 2,
+    "explanation": "It + was/is + phần nhấn mạnh + who/that.",
+    "choiceExplanations": [
+      "Sai — 'had': 'had' không thay được động từ be trong câu chẻ.",
+      "Sai — 'did': 'did' không thay được động từ be trong câu chẻ.",
+      "Đúng — kể sự việc đã xảy ra nên dùng was.",
+      "Sai — 'were': 'It' là chủ ngữ số ít nên không dùng 'were'."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u1-it-cleft",
+    "tags": [
+      "cs-u1-it-cleft"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It is Tom ______ always arrives first.",
+    "choices": [
+      "what",
+      "whose",
+      "which",
+      "who"
+    ],
+    "correctIndex": 3,
+    "explanation": "Động từ sau who chia theo phần được nhấn mạnh (arrives).",
+    "choiceExplanations": [
+      "Sai — 'what': sau phần nhấn mạnh dùng who/that, không dùng what.",
+      "Sai — 'whose': 'whose' chỉ sở hữu, không thay được chủ ngữ ở đây.",
+      "Sai — 'which': 'which' dùng cho vật, còn Tom là người.",
+      "Đúng — phần nhấn mạnh là người nên dùng who: It is Tom who ..."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u2-what-cleft",
+    "tags": [
+      "cs-u2-what-cleft"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What he did ______ call the police immediately.",
+    "choices": [
+      "was",
+      "did",
+      "is",
+      "has"
+    ],
+    "correctIndex": 0,
+    "explanation": "What + did + S + was + (to) + động từ nguyên thể.",
+    "choiceExplanations": [
+      "Đúng — 'What he did' ở quá khứ nên be ở quá khứ: was (call hoặc to call đều được).",
+      "Sai — 'did': 'did' không thay được động từ be trong câu chẻ với What.",
+      "Sai — 'is': 'is' là hiện tại, còn 'did' ở quá khứ.",
+      "Sai — 'has': 'has' không thay được động từ be trong câu chẻ với What."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u2-what-cleft",
+    "tags": [
+      "cs-u2-what-cleft"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ I really enjoyed was the music.",
+    "choices": [
+      "That",
+      "Which",
+      "What",
+      "It"
+    ],
+    "correctIndex": 2,
+    "explanation": "What + mệnh đề + be + phần nhấn mạnh.",
+    "choiceExplanations": [
+      "Sai — 'That': 'That' không dùng làm từ mở đầu chủ ngữ ở câu chẻ với What.",
+      "Sai — 'Which': 'Which' không dùng làm từ mở đầu chủ ngữ ở đây.",
+      "Đúng — 'What I really enjoyed' làm chủ ngữ: What + mệnh đề + be.",
+      "Sai — 'It': 'It' không dùng làm từ mở đầu chủ ngữ trong dạng What ... was."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u3-the-thing-is",
+    "tags": [
+      "cs-u3-the-thing-is"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The fact ______ that nobody told me about the change.",
+    "choices": [
+      "are",
+      "does",
+      "has",
+      "is"
+    ],
+    "correctIndex": 3,
+    "explanation": "The fact/point/thing + is + that + mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'are': 'The fact' là số ít nên không dùng 'are'.",
+      "Sai — 'does': 'does' không thay được động từ be.",
+      "Sai — 'has': 'has' không thay được động từ be.",
+      "Đúng — 'The fact is that ...' (hiện tại)."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u3-the-thing-is",
+    "tags": [
+      "cs-u3-the-thing-is"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The reason ______ I called you is that I need some help.",
+    "choices": [
+      "who",
+      "when",
+      "why",
+      "whom"
+    ],
+    "correctIndex": 2,
+    "explanation": "The reason why/that + mệnh đề + is that + mệnh đề. (Lưu ý: 'that' cũng đúng, chỉ không có trong lựa chọn.)",
+    "choiceExplanations": [
+      "Sai — 'who': 'who' chỉ người, không đi với 'The reason'.",
+      "Sai — 'when': 'when' chỉ thời gian, không dùng sau 'The reason'.",
+      "Đúng — 'The reason why ...' (hoặc 'The reason that ...').",
+      "Sai — 'whom': 'whom' chỉ người ở vị trí tân ngữ, không đi với 'The reason'."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u4-it-be-adjective-that",
+    "tags": [
+      "cs-u4-it-be-adjective-that"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It is ______ that she passed the exam.",
+    "choices": [
+      "amazingly",
+      "amaze",
+      "amazed",
+      "amazing"
+    ],
+    "correctIndex": 3,
+    "explanation": "It + be + tính từ + that + mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'amazingly': 'amazingly' là trạng từ; sau 'It is' cần tính từ.",
+      "Sai — 'amaze': 'amaze' là động từ, không đứng sau 'It is'.",
+      "Sai — 'amazed': 'amazed' mô tả người cảm thấy ngạc nhiên; ở đây nói về sự việc nên dùng 'amazing'.",
+      "Đúng — sau It is cần tính từ: amazing."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u5-form-and-pitfalls",
+    "tags": [
+      "cs-u5-form-and-pitfalls"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Tìm câu sai",
+    "prompt": "Which cleft sentence is INCORRECT?",
+    "choices": [
+      "What I want is a sandwich.",
+      "It was Anna who called me.",
+      "It was in the park what we met.",
+      "It was in the park that we met."
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu chẻ với It dùng that/who, không dùng what.",
+    "choiceExplanations": [
+      "Không chọn — 'What I want is a sandwich.' câu này đúng nên không phải đáp án cần chọn.",
+      "Không chọn — 'It was Anna who called me.' câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — sau phần nhấn mạnh phải dùng that, không dùng what.",
+      "Không chọn — 'It was in the park that we met.' câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u5-form-and-pitfalls",
+    "tags": [
+      "cs-u5-form-and-pitfalls"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It was only last week ______ I heard the news.",
+    "choices": [
+      "what",
+      "that",
+      "who",
+      "whose"
+    ],
+    "correctIndex": 1,
+    "explanation": "It was + thời gian + that + mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'what': sau phần nhấn mạnh dùng that/who, không dùng what.",
+      "Đúng — phần nhấn mạnh là thời gian nên dùng that.",
+      "Sai — 'who': 'who' chỉ dùng cho người.",
+      "Sai — 'whose': 'whose' chỉ sở hữu, không dùng để nối mệnh đề này."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u5-form-and-pitfalls",
+    "tags": [
+      "cs-u5-form-and-pitfalls"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence about the past.",
+    "choices": [
+      "It was John who called yesterday.",
+      "It was John who call yesterday.",
+      "It was John who calling yesterday.",
+      "It were John who called yesterday."
+    ],
+    "correctIndex": 0,
+    "explanation": "Động từ sau who/that chia theo thì của câu.",
+    "choiceExplanations": [
+      "Đúng — đúng cấu trúc It + was + người + who + động từ quá khứ.",
+      "Sai — 'It was John who call yesterday.': 'yesterday' ở quá khứ nên động từ sau who phải chia quá khứ (called).",
+      "Sai — 'It was John who calling yesterday.': sau 'who' cần động từ chia (called), không dùng V-ing đơn lẻ.",
+      "Sai — 'It were John who called yesterday.': 'It' là chủ ngữ số ít nên dùng 'was', không dùng 'were'."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u1-it-cleft",
+    "tags": [
+      "cs-u1-it-cleft"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It was not the price ______ made me buy it, but the design.",
+    "choices": [
+      "that",
+      "whose",
+      "where",
+      "what"
+    ],
+    "correctIndex": 0,
+    "explanation": "It was not X that ..., but Y: đính chính điều nhấn mạnh.",
+    "choiceExplanations": [
+      "Đúng — phần nhấn mạnh là vật (the price), phủ định để đính chính: It was not ... that ..., but ...",
+      "Sai — 'whose': 'whose' chỉ sở hữu, không thay chủ ngữ ở đây.",
+      "Sai — 'where': 'where' chỉ nơi chốn, không thay chủ ngữ 'the price'.",
+      "Sai — 'what': sau phần nhấn mạnh dùng that/who, không dùng what."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u1-it-cleft",
+    "tags": [
+      "cs-u1-it-cleft"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Tìm trọng tâm",
+    "prompt": "Which sentence puts the focus on the TIME?",
+    "choices": [
+      "It was at 6 a.m. that the earthquake struck.",
+      "It was the earthquake that struck at 6 a.m.",
+      "It was in the city that the earthquake struck at 6 a.m.",
+      "What struck at 6 a.m. was the earthquake."
+    ],
+    "correctIndex": 0,
+    "explanation": "Phần đứng ngay sau It is/was là phần được nhấn mạnh.",
+    "choiceExplanations": [
+      "Đúng — 'at 6 a.m.' đứng ngay sau It was nên được nhấn mạnh.",
+      "Sai — 'It was the earthquake that struck at 6 a.m.': câu này nhấn mạnh 'the earthquake' chứ không phải thời gian.",
+      "Sai — 'It was in the city that the earthquake struck at 6 a.m.': câu này nhấn mạnh nơi chốn (in the city) chứ không phải thời gian.",
+      "Sai — 'What struck at 6 a.m. was the earthquake.': câu này nhấn mạnh 'the earthquake' chứ không phải thời gian."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u2-what-cleft",
+    "tags": [
+      "cs-u2-what-cleft"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What surprised everyone ______ his honesty.",
+    "choices": [
+      "has",
+      "did",
+      "were",
+      "was"
+    ],
+    "correctIndex": 3,
+    "explanation": "What + động từ + was + phần nhấn mạnh.",
+    "choiceExplanations": [
+      "Sai — 'has': 'has' không thay được động từ be.",
+      "Sai — 'did': 'did' không thay được động từ be.",
+      "Sai — 'were': 'his honesty' là số ít nên không dùng 'were'.",
+      "Đúng — 'What surprised everyone' ở quá khứ và chủ ngữ số ít: was."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u2-what-cleft",
+    "tags": [
+      "cs-u2-what-cleft"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct wh-cleft sentence.",
+    "choices": [
+      "What I need is to more time.",
+      "What I need are more time.",
+      "What I need is more time.",
+      "What I needs is more time."
+    ],
+    "correctIndex": 2,
+    "explanation": "What + mệnh đề + is + phần nhấn mạnh.",
+    "choiceExplanations": [
+      "Sai — 'What I need is to more time.': không có 'to' trước danh từ 'more time'.",
+      "Sai — 'What I need are more time.': 'more time' là số ít nên dùng 'is', không dùng 'are'.",
+      "Đúng — đúng cấu trúc What + mệnh đề + is + danh từ số ít.",
+      "Sai — 'What I needs is more time.': 'I' đi với 'need', không thêm -s."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u3-the-thing-is",
+    "tags": [
+      "cs-u3-the-thing-is"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The reason I left early is ______ I felt sick.",
+    "choices": [
+      "what",
+      "that",
+      "whose",
+      "how"
+    ],
+    "correctIndex": 1,
+    "explanation": "The reason ... is that + mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'what': 'what' không nối mệnh đề lý do sau 'The reason ... is'.",
+      "Đúng — 'The reason ... is that ...'.",
+      "Sai — 'whose': 'whose' chỉ sở hữu, không dùng ở đây.",
+      "Sai — 'how': 'how' không nối mệnh đề lý do trong cấu trúc này."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u3-the-thing-is",
+    "tags": [
+      "cs-u3-the-thing-is"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence uses 'The thing is' correctly?",
+    "choices": [
+      "The thing is what I forgot my keys.",
+      "The thing are that I forgot my keys.",
+      "The thing is that I forgot my keys.",
+      "The thing is I forgetting my keys."
+    ],
+    "correctIndex": 2,
+    "explanation": "The thing + is + that + mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'The thing is what I forgot my keys.': sau 'is' dùng 'that' để nối mệnh đề, không dùng 'what'.",
+      "Sai — 'The thing are that I forgot my keys.': 'The thing' là số ít nên dùng 'is'.",
+      "Đúng — đúng cấu trúc The thing + is + that + mệnh đề.",
+      "Sai — 'The thing is I forgetting my keys.': sau 'is that' cần mệnh đề đầy đủ với động từ chia (forgot)."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u4-it-be-adjective-that",
+    "tags": [
+      "cs-u4-it-be-adjective-that"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It is essential ______ every student wears a helmet.",
+    "choices": [
+      "which",
+      "how",
+      "that",
+      "what"
+    ],
+    "correctIndex": 2,
+    "explanation": "It + be + tính từ + that + mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'which': 'which' không dùng để nối mệnh đề nội dung sau tính từ.",
+      "Sai — 'how': 'how' không nối mệnh đề này sau 'essential'.",
+      "Đúng — 'It is essential that + mệnh đề'.",
+      "Sai — 'what': 'what' không dùng để nối mệnh đề nội dung sau tính từ."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u4-it-be-adjective-that",
+    "tags": [
+      "cs-u4-it-be-adjective-that"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence is correct?",
+    "choices": [
+      "It strange that nobody has called yet.",
+      "It is strange what nobody has called yet.",
+      "It is strangely that nobody has called yet.",
+      "It is strange that nobody has called yet."
+    ],
+    "correctIndex": 3,
+    "explanation": "It + be + tính từ + that + mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'It strange that nobody has called yet.': thiếu động từ be (is).",
+      "Sai — 'It is strange what nobody has called yet.': sau tính từ dùng 'that', không dùng 'what'.",
+      "Sai — 'It is strangely that nobody has called yet.': sau 'is' cần tính từ (strange), không dùng trạng từ 'strangely'.",
+      "Đúng — đúng cấu trúc It + is + tính từ + that + mệnh đề."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u5-form-and-pitfalls",
+    "tags": [
+      "cs-u5-form-and-pitfalls"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Tìm câu sai",
+    "prompt": "Which cleft sentence contains a mistake?",
+    "choices": [
+      "It was the rain that ruined our picnic.",
+      "It was the rain who ruined our picnic.",
+      "It was Linh who ruined our picnic.",
+      "What ruined our picnic was the rain."
+    ],
+    "correctIndex": 1,
+    "explanation": "Who chỉ dùng cho người; vật dùng that.",
+    "choiceExplanations": [
+      "Không chọn — 'It was the rain that ruined our picnic.' câu này đúng nên không phải đáp án cần chọn.",
+      "Đúng — 'the rain' không phải người nên dùng that, không dùng who.",
+      "Không chọn — 'It was Linh who ruined our picnic.' câu này đúng nên không phải đáp án cần chọn.",
+      "Không chọn — 'What ruined our picnic was the rain.' câu này đúng nên không phải đáp án cần chọn."
+    ]
+  },
+  {
+    "id": "en-cleft-sentences-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "cleft-sentences",
+    "usageId": "cs-u5-form-and-pitfalls",
+    "tags": [
+      "cs-u5-form-and-pitfalls"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It wasn't Tom ______ broke the window; it was his brother.",
+    "choices": [
+      "whom",
+      "what",
+      "whose",
+      "who"
+    ],
+    "correctIndex": 3,
+    "explanation": "It wasn't X who/that ..., it was Y: đính chính người làm việc.",
+    "choiceExplanations": [
+      "Sai — 'whom': 'whom' dùng cho tân ngữ; ở đây 'Tom' là chủ ngữ của 'broke'.",
+      "Sai — 'what': sau phần nhấn mạnh dùng that/who, không dùng what.",
+      "Sai — 'whose': 'whose' chỉ sở hữu, không thay chủ ngữ ở đây.",
+      "Đúng — phần phủ định là người nên dùng who."
+    ]
+  }
+]
