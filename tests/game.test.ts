@@ -39,3 +39,10 @@ test("đeo vật phẩm: một vật mỗi vị trí, bấm lại để tháo", 
 })
 
 test("tổng xu đã tiêu", () => assert.equal(spentOn(["bow", "cap", "nope"]), 45))
+
+test("game thưởng: mời sau mỗi 3 lượt rồi đếm lại", async () => {
+  const { advanceRounds } = await import("../src/lib/game/bonus.ts")
+  assert.deepEqual(advanceRounds(0), { count: 1, offer: false })
+  assert.deepEqual(advanceRounds(1), { count: 2, offer: false })
+  assert.deepEqual(advanceRounds(2), { count: 0, offer: true })
+})

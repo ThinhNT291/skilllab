@@ -51,7 +51,7 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
       <h1 className="mt-2 text-3xl font-extrabold">{title}</h1>
       {subtitle && <p className="mb-4 text-muted-foreground">{subtitle}</p>}
       {!subtitle && <div className="mb-4" />}
-      <PracticeSession exercises={exercises} theoryBase={`/hoc/${topic}`} />
+      <PracticeSession exercises={exercises} theoryBase={`/hoc/${topic}`} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
     </>
   )
 }
