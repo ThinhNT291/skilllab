@@ -34,4 +34,4 @@ Bài tập ngữ pháp hiện chỉ có trắc nghiệm 4 đáp án, chấm tạ
 
 ## Điều chưa chắc (đừng coi là sự thật)
 - Cấu trúc/dạng bài chính thức của IOE: mới chỉ có thông tin từ bài viết bên thứ ba, chưa đối chiếu ioe.vn.
-- Mọi bảng quy đổi giữa các thang (CEFR ↔ 6 bậc VN ↔ JLPT/HSK/TOPIK…) trong `ROADMAP.md` là bản nháp cần kiểm chứng với nguồn chính thức trước khi đưa lên giao diện.
+- Quy đổi **CEFR ↔ Bậc VN** đã kiểm chứng với văn bản chính thức: **Thông tư 33/2026/TT-BGDĐT** (ban hành 15/04/2026, hiệu lực 31/05/2026, `reference/33-bgddt.pdf`) thay Thông tư 01/2014 (còn dùng cho chương trình cũ đến hết 31/12/2027). Khung mới: Tiền Bậc 1 = Pre-A1, Bậc 1–6 = A1–C2. Các quy đổi với JLPT/HSK/TOPIK… vẫn là bản nháp, cần kiểm chứng trước khi đưa lên giao diện.
