@@ -4,7 +4,7 @@ Các quy tắc đã chốt từ quá trình xây bản cũ (rút từ ghi chú �
 
 ## Cấu trúc một chuyên đề
 - `theory`: `usages` (mỗi mục một cách dùng, có ví dụ song ngữ và `id` ổn định), `formulas` (có thể không có), `signalWords`, `commonMistakes`.
-- `exercises`: **tối thiểu 30 câu/chuyên đề** (mục tiêu dài hạn **50–70 câu** để bớt lặp), trắc nghiệm 4 đáp án, chia **đều ba mức** (10/10/10 khi đủ 30; mức khó `difficulty` 1/2/3). Một chuyên đề có thể nhiều hơn mức chuẩn nếu nhận thêm câu chuyển từ chuyên đề khác (hiện present-continuous: 34 câu). **Chuyên đề thử nghiệm đã mở rộng: `present-simple` có 60 câu (20/20/20, đáp án đúng rải 15/15/15/15)**; các chuyên đề còn lại mở rộng sau khi chủ dự án duyệt chuyên đề mẫu này.
+- `exercises`: **tối thiểu 30 câu/chuyên đề** (mục tiêu dài hạn **50–70 câu** để bớt lặp), trắc nghiệm 4 đáp án, chia **đều ba mức** (10/10/10 khi đủ 30; mức khó `difficulty` 1/2/3). Một chuyên đề có thể nhiều hơn mức chuẩn nếu nhận thêm câu chuyển từ chuyên đề khác (hiện present-continuous: 34 câu). **Chuyên đề thử nghiệm đã mở rộng: `present-simple` có 60 câu (20/20/20, đáp án đúng rải 15/15/15/15); đã sửa theo phản biện: thêm 2 mục lý thuyết (hòa hợp chủ-vị, vị trí trạng từ), sửa 4 giải thích, đổi sang chính tả Anh-Mỹ. Còn lại chưa sửa: độ khó vài câu (021, 023, 017, 041) và câu 060 có ba chỗ trống.**; các chuyên đề còn lại mở rộng sau khi chủ dự án duyệt chuyên đề mẫu này.
 - Mỗi lượt học bốc **10 câu** từ cả ngân hàng của chuyên đề, ngẫu nhiên trong từng mức độ khó, rồi xếp **dễ → khó** (chống học vẹt nhưng vẫn mạch tăng dần). Hiện đang bốc 4 dễ / 3 vừa / 3 khó.
 - Chế độ "Nhức đầu" (dự kiến làm lại): 10 câu `difficulty = 3` của chuyên đề.
 
@@ -14,6 +14,7 @@ Các quy tắc đã chốt từ quá trình xây bản cũ (rút từ ghi chú �
 3. **Vị trí đáp án đúng phải rải đều**: mỗi chuyên đề 30 câu ≈ 8/8/7/7 ở A/B/C/D, xáo ngẫu nhiên giữa các câu. (Bản cũ từng bị lỗi đáp án đúng dồn vào A: có chuyên đề 30/30 câu.) Khi xáo, `choiceExplanations` đi theo đáp án.
 4. **Chuẩn tiếng Anh**: 11 chuyên đề đầu của bản cũ theo Anh-Anh, **chuyên đề mới theo Anh-Mỹ** làm mặc định. Chỗ khác biệt đáng chú ý thì ghi chú trong `explanation`, không giấu.
 5. **Đáp án mập mờ phải công khai**: nếu một đáp án "sai" thực ra vẫn chấp nhận được trong tiếng Anh tự nhiên, nói rõ trong `choiceExplanations` và giải thích vì sao đáp án đúng phù hợp ngữ cảnh hơn, thay vì khẳng định tuyệt đối.
+5a. **Mỗi kiểu bẫy phải có mục lý thuyết dạy nó.** Ví dụ hòa hợp chủ-vị (đại từ bất định, chủ ngữ bị cách xa động từ, danh động từ làm chủ ngữ, danh từ không đếm được) và vị trí trạng từ tần suất. Khi phản biện chuyên đề, rà từng câu xem có kiểm tra điều nào chưa có mục dạy không.
 6. Không có hai đáp án trùng nhau trong một câu; không có câu trùng đề (kể cả giữa các chuyên đề); đề bài không được để chỗ trống mà đáp án cũng chứa phần đã có sẵn trong đề.
 7. Nội dung viết mới hoàn toàn, **không sao chép sách**; sách chỉ dùng làm căn cứ chọn chủ điểm và thứ tự sư phạm.
 8. **Kiểm định độc lập**: mỗi chuyên đề mới nên được một người/agent phản biện độc lập rà soát (lỗi ngữ pháp, đáp án gây tranh cãi, câu không tự nhiên, nhãn thẻ sai, lỗ hổng kiểu quy tắc 1). Chuyên đề do Claude soạn trong repo này cũng cần bước này trước khi coi là xong.

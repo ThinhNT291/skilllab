@@ -67,7 +67,7 @@
     "prompt": "I really ______ (want) a new bicycle for my birthday.",
     "choices": [
       "wants",
-      "am wanting",
+      "wanting",
       "wanted",
       "want"
     ],
@@ -75,7 +75,7 @@
     "explanation": "'want' là động từ chỉ trạng thái (mong muốn), không dùng dạng tiếp diễn. Chủ ngữ 'I' dùng động từ nguyên thể 'want'.",
     "choiceExplanations": [
       "Sai — 'wants' dành cho he/she/it; chủ ngữ 'I' không thêm -s.",
-      "Sai — 'want' là động từ chỉ trạng thái nên không dùng thì tiếp diễn.",
+      "Sai — 'wanting' đứng một mình không làm động từ chính; động từ đã chia phải là 'want'.",
       "Sai — 'wanted' là quá khứ đơn, không khớp với mong muốn ở hiện tại.",
       "Đúng — 'want' là động từ chỉ trạng thái nên dùng hiện tại đơn; chủ ngữ 'I' dùng động từ nguyên thể."
     ]
@@ -91,7 +91,7 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The last bus to the city centre ______ (leave) at 11 p.m.",
+    "prompt": "The last bus to the city center ______ (leave) at 11 p.m.",
     "choices": [
       "leave",
       "leaving",
@@ -172,7 +172,7 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "My brother ______ (study) English at the language centre every Monday and Wednesday.",
+    "prompt": "My brother ______ (study) English at the language center every Monday and Wednesday.",
     "choices": [
       "is studying",
       "studies",
@@ -274,9 +274,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u1-habits-routines",
+    "usageId": "ps-u7-frequency-adverbs",
     "tags": [
-      "ps-u1-habits-routines"
+      "ps-u7-frequency-adverbs"
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
@@ -382,9 +382,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u4-state-verbs",
+    "usageId": "ps-u7-frequency-adverbs",
     "tags": [
-      "ps-u4-state-verbs"
+      "ps-u7-frequency-adverbs"
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
@@ -463,18 +463,18 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u2-facts-truths",
+    "usageId": "ps-u7-frequency-adverbs",
     "tags": [
-      "ps-u2-facts-truths"
+      "ps-u7-frequency-adverbs"
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Light ______ (always/travel) faster than sound in the same medium.",
+    "prompt": "Light ______ (always/travel) faster than sound.",
     "choices": [
       "always travel",
       "travels always",
       "always travels",
-      "is always travelling"
+      "is always traveling"
     ],
     "correctIndex": 2,
     "explanation": "Với động từ thường, trạng từ tần suất đứng TRƯỚC động từ chính: always travels. Chủ ngữ số ít 'Light' cần thêm -s: travels.",
@@ -482,7 +482,7 @@
       "Sai — 'Light' là số ít nên cần thêm -s.",
       "Sai — với động từ thường, trạng từ tần suất đứng trước động từ chính, không đặt sau (travels always).",
       "Đúng — trạng từ tần suất đứng trước động từ thường; 'Light' là số ít nên thêm -s: always travels.",
-      "Sai — 'is always travelling' (tiếp diễn + always) thường dùng để phàn nàn một thói quen, không dùng cho quy luật vật lý."
+      "Sai — 'is always traveling' (tiếp diễn) diễn tả việc đang xảy ra hoặc than phiền thói quen; quy luật vật lý dùng hiện tại đơn."
     ]
   },
   {
@@ -496,7 +496,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "______ your sister ______ (know) how to ride a motorbike yet?",
+    "prompt": "______ your sister ______ (know) how to ride a motorcycle yet?",
     "choices": [
       "Isn't / knowing",
       "Doesn't / know",
@@ -517,9 +517,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u3-schedules-timetables",
+    "usageId": "ps-u7-frequency-adverbs",
     "tags": [
-      "ps-u3-schedules-timetables"
+      "ps-u7-frequency-adverbs"
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
@@ -571,9 +571,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u4-state-verbs",
+    "usageId": "ps-u6-subject-verb",
     "tags": [
-      "ps-u4-state-verbs"
+      "ps-u6-subject-verb"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
@@ -631,7 +631,7 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Although my uncle ______ (own) three motorbikes, he never lets his children ride them alone.",
+    "prompt": "Although my uncle ______ (own) three motorcycles, he never lets his children ride them alone.",
     "choices": [
       "owned",
       "owns",
@@ -652,9 +652,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u1-habits-routines",
+    "usageId": "ps-u6-subject-verb",
     "tags": [
-      "ps-u1-habits-routines"
+      "ps-u6-subject-verb"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
@@ -696,7 +696,7 @@
     "explanation": "Giờ chạy cố định theo lịch trình dùng hiện tại đơn; chủ ngữ 'the first ferry' là số ít nên cả hai động từ thêm -s: leaves, returns.",
     "choiceExplanations": [
       "Đúng — giờ chạy cố định theo lịch trình dùng hiện tại đơn; 'the first ferry' là số ít nên cả hai động từ thêm -s: leaves, returns.",
-      "Sai — 'is leaving' (hiện tại tiếp diễn) thường nói về một sắp xếp riêng hoặc việc đang diễn ra; với giờ chạy ghi trong bảng lịch trình thì dùng hiện tại đơn, và hai vế nên cùng một thì.",
+      "Sai — 'is leaving' diễn tả kế hoạch đã sắp xếp riêng của người nói. Giờ chạy ghi trong thời gian biểu chung dùng hiện tại đơn.",
       "Sai — 'are returning' sai cả thì (lịch trình cố định cần hiện tại đơn) lẫn hòa hợp: 'the first ferry' là số ít, không đi với 'are'.",
       "Sai — 'the first ferry' là số ít nên động từ cần thêm -s; 'leave/return' chỉ dùng với chủ ngữ số nhiều hoặc I/you/we/they."
     ]
@@ -724,7 +724,7 @@
     "explanation": "'remember' (nhớ được) là động từ chỉ nhận thức nên giữ hiện tại đơn: doesn't remember; 'always' chỉ thói quen, chủ ngữ 'he' số ít nên writes.",
     "choiceExplanations": [
       "Sai — 'remember' ở nghĩa 'nhớ được' là động từ chỉ nhận thức, thường không chia tiếp diễn; vế đầu phải là 'doesn't remember'.",
-      "Sai — 'always' đứng trước động từ thường nên ghép với 'is writing' thành 'always is writing' là sai vị trí trạng từ; hơn nữa đây là thói quen nên cần hiện tại đơn: writes.",
+      "Sai — 'is writing' là tiếp diễn, không hợp với thói quen ('so he always ... them down'). Trạng từ 'always' cũng phải đứng trước động từ thường, không đứng trước 'is writing'.",
       "Đúng — 'doesn't remember' (động từ nhận thức giữ hiện tại đơn) và 'always writes' (thói quen, ngôi thứ ba số ít).",
       "Sai — chia kép ('doesn't remembers' đã có -s sau 'doesn't') và 'write' thiếu -s dù chủ ngữ 'he' là số ít."
     ]
@@ -941,7 +941,7 @@
     "choiceExplanations": [
       "Sai — 'has': 'has' chỉ dùng cho he/she/it; 'Cats' là số nhiều.",
       "Đúng — Sự thật hiển nhiên dùng hiện tại đơn; 'Cats' số nhiều nên dùng 'have'.",
-      "Sai — 'having': 'have' chỉ sở hữu thường không dùng dạng -ing.",
+      "Sai — 'having' là dạng -ing không thể làm động từ chính đã chia của câu.",
       "Sai — 'had': đây là sự thật ở hiện tại, không dùng quá khứ."
     ]
   },
@@ -1013,7 +1013,7 @@
     "prompt": "I ______ (love) chocolate ice cream.",
     "choices": [
       "love",
-      "am loving",
+      "loving",
       "loved",
       "loves"
     ],
@@ -1021,7 +1021,7 @@
     "explanation": "Động từ chỉ cảm xúc (love, like, hate...) thường dùng hiện tại đơn.",
     "choiceExplanations": [
       "Đúng — 'love' là động từ chỉ cảm xúc, dùng hiện tại đơn; 'I' dùng động từ nguyên thể.",
-      "Sai — 'am loving': 'love' chỉ trạng thái cảm xúc nên thường không dùng thì tiếp diễn.",
+      "Sai — 'loving' đứng một mình không làm động từ chính; động từ đã chia phải là 'love'.",
       "Sai — 'loved': câu nói về sở thích hiện tại, không dùng quá khứ.",
       "Sai — 'loves': 'I' không phải ngôi thứ ba số ít nên không thêm -s."
     ]
@@ -1166,9 +1166,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u2-facts-truths",
+    "usageId": "ps-u6-subject-verb",
     "tags": [
-      "ps-u2-facts-truths"
+      "ps-u6-subject-verb"
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
@@ -1355,9 +1355,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u1-habits-routines",
+    "usageId": "ps-u6-subject-verb",
     "tags": [
-      "ps-u1-habits-routines"
+      "ps-u6-subject-verb"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
@@ -1382,9 +1382,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u1-habits-routines",
+    "usageId": "ps-u6-subject-verb",
     "tags": [
-      "ps-u1-habits-routines"
+      "ps-u6-subject-verb"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
@@ -1409,9 +1409,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u2-facts-truths",
+    "usageId": "ps-u6-subject-verb",
     "tags": [
-      "ps-u2-facts-truths"
+      "ps-u6-subject-verb"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
@@ -1544,9 +1544,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-simple",
-    "usageId": "ps-u4-state-verbs",
+    "usageId": "ps-u6-subject-verb",
     "tags": [
-      "ps-u4-state-verbs"
+      "ps-u6-subject-verb"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
