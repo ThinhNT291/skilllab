@@ -88,6 +88,42 @@
           }
         ],
         "bac": 3
+      },
+      {
+        "id": "past-u6-negatives-questions",
+        "label": "Câu phủ định và câu hỏi ở quá khứ đơn: did/didn't + động từ nguyên thể",
+        "explanationVi": "Với động từ thường, câu phủ định dùng 'didn't' và câu hỏi dùng 'Did' đứng trước chủ ngữ; động từ chính luôn ở dạng nguyên thể vì 'did' đã mang nghĩa quá khứ. Câu hỏi có từ để hỏi: Wh- + did + chủ ngữ + V (What time did the bus leave?). Trả lời ngắn dùng lại 'did/didn't' (Yes, I did. / No, I didn't). Riêng khi từ để hỏi chính là chủ ngữ (who, what) thì không dùng 'did': Who called you? Với 'to be' không dùng 'did': Were you late?",
+        "examples": [
+          {
+            "en": "Did your cousin visit you during the holiday?",
+            "vi": "Anh họ của bạn có đến thăm bạn trong kỳ nghỉ không?"
+          },
+          {
+            "en": "We didn't wait for the bus because it was late.",
+            "vi": "Chúng tôi không đợi xe buýt vì nó đến muộn."
+          },
+          {
+            "en": "Who left the lights on?",
+            "vi": "Ai đã để đèn sáng vậy?"
+          }
+        ],
+        "bac": 2
+      },
+      {
+        "id": "past-u7-regular-irregular-forms",
+        "label": "Dạng quá khứ của động từ: quy tắc (-ed, chính tả) và bất quy tắc",
+        "explanationVi": "Động từ có quy tắc thêm -ed: thêm -d nếu tận cùng là -e (like → liked); phụ âm + y đổi y thành i rồi thêm -ed (carry → carried); từ ngắn có một nguyên âm + một phụ âm cuối thì nhân đôi phụ âm (plan → planned). Nhiều động từ thông dụng là bất quy tắc nên phải học thuộc (eat → ate, make → made, take → took, see → saw, build → built, lose → lost, speak → spoke, ride → rode, do → did). Dạng quá khứ phân từ (eaten, taken, seen) không dùng một mình làm động từ chính ở quá khứ đơn.",
+        "examples": [
+          {
+            "en": "The baby smiled when she saw the puppy.",
+            "vi": "Em bé mỉm cười khi nhìn thấy chú cún con."
+          },
+          {
+            "en": "He dropped his phone and broke the screen.",
+            "vi": "Cậu ấy làm rơi điện thoại và làm vỡ màn hình."
+          }
+        ],
+        "bac": 2
       }
     ],
     "signalWords": [
