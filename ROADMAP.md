@@ -90,3 +90,10 @@ Chủ đề cần đề xuất (mỗi chủ đề: vấn đề, bằng chứng, 
 - Nhân vật: emoji, SVG tự vẽ, hay bộ hình miễn phí bản quyền?
 - Theo dõi tiến độ của học sinh: chỉ trên máy, hay đăng nhập? Có khu cho phụ huynh/giáo viên xem từ xa không?
 - Giai đoạn 3 bắt đầu với ngôn ngữ nào sau tiếng Anh (Nhật, Trung hay Hàn)?
+
+## Cập nhật đối chiếu chuẩn (đã làm)
+- [x] Đọc Thông tư 01/2014 (khung 6 bậc) và Framework CEFR; đối chiếu English Grammar Profile (EGP). Chi tiết: `docs/egp-doi-chieu-va-tu-vung.md`.
+- [x] Thêm trường `bac` (bậc 1–6) cho câu và mục lý thuyết, có kiểm tra trong `check:content`.
+- [x] Rà soát `present-simple` (60 câu, bậc 1–3) và `subjunctive` (30 câu, bậc 4). Danh sách còn lại: đặt `bac` cho 21 chuyên đề khác.
+- [ ] Module từ vựng: danh sách gốc EVP (bổ sung Oxford 3000/5000 khi cần), tham khảo `Oxford Word Skills`.
+- [ ] Thêm các chuyên đề còn thiếu từ bảng cũ (future continuous, past perfect continuous, future perfect, đảo ngữ không điều kiện, câu chẻ, so/neither, liên từ, phrasal verbs quy tắc).
