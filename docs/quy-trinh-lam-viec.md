@@ -33,7 +33,17 @@ Sau khi gộp, nhánh làm việc vẫn dùng tiếp được; nếu Claude báo
 5. **Ôn tập (thẻ lật):** dán và chạy thêm `supabase/migrations/0002_srs.sql` trong SQL Editor. Sau đó trả lời sai một câu trong phần luyện tập, vào `/on-tap` sẽ thấy thẻ (mỗi câu sai chỉ tạo một thẻ).
 6. Trước khi mở cho nhiều người dùng thật: bật CAPTCHA cho đăng nhập ẩn danh (Authentication > Attack Protection) để tránh bị tạo hàng loạt tài khoản rác.
 
-## Kết nối Vercel (khi sẵn sàng)
-1. Vercel > project mới > Import repo `ThinhNT291/skilllab`, Framework: Next.js (tự nhận).
-2. Project Settings > Environment Variables: thêm đúng các biến như `.env.local`.
-3. Production Branch: `main`. Các nhánh khác tự có bản xem thử (Preview).
+## Kết nối Vercel
+1. Vercel > Add New > Project > Import repo `ThinhNT291/skilllab`. **Framework Preset phải là Next.js** (repo đã có `vercel.json` ghi sẵn `"framework": "nextjs"`).
+2. Project Settings > Environment Variables, thêm (cho Production, Preview và Development):
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - (sau này) `GEMINI_API_KEY`, `SUPABASE_SERVICE_ROLE_KEY` (không đặt tiền tố `NEXT_PUBLIC_`)
+   Đổi biến môi trường xong phải **Redeploy** mới có hiệu lực.
+3. Production Branch: `main`. Các nhánh khác tự có bản xem thử (Preview). Muốn xem nhánh làm việc trước khi gộp: tab Deployments, bản có tên nhánh `claude/improve-exercises-n2fs1t`.
+4. Sau khi có địa chỉ `*.vercel.app`, mở `<địa chỉ>/api/health` để kiểm tra kết nối Supabase.
+
+### Lỗi thường gặp
+- `No Output Directory named "public" found`: Vercel đang coi dự án là trang tĩnh. Vào Project Settings > Build and Development Settings, đặt Framework Preset = Next.js, xóa mọi giá trị ghi đè ở Output Directory, rồi Redeploy.
+- Bản deploy là code cũ: Vercel build đúng nhánh `main`; nếu chưa gộp nhánh làm việc vào `main` thì sẽ thấy bản cũ.
+- Trang `/tien-do`, `/on-tap` báo chưa kết nối Supabase: thiếu biến môi trường ở bước 2, hoặc chưa Redeploy.
