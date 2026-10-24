@@ -22,7 +22,7 @@ export default async function LearnPage() {
   }))
 
   return (
-    <main className="mx-auto w-full max-w-xl px-4 py-6">
+    <main className="mx-auto w-full max-w-5xl px-4 py-6">
       <h1 className="mb-1 text-3xl font-extrabold">Học ngữ pháp</h1>
       <p className="mb-4 text-muted-foreground">Tiếng Anh · {topics.length} chuyên đề</p>
       <Link href="/xep-trinh-do" className="mb-6 flex items-center justify-between gap-3 rounded-game border-2 border-accent bg-card px-4 py-3 hover:border-primary">

@@ -61,7 +61,7 @@ export function TopicMap({ categories }: { categories: MapCategory[] }) {
         cat.topics.length === 0 ? null : (
           <section key={cat.id} className="mb-6">
             <h2 className="mb-2 text-sm uppercase tracking-wide text-muted-foreground">{cat.label}</h2>
-            <ul className="space-y-2">
+            <ul className="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
               {cat.topics.map((t) => {
                 const s = stats?.get(t.id)
                 const st = s ? STATUS[s.status] : null

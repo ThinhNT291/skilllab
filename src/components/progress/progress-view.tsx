@@ -108,7 +108,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
         <h2 id="topics-heading" className="mb-2 text-xl font-extrabold">
           Theo chuyên đề
         </h2>
-        <ul className="space-y-3">
+        <ul className="grid gap-3 md:grid-cols-2">
           {s.byTopic.map((t) => (
             <li key={t.topicId}>
               <Link href={t.topicId.startsWith("vocab-") ? `/tu-vung/${t.topicId.slice(6)}` : `/hoc/${t.topicId}`} className="block rounded-game border-2 border-border bg-card p-4 hover:border-primary">
