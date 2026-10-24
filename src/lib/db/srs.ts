@@ -68,8 +68,9 @@ export function ensureCardFromError(exercise: Exercise): Promise<CardsResult<voi
   return guarded(async () => {
     const profile = await ensureProfile()
     const supabase = createClient()
-    const sourceKey = `grammar-${exercise.topic}-${exercise.id}`
-    const c = cardContentFromExercise(exercise)
+    // Câu biến thể (sắp xếp, gõ, nghe chép) mang sẵn nội dung thẻ của câu gốc, nên sai ở bất kỳ dạng nào vẫn chỉ có một thẻ.
+    const c = exercise.kind === "mcq" ? { key: exercise.id, ...cardContentFromExercise(exercise) } : exercise.card
+    const sourceKey = `grammar-${exercise.topic}-${c.key}`
     const { error } = await supabase.from("srs_cards").upsert(
       {
         profile_id: profile.id,

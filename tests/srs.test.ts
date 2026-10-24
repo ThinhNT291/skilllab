@@ -2,7 +2,7 @@ import test from "node:test"
 import assert from "node:assert/strict"
 import { formatInterval, schedule } from "../src/lib/srs/scheduler.ts"
 import { cardContentFromExercise } from "../src/lib/srs/card-from-exercise.ts"
-import type { Exercise } from "../src/lib/content/types.ts"
+import type { McqExercise } from "../src/lib/content/types.ts"
 
 const fresh = { intervalDays: 0, ease: 2.5, reps: 0, lapses: 0 }
 const now = new Date("2026-10-24T00:00:00Z")
@@ -45,11 +45,11 @@ test("nhãn khoảng ôn", () => {
   assert.equal(formatInterval({ intervalDays: 40, ease: 2.5, reps: 6, lapses: 0 }, "good"), "3 tháng")
 })
 
-const ex = (over: Partial<Exercise>): Exercise => ({
+const ex = (over: Partial<McqExercise>): McqExercise => ({
   id: "en-x-001", kind: "mcq", language: "en", topic: "x", tags: [], difficulty: 1,
   prompt: "She ______ (clean) her room.", choices: ["cleans", "clean", "cleaned", "cleaning"], correctIndex: 0,
   explanation: "giải thích chung", ...over,
-}) as Exercise
+}) as McqExercise
 
 test("dựng thẻ: điền đáp án vào một chỗ trống và bỏ gợi ý động từ", () => {
   const c = cardContentFromExercise(ex({}))

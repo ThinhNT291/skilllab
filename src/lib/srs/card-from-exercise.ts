@@ -1,4 +1,4 @@
-import type { Exercise } from "@/lib/content/types"
+import type { McqExercise } from "../content/types.ts"
 
 export interface CardContent {
   front: string
@@ -8,7 +8,7 @@ export interface CardContent {
 }
 
 /** Dựng nội dung thẻ từ một câu bài tập: mặt trước là đề, mặt sau là đáp án + câu hoàn chỉnh + giải thích. */
-export function cardContentFromExercise(ex: Exercise): CardContent {
+export function cardContentFromExercise(ex: McqExercise): CardContent {
   const answer = ex.choices[ex.correctIndex]
   const blanks = ex.prompt.match(/_{2,}/g) ?? []
   let filled: string | null = null

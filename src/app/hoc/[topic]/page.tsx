@@ -40,6 +40,12 @@ export default async function TopicPage({ params }: PageProps<"/hoc/[topic]">) {
           >
             Nhức đầu 🔥
           </Link>
+          <Link
+            href={`/hoc/${topic}/nghe-chep`}
+            className="inline-block rounded-game border-2 border-b-[5px] border-border bg-card px-6 py-3 text-lg font-extrabold text-foreground active:translate-y-[3px] active:border-b-2"
+          >
+            Nghe chép 🎧
+          </Link>
         </div>
       ) : (
         <p className="mt-4 rounded-game border-2 border-dashed border-border px-4 py-3 text-muted-foreground">Bài tập cho chuyên đề này đang được soạn.</p>
