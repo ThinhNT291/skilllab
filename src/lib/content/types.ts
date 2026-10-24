@@ -8,9 +8,14 @@ export type Language = "en" | "ja" | "zh" | "ko"
 /** Thang năng lực. Giá trị cụ thể của từng thang sẽ được kiểm chứng ở giai đoạn 3 của ROADMAP. */
 export type Level = "A1" | "A2" | "B1" | "B2" | "C1" | "C2"
 
+/** Bậc trong Khung năng lực ngoại ngữ dùng cho Việt Nam (Bậc 1–6 tương ứng A1–C2 theo Thông tư 33/2026/TT-BGDĐT, thay Thông tư 01/2014). Khung mới có thêm "Tiền Bậc 1" (Pre-A1) chưa dùng trong dữ liệu. */
+export type Bac = 1 | 2 | 3 | 4 | 5 | 6
+
 interface ExerciseBase {
   id: string
   language: Language
+  /** Bậc khung 6 bậc mà kiến thức của câu thuộc về. Lấy từ mục lý thuyết (usage) và đối chiếu EGP; khác với `difficulty` (khó tương đối trong chuyên đề). */
+  bac?: Bac
   /** Cấp CEFR của riêng câu này. Bản nhập từ bản cũ chưa có (sẽ gắn ở giai đoạn 3 của lộ trình) */
   level?: Level
   /** Chủ điểm, ví dụ "present-simple". Dùng cho phân tích lỗi theo chủ điểm */

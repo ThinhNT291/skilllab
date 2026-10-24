@@ -7,6 +7,7 @@ import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { sfx } from "@/lib/audio/sfx"
 import { useSettings } from "@/lib/settings"
 import { getOwnedItems } from "@/lib/db"
+import { recordRoundDone } from "@/lib/game/bonus"
 import { xpFor, XP_PER_COIN } from "@/lib/game/xp"
 import { Mascot, type Mood } from "@/components/game/mascot"
 import { ProgressBar } from "./progress-bar"
@@ -55,6 +56,7 @@ export function ExerciseRunner({
   onAnswer,
   onFinish,
   theoryHref,
+  bonusHref,
 }: {
   exercises: Exercise[]
   onAnswer?: (record: AnswerRecord) => void
@@ -62,6 +64,8 @@ export function ExerciseRunner({
   onFinish?: () => void
   /** Đường dẫn về đúng mục lý thuyết của câu (hiện khi trả lời sai). Trả null nếu không có. */
   theoryHref?: (exercise: Exercise) => string | null
+  /** Đường dẫn game thưởng. Có thì cứ vài lượt xong lại mời chơi ở màn kết quả. */
+  bonusHref?: string
 }) {
   const { sound } = useSettings()
   const [index, setIndex] = useState(0)
@@ -70,6 +74,7 @@ export function ExerciseRunner({
   const [streak, setStreak] = useState(0)
   const [wrongIds, setWrongIds] = useState<string[]>([])
   const [worn, setWorn] = useState<string[]>([])
+  const [offerBonus, setOfferBonus] = useState(false)
 
   useEffect(() => {
     getOwnedItems().then((r) => r.ok && setWorn(r.equipped))
@@ -97,7 +102,11 @@ export function ExerciseRunner({
     const last = index + 1 >= total
     setIndex((n) => n + 1)
     setResult(null)
-    if (last) onFinish?.()
+    if (last) {
+      onFinish?.()
+      // Mỗi lượt xong (kể cả làm lại) tính một vòng; đủ vòng thì mời chơi game thưởng.
+      if (bonusHref) setOfferBonus(recordRoundDone())
+    }
     if (last && correctCount === total && !reducedMotion()) {
       confetti({ particleCount: 120, spread: 80, origin: { y: 0.6 } })
     }
@@ -109,6 +118,7 @@ export function ExerciseRunner({
     setCorrectCount(0)
     setStreak(0)
     setWrongIds([])
+    setOfferBonus(false)
   }
 
   if (done) {
@@ -130,6 +140,11 @@ export function ExerciseRunner({
           +{gained} XP · +{Math.floor(gained / XP_PER_COIN)} 🪙
         </p>
         {wrongIds.length > 0 && <p className="mt-1 text-muted-foreground">{wrongIds.length} câu cần ôn lại</p>}
+        {offerBonus && bonusHref && (
+          <Link href={bonusHref} className="anim-pop mt-4 block rounded-game border-2 border-accent bg-background px-4 py-3 font-extrabold hover:border-primary">
+            🎮 Bạn đã học xong vài vòng! Chơi ghép cặp thưởng nhé?
+          </Link>
+        )}
         <button type="button" onClick={restart} className="mt-4 w-full rounded-game border-b-[5px] border-primary-deep bg-primary py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2">
           Làm lại
         </button>

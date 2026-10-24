@@ -50,6 +50,12 @@ export default async function TopicPage({ params }: PageProps<"/hoc/[topic]">) {
           >
             Nghe chép 🎧
           </Link>
+          <Link
+            href={`/hoc/${topic}/kiem-tra`}
+            className="inline-block rounded-game border-2 border-b-[5px] border-success bg-card px-6 py-3 text-lg font-extrabold text-foreground active:translate-y-[3px] active:border-b-2"
+          >
+            Kiểm tra cuối chủ điểm 🏅
+          </Link>
           {canMatch && (
             <Link
               href={`/hoc/${topic}/ghep-cap`}
