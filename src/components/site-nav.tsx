@@ -3,6 +3,7 @@ import Link from "next/link"
 const LINKS = [
   { href: "/", label: "Trang chủ" },
   { href: "/hoc", label: "Học" },
+  { href: "/on-tap", label: "Ôn tập" },
   { href: "/tien-do", label: "Tiến độ" },
 ]
 

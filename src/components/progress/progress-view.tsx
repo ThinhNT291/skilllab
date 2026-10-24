@@ -3,13 +3,14 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { summarize, type ProgressSummary, type TagInfo } from "@/lib/analytics/progress"
-import { getAnswerHistory } from "@/lib/db"
+import { countDueCards, getAnswerHistory } from "@/lib/db"
 import { ProgressBar } from "@/components/exercise/progress-bar"
 
 type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; summary: ProgressSummary }
 
 export function ProgressView({ catalog, topicTitles }: { catalog: Record<string, TagInfo>; topicTitles: Record<string, string> }) {
   const [state, setState] = useState<State>({ status: "loading" })
+  const [due, setDue] = useState<number | null>(null)
 
   useEffect(() => {
     let cancelled = false
@@ -20,6 +21,9 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
         return
       }
       setState({ status: "ready", summary: summarize(res.rows, catalog, topicTitles) })
+    })
+    countDueCards().then((res) => {
+      if (!cancelled && res.ok) setDue(res.value)
     })
     return () => {
       cancelled = true
@@ -45,6 +49,12 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
   const accuracy = Math.round((s.correct / s.total) * 100)
   return (
     <div className="space-y-8">
+      {due !== null && due > 0 && (
+        <Link href="/on-tap" className="flex items-center justify-between gap-3 rounded-game border-2 border-accent bg-card px-4 py-3 hover:border-primary">
+          <span className="font-extrabold">🃏 Có {due >= 100 ? "100+" : due} thẻ cần ôn hôm nay</span>
+          <span className="text-primary underline underline-offset-4">Ôn ngay</span>
+        </Link>
+      )}
       <section className="grid grid-cols-3 gap-3 text-center" aria-label="Tổng quan">
         <Stat value={String(s.total)} label="câu đã làm" />
         <Stat value={`${accuracy}%`} label="trả lời đúng" />

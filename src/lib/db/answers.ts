@@ -1,6 +1,7 @@
 import { createClient } from "@/lib/supabase/client"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { dbConfigured, ensureProfile } from "./session"
+import { ensureCardFromError } from "./srs"
 
 export type SaveResult = { ok: true } | { ok: false; reason: "not_configured" | "error"; message?: string }
 
@@ -18,6 +19,8 @@ export async function recordAnswer(record: AnswerRecord, exercise: Exercise): Pr
       choice_index: record.choiceIndex,
     })
     if (error) return { ok: false, reason: "error", message: error.message }
+    // Câu sai tự thành thẻ ôn tập. Lỗi tạo thẻ (vd chưa chạy migration 0002) không làm hỏng việc ghi câu trả lời.
+    if (!record.correct) void ensureCardFromError(exercise)
     return { ok: true }
   } catch (e) {
     return { ok: false, reason: "error", message: e instanceof Error ? e.message : String(e) }

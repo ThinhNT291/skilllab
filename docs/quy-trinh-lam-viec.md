@@ -30,7 +30,8 @@ Sau khi gộp, nhánh làm việc vẫn dùng tiếp được; nếu Claude báo
 2. Supabase > SQL Editor > New query > dán toàn bộ nội dung `supabase/migrations/0001_init.sql` > Run. Thấy "Success" là xong (chạy lại không hại gì).
 3. `npm run dev`, mở http://localhost:3000/luyen-tap, làm một câu. Dưới ô bài tập hiện "Đã lưu kết quả." là đã ghi được.
 4. Xem dữ liệu: Supabase > Table Editor > `answers` (và `profiles`). Mỗi trình duyệt/thiết bị là một người dùng ẩn danh riêng; xóa dữ liệu trình duyệt thì mất định danh đó.
-5. Trước khi mở cho nhiều người dùng thật: bật CAPTCHA cho đăng nhập ẩn danh (Authentication > Attack Protection) để tránh bị tạo hàng loạt tài khoản rác.
+5. **Ôn tập (thẻ lật):** dán và chạy thêm `supabase/migrations/0002_srs.sql` trong SQL Editor. Sau đó trả lời sai một câu trong phần luyện tập, vào `/on-tap` sẽ thấy thẻ (mỗi câu sai chỉ tạo một thẻ).
+6. Trước khi mở cho nhiều người dùng thật: bật CAPTCHA cho đăng nhập ẩn danh (Authentication > Attack Protection) để tránh bị tạo hàng loạt tài khoản rác.
 
 ## Kết nối Vercel (khi sẵn sàng)
 1. Vercel > project mới > Import repo `ThinhNT291/skilllab`, Framework: Next.js (tự nhận).
