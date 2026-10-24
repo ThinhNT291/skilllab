@@ -1,5 +1,7 @@
 # Đánh giá chuyên đề và lộ trình chủ điểm
 
+> **Cập nhật 24/10/2026:** khung hiện hành là Thông tư 33/2026/TT-BGDĐT (thay Thông tư 01/2014 từ 31/05/2026; chương trình cũ dùng tiếp đến hết 31/12/2027). Bậc 1–6 = A1–C2 giữ nguyên, thêm Tiền Bậc 1 = Pre-A1. Mục 1 bên dưới trích bản 2014, cần đối chiếu lại với bản 2026.
+
 Tài liệu nháp để chủ dự án duyệt. Không phải chuẩn chính thức của dự án cho đến khi được chốt.
 
 ## 1. Căn cứ đã đối chiếu

@@ -1,5 +1,8 @@
 # Đối chiếu English Grammar Profile và đề xuất module từ vựng
 
+> **Cập nhật 24/10/2026:** văn bản khung năng lực hiện hành là **Thông tư 33/2026/TT-BGDĐT** (hiệu lực 31/05/2026, `reference/33-bgddt.pdf`), thay Thông tư 01/2014. Quy đổi Bậc 1–6 = A1–C2 giữ nguyên; khung mới thêm **Tiền Bậc 1 = Pre-A1**. Các chỗ dưới đây nhắc "Thông tư 01/2014" nên đọc là khung cũ; mô tả độ chính xác ngữ pháp theo bậc cần được đối chiếu lại với bản 2026.
+
+
 Nháp để chủ dự án duyệt. Nguồn: `reference/English Grammar Profile Online.xlsx` (1.222 mô tả "can-do" có cấp CEFR, dựa trên dữ liệu học viên thật).
 
 ## 1. Cách đọc "độ khó" và đề xuất chia lại
