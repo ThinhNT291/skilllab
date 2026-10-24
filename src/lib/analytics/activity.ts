@@ -92,3 +92,27 @@ export function buildHeatmap(counts: Map<string, number>, today: Date = new Date
   }
   return columns
 }
+
+export interface WeekBucket {
+  /** Ngày đầu tuần (thứ Hai), dạng YYYY-MM-DD */
+  start: string
+  attempts: number
+  correct: number
+}
+
+/** Số câu và số câu đúng theo tuần (thứ Hai đến Chủ nhật), `weeks` tuần gần nhất, cũ nhất trước, tuần cuối chứa hôm nay. */
+export function weeklyAccuracy(rows: { correct: boolean; created_at: string }[], today: Date = new Date(), weeks = 8): WeekBucket[] {
+  const dow = (today.getDay() + 6) % 7
+  const firstStart = addDays(today, -dow - (weeks - 1) * 7)
+  const buckets: WeekBucket[] = Array.from({ length: weeks }, (_, i) => ({ start: dayKey(addDays(firstStart, i * 7)), attempts: 0, correct: 0 }))
+  for (const r of rows) {
+    const key = dayKey(new Date(r.created_at))
+    // Tuần của dòng: bucket cuối cùng có start <= ngày của dòng
+    let idx = -1
+    for (let i = 0; i < weeks; i++) if (buckets[i].start <= key) idx = i
+    if (idx < 0) continue
+    buckets[idx].attempts++
+    if (r.correct) buckets[idx].correct++
+  }
+  return buckets
+}

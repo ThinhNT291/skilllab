@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { NewLimitPicker } from "@/components/srs/new-limit-picker"
 import { CardManager } from "@/components/srs/card-manager"
 import { buildTagCatalog } from "@/lib/content/catalog"
 
@@ -12,6 +13,7 @@ export default async function CardsPage() {
         ← Ôn tập
       </Link>
       <h1 className="mb-3 mt-2 text-3xl font-extrabold">Quản lý thẻ</h1>
+      <NewLimitPicker />
       <CardManager topicTitles={topicTitles} />
     </main>
   )
