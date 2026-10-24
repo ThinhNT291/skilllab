@@ -14,7 +14,7 @@
         "id": "fp-u1-completed-by-future-time",
         "bac": 4,
         "label": "Việc sẽ hoàn thành trước một thời điểm trong tương lai",
-        "explanationVi": "Dùng will have + V3/V-ed để nói một việc sẽ ĐÃ HOÀN THÀNH trước một mốc thời gian trong tương lai. Hãy tưởng tượng bạn đứng ở mốc đó và nhìn lại: việc ấy đã xong. Thường đi với by + mốc thời gian (by next June, by 2030, by tomorrow morning).",
+        "explanationVi": "Dùng will have + V3/V-ed để nói một việc sẽ ĐÃ HOÀN THÀNH trước một mốc thời gian trong tương lai. Hãy tưởng tượng bạn đứng ở mốc đó và nhìn lại: việc ấy đã xong. Thường đi với by + mốc thời gian (by next June, by 2030, by tomorrow morning). Lưu ý: will + V + by (I'll finish by Friday) cũng tự nhiên, nhưng will have + V3 nhấn mạnh việc đã hoàn thành trước mốc đó.",
         "examples": [
           {
             "en": "By the end of the week, Nam will have read the whole novel.",
@@ -45,8 +45,8 @@
       {
         "id": "fp-u3-by-the-time-before",
         "bac": 4,
-        "label": "By the time, before và by với mệnh đề thời gian",
-        "explanationVi": "Với by the time, before, when, as soon as, until, mệnh đề thời gian dùng hiện tại đơn (không dùng will), còn mệnh đề chính dùng future perfect. Ví dụ: By the time you get home, I will have cooked dinner. Hai việc cùng nhắc đến tương lai nhưng chia khác thì.",
+        "label": "By the time và before với mệnh đề thời gian",
+        "explanationVi": "Với by the time, before, when, mệnh đề thời gian dùng hiện tại đơn (không dùng will), còn mệnh đề chính dùng future perfect. Ví dụ: By the time you get home, I will have cooked dinner. Hai việc cùng nhắc đến tương lai nhưng chia khác thì.",
         "examples": [
           {
             "en": "By the time Mom comes back, I will have tidied my room.",
@@ -61,8 +61,8 @@
       {
         "id": "fp-u4-assumptions-about-now",
         "bac": 5,
-        "label": "Đoán việc đã xảy ra rồi (suy đoán về hiện tại)",
-        "explanationVi": "Will have + V3 còn dùng để ĐOÁN một việc đã xảy ra xong rồi tính đến lúc nói, dựa trên hiểu biết của người nói. Cách dùng này nói về hiện tại, nên đi với các dấu hiệu như by now, already. Mức độ trang trọng hơn trong giao tiếp, thường gặp ở văn viết và trình độ cao.",
+        "label": "Đoán việc đã xảy ra rồi (suy đoán về hiện tại, nâng cao)",
+        "explanationVi": "Will have + V3 còn dùng để ĐOÁN một việc đã xảy ra xong rồi tính đến lúc nói, dựa trên hiểu biết của người nói. Cách dùng này nói về hiện tại, nên đi với các dấu hiệu như by now, already. Mức độ trang trọng hơn trong giao tiếp, thường gặp ở văn viết và trình độ cao. Trạng từ (probably, already, surely) đứng giữa will và have hoặc giữa have và V3: will probably have arrived, will have already gone. Trong đời thường, người ta cũng hay nói 'must have gone' hoặc 'has probably gone'.",
         "examples": [
           {
             "en": "It's late, so the bus will have gone by now.",
