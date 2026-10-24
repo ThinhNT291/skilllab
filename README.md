@@ -7,7 +7,7 @@ Ngữ cảnh và quyết định dự án: `CLAUDE.md`. Lộ trình: `ROADMAP.md
 ```bash
 npm install
 cp .env.example .env.local   # điền khóa Supabase/Gemini (chưa cần cho bản demo bài tập)
-npm run dev                  # http://localhost:3000
+npm run dev                  # http://localhost:4000
 ```
 Kiểm tra trước khi đẩy code: `npm run check:content`, `npm test` (kiểm thử hàm thuần: lịch ôn, chuỗi ngày, tổng hợp tiến độ), `npm run lint` và `npm run build`.
 

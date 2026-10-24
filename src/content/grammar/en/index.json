@@ -249,12 +249,34 @@
     "usageCount": 6
   },
   {
+    "id": "conjunctions",
+    "title": "Liên từ (Conjunctions)",
+    "levels": [
+      "A2",
+      "B1"
+    ],
+    "order": 25,
+    "category": "word-classes",
+    "usageCount": 5
+  },
+  {
+    "id": "phrasal-verb-rules",
+    "title": "Quy tắc cụm động từ (Phrasal verb rules)",
+    "levels": [
+      "B1",
+      "B2"
+    ],
+    "order": 26,
+    "category": "word-classes",
+    "usageCount": 5
+  },
+  {
     "id": "subjunctive",
     "title": "Câu giả định (Subjunctive: wish, if only, would rather, it's time...)",
     "levels": [
       "B2"
     ],
-    "order": 25,
+    "order": 27,
     "category": "sentence-structure",
     "usageCount": 7
   },
@@ -265,7 +287,7 @@
       "B2",
       "C1"
     ],
-    "order": 26,
+    "order": 28,
     "category": "sentence-structure",
     "usageCount": 5
   },
@@ -276,7 +298,7 @@
       "B2",
       "C1"
     ],
-    "order": 27,
+    "order": 29,
     "category": "sentence-structure",
     "usageCount": 5
   },
@@ -287,7 +309,7 @@
       "A2",
       "B1"
     ],
-    "order": 28,
+    "order": 30,
     "category": "word-classes",
     "usageCount": 6
   },
@@ -297,7 +319,7 @@
     "levels": [
       "B1"
     ],
-    "order": 29,
+    "order": 31,
     "category": "word-classes",
     "usageCount": 6
   }
