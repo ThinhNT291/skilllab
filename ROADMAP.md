@@ -98,3 +98,6 @@ Chủ đề cần đề xuất (mỗi chủ đề: vấn đề, bằng chứng, 
 - [ ] Module từ vựng: danh sách gốc EVP (bổ sung Oxford 3000/5000 khi cần), tham khảo `Oxford Word Skills`.
 - [x] Đã thêm 3 chuyên đề thì từ bảng cũ (future continuous, past perfect continuous, future perfect), mỗi chuyên đề rà bằng agent phản biện độc lập.
 - [ ] Còn thiếu 5 chuyên đề từ bảng cũ: đảo ngữ không điều kiện, câu chẻ, so/neither, liên từ, phrasal verbs (quy tắc).
+
+## Cập nhật 24/10/2026 (đã làm trong đợt này)
+Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói bằng Gemini (route + thang tiêu chí); đọc to bằng Gemini TTS; module từ vựng A1–B1; 6 chuyên đề mới + 3 chuyên đề mở rộng 50 câu. Việc tiếp theo: lưu điểm Viết/Nói (bảng riêng), CAPTCHA/đăng nhập thật trước khi công khai, kiểm chứng mã mô hình Gemini, từ vựng B2+ và nghĩa tiếng Việt (Gemini), liên từ phụ thuộc cho chuyên đề `conjunctions`, mở rộng 50 câu cho các chuyên đề còn lại, trang About ghi nguồn, dọn `legacy/`, game mini cho từ vựng.

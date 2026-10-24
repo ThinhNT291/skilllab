@@ -875,7 +875,7 @@
       "Sai — 'eaten': 'eaten' là quá khứ phân từ, cần có 'have/has' đi kèm, không đứng một mình làm động từ chính.",
       "Sai — 'eats': là hiện tại đơn, không hợp với 'yesterday'."
     ],
-    "bac": 1
+    "bac": 2
   },
   {
     "id": "en-past-simple-032",
@@ -904,7 +904,7 @@
       "Sai — 'make': là nguyên thể/hiện tại, không diễn tả việc đã xảy ra.",
       "Đúng — 'made': 'make' bất quy tắc: make → made; 'last night' là mốc quá khứ."
     ],
-    "bac": 1
+    "bac": 2
   },
   {
     "id": "en-past-simple-033",
@@ -941,8 +941,7 @@
     "topic": "past-simple",
     "usageId": "past-u6-negatives-questions",
     "tags": [
-      "past-u6-negatives-questions",
-      "past-u1-finished-action"
+      "past-u6-negatives-questions"
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
@@ -1015,7 +1014,7 @@
       "Đúng — 'Did / ride': câu hỏi quá khứ đơn: Did + chủ ngữ + động từ nguyên thể.",
       "Sai — 'Did / rode': sau 'Did' động từ phải ở nguyên thể (ride), không chia lại thành 'rode'.",
       "Sai — 'Does / ride': 'Does' là hiện tại, không hợp với 'yesterday morning'.",
-      "Sai — 'Was / ride': 'Was' đi với tính từ hoặc V-ing, không đi với động từ nguyên thể 'ride'."
+      "Sai — 'Was' là dạng của 'be', không đi trực tiếp với động từ nguyên thể 'ride'."
     ],
     "bac": 2
   },
@@ -1055,8 +1054,7 @@
     "topic": "past-simple",
     "usageId": "past-u6-negatives-questions",
     "tags": [
-      "past-u6-negatives-questions",
-      "past-u1-finished-action"
+      "past-u6-negatives-questions"
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
@@ -1162,7 +1160,7 @@
       "Sai — 'aren't': là hiện tại, nhưng cả câu kể một việc đã xảy ra (asked).",
       "Đúng — 'weren't': phủ định của 'be' ở quá khứ với chủ ngữ số nhiều là 'weren't'."
     ],
-    "bac": 2
+    "bac": 1
   },
   {
     "id": "en-past-simple-042",
@@ -1232,7 +1230,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Yesterday after school, Hoa ______ her homework, ______ dinner, and went to bed early.",
+    "prompt": "Yesterday after school, Hoa ______ (do) her homework, ______ (eat) dinner, and went to bed early.",
     "choices": [
       "did / ate",
       "done / ate",
@@ -1271,7 +1269,7 @@
     "correctIndex": 2,
     "explanation": "Khi từ để hỏi (who/what) chính là chủ ngữ, ta không dùng 'did': Who broke the window? Chỉ khi hỏi về tân ngữ mới có 'did' (What did you break?).",
     "choiceExplanations": [
-      "Sai — 'did break': trong câu hỏi mà 'Who' là chủ ngữ, thông thường không thêm 'did'; 'did break' nghe không tự nhiên.",
+      "Sai trong ngữ cảnh này — 'did break' chỉ dùng khi nhấn mạnh hoặc tương phản (vd: Who DID break it?); câu hỏi trung tính khi 'Who' là chủ ngữ dùng 'Who broke...?'.",
       "Sai — 'did broke': chia kép: sau 'did' động từ phải ở nguyên thể; và ở đây cũng không cần 'did'.",
       "Đúng — 'broke': khi 'Who' là chủ ngữ của câu hỏi, không cần 'did': Who + động từ quá khứ.",
       "Sai — 'breaks': là hiện tại đơn, nhưng cửa sổ đã vỡ từ trước."
@@ -1305,7 +1303,7 @@
       "Sai — 'studyed / stopped': 'stopped' đúng nhưng 'study' tận cùng phụ âm + y nên đổi y thành i: 'studied'.",
       "Đúng — 'studied / stopped': study → studied (đổi y thành i rồi thêm -ed); stop → stopped (nhân đôi phụ âm cuối rồi thêm -ed)."
     ],
-    "bac": 3
+    "bac": 2
   },
   {
     "id": "en-past-simple-047",
@@ -1334,7 +1332,7 @@
       "Sai — 'were / spoke': 'were' dành cho chủ ngữ số nhiều, còn 'my little brother' là số ít.",
       "Sai — 'is / speaks': là hiện tại, nhưng 'When he was five' cho thấy tình trạng này đã chấm dứt."
     ],
-    "bac": 3
+    "bac": 2
   },
   {
     "id": "en-past-simple-048",

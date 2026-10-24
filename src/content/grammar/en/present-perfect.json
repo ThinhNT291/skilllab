@@ -12,7 +12,7 @@
       {
         "id": "pp-u1-unspecified-past",
         "label": "Hành động xảy ra trong quá khứ không rõ thời gian",
-        "explanationVi": "Dùng để diễn tả một hành động đã xảy ra tại một thời điểm không xác định trong quá khứ, chúng ta không quan tâm 'khi nào' mà quan tâm 'đã làm'.",
+        "explanationVi": "Dùng để diễn tả một hành động đã xảy ra tại một thời điểm không xác định trong quá khứ, chúng ta không quan tâm 'khi nào' mà quan tâm 'đã làm'. Một số quá khứ phân từ (V-p2) bất quy tắc hay gặp: be → been, go → gone, have → had, do → done, ride → ridden, fly → flown, know → known, hear → heard, win → won, buy → bought.",
         "examples": [
           {
             "en": "I have visited that ancient castle before.",
@@ -44,7 +44,7 @@
       {
         "id": "pp-u3-repeated",
         "label": "Hành động lặp lại nhiều lần trong quá khứ",
-        "explanationVi": "Dùng để diễn tả một việc đã được thực hiện nhiều lần từ quá khứ cho đến hiện tại.",
+        "explanationVi": "Dùng để diễn tả một việc đã được thực hiện nhiều lần từ quá khứ cho đến hiện tại. Khoảng thời gian còn đang diễn ra (today, this week, this month, this season, so far) cũng dùng hiện tại hoàn thành vì chưa kết thúc.",
         "examples": [
           {
             "en": "I have seen this movie three times.",
@@ -76,7 +76,7 @@
       {
         "id": "pp-u5-experience",
         "label": "Diễn tả kinh nghiệm hoặc trải nghiệm sống",
-        "explanationVi": "Dùng để hỏi hoặc kể về những kinh nghiệm, trải nghiệm bản thân đã có hoặc chưa từng có từ trước đến nay.",
+        "explanationVi": "Dùng để hỏi hoặc kể về những kinh nghiệm, trải nghiệm bản thân đã có hoặc chưa từng có từ trước đến nay. Trả lời ngắn dùng lại have/has: Have you ever tried sushi? — Yes, I have. / No, I haven't.",
         "examples": [
           {
             "en": "Have you ever travelled to Japan?",
@@ -92,7 +92,7 @@
       {
         "id": "pp-u6-been-gone",
         "label": "Phân biệt been và gone (have been to / have gone to)",
-        "explanationVi": "'Have/has been to' nói về nơi ai đó đã đến rồi và đã quay về (kinh nghiệm), nên hợp với ever/never. 'Have/has gone to' nói về nơi ai đó đã đi và hiện vẫn đang ở đó hoặc đang trên đường, chưa về. Vì vậy 'Have you ever gone to...?' không dùng để hỏi trải nghiệm; hãy dùng 'Have you ever been to...?'.",
+        "explanationVi": "'Have/has been to' nói về nơi ai đó đã đến rồi và đã quay về (kinh nghiệm), nên hợp với ever/never. 'Have/has gone to' nói về nơi ai đó đã đi và hiện vẫn đang ở đó hoặc đang trên đường, chưa về. Vì vậy khi hỏi trải nghiệm, 'Have you ever been to...?' là cách nói tự nhiên; 'gone to' không mang nghĩa 'đã đến rồi quay về'.",
         "examples": [
           {
             "en": "My aunt has been to Canada, so she can tell us about it.",
@@ -109,7 +109,7 @@
         "id": "pp-vs-simple-past",
         "level": "B1",
         "label": "Phân biệt Hiện tại hoàn thành và Quá khứ đơn",
-        "explanationVi": "Hiện tại hoàn thành (have/has + V-p2) nối quá khứ với hiện tại: hành động không nêu thời điểm cụ thể, hoặc kéo dài/để lại kết quả đến nay; thường đi với ever, never, already, yet, just, so far, recently, since, for. Quá khứ đơn (V-ed/V2) nói về hành động đã kết thúc tại một thời điểm xác định trong quá khứ; đi với yesterday, last night/week/year, ago, in 2015, when... Quy tắc then chốt: hễ câu có (hoặc đang hỏi về) mốc thời gian quá khứ cụ thể thì phải dùng Quá khứ đơn, KHÔNG dùng Hiện tại hoàn thành; câu hỏi 'When ...?' luôn dùng Quá khứ đơn. Trong hội thoại, người ta thường mở bằng Hiện tại hoàn thành để hỏi trải nghiệm ('Have you ever...?') rồi chuyển sang Quá khứ đơn khi nêu chi tiết cụ thể ('Yes, I went there last year'). Với người đã mất hoặc giai đoạn đã chấm dứt hẳn (Shakespeare wrote...), dùng Quá khứ đơn vì không còn liên hệ với hiện tại. Lưu ý: tiếng Anh Mỹ đôi khi dùng Quá khứ đơn với just/already/yet; bài học này theo chuẩn Anh-Anh.",
+        "explanationVi": "Hiện tại hoàn thành (have/has + V-p2) nối quá khứ với hiện tại: hành động không nêu thời điểm cụ thể, hoặc kéo dài/để lại kết quả đến nay; thường đi với ever, never, already, yet, just, so far, recently, since, for. Quá khứ đơn (V-ed/V2) nói về hành động đã kết thúc tại một thời điểm xác định trong quá khứ; đi với yesterday, last night/week/year, ago, in 2015, when... Quy tắc then chốt: hễ câu có (hoặc đang hỏi về) mốc thời gian quá khứ cụ thể thì phải dùng Quá khứ đơn, KHÔNG dùng Hiện tại hoàn thành; câu hỏi 'When ...?' luôn dùng Quá khứ đơn. Trong hội thoại, người ta thường mở bằng Hiện tại hoàn thành để hỏi trải nghiệm ('Have you ever...?') rồi chuyển sang Quá khứ đơn khi nêu chi tiết cụ thể ('Yes, I went there last year'). Với người đã mất hoặc giai đoạn đã chấm dứt hẳn (Shakespeare wrote...), dùng Quá khứ đơn vì không còn liên hệ với hiện tại. Lưu ý: tiếng Anh Mỹ đời thường hay dùng quá khứ đơn với just/already/yet (vd. 'I already ate'), còn tiếng Anh Anh và văn viết chuẩn dùng hiện tại hoàn thành. Bài học dùng hiện tại hoàn thành làm chuẩn. For + khoảng thời gian dùng được với cả hai thì: còn liên hệ với hiện tại thì hiện tại hoàn thành, đã chấm dứt hẳn thì quá khứ đơn.",
         "examples": [
           {
             "en": "I have lost my keys, so I can't open the door.",

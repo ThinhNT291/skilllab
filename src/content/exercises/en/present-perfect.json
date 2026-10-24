@@ -945,7 +945,7 @@
     "explanation": "Phủ định với 'yet': have/has + not + V-p2. Chủ ngữ 'I' đi với 'have'.",
     "choiceExplanations": [
       "Sai — 'hasn't' dùng với chủ ngữ số ít (he/she/it), không đi với 'I'.",
-      "Sai — sau 'didn't' phải dùng nguyên thể 'finish'; hơn nữa 'yet' đi với hiện tại hoàn thành.",
+      "Sai — sau 'didn't' phải dùng nguyên thể 'finish', không dùng 'finished'. (Tiếng Anh Mỹ có thể dùng quá khứ đơn với yet, nhưng đáp án này còn sai dạng động từ.)",
       "Đúng — 'I' đi với 'have'; phủ định + 'yet' (chưa) dùng haven't + V-p2.",
       "Sai — đây là dạng khẳng định, trong khi câu nói là chưa xong."
     ],
@@ -1018,7 +1018,7 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Look outside! The rain ______, so we can play football now.",
+    "prompt": "Look outside! The rain ______, so we can play soccer now.",
     "choices": [
       "has stopped",
       "have stopped",
@@ -1132,7 +1132,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Don't buy the tickets. Linh ______ bought them.",
     "choices": [
-      "already has",
+      "has already buy",
       "has already",
       "have already",
       "had already"
@@ -1140,7 +1140,7 @@
     "correctIndex": 1,
     "explanation": "Vị trí 'already': have/has + already + V-p2. 'Linh' là số ít → has.",
     "choiceExplanations": [
-      "Sai — 'already' phải đứng sau 'has', không đứng trước.",
+      "Sai — sau 'has' phải dùng V-p2 (bought), không dùng nguyên thể 'buy'.",
       "Đúng — 'already' đứng sau have/has và trước V-p2: has already bought.",
       "Sai — 'Linh' là số ít nên dùng 'has'.",
       "Sai — 'had' là quá khứ hoàn thành; ngữ cảnh đang nói về hiện tại (đừng mua nữa)."
@@ -1197,7 +1197,7 @@
     "explanation": "'So far' là dấu hiệu của hiện tại hoàn thành: đếm kết quả cho đến thời điểm nói.",
     "choiceExplanations": [
       "Đúng — 'so far' (cho đến bây giờ) đếm số lần tính đến hiện tại, 'team' là số ít → has won.",
-      "Sai — quá khứ đơn dùng cho thời điểm đã kết thúc; 'so far' cho thấy mùa giải vẫn đang tiếp diễn.",
+      "Sai — mùa giải còn tiếp diễn nên chuẩn là hiện tại hoàn thành. (Tiếng Anh Mỹ đời thường đôi khi vẫn nói 'won' với so far, nhưng bài này dùng dạng chuẩn.)",
       "Sai — hiện tại đơn nói thói quen hoặc sự thật chung, không đếm số lần đến nay.",
       "Sai — hiện tại tiếp diễn nói trận đang diễn ra."
     ],
@@ -1337,7 +1337,7 @@
     "explanation": "Hỏi 'đã từng đến' dùng 'been to', không dùng 'gone to'. 'Your parents' → Have.",
     "choiceExplanations": [
       "Đúng — hỏi về trải nghiệm đã đến nơi đó (rồi trở về): Have + S + ever + been to. 'Your parents' số nhiều → Have.",
-      "Sai — 'gone' nghĩa là đã đi và chưa về, không dùng để hỏi trải nghiệm đã từng đến một nơi.",
+      "Sai — 'gone' nghĩa là đã đi và chưa về; hỏi trải nghiệm đã đến một nơi thì tự nhiên hơn là dùng 'been to'.",
       "Sai — 'your parents' là số nhiều nên dùng 'Have'.",
       "Sai — 'Did' đi với nguyên thể, không đi với V-p2 'been'."
     ],
@@ -1366,7 +1366,7 @@
     "choiceExplanations": [
       "Sai — hiện tại đơn không diễn tả quãng thời gian kể từ một mốc trong quá khứ.",
       "Sai — quá khứ đơn nói việc đã kết thúc, trong khi hai bạn vẫn quen nhau.",
-      "Sai — 'know' không dùng ở thì tiếp diễn trong trường hợp này.",
+      "Sai — với 'since' cần hiện tại hoàn thành, không dùng hiện tại tiếp diễn.",
       "Đúng — 'since kindergarten' là mốc kéo dài đến nay; 'My best friend and I' số nhiều → have known."
     ],
     "bac": 3
