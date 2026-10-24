@@ -1,0 +1,821 @@
+[
+  {
+    "id": "en-past-simple-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u1-finished-action",
+    "tags": [
+      "past-u1-finished-action"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Lan ______ (finish) her homework before dinner last night.",
+    "choices": [
+      "did finished",
+      "finished",
+      "finishes",
+      "finish"
+    ],
+    "correctIndex": 1,
+    "explanation": "Diễn tả hành động đã hoàn thành tại mốc thời gian xác định 'last night', dùng Quá khứ đơn: finish → finished.",
+    "choiceExplanations": [
+      "Sai — chia kép: câu khẳng định không dùng 'did', và sau 'did' động từ phải ở nguyên thể.",
+      "Đúng — hành động đã hoàn thành tại mốc 'last night' → quá khứ đơn: finished.",
+      "Sai — 'finishes' là hiện tại đơn, không hợp với 'last night'.",
+      "Sai — 'finish' là nguyên thể/hiện tại, không diễn tả hành động đã xảy ra."
+    ]
+  },
+  {
+    "id": "en-past-simple-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u1-finished-action",
+    "tags": [
+      "past-u1-finished-action"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ (watch) a really funny movie yesterday evening.",
+    "choices": [
+      "watches",
+      "watched",
+      "watch",
+      "did watched"
+    ],
+    "correctIndex": 1,
+    "explanation": "'yesterday evening' là mốc thời gian quá khứ xác định, động từ 'watch' chia thành 'watched'.",
+    "choiceExplanations": [
+      "Sai — 'watches' là hiện tại đơn, không hợp với 'yesterday evening'.",
+      "Đúng — 'yesterday evening' là mốc quá khứ xác định → watched.",
+      "Sai — 'watch' là nguyên thể/hiện tại.",
+      "Sai — chia kép: câu khẳng định không dùng 'did', và sau 'did' động từ phải ở nguyên thể."
+    ]
+  },
+  {
+    "id": "en-past-simple-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u1-finished-action",
+    "tags": [
+      "past-u1-finished-action"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The manager ______ (call) a short meeting last Monday morning.",
+    "choices": [
+      "was called",
+      "calls",
+      "call",
+      "called"
+    ],
+    "correctIndex": 3,
+    "explanation": "'last Monday morning' là mốc thời gian quá khứ xác định nên dùng Quá khứ đơn: call → called.",
+    "choiceExplanations": [
+      "Sai — 'was called' là dạng bị động, không hợp vì 'The manager' là người thực hiện hành động triệu tập cuộc họp.",
+      "Sai — 'calls' là hiện tại đơn, không hợp với 'last Monday morning'.",
+      "Sai — 'call' là nguyên thể/hiện tại.",
+      "Đúng — 'last Monday morning' là mốc quá khứ xác định → called."
+    ]
+  },
+  {
+    "id": "en-past-simple-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u2-sequence-of-actions",
+    "tags": [
+      "past-u2-sequence-of-actions"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "First, Minh ______ (wake) up early, and then he ______ (jog) around the park.",
+    "choices": [
+      "waked / jogged",
+      "wake / jog",
+      "woke / jog",
+      "woke / jogged"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chuỗi hai hành động liên tiếp trong quá khứ đều chia ở Quá khứ đơn: wake→woke (bất quy tắc), jog→jogged (có quy tắc).",
+    "choiceExplanations": [
+      "Sai — 'wake' là động từ bất quy tắc, quá khứ là 'woke', không phải 'waked'.",
+      "Sai — cả hai vế còn ở nguyên thể, không diễn tả hành động đã xảy ra.",
+      "Sai — 'woke' đúng nhưng 'jog' phải chia quá khứ 'jogged' vì hai hành động liên tiếp đều ở quá khứ.",
+      "Đúng — woke (bất quy tắc) và jogged (có quy tắc, nhân đôi g)."
+    ]
+  },
+  {
+    "id": "en-past-simple-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u2-sequence-of-actions",
+    "tags": [
+      "past-u2-sequence-of-actions"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The old lady ______ (open) the window, ______ (look) outside, and then closed the curtain.",
+    "choices": [
+      "opens / looks",
+      "opened / look",
+      "opened / looked",
+      "open / look"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ba hành động liên tiếp trong một câu chuyện quá khứ đều chia Quá khứ đơn: open→opened, look→looked.",
+    "choiceExplanations": [
+      "Sai — cả hai vế dùng hiện tại đơn, trong khi câu kể chuyện ở quá khứ (có 'closed').",
+      "Sai — 'opened' đúng nhưng 'look' phải là 'looked' để đồng nhất ở quá khứ.",
+      "Đúng — chuỗi hành động liên tiếp trong quá khứ: opened, looked, closed.",
+      "Sai — cả hai còn ở nguyên thể, không phải quá khứ."
+    ]
+  },
+  {
+    "id": "en-past-simple-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u3-habit-state",
+    "tags": [
+      "past-u3-habit-state"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When I was young, I ______ (live) in a small village with my grandparents.",
+    "choices": [
+      "live",
+      "lived",
+      "was lived",
+      "lives"
+    ],
+    "correctIndex": 1,
+    "explanation": "'When I was young' diễn tả tình trạng kéo dài nay đã chấm dứt, dùng Quá khứ đơn: live→lived.",
+    "choiceExplanations": [
+      "Sai — 'live' là hiện tại, không hợp với 'When I was young'.",
+      "Đúng — tình trạng kéo dài trong quá khứ nay đã chấm dứt → lived.",
+      "Sai — 'was lived' là dạng bị động; 'live' ở đây không có tân ngữ nên không dùng bị động.",
+      "Sai — 'lives' là hiện tại đơn ngôi thứ ba, không hợp với chủ ngữ 'I' và thì quá khứ."
+    ]
+  },
+  {
+    "id": "en-past-simple-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u3-habit-state",
+    "tags": [
+      "past-u3-habit-state",
+      "past-u4-to-be-past"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "As a child, my sister ______ (be) afraid of the dark.",
+    "choices": [
+      "is",
+      "was",
+      "be",
+      "were"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chủ ngữ 'my sister' số ít nên dùng 'was'. Diễn tả trạng thái kéo dài trong quá khứ nay đã chấm dứt.",
+    "choiceExplanations": [
+      "Sai — 'is' là hiện tại, trong khi câu nói về lúc còn nhỏ ('As a child').",
+      "Đúng — 'my sister' là số ít, ở quá khứ → was.",
+      "Sai — 'be' nguyên thể không thể chia với chủ ngữ này.",
+      "Sai — 'were' dành cho you/we/they và chủ ngữ số nhiều, còn 'my sister' là số ít."
+    ]
+  },
+  {
+    "id": "en-past-simple-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u4-to-be-past",
+    "tags": [
+      "past-u4-to-be-past"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The traffic ______ very heavy this morning, so I was late for work.",
+    "choices": [
+      "is",
+      "were",
+      "was",
+      "be"
+    ],
+    "correctIndex": 2,
+    "explanation": "'The traffic' là danh từ số ít, dùng 'was' để diễn tả tình trạng trong quá khứ.",
+    "choiceExplanations": [
+      "Sai — 'is' là hiện tại, nhưng câu nói về 'this morning' đã qua ('so I was late').",
+      "Sai — 'were' dùng với chủ ngữ số nhiều; 'The traffic' là danh từ không đếm được, đi với động từ số ít.",
+      "Đúng — 'The traffic' số ít, quá khứ → was.",
+      "Sai — 'be' nguyên thể không thể chia với chủ ngữ này."
+    ]
+  },
+  {
+    "id": "en-past-simple-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u4-to-be-past",
+    "tags": [
+      "past-u4-to-be-past"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My parents ______ very proud of me when I graduated from university.",
+    "choices": [
+      "was",
+      "are",
+      "is",
+      "were"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chủ ngữ 'My parents' số nhiều, dùng 'were' để diễn tả cảm xúc trong quá khứ.",
+    "choiceExplanations": [
+      "Sai — 'was' dành cho chủ ngữ số ít, còn 'My parents' là số nhiều.",
+      "Sai — 'are' là hiện tại, nhưng câu nói về lúc đã tốt nghiệp ('when I graduated').",
+      "Sai — 'is' là hiện tại và dành cho chủ ngữ số ít.",
+      "Đúng — 'My parents' số nhiều, ở quá khứ → were."
+    ]
+  },
+  {
+    "id": "en-past-simple-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u1-finished-action",
+    "tags": [
+      "past-u1-finished-action",
+      "past-u5-definite-time-marker"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She ______ (buy) this laptop three years ago.",
+    "choices": [
+      "did bought",
+      "buys",
+      "bought",
+      "buy"
+    ],
+    "correctIndex": 2,
+    "explanation": "'three years ago' là mốc thời gian quá khứ xác định. Buy là động từ bất quy tắc: buy→bought.",
+    "choiceExplanations": [
+      "Sai — chia kép: câu khẳng định không dùng 'did', và sau 'did' động từ giữ nguyên thể.",
+      "Sai — 'buys' là hiện tại đơn, không hợp với 'three years ago'.",
+      "Đúng — 'buy' là động từ bất quy tắc: bought.",
+      "Sai — 'buy' là nguyên thể/hiện tại."
+    ]
+  },
+  {
+    "id": "en-past-simple-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u1-finished-action",
+    "tags": [
+      "past-u1-finished-action"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you ______ (see) that documentary about the ocean last week?",
+    "choices": [
+      "Did / saw",
+      "Do / see",
+      "Did / see",
+      "Were / see"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu hỏi Quá khứ đơn dùng trợ động từ 'Did' + động từ nguyên mẫu (không chia lại): Did you see...?",
+    "choiceExplanations": [
+      "Sai — sau 'Did' động từ phải ở nguyên thể (see), không chia quá khứ (saw).",
+      "Sai — 'Do ... see' là hiện tại đơn, không hợp với 'last week'.",
+      "Đúng — Did + chủ ngữ + động từ nguyên thể.",
+      "Sai — 'Were' đi với tính từ/V-ing, không đi với động từ nguyên thể 'see'."
+    ]
+  },
+  {
+    "id": "en-past-simple-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u1-finished-action",
+    "tags": [
+      "past-u1-finished-action"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He ______ (not/finish) the report on time, so his boss was upset.",
+    "choices": [
+      "didn't finished",
+      "didn't finish",
+      "doesn't finish",
+      "not finished"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu phủ định Quá khứ đơn: S + didn't + V nguyên mẫu (không chia -ed thêm lần nữa).",
+    "choiceExplanations": [
+      "Sai — chia kép: sau 'didn't' động từ giữ nguyên thể, không thêm -ed.",
+      "Đúng — didn't + động từ nguyên thể.",
+      "Sai — 'doesn't' là hiện tại, không hợp với vế sau 'his boss was upset' (quá khứ).",
+      "Sai — thiếu trợ động từ: không thể phủ định quá khứ chỉ bằng 'not'."
+    ]
+  },
+  {
+    "id": "en-past-simple-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u2-sequence-of-actions",
+    "tags": [
+      "past-u2-sequence-of-actions"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The two brothers ______ (go) fishing, ______ (catch) nothing, and finally ______ (go) home empty-handed.",
+    "choices": [
+      "went / catch / went",
+      "go / catch / go",
+      "goed / caught / went",
+      "went / caught / went"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chuỗi ba hành động liên tiếp đều chia Quá khứ đơn với động từ bất quy tắc: go→went, catch→caught.",
+    "choiceExplanations": [
+      "Sai — 'catch' ở vế giữa cũng phải ở quá khứ (caught) để cùng chuỗi hành động.",
+      "Sai — cả ba vế còn ở nguyên thể/hiện tại.",
+      "Sai — 'go' là bất quy tắc: quá khứ là 'went', không phải 'goed'.",
+      "Đúng — went, caught, went (đều là động từ bất quy tắc)."
+    ]
+  },
+  {
+    "id": "en-past-simple-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u3-habit-state",
+    "tags": [
+      "past-u3-habit-state"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My father ______ (drive) a truck for a living when he was younger.",
+    "choices": [
+      "did drove",
+      "drive",
+      "drove",
+      "drives"
+    ],
+    "correctIndex": 2,
+    "explanation": "Diễn tả công việc/thói quen kéo dài trong quá khứ nay đã chấm dứt: drive→drove (bất quy tắc).",
+    "choiceExplanations": [
+      "Sai — chia kép: câu khẳng định không dùng 'did'.",
+      "Sai — 'drive' là hiện tại, nhưng 'when he was younger' chỉ quá khứ.",
+      "Đúng — 'drive' bất quy tắc: drove.",
+      "Sai — 'drives' là hiện tại đơn."
+    ]
+  },
+  {
+    "id": "en-past-simple-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u4-to-be-past",
+    "tags": [
+      "past-u4-to-be-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There ______ a lot of guests at the party, but there ______ enough chairs for everyone.",
+    "choices": [
+      "were / weren't",
+      "was / weren't",
+      "was / wasn't",
+      "were / wasn't"
+    ],
+    "correctIndex": 0,
+    "explanation": "'guests' và 'chairs' đều là danh từ số nhiều nên dùng 'were' cho khẳng định và 'weren't' cho phủ định.",
+    "choiceExplanations": [
+      "Đúng — 'guests' và 'chairs' đều số nhiều → were / weren't.",
+      "Sai — 'a lot of guests' là số nhiều nên cần 'were', không dùng 'was'.",
+      "Sai — cả hai chủ ngữ đều số nhiều nên không dùng 'was/wasn't'.",
+      "Sai — vế sau có 'chairs' là số nhiều nên cần 'weren't', không phải 'wasn't'."
+    ]
+  },
+  {
+    "id": "en-past-simple-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u4-to-be-past",
+    "tags": [
+      "past-u4-to-be-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ (not/be) at home when you called me yesterday.",
+    "choices": [
+      "wasn't",
+      "isn't",
+      "weren't",
+      "didn't be"
+    ],
+    "correctIndex": 0,
+    "explanation": "Phủ định của 'be' ở quá khứ với chủ ngữ 'I' là 'wasn't' (không dùng trợ động từ 'did' với động từ 'to be').",
+    "choiceExplanations": [
+      "Đúng — phủ định của 'be' ở quá khứ với 'I' là wasn't.",
+      "Sai — 'isn't' là hiện tại và không đi với 'I'.",
+      "Sai — 'weren't' không đi với chủ ngữ 'I'.",
+      "Sai — động từ 'to be' không dùng trợ động từ 'did' khi phủ định."
+    ]
+  },
+  {
+    "id": "en-past-simple-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u5-definite-time-marker",
+    "tags": [
+      "past-u5-definite-time-marker",
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Two years ago, my sister ______ (work) as a tour guide in Hoi An.",
+    "choices": [
+      "works",
+      "has worked",
+      "was worked",
+      "worked"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Two years ago' là mốc thời gian quá khứ xác định, buộc dùng Quá khứ đơn (worked), không dùng Hiện tại hoàn thành.",
+    "choiceExplanations": [
+      "Sai — 'works' là hiện tại đơn, không hợp với 'Two years ago'.",
+      "Sai — hiện tại hoàn thành không đi với mốc quá khứ xác định như 'Two years ago'.",
+      "Sai — 'was worked' là dạng bị động, không hợp nghĩa (cô ấy làm việc chứ không 'bị làm').",
+      "Đúng — mốc quá khứ xác định → quá khứ đơn: worked."
+    ]
+  },
+  {
+    "id": "en-past-simple-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u5-definite-time-marker",
+    "tags": [
+      "past-u5-definite-time-marker",
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: How long have you lived in Hue? B: I ______ (move) here in 2020.",
+    "choices": [
+      "was moved",
+      "have moved",
+      "moved",
+      "move"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dù câu hỏi dùng Hiện tại hoàn thành, câu trả lời có mốc thời gian xác định 'in 2020' nên phải dùng Quá khứ đơn (moved), không dùng Hiện tại hoàn thành.",
+    "choiceExplanations": [
+      "Sai — 'was moved' là dạng bị động, không hợp nghĩa 'chuyển đến'.",
+      "Sai — dù câu hỏi dùng hiện tại hoàn thành, câu trả lời có mốc xác định 'in 2020' nên không dùng hiện tại hoàn thành.",
+      "Đúng — mốc 'in 2020' → quá khứ đơn: moved.",
+      "Sai — 'move' là nguyên thể/hiện tại."
+    ]
+  },
+  {
+    "id": "en-past-simple-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u5-definite-time-marker",
+    "tags": [
+      "past-u5-definite-time-marker",
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Compare: (1) I ______ (visit) Da Nang last summer. (2) I ______ (visit) Da Nang three times so far.",
+    "choices": [
+      "have visited / have visited",
+      "visited / have visited",
+      "visited / visited",
+      "have visited / visited"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu (1) có mốc thời gian xác định 'last summer' nên dùng Quá khứ đơn (visited); câu (2) có 'so far' (cho đến nay) không xác định mốc cụ thể nên dùng Hiện tại hoàn thành (have visited).",
+    "choiceExplanations": [
+      "Sai — vế (1) có 'last summer' (mốc xác định) nên không dùng hiện tại hoàn thành.",
+      "Đúng — (1) 'last summer' → visited; (2) 'so far' (cho đến nay, không rõ mốc) → have visited.",
+      "Sai — vế (2) có 'so far' nên cần hiện tại hoàn thành, không dùng quá khứ đơn.",
+      "Sai — đảo ngược hai thì giữa hai vế."
+    ]
+  },
+  {
+    "id": "en-past-simple-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u1-finished-action",
+    "tags": [
+      "past-u1-finished-action"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The children ______ (play) hide-and-seek in the garden all afternoon last Sunday.",
+    "choices": [
+      "plays",
+      "played",
+      "play",
+      "did played"
+    ],
+    "correctIndex": 1,
+    "explanation": "'last Sunday' là mốc thời gian quá khứ xác định, động từ chia: play→played.",
+    "choiceExplanations": [
+      "Sai — 'plays' là hiện tại đơn, không hợp với 'last Sunday' và cũng không hợp với chủ ngữ số nhiều 'The children'.",
+      "Đúng — mốc 'last Sunday' → played.",
+      "Sai — 'play' là nguyên thể/hiện tại, không diễn tả hành động đã xảy ra.",
+      "Sai — chia kép: câu khẳng định không dùng 'did'."
+    ]
+  },
+  {
+    "id": "en-past-simple-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u3-habit-state",
+    "tags": [
+      "past-u3-habit-state"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My grandmother ______ (tell) us fascinating stories about the war every evening when we were kids.",
+    "choices": [
+      "tells",
+      "tell",
+      "did told",
+      "told"
+    ],
+    "correctIndex": 3,
+    "explanation": "Diễn tả thói quen lặp lại trong quá khứ (mỗi tối) nay đã chấm dứt, không cần 'used to' mà chỉ dùng Quá khứ đơn: tell→told.",
+    "choiceExplanations": [
+      "Sai — 'tells' là hiện tại đơn, nhưng 'when we were kids' chỉ quá khứ.",
+      "Sai — 'tell' là nguyên thể/hiện tại.",
+      "Sai — chia kép: câu khẳng định không dùng 'did'.",
+      "Đúng — thói quen đã chấm dứt trong quá khứ dùng quá khứ đơn: tell → told."
+    ]
+  },
+  {
+    "id": "en-past-simple-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u2-sequence-of-actions",
+    "tags": [
+      "past-u2-sequence-of-actions"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The thief ______ (break) the window, ______ (climb) inside, and ______ (steal) some jewelry before anyone noticed.",
+    "choices": [
+      "breaked / climbed / stole",
+      "broke / climbed / stole",
+      "breaks / climbs / steals",
+      "broke / climb / stole"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chuỗi ba hành động liên tiếp trong quá khứ, có cả động từ bất quy tắc: break→broke, steal→stole, và động từ có quy tắc climb→climbed.",
+    "choiceExplanations": [
+      "Sai — 'break' là bất quy tắc: quá khứ là 'broke', không phải 'breaked'.",
+      "Đúng — broke, climbed, stole: chuỗi ba hành động liên tiếp trong quá khứ.",
+      "Sai — cả ba vế dùng hiện tại đơn, nhưng đây là chuỗi hành động đã xảy ra.",
+      "Sai — 'climb' ở vế giữa cũng phải ở quá khứ (climbed)."
+    ]
+  },
+  {
+    "id": "en-past-simple-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u1-finished-action",
+    "tags": [
+      "past-u1-finished-action"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Did she finish the marathon? B: Yes, she ______, even though it was raining heavily.",
+    "choices": [
+      "did",
+      "has",
+      "does",
+      "was"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trong câu trả lời rút gọn cho câu hỏi Quá khứ đơn, ta dùng trợ động từ 'did' để thay cho cả cụm động từ phía trước.",
+    "choiceExplanations": [
+      "Đúng — trả lời rút gọn cho câu hỏi 'Did ...?' dùng 'did'.",
+      "Sai — 'has' là trợ động từ hiện tại hoàn thành, không khớp với câu hỏi quá khứ đơn.",
+      "Sai — 'does' là hiện tại.",
+      "Sai — 'was' đi với tính từ/V-ing, không thay thế được cụm 'finished the marathon'."
+    ]
+  },
+  {
+    "id": "en-past-simple-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u5-definite-time-marker",
+    "tags": [
+      "past-u5-definite-time-marker",
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "William Shakespeare ______ (write) 'Romeo and Juliet' in the late 16th century.",
+    "choices": [
+      "wrote",
+      "was written",
+      "has written",
+      "writes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sự việc gắn với một mốc thời gian xác định đã qua trong lịch sử nên phải dùng Quá khứ đơn (wrote), không dùng Hiện tại hoàn thành.",
+    "choiceExplanations": [
+      "Đúng — sự việc gắn với mốc quá khứ xác định (late 16th century) → wrote.",
+      "Sai — 'was written' là dạng bị động, trong khi Shakespeare là người viết.",
+      "Sai — hiện tại hoàn thành không đi với mốc quá khứ xác định; Shakespeare cũng đã mất nên không còn liên hệ với hiện tại.",
+      "Sai — 'writes' là hiện tại đơn."
+    ]
+  },
+  {
+    "id": "en-past-simple-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u5-definite-time-marker",
+    "tags": [
+      "past-u5-definite-time-marker",
+      "pp-vs-simple-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Have you ever been to Japan? B: Yes, actually I ______ there for a business trip last April.",
+    "choices": [
+      "go",
+      "have gone",
+      "went",
+      "was gone"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu trả lời có mốc thời gian xác định 'last April' nên bắt buộc dùng Quá khứ đơn (went), dù câu hỏi ban đầu dùng Hiện tại hoàn thành để hỏi về trải nghiệm.",
+    "choiceExplanations": [
+      "Sai — 'go' là nguyên thể/hiện tại.",
+      "Sai — 'have gone' nghĩa là đã đi và chưa quay lại, và hiện tại hoàn thành không đi với mốc 'last April'.",
+      "Đúng — mốc 'last April' → quá khứ đơn: went.",
+      "Sai — 'was gone' không phải cách nói 'đã đến đó' trong ngữ cảnh này."
+    ]
+  },
+  {
+    "id": "en-past-simple-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u3-habit-state",
+    "tags": [
+      "past-u3-habit-state",
+      "past-u4-to-be-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When I ______ (be) a student, I ______ (not/have) much free time because I did a part-time job every weekend.",
+    "choices": [
+      "was / hadn't",
+      "were / didn't have",
+      "were / didn't had",
+      "was / didn't have"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chủ ngữ 'I' dùng 'was'. Phủ định Quá khứ đơn của 'have' là 'didn't have' (động từ giữ nguyên dạng nguyên mẫu sau 'didn't').",
+    "choiceExplanations": [
+      "Sai — 'hadn't' là quá khứ hoàn thành (hoặc dạng cổ), không phải cách phủ định quá khứ đơn thông thường của 'have' (didn't have).",
+      "Sai — 'were' không đi với chủ ngữ 'I'.",
+      "Sai — 'were' không đi với 'I', và 'didn't had' là chia kép.",
+      "Đúng — 'I' dùng 'was'; phủ định quá khứ đơn của 'have' là didn't have."
+    ]
+  },
+  {
+    "id": "en-past-simple-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u1-finished-action",
+    "tags": [
+      "past-u1-finished-action"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The results ______ (surprise) everyone because nobody expected the team to win the championship.",
+    "choices": [
+      "surprised",
+      "did surprised",
+      "surprise",
+      "surprises"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hành động đã kết thúc, gây bất ngờ trong quá khứ, chia Quá khứ đơn: surprise→surprised.",
+    "choiceExplanations": [
+      "Đúng — hành động đã xảy ra trong quá khứ → surprised.",
+      "Sai — chia kép: câu khẳng định không dùng 'did'.",
+      "Sai — 'surprise' là nguyên thể/hiện tại.",
+      "Sai — 'surprises' là hiện tại đơn."
+    ]
+  },
+  {
+    "id": "en-past-simple-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u4-to-be-past",
+    "tags": [
+      "past-u4-to-be-past",
+      "past-u5-definite-time-marker"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Fifty years ago, most people in this region ______ (be) farmers, but the situation has changed a lot since then.",
+    "choices": [
+      "were",
+      "have been",
+      "was",
+      "are"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Fifty years ago' là mốc thời gian quá khứ xác định, chủ ngữ 'most people' số nhiều nên dùng 'were', không dùng Hiện tại hoàn thành.",
+    "choiceExplanations": [
+      "Đúng — 'Fifty years ago' → quá khứ đơn; 'most people' số nhiều → were.",
+      "Sai — hiện tại hoàn thành không đi với mốc quá khứ xác định 'Fifty years ago'.",
+      "Sai — 'was' dành cho chủ ngữ số ít, còn 'most people' là số nhiều.",
+      "Sai — 'are' là hiện tại, không hợp với 'Fifty years ago'."
+    ]
+  },
+  {
+    "id": "en-past-simple-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u1-finished-action",
+    "tags": [
+      "past-u1-finished-action"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Did you ______ (go) to Mai's birthday party last Saturday?",
+    "choices": [
+      "go",
+      "goes",
+      "gone",
+      "went"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau trợ động từ 'Did' trong câu hỏi, động từ chính luôn ở dạng nguyên mẫu, không chia lại: Did you go...?",
+    "choiceExplanations": [
+      "Đúng — sau 'Did' động từ chính ở dạng nguyên thể: Did you go ...?",
+      "Sai — sau 'Did' không thêm -s.",
+      "Sai — 'gone' là quá khứ phân từ, không dùng sau 'Did'.",
+      "Sai — chia kép: sau 'Did' không chia quá khứ lần nữa."
+    ]
+  },
+  {
+    "id": "en-past-simple-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-simple",
+    "usageId": "past-u1-finished-action",
+    "tags": [
+      "past-u1-finished-action"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In 2021, our team ______ (not/win) any competition, but we ______ (learn) a lot from our failures.",
+    "choices": [
+      "didn't win / learned",
+      "won't win / learned",
+      "didn't won / learnt",
+      "not won / learned"
+    ],
+    "correctIndex": 0,
+    "explanation": "Phủ định Quá khứ đơn: didn't + V nguyên mẫu (win, không chia lại thành 'won'); vế sau khẳng định dùng learn→learned.",
+    "choiceExplanations": [
+      "Đúng — didn't + động từ nguyên thể (win); vế sau khẳng định → learned.",
+      "Sai — 'won't win' là tương lai, không hợp với 'In 2021'.",
+      "Sai — 'didn't won' là chia kép (sau 'didn't' động từ giữ nguyên thể). ('learnt' chỉ là biến thể Anh-Anh của 'learned', không phải chỗ sai.)",
+      "Sai — thiếu trợ động từ: không thể phủ định quá khứ chỉ bằng 'not'."
+    ]
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "id": "relative-clauses",
+  "language": "en",
+  "title": "Mệnh đề quan hệ (Relative Clauses)",
+  "levels": [
+    "B1"
+  ],
+  "order": 15,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "rc-u1-who-whom",
+        "label": "Đại từ quan hệ Who / Whom",
+        "explanationVi": "Dùng để thay thế cho danh từ chỉ người đứng ngay trước nó. 'Who' có thể làm chủ ngữ hoặc tân ngữ trong mệnh đề quan hệ. 'Whom' mang tính trang trọng hơn và chỉ được phép dùng khi làm tân ngữ (đối tượng chịu tác động của hành động).",
+        "examples": [
+          {
+            "en": "The boy who is playing the guitar is my brother.",
+            "vi": "Cậu bé đang chơi guitar là em trai tôi."
+          },
+          {
+            "en": "The manager whom I met yesterday was very friendly.",
+            "vi": "Người quản lý mà tôi gặp hôm qua rất thân thiện."
+          }
+        ]
+      },
+      {
+        "id": "rc-u2-which-that",
+        "label": "Đại từ quan hệ Which / That",
+        "explanationVi": "Dùng để thay thế cho danh từ chỉ vật, sự việc hoặc con vật đứng trước nó. Cả hai đều có thể làm chủ ngữ hoặc tân ngữ. 'That' đặc biệt linh hoạt vì nó có thể thay thế cho cả who, whom và which, nhưng chỉ trong mệnh đề quan hệ xác định.",
+        "examples": [
+          {
+            "en": "I have lost the watch which my mother gave me.",
+            "vi": "Tôi đã làm mất chiếc đồng hồ mà mẹ tôi tặng."
+          },
+          {
+            "en": "The movie that we watched last night was terrifying.",
+            "vi": "Bộ phim mà chúng tôi xem tối qua thật đáng sợ."
+          }
+        ]
+      },
+      {
+        "id": "rc-u3-whose",
+        "label": "Đại từ quan hệ Whose",
+        "explanationVi": "Dùng để biểu đạt sự sở hữu, thay thế cho các tính từ sở hữu (my, his, her, their, its...). Nó có thể được dùng cho cả người và vật. Bắt buộc ngay sau 'whose' phải là một danh từ mà không có mạo từ (a/an/the) đi kèm.",
+        "examples": [
+          {
+            "en": "Do you know the girl whose father is a famous doctor?",
+            "vi": "Bạn có biết cô gái mà bố của cô ấy là một bác sĩ nổi tiếng không?"
+          },
+          {
+            "en": "They live in a house whose roof is painted green.",
+            "vi": "Họ sống trong một ngôi nhà mà mái của nó được sơn màu xanh lá."
+          }
+        ]
+      },
+      {
+        "id": "rc-u4-where-when-why",
+        "label": "Trạng từ quan hệ Where / When / Why",
+        "explanationVi": "Các trạng từ này thay thế cho một cụm giới từ chỉ nơi chốn, thời gian hoặc lý do. Cụ thể: 'Where' = in/at/on which (nơi mà); 'When' = in/on/at which (khi mà); 'Why' = for which (thường đứng ngay sau cụm 'the reason').",
+        "examples": [
+          {
+            "en": "This is the library where I usually study.",
+            "vi": "Đây là thư viện nơi tôi thường xuyên học bài."
+          },
+          {
+            "en": "I will never forget the day when we first met.",
+            "vi": "Tôi sẽ không bao giờ quên cái ngày mà lần đầu tiên chúng ta gặp nhau."
+          }
+        ]
+      },
+      {
+        "id": "rc-u5-defining-nondefining",
+        "label": "Mệnh đề quan hệ xác định và không xác định",
+        "explanationVi": "Mệnh đề xác định cung cấp thông tin cốt lõi để nhận diện danh từ, không có dấu phẩy. Mệnh đề không xác định chỉ bổ sung thêm thông tin cho một danh từ đã quá rõ ràng (tên riêng, danh từ có từ chỉ định this/that/my/his...), luôn được ngăn cách bằng dấu phẩy. Lưu ý: Tuyệt đối KHÔNG dùng 'that' trong mệnh đề không xác định (sau dấu phẩy).",
+        "examples": [
+          {
+            "en": "The students who pass the exam will be rewarded.",
+            "vi": "Những học sinh vượt qua bài kiểm tra sẽ được thưởng. (Xác định, không có phẩy)"
+          },
+          {
+            "en": "My uncle John, who lives in New York, is visiting us.",
+            "vi": "Chú John của tôi, người sống ở New York, đang đến thăm chúng tôi. (Không xác định, có phẩy)"
+          }
+        ]
+      },
+      {
+        "id": "rc-reduced-clauses",
+        "label": "Rút gọn mệnh đề quan hệ (Reduced Relative Clauses)",
+        "explanationVi": "Mệnh đề quan hệ xác định có thể rút gọn để câu văn ngắn gọn hơn: (1) Nếu đại từ quan hệ làm CHỦ NGỮ và động từ ở dạng CHỦ ĐỘNG, rút gọn thành V-ing; (2) Nếu đại từ quan hệ làm CHỦ NGỮ và động từ ở dạng BỊ ĐỘNG, rút gọn thành V3/ed; (3) Nếu phía trước là tính từ so sánh nhất/số thứ tự (the first, the best...), rút gọn bằng to-V.",
+        "examples": [
+          {
+            "en": "The man who is standing near the door is my uncle. -> The man standing near the door is my uncle.",
+            "vi": "Mệnh đề chủ động rút gọn bằng V-ing: 'who is standing' rút gọn thành 'standing'."
+          },
+          {
+            "en": "The books which are sold in this shop are very cheap. -> The books sold in this shop are very cheap.",
+            "vi": "Mệnh đề bị động rút gọn bằng V3/ed: 'which are sold' rút gọn thành 'sold'."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "who",
+        "meaningVi": "thay thế cho người, làm chủ ngữ hoặc tân ngữ"
+      },
+      {
+        "word": "whom",
+        "meaningVi": "thay thế cho người, chỉ làm tân ngữ (thường đi sau giới từ)"
+      },
+      {
+        "word": "which",
+        "meaningVi": "thay thế cho vật hoặc sự việc, làm chủ ngữ hoặc tân ngữ"
+      },
+      {
+        "word": "that",
+        "meaningVi": "thay thế cho who/whom/which trong mệnh đề xác định (không có dấu phẩy)"
+      },
+      {
+        "word": "whose",
+        "meaningVi": "thay thế cho tính từ sở hữu, luôn đứng ngay trước một danh từ"
+      },
+      {
+        "word": "where",
+        "meaningVi": "thay thế cho nơi chốn (= giới từ + which)"
+      },
+      {
+        "word": "when",
+        "meaningVi": "thay thế cho lý do (thường đi cùng 'the reason')"
+      },
+      {
+        "word": "why",
+        "meaningVi": "thay thế cho lý do (luôn đi cùng 'the reason')"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "id": "relative-clauses-m1",
+        "description": "Sử dụng 'that' sau dấu phẩy. Đây là lỗi cực kỳ phổ biến: mệnh đề có dấu phẩy (không xác định) bắt buộc phải dùng 'who/whom' cho người hoặc 'which' cho vật.",
+        "examples": [
+          {
+            "wrong": "Hanoi, that is the capital of Vietnam...",
+            "correct": "Hanoi, which is the capital of Vietnam..."
+          }
+        ]
+      },
+      {
+        "id": "relative-clauses-m2",
+        "description": "Giữ lại đại từ nhân xưng thừa trong mệnh đề quan hệ. Khi đại từ quan hệ đã làm chủ ngữ hoặc tân ngữ, không được để lại từ chỉ ngôi cũ nữa.",
+        "examples": [
+          {
+            "wrong": "The man who he is reading a book is my dad.",
+            "correct": "The man who is reading a book is my dad."
+          }
+        ],
+        "note": "Chữ 'he' bị thừa, phải bỏ đi."
+      },
+      {
+        "id": "relative-clauses-m3",
+        "description": "Dùng 'what' để bổ nghĩa cho danh từ đứng trước nó thay vì dùng 'which/that'. 'What' mang nghĩa 'những gì' và bản thân nó là một mệnh đề danh ngữ, không phải đại từ quan hệ bổ nghĩa cho danh từ.",
+        "examples": [
+          {
+            "wrong": "The car what I bought...",
+            "correct": "The car which/that I bought..."
+          }
+        ]
+      }
+    ]
+  }
+}

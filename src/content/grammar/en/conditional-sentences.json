@@ -1,0 +1,197 @@
+{
+  "id": "conditional-sentences",
+  "language": "en",
+  "title": "Câu điều kiện (Conditional Sentences)",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "order": 17,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "cond-u1-zero",
+        "label": "Câu điều kiện loại 0 (Zero Conditional)",
+        "explanationVi": "Cấu trúc: If + S + V(hiện tại đơn), S + V(hiện tại đơn). Loại câu này được dùng để diễn tả những sự thật hiển nhiên, các chân lý hoặc quy luật tự nhiên luôn luôn đúng. Cả hai vế đều sử dụng thì hiện tại đơn.",
+        "examples": [
+          {
+            "en": "If you heat ice, it melts.",
+            "vi": "Nếu bạn đun nóng đá, nó sẽ tan chảy."
+          },
+          {
+            "en": "Plants die if they don't get enough water.",
+            "vi": "Cây cối sẽ chết nếu chúng không nhận đủ nước."
+          }
+        ]
+      },
+      {
+        "id": "cond-u2-first",
+        "label": "Câu điều kiện loại 1 (First Conditional)",
+        "explanationVi": "Cấu trúc: If + S + V(hiện tại đơn), S + will/can/may + V_inf. Dùng để nói về một sự việc hoặc tình huống có khả năng cao sẽ xảy ra trong TƯƠNG LAI nếu điều kiện được đáp ứng.",
+        "examples": [
+          {
+            "en": "If it rains tomorrow, we will stay at home.",
+            "vi": "Nếu ngày mai trời mưa, chúng tôi sẽ ở nhà."
+          },
+          {
+            "en": "I will send you the report if I finish it early.",
+            "vi": "Tôi sẽ gửi cho bạn báo cáo nếu tôi hoàn thành nó sớm."
+          }
+        ]
+      },
+      {
+        "id": "cond-u3-second",
+        "label": "Câu điều kiện loại 2 (Second Conditional)",
+        "explanationVi": "Cấu trúc: If + S + V2/ed (động từ 'to be' dùng 'were' cho mọi ngôi), S + would/could/might + V_inf. Dùng để diễn tả một giả định không có thật hoặc khó có thể xảy ra ở hiện tại, thường mang tính tưởng tượng hoặc khuyên nhủ.",
+        "examples": [
+          {
+            "en": "If I were you, I would tell her the truth.",
+            "vi": "Nếu tôi là bạn, tôi sẽ nói cho cô ấy sự thật."
+          },
+          {
+            "en": "If he had a lot of money, he could buy that sports car.",
+            "vi": "Nếu anh ấy có nhiều tiền, anh ấy có thể mua chiếc xe thể thao đó."
+          }
+        ]
+      },
+      {
+        "id": "cond-u4-third",
+        "label": "Câu điều kiện loại 3 (Third Conditional)",
+        "explanationVi": "Cấu trúc: If + S + had + V3/ed, S + would/could/might + have + V3/ed. Dùng để diễn tả một giả định trái ngược hoàn toàn với những gì đã thực sự xảy ra trong quá khứ, thường mang ý nghĩa nuối tiếc hoặc trách móc.",
+        "examples": [
+          {
+            "en": "If she had studied harder, she would have passed the final exam.",
+            "vi": "Nếu cô ấy học chăm chỉ hơn, cô ấy đã vượt qua bài thi cuối kỳ."
+          },
+          {
+            "en": "We wouldn't have missed the flight if we had left the house earlier.",
+            "vi": "Giá như chúng tôi rời nhà sớm hơn thì đã không lỡ chuyến bay."
+          }
+        ]
+      },
+      {
+        "id": "cond-u5-mixed",
+        "label": "Câu điều kiện hỗn hợp (Mixed Conditional)",
+        "explanationVi": "Có hai kiểu phổ biến: (1) Loại 3 + Loại 2 (If + S + had + V3/ed, S + would + V_inf): giả định trái ngược trong QUÁ KHỨ nhưng kết quả ảnh hưởng đến HIỆN TẠI. (2) Loại 2 + Loại 3 (If + S + V2/ed, S + would have + V3/ed): một trạng thái/tính cách KHÔNG ĐỔI ở hiện tại (diễn tả bằng quá khứ đơn) là nguyên nhân dẫn đến một kết quả không xảy ra trong QUÁ KHỨ.",
+        "examples": [
+          {
+            "en": "If I had eaten breakfast this morning, I wouldn't be so hungry now.",
+            "vi": "Nếu sáng nay tôi ăn sáng thì bây giờ tôi đã không đói thế này."
+          },
+          {
+            "en": "If he had taken the map, he wouldn't be lost right now.",
+            "vi": "Nếu anh ấy cầm theo bản đồ thì bây giờ anh ấy đã không bị lạc."
+          },
+          {
+            "en": "If she wasn't so afraid of flying, she would have traveled with us last summer.",
+            "vi": "Vì tính cách 'sợ bay' của cô ấy không đổi theo thời gian (mệnh đề If dùng quá khứ đơn), nên cô ấy đã không đi du lịch cùng chúng tôi mùa hè trước (kết quả ở mệnh đề chính dùng would have + V3)."
+          }
+        ]
+      },
+      {
+        "id": "cond-connectors",
+        "level": "B1",
+        "label": "Các liên từ điều kiện khác thay cho 'if' (unless, as long as, provided that, in case, even if, supposing)",
+        "explanationVi": "Ngoài 'if', có thể dùng các liên từ khác để nêu điều kiện, mỗi từ mang một sắc thái nghĩa riêng: 'unless' = 'if ... not' (trừ khi, nếu không); 'as long as / so long as / provided (that) / providing (that)' = miễn là, với điều kiện là (nhấn mạnh điều kiện bắt buộc phải thoả mãn); 'in case' = phòng khi, để đề phòng (KHÔNG phải điều kiện: việc ở mệnh đề chính được làm TRƯỚC, phòng khi tình huống ở mệnh đề 'in case' xảy ra); 'even if' = dù cho, kể cả khi (kết quả không đổi dù điều kiện có xảy ra hay không); 'suppose/supposing (that)' = giả sử như, dùng để đặt một giả thiết. Cũng như 'if', sau các liên từ này mệnh đề điều kiện dùng hiện tại đơn để nói về tương lai (không dùng 'will'). Lưu ý: 'unless' đã mang nghĩa phủ định nên KHÔNG đi với động từ phủ định (Unless you study, chứ không phải Unless you don't study).",
+        "examples": [
+          {
+            "en": "You will not pass the exam unless you study harder.",
+            "vi": "Bạn sẽ không đỗ kỳ thi trừ khi bạn học chăm hơn."
+          },
+          {
+            "en": "You can borrow my laptop as long as you take good care of it.",
+            "vi": "Bạn có thể mượn máy tính của tôi miễn là bạn giữ gìn nó cẩn thận."
+          },
+          {
+            "en": "Take an umbrella in case it rains this afternoon.",
+            "vi": "Hãy mang theo ô phòng khi chiều nay trời mưa. (mang ô trước; khác với 'if it rains' là chỉ làm khi mưa đã xảy ra)"
+          },
+          {
+            "en": "We will go hiking even if it rains.",
+            "vi": "Chúng tôi vẫn sẽ đi bộ đường dài dù trời có mưa."
+          }
+        ]
+      },
+      {
+        "id": "cond-inversion",
+        "label": "Đảo ngữ trong câu điều kiện (Inversion)",
+        "explanationVi": "Trong văn phong trang trọng (formal/written English), có thể bỏ 'If' và đảo trợ động từ lên đầu câu: Loại 1 trang trọng: Should + S + V(nguyên mẫu) [thay cho If + S + should + V]; Loại 2: Were + S (+ to V) [thay cho If + S + were]; Loại 3: Had + S + V3/ed [thay cho If + S + had + V3/ed]. Lưu ý: dạng đảo ngữ 'Was' KHÔNG bao giờ đúng (chỉ dùng 'Were'), khác với 'If I was' vốn được chấp nhận trong văn nói không trang trọng.",
+        "examples": [
+          {
+            "en": "Should you have any questions, feel free to contact us.",
+            "vi": "Nếu (lỡ) bạn có bất kỳ câu hỏi nào, đừng ngần ngại liên hệ với chúng tôi. (đảo ngữ loại 1, trang trọng)"
+          },
+          {
+            "en": "Had I known about the traffic, I would have left earlier.",
+            "vi": "Nếu tôi biết trước về tình trạng kẹt xe, tôi đã rời đi sớm hơn. (đảo ngữ loại 3)"
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "unless",
+        "meaningVi": "trừ khi (= if... not)"
+      },
+      {
+        "word": "provided that / providing that",
+        "meaningVi": "với điều kiện là, miễn là"
+      },
+      {
+        "word": "as long as",
+        "meaningVi": "miễn là"
+      },
+      {
+        "word": "in case",
+        "meaningVi": "phòng khi, trong trường hợp"
+      },
+      {
+        "word": "suppose / supposing (that)",
+        "meaningVi": "giả sử như"
+      },
+      {
+        "word": "even if",
+        "meaningVi": "ngay cả khi, cho dù"
+      },
+      {
+        "word": "only if",
+        "meaningVi": "chỉ khi"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "id": "conditional-sentences-m1",
+        "description": "Sử dụng thì tương lai (will/would) ngay bên trong mệnh đề 'If'.",
+        "examples": [
+          {
+            "wrong": "If it will rain...",
+            "correct": "If it rains..."
+          }
+        ],
+        "note": "Mệnh đề If luôn dùng thì hiện tại/quá khứ; thì tương lai/giả định chỉ dùng ở mệnh đề chính."
+      },
+      {
+        "id": "conditional-sentences-m2",
+        "description": "Nhầm lẫn to be 'was' và 'were' trong câu điều kiện loại 2.",
+        "examples": [
+          {
+            "wrong": "If I was you...",
+            "correct": "If I were you..."
+          }
+        ],
+        "note": "Trong tiếng Anh chuẩn, đặc biệt ở ngữ cảnh trang trọng, dùng 'were' cho mọi chủ ngữ (If I were, If she were) thay vì 'was'."
+      },
+      {
+        "id": "conditional-sentences-m3",
+        "description": "Quên trợ động từ 'have' trong mệnh đề chính của câu điều kiện loại 3.",
+        "examples": [
+          {
+            "wrong": "would had done / would done",
+            "correct": "would have + V3/ed"
+          }
+        ]
+      }
+    ]
+  }
+}

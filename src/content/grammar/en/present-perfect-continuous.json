@@ -1,0 +1,187 @@
+{
+  "id": "present-perfect-continuous",
+  "language": "en",
+  "title": "Thì hiện tại hoàn thành tiếp diễn (Present Perfect Continuous)",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "order": 18,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "present-perfect-continuous-u1-duration",
+        "label": "Hành động bắt đầu trong quá khứ, còn tiếp diễn đến hiện tại",
+        "explanationVi": "Dùng hiện tại hoàn thành tiếp diễn để nói về một hành động bắt đầu tại một thời điểm nào đó trong quá khứ và vẫn đang tiếp tục xảy ra tính đến thời điểm nói, thường đi kèm 'for' (khoảng thời gian) hoặc 'since' (mốc thời gian bắt đầu). Đây là điểm khác biệt cốt lõi so với Present Perfect đơn (hiện tại hoàn thành): Present Perfect đơn ('I have lived here for 6 years') và Present Perfect Continuous ('I have been living here for 6 years') đều đúng ngữ pháp với động từ 'live', nhưng thể tiếp diễn nhấn mạnh TÍNH LIÊN TỤC, QUÁ TRÌNH đang diễn ra, còn thể đơn thiên về việc nêu SỰ THẬT/TRẠNG THÁI. Với nhiều động từ hành động khác (work, study, read...), khi có 'for/since' và hành động rõ ràng CHƯA kết thúc, người bản ngữ có xu hướng ưu tiên thể tiếp diễn hơn để nhấn mạnh 'vẫn đang diễn ra, chưa xong'.",
+        "examples": [
+          {
+            "en": "I have been living in this apartment for six years.",
+            "vi": "Tôi đã sống ở căn hộ này được sáu năm rồi (và vẫn đang sống)."
+          },
+          {
+            "en": "She has been working at that hospital since 2019.",
+            "vi": "Cô ấy đã làm việc tại bệnh viện đó từ năm 2019 (và vẫn đang làm)."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-u2-recent-result",
+        "label": "Hành động vừa mới kết thúc, để lại kết quả/dấu hiệu ở hiện tại",
+        "explanationVi": "Dùng hiện tại hoàn thành tiếp diễn khi một hành động vừa mới dừng lại (có thể ngay trước lúc nói) và để lại một bằng chứng, dấu hiệu hoặc kết quả CÓ THỂ QUAN SÁT ĐƯỢC ở hiện tại — ví dụ thở gấp, tay bẩn, mắt đỏ, sàn nhà ướt. Điểm khác với Present Perfect đơn: Present Perfect đơn cũng diễn tả kết quả hiện tại nhưng thường gắn với một hành động đã HOÀN TẤT/xác định (ví dụ 'I've run a marathon' — thành tích đã hoàn thành, có thể đếm được), trong khi Present Perfect Continuous gắn với một HOẠT ĐỘNG GẦN ĐÂY, có tính chất tạm thời và chưa chắc đã hoàn toàn kết thúc (ví dụ 'I've been running' — vừa chạy xong, đang thở dốc). So sánh: 'I've been running, that's why I'm out of breath' (nhấn mạnh hoạt động gần đây gây ra tình trạng hiện tại) khác với 'I've run 10 kilometers today' (nhấn mạnh kết quả/con số cụ thể).",
+        "examples": [
+          {
+            "en": "Her eyes are red because she has been crying.",
+            "vi": "Mắt cô ấy đỏ vì cô ấy vừa mới khóc xong."
+          },
+          {
+            "en": "The ground is wet — it has been raining.",
+            "vi": "Mặt đất ướt — trời vừa mới mưa xong."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-u3-emphasis",
+        "label": "Nhấn mạnh quá trình/sự lặp lại liên tục, thay vì số lượng hay kết quả cuối cùng",
+        "explanationVi": "Present Perfect Continuous thường được chọn khi người nói muốn nhấn mạnh QUÁ TRÌNH, sự lặp đi lặp lại hoặc nỗ lực đang diễn ra, chứ không quan tâm đến số lượng hay việc đã hoàn thành bao nhiêu. Đây là điểm đối lập rõ với Present Perfect đơn, vốn thường dùng để nêu SỐ LẦN hoặc KẾT QUẢ cụ thể đã đạt được. So sánh: 'I've been calling him all morning' (nhấn mạnh việc gọi liên tục, lặp đi lặp lại, có thể gây khó chịu, không quan tâm đã gọi bao nhiêu cuộc) khác với 'I've called him five times' (nêu chính xác số lần gọi, tập trung vào con số/kết quả). Cấu trúc tiếp diễn này cũng thường mang sắc thái cảm xúc (mệt mỏi, sốt ruột, bực bội) vì nhấn vào việc hành động kéo dài chưa dứt.",
+        "examples": [
+          {
+            "en": "I've been calling him all morning, but he hasn't answered.",
+            "vi": "Tôi đã gọi cho anh ấy suốt cả buổi sáng, nhưng anh ấy không trả lời."
+          },
+          {
+            "en": "They've been negotiating the contract for weeks.",
+            "vi": "Họ đã đàm phán hợp đồng này suốt nhiều tuần rồi."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-u4-how-long",
+        "label": "Câu hỏi về khoảng thời gian tiếp diễn (How long...?)",
+        "explanationVi": "Cấu trúc 'How long + have/has + S + been + V-ing?' là cách hỏi phổ biến nhất để hỏi một hành động đã kéo dài BAO LÂU tính đến hiện tại, khi hành động đó vẫn đang tiếp diễn hoặc mới vừa dừng. Cần phân biệt với 'How many times + have/has + S + V3/ed...?' (hỏi hiện tại hoàn thành đơn) dùng để hỏi SỐ LẦN một việc đã xảy ra — câu hỏi đó tập trung vào con số/kết quả đếm được, còn 'How long...been...ing?' tập trung vào ĐỘ DÀI thời gian của một quá trình liên tục. Khi trả lời câu hỏi 'How long have you been...?', câu trả lời tự nhiên thường lặp lại cấu trúc tiếp diễn kèm 'for + khoảng thời gian' hoặc 'since + mốc thời gian'.",
+        "examples": [
+          {
+            "en": "How long have you been studying English?",
+            "vi": "Bạn đã học tiếng Anh được bao lâu rồi?"
+          },
+          {
+            "en": "How long has it been snowing?",
+            "vi": "Trời đã có tuyết rơi được bao lâu rồi?"
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-u5-contrast",
+        "label": "Phân biệt với Present Perfect đơn và Present Continuous",
+        "explanationVi": "Đây là usage tổng hợp giúp học viên chốt lại ba quy tắc lựa chọn thì quan trọng nhất: (1) Present Perfect Continuous vs Present Perfect đơn — dùng thể tiếp diễn khi nhấn mạnh QUÁ TRÌNH/THỜI LƯỢNG và hành động có thể CHƯA hoàn toàn xong ('I have been painting the fence' — có thể chưa xong hẳn), dùng thể đơn khi nhấn mạnh KẾT QUẢ/SỰ HOÀN THÀNH hoặc SỐ LƯỢNG cụ thể ('I have painted the fence' — công việc đã xong). (2) Present Perfect Continuous vs Present Continuous — Present Continuous ('I am painting') chỉ diễn tả hành động đang xảy ra NGAY BÂY GIỜ, không có yếu tố 'kể từ quá khứ đến hiện tại', trong khi Present Perfect Continuous luôn cần yếu tố NỐI QUÁ KHỨ VỚI HIỆN TẠI ('have/has been') — lỗi rất phổ biến của người học là bỏ quên 'have/has been' và chỉ dùng dạng V-ing như Present Continuous.",
+        "examples": [
+          {
+            "en": "I have painted the fence. (đã sơn xong, kết quả hoàn tất — Present Perfect đơn)",
+            "vi": "Tôi đã sơn xong hàng rào rồi. (nhấn mạnh kết quả đã hoàn thành)"
+          },
+          {
+            "en": "I have been painting the fence all day. (nhấn mạnh quá trình, có thể chưa xong hẳn — Present Perfect Continuous)",
+            "vi": "Tôi đã sơn hàng rào suốt cả ngày. (nhấn mạnh quá trình kéo dài, chưa chắc đã xong)"
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "for",
+        "meaningVi": "chỉ khoảng thời gian kéo dài (for two hours, for six years) — hành động vẫn tiếp diễn đến hiện tại."
+      },
+      {
+        "word": "since",
+        "meaningVi": "chỉ mốc thời gian bắt đầu (since 2019, since Monday) — hành động kéo dài từ mốc đó đến nay."
+      },
+      {
+        "word": "how long",
+        "meaningVi": "dùng để hỏi về độ dài của khoảng thời gian một hành động đã tiếp diễn."
+      },
+      {
+        "word": "lately",
+        "meaningVi": "gần đây — thường dùng để nói về những hoạt động đang diễn ra hoặc lặp lại trong khoảng thời gian gần đây."
+      },
+      {
+        "word": "recently",
+        "meaningVi": "gần đây — nhấn mạnh hành động/quá trình xảy ra trong thời gian gần, có thể vẫn đang tiếp diễn."
+      },
+      {
+        "word": "all day/week/morning",
+        "meaningVi": "suốt cả ngày/tuần/buổi sáng — nhấn mạnh tính liên tục, không ngắt quãng của hành động."
+      },
+      {
+        "word": "still",
+        "meaningVi": "vẫn còn — nhấn mạnh hành động chưa dừng lại, vẫn đang tiếp diễn tính đến hiện tại."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "id": "present-perfect-continuous-m1",
+        "description": "Dùng Present Perfect Continuous với động từ trạng thái (stative verbs: know, want, believe, own, love, understand, belong...)",
+        "examples": [
+          {
+            "wrong": "I have been knowing him for years.",
+            "correct": "I have known him for years."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-m2",
+        "description": "Nhầm với Present Continuous, quên mất trợ động từ 'have/has been'.",
+        "examples": [
+          {
+            "wrong": "I am studying English for two years.",
+            "correct": "I have been studying English for two years."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-m3",
+        "description": "Bỏ sót từ 'been' trong công thức, chỉ chia have/has + V-ing.",
+        "examples": [
+          {
+            "wrong": "She has working here since March.",
+            "correct": "She has been working here since March."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-m4",
+        "description": "Dùng Present Perfect Continuous khi câu nhấn mạnh SỐ LẦN/SỐ LƯỢNG cụ thể đã hoàn thành — trường hợp này phải dùng Present Perfect đơn.",
+        "examples": [
+          {
+            "wrong": "I have been reading this book three times this year.",
+            "correct": "I have read this book three times this year."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-m5",
+        "description": "Chia sai trợ động từ have/has theo chủ ngữ số ít/số nhiều.",
+        "examples": [
+          {
+            "wrong": "He have been waiting for an hour.",
+            "correct": "He has been waiting for an hour."
+          }
+        ]
+      },
+      {
+        "id": "present-perfect-continuous-m6",
+        "description": "Dùng nhầm 'for' với mốc thời gian hoặc 'since' với khoảng thời gian.",
+        "examples": [
+          {
+            "wrong": "I have been living here for 2015.",
+            "correct": "I have been living here since 2015."
+          }
+        ]
+      }
+    ],
+    "formulas": {
+      "affirmative": "S + have/has + been + V-ing — ví dụ: 'They have been playing football for two hours.'",
+      "negative": "S + have/has + not + been + V-ing — ví dụ: 'She hasn't been feeling well since Monday.'",
+      "question": "Have/Has + S + been + V-ing? — ví dụ: 'Have you been waiting long?'"
+    }
+  }
+}

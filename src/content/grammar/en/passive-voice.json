@@ -1,0 +1,161 @@
+{
+  "id": "passive-voice",
+  "language": "en",
+  "title": "Câu bị động (Passive Voice)",
+  "levels": [
+    "B1"
+  ],
+  "order": 14,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "pv-u1-basic-tenses",
+        "label": "Cấu trúc bị động cơ bản (Các thì thông dụng)",
+        "explanationVi": "Câu bị động được dùng khi ta muốn nhấn mạnh vào đối tượng chịu tác động của hành động thay vì người thực hiện. Để tạo câu bị động, ta biến đổi động từ to be theo đúng thì của câu chủ động, sau đó cộng với động từ chính ở dạng phân từ 2 (V3/ed).",
+        "examples": [
+          {
+            "en": "The house is cleaned every day.",
+            "vi": "Ngôi nhà được dọn dẹp mỗi ngày."
+          },
+          {
+            "en": "A new bridge was built in this city last year.",
+            "vi": "Một cây cầu mới đã được xây dựng ở thành phố này năm ngoái."
+          }
+        ]
+      },
+      {
+        "id": "pv-u2-modal",
+        "label": "Câu bị động với động từ khuyết thiếu (Modal verbs)",
+        "explanationVi": "Đối với các động từ khuyết thiếu như can, could, must, should, may, might..., cấu trúc bị động rất đơn giản. Ta chỉ cần giữ nguyên động từ khuyết thiếu, thêm be ở dạng nguyên thể và sau đó là động từ chính ở cột 3 (V3/ed).",
+        "examples": [
+          {
+            "en": "Tickets must be booked in advance.",
+            "vi": "Vé phải được đặt trước."
+          },
+          {
+            "en": "This math problem can be solved easily.",
+            "vi": "Bài toán này có thể được giải quyết dễ dàng."
+          }
+        ]
+      },
+      {
+        "id": "pv-u3-two-objects",
+        "label": "Câu bị động với động từ có hai tân ngữ",
+        "explanationVi": "Một số động từ như give, send, show, buy, teach... thường đi kèm hai tân ngữ (chỉ người và chỉ vật). Ta có thể viết được hai câu bị động khác nhau tuỳ thuộc vào việc đưa tân ngữ nào lên làm chủ ngữ. Việc đưa tân ngữ chỉ người lên làm chủ ngữ thường phổ biến và tự nhiên hơn.",
+        "examples": [
+          {
+            "en": "I was given a beautiful gift by my friends.",
+            "vi": "Tôi đã được bạn bè tặng cho một món quà tuyệt đẹp."
+          },
+          {
+            "en": "A beautiful gift was given to me.",
+            "vi": "Một món quà tuyệt đẹp đã được tặng cho tôi."
+          }
+        ]
+      },
+      {
+        "id": "pv-u4-reporting",
+        "label": "Câu bị động với các động từ chỉ ý kiến/tường thuật",
+        "explanationVi": "Khi dùng các động từ như say, think, believe, report, ta có hai cách đổi sang bị động. Cách thứ nhất dùng chủ ngữ giả (It is/was + V3 + that...). Cách thứ hai đưa chủ ngữ của mệnh đề sau lên đầu, áp dụng cấu trúc (S + is/was + V3 + to V) nếu hành động phụ xảy ra CÙNG LÚC hoặc SAU hành động tường thuật, hoặc (S + is/was + V3 + to HAVE + V3/ed) nếu hành động phụ xảy ra TRƯỚC hành động tường thuật.",
+        "examples": [
+          {
+            "en": "It is believed that he is a millionaire.",
+            "vi": "Người ta tin rằng anh ấy là một triệu phú."
+          },
+          {
+            "en": "He is said to work very hard.",
+            "vi": "Anh ấy được cho là làm việc rất chăm chỉ."
+          },
+          {
+            "en": "The man is believed to have left the city years ago.",
+            "vi": "Người đàn ông đó được cho là đã rời thành phố từ nhiều năm trước."
+          }
+        ]
+      },
+      {
+        "id": "pv-u5-causative",
+        "label": "Câu bị động dạng nhờ vả (Causative Passive)",
+        "explanationVi": "Khi bạn thuê hoặc nhờ ai đó làm việc gì cho mình, thay vì dùng dạng chủ động, người bản xứ rất hay dùng cấu trúc (have/get something done) - nghĩa là có cái gì đó được làm bởi người khác. Cấu trúc này nhấn mạnh vào việc công việc đã được hoàn tất.",
+        "examples": [
+          {
+            "en": "She had her car repaired yesterday.",
+            "vi": "Cô ấy đã nhờ người sửa xe ngày hôm qua."
+          },
+          {
+            "en": "We will get our house painted next week.",
+            "vi": "Chúng tôi sẽ thuê người sơn lại nhà vào tuần tới."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "be said to V",
+        "meaningVi": "được cho là, người ta nói rằng"
+      },
+      {
+        "word": "be believed to V",
+        "meaningVi": "được tin rằng"
+      },
+      {
+        "word": "be expected to V",
+        "meaningVi": "được kỳ vọng sẽ, được dự kiến"
+      },
+      {
+        "word": "be reported to V",
+        "meaningVi": "được báo cáo là, có tin cho rằng"
+      },
+      {
+        "word": "have something done",
+        "meaningVi": "thuê hoặc nhờ ai đó làm việc gì"
+      },
+      {
+        "word": "get something done",
+        "meaningVi": "thuê hoặc nhờ ai đó làm việc gì (dùng nhiều trong văn nói)"
+      },
+      {
+        "word": "be supposed to V",
+        "meaningVi": "được cho là phải làm gì, có bổn phận làm gì"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "id": "passive-voice-m1",
+        "description": "Quên biến đổi động từ 'to be' theo thì của câu gốc.",
+        "examples": [
+          {
+            "wrong": "The letter be sent yesterday.",
+            "correct": "The letter was sent yesterday."
+          }
+        ]
+      },
+      {
+        "id": "passive-voice-m2",
+        "description": "Nhầm lẫn giữa phân từ 2 (V3) và quá khứ đơn (V2) đối với các động từ bất quy tắc.",
+        "examples": [
+          {
+            "wrong": "The window was broke.",
+            "correct": "The window was broken."
+          }
+        ]
+      },
+      {
+        "id": "passive-voice-m3",
+        "description": "Lạm dụng 'by + tân ngữ' ngay cả khi không cần thiết.",
+        "examples": [
+          {
+            "wrong": "The street is cleaned by people.",
+            "correct": "The street is cleaned."
+          }
+        ],
+        "note": "Chỉ cần nói \"The street is cleaned\" là đã đủ tự nhiên và chính xác."
+      }
+    ],
+    "formulas": {
+      "affirmative": "S + be + V3/Ved",
+      "negative": "S + be + not + V3/Ved",
+      "question": "Be + S + V3/Ved?"
+    }
+  }
+}

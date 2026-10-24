@@ -1,0 +1,168 @@
+{
+  "id": "articles-countable-uncountable",
+  "language": "en",
+  "title": "Mạo từ & Danh từ đếm được/không đếm được (Articles & Countable/Uncountable Nouns)",
+  "levels": [
+    "A2"
+  ],
+  "order": 10,
+  "category": "word-classes",
+  "theory": {
+    "usages": [
+      {
+        "id": "art-u1-indefinite-article",
+        "label": "Mạo từ không xác định \"a/an\"",
+        "explanationVi": "Dùng \"a/an\" trước danh từ đếm được số ít khi nhắc đến vật/sự việc đó lần đầu tiên (người nghe chưa biết cụ thể là vật nào), hoặc khi nói về một cá thể bất kỳ trong một nhóm chung chung. Không dùng \"a/an\" trước danh từ số nhiều hay danh từ không đếm được. Điểm quan trọng nhất: việc chọn \"a\" hay \"an\" phụ thuộc vào ÂM ĐỌC của từ đứng ngay sau mạo từ (có thể là danh từ hoặc tính từ đứng trước danh từ), chứ không phải chữ cái đầu tiên trên mặt chữ. Nếu từ đó bắt đầu bằng âm nguyên âm thì dùng \"an\"; nếu bắt đầu bằng âm phụ âm thì dùng \"a\". Vì vậy một từ viết bắt đầu bằng nguyên âm nhưng đọc thành âm phụ âm /j/ (như \"university\", \"uniform\") vẫn dùng \"a\", còn một từ viết bắt đầu bằng phụ âm nhưng có \"h\" câm, đọc thành âm nguyên âm (như \"hour\", \"honest\") lại dùng \"an\".",
+        "examples": [
+          {
+            "en": "We need an hour to finish this report.",
+            "vi": "Chúng tôi cần một tiếng đồng hồ để hoàn thành báo cáo này."
+          },
+          {
+            "en": "He is a university student majoring in economics.",
+            "vi": "Anh ấy là sinh viên đại học chuyên ngành kinh tế."
+          }
+        ]
+      },
+      {
+        "id": "art-u2-definite-article",
+        "label": "Mạo từ xác định \"the\"",
+        "explanationVi": "Dùng \"the\" khi cả người nói và người nghe đều hiểu rõ đang nhắc đến chính xác vật/sự việc nào, thường rơi vào một trong ba trường hợp: (1) vật đó đã được nhắc đến trước đó trong cùng đoạn hội thoại hoặc văn bản; (2) vật đó là duy nhất trong thực tế hoặc trong ngữ cảnh đang nói tới (chỉ có một cái nên ai cũng hiểu là cái nào, ví dụ vật duy nhất trong phòng, hoặc thứ hạng \"đầu tiên/duy nhất/tốt nhất\"); (3) vật đó được xác định rõ ràng nhờ thông tin đi kèm ngay sau nó, như cụm giới từ hay mệnh đề quan hệ, khiến người nghe biết chính xác là cái nào trong nhiều cái cùng loại. \"The\" dùng được cho cả danh từ số ít, số nhiều và danh từ không đếm được, miễn là vật đó đã được xác định cụ thể.",
+        "examples": [
+          {
+            "en": "I bought a laptop yesterday. The laptop was quite expensive.",
+            "vi": "Hôm qua tôi đã mua một cái laptop. Cái laptop đó khá đắt."
+          },
+          {
+            "en": "Could you turn off the light before you leave the room?",
+            "vi": "Bạn tắt đèn trước khi rời phòng được không?"
+          }
+        ]
+      },
+      {
+        "id": "art-u3-zero-article",
+        "label": "Không dùng mạo từ (zero article)",
+        "explanationVi": "Không đặt mạo từ nào trước danh từ trong các trường hợp sau: danh từ số nhiều hoặc danh từ không đếm được khi mang nghĩa chung chung, khái quát (nói về cả một loại/khái niệm nói chung, không chỉ một vật cụ thể); tên riêng của người và hầu hết tên địa danh (quốc gia, thành phố, châu lục, hồ, núi số ít...); tên bữa ăn trong ngày (breakfast, lunch, dinner); tên môn thể thao (soccer, tennis, basketball...); tên ngôn ngữ (English, Vietnamese...); và hầu hết phương tiện đi lại khi đứng sau giới từ \"by\" (by car, by bus, by bike, by plane...).",
+        "examples": [
+          {
+            "en": "Vietnam is famous for its beautiful beaches.",
+            "vi": "Việt Nam nổi tiếng với những bãi biển đẹp."
+          },
+          {
+            "en": "I go to work by bus, but my sister prefers to walk.",
+            "vi": "Tôi đi làm bằng xe buýt, còn em gái tôi thích đi bộ hơn."
+          }
+        ]
+      },
+      {
+        "id": "art-u4-countable-uncountable",
+        "label": "Danh từ đếm được vs không đếm được",
+        "explanationVi": "Danh từ đếm được là những vật có thể tách ra đếm từng cái một, có cả dạng số ít và số nhiều (a book/two books). Danh từ không đếm được thường chỉ chất liệu, chất lỏng, khái niệm trừu tượng hoặc tập hợp không tách rời (water, rice, advice, furniture, information...); loại này KHÔNG có dạng số nhiều và không đứng trực tiếp sau \"a/an\" (muốn đếm phải thêm đơn vị, ví dụ \"a piece of advice\", \"a cup of water\"). Vì vậy các từ chỉ lượng cũng phải dùng đúng loại: với danh từ đếm được số nhiều dùng \"many\", \"a few\" (một ít nhưng vẫn đủ/có, mang nghĩa tích cực) hoặc \"few\" (hầu như không có, mang nghĩa tiêu cực); với danh từ không đếm được dùng \"much\", \"a little\" (một ít nhưng vẫn đủ/có) hoặc \"little\" (hầu như không có). \"Some\" và \"any\" dùng được cho cả hai loại (some/any thường dùng trong câu khẳng định/nghi vấn/phủ định tương ứng); \"a lot of\"/\"lots of\" cũng dùng được cho cả hai loại.",
+        "examples": [
+          {
+            "en": "There are only a few apples left in the basket.",
+            "vi": "Chỉ còn vài quả táo trong giỏ."
+          },
+          {
+            "en": "We don't have much time before the meeting starts.",
+            "vi": "Chúng ta không có nhiều thời gian trước khi cuộc họp bắt đầu."
+          }
+        ]
+      },
+      {
+        "id": "art-u5-special-cases",
+        "label": "Trường hợp đặc biệt hay nhầm",
+        "explanationVi": "Một số danh từ có thể vừa đếm được vừa không đếm được tùy vào nghĩa sử dụng: khi chỉ chất liệu hoặc khái niệm chung, danh từ đó không đếm được (coffee: cà phê nói chung như một chất lỏng/thức uống; paper: giấy nói chung như một chất liệu); nhưng khi chỉ một đơn vị, một loại hoặc một sản phẩm cụ thể, danh từ đó trở thành đếm được (a coffee: một ly cà phê; a paper: một bài báo hoặc một bài luận/bài nghiên cứu). Ngoài ra, có một vài cụm cố định luôn dùng \"the\" mà người học cần nhớ như từ vựng riêng lẻ, không suy luận theo quy tắc thông thường: \"the internet\", \"play the guitar\" (và các nhạc cụ khác như \"the piano\", \"the violin\"), và cấu trúc \"the\" + tính từ để chỉ chung một nhóm người trong xã hội, ví dụ \"the rich\" (người giàu nói chung), \"the poor\" (người nghèo nói chung).",
+        "examples": [
+          {
+            "en": "Coffee is my favorite drink, so I always order a coffee when I visit this cafe.",
+            "vi": "Cà phê là thức uống tôi thích nhất, nên tôi luôn gọi một ly cà phê khi ghé quán này."
+          },
+          {
+            "en": "My grandfather learned to play the guitar when he was young, and now he spends hours on the internet watching guitar tutorials.",
+            "vi": "Ông tôi học chơi ghi-ta từ khi còn trẻ, giờ đây ông dành hàng giờ trên internet xem video hướng dẫn chơi ghi-ta."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "the only",
+        "meaningVi": "duy nhất — luôn đi với \"the\" vì chỉ có một"
+      },
+      {
+        "word": "the same",
+        "meaningVi": "giống nhau, đã được nhắc tới hoặc mặc định ai cũng hiểu là gì"
+      },
+      {
+        "word": "the first / the last",
+        "meaningVi": "thứ tự đầu tiên/cuối cùng — thường đi với \"the\" vì chỉ có một"
+      },
+      {
+        "word": "the sun / the moon / the sky",
+        "meaningVi": "các vật thể tự nhiên duy nhất, luôn dùng \"the\" (riêng \"Earth\" viết hoa, dùng như tên hành tinh, thường KHÔNG có mạo từ — vd \"on Earth\"; còn \"the earth\" viết thường, nghĩa mặt đất/trái đất nói chung, vẫn có \"the\")"
+      },
+      {
+        "word": "by car / by bus / by bike / by plane",
+        "meaningVi": "phương tiện đi lại sau \"by\" — không dùng mạo từ"
+      },
+      {
+        "word": "breakfast / lunch / dinner",
+        "meaningVi": "tên bữa ăn — không dùng mạo từ khi nói chung"
+      },
+      {
+        "word": "last night / next week / last year",
+        "meaningVi": "cụm chỉ thời gian — không dùng mạo từ"
+      },
+      {
+        "word": "the rich / the poor / the elderly",
+        "meaningVi": "the + tính từ = một nhóm người trong xã hội"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "id": "articles-countable-uncountable-m1",
+        "description": "Bỏ qua hoàn toàn mạo từ trước danh từ đếm được số ít vì tiếng Việt không có khái niệm mạo từ.",
+        "examples": [
+          {
+            "wrong": "I have dog and I like it very much.",
+            "correct": "I have a dog and I like it very much."
+          }
+        ]
+      },
+      {
+        "id": "articles-countable-uncountable-m2",
+        "description": "Dùng \"a/an\" trước danh từ không đếm được, vì nghĩ rằng cứ có \"một\" trong đầu là phải thêm \"a/an\"",
+        "note": "Hoặc a piece of advice.",
+        "examples": [
+          {
+            "wrong": "She gave me an advice before the interview.",
+            "correct": "She gave me some advice before the interview."
+          }
+        ]
+      },
+      {
+        "id": "articles-countable-uncountable-m3",
+        "description": "Chọn \"a\" hay \"an\" theo chữ cái viết đầu tiên thay vì âm đọc thực tế của từ đứng ngay sau.",
+        "note": "Vì \"h\" trong \"honest\" là âm câm, từ này đọc bắt đầu bằng nguyên âm.",
+        "examples": [
+          {
+            "wrong": "He is a honest man who never lies.",
+            "correct": "He is an honest man who never lies."
+          }
+        ]
+      },
+      {
+        "id": "articles-countable-uncountable-m4",
+        "description": "Thêm \"the\" trước danh từ mang nghĩa chung chung, khái quát, trong khi lẽ ra không cần mạo từ nào.",
+        "note": "Nói về tiền bạc nói chung, không phải một khoản tiền cụ thể.",
+        "examples": [
+          {
+            "wrong": "The money can't buy real happiness.",
+            "correct": "Money can't buy real happiness."
+          }
+        ]
+      }
+    ]
+  }
+}

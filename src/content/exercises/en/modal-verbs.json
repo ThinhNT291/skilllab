@@ -1,0 +1,812 @@
+[
+  {
+    "id": "en-modal-verbs-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u1-ability",
+    "tags": [
+      "modal-u1-ability"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When I was a child, I ______ swim across the small lake near my house.",
+    "choices": [
+      "should",
+      "may",
+      "could",
+      "must"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Could' diễn tả khả năng chung trong quá khứ (khi còn nhỏ), phù hợp với usage khả năng.",
+    "choiceExplanations": [
+      "Sai — 'should' diễn tả lời khuyên, không phù hợp với ngữ cảnh nói về khả năng.",
+      "Sai — 'may' diễn tả sự cho phép hoặc khả năng xảy ra, không phù hợp để nói về kỹ năng đã có trong quá khứ.",
+      "Đúng — 'could' thể hiện khả năng bơi lội nói chung trong quá khứ (thời thơ ấu), không phải một lần cụ thể.",
+      "Sai — 'must' diễn tả nghĩa vụ hoặc suy đoán, không liên quan đến khả năng bơi."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u2-permission",
+    "tags": [
+      "modal-u2-permission"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ I use your phone for a minute? Mine just died.",
+    "choices": [
+      "Could",
+      "Should",
+      "Had better",
+      "Must"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Could I...?' là cấu trúc phổ biến để xin phép một cách lịch sự.",
+    "choiceExplanations": [
+      "Đúng — 'Could I...?' là cách xin phép lịch sự, phổ biến trong giao tiếp hằng ngày.",
+      "Sai — 'should' dùng để hỏi ý kiến/lời khuyên, không phải xin phép.",
+      "Sai — 'had better' không dùng ở dạng câu hỏi xin phép, mà mang tính cảnh báo.",
+      "Sai — dùng 'must' để hỏi xin phép nghe rất kỳ lạ và không tự nhiên trong tiếng Anh."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u3-obligation",
+    "tags": [
+      "modal-u3-obligation"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In the United States, drivers ______ stop completely at a red light before turning.",
+    "choices": [
+      "might",
+      "have to",
+      "may",
+      "could"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quy định pháp luật/giao thông là nghĩa vụ khách quan nên dùng 'have to'.",
+    "choiceExplanations": [
+      "Sai — 'might' diễn tả khả năng thấp, không liên quan đến luật giao thông bắt buộc.",
+      "Đúng — quy định giao thông là nghĩa vụ khách quan do luật pháp đặt ra, phù hợp với 'have to'.",
+      "Sai — 'may' diễn tả sự cho phép hoặc suy đoán, không phù hợp với quy tắc bắt buộc.",
+      "Sai — 'could' diễn tả khả năng, không diễn tả quy định bắt buộc."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u4-advice",
+    "tags": [
+      "modal-u4-advice"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You ______ see a dentist regularly to keep your teeth healthy.",
+    "choices": [
+      "may",
+      "must not",
+      "can",
+      "should"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Should' dùng để đưa ra lời khuyên chung.",
+    "choiceExplanations": [
+      "Sai — 'may' diễn tả khả năng xảy ra hoặc sự cho phép, không phù hợp với ngữ cảnh khuyên nhủ.",
+      "Sai — 'must not' diễn tả sự cấm đoán, trái ngược hoàn toàn với ý khuyên nên đi khám.",
+      "Sai — 'can' diễn tả khả năng/sự cho phép, không phải lời khuyên.",
+      "Đúng — đây là lời khuyên chung về sức khỏe, phù hợp với 'should'."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u5-deduction",
+    "tags": [
+      "modal-u5-deduction"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Sarah is wearing a heavy coat, a hat, and gloves. It ______ be freezing outside.",
+    "choices": [
+      "should",
+      "must",
+      "can",
+      "have to"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Must' diễn tả suy đoán gần như chắc chắn dựa trên bằng chứng quan sát được.",
+    "choiceExplanations": [
+      "Sai — 'should' diễn tả lời khuyên hoặc kỳ vọng, không phải suy đoán dựa trên bằng chứng trực tiếp.",
+      "Đúng — dựa trên bằng chứng rõ ràng (áo khoác dày, mũ, găng tay), người nói suy đoán gần như chắc chắn là trời rất lạnh.",
+      "Sai — 'can' không dùng để diễn tả suy đoán chắc chắn ở hiện tại theo cách này.",
+      "Sai — 'have to' diễn tả nghĩa vụ khách quan, không dùng để suy đoán về thời tiết."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u1-ability",
+    "tags": [
+      "modal-u1-ability"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My little brother ______ ride a bicycle without training wheels now.",
+    "choices": [
+      "should",
+      "may",
+      "must",
+      "can"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Can' diễn tả khả năng ở hiện tại.",
+    "choiceExplanations": [
+      "Sai — 'should' là lời khuyên, không phải khả năng đã đạt được.",
+      "Sai — 'may' diễn tả sự cho phép hoặc khả năng xảy ra, không phải kỹ năng hiện có.",
+      "Sai — 'must' diễn tả nghĩa vụ hoặc suy đoán, không phù hợp để nói về kỹ năng.",
+      "Đúng — diễn tả khả năng ở hiện tại (em trai giờ đã biết đi xe đạp)."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u2-permission",
+    "tags": [
+      "modal-u2-permission"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Employees ______ take a fifteen-minute break every four hours, according to company policy.",
+    "choices": [
+      "should",
+      "had better",
+      "must not",
+      "may"
+    ],
+    "correctIndex": 3,
+    "explanation": "'May' diễn tả sự cho phép trang trọng, phù hợp với văn phong quy định/chính sách.",
+    "choiceExplanations": [
+      "Sai — 'should' là lời khuyên, không diễn tả quyền được phép làm gì theo chính sách.",
+      "Sai — 'had better' mang tính cảnh báo mạnh, không phù hợp với ngữ cảnh thông báo quyền lợi.",
+      "Sai — 'must not' diễn tả sự cấm đoán, trái ngược với việc công ty cho phép nghỉ.",
+      "Đúng — 'may' diễn tả sự cho phép một cách trang trọng, phù hợp với quy định của công ty cho phép nghỉ giải lao."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u3-obligation",
+    "tags": [
+      "modal-u3-obligation"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Passengers ______ wear a seatbelt while the plane is taking off.",
+    "choices": [
+      "must",
+      "may",
+      "could",
+      "would"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Must' diễn tả nghĩa vụ bắt buộc, thường vì lý do an toàn hoặc quy định nghiêm ngặt.",
+    "choiceExplanations": [
+      "Đúng — đây là nghĩa vụ bắt buộc vì lý do an toàn, dùng 'must' phù hợp cho quy tắc nghiêm ngặt.",
+      "Sai — 'may' diễn tả sự cho phép, không phải bắt buộc.",
+      "Sai — 'could' diễn tả khả năng, không diễn tả nghĩa vụ.",
+      "Sai — 'would' không dùng để diễn tả nghĩa vụ/bắt buộc."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u4-advice",
+    "tags": [
+      "modal-u4-advice"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Your presentation is tomorrow morning, so you ______ go to bed early tonight.",
+    "choices": [
+      "must not",
+      "had better",
+      "may",
+      "can"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Had better' dùng để đưa ra cảnh báo mạnh cho một tình huống cụ thể sắp xảy ra.",
+    "choiceExplanations": [
+      "Sai — 'must not' diễn tả sự cấm đoán, hoàn toàn ngược nghĩa với lời khuyên nên đi ngủ sớm.",
+      "Đúng — cảnh báo mạnh cho tình huống trước mắt (thuyết trình vào sáng mai), nếu không làm sẽ có hậu quả xấu.",
+      "Sai — 'may' diễn tả sự cho phép hoặc khả năng, không phù hợp với ngữ cảnh khuyên nhủ mạnh.",
+      "Sai — 'can' diễn tả khả năng, không phải lời khuyên/cảnh báo."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u5-deduction",
+    "tags": [
+      "modal-u5-deduction"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom hasn't eaten anything since breakfast. He ______ be hungry by now.",
+    "choices": [
+      "may not",
+      "must",
+      "should",
+      "can't"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Must' diễn tả suy đoán gần như chắc chắn dựa trên bằng chứng logic (chưa ăn gì → chắc là đói).",
+    "choiceExplanations": [
+      "Sai — 'may not' diễn tả khả năng không chắc chắn, yếu hơn nhiều so với mức độ chắc chắn mà ngữ cảnh yêu cầu.",
+      "Đúng — dựa trên bằng chứng (chưa ăn gì từ sáng), suy đoán gần như chắc chắn là anh ấy đói.",
+      "Sai — 'should' diễn tả kỳ vọng/lời khuyên, không phải suy đoán chắc chắn dựa trên bằng chứng cụ thể.",
+      "Sai — 'can't' diễn tả suy đoán chắc chắn điều ngược lại (không đói), trái với logic của câu."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u1-ability",
+    "tags": [
+      "modal-u1-ability"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The firefighters ______ rescue the family trapped on the second floor before the fire spread.",
+    "choices": [
+      "can",
+      "could",
+      "were able to",
+      "should"
+    ],
+    "correctIndex": 2,
+    "explanation": "Với một thành tích cụ thể, một lần trong quá khứ, dùng 'was/were able to' thay vì 'could'.",
+    "choiceExplanations": [
+      "Sai — sai thì, câu đang nói về quá khứ (trước khi lửa lan rộng) nên không dùng 'can' ở hiện tại.",
+      "Sai — 'could' chỉ dùng cho khả năng chung trong quá khứ, không phù hợp để nói về một thành tích cụ thể một lần.",
+      "Đúng — diễn tả một thành công CỤ THỂ, một lần trong quá khứ (giải cứu được gia đình mắc kẹt), nên dùng 'were able to' chứ không dùng 'could'.",
+      "Sai — 'should' là lời khuyên, không phù hợp với ngữ cảnh kể lại một hành động đã xảy ra."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u2-permission",
+    "tags": [
+      "modal-u2-permission"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "During the exam, students ______ leave the room without the supervisor's permission.",
+    "choices": [
+      "may not",
+      "aren't able to",
+      "shouldn't have to",
+      "don't have to"
+    ],
+    "correctIndex": 0,
+    "explanation": "'May not' diễn tả sự cấm đoán trang trọng, khác với 'don't have to' (không bắt buộc).",
+    "choiceExplanations": [
+      "Đúng — diễn tả sự KHÔNG được phép (cấm) một cách trang trọng, phù hợp với quy định phòng thi.",
+      "Sai — diễn tả không có khả năng, trong khi ở đây vấn đề là không được PHÉP chứ không phải không có khả năng.",
+      "Sai — cấu trúc này mang nghĩa 'không nên phải làm gì đó' (thường vì bất công), không phù hợp với quy định cấm.",
+      "Sai — 'don't have to' diễn tả KHÔNG bắt buộc (vẫn được phép làm nếu muốn), khác hoàn toàn với việc bị cấm rời phòng."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u3-obligation",
+    "tags": [
+      "modal-u3-obligation"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ finish this report today; I feel like I owe it to my team to get it done on time.",
+    "choices": [
+      "have to",
+      "may",
+      "must",
+      "could"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Must' phù hợp khi nghĩa vụ xuất phát từ cảm giác/ý muốn chủ quan của người nói.",
+    "choiceExplanations": [
+      "Sai — 'have to' phù hợp hơn khi nghĩa vụ đến từ quy định/hoàn cảnh bên ngoài, không phải cảm giác cá nhân như trong câu này.",
+      "Sai — 'may' diễn tả sự cho phép, không phải nghĩa vụ.",
+      "Đúng — thể hiện nghĩa vụ mang tính CHỦ QUAN, xuất phát từ cảm giác trách nhiệm của chính người nói ('tôi cảm thấy mình nợ đội của mình').",
+      "Sai — 'could' diễn tả khả năng, không diễn tả nghĩa vụ."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u4-advice",
+    "tags": [
+      "modal-u4-advice"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The bridge ahead is closed for repairs. You ______ take the highway instead, or you'll be stuck for hours.",
+    "choices": [
+      "should",
+      "had better",
+      "may",
+      "must not"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Had better' dùng cho lời khuyên/cảnh báo mạnh có hậu quả cụ thể nếu không làm theo.",
+    "choiceExplanations": [
+      "Sai — 'should' là lời khuyên chung, ít nhấn mạnh hậu quả trực tiếp và tức thời như câu này yêu cầu.",
+      "Đúng — cấu trúc cảnh báo mạnh, thường đi kèm hậu quả xấu cụ thể nếu không làm theo ('or you'll be stuck for hours'), rất phù hợp với 'had better'.",
+      "Sai — 'may' diễn tả sự cho phép/khả năng, không phải lời khuyên hay cảnh báo.",
+      "Sai — 'must not' diễn tả sự cấm đoán, không phù hợp vì câu đang khuyên nên đi đường nào, không phải cấm đoán."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u5-deduction",
+    "tags": [
+      "modal-u5-deduction"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm not completely sure, but Anna ______ be running late; her car wasn't in the parking lot.",
+    "choices": [
+      "should",
+      "must",
+      "might",
+      "can't"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Might' phù hợp khi mức độ chắc chắn của suy đoán thấp/vừa phải.",
+    "choiceExplanations": [
+      "Sai — 'should' diễn tả lời khuyên hoặc kỳ vọng, không phù hợp với suy đoán mang tính phỏng đoán như câu này.",
+      "Sai — 'must' diễn tả suy đoán gần như CHẮC CHẮN, mâu thuẫn với việc người nói tự nói rằng mình không chắc.",
+      "Đúng — người nói không chắc chắn hoàn toàn ('not completely sure'), nên dùng 'might' để diễn tả khả năng ở mức độ vừa phải, không chắc chắn tuyệt đối.",
+      "Sai — 'can't' diễn tả suy đoán chắc chắn điều ngược lại, không phù hợp với ngữ cảnh nghi ngờ nhẹ."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u1-ability",
+    "tags": [
+      "modal-u1-ability"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Even though the instructions were in French, Diego ______ figure out how to assemble the shelf on his first try.",
+    "choices": [
+      "would",
+      "was able to",
+      "could",
+      "can"
+    ],
+    "correctIndex": 1,
+    "explanation": "Thành tích cụ thể một lần trong quá khứ dùng 'was/were able to', không dùng 'could'.",
+    "choiceExplanations": [
+      "Sai — 'would' không diễn tả khả năng đã thực hiện thành công trong quá khứ theo cách này.",
+      "Đúng — đây là một thành công cụ thể, một lần (lắp được kệ ngay lần đầu dù không hiểu tiếng Pháp), nên dùng 'was able to'.",
+      "Sai — 'could' dùng cho khả năng chung, không phù hợp để nhấn mạnh một thành tích cụ thể, một lần như trong câu.",
+      "Sai — sai thì, ngữ cảnh là quá khứ."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u2-permission",
+    "tags": [
+      "modal-u2-permission"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Dear Professor Lee, ______ I have an extension on the essay deadline due to a family emergency?",
+    "choices": [
+      "Had better",
+      "Must",
+      "Should",
+      "May"
+    ],
+    "correctIndex": 3,
+    "explanation": "'May I...?' là cách xin phép trang trọng, phù hợp trong văn viết/giao tiếp lịch sự.",
+    "choiceExplanations": [
+      "Sai — 'had better' không dùng trong câu hỏi xin phép, và cũng không phù hợp về mức độ trang trọng.",
+      "Sai — 'must' dùng để hỏi xin phép nghe không tự nhiên/không đúng ngữ cảnh trang trọng này (dù cấu trúc modal+S+V vẫn hợp lệ về mặt hình thức).",
+      "Sai — 'should' dùng để hỏi ý kiến/lời khuyên, không phải xin phép một cách trang trọng.",
+      "Đúng — 'May I...?' là cách xin phép rất trang trọng, phù hợp với email gửi giáo sư."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u3-obligation",
+    "tags": [
+      "modal-u3-obligation"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The meeting has been moved online, so you ______ come to the office tomorrow.",
+    "choices": [
+      "don't have to",
+      "can't",
+      "shouldn't",
+      "must not"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Don't have to' diễn tả điều không bắt buộc — khác hẳn 'must not' (bị cấm).",
+    "choiceExplanations": [
+      "Đúng — vì cuộc họp chuyển sang trực tuyến, việc đến văn phòng không còn BẮT BUỘC nữa (vẫn được phép đến nếu muốn), đúng nghĩa 'don't have to'.",
+      "Sai — 'can't' diễn tả không có khả năng hoặc suy đoán phủ định, không phù hợp với ngữ cảnh này.",
+      "Sai — 'shouldn't' diễn tả lời khuyên không nên làm gì, không phù hợp với ý 'không cần thiết'.",
+      "Sai — 'must not' diễn tả sự CẤM ĐOÁN (bị cấm đến văn phòng), trong khi câu chỉ có nghĩa là không cần thiết phải đến, chứ không phải bị cấm."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u4-advice",
+    "tags": [
+      "modal-u4-advice"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You've been coughing for two weeks now. You really ______ see a doctor soon.",
+    "choices": [
+      "can",
+      "may",
+      "ought to",
+      "must not"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Ought to' có nghĩa tương đương 'should', dùng để đưa ra lời khuyên hợp lý.",
+    "choiceExplanations": [
+      "Sai — 'can' diễn tả khả năng, không phải lời khuyên.",
+      "Sai — 'may' diễn tả sự cho phép hoặc khả năng xảy ra, không phù hợp với việc đưa ra lời khuyên.",
+      "Đúng — 'ought to' mang nghĩa tương đương 'should', dùng để đưa ra lời khuyên hợp lý dựa trên tình huống (ho kéo dài hai tuần).",
+      "Sai — 'must not' diễn tả sự cấm đoán, hoàn toàn trái ngược với ý khuyên nên đi khám bác sĩ."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u5-deduction",
+    "tags": [
+      "modal-u5-deduction"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This math problem looks incredibly complicated, but the answer is just 'two'? That ______ be right.",
+    "choices": [
+      "can't",
+      "must",
+      "should",
+      "may"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can't' diễn tả suy đoán phủ định chắc chắn (tin rằng điều gì đó không đúng/không thể xảy ra).",
+    "choiceExplanations": [
+      "Đúng — người nói suy đoán rằng đáp án CHẮC CHẮN KHÔNG đúng, dựa trên logic là bài toán trông quá phức tạp so với đáp án đơn giản.",
+      "Sai — 'must' diễn tả suy đoán khẳng định (chắc chắn đúng), ngược hoàn toàn với ý nghi ngờ trong câu.",
+      "Sai — 'should' diễn tả kỳ vọng/lời khuyên, không phù hợp để diễn tả sự nghi ngờ mạnh mẽ về tính đúng đắn.",
+      "Sai — 'may' diễn tả khả năng không chắc chắn, không đủ mạnh để diễn tả sự phủ định chắc chắn mà câu muốn nói."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u3-obligation",
+    "tags": [
+      "modal-u3-obligation"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You ______ submit the form by mail anymore — the university now accepts everything through the online portal, but you're still welcome to mail it if you prefer.",
+    "choices": [
+      "won't",
+      "shouldn't",
+      "don't have to",
+      "must not"
+    ],
+    "correctIndex": 2,
+    "explanation": "Bẫy 'must not' vs 'don't have to': không còn bắt buộc (vẫn được phép làm) phải dùng 'don't have to', không dùng 'must not' (bị cấm hoàn toàn).",
+    "choiceExplanations": [
+      "Sai — 'won't' diễn tả sự từ chối/dự đoán tương lai, không phù hợp với ngữ cảnh nói về việc không còn bắt buộc nữa.",
+      "Sai — 'shouldn't' diễn tả lời khuyên không nên làm, không phù hợp vì câu không phản đối việc gửi qua bưu điện, chỉ nói rằng không bắt buộc nữa.",
+      "Đúng — câu nói rõ 'vẫn được chào đón gửi qua đường bưu điện nếu muốn', nghĩa là việc gửi qua bưu điện không còn BẮT BUỘC nữa, chứ không phải bị CẤM — đúng nghĩa 'don't have to'.",
+      "Sai — đây là bẫy kinh điển: 'must not' nghĩa là bị CẤM hoàn toàn, nhưng câu lại nói rõ vẫn được phép gửi qua bưu điện nếu muốn, nên 'must not' sai về nghĩa."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u1-ability",
+    "tags": [
+      "modal-u1-ability"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Even though Mia had studied piano for years, she ______ play the difficult piece perfectly at last night's recital — everyone in the audience was amazed.",
+    "choices": [
+      "can",
+      "should",
+      "was able to",
+      "could"
+    ],
+    "correctIndex": 2,
+    "explanation": "Có khả năng chung (học piano nhiều năm) khác với việc thực hiện thành công MỘT lần cụ thể — trường hợp sau bắt buộc dùng 'was/were able to', không dùng 'could'.",
+    "choiceExplanations": [
+      "Sai — sai thì, câu chuyện diễn ra ở quá khứ (tối qua).",
+      "Sai — 'should' là lời khuyên, không diễn tả một thành tích đã đạt được.",
+      "Đúng — đây là một thành tích CỤ THỂ, xảy ra một lần (buổi biểu diễn tối qua), nên phải dùng 'was able to' dù trước đó có nền tảng khả năng chung (học piano nhiều năm).",
+      "Sai — đây chính là bẫy phổ biến: dù có khả năng chung trong quá khứ (học nhiều năm), nhưng vì câu nói về MỘT sự kiện cụ thể (buổi biểu diễn tối qua) nên không dùng 'could', mà phải dùng 'was able to'."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u3-obligation",
+    "tags": [
+      "modal-u3-obligation"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "According to the airline's policy, all passengers ______ check in at least two hours before an international flight, but I personally always try to arrive three hours early just to be safe.",
+    "choices": [
+      "may",
+      "must",
+      "could",
+      "have to"
+    ],
+    "correctIndex": 3,
+    "explanation": "Quy định từ bên ngoài (hãng hàng không) là nghĩa vụ khách quan, dùng 'have to'; đối lập với cảm nhận cá nhân thường dùng 'must'.",
+    "choiceExplanations": [
+      "Sai — 'may' diễn tả sự cho phép, không phải quy định bắt buộc.",
+      "Sai — dù 'must' cũng có thể diễn tả nghĩa vụ, nhưng câu đang nhấn mạnh đây là QUY ĐỊNH khách quan của hãng bay (không phải cảm nhận chủ quan của người nói) và đối lập rõ với phần sau nói về ý muốn cá nhân, nên 'have to' phù hợp hơn.",
+      "Sai — 'could' diễn tả khả năng, không phù hợp với ngữ cảnh nói về quy định bắt buộc.",
+      "Đúng — nghĩa vụ này đến từ QUY ĐỊNH của hãng hàng không (yếu tố khách quan bên ngoài), nên dùng 'have to' là chính xác nhất, đặc biệt khi câu sau đối lập với ý kiến CHỦ QUAN cá nhân của người nói."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u5-deduction",
+    "tags": [
+      "modal-u5-deduction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The office lights are on, but nobody answered when I called the front desk. Something ______ be wrong — normally someone answers within two rings.",
+    "choices": [
+      "should",
+      "can't",
+      "will",
+      "must"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Must' phù hợp khi có đủ bằng chứng cụ thể để suy đoán gần như chắc chắn về hiện tại.",
+    "choiceExplanations": [
+      "Sai — 'should' diễn tả kỳ vọng thông thường ('đáng lẽ phải'), không phù hợp để diễn tả suy đoán mạnh dựa trên bằng chứng bất thường vừa quan sát được.",
+      "Sai — 'can't' diễn tả suy đoán phủ định chắc chắn (chắc chắn KHÔNG có gì sai), trái ngược với logic của bằng chứng được đưa ra trong câu.",
+      "Sai — 'will' diễn tả dự đoán/quyết định tương lai, không dùng để suy đoán về TÌNH TRẠNG hiện tại dựa trên bằng chứng.",
+      "Đúng — dựa trên bằng chứng cụ thể (đèn sáng nhưng không ai trả lời dù thường lệ chỉ hai hồi chuông), người nói suy đoán gần như chắc chắn có điều gì đó không ổn."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u4-advice",
+    "tags": [
+      "modal-u4-advice"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The doctor told you plainly that your blood pressure is dangerously high. You ______ ignore this warning, or you could end up in the hospital.",
+    "choices": [
+      "had better not",
+      "needn't",
+      "aren't able to",
+      "may not"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Had better not' diễn tả cảnh báo mạnh mẽ hơn 'shouldn't' khi có hậu quả nghiêm trọng, tức thời.",
+    "choiceExplanations": [
+      "Đúng — cảnh báo mạnh, mang tính khẩn cấp, có hậu quả nghiêm trọng cụ thể nếu không làm theo ('could end up in the hospital'), rất phù hợp với 'had better not'.",
+      "Sai — 'needn't' nghĩa là 'không cần phải', làm câu vô nghĩa ('không cần phải phớt lờ cảnh báo').",
+      "Sai — diễn tả không có khả năng, hoàn toàn sai nghĩa so với ý cảnh báo không nên bỏ qua lời khuyên của bác sĩ.",
+      "Sai — 'may not' diễn tả sự không được phép hoặc khả năng thấp, không phù hợp với ngữ cảnh cảnh báo về sức khỏe."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u2-permission",
+    "tags": [
+      "modal-u2-permission"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This is a quiet study zone. Visitors ______ talk on the phone here — please step outside if you need to make a call, though you're welcome to work silently at any of these desks.",
+    "choices": [
+      "shouldn't have to",
+      "may not",
+      "used to",
+      "don't have to"
+    ],
+    "correctIndex": 1,
+    "explanation": "'May not' diễn tả sự cấm đoán trang trọng — cần phân biệt rõ với 'don't have to' (không bắt buộc).",
+    "choiceExplanations": [
+      "Sai — cấu trúc này mang nghĩa 'không đáng phải làm gì' (thường hàm ý bất công), không phù hợp với một quy định/nội quy đơn giản.",
+      "Đúng — 'may not' diễn tả sự KHÔNG được phép (cấm) một cách trang trọng, phù hợp với biển báo/nội quy khu vực yên tĩnh.",
+      "Sai — 'used to' diễn tả một thói quen/tình trạng đã từng đúng trong quá khứ nhưng nay không còn, không phù hợp với 1 quy định đang áp dụng ở hiện tại.",
+      "Sai — bẫy dễ nhầm: 'don't have to' nghĩa là KHÔNG BẮT BUỘC (vẫn được phép làm nếu muốn), trong khi câu này đang nói về việc bị CẤM gọi điện thoại tại đây, hai ý hoàn toàn khác nhau."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u1-ability",
+    "tags": [
+      "modal-u1-ability"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Twenty years ago, very few smartphones existed, so people ______ video-call each other instantly the way we do today.",
+    "choices": [
+      "shouldn't",
+      "couldn't",
+      "can't",
+      "mustn't"
+    ],
+    "correctIndex": 1,
+    "explanation": "Với khả năng/sự thật mang tính CHUNG trong một giai đoạn dài của quá khứ, 'could/couldn't' vẫn tự nhiên hơn 'was/were able to' (vốn nhấn mạnh MỘT lần cụ thể).",
+    "choiceExplanations": [
+      "Sai — 'shouldn't' diễn tả lời khuyên, không liên quan đến khả năng công nghệ.",
+      "Đúng — đây là một tuyên bố mang tính CHUNG về khả năng trong một giai đoạn dài (20 năm trước, nói chung), nên dùng 'couldn't' (phủ định của 'could') là phù hợp nhất.",
+      "Sai — sai thì, câu đang nói về quá khứ ('hai mươi năm trước'), 'can't' chỉ dùng cho hiện tại.",
+      "Sai — 'mustn't' diễn tả sự cấm đoán/bắt buộc không được làm, không liên quan đến khả năng công nghệ trong câu này."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u2-permission",
+    "tags": [
+      "modal-u2-permission"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Back when my dad was a student, teenagers ______ drive after getting a license at sixteen, but today the minimum age in our state has changed to eighteen.",
+    "choices": [
+      "have to",
+      "should",
+      "must",
+      "could"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Could' còn được dùng để diễn tả sự cho phép chung trong quá khứ (was allowed to), không chỉ diễn tả khả năng.",
+    "choiceExplanations": [
+      "Sai — 'have to' diễn tả sự bắt buộc, không diễn tả việc được phép làm gì.",
+      "Sai — 'should' diễn tả lời khuyên, không liên quan đến việc được phép lái xe theo luật khi đó.",
+      "Sai — 'must' diễn tả nghĩa vụ bắt buộc, không phù hợp với ý 'được phép'.",
+      "Đúng — 'could' ở đây diễn tả sự CHO PHÉP trong quá khứ (được phép lái xe ở tuổi 16 vào thời điểm đó), một cách dùng phổ biến của 'could' cho permission trong quá khứ."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u4-advice",
+    "tags": [
+      "modal-u4-advice"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I know the flight is cheaper if you book today, but you ______ rush into buying a ticket without checking the airline's cancellation policy first.",
+    "choices": [
+      "shouldn't",
+      "can't",
+      "aren't able to",
+      "don't have to"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Shouldn't' dùng để khuyên ai đó không nên làm một việc gì đó.",
+    "choiceExplanations": [
+      "Đúng — đây là lời khuyên không nên vội vàng làm gì đó, phù hợp với 'shouldn't' (phủ định của 'should').",
+      "Sai — 'can't' diễn tả không có khả năng hoặc suy đoán phủ định, không phù hợp với ngữ cảnh đưa ra lời khuyên.",
+      "Sai — diễn tả không có khả năng thể chất, không phù hợp với việc khuyên ai đó không nên hành động vội vàng.",
+      "Sai — 'don't have to' diễn tả điều không bắt buộc, không mang nghĩa khuyên can/cảnh báo như câu này yêu cầu."
+    ]
+  },
+  {
+    "id": "en-modal-verbs-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u5-deduction",
+    "tags": [
+      "modal-u5-deduction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Every window in the house is dark and the mail has piled up on the porch for days. The family ______ be away on vacation.",
+    "choices": [
+      "must",
+      "can't",
+      "don't have to",
+      "should"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Must' phù hợp để suy đoán gần như chắc chắn khi có đủ bằng chứng quan sát được.",
+    "choiceExplanations": [
+      "Đúng — dựa trên nhiều bằng chứng cụ thể (nhà tối, thư chất đống nhiều ngày), người nói suy đoán gần như chắc chắn rằng gia đình đang đi vắng.",
+      "Sai — 'can't' diễn tả suy đoán phủ định (chắc chắn KHÔNG đi vắng), trái ngược hoàn toàn với bằng chứng được đưa ra trong câu.",
+      "Sai — 'don't have to' diễn tả điều không bắt buộc, hoàn toàn không liên quan đến việc suy đoán một sự việc.",
+      "Sai — 'should' diễn tả kỳ vọng hoặc lời khuyên, không phù hợp để diễn tả một suy đoán chắc chắn dựa trên bằng chứng quan sát được."
+    ]
+  }
+]

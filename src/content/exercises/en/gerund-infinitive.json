@@ -1,0 +1,812 @@
+[
+  {
+    "id": "en-gerund-infinitive-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u1-gerund-only",
+    "tags": [
+      "gi-u1-gerund-only"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My little brother really enjoys ______ video games after school. (play)",
+    "choices": [
+      "playing",
+      "play",
+      "to play",
+      "played"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Enjoy' luôn theo sau bởi V-ing, không bao giờ dùng to-V.",
+    "choiceExplanations": [
+      "Đúng: 'enjoy' thuộc nhóm động từ chỉ theo sau bởi V-ing.",
+      "Sai: 'enjoy' không đi với động từ nguyên thể không 'to'.",
+      "Sai: 'enjoy' không đi với to-V.",
+      "Sai: 'played' là quá khứ, không phù hợp sau 'enjoy'."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u2-infinitive-only",
+    "tags": [
+      "gi-u2-infinitive-only"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We decided ______ a new apartment closer to downtown. (rent)",
+    "choices": [
+      "to rent",
+      "renting",
+      "rent",
+      "rented"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Decide' luôn theo sau bởi to-V, không bao giờ dùng V-ing.",
+    "choiceExplanations": [
+      "Đúng: 'decide' thuộc nhóm động từ chỉ theo sau bởi to-V.",
+      "Sai: 'decide' không đi với V-ing.",
+      "Sai: 'decide' không đi trực tiếp với động từ nguyên thể không 'to'.",
+      "Sai: 'rented' là quá khứ, không phù hợp ở đây."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u1-gerund-only",
+    "tags": [
+      "gi-u1-gerund-only"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The teacher suggested ______ the homework in pairs. (do)",
+    "choices": [
+      "does",
+      "doing",
+      "do",
+      "to do"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Suggest' luôn theo sau bởi V-ing, không bao giờ dùng to-V.",
+    "choiceExplanations": [
+      "Sai: 'does' chia theo ngôi thứ ba số ít, không phù hợp ở vị trí này.",
+      "Đúng: 'suggest' thuộc nhóm động từ chỉ theo sau bởi V-ing.",
+      "Sai: thiếu 'to' và cũng không phải dạng đúng sau 'suggest'.",
+      "Sai: 'suggest' không đi với to-V."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u2-infinitive-only",
+    "tags": [
+      "gi-u2-infinitive-only"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I promise ______ you as soon as I land. (call)",
+    "choices": [
+      "call",
+      "calling",
+      "to call",
+      "called"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Promise' luôn theo sau bởi to-V.",
+    "choiceExplanations": [
+      "Sai: thiếu 'to' trước động từ nguyên mẫu.",
+      "Sai: 'promise' không đi với V-ing.",
+      "Đúng: 'promise' thuộc nhóm động từ chỉ theo sau bởi to-V.",
+      "Sai: 'called' là dạng quá khứ, không phù hợp sau 'promise'."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u1-gerund-only",
+    "tags": [
+      "gi-u1-gerund-only"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She avoids ______ coffee late in the evening. (drink)",
+    "choices": [
+      "drinking",
+      "drinks",
+      "to drink",
+      "drink"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Avoid' luôn theo sau bởi V-ing.",
+    "choiceExplanations": [
+      "Đúng: 'avoid' thuộc nhóm động từ chỉ theo sau bởi V-ing.",
+      "Sai: 'drinks' là dạng chia động từ, không phải danh động từ.",
+      "Sai: 'avoid' không đi với to-V.",
+      "Sai: thiếu dạng V-ing bắt buộc sau 'avoid'."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u3-both-same-meaning",
+    "tags": [
+      "gi-u3-both-same-meaning"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It began ______ heavily right after the soccer game started. (rain)",
+    "choices": [
+      "rained",
+      "rains",
+      "raining",
+      "rain"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Begin' thuộc nhóm động từ có thể theo sau bởi cả V-ing và to-V với nghĩa gần như không đổi; ở đây dạng V-ing là lựa chọn đúng trong bốn phương án.",
+    "choiceExplanations": [
+      "Sai: 'rained' là dạng quá khứ, không phù hợp ở đây.",
+      "Sai: 'rains' là dạng chia động từ, không phải danh động từ hay động từ nguyên mẫu.",
+      "Đúng: 'begin' có thể theo sau bởi V-ing, nghĩa không đổi so với to-V.",
+      "Sai: thiếu 'to' hoặc đuôi '-ing' phù hợp."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u5-after-preposition",
+    "tags": [
+      "gi-u5-after-preposition"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He is interested in ______ new cultures whenever he travels. (learn)",
+    "choices": [
+      "learning",
+      "learn",
+      "to learn",
+      "learned"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau giới từ 'in' luôn dùng V-ing.",
+    "choiceExplanations": [
+      "Đúng: sau giới từ 'in' phải dùng V-ing.",
+      "Sai: thiếu đuôi '-ing' bắt buộc sau giới từ.",
+      "Sai: sau giới từ không dùng to-V.",
+      "Sai: 'learned' là dạng quá khứ, không phù hợp sau giới từ."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u1-gerund-only",
+    "tags": [
+      "gi-u1-gerund-only"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They finished ______ the report just before the deadline. (write)",
+    "choices": [
+      "wrote",
+      "write",
+      "to write",
+      "writing"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Finish' luôn theo sau bởi V-ing.",
+    "choiceExplanations": [
+      "Sai: 'wrote' là quá khứ, không phù hợp sau 'finish'.",
+      "Sai: thiếu đuôi '-ing' bắt buộc.",
+      "Sai: 'finish' không đi với to-V.",
+      "Đúng: 'finish' thuộc nhóm động từ chỉ theo sau bởi V-ing."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u2-infinitive-only",
+    "tags": [
+      "gi-u2-infinitive-only"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My parents hope ______ to Japan next spring. (travel)",
+    "choices": [
+      "traveled",
+      "to travel",
+      "travel",
+      "traveling"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Hope' luôn theo sau bởi to-V.",
+    "choiceExplanations": [
+      "Sai: 'traveled' là quá khứ, không phù hợp sau 'hope'.",
+      "Đúng: 'hope' thuộc nhóm động từ chỉ theo sau bởi to-V.",
+      "Sai: thiếu 'to' trước động từ nguyên mẫu.",
+      "Sai: 'hope' không đi với V-ing."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u5-after-preposition",
+    "tags": [
+      "gi-u5-after-preposition"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "After ______ the dishes, she watched a movie with her sister. (wash)",
+    "choices": [
+      "to wash",
+      "wash",
+      "washed",
+      "washing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sau giới từ 'after' luôn dùng V-ing.",
+    "choiceExplanations": [
+      "Sai: sau giới từ không dùng to-V.",
+      "Sai: sau giới từ không dùng động từ nguyên thể trần.",
+      "Sai: 'washed' là dạng quá khứ, không phù hợp sau giới từ.",
+      "Đúng: sau giới từ 'after' phải dùng V-ing."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u3-both-same-meaning",
+    "tags": [
+      "gi-u3-both-same-meaning"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I love ______ long walks on the beach at sunset. (take)",
+    "choices": [
+      "take",
+      "takes",
+      "taking",
+      "taken"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Love' thuộc nhóm động từ theo sau bởi cả V-ing và to-V với nghĩa gần như không đổi; ở đây V-ing là đáp án đúng trong bốn lựa chọn.",
+    "choiceExplanations": [
+      "Sai: thiếu đuôi '-ing' phù hợp cho dạng đúng ở đây.",
+      "Sai: 'takes' là dạng chia theo ngôi, không phải danh động từ.",
+      "Đúng: 'love' có thể theo sau bởi V-ing, nghĩa gần như không đổi so với to-V.",
+      "Sai: 'taken' là phân từ hai, không phù hợp ở đây."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u5-after-preposition",
+    "tags": [
+      "gi-u5-after-preposition"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We are looking forward to ______ our old friends at the reunion. (see)",
+    "choices": [
+      "seen",
+      "seeing",
+      "to see",
+      "see"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trong 'look forward to', chữ 'to' là GIỚI TỪ nên động từ theo sau phải ở dạng V-ing, không phải động từ nguyên mẫu.",
+    "choiceExplanations": [
+      "Sai: 'seen' là phân từ hai, không phù hợp sau giới từ.",
+      "Đúng: 'to' trong 'look forward to' là giới từ, nên theo sau là V-ing.",
+      "Sai: đây là lỗi rất phổ biến — nhầm 'to' là dấu hiệu động từ nguyên mẫu, nhưng thực chất nó là giới từ.",
+      "Sai: sau giới từ 'to' trong cụm này không dùng động từ nguyên thể trần."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u5-after-preposition",
+    "tags": [
+      "gi-u5-after-preposition"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My grandmother is used to ______ up early, even on weekends. (get)",
+    "choices": [
+      "got",
+      "to get",
+      "get",
+      "getting"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Be used to' (quen với việc gì) có 'to' là giới từ, nên theo sau phải là V-ing.",
+    "choiceExplanations": [
+      "Sai: 'got' là dạng quá khứ, không phù hợp sau giới từ.",
+      "Sai: đừng nhầm với cấu trúc khác là 'used to + V nguyên thể' (thói quen quá khứ).",
+      "Sai: sau giới từ 'to' trong cấu trúc 'be used to' không dùng động từ nguyên thể trần.",
+      "Đúng: 'be used to + V-ing' nghĩa là 'quen với việc gì', 'to' ở đây là giới từ."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u2-infinitive-only",
+    "tags": [
+      "gi-u2-infinitive-only"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He refused ______ the contract until the terms were changed. (sign)",
+    "choices": [
+      "signing",
+      "sign",
+      "signed",
+      "to sign"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Refuse' luôn theo sau bởi to-V.",
+    "choiceExplanations": [
+      "Sai: 'refuse' không đi với V-ing.",
+      "Sai: thiếu 'to' trước động từ nguyên mẫu.",
+      "Sai: 'signed' là quá khứ, không phù hợp sau 'refuse'.",
+      "Đúng: 'refuse' thuộc nhóm động từ chỉ theo sau bởi to-V."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u1-gerund-only",
+    "tags": [
+      "gi-u1-gerund-only"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The children kept ______ during the entire movie, which annoyed everyone. (talk)",
+    "choices": [
+      "to talk",
+      "talking",
+      "talk",
+      "talked"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Keep/keep on' luôn theo sau bởi V-ing, mang nghĩa 'cứ mãi làm gì'.",
+    "choiceExplanations": [
+      "Sai: 'keep' không đi với to-V.",
+      "Đúng: 'keep' thuộc nhóm động từ chỉ theo sau bởi V-ing.",
+      "Sai: thiếu đuôi '-ing' bắt buộc sau 'keep'.",
+      "Sai: 'talked' là quá khứ, không phù hợp sau 'keep'."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u2-infinitive-only",
+    "tags": [
+      "gi-u2-infinitive-only"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I can't afford ______ a new laptop right now; I need to save more money first. (buy)",
+    "choices": [
+      "to buy",
+      "buying",
+      "bought",
+      "buy"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Afford' luôn theo sau bởi to-V.",
+    "choiceExplanations": [
+      "Đúng: 'afford' thuộc nhóm động từ chỉ theo sau bởi to-V.",
+      "Sai: 'afford' không đi với V-ing.",
+      "Sai: 'bought' là quá khứ, không phù hợp sau 'afford'.",
+      "Sai: thiếu 'to' trước động từ nguyên mẫu."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u1-gerund-only",
+    "tags": [
+      "gi-u1-gerund-only"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She admitted ______ the last piece of cake without asking anyone. (eat)",
+    "choices": [
+      "to eat",
+      "eating",
+      "eaten",
+      "eat"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Admit' luôn theo sau bởi V-ing.",
+    "choiceExplanations": [
+      "Sai: 'admit' không đi với to-V.",
+      "Đúng: 'admit' thuộc nhóm động từ chỉ theo sau bởi V-ing.",
+      "Sai: 'eaten' là phân từ hai, không phù hợp sau 'admit'.",
+      "Sai: thiếu đuôi '-ing' bắt buộc sau 'admit'."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u5-after-preposition",
+    "tags": [
+      "gi-u5-after-preposition"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's important ______ enough water during hot weather. (drink)",
+    "choices": [
+      "drinking",
+      "drank",
+      "drink",
+      "to drink"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cấu trúc 'It is + adjective + to V' dùng to-V.",
+    "choiceExplanations": [
+      "Sai: cấu trúc 'It is + adjective' đòi hỏi to-V, không phải V-ing.",
+      "Sai: 'drank' là quá khứ, không phù hợp ở đây.",
+      "Sai: thiếu 'to' trước động từ nguyên mẫu trong cấu trúc 'It's + adj + to V'.",
+      "Đúng: 'It is important to V' là cấu trúc cố định dùng to-V."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u3-both-same-meaning",
+    "tags": [
+      "gi-u3-both-same-meaning"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He continued ______ even though everyone else had already left the room. (speak)",
+    "choices": [
+      "spoke",
+      "speaking",
+      "speak",
+      "speaks"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Continue' thuộc nhóm động từ theo sau bởi cả V-ing và to-V, nghĩa gần như không đổi; V-ing là đáp án đúng trong bốn lựa chọn.",
+    "choiceExplanations": [
+      "Sai: 'spoke' là dạng quá khứ, không phù hợp ở đây.",
+      "Đúng: 'continue' có thể theo sau bởi V-ing, nghĩa gần như không đổi so với to-V.",
+      "Sai: thiếu đuôi '-ing' phù hợp cho dạng đúng ở đây.",
+      "Sai: 'speaks' là dạng chia theo ngôi, không phải danh động từ."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u2-infinitive-only",
+    "tags": [
+      "gi-u2-infinitive-only"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We managed ______ the last train by running the whole way to the station. (catch)",
+    "choices": [
+      "caught",
+      "catching",
+      "to catch",
+      "catch"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Manage' luôn theo sau bởi to-V, mang nghĩa 'xoay xở làm được'.",
+    "choiceExplanations": [
+      "Sai: 'caught' là quá khứ, không phù hợp sau 'manage'.",
+      "Sai: 'manage' không đi với V-ing.",
+      "Đúng: 'manage' thuộc nhóm động từ chỉ theo sau bởi to-V.",
+      "Sai: thiếu 'to' trước động từ nguyên mẫu."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u4-both-different-meaning",
+    "tags": [
+      "gi-u4-both-different-meaning"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I remember ______ this exact street corner as a child — nothing here has changed at all. (visit)",
+    "choices": [
+      "visit",
+      "to visit",
+      "visiting",
+      "visited"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Remember + V-ing' diễn tả việc NHỚ LẠI một điều đã xảy ra trong quá khứ, khác với 'remember + to-V' (nhớ phải làm gì đó).",
+    "choiceExplanations": [
+      "Sai: thiếu dạng đúng, không phải động từ nguyên thể trần.",
+      "Sai: 'to visit' mang nghĩa 'nhớ phải đi thăm' (nghĩa vụ tương lai), không phù hợp với ngữ cảnh hồi tưởng quá khứ ở đây.",
+      "Đúng: 'remember + V-ing' = nhớ lại một việc đã làm trong quá khứ, đúng với ngữ cảnh 'as a child'.",
+      "Sai: 'visited' là quá khứ, không dùng trực tiếp sau 'remember'."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u4-both-different-meaning",
+    "tags": [
+      "gi-u4-both-different-meaning"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please remember ______ your passport before we leave for the airport tomorrow morning. (pack)",
+    "choices": [
+      "to pack",
+      "packed",
+      "pack",
+      "packing"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Remember + to-V' diễn tả việc nhớ PHẢI làm một việc cần làm trong tương lai, khác với 'remember + V-ing' (nhớ lại việc đã làm).",
+    "choiceExplanations": [
+      "Đúng: 'remember + to-V' = nhớ phải làm một việc cần làm, đúng với ngữ cảnh nhắc nhở trước chuyến đi.",
+      "Sai: 'packed' là quá khứ, không phù hợp sau 'remember'.",
+      "Sai: thiếu 'to' trước động từ nguyên mẫu.",
+      "Sai: 'packing' mang nghĩa nhớ lại việc đã đóng gói rồi, không phù hợp với lời nhắc nhở cho việc sắp làm."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u4-both-different-meaning",
+    "tags": [
+      "gi-u4-both-different-meaning"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The driver stopped ______ for directions because the road ahead was completely blocked. (ask)",
+    "choices": [
+      "asked",
+      "ask",
+      "to ask",
+      "asking"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Stop + to-V' nghĩa là dừng một hành động lại ĐỂ làm việc khác (to-V chỉ mục đích); ở đây tài xế dừng xe để hỏi đường.",
+    "choiceExplanations": [
+      "Sai: 'asked' là quá khứ, không phù hợp ở vị trí này.",
+      "Sai: thiếu 'to' trước động từ nguyên mẫu chỉ mục đích.",
+      "Đúng: 'stop + to-V' = dừng lại ĐỂ làm việc khác; ở đây là dừng xe để hỏi đường.",
+      "Sai: 'stop + V-ing' nghĩa là bỏ hẳn thói quen hỏi đường, không hợp lý trong ngữ cảnh này."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u4-both-different-meaning",
+    "tags": [
+      "gi-u4-both-different-meaning"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "After years of arguing, the two neighbors finally stopped ______ with each other completely. (fight)",
+    "choices": [
+      "fought",
+      "fighting",
+      "fight",
+      "to fight"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Stop + V-ing' nghĩa là chấm dứt hẳn một hành động đang diễn ra; ở đây là chấm dứt hẳn việc cãi vã.",
+    "choiceExplanations": [
+      "Sai: 'fought' là quá khứ, không dùng trực tiếp sau 'stopped'.",
+      "Đúng: 'stop + V-ing' = chấm dứt hẳn hành động đang làm, phù hợp với 'completely' trong câu.",
+      "Sai: thiếu đuôi '-ing' phù hợp cho dạng đúng.",
+      "Sai: 'stop + to-V' mang nghĩa dừng lại để làm việc khác, không phù hợp với ý 'chấm dứt hẳn' ở đây."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u4-both-different-meaning",
+    "tags": [
+      "gi-u4-both-different-meaning"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If the key doesn't turn easily, try ______ the door a little harder and see what happens. (push)",
+    "choices": [
+      "pushed",
+      "pushing",
+      "to push",
+      "push"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Try + V-ing' nghĩa là thử làm theo một cách nào đó xem kết quả ra sao (thử nghiệm), phù hợp với 'see what happens'.",
+    "choiceExplanations": [
+      "Sai: 'pushed' là quá khứ, không dùng trực tiếp sau 'try'.",
+      "Đúng: 'try + V-ing' = thử làm một cách nào đó để xem kết quả, phù hợp với gợi ý thử nghiệm trong câu.",
+      "Sai: 'try + to-V' mang nghĩa nỗ lực làm một việc khó khăn, ít phù hợp với sắc thái 'thử xem sao' ở đây.",
+      "Sai: thiếu đuôi '-ing' phù hợp cho dạng đúng ở đây."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u4-both-different-meaning",
+    "tags": [
+      "gi-u4-both-different-meaning"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The rescue team tried ______ the trapped hikers before the storm arrived, but they ran out of time. (reach)",
+    "choices": [
+      "to reach",
+      "reaching",
+      "reached",
+      "reach"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Try + to-V' nghĩa là nỗ lực, cố gắng làm một việc khó khăn, có thể thành công hoặc thất bại; phù hợp với 'ran out of time'.",
+    "choiceExplanations": [
+      "Đúng: 'try + to-V' = nỗ lực làm một việc khó khăn, phù hợp với ngữ cảnh cứu hộ và kết quả thất bại.",
+      "Sai: 'try + V-ing' mang nghĩa thử nghiệm xem kết quả, không phù hợp với nỗ lực cứu hộ khẩn cấp ở đây.",
+      "Sai: 'reached' là quá khứ, không dùng trực tiếp sau 'tried'.",
+      "Sai: thiếu 'to' trước động từ nguyên mẫu."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u4-both-different-meaning",
+    "tags": [
+      "gi-u4-both-different-meaning"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We regret ______ you that the flight has been canceled due to severe weather conditions. (inform)",
+    "choices": [
+      "to inform",
+      "inform",
+      "informing",
+      "informed"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Regret + to-V' là cách nói trang trọng dùng khi phải thông báo một tin không vui.",
+    "choiceExplanations": [
+      "Đúng: 'regret + to-V' = lấy làm tiếc khi phải thông báo tin gì đó, thường dùng trong văn phong trang trọng.",
+      "Sai: thiếu 'to' trước động từ nguyên mẫu.",
+      "Sai: 'regret + V-ing' mang nghĩa hối hận về một việc đã làm trong quá khứ, không phù hợp với hành động thông báo đang diễn ra.",
+      "Sai: 'informed' là quá khứ, không dùng trực tiếp sau 'regret'."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u4-both-different-meaning",
+    "tags": [
+      "gi-u4-both-different-meaning"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He deeply regrets ______ so rude to his teacher back in high school. (be)",
+    "choices": [
+      "to be",
+      "be",
+      "been",
+      "being"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Regret + V-ing' diễn tả sự hối hận về một việc đã làm trong quá khứ, phù hợp với 'back in high school'.",
+    "choiceExplanations": [
+      "Sai: 'regret + to-V' dùng khi thông báo tin gì đó trang trọng, không phù hợp với việc hối hận về hành vi cũ.",
+      "Sai: thiếu đuôi '-ing' phù hợp cho dạng đúng.",
+      "Sai: 'been' là phân từ hai, không dùng trực tiếp sau 'regrets'.",
+      "Đúng: 'regret + V-ing' = hối hận về một việc đã làm trong quá khứ."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u5-after-preposition",
+    "tags": [
+      "gi-u5-after-preposition"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Instead of complaining about the problem, you should focus on ______ a practical solution. (find)",
+    "choices": [
+      "find",
+      "to find",
+      "finding",
+      "found"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sau giới từ 'on' luôn dùng V-ing, không dùng động từ nguyên thể hay to-V.",
+    "choiceExplanations": [
+      "Sai: sau giới từ không dùng động từ nguyên thể trần.",
+      "Sai: sau giới từ 'on' không dùng to-V.",
+      "Đúng: sau giới từ 'on' phải dùng V-ing.",
+      "Sai: 'found' là quá khứ, không dùng sau giới từ."
+    ]
+  },
+  {
+    "id": "en-gerund-infinitive-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "gerund-infinitive",
+    "usageId": "gi-u5-after-preposition",
+    "tags": [
+      "gi-u5-after-preposition"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time she was thirty, she had gotten used to ______ alone in a big city, far from her family. (live)",
+    "choices": [
+      "lived",
+      "to live",
+      "live",
+      "living"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Get used to' có 'to' là giới từ nên theo sau phải dùng V-ing; đừng nhầm với cấu trúc 'used to + V nguyên thể' diễn tả thói quen quá khứ.",
+    "choiceExplanations": [
+      "Sai: 'lived' là quá khứ, không dùng trực tiếp sau giới từ.",
+      "Sai: sau giới từ 'to' trong cấu trúc 'get used to' không dùng to-V nguyên mẫu.",
+      "Sai: đây là lỗi rất hay gặp — nhầm cấu trúc này với 'used to + V nguyên thể' (thói quen quá khứ đã chấm dứt), trong khi 'get used to' lại có 'to' là giới từ.",
+      "Đúng: 'get used to + V-ing' = trở nên quen với việc gì, 'to' ở đây là giới từ nên theo sau là V-ing."
+    ]
+  }
+]

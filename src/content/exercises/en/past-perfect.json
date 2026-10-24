@@ -1,0 +1,812 @@
+[
+  {
+    "id": "en-past-perfect-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u1-before-past-point",
+    "tags": [
+      "pastperf-u1-before-past-point"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time we arrived at the party, most of the guests ______ (leave).",
+    "choices": [
+      "had left",
+      "left",
+      "have left",
+      "were leaving"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mốc quy chiếu là 'the time we arrived' (quá khứ đơn); việc khách ra về xảy ra TRƯỚC mốc đó nên chia quá khứ hoàn thành 'had left'.",
+    "choiceExplanations": [
+      "Đúng. 'had left' diễn tả việc khách đã rời đi trước khi mốc 'chúng tôi đến' xảy ra.",
+      "Sai. Quá khứ đơn không làm rõ việc khách rời đi TRƯỚC mốc 'chúng tôi đến', gây mơ hồ về trình tự.",
+      "Sai. Hiện tại hoàn thành lấy mốc là hiện tại, không phù hợp khi mốc quy chiếu là quá khứ ('we arrived').",
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang xảy ra tại một thời điểm, không phù hợp với ý 'đã hoàn tất trước mốc'."
+    ]
+  },
+  {
+    "id": "en-past-perfect-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u2-sequence-of-events",
+    "tags": [
+      "pastperf-u2-sequence-of-events"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "After the rain ______ (stop), the children ran outside to play.",
+    "choices": [
+      "stopped",
+      "was stopping",
+      "has stopped",
+      "had stopped"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mưa tạnh XẢY RA TRƯỚC việc trẻ con chạy ra ngoài chơi (quá khứ đơn), nên dùng quá khứ hoàn thành 'had stopped' để làm rõ trình tự trước-sau, đi cùng tín hiệu 'after'.",
+    "choiceExplanations": [
+      "Không sai hoàn toàn trong văn nói tự nhiên (vì 'after' đã ngụ ý trình tự). Trong tiếng Anh tự nhiên, quá khứ đơn đôi khi vẫn được chấp nhận ở đây vì bản thân từ nối đã ngụ ý trình tự, nhưng bài học này ưu tiên quá khứ hoàn thành để trình tự trước-sau được thể hiện tường minh, rõ ràng.",
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra, không phù hợp với ý 'đã tạnh xong'.",
+      "Sai. Hiện tại hoàn thành không phù hợp vì mốc quy chiếu ở đây là quá khứ, không phải hiện tại.",
+      "Đúng. 'had stopped' cho thấy mưa tạnh trước khi trẻ con chạy ra ngoài."
+    ]
+  },
+  {
+    "id": "en-past-perfect-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u3-reason-for-past-situation",
+    "tags": [
+      "pastperf-u3-reason-for-past-situation"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Lisa looked exhausted because she ______ (work) all night on the report.",
+    "choices": [
+      "has worked",
+      "was working",
+      "had worked",
+      "worked"
+    ],
+    "correctIndex": 2,
+    "explanation": "Việc làm việc cả đêm là NGUYÊN NHÂN xảy ra trước tình trạng 'trông kiệt sức' (quá khứ đơn 'looked'), nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai. Hiện tại hoàn thành không phù hợp vì cả câu đang kể chuyện quá khứ, mốc quy chiếu là quá khứ chứ không phải hiện tại.",
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra tại một thời điểm, không nhấn mạnh việc đã HOÀN TẤT trước đó.",
+      "Đúng. 'had worked' nêu nguyên nhân xảy ra trước tình trạng kiệt sức.",
+      "Sai. Quá khứ đơn không làm rõ việc làm việc cả đêm xảy ra TRƯỚC lúc cô ấy trông kiệt sức."
+    ]
+  },
+  {
+    "id": "en-past-perfect-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u4-experience-up-to-past-point",
+    "tags": [
+      "pastperf-u4-experience-up-to-past-point"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By 2018, the family ______ (move) to three different cities.",
+    "choices": [
+      "had moved",
+      "has moved",
+      "moved",
+      "were moving"
+    ],
+    "correctIndex": 0,
+    "explanation": "'By 2018' là mốc thời gian cụ thể trong quá khứ; việc chuyển nhà đã hoàn tất trước mốc đó nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Đúng. Diễn tả việc đã hoàn tất trước mốc 'by 2018'.",
+      "Sai. Hiện tại hoàn thành chỉ dùng khi mốc quy chiếu là hiện tại, còn ở đây mốc là 'by 2018' trong quá khứ.",
+      "Sai. Quá khứ đơn không nhấn mạnh việc hoàn tất TRƯỚC mốc thời gian đã nêu.",
+      "Sai. Quá khứ tiếp diễn không phù hợp để diễn tả một việc đã hoàn tất."
+    ]
+  },
+  {
+    "id": "en-past-perfect-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u2-sequence-of-events",
+    "tags": [
+      "pastperf-u2-sequence-of-events"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "As soon as the movie ______ (end), everyone stood up and left the theater.",
+    "choices": [
+      "ended",
+      "had ended",
+      "ends",
+      "was ending"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phim kết thúc XẢY RA TRƯỚC việc mọi người đứng dậy ra về, nên dùng quá khứ hoàn thành với tín hiệu 'as soon as' để nhấn mạnh việc đã hoàn tất ngay trước đó.",
+    "choiceExplanations": [
+      "Không sai hoàn toàn trong văn nói tự nhiên (vì 'as soon as' đã ngụ ý trình tự). Trong tiếng Anh tự nhiên, quá khứ đơn đôi khi vẫn được chấp nhận ở đây vì bản thân từ nối đã ngụ ý trình tự, nhưng bài học này ưu tiên quá khứ hoàn thành để trình tự trước-sau được thể hiện tường minh, rõ ràng.",
+      "Đúng. 'had ended' nhấn mạnh phim đã kết thúc trước khi mọi người đứng dậy.",
+      "Sai. Hiện tại đơn không phù hợp với ngữ cảnh kể chuyện quá khứ.",
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang xảy ra, không phù hợp với ý 'đã kết thúc xong'."
+    ]
+  },
+  {
+    "id": "en-past-perfect-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u5-conditional-wish",
+    "tags": [
+      "pastperf-u5-conditional-wish"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I wish I ______ (study) harder before the final exam.",
+    "choices": [
+      "study",
+      "studied",
+      "have studied",
+      "had studied"
+    ],
+    "correctIndex": 3,
+    "explanation": "'wish + had + V-p2' diễn tả sự tiếc nuối về một việc đã KHÔNG xảy ra trong quá khứ — cấu trúc này chính là 'had + V-p2' của quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai. Hiện tại đơn không diễn tả được sự tiếc nuối về việc đã qua.",
+      "Sai. 'wish' đòi hỏi 'had + V-p2' khi tiếc nuối về quá khứ, không dùng quá khứ đơn.",
+      "Sai. Hiện tại hoàn thành không đi cùng cấu trúc 'wish' để diễn tả tiếc nuối quá khứ.",
+      "Đúng. 'wish + had + V-p2' diễn tả tiếc nuối về quá khứ."
+    ]
+  },
+  {
+    "id": "en-past-perfect-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u3-reason-for-past-situation",
+    "tags": [
+      "pastperf-u3-reason-for-past-situation"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The manager was upset because the team ______ (miss) the deadline again.",
+    "choices": [
+      "had missed",
+      "misses",
+      "was missing",
+      "missed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Việc lỡ hạn chót là nguyên nhân xảy ra trước tình trạng 'upset' của người quản lý, nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Đúng. Nêu nguyên nhân xảy ra trước cảm xúc 'upset'.",
+      "Sai. Hiện tại đơn không phù hợp trong câu chuyện quá khứ.",
+      "Sai. Quá khứ tiếp diễn không nhấn mạnh việc đã hoàn tất/xảy ra xong.",
+      "Sai. Quá khứ đơn khiến hai sự việc có vẻ xảy ra cùng lúc thay vì việc lỡ hạn xảy ra TRƯỚC."
+    ]
+  },
+  {
+    "id": "en-past-perfect-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u1-before-past-point",
+    "tags": [
+      "pastperf-u1-before-past-point"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time the ambulance arrived, the doctor ______ (already / examine) the patient.",
+    "choices": [
+      "already examined",
+      "has already examined",
+      "had already examined",
+      "was already examining"
+    ],
+    "correctIndex": 2,
+    "explanation": "'by the time + mệnh đề quá khứ đơn' là mốc để so sánh; việc khám bệnh hoàn tất trước mốc đó nên dùng quá khứ hoàn thành, kết hợp tín hiệu 'already'.",
+    "choiceExplanations": [
+      "Sai. Quá khứ đơn không thể hiện việc đã hoàn tất TRƯỚC mốc thời gian đã nêu.",
+      "Sai. Hiện tại hoàn thành không phù hợp vì mốc quy chiếu ở đây là quá khứ.",
+      "Đúng. Kết hợp 'had' với 'already' diễn tả việc đã hoàn tất trước mốc xe cứu thương đến.",
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra, không phù hợp với ý đã hoàn tất."
+    ]
+  },
+  {
+    "id": "en-past-perfect-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u3-reason-for-past-situation",
+    "tags": [
+      "pastperf-u3-reason-for-past-situation"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We couldn't watch the film because we ______ (not / buy) tickets in advance.",
+    "choices": [
+      "weren't buying",
+      "hadn't bought",
+      "didn't buy",
+      "haven't bought"
+    ],
+    "correctIndex": 1,
+    "explanation": "Việc chưa mua vé trước là nguyên nhân xảy ra trước tình huống không xem được phim, nên dùng thể phủ định của quá khứ hoàn thành 'hadn't bought'.",
+    "choiceExplanations": [
+      "Sai. Quá khứ tiếp diễn phủ định diễn tả hành động đang diễn ra, không phù hợp với ý 'chưa từng mua'.",
+      "Đúng. Thể phủ định quá khứ hoàn thành nêu nguyên nhân xảy ra trước.",
+      "Sai. Quá khứ đơn phủ định không làm rõ việc 'chưa mua vé' xảy ra TRƯỚC việc không xem được phim.",
+      "Sai. Hiện tại hoàn thành phủ định không phù hợp với mốc quy chiếu là quá khứ."
+    ]
+  },
+  {
+    "id": "en-past-perfect-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u4-experience-up-to-past-point",
+    "tags": [
+      "pastperf-u4-experience-up-to-past-point"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the age of 18, Anna ______ (already / win) two national swimming championships.",
+    "choices": [
+      "has already won",
+      "had already won",
+      "already won",
+      "was already winning"
+    ],
+    "correctIndex": 1,
+    "explanation": "'By the age of 18' là mốc quy chiếu trong quá khứ; thành tích đạt được tính ĐẾN mốc đó nên dùng quá khứ hoàn thành, giống cách hiện tại hoàn thành tổng kết trải nghiệm tính đến hiện tại.",
+    "choiceExplanations": [
+      "Sai. Hiện tại hoàn thành chỉ dùng khi mốc quy chiếu là hiện tại, ở đây mốc là quá khứ.",
+      "Đúng. Tổng kết thành tích tính đến mốc 'by the age of 18' trong quá khứ.",
+      "Sai. Quá khứ đơn không nhấn mạnh việc tổng kết tính ĐẾN một mốc quá khứ cụ thể.",
+      "Sai. Quá khứ tiếp diễn không phù hợp để tổng kết thành tích đã đạt được."
+    ]
+  },
+  {
+    "id": "en-past-perfect-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u1-before-past-point",
+    "tags": [
+      "pastperf-u1-before-past-point"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time the fire fighters got to the scene, the fire ______ (already / spread) to the next building.",
+    "choices": [
+      "had already spread",
+      "has already spread",
+      "was already spreading",
+      "already spread"
+    ],
+    "correctIndex": 0,
+    "explanation": "Việc cháy lan sang tòa nhà kế bên hoàn tất trước mốc 'lính cứu hỏa đến hiện trường' (quá khứ đơn), nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Đúng. Diễn tả việc đã hoàn tất trước mốc lính cứu hỏa đến hiện trường.",
+      "Sai. Hiện tại hoàn thành không phù hợp khi mốc quy chiếu là quá khứ.",
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra tại mốc đó, không phải đã hoàn tất trước mốc.",
+      "Sai. Quá khứ đơn không làm rõ việc cháy lan đã xảy ra TRƯỚC mốc lính cứu hỏa đến."
+    ]
+  },
+  {
+    "id": "en-past-perfect-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u2-sequence-of-events",
+    "tags": [
+      "pastperf-u2-sequence-of-events"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Once the workers ______ (finish) laying the foundation, the engineers began building the walls.",
+    "choices": [
+      "finished",
+      "have finished",
+      "had finished",
+      "were finishing"
+    ],
+    "correctIndex": 2,
+    "explanation": "Việc đổ xong móng nhà xảy ra TRƯỚC việc xây tường (quá khứ đơn 'began'), tín hiệu 'once' thường đi cùng quá khứ hoàn thành để nhấn mạnh trình tự.",
+    "choiceExplanations": [
+      "Không sai hoàn toàn trong văn nói tự nhiên (vì 'once' đã ngụ ý trình tự). Trong tiếng Anh tự nhiên, quá khứ đơn đôi khi vẫn được chấp nhận ở đây vì bản thân từ nối đã ngụ ý trình tự, nhưng bài học này ưu tiên quá khứ hoàn thành để trình tự trước-sau được thể hiện tường minh, rõ ràng.",
+      "Sai. Hiện tại hoàn thành không phù hợp khi cả câu chuyện đang ở quá khứ.",
+      "Đúng. 'had finished' cho thấy việc đổ móng hoàn tất trước khi kỹ sư bắt đầu xây tường.",
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra, không phải đã hoàn tất."
+    ]
+  },
+  {
+    "id": "en-past-perfect-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u3-reason-for-past-situation",
+    "tags": [
+      "pastperf-u3-reason-for-past-situation"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Why was Peter so nervous during the interview? — Because he ______ (not / prepare) enough beforehand.",
+    "choices": [
+      "wasn't preparing",
+      "hasn't prepared",
+      "didn't prepare",
+      "hadn't prepared"
+    ],
+    "correctIndex": 3,
+    "explanation": "Việc chuẩn bị chưa đủ là nguyên nhân xảy ra trước trạng thái lo lắng trong buổi phỏng vấn (quá khứ đơn 'was'), nên dùng thể phủ định quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai. Quá khứ tiếp diễn phủ định diễn tả hành động đang diễn ra, không phù hợp ở đây.",
+      "Sai. Hiện tại hoàn thành phủ định không phù hợp khi mốc quy chiếu là quá khứ.",
+      "Sai. Quá khứ đơn phủ định không làm rõ việc 'chưa chuẩn bị' xảy ra TRƯỚC buổi phỏng vấn.",
+      "Đúng. Thể phủ định quá khứ hoàn thành nêu nguyên nhân xảy ra trước tình trạng lo lắng."
+    ]
+  },
+  {
+    "id": "en-past-perfect-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u4-experience-up-to-past-point",
+    "tags": [
+      "pastperf-u4-experience-up-to-past-point"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Before she moved to Canada, Hoa ______ (never / live) outside her hometown.",
+    "choices": [
+      "had never lived",
+      "was never living",
+      "has never lived",
+      "never lived"
+    ],
+    "correctIndex": 0,
+    "explanation": "'never...before' kết hợp mốc quá khứ 'before she moved' cho thấy trải nghiệm tính ĐẾN thời điểm đó trong quá khứ, nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Đúng. 'had never lived' tổng kết trải nghiệm tính đến mốc 'before she moved'.",
+      "Sai. Quá khứ tiếp diễn không phù hợp để diễn tả trải nghiệm tính đến một mốc.",
+      "Sai. Hiện tại hoàn thành chỉ dùng khi mốc là hiện tại, ở đây mốc là 'before she moved'.",
+      "Sai. Quá khứ đơn không nhấn mạnh được ý 'chưa từng...tính đến thời điểm đó'."
+    ]
+  },
+  {
+    "id": "en-past-perfect-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u5-conditional-wish",
+    "tags": [
+      "pastperf-u5-conditional-wish"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If they ______ (check) the weather forecast, they wouldn't have gone hiking in the storm.",
+    "choices": [
+      "checked",
+      "would check",
+      "had checked",
+      "have checked"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mệnh đề 'if' của câu điều kiện loại 3 dùng 'had + V-p2' — chính là cấu trúc quá khứ hoàn thành, diễn tả điều không có thật trong quá khứ.",
+    "choiceExplanations": [
+      "Sai. Mệnh đề 'if' loại 3 cần 'had + V-p2', không dùng quá khứ đơn đơn thuần.",
+      "Sai. 'would + V' là dạng của mệnh đề kết quả, không phải mệnh đề 'if'.",
+      "Đúng. 'had checked' là cấu trúc bắt buộc trong mệnh đề 'if' của câu điều kiện loại 3.",
+      "Sai. Hiện tại hoàn thành không dùng trong mệnh đề 'if' của câu điều kiện loại 3."
+    ]
+  },
+  {
+    "id": "en-past-perfect-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u1-before-past-point",
+    "tags": [
+      "pastperf-u1-before-past-point"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Had the train already ______ (depart) by the time you got to the station?",
+    "choices": [
+      "depart",
+      "had departed",
+      "departing",
+      "departed"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sau trợ động từ 'Had' đã cho sẵn ở đầu câu hỏi, động từ chính chia ở dạng quá khứ phân từ (V-p2) 'departed', không lặp lại 'had'.",
+    "choiceExplanations": [
+      "Sai. Thiếu dạng V-p2, đây là dạng nguyên mẫu.",
+      "Sai. Không lặp lại 'had' vì trợ động từ đã xuất hiện ở đầu câu hỏi.",
+      "Sai. Dạng V-ing không dùng trong công thức nghi vấn của quá khứ hoàn thành.",
+      "Đúng. Sau 'Had' + S, động từ chính chia ở dạng V-p2."
+    ]
+  },
+  {
+    "id": "en-past-perfect-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u2-sequence-of-events",
+    "tags": [
+      "pastperf-u2-sequence-of-events"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When the police ______ (arrive) at the house, the thief had already escaped through the back door.",
+    "choices": [
+      "were arriving",
+      "had arrived",
+      "have arrived",
+      "arrived"
+    ],
+    "correctIndex": 3,
+    "explanation": "Việc trộm bỏ trốn ('had already escaped') xảy ra TRƯỚC, còn việc cảnh sát đến là mốc SAU nên chia quá khứ đơn 'arrived', không phải quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang xảy ra, không phù hợp với ý cảnh sát 'đến nơi' như một mốc thời điểm.",
+      "Sai. Quá khứ hoàn thành đã được dùng cho hành động 'had already escaped' xảy ra TRƯỚC rồi; không thể cả hai mệnh đề đều là quá khứ hoàn thành.",
+      "Sai. Hiện tại hoàn thành không phù hợp trong câu chuyện quá khứ.",
+      "Đúng. Đây là hành động xảy ra SAU (mốc quy chiếu), nên dùng quá khứ đơn."
+    ]
+  },
+  {
+    "id": "en-past-perfect-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u3-reason-for-past-situation",
+    "tags": [
+      "pastperf-u3-reason-for-past-situation"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The kids were so happy on Christmas morning because Santa ______ (leave) presents under the tree.",
+    "choices": [
+      "has left",
+      "had left",
+      "was leaving",
+      "left"
+    ],
+    "correctIndex": 1,
+    "explanation": "Việc để quà dưới cây thông là nguyên nhân xảy ra trước niềm vui của bọn trẻ vào buổi sáng Giáng sinh, nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai. Hiện tại hoàn thành không phù hợp khi mốc quy chiếu là quá khứ.",
+      "Đúng. 'had left' nêu nguyên nhân xảy ra trước niềm vui của bọn trẻ.",
+      "Sai. Quá khứ tiếp diễn không diễn tả một việc đã hoàn tất.",
+      "Sai. Quá khứ đơn không làm rõ việc để quà xảy ra TRƯỚC lúc bọn trẻ vui mừng."
+    ]
+  },
+  {
+    "id": "en-past-perfect-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u4-experience-up-to-past-point",
+    "tags": [
+      "pastperf-u4-experience-up-to-past-point"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time she turned 40, my aunt ______ (start) three different businesses.",
+    "choices": [
+      "was starting",
+      "has started",
+      "had started",
+      "started"
+    ],
+    "correctIndex": 2,
+    "explanation": "'By the time she turned 40' là mốc trong quá khứ; số công việc kinh doanh đã khởi nghiệp được tổng kết tính ĐẾN mốc đó, nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai. Quá khứ tiếp diễn không phù hợp để tổng kết trải nghiệm/thành tựu.",
+      "Sai. Hiện tại hoàn thành chỉ dùng khi mốc là hiện tại.",
+      "Đúng. 'had started' tổng kết số công việc kinh doanh tính đến mốc 'she turned 40'.",
+      "Sai. Quá khứ đơn không nhấn mạnh việc tổng kết tính đến một mốc quá khứ cụ thể."
+    ]
+  },
+  {
+    "id": "en-past-perfect-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u5-conditional-wish",
+    "tags": [
+      "pastperf-u5-conditional-wish"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She wishes she ______ (not / quit) her job so suddenly last year.",
+    "choices": [
+      "didn't quit",
+      "hadn't quit",
+      "hasn't quit",
+      "wouldn't quit"
+    ],
+    "correctIndex": 1,
+    "explanation": "'wish + had not + V-p2' diễn tả tiếc nuối về việc ĐÃ làm trong quá khứ mà giờ ước là đã không làm — vẫn là cấu trúc quá khứ hoàn thành ở dạng phủ định.",
+    "choiceExplanations": [
+      "Sai. Sau 'wish' để diễn tả tiếc nuối quá khứ cần 'had (not) + V-p2', không dùng quá khứ đơn.",
+      "Đúng. 'hadn't quit' diễn tả ước muốn ngược lại điều đã thực sự xảy ra trong quá khứ.",
+      "Sai. Hiện tại hoàn thành phủ định không đi cùng 'wish' khi tiếc nuối về quá khứ.",
+      "Sai. 'wouldn't + V' không phải cấu trúc diễn tả tiếc nuối về một hành động đã xảy ra trong quá khứ."
+    ]
+  },
+  {
+    "id": "en-past-perfect-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u4-experience-up-to-past-point",
+    "tags": [
+      "pastperf-u4-experience-up-to-past-point"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time the negotiations finally ended, the two companies ______ (sign) five different contracts over three years.",
+    "choices": [
+      "were signing",
+      "have signed",
+      "had signed",
+      "signed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mốc 'by the time the negotiations ended' (quá khứ đơn) là điểm mốc; việc ký nhiều hợp đồng trải dài trước đó đã hoàn tất tính đến mốc này nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra, không phù hợp với việc tổng kết đã hoàn tất.",
+      "Sai. Hiện tại hoàn thành không phù hợp vì mốc quy chiếu là quá khứ, không phải hiện tại.",
+      "Đúng. Diễn tả việc đã hoàn tất tính đến mốc 'khi các cuộc đàm phán kết thúc'.",
+      "Sai. Quá khứ đơn không thể hiện việc đã hoàn tất TRƯỚC mốc 'các cuộc đàm phán kết thúc'."
+    ]
+  },
+  {
+    "id": "en-past-perfect-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u2-sequence-of-events",
+    "tags": [
+      "pastperf-u2-sequence-of-events"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The original budget had already changed twice before the review committee ______ (approve) the final proposal.",
+    "choices": [
+      "had approved",
+      "approved",
+      "has approved",
+      "were approving"
+    ],
+    "correctIndex": 1,
+    "explanation": "Việc ngân sách thay đổi hai lần xảy ra TRƯỚC (đã dùng 'had already changed'), còn việc ủy ban phê duyệt là mốc SAU, nên chia quá khứ đơn.",
+    "choiceExplanations": [
+      "Sai. Không thể có hai mệnh đề cùng dùng quá khứ hoàn thành khi một mệnh đề đã rõ ràng là mốc SAU.",
+      "Đúng. Đây là hành động xảy ra sau, dùng quá khứ đơn làm mốc so sánh.",
+      "Sai. Hiện tại hoàn thành không phù hợp trong câu chuyện quá khứ.",
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang xảy ra, không phù hợp với một mốc thời điểm cụ thể như 'phê duyệt'."
+    ]
+  },
+  {
+    "id": "en-past-perfect-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u3-reason-for-past-situation",
+    "tags": [
+      "pastperf-u3-reason-for-past-situation"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The audience gave a standing ovation because the young pianist ______ (perform) flawlessly for over an hour.",
+    "choices": [
+      "had performed",
+      "performed",
+      "has performed",
+      "was performing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Việc trình diễn hoàn hảo suốt hơn một giờ là nguyên nhân xảy ra trước phản ứng đứng dậy vỗ tay của khán giả (quá khứ đơn 'gave'), nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Đúng. 'had performed' nêu nguyên nhân xảy ra trước phản ứng của khán giả.",
+      "Sai. Quá khứ đơn không làm rõ việc trình diễn xảy ra TRƯỚC phản ứng của khán giả.",
+      "Sai. Hiện tại hoàn thành không phù hợp vì mốc quy chiếu ở đây là quá khứ.",
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra, không nhấn mạnh việc đã hoàn tất trọn vẹn."
+    ]
+  },
+  {
+    "id": "en-past-perfect-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u4-experience-up-to-past-point",
+    "tags": [
+      "pastperf-u4-experience-up-to-past-point"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time the company celebrated its tenth anniversary, it ______ (expand) into more than fifteen countries.",
+    "choices": [
+      "had expanded",
+      "expanded",
+      "has expanded",
+      "was expanding"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mốc 'by the time the company celebrated its tenth anniversary' là một thời điểm trong quá khứ; việc mở rộng sang nhiều nước được tổng kết tính đến mốc đó, nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Đúng. 'had expanded' tổng kết thành tựu tính đến mốc kỷ niệm mười năm thành lập.",
+      "Sai. Quá khứ đơn không nhấn mạnh việc tổng kết trải nghiệm/thành tựu tính đến một mốc quá khứ.",
+      "Sai. Hiện tại hoàn thành chỉ dùng khi mốc là hiện tại.",
+      "Sai. Quá khứ tiếp diễn không phù hợp để tổng kết thành tựu đã đạt được."
+    ]
+  },
+  {
+    "id": "en-past-perfect-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u5-conditional-wish",
+    "tags": [
+      "pastperf-u5-conditional-wish"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If the doctors ______ (diagnose) the illness earlier, the treatment would have been much simpler.",
+    "choices": [
+      "had diagnosed",
+      "diagnosed",
+      "would diagnose",
+      "have diagnosed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề 'if' của câu điều kiện loại 3 dùng 'had + V-p2' để diễn tả một điều không có thật trong quá khứ.",
+    "choiceExplanations": [
+      "Đúng. 'had diagnosed' là cấu trúc bắt buộc trong mệnh đề 'if' của câu điều kiện loại 3.",
+      "Sai. Mệnh đề 'if' loại 3 cần 'had + V-p2', không phải quá khứ đơn.",
+      "Sai. 'would + V' thuộc về mệnh đề kết quả, không phải mệnh đề 'if'.",
+      "Sai. Hiện tại hoàn thành không được dùng trong mệnh đề 'if' của câu điều kiện loại 3."
+    ]
+  },
+  {
+    "id": "en-past-perfect-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u1-before-past-point",
+    "tags": [
+      "pastperf-u1-before-past-point"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the deadline on Friday, the design team ______ (not / finish) even half of the illustrations.",
+    "choices": [
+      "hasn't finished",
+      "hadn't finished",
+      "weren't finishing",
+      "didn't finish"
+    ],
+    "correctIndex": 1,
+    "explanation": "'By the deadline on Friday' là mốc trong quá khứ; thể phủ định quá khứ hoàn thành diễn tả việc CHƯA hoàn tất tính đến mốc đó.",
+    "choiceExplanations": [
+      "Sai. Hiện tại hoàn thành phủ định không phù hợp khi mốc quy chiếu là quá khứ.",
+      "Đúng. 'hadn't finished' diễn tả việc chưa hoàn tất tính đến mốc 'by the deadline on Friday'.",
+      "Sai. Quá khứ tiếp diễn phủ định diễn tả hành động không đang diễn ra, không phù hợp với ý 'chưa hoàn tất'.",
+      "Sai. Quá khứ đơn phủ định không nhấn mạnh việc 'chưa hoàn tất TÍNH ĐẾN' một mốc cụ thể."
+    ]
+  },
+  {
+    "id": "en-past-perfect-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u2-sequence-of-events",
+    "tags": [
+      "pastperf-u2-sequence-of-events"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "As soon as the technicians ______ (repair) the server, the website went back online.",
+    "choices": [
+      "have repaired",
+      "repaired",
+      "were repairing",
+      "had repaired"
+    ],
+    "correctIndex": 3,
+    "explanation": "Việc sửa xong máy chủ xảy ra TRƯỚC việc trang web hoạt động trở lại (quá khứ đơn 'went'), tín hiệu 'as soon as' nhấn mạnh trình tự sát nhau nên vẫn ưu tiên quá khứ hoàn thành cho hành động hoàn tất trước.",
+    "choiceExplanations": [
+      "Sai. Hiện tại hoàn thành không phù hợp trong bối cảnh kể chuyện quá khứ.",
+      "Không sai hoàn toàn trong văn nói tự nhiên (vì 'as soon as' đã ngụ ý trình tự). Trong tiếng Anh tự nhiên, quá khứ đơn đôi khi vẫn được chấp nhận ở đây vì bản thân từ nối đã ngụ ý trình tự, nhưng bài học này ưu tiên quá khứ hoàn thành để trình tự trước-sau được thể hiện tường minh, rõ ràng.",
+      "Sai. Quá khứ tiếp diễn diễn tả hành động đang diễn ra, không phù hợp với ý 'đã sửa xong'.",
+      "Đúng. 'had repaired' cho thấy máy chủ đã sửa xong trước khi trang web hoạt động trở lại."
+    ]
+  },
+  {
+    "id": "en-past-perfect-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u3-reason-for-past-situation",
+    "tags": [
+      "pastperf-u3-reason-for-past-situation"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Why did the investors lose confidence in the startup? — Because it ______ (fail) to meet its sales targets for three straight quarters.",
+    "choices": [
+      "has failed",
+      "failed",
+      "had failed",
+      "was failing"
+    ],
+    "correctIndex": 2,
+    "explanation": "Việc liên tục không đạt chỉ tiêu doanh số ba quý liền là nguyên nhân xảy ra trước việc nhà đầu tư mất niềm tin (quá khứ đơn 'lost'), nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai. Hiện tại hoàn thành không phù hợp vì mốc quy chiếu là quá khứ.",
+      "Sai. Quá khứ đơn không làm rõ việc thất bại liên tục xảy ra TRƯỚC lúc nhà đầu tư mất niềm tin.",
+      "Đúng. 'had failed' nêu nguyên nhân xảy ra trước việc nhà đầu tư mất niềm tin.",
+      "Sai. Quá khứ tiếp diễn không nhấn mạnh việc đã lặp lại và hoàn tất trước đó."
+    ]
+  },
+  {
+    "id": "en-past-perfect-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u4-experience-up-to-past-point",
+    "tags": [
+      "pastperf-u4-experience-up-to-past-point"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Before he took this position as CEO, the company ______ (never / achieve) such rapid growth in a single year.",
+    "choices": [
+      "has never achieved",
+      "never achieved",
+      "was never achieving",
+      "had never achieved"
+    ],
+    "correctIndex": 3,
+    "explanation": "'never...before' kết hợp mốc quá khứ 'before he took this position' cho thấy trải nghiệm/thành tựu tính ĐẾN thời điểm đó, nên dùng quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai. Hiện tại hoàn thành chỉ dùng khi mốc là hiện tại, ở đây mốc là 'before he took this position'.",
+      "Sai. Quá khứ đơn không nhấn mạnh được ý 'chưa từng...tính đến một mốc quá khứ cụ thể'.",
+      "Sai. Quá khứ tiếp diễn không phù hợp để tổng kết trải nghiệm/thành tựu.",
+      "Đúng. 'had never achieved' tổng kết thành tựu tính đến mốc 'before he took this position'."
+    ]
+  },
+  {
+    "id": "en-past-perfect-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u5-conditional-wish",
+    "tags": [
+      "pastperf-u5-conditional-wish"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I wish my grandfather ______ (tell) me more stories about his childhood before he passed away.",
+    "choices": [
+      "told",
+      "had told",
+      "would tell",
+      "has told"
+    ],
+    "correctIndex": 1,
+    "explanation": "'wish + had + V-p2' diễn tả tiếc nuối về một việc đã KHÔNG xảy ra trong quá khứ — vẫn là cấu trúc 'had + V-p2' của quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai. Sau 'wish' để diễn tả tiếc nuối về quá khứ cần 'had + V-p2', không dùng quá khứ đơn.",
+      "Đúng. 'had told' diễn tả tiếc nuối về một việc đã không xảy ra trong quá khứ.",
+      "Sai. 'would + V' diễn tả một mong muốn cho hiện tại/tương lai, không phù hợp với tiếc nuối về quá khứ đã qua.",
+      "Sai. Hiện tại hoàn thành không đi cùng 'wish' khi diễn tả tiếc nuối về quá khứ."
+    ]
+  }
+]

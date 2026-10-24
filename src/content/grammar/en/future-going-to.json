@@ -1,0 +1,163 @@
+{
+  "id": "future-going-to",
+  "language": "en",
+  "title": "Thì tương lai gần (Future - going to)",
+  "levels": [
+    "A2"
+  ],
+  "order": 6,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "fgt-u1-planned-intention",
+        "label": "Dự định, kế hoạch đã có từ trước (không phải quyết định tức thời)",
+        "explanationVi": "\"be going to\" diễn tả một dự định hoặc kế hoạch mà người nói ĐÃ QUYẾT ĐỊNH TỪ TRƯỚC thời điểm nói, chứ không phải một quyết định vừa nảy ra ngay lúc đó. Đây chính là điểm khác biệt cốt lõi giữa \"going to\" và \"will\": \"will\" dùng cho quyết định BỘC PHÁT, nghĩ ra ngay tại thời điểm nói (thường là phản ứng trước một tình huống bất ngờ), còn \"going to\" dùng khi kế hoạch đã được cân nhắc, sắp xếp từ trước đó một khoảng thời gian - dù là vài phút, vài giờ hay vài năm. Hãy so sánh hai câu cạnh nhau trong cùng một tình huống: nếu chuông cửa reo và bạn phản ứng ngay \"I'll get it!\" thì đó là will (chưa hề nghĩ tới việc này trước đó); nhưng nếu bạn đã hẹn trước với ai đó rằng mình sẽ ra mở cửa đón khách vào một giờ cụ thể, bạn nói \"I'm going to open the door for the guests at 7 p.m.\" vì đó là kế hoạch đã sắp xếp.",
+        "examples": [
+          {
+            "en": "A: 'This box is too heavy for me.' B: 'Don't worry, I'll carry it upstairs for you.'",
+            "vi": "A: 'Cái hộp này nặng quá, tôi không bê nổi.' B: 'Đừng lo, để tôi bê nó lên lầu giúp bạn.' (quyết định nảy ra ngay lúc nghe câu nói của A, dùng 'will')"
+          },
+          {
+            "en": "I'm going to redecorate my living room next month; I've already chosen the paint color and bought the furniture.",
+            "vi": "Tôi sắp trang trí lại phòng khách vào tháng tới; tôi đã chọn màu sơn và mua nội thất rồi. (kế hoạch đã có từ trước, dùng 'going to')"
+          }
+        ]
+      },
+      {
+        "id": "fgt-u2-evidence-prediction",
+        "label": "Dự đoán dựa trên bằng chứng có thể quan sát được ở hiện tại",
+        "explanationVi": "\"be going to\" còn dùng để đưa ra dự đoán về tương lai khi có BẰNG CHỨNG hoặc DẤU HIỆU cụ thể mà người nói có thể quan sát, nghe, hoặc cảm nhận được NGAY TẠI THỜI ĐIỂM NÓI. Điều này khác với \"will\", vốn thường dùng để đưa ra dự đoán dựa trên Ý KIẾN, niềm tin, kinh nghiệm chung hoặc suy đoán chủ quan mà không cần có bằng chứng cụ thể ngay trước mắt. Ví dụ, khi bạn nhìn thấy những đám mây đen kịt đang kéo đến, bạn có bằng chứng rõ ràng nên nói \"It's going to rain\"; nhưng nếu chỉ đơn thuần đưa ra nhận định chung dựa trên cảm tính, kiểu như dự báo thời tiết cho cả tuần tới mà chưa thấy dấu hiệu gì cụ thể, người ta thường nói \"I think it will rain later this week\". Ghi nhớ: có bằng chứng trước mắt → going to; chỉ là quan điểm/dự đoán chung → will.",
+        "examples": [
+          {
+            "en": "Look at those dark clouds rolling in - it's going to rain any minute now.",
+            "vi": "Nhìn những đám mây đen đang kéo đến kìa - trời sắp mưa đến nơi rồi. (có bằng chứng quan sát được ngay lúc này)"
+          },
+          {
+            "en": "I don't see any clear signs yet, but I think it will rain sometime next week.",
+            "vi": "Tôi chưa thấy dấu hiệu gì rõ ràng cả, nhưng tôi nghĩ tuần sau trời sẽ mưa. (chỉ là ý kiến cá nhân, không có bằng chứng cụ thể ngay lúc nói)"
+          }
+        ]
+      },
+      {
+        "id": "fgt-u3-near-future-signs",
+        "label": "Sự việc sắp xảy ra trong tương lai rất gần (dấu hiệu rõ ràng ngay trước mắt)",
+        "explanationVi": "\"be going to\" dùng để nói về một việc SẮP xảy ra trong tương lai rất gần, gần như ngay lập tức, khi có những dấu hiệu rõ ràng, cụ thể ngay trước mắt cho thấy việc đó chắc chắn sắp diễn ra (near future, on the verge of doing something). Cách dùng này khá gần với usage dự đoán dựa trên bằng chứng ở trên, nhưng nhấn mạnh thêm yếu tố THỜI ĐIỂM: sự việc không chỉ có khả năng xảy ra mà còn được cảm nhận là RẤT GẦN, gần như tức thì. Ví dụ điển hình là khi nhìn một người phụ nữ mang thai với bụng đã rất to, gần đến ngày sinh, ta nói \"She's going to have a baby\" vì các dấu hiệu thể chất cho thấy việc sinh nở sắp xảy ra trong thời gian rất ngắn tới. Tương tự, khi thấy một chiếc ly đang nghiêng dần ở mép bàn, ta thốt lên \"That glass is going to fall!\" vì hành động rơi gần như chắc chắn sẽ xảy ra ngay sau đó.",
+        "examples": [
+          {
+            "en": "She's got a huge bump and her due date is next Monday - she's going to have her baby any day now.",
+            "vi": "Bụng cô ấy đã rất to và ngày dự sinh là thứ Hai tới - cô ấy sắp sinh em bé trong nay mai. (dấu hiệu thể chất rõ ràng ngay trước mắt)"
+          },
+          {
+            "en": "Watch out - that stack of plates is going to topple over any second!",
+            "vi": "Cẩn thận đó - chồng đĩa kia sắp đổ nhào bất cứ lúc nào! (dấu hiệu quan sát được cho thấy việc sắp xảy ra ngay lập tức)"
+          }
+        ]
+      },
+      {
+        "id": "fgt-u4-going-go-come",
+        "label": "\"Going to\" với động từ chuyển động go/come - thường rút gọn tự nhiên hơn bằng hiện tại tiếp diễn",
+        "explanationVi": "Về mặt ngữ pháp, \"be going to\" hoàn toàn có thể kết hợp với chính động từ \"go\" hoặc \"come\", tạo thành cấu trúc như \"I am going to go\" hay \"She is going to come\". Tuy nhiên, vì có hai từ \"going\" xuất hiện liên tiếp gần nhau (going to go) nghe khá cồng kềnh và lặp lại không cần thiết, nên trong tiếng Anh tự nhiên - đặc biệt là văn nói - người bản ngữ thường LƯỢC BỎ phần \"going to\" khi động từ chính là \"go\" hoặc \"come\", và dùng trực tiếp thì hiện tại tiếp diễn (be + V-ing) để diễn tả cùng một ý nghĩa về kế hoạch tương lai. Vì vậy, \"I'm going to the party tonight\" nghe tự nhiên và phổ biến hơn nhiều so với \"I'm going to go to the party tonight\", dù cả hai đều đúng ngữ pháp. Cách rút gọn này áp dụng riêng cho hai động từ chuyển động go/come, không áp dụng cho các động từ khác.",
+        "examples": [
+          {
+            "en": "I'm going to the gym right after work; I already packed my sneakers this morning.",
+            "vi": "Tôi sẽ đến phòng gym ngay sau giờ làm; sáng nay tôi đã chuẩn bị sẵn giày thể thao rồi. (tự nhiên hơn nhiều so với 'I'm going to go to the gym')"
+          },
+          {
+            "en": "My cousins are coming to our house for Thanksgiving this year.",
+            "vi": "Năm nay các anh chị họ của tôi sẽ đến nhà chúng tôi ăn lễ Tạ ơn. (tự nhiên hơn 'are going to come')"
+          }
+        ]
+      },
+      {
+        "id": "fgt-u5-question-negative-vs-continuous",
+        "label": "Câu hỏi, câu phủ định với \"going to\" và cách phân biệt với hiện tại tiếp diễn chỉ tương lai",
+        "explanationVi": "Để đặt câu hỏi, ta đảo động từ \"am/is/are\" lên trước chủ ngữ: \"Am/Is/Are + S + going to + V?\". Để phủ định, thêm \"not\" ngay sau \"am/is/are\": \"S + am/is/are + not + going to + V\". Một điểm quan trọng cần phân biệt là giữa \"going to\" và hiện tại tiếp diễn (be + V-ing) khi cả hai cùng diễn tả tương lai: hiện tại tiếp diễn thường dùng cho những SẮP XẾP ĐÃ CHỐT CHẮC CHẮN về mặt chi tiết - đã đặt vé, đã hẹn giờ cụ thể, đã xác nhận với người khác (ví dụ: 'I'm meeting the dentist at 9 a.m. tomorrow' - đã có lịch hẹn cụ thể), trong khi \"going to\" thường dùng cho DỰ ĐỊNH/KẾ HOẠCH nói chung, mang tính chủ định của người nói, nhưng CHƯA CHẮC đã chốt xong mọi chi tiết về thời gian hay cách thức thực hiện (ví dụ: 'I'm going to visit the dentist sometime this month' - mới chỉ là dự định, chưa đặt lịch cụ thể). Nói cách khác, hiện tại tiếp diễn nghiêng về tính XÁC ĐỊNH của sự sắp xếp, còn \"going to\" nghiêng về Ý ĐỊNH của người nói.",
+        "examples": [
+          {
+            "en": "Isn't he going to apply for that scholarship? I heard he was really interested in it.",
+            "vi": "Anh ấy không định nộp đơn xin học bổng đó à? Tôi nghe nói anh ấy rất quan tâm đến nó mà."
+          },
+          {
+            "en": "I'm going to fix the leaking faucet sometime this weekend, but I'm meeting a client at 2 p.m. on Saturday, so it depends on my schedule.",
+            "vi": "Tôi định sửa vòi nước bị rò rỉ vào cuối tuần này, nhưng tôi có hẹn gặp khách hàng lúc 2 giờ chiều thứ Bảy đã được xác nhận, nên còn tùy vào lịch trình."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "Look at...! / Look out!",
+        "meaningVi": "Dùng khi có bằng chứng/dấu hiệu quan sát được ngay trước mắt, thường báo hiệu nên dùng 'going to' thay vì 'will'."
+      },
+      {
+        "word": "I can see (that)... / I can hear (that)...",
+        "meaningVi": "Diễn đạt việc nhận biết bằng chứng cụ thể ngay tại thời điểm nói, thường đi kèm 'going to'."
+      },
+      {
+        "word": "already decided / have already planned / have arranged",
+        "meaningVi": "Nhấn mạnh dự định/kế hoạch đã có từ trước, không phải vừa nghĩ ra ngay lúc nói."
+      },
+      {
+        "word": "be about to / on the verge of",
+        "meaningVi": "Mang nghĩa gần giống 'going to' khi nói về việc sắp xảy ra gần như ngay lập tức."
+      },
+      {
+        "word": "definitely/probably + going to",
+        "meaningVi": "Nhấn mạnh mức độ chắc chắn cao của dự định hoặc dự đoán có bằng chứng cụ thể."
+      },
+      {
+        "word": "due date / expecting",
+        "meaningVi": "Thường xuất hiện trong ngữ cảnh dự đoán có bằng chứng rõ ràng, ví dụ như mang thai sắp đến ngày sinh."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "id": "future-going-to-m1",
+        "description": "Quên từ \"to\" sau \"going\", viết liền với động từ nguyên thể.",
+        "examples": [
+          {
+            "wrong": "I am going study tonight.",
+            "correct": "I am going to study tonight."
+          }
+        ]
+      },
+      {
+        "id": "future-going-to-m2",
+        "description": "Dùng \"going to\" cho một quyết định BỘC PHÁT, nảy ra ngay tại thời điểm nói, thay vì dùng \"will\".",
+        "examples": [
+          {
+            "wrong": "The phone is ringing! I am going to answer it.",
+            "correct": "The phone is ringing! I'll answer it."
+          }
+        ],
+        "note": "Câu sai nếu đây là phản ứng tức thời."
+      },
+      {
+        "id": "future-going-to-m3",
+        "description": "Quên chia am/is/are đúng theo chủ ngữ trước \"going to\"",
+        "examples": [
+          {
+            "wrong": "She going to travel to Japan next year.",
+            "correct": "She is going to travel to Japan next year."
+          }
+        ]
+      },
+      {
+        "id": "future-going-to-m4",
+        "description": "Lặp lại một cách không tự nhiên cấu trúc going to go với động từ chuyển động \"go\", trong khi nên dùng hiện tại tiếp diễn cho gọn và tự nhiên hơn.",
+        "examples": [
+          {
+            "wrong": "We are going to go to the beach this weekend.",
+            "correct": "We are going to the beach this weekend."
+          }
+        ]
+      }
+    ],
+    "formulas": {
+      "affirmative": "S + am/is/are + going to + V (nguyên thể). Ví dụ: 'They are going to build a new bridge here.' (Họ sắp/định xây một cây cầu mới ở đây.)",
+      "negative": "S + am/is/are + not + going to + V (nguyên thể). Ví dụ: 'He isn't going to accept that offer.' (Anh ấy sẽ không chấp nhận lời đề nghị đó đâu.)",
+      "question": "Am/Is/Are + S + going to + V (nguyên thể) ...? Ví dụ: 'Are you going to join the workshop next Friday?' (Bạn có định tham gia buổi hội thảo thứ Sáu tới không?)"
+    }
+  }
+}

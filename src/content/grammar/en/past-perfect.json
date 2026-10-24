@@ -1,0 +1,175 @@
+{
+  "id": "past-perfect",
+  "language": "en",
+  "title": "Thì quá khứ hoàn thành (Past Perfect)",
+  "levels": [
+    "B1"
+  ],
+  "order": 8,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "pastperf-u1-before-past-point",
+        "label": "Hoàn tất trước một mốc thời gian cụ thể trong quá khứ (by / by the time)",
+        "explanationVi": "Dùng quá khứ hoàn thành để diễn tả một hành động hoặc sự việc đã HOÀN TẤT trước một mốc thời gian cụ thể đã qua, thường đi cùng \"by + mốc thời gian\" hoặc \"by the time + mệnh đề chia quá khứ đơn\". Mốc thời gian đóng vai trò là điểm mốc trong quá khứ để so sánh, khác với hiện tại hoàn thành vốn lấy hiện tại làm mốc.",
+        "examples": [
+          {
+            "en": "By the time the plane took off, we had already checked in our luggage.",
+            "vi": "Vào lúc máy bay cất cánh, chúng tôi đã làm thủ tục ký gửi hành lý xong rồi."
+          },
+          {
+            "en": "By 2015, the city had built two new bridges across the river.",
+            "vi": "Tính đến năm 2015, thành phố đã xây xong hai cây cầu mới bắc qua sông."
+          }
+        ]
+      },
+      {
+        "id": "pastperf-u2-sequence-of-events",
+        "label": "Hành động xảy ra TRƯỚC trong hai hành động liên tiếp ở quá khứ",
+        "explanationVi": "Khi có hai hành động xảy ra ở quá khứ, hành động nào xảy ra TRƯỚC dùng quá khứ hoàn thành, hành động xảy ra SAU dùng quá khứ đơn, giúp trình tự thời gian rõ ràng, thường đi cùng before/after/when/as soon as/once. Nếu dùng hai quá khứ đơn liên tiếp, người đọc có thể hiểu nhầm hai việc xảy ra gần như đồng thời.",
+        "examples": [
+          {
+            "en": "After the guests had left, the staff cleaned up the ballroom.",
+            "vi": "Sau khi khách khứa đã ra về, nhân viên mới dọn dẹp phòng tiệc."
+          },
+          {
+            "en": "The train had already departed before we reached the platform.",
+            "vi": "Đoàn tàu đã rời đi trước khi chúng tôi đến được sân ga."
+          }
+        ]
+      },
+      {
+        "id": "pastperf-u3-reason-for-past-situation",
+        "label": "Giải thích nguyên nhân cho một tình huống/cảm xúc khác trong quá khứ",
+        "explanationVi": "Quá khứ hoàn thành được dùng để nêu nguyên nhân (thường sau \"because\") giải thích cho một trạng thái, cảm xúc hoặc sự việc khác đã diễn ra ở quá khứ. Việc là nguyên nhân đã xảy ra TRƯỚC tình huống được kể, nên lùi về quá khứ hoàn thành để mốc thời gian không bị lẫn với mốc chính của câu chuyện.",
+        "examples": [
+          {
+            "en": "Emma looked exhausted because she had cleaned the entire house alone.",
+            "vi": "Emma trông kiệt sức vì cô ấy đã tự dọn dẹp cả căn nhà một mình."
+          },
+          {
+            "en": "He couldn't unlock the door because he had left his keys at the office.",
+            "vi": "Anh ấy không thể mở khóa cửa vì đã để quên chìa khóa ở văn phòng."
+          }
+        ]
+      },
+      {
+        "id": "pastperf-u4-experience-up-to-past-point",
+        "label": "Trải nghiệm/thành tựu tính đến một thời điểm trong quá khứ",
+        "explanationVi": "Giống cách hiện tại hoàn thành tổng kết trải nghiệm tính đến HIỆN TẠI, quá khứ hoàn thành tổng kết trải nghiệm/thành tựu tính đến một MỐC QUÁ KHỨ cụ thể, thường có \"by the age of...\", \"by the time...\", \"never...before\". Mốc quy chiếu ở đây luôn là một thời điểm đã qua, không phải bây giờ.",
+        "examples": [
+          {
+            "en": "By the age of 25, she had already published two novels.",
+            "vi": "Đến năm 25 tuổi, cô ấy đã xuất bản hai cuốn tiểu thuyết."
+          },
+          {
+            "en": "Before he joined our team, Daniel had never worked on a marketing project.",
+            "vi": "Trước khi gia nhập đội của chúng tôi, Daniel chưa từng làm dự án marketing nào."
+          }
+        ]
+      },
+      {
+        "id": "pastperf-u5-conditional-wish",
+        "label": "Xuất hiện trong câu điều kiện loại 3 và câu ước tiếc nuối quá khứ (giới thiệu ngắn gọn)",
+        "explanationVi": "Cấu trúc \"had + V-p2\" của quá khứ hoàn thành cũng chính là thành phần bắt buộc trong mệnh đề \"if\" của câu điều kiện loại 3 và trong câu ước với \"wish\" khi tiếc nuối về quá khứ. Chuyên đề Câu điều kiện đã dạy chi tiết điều kiện loại 3, ở đây chỉ nhắc lại để người học nhận ra cùng một cấu trúc \"had + V-p2\" xuất hiện xuyên suốt nhiều ngữ cảnh khác nhau.",
+        "examples": [
+          {
+            "en": "If I had known about the traffic, I would have left home earlier.",
+            "vi": "Nếu tôi biết trước về tình trạng kẹt xe thì tôi đã rời nhà sớm hơn rồi."
+          },
+          {
+            "en": "I wish I had saved more money when I was younger.",
+            "vi": "Giá như tôi đã tiết kiệm nhiều tiền hơn khi còn trẻ."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "already",
+        "meaningVi": "đã... rồi (thường đứng giữa 'had' và V-p2)"
+      },
+      {
+        "word": "just",
+        "meaningVi": "vừa mới"
+      },
+      {
+        "word": "by the time",
+        "meaningVi": "tính đến lúc, vào lúc"
+      },
+      {
+        "word": "before",
+        "meaningVi": "trước khi"
+      },
+      {
+        "word": "after",
+        "meaningVi": "sau khi"
+      },
+      {
+        "word": "when",
+        "meaningVi": "khi"
+      },
+      {
+        "word": "as soon as",
+        "meaningVi": "ngay khi"
+      },
+      {
+        "word": "once",
+        "meaningVi": "một khi, ngay khi"
+      },
+      {
+        "word": "never (before)",
+        "meaningVi": "chưa từng (trước đó)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "id": "past-perfect-m1",
+        "description": "Dùng hai quá khứ đơn liên tiếp khi cần thể hiện rõ việc nào xảy ra trước, việc nào xảy ra sau, khiến trình tự thời gian bị mơ hồ.",
+        "examples": [
+          {
+            "wrong": "When I arrived, the meeting already finished.",
+            "correct": "When I arrived, the meeting had already finished."
+          }
+        ]
+      },
+      {
+        "id": "past-perfect-m2",
+        "description": "Quên từ \"had\", chỉ dùng một mình V-p2 khiến câu không còn mang nghĩa quá khứ hoàn thành.",
+        "examples": [
+          {
+            "wrong": "She already left when I called her.",
+            "correct": "She had already left when I called her."
+          }
+        ]
+      },
+      {
+        "id": "past-perfect-m3",
+        "description": "Nhầm quá khứ hoàn thành với hiện tại hoàn thành khi mốc quy chiếu là một thời điểm trong quá khứ chứ không phải hiện tại.",
+        "examples": [
+          {
+            "wrong": "By the time he was 20, he has traveled to five countries.",
+            "correct": "By the time he was 20, he had traveled to five countries."
+          }
+        ]
+      },
+      {
+        "id": "past-perfect-m4",
+        "description": "Lạm dụng quá khứ hoàn thành cho MỌI hành động trong quá khứ dù không cần thể hiện trình tự trước-sau, làm câu rối và sai nghĩa.",
+        "examples": [
+          {
+            "wrong": "Yesterday I had gone to school and had met my friend.",
+            "correct": "Yesterday I went to school and met my friend."
+          }
+        ],
+        "note": "Hai việc diễn ra bình thường, không có việc nào cần nhấn mạnh là xảy ra trước việc kia."
+      }
+    ],
+    "formulas": {
+      "affirmative": "S + had + V-p2 (quá khứ phân từ). Ví dụ: 'They had finished dinner by 8 p.m.' (Họ đã ăn xong bữa tối trước 8 giờ tối.)",
+      "negative": "S + had + not (hadn't) + V-p2. Ví dụ: 'She hadn't seen that movie before last night.' (Trước tối qua cô ấy chưa từng xem bộ phim đó.)",
+      "question": "Had + S + V-p2...? Ví dụ: 'Had you ever visited Japan before that trip?' (Trước chuyến đi đó, bạn đã từng đến Nhật Bản chưa?)"
+    }
+  }
+}

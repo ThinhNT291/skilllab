@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:content": "node scripts/validate-content.mjs",
+    "test": "node --test tests/*.test.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
@@ -28,5 +30,8 @@
     "eslint-config-next": "16.4.2",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.9"
   }
 }

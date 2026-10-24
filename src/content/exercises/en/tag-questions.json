@@ -1,0 +1,816 @@
+[
+  {
+    "id": "en-tag-questions-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u1-basic-rule",
+    "tags": [
+      "tag-questions-u1-basic-rule"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They are traveling to Japan next month, ______?",
+    "choices": [
+      "won't they",
+      "don't they",
+      "aren't they",
+      "isn't it"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mệnh đề chính dùng trợ động từ 'are' nên tag phải lặp lại 'are' ở dạng phủ định rút gọn: 'aren't they'.",
+    "choiceExplanations": [
+      "Sai — sai trợ động từ, mệnh đề chính dùng thì hiện tại tiếp diễn với 'are', không phải tương lai 'will'.",
+      "Sai — không cần do-support vì mệnh đề chính đã có sẵn trợ động từ 'are'.",
+      "Đúng — mệnh đề chính đã có trợ động từ 'are', tag lặp lại đúng trợ động từ đó ở dạng phủ định.",
+      "Sai — sai cả trợ động từ (phải là 'are' không phải 'is') lẫn đại từ (phải là 'they' không phải 'it')."
+    ]
+  },
+  {
+    "id": "en-tag-questions-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u1-basic-rule",
+    "tags": [
+      "tag-questions-u1-basic-rule"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Your brother has finished his homework, ______?",
+    "choices": [
+      "isn't he",
+      "doesn't he",
+      "hasn't he",
+      "haven't he"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Has' ở đây là trợ động từ của thì hiện tại hoàn thành nên tag phải lặp lại 'has' ở dạng phủ định: 'hasn't he'.",
+    "choiceExplanations": [
+      "Sai — mệnh đề chính không dùng động từ 'to be' nên không thể dùng 'isn't'.",
+      "Sai — không cần do-support vì mệnh đề chính đã có trợ động từ hoàn thành 'has'.",
+      "Đúng — 'has' là trợ động từ hiện tại hoàn thành, tag phải lặp lại đúng trợ động từ này.",
+      "Sai — sai chia động từ theo chủ ngữ, chủ ngữ số ít 'he' phải đi với 'hasn't', không phải 'haven't'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u1-basic-rule",
+    "tags": [
+      "tag-questions-u1-basic-rule"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The children were playing in the park, ______?",
+    "choices": [
+      "didn't they",
+      "aren't they",
+      "weren't they",
+      "wasn't they"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mệnh đề chính dùng trợ động từ 'were' (thì quá khứ tiếp diễn) nên tag phải lặp lại 'were' ở dạng phủ định: 'weren't they'.",
+    "choiceExplanations": [
+      "Sai — không cần do-support vì mệnh đề chính đã có sẵn trợ động từ 'were'.",
+      "Sai — sai thì, mệnh đề chính ở quá khứ ('were playing') không phải hiện tại.",
+      "Đúng — trợ động từ chính là 'were', tag lặp lại đúng thì và đúng số nhiều ở dạng phủ định.",
+      "Sai — sai chia số: chủ ngữ 'the children' là số nhiều nên phải dùng 'were', không phải 'was'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u1-basic-rule",
+    "tags": [
+      "tag-questions-u1-basic-rule"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You can speak French fluently, ______?",
+    "choices": [
+      "can't you",
+      "aren't you",
+      "won't you",
+      "don't you"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' là modal verb trong mệnh đề chính nên tag phải lặp lại chính modal đó ở dạng phủ định: 'can't you'.",
+    "choiceExplanations": [
+      "Đúng — tag phải lặp lại đúng modal verb 'can' đã có trong mệnh đề chính, ở dạng phủ định rút gọn.",
+      "Sai — mệnh đề chính không dùng động từ 'to be' nên không thể dùng 'aren't'.",
+      "Sai — sai modal, mệnh đề chính dùng 'can' (khả năng) chứ không phải 'will' (tương lai).",
+      "Sai — không dùng do-support khi mệnh đề chính đã có modal verb 'can'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u1-basic-rule",
+    "tags": [
+      "tag-questions-u1-basic-rule"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My parents will arrive at 6 pm, ______?",
+    "choices": [
+      "aren't they",
+      "don't they",
+      "wouldn't they",
+      "won't they"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Will' là trợ động từ tương lai trong mệnh đề chính nên tag phải lặp lại 'will' ở dạng phủ định: 'won't they'.",
+    "choiceExplanations": [
+      "Sai — mệnh đề chính không dùng động từ 'to be' nên không thể dùng 'aren't'.",
+      "Sai — không cần do-support vì mệnh đề chính đã có sẵn trợ động từ 'will'.",
+      "Sai — 'wouldn't' là dạng quá khứ/giả định của 'will', không khớp với thì tương lai đơn trong câu.",
+      "Đúng — trợ động từ tương lai 'will' được lặp lại đúng ở dạng phủ định rút gọn 'won't'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u1-basic-rule",
+    "tags": [
+      "tag-questions-u1-basic-rule"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Emma isn't coming to the party tonight, ______?",
+    "choices": [
+      "is she",
+      "does she",
+      "isn't she",
+      "doesn't she"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề chính đã ở dạng phủ định ('isn't') nên theo nguyên tắc đối lập, tag phải ở dạng khẳng định: 'is she'.",
+    "choiceExplanations": [
+      "Đúng — mệnh đề chính phủ định ('isn't') nên tag phải khẳng định, đồng thời lặp lại đúng trợ động từ 'is'.",
+      "Sai — trợ động từ sai: mệnh đề chính dùng động từ 'to be' ('isn't'), không phải động từ thường, nên tag phải lặp lại 'is', không dùng do-support 'does' (cực khẳng định ở đây đã đúng, chỉ sai trợ động từ).",
+      "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định thì tag phải khẳng định, không được lặp lại phủ định.",
+      "Sai — mệnh đề chính dùng động từ 'to be' ('isn't'), không phải động từ thường, nên không dùng do-support."
+    ]
+  },
+  {
+    "id": "en-tag-questions-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u1-basic-rule",
+    "tags": [
+      "tag-questions-u1-basic-rule"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We shouldn't have left the windows open, ______?",
+    "choices": [
+      "did we",
+      "shouldn't have we",
+      "shouldn't we",
+      "should we"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mệnh đề chính phủ định ('shouldn't have') nên tag phải khẳng định, chỉ dùng modal 'should' mà không lặp lại 'have': 'should we'.",
+    "choiceExplanations": [
+      "Sai — sai trợ động từ, bỏ qua hoàn toàn modal 'should' vốn đã có trong mệnh đề chính.",
+      "Sai — cấu trúc tag không lặp lại 'have', chỉ cần modal 'should' theo sau bởi đại từ.",
+      "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định.",
+      "Đúng — tag khẳng định, dùng đúng modal 'should' của mệnh đề chính, không thêm 'have' vào tag."
+    ]
+  },
+  {
+    "id": "en-tag-questions-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u1-basic-rule",
+    "tags": [
+      "tag-questions-u1-basic-rule"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The manager wasn't satisfied with the report, ______?",
+    "choices": [
+      "wasn't he",
+      "did he",
+      "was he",
+      "wasn't she"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mệnh đề chính phủ định ('wasn't') nên tag phải khẳng định, lặp lại đúng trợ động từ 'was': 'was he'.",
+    "choiceExplanations": [
+      "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định.",
+      "Sai — mệnh đề chính dùng động từ 'to be' ('wasn't'), không phải động từ thường, nên không dùng do-support.",
+      "Đúng — tag khẳng định, đúng trợ động từ 'was' và đúng đại từ 'he' cho chủ ngữ 'the manager'.",
+      "Sai — sai cả cực (phải khẳng định) lẫn giới tính đại từ, 'the manager' trong ngữ cảnh này được ám chỉ là 'he'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u2-do-does-did",
+    "tags": [
+      "tag-questions-u2-do-does-did"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom plays tennis every weekend, ______?",
+    "choices": [
+      "hasn't he",
+      "isn't he",
+      "doesn't he",
+      "don't he"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Plays' là động từ thường ở hiện tại đơn, không có trợ động từ nên tag phải mượn do-support: 'doesn't he'.",
+    "choiceExplanations": [
+      "Sai — mệnh đề chính không có ý nghĩa hoàn thành nên không dùng 'hasn't'.",
+      "Sai — mệnh đề chính không dùng động từ 'to be' nên không thể dùng 'isn't'.",
+      "Đúng — 'plays' là động từ thường, chủ ngữ số ít ngôi ba nên tag mượn 'doesn't' ở dạng phủ định.",
+      "Sai — sai chia động từ, chủ ngữ số ít ngôi ba 'he' phải đi với 'doesn't', không phải 'don't'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u2-do-does-did",
+    "tags": [
+      "tag-questions-u2-do-does-did"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The train arrived late again yesterday, ______?",
+    "choices": [
+      "hasn't it",
+      "didn't it",
+      "wasn't it",
+      "doesn't it"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Arrived' là động từ thường ở quá khứ đơn nên tag phải mượn do-support ở quá khứ: 'didn't it'.",
+    "choiceExplanations": [
+      "Sai — mệnh đề chính không có ý nghĩa hoàn thành nên không dùng 'hasn't'.",
+      "Đúng — 'arrived' là động từ thường ở quá khứ đơn, tag mượn 'didn't' để khớp thì quá khứ.",
+      "Sai — mệnh đề chính dùng động từ thường 'arrived', không phải động từ 'to be'.",
+      "Sai — sai thì, mệnh đề chính ở quá khứ đơn ('yesterday') không phải hiện tại đơn."
+    ]
+  },
+  {
+    "id": "en-tag-questions-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u2-do-does-did",
+    "tags": [
+      "tag-questions-u2-do-does-did"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Your sister doesn't like spicy food, ______?",
+    "choices": [
+      "did she",
+      "isn't she",
+      "doesn't she",
+      "does she"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mệnh đề chính phủ định ('doesn't') nên tag phải khẳng định, giữ nguyên thì hiện tại: 'does she'.",
+    "choiceExplanations": [
+      "Sai — sai thì, mệnh đề chính ở hiện tại đơn ('doesn't like'), không phải quá khứ.",
+      "Sai — mệnh đề chính dùng động từ thường 'like' với do-support, không dùng động từ 'to be'.",
+      "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định.",
+      "Đúng — tag khẳng định, giữ đúng thì hiện tại đơn bằng 'does'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u2-do-does-did",
+    "tags": [
+      "tag-questions-u2-do-does-did"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The kids didn't finish their dinner, ______?",
+    "choices": [
+      "weren't they",
+      "did they",
+      "didn't they",
+      "don't they"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mệnh đề chính phủ định ('didn't') nên tag phải khẳng định, giữ nguyên thì quá khứ: 'did they'.",
+    "choiceExplanations": [
+      "Sai — mệnh đề chính dùng động từ thường 'finish' với do-support, không dùng động từ 'to be'.",
+      "Đúng — tag khẳng định, giữ đúng thì quá khứ đơn bằng 'did'.",
+      "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định.",
+      "Sai — sai thì, mệnh đề chính ở quá khứ đơn ('didn't finish'), không phải hiện tại."
+    ]
+  },
+  {
+    "id": "en-tag-questions-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u2-do-does-did",
+    "tags": [
+      "tag-questions-u2-do-does-did"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This recipe requires fresh basil, ______?",
+    "choices": [
+      "isn't it",
+      "doesn't it",
+      "won't it",
+      "hasn't it"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Requires' là động từ thường ở hiện tại đơn nên tag phải mượn do-support: 'doesn't it'.",
+    "choiceExplanations": [
+      "Sai — mệnh đề chính không dùng động từ 'to be'.",
+      "Đúng — 'requires' là động từ thường, chủ ngữ số ít nên tag mượn 'doesn't'.",
+      "Sai — mệnh đề chính ở hiện tại đơn, không phải tương lai, nên không dùng 'won't'.",
+      "Sai — mệnh đề chính không mang ý nghĩa hoàn thành nên không dùng 'hasn't'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u2-do-does-did",
+    "tags": [
+      "tag-questions-u2-do-does-did"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They moved to a new apartment last month, ______?",
+    "choices": [
+      "don't they",
+      "weren't they",
+      "didn't they",
+      "haven't they"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Moved' là động từ thường ở quá khứ đơn nên tag phải mượn do-support ở quá khứ: 'didn't they'.",
+    "choiceExplanations": [
+      "Sai — sai thì, mệnh đề chính ở quá khứ đơn ('last month'), không phải hiện tại.",
+      "Sai — mệnh đề chính dùng động từ thường 'moved', không phải động từ 'to be'.",
+      "Đúng — 'moved' là động từ thường ở quá khứ đơn, tag mượn 'didn't' để khớp thì.",
+      "Sai — mệnh đề chính không mang ý nghĩa hoàn thành nên không dùng 'haven't'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u3-special-cases",
+    "tags": [
+      "tag-questions-u3-special-cases"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm your new colleague, ______?",
+    "choices": [
+      "am not I",
+      "aren't I",
+      "isn't I",
+      "amn't I"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chủ ngữ 'I am' có tag đặc biệt là 'aren't I?' — đây là ngoại lệ cần học thuộc, không theo quy tắc chia thông thường.",
+    "choiceExplanations": [
+      "Sai — sai trật tự từ, 'am not I' không phải cấu trúc tag question chuẩn.",
+      "Đúng — 'I am' luôn có tag đặc biệt cố định là 'aren't I?', đây là ngoại lệ trong tiếng Anh chuẩn.",
+      "Sai — 'isn't I' hoàn toàn không đúng ngữ pháp, không tồn tại cách chia này với chủ ngữ 'I'.",
+      "Sai — 'amn't I' là dạng không chuẩn/phương ngữ, không được dùng trong tiếng Anh chuẩn."
+    ]
+  },
+  {
+    "id": "en-tag-questions-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u3-special-cases",
+    "tags": [
+      "tag-questions-u3-special-cases"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I am not being too harsh with the new intern, ______?",
+    "choices": [
+      "am I",
+      "isn't I",
+      "amn't I",
+      "aren't I"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề chính là 'I am not' (phủ định) nên tag phải khẳng định, dạng đặc biệt cho chủ ngữ này là 'am I'.",
+    "choiceExplanations": [
+      "Đúng — mệnh đề chính phủ định ('I am not'), theo nguyên tắc đối lập tag phải khẳng định: 'am I'.",
+      "Sai — 'isn't I' hoàn toàn không đúng ngữ pháp với chủ ngữ 'I'.",
+      "Sai — 'amn't I' là dạng không chuẩn, không dùng trong tiếng Anh chuẩn.",
+      "Sai — 'aren't I' chỉ dùng khi mệnh đề chính là 'I am' khẳng định, không dùng khi mệnh đề đã phủ định."
+    ]
+  },
+  {
+    "id": "en-tag-questions-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u3-special-cases",
+    "tags": [
+      "tag-questions-u3-special-cases"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Close the window, ______?",
+    "choices": [
+      "won't you",
+      "do you",
+      "shall you",
+      "will you"
+    ],
+    "correctIndex": 3,
+    "explanation": "Đây là câu mệnh lệnh (yêu cầu ai đó làm gì), tag chuẩn cho câu mệnh lệnh là 'will you?'.",
+    "choiceExplanations": [
+      "Sai — 'won't you' thường dùng cho lời mời lịch sự (ví dụ 'Have a seat, won't you?'), không phù hợp với mệnh lệnh trực tiếp này.",
+      "Sai — câu mệnh lệnh không phải câu trần thuật với chủ ngữ rõ ràng nên không dùng do-support.",
+      "Sai — 'shall you' không phải cấu trúc tag chuẩn được dùng cho câu mệnh lệnh.",
+      "Đúng — câu mệnh lệnh trực tiếp dùng tag 'will you?' để nhờ vả/yêu cầu."
+    ]
+  },
+  {
+    "id": "en-tag-questions-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u3-special-cases",
+    "tags": [
+      "tag-questions-u3-special-cases"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Don't forget to lock the door, ______?",
+    "choices": [
+      "won't you",
+      "don't you",
+      "will you",
+      "shall you"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu mệnh lệnh phủ định vẫn dùng tag 'will you?' tương tự câu mệnh lệnh khẳng định.",
+    "choiceExplanations": [
+      "Sai — 'won't you' không phải tag chuẩn cho câu mệnh lệnh mang tính nhắc nhở như thế này.",
+      "Sai — câu mệnh lệnh không dùng do-support để tạo tag.",
+      "Đúng — cả câu mệnh lệnh khẳng định lẫn phủ định đều dùng tag cố định 'will you?'.",
+      "Sai — 'shall you' không phải cấu trúc tag chuẩn được dùng cho câu mệnh lệnh."
+    ]
+  },
+  {
+    "id": "en-tag-questions-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u3-special-cases",
+    "tags": [
+      "tag-questions-u3-special-cases"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Let's grab a coffee before the meeting, ______?",
+    "choices": [
+      "won't we",
+      "shall we",
+      "do we",
+      "will we"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu rủ rê bắt đầu bằng 'Let's' luôn có tag cố định là 'shall we?'.",
+    "choiceExplanations": [
+      "Sai — 'won't we' không phải tag chuẩn dùng cho cấu trúc 'Let's...'.",
+      "Đúng — cấu trúc 'Let's...' luôn đi kèm tag cố định 'shall we?'.",
+      "Sai — 'Let's' không phải câu trần thuật thông thường nên không dùng do-support.",
+      "Sai — 'will we' không phải tag chuẩn dùng cho cấu trúc 'Let's...'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u3-special-cases",
+    "tags": [
+      "tag-questions-u3-special-cases"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Let's not tell anyone about the surprise party, ______?",
+    "choices": [
+      "won't we",
+      "will we",
+      "shan't we",
+      "shall we"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ngay cả 'Let's not...' (dạng phủ định) vẫn giữ nguyên tag cố định 'shall we?', không đổi theo cực khẳng định/phủ định.",
+    "choiceExplanations": [
+      "Sai — 'won't we' không phải tag chuẩn dùng cho cấu trúc 'Let's...'.",
+      "Sai — 'will we' không phải tag chuẩn dùng cho cấu trúc 'Let's...'.",
+      "Sai — 'shan't we' là dạng cổ/hiếm dùng, không phải tag chuẩn cho 'Let's not...'.",
+      "Đúng — 'Let's not...' vẫn dùng tag cố định 'shall we?', không thay đổi theo dạng phủ định của mệnh đề chính."
+    ]
+  },
+  {
+    "id": "en-tag-questions-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u3-special-cases",
+    "tags": [
+      "tag-questions-u3-special-cases"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There is a problem with the printer, ______?",
+    "choices": [
+      "isn't there",
+      "isn't this",
+      "isn't it",
+      "doesn't it"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chủ ngữ giả 'there' phải được lặp lại trong tag, không chuyển thành đại từ khác: 'isn't there'.",
+    "choiceExplanations": [
+      "Đúng — chủ ngữ giả 'there' được lặp lại đúng trong tag, cùng với trợ động từ 'is' ở dạng phủ định.",
+      "Sai — không được đổi 'there' thành 'this', tag phải giữ nguyên từ 'there'.",
+      "Sai — không được đổi 'there' thành 'it', đây là lỗi phổ biến nhất với cấu trúc There is/are.",
+      "Sai — sai cả trợ động từ (không dùng do-support khi đã có 'is') lẫn đại từ (phải là 'there')."
+    ]
+  },
+  {
+    "id": "en-tag-questions-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u3-special-cases",
+    "tags": [
+      "tag-questions-u3-special-cases"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There weren't enough chairs for everyone, ______?",
+    "choices": [
+      "were there",
+      "wasn't there",
+      "was there",
+      "weren't there"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề chính phủ định ('weren't') nên tag phải khẳng định, giữ đúng số nhiều và giữ 'there': 'were there'.",
+    "choiceExplanations": [
+      "Đúng — tag khẳng định, giữ đúng chia số nhiều 'were' (vì 'chairs' số nhiều) và giữ đúng từ 'there'.",
+      "Sai — sai chia số, chủ ngữ 'enough chairs' là số nhiều nên phải dùng 'were', không phải 'was'.",
+      "Sai — sai chia số: chủ ngữ 'enough chairs' số nhiều nên phải dùng 'were', không phải 'was' (cực khẳng định ở đây đã đúng, chỉ sai số ít/nhiều).",
+      "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định."
+    ]
+  },
+  {
+    "id": "en-tag-questions-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u4-negative-words",
+    "tags": [
+      "tag-questions-u4-negative-words"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She never eats breakfast before work, ______?",
+    "choices": [
+      "does she",
+      "isn't she",
+      "doesn't she",
+      "didn't she"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Never' mang nghĩa phủ định dù không có 'not', nên tag phải ở dạng khẳng định: 'does she'.",
+    "choiceExplanations": [
+      "Đúng — 'never' khiến mệnh đề mang nghĩa phủ định, nên tag phải khẳng định, giữ đúng thì hiện tại đơn.",
+      "Sai — mệnh đề chính dùng động từ thường 'eats', không dùng động từ 'to be'.",
+      "Sai — 'never' đã mang nghĩa phủ định nên tag phải khẳng định, không được coi mệnh đề là câu khẳng định để tạo tag phủ định.",
+      "Sai — sai thì, mệnh đề chính ở hiện tại đơn ('never eats'), không phải quá khứ."
+    ]
+  },
+  {
+    "id": "en-tag-questions-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u4-negative-words",
+    "tags": [
+      "tag-questions-u4-negative-words",
+      "tag-questions-u3-special-cases"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There is nothing wrong with the engine, ______?",
+    "choices": [
+      "isn't there",
+      "isn't it",
+      "is it",
+      "is there"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Nothing' mang nghĩa phủ định nên tag phải khẳng định, đồng thời phải giữ chủ ngữ giả 'there': 'is there'.",
+    "choiceExplanations": [
+      "Sai — 'nothing' đã mang nghĩa phủ định nên tag phải khẳng định, không được tạo tag phủ định.",
+      "Sai — sai cả cực (phải khẳng định vì 'nothing' đã phủ định) lẫn đại từ (phải là 'there').",
+      "Sai — không được đổi 'there' thành 'it', tag phải giữ nguyên từ 'there'.",
+      "Đúng — tag khẳng định vì 'nothing' đã mang nghĩa phủ định, đồng thời giữ đúng 'there' cho chủ ngữ giả."
+    ]
+  },
+  {
+    "id": "en-tag-questions-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u4-negative-words",
+    "tags": [
+      "tag-questions-u4-negative-words"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He hardly ever exercises these days, ______?",
+    "choices": [
+      "does he",
+      "did he",
+      "isn't he",
+      "doesn't he"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Hardly' mang nghĩa phủ định (hầu như không) nên tag phải khẳng định: 'does he'.",
+    "choiceExplanations": [
+      "Đúng — 'hardly' mang nghĩa phủ định nên tag phải khẳng định, giữ đúng thì hiện tại đơn.",
+      "Sai — sai thì, mệnh đề chính ở hiện tại đơn ('these days'), không phải quá khứ.",
+      "Sai — mệnh đề chính dùng động từ thường 'exercises', không dùng động từ 'to be'.",
+      "Sai — 'hardly' đã mang nghĩa phủ định, nếu tag cũng phủ định sẽ khiến câu bị 'phủ định kép' sai ngữ pháp tag question."
+    ]
+  },
+  {
+    "id": "en-tag-questions-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u4-negative-words",
+    "tags": [
+      "tag-questions-u4-negative-words"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "No one called while I was out, ______?",
+    "choices": [
+      "did he",
+      "did they",
+      "didn't they",
+      "weren't they"
+    ],
+    "correctIndex": 1,
+    "explanation": "'No one' mang nghĩa phủ định nên tag phải khẳng định; đại từ chuẩn hiện đại dùng cho 'no one' trong tag là 'they'.",
+    "choiceExplanations": [
+      "Sai — dù không sai hoàn toàn về nghĩa nhưng cách dùng chuẩn và phổ biến hiện nay cho 'no one/nobody' trong tag là đại từ 'they', không phải 'he'.",
+      "Đúng — 'no one' đã mang nghĩa phủ định nên tag phải khẳng định, và đại từ chuẩn hiện đại là 'they'.",
+      "Sai — 'no one' đã mang nghĩa phủ định, nếu tag cũng phủ định sẽ tạo ra 'phủ định kép' sai ngữ pháp tag question.",
+      "Sai — mệnh đề chính dùng động từ thường 'called', không dùng động từ 'to be', nên không dùng 'weren't'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u4-negative-words",
+    "tags": [
+      "tag-questions-u4-negative-words"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Few people showed up to the meeting, ______?",
+    "choices": [
+      "didn't they",
+      "did they",
+      "weren't they",
+      "hadn't they"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Few' mang nghĩa phủ định (rất ít) nên tag phải khẳng định: 'did they'.",
+    "choiceExplanations": [
+      "Sai — 'few' đã mang nghĩa phủ định, nếu tag cũng phủ định sẽ tạo ra 'phủ định kép' sai ngữ pháp tag question.",
+      "Đúng — 'few' mang nghĩa phủ định nên tag phải khẳng định, giữ đúng thì quá khứ đơn bằng 'did'.",
+      "Sai — mệnh đề chính dùng động từ thường 'showed up', không dùng động từ 'to be'.",
+      "Sai — mệnh đề chính không mang ý nghĩa hoàn thành nên không dùng 'hadn't'."
+    ]
+  },
+  {
+    "id": "en-tag-questions-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u5-intonation",
+    "tags": [
+      "tag-questions-u5-intonation",
+      "tag-questions-u1-basic-rule"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You've met my wife before, ______? (nói với giọng xuống, khá chắc chắn, chỉ muốn xác nhận lại)",
+    "choices": [
+      "didn't you",
+      "don't you",
+      "hadn't you",
+      "haven't you"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mệnh đề chính dùng trợ động từ hiện tại hoàn thành 'have' nên tag phải lặp lại đúng: 'haven't you' — ngữ điệu xuống giọng chỉ thể hiện người nói đang xác nhận chứ không thay đổi công thức ngữ pháp của tag.",
+    "choiceExplanations": [
+      "Sai — mệnh đề chính không dùng động từ thường độc lập cần do-support, mà đã có trợ động từ 'have'.",
+      "Sai — không cần do-support vì mệnh đề chính đã có trợ động từ hoàn thành 'have'.",
+      "Sai — sai thì, mệnh đề chính ở hiện tại hoàn thành ('have met'), không phải quá khứ hoàn thành.",
+      "Đúng — tag lặp lại đúng trợ động từ hiện tại hoàn thành 'have' ở dạng phủ định rút gọn."
+    ]
+  },
+  {
+    "id": "en-tag-questions-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u5-intonation",
+    "tags": [
+      "tag-questions-u5-intonation",
+      "tag-questions-u1-basic-rule"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This isn't the right bus to the airport, ______? (nói với giọng lên, người nói thực sự không chắc chắn và muốn hỏi)",
+    "choices": [
+      "is it",
+      "isn't it",
+      "does it",
+      "was it"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề chính phủ định ('isn't') nên tag phải khẳng định: 'is it' — dù ngữ điệu lên giọng biến câu thành câu hỏi thật sự, công thức ngữ pháp của tag vẫn không đổi.",
+    "choiceExplanations": [
+      "Đúng — mệnh đề chính phủ định nên theo nguyên tắc đối lập, tag phải khẳng định, giữ đúng trợ động từ 'is'.",
+      "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định.",
+      "Sai — mệnh đề chính đã có trợ động từ 'is' (dạng phủ định), không cần và không được thêm do-support.",
+      "Sai — sai thì, mệnh đề chính ở hiện tại đơn ('isn't'), không phải quá khứ."
+    ]
+  },
+  {
+    "id": "en-tag-questions-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "tag-questions",
+    "usageId": "tag-questions-u5-intonation",
+    "tags": [
+      "tag-questions-u5-intonation",
+      "tag-questions-u1-basic-rule"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The Wilsons haven't sold their house yet, ______? (có thể nói với giọng lên nếu người nói thực sự không biết)",
+    "choices": [
+      "have they",
+      "hadn't they",
+      "didn't they",
+      "haven't they"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề chính phủ định ('haven't') nên tag phải khẳng định, giữ đúng thì hiện tại hoàn thành: 'have they'.",
+    "choiceExplanations": [
+      "Đúng — tag khẳng định, giữ đúng trợ động từ hiện tại hoàn thành 'have'; ngữ điệu (lên hay xuống giọng) chỉ ảnh hưởng ý nghĩa giao tiếp, không đổi công thức ngữ pháp.",
+      "Sai — sai thì, mệnh đề chính ở hiện tại hoàn thành ('haven't sold'), không phải quá khứ hoàn thành.",
+      "Sai — mệnh đề chính đã có trợ động từ 'have', không dùng do-support 'did'.",
+      "Sai — vi phạm nguyên tắc đối lập, mệnh đề chính đã phủ định nên tag phải khẳng định."
+    ]
+  }
+]

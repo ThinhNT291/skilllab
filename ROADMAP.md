@@ -14,16 +14,32 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [ ] Kiểm tra số project Supabase đang hoạt động, tạo project riêng; tạo project Vercel; chủ dự án cấp biến môi trường.
 - [x] Dựng khung Next.js, 3 skin, `ExerciseRunner` với câu mẫu (chưa nối dữ liệu).
 - [x] Client Supabase (browser/server) và route `/api/health` kiểm tra kết nối khi chạy dev.
-- [ ] Chốt cách đăng nhập (xem câu hỏi mở), rồi `supabase/migrations`, bảng `profiles`/câu trả lời, lớp truy cập dữ liệu `src/lib/db`.
+- [x] Chốt: đăng nhập ẩn danh trước. Có `supabase/migrations/0001_init.sql` (`profiles`, `answers`, RLS) và lớp `src/lib/db` ghi từng câu trả lời.
+- [ ] Thêm đường đăng nhập: tài khoản do quản trị tạo (cần màn quản lý) và Google; gắn tài khoản cho người đang dùng ẩn danh. Bật CAPTCHA trước khi mở rộng.
+- [ ] Phân tích từ `answers`: tiến độ theo chủ điểm/thẻ lỗi, mức thuộc, SRS.
 - [ ] Chuyển `legacy/grammar_theory_bank.js` thành dữ liệu nguồn; xóa phần còn lại của `legacy/` sau khi chủ dự án xác nhận.
 - [ ] Đưa phần Gemini (chấm, nhận xét, TTS) vào API route phía server.
 
 ## Giai đoạn 1 — Lõi học và luyện (ưu tiên cao nhất)
+- [x] Lý thuyết 23 chuyên đề tiếng Anh đã chuyển sang JSON (`src/content/grammar/en`), có trang `/hoc` và `/hoc/[topic]`; validator `npm run check:content`.
+- [x] Nhập ngân hàng bài tập cũ: 23 chuyên đề × 30 = 690 câu (`src/content/exercises/en/`).
+- [x] **Đã vá lỗ hổng nội dung**: thêm 4 mục lý thuyết (`cond-connectors`, `ps-vs-pc`, `pp-vs-simple-past`, `past-simple-vs-continuous`) và gắn lại `usageId` (validator chặn thẻ chưa có mục dạy). 4 câu present-simple kiểm tra hiện tại tiếp diễn đã chuyển sang present-continuous (id `en-present-continuous-031..034`, `usageId` `ps-vs-pc`); present-simple được soạn lại 4 câu thuần hiện tại đơn (026–029). Cần chủ dự án đọc duyệt 4 mục mới và 4 câu mới.
+- [x] `choiceExplanations` (giải thích riêng từng đáp án) đã có đủ cho **cả 23 chuyên đề, 694 câu**. Đáp án sai nhưng vẫn chấp nhận được trong tiếng Anh tự nhiên đã được ghi rõ trong lời giải thích; danh sách câu cần viết lại cho chỉ còn một đáp án đúng nằm ở mục dưới.
+- [x] Đã sửa 40 câu có nhiều đáp án chấp nhận được: thay lựa chọn "sai nhưng vẫn nói được" bằng lựa chọn sai rõ ràng (sai thì, sai hòa hợp, sai chia). Việc này làm giảm phần đối chiếu "đơn vs tiếp diễn" trong một số câu; khi mở rộng ngân hàng lên 50–70 câu nên bổ sung câu có dấu hiệu rõ (at that exact moment, while...) để giữ phần đối chiếu.
+- [x] Cân lại độ khó 10/10/10 cho 6 chuyên đề lệch (subjunctive, pronouns-determiners, adverbial-clauses, tag-questions, present-perfect-continuous, adjective-adverb-order) bằng cách xếp lại mức theo độ phức tạp thực của từng câu, không đổi nội dung. present-continuous nay có 34 câu (10/10/14) do nhận 4 câu tương phản; cân nhắc rút còn 30. [ ] Kiểm định độc lập chuyên đề 18–23 (chưa thấy ghi nhận đã audit).
+- [x] Nhãn cấp độ của chuyên đề không hiển thị cho người học (quyết định cũ). [ ] Gắn cấp CEFR ở mức từng câu và mô tả năng lực (giai đoạn 3).
+- [x] Mỗi lượt bốc 10 câu theo từng mức độ khó, xếp dễ → khó. [x] Chế độ "Nhức đầu" (`/hoc/[topic]/nhuc-dau`, 10 câu khó nhất; chưa tách riêng điểm số so với lượt thường).
+- [x] `commonMistakes` đã tách thành {mô tả, cặp ví dụ sai/đúng, ghi chú} (105/106 mục có ví dụ). [ ] Gắn thẻ lỗi (`tags`) cho từng mục để nối với bài tập và phân tích.
 - [ ] Mô hình dữ liệu nội dung dùng chung: mục học (từ, cụm, chủ điểm ngữ pháp, bài đọc, bài nghe), gắn **ngôn ngữ, thang, cấp độ, kỹ năng, chủ đề, thẻ lỗi (tag)**.
 - [ ] Khu Học → Bài tập: một câu mỗi lần, tiến độ, phản hồi tức thì, kết quả cuối bài, làm lại câu sai.
 - [ ] Nhiều kiểu câu: trắc nghiệm, xếp từ thành câu, điền từ (gõ), nghe-chọn/gõ, ghép cặp, sửa lỗi sai.
 - [ ] Nhận xét và gợi ý có cấu trúc: vì sao sai, quy tắc liên quan, link về lý thuyết, mục nên ôn tiếp.
-- [ ] Phân tích: mức thuộc từng mục, lỗi hay sai theo tag, tiến độ theo thang trình độ, SRS.
+- [x] Màn **Tiến độ** `/tien-do`: tổng quan (số câu, % đúng, số chuyên đề), danh sách **mục cần ôn lại** (thẻ sai nhiều nhất lên đầu) kèm nút "Xem lại lý thuyết" và "Luyện lại mục này", và tỷ lệ đúng theo chuyên đề. Dùng bảng `answers`; tổng hợp lúc đọc (`src/lib/analytics`).
+- [x] Chuỗi ngày học (hiện tại và dài nhất), mục tiêu hằng ngày (10 câu, có vòng tiến độ) và bản đồ nhiệt 12 tuần trên `/tien-do`; tính từ bảng `answers`, mọi lượt trả lời (đúng lẫn sai) đều tính. Ngày theo giờ trình duyệt.
+- [ ] Phân tích nâng cao: mức thuộc từng mục theo thời gian, tiến độ theo thang trình độ, gợi ý chuyên đề nên học tiếp; mục tiêu hằng ngày tùy chỉnh; ôn tập (thẻ) cũng tính vào chuỗi ngày.
+- [x] Kiểm thử tự động cho hàm thuần (`npm test`, 14 ca).
+- [x] **Thẻ ôn tập (SRS)** `/on-tap`: thẻ tự tạo từ câu sai (không trùng; sai lại thẻ đã thuộc thì mở lại), lật 3D có họa tiết, chấm Lại/Khó/Tốt/Dễ (phím 1–4, lật bằng Space), "Lại" xếp thẻ về cuối hàng. Lịch ôn là SM-2 rút gọn viết mới (`src/lib/srs/scheduler.ts`); chưa đối chiếu với thuật toán SRS cũ vì tệp `Controller_Srs.gs` chưa có trong repo. [ ] Cân nhắc FSRS; thêm đọc to (TTS) trên thẻ; thẻ từ vựng/Nghe/Đọc.
+- [ ] Thẻ ôn tập: màn quản lý (xem/xóa thẻ), giới hạn số thẻ mới mỗi ngày.
 - [ ] Bước dạy trước khi thi; ví dụ che từ đích; độ khó đổi theo màn (không chỉ đổi kiểu bài).
 
 ## Giai đoạn 2 — Lớp game
@@ -69,7 +85,6 @@ Chủ đề cần đề xuất (mỗi chủ đề: vấn đề, bằng chứng, 
 - [ ] Khả năng truy cập: cỡ chữ, tương phản, bàn phím, thiết bị di động.
 
 ## Câu hỏi mở
-- Cách đăng nhập cho học sinh 9–15 tuổi: Google (nhiều bé dưới 13 không có), tài khoản do giáo viên/phụ huynh tạo, hay đăng nhập ẩn danh trước rồi gắn tài khoản sau?
 - Kế hoạch chuyển nền tảng dữ liệu khi mở rộng (Amazon Postgres hay Cloudflare): chọn hệ đăng nhập thay thế Supabase Auth khi đến lúc; xem nguyên tắc ở CLAUDE.md mục 3b.
 - Nhân vật: emoji, SVG tự vẽ, hay bộ hình miễn phí bản quyền?
 - Theo dõi tiến độ của học sinh: chỉ trên máy, hay đăng nhập? Có khu cho phụ huynh/giáo viên xem từ xa không?

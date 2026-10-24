@@ -1,0 +1,812 @@
+[
+  {
+    "id": "en-subjunctive-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u1-wish-present",
+    "tags": [
+      "subjunctive-u1-wish-present"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I wish I ______ more free time to spend with my family.",
+    "choices": [
+      "will have",
+      "having",
+      "had",
+      "have"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ước muốn về hiện tại dùng wish + quá khứ đơn.",
+    "choiceExplanations": [
+      "Sai — 'will have' là tương lai đơn, không phù hợp cấu trúc wish cho ước muốn hiện tại.",
+      "Sai — 'having' là danh động từ, không phải dạng động từ đúng ngữ pháp sau chủ ngữ 'I' trong mệnh đề wish.",
+      "Đúng — 'wish + quá khứ đơn' (had) diễn tả ước muốn trái với thực tế ở hiện tại (hiện tại không có nhiều thời gian rảnh).",
+      "Sai — 'have' là hiện tại đơn, không dùng sau 'wish' khi ước về hiện tại; phải lùi về quá khứ đơn."
+    ]
+  },
+  {
+    "id": "en-subjunctive-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u1-wish-present",
+    "tags": [
+      "subjunctive-u1-wish-present"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My sister wishes she ______ taller so she could join the volleyball team.",
+    "choices": [
+      "will be",
+      "is",
+      "has been",
+      "were"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ước về tính trạng bản thân ở hiện tại dùng 'wish + were' (dạng giả định của to be).",
+    "choiceExplanations": [
+      "Sai — 'will be' là tương lai, không phù hợp với cấu trúc wish + quá khứ đơn cho hiện tại.",
+      "Sai — 'is' là hiện tại đơn, không dùng sau wish khi nói về điều trái thực tế ở hiện tại.",
+      "Sai — 'has been' là hiện tại hoàn thành, không phải dạng đúng sau wish khi ước về một trạng thái hiện tại.",
+      "Đúng — với động từ 'to be', dạng giả định chuẩn sau wish là 'were' cho mọi ngôi, diễn tả ước muốn về hiện tại."
+    ]
+  },
+  {
+    "id": "en-subjunctive-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u1-wish-present",
+    "tags": [
+      "subjunctive-u1-wish-present"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I don't enjoy living in this noisy city. I wish I ______ in a quiet countryside town instead.",
+    "choices": [
+      "lived",
+      "will live",
+      "am living",
+      "live"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ước về hiện tại (nơi sống hiện tại) dùng wish + quá khứ đơn.",
+    "choiceExplanations": [
+      "Đúng — 'lived' (quá khứ đơn) diễn tả ước muốn trái với thực tế hiện tại, tương tự mệnh đề if của câu điều kiện loại 2.",
+      "Sai — thì tương lai không dùng để diễn tả điều ước trái thực tế ở hiện tại.",
+      "Sai — hiện tại tiếp diễn không phải cấu trúc đúng sau wish cho ước muốn hiện tại.",
+      "Sai — hiện tại đơn không dùng sau wish khi diễn tả điều trái thực tế ở hiện tại."
+    ]
+  },
+  {
+    "id": "en-subjunctive-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u1-wish-present",
+    "tags": [
+      "subjunctive-u1-wish-present"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He wishes he ______ a car so he wouldn't have to take the bus every day.",
+    "choices": [
+      "has had",
+      "had",
+      "has",
+      "will have"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ước về hiện tại (không có xe) dùng wish + quá khứ đơn 'had'.",
+    "choiceExplanations": [
+      "Sai — 'has had' là hiện tại hoàn thành, không đúng cấu trúc wish + quá khứ đơn.",
+      "Đúng — 'had' (quá khứ đơn) diễn tả ước muốn trái thực tế hiện tại (hiện anh ấy không có xe).",
+      "Sai — hiện tại đơn không phù hợp sau wish khi ước điều trái thực tế hiện tại.",
+      "Sai — thì tương lai không dùng trong cấu trúc wish cho hiện tại."
+    ]
+  },
+  {
+    "id": "en-subjunctive-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u2-wish-past",
+    "tags": [
+      "subjunctive-u2-wish-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I wish I ______ so much money on that old car; it broke down within a week.",
+    "choices": [
+      "hadn't spent",
+      "wouldn't spend",
+      "haven't spent",
+      "didn't spend"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tiếc nuối về hành động đã xảy ra trong quá khứ dùng wish + quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Đúng — 'wish + quá khứ hoàn thành' (hadn't spent) diễn tả tiếc nuối về một việc đã xảy ra trong quá khứ, không thể thay đổi.",
+      "Sai — 'wish + would' dùng để phàn nàn về hành vi lặp lại gây khó chịu ở hiện tại, không phù hợp ngữ cảnh tiếc nuối quá khứ.",
+      "Sai — hiện tại hoàn thành không phải dạng đúng theo sau wish khi diễn tả tiếc nuối về quá khứ.",
+      "Sai — quá khứ đơn ('didn't spend') dùng để ước về hiện tại, không phải để tiếc nuối về một sự việc quá khứ cụ thể đã xảy ra."
+    ]
+  },
+  {
+    "id": "en-subjunctive-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u2-wish-past",
+    "tags": [
+      "subjunctive-u2-wish-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She wishes she ______ harder for the exam last month; she failed it badly.",
+    "choices": [
+      "studies",
+      "would study",
+      "had studied",
+      "studied"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tiếc về việc quá khứ (kỳ thi tháng trước) dùng wish + quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai — hiện tại đơn hoàn toàn không phù hợp về mặt thời gian và ngữ pháp sau wish trong ngữ cảnh này.",
+      "Sai — 'wish + would' dùng để phàn nàn về hành vi lặp lại ở hiện tại, không dùng cho tiếc nuối về một sự kiện quá khứ đã kết thúc.",
+      "Đúng — 'had studied' (quá khứ hoàn thành) thể hiện sự tiếc nuối về việc không học chăm chỉ trong quá khứ, không thể thay đổi được nữa.",
+      "Sai — quá khứ đơn diễn tả ước về hiện tại, không phù hợp khi nói về một kỳ thi cụ thể đã diễn ra tháng trước."
+    ]
+  },
+  {
+    "id": "en-subjunctive-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u2-wish-past",
+    "tags": [
+      "subjunctive-u2-wish-past"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I wish I ______ him the truth back then instead of lying about it.",
+    "choices": [
+      "tell",
+      "would tell",
+      "am telling",
+      "had told"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tiếc về hành động quá khứ dùng wish + quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai — hiện tại đơn không phù hợp về ngữ pháp và thời gian trong câu ước về việc đã xảy ra 'back then'.",
+      "Sai — 'wish + would' không dùng để diễn tả tiếc nuối về hành động của chính người nói trong quá khứ.",
+      "Sai — hiện tại tiếp diễn không thể diễn tả một điều ước về quá khứ.",
+      "Đúng — 'had told' diễn tả tiếc nuối rằng lẽ ra đã nên nói thật vào thời điểm đó trong quá khứ, phù hợp cụm 'back then'."
+    ]
+  },
+  {
+    "id": "en-subjunctive-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u2-wish-past",
+    "tags": [
+      "subjunctive-u2-wish-past"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We wish we ______ tickets earlier; by the time we arrived, the concert was sold out.",
+    "choices": [
+      "booked",
+      "had booked",
+      "would book",
+      "book"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tiếc về việc không mua vé sớm hơn (đã xảy ra) dùng wish + quá khứ hoàn thành.",
+    "choiceExplanations": [
+      "Sai — quá khứ đơn dùng để ước về hiện tại, trong khi câu này nói về một cơ hội đã mất trong quá khứ.",
+      "Đúng — 'had booked' (quá khứ hoàn thành) diễn tả tiếc nuối vì đã không đặt vé sớm hơn, một việc trong quá khứ không thể thay đổi.",
+      "Sai — 'wish + would' dùng cho hành vi khó chịu lặp lại, không phù hợp để diễn tả tiếc nuối về một sự việc đã lỡ.",
+      "Sai — hiện tại đơn không đúng ngữ pháp, không diễn tả được tiếc nuối về một việc đã lỡ trong quá khứ."
+    ]
+  },
+  {
+    "id": "en-subjunctive-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u3-wish-would",
+    "tags": [
+      "subjunctive-u3-wish-would"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My neighbor plays loud music every night. I wish he ______ turn it down after 10 p.m.",
+    "choices": [
+      "will",
+      "could",
+      "would",
+      "did"
+    ],
+    "correctIndex": 2,
+    "explanation": "Phàn nàn về hành vi lặp lại gây khó chịu của người khác dùng wish + would.",
+    "choiceExplanations": [
+      "Sai — 'will' không dùng sau wish theo cấu trúc này.",
+      "Sai — 'could' diễn tả khả năng, không phù hợp để phàn nàn về hành vi mà người đó hoàn toàn có khả năng làm nhưng không chịu làm.",
+      "Đúng — 'wish + would' diễn tả sự khó chịu và mong muốn người khác (hàng xóm) thay đổi hành vi lặp đi lặp lại gây phiền.",
+      "Sai — quá khứ đơn 'did' không diễn tả được sắc thái phàn nàn/mong muốn thay đổi hành vi lặp lại; đó là chức năng riêng của 'would'."
+    ]
+  },
+  {
+    "id": "en-subjunctive-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u3-wish-would",
+    "tags": [
+      "subjunctive-u3-wish-would"
+    ],
+    "difficulty": 3,
+    "title": "Chọn đáp án đúng",
+    "prompt": "Choose the correct sentence.",
+    "choices": [
+      "I wish I would understand this math problem.",
+      "I wish it would stop snowing; the roads are dangerous.",
+      "I wish she would be my sister.",
+      "I wish I would be more confident in interviews."
+    ],
+    "correctIndex": 1,
+    "explanation": "'Wish + would' chỉ dùng cho hành vi/sự việc của người khác hoặc sự vật, không dùng cho bản thân người nói hay động từ trạng thái.",
+    "choiceExplanations": [
+      "Sai — 'understand' là động từ trạng thái (stative verb), không dùng với 'wish + would'; phải dùng 'I wish I understood'.",
+      "Đúng — 'it' (thời tiết) là chủ thể khác với người nói, và 'stop snowing' là hành động lặp lại gây khó chịu — đúng cách dùng wish + would.",
+      "Sai — 'be my sister' là một trạng thái/sự thật, không phải hành vi lặp lại có thể thay đổi, nên không dùng với 'would'.",
+      "Sai — không dùng 'wish + would' cho chính hành động/tính cách của người nói (I); phải dùng 'I wish I were more confident'."
+    ]
+  },
+  {
+    "id": "en-subjunctive-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u3-wish-would",
+    "tags": [
+      "subjunctive-u3-wish-would"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I wish my colleagues ______ leaving their dirty dishes in the office sink. It's so unhygienic.",
+    "choices": [
+      "would stop",
+      "stopped",
+      "stop",
+      "will stop"
+    ],
+    "correctIndex": 0,
+    "explanation": "Phàn nàn hành vi lặp lại của người khác (đồng nghiệp) dùng wish + would.",
+    "choiceExplanations": [
+      "Đúng — 'would stop' diễn tả mong muốn đồng nghiệp (người khác) ngừng một hành vi lặp lại gây khó chịu.",
+      "Sai — quá khứ đơn dùng để ước về một trạng thái hiện tại, không diễn tả được ý phàn nàn về hành vi lặp lại đang tiếp diễn.",
+      "Sai — hiện tại đơn không dùng sau wish để diễn tả mong muốn thay đổi.",
+      "Sai — 'will' không được dùng trong cấu trúc wish theo cách này."
+    ]
+  },
+  {
+    "id": "en-subjunctive-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u3-wish-would",
+    "tags": [
+      "subjunctive-u3-wish-would"
+    ],
+    "difficulty": 3,
+    "title": "Chọn đáp án đúng",
+    "prompt": "Which sentence is grammatically INCORRECT?",
+    "choices": [
+      "I wish the bus would arrive; we've been waiting for 20 minutes.",
+      "I wish I would remember everyone's name at the party.",
+      "I wish you would stop biting your nails.",
+      "I wish my boss would stop calling me on weekends."
+    ],
+    "correctIndex": 1,
+    "explanation": "Không dùng wish + would cho hành động/khả năng của chính người nói.",
+    "choiceExplanations": [
+      "Đúng ngữ pháp — 'the bus' là chủ thể khác, mong xe buýt đến, một hành động chưa xảy ra gây sốt ruột.",
+      "Sai ngữ pháp — đây là câu cần chọn vì không dùng 'wish + would' cho chính khả năng ghi nhớ của người nói; phải dùng 'I wish I could remember'.",
+      "Đúng ngữ pháp — phàn nàn về thói quen (cắn móng tay) của người nghe (you), chủ thể khác người nói.",
+      "Đúng ngữ pháp — phàn nàn hành vi của sếp (người khác gọi điện cuối tuần)."
+    ]
+  },
+  {
+    "id": "en-subjunctive-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u4-if-only",
+    "tags": [
+      "subjunctive-u4-if-only"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If only I ______ how to swim! I could have saved him.",
+    "choices": [
+      "knew",
+      "would know",
+      "had known",
+      "know"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tiếc nuối về quá khứ (không biết bơi) dùng if only + quá khứ hoàn thành, tương tự wish.",
+    "choiceExplanations": [
+      "Sai — quá khứ đơn dùng để ước về hiện tại, không khớp với 'could have saved him' (ám chỉ tình huống đã xảy ra trong quá khứ).",
+      "Sai — 'would know' không phải cấu trúc đúng sau if only trong ngữ cảnh tiếc nuối về quá khứ.",
+      "Đúng — 'had known' (quá khứ hoàn thành) diễn tả tiếc nuối về việc trong quá khứ, phù hợp với 'could have saved' (kết quả giả định trong quá khứ).",
+      "Sai — hiện tại đơn không đúng ngữ pháp sau if only trong câu diễn tả tiếc nuối về quá khứ."
+    ]
+  },
+  {
+    "id": "en-subjunctive-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u4-if-only",
+    "tags": [
+      "subjunctive-u4-if-only"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If only I ______ enough courage to speak up in meetings; I always stay silent.",
+    "choices": [
+      "had had",
+      "have",
+      "had",
+      "would have"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ước về hiện tại (thiếu can đảm hiện tại) dùng if only + quá khứ đơn.",
+    "choiceExplanations": [
+      "Sai — quá khứ hoàn thành dùng để tiếc nuối về quá khứ, nhưng câu này nói về tình trạng hiện tại ('I always stay silent').",
+      "Sai — hiện tại đơn không dùng sau if only khi diễn tả điều ước trái thực tế.",
+      "Đúng — 'had' (quá khứ đơn) diễn tả ước muốn trái với thực tế hiện tại (hiện tại thiếu can đảm).",
+      "Sai — 'would have' không phải cấu trúc chuẩn sau if only cho ước muốn về trạng thái hiện tại của bản thân."
+    ]
+  },
+  {
+    "id": "en-subjunctive-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u4-if-only",
+    "tags": [
+      "subjunctive-u4-if-only"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If only my kids ______ arguing over the TV remote every single evening!",
+    "choices": [
+      "will stop",
+      "stop",
+      "stopped",
+      "would stop"
+    ],
+    "correctIndex": 3,
+    "explanation": "Phàn nàn hành vi lặp lại (con cái cãi nhau mỗi tối) dùng if only + would.",
+    "choiceExplanations": [
+      "Sai — 'will' không dùng trong cấu trúc if only/wish theo cách này.",
+      "Sai — hiện tại đơn không phù hợp về ngữ pháp sau if only.",
+      "Sai — quá khứ đơn diễn tả ước về một trạng thái hiện tại, không phù hợp để phàn nàn về một hành vi lặp đi lặp lại gây khó chịu.",
+      "Đúng — 'would stop' diễn tả sự khó chịu và mong muốn các con (người khác) ngừng hành vi lặp lại hàng đêm."
+    ]
+  },
+  {
+    "id": "en-subjunctive-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u4-if-only",
+    "tags": [
+      "subjunctive-u4-if-only"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Looking at the ruined harvest, the farmer sighed, \"______ it hadn't rained so much this season!\"",
+    "choices": [
+      "If only",
+      "I hope",
+      "As if",
+      "Wishing"
+    ],
+    "correctIndex": 0,
+    "explanation": "'If only' có thể đứng một mình thành câu cảm thán hoàn chỉnh, không cần mệnh đề chính như 'wish'.",
+    "choiceExplanations": [
+      "Đúng — 'If only' có thể đứng độc lập, tạo thành câu cảm thán tiếc nuối mạnh mẽ mà không cần mệnh đề chính đi kèm.",
+      "Sai — 'I hope' đi với thì hiện tại/tương lai cho điều có thể xảy ra, không phù hợp với 'hadn't rained' (điều đã xảy ra, không thể thay đổi).",
+      "Sai — 'As if' mang nghĩa 'cứ như thể', không diễn tả sự tiếc nuối.",
+      "Sai — 'Wishing' (dạng V-ing) không thể đứng đầu câu độc lập kiểu này để mở đầu một câu cảm thán tiếc nuối, không phải cấu trúc đúng."
+    ]
+  },
+  {
+    "id": "en-subjunctive-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u5-would-rather",
+    "tags": [
+      "subjunctive-u5-would-rather"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm exhausted. I would rather ______ home tonight than go to the party.",
+    "choices": [
+      "stay",
+      "staying",
+      "stayed",
+      "to stay"
+    ],
+    "correctIndex": 0,
+    "explanation": "Would rather + V nguyên mẫu không to cho sở thích của chính người nói.",
+    "choiceExplanations": [
+      "Đúng — khi nói về sở thích của chính người nói, dùng 'would rather + V nguyên mẫu không to'.",
+      "Sai — không dùng V-ing sau 'would rather'.",
+      "Sai — quá khứ đơn chỉ dùng khi chủ ngữ sau 'would rather' là NGƯỜI KHÁC, không dùng cho chính sở thích của người nói.",
+      "Sai — không dùng 'to V' (nguyên mẫu có to) sau 'would rather'."
+    ]
+  },
+  {
+    "id": "en-subjunctive-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u5-would-rather",
+    "tags": [
+      "subjunctive-u5-would-rather"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's your decision, but I would rather you ______ that job offer — the company has a bad reputation.",
+    "choices": [
+      "didn't accept",
+      "don't accept",
+      "not accepting",
+      "won't accept"
+    ],
+    "correctIndex": 0,
+    "explanation": "Would rather + S + quá khứ đơn (mang nghĩa hiện tại/tương lai) khi nói về mong muốn với hành động của người khác.",
+    "choiceExplanations": [
+      "Đúng — 'would rather + S + quá khứ đơn' diễn tả mong muốn hiện tại/tương lai về hành động của người khác (dù dùng quá khứ đơn nhưng không mang nghĩa quá khứ).",
+      "Sai — hiện tại đơn không phải cấu trúc đúng sau 'would rather + S' khi diễn tả mong muốn về hành động của người khác.",
+      "Sai — dạng V-ing không đúng ngữ pháp sau 'would rather + S'.",
+      "Sai — 'won't' (tương lai phủ định) không dùng trong cấu trúc này."
+    ]
+  },
+  {
+    "id": "en-subjunctive-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u5-would-rather",
+    "tags": [
+      "subjunctive-u5-would-rather"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I would rather you ______ me before borrowing my car yesterday — I was worried when I couldn't find it.",
+    "choices": [
+      "had asked",
+      "ask",
+      "asked",
+      "would ask"
+    ],
+    "correctIndex": 0,
+    "explanation": "Would rather + S + quá khứ hoàn thành khi tiếc nuối về hành động đã xảy ra trong quá khứ.",
+    "choiceExplanations": [
+      "Đúng — 'had asked' (quá khứ hoàn thành) diễn tả mong muốn/tiếc nuối về một hành động của người khác đã xảy ra trong quá khứ (mượn xe hôm qua).",
+      "Sai — hiện tại đơn không đúng ngữ pháp và không khớp thời gian 'yesterday'.",
+      "Sai — quá khứ đơn sau 'would rather + S' mang nghĩa hiện tại/tương lai, nhưng câu này nói rõ về việc đã xảy ra 'yesterday', cần quá khứ hoàn thành.",
+      "Sai — 'would ask' không phải cấu trúc đúng sau 'would rather + S' cho ngữ cảnh tiếc nuối quá khứ."
+    ]
+  },
+  {
+    "id": "en-subjunctive-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u5-would-rather",
+    "tags": [
+      "subjunctive-u5-would-rather"
+    ],
+    "difficulty": 1,
+    "title": "Chọn đáp án đúng",
+    "prompt": "Choose the correct sentence about the speaker's OWN preference (same subject).",
+    "choices": [
+      "I would rather that I traveled by train.",
+      "I would rather travel by train than fly.",
+      "I would rather you travel by train.",
+      "I would rather traveled by train."
+    ],
+    "correctIndex": 1,
+    "explanation": "Would rather + V nguyên mẫu (không to) khi chủ thể là chính người nói.",
+    "choiceExplanations": [
+      "Sai — không dùng 'that + S' khi chủ ngữ hai vế giống nhau; cấu trúc chuẩn cho sở thích của chính người nói là 'would rather + V nguyên mẫu'.",
+      "Đúng — 'would rather + V nguyên mẫu không to' (travel) diễn tả sở thích của chính người nói, chủ ngữ ngầm định giống nhau ở cả hai vế.",
+      "Sai — cấu trúc 'would rather you + V' dùng khi nói về mong muốn với hành động của NGƯỜI KHÁC (you), không phải sở thích của chính người nói.",
+      "Sai — thiếu dạng động từ đúng; 'would rather' cho sở thích bản thân phải theo sau bởi động từ nguyên mẫu không chia, không phải quá khứ đơn."
+    ]
+  },
+  {
+    "id": "en-subjunctive-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u5-would-rather",
+    "tags": [
+      "subjunctive-u5-would-rather"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My roommate leaves the lights on all day. I would rather she ______ more careful about electricity.",
+    "choices": [
+      "will be",
+      "is",
+      "has been",
+      "were"
+    ],
+    "correctIndex": 3,
+    "explanation": "Would rather + S + quá khứ đơn (were cho to be) khi mong muốn hành vi hiện tại của người khác thay đổi.",
+    "choiceExplanations": [
+      "Sai — thì tương lai không phù hợp với cấu trúc would rather + S cho mong muốn hiện tại.",
+      "Sai — hiện tại đơn không đúng cấu trúc giả định sau 'would rather + S'.",
+      "Sai — hiện tại hoàn thành không phải dạng đúng theo sau 'would rather + S'.",
+      "Đúng — với động từ to be, sau 'would rather + S' dùng dạng giả định 'were' để diễn tả mong muốn về hiện tại đối với hành vi của người khác."
+    ]
+  },
+  {
+    "id": "en-subjunctive-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u6-its-time",
+    "tags": [
+      "subjunctive-u6-its-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's time you ______ responsibility for your own mistakes instead of blaming others.",
+    "choices": [
+      "take",
+      "have taken",
+      "took",
+      "will take"
+    ],
+    "correctIndex": 2,
+    "explanation": "It's time + S + quá khứ đơn mang nghĩa hiện tại, phê phán việc chưa xảy ra.",
+    "choiceExplanations": [
+      "Sai — hiện tại đơn không phải dạng đúng theo sau 'it's time + S'.",
+      "Sai — hiện tại hoàn thành không phải cấu trúc đúng sau 'it's time + S'.",
+      "Đúng — 'took' (quá khứ đơn) sau 'it's time + S' mang nghĩa hiện tại/tương lai gần, thể hiện ý phê phán rằng lẽ ra việc này phải xảy ra rồi.",
+      "Sai — thì tương lai không dùng trong cấu trúc 'it's time + S + V'."
+    ]
+  },
+  {
+    "id": "en-subjunctive-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u6-its-time",
+    "tags": [
+      "subjunctive-u6-its-time"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's high time the company ______ its outdated safety policies; there have been too many accidents.",
+    "choices": [
+      "will update",
+      "updates",
+      "update",
+      "updated"
+    ],
+    "correctIndex": 3,
+    "explanation": "It's high time + S + quá khứ đơn, nhấn mạnh sự cấp bách.",
+    "choiceExplanations": [
+      "Sai — thì tương lai không phù hợp với cấu trúc này.",
+      "Sai — hiện tại đơn không đúng ngữ pháp trong cấu trúc 'it's high time + S'.",
+      "Sai — dạng nguyên mẫu không chia không đúng ngữ pháp trong cấu trúc 'it's time'; cấu trúc này cần quá khứ đơn, khác với mandative subjunctive.",
+      "Đúng — 'updated' (quá khứ đơn) sau 'it's high time + S' diễn tả sự cấp bách rằng công ty lẽ ra đã phải cập nhật chính sách."
+    ]
+  },
+  {
+    "id": "en-subjunctive-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u6-its-time",
+    "tags": [
+      "subjunctive-u6-its-time"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Compare: (A) \"It's time to leave.\" vs (B) \"It's time we ______.\" Choose the correct verb for (B), which implies we are already late.",
+    "choices": [
+      "are leaving",
+      "left",
+      "will leave",
+      "leave"
+    ],
+    "correctIndex": 1,
+    "explanation": "'It's time + S + quá khứ đơn' mang ý phê phán/trễ hơn so với 'it's time to V' trung tính.",
+    "choiceExplanations": [
+      "Sai — hiện tại tiếp diễn không đúng ngữ pháp trong cấu trúc này.",
+      "Đúng — 'left' (quá khứ đơn) sau 'it's time we' mang nghĩa hiện tại nhưng hàm ý phê phán rằng lẽ ra đã phải rời đi từ trước, khác với 'it's time to leave' trung tính.",
+      "Sai — thì tương lai không phù hợp với cấu trúc 'it's time + S + V'.",
+      "Sai — hiện tại đơn không tạo được sắc thái phê phán 'đã trễ' như đề bài yêu cầu; đó là chức năng riêng của cấu trúc 'it's time + S + quá khứ đơn'."
+    ]
+  },
+  {
+    "id": "en-subjunctive-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u6-its-time",
+    "tags": [
+      "subjunctive-u6-its-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's about time someone ______ this broken elevator; it's been out of service for two weeks.",
+    "choices": [
+      "will fix",
+      "fixed",
+      "fixes",
+      "fix"
+    ],
+    "correctIndex": 1,
+    "explanation": "It's about time + S + quá khứ đơn, thể hiện sự bực bội vì việc chưa xảy ra.",
+    "choiceExplanations": [
+      "Sai — thì tương lai không phù hợp với cấu trúc này.",
+      "Đúng — 'fixed' (quá khứ đơn) diễn tả sự bực bội rằng lẽ ra thang máy đã phải được sửa từ lâu rồi.",
+      "Sai — hiện tại đơn không đúng ngữ pháp sau 'it's about time + S'.",
+      "Sai — dạng nguyên mẫu không chia không phù hợp; đây không phải là mandative subjunctive vì không có động từ như suggest/insist ở mệnh đề chính."
+    ]
+  },
+  {
+    "id": "en-subjunctive-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u7-mandative",
+    "tags": [
+      "subjunctive-u7-mandative"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The professor recommended that every student ______ the reading before the seminar.",
+    "choices": [
+      "complete",
+      "completed",
+      "completes",
+      "will complete"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau recommend + that, động từ luôn ở dạng nguyên mẫu, không chia theo ngôi.",
+    "choiceExplanations": [
+      "Đúng — sau 'recommend that + S', động từ luôn ở dạng nguyên mẫu không chia (mandative subjunctive), bất kể ngôi hay thì của mệnh đề chính.",
+      "Sai — không chia quá khứ dù mệnh đề chính có thể ở thì quá khứ; động từ giả định không lùi thì.",
+      "Sai — không thêm '-s' dù chủ ngữ 'every student' là số ít; động từ trong mệnh đề giả định sau recommend phải giữ nguyên dạng gốc.",
+      "Sai — không dùng thì tương lai trong mệnh đề giả định kiểu này."
+    ]
+  },
+  {
+    "id": "en-subjunctive-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u7-mandative",
+    "tags": [
+      "subjunctive-u7-mandative"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It is essential that each application ______ submitted before the deadline.",
+    "choices": [
+      "was",
+      "will be",
+      "is",
+      "be"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cấu trúc 'It is essential that + S + be' cũng thuộc mandative subjunctive.",
+    "choiceExplanations": [
+      "Sai — 'was' là quá khứ, không phù hợp với mandative subjunctive (không lùi thì, luôn giữ nguyên mẫu).",
+      "Sai — 'will be' không phải cấu trúc chuẩn của mandative subjunctive.",
+      "Sai — hiện tại đơn 'is' không đúng; động từ 'to be' trong mệnh đề giả định phải ở dạng nguyên mẫu 'be'.",
+      "Đúng — sau các cụm mang tính yêu cầu/quan trọng như 'it is essential that', động từ to be ở dạng nguyên mẫu 'be' cho mọi chủ ngữ."
+    ]
+  },
+  {
+    "id": "en-subjunctive-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u7-mandative",
+    "tags": [
+      "subjunctive-u7-mandative"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The doctor insisted that the patient ______ smoking immediately, regardless of how difficult it would be.",
+    "choices": [
+      "stops",
+      "will stop",
+      "stop",
+      "stopped"
+    ],
+    "correctIndex": 2,
+    "explanation": "Insist + that + S + V nguyên mẫu (mandative subjunctive).",
+    "choiceExplanations": [
+      "Sai — không chia '-s' dù chủ ngữ 'the patient' số ít; động từ mandative subjunctive không chia theo ngôi.",
+      "Sai — không dùng thì tương lai trong cấu trúc này.",
+      "Đúng — 'stop' (nguyên mẫu không chia) là dạng đúng sau 'insist that + S', giữ nguyên bất kể thì của mệnh đề chính.",
+      "Sai — dù mệnh đề chính 'insisted' ở quá khứ, động từ trong mệnh đề 'that' KHÔNG lùi thì thành quá khứ; đây chính là điểm khác biệt của mandative subjunctive so với reported speech thông thường."
+    ]
+  },
+  {
+    "id": "en-subjunctive-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u7-mandative",
+    "tags": [
+      "subjunctive-u7-mandative"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The safety regulations require that every worker ______ a helmet on the construction site.",
+    "choices": [
+      "wears",
+      "wore",
+      "will wear",
+      "wear"
+    ],
+    "correctIndex": 3,
+    "explanation": "Require + that + S + V nguyên mẫu (mandative subjunctive).",
+    "choiceExplanations": [
+      "Sai — thêm '-s' là sai vì động từ trong mệnh đề giả định luôn giữ nguyên dạng gốc, không chia theo chủ ngữ số ít.",
+      "Sai — không lùi về quá khứ; mandative subjunctive không phụ thuộc vào thì của mệnh đề chính.",
+      "Sai — không dùng thì tương lai trong cấu trúc giả định mệnh lệnh này.",
+      "Đúng — 'require that + S + V nguyên mẫu' là cấu trúc giả định mệnh lệnh trang trọng, động từ không chia theo ngôi 'every worker'."
+    ]
+  },
+  {
+    "id": "en-subjunctive-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "subjunctive",
+    "usageId": "subjunctive-u7-mandative",
+    "tags": [
+      "subjunctive-u7-mandative"
+    ],
+    "difficulty": 3,
+    "title": "Chọn đáp án đúng",
+    "prompt": "Find the sentence with a grammar error.",
+    "choices": [
+      "It is important that everyone arrive on time for the ceremony.",
+      "The manager suggested that the meeting starts at 9 a.m. instead of 10.",
+      "The committee demanded that the contract be reviewed by a lawyer.",
+      "The board proposed that the new policy take effect next month."
+    ],
+    "correctIndex": 1,
+    "explanation": "'Suggested that' cần theo sau bởi V nguyên mẫu 'start', không chia '-s'.",
+    "choiceExplanations": [
+      "Đúng ngữ pháp — 'it is important that + S + V nguyên mẫu' (arrive) đúng cấu trúc mandative subjunctive.",
+      "Sai ngữ pháp — đây là câu cần chọn; sau 'suggested that + S', động từ phải ở dạng nguyên mẫu 'start', không chia '-s' thành 'starts'.",
+      "Đúng ngữ pháp — 'demanded that + S + be' đúng cấu trúc mandative subjunctive (be là nguyên mẫu của to be).",
+      "Đúng ngữ pháp — 'proposed that + S + take' đúng, động từ giữ nguyên dạng gốc không chia."
+    ]
+  }
+]

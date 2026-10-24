@@ -1,0 +1,238 @@
+{
+  "id": "pronouns-determiners",
+  "language": "en",
+  "title": "Đại từ & Từ hạn định (Pronouns & Determiners)",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "order": 22,
+  "category": "word-classes",
+  "theory": {
+    "usages": [
+      {
+        "id": "pronouns-determiners-u1-some-any",
+        "label": "Some / Any (và các từ ghép)",
+        "explanationVi": "Quy tắc cơ bản: 'some' dùng trong câu khẳng định, còn 'any' dùng trong câu phủ định và câu nghi vấn. Quy tắc này áp dụng tương tự cho các từ ghép: somebody/someone/something/somewhere đi với 'some', và anybody/anyone/anything/anywhere đi với 'any'. Tuy nhiên có hai ngoại lệ quan trọng hay bị bỏ qua. Thứ nhất, 'some' vẫn xuất hiện trong câu hỏi khi đó là một lời mời, đề nghị, hoặc yêu cầu lịch sự — người hỏi mong đợi câu trả lời 'có', ví dụ 'Would you like some tea?' hay 'Could I have some help?'. Thứ hai, 'any' có thể xuất hiện trong câu khẳng định khi mang nghĩa 'bất kỳ, không quan trọng là cái nào' (no matter which), ví dụ 'Take any book you like' hay 'Come and see me any time'. Phân biệt được hai ngoại lệ này là chìa khóa để dùng đúng some/any trong giao tiếp tự nhiên, không chỉ máy móc theo công thức khẳng định/phủ định.",
+        "examples": [
+          {
+            "en": "Would you like some cake? I made too much.",
+            "vi": "Bạn có muốn ăn chút bánh không? Tôi làm hơi nhiều."
+          },
+          {
+            "en": "I don't have any money left after paying the rent.",
+            "vi": "Tôi không còn tiền nào sau khi trả tiền thuê nhà."
+          },
+          {
+            "en": "You can call me any time you need help — I don't mind.",
+            "vi": "Bạn có thể gọi tôi bất cứ lúc nào bạn cần giúp đỡ — tôi không phiền đâu."
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-u2-much-many-alotof",
+        "label": "Much / Many / A lot of / Lots of",
+        "explanationVi": "'Much' dùng với danh từ không đếm được (much time, much money), còn 'many' dùng với danh từ đếm được số nhiều (many books, many people). Cả hai đều tự nhiên và phổ biến nhất trong câu phủ định và câu hỏi, ví dụ 'I don't have much time' hay 'Do you have many friends here?'. Ngược lại, 'a lot of' và 'lots of' dùng được với CẢ HAI loại danh từ, và tự nhiên hơn hẳn trong câu khẳng định, đặc biệt trong văn phong nói/thân mật — nói 'I have much money' nghe khá trang trọng, cứng và ít dùng, trong khi 'I have a lot of money' hoặc 'lots of money' mới là cách người bản ngữ thường nói. Vì vậy, khi gặp câu khẳng định thông thường, ưu tiên 'a lot of/lots of'; khi gặp câu phủ định hoặc câu hỏi, 'much/many' là lựa chọn tự nhiên hơn — dù về mặt ngữ pháp cả hai nhóm đều có thể chấp nhận được trong nhiều trường hợp.",
+        "examples": [
+          {
+            "en": "Do you have much time before the exam starts?",
+            "vi": "Bạn có nhiều thời gian trước khi kỳ thi bắt đầu không?"
+          },
+          {
+            "en": "There are lots of students in the library today.",
+            "vi": "Hôm nay có rất nhiều sinh viên trong thư viện."
+          },
+          {
+            "en": "She doesn't have many close friends in this city.",
+            "vi": "Cô ấy không có nhiều bạn thân ở thành phố này."
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-u3-few-little",
+        "label": "Few/A few và Little/A little",
+        "explanationVi": "'Few' và 'a few' dùng với danh từ đếm được số nhiều; 'little' và 'a little' dùng với danh từ không đếm được. Nhưng điểm quan trọng và dễ gây nhầm lẫn nhất của cả chủ điểm này nằm ở NGHĨA: khi có mạo từ 'a' (a few / a little), câu mang nghĩa TÍCH CỰC — 'có một ít, đủ dùng, có một số' — người nói coi số lượng đó là đáng kể hoặc chấp nhận được. Ngược lại, khi KHÔNG có mạo từ (few / little), câu mang nghĩa TIÊU CỰC — 'hầu như không có, quá ít, không đủ' — người nói coi số lượng đó là thiếu hụt, đáng lo ngại. So sánh: 'I have a few friends here' (tích cực — có một số bạn, không cô đơn) và 'I have few friends here' (tiêu cực — hầu như không có bạn, cô đơn). Muốn xác định đúng, phải đọc kỹ toàn bộ ngữ cảnh câu (các từ như 'don't worry', 'enough', 'hurry up', 'unfortunately' là tín hiệu quan trọng) chứ không chỉ nhìn vào danh từ đi kèm.",
+        "examples": [
+          {
+            "en": "Don't worry, we still have a few minutes before the bus leaves.",
+            "vi": "Đừng lo, chúng ta vẫn còn vài phút trước khi xe buýt khởi hành."
+          },
+          {
+            "en": "Hurry up! We have little time left to finish this test.",
+            "vi": "Nhanh lên! Chúng ta còn rất ít thời gian để hoàn thành bài kiểm tra này."
+          },
+          {
+            "en": "She speaks little English, so it's hard for her to communicate here.",
+            "vi": "Cô ấy biết rất ít tiếng Anh nên khó giao tiếp ở đây."
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-u4-reflexive-reciprocal",
+        "label": "Đại từ phản thân (Reflexive) và đại từ tương hỗ (Reciprocal)",
+        "explanationVi": "Đại từ phản thân (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves) được dùng khi chủ ngữ và tân ngữ của hành động là CÙNG MỘT người/vật — hành động 'quay ngược lại' chính chủ thể thực hiện nó, ví dụ 'She taught herself' (chính cô ấy tự học cho chính mình). Đại từ tương hỗ 'each other' (thường dùng cho hai người/vật) và 'one another' (thường dùng cho từ ba trở lên, dù trong tiếng Anh hiện đại hai từ này hay được dùng thay thế cho nhau) diễn tả một hành động QUA LẠI giữa hai hoặc nhiều chủ thể — người này làm gì đó với người kia và ngược lại. So sánh rõ: 'They blamed themselves' (mỗi người trong nhóm tự trách bản thân mình) khác hoàn toàn với 'They blamed each other' (người này đổ lỗi cho người kia, và người kia cũng đổ lỗi ngược lại). Nhầm lẫn hai loại này là lỗi rất phổ biến của người học.",
+        "examples": [
+          {
+            "en": "He looked at himself in the mirror before the interview.",
+            "vi": "Anh ấy tự nhìn mình trong gương trước buổi phỏng vấn."
+          },
+          {
+            "en": "After the argument, they refused to talk to each other for weeks.",
+            "vi": "Sau cuộc cãi vã, họ từ chối nói chuyện với nhau trong nhiều tuần."
+          },
+          {
+            "en": "The three roommates always help one another with the housework.",
+            "vi": "Ba người bạn cùng phòng luôn giúp đỡ lẫn nhau việc nhà."
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-u5-possessive",
+        "label": "Tính từ sở hữu và Đại từ sở hữu",
+        "explanationVi": "Tính từ sở hữu (my, your, his, her, its, our, their) LUÔN đứng trước một danh từ để bổ nghĩa cho danh từ đó, không bao giờ đứng một mình — ví dụ 'my car', 'their house'. Đại từ sở hữu (mine, yours, his, hers, its, ours, theirs) đứng MỘT MÌNH, thay thế cho toàn bộ cụm 'tính từ sở hữu + danh từ' đã được nhắc đến hoặc ngụ ý trước đó, và KHÔNG bao giờ theo sau bởi danh từ — ví dụ 'This car is mine' (= my car). Lưu ý 'his' và 'its' có hình thức giống nhau ở cả hai vai trò (his book / this book is his), nhưng 'its' với vai trò đại từ sở hữu đứng một mình khá hiếm gặp trong tiếng Anh tự nhiên. Một lỗi rất phổ biến là dùng đại từ sở hữu ngay trước danh từ (ví dụ 'This is mine car' — sai), trong khi đúng ra phải dùng tính từ sở hữu ('This is my car') hoặc để đại từ sở hữu đứng một mình ('This car is mine').",
+        "examples": [
+          {
+            "en": "Is this your umbrella, or is it mine?",
+            "vi": "Đây là ô của bạn hay của tôi?"
+          },
+          {
+            "en": "Their house is much bigger than ours.",
+            "vi": "Nhà của họ lớn hơn nhà của chúng tôi nhiều."
+          },
+          {
+            "en": "The dog wagged its tail happily when its owner came home.",
+            "vi": "Con chó vẫy đuôi vui vẻ khi chủ nó về nhà."
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-u6-no-none-neither-either",
+        "label": "No / None / Neither / Either",
+        "explanationVi": "'No' luôn đứng trực tiếp trước một danh từ để phủ định hoàn toàn, ví dụ 'There is no milk left'. 'None' đứng MỘT MÌNH, thường đi với 'of + danh từ/đại từ' (none of the students, none of them) và dùng cho từ BA đối tượng trở lên, mang nghĩa phủ định hoàn toàn ('không ai/không cái nào cả'). 'Neither' và 'either' chỉ dùng khi nói về đúng HAI đối tượng/lựa chọn: 'neither...nor' mang nghĩa phủ định ('không cái nào trong hai, cả hai đều không'), còn 'either...or' mang nghĩa khẳng định về sự lựa chọn ('một trong hai, cái nào cũng được'). Điểm mấu chốt cần phân biệt: số lượng đối tượng được nói đến (hai hay từ ba trở lên) sẽ quyết định dùng neither/either hay none, còn việc danh từ có xuất hiện trực tiếp sau từ hạn định hay không sẽ quyết định dùng 'no' hay 'none'.",
+        "examples": [
+          {
+            "en": "There is no milk in the fridge; we need to buy some.",
+            "vi": "Không còn sữa nào trong tủ lạnh; chúng ta cần mua thêm."
+          },
+          {
+            "en": "None of the students passed the final exam this year.",
+            "vi": "Không ai trong số học sinh vượt qua kỳ thi cuối kỳ năm nay."
+          },
+          {
+            "en": "Neither of us wants to go out in this heavy rain.",
+            "vi": "Không ai trong hai chúng tôi muốn ra ngoài trong cơn mưa lớn này."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "some",
+        "meaningVi": "một số, một ít — dùng trong câu khẳng định, hoặc trong câu hỏi mang tính mời/đề nghị"
+      },
+      {
+        "word": "any",
+        "meaningVi": "bất kỳ — dùng trong câu phủ định, câu hỏi thông thường, hoặc câu khẳng định mang nghĩa 'không quan trọng cái nào'"
+      },
+      {
+        "word": "much / many",
+        "meaningVi": "nhiều — much với danh từ không đếm được, many với danh từ đếm được, tự nhiên trong câu phủ định/nghi vấn"
+      },
+      {
+        "word": "a lot of / lots of",
+        "meaningVi": "nhiều — dùng được với cả danh từ đếm được và không đếm được, tự nhiên trong câu khẳng định"
+      },
+      {
+        "word": "a few / a little",
+        "meaningVi": "một ít, đủ dùng — mang nghĩa tích cực (a few + danh từ đếm được, a little + danh từ không đếm được)"
+      },
+      {
+        "word": "few / little",
+        "meaningVi": "rất ít, hầu như không có — mang nghĩa tiêu cực (few + danh từ đếm được, little + danh từ không đếm được)"
+      },
+      {
+        "word": "each other / one another",
+        "meaningVi": "nhau — each other thường dùng cho HAI người/vật, one another thường dùng cho BA trở lên (dù tiếng Anh hiện đại nhiều người dùng thay thế nhau, phân biệt này vẫn hay được hỏi trong bài tập)."
+      },
+      {
+        "word": "none / neither / either",
+        "meaningVi": "không ai/không cái nào cả (none dùng cho từ ba trở lên; neither/either chỉ dùng cho đúng hai)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "id": "pronouns-determiners-m1",
+        "description": "Dùng 'few' (nghĩa tiêu cực: hầu như không có) khi muốn nói tích cực 'có một số'.",
+        "examples": [
+          {
+            "wrong": "I'm not lonely — I have few close friends who I trust completely.",
+            "correct": "I'm not lonely — I have a few close friends who I trust completely."
+          }
+        ],
+        "note": "Ý muốn nói tích cực 'có một số bạn' nên phải dùng 'a few' có mạo từ."
+      },
+      {
+        "id": "pronouns-determiners-m2",
+        "note": "'people' là danh từ đếm được số nhiều nên phải dùng 'many', không dùng 'much'.",
+        "examples": [
+          {
+            "wrong": "How much people came to the party last night?",
+            "correct": "How many people came to the party last night?"
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-m3",
+        "note": "'information' là danh từ không đếm được nên phải dùng 'much', không dùng 'many'.",
+        "examples": [
+          {
+            "wrong": "She doesn't have many information about the new policy.",
+            "correct": "She doesn't have much information about the new policy."
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-m4",
+        "description": "Dùng đại từ phản thân thay cho đại từ tương hỗ.",
+        "examples": [
+          {
+            "wrong": "Tom and Mary looked at themselves and smiled when they met at the station.",
+            "correct": "Tom and Mary looked at each other and smiled when they met at the station."
+          }
+        ],
+        "note": "Hai người nhìn NHAU (hành động qua lại) nên dùng đại từ tương hỗ 'each other', không dùng đại từ phản thân 'themselves' vốn chỉ mỗi người tự nhìn chính mình."
+      },
+      {
+        "id": "pronouns-determiners-m5",
+        "note": "Đứng trước danh từ 'car' phải dùng tính từ sở hữu 'my', không dùng đại từ sở hữu 'mine' vốn chỉ đứng một mình, không theo sau bởi danh từ.",
+        "examples": [
+          {
+            "wrong": "This is mine car; yours is over there.",
+            "correct": "This is my car; yours is over there."
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-m6",
+        "note": "Câu phủ định thông thường cần dùng 'any', không dùng 'some' trừ khi là lời mời/đề nghị.",
+        "examples": [
+          {
+            "wrong": "I don't have some time to help you today, sorry.",
+            "correct": "I don't have any time to help you today, sorry."
+          }
+        ]
+      },
+      {
+        "id": "pronouns-determiners-m7",
+        "description": "Dùng 'none' trực tiếp trước danh từ.",
+        "examples": [
+          {
+            "wrong": "None students came to class because of the storm.",
+            "correct": "No students came to class because of the storm."
+          }
+        ],
+        "note": "'none' không đứng trực tiếp trước danh từ; dùng 'no + danh từ' hoặc 'none of + danh từ' (None of the students came to class)."
+      }
+    ]
+  }
+}

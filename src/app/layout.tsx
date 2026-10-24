@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Nunito } from "next/font/google"
 import "./globals.css"
 import { SettingsBar } from "@/components/settings-bar"
+import { SiteNav } from "@/components/site-nav"
 
 const nunito = Nunito({
   subsets: ["latin", "vietnamese"],
@@ -24,7 +25,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <script dangerouslySetInnerHTML={{ __html: applySkin }} />
       </head>
       <body className="flex min-h-full flex-col font-sans">
-        <div className="mx-auto w-full max-w-xl px-4 pt-4">
+        <div className="mx-auto w-full max-w-xl space-y-3 px-4 pt-4">
+          <SiteNav />
           <SettingsBar />
         </div>
         <div className="flex-1">{children}</div>

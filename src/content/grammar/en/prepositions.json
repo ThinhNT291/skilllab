@@ -1,0 +1,158 @@
+{
+  "id": "prepositions",
+  "language": "en",
+  "title": "Giới từ (Prepositions)",
+  "levels": [
+    "A2"
+  ],
+  "order": 9,
+  "category": "word-classes",
+  "theory": {
+    "usages": [
+      {
+        "id": "prep-u1-time",
+        "label": "Giới từ chỉ THỜI GIAN cơ bản (In / On / At)",
+        "explanationVi": "Trong tiếng Anh, 'in' dùng cho các khoảng thời gian dài và chung chung như tháng, năm, mùa. 'On' dùng cho các ngày cụ thể như thứ trong tuần hoặc ngày tháng năm. 'At' dùng cho các mốc thời gian chính xác như giờ giấc hoặc một số dịp lễ hội.",
+        "examples": [
+          {
+            "en": "The meeting is at 9:00 AM on Monday.",
+            "vi": "Cuộc họp diễn ra vào lúc 9:00 sáng thứ Hai."
+          },
+          {
+            "en": "We usually go on holiday in summer.",
+            "vi": "Chúng tôi thường đi nghỉ mát vào mùa hè."
+          }
+        ]
+      },
+      {
+        "id": "prep-u2-place",
+        "label": "Giới từ chỉ NƠI CHỐN cơ bản (In / On / At)",
+        "explanationVi": "'In' dùng để chỉ vị trí bên trong một không gian kín hoặc một khu vực địa lý lớn (phòng, thành phố, quốc gia). 'On' dùng để chỉ vị trí nằm trên một bề mặt (trên bàn, trên đường). 'At' dùng để chỉ một địa điểm cụ thể, một điểm dừng chân mang tính chức năng (tại trường, tại trạm xe).",
+        "examples": [
+          {
+            "en": "The keys are on the table in the living room.",
+            "vi": "Chùm chìa khóa ở trên bàn trong phòng khách."
+          },
+          {
+            "en": "I will meet you at the bus stop.",
+            "vi": "Tôi sẽ gặp bạn tại trạm xe buýt."
+          }
+        ]
+      },
+      {
+        "id": "prep-u3-movement",
+        "label": "Giới từ chỉ CHUYỂN ĐỘNG / PHƯƠNG HƯỚNG",
+        "explanationVi": "Nhóm giới từ này diễn tả hướng đi của một hành động. Các giới từ thông dụng nhất ở trình độ A2 gồm: 'to' (đi đến đâu đó), 'into' (đi vào bên trong), 'from' (từ đâu tới), 'through' (đi xuyên qua), 'across' (băng qua đường/sông), và 'along' (đi dọc theo con đường/bờ sông).",
+        "examples": [
+          {
+            "en": "They walked across the street to get to the park.",
+            "vi": "Họ đã đi bộ băng qua con đường để đến công viên."
+          },
+          {
+            "en": "The train went through a very dark tunnel.",
+            "vi": "Đoàn tàu đã đi xuyên qua một đường hầm rất tối."
+          }
+        ]
+      },
+      {
+        "id": "prep-u4-adjective-prep",
+        "label": "Giới từ đi kèm TÍNH TỪ thông dụng",
+        "explanationVi": "Rất nhiều tính từ luôn đi kèm với một giới từ cố định mà người học bắt buộc phải ghi nhớ. Ở mức độ cơ bản, bạn cần nắm vững các cụm: interested in (quan tâm/thích thú), afraid of (sợ hãi), good/bad at (giỏi/tệ môn gì), married to (kết hôn với), proud of (tự hào về), và famous for (nổi tiếng vì điều gì).",
+        "examples": [
+          {
+            "en": "My little brother is very good at playing chess.",
+            "vi": "Em trai tôi rất giỏi chơi cờ vua."
+          },
+          {
+            "en": "She is afraid of dogs, so she never goes near them.",
+            "vi": "Cô ấy sợ chó, nên cô ấy không bao giờ lại gần chúng."
+          }
+        ]
+      },
+      {
+        "id": "prep-u5-verb-prep",
+        "label": "Giới từ đi kèm ĐỘNG TỪ thông dụng",
+        "explanationVi": "Tương tự tính từ, nhiều động từ cũng yêu cầu giới từ cụ thể để tạo thành cụm có nghĩa. Những cụm quen thuộc nhất gồm: listen to (lắng nghe), look at (nhìn vào), depend on (phụ thuộc vào), wait for (chờ đợi), arrive at (đến một địa điểm nhỏ như nhà ga, sân bay), arrive in (đến thành phố, quốc gia).",
+        "examples": [
+          {
+            "en": "Please listen to the teacher carefully.",
+            "vi": "Vui lòng chăm chú lắng nghe giáo viên."
+          },
+          {
+            "en": "I am waiting for my friend outside the cinema.",
+            "vi": "Tôi đang đợi bạn tôi ở bên ngoài rạp chiếu phim."
+          }
+        ]
+      },
+      {
+        "id": "prep-since-for",
+        "label": "Since và For (mốc thời gian vs khoảng thời gian)",
+        "explanationVi": "Since và for đều dùng để chỉ thời gian, thường đi kèm thì Hiện tại hoàn thành, nhưng khác nhau về ý nghĩa: 'since' + MỘT MỐC THỜI ĐIỂM cụ thể trong quá khứ (since 2020, since Monday, since I was young); 'for' + MỘT KHOẢNG THỜI GIAN kéo dài (for three years, for a long time, for two weeks).",
+        "examples": [
+          {
+            "en": "I have lived in this city since 2015.",
+            "vi": "Tôi đã sống ở thành phố này từ năm 2015."
+          },
+          {
+            "en": "She has worked here for six months.",
+            "vi": "Cô ấy đã làm việc ở đây được sáu tháng."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "in / on / at (Thời gian)",
+        "meaningVi": "in + tháng/năm/mùa, on + thứ/ngày tháng, at + giờ cụ thể/dịp lễ"
+      },
+      {
+        "word": "in / on / at (Nơi chốn)",
+        "meaningVi": "in + bên trong/thành phố, on + trên bề mặt, at + địa điểm cụ thể (trường, siêu thị)"
+      },
+      {
+        "word": "since vs for",
+        "meaningVi": "since + mốc thời gian (từ năm 2020), for + khoảng thời gian (trong 3 năm)"
+      },
+      {
+        "word": "to vs at",
+        "meaningVi": "to chỉ sự di chuyển (đi đến...), at chỉ trạng thái đứng yên (đang ở tại...)"
+      },
+      {
+        "word": "in vs into",
+        "meaningVi": "in chỉ vị trí tĩnh (đang ở trong), into chỉ sự chuyển động (đang đi vào bên trong)"
+      },
+      {
+        "word": "between vs among",
+        "meaningVi": "between + giữa 2 người/vật, among + giữa từ 3 người/vật trở lên"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "id": "prepositions-m1",
+        "description": "Nhầm lẫn các buổi trong ngày: nói 'in the morning', 'in the afternoon', 'in the evening' nhưng dùng 'at night' hoặc 'at noon'; 'in the night' thường chỉ xuất hiện trong một số cụm cố định (in the dead of night, woke up in the night) chứ không dùng thay thế 'at night' một cách tuỳ tiện.",
+        "examples": []
+      },
+      {
+        "id": "prepositions-m2",
+        "description": "Dùng sai giới từ với từ 'married': người Việt hay dịch từng từ là 'married with' (kết hôn với), nhưng đúng phải là 'married to'.",
+        "examples": [
+          {
+            "wrong": "married with",
+            "correct": "married to"
+          }
+        ]
+      },
+      {
+        "id": "prepositions-m3",
+        "description": "Dùng giới từ chỉ hướng 'to' sau động từ 'arrive'.",
+        "examples": [
+          {
+            "wrong": "arrive to the airport",
+            "correct": "arrive at the airport"
+          }
+        ],
+        "note": "Dùng 'arrive at' với địa điểm nhỏ; 'arrive in' (vd: arrive in London) với thành phố/quốc gia."
+      }
+    ]
+  }
+}

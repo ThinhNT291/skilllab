@@ -1,0 +1,812 @@
+[
+  {
+    "id": "en-present-perfect-continuous-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u1-duration",
+    "tags": [
+      "present-perfect-continuous-u1-duration"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My sister ______ yoga for almost two years now.",
+    "choices": [
+      "practiced",
+      "practices",
+      "is practicing",
+      "has been practicing"
+    ],
+    "correctIndex": 3,
+    "explanation": "'For + khoảng thời gian' và hành động vẫn tiếp diễn đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — quá khứ đơn diễn tả hành động đã kết thúc trong quá khứ, không phù hợp với 'now'.",
+      "Sai — hiện tại đơn diễn tả thói quen chung, không nhấn mạnh khoảng thời gian đã kéo dài.",
+      "Sai — hiện tại tiếp diễn không thể hiện được khoảng thời gian bắt đầu từ quá khứ đến hiện tại.",
+      "Đúng — diễn tả hành động bắt đầu trong quá khứ và vẫn tiếp diễn đến hiện tại, có 'for' chỉ khoảng thời gian."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u1-duration",
+    "tags": [
+      "present-perfect-continuous-u1-duration"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ for the bus since 8 o'clock, and it still hasn't arrived.",
+    "choices": [
+      "have been waiting",
+      "are waiting",
+      "wait",
+      "waited"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since 8 o'clock' cho biết mốc bắt đầu, hành động vẫn tiếp diễn nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Đúng — 'since 8 o'clock' cho biết hành động bắt đầu từ 8 giờ và vẫn đang tiếp diễn.",
+      "Sai — hiện tại tiếp diễn không kết hợp với 'since' để chỉ khoảng thời gian bắt đầu từ quá khứ.",
+      "Sai — hiện tại đơn không hợp với mốc thời gian 'since' để chỉ khoảng thời gian tính đến hiện tại.",
+      "Sai — quá khứ đơn cho biết hành động đã kết thúc, mâu thuẫn với 'still hasn't arrived'."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u1-duration",
+    "tags": [
+      "present-perfect-continuous-u1-duration"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He ______ football since he was seven years old.",
+    "choices": [
+      "is playing",
+      "has been playing",
+      "plays",
+      "played"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Since he was seven' chỉ mốc bắt đầu, hành động kéo dài đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — hiện tại tiếp diễn không kết hợp với 'since + thời điểm trong quá khứ'.",
+      "Đúng — hành động chơi bóng bắt đầu từ năm 7 tuổi và tiếp tục đến bây giờ.",
+      "Sai — hiện tại đơn không diễn tả được khoảng thời gian bắt đầu từ một mốc trong quá khứ.",
+      "Sai — quá khứ đơn cho biết hành động đã kết thúc, không còn tiếp diễn."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u1-duration",
+    "tags": [
+      "present-perfect-continuous-u1-duration"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The children ______ in the garden for the last hour.",
+    "choices": [
+      "are playing",
+      "play",
+      "played",
+      "have been playing"
+    ],
+    "correctIndex": 3,
+    "explanation": "'For the last hour' chỉ khoảng thời gian kéo dài đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — hiện tại tiếp diễn không nêu được khoảng thời gian đã kéo dài từ quá khứ.",
+      "Sai — hiện tại đơn diễn tả thói quen, không phù hợp với 'for the last hour'.",
+      "Sai — quá khứ đơn không phù hợp vì hành động vẫn có thể đang tiếp diễn.",
+      "Đúng — 'for the last hour' cùng hành động tiếp diễn đến hiện tại cần dùng hiện tại hoàn thành tiếp diễn."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u1-duration",
+    "tags": [
+      "present-perfect-continuous-u1-duration"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ that novel for three weeks, but I still haven't finished the last chapter.",
+    "choices": [
+      "am reading",
+      "have read",
+      "have been reading",
+      "read"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nhấn mạnh quá trình đọc kéo dài, chưa xong, nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — hiện tại tiếp diễn không kết hợp với 'for + khoảng thời gian' tính từ quá khứ.",
+      "Sai — hiện tại hoàn thành đơn ('have read') gợi ý đã đọc xong, mâu thuẫn với 'still haven't finished'.",
+      "Đúng — nhấn mạnh quá trình đọc kéo dài ba tuần, vẫn chưa hoàn thành.",
+      "Sai — quá khứ đơn không hợp với 'for three weeks' khi hành động chưa kết thúc."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u1-duration",
+    "tags": [
+      "present-perfect-continuous-u1-duration"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My grandparents ______ in that same house since they got married in 1975.",
+    "choices": [
+      "have been living",
+      "live",
+      "are living",
+      "lived"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since 1975' cùng hành động kéo dài liên tục đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Đúng — hành động sống ở đó bắt đầu từ 1975 và vẫn tiếp diễn đến nay.",
+      "Sai — hiện tại đơn không thể hiện ý 'kể từ 1975 đến nay'.",
+      "Sai — hiện tại tiếp diễn không diễn tả được khoảng thời gian kéo dài từ một mốc quá khứ.",
+      "Sai — quá khứ đơn ngụ ý hành động đã kết thúc."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u1-duration",
+    "tags": [
+      "present-perfect-continuous-u1-duration"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The company ______ money every month this year, which is why they're worried.",
+    "choices": [
+      "loses",
+      "has been losing",
+      "lost",
+      "is losing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tình trạng thua lỗ lặp lại/kéo dài suốt 'this year' đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — hiện tại đơn không nhấn mạnh được khoảng thời gian kéo dài đến hiện tại.",
+      "Đúng — 'has been losing' nhấn mạnh quá trình thua lỗ liên tục trong suốt năm, đến tận bây giờ.",
+      "Sai — quá khứ đơn không phù hợp vì tình trạng vẫn tiếp diễn (năm nay chưa kết thúc).",
+      "Sai — hiện tại tiếp diễn chỉ nói về hành động đang xảy ra ngay lúc nói, không bao trùm cả khoảng thời gian 'this year'."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u2-recent-result",
+    "tags": [
+      "present-perfect-continuous-u2-recent-result"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Why are your hands so dirty? — I ______ in the garden.",
+    "choices": [
+      "am working",
+      "worked",
+      "work",
+      "have been working"
+    ],
+    "correctIndex": 3,
+    "explanation": "Kết quả ở hiện tại (tay bẩn) do một hành động vừa mới xảy ra gần đây nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — hiện tại tiếp diễn nghĩa là đang làm ngay lúc nói, nhưng câu hỏi ngụ ý người đó vừa dừng lại.",
+      "Sai — quá khứ đơn không liên kết trực tiếp với kết quả hiện tại (tay đang bẩn).",
+      "Sai — hiện tại đơn không giải thích được lý do tay bẩn ngay bây giờ.",
+      "Đúng — 'have been working' giải thích lý do (dấu vết/kết quả) hiện tại của một hoạt động vừa mới dừng."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u2-recent-result",
+    "tags": [
+      "present-perfect-continuous-u2-recent-result"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You look exhausted. ______ ?",
+    "choices": [
+      "Do you exercise",
+      "Did you exercise",
+      "Are you exercising",
+      "Have you been exercising"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hỏi về nguyên nhân của tình trạng hiện tại (mệt) — hành động vừa xảy ra gần đây nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — hiện tại đơn hỏi về thói quen chung, không hỏi lý do trạng thái hiện tại.",
+      "Sai — quá khứ đơn không gắn với kết quả rõ ràng ở hiện tại.",
+      "Sai — hiện tại tiếp diễn hỏi về việc đang xảy ra ngay lúc nói, nhưng người này đang đứng nói chuyện, không đang tập.",
+      "Đúng — hỏi về hoạt động gần đây gây ra kết quả/trạng thái hiện tại (trông mệt mỏi)."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u2-recent-result",
+    "tags": [
+      "present-perfect-continuous-u2-recent-result"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The kitchen smells amazing! ______ ?",
+    "choices": [
+      "Did you cook",
+      "Do you cook",
+      "Have you been cooking",
+      "Are you cooking"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mùi thơm là bằng chứng hiện tại do hành động vừa mới xảy ra gần đây nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — 'did you cook' hỏi về một lần nấu ăn cụ thể trong quá khứ đã kết thúc, không phù hợp khi có bằng chứng ngay lúc nói (mùi thơm).",
+      "Sai — hiện tại đơn hỏi về thói quen, không phù hợp với bằng chứng tức thời.",
+      "Đúng — hỏi về hoạt động vừa xảy ra để lại dấu hiệu ở hiện tại (mùi thơm).",
+      "Sai — 'are you cooking' (hiện tại tiếp diễn) hỏi về việc đang nấu NGAY lúc này, trong khi câu hỏi ở đây là về hành động vừa mới xảy ra để lại dấu hiệu, không nhất thiết vẫn đang nấu."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u2-recent-result",
+    "tags": [
+      "present-perfect-continuous-u2-recent-result"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Look at this mess! Who ______ in here?",
+    "choices": [
+      "has been cooking",
+      "cooks",
+      "is cooking",
+      "cooked"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kết quả hiện tại (căn phòng bừa bộn) là bằng chứng của một hành động vừa mới xảy ra nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Đúng — 'has been cooking' giải thích nguyên nhân của tình trạng lộn xộn đang thấy trước mắt.",
+      "Sai — hiện tại đơn không diễn tả được sự việc vừa xảy ra để lại dấu vết.",
+      "Sai — hiện tại tiếp diễn ngụ ý hành động đang xảy ra ngay lúc này, nhưng câu hỏi ngụ ý người đó đã xong và để lại hậu quả.",
+      "Sai — quá khứ đơn không nhấn mạnh mối liên hệ với tình trạng hiện tại (căn phòng vẫn đang bừa bộn)."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u2-recent-result",
+    "tags": [
+      "present-perfect-continuous-u2-recent-result"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My eyes are stinging because I ______ onions for the soup.",
+    "choices": [
+      "have been cutting",
+      "cut",
+      "am cutting",
+      "have cut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nguyên nhân của cảm giác hiện tại (mắt cay) là hành động vừa mới thực hiện, nhấn mạnh quá trình nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Đúng — 'have been cutting' giải thích nguyên nhân của cảm giác hiện tại bằng một hoạt động vừa mới diễn ra.",
+      "Sai — quá khứ đơn không gắn kết rõ với cảm giác đang diễn ra ở hiện tại.",
+      "Sai — hiện tại tiếp diễn ngụ ý hành động đang xảy ra ngay lúc nói, nhưng người nói có thể đã dừng cắt hành và giờ chỉ còn lại cảm giác cay mắt.",
+      "Sai — 'have cut' (hiện tại hoàn thành đơn) nhấn mạnh kết quả/số lượng hoàn thành hơn là nguyên nhân của cảm giác đang diễn ra."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u2-recent-result",
+    "tags": [
+      "present-perfect-continuous-u2-recent-result"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She's out of breath because she ______ to catch the train.",
+    "choices": [
+      "ran",
+      "is running",
+      "has been running",
+      "runs"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hơi thở gấp gáp là kết quả hiện tại của một hoạt động thể chất vừa mới xảy ra nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — quá khứ đơn không liên kết trực tiếp đến trạng thái đang diễn ra ở hiện tại.",
+      "Sai — hiện tại tiếp diễn nghĩa là đang chạy ngay lúc nói, nhưng câu văn mô tả cô ấy đang đứng thở dốc, không phải đang chạy.",
+      "Đúng — giải thích nguyên nhân của trạng thái hiện tại (thở gấp) bằng hoạt động chạy vừa xảy ra.",
+      "Sai — hiện tại đơn diễn tả thói quen, không phải nguyên nhân tức thời."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u3-emphasis",
+    "tags": [
+      "present-perfect-continuous-u3-emphasis"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ emails all morning — I haven't had a break yet.",
+    "choices": [
+      "have been writing",
+      "write",
+      "wrote",
+      "am writing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nhấn mạnh quá trình viết liên tục suốt buổi sáng, không phải số lượng, nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Đúng — 'all morning' cùng hành động liên tục chưa dừng cần hiện tại hoàn thành tiếp diễn, nhấn mạnh quá trình.",
+      "Sai — hiện tại đơn không nhấn mạnh được tính liên tục kéo dài từ sáng đến giờ.",
+      "Sai — quá khứ đơn ngụ ý hành động đã kết thúc, mâu thuẫn với 'haven't had a break yet'.",
+      "Sai — hiện tại tiếp diễn không kết hợp được với 'all morning' để chỉ khoảng thời gian đã trôi qua."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u3-emphasis",
+    "tags": [
+      "present-perfect-continuous-u3-emphasis"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He ______ me all week about the meeting, so I finally agreed to attend.",
+    "choices": [
+      "asked",
+      "has been asking",
+      "asks",
+      "is asking"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nhấn mạnh hành động lặp đi lặp lại suốt cả tuần, dẫn đến kết quả hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — quá khứ đơn không thể hiện được sự liên kết với kết quả ở hiện tại ('finally agreed').",
+      "Đúng — nhấn mạnh việc hỏi lặp đi lặp lại suốt cả tuần, dẫn tới quyết định ở hiện tại.",
+      "Sai — hiện tại đơn không diễn tả được tính lặp lại kéo dài suốt tuần qua.",
+      "Sai — hiện tại tiếp diễn chỉ diễn tả hành động đang xảy ra ngay lúc nói, không phù hợp với 'all week'."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u3-emphasis",
+    "tags": [
+      "present-perfect-continuous-u3-emphasis"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You ______ ______ my doorbell for the last ten minutes! I've already told you I'm not interested!",
+    "choices": [
+      "have / been ringing",
+      "did / ring",
+      "do / ring",
+      "are / ringing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Khi nhấn mạnh sự khó chịu về hành động lặp đi lặp lại tính đến hiện tại, có thể dùng hiện tại hoàn thành tiếp diễn thay vì chỉ đếm số lần.",
+    "choiceExplanations": [
+      "Đúng — 'have been ringing' nhấn mạnh sự lặp đi lặp lại gây khó chịu của hành động tính đến thời điểm hiện tại.",
+      "Sai — quá khứ đơn không phù hợp vì hành động vẫn đang tiếp diễn/lặp lại vào lúc nói.",
+      "Sai — hiện tại đơn không phù hợp để hỏi về một hành động lặp lại đã và đang diễn ra tính đến hiện tại.",
+      "Sai — 'are ringing' không đúng ngữ pháp khi câu hỏi nhìn lại một khoảng thời gian đã qua trong buổi tối."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u3-emphasis",
+    "tags": [
+      "present-perfect-continuous-u3-emphasis"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The two countries ______ over the border dispute for decades, without reaching any agreement.",
+    "choices": [
+      "are arguing",
+      "argue",
+      "have been arguing",
+      "argued"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nhấn mạnh quá trình tranh cãi kéo dài, lặp đi lặp lại suốt nhiều thập kỷ, chưa có kết quả nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — hiện tại tiếp diễn không phù hợp với 'for decades' — khoảng thời gian tính từ quá khứ.",
+      "Sai — hiện tại đơn không thể hiện khoảng thời gian đã kéo dài từ quá khứ.",
+      "Đúng — nhấn mạnh tính liên tục, kéo dài của quá trình tranh cãi qua nhiều thập kỷ.",
+      "Sai — quá khứ đơn ngụ ý đã kết thúc, trong khi câu văn cho thấy vẫn chưa có giải pháp."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u3-emphasis",
+    "tags": [
+      "present-perfect-continuous-u3-emphasis"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ this same math problem for over an hour without any success.",
+    "choices": [
+      "solve",
+      "have been trying to solve",
+      "am trying to solve",
+      "solved"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nhấn mạnh nỗ lực liên tục, chưa đạt kết quả trong suốt một khoảng thời gian nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — hiện tại đơn không diễn tả được nỗ lực kéo dài liên tục đến hiện tại.",
+      "Đúng — nhấn mạnh quá trình cố gắng liên tục suốt hơn một giờ mà chưa thành công.",
+      "Sai — hiện tại tiếp diễn thiếu yếu tố 'khoảng thời gian đã trôi qua tính đến bây giờ' (for over an hour).",
+      "Sai — quá khứ đơn ngụ ý hành động đã dừng lại, không khớp với ý 'chưa thành công' đến hiện tại."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u3-emphasis",
+    "tags": [
+      "present-perfect-continuous-u3-emphasis"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Scientists ______ that vaccine for nearly a decade, and they're finally close to a breakthrough.",
+    "choices": [
+      "develop",
+      "have been developing",
+      "developed",
+      "are developing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nhấn mạnh quá trình nghiên cứu kéo dài gần một thập kỷ, dẫn đến kết quả gần đạt được ở hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — hiện tại đơn không thể hiện khoảng thời gian đã kéo dài.",
+      "Đúng — nhấn mạnh quá trình nghiên cứu liên tục gần một thập kỷ, vẫn đang tiếp diễn.",
+      "Sai — quá khứ đơn ngụ ý quá trình đã kết thúc, mâu thuẫn với 'finally close to a breakthrough'.",
+      "Sai — hiện tại tiếp diễn không kết hợp được với 'for nearly a decade' để chỉ khoảng thời gian tính từ quá khứ."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u4-how-long",
+    "tags": [
+      "present-perfect-continuous-u4-how-long"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ have you been waiting for the doctor?",
+    "choices": [
+      "What",
+      "Why",
+      "How long",
+      "When"
+    ],
+    "correctIndex": 2,
+    "explanation": "'How long' dùng để hỏi về khoảng thời gian một hành động đã tiếp diễn, đi cùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — 'what' không dùng để hỏi về khoảng thời gian.",
+      "Sai — 'why' hỏi lý do, không phù hợp với cấu trúc câu hỏi về thời lượng.",
+      "Đúng — 'how long' là từ để hỏi chuẩn cho khoảng thời gian một hành động đã kéo dài đến hiện tại.",
+      "Sai — 'when' hỏi về thời điểm cụ thể, không phù hợp với cấu trúc hỏi khoảng thời gian tiếp diễn."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u4-how-long",
+    "tags": [
+      "present-perfect-continuous-u4-how-long"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "How long ______ your brother ______ for that company?",
+    "choices": [
+      "has / been working",
+      "did / work",
+      "does / work",
+      "is / working"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu hỏi 'How long' về khoảng thời gian một công việc đã kéo dài đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Đúng — cấu trúc chuẩn 'How long has/have + S + been + V-ing' để hỏi khoảng thời gian tiếp diễn đến hiện tại.",
+      "Sai — quá khứ đơn ngụ ý hành động đã kết thúc, không phù hợp nếu người đó vẫn đang làm việc ở đó.",
+      "Sai — hiện tại đơn không phù hợp để hỏi về khoảng thời gian đã trôi qua.",
+      "Sai — hiện tại tiếp diễn không kết hợp với 'how long' để hỏi khoảng thời gian tính đến hiện tại."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u4-how-long",
+    "tags": [
+      "present-perfect-continuous-u4-how-long"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "How long ______ she ______ the piano this afternoon?",
+    "choices": [
+      "did / practice",
+      "is / practicing",
+      "has / been practicing",
+      "does / practice"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hỏi về khoảng thời gian luyện tập đã kéo dài liên tục đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — quá khứ đơn phù hợp cho hành động đã hoàn toàn kết thúc, không phải khoảng thời gian tính đến hiện tại.",
+      "Sai — hiện tại tiếp diễn thiếu ý 'khoảng thời gian từ quá khứ đến nay'.",
+      "Đúng — 'How long has she been practicing' hỏi khoảng thời gian luyện tập đã kéo dài đến bây giờ.",
+      "Sai — hiện tại đơn không phù hợp để hỏi về khoảng thời gian đã trải qua."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u4-how-long",
+    "tags": [
+      "present-perfect-continuous-u4-how-long"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "How long ______ for a new apartment? I might have some suggestions.",
+    "choices": [
+      "did you look",
+      "do you look",
+      "are you looking",
+      "have you been looking"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hỏi khoảng thời gian tìm kiếm căn hộ đã kéo dài đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — quá khứ đơn ngụ ý việc tìm kiếm đã kết thúc, không hợp với lời đề nghị giúp đỡ ở hiện tại.",
+      "Sai — hiện tại đơn không hỏi được về khoảng thời gian đã trôi qua.",
+      "Sai — hiện tại tiếp diễn không thể hiện khoảng thời gian đã trải qua tính đến bây giờ.",
+      "Đúng — hỏi về khoảng thời gian tìm kiếm đã kéo dài tính đến hiện tại, phù hợp với lời đề nghị giúp đỡ."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u4-how-long",
+    "tags": [
+      "present-perfect-continuous-u4-how-long"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "How long ______ on this presentation? It's due tomorrow.",
+    "choices": [
+      "did you work",
+      "have you been working",
+      "are you working",
+      "do you work"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hỏi khoảng thời gian đã làm việc liên tục đến hiện tại, gắn với deadline sắp tới nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — quá khứ đơn ngụ ý công việc đã kết thúc, không hợp lý khi deadline vẫn còn ở tương lai.",
+      "Đúng — hỏi về khoảng thời gian đã làm việc liên tục tính đến hiện tại.",
+      "Sai — hiện tại tiếp diễn không kết hợp với 'how long' để hỏi về khoảng thời gian đã qua.",
+      "Sai — hiện tại đơn không hỏi về khoảng thời gian đã trôi qua."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u4-how-long",
+    "tags": [
+      "present-perfect-continuous-u4-how-long"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "\"How long have you been learning to drive?\" — \"______.\"",
+    "choices": [
+      "I learn for two months",
+      "I am learning for two months",
+      "I have been learning for two months",
+      "I learned for two months"
+    ],
+    "correctIndex": 2,
+    "explanation": "Trả lời câu hỏi 'How long have you been...?' cần lặp lại cấu trúc hiện tại hoàn thành tiếp diễn với 'for'.",
+    "choiceExplanations": [
+      "Sai — hiện tại đơn không phù hợp để trả lời câu hỏi về khoảng thời gian đã tiếp diễn.",
+      "Sai — hiện tại tiếp diễn không thể hiện được khoảng thời gian đã trôi qua ('for two months').",
+      "Đúng — trả lời khớp với cấu trúc câu hỏi, dùng 'for' chỉ khoảng thời gian đã học lái xe.",
+      "Sai — quá khứ đơn ngụ ý việc học đã kết thúc, không khớp với câu hỏi về khoảng thời gian tiếp diễn đến hiện tại."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u5-contrast",
+    "tags": [
+      "present-perfect-continuous-u5-contrast"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ five chapters of this book already, but I ______ it for only two days.",
+    "choices": [
+      "read / am reading",
+      "am reading / read",
+      "have been reading / have read",
+      "have read / have been reading"
+    ],
+    "correctIndex": 3,
+    "explanation": "Vế đầu nói về số lượng đã hoàn thành (5 chương) nên dùng hiện tại hoàn thành đơn; vế sau nhấn mạnh khoảng thời gian đọc nên dùng hiện tại hoàn thành tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — hiện tại đơn và hiện tại tiếp diễn không thể hiện đúng ý 'đã hoàn thành 5 chương' và 'khoảng thời gian đọc'.",
+      "Sai — hiện tại tiếp diễn và hiện tại đơn không phù hợp với ngữ cảnh nói về thành tích và khoảng thời gian đã qua.",
+      "Sai — thứ tự ngược: vế đầu cần hiện tại hoàn thành đơn (đếm số lượng), vế sau cần tiếp diễn (khoảng thời gian).",
+      "Đúng — 'have read' cho số lượng chương đã đọc xong; 'have been reading' cho khoảng thời gian đọc sách."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u5-contrast",
+    "tags": [
+      "present-perfect-continuous-u5-contrast"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Your shirt is covered in paint! B: I know, I ______ the fence all afternoon, and I ______ it!",
+    "choices": [
+      "have painted / have finished",
+      "have been painting / have finished",
+      "paint / finish",
+      "am painting / have been finishing"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Have been painting' nhấn mạnh quá trình sơn kéo dài cả buổi chiều; 'have finished' nói về kết quả đã hoàn thành công việc.",
+    "choiceExplanations": [
+      "Sai — 'have painted' không nhấn mạnh được quá trình kéo dài cả buổi chiều bằng 'have been painting'.",
+      "Đúng — 'have been painting' (quá trình cả buổi chiều, giải thích vết sơn) kết hợp 'have finished' (kết quả: đã xong việc).",
+      "Sai — hiện tại đơn không phù hợp với ngữ cảnh tường thuật kết quả/quá trình vừa xảy ra.",
+      "Sai — 'have been finishing' không hợp lý vì 'finish' thường không dùng ở dạng tiếp diễn khi nói về việc đã hoàn tất."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u5-contrast",
+    "tags": [
+      "present-perfect-continuous-u5-contrast"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My neighbor ______ the answer to that question for years, so there's no need to explain it to her again.",
+    "choices": [
+      "has been knowing",
+      "has known",
+      "is knowing",
+      "knows"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Know' là động từ trạng thái, không dùng ở dạng tiếp diễn dù có 'for + khoảng thời gian' nên phải dùng hiện tại hoàn thành đơn.",
+    "choiceExplanations": [
+      "Sai — không dùng dạng tiếp diễn với động từ trạng thái 'know' — đây là lỗi phổ biến của người học.",
+      "Đúng — 'know' là động từ trạng thái (stative verb), phải dùng hiện tại hoàn thành đơn 'has known' dù đi với 'for years'.",
+      "Sai — 'know' không có dạng tiếp diễn, 'is knowing' không đúng ngữ pháp.",
+      "Sai — hiện tại đơn không diễn tả được ý 'kéo dài nhiều năm cho đến bây giờ'."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u5-contrast",
+    "tags": [
+      "present-perfect-continuous-u5-contrast"
+    ],
+    "difficulty": 3,
+    "title": "Chọn đáp án đúng",
+    "prompt": "Choose the correct sentence:",
+    "choices": [
+      "She has wanted to visit Japan for a long time.",
+      "She wants to visit Japan since a long time.",
+      "She is wanting to visit Japan for a long time.",
+      "She has been wanting to visit Japan for a long time."
+    ],
+    "correctIndex": 0,
+    "explanation": "'Want' là động từ trạng thái, không dùng ở dạng tiếp diễn nên phải dùng hiện tại hoàn thành đơn.",
+    "choiceExplanations": [
+      "Đúng — 'has wanted...for a long time' đúng ngữ pháp vì 'want' phải ở thì hiện tại hoàn thành đơn.",
+      "Sai — sai cả động từ trạng thái và cách dùng 'since' (phải dùng 'for' với khoảng thời gian, không phải mốc thời gian).",
+      "Sai — 'want' không dùng ở thì hiện tại tiếp diễn.",
+      "Sai — 'want' là động từ trạng thái, không dùng dạng tiếp diễn 'has been wanting'."
+    ]
+  },
+  {
+    "id": "en-present-perfect-continuous-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-perfect-continuous",
+    "usageId": "present-perfect-continuous-u5-contrast",
+    "tags": [
+      "present-perfect-continuous-u5-contrast"
+    ],
+    "difficulty": 3,
+    "title": "Chọn đáp án đúng",
+    "prompt": "Which sentence correctly fixes this error: \"I have been owning this car since 2018.\"?",
+    "choices": [
+      "I am owning this car since 2018.",
+      "I have been own this car since 2018.",
+      "I owned this car for 2018.",
+      "I have owned this car since 2018."
+    ],
+    "correctIndex": 3,
+    "explanation": "'Own' là động từ trạng thái, không dùng dạng tiếp diễn nên phải sửa thành hiện tại hoàn thành đơn 'have owned'.",
+    "choiceExplanations": [
+      "Sai — vẫn dùng dạng tiếp diễn với động từ trạng thái 'own', không đúng.",
+      "Sai — sai ngữ pháp, cấu trúc 'have been own' không hợp lệ (thiếu '-ing').",
+      "Sai — 'for 2018' sai vì 'for' phải đi với khoảng thời gian (for X years), không phải mốc thời gian.",
+      "Đúng — sửa đúng: động từ trạng thái 'own' phải dùng hiện tại hoàn thành đơn 'have owned', kết hợp với 'since 2018'."
+    ]
+  }
+]

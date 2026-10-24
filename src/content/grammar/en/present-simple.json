@@ -1,0 +1,174 @@
+{
+  "id": "present-simple",
+  "language": "en",
+  "title": "Thì hiện tại đơn (Present Simple)",
+  "levels": [
+    "A1"
+  ],
+  "order": 1,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "ps-u1-habits-routines",
+        "label": "Thói quen, hành động lặp đi lặp lại",
+        "explanationVi": "Dùng để diễn tả một thói quen, hành động xảy ra lặp đi lặp lại thường xuyên trong hiện tại, thường đi kèm các trạng từ chỉ tần suất như always, usually, often, every day...",
+        "examples": [
+          {
+            "en": "My father drinks a cup of black coffee before work every morning.",
+            "vi": "Bố tôi uống một tách cà phê đen trước khi đi làm mỗi sáng."
+          },
+          {
+            "en": "The children brush their teeth twice a day.",
+            "vi": "Bọn trẻ đánh răng hai lần một ngày."
+          }
+        ]
+      },
+      {
+        "id": "ps-u2-facts-truths",
+        "label": "Sự thật hiển nhiên, chân lý khoa học",
+        "explanationVi": "Dùng để nêu các sự thật hiển nhiên, quy luật tự nhiên, chân lý khoa học hoặc điều luôn đúng, không phụ thuộc vào một thời điểm cụ thể nào.",
+        "examples": [
+          {
+            "en": "Water boils at 100 degrees Celsius at sea level.",
+            "vi": "Nước sôi ở 100 độ C tại mực nước biển."
+          },
+          {
+            "en": "The Earth revolves around the Sun.",
+            "vi": "Trái Đất quay quanh Mặt Trời."
+          }
+        ]
+      },
+      {
+        "id": "ps-u3-schedules-timetables",
+        "label": "Lịch trình, thời gian biểu cố định",
+        "explanationVi": "Dùng cho các sự việc theo lịch trình, thời gian biểu cố định như giờ tàu xe, giờ chiếu phim, giờ học, dù hành động đó có thể diễn ra trong tương lai gần.",
+        "examples": [
+          {
+            "en": "The express train to Hue departs at 9:15 every morning.",
+            "vi": "Chuyến tàu tốc hành đi Huế khởi hành lúc 9 giờ 15 mỗi sáng."
+          },
+          {
+            "en": "Our English class starts at 6 p.m. on Tuesdays and Fridays.",
+            "vi": "Lớp tiếng Anh của chúng tôi bắt đầu lúc 6 giờ tối vào thứ Ba và thứ Sáu."
+          }
+        ]
+      },
+      {
+        "id": "ps-u4-state-verbs",
+        "label": "Động từ chỉ trạng thái (state verbs)",
+        "explanationVi": "Các động từ chỉ trạng thái, cảm xúc, sở hữu, nhận thức, giác quan (like, want, know, believe, own, understand, need, love, hate...) thường KHÔNG chia ở dạng tiếp diễn (-ing) mà dùng thì hiện tại đơn để diễn tả tình trạng đang đúng ở hiện tại.",
+        "examples": [
+          {
+            "en": "She knows the answer to almost every question in the quiz.",
+            "vi": "Cô ấy biết câu trả lời cho gần như mọi câu hỏi trong bài trắc nghiệm."
+          },
+          {
+            "en": "My grandparents own a small rice field near the river.",
+            "vi": "Ông bà tôi sở hữu một thửa ruộng nhỏ gần bờ sông."
+          }
+        ]
+      },
+      {
+        "id": "ps-u5-instructions-directions",
+        "label": "Chỉ dẫn, hướng dẫn từng bước",
+        "explanationVi": "Dùng trong các câu hướng dẫn, chỉ đường, công thức nấu ăn hoặc quy trình từng bước, thường đi kèm các từ nối như first, then, next, after that.",
+        "examples": [
+          {
+            "en": "First, you crack two eggs into the bowl, then you add a pinch of salt.",
+            "vi": "Đầu tiên, bạn đập hai quả trứng vào bát, sau đó bạn thêm một chút muối."
+          },
+          {
+            "en": "You walk straight for two blocks, and then you turn left at the pharmacy.",
+            "vi": "Bạn đi thẳng qua hai dãy nhà, rồi rẽ trái ở chỗ hiệu thuốc."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "always",
+        "meaningVi": "luôn luôn"
+      },
+      {
+        "word": "usually",
+        "meaningVi": "thường thường"
+      },
+      {
+        "word": "often",
+        "meaningVi": "thường xuyên"
+      },
+      {
+        "word": "sometimes",
+        "meaningVi": "thỉnh thoảng"
+      },
+      {
+        "word": "rarely",
+        "meaningVi": "hiếm khi"
+      },
+      {
+        "word": "never",
+        "meaningVi": "không bao giờ"
+      },
+      {
+        "word": "every day/week/month",
+        "meaningVi": "mỗi ngày/tuần/tháng"
+      },
+      {
+        "word": "once/twice a week",
+        "meaningVi": "một/hai lần một tuần"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "id": "present-simple-m1",
+        "description": "Lỗi quên thêm -s/-es vào động từ khi chủ ngữ là ngôi thứ ba số ít (he/she/it)",
+        "examples": [
+          {
+            "wrong": "My sister work in a hospital.",
+            "correct": "My sister works in a hospital."
+          }
+        ]
+      },
+      {
+        "id": "present-simple-m2",
+        "description": "Lỗi chia động từ chỉ trạng thái (state verbs) ở dạng tiếp diễn (-ing) thay vì dùng hiện tại đơn.",
+        "examples": [
+          {
+            "wrong": "I am wanting a cup of tea right now.",
+            "correct": "I want a cup of tea right now."
+          }
+        ]
+      },
+      {
+        "id": "present-simple-m3",
+        "description": "Lỗi đặt sai vị trí trạng từ chỉ tần suất: với động từ thường, trạng từ đứng TRƯỚC động từ chính, nhưng với động từ 'to be', trạng từ đứng SAU 'to be'.",
+        "examples": [
+          {
+            "wrong": "She goes always to school by bike.",
+            "correct": "She always goes to school by bike."
+          },
+          {
+            "wrong": "She always is late.",
+            "correct": "She is always late."
+          }
+        ]
+      },
+      {
+        "id": "present-simple-m4",
+        "description": "Lỗi chia kép (double marking): khi câu phủ định hoặc nghi vấn đã có 'does', động từ chính phải giữ nguyên thể, không thêm -s nữa.",
+        "examples": [
+          {
+            "wrong": "Does he plays football on Sundays?",
+            "correct": "Does he play football on Sundays?"
+          }
+        ]
+      }
+    ],
+    "formulas": {
+      "affirmative": "I/You/We/They + V (nguyên thể). Ví dụ: I work every day. | He/She/It + V-s/es. Ví dụ: He works every day.",
+      "negative": "I/You/We/They + do not (don't) + V (nguyên thể). Ví dụ: They don't work on Sundays. | He/She/It + does not (doesn't) + V (nguyên thể). Ví dụ: She doesn't work on Sundays.",
+      "question": "Do + I/you/we/they + V (nguyên thể) ...? Ví dụ: Do you work here? | Does + he/she/it + V (nguyên thể) ...? Ví dụ: Does she work here?"
+    }
+  }
+}

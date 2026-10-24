@@ -1,0 +1,826 @@
+[
+  {
+    "id": "en-reported-speech-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"I am hungry,\" she said. -> Reported: She said (that) she ______ hungry.",
+    "choices": [
+      "was",
+      "be",
+      "were",
+      "is"
+    ],
+    "correctIndex": 0,
+    "explanation": "'am' là hiện tại đơn của to be. Vì động từ tường thuật 'said' ở quá khứ, ta phải lùi thì: am -> was. 'were' sai vì chủ ngữ 'she' số ít.",
+    "choiceExplanations": [
+      "Đúng — động từ tường thuật 'said' ở quá khứ nên lùi thì: am → was; 'she' số ít dùng 'was'.",
+      "Sai — 'be' nguyên thể không dùng làm động từ chia trong câu tường thuật này.",
+      "Sai — 'were' không đi với chủ ngữ số ít 'she'.",
+      "Sai — 'is' (hiện tại) không lùi thì; trong bài này cần lùi thành 'was'."
+    ]
+  },
+  {
+    "id": "en-reported-speech-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He told me that he ______ tired after the long trip.",
+    "choices": [
+      "has been",
+      "be",
+      "were",
+      "was"
+    ],
+    "correctIndex": 3,
+    "explanation": "Động từ tường thuật 'told' ở quá khứ nên cần lùi thì: hiện tại đơn 'am/is' lùi thành 'was'. 'is' sai vì không lùi thì, 'has been' sai thì, 'be' sai dạng động từ.",
+    "choiceExplanations": [
+      "Sai — 'has been' chuyển sang hiện tại hoàn thành, không phải cách lùi thì của 'is/am'.",
+      "Sai — 'be' nguyên thể không dùng làm động từ chia.",
+      "Sai — 'were' không đi với chủ ngữ số ít 'he'.",
+      "Đúng — sau 'told' (quá khứ), hiện tại đơn lùi thành quá khứ đơn: is → was."
+    ]
+  },
+  {
+    "id": "en-reported-speech-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"We are watching a movie,\" they said. -> Reported: They said (that) they ______ watching a movie.",
+    "choices": [
+      "be",
+      "were",
+      "are",
+      "was"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hiện tại tiếp diễn 'are watching' lùi thành quá khứ tiếp diễn 'were watching'. 'was' sai vì chủ ngữ 'they' số nhiều phải dùng 'were'.",
+    "choiceExplanations": [
+      "Sai — 'be' nguyên thể không dùng trong câu này.",
+      "Đúng — hiện tại tiếp diễn 'are watching' lùi thành quá khứ tiếp diễn: were watching.",
+      "Sai — 'are' không lùi thì.",
+      "Sai — 'was' không đi với chủ ngữ số nhiều 'they'."
+    ]
+  },
+  {
+    "id": "en-reported-speech-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u5-time-place-pronoun-changes",
+    "tags": [
+      "rs-u5-time-place-pronoun-changes"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"I live here,\" he said. -> Reported: He said (that) he lived ______.",
+    "choices": [
+      "this place",
+      "somewhere",
+      "near",
+      "there"
+    ],
+    "correctIndex": 3,
+    "explanation": "Trạng từ chỉ nơi chốn 'here' phải đổi thành 'there' khi tường thuật vì ngữ cảnh nói đã thay đổi.",
+    "choiceExplanations": [
+      "Sai — 'this place' không phải trạng từ nơi chốn thay thế 'here' ở vị trí này.",
+      "Sai — 'somewhere' (một nơi nào đó) làm đổi nghĩa; câu gốc nói 'here' nên cần đổi thành 'there'.",
+      "Sai — 'near' thiếu bổ ngữ và không phải từ thay thế của 'here'.",
+      "Đúng — khi tường thuật ở ngữ cảnh khác, 'here' → there."
+    ]
+  },
+  {
+    "id": "en-reported-speech-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"I saw Tom yesterday,\" he said. -> Reported: He said (that) he ______ Tom the day before.",
+    "choices": [
+      "had seen",
+      "sees",
+      "saw",
+      "see"
+    ],
+    "correctIndex": 0,
+    "explanation": "Theo quy tắc lùi thì, quá khứ đơn 'saw' lùi thành quá khứ hoàn thành 'had seen' khi động từ tường thuật ở quá khứ.",
+    "choiceExplanations": [
+      "Đúng — quá khứ đơn lùi thành quá khứ hoàn thành: saw → had seen.",
+      "Sai — 'sees' là hiện tại đơn.",
+      "Sai — 'saw' không lùi thì; sau 'said' (quá khứ) quá khứ đơn phải lùi thành quá khứ hoàn thành.",
+      "Sai — 'see' là nguyên thể/hiện tại."
+    ]
+  },
+  {
+    "id": "en-reported-speech-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u5-time-place-pronoun-changes",
+    "tags": [
+      "rs-u5-time-place-pronoun-changes"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"I will call you tomorrow,\" he said. -> Reported: He said (that) he would call me ______.",
+    "choices": [
+      "yesterday",
+      "the day before",
+      "today",
+      "the next day"
+    ],
+    "correctIndex": 3,
+    "explanation": "Khi ngày nói đã qua, 'tomorrow' phải đổi thành 'the next day' (hoặc 'the following day') cho phù hợp với thời điểm tường thuật.",
+    "choiceExplanations": [
+      "Sai — 'yesterday' mâu thuẫn với việc sẽ gọi trong tương lai của người nói.",
+      "Sai — 'the day before' là ngày hôm trước, ngược với 'tomorrow' (ngày hôm sau).",
+      "Sai — 'today' không thay thế đúng cho 'tomorrow'.",
+      "Đúng — 'tomorrow' → the next day (hoặc the following day)."
+    ]
+  },
+  {
+    "id": "en-reported-speech-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"I can swim very well,\" she said. -> Reported: She said (that) she ______ swim very well.",
+    "choices": [
+      "would can",
+      "cans",
+      "may",
+      "could"
+    ],
+    "correctIndex": 3,
+    "explanation": "Theo bảng lùi thì, động từ khuyết thiếu 'can' lùi thành 'could' trong câu tường thuật.",
+    "choiceExplanations": [
+      "Sai — không dùng hai động từ khuyết thiếu liền nhau; 'can' lùi thành 'could'.",
+      "Sai — 'cans' không tồn tại: động từ khuyết thiếu 'can' không thêm -s.",
+      "Sai — 'may' đổi nghĩa từ khả năng sang khả năng xảy ra.",
+      "Đúng — modal 'can' lùi thành 'could'."
+    ]
+  },
+  {
+    "id": "en-reported-speech-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u5-time-place-pronoun-changes",
+    "tags": [
+      "rs-u5-time-place-pronoun-changes"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"This is my book,\" Mary said. -> Reported: Mary said that ______ book was hers.",
+    "choices": [
+      "this",
+      "it",
+      "that",
+      "these"
+    ],
+    "correctIndex": 2,
+    "explanation": "Từ chỉ định 'this' đứng gần người nói lúc phát ngôn phải đổi thành 'that' khi tường thuật lại ở một ngữ cảnh khác.",
+    "choiceExplanations": [
+      "Sai — 'this' phải đổi vì ngữ cảnh đã thay đổi.",
+      "Sai — 'it' không thay thế được 'this book' ở chỗ này (câu cần từ chỉ định đứng trước 'book').",
+      "Đúng — 'this' → that khi tường thuật ở ngữ cảnh khác.",
+      "Sai — 'these' là số nhiều, không hợp với 'book'."
+    ]
+  },
+  {
+    "id": "en-reported-speech-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"I have already eaten lunch,\" he said. -> Reported: He said (that) he ______ already eaten lunch.",
+    "choices": [
+      "have",
+      "was",
+      "had",
+      "has"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hiện tại hoàn thành 'have eaten' lùi thành quá khứ hoàn thành 'had eaten' theo quy tắc backshift.",
+    "choiceExplanations": [
+      "Sai — 'have' không lùi thì sau 'said' (quá khứ).",
+      "Sai — 'was' không phải cách lùi của hiện tại hoàn thành.",
+      "Đúng — hiện tại hoàn thành lùi thành quá khứ hoàn thành: have eaten → had eaten.",
+      "Sai — 'has' không lùi thì và không đi với chủ ngữ 'he' trong câu tường thuật này."
+    ]
+  },
+  {
+    "id": "en-reported-speech-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"I must finish this report today,\" she said. -> Reported: She said (that) she ______ finish that report that day.",
+    "choices": [
+      "should",
+      "had to",
+      "has to",
+      "might"
+    ],
+    "correctIndex": 1,
+    "explanation": "Theo bảng lùi thì, động từ khuyết thiếu 'must' (chỉ sự bắt buộc) lùi thành 'had to' trong câu tường thuật.",
+    "choiceExplanations": [
+      "Sai — 'should' đổi nghĩa từ bắt buộc sang lời khuyên.",
+      "Đúng — modal 'must' (bắt buộc) lùi thành 'had to'.",
+      "Sai — 'has to' ở hiện tại, không lùi thì sau 'said' (quá khứ).",
+      "Sai — 'might' diễn tả khả năng, làm đổi nghĩa từ 'bắt buộc' sang 'có thể'."
+    ]
+  },
+  {
+    "id": "en-reported-speech-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u2-yes-no-questions",
+    "tags": [
+      "rs-u2-yes-no-questions"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Are you coming to the party?\" he asked me. -> Reported: He asked me ______ I was coming to the party.",
+    "choices": [
+      "if",
+      "which",
+      "that",
+      "what"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đây là câu hỏi Yes/No (đảo trợ động từ 'Are'), nên phải nối bằng 'if' (hoặc 'whether'), tuyệt đối không dùng 'that'.",
+    "choiceExplanations": [
+      "Đúng — câu hỏi Yes/No tường thuật nối bằng 'if' (hoặc 'whether').",
+      "Sai — 'which' không dùng nối câu hỏi Yes/No.",
+      "Sai — 'that' dùng cho câu trần thuật, không dùng cho câu hỏi Yes/No.",
+      "Sai — 'what' là từ để hỏi, không dùng ở câu hỏi Yes/No."
+    ]
+  },
+  {
+    "id": "en-reported-speech-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u2-yes-no-questions",
+    "tags": [
+      "rs-u2-yes-no-questions",
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Have you finished your homework?\" she asked. -> Reported: She asked if I ______ finished my homework.",
+    "choices": [
+      "do",
+      "did",
+      "had",
+      "have"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu hỏi Yes/No tường thuật vẫn áp dụng lùi thì: hiện tại hoàn thành 'Have you finished' lùi thành quá khứ hoàn thành 'I had finished'.",
+    "choiceExplanations": [
+      "Sai — 'do' không lùi đúng thì và không hợp với 'finished'.",
+      "Sai — 'did finished' sai cấu trúc (chia kép).",
+      "Đúng — hiện tại hoàn thành lùi thành quá khứ hoàn thành: have finished → had finished.",
+      "Sai — 'have finished' giữ hiện tại hoàn thành, không lùi thì sau 'asked' (quá khứ)."
+    ]
+  },
+  {
+    "id": "en-reported-speech-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u3-wh-questions",
+    "tags": [
+      "rs-u3-wh-questions",
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Where are you going?\" she asked him. -> Reported: She asked him where he ______ going.",
+    "choices": [
+      "be",
+      "were",
+      "was",
+      "is"
+    ],
+    "correctIndex": 2,
+    "explanation": "Từ để hỏi 'where' được giữ nguyên, trật tự đưa về khẳng định 'he was going', đồng thời lùi thì 'are' -> 'was'.",
+    "choiceExplanations": [
+      "Sai — 'be' nguyên thể không dùng.",
+      "Sai — 'were' không đi với chủ ngữ số ít 'he'.",
+      "Đúng — sau từ để hỏi 'where', trật tự khẳng định và lùi thì: are → was.",
+      "Sai — 'is' không lùi thì sau 'asked' (quá khứ)."
+    ]
+  },
+  {
+    "id": "en-reported-speech-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u3-wh-questions",
+    "tags": [
+      "rs-u3-wh-questions",
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"What time will the meeting start?\" he asked me. -> Reported: He asked me what time the meeting ______ start.",
+    "choices": [
+      "would",
+      "did",
+      "does",
+      "will"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cụm từ để hỏi 'what time' được giữ nguyên đầu mệnh đề; động từ khuyết thiếu 'will' lùi thành 'would'.",
+    "choiceExplanations": [
+      "Đúng — modal 'will' lùi thành 'would'; từ để hỏi giữ nguyên.",
+      "Sai — 'did' không phù hợp trong cấu trúc này.",
+      "Sai — 'does' ở hiện tại và không đi với 'will' của câu gốc.",
+      "Sai — 'will' không lùi thì sau 'asked' (quá khứ)."
+    ]
+  },
+  {
+    "id": "en-reported-speech-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u4-commands-requests",
+    "tags": [
+      "rs-u4-commands-requests"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Please sit down,\" the teacher said to the students. -> Reported: The teacher told the students ______ sit down.",
+    "choices": [
+      "not to",
+      "to",
+      "that",
+      "if"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu mệnh lệnh khẳng định được tường thuật theo cấu trúc 'told + O + to V', nên chỉ cần thêm 'to' trước động từ nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'not to' dùng cho mệnh lệnh phủ định, nhưng câu gốc là mệnh lệnh khẳng định.",
+      "Đúng — mệnh lệnh khẳng định tường thuật: told + O + to V.",
+      "Sai — 'that' không dùng cho câu mệnh lệnh tường thuật.",
+      "Sai — 'if' dùng cho câu hỏi Yes/No."
+    ]
+  },
+  {
+    "id": "en-reported-speech-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u4-commands-requests",
+    "tags": [
+      "rs-u4-commands-requests"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Don't be late,\" she said to him. -> Reported: She told him ______ be late.",
+    "choices": [
+      "no to",
+      "to not",
+      "not to",
+      "don't"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu mệnh lệnh phủ định (Don't + V) chuyển thành 'told + O + not + to V', từ 'not' phải đứng ngay trước 'to V'.",
+    "choiceExplanations": [
+      "Sai — 'no to' không phải cách tường thuật mệnh lệnh phủ định.",
+      "Sai — 'to not' ít dùng; chuẩn là 'not to'.",
+      "Đúng — mệnh lệnh phủ định tường thuật: told + O + not to V.",
+      "Sai — 'don't' giữ nguyên lời nói trực tiếp, không dùng trong câu tường thuật."
+    ]
+  },
+  {
+    "id": "en-reported-speech-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u2-yes-no-questions",
+    "tags": [
+      "rs-u2-yes-no-questions"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Do you speak French?\" the interviewer asked. -> Reported: The interviewer asked ______ I spoke French.",
+    "choices": [
+      "that",
+      "what",
+      "whether",
+      "who"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là câu hỏi Yes/No, có thể nối bằng 'whether' (tương đương 'if'). Không dùng 'that' cho câu hỏi tường thuật.",
+    "choiceExplanations": [
+      "Sai — 'that' dùng cho câu trần thuật, không dùng cho câu hỏi Yes/No.",
+      "Sai — 'what' là từ để hỏi, không dùng cho câu hỏi Yes/No.",
+      "Đúng — câu hỏi Yes/No tường thuật có thể nối bằng 'whether' (tương đương 'if').",
+      "Sai — 'who' là từ để hỏi, không dùng cho câu hỏi Yes/No."
+    ]
+  },
+  {
+    "id": "en-reported-speech-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u3-wh-questions",
+    "tags": [
+      "rs-u3-wh-questions"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Who called me last night?\" she asked. -> Reported: She asked me ______ had called her the night before.",
+    "choices": [
+      "if",
+      "who",
+      "whom",
+      "that"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Who' trong câu hỏi gốc làm chủ ngữ (Who called...) nên được giữ nguyên và đứng đầu mệnh đề tường thuật, không dùng trợ động từ.",
+    "choiceExplanations": [
+      "Sai — 'if' dùng cho câu hỏi Yes/No, trong khi câu gốc có từ để hỏi 'Who'.",
+      "Đúng — 'Who' làm chủ ngữ của câu hỏi gốc nên giữ nguyên và đứng đầu mệnh đề.",
+      "Sai — 'whom' dùng khi hỏi về tân ngữ; ở đây 'who' là chủ ngữ.",
+      "Sai — 'that' dùng cho câu trần thuật."
+    ]
+  },
+  {
+    "id": "en-reported-speech-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u4-commands-requests",
+    "tags": [
+      "rs-u4-commands-requests"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Wait for me outside,\" she said to her friend. -> Reported: She ______ her friend to wait for her outside.",
+    "choices": [
+      "explained",
+      "said",
+      "spoke",
+      "told"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu mệnh lệnh tường thuật cần động từ 'told' vì cấu trúc 'told + O + to V' bắt buộc có tân ngữ theo sau; 'said' không thể trực tiếp đứng trước tân ngữ theo cách này.",
+    "choiceExplanations": [
+      "Sai — 'explained' khác nghĩa và không có cấu trúc 'explained + O + to V' cho mệnh lệnh.",
+      "Sai — 'said' không đi trực tiếp với tân ngữ chỉ người rồi 'to V' (cần 'told').",
+      "Sai — 'spoke' không dùng cho tường thuật mệnh lệnh theo cấu trúc này.",
+      "Đúng — mệnh lệnh tường thuật: told + O + to V."
+    ]
+  },
+  {
+    "id": "en-reported-speech-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u3-wh-questions",
+    "tags": [
+      "rs-u3-wh-questions",
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"How did you fix the printer?\" he asked her. -> Reported: He asked her how she ______ fixed the printer.",
+    "choices": [
+      "had",
+      "has",
+      "did",
+      "was"
+    ],
+    "correctIndex": 0,
+    "explanation": "Quá khứ đơn 'did you fix' lùi thành quá khứ hoàn thành 'had fixed' theo quy tắc backshift; từ để hỏi 'how' được giữ nguyên.",
+    "choiceExplanations": [
+      "Đúng — quá khứ đơn lùi thành quá khứ hoàn thành: did fix → had fixed; từ để hỏi 'how' giữ nguyên.",
+      "Sai — 'has' là hiện tại hoàn thành, không lùi thì sau 'asked' (quá khứ).",
+      "Sai — 'did' không lùi thì và gây chia kép với 'fixed'.",
+      "Sai — 'was' không đúng cấu trúc quá khứ hoàn thành 'had fixed'."
+    ]
+  },
+  {
+    "id": "en-reported-speech-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift",
+      "rs-u5-time-place-pronoun-changes"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"I will finish this report by tomorrow,\" she told her boss. -> Reported: She told her boss (that) she ______ finish that report by the next day.",
+    "choices": [
+      "wouldn't",
+      "would",
+      "shall",
+      "must"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ngoài việc đổi 'this' -> 'that' và 'tomorrow' -> 'the next day', động từ khuyết thiếu 'will' cũng phải lùi thành 'would' theo quy tắc backshift.",
+    "choiceExplanations": [
+      "Sai — 'wouldn't' là phủ định, làm đảo nghĩa câu gốc (cô ấy sẽ hoàn thành báo cáo).",
+      "Đúng — modal 'will' lùi thành 'would'.",
+      "Sai — 'shall' đổi nghĩa và không phải dạng lùi thì của 'will'.",
+      "Sai — 'must' đổi nghĩa từ ý định sang bắt buộc."
+    ]
+  },
+  {
+    "id": "en-reported-speech-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift",
+      "rs-u5-time-place-pronoun-changes"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"I moved here last month,\" he said. -> Reported: He said (that) he ______ there the month before.",
+    "choices": [
+      "was moving",
+      "moves",
+      "had moved",
+      "moved"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cùng lúc với việc đổi 'here' -> 'there' và 'last month' -> 'the month before', động từ quá khứ đơn 'moved' phải lùi thành quá khứ hoàn thành 'had moved'.",
+    "choiceExplanations": [
+      "Sai — 'was moving' không phải dạng lùi thì của quá khứ đơn 'moved'.",
+      "Sai — 'moves' là hiện tại đơn.",
+      "Đúng — quá khứ đơn lùi thành quá khứ hoàn thành: moved → had moved.",
+      "Sai — 'moved' không lùi thì; sau 'said' (quá khứ) quá khứ đơn phải lùi thành quá khứ hoàn thành."
+    ]
+  },
+  {
+    "id": "en-reported-speech-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u3-wh-questions",
+    "tags": [
+      "rs-u3-wh-questions",
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Why did you leave the meeting early?\" the manager asked her. -> Reported: The manager asked her why she ______ the meeting early.",
+    "choices": [
+      "was leaving",
+      "had left",
+      "left",
+      "leaves"
+    ],
+    "correctIndex": 1,
+    "explanation": "Từ để hỏi 'why' được giữ nguyên; quá khứ đơn 'did you leave' lùi thành quá khứ hoàn thành 'had left' theo quy tắc backshift.",
+    "choiceExplanations": [
+      "Sai — 'was leaving' không phải dạng lùi thì của 'did you leave'.",
+      "Đúng — quá khứ đơn lùi thành quá khứ hoàn thành: did leave → had left.",
+      "Sai — 'left' không lùi thì sau 'asked' (quá khứ).",
+      "Sai — 'leaves' là hiện tại đơn."
+    ]
+  },
+  {
+    "id": "en-reported-speech-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u2-yes-no-questions",
+    "tags": [
+      "rs-u2-yes-no-questions",
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Can you help me with this tomorrow?\" she asked. -> Reported: She asked if I ______ help her with that the next day.",
+    "choices": [
+      "would",
+      "will",
+      "can",
+      "could"
+    ],
+    "correctIndex": 3,
+    "explanation": "Bên cạnh việc đổi 'this' -> 'that', 'tomorrow' -> 'the next day' và 'me' -> 'her', động từ khuyết thiếu 'can' phải lùi thành 'could'.",
+    "choiceExplanations": [
+      "Sai — 'would' có thể dùng khi tường thuật lời nhờ (Would you...?) nhưng làm đổi nghĩa từ 'can' (khả năng/lời nhờ) sang 'will'; đáp án chuẩn của quy tắc lùi thì là 'could'.",
+      "Sai — 'will' không lùi thì sau 'asked' (quá khứ).",
+      "Sai — 'can' không lùi thì sau 'asked' (quá khứ).",
+      "Đúng — modal 'can' lùi thành 'could'."
+    ]
+  },
+  {
+    "id": "en-reported-speech-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u4-commands-requests",
+    "tags": [
+      "rs-u4-commands-requests",
+      "rs-u5-time-place-pronoun-changes"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Don't come back here after 10 p.m.,\" the manager warned them. -> Reported: The manager warned them ______ come back there after 10 p.m.",
+    "choices": [
+      "don't",
+      "not to",
+      "to not",
+      "no"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu mệnh lệnh phủ định chuyển thành '...warned them not to come back...'; đồng thời 'here' phải đổi thành 'there' vì ngữ cảnh nơi chốn đã thay đổi.",
+    "choiceExplanations": [
+      "Sai — 'don't' giữ nguyên lời trực tiếp, không dùng trong câu tường thuật.",
+      "Đúng — mệnh lệnh phủ định tường thuật: warned + O + not to V; 'here' → there.",
+      "Sai — 'to not' ít dùng; chuẩn là 'not to'.",
+      "Sai — 'no' không dùng trong cấu trúc này."
+    ]
+  },
+  {
+    "id": "en-reported-speech-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She ______ me (that) she was moving to another city next week.",
+    "choices": [
+      "talked",
+      "spoke",
+      "said",
+      "told"
+    ],
+    "correctIndex": 3,
+    "explanation": "Vì có tân ngữ 'me' đứng ngay sau động từ tường thuật, ta bắt buộc dùng 'told' (told + O). 'said', 'talked', 'spoke' đều không thể đứng trực tiếp trước tân ngữ chỉ người theo cách này.",
+    "choiceExplanations": [
+      "Sai — 'talked' không đi trực tiếp với tân ngữ chỉ người theo cách này.",
+      "Sai — 'spoke' không đi trực tiếp với tân ngữ chỉ người theo cách này.",
+      "Sai — 'said' không đứng ngay trước tân ngữ chỉ người (phải 'said to me').",
+      "Đúng — 'told + O' (tân ngữ chỉ người đứng ngay sau)."
+    ]
+  },
+  {
+    "id": "en-reported-speech-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift",
+      "rs-u3-wh-questions",
+      "rs-u5-time-place-pronoun-changes"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Where will you be staying next week?\" he asked me. -> Reported: He asked me where I ______ be staying the following week.",
+    "choices": [
+      "would",
+      "am",
+      "shall",
+      "will"
+    ],
+    "correctIndex": 0,
+    "explanation": "Từ để hỏi 'where' giữ nguyên, 'next week' đổi thành 'the following week', và động từ khuyết thiếu 'will' lùi thành 'would'.",
+    "choiceExplanations": [
+      "Đúng — modal 'will' lùi thành 'would'; từ để hỏi giữ nguyên; 'next week' → the following week.",
+      "Sai — 'am' không lùi thì và không đi với 'be staying' ở đây.",
+      "Sai — 'shall' không phải dạng lùi thì của 'will'.",
+      "Sai — 'will' không lùi thì sau 'asked' (quá khứ)."
+    ]
+  },
+  {
+    "id": "en-reported-speech-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u2-yes-no-questions",
+    "tags": [
+      "rs-u2-yes-no-questions"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"Have you seen my keys?\" she said to her roommate. -> Reported: She asked her roommate ______ he had seen her keys.",
+    "choices": [
+      "if",
+      "what",
+      "so",
+      "that"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đây là câu hỏi Yes/No nên phải nối bằng 'if'; đồng thời 'my keys' đổi thành 'her keys' vì người tường thuật không phải người nói gốc.",
+    "choiceExplanations": [
+      "Đúng — câu hỏi Yes/No tường thuật nối bằng 'if'; 'my keys' → her keys.",
+      "Sai — 'what' là từ để hỏi, không dùng cho câu hỏi Yes/No.",
+      "Sai — 'so' không dùng để nối câu hỏi tường thuật.",
+      "Sai — 'that' dùng cho câu trần thuật, không dùng cho câu hỏi Yes/No."
+    ]
+  },
+  {
+    "id": "en-reported-speech-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift",
+      "rs-u5-time-place-pronoun-changes"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"I must return these books by tomorrow,\" she told the librarian. -> Reported: She told the librarian (that) she ______ return those books by the next day.",
+    "choices": [
+      "had to",
+      "should",
+      "have to",
+      "has to"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cùng với việc đổi 'these' -> 'those' và 'tomorrow' -> 'the next day', động từ khuyết thiếu 'must' (chỉ sự bắt buộc) lùi thành 'had to'.",
+    "choiceExplanations": [
+      "Đúng — modal 'must' (bắt buộc) lùi thành 'had to'; 'these' → those; 'tomorrow' → the next day.",
+      "Sai — 'should' đổi nghĩa từ bắt buộc sang lời khuyên.",
+      "Sai — 'have to' ở hiện tại và không hợp với chủ ngữ 'she'; 'must' lùi thành 'had to'.",
+      "Sai — 'has to' ở hiện tại, không lùi thì sau 'told' (quá khứ)."
+    ]
+  },
+  {
+    "id": "en-reported-speech-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "reported-speech",
+    "usageId": "rs-u1-statements-backshift",
+    "tags": [
+      "rs-u1-statements-backshift",
+      "rs-u3-wh-questions",
+      "rs-u5-time-place-pronoun-changes"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Direct: \"When did you arrive here?\" he asked her. -> Reported: He asked her when she ______ arrived there.",
+    "choices": [
+      "was",
+      "had",
+      "has",
+      "did"
+    ],
+    "correctIndex": 1,
+    "explanation": "Từ để hỏi 'when' giữ nguyên; 'here' đổi thành 'there'; và quá khứ đơn 'did you arrive' lùi thành quá khứ hoàn thành 'had arrived'.",
+    "choiceExplanations": [
+      "Sai — 'was' không đúng cấu trúc quá khứ hoàn thành 'had arrived'.",
+      "Đúng — quá khứ đơn lùi thành quá khứ hoàn thành: did arrive → had arrived; 'here' → there.",
+      "Sai — 'has' là hiện tại hoàn thành, không lùi thì sau 'asked' (quá khứ).",
+      "Sai — 'did' gây chia kép với 'arrived'."
+    ]
+  }
+]

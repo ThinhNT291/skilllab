@@ -1,0 +1,206 @@
+{
+  "id": "past-continuous",
+  "language": "en",
+  "title": "Thì quá khứ tiếp diễn (Past Continuous)",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "order": 4,
+  "category": "tenses",
+  "theory": {
+    "usages": [
+      {
+        "id": "pastcont-u1-action-in-progress-at-specific-time",
+        "label": "Hành động đang diễn ra tại một thời điểm xác định trong quá khứ",
+        "explanationVi": "Dùng để diễn tả một hành động đang xảy ra tại một thời điểm cụ thể trong quá khứ (ví dụ: at 8 p.m. last night, at this time yesterday). Ta không biết chính xác hành động bắt đầu và kết thúc khi nào, chỉ biết nó đang tiếp diễn tại đúng mốc thời gian được nhắc đến.",
+        "examples": [
+          {
+            "en": "At 9 p.m. last night, I was doing my homework in my room.",
+            "vi": "Vào lúc 9 giờ tối qua, tôi đang làm bài tập về nhà trong phòng."
+          },
+          {
+            "en": "At this time yesterday, my parents were driving to Da Lat for a short trip.",
+            "vi": "Vào giờ này hôm qua, bố mẹ tôi đang lái xe đến Đà Lạt cho một chuyến đi ngắn ngày."
+          }
+        ]
+      },
+      {
+        "id": "pastcont-u2-interrupted-action",
+        "label": "Hành động đang diễn ra thì bị một hành động khác xen vào",
+        "explanationVi": "Một hành động dài đang diễn ra trong quá khứ (chia ở thì quá khứ tiếp diễn) thì bất ngờ bị một hành động khác, ngắn hơn, xen vào và làm gián đoạn (chia ở thì quá khứ đơn). Hai hành động thường được nối với nhau bằng 'when'. Cấu trúc: S + was/were + V-ing + when + S + V (quá khứ đơn).",
+        "examples": [
+          {
+            "en": "She was washing the dishes when the lights suddenly went out.",
+            "vi": "Cô ấy đang rửa bát thì đèn bỗng nhiên tắt."
+          },
+          {
+            "en": "I was crossing the street when a taxi honked loudly at me.",
+            "vi": "Tôi đang băng qua đường thì một chiếc taxi bấm còi inh ỏi khiến tôi giật mình."
+          }
+        ]
+      },
+      {
+        "id": "pastcont-u3-parallel-actions",
+        "label": "Hai hành động song song trong quá khứ",
+        "explanationVi": "Dùng để diễn tả hai hành động đang xảy ra cùng lúc, song song với nhau trong quá khứ. Cả hai vế đều chia ở thì quá khứ tiếp diễn và thường được nối với nhau bằng 'while'.",
+        "examples": [
+          {
+            "en": "While my mother was cooking dinner, my father was watering the plants in the garden.",
+            "vi": "Trong khi mẹ tôi đang nấu bữa tối thì bố tôi đang tưới cây trong vườn."
+          },
+          {
+            "en": "While the children were playing in the yard, the dog was sleeping quietly under the table.",
+            "vi": "Trong khi bọn trẻ đang chơi ở sân thì con chó đang ngủ yên lặng dưới gầm bàn."
+          }
+        ]
+      },
+      {
+        "id": "pastcont-u4-background-scene-setting",
+        "label": "Miêu tả bối cảnh, khung cảnh trong một câu chuyện",
+        "explanationVi": "Dùng để miêu tả bối cảnh, không khí, khung cảnh xung quanh tại một thời điểm trong quá khứ, thường xuất hiện ở đầu một câu chuyện hoặc đoạn văn kể chuyện để tạo phông nền trước khi hành động chính xảy ra.",
+        "examples": [
+          {
+            "en": "It was a cold winter evening. The wind was blowing hard, and light snow was falling outside the window.",
+            "vi": "Đó là một buổi tối mùa đông lạnh giá. Gió đang thổi mạnh, và tuyết nhẹ đang rơi bên ngoài cửa sổ."
+          },
+          {
+            "en": "The market was full of noise. Vendors were shouting, and customers were bargaining over fresh vegetables.",
+            "vi": "Khu chợ đầy ắp tiếng ồn. Những người bán hàng đang rao hàng, còn khách hàng đang mặc cả về rau củ tươi."
+          }
+        ]
+      },
+      {
+        "id": "pastcont-u5-changing-situation",
+        "label": "Diễn tả một tình huống đang thay đổi, diễn tiến dần",
+        "explanationVi": "Dùng để diễn tả một xu hướng hoặc tình huống đang dần dần thay đổi, phát triển hay diễn tiến trong quá khứ, thường đi kèm các động từ như get, become, change, grow.",
+        "examples": [
+          {
+            "en": "The weather was getting colder and colder as we climbed higher up the mountain.",
+            "vi": "Thời tiết đang trở nên lạnh hơn khi chúng tôi leo lên cao hơn trên núi."
+          },
+          {
+            "en": "Traditional folk music was becoming more popular among young people in the city at that time.",
+            "vi": "Âm nhạc dân gian truyền thống đang trở nên phổ biến hơn với giới trẻ trong thành phố vào thời điểm đó."
+          }
+        ]
+      },
+      {
+        "id": "past-simple-vs-continuous",
+        "level": "B1",
+        "label": "Phân biệt Quá khứ đơn và Quá khứ tiếp diễn",
+        "explanationVi": "Quá khứ đơn nói về hành động đã hoàn tất, xảy ra một lần hoặc nối tiếp nhau; Quá khứ tiếp diễn nói về hành động đang diễn ra (chưa xong) tại một thời điểm hoặc trong một quãng thời gian trong quá khứ. Khi hai hành động cùng xuất hiện: hành động DÀI, làm nền (đang diễn ra) dùng Quá khứ tiếp diễn; hành động NGẮN, xen vào hoặc xảy ra bất ngờ dùng Quá khứ đơn (When the phone rang, I was cooking). 'While/as' thường đi với hành động đang diễn ra; 'when' đi được với cả hai, tuỳ hành động nào là nền. Hai cách dùng cho nghĩa khác nhau: 'When I walked into the kitchen, she made a cup of tea' (tôi vào rồi cô ấy mới pha trà: hai việc nối tiếp) khác 'When I walked into the kitchen, she was making a cup of tea' (cô ấy đã đang pha trà sẵn). Động từ chỉ trạng thái/giác quan (know, hear, see, understand, like...) thường dùng Quá khứ đơn dù nói về một thời điểm cụ thể (I didn't hear the phone because I was listening to music).",
+        "examples": [
+          {
+            "en": "I was reading in my room when the lights suddenly went out.",
+            "vi": "Tôi đang đọc sách trong phòng thì đèn đột ngột tắt."
+          },
+          {
+            "en": "She read the whole novel last night.",
+            "vi": "Tối qua cô ấy đã đọc hết cả cuốn tiểu thuyết. (hành động hoàn tất → Quá khứ đơn)"
+          },
+          {
+            "en": "At nine o'clock last night, she was reading the novel.",
+            "vi": "Lúc 9 giờ tối qua, cô ấy đang đọc cuốn tiểu thuyết. (đang diễn ra, chưa rõ đã xong chưa → Quá khứ tiếp diễn)"
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "at 8 o'clock last night",
+        "meaningVi": "vào lúc 8 giờ tối qua"
+      },
+      {
+        "word": "at this time yesterday",
+        "meaningVi": "vào giờ này hôm qua"
+      },
+      {
+        "word": "at that moment",
+        "meaningVi": "vào khoảnh khắc đó"
+      },
+      {
+        "word": "while",
+        "meaningVi": "trong khi (nối hai hành động song song, cả hai đều ở quá khứ tiếp diễn)"
+      },
+      {
+        "word": "when",
+        "meaningVi": "khi (thường theo sau là hành động ngắn ở quá khứ đơn, xen vào hành động dài)"
+      },
+      {
+        "word": "all day yesterday",
+        "meaningVi": "suốt cả ngày hôm qua"
+      },
+      {
+        "word": "the whole morning/evening",
+        "meaningVi": "suốt cả buổi sáng/buổi tối"
+      },
+      {
+        "word": "from 7 to 9 p.m. last night",
+        "meaningVi": "từ 7 đến 9 giờ tối qua"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "id": "past-continuous-m1",
+        "description": "Lỗi dùng quá khứ đơn thay vì quá khứ tiếp diễn cho hành động đang diễn ra (hành động nền) khi bị một hành động khác xen vào.",
+        "examples": [
+          {
+            "wrong": "I read a book when the doorbell rang.",
+            "correct": "I was reading a book when the doorbell rang."
+          }
+        ]
+      },
+      {
+        "id": "past-continuous-m2",
+        "description": "Lỗi chia sai 'was/were' theo chủ ngữ: 'was' dùng cho I/He/She/It, 'were' dùng cho You/We/They.",
+        "examples": [
+          {
+            "wrong": "They was watching TV at 9 p.m.",
+            "correct": "They were watching TV at 9 p.m."
+          }
+        ]
+      },
+      {
+        "id": "past-continuous-m3",
+        "description": "Lỗi quên thêm đuôi -ing hoặc viết sai chính tả khi thêm -ing (gấp đôi phụ âm cuối, bỏ 'e' câm...)",
+        "examples": [
+          {
+            "wrong": "She was siting at her desk and writeing a letter.",
+            "correct": "She was sitting at her desk and writing a letter."
+          }
+        ]
+      },
+      {
+        "id": "past-continuous-m4",
+        "description": "Lỗi nhầm lẫn giữa 'when' và 'while': 'while' thường đi với hành động dài (quá khứ tiếp diễn), còn 'when' thường đứng trước hành động ngắn (quá khứ đơn) xen vào hành động dài.",
+        "note": "Hoặc 'I was taking a shower when the phone rang.'.",
+        "examples": [
+          {
+            "wrong": "While the phone rang, I was taking a shower.",
+            "correct": "While I was taking a shower, the phone rang."
+          }
+        ]
+      },
+      {
+        "id": "past-continuous-m5",
+        "description": "Lỗi thiếu trợ động từ 'was/were' khi đặt câu hỏi, hoặc chia kép/thừa 'not' trong câu phủ định.",
+        "examples": [
+          {
+            "wrong": "You working late last night?",
+            "correct": "Were you working late last night?"
+          },
+          {
+            "wrong": "He wasn't studying not.",
+            "correct": "He wasn't studying."
+          }
+        ]
+      }
+    ],
+    "formulas": {
+      "affirmative": "I/He/She/It + was + V-ing. Ví dụ: I was studying at 8 p.m. yesterday. | You/We/They + were + V-ing. Ví dụ: They were studying at 8 p.m. yesterday.",
+      "negative": "I/He/She/It + was not (wasn't) + V-ing. Ví dụ: He wasn't sleeping when I called him. | You/We/They + were not (weren't) + V-ing. Ví dụ: We weren't sleeping when you called us.",
+      "question": "Was + I/he/she/it + V-ing ...? Ví dụ: Was she working at 10 a.m.? | Were + you/we/they + V-ing ...? Ví dụ: Were they working at 10 a.m.?"
+    }
+  }
+}
