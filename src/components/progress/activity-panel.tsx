@@ -44,7 +44,7 @@ export function ActivityPanel() {
       <h2 id="activity-heading" className="sr-only">
         Chuỗi ngày học
       </h2>
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 gap-3 min-[420px]:grid-cols-2">
         <div className="rounded-game border-2 border-border bg-card px-4 py-3">
           <p className="text-3xl font-extrabold">
             <span aria-hidden="true">🔥 </span>
@@ -55,7 +55,7 @@ export function ActivityPanel() {
             {streak.current === 0 ? "Học hôm nay để bắt đầu chuỗi" : streak.activeToday ? "chuỗi ngày liên tiếp" : "giữ chuỗi: học hôm nay nhé"} · dài nhất {streak.best}
           </p>
         </div>
-        <div className="flex items-center gap-3 rounded-game border-2 border-border bg-card px-4 py-3">
+        <div className="flex flex-wrap items-center gap-3 rounded-game border-2 border-border bg-card px-4 py-3">
           <svg width="64" height="64" viewBox="0 0 64 64" role="img" aria-label={`Mục tiêu hôm nay: ${Math.min(todayCount, DAILY_GOAL)} trên ${DAILY_GOAL} câu`}>
             <circle cx="32" cy="32" r={R} fill="none" strokeWidth="7" className="stroke-border" />
             <circle
@@ -80,7 +80,7 @@ export function ActivityPanel() {
             <p className="text-sm text-muted-foreground">
               {todayCount}/{DAILY_GOAL} câu
             </p>
-            <div className="mt-1 flex gap-1" role="group" aria-label="Mục tiêu mỗi ngày (số câu)">
+            <div className="mt-1 flex flex-wrap gap-1" role="group" aria-label="Mục tiêu mỗi ngày (số câu)">
               {DAILY_GOALS.map((g) => (
                 <button key={g} type="button" aria-pressed={DAILY_GOAL === g} onClick={() => updateSettings({ dailyGoal: g })} className="rounded-full border-2 border-border px-2 text-xs font-extrabold aria-pressed:border-primary aria-pressed:text-primary">
                   {g}

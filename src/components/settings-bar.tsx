@@ -2,15 +2,19 @@
 
 import { useEffect } from "react"
 import { cn } from "@/lib/utils"
-import { SKINS, updateSettings, useSettings } from "@/lib/settings"
+import { FONT_SIZES, SKINS, updateSettings, useSettings } from "@/lib/settings"
 
 /** Gắn skin lên <html> và hiện thanh chọn giao diện / bật tắt âm. */
 export function SettingsBar() {
-  const { skin, sound } = useSettings()
+  const { skin, sound, fontSize } = useSettings()
 
   useEffect(() => {
     document.documentElement.dataset.skin = skin
   }, [skin])
+
+  useEffect(() => {
+    document.documentElement.dataset.font = fontSize
+  }, [fontSize])
 
   const chip = (active: boolean) =>
     cn(
@@ -25,6 +29,13 @@ export function SettingsBar() {
           {s.label}
         </button>
       ))}
+      <div className="flex items-center gap-1" role="group" aria-label="Cỡ chữ">
+        {FONT_SIZES.map((f, i) => (
+          <button key={f.id} type="button" className={chip(fontSize === f.id)} aria-pressed={fontSize === f.id} aria-label={f.aria} onClick={() => updateSettings({ fontSize: f.id })}>
+            <span className={i === 0 ? "text-sm" : i === 1 ? "text-base" : "text-xl"}>{f.label}</span>
+          </button>
+        ))}
+      </div>
       <button type="button" className={chip(sound)} aria-pressed={sound} onClick={() => updateSettings({ sound: !sound })}>
         {sound ? "🔊 Âm thanh" : "🔇 Âm thanh"}
       </button>

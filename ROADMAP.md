@@ -83,7 +83,7 @@ Chủ đề cần đề xuất (mỗi chủ đề: vấn đề, bằng chứng, 
 - [ ] Luyện cách quãng xen kẽ (interleaving) và ôn theo ngữ cảnh.
 - [ ] Động lực: streak, mục tiêu hằng ngày, và cách tránh gây áp lực/lo âu cho học sinh 9–15 tuổi.
 - [ ] Trình bày kết quả cho học sinh, phụ huynh và giáo viên (ba góc nhìn khác nhau).
-- [ ] Khả năng truy cập: cỡ chữ, tương phản, bàn phím, thiết bị di động.
+- [x] Khả năng truy cập (đợt 1): cỡ chữ, tương phản, bàn phím, liên kết bỏ qua, quét axe-core sạch. [ ] Còn: thử với trình đọc màn hình thật, chế độ tương phản cao, kiểm tra trên thiết bị thật.
 
 ## Câu hỏi mở
 - Kế hoạch chuyển nền tảng dữ liệu khi mở rộng (Amazon Postgres hay Cloudflare): chọn hệ đăng nhập thay thế Supabase Auth khi đến lúc; xem nguyên tắc ở CLAUDE.md mục 3b.

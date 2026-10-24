@@ -8,7 +8,7 @@
   --background: #f5f7fb;
   --foreground: #0f172a;
   --card: #ffffff;
-  --muted-foreground: #64748b;
+  --muted-foreground: #5b6b80;
   --border: #e2e8f0;
   --primary: #4f46e5;
   --primary-deep: #3730a3;
@@ -18,7 +18,7 @@
   --accent-foreground: #1f2937;
   --success: #15803d;
   --success-soft: #dcfce7;
-  --danger: #dc2626;
+  --danger: #b91c1c;
   --danger-soft: #fee2e2;
   --radius: 1rem;
 }
@@ -37,7 +37,7 @@
   --accent-foreground: #1f2937;
   --success: #15803d;
   --success-soft: #dcfce7;
-  --danger: #dc2626;
+  --danger: #b91c1c;
   --danger-soft: #fee2e2;
   --radius: 1.25rem;
 }
@@ -103,6 +103,16 @@ body {
 .anim-pop { animation: pop 0.35s cubic-bezier(0.3, 1.4, 0.5, 1) both; }
 .anim-shake { animation: shake 0.35s; }
 .anim-bounce { animation: bounce-up 0.4s; }
+
+/* Cỡ chữ người dùng chọn: mọi kích thước đều theo rem nên cả trang co giãn theo. */
+html[data-font="lg"] { font-size: 112.5%; }
+html[data-font="xl"] { font-size: 125%; }
+
+/* Viền focus rõ cho người dùng bàn phím */
+:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+}
 
 /* Tôn trọng cài đặt "giảm chuyển động" của hệ điều hành */
 @media (prefers-reduced-motion: reduce) {
