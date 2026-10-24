@@ -40,7 +40,7 @@ export function PlayerCard() {
           {BADGES.map((b) => {
             const got = p.badges.some((x) => x.id === b.id)
             return (
-              <li key={b.id} className={`rounded-game border-2 px-2 py-3 text-center ${got ? "border-accent bg-card" : "border-dashed border-border opacity-60"}`}>
+              <li key={b.id} className={`rounded-game border-2 px-2 py-3 text-center ${got ? "border-accent bg-card" : "border-dashed border-border"}`}>
                 <p className={`text-3xl ${got ? "" : "grayscale"}`} aria-hidden>
                   {got ? b.emoji : "🔒"}
                 </p>

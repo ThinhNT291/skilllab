@@ -83,6 +83,44 @@
             "vi": "Bạn đi thẳng qua hai dãy nhà, rồi rẽ trái ở chỗ hiệu thuốc."
           }
         ]
+      },
+      {
+        "id": "ps-u6-subject-verb",
+        "label": "Hòa hợp chủ ngữ và động từ khi chủ ngữ dài hoặc đặc biệt",
+        "explanationVi": "Động từ chia theo CHỦ NGỮ CHÍNH, không theo danh từ đứng gần động từ nhất. Các trường hợp hay gặp: (1) đại từ bất định everyone, everybody, no one, someone, each... luôn là số ít; (2) 'Not a single / Each / Every + danh từ' là số ít; (3) mệnh đề 'who/that/which' chen giữa không làm đổi số của chủ ngữ; (4) danh động từ (V-ing) làm chủ ngữ là số ít; (5) danh từ không đếm được (honey, water, rice) coi là số ít; (6) 'Who' làm chủ ngữ là số ít. Với 'A friend of mine' thì chủ ngữ chính là 'A friend' (số ít).",
+        "examples": [
+          {
+            "en": "Everyone in the class likes the new teacher.",
+            "vi": "Cả lớp đều thích cô giáo mới (Everyone là số ít)."
+          },
+          {
+            "en": "Honey never goes bad.",
+            "vi": "Mật ong không bao giờ hỏng (honey là danh từ không đếm được, coi là số ít)."
+          },
+          {
+            "en": "The students who live far from school usually take the bus.",
+            "vi": "Các học sinh sống xa trường thường đi xe buýt (chủ ngữ là 'The students', số nhiều)."
+          }
+        ]
+      },
+      {
+        "id": "ps-u7-frequency-adverbs",
+        "label": "Vị trí trạng từ chỉ tần suất (always, usually, never...)",
+        "explanationVi": "Trạng từ chỉ tần suất đứng TRƯỚC động từ thường (she always goes), nhưng đứng SAU động từ 'to be' (she is always late). Với trợ động từ (do, does, can, will), trạng từ đứng sau trợ động từ và trước động từ chính: she does not always agree.",
+        "examples": [
+          {
+            "en": "She always goes to school by bike.",
+            "vi": "Cô ấy luôn đi học bằng xe đạp (động từ thường: trạng từ đứng trước)."
+          },
+          {
+            "en": "She is always late on Mondays.",
+            "vi": "Cô ấy luôn đến muộn vào thứ Hai (là 'to be': trạng từ đứng sau is)."
+          },
+          {
+            "en": "He never wants to argue.",
+            "vi": "Anh ấy không bao giờ muốn cãi nhau."
+          }
+        ]
       }
     ],
     "signalWords": [

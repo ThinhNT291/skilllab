@@ -8,7 +8,7 @@ import { ExerciseRunner } from "./exercise-runner"
 type Status = "idle" | "saved" | "not_saved"
 
 /** Chạy một lượt bài tập và lưu từng câu trả lời (nếu đã kết nối Supabase). */
-export function PracticeSession({ exercises, theoryBase }: { exercises: Exercise[]; theoryBase?: string }) {
+export function PracticeSession({ exercises, theoryBase, bonusHref }: { exercises: Exercise[]; theoryBase?: string; bonusHref?: string }) {
   const [status, setStatus] = useState<Status>("idle")
   const [detail, setDetail] = useState("")
 
@@ -25,6 +25,7 @@ export function PracticeSession({ exercises, theoryBase }: { exercises: Exercise
       <ExerciseRunner
         exercises={exercises}
         onAnswer={onAnswer}
+        bonusHref={bonusHref}
         theoryHref={theoryBase ? (ex) => `${theoryBase}${ex.usageId ? `#${ex.usageId}` : ""}` : undefined}
       />
       {/* Dòng trạng thái chỉ để kiểm tra khi dev; sẽ bỏ khi có màn đăng nhập/tiến độ. */}

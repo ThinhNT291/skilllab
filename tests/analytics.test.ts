@@ -58,3 +58,15 @@ test("tổng hợp tiến độ: thẻ sai nhiều nhất lên đầu, bỏ th�
   assert.equal(s.weakTags[0].label, "A")
   assert.equal(s.weakTags[1].label, "b") // không có trong bảng tra thì dùng chính mã thẻ
 })
+
+test("độ chính xác theo tuần: chia đúng tuần thứ Hai–Chủ nhật, bỏ qua dữ liệu quá cũ", async () => {
+  const { weeklyAccuracy } = await import("../src/lib/analytics/activity.ts")
+  const today = new Date("2026-03-18T12:00:00") // thứ Tư
+  const at = (d: string, correct: boolean) => ({ correct, created_at: `${d}T10:00:00` })
+  const b = weeklyAccuracy([at("2026-03-16", true), at("2026-03-18", false), at("2026-03-15", true), at("2025-01-01", true)], today, 3)
+  assert.equal(b.length, 3)
+  assert.deepEqual(b.map((x) => x.start), ["2026-03-02", "2026-03-09", "2026-03-16"])
+  assert.deepEqual([b[2].attempts, b[2].correct], [2, 1]) // tuần này: thứ Hai và thứ Tư
+  assert.deepEqual([b[1].attempts, b[1].correct], [1, 1]) // Chủ nhật 15/3 thuộc tuần trước
+  assert.deepEqual([b[0].attempts, b[0].correct], [0, 0])
+})

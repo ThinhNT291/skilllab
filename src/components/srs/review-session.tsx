@@ -6,6 +6,7 @@ import confetti from "canvas-confetti"
 import { getDueCards, reviewCard, type SrsCard } from "@/lib/db"
 import { formatInterval, type Grade } from "@/lib/srs/scheduler"
 import { isNewCard, limitNewCards } from "@/lib/srs/queue"
+import { getSettings } from "@/lib/settings"
 import { markNewCardDone, newCardsDoneToday } from "@/lib/srs/daily"
 import { Flashcard } from "./flashcard"
 import { ProgressBar } from "@/components/exercise/progress-bar"
@@ -39,7 +40,7 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
         setLoad({ status: "error", message: msg })
         return
       }
-      const limited = limitNewCards(res.value, newCardsDoneToday())
+      const limited = limitNewCards(res.value, newCardsDoneToday(), getSettings().newPerDay)
       setDeferred(limited.deferred)
       setQueue(limited.cards)
       setTotal(limited.cards.length)

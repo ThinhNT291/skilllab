@@ -2,13 +2,14 @@
 
 import { useEffect, useState } from "react"
 import Link from "next/link"
-import { summarize, type ProgressSummary, type TagInfo } from "@/lib/analytics/progress"
+import { summarize, type AnswerRow, type ProgressSummary, type TagInfo } from "@/lib/analytics/progress"
 import { countDueCards, getAnswerHistory } from "@/lib/db"
 import { ProgressBar } from "@/components/exercise/progress-bar"
 import { PlayerCard } from "@/components/game/player-card"
 import { ActivityPanel } from "./activity-panel"
+import { TrendPanel } from "./trend-panel"
 
-type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; summary: ProgressSummary }
+type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; summary: ProgressSummary; rows: AnswerRow[] }
 
 export function ProgressView({ catalog, topicTitles }: { catalog: Record<string, TagInfo>; topicTitles: Record<string, string> }) {
   const [state, setState] = useState<State>({ status: "loading" })
@@ -22,7 +23,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
         setState({ status: "error", message: res.reason === "not_configured" ? "Chưa kết nối Supabase nên chưa có dữ liệu tiến độ." : `Không tải được dữ liệu (${res.message ?? "lỗi không rõ"}).` })
         return
       }
-      setState({ status: "ready", summary: summarize(res.rows, catalog, topicTitles) })
+      setState({ status: "ready", summary: summarize(res.rows, catalog, topicTitles), rows: res.rows })
     })
     countDueCards().then((res) => {
       if (!cancelled && res.ok) setDue(res.value)
@@ -59,6 +60,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
       )}
       <PlayerCard />
       <ActivityPanel />
+      <TrendPanel rows={state.rows} />
       <section className="grid grid-cols-3 gap-3 text-center" aria-label="Tổng quan">
         <Stat value={String(s.total)} label="câu đã làm" />
         <Stat value={`${accuracy}%`} label="trả lời đúng" />
@@ -69,6 +71,12 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
         <h2 id="weak-heading" className="mb-2 text-xl font-extrabold">
           Cần ôn lại
         </h2>
+        {s.weakTags.length > 0 && (
+          <Link href="/tran-cuoi" className="mb-3 flex items-center justify-between gap-3 rounded-game border-2 border-accent bg-card px-4 py-3 hover:border-primary">
+            <span className="font-extrabold">👾 Đánh trùm cuối từ những mục hay sai</span>
+            <span className="text-primary underline underline-offset-4">Thử ngay</span>
+          </Link>
+        )}
         {s.weakTags.length === 0 ? (
           <p className="rounded-game border-2 border-border bg-card px-4 py-3">Chưa có điểm yếu nào, làm tốt lắm! 🎉</p>
         ) : (
