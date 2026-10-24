@@ -6,6 +6,7 @@ import confetti from "canvas-confetti"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { sfx } from "@/lib/audio/sfx"
 import { useSettings } from "@/lib/settings"
+import { bacLabel } from "@/lib/content/bac"
 import { getOwnedItems } from "@/lib/db"
 import { recordRoundDone } from "@/lib/game/bonus"
 import { xpFor, XP_PER_COIN } from "@/lib/game/xp"
@@ -67,7 +68,7 @@ export function ExerciseRunner({
   /** Đường dẫn game thưởng. Có thì cứ vài lượt xong lại mời chơi ở màn kết quả. */
   bonusHref?: string
 }) {
-  const { sound } = useSettings()
+  const { sound, showBac } = useSettings()
   const [index, setIndex] = useState(0)
   const [result, setResult] = useState<Result | null>(null)
   const [correctCount, setCorrectCount] = useState(0)
@@ -173,6 +174,11 @@ export function ExerciseRunner({
           Câu {index + 1}/{total}
           {title ? ` · ${title}` : ""}
         </p>
+        {showBac && (
+          <p className="mt-1 inline-block rounded-full border-2 border-border px-2 py-0.5 text-xs font-extrabold text-muted-foreground">
+            {current.bac ? bacLabel(current.bac) : "Chưa gắn bậc"} · Mức khó {current.difficulty}/3
+          </p>
+        )}
 
         {current.kind === "mcq" && <McqView ex={current} result={result} onResolve={resolve} />}
         {current.kind === "reorder" && <ReorderView ex={current} result={result} onResolve={resolve} />}

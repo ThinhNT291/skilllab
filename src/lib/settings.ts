@@ -22,6 +22,8 @@ export interface Settings {
   skin: Skin
   sound: boolean
   fontSize: FontSize
+  /** Hiện bậc khung năng lực và độ khó của từng câu (dành cho người soạn/duyệt nội dung) */
+  showBac: boolean
   /** Mục tiêu số câu mỗi ngày */
   dailyGoal: number
   /** Số thẻ ôn tập mới tối đa mỗi ngày */
@@ -29,7 +31,7 @@ export interface Settings {
 }
 
 const KEY = "skilllab.settings"
-const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", dailyGoal: 10, newPerDay: 10 }
+const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", showBac: false, dailyGoal: 10, newPerDay: 10 }
 const listeners = new Set<() => void>()
 let cache: Settings | null = null
 
@@ -42,7 +44,7 @@ function read(): Settings {
       const dailyGoal = (DAILY_GOALS as readonly number[]).includes(p.dailyGoal as number) ? (p.dailyGoal as number) : DEFAULTS.dailyGoal
       const newPerDay = (NEW_CARD_LIMITS as readonly number[]).includes(p.newPerDay as number) ? (p.newPerDay as number) : DEFAULTS.newPerDay
       const fontSize = FONT_SIZES.some((f) => f.id === p.fontSize) ? (p.fontSize as FontSize) : DEFAULTS.fontSize
-      return { skin, sound: p.sound !== false, fontSize, dailyGoal, newPerDay }
+      return { skin, sound: p.sound !== false, fontSize, showBac: p.showBac === true, dailyGoal, newPerDay }
     }
   } catch {
     // Trình duyệt chặn lưu trữ: dùng mặc định
