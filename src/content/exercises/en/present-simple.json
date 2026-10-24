@@ -809,5 +809,815 @@
       "Sai — 'don't' không đi với chủ ngữ số ít 'a good student'.",
       "Đúng — chủ ngữ số ít + doesn't + động từ nguyên thể."
     ]
+  },
+  {
+    "id": "en-present-simple-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u1-habits-routines",
+    "tags": [
+      "ps-u1-habits-routines"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My sister ______ (walk) to school with her friends every morning.",
+    "choices": [
+      "walked",
+      "walking",
+      "walk",
+      "walks"
+    ],
+    "correctIndex": 3,
+    "explanation": "Thói quen lặp lại hằng ngày dùng hiện tại đơn; chủ ngữ 'My sister' số ít nên thêm -s.",
+    "choiceExplanations": [
+      "Sai — 'walked': 'every morning' chỉ thói quen ở hiện tại, không dùng quá khứ.",
+      "Sai — 'walking': thiếu trợ động từ, dạng -ing đứng một mình không thể làm động từ chính.",
+      "Sai — 'walk': 'My sister' là she nên động từ phải thêm -s.",
+      "Đúng — 'My sister' là ngôi thứ ba số ít và 'every morning' chỉ thói quen, nên động từ thêm -s: walks."
+    ]
+  },
+  {
+    "id": "en-present-simple-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u1-habits-routines",
+    "tags": [
+      "ps-u1-habits-routines"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ (eat) dinner together at 7 p.m. every day.",
+    "choices": [
+      "eat",
+      "eating",
+      "ate",
+      "eats"
+    ],
+    "correctIndex": 0,
+    "explanation": "Với I/you/we/they, hiện tại đơn dùng động từ nguyên thể.",
+    "choiceExplanations": [
+      "Đúng — 'We' dùng động từ nguyên thể và 'every day' chỉ thói quen: eat.",
+      "Sai — 'eating': thiếu trợ động từ nên -ing không đứng một mình làm động từ chính được.",
+      "Sai — 'ate': 'every day' chỉ thói quen hiện tại, không dùng quá khứ đơn.",
+      "Sai — 'eats': 'We' không phải ngôi thứ ba số ít nên không thêm -s."
+    ]
+  },
+  {
+    "id": "en-present-simple-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u1-habits-routines",
+    "tags": [
+      "ps-u1-habits-routines"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom ______ (go) to the gym three times a week.",
+    "choices": [
+      "go",
+      "gos",
+      "goes",
+      "going"
+    ],
+    "correctIndex": 2,
+    "explanation": "Động từ tận cùng -o, -s, -x, -ch, -sh thêm -es ở ngôi thứ ba số ít.",
+    "choiceExplanations": [
+      "Sai — 'go': 'Tom' là he nên động từ phải thêm -es.",
+      "Sai — 'gos': sai chính tả: động từ tận cùng -o thêm -es chứ không phải -s.",
+      "Đúng — Tom là ngôi thứ ba số ít; động từ tận cùng -o thêm -es: goes. 'three times a week' chỉ thói quen.",
+      "Sai — 'going': thiếu trợ động từ nên không dùng được một mình."
+    ]
+  },
+  {
+    "id": "en-present-simple-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u2-facts-truths",
+    "tags": [
+      "ps-u2-facts-truths"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Ice ______ (melt) when it gets warm.",
+    "choices": [
+      "melting",
+      "melted",
+      "melt",
+      "melts"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sự thật hiển nhiên dùng hiện tại đơn.",
+    "choiceExplanations": [
+      "Sai — 'melting': thiếu trợ động từ nên -ing không đứng một mình làm động từ chính.",
+      "Sai — 'melted': quy luật luôn đúng không dùng quá khứ đơn.",
+      "Sai — 'melt': 'Ice' là danh từ số ít (it) nên động từ phải thêm -s.",
+      "Đúng — Đây là quy luật tự nhiên nên dùng hiện tại đơn; 'Ice' số ít nên thêm -s: melts."
+    ]
+  },
+  {
+    "id": "en-present-simple-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u2-facts-truths",
+    "tags": [
+      "ps-u2-facts-truths"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Cats ______ (have) four legs.",
+    "choices": [
+      "has",
+      "have",
+      "having",
+      "had"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chủ ngữ số nhiều dùng 'have', số ít dùng 'has'.",
+    "choiceExplanations": [
+      "Sai — 'has': 'has' chỉ dùng cho he/she/it; 'Cats' là số nhiều.",
+      "Đúng — Sự thật hiển nhiên dùng hiện tại đơn; 'Cats' số nhiều nên dùng 'have'.",
+      "Sai — 'having': 'have' chỉ sở hữu thường không dùng dạng -ing.",
+      "Sai — 'had': đây là sự thật ở hiện tại, không dùng quá khứ."
+    ]
+  },
+  {
+    "id": "en-present-simple-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u3-schedules-timetables",
+    "tags": [
+      "ps-u3-schedules-timetables"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The film ______ (start) at 8 p.m. tonight.",
+    "choices": [
+      "starting",
+      "starts",
+      "start",
+      "started"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lịch trình, giờ chiếu, giờ tàu xe dùng hiện tại đơn dù chưa xảy ra.",
+    "choiceExplanations": [
+      "Sai — 'starting': thiếu trợ động từ nên không dùng được một mình.",
+      "Đúng — Giờ chiếu phim là lịch trình cố định nên dùng hiện tại đơn; 'The film' số ít nên thêm -s: starts.",
+      "Sai — 'start': 'The film' là it nên động từ phải thêm -s.",
+      "Sai — 'started': 'tonight' là tối nay, chưa xảy ra nên không dùng quá khứ."
+    ]
+  },
+  {
+    "id": "en-present-simple-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u3-schedules-timetables",
+    "tags": [
+      "ps-u3-schedules-timetables"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our school ______ (open) at 7:30 a.m. every weekday.",
+    "choices": [
+      "open",
+      "opens",
+      "opening",
+      "opened"
+    ],
+    "correctIndex": 1,
+    "explanation": "Giờ mở cửa, đóng cửa là lịch cố định nên dùng hiện tại đơn.",
+    "choiceExplanations": [
+      "Sai — 'open': 'Our school' là it nên động từ phải thêm -s.",
+      "Đúng — Giờ mở cửa cố định nên dùng hiện tại đơn; 'Our school' số ít nên thêm -s: opens.",
+      "Sai — 'opening': thiếu trợ động từ nên -ing không đứng một mình.",
+      "Sai — 'opened': 'every weekday' chỉ giờ cố định ở hiện tại, không dùng quá khứ."
+    ]
+  },
+  {
+    "id": "en-present-simple-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u4-state-verbs",
+    "tags": [
+      "ps-u4-state-verbs"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ (love) chocolate ice cream.",
+    "choices": [
+      "love",
+      "am loving",
+      "loved",
+      "loves"
+    ],
+    "correctIndex": 0,
+    "explanation": "Động từ chỉ cảm xúc (love, like, hate...) thường dùng hiện tại đơn.",
+    "choiceExplanations": [
+      "Đúng — 'love' là động từ chỉ cảm xúc, dùng hiện tại đơn; 'I' dùng động từ nguyên thể.",
+      "Sai — 'am loving': 'love' chỉ trạng thái cảm xúc nên thường không dùng thì tiếp diễn.",
+      "Sai — 'loved': câu nói về sở thích hiện tại, không dùng quá khứ.",
+      "Sai — 'loves': 'I' không phải ngôi thứ ba số ít nên không thêm -s."
+    ]
+  },
+  {
+    "id": "en-present-simple-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u4-state-verbs",
+    "tags": [
+      "ps-u4-state-verbs"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My dog ______ (know) when I come home.",
+    "choices": [
+      "knew",
+      "is knowing",
+      "know",
+      "knows"
+    ],
+    "correctIndex": 3,
+    "explanation": "Động từ nhận thức (know, understand, remember...) thường không chia tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — 'knew': 'when I come home' nói về điều thường xảy ra ở hiện tại, không dùng quá khứ.",
+      "Sai — 'is knowing': 'know' chỉ trạng thái nhận thức nên không dùng thì tiếp diễn.",
+      "Sai — 'know': 'My dog' là it nên động từ phải thêm -s.",
+      "Đúng — 'know' là động từ chỉ nhận thức nên dùng hiện tại đơn; 'My dog' số ít nên thêm -s: knows."
+    ]
+  },
+  {
+    "id": "en-present-simple-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u5-instructions-directions",
+    "tags": [
+      "ps-u5-instructions-directions"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "First, you ______ (open) the box, and then you remove the plastic cover.",
+    "choices": [
+      "open",
+      "opening",
+      "opened",
+      "opens"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hướng dẫn các bước thường dùng hiện tại đơn với 'you'.",
+    "choiceExplanations": [
+      "Đúng — Câu hướng dẫn từng bước dùng hiện tại đơn; 'you' dùng động từ nguyên thể: open.",
+      "Sai — 'opening': thiếu trợ động từ nên -ing không đứng một mình.",
+      "Sai — 'opened': đây là bước hướng dẫn, không kể chuyện đã xảy ra.",
+      "Sai — 'opens': 'you' không phải ngôi thứ ba số ít nên không thêm -s."
+    ]
+  },
+  {
+    "id": "en-present-simple-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u1-habits-routines",
+    "tags": [
+      "ps-u1-habits-routines"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My cousin ______ (not/play) video games on school days.",
+    "choices": [
+      "isn't play",
+      "don't play",
+      "doesn't play",
+      "doesn't plays"
+    ],
+    "correctIndex": 2,
+    "explanation": "Phủ định: does not + V cho he/she/it; do not + V cho các ngôi còn lại.",
+    "choiceExplanations": [
+      "Sai — 'isn't play': 'isn't' không kết hợp với động từ nguyên thể để tạo câu phủ định hiện tại đơn.",
+      "Sai — 'don't play': 'My cousin' là he/she nên dùng doesn't, không dùng don't.",
+      "Đúng — Phủ định ngôi thứ ba số ít dùng doesn't + động từ nguyên thể: doesn't play.",
+      "Sai — 'doesn't plays': sau doesn't động từ phải ở dạng nguyên thể, không thêm -s."
+    ]
+  },
+  {
+    "id": "en-present-simple-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u1-habits-routines",
+    "tags": [
+      "ps-u1-habits-routines"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "How often ______ your grandparents ______ (visit) you?",
+    "choices": [
+      "do / visiting",
+      "do / visit",
+      "do / visits",
+      "does / visit"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu hỏi hiện tại đơn: Do/Does + chủ ngữ + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'do / visiting': sau 'do' động từ phải ở dạng nguyên thể, không dùng -ing.",
+      "Đúng — 'your grandparents' số nhiều nên dùng 'do'; sau 'do' động từ ở dạng nguyên thể.",
+      "Sai — 'do / visits': sau 'do' động từ phải ở dạng nguyên thể, không thêm -s.",
+      "Sai — 'does / visit': 'your grandparents' là they nên dùng 'do', không dùng 'does'."
+    ]
+  },
+  {
+    "id": "en-present-simple-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u2-facts-truths",
+    "tags": [
+      "ps-u2-facts-truths"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Plants ______ (not/grow) well without sunlight.",
+    "choices": [
+      "aren't grow",
+      "don't grow",
+      "not grow",
+      "doesn't grow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phủ định hiện tại đơn dùng don't/doesn't + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'aren't grow': 'aren't' không đi với động từ nguyên thể.",
+      "Đúng — Sự thật hiển nhiên ở dạng phủ định; 'Plants' số nhiều nên dùng don't + V: don't grow.",
+      "Sai — 'not grow': phủ định hiện tại đơn cần trợ động từ don't/doesn't.",
+      "Sai — 'doesn't grow': 'Plants' là số nhiều (they) nên dùng don't."
+    ]
+  },
+  {
+    "id": "en-present-simple-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u2-facts-truths",
+    "tags": [
+      "ps-u2-facts-truths"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Honey never ______ (go) bad if you keep it in a sealed jar.",
+    "choices": [
+      "goes",
+      "going",
+      "is going",
+      "go"
+    ],
+    "correctIndex": 0,
+    "explanation": "Danh từ không đếm được được coi là số ít nên động từ thêm -s/-es.",
+    "choiceExplanations": [
+      "Đúng — Điều luôn đúng nên dùng hiện tại đơn; 'Honey' không đếm được, coi là số ít nên thêm -es: goes.",
+      "Sai — 'going': thiếu trợ động từ nên -ing không đứng một mình.",
+      "Sai — 'is going': 'never' + sự thật chung dùng hiện tại đơn, không dùng tiếp diễn.",
+      "Sai — 'go': 'Honey' là it nên động từ phải thêm -es."
+    ]
+  },
+  {
+    "id": "en-present-simple-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u3-schedules-timetables",
+    "tags": [
+      "ps-u3-schedules-timetables"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the next bus ______ (arrive) at 9:10 or 9:20?",
+    "choices": [
+      "Do / arrive",
+      "Does / arrives",
+      "Does / arriving",
+      "Does / arrive"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hỏi về lịch trình dùng Do/Does + chủ ngữ + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'Do / arrive': 'the next bus' là it nên dùng 'Does', không dùng 'Do'.",
+      "Sai — 'Does / arrives': sau 'Does' động từ phải ở dạng nguyên thể.",
+      "Sai — 'Does / arriving': sau 'Does' động từ phải ở dạng nguyên thể, không dùng -ing.",
+      "Đúng — Giờ xe buýt là lịch cố định nên dùng hiện tại đơn; 'the next bus' số ít nên dùng 'Does' và V nguyên thể."
+    ]
+  },
+  {
+    "id": "en-present-simple-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u3-schedules-timetables",
+    "tags": [
+      "ps-u3-schedules-timetables"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The concert ______ (begin) at 6 p.m. and ______ (finish) at 9 p.m., so we can take the last train home.",
+    "choices": [
+      "begin / finishes",
+      "begins / finishes",
+      "begins / finish",
+      "beginning / finishes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Các sự kiện theo lịch cố định dùng hiện tại đơn.",
+    "choiceExplanations": [
+      "Sai — 'begin / finishes': 'The concert' là it nên 'begin' phải thêm -s.",
+      "Đúng — Giờ buổi hòa nhạc là lịch cố định nên cả hai động từ đều dùng hiện tại đơn, thêm -s/-es: begins, finishes.",
+      "Sai — 'begins / finish': 'finish' cũng phải thêm -es vì chủ ngữ vẫn là 'The concert'.",
+      "Sai — 'beginning / finishes': 'beginning' thiếu trợ động từ nên không đứng một mình làm động từ chính."
+    ]
+  },
+  {
+    "id": "en-present-simple-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u4-state-verbs",
+    "tags": [
+      "ps-u4-state-verbs"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My mother ______ (not/understand) why people like horror movies.",
+    "choices": [
+      "doesn't understand",
+      "don't understand",
+      "isn't understanding",
+      "doesn't understands"
+    ],
+    "correctIndex": 0,
+    "explanation": "Động từ nhận thức không chia tiếp diễn; phủ định ngôi thứ ba dùng doesn't.",
+    "choiceExplanations": [
+      "Đúng — 'understand' là động từ nhận thức, dùng hiện tại đơn; phủ định ngôi thứ ba: doesn't understand.",
+      "Sai — 'don't understand': 'My mother' là she nên dùng doesn't.",
+      "Sai — 'isn't understanding': 'understand' là động từ nhận thức nên không dùng thì tiếp diễn.",
+      "Sai — 'doesn't understands': sau doesn't động từ ở dạng nguyên thể, không thêm -s."
+    ]
+  },
+  {
+    "id": "en-present-simple-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u4-state-verbs",
+    "tags": [
+      "ps-u4-state-verbs"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you ______ (remember) the name of that restaurant?",
+    "choices": [
+      "Do / remembers",
+      "Does / remember",
+      "Are / remembering",
+      "Do / remember"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu hỏi với động từ nhận thức dùng Do/Does + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'Do / remembers': sau 'Do' động từ phải ở dạng nguyên thể.",
+      "Sai — 'Does / remember': 'you' đi với 'Do', không dùng 'Does'.",
+      "Sai — 'Are / remembering': 'remember' nghĩa 'nhớ' thường không dùng thì tiếp diễn.",
+      "Đúng — 'remember' ở nghĩa nhớ là động từ nhận thức, dùng hiện tại đơn; 'you' đi với 'Do' và V nguyên thể."
+    ]
+  },
+  {
+    "id": "en-present-simple-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u5-instructions-directions",
+    "tags": [
+      "ps-u5-instructions-directions"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "To make tea, you ______ (boil) the water first, and then you ______ (pour) it over the tea bag.",
+    "choices": [
+      "boil / pour",
+      "boils / pour",
+      "boil / pours",
+      "are boiling / pour"
+    ],
+    "correctIndex": 0,
+    "explanation": "Quy trình, hướng dẫn dùng hiện tại đơn.",
+    "choiceExplanations": [
+      "Đúng — Hướng dẫn quy trình dùng hiện tại đơn với 'you': boil, pour.",
+      "Sai — 'boils / pour': 'you' không thêm -s nên 'boils' sai.",
+      "Sai — 'boil / pours': 'you' không thêm -s nên 'pours' sai.",
+      "Sai — 'are boiling / pour': đây là các bước hướng dẫn chung, không dùng tiếp diễn."
+    ]
+  },
+  {
+    "id": "en-present-simple-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u5-instructions-directions",
+    "tags": [
+      "ps-u5-instructions-directions"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Go along this street, and then you ______ (turn) right at the bank.",
+    "choices": [
+      "turns",
+      "turned",
+      "turn",
+      "turning"
+    ],
+    "correctIndex": 2,
+    "explanation": "Chỉ đường thường dùng hiện tại đơn với 'you'.",
+    "choiceExplanations": [
+      "Sai — 'turns': 'you' không thêm -s nên 'turns' sai.",
+      "Sai — 'turned': đây là chỉ đường cho người nghe làm theo, không kể chuyện đã qua.",
+      "Đúng — Chỉ đường dùng hiện tại đơn; 'you' dùng V nguyên thể: turn.",
+      "Sai — 'turning': thiếu trợ động từ nên -ing không đứng một mình."
+    ]
+  },
+  {
+    "id": "en-present-simple-051",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u1-habits-routines",
+    "tags": [
+      "ps-u1-habits-routines"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The students in my class who live far from school usually ______ (take) the bus.",
+    "choices": [
+      "is taking",
+      "takes",
+      "took",
+      "take"
+    ],
+    "correctIndex": 3,
+    "explanation": "Xác định đúng chủ ngữ chính trước khi chia động từ.",
+    "choiceExplanations": [
+      "Sai — 'is taking': 'usually' chỉ thói quen nên không dùng thì tiếp diễn.",
+      "Sai — 'takes': 'The students' là số nhiều nên không thêm -s, dù 'school' gần động từ.",
+      "Sai — 'took': 'usually' chỉ thói quen ở hiện tại, không dùng quá khứ.",
+      "Đúng — Chủ ngữ chính là 'The students' (số nhiều) nên dùng V nguyên thể: take."
+    ]
+  },
+  {
+    "id": "en-present-simple-052",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u1-habits-routines",
+    "tags": [
+      "ps-u1-habits-routines"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A friend of mine ______ (call) me every Sunday to chat about school.",
+    "choices": [
+      "is calling",
+      "call",
+      "calls",
+      "called"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cụm 'of mine' không làm chủ ngữ đổi sang số nhiều.",
+    "choiceExplanations": [
+      "Sai — 'is calling': 'every Sunday' chỉ thói quen nên không dùng thì tiếp diễn.",
+      "Sai — 'call': chủ ngữ chính là 'A friend' (số ít), không phải 'mine'.",
+      "Đúng — Chủ ngữ chính là 'A friend' (số ít) nên động từ thêm -s: calls.",
+      "Sai — 'called': 'every Sunday' chỉ thói quen hiện tại, không dùng quá khứ."
+    ]
+  },
+  {
+    "id": "en-present-simple-053",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u2-facts-truths",
+    "tags": [
+      "ps-u2-facts-truths"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Doctors say that sleeping eight hours a night ______ (help) the body recover.",
+    "choices": [
+      "are helping",
+      "help",
+      "helps",
+      "helped"
+    ],
+    "correctIndex": 2,
+    "explanation": "Danh động từ làm chủ ngữ đi với động từ số ít.",
+    "choiceExplanations": [
+      "Sai — 'are helping': đây là điều luôn đúng nên không dùng tiếp diễn.",
+      "Sai — 'help': danh động từ 'sleeping' làm chủ ngữ là số ít nên phải thêm -s.",
+      "Đúng — Danh động từ làm chủ ngữ được coi là số ít, và đây là điều luôn đúng: helps.",
+      "Sai — 'helped': câu nêu điều luôn đúng ở hiện tại, không dùng quá khứ."
+    ]
+  },
+  {
+    "id": "en-present-simple-054",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u2-facts-truths",
+    "tags": [
+      "ps-u2-facts-truths"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hot air ______ (rise) because it ______ (be) lighter than cold air.",
+    "choices": [
+      "rises / is",
+      "rose / is",
+      "rises / are",
+      "rise / is"
+    ],
+    "correctIndex": 0,
+    "explanation": "Quy luật khoa học dùng hiện tại đơn ở cả hai vế.",
+    "choiceExplanations": [
+      "Đúng — Quy luật tự nhiên nên cả hai vế đều dùng hiện tại đơn: 'Hot air' (it) rises; 'it' is.",
+      "Sai — 'rose / is': quy luật luôn đúng không dùng quá khứ.",
+      "Sai — 'rises / are': 'it' đi với 'is', không dùng 'are'.",
+      "Sai — 'rise / is': 'Hot air' là it nên 'rise' phải thêm -s."
+    ]
+  },
+  {
+    "id": "en-present-simple-055",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u3-schedules-timetables",
+    "tags": [
+      "ps-u3-schedules-timetables"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "According to the schedule, our flight to Seoul ______ (take off) at 6:40 a.m. next Friday, so we ______ (need) to be at the airport by 4:30.",
+    "choices": [
+      "take off / need",
+      "takes off / needs",
+      "takes off / need",
+      "took off / need"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lịch bay, giờ tàu xe dùng hiện tại đơn dù nói về tương lai.",
+    "choiceExplanations": [
+      "Sai — 'take off / need': 'our flight' là it nên 'take off' phải thêm -s.",
+      "Sai — 'takes off / needs': 'we' không thêm -s nên 'needs' sai.",
+      "Đúng — Chuyến bay theo lịch cố định nên dùng hiện tại đơn; 'our flight' số ít nên 'takes off', còn 'we' dùng 'need'.",
+      "Sai — 'took off / need': 'next Friday' chỉ tương lai nên không dùng quá khứ."
+    ]
+  },
+  {
+    "id": "en-present-simple-056",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u3-schedules-timetables",
+    "tags": [
+      "ps-u3-schedules-timetables"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the supermarket near your house ______ (stay) open until midnight?",
+    "choices": [
+      "Do / stay",
+      "Does / stays",
+      "Does / staying",
+      "Does / stay"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu hỏi về giờ mở cửa dùng Does + chủ ngữ số ít + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — 'Do / stay': 'the supermarket' là it nên dùng 'Does'.",
+      "Sai — 'Does / stays': sau 'Does' động từ phải ở dạng nguyên thể.",
+      "Sai — 'Does / staying': sau 'Does' động từ phải ở dạng nguyên thể, không dùng -ing.",
+      "Đúng — Giờ mở cửa cố định nên dùng hiện tại đơn; 'the supermarket' là it nên dùng 'Does' và V nguyên thể."
+    ]
+  },
+  {
+    "id": "en-present-simple-057",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u4-state-verbs",
+    "tags": [
+      "ps-u4-state-verbs"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My little sister ______ (not/like) vegetables, but she ______ (love) fruit.",
+    "choices": [
+      "isn't liking / loves",
+      "doesn't like / is loving",
+      "don't like / loves",
+      "doesn't like / loves"
+    ],
+    "correctIndex": 3,
+    "explanation": "Động từ chỉ cảm xúc không chia tiếp diễn; phủ định ngôi thứ ba dùng doesn't.",
+    "choiceExplanations": [
+      "Sai — 'isn't liking / loves': 'like' là động từ chỉ cảm xúc nên không dùng thì tiếp diễn.",
+      "Sai — 'doesn't like / is loving': 'love' chỉ cảm xúc nên không dùng thì tiếp diễn.",
+      "Sai — 'don't like / loves': 'My little sister' là she nên dùng doesn't.",
+      "Đúng — Động từ chỉ cảm xúc dùng hiện tại đơn; ngôi thứ ba: doesn't like, loves."
+    ]
+  },
+  {
+    "id": "en-present-simple-058",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u4-state-verbs",
+    "tags": [
+      "ps-u4-state-verbs"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Who ______ (own) the red bicycle outside the school gate?",
+    "choices": [
+      "do own",
+      "is owning",
+      "owns",
+      "own"
+    ],
+    "correctIndex": 2,
+    "explanation": "Động từ chỉ sở hữu (own, have, belong) thường không chia tiếp diễn.",
+    "choiceExplanations": [
+      "Sai — 'do own': câu hỏi với 'Who' làm chủ ngữ không dùng trợ động từ 'do'.",
+      "Sai — 'is owning': 'own' chỉ sở hữu nên không dùng thì tiếp diễn.",
+      "Đúng — 'own' là động từ chỉ sở hữu nên dùng hiện tại đơn; 'Who' làm chủ ngữ được coi là số ít: owns.",
+      "Sai — 'own': 'Who' làm chủ ngữ đi với động từ số ít nên phải thêm -s."
+    ]
+  },
+  {
+    "id": "en-present-simple-059",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u5-instructions-directions",
+    "tags": [
+      "ps-u5-instructions-directions"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "To use the machine, you ______ (not/press) the green button until the screen ______ (show) your ticket number.",
+    "choices": [
+      "don't press / show",
+      "don't press / shows",
+      "aren't pressing / shows",
+      "doesn't press / shows"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hướng dẫn có phủ định dùng don't + V với 'you'.",
+    "choiceExplanations": [
+      "Sai — 'don't press / show': 'the screen' là it nên 'show' phải thêm -s.",
+      "Đúng — Hướng dẫn dùng hiện tại đơn; 'you' dùng don't + V; 'the screen' là it nên 'shows'.",
+      "Sai — 'aren't pressing / shows': đây là hướng dẫn chung, không dùng tiếp diễn.",
+      "Sai — 'doesn't press / shows': 'you' đi với 'don't', không dùng 'doesn't'."
+    ]
+  },
+  {
+    "id": "en-present-simple-060",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "present-simple",
+    "usageId": "ps-u5-instructions-directions",
+    "tags": [
+      "ps-u5-instructions-directions"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "First, we ______ (wash) the vegetables, then we ______ (cut) them into small pieces, and after that we ______ (fry) them in a pan.",
+    "choices": [
+      "wash / cutting / fry",
+      "washed / cut / fried",
+      "wash / cut / fry",
+      "washes / cuts / fries"
+    ],
+    "correctIndex": 2,
+    "explanation": "Công thức, quy trình nấu ăn dùng hiện tại đơn.",
+    "choiceExplanations": [
+      "Sai — 'wash / cutting / fry': 'cutting' thiếu trợ động từ nên không đứng một mình.",
+      "Sai — 'washed / cut / fried': đây là công thức hướng dẫn, không kể chuyện đã qua.",
+      "Đúng — Công thức nấu ăn dùng hiện tại đơn; 'we' dùng V nguyên thể: wash, cut, fry.",
+      "Sai — 'washes / cuts / fries': 'we' không thêm -s/-es nên cả ba đều sai."
+    ]
   }
 ]
