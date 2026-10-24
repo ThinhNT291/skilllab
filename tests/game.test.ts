@@ -46,3 +46,20 @@ test("game thưởng: mời sau mỗi 3 lượt rồi đếm lại", async () =>
   assert.deepEqual(advanceRounds(1), { count: 2, offer: false })
   assert.deepEqual(advanceRounds(2), { count: 0, offer: true })
 })
+
+test("trùm cuối: thắng khi hết máu, thua khi hết mạng, sao theo mạng còn lại", async () => {
+  const { applyAnswer, bossStars, startBoss } = await import("../src/lib/game/boss.ts")
+  let s = startBoss(2)
+  s = applyAnswer(s, false)
+  assert.equal(s.lives, 2)
+  s = applyAnswer(s, true)
+  s = applyAnswer(s, true)
+  assert.equal(s.status, "won")
+  assert.equal(bossStars(s), 2)
+  assert.equal(applyAnswer(s, false).lives, 2) // đã kết thúc thì không đổi nữa
+  let t = startBoss(10)
+  for (let i = 0; i < 3; i++) t = applyAnswer(t, false)
+  assert.equal(t.status, "lost")
+  assert.equal(bossStars(t), 0)
+  assert.equal(bossStars(applyAnswer(startBoss(1), true)), 3)
+})

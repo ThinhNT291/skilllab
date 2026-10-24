@@ -46,7 +46,7 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 ## Giai đoạn 2 — Lớp game
 - [ ] Nhân vật 4 trạng thái, 5 âm thanh (đúng, sai, bấm, lên cấp, xu), hiệu ứng pop/lắc/nảy/pháo giấy, combo, sao, xu có chỗ tiêu, huy hiệu.
 - [x] Bản đồ tiến trình theo chủ điểm ở `/hoc` (không khóa cứng, có gợi ý học tiếp). [ ] Chưa có đường đi dạng bản đồ vẽ tay.
-- [x] Game mini ghép cặp bấm giờ tự được mời sau mỗi 3 lượt luyện (đếm theo trình duyệt). [ ] Thêm các game khác: mỗi game một component độc lập, dùng chung ngân hàng nội dung. Ưu tiên ý: ghép cặp bấm giờ, xếp từ chạy đua, nghe-gõ, "trùm cuối" gom mục hay sai.
+- [x] Game mini ghép cặp bấm giờ tự được mời sau mỗi 3 lượt luyện (đếm theo trình duyệt). [ ] Đã có "trùm cuối" `/tran-cuoi` (gom mục hay sai). Còn: xếp từ chạy đua, nghe-gõ; mỗi game một component độc lập, dùng chung ngân hàng nội dung.
 - [ ] Hai bộ giao diện theo lứa tuổi (cuối cấp 1 / cấp 2), cho chọn nhân vật/chủ đề.
 
 ## Giai đoạn 3 — Chuẩn đánh giá và đa ngôn ngữ

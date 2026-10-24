@@ -69,6 +69,12 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
         <h2 id="weak-heading" className="mb-2 text-xl font-extrabold">
           Cần ôn lại
         </h2>
+        {s.weakTags.length > 0 && (
+          <Link href="/tran-cuoi" className="mb-3 flex items-center justify-between gap-3 rounded-game border-2 border-accent bg-card px-4 py-3 hover:border-primary">
+            <span className="font-extrabold">👾 Đánh trùm cuối từ những mục hay sai</span>
+            <span className="text-primary underline underline-offset-4">Thử ngay</span>
+          </Link>
+        )}
         {s.weakTags.length === 0 ? (
           <p className="rounded-game border-2 border-border bg-card px-4 py-3">Chưa có điểm yếu nào, làm tốt lắm! 🎉</p>
         ) : (
