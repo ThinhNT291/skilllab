@@ -67,7 +67,7 @@
     "difficulty": 1,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "She ______ her coat and went outside.",
+    "prompt": "It was cold, so she ______ her coat and went outside.",
     "choices": [
       "put out",
       "put on",
@@ -95,7 +95,7 @@
     "difficulty": 1,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "She ______ her little brother every afternoon.",
+    "prompt": "She ______ her little brother every afternoon while her parents are at work.",
     "choices": [
       "looks after",
       "looks into",
@@ -235,7 +235,7 @@
     "difficulty": 1,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "I'm looking forward ______ the holiday.",
+    "prompt": "I'm looking forward ______ the vacation.",
     "choices": [
       "to",
       "of",
@@ -263,20 +263,20 @@
     "difficulty": 1,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The meeting ______ because of the storm.",
+    "prompt": "The outdoor concert ______ because of the storm.",
     "choices": [
-      "was calling off",
+      "called off",
       "was called",
       "was called off",
-      "called off"
+      "was calling off"
     ],
     "correctIndex": 2,
     "explanation": "be + called off = bị hủy.",
     "choiceExplanations": [
-      "Sai — 'was calling off': dạng tiếp diễn chủ động, không hợp nghĩa bị động.",
+      "Sai — 'called off': thiếu 'was' nên không phải bị động; buổi hòa nhạc không thể tự hủy chính nó.",
       "Sai — 'was called': thiếu tiểu từ 'off' nên không có nghĩa hủy.",
       "Đúng — 'call off' nghĩa là hủy, ở thể bị động.",
-      "Sai — 'called off': thiếu 'was' nên không phải bị động; cuộc họp không tự hủy gì."
+      "Sai — 'was calling off': dạng tiếp diễn chủ động, không hợp nghĩa bị động."
     ]
   },
   {
@@ -284,14 +284,14 @@
     "kind": "mcq",
     "language": "en",
     "topic": "phrasal-verb-rules",
-    "usageId": "pvr-u1-separable",
+    "usageId": "pvr-u3-pronoun",
     "tags": [
-      "pvr-u1-separable"
+      "pvr-u3-pronoun"
     ],
     "difficulty": 2,
     "bac": 3,
     "title": "Tìm câu sai",
-    "prompt": "Which sentence puts the pronoun in the wrong place (throw away)?",
+    "prompt": "Which sentence is NOT correct (throw away)?",
     "choices": [
       "She threw the box away.",
       "She threw it away.",
@@ -319,20 +319,20 @@
     "difficulty": 2,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Please ______ and put them in the bag.",
+    "prompt": "Please ______ off the floor and put them in the bag.",
     "choices": [
-      "picking up your toys",
+      "pick your toys",
       "pick up your toys",
       "up pick your toys",
-      "pick your toys"
+      "picking up your toys"
     ],
     "correctIndex": 1,
     "explanation": "pick up + danh từ.",
     "choiceExplanations": [
-      "Sai — 'picking up your toys': dạng V-ing không dùng trong câu mệnh lệnh.",
+      "Sai — 'pick your toys': thiếu tiểu từ 'up' nên mất nghĩa nhặt lên.",
       "Đúng — danh từ có thể đứng sau tiểu từ trong cụm tách được.",
       "Sai — 'up pick your toys': tiểu từ không đứng trước động từ.",
-      "Sai — 'pick your toys': thiếu tiểu từ 'up' nên mất nghĩa nhặt lên."
+      "Sai — 'picking up your toys': sau 'Please' dùng động từ nguyên thể, không dùng V-ing."
     ]
   },
   {
@@ -340,14 +340,14 @@
     "kind": "mcq",
     "language": "en",
     "topic": "phrasal-verb-rules",
-    "usageId": "pvr-u1-separable",
+    "usageId": "pvr-u3-pronoun",
     "tags": [
-      "pvr-u1-separable"
+      "pvr-u3-pronoun"
     ],
     "difficulty": 2,
     "bac": 3,
     "title": "Tìm câu sai",
-    "prompt": "Which sentence puts the pronoun in the wrong place (turn off)?",
+    "prompt": "Which sentence is NOT correct (turn off)?",
     "choices": [
       "He turned the TV off.",
       "He turned it off.",
@@ -459,20 +459,20 @@
     "difficulty": 2,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "I can't hear the TV. Could you turn ______?",
+    "prompt": "These shoes look nice. Can I try ______ on?",
     "choices": [
-      "it up",
-      "up it",
-      "it down",
-      "it off"
+      "them",
+      "it",
+      "they",
+      "on them"
     ],
     "correctIndex": 0,
-    "explanation": "Đại từ nằm giữa động từ và tiểu từ.",
+    "explanation": "try on là cụm tách được: đại từ nằm giữa.",
     "choiceExplanations": [
-      "Đúng — đại từ đứng giữa; 'turn it up' nghĩa là vặn to lên, hợp ngữ cảnh không nghe rõ.",
-      "Sai — 'up it': đại từ phải đứng giữa động từ và tiểu từ.",
-      "Sai — 'it down': 'turn it down' nghĩa là vặn nhỏ, ngược ngữ cảnh.",
-      "Sai — 'it off': 'turn it off' nghĩa là tắt hẳn, không giúp nghe rõ hơn."
+      "Đúng — đại từ số nhiều 'them' đứng giữa try và on.",
+      "Sai — 'it': 'shoes' là số nhiều nên dùng them, không dùng it.",
+      "Sai — 'they': 'they' là đại từ chủ ngữ, không dùng làm tân ngữ.",
+      "Sai — 'on them': đại từ phải đứng giữa động từ và tiểu từ."
     ]
   },
   {
@@ -484,7 +484,7 @@
     "tags": [
       "pvr-u4-three-word"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "I don't know how she ______ her noisy neighbors.",
@@ -540,7 +540,7 @@
     "tags": [
       "pvr-u4-three-word"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "I'm looking forward to ______ you.",
@@ -573,18 +573,18 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "The old building ______ last year.",
     "choices": [
-      "was pulled down",
-      "was pulling down",
-      "was pulled",
-      "pulled down"
+      "was torn down",
+      "was tearing down",
+      "was torn",
+      "torn down"
     ],
     "correctIndex": 0,
-    "explanation": "be + pulled down = bị phá dỡ.",
+    "explanation": "be + torn down = bị phá dỡ.",
     "choiceExplanations": [
-      "Đúng — 'pull down' nghĩa là phá dỡ, ở thể bị động.",
-      "Sai — 'was pulling down': dạng tiếp diễn chủ động, không hợp nghĩa bị động.",
-      "Sai — 'was pulled': thiếu tiểu từ 'down' nên mất nghĩa phá dỡ.",
-      "Sai — 'pulled down': thiếu 'was' nên không phải bị động."
+      "Đúng — 'tear down' nghĩa là phá dỡ, ở thể bị động.",
+      "Sai — 'was tearing down': dạng tiếp diễn chủ động, không hợp nghĩa bị động.",
+      "Sai — 'was torn': thiếu tiểu từ 'down' nên mất nghĩa phá dỡ.",
+      "Sai — 'torn down': thiếu 'was' nên không phải bị động."
     ]
   },
   {
@@ -592,14 +592,14 @@
     "kind": "mcq",
     "language": "en",
     "topic": "phrasal-verb-rules",
-    "usageId": "pvr-u1-separable",
+    "usageId": "pvr-u3-pronoun",
     "tags": [
-      "pvr-u1-separable"
+      "pvr-u3-pronoun"
     ],
     "difficulty": 3,
     "bac": 3,
     "title": "Tìm câu sai",
-    "prompt": "Which sentence puts the pronoun in the wrong place (fill out)?",
+    "prompt": "Which sentence is NOT correct (fill out)?",
     "choices": [
       "Please fill it out.",
       "Please fill out it.",
@@ -627,20 +627,20 @@
     "difficulty": 3,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The teacher handed ______ yesterday, and everyone checked their scores.",
+    "prompt": "The teacher marked the tests and handed ______ yesterday.",
     "choices": [
-      "them the tests back",
-      "it back",
       "back them",
-      "the tests back"
+      "it back",
+      "back it",
+      "them back"
     ],
     "correctIndex": 3,
-    "explanation": "hand back là cụm tách được. (Lưu ý: 'back the tests' cũng đúng, chỉ không có trong lựa chọn.)",
+    "explanation": "hand back là cụm tách được: đại từ nằm giữa.",
     "choiceExplanations": [
-      "Sai — 'them the tests back': thừa đại từ 'them', sai cấu trúc.",
-      "Sai — 'it back': 'tests' là số nhiều nên dùng them, không dùng it.",
-      "Sai — 'back them': thiếu động từ chính và sai thứ tự.",
-      "Đúng — danh từ có thể đứng giữa động từ và tiểu từ: handed the tests back."
+      "Sai — 'back them': đại từ phải đứng giữa động từ và tiểu từ, không đứng sau tiểu từ.",
+      "Sai — 'it back': 'the tests' là số nhiều nên dùng them, không dùng it.",
+      "Sai — 'back it': sai vị trí đại từ và sai số (tests là số nhiều).",
+      "Đúng — đại từ 'them' đứng giữa động từ và tiểu từ của cụm tách được."
     ]
   },
   {
@@ -683,7 +683,7 @@
     "difficulty": 3,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "We ______ an old friend at the airport yesterday.",
+    "prompt": "What a surprise! We ______ an old friend at the airport yesterday.",
     "choices": [
       "ran out of",
       "ran after",
@@ -694,9 +694,9 @@
     "explanation": "run into = tình cờ gặp.",
     "choiceExplanations": [
       "Sai — 'ran out of': 'run out of' nghĩa là hết, không hợp nghĩa.",
-      "Sai — 'ran after': 'run after' nghĩa là đuổi theo, không hợp nghĩa gặp tình cờ.",
+      "Sai — 'ran after': 'run after' nghĩa là đuổi theo, không hợp ngữ cảnh bất ngờ.",
       "Sai — 'ran away': 'run away' nghĩa là bỏ chạy, không hợp nghĩa.",
-      "Đúng — 'run into' nghĩa là tình cờ gặp."
+      "Đúng — 'run into' nghĩa là tình cờ gặp (ngữ cảnh 'What a surprise')."
     ]
   },
   {
@@ -825,18 +825,18 @@
     "title": "Tìm câu sai",
     "prompt": "Which passive sentence has lost its particle?",
     "choices": [
-      "The match was put by the rain.",
-      "The old bridge was pulled down.",
+      "The game was put by the rain.",
+      "The old bridge was torn down.",
       "The plan was called off.",
-      "The match was put off by the rain."
+      "The game was put off by the rain."
     ],
     "correctIndex": 0,
     "explanation": "Giữ tiểu từ khi chuyển sang bị động.",
     "choiceExplanations": [
       "Đúng — thiếu tiểu từ 'off': was put off.",
-      "Sai — 'The old bridge was pulled down.': câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'The old bridge was torn down.': câu này đúng nên không phải đáp án cần chọn.",
       "Sai — 'The plan was called off.': câu này đúng nên không phải đáp án cần chọn.",
-      "Sai — 'The match was put off by the rain.': câu này đúng nên không phải đáp án cần chọn."
+      "Sai — 'The game was put off by the rain.': câu này đúng nên không phải đáp án cần chọn."
     ]
   }
 ]
