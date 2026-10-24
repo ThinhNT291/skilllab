@@ -4,6 +4,7 @@ const LINKS = [
   { href: "/", label: "Trang chủ" },
   { href: "/hoc", label: "Học" },
   { href: "/on-tap", label: "Ôn tập" },
+  { href: "/tu-vung", label: "Từ vựng" },
   { href: "/viet", label: "Viết" },
   { href: "/noi", label: "Nói" },
   { href: "/tien-do", label: "Tiến độ" },

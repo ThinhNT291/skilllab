@@ -1,4 +1,5 @@
 import type { TagInfo } from "@/lib/analytics/progress"
+import { VOCAB_LEVELS } from "@/lib/vocab/questions"
 import { getGrammarTopic, listGrammarTopics } from "./grammar"
 
 /** Bảng tra: mã thẻ (= mã mục lý thuyết) → nhãn tiếng Việt và chuyên đề chứa nó. Dùng cho màn tiến độ. */
@@ -10,6 +11,12 @@ export async function buildTagCatalog(): Promise<{ catalog: Record<string, TagIn
     topicTitles[meta.id] = meta.title
     const topic = await getGrammarTopic("en", meta.id)
     for (const u of topic?.theory.usages ?? []) catalog[u.id] = { label: u.label, topicId: meta.id, topicTitle: meta.title }
+  }
+  // Từ vựng không có mục lý thuyết: mỗi cấp là một "chuyên đề" riêng, tag cùng mã với chuyên đề.
+  for (const l of VOCAB_LEVELS) {
+    const title = `Từ vựng ${l.label}`
+    topicTitles[`vocab-${l.id}`] = title
+    catalog[`vocab-${l.id}`] = { label: title, topicId: `vocab-${l.id}`, topicTitle: title }
   }
   return { catalog, topicTitles }
 }

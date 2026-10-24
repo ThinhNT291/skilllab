@@ -88,11 +88,11 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
                   {w.topicTitle} · sai {w.wrong}/{w.attempts} lần
                 </p>
                 <div className="mt-3 flex flex-wrap gap-2">
-                  <Link href={`/hoc/${w.topicId}#${w.tag}`} className="rounded-full border-2 border-border px-3 py-1.5 text-sm hover:border-primary">
+                  <Link href={w.topicId.startsWith("vocab-") ? `/tu-vung/${w.topicId.slice(6)}` : `/hoc/${w.topicId}#${w.tag}`} className="rounded-full border-2 border-border px-3 py-1.5 text-sm hover:border-primary">
                     Xem lại lý thuyết
                   </Link>
                   <Link
-                    href={`/hoc/${w.topicId}/luyen-tap?tag=${encodeURIComponent(w.tag)}`}
+                    href={w.topicId.startsWith("vocab-") ? `/tu-vung/${w.topicId.slice(6)}` : `/hoc/${w.topicId}/luyen-tap?tag=${encodeURIComponent(w.tag)}`}
                     className="rounded-full border-b-4 border-primary-deep bg-primary px-3 py-1.5 text-sm font-extrabold text-primary-foreground"
                   >
                     Luyện lại mục này
@@ -111,7 +111,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
         <ul className="space-y-3">
           {s.byTopic.map((t) => (
             <li key={t.topicId}>
-              <Link href={`/hoc/${t.topicId}`} className="block rounded-game border-2 border-border bg-card p-4 hover:border-primary">
+              <Link href={t.topicId.startsWith("vocab-") ? `/tu-vung/${t.topicId.slice(6)}` : `/hoc/${t.topicId}`} className="block rounded-game border-2 border-border bg-card p-4 hover:border-primary">
                 <div className="flex items-baseline justify-between gap-3">
                   <span className="font-extrabold">{t.topicTitle}</span>
                   <span className="shrink-0 text-sm text-muted-foreground">
