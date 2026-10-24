@@ -18,7 +18,7 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [ ] Thêm đường đăng nhập: tài khoản do quản trị tạo (cần màn quản lý) và Google; gắn tài khoản cho người đang dùng ẩn danh. Bật CAPTCHA trước khi mở rộng.
 - [ ] Phân tích từ `answers`: tiến độ theo chủ điểm/thẻ lỗi, mức thuộc, SRS.
 - [ ] Chuyển `legacy/grammar_theory_bank.js` thành dữ liệu nguồn; xóa phần còn lại của `legacy/` sau khi chủ dự án xác nhận.
-- [ ] Đưa phần Gemini (chấm, nhận xét, TTS) vào API route phía server.
+- [ ] Đưa phần Gemini (chấm, nhận xét, TTS) vào API route phía server (đã chốt: Flash-Lite bản mới nhất; TTS dùng Flash-Lite TTS bản mới nhất).
 
 ## Giai đoạn 1 — Lõi học và luyện (ưu tiên cao nhất)
 - [x] Lý thuyết 23 chuyên đề tiếng Anh đã chuyển sang JSON (`src/content/grammar/en`), có trang `/hoc` và `/hoc/[topic]`; validator `npm run check:content`.
@@ -31,21 +31,21 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [x] Mỗi lượt bốc 10 câu theo từng mức độ khó, xếp dễ → khó. [x] Chế độ "Nhức đầu" (`/hoc/[topic]/nhuc-dau`, 10 câu khó nhất; chưa tách riêng điểm số so với lượt thường).
 - [x] `commonMistakes` đã tách thành {mô tả, cặp ví dụ sai/đúng, ghi chú} (105/106 mục có ví dụ). [ ] Gắn thẻ lỗi (`tags`) cho từng mục để nối với bài tập và phân tích.
 - [ ] Mô hình dữ liệu nội dung dùng chung: mục học (từ, cụm, chủ điểm ngữ pháp, bài đọc, bài nghe), gắn **ngôn ngữ, thang, cấp độ, kỹ năng, chủ đề, thẻ lỗi (tag)**.
-- [ ] Khu Học → Bài tập: một câu mỗi lần, tiến độ, phản hồi tức thì, kết quả cuối bài, làm lại câu sai.
-- [ ] Nhiều kiểu câu: trắc nghiệm, xếp từ thành câu, điền từ (gõ), nghe-chọn/gõ, ghép cặp, sửa lỗi sai.
+- [x] Khu Học → Bài tập: một câu mỗi lần, tiến độ, phản hồi tức thì, kết quả cuối bài, làm lại.
+- [x] Kiểu câu: trắc nghiệm, xếp từ, gõ đáp án, nghe chép, tìm lỗi sai (chạm vào chỗ sai). [x] Ghép cặp là game mini bấm giờ. [ ] Chưa có: sửa lỗi bằng cách gõ lại câu đúng.
 - [ ] Nhận xét và gợi ý có cấu trúc: vì sao sai, quy tắc liên quan, link về lý thuyết, mục nên ôn tiếp.
 - [x] Màn **Tiến độ** `/tien-do`: tổng quan (số câu, % đúng, số chuyên đề), danh sách **mục cần ôn lại** (thẻ sai nhiều nhất lên đầu) kèm nút "Xem lại lý thuyết" và "Luyện lại mục này", và tỷ lệ đúng theo chuyên đề. Dùng bảng `answers`; tổng hợp lúc đọc (`src/lib/analytics`).
 - [x] Chuỗi ngày học (hiện tại và dài nhất), mục tiêu hằng ngày (10 câu, có vòng tiến độ) và bản đồ nhiệt 12 tuần trên `/tien-do`; tính từ bảng `answers`, mọi lượt trả lời (đúng lẫn sai) đều tính. Ngày theo giờ trình duyệt.
 - [ ] Phân tích nâng cao: mức thuộc từng mục theo thời gian, tiến độ theo thang trình độ, gợi ý chuyên đề nên học tiếp; mục tiêu hằng ngày tùy chỉnh; ôn tập (thẻ) cũng tính vào chuỗi ngày.
 - [x] Kiểm thử tự động cho hàm thuần (`npm test`, 14 ca).
 - [x] **Thẻ ôn tập (SRS)** `/on-tap`: thẻ tự tạo từ câu sai (không trùng; sai lại thẻ đã thuộc thì mở lại), lật 3D có họa tiết, chấm Lại/Khó/Tốt/Dễ (phím 1–4, lật bằng Space), "Lại" xếp thẻ về cuối hàng. Lịch ôn là SM-2 rút gọn viết mới (`src/lib/srs/scheduler.ts`); chưa đối chiếu với thuật toán SRS cũ vì tệp `Controller_Srs.gs` chưa có trong repo. [ ] Cân nhắc FSRS; thêm đọc to (TTS) trên thẻ; thẻ từ vựng/Nghe/Đọc.
-- [ ] Thẻ ôn tập: màn quản lý (xem/xóa thẻ), giới hạn số thẻ mới mỗi ngày.
+- [x] Thẻ ôn tập: màn quản lý `/on-tap/quan-ly` (xem/xóa), giới hạn 10 thẻ mới mỗi ngày (đếm theo trình duyệt). [ ] Còn: chỉnh giới hạn, thử FSRS.
 - [ ] Bước dạy trước khi thi; ví dụ che từ đích; độ khó đổi theo màn (không chỉ đổi kiểu bài).
 
 ## Giai đoạn 2 — Lớp game
 - [ ] Nhân vật 4 trạng thái, 5 âm thanh (đúng, sai, bấm, lên cấp, xu), hiệu ứng pop/lắc/nảy/pháo giấy, combo, sao, xu có chỗ tiêu, huy hiệu.
 - [ ] Bản đồ tiến trình mở khóa theo chủ điểm (khuyến khích đạt ngưỡng, không khóa cứng).
-- [ ] Game mini sau mỗi N vòng, mỗi game một component độc lập, dùng chung ngân hàng nội dung. Ưu tiên ý: ghép cặp bấm giờ, xếp từ chạy đua, nghe-gõ, "trùm cuối" gom mục hay sai.
+- [ ] Game mini sau mỗi N vòng (đã có ghép cặp bấm giờ; chưa tự mở sau N vòng), mỗi game một component độc lập, dùng chung ngân hàng nội dung. Ưu tiên ý: ghép cặp bấm giờ, xếp từ chạy đua, nghe-gõ, "trùm cuối" gom mục hay sai.
 - [ ] Hai bộ giao diện theo lứa tuổi (cuối cấp 1 / cấp 2), cho chọn nhân vật/chủ đề.
 
 ## Giai đoạn 3 — Chuẩn đánh giá và đa ngôn ngữ
@@ -62,7 +62,7 @@ Mục tiêu: mỗi mục học và mỗi bài kiểm tra neo vào một thang ch
 
 - [ ] Nghiên cứu: tiêu chí từng cấp theo kỹ năng, mô tả "can-do", và cách chấm Speaking/Writing theo thang (rubric: nội dung, mạch lạc, từ vựng, ngữ pháp, phát âm).
 - [ ] Bảng quy đổi giữa các thang có ghi nguồn và mức độ chắc chắn; không đưa ra giao diện nếu chưa kiểm chứng.
-- [ ] Bài kiểm tra xếp trình độ (placement) và bài kiểm tra cuối chủ điểm; giải thích cách ra kết quả.
+- [x] Bài xếp trình độ `/xep-trinh-do` (gợi ý chuyên đề, chưa quy đổi thang). [ ] Bài kiểm tra cuối chủ điểm.
 - [ ] Thiết kế để thêm ngôn ngữ mới chỉ là thêm dữ liệu và thang, không sửa lõi (chú ý chữ viết, phiên âm, TTS, nhập liệu khác nhau).
 
 ## Giai đoạn 4 — Đề xuất học thuật + trải nghiệm (làm theo từng đợt khảo sát)

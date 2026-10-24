@@ -5,6 +5,7 @@ const LINKS = [
   { href: "/hoc", label: "Học" },
   { href: "/on-tap", label: "Ôn tập" },
   { href: "/tien-do", label: "Tiến độ" },
+  { href: "/cua-hang", label: "Cửa hàng" },
 ]
 
 export function SiteNav() {

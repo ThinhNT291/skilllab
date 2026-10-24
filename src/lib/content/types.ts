@@ -37,13 +37,72 @@ export interface McqExercise extends ExerciseBase {
   choiceExplanations?: string[]
 }
 
-export type Exercise = McqExercise
+/** Nội dung thẻ ôn tập dựng sẵn từ câu gốc. Câu biến thể (sắp xếp, gõ, nghe chép) mang theo để sai thì vẫn tạo đúng một thẻ cho câu gốc. */
+export interface CardSource {
+  /** Mã câu gốc (dùng làm khóa chống trùng thẻ) */
+  key: string
+  front: string
+  answer: string
+  filled: string | null
+  explanation: string
+}
+
+/** Sắp xếp các từ thành câu đúng. Sinh từ câu trắc nghiệm gốc (xem lib/content/derive.ts). */
+export interface ReorderExercise extends ExerciseBase {
+  kind: "reorder"
+  prompt: string
+  /** Các từ đã xáo, hiện cho người học chọn */
+  pool: string[]
+  /** Thứ tự đúng */
+  answerWords: string[]
+  explanation: string
+  card: CardSource
+}
+
+/** Tự gõ đáp án vào chỗ trống. Sinh từ câu trắc nghiệm gốc. */
+export interface TypedExercise extends ExerciseBase {
+  kind: "typed"
+  prompt: string
+  /** Các đáp án được chấp nhận (đã gồm dạng viết tắt/đầy đủ như doesn't / does not) */
+  answers: string[]
+  explanation: string
+  card: CardSource
+}
+
+/** Nghe câu rồi gõ lại. Sinh từ câu hoàn chỉnh của câu trắc nghiệm gốc. */
+export interface DictationExercise extends ExerciseBase {
+  kind: "dictation"
+  /** Câu được đọc to và là đáp án */
+  text: string
+  answers: string[]
+  explanation: string
+  card: CardSource
+}
+
+/** Tìm từ sai trong câu: câu bị điền một đáp án sai, người học chạm vào chỗ sai. Sinh từ câu trắc nghiệm gốc. */
+export interface SpotExercise extends ExerciseBase {
+  kind: "spot"
+  prompt: string
+  words: string[]
+  /** Khoảng chỉ số từ chứa lỗi (gồm cả hai đầu) */
+  errorFrom: number
+  errorTo: number
+  /** Câu đúng, hiện sau khi trả lời */
+  correctSentence: string
+  /** Vì sao chỗ đó sai (lấy từ lời giải thích của đáp án sai gốc) */
+  explanation: string
+  card: CardSource
+}
+
+export type Exercise = McqExercise | ReorderExercise | TypedExercise | DictationExercise | SpotExercise
 
 export interface AnswerRecord {
   exerciseId: string
   correct: boolean
-  /** Chỉ số đáp án đã chọn (mcq) */
-  choiceIndex: number
+  /** Chỉ số đáp án đã chọn (chỉ với trắc nghiệm) */
+  choiceIndex?: number
+  /** Nội dung người học nhập/sắp xếp (các kiểu khác trắc nghiệm) */
+  response?: string
 }
 
 // ---------------------------------------------------------------------------

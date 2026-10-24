@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { getExercises, getGrammarTopic, listGrammarTopics } from "@/lib/content/grammar"
+import { pickMatchPairs } from "@/lib/content/match"
 
 export function generateStaticParams() {
   return listGrammarTopics("en").map((t) => ({ topic: t.id }))
@@ -16,7 +17,10 @@ export default async function TopicPage({ params }: PageProps<"/hoc/[topic]">) {
   const { topic } = await params
   const data = await getGrammarTopic("en", topic)
   if (!data) notFound()
-  const hasExercises = (await getExercises("en", topic)).length > 0
+  const exercises = await getExercises("en", topic)
+  const hasExercises = exercises.length > 0
+  // Chỉ hiện nút ghép cặp khi chuyên đề đủ câu để dựng cặp (kết quả không phụ thuộc may rủi vì chỉ kiểm tra có đủ hay không).
+  const canMatch = pickMatchPairs(exercises, () => 0.5).length > 0
   const { theory } = data
 
   return (
@@ -40,6 +44,20 @@ export default async function TopicPage({ params }: PageProps<"/hoc/[topic]">) {
           >
             Nhức đầu 🔥
           </Link>
+          <Link
+            href={`/hoc/${topic}/nghe-chep`}
+            className="inline-block rounded-game border-2 border-b-[5px] border-border bg-card px-6 py-3 text-lg font-extrabold text-foreground active:translate-y-[3px] active:border-b-2"
+          >
+            Nghe chép 🎧
+          </Link>
+          {canMatch && (
+            <Link
+              href={`/hoc/${topic}/ghep-cap`}
+              className="inline-block rounded-game border-2 border-b-[5px] border-border bg-card px-6 py-3 text-lg font-extrabold text-foreground active:translate-y-[3px] active:border-b-2"
+            >
+              Ghép cặp ⏱
+            </Link>
+          )}
         </div>
       ) : (
         <p className="mt-4 rounded-game border-2 border-dashed border-border px-4 py-3 text-muted-foreground">Bài tập cho chuyên đề này đang được soạn.</p>

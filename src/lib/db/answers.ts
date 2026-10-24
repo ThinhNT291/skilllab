@@ -16,7 +16,7 @@ export async function recordAnswer(record: AnswerRecord, exercise: Exercise): Pr
       topic: exercise.topic,
       tags: exercise.tags,
       correct: record.correct,
-      choice_index: record.choiceIndex,
+      choice_index: record.choiceIndex ?? null,
     })
     if (error) return { ok: false, reason: "error", message: error.message }
     // Câu sai tự thành thẻ ôn tập. Lỗi tạo thẻ (vd chưa chạy migration 0002) không làm hỏng việc ghi câu trả lời.

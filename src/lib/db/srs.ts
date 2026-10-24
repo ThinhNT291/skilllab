@@ -68,8 +68,9 @@ export function ensureCardFromError(exercise: Exercise): Promise<CardsResult<voi
   return guarded(async () => {
     const profile = await ensureProfile()
     const supabase = createClient()
-    const sourceKey = `grammar-${exercise.topic}-${exercise.id}`
-    const c = cardContentFromExercise(exercise)
+    // Câu biến thể (sắp xếp, gõ, nghe chép) mang sẵn nội dung thẻ của câu gốc, nên sai ở bất kỳ dạng nào vẫn chỉ có một thẻ.
+    const c = exercise.kind === "mcq" ? { key: exercise.id, ...cardContentFromExercise(exercise) } : exercise.card
+    const sourceKey = `grammar-${exercise.topic}-${c.key}`
     const { error } = await supabase.from("srs_cards").upsert(
       {
         profile_id: profile.id,
@@ -144,6 +145,34 @@ export function reviewCard(card: SrsCard, grade: Grade): Promise<CardsResult<voi
         last_reviewed_at: new Date().toISOString(),
       })
       .eq("id", card.id)
+    if (error) throw new Error(error.message)
+  })
+}
+
+export interface SrsCardRow extends SrsCard {
+  dueAt: string
+}
+
+/** Tất cả thẻ của học sinh (để xem và xóa), thẻ đến hạn gần nhất trước. */
+export function listAllCards(limit = 300): Promise<CardsResult<SrsCardRow[]>> {
+  return guarded(async () => {
+    const profile = await ensureProfile()
+    const { data, error } = await createClient()
+      .from("srs_cards")
+      .select("id, topic, usage_id, front, answer, filled, explanation, interval_days, ease, reps, lapses, status, due_at")
+      .eq("profile_id", profile.id)
+      .order("due_at", { ascending: true })
+      .limit(limit)
+    if (error) throw new Error(error.message)
+    return ((data ?? []) as (Row & { due_at: string })[]).map((r) => ({ ...fromRow(r), dueAt: r.due_at }))
+  })
+}
+
+/** Xóa một thẻ. Câu đó sai lần nữa thì thẻ sẽ được tạo lại. */
+export function deleteCard(id: string): Promise<CardsResult<void>> {
+  return guarded(async () => {
+    const profile = await ensureProfile()
+    const { error } = await createClient().from("srs_cards").delete().eq("id", id).eq("profile_id", profile.id)
     if (error) throw new Error(error.message)
   })
 }
