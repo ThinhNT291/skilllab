@@ -1,11 +1,14 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Link from "next/link"
 import confetti from "canvas-confetti"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { sfx } from "@/lib/audio/sfx"
 import { useSettings } from "@/lib/settings"
+import { getOwnedItems } from "@/lib/db"
+import { xpFor, XP_PER_COIN } from "@/lib/game/xp"
+import { Mascot, type Mood } from "@/components/game/mascot"
 import { ProgressBar } from "./progress-bar"
 import { DictationView, McqView, ReorderView, TypedView, type Result } from "./views"
 
@@ -61,6 +64,11 @@ export function ExerciseRunner({
   const [correctCount, setCorrectCount] = useState(0)
   const [streak, setStreak] = useState(0)
   const [wrongIds, setWrongIds] = useState<string[]>([])
+  const [worn, setWorn] = useState<string[]>([])
+
+  useEffect(() => {
+    getOwnedItems().then((r) => r.ok && setWorn(r.equipped))
+  }, [])
 
   const total = exercises.length
   const done = index >= total
@@ -99,14 +107,21 @@ export function ExerciseRunner({
 
   if (done) {
     const stars = starsFor(correctCount, total)
+    const gained = xpFor(correctCount, total - correctCount)
     return (
       <div className="anim-pop rounded-game border-2 border-border bg-card p-6 text-center">
+        <div className="flex justify-center">
+          <Mascot mood={stars === 3 ? "cheer" : stars >= 2 ? "happy" : stars === 1 ? "idle" : "sad"} items={worn} size={104} />
+        </div>
         <p className="text-sm uppercase tracking-wide text-muted-foreground">Kết quả</p>
         <p className="my-2 text-5xl tracking-[0.3em]" aria-label={`${stars} trên 3 sao`}>
           {[0, 1, 2].map((k) => (k < stars ? "⭐" : "☆"))}
         </p>
         <p className="text-2xl font-extrabold">
           Đúng {correctCount}/{total} câu
+        </p>
+        <p className="mt-1 font-extrabold text-accent-deep">
+          +{gained} XP · +{Math.floor(gained / XP_PER_COIN)} 🪙
         </p>
         {wrongIds.length > 0 && <p className="mt-1 text-muted-foreground">{wrongIds.length} câu cần ôn lại</p>}
         <button type="button" onClick={restart} className="mt-4 w-full rounded-game border-b-[5px] border-primary-deep bg-primary py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2">
@@ -119,11 +134,13 @@ export function ExerciseRunner({
   const current = ex!
   const title = titleOf(current)
   const wrong = result !== null && !result.correct
+  const mood: Mood = !result ? "idle" : !result.correct ? "sad" : streak >= 3 ? "cheer" : "happy"
   const correct = correctText(current)
 
   return (
     <div>
       <div className="mb-4 flex items-center gap-3">
+        <Mascot mood={mood} items={worn} size={56} />
         <ProgressBar value={index / total} label="Tiến độ bài tập" />
         <div className={`min-w-20 text-right font-extrabold text-accent-deep ${streak >= 2 ? "opacity-100" : "opacity-0"}`} aria-live="polite">
           🔥 x{streak}
