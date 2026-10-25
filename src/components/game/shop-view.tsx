@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { buyItem, saveEquipped } from "@/lib/db"
 import { SHOP_ITEMS, SLOT_LABEL, toggleEquip, type Slot } from "@/lib/game/shop"
+import { CompanionPicker } from "@/components/companion-picker"
 import { Mascot } from "./mascot"
 import { usePlayer } from "./use-player"
 
@@ -35,6 +36,12 @@ export function ShopView() {
 
   return (
     <div className="space-y-6">
+      <details className="rounded-game border-2 border-border bg-card p-4">
+        <summary className="cursor-pointer font-extrabold">Đổi nhân vật và bộ giao diện</summary>
+        <div className="mt-3">
+          <CompanionPicker />
+        </div>
+      </details>
       <div className="flex items-center gap-4 rounded-game border-2 border-border bg-card p-4">
         <Mascot mood="happy" items={wearing} size={104} />
         <div>

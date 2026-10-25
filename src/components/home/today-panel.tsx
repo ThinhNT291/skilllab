@@ -5,11 +5,13 @@ import { useEffect, useState } from "react"
 import { Mascot } from "@/components/game/mascot"
 import { computeStreaks, countByDay, dayKey } from "@/lib/analytics/activity"
 import { countDueCards, getActivityTimestamps } from "@/lib/db"
+import { usePlayer } from "@/components/game/use-player"
 import { useSettings } from "@/lib/settings"
 
 /** Dải "hôm nay" ở trang chủ: lời chào, chuỗi ngày, mục tiêu và nút học tiếp. */
 export function TodayPanel() {
-  const { dailyGoal } = useSettings()
+  const { dailyGoal, ageSet } = useSettings()
+  const { state: player } = usePlayer()
   const [data, setData] = useState<{ today: number; streak: number; due: number; hour: number } | null>(null)
 
   useEffect(() => {
@@ -38,7 +40,7 @@ export function TodayPanel() {
   return (
     <section aria-labelledby="today-heading" className="home-hero rounded-game border-2 border-border bg-card p-5 sm:p-6">
       <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-5">
-        <Mascot mood={done ? "cheer" : "happy"} size={88} className="mascot-float shrink-0" />
+        <Mascot mood={done ? "cheer" : "happy"} size={ageSet === "kids" ? 96 : 64} items={player.status === "ready" ? player.player.equipped : []} className="mascot-float shrink-0" />
         <div className="w-full min-w-0 flex-1 space-y-2">
           <h2 id="today-heading" className="text-2xl font-extrabold sm:text-3xl">
             {greeting}
@@ -57,6 +59,12 @@ export function TodayPanel() {
             <p className="text-sm text-muted-foreground">
               <span aria-hidden="true">🔥 </span>
               {data.streak} ngày liên tiếp
+              {player.status === "ready" && (
+                <>
+                  {" · "}
+                  {ageSet === "kids" ? `🪙 ${player.player.coins} xu` : `Cấp ${player.player.level.level} · ${player.player.xp} XP`}
+                </>
+              )}
               {data.due > 0 && (
                 <>
                   {" · "}

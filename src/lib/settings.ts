@@ -9,6 +9,20 @@ export const SKINS: { id: Skin; label: string }[] = [
   { id: "space", label: "Không gian" },
 ]
 
+export type Character = "owl" | "fox" | "robot"
+export const CHARACTERS: { id: Character; label: string }[] = [
+  { id: "owl", label: "Cú Thông Thái" },
+  { id: "fox", label: "Cáo Lanh Lợi" },
+  { id: "robot", label: "Robot Bi-Bô" },
+]
+
+/** Hai bộ giao diện theo tuổi: kids (lớp 4–6) thiên về sao/xu/sưu tầm; teens (lớp 7–9) thiên về cấp, combo, huy hiệu. */
+export type AgeSet = "kids" | "teens"
+export const AGE_SETS: { id: AgeSet; label: string; hint: string }[] = [
+  { id: "kids", label: "Lớp 4–6", hint: "Nhiều sao, xu và nhân vật to" },
+  { id: "teens", label: "Lớp 7–9", hint: "Gọn hơn, nhấn mạnh cấp độ và huy hiệu" },
+]
+
 export type FontSize = "md" | "lg" | "xl"
 export const FONT_SIZES: { id: FontSize; label: string; aria: string }[] = [
   { id: "md", label: "A", aria: "Cỡ chữ vừa" },
@@ -28,10 +42,14 @@ export interface Settings {
   dailyGoal: number
   /** Số thẻ ôn tập mới tối đa mỗi ngày */
   newPerDay: number
+  character: Character
+  ageSet: AgeSet
+  /** Đã qua màn chọn nhân vật và bộ giao diện lần đầu chưa */
+  onboarded: boolean
 }
 
 const KEY = "skilllab.settings"
-const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", showBac: false, dailyGoal: 10, newPerDay: 10 }
+const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", showBac: false, dailyGoal: 10, newPerDay: 10, character: "owl", ageSet: "kids", onboarded: false }
 const listeners = new Set<() => void>()
 let cache: Settings | null = null
 
@@ -44,7 +62,9 @@ function read(): Settings {
       const dailyGoal = (DAILY_GOALS as readonly number[]).includes(p.dailyGoal as number) ? (p.dailyGoal as number) : DEFAULTS.dailyGoal
       const newPerDay = (NEW_CARD_LIMITS as readonly number[]).includes(p.newPerDay as number) ? (p.newPerDay as number) : DEFAULTS.newPerDay
       const fontSize = FONT_SIZES.some((f) => f.id === p.fontSize) ? (p.fontSize as FontSize) : DEFAULTS.fontSize
-      return { skin, sound: p.sound !== false, fontSize, showBac: p.showBac === true, dailyGoal, newPerDay }
+      const character = CHARACTERS.some((c) => c.id === p.character) ? (p.character as Character) : DEFAULTS.character
+      const ageSet = AGE_SETS.some((a) => a.id === p.ageSet) ? (p.ageSet as AgeSet) : DEFAULTS.ageSet
+      return { skin, sound: p.sound !== false, fontSize, showBac: p.showBac === true, dailyGoal, newPerDay, character, ageSet, onboarded: p.onboarded === true }
     }
   } catch {
     // Trình duyệt chặn lưu trữ: dùng mặc định

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { TodayPanel } from "@/components/home/today-panel"
+import { WelcomeCard } from "@/components/home/welcome-card"
 import { Suggestions } from "@/components/home/suggestions"
 import { MORE, SKILLS } from "@/components/home/shared"
 
@@ -7,6 +8,7 @@ import { MORE, SKILLS } from "@/components/home/shared"
 export default function Page() {
   return (
     <main className="mx-auto w-full max-w-5xl space-y-6 px-4 py-6">
+      <WelcomeCard />
       <TodayPanel />
       <Suggestions />
       <div className="grid gap-6 md:grid-cols-[2fr_1fr]">
