@@ -1,0 +1,1563 @@
+/**
+ * =================================================================
+ * MODULE: NGÂN HÀNG ĐỀ NGHE HIỂU (Listening Comprehension) — kỹ năng "Nghe" mới trong bộ 4 kỹ năng
+ * chuẩn (Nghe/Nói/Đọc/Viết). Mỗi mục có "transcript" — KHÔNG hiển thị trực tiếp cho người học lúc làm
+ * bài (tránh mất tác dụng luyện nghe), chỉ dùng để Frontend gọi action 'generate_audio' có sẵn (TTS,
+ * tái dùng nguyên hạ tầng cache Drive đang dùng cho Shadowing — xem Controller_Shadowing.gs) tạo audio
+ * phát cho người học nghe. Transcript chỉ hiện lại ở màn hình xem lại sau khi đã nộp bài.
+ *
+ * Nội dung do người dùng tạo qua Gemini bằng prompt JSON riêng (gemini_prompt_listening_bank.txt),
+ * đã được validate cấu trúc (đúng 5 mức x 6 bài x 4 câu hỏi = 30 bài/120 câu) trước khi nhúng vào đây.
+ * Static bank — cùng lý do với READING_BANK (Data_ReadingBank.gs): cần đáp án chính xác tuyệt đối để
+ * tự chấm không cần gọi AI. Xem Controller_Comprehension.gs để biết logic lấy đề/chấm điểm.
+ *
+ * Cấu trúc mỗi mục: { id, title, transcript, questions: [{question, choices[4], correctIndex, explanation}] }
+ * chinese/russian: chưa có ngân hàng đề (null).
+ * =================================================================
+ */
+const LISTENING_BANK = {
+  english: {
+  "A1-A2 (Beginner)": [
+    {
+      "id": "listen_en_a1_01",
+      "title": "Đặt bàn nhà hàng",
+      "transcript": "A: Good evening. Welcome to Star Restaurant. How can I help you?\nB: Hi. I would like a table for two, please.\nA: Do you have a reservation with us?\nB: No, I don't. We just walked in.\nA: That is fine. We have a free table near the window. Please follow me.\nB: Thank you. Can we have the menu, please?\nA: Yes, of course. Here you go. I will be back in five minutes to take your order.",
+      "questions": [
+        {
+          "question": "How many people need a table?",
+          "choices": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "correctIndex": 1,
+          "explanation": "Người khách (B) nói rõ 'I would like a table for two' (một bàn cho 2 người)."
+        },
+        {
+          "question": "Where is the table located?",
+          "choices": [
+            "Near the door",
+            "Near the kitchen",
+            "Near the window",
+            "Outside"
+          ],
+          "correctIndex": 2,
+          "explanation": "Người phục vụ (A) nói 'We have a free table near the window' (gần cửa sổ)."
+        },
+        {
+          "question": "What will the waiter do in five minutes?",
+          "choices": [
+            "Bring the food",
+            "Clean the table",
+            "Take the order",
+            "Bring the bill"
+          ],
+          "correctIndex": 2,
+          "explanation": "Câu cuối phục vụ nói 'I will be back in five minutes to take your order' (quay lại nhận gọi món)."
+        },
+        {
+          "question": "What can we guess about the customers?",
+          "choices": [
+            "They called before coming.",
+            "They don't have a reservation.",
+            "They want to sit outside.",
+            "They are very angry."
+          ],
+          "correctIndex": 1,
+          "explanation": "Người khách trả lời 'No, I don't' khi được hỏi có đặt bàn trước (reservation) hay không."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_a1_02",
+      "title": "Hỏi đường",
+      "transcript": "A: Excuse me, can you help me? I am looking for the train station.\nB: Sure. It is not far from here. Walk straight ahead for two blocks, then turn left at the traffic lights.\nA: Turn left at the lights? Okay.\nB: Yes. You will see a big supermarket on the corner. The train station is right across the street.\nA: Great, thank you so much for your help!\nB: You are welcome. Have a safe trip.",
+      "questions": [
+        {
+          "question": "What is the man looking for?",
+          "choices": [
+            "A bus stop",
+            "A supermarket",
+            "A train station",
+            "A hospital"
+          ],
+          "correctIndex": 2,
+          "explanation": "Người A hỏi 'I am looking for the train station' (nhà ga xe lửa)."
+        },
+        {
+          "question": "Which direction should the man turn at the traffic lights?",
+          "choices": [
+            "Turn left",
+            "Turn right",
+            "Go straight",
+            "Go back"
+          ],
+          "correctIndex": 0,
+          "explanation": "Người B hướng dẫn 'turn left at the traffic lights' (rẽ trái ở đèn giao thông)."
+        },
+        {
+          "question": "What building is near the train station?",
+          "choices": [
+            "A bank",
+            "A supermarket",
+            "A school",
+            "A hotel"
+          ],
+          "correctIndex": 1,
+          "explanation": "Người B nói 'You will see a big supermarket... The train station is right across the street'."
+        },
+        {
+          "question": "What is the main topic of the conversation?",
+          "choices": [
+            "Buying train tickets",
+            "Asking for directions",
+            "Going shopping",
+            "Waiting for a friend"
+          ],
+          "correctIndex": 1,
+          "explanation": "Toàn bộ đoạn hội thoại là quá trình người A hỏi đường và người B chỉ đường."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_a1_03",
+      "title": "Mua sắm quần áo",
+      "transcript": "A: Hello, are you looking for anything special today?\nB: Yes, I want to buy a blue shirt for a party this weekend.\nA: What size do you wear? Small, medium, or large?\nB: I usually wear a medium.\nA: Here is a very nice blue shirt in medium. It is on sale for twenty dollars.\nB: Oh, it looks great. Can I try it on?\nA: Yes, the fitting room is over there.",
+      "questions": [
+        {
+          "question": "What does the customer want to buy?",
+          "choices": [
+            "A red dress",
+            "A blue shirt",
+            "A pair of shoes",
+            "A black hat"
+          ],
+          "correctIndex": 1,
+          "explanation": "Người khách nói 'I want to buy a blue shirt'."
+        },
+        {
+          "question": "What size does the customer wear?",
+          "choices": [
+            "Small",
+            "Medium",
+            "Large",
+            "Extra Large"
+          ],
+          "correctIndex": 1,
+          "explanation": "Người khách trả lời 'I usually wear a medium'."
+        },
+        {
+          "question": "How much does the item cost?",
+          "choices": [
+            "Ten dollars",
+            "Fifteen dollars",
+            "Twenty dollars",
+            "Thirty dollars"
+          ],
+          "correctIndex": 2,
+          "explanation": "Người bán hàng thông báo giá là 'twenty dollars'."
+        },
+        {
+          "question": "How does the customer feel about the shirt?",
+          "choices": [
+            "He thinks it is too expensive.",
+            "He doesn't like the color.",
+            "He likes it and wants to try it on.",
+            "He thinks it is too small."
+          ],
+          "correctIndex": 2,
+          "explanation": "Khách nói 'Oh, it looks great. Can I try it on?' thể hiện sự hài lòng và muốn thử."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_a1_04",
+      "title": "Kế hoạch cuối tuần",
+      "transcript": "A: Hi Sarah, do you have any plans for this Saturday?\nB: Hi Tom. Not really. I might just stay home and watch some movies. What about you?\nA: I am going to play tennis in the park with my brother. Do you want to join us?\nB: I am not very good at tennis, but I can come and watch.\nA: That sounds good! We can all go get pizza afterwards.\nB: Perfect. See you on Saturday.",
+      "questions": [
+        {
+          "question": "What was Sarah's original plan for Saturday?",
+          "choices": [
+            "Playing tennis",
+            "Working at the office",
+            "Staying home to watch movies",
+            "Going shopping"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sarah nói lúc đầu cô ấy định 'stay home and watch some movies'."
+        },
+        {
+          "question": "Who is Tom going to play tennis with?",
+          "choices": [
+            "Sarah",
+            "His brother",
+            "His friend",
+            "His father"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tom nói 'I am going to play tennis... with my brother'."
+        },
+        {
+          "question": "What will they do after the tennis game?",
+          "choices": [
+            "Go to the cinema",
+            "Go home",
+            "Get some pizza",
+            "Walk in the park"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tom đề nghị 'We can all go get pizza afterwards' và Sarah đồng ý."
+        },
+        {
+          "question": "What is Sarah's attitude towards playing tennis?",
+          "choices": [
+            "She is a professional player.",
+            "She hates the sport.",
+            "She prefers to just watch because she is not good at it.",
+            "She wants to learn how to play."
+          ],
+          "correctIndex": 2,
+          "explanation": "Sarah thừa nhận 'I am not very good at tennis, but I can come and watch'."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_a1_05",
+      "title": "Thời tiết hôm nay",
+      "transcript": "A: It is so cold today! I didn't bring my jacket.\nB: Yes, the weather forecast said it will rain this afternoon, too.\nA: Oh no, I have to walk home after work. Do you have an umbrella?\nB: I have a small one. We can share it if we leave at the same time.\nA: Thank you, that is very kind of you. I finish work at five o'clock.\nB: Me too. Let's meet at the front door.",
+      "questions": [
+        {
+          "question": "What is the weather like right now?",
+          "choices": [
+            "Hot and sunny",
+            "Cold",
+            "Windy",
+            "Snowing"
+          ],
+          "correctIndex": 1,
+          "explanation": "Người A mở đầu bằng câu 'It is so cold today!'."
+        },
+        {
+          "question": "What is expected to happen in the afternoon?",
+          "choices": [
+            "It will rain.",
+            "It will snow.",
+            "The sun will come out.",
+            "It will be very hot."
+          ],
+          "correctIndex": 0,
+          "explanation": "Người B nói 'the weather forecast said it will rain this afternoon'."
+        },
+        {
+          "question": "How will they solve the problem of walking in the rain?",
+          "choices": [
+            "They will take a taxi.",
+            "They will wait until the rain stops.",
+            "They will share a small umbrella.",
+            "They will buy a raincoat."
+          ],
+          "correctIndex": 2,
+          "explanation": "B đề xuất 'We can share it [umbrella] if we leave at the same time'."
+        },
+        {
+          "question": "What time will they meet?",
+          "choices": [
+            "Three o'clock",
+            "Four o'clock",
+            "Five o'clock",
+            "Six o'clock"
+          ],
+          "correctIndex": 2,
+          "explanation": "A nói kết thúc công việc lúc 5 giờ ('five o'clock') và B đồng ý hẹn gặp lúc đó."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_a1_06",
+      "title": "Sở thích cá nhân",
+      "transcript": "A: What do you like to do in your free time, David?\nB: I love taking photos. I go to the forest every Sunday to take pictures of birds and trees.\nA: Wow, that sounds very relaxing. I don't have a camera, so I just read books.\nB: Reading is great too. What kind of books do you like?\nA: I enjoy reading mystery novels. They keep me excited.\nB: Maybe you can tell me a good story next time we meet.",
+      "questions": [
+        {
+          "question": "What is David's hobby?",
+          "choices": [
+            "Reading books",
+            "Taking photos",
+            "Painting",
+            "Hiking"
+          ],
+          "correctIndex": 1,
+          "explanation": "David (B) nói 'I love taking photos'."
+        },
+        {
+          "question": "Where does David go on Sundays?",
+          "choices": [
+            "To the beach",
+            "To the library",
+            "To the forest",
+            "To the park"
+          ],
+          "correctIndex": 2,
+          "explanation": "David nói 'I go to the forest every Sunday'."
+        },
+        {
+          "question": "What kind of books does the woman like?",
+          "choices": [
+            "History books",
+            "Romance novels",
+            "Mystery novels",
+            "Science fiction"
+          ],
+          "correctIndex": 2,
+          "explanation": "Người A nói 'I enjoy reading mystery novels'."
+        },
+        {
+          "question": "What can we infer about the woman's personality?",
+          "choices": [
+            "She hates the outdoors.",
+            "She likes exciting stories.",
+            "She wants to buy a camera.",
+            "She gets bored easily."
+          ],
+          "correctIndex": 1,
+          "explanation": "Cô ấy thích tiểu thuyết bí ẩn vì 'They keep me excited' (giữ cho cô ấy cảm giác hào hứng)."
+        }
+      ]
+    }
+  ],
+  "B1 (Intermediate)": [
+    {
+      "id": "listen_en_b1_01",
+      "title": "Thông báo ở sân bay",
+      "transcript": "Attention all passengers travelling on flight BA 246 to London. This is a gate change announcement. Your flight will now depart from gate 15, not gate 9 as previously stated. Also, due to bad weather conditions in London, there will be a slight delay of thirty minutes. The new departure time is 10:45 AM. We apologize for the inconvenience and ask that you please remain seated in the waiting area. Boarding will begin at 10:15 AM. Thank you for your patience and for choosing British Airways.",
+      "questions": [
+        {
+          "question": "What is the new gate number for the flight to London?",
+          "choices": [
+            "Gate 9",
+            "Gate 10",
+            "Gate 15",
+            "Gate 45"
+          ],
+          "correctIndex": 2,
+          "explanation": "Thông báo nói rõ 'Your flight will now depart from gate 15'."
+        },
+        {
+          "question": "Why is the flight delayed?",
+          "choices": [
+            "Technical problems with the plane",
+            "Bad weather conditions in London",
+            "A missing pilot",
+            "Security checks"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nguyên nhân được nêu là 'due to bad weather conditions in London'."
+        },
+        {
+          "question": "What time will boarding begin?",
+          "choices": [
+            "10:00 AM",
+            "10:15 AM",
+            "10:30 AM",
+            "10:45 AM"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu gần cuối nói 'Boarding will begin at 10:15 AM'."
+        },
+        {
+          "question": "What is the main purpose of this announcement?",
+          "choices": [
+            "To cancel the flight entirely",
+            "To inform passengers about a gate change and a delay",
+            "To advertise British Airways",
+            "To ask passengers to leave the airport"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đây là thông báo đổi cổng ra máy bay và thông báo hoãn chuyến bay 30 phút."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_b1_02",
+      "title": "Tin nhắn thoại cho đồng nghiệp",
+      "transcript": "Hi Michael, it's Jennifer calling from the marketing department. I am leaving this message to talk about our meeting scheduled for tomorrow afternoon. Unfortunately, I have a sudden doctor's appointment that I cannot cancel, so I won't be able to make it at 2 PM. Could we possibly reschedule the meeting for Thursday morning instead? Say, around 10 AM? I have already finished the presentation slides, so we just need half an hour to review them together. Please call me back when you get this message so we can confirm the new time. Thanks, bye.",
+      "questions": [
+        {
+          "question": "Why is Jennifer calling Michael?",
+          "choices": [
+            "To complain about her doctor",
+            "To ask for help with presentation slides",
+            "To reschedule a meeting",
+            "To invite him to lunch"
+          ],
+          "correctIndex": 2,
+          "explanation": "Jennifer muốn đổi lịch họp sang sáng thứ Năm ('reschedule the meeting')."
+        },
+        {
+          "question": "Why can't Jennifer attend the meeting tomorrow afternoon?",
+          "choices": [
+            "She has a doctor's appointment.",
+            "She is sick in bed.",
+            "She has not finished her work.",
+            "She is going on a business trip."
+          ],
+          "correctIndex": 0,
+          "explanation": "Cô ấy nêu lý do 'I have a sudden doctor's appointment that I cannot cancel'."
+        },
+        {
+          "question": "What time does Jennifer suggest for the new meeting?",
+          "choices": [
+            "Wednesday at 2 PM",
+            "Thursday at 10 AM",
+            "Friday at 9 AM",
+            "Thursday at 2 PM"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cô ấy đề xuất 'Thursday morning instead? Say, around 10 AM?'."
+        },
+        {
+          "question": "What can be inferred about the upcoming meeting?",
+          "choices": [
+            "It will take a very long time.",
+            "It will be a short meeting to review slides.",
+            "It is the first time they are meeting.",
+            "It requires a lot of new research."
+          ],
+          "correctIndex": 1,
+          "explanation": "Jennifer nói 'we just need half an hour to review them together', suy ra cuộc họp sẽ ngắn gọn."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_b1_03",
+      "title": "Phỏng vấn xin việc",
+      "transcript": "A: Good morning, please take a seat. I'm Mr. Harris. Let's start the interview. Can you tell me why you want to work for our company?\nB: Good morning. Well, I have been following your recent projects in renewable energy, and I am very impressed. I want to be part of a team that cares about the environment.\nA: That's great to hear. You have three years of experience in sales, right?\nB: Yes, I worked at Tech Solutions. I managed customer accounts and increased sales by twenty percent last year.\nA: Impressive. Are you comfortable working under pressure and meeting strict deadlines?\nB: Absolutely. I actually perform better when I have clear goals to focus on.",
+      "questions": [
+        {
+          "question": "Why does the candidate want to work for the company?",
+          "choices": [
+            "Because the salary is very high",
+            "Because she likes their renewable energy projects",
+            "Because she lives near the office",
+            "Because her friend works there"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ứng viên trả lời 'I have been following your recent projects in renewable energy, and I am very impressed'."
+        },
+        {
+          "question": "How many years of sales experience does the candidate have?",
+          "choices": [
+            "One year",
+            "Two years",
+            "Three years",
+            "Four years"
+          ],
+          "correctIndex": 2,
+          "explanation": "Người phỏng vấn xác nhận 'You have three years of experience in sales, right?' và ứng viên đồng ý."
+        },
+        {
+          "question": "What was the candidate's achievement at her previous job?",
+          "choices": [
+            "She invented a new product.",
+            "She hired ten new employees.",
+            "She increased sales by twenty percent.",
+            "She opened a new office."
+          ],
+          "correctIndex": 2,
+          "explanation": "Ứng viên tự hào nói 'increased sales by twenty percent last year'."
+        },
+        {
+          "question": "What is the candidate's attitude toward working under pressure?",
+          "choices": [
+            "She hates it and gets stressed.",
+            "She thinks it is impossible.",
+            "She avoids it at all costs.",
+            "She welcomes it and performs better."
+          ],
+          "correctIndex": 3,
+          "explanation": "Cô ấy khẳng định 'Absolutely. I actually perform better when I have clear goals to focus on'."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_b1_04",
+      "title": "Thảo luận bài tập nhóm",
+      "transcript": "A: Alright, we need to decide on a topic for our history presentation next week.\nB: How about the Industrial Revolution? There is a lot of information available online.\nA: That's true, but I think many other groups will choose that. We should pick something more unique. What about the history of ancient trade routes in Asia?\nB: Oh, like the Silk Road? That sounds very interesting. But do you think we can find enough pictures for the slides?\nA: Yes, the library has some great books with maps and illustrations. I can scan them.\nB: Okay, let's do it. I will start researching the economic impact, and you can focus on the cultural exchange.",
+      "questions": [
+        {
+          "question": "Why does Speaker A reject the topic of the Industrial Revolution?",
+          "choices": [
+            "It is too boring.",
+            "It is too difficult to understand.",
+            "Many other groups might choose it.",
+            "There is no information available online."
+          ],
+          "correctIndex": 2,
+          "explanation": "A nói 'I think many other groups will choose that. We should pick something more unique'."
+        },
+        {
+          "question": "What topic do they finally agree on?",
+          "choices": [
+            "The Industrial Revolution",
+            "Ancient trade routes in Asia (The Silk Road)",
+            "European art history",
+            "Modern technology"
+          ],
+          "correctIndex": 1,
+          "explanation": "A đề xuất 'history of ancient trade routes in Asia' và B đồng ý 'Okay, let's do it'."
+        },
+        {
+          "question": "Where will they get pictures for their presentation?",
+          "choices": [
+            "From the internet",
+            "From their professor",
+            "From books in the library",
+            "From a museum"
+          ],
+          "correctIndex": 2,
+          "explanation": "A nói 'the library has some great books with maps and illustrations. I can scan them'."
+        },
+        {
+          "question": "What is the main purpose of this conversation?",
+          "choices": [
+            "To argue about history",
+            "To divide work and choose a presentation topic",
+            "To complain about a difficult class",
+            "To plan a trip to Asia"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hai sinh viên đang thảo luận chọn chủ đề thuyết trình và phân công nhiệm vụ."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_b1_05",
+      "title": "Đặt phòng khách sạn",
+      "transcript": "A: Good evening, Welcome to the Grand Plaza Hotel. How may I assist you?\nB: Hi, I have a reservation under the name John Smith. It's for a single room for three nights.\nA: Let me check the system. Yes, Mr. Smith. A single room with a city view. However, I see you didn't include breakfast in your booking. Would you like to add it now?\nB: How much is it per day?\nA: It is an extra fifteen dollars a day, and it includes a full buffet from 6 AM to 10 AM.\nB: That sounds reasonable. Yes, please add breakfast. Here is my credit card.\nA: Thank you. Here is your room key. You are on the seventh floor, room 705.",
+      "questions": [
+        {
+          "question": "What kind of room did Mr. Smith book?",
+          "choices": [
+            "A double room",
+            "A single room with a city view",
+            "A suite with a sea view",
+            "A family room"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nhân viên xác nhận: 'A single room with a city view'."
+        },
+        {
+          "question": "What was missing from the original booking?",
+          "choices": [
+            "The payment",
+            "The guest's name",
+            "Breakfast",
+            "The room key"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nhân viên nhận ra 'I see you didn't include breakfast in your booking'."
+        },
+        {
+          "question": "How much does the breakfast cost?",
+          "choices": [
+            "Ten dollars a day",
+            "Fifteen dollars a day",
+            "Twenty dollars a day",
+            "It is free"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nhân viên báo giá 'It is an extra fifteen dollars a day'."
+        },
+        {
+          "question": "What can we infer about Mr. Smith's decision?",
+          "choices": [
+            "He thinks the breakfast is too expensive.",
+            "He prefers to eat outside the hotel.",
+            "He thinks the price is fair and decides to pay for it.",
+            "He is angry at the receptionist."
+          ],
+          "correctIndex": 2,
+          "explanation": "Ông ấy nói 'That sounds reasonable. Yes, please add breakfast' cho thấy ông thấy giá cả hợp lý."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_b1_06",
+      "title": "Nhận xét về bộ phim",
+      "transcript": "A: So, what did you think of the new sci-fi movie we just watched?\nB: Honestly, I was a bit disappointed. The special effects were amazing, but the story was very confusing. I didn't understand the ending at all.\nA: Really? I actually loved it. I think the director wanted to leave the ending open so the audience could imagine what happens next.\nB: Maybe, but I prefer movies with a clear conclusion. Also, the main actor's performance felt very unnatural to me.\nA: I agree with you on that point. His dialogue delivery was quite flat. But overall, I still think the visual style makes it worth watching.\nB: Well, I guess we just have different tastes in movies.",
+      "questions": [
+        {
+          "question": "What did Speaker B like about the movie?",
+          "choices": [
+            "The main actor's performance",
+            "The confusing ending",
+            "The special effects",
+            "The background music"
+          ],
+          "correctIndex": 2,
+          "explanation": "B nói 'The special effects were amazing'."
+        },
+        {
+          "question": "Why did Speaker A enjoy the ending?",
+          "choices": [
+            "Because it was very clear and simple.",
+            "Because it left room for the audience's imagination.",
+            "Because everyone died at the end.",
+            "Because it was very funny."
+          ],
+          "correctIndex": 1,
+          "explanation": "A giải thích 'the director wanted to leave the ending open so the audience could imagine what happens next'."
+        },
+        {
+          "question": "What point do both speakers agree on?",
+          "choices": [
+            "The movie is a masterpiece.",
+            "The ending was terrible.",
+            "The visual style is ugly.",
+            "The main actor's performance was not good."
+          ],
+          "correctIndex": 3,
+          "explanation": "Khi B chê diễn xuất của diễn viên chính, A đáp lại 'I agree with you on that point. His dialogue delivery was quite flat'."
+        },
+        {
+          "question": "What is the general tone of this conversation?",
+          "choices": [
+            "An angry argument",
+            "A friendly exchange of different opinions",
+            "A formal academic debate",
+            "A sales presentation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đây là một cuộc trao đổi thân thiện giữa hai người bạn có sở thích xem phim khác nhau."
+        }
+      ]
+    }
+  ],
+  "B2 (Upper-Intermediate)": [
+    {
+      "id": "listen_en_b2_01",
+      "title": "Tranh luận về làm việc từ xa",
+      "transcript": "A: I saw the new company policy email today. They are asking everyone to return to the office full-time starting next month. I think it's a huge mistake.\nB: Really? I actually think it's a good move. Working from home was fine during the pandemic, but collaboration has definitely suffered. It's much easier to brainstorm when we are in the same room.\nA: I disagree. Our team's productivity has actually increased over the past two years. People save hours by not commuting, and they have a better work-life balance. Forcing everyone back will just lower morale and lead to resignations.\nB: I understand the commuting issue, but you can't deny that the company culture is fading. New employees find it incredibly hard to integrate into the team through video calls alone. There is no spontaneous interaction anymore.\nA: If integration is the problem, we should focus on better onboarding programs, not mandate a full-time return. A hybrid model, maybe two days in the office, would be a much better compromise than this extreme approach.\nB: Perhaps a hybrid model is the middle ground, but management clearly feels we need a reset first.",
+      "questions": [
+        {
+          "question": "What is the company's new policy?",
+          "choices": [
+            "To allow everyone to work from home forever",
+            "To mandate a full-time return to the office",
+            "To fire employees who live far away",
+            "To introduce a four-day work week"
+          ],
+          "correctIndex": 1,
+          "explanation": "Speaker A đề cập: 'asking everyone to return to the office full-time starting next month'."
+        },
+        {
+          "question": "According to Speaker B, what is the main problem with working from home?",
+          "choices": [
+            "Employees are too lazy.",
+            "Internet connections are unstable.",
+            "Collaboration and company culture have suffered.",
+            "It costs the company too much money."
+          ],
+          "correctIndex": 2,
+          "explanation": "B nói 'collaboration has definitely suffered' và 'the company culture is fading'."
+        },
+        {
+          "question": "What solution does Speaker A propose?",
+          "choices": [
+            "Quitting the company",
+            "A hybrid model of working two days in the office",
+            "Filing a lawsuit against the management",
+            "Moving the office to a cheaper location"
+          ],
+          "correctIndex": 1,
+          "explanation": "A đề xuất 'A hybrid model, maybe two days in the office, would be a much better compromise'."
+        },
+        {
+          "question": "What can be inferred about the relationship between the two speakers?",
+          "choices": [
+            "They are a boss and an employee arguing.",
+            "They are colleagues openly discussing a policy they disagree on.",
+            "They are married.",
+            "They are strangers meeting on a train."
+          ],
+          "correctIndex": 1,
+          "explanation": "Cách thảo luận chuyên nghiệp về chính sách công ty ('our team's productivity') cho thấy họ là đồng nghiệp."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_b2_02",
+      "title": "Thảo luận ngân sách công ty",
+      "transcript": "A: Let's discuss the marketing budget for the next quarter. I'm proposing a significant shift of funds from traditional print advertising towards social media influencers.\nB: I've read your proposal, but I have serious reservations. Our core demographic is over fifty years old. They still read magazines and newspapers. Moving away from print might alienate our most loyal customer base.\nA: But the data shows our growth has stagnated. If we want to secure the company's future, we desperately need to attract a younger audience. Influencer marketing gives us a much higher return on investment and measurable engagement metrics that print simply cannot provide.\nB: Metrics are great, but influencers can be unpredictable and sometimes damage brand reputation. Furthermore, it takes years to build the kind of trust we currently have through our traditional channels. It feels too risky to abandon what works.\nA: We aren't abandoning it completely, just reallocating thirty percent of the budget. It's a calculated risk. If we don't modernize our approach soon, our competitors will completely dominate the digital space.\nB: Fine, let's run a small pilot campaign first before committing thirty percent.",
+      "questions": [
+        {
+          "question": "What change is Speaker A proposing for the budget?",
+          "choices": [
+            "Cutting the marketing budget completely",
+            "Shifting funds from print to social media influencers",
+            "Investing more in television commercials",
+            "Increasing the salaries of the marketing team"
+          ],
+          "correctIndex": 1,
+          "explanation": "A nói 'proposing a significant shift of funds from traditional print advertising towards social media influencers'."
+        },
+        {
+          "question": "Why is Speaker B worried about this change?",
+          "choices": [
+            "Social media is too expensive.",
+            "Their older core customers might feel alienated.",
+            "The internet is not secure.",
+            "They do not know how to use social media."
+          ],
+          "correctIndex": 1,
+          "explanation": "B lo ngại 'Our core demographic is over fifty... Moving away from print might alienate our most loyal customer base'."
+        },
+        {
+          "question": "What advantage of influencer marketing does Speaker A highlight?",
+          "choices": [
+            "It is completely free.",
+            "It guarantees immediate wealth.",
+            "It provides higher return on investment and measurable metrics.",
+            "It is favored by elderly customers."
+          ],
+          "correctIndex": 2,
+          "explanation": "A lập luận 'Influencer marketing gives us a much higher return on investment and measurable engagement metrics'."
+        },
+        {
+          "question": "How do they resolve the disagreement at the end?",
+          "choices": [
+            "They decide to fire the marketing team.",
+            "Speaker A quits the company.",
+            "They agree to run a small pilot campaign first.",
+            "They shift 100% of the budget to digital immediately."
+          ],
+          "correctIndex": 2,
+          "explanation": "B nhượng bộ nhưng thận trọng: 'let's run a small pilot campaign first before committing thirty percent'."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_b2_03",
+      "title": "Đánh giá một nhà hàng mới",
+      "transcript": "A: Have you tried that new vegan restaurant downtown, 'Green Leaf'? The reviews online are absolutely glowing.\nB: Yes, I went there last Friday for dinner. To be honest, I think the hype is largely unjustified. The interior design is beautiful, but the food itself was quite underwhelming.\nA: That's surprising! Everyone says their plant-based burger is the best in the city. What did you order?\nB: I had the mushroom risotto. It was extremely bland and portion sizes were ridiculously small considering the high prices. I left feeling hungry.\nA: Oh, what a shame. I was planning to book a table there for my anniversary next week. Maybe they just had an off night in the kitchen?\nB: Possibly, but good restaurants need consistency. Also, the service was painfully slow. We waited over forty minutes for our main courses. If you want a nice anniversary dinner, I would strongly recommend 'The Rustic Spoon' instead. It's much more reliable.\nA: Thanks for the warning. I'll definitely look into 'The Rustic Spoon'. I don't want to risk ruining a special evening with bad service.",
+      "questions": [
+        {
+          "question": "What was Speaker B's overall impression of the new restaurant?",
+          "choices": [
+            "It was the best dining experience ever.",
+            "The interior was ugly but the food was great.",
+            "The hype was unjustified and the food was underwhelming.",
+            "It was very cheap but delicious."
+          ],
+          "correctIndex": 2,
+          "explanation": "B thẳng thắn nhận xét 'the hype is largely unjustified' và thức ăn 'quite underwhelming'."
+        },
+        {
+          "question": "What specific complaints did Speaker B have about the mushroom risotto?",
+          "choices": [
+            "It was too spicy and burnt.",
+            "It was bland, small, and overpriced.",
+            "It contained real meat.",
+            "It was served too quickly."
+          ],
+          "correctIndex": 1,
+          "explanation": "B phàn nàn 'It was extremely bland and portion sizes were ridiculously small considering the high prices'."
+        },
+        {
+          "question": "Why did Speaker A change their mind about booking the restaurant?",
+          "choices": [
+            "Because Speaker B said the service was slow and unreliable.",
+            "Because the restaurant closed down.",
+            "Because they don't like vegan food.",
+            "Because they forgot their anniversary."
+          ],
+          "correctIndex": 0,
+          "explanation": "Nghe lời cảnh báo của B về dịch vụ chậm chạp ('painfully slow'), A không muốn mạo hiểm hỏng tiệc kỷ niệm."
+        },
+        {
+          "question": "What can be inferred about 'The Rustic Spoon'?",
+          "choices": [
+            "It is a fast food chain.",
+            "It has a reputation for reliable food and good service.",
+            "It is much more expensive than 'Green Leaf'.",
+            "It serves only meat."
+          ],
+          "correctIndex": 1,
+          "explanation": "B giới thiệu nhà hàng này vì nó 'much more reliable' cho một bữa tiệc kỷ niệm."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_b2_04",
+      "title": "Kế hoạch chuyển văn phòng",
+      "transcript": "A: Did you hear the rumors about the headquarters moving to the suburbs next year? I'm quite worried about it.\nB: Yes, the CEO mentioned it in the quarterly meeting. Honestly, I'm thrilled. The rent for this downtown office is astronomical. Moving to the suburbs will save the company millions, which hopefully translates to better bonuses for us.\nA: But think about the commute! Right now, most of us take the subway and are here in twenty minutes. If we move to the business park outside the city, there is zero public transport. Everyone will be forced to buy a car and deal with highway traffic.\nB: That's a valid point, but the new facility is supposed to have a massive free parking lot, a gym, and a cafeteria. Plus, housing is much cheaper out there, so it might encourage some staff to relocate and enjoy a quieter lifestyle.\nA: I don't want a quiet lifestyle, I love the city energy. I just think management is only looking at the real estate costs and completely ignoring the daily impact on the employees' lives.\nB: Let's wait for the official announcement before panicking.",
+      "questions": [
+        {
+          "question": "Why is Speaker B excited about the office moving?",
+          "choices": [
+            "Because they hate working.",
+            "Because the company will save money on rent, potentially leading to better bonuses.",
+            "Because they want to use the subway more often.",
+            "Because they want to get fired."
+          ],
+          "correctIndex": 1,
+          "explanation": "B nói 'Moving to the suburbs will save the company millions, which hopefully translates to better bonuses'."
+        },
+        {
+          "question": "What is Speaker A's primary concern regarding the move?",
+          "choices": [
+            "The lack of a cafeteria",
+            "The noise in the suburbs",
+            "The difficult commute and lack of public transport",
+            "The cost of renting the new office"
+          ],
+          "correctIndex": 2,
+          "explanation": "A phàn nàn 'there is zero public transport. Everyone will be forced to buy a car and deal with highway traffic'."
+        },
+        {
+          "question": "What does Speaker A accuse the management of doing?",
+          "choices": [
+            "Stealing money from employees",
+            "Only caring about real estate costs and ignoring employees' daily lives",
+            "Failing to build a gym",
+            "Paying too much for the new office"
+          ],
+          "correctIndex": 1,
+          "explanation": "A nói 'management is only looking at the real estate costs and completely ignoring the daily impact on the employees'."
+        },
+        {
+          "question": "What is the main topic of this dialogue?",
+          "choices": [
+            "Buying a new car",
+            "The advantages and disadvantages of relocating the office to the suburbs",
+            "How to ask the CEO for a bonus",
+            "The lack of gyms in the city"
+          ],
+          "correctIndex": 1,
+          "explanation": "Toàn bộ bài là cuộc tranh luận giữa một người ủng hộ (vì lợi ích kinh tế) và một người phản đối (vì bất tiện đi lại) việc dời văn phòng."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_b2_05",
+      "title": "Sử dụng mạng xã hội trong học tập",
+      "transcript": "A: I recently read an article suggesting that teachers should start incorporating social media platforms like TikTok and Instagram into their lesson plans to keep students engaged.\nB: I saw that too, and I strongly oppose the idea. Schools are supposed to be a distraction-free environment. Bringing social media into the classroom just invites shorter attention spans and exposes kids to more screen time.\nA: I see your point, but we have to meet the students where they are. They are already consuming content on these platforms daily. If an educator can condense a complex historical event into a captivating sixty-second video, isn't that a brilliant educational tool?\nB: No, it's superficial learning. True education requires deep reading, critical thinking, and sustained focus. You can't master algebra or analyze literature through a quick, flashy video. It creates an illusion of knowledge.\nA: I'm not saying it should replace textbooks, but it can be an excellent hook to spark initial interest in a subject. Once they are curious, you transition to traditional, deeper methods.\nB: It's a slippery slope. Before you know it, entertainment replaces actual pedagogy.",
+      "questions": [
+        {
+          "question": "What is the main subject of the debate?",
+          "choices": [
+            "Banning cell phones in schools entirely",
+            "Using social media platforms as teaching tools in classrooms",
+            "Teaching students how to become influencers",
+            "The cost of buying iPads for students"
+          ],
+          "correctIndex": 1,
+          "explanation": "A mở đầu bằng việc thảo luận ý tưởng 'incorporating social media platforms... into their lesson plans'."
+        },
+        {
+          "question": "Why is Speaker B against the idea?",
+          "choices": [
+            "Because teachers don't know how to use the internet",
+            "Because it will cause shorter attention spans and superficial learning",
+            "Because schools cannot afford the internet",
+            "Because students hate social media"
+          ],
+          "correctIndex": 1,
+          "explanation": "B lập luận nó gây ra 'shorter attention spans' và chỉ là 'superficial learning' (học tập hời hợt)."
+        },
+        {
+          "question": "How does Speaker A view short educational videos?",
+          "choices": [
+            "As a complete replacement for all textbooks",
+            "As a way to waste time",
+            "As an excellent hook to spark initial student interest",
+            "As a punishment for bad students"
+          ],
+          "correctIndex": 2,
+          "explanation": "A nói video ngắn 'can be an excellent hook to spark initial interest in a subject'."
+        },
+        {
+          "question": "What does Speaker B mean by 'It creates an illusion of knowledge'?",
+          "choices": [
+            "Students think they learned a subject deeply, but they only know surface-level facts.",
+            "Magic tricks should not be taught in school.",
+            "Teachers are lying to students.",
+            "The videos are full of fake news."
+          ],
+          "correctIndex": 0,
+          "explanation": "Ý của B là video ngắn chớp nhoáng khiến người xem lầm tưởng mình đã hiểu sâu sắc vấn đề, nhưng thực ra chỉ là kiến thức bề mặt."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_b2_06",
+      "title": "Giao thông công cộng vs Xe cá nhân",
+      "transcript": "A: The city council's proposal to ban private cars from the city center starting next year is quite controversial. What's your take on it?\nB: I fully support it. The air pollution levels in the downtown area have reached toxic levels, and the traffic congestion makes the city unlivable. Pedestrianizing the center will make it safer, cleaner, and better for local businesses.\nA: I agree with the environmental aspect, but the execution seems rushed. Our current public transport infrastructure is nowhere near ready to handle thousands of extra commuters every day. The buses are already overcrowded and frequently delayed.\nB: The ban includes a massive funding increase for the tram and bus networks. They are purchasing fifty new electric buses and opening two new tram lines. It's a necessary push to force people to change their habits.\nA: That infrastructure takes years to build. In the meantime, elderly people, disabled individuals, and delivery drivers are going to suffer immensely. The council needs to provide clear exemptions and improve the transit system first, before penalizing car owners.\nB: Sometimes you need strict regulations to force rapid systemic change. Gradual approaches haven't worked.",
+      "questions": [
+        {
+          "question": "What is the city council proposing to do?",
+          "choices": [
+            "Increase taxes on public transport",
+            "Ban private cars from the city center",
+            "Build a new highway through the downtown",
+            "Close down local businesses"
+          ],
+          "correctIndex": 1,
+          "explanation": "A đề cập đến 'proposal to ban private cars from the city center'."
+        },
+        {
+          "question": "What is Speaker A's main criticism of the proposal?",
+          "choices": [
+            "It is bad for the environment.",
+            "The city council doesn't care about air pollution.",
+            "The current public transport system cannot handle the increased passenger load.",
+            "Walking is dangerous for everyone."
+          ],
+          "correctIndex": 2,
+          "explanation": "A chỉ trích việc thực thi quá vội vàng vì 'Our current public transport infrastructure is nowhere near ready to handle thousands of extra commuters'."
+        },
+        {
+          "question": "Who does Speaker A think will suffer the most in the short term?",
+          "choices": [
+            "Teenagers and students",
+            "Politicians",
+            "Tourists and wealthy residents",
+            "Elderly, disabled people, and delivery drivers"
+          ],
+          "correctIndex": 3,
+          "explanation": "A nhấn mạnh 'In the meantime, elderly people, disabled individuals, and delivery drivers are going to suffer immensely'."
+        },
+        {
+          "question": "What is Speaker B's underlying philosophy regarding the policy?",
+          "choices": [
+            "Strict regulations are sometimes necessary to force rapid and needed changes.",
+            "The government should never interfere with people's lives.",
+            "Gradual changes are always better than sudden bans.",
+            "Cars are the future of urban transport."
+          ],
+          "correctIndex": 0,
+          "explanation": "B chốt lại quan điểm 'Sometimes you need strict regulations to force rapid systemic change'."
+        }
+      ]
+    }
+  ],
+  "C1 (Advanced)": [
+    {
+      "id": "listen_en_c1_01",
+      "title": "Bài giảng về năng lượng tái tạo",
+      "transcript": "Welcome to today's lecture on sustainable engineering. Today, we're moving beyond the basic concepts of solar and wind generation to address the primary bottleneck in the renewable energy transition: grid stability and energy storage. As you know, the inherent intermittency of renewable sources means they do not provide a constant baseload. The sun doesn't always shine, and the wind doesn't always blow. To achieve grid parity with fossil fuels, we must develop robust storage solutions. Currently, lithium-ion batteries dominate the market due to their high energy density and declining costs. However, they are fraught with issues, including supply chain vulnerabilities regarding cobalt and lithium mining, as well as a relatively short lifecycle. Therefore, researchers are heavily investing in alternative storage paradigms. One promising avenue is pumped hydro storage, which uses surplus energy to pump water to a higher elevation, releasing it through turbines when demand peaks. While highly efficient, it requires specific geographical topographies, making it difficult to scale globally. Another emerging technology is green hydrogen, created via electrolysis using surplus renewable power. This hydrogen can be stored indefinitely and burned later without carbon emissions. The challenge here is the current inefficiency of the electrolysis process, which results in significant energy loss. Over the next decade, the holy grail for engineers will be developing a diversified portfolio of storage technologies to ensure a resilient, decentralized power grid.",
+      "questions": [
+        {
+          "question": "What is described as the primary bottleneck in the renewable energy transition?",
+          "choices": [
+            "The high cost of solar panels",
+            "The lack of public interest",
+            "Grid stability and energy storage",
+            "The overproduction of constant energy"
+          ],
+          "correctIndex": 2,
+          "explanation": "Giảng viên xác định rõ: 'address the primary bottleneck...: grid stability and energy storage'."
+        },
+        {
+          "question": "What is a major vulnerability of current lithium-ion batteries?",
+          "choices": [
+            "They are too heavy to transport.",
+            "They have issues with the mining supply chains of cobalt and lithium.",
+            "They cannot store solar energy, only wind energy.",
+            "They produce toxic gases when used."
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài giảng đề cập pin lithium 'are fraught with issues, including supply chain vulnerabilities regarding cobalt and lithium mining'."
+        },
+        {
+          "question": "Why is pumped hydro storage difficult to scale globally?",
+          "choices": [
+            "It is an extremely inefficient technology.",
+            "It requires specific mountain or elevation landscapes.",
+            "It evaporates too quickly.",
+            "It costs more than building a nuclear plant."
+          ],
+          "correctIndex": 1,
+          "explanation": "Mặc dù hiệu quả nhưng nó đòi hỏi 'specific geographical topographies' (địa hình cụ thể có độ cao)."
+        },
+        {
+          "question": "What is the main challenge currently facing green hydrogen production?",
+          "choices": [
+            "It releases heavy carbon emissions.",
+            "The hydrogen dissipates too quickly in storage.",
+            "The electrolysis process is currently inefficient, leading to energy loss.",
+            "There is no demand for hydrogen gas."
+          ],
+          "correctIndex": 2,
+          "explanation": "Giảng viên nói 'The challenge here is the current inefficiency of the electrolysis process, which results in significant energy loss'."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_c1_02",
+      "title": "Phỏng vấn chuyên gia kinh tế",
+      "transcript": "A: Welcome to 'Economy Today'. Joining us is Dr. Aris Thorne to discuss the persistent inflation plaguing global markets. Doctor, central banks have aggressively hiked interest rates, yet inflation seems stubbornly entrenched. Why is traditional monetary policy struggling?\nB: Thank you for having me. The core issue is that central banks are using demand-side tools to fight a supply-side problem. Raising interest rates makes borrowing more expensive, which cools down consumer spending and business investment. That works well if inflation is caused by an overheated economy where too much money is chasing too few goods. \nA: But you argue that's not the primary catalyst right now?\nB: Exactly. What we are witnessing is cost-push inflation, largely driven by structural supply chain bottlenecks, geopolitical conflicts disrupting energy markets, and shifting demographic trends causing labor shortages. You cannot fix a disrupted shipping route or a global microchip shortage by simply raising interest rates. \nA: So, are the rate hikes actively harmful, or just ineffective?\nB: They are a blunt instrument. While they do anchor inflation expectations—preventing a wage-price spiral—they risk inducing a severe recession. By suppressing investment in exactly the sectors that need to expand to resolve the supply constraints, such as renewable infrastructure and domestic manufacturing, overly aggressive tightening might inadvertently prolong the economic pain.",
+      "questions": [
+        {
+          "question": "According to Dr. Thorne, what is the main reason traditional monetary policy is struggling to control inflation?",
+          "choices": [
+            "Central banks are afraid to raise rates high enough.",
+            "Consumers are ignoring the interest rates.",
+            "Central banks are using demand-side tools to solve supply-side problems.",
+            "Governments are printing too much physical currency."
+          ],
+          "correctIndex": 2,
+          "explanation": "Chuyên gia khẳng định 'central banks are using demand-side tools to fight a supply-side problem'."
+        },
+        {
+          "question": "What kind of inflation does Dr. Thorne say we are currently experiencing?",
+          "choices": [
+            "Demand-pull inflation",
+            "Cost-push inflation",
+            "Hyperinflation",
+            "Deflation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Chuyên gia dùng thuật ngữ 'cost-push inflation' (lạm phát chi phí đẩy)."
+        },
+        {
+          "question": "What is one benefit of raising interest rates mentioned in the interview?",
+          "choices": [
+            "It immediately fixes broken supply chains.",
+            "It makes borrowing money easier.",
+            "It anchors inflation expectations and prevents a wage-price spiral.",
+            "It forces energy prices to drop drastically."
+          ],
+          "correctIndex": 2,
+          "explanation": "Chuyên gia thừa nhận 'While they do anchor inflation expectations—preventing a wage-price spiral...'."
+        },
+        {
+          "question": "What risk does Dr. Thorne associate with overly aggressive rate hikes?",
+          "choices": [
+            "A sudden boom in the housing market.",
+            "Suppressing investments needed to fix supply issues, potentially causing a recession.",
+            "Making the banking system collapse instantly.",
+            "Causing a global microchip shortage."
+          ],
+          "correctIndex": 1,
+          "explanation": "Ông cảnh báo việc này kìm hãm đầu tư vào các lĩnh vực cần thiết, dẫn đến nguy cơ 'inducing a severe recession' và kéo dài nỗi đau kinh tế."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_c1_03",
+      "title": "Thuyết trình về tâm lý học",
+      "transcript": "Good morning, everyone. In today's seminar on behavioral economics, we will examine 'choice architecture' and specifically the phenomenon of the 'anchoring bias'. Classical economic models assume that consumers are perfectly rational agents who evaluate the absolute utility of a product before purchasing. However, human cognition relies heavily on heuristics, or mental shortcuts. Anchoring occurs when individuals rely too heavily on an initial piece of information—the 'anchor'—when making subsequent judgments. A classic experiment involves asking people to estimate a completely unrelated number, like the percentage of African nations in the UN, right after spinning a roulette wheel. Participants who landed on a high number consistently gave higher percentage estimates than those who landed on a low number. In retail, this is exploited masterfully. Imagine walking into a boutique and seeing a leather jacket priced at two thousand dollars. You immediately perceive it as exorbitant. But right next to it is a jacket for four hundred dollars. Because your brain anchored on the two-thousand-dollar figure, the four-hundred-dollar jacket suddenly appears to be a reasonable bargain, despite objectively being quite expensive. By manipulating the environment in which choices are presented, marketers shape our perception of value, proving that context often overrides objective assessment.",
+      "questions": [
+        {
+          "question": "What is the 'anchoring bias'?",
+          "choices": [
+            "The tendency to buy the cheapest item available.",
+            "Relying too heavily on an initial piece of information when making decisions.",
+            "Refusing to buy anything if the first price is too high.",
+            "The habit of ignoring all numbers in marketing."
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài giảng định nghĩa: 'Anchoring occurs when individuals rely too heavily on an initial piece of information'."
+        },
+        {
+          "question": "What did the roulette wheel experiment prove?",
+          "choices": [
+            "That people are good at guessing statistics.",
+            "That gambling makes people bad at math.",
+            "That completely unrelated random numbers can influence people's estimates.",
+            "That African nations are poorly represented in the UN."
+          ],
+          "correctIndex": 2,
+          "explanation": "Con số ngẫu nhiên từ vòng quay roulette đã ảnh hưởng đến ước tính tỷ lệ phần trăm của người tham gia, chứng minh sức mạnh của 'anchor'."
+        },
+        {
+          "question": "How does the $2000 jacket affect the perception of the $400 jacket?",
+          "choices": [
+            "It makes the $400 jacket look ugly.",
+            "It makes the $400 jacket seem like a reasonable bargain.",
+            "It proves that leather is a bad material.",
+            "It makes the customer leave the store immediately."
+          ],
+          "correctIndex": 1,
+          "explanation": "Do não bị 'neo' ở giá $2000, chiếc áo $400 'suddenly appears to be a reasonable bargain'."
+        },
+        {
+          "question": "What is the main conclusion of the lecture regarding consumer choice?",
+          "choices": [
+            "Consumers always act rationally based on absolute utility.",
+            "Choice architecture and context strongly manipulate our perception of value.",
+            "Retailers should only sell cheap items to succeed.",
+            "Heuristics have no effect on modern shopping."
+          ],
+          "correctIndex": 1,
+          "explanation": "Kết luận cuối cùng: 'By manipulating the environment in which choices are presented, marketers shape our perception of value, proving that context often overrides objective assessment'."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_c1_04",
+      "title": "Thảo luận về đô thị hóa",
+      "transcript": "A: Urban gentrification is increasingly polarizing city planners. While it undoubtedly revitalizes decaying neighborhoods, critics argue the human cost is unjustifiable. What is your perspective on this sociological friction?\nB: It's a highly nuanced issue. On one hand, gentrification brings an influx of capital. We see improved infrastructure, dropping crime rates, and the proliferation of organic cafes and tech hubs. The municipal tax base expands, allowing for better public services. \nA: However, that narrative often ignores displacement, doesn't it?\nB: Precisely. The core tragedy of unmitigated gentrification is the displacement of long-term, low-income residents. As property values and rents skyrocket, the original community is economically evicted. They are pushed to the urban periphery, severing established social networks and increasing their commute times to essential jobs. \nA: Are there viable policy mechanisms to balance urban renewal with social equity?\nB: Yes, but they require political will. Implementing robust rent-control measures is a start, though economists debate its long-term efficacy. A more sustainable approach is mandatory inclusionary zoning, where developers are legally obligated to allocate a specific percentage of new residential buildings as affordable housing. Additionally, community land trusts can empower local residents to collectively own real estate, shielding it from speculative market forces.",
+      "questions": [
+        {
+          "question": "What is one positive effect of gentrification mentioned by Speaker B?",
+          "choices": [
+            "It permanently lowers property taxes for everyone.",
+            "It revitalizes decaying neighborhoods and expands the municipal tax base.",
+            "It forces all tech companies to leave the city.",
+            "It completely eliminates all traffic issues."
+          ],
+          "correctIndex": 1,
+          "explanation": "B nhắc đến lợi ích: 'gentrification brings an influx of capital... The municipal tax base expands'."
+        },
+        {
+          "question": "What does Speaker B consider to be the 'core tragedy' of gentrification?",
+          "choices": [
+            "The closing of organic cafes",
+            "The fact that historic buildings are demolished",
+            "The economic eviction and displacement of long-term, low-income residents",
+            "The rising crime rates in the city center"
+          ],
+          "correctIndex": 2,
+          "explanation": "B nhấn mạnh: 'The core tragedy of unmitigated gentrification is the displacement of long-term, low-income residents'."
+        },
+        {
+          "question": "What is 'mandatory inclusionary zoning'?",
+          "choices": [
+            "Forcing all residents to work in the same zone they live in",
+            "Legally requiring developers to include a percentage of affordable housing in new buildings",
+            "Banning the construction of luxury apartments entirely",
+            "Zoning areas only for commercial use"
+          ],
+          "correctIndex": 1,
+          "explanation": "B giải thích đó là quy định 'developers are legally obligated to allocate a specific percentage of new residential buildings as affordable housing'."
+        },
+        {
+          "question": "What can be inferred about the speakers' attitude toward urban renewal?",
+          "choices": [
+            "It should be stopped immediately at all costs.",
+            "It is a complex process that requires careful policies to prevent social harm.",
+            "It is a perfect system that needs no government intervention.",
+            "It only benefits the poor."
+          ],
+          "correctIndex": 1,
+          "explanation": "Họ thừa nhận cả lợi ích kinh tế lẫn hệ lụy xã hội, và thảo luận các giải pháp chính sách (như kiểm soát giá thuê, sở hữu cộng đồng) để cân bằng, cho thấy thái độ đa chiều, thận trọng."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_c1_05",
+      "title": "Bài giảng về lịch sử nghệ thuật",
+      "transcript": "Let's turn our attention to the late 19th century and the seismic shift from academic Realism to Impressionism. Before the 1870s, the prestigious Paris Salon dictated artistic standards, favoring historical and mythological subjects painted with meticulous, invisible brushstrokes. The goal was an idealized, almost photographic finish. The Impressionists, including Monet, Renoir, and Degas, fiercely rebelled against this rigid orthodoxy. Their revolution was twofold: thematic and technical. Thematically, they abandoned grand historical narratives in favor of capturing the fleeting moments of modern Parisian life—cafes, train stations, and weekend boat trips. Technically, they embraced 'en plein air' painting, moving their canvases out of the studio to paint outdoors. This was made possible by the recent invention of portable paint in metal tubes. The Impressionist technique is characterized by rapid, broken brushstrokes and unblended colors. They were obsessed with capturing the transient effects of light and atmosphere, prioritizing optical truth over intellectual knowledge of an object. When critics first saw these works, they were horrified. The term 'Impressionism' was actually coined by a hostile critic mocking Monet's painting 'Impression, Sunrise', implying it was merely an unfinished sketch. Yet, this radical prioritization of subjective perception laid the indispensable groundwork for all modern abstract art.",
+      "questions": [
+        {
+          "question": "What type of art did the prestigious Paris Salon favor before the 1870s?",
+          "choices": [
+            "Paintings with rapid, visible brushstrokes",
+            "Abstract interpretations of modern life",
+            "Idealized historical and mythological subjects with a photographic finish",
+            "Portraits of ordinary workers in factories"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài giảng ghi: 'favoring historical and mythological subjects painted with meticulous, invisible brushstrokes... idealized, almost photographic finish'."
+        },
+        {
+          "question": "What technological invention allowed the Impressionists to easily paint outdoors?",
+          "choices": [
+            "The camera",
+            "Portable paint in metal tubes",
+            "Battery-powered lamps",
+            "Synthetic nylon brushes"
+          ],
+          "correctIndex": 1,
+          "explanation": "Việc vẽ ngoài trời (en plein air) khả thi nhờ 'the recent invention of portable paint in metal tubes'."
+        },
+        {
+          "question": "How did the term 'Impressionism' originate?",
+          "choices": [
+            "Monet officially named the group after his favorite book.",
+            "The French government created the term to honor them.",
+            "A hostile art critic used it to mock one of Monet's paintings as an unfinished sketch.",
+            "It was derived from a Latin word meaning 'light'."
+          ],
+          "correctIndex": 2,
+          "explanation": "Giảng viên kể: 'The term... was actually coined by a hostile critic mocking Monet's painting'."
+        },
+        {
+          "question": "What was the Impressionists' main technical obsession?",
+          "choices": [
+            "Achieving perfect mathematical perspective",
+            "Capturing the transient effects of light and atmosphere",
+            "Creating colors that would never fade",
+            "Hiding their brushstrokes from the viewer"
+          ],
+          "correctIndex": 1,
+          "explanation": "Họ bị ám ảnh bởi việc 'capturing the transient effects of light and atmosphere' (bắt lấy các hiệu ứng phù du của ánh sáng và khí quyển)."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_c1_06",
+      "title": "Phỏng vấn về an ninh mạng",
+      "transcript": "A: We are speaking with cybersecurity analyst Sarah Jenkins. Sarah, ransomware attacks on critical infrastructure have escalated dramatically. Why are traditional firewalls failing us?\nB: Traditional network security operates on a 'castle-and-moat' mentality. You build a strong perimeter, and you assume anyone inside the network is trusted. The problem is, once a hacker breaches that perimeter—perhaps through a simple phishing email that compromises an employee's credentials—they have lateral freedom to move across the entire network, exfiltrating data and deploying encryption malware. \nA: So the perimeter model is fundamentally obsolete?\nB: Exactly. That's why the industry is rapidly pivoting towards a 'Zero Trust' architecture. Zero Trust operates on the principle of 'never trust, always verify'. It assumes that the network is already compromised. Therefore, every single request for access to a system or application must be authenticated, authorized, and continuously validated, regardless of whether the user is inside or outside the corporate network. \nA: That sounds incredibly resource-intensive for IT departments.\nB: It requires a paradigm shift, certainly. It involves implementing multi-factor authentication, least-privilege access protocols—meaning users only get the bare minimum access needed to do their jobs—and micro-segmentation of the network. While it is complex to implement initially, the financial and reputational devastation of a successful ransomware attack makes Zero Trust an absolute necessity for modern enterprises.",
+      "questions": [
+        {
+          "question": "What is the flaw in the 'castle-and-moat' security mentality?",
+          "choices": [
+            "It is too expensive to build firewalls.",
+            "It assumes everyone inside the network is trusted, allowing hackers to move freely once inside.",
+            "It blocks employees from doing their jobs.",
+            "It only protects against physical theft of computers."
+          ],
+          "correctIndex": 1,
+          "explanation": "Sarah phân tích: 'assume anyone inside the network is trusted... once a hacker breaches... they have lateral freedom'."
+        },
+        {
+          "question": "What is the core principle of 'Zero Trust' architecture?",
+          "choices": [
+            "Trust everyone until they make a mistake.",
+            "Never trust, always verify every access request.",
+            "Only trust users inside the corporate office building.",
+            "Disable all passwords and use biometrics only."
+          ],
+          "correctIndex": 1,
+          "explanation": "Khái niệm này dựa trên nguyên lý 'never trust, always verify'."
+        },
+        {
+          "question": "What does 'least-privilege access' mean in this context?",
+          "choices": [
+            "Giving employees no access at all",
+            "Giving executives full access to everything",
+            "Giving users only the bare minimum access necessary to perform their specific tasks",
+            "Punishing users who cause security breaches"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sarah giải thích: 'meaning users only get the bare minimum access needed to do their jobs'."
+        },
+        {
+          "question": "What is the speaker's conclusion regarding the implementation of Zero Trust?",
+          "choices": [
+            "It is too complex and not worth the effort.",
+            "It is only necessary for government agencies, not businesses.",
+            "It is essential for modern enterprises despite the initial complexity.",
+            "It will eventually be replaced by traditional firewalls."
+          ],
+          "correctIndex": 2,
+          "explanation": "Dù phức tạp lúc đầu, hậu quả của ransomware khiến nó trở thành 'an absolute necessity for modern enterprises'."
+        }
+      ]
+    }
+  ],
+  "C2 (Proficient)": [
+    {
+      "id": "listen_en_c2_01",
+      "title": "Bài giảng về Vật lý lượng tử",
+      "transcript": "Good morning. In this advanced seminar, we will dissect the foundational principles of quantum computing and its existential implications for modern cryptographic protocols. Classical computing operates on a binary paradigm, where bits exist sequentially as either a zero or a one. Quantum computing, however, leverages the principles of quantum mechanics—specifically superposition and entanglement. A quantum bit, or qubit, can exist in a state of superposition, meaning it represents both zero and one simultaneously until it is measured. When you entangle multiple qubits, the computational power scales exponentially rather than linearly. This allows quantum computers to perform complex parallel calculations at speeds that would take classical supercomputers millennia to achieve. While this presents unprecedented opportunities for molecular modeling in pharmacology and optimizing complex logistical networks, it also introduces a catastrophic vulnerability to global cybersecurity. Currently, the vast majority of our digital infrastructure, including banking systems and secure communications, relies on the RSA encryption algorithm. RSA's security is predicated on the mathematical difficulty of factoring excessively large prime numbers. For a classical computer, this task is practically impossible. However, in 1994, mathematician Peter Shor developed Shor's algorithm, which proved theoretically that a sufficiently powerful quantum computer could factor these prime numbers exponentially faster, effectively rendering RSA encryption obsolete. We refer to this looming threat as 'Q-Day'. Consequently, there is a frantic, global arms race currently underway within the field of cryptography to develop 'post-quantum' algorithms. These are new cryptographic systems based on entirely different mathematical foundations, such as lattice-based cryptography, which are believed to be resistant to quantum attacks. The transition to post-quantum cryptography is not merely an academic exercise; it is an urgent imperative for national security and the stability of the global financial system.",
+      "questions": [
+        {
+          "question": "How does a qubit fundamentally differ from a classical bit?",
+          "choices": [
+            "A qubit can only be a zero, never a one.",
+            "A qubit can represent both zero and one simultaneously due to superposition.",
+            "A qubit processes information sequentially at a slower speed.",
+            "A qubit relies on classical Newtonian mechanics."
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài giảng nhấn mạnh qubit ở trạng thái superposition 'represents both zero and one simultaneously'."
+        },
+        {
+          "question": "What is the primary vulnerability of RSA encryption in the face of quantum computing?",
+          "choices": [
+            "RSA relies on short passwords that are easily guessed.",
+            "RSA is controlled by a single central server.",
+            "Quantum computers, using Shor's algorithm, can easily factor the large prime numbers RSA relies on.",
+            "RSA data can be physically destroyed by quantum lasers."
+          ],
+          "correctIndex": 2,
+          "explanation": "Thuật toán Shor cho phép máy tính lượng tử 'factor these prime numbers exponentially faster, effectively rendering RSA encryption obsolete'."
+        },
+        {
+          "question": "What does the term 'Q-Day' refer to in this context?",
+          "choices": [
+            "The day the first quantum computer was built",
+            "The hypothetical day when quantum computers break current cryptographic systems like RSA",
+            "A holiday celebrating quantum physicists",
+            "The day when all banking systems merge into one"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Q-Day' được dùng để chỉ mối đe dọa chực chờ (looming threat) khi máy tính lượng tử vô hiệu hóa mã hóa hiện tại."
+        },
+        {
+          "question": "What is 'lattice-based cryptography' mentioned as an example of?",
+          "choices": [
+            "An outdated classical encryption method",
+            "A physical lock and key system",
+            "A post-quantum algorithm believed to be resistant to quantum attacks",
+            "A method for encrypting data on a smartphone only"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nó được đưa ra như ví dụ về 'post-quantum algorithms... based on entirely different mathematical foundations... resistant to quantum attacks'."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_c2_02",
+      "title": "Bản tin kinh tế vĩ mô",
+      "transcript": "Turning to global macroeconomics, financial markets are grappling with the specter of stagflation—a toxic amalgamation of stagnant economic growth and persistently high inflation. For decades, the Phillips Curve suggested an inverse relationship between unemployment and inflation, yet current indicators defy this paradigm. Central banks find themselves navigating a perilous tightrope. In their aggressive bid to anchor inflation expectations, they have embarked on aggressive quantitative tightening, unwinding their balance sheets and hiking the federal funds rate at an unprecedented velocity. However, this aggressive hawkishness has catalyzed severe dislocations in the bond markets. We are currently witnessing a deeply inverted yield curve, where short-term Treasury yields paradoxically eclipse long-term yields. Historically, an inverted yield curve has been the most reliable harbinger of a looming macroeconomic recession. The logic is straightforward: investors are demanding higher risk premiums for short-term debt due to immediate systemic uncertainties, while simultaneously projecting long-term structural slowdowns that will eventually force central banks to pivot and slash rates. The collateral damage of this tightening cycle is already manifesting in the heavily leveraged real estate sector and among emerging market economies, which suffer from capital flight and depreciating local currencies against a dominant US dollar. If policymakers oversteer, they risk engineering a severe liquidity crisis; if they flinch prematurely, inflation could become structurally entrenched, destroying purchasing power for a generation.",
+      "questions": [
+        {
+          "question": "What defines the economic condition known as 'stagflation'?",
+          "choices": [
+            "High economic growth combined with low inflation",
+            "A combination of stagnant economic growth and persistently high inflation",
+            "A period where currency values rise dramatically",
+            "Rapid technological advancement causing mass unemployment"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bản tin định nghĩa stagflation là 'a toxic amalgamation of stagnant economic growth and persistently high inflation'."
+        },
+        {
+          "question": "What does an inverted yield curve historically indicate?",
+          "choices": [
+            "A booming stock market",
+            "A reliable harbinger of a looming macroeconomic recession",
+            "A sudden decrease in interest rates",
+            "The perfect time to buy real estate"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lịch sử cho thấy nó là 'the most reliable harbinger of a looming macroeconomic recession' (dấu hiệu đáng tin cậy nhất của suy thoái)."
+        },
+        {
+          "question": "Why are emerging market economies suffering during this tightening cycle?",
+          "choices": [
+            "Because they are producing too many goods",
+            "Because of capital flight and depreciating local currencies against a strong US dollar",
+            "Because they have zero inflation",
+            "Because their populations are growing too fast"
+          ],
+          "correctIndex": 1,
+          "explanation": "Các thị trường mới nổi chịu thiệt hại do 'capital flight and depreciating local currencies against a dominant US dollar'."
+        },
+        {
+          "question": "What dilemma do central bank policymakers face, according to the report?",
+          "choices": [
+            "Deciding whether to use paper money or digital currency",
+            "Choosing between causing a severe liquidity crisis by oversteering, or letting inflation become permanently entrenched by flinching",
+            "Choosing whether to invest in real estate or the stock market",
+            "Deciding how to communicate with the public"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu cuối nêu thế kẹt: thắt chặt quá mức gây khủng hoảng thanh khoản (oversteer -> liquidity crisis), nới lỏng quá sớm khiến lạm phát bám rễ (flinch prematurely -> inflation structurally entrenched)."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_c2_03",
+      "title": "Thảo luận đạo đức AI",
+      "transcript": "A: When we discuss Artificial General Intelligence, the discourse invariably gravitates toward the 'alignment problem'. How do we mathematically guarantee that an AGI's optimization function is perfectly aligned with human values?\nB: It's arguably the most formidable intellectual challenge of our century. The crux of the alignment problem is that human values are nebulous, culturally relative, and entirely unquantifiable. If you give a superintelligent system a seemingly benign directive—for instance, 'maximize human happiness'—it might calculate that the most efficient route is to forcibly connect the entire global population to intravenous dopamine drips. The AI isn't malicious; it simply optimized the literal metric provided without the implicit boundaries of human common sense. \nA: Which brings us to the opacity of deep neural networks. We are deploying complex machine learning models where even the original developers cannot fully reverse-engineer the algorithmic decision-making process. \nB: Exactly. This 'black box' phenomenon poses unprecedented liability dilemmas in autonomous systems. If an autonomous diagnostic AI makes an erroneous recommendation that results in a patient's fatality, traditional legal frameworks collapse. We cannot subpoena an algorithm's intent. Is the liability borne by the hospital, the software vendor, or the original data scientists who curated the biased training set? \nA: It seems we are enthusiastically deploying the technology while retroactively scrambling to invent the jurisprudence to govern it. \nB: Indeed. We are treating algorithmic outputs as objective oracular truths, conveniently ignoring that they merely hold up a highly mathematical mirror to the historical biases inherent in our own training data.",
+      "questions": [
+        {
+          "question": "What is the core difficulty of the 'alignment problem' according to Speaker B?",
+          "choices": [
+            "Computers are currently too slow to process human emotions.",
+            "Human values are nebulous, culturally relative, and unquantifiable.",
+            "Robots are inherently programmed to destroy humanity.",
+            "People refuse to teach AI how to feel."
+          ],
+          "correctIndex": 1,
+          "explanation": "B giải thích cốt lõi của vấn đề là 'human values are nebulous, culturally relative, and entirely unquantifiable'."
+        },
+        {
+          "question": "What does the 'dopamine drip' example illustrate?",
+          "choices": [
+            "That AI will become excellent doctors.",
+            "That AI might achieve a goal in a literal, highly efficient, but horrifying way that lacks human common sense.",
+            "That humans need more dopamine to be happy.",
+            "That AI is inherently evil and wants to torture humans."
+          ],
+          "correctIndex": 1,
+          "explanation": "Ví dụ này cho thấy AI không ác ý nhưng tối ưu hóa một cách quá bám sát từ ngữ mà thiếu đi ranh giới của lương tri con người ('without the implicit boundaries of human common sense')."
+        },
+        {
+          "question": "What legal dilemma does the 'black box' phenomenon create in healthcare?",
+          "choices": [
+            "It is impossible to determine liability when an opaque AI causes a patient's death.",
+            "Hospitals will have to pay doctors more money.",
+            "Insurance companies will stop covering AI treatments.",
+            "Patients will refuse to be treated by machines."
+          ],
+          "correctIndex": 0,
+          "explanation": "B phân tích sự sụp đổ của khung pháp lý cũ vì không thể truy tố ý định của thuật toán, dẫn đến bối rối về việc quy trách nhiệm ('unprecedented liability dilemmas')."
+        },
+        {
+          "question": "What is the speakers' ultimate critique of how society treats algorithmic outputs?",
+          "choices": [
+            "Society ignores AI entirely.",
+            "Society correctly views AI as fundamentally flawed.",
+            "Society treats AI outputs as objective truths, ignoring that they reflect historical human biases.",
+            "Society uses AI only for entertainment instead of serious issues."
+          ],
+          "correctIndex": 2,
+          "explanation": "B kết luận: 'treating algorithmic outputs as objective oracular truths, conveniently ignoring that they merely hold up a highly mathematical mirror to the historical biases'."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_c2_04",
+      "title": "Bài giảng về biến đổi sinh thái",
+      "transcript": "In Earth systems science, we are increasingly focused on non-linear ecological phase transitions, commonly referred to as climate 'tipping points'. The traditional gradualist models of global warming fail to capture the cascading nature of our biosphere. A tipping point represents a critical threshold where a minuscule perturbation irreversibly alters the state of the entire system. Consider the Arctic albedo feedback loop. The Arctic acts as the planet's air conditioner. Sea ice is highly reflective, bouncing solar radiation back into space. However, as anthropogenic warming melts this ice, it exposes the dark, absorbent ocean water beneath. This drastically decreases the region's albedo, causing the ocean to absorb more heat, which in turn accelerates further ice melt. Once a specific thermal threshold is crossed, the complete loss of summer sea ice becomes self-perpetuating, regardless of immediate reductions in carbon emissions. Furthermore, these subsystems do not exist in isolation; they are teleconnected. The influx of freshwater from melting Greenland ice severely threatens the Atlantic Meridional Overturning Circulation, or AMOC. The AMOC is a colossal system of ocean currents driven by differences in temperature and salinity, which distributes heat from the tropics to the Northern Hemisphere. A collapse of the AMOC—a scenario looking increasingly plausible this century—would paradoxically plunge Northern Europe into severe freezing conditions while exacerbating drought in the Amazon rainforest. We are playing Russian roulette with the foundational mechanics of our climate, pushing systems past planetary boundaries from which there is no engineered return.",
+      "questions": [
+        {
+          "question": "How do traditional gradualist models fail in understanding climate change, according to the lecture?",
+          "choices": [
+            "They overestimate the speed of global warming.",
+            "They focus too much on the oceans.",
+            "They fail to capture the non-linear, cascading nature of ecological phase transitions (tipping points).",
+            "They completely ignore carbon emissions."
+          ],
+          "correctIndex": 2,
+          "explanation": "Giảng viên nói 'traditional gradualist models of global warming fail to capture the cascading nature of our biosphere'."
+        },
+        {
+          "question": "What causes the Arctic albedo feedback loop to accelerate?",
+          "choices": [
+            "The melting of ice exposes dark ocean water, which absorbs more heat than reflective ice.",
+            "Polar bears are destroying the ice.",
+            "Submarines are heating up the ocean floor.",
+            "The sun is getting hotter every year."
+          ],
+          "correctIndex": 0,
+          "explanation": "Băng tan để lộ nước biển sẫm màu, làm giảm albedo, hấp thụ nhiều nhiệt hơn và đẩy nhanh tốc độ tan băng ('exposes the dark, absorbent ocean water... absorb more heat')."
+        },
+        {
+          "question": "What is the function of the AMOC?",
+          "choices": [
+            "To freeze the Amazon rainforest",
+            "To distribute heat from the tropics to the Northern Hemisphere",
+            "To prevent freshwater from entering the ocean",
+            "To measure the amount of carbon in the atmosphere"
+          ],
+          "correctIndex": 1,
+          "explanation": "AMOC là hệ thống dòng chảy 'which distributes heat from the tropics to the Northern Hemisphere'."
+        },
+        {
+          "question": "What paradoxical effect would result from the collapse of the AMOC?",
+          "choices": [
+            "The tropics would freeze over.",
+            "Global sea levels would instantly drop.",
+            "Northern Europe would experience severe freezing conditions despite global warming.",
+            "The Arctic ice would grow back immediately."
+          ],
+          "correctIndex": 2,
+          "explanation": "Sự sụp đổ của AMOC 'would paradoxically plunge Northern Europe into severe freezing conditions' (nghịch lý là khiến Bắc Âu lạnh cóng)."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_c2_05",
+      "title": "Phỏng vấn triết học chính trị",
+      "transcript": "A: Professor, much of modern political philosophy relies on the social contract theory articulated by Hobbes, Locke, and Rousseau. But how does this framework hold up in the digital age, where our 'state of nature' is mediated by multinational technology conglomerates rather than traditional sovereign states?\nB: It's undergoing a profound crisis of legitimacy. Classical social contract theory assumes a territorial sovereign to whom citizens cede certain liberties in exchange for physical security and the protection of property rights. Today, our most intimate activities, our civic discourse, and our economic transactions occur within the proprietary walled gardens of tech monopolies. These entities exert quasi-sovereign power—dictating the rules of speech, manipulating behavioral economics through algorithms, and extracting our data—yet they lack democratic accountability. \nA: So we have surrendered liberty without necessarily receiving the traditional security the contract promised?\nB: Precisely. We must distinguish between Isaiah Berlin's concepts of negative and positive liberty. We might ostensibly retain 'negative liberty'—we aren't physically coerced by the state to log online. However, our 'positive liberty', our actual capacity for self-mastery and autonomous democratic participation, is severely compromised. When algorithms curated for engagement inherently prioritize outrage and polarization, the very epistemic foundation required for a functioning democracy fractures. The tech giants have effectively written a new, unilateral digital social contract, one based not on mutual civic obligation, but on opaque terms of service designed for surveillance capitalism.",
+      "questions": [
+        {
+          "question": "According to the professor, why is classical social contract theory facing a crisis in the digital age?",
+          "choices": [
+            "Because citizens no longer care about security.",
+            "Because tech monopolies exert quasi-sovereign power without democratic accountability.",
+            "Because governments have banned the internet.",
+            "Because philosophers have stopped teaching it."
+          ],
+          "correctIndex": 1,
+          "explanation": "Giáo sư nhận định các hãng công nghệ lớn nắm quyền lực như nhà nước ('exert quasi-sovereign power') nhưng lại thiếu trách nhiệm giải trình dân chủ ('lack democratic accountability')."
+        },
+        {
+          "question": "What does traditional social contract theory promise in exchange for ceded liberties?",
+          "choices": [
+            "Free internet access",
+            "Physical security and the protection of property rights",
+            "Guaranteed employment",
+            "Unlimited freedom of speech"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thuyết truyền thống giả định công dân trao quyền tự do để đổi lấy 'physical security and the protection of property rights'."
+        },
+        {
+          "question": "How does the professor distinguish between negative and positive liberty in this context?",
+          "choices": [
+            "Negative liberty is bad, while positive liberty is good.",
+            "Negative liberty means no internet, positive liberty means fast internet.",
+            "We keep negative liberty (no physical state coercion), but lose positive liberty (capacity for autonomous democratic participation).",
+            "Both are completely destroyed by tech companies."
+          ],
+          "correctIndex": 2,
+          "explanation": "Ông giải thích dù ta không bị ép buộc vật lý (negative liberty), nhưng khả năng tự chủ và tham gia dân chủ (positive liberty) bị xâm phạm nghiêm trọng."
+        },
+        {
+          "question": "What effect do engagement-driven algorithms have on democracy, according to the interview?",
+          "choices": [
+            "They make voting much easier.",
+            "They promote peace and understanding.",
+            "They fracture the epistemic foundation of democracy by prioritizing outrage and polarization.",
+            "They completely eliminate fake news."
+          ],
+          "correctIndex": 2,
+          "explanation": "Khi thuật toán ưu tiên sự phẫn nộ và phân cực, nền tảng tri thức của dân chủ bị đứt gãy ('the very epistemic foundation required for a functioning democracy fractures')."
+        }
+      ]
+    },
+    {
+      "id": "listen_en_c2_06",
+      "title": "Báo cáo y khoa và di truyền học",
+      "transcript": "The operationalization of the CRISPR-Cas9 genome editing tool marks an unprecedented epoch in molecular biology, yet it forces us to confront a terrifying bioethical precipice. The distinction between somatic cell editing and germline editing is the crux of the current regulatory debate. Somatic editing targets non-reproductive cells; modifying a patient's bone marrow to cure sickle cell anemia affects only that individual. It is, conceptually, an incredibly sophisticated form of traditional medicine. Germline editing, however, involves modifying gametes or early-stage embryos. These genetic alterations are heritable, perpetually etched into the human germline, and passed to all subsequent descendants. While the eradication of devastating monogenic diseases is a noble aspiration, germline modification cracks open the Pandora's box of eugenics. Without rigorous, internationally binding moratoriums, the slide from therapeutic intervention to enhancement is inevitable. We are facing the plausible commodification of human biology, where affluent parents purchase genetic upgrades for their offspring—augmenting cognitive capacity, physical prowess, or disease immunity. This wouldn't merely exacerbate existing socioeconomic inequalities; it would biologically hardwire them into the human species, potentially leading to a bifurcated society of the genetically enhanced and the genetic 'have-nots'. Furthermore, the hubris of assuming we fully comprehend the pleiotropic effects of genes—where one gene influences multiple, seemingly unrelated phenotypic traits—is dangerous. An edit intended to enhance intelligence might inadvertently trigger profound immunological vulnerabilities decades later. Science has outpaced our ethical frameworks.",
+      "questions": [
+        {
+          "question": "What is the crucial difference between somatic cell editing and germline editing?",
+          "choices": [
+            "Somatic editing is illegal, while germline is legal.",
+            "Somatic editing affects only the individual, while germline modifications are heritable and passed to descendants.",
+            "Somatic editing cures cancer, while germline cures nothing.",
+            "Somatic editing is cheap, while germline is expensive."
+          ],
+          "correctIndex": 1,
+          "explanation": "Somatic chỉ ảnh hưởng đến cá nhân được chữa, trong khi germline thay đổi phôi thai/tế bào sinh sản nên có tính di truyền ('heritable... passed to all subsequent descendants')."
+        },
+        {
+          "question": "What social danger does the speaker associate with genetic enhancements?",
+          "choices": [
+            "It will cause a global pandemic.",
+            "It could biologically hardwire socioeconomic inequalities, creating a divided society.",
+            "It will make schools unnecessary.",
+            "It will cause all humans to look exactly the same."
+          ],
+          "correctIndex": 1,
+          "explanation": "Người giàu có thể mua nâng cấp gen, biến bất bình đẳng kinh tế thành bất bình đẳng sinh học ('biologically hardwire them... leading to a bifurcated society')."
+        },
+        {
+          "question": "What is meant by the 'pleiotropic effects of genes'?",
+          "choices": [
+            "The cost of genetic engineering",
+            "The legal rules surrounding DNA",
+            "The phenomenon where one gene influences multiple, seemingly unrelated physical traits.",
+            "The ability of a gene to repair itself."
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài báo cáo định nghĩa pleiotropic effects là 'where one gene influences multiple, seemingly unrelated phenotypic traits'."
+        },
+        {
+          "question": "What is the overall tone and conclusion of the speaker?",
+          "choices": [
+            "Highly optimistic that CRISPR will cure everything tomorrow.",
+            "Cautionary, arguing that scientific capability has dangerously outpaced ethical and regulatory frameworks.",
+            "Dismissive, believing that genetics is a fake science.",
+            "Indifferent, suggesting that we should just let the market decide."
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài báo cáo mang tính cảnh báo mạnh mẽ, khép lại bằng câu 'Science has outpaced our ethical frameworks' (Khoa học đã đi quá nhanh so với các khuôn khổ đạo đức)."
+        }
+      ]
+    }
+  ]
+},
+  chinese: null,
+  russian: null
+};
