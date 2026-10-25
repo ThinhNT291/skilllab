@@ -7,6 +7,8 @@ export interface AttemptRow {
   estimated_bac: number
   scores: Record<string, number>
   note: string | null
+  /** Chi tiết lần chấm (cần migration 0009); null với bài cũ */
+  detail?: import("../grading/detail.ts").AttemptDetail | null
   created_at: string
 }
 

@@ -33,7 +33,7 @@
       {
         "id": "tag-questions-u2-do-does-did",
         "label": "Không có trợ động từ: mượn do/does/did",
-        "explanationVi": "Khi mệnh đề chính chỉ có một ĐỘNG TỪ THƯỜNG (không có is/are/have/can/will...) ở thì hiện tại đơn hoặc quá khứ đơn, phần đuôi phải mượn trợ động từ do-support: dùng 'do/don't' với I/you/we/they, 'does/doesn't' với chủ ngữ số ít ngôi ba (he/she/it) ở hiện tại đơn, và 'did/didn't' cho quá khứ đơn ở mọi chủ ngữ. Đây là điểm khác biệt cốt lõi so với usage số 1: usage 1 áp dụng khi câu ĐÃ CÓ trợ động từ/modal thì lặp lại chính từ đó; usage này chỉ áp dụng khi câu hoàn toàn KHÔNG có trợ động từ, bắt buộc phải 'mượn' do/does/did. Lỗi phổ biến là học viên dùng 'isn't it' cho câu có động từ thường như 'She works here' (đúng phải là 'doesn't she'), hoặc chia sai does/did theo ngôi và thì của động từ chính.",
+        "explanationVi": "Khi mệnh đề chính chỉ có một ĐỘNG TỪ THƯỜNG (không có is/are/have/can/will...) ở thì hiện tại đơn hoặc quá khứ đơn, phần đuôi phải mượn trợ động từ do-support: dùng 'do/don't' với I/you/we/they, 'does/doesn't' với chủ ngữ số ít ngôi ba (he/she/it) ở hiện tại đơn, và 'did/didn't' cho quá khứ đơn ở mọi chủ ngữ. Đây là điểm khác biệt cốt lõi so với usage số 1: usage 1 áp dụng khi câu ĐÃ CÓ trợ động từ/modal thì lặp lại chính từ đó; usage này chỉ áp dụng khi câu hoàn toàn KHÔNG có trợ động từ, bắt buộc phải 'mượn' do/does/did. Lỗi phổ biến là học viên dùng 'isn't it' cho câu có động từ thường như 'She works here' (đúng phải là 'doesn't she'), hoặc chia sai does/did theo ngôi và thì của động từ chính. Lưu ý với 'have': khi 'have' nghĩa là 'có/sở hữu' hoặc 'ăn/uống/có (bài tập)' (động từ thường), tiếng Anh Mỹ mượn do-support: 'The twins don't have homework, do they?' / 'She has a new car, doesn't she?'. Nếu dùng 'have got' thì 'have/has' là trợ động từ: 'She's got a new car, hasn't she?'. Tương tự, 'used to' thường mượn 'did': 'He used to live here, didn't he?'.",
         "examples": [
           {
             "en": "Tom plays tennis every weekend, doesn't he?",
@@ -42,6 +42,10 @@
           {
             "en": "The train arrived late again yesterday, didn't it?",
             "vi": "Chuyến tàu lại đến trễ hôm qua, đúng không?"
+          },
+          {
+            "en": "The twins don't have homework tonight, do they?",
+            "vi": "Tối nay hai đứa sinh đôi không có bài tập về nhà, đúng không?"
           }
         ],
         "bac": 3
@@ -49,7 +53,7 @@
       {
         "id": "tag-questions-u3-special-cases",
         "label": "Các trường hợp đặc biệt",
-        "explanationVi": "Một số cấu trúc có phần đuôi KHÔNG theo quy tắc trợ động từ thông thường mà là trường hợp cần học thuộc: (1) Với chủ ngữ 'I am' + tính từ/danh từ, tag luôn là 'aren't I?'; nếu mệnh đề là 'I am not', tag là 'am I?'. (2) Với câu MỆNH LỆNH (cả khẳng định lẫn phủ định, ví dụ 'Open the door' hay 'Don't be late'), tag thường dùng 'will you?' để yêu cầu ai đó làm gì. (3) Với câu rủ rê bắt đầu bằng 'Let's...', tag luôn là 'shall we?', dù là 'Let's...' hay 'Let's not...'. (4) Với câu có chủ ngữ giả 'There is/are/was/were/will be/has been...', tag phải lặp lại từ 'there' thay vì chuyển thành it/they — đây là lỗi học viên hay mắc nhất, nhầm 'there' thành 'it'.",
+        "explanationVi": "Một số cấu trúc có phần đuôi KHÔNG theo quy tắc trợ động từ thông thường mà là trường hợp cần học thuộc: (1) Với chủ ngữ 'I am' + tính từ/danh từ, tag luôn là 'aren't I?'; nếu mệnh đề là 'I am not', tag là 'am I?'. (2) Với câu MỆNH LỆNH (cả khẳng định lẫn phủ định, ví dụ 'Open the door' hay 'Don't be late'), tag thường dùng 'will you?' để yêu cầu ai đó làm gì (cũng gặp 'would you?', 'can you?'; bài này dùng 'will you' làm chuẩn). (3) Với câu rủ rê bắt đầu bằng 'Let's...', tag luôn là 'shall we?', dù là 'Let's...' hay 'Let's not...'. (4) Với câu có chủ ngữ giả 'There is/are/was/were/will be/has been...', tag phải lặp lại từ 'there' thay vì chuyển thành it/they — đây là lỗi học viên hay mắc nhất, nhầm 'there' thành 'it'.",
         "examples": [
           {
             "en": "Close the window, will you?",
@@ -65,7 +69,7 @@
       {
         "id": "tag-questions-u4-negative-words",
         "label": "Từ phủ định không có 'not' (never, no one, hardly...)",
-        "explanationVi": "Một số từ tuy không có 'not' nhưng mang NGHĨA PHỦ ĐỊNH: never, no/no one/nobody/nothing/none, hardly, scarcely, barely, rarely, seldom, few, little. Khi mệnh đề chính chứa các từ này, câu được xem là PHỦ ĐỊNH VỀ Ý NGHĨA, nên tag PHẢI Ở DẠNG KHẲNG ĐỊNH — đây là điểm khác biệt quan trọng nhất so với usage số 1, nơi tag chỉ dựa vào hình thức có/không có 'not' trên bề mặt câu chứ không dựa vào nghĩa ẩn. Ví dụ 'She never lies, does she?' chứ không phải 'doesn't she?' vì 'never' đã mang nghĩa phủ định sẵn rồi. Với đại từ bất định như 'no one/nobody' làm chủ ngữ, đại từ trong tag hiện đại thường dùng 'they' (số nhiều trung tính) thay vì 'he', theo cách dùng phổ biến trong tiếng Anh hiện đại (singular they).",
+        "explanationVi": "Một số từ tuy không có 'not' nhưng mang NGHĨA PHỦ ĐỊNH: never, no/no one/nobody/nothing/none, hardly, scarcely, barely, rarely, seldom, few, little. Khi mệnh đề chính chứa các từ này, câu được xem là PHỦ ĐỊNH VỀ Ý NGHĨA, nên tag PHẢI Ở DẠNG KHẲNG ĐỊNH — đây là điểm khác biệt quan trọng nhất so với usage số 1, nơi tag chỉ dựa vào hình thức có/không có 'not' trên bề mặt câu chứ không dựa vào nghĩa ẩn. Ví dụ 'She never lies, does she?' chứ không phải 'doesn't she?' vì 'never' đã mang nghĩa phủ định sẵn rồi. Với đại từ bất định như 'no one/nobody' làm chủ ngữ, đại từ trong tag hiện đại thường dùng 'they' (số nhiều trung tính) thay vì 'he', theo cách dùng phổ biến trong tiếng Anh hiện đại (singular they). Chú ý: 'a few' và 'a little' mang nghĩa KHẲNG ĐỊNH ('một vài', 'một ít') nên tag vẫn phủ định: 'A few people came, didn't they?'. Đại từ trong tag: 'nobody/no one/everybody/someone' dùng 'they'; 'nothing/everything/something' dùng 'it' (ví dụ 'Nothing happened, did it?'); với 'There is nothing...' thì giữ 'there'.",
         "examples": [
           {
             "en": "He hardly ever exercises these days, does he?",
@@ -132,12 +136,16 @@
     "commonMistakes": [
       {
         "id": "tag-questions-m1",
-        "note": "Ở đây 'has' là ĐỘNG TỪ THƯỜNG mang nghĩa sở hữu, không phải trợ động từ hoàn thành, nên tag phải mượn do-support 'doesn't she', khác với 'She has finished her homework, hasn't she?' khi 'has' là trợ động từ.",
+        "note": "Ở đây 'has' là ĐỘNG TỪ THƯỜNG mang nghĩa sở hữu, nên tag mượn do-support và đối lập cực: 'doesn't she'. (Nếu là 'has got' hoặc 'has' trợ động từ hoàn thành thì dùng 'hasn't she'; tiếng Anh Anh đôi khi nói 'She has a new car, hasn't she?', nhưng bài này theo Anh-Mỹ.) Lỗi ở ví dụ sai là tag khẳng định theo sau mệnh đề khẳng định.",
         "examples": [
           {
             "wrong": "She has a new car, does she?",
             "correct": "She has a new car, doesn't she?"
           }
+        ],
+        "usageIds": [
+          "tag-questions-u2-do-does-did",
+          "tag-questions-u1-basic-rule"
         ]
       },
       {
@@ -148,6 +156,9 @@
             "wrong": "There isn't any milk left, is it?",
             "correct": "There isn't any milk left, is there?"
           }
+        ],
+        "usageIds": [
+          "tag-questions-u3-special-cases"
         ]
       },
       {
@@ -158,6 +169,9 @@
             "wrong": "Nobody answered the phone, didn't they?",
             "correct": "Nobody answered the phone, did they?"
           }
+        ],
+        "usageIds": [
+          "tag-questions-u4-negative-words"
         ]
       },
       {
@@ -168,6 +182,9 @@
             "wrong": "Let's have lunch now, will we?",
             "correct": "Let's have lunch now, shall we?"
           }
+        ],
+        "usageIds": [
+          "tag-questions-u3-special-cases"
         ]
       },
       {
@@ -178,7 +195,10 @@
             "correct": "I'm right, aren't I?"
           }
         ],
-        "note": "'I am' luôn ghép với tag 'aren't I' (ngoại lệ cần học thuộc); không dùng 'amn't I', và 'am I not' quá trang trọng trong văn nói thông thường. Ví dụ khác: I'm invited to the party, aren't I?"
+        "note": "'I am' luôn ghép với tag 'aren't I' (ngoại lệ cần học thuộc); không dùng 'amn't I', và 'am I not' quá trang trọng trong văn nói thông thường. Ví dụ khác: I'm invited to the party, aren't I?",
+        "usageIds": [
+          "tag-questions-u3-special-cases"
+        ]
       },
       {
         "id": "tag-questions-m6",
@@ -188,6 +208,9 @@
             "wrong": "Open the window, do you?",
             "correct": "Open the window, will you?"
           }
+        ],
+        "usageIds": [
+          "tag-questions-u3-special-cases"
         ]
       },
       {
@@ -198,6 +221,9 @@
             "wrong": "Dad was cooking when I got home, wasn't I?",
             "correct": "Dad was cooking when I got home, wasn't he?"
           }
+        ],
+        "usageIds": [
+          "tag-questions-u1-basic-rule"
         ]
       }
     ],

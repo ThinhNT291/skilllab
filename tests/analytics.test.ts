@@ -21,7 +21,7 @@ test("chuỗi ngày: hôm nay chưa học thì chuỗi vẫn tính đến hôm q
 
 test("chuỗi ngày: đứt chuỗi khi bỏ qua một ngày; best là chuỗi dài nhất", () => {
   const counts = countByDay([at(2026, 10, 10), at(2026, 10, 11), at(2026, 10, 12), at(2026, 10, 20)])
-  const s = computeStreaks(counts, new Date(2026, 9, 22))
+  const s = computeStreaks(counts, new Date(2026, 9, 23))
   assert.equal(s.current, 0)
   assert.equal(s.best, 3)
 })
@@ -69,4 +69,26 @@ test("độ chính xác theo tuần: chia đúng tuần thứ Hai–Chủ nhật
   assert.deepEqual([b[2].attempts, b[2].correct], [2, 1]) // tuần này: thứ Hai và thứ Tư
   assert.deepEqual([b[1].attempts, b[1].correct], [1, 1]) // Chủ nhật 15/3 thuộc tuần trước
   assert.deepEqual([b[0].attempts, b[0].correct], [0, 0])
+})
+
+test("chuỗi ngày: bỏ 1 ngày thì chuỗi vẫn giữ (ngày nghỉ không được cộng)", () => {
+  const counts = countByDay([at(2026, 10, 19), at(2026, 10, 20), at(2026, 10, 22)])
+  const s = computeStreaks(counts, new Date(2026, 9, 22, 20))
+  assert.equal(s.current, 3)
+  assert.equal(s.best, 3)
+})
+
+test("chuỗi ngày: chỉ được 1 ngày nghỉ mỗi 7 ngày; nghỉ lần hai trong 7 ngày thì đứt", () => {
+  const counts = countByDay([at(2026, 10, 15), at(2026, 10, 17), at(2026, 10, 19)])
+  const s = computeStreaks(counts, new Date(2026, 9, 19, 20))
+  assert.equal(s.current, 1)
+  assert.equal(s.best, 2)
+})
+
+test("chuỗi ngày: hôm qua nghỉ, hôm nay chưa học vẫn còn chuỗi (onRestDay); nghỉ 2 ngày thì mất", () => {
+  const counts = countByDay([at(2026, 10, 20), at(2026, 10, 21)])
+  const s = computeStreaks(counts, new Date(2026, 9, 23, 9))
+  assert.equal(s.current, 2)
+  assert.equal(s.onRestDay, true)
+  assert.equal(computeStreaks(counts, new Date(2026, 9, 24, 9)).current, 0)
 })

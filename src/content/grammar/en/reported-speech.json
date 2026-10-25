@@ -133,6 +133,9 @@
             "wrong": "She said she is happy.",
             "correct": "She said she was happy."
           }
+        ],
+        "usageIds": [
+          "rs-u1-statements-backshift"
         ]
       },
       {
@@ -143,6 +146,10 @@
             "wrong": "He asked me where did I live.",
             "correct": "He asked me where I lived."
           }
+        ],
+        "usageIds": [
+          "rs-u2-yes-no-questions",
+          "rs-u3-wh-questions"
         ]
       },
       {
@@ -153,6 +160,10 @@
             "wrong": "She asked that if I was ready.",
             "correct": "She asked if I was ready."
           }
+        ],
+        "usageIds": [
+          "rs-u2-yes-no-questions",
+          "rs-u3-wh-questions"
         ]
       },
       {
@@ -164,7 +175,10 @@
             "correct": "He said he would call me the next day."
           }
         ],
-        "note": "Khi thuật lại vào một ngày sau đó, 'tomorrow' phải đổi thành 'the next day'."
+        "note": "Khi thuật lại vào một ngày sau đó, 'tomorrow' phải đổi thành 'the next day'.",
+        "usageIds": [
+          "rs-u5-time-place-pronoun-changes"
+        ]
       },
       {
         "id": "reported-speech-m5",
@@ -175,7 +189,10 @@
             "correct": "She told me not to open the window."
           }
         ],
-        "note": "Dạng 'to not + V' cũng gặp trong tiếng Anh-Mỹ, nhưng bài này dạy dạng 'not to + V'."
+        "note": "Dạng 'to not + V' cũng gặp trong tiếng Anh-Mỹ, nhưng bài này dạy dạng 'not to + V'.",
+        "usageIds": [
+          "rs-u4-commands-requests"
+        ]
       }
     ]
   }

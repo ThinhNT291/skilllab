@@ -637,9 +637,9 @@
     "correctIndex": 3,
     "explanation": "Neither + trợ động từ khẳng định + S.",
     "choiceExplanations": [
-      "Không chọn — 'Neither was he.' câu này đúng nên không phải đáp án cần chọn.",
-      "Không chọn — 'Neither do I.' câu này đúng nên không phải đáp án cần chọn.",
-      "Không chọn — 'Nor has she.' câu này đúng nên không phải đáp án cần chọn.",
+      "Sai — 'Neither was he.': câu này đúng ngữ pháp nên không phải câu sai cần tìm.",
+      "Sai — 'Neither do I.': câu này đúng ngữ pháp nên không phải câu sai cần tìm.",
+      "Sai — 'Nor has she.': câu này đúng ngữ pháp nên không phải câu sai cần tìm.",
       "Đúng — sau Neither phải dùng dạng khẳng định: Neither does he know..."
     ]
   },
@@ -1357,7 +1357,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "A: I'd already finished my homework when Mom came home. B: So ______ I.",
     "choices": [
-      "did",
+      "have",
       "would",
       "was",
       "had"
@@ -1365,7 +1365,7 @@
     "correctIndex": 3,
     "explanation": "'d có thể là had: I'd already finished = I had already finished → So had I. ('So did I' vẫn nghe được trong lời nói thân mật nhưng không giữ đúng thì quá khứ hoàn thành.)",
     "choiceExplanations": [
-      "Sai (nhưng không hẳn vô lý) — 'So did I' vẫn nghe được trong hội thoại thân mật, song nó được hiểu là quá khứ đơn 'tôi cũng đã làm xong'. Câu gốc I'd already finished = I had already finished nhấn việc xảy ra TRƯỚC lúc mẹ về, nên 'So had I' khớp hơn.",
+      "Sai — 'have': 'have' là hiện tại hoàn thành, còn 'I'd already finished' là quá khứ hoàn thành (had). Lưu ý: 'So did I' vẫn nghe được trong lời nói thân mật, nhưng So had I giữ đúng thì.",
       "Sai — 'would': 'd ở đây không phải would, vì theo sau là 'already finished' (phân từ quá khứ).",
       "Sai — 'was': 'was' dùng với be, còn câu gốc không dùng be.",
       "Đúng — 'I'd already finished' là I had already finished (quá khứ hoàn thành) nên đáp lại: So had I."

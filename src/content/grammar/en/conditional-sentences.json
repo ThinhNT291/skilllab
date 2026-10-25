@@ -176,7 +176,10 @@
             "correct": "If it rains..."
           }
         ],
-        "note": "Mệnh đề If luôn dùng thì hiện tại/quá khứ; thì tương lai/giả định chỉ dùng ở mệnh đề chính."
+        "note": "Mệnh đề If luôn dùng thì hiện tại/quá khứ; thì tương lai/giả định chỉ dùng ở mệnh đề chính.",
+        "usageIds": [
+          "cond-u2-first"
+        ]
       },
       {
         "id": "conditional-sentences-m2",
@@ -187,7 +190,10 @@
             "correct": "If I were you..."
           }
         ],
-        "note": "Trong tiếng Anh chuẩn, đặc biệt ở ngữ cảnh trang trọng, dùng 'were' cho mọi chủ ngữ (If I were, If she were) thay vì 'was'."
+        "note": "Trong tiếng Anh chuẩn, đặc biệt ở ngữ cảnh trang trọng, dùng 'were' cho mọi chủ ngữ (If I were, If she were) thay vì 'was'.",
+        "usageIds": [
+          "cond-u3-second"
+        ]
       },
       {
         "id": "conditional-sentences-m3",
@@ -197,6 +203,9 @@
             "wrong": "would had done / would done",
             "correct": "would have + V3/ed"
           }
+        ],
+        "usageIds": [
+          "cond-u4-third"
         ]
       }
     ]

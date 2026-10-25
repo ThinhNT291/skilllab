@@ -2,11 +2,11 @@
 
 import { useEffect, useRef, useState } from "react"
 import Link from "next/link"
-import type { AnswerRecord, Exercise, McqExercise } from "@/lib/content/types"
+import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { sfx } from "@/lib/audio/sfx"
 import { applySprint, initialSprint, sprintTitle, SPRINT_SECONDS, type SprintState } from "@/lib/game/sprint"
 import { useSettings } from "@/lib/settings"
-import { McqView, type Result } from "@/components/exercise/views"
+import { ExerciseView, type Result } from "@/components/exercise/views"
 import { ProgressBar } from "@/components/exercise/progress-bar"
 
 const NEXT_DELAY_MS = 700
@@ -20,10 +20,10 @@ function loadBest(key: string): number {
 }
 
 /**
- * Game mini "thử thách 60 giây": nhận danh sách câu trắc nghiệm, trả điểm.
+ * Game mini bấm giờ 60 giây (thử thách từ vựng, xếp từ chạy đua, nghe-gõ): nhận danh sách câu bất kỳ, trả điểm.
  * Độc lập với nguồn nội dung; `onAnswer` để nơi dùng ghi kết quả. `bestKey` là khóa lưu điểm cao nhất theo máy.
  */
-export function SprintGame({ exercises, onAnswer, bestKey, backHref }: { exercises: McqExercise[]; onAnswer?: (record: AnswerRecord, exercise: Exercise) => void; bestKey: string; backHref: string }) {
+export function SprintGame({ exercises, onAnswer, bestKey, backHref, intro }: { exercises: Exercise[]; onAnswer?: (record: AnswerRecord, exercise: Exercise) => void; bestKey: string; backHref: string; intro?: string }) {
   const { sound } = useSettings()
   const [phase, setPhase] = useState<"ready" | "run" | "done">("ready")
   const [left, setLeft] = useState(SPRINT_SECONDS)
@@ -97,7 +97,7 @@ export function SprintGame({ exercises, onAnswer, bestKey, backHref }: { exercis
         <p className="text-5xl" aria-hidden="true">
           ⚡
         </p>
-        <p className="mt-2 text-xl font-extrabold">Trả lời thật nhiều câu trong {SPRINT_SECONDS} giây</p>
+        <p className="mt-2 text-xl font-extrabold">{intro ?? `Trả lời thật nhiều câu trong ${SPRINT_SECONDS} giây`}</p>
         <p className="text-muted-foreground">Mỗi câu đúng 10 điểm, đúng liên tiếp 5 câu được thưởng thêm. Sai không bị trừ điểm.</p>
         <button
           type="button"
@@ -149,7 +149,7 @@ export function SprintGame({ exercises, onAnswer, bestKey, backHref }: { exercis
           {stats.score} <span className="text-sm text-muted-foreground">điểm</span>
         </p>
       </div>
-      <McqView key={exercises[index].id} ex={exercises[index]} result={result} onResolve={resolve} />
+      <ExerciseView key={exercises[index].id} ex={exercises[index]} result={result} onResolve={resolve} />
     </div>
   )
 }

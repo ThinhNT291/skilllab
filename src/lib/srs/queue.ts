@@ -22,3 +22,18 @@ export function limitNewCards<T extends SchedState>(cards: T[], newDoneToday: nu
   }
   return { cards: kept, deferred }
 }
+
+/**
+ * Xen kẽ chuyên đề trong hàng chờ: thẻ liền nhau không cùng chuyên đề khi còn lựa chọn (giữ nguyên thứ tự ưu tiên trong từng chuyên đề).
+ * Hàm thuần; không đổi số thẻ.
+ */
+export function interleaveByTopic<T extends { topic: string }>(cards: T[]): T[] {
+  const rest = [...cards]
+  const out: T[] = []
+  while (rest.length) {
+    const last = out.length ? out[out.length - 1].topic : null
+    const idx = rest.findIndex((c) => c.topic !== last)
+    out.push(...rest.splice(idx === -1 ? 0 : idx, 1))
+  }
+  return out
+}

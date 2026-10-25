@@ -145,6 +145,9 @@
             "wrong": "When I arrived, the meeting already finished.",
             "correct": "When I arrived, the meeting had already finished."
           }
+        ],
+        "usageIds": [
+          "pastperf-u2-sequence-of-events"
         ]
       },
       {
@@ -155,6 +158,9 @@
             "wrong": "She already left when I called her.",
             "correct": "She had already left when I called her."
           }
+        ],
+        "usageIds": [
+          "pastperf-u2-sequence-of-events"
         ]
       },
       {
@@ -165,6 +171,9 @@
             "wrong": "By the time he was 20, he has traveled to five countries.",
             "correct": "By the time he was 20, he had traveled to five countries."
           }
+        ],
+        "usageIds": [
+          "pastperf-u1-before-past-point"
         ]
       },
       {
@@ -176,7 +185,10 @@
             "correct": "Yesterday I went to school and met my friend."
           }
         ],
-        "note": "Hai việc diễn ra bình thường, không có việc nào cần nhấn mạnh là xảy ra trước việc kia."
+        "note": "Hai việc diễn ra bình thường, không có việc nào cần nhấn mạnh là xảy ra trước việc kia.",
+        "usageIds": [
+          "pastperf-u2-sequence-of-events"
+        ]
       }
     ],
     "formulas": {

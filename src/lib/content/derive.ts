@@ -1,6 +1,6 @@
 import { answerVariants } from "../grading.ts"
 import { cardContentFromExercise } from "../srs/card-from-exercise.ts"
-import type { CardSource, DictationExercise, Exercise, McqExercise, ReorderExercise, SpotExercise, TypedExercise } from "./types.ts"
+import type { CardSource, FixExercise, DictationExercise, Exercise, McqExercise, ReorderExercise, SpotExercise, TypedExercise } from "./types.ts"
 
 /**
  * Sinh câu biến thể (sắp xếp từ, gõ đáp án, nghe chép) từ câu trắc nghiệm gốc đã được kiểm định.
@@ -115,8 +115,8 @@ export function deriveDictation(ex: McqExercise): DictationExercise | null {
   }
 }
 
-/** Tìm lỗi: điền một đáp án sai (có lời giải thích bắt đầu bằng "Sai") vào chỗ trống duy nhất rồi cho người học chạm vào chỗ sai. */
-export function deriveSpot(ex: McqExercise, rng: Rng = Math.random): SpotExercise | null {
+/** Điền một đáp án sai (có lời giải thích bắt đầu bằng "Sai") vào chỗ trống duy nhất; dùng chung cho dạng tìm lỗi và sửa lỗi. */
+function wrongSentenceOf(ex: McqExercise, rng: Rng) {
   const filled = filledOf(ex)
   if (!filled || NOT_A_SENTENCE.test(ex.prompt) || !ex.choiceExplanations || ex.choiceExplanations.length !== ex.choices.length) return null
   const blank = /_{2,}/.exec(ex.prompt)
@@ -131,25 +131,66 @@ export function deriveSpot(ex: McqExercise, rng: Rng = Math.random): SpotExercis
   const errorFrom = strip(ex.prompt.slice(0, blank.index)).trim().split(/\s+/).filter(Boolean).length
   const errorTo = errorFrom + ex.choices[wi].trim().split(/\s+/).length - 1
   if (errorTo >= words.length) return null
+  return { filled, sentence: sentence.trim(), words, errorFrom, errorTo, explanation: ex.choiceExplanations[wi].replace(/^Sai\.?\s*[—-]?\s*/, "") }
+}
+
+/** Tìm lỗi: cho người học chạm vào chỗ sai trong câu đã điền một đáp án sai. */
+export function deriveSpot(ex: McqExercise, rng: Rng = Math.random): SpotExercise | null {
+  const w = wrongSentenceOf(ex, rng)
+  if (!w) return null
   return {
     ...shared(ex, "spot"),
     kind: "spot",
     prompt: "Chạm vào chỗ sai trong câu",
-    words,
-    errorFrom,
-    errorTo,
-    correctSentence: filled,
-    explanation: ex.choiceExplanations[wi].replace(/^Sai\.?\s*[—-]?\s*/, ""),
+    words: w.words,
+    errorFrom: w.errorFrom,
+    errorTo: w.errorTo,
+    correctSentence: w.filled,
+    explanation: w.explanation,
     card: cardOf(ex),
   }
 }
 
-/** Thay tối đa `max` câu trắc nghiệm trong một lượt bằng biến thể (sắp xếp hoặc gõ) để lượt luyện đa dạng hơn. */
-export function mixVariants(exercises: Exercise[], rng: Rng = Math.random, max = 3): Exercise[] {
+/** Sửa lỗi: cho câu có lỗi, người học gõ lại cả câu đã sửa (khó hơn tìm lỗi vì phải tự tạo câu đúng). */
+export function deriveFix(ex: McqExercise, rng: Rng = Math.random): FixExercise | null {
+  const w = wrongSentenceOf(ex, rng)
+  if (!w) return null
+  return {
+    ...shared(ex, "fix"),
+    kind: "fix",
+    prompt: "Câu này có một lỗi. Gõ lại cả câu đã sửa.",
+    wrongSentence: w.sentence,
+    answers: answerVariants(w.filled),
+    explanation: w.explanation,
+    card: cardOf(ex),
+  }
+}
+
+/**
+ * Hỗ trợ giảm dần theo vị trí trong lượt: đầu lượt có gợi ý (chữ cái đầu và số từ), giữa lượt chỉ còn số từ, cuối lượt không gợi ý.
+ * Nhờ vậy độ khó thay đổi theo màn chứ không chỉ theo nội dung câu.
+ */
+export type Scaffold = 0 | 1 | 2
+export function scaffoldFor(index: number, total: number): Scaffold {
+  if (total <= 1) return 0
+  const r = index / (total - 1)
+  return r < 0.34 ? 2 : r < 0.67 ? 1 : 0
+}
+
+/** Kiểu câu được phép ở từng vị trí: 3 câu đầu giữ trắc nghiệm (làm quen); giữa lượt sắp xếp/tìm lỗi; cuối lượt gõ đáp án/sửa lỗi/tìm lỗi. */
+function optionsFor(ex: McqExercise, index: number, total: number, rng: Rng): Exercise[] {
+  const r = total <= 1 ? 1 : index / (total - 1)
+  if (r < 0.3) return []
+  const pool: (Exercise | null)[] = r < 0.7 ? [deriveReorder(ex, rng), deriveSpot(ex, rng)] : [deriveTyped(ex), deriveFix(ex, rng), deriveSpot(ex, rng)]
+  return pool.filter((x): x is Exercise => x !== null)
+}
+
+/** Thay tối đa `max` câu trắc nghiệm trong một lượt bằng biến thể, theo vị trí: càng về cuối càng khó (xem optionsFor). */
+export function mixVariants(exercises: Exercise[], rng: Rng = Math.random, max = 4): Exercise[] {
   const candidates: { index: number; options: Exercise[] }[] = []
   exercises.forEach((ex, index) => {
     if (ex.kind !== "mcq") return
-    const options = [deriveReorder(ex, rng), deriveTyped(ex), deriveSpot(ex, rng)].filter((x): x is ReorderExercise | TypedExercise | SpotExercise => x !== null)
+    const options = optionsFor(ex, index, exercises.length, rng)
     if (options.length) candidates.push({ index, options })
   })
   const result = [...exercises]

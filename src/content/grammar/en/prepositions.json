@@ -176,7 +176,10 @@
       {
         "id": "prepositions-m1",
         "description": "Nhầm lẫn các buổi trong ngày: nói 'in the morning', 'in the afternoon', 'in the evening' nhưng dùng 'at night' hoặc 'at noon'; 'in the night' thường chỉ xuất hiện trong một số cụm cố định (in the dead of night, woke up in the night) chứ không dùng thay thế 'at night' một cách tuỳ tiện.",
-        "examples": []
+        "examples": [],
+        "usageIds": [
+          "prep-u1-time"
+        ]
       },
       {
         "id": "prepositions-m2",
@@ -186,6 +189,9 @@
             "wrong": "married with",
             "correct": "married to"
           }
+        ],
+        "usageIds": [
+          "prep-u4-adjective-prep"
         ]
       },
       {
@@ -197,7 +203,11 @@
             "correct": "arrive at the airport"
           }
         ],
-        "note": "Dùng 'arrive at' với địa điểm nhỏ; 'arrive in' (vd: arrive in London) với thành phố/quốc gia."
+        "note": "Dùng 'arrive at' với địa điểm nhỏ; 'arrive in' (vd: arrive in London) với thành phố/quốc gia.",
+        "usageIds": [
+          "prep-u5-verb-prep",
+          "prep-u3-movement"
+        ]
       }
     ]
   }

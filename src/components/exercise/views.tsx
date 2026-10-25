@@ -1,10 +1,17 @@
 "use client"
 
 import { useState } from "react"
-import type { DictationExercise, McqExercise, ReorderExercise, SpotExercise, TypedExercise } from "@/lib/content/types"
+import type { Exercise, DictationExercise, McqExercise, ReorderExercise, SpotExercise, FixExercise, TypedExercise } from "@/lib/content/types"
 import { gradeReorder, gradeSpot, gradeTyped } from "@/lib/grading"
 import { speak, stopSpeaking, useTtsSupported } from "@/lib/audio/tts"
+import { sfx } from "@/lib/audio/sfx"
+import { getSettings } from "@/lib/settings"
 import { cn } from "@/lib/utils"
+
+/** Tiếng "bấm" nhẹ khi chạm các nút phụ (không phải nộp đáp án, vì đúng/sai đã có âm riêng). */
+function tap() {
+  if (getSettings().sound) sfx.click()
+}
 import { ChoiceButton } from "./choice-button"
 
 /** Kết quả một lần trả lời, dùng chung cho mọi kiểu câu. */
@@ -65,7 +72,10 @@ export function ReorderView({ ex, result, onResolve }: { ex: ReorderExercise; re
             key={`${poolIndex}-${pos}`}
             type="button"
             disabled={done}
-            onClick={() => setPicked((p) => p.filter((_, k) => k !== pos))}
+            onClick={() => {
+              tap()
+              setPicked((p) => p.filter((_, k) => k !== pos))
+            }}
             className="rounded-xl border-2 border-b-4 border-primary bg-card px-3 py-1.5 text-lg font-extrabold enabled:active:translate-y-[2px] enabled:active:border-b-2"
           >
             {ex.pool[poolIndex]}
@@ -78,7 +88,10 @@ export function ReorderView({ ex, result, onResolve }: { ex: ReorderExercise; re
             key={i}
             type="button"
             disabled={done || picked.includes(i)}
-            onClick={() => setPicked((p) => [...p, i])}
+            onClick={() => {
+              tap()
+              setPicked((p) => [...p, i])
+            }}
             className="rounded-xl border-2 border-b-4 border-border bg-card px-3 py-1.5 text-lg font-extrabold enabled:hover:border-primary enabled:active:translate-y-[2px] enabled:active:border-b-2 disabled:opacity-30"
           >
             {w}
@@ -90,7 +103,10 @@ export function ReorderView({ ex, result, onResolve }: { ex: ReorderExercise; re
           <button type="button" className={PRIMARY_BTN} disabled={picked.length !== ex.pool.length} onClick={check}>
             Kiểm tra
           </button>
-          <button type="button" className={GHOST_BTN} disabled={picked.length === 0} onClick={() => setPicked([])}>
+          <button type="button" className={GHOST_BTN} disabled={picked.length === 0} onClick={() => {
+              tap()
+              setPicked([])
+            }}>
             Xóa hết
           </button>
         </div>
@@ -99,7 +115,7 @@ export function ReorderView({ ex, result, onResolve }: { ex: ReorderExercise; re
   )
 }
 
-function TextAnswer({ placeholder, result, accepted, onResolve, multiline = false }: { placeholder: string; result: Result | null; accepted: string[]; onResolve: (r: Result) => void; multiline?: boolean }) {
+function TextAnswer({ placeholder, result, accepted, onResolve, multiline = false, hint }: { placeholder: string; result: Result | null; accepted: string[]; onResolve: (r: Result) => void; multiline?: boolean; hint?: string | null }) {
   const [text, setText] = useState("")
   const done = result !== null
   const tone = done ? (result.correct ? "border-success bg-success-soft" : "border-danger bg-danger-soft") : "border-border"
@@ -120,6 +136,7 @@ function TextAnswer({ placeholder, result, accepted, onResolve, multiline = fals
   }
   return (
     <>
+      {hint && !done && <p className="mb-2 text-sm font-extrabold text-muted-foreground">💡 {hint}</p>}
       {multiline ? (
         <textarea {...common} rows={2} aria-label="Câu bạn nghe được" />
       ) : (
@@ -141,11 +158,31 @@ function TextAnswer({ placeholder, result, accepted, onResolve, multiline = fals
   )
 }
 
-export function TypedView({ ex, result, onResolve }: { ex: TypedExercise; result: Result | null; onResolve: (r: Result) => void }) {
+/** Gợi ý giảm dần theo màn (xem scaffoldFor): 2 = chữ cái đầu và số từ, 1 = chỉ số từ, 0 = không gợi ý. */
+function hintFor(answer: string, scaffold: 0 | 1 | 2): string | null {
+  const words = answer.trim().split(/\s+/).length
+  if (scaffold === 2) return `Đáp án có ${words} từ, bắt đầu bằng “${answer.trim()[0]}”.`
+  if (scaffold === 1) return `Đáp án có ${words} từ.`
+  return null
+}
+
+export function TypedView({ ex, result, onResolve, scaffold = 0 }: { ex: TypedExercise; result: Result | null; onResolve: (r: Result) => void; scaffold?: 0 | 1 | 2 }) {
   return (
     <>
       <p className="my-2 mb-4 text-2xl font-extrabold leading-relaxed">{ex.prompt}</p>
-      <TextAnswer placeholder="Gõ đáp án cho chỗ trống" result={result} accepted={ex.answers} onResolve={onResolve} />
+      <TextAnswer placeholder="Gõ đáp án cho chỗ trống" result={result} accepted={ex.answers} onResolve={onResolve} hint={hintFor(ex.answers[0], scaffold)} />
+    </>
+  )
+}
+
+export function FixView({ ex, result, onResolve, scaffold = 0 }: { ex: FixExercise; result: Result | null; onResolve: (r: Result) => void; scaffold?: 0 | 1 | 2 }) {
+  return (
+    <>
+      <p className="my-2 text-muted-foreground">{ex.prompt}</p>
+      <p className="mb-3 rounded-game border-2 border-danger bg-danger-soft px-4 py-3 text-2xl font-extrabold leading-relaxed" lang="en">
+        {ex.wrongSentence}
+      </p>
+      <TextAnswer placeholder="Gõ lại cả câu đã sửa" result={result} accepted={ex.answers} onResolve={onResolve} multiline hint={scaffold === 2 ? "Chỉ sai một chỗ (một từ hoặc một cụm). Giữ nguyên phần còn lại." : null} />
     </>
   )
 }
@@ -209,4 +246,22 @@ export function SpotView({ ex, result, onResolve }: { ex: SpotExercise; result: 
       </div>
     </>
   )
+}
+
+/** Hiện đúng view cho một câu bất kỳ (dùng cho các game bấm giờ nhận danh sách câu hỗn hợp). */
+export function ExerciseView({ ex, result, onResolve, scaffold = 0 }: { ex: Exercise; result: Result | null; onResolve: (r: Result) => void; scaffold?: 0 | 1 | 2 }) {
+  switch (ex.kind) {
+    case "mcq":
+      return <McqView ex={ex} result={result} onResolve={onResolve} />
+    case "reorder":
+      return <ReorderView ex={ex} result={result} onResolve={onResolve} />
+    case "typed":
+      return <TypedView ex={ex} result={result} onResolve={onResolve} scaffold={scaffold} />
+    case "fix":
+      return <FixView ex={ex} result={result} onResolve={onResolve} scaffold={scaffold} />
+    case "spot":
+      return <SpotView ex={ex} result={result} onResolve={onResolve} />
+    case "dictation":
+      return <DictationView ex={ex} result={result} onResolve={onResolve} />
+  }
 }

@@ -28,34 +28,65 @@ function addDays(d: Date, n: number): Date {
 }
 
 export interface Streaks {
-  /** Số ngày liên tiếp đến hôm nay (hôm nay chưa học thì tính đến hôm qua, để chuỗi chưa đứt giữa ngày). */
+  /** Số ngày học trong chuỗi hiện tại. Một ngày nghỉ (tối đa 1 ngày nghỉ mỗi 7 ngày) không làm đứt chuỗi và không được cộng. */
   current: number
-  /** Chuỗi dài nhất trong khoảng dữ liệu đã có. */
+  /** Chuỗi dài nhất trong khoảng dữ liệu đã có (cùng luật ngày nghỉ). */
   best: number
   /** Hôm nay đã có hoạt động chưa. */
   activeToday: boolean
+  /** Chuỗi đang giữ nhờ một ngày nghỉ (hôm qua nghỉ): hôm nay học là chuỗi vẫn tiếp. */
+  onRestDay: boolean
 }
 
-export function computeStreaks(counts: Map<string, number>, today: Date = new Date()): Streaks {
-  const activeToday = (counts.get(dayKey(today)) ?? 0) > 0
-  let cursor = activeToday ? today : addDays(today, -1)
-  let current = 0
-  while ((counts.get(dayKey(cursor)) ?? 0) > 0) {
-    current++
-    cursor = addDays(cursor, -1)
-  }
+const REST_COOLDOWN_DAYS = 7
 
-  const days = [...counts.keys()].sort()
+function daysBetween(a: string, b: string): number {
+  return Math.round((new Date(`${b}T00:00:00`).getTime() - new Date(`${a}T00:00:00`).getTime()) / 86400000)
+}
+
+/**
+ * Luật "ngày nghỉ": bỏ đúng 1 ngày giữa hai ngày học thì chuỗi vẫn giữ, nhưng chỉ được 1 lần như vậy trong mỗi 7 ngày.
+ * Mục đích: học đều quan trọng hơn học không nghỉ; một hôm bận không nên xóa công sức nhiều tuần (xem docs/hoc-thuat-dong-luc.md).
+ */
+export function computeStreaks(counts: Map<string, number>, today: Date = new Date()): Streaks {
+  const todayKey = dayKey(today)
+  const activeToday = (counts.get(todayKey) ?? 0) > 0
+  const days = [...counts.entries()].filter(([, n]) => n > 0).map(([k]) => k).filter((k) => k <= todayKey).sort()
+
   let best = 0
   let run = 0
-  let prev: Date | null = null
+  let lastRest: string | null = null
+  let prev: string | null = null
   for (const k of days) {
-    const d = new Date(`${k}T00:00:00`)
-    run = prev && dayKey(addDays(prev, 1)) === k ? run + 1 : 1
+    if (!prev) run = 1
+    else {
+      const gap = daysBetween(prev, k) - 1 // số ngày bỏ trống ở giữa
+      const restOk = lastRest === null || daysBetween(lastRest, k) >= REST_COOLDOWN_DAYS
+      if (gap === 0) run++
+      else if (gap === 1 && restOk) {
+        run++
+        lastRest = dayKey(addDays(new Date(`${prev}T00:00:00`), 1))
+      } else {
+        run = 1
+        lastRest = null
+      }
+    }
     best = Math.max(best, run)
-    prev = d
+    prev = k
   }
-  return { current, best: Math.max(best, current), activeToday }
+
+  let current = 0
+  let onRestDay = false
+  if (prev) {
+    const missed = daysBetween(prev, todayKey) - (activeToday ? 0 : 1) // ngày trống đã qua hẳn (không tính hôm nay chưa kết thúc)
+    const restOk = lastRest === null || daysBetween(lastRest, todayKey) >= REST_COOLDOWN_DAYS
+    if (activeToday ? missed <= 0 : missed === 0) current = run
+    else if (!activeToday && missed === 1 && restOk) {
+      current = run
+      onRestDay = true
+    }
+  }
+  return { current, best: Math.max(best, current), activeToday, onRestDay }
 }
 
 export interface HeatCell {

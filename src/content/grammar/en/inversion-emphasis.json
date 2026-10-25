@@ -191,6 +191,10 @@
       "wrong": "Seldom she complains about her homework.",
       "correct": "Seldom does she complain about her homework."
      }
+    ],
+    "usageIds": [
+     "inv-u1-negative-adverbials",
+     "inv-u5-form-rules"
     ]
    },
    {
@@ -201,6 +205,9 @@
       "wrong": "Rarely does he goes to the gym.",
       "correct": "Rarely does he go to the gym."
      }
+    ],
+    "usageIds": [
+     "inv-u5-form-rules"
     ]
    },
    {
@@ -211,6 +218,9 @@
       "wrong": "No sooner had I left when it rained.",
       "correct": "No sooner had I left than it rained."
      }
+    ],
+    "usageIds": [
+     "inv-u3-hardly-no-sooner"
     ]
    },
    {
@@ -221,6 +231,9 @@
       "wrong": "Under no circumstances you should leave the door open.",
       "correct": "Under no circumstances should you leave the door open."
      }
+    ],
+    "usageIds": [
+     "inv-u7-no-circumstances"
     ]
    },
    {
@@ -231,6 +244,9 @@
       "wrong": "Rarely does he is late.",
       "correct": "Rarely is he late."
      }
+    ],
+    "usageIds": [
+     "inv-u5-form-rules"
     ]
    }
   ]

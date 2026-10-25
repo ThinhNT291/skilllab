@@ -163,6 +163,10 @@
             "wrong": "At noon tomorrow, she will be sleep.",
             "correct": "At noon tomorrow, she will be sleeping."
           }
+        ],
+        "usageIds": [
+          "fc-u5-form",
+          "fc-u1-in-progress-at-future-time"
         ]
       },
       {
@@ -173,6 +177,9 @@
             "wrong": "When you will arrive tomorrow, I will be waiting at the gate.",
             "correct": "When you arrive tomorrow, I will be waiting at the gate."
           }
+        ],
+        "usageIds": [
+          "fc-u7-time-clauses"
         ]
       },
       {
@@ -183,6 +190,9 @@
             "wrong": "In a few weeks, you will be knowing the answer.",
             "correct": "In a few weeks, you will know the answer."
           }
+        ],
+        "usageIds": [
+          "fc-u6-state-verbs"
         ]
       }
     ]

@@ -149,6 +149,9 @@
             "wrong": "Hanoi, that is the capital of Vietnam...",
             "correct": "Hanoi, which is the capital of Vietnam..."
           }
+        ],
+        "usageIds": [
+          "rc-u5-defining-nondefining"
         ]
       },
       {
@@ -160,7 +163,11 @@
             "correct": "The man who is reading a book is my dad."
           }
         ],
-        "note": "Chữ 'he' bị thừa, phải bỏ đi."
+        "note": "Chữ 'he' bị thừa, phải bỏ đi.",
+        "usageIds": [
+          "rc-u1-who-whom",
+          "rc-u2-which-that"
+        ]
       },
       {
         "id": "relative-clauses-m3",
@@ -170,6 +177,9 @@
             "wrong": "The car what I bought...",
             "correct": "The car which/that I bought..."
           }
+        ],
+        "usageIds": [
+          "rc-u2-which-that"
         ]
       }
     ]

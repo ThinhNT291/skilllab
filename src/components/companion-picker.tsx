@@ -6,7 +6,7 @@ import { AGE_SETS, CHARACTERS, updateSettings, useSettings } from "@/lib/setting
 
 /** Chọn nhân vật đồng hành và bộ giao diện theo tuổi. Lưu theo máy. */
 export function CompanionPicker() {
-  const { character, ageSet } = useSettings()
+  const { character, ageSet, feedbackMode, calmMode } = useSettings()
   const opt = (active: boolean) => cn("rounded-game border-2 bg-card px-3 py-3 text-center transition-colors", active ? "border-primary" : "border-border hover:border-primary")
   return (
     <div className="space-y-4">
@@ -30,6 +30,32 @@ export function CompanionPicker() {
               <span className="block text-sm text-muted-foreground">{a.hint}</span>
             </button>
           ))}
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend className="mb-2 font-extrabold">Khi làm sai lần đầu (câu gõ, sắp xếp, sửa lỗi)</legend>
+        <div className="grid grid-cols-2 gap-2">
+          <button type="button" className={opt(feedbackMode === "immediate")} aria-pressed={feedbackMode === "immediate"} onClick={() => updateSettings({ feedbackMode: "immediate" })}>
+            <span className="block font-extrabold">Xem đáp án ngay</span>
+            <span className="block text-sm text-muted-foreground">Nhanh, nhẹ nhàng</span>
+          </button>
+          <button type="button" className={opt(feedbackMode === "hint-first")} aria-pressed={feedbackMode === "hint-first"} onClick={() => updateSettings({ feedbackMode: "hint-first" })}>
+            <span className="block font-extrabold">Gợi ý rồi thử lại</span>
+            <span className="block text-sm text-muted-foreground">Tự nghĩ thêm một lần</span>
+          </button>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend className="mb-2 font-extrabold">Áp lực khi học</legend>
+        <div className="grid grid-cols-2 gap-2">
+          <button type="button" className={opt(!calmMode)} aria-pressed={!calmMode} onClick={() => updateSettings({ calmMode: false })}>
+            <span className="block font-extrabold">Có chuỗi ngày và mục tiêu</span>
+            <span className="block text-sm text-muted-foreground">Giúp học đều mỗi ngày</span>
+          </button>
+          <button type="button" className={opt(calmMode)} aria-pressed={calmMode} onClick={() => updateSettings({ calmMode: true })}>
+            <span className="block font-extrabold">Nhẹ nhàng</span>
+            <span className="block text-sm text-muted-foreground">Ẩn chuỗi ngày và mục tiêu</span>
+          </button>
         </div>
       </fieldset>
     </div>

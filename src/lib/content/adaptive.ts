@@ -20,9 +20,15 @@ export const START_POSITION = 0.1
 const STEP_UP = 0.14
 const STEP_DOWN = 0.18
 
+/**
+ * Bước nhảy cho bài trắc nghiệm thích ứng: lên ít, xuống nhiều để vị trí ổn định quanh tỷ lệ đúng khoảng 80%
+ * (cân bằng khi lên × tỷ lệ đúng = xuống × tỷ lệ sai: 0,05 × 0,8 = 0,2 × 0,2).
+ */
+export const MCQ_STEPS = { up: 0.05, down: 0.2 }
+
 /** Vị trí mới trên thang (0 = dễ nhất, 1 = khó nhất) sau một câu trả lời. */
-export function nextPosition(position: number, correct: boolean): number {
-  return Math.min(1, Math.max(0, position + (correct ? STEP_UP : -STEP_DOWN)))
+export function nextPosition(position: number, correct: boolean, steps: { up: number; down: number } = { up: STEP_UP, down: STEP_DOWN }): number {
+  return Math.min(1, Math.max(0, position + (correct ? steps.up : -steps.down)))
 }
 
 /** Chọn câu chưa dùng gần vị trí mục tiêu nhất trên thang; gần bằng nhau thì chọn ngẫu nhiên. */

@@ -85,15 +85,15 @@
       {
         "id": "present-perfect-continuous-u5-contrast",
         "label": "Phân biệt với Present Perfect đơn và Present Continuous",
-        "explanationVi": "Đây là usage tổng hợp giúp học viên chốt lại ba quy tắc lựa chọn thì quan trọng nhất: (1) Present Perfect Continuous vs Present Perfect đơn — dùng thể tiếp diễn khi nhấn mạnh QUÁ TRÌNH/THỜI LƯỢNG và hành động có thể CHƯA hoàn toàn xong ('I have been painting the fence' — có thể chưa xong hẳn), dùng thể đơn khi nhấn mạnh KẾT QUẢ/SỰ HOÀN THÀNH hoặc SỐ LƯỢNG cụ thể ('I have painted the fence' — công việc đã xong). (2) Present Perfect Continuous vs Present Continuous — Present Continuous ('I am painting') chỉ diễn tả hành động đang xảy ra NGAY BÂY GIỜ, không có yếu tố 'kể từ quá khứ đến hiện tại', trong khi Present Perfect Continuous luôn cần yếu tố NỐI QUÁ KHỨ VỚI HIỆN TẠI ('have/has been') — lỗi rất phổ biến của người học là bỏ quên 'have/has been' và chỉ dùng dạng V-ing như Present Continuous. (3) Động từ trạng thái (own, know, want, believe...) không dùng thể tiếp diễn: dùng thể đơn, ví dụ 'She has owned this laptop since last summer', còn hành động liên tục như 'use' thì dùng 'has been using'. Với 'yet' (trong câu phủ định/câu hỏi), nói về kết quả chưa hoàn tất thì dùng thể đơn: 'hasn't finished yet'.",
+        "explanationVi": "Đây là usage tổng hợp giúp học viên chốt lại ba quy tắc lựa chọn thì quan trọng nhất: (1) Present Perfect Continuous vs Present Perfect đơn — dùng thể tiếp diễn khi nhấn mạnh QUÁ TRÌNH/THỜI LƯỢNG và hành động có thể CHƯA hoàn toàn xong ('I have been painting the fence' — có thể chưa xong hẳn), dùng thể đơn khi nhấn mạnh KẾT QUẢ/SỰ HOÀN THÀNH hoặc SỐ LƯỢNG cụ thể ('I have painted the fence' — công việc đã xong). (2) Present Perfect Continuous vs Present Continuous — Present Continuous ('I am painting') chỉ diễn tả hành động đang xảy ra NGAY BÂY GIỜ, không có yếu tố 'kể từ quá khứ đến hiện tại', trong khi Present Perfect Continuous luôn cần yếu tố NỐI QUÁ KHỨ VỚI HIỆN TẠI ('have/has been') — lỗi rất phổ biến của người học là bỏ quên 'have/has been' và chỉ dùng dạng V-ing như Present Continuous. (3) Động từ trạng thái (own, know, belong, believe...) không dùng thể tiếp diễn (với want/love, văn nói thân mật đôi khi vẫn gặp 'I've been wanting to…', nhưng ở mức này hãy dùng thể đơn): dùng thể đơn, ví dụ 'She has owned this laptop since last summer', còn hành động liên tục như 'use' thì dùng 'has been using'. Với 'yet' (trong câu phủ định/câu hỏi), nói về kết quả chưa hoàn tất thì dùng thể đơn: 'hasn't finished yet'.",
         "examples": [
           {
-            "en": "I have painted the fence. (đã sơn xong, kết quả hoàn tất — Present Perfect đơn)",
-            "vi": "Tôi đã sơn xong hàng rào rồi. (nhấn mạnh kết quả đã hoàn thành)"
+            "en": "I have painted the fence.",
+            "vi": "Tôi đã sơn xong hàng rào rồi. (Present Perfect đơn: nhấn mạnh kết quả đã hoàn thành)"
           },
           {
-            "en": "I have been painting the fence all day. (nhấn mạnh quá trình, có thể chưa xong hẳn — Present Perfect Continuous)",
-            "vi": "Tôi đã sơn hàng rào suốt cả ngày. (nhấn mạnh quá trình kéo dài, chưa chắc đã xong)"
+            "en": "I have been painting the fence all day.",
+            "vi": "Tôi đã sơn hàng rào suốt cả ngày. (Present Perfect Continuous: nhấn mạnh quá trình kéo dài, chưa chắc đã xong)"
           },
           {
             "en": "She has been working on it for a month, but she hasn't finished it yet.",
@@ -150,6 +150,9 @@
             "wrong": "I have been knowing him for years.",
             "correct": "I have known him for years."
           }
+        ],
+        "usageIds": [
+          "present-perfect-continuous-u5-contrast"
         ]
       },
       {
@@ -160,6 +163,10 @@
             "wrong": "I am studying English for two years.",
             "correct": "I have been studying English for two years."
           }
+        ],
+        "usageIds": [
+          "present-perfect-continuous-u1-duration",
+          "present-perfect-continuous-u5-contrast"
         ]
       },
       {
@@ -170,6 +177,9 @@
             "wrong": "She has working here since March.",
             "correct": "She has been working here since March."
           }
+        ],
+        "usageIds": [
+          "present-perfect-continuous-u1-duration"
         ]
       },
       {
@@ -180,6 +190,10 @@
             "wrong": "I have been reading this book three times this year.",
             "correct": "I have read this book three times this year."
           }
+        ],
+        "usageIds": [
+          "present-perfect-continuous-u3-emphasis",
+          "present-perfect-continuous-u5-contrast"
         ]
       },
       {
@@ -190,6 +204,9 @@
             "wrong": "He have been waiting for an hour.",
             "correct": "He has been waiting for an hour."
           }
+        ],
+        "usageIds": [
+          "present-perfect-continuous-u1-duration"
         ]
       },
       {
@@ -200,6 +217,9 @@
             "wrong": "I have been living here for 2015.",
             "correct": "I have been living here since 2015."
           }
+        ],
+        "usageIds": [
+          "present-perfect-continuous-u1-duration"
         ]
       }
     ],

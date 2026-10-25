@@ -2,22 +2,28 @@ import Link from "next/link"
 import { connection } from "next/server"
 import { notFound } from "next/navigation"
 import { getExercises, getGrammarTopic } from "@/lib/content/grammar"
-import { deriveDictation, mixVariants, shuffle } from "@/lib/content/derive"
+import { deriveDictation, deriveReorder, mixVariants, shuffle } from "@/lib/content/derive"
 import { pickMatchPairs } from "@/lib/content/match"
+import { SprintSession } from "@/components/game/sprint-session"
 import { MatchSession } from "@/components/game/match-session"
 import { buildLadder, pickAtPosition, START_POSITION } from "@/lib/content/adaptive"
 import { pickHardRound, pickRound, pickRoundForTag } from "@/lib/content/rounds"
+import { buildRuleHints, pickWarmup, usagesInRound } from "@/lib/content/rule-hints"
+import { PreLesson } from "./pre-lesson"
+import { AdaptivePractice } from "./adaptive-practice"
+import { itemRating } from "@/lib/progress/ability"
 import { TestSession } from "./test-session"
 import { PracticeSession } from "./practice-session"
 
 /** Một lượt luyện của một chuyên đề. Mỗi lần mở là một lượt câu khác nhau (chạy lúc có yêu cầu, không dựng sẵn lúc build). */
-export async function PracticeRound({ topic, mode = "normal", tag }: { topic: string; mode?: "normal" | "hard" | "dictation" | "match" | "test"; tag?: string }) {
+export async function PracticeRound({ topic, mode = "normal", tag }: { topic: string; mode?: "normal" | "hard" | "dictation" | "match" | "test" | "race" | "listen-type" | "adaptive"; tag?: string }) {
   await connection()
   const data = await getGrammarTopic("en", topic)
   if (!data) notFound()
   const all = await getExercises("en", topic)
   if (!all.length) notFound()
 
+  const rules = buildRuleHints(data.theory, topic)
   const tagLabel = tag ? data.theory.usages.find((u) => u.id === tag)?.label : undefined
   if (mode === "match") {
     const pairs = pickMatchPairs(all)
@@ -34,6 +40,36 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
     )
   }
 
+  if (mode === "adaptive") {
+    const ladder = shuffle(all.filter((e) => e.kind === "mcq")).sort((a, b) => itemRating(a.bac ?? 2, a.difficulty) - itemRating(b.bac ?? 2, b.difficulty))
+    if (ladder.length < 12) notFound()
+    return (
+      <>
+        <Link href={`/hoc/${topic}`} className="text-sm text-primary underline underline-offset-4">
+          ← {data.title}
+        </Link>
+        <h1 className="mt-2 text-3xl font-extrabold">Luyện thích ứng 🎯</h1>
+        <p className="mb-2 text-muted-foreground">Câu hỏi tự chọn vừa sức với bạn: làm đúng thì khó dần từ từ, sai thì dễ lại ngay để bạn không nản.</p>
+        <AdaptivePractice ladder={ladder} theoryBase={`/hoc/${topic}`} rules={rules} />
+      </>
+    )
+  }
+
+  if (mode === "race" || mode === "listen-type") {
+    const pool = shuffle(all).flatMap((e) => (e.kind === "mcq" ? ((mode === "race" ? deriveReorder(e) : deriveDictation(e)) ?? []) : []))
+    if (pool.length < 8) notFound()
+    return (
+      <>
+        <Link href={`/hoc/${topic}`} className="text-sm text-primary underline underline-offset-4">
+          ← {data.title}
+        </Link>
+        <h1 className="mt-2 text-3xl font-extrabold">{mode === "race" ? "Xếp từ chạy đua ⚡" : "Nghe và gõ ⚡"}</h1>
+        <p className="mb-4 text-muted-foreground">{mode === "race" ? "Sắp xếp các từ thành câu đúng, càng nhiều càng tốt trong 60 giây." : "Nghe câu rồi gõ lại thật nhanh, càng nhiều càng tốt trong 60 giây."}</p>
+        <SprintSession exercises={pool.slice(0, 40)} bestKey={`skilllab.sprintBest.${topic}.${mode}`} backHref={`/hoc/${topic}`} intro={mode === "race" ? "Xếp thật nhiều câu trong 60 giây" : "Nghe và gõ thật nhiều câu trong 60 giây"} />
+      </>
+    )
+  }
+
   if (mode === "test") {
     // Bài kiểm tra chỉ dùng câu trắc nghiệm đã kiểm định, không trộn biến thể, để chuẩn đạt công bằng giữa các lần làm.
     const questions = pickRound(all.filter((e) => e.kind === "mcq"))
@@ -45,7 +81,9 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
         </Link>
         <h1 className="mt-2 text-3xl font-extrabold">Kiểm tra cuối chủ điểm 🏅</h1>
         <p className="mb-4 text-muted-foreground">10 câu, đúng từ 8 câu là đạt. Làm hết lượt mới biết kết quả.</p>
-        <TestSession exercises={questions} topic={topic} topicTitle={data.title} />
+        <PreLesson rules={usagesInRound(questions).map((id) => rules[id]).filter(Boolean)} warmup={pickWarmup(all, questions)} topicHref={`/hoc/${topic}`} required>
+          <TestSession exercises={questions} topic={topic} topicTitle={data.title} rules={rules} />
+        </PreLesson>
       </>
     )
   }
@@ -75,7 +113,13 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
       <h1 className="mt-2 text-3xl font-extrabold">{title}</h1>
       {subtitle && <p className="mb-4 text-muted-foreground">{subtitle}</p>}
       {!subtitle && <div className="mb-4" />}
-      <PracticeSession exercises={exercises} adaptive={adaptive} theoryBase={`/hoc/${topic}`} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
+      {mode === "normal" && !tagLabel ? (
+        <PreLesson rules={usagesInRound(exercises).map((id) => rules[id]).filter(Boolean)} warmup={pickWarmup(all, exercises)} topicHref={`/hoc/${topic}`}>
+          <PracticeSession exercises={exercises} theoryBase={`/hoc/${topic}`} rules={rules} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
+        </PreLesson>
+      ) : (
+        <PracticeSession exercises={exercises} adaptive={adaptive} theoryBase={`/hoc/${topic}`} rules={rules} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
+      )}
     </>
   )
 }

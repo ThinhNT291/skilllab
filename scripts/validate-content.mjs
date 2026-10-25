@@ -37,6 +37,8 @@ for (const lang of fs.readdirSync(path.join(root, 'grammar'))) {
       if (typeof m !== 'object' || !m.id) { at(`commonMistakes phải là đối tượng có id: ${JSON.stringify(m).slice(0, 60)}`); continue }
       if (seenMistake.has(m.id)) at(`mistake id trùng: ${m.id}`)
       seenMistake.add(m.id)
+      if (!Array.isArray(m.usageIds) || m.usageIds.length === 0) at(`mistake ${m.id}: thiếu usageIds`)
+      else for (const uid of m.usageIds) if (!ids.has(uid)) at(`mistake ${m.id}: usageIds trỏ tới mục không có: ${uid}`)
       if (!m.description && !m.note && !(m.examples ?? []).length) at(`mistake ${m.id} rỗng`)
       for (const e of m.examples ?? []) if (!e.wrong || !e.correct || e.wrong === e.correct) at(`mistake ${m.id}: ví dụ thiếu hoặc sai trùng đúng`)
     }

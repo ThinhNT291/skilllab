@@ -65,7 +65,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
       <ActivityPanel />
       <ProfilePanel />
       <TrendPanel rows={state.rows} />
-      <AttemptsPanel />
+      <AttemptsPanel catalog={catalog} />
       <section className="grid grid-cols-3 gap-3 text-center" aria-label="Tổng quan">
         <Stat value={String(s.total)} label="câu đã làm" />
         <Stat value={`${accuracy}%`} label="trả lời đúng" />

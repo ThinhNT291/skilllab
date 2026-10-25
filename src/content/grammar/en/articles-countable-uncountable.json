@@ -133,6 +133,10 @@
             "wrong": "I have dog and I like it very much.",
             "correct": "I have a dog and I like it very much."
           }
+        ],
+        "usageIds": [
+          "art-u1-indefinite-article",
+          "art-u4-countable-uncountable"
         ]
       },
       {
@@ -144,6 +148,10 @@
             "wrong": "She gave me an advice before the interview.",
             "correct": "She gave me some advice before the interview."
           }
+        ],
+        "usageIds": [
+          "art-u4-countable-uncountable",
+          "art-u1-indefinite-article"
         ]
       },
       {
@@ -155,6 +163,9 @@
             "wrong": "He is a honest man who never lies.",
             "correct": "He is an honest man who never lies."
           }
+        ],
+        "usageIds": [
+          "art-u1-indefinite-article"
         ]
       },
       {
@@ -166,6 +177,10 @@
             "wrong": "The money can't buy real happiness.",
             "correct": "Money can't buy real happiness."
           }
+        ],
+        "usageIds": [
+          "art-u3-zero-article",
+          "art-u2-definite-article"
         ]
       }
     ]

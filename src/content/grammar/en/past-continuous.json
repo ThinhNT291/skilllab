@@ -155,6 +155,9 @@
             "wrong": "I read a book when the doorbell rang.",
             "correct": "I was reading a book when the doorbell rang."
           }
+        ],
+        "usageIds": [
+          "pastcont-u2-interrupted-action"
         ]
       },
       {
@@ -165,6 +168,9 @@
             "wrong": "They was watching TV at 9 p.m.",
             "correct": "They were watching TV at 9 p.m."
           }
+        ],
+        "usageIds": [
+          "pastcont-u1-action-in-progress-at-specific-time"
         ]
       },
       {
@@ -175,6 +181,9 @@
             "wrong": "She was siting at her desk and writeing a letter.",
             "correct": "She was sitting at her desk and writing a letter."
           }
+        ],
+        "usageIds": [
+          "pastcont-u1-action-in-progress-at-specific-time"
         ]
       },
       {
@@ -186,6 +195,10 @@
             "wrong": "While the phone rang, I was taking a shower.",
             "correct": "While I was taking a shower, the phone rang."
           }
+        ],
+        "usageIds": [
+          "pastcont-u2-interrupted-action",
+          "past-simple-vs-continuous"
         ]
       },
       {
@@ -200,6 +213,9 @@
             "wrong": "He wasn't studying not.",
             "correct": "He wasn't studying."
           }
+        ],
+        "usageIds": [
+          "pastcont-u1-action-in-progress-at-specific-time"
         ]
       }
     ],

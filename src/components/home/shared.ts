@@ -9,6 +9,7 @@ export const SKILLS = [
 export const MORE = [
   { href: "/on-tap", icon: "🃏", title: "Ôn tập", desc: "Thẻ ôn cách quãng" },
   { href: "/tien-do", icon: "📈", title: "Tiến độ", desc: "Chuỗi ngày, điểm mạnh yếu" },
+  { href: "/luyen-xen-ke", icon: "🔀", title: "Luyện xen kẽ", desc: "Trộn các thì dễ lẫn" },
   { href: "/tran-cuoi", icon: "🐉", title: "Trùm cuối", desc: "Đấu với mục hay sai" },
   { href: "/cua-hang", icon: "🛍", title: "Cửa hàng", desc: "Đổi xu lấy đồ cho cú" },
   { href: "/xep-trinh-do", icon: "🧭", title: "Xếp trình độ", desc: "20 câu gợi ý chỗ bắt đầu" },

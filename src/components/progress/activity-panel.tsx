@@ -17,7 +17,7 @@ const DAY_LABELS = ["T2", "T3", "T4", "T5", "T6", "T7", "CN"]
 /** Chuỗi ngày học, mục tiêu hôm nay và bản đồ nhiệt 12 tuần. */
 export function ActivityPanel() {
   const [counts, setCounts] = useState<Map<string, number> | null>(null)
-  const { dailyGoal: DAILY_GOAL } = useSettings()
+  const { dailyGoal: DAILY_GOAL, calmMode } = useSettings()
 
   useEffect(() => {
     let cancelled = false
@@ -44,7 +44,7 @@ export function ActivityPanel() {
       <h2 id="activity-heading" className="sr-only">
         Chuỗi ngày học
       </h2>
-      <div className="grid grid-cols-1 gap-3 min-[420px]:grid-cols-2">
+      {!calmMode && <div className="grid grid-cols-1 gap-3 min-[420px]:grid-cols-2">
         <div className="rounded-game border-2 border-border bg-card px-4 py-3">
           <p className="text-3xl font-extrabold">
             <span aria-hidden="true">🔥 </span>
@@ -52,7 +52,7 @@ export function ActivityPanel() {
             <span className="ml-1 text-base text-muted-foreground">ngày</span>
           </p>
           <p className="text-sm text-muted-foreground">
-            {streak.current === 0 ? "Học hôm nay để bắt đầu chuỗi" : streak.activeToday ? "chuỗi ngày liên tiếp" : "giữ chuỗi: học hôm nay nhé"} · dài nhất {streak.best}
+            {streak.current === 0 ? "Học hôm nay để bắt đầu một chuỗi mới" : streak.activeToday ? "ngày học đều" : streak.onRestDay ? "hôm qua nghỉ cũng không sao; học hôm nay là chuỗi vẫn tiếp" : "học hôm nay để chuỗi tiếp tục"} · dài nhất {streak.best}. Mỗi tuần được nghỉ 1 ngày.
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-3 rounded-game border-2 border-border bg-card px-4 py-3">
@@ -89,7 +89,7 @@ export function ActivityPanel() {
             </div>
           </div>
         </div>
-      </div>
+      </div>}
 
       <div className="rounded-game border-2 border-border bg-card p-4">
         <p className="mb-2 font-extrabold">12 tuần gần nhất</p>

@@ -800,7 +800,7 @@
       "It's 9 p.m., so the shops will have closed by now.",
       "It's 9 p.m., so the shops will had closed by now.",
       "It's 9 p.m., so the shops will have close by now.",
-      "It's 9 p.m., so the shops will have been close by now."
+      "It's 9 p.m., so the shops will have closing by now."
     ],
     "correctIndex": 0,
     "explanation": "Will have + V3 + by now diễn tả suy đoán về hiện tại.",
@@ -808,7 +808,7 @@
       "Đúng — 'will have closed by now' đoán việc đã xảy ra rồi tính đến lúc này.",
       "Sai — 'It's 9 p.m., so the shops will had closed by now.': sau will phải dùng 'have', không dùng 'had'.",
       "Sai — 'It's 9 p.m., so the shops will have close by now.': sau 'have' phải dùng V3 (closed).",
-      "Sai — 'It's 9 p.m., so the shops will have been close by now.': sau 'been' phải dùng V-ing hoặc V3 phù hợp; 'close' sai dạng."
+      "Sai — 'It's 9 p.m., so the shops will have closing by now.': sau 'have' phải dùng V3 (closed), không dùng V-ing."
     ]
   },
   {
@@ -1164,7 +1164,7 @@
       "will get",
       "will had gotten",
       "will have gotten",
-      "would have gotten"
+      "had gotten"
     ],
     "correctIndex": 2,
     "explanation": "Đoán việc đã xong tính đến bây giờ: will have + V3 + by now.",
@@ -1172,7 +1172,7 @@
       "Sai — 'will get': 'will get' nói về tương lai, trong khi 'by now' nói về hiện tại.",
       "Sai — 'will had gotten': sau will phải dùng 'have', không dùng 'had'.",
       "Đúng — 'will have gotten': đoán một việc đã xảy ra xong tính đến lúc nói ('by now'): will have + V3. (Lưu ý: 'gotten' là dạng Anh-Mỹ; 'has gotten' hoặc 'must have gotten' cũng tự nhiên trong đời thường nhưng không dùng để kiểm tra ở đây.)",
-      "Sai — 'would have gotten': would have + V3 nói điều giả định trong quá khứ, không phải đoán về lúc này."
+      "Sai — 'had gotten': quá khứ hoàn thành nói việc xảy ra trước một mốc trong quá khứ, không dùng để đoán về lúc này ('by now')."
     ]
   },
   {
@@ -1275,7 +1275,7 @@
     "choices": [
       "Lan's train will reach Hue by noon tomorrow.",
       "By noon tomorrow, Lan's train will have reached Hue.",
-      "Lan's train would have reached Hue.",
+      "Lan's train reached Hue by now.",
       "It's late, so Lan's train will have reached Hue by now."
     ],
     "correctIndex": 3,
@@ -1283,7 +1283,7 @@
     "choiceExplanations": [
       "Sai — 'Lan's train will reach Hue by noon tomorrow.': đây là dự đoán về tương lai, không phải việc đã xảy ra.",
       "Sai — 'By noon tomorrow, Lan's train will have reached Hue.': đây là future perfect nói về mốc tương lai (noon tomorrow), không phải đoán về hiện tại.",
-      "Sai — 'Lan's train would have reached Hue.': would have + V3 thường nói điều giả định trong quá khứ, không phải đoán về lúc này.",
+      "Sai — 'Lan's train reached Hue by now.': quá khứ đơn không đi với 'by now'; cần will have + V3 để đoán việc đã xong tính đến lúc nói.",
       "Đúng — 'by now' + will have + V3 là cách đoán việc đã xảy ra xong tính đến lúc nói."
     ]
   },
@@ -1309,7 +1309,7 @@
     "correctIndex": 2,
     "explanation": "Will have been + V-ing nhấn mạnh quá trình kéo dài đến mốc tương lai.",
     "choiceExplanations": [
-      "Câu đúng ngữ pháp, nhưng will have + V3 chỉ nhấn mạnh kết quả (đã viết xong), không nhấn mạnh quá trình kéo dài.",
+      "Sai — 'By six, she will have written the report.': câu đúng ngữ pháp, nhưng will have + V3 chỉ nhấn mạnh kết quả (đã viết xong), không nhấn mạnh quá trình kéo dài nên không đáp ứng yêu cầu của đề.",
       "Sai — hiện tại hoàn thành tiếp diễn tính đến bây giờ, không phải đến mốc 6 giờ ở tương lai.",
       "Đúng — will have been + V-ing nhấn mạnh quá trình kéo dài ('for three hours') tính đến mốc 6 giờ.",
       "Sai — 'will write' chỉ nói việc sẽ làm, không diễn tả quãng thời gian đã kéo dài tính đến mốc 6 giờ."
@@ -1359,7 +1359,7 @@
     "choices": [
       "won't have landed",
       "won't land",
-      "wouldn't have landed",
+      "won't have landing",
       "won't has landed"
     ],
     "correctIndex": 0,
@@ -1367,7 +1367,7 @@
     "choiceExplanations": [
       "Đúng — 'won't have landed': đoán về hiện tại, máy bay chưa hạ cánh xong: won't have + V3 với 'by now'.",
       "Sai — 'won't land': 'won't land' nói về tương lai, không hợp với 'by now' nói về hiện tại.",
-      "Sai — 'wouldn't have landed': wouldn't have + V3 nói điều giả định trong quá khứ.",
+      "Sai — 'won't have landing': sau 'have' phải dùng V3 (landed), không dùng V-ing.",
       "Sai — 'won't has landed': sau won't phải dùng 'have', không dùng 'has'."
     ]
   },

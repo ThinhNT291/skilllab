@@ -4,10 +4,14 @@ import { useCallback, useEffect, useRef, useState } from "react"
 import Link from "next/link"
 import confetti from "canvas-confetti"
 import { getDueCards, reviewCard, type SrsCard } from "@/lib/db"
-import { formatInterval, type Grade } from "@/lib/srs/scheduler"
-import { isNewCard, limitNewCards } from "@/lib/srs/queue"
-import { getSettings } from "@/lib/settings"
+import type { Grade } from "@/lib/srs/scheduler"
+import { previewLabels } from "@/lib/srs/preview"
+import { interleaveByTopic, isNewCard, limitNewCards } from "@/lib/srs/queue"
+import { contextFront } from "@/lib/srs/context"
+import { getSettings, useSettings } from "@/lib/settings"
 import { markNewCardDone, newCardsDoneToday } from "@/lib/srs/daily"
+import { isGrammarTopic, topicHref } from "@/lib/content/links"
+import { speak, useTtsSupported } from "@/lib/audio/tts"
 import { Flashcard } from "./flashcard"
 import { ProgressBar } from "@/components/exercise/progress-bar"
 
@@ -17,6 +21,20 @@ const GRADES: { grade: Grade; label: string; key: string; style: string }[] = [
   { grade: "good", label: "Tốt", key: "3", style: "border-primary bg-card text-foreground" },
   { grade: "easy", label: "Dễ", key: "4", style: "border-success bg-success-soft text-foreground" },
 ]
+
+/** Nội dung đọc to của thẻ: từ vựng đọc từ rồi câu ví dụ; thẻ khác đọc câu hoàn chỉnh (nếu có) hoặc đáp án. */
+function cardSpeech(topic: string, answer: string, filled: string | null): string {
+  if (topic.startsWith("vocab-")) return filled ? `${answer}. ${filled}` : answer
+  return filled ?? answer
+}
+
+function sourceLabel(topic: string): string {
+  if (topic.startsWith("vocab-")) return "Mở danh sách từ"
+  if (topic.startsWith("colloc-")) return "Mở bộ cụm từ"
+  if (topic.startsWith("reading-b")) return "Mở lại bài đọc"
+  if (topic.startsWith("listening-b")) return "Mở lại bài nghe"
+  return "Xem lý thuyết"
+}
 
 type Load = { status: "loading" } | { status: "error"; message: string } | { status: "ready" }
 
@@ -30,6 +48,8 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
   const [saveWarning, setSaveWarning] = useState(false)
   const [deferred, setDeferred] = useState(0)
   const busy = useRef(false)
+  const ttsSupported = useTtsSupported()
+  const { srsAlgorithm, retention } = useSettings()
 
   useEffect(() => {
     let cancelled = false
@@ -42,7 +62,7 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
       }
       const limited = limitNewCards(res.value, newCardsDoneToday(), getSettings().newPerDay)
       setDeferred(limited.deferred)
-      setQueue(limited.cards)
+      setQueue(interleaveByTopic(limited.cards))
       setTotal(limited.cards.length)
       setLoad({ status: "ready" })
     })
@@ -130,7 +150,8 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
     )
   }
 
-  const state = { intervalDays: current.intervalDays, ease: current.ease, reps: current.reps, lapses: current.lapses }
+  const labels = previewLabels({ sm2: { intervalDays: current.intervalDays, ease: current.ease, reps: current.reps, lapses: current.lapses }, fsrs: current.fsrs, lastReviewedAt: current.lastReviewedAt ? new Date(current.lastReviewedAt) : null }, srsAlgorithm, retention)
+  const ttsOk = ttsSupported
   const topicLabel = topicTitles[current.topic]?.replace(/\s*\(.*\)\s*$/, "") ?? current.topic
 
   return (
@@ -148,12 +169,27 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
           backLabel="Đáp án"
           flipped={flipped}
           onFlip={() => setFlipped((f) => !f)}
-          front={<p className="text-2xl font-extrabold leading-relaxed">{current.front}</p>}
+          front={<p className="text-2xl font-extrabold leading-relaxed">{contextFront(current) ?? current.front}</p>}
           back={
             <>
               <p className="rounded-2xl bg-success-soft px-4 py-2 text-2xl font-extrabold text-success">{current.answer}</p>
               {current.filled && <p className="mt-3 text-lg font-bold leading-relaxed">{current.filled}</p>}
               {current.explanation && <p className="mt-3 text-sm font-semibold leading-relaxed text-muted-foreground">{current.explanation}</p>}
+              <div className="mt-3 flex flex-wrap items-center justify-center gap-2" onClick={(e) => e.stopPropagation()}>
+                {ttsOk && (
+                  <button type="button" onClick={() => void speak(cardSpeech(current.topic, current.answer, current.filled))} className="rounded-full border-2 border-border bg-card px-3 py-1 text-sm font-extrabold hover:border-primary">
+                    🔊 Nghe
+                  </button>
+                )}
+                {ttsOk && (
+                  <button type="button" onClick={() => void speak(cardSpeech(current.topic, current.answer, current.filled), 0.6)} className="rounded-full border-2 border-border bg-card px-3 py-1 text-sm font-extrabold hover:border-primary">
+                    🐢 Nghe chậm
+                  </button>
+                )}
+                <Link href={isGrammarTopic(current.topic) ? `/hoc/${current.topic}${current.usageId ? `#${current.usageId}` : ""}` : topicHref(current.topic)} target="_blank" className="rounded-full border-2 border-border bg-card px-3 py-1 text-sm font-extrabold hover:border-primary">
+                  {sourceLabel(current.topic)}
+                </Link>
+              </div>
             </>
           }
         />
@@ -171,7 +207,7 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
                 className={`rounded-game border-2 border-b-[5px] px-1 py-2 text-center active:translate-y-[3px] active:border-b-2 ${g.style}`}
               >
                 <span className="block text-lg font-extrabold">{g.label}</span>
-                <span className="block text-xs text-muted-foreground">{formatInterval(state, g.grade)}</span>
+                <span className="block text-xs text-muted-foreground">{labels[g.grade]}</span>
               </button>
             ))}
           </div>

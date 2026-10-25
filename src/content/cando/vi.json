@@ -1,0 +1,96 @@
+{
+  "source": "Thông tư 33/2026/TT-BGDĐT (15/04/2026), Khung năng lực ngoại ngữ dùng cho Việt Nam, Phần II: các bảng 'Đặc tả tổng quát' của từng kỹ năng (1.1 Nghe hiểu tổng quát: trang PDF 4-6; 2.1 Đọc hiểu tổng quát: trang PDF 10-11; 3.1.1 Nói sản sinh tổng quát: trang PDF 22-23; 3.2.1 Nói tương tác tổng quát: trang PDF 31-33; 4.1.1 Viết sản sinh tổng quát: trang PDF 49-50; 4.2.1 Viết tương tác tổng quát: trang PDF 53; 5.1 Kỹ năng trung gian tổng quan: trang PDF 60-62). Văn bản không có bảng mô tả tổng quát chung cho từng bậc nên 'overall' là null. Các khóa: listening = Nghe hiểu tổng quát; speaking = Nói sản sinh tổng quát; interaction = Nói tương tác tổng quát; reading = Đọc hiểu tổng quát; writing = Viết sản sinh tổng quát; writingInteraction = Viết tương tác tổng quát; mediation = Kỹ năng trung gian tổng quan. Các đoạn (ô) trong cùng một bậc được nối bằng '; ' và đã bỏ dấu chấm cuối đoạn.",
+  "levels": [
+    {
+      "bac": 0,
+      "label": "Tiền Bậc 1",
+      "cefr": "Pre-A1",
+      "overall": null,
+      "listening": "Có thể hiểu các câu hỏi và các phần trình bày rất ngắn và rất đơn giản nếu được truyền tải chậm và rõ ràng, có kèm theo hình ảnh hoặc cử chỉ để hỗ trợ việc hiểu và được lặp lại nếu cần thiết; Có thể nhận ra những từ ngữ/dấu hiệu quen thuộc nếu chúng được truyền đạt rõ ràng và chậm rãi trong một bối cảnh được xác định rõ ràng, quen thuộc hàng ngày; Có thể nhận ra các con số, giá cả, ngày trong tuần, được diễn đạt chậm và rõ ràng trong bối cảnh hàng ngày cụ thể và quen thuộc",
+      "speaking": "Có thể tạo ra các cụm từ ngắn về bản thân, cung cấp thông tin cá nhân cơ bản (tên, địa chỉ, gia đình, quốc tịch, v.v.)",
+      "interaction": "Có thể hỏi và trả lời các câu hỏi về bản thân và thói quen hàng ngày, sử dụng các cụm từ cố định, công thức và dựa vào cử chỉ để củng cố thông tin",
+      "reading": "Có thể nhận ra các từ quen thuộc kèm theo hình ảnh, chẳng hạn như thực đơn nhà hàng đồ ăn nhanh được minh họa bằng ảnh hoặc sách ảnh sử dụng từ vựng quen thuộc",
+      "writing": "Có thể cung cấp thông tin cá nhân cơ bản bằng văn bản (ví dụ: tên, địa chỉ, quốc tịch), có thể bằng cách sử dụng từ điển",
+      "writingInteraction": "Có thể viết các cụm từ ngắn để cung cấp thông tin cơ bản (ví dụ: tên, địa chỉ, gia đình) trên biểu mẫu hoặc trong ghi chú, có sử dụng từ điển",
+      "mediation": null
+    },
+    {
+      "bac": 1,
+      "label": "Bậc 1",
+      "cefr": "A1",
+      "overall": null,
+      "listening": "Có thể hiểu lời nói nếu người nói phát âm rất chậm, cẩn thận và dừng lâu để hiểu được ý nghĩa; Có thể nhận ra thông tin cụ thể (ví dụ: địa điểm và thời gian) về các chủ đề quen thuộc gặp trong cuộc sống hàng ngày, nếu thông tin được truyền tải bằng lời nói chậm và rõ ràng",
+      "speaking": "Có thể tạo ra các cụm từ đơn giản, riêng lẻ về con người và địa điểm",
+      "interaction": "Có thể tương tác nhưng thường xuyên dừng lại sửa lỗi với điều kiện người đối thoại nói chậm, lặp lại hoặc diễn đạt lại. Có thể hỏi và trả lời các câu hỏi đơn giản, khởi xướng và trả lời các câu đơn giản trong các lĩnh vực đang nói hoặc về các chủ đề rất quen thuộc",
+      "reading": "Có thể hiểu những văn bản rất ngắn và đơn giản, đọc từng cụm từ một, nhận biết được tên riêng, từ và cụm từ cơ bản quen thuộc và có thể đọc lại khi cần",
+      "writing": "Có thể cung cấp thông tin bằng văn bản về các vấn đề cá nhân (ví dụ: điều thích và không thích, gia đình, vật nuôi) bằng cách sử dụng các từ đơn giản và cách diễn đạt cơ bản; Có thể viết các cụm từ và câu rời rạc đơn giản",
+      "writingInteraction": "Có thể yêu cầu thông tin hoặc chuyển thông tin cá nhân dưới dạng văn bản",
+      "mediation": "Có thể diễn đạt thông tin đơn giản và ký hiệu giao tiếp phi ngôn ngữ để thể hiện sự hứng thú với một ý tưởng nhất định. Có thể truyền tải các thông tin cơ bản, dễ đoán thuộc lĩnh vực quan tâm gần gũi được đưa ra trong các biển báo, thông báo, tờ rơi và các chương trình ngắn gọn, đơn giản"
+    },
+    {
+      "bac": 2,
+      "label": "Bậc 2",
+      "cefr": "A2",
+      "overall": null,
+      "listening": "Có thể hiểu đủ để đáp ứng nhu cầu cụ thể với điều kiện lời nói được phát âm rõ ràng và chậm rãi; Có thể hiểu các cụm từ và cách diễn đạt liên quan đến các lĩnh vực cấp thiết (ví dụ: thông tin cá nhân và gia đình rất cơ bản, mua sắm, địa lý địa phương, việc làm), miễn là lời nói được phát âm rõ ràng và chậm rãi",
+      "speaking": "Có thể đưa ra một mô tả hoặc trình bày một cách đơn giản về con người, điều kiện sống hoặc làm việc, thói quen hàng ngày, thích/không thích, v.v. dưới dạng một loạt các cụm từ và câu đơn giản được liên kết thành một danh sách",
+      "interaction": "Có thể tương tác một cách tương đối dễ dàng trong các tình huống có cấu trúc và các cuộc trò chuyện ngắn, miễn là người đối thoại giúp đỡ nếu cần thiết. Có thể xử lý các cuộc trao đổi đơn giản, thường xuyên mà không cần nỗ lực quá mức. Có thể hỏi và trả lời các câu hỏi và trao đổi ý tưởng, thông tin về các chủ đề quen thuộc trong các tình huống hàng ngày có thể dự đoán được; Có thể giao tiếp trong các nhiệm vụ đơn giản hàng ngày, đòi hỏi phải trao đổi thông tin đơn giản và trực tiếp về các vấn đề quen thuộc và thường gặp, liên quan đến công việc và thời gian rảnh. Có thể xử lý các trao đổi xã hội rất ngắn nhưng hiếm khi có thể hiểu đủ để duy trì cuộc trò chuyện",
+      "reading": "Có thể hiểu các văn bản ngắn, đơn giản về các vấn đề quen thuộc, cụ thể bao gồm các vấn đề thường xảy ra hàng ngày hoặc ngôn ngữ liên quan đến công việc; Có thể hiểu các văn bản ngắn, đơn giản với những từ thông dụng, trong đó có một số từ quốc tế phổ biến",
+      "writing": "Có thể viết một loạt các cụm từ và câu đơn giản được liên kết bằng các từ nối đơn giản như “và”, “nhưng” và “bởi vì”",
+      "writingInteraction": "Có thể viết ghi chú thường nhật ngắn và đơn giản liên quan đến các vấn đề cấp thiết",
+      "mediation": "Có thể đóng vai trò hỗ trợ trong việc giao tiếp, nếu những người tham gia hội thoại nói chậm và (một hoặc nhiều) người tham gia có giúp đỡ đóng góp và gợi ý. Có thể truyền tải thông tin liên quan trong các đoạn văn bản nhằm cung cấp thông tin có nội dung ngắn, đơn giản, có cấu trúc rõ ràng, nếu như văn bản đề cập tới các chủ đề quen thuộc, dễ nắm bắt và sử dụng ngôn ngữ đơn giản hàng ngày; Có thể dùng các từ đơn giản để yêu cầu người khác giải thích. Có thể nhận thấy khi gặp khó khăn trong giao tiếp và dùng ngôn ngữ đơn giản để diễn đạt bản chất của vấn đề. Có thể truyền tải ý chính của các đoạn hội thoại ngắn và đơn giản hoặc của các đoạn văn bản về các chủ đề thường nhật thuộc về lĩnh vực quan tâm gần gũi nếu như ngôn ngữ đơn giản và thể hiện rõ nội dung"
+    },
+    {
+      "bac": 3,
+      "label": "Bậc 3",
+      "cefr": "B1",
+      "overall": null,
+      "listening": "Có thể hiểu thông tin đơn giản thực tế về các chủ đề phổ biến hàng ngày hoặc về công việc, xác định được thông điệp chung cũng như chi tiết cụ thể nếu bài phát biểu được phát âm rõ ràng và có loại hình ngôn ngữ quen thuộc; Có thể hiểu những điểm chính của bài phát biểu mang ngôn ngữ tiêu chuẩn, rõ ràng về các vấn đề quen thuộc thường gặp trong công việc, trường học, giải trí, v.v., bao gồm cả những đoạn trần thuật ngắn",
+      "speaking": "Có thể trình bày khá trôi chảy một mô tả đơn giản về nhiều chủ đề mình quan tâm, theo trình tự từng ý một cách mạch lạc",
+      "interaction": "Có thể giao tiếp tương đối tự tin về các vấn đề quen thuộc hoặc không quen thuộc liên quan đến sở thích và lĩnh vực chuyên môn của mình. Có thể trao đổi, kiểm tra và xác nhận thông tin, xử lý các tình huống ít gặp và giải thích vấn đề nằm ở đâu. Có thể bày tỏ suy nghĩ về các chủ đề văn hóa, trừu tượng hơn như phim ảnh, sách, âm nhạc, v.v.; Có thể tận dụng nhiều cấu trúc ngôn ngữ đơn giản để xử lý hầu hết các tình huống có thể phát sinh trong khi đi du lịch. Có thể tham gia vào cuộc trò chuyện về các chủ đề quen thuộc mà không cần chuẩn bị trước, bày tỏ ý kiến cá nhân và trao đổi thông tin về các chủ đề quen thuộc, được cá nhân quan tâm hoặc phù hợp với cuộc sống hàng ngày như gia đình, sở thích, công việc, du lịch và các sự kiện hiện tại, v.v.",
+      "reading": "Có thể đọc các văn bản thực tế đơn giản về các chủ đề liên quan đến lĩnh vực và sở thích của mình với mức độ hiểu vừa đủ",
+      "writing": "Có thể viết các văn bản đơn giản có tính kết nối về một loạt các chủ đề quen thuộc trong lĩnh vực quan tâm, bằng cách liên kết một loạt các yếu tố rời rạc ngắn hơn thành một trình tự tuyến tính",
+      "writingInteraction": "Có thể truyền đạt thông tin và ý tưởng về các chủ đề trừu tượng cũng như cụ thể, kiểm tra thông tin và hỏi về các vấn đề hoặc giải thích các vấn đề với độ chính xác hợp lý; Có thể viết thư và ghi chú cá nhân yêu cầu thông tin hoặc truyền đạt thông tin đơn giản mật thiết, truyền đạt điểm mình cho là quan trọng",
+      "mediation": "Có thể phối hợp làm việc cùng những người không cùng kiến thức nền, thể hiện sự chú ý và thái độ cảm thông bằng việc hỏi cũng như trả lời các câu hỏi đơn giản, đưa ra các gợi ý và trả lời các gợi ý của người khác, hỏi để xem người khác có đồng ý hay không, và đề xuất các hướng tiếp cận khác. Có thể truyền tải ý chính trong các văn bản dài dùng ngôn ngữ không quá phức tạp về chủ đề mình quan tâm, với điều kiện là có thể tự kiểm tra nghĩa của các cách diễn đạt cụ thể; Có thể giới thiệu nhiều người có kiến thức nền khác nhau, ý thức được rằng có một số câu hỏi có thể được hiểu theo nhiều cách khác nhau, đồng thời mời mọi người chia sẻ kiến thức chuyên môn, kinh nghiệm, và quan điểm. Có thể truyền tải thông tin nằm trong văn bản mang tính chất cung cấp thông tin có cấu trúc mạch lạc, rõ ràng về các chủ đề quen thuộc hoặc nằm trong lĩnh vực mình quan tâm, hoặc các chủ đề thuộc lĩnh vực quan tâm hiện thời, kể cả khi gặp hạn chế về ngôn từ gây khó khăn trong diễn đạt"
+    },
+    {
+      "bac": 4,
+      "label": "Bậc 4",
+      "cefr": "B2",
+      "overall": null,
+      "listening": "Có thể hiểu được ngôn ngữ nói chuẩn mực trong các bài nói trực tiếp hoặc phát thanh về các chủ đề thường gặp trong đời sống, xã hội, học thuật và nghề nghiệp. Năng lực nghe hiểu có thể bị ảnh hưởng bởi môi trường tạp âm lớn, cấu trúc diễn ngôn không đầy đủ rõ ràng hoặc khi có thành ngữ; Có thể hiểu các ý chính của bài phát biểu có ngôn ngữ hoặc kiến thức phức tạp về các chủ đề cụ thể và trừu tượng dùng ngôn ngữ chuẩn, bao gồm các cuộc thảo luận mang tính chuyên ngành trong lĩnh vực chuyên môn của mình; Có thể hiểu các bài nói dài và các luồng tranh luận phức tạp miễn là chủ đề tương đối quen thuộc và hướng tranh luận được nêu rõ bằng các (cụm) từ nối rõ ràng",
+      "speaking": "Có thể mô tả và trình bày rõ ràng bài nói được phát triển một cách có hệ thống, nhấn mạnh các điểm quan trọng và chi tiết hỗ trợ có liên quan; Có thể mô tả và thuyết trình rõ ràng, chi tiết về một loạt các chủ đề liên quan đến lĩnh vực quan tâm, mở rộng và triển khai các ý tưởng với các luận cứ và các luận chứng liên quan",
+      "interaction": "Có thể sử dụng ngôn ngữ trôi chảy, chính xác và hiệu quả trong các chủ đề chung, học thuật, dạy nghề hoặc giải trí, thể hiện rõ ràng mối quan hệ giữa các ý tưởng. Có thể giao tiếp tự nhiên với khả năng kiểm soát ngữ pháp tốt mà không có nhiều dấu hiệu phải hạn chế những gì muốn nói, áp dụng một mức độ trang trọng phù hợp với hoàn cảnh; Có thể tương tác lưu loát và tự phát để duy trì tương tác thường xuyên và mối quan hệ bền vững với người nói ngôn ngữ đích mà không gây căng thẳng cho một trong hai bên. Có thể nhấn mạnh sự kiện và trải nghiệm cá nhân, giải thích và duy trì quan điểm rõ ràng bằng cách cung cấp các giải thích và lập luận có liên quan",
+      "reading": "Nhìn chung có thể tự đọc, điều chỉnh phong cách và tốc độ đọc theo các văn bản và mục đích khác nhau, và sử dụng các nguồn tham khảo thích hợp một cách có chọn lọc. Có thể sử dụng lượng lớn vốn từ vựng đọc, nhưng có thể gặp một số khó khăn với các thành ngữ ít gặp",
+      "writing": "Có thể viết văn bản rõ ràng, chi tiết về nhiều chủ đề liên quan đến lĩnh vực mình quan tâm, đồng thời tổng hợp và đánh giá thông tin, lập luận từ một số nguồn",
+      "writingInteraction": "Có thể diễn đạt tin tức và quan điểm một cách hiệu quả bằng văn viết và truyền tải thông tin đến những người khác",
+      "mediation": "Có thể tạo lập môi trường hỗ trợ việc chia sẻ ý tưởng và có thể họp bàn các vấn đề nhạy cảm, tôn trọng các quan điểm khác nhau, khuyến khích mọi người nghiên cứu vấn đề và tự điều chỉnh cách diễn đạt một cách nhạy bén. Có thể đề xuất cách tiến hành dựa trên ý tưởng của người khác. Có thể truyền tải nội dung chính của các văn bản mạch lạc song dài và khó về các đề tài thuộc lĩnh vực chuyên môn, học thuật và lĩnh vực quan tâm chính, làm rõ quan điểm và mục tiêu của các diễn giả; Có thể phối hợp làm việc cùng những người không cùng kiến thức nền, tạo bầu không khí tích cực bằng cách hỗ trợ, hỏi các câu hỏi nhằm xác định mục tiêu chung, cùng so sánh các lựa chọn giải quyết mục tiêu và có thể giải thích các đề xuất cho các bước tiếp theo. Có thể phát triển thêm ý tưởng của người khác, đặt các câu hỏi nhằm gợi mở các câu trả lời từ nhiều góc nhìn và đề xuất giải pháp hoặc các bước làm tiếp theo. Có thể truyền tải thông tin chi tiết và các lẽ tranh luận một cách đáng tin cậy, ví dụ như truyền tải các điểm chính của một văn bản phức tạp song có cấu trúc mạch lạc thuộc lĩnh vực chuyên môn, học thuật và lĩnh vực quan tâm chính"
+    },
+    {
+      "bac": 5,
+      "label": "Bậc 5",
+      "cefr": "C1",
+      "overall": null,
+      "listening": "Có thể hiểu đủ để theo dõi những bài nói dài về những chủ đề phức tạp và trừu tượng nằm ngoài lĩnh vực chuyên môn của mình, song đôi lúc vẫn cần hỏi lại để nắm bắt thông tin chi tiết, đặc biệt khi nghe giọng không quen thuộc. Có thể nhận ra nhiều thành ngữ, khẩu ngữ và hiểu cách chuyển đổi ngữ vực; Có thể hiểu những bài nói dài ngay cả khi không được cấu trúc rõ ràng và mối quan hệ giữa các ý chỉ được ngầm hiểu, chứ không được thể hiện rõ",
+      "speaking": "Có thể mô tả và trình bày rõ ràng, chi tiết về các chủ đề phức tạp, tích hợp các chủ đề phụ, phát triển các điểm cụ thể và đưa ra kết luận thích hợp",
+      "interaction": "Có thể diễn đạt một cách trôi chảy và tự nhiên, gần như không cần cố gắng. Làm chủ một vốn từ vựng rộng cho phép dễ dàng khắc phục các khoảng trống về từ vựng bằng cách diễn đạt vòng. Rất hiếm khi phải ngập ngừng để tìm cách diễn đạt hoặc phải sử dụng các chiến lược né tránh; chỉ khi gặp phải chủ đề khó về mặt khái niệm mới làm ảnh hưởng đến mạch ngôn ngữ tự nhiên, trơn tru",
+      "reading": "Có thể hiểu chi tiết các văn bản dài, phức tạp, cho dù chúng có liên quan đến lĩnh vực chuyên môn của mình hay không, miễn là có thể đọc lại các phần khó; Có thể hiểu nhiều loại văn bản bao gồm các tác phẩm văn học, bài báo hoặc tạp chí và các ấn phẩm học thuật hoặc chuyên ngành, nếu được đọc kỹ và có từ điển hoặc công cụ tra cứu khi cần",
+      "writing": "Có thể viết các văn bản rõ ràng, có cấu trúc tốt về các chủ đề phức tạp, nhấn mạnh các vấn đề nổi bật có liên quan, mở rộng và hỗ trợ các quan điểm có chi tiết với các các luận cứ và luận chứng liên quan, và kết luận phù hợp; Có thể sử dụng cấu trúc và quy ước của nhiều thể loại văn bản, thay đổi giọng điệu, phong cách và văn phong tuỳ người nhận, loại văn bản và chủ đề",
+      "writingInteraction": "Có thể diễn đạt rõ ràng và chính xác, truyền tải thông tin đến người nhận một cách linh hoạt và hiệu quả",
+      "mediation": "Có thể làm trung gian một cách hiệu quả, giúp duy trì tương tác tích cực bằng cách diễn giải các quan điểm khác nhau, hạn chế việc không rõ ý, dự kiến những tình huống hiểu nhầm và can thiệp một cách ngoại giao để chuyển hướng cuộc hội thoại. Có thể xây dựng quan điểm dựa trên các đóng góp khác nhau trong một cuộc thảo luận, thúc đẩy tư duy lý luận bằng nhiều câu hỏi. Có thể truyền tải trôi chảy và rõ ràng các ý tưởng có giá trị, các quan điểm đánh giá và hầu hết các sắc thái bằng ngôn ngữ chuẩn tắc trong các văn bản dài và phức tạp, dù có thể không liên quan đến lĩnh vực mình quan tâm"
+    },
+    {
+      "bac": 6,
+      "label": "Bậc 6",
+      "cefr": "C2",
+      "overall": null,
+      "listening": "Có thể hiểu mọi loại hình ngôn ngữ khi nghe trực tiếp hoặc phát thanh có tốc độ bình thường",
+      "speaking": "Có thể trình bày một bài phát biểu một cách rõ ràng và trôi chảy với kết cấu logic và hiệu quả giúp người nghe chú ý và nhớ các ý chính",
+      "interaction": "Sử dụng thành thạo cách diễn đạt có tính đặc ngữ, cách nói đời thường và ý thức được các lớp nghĩa khác nhau. Có thể truyền đạt những sắc thái nghĩa một cách chính xác bằng cách sử dụng ngôn từ thể hiện các sắc thái biểu cảm chính xác và hợp lý. Có thể nói lại và thay đổi cách diễn đạt một cách trôi chảy tới mức người đối thoại hầu như không nhận ra",
+      "reading": "Có thể hiểu hầu như tất cả các dạng của ngôn ngữ viết bao gồm các tác phẩm văn học và phi văn học trừu tượng, có cấu trúc phức tạp hoặc cách diễn văn đời thường; Có thể hiểu một loạt các văn bản dài và phức tạp, đánh giá được sự khác biệt tinh tế của phong cách và ý nghĩa ngầm cũng như ý nghĩa được thể hiện rõ ràng",
+      "writing": "Có thể viết các văn bản rõ ràng, trôi chảy, phức tạp theo phong cách phù hợp và hiệu quả, cấu trúc logic giúp người đọc tìm ra những điểm quan trọng",
+      "writingInteraction": "Có thể bày tỏ bản thân bằng giọng điệu và phong cách thích hợp trong hầu hết mọi loại hình tương tác bằng văn bản trang trọng hoặc thân mật",
+      "mediation": "Có thể làm trung gian một cách hiệu quả và tự nhiên, đóng nhiều vai tùy thuộc vào nhu cầu của những người tham gia cũng như bối cảnh, nhận ra các sắc thái và ý ngầm để định hướng một cuộc thảo luận tế nhị hoặc nhạy cảm. Có thể dùng ngôn ngữ trôi chảy, mạch lạc, cấu trúc rõ ràng để trình bày bằng chứng và luận điểm, truyền tải một cách chính xác các quan điểm đánh giá và gần như toàn bộ các sắc thái, và chỉ ra các cách ngữ ý thường dùng trong văn hóa xã hội (ví dụ như giọng điệu, lối nói giảm nói tránh, lối nói trở trêu, nói mỉa mai)"
+    }
+  ]
+}

@@ -127,6 +127,10 @@
             "wrong": "When the teacher entered, the class have been talking for ten minutes.",
             "correct": "When the teacher entered, the class had been talking for ten minutes."
           }
+        ],
+        "usageIds": [
+          "ppc-u1-duration-before-past-moment",
+          "ppc-u4-for-since-how-long"
         ]
       },
       {
@@ -141,6 +145,9 @@
             "wrong": "She had been sleep for hours.",
             "correct": "She had been sleeping for hours."
           }
+        ],
+        "usageIds": [
+          "ppc-u5-form-and-state-verbs"
         ]
       },
       {
@@ -151,6 +158,9 @@
             "wrong": "We had been believing him for years.",
             "correct": "We had believed him for years."
           }
+        ],
+        "usageIds": [
+          "ppc-u5-form-and-state-verbs"
         ]
       }
     ]

@@ -141,6 +141,10 @@
       "wrong": "This book is interestinger than that one.",
       "correct": "This book is more interesting than that one."
      }
+    ],
+    "usageIds": [
+     "comp-u1-short-adjectives",
+     "comp-u2-long-adjectives"
     ]
    },
    {
@@ -151,6 +155,9 @@
       "wrong": "He is tallest student in the class.",
       "correct": "He is the tallest student in the class."
      }
+    ],
+    "usageIds": [
+     "comp-u3-superlatives"
     ]
    },
    {
@@ -165,6 +172,10 @@
       "wrong": "She is the happyest person I know.",
       "correct": "She is the happiest person I know."
      }
+    ],
+    "usageIds": [
+     "comp-u1-short-adjectives",
+     "comp-u3-superlatives"
     ]
    },
    {
@@ -175,6 +186,10 @@
       "wrong": "My score is higher then hers.",
       "correct": "My score is higher than hers."
      }
+    ],
+    "usageIds": [
+     "comp-u1-short-adjectives",
+     "comp-u2-long-adjectives"
     ]
    }
   ]

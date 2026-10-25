@@ -191,6 +191,10 @@
             "wrong": "It was late, we left the party.",
             "correct": "It was late, so we left the party."
           }
+        ],
+        "usageIds": [
+          "conj-u1-coordinating",
+          "conj-u2-commas"
         ]
       },
       {
@@ -201,6 +205,9 @@
             "wrong": "I called him but, he didn't answer.",
             "correct": "I called him, but he didn't answer."
           }
+        ],
+        "usageIds": [
+          "conj-u2-commas"
         ]
       },
       {
@@ -215,6 +222,10 @@
             "wrong": "He enjoys cooking and to paint.",
             "correct": "He enjoys cooking and painting."
           }
+        ],
+        "usageIds": [
+          "conj-u3-correlative",
+          "conj-u5-parallel"
         ]
       },
       {
@@ -229,6 +240,10 @@
             "wrong": "Because it was late, so we went home.",
             "correct": "Because it was late, we went home."
           }
+        ],
+        "usageIds": [
+          "conj-u6-subordinating",
+          "conj-u1-coordinating"
         ]
       },
       {
@@ -239,6 +254,9 @@
             "wrong": "Unless you don't study, you will fail.",
             "correct": "Unless you study, you will fail."
           }
+        ],
+        "usageIds": [
+          "conj-u6-subordinating"
         ]
       }
     ]

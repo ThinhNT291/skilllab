@@ -6,10 +6,11 @@ import confetti from "canvas-confetti"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { recordAnswer, saveTopicTest } from "@/lib/db"
 import { passedTest, TEST_PASS_RATIO } from "@/lib/progress/mastery"
+import type { RuleHints } from "@/lib/content/rule-hints"
 import { ExerciseRunner } from "./exercise-runner"
 
 /** Bài kiểm tra cuối chủ điểm: làm hết lượt rồi mới biết đạt hay chưa, kết quả được lưu để bản đồ chuyên đề hiện "đã vững". */
-export function TestSession({ exercises, topic, topicTitle }: { exercises: Exercise[]; topic: string; topicTitle: string }) {
+export function TestSession({ exercises, topic, topicTitle, rules }: { exercises: Exercise[]; topic: string; topicTitle: string; rules?: RuleHints }) {
   const [results, setResults] = useState<boolean[]>([])
   const [finished, setFinished] = useState(false)
   const [saved, setSaved] = useState<"pending" | "ok" | "fail">("pending")
@@ -30,7 +31,7 @@ export function TestSession({ exercises, topic, topicTitle }: { exercises: Exerc
   }
 
   if (!finished) {
-    return <ExerciseRunner exercises={exercises} onAnswer={onAnswer} onFinish={onFinish} theoryHref={(ex) => `/hoc/${ex.topic}${ex.usageId ? `#${ex.usageId}` : ""}`} />
+    return <ExerciseRunner exercises={exercises} onAnswer={onAnswer} onFinish={onFinish} rules={rules} practiceBase={`/hoc/${topic}`} theoryHref={(ex) => `/hoc/${ex.topic}${ex.usageId ? `#${ex.usageId}` : ""}`} />
   }
 
   const correct = results.filter(Boolean).length

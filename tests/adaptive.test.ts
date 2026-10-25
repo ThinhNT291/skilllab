@@ -24,3 +24,15 @@ test("câu đầu là câu dễ, không lặp câu đã dùng", () => {
   assert.equal(pickAtPosition(ladder, used, 0, () => 0)?.id, "c")
   assert.equal(pickAtPosition(ladder, new Set(["a", "b", "c"]), 0.5), null)
 })
+
+import { MCQ_STEPS, nextPosition as np } from "../src/lib/content/adaptive.ts"
+
+test("bước thích ứng cho trắc nghiệm: cân bằng ở tỷ lệ đúng khoảng 80%", () => {
+  const drift = (p: number) => p * MCQ_STEPS.up - (1 - p) * MCQ_STEPS.down
+  assert.ok(Math.abs(drift(0.8)) < 1e-9)
+  assert.ok(drift(0.95) > 0, "đúng nhiều thì lên")
+  assert.ok(drift(0.5) < 0, "đúng ít thì xuống")
+  assert.equal(np(0.5, true, MCQ_STEPS), 0.55)
+  assert.ok(Math.abs(np(0.5, false, MCQ_STEPS) - 0.3) < 1e-9)
+  assert.equal(np(0.01, false, MCQ_STEPS), 0)
+})

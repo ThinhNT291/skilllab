@@ -3,6 +3,8 @@ import type { Exercise } from "@/lib/content/types"
 import { POS_VI, type VocabLevel, type VocabWord } from "@/lib/vocab/questions"
 import { cardContentFromExercise } from "@/lib/srs/card-from-exercise"
 import { schedule, type Grade } from "@/lib/srs/scheduler"
+import { fsrsFromSm2, retrievabilityNow, scheduleFsrs, type FsrsState } from "@/lib/srs/fsrs"
+import { getSettings } from "@/lib/settings"
 import { dbConfigured, ensureProfile } from "./session"
 
 export interface SrsCard {
@@ -18,6 +20,9 @@ export interface SrsCard {
   reps: number
   lapses: number
   status: "active" | "mastered"
+  /** Trạng thái FSRS (cần migration 0010); null với thẻ chưa từng ôn bằng FSRS */
+  fsrs: FsrsState | null
+  lastReviewedAt: string | null
 }
 
 interface Row {
@@ -33,6 +38,10 @@ interface Row {
   reps: number
   lapses: number
   status: "active" | "mastered"
+  stability?: number | null
+  difficulty?: number | null
+  fsrs_state?: number | null
+  last_reviewed_at?: string | null
 }
 
 const fromRow = (r: Row): SrsCard => ({
@@ -48,6 +57,11 @@ const fromRow = (r: Row): SrsCard => ({
   reps: r.reps,
   lapses: r.lapses,
   status: r.status,
+  lastReviewedAt: r.last_reviewed_at ?? null,
+  fsrs:
+    r.stability != null && r.difficulty != null && (r.fsrs_state ?? 0) > 0
+      ? { stability: Number(r.stability), difficulty: Number(r.difficulty), state: (r.fsrs_state ?? 2) as 0 | 1 | 2 | 3, reps: r.reps, lapses: r.lapses, lastReview: r.last_reviewed_at ? new Date(r.last_reviewed_at) : null }
+      : null,
 })
 
 export type CardsResult<T> = { ok: true; value: T } | { ok: false; reason: "not_configured" | "error"; message?: string }
@@ -126,16 +140,14 @@ export function addVocabCard(word: VocabWord, level: VocabLevel): Promise<CardsR
 export function getDueCards(limit = 20): Promise<CardsResult<SrsCard[]>> {
   return guarded(async () => {
     const profile = await ensureProfile()
-    const { data, error } = await createClient()
-      .from("srs_cards")
-      .select("id, topic, usage_id, front, answer, filled, explanation, interval_days, ease, reps, lapses, status")
-      .eq("profile_id", profile.id)
-      .eq("status", "active")
-      .lte("due_at", new Date().toISOString())
-      .order("due_at", { ascending: true })
-      .limit(limit)
-    if (error) throw new Error(error.message)
-    return ((data ?? []) as Row[]).map(fromRow)
+    const supabase = createClient()
+    const base = "id, topic, usage_id, front, answer, filled, explanation, interval_days, ease, reps, lapses, status, last_reviewed_at"
+    const query = (cols: string) => supabase.from("srs_cards").select(cols).eq("profile_id", profile.id).eq("status", "active").lte("due_at", new Date().toISOString()).order("due_at", { ascending: true }).limit(limit)
+    let res = await query(`${base}, stability, difficulty, fsrs_state`)
+    // Chưa chạy migration 0010 (chưa có cột FSRS): đọc như trước, thẻ vẫn ôn được bằng SM-2.
+    if (res.error && /stability|difficulty|fsrs_state/i.test(res.error.message)) res = await query(base)
+    if (res.error) throw new Error(res.error.message)
+    return ((res.data ?? []) as unknown as Row[]).map(fromRow)
   })
 }
 
@@ -155,23 +167,53 @@ export function countDueCards(): Promise<CardsResult<number>> {
   })
 }
 
-/** Ghi kết quả một lần ôn: tính lịch mới và cập nhật thẻ. */
+/**
+ * Ghi kết quả một lần ôn. Tính CẢ HAI thuật toán (SM-2 và FSRS) và lưu cả hai trạng thái; thuật toán đang chọn trong cài đặt
+ * quyết định lịch ôn kế tiếp. Ghi thêm nhật ký lượt ôn (srs_reviews) để so sánh sau này. Thiếu migration 0010 thì tự lùi về SM-2.
+ */
 export function reviewCard(card: SrsCard, grade: Grade): Promise<CardsResult<void>> {
   return guarded(async () => {
-    const next = schedule({ intervalDays: card.intervalDays, ease: card.ease, reps: card.reps, lapses: card.lapses }, grade)
-    const { error } = await createClient()
+    const now = new Date()
+    const { srsAlgorithm, retention } = getSettings()
+    const sm = { intervalDays: card.intervalDays, ease: card.ease, reps: card.reps, lapses: card.lapses }
+    const last = card.lastReviewedAt ? new Date(card.lastReviewedAt) : null
+    const prevFsrs = card.fsrs ?? fsrsFromSm2(sm, last, now)
+    const sm2 = schedule(sm, grade, now)
+    const f = scheduleFsrs(prevFsrs, grade, now, retention)
+    const useFsrs = srsAlgorithm === "fsrs"
+    const dueAt = useFsrs ? f.dueAt : sm2.dueAt
+    const days = useFsrs ? f.scheduledDays : sm2.intervalDays
+    const status = days >= 60 ? "mastered" : "active"
+    const legacy = {
+      interval_days: sm2.intervalDays,
+      ease: sm2.ease,
+      reps: sm2.reps,
+      lapses: sm2.lapses,
+      last_reviewed_at: now.toISOString(),
+    }
+    const supabase = createClient()
+    let { error } = await supabase
       .from("srs_cards")
-      .update({
-        due_at: next.dueAt.toISOString(),
-        interval_days: next.intervalDays,
-        ease: next.ease,
-        reps: next.reps,
-        lapses: next.lapses,
-        status: next.status,
-        last_reviewed_at: new Date().toISOString(),
-      })
+      .update({ ...legacy, due_at: dueAt.toISOString(), status, stability: f.next.stability, difficulty: f.next.difficulty, fsrs_state: f.next.state })
       .eq("id", card.id)
+    if (error && /stability|difficulty|fsrs_state/i.test(error.message)) {
+      // Chưa có cột FSRS: ghi theo SM-2 như trước.
+      ;({ error } = await supabase.from("srs_cards").update({ ...legacy, due_at: sm2.dueAt.toISOString(), status: sm2.status }).eq("id", card.id))
+    }
     if (error) throw new Error(error.message)
+    // Nhật ký so sánh: lỗi ở đây (vd chưa chạy migration) không được làm hỏng việc ôn tập.
+    const profile = await ensureProfile()
+    void supabase.from("srs_reviews").insert({
+      card_id: card.id,
+      profile_id: profile.id,
+      rating: { again: 1, hard: 2, good: 3, easy: 4 }[grade],
+      algorithm: srsAlgorithm,
+      elapsed_days: last ? Math.round(((now.getTime() - last.getTime()) / 86_400_000) * 100) / 100 : null,
+      retrievability: retrievabilityNow(card.fsrs, now, retention),
+      scheduled_days: days,
+      fsrs_days: f.scheduledDays,
+      sm2_days: sm2.intervalDays,
+    })
   })
 }
 

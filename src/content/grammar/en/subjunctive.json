@@ -181,6 +181,9 @@
             "wrong": "I wish I would be taller.",
             "correct": "I wish I were taller."
           }
+        ],
+        "usageIds": [
+          "subjunctive-u1-wish-present"
         ]
       },
       {
@@ -191,6 +194,9 @@
             "wrong": "It's so annoying that it never stops raining. I wish it stops raining right now.",
             "correct": "I wish it would stop raining right now."
           }
+        ],
+        "usageIds": [
+          "subjunctive-u3-wish-would"
         ]
       },
       {
@@ -201,6 +207,9 @@
             "wrong": "She wishes she can speak French fluently.",
             "correct": "She wishes she could speak French fluently."
           }
+        ],
+        "usageIds": [
+          "subjunctive-u1-wish-present"
         ]
       },
       {
@@ -212,7 +221,10 @@
             "correct": "I would rather you stayed here tonight."
           }
         ],
-        "note": "\"would rather + S + quá khứ đơn\" mang nghĩa hiện tại/tương lai khi nói về mong muốn đối với hành động của người khác, không dùng V nguyên mẫu trong trường hợp này."
+        "note": "\"would rather + S + quá khứ đơn\" mang nghĩa hiện tại/tương lai khi nói về mong muốn đối với hành động của người khác, không dùng V nguyên mẫu trong trường hợp này.",
+        "usageIds": [
+          "subjunctive-u5-would-rather"
+        ]
       },
       {
         "id": "subjunctive-m5",
@@ -222,6 +234,9 @@
             "wrong": "The manager insisted that the report is finished by Friday.",
             "correct": "The manager insisted that the report be finished by Friday."
           }
+        ],
+        "usageIds": [
+          "subjunctive-u7-mandative"
         ]
       },
       {
@@ -232,6 +247,9 @@
             "wrong": "The doctor recommended that he sees a specialist.",
             "correct": "The doctor recommended that he see a specialist."
           }
+        ],
+        "usageIds": [
+          "subjunctive-u7-mandative"
         ]
       },
       {
@@ -242,6 +260,9 @@
             "wrong": "It's time we go to bed.",
             "correct": "It's time we went to bed."
           }
+        ],
+        "usageIds": [
+          "subjunctive-u6-its-time"
         ]
       },
       {
@@ -252,6 +273,10 @@
             "wrong": "I wish it will stop raining.",
             "correct": "I wish it would stop raining."
           }
+        ],
+        "usageIds": [
+          "subjunctive-u3-wish-would",
+          "subjunctive-u4-if-only"
         ]
       }
     ]

@@ -173,6 +173,10 @@
             "wrong": "My sister work in a hospital.",
             "correct": "My sister works in a hospital."
           }
+        ],
+        "usageIds": [
+          "ps-u1-habits-routines",
+          "ps-u6-subject-verb"
         ]
       },
       {
@@ -183,6 +187,9 @@
             "wrong": "I am wanting a cup of tea right now.",
             "correct": "I want a cup of tea right now."
           }
+        ],
+        "usageIds": [
+          "ps-u4-state-verbs"
         ]
       },
       {
@@ -197,6 +204,9 @@
             "wrong": "She always is late.",
             "correct": "She is always late."
           }
+        ],
+        "usageIds": [
+          "ps-u7-frequency-adverbs"
         ]
       },
       {
@@ -207,6 +217,10 @@
             "wrong": "Does he plays football on Sundays?",
             "correct": "Does he play football on Sundays?"
           }
+        ],
+        "usageIds": [
+          "ps-u1-habits-routines",
+          "ps-u6-subject-verb"
         ]
       }
     ],
