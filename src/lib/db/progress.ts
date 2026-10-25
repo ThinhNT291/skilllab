@@ -40,6 +40,9 @@ export async function getActivityTimestamps(days = 100): Promise<{ ok: true; tim
     // Ôn thẻ SRS cũng tính là có học trong ngày (theo thiết kế bản cũ); mỗi thẻ chỉ còn lần ôn gần nhất nên đây là số đếm tối thiểu.
     const reviews = await createClient().from("srs_cards").select("last_reviewed_at").eq("profile_id", profile.id).gte("last_reviewed_at", since)
     if (!reviews.error) timestamps.push(...(reviews.data ?? []).map((r: { last_reviewed_at: string }) => r.last_reviewed_at))
+    // Bài Viết/Nói đã chấm cũng tính là có học trong ngày (bảng có thể chưa tạo nếu chưa chạy migration 0006).
+    const graded = await createClient().from("graded_attempts").select("created_at").eq("profile_id", profile.id).gte("created_at", since)
+    if (!graded.error) timestamps.push(...(graded.data ?? []).map((r: { created_at: string }) => r.created_at))
     return { ok: true, timestamps }
   } catch (e) {
     return { ok: false, reason: "error", message: e instanceof Error ? e.message : String(e) }

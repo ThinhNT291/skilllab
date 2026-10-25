@@ -8,6 +8,7 @@ import { ProgressBar } from "@/components/exercise/progress-bar"
 import { PlayerCard } from "@/components/game/player-card"
 import { ActivityPanel } from "./activity-panel"
 import { TrendPanel } from "./trend-panel"
+import { AttemptsPanel } from "./attempts-panel"
 
 type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; summary: ProgressSummary; rows: AnswerRow[] }
 
@@ -61,6 +62,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
       <PlayerCard />
       <ActivityPanel />
       <TrendPanel rows={state.rows} />
+      <AttemptsPanel />
       <section className="grid grid-cols-3 gap-3 text-center" aria-label="Tổng quan">
         <Stat value={String(s.total)} label="câu đã làm" />
         <Stat value={`${accuracy}%`} label="trả lời đúng" />
@@ -108,7 +110,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
         <h2 id="topics-heading" className="mb-2 text-xl font-extrabold">
           Theo chuyên đề
         </h2>
-        <ul className="space-y-3">
+        <ul className="grid gap-3 md:grid-cols-2">
           {s.byTopic.map((t) => (
             <li key={t.topicId}>
               <Link href={t.topicId.startsWith("vocab-") ? `/tu-vung/${t.topicId.slice(6)}` : `/hoc/${t.topicId}`} className="block rounded-game border-2 border-border bg-card p-4 hover:border-primary">

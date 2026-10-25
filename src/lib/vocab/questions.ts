@@ -1,10 +1,11 @@
 /**
  * Sinh câu hỏi từ vựng từ danh sách từ (nguồn: English Vocabulary Profile, xem scripts/build-vocab.py).
  * Hàm thuần: nhận danh sách từ, trả về câu trắc nghiệm theo mô hình chung `McqExercise`.
- * Hai dạng: (1) đọc nghĩa chọn từ, (2) điền từ vào câu ví dụ. Từ gây nhiễu cùng từ loại và cùng cấp.
+ * Ba dạng: (1) đọc nghĩa tiếng Anh chọn từ, (2) điền từ vào câu ví dụ, (3) nghĩa tiếng Việt chọn từ (khi đã có `vi`). Từ gây nhiễu cùng từ loại và cùng cấp.
  */
 import { shuffle, type Rng } from "../content/derive.ts"
-import type { Bac, McqExercise } from "../content/types.ts"
+import type { MatchPair } from "../content/match.ts"
+import type { Bac, McqExercise, TypedExercise } from "../content/types.ts"
 
 export type VocabLevel = "a1" | "a2" | "b1"
 export const VOCAB_LEVELS: { id: VocabLevel; label: string; bac: Bac }[] = [
@@ -19,11 +20,15 @@ export interface VocabWord {
   pos: string
   def: string
   ex: string[]
+  /** Nghĩa tiếng Việt ngắn (nếu đã có) */
+  vi?: string
 }
 
 export const POS_VI: Record<string, string> = { noun: "danh từ", verb: "động từ", adjective: "tính từ", adverb: "trạng từ" }
 
 const DISTRACTORS = 3
+
+const viOf = (w: VocabWord) => (w.vi ? ` (${w.vi})` : "")
 
 function pickDistractors(target: VocabWord, pool: VocabWord[], rng: Rng): VocabWord[] {
   const samePos = shuffle(pool.filter((w) => w.pos === target.pos && w.word !== target.word), rng)
@@ -63,8 +68,8 @@ function build(
     prompt,
     choices: options.map((o) => o.word),
     correctIndex: options.indexOf(target),
-    explanation: `${target.word} (${POS_VI[target.pos] ?? target.pos}): ${target.def}.`,
-    choiceExplanations: options.map((o) => (o === target ? `Đúng — ${o.word}: ${o.def}.` : `Sai — '${o.word}' nghĩa là: ${o.def}.`)),
+    explanation: `${target.word} (${POS_VI[target.pos] ?? target.pos})${viOf(target)}: ${target.def}.`,
+    choiceExplanations: options.map((o) => (o === target ? `Đúng — ${o.word}${viOf(o)}: ${o.def}.` : `Sai — '${o.word}'${viOf(o)} nghĩa là: ${o.def}.`)),
   }
 }
 
@@ -88,13 +93,51 @@ export function clozeQuestion(w: VocabWord, level: VocabLevel, pool: VocabWord[]
   return build(`vq-c-${w.id}`, level, "Điền từ vào chỗ trống", sentence, w, pickDistractors(w, pool, rng), rng)
 }
 
+/** Từ tiếng Việt → chọn từ tiếng Anh. Chỉ dùng được khi từ đã có nghĩa tiếng Việt. */
+export function viQuestion(w: VocabWord, level: VocabLevel, pool: VocabWord[], rng: Rng = Math.random): McqExercise | null {
+  if (!w.vi) return null
+  return build(`vq-v-${w.id}`, level, "Chọn từ tiếng Anh", `Từ nào có nghĩa “${w.vi}” (${POS_VI[w.pos] ?? w.pos})?`, w, pickDistractors(w, pool, rng), rng)
+}
+
+/** Cặp "nghĩa tiếng Việt ↔ từ tiếng Anh" cho game ghép cặp. Mỗi từ ra một câu gõ để ghi kết quả và tạo thẻ ôn tập. */
+export function pickVocabMatchPairs(pool: VocabWord[], level: VocabLevel, rng: Rng = Math.random, size = 5): MatchPair[] {
+  const bac = VOCAB_LEVELS.find((l) => l.id === level)!.bac
+  const seenWords = new Set<string>()
+  const seenVi = new Set<string>()
+  const pairs: MatchPair[] = []
+  for (const w of shuffle(pool, rng)) {
+    if (!w.vi || seenWords.has(w.word) || seenVi.has(w.vi)) continue
+    seenWords.add(w.word)
+    seenVi.add(w.vi)
+    const left = `${w.vi} (${POS_VI[w.pos] ?? w.pos})`
+    const exercise: TypedExercise = {
+      id: `vq-g-${w.id}`,
+      kind: "typed",
+      language: "en",
+      bac,
+      topic: `vocab-${level}`,
+      tags: [`vocab-${level}`],
+      difficulty: bac as 1 | 2 | 3,
+      prompt: `Từ tiếng Anh nghĩa là “${w.vi}” (${POS_VI[w.pos] ?? w.pos})`,
+      answers: [w.word],
+      explanation: `${w.word} (${w.vi}): ${w.def}.`,
+      card: { key: `vq-g-${w.id}`, front: `Từ tiếng Anh nghĩa là “${w.vi}” (${POS_VI[w.pos] ?? w.pos})`, answer: w.word, filled: null, explanation: `${w.word} (${w.vi}): ${w.def}.` },
+    }
+    pairs.push({ id: exercise.id, left, right: w.word, exercise })
+    if (pairs.length === size) return pairs
+  }
+  return []
+}
+
 /** Một lượt 10 câu: bốc từ ngẫu nhiên, xen kẽ hai dạng câu (dạng điền từ chỉ khi từ có câu ví dụ phù hợp). */
 export function pickVocabRound(pool: VocabWord[], level: VocabLevel, size = 10, rng: Rng = Math.random): McqExercise[] {
   const out: McqExercise[] = []
   for (const w of shuffle(pool, rng)) {
     if (out.length >= size) break
-    const wantCloze = out.length % 2 === 1
-    out.push((wantCloze ? clozeQuestion(w, level, pool, rng) : null) ?? meaningQuestion(w, level, pool, rng))
+    // Xoay vòng ba dạng: đọc nghĩa Anh → chọn từ, điền từ vào câu, nghĩa Việt → chọn từ (dạng nào không dùng được thì rơi về dạng đọc nghĩa).
+    const turn = out.length % 3
+    const q = turn === 1 ? clozeQuestion(w, level, pool, rng) : turn === 2 ? viQuestion(w, level, pool, rng) : null
+    out.push(q ?? meaningQuestion(w, level, pool, rng))
   }
   return out
 }

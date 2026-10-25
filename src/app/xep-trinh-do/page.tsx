@@ -9,7 +9,7 @@ export const metadata = { title: "Xếp trình độ" }
 
 export default function PlacementPage() {
   return (
-    <main className="mx-auto w-full max-w-xl px-4 py-6">
+    <main className="mx-auto w-full max-w-5xl px-4 py-6 [&>*]:max-w-2xl">
       <h1 className="text-3xl font-extrabold">Xếp trình độ</h1>
       <p className="mb-4 text-muted-foreground">20 câu ngắn từ nhiều chuyên đề để biết nên bắt đầu học từ đâu. Không tính điểm xếp hạng.</p>
       <Suspense fallback={<p className="text-muted-foreground">Đang chọn câu hỏi…</p>}>

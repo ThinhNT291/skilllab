@@ -10,7 +10,7 @@ export function generateStaticParams() {
 
 export default function DictationPage({ params }: PageProps<"/hoc/[topic]/nghe-chep">) {
   return (
-    <main className="mx-auto w-full max-w-xl px-4 py-6">
+    <main className="mx-auto w-full max-w-5xl px-4 py-6 [&>*]:max-w-2xl">
       <Suspense fallback={<p className="text-muted-foreground">Đang tải bài tập…</p>}>
         <Round params={params} />
       </Suspense>

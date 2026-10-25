@@ -8,7 +8,7 @@ export const metadata = { title: "Quản lý thẻ" }
 export default async function CardsPage() {
   const { topicTitles } = await buildTagCatalog()
   return (
-    <main className="mx-auto w-full max-w-xl px-4 py-6">
+    <main className="mx-auto w-full max-w-5xl px-4 py-6">
       <Link href="/on-tap" className="text-sm text-primary underline underline-offset-4">
         ← Ôn tập
       </Link>

@@ -7,7 +7,8 @@
 "ex": [
 "She walked across the field/road.",
 "They're building a new bridge across the river."
-]
+],
+"vi": "sang bên kia, ngang qua"
 },
 {
 "id": "v-actor-noun-1",
@@ -16,7 +17,8 @@
 "def": "someone whose job is to perform in plays, films, etc.",
 "ex": [
 "\"Who's your favourite actor?\" \"Robert de Niro.\""
-]
+],
+"vi": "diễn viên"
 },
 {
 "id": "v-adjective-noun-1",
@@ -25,7 +27,8 @@
 "def": "a word that describes a noun or pronoun",
 "ex": [
 "'Big', 'boring', 'purple', 'quick' and 'obvious' are all adjectives."
-]
+],
+"vi": "tính từ"
 },
 {
 "id": "v-adventure-noun-1",
@@ -35,7 +38,8 @@
 "ex": [
 "It's a film about the adventures of two friends travelling through Africa.",
 "We got lost on the Metro - it was quite an adventure."
-]
+],
+"vi": "cuộc phiêu lưu"
 },
 {
 "id": "v-aeroplane-noun-1",
@@ -44,7 +48,8 @@
 "def": "a vehicle that flies and has at least one engine and wings",
 "ex": [
 "She has her own private aeroplane."
-]
+],
+"vi": "máy bay"
 },
 {
 "id": "v-after-adverb-1",
@@ -54,7 +59,8 @@
 "ex": [
 "Hilary got here at midday and Nicholas arrived soon after.",
 "I can't go next week - how about the week after?"
-]
+],
+"vi": "sau đó, sau"
 },
 {
 "id": "v-afterwards-adverb-1",
@@ -64,7 +70,8 @@
 "ex": [
 "We had tea, and afterwards we sat in the garden for a while.",
 "They separated, and soon/shortly afterwards Jane left the country."
-]
+],
+"vi": "sau đó, về sau"
 },
 {
 "id": "v-aged-adjective-1",
@@ -73,7 +80,8 @@
 "def": "of the age of",
 "ex": [
 "They've got one daughter, Isabel, aged 3."
-]
+],
+"vi": "tuổi, ở độ tuổi"
 },
 {
 "id": "v-ago-adverb-1",
@@ -83,7 +91,8 @@
 "ex": [
 "He left the house over an hour ago.",
 "We left London ten years ago."
-]
+],
+"vi": "cách đây, trước đây"
 },
 {
 "id": "v-airport-noun-1",
@@ -93,17 +102,8 @@
 "ex": [
 "an international airport",
 "an airport terminal/runway"
-]
-},
-{
-"id": "v-alcohol-noun-1",
-"word": "alcohol",
-"pos": "noun",
-"def": "drinks such as wine and beer which can make you drunk",
-"ex": [
-"Most wines contain between 10% and 15% alcohol.",
-"an alcohol-free lager"
-]
+],
+"vi": "sân bay"
 },
 {
 "id": "v-all-adverb-1",
@@ -113,7 +113,8 @@
 "ex": [
 "The cake was all eaten last night.",
 "You're all wet!"
-]
+],
+"vi": "hoàn toàn, rất"
 },
 {
 "id": "v-ambulance-noun-1",
@@ -123,7 +124,8 @@
 "ex": [
 "I called for an ambulance.",
 "an ambulance driver"
-]
+],
+"vi": "xe cứu thương"
 },
 {
 "id": "v-apartment-noun-1",
@@ -133,7 +135,8 @@
 "ex": [
 "I'll give you the keys to my apartment.",
 "They have six luxury apartments for sale."
-]
+],
+"vi": "căn hộ"
 },
 {
 "id": "v-appointment-noun-1",
@@ -143,7 +146,8 @@
 "ex": [
 "a dental/doctor's appointment",
 "I'd like to make an appointment with Doctor Evans, please."
-]
+],
+"vi": "cuộc hẹn"
 },
 {
 "id": "v-armchair-noun-1",
@@ -152,7 +156,8 @@
 "def": "a comfortable chair with sides that support your arms",
 "ex": [
 "She sat in an armchair by the fire, reading a newspaper."
-]
+],
+"vi": "ghế bành"
 },
 {
 "id": "v-arrive-verb-1",
@@ -162,7 +167,8 @@
 "ex": [
 "What time does your train arrive?",
 "It was dark by the time we arrived at the station."
-]
+],
+"vi": "đến, tới nơi"
 },
 {
 "id": "v-aunt-noun-1",
@@ -171,7 +177,8 @@
 "def": "the sister of someone's father or mother, or the wife of someone's uncle",
 "ex": [
 "I have an aunt in Australia."
-]
+],
+"vi": "cô, dì, bác gái"
 },
 {
 "id": "v-autumn-noun-1",
@@ -181,7 +188,8 @@
 "ex": [
 "We like to travel in the autumn when there are fewer tourists.",
 "Last autumn we went to Germany."
-]
+],
+"vi": "mùa thu"
 },
 {
 "id": "v-back-noun-1",
@@ -191,7 +199,8 @@
 "ex": [
 "I've got a bad back.",
 "He lay on his back, staring at the ceiling."
-]
+],
+"vi": "lưng"
 },
 {
 "id": "v-badminton-noun-1",
@@ -200,7 +209,8 @@
 "def": "a sport for two or four people in which you hit a light object with feathers over a net",
 "ex": [
 "We had a game of badminton."
-]
+],
+"vi": "cầu lông"
 },
 {
 "id": "v-bake-verb-1",
@@ -210,7 +220,8 @@
 "ex": [
 "I baked a cake.",
 "freshly baked bread"
-]
+],
+"vi": "nướng (bánh)"
 },
 {
 "id": "v-battery-noun-1",
@@ -220,7 +231,8 @@
 "ex": [
 "My car has got a flat battery.",
 "a rechargeable battery"
-]
+],
+"vi": "pin, ắc quy"
 },
 {
 "id": "v-bean-noun-1",
@@ -229,7 +241,8 @@
 "def": "a seed, or the pod containing seeds, of various climbing plants, eaten as a vegetable",
 "ex": [
 "Coffee beans are the bean-like seeds of the coffee tree."
-]
+],
+"vi": "hạt đậu, đậu"
 },
 {
 "id": "v-bear-noun-1",
@@ -238,7 +251,8 @@
 "def": "a large, strong, wild animal with thick fur",
 "ex": [
 "a brown/black bear"
-]
+],
+"vi": "con gấu"
 },
 {
 "id": "v-before-adverb-1",
@@ -248,7 +262,8 @@
 "ex": [
 "He said he had never seen her before.",
 "I feel as though I've been here before."
-]
+],
+"vi": "trước đây, trước đó"
 },
 {
 "id": "v-belt-noun-1",
@@ -258,7 +273,8 @@
 "ex": [
 "She fastened her belt tightly around her waist.",
 "He had eaten so much that he had to undo his belt."
-]
+],
+"vi": "thắt lưng"
 },
 {
 "id": "v-better-adverb-1",
@@ -268,7 +284,8 @@
 "ex": [
 "I'd like to get to know him better.",
 "Helen did much better than I did in the exam."
-]
+],
+"vi": "tốt hơn"
 },
 {
 "id": "v-bicycle-noun-1",
@@ -278,7 +295,8 @@
 "ex": [
 "I go to work by bicycle.",
 "He was on his bicycle."
-]
+],
+"vi": "xe đạp"
 },
 {
 "id": "v-bill-noun-1",
@@ -288,7 +306,8 @@
 "ex": [
 "an electricity/gas/phone bill",
 "They sent us a bill for the work they had done."
-]
+],
+"vi": "hóa đơn"
 },
 {
 "id": "v-bit-noun-1",
@@ -298,7 +317,8 @@
 "ex": [
 "Would you like a bit of chocolate?",
 "The glass smashed into little bits."
-]
+],
+"vi": "một chút, mảnh nhỏ"
 },
 {
 "id": "v-black-noun-1",
@@ -307,7 +327,8 @@
 "def": "the colour of coal or of the sky on a very dark night",
 "ex": [
 "She always dresses in black."
-]
+],
+"vi": "màu đen"
 },
 {
 "id": "v-blackboard-noun-1",
@@ -316,7 +337,8 @@
 "def": "a large board with a dark surface that a teacher writes on with chalk",
 "ex": [
 "She wrote her name on the blackboard."
-]
+],
+"vi": "bảng đen"
 },
 {
 "id": "v-book-verb-1",
@@ -326,7 +348,8 @@
 "ex": [
 "She'd booked a table for two at their favourite restaurant.",
 "You need to book a seat on the train to Edinburgh."
-]
+],
+"vi": "đặt trước"
 },
 {
 "id": "v-bookcase-noun-1",
@@ -335,7 +358,8 @@
 "def": "a piece of furniture with shelves for putting books on",
 "ex": [
 "We need a new bookcase."
-]
+],
+"vi": "tủ sách"
 },
 {
 "id": "v-bookshelf-noun-1",
@@ -344,7 +368,8 @@
 "def": "a shelf that you put books on",
 "ex": [
 "There's a bookshelf above our bed."
-]
+],
+"vi": "giá sách"
 },
 {
 "id": "v-bookshop-noun-1",
@@ -353,7 +378,8 @@
 "def": "a shop where books are sold",
 "ex": [
 "There are so many bookshops in town."
-]
+],
+"vi": "hiệu sách"
 },
 {
 "id": "v-boss-noun-1",
@@ -362,7 +388,8 @@
 "def": "someone who is responsible for employees and tells them what to do",
 "ex": [
 "I'll ask my boss if I can leave work early tomorrow."
-]
+],
+"vi": "ông chủ, sếp"
 },
 {
 "id": "v-bottle-noun-1",
@@ -372,7 +399,8 @@
 "ex": [
 "a wine bottle",
 "a bottle of beer/whisky"
-]
+],
+"vi": "cái chai"
 },
 {
 "id": "v-bowl-noun-1",
@@ -382,7 +410,8 @@
 "ex": [
 "a bowl of soup",
 "a soup/cereal/salad/sugar bowl"
-]
+],
+"vi": "cái bát, tô"
 },
 {
 "id": "v-boyfriend-noun-1",
@@ -392,7 +421,8 @@
 "ex": [
 "He's not my boyfriend - we're just good friends!",
 "Cathy's ex-boyfriend was a really nice guy."
-]
+],
+"vi": "bạn trai"
 },
 {
 "id": "v-bring-verb-1",
@@ -402,7 +432,8 @@
 "ex": [
 "\"Shall I bring anything to the party?\" \"Oh, just a bottle.\"",
 "Bring me that knife/Bring that knife to me."
-]
+],
+"vi": "mang theo, đem"
 },
 {
 "id": "v-burger-noun-1",
@@ -411,7 +442,8 @@
 "def": "meat or other food pressed into a round, flat shape and fried",
 "ex": [
 "a burger and chips"
-]
+],
+"vi": "bánh mì kẹp thịt"
 },
 {
 "id": "v-businessman-noun-1",
@@ -420,7 +452,8 @@
 "def": "a man who works in business, especially if he has a high position in a company",
 "ex": [
 "He was a successful businessman before becoming a writer."
-]
+],
+"vi": "doanh nhân nam"
 },
 {
 "id": "v-businesswoman-noun-1",
@@ -429,7 +462,8 @@
 "def": "a woman who works in business, especially if she has a high position in a company",
 "ex": [
 "She is a successful businesswoman."
-]
+],
+"vi": "nữ doanh nhân"
 },
 {
 "id": "v-calendar-noun-1",
@@ -438,7 +472,8 @@
 "def": "a list that shows all the days, weeks and months of the year",
 "ex": [
 "I think we're free next Saturday but I'll just check the calendar."
-]
+],
+"vi": "lịch"
 },
 {
 "id": "v-camp-verb-1",
@@ -447,7 +482,8 @@
 "def": "to stay in a tent or temporary shelter",
 "ex": [
 "We camped near the beach for two nights."
-]
+],
+"vi": "cắm trại"
 },
 {
 "id": "v-camping-noun-1",
@@ -456,7 +492,8 @@
 "def": "when you stay in a tent on holiday",
 "ex": [
 "We used to go camping in Spain when I was a child."
-]
+],
+"vi": "việc cắm trại"
 },
 {
 "id": "v-can-noun-1",
@@ -465,7 +502,8 @@
 "def": "a closed, metal container for food or liquids",
 "ex": [
 "a can of beans/soup"
-]
+],
+"vi": "lon, hộp"
 },
 {
 "id": "v-cap-noun-1",
@@ -474,7 +512,8 @@
 "def": "a hat with a curved part at the front",
 "ex": [
 "He wears a baseball cap."
-]
+],
+"vi": "mũ lưỡi trai"
 },
 {
 "id": "v-capital-noun-1",
@@ -484,7 +523,8 @@
 "ex": [
 "The capital of France is Paris.",
 "Australia's capital city is Canberra."
-]
+],
+"vi": "thủ đô"
 },
 {
 "id": "v-carpet-noun-1",
@@ -493,7 +533,8 @@
 "def": "thick material for covering floors, often made of wool",
 "ex": [
 "We've got fitted carpets in the bedrooms."
-]
+],
+"vi": "tấm thảm"
 },
 {
 "id": "v-cent-noun-1",
@@ -502,7 +543,8 @@
 "def": "a unit of money worth 0.01 of the US dollar and of the main monetary unit of many countries, or a coin with this value",
 "ex": [
 "He spent eighty cents on a chocolate bar."
-]
+],
+"vi": "xu (đồng xu)"
 },
 {
 "id": "v-centimetre-noun-1",
@@ -511,7 +553,8 @@
 "def": "a unit of length equal to 0.01 of a metre",
 "ex": [
 "The picture measures fifty centimetres by thirty centimetres."
-]
+],
+"vi": "xen-ti-mét"
 },
 {
 "id": "v-century-noun-1",
@@ -521,7 +564,8 @@
 "ex": [
 "the 21st century",
 "The city centre has scarcely changed in over a century."
-]
+],
+"vi": "thế kỷ"
 },
 {
 "id": "v-champagne-noun-1",
@@ -530,7 +574,8 @@
 "def": "French white wine with lots of bubbles in it which people often drink to celebrate something",
 "ex": [
 "We always celebrate our wedding anniversary with a bottle of champagne."
-]
+],
+"vi": "rượu sâm panh"
 },
 {
 "id": "v-chat-noun-1",
@@ -540,7 +585,8 @@
 "ex": [
 "Give me a call and we'll have a chat sometime.",
 "I had a chat with my boss today about a possible salary increase."
-]
+],
+"vi": "cuộc trò chuyện"
 },
 {
 "id": "v-chef-noun-1",
@@ -550,7 +596,8 @@
 "ex": [
 "He is one of the top chefs in Britain.",
 "She is the head chef at the Waldorf-Astoria."
-]
+],
+"vi": "đầu bếp"
 },
 {
 "id": "v-cheque-noun-1",
@@ -560,7 +607,8 @@
 "ex": [
 "I wrote him a cheque for £50.",
 "I don't have any cash on me, so could I pay by cheque?"
-]
+],
+"vi": "séc"
 },
 {
 "id": "v-chess-noun-1",
@@ -570,7 +618,8 @@
 "ex": [
 "Do you play chess?",
 "a chess player/set"
-]
+],
+"vi": "cờ vua"
 },
 {
 "id": "v-church-noun-1",
@@ -580,17 +629,8 @@
 "ex": [
 "The town has four churches.",
 "a church hall"
-]
-},
-{
-"id": "v-cigarette-noun-1",
-"word": "cigarette",
-"pos": "noun",
-"def": "a small paper tube filled with cut pieces of tobacco, which people smoke",
-"ex": [
-"a packet of cigarettes",
-"She lit a cigarette."
-]
+],
+"vi": "nhà thờ"
 },
 {
 "id": "v-classmate-noun-1",
@@ -599,7 +639,8 @@
 "def": "someone who is in your class at school or college",
 "ex": [
 "He went on a school trip with his classmates."
-]
+],
+"vi": "bạn cùng lớp"
 },
 {
 "id": "v-click-noun-1",
@@ -608,7 +649,8 @@
 "def": "a press on part of a computer mouse",
 "ex": [
 "You can get the information with a single click."
-]
+],
+"vi": "cú nhấp chuột"
 },
 {
 "id": "v-clown-noun-1",
@@ -617,7 +659,8 @@
 "def": "a performer who has special clothes and a painted face and makes people laugh",
 "ex": [
 "a circus clown"
-]
+],
+"vi": "chú hề"
 },
 {
 "id": "v-cola-noun-1",
@@ -626,7 +669,8 @@
 "def": "a sweet, dark-brown drink with a lot of bubbles",
 "ex": [
 "We drank cola with our meal."
-]
+],
+"vi": "nước cô-la"
 },
 {
 "id": "v-cold-noun-1",
@@ -635,7 +679,8 @@
 "def": "a common illness which makes you sneeze and makes your nose produce liquid",
 "ex": [
 "I've got a cold."
-]
+],
+"vi": "bệnh cảm lạnh"
 },
 {
 "id": "v-colleague-noun-1",
@@ -644,7 +689,8 @@
 "def": "someone that you work with",
 "ex": [
 "We're entertaining some colleagues of Ben's tonight."
-]
+],
+"vi": "đồng nghiệp"
 },
 {
 "id": "v-college-noun-1",
@@ -654,7 +700,8 @@
 "ex": [
 "a sixth-form college",
 "a teacher-training college"
-]
+],
+"vi": "trường cao đẳng"
 },
 {
 "id": "v-comb-noun-1",
@@ -663,7 +710,8 @@
 "def": "a flat piece of plastic, wood or metal with a thin row of long narrow parts along one side, which you use to tidy and arrange your hair",
 "ex": [
 "Has anyone seen my black comb?"
-]
+],
+"vi": "cái lược"
 },
 {
 "id": "v-comic-noun-1",
@@ -673,7 +721,8 @@
 "ex": [
 "As a boy I used to love reading comics.",
 "a comic book"
-]
+],
+"vi": "truyện tranh"
 },
 {
 "id": "v-comparative-noun-1",
@@ -683,7 +732,8 @@
 "ex": [
 "'Fatter' is the comparative of 'fat'.",
 "'More difficult' is the comparative of 'difficult'."
-]
+],
+"vi": "dạng so sánh"
 },
 {
 "id": "v-concert-noun-1",
@@ -693,7 +743,8 @@
 "ex": [
 "a pop/classical concert",
 "a school concert"
-]
+],
+"vi": "buổi hòa nhạc"
 },
 {
 "id": "v-contact-verb-1",
@@ -703,7 +754,8 @@
 "ex": [
 "I tried to contact him at his office, but he wasn't in.",
 "You can contact me on 388 9146."
-]
+],
+"vi": "liên lạc"
 },
 {
 "id": "v-countryside-noun-1",
@@ -713,7 +765,8 @@
 "ex": [
 "The countryside around there is lovely.",
 "The house is set in 90 acres of beautiful, unspoilt countryside."
-]
+],
+"vi": "vùng nông thôn"
 },
 {
 "id": "v-cousin-noun-1",
@@ -722,7 +775,8 @@
 "def": "a child of a person's aunt or uncle",
 "ex": [
 "My brother's wife and I both had babies around the same time, so the cousins are very close in age."
-]
+],
+"vi": "anh chị em họ"
 },
 {
 "id": "v-cream-adjective-1",
@@ -731,7 +785,8 @@
 "def": "having a yellowish-white colour",
 "ex": [
 "a cream shirt"
-]
+],
+"vi": "màu kem"
 },
 {
 "id": "v-crisp-noun-1",
@@ -740,7 +795,8 @@
 "def": "a very thin slice of potato that has been cooked in oil and is eaten cold",
 "ex": [
 "a packet of crisps"
-]
+],
+"vi": "khoai tây chiên lát"
 },
 {
 "id": "v-crowd-noun-1",
@@ -750,7 +806,8 @@
 "ex": [
 "A large crowd had gathered outside the pop star's hotel.",
 "Shop early to avoid the crowds."
-]
+],
+"vi": "đám đông"
 },
 {
 "id": "v-cupboard-noun-1",
@@ -760,7 +817,8 @@
 "ex": [
 "a kitchen cupboard",
 "a built-in cupboard"
-]
+],
+"vi": "tủ chén, tủ"
 },
 {
 "id": "v-curry-noun-1",
@@ -769,7 +827,8 @@
 "def": "a type of food, originally from South Asia, consisting of meat or vegetables cooked with hot spices",
 "ex": [
 "a hot/mild curry"
-]
+],
+"vi": "món cà ri"
 },
 {
 "id": "v-curtain-noun-1",
@@ -779,7 +838,8 @@
 "ex": [
 "Could you close/draw the curtains?",
 "She opened the curtains."
-]
+],
+"vi": "rèm cửa, màn"
 },
 {
 "id": "v-cycling-noun-1",
@@ -788,7 +848,8 @@
 "def": "the sport or activity of riding a bicycle",
 "ex": [
 "We go cycling most weekends."
-]
+],
+"vi": "môn đạp xe"
 },
 {
 "id": "v-dancer-noun-1",
@@ -798,7 +859,8 @@
 "ex": [
 "He's a dancer in the Royal Ballet.",
 "I never knew you were such a good dancer."
-]
+],
+"vi": "vũ công"
 },
 {
 "id": "v-delay-noun-1",
@@ -808,7 +870,8 @@
 "ex": [
 "An accident caused long delays on the motorway.",
 "There has been a delay in the book's publication."
-]
+],
+"vi": "sự chậm trễ"
 },
 {
 "id": "v-dentist-noun-1",
@@ -817,7 +880,8 @@
 "def": "someone who examines and repairs teeth",
 "ex": [
 "You should have your teeth checked by a dentist at least twice a year."
-]
+],
+"vi": "nha sĩ"
 },
 {
 "id": "v-department-noun-1",
@@ -827,7 +891,8 @@
 "ex": [
 "the geography department/the department of geography",
 "The accounts department is/are having a Christmas party this week."
-]
+],
+"vi": "phòng ban, khoa"
 },
 {
 "id": "v-desert-noun-1",
@@ -837,7 +902,8 @@
 "ex": [
 "the Sahara Desert",
 "They were lost in the desert for nine days."
-]
+],
+"vi": "sa mạc"
 },
 {
 "id": "v-dessert-noun-1",
@@ -847,7 +913,8 @@
 "ex": [
 "a dessert fork/spoon",
 "For dessert there's apple pie, cheesecake or fruit."
-]
+],
+"vi": "món tráng miệng"
 },
 {
 "id": "v-details-noun-1",
@@ -857,7 +924,8 @@
 "ex": [
 "I've sent off for the details of a job I saw advertised in the paper.",
 "They haven't given me any details yet."
-]
+],
+"vi": "thông tin chi tiết"
 },
 {
 "id": "v-dinosaur-noun-1",
@@ -866,7 +934,8 @@
 "def": "a very large animal that used to live millions of years ago",
 "ex": [
 "So why did the dinosaurs die out?"
-]
+],
+"vi": "khủng long"
 },
 {
 "id": "v-diploma-noun-1",
@@ -875,7 +944,8 @@
 "def": "a qualification from a school, college or university, or an official document showing that someone has completed a course of study",
 "ex": [
 "a diploma in marketing"
-]
+],
+"vi": "bằng, chứng chỉ"
 },
 {
 "id": "v-dirty-adjective-1",
@@ -884,7 +954,8 @@
 "def": "not clean",
 "ex": [
 "Her face was dirty and tear-stained."
-]
+],
+"vi": "bẩn"
 },
 {
 "id": "v-discount-noun-1",
@@ -894,7 +965,8 @@
 "ex": [
 "They usually give you a discount if you buy multiple copies.",
 "They offer a 10 percent discount on rail travel for students."
-]
+],
+"vi": "giảm giá"
 },
 {
 "id": "v-discuss-verb-1",
@@ -903,7 +975,8 @@
 "def": "to talk about something with someone and tell each other your ideas or opinions",
 "ex": [
 "Have you discussed this matter with anyone else?"
-]
+],
+"vi": "thảo luận"
 },
 {
 "id": "v-double-adjective-1",
@@ -913,7 +986,8 @@
 "ex": [
 "I'd like to book a double room.",
 "I ordered a double espresso."
-]
+],
+"vi": "gấp đôi, đôi"
 },
 {
 "id": "v-download-verb-1",
@@ -922,7 +996,8 @@
 "def": "to copy computer programs, music or other information electronically, especially from the Internet or a larger computer",
 "ex": [
 "I've downloaded the program."
-]
+],
+"vi": "tải xuống"
 },
 {
 "id": "v-downstairs-adverb-1",
@@ -931,7 +1006,8 @@
 "def": "to or on a lower floor of a building, especially the ground floor",
 "ex": [
 "I went downstairs to answer the phone."
-]
+],
+"vi": "xuống tầng dưới"
 },
 {
 "id": "v-drawing-noun-1",
@@ -941,7 +1017,8 @@
 "ex": [
 "Rosie loves drawing.",
 "She gave me a beautiful drawing of a horse."
-]
+],
+"vi": "bức vẽ, việc vẽ"
 },
 {
 "id": "v-drum-noun-1",
@@ -950,7 +1027,8 @@
 "def": "a round, hollow musical instrument that you hit with your hand or a stick",
 "ex": [
 "a bass/snare/kettle drum"
-]
+],
+"vi": "cái trống"
 },
 {
 "id": "v-duck-noun-1",
@@ -959,7 +1037,8 @@
 "def": "a bird that lives by water, has webbed feet, a short neck and a large beak",
 "ex": [
 "We took some bread to feed the ducks."
-]
+],
+"vi": "con vịt"
 },
 {
 "id": "v-earring-noun-1",
@@ -969,7 +1048,8 @@
 "ex": [
 "a pair of earrings",
 "He was wearing an earring in his left ear."
-]
+],
+"vi": "bông tai"
 },
 {
 "id": "v-engine-noun-1",
@@ -978,7 +1058,8 @@
 "def": "the part of a vehicle that uses energy from oil, electricity or steam to make it move",
 "ex": [
 "a jet/diesel engine"
-]
+],
+"vi": "động cơ"
 },
 {
 "id": "v-engineer-noun-1",
@@ -988,7 +1069,8 @@
 "ex": [
 "a civil engineer",
 "a mechanical/structural engineer"
-]
+],
+"vi": "kỹ sư"
 },
 {
 "id": "v-enough-adverb-1",
@@ -998,7 +1080,8 @@
 "ex": [
 "Are you old enough to vote?",
 "You're not driving fast enough."
-]
+],
+"vi": "đủ"
 },
 {
 "id": "v-envelope-noun-1",
@@ -1007,7 +1090,8 @@
 "def": "a flat paper container for a letter",
 "ex": [
 "She ripped open the envelope."
-]
+],
+"vi": "phong bì"
 },
 {
 "id": "v-euro-noun-1",
@@ -1016,7 +1100,8 @@
 "def": "the unit of money used in most European Union countries; €",
 "ex": [
 "Most hotels are priced between a hundred and two hundred euros a night."
-]
+],
+"vi": "đồng ơ-rô"
 },
 {
 "id": "v-ever-adverb-1",
@@ -1026,7 +1111,8 @@
 "ex": [
 "Have you ever been to London?",
 "If you're ever in Cambridge, do give me a ring."
-]
+],
+"vi": "từng, bao giờ"
 },
 {
 "id": "v-everywhere-adverb-1",
@@ -1036,7 +1122,8 @@
 "ex": [
 "I looked everywhere for my keys.",
 "Everywhere I look I see things that remind me of Brendan."
-]
+],
+"vi": "mọi nơi"
 },
 {
 "id": "v-extra-adjective-1",
@@ -1046,7 +1133,8 @@
 "ex": [
 "She babysits to earn a bit of extra cash.",
 "He needs extra help with his English."
-]
+],
+"vi": "thêm, phụ"
 },
 {
 "id": "v-fantastic-adjective-1",
@@ -1056,7 +1144,8 @@
 "ex": [
 "You look fantastic in that dress.",
 "We had a fantastic time."
-]
+],
+"vi": "tuyệt vời"
 },
 {
 "id": "v-farmer-noun-1",
@@ -1065,7 +1154,8 @@
 "def": "someone who owns or looks after a farm",
 "ex": [
 "a sheep farmer"
-]
+],
+"vi": "nông dân"
 },
 {
 "id": "v-fast-adverb-1",
@@ -1075,7 +1165,8 @@
 "ex": [
 "We ran as fast as we could.",
 "The accident was caused by people driving too fast in bad conditions."
-]
+],
+"vi": "nhanh"
 },
 {
 "id": "v-finger-noun-1",
@@ -1085,7 +1176,8 @@
 "ex": [
 "He noticed her long delicate fingers.",
 "I cut my finger chopping vegetables last night."
-]
+],
+"vi": "ngón tay"
 },
 {
 "id": "v-fit-adjective-1",
@@ -1095,7 +1187,8 @@
 "ex": [
 "I joined a gym to get fit.",
 "I jog to keep fit."
-]
+],
+"vi": "khỏe mạnh, cân đối"
 },
 {
 "id": "v-flight-noun-1",
@@ -1105,7 +1198,8 @@
 "ex": [
 "I'll never forget my first flight.",
 "How was your flight?"
-]
+],
+"vi": "chuyến bay"
 },
 {
 "id": "v-fog-noun-1",
@@ -1115,7 +1209,8 @@
 "ex": [
 "Thick/Heavy fog has made driving conditions dangerous.",
 "It took several hours for the fog to clear/lift."
-]
+],
+"vi": "sương mù"
 },
 {
 "id": "v-footballer-noun-1",
@@ -1124,7 +1219,8 @@
 "def": "someone who plays football, especially as their job",
 "ex": [
 "Her cousin is a professional footballer."
-]
+],
+"vi": "cầu thủ bóng đá"
 },
 {
 "id": "v-fork-noun-1",
@@ -1133,7 +1229,8 @@
 "def": "a small object with three or four points and a handle, that you use to pick up food and eat with",
 "ex": [
 "a knife and fork."
-]
+],
+"vi": "cái dĩa, nĩa"
 },
 {
 "id": "v-fridge-noun-1",
@@ -1142,7 +1239,8 @@
 "def": "a large container that uses electricity to keep food cold",
 "ex": [
 "Don't forget to put the milk back in the fridge."
-]
+],
+"vi": "tủ lạnh"
 },
 {
 "id": "v-fun-adjective-1",
@@ -1151,7 +1249,8 @@
 "def": "enjoyable or entertaining",
 "ex": [
 "There are lots of fun things to do here."
-]
+],
+"vi": "vui, thú vị"
 },
 {
 "id": "v-further-adjective-1",
@@ -1161,7 +1260,8 @@
 "ex": [
 "For further details of the offer, call this number.",
 "Further information can be found on our website."
-]
+],
+"vi": "thêm nữa, bổ sung"
 },
 {
 "id": "v-garlic-noun-1",
@@ -1170,7 +1270,8 @@
 "def": "a vegetable like a small onion with a very strong taste and smell",
 "ex": [
 "a clove of garlic"
-]
+],
+"vi": "tỏi"
 },
 {
 "id": "v-geography-noun-1",
@@ -1179,7 +1280,8 @@
 "def": "the study of the physical surface of the Earth and all regions of the world",
 "ex": [
 "a degree in geography and economics"
-]
+],
+"vi": "môn địa lý"
 },
 {
 "id": "v-glove-noun-1",
@@ -1188,7 +1290,8 @@
 "def": "a piece of clothing which covers your fingers and hand",
 "ex": [
 "a pair of gloves"
-]
+],
+"vi": "găng tay"
 },
 {
 "id": "v-gold-noun-1",
@@ -1197,7 +1300,8 @@
 "def": "a valuable, shiny, yellow metal used to make coins, jewellery, etc.",
 "ex": [
 "The bracelet was made of solid gold."
-]
+],
+"vi": "vàng"
 },
 {
 "id": "v-golf-noun-1",
@@ -1207,7 +1311,8 @@
 "ex": [
 "Do you play golf?",
 "We often have a round of golf at the weekend."
-]
+],
+"vi": "môn gôn"
 },
 {
 "id": "v-gram-noun-1",
@@ -1216,7 +1321,8 @@
 "def": "a unit of mass equal to 0.001 kilograms",
 "ex": [
 "Measure out 200 grams of butter."
-]
+],
+"vi": "gam"
 },
 {
 "id": "v-grammar-noun-1",
@@ -1225,7 +1331,8 @@
 "def": "the way words combine and change their form and position in a sentence, or the rules or study of this",
 "ex": [
 "This course will cover basic English grammar."
-]
+],
+"vi": "ngữ pháp"
 },
 {
 "id": "v-granddad-noun-1",
@@ -1234,7 +1341,8 @@
 "def": "grandfather",
 "ex": [
 "Isn't that your granddad over there?"
-]
+],
+"vi": "ông"
 },
 {
 "id": "v-grandfather-noun-1",
@@ -1243,7 +1351,8 @@
 "def": "the father of a person's mother or father",
 "ex": [
 "My grandfather died before I was born."
-]
+],
+"vi": "ông"
 },
 {
 "id": "v-grandma-noun-1",
@@ -1252,7 +1361,8 @@
 "def": "grandmother",
 "ex": [
 "My grandma is a very good cook."
-]
+],
+"vi": "bà"
 },
 {
 "id": "v-grandmother-noun-1",
@@ -1261,7 +1371,8 @@
 "def": "the mother of a person's father or mother",
 "ex": [
 "My grandmother lives in Argentina."
-]
+],
+"vi": "bà"
 },
 {
 "id": "v-grandpa-noun-1",
@@ -1270,7 +1381,8 @@
 "def": "grandfather",
 "ex": [
 "I usually see my grandpa twice a week."
-]
+],
+"vi": "ông"
 },
 {
 "id": "v-grandparent-noun-1",
@@ -1279,7 +1391,8 @@
 "def": "the father or mother of a person's father or mother",
 "ex": [
 "We can learn a lot from our grandparents."
-]
+],
+"vi": "ông bà"
 },
 {
 "id": "v-grandson-noun-1",
@@ -1288,7 +1401,8 @@
 "def": "the son of a person's son or daughter",
 "ex": [
 "Nicholas was her first grandson."
-]
+],
+"vi": "cháu trai (của ông bà)"
 },
 {
 "id": "v-granny-noun-1",
@@ -1297,7 +1411,8 @@
 "def": "grandmother",
 "ex": [
 "Our granny used to tell us funny stories."
-]
+],
+"vi": "bà"
 },
 {
 "id": "v-grape-noun-1",
@@ -1306,7 +1421,8 @@
 "def": "a small round purple or pale green fruit that you can eat or make into wine",
 "ex": [
 "a bunch of grapes"
-]
+],
+"vi": "quả nho"
 },
 {
 "id": "v-grey-noun-1",
@@ -1315,7 +1431,8 @@
 "def": "the colour that is a mixture of black and white",
 "ex": [
 "She was dressed in grey."
-]
+],
+"vi": "màu xám"
 },
 {
 "id": "v-guess-verb-1",
@@ -1325,7 +1442,8 @@
 "ex": [
 "Guess how old he is.",
 "You'll never guess who I saw in town."
-]
+],
+"vi": "đoán"
 },
 {
 "id": "v-guidebook-noun-1",
@@ -1334,7 +1452,8 @@
 "def": "a book that gives visitors information about a particular place",
 "ex": [
 "a guidebook to/about Venice"
-]
+],
+"vi": "sách hướng dẫn du lịch"
 },
 {
 "id": "v-guy-noun-1",
@@ -1343,7 +1462,8 @@
 "def": "a man",
 "ex": [
 "Do you mean the guy with the blonde hair and glasses?"
-]
+],
+"vi": "anh chàng, gã"
 },
 {
 "id": "v-ham-noun-1",
@@ -1352,7 +1472,8 @@
 "def": "meat from a pig's back or upper leg",
 "ex": [
 "a ham sandwich"
-]
+],
+"vi": "giăm bông, thịt heo muối"
 },
 {
 "id": "v-handbag-noun-1",
@@ -1361,7 +1482,8 @@
 "def": "a small bag for money, keys, make-up, etc. carried especially by women",
 "ex": [
 "I left my handbag on the train."
-]
+],
+"vi": "túi xách"
 },
 {
 "id": "v-hate-verb-1",
@@ -1371,7 +1493,8 @@
 "ex": [
 "Kelly hates her teacher.",
 "She hated the winter."
-]
+],
+"vi": "ghét"
 },
 {
 "id": "v-headache-noun-1",
@@ -1380,7 +1503,8 @@
 "def": "a pain you feel inside your head",
 "ex": [
 "I've got a splitting headache."
-]
+],
+"vi": "đau đầu"
 },
 {
 "id": "v-headteacher-noun-1",
@@ -1389,7 +1513,8 @@
 "def": "the person in charge of a school",
 "ex": [
 "He was sent to the headteacher."
-]
+],
+"vi": "hiệu trưởng"
 },
 {
 "id": "v-helicopter-noun-1",
@@ -1399,7 +1524,8 @@
 "ex": [
 "The injured were flown to hospital by helicopter.",
 "a helicopter pilot"
-]
+],
+"vi": "trực thăng"
 },
 {
 "id": "v-hill-noun-1",
@@ -1409,7 +1535,8 @@
 "ex": [
 "We walked up/down the hill to the village.",
 "They climbed the hill to get a better view."
-]
+],
+"vi": "ngọn đồi"
 },
 {
 "id": "v-hobby-noun-1",
@@ -1418,7 +1545,8 @@
 "def": "an activity that you enjoy and do regularly when you are not working",
 "ex": [
 "Ben's hobby is restoring old motorcycles."
-]
+],
+"vi": "sở thích"
 },
 {
 "id": "v-hockey-noun-1",
@@ -1427,7 +1555,8 @@
 "def": "a team game played on grass where you hit a small ball with a long, curved stick",
 "ex": [
 "I play hockey every Saturday."
-]
+],
+"vi": "khúc côn cầu"
 },
 {
 "id": "v-honey-noun-1",
@@ -1436,7 +1565,8 @@
 "def": "a sweet, sticky food that is made by bees",
 "ex": [
 "We had a mug of tea and toast spread with honey."
-]
+],
+"vi": "mật ong"
 },
 {
 "id": "v-horrible-adjective-1",
@@ -1446,7 +1576,8 @@
 "ex": [
 "He's got a horrible cold.",
 "What's that horrible smell?"
-]
+],
+"vi": "kinh khủng, tồi tệ"
 },
 {
 "id": "v-housewife-noun-1",
@@ -1455,7 +1586,8 @@
 "def": "a woman whose work is inside the home, doing the cleaning, cooking, etc., and who usually does not have any other job",
 "ex": [
 "My grandmother was the perfect housewife."
-]
+],
+"vi": "nội trợ"
 },
 {
 "id": "v-however-adverb-1",
@@ -1465,7 +1597,8 @@
 "ex": [
 "This is one possible solution to the problem. However, there are others.",
 "There may, however, be other reasons that we don't know about."
-]
+],
+"vi": "tuy nhiên"
 },
 {
 "id": "v-include-verb-1",
@@ -1475,7 +1608,8 @@
 "ex": [
 "The bill includes tax and service.",
 "Tax and service are included in the bill."
-]
+],
+"vi": "bao gồm"
 },
 {
 "id": "v-indoor-adjective-1",
@@ -1484,7 +1618,8 @@
 "def": "happening, used or situated inside a building",
 "ex": [
 "an indoor swimming pool"
-]
+],
+"vi": "trong nhà"
 },
 {
 "id": "v-insect-noun-1",
@@ -1494,7 +1629,8 @@
 "ex": [
 "Ants, beetles, butterflies and flies are all insects.",
 "I've got some sort of insect bite on my leg."
-]
+],
+"vi": "côn trùng"
 },
 {
 "id": "v-instead-adverb-1",
@@ -1503,7 +1639,8 @@
 "def": "in place of someone or something else",
 "ex": [
 "There's no coffee - would you like a cup of tea instead?"
-]
+],
+"vi": "thay vào đó"
 },
 {
 "id": "v-island-noun-1",
@@ -1513,7 +1650,8 @@
 "ex": [
 "a desert island",
 "a Pacific island"
-]
+],
+"vi": "hòn đảo"
 },
 {
 "id": "v-jazz-noun-1",
@@ -1523,7 +1661,8 @@
 "ex": [
 "Paul has a lot of jazz on his iPod.",
 "I've been a fan of jazz ever since I was a teenager, when I used to go to clubs in Nottingham."
-]
+],
+"vi": "nhạc jazz"
 },
 {
 "id": "v-jewellery-noun-1",
@@ -1533,7 +1672,8 @@
 "ex": [
 "a jewellery box",
 "a piece of gold/silver jewellery"
-]
+],
+"vi": "đồ trang sức"
 },
 {
 "id": "v-journey-noun-1",
@@ -1543,7 +1683,8 @@
 "ex": [
 "It's a two-hour train journey from York to London.",
 "I love going on long journeys."
-]
+],
+"vi": "chuyến đi"
 },
 {
 "id": "v-jumper-noun-1",
@@ -1552,7 +1693,8 @@
 "def": "a piece of clothing usually made of wool which covers the top of your body and is pulled on over your head",
 "ex": [
 "a warm jumper"
-]
+],
+"vi": "áo len chui đầu"
 },
 {
 "id": "v-kid-noun-1",
@@ -1561,7 +1703,8 @@
 "def": "a child",
 "ex": [
 "He took the kids to the park while I was working."
-]
+],
+"vi": "đứa trẻ, trẻ con"
 },
 {
 "id": "v-kilo-noun-1",
@@ -1570,7 +1713,8 @@
 "def": "a kilogram",
 "ex": [
 "a 200 kilo block of concrete"
-]
+],
+"vi": "ki-lô-gam"
 },
 {
 "id": "v-kiss-verb-1",
@@ -1580,7 +1724,8 @@
 "ex": [
 "She kissed him on the mouth.",
 "He kissed the children good night/goodbye."
-]
+],
+"vi": "hôn"
 },
 {
 "id": "v-kiss-noun-1",
@@ -1590,7 +1735,8 @@
 "ex": [
 "Give your granny a big kiss.",
 "a kiss on the lips"
-]
+],
+"vi": "nụ hôn"
 },
 {
 "id": "v-kite-noun-1",
@@ -1599,7 +1745,8 @@
 "def": "a toy made from paper or cloth which flies in the air on a long string",
 "ex": [
 "We spent the morning flying a kite in the local park."
-]
+],
+"vi": "con diều"
 },
 {
 "id": "v-lake-noun-1",
@@ -1608,7 +1755,8 @@
 "def": "a large area of water which has land all around it",
 "ex": [
 "We used to go boating on that lake."
-]
+],
+"vi": "cái hồ"
 },
 {
 "id": "v-lamp-noun-1",
@@ -1617,7 +1765,8 @@
 "def": "a piece of equipment that produces light",
 "ex": [
 "a table/bedside lamp"
-]
+],
+"vi": "cái đèn"
 },
 {
 "id": "v-laptop-noun-1",
@@ -1626,7 +1775,8 @@
 "def": "a computer that is small enough to be carried around and used where you are sitting",
 "ex": [
 "A laptop would be really useful for when I'm working on the train."
-]
+],
+"vi": "máy tính xách tay"
 },
 {
 "id": "v-later-adverb-1",
@@ -1636,7 +1786,8 @@
 "ex": [
 "He'll be back later.",
 "We could always go later in the year."
-]
+],
+"vi": "sau này, muộn hơn"
 },
 {
 "id": "v-latest-adjective-1",
@@ -1646,7 +1797,8 @@
 "ex": [
 "Have you seen her latest movie?",
 "the latest fashions"
-]
+],
+"vi": "mới nhất"
 },
 {
 "id": "v-leather-noun-1",
@@ -1655,7 +1807,8 @@
 "def": "the skin of animals that is used to make things such as shoes and bags",
 "ex": [
 "a leather jacket/belt/handbag"
-]
+],
+"vi": "da thuộc"
 },
 {
 "id": "v-left-adjective-1",
@@ -1664,7 +1817,8 @@
 "def": "on or towards the side of your body that is to the west when you are facing north",
 "ex": [
 "His left eye was heavily bandaged."
-]
+],
+"vi": "bên trái"
 },
 {
 "id": "v-left-adverb-1",
@@ -1673,7 +1827,8 @@
 "def": "to the side of your body that is west when you are facing north",
 "ex": [
 "Turn left at the lights."
-]
+],
+"vi": "sang trái"
 },
 {
 "id": "v-lemon-noun-1",
@@ -1683,7 +1838,8 @@
 "ex": [
 "For this recipe you need the juice of two lemons.",
 "Would you like a slice of lemon in your tea?"
-]
+],
+"vi": "quả chanh vàng"
 },
 {
 "id": "v-lemonade-noun-1",
@@ -1692,7 +1848,8 @@
 "def": "a cold drink with a lemon flavour that is sweet and has bubbles",
 "ex": [
 "I'd like a glass of lemonade, please."
-]
+],
+"vi": "nước chanh"
 },
 {
 "id": "v-less-adverb-1",
@@ -1702,7 +1859,8 @@
 "ex": [
 "Exercise more and eat less.",
 "Getting out of bed in summer is less difficult than in winter."
-]
+],
+"vi": "ít hơn"
 },
 {
 "id": "v-library-noun-1",
@@ -1712,7 +1870,8 @@
 "ex": [
 "a public/university library",
 "a library book"
-]
+],
+"vi": "thư viện"
 },
 {
 "id": "v-licence-noun-1",
@@ -1722,7 +1881,8 @@
 "ex": [
 "a driving licence",
 "He lost his licence for a year due to dangerous driving."
-]
+],
+"vi": "giấy phép"
 },
 {
 "id": "v-lion-noun-1",
@@ -1731,7 +1891,8 @@
 "def": "a large, wild animal of the cat family, with light brown fur",
 "ex": [
 "The lions came down to the water hole at sunset."
-]
+],
+"vi": "sư tử"
 },
 {
 "id": "v-list-noun-1",
@@ -1741,7 +1902,8 @@
 "ex": [
 "a shopping list",
 "Is your name on the list?"
-]
+],
+"vi": "danh sách"
 },
 {
 "id": "v-litre-noun-1",
@@ -1750,7 +1912,8 @@
 "def": "a unit for measuring the volume of a liquid",
 "ex": [
 "The tax increase will add 4p to a litre of petrol."
-]
+],
+"vi": "lít"
 },
 {
 "id": "v-luggage-noun-1",
@@ -1759,7 +1922,8 @@
 "def": "bags and cases that you carry with you when you are travelling",
 "ex": [
 "Never leave your luggage unattended."
-]
+],
+"vi": "hành lý"
 },
 {
 "id": "v-lunchtime-noun-1",
@@ -1768,7 +1932,8 @@
 "def": "the time when lunch is eaten",
 "ex": [
 "It'll be lunchtime soon."
-]
+],
+"vi": "giờ ăn trưa"
 },
 {
 "id": "v-magazine-noun-1",
@@ -1778,7 +1943,8 @@
 "ex": [
 "She has written articles for several women's magazines.",
 "a fashion/celebrity magazine"
-]
+],
+"vi": "tạp chí"
 },
 {
 "id": "v-mango-noun-1",
@@ -1787,7 +1953,8 @@
 "def": "a tropical fruit that has a green skin and is orange inside",
 "ex": [
 "We had ice cream with slices of mango."
-]
+],
+"vi": "quả xoài"
 },
 {
 "id": "v-map-noun-1",
@@ -1797,7 +1964,8 @@
 "ex": [
 "a map of the world",
 "a map of Paris"
-]
+],
+"vi": "bản đồ"
 },
 {
 "id": "v-maths-noun-1",
@@ -1806,7 +1974,8 @@
 "def": "the study of numbers, shapes and space using reason and usually a special system of symbols and rules for organizing them",
 "ex": [
 "a maths professor"
-]
+],
+"vi": "môn toán"
 },
 {
 "id": "v-matter-verb-1",
@@ -1816,7 +1985,8 @@
 "ex": [
 "We were late but it didn't seem to matter.",
 "\"What did you say?\" \"Oh, it doesn't matter.\""
-]
+],
+"vi": "quan trọng"
 },
 {
 "id": "v-meeting-noun-1",
@@ -1826,7 +1996,8 @@
 "ex": [
 "We're having a meeting on Thursday to discuss the problem.",
 "I'm afraid she's in a meeting - I'll ask her to call you back later."
-]
+],
+"vi": "cuộc họp"
 },
 {
 "id": "v-melon-noun-1",
@@ -1835,7 +2006,8 @@
 "def": "a large, round, sweet fruit with a thick, green or yellow skin and a lot of seeds",
 "ex": [
 "a slice of melon"
-]
+],
+"vi": "quả dưa"
 },
 {
 "id": "v-member-noun-1",
@@ -1845,7 +2017,8 @@
 "ex": [
 "a member of the older generation",
 "He was a member of the university rowing club."
-]
+],
+"vi": "thành viên"
 },
 {
 "id": "v-metre-noun-1",
@@ -1855,7 +2028,8 @@
 "ex": [
 "Our bedroom is five metres wide.",
 "a 15-metre yacht"
-]
+],
+"vi": "mét"
 },
 {
 "id": "v-mirror-noun-1",
@@ -1865,7 +2039,8 @@
 "ex": [
 "the bathroom mirror",
 "She was looking at her reflection in the mirror."
-]
+],
+"vi": "cái gương"
 },
 {
 "id": "v-monkey-noun-1",
@@ -1874,7 +2049,8 @@
 "def": "a hairy animal with a long tail that lives in hot countries and climbs trees",
 "ex": [
 "Of all the animals at the zoo he liked the monkeys best."
-]
+],
+"vi": "con khỉ"
 },
 {
 "id": "v-mosque-noun-1",
@@ -1883,7 +2059,8 @@
 "def": "a building for Islamic religious activities and worship",
 "ex": [
 "They've just built a mosque there."
-]
+],
+"vi": "nhà thờ Hồi giáo"
 },
 {
 "id": "v-most-adverb-1",
@@ -1893,7 +2070,8 @@
 "ex": [
 "Which subject do you like (the) most?",
 "Sam enjoys the swings most of all."
-]
+],
+"vi": "nhất"
 },
 {
 "id": "v-motorbike-noun-1",
@@ -1902,7 +2080,8 @@
 "def": "a vehicle with two wheels and an engine",
 "ex": [
 "She jumped on her motorbike and raced off down the road."
-]
+],
+"vi": "xe máy"
 },
 {
 "id": "v-mug-noun-1",
@@ -1912,7 +2091,8 @@
 "ex": [
 "a coffee mug",
 "I made myself a large mug of hot chocolate and went to bed."
-]
+],
+"vi": "cốc có quai"
 },
 {
 "id": "v-mushroom-noun-1",
@@ -1921,7 +2101,8 @@
 "def": "a type of fungus with a short stem and a round top, some types of which can be eaten",
 "ex": [
 "pasta with wild mushrooms"
-]
+],
+"vi": "nấm"
 },
 {
 "id": "v-nearly-adverb-1",
@@ -1931,7 +2112,8 @@
 "ex": [
 "It's been nearly three months since my last haircut.",
 "I've nearly finished that book you lent me."
-]
+],
+"vi": "gần như"
 },
 {
 "id": "v-necklace-noun-1",
@@ -1940,7 +2122,8 @@
 "def": "a piece of jewellery that you wear around your neck",
 "ex": [
 "a gold/silver necklace"
-]
+],
+"vi": "vòng cổ"
 },
 {
 "id": "v-noon-noun-1",
@@ -1950,7 +2133,8 @@
 "ex": [
 "He has until noon to act.",
 "The service will be held at 12 noon."
-]
+],
+"vi": "buổi trưa, 12 giờ trưa"
 },
 {
 "id": "v-notes-noun-1",
@@ -1960,7 +2144,8 @@
 "ex": [
 "The journalist took notes throughout the interview.",
 "I studied European literature, and I still have all my notes."
-]
+],
+"vi": "ghi chú"
 },
 {
 "id": "v-noun-noun-1",
@@ -1969,7 +2154,8 @@
 "def": "a word that refers to a person, place, thing, event, substance or quality",
 "ex": [
 "'Doctor', 'tree', 'party', 'coal' and 'beauty' are all nouns."
-]
+],
+"vi": "danh từ"
 },
 {
 "id": "v-omelette-noun-1",
@@ -1978,7 +2164,8 @@
 "def": "a food made with eggs that have been mixed and fried, often with other foods added",
 "ex": [
 "a cheese/mushroom omelette"
-]
+],
+"vi": "trứng ốp-lết"
 },
 {
 "id": "v-onion-noun-1",
@@ -1988,7 +2175,8 @@
 "ex": [
 "I always cry when I'm chopping onions.",
 "Fry the onion and garlic for about two minutes."
-]
+],
+"vi": "củ hành"
 },
 {
 "id": "v-online-adverb-1",
@@ -1998,7 +2186,8 @@
 "ex": [
 "I ordered them online.",
 "Why don't you go online and see what you can find?"
-]
+],
+"vi": "trực tuyến"
 },
 {
 "id": "v-online-adjective-1",
@@ -2007,7 +2196,8 @@
 "def": "describes products, services or information that can be bought or used on the Internet",
 "ex": [
 "an online newspaper/magazine/dictionary"
-]
+],
+"vi": "trực tuyến"
 },
 {
 "id": "v-opera-noun-1",
@@ -2017,7 +2207,8 @@
 "ex": [
 "'Carmen' is my favourite opera.",
 "I've never been a huge fan of opera."
-]
+],
+"vi": "nhạc kịch, ô-pê-ra"
 },
 {
 "id": "v-own-adjective-1",
@@ -2027,7 +2218,8 @@
 "ex": [
 "Each student has their own dictionary.",
 "She has her own apartment."
-]
+],
+"vi": "của riêng mình"
 },
 {
 "id": "v-park-verb-1",
@@ -2037,7 +2229,8 @@
 "ex": [
 "Where have you parked?",
 "You can park your car over there."
-]
+],
+"vi": "đỗ xe"
 },
 {
 "id": "v-passport-noun-1",
@@ -2047,7 +2240,8 @@
 "ex": [
 "a passport photo",
 "Many refugees have arrived at the border without passports."
-]
+],
+"vi": "hộ chiếu"
 },
 {
 "id": "v-pasta-noun-1",
@@ -2056,7 +2250,8 @@
 "def": "a food that is made from flour, water and sometimes eggs, and comes in many different shapes",
 "ex": [
 "Spaghetti, lasagne, ravioli and cannelloni are all types of pasta."
-]
+],
+"vi": "mì Ý"
 },
 {
 "id": "v-pear-noun-1",
@@ -2065,7 +2260,8 @@
 "def": "an oval-shaped, pale green or yellow fruit",
 "ex": [
 "We had a delicious dessert of pears in cider."
-]
+],
+"vi": "quả lê"
 },
 {
 "id": "v-penfriend-noun-1",
@@ -2074,7 +2270,8 @@
 "def": "someone who you write to regularly but have never met",
 "ex": [
 "When I was young, I had a penfriend in Jamaica."
-]
+],
+"vi": "bạn qua thư"
 },
 {
 "id": "v-perfume-noun-1",
@@ -2084,7 +2281,8 @@
 "ex": [
 "What perfume are you wearing?",
 "She adores French perfume."
-]
+],
+"vi": "nước hoa"
 },
 {
 "id": "v-perhaps-adverb-1",
@@ -2094,7 +2292,8 @@
 "ex": [
 "He hasn't written to me recently - perhaps he's lost my address.",
 "We plan to travel to Europe - to Spain or Italy perhaps."
-]
+],
+"vi": "có lẽ"
 },
 {
 "id": "v-petrol-noun-1",
@@ -2104,7 +2303,8 @@
 "ex": [
 "a petrol tank/pump",
 "I'm a bit low on petrol."
-]
+],
+"vi": "xăng"
 },
 {
 "id": "v-physics-noun-1",
@@ -2113,7 +2313,8 @@
 "def": "the scientific study of matter and energy and the effect that they have on each other",
 "ex": [
 "a physics lab"
-]
+],
+"vi": "môn vật lý"
 },
 {
 "id": "v-piano-noun-1",
@@ -2123,7 +2324,8 @@
 "ex": [
 "We're buying a new piano.",
 "I play the piano."
-]
+],
+"vi": "đàn piano"
 },
 {
 "id": "v-pillow-noun-1",
@@ -2132,7 +2334,8 @@
 "def": "a soft object which you rest your head on in bed",
 "ex": [
 "Do you prefer a feather pillow or a foam pillow?"
-]
+],
+"vi": "cái gối"
 },
 {
 "id": "v-pilot-noun-1",
@@ -2142,7 +2345,8 @@
 "ex": [
 "an airline pilot",
 "a fighter/helicopter pilot"
-]
+],
+"vi": "phi công"
 },
 {
 "id": "v-pink-adjective-1",
@@ -2152,7 +2356,8 @@
 "ex": [
 "pretty pink flowers",
 "Have you been in the sun? Your nose is a bit pink."
-]
+],
+"vi": "màu hồng"
 },
 {
 "id": "v-pink-noun-1",
@@ -2161,7 +2366,8 @@
 "def": "a pale red colour",
 "ex": [
 "She's very fond of pink."
-]
+],
+"vi": "màu hồng"
 },
 {
 "id": "v-plastic-noun-1",
@@ -2171,7 +2377,8 @@
 "ex": [
 "Most children's toys are made of plastic.",
 "He put a sheet of plastic over the broken window."
-]
+],
+"vi": "nhựa"
 },
 {
 "id": "v-playground-noun-1",
@@ -2180,7 +2387,8 @@
 "def": "an area designed for children to play in outside, especially at a school",
 "ex": [
 "We always play football in the playground."
-]
+],
+"vi": "sân chơi"
 },
 {
 "id": "v-plural-noun-1",
@@ -2190,7 +2398,8 @@
 "ex": [
 "'Geese' is the plural of 'goose'.",
 "'Woman' in the plural is 'women'."
-]
+],
+"vi": "số nhiều"
 },
 {
 "id": "v-policeman-noun-1",
@@ -2199,7 +2408,8 @@
 "def": "a man who is a member of the police",
 "ex": [
 "His dad is a policeman."
-]
+],
+"vi": "cảnh sát nam"
 },
 {
 "id": "v-policewoman-noun-1",
@@ -2208,7 +2418,8 @@
 "def": "a woman who is a member of the police",
 "ex": [
 "She was a policewoman for over 30 years."
-]
+],
+"vi": "nữ cảnh sát"
 },
 {
 "id": "v-pop-noun-1",
@@ -2218,7 +2429,8 @@
 "ex": [
 "a pop concert/song",
 "What do you want to listen to - jazz, classical or pop?"
-]
+],
+"vi": "nhạc pop"
 },
 {
 "id": "v-postcard-noun-1",
@@ -2227,7 +2439,8 @@
 "def": "a card, often with a photograph or picture on one side, which can be sent without an envelope",
 "ex": [
 "Ella sent me a postcard from Japan."
-]
+],
+"vi": "bưu thiếp"
 },
 {
 "id": "v-poster-noun-1",
@@ -2237,7 +2450,8 @@
 "ex": [
 "The children put up posters on the classroom walls.",
 "We noticed a poster advertising a circus."
-]
+],
+"vi": "áp phích"
 },
 {
 "id": "v-prize-noun-1",
@@ -2247,7 +2461,8 @@
 "ex": [
 "to win a prize",
 "the Nobel Prize for Literature"
-]
+],
+"vi": "giải thưởng"
 },
 {
 "id": "v-program-noun-1",
@@ -2257,17 +2472,8 @@
 "ex": [
 "a computer program",
 "She's written a program to find words which frequently occur together."
-]
-},
-{
-"id": "v-pub-noun-1",
-"word": "pub",
-"pos": "noun",
-"def": "a place where you can get drinks such as beer and usually food",
-"ex": [
-"Do you want to go to the pub after work?",
-"our local pub"
-]
+],
+"vi": "chương trình máy tính"
 },
 {
 "id": "v-pull-verb-1",
@@ -2277,7 +2483,8 @@
 "ex": [
 "He pulled the box across the floor to the door.",
 "He pulled her out of the water."
-]
+],
+"vi": "kéo"
 },
 {
 "id": "v-pupil-noun-1",
@@ -2287,7 +2494,8 @@
 "ex": [
 "a second-year pupil",
 "a primary-school pupil"
-]
+],
+"vi": "học sinh"
 },
 {
 "id": "v-purple-noun-1",
@@ -2297,7 +2505,8 @@
 "ex": [
 "Purple is my favourite colour.",
 "The evening sky was full of purples and reds."
-]
+],
+"vi": "màu tím"
 },
 {
 "id": "v-purple-adjective-1",
@@ -2306,7 +2515,8 @@
 "def": "of a dark reddish blue colour",
 "ex": [
 "a dark purple bruise"
-]
+],
+"vi": "màu tím"
 },
 {
 "id": "v-purse-noun-1",
@@ -2315,7 +2525,8 @@
 "def": "a small container for money, usually used by a woman",
 "ex": [
 "a leather purse"
-]
+],
+"vi": "ví nhỏ"
 },
 {
 "id": "v-queen-noun-1",
@@ -2324,7 +2535,8 @@
 "def": "a woman who rules a country because she was born into a royal family, or a woman who is married to a king",
 "ex": [
 "The Queen is meeting the Prime Minister today."
-]
+],
+"vi": "nữ hoàng, hoàng hậu"
 },
 {
 "id": "v-quiz-noun-1",
@@ -2333,7 +2545,8 @@
 "def": "a game or competition in which you answer questions",
 "ex": [
 "a television quiz show"
-]
+],
+"vi": "câu đố, trò đố vui"
 },
 {
 "id": "v-rabbit-noun-1",
@@ -2342,7 +2555,8 @@
 "def": "a small animal with fur and long ears that lives in a hole in the ground",
 "ex": [
 "She has a pet rabbit."
-]
+],
+"vi": "con thỏ"
 },
 {
 "id": "v-railway-noun-1",
@@ -2352,7 +2566,8 @@
 "ex": [
 "a railway line/station",
 "the Trans-Siberian railway"
-]
+],
+"vi": "đường sắt"
 },
 {
 "id": "v-raincoat-noun-1",
@@ -2361,7 +2576,8 @@
 "def": "a coat that you wear when it is raining",
 "ex": [
 "Make sure you take a raincoat."
-]
+],
+"vi": "áo mưa"
 },
 {
 "id": "v-rap-noun-1",
@@ -2370,7 +2586,8 @@
 "def": "a type of music in which the words are spoken and there is a strong beat",
 "ex": [
 "a rap artist"
-]
+],
+"vi": "nhạc rap"
 },
 {
 "id": "v-rat-noun-1",
@@ -2379,7 +2596,8 @@
 "def": "an animal that looks like a large mouse and has a long tail",
 "ex": [
 "Rats carry disease."
-]
+],
+"vi": "con chuột cống"
 },
 {
 "id": "v-receptionist-noun-1",
@@ -2388,7 +2606,8 @@
 "def": "someone who works in a hotel or office building, answering the telephone and dealing with guests",
 "ex": [
 "a hotel receptionist"
-]
+],
+"vi": "lễ tân"
 },
 {
 "id": "v-red-noun-1",
@@ -2398,7 +2617,8 @@
 "ex": [
 "She uses a lot of reds and pinks in her paintings.",
 "She was dressed all in red."
-]
+],
+"vi": "màu đỏ"
 },
 {
 "id": "v-rent-noun-1",
@@ -2408,7 +2628,8 @@
 "ex": [
 "I pay a higher rent than the other tenants because my room is bigger.",
 "Rents here are very high/low."
-]
+],
+"vi": "tiền thuê nhà"
 },
 {
 "id": "v-roof-noun-1",
@@ -2418,7 +2639,8 @@
 "ex": [
 "The house has a flat/tiled roof.",
 "He climbed onto the roof."
-]
+],
+"vi": "mái nhà"
 },
 {
 "id": "v-roundabout-noun-1",
@@ -2427,7 +2649,8 @@
 "def": "a circular place where roads meet and where cars drive around until they arrive at the road that they want to turn into",
 "ex": [
 "At the roundabout, take the second turning."
-]
+],
+"vi": "bùng binh, vòng xuyến"
 },
 {
 "id": "v-rugby-noun-1",
@@ -2436,7 +2659,8 @@
 "def": "a sport played by two teams with an oval ball and H-shaped goals",
 "ex": [
 "He's a keen rugby fan."
-]
+],
+"vi": "bóng bầu dục"
 },
 {
 "id": "v-sailing-noun-1",
@@ -2446,7 +2670,8 @@
 "ex": [
 "a sailing boat",
 "We're going sailing next weekend."
-]
+],
+"vi": "môn đua thuyền buồm"
 },
 {
 "id": "v-salad-noun-1",
@@ -2456,7 +2681,8 @@
 "ex": [
 "a salad bowl",
 "Serve the risotto with a mixed salad."
-]
+],
+"vi": "món rau trộn"
 },
 {
 "id": "v-salesperson-noun-1",
@@ -2465,7 +2691,8 @@
 "def": "someone whose job is selling things in a shop",
 "ex": [
 "She's a salesperson at a bookshop."
-]
+],
+"vi": "nhân viên bán hàng"
 },
 {
 "id": "v-sauce-noun-1",
@@ -2474,7 +2701,8 @@
 "def": "a thick hot or cold liquid eaten with food to add flavour",
 "ex": [
 "a savoury/sweet sauce"
-]
+],
+"vi": "nước sốt"
 },
 {
 "id": "v-sausage-noun-1",
@@ -2483,7 +2711,8 @@
 "def": "a mixture of meat and spices pressed into a long tube",
 "ex": [
 "sliced garlic sausage"
-]
+],
+"vi": "xúc xích"
 },
 {
 "id": "v-scarf-noun-1",
@@ -2492,7 +2721,8 @@
 "def": "a piece of cloth that you wear around your neck, head, or shoulders to keep warm or for decoration",
 "ex": [
 "a knitted/woollen/silk scarf"
-]
+],
+"vi": "khăn quàng"
 },
 {
 "id": "v-scissors-noun-1",
@@ -2502,7 +2732,8 @@
 "ex": [
 "a pair of scissors",
 "Could you pass me the/those scissors, please?"
-]
+],
+"vi": "cái kéo"
 },
 {
 "id": "v-scooter-noun-1",
@@ -2511,7 +2742,8 @@
 "def": "a small motorcycle",
 "ex": [
 "I go to college on my scooter."
-]
+],
+"vi": "xe tay ga"
 },
 {
 "id": "v-screen-noun-1",
@@ -2521,7 +2753,8 @@
 "ex": [
 "Our television has a 19-inch screen.",
 "Coming to your screens shortly, the amazing adventures of 'Robin Hood'."
-]
+],
+"vi": "màn hình"
 },
 {
 "id": "v-shampoo-noun-1",
@@ -2531,7 +2764,8 @@
 "ex": [
 "an anti-dandruff shampoo",
 "Directions: wet hair, apply shampoo and massage into a rich lather."
-]
+],
+"vi": "dầu gội đầu"
 },
 {
 "id": "v-shelf-noun-1",
@@ -2541,7 +2775,8 @@
 "ex": [
 "a glass shelf",
 "on the top/middle/bottom shelf"
-]
+],
+"vi": "cái kệ, giá"
 },
 {
 "id": "v-ship-noun-1",
@@ -2551,7 +2786,8 @@
 "ex": [
 "a sailing ship",
 "a merchant/naval ship"
-]
+],
+"vi": "con tàu thủy"
 },
 {
 "id": "v-shorts-noun-1",
@@ -2560,7 +2796,8 @@
 "def": "a very short pair of trousers that stop above the knees",
 "ex": [
 "She put on a pair of shorts and a T-shirt."
-]
+],
+"vi": "quần soóc"
 },
 {
 "id": "v-shout-verb-1",
@@ -2570,7 +2807,8 @@
 "ex": [
 "\"Look out!\" she shouted.",
 "I was angry and I shouted at him."
-]
+],
+"vi": "hét, la lớn"
 },
 {
 "id": "v-sightseeing-noun-1",
@@ -2579,7 +2817,8 @@
 "def": "the activity of visiting places which are interesting because they are historical, famous, etc.",
 "ex": [
 "Did you do much sightseeing while you were in Paris?"
-]
+],
+"vi": "việc tham quan"
 },
 {
 "id": "v-silver-noun-1",
@@ -2588,7 +2827,8 @@
 "def": "a valuable, shiny, grey-white metal used to make coins and jewellery",
 "ex": [
 "We gave Alison and Tom a dish made of solid silver as a wedding present."
-]
+],
+"vi": "bạc"
 },
 {
 "id": "v-singular-noun-1",
@@ -2598,7 +2838,8 @@
 "ex": [
 "The singular of 'children' is 'child'.",
 "The word 'teeth' is plural - in the singular it's 'tooth'."
-]
+],
+"vi": "số ít"
 },
 {
 "id": "v-sink-noun-1",
@@ -2607,7 +2848,8 @@
 "def": "a bowl that is fixed to the wall in a kitchen or bathroom in which you wash dishes, your hands, etc.",
 "ex": [
 "a bathroom/kitchen sink"
-]
+],
+"vi": "bồn rửa"
 },
 {
 "id": "v-skate-noun-1",
@@ -2617,7 +2859,8 @@
 "ex": [
 "a pair of ice skates",
 "a pair of inline/roller skates"
-]
+],
+"vi": "giày trượt"
 },
 {
 "id": "v-skateboard-noun-1",
@@ -2626,7 +2869,8 @@
 "def": "a board with wheels on the bottom, that you stand on and move forward by pushing one foot on the ground",
 "ex": [
 "I've got a new skateboard."
-]
+],
+"vi": "ván trượt"
 },
 {
 "id": "v-skateboarding-noun-1",
@@ -2635,7 +2879,8 @@
 "def": "the activity of moving using a skateboard",
 "ex": [
 "We're going skateboarding at the park later."
-]
+],
+"vi": "môn trượt ván"
 },
 {
 "id": "v-skating-noun-1",
@@ -2644,7 +2889,8 @@
 "def": "the activity or sport of moving on skates",
 "ex": [
 "Shall we go skating tomorrow?"
-]
+],
+"vi": "môn trượt patin"
 },
 {
 "id": "v-skiing-noun-1",
@@ -2653,7 +2899,8 @@
 "def": "the sport of moving over snow on skis",
 "ex": [
 "I'm going skiing at Easter."
-]
+],
+"vi": "môn trượt tuyết"
 },
 {
 "id": "v-sky-noun-1",
@@ -2663,7 +2910,8 @@
 "ex": [
 "a blue/cloudy/dark sky",
 "Can you see those birds high up in the sky?"
-]
+],
+"vi": "bầu trời"
 },
 {
 "id": "v-slowly-adverb-1",
@@ -2673,7 +2921,8 @@
 "ex": [
 "Could you please speak more slowly?",
 "He walked slowly across the room."
-]
+],
+"vi": "chậm, từ từ"
 },
 {
 "id": "v-snack-noun-1",
@@ -2683,7 +2932,8 @@
 "ex": [
 "I had a huge lunch, so I'll only need a snack for dinner.",
 "Fresh or dried fruit makes an ideal snack."
-]
+],
+"vi": "đồ ăn nhẹ"
 },
 {
 "id": "v-snake-noun-1",
@@ -2693,7 +2943,8 @@
 "ex": [
 "He's terrified of being bitten by a snake.",
 "a snake bite"
-]
+],
+"vi": "con rắn"
 },
 {
 "id": "v-snowboarding-noun-1",
@@ -2702,7 +2953,8 @@
 "def": "a sport in which you stand on a large board and move over snow",
 "ex": [
 "I love snowboarding."
-]
+],
+"vi": "trượt ván tuyết"
 },
 {
 "id": "v-sock-noun-1",
@@ -2712,7 +2964,8 @@
 "ex": [
 "a pair of socks",
 "Put on your shoes and socks."
-]
+],
+"vi": "chiếc tất"
 },
 {
 "id": "v-sofa-noun-1",
@@ -2721,7 +2974,8 @@
 "def": "a large, comfortable seat for more than one person",
 "ex": [
 "Take a seat on the sofa and I'll get us some coffee."
-]
+],
+"vi": "ghế sô-pha"
 },
 {
 "id": "v-software-noun-1",
@@ -2730,7 +2984,8 @@
 "def": "programs that you use to make a computer do different things",
 "ex": [
 "He's written a piece of software which calculates your tax returns for you."
-]
+],
+"vi": "phần mềm"
 },
 {
 "id": "v-somewhere-adverb-1",
@@ -2740,7 +2995,8 @@
 "ex": [
 "He was last heard of living somewhere on the south coast.",
 "You must have put their letter somewhere!"
-]
+],
+"vi": "đâu đó, một nơi nào đó"
 },
 {
 "id": "v-song-noun-1",
@@ -2750,7 +3006,8 @@
 "ex": [
 "to sing/perform a song",
 "a love/folk/pop/traditional song"
-]
+],
+"vi": "bài hát"
 },
 {
 "id": "v-soon-adverb-1",
@@ -2760,7 +3017,8 @@
 "ex": [
 "She'll soon be here./She'll be here soon.",
 "The sooner we leave, the sooner we'll get there."
-]
+],
+"vi": "sớm, chẳng bao lâu"
 },
 {
 "id": "v-sort-noun-1",
@@ -2770,7 +3028,8 @@
 "ex": [
 "We both like the same sort of music.",
 "I'm going to have a salad of some sort."
-]
+],
+"vi": "loại, kiểu"
 },
 {
 "id": "v-sound-noun-1",
@@ -2780,7 +3039,8 @@
 "ex": [
 "They could hear the sound of a bell tolling in the distance.",
 "She stood completely still, not making a sound."
-]
+],
+"vi": "âm thanh"
 },
 {
 "id": "v-spoon-noun-1",
@@ -2789,7 +3049,8 @@
 "def": "an object with a handle and a round, curved part at one end, used for eating and serving food",
 "ex": [
 "Could I have a spoon, please?"
-]
+],
+"vi": "cái thìa"
 },
 {
 "id": "v-stadium-noun-1",
@@ -2798,7 +3059,8 @@
 "def": "a large, open area with seats around it, used for playing and watching sports",
 "ex": [
 "Thousands of football fans packed into the stadium to watch the match."
-]
+],
+"vi": "sân vận động"
 },
 {
 "id": "v-staff-noun-1",
@@ -2808,7 +3070,8 @@
 "ex": [
 "There is a good relationship between staff and pupils at the school.",
 "The staff are not very happy about the latest pay increase."
-]
+],
+"vi": "nhân viên"
 },
 {
 "id": "v-stairs-noun-1",
@@ -2818,7 +3081,8 @@
 "ex": [
 "Go up the stairs and her office is on the right.",
 "He stood at the foot of the stairs and called out, \"Breakfast's ready!\""
-]
+],
+"vi": "cầu thang"
 },
 {
 "id": "v-stamp-noun-1",
@@ -2827,7 +3091,8 @@
 "def": "a small, official piece of paper that you buy and stick onto a letter or parcel before you post it to show that you have paid for postage",
 "ex": [
 "I stuck a 50p stamp on the envelope."
-]
+],
+"vi": "tem thư"
 },
 {
 "id": "v-steak-noun-1",
@@ -2836,7 +3101,8 @@
 "def": "a thick, flat piece of meat or fish",
 "ex": [
 "steak and chips"
-]
+],
+"vi": "miếng bít tết"
 },
 {
 "id": "v-steal-verb-1",
@@ -2845,7 +3111,8 @@
 "def": "to secretly take something that does not belong to you, without intending to return it",
 "ex": [
 "She admitted stealing the money from her employers."
-]
+],
+"vi": "ăn trộm, lấy cắp"
 },
 {
 "id": "v-stomach-noun-1",
@@ -2855,7 +3122,8 @@
 "ex": [
 "He was punched in the stomach.",
 "The doctor asked him to lie down on his stomach."
-]
+],
+"vi": "dạ dày, bụng"
 },
 {
 "id": "v-suit-noun-1",
@@ -2865,7 +3133,8 @@
 "ex": [
 "She wore a dark blue suit.",
 "All the businessmen were wearing pinstripe suits."
-]
+],
+"vi": "bộ com-lê"
 },
 {
 "id": "v-suitcase-noun-1",
@@ -2874,7 +3143,8 @@
 "def": "a large rectangular case with a handle for carrying clothes and possessions while travelling",
 "ex": [
 "Have you packed/unpacked your suitcase yet?"
-]
+],
+"vi": "va li"
 },
 {
 "id": "v-sunglasses-noun-1",
@@ -2883,7 +3153,8 @@
 "def": "dark glasses that you wear to protect your eyes from the sun",
 "ex": [
 "Make sure you wear sunglasses outside."
-]
+],
+"vi": "kính râm"
 },
 {
 "id": "v-sunny-adjective-1",
@@ -2893,7 +3164,8 @@
 "ex": [
 "We're having the party in the garden, so I'm praying it'll be sunny.",
 "It was a lovely sunny day."
-]
+],
+"vi": "nắng, có nắng"
 },
 {
 "id": "v-supper-noun-1",
@@ -2903,7 +3175,8 @@
 "ex": [
 "What are we having for supper?",
 "They had an early supper before going to the theatre."
-]
+],
+"vi": "bữa ăn tối"
 },
 {
 "id": "v-sure-adverb-1",
@@ -2913,7 +3186,8 @@
 "ex": [
 "\"Can I take this pen?\" \"Sure.\"",
 "\"Do you want to come swimming with us?\" \"Sure.\""
-]
+],
+"vi": "chắc chắn rồi, được"
 },
 {
 "id": "v-sure-adjective-1",
@@ -2923,7 +3197,8 @@
 "ex": [
 "\"What's wrong with him?\" \"I'm not sure.\"",
 "I'm sure (that) I left my keys on the table."
-]
+],
+"vi": "chắc chắn"
 },
 {
 "id": "v-surf-verb-1",
@@ -2932,7 +3207,8 @@
 "def": "to look at information on the Internet by moving from one page to another using electronic links",
 "ex": [
 "Are you working or just surfing?"
-]
+],
+"vi": "lướt web"
 },
 {
 "id": "v-surfing-noun-1",
@@ -2941,7 +3217,8 @@
 "def": "the sport of riding on a wave on a special board",
 "ex": [
 "Let's go surfing this afternoon."
-]
+],
+"vi": "môn lướt sóng"
 },
 {
 "id": "v-surname-noun-1",
@@ -2950,7 +3227,8 @@
 "def": "the name that you and other members of your family all have",
 "ex": [
 "Her first name is Sarah but I don't know her surname."
-]
+],
+"vi": "họ"
 },
 {
 "id": "v-sweater-noun-1",
@@ -2960,7 +3238,8 @@
 "ex": [
 "Put a sweater on if you're cold.",
 "a V-necked sweater"
-]
+],
+"vi": "áo len"
 },
 {
 "id": "v-sweets-noun-1",
@@ -2969,7 +3248,8 @@
 "def": "sweet food such as cake or candy",
 "ex": [
 "Rosie tries to avoid sweets."
-]
+],
+"vi": "đồ ngọt, bánh kẹo"
 },
 {
 "id": "v-teenager-noun-1",
@@ -2978,7 +3258,8 @@
 "def": "a young person between 13 and 19 years old",
 "ex": [
 "The magazine is aimed at teenagers and young adults."
-]
+],
+"vi": "thiếu niên"
 },
 {
 "id": "v-terrible-adjective-1",
@@ -2988,7 +3269,8 @@
 "ex": [
 "The weather was terrible.",
 "We have just received some terrible news."
-]
+],
+"vi": "tồi tệ, kinh khủng"
 },
 {
 "id": "v-textbook-noun-1",
@@ -2997,7 +3279,8 @@
 "def": "a book about a particular subject, written for students",
 "ex": [
 "a chemistry/French textbook"
-]
+],
+"vi": "sách giáo khoa"
 },
 {
 "id": "v-theatre-noun-1",
@@ -3006,7 +3289,8 @@
 "def": "a building with a stage where people go to watch plays",
 "ex": [
 "the Lyceum Theatre"
-]
+],
+"vi": "nhà hát"
 },
 {
 "id": "v-throw-verb-1",
@@ -3015,7 +3299,8 @@
 "def": "to make something move through the air by pushing it out of your hand",
 "ex": [
 "Could you throw me an apple?"
-]
+],
+"vi": "ném"
 },
 {
 "id": "v-thunderstorm-noun-1",
@@ -3024,7 +3309,8 @@
 "def": "a storm that has thunder and lightning",
 "ex": [
 "We sheltered in the barn during the thunderstorm."
-]
+],
+"vi": "bão có sấm sét"
 },
 {
 "id": "v-tidy-adjective-1",
@@ -3034,7 +3320,8 @@
 "ex": [
 "The house was clean and tidy.",
 "My flatmate isn't very tidy."
-]
+],
+"vi": "gọn gàng"
 },
 {
 "id": "v-tights-noun-1",
@@ -3043,7 +3330,8 @@
 "def": "a piece of women's clothing made of very thin material that covers the legs and bottom",
 "ex": [
 "a pair of tights"
-]
+],
+"vi": "quần tất"
 },
 {
 "id": "v-toe-noun-1",
@@ -3052,7 +3340,8 @@
 "def": "one of the five separate parts at the end of your foot",
 "ex": [
 "your big/little toe"
-]
+],
+"vi": "ngón chân"
 },
 {
 "id": "v-tonight-noun-1",
@@ -3062,7 +3351,8 @@
 "ex": [
 "Tonight will be my first opportunity to meet her.",
 "Tonight's meeting will take place in the main school hall."
-]
+],
+"vi": "tối nay"
 },
 {
 "id": "v-toothache-noun-1",
@@ -3071,7 +3361,8 @@
 "def": "pain in one or more of your teeth",
 "ex": [
 "Have you got toothache?"
-]
+],
+"vi": "đau răng"
 },
 {
 "id": "v-toothbrush-noun-1",
@@ -3080,7 +3371,8 @@
 "def": "a small brush that you use to clean your teeth",
 "ex": [
 "I forgot to pack my toothbrush."
-]
+],
+"vi": "bàn chải đánh răng"
 },
 {
 "id": "v-tour-noun-1",
@@ -3090,7 +3382,8 @@
 "ex": [
 "a tour of Europe",
 "We went on a guided tour of the cathedral."
-]
+],
+"vi": "chuyến tham quan"
 },
 {
 "id": "v-tourist-noun-1",
@@ -3100,7 +3393,8 @@
 "ex": [
 "Millions of tourists visit Rome every year.",
 "Disneyworld is one of Florida's major tourist attractions."
-]
+],
+"vi": "khách du lịch"
 },
 {
 "id": "v-towel-noun-1",
@@ -3110,7 +3404,8 @@
 "ex": [
 "a bath/beach towel",
 "She came downstairs wrapped in a towel."
-]
+],
+"vi": "khăn tắm, khăn lau"
 },
 {
 "id": "v-toy-noun-1",
@@ -3120,7 +3415,8 @@
 "ex": [
 "a toy train/farm/soldier",
 "Put your toys away now - it's time for bed."
-]
+],
+"vi": "đồ chơi"
 },
 {
 "id": "v-tram-noun-1",
@@ -3129,7 +3425,8 @@
 "def": "an electric vehicle for carrying passengers, mostly in cities, which moves along metal lines in the road",
 "ex": [
 "We took the tram to the city centre."
-]
+],
+"vi": "xe điện"
 },
 {
 "id": "v-trip-noun-1",
@@ -3139,7 +3436,8 @@
 "ex": [
 "The trip from York to Newcastle takes about an hour by train.",
 "Do you want to go on the school trip to France this year?"
-]
+],
+"vi": "chuyến đi ngắn"
 },
 {
 "id": "v-twice-adverb-1",
@@ -3149,7 +3447,8 @@
 "ex": [
 "I've already asked him twice.",
 "You need to take two tablets twice daily."
-]
+],
+"vi": "hai lần"
 },
 {
 "id": "v-tyre-noun-1",
@@ -3159,7 +3458,8 @@
 "ex": [
 "I've got a flat tyre.",
 "I keep a spare tyre in the back of the car."
-]
+],
+"vi": "lốp xe"
 },
 {
 "id": "v-umbrella-noun-1",
@@ -3169,7 +3469,8 @@
 "ex": [
 "I felt a few spots of rain so I put my umbrella up.",
 "I left my umbrella on the bus yesterday."
-]
+],
+"vi": "cái ô, cái dù"
 },
 {
 "id": "v-uncle-noun-1",
@@ -3179,7 +3480,8 @@
 "ex": [
 "I've got an uncle who lives there.",
 "Did you bring me a present, Uncle Jack?"
-]
+],
+"vi": "chú, bác, cậu"
 },
 {
 "id": "v-uniform-noun-1",
@@ -3188,7 +3490,8 @@
 "def": "a special set of clothes that are worn by people who do a particular job or go to a particular school",
 "ex": [
 "a nurse's uniform"
-]
+],
+"vi": "đồng phục"
 },
 {
 "id": "v-unusual-adjective-1",
@@ -3198,7 +3501,8 @@
 "ex": [
 "an unusual name/surname",
 "He took the highly unusual step of making a public apology."
-]
+],
+"vi": "khác thường, lạ"
 },
 {
 "id": "v-upstairs-adverb-1",
@@ -3207,7 +3511,8 @@
 "def": "on or to a higher level of a building",
 "ex": [
 "He ran upstairs to answer the phone."
-]
+],
+"vi": "lên tầng trên"
 },
 {
 "id": "v-usually-adverb-1",
@@ -3217,7 +3522,8 @@
 "ex": [
 "He usually gets home about 6 o'clock.",
 "I usually just have a sandwich for lunch."
-]
+],
+"vi": "thường thường"
 },
 {
 "id": "v-violin-noun-1",
@@ -3226,7 +3532,8 @@
 "def": "a wooden musical instrument with four strings, which you hold against your neck and play by moving a bow across the strings",
 "ex": [
 "I've been learning the violin for the last four years."
-]
+],
+"vi": "đàn vi-ô-lông"
 },
 {
 "id": "v-volleyball-noun-1",
@@ -3235,7 +3542,8 @@
 "def": "a game in which two teams use their hands to hit a ball over a net without allowing it to touch the ground",
 "ex": [
 "They played volleyball on the beach."
-]
+],
+"vi": "bóng chuyền"
 },
 {
 "id": "v-walking-noun-1",
@@ -3245,7 +3553,8 @@
 "ex": [
 "We're going walking in Wales for a week.",
 "a pair of walking boots"
-]
+],
+"vi": "việc đi bộ"
 },
 {
 "id": "v-wallet-noun-1",
@@ -3255,7 +3564,8 @@
 "ex": [
 "Have you seen my wallet anywhere?",
 "He pulled out a big fat wallet stuffed with notes."
-]
+],
+"vi": "ví tiền"
 },
 {
 "id": "v-weekday-noun-1",
@@ -3264,7 +3574,8 @@
 "def": "one of the five days from Monday to Friday when people usually go to work or school",
 "ex": [
 "This road is very busy on weekdays."
-]
+],
+"vi": "ngày trong tuần"
 },
 {
 "id": "v-wheel-noun-1",
@@ -3274,7 +3585,8 @@
 "ex": [
 "My bike needs a new wheel.",
 "He lost control of his car when the front/rear wheel hit a rock."
-]
+],
+"vi": "bánh xe"
 },
 {
 "id": "v-windy-adjective-1",
@@ -3284,7 +3596,8 @@
 "ex": [
 "It was a windy night.",
 "It was wet and windy for most of the week."
-]
+],
+"vi": "nhiều gió"
 },
 {
 "id": "v-worse-adjective-1",
@@ -3294,7 +3607,8 @@
 "ex": [
 "The exam was worse than I expected.",
 "His behaviour is even worse than his sister's."
-]
+],
+"vi": "tệ hơn"
 },
 {
 "id": "v-worst-adjective-1",
@@ -3304,6 +3618,7 @@
 "ex": [
 "That was the worst meal I've ever eaten.",
 "\"It was the worst moment of my life,\" she admitted."
-]
+],
+"vi": "tệ nhất"
 }
 ]

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict"
 import { test } from "node:test"
-import { clozeQuestion, clozeSentence, meaningQuestion, pickVocabRound, type VocabWord } from "../src/lib/vocab/questions.ts"
+import { clozeQuestion, clozeSentence, meaningQuestion, pickVocabMatchPairs, pickVocabRound, viQuestion, type VocabWord } from "../src/lib/vocab/questions.ts"
 
 const w = (word: string, pos = "noun", ex: string[] = [`I saw the ${word} today.`]): VocabWord => ({ id: `v-${word}-${pos}-1`, word, pos, def: `meaning of ${word}`, ex })
 const pool = ["cat", "dog", "house", "river", "car", "book"].map((x) => w(x))
@@ -27,4 +27,16 @@ test("lượt luyện đủ số câu, không trùng từ", () => {
   const r = pickVocabRound(pool, "a1", 5)
   assert.equal(r.length, 5)
   assert.equal(new Set(r.map((q) => q.id.slice(5))).size, 5)
+})
+
+test("câu nghĩa Việt cần có vi; cặp ghép bỏ từ thiếu vi hoặc trùng nghĩa", () => {
+  assert.equal(viQuestion(pool[0], "a1", pool), null)
+  const vp = pool.map((x, i) => ({ ...x, vi: `nghĩa ${i}` }))
+  const q = viQuestion(vp[0], "a1", vp)!
+  assert.equal(q.choices[q.correctIndex], "cat")
+  assert.match(q.prompt, /nghĩa 0/)
+  const pairs = pickVocabMatchPairs(vp, "a1", () => 0.3, 5)
+  assert.equal(pairs.length, 5)
+  assert.equal(new Set(pairs.map((p) => p.right)).size, 5)
+  assert.deepEqual(pickVocabMatchPairs(pool, "a1"), [])
 })

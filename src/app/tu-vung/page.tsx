@@ -8,10 +8,10 @@ export const metadata = { title: "Từ vựng" }
 export default async function VocabHome() {
   const counts = await Promise.all(VOCAB_LEVELS.map(async (l) => (await getVocab(l.id))?.length ?? 0))
   return (
-    <main className="mx-auto w-full max-w-xl px-4 py-6">
+    <main className="mx-auto w-full max-w-5xl px-4 py-6">
       <h1 className="text-3xl font-extrabold">Từ vựng</h1>
       <p className="mb-4 text-muted-foreground">Mỗi lượt 10 câu: đọc nghĩa chọn từ, hoặc điền từ vào câu. Sai thì nghĩa của từng từ hiện ngay để bạn nhớ.</p>
-      <ul className="space-y-3">
+      <ul className="grid gap-3 sm:grid-cols-3">
         {VOCAB_LEVELS.map((l, i) => (
           <li key={l.id}>
             <Link href={`/tu-vung/${l.id}`} className="block rounded-game border-2 border-border bg-card px-4 py-4 hover:border-primary">
