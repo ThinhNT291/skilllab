@@ -99,7 +99,20 @@ export interface SpotExercise extends ExerciseBase {
   card: CardSource
 }
 
-export type Exercise = McqExercise | ReorderExercise | TypedExercise | DictationExercise | SpotExercise
+/** Sửa lỗi: cho một câu có lỗi, người học gõ lại cả câu đã sửa. Sinh từ câu trắc nghiệm gốc (điền một đáp án sai vào chỗ trống). */
+export interface FixExercise extends ExerciseBase {
+  kind: "fix"
+  prompt: string
+  /** Câu có lỗi, hiện cho người học */
+  wrongSentence: string
+  /** Các dạng câu đúng được chấp nhận (đã gồm viết tắt/đầy đủ) */
+  answers: string[]
+  /** Vì sao câu gốc sai (lấy từ lời giải thích của đáp án sai) */
+  explanation: string
+  card: CardSource
+}
+
+export type Exercise = McqExercise | ReorderExercise | TypedExercise | DictationExercise | SpotExercise | FixExercise
 
 export interface AnswerRecord {
   exerciseId: string

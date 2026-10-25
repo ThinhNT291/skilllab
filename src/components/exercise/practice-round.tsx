@@ -7,6 +7,8 @@ import { pickMatchPairs } from "@/lib/content/match"
 import { MatchSession } from "@/components/game/match-session"
 import { buildLadder, pickAtPosition, START_POSITION } from "@/lib/content/adaptive"
 import { pickHardRound, pickRound, pickRoundForTag } from "@/lib/content/rounds"
+import { buildRuleHints, pickWarmup, usagesInRound } from "@/lib/content/rule-hints"
+import { PreLesson } from "./pre-lesson"
 import { TestSession } from "./test-session"
 import { PracticeSession } from "./practice-session"
 
@@ -18,6 +20,7 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
   const all = await getExercises("en", topic)
   if (!all.length) notFound()
 
+  const rules = buildRuleHints(data.theory)
   const tagLabel = tag ? data.theory.usages.find((u) => u.id === tag)?.label : undefined
   if (mode === "match") {
     const pairs = pickMatchPairs(all)
@@ -45,7 +48,9 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
         </Link>
         <h1 className="mt-2 text-3xl font-extrabold">Kiểm tra cuối chủ điểm 🏅</h1>
         <p className="mb-4 text-muted-foreground">10 câu, đúng từ 8 câu là đạt. Làm hết lượt mới biết kết quả.</p>
-        <TestSession exercises={questions} topic={topic} topicTitle={data.title} />
+        <PreLesson rules={usagesInRound(questions).map((id) => rules[id]).filter(Boolean)} warmup={pickWarmup(all, questions)} topicHref={`/hoc/${topic}`} required>
+          <TestSession exercises={questions} topic={topic} topicTitle={data.title} rules={rules} />
+        </PreLesson>
       </>
     )
   }
@@ -75,7 +80,13 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
       <h1 className="mt-2 text-3xl font-extrabold">{title}</h1>
       {subtitle && <p className="mb-4 text-muted-foreground">{subtitle}</p>}
       {!subtitle && <div className="mb-4" />}
-      <PracticeSession exercises={exercises} adaptive={adaptive} theoryBase={`/hoc/${topic}`} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
+      {mode === "normal" && !tagLabel ? (
+        <PreLesson rules={usagesInRound(exercises).map((id) => rules[id]).filter(Boolean)} warmup={pickWarmup(all, exercises)} topicHref={`/hoc/${topic}`}>
+          <PracticeSession exercises={exercises} theoryBase={`/hoc/${topic}`} rules={rules} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
+        </PreLesson>
+      ) : (
+        <PracticeSession exercises={exercises} adaptive={adaptive} theoryBase={`/hoc/${topic}`} rules={rules} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
+      )}
     </>
   )
 }

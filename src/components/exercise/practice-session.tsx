@@ -3,12 +3,13 @@
 import { useState } from "react"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { recordAnswer } from "@/lib/db"
+import type { RuleHints } from "@/lib/content/rule-hints"
 import { ExerciseRunner } from "./exercise-runner"
 
 type Status = "idle" | "saved" | "not_saved"
 
 /** Chạy một lượt bài tập và lưu từng câu trả lời (nếu đã kết nối Supabase). */
-export function PracticeSession({ exercises, theoryBase, bonusHref, adaptive }: { exercises: Exercise[]; theoryBase?: string; bonusHref?: string; adaptive?: { ladder: Exercise[]; count: number } }) {
+export function PracticeSession({ exercises, theoryBase, bonusHref, adaptive, rules }: { exercises: Exercise[]; theoryBase?: string; bonusHref?: string; adaptive?: { ladder: Exercise[]; count: number }; rules?: RuleHints }) {
   const [status, setStatus] = useState<Status>("idle")
   const [detail, setDetail] = useState("")
 
@@ -27,6 +28,8 @@ export function PracticeSession({ exercises, theoryBase, bonusHref, adaptive }: 
         onAnswer={onAnswer}
         bonusHref={bonusHref}
         adaptive={adaptive}
+        rules={rules}
+        practiceBase={theoryBase}
         theoryHref={theoryBase ? (ex) => `${theoryBase}${ex.usageId ? `#${ex.usageId}` : ""}` : undefined}
       />
       {/* Dòng trạng thái chỉ để kiểm tra khi dev; sẽ bỏ khi có màn đăng nhập/tiến độ. */}

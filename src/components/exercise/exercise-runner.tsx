@@ -13,7 +13,10 @@ import { recordRoundDone } from "@/lib/game/bonus"
 import { xpFor, XP_PER_COIN } from "@/lib/game/xp"
 import { Mascot, type Mood } from "@/components/game/mascot"
 import { ProgressBar } from "./progress-bar"
-import { DictationView, McqView, ReorderView, SpotView, TypedView, type Result } from "./views"
+import { scaffoldFor } from "@/lib/content/derive"
+import type { RuleHints } from "@/lib/content/rule-hints"
+import { WrongFeedback } from "./wrong-feedback"
+import { DictationView, FixView, McqView, ReorderView, SpotView, TypedView, type Result } from "./views"
 
 /** Sao theo số câu đúng, tính từ tỷ lệ nhưng làm tròn theo số câu thực tế để cả bài 3 câu lẫn 10 câu đều có đủ mức. */
 function starsFor(correct: number, total: number): 0 | 1 | 2 | 3 {
@@ -34,6 +37,7 @@ const KIND_TITLE: Record<Exercise["kind"], string> = {
   typed: "Gõ đáp án",
   dictation: "Nghe và gõ lại",
   spot: "Tìm lỗi sai",
+  fix: "Sửa lỗi: gõ lại câu đúng",
 }
 
 function titleOf(ex: Exercise): string {
@@ -46,6 +50,7 @@ function correctText(ex: Exercise): string | null {
   if (ex.kind === "typed") return ex.answers[0]
   if (ex.kind === "dictation") return ex.text
   if (ex.kind === "spot") return ex.correctSentence
+  if (ex.kind === "fix") return ex.answers[0]
   return null
 }
 
@@ -60,6 +65,8 @@ export function ExerciseRunner({
   theoryHref,
   bonusHref,
   adaptive,
+  rules,
+  practiceBase,
 }: {
   exercises: Exercise[]
   /** Bài thích ứng: câu kế tiếp chọn theo kết quả câu vừa làm (đúng thì khó hơn, sai thì dễ hơn). `exercises` chỉ cần câu đầu. */
@@ -71,6 +78,10 @@ export function ExerciseRunner({
   theoryHref?: (exercise: Exercise) => string | null
   /** Đường dẫn game thưởng. Có thì cứ vài lượt xong lại mời chơi ở màn kết quả. */
   bonusHref?: string
+  /** Quy tắc lý thuyết theo mã mục, để phân tích khi trả lời sai. */
+  rules?: RuleHints
+  /** Đường dẫn gốc của chuyên đề (vd /hoc/present-simple) để gợi ý luyện riêng mục vừa sai. */
+  practiceBase?: string
 }) {
   const { sound, showBac } = useSettings()
   const [list, setList] = useState(exercises)
@@ -198,7 +209,8 @@ export function ExerciseRunner({
 
         {current.kind === "mcq" && <McqView ex={current} result={result} onResolve={resolve} />}
         {current.kind === "reorder" && <ReorderView ex={current} result={result} onResolve={resolve} />}
-        {current.kind === "typed" && <TypedView ex={current} result={result} onResolve={resolve} />}
+        {current.kind === "typed" && <TypedView ex={current} result={result} onResolve={resolve} scaffold={scaffoldFor(index, total)} />}
+        {current.kind === "fix" && <FixView ex={current} result={result} onResolve={resolve} scaffold={scaffoldFor(index, total)} />}
         {current.kind === "spot" && <SpotView ex={current} result={result} onResolve={resolve} />}
         {current.kind === "dictation" && <DictationView ex={current} result={result} onResolve={resolve} />}
 
@@ -227,10 +239,15 @@ export function ExerciseRunner({
                 {current.kind !== "dictation" && <p className="mt-1 text-base text-muted-foreground">{current.explanation}</p>}
               </>
             )}
-            {wrong && theoryHref?.(current) && (
-              <Link href={theoryHref(current)!} target="_blank" className="mt-2 inline-block text-primary underline underline-offset-4">
-                Xem lại lý thuyết
-              </Link>
+            {wrong && rules && current.usageId && rules[current.usageId] ? (
+              <WrongFeedback ex={current} choiceIndex={result.choiceIndex} rules={rules} theoryHref={theoryHref?.(current)} practiceBase={practiceBase} />
+            ) : (
+              wrong &&
+              theoryHref?.(current) && (
+                <Link href={theoryHref(current)!} target="_blank" className="mt-2 inline-block text-primary underline underline-offset-4">
+                  Xem lại lý thuyết
+                </Link>
+              )
             )}
             <button type="button" onClick={next} className="mt-3 w-full rounded-game border-b-[5px] border-primary-deep bg-primary py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2">
               {index + 1 < total ? "Tiếp tục" : "Xem kết quả"}

@@ -134,3 +134,38 @@ test("ghép cặp: đủ 5 cặp có đáp án khác nhau, hoặc không có c�
   assert.ok(pairs.every((p) => /_{2,}/.test(p.left) && !/\(/.test(p.left)))
   assert.deepEqual(pickMatchPairs(all.slice(0, 2)), [])
 })
+
+test("sửa lỗi: câu có lỗi và đáp án là cả câu đúng; chấp nhận hoa/thường và dấu câu", async () => {
+  const { deriveFix } = await import("../src/lib/content/derive.ts")
+  const ex = {
+    id: "en-x-001", kind: "mcq", language: "en", topic: "present-simple", tags: [], difficulty: 1,
+    prompt: "She ______ (clean) her room every Saturday.", choices: ["cleans", "clean", "is cleaning", "to clean"], correctIndex: 0,
+    explanation: "x", choiceExplanations: ["Đúng — x", "Sai — 'She' là ngôi thứ ba.", "Sai — tiếp diễn.", "Sai — cấu trúc."],
+  } as McqExercise
+  const f = deriveFix(ex, () => 0.5)!
+  assert.equal(f.kind, "fix")
+  assert.equal(f.wrongSentence, "She is cleaning her room every Saturday.")
+  assert.ok(gradeTyped("she cleans her room every saturday", f.answers))
+  assert.ok(gradeTyped("She cleans her room every Saturday!", f.answers))
+  assert.ok(!gradeTyped("She is cleaning her room every Saturday.", f.answers))
+  assert.equal(f.id, "en-x-001~fix")
+  assert.equal(deriveFix({ ...ex, choiceExplanations: undefined }), null)
+})
+
+test("độ khó theo màn: gợi ý giảm dần; ba câu đầu luôn là trắc nghiệm; biến thể ở cuối khó hơn giữa lượt", async () => {
+  const { scaffoldFor, mixVariants } = await import("../src/lib/content/derive.ts")
+  assert.deepEqual([0, 3, 5, 9].map((i) => scaffoldFor(i, 10)), [2, 2, 1, 0])
+  assert.equal(scaffoldFor(0, 1), 0)
+  const mk = (i: number) => ({
+    id: `en-x-${i}`, kind: "mcq", language: "en", topic: "present-simple", tags: [], difficulty: 1,
+    prompt: "She ______ (clean) her room every Saturday morning.", choices: ["cleans", "clean", "is cleaning", "to clean"], correctIndex: 0,
+    explanation: "x", choiceExplanations: ["Đúng — x", "Sai — 'She' là ngôi thứ ba.", "Sai — tiếp diễn.", "Sai — cấu trúc."],
+  }) as McqExercise
+  for (let run = 0; run < 30; run++) {
+    const out = mixVariants(Array.from({ length: 10 }, (_, i) => mk(i)), Math.random, 4)
+    assert.ok(out.slice(0, 3).every((e) => e.kind === "mcq"))
+    out.slice(3, 7).forEach((e) => assert.ok(["mcq", "reorder", "spot"].includes(e.kind), e.kind))
+    out.slice(7).forEach((e) => assert.ok(["mcq", "typed", "fix", "spot"].includes(e.kind), e.kind))
+    assert.ok(out.filter((e) => e.kind !== "mcq").length <= 4)
+  }
+})

@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import type { DictationExercise, McqExercise, ReorderExercise, SpotExercise, TypedExercise } from "@/lib/content/types"
+import type { DictationExercise, McqExercise, ReorderExercise, SpotExercise, FixExercise, TypedExercise } from "@/lib/content/types"
 import { gradeReorder, gradeSpot, gradeTyped } from "@/lib/grading"
 import { speak, stopSpeaking, useTtsSupported } from "@/lib/audio/tts"
 import { cn } from "@/lib/utils"
@@ -99,7 +99,7 @@ export function ReorderView({ ex, result, onResolve }: { ex: ReorderExercise; re
   )
 }
 
-function TextAnswer({ placeholder, result, accepted, onResolve, multiline = false }: { placeholder: string; result: Result | null; accepted: string[]; onResolve: (r: Result) => void; multiline?: boolean }) {
+function TextAnswer({ placeholder, result, accepted, onResolve, multiline = false, hint }: { placeholder: string; result: Result | null; accepted: string[]; onResolve: (r: Result) => void; multiline?: boolean; hint?: string | null }) {
   const [text, setText] = useState("")
   const done = result !== null
   const tone = done ? (result.correct ? "border-success bg-success-soft" : "border-danger bg-danger-soft") : "border-border"
@@ -120,6 +120,7 @@ function TextAnswer({ placeholder, result, accepted, onResolve, multiline = fals
   }
   return (
     <>
+      {hint && !done && <p className="mb-2 text-sm font-extrabold text-muted-foreground">💡 {hint}</p>}
       {multiline ? (
         <textarea {...common} rows={2} aria-label="Câu bạn nghe được" />
       ) : (
@@ -141,11 +142,31 @@ function TextAnswer({ placeholder, result, accepted, onResolve, multiline = fals
   )
 }
 
-export function TypedView({ ex, result, onResolve }: { ex: TypedExercise; result: Result | null; onResolve: (r: Result) => void }) {
+/** Gợi ý giảm dần theo màn (xem scaffoldFor): 2 = chữ cái đầu và số từ, 1 = chỉ số từ, 0 = không gợi ý. */
+function hintFor(answer: string, scaffold: 0 | 1 | 2): string | null {
+  const words = answer.trim().split(/\s+/).length
+  if (scaffold === 2) return `Đáp án có ${words} từ, bắt đầu bằng “${answer.trim()[0]}”.`
+  if (scaffold === 1) return `Đáp án có ${words} từ.`
+  return null
+}
+
+export function TypedView({ ex, result, onResolve, scaffold = 0 }: { ex: TypedExercise; result: Result | null; onResolve: (r: Result) => void; scaffold?: 0 | 1 | 2 }) {
   return (
     <>
       <p className="my-2 mb-4 text-2xl font-extrabold leading-relaxed">{ex.prompt}</p>
-      <TextAnswer placeholder="Gõ đáp án cho chỗ trống" result={result} accepted={ex.answers} onResolve={onResolve} />
+      <TextAnswer placeholder="Gõ đáp án cho chỗ trống" result={result} accepted={ex.answers} onResolve={onResolve} hint={hintFor(ex.answers[0], scaffold)} />
+    </>
+  )
+}
+
+export function FixView({ ex, result, onResolve, scaffold = 0 }: { ex: FixExercise; result: Result | null; onResolve: (r: Result) => void; scaffold?: 0 | 1 | 2 }) {
+  return (
+    <>
+      <p className="my-2 text-muted-foreground">{ex.prompt}</p>
+      <p className="mb-3 rounded-game border-2 border-danger bg-danger-soft px-4 py-3 text-2xl font-extrabold leading-relaxed" lang="en">
+        {ex.wrongSentence}
+      </p>
+      <TextAnswer placeholder="Gõ lại cả câu đã sửa" result={result} accepted={ex.answers} onResolve={onResolve} multiline hint={scaffold === 2 ? "Chỉ sai một chỗ (một từ hoặc một cụm). Giữ nguyên phần còn lại." : null} />
     </>
   )
 }
