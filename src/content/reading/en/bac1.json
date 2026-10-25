@@ -606,5 +606,449 @@
         ]
       }
     ]
+  },
+  {
+    "id": "rd-b1-009",
+    "bac": 1,
+    "title": "A Snowy Morning",
+    "text": "Lina wakes up at seven o'clock. She looks out of the window. It is snowing! The trees and the cars are white.\n\nLina puts on her warm coat, her red hat, and her boots. Her little brother Omar wants to go outside too. They make a snowman in the yard. It has two black eyes and a long carrot nose. Then they drink hot chocolate in the kitchen. Lina is happy.",
+    "questions": [
+      {
+        "prompt": "What does Lina see out of the window?",
+        "choices": [
+          "Snow",
+          "Rain",
+          "Sun",
+          "Wind"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"It is snowing!\" nên Lina thấy tuyết.",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"It is snowing!\"",
+          "Sai — 'Rain': bài nói tuyết rơi (snowing), không phải mưa.",
+          "Sai — 'Sun': bài không nhắc đến mặt trời.",
+          "Sai — 'Wind': bài không nhắc đến gió."
+        ]
+      },
+      {
+        "prompt": "What does the snowman have for a nose?",
+        "choices": [
+          "A red hat",
+          "A warm coat",
+          "A long carrot",
+          "A black eye"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: \"It has two black eyes and a long carrot nose.\"",
+        "choiceExplanations": [
+          "Sai — 'A red hat': mũ đỏ là của Lina, không phải mũi người tuyết.",
+          "Sai — 'A warm coat': áo khoác ấm là của Lina.",
+          "Đúng — bài viết: \"a long carrot nose\".",
+          "Sai — 'A black eye': bài nói người tuyết có hai mắt đen, không phải mũi."
+        ]
+      },
+      {
+        "prompt": "Who goes outside with Lina?",
+        "choices": [
+          "Her mom",
+          "Her friend",
+          "Her teacher",
+          "Her brother"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: \"Her little brother Omar wants to go outside too.\"",
+        "choiceExplanations": [
+          "Sai — 'Her mom': bài không nhắc mẹ đi ra ngoài.",
+          "Sai — 'Her friend': bài không nhắc bạn của Lina.",
+          "Sai — 'Her teacher': bài không nhắc giáo viên.",
+          "Đúng — bài viết: \"Her little brother Omar wants to go outside too.\""
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Lina drinks hot chocolate before she makes the snowman.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: họ làm người tuyết trước, \"Then they drink hot chocolate\".",
+        "choiceExplanations": [
+          "Sai — 'True': bài nói họ uống sô-cô-la nóng sau khi làm người tuyết (Then = sau đó), không phải trước.",
+          "Đúng — bài viết: \"They make a snowman... Then they drink hot chocolate in the kitchen.\" nên uống sau.",
+          "Sai — 'Not given': bài có nói thứ tự: làm người tuyết trước, rồi mới uống."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-010",
+    "bac": 1,
+    "title": "At the Market",
+    "text": "Today is Saturday. Kofi goes to the market with his grandma. The market is busy. There are many people.\n\nGrandma buys three apples, two bananas, and a big bag of rice. The apples cost four dollars. Kofi wants some candy, but Grandma says no. She buys him an orange. Kofi is not very happy, but he eats the orange. It is sweet.",
+    "questions": [
+      {
+        "prompt": "Who goes to the market with Kofi?",
+        "choices": [
+          "His mom",
+          "His grandma",
+          "His sister",
+          "His teacher"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: \"Kofi goes to the market with his grandma.\"",
+        "choiceExplanations": [
+          "Sai — 'His mom': bài không nhắc mẹ.",
+          "Đúng — bài viết: \"Kofi goes to the market with his grandma.\"",
+          "Sai — 'His sister': bài không nhắc chị/em gái.",
+          "Sai — 'His teacher': bài không nhắc giáo viên."
+        ]
+      },
+      {
+        "prompt": "What does Kofi want?",
+        "choices": [
+          "Rice",
+          "An orange",
+          "Some bananas",
+          "Some candy"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: \"Kofi wants some candy, but Grandma says no.\"",
+        "choiceExplanations": [
+          "Sai — 'Rice': bà mua gạo, nhưng không phải thứ Kofi muốn.",
+          "Sai — 'An orange': bà mua cam cho cậu, nhưng cậu muốn kẹo.",
+          "Sai — 'Some bananas': bà mua chuối, nhưng không phải thứ Kofi muốn.",
+          "Đúng — bài viết: \"Kofi wants some candy\"."
+        ]
+      },
+      {
+        "prompt": "How many apples does Grandma buy?",
+        "choices": [
+          "Three",
+          "Two",
+          "Four",
+          "Five"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"Grandma buys three apples\".",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"Grandma buys three apples\".",
+          "Sai — 'Two': hai là số chuối (two bananas).",
+          "Sai — 'Four': bốn là giá tiền (four dollars), không phải số táo.",
+          "Sai — 'Five': bài không nhắc năm quả."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Kofi eats the orange.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"he eats the orange\".",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"Kofi is not very happy, but he eats the orange.\"",
+          "Sai — 'False': Kofi không vui nhưng vẫn ăn cam.",
+          "Sai — 'Not given': bài có nói Kofi ăn cam."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-011",
+    "bac": 1,
+    "title": "My Uncle Is a Firefighter",
+    "text": "My uncle Tom is a firefighter. He works at the fire station in our town. He works for two days, and then he is at home for two days.\n\nUncle Tom has a big red truck. He helps people when there is a fire. He also helps cats in trees! He is strong and kind. When I am older, I want to be a firefighter too.",
+    "questions": [
+      {
+        "prompt": "Where does Uncle Tom work?",
+        "choices": [
+          "At home",
+          "At a school",
+          "At the fire station",
+          "At a hospital"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: \"He works at the fire station in our town.\"",
+        "choiceExplanations": [
+          "Sai — 'At home': chú ở nhà hai ngày nghỉ, không phải nơi làm việc.",
+          "Sai — 'At a school': bài không nhắc trường học.",
+          "Đúng — bài viết: \"He works at the fire station in our town.\"",
+          "Sai — 'At a hospital': bài không nhắc bệnh viện."
+        ]
+      },
+      {
+        "prompt": "What color is Uncle Tom's truck?",
+        "choices": [
+          "Red",
+          "Blue",
+          "Yellow",
+          "White"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"Uncle Tom has a big red truck.\"",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"a big red truck\".",
+          "Sai — 'Blue': bài nói xe màu đỏ, không phải xanh dương.",
+          "Sai — 'Yellow': bài nói xe màu đỏ, không phải vàng.",
+          "Sai — 'White': bài nói xe màu đỏ, không phải trắng."
+        ]
+      },
+      {
+        "prompt": "How many days is Uncle Tom at home?",
+        "choices": [
+          "One day",
+          "Two days",
+          "Three days",
+          "Four days"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: \"he is at home for two days\".",
+        "choiceExplanations": [
+          "Sai — 'One day': bài nói hai ngày, không phải một.",
+          "Đúng — bài viết: \"then he is at home for two days.\"",
+          "Sai — 'Three days': bài nói hai ngày, không phải ba.",
+          "Sai — 'Four days': bài nói hai ngày, không phải bốn."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Uncle Tom has a son.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không nói gì về con của chú Tom.",
+        "choiceExplanations": [
+          "Sai — 'True': bài không nói chú Tom có con trai.",
+          "Sai — 'False': bài cũng không nói chú không có con trai.",
+          "Đúng — bài không nhắc đến con của chú Tom, nên là Not given."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-012",
+    "bac": 1,
+    "title": "Ben's Lunch Box",
+    "text": "Ben has a blue lunch box. Every day his dad puts food in it. Today Ben has a cheese sandwich, a banana, and a small bottle of water.\n\nAt school, Ben eats lunch with his friend Ana. Ana has rice and chicken. Ben likes her chicken, so she gives him a small piece. Ben gives Ana half of his banana. They are good friends.",
+    "questions": [
+      {
+        "prompt": "Who puts food in Ben's lunch box?",
+        "choices": [
+          "Ben",
+          "Ana",
+          "His mom",
+          "His dad"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: \"Every day his dad puts food in it.\"",
+        "choiceExplanations": [
+          "Sai — 'Ben': bài nói bố bỏ thức ăn vào hộp, không phải Ben.",
+          "Sai — 'Ana': Ana là bạn của Ben, không bỏ thức ăn vào hộp của cậu.",
+          "Sai — 'His mom': bài không nhắc mẹ của Ben.",
+          "Đúng — bài viết: \"Every day his dad puts food in it.\""
+        ]
+      },
+      {
+        "prompt": "What does Ben give to Ana?",
+        "choices": [
+          "A sandwich",
+          "Half of his banana",
+          "A bottle of water",
+          "Some rice"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: \"Ben gives Ana half of his banana.\"",
+        "choiceExplanations": [
+          "Sai — 'A sandwich': Ben có bánh mì kẹp, nhưng bài không nói cậu cho Ana.",
+          "Đúng — bài viết: \"Ben gives Ana half of his banana.\"",
+          "Sai — 'A bottle of water': bài không nói Ben cho Ana nước.",
+          "Sai — 'Some rice': cơm là của Ana, không phải của Ben."
+        ]
+      },
+      {
+        "prompt": "What does Ana have for lunch?",
+        "choices": [
+          "A banana",
+          "A cheese sandwich",
+          "Rice and chicken",
+          "A bottle of water"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: \"Ana has rice and chicken.\"",
+        "choiceExplanations": [
+          "Sai — 'A banana': chuối là của Ben.",
+          "Sai — 'A cheese sandwich': bánh mì kẹp phô mai là của Ben.",
+          "Đúng — bài viết: \"Ana has rice and chicken.\"",
+          "Sai — 'A bottle of water': chai nước là của Ben."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Ben's lunch box is red.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: \"Ben has a blue lunch box.\"",
+        "choiceExplanations": [
+          "Sai — 'True': bài nói hộp cơm màu xanh dương (blue), không phải đỏ.",
+          "Đúng — bài viết: \"Ben has a blue lunch box.\" nên không phải màu đỏ.",
+          "Sai — 'Not given': bài có nói màu của hộp cơm là blue."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-013",
+    "bac": 1,
+    "title": "Swimming Lessons",
+    "text": "Nina is eight years old. On Tuesday and Thursday, she has swimming lessons at the city pool. Her teacher is Mr. Reed.\n\nToday the water is cold, but Nina is not afraid. First, she kicks her legs. Then she moves her arms. Mr. Reed says, \"Good job, Nina!\" After the lesson, her mom gives her a towel and a warm drink. Nina is tired, but she is very happy.",
+    "questions": [
+      {
+        "prompt": "When does Nina have swimming lessons?",
+        "choices": [
+          "On Tuesday and Thursday",
+          "On Monday and Friday",
+          "On Saturday and Sunday",
+          "Every day"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"On Tuesday and Thursday, she has swimming lessons at the city pool.\"",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"On Tuesday and Thursday, she has swimming lessons\".",
+          "Sai — 'On Monday and Friday': bài nói thứ Ba và thứ Năm, không phải thứ Hai và thứ Sáu.",
+          "Sai — 'On Saturday and Sunday': bài nói thứ Ba và thứ Năm, không phải cuối tuần.",
+          "Sai — 'Every day': bài nói hai ngày mỗi tuần, không phải mỗi ngày."
+        ]
+      },
+      {
+        "prompt": "Who is Mr. Reed?",
+        "choices": [
+          "Her dad",
+          "Her friend",
+          "Her teacher",
+          "Her doctor"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: \"Her teacher is Mr. Reed.\"",
+        "choiceExplanations": [
+          "Sai — 'Her dad': bài không nói Mr. Reed là bố của Nina.",
+          "Sai — 'Her friend': bài nói ông là thầy giáo, không phải bạn.",
+          "Đúng — bài viết: \"Her teacher is Mr. Reed.\"",
+          "Sai — 'Her doctor': bài không nhắc bác sĩ."
+        ]
+      },
+      {
+        "prompt": "What does Nina's mom give her after the lesson?",
+        "choices": [
+          "Some candy",
+          "A hat",
+          "A cold drink",
+          "A towel"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: \"her mom gives her a towel and a warm drink.\"",
+        "choiceExplanations": [
+          "Sai — 'Some candy': bài không nhắc kẹo.",
+          "Sai — 'A hat': bài không nhắc mũ.",
+          "Sai — 'A cold drink': bài nói đồ uống ấm (warm), không phải lạnh.",
+          "Đúng — bài viết: \"her mom gives her a towel and a warm drink.\""
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The water is cold today.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"Today the water is cold\".",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"Today the water is cold, but Nina is not afraid.\"",
+          "Sai — 'False': bài nói nước lạnh (cold).",
+          "Sai — 'Not given': bài có nói nước lạnh."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-014",
+    "bac": 1,
+    "title": "A Walk in the Forest",
+    "text": "Jin and his sister Rosa go for a walk in the forest with their dad. The sky is blue and the air is fresh.\n\nThey see tall green trees and a small river. A brown rabbit runs across the path. Rosa takes a photo with her phone. Then they sit on a big rock and eat sandwiches. Dad listens to the birds. \"It is so quiet here,\" he says. The children want to come back next week.",
+    "questions": [
+      {
+        "prompt": "What runs across the path?",
+        "choices": [
+          "A dog",
+          "A rabbit",
+          "A bird",
+          "A cat"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: \"A brown rabbit runs across the path.\"",
+        "choiceExplanations": [
+          "Sai — 'A dog': bài không nhắc con chó.",
+          "Đúng — bài viết: \"A brown rabbit runs across the path.\"",
+          "Sai — 'A bird': chim chỉ được nhắc khi bố lắng nghe tiếng chim, chúng không chạy qua lối đi.",
+          "Sai — 'A cat': bài không nhắc con mèo."
+        ]
+      },
+      {
+        "prompt": "What do they eat on the rock?",
+        "choices": [
+          "Apples",
+          "Pizza",
+          "Rice",
+          "Sandwiches"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: \"they sit on a big rock and eat sandwiches.\"",
+        "choiceExplanations": [
+          "Sai — 'Apples': bài không nhắc táo.",
+          "Sai — 'Pizza': bài không nhắc pizza.",
+          "Sai — 'Rice': bài không nhắc cơm.",
+          "Đúng — bài viết: \"they sit on a big rock and eat sandwiches.\""
+        ]
+      },
+      {
+        "prompt": "What does Rosa do?",
+        "choices": [
+          "She listens to the birds",
+          "She runs in the river",
+          "She takes a photo",
+          "She sleeps on a rock"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: \"Rosa takes a photo with her phone.\"",
+        "choiceExplanations": [
+          "Sai — 'She listens to the birds': người nghe tiếng chim là bố (Dad), không phải Rosa.",
+          "Sai — 'She runs in the river': bài không nói Rosa chạy trong sông.",
+          "Đúng — bài viết: \"Rosa takes a photo with her phone.\"",
+          "Sai — 'She sleeps on a rock': bài nói họ ngồi trên đá và ăn, không ngủ."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? They see a deer in the forest.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài chỉ nhắc cây, sông và thỏ, không nhắc hươu.",
+        "choiceExplanations": [
+          "Sai — 'True': bài không nói họ thấy hươu.",
+          "Sai — 'False': bài cũng không nói họ không thấy hươu.",
+          "Đúng — bài chỉ nhắc cây, sông và thỏ nâu, không nhắc hươu, nên là Not given."
+        ]
+      }
+    ]
   }
 ]

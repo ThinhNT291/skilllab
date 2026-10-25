@@ -606,5 +606,449 @@
         ]
       }
     ]
+  },
+  {
+    "id": "rd-b2-009",
+    "bac": 2,
+    "title": "Rainy Day at Home",
+    "text": "It rained all day last Saturday, so my little sister Layla and I stayed home. At first we were bored. Then Dad found a box of old board games in the closet. We played a game with cards and dice for two hours, and Layla won three times!\n\nAfter lunch, we made a big blanket tent in the living room. Mom brought us hot chocolate and some cookies. We read comic books inside the tent until dinner. I usually like sunny days more, but this rainy day was really fun. Maybe we can do it again next weekend.",
+    "questions": [
+      {
+        "prompt": "Who found the board games?",
+        "choices": [
+          "Layla",
+          "Mom",
+          "The writer",
+          "Dad"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: 'Dad found a box of old board games in the closet.'",
+        "choiceExplanations": [
+          "Sai — 'Layla': Layla là em gái, bài chỉ nói cô bé thắng ba lần.",
+          "Sai — 'Mom': Mẹ mang sô-cô-la nóng và bánh quy, không tìm trò chơi.",
+          "Sai — 'The writer': Người viết không tự tìm; bố là người tìm thấy.",
+          "Đúng — Bài viết: 'Then Dad found a box of old board games in the closet.'"
+        ]
+      },
+      {
+        "prompt": "What did the children do after lunch?",
+        "choices": [
+          "They played outside in the rain.",
+          "They went to the library.",
+          "They made a blanket tent.",
+          "They cooked dinner with Mom."
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: 'After lunch, we made a big blanket tent in the living room.'",
+        "choiceExplanations": [
+          "Sai — 'They played outside in the rain.': Trời mưa cả ngày và họ ở nhà, không chơi ngoài trời.",
+          "Sai — 'They went to the library.': Bài không nhắc đến thư viện.",
+          "Đúng — Bài viết: 'we made a big blanket tent in the living room.'",
+          "Sai — 'They cooked dinner with Mom.': Mẹ chỉ mang đồ uống và bánh; không ai nấu bữa tối cùng mẹ."
+        ]
+      },
+      {
+        "prompt": "How does the writer feel about the day at the end?",
+        "choices": [
+          "It was boring.",
+          "It was really fun.",
+          "It was too cold.",
+          "It was too long."
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu 'this rainy day was really fun' cho thấy người viết thấy ngày đó rất vui.",
+        "choiceExplanations": [
+          "Sai — 'It was boring.': Lúc đầu mới chán ('At first we were bored'), cuối cùng thì không còn.",
+          "Đúng — Bài viết: 'this rainy day was really fun.'",
+          "Sai — 'It was too cold.': Bài không nói trời lạnh; có sô-cô-la nóng chỉ là đồ uống.",
+          "Sai — 'It was too long.': Bài không nói ngày quá dài."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The family ate pizza for dinner.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài chỉ nói họ đọc truyện tranh 'until dinner', không nói bữa tối ăn gì.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài không nói bữa tối là pizza.",
+          "Sai — 'False': Bài cũng không phủ nhận điều này.",
+          "Đúng — Bài chỉ có 'until dinner', không nhắc món ăn nên là Not given."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-010",
+    "bac": 2,
+    "title": "Summer Reading Club",
+    "text": "Maple Street Library: Summer Reading Club\n\nDo you love books? Join our Summer Reading Club! It starts on June 5 and ends on August 14. Children from nine to fourteen years old can join. It is free.\n\nHow does it work? Read five books and write a short review of each one. Bring your reviews to the library desk every Friday. Each child who finishes will get a bookmark and a certificate. Every Saturday at 10 a.m., there is also a story hour in the Reading Room. You need a library card to borrow books. If you don't have one, ask Ms. Green at the front desk.",
+    "questions": [
+      {
+        "prompt": "Who can join the club?",
+        "choices": [
+          "Children from nine to fourteen years old",
+          "Only students from Maple Street School",
+          "Parents and teachers",
+          "Children under nine years old"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: 'Children from nine to fourteen years old can join.'",
+        "choiceExplanations": [
+          "Đúng — Bài viết: 'Children from nine to fourteen years old can join.'",
+          "Sai — 'Only students from Maple Street School': Bài không giới hạn theo trường.",
+          "Sai — 'Parents and teachers': Bài chỉ nói trẻ em được tham gia.",
+          "Sai — 'Children under nine years old': Trẻ dưới chín tuổi không nằm trong độ tuổi nêu trong bài."
+        ]
+      },
+      {
+        "prompt": "What must a child do to get a certificate?",
+        "choices": [
+          "Pay a small fee",
+          "Read five books and write reviews",
+          "Go to story hour every Saturday",
+          "Bring a friend to the library"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: 'Read five books and write a short review of each one' rồi nhận 'a certificate'.",
+        "choiceExplanations": [
+          "Sai — 'Pay a small fee': Bài nói câu lạc bộ miễn phí ('It is free').",
+          "Đúng — Bài viết: 'Read five books and write a short review of each one... Each child who finishes will get... a certificate.'",
+          "Sai — 'Go to story hour every Saturday': Giờ kể chuyện thứ Bảy chỉ là hoạt động thêm ('also'), không phải điều kiện.",
+          "Sai — 'Bring a friend to the library': Bài không yêu cầu mang bạn đến."
+        ]
+      },
+      {
+        "prompt": "When should children bring their reviews?",
+        "choices": [
+          "Every Monday",
+          "Every Saturday morning",
+          "Every Friday",
+          "Every Sunday afternoon"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: 'Bring your reviews to the library desk every Friday.'",
+        "choiceExplanations": [
+          "Sai — 'Every Monday': Bài không nói thứ Hai.",
+          "Sai — 'Every Saturday morning': Thứ Bảy 10 giờ là giờ kể chuyện, không phải lúc nộp bài.",
+          "Đúng — Bài viết: 'Bring your reviews to the library desk every Friday.'",
+          "Sai — 'Every Sunday afternoon': Bài không nhắc Chủ nhật."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The club costs ten dollars.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết 'It is free', nên câu nói tốn mười đô la là sai.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài nói câu lạc bộ miễn phí, không phải mười đô la.",
+          "Đúng — Bài viết: 'It is free.'",
+          "Sai — 'Not given': Bài có nói về chi phí (miễn phí) nên không phải Not given."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-011",
+    "bac": 2,
+    "title": "Practice Is at Five",
+    "text": "Priya: Hi Diego! Is soccer practice at 4 o'clock today?\n\nDiego: No, it's at 5 o'clock. Coach Ruiz sent a message this morning. The field is wet, so we are going to practice in the gym.\n\nPriya: Oh, thanks! Do I need my boots?\n\nDiego: No. Bring your sneakers and a water bottle.\n\nPriya: OK. My dad can drive us. Should I ask him to pick you up?\n\nDiego: That would be great! My house is next to the post office.\n\nPriya: Perfect. See you at 4:30 in front of your house.",
+    "questions": [
+      {
+        "prompt": "Why is practice in the gym today?",
+        "choices": [
+          "The coach is late.",
+          "Many players are sick.",
+          "The gym is bigger.",
+          "The field is wet."
+        ],
+        "correctIndex": 3,
+        "explanation": "Diego nói: 'The field is wet, so we are going to practice in the gym.'",
+        "choiceExplanations": [
+          "Sai — 'The coach is late.': Bài không nói huấn luyện viên đến muộn; huấn luyện viên chỉ nhắn tin.",
+          "Sai — 'Many players are sick.': Bài không nhắc cầu thủ bị ốm.",
+          "Sai — 'The gym is bigger.': Bài không so sánh kích thước nhà thi đấu.",
+          "Đúng — Diego: 'The field is wet, so we are going to practice in the gym.'"
+        ]
+      },
+      {
+        "prompt": "When will Priya and her dad meet Diego?",
+        "choices": [
+          "At 4:00",
+          "At 4:30",
+          "At 5:00",
+          "At 5:30"
+        ],
+        "correctIndex": 1,
+        "explanation": "Priya nói: 'See you at 4:30 in front of your house.'",
+        "choiceExplanations": [
+          "Sai — 'At 4:00': 4:00 là giờ Priya nghĩ lúc đầu, nhưng đã sai.",
+          "Đúng — Priya: 'See you at 4:30 in front of your house.'",
+          "Sai — 'At 5:00': 5:00 là giờ tập, không phải giờ gặp nhau.",
+          "Sai — 'At 5:30': Bài không nhắc 5:30."
+        ]
+      },
+      {
+        "prompt": "What should Priya bring?",
+        "choices": [
+          "Sneakers and a water bottle",
+          "Boots and a water bottle",
+          "Boots and a soccer ball",
+          "A jacket and a ball"
+        ],
+        "correctIndex": 0,
+        "explanation": "Diego nói: 'Bring your sneakers and a water bottle.'",
+        "choiceExplanations": [
+          "Đúng — Diego: 'Bring your sneakers and a water bottle.'",
+          "Sai — 'Boots and a water bottle': Diego nói không cần giày đá bóng ('No' với boots).",
+          "Sai — 'Boots and a soccer ball': Không cần boots, và bài không nhắc quả bóng.",
+          "Sai — 'A jacket and a ball': Bài không nhắc áo khoác hay quả bóng."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Priya has a younger brother.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không nói gì về anh chị em của Priya.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài không nhắc em trai của Priya.",
+          "Sai — 'False': Bài cũng không nói cô không có em trai.",
+          "Đúng — Bài chỉ nhắc bố của Priya, không nhắc anh chị em nên là Not given."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-012",
+    "bac": 2,
+    "title": "Mrs. Lee's Garden",
+    "text": "My neighbor, Mrs. Lee, is seventy years old, but she is very busy. Every morning she works in her garden. She grows tomatoes, green beans and many kinds of flowers. In summer, she gives vegetables to the neighbors for free.\n\nLast month, I helped her plant some sunflowers. She showed me how to dig small holes and put the seeds in. Now the sunflowers are taller than me! Mrs. Lee says gardening makes her happy and strong. She also says that I can have the first sunflower. I can't wait to put it in a vase in my room.",
+    "questions": [
+      {
+        "prompt": "What does Mrs. Lee do with vegetables in summer?",
+        "choices": [
+          "She sells them at a market.",
+          "She sends them to her son.",
+          "She keeps all of them at home.",
+          "She gives them to her neighbors."
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: 'In summer, she gives vegetables to the neighbors for free.'",
+        "choiceExplanations": [
+          "Sai — 'She sells them at a market.': Bài nói bà cho miễn phí, không bán.",
+          "Sai — 'She sends them to her son.': Bài không nhắc con trai của bà.",
+          "Sai — 'She keeps all of them at home.': Bà cho hàng xóm, không giữ hết.",
+          "Đúng — Bài viết: 'she gives vegetables to the neighbors for free.'"
+        ]
+      },
+      {
+        "prompt": "What did the writer do last month?",
+        "choices": [
+          "Cooked tomatoes with Mrs. Lee",
+          "Picked green beans",
+          "Planted some sunflowers",
+          "Bought seeds at a store"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: 'Last month, I helped her plant some sunflowers.'",
+        "choiceExplanations": [
+          "Sai — 'Cooked tomatoes with Mrs. Lee': Bài không nói hai người nấu cà chua.",
+          "Sai — 'Picked green beans': Bài không nói người viết hái đậu.",
+          "Đúng — Bài viết: 'Last month, I helped her plant some sunflowers.'",
+          "Sai — 'Bought seeds at a store': Bài nói bà chỉ cách bỏ hạt, không nói người viết đi mua hạt."
+        ]
+      },
+      {
+        "prompt": "What will the writer do with the first sunflower?",
+        "choices": [
+          "Put it in a vase",
+          "Give it back to Mrs. Lee",
+          "Plant it in the garden again",
+          "Take it to school"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: 'I can't wait to put it in a vase in my room.'",
+        "choiceExplanations": [
+          "Đúng — Bài viết: 'I can't wait to put it in a vase in my room.'",
+          "Sai — 'Give it back to Mrs. Lee': Bà Lee cho người viết hoa đầu tiên, không đòi lại.",
+          "Sai — 'Plant it in the garden again': Bài không nói trồng lại hoa.",
+          "Sai — 'Take it to school': Bài không nhắc mang hoa đến trường."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Mrs. Lee says gardening makes her tired.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bà Lee nói làm vườn khiến bà 'happy and strong', không phải mệt.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài nói ngược lại: bà thấy vui và khỏe.",
+          "Đúng — Bài viết: 'gardening makes her happy and strong.'",
+          "Sai — 'Not given': Bài có nói về cảm giác của bà khi làm vườn nên không phải Not given."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-013",
+    "bac": 2,
+    "title": "A Day at the Beach",
+    "text": "Last Sunday, Kenji's family went to the beach. They left home at seven o'clock because the road is usually busy later. The trip took two hours by car.\n\nWhen they arrived, the water was cold, so Kenji's little brother Taro only played in the sand. Kenji and his cousin Aiko swam for a short time and then ate sandwiches under a big umbrella. In the afternoon, they collected shells. Kenji found a very small blue one. At five o'clock, dark clouds came, and everyone ran to the car. They were tired, but they all agreed it was a great day.",
+    "questions": [
+      {
+        "prompt": "Why did the family leave at seven o'clock?",
+        "choices": [
+          "They wanted to eat breakfast there.",
+          "The beach closes early.",
+          "The road is usually busy later.",
+          "Taro wanted to swim early."
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: 'because the road is usually busy later.'",
+        "choiceExplanations": [
+          "Sai — 'They wanted to eat breakfast there.': Bài không nói họ ăn sáng ở bãi biển.",
+          "Sai — 'The beach closes early.': Bài không nói bãi biển đóng cửa sớm.",
+          "Đúng — Bài viết: 'They left home at seven o'clock because the road is usually busy later.'",
+          "Sai — 'Taro wanted to swim early.': Taro chỉ chơi cát vì nước lạnh, không liên quan giờ đi."
+        ]
+      },
+      {
+        "prompt": "Why did Taro only play in the sand?",
+        "choices": [
+          "He did not like sandwiches.",
+          "He was too tired.",
+          "He lost his shoes.",
+          "The water was cold."
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: 'the water was cold, so Kenji's little brother Taro only played in the sand.'",
+        "choiceExplanations": [
+          "Sai — 'He did not like sandwiches.': Bài không nói Taro ghét bánh mì kẹp.",
+          "Sai — 'He was too tired.': Bài chỉ nói cả nhà mệt vào cuối ngày.",
+          "Sai — 'He lost his shoes.': Bài không nhắc đến giày.",
+          "Đúng — Bài viết: 'the water was cold, so... Taro only played in the sand.'"
+        ]
+      },
+      {
+        "prompt": "What happened at five o'clock?",
+        "choices": [
+          "They ate sandwiches.",
+          "Dark clouds came.",
+          "They collected shells.",
+          "They arrived at the beach."
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: 'At five o'clock, dark clouds came, and everyone ran to the car.'",
+        "choiceExplanations": [
+          "Sai — 'They ate sandwiches.': Họ ăn bánh mì kẹp sau khi bơi, không phải lúc năm giờ.",
+          "Đúng — Bài viết: 'At five o'clock, dark clouds came.'",
+          "Sai — 'They collected shells.': Họ nhặt vỏ sò vào buổi chiều, trước năm giờ.",
+          "Sai — 'They arrived at the beach.': Họ đến bãi biển sau chuyến đi hai giờ từ bảy giờ sáng."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Kenji's father drove the car.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài chỉ nói 'by car', không nói ai lái xe.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài không nói bố của Kenji lái xe.",
+          "Sai — 'False': Bài cũng không nói người khác lái.",
+          "Đúng — Bài chỉ nhắc đi bằng xe, không nói ai lái nên là Not given."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-014",
+    "bac": 2,
+    "title": "New Cafeteria Rules",
+    "text": "Notice to Students: New Cafeteria Rules\n\nStarting next Monday, the school cafeteria will have some changes. First, lunch will start at 11:45 instead of 12:00 and will be 40 minutes long, so students have more time to eat. Second, there will be a salad bar every Wednesday and Thursday. Third, students must put their trash in the correct bins: one for paper, one for plastic and one for food.\n\nPlease remember to bring your lunch card every day. If you forget it, you can pay with cash, but only two times each month. Thank you for helping us keep the cafeteria clean!\n\nMr. Davis, Principal",
+    "questions": [
+      {
+        "prompt": "What is the notice about?",
+        "choices": [
+          "Changes in the school cafeteria",
+          "A new school uniform for next year",
+          "A sports day for all classes",
+          "A school trip to a science museum"
+        ],
+        "correctIndex": 0,
+        "explanation": "Tiêu đề và câu đầu cho biết thông báo nói về những thay đổi ở căng-tin trường.",
+        "choiceExplanations": [
+          "Đúng — Bài viết: 'the school cafeteria will have some changes.'",
+          "Sai — 'A new school uniform': Bài không nói về đồng phục.",
+          "Sai — 'A sports day': Bài không nói về ngày hội thể thao.",
+          "Sai — 'A school trip': Bài không nói về chuyến đi của trường."
+        ]
+      },
+      {
+        "prompt": "When is the salad bar open?",
+        "choices": [
+          "Every Monday and Tuesday",
+          "Every Tuesday and Friday",
+          "Every Wednesday and Thursday",
+          "Every day of the week"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: 'a salad bar every Wednesday and Thursday.'",
+        "choiceExplanations": [
+          "Sai — 'Every Monday and Tuesday': Thứ Hai là ngày bắt đầu thay đổi, không phải ngày có quầy salad.",
+          "Sai — 'Every Tuesday and Friday': Bài không nêu thứ Ba và thứ Sáu.",
+          "Đúng — Bài viết: 'there will be a salad bar every Wednesday and Thursday.'",
+          "Sai — 'Every day of the week': Chỉ có hai ngày, không phải mỗi ngày."
+        ]
+      },
+      {
+        "prompt": "What can students do if they forget their lunch card?",
+        "choices": [
+          "Eat for free for the whole month",
+          "Go home and bring it back later",
+          "Wait until the next day to eat",
+          "Pay cash, but only twice a month"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: 'you can pay with cash, but only two times each month.'",
+        "choiceExplanations": [
+          "Sai — 'Eat for free for the whole month': Bài không nói được ăn miễn phí.",
+          "Sai — 'Go home and bring it back later': Bài không nói về chuyện về nhà lấy thẻ.",
+          "Sai — 'Wait until the next day to eat': Bài không nói phải chờ đến hôm sau.",
+          "Đúng — Bài viết: 'you can pay with cash, but only two times each month.'"
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Students will use different bins for paper, plastic and food.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: 'one for paper, one for plastic and one for food.'",
+        "choiceExplanations": [
+          "Đúng — Bài viết: 'put their trash in the correct bins: one for paper, one for plastic and one for food.'",
+          "Sai — 'False': Bài nói đúng ba thùng khác nhau.",
+          "Sai — 'Not given': Bài có nói rõ về thùng rác nên không phải Not given."
+        ]
+      }
+    ]
   }
 ]

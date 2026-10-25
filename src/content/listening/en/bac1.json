@@ -606,5 +606,449 @@
         ]
       }
     ]
+  },
+  {
+    "id": "ls-b1-009",
+    "bac": 1,
+    "title": "Mời dự sinh nhật",
+    "transcript": "A: Hi, Mai. Come to my birthday party!\nB: Thank you, Ben. When is it?\nA: It is on Saturday at three o'clock.\nB: Where is it?\nA: At my house. My mom makes pizza.\nB: Great! I will bring a cake.\nA: Thanks, Mai. See you on Saturday!",
+    "questions": [
+      {
+        "prompt": "When is the party?",
+        "choices": [
+          "Saturday at three o'clock",
+          "Sunday at three o'clock",
+          "Saturday at four o'clock",
+          "Friday at three o'clock"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ben nói 'on Saturday at three o'clock' (thứ Bảy lúc ba giờ).",
+        "choiceExplanations": [
+          "Đúng — Ben nói 'on Saturday at three o'clock' (thứ Bảy lúc ba giờ).",
+          "Sai — 'Sunday at three o'clock': Bài nói Saturday, không phải Sunday.",
+          "Sai — 'Saturday at four o'clock': Giờ là three o'clock, không phải four.",
+          "Sai — 'Friday at three o'clock': Bài nói Saturday, không phải Friday."
+        ]
+      },
+      {
+        "prompt": "Where is the party?",
+        "choices": [
+          "At the park",
+          "At school",
+          "At Mai's house",
+          "At Ben's house"
+        ],
+        "correctIndex": 3,
+        "explanation": "Ben nói 'At my house' (ở nhà Ben).",
+        "choiceExplanations": [
+          "Sai — 'At the park': Bài không nhắc công viên.",
+          "Sai — 'At school': Bài không nhắc trường học.",
+          "Sai — 'At Mai's house': Mai là khách; chủ tiệc là Ben nên tiệc ở nhà Ben.",
+          "Đúng — Ben nói 'At my house' (ở nhà Ben)."
+        ]
+      },
+      {
+        "prompt": "What will Mai bring?",
+        "choices": [
+          "Pizza",
+          "A cake",
+          "A game",
+          "Juice"
+        ],
+        "correctIndex": 1,
+        "explanation": "Mai nói 'I will bring a cake' (mình sẽ mang bánh).",
+        "choiceExplanations": [
+          "Sai — 'Pizza': Mẹ của Ben làm pizza, không phải Mai mang.",
+          "Đúng — Mai nói 'I will bring a cake' (mình sẽ mang bánh).",
+          "Sai — 'A game': Bài không nhắc trò chơi.",
+          "Sai — 'Juice': Bài không nhắc nước ép."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Ben's father will play music at the party.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không nói gì về bố của Ben hay âm nhạc.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài không có thông tin này.",
+          "Sai — 'False': Bài không có thông tin này nên không thể là False.",
+          "Đúng — Bài không nói gì về bố của Ben hay âm nhạc."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b1-010",
+    "bac": 1,
+    "title": "Thời tiết cuối tuần",
+    "transcript": "A: Look, Jack. It is cold today.\nB: Yes. It is only five degrees.\nA: Is it rainy?\nB: No, it is sunny. But it will be rainy on Sunday.\nA: Then let's play soccer on Saturday.\nB: Good idea. Let's meet at ten o'clock at the park.\nA: Okay. I will bring the ball.",
+    "questions": [
+      {
+        "prompt": "How cold is it today?",
+        "choices": [
+          "Fifteen degrees",
+          "Fifty degrees",
+          "Five degrees",
+          "Four degrees"
+        ],
+        "correctIndex": 2,
+        "explanation": "Jack nói 'It is only five degrees' (chỉ năm độ).",
+        "choiceExplanations": [
+          "Sai — 'Fifteen degrees': Fifteen nghe giống five nhưng Jack nói 'five'.",
+          "Sai — 'Fifty degrees': Bài không có số fifty.",
+          "Đúng — Jack nói 'It is only five degrees' (chỉ năm độ).",
+          "Sai — 'Four degrees': Bài không nhắc số four."
+        ]
+      },
+      {
+        "prompt": "What will the weather be on Sunday?",
+        "choices": [
+          "Rainy",
+          "Sunny",
+          "Snowy",
+          "Windy"
+        ],
+        "correctIndex": 0,
+        "explanation": "Jack nói 'it will be rainy on Sunday' (Chủ nhật sẽ mưa).",
+        "choiceExplanations": [
+          "Đúng — Jack nói 'it will be rainy on Sunday' (Chủ nhật sẽ mưa).",
+          "Sai — 'Sunny': Sunny là thời tiết hôm nay, không phải Chủ nhật.",
+          "Sai — 'Snowy': Bài không nhắc tuyết.",
+          "Sai — 'Windy': Bài không nhắc gió."
+        ]
+      },
+      {
+        "prompt": "What time will they meet?",
+        "choices": [
+          "Nine o'clock",
+          "Eleven o'clock",
+          "Two o'clock",
+          "Ten o'clock"
+        ],
+        "correctIndex": 3,
+        "explanation": "Jack nói 'Let's meet at ten o'clock' (gặp lúc mười giờ).",
+        "choiceExplanations": [
+          "Sai — 'Nine o'clock': Bài không nhắc nine.",
+          "Sai — 'Eleven o'clock': Bài không nhắc eleven.",
+          "Sai — 'Two o'clock': Bài không nhắc two.",
+          "Đúng — Jack nói 'Let's meet at ten o'clock' (gặp lúc mười giờ)."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? They will play soccer on Sunday.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Họ chơi bóng đá vào thứ Bảy vì Chủ nhật có mưa.",
+        "choiceExplanations": [
+          "Sai — 'True': Họ định chơi vào Saturday, không phải Sunday.",
+          "Đúng — Họ chơi bóng đá vào thứ Bảy vì Chủ nhật có mưa.",
+          "Sai — 'Not given': Bài có nói rõ ngày chơi là Saturday."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b1-011",
+    "bac": 1,
+    "title": "Câu lạc bộ mỹ thuật",
+    "transcript": "Attention, students. The art club meets on Tuesday after school. The room is Room fourteen, next to the library. Please bring a pencil and a small box. The teacher is Ms. Green. She is very nice. We draw animals and flowers. The club is free. Come and have fun! Thank you.",
+    "questions": [
+      {
+        "prompt": "Which day does the art club meet?",
+        "choices": [
+          "Monday",
+          "Tuesday",
+          "Thursday",
+          "Friday"
+        ],
+        "correctIndex": 1,
+        "explanation": "Thông báo nói 'meets on Tuesday' (họp vào thứ Ba).",
+        "choiceExplanations": [
+          "Sai — 'Monday': Bài không nhắc Monday.",
+          "Đúng — Thông báo nói 'meets on Tuesday' (họp vào thứ Ba).",
+          "Sai — 'Thursday': Bài không nhắc Thursday.",
+          "Sai — 'Friday': Bài không nhắc Friday."
+        ]
+      },
+      {
+        "prompt": "Which room is it?",
+        "choices": [
+          "Room forty",
+          "Room four",
+          "Room fourteen",
+          "Room thirteen"
+        ],
+        "correctIndex": 2,
+        "explanation": "Thông báo nói 'Room fourteen' (phòng mười bốn).",
+        "choiceExplanations": [
+          "Sai — 'Room forty': Forty nghe giống fourteen nhưng bài nói 'fourteen'.",
+          "Sai — 'Room four': Four chỉ là một phần của fourteen; số đúng là fourteen.",
+          "Đúng — Thông báo nói 'Room fourteen' (phòng mười bốn).",
+          "Sai — 'Room thirteen': Bài không nhắc số thirteen."
+        ]
+      },
+      {
+        "prompt": "What should students bring?",
+        "choices": [
+          "A pencil and a small box",
+          "A pencil and a book",
+          "A pen and a small box",
+          "Paint and brushes"
+        ],
+        "correctIndex": 0,
+        "explanation": "Thông báo nói 'bring a pencil and a small box' (mang bút chì và một cái hộp nhỏ).",
+        "choiceExplanations": [
+          "Đúng — Thông báo nói 'bring a pencil and a small box' (mang bút chì và một cái hộp nhỏ).",
+          "Sai — 'A pencil and a book': Bài nói hộp nhỏ, không phải sách.",
+          "Sai — 'A pen and a small box': Bài nói pencil (bút chì), không phải pen (bút mực).",
+          "Sai — 'Paint and brushes': Bài không nhắc màu vẽ hay cọ."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The art club has twenty students.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không nói số học sinh trong câu lạc bộ.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài không có thông tin này.",
+          "Sai — 'False': Bài không có thông tin này nên không thể là False.",
+          "Đúng — Bài không nói số học sinh trong câu lạc bộ."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b1-012",
+    "bac": 1,
+    "title": "Mua đồ ở tiệm văn phòng phẩm",
+    "transcript": "A: Hello. Can I help you?\nB: Yes. How much is this notebook?\nA: It is three dollars.\nB: And the red pen?\nA: It is one dollar fifty.\nB: I'll take two notebooks and one pen, please.\nA: Okay. That is seven dollars fifty.\nB: Here you are. Thank you!",
+    "questions": [
+      {
+        "prompt": "How much is the notebook?",
+        "choices": [
+          "Two dollars",
+          "Thirteen dollars",
+          "Five dollars",
+          "Three dollars"
+        ],
+        "correctIndex": 3,
+        "explanation": "Người bán nói 'It is three dollars' (ba đô la).",
+        "choiceExplanations": [
+          "Sai — 'Two dollars': Bài không nhắc two.",
+          "Sai — 'Thirteen dollars': Thirteen nghe giống three nhưng bài nói 'three'.",
+          "Sai — 'Five dollars': Bài không nhắc five.",
+          "Đúng — Người bán nói 'It is three dollars' (ba đô la)."
+        ]
+      },
+      {
+        "prompt": "What color is the pen?",
+        "choices": [
+          "Blue",
+          "Red",
+          "Black",
+          "Green"
+        ],
+        "correctIndex": 1,
+        "explanation": "Khách hỏi 'the red pen' (cây bút đỏ).",
+        "choiceExplanations": [
+          "Sai — 'Blue': Bài không nhắc màu xanh dương.",
+          "Đúng — Khách hỏi 'the red pen' (cây bút đỏ).",
+          "Sai — 'Black': Bài không nhắc màu đen.",
+          "Sai — 'Green': Bài không nhắc màu xanh lá."
+        ]
+      },
+      {
+        "prompt": "How much is the total?",
+        "choices": [
+          "Six dollars",
+          "Seven dollars",
+          "Seven dollars fifty",
+          "Six dollars fifty"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người bán nói 'That is seven dollars fifty' (bảy đô năm mươi).",
+        "choiceExplanations": [
+          "Sai — 'Six dollars': Sáu đô chỉ là giá hai quyển vở (2 × 3), chưa tính cây bút.",
+          "Sai — 'Seven dollars': Thiếu phần 'fifty'; tổng là bảy đô năm mươi.",
+          "Đúng — Người bán nói 'That is seven dollars fifty' (bảy đô năm mươi).",
+          "Sai — 'Six dollars fifty': Người bán nói 'seven dollars fifty'; sáu đô của vở cộng một đô năm mươi của bút là bảy đô năm mươi."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The customer buys a pen.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Khách nói 'I'll take two notebooks and one pen'.",
+        "choiceExplanations": [
+          "Đúng — Khách nói 'I'll take two notebooks and one pen'.",
+          "Sai — 'False': Khách có mua một cây bút.",
+          "Sai — 'Not given': Bài nói rõ có mua bút."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b1-013",
+    "bac": 1,
+    "title": "Ảnh gia đình",
+    "transcript": "A: Is this your family, Lucy?\nB: Yes. This is my father. He is a doctor.\nA: And who is this girl?\nB: She is my sister, Amy. She is eight.\nA: She is cute! Do you have a brother?\nB: No, I don't. But we have a dog. His name is Coco.",
+    "questions": [
+      {
+        "prompt": "What is Lucy's father's job?",
+        "choices": [
+          "Doctor",
+          "Teacher",
+          "Driver",
+          "Cook"
+        ],
+        "correctIndex": 0,
+        "explanation": "Lucy nói 'He is a doctor' (bố là bác sĩ).",
+        "choiceExplanations": [
+          "Đúng — Lucy nói 'He is a doctor' (bố là bác sĩ).",
+          "Sai — 'Teacher': Bài không nhắc giáo viên.",
+          "Sai — 'Driver': Bài không nhắc tài xế.",
+          "Sai — 'Cook': Bài không nhắc đầu bếp."
+        ]
+      },
+      {
+        "prompt": "How old is Amy?",
+        "choices": [
+          "Eighteen",
+          "Six",
+          "Eight",
+          "Nine"
+        ],
+        "correctIndex": 2,
+        "explanation": "Lucy nói 'She is eight' (em tám tuổi).",
+        "choiceExplanations": [
+          "Sai — 'Eighteen': Eighteen nghe giống eight nhưng bài nói 'eight'.",
+          "Sai — 'Six': Bài không nhắc six.",
+          "Đúng — Lucy nói 'She is eight' (em tám tuổi).",
+          "Sai — 'Nine': Bài không nhắc nine."
+        ]
+      },
+      {
+        "prompt": "What is the dog's name?",
+        "choices": [
+          "Cola",
+          "Rex",
+          "Bobby",
+          "Coco"
+        ],
+        "correctIndex": 3,
+        "explanation": "Lucy nói 'His name is Coco' (tên chú chó là Coco).",
+        "choiceExplanations": [
+          "Sai — 'Cola': Cola nghe hơi giống Coco nhưng tên đúng là Coco.",
+          "Sai — 'Rex': Bài không nhắc Rex.",
+          "Sai — 'Bobby': Bài không nhắc Bobby.",
+          "Đúng — Lucy nói 'His name is Coco' (tên chú chó là Coco)."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Lucy has a brother.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Lucy nói 'No, I don't' khi được hỏi có anh/em trai không.",
+        "choiceExplanations": [
+          "Sai — 'True': Lucy trả lời là không có.",
+          "Đúng — Lucy nói 'No, I don't' khi được hỏi có anh/em trai không.",
+          "Sai — 'Not given': Bài có nói rõ: Lucy không có anh/em trai."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b1-014",
+    "bac": 1,
+    "title": "Buổi chiều của Leo",
+    "transcript": "Hi, I am Leo. After school, I go home by bike. At four thirty, I do my homework. At seven o'clock, we eat dinner. My favorite food is noodles. At eight o'clock, I read a book. Then I go to bed at nine thirty.",
+    "questions": [
+      {
+        "prompt": "What time does Leo do his homework?",
+        "choices": [
+          "Four o'clock",
+          "Five thirty",
+          "Four fifteen",
+          "Four thirty"
+        ],
+        "correctIndex": 3,
+        "explanation": "Leo nói 'At four thirty, I do my homework' (bốn giờ rưỡi).",
+        "choiceExplanations": [
+          "Sai — 'Four o'clock': Giờ đúng là bốn giờ rưỡi, không phải bốn giờ đúng.",
+          "Sai — 'Five thirty': Bài không nhắc five thirty.",
+          "Sai — 'Four fifteen': Bài không nhắc four fifteen.",
+          "Đúng — Leo nói 'At four thirty, I do my homework' (bốn giờ rưỡi)."
+        ]
+      },
+      {
+        "prompt": "When does Leo eat dinner?",
+        "choices": [
+          "At seven o'clock",
+          "At six o'clock",
+          "At eight o'clock",
+          "At five o'clock"
+        ],
+        "correctIndex": 0,
+        "explanation": "Leo nói 'At seven o'clock, we eat dinner' (bảy giờ ăn tối).",
+        "choiceExplanations": [
+          "Đúng — Leo nói 'At seven o'clock, we eat dinner' (bảy giờ ăn tối).",
+          "Sai — 'At six o'clock': Bài không nhắc six.",
+          "Sai — 'At eight o'clock': Tám giờ là lúc Leo đọc sách.",
+          "Sai — 'At five o'clock': Bài không nhắc five o'clock."
+        ]
+      },
+      {
+        "prompt": "What is Leo's favorite food?",
+        "choices": [
+          "Pizza",
+          "Rice",
+          "Soup",
+          "Noodles"
+        ],
+        "correctIndex": 3,
+        "explanation": "Leo nói 'My favorite food is noodles' (món yêu thích là mì).",
+        "choiceExplanations": [
+          "Sai — 'Pizza': Bài không nhắc pizza.",
+          "Sai — 'Rice': Bài không nhắc cơm.",
+          "Sai — 'Soup': Bài không nhắc súp.",
+          "Đúng — Leo nói 'My favorite food is noodles' (món yêu thích là mì)."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Leo goes home by bus.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Leo nói 'I go home by bike' (đi xe đạp).",
+        "choiceExplanations": [
+          "Sai — 'True': Leo đi bằng xe đạp, không phải xe buýt.",
+          "Đúng — Leo nói 'I go home by bike' (đi xe đạp).",
+          "Sai — 'Not given': Bài có nói Leo đi xe đạp."
+        ]
+      }
+    ]
   }
 ]

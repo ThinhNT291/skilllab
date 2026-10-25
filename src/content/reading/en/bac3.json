@@ -606,5 +606,449 @@
         ]
       }
     ]
+  },
+  {
+    "id": "rd-b3-009",
+    "bac": 3,
+    "title": "A Letter to My Pen Pal",
+    "text": "Hi Mia,\n\nThanks for your last message! I loved the photos of your new puppy. He looks so small and funny. Does he sleep in your room?\n\nI have some big news too. My family is moving to a different city next month because my dad found a new job there. I feel excited and nervous at the same time. The new school is bigger than mine, and I will not know anyone. My mom says I should join a club to meet people. I am thinking about the music club because I have played the guitar for two years.\n\nI will miss my old friends, but we promised to video chat every Sunday. Also, my new room will have a big window, so I can finally watch the sunset!\n\nPlease write back soon and tell me about your school trip. I hope it was fun.\n\nYour friend,\nDaniel",
+    "questions": [
+      {
+        "prompt": "Why is Daniel's family moving?",
+        "choices": [
+          "His mom wants a bigger, nicer house.",
+          "His dad has a new job in another city.",
+          "His school is closing next month.",
+          "His old friends moved to another city."
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 2 nói: 'my dad found a new job there'.",
+        "choiceExplanations": [
+          "Sai — 'bigger, nicer house': bài không nhắc tới nhà lớn hơn.",
+          "Đúng — 'because my dad found a new job there'.",
+          "Sai — 'school is closing': bài chỉ nói trường mới lớn hơn, không nói trường cũ đóng cửa.",
+          "Sai — 'old friends moved': ngược lại, Daniel sắp rời xa bạn cũ."
+        ]
+      },
+      {
+        "prompt": "What does Daniel's mom suggest?",
+        "choices": [
+          "Writing to Mia every single week.",
+          "Learning how to play the guitar.",
+          "Staying in his old school.",
+          "Joining a club at the new school."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn 2: 'My mom says I should join a club to meet people'.",
+        "choiceExplanations": [
+          "Sai — 'Writing to Mia': mẹ không nói điều này; chính Daniel nhờ Mia viết lại.",
+          "Sai — 'Learning how to play the guitar': Daniel đã chơi guitar hai năm rồi.",
+          "Sai — 'Staying in his old school': gia đình sắp chuyển nhà nên không thể.",
+          "Đúng — 'My mom says I should join a club to meet people'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Daniel's new school has a music club.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Daniel chỉ nói 'I am thinking about the music club', bài không cho biết trường mới có câu lạc bộ âm nhạc hay không.",
+        "choiceExplanations": [
+          "Sai — 'True' không đúng vì bài không xác nhận trường mới có câu lạc bộ âm nhạc.",
+          "Sai — 'False' không đúng vì bài cũng không nói trường không có.",
+          "Đúng — bài không nói trường mới có câu lạc bộ âm nhạc hay không (Daniel mới chỉ 'thinking about' nó)."
+        ]
+      },
+      {
+        "prompt": "What does Daniel ask Mia to do?",
+        "choices": [
+          "Write back and tell him about her school trip.",
+          "Send him more photos of her puppy and her room.",
+          "Come to visit him in his new city soon.",
+          "Call him on video every Sunday evening."
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn áp chót: 'Please write back soon and tell me about your school trip'.",
+        "choiceExplanations": [
+          "Đúng — 'Please write back soon and tell me about your school trip'.",
+          "Sai — 'more photos': Daniel khen ảnh cún, nhưng không xin thêm ảnh.",
+          "Sai — 'visit him': bài không nhắc tới việc đến thăm.",
+          "Sai — 'Call him on video every Sunday': lời hứa gọi video mỗi Chủ nhật là với bạn cũ, không phải với Mia."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-010",
+    "bac": 3,
+    "title": "My First Weeks on a Skateboard",
+    "text": "Three weeks ago, my cousin Leo gave me his old skateboard. I thought it would be easy because I am good at riding a bike. I was wrong!\n\nOn the first day, I could not even stand on the board without holding a fence. I fell down six times, and my knees hurt for two days. Leo told me to wear a helmet and knee pads every time, and he was right. After that, I felt braver.\n\nNow I practice for thirty minutes after school at the park near my house. I can roll in a straight line and turn slowly. Last Saturday, I finally stayed on the board for a whole minute, and I shouted so loudly that a man walking his dog laughed.\n\nMy next goal is to learn how to stop without jumping off. Leo says it takes patience. I agree with him. Learning something new is hard, but it is more fun when you see yourself getting better.",
+    "questions": [
+      {
+        "prompt": "Why did the writer think skateboarding would be easy?",
+        "choices": [
+          "He is already good at riding a bike.",
+          "His cousin Leo made it look simple.",
+          "He had skated for many years.",
+          "He bought a very expensive board."
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 1: 'I thought it would be easy because I am good at riding a bike'.",
+        "choiceExplanations": [
+          "Đúng — 'because I am good at riding a bike'.",
+          "Sai — 'Leo made it look simple': bài không nói vậy; Leo chỉ cho anh ấy tấm ván cũ.",
+          "Sai — 'skated for many years': anh ấy mới tập ba tuần.",
+          "Sai — 'expensive board': đó là ván cũ của Leo, cho tặng."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The writer's knees hurt for a week after the first day.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết 'my knees hurt for two days', không phải một tuần.",
+        "choiceExplanations": [
+          "Sai — 'True': thời gian đau là hai ngày, không phải một tuần.",
+          "Đúng — 'my knees hurt for two days' nên nhận định 'a week' là sai.",
+          "Sai — 'Not given': bài có nói rõ thời gian đau gối (hai ngày)."
+        ]
+      },
+      {
+        "prompt": "What is the writer's next goal?",
+        "choices": [
+          "To enter a skateboard race in the park.",
+          "To practice for one hour every single day.",
+          "To teach Leo a new trick on the board.",
+          "To learn to stop without jumping off."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn cuối: 'My next goal is to learn how to stop without jumping off'.",
+        "choiceExplanations": [
+          "Sai — 'a race': bài không nhắc tới cuộc đua.",
+          "Sai — 'one hour': hiện anh tập ba mươi phút và không nói sẽ tăng.",
+          "Sai — 'teach Leo': Leo là người hướng dẫn anh, không phải ngược lại.",
+          "Đúng — 'My next goal is to learn how to stop without jumping off'."
+        ]
+      },
+      {
+        "prompt": "In the last paragraph, \"patience\" means",
+        "choices": [
+          "the ability to keep trying calmly.",
+          "a lot of money to buy new gear.",
+          "a strong pair of knees and arms.",
+          "the speed of a fast skateboard."
+        ],
+        "correctIndex": 0,
+        "explanation": "Leo nói học dừng ván cần 'patience' và cả bài kể anh phải tập dần, nên nghĩa là sự kiên nhẫn.",
+        "choiceExplanations": [
+          "Đúng — học dần, ngã rồi tập lại, nên cần sự kiên nhẫn, bình tĩnh tiếp tục.",
+          "Sai — 'a lot of money': không liên quan đến việc học kỹ năng.",
+          "Sai — 'a strong pair of knees': gối chỉ được nhắc ở chuyện bị đau.",
+          "Sai — 'the speed of a skateboard': câu nói về cách học, không phải tốc độ ván."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-011",
+    "bac": 3,
+    "title": "How to Study for a Test",
+    "text": "Many students feel stressed before a test, but a good plan can make a big difference. Try these four steps.\n\nFirst, start early. Do not wait until the night before. If you study for twenty minutes a day for a week, you can remember much more than if you study for three hours in one night.\n\nSecond, make your own notes. Read your textbook and write the main ideas in your own words. Drawing a small picture or a chart also helps many people.\n\nThird, test yourself. Cover your notes and ask yourself questions, or ask a friend to quiz you. If you cannot answer a question, mark it and look at it again later.\n\nFinally, take care of your body. Try to sleep eight hours or more, eat breakfast, and take a short break every forty minutes or so. A tired brain does not work well.\n\nFollow these steps, and you will walk into the exam room feeling calm and ready.",
+    "questions": [
+      {
+        "prompt": "What is the main purpose of this text?",
+        "choices": [
+          "To explain why tests are unfair to students.",
+          "To tell a story about a bad exam last year.",
+          "To compare two textbooks about school science.",
+          "To give advice on how to prepare for a test."
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài đưa ra bốn bước cụ thể ('Try these four steps') để chuẩn bị cho bài kiểm tra.",
+        "choiceExplanations": [
+          "Sai — 'tests are unfair': bài không phàn nàn về bài kiểm tra.",
+          "Sai — 'a bad exam': không có câu chuyện nào được kể.",
+          "Sai — 'compare two textbooks': sách giáo khoa chỉ nhắc như nguồn để ghi chú.",
+          "Đúng — bài đưa ra bốn bước ('Try these four steps') giúp chuẩn bị cho bài kiểm tra."
+        ]
+      },
+      {
+        "prompt": "According to the text, why is studying twenty minutes a day for a week a good idea?",
+        "choices": [
+          "It is much easier than making your own notes.",
+          "You can remember more than after one long night.",
+          "It means you do not need to sleep much at night.",
+          "Your teacher will give you a much better grade."
+        ],
+        "correctIndex": 1,
+        "explanation": "Bước 1 so sánh: học 20 phút mỗi ngày giúp nhớ nhiều hơn ('much more') so với học ba giờ trong một đêm.",
+        "choiceExplanations": [
+          "Sai — 'easier than making notes': bài không so sánh với việc ghi chú.",
+          "Đúng — 'you can remember much more than if you study for three hours in one night'.",
+          "Sai — 'do not need to sleep much': bài khuyên nên ngủ đủ giấc (tám tiếng trở lên).",
+          "Sai — 'better grade': bài không nói về việc giáo viên cho điểm."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The writer suggests taking short breaks while studying.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bước cuối: 'take a short break every forty minutes or so'.",
+        "choiceExplanations": [
+          "Đúng — 'take a short break every forty minutes or so'.",
+          "Sai — 'False': bài khuyên nghỉ ngắn, không phải bỏ nghỉ.",
+          "Sai — 'Not given': bài có nói rõ về việc nghỉ giải lao."
+        ]
+      },
+      {
+        "prompt": "What should you do if you cannot answer a question when you test yourself?",
+        "choices": [
+          "Ask the teacher for help right away.",
+          "Study all night until you know it.",
+          "Mark it and look at it again later.",
+          "Skip the whole topic and move on."
+        ],
+        "correctIndex": 2,
+        "explanation": "Bước 3: 'If you cannot answer a question, mark it and look at it again later'.",
+        "choiceExplanations": [
+          "Sai — 'Ask the teacher': bài không nhắc tới.",
+          "Sai — 'Study all night': bài khuyên không học dồn vào đêm trước.",
+          "Đúng — 'mark it and look at it again later'.",
+          "Sai — 'Skip the whole topic': bài khuyên xem lại câu đó, không bỏ chủ đề."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-012",
+    "bac": 3,
+    "title": "Should Students Wear School Uniforms?",
+    "text": "In many countries, students wear uniforms to school. In other places, students wear whatever they like. Which system is better? People disagree.\n\nSupporters of uniforms say they make mornings easier. Students do not have to decide what to wear, and families spend less money on clothes. Uniforms may also reduce teasing, because everyone looks similar and nobody can laugh at expensive or old clothes. One teacher, Ms. Brown, says her students \"feel like a team\" when they wear the same shirt.\n\nOpponents answer that clothes are a way to show who you are. Many teens enjoy choosing their own colors and styles. Some students also find uniforms uncomfortable, especially in hot weather. In addition, a uniform can still be expensive if the school requires a special jacket or shoes.\n\nI think the best idea may be a middle way. A school could choose one simple shirt and let students pick their own pants or skirts.",
+    "questions": [
+      {
+        "prompt": "What is the text mainly about?",
+        "choices": [
+          "How a school can choose the best uniform colors.",
+          "Different opinions about school uniforms.",
+          "Why teenagers spend too much money on clothes.",
+          "A school that has very strict rules for students."
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài nêu ý kiến ủng hộ và phản đối đồng phục, rồi đưa ra ý kiến riêng của người viết.",
+        "choiceExplanations": [
+          "Sai — 'best uniform colors': bài không bàn về việc chọn màu đồng phục.",
+          "Đúng — bài trình bày hai phía (ủng hộ và phản đối) về đồng phục học sinh.",
+          "Sai — 'spend too much money': tiền chỉ là một lý do được nhắc, không phải chủ đề chính.",
+          "Sai — 'very strict rules': bài không nói về một trường có quy định nghiêm khắc."
+        ]
+      },
+      {
+        "prompt": "According to supporters, how can uniforms help families?",
+        "choices": [
+          "Students learn faster in their classrooms.",
+          "Parents can choose which school to join.",
+          "Schools give them to every student for free.",
+          "Families spend less money on clothes."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn 2: 'families spend less money on clothes'.",
+        "choiceExplanations": [
+          "Sai — 'learn faster': bài không nói đồng phục giúp học nhanh hơn.",
+          "Sai — 'choose which school': bài không nhắc tới việc chọn trường.",
+          "Sai — 'for free': bài không nói đồng phục được phát miễn phí.",
+          "Đúng — 'families spend less money on clothes'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Supporters say that uniforms make mornings more difficult.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 2: người ủng hộ nói đồng phục 'make mornings easier' (dễ hơn), không phải khó hơn.",
+        "choiceExplanations": [
+          "Sai — 'True': người ủng hộ nói buổi sáng sẽ dễ hơn.",
+          "Đúng — 'make mornings easier' mâu thuẫn với 'more difficult'.",
+          "Sai — 'Not given': bài có nói rõ ý kiến này."
+        ]
+      },
+      {
+        "prompt": "What does the writer suggest at the end?",
+        "choices": [
+          "Stopping all school uniforms in every country.",
+          "Making students buy a special jacket and shoes.",
+          "One shirt, with free choice of pants or skirts.",
+          "Letting each teacher decide what students wear."
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu cuối: 'choose one simple shirt and let students pick their own pants or skirts'.",
+        "choiceExplanations": [
+          "Sai — 'Stopping all school uniforms': người viết đề nghị cách dung hòa, không bỏ hoàn toàn.",
+          "Sai — 'special jacket and shoes': đây là điều làm đồng phục đắt hơn, không phải đề nghị.",
+          "Đúng — 'choose one simple shirt and let students pick their own pants or skirts'.",
+          "Sai — 'each teacher decide': bài không đề cập."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-013",
+    "bac": 3,
+    "title": "Learning to Bake with Grandma",
+    "text": "Last winter, my grandmother decided to teach me how to bake bread. I was not sure it was a good idea. I can burn toast, so I did not expect much from myself.\n\nOn the first Saturday, we started at eight in the morning. Grandma showed me how to mix flour, water, salt, and yeast. Then I had to knead the dough for ten minutes. My arms were tired, but Grandma only smiled and said, \"Good bread needs strong hands.\" While the dough rested for an hour, we drank hot chocolate, and she told me stories about baking in her small village when she was a girl.\n\nMy first loaf came out flat and hard. We still ate it with butter, and it was not as bad as it looked. The next week, I forgot the salt, and the bread tasted strange. By the fourth Saturday, though, my loaf was tall, golden, and soft inside. My little brother ate three slices.\n\nNow I bake every Saturday. I have learned that good baking takes time and care, and I have also learned many things about my grandmother's life.",
+    "questions": [
+      {
+        "prompt": "Why was the writer unsure about learning to bake?",
+        "choices": [
+          "Grandma said she was too old to teach anyone.",
+          "The writer was afraid of using the hot oven.",
+          "The writer did not like the taste of bread.",
+          "The writer is bad at simple cooking."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn 1: 'I can burn toast, so I did not expect much from myself'.",
+        "choiceExplanations": [
+          "Sai — 'too old to teach': chính bà là người quyết định dạy.",
+          "Sai — 'afraid of the oven': bài không nói người viết sợ lò nướng.",
+          "Sai — 'did not like the taste': bài không nói vậy; cả nhà còn ăn bánh với bơ.",
+          "Đúng — 'I can burn toast, so I did not expect much from myself'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The dough had to rest for about an hour.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 2: 'While the dough rested for an hour'.",
+        "choiceExplanations": [
+          "Đúng — 'the dough rested for an hour'.",
+          "Sai — 'False': bài nói rõ bột nghỉ một tiếng.",
+          "Sai — 'Not given': bài có nêu thời gian bột nghỉ."
+        ]
+      },
+      {
+        "prompt": "What happened in the second week?",
+        "choices": [
+          "The oven stopped working halfway.",
+          "The writer forgot the salt.",
+          "Grandma baked the bread by herself.",
+          "The bread came out tall and golden."
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 3: 'The next week, I forgot the salt, and the bread tasted strange'.",
+        "choiceExplanations": [
+          "Sai — 'oven stopped working': bài không nhắc tới.",
+          "Đúng — 'The next week, I forgot the salt'.",
+          "Sai — 'Grandma baked by herself': người viết tự làm bánh.",
+          "Sai — 'tall and golden': đó là ổ bánh ở thứ Bảy thứ tư, không phải tuần hai."
+        ]
+      },
+      {
+        "prompt": "Besides baking, what did the writer learn?",
+        "choices": [
+          "How to grow wheat in a garden.",
+          "How to pick the best flour in a store.",
+          "Many stories about Grandma's life.",
+          "How to make chocolate from cacao beans."
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu cuối: 'I have also learned many things about my grandmother's life'.",
+        "choiceExplanations": [
+          "Sai — 'grow wheat': bài không nhắc tới.",
+          "Sai — 'pick the best flour': bài không nhắc tới.",
+          "Đúng — bà kể chuyện thời nhỏ và người viết hiểu thêm về cuộc sống của bà.",
+          "Sai — 'make chocolate': hai bà cháu chỉ uống sô-cô-la nóng."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-014",
+    "bac": 3,
+    "title": "Students Open a Tiny Library",
+    "text": "Students at Riverside Middle School have opened a small library outside the front gate, and it is already a hit with the neighborhood.\n\nThe \"Little Free Library\" is a wooden box with a glass door. It looks like a tiny house and is painted bright blue. Anyone can take a book for free, and anyone can leave a book for others. No card is needed.\n\nThe idea came from eighth-grader Priya Shah, who noticed that many people in her area live far from the public library. \"Some of my neighbors don't have a car,\" she said. \"I wanted books to be easy to reach.\" With help from the woodworking class, Priya and five classmates built the box in three weeks. They then collected more than 200 used books from families at school.\n\nSince the opening, the box has needed refilling twice. Priya is happy but not surprised. \"People love reading when it's close to home,\" she said. Next month, the group plans to build a second box near the bus stop.",
+    "questions": [
+      {
+        "prompt": "Why did Priya start the project?",
+        "choices": [
+          "Neighbors found the public library too far.",
+          "Her school library was closed for repairs.",
+          "Her teacher asked the class to build a box.",
+          "She wanted to sell used books for the club."
+        ],
+        "correctIndex": 0,
+        "explanation": "Priya thấy nhiều người ở gần nhà 'live far from the public library' và một số không có xe.",
+        "choiceExplanations": [
+          "Đúng — 'many people in her area live far from the public library' và 'Some of my neighbors don't have a car'.",
+          "Sai — 'school library was closed': bài không nói vậy.",
+          "Sai — 'Her teacher asked': ý tưởng là của Priya.",
+          "Sai — 'sell used books': sách được cho và nhận miễn phí."
+        ]
+      },
+      {
+        "prompt": "In paragraph 1, \"a hit\" means that the library is",
+        "choices": [
+          "too small for the street.",
+          "hard to find.",
+          "very popular.",
+          "only for students."
+        ],
+        "correctIndex": 2,
+        "explanation": "Cả bài cho thấy mọi người dùng nhiều (hộp phải bổ sung sách hai lần) và 'anyone can take a book'.",
+        "choiceExplanations": [
+          "Sai — 'too small': bài không phàn nàn về kích thước.",
+          "Sai — 'hard to find': nó đặt ngoài cổng trường, sơn màu xanh sáng.",
+          "Đúng — 'a hit' là rất được ưa chuộng; hộp đã cần bổ sung sách hai lần.",
+          "Sai — 'only for students': 'Anyone can take a book'."
+        ]
+      },
+      {
+        "prompt": "What do people need to take a book from the box?",
+        "choices": [
+          "A library card.",
+          "Permission from a teacher.",
+          "A book to leave in exchange.",
+          "Nothing."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn 2: 'Anyone can take a book for free ... No card is needed'.",
+        "choiceExplanations": [
+          "Sai — 'A library card': 'No card is needed'.",
+          "Sai — 'Permission from a teacher': bài không đòi hỏi điều này.",
+          "Sai — 'A book to leave in exchange': ai cũng có thể lấy sách miễn phí; cho sách là tùy chọn ('anyone can leave a book').",
+          "Đúng — lấy sách miễn phí và không cần thẻ nên không cần gì cả."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Priya plans to become a librarian.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài chỉ nói kế hoạch làm hộp thứ hai, không nói nghề nghiệp tương lai của Priya.",
+        "choiceExplanations": [
+          "Sai — 'True': bài không nói Priya muốn làm thủ thư.",
+          "Sai — 'False': bài cũng không nói điều ngược lại.",
+          "Đúng — bài không đề cập nghề nghiệp tương lai của Priya."
+        ]
+      }
+    ]
   }
 ]

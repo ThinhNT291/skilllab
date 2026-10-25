@@ -758,5 +758,449 @@
         ]
       }
     ]
+  },
+  {
+    "id": "ls-b3-011",
+    "bac": 3,
+    "title": "Tìm đồ thất lạc ở thư viện",
+    "transcript": "A: Excuse me, I think I left my blue jacket here yesterday afternoon.\nB: Let me check. Do you remember where you were sitting?\nA: I was at the long table near the window, on the second floor. I put the jacket on the back of my chair.\nB: Hmm, I don't see a blue one at the front desk. Was there anything in the pockets?\nA: Yes! My bus card. I really need it to get home today, so I'm a little worried.\nB: I understand. Wait, a boy brought in a notebook with a dolphin on the cover this morning. He said he found it under a table. Is that yours too?\nA: Yes, that's my science notebook! Thank you!\nB: You're welcome. Our cleaner keeps lost clothes in the staff room until noon. Let me call her.\nB: Good news! She has a blue jacket there. I'll bring it down, together with the notebook.\nA: That's wonderful. I'm so relieved.",
+    "questions": [
+      {
+        "prompt": "Where was A sitting yesterday?",
+        "choices": [
+          "At a desk near the door downstairs",
+          "In the computer area upstairs",
+          "At a round table in the kids' section",
+          "At the long table by the window"
+        ],
+        "correctIndex": 3,
+        "explanation": "A nói 'I was at the long table near the window, on the second floor'.",
+        "choiceExplanations": [
+          "Sai — 'At a desk near the door downstairs': A nói mình ngồi ở tầng hai, không phải tầng dưới.",
+          "Sai — 'In the computer area upstairs': A nhắc 'the long table near the window', không phải khu máy tính.",
+          "Sai — 'At a round table in the kids' section': Bài không nhắc khu thiếu nhi hay bàn tròn.",
+          "Đúng — A nói 'I was at the long table near the window, on the second floor'."
+        ]
+      },
+      {
+        "prompt": "Why is A worried?",
+        "choices": [
+          "A bus card is in the pocket",
+          "The homework is in the notebook",
+          "The jacket was a present from an aunt",
+          "A library book is lost and must be paid for"
+        ],
+        "correctIndex": 0,
+        "explanation": "A nói trong túi có bus card và 'I really need it to get home today'.",
+        "choiceExplanations": [
+          "Đúng — A nói trong túi có bus card và 'I really need it to get home today'.",
+          "Sai — 'The homework is in the notebook': Cuốn sổ đã có người nhặt được; A lo vì thẻ xe buýt, không phải bài tập.",
+          "Sai — 'The jacket was a present from an aunt': Bài không nhắc áo là quà tặng.",
+          "Sai — 'A library book is lost and must be paid for': Bài không nhắc sách thư viện bị mất."
+        ]
+      },
+      {
+        "prompt": "What will the librarian do next?",
+        "choices": [
+          "Call the boy who found the notebook",
+          "Bring the jacket and notebook to A",
+          "Ask A to look in the staff room",
+          "Take the jacket to the cleaner"
+        ],
+        "correctIndex": 1,
+        "explanation": "Thủ thư nói 'I'll bring it down, together with the notebook'.",
+        "choiceExplanations": [
+          "Sai — 'Call the boy who found the notebook': Người được gọi là người dọn dẹp ('Let me call her'), không phải cậu bé.",
+          "Đúng — Thủ thư nói 'I'll bring it down, together with the notebook'.",
+          "Sai — 'Ask A to look in the staff room': Thủ thư nói 'I'll bring it down', tức là tự mang xuống.",
+          "Sai — 'Take the jacket to the cleaner': Ngược lại: người dọn dẹp đã giữ áo, và thủ thư sẽ lấy nó."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? A boy handed in a notebook with a dolphin on the cover.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Thủ thư nói 'a boy brought in a notebook with a dolphin on the cover this morning'.",
+        "choiceExplanations": [
+          "Đúng — Thủ thư nói 'a boy brought in a notebook with a dolphin on the cover this morning'.",
+          "Sai — 'False': Bài không mâu thuẫn với câu này.",
+          "Sai — 'Not given': Bài có nhắc đến thông tin này nên không thể chọn 'Not given'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-012",
+    "bac": 3,
+    "title": "Thay đổi lịch ngày hội thể thao",
+    "transcript": "Good morning, students. This is Mr. Carter with an important update about Friday's sports day. The weather forecast says there will be heavy rain all day, so we first planned to cancel the event. But after talking with the teachers, we decided to move most activities into the gym. The relay race and the long jump will be held there on Friday. The soccer games, however, will move to next Tuesday, when we hope the field will be dry. Students in grades six and seven should arrive at eight thirty. Grades eight and nine will start at ten thirty, because the gym is not big enough for everyone at once. Please wear your sports shirt and bring a water bottle. Parents are welcome to watch, but only a few seats are available. They should ask the office for a ticket by Wednesday. Sorry, I mean by Thursday. Thank you for listening, and good luck to all of you!",
+    "questions": [
+      {
+        "prompt": "Why are most activities moving into the gym?",
+        "choices": [
+          "The field is being repaired",
+          "Too few students signed up",
+          "Rain is expected on Friday",
+          "The teachers are on a trip"
+        ],
+        "correctIndex": 2,
+        "explanation": "Dự báo 'heavy rain all day' nên hoạt động chuyển vào nhà thi đấu.",
+        "choiceExplanations": [
+          "Sai — 'The field is being repaired': Bài không nhắc việc sửa sân; lý do là mưa lớn.",
+          "Sai — 'Too few students signed up': Bài không nói số học sinh đăng ký ít.",
+          "Đúng — Dự báo 'heavy rain all day' nên hoạt động chuyển vào nhà thi đấu.",
+          "Sai — 'The teachers are on a trip': Thầy cô vẫn bàn bạc và quyết định; không có chuyến đi nào được nhắc."
+        ]
+      },
+      {
+        "prompt": "What will happen to the soccer games?",
+        "choices": [
+          "They are cancelled",
+          "They will be held in the gym on Friday",
+          "They will be played Friday after the rain stops",
+          "They will be played next Tuesday"
+        ],
+        "correctIndex": 3,
+        "explanation": "Thầy nói 'The soccer games, however, will move to next Tuesday'.",
+        "choiceExplanations": [
+          "Sai — 'They are cancelled': Trận bóng đá chỉ dời lịch, không bị hủy.",
+          "Sai — 'They will be held in the gym on Friday': Chỉ chạy tiếp sức và nhảy xa ở nhà thi đấu; bóng đá dời sang tuần sau.",
+          "Sai — 'They will be played Friday after the rain stops': Bài nói mưa cả ngày; bóng đá dời sang thứ Ba tới.",
+          "Đúng — Thầy nói 'The soccer games, however, will move to next Tuesday'."
+        ]
+      },
+      {
+        "prompt": "By when should parents ask for a ticket?",
+        "choices": [
+          "Wednesday",
+          "Thursday",
+          "Friday morning",
+          "Next Tuesday"
+        ],
+        "correctIndex": 1,
+        "explanation": "Thầy sửa lại: 'Sorry, I mean by Thursday'.",
+        "choiceExplanations": [
+          "Sai — 'Wednesday': Thầy nói 'Wednesday' rồi tự đính chính 'Sorry, I mean by Thursday'.",
+          "Đúng — Thầy sửa lại: 'Sorry, I mean by Thursday'.",
+          "Sai — 'Friday morning': Bài không nhắc thứ Sáu buổi sáng là hạn lấy vé.",
+          "Sai — 'Next Tuesday': Thứ Ba tới là ngày đá bóng, không phải hạn lấy vé."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? All the students start sports day at the same time.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Lớp 6–7 bắt đầu lúc 8:30, còn lớp 8–9 bắt đầu lúc 10:30 vì 'the gym is not big enough for everyone at once'.",
+        "choiceExplanations": [
+          "Sai — 'True': Nội dung này không khớp với bài nghe; xem lại lời người nói.",
+          "Đúng — Lớp 6–7 bắt đầu lúc 8:30, còn lớp 8–9 bắt đầu lúc 10:30 vì 'the gym is not big enough for everyone at once'.",
+          "Sai — 'Not given': Bài có nhắc đến thông tin này nên không thể chọn 'Not given'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-013",
+    "bac": 3,
+    "title": "Phỏng vấn chủ nhân vườn rau trường",
+    "transcript": "A: Today we're talking to Daniel, an eighth grader who started a vegetable garden at our school. Daniel, how did the idea begin?\nB: Well, last spring my science teacher showed us a video about growing food in small spaces. I thought, why not try it behind the gym? Nobody was using that area.\nA: Was it difficult at first?\nB: Honestly, yes. I thought tomatoes would be easy, but most of them died in the first month because I gave them too much water. Then a neighbor who loves gardening gave me some advice, and now I water the plants only twice a week.\nA: What do you do with the vegetables?\nB: Some go to the school cafeteria, and the rest we give to families who need help. Last month we gave away about thirty bags.\nA: Do you need more volunteers?\nB: Definitely! At the moment, only six students help me, and I'd love to have ten. We meet every Wednesday after school. You don't need any experience.",
+    "questions": [
+      {
+        "prompt": "What is the interview mostly about?",
+        "choices": [
+          "How to cook healthy school lunches",
+          "A science class about growing plants",
+          "A neighbor who gives gardening advice",
+          "How a student built a school garden"
+        ],
+        "correctIndex": 3,
+        "explanation": "Người dẫn giới thiệu Daniel, người 'started a vegetable garden at our school', và cả bài xoay quanh khu vườn đó.",
+        "choiceExplanations": [
+          "Sai — 'How to cook healthy school lunches': Bài nói về việc trồng rau, không phải nấu ăn.",
+          "Sai — 'A science class about growing plants': Video trong giờ khoa học chỉ là khởi đầu; trọng tâm là khu vườn của Daniel.",
+          "Sai — 'A neighbor who gives gardening advice': Người hàng xóm chỉ cho lời khuyên; chủ đề chính là vườn của Daniel.",
+          "Đúng — Người dẫn giới thiệu Daniel, người 'started a vegetable garden at our school', và cả bài xoay quanh khu vườn đó."
+        ]
+      },
+      {
+        "prompt": "Why did most of the tomatoes die?",
+        "choices": [
+          "They did not get enough sunlight",
+          "The weather was too cold",
+          "Daniel gave them too much water",
+          "A neighbor picked them"
+        ],
+        "correctIndex": 2,
+        "explanation": "Daniel nói 'most of them died ... because I gave them too much water'.",
+        "choiceExplanations": [
+          "Sai — 'They did not get enough sunlight': Bài không nhắc thiếu ánh nắng.",
+          "Sai — 'The weather was too cold': Bài không nhắc thời tiết lạnh.",
+          "Đúng — Daniel nói 'most of them died ... because I gave them too much water'.",
+          "Sai — 'A neighbor picked them': Hàng xóm chỉ cho lời khuyên chứ không hái cà chua."
+        ]
+      },
+      {
+        "prompt": "What does Daniel hope for?",
+        "choices": [
+          "More students will help",
+          "A bigger school cafeteria",
+          "Advice from his science teacher",
+          "To sell vegetables for money"
+        ],
+        "correctIndex": 0,
+        "explanation": "Daniel nói 'only six students help me, and I'd love to have ten'.",
+        "choiceExplanations": [
+          "Đúng — Daniel nói 'only six students help me, and I'd love to have ten'.",
+          "Sai — 'A bigger school cafeteria': Căng tin chỉ nhận một phần rau; Daniel không mong căng tin lớn hơn.",
+          "Sai — 'Advice from his science teacher': Daniel đã nhận lời khuyên từ người hàng xóm; cậu không xin thêm từ thầy.",
+          "Sai — 'To sell vegetables for money': Rau được cho căng tin và các gia đình cần giúp đỡ, không nhắc việc bán."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Daniel's science teacher helped him build the garden.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài chỉ nói thầy giáo cho xem video; không nói thầy giúp xây vườn.",
+        "choiceExplanations": [
+          "Sai — 'True': Nội dung này không khớp với bài nghe; xem lại lời người nói.",
+          "Sai — 'False': Bài không mâu thuẫn với câu này.",
+          "Đúng — Bài chỉ nói thầy giáo cho xem video; không nói thầy giúp xây vườn."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-014",
+    "bac": 3,
+    "title": "Chọn quà tặng cô giáo",
+    "transcript": "A: Mrs. Lopez is leaving our school next month. Let's give her a goodbye gift from the whole class.\nB: Good idea. How about flowers? She always keeps a vase on her desk.\nA: Hmm, I remember she's allergic to some plants, so flowers aren't a good idea.\nC: Oh, right. Then maybe a book. She loves mystery stories.\nA: She already has a whole shelf of them. What about a photo album with pictures of our class?\nB: I like that! And everyone can write her a short letter to put inside.\nC: Great. When should we give it to her? Thursday?\nA: Wait, Thursday is the science test, and everyone will be nervous. Let's do it on Friday, after lunch.\nB: Perfect. I'll tell the others to bring a photo.",
+    "questions": [
+      {
+        "prompt": "Why do they decide not to buy flowers?",
+        "choices": [
+          "The flowers would die too quickly",
+          "Mrs. Lopez is allergic to some plants",
+          "Flowers cost too much for the class",
+          "Mrs. Lopez already has a lot of flowers"
+        ],
+        "correctIndex": 1,
+        "explanation": "A nói 'she's allergic to some plants, so flowers aren't a good idea'.",
+        "choiceExplanations": [
+          "Sai — 'The flowers would die too quickly': Bài không nhắc hoa nhanh héo.",
+          "Đúng — A nói 'she's allergic to some plants, so flowers aren't a good idea'.",
+          "Sai — 'Flowers cost too much for the class': Bài không nhắc giá hoa.",
+          "Sai — 'Mrs. Lopez already has a lot of flowers': B chỉ nói cô có một bình hoa trên bàn; lý do bỏ hoa là cô bị dị ứng."
+        ]
+      },
+      {
+        "prompt": "What will the class give Mrs. Lopez?",
+        "choices": [
+          "A new mystery novel she loves",
+          "A bunch of flowers for her desk",
+          "A vase to go on her desk",
+          "A photo album of the class"
+        ],
+        "correctIndex": 3,
+        "explanation": "A đề nghị 'a photo album with pictures of our class' và B đồng ý.",
+        "choiceExplanations": [
+          "Sai — 'A new mystery novel she loves': C gợi ý sách, nhưng A nói cô đã có cả một kệ sách truyện trinh thám.",
+          "Sai — 'A bunch of flowers for her desk': Hoa bị loại vì cô dị ứng với một số loại cây.",
+          "Sai — 'A vase to go on her desk': Bình hoa chỉ được nhắc là đồ cô đã có trên bàn.",
+          "Đúng — A đề nghị 'a photo album with pictures of our class' và B đồng ý."
+        ]
+      },
+      {
+        "prompt": "When will they give the gift?",
+        "choices": [
+          "On Thursday",
+          "On Monday morning",
+          "On Friday after lunch",
+          "On her last day next month"
+        ],
+        "correctIndex": 2,
+        "explanation": "A sửa lại: 'Let's do it on Friday, after lunch'.",
+        "choiceExplanations": [
+          "Sai — 'On Thursday': C đề nghị thứ Năm nhưng A phản đối vì hôm đó có bài kiểm tra khoa học.",
+          "Sai — 'On Monday morning': Bài không nhắc sáng thứ Hai.",
+          "Đúng — A sửa lại: 'Let's do it on Friday, after lunch'.",
+          "Sai — 'On her last day next month': Cô nghỉ vào tháng sau, nhưng họ định tặng quà vào thứ Sáu."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Letters from the students will go inside the album.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "B nói 'everyone can write her a short letter to put inside'.",
+        "choiceExplanations": [
+          "Đúng — B nói 'everyone can write her a short letter to put inside'.",
+          "Sai — 'False': Bài không mâu thuẫn với câu này.",
+          "Sai — 'Not given': Bài có nhắc đến thông tin này nên không thể chọn 'Not given'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-015",
+    "bac": 3,
+    "title": "Thuê xe đạp ở công viên",
+    "transcript": "A: Good morning! Welcome to Green Park Bike Rentals. How can I help you?\nB: Hi. I'd like to rent two bikes, one for me and one for my younger brother. He's nine.\nA: Sure. A regular bike costs eight dollars an hour, and a small bike costs five dollars an hour.\nB: Okay. We'd like to ride for two hours. Can we ride around the lake?\nA: Yes, the path around the lake is about six kilometers, so two hours is plenty. A helmet is required for everyone, and it's free.\nB: Great. Do you need an ID?\nA: A school card is fine. And for rentals over one hour, I also need a deposit of ten dollars. You get it back when you return the bikes.\nB: No problem. Here's my school card and the money.\nA: Thanks. Please bring the bikes back by noon, because the shop closes for lunch.\nB: Sure. We'll be back at eleven thirty.",
+    "questions": [
+      {
+        "prompt": "What is required for everyone who rides?",
+        "choices": [
+          "A helmet",
+          "A letter from a parent",
+          "A map of the lake",
+          "A bottle of water"
+        ],
+        "correctIndex": 0,
+        "explanation": "A nói 'A helmet is required for everyone, and it's free'.",
+        "choiceExplanations": [
+          "Đúng — A nói 'A helmet is required for everyone, and it's free'.",
+          "Sai — 'A letter from a parent': Bài không nhắc thư của phụ huynh; khách chỉ đưa thẻ học sinh.",
+          "Sai — 'A map of the lake': Bài không nhắc bản đồ.",
+          "Sai — 'A bottle of water': Bài không nhắc chai nước."
+        ]
+      },
+      {
+        "prompt": "How much is the deposit?",
+        "choices": [
+          "$5",
+          "$8",
+          "$20",
+          "$10"
+        ],
+        "correctIndex": 3,
+        "explanation": "A nói 'I also need a deposit of ten dollars'.",
+        "choiceExplanations": [
+          "Sai — '$5': Năm đô la là giá một giờ thuê xe nhỏ, không phải tiền đặt cọc.",
+          "Sai — '$8': Tám đô la là giá một giờ thuê xe thường, không phải tiền đặt cọc.",
+          "Sai — '$20': Bài không nhắc hai mươi đô la.",
+          "Đúng — A nói 'I also need a deposit of ten dollars'."
+        ]
+      },
+      {
+        "prompt": "When will the customer bring the bikes back?",
+        "choices": [
+          "At 10:30",
+          "At noon",
+          "At 11:30",
+          "At 12:30"
+        ],
+        "correctIndex": 2,
+        "explanation": "Nhân viên yêu cầu trả xe trước trưa, và khách đáp: 'We'll be back at eleven thirty'.",
+        "choiceExplanations": [
+          "Sai — 'At 10:30': Bài không nhắc mười giờ rưỡi.",
+          "Sai — 'At noon': Trưa là hạn chót cửa hàng yêu cầu; khách hứa trả sớm hơn, lúc 11:30.",
+          "Đúng — Nhân viên yêu cầu trả xe trước trưa, và khách đáp: 'We'll be back at eleven thirty'.",
+          "Sai — 'At 12:30': Cửa hàng đóng cửa nghỉ trưa, nên không thể trả lúc 12:30."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? A small bike costs more than a regular bike.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Xe nhỏ giá 5 đô la một giờ, còn xe thường giá 8 đô la một giờ.",
+        "choiceExplanations": [
+          "Sai — 'True': Nội dung này không khớp với bài nghe; xem lại lời người nói.",
+          "Đúng — Xe nhỏ giá 5 đô la một giờ, còn xe thường giá 8 đô la một giờ, nên xe nhỏ rẻ hơn.",
+          "Sai — 'Not given': Bài có nhắc đến thông tin này nên không thể chọn 'Not given'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-016",
+    "bac": 3,
+    "title": "Hướng dẫn tham quan bảo tàng",
+    "transcript": "Welcome to the City Science Museum, everyone. My name is Carla, and I'll be your guide this morning. The tour starts at ten o'clock. Sorry, I mean ten fifteen, because one group is late. It lasts about ninety minutes and has three stops. First, the space hall, where you can see a real rocket engine. You can touch most of the objects there, but please don't touch the glass cases in the dinosaur room. Photos are allowed everywhere, but no flash. Backpacks must be left in the lockers by the entrance. A locker costs one dollar, but you get the coin back. After the tour, there is a workshop at noon where you can build a small model robot. It's only for children ten and under. Older visitors can join the quiz in the main lobby. If you need help, look for staff wearing green vests. Now, please follow me!",
+    "questions": [
+      {
+        "prompt": "What is Carla mainly doing?",
+        "choices": [
+          "Selling tickets for the workshop",
+          "Explaining how a rocket works",
+          "Searching for a group that is late",
+          "Giving visitors tour information"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cô chào mừng, nêu giờ, các điểm dừng và quy định như 'no flash' và để ba lô trong tủ.",
+        "choiceExplanations": [
+          "Sai — 'Selling tickets for the workshop': Cô không bán vé; cô giới thiệu chuyến tham quan.",
+          "Sai — 'Explaining how a rocket works': Động cơ tên lửa chỉ là một điểm dừng; cô chủ yếu hướng dẫn và nêu quy định.",
+          "Sai — 'Searching for a group that is late': Một nhóm đến muộn chỉ là lý do đổi giờ, không phải nội dung chính.",
+          "Đúng — Cô chào mừng, nêu giờ, các điểm dừng và quy định như 'no flash' và để ba lô trong tủ."
+        ]
+      },
+      {
+        "prompt": "When does the tour start?",
+        "choices": [
+          "10:00",
+          "10:15",
+          "12:00",
+          "9:30"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô sửa lại: 'Sorry, I mean ten fifteen'.",
+        "choiceExplanations": [
+          "Sai — '10:00': Cô nói 'ten o'clock' rồi tự đính chính 'Sorry, I mean ten fifteen'.",
+          "Đúng — Cô sửa lại: 'Sorry, I mean ten fifteen'.",
+          "Sai — '12:00': Mười hai giờ là giờ buổi workshop.",
+          "Sai — '9:30': Bài không nhắc 9:30."
+        ]
+      },
+      {
+        "prompt": "Who can join the robot workshop?",
+        "choices": [
+          "A ten-year-old boy",
+          "An eleven-year-old girl",
+          "A thirteen-year-old girl",
+          "A parent"
+        ],
+        "correctIndex": 0,
+        "explanation": "Workshop dành cho trẻ 'ten and under', nên cậu bé 10 tuổi được tham gia.",
+        "choiceExplanations": [
+          "Đúng — Workshop dành cho trẻ 'ten and under', nên cậu bé 10 tuổi được tham gia.",
+          "Sai — 'An eleven-year-old girl': 'Ten and under' nghĩa là từ 10 tuổi trở xuống, nên em 11 tuổi không được.",
+          "Sai — 'A thirteen-year-old girl': Workshop 'only for children ten and under', nên em 13 tuổi quá tuổi.",
+          "Sai — 'A parent': Người lớn có thể tham gia cuộc đố vui ở sảnh, không phải workshop."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The museum is free for students.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài chỉ nói tủ gửi đồ giá một đô la; không nói gì về giá vé của học sinh.",
+        "choiceExplanations": [
+          "Sai — 'True': Nội dung này không khớp với bài nghe; xem lại lời người nói.",
+          "Sai — 'False': Bài không mâu thuẫn với câu này.",
+          "Đúng — Bài chỉ nói tủ gửi đồ giá một đô la; không nói gì về giá vé của học sinh."
+        ]
+      }
+    ]
   }
 ]
