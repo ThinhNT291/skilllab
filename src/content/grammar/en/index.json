@@ -246,7 +246,7 @@
     ],
     "order": 24,
     "category": "sentence-structure",
-    "usageCount": 6
+    "usageCount": 9
   },
   {
     "id": "conjunctions",
@@ -268,7 +268,7 @@
     ],
     "order": 26,
     "category": "word-classes",
-    "usageCount": 5
+    "usageCount": 8
   },
   {
     "id": "subjunctive",
@@ -289,7 +289,7 @@
     ],
     "order": 28,
     "category": "sentence-structure",
-    "usageCount": 5
+    "usageCount": 8
   },
   {
     "id": "cleft-sentences",
@@ -321,6 +321,6 @@
     ],
     "order": 31,
     "category": "word-classes",
-    "usageCount": 6
+    "usageCount": 7
   }
 ]

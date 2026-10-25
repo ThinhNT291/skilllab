@@ -1,0 +1,8051 @@
+[
+{
+"id": "v-abolish-verb-1",
+"word": "abolish",
+"pos": "verb",
+"def": "to officially end something, especially a law or system",
+"ex": [
+"I think bullfighting should be abolished.",
+"National Service was abolished in Britain in 1962."
+]
+},
+{
+"id": "v-absolute-adjective-1",
+"word": "absolute",
+"pos": "adjective",
+"def": "complete and definite",
+"ex": [
+"He's an absolute idiot!",
+"That's absolute rubbish!"
+]
+},
+{
+"id": "v-absurd-adjective-1",
+"word": "absurd",
+"pos": "adjective",
+"def": "very silly",
+"ex": [
+"What an absurd explanation!",
+"Don't be so absurd! Of course I want you to come."
+]
+},
+{
+"id": "v-access-verb-1",
+"word": "access",
+"pos": "verb",
+"def": "to find or see information, especially using a computer",
+"ex": [
+"You can access the files over the Internet."
+]
+},
+{
+"id": "v-ache-verb-1",
+"word": "ache",
+"pos": "verb",
+"def": "to have a continuous pain that is unpleasant but not strong",
+"ex": [
+"My head/tooth/back aches.",
+"I ache/I'm aching all over."
+]
+},
+{
+"id": "v-acid-noun-1",
+"word": "acid",
+"pos": "noun",
+"def": "a liquid substance which can react chemically with and sometimes dissolve other materials",
+"ex": [
+"Vinegar is an acid."
+]
+},
+{
+"id": "v-actual-adjective-1",
+"word": "actual",
+"pos": "adjective",
+"def": "real, not guessed or imagined",
+"ex": [
+"We had estimated about 300 visitors, but the actual number was much higher.",
+"The exams are in July, but the actual results don't appear until September."
+]
+},
+{
+"id": "v-addict-noun-1",
+"word": "addict",
+"pos": "noun",
+"def": "a person who cannot stop doing or using something, especially something harmful",
+"ex": [
+"a drug/heroin addict",
+"a gambling addict"
+]
+},
+{
+"id": "v-addiction-noun-1",
+"word": "addiction",
+"pos": "noun",
+"def": "when you cannot stop doing or taking something because you are addicted to it",
+"ex": [
+"an addiction to alcohol",
+"His addiction to computer games means he is spending far too much time indoors."
+]
+},
+{
+"id": "v-adequately-adverb-1",
+"word": "adequately",
+"pos": "adverb",
+"def": "in an adequate way",
+"ex": [
+"While some patients can be adequately cared for at home, others are best served by care in a hospital."
+]
+},
+{
+"id": "v-adjustment-noun-1",
+"word": "adjustment",
+"pos": "noun",
+"def": "a small change that you make to something so that it works better, fits better, or is more suitable",
+"ex": [
+"We've made a few adjustments to the schedule.",
+"I have a few minor adjustments to make."
+]
+},
+{
+"id": "v-admittedly-adverb-1",
+"word": "admittedly",
+"pos": "adverb",
+"def": "used when you are agreeing that something is true although you do not want to",
+"ex": [
+"Admittedly, I could have tried harder but I still don't think all this criticism is fair."
+]
+},
+{
+"id": "v-adopted-adjective-1",
+"word": "adopted",
+"pos": "adjective",
+"def": "legally taken by another family to be looked after as their own child",
+"ex": [
+"They've got two adopted children and one of their own."
+]
+},
+{
+"id": "v-adoption-noun-1",
+"word": "adoption",
+"pos": "noun",
+"def": "the process of legally becoming the parents of someone else's child",
+"ex": [
+"She couldn't have children, so they were considering adoption."
+]
+},
+{
+"id": "v-advance-noun-1",
+"word": "advance",
+"pos": "noun",
+"def": "new discoveries and inventions",
+"ex": [
+"Our lives have been improved by the many recent advances in computer technology.",
+"the advance of modern medicine"
+]
+},
+{
+"id": "v-adventurous-adjective-1",
+"word": "adventurous",
+"pos": "adjective",
+"def": "willing to try new and often difficult or dangerous things",
+"ex": [
+"I'm trying to be more adventurous with my cooking.",
+"She led an adventurous life."
+]
+},
+{
+"id": "v-affection-noun-1",
+"word": "affection",
+"pos": "noun",
+"def": "a feeling of liking or loving a person or place",
+"ex": [
+"He had a deep affection for his aunt.",
+"She felt no affection for the child."
+]
+},
+{
+"id": "v-aggressively-adverb-1",
+"word": "aggressively",
+"pos": "adverb",
+"def": "in an aggressive way",
+"ex": [
+"Small children often behave aggressively.",
+"They played more aggressively in the second half."
+]
+},
+{
+"id": "v-agriculture-noun-1",
+"word": "agriculture",
+"pos": "noun",
+"def": "farming",
+"ex": [
+"Agriculture is still largely based on traditional methods in some countries.",
+"The area depends on agriculture for most of its income."
+]
+},
+{
+"id": "v-alphabetical-adjective-1",
+"word": "alphabetical",
+"pos": "adjective",
+"def": "arranged in the same order as the letters of the alphabet",
+"ex": [
+"an alphabetical list",
+"The names are published in alphabetical order."
+]
+},
+{
+"id": "v-alter-verb-1",
+"word": "alter",
+"pos": "verb",
+"def": "to change, or to make someone or something change",
+"ex": [
+"We've had to alter some of our plans.",
+"Giving up our car has altered our lifestyle a lot."
+]
+},
+{
+"id": "v-alternative-noun-1",
+"word": "alternative",
+"pos": "noun",
+"def": "one of two or more things that you can choose between",
+"ex": [
+"It's a low-fat alternative to butter.",
+"I'm afraid I have no alternative but to ask you to leave."
+]
+},
+{
+"id": "v-alternatively-adverb-1",
+"word": "alternatively",
+"pos": "adverb",
+"def": "used to suggest another possibility",
+"ex": [
+"We could go to the Indian restaurant, or alternatively, we could try that new Italian place."
+]
+},
+{
+"id": "v-aluminium-noun-1",
+"word": "aluminium",
+"pos": "noun",
+"def": "a light, silver-coloured metal used for making containers, cooking equipment and aircraft parts",
+"ex": [
+"Cover the fish with aluminium foil and cook over a low heat.",
+"We take all our aluminium cans for recycling."
+]
+},
+{
+"id": "v-ambassador-noun-1",
+"word": "ambassador",
+"pos": "noun",
+"def": "the main official sent by a government of a country to represent it in another country",
+"ex": [
+"Britain's ambassador in Moscow has refused to comment.",
+"She's a former ambassador to the United States."
+]
+},
+{
+"id": "v-amused-adjective-1",
+"word": "amused",
+"pos": "adjective",
+"def": "showing that you think something is funny",
+"ex": [
+"an amused smile",
+"She was very amused by/at your comments."
+]
+},
+{
+"id": "v-analyse-verb-1",
+"word": "analyse",
+"pos": "verb",
+"def": "to examine the details of something carefully, in order to understand or explain it",
+"ex": [
+"Researchers analysed the purchases of 6300 households.",
+"Water samples taken from streams were analysed for contamination by chemicals."
+]
+},
+{
+"id": "v-analysis-noun-1",
+"word": "analysis",
+"pos": "noun",
+"def": "the process of analysing something",
+"ex": [
+"Chemical analysis revealed a high content of copper.",
+"I was interested in Clare's analysis of the situation."
+]
+},
+{
+"id": "v-analyst-noun-1",
+"word": "analyst",
+"pos": "noun",
+"def": "someone whose job is to study or examine something in detail",
+"ex": [
+"a financial/political/systems analyst"
+]
+},
+{
+"id": "v-ancestor-noun-1",
+"word": "ancestor",
+"pos": "noun",
+"def": "a relative who lived a long time ago",
+"ex": [
+"My ancestors came from Ireland."
+]
+},
+{
+"id": "v-annually-adverb-1",
+"word": "annually",
+"pos": "adverb",
+"def": "once every year",
+"ex": [
+"Your starting salary is £28,000 per year and will be reviewed annually."
+]
+},
+{
+"id": "v-anxiety-noun-1",
+"word": "anxiety",
+"pos": "noun",
+"def": "the feeling of being very worried",
+"ex": [
+"Children normally feel a lot of anxiety about their first day at school.",
+"That explains his anxiety over his health."
+]
+},
+{
+"id": "v-anxiously-adverb-1",
+"word": "anxiously",
+"pos": "adverb",
+"def": "in an anxious way",
+"ex": [
+"We waited anxiously by the phone."
+]
+},
+{
+"id": "v-appropriate-adjective-1",
+"word": "appropriate",
+"pos": "adjective",
+"def": "suitable or right for a particular situation or occasion",
+"ex": [
+"Is this film appropriate for small children?",
+"I didn't think his comments were very appropriate at the time."
+]
+},
+{
+"id": "v-appropriately-adverb-1",
+"word": "appropriately",
+"pos": "adverb",
+"def": "in a way that is appropriate",
+"ex": [
+"She didn't think we were appropriately dressed for a wedding."
+]
+},
+{
+"id": "v-armed-adjective-1",
+"word": "armed",
+"pos": "adjective",
+"def": "using or carrying weapons",
+"ex": [
+"an armed robbery"
+]
+},
+{
+"id": "v-arrest-noun-1",
+"word": "arrest",
+"pos": "noun",
+"def": "when the police take someone away to ask them about a crime which they might have committed",
+"ex": [
+"Police made twenty arrests at yesterday's demonstration.",
+"She was stopped outside the shop and placed/put under arrest."
+]
+},
+{
+"id": "v-arrogant-adjective-1",
+"word": "arrogant",
+"pos": "adjective",
+"def": "believing that you are better or more important than other people",
+"ex": [
+"I found him arrogant and rude."
+]
+},
+{
+"id": "v-artificially-adverb-1",
+"word": "artificially",
+"pos": "adverb",
+"def": "in an artificial way",
+"ex": [
+"Most mushrooms sold in supermarkets have been grown artificially in manure."
+]
+},
+{
+"id": "v-aspect-noun-1",
+"word": "aspect",
+"pos": "noun",
+"def": "one part of a situation, problem, subject, etc.",
+"ex": [
+"Which aspects of the job do you most enjoy?",
+"That's the most worrying aspect of the situation."
+]
+},
+{
+"id": "v-assess-verb-1",
+"word": "assess",
+"pos": "verb",
+"def": "to make a judgement about the quality, size or value, etc. of something",
+"ex": [
+"Examinations are a way of assessing a student's ability.",
+"They assessed the cost of the flood damage at £1500."
+]
+},
+{
+"id": "v-assessment-noun-1",
+"word": "assessment",
+"pos": "noun",
+"def": "when you make a judgement about the quality, size or value, etc. of something",
+"ex": [
+"That's a fair assessment of the situation."
+]
+},
+{
+"id": "v-assist-verb-1",
+"word": "assist",
+"pos": "verb",
+"def": "to help",
+"ex": [
+"The army arrived to assist in the search.",
+"You will be expected to assist the editor with the selection of illustrations for the book."
+]
+},
+{
+"id": "v-assistance-noun-1",
+"word": "assistance",
+"pos": "noun",
+"def": "help",
+"ex": [
+"Can I be of any assistance, madam?",
+"Teachers can't give pupils any assistance in exams."
+]
+},
+{
+"id": "v-association-noun-1",
+"word": "association",
+"pos": "noun",
+"def": "an organization of people with the same interests or with a particular purpose",
+"ex": [
+"The Football Association"
+]
+},
+{
+"id": "v-assume-verb-1",
+"word": "assume",
+"pos": "verb",
+"def": "to think that something is true, without question or proof",
+"ex": [
+"I assumed (that) you knew each other because you went to the same school.",
+"I invited her just assuming she would want to come."
+]
+},
+{
+"id": "v-astonished-adjective-1",
+"word": "astonished",
+"pos": "adjective",
+"def": "very surprised",
+"ex": [
+"I was astonished to see Miriam there.",
+"They looked astonished when I announced I was pregnant."
+]
+},
+{
+"id": "v-astonishing-adjective-1",
+"word": "astonishing",
+"pos": "adjective",
+"def": "very surprising",
+"ex": [
+"Her first novel enjoyed an astonishing level of success.",
+"It's astonishing to think that only a few years ago Communism dominated eastern Europe."
+]
+},
+{
+"id": "v-astonishment-noun-1",
+"word": "astonishment",
+"pos": "noun",
+"def": "very great surprise",
+"ex": [
+"To my astonishment, she started laughing.",
+"She gasped in astonishment."
+]
+},
+{
+"id": "v-athletic-adjective-1",
+"word": "athletic",
+"pos": "adjective",
+"def": "strong, healthy and good at sports",
+"ex": [
+"She looks very athletic."
+]
+},
+{
+"id": "v-atom-noun-1",
+"word": "atom",
+"pos": "noun",
+"def": "the smallest unit that an element can be divided into",
+"ex": [
+"A molecule of carbon dioxide (CO2) has one carbon atom and two oxygen atoms."
+]
+},
+{
+"id": "v-attempt-noun-1",
+"word": "attempt",
+"pos": "noun",
+"def": "when you try to do something",
+"ex": [
+"This is my second attempt at the exam.",
+"They closed the road in an attempt to reduce traffic in the city."
+]
+},
+{
+"id": "v-aubergine-noun-1",
+"word": "aubergine",
+"pos": "noun",
+"def": "an oval, purple vegetable that is white inside",
+"ex": [
+"The dish is made with aubergines and cheese."
+]
+},
+{
+"id": "v-award-verb-1",
+"word": "award",
+"pos": "verb",
+"def": "to give money or a prize following an official decision",
+"ex": [
+"He was awarded the Nobel Prize for physics.",
+"The university has awarded her a $500 travel grant."
+]
+},
+{
+"id": "v-award-noun-1",
+"word": "award",
+"pos": "noun",
+"def": "a prize given to someone for something they have achieved",
+"ex": [
+"the Academy Award for Best Director",
+"Both films have received/won several awards."
+]
+},
+{
+"id": "v-badge-noun-1",
+"word": "badge",
+"pos": "noun",
+"def": "a piece of metal, plastic, etc., with words or a picture on it which you wear on your clothes",
+"ex": [
+"Everyone at the conference wore a badge with their name on."
+]
+},
+{
+"id": "v-bakery-noun-1",
+"word": "bakery",
+"pos": "noun",
+"def": "a place where bread, cakes, etc. are made or sold",
+"ex": [
+"I buy all our bread in the local bakery."
+]
+},
+{
+"id": "v-balanced-adjective-1",
+"word": "balanced",
+"pos": "adjective",
+"def": "considering all the facts in a fair way",
+"ex": [
+"The news programme prided itself on its balanced reporting."
+]
+},
+{
+"id": "v-ban-noun-1",
+"word": "ban",
+"pos": "noun",
+"def": "an official order that prevents something from happening",
+"ex": [
+"There should be a ban on talking loudly in cinemas."
+]
+},
+{
+"id": "v-bang-verb-1",
+"word": "bang",
+"pos": "verb",
+"def": "to make a sudden loud noise or to cause something to do this",
+"ex": [
+"She banged her fist angrily on the table.",
+"Outside a door was banging in the wind."
+]
+},
+{
+"id": "v-bang-noun-1",
+"word": "bang",
+"pos": "noun",
+"def": "a sudden loud noise",
+"ex": [
+"The window slammed shut with a loud bang."
+]
+},
+{
+"id": "v-banker-noun-1",
+"word": "banker",
+"pos": "noun",
+"def": "someone with an important position in a bank",
+"ex": [
+"She was a successful banker by the time she was forty."
+]
+},
+{
+"id": "v-barely-adverb-1",
+"word": "barely",
+"pos": "adverb",
+"def": "only just",
+"ex": [
+"They have barely enough to pay the rent this month.",
+"She was barely fifteen when she won her first championship."
+]
+},
+{
+"id": "v-bargain-noun-1",
+"word": "bargain",
+"pos": "noun",
+"def": "something that is on sale for less than its usual price or its real value",
+"ex": [
+"This coat was half-price - a real bargain.",
+"The airline regularly offers last-minute bookings at bargain prices."
+]
+},
+{
+"id": "v-basement-noun-1",
+"word": "basement",
+"pos": "noun",
+"def": "a room or set of rooms that is below ground level in a building",
+"ex": [
+"a basement flat"
+]
+},
+{
+"id": "v-beam-noun-1",
+"word": "beam",
+"pos": "noun",
+"def": "a line of light shining from something",
+"ex": [
+"a laser beam"
+]
+},
+{
+"id": "v-belongings-noun-1",
+"word": "belongings",
+"pos": "noun",
+"def": "the things that a person owns, especially those which can be carried",
+"ex": [
+"I put a few personal belongings in a bag and left the house for the last time."
+]
+},
+{
+"id": "v-bench-noun-1",
+"word": "bench",
+"pos": "noun",
+"def": "a long seat for two or more people, usually made of wood or metal",
+"ex": [
+"a park bench"
+]
+},
+{
+"id": "v-bend-noun-1",
+"word": "bend",
+"pos": "noun",
+"def": "a curved part of something",
+"ex": [
+"There's a bend in the pipe so you can't see from one end to the other.",
+"There's a sharp bend in the road."
+]
+},
+{
+"id": "v-beneficial-adjective-1",
+"word": "beneficial",
+"pos": "adjective",
+"def": "helpful, useful or good",
+"ex": [
+"The improvement in sales figures had a beneficial effect on the company as a whole.",
+"Exercise is beneficial to almost everyone."
+]
+},
+{
+"id": "v-benefit-verb-1",
+"word": "benefit",
+"pos": "verb",
+"def": "to be helped by something or to help someone",
+"ex": [
+"I feel that I have benefited greatly from her experience.",
+"How can we benefit those who most need our help?"
+]
+},
+{
+"id": "v-bestseller-noun-1",
+"word": "bestseller",
+"pos": "noun",
+"def": "a very popular book that many people have bought",
+"ex": [
+"His latest book is likely to be another bestseller."
+]
+},
+{
+"id": "v-betray-verb-1",
+"word": "betray",
+"pos": "verb",
+"def": "to behave in a dishonest or cruel way to someone who trusts you",
+"ex": [
+"She felt betrayed by her mother's lack of support.",
+"He promised never to betray her."
+]
+},
+{
+"id": "v-bikini-noun-1",
+"word": "bikini",
+"pos": "noun",
+"def": "a piece of clothing with two parts that women wear for swimming",
+"ex": [
+"I packed my bikini for the beach."
+]
+},
+{
+"id": "v-billion-noun-1",
+"word": "billion",
+"pos": "noun",
+"def": "the number 1 000 000 000",
+"ex": [
+"Cosmetics is a billion dollar industry."
+]
+},
+{
+"id": "v-biological-adjective-1",
+"word": "biological",
+"pos": "adjective",
+"def": "connected with the natural processes of living things",
+"ex": [
+"the biological sciences"
+]
+},
+{
+"id": "v-bizarre-adjective-1",
+"word": "bizarre",
+"pos": "adjective",
+"def": "very strange and unusual",
+"ex": [
+"a bizarre situation"
+]
+},
+{
+"id": "v-blade-noun-1",
+"word": "blade",
+"pos": "noun",
+"def": "the flat part on a knife or similar tool or weapon, with a very thin edge used for cutting",
+"ex": [
+"a sword with a steel blade"
+]
+},
+{
+"id": "v-blame-noun-1",
+"word": "blame",
+"pos": "noun",
+"def": "when people say or think that someone or something is responsible for something bad",
+"ex": [
+"The manager should take the blame for the team's defeat.",
+"They put the blame on faulty equipment."
+]
+},
+{
+"id": "v-blink-verb-1",
+"word": "blink",
+"pos": "verb",
+"def": "to open and close both of your eyes quickly",
+"ex": [
+"You've got something in your eye - try blinking a few times."
+]
+},
+{
+"id": "v-blush-verb-1",
+"word": "blush",
+"pos": "verb",
+"def": "to become pink in the face, usually from embarrassment",
+"ex": [
+"He blushes every time she speaks to him.",
+"I blush to think what a fool I made of myself."
+]
+},
+{
+"id": "v-boiling-adjective-1",
+"word": "boiling",
+"pos": "adjective",
+"def": "very hot",
+"ex": [
+"It's boiling in this room!",
+"It's boiling hot outside."
+]
+},
+{
+"id": "v-boldly-adverb-1",
+"word": "boldly",
+"pos": "adverb",
+"def": "in a way that is brave or very confident",
+"ex": [
+"The President had already boldly declared victory."
+]
+},
+{
+"id": "v-bombing-noun-1",
+"word": "bombing",
+"pos": "noun",
+"def": "an attack or several attacks using bombs",
+"ex": [
+"The city came under heavy bombing."
+]
+},
+{
+"id": "v-bond-noun-1",
+"word": "bond",
+"pos": "noun",
+"def": "an interest, experience, or feeling that makes people feel connected",
+"ex": [
+"the bond between the mother and baby",
+"There is a close/strong bond between the brothers."
+]
+},
+{
+"id": "v-booklet-noun-1",
+"word": "booklet",
+"pos": "noun",
+"def": "a small, thin book that contains information",
+"ex": [
+"The tourist office has booklets about the area."
+]
+},
+{
+"id": "v-bookmark-noun-1",
+"word": "bookmark",
+"pos": "noun",
+"def": "a way of marking an Internet website so that you can find it easily",
+"ex": [
+"Add this website to your bookmarks."
+]
+},
+{
+"id": "v-bookmark-verb-1",
+"word": "bookmark",
+"pos": "verb",
+"def": "to mark an Internet website on your computer so that you can find it easily",
+"ex": [
+"I've bookmarked the page."
+]
+},
+{
+"id": "v-boost-verb-1",
+"word": "boost",
+"pos": "verb",
+"def": "to improve or increase something",
+"ex": [
+"The theatre managed to boost its audiences by cutting ticket prices.",
+"Share prices were boosted by reports of the President's recovery."
+]
+},
+{
+"id": "v-boost-noun-1",
+"word": "boost",
+"pos": "noun",
+"def": "something that makes you feel more confident and happy, or that helps something increase or improve",
+"ex": [
+"Passing my driving test was such a boost to my confidence.",
+"The lowering of interest rates will give a much-needed boost to the economy."
+]
+},
+{
+"id": "v-bossy-adjective-1",
+"word": "bossy",
+"pos": "adjective",
+"def": "always telling other people what to do",
+"ex": [
+"a bossy older sister"
+]
+},
+{
+"id": "v-bounce-verb-1",
+"word": "bounce",
+"pos": "verb",
+"def": "to (cause to) move up or away after hitting a surface",
+"ex": [
+"The ball bounced off the post and into the net.",
+"She bounced the ball quickly."
+]
+},
+{
+"id": "v-brake-verb-1",
+"word": "brake",
+"pos": "verb",
+"def": "to make a vehicle stop or move more slowly",
+"ex": [
+"I tried to brake but it was too late."
+]
+},
+{
+"id": "v-brand-noun-1",
+"word": "brand",
+"pos": "noun",
+"def": "a type of product made by a particular company",
+"ex": [
+"a best-selling/popular brand of toothpaste",
+"This isn't my usual brand of deodorant."
+]
+},
+{
+"id": "v-bravery-noun-1",
+"word": "bravery",
+"pos": "noun",
+"def": "when someone is brave",
+"ex": [
+"He was awarded a medal for his bravery in battle."
+]
+},
+{
+"id": "v-breakable-adjective-1",
+"word": "breakable",
+"pos": "adjective",
+"def": "easy to break",
+"ex": [
+"That vase is breakable so be careful."
+]
+},
+{
+"id": "v-breakthrough-noun-1",
+"word": "breakthrough",
+"pos": "noun",
+"def": "an important discovery or event that helps to improve a situation or provide an answer to a problem",
+"ex": [
+"Scientists are hoping for a breakthrough in the search for a cure for cancer.",
+"A major breakthrough in negotiations has been achieved."
+]
+},
+{
+"id": "v-breed-noun-1",
+"word": "breed",
+"pos": "noun",
+"def": "a type of dog, sheep, etc.",
+"ex": [
+"This rare breed of sheep is particularly good for wool.",
+"What's your favourite breed of dog/dog breed?"
+]
+},
+{
+"id": "v-breed-verb-1",
+"word": "breed",
+"pos": "verb",
+"def": "to keep animals for the purpose of producing young animals",
+"ex": [
+"His main income comes from breeding cattle."
+]
+},
+{
+"id": "v-brick-noun-1",
+"word": "brick",
+"pos": "noun",
+"def": "a small, hard, rectangular block used for building walls and houses",
+"ex": [
+"a brick wall"
+]
+},
+{
+"id": "v-brightly-adverb-1",
+"word": "brightly",
+"pos": "adverb",
+"def": "with a lot of strong colour or light",
+"ex": [
+"brightly coloured clothes",
+"a brightly lit room"
+]
+},
+{
+"id": "v-brilliantly-adverb-1",
+"word": "brilliantly",
+"pos": "adverb",
+"def": "in a very skillful way",
+"ex": [
+"He seems to do everything brilliantly - piano playing, skiing, sailing."
+]
+},
+{
+"id": "v-broadband-noun-1",
+"word": "broadband",
+"pos": "noun",
+"def": "a type of Internet connection that allows large amounts of information to be sent or received very quickly",
+"ex": [
+"We've got broadband at home."
+]
+},
+{
+"id": "v-broadcast-verb-1",
+"word": "broadcast",
+"pos": "verb",
+"def": "to send out a programme on television, radio or the Internet",
+"ex": [
+"Radio Caroline used to broadcast from a boat in the North Sea.",
+"The tennis championship is broadcast live to several different countries."
+]
+},
+{
+"id": "v-browser-noun-1",
+"word": "browser",
+"pos": "noun",
+"def": "a computer program that makes it possible for you to read information on the Internet",
+"ex": [
+"a Web browser"
+]
+},
+{
+"id": "v-bruise-noun-1",
+"word": "bruise",
+"pos": "noun",
+"def": "a dark area on your skin where you have been hurt",
+"ex": [
+"His arms and back were covered in bruises.",
+"She had a few cuts and bruises but nothing serious."
+]
+},
+{
+"id": "v-budget-noun-1",
+"word": "budget",
+"pos": "noun",
+"def": "the amount of money a person or organization has available to spend",
+"ex": [
+"an annual budget of £40 million",
+"They are over/under/on/within budget."
+]
+},
+{
+"id": "v-budget-adjective-1",
+"word": "budget",
+"pos": "adjective",
+"def": "very cheap",
+"ex": [
+"a budget airline"
+]
+},
+{
+"id": "v-bulb-noun-1",
+"word": "bulb",
+"pos": "noun",
+"def": "a glass object which produces light from electricity",
+"ex": [
+"an energy-saving light bulb"
+]
+},
+{
+"id": "v-bullet-noun-1",
+"word": "bullet",
+"pos": "noun",
+"def": "a small, metal object that is shot from a gun",
+"ex": [
+"A bullet had lodged in the boy's leg."
+]
+},
+{
+"id": "v-bump-verb-1",
+"word": "bump",
+"pos": "verb",
+"def": "to hurt part of your body by hitting it against something hard",
+"ex": [
+"I bumped my head on the shelf as I stood up."
+]
+},
+{
+"id": "v-bumper-noun-1",
+"word": "bumper",
+"pos": "noun",
+"def": "a bar fixed along the front or the back of a vehicle to protect it in an accident",
+"ex": [
+"a front/rear bumper"
+]
+},
+{
+"id": "v-bun-noun-1",
+"word": "bun",
+"pos": "noun",
+"def": "a small, round cake or piece of bread",
+"ex": [
+"a hamburger bun"
+]
+},
+{
+"id": "v-burglar-noun-1",
+"word": "burglar",
+"pos": "noun",
+"def": "a person who illegally enters buildings and steals things",
+"ex": [
+"I saw someone climbing in through a window and assumed it must be a burglar."
+]
+},
+{
+"id": "v-burglary-noun-1",
+"word": "burglary",
+"pos": "noun",
+"def": "the crime of illegally entering a building and stealing things",
+"ex": [
+"He was charged with burglary."
+]
+},
+{
+"id": "v-burgle-verb-1",
+"word": "burgle",
+"pos": "verb",
+"def": "to get into a building illegally and steal things",
+"ex": [
+"They've been burgled twice recently."
+]
+},
+{
+"id": "v-burst-verb-1",
+"word": "burst",
+"pos": "verb",
+"def": "to break open or apart suddenly, or to make something do this",
+"ex": [
+"The balloon burst and frightened the children.",
+"Suddenly the door burst open and police officers carrying guns rushed in."
+]
+},
+{
+"id": "v-cabinet-noun-1",
+"word": "cabinet",
+"pos": "noun",
+"def": "a cupboard with shelves or drawers to store or show things in",
+"ex": [
+"a bathroom/medicine cabinet",
+"a glass-fronted cabinet"
+]
+},
+{
+"id": "v-campus-noun-1",
+"word": "campus",
+"pos": "noun",
+"def": "the buildings of a college or university and the land that surrounds them",
+"ex": [
+"There's accommodation for about five hundred students on campus."
+]
+},
+{
+"id": "v-carbon-noun-1",
+"word": "carbon",
+"pos": "noun",
+"def": "a chemical element present in all animals and plants and in coal and oil",
+"ex": [
+"Diamonds are formed from carbon."
+]
+},
+{
+"id": "v-cardboard-noun-1",
+"word": "cardboard",
+"pos": "noun",
+"def": "material like very thick stiff paper, usually pale brown in colour, which is used especially for making boxes",
+"ex": [
+"a cardboard box"
+]
+},
+{
+"id": "v-cardigan-noun-1",
+"word": "cardigan",
+"pos": "noun",
+"def": "a piece of clothing often made from wool, which covers the upper part of the body and fastens at the front",
+"ex": [
+"My worst present ever was an orange and green knitted cardigan from my aunt."
+]
+},
+{
+"id": "v-carelessness-noun-1",
+"word": "carelessness",
+"pos": "noun",
+"def": "the state of being careless",
+"ex": [
+"It's the carelessness with which he just throws stuff on the floor that annoys me."
+]
+},
+{
+"id": "v-carnival-noun-1",
+"word": "carnival",
+"pos": "noun",
+"def": "a public celebration where people wear special clothes and dance and play music in the streets",
+"ex": [
+"I took the kids to the local carnival."
+]
+},
+{
+"id": "v-cast-noun-1",
+"word": "cast",
+"pos": "noun",
+"def": "all the actors in a film, play or show",
+"ex": [
+"After the final performance, the director threw a party for the cast.",
+"Part of the film's success lies in the strength of the supporting cast."
+]
+},
+{
+"id": "v-casually-adverb-1",
+"word": "casually",
+"pos": "adverb",
+"def": "in a casual way",
+"ex": [
+"She was dressed casually in shorts and a T-shirt."
+]
+},
+{
+"id": "v-catalogue-noun-1",
+"word": "catalogue",
+"pos": "noun",
+"def": "a book with a list of items, such as pictures on display or goods that you can buy from a business",
+"ex": [
+"a mail-order catalogue"
+]
+},
+{
+"id": "v-catering-noun-1",
+"word": "catering",
+"pos": "noun",
+"def": "providing food and drinks for people",
+"ex": [
+"Who did the catering for the party?",
+"a high-class catering company"
+]
+},
+{
+"id": "v-cause-verb-1",
+"word": "cause",
+"pos": "verb",
+"def": "to make something happen, especially something bad",
+"ex": [
+"The difficult driving conditions caused several accidents.",
+"Most heart attacks are caused by blood clots."
+]
+},
+{
+"id": "v-cautious-adjective-1",
+"word": "cautious",
+"pos": "adjective",
+"def": "taking care to avoid risks or danger",
+"ex": [
+"He's a very cautious driver.",
+"We take a more cautious approach."
+]
+},
+{
+"id": "v-cease-verb-1",
+"word": "cease",
+"pos": "verb",
+"def": "to stop",
+"ex": [
+"He ordered his men to cease firing.",
+"The company has decided to cease all UK operations after this year."
+]
+},
+{
+"id": "v-cellar-noun-1",
+"word": "cellar",
+"pos": "noun",
+"def": "a room under the ground floor of a building, usually used for storage",
+"ex": [
+"He keeps his wine in the cellar."
+]
+},
+{
+"id": "v-cello-noun-1",
+"word": "cello",
+"pos": "noun",
+"def": "a large, wooden musical instrument with four strings that you hold between your knees to play",
+"ex": [
+"She plays the cello."
+]
+},
+{
+"id": "v-cemetery-noun-1",
+"word": "cemetery",
+"pos": "noun",
+"def": "a place where dead people are buried",
+"ex": [
+"She went to the cemetery where her grandfather was buried."
+]
+},
+{
+"id": "v-centigrade-noun-1",
+"word": "centigrade",
+"pos": "noun",
+"def": "a measurement of temperature in which water freezes at 0° and boils at 100°",
+"ex": [
+"Water boils at 100° centigrade."
+]
+},
+{
+"id": "v-chaos-noun-1",
+"word": "chaos",
+"pos": "noun",
+"def": "a state of total confusion with no order",
+"ex": [
+"Snow and ice have caused chaos on the roads.",
+"Ever since our secretary walked out, the office has been in a state of total chaos."
+]
+},
+{
+"id": "v-chart-noun-1",
+"word": "chart",
+"pos": "noun",
+"def": "a drawing which shows information in a simple way, often using lines and curves to show amounts",
+"ex": [
+"a sales chart"
+]
+},
+{
+"id": "v-cheat-verb-1",
+"word": "cheat",
+"pos": "verb",
+"def": "to behave in a dishonest way in order to get what you want",
+"ex": [
+"Anyone caught cheating will be immediately disqualified from the exam.",
+"She was caught cheating in her French exam."
+]
+},
+{
+"id": "v-cheeky-adjective-1",
+"word": "cheeky",
+"pos": "adjective",
+"def": "slightly rude or showing no respect, but often in a funny way",
+"ex": [
+"She's got such a cheeky grin.",
+"Don't be so cheeky!"
+]
+},
+{
+"id": "v-cheer-verb-1",
+"word": "cheer",
+"pos": "verb",
+"def": "to give a loud shout of approval or encouragement",
+"ex": [
+"Everyone cheered as the winners received their medals.",
+"He was cheering for the other side."
+]
+},
+{
+"id": "v-cheerfully-adverb-1",
+"word": "cheerfully",
+"pos": "adverb",
+"def": "in a cheerful way",
+"ex": [
+"She walked down the road, whistling cheerfully."
+]
+},
+{
+"id": "v-chief-noun-1",
+"word": "chief",
+"pos": "noun",
+"def": "the person in charge of a group or organization",
+"ex": [
+"a police chief",
+"A new chief of the security forces has just been appointed."
+]
+},
+{
+"id": "v-chimney-noun-1",
+"word": "chimney",
+"pos": "noun",
+"def": "a hollow structure that allows the smoke from a fire inside a building to escape to the air outside",
+"ex": [
+"Factory chimneys belched dense white smoke into the sky."
+]
+},
+{
+"id": "v-choir-noun-1",
+"word": "choir",
+"pos": "noun",
+"def": "a group of people who sing together, often in a church or a school",
+"ex": [
+"He sings in the church choir."
+]
+},
+{
+"id": "v-chop-verb-1",
+"word": "chop",
+"pos": "verb",
+"def": "to cut something into pieces with an axe, knife, or other sharp instrument",
+"ex": [
+"Chop (up) the onions and carrots roughly."
+]
+},
+{
+"id": "v-circumstance-noun-1",
+"word": "circumstance",
+"pos": "noun",
+"def": "a fact or event that makes a situation the way it is",
+"ex": [
+"I think she coped very well under the circumstances.",
+"She died in suspicious circumstances."
+]
+},
+{
+"id": "v-classic-noun-1",
+"word": "classic",
+"pos": "noun",
+"def": "a piece of writing, a musical recording or a film which has been popular for a long time and is considered to be of a high quality",
+"ex": [
+"Jane Austen's 'Pride and Prejudice' is a classic of English literature.",
+"Many of the Rolling Stones' records have become rock classics."
+]
+},
+{
+"id": "v-clause-noun-1",
+"word": "clause",
+"pos": "noun",
+"def": "a group of words containing a subject and a verb, that is usually only part of a sentence",
+"ex": [
+"In the sentence 'I'll get you some stamps if I go to town', 'if I go to town' is a subordinate clause."
+]
+},
+{
+"id": "v-client-noun-1",
+"word": "client",
+"pos": "noun",
+"def": "someone who pays someone else for services or advice",
+"ex": [
+"We're losing a lot of our clients."
+]
+},
+{
+"id": "v-clue-noun-1",
+"word": "clue",
+"pos": "noun",
+"def": "a sign or some information that helps you to solve a problem or answer a question",
+"ex": [
+"Police are searching the area for clues to the murder.",
+"Police are still looking for clues in their search for the missing girl."
+]
+},
+{
+"id": "v-coach-verb-1",
+"word": "coach",
+"pos": "verb",
+"def": "to teach someone so they improve at a sport, skill, or in a school subject",
+"ex": [
+"She coaches students in French, usually for exams."
+]
+},
+{
+"id": "v-coaching-noun-1",
+"word": "coaching",
+"pos": "noun",
+"def": "additional teaching of a sport, a skill or a school subject",
+"ex": [
+"She has extra coaching in maths."
+]
+},
+{
+"id": "v-coastal-adjective-1",
+"word": "coastal",
+"pos": "adjective",
+"def": "situated on, or relating to the coast",
+"ex": [
+"a coastal town"
+]
+},
+{
+"id": "v-coincidence-noun-1",
+"word": "coincidence",
+"pos": "noun",
+"def": "when two very similar things happen at the same time but there is no reason for it",
+"ex": [
+"You chose exactly the same wallpaper as us - what a coincidence!",
+"Just by coincidence, I met my old school-mate again fifty years later."
+]
+},
+{
+"id": "v-collapse-noun-1",
+"word": "collapse",
+"pos": "noun",
+"def": "the sudden failure of a system, organization, business, etc.",
+"ex": [
+"A poor economy has caused the collapse of thousands of small businesses.",
+"Negotiations between the two countries are on the brink/verge of collapse."
+]
+},
+{
+"id": "v-colon-noun-1",
+"word": "colon",
+"pos": "noun",
+"def": "a mark (:) used before a list, an example, an explanation, etc.",
+"ex": [
+"There's a colon missing in that sentence."
+]
+},
+{
+"id": "v-commerce-noun-1",
+"word": "commerce",
+"pos": "noun",
+"def": "the activities involved in buying and selling things",
+"ex": [
+"the world of commerce and industry"
+]
+},
+{
+"id": "v-commercial-noun-1",
+"word": "commercial",
+"pos": "noun",
+"def": "an advertisement on the radio, on television, etc.",
+"ex": [
+"I tend to switch off during the commercials."
+]
+},
+{
+"id": "v-committee-noun-1",
+"word": "committee",
+"pos": "noun",
+"def": "a small group of people chosen to represent a larger organization and either make decisions or collect information for it",
+"ex": [
+"She is on the school's development committee.",
+"The local council have just set up a committee to study recycling."
+]
+},
+{
+"id": "v-companion-noun-1",
+"word": "companion",
+"pos": "noun",
+"def": "someone you spend a lot of time with or go somewhere with",
+"ex": [
+"a travelling companion",
+"Dan has been her constant companion these past ten years."
+]
+},
+{
+"id": "v-complex-adjective-1",
+"word": "complex",
+"pos": "adjective",
+"def": "involving a lot of different but connected parts in a way that is difficult to understand",
+"ex": [
+"a complex network of roads",
+"a complex procedure"
+]
+},
+{
+"id": "v-composer-noun-1",
+"word": "composer",
+"pos": "noun",
+"def": "someone who writes music",
+"ex": [
+"a famous composer"
+]
+},
+{
+"id": "v-compromise-noun-1",
+"word": "compromise",
+"pos": "noun",
+"def": "when you agree to something which is not exactly what you want",
+"ex": [
+"It is hoped that a compromise will be reached in today's talks.",
+"You've both got to be willing to make compromises."
+]
+},
+{
+"id": "v-concept-noun-1",
+"word": "concept",
+"pos": "noun",
+"def": "a principle or idea",
+"ex": [
+"the concept of free speech",
+"I failed to grasp the film's central concept."
+]
+},
+{
+"id": "v-concrete-noun-1",
+"word": "concrete",
+"pos": "noun",
+"def": "a very hard building material made by mixing together cement, sand, small stones and water",
+"ex": [
+"a concrete floor/path",
+"a grey concrete building"
+]
+},
+{
+"id": "v-conductor-noun-1",
+"word": "conductor",
+"pos": "noun",
+"def": "someone who stands in front of a group of musicians or singers and controls their performance",
+"ex": [
+"a famous conductor"
+]
+},
+{
+"id": "v-confess-verb-1",
+"word": "confess",
+"pos": "verb",
+"def": "to admit that you have done something wrong or something that you feel guilty or bad about",
+"ex": [
+"She confessed to her husband that she had sold her wedding ring.",
+"He has confessed to the murder."
+]
+},
+{
+"id": "v-confession-noun-1",
+"word": "confession",
+"pos": "noun",
+"def": "when you admit that you have done something wrong or illegal",
+"ex": [
+"He made a full confession to the police.",
+"I have a confession to make - I've lost that book you lent me."
+]
+},
+{
+"id": "v-congratulate-verb-1",
+"word": "congratulate",
+"pos": "verb",
+"def": "to tell someone that you are happy because they have done something good or something good has happened to them",
+"ex": [
+"I was just congratulating Ceri on winning her race."
+]
+},
+{
+"id": "v-constantly-adverb-1",
+"word": "constantly",
+"pos": "adverb",
+"def": "all the time or often",
+"ex": [
+"He's constantly changing his mind.",
+"She has the television on constantly."
+]
+},
+{
+"id": "v-construct-verb-1",
+"word": "construct",
+"pos": "verb",
+"def": "to build something from several parts",
+"ex": [
+"The building was constructed in 1930.",
+"The walls are constructed of concrete."
+]
+},
+{
+"id": "v-consultant-noun-1",
+"word": "consultant",
+"pos": "noun",
+"def": "someone who advises people on a particular subject",
+"ex": [
+"a management/financial consultant",
+"a firm of public relations consultants"
+]
+},
+{
+"id": "v-consumer-noun-1",
+"word": "consumer",
+"pos": "noun",
+"def": "a person who buys goods or services for their own use",
+"ex": [
+"The new telephone rates will affect all consumers including businesses."
+]
+},
+{
+"id": "v-container-noun-1",
+"word": "container",
+"pos": "noun",
+"def": "an object such as a box or a bottle that is used for holding something",
+"ex": [
+"an airtight container",
+"a plastic drinks container"
+]
+},
+{
+"id": "v-contemporary-adjective-1",
+"word": "contemporary",
+"pos": "adjective",
+"def": "existing or happening now",
+"ex": [
+"Although it was written hundreds of years ago, it still has a contemporary feel to it."
+]
+},
+{
+"id": "v-content-adjective-1",
+"word": "content",
+"pos": "adjective",
+"def": "pleased with your situation and not hoping for change or improvement",
+"ex": [
+"He seems fairly content with life.",
+"They're content to socialize with a very small circle of people."
+]
+},
+{
+"id": "v-contrast-noun-1",
+"word": "contrast",
+"pos": "noun",
+"def": "an obvious difference between two or more things",
+"ex": [
+"The contrast between their lifestyles couldn't be greater.",
+"The busy north coast of the island is in sharp contrast to the peaceful south."
+]
+},
+{
+"id": "v-controversial-adjective-1",
+"word": "controversial",
+"pos": "adjective",
+"def": "causing disagreement or discussion",
+"ex": [
+"a controversial issue/decision/speech/figure",
+"The book was very controversial."
+]
+},
+{
+"id": "v-conventional-adjective-1",
+"word": "conventional",
+"pos": "adjective",
+"def": "traditional and ordinary",
+"ex": [
+"I find his art rather dull and conventional."
+]
+},
+{
+"id": "v-cope-verb-1",
+"word": "cope",
+"pos": "verb",
+"def": "to deal successfully with a difficult situation",
+"ex": [
+"How does she cope with three small children and a job?",
+"It was too stressful and eventually he just couldn't cope."
+]
+},
+{
+"id": "v-copper-noun-1",
+"word": "copper",
+"pos": "noun",
+"def": "a reddish-brown metal used especially for making wire and coins, or the reddish brown colour of this metal",
+"ex": [
+"Rosie's hair shone like copper in the sunlight."
+]
+},
+{
+"id": "v-corporation-noun-1",
+"word": "corporation",
+"pos": "noun",
+"def": "a large company or group of companies that is controlled together as a single organization",
+"ex": [
+"a multinational corporation",
+"the British Broadcasting Corporation"
+]
+},
+{
+"id": "v-corridor-noun-1",
+"word": "corridor",
+"pos": "noun",
+"def": "a long passage in a building or train",
+"ex": [
+"Her office is at the end of the corridor."
+]
+},
+{
+"id": "v-council-noun-1",
+"word": "council",
+"pos": "noun",
+"def": "the group of people elected to govern a particular area, town or city, and organize services for it",
+"ex": [
+"Edinburgh City Council",
+"The local council has/have decided not to allocate funds for the project."
+]
+},
+{
+"id": "v-county-noun-1",
+"word": "county",
+"pos": "noun",
+"def": "the largest political division of a state or country",
+"ex": [
+"A county usually consists of several cities and towns and the rural areas surrounding them.",
+"Rutland used to be the smallest county in England, but in 1974 it became part of Leicestershire."
+]
+},
+{
+"id": "v-courage-noun-1",
+"word": "courage",
+"pos": "noun",
+"def": "the ability to deal with a dangerous or difficult situation without being frightened",
+"ex": [
+"I wanted to talk to him, but I didn't have the courage.",
+"People should have the courage to stand up for their beliefs."
+]
+},
+{
+"id": "v-courtesy-noun-1",
+"word": "courtesy",
+"pos": "noun",
+"def": "polite behaviour",
+"ex": [
+"Hotel staff must at all times treat guests with courtesy.",
+"He could at least have had the courtesy to say sorry."
+]
+},
+{
+"id": "v-coward-noun-1",
+"word": "coward",
+"pos": "noun",
+"def": "someone who is not brave and tries to avoid dangerous or difficult situations",
+"ex": [
+"You didn't talk to her? You coward!"
+]
+},
+{
+"id": "v-cowardly-adjective-1",
+"word": "cowardly",
+"pos": "adjective",
+"def": "behaving in a way that shows you are not brave",
+"ex": [
+"This was a particularly brutal and cowardly attack."
+]
+},
+{
+"id": "v-crack-verb-1",
+"word": "crack",
+"pos": "verb",
+"def": "to break something so that very thin lines appear on its surface but it does not separate, or to become broken in this way",
+"ex": [
+"A stone hit the window and cracked the glass.",
+"I cracked my tooth when I fell."
+]
+},
+{
+"id": "v-craft-noun-1",
+"word": "craft",
+"pos": "noun",
+"def": "an activity in which you make something using a lot of skill, especially with your hands",
+"ex": [
+"the craft of furniture-making/boat-building"
+]
+},
+{
+"id": "v-crisis-noun-1",
+"word": "crisis",
+"pos": "noun",
+"def": "a situation or time that is extremely dangerous or difficult",
+"ex": [
+"an economic/financial crisis",
+"The country's leadership is in crisis."
+]
+},
+{
+"id": "v-crocodile-noun-1",
+"word": "crocodile",
+"pos": "noun",
+"def": "a large reptile with a long mouth and sharp teeth, that lives in lakes and rivers",
+"ex": [
+"a crocodile-infested swamp"
+]
+},
+{
+"id": "v-crossroads-noun-1",
+"word": "crossroads",
+"pos": "noun",
+"def": "a place where two roads cross each other",
+"ex": [
+"Turn left at the crossroads."
+]
+},
+{
+"id": "v-crucial-adjective-1",
+"word": "crucial",
+"pos": "adjective",
+"def": "extremely important or necessary",
+"ex": [
+"a crucial decision/question",
+"Her work has been crucial to the project's success."
+]
+},
+{
+"id": "v-curiosity-noun-1",
+"word": "curiosity",
+"pos": "noun",
+"def": "the feeling of wanting to know or learn about something",
+"ex": [
+"My curiosity got the better of me and I opened the envelope.",
+"Just out of curiosity, how did you get my address?"
+]
+},
+{
+"id": "v-current-adjective-1",
+"word": "current",
+"pos": "adjective",
+"def": "happening or existing now",
+"ex": [
+"Is that your current address?",
+"Have you seen the current issue of Vogue magazine?"
+]
+},
+{
+"id": "v-currently-adverb-1",
+"word": "currently",
+"pos": "adverb",
+"def": "at the present time",
+"ex": [
+"The company currently employs around 750 people.",
+"The Director is currently having talks in the USA."
+]
+},
+{
+"id": "v-cursor-noun-1",
+"word": "cursor",
+"pos": "noun",
+"def": "a symbol on a computer screen which shows the place where you are working",
+"ex": [
+"Put the cursor over the word you want to look up."
+]
+},
+{
+"id": "v-curve-noun-1",
+"word": "curve",
+"pos": "noun",
+"def": "a line which bends round, like part of a circle",
+"ex": [
+"a curve in the road",
+"the curve of a graph"
+]
+},
+{
+"id": "v-damp-adjective-1",
+"word": "damp",
+"pos": "adjective",
+"def": "slightly wet, especially in a way that is not pleasant or comfortable",
+"ex": [
+"The grass is still damp.",
+"This shirt still feels a bit damp."
+]
+},
+{
+"id": "v-darling-noun-1",
+"word": "darling",
+"pos": "noun",
+"def": "used when you speak to someone you love or like",
+"ex": [
+"Would you like a drink, darling?"
+]
+},
+{
+"id": "v-dash-verb-1",
+"word": "dash",
+"pos": "verb",
+"def": "to go somewhere quickly",
+"ex": [
+"I've been dashing around all day.",
+"I must dash - I've got to be home by seven."
+]
+},
+{
+"id": "v-database-noun-1",
+"word": "database",
+"pos": "noun",
+"def": "a large amount of information stored in a computer system in such a way that it can be easily looked at or changed",
+"ex": [
+"We're linked to the online database at our head office."
+]
+},
+{
+"id": "v-dawn-noun-1",
+"word": "dawn",
+"pos": "noun",
+"def": "the early morning when light first appears in the sky",
+"ex": [
+"We woke at dawn.",
+"We left as dawn was breaking."
+]
+},
+{
+"id": "v-daylight-noun-1",
+"word": "daylight",
+"pos": "noun",
+"def": "the natural light from the sun",
+"ex": [
+"The colours look much better in daylight."
+]
+},
+{
+"id": "v-daytime-noun-1",
+"word": "daytime",
+"pos": "noun",
+"def": "the period of the day when there is light from the sun, or the period when most people are at work",
+"ex": [
+"I tend to sleep in/during the daytime and study at night.",
+"a regular daytime job"
+]
+},
+{
+"id": "v-deadline-noun-1",
+"word": "deadline",
+"pos": "noun",
+"def": "a time or day by which something must be done",
+"ex": [
+"There's no way I can meet that deadline.",
+"We're working to a tight deadline."
+]
+},
+{
+"id": "v-debate-noun-1",
+"word": "debate",
+"pos": "noun",
+"def": "(a) discussion or argument about a subject in which many people take part",
+"ex": [
+"Education is the current focus of public debate.",
+"How we proceed from here is a matter for debate."
+]
+},
+{
+"id": "v-debit-verb-1",
+"word": "debit",
+"pos": "verb",
+"def": "to take money out of a bank account",
+"ex": [
+"£20 has been debited from my account."
+]
+},
+{
+"id": "v-debit-noun-1",
+"word": "debit",
+"pos": "noun",
+"def": "money taken out of a bank account, or a record of this",
+"ex": [
+"The statement shows your most recent debits."
+]
+},
+{
+"id": "v-decade-noun-1",
+"word": "decade",
+"pos": "noun",
+"def": "a period of ten years, especially a period such as 1860 to 1869, or 1990 to 1999",
+"ex": [
+"The building was due to be knocked down decades ago."
+]
+},
+{
+"id": "v-decay-verb-1",
+"word": "decay",
+"pos": "verb",
+"def": "to become gradually damaged or to cause something to become gradually damaged",
+"ex": [
+"Sugar makes your teeth decay.",
+"Pollution has decayed the surface of the stonework on the front of the cathedral."
+]
+},
+{
+"id": "v-deck-noun-1",
+"word": "deck",
+"pos": "noun",
+"def": "the flat area of a ship or boat that is not covered",
+"ex": [
+"We sat on deck until it was dark."
+]
+},
+{
+"id": "v-decline-noun-1",
+"word": "decline",
+"pos": "noun",
+"def": "when something becomes less in amount, importance, quality or strength",
+"ex": [
+"Home cooking seems to be on the/in decline.",
+"a sharp decline in sales"
+]
+},
+{
+"id": "v-deliberate-adjective-1",
+"word": "deliberate",
+"pos": "adjective",
+"def": "done intentionally or planned",
+"ex": [
+"a deliberate attack/insult/lie",
+"This was a deliberate attempt to mislead us."
+]
+},
+{
+"id": "v-deliberately-adverb-1",
+"word": "deliberately",
+"pos": "adverb",
+"def": "intentionally",
+"ex": [
+"I'm sure he says these things deliberately to annoy me."
+]
+},
+{
+"id": "v-delight-noun-1",
+"word": "delight",
+"pos": "noun",
+"def": "(something or someone that gives) great pleasure, satisfaction or happiness",
+"ex": [
+"The children screamed with delight.",
+"My sister's little boy is a real delight."
+]
+},
+{
+"id": "v-delightful-adjective-1",
+"word": "delightful",
+"pos": "adjective",
+"def": "very pleasant, attractive, or enjoyable",
+"ex": [
+"We had a delightful evening."
+]
+},
+{
+"id": "v-denim-noun-1",
+"word": "denim",
+"pos": "noun",
+"def": "thick, strong, cotton cloth, often blue in colour, used especially for making jeans",
+"ex": [
+"a denim jacket and jeans"
+]
+},
+{
+"id": "v-dense-adjective-1",
+"word": "dense",
+"pos": "adjective",
+"def": "thick and difficult to see through",
+"ex": [
+"a dense forest"
+]
+},
+{
+"id": "v-densely-adverb-1",
+"word": "densely",
+"pos": "adverb",
+"def": "with a lot of things close together",
+"ex": [
+"England was once a densely wooded country.",
+"Mexico City is one of the most densely populated cities in the world."
+]
+},
+{
+"id": "v-depressing-adjective-1",
+"word": "depressing",
+"pos": "adjective",
+"def": "making you feel unhappy and without hope for the future",
+"ex": [
+"I find this weather so depressing.",
+"Her letter made depressing reading."
+]
+},
+{
+"id": "v-deprive-verb-1",
+"word": "deprive",
+"pos": "verb",
+"def": "to take something, especially something necessary or pleasant, away from someone",
+"ex": [
+"He claimed that he had been deprived of his freedom/rights.",
+"You can't function properly when you're deprived of sleep."
+]
+},
+{
+"id": "v-descend-verb-1",
+"word": "descend",
+"pos": "verb",
+"def": "to go or come down",
+"ex": [
+"The path descended steeply into the valley.",
+"Jane descended the stairs."
+]
+},
+{
+"id": "v-despair-noun-1",
+"word": "despair",
+"pos": "noun",
+"def": "a feeling of having no hope",
+"ex": [
+"a mood/sense of despair",
+"They're in the depths of despair over/about the money they've lost."
+]
+},
+{
+"id": "v-detailed-adjective-1",
+"word": "detailed",
+"pos": "adjective",
+"def": "giving a lot of information",
+"ex": [
+"A witness gave a detailed description of the man."
+]
+},
+{
+"id": "v-device-noun-1",
+"word": "device",
+"pos": "noun",
+"def": "a piece of equipment that is used for a particular purpose",
+"ex": [
+"an electronic device",
+"Rescuers used a special device for finding people trapped in collapsed buildings."
+]
+},
+{
+"id": "v-devoted-adjective-1",
+"word": "devoted",
+"pos": "adjective",
+"def": "extremely loving or caring very much about someone or something",
+"ex": [
+"a devoted fan/husband/wife",
+"Lucy is devoted to her cats."
+]
+},
+{
+"id": "v-dilemma-noun-1",
+"word": "dilemma",
+"pos": "noun",
+"def": "a situation in which a difficult choice has to be made between two different things you could do",
+"ex": [
+"The President is clearly in a dilemma about/over how to tackle the crisis.",
+"She faces the dilemma of disobeying her father or losing the man she loves."
+]
+},
+{
+"id": "v-diplomat-noun-1",
+"word": "diplomat",
+"pos": "noun",
+"def": "an official whose job is to represent one country in another, and who usually works in an embassy",
+"ex": [
+"a Spanish/British diplomat"
+]
+},
+{
+"id": "v-disgrace-noun-1",
+"word": "disgrace",
+"pos": "noun",
+"def": "when someone does something very bad that makes people stop respecting them or their family, team, etc.",
+"ex": [
+"They were sent home in disgrace.",
+"He brought disgrace on the whole team."
+]
+},
+{
+"id": "v-disguise-noun-1",
+"word": "disguise",
+"pos": "noun",
+"def": "clothes and other things that you wear to change the way you look so that people cannot recognize you",
+"ex": [
+"She usually goes out in disguise to avoid being bothered by the public."
+]
+},
+{
+"id": "v-disposal-noun-1",
+"word": "disposal",
+"pos": "noun",
+"def": "when you get rid of something, especially by throwing it away",
+"ex": [
+"the disposal of hazardous substances"
+]
+},
+{
+"id": "v-disrupt-verb-1",
+"word": "disrupt",
+"pos": "verb",
+"def": "to interrupt something and stop it continuing as it should",
+"ex": [
+"A heavy fall of snow had disrupted the city's transport system.",
+"The meeting was disrupted by a group of protesters who shouted and threw fruit at the speaker."
+]
+},
+{
+"id": "v-distinguished-adjective-1",
+"word": "distinguished",
+"pos": "adjective",
+"def": "famous, praised, or admired",
+"ex": [
+"a distinguished writer"
+]
+},
+{
+"id": "v-distract-verb-1",
+"word": "distract",
+"pos": "verb",
+"def": "to make someone stop giving their attention to something",
+"ex": [
+"Don't distract her from her studies.",
+"He tried to distract attention from his own illegal activities."
+]
+},
+{
+"id": "v-distressing-adjective-1",
+"word": "distressing",
+"pos": "adjective",
+"def": "making you feel extremely worried or upset",
+"ex": [
+"a distressing experience"
+]
+},
+{
+"id": "v-diverse-adjective-1",
+"word": "diverse",
+"pos": "adjective",
+"def": "varied or different",
+"ex": [
+"Students from countries as diverse as Colombia and Lithuania use Cambridge textbooks.",
+"New York is a very culturally/ethnically diverse city."
+]
+},
+{
+"id": "v-dizzy-adjective-1",
+"word": "dizzy",
+"pos": "adjective",
+"def": "feeling as if everything is turning round, so that you feel ill or as if you might fall",
+"ex": [
+"Going without sleep for a long time makes me feel dizzy and light-headed.",
+"I felt quite dizzy with excitement as I went up to collect the award."
+]
+},
+{
+"id": "v-donation-noun-1",
+"word": "donation",
+"pos": "noun",
+"def": "when money or goods are given to help a person or organization",
+"ex": [
+"donations of food and money",
+"I'd like to make a small donation in my mother's name."
+]
+},
+{
+"id": "v-dose-noun-1",
+"word": "dose",
+"pos": "noun",
+"def": "a measured amount of something such as medicine",
+"ex": [
+"a high/low dose",
+"a dose of penicillin"
+]
+},
+{
+"id": "v-double-verb-1",
+"word": "double",
+"pos": "verb",
+"def": "to become twice the original size or amount, or to make something do this",
+"ex": [
+"The government aims to double the number of students in higher education within 25 years.",
+"Company profits have doubled since the introduction of new technology."
+]
+},
+{
+"id": "v-draft-noun-1",
+"word": "draft",
+"pos": "noun",
+"def": "a piece of writing or a plan that is not yet in its finished form",
+"ex": [
+"This is only a rough draft - the finished article will have pictures as well.",
+"She asked me to check the first draft of her proposal."
+]
+},
+{
+"id": "v-dramatic-adjective-1",
+"word": "dramatic",
+"pos": "adjective",
+"def": "very sudden or noticeable, or full of action and excitement",
+"ex": [
+"a dramatic change/improvement",
+"We watched scenes of the dramatic rescue on the news."
+]
+},
+{
+"id": "v-dramatically-adverb-1",
+"word": "dramatically",
+"pos": "adverb",
+"def": "suddenly or obviously",
+"ex": [
+"Your life changes dramatically when you have a baby."
+]
+},
+{
+"id": "v-dreadful-adjective-1",
+"word": "dreadful",
+"pos": "adjective",
+"def": "extremely bad or unpleasant",
+"ex": [
+"The food was bad and the service was dreadful.",
+"I was beginning to think I'd made a dreadful mistake."
+]
+},
+{
+"id": "v-eager-adjective-1",
+"word": "eager",
+"pos": "adjective",
+"def": "wanting to do or have something very much",
+"ex": [
+"She sounded very eager to meet you.",
+"They crowded round the spokesperson, eager for any news."
+]
+},
+{
+"id": "v-eagerly-adverb-1",
+"word": "eagerly",
+"pos": "adverb",
+"def": "in an eager way",
+"ex": [
+"an eagerly awaited announcement"
+]
+},
+{
+"id": "v-eagerness-noun-1",
+"word": "eagerness",
+"pos": "noun",
+"def": "when you are eager to do something",
+"ex": [
+"In their eagerness to find a solution, they have overlooked certain difficulties."
+]
+},
+{
+"id": "v-earnings-noun-1",
+"word": "earnings",
+"pos": "noun",
+"def": "money that you get for working",
+"ex": [
+"Average earnings for skilled workers are rising."
+]
+},
+{
+"id": "v-earthquake-noun-1",
+"word": "earthquake",
+"pos": "noun",
+"def": "a sudden movement of the Earth's surface, often causing severe damage",
+"ex": [
+"A powerful earthquake struck eastern Turkey last night."
+]
+},
+{
+"id": "v-ecological-adjective-1",
+"word": "ecological",
+"pos": "adjective",
+"def": "relating to ecology or the environment",
+"ex": [
+"The destruction of the rain forests is an ecological disaster."
+]
+},
+{
+"id": "v-ecologically-adverb-1",
+"word": "ecologically",
+"pos": "adverb",
+"def": "in a way that relates to ecology or the environment",
+"ex": [
+"It's an ecologically friendly/sound means of transport."
+]
+},
+{
+"id": "v-edit-verb-1",
+"word": "edit",
+"pos": "verb",
+"def": "to prepare text, film, etc. by deciding what to include and by correcting mistakes",
+"ex": [
+"Janet edited books for a variety of publishers.",
+"The film's 129 minutes were edited down from 150 hours of footage."
+]
+},
+{
+"id": "v-edition-noun-1",
+"word": "edition",
+"pos": "noun",
+"def": "a book, newspaper, etc. that is one of several that are the same and were produced at the same time",
+"ex": [
+"a new edition",
+"the paperback/hardback edition of the dictionary"
+]
+},
+{
+"id": "v-editor-noun-1",
+"word": "editor",
+"pos": "noun",
+"def": "a person who corrects or changes text, film, etc., or a person who is in charge of a newspaper or magazine",
+"ex": [
+"She's a senior editor in the reference department of a publishing company.",
+"Who is the current editor of the Times?"
+]
+},
+{
+"id": "v-efficiency-noun-1",
+"word": "efficiency",
+"pos": "noun",
+"def": "when someone or something uses time and energy well, without wasting any",
+"ex": [
+"What is so impressive about their society is the efficiency of the public services."
+]
+},
+{
+"id": "v-efficiently-adverb-1",
+"word": "efficiently",
+"pos": "adverb",
+"def": "quickly and effectively in an organized way",
+"ex": [
+"She runs the business very efficiently."
+]
+},
+{
+"id": "v-elegant-adjective-1",
+"word": "elegant",
+"pos": "adjective",
+"def": "stylish and attractive",
+"ex": [
+"She's a very elegant woman.",
+"Tara looked very elegant in a simple black dress."
+]
+},
+{
+"id": "v-elsewhere-adverb-1",
+"word": "elsewhere",
+"pos": "adverb",
+"def": "in or to another place",
+"ex": [
+"The report looks at economic growth in Europe and elsewhere.",
+"They couldn't find what they wanted and decided to look elsewhere."
+]
+},
+{
+"id": "v-encounter-verb-1",
+"word": "encounter",
+"pos": "verb",
+"def": "to experience something unpleasant",
+"ex": [
+"We encountered quite a few problems at the beginning."
+]
+},
+{
+"id": "v-endure-verb-1",
+"word": "endure",
+"pos": "verb",
+"def": "to suffer something difficult, unpleasant or painful",
+"ex": [
+"We had to endure a nine-hour delay at the airport.",
+"She's already had to endure three painful operations on her leg."
+]
+},
+{
+"id": "v-enquire-verb-1",
+"word": "enquire",
+"pos": "verb",
+"def": "to ask someone for information about something",
+"ex": [
+"I'm enquiring about dentists in the area.",
+"\"Are you staying long?\" she enquired."
+]
+},
+{
+"id": "v-ensure-verb-1",
+"word": "ensure",
+"pos": "verb",
+"def": "to make something certain to happen",
+"ex": [
+"Please ensure that all examination papers have your name at the top."
+]
+},
+{
+"id": "v-entire-adjective-1",
+"word": "entire",
+"pos": "adjective",
+"def": "whole or complete, with nothing missing",
+"ex": [
+"Between them they ate an entire cake.",
+"He'd spent the entire journey asleep."
+]
+},
+{
+"id": "v-entirely-adverb-1",
+"word": "entirely",
+"pos": "adverb",
+"def": "completely",
+"ex": [
+"I admit it was entirely my fault.",
+"I'm not entirely convinced it will work."
+]
+},
+{
+"id": "v-envy-noun-1",
+"word": "envy",
+"pos": "noun",
+"def": "the feeling that you wish you had something that someone else has",
+"ex": [
+"I watched with envy as she set off for the airport."
+]
+},
+{
+"id": "v-envy-verb-1",
+"word": "envy",
+"pos": "verb",
+"def": "to wish that you had something that someone else has",
+"ex": [
+"I envy her ability to talk to people she's never met before.",
+"I don't envy you the job of cooking for all those people."
+]
+},
+{
+"id": "v-equal-noun-1",
+"word": "equal",
+"pos": "noun",
+"def": "someone or something that has the same importance as someone or something else and deserves the same treatment",
+"ex": [
+"The good thing about having her as a boss is that she treats us all as equals."
+]
+},
+{
+"id": "v-equip-verb-1",
+"word": "equip",
+"pos": "verb",
+"def": "to provide someone or something with what is needed for a particular purpose",
+"ex": [
+"They're raising money to equip the hospital."
+]
+},
+{
+"id": "v-era-noun-1",
+"word": "era",
+"pos": "noun",
+"def": "a period of time in history that is special for a particular reason",
+"ex": [
+"the Clinton era",
+"the post-war era"
+]
+},
+{
+"id": "v-error-noun-1",
+"word": "error",
+"pos": "noun",
+"def": "a mistake",
+"ex": [
+"He admitted that he'd made an error.",
+"The letter contained a number of typing errors."
+]
+},
+{
+"id": "v-escalator-noun-1",
+"word": "escalator",
+"pos": "noun",
+"def": "moving stairs that take people from one level of a building to another",
+"ex": [
+"I'll meet you by the up/down escalator on the second floor.",
+"Shall we use the lift or take the escalator?"
+]
+},
+{
+"id": "v-estimated-adjective-1",
+"word": "estimated",
+"pos": "adjective",
+"def": "guessed",
+"ex": [
+"an estimated cost/value"
+]
+},
+{
+"id": "v-evident-adjective-1",
+"word": "evident",
+"pos": "adjective",
+"def": "obvious to everyone and easy to see or understand",
+"ex": [
+"The full extent of the damage only became evident the following morning.",
+"From the smell it was evident that the drains had been blocked for several days."
+]
+},
+{
+"id": "v-evidently-adverb-1",
+"word": "evidently",
+"pos": "adverb",
+"def": "in a way that is easy to see",
+"ex": [
+"He evidently likes her."
+]
+},
+{
+"id": "v-evil-adjective-1",
+"word": "evil",
+"pos": "adjective",
+"def": "very cruel, bad or harmful",
+"ex": [
+"an evil monster",
+"These people are just evil."
+]
+},
+{
+"id": "v-evil-noun-1",
+"word": "evil",
+"pos": "noun",
+"def": "something that is very bad and harmful",
+"ex": [
+"Drug-addiction is one of today's great social evils.",
+"The theme of the play is the battle between good and evil."
+]
+},
+{
+"id": "v-exception-noun-1",
+"word": "exception",
+"pos": "noun",
+"def": "someone or something that is not included in a rule, group or list or that does not behave in the expected way",
+"ex": [
+"There are exceptions to every rule.",
+"I like all kinds of films with the exception of horror films."
+]
+},
+{
+"id": "v-exhausting-adjective-1",
+"word": "exhausting",
+"pos": "adjective",
+"def": "making you feel extremely tired",
+"ex": [
+"I've had an exhausting day."
+]
+},
+{
+"id": "v-exhaustion-noun-1",
+"word": "exhaustion",
+"pos": "noun",
+"def": "when you are extremely tired",
+"ex": [
+"She felt ill with exhaustion.",
+"The tennis star is said to be suffering from exhaustion."
+]
+},
+{
+"id": "v-expand-verb-1",
+"word": "expand",
+"pos": "verb",
+"def": "to increase in size or amount, or to make something increase in this way",
+"ex": [
+"The air in the balloon expands when heated.",
+"They expanded their retail operations during the 1980s."
+]
+},
+{
+"id": "v-expansion-noun-1",
+"word": "expansion",
+"pos": "noun",
+"def": "when something increases in size or amount",
+"ex": [
+"These years saw the rapid expansion of the software industry."
+]
+},
+{
+"id": "v-expected-adjective-1",
+"word": "expected",
+"pos": "adjective",
+"def": "thought likely to happen or be true",
+"ex": [
+"The expected power cuts never happened."
+]
+},
+{
+"id": "v-export-noun-1",
+"word": "export",
+"pos": "noun",
+"def": "a product that you sell in another country or the business of selling products in another country",
+"ex": [
+"Coffee is one of Brazil's main exports.",
+"The export of ivory is now strictly controlled."
+]
+},
+{
+"id": "v-export-verb-1",
+"word": "export",
+"pos": "verb",
+"def": "to send goods to another country for sale",
+"ex": [
+"French cheeses are exported to many different countries.",
+"Our clothes sell so well in this country that we have no need to export."
+]
+},
+{
+"id": "v-expose-verb-1",
+"word": "expose",
+"pos": "verb",
+"def": "to make public something bad or dishonest",
+"ex": [
+"The review exposed widespread corruption in the police force.",
+"The newspaper story exposed him as a liar."
+]
+},
+{
+"id": "v-extensive-adjective-1",
+"word": "extensive",
+"pos": "adjective",
+"def": "large in amount or size",
+"ex": [
+"Fire had caused extensive damage to the building.",
+"This is probably the most extensive modern art collection in Europe."
+]
+},
+{
+"id": "v-extent-noun-1",
+"word": "extent",
+"pos": "noun",
+"def": "the size or importance of something",
+"ex": [
+"They are just beginning to realize the full extent of the damage.",
+"Her face was injured to such an extent that we didn't recognize her."
+]
+},
+{
+"id": "v-extract-verb-1",
+"word": "extract",
+"pos": "verb",
+"def": "to remove or take out something",
+"ex": [
+"The oil which is extracted from olives is used mainly for cooking.",
+"The tooth was eventually extracted."
+]
+},
+{
+"id": "v-extract-noun-1",
+"word": "extract",
+"pos": "noun",
+"def": "a short part of a book, poem, etc.",
+"ex": [
+"They published an extract from his autobiography."
+]
+},
+{
+"id": "v-extraordinarily-adverb-1",
+"word": "extraordinarily",
+"pos": "adverb",
+"def": "very",
+"ex": [
+"She is, it must be said, extraordinarily beautiful."
+]
+},
+{
+"id": "v-eyebrow-noun-1",
+"word": "eyebrow",
+"pos": "noun",
+"def": "the thin line of hair that is above each eye",
+"ex": [
+"He's got really bushy eyebrows."
+]
+},
+{
+"id": "v-eyelid-noun-1",
+"word": "eyelid",
+"pos": "noun",
+"def": "the piece of skin that covers your eyes when you close them",
+"ex": [
+"His eyelids drooped with tiredness."
+]
+},
+{
+"id": "v-eyesight-noun-1",
+"word": "eyesight",
+"pos": "noun",
+"def": "the ability to see",
+"ex": [
+"My eyesight is getting worse."
+]
+},
+{
+"id": "v-facility-noun-1",
+"word": "facility",
+"pos": "noun",
+"def": "a part of a system or machine which makes it possible to do something",
+"ex": [
+"an overdraft facility"
+]
+},
+{
+"id": "v-factor-noun-1",
+"word": "factor",
+"pos": "noun",
+"def": "one of the things that has an effect on a situation, decision, event, etc.",
+"ex": [
+"Money was an important factor in their decision to move.",
+"Price is an important/key/major factor in the success of any product."
+]
+},
+{
+"id": "v-fade-verb-1",
+"word": "fade",
+"pos": "verb",
+"def": "to become less bright, strong or clear, or to make something become less bright, strong or clear",
+"ex": [
+"If you hang your clothes out in the bright sun, they will fade.",
+"My suntan is already fading."
+]
+},
+{
+"id": "v-faint-adjective-1",
+"word": "faint",
+"pos": "adjective",
+"def": "slight and not easy to notice, smell, hear, etc.",
+"ex": [
+"a faint sound/noise/smell",
+"She gave me a faint smile."
+]
+},
+{
+"id": "v-faint-verb-1",
+"word": "faint",
+"pos": "verb",
+"def": "to suddenly become unconscious for a short time, usually falling down",
+"ex": [
+"He faints at the sight of blood.",
+"I nearly fainted in the heat."
+]
+},
+{
+"id": "v-fantastically-adverb-1",
+"word": "fantastically",
+"pos": "adverb",
+"def": "extremely",
+"ex": [
+"They're fantastically rich.",
+"They're doing fantastically well."
+]
+},
+{
+"id": "v-fantasy-noun-1",
+"word": "fantasy",
+"pos": "noun",
+"def": "a situation or event that you imagine, which is not real or true",
+"ex": [
+"Steve's favourite fantasy was to own a big house and a flashy car.",
+"She retreated into a fantasy world, where she could be anything she wanted."
+]
+},
+{
+"id": "v-far-adjective-1",
+"word": "far",
+"pos": "adjective",
+"def": "describes the part of something that is most distant from the centre or from you",
+"ex": [
+"His office is at the far end of the corridor.",
+"The children ran to the far side/corner of the room."
+]
+},
+{
+"id": "v-fascinated-adjective-1",
+"word": "fascinated",
+"pos": "adjective",
+"def": "extremely interested",
+"ex": [
+"They were fascinated by his stories."
+]
+},
+{
+"id": "v-fascinating-adjective-1",
+"word": "fascinating",
+"pos": "adjective",
+"def": "extremely interesting",
+"ex": [
+"a fascinating person/place",
+"I found the movie fascinating."
+]
+},
+{
+"id": "v-feather-noun-1",
+"word": "feather",
+"pos": "noun",
+"def": "one of the soft, light things that grow from and cover a bird's skin",
+"ex": [
+"I found a peacock's feather."
+]
+},
+{
+"id": "v-feature-verb-1",
+"word": "feature",
+"pos": "verb",
+"def": "to include someone or something as an important part",
+"ex": [
+"The film features James Dean as a disaffected teenager.",
+"This week's broadcast features a report on victims of domestic violence."
+]
+},
+{
+"id": "v-feedback-noun-1",
+"word": "feedback",
+"pos": "noun",
+"def": "information or opinions about something, such as a new product, that provide an idea of whether it is successful or liked",
+"ex": [
+"Have you had any feedback from customers about the product?"
+]
+},
+{
+"id": "v-fellow-adjective-1",
+"word": "fellow",
+"pos": "adjective",
+"def": "describes someone who has the same job or interests as you, or is in the same situation as you",
+"ex": [
+"She introduced me to some of her fellow students.",
+"Our fellow travellers were mostly Spanish-speaking tourists."
+]
+},
+{
+"id": "v-fence-noun-1",
+"word": "fence",
+"pos": "noun",
+"def": "a wood, wire or metal structure which divides or goes around an area of land",
+"ex": [
+"a garden fence"
+]
+},
+{
+"id": "v-fighting-noun-1",
+"word": "fighting",
+"pos": "noun",
+"def": "when people fight, especially in a war",
+"ex": [
+"Fierce fighting has continued all day."
+]
+},
+{
+"id": "v-finance-verb-1",
+"word": "finance",
+"pos": "verb",
+"def": "to provide the money needed for something to happen",
+"ex": [
+"The local authority has refused to finance the scheme."
+]
+},
+{
+"id": "v-finance-noun-1",
+"word": "finance",
+"pos": "noun",
+"def": "the control of how large amounts of money should be spent",
+"ex": [
+"the finance minister",
+"You need to speak to someone in the finance department."
+]
+},
+{
+"id": "v-financially-adverb-1",
+"word": "financially",
+"pos": "adverb",
+"def": "in a way that relates to money or how money is managed",
+"ex": [
+"He's still financially dependent on his parents."
+]
+},
+{
+"id": "v-fine-verb-1",
+"word": "fine",
+"pos": "verb",
+"def": "to charge someone an amount of money as a punishment for not obeying a rule or law",
+"ex": [
+"Drivers who break the speed limit can expect to be fined heavily.",
+"They fined him $100 for using threatening behaviour."
+]
+},
+{
+"id": "v-fine-adverb-1",
+"word": "fine",
+"pos": "adverb",
+"def": "very well or without any problems",
+"ex": [
+"\"How did your exam go?\" \"It went fine, I think.\"",
+"The car was working fine yesterday."
+]
+},
+{
+"id": "v-finely-adverb-1",
+"word": "finely",
+"pos": "adverb",
+"def": "into small pieces",
+"ex": [
+"Finely chop the onion."
+]
+},
+{
+"id": "v-fingernail-noun-1",
+"word": "fingernail",
+"pos": "noun",
+"def": "the hard part that covers and protects the top of the end of your finger",
+"ex": [
+"She had bright red fingernails."
+]
+},
+{
+"id": "v-flame-noun-1",
+"word": "flame",
+"pos": "noun",
+"def": "hot, bright, burning gas produced by something on fire",
+"ex": [
+"The flames grew larger as the fire spread.",
+"When the fire engine arrived the house was already in flames."
+]
+},
+{
+"id": "v-flexibility-noun-1",
+"word": "flexibility",
+"pos": "noun",
+"def": "the ability to change or be changed easily according to the situation",
+"ex": [
+"The advantage of this system is its flexibility."
+]
+},
+{
+"id": "v-fluency-noun-1",
+"word": "fluency",
+"pos": "noun",
+"def": "when someone is fluent in a language",
+"ex": [
+"One of the requirements of the job is fluency in two or more African languages."
+]
+},
+{
+"id": "v-fluently-adverb-1",
+"word": "fluently",
+"pos": "adverb",
+"def": "in a way that is fluent",
+"ex": [
+"I'd like to speak English fluently."
+]
+},
+{
+"id": "v-fond-adjective-1",
+"word": "fond",
+"pos": "adjective",
+"def": "expressing or causing happy feelings",
+"ex": [
+"Many of us have fond memories of our childhoods."
+]
+},
+{
+"id": "v-fool-verb-1",
+"word": "fool",
+"pos": "verb",
+"def": "to trick someone",
+"ex": [
+"Don't be fooled by his appearance.",
+"She said she was doing it to help me but I wasn't fooled."
+]
+},
+{
+"id": "v-foolish-adjective-1",
+"word": "foolish",
+"pos": "adjective",
+"def": "stupid and not wise",
+"ex": [
+"It would be foolish to pay more.",
+"I thought I might look foolish if I refused."
+]
+},
+{
+"id": "v-foolishly-adverb-1",
+"word": "foolishly",
+"pos": "adverb",
+"def": "in a foolish way, or because of being foolish",
+"ex": [
+"Foolishly, I didn't write the phone number down."
+]
+},
+{
+"id": "v-forbid-verb-1",
+"word": "forbid",
+"pos": "verb",
+"def": "to order someone not to do something, or to say that something must not happen",
+"ex": [
+"I forbid you to see that boy again!",
+"The law forbids the sale of cigarettes to underage people."
+]
+},
+{
+"id": "v-formerly-adverb-1",
+"word": "formerly",
+"pos": "adverb",
+"def": "in the past",
+"ex": [
+"The European Union was formerly called the European Community."
+]
+},
+{
+"id": "v-fox-noun-1",
+"word": "fox",
+"pos": "noun",
+"def": "a wild animal like a dog with red-brown fur, a pointed nose, and a long, thick tail",
+"ex": [
+"A fox came in the night and killed the chickens."
+]
+},
+{
+"id": "v-frankly-adverb-1",
+"word": "frankly",
+"pos": "adverb",
+"def": "used when giving an honest and direct opinion, often one that might upset someone",
+"ex": [
+"Quite frankly, I think this whole situation is ridiculous."
+]
+},
+{
+"id": "v-frustration-noun-1",
+"word": "frustration",
+"pos": "noun",
+"def": "the feeling of being annoyed because things are not happening in the way that you want, or in the way that they should",
+"ex": [
+"I could sense his frustration at not being able to help."
+]
+},
+{
+"id": "v-funeral-noun-1",
+"word": "funeral",
+"pos": "noun",
+"def": "a ceremony for burying or burning the body of a dead person",
+"ex": [
+"The funeral will be held next Friday.",
+"Over 300 people attended the funeral."
+]
+},
+{
+"id": "v-furious-adjective-1",
+"word": "furious",
+"pos": "adjective",
+"def": "extremely angry",
+"ex": [
+"I was late and he was furious with me.",
+"He's furious about/at the way he's been treated."
+]
+},
+{
+"id": "v-furiously-adverb-1",
+"word": "furiously",
+"pos": "adverb",
+"def": "in a very angry way",
+"ex": [
+"\"Get out of here!\" she shouted furiously."
+]
+},
+{
+"id": "v-furthermore-adverb-1",
+"word": "furthermore",
+"pos": "adverb",
+"def": "in addition to what has just been said",
+"ex": [
+"Furthermore, we have a duty to defend our country.",
+"Furthermore, we found that the results varied according to what time of day the sample was taken."
+]
+},
+{
+"id": "v-genetics-noun-1",
+"word": "genetics",
+"pos": "noun",
+"def": "the scientific study of the parts of cells which control particular characteristics (genes)",
+"ex": [
+"Next year, I'll be studying genetics."
+]
+},
+{
+"id": "v-genuinely-adverb-1",
+"word": "genuinely",
+"pos": "adverb",
+"def": "in a genuine or sincere way",
+"ex": [
+"I'm genuinely sorry for the extra work this has caused."
+]
+},
+{
+"id": "v-glance-noun-1",
+"word": "glance",
+"pos": "noun",
+"def": "a quick look",
+"ex": [
+"She had a quick glance around the restaurant but couldn't see him."
+]
+},
+{
+"id": "v-global-adjective-1",
+"word": "global",
+"pos": "adjective",
+"def": "relating to the whole world",
+"ex": [
+"a global disaster",
+"the global problem of nuclear waste"
+]
+},
+{
+"id": "v-globally-adverb-1",
+"word": "globally",
+"pos": "adverb",
+"def": "in a way that relates to the whole world",
+"ex": [
+"The company has to be able to compete globally."
+]
+},
+{
+"id": "v-god-noun-1",
+"word": "god",
+"pos": "noun",
+"def": "a spirit, especially a male one, that people pray to and who has control over parts of the world or nature",
+"ex": [
+"the ancient Greek gods and goddesses"
+]
+},
+{
+"id": "v-gossip-verb-1",
+"word": "gossip",
+"pos": "verb",
+"def": "to talk about other people's private lives",
+"ex": [
+"Stop gossiping and get on with some work!",
+"People have started to gossip about us."
+]
+},
+{
+"id": "v-gossip-noun-1",
+"word": "gossip",
+"pos": "noun",
+"def": "conversation or reports about other people's private lives that might or might not be true",
+"ex": [
+"an interesting piece of gossip",
+"Have you heard the latest gossip?"
+]
+},
+{
+"id": "v-gradual-adjective-1",
+"word": "gradual",
+"pos": "adjective",
+"def": "happening slowly over a period of time",
+"ex": [
+"a gradual change/improvement"
+]
+},
+{
+"id": "v-gradually-adverb-1",
+"word": "gradually",
+"pos": "adverb",
+"def": "slowly over a period of time or a distance",
+"ex": [
+"Gradually, she realized that he wasn't telling her the truth."
+]
+},
+{
+"id": "v-graduate-noun-1",
+"word": "graduate",
+"pos": "noun",
+"def": "a person who has a first degree from a university or college",
+"ex": [
+"a science graduate"
+]
+},
+{
+"id": "v-graduate-verb-1",
+"word": "graduate",
+"pos": "verb",
+"def": "to complete a first university degree successfully",
+"ex": [
+"Tom has just graduated with first-class honours in psychology.",
+"He graduated from Oxford University last year."
+]
+},
+{
+"id": "v-grant-verb-1",
+"word": "grant",
+"pos": "verb",
+"def": "to give or allow someone something, usually in an official way",
+"ex": [
+"He was granted asylum."
+]
+},
+{
+"id": "v-graph-noun-1",
+"word": "graph",
+"pos": "noun",
+"def": "a picture with measurements marked on it as lines or curves, used to compare different things or show the development of something",
+"ex": [
+"This graph shows how crime has varied in relationship to unemployment over the last 20 years."
+]
+},
+{
+"id": "v-grave-noun-1",
+"word": "grave",
+"pos": "noun",
+"def": "a place in the ground where a dead person is buried",
+"ex": [
+"an unmarked grave"
+]
+},
+{
+"id": "v-greedy-adjective-1",
+"word": "greedy",
+"pos": "adjective",
+"def": "wanting a lot more food, money, etc. than you need",
+"ex": [
+"greedy, selfish people"
+]
+},
+{
+"id": "v-grief-noun-1",
+"word": "grief",
+"pos": "noun",
+"def": "great sadness, especially caused by someone's death",
+"ex": [
+"Newspapers should not intrude on people's private grief."
+]
+},
+{
+"id": "v-grip-noun-1",
+"word": "grip",
+"pos": "noun",
+"def": "when you hold something tightly",
+"ex": [
+"She tightened her grip on my arm."
+]
+},
+{
+"id": "v-guarantee-noun-1",
+"word": "guarantee",
+"pos": "noun",
+"def": "a written promise made by a company to repair one of its products or give you a new one if it has a fault",
+"ex": [
+"a money-back guarantee",
+"I'm afraid this camera is no longer under guarantee."
+]
+},
+{
+"id": "v-guarantee-verb-1",
+"word": "guarantee",
+"pos": "verb",
+"def": "to promise or make sure that something is true or will happen",
+"ex": [
+"Every child is guaranteed a place at a local school.",
+"They guarantee that it will arrive on time."
+]
+},
+{
+"id": "v-gymnastic-adjective-1",
+"word": "gymnastic",
+"pos": "adjective",
+"def": "involving gymnastics",
+"ex": [
+"a gymnastic display"
+]
+},
+{
+"id": "v-hammer-noun-1",
+"word": "hammer",
+"pos": "noun",
+"def": "a tool with a heavy, metal part at the top that you use to hit nails into something",
+"ex": [
+"You will need a hammer and some nails."
+]
+},
+{
+"id": "v-handout-noun-1",
+"word": "handout",
+"pos": "noun",
+"def": "a copy of a document that is given to all the people in a class or meeting",
+"ex": [
+"On page two of your handout you will find a list of the books that I have referred to during the lecture."
+]
+},
+{
+"id": "v-harvest-noun-1",
+"word": "harvest",
+"pos": "noun",
+"def": "when crops are cut and collected from fields",
+"ex": [
+"the grain/potato/grape harvest",
+"We had a good/bad/poor harvest this year."
+]
+},
+{
+"id": "v-headquarters-noun-1",
+"word": "headquarters",
+"pos": "noun",
+"def": "the place from where an organization is controlled",
+"ex": [
+"The company's headquarters is/are in Amsterdam."
+]
+},
+{
+"id": "v-heal-verb-1",
+"word": "heal",
+"pos": "verb",
+"def": "If a wound or broken bone heals, it becomes healthy again, and if something heals it, it makes it healthy again.",
+"ex": [
+"The wound on his head had begun to heal (up)."
+]
+},
+{
+"id": "v-hedge-noun-1",
+"word": "hedge",
+"pos": "noun",
+"def": "a row of bushes growing close together, often used to divide land into separate areas",
+"ex": [
+"She planted a hedge along the back of the garden."
+]
+},
+{
+"id": "v-helmet-noun-1",
+"word": "helmet",
+"pos": "noun",
+"def": "a hard hat that protects your head",
+"ex": [
+"a crash helmet",
+"a cycling helmet"
+]
+},
+{
+"id": "v-hesitate-verb-1",
+"word": "hesitate",
+"pos": "verb",
+"def": "to pause before doing something, especially because you are nervous or not certain",
+"ex": [
+"Richard hesitated before answering.",
+"\"Do you love me?\" she asked. He hesitated and then said, \"I'm not sure.\""
+]
+},
+{
+"id": "v-highlight-noun-1",
+"word": "highlight",
+"pos": "noun",
+"def": "the best or most important part of something",
+"ex": [
+"The boat trip was one of the highlights of the holiday."
+]
+},
+{
+"id": "v-highlight-verb-1",
+"word": "highlight",
+"pos": "verb",
+"def": "to emphasize something or make people notice something",
+"ex": [
+"to highlight a problem/danger",
+"The report highlights the need for stricter regulations."
+]
+},
+{
+"id": "v-hip-noun-1",
+"word": "hip",
+"pos": "noun",
+"def": "one of the two parts of your body above your leg and below your waist",
+"ex": [
+"She stood waiting with her hands on her hips.",
+"This exercise is designed to trim your hips and stomach."
+]
+},
+{
+"id": "v-hood-noun-1",
+"word": "hood",
+"pos": "noun",
+"def": "part of a piece of clothing which can be pulled up to cover the top and back of the head",
+"ex": [
+"The coat has a hood."
+]
+},
+{
+"id": "v-hook-noun-1",
+"word": "hook",
+"pos": "noun",
+"def": "a curved piece of metal or plastic used for hanging something on, or a similar object used for catching fish",
+"ex": [
+"a coat/picture hook"
+]
+},
+{
+"id": "v-horror-noun-1",
+"word": "horror",
+"pos": "noun",
+"def": "a strong feeling of shock or fear",
+"ex": [
+"She watched in horror as the car skidded across the road.",
+"The thought of speaking in front of so many people fills me with horror."
+]
+},
+{
+"id": "v-household-noun-1",
+"word": "household",
+"pos": "noun",
+"def": "a family or group of people who live together in a house",
+"ex": [
+"By the 1960s, most households had a TV."
+]
+},
+{
+"id": "v-humour-noun-1",
+"word": "humour",
+"pos": "noun",
+"def": "the quality of being funny",
+"ex": [
+"There's a lot of humour in her work."
+]
+},
+{
+"id": "v-hunting-noun-1",
+"word": "hunting",
+"pos": "noun",
+"def": "the sport of chasing and killing animals",
+"ex": [
+"She's very much against hunting of any sort."
+]
+},
+{
+"id": "v-hyphen-noun-1",
+"word": "hyphen",
+"pos": "noun",
+"def": "a mark (-) used to join two words together, or to show that a word has been divided and continues on the next line",
+"ex": [
+"There should be a hyphen in 'short-sighted'."
+]
+},
+{
+"id": "v-ideal-adjective-1",
+"word": "ideal",
+"pos": "adjective",
+"def": "perfect, or the best possible",
+"ex": [
+"the ideal employer",
+"She's the ideal person for the job."
+]
+},
+{
+"id": "v-identical-adjective-1",
+"word": "identical",
+"pos": "adjective",
+"def": "exactly the same",
+"ex": [
+"I've got three identical blue suits.",
+"The two rooms were virtually identical."
+]
+},
+{
+"id": "v-idiot-noun-1",
+"word": "idiot",
+"pos": "noun",
+"def": "a stupid person or someone who is behaving in a stupid way",
+"ex": [
+"Some idiot left the tap running in the bathroom and there's water everywhere.",
+"You stupid idiot - that's a month's work you've lost!"
+]
+},
+{
+"id": "v-ignore-verb-1",
+"word": "ignore",
+"pos": "verb",
+"def": "to pay no attention to something or someone",
+"ex": [
+"I smiled at her but she just ignored me.",
+"She can be really irritating but I try to ignore her."
+]
+},
+{
+"id": "v-immigrant-noun-1",
+"word": "immigrant",
+"pos": "noun",
+"def": "someone who comes to live in a different country",
+"ex": [
+"a large immigrant population",
+"Illegal immigrants are sent back across the border if they are caught."
+]
+},
+{
+"id": "v-imperative-noun-1",
+"word": "imperative",
+"pos": "noun",
+"def": "the form of a verb which is usually used for giving orders",
+"ex": [
+"In the phrase 'Leave him alone!', the verb 'leave' is an imperative/is in the imperative."
+]
+},
+{
+"id": "v-implement-verb-1",
+"word": "implement",
+"pos": "verb",
+"def": "to make a law, system, plan, etc. start to happen or operate",
+"ex": [
+"The changes to the national health system will be implemented next year."
+]
+},
+{
+"id": "v-import-verb-1",
+"word": "import",
+"pos": "verb",
+"def": "to buy or bring in products from another country",
+"ex": [
+"We import a large number of cars from Japan."
+]
+},
+{
+"id": "v-impressed-adjective-1",
+"word": "impressed",
+"pos": "adjective",
+"def": "feeling admiration or respect for someone or something",
+"ex": [
+"I was impressed by her professionalism.",
+"He seemed suitably impressed by our efforts."
+]
+},
+{
+"id": "v-improved-adjective-1",
+"word": "improved",
+"pos": "adjective",
+"def": "better than before",
+"ex": [
+"a new and improved recipe"
+]
+},
+{
+"id": "v-incident-noun-1",
+"word": "incident",
+"pos": "noun",
+"def": "an event which is either unpleasant or unusual",
+"ex": [
+"an unfortunate incident",
+"A youth was seriously injured in a shooting incident on Saturday night."
+]
+},
+{
+"id": "v-income-noun-1",
+"word": "income",
+"pos": "noun",
+"def": "money that you earn by working, investing or producing goods",
+"ex": [
+"Average incomes have risen by 4.5% over the past year.",
+"More help is needed for people on low incomes."
+]
+},
+{
+"id": "v-influence-verb-1",
+"word": "influence",
+"pos": "verb",
+"def": "to affect or change how someone or something develops, behaves or thinks",
+"ex": [
+"Were you influenced by anybody at the beginning of your career?",
+"What influenced you to choose a career in nursing?"
+]
+},
+{
+"id": "v-influence-noun-1",
+"word": "influence",
+"pos": "noun",
+"def": "the power to affect how someone thinks or behaves, or how something develops",
+"ex": [
+"The drug companies can have a lot of influence on doctors.",
+"At the time she was under the influence of her father."
+]
+},
+{
+"id": "v-inhabitant-noun-1",
+"word": "inhabitant",
+"pos": "noun",
+"def": "a person or animal that lives in a particular place",
+"ex": [
+"a city of 5 million inhabitants"
+]
+},
+{
+"id": "v-initial-adjective-1",
+"word": "initial",
+"pos": "adjective",
+"def": "first, or happening at the beginning",
+"ex": [
+"My initial reaction was one of anger.",
+"Initial reports say that seven people have died, though this has not yet been confirmed."
+]
+},
+{
+"id": "v-initially-adverb-1",
+"word": "initially",
+"pos": "adverb",
+"def": "at the beginning",
+"ex": [
+"Initially, most people approved of the new scheme.",
+"The damage was far more serious than initially believed."
+]
+},
+{
+"id": "v-inquire-verb-1",
+"word": "inquire",
+"pos": "verb",
+"def": "to ask for information",
+"ex": [
+"Shall I inquire about the price of tickets?",
+"She rang up to inquire when her car would be ready."
+]
+},
+{
+"id": "v-inside-noun-1",
+"word": "inside",
+"pos": "noun",
+"def": "the inner part, space or side of something",
+"ex": [
+"Did you clean the inside of the car?",
+"The hotel looked shabby from the street, but it was fine on the inside."
+]
+},
+{
+"id": "v-inside-adjective-1",
+"word": "inside",
+"pos": "adjective",
+"def": "in or on the part of something under its surface",
+"ex": [
+"He put the documents carefully in his inside pocket."
+]
+},
+{
+"id": "v-institute-noun-1",
+"word": "institute",
+"pos": "noun",
+"def": "an organization where people do a particular kind of scientific, educational or social work, or the buildings which it uses",
+"ex": [
+"the Massachusetts Institute of Technology"
+]
+},
+{
+"id": "v-insult-verb-1",
+"word": "insult",
+"pos": "verb",
+"def": "to say or do something to someone that is rude and offensive",
+"ex": [
+"How dare you insult me in front of my friends!"
+]
+},
+{
+"id": "v-insult-noun-1",
+"word": "insult",
+"pos": "noun",
+"def": "a rude and offensive remark or action",
+"ex": [
+"They were shouting insults at each other."
+]
+},
+{
+"id": "v-insurance-noun-1",
+"word": "insurance",
+"pos": "noun",
+"def": "an agreement in which you pay a company money and they pay your costs if you have an accident, injury, etc.",
+"ex": [
+"I'll need to take out extra car insurance for another driver.",
+"The insurance doesn't cover you for household items."
+]
+},
+{
+"id": "v-intensive-adjective-1",
+"word": "intensive",
+"pos": "adjective",
+"def": "involving a lot of effort or activity in a short period of time",
+"ex": [
+"two weeks of intensive training",
+"an intensive course in English"
+]
+},
+{
+"id": "v-interact-verb-1",
+"word": "interact",
+"pos": "verb",
+"def": "to talk and do things with other people",
+"ex": [
+"At school, teachers said he interacted well with other students."
+]
+},
+{
+"id": "v-interior-noun-1",
+"word": "interior",
+"pos": "noun",
+"def": "the inside part of something",
+"ex": [
+"The estate agent had pictures of the house from the outside but none of its interior.",
+"The car's interior is very impressive - wonderful leather seats and a wooden dashboard."
+]
+},
+{
+"id": "v-internal-adjective-1",
+"word": "internal",
+"pos": "adjective",
+"def": "existing or happening inside a person, object, organization, place or country",
+"ex": [
+"He sustained injuries to his arms, legs and several internal organs.",
+"The bank conducted its own internal investigation into the robbery."
+]
+},
+{
+"id": "v-investigate-verb-1",
+"word": "investigate",
+"pos": "verb",
+"def": "to try to discover all the facts about something, especially a crime or accident",
+"ex": [
+"Police are investigating allegations of corruption involving senior executives.",
+"We are of course investigating how an error like this could have occurred."
+]
+},
+{
+"id": "v-investigation-noun-1",
+"word": "investigation",
+"pos": "noun",
+"def": "when officials try to discover all the facts about something, especially a crime or an accident",
+"ex": [
+"to carry out/hold an investigation",
+"An investigation has been under way for several days into the disappearance of a thirteen-year-old boy."
+]
+},
+{
+"id": "v-investigator-noun-1",
+"word": "investigator",
+"pos": "noun",
+"def": "a person whose job is to examine a crime, accident, etc. in order to discover the truth",
+"ex": [
+"Investigators have studied the possible effects of contamination.",
+"a private investigator"
+]
+},
+{
+"id": "v-investor-noun-1",
+"word": "investor",
+"pos": "noun",
+"def": "a person who puts money into a bank, business, etc. in order to make a profit",
+"ex": [
+"A New York investor offered to acquire the company's shares for $13 each.",
+"Small investors are hoping that the markets will improve."
+]
+},
+{
+"id": "v-invisible-adjective-1",
+"word": "invisible",
+"pos": "adjective",
+"def": "impossible to see",
+"ex": [
+"The aircraft is designed to be invisible to radar.",
+"The house was invisible from the road."
+]
+},
+{
+"id": "v-irritated-adjective-1",
+"word": "irritated",
+"pos": "adjective",
+"def": "annoyed",
+"ex": [
+"Ben began to get increasingly irritated by/with her questions."
+]
+},
+{
+"id": "v-irritating-adjective-1",
+"word": "irritating",
+"pos": "adjective",
+"def": "making you feel annoyed",
+"ex": [
+"an irritating habit"
+]
+},
+{
+"id": "v-itch-verb-1",
+"word": "itch",
+"pos": "verb",
+"def": "If a part of your body itches, it feels uncomfortable and you want to rub it with your nails.",
+"ex": [
+"Woollen sweaters make my arms itch."
+]
+},
+{
+"id": "v-jaw-noun-1",
+"word": "jaw",
+"pos": "noun",
+"def": "the lower part of your face which moves when you open your mouth",
+"ex": [
+"a broken jaw",
+"He has a strong/square jaw."
+]
+},
+{
+"id": "v-jealously-adverb-1",
+"word": "jealously",
+"pos": "adverb",
+"def": "in a jealous way",
+"ex": [
+"She eyed Gwen's engagement ring jealously."
+]
+},
+{
+"id": "v-jewel-noun-1",
+"word": "jewel",
+"pos": "noun",
+"def": "a valuable stone that is used to make jewellery or to decorate objects",
+"ex": [
+"She was wearing a large gold necklace set with jewels."
+]
+},
+{
+"id": "v-joint-adjective-1",
+"word": "joint",
+"pos": "adjective",
+"def": "belonging to or shared between two or more people",
+"ex": [
+"a joint bank account",
+"The project was a joint effort between the two schools."
+]
+},
+{
+"id": "v-justify-verb-1",
+"word": "justify",
+"pos": "verb",
+"def": "to give or to be a good reason for",
+"ex": [
+"I can't really justify taking another day off work."
+]
+},
+{
+"id": "v-key-adjective-1",
+"word": "key",
+"pos": "adjective",
+"def": "very important in influencing or achieving something",
+"ex": [
+"She was a key figure in the international art world.",
+"a key factor in tackling the problem"
+]
+},
+{
+"id": "v-kingdom-noun-1",
+"word": "kingdom",
+"pos": "noun",
+"def": "a country ruled by a king or queen",
+"ex": [
+"the kingdom of Sweden"
+]
+},
+{
+"id": "v-lack-verb-1",
+"word": "lack",
+"pos": "verb",
+"def": "to not have or not have enough of something that is needed or wanted",
+"ex": [
+"He just lacks a little confidence.",
+"What we lack in this house is space to store things."
+]
+},
+{
+"id": "v-landlady-noun-1",
+"word": "landlady",
+"pos": "noun",
+"def": "a woman who you rent a room or a house from",
+"ex": [
+"My landlady doesn't let us have guests."
+]
+},
+{
+"id": "v-landlord-noun-1",
+"word": "landlord",
+"pos": "noun",
+"def": "a man who you rent a room or house from",
+"ex": [
+"I've asked our landlord to fix the window."
+]
+},
+{
+"id": "v-lastly-adverb-1",
+"word": "lastly",
+"pos": "adverb",
+"def": "finally",
+"ex": [
+"And lastly, I'd like to thank everyone who took part in the event."
+]
+},
+{
+"id": "v-latter-adjective-1",
+"word": "latter",
+"pos": "adjective",
+"def": "near or towards the end of something",
+"ex": [
+"Building of the new library should begin in the latter part of next year.",
+"In the latter stages of the fight he began to tire."
+]
+},
+{
+"id": "v-laundry-noun-1",
+"word": "laundry",
+"pos": "noun",
+"def": "clothes, sheets, etc. that need to be washed",
+"ex": [
+"to do the laundry"
+]
+},
+{
+"id": "v-layer-noun-1",
+"word": "layer",
+"pos": "noun",
+"def": "an amount of a substance covering a surface, or one of several amounts of substance, each on top of the other",
+"ex": [
+"the ozone layer",
+"A thick layer of dust lay over everything."
+]
+},
+{
+"id": "v-leaflet-noun-1",
+"word": "leaflet",
+"pos": "noun",
+"def": "a piece of folded paper or a small book which contains information",
+"ex": [
+"I picked up a useful leaflet on how to fill in tax forms."
+]
+},
+{
+"id": "v-lecturer-noun-1",
+"word": "lecturer",
+"pos": "noun",
+"def": "someone who teaches at a university or college",
+"ex": [
+"a lecturer in psychology"
+]
+},
+{
+"id": "v-leopard-noun-1",
+"word": "leopard",
+"pos": "noun",
+"def": "a large wild cat that has yellow fur with black spots on it and lives in Africa and southern Asia",
+"ex": [
+"We saw leopards in their natural habitat."
+]
+},
+{
+"id": "v-level-adjective-1",
+"word": "level",
+"pos": "adjective",
+"def": "flat or horizontal",
+"ex": [
+"Make sure the camera is level before you take the picture.",
+"Before I fix it to the wall, would you say this shelf was level?"
+]
+},
+{
+"id": "v-liberty-noun-1",
+"word": "liberty",
+"pos": "noun",
+"def": "the freedom to live as you wish or go where you want",
+"ex": [
+"For most citizens, liberty means the freedom to practise their religious or political beliefs.",
+"Hundreds of political prisoners are to be given their liberty."
+]
+},
+{
+"id": "v-lick-verb-1",
+"word": "lick",
+"pos": "verb",
+"def": "to move your tongue across the surface of something",
+"ex": [
+"He licked the chocolate off his fingers.",
+"She licked the stamps and stuck them on the parcel."
+]
+},
+{
+"id": "v-lid-noun-1",
+"word": "lid",
+"pos": "noun",
+"def": "a cover on a container, which can be lifted up or removed",
+"ex": [
+"Can you get the lid off this jar?",
+"Put a lid on the saucepan."
+]
+},
+{
+"id": "v-lifestyle-noun-1",
+"word": "lifestyle",
+"pos": "noun",
+"def": "the way that you live",
+"ex": [
+"He doesn't have a very healthy lifestyle.",
+"She needs a pretty high income to support her lifestyle."
+]
+},
+{
+"id": "v-lifetime-noun-1",
+"word": "lifetime",
+"pos": "noun",
+"def": "the period of time that someone is alive",
+"ex": [
+"We'll see a tremendous lot of technological changes during/in our lifetime.",
+"Winners of the competition will receive the holiday of a lifetime."
+]
+},
+{
+"id": "v-link-verb-1",
+"word": "link",
+"pos": "verb",
+"def": "to make a connection between two or more people, things or ideas",
+"ex": [
+"The explosions are not thought to be linked in any way.",
+"The use of CFCs has been linked to the hole in the ozone layer."
+]
+},
+{
+"id": "v-literally-adverb-1",
+"word": "literally",
+"pos": "adverb",
+"def": "having the real or original meaning of a word or phrase",
+"ex": [
+"They were responsible for literally millions of deaths."
+]
+},
+{
+"id": "v-litter-noun-1",
+"word": "litter",
+"pos": "noun",
+"def": "pieces of paper and other waste that are left in public places",
+"ex": [
+"The streets were full of litter."
+]
+},
+{
+"id": "v-liver-noun-1",
+"word": "liver",
+"pos": "noun",
+"def": "a large organ in your body that cleans your blood",
+"ex": [
+"He has something wrong with his liver."
+]
+},
+{
+"id": "v-load-noun-1",
+"word": "load",
+"pos": "noun",
+"def": "something that is carried, often by a vehicle",
+"ex": [
+"The maximum load for this elevator is eight persons.",
+"One truck involved in the accident was carrying a heavy load of coal."
+]
+},
+{
+"id": "v-loaf-noun-1",
+"word": "loaf",
+"pos": "noun",
+"def": "bread that has been baked in one large piece so that it can be cut into smaller pieces",
+"ex": [
+"a loaf of bread"
+]
+},
+{
+"id": "v-lobby-noun-1",
+"word": "lobby",
+"pos": "noun",
+"def": "an area inside the main entrance of a building",
+"ex": [
+"the hotel lobby",
+"I'll meet you in the lobby at 5.30."
+]
+},
+{
+"id": "v-locate-verb-1",
+"word": "locate",
+"pos": "verb",
+"def": "to find or discover the exact position of something",
+"ex": [
+"Police are still trying to locate the suspect."
+]
+},
+{
+"id": "v-logical-adjective-1",
+"word": "logical",
+"pos": "adjective",
+"def": "using reason",
+"ex": [
+"a logical choice/conclusion"
+]
+},
+{
+"id": "v-loyal-adjective-1",
+"word": "loyal",
+"pos": "adjective",
+"def": "always liking and supporting someone or something, sometimes when other people do not",
+"ex": [
+"Jack has been a loyal worker in this company for almost 50 years.",
+"When all her other friends deserted her, Steve remained loyal."
+]
+},
+{
+"id": "v-loyalty-noun-1",
+"word": "loyalty",
+"pos": "noun",
+"def": "the quality of being loyal",
+"ex": [
+"His loyalty was never in question.",
+"Her loyalty to the cause is impressive."
+]
+},
+{
+"id": "v-lyrics-noun-1",
+"word": "lyrics",
+"pos": "noun",
+"def": "the words of a song",
+"ex": [
+"I've downloaded the lyrics of that song you like."
+]
+},
+{
+"id": "v-maintenance-noun-1",
+"word": "maintenance",
+"pos": "noun",
+"def": "the work needed to keep a road, building, machine, etc. in good condition",
+"ex": [
+"car maintenance classes",
+"Old houses require too much maintenance."
+]
+},
+{
+"id": "v-major-adjective-1",
+"word": "major",
+"pos": "adjective",
+"def": "more important, bigger or more serious than others of the same type",
+"ex": [
+"This is a major problem for people in this region.",
+"Sugar is a major cause of tooth decay."
+]
+},
+{
+"id": "v-majority-noun-1",
+"word": "majority",
+"pos": "noun",
+"def": "more than half of a group of people or things",
+"ex": [
+"The majority of our employees have university degrees.",
+"A large majority of people approve of the death sentence."
+]
+},
+{
+"id": "v-manners-noun-1",
+"word": "manners",
+"pos": "noun",
+"def": "polite ways of behaving with other people",
+"ex": [
+"It's bad manners to eat with your mouth open.",
+"It's considered good manners in some societies to leave a little food on your plate."
+]
+},
+{
+"id": "v-manual-noun-1",
+"word": "manual",
+"pos": "noun",
+"def": "a book that tells you how to use something or do something",
+"ex": [
+"You can download the manual for the computer if you need to."
+]
+},
+{
+"id": "v-manufacture-verb-1",
+"word": "manufacture",
+"pos": "verb",
+"def": "to produce goods in large numbers, usually in a factory using machines",
+"ex": [
+"He works for a company that manufactures car parts.",
+"The report notes a rapid decline in manufactured goods."
+]
+},
+{
+"id": "v-manufacturer-noun-1",
+"word": "manufacturer",
+"pos": "noun",
+"def": "a company that produces goods in large numbers",
+"ex": [
+"a shoe manufacturer"
+]
+},
+{
+"id": "v-manufacturing-noun-1",
+"word": "manufacturing",
+"pos": "noun",
+"def": "the business of producing goods in large numbers",
+"ex": [
+"the manufacturing of military equipment",
+"the manufacturing industry"
+]
+},
+{
+"id": "v-marathon-noun-1",
+"word": "marathon",
+"pos": "noun",
+"def": "a running race of slightly over 26 miles (42.195 kilometres)",
+"ex": [
+"the London/New York marathon",
+"She did/ran her first marathon in just under three hours."
+]
+},
+{
+"id": "v-mask-noun-1",
+"word": "mask",
+"pos": "noun",
+"def": "a covering for the face which protects, hides or decorates the person wearing it",
+"ex": [
+"a surgical mask",
+"The bank robbers wore masks throughout the raid."
+]
+},
+{
+"id": "v-masses-noun-1",
+"word": "masses",
+"pos": "noun",
+"def": "a lot",
+"ex": [
+"I've got masses of work to do."
+]
+},
+{
+"id": "v-massive-adjective-1",
+"word": "massive",
+"pos": "adjective",
+"def": "very large in size, amount or number",
+"ex": [
+"They've got a massive house.",
+"She died after taking a massive overdose of drugs."
+]
+},
+{
+"id": "v-mathematical-adjective-1",
+"word": "mathematical",
+"pos": "adjective",
+"def": "relating to mathematics",
+"ex": [
+"a mathematical formula"
+]
+},
+{
+"id": "v-mayor-noun-1",
+"word": "mayor",
+"pos": "noun",
+"def": "the person who is elected to be the leader of the group that governs a town or city",
+"ex": [
+"the mayor of Coventry"
+]
+},
+{
+"id": "v-medal-noun-1",
+"word": "medal",
+"pos": "noun",
+"def": "a metal disc given as a prize in a competition or given to someone who has been very brave",
+"ex": [
+"an Olympic medal",
+"She won three gold medals."
+]
+},
+{
+"id": "v-medieval-adjective-1",
+"word": "medieval",
+"pos": "adjective",
+"def": "relating to the period in Europe between about AD 500 and AD 1500",
+"ex": [
+"a medieval building/painting/town",
+"a medieval manuscript"
+]
+},
+{
+"id": "v-mention-noun-1",
+"word": "mention",
+"pos": "noun",
+"def": "a brief remark",
+"ex": [
+"When I ordered the catalogue, there was no mention of any payment.",
+"The report made no mention of the problem."
+]
+},
+{
+"id": "v-mere-adjective-1",
+"word": "mere",
+"pos": "adjective",
+"def": "used to emphasize that something is not large or important",
+"ex": [
+"It cost a mere twenty dollars.",
+"The mere thought of eating octopus makes me feel sick."
+]
+},
+{
+"id": "v-microphone-noun-1",
+"word": "microphone",
+"pos": "noun",
+"def": "a piece of equipment that you speak into to make your voice louder, or to record your voice or other sounds",
+"ex": [
+"The interviewer asked her to speak into/use the microphone.",
+"My laptop has a built-in microphone."
+]
+},
+{
+"id": "v-mine-noun-1",
+"word": "mine",
+"pos": "noun",
+"def": "an underground system of holes and passages where people dig out coal or other minerals",
+"ex": [
+"a coal/salt/gold mine",
+"My grandfather used to work down the mines."
+]
+},
+{
+"id": "v-minor-adjective-1",
+"word": "minor",
+"pos": "adjective",
+"def": "not important or serious",
+"ex": [
+"a minor offence/operation",
+"She suffered only minor injuries."
+]
+},
+{
+"id": "v-mint-noun-1",
+"word": "mint",
+"pos": "noun",
+"def": "a herb whose leaves have a strong fresh smell and taste and are used for giving flavour to food and drinks such as tea",
+"ex": [
+"a bunch of mint"
+]
+},
+{
+"id": "v-miracle-noun-1",
+"word": "miracle",
+"pos": "noun",
+"def": "something that is very surprising or difficult to believe",
+"ex": [
+"an economic miracle",
+"Looking at the state of his car, it's a miracle (that) he wasn't killed."
+]
+},
+{
+"id": "v-misery-noun-1",
+"word": "misery",
+"pos": "noun",
+"def": "great suffering or unhappiness",
+"ex": [
+"The war brought misery to millions of people.",
+"We have witnessed the most appalling scenes of human misery."
+]
+},
+{
+"id": "v-mist-noun-1",
+"word": "mist",
+"pos": "noun",
+"def": "small drops of water in the air which make it difficult to see objects which are not near",
+"ex": [
+"The early-morning mist soon lifted/cleared.",
+"The mountain villages seem to be permanently covered in mist."
+]
+},
+{
+"id": "v-monitor-noun-1",
+"word": "monitor",
+"pos": "noun",
+"def": "a screen that shows information or pictures, usually connected to a computer",
+"ex": [
+"I've bought a bigger monitor for my computer."
+]
+},
+{
+"id": "v-moonlight-noun-1",
+"word": "moonlight",
+"pos": "noun",
+"def": "light that comes from the moon",
+"ex": [
+"In the moonlight, she looked even more beautiful."
+]
+},
+{
+"id": "v-moreover-adverb-1",
+"word": "moreover",
+"pos": "adverb",
+"def": "also and more importantly",
+"ex": [
+"The whole report is badly written. Moreover, it's inaccurate.",
+"It is a cheap and, moreover, effective way of dealing with the problem."
+]
+},
+{
+"id": "v-motivated-adjective-1",
+"word": "motivated",
+"pos": "adjective",
+"def": "enthusiastic and determined to succeed",
+"ex": [
+"a very motivated student"
+]
+},
+{
+"id": "v-motivation-noun-1",
+"word": "motivation",
+"pos": "noun",
+"def": "enthusiasm for doing something",
+"ex": [
+"There is a lack of motivation among the staff."
+]
+},
+{
+"id": "v-motive-noun-1",
+"word": "motive",
+"pos": "noun",
+"def": "a reason for doing something",
+"ex": [
+"The police don't yet know the motive for the killing.",
+"What was the motive behind the bombing?"
+]
+},
+{
+"id": "v-motor-noun-1",
+"word": "motor",
+"pos": "noun",
+"def": "the part of a machine or vehicle that changes electricity or fuel into movement and makes it work",
+"ex": [
+"The pump is powered by a small electric motor."
+]
+},
+{
+"id": "v-motorist-noun-1",
+"word": "motorist",
+"pos": "noun",
+"def": "a person who drives a car",
+"ex": [
+"Motorists will be hit hard by the rise in fuel prices."
+]
+},
+{
+"id": "v-mud-noun-1",
+"word": "mud",
+"pos": "noun",
+"def": "a thick liquid mixture of soil and water, or this mixture after it has dried",
+"ex": [
+"You've got mud on your shoes.",
+"He'd been playing football and was covered in mud."
+]
+},
+{
+"id": "v-muddy-adjective-1",
+"word": "muddy",
+"pos": "adjective",
+"def": "covered by or containing mud",
+"ex": [
+"a muddy stream",
+"You've made the kitchen floor all muddy."
+]
+},
+{
+"id": "v-mumble-verb-1",
+"word": "mumble",
+"pos": "verb",
+"def": "to speak too quietly and not clearly enough for someone to understand you",
+"ex": [
+"He mumbled something about it being a waste of time."
+]
+},
+{
+"id": "v-muscle-noun-1",
+"word": "muscle",
+"pos": "noun",
+"def": "one of many pieces of tissue in the body that are connected to bones and which produce movement by becoming longer or shorter",
+"ex": [
+"These exercises build muscle and increase stamina."
+]
+},
+{
+"id": "v-mutter-verb-1",
+"word": "mutter",
+"pos": "verb",
+"def": "to speak quietly so that your voice is difficult to hear, often when complaining about something",
+"ex": [
+"He was muttering (away) to himself.",
+"He muttered something about the restaurant being too expensive."
+]
+},
+{
+"id": "v-mysterious-adjective-1",
+"word": "mysterious",
+"pos": "adjective",
+"def": "strange or unknown, and not explained or understood",
+"ex": [
+"a mysterious stranger",
+"the mysterious death of her son"
+]
+},
+{
+"id": "v-narrowly-adverb-1",
+"word": "narrowly",
+"pos": "adverb",
+"def": "only by a small amount",
+"ex": [
+"He narrowly escaped death in the accident.",
+"She narrowly missed winning an Oscar."
+]
+},
+{
+"id": "v-nationwide-adverb-1",
+"word": "nationwide",
+"pos": "adverb",
+"def": "in all parts of a country",
+"ex": [
+"Schools nationwide are experiencing a shortage of teachers."
+]
+},
+{
+"id": "v-nationwide-adjective-1",
+"word": "nationwide",
+"pos": "adjective",
+"def": "existing or happening in all parts of a particular country",
+"ex": [
+"a nationwide network/chain of shops",
+"a nationwide survey"
+]
+},
+{
+"id": "v-navy-noun-1",
+"word": "navy",
+"pos": "noun",
+"def": "the part of a country's armed forces which is trained to operate at sea",
+"ex": [
+"My brother is an officer in the Navy.",
+"Gabriel joined the navy in 1997."
+]
+},
+{
+"id": "v-needs-noun-1",
+"word": "needs",
+"pos": "noun",
+"def": "the things you need in order to have a good life \nWord Family: \nNouns: need, Adjectives: needless, needy, Verbs: need, Adverbs: needlessly",
+"ex": [
+"her emotional needs",
+"The city is struggling to meet the needs of its homeless people."
+]
+},
+{
+"id": "v-negatively-adverb-1",
+"word": "negatively",
+"pos": "adverb",
+"def": "with a bad effect",
+"ex": [
+"They were very negatively affected by the changes."
+]
+},
+{
+"id": "v-neighbouring-adjective-1",
+"word": "neighbouring",
+"pos": "adjective",
+"def": "near or next to somewhere",
+"ex": [
+"She married a man from the neighbouring village."
+]
+},
+{
+"id": "v-neither-adverb-1",
+"word": "neither",
+"pos": "adverb",
+"def": "used to say that a negative fact is also true of someone or something else",
+"ex": [
+"Jerry doesn't like it, and neither do I.",
+"Her family wouldn't help her and neither would anyone else."
+]
+},
+{
+"id": "v-nerves-noun-1",
+"word": "nerves",
+"pos": "noun",
+"def": "the state of being nervous",
+"ex": [
+"I always suffer from nerves before a match.",
+"I need something to calm my nerves."
+]
+},
+{
+"id": "v-nevertheless-adverb-1",
+"word": "nevertheless",
+"pos": "adverb",
+"def": "despite that",
+"ex": [
+"I knew a lot about the subject already, but her talk was interesting nevertheless."
+]
+},
+{
+"id": "v-nor-adverb-1",
+"word": "nor",
+"pos": "adverb",
+"def": "used to say that a negative fact is also true of someone else",
+"ex": [
+"\"I don't like cats.\" \"Nor do I.\"",
+"I've never been to Iceland.\" \"Nor have I.\""
+]
+},
+{
+"id": "v-novelist-noun-1",
+"word": "novelist",
+"pos": "noun",
+"def": "a person who writes novels",
+"ex": [
+"His father was a novelist."
+]
+},
+{
+"id": "v-nuisance-noun-1",
+"word": "nuisance",
+"pos": "noun",
+"def": "a person, thing, or situation that annoys you or causes problems for you",
+"ex": [
+"I've forgotten my umbrella - what a nuisance!",
+"It's such a nuisance having to rewrite those letters."
+]
+},
+{
+"id": "v-nut-noun-1",
+"word": "nut",
+"pos": "noun",
+"def": "the dry fruit of some trees which grows in a hard shell, and can often be eaten",
+"ex": [
+"a Brazil/cashew nut",
+"Sprinkle some roasted chopped nuts on top."
+]
+},
+{
+"id": "v-oak-noun-1",
+"word": "oak",
+"pos": "noun",
+"def": "a large tree found in northern countries, or the wood of this tree",
+"ex": [
+"an oak table/cupboard"
+]
+},
+{
+"id": "v-object-verb-1",
+"word": "object",
+"pos": "verb",
+"def": "to feel or say that you do not like or do not approve of something or someone",
+"ex": [
+"He objects to the label 'magician' which he is often given.",
+"Would anyone object if we started the meeting now?"
+]
+},
+{
+"id": "v-objection-noun-1",
+"word": "objection",
+"pos": "noun",
+"def": "when someone says that they do not like or approve of something or someone",
+"ex": [
+"Our main objection to the factory is that it will be noisy.",
+"I have no objections if you want to stay an extra day."
+]
+},
+{
+"id": "v-objective-noun-1",
+"word": "objective",
+"pos": "noun",
+"def": "something that you are trying to achieve",
+"ex": [
+"Her main/prime objective now is simply to stay in power.",
+"Can the sales force achieve/meet its financial objectives?"
+]
+},
+{
+"id": "v-objective-adjective-1",
+"word": "objective",
+"pos": "adjective",
+"def": "only influenced by facts and not by feelings",
+"ex": [
+"I try to be objective when I criticize someone's work."
+]
+},
+{
+"id": "v-obligation-noun-1",
+"word": "obligation",
+"pos": "noun",
+"def": "something that you do because it is your duty or because you feel you have to",
+"ex": [
+"If you have not signed a contract, you are under no obligation to pay them any money.",
+"You have a legal obligation to ensure your child receives a proper education."
+]
+},
+{
+"id": "v-obsession-noun-1",
+"word": "obsession",
+"pos": "noun",
+"def": "something or someone that you think about all the time",
+"ex": [
+"an unhealthy obsession with death",
+"her chocolate obsession"
+]
+},
+{
+"id": "v-obtain-verb-1",
+"word": "obtain",
+"pos": "verb",
+"def": "to get something",
+"ex": [
+"to obtain permission",
+"First editions of these books are now almost impossible to obtain."
+]
+},
+{
+"id": "v-occur-verb-1",
+"word": "occur",
+"pos": "verb",
+"def": "to happen, often without being planned",
+"ex": [
+"If any of these symptoms occur while you are taking the medicine, consult your doctor immediately."
+]
+},
+{
+"id": "v-odd-adjective-1",
+"word": "odd",
+"pos": "adjective",
+"def": "strange or unusual",
+"ex": [
+"Her father was an odd man.",
+"What an odd thing to say."
+]
+},
+{
+"id": "v-optimistic-adjective-1",
+"word": "optimistic",
+"pos": "adjective",
+"def": "always believing that good things will happen",
+"ex": [
+"She is optimistic about her chances of winning a gold medal."
+]
+},
+{
+"id": "v-oral-adjective-1",
+"word": "oral",
+"pos": "adjective",
+"def": "spoken, not written",
+"ex": [
+"an oral agreement/exam"
+]
+},
+{
+"id": "v-orchestral-adjective-1",
+"word": "orchestral",
+"pos": "adjective",
+"def": "played by, written for or to do with an orchestra",
+"ex": [
+"an orchestral arrangement"
+]
+},
+{
+"id": "v-outer-adjective-1",
+"word": "outer",
+"pos": "adjective",
+"def": "on the edge or surface of something",
+"ex": [
+"Remove the outer layers of the onion.",
+"the outer lane of the motorway"
+]
+},
+{
+"id": "v-outline-verb-1",
+"word": "outline",
+"pos": "verb",
+"def": "to describe only the most important ideas or facts about something",
+"ex": [
+"At the interview she outlined what I would be doing."
+]
+},
+{
+"id": "v-outrageous-adjective-1",
+"word": "outrageous",
+"pos": "adjective",
+"def": "shocking or extreme",
+"ex": [
+"That's an outrageous thing to say!",
+"The prices in that restaurant were outrageous."
+]
+},
+{
+"id": "v-outskirts-noun-1",
+"word": "outskirts",
+"pos": "noun",
+"def": "the outer area of a city or town",
+"ex": [
+"There are plans to build a new stadium on the outskirts of Liverpool.",
+"They live in Melbourne's south-eastern outskirts."
+]
+},
+{
+"id": "v-oval-adjective-1",
+"word": "oval",
+"pos": "adjective",
+"def": "in the shape of an egg or a slightly flat circle",
+"ex": [
+"an oval mirror",
+"an oval face"
+]
+},
+{
+"id": "v-overall-adverb-1",
+"word": "overall",
+"pos": "adverb",
+"def": "in general rather than in particular, or including all the people or things in a particular group or situation",
+"ex": [
+"The overall situation is good, despite a few minor problems.",
+"Overall, it has been a good year."
+]
+},
+{
+"id": "v-overcome-verb-1",
+"word": "overcome",
+"pos": "verb",
+"def": "to deal with and control a problem or feeling",
+"ex": [
+"I admire the way she has overcome her difficulties/problems and made a success of her life.",
+"Eventually he managed to overcome his shyness in class."
+]
+},
+{
+"id": "v-overseas-adjective-1",
+"word": "overseas",
+"pos": "adjective",
+"def": "in, from or to other countries",
+"ex": [
+"We need to open up the overseas markets.",
+"There are a lot of overseas students in Cambridge."
+]
+},
+{
+"id": "v-owl-noun-1",
+"word": "owl",
+"pos": "noun",
+"def": "a bird with a flat face, large eyes, and strong curved nails, which hunts small mammals at night",
+"ex": [
+"We heard an owl hooting in the night."
+]
+},
+{
+"id": "v-oxygen-noun-1",
+"word": "oxygen",
+"pos": "noun",
+"def": "a gas that is in the air and that animals need to live",
+"ex": [
+"an oxygen tank"
+]
+},
+{
+"id": "v-pace-noun-1",
+"word": "pace",
+"pos": "noun",
+"def": "the speed at which someone or something moves or does something",
+"ex": [
+"a slow/fast pace",
+"I don't like the pace of modern life."
+]
+},
+{
+"id": "v-pancake-noun-1",
+"word": "pancake",
+"pos": "noun",
+"def": "a thin, flat food made from flour, milk, and egg mixed together and cooked in a pan",
+"ex": [
+"We had pancakes with lemon."
+]
+},
+{
+"id": "v-panic-noun-1",
+"word": "panic",
+"pos": "noun",
+"def": "a sudden, strong feeling of worry or fear that makes you unable to think or behave calmly",
+"ex": [
+"a state of panic",
+"Panic spread through the crowd as the wind and rain grew worse."
+]
+},
+{
+"id": "v-panic-verb-1",
+"word": "panic",
+"pos": "verb",
+"def": "to suddenly feel so worried or frightened that you cannot think or behave calmly, or to make someone feel this way",
+"ex": [
+"Don't panic! We've got plenty of time.",
+"The boss always panics over/about the budget every month."
+]
+},
+{
+"id": "v-paperwork-noun-1",
+"word": "paperwork",
+"pos": "noun",
+"def": "the part of a job that involves producing reports, writing letters, organizing information, etc.",
+"ex": [
+"Many office jobs involve a lot of unnecessary paperwork."
+]
+},
+{
+"id": "v-parachute-noun-1",
+"word": "parachute",
+"pos": "noun",
+"def": "a large piece of special cloth used to cause someone or something it is attached to drop slowly and safely from an aircraft to the ground",
+"ex": [
+"He used a parachute to jump to safety."
+]
+},
+{
+"id": "v-parade-noun-1",
+"word": "parade",
+"pos": "noun",
+"def": "a line of people or vehicles that moves through a public place as a way of celebrating an occasion",
+"ex": [
+"a victory parade"
+]
+},
+{
+"id": "v-parliament-noun-1",
+"word": "parliament",
+"pos": "noun",
+"def": "in some countries, a group of people who make the laws for the country",
+"ex": [
+"On Tuesday the country's parliament voted to establish its own army.",
+"She was elected to Parliament in 1997."
+]
+},
+{
+"id": "v-participate-verb-1",
+"word": "participate",
+"pos": "verb",
+"def": "to take part in or become involved in an activity",
+"ex": [
+"She never participates in any of our discussions, does she?"
+]
+},
+{
+"id": "v-partnership-noun-1",
+"word": "partnership",
+"pos": "noun",
+"def": "when two people or organizations work together to achieve something",
+"ex": [
+"She's gone into partnership with someone she used to work with."
+]
+},
+{
+"id": "v-passion-noun-1",
+"word": "passion",
+"pos": "noun",
+"def": "a very powerful feeling, for example of sexual attraction, love, hate, anger or other emotion",
+"ex": [
+"She saw the passion in his eyes.",
+"Football arouses a lot of passion in fans."
+]
+},
+{
+"id": "v-passionate-adjective-1",
+"word": "passionate",
+"pos": "adjective",
+"def": "having very strong feelings or emotions",
+"ex": [
+"a passionate speech",
+"a passionate kiss"
+]
+},
+{
+"id": "v-passionately-adverb-1",
+"word": "passionately",
+"pos": "adverb",
+"def": "in a way that shows strong feelings or emotions",
+"ex": [
+"I walked into the room and found them arguing passionately.",
+"Ann has always believed passionately in women's rights."
+]
+},
+{
+"id": "v-pause-noun-1",
+"word": "pause",
+"pos": "noun",
+"def": "a short period in which something such as a sound or an activity is stopped before starting again",
+"ex": [
+"There will be a brief pause in the concert while the piano is moved into place.",
+"After a long, awkward pause someone asked a question."
+]
+},
+{
+"id": "v-paw-noun-1",
+"word": "paw",
+"pos": "noun",
+"def": "the foot of an animal that has claws or nails, such as a cat, dog or bear",
+"ex": [
+"I found paw prints in the kitchen."
+]
+},
+{
+"id": "v-peculiar-adjective-1",
+"word": "peculiar",
+"pos": "adjective",
+"def": "unusual and strange, sometimes in an unpleasant way",
+"ex": [
+"She has the most peculiar ideas.",
+"What a peculiar smell!"
+]
+},
+{
+"id": "v-pedal-noun-1",
+"word": "pedal",
+"pos": "noun",
+"def": "a part of a machine that you press with your foot to operate or move the machine",
+"ex": [
+"the brake pedal",
+"This sewing machine is operated by a foot pedal."
+]
+},
+{
+"id": "v-pension-noun-1",
+"word": "pension",
+"pos": "noun",
+"def": "a sum of money paid regularly by the government or a private company to a person who has stopped working because they are old or ill",
+"ex": [
+"a pension plan",
+"a state/private pension"
+]
+},
+{
+"id": "v-percentage-noun-1",
+"word": "percentage",
+"pos": "noun",
+"def": "an amount of something, often expressed as a number out of 100",
+"ex": [
+"What percentage of women return to work after having a baby?",
+"Interest rates have risen by two percentage points."
+]
+},
+{
+"id": "v-permanently-adverb-1",
+"word": "permanently",
+"pos": "adverb",
+"def": "always and forever",
+"ex": [
+"I seem to be permanently broke.",
+"Michael and his family have settled permanently in Brazil."
+]
+},
+{
+"id": "v-pessimistic-adjective-1",
+"word": "pessimistic",
+"pos": "adjective",
+"def": "always believing that bad things are likely to happen",
+"ex": [
+"The tone of the meeting was very pessimistic.",
+"The doctors are pessimistic about his chances of recovery."
+]
+},
+{
+"id": "v-petrified-adjective-1",
+"word": "petrified",
+"pos": "adjective",
+"def": "extremely frightened",
+"ex": [
+"I'm petrified of spiders."
+]
+},
+{
+"id": "v-pharmacist-noun-1",
+"word": "pharmacist",
+"pos": "noun",
+"def": "someone who is trained to prepare or sell medicines",
+"ex": [
+"The pharmacist gave me some medicine."
+]
+},
+{
+"id": "v-phase-noun-1",
+"word": "phase",
+"pos": "noun",
+"def": "a stage or period which is part of a longer period",
+"ex": [
+"The first phase of the project is likely to be completed by August.",
+"We're entering a new phase in international relations."
+]
+},
+{
+"id": "v-philosopher-noun-1",
+"word": "philosopher",
+"pos": "noun",
+"def": "someone who studies or writes about the meaning of life",
+"ex": [
+"Plato was a Greek philosopher."
+]
+},
+{
+"id": "v-physically-adverb-1",
+"word": "physically",
+"pos": "adverb",
+"def": "in a way that relates to the body or someone's appearance",
+"ex": [
+"Physically I find him very attractive.",
+"The work is physically demanding."
+]
+},
+{
+"id": "v-pine-noun-1",
+"word": "pine",
+"pos": "noun",
+"def": "a tall tree with long, thin leaves shaped like needles",
+"ex": [
+"a pine forest"
+]
+},
+{
+"id": "v-pint-noun-1",
+"word": "pint",
+"pos": "noun",
+"def": "a measure for liquid equal to about half a litre",
+"ex": [
+"a pint of milk",
+"a pint of beer"
+]
+},
+{
+"id": "v-pity-noun-1",
+"word": "pity",
+"pos": "noun",
+"def": "a feeling of sympathy and understanding for someone else's unhappiness or difficult situation",
+"ex": [
+"The girl stood gazing in/with pity at the old lion in the cage.",
+"We took pity on a couple of people waiting in the rain for a bus and gave them a lift."
+]
+},
+{
+"id": "v-plumber-noun-1",
+"word": "plumber",
+"pos": "noun",
+"def": "someone whose job is to repair or connect water pipes, and things like toilets and baths",
+"ex": [
+"When is the plumber coming to mend the burst pipe?"
+]
+},
+{
+"id": "v-plus-noun-1",
+"word": "plus",
+"pos": "noun",
+"def": "an advantage or a good feature",
+"ex": [
+"Your teaching experience will be a plus in this job."
+]
+},
+{
+"id": "v-poison-noun-1",
+"word": "poison",
+"pos": "noun",
+"def": "a substance that can make you ill or kill you if you eat or drink it",
+"ex": [
+"Someone had put poison in her drink."
+]
+},
+{
+"id": "v-pollute-verb-1",
+"word": "pollute",
+"pos": "verb",
+"def": "to make water, air, soil, etc. dirty or harmful",
+"ex": [
+"We need a fuel that won't pollute the environment."
+]
+},
+{
+"id": "v-portrait-noun-1",
+"word": "portrait",
+"pos": "noun",
+"def": "a painting, drawing, or photograph of someone",
+"ex": [
+"a portrait painter",
+"She's commissioned an artist to paint her portrait/paint a portrait of her."
+]
+},
+{
+"id": "v-positively-adverb-1",
+"word": "positively",
+"pos": "adverb",
+"def": "in a good or hopeful way",
+"ex": [
+"I don't respond very positively to being bossed around - it just makes me angry."
+]
+},
+{
+"id": "v-possession-noun-1",
+"word": "possession",
+"pos": "noun",
+"def": "something that you own or that you are carrying with you at any time",
+"ex": [
+"Please remember to take all your personal possessions with you when you leave the aircraft."
+]
+},
+{
+"id": "v-potential-adjective-1",
+"word": "potential",
+"pos": "adjective",
+"def": "possible when the necessary conditions exist",
+"ex": [
+"A number of potential buyers have expressed interest in the company.",
+"Many potential customers are waiting for a fall in prices before buying."
+]
+},
+{
+"id": "v-potential-noun-1",
+"word": "potential",
+"pos": "noun",
+"def": "someone's or something's ability to develop, achieve or succeed",
+"ex": [
+"The region has enormous potential for economic development.",
+"I don't feel I'm achieving my full potential in my present job."
+]
+},
+{
+"id": "v-potentially-adverb-1",
+"word": "potentially",
+"pos": "adverb",
+"def": "possibly",
+"ex": [
+"Hepatitis is a potentially fatal disease.",
+"This crisis is potentially the most serious in the organization's history."
+]
+},
+{
+"id": "v-pound-verb-1",
+"word": "pound",
+"pos": "verb",
+"def": "to hit or beat repeatedly with a lot of force, or to crush something by hitting it repeatedly",
+"ex": [
+"I could feel my heart pounding as I went on stage to collect the prize.",
+"The city was pounded to rubble during the war."
+]
+},
+{
+"id": "v-poverty-noun-1",
+"word": "poverty",
+"pos": "noun",
+"def": "the condition of being extremely poor",
+"ex": [
+"Two million people in the city live in poverty.",
+"He emigrated to Australia to escape the poverty of his birthplace."
+]
+},
+{
+"id": "v-praise-verb-1",
+"word": "praise",
+"pos": "verb",
+"def": "to express admiration or approval about the achievements or characteristics of a person or thing",
+"ex": [
+"He should be praised for his honesty.",
+"My parents always praised me when I did well at school."
+]
+},
+{
+"id": "v-prawn-noun-1",
+"word": "prawn",
+"pos": "noun",
+"def": "a small sea animal which you can eat, and which has a shell and ten legs",
+"ex": [
+"a prawn sandwich"
+]
+},
+{
+"id": "v-predictable-adjective-1",
+"word": "predictable",
+"pos": "adjective",
+"def": "happening or behaving in a way you expect and not unusual or interesting",
+"ex": [
+"Comets appear at predictable times."
+]
+},
+{
+"id": "v-prediction-noun-1",
+"word": "prediction",
+"pos": "noun",
+"def": "when you say what will happen in the future",
+"ex": [
+"Please don't ask me to make any predictions about tomorrow's meeting.",
+"No one believed her prediction that the world would end on November 12."
+]
+},
+{
+"id": "v-prefix-noun-1",
+"word": "prefix",
+"pos": "noun",
+"def": "a letter or group of letters added to the beginning of a word to make a new word",
+"ex": [
+"In the word 'unimportant', 'un-' is a prefix."
+]
+},
+{
+"id": "v-prejudice-noun-1",
+"word": "prejudice",
+"pos": "noun",
+"def": "an unfair and unreasonable opinion or feeling, especially when formed without enough thought or knowledge",
+"ex": [
+"Laws against racial prejudice must be strictly enforced."
+]
+},
+{
+"id": "v-preserve-verb-1",
+"word": "preserve",
+"pos": "verb",
+"def": "to keep something the same or prevent it from being damaged or destroyed",
+"ex": [
+"to preserve the environment",
+"We want to preserve the character of the town while improving the facilities."
+]
+},
+{
+"id": "v-presidency-noun-1",
+"word": "presidency",
+"pos": "noun",
+"def": "the job of being president, or the period when someone is a president",
+"ex": [
+"He has announced that he is running for the presidency.",
+"She won the presidency by a wide margin."
+]
+},
+{
+"id": "v-presidential-adjective-1",
+"word": "presidential",
+"pos": "adjective",
+"def": "relating to the president of a country",
+"ex": [
+"a presidential candidate"
+]
+},
+{
+"id": "v-presumably-adverb-1",
+"word": "presumably",
+"pos": "adverb",
+"def": "used to say what you think is the likely situation",
+"ex": [
+"They can presumably afford to buy a bigger apartment.",
+"Presumably he just forgot to send the letter."
+]
+},
+{
+"id": "v-pretend-verb-1",
+"word": "pretend",
+"pos": "verb",
+"def": "to behave as if something is true when it is not",
+"ex": [
+"She's not really hurt - she's only pretending.",
+"He pretended (that) he didn't mind, but I knew that he did."
+]
+},
+{
+"id": "v-primarily-adverb-1",
+"word": "primarily",
+"pos": "adverb",
+"def": "mainly",
+"ex": [
+"She's known primarily as a novelist but she also writes poetry."
+]
+},
+{
+"id": "v-primary-adjective-1",
+"word": "primary",
+"pos": "adjective",
+"def": "most important",
+"ex": [
+"Her primary responsibility is to train new employees."
+]
+},
+{
+"id": "v-principal-noun-1",
+"word": "principal",
+"pos": "noun",
+"def": "the person in charge of a school or college",
+"ex": [
+"She is principal of a London school."
+]
+},
+{
+"id": "v-priority-noun-1",
+"word": "priority",
+"pos": "noun",
+"def": "something that is very important and must be dealt with before other things",
+"ex": [
+"The management did not seem to consider office safety to be a priority.",
+"My first/top priority is to find somewhere to live."
+]
+},
+{
+"id": "v-procedure-noun-1",
+"word": "procedure",
+"pos": "noun",
+"def": "the official or usual way of doing something",
+"ex": [
+"The company has new procedures for dealing with complaints.",
+"You must follow correct procedure at all times."
+]
+},
+{
+"id": "v-programming-noun-1",
+"word": "programming",
+"pos": "noun",
+"def": "when someone writes computer programs",
+"ex": [
+"We learned how to do programming."
+]
+},
+{
+"id": "v-prohibit-verb-1",
+"word": "prohibit",
+"pos": "verb",
+"def": "to officially forbid something",
+"ex": [
+"Motor vehicles are prohibited from driving in the town centre.",
+"The government introduced a law prohibiting tobacco advertisements on TV."
+]
+},
+{
+"id": "v-prompt-adjective-1",
+"word": "prompt",
+"pos": "adjective",
+"def": "done or acting quickly and without waiting, or arriving at the correct time",
+"ex": [
+"a prompt reply",
+"His prompt action certainly saved my life."
+]
+},
+{
+"id": "v-promptly-adverb-1",
+"word": "promptly",
+"pos": "adverb",
+"def": "quickly, without delay, or at the arranged time",
+"ex": [
+"We'll have to leave fairly promptly if we want to catch that train.",
+"We try to answer readers' letters as promptly as we can."
+]
+},
+{
+"id": "v-proposed-adjective-1",
+"word": "proposed",
+"pos": "adjective",
+"def": "suggested as an idea or plan",
+"ex": [
+"The proposed road would cut right through the forest."
+]
+},
+{
+"id": "v-protest-verb-1",
+"word": "protest",
+"pos": "verb",
+"def": "to say something forcefully or complain about something",
+"ex": [
+"A lot of people protested about the new working hours.",
+"They protested bitterly to their employers, but they wouldn't listen."
+]
+},
+{
+"id": "v-protest-noun-1",
+"word": "protest",
+"pos": "noun",
+"def": "when people show that they disagree with something by standing somewhere, shouting, carrying signs, etc.",
+"ex": [
+"a public protest against the war",
+"a peaceful/violent protest"
+]
+},
+{
+"id": "v-proudly-adverb-1",
+"word": "proudly",
+"pos": "adverb",
+"def": "in a way that shows you are pleased about something you have done, something you own, or someone you know",
+"ex": [
+"He proudly held out his trophy for us to admire.",
+"There were photographs of all her children proudly displayed on the mantelpiece."
+]
+},
+{
+"id": "v-psychological-adjective-1",
+"word": "psychological",
+"pos": "adjective",
+"def": "relating to the human mind and feelings",
+"ex": [
+"He claims that the constant aircraft noise has a bad psychological effect on the residents.",
+"We are concerned with the physical and psychological well-being of our employees."
+]
+},
+{
+"id": "v-psychologist-noun-1",
+"word": "psychologist",
+"pos": "noun",
+"def": "someone who studies the human mind and human emotions and behaviour, and how different situations have an effect on them",
+"ex": [
+"a child psychologist",
+"an educational psychologist"
+]
+},
+{
+"id": "v-pudding-noun-1",
+"word": "pudding",
+"pos": "noun",
+"def": "a sweet dish that is usually eaten as the last part of a meal",
+"ex": [
+"We've got apple pie for pudding.",
+"a sticky toffee pudding"
+]
+},
+{
+"id": "v-punch-noun-1",
+"word": "punch",
+"pos": "noun",
+"def": "when you hit someone or something with your fist",
+"ex": [
+"a punch on the nose"
+]
+},
+{
+"id": "v-punch-verb-1",
+"word": "punch",
+"pos": "verb",
+"def": "to hit someone or something with your fist",
+"ex": [
+"He punched him in the stomach."
+]
+},
+{
+"id": "v-purchase-verb-1",
+"word": "purchase",
+"pos": "verb",
+"def": "to buy",
+"ex": [
+"Tickets must be purchased two weeks in advance.",
+"She purchased her first house with the money."
+]
+},
+{
+"id": "v-puzzled-adjective-1",
+"word": "puzzled",
+"pos": "adjective",
+"def": "confused because you do not understand something",
+"ex": [
+"He had a puzzled look on his face.",
+"I'm a bit puzzled that I haven't heard from Liz for so long."
+]
+},
+{
+"id": "v-pyjamas-noun-1",
+"word": "pyjamas",
+"pos": "noun",
+"def": "soft loose clothing which is worn in bed and consists of trousers and a type of shirt",
+"ex": [
+"I need a new pair of pyjamas."
+]
+},
+{
+"id": "v-quarrel-noun-1",
+"word": "quarrel",
+"pos": "noun",
+"def": "an argument",
+"ex": [
+"She had a quarrel with her neighbour.",
+"They had a quarrel about/over money a few months back."
+]
+},
+{
+"id": "v-queue-verb-1",
+"word": "queue",
+"pos": "verb",
+"def": "to wait in a line of people, often to buy something",
+"ex": [
+"We had to queue for three hours to get in."
+]
+},
+{
+"id": "v-rage-noun-1",
+"word": "rage",
+"pos": "noun",
+"def": "very strong anger that you cannot control",
+"ex": [
+"My main feeling was one of rage.",
+"I was frightened because I had never seen him in such a rage before."
+]
+},
+{
+"id": "v-rainbow-noun-1",
+"word": "rainbow",
+"pos": "noun",
+"def": "a half circle of seven colours that you see in the sky when rain is falling and the sun is shining",
+"ex": [
+"We could see a rainbow.",
+"The butterfly's wings were shimmering with all the colours of the rainbow."
+]
+},
+{
+"id": "v-rapid-adjective-1",
+"word": "rapid",
+"pos": "adjective",
+"def": "fast or sudden",
+"ex": [
+"The 1990s were a period of rapid change/growth."
+]
+},
+{
+"id": "v-rapidly-adverb-1",
+"word": "rapidly",
+"pos": "adverb",
+"def": "quickly or suddenly",
+"ex": [
+"Prices have increased rapidly in the last few months."
+]
+},
+{
+"id": "v-ray-noun-1",
+"word": "ray",
+"pos": "noun",
+"def": "a narrow beam of light, heat, etc. travelling in a straight line from its place of origin",
+"ex": [
+"A ray of sunshine shone through a gap in the clouds.",
+"Light rays bend as they pass from air to water."
+]
+},
+{
+"id": "v-razor-noun-1",
+"word": "razor",
+"pos": "noun",
+"def": "a piece of equipment with a sharp blade used for removing hair from the face, legs, etc.",
+"ex": [
+"Did you pack a razor?"
+]
+},
+{
+"id": "v-rear-adjective-1",
+"word": "rear",
+"pos": "adjective",
+"def": "at the back of something",
+"ex": [
+"There's a sticker on the rear door/window."
+]
+},
+{
+"id": "v-rebel-noun-1",
+"word": "rebel",
+"pos": "noun",
+"def": "someone who fights against the government in their country, especially a soldier",
+"ex": [
+"The rebels took over the capital and set up a new government.",
+"Rebels seized control of the airport."
+]
+},
+{
+"id": "v-rebel-verb-1",
+"word": "rebel",
+"pos": "verb",
+"def": "to refuse to obey rules that you disagree with or do not like",
+"ex": [
+"Children often rebel against eating certain foods - Rory won't eat vegetables."
+]
+},
+{
+"id": "v-recall-verb-1",
+"word": "recall",
+"pos": "verb",
+"def": "to remember something",
+"ex": [
+"I don't recall arranging a time to meet.",
+"Can you recall what happened that night?"
+]
+},
+{
+"id": "v-recession-noun-1",
+"word": "recession",
+"pos": "noun",
+"def": "a period when the economy of a country is not successful and conditions for business are bad",
+"ex": [
+"The latest report confirms that the economy is in recession.",
+"The country is now in the deepest recession for over 40 years."
+]
+},
+{
+"id": "v-reckon-verb-1",
+"word": "reckon",
+"pos": "verb",
+"def": "to think that something is probably true",
+"ex": [
+"I reckon he's going to leave.",
+"How much do you reckon it's going to cost?"
+]
+},
+{
+"id": "v-recovery-noun-1",
+"word": "recovery",
+"pos": "noun",
+"def": "when you feel better or happier again after an illness, injury, or period of sadness",
+"ex": [
+"She only had the operation last month but she's made a full recovery."
+]
+},
+{
+"id": "v-recreation-noun-1",
+"word": "recreation",
+"pos": "noun",
+"def": "activities that you do for enjoyment when you are not working",
+"ex": [
+"Emma's only form of recreation seems to be shopping.",
+"a recreation area/centre"
+]
+},
+{
+"id": "v-rectangular-adjective-1",
+"word": "rectangular",
+"pos": "adjective",
+"def": "shaped like a rectangle",
+"ex": [
+"a rectangular patch of grass"
+]
+},
+{
+"id": "v-reduction-noun-1",
+"word": "reduction",
+"pos": "noun",
+"def": "when something is reduced",
+"ex": [
+"a reduction in traffic",
+"huge price reductions"
+]
+},
+{
+"id": "v-refugee-noun-1",
+"word": "refugee",
+"pos": "noun",
+"def": "someone who has been forced to leave their country, especially because of a war",
+"ex": [
+"a refugee camp",
+"Thousands of refugees fled across the border."
+]
+},
+{
+"id": "v-regain-verb-1",
+"word": "regain",
+"pos": "verb",
+"def": "to get something back again",
+"ex": [
+"The government has regained control of the capital.",
+"It was several hours before he regained consciousness."
+]
+},
+{
+"id": "v-regard-verb-1",
+"word": "regard",
+"pos": "verb",
+"def": "to think of someone or something in a particular way",
+"ex": [
+"She is generally regarded as one of the greatest singers this century.",
+"The plans were regarded with deep suspicion."
+]
+},
+{
+"id": "v-regional-adjective-1",
+"word": "regional",
+"pos": "adjective",
+"def": "relating to a particular area in a country or the world",
+"ex": [
+"a regional accent/dialect"
+]
+},
+{
+"id": "v-rehearsal-noun-1",
+"word": "rehearsal",
+"pos": "noun",
+"def": "a time when all the people involved in a play, dance, etc. practise in order to prepare for a performance",
+"ex": [
+"We only had one rehearsal before the show."
+]
+},
+{
+"id": "v-release-noun-1",
+"word": "release",
+"pos": "noun",
+"def": "a musical recording which is made available for the public to buy",
+"ex": [
+"Her latest release, a song about doomed love, she wrote herself."
+]
+},
+{
+"id": "v-relevant-adjective-1",
+"word": "relevant",
+"pos": "adjective",
+"def": "related or useful to what is happening or being talked about",
+"ex": [
+"Education should be relevant to children's needs."
+]
+},
+{
+"id": "v-relieved-adjective-1",
+"word": "relieved",
+"pos": "adjective",
+"def": "happy that something unpleasant has not happened or has ended",
+"ex": [
+"I'm just relieved that she's safe and well.",
+"I heard a noise and was relieved to find that it was only a cat."
+]
+},
+{
+"id": "v-remains-noun-1",
+"word": "remains",
+"pos": "noun",
+"def": "pieces or parts of something which continue to exist when most of it has been used, destroyed or taken away",
+"ex": [
+"The remains of lunch were still on the table.",
+"We visited the remains of a 12th-century monastery."
+]
+},
+{
+"id": "v-requirement-noun-1",
+"word": "requirement",
+"pos": "noun",
+"def": "something that you must do, or something you need",
+"ex": [
+"A good degree is a minimum requirement for many jobs.",
+"Valid insurance is a legal requirement."
+]
+},
+{
+"id": "v-resident-noun-1",
+"word": "resident",
+"pos": "noun",
+"def": "someone who lives in a particular place",
+"ex": [
+"a resident of the UK/Australia",
+"Local residents were angry at the lack of parking spaces."
+]
+},
+{
+"id": "v-resign-verb-1",
+"word": "resign",
+"pos": "verb",
+"def": "to officially tell your employer that you are leaving your job",
+"ex": [
+"She resigned as headteacher.",
+"Two directors have resigned from the company."
+]
+},
+{
+"id": "v-resource-noun-1",
+"word": "resource",
+"pos": "noun",
+"def": "something useful that a country, person, or organization has which they can use",
+"ex": [
+"Britain's mineral resources include oil, coal and gas deposits."
+]
+},
+{
+"id": "v-revenge-noun-1",
+"word": "revenge",
+"pos": "noun",
+"def": "something that you do to punish someone who has done something bad to you",
+"ex": [
+"He's made life very difficult for me but I'll get/take my revenge.",
+"He was looking for revenge against those who had helped oust him from his leadership position."
+]
+},
+{
+"id": "v-rhythm-noun-1",
+"word": "rhythm",
+"pos": "noun",
+"def": "a regular, repeating pattern of sound or movement",
+"ex": [
+"He beat out a jazz rhythm on the drums.",
+"I've got no sense of rhythm, so I'm a terrible dancer."
+]
+},
+{
+"id": "v-rib-noun-1",
+"word": "rib",
+"pos": "noun",
+"def": "one of the curved bones in the chest",
+"ex": [
+"He cracked a rib in the accident."
+]
+},
+{
+"id": "v-ridiculous-adjective-1",
+"word": "ridiculous",
+"pos": "adjective",
+"def": "very silly",
+"ex": [
+"I've never heard anything so ridiculous.",
+"I'd look ridiculous in a hat like that."
+]
+},
+{
+"id": "v-ripe-adjective-1",
+"word": "ripe",
+"pos": "adjective",
+"def": "developed enough and ready to be eaten",
+"ex": [
+"Those bananas aren't ripe yet - they're still green."
+]
+},
+{
+"id": "v-risky-adjective-1",
+"word": "risky",
+"pos": "adjective",
+"def": "dangerous because something bad might happen",
+"ex": [
+"It's risky to buy a car without some good advice.",
+"Investing in shares is always a risky business."
+]
+},
+{
+"id": "v-robbery-noun-1",
+"word": "robbery",
+"pos": "noun",
+"def": "the crime of stealing from somewhere or someone",
+"ex": [
+"a bank robbery",
+"He is in prison for armed robbery."
+]
+},
+{
+"id": "v-roommate-noun-1",
+"word": "roommate",
+"pos": "noun",
+"def": "someone who you share a room, apartment, etc. with",
+"ex": [
+"He was my roommate while we were at college."
+]
+},
+{
+"id": "v-root-noun-1",
+"word": "root",
+"pos": "noun",
+"def": "the part of a plant that grows under the ground and gets water and food from the soil",
+"ex": [
+"These plants have really deep roots."
+]
+},
+{
+"id": "v-roots-noun-1",
+"word": "roots",
+"pos": "noun",
+"def": "where someone or something originally comes from",
+"ex": [
+"the roots of modern jazz"
+]
+},
+{
+"id": "v-rope-noun-1",
+"word": "rope",
+"pos": "noun",
+"def": "very thick string made from twisted thread",
+"ex": [
+"We tied the boat to a post with a length of rope.",
+"a coil of rope"
+]
+},
+{
+"id": "v-row-verb-1",
+"word": "row",
+"pos": "verb",
+"def": "to move a boat or move someone in a boat through the water using oars",
+"ex": [
+"We rowed to the other side of the lake."
+]
+},
+{
+"id": "v-row-noun-1",
+"word": "row",
+"pos": "noun",
+"def": "a loud, angry argument",
+"ex": [
+"My parents often have rows.",
+"a blazing row"
+]
+},
+{
+"id": "v-rub-verb-1",
+"word": "rub",
+"pos": "verb",
+"def": "to press your hand or a cloth on a surface and move it backwards and forwards",
+"ex": [
+"Rub the stain with a damp cloth."
+]
+},
+{
+"id": "v-ruin-verb-1",
+"word": "ruin",
+"pos": "verb",
+"def": "to spoil or destroy something completely",
+"ex": [
+"They were late and the dinner was ruined.",
+"Her injury ruined her chances of winning the race."
+]
+},
+{
+"id": "v-rumour-noun-1",
+"word": "rumour",
+"pos": "noun",
+"def": "a fact that a lot of people are talking about although they do not know if it is true",
+"ex": [
+"Rumours are going round the school about Mr Mason and his assistant.",
+"Someone has been spreading rumours about me."
+]
+},
+{
+"id": "v-rural-adjective-1",
+"word": "rural",
+"pos": "adjective",
+"def": "relating to the countryside and not to towns",
+"ex": [
+"The area is still very rural and undeveloped."
+]
+},
+{
+"id": "v-sack-verb-1",
+"word": "sack",
+"pos": "verb",
+"def": "to tell someone to leave their job, usually because they have done something wrong",
+"ex": [
+"They sacked her for being late.",
+"He got sacked from his last job."
+]
+},
+{
+"id": "v-sale-noun-1",
+"word": "sale",
+"pos": "noun",
+"def": "the act of selling something, or the time when something is sold",
+"ex": [
+"The sale of alcohol is now banned.",
+"The building company gets 10% commission on each house sale."
+]
+},
+{
+"id": "v-sales-noun-1",
+"word": "sales",
+"pos": "noun",
+"def": "the number of items sold",
+"ex": [
+"Our sales have doubled this year."
+]
+},
+{
+"id": "v-salon-noun-1",
+"word": "salon",
+"pos": "noun",
+"def": "a place where women have their hair cut and put in a style",
+"ex": [
+"My hairdresser opened her own salon."
+]
+},
+{
+"id": "v-salty-adjective-1",
+"word": "salty",
+"pos": "adjective",
+"def": "tasting of or containing salt",
+"ex": [
+"Is the soup too salty?"
+]
+},
+{
+"id": "v-satellite-noun-1",
+"word": "satellite",
+"pos": "noun",
+"def": "a piece of equipment that is sent into space around the Earth to receive and send signals or to collect information",
+"ex": [
+"The World Cup was transmitted around the world by satellite.",
+"a TV/weather satellite"
+]
+},
+{
+"id": "v-savings-noun-1",
+"word": "savings",
+"pos": "noun",
+"def": "the money which you keep in an account in a bank or similar financial organization",
+"ex": [
+"He spent all his savings on an expensive car."
+]
+},
+{
+"id": "v-scandal-noun-1",
+"word": "scandal",
+"pos": "noun",
+"def": "something that shocks people because they think it is morally wrong",
+"ex": [
+"a financial/political scandal",
+"Their affair caused/created a scandal in the office."
+]
+},
+{
+"id": "v-scent-noun-1",
+"word": "scent",
+"pos": "noun",
+"def": "a pleasant smell",
+"ex": [
+"the sweet scent of orange blossom"
+]
+},
+{
+"id": "v-schedule-verb-1",
+"word": "schedule",
+"pos": "verb",
+"def": "to arrange that an event or activity will happen at a particular time",
+"ex": [
+"The meeting has been scheduled for tomorrow afternoon.",
+"The train is scheduled to arrive at 8.45, but it's running twenty minutes late."
+]
+},
+{
+"id": "v-schedule-noun-1",
+"word": "schedule",
+"pos": "noun",
+"def": "a plan that gives events or activities and the times that they will happen or be done",
+"ex": [
+"I have a very busy schedule today.",
+"Will the work be completed on schedule?"
+]
+},
+{
+"id": "v-scheme-noun-1",
+"word": "scheme",
+"pos": "noun",
+"def": "an official plan or system",
+"ex": [
+"a training/housing/play scheme",
+"a pension/savings scheme"
+]
+},
+{
+"id": "v-scratch-noun-1",
+"word": "scratch",
+"pos": "noun",
+"def": "a slight cut or a long, thin mark made with a sharp object",
+"ex": [
+"I've got all these scratches on my arm from the cat."
+]
+},
+{
+"id": "v-seal-noun-1",
+"word": "seal",
+"pos": "noun",
+"def": "an animal with smooth fur that eats fish and lives near the sea",
+"ex": [
+"We could see seals swimming near the coast."
+]
+},
+{
+"id": "v-seasonal-adjective-1",
+"word": "seasonal",
+"pos": "adjective",
+"def": "relating to or happening during a particular period in the year",
+"ex": [
+"seasonal farm work"
+]
+},
+{
+"id": "v-secondly-adverb-1",
+"word": "secondly",
+"pos": "adverb",
+"def": "used for introducing the second reason, idea, etc.",
+"ex": [
+"I want two things: firstly, more money, and secondly, better working hours."
+]
+},
+{
+"id": "v-seed-noun-1",
+"word": "seed",
+"pos": "noun",
+"def": "a small round or oval object produced by a plant that a new plant can grow from",
+"ex": [
+"Sow the seeds about 3 cm deep.",
+"This chemical will stop the seeds from sprouting."
+]
+},
+{
+"id": "v-seldom-adverb-1",
+"word": "seldom",
+"pos": "adverb",
+"def": "not often",
+"ex": [
+"We seldom go out in the evenings."
+]
+},
+{
+"id": "v-semicolon-noun-1",
+"word": "semicolon",
+"pos": "noun",
+"def": "a mark (;) used to separate parts of a sentence, or items in a list which already has commas",
+"ex": [
+"Use a semicolon to separate the groups of items in your list."
+]
+},
+{
+"id": "v-seminar-noun-1",
+"word": "seminar",
+"pos": "noun",
+"def": "a meeting of a group of people with a teacher or expert for training, discussion, or study of a subject",
+"ex": [
+"I attended practically every lecture and seminar when I was a student.",
+"I'm giving a seminar on the latest developments in genetic engineering next week."
+]
+},
+{
+"id": "v-sentence-verb-1",
+"word": "sentence",
+"pos": "verb",
+"def": "to give a punishment to someone who has committed a crime",
+"ex": [
+"He was sentenced to life imprisonment."
+]
+},
+{
+"id": "v-severely-adverb-1",
+"word": "severely",
+"pos": "adverb",
+"def": "very seriously",
+"ex": [
+"Their daughter was severely injured in a car accident.",
+"Job opportunities are severely limited/restricted at the moment."
+]
+},
+{
+"id": "v-shed-noun-1",
+"word": "shed",
+"pos": "noun",
+"def": "a small building, usually made of wood, used for storing things",
+"ex": [
+"a garden shed",
+"a tool/bicycle shed"
+]
+},
+{
+"id": "v-shell-noun-1",
+"word": "shell",
+"pos": "noun",
+"def": "the hard outer covering of some creatures and of eggs, nuts, or seeds",
+"ex": [
+"Brazil nuts have very hard shells.",
+"A piece of shell fell into the cake mixture."
+]
+},
+{
+"id": "v-shiver-verb-1",
+"word": "shiver",
+"pos": "verb",
+"def": "to shake because you are cold or frightened",
+"ex": [
+"She shivered with cold.",
+"The poor dog - it's shivering!"
+]
+},
+{
+"id": "v-shooting-noun-1",
+"word": "shooting",
+"pos": "noun",
+"def": "when a gun is fired, or when someone is injured or killed by a bullet from a gun",
+"ex": [
+"We heard some shooting in the night.",
+"There have been a number of shootings in the capital this week."
+]
+},
+{
+"id": "v-shopkeeper-noun-1",
+"word": "shopkeeper",
+"pos": "noun",
+"def": "someone who owns or manages a small shop",
+"ex": [
+"Local shopkeepers say business is good at the moment."
+]
+},
+{
+"id": "v-shrink-verb-1",
+"word": "shrink",
+"pos": "verb",
+"def": "to become smaller, or to make something smaller",
+"ex": [
+"Your sweater will shrink if you wash it at too high a temperature."
+]
+},
+{
+"id": "v-sigh-noun-1",
+"word": "sigh",
+"pos": "noun",
+"def": "the sound that is made when someone sighs",
+"ex": [
+"He read the letter and gave a deep sigh."
+]
+},
+{
+"id": "v-sigh-verb-1",
+"word": "sigh",
+"pos": "verb",
+"def": "to breathe out slowly and noisily, often because you are annoyed or unhappy",
+"ex": [
+"She sighed deeply and sat down.",
+"\"I wish he was here,\" she sighed."
+]
+},
+{
+"id": "v-simultaneously-adverb-1",
+"word": "simultaneously",
+"pos": "adverb",
+"def": "at the same time",
+"ex": [
+"Two children answered the teacher's question simultaneously."
+]
+},
+{
+"id": "v-since-adverb-1",
+"word": "since",
+"pos": "adverb",
+"def": "from a time in the past until a later time or until now",
+"ex": [
+"Emma went to work in New York a year ago, and we haven't seen her since.",
+"He started working for the company when he left school, and has been there ever since."
+]
+},
+{
+"id": "v-skeleton-noun-1",
+"word": "skeleton",
+"pos": "noun",
+"def": "the structure made of all the bones in the body of a person or animal",
+"ex": [
+"We found an old sheep skeleton up on the cliffs.",
+"Her long illness reduced her to a skeleton."
+]
+},
+{
+"id": "v-slam-verb-1",
+"word": "slam",
+"pos": "verb",
+"def": "to close with great force, or to make something close with great force",
+"ex": [
+"The wind made the door/window slam (shut).",
+"Close the door carefully, don't slam it."
+]
+},
+{
+"id": "v-slave-noun-1",
+"word": "slave",
+"pos": "noun",
+"def": "someone who is owned by someone else and has to work for them",
+"ex": [
+"I'm tired of being treated like a slave!"
+]
+},
+{
+"id": "v-slice-verb-1",
+"word": "slice",
+"pos": "verb",
+"def": "to cut something into thin, flat pieces",
+"ex": [
+"Slice the mushrooms thinly and fry in butter.",
+"Could you slice me a very thin piece of cake/slice a very thin piece of cake for me?"
+]
+},
+{
+"id": "v-slope-noun-1",
+"word": "slope",
+"pos": "noun",
+"def": "a surface or piece of land that is high at one end and low at the other",
+"ex": [
+"There's a steep slope to climb before we're at the top.",
+"a mountain/ski slope"
+]
+},
+{
+"id": "v-smash-verb-1",
+"word": "smash",
+"pos": "verb",
+"def": "to break into a lot of pieces with a loud noise, or to make something break into a lot of pieces with a loud noise",
+"ex": [
+"Rioters ran through the city centre smashing windows and looting shops.",
+"She dropped her cup and watched it smash to pieces on the stone floor."
+]
+},
+{
+"id": "v-snore-verb-1",
+"word": "snore",
+"pos": "verb",
+"def": "to breathe in a very noisy way while you are sleeping",
+"ex": [
+"He was snoring so much it kept me awake."
+]
+},
+{
+"id": "v-soaked-adjective-1",
+"word": "soaked",
+"pos": "adjective",
+"def": "completely wet",
+"ex": [
+"My shirt was soaked."
+]
+},
+{
+"id": "v-soaking-adjective-1",
+"word": "soaking",
+"pos": "adjective",
+"def": "completely wet",
+"ex": [
+"You're soaking - why didn't you take an umbrella?",
+"The dog was soaking wet."
+]
+},
+{
+"id": "v-solar-adjective-1",
+"word": "solar",
+"pos": "adjective",
+"def": "relating to, or involving the sun",
+"ex": [
+"a solar cell/panel"
+]
+},
+{
+"id": "v-solo-noun-1",
+"word": "solo",
+"pos": "noun",
+"def": "a piece of music for one person or one instrument",
+"ex": [
+"a trumpet solo",
+"Parker's solo on 'A Night in Tunisia' was so amazing that the pianist backing him simply stopped playing."
+]
+},
+{
+"id": "v-solo-adjective-1",
+"word": "solo",
+"pos": "adjective",
+"def": "done alone by one person only",
+"ex": [
+"a solo performance/flight",
+"to sail/fly solo"
+]
+},
+{
+"id": "v-soundtrack-noun-1",
+"word": "soundtrack",
+"pos": "noun",
+"def": "the music used in a film or a television programme",
+"ex": [
+"The film's soundtrack includes music by Bob Marley."
+]
+},
+{
+"id": "v-species-noun-1",
+"word": "species",
+"pos": "noun",
+"def": "a group of plants or animals which share similar characteristics",
+"ex": [
+"Mountain gorillas are an endangered species.",
+"Over a hundred species of insect are found in this area."
+]
+},
+{
+"id": "v-specify-verb-1",
+"word": "specify",
+"pos": "verb",
+"def": "to state or describe something clearly and exactly",
+"ex": [
+"He said we should meet but didn't specify a time.",
+"The newspaper report did not specify how the men were killed."
+]
+},
+{
+"id": "v-spectator-noun-1",
+"word": "spectator",
+"pos": "noun",
+"def": "someone who watches an event, sport, etc.",
+"ex": [
+"They won 4-0 in front of over 40 000 cheering spectators."
+]
+},
+{
+"id": "v-spiritual-adjective-1",
+"word": "spiritual",
+"pos": "adjective",
+"def": "relating to deep feelings and beliefs, especially religious beliefs",
+"ex": [
+"Traditional ways of life fulfilled both economic and spiritual needs."
+]
+},
+{
+"id": "v-sponsor-noun-1",
+"word": "sponsor",
+"pos": "noun",
+"def": "a person or organization that gives money to support an activity, event, etc",
+"ex": [
+"All the major theatres now have sponsors, especially for high-cost productions."
+]
+},
+{
+"id": "v-sponsor-verb-1",
+"word": "sponsor",
+"pos": "verb",
+"def": "to give money to someone to support an activity, event, or organization, sometimes as a way to advertise your company or product",
+"ex": [
+"The team is sponsored by JVC, so the players wear the letters JVC on their shirts.",
+"Eva said she was doing a ten-mile walk for charity and asked if I'd sponsor her for £1 a mile."
+]
+},
+{
+"id": "v-spray-verb-1",
+"word": "spray",
+"pos": "verb",
+"def": "to force liquid out of a container in many small drops",
+"ex": [
+"The fields are sprayed with pesticides.",
+"She sprayed a little perfume on her wrists."
+]
+},
+{
+"id": "v-spread-noun-1",
+"word": "spread",
+"pos": "noun",
+"def": "when something moves to cover a larger area or affect a larger number of people",
+"ex": [
+"Jazz records fostered the spread of American culture.",
+"More should be done to stop the spread of this disease."
+]
+},
+{
+"id": "v-spreadsheet-noun-1",
+"word": "spreadsheet",
+"pos": "noun",
+"def": "a chart produced on a computer which helps you to do business calculations and planning",
+"ex": [
+"She prepared a spreadsheet with the new sales information."
+]
+},
+{
+"id": "v-squeeze-verb-1",
+"word": "squeeze",
+"pos": "verb",
+"def": "to press something firmly",
+"ex": [
+"She squeezed his hand and said goodbye.",
+"Cut the lemon in half and squeeze the juice into the bowl."
+]
+},
+{
+"id": "v-stain-noun-1",
+"word": "stain",
+"pos": "noun",
+"def": "a dirty mark on something that is difficult to remove",
+"ex": [
+"a blood/grass stain",
+"You can remove a red wine stain from a carpet by sprinkling salt over it."
+]
+},
+{
+"id": "v-stare-verb-1",
+"word": "stare",
+"pos": "verb",
+"def": "to look at someone or something for a long time and not move your eyes",
+"ex": [
+"Don't stare at people like that, it's rude.",
+"Chuck sat quietly for hours staring into the distance, thinking of what might have been."
+]
+},
+{
+"id": "v-statistics-noun-1",
+"word": "statistics",
+"pos": "noun",
+"def": "a collection of facts in the form of numbers that shows information about something",
+"ex": [
+"Statistics show/suggest that women live longer than men."
+]
+},
+{
+"id": "v-steadily-adverb-1",
+"word": "steadily",
+"pos": "adverb",
+"def": "at a gradual, regular rate",
+"ex": [
+"Prices have increased steadily since the war."
+]
+},
+{
+"id": "v-steel-noun-1",
+"word": "steel",
+"pos": "noun",
+"def": "a very strong metal made from iron, used for making knives, machines, etc.",
+"ex": [
+"a stainless steel sink"
+]
+},
+{
+"id": "v-steer-verb-1",
+"word": "steer",
+"pos": "verb",
+"def": "to control the direction of a vehicle",
+"ex": [
+"She carefully steered the car around the potholes.",
+"This car is very easy to steer."
+]
+},
+{
+"id": "v-stepfather-noun-1",
+"word": "stepfather",
+"pos": "noun",
+"def": "the man who is married to your mother but is not your father",
+"ex": [
+"His stepfather gave him a job."
+]
+},
+{
+"id": "v-stepmother-noun-1",
+"word": "stepmother",
+"pos": "noun",
+"def": "the woman who has married your father but is not your mother",
+"ex": [
+"My stepmother is only a few years older than me."
+]
+},
+{
+"id": "v-stock-noun-1",
+"word": "stock",
+"pos": "noun",
+"def": "all the goods that are available in a shop",
+"ex": [
+"We're expecting some new stock in this afternoon.",
+"This shop sells its old stock at a very low prices."
+]
+},
+{
+"id": "v-stool-noun-1",
+"word": "stool",
+"pos": "noun",
+"def": "a seat that does not have a back or arms",
+"ex": [
+"a bar/kitchen/piano stool",
+"a three-legged stool"
+]
+},
+{
+"id": "v-stopover-noun-1",
+"word": "stopover",
+"pos": "noun",
+"def": "a short stop between parts of a journey, especially a plane journey",
+"ex": [
+"The plane tickets include a two-night stopover in Singapore."
+]
+},
+{
+"id": "v-storage-noun-1",
+"word": "storage",
+"pos": "noun",
+"def": "when you put things in a safe place until they are needed",
+"ex": [
+"We've had to build some cupboards to give us more storage space."
+]
+},
+{
+"id": "v-storey-noun-1",
+"word": "storey",
+"pos": "noun",
+"def": "a level of a building",
+"ex": [
+"a three-storey house",
+"Their new house has four storeys including the basement."
+]
+},
+{
+"id": "v-straightforward-adjective-1",
+"word": "straightforward",
+"pos": "adjective",
+"def": "easy to do or understand",
+"ex": [
+"Just follow the signs to Bradford - it's very straightforward."
+]
+},
+{
+"id": "v-strategy-noun-1",
+"word": "strategy",
+"pos": "noun",
+"def": "a plan that you use to achieve something",
+"ex": [
+"the government's economic strategy",
+"a military strategy"
+]
+},
+{
+"id": "v-strictly-adverb-1",
+"word": "strictly",
+"pos": "adverb",
+"def": "exactly or correctly",
+"ex": [
+"That's not strictly true.",
+"Strictly speaking, we're not allowed to give you any advice."
+]
+},
+{
+"id": "v-stroke-verb-1",
+"word": "stroke",
+"pos": "verb",
+"def": "to gently move your hand over a surface",
+"ex": [
+"Stroke the dog if you like, it won't bite.",
+"He stroked her hair."
+]
+},
+{
+"id": "v-stubborn-adjective-1",
+"word": "stubborn",
+"pos": "adjective",
+"def": "determined not to change your ideas, plans, etc., although other people want you to",
+"ex": [
+"He can be very stubborn sometimes.",
+"They have massive rows because they're both so stubborn."
+]
+},
+{
+"id": "v-stunning-adjective-1",
+"word": "stunning",
+"pos": "adjective",
+"def": "very beautiful or attractive",
+"ex": [
+"a stunning dress",
+"a stunning view over the bay of Saint Tropez"
+]
+},
+{
+"id": "v-substitute-verb-1",
+"word": "substitute",
+"pos": "verb",
+"def": "to use someone or something instead of another person or thing",
+"ex": [
+"You can substitute oil for butter in this recipe.",
+"Dayton was substituted for Williams in the second half of the match."
+]
+},
+{
+"id": "v-substitute-noun-1",
+"word": "substitute",
+"pos": "noun",
+"def": "a thing or person that is used instead of another thing or person",
+"ex": [
+"Tofu can be used as a meat substitute in vegetarian recipes.",
+"Vitamins should not be used as a substitute for a healthy diet."
+]
+},
+{
+"id": "v-suburb-noun-1",
+"word": "suburb",
+"pos": "noun",
+"def": "an area on the edge of a large town or city where people who work in the town or city often live",
+"ex": [
+"Box Hill is a suburb of Melbourne.",
+"We drove from middle-class suburbs to a very poor inner-city area."
+]
+},
+{
+"id": "v-sufficient-adjective-1",
+"word": "sufficient",
+"pos": "adjective",
+"def": "as much as is necessary",
+"ex": [
+"This recipe should be sufficient for five people.",
+"It was thought that he'd committed the crime but there wasn't sufficient evidence to convict him."
+]
+},
+{
+"id": "v-suitably-adverb-1",
+"word": "suitably",
+"pos": "adverb",
+"def": "in a way that is acceptable or right",
+"ex": [
+"a suitably qualified person",
+"Was he dressed suitably?"
+]
+},
+{
+"id": "v-summary-noun-1",
+"word": "summary",
+"pos": "noun",
+"def": "a short, clear description that gives the main facts or ideas about something",
+"ex": [
+"He gave a brief summary of events."
+]
+},
+{
+"id": "v-sunlight-noun-1",
+"word": "sunlight",
+"pos": "noun",
+"def": "the light from the sun",
+"ex": [
+"The garden was bathed in sunlight."
+]
+},
+{
+"id": "v-superb-adjective-1",
+"word": "superb",
+"pos": "adjective",
+"def": "excellent",
+"ex": [
+"He is a superb dancer.",
+"Taylor scored a superb goal at the end of the first half."
+]
+},
+{
+"id": "v-supervise-verb-1",
+"word": "supervise",
+"pos": "verb",
+"def": "to watch a person or activity to make certain that everything is done correctly, safely, etc.",
+"ex": [
+"The UN is supervising the distribution of aid by local agencies in the disaster area.",
+"The children play while two teachers supervise."
+]
+},
+{
+"id": "v-surroundings-noun-1",
+"word": "surroundings",
+"pos": "noun",
+"def": "the place where someone or something is and the things that are in it",
+"ex": [
+"Have you got used to your new surroundings?",
+"Some butterflies blend in with their surroundings so that it's difficult to see them."
+]
+},
+{
+"id": "v-survey-noun-1",
+"word": "survey",
+"pos": "noun",
+"def": "an examination of opinions, behaviour, etc., made by asking people questions",
+"ex": [
+"A recent survey found/showed that 58% of people did not know where their heart is.",
+"They are conducting/carrying out/doing a survey."
+]
+},
+{
+"id": "v-swan-noun-1",
+"word": "swan",
+"pos": "noun",
+"def": "a large, white bird with a long neck which lives on lakes and rivers",
+"ex": [
+"We saw two swans gliding down the river with their signets."
+]
+},
+{
+"id": "v-sweat-noun-1",
+"word": "sweat",
+"pos": "noun",
+"def": "the salty colourless liquid that comes through your skin when you are hot, nervous or ill",
+"ex": [
+"The sweat was pouring off me ten minutes into the game.",
+"By the time we'd climbed to the top of the hill, we were covered in sweat."
+]
+},
+{
+"id": "v-sweat-verb-1",
+"word": "sweat",
+"pos": "verb",
+"def": "to produce liquid through your skin because you are hot, nervous or ill",
+"ex": [
+"The room was hot and I was starting to sweat.",
+"The prisoners were sweating with fear."
+]
+},
+{
+"id": "v-swing-verb-1",
+"word": "swing",
+"pos": "verb",
+"def": "to move smoothly backwards and forwards, or to make something do this",
+"ex": [
+"He walked briskly along the path swinging his rolled-up umbrella."
+]
+},
+{
+"id": "v-switch-verb-1",
+"word": "switch",
+"pos": "verb",
+"def": "to change from one thing to another",
+"ex": [
+"She started studying English at college, but switched to Business Studies in her second year.",
+"He's just switched jobs."
+]
+},
+{
+"id": "v-swollen-adjective-1",
+"word": "swollen",
+"pos": "adjective",
+"def": "larger than usual",
+"ex": [
+"a bruised, swollen face"
+]
+},
+{
+"id": "v-sword-noun-1",
+"word": "sword",
+"pos": "noun",
+"def": "a weapon with a long sharp metal blade and a handle, used especially in the past",
+"ex": [
+"He rode towards me, waving his sword in the air."
+]
+},
+{
+"id": "v-syllable-noun-1",
+"word": "syllable",
+"pos": "noun",
+"def": "a word or part of a word that has one vowel sound",
+"ex": [
+"The word \"tiger\" has two syllables."
+]
+},
+{
+"id": "v-tabloid-adjective-1",
+"word": "tabloid",
+"pos": "adjective",
+"def": "relating to tabloids",
+"ex": [
+"the tabloid press",
+"a tabloid newspaper"
+]
+},
+{
+"id": "v-tabloid-noun-1",
+"word": "tabloid",
+"pos": "noun",
+"def": "a type of popular newspaper with small pages which has many pictures and short simple reports",
+"ex": [
+"She writes for one of the tabloids."
+]
+},
+{
+"id": "v-tail-noun-1",
+"word": "tail",
+"pos": "noun",
+"def": "the long, narrow part that sticks out at the back of an animal's body",
+"ex": [
+"The dog wagged its tail excitedly."
+]
+},
+{
+"id": "v-tale-noun-1",
+"word": "tale",
+"pos": "noun",
+"def": "a story, especially one which is not true or is difficult to believe",
+"ex": [
+"He told the most amazing tales about his life in India.",
+"She told me some tale about missing the bus to explain her lateness."
+]
+},
+{
+"id": "v-tan-noun-1",
+"word": "tan",
+"pos": "noun",
+"def": "when your skin is brown from being in the sun",
+"ex": [
+"She had a lovely tan."
+]
+},
+{
+"id": "v-task-noun-1",
+"word": "task",
+"pos": "noun",
+"def": "a piece of work, especially something unpleasant or difficult",
+"ex": [
+"We usually ask interviewees to perform a few simple tasks on the computer just to test their aptitude.",
+"The government now faces the difficult task of restructuring the entire health service."
+]
+},
+{
+"id": "v-tease-verb-1",
+"word": "tease",
+"pos": "verb",
+"def": "to laugh at someone or say unkind things about them, either because you are joking or because you want to upset them",
+"ex": [
+"I used to hate being teased about my red hair when I was at school.",
+"I was only teasing, I didn't mean to upset you."
+]
+},
+{
+"id": "v-teaspoon-noun-1",
+"word": "teaspoon",
+"pos": "noun",
+"def": "a small spoon that is used for mixing drinks and measuring small amounts of food, or the amount this spoon can hold",
+"ex": [
+"Add two teaspoons of salt."
+]
+},
+{
+"id": "v-telecommunications-noun-1",
+"word": "telecommunications",
+"pos": "noun",
+"def": "the sending and receiving of messages over distance, especially by telephone, radio and television",
+"ex": [
+"the telecommunications industry"
+]
+},
+{
+"id": "v-telescope-noun-1",
+"word": "telescope",
+"pos": "noun",
+"def": "a piece of equipment, in the shape of a tube, that makes things which are far away look bigger or nearer",
+"ex": [
+"a very powerful telescope"
+]
+},
+{
+"id": "v-temper-noun-1",
+"word": "temper",
+"pos": "noun",
+"def": "when someone becomes angry very quickly",
+"ex": [
+"She has a real temper.",
+"He's got a really bad temper."
+]
+},
+{
+"id": "v-temporarily-adverb-1",
+"word": "temporarily",
+"pos": "adverb",
+"def": "for a short time",
+"ex": [
+"This office is closed temporarily for redecoration."
+]
+},
+{
+"id": "v-temptation-noun-1",
+"word": "temptation",
+"pos": "noun",
+"def": "a feeling that you want to do or have something, although you know you should not",
+"ex": [
+"In these situations, there is a huge temptation to lie.",
+"As a young actress, she managed to resist the temptation to move to Hollywood."
+]
+},
+{
+"id": "v-terminal-noun-1",
+"word": "terminal",
+"pos": "noun",
+"def": "a building where you can get onto an aircraft, bus, or ship",
+"ex": [
+"Your flight to Perth will leave from Terminal 4."
+]
+},
+{
+"id": "v-terms-noun-1",
+"word": "terms",
+"pos": "noun",
+"def": "the rules of an agreement",
+"ex": [
+"your terms of employment",
+"Under the terms of their contract, employees must give 3 months' notice if they leave."
+]
+},
+{
+"id": "v-terrace-noun-1",
+"word": "terrace",
+"pos": "noun",
+"def": "a flat area outside a house, restaurant, etc. where you can sit",
+"ex": [
+"We had our drinks on the terrace."
+]
+},
+{
+"id": "v-terrifying-adjective-1",
+"word": "terrifying",
+"pos": "adjective",
+"def": "extremely frightening",
+"ex": [
+"It was a terrifying experience."
+]
+},
+{
+"id": "v-terror-noun-1",
+"word": "terror",
+"pos": "noun",
+"def": "a feeling of being very frightened",
+"ex": [
+"They fled from the city in terror.",
+"I will never forget the look of terror in her face."
+]
+},
+{
+"id": "v-terrorism-noun-1",
+"word": "terrorism",
+"pos": "noun",
+"def": "the use of violence for political purposes, for example putting bombs in public places",
+"ex": [
+"Governments must cooperate if they are to fight international terrorism.",
+"The bomb explosion was one of the worst acts of terrorism that Italy has experienced in recent years."
+]
+},
+{
+"id": "v-thanks-noun-1",
+"word": "thanks",
+"pos": "noun",
+"def": "words or actions that show you are grateful or pleased about something",
+"ex": [
+"They expressed their thanks to the organisers.",
+"He wrote a letter of thanks to the hospital."
+]
+},
+{
+"id": "v-that-adverb-1",
+"word": "that",
+"pos": "adverb",
+"def": "used when describing the size, amount, or state of something or someone",
+"ex": [
+"She's too young to walk that far.",
+"It wasn't (all) that good."
+]
+},
+{
+"id": "v-theft-noun-1",
+"word": "theft",
+"pos": "noun",
+"def": "the action or crime of stealing something",
+"ex": [
+"Unfortunately, we have had several thefts in the building recently."
+]
+},
+{
+"id": "v-theme-noun-1",
+"word": "theme",
+"pos": "noun",
+"def": "the subject of a talk, book, film, etc.",
+"ex": [
+"The theme of loss runs through most of his novels."
+]
+},
+{
+"id": "v-thermometer-noun-1",
+"word": "thermometer",
+"pos": "noun",
+"def": "a piece of equipment that measures the temperature of air or of your body",
+"ex": [
+"Keep the thermometer under your tongue."
+]
+},
+{
+"id": "v-thigh-noun-1",
+"word": "thigh",
+"pos": "noun",
+"def": "the top part of your leg above your knee",
+"ex": [
+"My thighs were aching after the climb."
+]
+},
+{
+"id": "v-third-noun-1",
+"word": "third",
+"pos": "noun",
+"def": "one of three equal parts of something",
+"ex": [
+"He cut the cake into thirds."
+]
+},
+{
+"id": "v-thorough-adjective-1",
+"word": "thorough",
+"pos": "adjective",
+"def": "careful and including every detail",
+"ex": [
+"a thorough revision of the manuscript",
+"They did a thorough search of the area but found nothing."
+]
+},
+{
+"id": "v-though-adverb-1",
+"word": "though",
+"pos": "adverb",
+"def": "used especially at the end of a sentence, to add a fact or opinion to what you have just said",
+"ex": [
+"Okay, I'll come to the party. I'm not staying late though."
+]
+},
+{
+"id": "v-thrilled-adjective-1",
+"word": "thrilled",
+"pos": "adjective",
+"def": "very excited and pleased",
+"ex": [
+"She was thrilled with your present."
+]
+},
+{
+"id": "v-thrilling-adjective-1",
+"word": "thrilling",
+"pos": "adjective",
+"def": "very exciting",
+"ex": [
+"a thrilling game"
+]
+},
+{
+"id": "v-thus-adverb-1",
+"word": "thus",
+"pos": "adverb",
+"def": "used after saying a fact to introduce what then happened as a result",
+"ex": [
+"They planned to reduce staff and thus to cut costs."
+]
+},
+{
+"id": "v-tide-noun-1",
+"word": "tide",
+"pos": "noun",
+"def": "the regular rise and fall in the level of the sea",
+"ex": [
+"The tide is out/in."
+]
+},
+{
+"id": "v-toenail-noun-1",
+"word": "toenail",
+"pos": "noun",
+"def": "one of the hard, flat parts on top of the end of your toes",
+"ex": [
+"I need to cut my toenails."
+]
+},
+{
+"id": "v-tomb-noun-1",
+"word": "tomb",
+"pos": "noun",
+"def": "a place where a dead person is buried, usually with a stone structure",
+"ex": [
+"He is buried in a marble tomb."
+]
+},
+{
+"id": "v-ton-noun-1",
+"word": "ton",
+"pos": "noun",
+"def": "a unit for measuring weight, equal to 1016 kilograms in the UK and 907 kilograms in the US",
+"ex": [
+"They generated nearly 6 tons of rubbish."
+]
+},
+{
+"id": "v-top-adverb-1",
+"word": "top",
+"pos": "adverb",
+"def": "in the position of being most important or successful",
+"ex": [
+"She came top in the maths test."
+]
+},
+{
+"id": "v-torch-noun-1",
+"word": "torch",
+"pos": "noun",
+"def": "a small electric light that you hold in your hand",
+"ex": [
+"She shone the torch into the dark room."
+]
+},
+{
+"id": "v-tornado-noun-1",
+"word": "tornado",
+"pos": "noun",
+"def": "an extremely strong and dangerous wind that blows in a circle and destroys buildings as it moves along",
+"ex": [
+"A tornado had swept through the north of the state, causing terrible destruction."
+]
+},
+{
+"id": "v-trace-noun-1",
+"word": "trace",
+"pos": "noun",
+"def": "proof that someone or something was in a place",
+"ex": [
+"There was no trace of her anywhere.",
+"When she moved out, she left no trace of having been there."
+]
+},
+{
+"id": "v-tragedy-noun-1",
+"word": "tragedy",
+"pos": "noun",
+"def": "an event or situation which is very sad, often involving death",
+"ex": [
+"His life was touched by hardship and personal tragedy.",
+"They had only recently arrived in London when tragedy struck - their son was killed in a traffic accident."
+]
+},
+{
+"id": "v-tragic-adjective-1",
+"word": "tragic",
+"pos": "adjective",
+"def": "very sad, often involving death and suffering",
+"ex": [
+"Her tragic death at the age of 36 shocked the world.",
+"He was killed in a tragic accident."
+]
+},
+{
+"id": "v-transfer-noun-1",
+"word": "transfer",
+"pos": "noun",
+"def": "when something or someone moves or is moved from one place, position, etc. to another",
+"ex": [
+"the transfer of information",
+"Black's transfer to an Italian football club came as a shock to Coventry supporters."
+]
+},
+{
+"id": "v-tray-noun-1",
+"word": "tray",
+"pos": "noun",
+"def": "a flat object, usually with raised edges, used for carrying food and drinks",
+"ex": [
+"She was carrying a tray of drinks."
+]
+},
+{
+"id": "v-trekking-noun-1",
+"word": "trekking",
+"pos": "noun",
+"def": "when you go on a long, difficult journey on foot",
+"ex": [
+"We want to go trekking in the Himalayas."
+]
+},
+{
+"id": "v-tremble-verb-1",
+"word": "tremble",
+"pos": "verb",
+"def": "to shake slightly, usually because you are cold, frightened, or very emotional",
+"ex": [
+"When he came out of the water, he was trembling with cold.",
+"Her bottom lip trembled and tears welled up in her eyes."
+]
+},
+{
+"id": "v-tremendously-adverb-1",
+"word": "tremendously",
+"pos": "adverb",
+"def": "very or very much",
+"ex": [
+"They've worked tremendously hard.",
+"We all enjoyed ourselves tremendously."
+]
+},
+{
+"id": "v-triangle-noun-1",
+"word": "triangle",
+"pos": "noun",
+"def": "a flat shape with three straight sides",
+"ex": [
+"an equilateral triangle",
+"There's a small triangle of land to one side of the house."
+]
+},
+{
+"id": "v-trip-verb-1",
+"word": "trip",
+"pos": "verb",
+"def": "to fall or almost fall because you hit your foot on something when you are walking or running",
+"ex": [
+"Careful you don't trip over the cat!"
+]
+},
+{
+"id": "v-trivial-adjective-1",
+"word": "trivial",
+"pos": "adjective",
+"def": "small and not important",
+"ex": [
+"It's a fairly trivial offence.",
+"It may seem trivial to you but it matters to me."
+]
+},
+{
+"id": "v-trolley-noun-1",
+"word": "trolley",
+"pos": "noun",
+"def": "a metal object with two or four wheels that you push or pull to transport large or heavy objects on",
+"ex": [
+"a shopping/supermarket trolley",
+"The hospital is so overcrowded that some patients are being treated on trolleys in the corridors."
+]
+},
+{
+"id": "v-trophy-noun-1",
+"word": "trophy",
+"pos": "noun",
+"def": "a prize, such as a silver cup, that you get for winning a race or competition",
+"ex": [
+"He's an excellent snooker player, but he's never won a major trophy."
+]
+},
+{
+"id": "v-tropical-adjective-1",
+"word": "tropical",
+"pos": "adjective",
+"def": "from or in the hottest parts of the world",
+"ex": [
+"a tropical island/region/climate",
+"a tropical storm"
+]
+},
+{
+"id": "v-trunk-noun-1",
+"word": "trunk",
+"pos": "noun",
+"def": "the thick stem of a tree that the branches grow from",
+"ex": [
+"The trunks of these trees can be more than two metres wide."
+]
+},
+{
+"id": "v-tutor-noun-1",
+"word": "tutor",
+"pos": "noun",
+"def": "someone who teaches one person or a very small group of people",
+"ex": [
+"a private tutor"
+]
+},
+{
+"id": "v-underneath-adverb-1",
+"word": "underneath",
+"pos": "adverb",
+"def": "under or below",
+"ex": [
+"Florian was wearing a dark jacket with a red shirt underneath."
+]
+},
+{
+"id": "v-universal-adjective-1",
+"word": "universal",
+"pos": "adjective",
+"def": "relating to everyone in the world, or to everyone in a particular group",
+"ex": [
+"a universal truth",
+"Food is a subject of almost universal interest."
+]
+},
+{
+"id": "v-unlock-verb-1",
+"word": "unlock",
+"pos": "verb",
+"def": "to open something which is locked using a key or an electronic device",
+"ex": [
+"They haven't unlocked the computer room yet."
+]
+},
+{
+"id": "v-unpredictable-adjective-1",
+"word": "unpredictable",
+"pos": "adjective",
+"def": "changing so much that you do not know what will happen next",
+"ex": [
+"The hours in this job are very unpredictable - you sometimes have to work late at very short notice."
+]
+},
+{
+"id": "v-unsuitable-adjective-1",
+"word": "unsuitable",
+"pos": "adjective",
+"def": "not acceptable or right for someone or something",
+"ex": [
+"The software blocks material that is unsuitable for children."
+]
+},
+{
+"id": "v-unsure-adjective-1",
+"word": "unsure",
+"pos": "adjective",
+"def": "not certain or having doubts",
+"ex": [
+"I'm a bit unsure about what to do.",
+"I was unsure of the directions."
+]
+},
+{
+"id": "v-upbringing-noun-1",
+"word": "upbringing",
+"pos": "noun",
+"def": "the way that your parents look after you and the things that they teach you when you are growing up",
+"ex": [
+"a middle-class/religious upbringing",
+"She had a very strict upbringing."
+]
+},
+{
+"id": "v-upgrade-verb-1",
+"word": "upgrade",
+"pos": "verb",
+"def": "to improve something so that it is of a higher quality or is a newer model",
+"ex": [
+"to upgrade a computer",
+"The system has been upgraded."
+]
+},
+{
+"id": "v-upgrade-noun-1",
+"word": "upgrade",
+"pos": "noun",
+"def": "a piece of software or equipment that improves the quality, power or usefulness of a computer or machine",
+"ex": [
+"a hardware upgrade",
+"The upgrade to version 5.0 costs £395."
+]
+},
+{
+"id": "v-upright-adjective-1",
+"word": "upright",
+"pos": "adjective",
+"def": "straight up or vertical",
+"ex": [
+"Please return your seats to an upright position and fasten your seat belts."
+]
+},
+{
+"id": "v-vanish-verb-1",
+"word": "vanish",
+"pos": "verb",
+"def": "to disappear suddenly",
+"ex": [
+"The sun vanished behind the clouds.",
+"The child vanished while on her way home from school."
+]
+},
+{
+"id": "v-vast-adjective-1",
+"word": "vast",
+"pos": "adjective",
+"def": "extremely big",
+"ex": [
+"a vast amount/sum of money",
+"vast areas of forest"
+]
+},
+{
+"id": "v-venue-noun-1",
+"word": "venue",
+"pos": "noun",
+"def": "a place where a sports game, musical performance, or special event happens",
+"ex": [
+"The hotel is an ideal venue for conferences and business meetings.",
+"The stadium has been specifically designed as a venue for European Cup matches."
+]
+},
+{
+"id": "v-verse-noun-1",
+"word": "verse",
+"pos": "noun",
+"def": "one of the parts that a song or poem is divided into",
+"ex": [
+"I only know the first verse of the poem.",
+"Each verse was sung as a solo and then everyone joined in on the chorus."
+]
+},
+{
+"id": "v-victim-noun-1",
+"word": "victim",
+"pos": "noun",
+"def": "someone who has suffered the effects of violence, illness or bad luck",
+"ex": [
+"victims of crime",
+"The children are the innocent victims of the fighting."
+]
+},
+{
+"id": "v-victory-noun-1",
+"word": "victory",
+"pos": "noun",
+"def": "when you win a game, competition, election, fight, war, etc.",
+"ex": [
+"Phoenix managed a 135-114 victory over Denver.",
+"Grant won/achieved/gained a comfortable/easy victory over Cooper in yesterday's match."
+]
+},
+{
+"id": "v-vinegar-noun-1",
+"word": "vinegar",
+"pos": "noun",
+"def": "a sour liquid that is used in cooking, often made from wine",
+"ex": [
+"red wine vinegar"
+]
+},
+{
+"id": "v-visual-adjective-1",
+"word": "visual",
+"pos": "adjective",
+"def": "relating to seeing",
+"ex": [
+"The film has some powerful visual effects."
+]
+},
+{
+"id": "v-vital-adjective-1",
+"word": "vital",
+"pos": "adjective",
+"def": "necessary or extremely important",
+"ex": [
+"Tourism is vital to the country's economy.",
+"The kidney plays a vital role/part in the removal of waste products from the blood."
+]
+},
+{
+"id": "v-vitamin-noun-1",
+"word": "vitamin",
+"pos": "noun",
+"def": "one of a group of natural substances that you need to be healthy",
+"ex": [
+"a vitamin pill",
+"Oranges are full of vitamin C."
+]
+},
+{
+"id": "v-vividly-adverb-1",
+"word": "vividly",
+"pos": "adverb",
+"def": "in a vivid way",
+"ex": [
+"I vividly remember my first day at school."
+]
+},
+{
+"id": "v-volcano-noun-1",
+"word": "volcano",
+"pos": "noun",
+"def": "a mountain with a large hole at the top which sometimes explodes and produces hot, melted rock and smoke",
+"ex": [
+"an extinct/active volcano",
+"Erupting volcanoes discharge massive quantities of dust into the atmosphere."
+]
+},
+{
+"id": "v-volunteer-noun-1",
+"word": "volunteer",
+"pos": "noun",
+"def": "a person who does something, especially helping other people, willingly and without being forced or paid to do it",
+"ex": [
+"a Red Cross volunteer",
+"The charity relies on volunteers to run the office and answer the telephones."
+]
+},
+{
+"id": "v-voyage-noun-1",
+"word": "voyage",
+"pos": "noun",
+"def": "a long journey, especially by ship, or in space",
+"ex": [
+"Cook's voyage to Australia"
+]
+},
+{
+"id": "v-waist-noun-1",
+"word": "waist",
+"pos": "noun",
+"def": "the part of the body above and slightly narrower than the hips",
+"ex": [
+"a small/narrow/tiny/large waist",
+"These trousers are a bit tight around my waist."
+]
+},
+{
+"id": "v-wait-noun-1",
+"word": "wait",
+"pos": "noun",
+"def": "when you stay in one place until someone or something arrives, or someone or something is ready for you",
+"ex": [
+"well worth the wait",
+"We had a three-hour wait before we could see the doctor."
+]
+},
+{
+"id": "v-wander-verb-1",
+"word": "wander",
+"pos": "verb",
+"def": "to walk around slowly in a relaxed way or without any clear purpose or direction",
+"ex": [
+"We spent the morning wandering around the old part of the city.",
+"He was here a moment ago but he's wandered off somewhere."
+]
+},
+{
+"id": "v-ward-noun-1",
+"word": "ward",
+"pos": "noun",
+"def": "a room or area in a hospital, where people receiving treatment stay",
+"ex": [
+"She's in a ward on the fourth floor."
+]
+},
+{
+"id": "v-wasp-noun-1",
+"word": "wasp",
+"pos": "noun",
+"def": "a black and yellow flying insect that can sting you",
+"ex": [
+"There's a wasps' nest in that old tree.",
+"a wasp sting"
+]
+},
+{
+"id": "v-wealth-noun-1",
+"word": "wealth",
+"pos": "noun",
+"def": "a large amount of money or valuable possessions that someone has",
+"ex": [
+"During a successful business career, she accumulated a great amount of wealth."
+]
+},
+{
+"id": "v-wealthy-adjective-1",
+"word": "wealthy",
+"pos": "adjective",
+"def": "rich",
+"ex": [
+"He's a very wealthy man.",
+"With its natural resources it is potentially a very wealthy country."
+]
+},
+{
+"id": "v-weird-adjective-1",
+"word": "weird",
+"pos": "adjective",
+"def": "very strange and unusual, unexpected or not natural",
+"ex": [
+"Her boyfriend's a bit weird but she's all right.",
+"That's weird - I thought I'd left my keys on the table but they're not there."
+]
+},
+{
+"id": "v-wheat-noun-1",
+"word": "wheat",
+"pos": "noun",
+"def": "a plant whose yellowish brown grain is used for making flour, or the grain itself",
+"ex": [
+"Wheat is an important crop for millions of people across the world."
+]
+},
+{
+"id": "v-whisper-verb-1",
+"word": "whisper",
+"pos": "verb",
+"def": "to speak extremely quietly so that other people cannot hear",
+"ex": [
+"She leaned over and whispered something in his ear.",
+"What are you two girls whispering about?"
+]
+},
+{
+"id": "v-whistle-noun-1",
+"word": "whistle",
+"pos": "noun",
+"def": "a small, simple instrument that makes a sound when you blow through it",
+"ex": [
+"The referee blew his whistle to end the game."
+]
+},
+{
+"id": "v-widow-noun-1",
+"word": "widow",
+"pos": "noun",
+"def": "a woman whose husband has died and who has not married again",
+"ex": [
+"Many of her friends are also widows."
+]
+},
+{
+"id": "v-winding-adjective-1",
+"word": "winding",
+"pos": "adjective",
+"def": "describes a path, road, river, etc. which repeatedly turns in different directions",
+"ex": [
+"There's a very long, winding path leading up to the house."
+]
+},
+{
+"id": "v-wipe-verb-1",
+"word": "wipe",
+"pos": "verb",
+"def": "to clean or dry something by moving a cloth across it",
+"ex": [
+"Have you got a cloth that I can wipe the floor with?",
+"I'll just wipe the table."
+]
+},
+{
+"id": "v-wisdom-noun-1",
+"word": "wisdom",
+"pos": "noun",
+"def": "the ability to use your knowledge and experience to make good decisions and judgments",
+"ex": [
+"One certainly hopes to gain a little wisdom as one grows older.",
+"I tend to doubt the wisdom of separating a child from its family whatever the circumstances."
+]
+},
+{
+"id": "v-wise-adjective-1",
+"word": "wise",
+"pos": "adjective",
+"def": "having or showing the ability to make good judgments, based on a deep understanding and experience of life",
+"ex": [
+"I think you made a wise choice.",
+"Looking at the weather, I think we made a wise decision not to go to the coast this weekend."
+]
+},
+{
+"id": "v-witness-noun-1",
+"word": "witness",
+"pos": "noun",
+"def": "a person who sees an event happening, especially a crime or an accident",
+"ex": [
+"Police are appealing for witnesses to the accident to come forward.",
+"According to (eye) witnesses, the robbery was carried out by two teenage boys."
+]
+},
+{
+"id": "v-witness-verb-1",
+"word": "witness",
+"pos": "verb",
+"def": "to see something happen, especially an accident or crime",
+"ex": [
+"Did anyone witness the attack?"
+]
+},
+{
+"id": "v-witty-adjective-1",
+"word": "witty",
+"pos": "adjective",
+"def": "using words in a clever and funny way",
+"ex": [
+"a witty comment/remark",
+"He was witty and very charming."
+]
+},
+{
+"id": "v-worm-noun-1",
+"word": "worm",
+"pos": "noun",
+"def": "a small creature with a long, thin, soft body and no legs",
+"ex": [
+"Blackbirds eat worms, insects, and berries."
+]
+},
+{
+"id": "v-worst-adverb-1",
+"word": "worst",
+"pos": "adverb",
+"def": "(superlative of badly) the most badly",
+"ex": [
+"Small businesses have been worst hit by the recession.",
+"Roads in the Tayside region were worst affected by the snow."
+]
+},
+{
+"id": "v-wound-verb-1",
+"word": "wound",
+"pos": "verb",
+"def": "to injure someone, especially with a knife or gun",
+"ex": [
+"The police chief was badly wounded in the explosion."
+]
+},
+{
+"id": "v-wound-noun-1",
+"word": "wound",
+"pos": "noun",
+"def": "an injury, especially one that is made with a knife or bullet",
+"ex": [
+"a gunshot wound",
+"a chest/leg wound"
+]
+},
+{
+"id": "v-wrist-noun-1",
+"word": "wrist",
+"pos": "noun",
+"def": "the part of the body between the hand and the arm",
+"ex": [
+"I sprained my wrist playing squash."
+]
+},
+{
+"id": "v-yacht-noun-1",
+"word": "yacht",
+"pos": "noun",
+"def": "a boat with sails and sometimes an engine, used for either racing or travelling on for pleasure",
+"ex": [
+"a luxury yacht",
+"a yacht club"
+]
+},
+{
+"id": "v-yawn-verb-1",
+"word": "yawn",
+"pos": "verb",
+"def": "to take a deep breath with your mouth wide open, because you are tired or bored",
+"ex": [
+"I can't stop yawning - I must be tired."
+]
+},
+{
+"id": "v-yell-noun-1",
+"word": "yell",
+"pos": "noun",
+"def": "a loud shout",
+"ex": [
+"Suddenly there was a loud/great yell from the bathroom."
+]
+},
+{
+"id": "v-yell-verb-1",
+"word": "yell",
+"pos": "verb",
+"def": "to shout something very loudly",
+"ex": [
+"Our neighbours were yelling at each other this morning.",
+"The child yelled out in pain."
+]
+},
+{
+"id": "v-zebra-noun-1",
+"word": "zebra",
+"pos": "noun",
+"def": "an African animal like a horse with black and white lines",
+"ex": [
+"We saw a zebra in the distance."
+]
+},
+{
+"id": "v-zip-noun-1",
+"word": "zip",
+"pos": "noun",
+"def": "a thing for fastening clothes, bags, etc. consisting of two rows of very small parts that connect together",
+"ex": [
+"to do up/undo a zip",
+"I can't open my bag - the zip has stuck."
+]
+}
+]

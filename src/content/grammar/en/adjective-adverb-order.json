@@ -28,7 +28,7 @@
       {
         "id": "adjective-adverb-order-u2-freq-adverbs",
         "label": "Vị trí trạng từ chỉ tần suất",
-        "explanationVi": "Các trạng từ chỉ tần suất như always, usually, often, sometimes, rarely, never, hardly ever thường đứng NGAY TRƯỚC động từ chính (động từ thường), nhưng lại đứng SAU động từ 'to be' và sau trợ động từ/động từ khiếm khuyết (auxiliary/modal). So sánh: 'She always arrives on time' (trước động từ thường 'arrives') với 'She is always late' (sau 'to be') và 'He has never been to Japan' (sau trợ động từ 'has'). Với câu có nhiều trợ động từ (ví dụ thì hoàn thành tiếp diễn hay bị động), trạng từ tần suất đứng ngay sau trợ động từ đầu tiên: 'She has usually been working late.' Người học tiếng Việt hay đặt nhầm các trạng từ này ở đầu câu hoặc sau động từ chính, vì trong tiếng Việt trạng từ tần suất thường đứng trước cả cụm động từ mà không phân biệt loại động từ.",
+        "explanationVi": "Các trạng từ chỉ tần suất như always, usually, often, sometimes, rarely, never, hardly ever thường đứng NGAY TRƯỚC động từ chính (động từ thường), nhưng lại đứng SAU động từ 'to be' và sau trợ động từ/động từ khiếm khuyết (auxiliary/modal). So sánh: 'She always arrives on time' (trước động từ thường 'arrives') với 'She is always late' (sau 'to be') và 'He has never been to Japan' (sau trợ động từ 'has'). Với câu có nhiều trợ động từ (ví dụ thì hoàn thành tiếp diễn hay bị động), trạng từ tần suất đứng ngay sau trợ động từ đầu tiên: 'She has usually been working late.' Người học tiếng Việt hay đặt nhầm các trạng từ này ở đầu câu hoặc sau động từ chính, vì trong tiếng Việt trạng từ tần suất thường đứng trước cả cụm động từ mà không phân biệt loại động từ. Trong câu hỏi có trợ động từ đảo lên đầu, trạng từ tần suất đứng sau chủ ngữ và trước động từ chính: 'Does your brother usually cook dinner?'",
         "examples": [
           {
             "en": "My brother rarely eats breakfast before school.",
@@ -120,6 +120,34 @@
           }
         ],
         "bac": 3
+      },
+      {
+        "id": "adjective-adverb-order-u7-adj-vs-adv",
+        "label": "Tính từ hay trạng từ: sau động từ nối, good/well, hard/hardly, late/lately",
+        "explanationVi": "Tính từ bổ nghĩa cho danh từ; trạng từ bổ nghĩa cho động từ hành động, tính từ hoặc trạng từ khác. (1) Sau động từ nối (be, look, feel, sound, smell, taste, seem, become, get) ta dùng TÍNH TỪ để mô tả chủ ngữ: 'Your idea sounds great.' Cùng một động từ nhưng chỉ hành động thì dùng TRẠNG TỪ: 'She spoke softly to the baby.' So sánh 'The kids looked happy' (trông vui) với 'The kids looked happily at the cake' (nhìn một cách vui vẻ). (2) 'Good' là tính từ, trạng từ của nó là 'well': 'He plays the guitar well.' (3) Một số trạng từ có cặp dễ nhầm vì nghĩa khác nhau: 'hard' (chăm chỉ, mạnh) và 'hardly' (hầu như không, đã mang nghĩa phủ định nên không thêm 'not'); 'late' (muộn, trễ) và 'lately' (gần đây). (4) Trạng từ đứng trước tính từ để nhấn mức độ: 'very tall', 'really expensive'. (5) Một số tính từ tận cùng -ly (friendly, lovely, lonely, lively) vẫn là TÍNH TỪ, không thêm -ly lần nữa; muốn nói như trạng từ thì dùng cụm 'in a friendly way'.",
+        "examples": [
+          {
+            "en": "Your idea sounds great.",
+            "vi": "Ý tưởng của bạn nghe thật tuyệt."
+          },
+          {
+            "en": "She spoke softly to the baby.",
+            "vi": "Cô ấy nói nhẹ nhàng với em bé."
+          },
+          {
+            "en": "He plays the guitar well.",
+            "vi": "Anh ấy chơi guitar giỏi."
+          },
+          {
+            "en": "The shop assistant was friendly and helpful.",
+            "vi": "Nhân viên cửa hàng thân thiện và hay giúp đỡ."
+          },
+          {
+            "en": "I've been feeling sleepy lately.",
+            "vi": "Dạo này tôi hay thấy buồn ngủ."
+          }
+        ],
+        "bac": 3
       }
     ],
     "signalWords": [
@@ -154,6 +182,10 @@
       {
         "word": "-ing / -ed",
         "meaningVi": "-ing mô tả vật/việc gây ra cảm giác (boring, tiring); -ed mô tả người trải qua cảm giác (bored, tired)."
+      },
+      {
+        "word": "good / well",
+        "meaningVi": "'Good' là tính từ; 'well' là trạng từ (bổ nghĩa cho động từ hành động)."
       }
     ],
     "commonMistakes": [
@@ -224,6 +256,16 @@
           {
             "wrong": "He walks too fast enough to catch the bus.",
             "correct": "He walks fast enough to catch the bus."
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-m8",
+        "note": "Sau động từ hành động dùng trạng từ 'well', không dùng tính từ 'good'.",
+        "examples": [
+          {
+            "wrong": "She sings very good.",
+            "correct": "She sings very well."
           }
         ]
       }

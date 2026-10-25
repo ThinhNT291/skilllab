@@ -5,6 +5,8 @@ import { bacLabel } from "@/lib/content/bac"
 import type { Bac } from "@/lib/content/types"
 import { CRITERIA, countWords, MAX_PER_CRITERION, MAX_WRITING_CHARS, MIN_WORDS, type Feedback, type Skill } from "@/lib/rubric"
 import { saveAttempt } from "@/lib/db"
+import type { WritingHints } from "@/lib/hints"
+import { HintsView } from "./hints-view"
 import { TASKS, type SpeechTask } from "@/lib/writing-tasks"
 
 const BTN = "rounded-game border-b-[5px] border-primary-deep bg-primary px-5 py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2 disabled:opacity-50"
@@ -31,6 +33,8 @@ export function GradePanel({ skill }: { skill: Skill }) {
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState("")
   const [feedback, setFeedback] = useState<Feedback | null>(null)
+  const [hints, setHints] = useState<WritingHints | null>(null)
+  const [hintBusy, setHintBusy] = useState(false)
   const [saved, setSaved] = useState<"idle" | "saved" | "failed">("idle")
   const recorder = useRef<MediaRecorder | null>(null)
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null)
@@ -67,6 +71,21 @@ export function GradePanel({ skill }: { skill: Skill }) {
     if (recorder.current?.state === "recording") recorder.current.stop()
   }
 
+  async function loadHints() {
+    setHintBusy(true)
+    setError("")
+    try {
+      const res = await fetch("/api/hints", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ task: task.prompt, targetBac: task.bac }) })
+      const json = (await res.json()) as { hints?: WritingHints; error?: string }
+      if (!res.ok || !json.hints) setError(json.error ?? "Chưa tạo được gợi ý, thử lại nhé.")
+      else setHints(json.hints)
+    } catch {
+      setError("Không kết nối được. Kiểm tra mạng rồi thử lại nhé.")
+    } finally {
+      setHintBusy(false)
+    }
+  }
+
   async function submit() {
     setBusy(true)
     setError("")
@@ -101,6 +120,7 @@ export function GradePanel({ skill }: { skill: Skill }) {
     setText("")
     setAudio(null)
     setFeedback(null)
+    setHints(null)
     setError("")
   }
 
@@ -123,6 +143,15 @@ export function GradePanel({ skill }: { skill: Skill }) {
         </p>
         <p className="mt-1 text-lg font-bold">{task.prompt}</p>
       </div>
+
+      {skill === "writing" && (
+        <div className="space-y-3">
+          <button type="button" onClick={loadHints} disabled={hintBusy} className="rounded-game border-2 border-accent bg-card px-4 py-2 font-extrabold hover:border-primary disabled:opacity-50">
+            {hintBusy ? "Đang nghĩ…" : "💡 Gợi ý dàn ý"}
+          </button>
+          {hints && <HintsView hints={hints} />}
+        </div>
+      )}
 
       {skill === "writing" ? (
         <label className="block">

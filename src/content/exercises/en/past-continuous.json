@@ -848,5 +848,566 @@
       "Sai — 'drove' không nhấn việc đang lái xe thì xe hỏng."
     ],
     "bac": 3
+  },
+  {
+    "id": "en-past-continuous-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u1-action-in-progress-at-specific-time",
+    "tags": [
+      "pastcont-u1-action-in-progress-at-specific-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Where ______ Lan and her cousin ______ (go) at six o'clock this morning? I saw them on a bus.",
+    "choices": [
+      "Was / going",
+      "Do / go",
+      "Were / going",
+      "Were / go"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mốc 'six o'clock this morning' (đã qua) → hành động đang diễn ra: were + V-ing. 'Lan and her cousin' là hai người nên dùng 'were'.",
+    "choiceExplanations": [
+      "Sai — 'Was' chỉ đi với chủ ngữ số ít; 'Lan and her cousin' là hai người.",
+      "Sai — 'Do / go' là hiện tại đơn, không hợp với thời điểm đã qua.",
+      "Đúng — 'Lan and her cousin' số nhiều → were; đang đi tại 6 giờ sáng → going.",
+      "Sai — sau 'were' phải có V-ing (going), 'go' thiếu đuôi -ing."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-past-continuous-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u1-action-in-progress-at-specific-time",
+    "tags": [
+      "pastcont-u1-action-in-progress-at-specific-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Sorry I missed your call. I ______ (take) a shower at that moment.",
+    "choices": [
+      "were taking",
+      "was taking",
+      "have taken",
+      "take"
+    ],
+    "correctIndex": 1,
+    "explanation": "'At that moment' chỉ một khoảnh khắc trong quá khứ, hành động đang diễn ra → was taking. Chủ ngữ 'I' đi với 'was'.",
+    "choiceExplanations": [
+      "Sai — 'were' không đi với chủ ngữ 'I'.",
+      "Đúng — đang tắm tại khoảnh khắc đó → was taking; 'I' đi với 'was'.",
+      "Sai — 'have taken' (hiện tại hoàn thành) không hợp với 'at that moment' ở quá khứ.",
+      "Sai — 'take' là hiện tại/nguyên thể, không nói về việc đã qua."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-past-continuous-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u2-interrupted-action",
+    "tags": [
+      "pastcont-u2-interrupted-action"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom ______ (play) the guitar when his little brother started to cry.",
+    "choices": [
+      "was playing",
+      "were playing",
+      "has played",
+      "plays"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tom đang chơi đàn (hành động dài) thì em bé bắt đầu khóc (hành động xen vào, quá khứ đơn) → was playing.",
+    "choiceExplanations": [
+      "Đúng — hành động dài đang diễn ra bị xen vào → was playing; 'Tom' số ít → was.",
+      "Sai — 'were' không đi với chủ ngữ số ít 'Tom'.",
+      "Sai — 'has played' là hiện tại hoàn thành, không hợp với 'started' ở quá khứ.",
+      "Sai — 'plays' là hiện tại đơn, không hợp với 'started'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-continuous-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u3-parallel-actions",
+    "tags": [
+      "pastcont-u3-parallel-actions"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mai ______ (sing) in the shower while her brother was brushing his teeth.",
+    "choices": [
+      "were singing",
+      "is singing",
+      "has sung",
+      "was singing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Vế sau đã dùng 'was brushing' (đang diễn ra); hai việc xảy ra song song nên vế đầu cũng dùng quá khứ tiếp diễn: was singing.",
+    "choiceExplanations": [
+      "Sai — 'were' không đi với chủ ngữ số ít 'Mai'.",
+      "Sai — 'is singing' là hiện tại tiếp diễn, câu đang kể chuyện quá khứ.",
+      "Sai — 'has sung' là hiện tại hoàn thành, không hợp với việc song song trong quá khứ.",
+      "Đúng — song song với 'was brushing' → was singing; 'Mai' số ít → was."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-continuous-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u4-background-scene-setting",
+    "tags": [
+      "pastcont-u4-background-scene-setting"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I opened the door. The room was dark, and heavy rain ______ (pour) down outside.",
+    "choices": [
+      "were pouring",
+      "pours",
+      "was pouring",
+      "is pouring"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu miêu tả khung cảnh nền lúc mở cửa → quá khứ tiếp diễn. 'Rain' là danh từ không đếm được, đi với 'was'.",
+    "choiceExplanations": [
+      "Sai — 'rain' không đếm được, không đi với 'were'.",
+      "Sai — 'pours' là hiện tại đơn, câu kể ở quá khứ.",
+      "Đúng — tả cảnh nền trong quá khứ → was pouring.",
+      "Sai — 'is pouring' là hiện tại tiếp diễn, không hợp với câu kể ở quá khứ."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-continuous-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u2-interrupted-action",
+    "tags": [
+      "pastcont-u2-interrupted-action"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What ______ you ______ (do) when the power went out?",
+    "choices": [
+      "Were / doing",
+      "Was / doing",
+      "Are / doing",
+      "Were / do"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hỏi về hành động đang diễn ra thì mất điện: Were + you + V-ing. 'You' đi với 'were'.",
+    "choiceExplanations": [
+      "Đúng — 'you' đi với 'were', đang làm gì → doing.",
+      "Sai — 'Was' không đi với chủ ngữ 'you'.",
+      "Sai — 'Are / doing' là hiện tại tiếp diễn, trong khi 'went out' ở quá khứ.",
+      "Sai — sau 'were' cần V-ing (doing), không phải 'do'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-continuous-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u1-action-in-progress-at-specific-time",
+    "tags": [
+      "pastcont-u1-action-in-progress-at-specific-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "At this time yesterday, we ______ (wait) for the bus in the rain.",
+    "choices": [
+      "was waiting",
+      "waited",
+      "are waiting",
+      "were waiting"
+    ],
+    "correctIndex": 3,
+    "explanation": "'At this time yesterday' là mốc xác định trong quá khứ; hành động đang diễn ra → were waiting. 'We' đi với 'were'.",
+    "choiceExplanations": [
+      "Sai — 'was' không đi với chủ ngữ 'we'.",
+      "Sai — 'waited' (quá khứ đơn) nói việc đã xong, không nhấn việc đang diễn ra tại mốc 'this time yesterday'.",
+      "Sai — 'are waiting' là hiện tại tiếp diễn.",
+      "Đúng — đang chờ xe tại thời điểm này hôm qua → were waiting."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-past-continuous-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "past-simple-vs-continuous",
+    "tags": [
+      "past-simple-vs-continuous"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When the teacher called on me, I ______ (not/know) the answer, so I stayed quiet.",
+    "choices": [
+      "wasn't knowing",
+      "didn't know",
+      "don't know",
+      "didn't knew"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Know' là động từ chỉ trạng thái nên thường dùng quá khứ đơn, dù nói về một thời điểm cụ thể: didn't know.",
+    "choiceExplanations": [
+      "Sai — 'know' là động từ chỉ trạng thái, không dùng ở thì tiếp diễn.",
+      "Đúng — động từ trạng thái dùng quá khứ đơn → didn't know.",
+      "Sai — 'don't know' là hiện tại, câu kể chuyện quá khứ.",
+      "Sai — sau 'didn't' dùng nguyên thể (know), không phải 'knew'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-continuous-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "past-simple-vs-continuous",
+    "tags": [
+      "past-simple-vs-continuous"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When Lena walked into the classroom, the teacher ______ (hand) out the tests, and she was already halfway through the pile.",
+    "choices": [
+      "was handing",
+      "handed",
+      "hands",
+      "has handed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Khi Lena vào, cô giáo đã đang phát bài và đã gần xong một nửa → hành động đang diễn ra: was handing.",
+    "choiceExplanations": [
+      "Đúng — cô giáo đã đang phát bài sẵn khi Lena bước vào → was handing.",
+      "Sai — 'handed' sau 'When ...' hàm ý cô mới bắt đầu phát SAU khi Lena vào, mâu thuẫn với 'already halfway through the pile'.",
+      "Sai — 'hands' là hiện tại đơn.",
+      "Sai — 'has handed' là hiện tại hoàn thành, không hợp với mốc quá khứ 'walked into'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-continuous-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u2-interrupted-action",
+    "tags": [
+      "pastcont-u2-interrupted-action"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What were you doing when the earthquake ______ (strike)?",
+    "choices": [
+      "was striking",
+      "strikes",
+      "struck",
+      "were striking"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vế đầu 'were you doing' là hành động dài đang diễn ra; trận động đất là sự kiện ngắn, bất ngờ xen vào → quá khứ đơn: struck.",
+    "choiceExplanations": [
+      "Sai — sự kiện xen vào là một lần, bất ngờ, không dùng tiếp diễn.",
+      "Sai — 'strikes' là hiện tại đơn.",
+      "Đúng — sự kiện ngắn xen vào hành động đang diễn ra → quá khứ đơn: struck.",
+      "Sai — sự kiện xen vào dùng quá khứ đơn; 'were striking' cũng không hợp với 'the earthquake' số ít."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-continuous-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u3-parallel-actions",
+    "tags": [
+      "pastcont-u3-parallel-actions"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "While the guide ______ (explain) the history of the temple, most tourists ______ (take) photos.",
+    "choices": [
+      "was explaining / was taking",
+      "were explaining / were taking",
+      "were explaining / was taking",
+      "was explaining / were taking"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hai hành động song song nối bằng 'while' đều dùng quá khứ tiếp diễn. 'The guide' số ít → was explaining; 'most tourists' số nhiều → were taking.",
+    "choiceExplanations": [
+      "Sai — 'most tourists' số nhiều, cần 'were taking'.",
+      "Sai — 'the guide' số ít, cần 'was explaining'.",
+      "Sai — hai chỗ chia ngược: 'the guide' dùng 'was', 'tourists' dùng 'were'.",
+      "Đúng — 'the guide' → was explaining; 'most tourists' → were taking."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-continuous-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u4-background-scene-setting",
+    "tags": [
+      "pastcont-u4-background-scene-setting"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The party was in full swing. The music ______ (blast) from the speakers, and a few guests ______ (dance) on the sofa.",
+    "choices": [
+      "blasts / were dancing",
+      "was blasting / were dancing",
+      "were blasting / were dancing",
+      "was blasting / was dancing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Miêu tả khung cảnh nền của bữa tiệc → quá khứ tiếp diễn. 'The music' số ít → was blasting; 'a few guests' số nhiều → were dancing.",
+    "choiceExplanations": [
+      "Sai — 'blasts' là hiện tại đơn, cả đoạn tả cảnh quá khứ.",
+      "Đúng — 'the music' → was blasting; 'a few guests' → were dancing.",
+      "Sai — 'the music' số ít, không đi với 'were'.",
+      "Sai — 'a few guests' số nhiều, cần 'were dancing'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-continuous-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u5-changing-situation",
+    "tags": [
+      "pastcont-u5-changing-situation"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "As the lesson went on, the kids ______ (become) more and more tired.",
+    "choices": [
+      "was becoming",
+      "are becoming",
+      "were becoming",
+      "had become"
+    ],
+    "correctIndex": 2,
+    "explanation": "'More and more' và 'as the lesson went on' diễn tả sự thay đổi dần dần trong quá khứ → were becoming; 'the kids' số nhiều.",
+    "choiceExplanations": [
+      "Sai — 'the kids' số nhiều, không đi với 'was'.",
+      "Sai — 'are becoming' là hiện tại tiếp diễn.",
+      "Đúng — thay đổi dần dần trong quá khứ, chủ ngữ số nhiều → were becoming.",
+      "Sai — 'had become' (quá khứ hoàn thành) nói việc đã hoàn tất trước đó, không diễn tả sự thay đổi đang diễn ra dần."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-continuous-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "past-simple-vs-continuous",
+    "tags": [
+      "past-simple-vs-continuous"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ (see) Jake at the mall, but at that moment he ______ (look) the other way, so he didn't notice me.",
+    "choices": [
+      "saw / was looking",
+      "was seeing / was looking",
+      "saw / were looking",
+      "see / was looking"
+    ],
+    "correctIndex": 0,
+    "explanation": "'See' (nhìn thấy) là động từ chỉ giác quan nên dùng quá khứ đơn: saw. Jake đang nhìn hướng khác tại khoảnh khắc đó → was looking.",
+    "choiceExplanations": [
+      "Đúng — 'see' dùng quá khứ đơn (saw); Jake đang nhìn đi chỗ khác → was looking.",
+      "Sai — 'see' chỉ giác quan, thường không dùng tiếp diễn (was seeing).",
+      "Sai — 'he' số ít, cần 'was looking', không phải 'were'.",
+      "Sai — 'see' ở hiện tại, không hợp với câu kể ở quá khứ."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-continuous-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u2-interrupted-action",
+    "tags": [
+      "pastcont-u2-interrupted-action"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mai ______ (not/look) at the road when the cat ran out, so she didn't brake in time.",
+    "choices": [
+      "weren't looking",
+      "wasn't looking",
+      "didn't look",
+      "doesn't look"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cô ấy đang không chú ý đến đường (hành động nền) thì con mèo chạy ra (hành động xen vào) → wasn't looking.",
+    "choiceExplanations": [
+      "Sai — 'Mai' số ít, không đi với 'weren't'.",
+      "Đúng — tình trạng không nhìn đường đang diễn ra khi mèo chạy ra → wasn't looking.",
+      "Sai — 'didn't look' vẫn nói được thành câu nhưng chỉ nêu việc không nhìn, mất ý đang lơ là đúng lúc mèo chạy ra; 'wasn't looking' khớp ngữ cảnh hơn.",
+      "Sai — 'doesn't look' là hiện tại đơn."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-continuous-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u2-interrupted-action",
+    "tags": [
+      "pastcont-u2-interrupted-action"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When the lights went out, I ______ (take) a bath, so I had to finish in the dark.",
+    "choices": [
+      "took",
+      "had taken",
+      "take",
+      "was taking"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tôi đã đang tắm khi mất điện, nên phải tắm nốt trong bóng tối → quá khứ tiếp diễn: was taking.",
+    "choiceExplanations": [
+      "Sai — 'took' sau 'When ...' hàm ý tôi mới đi tắm SAU khi mất điện, trong khi ngữ cảnh là đã tắm sẵn rồi.",
+      "Sai — 'had taken' nghĩa là đã tắm xong, mâu thuẫn với 'had to finish'.",
+      "Sai — 'take' là nguyên thể/hiện tại.",
+      "Đúng — đang tắm thì mất điện → was taking."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-continuous-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u5-changing-situation",
+    "tags": [
+      "pastcont-u5-changing-situation"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "At that time, more and more families ______ (move) to the suburbs, and house prices there ______ (climb) steadily.",
+    "choices": [
+      "were moving / were climbing",
+      "were moving / was climbing",
+      "was moving / were climbing",
+      "have moved / were climbing"
+    ],
+    "correctIndex": 0,
+    "explanation": "'At that time' + 'more and more' diễn tả xu hướng đang thay đổi dần trong quá khứ. 'Families' và 'prices' đều số nhiều → were moving / were climbing.",
+    "choiceExplanations": [
+      "Đúng — cả hai chủ ngữ số nhiều, xu hướng đang diễn ra → were moving / were climbing.",
+      "Sai — 'house prices' số nhiều, cần 'were climbing'.",
+      "Sai — 'families' số nhiều, cần 'were moving'.",
+      "Sai — 'have moved' (hiện tại hoàn thành) không hợp với 'at that time' ở quá khứ."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-continuous-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "past-simple-vs-continuous",
+    "tags": [
+      "past-simple-vs-continuous"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "First Dad ______ (fix) the sink; then he ______ (make) lunch for everyone.",
+    "choices": [
+      "was fixing / was making",
+      "was fixing / made",
+      "fixed / made",
+      "fixed / was making"
+    ],
+    "correctIndex": 2,
+    "explanation": "'First ... then ...' kể các việc hoàn tất nối tiếp nhau → cả hai dùng quá khứ đơn: fixed / made.",
+    "choiceExplanations": [
+      "Sai — hai việc nối tiếp, không phải đang diễn ra cùng lúc hay làm nền.",
+      "Sai — 'was fixing' biến việc sửa thành nền, không hợp với trình tự 'First ... then'.",
+      "Đúng — các việc xong rồi mới đến việc kế tiếp → fixed / made.",
+      "Sai — sau 'then', việc kế tiếp là một bước trong chuỗi, dùng 'made' tự nhiên hơn 'was making'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-continuous-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u3-parallel-actions",
+    "tags": [
+      "pastcont-u3-parallel-actions",
+      "past-simple-vs-continuous"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "While most of the students ______ (finish) the test, Minh ______ (still/struggle) with the first question.",
+    "choices": [
+      "have finished / was still struggling",
+      "finished / was still struggling",
+      "were finishing / were still struggling",
+      "were finishing / was still struggling"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hai việc song song trong quá khứ nối bằng 'while' → cả hai vế tiếp diễn. 'Most of the students' số nhiều → were finishing; 'Minh' số ít → was still struggling.",
+    "choiceExplanations": [
+      "Sai — 'have finished' (hiện tại hoàn thành) không hợp với câu kể ở quá khứ.",
+      "Sai — 'finished' đọc được (cả lớp làm xong), nhưng 'still' cho thấy cả lớp đang làm song song; tiếp diễn khớp hơn.",
+      "Sai — 'Minh' số ít, cần 'was still struggling'.",
+      "Đúng — 'most of the students' → were finishing; 'Minh' → was still struggling."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-past-continuous-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-continuous",
+    "usageId": "pastcont-u5-changing-situation",
+    "tags": [
+      "pastcont-u5-changing-situation"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I noticed that my grandmother's voice ______ (get) weaker, so I decided to visit her more often.",
+    "choices": [
+      "were getting",
+      "was getting",
+      "has got",
+      "is getting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Giọng bà yếu dần theo thời gian trong quá khứ → was getting. 'Voice' số ít nên dùng 'was'.",
+    "choiceExplanations": [
+      "Sai — 'voice' số ít, không đi với 'were'.",
+      "Đúng — sự thay đổi dần dần trong quá khứ, chủ ngữ số ít → was getting.",
+      "Sai — 'has got' là hiện tại hoàn thành, không hợp với mạch kể ở quá khứ.",
+      "Sai — 'is getting' là hiện tại tiếp diễn, câu kể ở quá khứ ('noticed', 'decided')."
+    ],
+    "bac": 4
   }
 ]

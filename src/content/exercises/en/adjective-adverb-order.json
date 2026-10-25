@@ -838,5 +838,565 @@
       "Đúng — 'else' đứng ngay sau đại từ bất định 'everybody', đúng cấu trúc quen thuộc."
     ],
     "bac": 3
+  },
+  {
+    "id": "en-adjective-adverb-order-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u7-adj-vs-adv",
+    "tags": [
+      "adjective-adverb-order-u7-adj-vs-adv"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The soup in this café smells ______.",
+    "choices": [
+      "deliciously",
+      "delicious",
+      "deliciousness",
+      "more deliciously"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Smells' ở đây là động từ nối (linking verb) mô tả mùi của súp, nên cần tính từ: 'smells delicious'.",
+    "choiceExplanations": [
+      "Sai — 'deliciously' là trạng từ; sau động từ nối 'smells' phải dùng tính từ.",
+      "Đúng — tính từ 'delicious' đứng sau động từ nối 'smells' để mô tả chủ ngữ 'the soup'.",
+      "Sai — 'deliciousness' là danh từ, không mô tả được mùi của súp ở vị trí này.",
+      "Sai — đây là dạng so sánh của trạng từ, vẫn là trạng từ nên không đứng sau động từ nối."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-adjective-adverb-order-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u7-adj-vs-adv",
+    "tags": [
+      "adjective-adverb-order-u7-adj-vs-adv"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please listen ______ to the directions.",
+    "choices": [
+      "careful",
+      "care",
+      "carefully",
+      "carefulness"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Listen' là động từ hành động, nên được bổ nghĩa bằng trạng từ: 'listen carefully'.",
+    "choiceExplanations": [
+      "Sai — 'careful' là tính từ, không bổ nghĩa cho động từ 'listen'. Trong văn nói thân mật có người nói 'listen careful', nhưng dạng chuẩn là 'carefully'.",
+      "Sai — 'care' là danh từ/động từ, không dùng để bổ nghĩa cho 'listen'.",
+      "Đúng — trạng từ 'carefully' bổ nghĩa cho động từ hành động 'listen'.",
+      "Sai — 'carefulness' là danh từ, không đứng ở vị trí này."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-adjective-adverb-order-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u7-adj-vs-adv",
+    "tags": [
+      "adjective-adverb-order-u7-adj-vs-adv"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My little sister plays the piano very ______ for a seven-year-old.",
+    "choices": [
+      "well",
+      "good",
+      "goodly",
+      "best"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Plays' là động từ hành động, cần trạng từ. Trạng từ của 'good' là 'well'.",
+    "choiceExplanations": [
+      "Đúng — 'well' là trạng từ của 'good', bổ nghĩa cho động từ 'plays'.",
+      "Sai — 'good' là tính từ nên không bổ nghĩa cho động từ 'plays'. Người bản ngữ đôi khi nói 'plays good' khi nói chuyện thân mật, nhưng dạng chuẩn là 'well'.",
+      "Sai — 'goodly' là từ cổ, hiếm gặp, và không phải trạng từ của 'good'.",
+      "Sai — 'best' là dạng so sánh nhất; sau 'very' không dùng được, cũng không có 'the' đi kèm."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adjective-adverb-order-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u7-adj-vs-adv",
+    "tags": [
+      "adjective-adverb-order-u7-adj-vs-adv"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom studied ______ for the science test, so he earned an A.",
+    "choices": [
+      "hardly",
+      "hardy",
+      "harden",
+      "hard"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Hard' vừa là tính từ vừa là trạng từ, nghĩa là 'chăm chỉ'. 'Hardly' có nghĩa khác: 'hầu như không'.",
+    "choiceExplanations": [
+      "Sai — 'hardly' nghĩa là 'hầu như không', nên câu sẽ thành 'hầu như không học', trái với việc được điểm A.",
+      "Sai — 'hardy' là tính từ nghĩa 'khỏe, chịu đựng giỏi', không bổ nghĩa cho 'studied'.",
+      "Sai — 'harden' là động từ nghĩa 'làm cứng', không đúng nghĩa và loại từ.",
+      "Đúng — 'hard' là trạng từ nghĩa 'chăm chỉ', cùng dạng với tính từ."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adjective-adverb-order-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u7-adj-vs-adv",
+    "tags": [
+      "adjective-adverb-order-u7-adj-vs-adv"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The math test was ______ difficult, so only three students finished on time.",
+    "choices": [
+      "extreme",
+      "extremely",
+      "extremity",
+      "extremer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Để bổ nghĩa cho tính từ 'difficult' ta dùng trạng từ: 'extremely difficult'.",
+    "choiceExplanations": [
+      "Sai — 'extreme' là tính từ; tính từ không bổ nghĩa cho tính từ khác theo cách này.",
+      "Đúng — trạng từ 'extremely' đứng trước và bổ nghĩa cho tính từ 'difficult'.",
+      "Sai — 'extremity' là danh từ nghĩa 'cực điểm', không bổ nghĩa cho tính từ.",
+      "Sai — 'extremer' là dạng so sánh tự tạo, không tồn tại trong tiếng Anh chuẩn."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adjective-adverb-order-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u7-adj-vs-adv",
+    "tags": [
+      "adjective-adverb-order-u7-adj-vs-adv"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Ana was so tired that she could ______ keep her eyes open.",
+    "choices": [
+      "hardly",
+      "hard",
+      "hardy",
+      "hardness"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Hardly' nghĩa là 'hầu như không'; 'could hardly keep' = 'gần như không thể giữ'.",
+    "choiceExplanations": [
+      "Đúng — 'hardly' là trạng từ mang nghĩa 'hầu như không', đứng trước động từ chính 'keep'.",
+      "Sai — 'hard' nghĩa là 'chăm chỉ/mạnh', 'could hard keep' không đúng nghĩa lẫn cách dùng.",
+      "Sai — 'hardy' là tính từ nghĩa 'cứng cáp', không bổ nghĩa cho động từ.",
+      "Sai — 'hardness' là danh từ nghĩa 'độ cứng', không đứng ở vị trí này."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adjective-adverb-order-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u7-adj-vs-adv",
+    "tags": [
+      "adjective-adverb-order-u7-adj-vs-adv"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I haven't seen my cousin ______, so I'm excited about his visit.",
+    "choices": [
+      "late",
+      "lateness",
+      "lately",
+      "latest"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Lately' nghĩa là 'gần đây'. 'Late' là trạng từ nhưng nghĩa là 'muộn, trễ'.",
+    "choiceExplanations": [
+      "Sai — 'late' là trạng từ nhưng nghĩa là 'muộn', 'haven't seen him late' đổi hẳn nghĩa và không hợp ngữ cảnh.",
+      "Sai — 'lateness' là danh từ nghĩa 'sự chậm trễ', không đứng ở vị trí này.",
+      "Đúng — 'lately' là trạng từ nghĩa 'gần đây', hợp với thì hiện tại hoàn thành phủ định.",
+      "Sai — 'latest' là dạng so sánh nhất (mới nhất), không phải trạng từ chỉ thời gian ở đây."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adjective-adverb-order-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u7-adj-vs-adv",
+    "tags": [
+      "adjective-adverb-order-u7-adj-vs-adv"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The detective looked ______ at the muddy footprints by the door.",
+    "choices": [
+      "suspicious",
+      "suspect",
+      "suspicion",
+      "suspiciously"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Looked at' là hành động nhìn, nên cần trạng từ: 'looked suspiciously at'. Khi 'look' là động từ nối (looked suspicious) thì mới dùng tính từ.",
+    "choiceExplanations": [
+      "Sai — 'suspicious' là tính từ. 'Looked suspicious' nghĩa là 'trông đáng ngờ' (động từ nối), không dùng được khi có 'at' sau đó.",
+      "Sai — 'suspect' là danh từ/động từ, không bổ nghĩa cho 'looked'.",
+      "Sai — 'suspicion' là danh từ nghĩa 'sự nghi ngờ', không đứng ở vị trí này.",
+      "Đúng — 'looked at' là hành động của thám tử, nên dùng trạng từ 'suspiciously' để bổ nghĩa."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adjective-adverb-order-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u1-adj-order",
+    "tags": [
+      "adjective-adverb-order-u1-adj-order"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Dad bought me ______ for my birthday.",
+    "choices": [
+      "a red new bike",
+      "a bike new red",
+      "a new red bike",
+      "red a new bike"
+    ],
+    "correctIndex": 2,
+    "explanation": "Theo OSASCOMP, tuổi/độ mới (new) đứng trước màu sắc (red): 'a new red bike'.",
+    "choiceExplanations": [
+      "Sai — màu sắc (red) bị đặt trước tuổi/độ mới (new).",
+      "Sai — tính từ không được đặt sau danh từ 'bike' trong cụm danh từ này.",
+      "Đúng — tuổi (new) → màu sắc (red) → danh từ, đúng OSASCOMP.",
+      "Sai — mạo từ 'a' phải đứng đầu cụm danh từ, trước các tính từ."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adjective-adverb-order-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u1-adj-order",
+    "tags": [
+      "adjective-adverb-order-u1-adj-order"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "On the shelf stood ______.",
+    "choices": [
+      "a little delicate Japanese porcelain tea set",
+      "a delicate little Japanese porcelain tea set",
+      "a delicate little porcelain Japanese tea set",
+      "a Japanese delicate little porcelain tea set"
+    ],
+    "correctIndex": 1,
+    "explanation": "Thứ tự đúng: ý kiến (delicate) → kích thước (little) → nguồn gốc (Japanese) → chất liệu (porcelain) → mục đích (tea) → danh từ (set).",
+    "choiceExplanations": [
+      "Sai — kích thước (little) bị đặt trước ý kiến (delicate). Nghe 'a little delicate' vẫn gặp trong văn nói, nhưng thứ tự chuẩn là ý kiến trước kích thước.",
+      "Đúng — delicate (ý kiến) → little (kích thước) → Japanese (nguồn gốc) → porcelain (chất liệu) → tea (mục đích).",
+      "Sai — chất liệu (porcelain) bị đặt trước nguồn gốc (Japanese); nguồn gốc phải đứng trước chất liệu.",
+      "Sai — nguồn gốc (Japanese) bị đặt lên đầu, trước ý kiến và kích thước."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adjective-adverb-order-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u1-adj-order",
+    "tags": [
+      "adjective-adverb-order-u1-adj-order"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She wore ______ around her neck.",
+    "choices": [
+      "a silk long red scarf",
+      "a red long silk scarf",
+      "a long silk red scarf",
+      "a long red silk scarf"
+    ],
+    "correctIndex": 3,
+    "explanation": "Thứ tự đúng: kích thước (long) → màu sắc (red) → chất liệu (silk): 'a long red silk scarf'.",
+    "choiceExplanations": [
+      "Sai — chất liệu (silk) bị đặt lên đầu, trước kích thước và màu sắc.",
+      "Sai — màu sắc (red) bị đặt trước kích thước (long).",
+      "Sai — chất liệu (silk) bị đặt trước màu sắc (red); chất liệu phải đứng sát danh từ.",
+      "Đúng — long (kích thước) → red (màu sắc) → silk (chất liệu) → scarf."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adjective-adverb-order-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u2-freq-adverbs",
+    "tags": [
+      "adjective-adverb-order-u2-freq-adverbs"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The twins ______ their rooms without being asked.",
+    "choices": [
+      "clean never",
+      "never clean",
+      "cleaning never",
+      "clean ever not"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trạng từ tần suất 'never' đứng ngay trước động từ thường 'clean'.",
+    "choiceExplanations": [
+      "Sai — 'never' bị đặt sau động từ thường, phải đứng trước.",
+      "Đúng — 'never' đứng ngay trước động từ thường 'clean'.",
+      "Sai — 'cleaning' sai dạng động từ sau chủ ngữ 'the twins', và 'never' cũng sai vị trí.",
+      "Sai — 'ever not' không phải cách nói tự nhiên; để phủ định ta dùng 'never'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-adjective-adverb-order-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u2-freq-adverbs",
+    "tags": [
+      "adjective-adverb-order-u2-freq-adverbs"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ eat breakfast before school?",
+    "choices": [
+      "Do you often",
+      "Often do you",
+      "Do often you",
+      "You often do"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trong câu hỏi, trạng từ tần suất đứng sau chủ ngữ và trước động từ chính: 'Do you often eat...?'",
+    "choiceExplanations": [
+      "Đúng — trợ động từ 'Do' + chủ ngữ 'you' + trạng từ 'often' + động từ chính.",
+      "Sai — trạng từ 'often' bị đưa lên đầu câu hỏi, không đúng trật tự thông thường.",
+      "Sai — 'often' chen vào giữa 'Do' và chủ ngữ 'you', sai trật tự.",
+      "Sai — đây là câu khẳng định (không đảo trợ động từ) và 'do' thừa, không tạo thành câu hỏi đúng."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adjective-adverb-order-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u3-manner-place-time",
+    "tags": [
+      "adjective-adverb-order-u3-manner-place-time"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The fans cheered ______.",
+    "choices": [
+      "in the stadium loudly after the final whistle",
+      "after the final whistle in the stadium loudly",
+      "loudly in the stadium after the final whistle",
+      "in the stadium after the final whistle loudly"
+    ],
+    "correctIndex": 2,
+    "explanation": "Thứ tự đúng: cách thức (loudly) → nơi chốn (in the stadium) → thời gian (after the final whistle).",
+    "choiceExplanations": [
+      "Sai — nơi chốn bị đặt trước cách thức.",
+      "Sai — thời gian đứng đầu và cách thức đứng cuối, đảo ngược hoàn toàn trật tự M-P-T.",
+      "Đúng — đúng thứ tự Manner - Place - Time.",
+      "Sai — cách thức bị đẩy xuống cuối. Cách nói này đôi khi gặp trong văn nói, nhưng thứ tự chuẩn đã học là cách thức đứng trước."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adjective-adverb-order-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u3-manner-place-time",
+    "tags": [
+      "adjective-adverb-order-u3-manner-place-time"
+    ],
+    "difficulty": 3,
+    "title": "Chọn đáp án đúng",
+    "prompt": "Which sentence follows the usual manner-place-time order?",
+    "choices": [
+      "They danced at the party happily on Saturday night.",
+      "They danced on Saturday night happily at the party.",
+      "They danced happily on Saturday night at the party.",
+      "They danced happily at the party on Saturday night."
+    ],
+    "correctIndex": 3,
+    "explanation": "Thứ tự chuẩn khi các trạng ngữ đứng cuối câu: cách thức (happily) → nơi chốn (at the party) → thời gian (on Saturday night).",
+    "choiceExplanations": [
+      "Sai — nơi chốn đứng trước cách thức. Cách nói này đôi khi gặp trong văn nói, nhưng không theo thứ tự chuẩn M-P-T.",
+      "Sai — thời gian bị đặt trước nơi chốn và cách thức.",
+      "Sai — thời gian bị đặt trước nơi chốn, sai thứ tự.",
+      "Đúng — happily (cách thức) → at the party (nơi chốn) → on Saturday night (thời gian)."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adjective-adverb-order-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u4-enough-too",
+    "tags": [
+      "adjective-adverb-order-u4-enough-too"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This jacket is ______ for me; I need a bigger size.",
+    "choices": [
+      "enough small",
+      "too small",
+      "small too",
+      "small enough"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Too' đứng trước tính từ: 'too small' nghĩa là 'nhỏ quá mức'. 'Small enough' sẽ có nghĩa ngược với ngữ cảnh.",
+    "choiceExplanations": [
+      "Sai — 'enough' phải đứng sau tính từ, không đứng trước.",
+      "Đúng — 'too' đứng trước tính từ 'small', hợp nghĩa 'quá nhỏ nên cần cỡ lớn hơn'.",
+      "Sai — 'too' phải đứng trước tính từ, không đứng sau.",
+      "Sai — vị trí 'enough' đúng, nhưng 'small enough' nghĩa là 'đủ nhỏ', không hợp với việc cần cỡ lớn hơn."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adjective-adverb-order-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u4-enough-too",
+    "tags": [
+      "adjective-adverb-order-u4-enough-too"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mia didn't press the buzzer ______ to beat the other team.",
+    "choices": [
+      "enough quickly",
+      "too quickly",
+      "quickly enough",
+      "enough quick"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Enough' đứng sau trạng từ: 'quickly enough'. 'Didn't ... quickly enough to beat' nghĩa là 'bấm không đủ nhanh để thắng'.",
+    "choiceExplanations": [
+      "Sai — 'enough' phải đứng sau trạng từ 'quickly', không đứng trước.",
+      "Sai — 'too quickly' đúng vị trí nhưng sai nghĩa: 'bấm quá nhanh nên không thể thắng' không hợp lý ở đây.",
+      "Đúng — 'quickly enough' (trạng từ + enough) bổ nghĩa cho 'press', hợp nghĩa 'không đủ nhanh để thắng'.",
+      "Sai — 'enough' đứng trước tính từ và 'quick' là tính từ, không bổ nghĩa cho động từ 'press'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adjective-adverb-order-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u5-ing-ed",
+    "tags": [
+      "adjective-adverb-order-u5-ing-ed"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I was ______ in the new science show.",
+    "choices": [
+      "interested",
+      "interesting",
+      "interest",
+      "interests"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Interested' mô tả cảm giác của người ('I'): 'interested in'.",
+    "choiceExplanations": [
+      "Đúng — 'interested' mô tả cảm giác của 'I', và đi với giới từ 'in'.",
+      "Sai — 'interesting' mô tả thứ gây hứng thú (ví dụ: the show), không mô tả cảm giác của 'I'. 'I was interesting' nghĩa là 'tôi là người thú vị'.",
+      "Sai — 'interest' là danh từ/động từ, không dùng sau 'was' theo cách này.",
+      "Sai — 'interests' là danh từ số nhiều hoặc động từ ngôi thứ ba, không phù hợp."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-adjective-adverb-order-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u5-ing-ed",
+    "tags": [
+      "adjective-adverb-order-u5-ing-ed"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The ______ kids ran out of the haunted house, screaming.",
+    "choices": [
+      "terrifying",
+      "terrify",
+      "terrifies",
+      "terrified"
+    ],
+    "correctIndex": 3,
+    "explanation": "Bọn trẻ là người cảm thấy sợ, nên dùng 'terrified' (-ed).",
+    "choiceExplanations": [
+      "Sai — 'terrifying' nghĩa là 'gây khiếp sợ'. Về mặt ngữ pháp vẫn có thể nói 'terrifying kids' (những đứa trẻ làm người khác sợ), nhưng không hợp ngữ cảnh chúng chạy ra và hét lên.",
+      "Sai — 'terrify' là động từ nguyên thể, không đứng trước danh từ làm tính từ.",
+      "Sai — 'terrifies' là động từ chia ngôi thứ ba, không phải tính từ.",
+      "Đúng — 'terrified' mô tả cảm giác sợ hãi mà bọn trẻ trải qua."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-adjective-adverb-order-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adjective-adverb-order",
+    "usageId": "adjective-adverb-order-u6-indefinite-pronouns",
+    "tags": [
+      "adjective-adverb-order-u6-indefinite-pronouns"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We need ______ to play the piano at the concert.",
+    "choices": [
+      "somebody talented",
+      "talented somebody",
+      "a talented somebody",
+      "somebody a talented"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tính từ đứng sau đại từ bất định: 'somebody talented'.",
+    "choiceExplanations": [
+      "Đúng — tính từ 'talented' đứng ngay sau đại từ bất định 'somebody'.",
+      "Sai — tính từ 'talented' bị đặt trước 'somebody', sai vị trí.",
+      "Sai — 'a talented somebody' đúng ngữ pháp nhưng 'a somebody' mang nghĩa 'một nhân vật quan trọng', không hợp ngữ cảnh tìm người chơi piano.",
+      "Sai — mạo từ 'a' chen vào sau 'somebody', sai ngữ pháp."
+    ],
+    "bac": 3
   }
 ]

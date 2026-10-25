@@ -5,7 +5,9 @@ import html, json, re, sqlite3, tempfile, zipfile, os, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "src/content/vocab/en")
-KEEP = {"A1": "a1", "A2": "a2", "B1": "b1"}
+KEEP = {"A1": "a1", "A2": "a2", "B1": "b1", "B2": "b2"}
+import sys
+ONLY = set(sys.argv[1:])  # ví dụ: python3 scripts/build-vocab.py b2 (chỉ dựng cấp b2, các cấp khác giữ nguyên)
 POS_MAP = {"noun": "noun", "verb": "verb", "adjective": "adjective", "adverb": "adverb"}
 
 def clean(s):
@@ -43,7 +45,14 @@ for (flds,) in con.execute("select flds from notes"):
     rows[KEEP[level]].append({"id": f"v-{word}-{POS_MAP[pos]}-{seen[(word, pos)]}", "word": word, "pos": POS_MAP[pos], "def": d, "ex": exs[:2]})
 os.makedirs(OUT, exist_ok=True)
 for lv, items in rows.items():
+    if ONLY and lv not in ONLY:
+        continue
     items.sort(key=lambda x: x["word"])
+    path = os.path.join(OUT, f"{lv}.json")
+    if os.path.exists(path):  # giữ nghĩa tiếng Việt (vi) đã soạn
+        old = {x["id"]: x.get("vi") for x in json.load(open(path))}
+        for it in items:
+            if old.get(it["id"]): it["vi"] = old[it["id"]]
     with open(os.path.join(OUT, f"{lv}.json"), "w") as fh:
         json.dump(items, fh, ensure_ascii=False, indent=0)
         fh.write("\n")
