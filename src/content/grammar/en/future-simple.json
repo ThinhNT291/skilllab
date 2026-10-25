@@ -28,7 +28,7 @@
       {
         "id": "fs-u2-prediction-belief",
         "label": "Dự đoán dựa trên suy nghĩ, quan điểm cá nhân",
-        "explanationVi": "Dùng 'will' để đưa ra dự đoán về tương lai dựa trên suy nghĩ, niềm tin hoặc cảm nhận chủ quan của người nói, không dựa trên bằng chứng rõ ràng ở hiện tại. Thường đi kèm các động từ think/believe/suppose/expect hoặc probably/perhaps, I'm sure.",
+        "explanationVi": "Dùng 'will' để đưa ra dự đoán về tương lai dựa trên suy nghĩ, niềm tin hoặc cảm nhận chủ quan của người nói, không dựa trên bằng chứng rõ ràng ở hiện tại. Thường đi kèm các động từ think/believe/suppose/expect hoặc probably/perhaps, I'm sure, I doubt / I don't think (tôi nghi ngờ / tôi không nghĩ là...).",
         "examples": [
           {
             "en": "I think our team will win the match tonight.",

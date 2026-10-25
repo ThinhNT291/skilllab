@@ -859,7 +859,7 @@
     "choices": [
       "didn't she",
       "wasn't she",
-      "weren't she",
+      "was she",
       "wasn't it"
     ],
     "correctIndex": 1,
@@ -867,7 +867,7 @@
     "choiceExplanations": [
       "Sai — 'didn't she': câu đã có 'was' nên không mượn do-support 'did'.",
       "Đúng — câu có sẵn trợ động từ 'was' (khẳng định), nên tag lặp lại 'was' ở dạng phủ định và dùng đại từ 'she' cho Mia.",
-      "Sai — 'weren't she': 'weren't' đi với you/we/they, không đi với 'she'; phải giữ 'was'.",
+      "Sai — 'was she': không đối lập, câu khẳng định thì tag phải phủ định.",
       "Sai — 'wasn't it': Mia là người nên đại từ phải là 'she', không phải 'it'."
     ],
     "bac": 3
@@ -889,7 +889,7 @@
       "haven't they",
       "didn't they",
       "aren't they",
-      "hasn't they"
+      "have they"
     ],
     "correctIndex": 0,
     "explanation": "Câu khẳng định với 'have finished' nên tag là 'haven't they'.",
@@ -897,7 +897,7 @@
       "Đúng — 'have' là trợ động từ hoàn thành, tag lặp lại nó ở dạng phủ định với đại từ 'they'.",
       "Sai — 'didn't they': câu đã có trợ động từ 'have' nên không dùng 'did'.",
       "Sai — 'aren't they': sai trợ động từ: câu dùng 'have', không phải 'are'.",
-      "Sai — 'hasn't they': 'has' chỉ đi với he/she/it; với 'they' phải là 'have'."
+      "Sai — 'have they': không đối lập, câu khẳng định thì tag phải phủ định."
     ],
     "bac": 3
   },
@@ -913,20 +913,20 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Lily can swim very fast, ______?",
+    "prompt": "Your cousin could solve the puzzle in two minutes, ______?",
     "choices": [
-      "doesn't she",
-      "isn't she",
-      "won't she",
-      "can't she"
+      "didn't he",
+      "wasn't he",
+      "can't he",
+      "couldn't he"
     ],
     "correctIndex": 3,
-    "explanation": "Tag lặp lại đúng modal của mệnh đề chính, đổi sang phủ định: 'can't she'.",
+    "explanation": "Tag lặp lại đúng modal 'could' của mệnh đề chính, đổi sang phủ định: 'couldn't he'.",
     "choiceExplanations": [
-      "Sai — 'doesn't she': câu đã có modal 'can' nên không mượn 'does'.",
-      "Sai — 'isn't she': câu không có 'is'; trợ động từ phải là 'can'.",
-      "Sai — 'won't she': đổi 'can' thành 'will' làm tag sai về nghĩa và về trợ động từ.",
-      "Đúng — câu có modal 'can' khẳng định, tag lặp lại 'can' ở dạng phủ định."
+      "Sai — 'didn't he': câu đã có modal 'could' nên không mượn do-support 'did'.",
+      "Sai — 'wasn't he': câu không có 'was'; trợ động từ phải là 'could'.",
+      "Sai — 'can't he': sai thì, câu dùng 'could' (quá khứ) nên tag phải giữ 'could', không đổi thành 'can'.",
+      "Đúng — câu có modal 'could' khẳng định, tag lặp lại 'could' ở dạng phủ định với đại từ 'he'."
     ],
     "bac": 3
   },
@@ -995,8 +995,7 @@
     "topic": "tag-questions",
     "usageId": "tag-questions-u1-basic-rule",
     "tags": [
-      "tag-questions-u1-basic-rule",
-      "tag-questions-u3-special-cases"
+      "tag-questions-u1-basic-rule"
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
@@ -1053,10 +1052,9 @@
     "topic": "tag-questions",
     "usageId": "tag-questions-u1-basic-rule",
     "tags": [
-      "tag-questions-u1-basic-rule",
-      "tag-questions-u4-negative-words"
+      "tag-questions-u1-basic-rule"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Your brother wouldn't mind helping us, ______?",
     "choices": [
@@ -1073,7 +1071,7 @@
       "Sai — 'does he': câu đã có modal 'would' nên không mượn 'does'.",
       "Sai — 'did he': câu đã có modal 'would' nên không mượn 'did'; ngoài ra câu không ở quá khứ đơn."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-tag-questions-039",
@@ -1087,10 +1085,10 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Mr. Brown gives us a quiz every Friday, ______?",
+    "prompt": "The bus driver waits for us every morning, ______?",
     "choices": [
       "isn't he",
-      "don't he",
+      "does he",
       "hasn't he",
       "doesn't he"
     ],
@@ -1098,9 +1096,9 @@
     "explanation": "Động từ thường ở hiện tại đơn, chủ ngữ 'he': tag là 'doesn't he'.",
     "choiceExplanations": [
       "Sai — 'isn't he': câu không có 'is'; không được tự thêm 'is' vào tag.",
-      "Sai — 'don't he': 'don't' dùng với I/you/we/they; với 'he' phải là 'doesn't'.",
+      "Sai — 'does he': không đối lập, câu khẳng định thì tag phải phủ định.",
       "Sai — 'hasn't he': câu không có 'has' làm trợ động từ nên không dùng 'hasn't'.",
-      "Đúng — 'gives' là động từ thường ở hiện tại đơn với he nên mượn 'does', đối lập thành 'doesn't he'."
+      "Đúng — 'waits' là động từ thường ở hiện tại đơn với 'he' nên mượn 'does', đối lập thành 'doesn't he'."
     ],
     "bac": 3
   },
@@ -1116,20 +1114,20 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "You walked to school yesterday, ______?",
+    "prompt": "Your team won the match last Saturday, ______?",
     "choices": [
-      "weren't you",
-      "don't you",
-      "didn't you",
-      "haven't you"
+      "weren't they",
+      "don't they",
+      "didn't they",
+      "haven't they"
     ],
     "correctIndex": 2,
-    "explanation": "Quá khứ đơn không có trợ động từ nên tag là 'didn't you'.",
+    "explanation": "Quá khứ đơn không có trợ động từ nên tag là 'didn't they'.",
     "choiceExplanations": [
-      "Sai — 'weren't you': câu không có 'were' làm trợ động từ nên không lặp lại 'were'.",
-      "Sai — 'don't you': sai thì: câu ở quá khứ ('walked'), tag phải là 'did'.",
-      "Đúng — 'walked' là động từ thường ở quá khứ đơn nên tag mượn 'did' ở dạng phủ định.",
-      "Sai — 'haven't you': câu không có 'have', và thì cũng không phải hiện tại hoàn thành."
+      "Sai — 'weren't they': câu không có 'were' làm trợ động từ nên không lặp lại 'were'.",
+      "Sai — 'don't they': sai thì: câu ở quá khứ ('won'), tag phải là 'did'.",
+      "Đúng — 'won' là động từ thường ở quá khứ đơn nên tag mượn 'did' ở dạng phủ định, đại từ 'they' cho 'your team'.",
+      "Sai — 'haven't they': câu không có 'have', và thì cũng không phải hiện tại hoàn thành."
     ],
     "bac": 3
   },
@@ -1230,7 +1228,7 @@
       "tag-questions-u3-special-cases",
       "tag-questions-u1-basic-rule"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "There will be a test on Monday, ______?",
     "choices": [
@@ -1356,9 +1354,9 @@
       "weren't they"
     ],
     "correctIndex": 1,
-    "explanation": "Sau 'nobody', tag khẳng định dùng 'they' và động từ khớp với 'they': 'were they'.",
+    "explanation": "Sau 'nobody', tag khẳng định dùng 'they' và động từ khớp với 'they': 'were they'. (Cách dùng 'he' chung cho 'nobody' hiện nay ít gặp.)",
     "choiceExplanations": [
-      "Sai — 'was he': dùng 'he' cho 'nobody' không tự nhiên vì chưa biết giới tính; cách dùng hiện đại là 'they'.",
+      "Sai trong bài này — 'was he': 'he' từng được dùng chung cho 'nobody' trong văn cũ, nhưng 'nobody' không nói rõ giới tính nên tiếng Anh hiện đại (kể cả Anh-Mỹ đời thường) dùng 'they', và đây cũng là cách bài lý thuyết đã dạy; 'they' còn đi với 'were', không phải 'was'.",
       "Đúng — 'nobody' mang nghĩa phủ định nên tag khẳng định, đại từ 'they'; 'they' đi với 'were', không phải 'was'.",
       "Sai — 'was it': 'nobody' chỉ người nên không dùng 'it'.",
       "Sai — 'weren't they': 'nobody' đã mang nghĩa phủ định, nên tag phủ định là sai về đối lập."
@@ -1389,7 +1387,7 @@
     "choiceExplanations": [
       "Đúng — 'never' mang nghĩa phủ định nên tag khẳng định; câu không phải 'I am' mà là động từ thường nên mượn 'do'.",
       "Sai — 'am I': câu không có 'am'; động từ 'talk' là động từ thường nên cần 'do'.",
-      "Sai — 'don't I': 'never' đã mang nghĩa phủ định, nên tag phủ định là sai về đối lập.",
+      "Sai — 'don't I': 'never' đã mang nghĩa phủ định nên tag phải khẳng định; tag phủ định chỉ có thể xuất hiện khi mỉa mai, chưa học ở đây.",
       "Sai — 'aren't I': 'aren't I' chỉ dành cho câu 'I am...'; câu này dùng động từ thường."
     ],
     "bac": 4

@@ -878,7 +878,7 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Kim is the ______ player on our basketball team. Nobody else is as tall as she is.",
+    "prompt": "Kim is the ______ player on our basketball team. She can touch the ceiling without jumping.",
     "choices": [
       "taller",
       "most tall",
@@ -1050,7 +1050,7 @@
     "choices": [
       "busyer",
       "busiest",
-      "more busy",
+      "more busier",
       "busier"
     ],
     "correctIndex": 3,
@@ -1058,7 +1058,7 @@
     "choiceExplanations": [
       "Sai — 'busyer': sai chính tả; phải đổi 'y' thành 'i' trước khi thêm -er.",
       "Sai — 'busiest': là so sánh nhất, không đi với 'than'.",
-      "Sai — 'more busy': đôi khi vẫn gặp trong lời nói, nhưng với tính từ 2 âm tiết đuôi -y, dạng chuẩn được dạy ở đây là 'busier'.",
+      "Sai — 'more busier': dùng cả 'more' lẫn đuôi -er là lỗi so sánh kép; 'busy' chỉ cần đổi y thành i rồi thêm -er.",
       "Đúng — 'busier': đổi y thành i rồi thêm -er."
     ],
     "bac": 2
@@ -1074,12 +1074,12 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Mia is the youngest girl ______ all my cousins.",
+    "prompt": "Mia is the youngest ______ all my cousins.",
     "choices": [
       "in",
       "of",
       "than",
-      "at"
+      "from"
     ],
     "correctIndex": 1,
     "explanation": "Sau so sánh nhất, dùng 'of' + danh từ số nhiều/nhóm người ('all my cousins'); dùng 'in' + danh từ số ít chỉ địa điểm/phạm vi.",
@@ -1087,7 +1087,7 @@
       "Sai — 'in': dùng với danh từ số ít chỉ nơi chốn/phạm vi (in the class, in the world), không đi với 'all my cousins'.",
       "Đúng — 'of': đi với danh từ số nhiều/nhóm người sau so sánh nhất.",
       "Sai — 'than': dùng sau so sánh hơn, không dùng sau so sánh nhất.",
-      "Sai — 'at': không dùng để nêu phạm vi so sánh nhất."
+      "Sai — 'from': không dùng để nêu phạm vi so sánh nhất."
     ],
     "bac": 2
   },
@@ -1107,15 +1107,15 @@
       "than",
       "like",
       "as",
-      "to"
+      "with"
     ],
     "correctIndex": 2,
-    "explanation": "'the same as' nghĩa là 'giống hệt/bằng với' (có trong từ khóa của bài); sau 'the same' dùng 'as'.",
+    "explanation": "'the same as' nghĩa là 'giống hệt/bằng với'; sau 'the same' dùng 'as'.",
     "choiceExplanations": [
       "Sai — 'than': chỉ đi với dạng so sánh hơn, không đi sau 'the same'.",
       "Sai — 'like': 'the same like' là cách nói không chuẩn; cấu trúc đúng là 'the same as'.",
       "Đúng — 'as': 'the same as' = giống hệt, bằng với.",
-      "Sai — 'to': 'the same to' không phải cấu trúc so sánh đúng."
+      "Sai — 'with': 'the same with' là lỗi dịch từ 'giống với'; cấu trúc đúng là 'the same as'."
     ],
     "bac": 2
   },
@@ -1142,7 +1142,7 @@
     "choiceExplanations": [
       "Đúng — 'the better': 'the' + dạng so sánh hơn bất quy tắc của 'good', đối xứng với vế đầu.",
       "Sai — 'best': là so sánh nhất và thiếu 'the' ở vế này, không hợp cấu trúc 'the...the...'.",
-      "Sai — 'the well': 'well' là trạng từ, không đứng sau 'be' để nói về điểm số; dạng so sánh phải là 'better'.",
+      "Sai — 'the well': 'well' là trạng từ, còn sau 'your grades will be' cần tính từ so sánh; dạng so sánh của 'good/well' là 'better'.",
       "Sai — 'gooder': 'good' là từ bất quy tắc, không thêm -er."
     ],
     "bac": 3
@@ -1184,7 +1184,7 @@
     "tags": [
       "comp-u4-equality"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Leo doesn't write as ______ as his sister, so his notes are hard to read.",
     "choices": [
@@ -1240,7 +1240,7 @@
     "tags": [
       "comp-u5-irregular-double"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Online games are becoming ______ among teenagers around the world.",
     "choices": [
@@ -1280,7 +1280,7 @@
     "correctIndex": 1,
     "explanation": "'One of the + so sánh nhất + danh từ số nhiều'. 'crowded' (đuôi -ed) dùng 'the most', không thêm -est.",
     "choiceExplanations": [
-      "Sai — 'more crowded': là so sánh hơn, không hợp với 'one of... in the world'.",
+      "Sai — 'more crowded': là so sánh hơn, cần 'than'; sau 'one of' phải dùng so sánh nhất có 'the'.",
       "Đúng — 'the most crowded': so sánh nhất của tính từ dài, đi sau 'one of'.",
       "Sai — 'the crowdedest': 'crowded' không thuộc nhóm thêm -est; phải dùng 'the most'.",
       "Sai — 'most crowded': thiếu 'the' bắt buộc trước so sánh nhất."
@@ -1298,20 +1298,20 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Anna scored 90 points and Beth scored 90 points. Cara scored 85 points, so her score was ______ Beth's.",
+    "prompt": "Mai's room is 10 square meters, and Lan's is 11. Mai's room is almost ______ Lan's.",
     "choices": [
-      "higher than",
-      "as high as",
-      "not as high as",
-      "the highest"
+      "bigger than",
+      "the biggest",
+      "as big as",
+      "as bigger as"
     ],
     "correctIndex": 2,
-    "explanation": "85 thấp hơn 90 nên điểm của Cara không đạt mức của Beth: 'not as high as'.",
+    "explanation": "'almost as ... as' nghĩa là 'gần bằng': 10 m² gần bằng 11 m². Giữa hai chữ 'as' tính từ giữ nguyên dạng gốc: as big as.",
     "choiceExplanations": [
-      "Sai — 'higher than': nghĩa là cao hơn, trái với dữ kiện 85 < 90.",
-      "Sai — 'as high as': nghĩa là bằng nhau, nhưng 85 khác 90.",
-      "Đúng — 'not as high as': dạng phủ định của so sánh bằng, nghĩa là kém hơn.",
-      "Sai — 'the highest': là so sánh nhất, không đi với 'Beth's' để so sánh trực tiếp hai điểm."
+      "Sai — 'bigger than': nghĩa là lớn hơn, trái với dữ kiện phòng Mai nhỏ hơn một chút và với 'almost'.",
+      "Sai — 'the biggest': là so sánh nhất, không dùng để nối hai vật với 'Lan's'.",
+      "Đúng — 'as big as': 'almost as ... as' diễn tả gần bằng; tính từ giữ nguyên dạng gốc.",
+      "Sai — 'as bigger as': trong as...as phải giữ nguyên 'big', không thêm -er."
     ],
     "bac": 3
   },
@@ -1334,7 +1334,7 @@
       "the more bad"
     ],
     "correctIndex": 0,
-    "explanation": "Cấu trúc 'the + so sánh hơn, the + so sánh hơn'; dạng so sánh hơn bất quy tắc của 'bad' (trạng thái) là 'worse'.",
+    "explanation": "Cấu trúc 'the + so sánh hơn, the + so sánh hơn'; 'feel' đi với tính từ nên dùng 'worse', dạng so sánh hơn bất quy tắc của 'bad'.",
     "choiceExplanations": [
       "Đúng — 'the worse': 'the' + dạng so sánh hơn bất quy tắc, đối xứng với 'the less'.",
       "Sai — 'worse': thiếu 'the' ở vế thứ hai của cấu trúc.",
@@ -1354,7 +1354,7 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Since failing the quiz, Ana studies a lot ______ than before.",
+    "prompt": "Ana failed the quiz last month, so now she studies a lot ______ than before.",
     "choices": [
       "seriouslier",
       "more serious",

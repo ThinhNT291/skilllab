@@ -915,11 +915,11 @@
       "enjoy did"
     ],
     "correctIndex": 0,
-    "explanation": "Nhấn mạnh quá khứ: did + V nguyên thể.",
+    "explanation": "Câu hỏi đuôi 'did you?' và 'was just tired' cho thấy quá khứ, nên nhấn mạnh bằng did + V nguyên thể.",
     "choiceExplanations": [
       "Đúng — did + enjoy nhấn mạnh 'tôi có thích mà' trong quá khứ.",
       "Sai — 'did enjoyed': sau did động từ chính phải ở nguyên thể.",
-      "Sai — 'do enjoy': thì hiện tại, trong khi chuyến đi và 'was just tired' đều ở quá khứ (nói về hiện tại thì 'do enjoy' mới tự nhiên).",
+      "Sai — 'do enjoy' là thì hiện tại. Chuyến đi đã xảy ra rồi (A hỏi 'didn't ... did you?', B nói 'was just tired'), nên phải dùng did để nhấn mạnh.",
       "Sai — 'enjoy did': trợ động từ nhấn mạnh phải đứng trước động từ chính."
     ]
   },
@@ -975,7 +975,7 @@
     "choiceExplanations": [
       "Đúng — Rarely does my grandfather use: chủ ngữ số ít nên dùng does.",
       "Sai — 'do': chủ ngữ 'my grandfather' là số ít.",
-      "Sai — 'is': is không đi với động từ nguyên thể 'use' ở nghĩa này.",
+      "Sai — 'is': sau is không đi với động từ nguyên thể (is use sai ngữ pháp).",
       "Sai — 'has': has cần V3 (used) phía sau."
     ]
   },
@@ -995,7 +995,7 @@
     "choices": [
       "we can",
       "can we",
-      "we do can",
+      "can we to",
       "do we can"
     ],
     "correctIndex": 1,
@@ -1003,7 +1003,7 @@
     "choiceExplanations": [
       "Sai — 'we can': trật tự thường, thiếu đảo ngữ.",
       "Đúng — sau 'Only after dinner' đảo: can we play.",
-      "Sai — 'we do can': can là modal, không dùng do, và vẫn chưa đảo.",
+      "Sai — 'can we to': đã đảo đúng nhưng sau can không có 'to'.",
       "Sai — 'do we can': can tự đảo, không mượn do."
     ]
   },
@@ -1051,7 +1051,7 @@
     "choices": [
       "the music was",
       "did the music be",
-      "music was the",
+      "the music is",
       "was the music"
     ],
     "correctIndex": 3,
@@ -1059,7 +1059,7 @@
     "choiceExplanations": [
       "Sai — 'the music was': trật tự thường, không đảo sau So + tính từ ở đầu câu.",
       "Sai — 'did the music be': be tự đảo, không mượn did.",
-      "Sai — 'music was the': sai trật tự và thiếu mạo từ.",
+      "Sai — 'the music is': không đảo, lại ở hiện tại trong khi 'could hear' là quá khứ.",
       "Đúng — So loud + was + the music + that...: be đảo trước chủ ngữ."
     ]
   },
@@ -1086,7 +1086,7 @@
     "explanation": "No sooner + had + S + V3 + than + quá khứ đơn.",
     "choiceExplanations": [
       "Sai — thiếu đảo had lên trước chủ ngữ.",
-      "Sai — 'No sooner' đi với than, không phải when.",
+      "Sai — 'No sooner' chuẩn đi với 'than'. Dạng 'No sooner ... when' vẫn gặp ngoài đời nhưng bị coi là không chuẩn, nên bài này không chọn.",
       "Đúng — No sooner had + S + V3 + than.",
       "Sai — did và had không đi chung; chỉ cần đảo had."
     ]
@@ -1100,23 +1100,23 @@
     "tags": [
       "inv-u4-only-not-until"
     ],
-    "difficulty": 2,
-    "bac": 5,
+    "difficulty": 3,
+    "bac": 6,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Not until I got home ______ I had left my backpack on the bus.",
+    "prompt": "Not until all the guests had left ______ the mess in the kitchen.",
     "choices": [
-      "I realized",
-      "did I realize",
-      "I did realize",
-      "realized I"
+      "Anna noticed",
+      "did Anna notice",
+      "Anna did notice",
+      "noticed Anna"
     ],
     "correctIndex": 1,
-    "explanation": "Not until + mệnh đề ở đầu câu: đảo ở mệnh đề chính (did I realize).",
+    "explanation": "Not until + mệnh đề ở đầu câu: đảo ở mệnh đề chính (did Anna notice), không đảo ở mệnh đề 'all the guests had left'.",
     "choiceExplanations": [
-      "Sai — 'I realized': thiếu đảo ngữ ở mệnh đề chính.",
-      "Đúng — Not until I got home, did I realize: đảo ở mệnh đề chính.",
-      "Sai — 'I did realize': đây là nhấn mạnh thường, không phải đảo; sau Not until phải đảo did lên trước chủ ngữ.",
-      "Sai — 'realized I': không dùng đảo bằng động từ chính, phải mượn did."
+      "Sai — 'Anna noticed': thiếu đảo ngữ ở mệnh đề chính.",
+      "Đúng — Not until all the guests had left did Anna notice: đảo ở mệnh đề chính.",
+      "Sai — 'Anna did notice': đây là nhấn mạnh bằng did, không phải đảo; sau Not until phải đưa did lên trước chủ ngữ.",
+      "Sai — 'noticed Anna': không đảo bằng động từ chính, phải mượn did."
     ]
   },
   {
@@ -1136,15 +1136,15 @@
       "should you share",
       "you should share",
       "you share should",
-      "do you should share"
+      "should share you"
     ],
     "correctIndex": 0,
-    "explanation": "On no account ở đầu câu: đảo should lên trước chủ ngữ.",
+    "explanation": "On no account ở đầu câu: đảo should lên trước chủ ngữ. (On no account hơi thiên về Anh-Anh; Anh-Mỹ thường dùng under no circumstances.)",
     "choiceExplanations": [
       "Đúng — On no account + should + you + share.",
       "Sai — 'you should share': trật tự thường, thiếu đảo.",
       "Sai — 'you share should': sai vị trí modal.",
-      "Sai — 'do you should share': should là modal, không mượn do."
+      "Sai — 'should share you': đưa should lên đầu nhưng chủ ngữ 'you' phải đứng ngay sau should (should you share)."
     ]
   },
   {
@@ -1200,7 +1200,7 @@
       "Sai — thiếu đảo ngữ sau Rarely.",
       "Đúng — động từ be đảo lên trước chủ ngữ: Rarely is the cafeteria.",
       "Sai — does và is cùng xuất hiện; be tự đảo, không mượn does.",
-      "Sai — 'does be': be không đi với do khi đảo ngữ."
+      "Sai — 'does be': 'be' tự đảo lên trước chủ ngữ nên không cần mượn does (và vẫn chưa đảo đúng: Rarely is the cafeteria...)."
     ]
   },
   {
@@ -1215,7 +1215,7 @@
     "difficulty": 2,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Not only ______ the piano, but my cousin can also sing opera.",
+    "prompt": "Not only ______ the piano, but he can also sing opera.",
     "choices": [
       "can he play",
       "he can play",
@@ -1228,7 +1228,7 @@
       "Đúng — Not only can + he + play.",
       "Sai — 'he can play': thiếu đảo ngữ sau Not only.",
       "Sai — 'does he can play': can tự đảo, không mượn does.",
-      "Sai — 'he does play': thiếu đảo và không có cấu trúc nhấn mạnh phù hợp ở đây."
+      "Sai — 'he does play': không đảo. Sau 'Not only' ở đầu mệnh đề phải đưa trợ động từ lên trước chủ ngữ (can he play). 'does' cũng không cần thêm vì đã có modal can."
     ]
   },
   {
@@ -1254,7 +1254,7 @@
     "explanation": "Mệnh đề chính sau Only after ở đầu câu đảo; thì của mệnh đề chính là quá khứ đơn.",
     "choiceExplanations": [
       "Sai — 'she handed in': thiếu đảo ở mệnh đề chính.",
-      "Sai — 'had she handed in': had thuộc mệnh đề 'only after', mệnh đề chính không phải quá khứ hoàn thành.",
+      "Sai — 'had she handed in' đưa việc nộp bài lùi thêm một thì (quá khứ hoàn thành) mà không có mốc nào sau đó. Việc kiểm tra bài mới là hành động xảy ra trước nên dùng had ở mệnh đề 'only after'; việc nộp bài là hành động chính, dùng quá khứ đơn (did she hand in).",
       "Đúng — mệnh đề chính ở quá khứ đơn nên đảo bằng did: did she hand in.",
       "Sai — 'she did hand in': did đứng sau chủ ngữ là nhấn mạnh thường, không phải đảo."
     ]
@@ -1268,8 +1268,8 @@
     "tags": [
       "inv-u3-hardly-no-sooner"
     ],
-    "difficulty": 3,
-    "bac": 6,
+    "difficulty": 2,
+    "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "No sooner had the rain stopped than the kids ______ outside to play.",
     "choices": [
@@ -1299,19 +1299,19 @@
     "difficulty": 3,
     "bac": 6,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Such ______ the size of the crowd that the stadium doors had to be closed.",
+    "prompt": "Such ______ the effects of the storm that thousands of homes lost power.",
     "choices": [
       "is",
-      "was",
       "were",
+      "was",
       "did"
     ],
     "correctIndex": 1,
-    "explanation": "Such + be ở đầu câu: be hòa hợp với danh từ đứng sau và đúng thì.",
+    "explanation": "Such + be ở đầu câu: be hòa hợp với danh từ đứng sau (the effects, số nhiều) và đúng thì quá khứ.",
     "choiceExplanations": [
-      "Sai — 'is': hiện tại, trong khi 'had to be closed' là quá khứ.",
-      "Đúng — Such was the size...: be quá khứ, danh từ số ít.",
-      "Sai — 'were': chủ ngữ 'the size' là số ít.",
+      "Sai — 'is': hiện tại, trong khi 'lost power' là quá khứ.",
+      "Đúng — Such were the effects...: 'the effects' số nhiều, quá khứ nên dùng were.",
+      "Sai — 'was': đúng thì nhưng chủ ngữ 'the effects' là số nhiều nên cần were.",
       "Sai — 'did': Such đảo bằng động từ be, không mượn did."
     ]
   },
@@ -1335,7 +1335,7 @@
       "was I been"
     ],
     "correctIndex": 2,
-    "explanation": "Never + cụm ở đầu câu: đảo have (hoặc was) lên trước chủ ngữ.",
+    "explanation": "Never + cụm ở đầu câu: đảo have (hoặc was) lên trước chủ ngữ. Dạng 'was I' cũng đúng khi nói riêng về một lần trong quá khứ, nhưng 'have I been' tự nhiên hơn với 'never in my life'.",
     "choiceExplanations": [
       "Sai — 'I was': thiếu đảo ngữ sau Never.",
       "Sai — 'I have been': thiếu đảo ngữ.",
@@ -1365,7 +1365,7 @@
     "correctIndex": 0,
     "explanation": "By no means ở đầu câu: đảo be lên trước chủ ngữ.",
     "choiceExplanations": [
-      "Đúng — By no means + was + Ben: be đảo, thì quá khứ như 'did'.",
+      "Đúng — By no means ở đầu câu nên đảo 'be' lên trước chủ ngữ: was Ben. Dùng 'was' (quá khứ) vì vế sau nói 'half of the class did' (đã quên bài).",
       "Sai — 'Ben was': thiếu đảo ngữ sau By no means.",
       "Sai — 'did Ben': be tự đảo, không mượn did.",
       "Sai — 'Ben had been': thiếu đảo và quá khứ hoàn thành không cần thiết."
@@ -1383,20 +1383,20 @@
     "difficulty": 2,
     "bac": 5,
     "title": "Chọn câu đúng",
-    "prompt": "Which sentence correctly uses do/does/did for emphasis?",
+    "prompt": "Which sentence uses do/does/did for emphasis WITHOUT inversion?",
     "choices": [
-      "He do know the answer, but he is too shy to say it.",
-      "He does knows the answer, but he is too shy to say it.",
-      "He knows does the answer, but he is too shy to say it.",
-      "He does know the answer, but he is too shy to say it."
+      "Never have I felt so nervous.",
+      "Not until noon did he wake up.",
+      "Rarely does she complain about the food.",
+      "I did tell you about the meeting!"
     ],
     "correctIndex": 3,
-    "explanation": "S + does + V nguyên thể để nhấn mạnh.",
+    "explanation": "Nhấn mạnh bằng did giữ trật tự chủ ngữ + trợ động từ (I did tell). Ba câu còn lại đều đảo trợ động từ lên trước chủ ngữ sau trạng từ phủ định.",
     "choiceExplanations": [
-      "Sai — 'He do': chủ ngữ 'He' cần does.",
-      "Sai — 'does knows': sau does động từ phải nguyên thể.",
-      "Sai — 'knows does': trợ động từ nhấn mạnh phải đứng trước động từ chính.",
-      "Đúng — does + know: ngôi thứ ba số ít, động từ nguyên thể."
+      "Sai — 'Never have I felt': đây là đảo ngữ (have đứng trước I), không phải nhấn mạnh bằng do/did.",
+      "Sai — 'Not until noon did he wake up': 'did' ở đây là trợ động từ mượn để đảo; chủ ngữ đứng sau 'did'.",
+      "Sai — 'Rarely does she complain': 'does' đứng trước chủ ngữ, nên đây là đảo ngữ.",
+      "Đúng — 'I did tell you': chủ ngữ I đứng trước did, nhấn mạnh việc đã nói."
     ]
   }
 ]

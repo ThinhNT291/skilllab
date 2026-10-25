@@ -850,7 +850,7 @@
     ],
     "difficulty": 1,
     "title": "Chọn đáp án đúng",
-    "prompt": "Mai and her brother ______ chess in the park since lunchtime.",
+    "prompt": "Maya and her cousin ______ video games in the basement since lunchtime.",
     "choices": [
       "were playing",
       "have been playing",
@@ -858,11 +858,11 @@
       "play"
     ],
     "correctIndex": 1,
-    "explanation": "'since lunchtime' là mốc bắt đầu, và việc chơi cờ vẫn tiếp diễn đến lúc nói nên dùng have been playing; chủ ngữ số nhiều đi với 'have'.",
+    "explanation": "'since lunchtime' là mốc bắt đầu, và việc chơi game vẫn tiếp diễn đến lúc nói nên dùng have been playing; chủ ngữ số nhiều đi với 'have'.",
     "choiceExplanations": [
       "Sai — 'were playing': quá khứ tiếp diễn chỉ một lúc trong quá khứ, không nối được với hiện tại như 'since' đòi hỏi.",
-      "Đúng — 'have been playing': 'since lunchtime' là mốc bắt đầu, việc chơi cờ vẫn tiếp diễn đến hiện tại nên dùng have been playing (chủ ngữ 'Mai and her brother' số nhiều).",
-      "Sai — 'has been playing': đúng thì nhưng sai trợ động từ: chủ ngữ 'Mai and her brother' là số nhiều nên phải dùng 'have', không dùng 'has'.",
+      "Đúng — 'have been playing': 'since lunchtime' là mốc bắt đầu, việc chơi game vẫn tiếp diễn đến hiện tại nên dùng have been playing (chủ ngữ 'Maya and her cousin' số nhiều).",
+      "Sai — 'has been playing': đúng thì nhưng sai trợ động từ: chủ ngữ 'Maya and her cousin' là số nhiều nên phải dùng 'have', không dùng 'has'.",
       "Sai — 'play': hiện tại đơn nói về thói quen chung, không đi với mốc bắt đầu 'since lunchtime'."
     ],
     "bac": 3
@@ -878,7 +878,7 @@
     ],
     "difficulty": 1,
     "title": "Chọn đáp án đúng",
-    "prompt": "It ______ since Saturday, so the playground is still muddy.",
+    "prompt": "It ______ since Saturday, so we haven't been able to play outside.",
     "choices": [
       "has been raining",
       "have been raining",
@@ -910,7 +910,7 @@
     "choices": [
       "are baking",
       "bake",
-      "baked",
+      "will bake",
       "have been baking"
     ],
     "correctIndex": 3,
@@ -918,7 +918,7 @@
     "choiceExplanations": [
       "Sai — 'are baking': hiện tại tiếp diễn nói việc đang diễn ra ngay lúc nói, nhưng bọn trẻ đã mệt và để lại bột rồi; 'all afternoon' cũng cần thì nối quá khứ với hiện tại.",
       "Sai — 'bake': hiện tại đơn nói về thói quen, không hợp với 'all afternoon' và dấu hiệu vừa xảy ra.",
-      "Sai — 'baked': quá khứ đơn vẫn có thể nói được về chiều nay, nhưng nó coi việc đã xong hẳn; câu này nhấn vào kết quả đang thấy (bột, mệt) nên have been baking hợp ngữ cảnh hơn.",
+      "Sai — 'will bake': thì tương lai, nhưng việc nướng bánh đã diễn ra rồi (bột trên sàn, bọn trẻ mệt).",
       "Đúng — 'have been baking': hoạt động nướng bánh vừa mới dừng và để lại dấu hiệu ở hiện tại (bột trên sàn, bọn trẻ mệt), nên dùng have been baking."
     ],
     "bac": 3
@@ -934,7 +934,7 @@
     ],
     "difficulty": 1,
     "title": "Chọn đáp án đúng",
-    "prompt": "Your cousin speaks English so well! How long ______ she ______ it?",
+    "prompt": "Your cousin is still learning English, and she speaks it so well! How long ______ she ______ it?",
     "choices": [
       "does / learn",
       "did / learn",
@@ -960,22 +960,22 @@
     "tags": [
       "present-perfect-continuous-u3-emphasis"
     ],
-    "difficulty": 1,
+    "difficulty": 2,
     "title": "Chọn đáp án đúng",
-    "prompt": "I ______ my little brother to tidy his room all week, but he never listens.",
+    "prompt": "My little brother ______ my headphones without asking all week, and it is driving me crazy!",
     "choices": [
-      "have been asking",
-      "ask",
-      "asked",
-      "am asking"
+      "has been borrowing",
+      "borrows",
+      "borrowed",
+      "is borrowing"
     ],
     "correctIndex": 0,
-    "explanation": "'all week' và sự bực bội vì lặp đi lặp lại cho thấy quá trình kéo dài, nên dùng have been asking.",
+    "explanation": "'all week' và sự bực bội vì lặp đi lặp lại cho thấy quá trình kéo dài, nên dùng has been borrowing.",
     "choiceExplanations": [
-      "Đúng — 'have been asking': 'all week' nhấn mạnh việc nhắc đi nhắc lại liên tục, kèm sắc thái bực bội, nên dùng have been asking.",
-      "Sai — 'ask': hiện tại đơn không diễn tả quá trình kéo dài suốt tuần nay.",
-      "Sai — 'asked': quá khứ đơn nói việc đã xong, trong khi tuần này vẫn chưa kết thúc và việc nhắc vẫn đang tiếp tục.",
-      "Sai — 'am asking': hiện tại tiếp diễn chỉ nói việc đang làm lúc này, không bao gồm cả tuần vừa qua."
+      "Đúng — 'has been borrowing': 'all week' nhấn mạnh việc lặp đi lặp lại suốt tuần nay, kèm sự bực bội, nên dùng has been borrowing.",
+      "Sai — 'borrows': hiện tại đơn nói thói quen chung, không nhấn vào quá trình kéo dài suốt tuần nay.",
+      "Sai — 'borrowed': quá khứ đơn coi việc mượn như đã xong, nhưng chuyện này vẫn tiếp diễn và đang làm người nói bực.",
+      "Sai — 'is borrowing': hiện tại tiếp diễn chỉ việc đang xảy ra lúc này, không bao gồm cả tuần vừa qua."
     ],
     "bac": 4
   },
@@ -992,7 +992,7 @@
     "title": "Chọn đáp án đúng",
     "prompt": "Linh ______ English songs since she was in grade four, and now she sings really well.",
     "choices": [
-      "sings",
+      "has singing",
       "sang",
       "has been singing",
       "is singing"
@@ -1000,7 +1000,7 @@
     "correctIndex": 2,
     "explanation": "'since she was in grade four' là mốc bắt đầu, việc hát vẫn tiếp diễn đến nay nên dùng has been singing.",
     "choiceExplanations": [
-      "Sai — 'sings': hiện tại đơn nói thói quen chung, không đi với 'since' để nói quá trình kéo dài từ quá khứ.",
+      "Sai — 'has singing': thiếu 'been'; công thức đúng là have/has + been + V-ing.",
       "Sai — 'sang': quá khứ đơn nói việc đã xong, nhưng bây giờ cô ấy vẫn hát.",
       "Đúng — 'has been singing': mốc bắt đầu 'since she was in grade four' và việc hát vẫn tiếp tục đến hiện tại nên dùng has been singing.",
       "Sai — 'is singing': hiện tại tiếp diễn chỉ việc đang xảy ra lúc nói, không nối được với mốc quá khứ 'since'."
@@ -1018,9 +1018,9 @@
     ],
     "difficulty": 1,
     "title": "Chọn đáp án đúng",
-    "prompt": "Your voice sounds hoarse. ______ at the concert?",
+    "prompt": "You just got home from the concert, and your voice sounds hoarse. ______ at the concert?",
     "choices": [
-      "Did you shout",
+      "Are you going to shout",
       "Have you been shouting",
       "Do you shout",
       "Are you shouting"
@@ -1028,7 +1028,7 @@
     "correctIndex": 1,
     "explanation": "giọng khàn là dấu hiệu ở hiện tại của hoạt động vừa diễn ra, nên dùng Have you been shouting.",
     "choiceExplanations": [
-      "Sai — 'Did you shout': quá khứ đơn vẫn nghe được trong đời thường, nhưng nó chỉ hỏi một sự việc đã xong; ở đây người nói liên hệ với giọng khàn lúc này nên thì hoàn thành tiếp diễn tự nhiên hơn.",
+      "Sai — 'Are you going to shout': nói về việc sắp làm, nhưng buổi hòa nhạc đã qua và giọng khàn là hậu quả đang thấy.",
       "Đúng — 'Have you been shouting': giọng khàn là kết quả quan sát được ở hiện tại của việc la hét vừa qua, nên hỏi bằng Have you been shouting.",
       "Sai — 'Do you shout': hiện tại đơn hỏi về thói quen, không phải việc vừa xảy ra ở buổi hòa nhạc.",
       "Sai — 'Are you shouting': hiện tại tiếp diễn hỏi việc đang xảy ra lúc này, nhưng buổi hòa nhạc đã qua."
@@ -1046,20 +1046,20 @@
     ],
     "difficulty": 2,
     "title": "Chọn đáp án đúng",
-    "prompt": "I'm so sorry I look sleepy. I ______ well lately, so I'm going to see the doctor.",
+    "prompt": "Sorry, I look so sleepy. I ______ well for the past two weeks, so I'm going to see the doctor.",
     "choices": [
       "didn't sleep",
       "am not sleeping",
-      "don't sleep",
+      "haven't sleeping",
       "haven't been sleeping"
     ],
     "correctIndex": 3,
-    "explanation": "'lately' chỉ khoảng thời gian gần đây kéo dài đến nay, dạng phủ định là haven't been sleeping.",
+    "explanation": "'for the past two weeks' chỉ khoảng thời gian kéo dài đến nay, dạng phủ định là haven't been sleeping.",
     "choiceExplanations": [
-      "Sai — 'didn't sleep': quá khứ đơn nói một lần trong quá khứ, không hợp với 'lately' (một giai đoạn kéo dài đến nay).",
-      "Sai — 'am not sleeping': hiện tại tiếp diễn chỉ nói về lúc này, không bao gồm những ngày gần đây.",
-      "Sai — 'don't sleep': hiện tại đơn nói thói quen chung, không hợp với 'lately'.",
-      "Đúng — 'haven't been sleeping': 'lately' chỉ giai đoạn gần đây kéo dài đến hiện tại; dạng phủ định của thì này là have/has not + been + V-ing."
+      "Sai — 'didn't sleep': quá khứ đơn nói một lần trong quá khứ, không hợp với 'for the past two weeks' (khoảng thời gian kéo dài đến nay).",
+      "Sai — 'am not sleeping': hiện tại tiếp diễn chỉ nói về lúc này, không đi với 'for the past two weeks' (khoảng thời gian kéo dài đến nay).",
+      "Sai — 'haven't sleeping': thiếu 'been' sau 'haven't'.",
+      "Đúng — 'haven't been sleeping': 'for the past two weeks' là khoảng thời gian kéo dài đến hiện tại; dạng phủ định của thì này là have/has not + been + V-ing."
     ],
     "bac": 3
   },
@@ -1074,9 +1074,9 @@
     ],
     "difficulty": 2,
     "title": "Chọn đáp án đúng",
-    "prompt": "Her friend ______ her messages all evening, and she is getting really annoyed.",
+    "prompt": "Nam ______ her messages all evening, and another one just popped up. She is getting really annoyed.",
     "choices": [
-      "sends",
+      "has sending",
       "has been sending",
       "sent",
       "is sending"
@@ -1084,9 +1084,9 @@
     "correctIndex": 1,
     "explanation": "'all evening' và sự khó chịu nhấn mạnh việc gửi liên tục, nên dùng has been sending.",
     "choiceExplanations": [
-      "Sai — 'sends': hiện tại đơn nói thói quen, không diễn tả việc kéo dài suốt buổi tối đến lúc nói.",
+      "Sai — 'has sending': thiếu 'been'; công thức đúng là have/has + been + V-ing.",
       "Đúng — 'has been sending': 'all evening' nhấn mạnh việc gửi tin nhắn liên tục, không nói đến số lượng, kèm sắc thái khó chịu nên dùng has been sending.",
-      "Sai — 'sent': quá khứ đơn coi việc gửi như đã xong, trong khi cô ấy vẫn đang bị làm phiền.",
+      "Sai — 'sent': quá khứ đơn nghe được nếu buổi tối đã qua hẳn, nhưng đề cho thấy tin nhắn vẫn đang đến và cô ấy vẫn bị làm phiền.",
       "Sai — 'is sending': hiện tại tiếp diễn không cho thấy việc đã kéo dài suốt buổi tối."
     ],
     "bac": 4
@@ -1100,22 +1100,22 @@
     "tags": [
       "present-perfect-continuous-u5-contrast"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Chọn đáp án đúng",
-    "prompt": "Mia ______ three paintings this month, and she is still working on the fourth.",
+    "prompt": "Ken ______ four short stories this semester, and he is still writing the fifth.",
     "choices": [
-      "has painted",
-      "has been painting",
-      "is painting",
-      "painted"
+      "has written",
+      "has been writing",
+      "is writing",
+      "wrote"
     ],
     "correctIndex": 0,
-    "explanation": "có con số cụ thể (three paintings) nên nhấn mạnh kết quả, dùng hiện tại hoàn thành đơn has painted.",
+    "explanation": "có con số cụ thể (four short stories) nên nhấn mạnh kết quả, dùng hiện tại hoàn thành đơn has written.",
     "choiceExplanations": [
-      "Đúng — 'has painted': câu nêu số lượng cụ thể 'three paintings' đã hoàn thành nên dùng hiện tại hoàn thành đơn, không dùng dạng tiếp diễn.",
-      "Sai — 'has been painting': dạng tiếp diễn nhấn mạnh quá trình và không đi với số lượng đã hoàn thành như 'three paintings'.",
-      "Sai — 'is painting': hiện tại tiếp diễn chỉ nói việc đang làm, không diễn tả ba bức đã xong trong tháng này.",
-      "Sai — 'painted': quá khứ đơn không nối ba bức tranh với tháng này, nó chưa kết thúc."
+      "Đúng — 'has written': câu nêu số lượng cụ thể 'four short stories' đã hoàn thành nên dùng hiện tại hoàn thành đơn, không dùng dạng tiếp diễn.",
+      "Sai — 'has been writing': dạng tiếp diễn nhấn mạnh quá trình và không đi với số lượng đã hoàn thành như 'four short stories'.",
+      "Sai — 'is writing': hiện tại tiếp diễn chỉ nói việc đang làm, không diễn tả bốn truyện đã xong trong học kỳ này.",
+      "Sai (khó hơn bạn nghĩ) — 'wrote': người Mỹ đôi khi vẫn dùng quá khứ đơn với 'this semester', nhưng câu còn nói cậu ấy 'is still writing the fifth' (học kỳ và công việc vẫn tiếp diễn), nên hiện tại hoàn thành đơn nối tốt hơn."
     ],
     "bac": 4
   },
@@ -1128,9 +1128,9 @@
     "tags": [
       "present-perfect-continuous-u4-how-long"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Chọn đáp án đúng",
-    "prompt": "A: I've been standing here since noon.\nB: Really? ______ ?",
+    "prompt": "A: I've been standing in this line for a while.\nB: Really? ______ ?",
     "choices": [
       "How long are you standing here",
       "How long do you stand here",
@@ -1138,11 +1138,11 @@
       "How long did you stand here"
     ],
     "correctIndex": 2,
-    "explanation": "A nói mình vẫn đứng ở đó, nên hỏi độ dài quá trình bằng How long have you been standing.",
+    "explanation": "A nói mình đã đứng trong hàng một lúc và vẫn đang đứng, nên B hỏi độ dài quá trình bằng How long have you been standing.",
     "choiceExplanations": [
       "Sai — 'How long are you standing here': hiện tại tiếp diễn không đi với 'How long' theo nghĩa 'đã bao lâu rồi'.",
       "Sai — 'How long do you stand here': hiện tại đơn hỏi về thói quen, trong khi A nói về một lần đang diễn ra.",
-      "Đúng — 'How long have you been standing here': A vẫn đang đứng từ trưa đến giờ, nên B hỏi độ dài quá trình bằng How long have you been standing here.",
+      "Đúng — 'How long have you been standing here': A vẫn đang đứng trong hàng, nên B hỏi độ dài quá trình bằng How long have you been standing here.",
       "Sai — 'How long did you stand here': quá khứ đơn có thể hỏi về khoảng thời gian đã kết thúc, nhưng A vẫn còn đang đứng nên không hợp."
     ],
     "bac": 3
@@ -1158,7 +1158,7 @@
     ],
     "difficulty": 2,
     "title": "Chọn đáp án đúng",
-    "prompt": "The bathroom windows are all fogged up. Someone ______ a hot shower.",
+    "prompt": "The bathroom windows are all fogged up, but nobody is inside now. Someone ______ a hot shower.",
     "choices": [
       "takes",
       "has been taking",
@@ -1166,12 +1166,12 @@
       "is taking"
     ],
     "correctIndex": 1,
-    "explanation": "kính mờ hơi nước là dấu hiệu ở hiện tại của việc vừa tắm, nên dùng has been taking.",
+    "explanation": "Phòng không còn ai nhưng kính còn mờ hơi nước: đây là dấu hiệu ở hiện tại của việc vừa tắm, nên dùng has been taking.",
     "choiceExplanations": [
       "Sai — 'takes': hiện tại đơn nói thói quen, không giải thích dấu hiệu vừa xuất hiện.",
       "Đúng — 'has been taking': hơi nước trên kính là kết quả quan sát được của việc tắm vừa diễn ra, nên dùng has been taking.",
-      "Sai — 'took': quá khứ đơn không nối với hiện tại; kính vẫn đang mờ do việc vừa xảy ra.",
-      "Sai — 'is taking': hiện tại tiếp diễn nói người đó đang tắm lúc này; nhưng ở đây người nói chỉ thấy dấu hiệu của việc vừa tắm xong."
+      "Sai — 'took': quá khứ đơn chỉ kể một việc đã xong; câu này dựa vào dấu hiệu kính còn mờ ngay bây giờ nên hoàn thành tiếp diễn hợp hơn.",
+      "Sai — 'is taking': hiện tại tiếp diễn nói người đó đang tắm lúc này, nhưng đề cho biết trong phòng không còn ai."
     ],
     "bac": 3
   },
@@ -1214,11 +1214,11 @@
     ],
     "difficulty": 2,
     "title": "Chọn đáp án đúng",
-    "prompt": "Why are you so tired? — I ______ for the math contest all week and sleeping very little.",
+    "prompt": "Why are you so tired? — I ______ for the math contest all week, and I'm exhausted.",
     "choices": [
       "have been studying",
       "am studying",
-      "study",
+      "have studying",
       "studied"
     ],
     "correctIndex": 0,
@@ -1226,7 +1226,7 @@
     "choiceExplanations": [
       "Đúng — 'have been studying': 'all week' nhấn mạnh việc học liên tục, đang gây ra sự mệt hiện giờ, nên dùng have been studying.",
       "Sai — 'am studying': hiện tại tiếp diễn chỉ lúc này, không bao gồm cả tuần học liên tục.",
-      "Sai — 'study': hiện tại đơn nói thói quen, không hợp với 'all week' ở đây.",
+      "Sai — 'have studying': thiếu 'been' sau 'have'.",
       "Sai — 'studied': quá khứ đơn coi việc học như đã xong, trong khi tuần này chưa hết và việc ôn vẫn tiếp tục."
     ],
     "bac": 4
@@ -1247,7 +1247,7 @@
       "has planted / has been planting",
       "has been planting / has planted",
       "planted / has been planting",
-      "is planting / planted"
+      "has been planting / has been planting"
     ],
     "correctIndex": 1,
     "explanation": "vế đầu nhấn mạnh quá trình kéo dài từ bữa sáng nên dùng has been planting; vế sau nêu số lượng (twelve) nên dùng has planted.",
@@ -1255,7 +1255,7 @@
       "Sai — 'has planted / has been planting': đảo ngược: vế sau có con số cụ thể nên phải dùng dạng đơn, còn vế đầu nhấn mạnh quá trình.",
       "Đúng — 'has been planting / has planted': vế đầu nói về quá trình nên dùng has been planting; vế sau có số lượng cụ thể 'twelve rose bushes' nên dùng has planted.",
       "Sai — 'planted / has been planting': vế đầu dùng quá khứ đơn không đi với 'since breakfast', vế sau dùng sai dạng tiếp diễn với số lượng.",
-      "Sai — 'is planting / planted': vế đầu dùng hiện tại tiếp diễn không đi với 'since', vế sau dùng quá khứ đơn không nối với hiện tại."
+      "Sai — 'has been planting / has been planting': vế sau có số lượng cụ thể 'twelve rose bushes' nên phải dùng dạng đơn 'has planted'."
     ],
     "bac": 4
   },
@@ -1269,11 +1269,11 @@
       "present-perfect-continuous-u4-how-long"
     ],
     "difficulty": 3,
-    "title": "Chọn đáp án đúng",
+    "title": "Chọn câu hỏi đúng về số lần",
     "prompt": "Which question asks about the NUMBER of times, not the length of time?",
     "choices": [
       "How long has she been calling you today?",
-      "How many times has she been calling you today?",
+      "How many times have she called you today?",
       "How many times has she called you today?",
       "How long is she calling you today?"
     ],
@@ -1281,7 +1281,7 @@
     "explanation": "'How many times' hỏi số lần nên dùng hiện tại hoàn thành đơn: How many times has she called you.",
     "choiceExplanations": [
       "Sai — 'How long has she been calling you today?': hỏi độ dài của khoảng thời gian cô ấy gọi, không hỏi số lần.",
-      "Sai — 'How many times has she been calling you today?': có thể nghe được trong lời nói, nhưng khi hỏi số lần đếm được thì dạng chuẩn và tự nhiên hơn là dạng đơn 'has called'.",
+      "Sai — 'How many times have she called you today?': chủ ngữ 'she' số ít phải đi với 'has', không dùng 'have'.",
       "Đúng — 'How many times has she called you today?': 'How many times + has + S + V3' hỏi số lần đếm được (kết quả), còn 'How long ... been V-ing' hỏi độ dài quá trình.",
       "Sai — 'How long is she calling you today?': sai thì: hiện tại tiếp diễn không đi với 'How long' theo nghĩa 'đã bao lâu', và cũng không hỏi số lần."
     ],
@@ -1292,26 +1292,26 @@
     "kind": "mcq",
     "language": "en",
     "topic": "present-perfect-continuous",
-    "usageId": "present-perfect-continuous-u1-duration",
+    "usageId": "present-perfect-continuous-u5-contrast",
     "tags": [
-      "present-perfect-continuous-u1-duration"
+      "present-perfect-continuous-u5-contrast"
     ],
     "difficulty": 3,
     "title": "Chọn đáp án đúng",
-    "prompt": "Ms. Tran ______ science at our school from 2010 to 2018, and then she moved to Da Nang.",
+    "prompt": "Lan ______ this laptop since last summer, and she ______ it every night for the past week to study for her exams.",
     "choices": [
-      "has been teaching",
-      "teaches",
-      "is teaching",
-      "taught"
+      "has been owning / has been using",
+      "owned / has been using",
+      "has owned / used",
+      "has owned / has been using"
     ],
     "correctIndex": 3,
-    "explanation": "khoảng thời gian 2010 đến 2018 đã kết thúc và không còn nối với hiện tại, nên dùng quá khứ đơn taught.",
+    "explanation": "'own' là động từ trạng thái nên dùng has owned; 'using ... every night for the past week' là quá trình liên tục nên dùng has been using.",
     "choiceExplanations": [
-      "Sai — 'has been teaching': thì này nối quá khứ với hiện tại, nhưng cô Trần đã chuyển đi, việc dạy ở trường này đã kết thúc.",
-      "Sai — 'teaches': hiện tại đơn nói thói quen hay sự thật hiện tại, nhưng việc dạy đã thuộc về quá khứ.",
-      "Sai — 'is teaching': hiện tại tiếp diễn nói việc đang xảy ra lúc này, trái với 'from 2010 to 2018' đã xong.",
-      "Đúng — 'taught': việc dạy đã kết thúc hẳn vào năm 2018, không còn tiếp diễn đến hiện tại, nên dùng quá khứ đơn; thì hoàn thành tiếp diễn chỉ dành cho việc còn nối với hiện tại."
+      "Sai — 'has been owning / has been using': 'own' là động từ trạng thái, không dùng tiếp diễn (has owned); vế sau đúng.",
+      "Sai — 'owned / has been using': quá khứ đơn không đi với 'since last summer' khi vẫn còn sở hữu.",
+      "Sai — 'has owned / used': vế đầu đúng, nhưng 'used' (quá khứ đơn) không đi với 'for the past week' (cả tuần qua kéo dài đến nay).",
+      "Đúng — 'has owned / has been using': 'has owned' (sở hữu, trạng thái) và 'has been using' (dùng liên tục suốt tuần)."
     ],
     "bac": 4
   },
@@ -1324,19 +1324,19 @@
     "tags": [
       "present-perfect-continuous-u1-duration"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Chọn đáp án đúng",
-    "prompt": "The team ______ harder since the new coach arrived, and they have lost only one game since then.",
+    "prompt": "The players ______ harder since the new coach arrived, and they have lost only one game.",
     "choices": [
-      "has been practicing",
+      "have been practicing",
       "practiced",
       "had been practicing",
       "was practicing"
     ],
     "correctIndex": 0,
-    "explanation": "mốc 'since the new coach arrived' và việc luyện tập vẫn tiếp diễn đến nay nên dùng has been practicing.",
+    "explanation": "mốc 'since the new coach arrived' và việc luyện tập vẫn tiếp diễn đến nay nên dùng have been practicing (chủ ngữ số nhiều).",
     "choiceExplanations": [
-      "Đúng — 'has been practicing': việc luyện tập bắt đầu từ khi huấn luyện viên mới đến và vẫn tiếp diễn, nên dùng has been practicing (chủ ngữ 'the team' dùng 'has' trong Anh-Mỹ).",
+      "Đúng — 'have been practicing': việc luyện tập bắt đầu từ khi huấn luyện viên mới đến và vẫn tiếp diễn, chủ ngữ 'The players' số nhiều nên dùng 'have'.",
       "Sai — 'practiced': quá khứ đơn nói việc đã xong, không đi với 'since' và hiện tại đội vẫn đang tập.",
       "Sai — 'had been practicing': quá khứ hoàn thành tiếp diễn dành cho việc diễn ra trước một mốc trong quá khứ; ở đây mốc là hiện tại.",
       "Sai — 'was practicing': quá khứ tiếp diễn chỉ một lúc trong quá khứ, không nối với hiện tại."
@@ -1354,7 +1354,7 @@
     ],
     "difficulty": 3,
     "title": "Chọn đáp án đúng",
-    "prompt": "Mom, look at my knees! I ______ to catch our cat all afternoon, and I still haven't caught it!",
+    "prompt": "Mom, look at my muddy knees! I ______ to catch our cat since lunch, and it is still running around!",
     "choices": [
       "try",
       "tried",
@@ -1362,12 +1362,12 @@
       "have been trying"
     ],
     "correctIndex": 3,
-    "explanation": "'all afternoon' nhấn mạnh nỗ lực kéo dài, đầu gối bẩn là kết quả ở hiện tại, nên dùng have been trying.",
+    "explanation": "'since lunch' cho thấy nỗ lực kéo dài đến bây giờ, đầu gối dính bùn là dấu hiệu ở hiện tại, nên dùng have been trying.",
     "choiceExplanations": [
-      "Sai — 'try': hiện tại đơn nói thói quen, không hợp với 'all afternoon'.",
-      "Sai — 'tried': quá khứ đơn coi nỗ lực đã xong; nhưng 'still haven't caught it' cho thấy việc vẫn chưa dứt và còn liên quan đến lúc này.",
-      "Sai — 'am trying': hiện tại tiếp diễn chỉ lúc nói, không bao gồm cả buổi chiều đã qua.",
-      "Đúng — 'have been trying': nỗ lực bắt mèo kéo dài suốt buổi chiều và để lại dấu hiệu (đầu gối bẩn), nên dùng have been trying."
+      "Sai — 'try': hiện tại đơn nói thói quen, không hợp với 'since lunch'.",
+      "Sai — 'tried': quá khứ đơn không đi với 'since lunch'; cậu bé vẫn đang bắt mèo đến bây giờ.",
+      "Sai — 'am trying': hiện tại tiếp diễn chỉ lúc nói, không bao gồm khoảng thời gian từ bữa trưa đến giờ.",
+      "Đúng — 'have been trying': 'since lunch' là mốc bắt đầu, nỗ lực kéo dài đến hiện tại, và đầu gối dính bùn là dấu hiệu nhìn thấy được."
     ],
     "bac": 4
   },
@@ -1382,7 +1382,7 @@
     ],
     "difficulty": 3,
     "title": "Chọn đáp án đúng",
-    "prompt": "Mia ______ on her science project for a month, but she ______ the experiment yet.",
+    "prompt": "Mia ______ on her art project for a month, but she ______ her poster yet.",
     "choices": [
       "has worked / hasn't been finishing",
       "is working / didn't finish",
@@ -1392,8 +1392,8 @@
     "correctIndex": 2,
     "explanation": "vế đầu nhấn mạnh quá trình kéo dài một tháng (has been working), vế sau nói về kết quả chưa hoàn thành (hasn't finished).",
     "choiceExplanations": [
-      "Sai — 'has worked / hasn't been finishing': vế đầu thiếu tính quá trình, vế sau dùng tiếp diễn với 'yet' nói kết quả chưa xong là không tự nhiên.",
-      "Sai — 'is working / didn't finish': vế đầu không đi với 'for a month', vế sau quá khứ đơn không đi với 'yet'.",
+      "Sai — 'has worked / hasn't been finishing': vế đầu 'has worked ... for a month' vẫn đúng ngữ pháp (thể đơn cũng đi với 'for'), nhưng vế sau sai: 'finish' nói về hoàn tất kết quả, nên dùng 'hasn't finished', không dùng dạng tiếp diễn.",
+      "Sai — 'is working / didn't finish': vế đầu không đi với 'for a month'. Anh-Mỹ thân mật đôi khi nói 'didn't finish yet', nhưng vế đầu đã sai nên cả đáp án vẫn sai.",
       "Đúng — 'has been working / hasn't finished': vế đầu nhấn mạnh quá trình kéo dài (has been working); vế sau với 'yet' nói đến kết quả chưa xong nên dùng hiện tại hoàn thành đơn hasn't finished.",
       "Sai — 'worked / hasn't finished': vế đầu quá khứ đơn không đi với 'for a month' khi dự án vẫn còn đang làm."
     ],

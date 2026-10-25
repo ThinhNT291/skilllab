@@ -520,7 +520,7 @@
       "I had been knowing him for years before we met again.",
       "I had been working all night before I fell asleep.",
       "She had been waiting for an hour when I arrived.",
-      "They had been playing football for hours when it got dark."
+      "They had been playing soccer for hours when it got dark."
     ],
     "correctIndex": 0,
     "explanation": "Động từ chỉ trạng thái dùng had + V3, không dùng had been + V-ing.",
@@ -528,7 +528,7 @@
       "Đúng — 'know' là động từ chỉ trạng thái nên thường không dùng dạng -ing; câu đúng là 'I had known him'.",
       "Sai — 'I had been working all night before I fell asleep.': đây là câu đúng nên không phải đáp án.",
       "Sai — 'She had been waiting for an hour when I arrived.': đây là câu đúng nên không phải đáp án.",
-      "Sai — 'They had been playing football for hours when it got dark.': đây là câu đúng nên không phải đáp án."
+      "Sai — 'They had been playing soccer for hours when it got dark.': đây là câu đúng nên không phải đáp án."
     ]
   },
   {
@@ -851,7 +851,7 @@
     "difficulty": 1,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The kids ______ (play) soccer for two hours when their mother called them in for dinner.",
+    "prompt": "The kids ______ (play) soccer for two hours when it started to get dark.",
     "choices": [
       "had been playing",
       "have been playing",
@@ -859,10 +859,10 @@
       "had playing"
     ],
     "correctIndex": 0,
-    "explanation": "Việc chơi bóng kéo dài trước mốc 'mother called' (quá khứ đơn): had been + V-ing.",
+    "explanation": "Việc chơi bóng kéo dài trước mốc 'started to get dark' (quá khứ đơn): had been + V-ing.",
     "choiceExplanations": [
-      "Đúng — 'for two hours' kéo dài đến lúc mẹ gọi (quá khứ): had been playing.",
-      "Sai — 'have been playing': 'have been' nói về hiện tại, còn mốc 'called' đã ở quá khứ.",
+      "Đúng — 'for two hours' kéo dài đến lúc trời tối (quá khứ): had been playing.",
+      "Sai — 'have been playing': 'have been' nói về hiện tại, còn mốc 'started' đã ở quá khứ.",
       "Sai — 'had been play': sau 'been' phải dùng V-ing (playing).",
       "Sai — 'had playing': thiếu 'been'."
     ]
@@ -909,17 +909,17 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Lan ______ (practice) the piano since breakfast when her brother woke up.",
     "choices": [
-      "has been practicing",
-      "had practicing",
       "had been practicing",
+      "has been practicing",
+      "was practicing",
       "had been practice"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "Since + mốc thời gian, kèm mốc quá khứ 'woke up': had been + V-ing.",
     "choiceExplanations": [
-      "Sai — 'has been practicing': 'has been' nói về hiện tại, còn lúc em trai thức dậy đã ở quá khứ.",
-      "Sai — 'had practicing': thiếu 'been'.",
       "Đúng — việc tập đàn kéo dài từ bữa sáng đến lúc em thức dậy: had been practicing.",
+      "Sai — 'has been practicing': 'has been' nói về hiện tại, còn lúc em trai thức dậy đã ở quá khứ.",
+      "Sai — 'was practicing': không dùng was + V-ing với 'since' để nói việc đã kéo dài đến một mốc quá khứ; cần had been practicing.",
       "Sai — 'had been practice': sau 'been' phải dùng V-ing (practicing)."
     ]
   },
@@ -935,20 +935,20 @@
     "difficulty": 1,
     "bac": 3,
     "title": "Chọn câu đúng",
-    "prompt": "Choose the correct question about the children and the fire alarm.",
+    "prompt": "The classroom was a mess when Ms. Lee came in. Choose the correct question she asked the students.",
     "choices": [
-      "What did the children been doing when the fire alarm rang?",
-      "What had the children doing when the fire alarm rang?",
-      "What have the children been doing when the fire alarm rang?",
-      "What had the children been doing when the fire alarm rang?"
+      "What did you been doing before I came in?",
+      "What had you doing before I came in?",
+      "What had you been doing before I came in?",
+      "What have you been doing before I came in?"
     ],
-    "correctIndex": 3,
+    "correctIndex": 2,
     "explanation": "Câu hỏi: từ hỏi + had + S + been + V-ing?",
     "choiceExplanations": [
       "Sai — 'did ... been': 'did' không đi với 'been'; dùng had + S + been + V-ing.",
-      "Sai — 'had the children doing': thiếu 'been'.",
-      "Sai — 'have the children been doing': 'have' nói về hiện tại, còn 'rang' ở quá khứ.",
-      "Đúng — đúng cấu trúc câu hỏi What + had + S + been + V-ing."
+      "Sai — 'had you doing': thiếu 'been' trước doing.",
+      "Đúng — từ hỏi + had + S + been + V-ing hỏi việc đã diễn ra trước mốc quá khứ.",
+      "Sai — 'have you been doing': 'have' nói về hiện tại, còn 'before I came in' đã ở quá khứ."
     ]
   },
   {
@@ -956,9 +956,9 @@
     "kind": "mcq",
     "language": "en",
     "topic": "past-perfect-continuous",
-    "usageId": "ppc-u1-duration-before-past-moment",
+    "usageId": "ppc-u4-for-since-how-long",
     "tags": [
-      "ppc-u1-duration-before-past-moment"
+      "ppc-u4-for-since-how-long"
     ],
     "difficulty": 1,
     "bac": 3,
@@ -991,7 +991,7 @@
     "difficulty": 1,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "My brother's fingers were black because he ______ (draw) with charcoal all afternoon.",
+    "prompt": "My brother's fingers were black because he ______ (draw) with a marker all afternoon.",
     "choices": [
       "had been draw",
       "has been drawing",
@@ -1044,7 +1044,7 @@
     "tags": [
       "ppc-u3-process-vs-result"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Ken ______ (write) his essay all evening, but he still did not know how to end it.",
@@ -1072,7 +1072,7 @@
     "tags": [
       "ppc-u3-process-vs-result"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "By lunchtime, Hana ______ (solve) seven puzzles, and she was proud of that number.",
@@ -1105,18 +1105,18 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "When I opened the door, the cat ______ (sleep) on my bed for hours, and it did not want to leave.",
     "choices": [
+      "had been sleeping",
       "has been sleeping",
-      "slept",
       "was sleeping",
-      "had been sleeping"
+      "slept"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "explanation": "For hours kéo dài đến mốc 'opened': had been + V-ing.",
     "choiceExplanations": [
+      "Đúng — mèo đã ngủ nhiều giờ trước lúc mở cửa: had been sleeping.",
       "Sai — 'has been sleeping': 'has been' nói về hiện tại, còn mốc 'opened' ở quá khứ.",
-      "Sai — 'slept': quá khứ đơn không nối quãng 'for hours' tới thời điểm mở cửa; cần had been sleeping.",
-      "Sai — 'was sleeping': chỉ nói mèo đang ngủ lúc đó; không đếm ngược 'for hours' từ mốc quá khứ như had been sleeping.",
-      "Đúng — mèo đã ngủ nhiều giờ trước lúc mở cửa: had been sleeping."
+      "Sai — 'was sleeping' chỉ nói mèo đang ngủ đúng lúc mở cửa, không diễn tả việc ngủ đã kéo dài nhiều giờ TRƯỚC mốc đó; với 'for hours' đếm ngược từ mốc, dùng had been sleeping.",
+      "Sai — 'slept': quá khứ đơn không nối quãng 'for hours' tới thời điểm mở cửa; cần had been sleeping."
     ]
   },
   {
@@ -1133,18 +1133,18 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "At noon, Lily realized that she ______ (study) since six a.m. without a break.",
     "choices": [
-      "had been studying",
       "has been studying",
       "had been studied",
-      "is studying"
+      "had been studying",
+      "was studying"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "explanation": "Since + mốc, kể ở quá khứ (realized): had been + V-ing.",
     "choiceExplanations": [
-      "Đúng — việc học kéo dài từ 6 giờ sáng đến lúc nhận ra (quá khứ): had been studying.",
       "Sai — 'has been studying': 'has been' nói về hiện tại, còn 'realized' ở quá khứ.",
       "Sai — 'had been studied': sau 'been' ở thì này phải là V-ing (studying).",
-      "Sai — 'is studying': thì hiện tại, không hợp với 'realized' và 'since six a.m.'."
+      "Đúng — việc học kéo dài từ 6 giờ sáng đến lúc nhận ra (quá khứ): had been studying.",
+      "Sai — 'was studying': không dùng was + V-ing với 'since' để nói việc đã kéo dài đến một mốc quá khứ; cần had been studying."
     ]
   },
   {
@@ -1159,20 +1159,20 @@
     "difficulty": 2,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Her voice sounded hoarse because she ______ (shout) at the game.",
+    "prompt": "Her throat hurt after the match because she ______ (cheer) for her team all afternoon.",
     "choices": [
-      "had been shouted",
-      "had been shouting",
-      "has shouted",
-      "had be shouting"
+      "had been cheered",
+      "had been cheering",
+      "has cheered",
+      "had cheering"
     ],
     "correctIndex": 1,
-    "explanation": "Nguyên nhân (đã hét) giải thích kết quả (khàn giọng): had been + V-ing.",
+    "explanation": "Nguyên nhân (cổ vũ cả buổi chiều) giải thích kết quả (đau họng): had been + V-ing.",
     "choiceExplanations": [
-      "Sai — 'had been shouted': sau 'been' phải là V-ing (shouting).",
-      "Đúng — việc hét ở trận đấu là nguyên nhân khiến giọng khàn: had been shouting.",
-      "Sai — 'has shouted': 'has shouted' nói về hiện tại, còn 'sounded' ở quá khứ.",
-      "Sai — 'had be shouting': phải là 'been', không phải 'be'."
+      "Sai — 'had been cheered': sau 'been' ở thì này phải là V-ing (cheering), không phải V-ed.",
+      "Đúng — cổ vũ cả buổi chiều là nguyên nhân khiến cổ họng đau: had been cheering.",
+      "Sai — 'has cheered' nói về hiện tại, còn 'hurt' ở quá khứ.",
+      "Sai — 'had cheering': thiếu 'been'."
     ]
   },
   {
@@ -1185,22 +1185,22 @@
       "ppc-u5-form-and-state-verbs"
     ],
     "difficulty": 2,
-    "bac": 4,
+    "bac": 3,
     "title": "Chọn câu đúng",
     "prompt": "Choose the correct sentence about the grandparents' shop.",
     "choices": [
-      "Before the move, my grandparents had been owning that shop for forty years.",
-      "Before the move, my grandparents had owning that shop for forty years.",
-      "Before the move, my grandparents had owned that shop for forty years.",
-      "Before the move, my grandparents have owned that shop for forty years."
+      "My grandparents had been owning that shop for forty years before they sold it.",
+      "My grandparents had owning that shop for forty years before they sold it.",
+      "My grandparents have owned that shop for forty years before they sold it.",
+      "My grandparents had owned that shop for forty years before they sold it."
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Động từ chỉ trạng thái (own) thường dùng had + V3, không dùng had been + V-ing.",
     "choiceExplanations": [
       "Sai — 'had been owning': 'own' là động từ chỉ trạng thái nên thường không dùng dạng -ing.",
       "Sai — 'had owning': thiếu 'been', và sau 'had' không đi với V-ing.",
-      "Đúng — 'own' là động từ chỉ trạng thái nên dùng had + V3: had owned.",
-      "Sai — 'have owned': 'have' nói về hiện tại, còn 'Before the move' ở quá khứ."
+      "Sai — 'have owned' nói về hiện tại, còn 'before they sold it' ở quá khứ.",
+      "Đúng — 'own' là động từ chỉ trạng thái nên dùng had + V3: had owned."
     ]
   },
   {
@@ -1215,20 +1215,20 @@
     "difficulty": 2,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "It was midnight, and the twins ______ (argue) about the game since dinner.",
+    "prompt": "The twins were still angry at midnight. They ______ (argue) about the game since dinner.",
     "choices": [
       "had been arguing",
       "have been arguing",
       "had argue",
-      "are arguing"
+      "were arguing"
     ],
     "correctIndex": 0,
     "explanation": "Since + mốc, kể ở quá khứ: had been + V-ing.",
     "choiceExplanations": [
       "Đúng — cuộc cãi nhau kéo dài từ bữa tối đến nửa đêm (quá khứ): had been arguing.",
-      "Sai — 'have been arguing': 'have been' nói về hiện tại, còn câu kể ở quá khứ ('was').",
+      "Sai — 'have been arguing': 'have been' nói về hiện tại, còn câu kể ở quá khứ ('were').",
       "Sai — 'had argue': thiếu 'been' và dùng động từ nguyên mẫu.",
-      "Sai — 'are arguing': thì hiện tại, không hợp với bối cảnh quá khứ."
+      "Sai — 'were arguing': không dùng were + V-ing với 'since' để nói việc đã kéo dài đến một mốc quá khứ; cần had been arguing."
     ]
   },
   {
@@ -1243,7 +1243,7 @@
     "difficulty": 3,
     "bac": 4,
     "title": "Chọn đáp án phù hợp nhất",
-    "prompt": "Which pair correctly answers 'How long had Eva been working?' and 'How many posters had she made?'",
+    "prompt": "When the teacher came in, Eva was surrounded by posters. Which pair correctly answers the teacher's questions: 'How long had Eva been working?' and 'How many posters had she made?'",
     "choices": [
       "She had been working for three hours. / She had made twelve posters.",
       "She had worked for three hours. / She had been making twelve posters.",
@@ -1268,23 +1268,23 @@
     "tags": [
       "ppc-u1-duration-before-past-moment"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 4,
     "title": "Chọn đáp án phù hợp nhất",
     "prompt": "Tuan ______ (cycle) for two hours when his tire went flat, so he ______ (push) his bike home.",
     "choices": [
-      "had been cycling / pushed",
       "cycled / had been pushing",
       "had been cycling / had been pushing",
-      "have been cycling / pushed"
+      "have been cycling / pushed",
+      "had been cycling / pushed"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "explanation": "Việc kéo dài trước mốc dùng had been V-ing; việc xảy ra sau mốc dùng quá khứ đơn.",
     "choiceExplanations": [
-      "Đúng — đạp xe hai giờ trước khi xẹp lốp (had been cycling); đẩy xe là việc xảy ra sau (pushed).",
       "Sai — 'cycled / had been pushing': đảo ngược; việc đẩy xe xảy ra SAU khi xẹp lốp nên không dùng had been pushing.",
       "Sai — vế đầu đúng, nhưng 'had been pushing' sai vì đẩy xe xảy ra sau mốc 'went flat', không phải trước.",
-      "Sai — 'have been cycling': 'have been' nói về hiện tại, còn 'went flat' ở quá khứ."
+      "Sai — 'have been cycling': 'have been' nói về hiện tại, còn 'went flat' ở quá khứ.",
+      "Đúng — đạp xe hai giờ trước khi xẹp lốp (had been cycling); đẩy xe là việc xảy ra sau (pushed)."
     ]
   },
   {
@@ -1297,22 +1297,22 @@
       "ppc-u4-for-since-how-long"
     ],
     "difficulty": 3,
-    "bac": 3,
+    "bac": 4,
     "title": "Tìm câu sai",
     "prompt": "Which sentence about Lan's job is INCORRECT?",
     "choices": [
-      "Lan had been working there for five years when she quit.",
-      "Lan had been working there since five years when she quit.",
-      "Lan had been working there since 2019 when she quit.",
-      "How long had Lan been working there when she quit?"
+      "Lan hadn't been working there long when she quit.",
+      "Lan had been working there long when she quit.",
+      "Had Lan been working there long when she quit?",
+      "Lan had been working there for a long time when she quit."
     ],
     "correctIndex": 1,
-    "explanation": "For + khoảng thời gian; since + mốc thời gian.",
+    "explanation": "Chỉ dùng 'long' đứng một mình trong phủ định và câu hỏi; câu khẳng định dùng for a long time.",
     "choiceExplanations": [
-      "Sai — đây là câu đúng ('for' + khoảng thời gian), nên không phải đáp án.",
-      "Đúng — 'five years' là khoảng thời gian nên phải dùng 'for', không dùng 'since'.",
-      "Sai — đây là câu đúng ('since' + mốc thời gian 2019), nên không phải đáp án.",
-      "Sai — đây là câu hỏi đúng cấu trúc, nên không phải đáp án."
+      "Sai — đây là câu đúng ('long' dùng được trong câu phủ định), nên không phải đáp án.",
+      "Đúng — ở câu khẳng định không dùng 'long' một mình; phải nói for a long time.",
+      "Sai — đây là câu đúng ('long' dùng được trong câu hỏi), nên không phải đáp án.",
+      "Sai — đây là câu đúng (for a long time), nên không phải đáp án."
     ]
   },
   {
@@ -1327,7 +1327,7 @@
     "difficulty": 3,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "By sunset, the hikers ______ (walk) for nine hours and ______ (cover) almost thirty kilometers.",
+    "prompt": "By sunset, the hikers ______ (walk) for nine hours and ______ (cover) exactly thirty kilometers.",
     "choices": [
       "had walked / had been covering",
       "had covered / had been walking",
@@ -1337,10 +1337,10 @@
     "correctIndex": 2,
     "explanation": "Thời lượng đi với quá trình (had been V-ing); quãng đường đã hoàn thành đi với kết quả (had V3).",
     "choiceExplanations": [
-      "Sai — 'had walked for nine hours' vẫn nói được, nhưng vế sau 'had been covering' sai trọng tâm: nêu quãng đường đã đi được (thirty kilometers) thì dùng had covered.",
+      "Sai — 'had walked for nine hours' vẫn nói được, nhưng vế sau 'had been covering' sai trọng tâm: 'exactly thirty kilometers' là kết quả đã đạt nên dùng had covered.",
       "Sai — đảo ngược: 'nine hours' là thời lượng (quá trình) và 'thirty kilometers' là kết quả đã đạt.",
       "Đúng — 'for nine hours' nhấn mạnh quá trình (had been walking); quãng đường đạt được là kết quả (had covered).",
-      "Sai — vế đầu đúng, nhưng 'had been covering almost thirty kilometers' ít tự nhiên vì có con số kết quả; dùng had covered."
+      "Sai — vế đầu đúng, nhưng 'had been covering' nhấn mạnh quá trình, trong khi 'exactly thirty kilometers' là kết quả đã đạt; dùng had covered."
     ]
   },
   {
@@ -1355,7 +1355,7 @@
     "difficulty": 3,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Kai's shoes were muddy because he ______ (walk) through the fields all afternoon, but his hands were clean because he ______ (wash) them just before dinner.",
+    "prompt": "Kai's shoes were muddy because he ______ (walk) through the fields all afternoon. His hands were clean because he ______ (wash) them just before dinner.",
     "choices": [
       "had walked / had been washing",
       "had been walking / had been washing",
@@ -1380,23 +1380,23 @@
     "tags": [
       "ppc-u1-duration-before-past-moment"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Nobody noticed that the old clock ______ (tick) wrongly for years until the repairman checked it.",
+    "prompt": "Nobody noticed that the old clock ______ (run) five minutes slow for years until the repairman checked it.",
     "choices": [
-      "has been ticking",
-      "had ticking",
-      "would tick",
-      "had been ticking"
+      "has been running",
+      "had running",
+      "ran",
+      "had been running"
     ],
     "correctIndex": 3,
     "explanation": "Hành động kéo dài đến mốc 'until the repairman checked': had been + V-ing.",
     "choiceExplanations": [
-      "Sai — 'has been ticking': 'has been' nói về hiện tại, còn 'noticed' và 'checked' ở quá khứ.",
-      "Sai — 'had ticking': thiếu 'been'.",
-      "Sai — 'would tick': nói về thói quen hay dự đoán, không diễn tả quãng thời gian kéo dài đến một mốc quá khứ.",
-      "Đúng — đồng hồ chạy sai suốt nhiều năm cho đến lúc thợ kiểm tra: had been ticking."
+      "Sai — 'has been running': 'has been' nói về hiện tại, còn 'noticed' và 'checked' ở quá khứ.",
+      "Sai — 'had running': thiếu 'been'.",
+      "Sai — 'ran': quá khứ đơn không nối 'for years' tới lúc thợ kiểm tra; cần had been running.",
+      "Đúng — đồng hồ chạy chậm suốt nhiều năm cho đến lúc thợ kiểm tra: had been running."
     ]
   }
 ]

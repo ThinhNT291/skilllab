@@ -856,7 +856,7 @@
       "ran out of",
       "ran into",
       "ran away",
-      "ran after"
+      "ran through"
     ],
     "correctIndex": 2,
     "explanation": "run away = bỏ chạy, không có tân ngữ nên không cần thêm từ nào sau tiểu từ.",
@@ -864,7 +864,7 @@
       "Sai — 'ran out of': cụm này nghĩa là hết, cạn và phải có tân ngữ (ran out of money).",
       "Sai — 'ran into': nghĩa là tình cờ gặp hoặc đâm vào, phải có tân ngữ theo sau.",
       "Đúng — 'ran away' nghĩa là bỏ chạy và không cần tân ngữ.",
-      "Sai — 'ran after': nghĩa là đuổi theo, cần tân ngữ và nghĩa ngược với tên trộm bỏ chạy."
+      "Sai — 'ran through': nghĩa là chạy qua hoặc xem lướt, phải có tân ngữ theo sau (ran through the park)."
     ]
   },
   {
@@ -890,9 +890,9 @@
     "explanation": "get up = thức dậy, không có tân ngữ.",
     "choiceExplanations": [
       "Đúng — 'get up' nghĩa là ra khỏi giường, không cần tân ngữ.",
-      "Sai — 'get over': nghĩa là vượt qua (bệnh, nỗi sợ), cần tân ngữ.",
-      "Sai — 'get into': nghĩa là vào trong hoặc bắt đầu thích, cần tân ngữ.",
-      "Sai — 'get after': không phải cụm quen thuộc với nghĩa này."
+      "Sai — 'get over': nghĩa là vượt qua (bệnh, nỗi sợ), không hợp nghĩa 'thức dậy'.",
+      "Sai — 'get into': nghĩa là vào trong hoặc bắt đầu thích, không hợp nghĩa 'thức dậy'.",
+      "Sai — 'get after': cụm này có nghĩa khác (thúc giục, quở trách ai) và cần tân ngữ, không hợp với 'until six thirty'."
     ]
   },
   {
@@ -947,7 +947,7 @@
     "choiceExplanations": [
       "Sai — 'write down it': đại từ 'it' không được đứng sau tiểu từ của cụm tách được.",
       "Đúng — đại từ 'it' đứng giữa 'write' và 'down'.",
-      "Sai — 'write it up': dù đúng vị trí đại từ, nghĩa là viết thành bài báo cáo, không hợp để ghi số điện thoại.",
+      "Sai — 'write it up': dù đúng vị trí đại từ, nghĩa là viết thành bài báo cáo (write up a report), không hợp để ghi số điện thoại.",
       "Sai — 'write up it': sai vị trí đại từ và sai nghĩa."
     ]
   },
@@ -961,7 +961,7 @@
       "pvr-u2-inseparable"
     ],
     "difficulty": 1,
-    "bac": 3,
+    "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "While cleaning my room, I ______ an old photo of my grandparents.",
     "choices": [
@@ -1019,7 +1019,7 @@
     "difficulty": 2,
     "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The children ______ by their aunt after their parents moved abroad.",
+    "prompt": "The children ______ by their aunt, who treated them like her own kids, after their parents moved abroad.",
     "choices": [
       "brought up",
       "were brought up",
@@ -1029,9 +1029,9 @@
     "correctIndex": 1,
     "explanation": "bring up = nuôi dạy; bị động: were brought up, giữ nguyên tiểu từ up.",
     "choiceExplanations": [
-      "Sai — 'brought up': thiếu động từ to be nên không thành bị động; chủ ngữ the children là người được nuôi.",
+      "Sai — 'brought up': đứng một mình sau chủ ngữ thì câu thiếu động từ chính (có thể hiểu là mệnh đề rút gọn nhưng khi đó cả câu không có vị ngữ); cần 'were' để thành bị động.",
       "Đúng — 'were brought up' là bị động của bring up, giữ tiểu từ up.",
-      "Sai — 'were brought': mất tiểu từ up nên mất nghĩa nuôi dạy.",
+      "Sai — 'were brought': câu vẫn đúng ngữ pháp nhưng nghĩa là 'được đưa/mang đến', không phải 'được nuôi dạy'; bỏ 'up' thì mất nghĩa mà ngữ cảnh cần.",
       "Sai — 'were bringing up': dạng chủ động tiếp diễn, không hợp với by their aunt."
     ]
   },
@@ -1052,7 +1052,7 @@
       "Please take off your muddy shoes.",
       "The store took ten dollars off the price.",
       "The plane took off right after sunrise.",
-      "Take your jacket off if you're hot."
+      "My sister takes after our mother."
     ],
     "correctIndex": 2,
     "explanation": "take off có nhiều nghĩa: cởi, trừ đi, cất cánh. Nghĩa cất cánh không có tân ngữ.",
@@ -1060,7 +1060,7 @@
       "Sai — 'take off your muddy shoes': take off ở đây nghĩa là cởi giày.",
       "Sai — 'took ten dollars off the price': nghĩa là giảm bớt tiền.",
       "Đúng — 'The plane took off' nghĩa là máy bay cất cánh, không có tân ngữ.",
-      "Sai — 'Take your jacket off': nghĩa là cởi áo khoác."
+      "Sai — 'takes after': cụm khác, nghĩa là giống (người thân), không phải cất cánh."
     ]
   },
   {
@@ -1080,7 +1080,7 @@
       "Our old bus broke down on the highway.",
       "The teacher broke the long problem down into three steps.",
       "The little boy broke down in tears.",
-      "The thief broke into the house."
+      "The crowd broke up after the show."
     ],
     "correctIndex": 1,
     "explanation": "break down có nhiều nghĩa: hỏng máy, bật khóc, chia nhỏ. Nghĩa chia nhỏ có tân ngữ và tách được.",
@@ -1088,7 +1088,7 @@
       "Sai — 'broke down on the highway': nghĩa là xe bị hỏng.",
       "Đúng — 'broke the long problem down into three steps' nghĩa là chia vấn đề thành các bước nhỏ.",
       "Sai — 'broke down in tears': nghĩa là bật khóc.",
-      "Sai — 'broke into': là cụm khác, nghĩa là đột nhập, không phải break down."
+      "Sai — 'broke up': là cụm khác, nghĩa là giải tán hoặc chia tay, không phải chia nhỏ."
     ]
   },
   {
@@ -1101,8 +1101,8 @@
       "pvr-u6-long-object"
     ],
     "difficulty": 3,
-    "bac": 5,
-    "title": "Chọn câu đúng",
+    "bac": 4,
+    "title": "Chọn câu tự nhiên nhất",
     "prompt": "Which sentence sounds the most natural when the object is long?",
     "choices": [
       "She threw the big pile of old newspapers from the garage away.",
@@ -1113,7 +1113,7 @@
     "correctIndex": 3,
     "explanation": "Tân ngữ dài nên đặt sau tiểu từ: threw away the big pile of ...",
     "choiceExplanations": [
-      "Sai — 'threw the big pile ... away': về ngữ pháp vẫn chấp nhận được, nhưng tân ngữ quá dài làm tiểu từ bị đẩy xa động từ, nghe vụng hơn câu đúng.",
+      "Chưa phải đáp án tốt nhất — 'threw the big pile ... away': về ngữ pháp vẫn đúng, nhưng tân ngữ quá dài làm tiểu từ 'away' bị đẩy xa động từ nên nghe vụng; đặt tân ngữ dài sau tiểu từ tự nhiên hơn.",
       "Sai — 'threw away them': đại từ phải đứng giữa (threw them away), không phải sau tiểu từ.",
       "Sai — 'threw away of': thừa giới từ of.",
       "Đúng — tân ngữ dài đứng sau tiểu từ, câu dễ đọc và tự nhiên."
@@ -1129,9 +1129,9 @@
       "pvr-u6-long-object"
     ],
     "difficulty": 3,
-    "bac": 5,
-    "title": "Điền từ vào chỗ trống",
-    "prompt": "Before the trip, Ana ______.",
+    "bac": 4,
+    "title": "Chọn câu tự nhiên nhất",
+    "prompt": "Choose the most natural way to finish the sentence. Before the trip, Ana ______.",
     "choices": [
       "packed up everything she wanted to take to her grandmother's house",
       "packed everything she wanted to take to her grandmother's house up",
@@ -1142,8 +1142,8 @@
     "explanation": "Tân ngữ có mệnh đề dài thì đặt sau tiểu từ: packed up everything she wanted ...",
     "choiceExplanations": [
       "Đúng — tiểu từ up đứng ngay sau động từ, tân ngữ dài theo sau.",
-      "Sai — tách tân ngữ dài ra giữa: về ngữ pháp có thể chấp nhận, nhưng nghe nặng nề; câu A tự nhiên hơn.",
-      "Sai — 'packed up it': đại từ phải đứng giữa, và câu cũng không có điều gì để 'it' thay thế.",
+      "Chưa phải đáp án tốt nhất — tách tân ngữ dài ra giữa 'packed' và 'up': về ngữ pháp vẫn chấp nhận được, nhưng tiểu từ bị đẩy quá xa động từ nên câu nặng nề; đặt tân ngữ dài sau 'up' tự nhiên hơn.",
+      "Sai — 'packed up it': đại từ 'it' không đứng sau tiểu từ (phải là packed it up), và trong câu này không có danh từ nào để 'it' thay thế.",
       "Sai — 'packed them up everything': đại từ them thừa và hai tân ngữ chồng nhau."
     ]
   },
@@ -1156,7 +1156,7 @@
     "tags": [
       "pvr-u7-intransitive"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 4,
     "title": "Tìm câu sai",
     "prompt": "Which sentence is NOT correct?",
@@ -1167,11 +1167,11 @@
       "The guests showed up late."
     ],
     "correctIndex": 2,
-    "explanation": "Cụm không có tân ngữ như grow up không dùng ở bị động.",
+    "explanation": "Cụm không có tân ngữ như grow up không dùng ở bị động (Texas chỉ là địa điểm sau giới từ in).",
     "choiceExplanations": [
       "Sai — 'The sun came up at six.': câu này đúng nên không phải đáp án cần chọn.",
       "Sai — 'My cousin grew up in Texas.': câu này đúng nên không phải đáp án cần chọn.",
-      "Đúng — grow up không có tân ngữ nên không chuyển được sang bị động.",
+      "Đúng — grow up không có tân ngữ nên không chuyển sang bị động; 'Texas' ở đây chỉ là địa điểm sau giới từ in.",
       "Sai — 'The guests showed up late.': câu này đúng nên không phải đáp án cần chọn."
     ]
   },
@@ -1189,7 +1189,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Everyone, please ______ so that we can start the lesson.",
     "choices": [
-      "sit down it",
+      "sit on",
       "down sit",
       "sit down",
       "sit it down"
@@ -1197,10 +1197,10 @@
     "correctIndex": 2,
     "explanation": "sit down = ngồi xuống, không tân ngữ.",
     "choiceExplanations": [
-      "Sai — 'sit down it': sit down không có tân ngữ, thêm 'it' là sai.",
+      "Sai — 'sit on': cần tân ngữ (sit on a chair), không có tân ngữ nào ở đây.",
       "Sai — 'down sit': tiểu từ không đứng trước động từ.",
       "Đúng — 'sit down' không cần tân ngữ.",
-      "Sai — 'sit it down': ở đây không có vật nào để đặt xuống, và 'everyone' tự ngồi."
+      "Sai — 'sit it down': với nghĩa 'ngồi xuống' thì không có tân ngữ; 'sit it down' (đặt vật gì xuống) không hợp vì 'everyone' tự ngồi."
     ]
   },
   {
@@ -1213,7 +1213,7 @@
       "pvr-u4-three-word"
     ],
     "difficulty": 3,
-    "bac": 5,
+    "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "I missed three days of school, so now I have to ______ my classmates.",
     "choices": [
@@ -1275,7 +1275,7 @@
     "choices": [
       "She tried on the jacket. / She tried the jacket on.",
       "She looked after the baby. / She looked the baby after.",
-      "He ran into Sam. / He ran Sam into.",
+      "She got over the flu. / She got the flu over.",
       "They depend on us. / They depend us on."
     ],
     "correctIndex": 0,
@@ -1283,7 +1283,7 @@
     "choiceExplanations": [
       "Đúng — try on tách được, danh từ đứng được ở cả hai vị trí.",
       "Sai — 'looked the baby after': look after không tách được.",
-      "Sai — 'ran Sam into': run into không tách được.",
+      "Sai — 'got the flu over': get over không tách được.",
       "Sai — 'depend us on': depend on không tách được."
     ]
   },
@@ -1310,8 +1310,8 @@
     "explanation": "count on = tin cậy, nhờ cậy vào; tân ngữ đứng sau on.",
     "choiceExplanations": [
       "Đúng — 'count on me' nghĩa là có thể tin cậy tôi.",
-      "Sai — 'count up': nghĩa là cộng lại, tính tổng, không hợp nghĩa.",
-      "Sai — 'count out': nghĩa là loại ra, đếm ra, không hợp nghĩa.",
+      "Sai — 'count up': nghĩa là cộng lại, tính tổng, không hợp nghĩa; 'count up me' cũng sai vị trí.",
+      "Sai — 'count out': nghĩa là loại ra, không hợp nghĩa (và đại từ phải đứng giữa: count me out).",
       "Sai — 'count off': nghĩa là đếm số thứ tự, không hợp nghĩa."
     ]
   },
@@ -1324,23 +1324,23 @@
     "tags": [
       "pvr-u2-inseparable"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 4,
     "title": "Chọn câu đúng",
-    "prompt": "Which sentence is the only correct one?",
+    "prompt": "Which is the only correct sentence?",
     "choices": [
       "She looked it after.",
-      "He turned off it.",
+      "She cleaned up it.",
       "Can you look after them?",
-      "I'll pick up it."
+      "He took off them."
     ],
     "correctIndex": 2,
     "explanation": "Cụm không tách được: đại từ đứng sau tiểu từ (look after them). Cụm tách được thì đại từ đứng giữa.",
     "choiceExplanations": [
       "Sai — 'looked it after': look after không tách được nên it phải đứng sau after.",
-      "Sai — 'turned off it': turn off tách được nên đại từ phải ở giữa (turned it off).",
+      "Sai — 'cleaned up it': clean up tách được nên đại từ phải ở giữa (cleaned it up).",
       "Đúng — look after không tách được, đại từ them đứng sau after.",
-      "Sai — 'pick up it': pick up tách được nên đại từ phải ở giữa (pick it up)."
+      "Sai — 'took off them': take off tách được nên đại từ phải ở giữa (took them off)."
     ]
   },
   {
@@ -1353,22 +1353,22 @@
       "pvr-u5-passive"
     ],
     "difficulty": 2,
-    "bac": 5,
+    "bac": 4,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "All essays ______ by noon on Friday.",
+    "prompt": "All forms ______ by noon on Friday.",
     "choices": [
-      "must hand in",
-      "must be handed",
-      "must be handing in",
-      "must be handed in"
+      "must fill out",
+      "must be filled",
+      "must be filling out",
+      "must be filled out"
     ],
     "correctIndex": 3,
-    "explanation": "Bị động với modal: must be + V3 + tiểu từ.",
+    "explanation": "Bị động với modal: modal + be + V3 + tiểu từ. Tiếng Anh-Mỹ cũng hay dùng must be turned in/filled out.",
     "choiceExplanations": [
-      "Sai — 'must hand in': dạng chủ động, không hợp với 'essays' là vật được nộp.",
-      "Sai — 'must be handed': mất tiểu từ in nên mất nghĩa nộp.",
-      "Sai — 'must be handing in': trộn bị động với tiếp diễn, sai cấu trúc.",
-      "Đúng — 'must be handed in' là bị động với modal, giữ tiểu từ in."
+      "Sai — 'must fill out': dạng chủ động, không hợp với 'forms' là vật được điền.",
+      "Sai — 'must be filled': mất tiểu từ out nên mất nghĩa điền (biểu mẫu).",
+      "Sai — 'must be filling out': là dạng chủ động tiếp diễn (ai đó đang điền); 'forms' là vật được điền nên cần bị động.",
+      "Đúng — 'must be filled out' là bị động với modal, giữ tiểu từ out."
     ]
   },
   {
@@ -1381,7 +1381,7 @@
       "pvr-u8-multiple-meanings"
     ],
     "difficulty": 3,
-    "bac": 5,
+    "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "We were afraid the picnic would be a disaster, but it ______ great.",
     "choices": [

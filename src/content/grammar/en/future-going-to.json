@@ -60,7 +60,7 @@
       {
         "id": "fgt-u4-going-go-come",
         "label": "\"Going to\" với động từ chuyển động go/come - thường rút gọn tự nhiên hơn bằng hiện tại tiếp diễn",
-        "explanationVi": "Về mặt ngữ pháp, \"be going to\" hoàn toàn có thể kết hợp với chính động từ \"go\" hoặc \"come\", tạo thành cấu trúc như \"I am going to go\" hay \"She is going to come\". Tuy nhiên, vì có hai từ \"going\" xuất hiện liên tiếp gần nhau (going to go) nghe khá cồng kềnh và lặp lại không cần thiết, nên trong tiếng Anh tự nhiên - đặc biệt là văn nói - người bản ngữ thường LƯỢC BỎ phần \"going to\" khi động từ chính là \"go\" hoặc \"come\", và dùng trực tiếp thì hiện tại tiếp diễn (be + V-ing) để diễn tả cùng một ý nghĩa về kế hoạch tương lai. Vì vậy, \"I'm going to the party tonight\" nghe tự nhiên và phổ biến hơn nhiều so với \"I'm going to go to the party tonight\", dù cả hai đều đúng ngữ pháp. Cách rút gọn này áp dụng riêng cho hai động từ chuyển động go/come, không áp dụng cho các động từ khác.",
+        "explanationVi": "Về mặt ngữ pháp, \"be going to\" hoàn toàn có thể kết hợp với chính động từ \"go\" hoặc \"come\", tạo thành cấu trúc như \"I am going to go\" hay \"She is going to come\". Tuy nhiên, vì có hai từ \"going\" xuất hiện liên tiếp gần nhau (going to go) nghe khá cồng kềnh và lặp lại không cần thiết, nên trong tiếng Anh tự nhiên - đặc biệt là văn nói - người bản ngữ thường ưa dùng thì hiện tại tiếp diễn (be + V-ing) để diễn tả cùng một ý nghĩa về kế hoạch tương lai. Vì vậy, \"I'm going to the party tonight\" nghe tự nhiên và phổ biến hơn nhiều so với \"I'm going to go to the party tonight\", dù cả hai đều đúng ngữ pháp. Lưu ý: hiện tại tiếp diễn cũng dùng cho kế hoạch đã sắp xếp với nhiều động từ khác (xem mục 5), nhưng \"going to go/come\" là trường hợp dễ gây lặp từ nhất; \"I'm going to go\" vẫn là câu đúng và bình thường.",
         "examples": [
           {
             "en": "I'm going to the gym right after work; I already packed my sneakers this morning.",
@@ -155,6 +155,16 @@
           {
             "wrong": "We are going to go to the beach this weekend.",
             "correct": "We are going to the beach this weekend."
+          }
+        ]
+      },
+      {
+        "id": "future-going-to-m5",
+        "description": "Chia sai am/is/are với chủ ngữ ghép (A and B): chủ ngữ ghép là số nhiều nên dùng \"are\", kể cả khi từ đứng ngay trước động từ là \"I\".",
+        "examples": [
+          {
+            "wrong": "My brother and I is going to build a treehouse.",
+            "correct": "My brother and I are going to build a treehouse."
           }
         ]
       }

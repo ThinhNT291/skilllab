@@ -1,0 +1,610 @@
+[
+  {
+    "id": "ls-b2-101",
+    "bac": 2,
+    "title": "Mất ba lô",
+    "transcript": "A: Excuse me, I lost my backpack this morning.\nB: Okay. What color is it?\nA: It is dark green, and it has a small white star on the front.\nB: What is inside?\nA: My science book, a water bottle and a yellow notebook.\nB: Where did you last see it?\nA: I think I left it in the music room after lunch.\nB: Wait here. I will ask the music teacher. What is your name?\nA: It is Kevin Miller. I am in class seven B.",
+    "questions": [
+      {
+        "prompt": "What is on the front of the backpack?",
+        "choices": [
+          "A yellow notebook",
+          "A small white star",
+          "A green bottle",
+          "A big red heart"
+        ],
+        "correctIndex": 1,
+        "explanation": "Kevin nói 'it has a small white star on the front' (một ngôi sao trắng nhỏ ở mặt trước).",
+        "choiceExplanations": [
+          "Sai — 'A yellow notebook': bài không nói như vậy; đúng là 'A small white star'.",
+          "Đúng — Kevin nói 'it has a small white star on the front' (một ngôi sao trắng nhỏ ở mặt trước).",
+          "Sai — 'A green bottle': bài không nói như vậy; đúng là 'A small white star'.",
+          "Sai — 'A big red heart': bài không nói như vậy; đúng là 'A small white star'."
+        ]
+      },
+      {
+        "prompt": "What is inside the backpack?",
+        "choices": [
+          "A lunch box",
+          "A jacket",
+          "A music book",
+          "A science book"
+        ],
+        "correctIndex": 3,
+        "explanation": "Kevin nói trong ba lô có 'My science book, a water bottle and a yellow notebook'.",
+        "choiceExplanations": [
+          "Sai — 'A lunch box': bài không nói như vậy; đúng là 'A science book'.",
+          "Sai — 'A jacket': bài không nói như vậy; đúng là 'A science book'.",
+          "Sai — 'A music book': bài không nói như vậy; đúng là 'A science book'.",
+          "Đúng — Kevin nói trong ba lô có 'My science book, a water bottle and a yellow notebook'."
+        ]
+      },
+      {
+        "prompt": "Where did Kevin probably leave it?",
+        "choices": [
+          "In the library",
+          "In the music room",
+          "In the gym",
+          "On the bus"
+        ],
+        "correctIndex": 1,
+        "explanation": "Kevin nói 'I left it in the music room after lunch' (để quên trong phòng nhạc).",
+        "choiceExplanations": [
+          "Sai — 'In the library': bài không nói như vậy; đúng là 'In the music room'.",
+          "Đúng — Kevin nói 'I left it in the music room after lunch' (để quên trong phòng nhạc).",
+          "Sai — 'In the gym': bài không nói như vậy; đúng là 'In the music room'.",
+          "Sai — 'On the bus': bài không nói như vậy; đúng là 'In the music room'."
+        ]
+      },
+      {
+        "prompt": "Which class is Kevin in?",
+        "choices": [
+          "Seven B",
+          "Six B",
+          "Seven A",
+          "Eight B"
+        ],
+        "correctIndex": 0,
+        "explanation": "Kevin nói 'I am in class seven B'.",
+        "choiceExplanations": [
+          "Đúng — Kevin nói 'I am in class seven B'.",
+          "Sai — 'Six B': bài không nói như vậy; đúng là 'Seven B'.",
+          "Sai — 'Seven A': bài không nói như vậy; đúng là 'Seven B'.",
+          "Sai — 'Eight B': bài không nói như vậy; đúng là 'Seven B'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-102",
+    "bac": 2,
+    "title": "Tiệc sinh nhật",
+    "transcript": "A: Lisa, my birthday party is next Saturday at two o'clock.\nB: Great! Where is it?\nA: At my house. My mom is making a chocolate cake.\nB: Can I bring something?\nA: Yes. Could you bring some juice? My cousin is bringing the music.\nB: Sure. I will bring orange juice. Do we need to wear anything special?\nA: Yes, it is a hat party. Everyone wears a funny hat.\nB: That sounds like fun. I will make one tonight.",
+    "questions": [
+      {
+        "prompt": "When is the party?",
+        "choices": [
+          "Sunday at two o'clock",
+          "Saturday at four o'clock",
+          "Saturday at two o'clock",
+          "Friday at two o'clock"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bạn A nói 'next Saturday at two o'clock' (thứ Bảy tuần sau lúc hai giờ).",
+        "choiceExplanations": [
+          "Sai — 'Sunday at two o'clock': bài không nói như vậy; đúng là 'Saturday at two o'clock'.",
+          "Sai — 'Saturday at four o'clock': bài không nói như vậy; đúng là 'Saturday at two o'clock'.",
+          "Đúng — Bạn A nói 'next Saturday at two o'clock' (thứ Bảy tuần sau lúc hai giờ).",
+          "Sai — 'Friday at two o'clock': bài không nói như vậy; đúng là 'Saturday at two o'clock'."
+        ]
+      },
+      {
+        "prompt": "Who is making the cake?",
+        "choices": [
+          "The speaker's mom",
+          "Lisa",
+          "The speaker's cousin",
+          "The speaker's sister"
+        ],
+        "correctIndex": 0,
+        "explanation": "A nói 'My mom is making a chocolate cake'; người anh/chị em họ lo âm nhạc.",
+        "choiceExplanations": [
+          "Đúng — A nói 'My mom is making a chocolate cake'; người anh/chị em họ lo âm nhạc.",
+          "Sai — 'Lisa': bài không nói như vậy; đúng là 'The speaker's mom'.",
+          "Sai — 'The speaker's cousin': bài không nói như vậy; đúng là 'The speaker's mom'.",
+          "Sai — 'The speaker's sister': bài không nói như vậy; đúng là 'The speaker's mom'."
+        ]
+      },
+      {
+        "prompt": "What will Lisa bring?",
+        "choices": [
+          "Chocolate cake",
+          "Orange juice",
+          "Some music",
+          "A funny hat for A"
+        ],
+        "correctIndex": 1,
+        "explanation": "A nhờ mang nước, Lisa nói 'I will bring orange juice'.",
+        "choiceExplanations": [
+          "Sai — 'Chocolate cake': bài không nói như vậy; đúng là 'Orange juice'.",
+          "Đúng — A nhờ mang nước, Lisa nói 'I will bring orange juice'.",
+          "Sai — 'Some music': bài không nói như vậy; đúng là 'Orange juice'.",
+          "Sai — 'A funny hat for A': bài không nói như vậy; đúng là 'Orange juice'."
+        ]
+      },
+      {
+        "prompt": "What will Lisa make tonight?",
+        "choices": [
+          "A cake",
+          "A card",
+          "A funny hat",
+          "Some music"
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu cuối Lisa nói 'I will make one tonight' - 'one' là chiếc mũ ngộ nghĩnh (funny hat).",
+        "choiceExplanations": [
+          "Sai — 'A cake': bài không nói như vậy; đúng là 'A funny hat'.",
+          "Sai — 'A card': bài không nói như vậy; đúng là 'A funny hat'.",
+          "Đúng — Câu cuối Lisa nói 'I will make one tonight' - 'one' là chiếc mũ ngộ nghĩnh (funny hat).",
+          "Sai — 'Some music': bài không nói như vậy; đúng là 'A funny hat'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-103",
+    "bac": 2,
+    "title": "Đi khám bác sĩ",
+    "transcript": "A: Hello, Ryan. Please sit down. What is the matter?\nB: I have a headache and a sore throat, doctor.\nA: How long have you felt sick?\nB: Since Sunday. It is Wednesday now.\nA: Do you have a fever?\nB: No, but I am very tired.\nA: Okay. Drink a lot of water and rest for two days. Do not go to school until Friday.\nB: Can I play football?\nA: Not this week. Come back if you feel worse.",
+    "questions": [
+      {
+        "prompt": "What is Ryan's problem?",
+        "choices": [
+          "A fever and a cough",
+          "A headache and a sore throat",
+          "A stomachache",
+          "A sore leg"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ryan nói 'I have a headache and a sore throat' (đau đầu và đau họng); em không bị sốt.",
+        "choiceExplanations": [
+          "Sai — 'A fever and a cough': bài không nói như vậy; đúng là 'A headache and a sore throat'.",
+          "Đúng — Ryan nói 'I have a headache and a sore throat' (đau đầu và đau họng); em không bị sốt.",
+          "Sai — 'A stomachache': bài không nói như vậy; đúng là 'A headache and a sore throat'.",
+          "Sai — 'A sore leg': bài không nói như vậy; đúng là 'A headache and a sore throat'."
+        ]
+      },
+      {
+        "prompt": "Since when has Ryan felt sick?",
+        "choices": [
+          "Since Monday",
+          "Since Wednesday",
+          "Since Friday",
+          "Since Sunday"
+        ],
+        "correctIndex": 3,
+        "explanation": "Ryan nói 'Since Sunday. It is Wednesday now'.",
+        "choiceExplanations": [
+          "Sai — 'Since Monday': bài không nói như vậy; đúng là 'Since Sunday'.",
+          "Sai — 'Since Wednesday': bài không nói như vậy; đúng là 'Since Sunday'.",
+          "Sai — 'Since Friday': bài không nói như vậy; đúng là 'Since Sunday'.",
+          "Đúng — Ryan nói 'Since Sunday. It is Wednesday now'."
+        ]
+      },
+      {
+        "prompt": "What can Ryan NOT do this week?",
+        "choices": [
+          "Play football",
+          "Drink water",
+          "Rest at home",
+          "See the doctor again"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bác sĩ trả lời 'Not this week' khi Ryan hỏi có chơi bóng đá được không.",
+        "choiceExplanations": [
+          "Đúng — Bác sĩ trả lời 'Not this week' khi Ryan hỏi có chơi bóng đá được không.",
+          "Sai — 'Drink water': bài không nói như vậy; đúng là 'Play football'.",
+          "Sai — 'Rest at home': bài không nói như vậy; đúng là 'Play football'.",
+          "Sai — 'See the doctor again': bài không nói như vậy; đúng là 'Play football'."
+        ]
+      },
+      {
+        "prompt": "What does the doctor tell Ryan to do?",
+        "choices": [
+          "Take a long walk",
+          "Go to school tomorrow",
+          "Drink water and rest",
+          "Play outside"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bác sĩ nói 'Drink a lot of water and rest for two days'.",
+        "choiceExplanations": [
+          "Sai — 'Take a long walk': bài không nói như vậy; đúng là 'Drink water and rest'.",
+          "Sai — 'Go to school tomorrow': bài không nói như vậy; đúng là 'Drink water and rest'.",
+          "Đúng — Bác sĩ nói 'Drink a lot of water and rest for two days'.",
+          "Sai — 'Play outside': bài không nói như vậy; đúng là 'Drink water and rest'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-104",
+    "bac": 2,
+    "title": "Gọi điện hỏi sở thú",
+    "transcript": "A: Hello, City Zoo. How can I help you?\nB: Hi. I am a teacher. I want to bring thirty students next Tuesday.\nA: Good. Group tickets are five dollars for each student.\nB: Is there lunch at the zoo?\nA: There is a small cafe, but many groups bring their own lunch. You can eat in the picnic area near the lake.\nB: What time does the zoo open?\nA: At nine in the morning, and it closes at four.\nB: Perfect. We will arrive at nine thirty.",
+    "questions": [
+      {
+        "prompt": "How many students will visit?",
+        "choices": [
+          "Thirteen",
+          "Twenty",
+          "Forty",
+          "Thirty"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cô giáo nói 'I want to bring thirty students'.",
+        "choiceExplanations": [
+          "Sai — 'Thirteen': bài không nói như vậy; đúng là 'Thirty'.",
+          "Sai — 'Twenty': bài không nói như vậy; đúng là 'Thirty'.",
+          "Sai — 'Forty': bài không nói như vậy; đúng là 'Thirty'.",
+          "Đúng — Cô giáo nói 'I want to bring thirty students'."
+        ]
+      },
+      {
+        "prompt": "How much is a group ticket for each student?",
+        "choices": [
+          "Five dollars",
+          "Four dollars",
+          "Fifteen dollars",
+          "Nine dollars"
+        ],
+        "correctIndex": 0,
+        "explanation": "Nhân viên nói 'five dollars for each student'.",
+        "choiceExplanations": [
+          "Đúng — Nhân viên nói 'five dollars for each student'.",
+          "Sai — 'Four dollars': bài không nói như vậy; đúng là 'Five dollars'.",
+          "Sai — 'Fifteen dollars': bài không nói như vậy; đúng là 'Five dollars'.",
+          "Sai — 'Nine dollars': bài không nói như vậy; đúng là 'Five dollars'."
+        ]
+      },
+      {
+        "prompt": "Where can the group eat their own lunch?",
+        "choices": [
+          "In the small cafe",
+          "Next to the monkeys",
+          "On the bus",
+          "In the picnic area near the lake"
+        ],
+        "correctIndex": 3,
+        "explanation": "Nhân viên nói 'You can eat in the picnic area near the lake'.",
+        "choiceExplanations": [
+          "Sai — 'In the small cafe': bài không nói như vậy; đúng là 'In the picnic area near the lake'.",
+          "Sai — 'Next to the monkeys': bài không nói như vậy; đúng là 'In the picnic area near the lake'.",
+          "Sai — 'On the bus': bài không nói như vậy; đúng là 'In the picnic area near the lake'.",
+          "Đúng — Nhân viên nói 'You can eat in the picnic area near the lake'."
+        ]
+      },
+      {
+        "prompt": "What time will the group arrive?",
+        "choices": [
+          "Nine o'clock",
+          "Nine thirty",
+          "Four o'clock",
+          "Ten thirty"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô giáo nói 'We will arrive at nine thirty'; chín giờ là giờ sở thú mở cửa.",
+        "choiceExplanations": [
+          "Sai — 'Nine o'clock': bài không nói như vậy; đúng là 'Nine thirty'.",
+          "Đúng — Cô giáo nói 'We will arrive at nine thirty'; chín giờ là giờ sở thú mở cửa.",
+          "Sai — 'Four o'clock': bài không nói như vậy; đúng là 'Nine thirty'.",
+          "Sai — 'Ten thirty': bài không nói như vậy; đúng là 'Nine thirty'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-101",
+    "bac": 3,
+    "title": "Dự án khoa học",
+    "transcript": "Mia: Our science project is due on Friday. Let us decide who does what.\nDan: I can make the poster. I am good at drawing, and I have big colored paper at home.\nChloe: Great. I will write the report, but I need someone to find photos online. The report must be two pages long.\nMia: I will do that. Dan, can you also do the presentation?\nDan: I would rather not. I get nervous when I talk in front of the class.\nChloe: Then I will present it, and Mia, you can help me practice.\nMia: Sure. Let us meet on Wednesday after school to check everything. Please bring your work, and we can finish together.",
+    "questions": [
+      {
+        "prompt": "When is the project due?",
+        "choices": [
+          "On Wednesday",
+          "On Monday",
+          "On Friday",
+          "On Saturday"
+        ],
+        "correctIndex": 2,
+        "explanation": "Mia nói 'due on Friday'; thứ Tư chỉ là buổi họp kiểm tra.",
+        "choiceExplanations": [
+          "Sai — 'On Wednesday': bài không nói như vậy; đúng là 'On Friday'.",
+          "Sai — 'On Monday': bài không nói như vậy; đúng là 'On Friday'.",
+          "Đúng — Mia nói 'due on Friday'; thứ Tư chỉ là buổi họp kiểm tra.",
+          "Sai — 'On Saturday': bài không nói như vậy; đúng là 'On Friday'."
+        ]
+      },
+      {
+        "prompt": "Who will find photos online?",
+        "choices": [
+          "Mia",
+          "Dan",
+          "Chloe",
+          "The teacher"
+        ],
+        "correctIndex": 0,
+        "explanation": "Mia nhận việc: 'I will do that' sau khi Chloe cần người tìm ảnh.",
+        "choiceExplanations": [
+          "Đúng — Mia nhận việc: 'I will do that' sau khi Chloe cần người tìm ảnh.",
+          "Sai — 'Dan': bài không nói như vậy; đúng là 'Mia'.",
+          "Sai — 'Chloe': bài không nói như vậy; đúng là 'Mia'.",
+          "Sai — 'The teacher': bài không nói như vậy; đúng là 'Mia'."
+        ]
+      },
+      {
+        "prompt": "Why does Dan not want to do the presentation?",
+        "choices": [
+          "He has no time",
+          "He feels nervous speaking in class",
+          "He is sick",
+          "He does not like science"
+        ],
+        "correctIndex": 1,
+        "explanation": "Dan nói 'I get nervous when I talk in front of the class' (căng thẳng khi nói trước lớp).",
+        "choiceExplanations": [
+          "Sai — 'He has no time': bài không nói như vậy; đúng là 'He feels nervous speaking in class'.",
+          "Đúng — Dan nói 'I get nervous when I talk in front of the class' (căng thẳng khi nói trước lớp).",
+          "Sai — 'He is sick': bài không nói như vậy; đúng là 'He feels nervous speaking in class'.",
+          "Sai — 'He does not like science': bài không nói như vậy; đúng là 'He feels nervous speaking in class'."
+        ]
+      },
+      {
+        "prompt": "Who will give the presentation?",
+        "choices": [
+          "Dan",
+          "Mia",
+          "Nobody",
+          "Chloe"
+        ],
+        "correctIndex": 3,
+        "explanation": "Chloe nói 'Then I will present it'.",
+        "choiceExplanations": [
+          "Sai — 'Dan': bài không nói như vậy; đúng là 'Chloe'.",
+          "Sai — 'Mia': bài không nói như vậy; đúng là 'Chloe'.",
+          "Sai — 'Nobody': bài không nói như vậy; đúng là 'Chloe'.",
+          "Đúng — Chloe nói 'Then I will present it'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-102",
+    "bac": 3,
+    "title": "Thông báo câu lạc bộ",
+    "transcript": "Hello, everyone. This is Mr. Harris with news about the school clubs. The art club is moving to Room twelve, because the old room is being painted. The chess club will still meet on Mondays, but it will start at four fifteen instead of four o'clock. The new cooking club needs ten members before it can begin, and so far only six students have joined. If you like baking, come to the library office and sign your name before next Thursday. Remember, every club is free, but you need a letter from your parents. Thank you for listening, and have a nice day.",
+    "questions": [
+      {
+        "prompt": "Why is the art club moving?",
+        "choices": [
+          "The old room is being painted",
+          "The old room is too small",
+          "The club has too many members",
+          "The old room is closed for music"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài nói 'because the old room is being painted' (phòng cũ đang được sơn).",
+        "choiceExplanations": [
+          "Đúng — Bài nói 'because the old room is being painted' (phòng cũ đang được sơn).",
+          "Sai — 'The old room is too small': bài không nói như vậy; đúng là 'The old room is being painted'.",
+          "Sai — 'The club has too many members': bài không nói như vậy; đúng là 'The old room is being painted'.",
+          "Sai — 'The old room is closed for music': bài không nói như vậy; đúng là 'The old room is being painted'."
+        ]
+      },
+      {
+        "prompt": "What time will the chess club start now?",
+        "choices": [
+          "Four o'clock",
+          "Four thirty",
+          "Four fifteen",
+          "Three fifteen"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài nói 'start at four fifteen instead of four o'clock'.",
+        "choiceExplanations": [
+          "Sai — 'Four o'clock': bài không nói như vậy; đúng là 'Four fifteen'.",
+          "Sai — 'Four thirty': bài không nói như vậy; đúng là 'Four fifteen'.",
+          "Đúng — Bài nói 'start at four fifteen instead of four o'clock'.",
+          "Sai — 'Three fifteen': bài không nói như vậy; đúng là 'Four fifteen'."
+        ]
+      },
+      {
+        "prompt": "How many more students does the cooking club need?",
+        "choices": [
+          "Six",
+          "Ten",
+          "Two",
+          "Four"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cần mười thành viên, hiện có sáu, nên cần thêm bốn (10 - 6 = 4).",
+        "choiceExplanations": [
+          "Sai — 'Six': bài không nói như vậy; đúng là 'Four'.",
+          "Sai — 'Ten': bài không nói như vậy; đúng là 'Four'.",
+          "Sai — 'Two': bài không nói như vậy; đúng là 'Four'.",
+          "Đúng — Cần mười thành viên, hiện có sáu, nên cần thêm bốn (10 - 6 = 4)."
+        ]
+      },
+      {
+        "prompt": "What do students need to join a club?",
+        "choices": [
+          "Some money",
+          "A letter from their parents",
+          "A good grade",
+          "A new uniform"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài nói mỗi câu lạc bộ miễn phí 'but you need a letter from your parents'.",
+        "choiceExplanations": [
+          "Sai — 'Some money': bài không nói như vậy; đúng là 'A letter from their parents'.",
+          "Đúng — Bài nói mỗi câu lạc bộ miễn phí 'but you need a letter from your parents'.",
+          "Sai — 'A good grade': bài không nói như vậy; đúng là 'A letter from their parents'.",
+          "Sai — 'A new uniform': bài không nói như vậy; đúng là 'A letter from their parents'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-103",
+    "bac": 3,
+    "title": "Mua vé xem phim",
+    "transcript": "A: Hi. Two tickets for the animal movie, please.\nB: Which show? We have one at four o'clock and one at six thirty.\nA: The four o'clock show, please. How much are the tickets?\nB: Tickets are eight dollars for adults and five dollars for students. Are you students?\nA: I am, but my uncle is an adult.\nB: So that is thirteen dollars. Would you like popcorn? Today a large popcorn and two drinks are seven dollars.\nA: That is a good price, but we had a big lunch. Just the tickets, please.\nB: Okay. The movie is in Theater Four.\nA: Thank you. We will be out before dinner.",
+    "questions": [
+      {
+        "prompt": "Which show do they choose?",
+        "choices": [
+          "The six thirty show",
+          "The seven o'clock show",
+          "The four o'clock show",
+          "The show in the morning"
+        ],
+        "correctIndex": 2,
+        "explanation": "A nói 'The four o'clock show, please'.",
+        "choiceExplanations": [
+          "Sai — 'The six thirty show': bài không nói như vậy; đúng là 'The four o'clock show'.",
+          "Sai — 'The seven o'clock show': bài không nói như vậy; đúng là 'The four o'clock show'.",
+          "Đúng — A nói 'The four o'clock show, please'.",
+          "Sai — 'The show in the morning': bài không nói như vậy; đúng là 'The four o'clock show'."
+        ]
+      },
+      {
+        "prompt": "How much do the two tickets cost?",
+        "choices": [
+          "Thirteen dollars",
+          "Eight dollars",
+          "Ten dollars",
+          "Seven dollars"
+        ],
+        "correctIndex": 0,
+        "explanation": "Một vé học sinh (5) cộng một vé người lớn (8) là 13 đô la; nhân viên nói 'thirteen dollars'.",
+        "choiceExplanations": [
+          "Đúng — Một vé học sinh (5) cộng một vé người lớn (8) là 13 đô la; nhân viên nói 'thirteen dollars'.",
+          "Sai — 'Eight dollars': bài không nói như vậy; đúng là 'Thirteen dollars'.",
+          "Sai — 'Ten dollars': bài không nói như vậy; đúng là 'Thirteen dollars'.",
+          "Sai — 'Seven dollars': bài không nói như vậy; đúng là 'Thirteen dollars'."
+        ]
+      },
+      {
+        "prompt": "Why do they not buy popcorn?",
+        "choices": [
+          "It is too expensive",
+          "They do not like popcorn",
+          "They are not hungry after lunch",
+          "The shop is closed"
+        ],
+        "correctIndex": 2,
+        "explanation": "A nói 'we had a big lunch' (vừa ăn trưa nhiều), nên không cần đồ ăn vặt dù giá tốt.",
+        "choiceExplanations": [
+          "Sai — 'It is too expensive': bài không nói như vậy; đúng là 'They are not hungry after lunch'.",
+          "Sai — 'They do not like popcorn': bài không nói như vậy; đúng là 'They are not hungry after lunch'.",
+          "Đúng — A nói 'we had a big lunch' (vừa ăn trưa nhiều), nên không cần đồ ăn vặt dù giá tốt.",
+          "Sai — 'The shop is closed': bài không nói như vậy; đúng là 'They are not hungry after lunch'."
+        ]
+      },
+      {
+        "prompt": "Where is the movie?",
+        "choices": [
+          "In Theater Two",
+          "In Theater Six",
+          "In Theater Eight",
+          "In Theater Four"
+        ],
+        "correctIndex": 3,
+        "explanation": "Nhân viên nói 'The movie is in Theater Four'.",
+        "choiceExplanations": [
+          "Sai — 'In Theater Two': bài không nói như vậy; đúng là 'In Theater Four'.",
+          "Sai — 'In Theater Six': bài không nói như vậy; đúng là 'In Theater Four'.",
+          "Sai — 'In Theater Eight': bài không nói như vậy; đúng là 'In Theater Four'.",
+          "Đúng — Nhân viên nói 'The movie is in Theater Four'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-104",
+    "bac": 3,
+    "title": "Chuyến dã ngoại",
+    "transcript": "Ms. Green: Class, listen carefully. Our trip to Pine Lake is on Saturday, not Friday, because the weather report says it will rain on Friday. The bus leaves from the school gate at eight o'clock, so please arrive by seven forty-five.\nBen: Ms. Green, should we bring lunch?\nMs. Green: Yes, bring a sandwich and a bottle of water. We will have fruit at the lake. Also wear comfortable shoes, because we will walk for about an hour.\nBen: Can we swim?\nMs. Green: No, the water is too cold at this time of year. But we can take photos and play games on the grass.\nBen: Great. I will bring my camera.",
+    "questions": [
+      {
+        "prompt": "Why did the trip change to Saturday?",
+        "choices": [
+          "The bus is broken",
+          "The lake is closed on Friday",
+          "Rain is expected on Friday",
+          "Many students are sick"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cô nói 'the weather report says it will rain on Friday'.",
+        "choiceExplanations": [
+          "Sai — 'The bus is broken': bài không nói như vậy; đúng là 'Rain is expected on Friday'.",
+          "Sai — 'The lake is closed on Friday': bài không nói như vậy; đúng là 'Rain is expected on Friday'.",
+          "Đúng — Cô nói 'the weather report says it will rain on Friday'.",
+          "Sai — 'Many students are sick': bài không nói như vậy; đúng là 'Rain is expected on Friday'."
+        ]
+      },
+      {
+        "prompt": "What time should the students arrive?",
+        "choices": [
+          "Seven forty-five",
+          "Eight o'clock",
+          "Seven o'clock",
+          "Eight forty-five"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cô nói 'please arrive by seven forty-five'; xe rời lúc tám giờ.",
+        "choiceExplanations": [
+          "Đúng — Cô nói 'please arrive by seven forty-five'; xe rời lúc tám giờ.",
+          "Sai — 'Eight o'clock': bài không nói như vậy; đúng là 'Seven forty-five'.",
+          "Sai — 'Seven o'clock': bài không nói như vậy; đúng là 'Seven forty-five'.",
+          "Sai — 'Eight forty-five': bài không nói như vậy; đúng là 'Seven forty-five'."
+        ]
+      },
+      {
+        "prompt": "Why can they not swim?",
+        "choices": [
+          "The lake is too deep",
+          "They have no swimsuits",
+          "It is raining",
+          "The water is too cold"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cô nói 'the water is too cold at this time of year'.",
+        "choiceExplanations": [
+          "Sai — 'The lake is too deep': bài không nói như vậy; đúng là 'The water is too cold'.",
+          "Sai — 'They have no swimsuits': bài không nói như vậy; đúng là 'The water is too cold'.",
+          "Sai — 'It is raining': bài không nói như vậy; đúng là 'The water is too cold'.",
+          "Đúng — Cô nói 'the water is too cold at this time of year'."
+        ]
+      },
+      {
+        "prompt": "What will Ms. Green provide at the lake?",
+        "choices": [
+          "Sandwiches",
+          "Fruit",
+          "Water bottles",
+          "Cameras"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô nói 'We will have fruit at the lake'; học sinh tự mang bánh mì kẹp và nước.",
+        "choiceExplanations": [
+          "Sai — 'Sandwiches': bài không nói như vậy; đúng là 'Fruit'.",
+          "Đúng — Cô nói 'We will have fruit at the lake'; học sinh tự mang bánh mì kẹp và nước.",
+          "Sai — 'Water bottles': bài không nói như vậy; đúng là 'Fruit'.",
+          "Sai — 'Cameras': bài không nói như vậy; đúng là 'Fruit'."
+        ]
+      }
+    ]
+  }
+]

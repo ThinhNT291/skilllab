@@ -864,7 +864,7 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Direct: \"My brother is playing the guitar,\" Lisa said. -> Reported: Lisa said (that) her brother ______ the guitar.",
+    "prompt": "Direct: \"My brother is playing the guitar,\" Lisa said. -> Reported (a week later): Lisa said (that) her brother ______ the guitar.",
     "choices": [
       "is playing",
       "played",
@@ -895,7 +895,7 @@
     "prompt": "Direct: \"I have lost my phone,\" Ben told me. -> Reported: Ben told me (that) he ______ his phone.",
     "choices": [
       "had lost",
-      "lost",
+      "would lose",
       "has lost",
       "was losing"
     ],
@@ -903,9 +903,9 @@
     "explanation": "Hiện tại hoàn thành lùi thành quá khứ hoàn thành: have lost -> had lost; 'I' đổi thành 'he', 'my' đổi thành 'his'.",
     "choiceExplanations": [
       "Đúng — 'had lost': hiện tại hoàn thành 'have lost' lùi thành quá khứ hoàn thành 'had lost'.",
-      "Sai — 'lost': quá khứ đơn là kết quả lùi thì của hiện tại đơn, không phải của hiện tại hoàn thành.",
+      "Sai — 'would lose': 'would' là dạng lùi của 'will', không phải của hiện tại hoàn thành 'have lost'.",
       "Sai — 'has lost': chưa lùi thì: 'has' vẫn là hiện tại sau 'told'.",
-      "Sai — 'was losing': quá khứ tiếp diễn đổi nghĩa thành 'đang làm mất', không phải 'đã mất'."
+      "Sai — 'was losing': quá khứ tiếp diễn nghĩa là đang trong quá trình mất, không phải đã mất."
     ],
     "bac": 3
   },
@@ -920,7 +920,7 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Direct: \"Does your dad work here?\" Sam asked me. -> Reported: Sam asked me if my dad ______ there.",
+    "prompt": "Direct: \"Does your dad work here?\" Sam asked me. -> Reported (a week later): Sam asked me if my dad ______ there.",
     "choices": [
       "work",
       "did work",
@@ -948,7 +948,7 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Direct: \"What do you want for dinner?\" Mom asked me. -> Reported: Mom asked me what I ______ for dinner.",
+    "prompt": "Direct: \"What do you want for dinner?\" Mom asked me. -> Reported (a week later): Mom asked me what I ______ for dinner.",
     "choices": [
       "want",
       "wanted",
@@ -980,16 +980,16 @@
     "choices": [
       "open",
       "to open",
-      "opened",
-      "that open"
+      "opening",
+      "open to"
     ],
     "correctIndex": 1,
     "explanation": "Mệnh lệnh khẳng định tường thuật: told + O + to V -> told us to open our books. 'your' đổi thành 'our'.",
     "choiceExplanations": [
       "Sai — 'open': thiếu 'to'; sau told + O phải là động từ nguyên thể có 'to'.",
       "Đúng — 'to open': mệnh lệnh khẳng định tường thuật bằng told + tân ngữ + to V.",
-      "Sai — 'opened': dạng quá khứ không dùng trong cấu trúc mệnh lệnh tường thuật.",
-      "Sai — 'that open': không dùng 'that' + động từ nguyên thể cho mệnh lệnh tường thuật."
+      "Sai — 'opening': dạng V-ing không dùng trong cấu trúc told + O + to V.",
+      "Sai — 'open to': 'to' đứng sau động từ là sai vị trí; phải là 'to open'."
     ],
     "bac": 3
   },
@@ -1004,19 +1004,19 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Direct: \"I like these shoes,\" Anna said. -> Reported: Anna said (that) she liked ______ shoes.",
+    "prompt": "Direct: \"I like these shoes,\" Anna said. -> Reported (a week later): Anna said (that) she liked ______ shoes.",
     "choices": [
       "these",
-      "here",
-      "them",
+      "this",
+      "that",
       "those"
     ],
     "correctIndex": 3,
     "explanation": "Từ chỉ định đổi khi tường thuật: this -> that, these -> those.",
     "choiceExplanations": [
       "Sai — 'these': chưa đổi từ chỉ định; trong bài này 'these' phải thành 'those'.",
-      "Sai — 'here': 'here' là trạng từ nơi chốn, không đứng trước danh từ 'shoes'.",
-      "Sai — 'them': 'them' là đại từ, không đứng trước danh từ 'shoes'.",
+      "Sai — 'this': số ít, không đi với danh từ số nhiều 'shoes'.",
+      "Sai — 'that': số ít, không đi với danh từ số nhiều 'shoes'; số nhiều phải là 'those'.",
       "Đúng — 'those': 'these' đổi thành 'those' khi tường thuật."
     ],
     "bac": 3
@@ -1032,11 +1032,11 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Direct: \"We are busy now,\" they said. -> Reported: They said (that) they were busy ______.",
+    "prompt": "Direct: \"We are busy now,\" they said. -> Reported (a week later): They said (that) they were busy ______.",
     "choices": [
       "then",
       "now",
-      "here",
+      "tomorrow",
       "today"
     ],
     "correctIndex": 0,
@@ -1044,7 +1044,7 @@
     "choiceExplanations": [
       "Đúng — 'then': 'now' đổi thành 'then' khi tường thuật.",
       "Sai — 'now': chưa đổi trạng từ thời gian; 'now' phải thành 'then'.",
-      "Sai — 'here': 'here' chỉ nơi chốn, không chỉ thời gian.",
+      "Sai — 'tomorrow': chỉ ngày sau, đổi nghĩa; 'now' đổi thành 'then'.",
       "Sai — 'today': 'today' đổi thành 'that day', không phải thay cho 'now'."
     ],
     "bac": 3
@@ -1065,7 +1065,7 @@
       "told",
       "tells",
       "said",
-      "asks"
+      "tell"
     ],
     "correctIndex": 2,
     "explanation": "Sau 'that' không có tân ngữ chỉ người nghe nên dùng 'said'; muốn dùng 'told' thì phải là 'told us that...'.",
@@ -1073,7 +1073,7 @@
       "Sai — 'told': 'told' phải có tân ngữ chỉ người nghe ngay sau (told us that...).",
       "Sai — 'tells': 'tells' là hiện tại và cũng thiếu tân ngữ; 'would' cho thấy cần quá khứ.",
       "Đúng — 'said': 'said' dùng được không cần tân ngữ chỉ người nghe.",
-      "Sai — 'asks': 'asks' dùng cho câu hỏi hoặc yêu cầu, không tường thuật câu kể."
+      "Sai — 'tell': không chia quá khứ và cũng thiếu tân ngữ chỉ người nghe."
     ],
     "bac": 3
   },
@@ -1091,15 +1091,15 @@
     "prompt": "Direct: \"Did you enjoy the concert?\" Jo asked me. -> Reported: Jo asked me whether I ______ the concert.",
     "choices": [
       "had enjoyed",
-      "enjoyed",
+      "would enjoy",
       "did enjoy",
       "enjoy"
     ],
     "correctIndex": 0,
-    "explanation": "Câu hỏi Yes/No ở quá khứ đơn: bỏ 'did', lùi thành quá khứ hoàn thành -> whether I had enjoyed the concert.",
+    "explanation": "Câu hỏi Yes/No ở quá khứ đơn: bỏ 'did', lùi thành quá khứ hoàn thành -> whether I had enjoyed the concert. Trong văn nói đôi khi người ta giữ 'enjoyed', nhưng bài này kiểm tra quy tắc lùi thì chuẩn.",
     "choiceExplanations": [
-      "Đúng — 'had enjoyed': quá khứ đơn 'did enjoy' lùi thành quá khứ hoàn thành 'had enjoyed'.",
-      "Sai — 'enjoyed': chưa lùi thì: quá khứ đơn phải lùi thành quá khứ hoàn thành.",
+      "Đúng — 'had enjoyed': quá khứ đơn 'did enjoy' lùi thành quá khứ hoàn thành 'had enjoyed' (văn nói đôi khi giữ 'enjoyed', nhưng bài này kiểm tra quy tắc lùi thì chuẩn).",
+      "Sai — 'would enjoy': 'would' là dạng lùi của 'will enjoy' (tương lai), còn buổi hòa nhạc đã diễn ra.",
       "Sai — 'did enjoy': tường thuật bỏ trợ động từ 'did'.",
       "Sai — 'enjoy': giữ hiện tại là chưa lùi thì và sai thời gian."
     ],
@@ -1115,8 +1115,8 @@
       "rs-u3-wh-questions"
     ],
     "difficulty": 2,
-    "title": "Điền từ vào chỗ trống",
-    "prompt": "Direct: \"Why are you crying?\" the nurse asked the boy. -> Reported: The nurse asked the boy why ______.",
+    "title": "Hoàn thành câu",
+    "prompt": "Direct: \"Why are you crying?\" the nurse asked the boy. -> Reported (a week later): The nurse asked the boy why ______.",
     "choices": [
       "was he crying",
       "is he crying",
@@ -1147,7 +1147,7 @@
     "prompt": "Direct: \"Please don't tell anyone my secret,\" Kim said to me. -> Reported: Kim asked me ______ anyone her secret.",
     "choices": [
       "don't tell",
-      "to not tell",
+      "not tell",
       "not to tell",
       "not telling"
     ],
@@ -1155,8 +1155,8 @@
     "explanation": "Mệnh lệnh/yêu cầu phủ định tường thuật: asked/told + O + not to V.",
     "choiceExplanations": [
       "Sai — 'don't tell': giữ nguyên dạng trực tiếp là sai cấu trúc tường thuật.",
-      "Sai — 'to not tell': 'to not' đôi khi nghe thấy trong văn nói, nhưng theo bài này 'not' đứng ngay trước 'to V': not to tell.",
-      "Đúng — 'not to tell': mệnh lệnh phủ định: asked + O + not to V.",
+      "Sai — 'not tell': thiếu 'to'; cấu trúc cần 'not to + V'.",
+      "Đúng — 'not to tell': mệnh lệnh phủ định: asked + O + not to V (dạng 'to not tell' cũng gặp trong Anh-Mỹ, nhưng bài dạy 'not to tell').",
       "Sai — 'not telling': dạng V-ing không dùng trong cấu trúc asked + O + (not) to V."
     ],
     "bac": 3
@@ -1204,15 +1204,15 @@
     "choices": [
       "my",
       "your",
-      "her",
+      "their",
       "his"
     ],
     "correctIndex": 3,
     "explanation": "Đại từ sở hữu đổi theo người nói gốc: 'my' của Leo -> 'his'. 'can' lùi thành 'could'.",
     "choiceExplanations": [
       "Sai — 'my': 'my' ở đây sẽ chỉ người tường thuật, không phải Leo.",
-      "Sai — 'your': 'your' sẽ là xe của người nghe, sai nghĩa gốc.",
-      "Sai — 'her': 'her' chỉ người nữ; Leo là nam.",
+      "Sai — 'your': chỉ xe của người đang được nói tới, không phải xe của Leo.",
+      "Sai — 'their': số nhiều, không chỉ Leo (một người).",
       "Đúng — 'his': 'my' là của Leo, người nói; người tường thuật gọi Leo là 'he' nên dùng 'his'."
     ],
     "bac": 3
@@ -1228,7 +1228,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Direct: \"How many brothers do you have?\" Tara asked me. -> Reported: Tara asked me how many brothers I ______.",
+    "prompt": "Direct: \"How many brothers do you have?\" Tara asked me. -> Reported (a week later): Tara asked me how many brothers I ______.",
     "choices": [
       "had",
       "have",
@@ -1250,56 +1250,56 @@
     "kind": "mcq",
     "language": "en",
     "topic": "reported-speech",
-    "usageId": "rs-u1-statements-backshift",
+    "usageId": "rs-u5-time-place-pronoun-changes",
     "tags": [
-      "rs-u1-statements-backshift"
+      "rs-u5-time-place-pronoun-changes"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Direct: \"I didn't know the answer,\" Ron said. -> Reported: Ron said (that) he ______ the answer.",
+    "prompt": "Direct: \"I'll send you the files tomorrow,\" Ana said to me. -> Reported: Ana told me ______.",
     "choices": [
-      "didn't know",
-      "doesn't know",
-      "hadn't known",
-      "wasn't knowing"
+      "that she will send you the files tomorrow",
+      "that she would send you the files the next day",
+      "that she would send me the files the next day",
+      "that I would send her the files the next day"
     ],
     "correctIndex": 2,
-    "explanation": "Quá khứ đơn lùi thành quá khứ hoàn thành, kể cả ở thể phủ định: didn't know -> hadn't known.",
+    "explanation": "Phải đổi đồng thời: will -> would, tomorrow -> the next day, và đại từ: 'I' (Ana) -> she, 'you' (người nghe, tức tôi) -> me.",
     "choiceExplanations": [
-      "Sai — 'didn't know': trong văn nói đôi khi vẫn dùng, nhưng theo quy tắc lùi thì đã học thì quá khứ đơn phải thành quá khứ hoàn thành.",
-      "Sai — 'doesn't know': đổi sang hiện tại, sai nghĩa gốc ở quá khứ.",
-      "Đúng — 'hadn't known': quá khứ đơn phủ định lùi thành quá khứ hoàn thành phủ định.",
-      "Sai — 'wasn't knowing': 'know' không dùng ở thì tiếp diễn và cũng không phải cách lùi thì."
+      "Sai — giữ nguyên câu trực tiếp: chưa lùi thì, chưa đổi 'tomorrow', chưa đổi 'you'.",
+      "Sai — đã lùi thì và đổi trạng từ, nhưng 'you' phải thành 'me' vì người nghe chính là người tường thuật.",
+      "Đúng — will -> would, tomorrow -> the next day, 'I' -> she, 'you' -> me.",
+      "Sai — đảo vai: 'I' trong lời Ana là Ana (she), không phải người tường thuật."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-reported-speech-046",
     "kind": "mcq",
     "language": "en",
     "topic": "reported-speech",
-    "usageId": "rs-u1-statements-backshift",
+    "usageId": "rs-u2-yes-no-questions",
     "tags": [
-      "rs-u1-statements-backshift"
+      "rs-u2-yes-no-questions"
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Direct: \"My parents are coming to see me next month,\" Hugo told us. -> Reported: Hugo told us (that) his parents ______ to see him the following month.",
+    "prompt": "Direct: \"Did you see my sister here yesterday?\" the girl asked the clerk. -> Reported: The girl asked the clerk ______.",
     "choices": [
-      "are coming",
-      "were coming",
-      "had come",
-      "came"
+      "if had he seen her sister there the day before",
+      "if he had seen her sister there the day before",
+      "that he had seen her sister there the day before",
+      "if he had seen my sister here the day before"
     ],
     "correctIndex": 1,
-    "explanation": "Tường thuật kế hoạch tương lai: lùi are coming -> were coming, đổi 'next month' thành 'the following month' và 'me' thành 'him'.",
+    "explanation": "Câu hỏi Yes/No tường thuật: if + trật tự khẳng định, did see -> had seen, you -> he, my -> her, here -> there, yesterday -> the day before.",
     "choiceExplanations": [
-      "Sai — 'are coming': chưa lùi thì.",
-      "Đúng — 'were coming': tiếp diễn lùi thành quá khứ tiếp diễn; 'next month' đổi thành 'the following month'.",
-      "Sai — 'had come': quá khứ hoàn thành đổi nghĩa thành 'đã đến'.",
-      "Sai — 'came': quá khứ đơn mất ý kế hoạch tương lai và không phải cách lùi thì tiếp diễn."
+      "Sai — 'if had he seen' giữ trật tự đảo của câu hỏi; sau 'if' phải là chủ ngữ + động từ.",
+      "Đúng — if he had seen her sister there the day before: trật tự khẳng định, lùi thì và đổi đại từ, nơi chốn, thời gian.",
+      "Sai — câu hỏi Yes/No dùng 'if/whether', không dùng 'that'.",
+      "Sai — chưa đổi 'my' thành 'her' và 'here' thành 'there'."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-reported-speech-047",
@@ -1312,7 +1312,7 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Direct: \"Will it rain at the picnic?\" Zoe asked her dad. -> Reported: Zoe asked her dad whether it ______ at the picnic.",
+    "prompt": "Direct: \"Will it rain at the picnic?\" Zoe asked her dad. -> Reported (a week later): Zoe asked her dad whether it ______ at the picnic.",
     "choices": [
       "would rain",
       "will rain",
@@ -1327,7 +1327,7 @@
       "Sai — 'rained': quá khứ đơn không giữ ý tương lai.",
       "Sai — 'would it rain': giữ trật tự đảo là sai trong câu tường thuật."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-reported-speech-048",
@@ -1342,20 +1342,20 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Direct: \"Whose bag did you find here this morning?\" the guard asked Pam. -> Reported: The guard asked Pam whose bag she ______ there that morning.",
     "choices": [
-      "found",
+      "would find",
       "did find",
       "had found",
       "has found"
     ],
     "correctIndex": 2,
-    "explanation": "Câu Wh- ở quá khứ đơn: giữ 'whose bag', chủ ngữ đứng trước, bỏ 'did', lùi thành had found; 'here' -> 'there', 'this morning' -> 'that morning'.",
+    "explanation": "Câu Wh- ở quá khứ đơn: giữ 'whose bag', chủ ngữ đứng trước, bỏ 'did', lùi thành had found; 'here' -> 'there', 'this morning' -> 'that morning'. Trong văn nói đôi khi người ta giữ 'found', nhưng bài này dùng quy tắc chuẩn.",
     "choiceExplanations": [
-      "Sai — 'found': trong văn nói vẫn nghe thấy, nhưng theo quy tắc lùi thì đã học phải dùng quá khứ hoàn thành.",
+      "Sai — 'would find': 'would' là dạng lùi của 'will find' (tương lai), còn việc tìm túi đã xảy ra.",
       "Sai — 'did find': tường thuật không giữ trợ động từ.",
-      "Đúng — 'had found': bỏ 'did', quá khứ đơn lùi thành quá khứ hoàn thành.",
+      "Đúng — 'had found': bỏ 'did', quá khứ đơn lùi thành quá khứ hoàn thành (văn nói đôi khi giữ 'found', nhưng bài này dùng quy tắc chuẩn).",
       "Sai — 'has found': hiện tại hoàn thành chưa lùi và sai thời gian quá khứ."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-reported-speech-049",
@@ -1367,11 +1367,11 @@
       "rs-u4-commands-requests"
     ],
     "difficulty": 3,
-    "title": "Điền từ vào chỗ trống",
-    "prompt": "Direct: \"Don't forget to bring your passport tomorrow,\" Mr. Lee said to us. -> Reported: Mr. Lee told us ______ our passports the next day.",
+    "title": "Hoàn thành câu",
+    "prompt": "Direct: \"Don't forget to bring your passports tomorrow,\" Mr. Lee said to us. -> Reported: Mr. Lee told us ______ our passports the next day.",
     "choices": [
       "forget not to bring",
-      "us not to forget to bring",
+      "not forget to bring",
       "don't forget to bring",
       "not to forget to bring"
     ],
@@ -1379,11 +1379,11 @@
     "explanation": "Mệnh lệnh phủ định tường thuật: told us not to forget to bring...; 'your' -> 'our', 'tomorrow' -> 'the next day'.",
     "choiceExplanations": [
       "Sai — 'forget not to bring': đặt 'not' sau 'forget' làm đổi nghĩa thành 'quên là không mang'.",
-      "Sai — 'us not to forget to bring': lặp tân ngữ 'us' (told us us).",
+      "Sai — 'not forget to bring': thiếu 'to' trước 'forget'; cấu trúc cần told + O + not to V.",
       "Sai — 'don't forget to bring': giữ nguyên câu trực tiếp, sai cấu trúc tường thuật.",
       "Đúng — 'not to forget to bring': mệnh lệnh phủ định: told + O + not to V (forget), sau đó là to bring."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-reported-speech-050",
@@ -1401,16 +1401,16 @@
       "may",
       "might",
       "had to",
-      "were to"
+      "may to"
     ],
     "correctIndex": 1,
-    "explanation": "Động từ khuyết thiếu lùi thì: may -> might (will -> would, can -> could, must -> had to).",
+    "explanation": "Động từ khuyết thiếu lùi thì: may -> might (will -> would, can -> could, must -> had to). Nếu hiểu 'may' là sự cho phép thì 'could' cũng thường dùng, nhưng bài này kiểm tra quy tắc may -> might.",
     "choiceExplanations": [
       "Sai — 'may': chưa lùi thì.",
       "Đúng — 'might': 'may' lùi thành 'might'.",
       "Sai — 'had to': 'must' mới lùi thành 'had to', không phải 'may'.",
-      "Sai — 'were to': 'were to' đổi nghĩa và không phải cách lùi của 'may'."
+      "Sai — 'may to': sau động từ khuyết thiếu không dùng 'to'."
     ],
-    "bac": 4
+    "bac": 3
   }
 ]

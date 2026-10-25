@@ -855,15 +855,15 @@
       "on",
       "in",
       "at",
-      "since"
+      "by"
     ],
     "correctIndex": 1,
     "explanation": "Trước tên tháng ta dùng 'in'.",
     "choiceExplanations": [
-      "Sai — 'on' dùng với ngày cụ thể (on 5 October), không dùng với cả tháng.",
+      "Sai — 'on' dùng với ngày cụ thể (on October 5), không dùng với cả tháng.",
       "Đúng — tháng dùng 'in'.",
       "Sai — 'at' dùng với giờ giấc, không dùng với tháng.",
-      "Sai — 'since' chỉ mốc bắt đầu của hành động kéo dài, không nêu thời điểm diễn ra một sự kiện."
+      "Sai — 'by' nghĩa là không muộn hơn một mốc, không nêu thời điểm diễn ra lễ hội."
     ],
     "bac": 1
   },
@@ -890,7 +890,7 @@
     "choiceExplanations": [
       "Đúng — giờ cụ thể dùng 'at'.",
       "Sai — 'in' dùng với tháng, năm, mùa, buổi; không dùng với giờ cụ thể.",
-      "Sai — 'on' dùng với ngày; ở đây 'on school days' đã nằm sau chỗ trống.",
+      "Sai — 'on' dùng với ngày (on Monday), không dùng trước một giờ cụ thể.",
       "Sai — 'for' nêu khoảng thời gian, không nêu giờ."
     ],
     "bac": 1
@@ -919,7 +919,7 @@
       "Sai — 'in the wall' nghĩa là nằm sâu trong thân tường (như cái đinh cắm vào tường); tấm áp phích treo ngoài mặt tường.",
       "Sai — 'at' chỉ một điểm/địa điểm, không chỉ vị trí trên bề mặt.",
       "Đúng — vật gắn trên bề mặt tường dùng 'on'.",
-      "Sai — 'to' chỉ hướng di chuyển, không nêu vị trí treo đồ."
+      "Sai — 'to' thường chỉ hướng đi tới; muốn nói áp phích treo trên tường thì dùng 'on' (hang the poster on the wall)."
     ],
     "bac": 1
   },
@@ -967,7 +967,7 @@
       "on",
       "at",
       "in",
-      "since"
+      "by"
     ],
     "correctIndex": 0,
     "explanation": "'Christmas Day' là một ngày cụ thể (25/12) nên dùng 'on'.",
@@ -975,9 +975,9 @@
       "Đúng — một ngày cụ thể dùng 'on'.",
       "Sai — 'at Christmas' (không có 'Day') dùng được khi nói cả dịp lễ nói chung, nhưng 'Christmas Day' là một ngày nên cần 'on'.",
       "Sai — 'in' dùng với tháng, năm, mùa; ngày cụ thể thì dùng 'on'.",
-      "Sai — 'since' chỉ mốc bắt đầu của hành động kéo dài."
+      "Sai — 'by' nghĩa là không muộn hơn một mốc, không nêu ngày diễn ra bữa tối."
     ],
-    "bac": 1
+    "bac": 2
   },
   {
     "id": "en-prepositions-036",
@@ -1005,7 +1005,7 @@
       "Đúng — 'to' chỉ hướng đi đến nơi nào (go to school).",
       "Sai — 'on' không diễn tả đích đến; 'on' dùng cho bề mặt hoặc ngày."
     ],
-    "bac": 2
+    "bac": 1
   },
   {
     "id": "en-prepositions-037",
@@ -1028,7 +1028,7 @@
     "correctIndex": 1,
     "explanation": "Cụm tính từ cố định 'proud of' nghĩa là tự hào về ai/điều gì.",
     "choiceExplanations": [
-      "Sai — 'proud at' không phải cụm đúng; 'at' chỉ đi với good/bad.",
+      "Sai — 'proud at' không phải cụm đúng; 'at' đi với good/bad (good at, bad at), còn 'tự hào về' dùng 'of'.",
       "Đúng — cụm cố định 'proud of'.",
       "Sai — 'proud with' không phải cụm đúng.",
       "Sai — 'proud for' không phải cụm đúng; ý tự hào về điều gì dùng 'of'."
@@ -1057,7 +1057,7 @@
     "explanation": "Đi men theo bờ sông suốt một giờ là đi dọc theo → 'along'.",
     "choiceExplanations": [
       "Sai — 'across' là băng sang bờ bên kia, không thể kéo dài cả giờ như vậy.",
-      "Sai — 'through' chỉ đi xuyên qua một không gian có thành bao quanh (rừng, đường hầm); con sông ở đây là thứ đi men theo.",
+      "Sai — 'through' nghĩa là đi xuyên qua bên trong một thứ (rừng, đường hầm); họ đi men theo bờ sông chứ không xuyên qua sông.",
       "Sai — 'into' chỉ đi vào bên trong; họ không đi vào sông.",
       "Đúng — đi men theo chiều dài của con sông → along."
     ],
@@ -1089,7 +1089,7 @@
       "Sai — 'across' dùng với bề mặt phẳng (đường, sông); cái lỗ không phải là bề mặt.",
       "Sai — 'along' nghĩa là đi men theo chiều dài của vật, không nói chui qua lỗ."
     ],
-    "bac": 3
+    "bac": 2
   },
   {
     "id": "en-prepositions-040",
@@ -1158,7 +1158,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Our bus will arrive ______ Da Nang at noon.",
+    "prompt": "My uncle will arrive ______ Japan next Monday.",
     "choices": [
       "at",
       "to",
@@ -1166,9 +1166,9 @@
       "in"
     ],
     "correctIndex": 3,
-    "explanation": "Với thành phố, ta dùng 'arrive in'.",
+    "explanation": "Với thành phố hoặc quốc gia, ta dùng 'arrive in'.",
     "choiceExplanations": [
-      "Sai — 'arrive at' dùng với địa điểm nhỏ (nhà ga, sân bay). Với thành phố có thể thấy 'at' khi chỉ coi nó là một điểm dừng trên hành trình, nhưng khi nói đến một thành phố bình thường thì dùng 'in'.",
+      "Sai — 'arrive at' dùng với địa điểm nhỏ như sân bay, nhà ga; với một quốc gia thì không dùng 'at'.",
       "Sai — 'arrive to' không đúng; 'arrive' đi với 'at' hoặc 'in'.",
       "Sai — 'arrive on' không phải cụm đúng với địa điểm.",
       "Đúng — thành phố, quốc gia dùng 'arrive in'."
@@ -1197,11 +1197,11 @@
     "explanation": "Cụm cố định 'at night' dùng cho ban đêm nói chung.",
     "choiceExplanations": [
       "Sai — 'in the night' chỉ có trong vài cụm như 'woke up in the night'; để nói ban đêm nói chung, cụm cố định là 'at night' (không có 'the').",
-      "Sai — 'on' dùng với ngày, ví dụ 'on a cold night' mới dùng được vì có một đêm cụ thể.",
+      "Sai — 'on' dùng với ngày; ban đêm nói chung không dùng 'on'.",
       "Đúng — 'at night' là cụm cố định.",
       "Sai — 'for' nêu khoảng thời gian (for three hours), không nêu thời điểm."
     ],
-    "bac": 2
+    "bac": 1
   },
   {
     "id": "en-prepositions-044",
@@ -1214,7 +1214,7 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Let's meet ______ the afternoon of 5 May.",
+    "prompt": "Let's meet ______ the afternoon of May 5.",
     "choices": [
       "on",
       "in",
@@ -1222,14 +1222,14 @@
       "by"
     ],
     "correctIndex": 0,
-    "explanation": "Buổi của một ngày cụ thể (5 May) thì giới từ đi theo ngày: dùng 'on'.",
+    "explanation": "Buổi của một ngày cụ thể (May 5) thì giới từ đi theo ngày: dùng 'on'.",
     "choiceExplanations": [
-      "Đúng — buổi thuộc một ngày cụ thể dùng 'on' (on the afternoon of 5 May). 'In the afternoon' chỉ dùng khi không nêu ngày.",
-      "Sai — 'in the afternoon' đứng một mình thì đúng, nhưng khi buổi đó gắn với một ngày cụ thể thì giới từ chuyển sang 'on'.",
+      "Đúng — buổi thuộc một ngày cụ thể dùng 'on' (on the afternoon of May 5), giống 'on Sunday morning'.",
+      "Sai — 'in the afternoon' đứng một mình thì đúng. Khi buổi đó gắn với một ngày cụ thể, cách nói chuẩn là 'on'; 'in the afternoon of May 5' hiếm và không được khuyến khích.",
       "Sai — 'at' dùng với giờ giấc, không dùng với buổi trong ngày.",
       "Sai — 'by' nghĩa là không muộn hơn thời điểm đó, không nêu thời điểm diễn ra cuộc gặp."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-prepositions-045",
@@ -1242,22 +1242,22 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The prize was shared ______ the five finalists.",
+    "prompt": "Linh is the tallest ______ the girls in my class.",
     "choices": [
-      "between",
-      "among",
       "from",
+      "among",
+      "between",
       "through"
     ],
     "correctIndex": 1,
-    "explanation": "Chia cho một nhóm từ ba người trở lên dùng 'among'.",
+    "explanation": "Khi nói ai nổi bật trong cả một nhóm đông (không nhắc từng người), ta dùng 'among'.",
     "choiceExplanations": [
-      "Sai — 'between' chủ yếu dùng cho hai người/vật; với năm người coi như một nhóm thì 'among' tự nhiên hơn, dù tiếng Anh đôi khi vẫn dùng 'between' khi nhắc từng cá nhân riêng lẻ.",
-      "Đúng — nhóm từ ba trở lên → among.",
-      "Sai — 'from' chỉ nguồn gốc/điểm xuất phát, không nêu đối tượng được chia.",
-      "Sai — 'through' chỉ đi xuyên qua, không dùng cho việc chia phần."
+      "Sai — 'from' chỉ nguồn gốc hoặc điểm xuất phát, không nói 'trong số các bạn'.",
+      "Đúng — một người nổi bật trong cả nhóm từ ba trở lên → among.",
+      "Sai — 'between' dùng cho hai người/vật hoặc khi nêu từng cá nhân riêng lẻ (between you and me); ở đây là cả một nhóm bạn gái.",
+      "Sai — 'through' chỉ đi xuyên qua, không dùng để so sánh trong một nhóm."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-prepositions-046",
@@ -1270,7 +1270,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Mai sat ______ Nam and Lan in the cinema.",
+    "prompt": "Mai sat ______ Nam and Lan, so she had a friend on each side.",
     "choices": [
       "among",
       "beside",
@@ -1281,8 +1281,8 @@
     "explanation": "Ngồi ở giữa hai người dùng 'between'.",
     "choiceExplanations": [
       "Sai — 'among' dùng khi ở giữa từ ba người/vật trở lên; ở đây chỉ có hai người.",
-      "Sai — 'beside' nghĩa là ở cạnh một bên; nó không cho biết Mai ngồi ở giữa Nam và Lan.",
-      "Sai — 'sat with Nam and Lan' nghĩa là ngồi cùng họ, không nói rõ vị trí ở giữa.",
+      "Sai — 'beside Nam and Lan' chỉ nói cạnh họ, không đảm bảo có một bạn ở mỗi bên; câu có 'a friend on each side' nên cần 'between'.",
+      "Sai — 'with' nghĩa là cùng nhóm với họ, không nói vị trí ở giữa hai người.",
       "Đúng — hai người/vật → between."
     ],
     "bac": 3
@@ -1298,7 +1298,7 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "I will finish the poster ______ Friday at the latest.",
+    "prompt": "I will finish the poster ______ Friday.",
     "choices": [
       "until",
       "since",
@@ -1306,14 +1306,14 @@
       "for"
     ],
     "correctIndex": 2,
-    "explanation": "'By' + mốc thời gian nghĩa là không muộn hơn mốc đó; 'at the latest' khẳng định ý này.",
+    "explanation": "'By' + mốc thời gian nghĩa là không muộn hơn mốc đó (hạn chót).",
     "choiceExplanations": [
-      "Sai — 'until' nghĩa là kéo dài liên tục đến mốc đó; 'until Friday at the latest' không hợp vì không có hành động kéo dài.",
+      "Sai — 'until' nghĩa là kéo dài liên tục đến mốc đó rồi dừng; việc hoàn thành poster là hành động xảy ra một lần nên cần 'by'.",
       "Sai — 'since' chỉ mốc bắt đầu trong quá khứ, còn câu nói về tương lai.",
       "Đúng — hạn chót, không muộn hơn thứ Sáu → by.",
       "Sai — 'for' đi với khoảng thời gian (for two days), không đi với một ngày mốc như Friday."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-prepositions-048",
@@ -1326,11 +1326,11 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The shop stays open ______ 10 p.m., and then it closes.",
+    "prompt": "The shop stays open ______ 10 p.m. every night.",
     "choices": [
       "by",
       "until",
-      "since",
+      "at",
       "during"
     ],
     "correctIndex": 1,
@@ -1338,10 +1338,10 @@
     "choiceExplanations": [
       "Sai — 'by' nghĩa là không muộn hơn mốc đó, dùng cho hành động xảy ra một lần; 'stays open' là trạng thái kéo dài nên cần 'until'.",
       "Đúng — trạng thái kéo dài đến 10 giờ tối rồi dừng → until.",
-      "Sai — 'since' chỉ mốc bắt đầu, không phải mốc kết thúc.",
+      "Sai — 'at' chỉ một thời điểm, không diễn tả việc mở cửa kéo dài đến mốc đó.",
       "Sai — 'during' đi với một sự kiện/giai đoạn có tên (during the holiday), không đi với giờ."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-prepositions-049",
@@ -1369,7 +1369,7 @@
       "Sai — 'between' cần hai mốc hoặc hai đối tượng (between 8 and 10), không đi với một sự kiện.",
       "Đúng — 'during the movie' (trong lúc xem phim)."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-prepositions-050",
@@ -1397,6 +1397,6 @@
       "Sai — 'from' không đi với mệnh đề kiểu này để nói 'kể từ khi'; câu hiện tại hoàn thành cần 'since'.",
       "Sai — 'in' không đứng trước mệnh đề 'she was five years old' với nghĩa 'kể từ khi'."
     ],
-    "bac": 4
+    "bac": 3
   }
 ]

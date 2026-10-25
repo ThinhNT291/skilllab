@@ -855,15 +855,15 @@
       "anything",
       "nothing",
       "something",
-      "anywhere"
+      "any"
     ],
     "correctIndex": 2,
     "explanation": "Câu khẳng định xác nhận có một vật chưa biết trong hộp nên dùng 'something'.",
     "choiceExplanations": [
-      "Sai — 'anything': dùng trong câu phủ định hoặc câu hỏi thông thường, không dùng trong câu khẳng định như thế này.",
+      "Sai — 'anything': dùng trong câu phủ định và câu hỏi thông thường, không dùng trong câu khẳng định như thế này.",
       "Sai — 'nothing': nghĩa là 'không có gì', mâu thuẫn với việc có tiếng động phát ra từ trong hộp.",
       "Đúng — 'something': câu khẳng định, nói có một vật không rõ là gì.",
-      "Sai — 'anywhere': chỉ nơi chốn, không thay cho một vật ở trong hộp."
+      "Sai — 'any' là từ hạn định, cần danh từ theo sau; ở đây không có danh từ, và câu khẳng định này cần 'something'."
     ],
     "bac": 2
   },
@@ -883,15 +883,15 @@
       "anyone",
       "someone",
       "no one",
-      "anywhere"
+      "some"
     ],
     "correctIndex": 0,
     "explanation": "Câu phủ định 'haven't told' đi với 'anyone'.",
     "choiceExplanations": [
       "Đúng — 'anyone': câu phủ định dùng 'any-' (anyone = bất kỳ ai).",
       "Sai — 'someone': thường dùng trong câu khẳng định; sau 'haven't told' phải dùng 'anyone'.",
-      "Sai — 'no one': 'haven't' đã mang nghĩa phủ định, thêm 'no one' thành phủ định kép, sai chuẩn.",
-      "Sai — 'anywhere': chỉ nơi chốn, còn ở đây cần từ chỉ người."
+      "Sai — 'haven't' đã mang nghĩa phủ định; thêm 'no one' làm câu phủ định hai lần, không đúng chuẩn (xem mục Some / Any).",
+      "Sai — 'some' đứng một mình không làm tân ngữ chỉ người ở đây; muốn nói 'một ai đó' phải dùng 'someone'."
     ],
     "bac": 2
   },
@@ -904,13 +904,13 @@
     "tags": [
       "pronouns-determiners-u1-some-any"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "The quiz was so easy that ______ could pass it, even without studying.",
     "choices": [
       "someone",
       "no one",
-      "somewhere",
+      "something",
       "anyone"
     ],
     "correctIndex": 3,
@@ -918,7 +918,7 @@
     "choiceExplanations": [
       "Sai — 'someone': chỉ một người nào đó không xác định, không mang nghĩa 'bất kỳ ai cũng làm được'.",
       "Sai — 'no one': nghĩa 'không ai', trái với ý 'dễ đến mức ai cũng đỗ'.",
-      "Sai — 'somewhere': chỉ nơi chốn, không phải người.",
+      "Sai — 'something': chỉ vật, không chỉ người, và không mang nghĩa 'bất kỳ ai'.",
       "Đúng — 'anyone': dù là câu khẳng định, 'any-' vẫn dùng được khi nghĩa là 'bất kỳ ai, không quan trọng là ai'."
     ],
     "bac": 3
@@ -938,16 +938,16 @@
     "choices": [
       "many",
       "much",
-      "few",
-      "a few"
+      "a few",
+      "a lot of"
     ],
     "correctIndex": 1,
     "explanation": "'Homework' là danh từ không đếm được nên dùng 'How much'.",
     "choiceExplanations": [
       "Sai — 'many': dùng với danh từ đếm được số nhiều, còn 'homework' không đếm được.",
       "Đúng — 'much': dùng với danh từ không đếm được, tự nhiên trong câu hỏi 'How much...?'.",
-      "Sai — 'few': không đi sau 'How' trong câu hỏi số lượng này và chỉ dùng với danh từ đếm được.",
-      "Sai — 'a few': chỉ dùng với danh từ đếm được số nhiều và không đứng sau 'How' để hỏi số lượng."
+      "Sai — 'a few' dùng với danh từ đếm được số nhiều, không đứng sau 'How' để hỏi số lượng.",
+      "Sai — 'a lot of' không đứng sau 'How' để hỏi số lượng; câu hỏi dùng 'How much' hoặc 'How many'."
     ],
     "bac": 2
   },
@@ -974,8 +974,8 @@
     "choiceExplanations": [
       "Sai — 'much': dùng với danh từ không đếm được, còn 'cousins' đếm được.",
       "Đúng — 'many': danh từ đếm được số nhiều, tự nhiên trong câu phủ định.",
-      "Sai — 'a little': dùng với danh từ không đếm được.",
-      "Sai — 'little': dùng với danh từ không đếm được và cũng không đứng sau 'don't have' như thế này."
+      "Sai — 'a little': dùng với danh từ không đếm được, còn 'cousins' đếm được.",
+      "Sai — 'little' dùng với danh từ không đếm được, còn 'cousins' đếm được."
     ],
     "bac": 2
   },
@@ -988,7 +988,7 @@
     "tags": [
       "pronouns-determiners-u2-much-many-alotof"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Our town gets ______ rain in spring, so the gardens are always green.",
     "choices": [
@@ -1002,10 +1002,10 @@
     "choiceExplanations": [
       "Sai — 'many': dùng với danh từ đếm được, còn 'rain' không đếm được.",
       "Sai — 'a few': dùng với danh từ đếm được số nhiều.",
-      "Sai — 'much': đúng loại danh từ và về ngữ pháp không hẳn là lỗi, nhưng trong câu khẳng định nghe cứng và ít dùng; người bản ngữ chọn 'a lot of' hoặc 'lots of'.",
+      "Kém tự nhiên — 'much' đúng loại danh từ và về ngữ pháp không sai, nhưng trong câu khẳng định nghe cứng và ít dùng; người bản ngữ chọn 'a lot of' hoặc 'lots of'. Vì vậy 'a lot of' là đáp án phù hợp nhất.",
       "Đúng — 'a lot of': dùng được với danh từ không đếm được, tự nhiên trong câu khẳng định."
     ],
-    "bac": 3
+    "bac": 2
   },
   {
     "id": "en-pronouns-determiners-037",
@@ -1016,22 +1016,22 @@
     "tags": [
       "pronouns-determiners-u3-few-little"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "______ students signed up for the trip, so the teacher cancelled it.",
+    "prompt": "There are ______ chairs in this room, so many students have to sit on the floor.",
     "choices": [
-      "Few",
-      "A few",
-      "Little",
-      "A little"
+      "few",
+      "a few",
+      "little",
+      "a little"
     ],
     "correctIndex": 0,
-    "explanation": "Việc hủy chuyến cho thấy số người đăng ký quá ít: nghĩa tiêu cực, dùng 'few'.",
+    "explanation": "Nhiều học sinh phải ngồi sàn nghĩa là ghế quá ít: nghĩa tiêu cực, dùng 'few'.",
     "choiceExplanations": [
-      "Đúng — 'Few': đứng trước danh từ đếm được, nghĩa tiêu cực 'rất ít, không đủ', hợp với việc chuyến đi bị hủy.",
-      "Sai — 'A few': mang nghĩa tích cực 'có một số, đủ dùng', không hợp với việc chuyến đi bị hủy vì thiếu người.",
-      "Sai — 'Little': dùng với danh từ không đếm được, còn 'students' đếm được.",
-      "Sai — 'A little': dùng với danh từ không đếm được."
+      "Đúng — 'few': đếm được, nghĩa 'quá ít', hợp với việc phải ngồi sàn.",
+      "Sai — 'a few' mang nghĩa tích cực 'có vài cái, đủ dùng', mâu thuẫn với việc phải ngồi sàn.",
+      "Sai — 'little' dùng với danh từ không đếm được, còn 'chairs' đếm được.",
+      "Sai — 'a little' dùng với danh từ không đếm được, còn 'chairs' đếm được."
     ],
     "bac": 3
   },
@@ -1056,7 +1056,7 @@
     "correctIndex": 2,
     "explanation": "'Interest' ở đây không đếm được; 'never joins' cho thấy nghĩa tiêu cực nên dùng 'little'.",
     "choiceExplanations": [
-      "Sai — 'a few': dùng với danh từ đếm được số nhiều, và 'interest' ở đây đi với lượng không đếm được.",
+      "Sai — 'a few' dùng với danh từ đếm được số nhiều, còn 'interest' ở đây là danh từ không đếm được.",
       "Sai — 'a little': đúng loại danh từ nhưng mang nghĩa tích cực 'có chút ít', mâu thuẫn với 'never joins'.",
       "Đúng — 'little': danh từ không đếm được, nghĩa tiêu cực 'hầu như không có', hợp với 'never joins'.",
       "Sai — 'few': chỉ dùng với danh từ đếm được số nhiều, mà 'interest' trong câu này không đếm được."
@@ -1135,7 +1135,7 @@
       "themselves",
       "each other",
       "them",
-      "ourselves"
+      "himself"
     ],
     "correctIndex": 1,
     "explanation": "Hai người không nói chuyện với nhau: hành động qua lại, dùng 'each other'.",
@@ -1143,7 +1143,7 @@
       "Sai — 'themselves': đại từ phản thân, nghĩa là mỗi người nói chuyện với chính mình.",
       "Đúng — 'each other': hành động qua lại giữa hai người.",
       "Sai — 'them': chỉ những người khác ngoài hai anh em, không mang nghĩa 'với nhau'.",
-      "Sai — 'ourselves': ngôi 'chúng tôi', không khớp với chủ ngữ 'Sam and his brother'."
+      "Sai — 'himself' là số ít, không khớp chủ ngữ 'Sam and his brother' gồm hai người."
     ],
     "bac": 3
   },
@@ -1173,7 +1173,7 @@
       "Đúng — 'themselves': chủ ngữ 'the children' và tân ngữ cùng là một nhóm.",
       "Sai — 'theirs': đại từ sở hữu (của họ), không làm tân ngữ của 'enjoyed' ở đây."
     ],
-    "bac": 2
+    "bac": 3
   },
   {
     "id": "en-pronouns-determiners-043",
@@ -1184,7 +1184,7 @@
     "tags": [
       "pronouns-determiners-u4-reflexive-reciprocal"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "After the lost game, the goalkeeper blamed ______, but his teammates said it was nobody's fault.",
     "choices": [
@@ -1270,20 +1270,20 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The museum is proud of ______ collection of ancient coins.",
+    "prompt": "We cleaned our room, and the neighbors cleaned ______ .",
     "choices": [
-      "it's",
-      "it",
-      "its",
-      "itself"
+      "their",
+      "them",
+      "theirs",
+      "they"
     ],
     "correctIndex": 2,
-    "explanation": "Trước danh từ 'collection' cần tính từ sở hữu 'its' (không có dấu nháy).",
+    "explanation": "Sau 'cleaned' không có danh từ, nên dùng đại từ sở hữu 'theirs' (= their room).",
     "choiceExplanations": [
-      "Sai — 'it's': viết tắt của 'it is' hoặc 'it has', không phải từ chỉ sở hữu.",
-      "Sai — 'it': đại từ, không đứng trước danh từ để chỉ sở hữu.",
-      "Đúng — 'its': tính từ sở hữu của 'it', không có dấu nháy.",
-      "Sai — 'itself': đại từ phản thân, không đứng trước danh từ."
+      "Sai — 'their' là tính từ sở hữu, bắt buộc có danh từ theo sau; ở đây không có.",
+      "Sai — 'them' là tân ngữ, không mang nghĩa 'của họ'; 'cleaned them' sẽ có nghĩa dọn chính những người đó.",
+      "Đúng — 'theirs': đại từ sở hữu đứng một mình, thay cho 'their room'.",
+      "Sai — 'they' là đại từ chủ ngữ, không làm tân ngữ của 'cleaned'."
     ],
     "bac": 3
   },
@@ -1313,7 +1313,7 @@
       "Sai — 'neither': chỉ dùng khi nói về đúng hai đối tượng, mà ở đây có năm người.",
       "Sai — 'either': chỉ dùng cho hai đối tượng, và nghĩa 'một trong hai' không hợp với ngữ cảnh."
     ],
-    "bac": 3
+    "bac": 2
   },
   {
     "id": "en-pronouns-determiners-048",
@@ -1324,7 +1324,7 @@
     "tags": [
       "pronouns-determiners-u6-no-none-neither-either"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "I tried both keys, but ______ of them opened the door.",
     "choices": [
@@ -1336,7 +1336,7 @@
     "correctIndex": 3,
     "explanation": "Có đúng hai chìa và cả hai đều không mở được: dùng 'neither'.",
     "choiceExplanations": [
-      "Sai — 'any': không dùng như chủ ngữ khẳng định trong câu này, và nghĩa không hợp với 'but'.",
+      "Sai — 'any of them' không dùng làm chủ ngữ để nói 'không cái nào'; muốn phủ định ở chủ ngữ phải dùng từ mang nghĩa phủ định như 'neither' hoặc 'none'.",
       "Sai — 'no': đứng trực tiếp trước danh từ, không đi với 'of them'.",
       "Sai — 'either': nghĩa 'một trong hai', trái với ý 'cả hai chìa đều không mở được' sau 'but'.",
       "Đúng — 'neither': nói về đúng hai chìa, nghĩa là không chìa nào mở được."
@@ -1352,7 +1352,7 @@
     "tags": [
       "pronouns-determiners-u6-no-none-neither-either"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "You can take ______ route to the museum; both of them take about the same time.",
     "choices": [

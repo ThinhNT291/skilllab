@@ -861,8 +861,8 @@
     "correctIndex": 2,
     "explanation": "\"Orange\" mở đầu bằng âm nguyên âm, và đây là lần đầu nhắc tới một quả cam bất kỳ, nên dùng \"an\".",
     "choiceExplanations": [
-      "Sai — \"a\": \"orange\" đọc bắt đầu bằng âm nguyên âm /ɔ/ nên không đi với \"a\".",
-      "Sai — \"the\": chỉ dùng khi hai người đã biết rõ quả cam nào; ở đây quả nào cũng được, chưa xác định.",
+      "Sai — \"a\": \"orange\" đọc bắt đầu bằng âm nguyên âm (/ɔː/ hoặc /ɑː/) nên không đi với \"a\".",
+      "Sai — \"the\": chỉ dùng khi hai người đã biết rõ quả cam nào, ví dụ trong bếp chỉ có một quả cam đã biết; ở đây quả nào cũng được, chưa xác định.",
       "Đúng — \"an\": \"orange\" bắt đầu bằng âm nguyên âm và đây là lần đầu nhắc tới một quả cam bất kỳ.",
       "Sai — \"(no article)\": \"orange\" ở đây là danh từ đếm được số ít (một quả) nên không thể bỏ mạo từ."
     ],
@@ -881,17 +881,17 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Tonight ______ moon is very bright, so we can walk home without a flashlight.",
     "choices": [
-      "The",
-      "A",
-      "An",
+      "the",
+      "a",
+      "an",
       "(no article)"
     ],
     "correctIndex": 0,
     "explanation": "Chỉ có một mặt trăng của Trái Đất, ai nghe cũng biết là nói tới nó, nên dùng \"the\".",
     "choiceExplanations": [
-      "Đúng — \"The\": mặt trăng của Trái Đất là vật duy nhất, người nghe hiểu ngay là cái nào.",
-      "Sai — \"A\": \"a\" ngụ ý có nhiều mặt trăng để chọn một cái bất kỳ, trong khi ở đây chỉ có một.",
-      "Sai — \"An\": \"moon\" bắt đầu bằng âm phụ âm /m/, và vật này cũng là duy nhất.",
+      "Đúng — \"the\": mặt trăng của Trái Đất là vật duy nhất, người nghe hiểu ngay là cái nào.",
+      "Sai — \"a\": \"a moon\" chỉ một mặt trăng bất kỳ trong nhiều mặt trăng, trong khi ở đây chỉ có một mặt trăng của Trái Đất.",
+      "Sai — \"an\": \"moon\" bắt đầu bằng âm phụ âm /m/, và vật này cũng là duy nhất.",
       "Sai — \"(no article)\": \"moon\" là danh từ đếm được số ít, ở đây đã xác định nên cần \"the\"."
     ],
     "bac": 1
@@ -917,7 +917,7 @@
     "correctIndex": 3,
     "explanation": "Tên ngôn ngữ như \"English\" và \"French\" không dùng mạo từ.",
     "choiceExplanations": [
-      "Sai — \"the\": tên ngôn ngữ không đi với \"the\" (ngoại lệ chỉ khi có danh từ \"language\" đi kèm).",
+      "Sai — \"the\": tên ngôn ngữ đứng một mình không đi với \"the\".",
       "Sai — \"a\": \"English\" là tên ngôn ngữ, không phải danh từ đếm được số ít cần \"a\".",
       "Sai — \"an\": \"English\" bắt đầu bằng âm nguyên âm, nhưng tên ngôn ngữ vẫn không dùng mạo từ.",
       "Đúng — \"(no article)\": tên các ngôn ngữ (English, French, Vietnamese...) không dùng mạo từ."
@@ -974,7 +974,7 @@
     "explanation": "\"Milk\" là danh từ không đếm được, nên hỏi số lượng bằng \"how much\".",
     "choiceExplanations": [
       "Sai — \"many\": chỉ dùng với danh từ đếm được số nhiều, còn \"milk\" không đếm được.",
-      "Sai — \"few\": chỉ dùng với danh từ đếm được số nhiều và không đứng sau \"how\" để hỏi số lượng ở câu này.",
+      "Sai — \"few\": chỉ dùng với danh từ đếm được số nhiều, còn \"milk\" không đếm được.",
       "Đúng — \"much\": \"milk\" là danh từ không đếm được nên hỏi lượng bằng \"how much\".",
       "Sai — \"a few\": chỉ dùng với danh từ đếm được số nhiều, còn \"milk\" không đếm được."
     ],
@@ -996,7 +996,7 @@
       "any",
       "some",
       "a",
-      "an"
+      "much"
     ],
     "correctIndex": 0,
     "explanation": "Câu phủ định (\"can't find\") với danh từ đếm được số nhiều dùng \"any\".",
@@ -1004,7 +1004,7 @@
       "Đúng — \"any\": câu phủ định với danh từ số nhiều \"pencils\" dùng \"any\".",
       "Sai — \"some\": \"some\" thường dùng trong câu khẳng định; ở câu phủ định này ta dùng \"any\".",
       "Sai — \"a\": \"a\" chỉ đứng trước danh từ đếm được số ít, còn \"pencils\" là số nhiều.",
-      "Sai — \"an\": \"an\" chỉ đứng trước danh từ số ít, và \"pencils\" bắt đầu bằng âm phụ âm /p/."
+      "Sai — \"much\": chỉ dùng với danh từ không đếm được, còn \"pencils\" là số nhiều đếm được."
     ],
     "bac": 2
   },
@@ -1085,7 +1085,7 @@
     "correctIndex": 0,
     "explanation": "Cụm \"at the back of our house\" xác định rõ đây là gian bếp nào, nên dùng \"the\".",
     "choiceExplanations": [
-      "Đúng — \"the\": cụm \"at the back of our house\" xác định chính xác gian bếp, người nghe biết là bếp nào.",
+      "Đúng — \"the\": một ngôi nhà thường chỉ có một gian bếp, và cụm \"at the back of our house\" càng xác định rõ gian bếp nào, nên dùng \"the\".",
       "Sai — \"a\": \"a kitchen\" gợi ý một gian bếp chưa xác định, trong khi cụm sau đã chỉ rõ bếp nhà mình.",
       "Sai — \"an\": \"kitchen\" bắt đầu bằng âm phụ âm /k/, và gian bếp này cũng đã được xác định.",
       "Sai — \"(no article)\": \"kitchen\" là danh từ đếm được số ít nên không thể bỏ mạo từ."
@@ -1106,7 +1106,7 @@
     "prompt": "Doctors say that ______ vegetables are good for your health.",
     "choices": [
       "a",
-      "an",
+      "one",
       "(no article)",
       "the"
     ],
@@ -1114,7 +1114,7 @@
     "explanation": "Câu nói về rau củ nói chung, không chỉ một số loại cụ thể, nên danh từ số nhiều không dùng mạo từ.",
     "choiceExplanations": [
       "Sai — \"a\": \"a\" không đứng trước danh từ số nhiều \"vegetables\".",
-      "Sai — \"an\": \"an\" không đứng trước danh từ số nhiều, và \"vegetables\" bắt đầu bằng âm phụ âm /v/.",
+      "Sai — \"one\": \"one\" chỉ đi với danh từ số ít, còn \"vegetables\" là số nhiều.",
       "Đúng — \"(no article)\": danh từ số nhiều mang nghĩa khái quát (rau củ nói chung) không dùng mạo từ.",
       "Sai — \"the\": \"the vegetables\" chỉ những loại rau cụ thể đã biết, trong khi bác sĩ đang nói chung."
     ],
@@ -1159,20 +1159,20 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Would you like ______ milk in your cereal?",
+    "prompt": "There is ______ juice in the fridge, so we can have a drink with our sandwiches.",
     "choices": [
       "a",
-      "any",
       "many",
+      "any",
       "some"
     ],
     "correctIndex": 3,
-    "explanation": "Trong lời mời với danh từ không đếm được, thường dùng \"some\".",
+    "explanation": "Câu khẳng định với danh từ không đếm được \"juice\" dùng \"some\"; \"any\" dành cho câu phủ định và câu hỏi.",
     "choiceExplanations": [
-      "Sai — \"a\": \"milk\" là danh từ không đếm được nên không đi với \"a\".",
-      "Sai — \"any\": \"any\" trong lời mời không hẳn sai ngữ pháp, nhưng khi mời người khác ta thường dùng \"some\" vì mong họ nhận lời.",
-      "Sai — \"many\": chỉ dùng với danh từ đếm được số nhiều, còn \"milk\" không đếm được.",
-      "Đúng — \"some\": dùng được với danh từ không đếm được và là cách nói tự nhiên khi đưa ra lời mời."
+      "Sai — \"a\": \"juice\" là danh từ không đếm được nên không đi với \"a\" (muốn đếm phải thêm đơn vị, ví dụ \"a glass of juice\").",
+      "Sai — \"many\": chỉ dùng với danh từ đếm được số nhiều, còn \"juice\" không đếm được.",
+      "Sai — \"any\": thường dùng trong câu phủ định và câu hỏi (There isn't any juice. / Is there any juice?); câu khẳng định thông thường dùng \"some\".",
+      "Đúng — \"some\": dùng được với danh từ không đếm được và là từ thường dùng trong câu khẳng định."
     ],
     "bac": 2
   },
@@ -1185,22 +1185,22 @@
     "tags": [
       "art-u5-special-cases"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "My uncle is a scientist, and he has published three ______ about ocean pollution this year.",
     "choices": [
       "papers",
       "paper",
-      "a paper",
-      "the paper"
+      "pieces of paper",
+      "a paper"
     ],
     "correctIndex": 0,
     "explanation": "Ở nghĩa \"bài nghiên cứu\", \"paper\" là danh từ đếm được; có \"three\" nên dùng số nhiều \"papers\".",
     "choiceExplanations": [
       "Đúng — \"papers\": nghĩa \"bài nghiên cứu\" là danh từ đếm được, đi sau \"three\" phải ở dạng số nhiều.",
-      "Sai — \"paper\": dạng số ít/không đếm được (giấy) không đứng sau số \"three\".",
-      "Sai — \"a paper\": \"a\" nghĩa là một, mâu thuẫn với \"three\" đứng trước.",
-      "Sai — \"the paper\": mạo từ \"the\" không đứng ngay sau số đếm \"three\" như vậy."
+      "Sai — \"paper\": dạng không đếm được (giấy nói chung), không có \"-s\" nên không đếm được bằng \"three\".",
+      "Sai — \"pieces of paper\": nghĩa là những tờ giấy (vật liệu), còn thứ được \"published\" ở đây là bài nghiên cứu.",
+      "Sai — \"a paper\": \"a\" nghĩa là một, mâu thuẫn với \"three\" đứng trước."
     ],
     "bac": 3
   },
@@ -1213,7 +1213,7 @@
     "tags": [
       "art-u5-special-cases"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Volunteers deliver hot meals to ______ who cannot leave their homes.",
     "choices": [
@@ -1243,20 +1243,20 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "My sister designed ______ unique logo for our school's robotics team.",
+    "prompt": "That was ______ extremely useful lesson for all of us.",
     "choices": [
-      "an",
+      "a",
       "the",
       "(no article)",
-      "a"
+      "an"
     ],
     "correctIndex": 3,
-    "explanation": "\"Unique\" đọc bắt đầu bằng âm phụ âm /j/ nên dùng \"a\", dù chữ viết bắt đầu bằng nguyên âm \"u\".",
+    "explanation": "Chọn \"a/an\" theo âm đầu của từ đứng ngay sau mạo từ: \"extremely\" bắt đầu bằng âm nguyên âm nên dùng \"an\", dù \"useful\" đọc bắt đầu bằng /j/.",
     "choiceExplanations": [
-      "Sai — \"an\": \"unique\" viết bắt đầu bằng \"u\" nhưng đọc /juˈniːk/, bắt đầu bằng âm phụ âm /j/.",
-      "Sai — \"the\": đây là lần đầu nhắc tới biểu tượng này, chưa xác định cụ thể.",
-      "Sai — \"(no article)\": \"logo\" là danh từ đếm được số ít nên cần mạo từ.",
-      "Đúng — \"a\": từ đứng ngay sau mạo từ là \"unique\", đọc bắt đầu bằng âm /j/ nên dùng \"a\"."
+      "Sai — \"a\": từ đứng ngay sau mạo từ là \"extremely\", đọc bắt đầu bằng âm nguyên âm /ɪ/ nên không dùng \"a\" (chữ \"useful\" đứng sau đọc /j/ nhưng không phải từ đi liền mạo từ).",
+      "Sai — \"the\": đây là lần đầu nhắc tới bài học này, chưa xác định cụ thể.",
+      "Sai — \"(no article)\": \"lesson\" là danh từ đếm được số ít nên bắt buộc phải có mạo từ.",
+      "Đúng — \"an\": từ đi liền mạo từ là \"extremely\", bắt đầu bằng âm nguyên âm /ɪ/ nên dùng \"an\"."
     ],
     "bac": 3
   },
@@ -1280,9 +1280,9 @@
       "an"
     ],
     "correctIndex": 1,
-    "explanation": "Vế đầu nói về âm nhạc nói chung nên không dùng mạo từ; vế sau mới chỉ thứ nhạc cụ thể ở bữa tiệc nên dùng \"the\".",
+    "explanation": "Vế đầu nói về âm nhạc nói chung nên không dùng mạo từ; vế sau chỉ chính loại nhạc được phát ở bữa tiệc (\"the music at yesterday's party\") nên dùng \"the\".",
     "choiceExplanations": [
-      "Sai — \"the\": \"the music\" ở vế đầu sẽ chỉ một thứ nhạc cụ thể; câu đang đối lập nhạc nói chung với nhạc ở bữa tiệc.",
+      "Sai — \"the\": \"the music\" chỉ một bản nhạc hay loại nhạc cụ thể mà hai bên đã biết; vế đầu lại nói về âm nhạc nói chung.",
       "Đúng — \"(no article)\": danh từ không đếm được mang nghĩa khái quát (âm nhạc nói chung) không dùng mạo từ.",
       "Sai — \"a\": \"music\" là danh từ không đếm được nên không đi với \"a\".",
       "Sai — \"an\": \"an\" không đứng trước danh từ không đếm được, và \"music\" bắt đầu bằng âm phụ âm /m/."
@@ -1300,7 +1300,7 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The kids had ______ patience left after waiting two hours in line, so they all started to complain.",
+    "prompt": "After two hours in line, the kids had ______ patience left, and they were ready to give up and go home.",
     "choices": [
       "little",
       "a little",
@@ -1311,7 +1311,7 @@
     "explanation": "\"Patience\" không đếm được; kết quả là cả nhóm phàn nàn nên nghĩa tiêu cực (gần như hết kiên nhẫn), dùng \"little\".",
     "choiceExplanations": [
       "Đúng — \"little\": dùng với danh từ không đếm được, nghĩa tiêu cực (hầu như không còn kiên nhẫn), khớp với việc phàn nàn.",
-      "Sai — \"a little\": mang nghĩa tích cực (còn một chút), nên không hợp với kết quả là cả nhóm bắt đầu phàn nàn.",
+      "Sai — \"a little\": \"a little patience\" đúng ngữ pháp và mang nghĩa còn một ít, đủ dùng; không hợp với việc bọn trẻ đã gần như hết kiên nhẫn và muốn bỏ về.",
       "Sai — \"few\": chỉ dùng với danh từ đếm được số nhiều, còn \"patience\" không đếm được.",
       "Sai — \"a few\": chỉ dùng với danh từ đếm được số nhiều, còn \"patience\" không đếm được."
     ],
@@ -1326,9 +1326,9 @@
     "tags": [
       "art-u4-countable-uncountable"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Our teacher gave us a lot of homework, and I don't know how ______ of it I can finish tonight.",
+    "prompt": "Our teacher gave us a lot of homework, and I don't know how ______ I can finish tonight.",
     "choices": [
       "many",
       "few",
@@ -1336,10 +1336,10 @@
       "much"
     ],
     "correctIndex": 3,
-    "explanation": "\"It\" thay cho \"homework\", danh từ không đếm được, nên dùng \"how much\".",
+    "explanation": "\"Homework\" là danh từ không đếm được, nên hỏi lượng bằng \"how much\".",
     "choiceExplanations": [
       "Sai — \"many\": chỉ dùng với danh từ đếm được số nhiều, còn \"homework\" không đếm được.",
-      "Sai — \"few\": chỉ dùng với danh từ đếm được số nhiều, và \"how few of it\" không hợp với \"it\" là danh từ không đếm được.",
+      "Sai — \"few\": chỉ dùng với danh từ đếm được số nhiều, còn \"homework\" không đếm được.",
       "Sai — \"a little\": không đứng sau \"how\" để hỏi mức độ.",
       "Đúng — \"much\": \"homework\" không đếm được, nên hỏi lượng bằng \"how much\"."
     ],
@@ -1354,7 +1354,7 @@
     "tags": [
       "art-u2-definite-article"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Ben is ______ only student in our class who has been to Japan, so everyone asks him about it.",
     "choices": [
@@ -1364,14 +1364,14 @@
       "(no article)"
     ],
     "correctIndex": 2,
-    "explanation": "\"Only\" (duy nhất) luôn đi với \"the\" vì chỉ có một người thỏa điều kiện.",
+    "explanation": "Cụm \"the only + danh từ\" chỉ người hoặc vật duy nhất thỏa điều kiện, nên dùng \"the\".",
     "choiceExplanations": [
       "Sai — \"a\": chỉ có duy nhất một bạn từng đi Nhật, nên không dùng \"a\" như chọn một người bất kỳ.",
-      "Sai — \"an\": \"only\" bắt đầu bằng âm nguyên âm nên dễ chọn \"an\" (như trong cụm cố định \"an only child\"), nhưng ở đây nghĩa là duy nhất trong lớp nên dùng \"the\".",
+      "Sai — \"an\": dù \"only\" bắt đầu bằng âm nguyên âm, bạn Ben là người duy nhất thỏa điều kiện nên cần \"the\", không phải một người bất kỳ.",
       "Đúng — \"the\": \"the only\" chỉ người duy nhất, và mệnh đề \"who has been to Japan\" càng xác định rõ.",
       "Sai — \"(no article)\": \"student\" là danh từ đếm được số ít nên bắt buộc phải có mạo từ."
     ],
-    "bac": 3
+    "bac": 2
   },
   {
     "id": "en-articles-countable-uncountable-050",
@@ -1385,7 +1385,7 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "______ dinner we had at Grandma's yesterday was the best meal of the week.",
+    "prompt": "______ breakfast that Mom made this morning was so good that I asked for more.",
     "choices": [
       "(no article)",
       "The",
@@ -1393,12 +1393,12 @@
       "An"
     ],
     "correctIndex": 1,
-    "explanation": "Tên bữa ăn thường không có mạo từ, nhưng khi được xác định cụ thể bằng mệnh đề (\"we had at Grandma's yesterday\") thì dùng \"the\".",
+    "explanation": "Tên bữa ăn thường không có mạo từ, nhưng khi được xác định cụ thể bằng mệnh đề (\"that Mom made this morning\") thì dùng \"the\".",
     "choiceExplanations": [
-      "Sai — \"(no article)\": tên bữa ăn nói chung không cần mạo từ, nhưng bữa ăn này đã được xác định rõ bằng mệnh đề đi sau.",
-      "Đúng — \"The\": mệnh đề \"we had at Grandma's yesterday\" xác định chính xác bữa ăn nào, nên dùng \"the\".",
-      "Sai — \"A\": \"a dinner\" dùng khi mô tả một bữa ăn chưa xác định, trong khi ở đây bữa ăn đã được chỉ rõ.",
-      "Sai — \"An\": \"dinner\" bắt đầu bằng âm phụ âm /d/, và bữa ăn này cũng đã được xác định."
+      "Sai — \"(no article)\": tên bữa ăn nói chung không cần mạo từ, nhưng bữa sáng này đã được xác định rõ bằng mệnh đề \"that Mom made this morning\".",
+      "Đúng — \"The\": mệnh đề \"that Mom made this morning\" xác định chính xác bữa sáng nào, nên dùng \"the\".",
+      "Sai — \"A\": \"a breakfast\" dùng khi mô tả một bữa sáng chưa xác định, trong khi ở đây bữa sáng đã được chỉ rõ.",
+      "Sai — \"An\": \"breakfast\" bắt đầu bằng âm phụ âm /b/, và bữa sáng này cũng đã được xác định."
     ],
     "bac": 3
   }

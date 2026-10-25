@@ -70,7 +70,7 @@
           },
           {
             "en": "A: She's been working all day. B: So has her sister.",
-            "vi": "A: Cô ấy làm việc cả ngày. B: Chị cô ấy cũng vậy."
+            "vi": "A: Cô ấy đã làm việc suốt cả ngày nay. B: Chị cô ấy cũng vậy."
           }
         ]
       },
@@ -92,9 +92,9 @@
       },
       {
         "id": "asr-u6-and-so-neither",
-        "bac": 5,
+        "bac": 4,
         "label": "Nối hai vế: ..., and so / and neither + trợ động từ + chủ ngữ mới",
-        "explanationVi": "Có thể ghép sự đồng tình vào cùng một câu bằng cách nối vế thứ hai sau dấu phẩy với and so (sau vế khẳng định) hoặc and neither / and nor (sau vế phủ định). Cấu trúc vẫn là trợ động từ + chủ ngữ MỚI, nên trợ động từ phải khớp với thì của vế đầu và với chủ ngữ mới, không phải chủ ngữ của vế đầu. Chủ ngữ ghép nối bằng and là số nhiều: Ben speaks Spanish, and so do Ana and Carlos. Neither đã mang nghĩa phủ định nên trợ động từ ở dạng khẳng định: Tim isn't going, and neither are his sisters.",
+        "explanationVi": "Có thể ghép sự đồng tình vào cùng một câu bằng cách nối vế thứ hai sau dấu phẩy với and so (sau vế khẳng định) hoặc and neither (sau vế phủ định; ít gặp hơn: nor). Cấu trúc vẫn là trợ động từ + chủ ngữ MỚI, nên trợ động từ phải khớp với thì của vế đầu và với chủ ngữ mới, không phải chủ ngữ của vế đầu. Chủ ngữ ghép nối bằng and là số nhiều: Ben speaks Spanish, and so do Ana and Carlos. Neither đã mang nghĩa phủ định nên trợ động từ ở dạng khẳng định: Tim isn't going, and neither are his sisters.",
         "examples": [
           {
             "en": "My parents work downtown, and so does my aunt.",
@@ -103,6 +103,10 @@
           {
             "en": "Our team didn't win, and neither did our rivals.",
             "vi": "Đội chúng tôi không thắng, và đối thủ cũng không."
+          },
+          {
+            "en": "Tim isn't going, and neither are his sisters.",
+            "vi": "Tim không đi, và các chị em của bạn ấy cũng không."
           }
         ]
       }

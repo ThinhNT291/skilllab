@@ -854,16 +854,16 @@
     "choices": [
       "has",
       "would have",
-      "had",
-      "having"
+      "had had",
+      "had"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "explanation": "Ước về hiện tại không có thật dùng wish + quá khứ đơn.",
     "choiceExplanations": [
       "Sai — 'has' là hiện tại đơn; sau wish phải lùi về quá khứ đơn khi ước về hiện tại.",
       "Sai — 'would' chỉ dùng để phàn nàn hành vi của người/vật khác, không dùng cho trạng thái 'có' của chính chủ ngữ.",
-      "Đúng — 'wish + quá khứ đơn' (had) diễn tả ước điều trái với thực tế hiện tại: Mai hiện không có thị lực hoàn hảo.",
-      "Sai — 'having' là dạng V-ing, không thể làm động từ chính của mệnh đề sau 'she'."
+      "Sai — 'had had' (quá khứ hoàn thành) ước về chuyện đã qua; 'perfect eyesight' là tình trạng hiện tại của Mai.",
+      "Đúng — 'wish + quá khứ đơn' (had) diễn tả ước điều trái với thực tế hiện tại: Mai hiện không có thị lực hoàn hảo."
     ],
     "bac": 4
   },
@@ -886,14 +886,14 @@
       "has lived"
     ],
     "correctIndex": 0,
-    "explanation": "Wish + quá khứ đơn để ước về trạng thái hiện tại; 'live' là động từ trạng thái nên không dùng would.",
+    "explanation": "Wish + quá khứ đơn để ước về hoàn cảnh hiện tại (nơi sống); không dùng would vì đây là tình trạng, không phải hành vi lặp lại gây khó chịu.",
     "choiceExplanations": [
       "Đúng — 'wish + quá khứ đơn' (lived) diễn tả ước muốn trái với thực tế hiện tại (anh ấy đang sống xa).",
-      "Sai — 'wish + would' dùng cho hành vi lặp lại gây khó chịu hoặc sự kiện sắp tới, không dùng cho trạng thái như nơi sống.",
+      "Sai — 'wish + would' dùng cho hành vi lặp lại gây khó chịu hoặc sự kiện sắp tới; nơi sống là một tình trạng, nên dùng quá khứ đơn.",
       "Sai — 'lives' là hiện tại đơn, không dùng sau wish khi ước điều trái thực tế.",
       "Sai — hiện tại hoàn thành không dùng trong mệnh đề wish; ước về hiện tại cần quá khứ đơn."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-subjunctive-033",
@@ -944,12 +944,12 @@
     "correctIndex": 1,
     "explanation": "Tiếc nuối việc đã làm trong quá khứ: wish + hadn't + V3.",
     "choiceExplanations": [
-      "Sai — 'didn't eat' dùng để ước về hiện tại; chuyện ăn bánh đã xảy ra nên cần quá khứ hoàn thành.",
+      "Sai — 'didn't eat' dùng để ước về hiện tại hoặc thói quen; ở đây là một bữa tiệc đã qua nên cần quá khứ hoàn thành.",
       "Đúng — việc ăn quá nhiều đã xảy ra rồi; 'wish + hadn't + V3' diễn tả tiếc nuối vì đã làm điều đó.",
       "Sai — 'wouldn't' không dùng để tiếc nuối hành động đã qua của chính chủ ngữ.",
       "Sai — hiện tại hoàn thành không dùng trong mệnh đề wish, và sai về nghĩa."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-subjunctive-035",
@@ -967,7 +967,7 @@
       "learned",
       "had learned",
       "would learn",
-      "could learn"
+      "would have learned"
     ],
     "correctIndex": 1,
     "explanation": "Mốc 'when he was little' là quá khứ nên cần wish + quá khứ hoàn thành.",
@@ -975,9 +975,9 @@
       "Sai — quá khứ đơn ước về hiện tại, không khớp với mốc 'when he was little'.",
       "Đúng — 'when he was little' chỉ quá khứ; tiếc nuối việc đã không học thì dùng 'wish + had V3'.",
       "Sai — 'would' dùng để phàn nàn hành vi của người khác, không dùng cho tiếc nuối của chính chủ ngữ.",
-      "Sai — 'could learn' nói về khả năng ở hiện tại, trong khi câu tiếc nuối chuyện đã không học hồi nhỏ."
+      "Sai — 'wish + would have' không phải cấu trúc đúng; tiếc nuối chuyện quá khứ dùng 'wish + had V3'."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-subjunctive-036",
@@ -992,7 +992,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "My little brother keeps kicking the back of my seat in the car. I wish he ______ doing that.",
     "choices": [
-      "stopped",
+      "had stopped",
       "will stop",
       "stops",
       "would stop"
@@ -1000,7 +1000,7 @@
     "correctIndex": 3,
     "explanation": "Phàn nàn hành vi lặp lại của người khác dùng wish + would.",
     "choiceExplanations": [
-      "Sai — quá khứ đơn hợp với ước về trạng thái chung; với hành vi lặp lại của người khác thì dùng would.",
+      "Sai — 'had stopped' tiếc nuối chuyện đã qua; hành vi đạp ghế vẫn đang diễn ra nên không hợp.",
       "Sai — 'will' không dùng sau wish; phải lùi thành 'would'.",
       "Sai — hiện tại đơn không dùng sau wish khi ước điều trái thực tế.",
       "Đúng — hành vi gây khó chịu lặp lại của người khác (em trai), nên dùng 'wish + would'."
@@ -1033,7 +1033,7 @@
       "Sai — hiện tại đơn không dùng sau wish.",
       "Sai — 'will' không đứng sau wish; cần lùi thành 'would'."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-subjunctive-038",
@@ -1048,7 +1048,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Nam's phone keeps ringing during lessons. His teacher says, \"I wish you ______ it off before class starts!\"",
     "choices": [
-      "turned",
+      "turn",
       "had turned",
       "would turn",
       "will turn"
@@ -1056,12 +1056,12 @@
     "correctIndex": 2,
     "explanation": "Hành vi lặp lại của người khác khiến người nói bực: wish + would + V.",
     "choiceExplanations": [
-      "Sai — 'wish you turned' thiên về mô tả trạng thái; để đòi một người đổi thói quen lặp lại thì tự nhiên hơn khi dùng would.",
+      "Sai — 'turn' là dạng nguyên mẫu, không đứng sau 'wish you'; cần 'would turn'.",
       "Sai — dùng cho tiếc nuối một lần cụ thể đã qua, trong khi ngữ cảnh là thói quen lặp lại, chưa kết thúc.",
       "Đúng — 'keeps ringing' cho thấy hành vi lặp lại gây khó chịu; 'wish you would + V' là cách phàn nàn tự nhiên.",
       "Sai — 'will' không đứng sau wish."
     ],
-    "bac": 6
+    "bac": 5
   },
   {
     "id": "en-subjunctive-039",
@@ -1074,20 +1074,20 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The test is tomorrow and I haven't studied at all. If only I ______ more time!",
+    "prompt": "The test is tomorrow and I can't solve any of these problems. If only I ______ better at math!",
     "choices": [
-      "have",
-      "will have",
-      "would have",
-      "had"
+      "am",
+      "would be",
+      "were",
+      "had been"
     ],
-    "correctIndex": 3,
-    "explanation": "If only + quá khứ đơn: ước mạnh về hiện tại không có thật.",
+    "correctIndex": 2,
+    "explanation": "If only + quá khứ đơn (be → were): ước mạnh về hiện tại không có thật.",
     "choiceExplanations": [
       "Sai — hiện tại đơn không dùng sau if only khi ước điều trái thực tế.",
-      "Sai — 'will' không dùng sau if only.",
-      "Sai — 'would' dùng để phàn nàn hành vi người khác, không dùng cho 'có' của chính người nói.",
-      "Đúng — 'If only + quá khứ đơn' ước điều trái hiện tại (hiện không có đủ thời gian), cảm xúc mạnh hơn 'wish'."
+      "Sai — 'would' dùng để phàn nàn hành vi của người khác, không dùng cho năng lực của chính người nói.",
+      "Đúng — 'If only + were' ước điều trái hiện tại (hiện giỏi toán không bằng mong muốn), cảm xúc mạnh hơn 'wish'.",
+      "Sai — 'had been' tiếc nuối chuyện đã qua; ở đây nói về năng lực hiện tại."
     ],
     "bac": 4
   },
@@ -1117,7 +1117,7 @@
       "Sai — 'would' dùng cho hành vi của người/vật khác, không dùng cho tiếc nuối của chính người nói.",
       "Sai — dạng 'have + V3' không đứng sau if only; cần 'had + V3'."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-subjunctive-041",
@@ -1158,22 +1158,22 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Mom would rather we ______ out late on school nights.",
+    "prompt": "Mom would rather we ______ video games during dinner.",
     "choices": [
-      "don't stay",
-      "didn't stay",
-      "not staying",
-      "wouldn't stay"
+      "don't play",
+      "didn't play",
+      "not playing",
+      "wouldn't play"
     ],
     "correctIndex": 1,
     "explanation": "Mong muốn đối với hành động của người khác: would rather + S + quá khứ đơn (nghĩa hiện tại/tương lai).",
     "choiceExplanations": [
-      "Sai — hiện tại đơn không dùng sau 'would rather' khi chủ ngữ khác nhau.",
+      "Sai trong bài này — chuẩn viết dùng quá khứ đơn (didn't play); văn nói Mỹ thân mật thỉnh thoảng nghe 'I'd rather you don't', nhưng bài này kiểm tra dạng chuẩn.",
       "Đúng — chủ ngữ khác nhau (Mom / we) nên dùng 'would rather + S + quá khứ đơn'; dạng này mang nghĩa hiện tại/tương lai.",
       "Sai — V-ing không tạo thành mệnh đề đầy đủ sau 'we'.",
       "Sai — 'would' không đứng sau 'would rather + S'."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-subjunctive-043",
@@ -1186,7 +1186,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The party is tonight, but Dad would rather Lan ______ at home and study for the exam.",
+    "prompt": "The party is tonight, but Dad would rather Lan ______ at home to study for the exam.",
     "choices": [
       "stayed",
       "staying",
@@ -1201,7 +1201,7 @@
       "Sai — 'will' không đứng sau 'would rather + S'.",
       "Sai — nguyên mẫu có 'to' không dùng trong cấu trúc này."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-subjunctive-044",
@@ -1214,7 +1214,7 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "I'm upset that you read my diary. I would rather you ______ it.",
+    "prompt": "I'm upset that you read my diary yesterday. I would rather you ______ it.",
     "choices": [
       "didn't read",
       "don't read",
@@ -1229,7 +1229,7 @@
       "Đúng — chuyện đọc nhật ký đã xảy ra; 'would rather + S + had(n't) V3' nói về điều ước đã khác đi trong quá khứ.",
       "Sai — 'would' không đứng sau 'would rather + S'."
     ],
-    "bac": 6
+    "bac": 5
   },
   {
     "id": "en-subjunctive-045",
@@ -1280,12 +1280,12 @@
     "correctIndex": 3,
     "explanation": "It's about time + S + quá khứ đơn: phê phán việc đáng lẽ đã làm.",
     "choiceExplanations": [
-      "Sai — hiện tại đơn không dùng sau 'It's about time + S'.",
+      "Sai — văn viết chuẩn dùng quá khứ đơn; văn nói đôi khi nghe 'mows', nhưng bài này kiểm tra dạng chuẩn.",
       "Sai — 'will' không dùng trong cấu trúc này.",
       "Sai — nguyên mẫu không đúng; cần quá khứ đơn.",
       "Đúng — 'It's about time + S + quá khứ đơn' nhấn mạnh việc đáng lẽ đã phải làm nhưng chưa làm."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-subjunctive-047",
@@ -1296,22 +1296,22 @@
     "tags": [
       "subjunctive-u6-its-time"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "It's high time we ______ complaining and actually started doing something about it.",
+    "prompt": "We have complained about the noise for years. It's high time we ______ something about it.",
     "choices": [
-      "stop",
-      "would stop",
-      "had stopped",
-      "stopped"
+      "do",
+      "will do",
+      "had done",
+      "did"
     ],
     "correctIndex": 3,
-    "explanation": "It's high time + S + quá khứ đơn, song song với 'started'.",
+    "explanation": "It's high time + S + quá khứ đơn, nghĩa hiện tại, nhấn mạnh sự cấp bách.",
     "choiceExplanations": [
       "Sai — hiện tại đơn không dùng sau 'It's high time + S'.",
-      "Sai — 'would' không dùng trong cấu trúc này.",
-      "Sai — quá khứ hoàn thành sẽ chỉ chuyện đã qua trước một mốc khác, không phải điều cần làm bây giờ.",
-      "Đúng — 'high time we + quá khứ đơn', nghĩa hiện tại, song song với 'started'."
+      "Sai — 'will' không dùng trong cấu trúc này.",
+      "Sai — quá khứ hoàn thành chỉ chuyện đã qua trước một mốc khác, không phải việc cần làm bây giờ.",
+      "Đúng — 'high time we + quá khứ đơn' (did), nghĩa hiện tại: đáng lẽ đã phải làm gì đó từ lâu."
     ],
     "bac": 5
   },
@@ -1334,7 +1334,7 @@
       "will clean"
     ],
     "correctIndex": 1,
-    "explanation": "Suggest + that + S + V nguyên mẫu (giả định trang trọng).",
+    "explanation": "Suggest + that + S + V nguyên mẫu (dạng giả định, dùng cả trong lời nói thường ngày).",
     "choiceExplanations": [
       "Sai — không chia quá khứ sau 'suggest that' (cấu trúc giả định).",
       "Đúng — sau 'suggest that', động từ ở dạng nguyên mẫu không chia.",
@@ -1352,22 +1352,22 @@
     "tags": [
       "subjunctive-u7-mandative"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The school requires that students not ______ their phones in class.",
+    "prompt": "The school requires that each student not ______ a phone during exams.",
     "choices": [
       "use",
       "uses",
       "used",
-      "will use"
+      "using"
     ],
     "correctIndex": 0,
     "explanation": "Phủ định giả định: that + S + not + V nguyên mẫu.",
     "choiceExplanations": [
-      "Đúng — 'not' đặt trước động từ nguyên mẫu: 'require that + S + not + V'.",
-      "Sai — không chia '-s' trong mệnh đề giả định.",
-      "Sai — không chia quá khứ trong mệnh đề giả định.",
-      "Sai — 'will' không đứng sau 'not' trong cấu trúc này."
+      "Đúng — 'require that + S + not + V nguyên mẫu': 'not' đứng trước động từ gốc.",
+      "Sai — dù 'each student' là số ít, động từ trong mệnh đề giả định vẫn giữ nguyên mẫu, không thêm -s.",
+      "Sai — không lùi sang quá khứ trong mệnh đề giả định.",
+      "Sai — V-ing không làm động từ chính của mệnh đề."
     ],
     "bac": 5
   },
@@ -1392,11 +1392,11 @@
     "correctIndex": 2,
     "explanation": "Giả định với 'it was vital that': động từ to be ở dạng 'be', không lùi thì.",
     "choiceExplanations": [
-      "Sai — 'was' là cách nói đời thường, nhưng trong cấu trúc giả định chuẩn mực thì dùng 'be'.",
+      "Sai trong bài này — 'was' là cách nói đời thường (Anh-Anh còn gặp 'It was vital that he was taken...'), nhưng bài này kiểm tra dạng giả định chuẩn: 'be'.",
       "Sai — 'were' dùng cho wish/if giả định, không dùng cho câu đề nghị/yêu cầu.",
-      "Đúng — 'vital that + S + be' ; không lùi thành 'was' dù câu chính ở quá khứ. (Anh-Anh thường thêm 'should be'.)",
+      "Đúng — 'vital that + S + be', không lùi thành 'was' dù câu chính ở quá khứ; đây là dạng chuẩn, ưu tiên trong Anh-Mỹ.",
       "Sai — 'is' chia theo hiện tại, không đúng dạng nguyên mẫu của mệnh đề giả định."
     ],
-    "bac": 6
+    "bac": 5
   }
 ]

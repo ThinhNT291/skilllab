@@ -14,7 +14,7 @@
         "id": "cs-u1-it-cleft",
         "bac": 5,
         "label": "Câu chẻ với It: It is/was ... that/who ...",
-        "explanationVi": "Dùng để nhấn mạnh một thành phần của câu (người, vật, thời gian, nơi chốn). Cấu trúc: It + is/was + phần cần nhấn mạnh + that/who + phần còn lại. Dùng who hoặc that cho người; that cho vật, thời gian, nơi chốn. Dạng be theo nghĩa: nói chuyện quá khứ dùng was, chuyện hiện tại dùng is. Nghĩa của câu không đổi, chỉ thay đổi trọng tâm. Trong nói thân mật, sau cụm thời gian hoặc nơi chốn đôi khi người ta dùng when/where thay cho that.",
+        "explanationVi": "Dùng để nhấn mạnh một thành phần của câu (người, vật, thời gian, nơi chốn). Cấu trúc: It + is/was + phần cần nhấn mạnh + that/who + phần còn lại. Dùng who hoặc that cho người; that cho vật, thời gian, nơi chốn. Dạng be theo nghĩa: nói chuyện quá khứ dùng was, chuyện hiện tại dùng is. Be luôn đi với It nên chỉ là is/was, kể cả khi phần nhấn mạnh là số nhiều: It was our neighbors who adopted the dog (không dùng 'were'). Nghĩa của câu không đổi, chỉ thay đổi trọng tâm. Trong nói thân mật, sau cụm thời gian hoặc nơi chốn đôi khi người ta dùng when/where thay cho that.",
         "examples": [
           {
             "en": "It was my cousin who taught me to cook.",
@@ -46,7 +46,7 @@
         "id": "cs-u3-the-thing-is",
         "bac": 4,
         "label": "The thing / problem / fact / reason + is (that)",
-        "explanationVi": "Dùng một danh từ trừu tượng (thing, problem, fact, reason, point, trouble) làm chủ ngữ, theo sau là is/was (that) + mệnh đề, để nhấn mạnh điều bạn sắp nói. Với reason, có thể nói The reason (why) I left is that ... Động từ be chia theo thời của câu.",
+        "explanationVi": "Dùng một danh từ trừu tượng (thing, problem, fact, reason, point, trouble) làm chủ ngữ, theo sau là is/was (that) + mệnh đề, để nhấn mạnh điều bạn sắp nói. Với reason, có thể nói The reason (why) I left is that ... Động từ be chia theo thời của câu. Be chia theo danh từ chính ở đầu cụm (the problem), không theo danh từ đứng ngay trước nó: The problem with these computers is that they are slow.",
         "examples": [
           {
             "en": "The problem is that the phone has no signal here.",
@@ -62,7 +62,7 @@
         "id": "cs-u4-it-be-adjective-that",
         "bac": 3,
         "label": "It + be + tính từ + that + mệnh đề",
-        "explanationVi": "Dùng It làm chủ ngữ giả, tính từ nêu đánh giá, và that + mệnh đề nêu nội dung: It is important that you arrive on time. Cách này nhấn mạnh nhận xét của người nói đối với cả mệnh đề. Tính từ thường gặp: important, necessary, surprising, strange, clear, lucky, essential. Lưu ý: cấu trúc này gần với câu chẻ (nhấn mạnh bằng chủ ngữ giả It), nhưng về mặt ngữ pháp là chủ ngữ giả chứ không phải câu chẻ thật. Tính từ -ing mô tả sự việc (amazing, surprising); tính từ -ed mô tả cảm giác của người (amazed, surprised), nên sau 'It is' dùng dạng -ing.",
+        "explanationVi": "Dùng It làm chủ ngữ giả, tính từ nêu đánh giá, và that + mệnh đề nêu nội dung: It is important that you arrive on time. Cách này nhấn mạnh nhận xét của người nói đối với cả mệnh đề. Tính từ thường gặp: important, necessary, surprising, strange, clear, lucky, essential, fortunate. Lưu ý: cấu trúc này gần với câu chẻ (nhấn mạnh bằng chủ ngữ giả It), nhưng về mặt ngữ pháp là chủ ngữ giả chứ không phải câu chẻ thật. Tính từ -ing mô tả sự việc (amazing, surprising); tính từ -ed mô tả cảm giác của người (amazed, surprised), nên sau 'It is' dùng dạng -ing.",
         "examples": [
           {
             "en": "It is lucky that we brought umbrellas.",
@@ -92,9 +92,9 @@
       },
       {
         "id": "cs-u6-reversed-all-cleft",
-        "bac": 6,
+        "bac": 5,
         "label": "Câu chẻ đảo và All / The only thing",
-        "explanationVi": "(1) Câu chẻ What đảo: đưa phần nhấn mạnh lên trước, rồi be, rồi What + mệnh đề: A good rest is what I need. (2) All + mệnh đề + be + phần nhấn mạnh, nghĩa là 'điều duy nhất': All I want is a quiet room. All she did was smile (sau be là động từ nguyên thể, có hoặc không có to). (3) The only / first / last thing + mệnh đề + be + phần nhấn mạnh: The first thing I noticed was the smell. (4) Be chia theo chủ ngữ thật và theo thời của câu: ở dạng đảo, chia theo phần nhấn mạnh đứng trước (New shoes are what I need); ở dạng All / The only thing, chia theo 'all' hoặc 'thing' (số ít).",
+        "explanationVi": "(1) Câu chẻ What đảo: đưa phần nhấn mạnh lên trước, rồi be, rồi What + mệnh đề: A good rest is what I need. (2) All + mệnh đề + be + phần nhấn mạnh, nghĩa là 'điều duy nhất': All I want is a quiet room. All she did was smile (sau be là động từ nguyên thể, có hoặc không có to). (3) The only / first / last thing + mệnh đề + be + phần nhấn mạnh: The first thing I noticed was the smell. (4) Chia be thế nào: ở dạng đảo, be chia theo phần đứng trước (A good rest is what I need; New shoes are what I need), trong văn nói đôi khi vẫn nghe 'is' nhưng khi viết và làm bài thì dùng are với phần nhấn mạnh số nhiều. Ở dạng All / The only thing, be luôn số ít (All I want is a quiet room); thì của be khớp với thì của động từ trong mệnh đề (All I did was smile).",
         "examples": [
           {
             "en": "A good rest is what I need right now.",

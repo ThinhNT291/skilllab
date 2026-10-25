@@ -851,20 +851,20 @@
     "difficulty": 1,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "It is ______ that so many students joined the school trip.",
+    "prompt": "It is ______ that the bus never comes on time.",
     "choices": [
-      "amazed",
-      "amazing",
-      "amaze",
-      "amazement"
+      "annoyed",
+      "annoying",
+      "annoy",
+      "annoyance"
     ],
     "correctIndex": 1,
-    "explanation": "Sau 'It is' dùng tính từ -ing để đánh giá sự việc: It is amazing that ...",
+    "explanation": "Sau 'It is' dùng tính từ -ing để nhận xét sự việc: It is annoying that ...",
     "choiceExplanations": [
-      "Sai — 'amazed': tính từ -ed mô tả cảm giác của người, không dùng để đánh giá sự việc sau 'It is'.",
-      "Đúng — 'amazing' là tính từ -ing đánh giá sự việc: It is amazing that ...",
-      "Sai — 'amaze': đây là động từ, không đứng sau 'It is' làm tính từ.",
-      "Sai — 'amazement': là danh từ, không tạo cấu trúc It + be + tính từ + that."
+      "Sai — 'annoyed': tính từ -ed mô tả cảm giác của người, không dùng để nhận xét sự việc sau 'It is'.",
+      "Đúng — 'annoying' là tính từ -ing nhận xét sự việc: It is annoying that ...",
+      "Sai — 'annoy': đây là động từ, không đứng sau 'It is' làm tính từ.",
+      "Sai — 'annoyance': là danh từ, không tạo cấu trúc It + be + tính từ + that."
     ]
   },
   {
@@ -911,16 +911,16 @@
     "choices": [
       "is",
       "are",
-      "be",
-      "being"
+      "was",
+      "has"
     ],
     "correctIndex": 0,
     "explanation": "Chủ ngữ 'the best thing' số ít, câu ở hiện tại nên dùng is.",
     "choiceExplanations": [
       "Đúng — 'thing' số ít, hiện tại: The best thing ... is that ...",
       "Sai — 'are': dùng cho chủ ngữ số nhiều, mà 'thing' là số ít.",
-      "Sai — 'be': động từ nguyên thể không chia, không đứng làm động từ chính ở đây.",
-      "Sai — 'being': dạng -ing không thể làm động từ chính của câu."
+      "Sai — 'was': quá khứ, mà câu nói chuyện hiện tại (you can play).",
+      "Sai — 'has': không phải động từ nối be, không tạo được 'The best thing ... has that ...'."
     ]
   },
   {
@@ -940,7 +940,7 @@
       "is",
       "were",
       "was",
-      "being"
+      "has been"
     ],
     "correctIndex": 2,
     "explanation": "Chuyện đã xảy ra (worried) nên be ở quá khứ; phần nhấn mạnh số ít nên dùng was.",
@@ -948,7 +948,7 @@
       "Sai — 'is': hiện tại, không khớp với 'worried' ở quá khứ.",
       "Sai — 'were': dùng cho số nhiều, mà 'the long silence' là số ít.",
       "Đúng — quá khứ, số ít: What worried my mom was the long silence.",
-      "Sai — 'being' không thể làm động từ chính của câu."
+      "Sai — 'has been': thì hiện tại hoàn thành, không khớp với 'worried' (quá khứ đơn)."
     ]
   },
   {
@@ -961,7 +961,7 @@
       "cs-u6-reversed-all-cleft"
     ],
     "difficulty": 1,
-    "bac": 6,
+    "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "All I want ______ a glass of cold water.",
     "choices": [
@@ -1114,7 +1114,7 @@
     "explanation": "Sau who, động từ chia theo thời của câu: quá khứ nên dùng scored.",
     "choiceExplanations": [
       "Sai — 'scoring': dạng -ing không làm động từ chính.",
-      "Sai — 'score': nguyên thể, không đúng khi chủ ngữ là Lan và chuyện ở quá khứ.",
+      "Sai — 'score': nguyên thể không chia, không hợp với 'It was' (quá khứ).",
       "Sai — 'scores': hiện tại, không khớp với 'It was'.",
       "Đúng — quá khứ: It was Lan who scored ..."
     ]
@@ -1144,7 +1144,7 @@
       "Đúng — What làm chủ ngữ của 'makes' và mở đầu câu chẻ.",
       "Sai — 'That': không có nghĩa 'điều mà' ở đầu câu chẻ kiểu này.",
       "Sai — 'Which': không mở đầu mệnh đề chủ ngữ ở câu chẻ What.",
-      "Sai — 'It': sẽ cần cấu trúc It is ... that, không khớp với phần còn lại."
+      "Sai — 'It': câu chẻ với It cần dạng 'It is ... that'; ở đây động từ 'makes' đứng ngay sau chỗ trống nên phải là 'What'."
     ]
   },
   {
@@ -1187,9 +1187,9 @@
     "difficulty": 2,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "It is lucky ______ nobody was hurt in the accident.",
+    "prompt": "It is fortunate ______ nobody was hurt in the accident.",
     "choices": [
-      "how",
+      "whether",
       "what",
       "which",
       "that"
@@ -1197,10 +1197,10 @@
     "correctIndex": 3,
     "explanation": "Sau It is + tính từ dùng that để mở đầu mệnh đề nội dung.",
     "choiceExplanations": [
-      "Sai — 'how': không nối tính từ với mệnh đề nội dung ở cấu trúc này.",
+      "Sai — 'whether': mang nghĩa 'liệu có', không nối được tính từ với mệnh đề nội dung.",
       "Sai — 'what': không dùng để mở mệnh đề sau tính từ trong cấu trúc này.",
       "Sai — 'which': không dùng ở đây vì không thay cho danh từ nào.",
-      "Đúng — It is lucky that + mệnh đề."
+      "Đúng — It is fortunate that + mệnh đề."
     ]
   },
   {
@@ -1248,7 +1248,7 @@
       "do",
       "doing",
       "does",
-      "to do"
+      "did"
     ],
     "correctIndex": 2,
     "explanation": "Động từ sau who chia theo phần được nhấn mạnh là Linh (số ít), không theo 'her brothers'.",
@@ -1256,7 +1256,7 @@
       "Sai — 'do': chia theo 'her brothers', nhưng người được nhấn mạnh là Linh.",
       "Sai — 'doing': dạng -ing không làm động từ chính.",
       "Đúng — chia theo Linh (số ít, hiện tại): does.",
-      "Sai — 'to do': nguyên thể có to không làm động từ chính."
+      "Sai — 'did': quá khứ, không khớp với 'It is' và thói quen hiện tại 'in my house'."
     ]
   },
   {
@@ -1271,7 +1271,7 @@
     "difficulty": 3,
     "bac": 5,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "It was in the school canteen, not in the gym, ______ the two teams finally met.",
+    "prompt": "It was in the school cafeteria, not in the gym, ______ the two teams finally met.",
     "choices": [
       "who",
       "that",
@@ -1297,22 +1297,22 @@
       "cs-u6-reversed-all-cleft"
     ],
     "difficulty": 3,
-    "bac": 6,
+    "bac": 5,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "New shoes ______ what I need, not another bag.",
+    "prompt": "Comfortable boots and a warm jacket ______ what you need for the trip.",
     "choices": [
       "is",
       "be",
-      "am",
+      "was",
       "are"
     ],
     "correctIndex": 3,
-    "explanation": "Câu chẻ đảo: be chia theo phần nhấn mạnh đứng trước. 'New shoes' số nhiều nên dùng are.",
+    "explanation": "Câu chẻ đảo: be chia theo phần nhấn mạnh đứng trước. Chủ ngữ ghép (boots and a jacket) là số nhiều nên dùng are.",
     "choiceExplanations": [
-      "Sai — 'is': bị 'what I need' kéo lệch; chủ ngữ thật là 'New shoes' (số nhiều).",
-      "Sai — 'be': nguyên thể, không chia nên không làm động từ chính.",
-      "Sai — 'am': chỉ đi với I, mà chủ ngữ là 'New shoes'.",
-      "Đúng — câu chẻ đảo: be chia theo 'New shoes' (số nhiều): are."
+      "Sai — 'is': chủ ngữ thật là 'Comfortable boots and a warm jacket' (hai thứ, số nhiều), không phải 'what you need'.",
+      "Sai — 'be': nguyên thể không chia, không làm động từ chính ở đây.",
+      "Sai — 'was': quá khứ, mà câu nói về chuyến đi sắp tới ('you need').",
+      "Đúng — câu chẻ đảo: be chia theo phần nhấn mạnh đứng trước (hai thứ, số nhiều): are."
     ]
   },
   {
@@ -1325,14 +1325,14 @@
       "cs-u6-reversed-all-cleft"
     ],
     "difficulty": 3,
-    "bac": 6,
+    "bac": 4,
     "title": "Điền từ vào chỗ trống",
     "prompt": "The only thing Hoa asked for ______ a quiet place to study.",
     "choices": [
       "was",
       "were",
       "are",
-      "been"
+      "is"
     ],
     "correctIndex": 0,
     "explanation": "Chủ ngữ 'the only thing' số ít, 'asked' ở quá khứ nên dùng was.",
@@ -1340,7 +1340,7 @@
       "Đúng — số ít, quá khứ: was.",
       "Sai — 'were': dùng cho số nhiều, mà 'the only thing' là số ít.",
       "Sai — 'are': hiện tại và số nhiều, không khớp.",
-      "Sai — 'been': phân từ, không làm động từ chính nếu thiếu have."
+      "Sai — 'is': hiện tại, mà 'asked for' ở quá khứ."
     ]
   },
   {
@@ -1353,7 +1353,7 @@
       "cs-u6-reversed-all-cleft"
     ],
     "difficulty": 3,
-    "bac": 6,
+    "bac": 5,
     "title": "Điền từ vào chỗ trống",
     "prompt": "All I did ______ say hello, and he got angry.",
     "choices": [
@@ -1381,9 +1381,9 @@
       "cs-u6-reversed-all-cleft"
     ],
     "difficulty": 3,
-    "bac": 6,
+    "bac": 5,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "My grandmother's cooking is ______ I miss most.",
+    "prompt": "A long walk is ______ I do after school every day.",
     "choices": [
       "that",
       "what",
@@ -1393,8 +1393,8 @@
     "correctIndex": 1,
     "explanation": "Câu chẻ đảo What: phần nhấn mạnh + be + what + mệnh đề.",
     "choiceExplanations": [
-      "Sai — 'that': không thay cho 'what' trong dạng đảo này; 'that' cần một danh từ đứng trước nó.",
-      "Đúng — dạng đảo: ... is what I miss most.",
+      "Sai — 'that': không thay cho 'what' trong dạng đảo; mệnh đề sau nghĩa là 'điều mà tôi làm'.",
+      "Đúng — dạng đảo: ... is what I do ...",
       "Sai — 'which': không dùng trong câu chẻ đảo kiểu What.",
       "Sai — 'who': chỉ dùng cho người."
     ]
