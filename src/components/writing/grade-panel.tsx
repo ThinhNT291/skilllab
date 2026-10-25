@@ -3,7 +3,9 @@
 import { useRef, useState } from "react"
 import { bacLabel } from "@/lib/content/bac"
 import type { Bac } from "@/lib/content/types"
-import { CRITERIA, countWords, MAX_PER_CRITERION, MAX_WRITING_CHARS, MIN_WORDS, type Feedback, type Skill } from "@/lib/rubric"
+import { countWords, MAX_WRITING_CHARS, MIN_WORDS, type Feedback, type Skill } from "@/lib/rubric"
+import { detailFromFeedback } from "@/lib/grading/detail"
+import { GradeReport, type Metrics, type TagInfoMap } from "./grade-report"
 import { saveAttempt } from "@/lib/db"
 import type { WritingHints } from "@/lib/hints"
 import { HintsView } from "./hints-view"
@@ -11,10 +13,6 @@ import { TASKS, type SpeechTask } from "@/lib/writing-tasks"
 
 const BTN = "rounded-game border-b-[5px] border-primary-deep bg-primary px-5 py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2 disabled:opacity-50"
 const MAX_RECORD_SECONDS = 90
-
-function bacText(n: number): string {
-  return n <= 0 ? "Dưới Bậc 1" : bacLabel(n as Bac)
-}
 
 async function toBase64(blob: Blob): Promise<string> {
   const bytes = new Uint8Array(await blob.arrayBuffer())
@@ -33,6 +31,10 @@ export function GradePanel({ skill }: { skill: Skill }) {
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState("")
   const [feedback, setFeedback] = useState<Feedback | null>(null)
+  const [metrics, setMetrics] = useState<Metrics | null>(null)
+  const [tagInfo, setTagInfo] = useState<TagInfoMap>({})
+  const [recordedSec, setRecordedSec] = useState(0)
+  const startedAt = useRef(0)
   const [hints, setHints] = useState<WritingHints | null>(null)
   const [hintBusy, setHintBusy] = useState(false)
   const [saved, setSaved] = useState<"idle" | "saved" | "failed">("idle")
@@ -52,10 +54,12 @@ export function GradePanel({ skill }: { skill: Skill }) {
       rec.ondataavailable = (e) => chunks.push(e.data)
       rec.onstop = () => {
         stream.getTracks().forEach((t) => t.stop())
+        setRecordedSec(Math.round((Date.now() - startedAt.current) / 1000))
         setAudio(new Blob(chunks, { type: rec.mimeType || "audio/webm" }))
         setRecording(false)
       }
       rec.start()
+      startedAt.current = Date.now()
       recorder.current = rec
       setAudio(null)
       setRecording(true)
@@ -96,15 +100,17 @@ export function GradePanel({ skill }: { skill: Skill }) {
       const body =
         skill === "writing"
           ? { skill, task: task.prompt, targetBac: task.bac, text }
-          : { skill, task: task.prompt, targetBac: task.bac, audio: { mime: audio!.type, data: await toBase64(audio!) } }
+          : { skill, task: task.prompt, targetBac: task.bac, audio: { mime: audio!.type, data: await toBase64(audio!) }, durationSec: recordedSec }
       const res = await fetch("/api/grade", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) })
-      const json = (await res.json()) as { feedback?: Feedback; error?: string }
+      const json = (await res.json()) as { feedback?: Feedback; metrics?: Metrics; tagInfo?: TagInfoMap; error?: string }
       if (!res.ok || !json.feedback) setError(json.error ?? "Chưa chấm được, thử lại nhé.")
       else {
         setFeedback(json.feedback)
+        setMetrics(json.metrics ?? null)
+        setTagInfo(json.tagInfo ?? {})
         // Chỉ lưu điểm và một nhận xét ngắn, không lưu bài làm hay bản ghi âm.
         const f = json.feedback
-        const r = await saveAttempt({ skill, taskId: task.id, targetBac: task.bac, total: f.total, estimatedBac: f.estimatedBac, scores: f.scores, note: f.improvements[0] })
+        const r = await saveAttempt({ skill, taskId: task.id, targetBac: task.bac, total: f.total, estimatedBac: f.estimatedBac, scores: f.scores, note: f.priorities[0]?.issue ?? f.improvements[0], detail: detailFromFeedback(f) })
         setSaved(r.ok ? "saved" : "failed")
         setSaveDetail(r.ok ? "" : r.reason === "not_configured" ? "chưa kết nối Supabase" : (r.message ?? "lỗi không rõ"))
       }
@@ -196,76 +202,13 @@ export function GradePanel({ skill }: { skill: Skill }) {
       )}
 
       {feedback && (
-        <section aria-label="Kết quả chấm" className="anim-pop space-y-3 rounded-game border-2 border-border bg-card p-5">
-          <p className="text-3xl font-extrabold">{feedback.total}/10</p>
-          {saved !== "idle" && (
-            <p className="text-sm text-muted-foreground" role="status">
-              {saved === "saved" ? "Đã lưu điểm vào tiến độ." : `Chưa lưu được điểm (${saveDetail}). Nếu thông báo nhắc đến bảng graded_attempts, cần chạy tệp supabase/migrations/0006_graded_attempts.sql trong Supabase.`}
-            </p>
-          )}
-          <p className="text-muted-foreground">
-            Mức bạn thể hiện (máy ước lượng, chỉ để tham khảo): <strong>{bacText(feedback.estimatedBac)}</strong>
-          </p>
-          <ul className="space-y-1">
-            {CRITERIA[skill].map((c) => (
-              <li key={c.key} className="flex justify-between gap-3">
-                <span>{c.label}</span>
-                <strong>
-                  {feedback.scores[c.key]}/{MAX_PER_CRITERION}
-                </strong>
-              </li>
-            ))}
-          </ul>
-          {feedback.transcript && (
-            <div>
-              <h2 className="font-extrabold">📝 Máy nghe được</h2>
-              <p lang="en" className="text-muted-foreground">
-                {feedback.transcript}
-              </p>
-            </div>
-          )}
-          {feedback.message && (
-            <div className="rounded-game border-2 border-border bg-background p-3">
-              {feedback.message.split(/\n\s*\n/).map((para, i) => (
-                <p key={i} className={i > 0 ? "mt-2" : ""}>
-                  {para}
-                </p>
-              ))}
-            </div>
-          )}
-          {feedback.strengths.length > 0 && (
-            <div>
-              <h2 className="font-extrabold">👍 Làm tốt</h2>
-              <ul className="list-disc pl-5">{feedback.strengths.map((s) => <li key={s}>{s}</li>)}</ul>
-            </div>
-          )}
-          {feedback.improvements.length > 0 && (
-            <div>
-              <h2 className="font-extrabold">🎯 Cần cải thiện</h2>
-              <ul className="list-disc pl-5">{feedback.improvements.map((s) => <li key={s}>{s}</li>)}</ul>
-            </div>
-          )}
-          {feedback.corrections.length > 0 && (
-            <div>
-              <h2 className="font-extrabold">✏️ Sửa lỗi</h2>
-              <ul className="space-y-2">
-                {feedback.corrections.map((c, i) => (
-                  <li key={i}>
-                    <span className="line-through" lang="en">{c.original}</span> → <strong lang="en">{c.fixed}</strong>
-                    <br />
-                    <span className="text-sm text-muted-foreground">{c.reasonVi}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-          {feedback.corrected && (
-            <div>
-              <h2 className="font-extrabold">Bản đã sửa</h2>
-              <p lang="en">{feedback.corrected}</p>
-            </div>
-          )}
-        </section>
+        <GradeReport
+          skill={skill}
+          feedback={feedback}
+          metrics={metrics}
+          tagInfo={tagInfo}
+          saveNote={saved === "idle" ? "" : saved === "saved" ? "Đã lưu điểm vào tiến độ." : `Chưa lưu được điểm (${saveDetail}). Nếu thông báo nhắc đến bảng graded_attempts, cần chạy tệp supabase/migrations/0006_graded_attempts.sql trong Supabase.`}
+        />
       )}
     </div>
   )

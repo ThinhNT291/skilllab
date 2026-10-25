@@ -1,5 +1,6 @@
 import { createClient } from "@/lib/supabase/client"
 import type { AttemptRow } from "@/lib/analytics/attempts"
+import type { AttemptDetail } from "@/lib/grading/detail"
 import { dbConfigured, ensureProfile } from "./session"
 
 type Fail = { ok: false; reason: "not_configured" | "error"; message?: string }
@@ -14,6 +15,8 @@ export interface NewAttempt {
   scores: Record<string, number>
   /** Một nhận xét ngắn (tối đa 200 ký tự) để xem lại; không lưu bài làm. */
   note?: string
+  /** Chi tiết để theo dõi điểm yếu lặp lại (cần migration 0009) */
+  detail?: AttemptDetail
 }
 
 /** Lưu điểm một bài Viết/Nói đã chấm. Cần chạy migration 0006. */
@@ -21,7 +24,7 @@ export async function saveAttempt(a: NewAttempt): Promise<{ ok: true } | Fail> {
   if (!dbConfigured()) return { ok: false, reason: "not_configured" }
   try {
     const profile = await ensureProfile()
-    const { error } = await createClient().from("graded_attempts").insert({
+    const base = {
       profile_id: profile.id,
       skill: a.skill,
       task_id: a.taskId,
@@ -30,7 +33,11 @@ export async function saveAttempt(a: NewAttempt): Promise<{ ok: true } | Fail> {
       estimated_bac: a.estimatedBac,
       scores: a.scores,
       note: a.note?.slice(0, 200) ?? null,
-    })
+    }
+    const supabase = createClient()
+    let { error } = await supabase.from("graded_attempts").insert({ ...base, detail: a.detail ?? null })
+    // Chưa chạy migration 0009 (chưa có cột detail): vẫn lưu điểm như trước, chỉ thiếu phần theo dõi điểm yếu.
+    if (error && /detail/i.test(error.message)) ({ error } = await supabase.from("graded_attempts").insert(base))
     return error ? { ok: false, reason: "error", message: error.message } : { ok: true }
   } catch (e) {
     return fail(e)
@@ -42,14 +49,12 @@ export async function getAttempts(limit = 60): Promise<{ ok: true; rows: Attempt
   if (!dbConfigured()) return { ok: false, reason: "not_configured" }
   try {
     const profile = await ensureProfile()
-    const { data, error } = await createClient()
-      .from("graded_attempts")
-      .select("skill, task_id, target_bac, total, estimated_bac, scores, note, created_at")
-      .eq("profile_id", profile.id)
-      .order("created_at", { ascending: false })
-      .limit(limit)
-    if (error) return { ok: false, reason: "error", message: error.message }
-    return { ok: true, rows: (data ?? []) as AttemptRow[] }
+    const supabase = createClient()
+    const query = (cols: string) => supabase.from("graded_attempts").select(cols).eq("profile_id", profile.id).order("created_at", { ascending: false }).limit(limit)
+    let res = await query("skill, task_id, target_bac, total, estimated_bac, scores, note, detail, created_at")
+    if (res.error && /detail/i.test(res.error.message)) res = await query("skill, task_id, target_bac, total, estimated_bac, scores, note, created_at")
+    if (res.error) return { ok: false, reason: "error", message: res.error.message }
+    return { ok: true, rows: (res.data ?? []) as unknown as AttemptRow[] }
   } catch (e) {
     return fail(e)
   }
