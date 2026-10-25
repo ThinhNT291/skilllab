@@ -3,7 +3,7 @@
     "id": "ls-b1-001",
     "bac": 1,
     "title": "Mấy giờ rồi?",
-    "transcript": "A: Hi, Anna. What time is it?\nB: It is eight o'clock, Tom.\nA: Oh no! Math class is at eight fifteen.\nB: Don't worry. Our room is next to the library.\nA: Okay. Let's go now.\nB: Wait. I need my blue book.",
+    "transcript": "A: Hi, Tom. What time is it?\nB: It is eight o'clock, Anna.\nA: Oh, Math class is at eight fifteen.\nB: We are not late. Our room is next to the library.\nA: Okay. Let's go now.\nB: Wait. I need my blue book.",
     "questions": [
       {
         "prompt": "What time is it now?",
@@ -14,12 +14,12 @@
           "Eight fifteen"
         ],
         "correctIndex": 0,
-        "explanation": "Anna nói 'It is eight o'clock' (bây giờ là tám giờ).",
+        "explanation": "Tom nói 'It is eight o'clock' (bây giờ là tám giờ).",
         "choiceExplanations": [
-          "Đúng — Anna nói 'It is eight o'clock' (bây giờ là tám giờ).",
-          "Sai — 'Seven o'clock': bài không nói như vậy; đúng là 'Eight o'clock'.",
-          "Sai — 'Nine o'clock': bài không nói như vậy; đúng là 'Eight o'clock'.",
-          "Sai — 'Eight fifteen': bài không nói như vậy; đúng là 'Eight o'clock'."
+          "Đúng — Tom nói 'It is eight o'clock' (bây giờ là tám giờ).",
+          "Sai — 'Seven o'clock': Bài không có giờ 'seven'; Tom nói 'It is eight o'clock'.",
+          "Sai — 'Nine o'clock': Bài không nhắc 'nine'; đồng hồ đang chỉ tám giờ.",
+          "Sai — 'Eight fifteen': Đây là giờ vào lớp Toán, không phải giờ hiện tại."
         ]
       },
       {
@@ -31,12 +31,12 @@
           "At seven fifteen"
         ],
         "correctIndex": 2,
-        "explanation": "Tom nói 'Math class is at eight fifteen' (lớp Toán lúc tám giờ mười lăm).",
+        "explanation": "Anna nói 'Math class is at eight fifteen' (lớp Toán lúc tám giờ mười lăm).",
         "choiceExplanations": [
-          "Sai — 'At eight o'clock': bài không nói như vậy; đúng là 'At eight fifteen'.",
-          "Sai — 'At nine fifteen': bài không nói như vậy; đúng là 'At eight fifteen'.",
-          "Đúng — Tom nói 'Math class is at eight fifteen' (lớp Toán lúc tám giờ mười lăm).",
-          "Sai — 'At seven fifteen': bài không nói như vậy; đúng là 'At eight fifteen'."
+          "Sai — 'At eight o'clock': Đây là giờ hiện tại; lớp Toán lúc 'eight fifteen'.",
+          "Sai — 'At nine fifteen': Bài không nhắc 'nine'.",
+          "Đúng — Anna nói 'Math class is at eight fifteen' (lớp Toán lúc tám giờ mười lăm).",
+          "Sai — 'At seven fifteen': Bài không nhắc 'seven'."
         ]
       },
       {
@@ -48,16 +48,16 @@
           "Behind the library"
         ],
         "correctIndex": 1,
-        "explanation": "Anna nói 'Our room is next to the library' (cạnh thư viện).",
+        "explanation": "Tom nói 'Our room is next to the library' (cạnh thư viện).",
         "choiceExplanations": [
-          "Sai — 'Next to the gym': bài không nói như vậy; đúng là 'Next to the library'.",
-          "Đúng — Anna nói 'Our room is next to the library' (cạnh thư viện).",
-          "Sai — 'Next to the office': bài không nói như vậy; đúng là 'Next to the library'.",
-          "Sai — 'Behind the library': bài không nói như vậy; đúng là 'Next to the library'."
+          "Sai — 'Next to the gym': Bài không nhắc phòng thể dục; phòng học ở cạnh thư viện.",
+          "Đúng — Tom nói 'Our room is next to the library' (cạnh thư viện).",
+          "Sai — 'Next to the office': Bài không nhắc văn phòng.",
+          "Sai — 'Behind the library': Bài nói 'next to' (bên cạnh), không phải 'behind' (phía sau)."
         ]
       },
       {
-        "prompt": "What does Anna need?",
+        "prompt": "What does Tom need?",
         "choices": [
           "A red pencil",
           "A blue bag",
@@ -65,12 +65,12 @@
           "A blue book"
         ],
         "correctIndex": 3,
-        "explanation": "Câu cuối Anna nói 'I need my blue book' (cần quyển sách màu xanh dương).",
+        "explanation": "Câu cuối Tom nói 'I need my blue book' (cần quyển sách màu xanh dương).",
         "choiceExplanations": [
-          "Sai — 'A red pencil': bài không nói như vậy; đúng là 'A blue book'.",
-          "Sai — 'A blue bag': bài không nói như vậy; đúng là 'A blue book'.",
-          "Sai — 'A green book': bài không nói như vậy; đúng là 'A blue book'.",
-          "Đúng — Câu cuối Anna nói 'I need my blue book' (cần quyển sách màu xanh dương)."
+          "Sai — 'A red pencil': Bài không nhắc bút chì; bạn ấy cần quyển sách.",
+          "Sai — 'A blue bag': Màu 'blue' đúng nhưng đồ vật là 'book' (sách), không phải 'bag' (túi).",
+          "Sai — 'A green book': Đồ vật 'book' đúng nhưng màu là 'blue' (xanh dương), không phải 'green'.",
+          "Đúng — Câu cuối Tom nói 'I need my blue book' (cần quyển sách màu xanh dương)."
         ]
       }
     ]
@@ -92,10 +92,10 @@
         "correctIndex": 1,
         "explanation": "Người bán nói apples 'two dollars for a bag' (hai đô la một túi).",
         "choiceExplanations": [
-          "Sai — 'Three dollars': bài không nói như vậy; đúng là 'Two dollars'.",
+          "Sai — 'Three dollars': Đây là giá một túi cam; táo hai đô la.",
           "Đúng — Người bán nói apples 'two dollars for a bag' (hai đô la một túi).",
-          "Sai — 'Four dollars': bài không nói như vậy; đúng là 'Two dollars'.",
-          "Sai — 'Eight dollars': bài không nói như vậy; đúng là 'Two dollars'."
+          "Sai — 'Four dollars': Không ai nói giá này; táo là 'two dollars'.",
+          "Sai — 'Eight dollars': Đây là tổng tiền cả đơn hàng."
         ]
       },
       {
@@ -110,9 +110,9 @@
         "explanation": "Người bán nói oranges 'three dollars for a bag' (ba đô la một túi).",
         "choiceExplanations": [
           "Đúng — Người bán nói oranges 'three dollars for a bag' (ba đô la một túi).",
-          "Sai — 'Two dollars': bài không nói như vậy; đúng là 'Three dollars'.",
-          "Sai — 'Five dollars': bài không nói như vậy; đúng là 'Three dollars'.",
-          "Sai — 'Eight dollars': bài không nói như vậy; đúng là 'Three dollars'."
+          "Sai — 'Two dollars': Đây là giá táo; cam ba đô la.",
+          "Sai — 'Five dollars': Không nói giá này; chỉ có hai, ba và tổng tám đô la.",
+          "Sai — 'Eight dollars': Đây là tổng tiền, không phải giá một túi cam."
         ]
       },
       {
@@ -124,12 +124,12 @@
           "One bag of each fruit"
         ],
         "correctIndex": 1,
-        "explanation": "Khách nói 'one bag of apples and two bags of oranges'.",
+        "explanation": "Khách nói 'one bag of apples and two bags of oranges' (một túi táo, hai túi cam).",
         "choiceExplanations": [
-          "Sai — 'Two bags of apples and one bag of oranges': bài không nói như vậy; đúng là 'One bag of apples and two bags of oranges'.",
-          "Đúng — Khách nói 'one bag of apples and two bags of oranges'.",
-          "Sai — 'Only two bags of oranges': bài không nói như vậy; đúng là 'One bag of apples and two bags of oranges'.",
-          "Sai — 'One bag of each fruit': bài không nói như vậy; đúng là 'One bag of apples and two bags of oranges'."
+          "Sai — 'Two bags of apples and one bag of oranges': Đảo số lượng; khách muốn một túi táo và hai túi cam.",
+          "Đúng — Khách nói 'one bag of apples and two bags of oranges' (một túi táo, hai túi cam).",
+          "Sai — 'Only two bags of oranges': Khách cũng mua một túi táo.",
+          "Sai — 'One bag of each fruit': Khách mua hai túi cam, không phải một."
         ]
       },
       {
@@ -143,9 +143,9 @@
         "correctIndex": 3,
         "explanation": "Cuối bài người bán nói 'That is eight dollars' (tổng cộng tám đô la).",
         "choiceExplanations": [
-          "Sai — 'Five dollars': bài không nói như vậy; đúng là 'Eight dollars'.",
-          "Sai — 'Seven dollars': bài không nói như vậy; đúng là 'Eight dollars'.",
-          "Sai — 'Ten dollars': bài không nói như vậy; đúng là 'Eight dollars'.",
+          "Sai — 'Five dollars': Hai cộng ba bằng năm chỉ đúng nếu mua mỗi loại một túi; khách mua một túi táo và hai túi cam nên tổng là tám.",
+          "Sai — 'Seven dollars': Không khớp phép tính: hai cộng ba cộng ba.",
+          "Sai — 'Ten dollars': Quá cao; tổng đúng là hai cộng ba cộng ba, tức tám đô la.",
           "Đúng — Cuối bài người bán nói 'That is eight dollars' (tổng cộng tám đô la)."
         ]
       }
@@ -155,7 +155,7 @@
     "id": "ls-b1-003",
     "bac": 1,
     "title": "Thông báo bữa trưa",
-    "transcript": "Good morning, students. Today is Monday. Lunch is at twelve o'clock. We have rice, chicken and soup. The milk is one dollar. Please wash your hands first. Then sit down in the cafeteria. Lunch finishes at twelve forty.",
+    "transcript": "Good morning, students. Today is Monday. Lunch is at twelve o'clock. We have rice, chicken and soup. The milk is one dollar. Please wash your hands first. Then sit down in the cafeteria. Lunch ends at twelve forty.",
     "questions": [
       {
         "prompt": "What day is it today?",
@@ -168,10 +168,10 @@
         "correctIndex": 2,
         "explanation": "Thông báo nói 'Today is Monday' (hôm nay là thứ Hai).",
         "choiceExplanations": [
-          "Sai — 'Sunday': bài không nói như vậy; đúng là 'Monday'.",
-          "Sai — 'Tuesday': bài không nói như vậy; đúng là 'Monday'.",
+          "Sai — 'Sunday': Thông báo mở đầu bằng 'Today is Monday'; không nhắc Chủ nhật.",
+          "Sai — 'Tuesday': Thông báo nói hôm nay là thứ Hai, không phải thứ Ba.",
           "Đúng — Thông báo nói 'Today is Monday' (hôm nay là thứ Hai).",
-          "Sai — 'Friday': bài không nói như vậy; đúng là 'Monday'."
+          "Sai — 'Friday': Thông báo nói hôm nay là thứ Hai, không phải thứ Sáu."
         ]
       },
       {
@@ -185,9 +185,9 @@
         "correctIndex": 3,
         "explanation": "Bài nói 'Lunch is at twelve o'clock' (bữa trưa lúc mười hai giờ); 'twelve forty' là giờ kết thúc.",
         "choiceExplanations": [
-          "Sai — 'Eleven o'clock': bài không nói như vậy; đúng là 'Twelve o'clock'.",
-          "Sai — 'One o'clock': bài không nói như vậy; đúng là 'Twelve o'clock'.",
-          "Sai — 'Twelve forty': bài không nói như vậy; đúng là 'Twelve o'clock'.",
+          "Sai — 'Eleven o'clock': Bài không nhắc mười một giờ; bữa trưa lúc mười hai giờ.",
+          "Sai — 'One o'clock': Bài không nhắc một giờ.",
+          "Sai — 'Twelve forty': Đây là giờ bữa trưa kết thúc, không phải giờ bắt đầu.",
           "Đúng — Bài nói 'Lunch is at twelve o'clock' (bữa trưa lúc mười hai giờ); 'twelve forty' là giờ kết thúc."
         ]
       },
@@ -196,16 +196,16 @@
         "choices": [
           "Two dollars",
           "One dollar",
-          "Ten dollars",
-          "Twelve dollars"
+          "Three dollars",
+          "Four dollars"
         ],
         "correctIndex": 1,
         "explanation": "Bài nói 'The milk is one dollar' (sữa một đô la).",
         "choiceExplanations": [
-          "Sai — 'Two dollars': bài không nói như vậy; đúng là 'One dollar'.",
+          "Sai — 'Two dollars': Bài nói sữa một đô la.",
           "Đúng — Bài nói 'The milk is one dollar' (sữa một đô la).",
-          "Sai — 'Ten dollars': bài không nói như vậy; đúng là 'One dollar'.",
-          "Sai — 'Twelve dollars': bài không nói như vậy; đúng là 'One dollar'."
+          "Sai — 'Three dollars': Bài không nhắc giá này; sữa một đô la.",
+          "Sai — 'Four dollars': Bài không nhắc giá này; sữa một đô la."
         ]
       },
       {
@@ -219,10 +219,10 @@
         "correctIndex": 2,
         "explanation": "Bài nói 'We have rice, chicken and soup' (cơm, gà và súp).",
         "choiceExplanations": [
-          "Sai — 'Pizza and juice': bài không nói như vậy; đúng là 'Rice, chicken and soup'.",
-          "Sai — 'Fish and salad': bài không nói như vậy; đúng là 'Rice, chicken and soup'.",
+          "Sai — 'Pizza and juice': Bài chỉ nói 'rice, chicken and soup'; pizza và nước ép không được nhắc.",
+          "Sai — 'Fish and salad': Bài chỉ nói 'rice, chicken and soup'; cá và salad không được nhắc.",
           "Đúng — Bài nói 'We have rice, chicken and soup' (cơm, gà và súp).",
-          "Sai — 'Noodles and eggs': bài không nói như vậy; đúng là 'Rice, chicken and soup'."
+          "Sai — 'Noodles and eggs': Bài chỉ nói 'rice, chicken and soup'; mì và trứng không được nhắc."
         ]
       }
     ]
@@ -244,10 +244,10 @@
         "correctIndex": 1,
         "explanation": "Ben nói 'She is white' (con mèo màu trắng).",
         "choiceExplanations": [
-          "Sai — 'Black': bài không nói như vậy; đúng là 'White'.",
+          "Sai — 'Black': Đen là một màu của chú chó Max; mèo màu trắng.",
           "Đúng — Ben nói 'She is white' (con mèo màu trắng).",
-          "Sai — 'Brown': bài không nói như vậy; đúng là 'White'.",
-          "Sai — 'Gray': bài không nói như vậy; đúng là 'White'."
+          "Sai — 'Brown': Nâu cũng là màu chó; mèo màu trắng.",
+          "Sai — 'Gray': Bài không nhắc màu xám."
         ]
       },
       {
@@ -262,9 +262,9 @@
         "explanation": "Bạn của Ben nói 'Her name is Milo' (tên con mèo là Milo); Max là tên con chó.",
         "choiceExplanations": [
           "Đúng — Bạn của Ben nói 'Her name is Milo' (tên con mèo là Milo); Max là tên con chó.",
-          "Sai — 'Max': bài không nói như vậy; đúng là 'Milo'.",
-          "Sai — 'Ben': bài không nói như vậy; đúng là 'Milo'.",
-          "Sai — 'Lily': bài không nói như vậy; đúng là 'Milo'."
+          "Sai — 'Max': Max là tên con chó của Ben.",
+          "Sai — 'Ben': Ben là người nghe, không phải tên mèo.",
+          "Sai — 'Lily': Bài không nhắc tên Lily."
         ]
       },
       {
@@ -278,9 +278,9 @@
         "correctIndex": 3,
         "explanation": "Ben nói 'His name is Max. He is five' (Max năm tuổi); 'three' là tuổi của mèo Milo.",
         "choiceExplanations": [
-          "Sai — 'Three': bài không nói như vậy; đúng là 'Five'.",
-          "Sai — 'Four': bài không nói như vậy; đúng là 'Five'.",
-          "Sai — 'Six': bài không nói như vậy; đúng là 'Five'.",
+          "Sai — 'Three': Ba tuổi là tuổi của mèo Milo.",
+          "Sai — 'Four': Bài không nhắc bốn tuổi; Max năm tuổi.",
+          "Sai — 'Six': Bài không nhắc sáu tuổi; Max năm tuổi.",
           "Đúng — Ben nói 'His name is Max. He is five' (Max năm tuổi); 'three' là tuổi của mèo Milo."
         ]
       },
@@ -296,9 +296,9 @@
         "explanation": "Ben nói 'He is brown and black' (chó màu nâu và đen).",
         "choiceExplanations": [
           "Đúng — Ben nói 'He is brown and black' (chó màu nâu và đen).",
-          "Sai — 'White and brown': bài không nói như vậy; đúng là 'Brown and black'.",
-          "Sai — 'Black and white': bài không nói như vậy; đúng là 'Brown and black'.",
-          "Sai — 'Brown and gray': bài không nói như vậy; đúng là 'Brown and black'."
+          "Sai — 'White and brown': 'White' là màu mèo; chó là 'brown and black'.",
+          "Sai — 'Black and white': 'White' là màu mèo, không phải chó.",
+          "Sai — 'Brown and gray': Chó nâu và đen, không có màu xám."
         ]
       }
     ]
@@ -307,7 +307,7 @@
     "id": "ls-b1-005",
     "bac": 1,
     "title": "Bữa tối ở nhà",
-    "transcript": "A: Mom, I am hungry.\nB: Dinner is at six thirty, Jack.\nA: What do we have?\nB: We have fish, rice and eggs.\nA: I don't like fish.\nB: Okay. You can have two eggs. Please wash your hands first.\nA: Thank you, Mom.",
+    "transcript": "A: Jack, dinner is at six thirty.\nB: Good, Mom. I am hungry.\nA: We have fish, rice and eggs.\nB: I don't like fish.\nA: Okay. You can have two eggs. Please wash your hands first.\nB: Thank you, Mom.",
     "questions": [
       {
         "prompt": "What time is dinner?",
@@ -320,27 +320,27 @@
         "correctIndex": 3,
         "explanation": "Mẹ nói 'Dinner is at six thirty' (bữa tối lúc sáu giờ rưỡi).",
         "choiceExplanations": [
-          "Sai — 'Six o'clock': bài không nói như vậy; đúng là 'Six thirty'.",
-          "Sai — 'Seven thirty': bài không nói như vậy; đúng là 'Six thirty'.",
-          "Sai — 'Five thirty': bài không nói như vậy; đúng là 'Six thirty'.",
+          "Sai — 'Six o'clock': Mẹ nói 'six thirty' (sáu giờ rưỡi), không phải sáu giờ đúng.",
+          "Sai — 'Seven thirty': Giờ này không được nhắc.",
+          "Sai — 'Five thirty': Giờ này không được nhắc.",
           "Đúng — Mẹ nói 'Dinner is at six thirty' (bữa tối lúc sáu giờ rưỡi)."
         ]
       },
       {
-        "prompt": "Who is B?",
+        "prompt": "Who is Jack talking to?",
         "choices": [
-          "Jack's mother",
-          "Jack's sister",
-          "Jack's teacher",
-          "Jack's friend"
+          "His mother",
+          "His sister",
+          "His teacher",
+          "His friend"
         ],
         "correctIndex": 0,
-        "explanation": "Jack gọi B là 'Mom' (mẹ).",
+        "explanation": "Jack gọi người nói là 'Mom' (mẹ).",
         "choiceExplanations": [
-          "Đúng — Jack gọi B là 'Mom' (mẹ).",
-          "Sai — 'Jack's sister': bài không nói như vậy; đúng là 'Jack's mother'.",
-          "Sai — 'Jack's teacher': bài không nói như vậy; đúng là 'Jack's mother'.",
-          "Sai — 'Jack's friend': bài không nói như vậy; đúng là 'Jack's mother'."
+          "Đúng — Jack gọi người nói là 'Mom' (mẹ).",
+          "Sai — 'His sister': Jack gọi người nói là 'Mom' (mẹ), không phải chị/em gái.",
+          "Sai — 'His teacher': Jack gọi người nói là 'Mom' (mẹ), không phải giáo viên.",
+          "Sai — 'His friend': Jack gọi người nói là 'Mom' (mẹ), không phải bạn."
         ]
       },
       {
@@ -354,10 +354,10 @@
         "correctIndex": 2,
         "explanation": "Jack nói 'I don't like fish' (không thích cá).",
         "choiceExplanations": [
-          "Sai — 'Rice': bài không nói như vậy; đúng là 'Fish'.",
-          "Sai — 'Eggs': bài không nói như vậy; đúng là 'Fish'.",
+          "Sai — 'Rice': Mẹ nói có cơm; Jack chỉ nói không thích cá.",
+          "Sai — 'Eggs': Jack được ăn hai quả trứng.",
           "Đúng — Jack nói 'I don't like fish' (không thích cá).",
-          "Sai — 'Soup': bài không nói như vậy; đúng là 'Fish'."
+          "Sai — 'Soup': Bài không nhắc súp."
         ]
       },
       {
@@ -372,9 +372,9 @@
         "explanation": "Mẹ nói 'You can have two eggs' (được ăn hai quả trứng).",
         "choiceExplanations": [
           "Đúng — Mẹ nói 'You can have two eggs' (được ăn hai quả trứng).",
-          "Sai — 'One': bài không nói như vậy; đúng là 'Two'.",
-          "Sai — 'Three': bài không nói như vậy; đúng là 'Two'.",
-          "Sai — 'Four': bài không nói như vậy; đúng là 'Two'."
+          "Sai — 'One': Mẹ nói 'two eggs' (hai quả), không phải một.",
+          "Sai — 'Three': Mẹ nói 'two eggs' (hai quả), không phải ba.",
+          "Sai — 'Four': Mẹ nói 'two eggs' (hai quả), không phải bốn."
         ]
       }
     ]
@@ -396,14 +396,14 @@
         "correctIndex": 2,
         "explanation": "Emma nói 'I want a library card' (muốn làm thẻ thư viện).",
         "choiceExplanations": [
-          "Sai — 'A new book': bài không nói như vậy; đúng là 'A library card'.",
-          "Sai — 'A school bag': bài không nói như vậy; đúng là 'A library card'.",
+          "Sai — 'A new book': Emma nói 'I want a library card'; sách mới không được nhắc.",
+          "Sai — 'A school bag': Emma nói 'I want a library card'; túi học sinh không được nhắc.",
           "Đúng — Emma nói 'I want a library card' (muốn làm thẻ thư viện).",
-          "Sai — 'A phone': bài không nói như vậy; đúng là 'A library card'."
+          "Sai — 'A phone': Emma chỉ đọc số điện thoại của mình, không muốn mua điện thoại."
         ]
       },
       {
-        "prompt": "What is Emma's family name?",
+        "prompt": "What is Emma's last name?",
         "choices": [
           "Green",
           "Brown",
@@ -413,10 +413,10 @@
         "correctIndex": 1,
         "explanation": "Emma nói 'My name is Emma Brown' (họ là Brown).",
         "choiceExplanations": [
-          "Sai — 'Green': bài không nói như vậy; đúng là 'Brown'.",
+          "Sai — 'Green': Họ của Emma là Brown (nâu), không phải Green.",
           "Đúng — Emma nói 'My name is Emma Brown' (họ là Brown).",
-          "Sai — 'Black': bài không nói như vậy; đúng là 'Brown'.",
-          "Sai — 'White': bài không nói như vậy; đúng là 'Brown'."
+          "Sai — 'Black': Họ của Emma là Brown (nâu), không phải Black.",
+          "Sai — 'White': Họ của Emma là Brown (nâu), không phải White."
         ]
       },
       {
@@ -430,27 +430,27 @@
         "correctIndex": 3,
         "explanation": "Emma nói 'I am eleven' (mười một tuổi).",
         "choiceExplanations": [
-          "Sai — 'Ten': bài không nói như vậy; đúng là 'Eleven'.",
-          "Sai — 'Twelve': bài không nói như vậy; đúng là 'Eleven'.",
-          "Sai — 'Thirteen': bài không nói như vậy; đúng là 'Eleven'.",
+          "Sai — 'Ten': Emma nói 'eleven' (mười một), không phải mười.",
+          "Sai — 'Twelve': Emma nói 'eleven' (mười một), không phải mười hai.",
+          "Sai — 'Thirteen': Emma nói 'eleven' (mười một), không phải mười ba.",
           "Đúng — Emma nói 'I am eleven' (mười một tuổi)."
         ]
       },
       {
         "prompt": "What is her phone number?",
         "choices": [
-          "426 719",
-          "426 791",
-          "246 719",
-          "462 719"
+          "Four two six, seven one nine",
+          "Four two six, seven nine one",
+          "Two four six, seven one nine",
+          "Four six two, seven one nine"
         ],
         "correctIndex": 0,
-        "explanation": "Emma đọc 'four two six, seven one nine' (426 719).",
+        "explanation": "Emma đọc 'four two six, seven one nine'.",
         "choiceExplanations": [
-          "Đúng — Emma đọc 'four two six, seven one nine' (426 719).",
-          "Sai — '426 791': bài không nói như vậy; đúng là '426 719'.",
-          "Sai — '246 719': bài không nói như vậy; đúng là '426 719'.",
-          "Sai — '462 719': bài không nói như vậy; đúng là '426 719'."
+          "Đúng — Emma đọc 'four two six, seven one nine'.",
+          "Sai — 'Four two six, seven nine one': Ba số cuối bị đảo; Emma đọc 'seven one nine'.",
+          "Sai — 'Two four six, seven one nine': Hai số đầu bị đảo; Emma đọc 'four two six'.",
+          "Sai — 'Four six two, seven one nine': Hai số đầu bị đảo; Emma đọc 'four two six'."
         ]
       }
     ]
@@ -467,32 +467,32 @@
           "Nick",
           "Mrs. Green",
           "Mrs. Lee",
-          "Mr. Lee"
+          "Mr. Brown"
         ],
         "correctIndex": 2,
         "explanation": "Nick gọi cô giáo là 'Mrs. Lee'.",
         "choiceExplanations": [
-          "Sai — 'Nick': bài không nói như vậy; đúng là 'Mrs. Lee'.",
-          "Sai — 'Mrs. Green': bài không nói như vậy; đúng là 'Mrs. Lee'.",
+          "Sai — 'Nick': Nick là học sinh; Nick gọi cô là 'Mrs. Lee'.",
+          "Sai — 'Mrs. Green': Họ của cô là Lee, không phải Green.",
           "Đúng — Nick gọi cô giáo là 'Mrs. Lee'.",
-          "Sai — 'Mr. Lee': bài không nói như vậy; đúng là 'Mrs. Lee'."
+          "Sai — 'Mr. Brown': Nick gọi 'Mrs. Lee'; bài không nhắc ai tên Brown."
         ]
       },
       {
-        "prompt": "What does Nick not have?",
+        "prompt": "What does Nick say he does not have?",
         "choices": [
           "A book",
           "A pencil",
           "A bag",
-          "An eraser"
+          "A ruler"
         ],
         "correctIndex": 1,
         "explanation": "Nick nói 'I don't have a pencil' (không có bút chì).",
         "choiceExplanations": [
-          "Sai — 'A book': bài không nói như vậy; đúng là 'A pencil'.",
+          "Sai — 'A book': Cô bảo cả lớp mở sách; Nick không nói thiếu sách.",
           "Đúng — Nick nói 'I don't have a pencil' (không có bút chì).",
-          "Sai — 'A bag': bài không nói như vậy; đúng là 'A pencil'.",
-          "Sai — 'An eraser': bài không nói như vậy; đúng là 'A pencil'."
+          "Sai — 'A bag': Bài không nói Nick thiếu túi.",
+          "Sai — 'A ruler': Bài không nhắc thước kẻ."
         ]
       },
       {
@@ -506,10 +506,10 @@
         "correctIndex": 2,
         "explanation": "Cô nói 'Here is a red pencil' (bút chì màu đỏ).",
         "choiceExplanations": [
-          "Sai — 'Blue': bài không nói như vậy; đúng là 'Red'.",
-          "Sai — 'Green': bài không nói như vậy; đúng là 'Red'.",
+          "Sai — 'Blue': Cô đưa bút chì màu đỏ ('red'), không phải xanh dương.",
+          "Sai — 'Green': Cô đưa bút chì màu đỏ ('red'), không phải xanh lá.",
           "Đúng — Cô nói 'Here is a red pencil' (bút chì màu đỏ).",
-          "Sai — 'Yellow': bài không nói như vậy; đúng là 'Red'."
+          "Sai — 'Yellow': Cô đưa bút chì màu đỏ ('red'), không phải vàng."
         ]
       },
       {
@@ -523,9 +523,9 @@
         "correctIndex": 3,
         "explanation": "Cô nói 'It is in my bag, on the table' (trong túi của cô, trên bàn).",
         "choiceExplanations": [
-          "Sai — 'In Nick's bag': bài không nói như vậy; đúng là 'In the teacher's bag'.",
-          "Sai — 'On the floor': bài không nói như vậy; đúng là 'In the teacher's bag'.",
-          "Sai — 'In the desk': bài không nói như vậy; đúng là 'In the teacher's bag'.",
+          "Sai — 'In Nick's bag': Cô nói 'in my bag' (túi của cô), không phải túi Nick.",
+          "Sai — 'On the floor': Bài không nhắc sàn nhà.",
+          "Sai — 'In the desk': Bài không nhắc ngăn bàn; túi nằm trên bàn (on the table), tẩy ở trong túi.",
           "Đúng — Cô nói 'It is in my bag, on the table' (trong túi của cô, trên bàn)."
         ]
       }
@@ -548,10 +548,10 @@
         "correctIndex": 1,
         "explanation": "Thông báo nói 'The school bus leaves at three forty'.",
         "choiceExplanations": [
-          "Sai — 'Three o'clock': bài không nói như vậy; đúng là 'Three forty'.",
+          "Sai — 'Three o'clock': Xe chạy lúc 'three forty' (ba giờ bốn mươi), không phải ba giờ đúng.",
           "Đúng — Thông báo nói 'The school bus leaves at three forty'.",
-          "Sai — 'Four forty': bài không nói như vậy; đúng là 'Three forty'.",
-          "Sai — 'Two forty': bài không nói như vậy; đúng là 'Three forty'."
+          "Sai — 'Four forty': Giờ chạy là ba giờ bốn mươi, không phải bốn giờ bốn mươi.",
+          "Sai — 'Two forty': Giờ chạy là ba giờ bốn mươi, không phải hai giờ bốn mươi."
         ]
       },
       {
@@ -565,9 +565,9 @@
         "correctIndex": 3,
         "explanation": "Bài nói 'The bus number is twelve' (xe số mười hai).",
         "choiceExplanations": [
-          "Sai — 'Two': bài không nói như vậy; đúng là 'Twelve'.",
-          "Sai — 'Three': bài không nói như vậy; đúng là 'Twelve'.",
-          "Sai — 'Twenty': bài không nói như vậy; đúng là 'Twelve'.",
+          "Sai — 'Two': Hai là số cổng của lớp Sáu, không phải số xe.",
+          "Sai — 'Three': Ba là số cổng của lớp Bảy, không phải số xe.",
+          "Sai — 'Twenty': Dễ nhầm với 'twelve'; xe số mười hai.",
           "Đúng — Bài nói 'The bus number is twelve' (xe số mười hai)."
         ]
       },
@@ -582,27 +582,27 @@
         "correctIndex": 2,
         "explanation": "Bài nói 'Grade Six students, please go to Gate Two'; Gate Three dành cho lớp Bảy.",
         "choiceExplanations": [
-          "Sai — 'Gate One': bài không nói như vậy; đúng là 'Gate Two'.",
-          "Sai — 'Gate Three': bài không nói như vậy; đúng là 'Gate Two'.",
+          "Sai — 'Gate One': Bài không nhắc cổng số một.",
+          "Sai — 'Gate Three': Cổng Ba dành cho lớp Bảy.",
           "Đúng — Bài nói 'Grade Six students, please go to Gate Two'; Gate Three dành cho lớp Bảy.",
-          "Sai — 'Gate Six': bài không nói như vậy; đúng là 'Gate Two'."
+          "Sai — 'Gate Six': 'Six' là lớp (Grade Six), không phải số cổng."
         ]
       },
       {
-        "prompt": "What does the speaker say at the end?",
+        "prompt": "What does the speaker ask students to do?",
         "choices": [
-          "Have a good afternoon",
-          "Have a good night",
-          "Have a good weekend",
-          "Have a good lunch"
+          "Be on time",
+          "Be quiet",
+          "Bring lunch",
+          "Wash their hands"
         ],
         "correctIndex": 0,
-        "explanation": "Câu cuối là 'Have a good afternoon' (chúc buổi chiều vui vẻ).",
+        "explanation": "Bài nói 'Please be on time' (xin đến đúng giờ).",
         "choiceExplanations": [
-          "Đúng — Câu cuối là 'Have a good afternoon' (chúc buổi chiều vui vẻ).",
-          "Sai — 'Have a good night': bài không nói như vậy; đúng là 'Have a good afternoon'.",
-          "Sai — 'Have a good weekend': bài không nói như vậy; đúng là 'Have a good afternoon'.",
-          "Sai — 'Have a good lunch': bài không nói như vậy; đúng là 'Have a good afternoon'."
+          "Đúng — Bài nói 'Please be on time' (xin đến đúng giờ).",
+          "Sai — 'Be quiet': Bài không yêu cầu giữ im lặng.",
+          "Sai — 'Bring lunch': Bài không nhắc mang bữa trưa.",
+          "Sai — 'Wash their hands': Bài không nhắc rửa tay; đó là thông báo bữa trưa ở bài khác."
         ]
       }
     ]
