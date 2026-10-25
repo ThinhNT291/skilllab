@@ -1104,7 +1104,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Don't worry about the heavy box. After a few weeks of training, you ______ lift it easily.",
     "choices": [
-      "can",
+      "can to",
       "are able",
       "will can",
       "will be able to"
@@ -1112,7 +1112,7 @@
     "correctIndex": 3,
     "explanation": "Ở thì tương lai dùng 'will be able to' vì 'can' không có dạng tương lai và không dùng hai modal liền nhau.",
     "choiceExplanations": [
-      "Sai — 'can' chỉ khả năng hiện tại; trong lời nói thường ngày đôi khi vẫn nghe thấy, nhưng câu này nói khả năng sẽ có sau vài tuần tập nên 'will be able to' chính xác hơn.",
+      "Sai — 'can to': sau 'can' không có 'to'; và khả năng sắp có sau vài tuần cần 'will be able to'.",
       "Sai — 'are able' thiếu 'to' và không đúng thì tương lai.",
       "Sai — 'will can' là hai modal liền nhau, không được phép.",
       "Đúng — tương lai dùng 'will be able to' để nói khả năng sẽ có sau khi tập luyện."
@@ -1214,12 +1214,12 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "I have a soccer game tomorrow morning, but I might ______ help you with the project in the afternoon.",
+    "prompt": "My parents ______ drive us to the airport on Friday, but they aren't sure yet.",
     "choices": [
-      "can",
-      "able to",
-      "to be able to",
-      "be able to"
+      "might can",
+      "might able to",
+      "might to be able to",
+      "might be able to"
     ],
     "correctIndex": 3,
     "explanation": "Sau 'might' không dùng 'can'; dùng 'be able to' để nói khả năng.",
@@ -1270,20 +1270,20 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Before he lost his hearing, my uncle ______ hear a pin drop, and he never missed a word at family dinners.",
+    "prompt": "Before he lost his hearing, my uncle ______ hear a whisper from across the room, and he never missed a word at family dinners.",
     "choices": [
-      "was able to",
+      "is able to",
       "has been able to",
       "could",
-      "can"
+      "will be able to"
     ],
     "correctIndex": 2,
     "explanation": "'Could' diễn tả khả năng chung trong một giai đoạn dài ở quá khứ.",
     "choiceExplanations": [
-      "Sai — 'was able to' vẫn đúng ngữ pháp nhưng thường nhấn mạnh một lần cụ thể; câu này nói khả năng lâu dài ('never missed') nên 'could' tự nhiên hơn.",
+      "Sai — 'is able to' là hiện tại, nhưng ông đã mất thính lực rồi.",
       "Sai — 'has been able to' là hiện tại hoàn thành, nhưng khả năng đã mất rồi.",
       "Đúng — 'could' diễn tả khả năng chung của cả giai đoạn trước khi ông mất thính lực.",
-      "Sai — 'can' là hiện tại, trong khi ông đã mất thính lực."
+      "Sai — 'will be able to' là tương lai, không hợp với 'before he lost his hearing'."
     ],
     "bac": 2
   },

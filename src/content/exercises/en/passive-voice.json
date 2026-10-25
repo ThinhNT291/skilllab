@@ -904,7 +904,7 @@
     "tags": [
       "pv-u1-basic-tenses"
     ],
-    "difficulty": 1,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Don't worry. Your package ______ to your house before noon.",
     "choices": [
@@ -1061,7 +1061,7 @@
       "Đúng — việc đã qua có thể đã khác đi: could have + been + V3.",
       "Sai — chủ động và không diễn tả điều đã qua."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-passive-voice-039",
@@ -1128,7 +1128,7 @@
     "tags": [
       "pv-u1-basic-tenses"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Children under twelve ______ to enter the pool without an adult.",
     "choices": [
@@ -1186,20 +1186,20 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The science project has to ______ by next Friday.",
+    "prompt": "The science project has to ______ to our teacher by next Friday.",
     "choices": [
-      "finish",
-      "be finished",
-      "finishing",
-      "being finished"
+      "hand in",
+      "be handed in",
+      "handing in",
+      "being handed in"
     ],
     "correctIndex": 1,
-    "explanation": "Sau have to/need to/want to dùng nguyên mẫu bị động: to be + V3.",
+    "explanation": "Sau have to/need to/want to dùng nguyên mẫu bị động: be + V3 (be handed in).",
     "choiceExplanations": [
-      "Sai — 'has to finish' là chủ động, nhưng dự án không tự hoàn thành; sai nghĩa.",
-      "Đúng — sau 'have to' dùng nguyên mẫu bị động: be + V3.",
+      "Sai — 'hand in' là chủ động; dự án không tự nộp mà phải được học sinh nộp.",
+      "Đúng — sau 'has to' dùng nguyên mẫu bị động: be handed in.",
       "Sai — sau 'has to' phải là nguyên mẫu, không dùng V-ing.",
-      "Sai — 'being finished' là V-ing, không đứng sau 'has to'."
+      "Sai — 'being handed in' là V-ing, không đứng sau 'has to'."
     ],
     "bac": 4
   },
@@ -1214,7 +1214,7 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Lisa hates ______ at when she makes a small mistake in class.",
+    "prompt": "Nobody enjoys ______ at when they make a mistake in class.",
     "choices": [
       "being laughed",
       "laughing",
@@ -1222,14 +1222,14 @@
       "be laughed"
     ],
     "correctIndex": 0,
-    "explanation": "Sau hate/like/avoid/enjoy dùng V-ing; bị động của V-ing là being + V3. 'laugh at' giữ nguyên giới từ 'at'.",
+    "explanation": "Sau enjoy chỉ dùng V-ing; bị động của V-ing là being + V3 ('laugh at' giữ nguyên giới từ 'at').",
     "choiceExplanations": [
-      "Đúng — sau 'hate' dùng V-ing; bị động của V-ing là being + V3 (being laughed at).",
-      "Sai — 'laughing at' là chủ động (Lisa cười người khác), ngược nghĩa.",
-      "Sai — chủ động nguyên mẫu, không đúng nghĩa bị người khác cười.",
-      "Sai — sau 'hate' không dùng nguyên mẫu trần 'be'; cần dạng V-ing 'being'."
+      "Đúng — sau 'enjoy' dùng V-ing; bị động của V-ing là being + V3 (being laughed at).",
+      "Sai — 'laughing at' là chủ động (người đó cười người khác), ngược nghĩa.",
+      "Sai — 'enjoy' không đi với to-V.",
+      "Sai — sau 'enjoy' không dùng nguyên mẫu trần 'be'; cần V-ing 'being'."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-passive-voice-045",
@@ -1270,7 +1270,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "By the time we got to the cinema, all the tickets ______.",
+    "prompt": "By the time we got to the movie theater, all the tickets ______.",
     "choices": [
       "sold",
       "had sold",
@@ -1313,7 +1313,7 @@
       "Sai — chủ động và chỉ việc xảy ra trước; 'by ghosts' đòi hỏi bị động.",
       "Sai — sau 'was believed' dùng 'to V', không dùng V-ing."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-passive-voice-048",
@@ -1324,7 +1324,7 @@
     "tags": [
       "pv-u5-causative"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Poor Ben had his wallet ______ on the bus this morning.",
     "choices": [
@@ -1341,7 +1341,7 @@
       "Sai — V-ing sẽ nghĩa là chiếc ví tự đi lấy cắp.",
       "Sai — không dùng 'to V' trong cấu trúc này."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-passive-voice-049",
@@ -1354,7 +1354,7 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Mr. Kim ______ the best teacher in our school by his students for three years.",
+    "prompt": "Mr. Kim ______ the best teacher in our school by his students for the last three years.",
     "choices": [
       "is considering",
       "was considered",
@@ -1365,11 +1365,11 @@
     "explanation": "Kéo dài đến hiện tại + for three years → hiện tại hoàn thành bị động: has been considered.",
     "choiceExplanations": [
       "Sai — chủ động tiếp diễn, sai nghĩa.",
-      "Sai — quá khứ đơn không đi với 'for three years' nếu việc vẫn đúng đến nay.",
+      "Sai — quá khứ đơn chỉ đúng nếu việc đã chấm dứt; 'for the last three years' cho thấy việc còn đến nay nên cần hiện tại hoàn thành.",
       "Sai — chủ động hiện tại hoàn thành, nhưng 'by his students' cho thấy câu bị động.",
       "Đúng — 'for three years' + việc kéo dài đến nay → hiện tại hoàn thành bị động."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-passive-voice-050",
@@ -1392,11 +1392,11 @@
     "correctIndex": 2,
     "explanation": "Suy đoán chắc chắn về điều đã xảy ra: must have been + V3.",
     "choiceExplanations": [
-      "Sai — 'must be broken' chỉ trạng thái hiện tại; ở đây suy đoán về việc đã xảy ra, cần 'have been'.",
-      "Sai — chủ động, cửa sổ không tự làm vỡ.",
+      "Sai — 'must be broken' suy đoán về trạng thái hiện tại; ở đây đang suy đoán nguyên nhân đã xảy ra nên dùng 'must have been broken'.",
+      "Sai — 'must have broken' là chủ động; vì có tác nhân 'by a ball' nên cần bị động.",
       "Đúng — suy đoán chắc chắn về quá khứ: must have + been + V3.",
       "Sai — thiếu 'have' sau 'must'."
     ],
-    "bac": 5
+    "bac": 4
   }
 ]

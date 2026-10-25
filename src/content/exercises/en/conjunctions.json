@@ -851,7 +851,7 @@
     "difficulty": 1,
     "bac": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The picnic was cancelled ______ it rained all day.",
+    "prompt": "The picnic was canceled ______ it rained all day.",
     "choices": [
       "so",
       "or",
@@ -861,7 +861,7 @@
     "correctIndex": 2,
     "explanation": "Because chỉ nguyên nhân: mưa cả ngày là lý do buổi picnic bị hủy.",
     "choiceExplanations": [
-      "Sai — 'so': 'so' chỉ kết quả và đứng trước kết quả (It rained all day, so the picnic was cancelled), nên đặt ở đây sẽ đảo nghĩa.",
+      "Sai — 'so': 'so' chỉ kết quả và đứng trước kết quả (It rained all day, so the picnic was canceled), nên đặt ở đây sẽ đảo nghĩa.",
       "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa.",
       "Đúng — 'because' nêu nguyên nhân (mưa cả ngày), theo sau là mệnh đề có chủ ngữ và động từ.",
       "Sai — 'but': 'but' nêu tương phản, còn ở đây là quan hệ nguyên nhân - kết quả."
@@ -932,7 +932,7 @@
     "tags": [
       "conj-u6-subordinating"
     ],
-    "difficulty": 1,
+    "difficulty": 2,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "You will be late for school ______ you hurry.",
@@ -1024,15 +1024,15 @@
       "but",
       "so",
       "or",
-      "for"
+      "if"
     ],
     "correctIndex": 0,
     "explanation": "But nối hai ý tương phản: học cả đêm nhưng vẫn chưa thấy sẵn sàng.",
     "choiceExplanations": [
-      "Đúng — 'but' nối hai ý tương phản (học cả đêm nhưng vẫn chưa sẵn sàng). 'And' cũng đúng ngữ pháp nhưng không thể hiện sự tương phản; 'and' không có trong các lựa chọn.",
-      "Sai — 'so': 'so' nêu kết quả, nhưng 'chưa sẵn sàng' không phải kết quả tự nhiên của việc học cả đêm.",
-      "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa.",
-      "Sai — 'for': 'for' (trang trọng) nghĩa là 'vì', sẽ làm câu thành 'vì anh ấy chưa sẵn sàng', sai logic."
+      "Đúng — 'but' nối hai ý tương phản (học cả đêm nhưng vẫn chưa sẵn sàng).",
+      "Sai — 'so' nêu kết quả, nhưng 'chưa sẵn sàng' không phải kết quả tự nhiên của việc học cả đêm.",
+      "Sai — 'or' nêu lựa chọn, không hợp nghĩa.",
+      "Sai — 'if' mở đầu mệnh đề điều kiện, không nối hai ý đối lập như vậy."
     ]
   },
   {
@@ -1100,7 +1100,7 @@
     "tags": [
       "conj-u6-subordinating"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "My brother loves spicy food, ______ I can't eat it at all.",
@@ -1128,7 +1128,7 @@
     "tags": [
       "conj-u7-comma-subordinate"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "bac": 3,
     "title": "Chọn câu đúng",
     "prompt": "Choose the sentence with the correct comma use when the 'when' clause comes last.",
@@ -1163,16 +1163,16 @@
     "choices": [
       "so that",
       "until",
-      "unless",
+      "because",
       "although"
     ],
     "correctIndex": 1,
     "explanation": "Until nghĩa là 'cho đến khi', chỉ hành động kéo dài tới một mốc.",
     "choiceExplanations": [
-      "Sai — 'so that': 'so that' chỉ mục đích, không hợp nghĩa.",
+      "Sai — 'so that' chỉ mục đích (khuấy để …), không nói mốc thời gian kết thúc việc khuấy.",
       "Đúng — 'until' = 'cho đến khi': khuấy liên tục đến khi súp sôi.",
-      "Sai — 'unless': 'unless it starts' = 'nếu nó không bắt đầu', làm câu mất nghĩa.",
-      "Sai — 'although': câu không có ý tương phản."
+      "Sai — 'because' chỉ nguyên nhân; súp sôi không phải lý do để khuấy.",
+      "Sai — 'although' chỉ tương phản, câu không có ý đối lập."
     ]
   },
   {
@@ -1184,7 +1184,7 @@
     "tags": [
       "conj-u6-subordinating"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "______ the shop was closed, we bought the cake at another store.",
@@ -1212,10 +1212,10 @@
     "tags": [
       "conj-u3-correlative"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "bac": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "I can't decide ______ to watch a comedy or a cartoon.",
+    "prompt": "My sister can't choose ______ to wear the blue dress or the red one.",
     "choices": [
       "if",
       "either",
@@ -1223,10 +1223,10 @@
       "neither"
     ],
     "correctIndex": 2,
-    "explanation": "Whether ... or dùng để nêu hai khả năng, nhất là trước to-V.",
+    "explanation": "Whether ... or dùng để nêu hai khả năng, kể cả trước to-V.",
     "choiceExplanations": [
-      "Sai — 'if': 'if' không dùng trước 'to' để nêu hai lựa chọn; ở đây phải dùng whether.",
-      "Sai — 'either': 'either' đi với 'or' để chọn một trong hai, không dùng sau 'decide' theo cách này.",
+      "Sai — 'if' không dùng trước 'to' + động từ; ở đây phải dùng whether.",
+      "Sai — 'either' chỉ đi cặp với 'or' để chọn một trong hai, không có nghĩa 'liệu'.",
       "Đúng — 'whether ... or ...' = liệu ... hay ...; dùng được trước to-V.",
       "Sai — 'neither' phải đi với 'nor', không đi với 'or'."
     ]
@@ -1240,8 +1240,8 @@
     "tags": [
       "conj-u7-comma-subordinate"
     ],
-    "difficulty": 3,
-    "bac": 4,
+    "difficulty": 2,
+    "bac": 3,
     "title": "Chọn câu đúng",
     "prompt": "Which sentence is NOT punctuated correctly?",
     "choices": [
@@ -1253,9 +1253,9 @@
     "correctIndex": 3,
     "explanation": "Dấu phẩy đặt sau cả mệnh đề phụ thuộc, không chen vào giữa chủ ngữ và động từ của mệnh đề chính.",
     "choiceExplanations": [
-      "Sai — đây là câu đúng: mệnh đề phụ thuộc đứng đầu nên có dấu phẩy sau nó.",
-      "Sai — đây là câu đúng: mệnh đề phụ thuộc đứng sau nên không cần dấu phẩy.",
-      "Sai — đây là câu đúng: có dấu phẩy sau mệnh đề 'Although he was ill'.",
+      "Không chọn — đây là câu đúng: mệnh đề phụ thuộc đứng đầu nên có dấu phẩy sau nó.",
+      "Không chọn — đây là câu đúng: mệnh đề phụ thuộc đứng sau nên không cần dấu phẩy.",
+      "Không chọn — đây là câu đúng: có dấu phẩy sau mệnh đề 'Although he was ill'.",
       "Đúng — câu này sai vì dấu phẩy đứng giữa chủ ngữ 'he' và động từ 'went'; phải viết 'Although he was ill, he went to school.'"
     ]
   },
@@ -1268,7 +1268,7 @@
     "tags": [
       "conj-u6-subordinating"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "bac": 3,
     "title": "Chọn câu đúng",
     "prompt": "Which sentence uses 'because' or 'so' correctly?",
@@ -1352,8 +1352,8 @@
     "tags": [
       "conj-u6-subordinating"
     ],
-    "difficulty": 3,
-    "bac": 4,
+    "difficulty": 2,
+    "bac": 3,
     "title": "Điền từ vào chỗ trống",
     "prompt": "My grandfather still goes jogging every morning ______ he is almost eighty.",
     "choices": [
@@ -1366,7 +1366,7 @@
     "explanation": "Even though nhấn mạnh sự tương phản bất ngờ (gần tám mươi tuổi mà vẫn chạy bộ).",
     "choiceExplanations": [
       "Sai — 'because': tuổi cao không phải lý do để chạy bộ, nên không hợp nghĩa.",
-      "Đúng — 'even though' = 'mặc dù', nhấn mạnh sự tương phản bất ngờ. 'Although' hoặc 'though' cũng dùng được nhưng không có trong các lựa chọn.",
+      "Đúng — 'even though' = 'mặc dù', nhấn mạnh sự tương phản bất ngờ.",
       "Sai — 'so that': 'so that' chỉ mục đích, không hợp nghĩa.",
       "Sai — 'unless': 'unless he is almost eighty' = 'nếu ông không gần tám mươi', không hợp nghĩa."
     ]

@@ -949,7 +949,7 @@
       "Sai — 'where': 'where' chỉ nơi chốn; 'the night' là thời gian.",
       "Sai — 'which': 'which' làm chủ ngữ hoặc tân ngữ; mệnh đề đã có đủ chủ ngữ 'the power' và động từ, không còn chỗ cho 'which'.",
       "Đúng — 'the night' chỉ thời gian → when (= on which).",
-      "Sai — 'whose': 'whose' chỉ sở hữu, không hợp nghĩa ở đây."
+      "Sai — 'whose' chỉ sự sở hữu; 'the night' không sở hữu thứ gì trong câu này."
     ],
     "bac": 3
   },
@@ -1084,12 +1084,12 @@
       "that"
     ],
     "correctIndex": 3,
-    "explanation": "Sau 'the only' ta thường dùng 'that'. 'Restaurant' là vật làm chủ ngữ của 'was'. ('Which' cũng không sai ngữ pháp nhưng 'that' tự nhiên hơn sau 'the only'.)",
+    "explanation": "Sau 'the only' ta thường dùng 'that'. 'Restaurant' là vật làm chủ ngữ của 'was'. ('Which' cũng đúng ngữ pháp nhưng không có trong lựa chọn.)",
     "choiceExplanations": [
       "Sai — 'who': 'who' chỉ dùng cho người; 'restaurant' là vật.",
       "Sai — 'whose': 'whose' chỉ sở hữu và cần danh từ ngay sau.",
       "Sai — 'what': 'what' không thể bổ nghĩa cho danh từ đứng trước (lỗi 'the car what...').",
-      "Đúng — 'that' thay cho vật, rất hợp sau 'the only' → that."
+      "Đúng — 'that' thay cho vật, thường dùng sau 'the only' → that."
     ],
     "bac": 3
   },
@@ -1115,7 +1115,7 @@
     "explanation": "'whose' cũng dùng được cho vật: 'website của công ty'. Sau 'whose' là danh từ không kèm mạo từ.",
     "choiceExplanations": [
       "Sai — 'that': 'that' không chỉ sở hữu; không thể đứng trước 'website' với nghĩa 'của công ty'.",
-      "Sai — 'which': 'which website' sẽ không diễn đạt được sự sở hữu, và câu thiếu mạch.",
+      "Sai — 'which' không diễn đạt sở hữu; cần 'whose website' (website của công ty).",
       "Đúng — 'whose' + 'website' = website của công ty đó.",
       "Sai — 'who': 'who' chỉ người, mà 'company' là tổ chức/vật."
     ],
@@ -1172,7 +1172,7 @@
     "explanation": "'The café' là nơi chốn, và mệnh đề sau đã đủ chủ ngữ + động từ ('we usually meet'), nên dùng 'where'.",
     "choiceExplanations": [
       "Đúng — 'the café' là nơi chốn, mệnh đề sau đã đủ → where (= at which).",
-      "Sai — 'which': 'which' làm tân ngữ trực tiếp của 'meet'; nhưng 'meet' ở đây không có tân ngữ vật, thiếu giới từ 'at'.",
+      "Sai — 'meet' ở đây không nhận 'the café' làm tân ngữ nên không dùng 'which' một mình; muốn dùng phải có giới từ: 'the café at which we usually meet'.",
       "Sai — 'whose': 'whose' chỉ sở hữu, không hợp nghĩa.",
       "Sai — 'who': 'who' chỉ dùng cho người."
     ],
@@ -1254,12 +1254,12 @@
       "wins"
     ],
     "correctIndex": 2,
-    "explanation": "Sau số thứ tự ('the second') và so sánh nhất, mệnh đề quan hệ rút gọn bằng to-V: 'the second woman to win'.",
+    "explanation": "Sau số thứ tự (the first/second…) và so sánh nhất, mệnh đề quan hệ rút gọn bằng to-V dù nghĩa chủ động: 'the second woman to win'.",
     "choiceExplanations": [
-      "Sai — 'winning': 'winning' mô tả hành động đang diễn ra; sau số thứ tự ta dùng to-V cho sự việc xảy ra một lần, nên 'winning' không tự nhiên ở đây.",
-      "Sai — 'won': 'won' không thể đứng sau danh từ để rút gọn: câu sẽ có hai động từ 'was' và 'won' không nối với nhau.",
-      "Đúng — Sau 'the second/first/best...' dùng to-V → 'to win'.",
-      "Sai — 'wins': 'wins' là động từ chia, không rút gọn được và làm câu thiếu quan hệ đúng."
+      "Sai — 'winning': quy tắc V-ing cho nghĩa chủ động bị quy tắc to-V sau số thứ tự ('the second') lấn át.",
+      "Sai — 'won' (V3) chỉ rút gọn nghĩa bị động; ở đây Dr. Lan là người giành giải (chủ động), và 'was … won' làm câu thừa một động từ chính.",
+      "Đúng — sau 'the second/first/best…' dùng to-V → 'to win'.",
+      "Sai — 'wins': là động từ chia, câu sẽ có hai động từ chính ('was' và 'wins') không nối nhau."
     ],
     "bac": 4
   },

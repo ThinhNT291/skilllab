@@ -988,7 +988,7 @@
     "tags": [
       "cond-connectors"
     ],
-    "difficulty": 1,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "Dad says I can have a pet ______ I take care of it myself.",
     "choices": [
@@ -1044,7 +1044,7 @@
     "tags": [
       "cond-u2-first"
     ],
-    "difficulty": 2,
+    "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
     "prompt": "If our teacher ______ us extra homework tomorrow, I will do it at the library.",
     "choices": [
@@ -1061,7 +1061,7 @@
       "Đúng — loại 1: If + hiện tại đơn ('gives') cho sự việc tương lai.",
       "Sai — 'gave' là quá khứ (loại 2), vế chính 'will do' lại là loại 1."
     ],
-    "bac": 3
+    "bac": 2
   },
   {
     "id": "en-conditional-sentences-039",
@@ -1082,10 +1082,10 @@
       "would be"
     ],
     "correctIndex": 2,
-    "explanation": "Loại 2 giả định điều không có thật ở hiện tại. Với 'to be' dùng 'were' cho mọi ngôi. Lưu ý: trong văn nói thân mật người Mỹ cũng hay nói 'If he was taller'; câu này không đưa 'was' vào lựa chọn, và 'were' vẫn là dạng chuẩn.",
+    "explanation": "Loại 2 giả định điều không có thật ở hiện tại. Với 'to be' dạng chuẩn là 'were' cho mọi ngôi; trong văn nói thân mật người Mỹ cũng hay nói 'If he was taller'.",
     "choiceExplanations": [
       "Sai — 'will be': không dùng will trong mệnh đề If.",
-      "Sai — 'is' là hiện tại đơn (loại 1), nhưng vế chính 'would join' cho thấy giả định không có thật.",
+      "Sai — 'is' (loại 1) dùng khi điều kiện còn bỏ ngỏ; vế chính 'would join' cho thấy đây là giả định trái thực tế.",
       "Đúng — loại 2: If + were (dạng chuẩn cho mọi ngôi), vế chính would + V.",
       "Sai — 'would be': mệnh đề If không dùng would."
     ],
@@ -1158,7 +1158,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "I still like this old cartoon ______ my friends say it is for little kids.",
+    "prompt": "I will keep watching this old cartoon ______ my friends laugh at me.",
     "choices": [
       "in case",
       "so long as",
@@ -1166,12 +1166,12 @@
       "even if"
     ],
     "correctIndex": 3,
-    "explanation": "'Even if' = dù cho, kể cả khi: việc tôi thích phim không đổi dù bạn bè nói gì.",
+    "explanation": "'Even if' = dù cho, kể cả khi: việc tôi xem phim không đổi dù bạn bè có cười.",
     "choiceExplanations": [
-      "Sai — 'in case' = phòng khi, không hợp nghĩa.",
-      "Sai — 'so long as' = miễn là; câu sẽ nghĩa là bạn bè chê thì tôi mới thích, vô lý.",
-      "Sai — 'provided that' = với điều kiện là, cũng không hợp nghĩa.",
-      "Đúng — 'even if' = dù cho; kết quả không đổi."
+      "Sai — 'in case' = phòng khi; không hợp nghĩa (xem vì sợ bạn cười là vô lý).",
+      "Sai — 'so long as' = miễn là; câu sẽ nghĩa là chỉ xem nếu bạn bè cười, vô lý.",
+      "Sai — 'provided that' = với điều kiện là; cũng thành vô lý như 'so long as'.",
+      "Đúng — 'even if' = dù cho; việc tôi làm không đổi."
     ],
     "bac": 4
   },
@@ -1184,9 +1184,9 @@
     "tags": [
       "cond-u5-mixed"
     ],
-    "difficulty": 2,
+    "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "If we had booked earlier, we ______ in this tiny room right now.",
+    "prompt": "If we had booked earlier, we ______ in this tiny room these days.",
     "choices": [
       "wouldn't have been",
       "wouldn't be",
@@ -1194,9 +1194,9 @@
       "hadn't been"
     ],
     "correctIndex": 1,
-    "explanation": "Hỗn hợp loại 3 + loại 2: điều kiện ở quá khứ (không đặt sớm), kết quả ở hiện tại ('right now') nên vế chính dùng would + V.",
+    "explanation": "Hỗn hợp loại 3 + loại 2: điều kiện ở quá khứ, kết quả kéo dài đến hiện tại ('these days') nên vế chính dùng would + V.",
     "choiceExplanations": [
-      "Sai — 'wouldn't have been' nói kết quả ở quá khứ, nhưng 'right now' là hiện tại.",
+      "Sai — 'wouldn't have been' nói kết quả ở quá khứ, nhưng 'these days' là hiện tại.",
       "Đúng — hỗn hợp: If + had + V3, would(n't) + V cho kết quả ở hiện tại.",
       "Sai — 'won't be' là tương lai thật, không hợp với giả định trái quá khứ.",
       "Sai — 'hadn't been' dùng trong mệnh đề If, không dùng làm mệnh đề chính."
@@ -1257,7 +1257,7 @@
       "Sai — 'had auditioned' là quá khứ hoàn thành, không dùng làm mệnh đề chính giả định.",
       "Đúng — hỗn hợp: If + quá khứ đơn/were, would have + V3."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-046",
@@ -1270,22 +1270,22 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "If I hadn't stayed up playing video games, I ______ so sleepy right now.",
+    "prompt": "Tom missed the 8 a.m. flight. If he had caught it, he ______ in Paris by now.",
     "choices": [
-      "wouldn't have been",
-      "am not",
       "wouldn't be",
-      "didn't be"
+      "would be",
+      "would have been",
+      "will be"
     ],
-    "correctIndex": 2,
-    "explanation": "Hỗn hợp loại 3 + loại 2: hành động quá khứ (thức khuya) gây ra kết quả ở hiện tại ('right now'), nên vế chính dùng would + V.",
+    "correctIndex": 1,
+    "explanation": "Hỗn hợp loại 3 + loại 2: nếu đã bắt kịp chuyến bay (quá khứ) thì bây giờ (by now) anh ấy đã ở Paris.",
     "choiceExplanations": [
-      "Sai — 'wouldn't have been' chỉ kết quả ở quá khứ, trong khi 'right now' là hiện tại.",
-      "Sai — 'am not' là hiện tại thật, không phải kết quả giả định.",
-      "Đúng — hỗn hợp: If + hadn't + V3, would(n't) + V cho kết quả hiện tại.",
-      "Sai — 'didn't be' sai ngữ pháp; 'be' không dùng với 'didn't'."
+      "Sai — 'wouldn't be' phủ định, ngược với giả định: nếu bắt kịp thì anh ấy sẽ ở Paris.",
+      "Đúng — hỗn hợp: If + had + V3, would + V cho kết quả ở hiện tại ('by now').",
+      "Sai — 'would have been' nói kết quả ở quá khứ; 'by now' nhấn mạnh hiện tại.",
+      "Sai — 'will be' là tương lai thật, không hợp với giả định trái quá khứ."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-047",
@@ -1334,14 +1334,14 @@
       "Had she"
     ],
     "correctIndex": 2,
-    "explanation": "Đảo ngữ loại 2: Were + S + to V thay cho 'If she were to win'. Dạng đảo ngữ chỉ dùng 'Were', không bao giờ dùng 'Was', dù 'If she was' được chấp nhận trong văn nói.",
+    "explanation": "Đảo ngữ loại 2: Were + S + to V thay cho 'If she were to win'. Dạng đảo ngữ dùng 'Were', không dùng 'Was'.",
     "choiceExplanations": [
-      "Sai — 'Was she' không dùng trong đảo ngữ điều kiện (chỉ 'Were').",
+      "Sai — trong đảo ngữ điều kiện dùng 'Were', không dùng 'Was' (nói 'If she was' thì được trong văn nói, nhưng đảo ngữ thì không).",
       "Sai — 'Should she' đi với động từ nguyên mẫu, không đi với 'to win'.",
       "Đúng — đảo ngữ loại 2: Were + S + to V.",
       "Sai — 'Had she' là đảo ngữ loại 3, cần V3 ('Had she won')."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-049",
@@ -1352,7 +1352,7 @@
     "tags": [
       "cond-u4-third"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
     "prompt": "If the lifeguard hadn't jumped in right away, the boy ______ drowned.",
     "choices": [
@@ -1364,12 +1364,12 @@
     "correctIndex": 1,
     "explanation": "Loại 3: mệnh đề chính dùng would/could/might + have + V3. 'Might have' diễn tả điều có thể đã xảy ra nhưng thực tế không.",
     "choiceExplanations": [
-      "Sai — 'might be' không đi với 'drowned' theo cấu trúc loại 3.",
+      "Sai — 'might be drowned' là bị động, sai nghĩa; câu loại 3 cần 'might have + V3'.",
       "Đúng — loại 3: might have + V3 ('might have drowned').",
       "Sai — 'might had': sau modal phải là 'have', không phải 'had'.",
       "Sai — 'will have' là tương lai hoàn thành, không hợp với giả định quá khứ."
     ],
-    "bac": 5
+    "bac": 4
   },
   {
     "id": "en-conditional-sentences-050",
@@ -1386,7 +1386,7 @@
     "choices": [
       "Should",
       "Were",
-      "Did",
+      "Hadn't",
       "Had"
     ],
     "correctIndex": 3,
@@ -1394,9 +1394,9 @@
     "choiceExplanations": [
       "Sai — 'Should' đi với động từ nguyên mẫu, không đi với V3 'broken'.",
       "Sai — 'Were' không đi với V3 để tạo loại 3 (chỉ đi với 'to V' hoặc tính từ).",
-      "Sai — 'Did' không dùng để đảo ngữ điều kiện.",
+      "Sai — 'Hadn't the bus…' không dùng trong đảo ngữ điều kiện; dạng đúng là 'Had the bus not…'.",
       "Đúng — đảo ngữ loại 3: Had + S + not + V3."
     ],
-    "bac": 5
+    "bac": 4
   }
 ]

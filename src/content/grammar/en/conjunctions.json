@@ -46,7 +46,7 @@
         "id": "conj-u3-correlative",
         "bac": 3,
         "label": "Liên từ cặp: both ... and, either ... or, neither ... nor, whether ... or, not only ... but also",
-        "explanationVi": "Các liên từ đi thành cặp: both ... and (cả hai), either ... or (một trong hai), neither ... nor (không cái nào), whether ... or not (liệu có ... hay không), not only ... but also (không những ... mà còn). Phải dùng đúng cặp, không trộn lẫn (không viết neither ... or, hay not ... nor). Mỗi phần của cặp đứng trước một thành phần có cùng loại.",
+        "explanationVi": "Các liên từ đi thành cặp: both ... and (cả hai), either ... or (một trong hai), neither ... nor (không cái nào), whether ... or not (liệu có ... hay không), not only ... but also (không những ... mà còn). Phải dùng đúng cặp, không trộn lẫn (không viết neither ... or, hay not ... nor). Mỗi phần của cặp đứng trước một thành phần có cùng loại. Whether dùng được trước to-V (whether to go or to stay) và trước 'or (not)'; if thì không dùng trước to-V.",
         "examples": [
           {
             "en": "He plays both the violin and the drums.",
@@ -98,7 +98,7 @@
         "id": "conj-u6-subordinating",
         "bac": 2,
         "label": "Liên từ phụ thuộc: because, although, when, if, so that...",
-        "explanationVi": "Liên từ phụ thuộc mở đầu một mệnh đề phụ, không đứng một mình mà cần mệnh đề chính. Nguyên nhân: because, since, as (+ mệnh đề, chủ ngữ + động từ). Tương phản: although, though, even though (even though nhấn mạnh hơn), while (trong khi). Thời gian: when, while, before, after, until, as soon as. Điều kiện: if (nếu), unless (= if not, nếu không). Mục đích: so that. Ba điểm hay sai. (1) Because chỉ nguyên nhân còn so chỉ kết quả, và chỉ dùng một trong hai: Because it was late, we went home. = It was late, so we went home. (không viết Because ..., so ...). (2) Although và but cùng chỉ tương phản nên không dùng cả hai: Although it was cold, we went out. (không viết Although ..., but ...). (3) Unless đã có nghĩa phủ định nên không đi với not: Unless you hurry, you will be late. Với mệnh đề thời gian và điều kiện nói về tương lai (when, as soon as, before, after, until, if, unless) dùng hiện tại đơn, không dùng will: I will call you when I arrive. Since, because, as đều chỉ nguyên nhân và thường đổi chỗ được cho nhau (since và as thường dùng khi lý do đã rõ).",
+        "explanationVi": "Liên từ phụ thuộc mở đầu một mệnh đề phụ, không đứng một mình mà cần mệnh đề chính. Nguyên nhân: because, since, as (+ mệnh đề, chủ ngữ + động từ). Tương phản: although, though, even though (even though nhấn mạnh hơn), while (trong khi). Thời gian: when, while, before, after, until, as soon as. Điều kiện: if (nếu), unless (= if not, nếu không). Mục đích: so that. Ba điểm hay sai. (1) Because chỉ nguyên nhân còn so chỉ kết quả, và chỉ dùng một trong hai: Because it was late, we went home. = It was late, so we went home. (không viết Because ..., so ...). (2) Although và but cùng chỉ tương phản nên không dùng cả hai: Although it was cold, we went out. (không viết Although ..., but ...). (3) Unless đã có nghĩa phủ định nên không đi với not: Unless you hurry, you will be late. Với mệnh đề thời gian và điều kiện nói về tương lai (when, as soon as, before, after, until, if, unless) dùng hiện tại đơn, không dùng will: I will call you when I arrive. Since/as thường đứng đầu câu khi lý do đã rõ; because dùng được ở cả hai vị trí và trả lời câu hỏi 'Why?'. Lưu ý since còn nghĩa 'từ khi' (since 2019), khi đó đi với hiện tại hoàn thành. So that đi với can/could/will/would: She studies so that she can pass. Because + mệnh đề (because it rained), còn because of + danh từ (because of the rain).",
         "examples": [
           {
             "en": "Since Lena was hungry, she made a sandwich.",
@@ -118,7 +118,7 @@
         "id": "conj-u7-comma-subordinate",
         "bac": 3,
         "label": "Dấu phẩy với mệnh đề phụ thuộc",
-        "explanationVi": "Khi mệnh đề phụ thuộc đứng ĐẦU câu, đặt dấu phẩy sau cả mệnh đề đó, trước mệnh đề chính: When the bell rings, the students leave. Khi mệnh đề phụ thuộc đứng SAU mệnh đề chính, thường không dùng dấu phẩy: The students leave when the bell rings. Dấu phẩy không đứng ngay sau liên từ (không viết When, the bell rings) và không chen vào giữa chủ ngữ và động từ của mệnh đề chính. Không dùng dấu chấm tách mệnh đề phụ thuộc ra thành một câu riêng, vì mệnh đề đó không tự đứng được (câu cụt, sentence fragment). Với although, dấu phẩy thường vẫn có ở đầu câu; nếu đặt although ở giữa câu để nhấn mạnh sự tương phản thì có thể thêm dấu phẩy.",
+        "explanationVi": "Khi mệnh đề phụ thuộc đứng ĐẦU câu, đặt dấu phẩy sau cả mệnh đề đó, trước mệnh đề chính: When the bell rings, the students leave. Khi mệnh đề phụ thuộc đứng SAU mệnh đề chính, thường không dùng dấu phẩy: The students leave when the bell rings. Dấu phẩy không đứng ngay sau liên từ (không viết When, the bell rings) và không chen vào giữa chủ ngữ và động từ của mệnh đề chính. Không dùng dấu chấm tách mệnh đề phụ thuộc ra thành một câu riêng, vì mệnh đề đó không tự đứng được (câu cụt, sentence fragment). Mệnh đề chỉ tương phản (although, though, while) đứng SAU mệnh đề chính thường có dấu phẩy trước nó để nhấn sự đối lập: He went to school, although he was ill. / My brother loves spicy food, while I can't eat it. Với because, when, before, after, until, if đứng sau thì thường không có dấu phẩy.",
         "examples": [
           {
             "en": "When the bell rings, the students leave the room.",
@@ -127,6 +127,10 @@
           {
             "en": "The students leave the room when the bell rings.",
             "vi": "Học sinh rời khỏi phòng khi chuông reo."
+          },
+          {
+            "en": "He went to school, although he was ill.",
+            "vi": "Cậu ấy vẫn đi học, mặc dù đang ốm."
           }
         ]
       }
@@ -224,6 +228,16 @@
           {
             "wrong": "Because it was late, so we went home.",
             "correct": "Because it was late, we went home."
+          }
+        ]
+      },
+      {
+        "id": "conjunctions-m5",
+        "description": "Dùng 'unless' cùng với 'not' (phủ định kép).",
+        "examples": [
+          {
+            "wrong": "Unless you don't study, you will fail.",
+            "correct": "Unless you study, you will fail."
           }
         ]
       }

@@ -12,7 +12,7 @@
       {
         "id": "pv-u1-basic-tenses",
         "label": "Cấu trúc bị động cơ bản (Các thì thông dụng)",
-        "explanationVi": "Câu bị động được dùng khi ta muốn nhấn mạnh vào đối tượng chịu tác động của hành động thay vì người thực hiện. Để tạo câu bị động, ta biến đổi động từ to be theo đúng thì của câu chủ động, sau đó cộng với động từ chính ở dạng phân từ 2 (V3/ed).",
+        "explanationVi": "Câu bị động được dùng khi ta muốn nhấn mạnh vào đối tượng chịu tác động của hành động thay vì người thực hiện. Để tạo câu bị động, ta biến đổi động từ to be theo đúng thì của câu chủ động, sau đó cộng với động từ chính ở dạng phân từ 2 (V3/ed). Công thức theo thì: hiện tại đơn am/is/are + V3; quá khứ đơn was/were + V3; hiện tại hoàn thành has/have been + V3; quá khứ hoàn thành had been + V3; hiện tại tiếp diễn am/is/are being + V3; tương lai will be + V3; be going to: is/are going to be + V3.",
         "examples": [
           {
             "en": "The house is cleaned every day.",
@@ -21,6 +21,18 @@
           {
             "en": "A new bridge was built in this city last year.",
             "vi": "Một cây cầu mới đã được xây dựng ở thành phố này năm ngoái."
+          },
+          {
+            "en": "The photos have been posted online.",
+            "vi": "Những bức ảnh đã được đăng lên mạng."
+          },
+          {
+            "en": "The road is being repaired this week.",
+            "vi": "Con đường đang được sửa trong tuần này."
+          },
+          {
+            "en": "The package will be delivered tomorrow.",
+            "vi": "Gói hàng sẽ được giao vào ngày mai."
           }
         ],
         "bac": 3
@@ -95,8 +107,8 @@
             "vi": "Chúng tôi sẽ thuê người sơn lại nhà vào tuần tới."
           },
           {
-            "en": "He had his phone stolen on the train.",
-            "vi": "Anh ấy bị trộm mất điện thoại trên tàu."
+            "en": "She had her bike stolen outside the library.",
+            "vi": "Cô ấy bị mất chiếc xe đạp ở trước thư viện."
           }
         ],
         "bac": 4
@@ -113,14 +125,18 @@
           {
             "en": "The lights must have been turned off by someone.",
             "vi": "Chắc hẳn ai đó đã tắt đèn."
+          },
+          {
+            "en": "The match could have been won.",
+            "vi": "Trận đấu lẽ ra đã có thể thắng."
           }
         ],
-        "bac": 5
+        "bac": 4
       },
       {
         "id": "pv-u7-nonfinite",
         "label": "Nguyên mẫu và V-ing ở dạng bị động",
-        "explanationVi": "Sau have to, need to, want to, be going to hoặc sau động từ chỉ ý kiến (is said, was believed), dạng bị động của nguyên mẫu là to be + V3. Sau giới từ hoặc các động từ như enjoy, hate, like, avoid, dạng bị động của V-ing là being + V3.",
+        "explanationVi": "Sau have to, need to, want to, hoặc sau động từ chỉ ý kiến (is said, was believed), dạng bị động của nguyên mẫu là to be + V3. Sau động từ khuyết thiếu và be going to dùng be + V3 (is going to be delivered). Sau giới từ hoặc các động từ như enjoy, hate, like, avoid, dạng bị động của V-ing là being + V3, và giới từ đi kèm động từ được giữ nguyên (Nobody likes being laughed at).",
         "examples": [
           {
             "en": "This room needs to be cleaned today.",
@@ -129,9 +145,17 @@
           {
             "en": "He avoids being photographed.",
             "vi": "Anh ấy tránh bị chụp ảnh."
+          },
+          {
+            "en": "The building is said to be damaged.",
+            "vi": "Tòa nhà được cho là đã bị hư hại."
+          },
+          {
+            "en": "Nobody likes being laughed at.",
+            "vi": "Không ai thích bị cười nhạo."
           }
         ],
-        "bac": 5
+        "bac": 4
       },
       {
         "id": "pv-u8-intransitive",
@@ -140,11 +164,15 @@
         "examples": [
           {
             "en": "The meeting took place on Monday.",
-            "vi": "Cuộc họp đã diễn ra vào thứ Hai."
+            "vi": "Cuộc họp diễn ra vào thứ Hai."
           },
           {
-            "en": "A strange noise happened last night.",
-            "vi": "Có một tiếng động lạ xảy ra đêm qua."
+            "en": "Something strange happened last night.",
+            "vi": "Có chuyện lạ xảy ra tối qua."
+          },
+          {
+            "en": "My grandparents arrived yesterday.",
+            "vi": "Ông bà tôi đã đến hôm qua."
           }
         ],
         "bac": 4
