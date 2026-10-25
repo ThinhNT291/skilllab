@@ -28,7 +28,7 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [x] `choiceExplanations` (giải thích riêng từng đáp án) đã có đủ cho **cả 23 chuyên đề, 694 câu**. Đáp án sai nhưng vẫn chấp nhận được trong tiếng Anh tự nhiên đã được ghi rõ trong lời giải thích; danh sách câu cần viết lại cho chỉ còn một đáp án đúng nằm ở mục dưới.
 - [x] Đã sửa 40 câu có nhiều đáp án chấp nhận được: thay lựa chọn "sai nhưng vẫn nói được" bằng lựa chọn sai rõ ràng (sai thì, sai hòa hợp, sai chia). Việc này làm giảm phần đối chiếu "đơn vs tiếp diễn" trong một số câu; khi mở rộng ngân hàng lên 50–70 câu nên bổ sung câu có dấu hiệu rõ (at that exact moment, while...) để giữ phần đối chiếu.
 - [x] Cân lại độ khó 10/10/10 cho 6 chuyên đề lệch (subjunctive, pronouns-determiners, adverbial-clauses, tag-questions, present-perfect-continuous, adjective-adverb-order) bằng cách xếp lại mức theo độ phức tạp thực của từng câu, không đổi nội dung. present-continuous nay có 34 câu (10/10/14) do nhận 4 câu tương phản; cân nhắc rút còn 30. [x] Kiểm định độc lập chuyên đề 18–23 (đã làm 26/10: sửa nhiễu chấp nhận được, ví dụ trùng, điều bài tập kiểm tra mà lý thuyết chưa dạy).
-- [x] Nhãn cấp độ của chuyên đề không hiển thị cho người học (quyết định cũ). [ ] Gắn cấp CEFR ở mức từng câu và mô tả năng lực (giai đoạn 3).
+- [x] Nhãn cấp độ của chuyên đề không hiển thị cho người học (quyết định cũ). [x] Gắn cấp CEFR ở mức từng câu và mô tả năng lực (giai đoạn 3).
 - [x] Mỗi lượt bốc 10 câu theo từng mức độ khó, xếp dễ → khó. [x] Chế độ "Nhức đầu" (`/hoc/[topic]/nhuc-dau`, 10 câu khó nhất; chưa tách riêng điểm số so với lượt thường).
 - [x] `commonMistakes` đã tách thành {mô tả, cặp ví dụ sai/đúng, ghi chú} (105/106 mục có ví dụ). [x] Gắn thẻ lỗi: 145 lỗi thường gặp có `usageIds` nối với mục lý thuyết và bài tập (validator bắt buộc).
 - [x] Mô hình dữ liệu nội dung dùng chung: mục học (từ, cụm, chủ điểm ngữ pháp, bài đọc, bài nghe), gắn **ngôn ngữ, thang, cấp độ, kỹ năng, chủ đề, thẻ lỗi (tag)**.
@@ -37,7 +37,7 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [x] Nhận xét và gợi ý có cấu trúc: vì sao sai, quy tắc liên quan, lỗi hay gặp, link về lý thuyết, nên ôn tiếp (`WrongFeedback`); với Viết/Nói: chấm v2 bóc tách từng tiêu chí (xem `docs/cham-diem-viet-noi.md`).
 - [x] Màn **Tiến độ** `/tien-do`: tổng quan (số câu, % đúng, số chuyên đề), danh sách **mục cần ôn lại** (thẻ sai nhiều nhất lên đầu) kèm nút "Xem lại lý thuyết" và "Luyện lại mục này", và tỷ lệ đúng theo chuyên đề. Dùng bảng `answers`; tổng hợp lúc đọc (`src/lib/analytics`).
 - [x] Chuỗi ngày học (hiện tại và dài nhất), mục tiêu hằng ngày (10 câu, có vòng tiến độ) và bản đồ nhiệt 12 tuần trên `/tien-do`; tính từ bảng `answers`, mọi lượt trả lời (đúng lẫn sai) đều tính. Ngày theo giờ trình duyệt.
-- [x] Phân tích nâng cao (một phần): tỷ lệ đúng theo tuần, mục tiêu hằng ngày chỉnh được, thẻ mới/ngày chỉnh được, gợi ý học tiếp trên bản đồ chuyên đề. [ ] Còn: tiến độ theo thang trình độ (chờ giai đoạn 3).
+- [x] Phân tích nâng cao (một phần): tỷ lệ đúng theo tuần, mục tiêu hằng ngày chỉnh được, thẻ mới/ngày chỉnh được, gợi ý học tiếp trên bản đồ chuyên đề. [x] Tiến độ theo thang trình độ (chờ giai đoạn 3).
 - [x] Kiểm thử tự động cho hàm thuần (`npm test`, 14 ca).
 - [x] **Thẻ ôn tập (SRS)** `/on-tap`: thẻ tự tạo từ câu sai (không trùng; sai lại thẻ đã thuộc thì mở lại), lật 3D có họa tiết, chấm Lại/Khó/Tốt/Dễ (phím 1–4, lật bằng Space), "Lại" xếp thẻ về cuối hàng. Lịch ôn là SM-2 rút gọn viết mới (`src/lib/srs/scheduler.ts`); chưa đối chiếu với thuật toán SRS cũ vì tệp `Controller_Srs.gs` chưa có trong repo. [x] FSRS chạy song song SM-2; đọc to trên thẻ; thẻ từ vựng (nút thêm), thẻ Nghe/Đọc có liên kết về bài gốc.
 - [x] Thẻ ôn tập: màn quản lý `/on-tap/quan-ly` (xem/xóa), giới hạn 10 thẻ mới mỗi ngày (đếm theo trình duyệt), chỉnh được 5/10/20. [x] FSRS đã triển khai; [ ] còn: so sánh bằng số liệu thật (`scripts/srs-report.mjs`) khi đủ lượt ôn.
@@ -45,7 +45,7 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 
 ## Giai đoạn 2 — Lớp game
 - [x] Nhân vật 4 trạng thái (3 nhân vật), 5 âm thanh (đúng, sai, bấm, lên cấp, xu; tự tổng hợp, tắt được), hiệu ứng pop/lắc/nảy/pháo giấy, combo, sao, xu có chỗ tiêu (cửa hàng), huy hiệu.
-- [x] Bản đồ tiến trình theo chủ điểm ở `/hoc` (không khóa cứng, có gợi ý học tiếp). [ ] Chưa có đường đi dạng bản đồ vẽ tay.
+- [x] Bản đồ tiến trình theo chủ điểm ở `/hoc` (không khóa cứng, có gợi ý học tiếp). [x] Đường đi dạng bản đồ chặng A1→C2 (SVG) ở `/hoc`.
 - [x] Game mini ghép cặp bấm giờ tự được mời sau mỗi 3 lượt luyện (đếm theo trình duyệt). [x] "Trùm cuối" `/tran-cuoi`, xếp từ chạy đua và nghe-gõ (`SprintGame` dùng chung), thử thách từ vựng 60 giây; mỗi game là một component độc lập nhận danh sách câu.
 - [x] Hai bộ giao diện theo lứa tuổi (lớp 4–6 / lớp 7–9), chọn nhân vật (cú, cáo, robot) và chủ đề giao diện (3 skin).
 
@@ -110,6 +110,9 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 
 ## Cập nhật 25/10/2026 (học thuật và động lực)
 - Đã làm 4 mục "học thuật + động lực": thích ứng/ước lượng năng lực, phản hồi lỗi (đáp án ngay hoặc gợi ý trước), xen kẽ + ôn theo ngữ cảnh, động lực không áp lực. Bằng chứng, mức chắc chắn và điều chưa kiểm chứng: `docs/hoc-thuat-dong-luc.md`.
+
+## Cập nhật 29/10/2026
+- Đã làm: tiến độ theo thang trình độ (`/tien-do` → "Đường lên các bậc": mức bao phủ nội dung A1–C2 theo kỹ năng, bậc chưa có nội dung ghi "sắp có"; `lib/progress/scale.ts`), mô tả can-do kèm bậc đang học/ước lượng, `/khung-nang-luc` có dòng "Nội dung trong ứng dụng" từng bậc, bản đồ chặng A1→C2 vẽ bằng SVG ở `/hoc` (chuyển được sang danh sách). Còn: nội dung Bậc 5–6 (chặng C1/C2 đang "sắp có"); độ bao phủ chỉ tính trong 1000 câu trả lời gần nhất.
 
 ## Cập nhật 28/10/2026
 - Game 60 giây xếp từ chạy đua và nghe-gõ giờ thích ứng: câu xếp dễ → khó (theo số từ + bậc), bắt đầu theo năng lực ước lượng (kể cả từ bài xếp trình độ), đúng thì khó dần, sai thì dễ lại (`lib/game/sprint-ladder.ts`, `useStartPosition`). Luyện thường chọn câu quanh năng lực (tăng dần trong lượt); có xếp trình độ Từ vựng/Đọc/Nghe (`/xep-trinh-do/[skill]`) và gợi ý bậc ở các trang kỹ năng; kết quả placement đi vào ước lượng năng lực chung. Còn: thử thách từ vựng chưa thích ứng; đọc/nghe mỗi bậc chỉ 1 bài placement; Nói/Viết chưa có placement (chấm bằng Gemini, tốn hạn mức).
