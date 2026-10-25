@@ -2,6 +2,7 @@
 
 import { useEffect } from "react"
 import { cn } from "@/lib/utils"
+import { AccountMenu } from "@/components/auth/account-menu"
 import { FONT_SIZES, SKINS, updateSettings, useSettings } from "@/lib/settings"
 
 /** Gắn skin lên <html> và hiện thanh chọn giao diện / bật tắt âm. */
@@ -46,6 +47,9 @@ export function SettingsBar() {
       <button type="button" className={chip(sound)} aria-pressed={sound} onClick={() => updateSettings({ sound: !sound })}>
         {sound ? "🔊 Âm thanh" : "🔇 Âm thanh"}
       </button>
+      <span className="ml-auto">
+        <AccountMenu />
+      </span>
     </div>
   )
 }

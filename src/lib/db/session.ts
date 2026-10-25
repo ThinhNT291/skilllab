@@ -9,6 +9,11 @@ export function dbConfigured(): boolean {
 
 let profilePromise: Promise<Profile> | null = null
 
+/** Quên hồ sơ đã nhớ. Gọi sau khi đăng nhập/đăng xuất để lần sau nạp đúng hồ sơ của phiên mới. */
+export function resetProfileCache() {
+  profilePromise = null
+}
+
 /**
  * Bảo đảm có phiên đăng nhập và hồ sơ. Chưa có phiên thì đăng nhập ẩn danh (học sinh dùng ngay, không cần đăng ký).
  * Sau này thêm tài khoản do quản trị tạo và Google: chỉ cần thêm đường đăng nhập, hồ sơ giữ nguyên cách tạo.
