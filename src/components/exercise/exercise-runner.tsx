@@ -8,9 +8,9 @@ import { sfx } from "@/lib/audio/sfx"
 import { useSettings } from "@/lib/settings"
 import { bacLabel } from "@/lib/content/bac"
 import { nextPosition, pickAtPosition, START_POSITION } from "@/lib/content/adaptive"
-import { getOwnedItems } from "@/lib/db"
+import { getAnswerCounts, getOwnedItems } from "@/lib/db"
 import { recordRoundDone } from "@/lib/game/bonus"
-import { xpFor, XP_PER_COIN } from "@/lib/game/xp"
+import { levelFromXp, xpFor, XP_PER_COIN } from "@/lib/game/xp"
 import { Mascot, type Mood } from "@/components/game/mascot"
 import { ProgressBar } from "./progress-bar"
 import { scaffoldFor } from "@/lib/content/derive"
@@ -67,6 +67,7 @@ export function ExerciseRunner({
   adaptive,
   rules,
   practiceBase,
+  afterResult,
 }: {
   exercises: Exercise[]
   /** Bài thích ứng: câu kế tiếp chọn theo kết quả câu vừa làm (đúng thì khó hơn, sai thì dễ hơn). `exercises` chỉ cần câu đầu. */
@@ -82,6 +83,8 @@ export function ExerciseRunner({
   rules?: RuleHints
   /** Đường dẫn gốc của chuyên đề (vd /hoc/present-simple) để gợi ý luyện riêng mục vừa sai. */
   practiceBase?: string
+  /** Nội dung thêm hiện trong khung kết quả của mỗi câu (vd lời thoại kèm căn cứ ở bài nghe). */
+  afterResult?: (exercise: Exercise, result: Result) => React.ReactNode
 }) {
   const { sound, showBac } = useSettings()
   const [list, setList] = useState(exercises)
@@ -93,6 +96,7 @@ export function ExerciseRunner({
   const [wrongIds, setWrongIds] = useState<string[]>([])
   const [worn, setWorn] = useState<string[]>([])
   const [offerBonus, setOfferBonus] = useState(false)
+  const [levelUp, setLevelUp] = useState<number | null>(null)
 
   useEffect(() => {
     getOwnedItems().then((r) => r.ok && setWorn(r.equipped))
@@ -100,6 +104,34 @@ export function ExerciseRunner({
 
   const total = adaptive ? adaptive.count : list.length
   const done = index >= total
+  const gainedXp = xpFor(correctCount, total - correctCount)
+
+  // Cuối lượt: tiếng xu nếu có xu thưởng; hỏi tổng XP để biết có vừa lên cấp không (tiếng lên cấp + pháo giấy).
+  useEffect(() => {
+    if (!done) return
+    let cancelled = false
+    const timers: ReturnType<typeof setTimeout>[] = []
+    if (sound && Math.floor(gainedXp / XP_PER_COIN) > 0) timers.push(setTimeout(() => sfx.coin(), 500))
+    timers.push(
+      setTimeout(() => {
+        getAnswerCounts().then((r) => {
+          if (cancelled || !r.ok) return
+          const now = xpFor(r.correct, r.total - r.correct)
+          const before = Math.max(0, now - gainedXp)
+          const after = levelFromXp(now).level
+          if (after > levelFromXp(before).level) {
+            setLevelUp(after)
+            if (sound) sfx.levelUp()
+            if (!reducedMotion()) confetti({ particleCount: 160, spread: 100, origin: { y: 0.5 } })
+          }
+        })
+      }, 700),
+    )
+    return () => {
+      cancelled = true
+      timers.forEach(clearTimeout)
+    }
+  }, [done, sound, gainedXp])
   const ex = done ? null : list[index]
 
   function resolve(r: Result) {
@@ -122,6 +154,7 @@ export function ExerciseRunner({
   }
 
   function next() {
+    if (sound) sfx.click()
     const last = index + 1 >= total
     setIndex((n) => n + 1)
     setResult(null)
@@ -136,6 +169,7 @@ export function ExerciseRunner({
   }
 
   function restart() {
+    setLevelUp(null)
     if (adaptive) {
       positionRef.current = START_POSITION
       const first = pickAtPosition(adaptive.ladder, new Set(), START_POSITION)
@@ -151,7 +185,7 @@ export function ExerciseRunner({
 
   if (done) {
     const stars = starsFor(correctCount, total)
-    const gained = xpFor(correctCount, total - correctCount)
+    const gained = gainedXp
     return (
       <div className="anim-pop rounded-game border-2 border-border bg-card p-6 text-center">
         <div className="flex justify-center">
@@ -167,6 +201,11 @@ export function ExerciseRunner({
         <p className="mt-1 font-extrabold text-accent-deep">
           +{gained} XP · +{Math.floor(gained / XP_PER_COIN)} 🪙
         </p>
+        {levelUp !== null && (
+          <p className="anim-pop mt-2 rounded-game border-2 border-accent bg-background px-3 py-2 text-xl font-extrabold" role="status">
+            🎉 Lên cấp {levelUp}!
+          </p>
+        )}
         {wrongIds.length > 0 && <p className="mt-1 text-muted-foreground">{wrongIds.length} câu cần ôn lại</p>}
         {offerBonus && bonusHref && (
           <Link href={bonusHref} className="anim-pop mt-4 block rounded-game border-2 border-accent bg-background px-4 py-3 font-extrabold hover:border-primary">
@@ -249,6 +288,7 @@ export function ExerciseRunner({
                 </Link>
               )
             )}
+            {afterResult?.(current, result)}
             <button type="button" onClick={next} className="mt-3 w-full rounded-game border-b-[5px] border-primary-deep bg-primary py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2">
               {index + 1 < total ? "Tiếp tục" : "Xem kết quả"}
             </button>

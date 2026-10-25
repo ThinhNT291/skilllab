@@ -3,6 +3,8 @@
 import { useState } from "react"
 import { buyItem, saveEquipped } from "@/lib/db"
 import { SHOP_ITEMS, SLOT_LABEL, toggleEquip, type Slot } from "@/lib/game/shop"
+import { sfx } from "@/lib/audio/sfx"
+import { getSettings } from "@/lib/settings"
 import { CompanionPicker } from "@/components/companion-picker"
 import { Mascot } from "./mascot"
 import { usePlayer } from "./use-player"
@@ -24,6 +26,7 @@ export function ShopView() {
     const r = await buyItem(id)
     if (!r.ok) return setNote(`Chưa mua được (${r.reason === "not_configured" ? "chưa kết nối Supabase" : (r.message ?? "lỗi không rõ")}).`)
     setNote("")
+    if (getSettings().sound) sfx.coin()
     reload()
   }
 

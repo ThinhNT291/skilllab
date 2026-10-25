@@ -4,7 +4,14 @@ import { useState } from "react"
 import type { Exercise, DictationExercise, McqExercise, ReorderExercise, SpotExercise, FixExercise, TypedExercise } from "@/lib/content/types"
 import { gradeReorder, gradeSpot, gradeTyped } from "@/lib/grading"
 import { speak, stopSpeaking, useTtsSupported } from "@/lib/audio/tts"
+import { sfx } from "@/lib/audio/sfx"
+import { getSettings } from "@/lib/settings"
 import { cn } from "@/lib/utils"
+
+/** Tiếng "bấm" nhẹ khi chạm các nút phụ (không phải nộp đáp án, vì đúng/sai đã có âm riêng). */
+function tap() {
+  if (getSettings().sound) sfx.click()
+}
 import { ChoiceButton } from "./choice-button"
 
 /** Kết quả một lần trả lời, dùng chung cho mọi kiểu câu. */
@@ -65,7 +72,10 @@ export function ReorderView({ ex, result, onResolve }: { ex: ReorderExercise; re
             key={`${poolIndex}-${pos}`}
             type="button"
             disabled={done}
-            onClick={() => setPicked((p) => p.filter((_, k) => k !== pos))}
+            onClick={() => {
+              tap()
+              setPicked((p) => p.filter((_, k) => k !== pos))
+            }}
             className="rounded-xl border-2 border-b-4 border-primary bg-card px-3 py-1.5 text-lg font-extrabold enabled:active:translate-y-[2px] enabled:active:border-b-2"
           >
             {ex.pool[poolIndex]}
@@ -78,7 +88,10 @@ export function ReorderView({ ex, result, onResolve }: { ex: ReorderExercise; re
             key={i}
             type="button"
             disabled={done || picked.includes(i)}
-            onClick={() => setPicked((p) => [...p, i])}
+            onClick={() => {
+              tap()
+              setPicked((p) => [...p, i])
+            }}
             className="rounded-xl border-2 border-b-4 border-border bg-card px-3 py-1.5 text-lg font-extrabold enabled:hover:border-primary enabled:active:translate-y-[2px] enabled:active:border-b-2 disabled:opacity-30"
           >
             {w}
@@ -90,7 +103,10 @@ export function ReorderView({ ex, result, onResolve }: { ex: ReorderExercise; re
           <button type="button" className={PRIMARY_BTN} disabled={picked.length !== ex.pool.length} onClick={check}>
             Kiểm tra
           </button>
-          <button type="button" className={GHOST_BTN} disabled={picked.length === 0} onClick={() => setPicked([])}>
+          <button type="button" className={GHOST_BTN} disabled={picked.length === 0} onClick={() => {
+              tap()
+              setPicked([])
+            }}>
             Xóa hết
           </button>
         </div>
