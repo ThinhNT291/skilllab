@@ -10,15 +10,15 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 ## Giai đoạn 0 — Chuẩn bị
 - [x] Cấp quyền cho phiên Claude vào repo `daotao`.
 - [x] Chốt hướng A: Next.js + Supabase + Vercel; bỏ Google Apps Script.
-- [ ] Rà kỹ component/design token của `daotao`, chọn cái dùng lại (bảng màu mới tươi hơn cho học sinh).
-- [ ] Kiểm tra số project Supabase đang hoạt động, tạo project riêng; tạo project Vercel; chủ dự án cấp biến môi trường.
+- [x] Rà kỹ component/design token của `daotao`, chọn cái dùng lại (bảng màu mới tươi hơn cho học sinh). (đã dùng design token riêng + skin; chưa cài shadcn/ui, thêm khi cần)
+- [x] Kiểm tra số project Supabase đang hoạt động, tạo project riêng; tạo project Vercel; chủ dự án cấp biến môi trường. (đã chạy toàn bộ migration trên Supabase thật)
 - [x] Dựng khung Next.js, 3 skin, `ExerciseRunner` với câu mẫu (chưa nối dữ liệu).
 - [x] Client Supabase (browser/server) và route `/api/health` kiểm tra kết nối khi chạy dev.
 - [x] Chốt: đăng nhập ẩn danh trước. Có `supabase/migrations/0001_init.sql` (`profiles`, `answers`, RLS) và lớp `src/lib/db` ghi từng câu trả lời.
-- [ ] Thêm đường đăng nhập: tài khoản do quản trị tạo (cần màn quản lý) và Google; gắn tài khoản cho người đang dùng ẩn danh. Bật CAPTCHA trước khi mở rộng.
-- [ ] Phân tích từ `answers`: tiến độ theo chủ điểm/thẻ lỗi, mức thuộc, SRS.
-- [ ] Chuyển `legacy/grammar_theory_bank.js` thành dữ liệu nguồn; xóa phần còn lại của `legacy/` sau khi chủ dự án xác nhận.
-- [ ] Đưa phần Gemini (chấm, nhận xét, TTS) vào API route phía server (đã chốt: Flash-Lite bản mới nhất; TTS dùng Flash-Lite TTS bản mới nhất).
+- [x] Thêm đường đăng nhập: tài khoản do quản trị tạo (cần màn quản lý) và Google; gắn tài khoản cho người đang dùng ẩn danh. Bật CAPTCHA trước khi mở rộng. [x] Đã có: tài khoản do quản trị tạo + màn quản lý, Google (bật bằng `NEXT_PUBLIC_GOOGLE_LOGIN`). [ ] CÒN: bật CAPTCHA + hạn mức chấm điểm trước khi mở công khai.
+- [x] Phân tích từ `answers`: tiến độ theo chủ điểm/thẻ lỗi, mức thuộc, SRS.
+- [x] Chuyển `legacy/grammar_theory_bank.js` thành dữ liệu nguồn. [ ] CÒN: xóa phần còn lại của `legacy/` sau khi chủ dự án xác nhận.
+- [x] Đưa phần Gemini (chấm, nhận xét, TTS) vào API route phía server (đã chốt: Flash-Lite bản mới nhất; TTS dùng Flash-Lite TTS bản mới nhất).
 
 ## Giai đoạn 1 — Lõi học và luyện (ưu tiên cao nhất)
 - [x] Lý thuyết 23 chuyên đề tiếng Anh đã chuyển sang JSON (`src/content/grammar/en`), có trang `/hoc` và `/hoc/[topic]`; validator `npm run check:content`.
@@ -31,7 +31,7 @@ Trạng thái: bản nháp thảo luận, chưa có phần nào được xây. M
 - [x] Nhãn cấp độ của chuyên đề không hiển thị cho người học (quyết định cũ). [ ] Gắn cấp CEFR ở mức từng câu và mô tả năng lực (giai đoạn 3).
 - [x] Mỗi lượt bốc 10 câu theo từng mức độ khó, xếp dễ → khó. [x] Chế độ "Nhức đầu" (`/hoc/[topic]/nhuc-dau`, 10 câu khó nhất; chưa tách riêng điểm số so với lượt thường).
 - [x] `commonMistakes` đã tách thành {mô tả, cặp ví dụ sai/đúng, ghi chú} (105/106 mục có ví dụ). [x] Gắn thẻ lỗi: 145 lỗi thường gặp có `usageIds` nối với mục lý thuyết và bài tập (validator bắt buộc).
-- [ ] Mô hình dữ liệu nội dung dùng chung: mục học (từ, cụm, chủ điểm ngữ pháp, bài đọc, bài nghe), gắn **ngôn ngữ, thang, cấp độ, kỹ năng, chủ đề, thẻ lỗi (tag)**.
+- [x] Mô hình dữ liệu nội dung dùng chung: mục học (từ, cụm, chủ điểm ngữ pháp, bài đọc, bài nghe), gắn **ngôn ngữ, thang, cấp độ, kỹ năng, chủ đề, thẻ lỗi (tag)**.
 - [x] Khu Học → Bài tập: một câu mỗi lần, tiến độ, phản hồi tức thì, kết quả cuối bài, làm lại.
 - [x] Kiểu câu: trắc nghiệm, xếp từ, gõ đáp án, nghe chép, tìm lỗi sai (chạm vào chỗ sai). [x] Ghép cặp là game mini bấm giờ. [x] Sửa lỗi bằng cách gõ lại câu đúng (kiểu `fix`).
 - [x] Nhận xét và gợi ý có cấu trúc: vì sao sai, quy tắc liên quan, lỗi hay gặp, link về lý thuyết, nên ôn tiếp (`WrongFeedback`); với Viết/Nói: chấm v2 bóc tách từng tiêu chí (xem `docs/cham-diem-viet-noi.md`).
@@ -95,9 +95,9 @@ Chủ đề cần đề xuất (mỗi chủ đề: vấn đề, bằng chứng, 
 - [x] Đọc Thông tư 01/2014 (khung 6 bậc) và Framework CEFR; đối chiếu English Grammar Profile (EGP). Chi tiết: `docs/egp-doi-chieu-va-tu-vung.md`.
 - [x] Thêm trường `bac` (bậc 1–6) cho câu và mục lý thuyết, có kiểm tra trong `check:content`.
 - [x] Rà soát `present-simple` (60 câu, bậc 1–3) và `subjunctive` (30 câu, bậc 4). Đã đặt `bac` cho toàn bộ 26 chuyên đề (ước lượng, cần chuyên gia kiểm lại).
-- [ ] Module từ vựng: danh sách gốc EVP (bổ sung Oxford 3000/5000 khi cần), tham khảo `Oxford Word Skills`.
+- [x] Module từ vựng: danh sách gốc EVP (bổ sung Oxford 3000/5000 khi cần), tham khảo `Oxford Word Skills`.
 - [x] Đã thêm 3 chuyên đề thì từ bảng cũ (future continuous, past perfect continuous, future perfect), mỗi chuyên đề rà bằng agent phản biện độc lập.
-- [ ] Còn thiếu 5 chuyên đề từ bảng cũ: đảo ngữ không điều kiện, câu chẻ, so/neither, liên từ, phrasal verbs (quy tắc).
+- [x] Còn thiếu 5 chuyên đề từ bảng cũ: đảo ngữ không điều kiện, câu chẻ, so/neither, liên từ, phrasal verbs (quy tắc).
 
 ## Cập nhật 24/10/2026 (đã làm trong đợt này)
 Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói bằng Gemini (route + thang tiêu chí); đọc to bằng Gemini TTS; module từ vựng A1–B1; 6 chuyên đề mới + 3 chuyên đề mở rộng 50 câu. Việc tiếp theo: lưu điểm Viết/Nói (bảng riêng), CAPTCHA/đăng nhập thật trước khi công khai, kiểm chứng mã mô hình Gemini, từ vựng B2+ và nghĩa tiếng Việt (Gemini), liên từ phụ thuộc cho chuyên đề `conjunctions`, mở rộng 50 câu cho các chuyên đề còn lại, trang About ghi nguồn, dọn `legacy/`, game mini cho từ vựng.
