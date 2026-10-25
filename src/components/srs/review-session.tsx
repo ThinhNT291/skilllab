@@ -4,9 +4,10 @@ import { useCallback, useEffect, useRef, useState } from "react"
 import Link from "next/link"
 import confetti from "canvas-confetti"
 import { getDueCards, reviewCard, type SrsCard } from "@/lib/db"
-import { formatInterval, type Grade } from "@/lib/srs/scheduler"
+import type { Grade } from "@/lib/srs/scheduler"
+import { previewLabels } from "@/lib/srs/preview"
 import { isNewCard, limitNewCards } from "@/lib/srs/queue"
-import { getSettings } from "@/lib/settings"
+import { getSettings, useSettings } from "@/lib/settings"
 import { markNewCardDone, newCardsDoneToday } from "@/lib/srs/daily"
 import { isGrammarTopic, topicHref } from "@/lib/content/links"
 import { speak, useTtsSupported } from "@/lib/audio/tts"
@@ -47,6 +48,7 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
   const [deferred, setDeferred] = useState(0)
   const busy = useRef(false)
   const ttsSupported = useTtsSupported()
+  const { srsAlgorithm, retention } = useSettings()
 
   useEffect(() => {
     let cancelled = false
@@ -147,7 +149,7 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
     )
   }
 
-  const state = { intervalDays: current.intervalDays, ease: current.ease, reps: current.reps, lapses: current.lapses }
+  const labels = previewLabels({ sm2: { intervalDays: current.intervalDays, ease: current.ease, reps: current.reps, lapses: current.lapses }, fsrs: current.fsrs, lastReviewedAt: current.lastReviewedAt ? new Date(current.lastReviewedAt) : null }, srsAlgorithm, retention)
   const ttsOk = ttsSupported
   const topicLabel = topicTitles[current.topic]?.replace(/\s*\(.*\)\s*$/, "") ?? current.topic
 
@@ -204,7 +206,7 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
                 className={`rounded-game border-2 border-b-[5px] px-1 py-2 text-center active:translate-y-[3px] active:border-b-2 ${g.style}`}
               >
                 <span className="block text-lg font-extrabold">{g.label}</span>
-                <span className="block text-xs text-muted-foreground">{formatInterval(state, g.grade)}</span>
+                <span className="block text-xs text-muted-foreground">{labels[g.grade]}</span>
               </button>
             ))}
           </div>
