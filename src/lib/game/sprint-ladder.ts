@@ -2,8 +2,8 @@
  * Thang độ khó cho game 60 giây: câu dài hơn thì khó hơn, cộng với bậc/mức khó của câu gốc.
  * Dùng chung thang với ước lượng năng lực (lib/progress/ability.ts) để bắt đầu đúng tầm người chơi. Hàm thuần.
  */
-import type { Exercise } from "@/lib/content/types"
-import { itemRating, type ItemMeta } from "@/lib/progress/ability"
+import type { Exercise } from "../content/types.ts"
+import { itemRating, type ItemMeta } from "../progress/ability.ts"
 
 /** Mỗi từ thêm hoặc bớt so với câu 6 từ đổi độ khó 25 điểm (4 từ ≈ −50, 12 từ ≈ +150; một bậc = 200 điểm). */
 const WORD_STEP = 25
