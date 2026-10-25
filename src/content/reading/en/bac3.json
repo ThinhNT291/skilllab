@@ -383,7 +383,7 @@
     "id": "rd-b3-006",
     "bac": 3,
     "title": "Clean Waves",
-    "text": "Every year, about eight million tons of plastic end up in the oceans. Much of this rubbish is carried there by rivers, and it can harm sea animals, which often mistake it for food.\n\nA group of students in a small coastal town decided to take action. Last year, they started a project called Clean Waves. Every Saturday, volunteers walk along the beach and collect the rubbish that has been left behind. So far, they have gathered more than two thousand plastic bottles.\n\nThe students do not only clean. They also visit local shops and ask owners to use paper bags instead of plastic ones. Three shops have already agreed. \"Cleaning is important, but stopping the problem before it starts is even better,\" says Linh, the leader of the group. If more people join the project, the beach will stay clean much longer. The group is now making a short video to show other schools how they can start similar projects.",
+    "text": "Every year, about eight million tons of plastic end up in the oceans. Much of this trash is carried there by rivers, and it can harm sea animals, which often mistake it for food.\n\nA group of students in a small coastal town decided to take action. Last year, they started a project called Clean Waves. Every Saturday, volunteers walk along the beach and collect the trash that has been left behind. So far, they have gathered more than two thousand plastic bottles.\n\nThe students do not only clean. They also visit local shops and ask owners to use paper bags instead of plastic ones. Three shops have already agreed. \"Cleaning is important, but stopping the problem before it starts is even better,\" says Linh, the leader of the group. If more people join the project, the beach will stay clean much longer. The group is now making a short video to show other schools how they can start similar projects.",
     "questions": [
       {
         "prompt": "What do the students ask shop owners to do?",
@@ -425,7 +425,7 @@
           "Shops give food to sea animals.",
           "Paper bags are safe for animals to eat.",
           "Shop owners clean the beach every Saturday.",
-          "Fewer plastic bags means less rubbish may reach the sea."
+          "Fewer plastic bags means less trash may reach the sea."
         ],
         "correctIndex": 3,
         "explanation": "Nối đoạn 1 (nhựa hại động vật biển) với đoạn 3 (ít túi nhựa hơn): ngăn rác từ đầu nghĩa là bớt rác ra biển.",
@@ -535,7 +535,7 @@
     "id": "rd-b3-008",
     "bac": 3,
     "title": "The Busy Life of Bees",
-    "text": "Bees are small, but they play a very big role in our world. About one third of the food we eat depends on them. When a bee visits a flower to drink a sweet liquid called nectar, tiny grains called pollen stick to its body. The bee then carries the pollen to the next flower, and this helps the plants to grow fruit and seeds.\n\nInside a hive, thousands of bees live and work together. Most of them are female workers, who clean the hive, take care of young bees, and look for food. The honey that we put on our bread is made from nectar. It is stored in small wax rooms until the bees need it in winter.\n\nSadly, the number of bees has fallen in many countries. Scientists believe that some farm chemicals and the loss of wild flowers are part of the problem. If we plant flowers in our gardens and balconies, bees will have more food. Even a small pot of flowers can make a difference.",
+    "text": "Bees are small, but they play a very big role in our world. About one third of the food we eat depends on pollinators such as bees. When a bee visits a flower to drink a sweet liquid called nectar, tiny grains called pollen stick to its body. The bee then carries the pollen to the next flower, and this helps the plants to grow fruit and seeds.\n\nInside a hive, thousands of bees live and work together. Most of them are female workers, who clean the hive, take care of young bees, and look for food. The honey that we put on our bread is made from nectar. It is stored in small wax rooms until the bees need it in winter.\n\nSadly, the number of bees has fallen in many countries. Scientists believe that some farm chemicals and the loss of wild flowers are part of the problem. If we plant flowers in our gardens and balconies, bees will have more food. Even a small pot of flowers can make a difference.",
     "questions": [
       {
         "prompt": "What is honey made from?",

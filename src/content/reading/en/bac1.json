@@ -137,7 +137,7 @@
         "choices": [
           "A school lesson",
           "A big zoo",
-          "A girl or boy and a pet dog",
+          "A person and his or her dog",
           "A cat and a ball"
         ],
         "correctIndex": 2,
@@ -383,7 +383,7 @@
     "id": "rd-b1-006",
     "bac": 1,
     "title": "Pizza Night",
-    "text": "On Friday night, Lily's family makes pizza at home. Lily puts cheese on the pizza. Her dad cuts the tomatoes and the green peppers.\n\nHer little sister does not like peppers, so she wants only cheese. The pizza is in the oven for fifteen minutes. Then they eat and watch a movie. Lily loves Friday!",
+    "text": "On Friday night, Lily's family makes pizza at home. Lily puts cheese on the pizza. Her dad cuts the tomatoes and the green peppers.\n\nHer little sister does not like peppers, so she wants only cheese. The pizza cooks in the oven for fifteen minutes. Then they eat and watch a movie. Lily loves Friday!",
     "questions": [
       {
         "prompt": "What does Lily put on the pizza?",
@@ -405,7 +405,7 @@
       {
         "prompt": "Which is true?",
         "choices": [
-          "Lily's dad does not cook.",
+          "Lily's sister puts peppers on the pizza.",
           "They make pizza on Sunday.",
           "Lily's sister wants many peppers.",
           "Lily's sister does not like peppers."
@@ -413,7 +413,7 @@
         "correctIndex": 3,
         "explanation": "Bài viết: \"Her little sister does not like peppers, so she wants only cheese.\"",
         "choiceExplanations": [
-          "Sai — 'Lily's dad does not cook.': bố cắt rau cho pizza, nên có giúp nấu.",
+          "Sai — bài nói em gái không thích ớt xanh và chỉ muốn phô mai, nên em không cho ớt lên pizza.",
           "Sai — 'They make pizza on Sunday.': bài nói tối thứ Sáu.",
           "Sai — 'Lily's sister wants many peppers.': bài nói em chỉ muốn phô mai.",
           "Đúng — bài viết: \"Her little sister does not like peppers.\""
@@ -441,15 +441,15 @@
         "choices": [
           "a kind of movie",
           "a cold box for milk",
-          "a hot place in the kitchen to cook food",
+          "a hot place where we cook food",
           "a table for dinner"
         ],
         "correctIndex": 2,
         "explanation": "Pizza cần nướng \"in the oven\", rồi \"then they eat\", nên oven là lò nướng.",
         "choiceExplanations": [
           "Sai — 'a kind of movie': họ xem phim sau khi ăn, oven không phải phim.",
-          "Sai — 'a cold box for milk': pizza được nấu trong oven nên nó nóng, không lạnh.",
-          "Đúng — pizza ở trong oven mười lăm phút rồi mới ăn, nên oven dùng để nấu.",
+          "Sai — 'a cold box for milk': pizza được nấu trong oven nên nó không lạnh.",
+          "Đúng — pizza ở trong oven mười lăm phút, rồi họ mới ăn, nên oven là nơi nóng để nấu thức ăn.",
           "Sai — 'a table for dinner': pizza nằm \"in the oven\", không phải trên bàn."
         ]
       }
@@ -535,7 +535,7 @@
     "id": "rd-b1-008",
     "bac": 1,
     "title": "A Day at the Zoo",
-    "text": "Emma and her friend Kate go to the zoo on Sunday. They see a tall giraffe, two big elephants, and many monkeys.\n\nKate takes photos with her phone. Emma likes the monkeys because they are funny. They buy ice cream at noon. The zoo closes at five o'clock, so they go home at four.",
+    "text": "Emma and her friend Kate go to the zoo on Sunday. They see a tall giraffe, two big elephants, and many monkeys.\n\nKate takes photos with her phone. Emma likes the monkeys because they are funny. They make her laugh. They buy ice cream at noon. The zoo closes at five o'clock, so they go home at four.",
     "questions": [
       {
         "prompt": "Who takes photos?",
@@ -577,7 +577,7 @@
           "They go to the zoo on Saturday.",
           "They go home at five o'clock.",
           "The zoo closes at five o'clock.",
-          "They eat ice cream at home."
+          "They buy ice cream in the morning."
         ],
         "correctIndex": 2,
         "explanation": "Bài viết: \"The zoo closes at five o'clock, so they go home at four.\"",
@@ -585,7 +585,7 @@
           "Sai — 'They go to the zoo on Saturday.': bài nói Chủ nhật.",
           "Sai — 'They go home at five o'clock.': họ về nhà lúc bốn giờ.",
           "Đúng — bài viết: \"The zoo closes at five o'clock.\"",
-          "Sai — 'They eat ice cream at home.': họ mua kem ở sở thú lúc trưa."
+          "Sai — bài nói họ mua kem lúc trưa (noon), không phải buổi sáng."
         ]
       },
       {

@@ -33,10 +33,10 @@
         "correctIndex": 0,
         "explanation": "Bài nói 'On Saturday we are going to take the bus home' nên Lan về nhà thứ Bảy, không phải Chủ nhật.",
         "choiceExplanations": [
-          "Đúng — Đúng (là câu SAI so với bài) — bài nói Lan về nhà vào thứ Bảy, Chủ nhật là ngày hẹn gặp Mai.",
-          "Sai — 'Lan is staying with her grandmother.': 'I am at my grandmother's house' — câu này đúng theo bài.",
-          "Sai — 'The weather in Da Lat is cold.': 'The weather is cold' — câu này đúng theo bài.",
-          "Sai — 'Lan took many photos.': 'I took forty photos' — câu này đúng theo bài."
+          "Đúng — đây là câu KHÔNG đúng với bài: bài nói Lan về nhà vào thứ Bảy; Chủ nhật chỉ là ngày hẹn gặp Mai.",
+          "Sai — câu này đúng theo bài: 'I am at my grandmother's house'.",
+          "Sai — câu này đúng theo bài: 'The weather is cold'.",
+          "Sai — câu này đúng theo bài: 'I took forty photos'."
         ]
       },
       {
@@ -180,7 +180,7 @@
           "He is taller than the writer's father.",
           "He works in Chicago.",
           "He has long gray hair.",
-          "He cooks very well."
+          "He likes cooking."
         ],
         "correctIndex": 2,
         "explanation": "Chi tiết 'short gray hair' mâu thuẫn với 'long gray hair'.",
@@ -188,13 +188,13 @@
           "Sai — 'He is taller than the writer's father.': Bài: 'taller than my father' — đúng.",
           "Sai — 'He works in Chicago.': Bài: 'bus driver in Chicago' — đúng.",
           "Đúng — Bài nói 'short gray hair' (tóc ngắn), nên câu này sai.",
-          "Sai — 'He cooks very well.': Bài khen súp của chú ngon hơn súp nhà hàng — đúng."
+          "Sai — bài viết nói chú thích nấu ăn ('he likes cooking'), nên câu này đúng."
         ]
       },
       {
         "prompt": "In the text, 'quietest' means",
         "choices": [
-          "with the least noise",
+          "very quiet",
           "with the most people",
           "the most beautiful",
           "the coldest"
@@ -327,12 +327,12 @@
         ]
       },
       {
-        "prompt": "What will the children do after lunch?",
+        "prompt": "What do the children do right after lunch?",
         "choices": [
           "They will take a swimming lesson.",
           "They will paint pictures of the lake.",
           "They will go hiking with Ms. Green.",
-          "They will watch a movie."
+          "They have a swimming lesson at night."
         ],
         "correctIndex": 2,
         "explanation": "Sau bữa trưa 12:00, lịch tiếp theo là đi bộ đường dài.",
@@ -340,7 +340,7 @@
           "Sai — 'They will take a swimming lesson.': Học bơi lúc 8:30, trước bữa trưa.",
           "Sai — 'They will paint pictures of the lake.': Vẽ lúc 10:00, trước bữa trưa.",
           "Đúng — Sau 12:00 (lunch) là '1:30 Hiking in the forest with Ms. Green'.",
-          "Sai — 'They will watch a movie.': Xem phim lúc 8:00 tối, sau bữa tối."
+          "Sai — bài chỉ có học bơi lúc 8:30 sáng, không có buổi tối."
         ]
       },
       {
@@ -383,7 +383,7 @@
     "id": "rd-b2-006",
     "bac": 2,
     "title": "Jake's Birthday",
-    "text": "Hi Emma, Thank you for your email! You asked about my birthday. I am going to be thirteen on May 4th. This year, my parents are going to take me and four friends to a trampoline park. It is bigger than the park near our house, and it has a foam pit.\n\nAfter that, we will eat burgers and cake at home. My sister Kate made the cake last year, but it was too sweet! This year my mom will make a chocolate one. I wish you could come. Maybe you can visit next summer? Write soon! Jake",
+    "text": "Hi Emma, Thank you for your email! You asked about my birthday. I am going to be thirteen on May 4th. This year, my parents are going to take me and four friends to a trampoline park. It is bigger than the one near our house, and it has a foam pit.\n\nAfter that, we will eat burgers and cake at home. My sister Kate made the cake last year, but it was too sweet! This year my mom will make a chocolate one. I am sad that you cannot come. Maybe you can visit next summer? Write soon! Jake",
     "questions": [
       {
         "prompt": "Where is Jake going on his birthday?",
@@ -423,7 +423,7 @@
         "prompt": "In the text, 'too sweet' means",
         "choices": [
           "It did not have enough sugar.",
-          "It had more sugar than it needed.",
+          "It was sweeter than it should be.",
           "It was very cheap.",
           "It was very old."
         ],
@@ -431,7 +431,7 @@
         "explanation": "Bánh năm ngoái ngọt hơn mức cần nên năm nay đổi sang bánh sô-cô-la.",
         "choiceExplanations": [
           "Sai — 'It did not have enough sugar.': Ngược nghĩa: 'too sweet' là quá ngọt.",
-          "Đúng — 'Too' là quá mức; bánh ngọt quá.",
+          "Đúng — 'too sweet' là quá ngọt, ngọt hơn mức nên có.",
           "Sai — 'It was very cheap.': Bài không nói về giá.",
           "Sai — 'It was very old.': Bài không nói bánh cũ."
         ]
@@ -447,7 +447,7 @@
         "correctIndex": 0,
         "explanation": "'I wish you could come' + lời mời hè sau cho thấy Emma không thể đến dự tiệc.",
         "choiceExplanations": [
-          "Đúng — Jake viết 'I wish you could come' — nghĩa là Emma có lẽ ở xa, không đến được.",
+          "Đúng — Jake viết 'I am sad that you cannot come' rồi mời Emma 'next summer', nghĩa là Emma không thể đến dự tiệc lần này.",
           "Sai — 'Emma is Jake's sister.': Em gái của Jake là Kate, không phải Emma.",
           "Sai — 'Jake is moving next summer.': Bài không nói Jake chuyển nhà.",
           "Sai — 'The party is next summer.': Sinh nhật vào ngày 4 tháng 5, không phải mùa hè sau."
@@ -482,7 +482,7 @@
         "prompt": "What did the writer buy last week?",
         "choices": [
           "A blue cap",
-          "Hot corn",
+          "A toy car",
           "A T-shirt",
           "A guitar"
         ],
@@ -490,7 +490,7 @@
         "explanation": "Chi tiết tuần trước nằm ở câu 'Last week, I bought ...'.",
         "choiceExplanations": [
           "Đúng — Bài: 'I bought a blue cap for my brother'.",
-          "Sai — 'Hot corn': Bắp là món yêu thích nhưng bài không nói tuần trước mua.",
+          "Sai — bài không nói người viết mua xe đồ chơi; chỉ có các quầy bán đồ chơi.",
           "Sai — 'A T-shirt': T-shirt chỉ là món có bán ở các quầy khác.",
           "Sai — 'A guitar': Có người chơi guitar ở góc phố, người viết không mua."
         ]
@@ -535,7 +535,7 @@
     "id": "rd-b2-008",
     "bac": 2,
     "title": "The Muddy Match",
-    "text": "On Sunday, Tom's football team had an important match against the Blue Tigers. In the morning, it rained hard, and the field was full of mud. Tom was worried because his new shoes were white. The game started at ten. In the first half, nobody scored.\n\nThen, in the second half, Tom's friend Leo fell in the mud and everyone laughed, even Leo. After that, the players relaxed and played better. Tom scored the only goal in the last five minutes, and his team won 1-0. Afterward, Tom's shoes were brown, not white, but he did not care. \"Next time,\" he said, \"I will wear old shoes!\"",
+    "text": "On Sunday, Tom's soccer team had an important match against the Blue Tigers. In the morning, it rained hard, and the field was full of mud. Tom was worried because his new shoes were white. The game started at ten. In the first half, nobody scored.\n\nThen, in the second half, Tom's friend Leo fell in the mud and everyone laughed, even Leo. After that, the players relaxed and played better. Tom scored the only goal in the last five minutes, and his team won 1-0. Afterward, Tom's shoes were brown, not white, but he did not care. \"Next time,\" he said, \"I will wear old shoes!\"",
     "questions": [
       {
         "prompt": "Who scored the goal?",
