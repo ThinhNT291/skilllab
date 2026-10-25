@@ -206,7 +206,7 @@
     "formulas": {
       "affirmative": "I/He/She/It + was + V-ing. Ví dụ: I was studying at 8 p.m. yesterday. | You/We/They + were + V-ing. Ví dụ: They were studying at 8 p.m. yesterday.",
       "negative": "I/He/She/It + was not (wasn't) + V-ing. Ví dụ: He wasn't sleeping when I called him. | You/We/They + were not (weren't) + V-ing. Ví dụ: We weren't sleeping when you called us.",
-      "question": "Was + I/he/she/it + V-ing ...? Ví dụ: Was she working at 10 a.m.? | Were + you/we/they + V-ing ...? Ví dụ: Were they working at 10 a.m.?"
+      "question": "Was + I/he/she/it + V-ing ...? Ví dụ: Was she working at 10 a.m.? | Were + you/we/they + V-ing ...? Ví dụ: Were they working at 10 a.m.? | Câu hỏi Wh-: Where/What + was/were + S + V-ing ...? Ví dụ: What were you doing at 8 p.m. last night?"
     }
   }
 }
