@@ -1050,5 +1050,531 @@
         ]
       }
     ]
+  },
+  {
+    "id": "colloc-verb-noun-b2",
+    "title": "Động từ + danh từ (B2)",
+    "desc": "Chọn động từ đi đúng với danh từ để tạo cụm từ kết hợp tự nhiên như raise awareness, reach a conclusion.",
+    "bac": 4,
+    "questions": [
+      {
+        "prompt": "The school ran a campaign to ____ awareness about plastic waste.",
+        "choices": [
+          "lift",
+          "grow",
+          "raise",
+          "carry"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ tự nhiên là 'raise awareness', nghĩa là nâng cao nhận thức.",
+        "choiceExplanations": [
+          "Sai — 'lift': 'lift' là nhấc vật lên khỏi mặt đất, không dùng với 'awareness'. Người bản xứ nói 'raise awareness'.",
+          "Sai — 'grow': 'grow' là tự lớn lên (cây, thành phố), không dùng như hành động chủ động làm nhận thức tăng. Người bản xứ nói 'raise awareness'.",
+          "Đúng — 'raise awareness' nghĩa là nâng cao nhận thức.",
+          "Sai — 'carry': 'carry' là mang, vác đồ vật, không tạo cụm với 'awareness'. Người bản xứ nói 'raise awareness'."
+        ]
+      },
+      {
+        "prompt": "It took the team an hour to ____ a conclusion about the experiment.",
+        "choices": [
+          "reach",
+          "arrive",
+          "hold",
+          "find"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ tự nhiên là 'reach a conclusion', nghĩa là đi đến kết luận. Người bản xứ cũng nói 'draw a conclusion' hay 'come to a conclusion', nhưng các từ đó không có trong lựa chọn.",
+        "choiceExplanations": [
+          "Đúng — 'reach a conclusion' nghĩa là đi đến kết luận.",
+          "Sai — 'arrive': 'arrive' phải đi với 'at' ('arrive at a conclusion'); đứng thẳng trước tân ngữ như ở đây thì sai. Người bản xứ nói 'reach a conclusion'.",
+          "Sai — 'hold': 'hold' là cầm hoặc tổ chức (hold a meeting), không đi với 'conclusion'. Người bản xứ nói 'reach a conclusion'.",
+          "Sai — 'find': 'find' là tìm thấy một vật hay câu trả lời, không nói 'find a conclusion'. Người bản xứ nói 'reach a conclusion'."
+        ]
+      },
+      {
+        "prompt": "Every new student has to ____ a challenge in the first week.",
+        "choices": [
+          "build",
+          "keep",
+          "spend",
+          "face"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ tự nhiên là 'face a challenge', nghĩa là đối mặt với thử thách.",
+        "choiceExplanations": [
+          "Sai — 'build': 'build' là xây dựng (build confidence), không dùng với 'a challenge' theo nghĩa phải đối mặt. Người bản xứ nói 'face a challenge'.",
+          "Sai — 'keep': 'keep' là giữ, không nói 'keep a challenge'. Người bản xứ nói 'face a challenge'.",
+          "Sai — 'spend': 'spend' dùng với thời gian hoặc tiền (spend time), không dùng với 'a challenge'. Người bản xứ nói 'face a challenge'.",
+          "Đúng — 'face a challenge' nghĩa là đối mặt với thử thách."
+        ]
+      },
+      {
+        "prompt": "If you ____ an effort, your handwriting will improve.",
+        "choices": [
+          "do",
+          "make",
+          "hold",
+          "play"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ tự nhiên là 'make an effort', nghĩa là nỗ lực, cố gắng. Cũng có thể nói 'put in effort', nhưng khi có 'an effort' thì dùng 'make'.",
+        "choiceExplanations": [
+          "Sai — 'do': 'do' đi với việc làm (do homework), nhưng 'effort' đi với 'make': 'make an effort'. Người bản xứ nói 'make an effort'.",
+          "Đúng — 'make an effort' nghĩa là nỗ lực, cố gắng.",
+          "Sai — 'hold': 'hold' là cầm hoặc tổ chức, không nói 'hold an effort'. Người bản xứ nói 'make an effort'.",
+          "Sai — 'play': 'play' đi với trò chơi, vai trò (play a role), không nói 'play an effort'. Người bản xứ nói 'make an effort'."
+        ]
+      },
+      {
+        "prompt": "I stayed up late to ____ the deadline for my science project.",
+        "choices": [
+          "catch",
+          "meet",
+          "win",
+          "send"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ tự nhiên là 'meet the deadline', nghĩa là kịp hạn chót.",
+        "choiceExplanations": [
+          "Sai — 'catch': 'catch' dùng với bóng hay xe buýt (catch the bus), không nói 'catch the deadline'. Người bản xứ nói 'meet the deadline'.",
+          "Đúng — 'meet the deadline' nghĩa là kịp hạn chót.",
+          "Sai — 'win': 'win' dùng với giải thưởng, trận đấu, không nói 'win the deadline'. Người bản xứ nói 'meet the deadline'.",
+          "Sai — 'send': 'send' là gửi, có thể gửi bài nhưng không nói 'send the deadline'. Người bản xứ nói 'meet the deadline'."
+        ]
+      },
+      {
+        "prompt": "The poster was designed to ____ attention to the danger of cycling without a helmet.",
+        "choices": [
+          "throw",
+          "carry",
+          "lift",
+          "draw"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ tự nhiên là 'draw attention to', nghĩa là thu hút sự chú ý đến. Cũng có thể nói 'call attention to', nhưng không có trong lựa chọn.",
+        "choiceExplanations": [
+          "Sai — 'throw': 'throw' là ném, không nói 'throw attention to'. Người bản xứ nói 'draw attention to'.",
+          "Sai — 'carry': 'carry' là mang, vác, không nói 'carry attention to'. Người bản xứ nói 'draw attention to'.",
+          "Sai — 'lift': 'lift' là nhấc lên, không nói 'lift attention to'. Người bản xứ nói 'draw attention to'.",
+          "Đúng — 'draw attention to' nghĩa là thu hút sự chú ý đến."
+        ]
+      },
+      {
+        "prompt": "After a long discussion, the two teams finally ____ an agreement.",
+        "choices": [
+          "reached",
+          "caught",
+          "won",
+          "held"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ tự nhiên là 'reach an agreement', nghĩa là đạt được thỏa thuận.",
+        "choiceExplanations": [
+          "Đúng — 'reach an agreement' nghĩa là đạt được thỏa thuận.",
+          "Sai — 'caught': 'catch' dùng với bóng hay xe buýt, không nói 'caught an agreement'. Người bản xứ nói 'reach an agreement'.",
+          "Sai — 'won': 'win' dùng với giải thưởng, trận đấu, không nói 'won an agreement'. Người bản xứ nói 'reach an agreement'.",
+          "Sai — 'held': 'hold' dùng với cuộc họp (hold a meeting), không nói 'held an agreement'. Người bản xứ nói 'reach an agreement'."
+        ]
+      },
+      {
+        "prompt": "You must ____ responsibility for your own mistakes.",
+        "choices": [
+          "make",
+          "do",
+          "take",
+          "keep"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ tự nhiên là 'take responsibility', nghĩa là chịu trách nhiệm.",
+        "choiceExplanations": [
+          "Sai — 'make': 'make' đi với 'a decision', 'a mistake'; với 'responsibility' người bản xứ nói 'take'. Người bản xứ nói 'take responsibility'.",
+          "Sai — 'do': 'do' đi với việc làm (do homework), không nói 'do responsibility'. Người bản xứ nói 'take responsibility'.",
+          "Đúng — 'take responsibility' nghĩa là chịu trách nhiệm.",
+          "Sai — 'keep': 'keep' là giữ (keep a promise), không nói 'keep responsibility'. Người bản xứ nói 'take responsibility'."
+        ]
+      },
+      {
+        "prompt": "At the start of the year, Mia decided to ____ a goal of reading twenty books.",
+        "choices": [
+          "get",
+          "set",
+          "do",
+          "hold"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ tự nhiên là 'set a goal', nghĩa là đặt ra mục tiêu.",
+        "choiceExplanations": [
+          "Sai — 'get': 'get' là nhận được, không dùng để đặt ra một mục tiêu. Người bản xứ nói 'set a goal'.",
+          "Đúng — 'set a goal' nghĩa là đặt ra mục tiêu.",
+          "Sai — 'do': 'do' đi với việc làm (do homework), không nói 'do a goal'. Người bản xứ nói 'set a goal'.",
+          "Sai — 'hold': 'hold' là cầm hoặc tổ chức, không nói 'hold a goal of'. Người bản xứ nói 'set a goal'."
+        ]
+      },
+      {
+        "prompt": "Please ____ attention while I explain the rules of the game.",
+        "choices": [
+          "lend",
+          "spend",
+          "cost",
+          "pay"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ tự nhiên là 'pay attention', nghĩa là chú ý.",
+        "choiceExplanations": [
+          "Sai — 'lend': 'lend' là cho mượn; người bản xứ chỉ nói 'lend an ear', không nói 'lend attention'. Người bản xứ nói 'pay attention'.",
+          "Sai — 'spend': 'spend' dùng với thời gian hoặc tiền, không nói 'spend attention'. Người bản xứ nói 'pay attention'.",
+          "Sai — 'cost': 'cost' là có giá bao nhiêu, không đi với 'attention'. Người bản xứ nói 'pay attention'.",
+          "Đúng — 'pay attention' nghĩa là chú ý."
+        ]
+      },
+      {
+        "prompt": "Try to read widely so you can ____ your own opinion about the issue.",
+        "choices": [
+          "form",
+          "make",
+          "do",
+          "take"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ tự nhiên là 'form an opinion', nghĩa là hình thành quan điểm. Cụm 'have an opinion' cũng đúng nhưng không có trong lựa chọn.",
+        "choiceExplanations": [
+          "Đúng — 'form an opinion' nghĩa là hình thành quan điểm.",
+          "Sai — 'make': 'make' là lỗi học viên hay gặp; người bản xứ không nói 'make an opinion'. Người bản xứ nói 'form an opinion'.",
+          "Sai — 'do': 'do' không đi với 'opinion', không nói 'do an opinion'. Người bản xứ nói 'form an opinion'.",
+          "Sai — 'take': 'take' dùng với 'a look', 'a risk'; không nói 'take an opinion' theo nghĩa hình thành quan điểm. Người bản xứ nói 'form an opinion'."
+        ]
+      },
+      {
+        "prompt": "With hard work and patience, she managed to ____ her goal of becoming a doctor.",
+        "choices": [
+          "win",
+          "earn",
+          "achieve",
+          "pass"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ tự nhiên là 'achieve her goal', nghĩa là đạt được mục tiêu. Cũng có thể nói 'reach her goal', nhưng không có trong lựa chọn.",
+        "choiceExplanations": [
+          "Sai — 'win': 'win' dùng với giải thưởng, trận đấu, không nói 'win a goal' theo nghĩa đạt mục tiêu. Người bản xứ nói 'achieve her goal'.",
+          "Sai — 'earn': 'earn' dùng với tiền hoặc sự tôn trọng (earn money), không nói 'earn a goal'. Người bản xứ nói 'achieve her goal'.",
+          "Đúng — 'achieve her goal' nghĩa là đạt được mục tiêu.",
+          "Sai — 'pass': 'pass' dùng với kỳ thi (pass a test), không nói 'pass a goal'. Người bản xứ nói 'achieve her goal'."
+        ]
+      },
+      {
+        "prompt": "You should always ____ a promise you make to a friend.",
+        "choices": [
+          "hold",
+          "keep",
+          "do",
+          "save"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ tự nhiên là 'keep a promise', nghĩa là giữ lời hứa.",
+        "choiceExplanations": [
+          "Sai — 'hold': 'hold' là cầm hoặc tổ chức, không nói 'hold a promise'. Người bản xứ nói 'keep a promise'.",
+          "Đúng — 'keep a promise' nghĩa là giữ lời hứa.",
+          "Sai — 'do': 'do' đi với việc làm, người bản xứ nói 'make a promise' và 'keep a promise'. Người bản xứ nói 'keep a promise'.",
+          "Sai — 'save': 'save' là cất, tiết kiệm (save money), không nói 'save a promise'. Người bản xứ nói 'keep a promise'."
+        ]
+      },
+      {
+        "prompt": "Working together, the group tried to ____ the problem.",
+        "choices": [
+          "break",
+          "win",
+          "mend",
+          "solve"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ tự nhiên là 'solve the problem', nghĩa là giải quyết vấn đề.",
+        "choiceExplanations": [
+          "Sai — 'break': 'break' là làm vỡ, làm hỏng; 'break the problem' không phải cụm tự nhiên. Người bản xứ nói 'solve the problem'.",
+          "Sai — 'win': 'win' dùng với trận đấu, giải thưởng, không nói 'win the problem'. Người bản xứ nói 'solve the problem'.",
+          "Sai — 'mend': 'mend' dùng cho đồ vật bị rách, hỏng (mend a shirt), không dùng với 'problem'. Người bản xứ nói 'solve the problem'.",
+          "Đúng — 'solve the problem' nghĩa là giải quyết vấn đề."
+        ]
+      },
+      {
+        "prompt": "Sometimes you have to ____ a risk to learn something new.",
+        "choices": [
+          "take",
+          "give",
+          "send",
+          "win"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ tự nhiên là 'take a risk', nghĩa là liều, chấp nhận rủi ro. Cũng có thể nói 'run a risk' (có nghĩa gần giống), nhưng không có trong lựa chọn.",
+        "choiceExplanations": [
+          "Đúng — 'take a risk' nghĩa là liều, chấp nhận rủi ro.",
+          "Sai — 'give': 'give' là đưa cho ai, không nói 'give a risk'. Người bản xứ nói 'take a risk'.",
+          "Sai — 'send': 'send' là gửi đi, không nói 'send a risk'. Người bản xứ nói 'take a risk'.",
+          "Sai — 'win': 'win' dùng với giải thưởng, trận đấu, không nói 'win a risk'. Người bản xứ nói 'take a risk'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "colloc-adv-adj",
+    "title": "Trạng từ + tính từ (B2)",
+    "desc": "Chọn trạng từ đi đúng với tính từ để tạo cụm từ tự nhiên như highly unlikely, deeply concerned.",
+    "bac": 4,
+    "questions": [
+      {
+        "prompt": "It is ____ unlikely that it will snow in Miami in July.",
+        "choices": [
+          "strongly",
+          "highly",
+          "fully",
+          "closely"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ tự nhiên là 'highly unlikely', nghĩa là rất khó có khả năng.",
+        "choiceExplanations": [
+          "Sai — 'strongly': 'strongly' đi với 'recommend', 'believe', không đi với 'unlikely'. Người bản xứ nói 'highly unlikely'.",
+          "Đúng — 'highly unlikely' nghĩa là rất khó có khả năng.",
+          "Sai — 'fully': 'fully' nghĩa là đầy đủ (fully aware), không đi với 'unlikely'. Người bản xứ nói 'highly unlikely'.",
+          "Sai — 'closely': 'closely' đi với 'related', 'watch', không đi với 'unlikely'. Người bản xứ nói 'highly unlikely'."
+        ]
+      },
+      {
+        "prompt": "Parents were ____ concerned about the new school rule.",
+        "choices": [
+          "deeply",
+          "heavily",
+          "narrowly",
+          "strictly"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ tự nhiên là 'deeply concerned', nghĩa là vô cùng lo ngại.",
+        "choiceExplanations": [
+          "Đúng — 'deeply concerned' nghĩa là vô cùng lo ngại.",
+          "Sai — 'heavily': 'heavily' đi với 'rely', 'depend', 'rain', không đi với 'concerned'. Người bản xứ nói 'deeply concerned'.",
+          "Sai — 'narrowly': 'narrowly' đi với 'miss', 'escape' (suýt), không đi với 'concerned'. Người bản xứ nói 'deeply concerned'.",
+          "Sai — 'strictly': 'strictly' đi với 'forbidden', 'prohibited', không đi với 'concerned'. Người bản xứ nói 'deeply concerned'."
+        ]
+      },
+      {
+        "prompt": "The two brothers look alike, but they have ____ different personalities.",
+        "choices": [
+          "strongly",
+          "heavily",
+          "completely",
+          "fiercely"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ tự nhiên là 'completely different', nghĩa là hoàn toàn khác nhau.",
+        "choiceExplanations": [
+          "Sai — 'strongly': 'strongly' đi với 'agree', 'believe'; không nói 'strongly different'. Người bản xứ nói 'completely different'.",
+          "Sai — 'heavily': 'heavily' đi với 'rely', 'depend'; không nói 'heavily different'. Người bản xứ nói 'completely different'.",
+          "Đúng — 'completely different' nghĩa là hoàn toàn khác nhau.",
+          "Sai — 'fiercely': 'fiercely' đi với 'competitive', 'loyal'; không nói 'fiercely different'. Người bản xứ nói 'completely different'."
+        ]
+      },
+      {
+        "prompt": "I'm ____ aware that I made a mistake, and I'm sorry.",
+        "choices": [
+          "strictly",
+          "narrowly",
+          "firmly",
+          "fully"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ tự nhiên là 'fully aware', nghĩa là nhận thức rõ ràng.",
+        "choiceExplanations": [
+          "Sai — 'strictly': 'strictly' đi với 'forbidden', 'speaking'; không nói 'strictly aware'. Người bản xứ nói 'fully aware'.",
+          "Sai — 'narrowly': 'narrowly' đi với 'miss', 'escape'; không nói 'narrowly aware'. Người bản xứ nói 'fully aware'.",
+          "Sai — 'firmly': 'firmly' đi với 'believe', 'convinced'; không nói 'firmly aware'. Người bản xứ nói 'fully aware' hoặc 'well aware'. Người bản xứ nói 'fully aware'.",
+          "Đúng — 'fully aware' nghĩa là nhận thức rõ ràng."
+        ]
+      },
+      {
+        "prompt": "It's ____ normal to feel nervous before a test.",
+        "choices": [
+          "perfectly",
+          "highly",
+          "strictly",
+          "fiercely"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ tự nhiên là 'perfectly normal', nghĩa là hoàn toàn bình thường.",
+        "choiceExplanations": [
+          "Đúng — 'perfectly normal' nghĩa là hoàn toàn bình thường.",
+          "Sai — 'highly': 'highly' đi với 'unlikely', 'successful'; không nói 'highly normal'. Người bản xứ nói 'perfectly normal'.",
+          "Sai — 'strictly': 'strictly' đi với 'forbidden'; không nói 'strictly normal'. Người bản xứ nói 'perfectly normal'.",
+          "Sai — 'fiercely': 'fiercely' đi với 'competitive', 'proud'; không nói 'fiercely normal'. Người bản xứ nói 'perfectly normal'."
+        ]
+      },
+      {
+        "prompt": "This app is ____ useful for learning new words.",
+        "choices": [
+          "bitterly",
+          "narrowly",
+          "extremely",
+          "tightly"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ tự nhiên là 'extremely useful', nghĩa là cực kỳ hữu ích.",
+        "choiceExplanations": [
+          "Sai — 'bitterly': 'bitterly' đi với 'cold', 'disappointed'; không nói 'bitterly useful'. Người bản xứ nói 'extremely useful'.",
+          "Sai — 'narrowly': 'narrowly' đi với 'miss', 'escape'; không nói 'narrowly useful'. Người bản xứ nói 'extremely useful'.",
+          "Đúng — 'extremely useful' nghĩa là cực kỳ hữu ích.",
+          "Sai — 'tightly': 'tightly' đi với 'packed', 'closed'; không nói 'tightly useful'. Người bản xứ nói 'extremely useful'."
+        ]
+      },
+      {
+        "prompt": "Luckily, nobody was ____ injured in the bike accident.",
+        "choices": [
+          "widely",
+          "seriously",
+          "heavily",
+          "strongly"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ tự nhiên là 'seriously injured', nghĩa là bị thương nặng.",
+        "choiceExplanations": [
+          "Sai — 'widely': 'widely' đi với 'known', 'available'; không nói 'widely injured'. Người bản xứ nói 'seriously injured'.",
+          "Đúng — 'seriously injured' nghĩa là bị thương nặng.",
+          "Sai — 'heavily': 'heavily' đi với 'rely', 'depend'; người bản xứ nói 'seriously injured' hoặc 'badly injured'. Người bản xứ nói 'seriously injured'.",
+          "Sai — 'strongly': 'strongly' đi với 'agree', 'believe'; không nói 'strongly injured'. Người bản xứ nói 'seriously injured'."
+        ]
+      },
+      {
+        "prompt": "The singer is ____ known across Asia.",
+        "choices": [
+          "deeply",
+          "tightly",
+          "narrowly",
+          "widely"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ tự nhiên là 'widely known', nghĩa là được biết đến rộng rãi.",
+        "choiceExplanations": [
+          "Sai — 'deeply': 'deeply' đi với 'concerned', 'moved'; không nói 'deeply known'. Người bản xứ nói 'widely known'.",
+          "Sai — 'tightly': 'tightly' đi với 'packed', 'closed'; không nói 'tightly known'. Người bản xứ nói 'widely known'.",
+          "Sai — 'narrowly': 'narrowly' đi với 'miss', 'escape'; không nói 'narrowly known'. Người bản xứ nói 'widely known'.",
+          "Đúng — 'widely known' nghĩa là được biết đến rộng rãi."
+        ]
+      },
+      {
+        "prompt": "The wind was ____ cold, so we wore two coats.",
+        "choices": [
+          "firmly",
+          "bitterly",
+          "narrowly",
+          "closely"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ tự nhiên là 'bitterly cold', nghĩa là lạnh buốt.",
+        "choiceExplanations": [
+          "Sai — 'firmly': 'firmly' đi với 'believe', 'hold'; không nói 'firmly cold'. Người bản xứ nói 'bitterly cold'.",
+          "Đúng — 'bitterly cold' nghĩa là lạnh buốt.",
+          "Sai — 'narrowly': 'narrowly' đi với 'miss', 'escape'; không nói 'narrowly cold'. Người bản xứ nói 'bitterly cold'.",
+          "Sai — 'closely': 'closely' đi với 'related', 'watch'; không nói 'closely cold'. Người bản xứ nói 'bitterly cold'."
+        ]
+      },
+      {
+        "prompt": "The idea of walking to school in a snowstorm is ____ ridiculous.",
+        "choices": [
+          "utterly",
+          "tightly",
+          "firmly",
+          "strongly"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ tự nhiên là 'utterly ridiculous', nghĩa là hoàn toàn lố bịch. Cũng có thể nói 'absolutely ridiculous' hay 'completely ridiculous', nhưng không có trong lựa chọn.",
+        "choiceExplanations": [
+          "Đúng — 'utterly ridiculous' nghĩa là hoàn toàn lố bịch.",
+          "Sai — 'tightly': 'tightly' đi với 'packed', 'closed'; không nói 'tightly ridiculous'. Người bản xứ nói 'utterly ridiculous'.",
+          "Sai — 'firmly': 'firmly' đi với 'believe', 'hold'; không nói 'firmly ridiculous'. Người bản xứ nói 'utterly ridiculous'.",
+          "Sai — 'strongly': 'strongly' đi với 'agree', 'recommend'; không nói 'strongly ridiculous'. Người bản xứ nói 'utterly ridiculous'."
+        ]
+      },
+      {
+        "prompt": "Tom is ____ shy and hates speaking in class.",
+        "choices": [
+          "narrowly",
+          "heavily",
+          "painfully",
+          "firmly"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ tự nhiên là 'painfully shy', nghĩa là nhút nhát đến mức khổ sở.",
+        "choiceExplanations": [
+          "Sai — 'narrowly': 'narrowly' đi với 'miss', 'escape'; không nói 'narrowly shy'. Người bản xứ nói 'painfully shy'.",
+          "Sai — 'heavily': 'heavily' đi với 'rely', 'depend'; không nói 'heavily shy'. Người bản xứ nói 'painfully shy'.",
+          "Đúng — 'painfully shy' nghĩa là nhút nhát đến mức khổ sở.",
+          "Sai — 'firmly': 'firmly' đi với 'believe', 'hold'; không nói 'firmly shy'. Người bản xứ nói 'painfully shy'."
+        ]
+      },
+      {
+        "prompt": "The two schools are ____ competitive in sports.",
+        "choices": [
+          "gently",
+          "tightly",
+          "narrowly",
+          "fiercely"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ tự nhiên là 'fiercely competitive', nghĩa là cạnh tranh gay gắt.",
+        "choiceExplanations": [
+          "Sai — 'gently': 'gently' nghĩa là nhẹ nhàng, ngược nghĩa với sự cạnh tranh; không nói 'gently competitive'. Người bản xứ nói 'fiercely competitive'.",
+          "Sai — 'tightly': 'tightly' đi với 'packed', 'closed'; không nói 'tightly competitive'. Người bản xứ nói 'fiercely competitive'.",
+          "Sai — 'narrowly': 'narrowly' đi với 'miss', 'win' (suýt); không nói 'narrowly competitive'. Người bản xứ nói 'fiercely competitive'.",
+          "Đúng — 'fiercely competitive' nghĩa là cạnh tranh gay gắt."
+        ]
+      },
+      {
+        "prompt": "Phones are ____ forbidden during the exam.",
+        "choices": [
+          "severely",
+          "strictly",
+          "hardly",
+          "closely"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ tự nhiên là 'strictly forbidden', nghĩa là bị nghiêm cấm.",
+        "choiceExplanations": [
+          "Sai — 'severely': 'severely' đi với 'damaged', 'punished'; không nói 'severely forbidden'. Người bản xứ nói 'strictly forbidden'.",
+          "Đúng — 'strictly forbidden' nghĩa là bị nghiêm cấm.",
+          "Sai — 'hardly': 'hardly' nghĩa là hầu như không; 'hardly forbidden' nghĩa ngược lại, không phải 'nghiêm cấm'. Người bản xứ nói 'strictly forbidden'.",
+          "Sai — 'closely': 'closely' đi với 'related', 'watch'; không nói 'closely forbidden'. Người bản xứ nói 'strictly forbidden'."
+        ]
+      },
+      {
+        "prompt": "Tokyo is a ____ populated city.",
+        "choices": [
+          "densely",
+          "tightly",
+          "strongly",
+          "narrowly"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ tự nhiên là 'densely populated', nghĩa là đông dân cư. Cũng có thể nói 'heavily populated', nhưng không có trong lựa chọn.",
+        "choiceExplanations": [
+          "Đúng — 'densely populated' nghĩa là đông dân cư.",
+          "Sai — 'tightly': 'tightly' đi với 'packed', 'closed'; với 'populated' người bản xứ nói 'densely'. Người bản xứ nói 'densely populated'.",
+          "Sai — 'strongly': 'strongly' đi với 'agree', 'believe'; không nói 'strongly populated'. Người bản xứ nói 'densely populated'.",
+          "Sai — 'narrowly': 'narrowly' đi với 'miss', 'escape'; không nói 'narrowly populated'. Người bản xứ nói 'densely populated'."
+        ]
+      },
+      {
+        "prompt": "She was ____ delighted with her birthday present.",
+        "choices": [
+          "strictly",
+          "narrowly",
+          "absolutely",
+          "bitterly"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ tự nhiên là 'absolutely delighted', nghĩa là vô cùng vui sướng. Cũng có thể nói 'utterly delighted', nhưng không có trong lựa chọn.",
+        "choiceExplanations": [
+          "Sai — 'strictly': 'strictly' đi với 'forbidden'; không nói 'strictly delighted'. Người bản xứ nói 'absolutely delighted'.",
+          "Sai — 'narrowly': 'narrowly' đi với 'miss', 'escape'; không nói 'narrowly delighted'. Người bản xứ nói 'absolutely delighted'.",
+          "Đúng — 'absolutely delighted' nghĩa là vô cùng vui sướng.",
+          "Sai — 'bitterly': 'bitterly' đi với 'cold', 'disappointed'; ngược với 'delighted', không nói 'bitterly delighted'. Người bản xứ nói 'absolutely delighted'."
+        ]
+      }
+    ]
   }
 ]
