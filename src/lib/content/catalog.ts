@@ -2,6 +2,7 @@ import type { TagInfo } from "@/lib/analytics/progress"
 import { LISTENING_BACS, listeningTopic } from "@/lib/listening/types"
 import { READING_BACS, readingTopic } from "@/lib/reading/types"
 import { VOCAB_LEVELS } from "@/lib/vocab/questions"
+import { COLLOCATION_SETS } from "@/lib/collocations/data"
 import { getGrammarTopic, listGrammarTopics } from "./grammar"
 
 /** Bảng tra: mã thẻ (= mã mục lý thuyết) → nhãn tiếng Việt và chuyên đề chứa nó. Dùng cho màn tiến độ. */
@@ -29,6 +30,11 @@ export async function buildTagCatalog(): Promise<{ catalog: Record<string, TagIn
     const title = `Nghe hiểu Bậc ${b}`
     topicTitles[listeningTopic(b)] = title
     catalog[listeningTopic(b)] = { label: title, topicId: listeningTopic(b), topicTitle: title }
+  }
+  for (const set of COLLOCATION_SETS) {
+    const title = `Cụm từ · ${set.title}`
+    topicTitles[set.id] = title
+    catalog[set.id] = { label: title, topicId: set.id, topicTitle: title }
   }
   return { catalog, topicTitles }
 }

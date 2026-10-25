@@ -1,0 +1,1054 @@
+[
+  {
+    "id": "colloc-make-do",
+    "title": "make / do",
+    "desc": "Phân biệt make và do trong các cụm từ kết hợp thường gặp ở trường và ở nhà.",
+    "bac": 2,
+    "questions": [
+      {
+        "prompt": "Don't worry if you ____ a mistake; everyone does.",
+        "choices": [
+          "do",
+          "take",
+          "make",
+          "have"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'make a mistake', nghĩa là mắc lỗi.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'a mistake'; người bản xứ nói 'make a mistake'.",
+          "Sai — 'take': không đi với 'a mistake'; người bản xứ nói 'make a mistake'.",
+          "Đúng — 'make a mistake' nghĩa là mắc lỗi.",
+          "Sai — 'have': không đi với 'a mistake'; người bản xứ nói 'make a mistake'."
+        ]
+      },
+      {
+        "prompt": "Please ____ your homework before dinner.",
+        "choices": [
+          "do",
+          "make",
+          "take",
+          "get"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'do your homework', nghĩa là làm bài tập về nhà.",
+        "choiceExplanations": [
+          "Đúng — 'do your homework' nghĩa là làm bài tập về nhà.",
+          "Sai — 'make': không đi với 'your homework'; người bản xứ nói 'do your homework'.",
+          "Sai — 'take': không đi với 'your homework'; người bản xứ nói 'do your homework'.",
+          "Sai — 'get': không đi với 'your homework'; người bản xứ nói 'do your homework'."
+        ]
+      },
+      {
+        "prompt": "My dad will ____ dinner for us tonight.",
+        "choices": [
+          "do",
+          "take",
+          "set",
+          "make"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'make dinner', nghĩa là nấu bữa tối.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'dinner'; người bản xứ nói 'make dinner'.",
+          "Sai — 'take': không đi với 'dinner'; người bản xứ nói 'make dinner'.",
+          "Sai — 'set': không đi với 'dinner'; người bản xứ nói 'make dinner'.",
+          "Đúng — 'make dinner' nghĩa là nấu bữa tối."
+        ]
+      },
+      {
+        "prompt": "Can you ____ me a favor and carry this bag?",
+        "choices": [
+          "make",
+          "do",
+          "take",
+          "give"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'do me a favor', nghĩa là giúp tôi một việc.",
+        "choiceExplanations": [
+          "Sai — 'make': không đi với 'me a favor'; người bản xứ nói 'do me a favor'.",
+          "Đúng — 'do me a favor' nghĩa là giúp tôi một việc.",
+          "Sai — 'take': không đi với 'me a favor'; người bản xứ nói 'do me a favor'.",
+          "Sai — 'give': không đi với 'me a favor'; người bản xứ nói 'do me a favor'."
+        ]
+      },
+      {
+        "prompt": "It's hard to ____ friends when you move to a new school.",
+        "choices": [
+          "do",
+          "take",
+          "hold",
+          "make"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'make friends', nghĩa là kết bạn.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'friends'; người bản xứ nói 'make friends'.",
+          "Sai — 'take': không đi với 'friends'; người bản xứ nói 'make friends'.",
+          "Sai — 'hold': không đi với 'friends'; người bản xứ nói 'make friends'.",
+          "Đúng — 'make friends' nghĩa là kết bạn."
+        ]
+      },
+      {
+        "prompt": "She always tries to ____ her best in every test.",
+        "choices": [
+          "make",
+          "do",
+          "take",
+          "keep"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'do her best', nghĩa là cố gắng hết sức.",
+        "choiceExplanations": [
+          "Sai — 'make': không đi với 'her best'; người bản xứ nói 'do her best'.",
+          "Đúng — 'do her best' nghĩa là cố gắng hết sức.",
+          "Sai — 'take': không đi với 'her best'; người bản xứ nói 'do her best'.",
+          "Sai — 'keep': không đi với 'her best'; người bản xứ nói 'do her best'."
+        ]
+      },
+      {
+        "prompt": "I need to ____ a decision about my club by Friday.",
+        "choices": [
+          "make",
+          "do",
+          "give",
+          "hold"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'make a decision', nghĩa là đưa ra quyết định.",
+        "choiceExplanations": [
+          "Đúng — 'make a decision' nghĩa là đưa ra quyết định.",
+          "Sai — 'do': không đi với 'a decision'; người bản xứ nói 'make a decision'.",
+          "Sai — 'give': không đi với 'a decision'; người bản xứ nói 'make a decision'.",
+          "Sai — 'hold': không đi với 'a decision'; người bản xứ nói 'make a decision'."
+        ]
+      },
+      {
+        "prompt": "We always ____ the dishes after dinner.",
+        "choices": [
+          "make",
+          "take",
+          "do",
+          "put"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'do the dishes', nghĩa là rửa chén bát.",
+        "choiceExplanations": [
+          "Sai — 'make': không đi với 'the dishes'; người bản xứ nói 'do the dishes'.",
+          "Sai — 'take': không đi với 'the dishes'; người bản xứ nói 'do the dishes'.",
+          "Đúng — 'do the dishes' nghĩa là rửa chén bát.",
+          "Sai — 'put': không đi với 'the dishes'; người bản xứ nói 'do the dishes'."
+        ]
+      },
+      {
+        "prompt": "My sister wants to ____ yoga every morning.",
+        "choices": [
+          "make",
+          "do",
+          "play",
+          "run"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'do yoga', nghĩa là tập yoga.",
+        "choiceExplanations": [
+          "Sai — 'make': không đi với 'yoga'; người bản xứ nói 'do yoga'.",
+          "Đúng — 'do yoga' nghĩa là tập yoga.",
+          "Sai — 'play': không đi với 'yoga'; người bản xứ nói 'do yoga'.",
+          "Sai — 'run': không đi với 'yoga'; người bản xứ nói 'do yoga'."
+        ]
+      },
+      {
+        "prompt": "Please don't ____ so much noise; the baby is sleeping.",
+        "choices": [
+          "do",
+          "say",
+          "hold",
+          "make"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'make so much noise', nghĩa là làm ồn.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'so much noise'; người bản xứ nói 'make so much noise'.",
+          "Sai — 'say': không đi với 'so much noise'; người bản xứ nói 'make so much noise'.",
+          "Sai — 'hold': không đi với 'so much noise'; người bản xứ nói 'make so much noise'.",
+          "Đúng — 'make so much noise' nghĩa là làm ồn."
+        ]
+      },
+      {
+        "prompt": "I always ____ my bed before I go to school.",
+        "choices": [
+          "make",
+          "do",
+          "put",
+          "set"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'make my bed', nghĩa là dọn giường.",
+        "choiceExplanations": [
+          "Đúng — 'make my bed' nghĩa là dọn giường.",
+          "Sai — 'do': không đi với 'my bed'; người bản xứ nói 'make my bed'.",
+          "Sai — 'put': không đi với 'my bed'; người bản xứ nói 'make my bed'.",
+          "Sai — 'set': không đi với 'my bed'; người bản xứ nói 'make my bed'."
+        ]
+      },
+      {
+        "prompt": "Can I ____ a suggestion for our class trip?",
+        "choices": [
+          "do",
+          "tell",
+          "make",
+          "hold"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'make a suggestion', nghĩa là đưa ra một gợi ý.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'a suggestion'; người bản xứ nói 'make a suggestion'.",
+          "Sai — 'tell': không đi với 'a suggestion'; người bản xứ nói 'make a suggestion'.",
+          "Đúng — 'make a suggestion' nghĩa là đưa ra một gợi ý.",
+          "Sai — 'hold': không đi với 'a suggestion'; người bản xứ nói 'make a suggestion'."
+        ]
+      },
+      {
+        "prompt": "Let's ____ a plan for the weekend.",
+        "choices": [
+          "do",
+          "take",
+          "give",
+          "make"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'make a plan', nghĩa là lập kế hoạch.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'a plan'; người bản xứ nói 'make a plan'.",
+          "Sai — 'take': không đi với 'a plan'; người bản xứ nói 'make a plan'.",
+          "Sai — 'give': không đi với 'a plan'; người bản xứ nói 'make a plan'.",
+          "Đúng — 'make a plan' nghĩa là lập kế hoạch."
+        ]
+      },
+      {
+        "prompt": "We need to ____ some research for our science report.",
+        "choices": [
+          "make",
+          "do",
+          "take",
+          "hold"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'do research', nghĩa là tìm hiểu, nghiên cứu.",
+        "choiceExplanations": [
+          "Sai — 'make': không đi với 'research'; người bản xứ nói 'do research'.",
+          "Đúng — 'do research' nghĩa là tìm hiểu, nghiên cứu.",
+          "Sai — 'take': không đi với 'research'; người bản xứ nói 'do research'.",
+          "Sai — 'hold': không đi với 'research'; người bản xứ nói 'do research'."
+        ]
+      },
+      {
+        "prompt": "Close your eyes and ____ a wish before you blow out the candles.",
+        "choices": [
+          "make",
+          "do",
+          "take",
+          "give"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'make a wish', nghĩa là ước một điều.",
+        "choiceExplanations": [
+          "Đúng — 'make a wish' nghĩa là ước một điều.",
+          "Sai — 'do': không đi với 'a wish'; người bản xứ nói 'make a wish'.",
+          "Sai — 'take': không đi với 'a wish'; người bản xứ nói 'make a wish'.",
+          "Sai — 'give': không đi với 'a wish'; người bản xứ nói 'make a wish'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "colloc-have-take-get",
+    "title": "have / take / get",
+    "desc": "Chọn have, take hoặc get để tạo cụm từ tự nhiên trong đời sống hằng ngày.",
+    "bac": 3,
+    "questions": [
+      {
+        "prompt": "Let's ____ a look at the lunch menu.",
+        "choices": [
+          "do",
+          "have",
+          "make",
+          "put"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'have a look', nghĩa là xem qua.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'a look'; người bản xứ nói 'have a look'.",
+          "Đúng — 'have a look' nghĩa là xem qua.",
+          "Sai — 'make': không đi với 'a look'; người bản xứ nói 'have a look'.",
+          "Sai — 'put': không đi với 'a look'; người bản xứ nói 'have a look'."
+        ]
+      },
+      {
+        "prompt": "We should ____ a break; we've studied for two hours.",
+        "choices": [
+          "do",
+          "make",
+          "put",
+          "take"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'take a break', nghĩa là nghỉ giải lao.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'a break'; người bản xứ nói 'take a break'.",
+          "Sai — 'make': không đi với 'a break'; người bản xứ nói 'take a break'.",
+          "Sai — 'put': không đi với 'a break'; người bản xứ nói 'take a break'.",
+          "Đúng — 'take a break' nghĩa là nghỉ giải lao."
+        ]
+      },
+      {
+        "prompt": "Did you ____ fun at the party last night?",
+        "choices": [
+          "have",
+          "do",
+          "take",
+          "give"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'have fun', nghĩa là vui chơi.",
+        "choiceExplanations": [
+          "Đúng — 'have fun' nghĩa là vui chơi.",
+          "Sai — 'do': không đi với 'fun'; người bản xứ nói 'have fun'.",
+          "Sai — 'take': không đi với 'fun'; người bản xứ nói 'have fun'.",
+          "Sai — 'give': không đi với 'fun'; người bản xứ nói 'have fun'."
+        ]
+      },
+      {
+        "prompt": "I usually ____ a shower right after PE class.",
+        "choices": [
+          "do",
+          "make",
+          "take",
+          "catch"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'take a shower', nghĩa là tắm vòi sen.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'a shower'; người bản xứ nói 'take a shower'.",
+          "Sai — 'make': không đi với 'a shower'; người bản xứ nói 'take a shower'.",
+          "Đúng — 'take a shower' nghĩa là tắm vòi sen.",
+          "Sai — 'catch': không đi với 'a shower'; người bản xứ nói 'take a shower'."
+        ]
+      },
+      {
+        "prompt": "I'll ____ the bus to school today because it's raining.",
+        "choices": [
+          "take",
+          "make",
+          "do",
+          "keep"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'take the bus', nghĩa là đi xe buýt.",
+        "choiceExplanations": [
+          "Đúng — 'take the bus' nghĩa là đi xe buýt.",
+          "Sai — 'make': không đi với 'the bus'; người bản xứ nói 'take the bus'.",
+          "Sai — 'do': không đi với 'the bus'; người bản xứ nói 'take the bus'.",
+          "Sai — 'keep': không đi với 'the bus'; người bản xứ nói 'take the bus'."
+        ]
+      },
+      {
+        "prompt": "Please ____ notes while the teacher is talking.",
+        "choices": [
+          "do",
+          "put",
+          "take",
+          "draw"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'take notes', nghĩa là ghi chép.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'notes'; người bản xứ nói 'take notes'.",
+          "Sai — 'put': không đi với 'notes'; người bản xứ nói 'take notes'.",
+          "Đúng — 'take notes' nghĩa là ghi chép.",
+          "Sai — 'draw': không đi với 'notes'; người bản xứ nói 'take notes'."
+        ]
+      },
+      {
+        "prompt": "He wants to ____ a job at the pizza shop this summer.",
+        "choices": [
+          "do",
+          "make",
+          "put",
+          "get"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'get a job', nghĩa là kiếm được việc làm.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'a job'; người bản xứ nói 'get a job'.",
+          "Sai — 'make': không đi với 'a job'; người bản xứ nói 'get a job'.",
+          "Sai — 'put': không đi với 'a job'; người bản xứ nói 'get a job'.",
+          "Đúng — 'get a job' nghĩa là kiếm được việc làm."
+        ]
+      },
+      {
+        "prompt": "I hope you ____ better soon!",
+        "choices": [
+          "take",
+          "get",
+          "have",
+          "do"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'get better', nghĩa là khỏe lại.",
+        "choiceExplanations": [
+          "Sai — 'take': không đi với 'better'; người bản xứ nói 'get better'.",
+          "Đúng — 'get better' nghĩa là khỏe lại.",
+          "Sai — 'have': không đi với 'better'; người bản xứ nói 'get better'.",
+          "Sai — 'do': không đi với 'better'; người bản xứ nói 'get better'."
+        ]
+      },
+      {
+        "prompt": "What time do you ____ home from school?",
+        "choices": [
+          "get",
+          "have",
+          "do",
+          "make"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'get home', nghĩa là về đến nhà.",
+        "choiceExplanations": [
+          "Đúng — 'get home' nghĩa là về đến nhà.",
+          "Sai — 'have': không đi với 'home'; người bản xứ nói 'get home'.",
+          "Sai — 'do': không đi với 'home'; người bản xứ nói 'get home'.",
+          "Sai — 'make': không đi với 'home'; người bản xứ nói 'get home'."
+        ]
+      },
+      {
+        "prompt": "Hurry up! We need to ____ ready for school.",
+        "choices": [
+          "have",
+          "take",
+          "get",
+          "do"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'get ready', nghĩa là chuẩn bị sẵn sàng.",
+        "choiceExplanations": [
+          "Sai — 'have': không đi với 'ready'; người bản xứ nói 'get ready'.",
+          "Sai — 'take': không đi với 'ready'; người bản xứ nói 'get ready'.",
+          "Đúng — 'get ready' nghĩa là chuẩn bị sẵn sàng.",
+          "Sai — 'do': không đi với 'ready'; người bản xứ nói 'get ready'."
+        ]
+      },
+      {
+        "prompt": "I'd like to ____ a ticket for the concert on Saturday.",
+        "choices": [
+          "do",
+          "get",
+          "make",
+          "put"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'get a ticket', nghĩa là mua/lấy một vé.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'a ticket'; người bản xứ nói 'get a ticket'.",
+          "Đúng — 'get a ticket' nghĩa là mua/lấy một vé.",
+          "Sai — 'make': không đi với 'a ticket'; người bản xứ nói 'get a ticket'.",
+          "Sai — 'put': không đi với 'a ticket'; người bản xứ nói 'get a ticket'."
+        ]
+      },
+      {
+        "prompt": "Let's ____ a photo of the whole class.",
+        "choices": [
+          "do",
+          "make",
+          "draw",
+          "take"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'take a photo', nghĩa là chụp ảnh.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'a photo'; người bản xứ nói 'take a photo'.",
+          "Sai — 'make': không đi với 'a photo'; người bản xứ nói 'take a photo'.",
+          "Sai — 'draw': không đi với 'a photo'; người bản xứ nói 'take a photo'.",
+          "Đúng — 'take a photo' nghĩa là chụp ảnh."
+        ]
+      },
+      {
+        "prompt": "I'd like to ____ a quick chat with you after class.",
+        "choices": [
+          "take",
+          "do",
+          "have",
+          "make"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'have a quick chat', nghĩa là trò chuyện nhanh.",
+        "choiceExplanations": [
+          "Sai — 'take': không đi với 'a quick chat'; người bản xứ nói 'have a quick chat'.",
+          "Sai — 'do': không đi với 'a quick chat'; người bản xứ nói 'have a quick chat'.",
+          "Đúng — 'have a quick chat' nghĩa là trò chuyện nhanh.",
+          "Sai — 'make': không đi với 'a quick chat'; người bản xứ nói 'have a quick chat'."
+        ]
+      },
+      {
+        "prompt": "Wear your jacket, or you'll ____ a cold!",
+        "choices": [
+          "get",
+          "do",
+          "make",
+          "take"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'get a cold', nghĩa là bị cảm.",
+        "choiceExplanations": [
+          "Đúng — 'get a cold' nghĩa là bị cảm.",
+          "Sai — 'do': không đi với 'a cold'; người bản xứ nói 'get a cold'.",
+          "Sai — 'make': không đi với 'a cold'; người bản xứ nói 'get a cold'.",
+          "Sai — 'take': không đi với 'a cold'; người bản xứ nói 'get a cold'."
+        ]
+      },
+      {
+        "prompt": "We usually ____ breakfast at seven o'clock.",
+        "choices": [
+          "take",
+          "do",
+          "put",
+          "have"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'have breakfast', nghĩa là ăn sáng.",
+        "choiceExplanations": [
+          "Sai — 'take': không đi với 'breakfast'; người bản xứ nói 'have breakfast'.",
+          "Sai — 'do': không đi với 'breakfast'; người bản xứ nói 'have breakfast'.",
+          "Sai — 'put': không đi với 'breakfast'; người bản xứ nói 'have breakfast'.",
+          "Đúng — 'have breakfast' nghĩa là ăn sáng."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "colloc-adj-noun",
+    "title": "Tính từ + danh từ",
+    "desc": "15 câu luyện chọn đúng tính từ đi với danh từ như heavy rain, strong coffee, fast food.",
+    "bac": 3,
+    "questions": [
+      {
+        "prompt": "We stayed inside all day because of the ____ rain.",
+        "choices": [
+          "heavy",
+          "strong",
+          "big",
+          "tall"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'heavy rain', nghĩa là mưa lớn.",
+        "choiceExplanations": [
+          "Đúng — 'heavy rain' nghĩa là mưa lớn.",
+          "Sai — 'strong': không đi với 'rain' (nói 'strong rain' không tự nhiên); người bản xứ nói 'heavy rain'.",
+          "Sai — 'big': không đi với 'rain' (nói 'big rain' không tự nhiên); người bản xứ nói 'heavy rain'.",
+          "Sai — 'tall': không đi với 'rain' (nói 'tall rain' không tự nhiên); người bản xứ nói 'heavy rain'."
+        ]
+      },
+      {
+        "prompt": "My dad drinks ____ coffee every morning to wake up.",
+        "choices": [
+          "heavy",
+          "strong",
+          "big",
+          "hard"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'strong coffee', nghĩa là cà phê đậm.",
+        "choiceExplanations": [
+          "Sai — 'heavy': không đi với 'coffee' (nói 'heavy coffee' không tự nhiên); người bản xứ nói 'strong coffee'.",
+          "Đúng — 'strong coffee' nghĩa là cà phê đậm.",
+          "Sai — 'big': không đi với 'coffee' (nói 'big coffee' không tự nhiên); người bản xứ nói 'strong coffee'.",
+          "Sai — 'hard': không đi với 'coffee' (nói 'hard coffee' không tự nhiên); người bản xứ nói 'strong coffee'."
+        ]
+      },
+      {
+        "prompt": "Eating too much ____ food is not good for your health.",
+        "choices": [
+          "quick",
+          "rapid",
+          "fast",
+          "speedy"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'fast food', nghĩa là đồ ăn nhanh.",
+        "choiceExplanations": [
+          "Sai — 'quick': không đi với 'food' (nói 'quick food' không tự nhiên); người bản xứ nói 'fast food'.",
+          "Sai — 'rapid': không đi với 'food' (nói 'rapid food' không tự nhiên); người bản xứ nói 'fast food'.",
+          "Đúng — 'fast food' nghĩa là đồ ăn nhanh.",
+          "Sai — 'speedy': không đi với 'food' (nói 'speedy food' không tự nhiên); người bản xứ nói 'fast food'."
+        ]
+      },
+      {
+        "prompt": "After the long hike, I fell into a ____ sleep.",
+        "choices": [
+          "high",
+          "tall",
+          "thick",
+          "deep"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'deep sleep', nghĩa là giấc ngủ sâu.",
+        "choiceExplanations": [
+          "Sai — 'high': không đi với 'sleep' (nói 'high sleep' không tự nhiên); người bản xứ nói 'deep sleep'.",
+          "Sai — 'tall': không đi với 'sleep' (nói 'tall sleep' không tự nhiên); người bản xứ nói 'deep sleep'.",
+          "Sai — 'thick': không đi với 'sleep' (nói 'thick sleep' không tự nhiên); người bản xứ nói 'deep sleep'.",
+          "Đúng — 'deep sleep' nghĩa là giấc ngủ sâu."
+        ]
+      },
+      {
+        "prompt": "Mai is my ____ friend; we have known each other since kindergarten.",
+        "choices": [
+          "near",
+          "close",
+          "tight",
+          "narrow"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'close friend', nghĩa là bạn thân.",
+        "choiceExplanations": [
+          "Sai — 'near': không đi với 'friend' (nói 'near friend' không tự nhiên); người bản xứ nói 'close friend'.",
+          "Đúng — 'close friend' nghĩa là bạn thân.",
+          "Sai — 'tight': không đi với 'friend' (nói 'tight friend' không tự nhiên); người bản xứ nói 'close friend'.",
+          "Sai — 'narrow': không đi với 'friend' (nói 'narrow friend' không tự nhiên); người bản xứ nói 'close friend'."
+        ]
+      },
+      {
+        "prompt": "Everyone complained about the ____ price of the concert tickets.",
+        "choices": [
+          "tall",
+          "long",
+          "wide",
+          "high"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'high price', nghĩa là giá cao.",
+        "choiceExplanations": [
+          "Sai — 'tall': không đi với 'price' (nói 'tall price' không tự nhiên); người bản xứ nói 'high price'.",
+          "Sai — 'long': không đi với 'price' (nói 'long price' không tự nhiên); người bản xứ nói 'high price'.",
+          "Sai — 'wide': không đi với 'price' (nói 'wide price' không tự nhiên); người bản xứ nói 'high price'.",
+          "Đúng — 'high price' nghĩa là giá cao."
+        ]
+      },
+      {
+        "prompt": "We got to school quickly because there was ____ traffic this morning.",
+        "choices": [
+          "light",
+          "small",
+          "thin",
+          "weak"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'light traffic', nghĩa là giao thông thưa thớt, ít xe.",
+        "choiceExplanations": [
+          "Đúng — 'light traffic' nghĩa là giao thông thưa thớt, ít xe.",
+          "Sai — 'small': không đi với 'traffic' (nói 'small traffic' không tự nhiên); người bản xứ nói 'light traffic'.",
+          "Sai — 'thin': không đi với 'traffic' (nói 'thin traffic' không tự nhiên); người bản xứ nói 'light traffic'.",
+          "Sai — 'weak': không đi với 'traffic' (nói 'weak traffic' không tự nhiên); người bản xứ nói 'light traffic'."
+        ]
+      },
+      {
+        "prompt": "Getting good at the piano takes ____ work and a lot of practice.",
+        "choices": [
+          "strong",
+          "tall",
+          "hard",
+          "big"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'hard work', nghĩa là sự làm việc chăm chỉ.",
+        "choiceExplanations": [
+          "Sai — 'strong': không đi với 'work' (nói 'strong work' không tự nhiên); người bản xứ nói 'hard work'.",
+          "Sai — 'tall': không đi với 'work' (nói 'tall work' không tự nhiên); người bản xứ nói 'hard work'.",
+          "Đúng — 'hard work' nghĩa là sự làm việc chăm chỉ.",
+          "Sai — 'big': không đi với 'work' (nói 'big work' không tự nhiên); người bản xứ nói 'hard work'."
+        ]
+      },
+      {
+        "prompt": "Let's open the window and let in some ____ air.",
+        "choices": [
+          "new",
+          "green",
+          "fresh",
+          "young"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'fresh air', nghĩa là không khí trong lành.",
+        "choiceExplanations": [
+          "Sai — 'new': không đi với 'air' (nói 'new air' không tự nhiên); người bản xứ nói 'fresh air'.",
+          "Sai — 'green': không đi với 'air' (nói 'green air' không tự nhiên); người bản xứ nói 'fresh air'.",
+          "Đúng — 'fresh air' nghĩa là không khí trong lành.",
+          "Sai — 'young': không đi với 'air' (nói 'young air' không tự nhiên); người bản xứ nói 'fresh air'."
+        ]
+      },
+      {
+        "prompt": "Please turn down that ____ music; I'm trying to study.",
+        "choices": [
+          "loud",
+          "high",
+          "big",
+          "strong"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'loud music', nghĩa là nhạc ầm ĩ, to.",
+        "choiceExplanations": [
+          "Đúng — 'loud music' nghĩa là nhạc ầm ĩ, to.",
+          "Sai — 'high': không đi với 'music' (nói 'high music' không tự nhiên); người bản xứ nói 'loud music'.",
+          "Sai — 'big': không đi với 'music' (nói 'big music' không tự nhiên); người bản xứ nói 'loud music'.",
+          "Sai — 'strong': không đi với 'music' (nói 'strong music' không tự nhiên); người bản xứ nói 'loud music'."
+        ]
+      },
+      {
+        "prompt": "The bookstore has a ____ range of comic books.",
+        "choices": [
+          "long",
+          "tall",
+          "deep",
+          "wide"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'wide range', nghĩa là phạm vi rộng, đa dạng.",
+        "choiceExplanations": [
+          "Sai — 'long': không đi với 'range' (nói 'long range' không tự nhiên); người bản xứ nói 'wide range'.",
+          "Sai — 'tall': không đi với 'range' (nói 'tall range' không tự nhiên); người bản xứ nói 'wide range'.",
+          "Sai — 'deep': không đi với 'range' (nói 'deep range' không tự nhiên); người bản xứ nói 'wide range'.",
+          "Đúng — 'wide range' nghĩa là phạm vi rộng, đa dạng."
+        ]
+      },
+      {
+        "prompt": "I stayed home from school with a ____ cold.",
+        "choices": [
+          "poor",
+          "bad",
+          "wrong",
+          "hard"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'bad cold', nghĩa là cảm lạnh nặng.",
+        "choiceExplanations": [
+          "Sai — 'poor': không đi với 'cold' (nói 'poor cold' không tự nhiên); người bản xứ nói 'bad cold'.",
+          "Đúng — 'bad cold' nghĩa là cảm lạnh nặng.",
+          "Sai — 'wrong': không đi với 'cold' (nói 'wrong cold' không tự nhiên); người bản xứ nói 'bad cold'.",
+          "Sai — 'hard': không đi với 'cold' (nói 'hard cold' không tự nhiên); người bản xứ nói 'bad cold'."
+        ]
+      },
+      {
+        "prompt": "I like to read comics in my ____ time.",
+        "choices": [
+          "free",
+          "empty",
+          "open",
+          "loose"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'free time', nghĩa là thời gian rảnh.",
+        "choiceExplanations": [
+          "Đúng — 'free time' nghĩa là thời gian rảnh.",
+          "Sai — 'empty': không đi với 'time' (nói 'empty time' không tự nhiên); người bản xứ nói 'free time'.",
+          "Sai — 'open': không đi với 'time' (nói 'open time' không tự nhiên); người bản xứ nói 'free time'.",
+          "Sai — 'loose': không đi với 'time' (nói 'loose time' không tự nhiên); người bản xứ nói 'free time'."
+        ]
+      },
+      {
+        "prompt": "The story has a ____ ending, so everyone smiled at the end.",
+        "choices": [
+          "glad",
+          "proud",
+          "lucky",
+          "happy"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'happy ending', nghĩa là kết thúc có hậu.",
+        "choiceExplanations": [
+          "Sai — 'glad': không đi với 'ending' (nói 'glad ending' không tự nhiên); người bản xứ nói 'happy ending'.",
+          "Sai — 'proud': không đi với 'ending' (nói 'proud ending' không tự nhiên); người bản xứ nói 'happy ending'.",
+          "Sai — 'lucky': không đi với 'ending' (nói 'lucky ending' không tự nhiên); người bản xứ nói 'happy ending'.",
+          "Đúng — 'happy ending' nghĩa là kết thúc có hậu."
+        ]
+      },
+      {
+        "prompt": "I'm in a ____ mood today because I got an A on my test.",
+        "choices": [
+          "well",
+          "good",
+          "nice",
+          "large"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'good mood', nghĩa là tâm trạng tốt.",
+        "choiceExplanations": [
+          "Sai — 'well': không đi với 'mood' (nói 'well mood' không tự nhiên); người bản xứ nói 'good mood'.",
+          "Đúng — 'good mood' nghĩa là tâm trạng tốt.",
+          "Sai — 'nice': không đi với 'mood' (nói 'nice mood' không tự nhiên); người bản xứ nói 'good mood'.",
+          "Sai — 'large': không đi với 'mood' (nói 'large mood' không tự nhiên); người bản xứ nói 'good mood'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "colloc-school",
+    "title": "Cụm từ ở trường",
+    "desc": "15 câu luyện các cụm từ thường dùng ở trường như take notes, hand in homework, make progress.",
+    "bac": 3,
+    "questions": [
+      {
+        "prompt": "Sam studied hard and ____ the math exam with a high score.",
+        "choices": [
+          "won",
+          "caught",
+          "passed",
+          "held"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'pass an exam', nghĩa là đỗ, vượt qua kỳ thi.",
+        "choiceExplanations": [
+          "Sai — 'won': không đi với 'exam' (nói 'win an exam' không tự nhiên); người bản xứ nói 'pass an exam'.",
+          "Sai — 'caught': không đi với 'exam' (nói 'catch an exam' không tự nhiên); người bản xứ nói 'pass an exam'.",
+          "Đúng — 'pass an exam' nghĩa là đỗ, vượt qua kỳ thi.",
+          "Sai — 'held': 'hold an exam' là tổ chức một kỳ thi (việc của nhà trường), không hợp với người đi thi; học sinh 'pass an exam' mới là vượt qua kỳ thi."
+        ]
+      },
+      {
+        "prompt": "If you don't study at all, you might ____ the test.",
+        "choices": [
+          "fail",
+          "lose",
+          "break",
+          "fall"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'fail a test', nghĩa là trượt bài kiểm tra.",
+        "choiceExplanations": [
+          "Đúng — 'fail a test' nghĩa là trượt bài kiểm tra.",
+          "Sai — 'lose': không đi với 'test' (nói 'lose a test' không tự nhiên); người bản xứ nói 'fail a test'.",
+          "Sai — 'break': không đi với 'test' (nói 'break a test' không tự nhiên); người bản xứ nói 'fail a test'.",
+          "Sai — 'fall': không đi với 'test' (nói 'fall a test' không tự nhiên); người bản xứ nói 'fail a test'."
+        ]
+      },
+      {
+        "prompt": "Please ____ notes while the teacher explains the lesson.",
+        "choices": [
+          "get",
+          "do",
+          "put",
+          "take"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'take notes', nghĩa là ghi chép.",
+        "choiceExplanations": [
+          "Sai — 'get': 'get notes' không dùng để chỉ việc ghi chép; người bản xứ nói 'take notes'.",
+          "Sai — 'do': không đi với 'notes' (nói 'do notes' không tự nhiên); người bản xứ nói 'take notes'.",
+          "Sai — 'put': không đi với 'notes' (nói 'put notes' không tự nhiên); người bản xứ nói 'take notes'.",
+          "Đúng — 'take notes' nghĩa là ghi chép."
+        ]
+      },
+      {
+        "prompt": "Don't forget to ____ in your homework before class starts.",
+        "choices": [
+          "give",
+          "hand",
+          "pull",
+          "hold"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'hand in homework', nghĩa là nộp bài tập.",
+        "choiceExplanations": [
+          "Sai — 'give': 'give in' nghĩa là chịu thua, không phải nộp bài; nói 'hand in homework' (hoặc 'turn in').",
+          "Đúng — 'hand in homework' nghĩa là nộp bài tập.",
+          "Sai — 'pull': không đi với 'homework' (nói 'pull in homework' không tự nhiên); người bản xứ nói 'hand in homework'.",
+          "Sai — 'hold': không đi với 'homework' (nói 'hold in homework' không tự nhiên); người bản xứ nói 'hand in homework'."
+        ]
+      },
+      {
+        "prompt": "I was sick yesterday, so I had to ____ a class.",
+        "choices": [
+          "lose",
+          "spend",
+          "break",
+          "miss"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'miss a class', nghĩa là bỏ lỡ một tiết học.",
+        "choiceExplanations": [
+          "Sai — 'lose': không đi với 'class' (nói 'lose a class' không tự nhiên); người bản xứ nói 'miss a class'.",
+          "Sai — 'spend': không đi với 'class' theo nghĩa bỏ lỡ (nói 'spend a class' không tự nhiên); người bản xứ nói 'miss a class'.",
+          "Sai — 'break': không đi với 'class' (nói 'break a class' không tự nhiên); người bản xứ nói 'miss a class'.",
+          "Đúng — 'miss a class' nghĩa là bỏ lỡ một tiết học."
+        ]
+      },
+      {
+        "prompt": "Our group has to ____ a science project about recycling.",
+        "choices": [
+          "play",
+          "do",
+          "hold",
+          "catch"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'do a project', nghĩa là làm một dự án.",
+        "choiceExplanations": [
+          "Sai — 'play': không đi với 'project' (nói 'play a project' không tự nhiên); người bản xứ nói 'do a project'.",
+          "Đúng — 'do a project' nghĩa là làm một dự án.",
+          "Sai — 'hold': không đi với 'project' (nói 'hold a project' không tự nhiên); người bản xứ nói 'do a project'.",
+          "Sai — 'catch': không đi với 'project' (nói 'catch a project' không tự nhiên); người bản xứ nói 'do a project'."
+        ]
+      },
+      {
+        "prompt": "You are ____ progress in English every week!",
+        "choices": [
+          "doing",
+          "taking",
+          "making",
+          "having"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'make progress', nghĩa là tiến bộ.",
+        "choiceExplanations": [
+          "Sai — 'doing': không đi với 'progress' (nói 'do progress' không tự nhiên); người bản xứ nói 'make progress'.",
+          "Sai — 'taking': không đi với 'progress' (nói 'take progress' không tự nhiên); người bản xứ nói 'make progress'.",
+          "Đúng — 'make progress' nghĩa là tiến bộ.",
+          "Sai — 'having': không đi với 'progress' (nói 'have progress' không tự nhiên); người bản xứ nói 'make progress'."
+        ]
+      },
+      {
+        "prompt": "To remember the poem, she had to learn it by ____.",
+        "choices": [
+          "heart",
+          "head",
+          "mind",
+          "brain"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'learn by heart', nghĩa là học thuộc lòng.",
+        "choiceExplanations": [
+          "Đúng — 'learn by heart' nghĩa là học thuộc lòng.",
+          "Sai — 'head': thành ngữ cố định là 'learn by heart' (học thuộc lòng); nói 'learn by head' là không đúng.",
+          "Sai — 'mind': thành ngữ cố định là 'learn by heart' (học thuộc lòng); nói 'learn by mind' là không đúng.",
+          "Sai — 'brain': thành ngữ cố định là 'learn by heart' (học thuộc lòng); nói 'learn by brain' là không đúng."
+        ]
+      },
+      {
+        "prompt": "If you work hard, you will ____ good grades.",
+        "choices": [
+          "win",
+          "get",
+          "take",
+          "do"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm từ đúng là 'get good grades', nghĩa là đạt điểm tốt.",
+        "choiceExplanations": [
+          "Sai — 'win': không đi với 'grades' (nói 'win good grades' không tự nhiên); người bản xứ nói 'get good grades'.",
+          "Đúng — 'get good grades' nghĩa là đạt điểm tốt.",
+          "Sai — 'take': không đi với 'grades' (nói 'take good grades' không tự nhiên); người bản xứ nói 'get good grades'.",
+          "Sai — 'do': không đi với 'grades' (nói 'do good grades' không tự nhiên); người bản xứ nói 'get good grades'."
+        ]
+      },
+      {
+        "prompt": "Lan is nervous because she must ____ a presentation tomorrow.",
+        "choices": [
+          "play",
+          "say",
+          "catch",
+          "give"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'give a presentation', nghĩa là thuyết trình.",
+        "choiceExplanations": [
+          "Sai — 'play': không đi với 'presentation' (nói 'play a presentation' không tự nhiên); người bản xứ nói 'give a presentation'.",
+          "Sai — 'say': không đi với 'presentation' (nói 'say a presentation' không tự nhiên); người bản xứ nói 'give a presentation'.",
+          "Sai — 'catch': không đi với 'presentation' (nói 'catch a presentation' không tự nhiên); người bản xứ nói 'give a presentation'.",
+          "Đúng — 'give a presentation' nghĩa là thuyết trình."
+        ]
+      },
+      {
+        "prompt": "I need to ____ for the history test this weekend.",
+        "choices": [
+          "study",
+          "learn",
+          "read",
+          "train"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'study for a test', nghĩa là học bài để chuẩn bị cho bài kiểm tra.",
+        "choiceExplanations": [
+          "Đúng — 'study for a test' nghĩa là học bài để chuẩn bị cho bài kiểm tra.",
+          "Sai — 'learn': không đi với 'test' (nói 'learn for a test' không tự nhiên); người bản xứ nói 'study for a test'.",
+          "Sai — 'read': không đi với 'test' (nói 'read for a test' không tự nhiên); người bản xứ nói 'study for a test'.",
+          "Sai — 'train': không đi với 'test' (nói 'train for a test' không tự nhiên); người bản xứ nói 'study for a test'."
+        ]
+      },
+      {
+        "prompt": "Raise your hand if you want to ____ a question.",
+        "choices": [
+          "say",
+          "tell",
+          "ask",
+          "speak"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'ask a question', nghĩa là hỏi một câu hỏi.",
+        "choiceExplanations": [
+          "Sai — 'say': không đi với 'question' (nói 'say a question' không tự nhiên); người bản xứ nói 'ask a question'.",
+          "Sai — 'tell': không đi với 'question' (nói 'tell a question' không tự nhiên); người bản xứ nói 'ask a question'.",
+          "Đúng — 'ask a question' nghĩa là hỏi một câu hỏi.",
+          "Sai — 'speak': không đi với 'question' (nói 'speak a question' không tự nhiên); người bản xứ nói 'ask a question'."
+        ]
+      },
+      {
+        "prompt": "Please ____ attention to the board, everyone.",
+        "choices": [
+          "take",
+          "make",
+          "do",
+          "pay"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm từ đúng là 'pay attention', nghĩa là chú ý.",
+        "choiceExplanations": [
+          "Sai — 'take': không đi với 'attention' (nói 'take attention' không tự nhiên); người bản xứ nói 'pay attention'.",
+          "Sai — 'make': không đi với 'attention' (nói 'make attention' không tự nhiên); người bản xứ nói 'pay attention'.",
+          "Sai — 'do': không đi với 'attention' (nói 'do attention' không tự nhiên); người bản xứ nói 'pay attention'.",
+          "Đúng — 'pay attention' nghĩa là chú ý."
+        ]
+      },
+      {
+        "prompt": "I usually ____ my homework right after I get home from school.",
+        "choices": [
+          "do",
+          "make",
+          "write",
+          "take"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm từ đúng là 'do homework', nghĩa là làm bài tập về nhà.",
+        "choiceExplanations": [
+          "Đúng — 'do homework' nghĩa là làm bài tập về nhà.",
+          "Sai — 'make': không đi với 'homework' (nói 'make homework' không tự nhiên); người bản xứ nói 'do homework'.",
+          "Sai — 'write': không đi với 'homework' (nói 'write homework' không tự nhiên); người bản xứ nói 'do homework'.",
+          "Sai — 'take': không đi với 'homework' (nói 'take homework' không tự nhiên); người bản xứ nói 'do homework'."
+        ]
+      },
+      {
+        "prompt": "Everyone can ____ a mistake when they are learning something new.",
+        "choices": [
+          "do",
+          "take",
+          "make",
+          "have"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm từ đúng là 'make a mistake', nghĩa là mắc lỗi.",
+        "choiceExplanations": [
+          "Sai — 'do': không đi với 'mistake' (nói 'do a mistake' không tự nhiên); người bản xứ nói 'make a mistake'.",
+          "Sai — 'take': không đi với 'mistake' (nói 'take a mistake' không tự nhiên); người bản xứ nói 'make a mistake'.",
+          "Đúng — 'make a mistake' nghĩa là mắc lỗi.",
+          "Sai — 'have': không đi với 'mistake' (nói 'have a mistake' không tự nhiên); người bản xứ nói 'make a mistake'."
+        ]
+      }
+    ]
+  }
+]

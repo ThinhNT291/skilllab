@@ -25,7 +25,7 @@ export const MIN_SAMPLE = 10
 export const NEGLECT_DAYS = 4
 
 export function skillOfTopic(topicId: string): SkillId {
-  if (topicId.startsWith("vocab-")) return "vocab"
+  if (topicId.startsWith("vocab-") || topicId.startsWith("colloc-")) return "vocab"
   if (topicId.startsWith("reading-b")) return "reading"
   if (topicId.startsWith("listening-b")) return "listening"
   return "grammar"
