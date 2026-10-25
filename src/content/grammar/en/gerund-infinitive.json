@@ -60,7 +60,7 @@
       {
         "id": "gi-u4-both-different-meaning",
         "label": "Động từ theo sau bởi CẢ HAI dạng nhưng Ý NGHĨA THAY ĐỔI HẲN",
-        "explanationVi": "Đây là điểm ngữ pháp khó và hay xuất hiện trong đề thi nhất của chuyên đề này: một số động từ khi theo sau bởi V-ing và theo sau bởi to-V sẽ mang HAI NGHĨA HOÀN TOÀN KHÁC NHAU. **remember/forget + V-ing** = nhớ/quên một việc ĐÃ làm trong quá khứ (nhìn lại một ký ức); **remember/forget + to-V** = nhớ/quên phải làm một việc CẦN làm (nghĩa vụ ở hiện tại/tương lai). **stop + V-ing** = dừng hẳn, chấm dứt việc đang làm (bỏ luôn); **stop + to-V** = dừng một hành động lại ĐỂ làm việc khác (to-V ở đây là mệnh đề chỉ mục đích, không phải tân ngữ của 'stop'). **try + V-ing** = thử làm một cách nào đó xem kết quả ra sao (thử nghiệm); **try + to-V** = cố gắng, nỗ lực làm một việc khó khăn (có thể thành công hoặc thất bại). **regret + V-ing** = hối hận, lấy làm tiếc về một việc ĐÃ làm trong quá khứ; **regret + to-V** = lấy làm tiếc khi phải thông báo một tin gì đó (thường dùng trong văn phong trang trọng, thư từ, thông báo chính thức).",
+        "explanationVi": "Đây là điểm ngữ pháp khó và hay xuất hiện trong đề thi nhất của chuyên đề này: một số động từ khi theo sau bởi V-ing và theo sau bởi to-V sẽ mang HAI NGHĨA HOÀN TOÀN KHÁC NHAU. **remember/forget + V-ing** = nhớ/quên một việc ĐÃ làm trong quá khứ (nhìn lại một ký ức); **remember/forget + to-V** = nhớ/quên phải làm một việc CẦN làm (nghĩa vụ ở hiện tại/tương lai). **stop + V-ing** = dừng hẳn, chấm dứt việc đang làm (bỏ luôn); **stop + to-V** = dừng một hành động lại ĐỂ làm việc khác (to-V ở đây là mệnh đề chỉ mục đích, không phải tân ngữ của 'stop'). **try + V-ing** = thử làm một cách nào đó xem kết quả ra sao (thử nghiệm); **try + to-V** = cố gắng, nỗ lực làm một việc khó khăn (có thể thành công hoặc thất bại). **regret + V-ing** = hối hận, lấy làm tiếc về một việc ĐÃ làm trong quá khứ; **regret + to-V** = lấy làm tiếc khi phải thông báo một tin gì đó (thường dùng trong văn phong trang trọng, thư từ, thông báo chính thức). Với forget, cụm 'never forget + V-ing' rất hay gặp: nghĩa là không bao giờ quên một việc đã trải qua.",
         "examples": [
           {
             "en": "I remember meeting him at a conference in Chicago two years ago.",
@@ -93,6 +93,10 @@
           {
             "en": "We regret to inform you that your application was not successful.",
             "vi": "Chúng tôi rất tiếc phải thông báo rằng đơn ứng tuyển của bạn không thành công."
+          },
+          {
+            "en": "I'll never forget meeting my favorite singer.",
+            "vi": "Tôi sẽ không bao giờ quên lần gặp ca sĩ yêu thích của mình."
           }
         ],
         "bac": 4
