@@ -1052,6 +1052,532 @@
     ]
   },
   {
+    "id": "colloc-health",
+    "title": "Cụm từ về sức khỏe",
+    "desc": "Điền từ đúng để hoàn thành các cụm từ đời thường về sức khỏe như catch a cold, get some rest, stay in shape.",
+    "bac": 3,
+    "questions": [
+      {
+        "prompt": "It's freezing outside. Put on a jacket or you might ____ a cold.",
+        "choices": [
+          "take",
+          "make",
+          "catch",
+          "hit"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm đúng là 'catch a cold', nghĩa là bị cảm lạnh.",
+        "choiceExplanations": [
+          "Sai — 'take': 'take' dùng cho thuốc ('take medicine'), không dùng cho bệnh; bị cảm phải nói 'catch a cold'.",
+          "Sai — 'make': 'make' là tạo ra; bạn không 'tạo ra' cơn cảm, người bản xứ nói 'catch a cold'.",
+          "Đúng — 'catch a cold' nghĩa là bị cảm lạnh.",
+          "Sai — 'hit': 'hit' là đánh, đập; không dùng cho bệnh. Nói 'catch a cold'."
+        ]
+      },
+      {
+        "prompt": "Don't forget to ____ your medicine after dinner.",
+        "choices": [
+          "take",
+          "eat",
+          "do",
+          "make"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm đúng là 'take medicine', nghĩa là uống thuốc.",
+        "choiceExplanations": [
+          "Đúng — 'take medicine' nghĩa là uống thuốc.",
+          "Sai — 'eat': 'eat' dùng cho đồ ăn; với thuốc (kể cả thuốc viên) người bản xứ nói 'take medicine'.",
+          "Sai — 'do': 'do' đi với việc như 'do homework'; uống thuốc nói 'take medicine'.",
+          "Sai — 'make': 'make' là làm ra, chế tạo; uống thuốc nói 'take medicine'."
+        ]
+      },
+      {
+        "prompt": "You look tired. Go home and ____ some rest.",
+        "choices": [
+          "do",
+          "make",
+          "put",
+          "get"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm đúng là 'get some rest', nghĩa là nghỉ ngơi một chút.",
+        "choiceExplanations": [
+          "Sai — 'do': 'do' không đi với 'rest'; muốn nói nghỉ ngơi dùng 'get some rest'.",
+          "Sai — 'make': 'make' là tạo ra; bạn không 'tạo' sự nghỉ ngơi mà 'có được' nó, nên dùng 'get some rest'.",
+          "Sai — 'put': 'put' là đặt để một vật; nghỉ ngơi nói 'get some rest'.",
+          "Đúng — 'get some rest' nghĩa là nghỉ ngơi một chút."
+        ]
+      },
+      {
+        "prompt": "My dad runs every morning to ____ in shape.",
+        "choices": [
+          "hold",
+          "stay",
+          "save",
+          "put"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm đúng là 'stay in shape', nghĩa là giữ vóc dáng khỏe mạnh.",
+        "choiceExplanations": [
+          "Sai — 'hold': 'hold' là cầm, giữ trong tay; giữ vóc dáng nói 'stay in shape'.",
+          "Đúng — 'stay in shape' nghĩa là giữ vóc dáng khỏe mạnh.",
+          "Sai — 'save': 'save' là tiết kiệm hoặc cứu; không đi với 'in shape'. Nói 'stay in shape'.",
+          "Sai — 'put': 'put in shape' không phải cách nói quen thuộc; người Mỹ nói 'stay in shape'."
+        ]
+      },
+      {
+        "prompt": "I can't focus in class because I ____ a headache.",
+        "choices": [
+          "am",
+          "have",
+          "do",
+          "make"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm đúng là 'have a headache', nghĩa là bị đau đầu.",
+        "choiceExplanations": [
+          "Sai — 'am': 'I am a headache' nghĩa là 'tôi là một cơn đau đầu'; bị đau đầu thì nói 'have a headache'.",
+          "Đúng — 'have a headache' nghĩa là bị đau đầu.",
+          "Sai — 'do': 'do' không đi với tên triệu chứng; nói 'have a headache'.",
+          "Sai — 'make': 'make a headache' nghĩa là gây đau đầu cho người khác; nói về chính mình là 'have a headache'."
+        ]
+      },
+      {
+        "prompt": "My mom has a bad cough, so she is going to ____ a doctor.",
+        "choices": [
+          "look",
+          "watch",
+          "view",
+          "see"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm đúng là 'see a doctor', nghĩa là đi khám bác sĩ.",
+        "choiceExplanations": [
+          "Sai — 'look': 'look' cần 'at' (look at); đi khám bác sĩ nói 'see a doctor'.",
+          "Sai — 'watch': 'watch' là xem thứ đang chuyển động như phim, trận đấu; gặp bác sĩ nói 'see a doctor'.",
+          "Sai — 'view': 'view' là quan sát, xem xét (như xem một căn nhà); đi khám nói 'see a doctor'.",
+          "Đúng — 'see a doctor' nghĩa là đi khám bác sĩ."
+        ]
+      },
+      {
+        "prompt": "He shouted so much at the game that he ____ his voice.",
+        "choices": [
+          "lost",
+          "missed",
+          "forgot",
+          "left"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm đúng là 'lose your voice', nghĩa là bị mất tiếng, khản tiếng.",
+        "choiceExplanations": [
+          "Đúng — 'lose your voice' nghĩa là bị mất tiếng, khản tiếng.",
+          "Sai — 'missed': 'miss' là lỡ (xe, tàu) hoặc nhớ; mất tiếng nói 'lose your voice'.",
+          "Sai — 'forgot': 'forget' là quên; giọng nói không bị 'quên', mà bị mất: 'lost his voice'.",
+          "Sai — 'left': 'leave' là rời đi; không nói 'left his voice', dùng 'lost his voice'."
+        ]
+      },
+      {
+        "prompt": "I stood up too fast and started to ____ dizzy.",
+        "choices": [
+          "make",
+          "do",
+          "feel",
+          "take"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm đúng là 'feel dizzy', nghĩa là thấy chóng mặt.",
+        "choiceExplanations": [
+          "Sai — 'make': 'make' cần tân ngữ ('make me dizzy' là làm tôi chóng mặt); tự thấy chóng mặt nói 'feel dizzy'.",
+          "Sai — 'do': 'do' không đi với tính từ chỉ cảm giác; dùng 'feel dizzy'.",
+          "Đúng — 'feel dizzy' nghĩa là thấy chóng mặt.",
+          "Sai — 'take': 'take' không đi với cảm giác của cơ thể; dùng 'feel dizzy'."
+        ]
+      },
+      {
+        "prompt": "It took me a whole week to ____ over the flu.",
+        "choices": [
+          "pass",
+          "go",
+          "come",
+          "get"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm đúng là 'get over the flu', nghĩa là khỏi hẳn bệnh cúm.",
+        "choiceExplanations": [
+          "Sai — 'pass': 'pass over' nghĩa là bỏ qua; khỏi bệnh phải nói 'get over'.",
+          "Sai — 'go': 'go over' nghĩa là xem lại (go over your notes); khỏi bệnh nói 'get over'.",
+          "Sai — 'come': 'come over' nghĩa là ghé chơi nhà ai đó; khỏi bệnh nói 'get over'.",
+          "Đúng — 'get over the flu' nghĩa là khỏi hẳn bệnh cúm."
+        ]
+      },
+      {
+        "prompt": "My aunt is trying to ____ a healthy diet.",
+        "choices": [
+          "follow",
+          "obey",
+          "chase",
+          "join"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm đúng là 'follow a diet', nghĩa là theo một chế độ ăn.",
+        "choiceExplanations": [
+          "Đúng — 'follow a diet' nghĩa là theo một chế độ ăn.",
+          "Sai — 'obey': 'obey' là vâng lời một người hoặc một luật; chế độ ăn nói 'follow a diet'.",
+          "Sai — 'chase': 'chase' là đuổi theo (chase a ball); chế độ ăn nói 'follow a diet'.",
+          "Sai — 'join': 'join' là tham gia nhóm hoặc câu lạc bộ; chế độ ăn nói 'follow a diet'."
+        ]
+      },
+      {
+        "prompt": "Teenagers need to ____ enough sleep to do well at school.",
+        "choices": [
+          "make",
+          "do",
+          "get",
+          "take"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm đúng là 'get enough sleep', nghĩa là ngủ đủ giấc.",
+        "choiceExplanations": [
+          "Sai — 'make': 'make' không đi với 'sleep' theo nghĩa này; nói 'get enough sleep'.",
+          "Sai — 'do': 'do' không đi với 'sleep'; nói 'get enough sleep'.",
+          "Đúng — 'get enough sleep' nghĩa là ngủ đủ giấc.",
+          "Sai — 'take': 'take a nap' (ngủ chợp mắt) có dùng 'take', nhưng với 'enough sleep' thì nói 'get enough sleep'."
+        ]
+      },
+      {
+        "prompt": "Before the big test, I ____ a deep breath and calmed down.",
+        "choices": [
+          "made",
+          "took",
+          "did",
+          "put"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm đúng là 'take a deep breath', nghĩa là hít một hơi thật sâu.",
+        "choiceExplanations": [
+          "Sai — 'made': 'make' là tạo ra; hơi thở không phải thứ bạn 'tạo', người bản xứ nói 'took a deep breath'.",
+          "Đúng — 'take a deep breath' nghĩa là hít một hơi thật sâu.",
+          "Sai — 'did': 'did' hay đi với việc như 'did homework'; hít thở nói 'took a deep breath'.",
+          "Sai — 'put': 'put' là đặt để; hít thở nói 'took a deep breath'."
+        ]
+      },
+      {
+        "prompt": "My brother likes to ____ out at the gym twice a week.",
+        "choices": [
+          "work",
+          "play",
+          "run",
+          "take"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm đúng là 'work out', nghĩa là tập thể dục.",
+        "choiceExplanations": [
+          "Đúng — 'work out' nghĩa là tập thể dục.",
+          "Sai — 'play': 'play out' nghĩa là diễn biến; chơi thể thao nói 'play soccer', còn tập ở phòng gym là 'work out'.",
+          "Sai — 'run': 'run out' nghĩa là hết sạch (run out of milk); tập thể dục nói 'work out'.",
+          "Sai — 'take': 'take out' nghĩa là lấy ra hoặc mời đi chơi; tập thể dục nói 'work out'."
+        ]
+      },
+      {
+        "prompt": "Hold still, I'll ____ a bandage on your knee.",
+        "choices": [
+          "take",
+          "make",
+          "put",
+          "bring"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm đúng là 'put a bandage on', nghĩa là dán băng lên vết thương.",
+        "choiceExplanations": [
+          "Sai — 'take': 'take' là lấy hoặc mang đi; dán lên da nói 'put a bandage on'.",
+          "Sai — 'make': 'make' là tạo ra; dán băng nói 'put a bandage on'.",
+          "Đúng — 'put a bandage on' nghĩa là dán băng lên vết thương.",
+          "Sai — 'bring': 'bring' là mang đến một nơi; dán băng lên đầu gối nói 'put a bandage on'."
+        ]
+      },
+      {
+        "prompt": "I need to ____ an appointment with the dentist this week.",
+        "choices": [
+          "do",
+          "make",
+          "take",
+          "give"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm đúng là 'make an appointment', nghĩa là đặt lịch hẹn.",
+        "choiceExplanations": [
+          "Sai — 'do': 'do' đi với việc như 'do homework'; đặt lịch nói 'make an appointment'.",
+          "Đúng — 'make an appointment' nghĩa là đặt lịch hẹn.",
+          "Sai — 'take': 'take an appointment' không phải cách nói của người Mỹ cho việc tự đặt lịch; dùng 'make an appointment'.",
+          "Sai — 'give': 'give' là đưa cho ai; đặt lịch hẹn nói 'make an appointment'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "colloc-travel",
+    "title": "Cụm từ khi đi du lịch",
+    "desc": "Điền từ đúng để hoàn thành các cụm từ thường gặp khi đi du lịch như book a flight, get lost, check in.",
+    "bac": 3,
+    "questions": [
+      {
+        "prompt": "We should ____ our flights to Chicago early to get cheaper tickets.",
+        "choices": [
+          "make",
+          "book",
+          "keep",
+          "join"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm đúng là 'book a flight', nghĩa là đặt vé máy bay.",
+        "choiceExplanations": [
+          "Sai — 'make': 'make' là tạo ra; đặt vé máy bay nói 'book a flight'.",
+          "Đúng — 'book a flight' nghĩa là đặt vé máy bay.",
+          "Sai — 'keep': 'keep' là giữ; đặt vé nói 'book a flight'.",
+          "Sai — 'join': 'join' là tham gia nhóm hoặc hoạt động; đặt vé nói 'book a flight'."
+        ]
+      },
+      {
+        "prompt": "Did you ____ your bag for the trip yet?",
+        "choices": [
+          "build",
+          "wear",
+          "draw",
+          "pack"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm đúng là 'pack a bag', nghĩa là xếp đồ vào túi/vali.",
+        "choiceExplanations": [
+          "Sai — 'build': 'build' là xây dựng; xếp đồ vào túi nói 'pack a bag'.",
+          "Sai — 'wear': 'wear' dùng cho quần áo, mũ, kính; xếp đồ vào túi nói 'pack a bag'.",
+          "Sai — 'draw': 'draw' là vẽ; xếp đồ vào túi nói 'pack a bag'.",
+          "Đúng — 'pack a bag' nghĩa là xếp đồ vào túi/vali."
+        ]
+      },
+      {
+        "prompt": "I woke up late and ____ the train to school.",
+        "choices": [
+          "missed",
+          "lost",
+          "dropped",
+          "failed"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm đúng là 'miss the train', nghĩa là lỡ chuyến tàu.",
+        "choiceExplanations": [
+          "Đúng — 'miss the train' nghĩa là lỡ chuyến tàu.",
+          "Sai — 'lost': 'lose' dùng cho đồ bị mất (lost my keys); lỡ chuyến tàu nói 'miss the train'.",
+          "Sai — 'dropped': 'drop' là làm rơi; lỡ chuyến tàu nói 'miss the train'.",
+          "Sai — 'failed': 'fail' dùng với bài kiểm tra (fail a test); lỡ chuyến tàu nói 'miss the train'."
+        ]
+      },
+      {
+        "prompt": "Tourists in London love to ____ sightseeing along the river.",
+        "choices": [
+          "make",
+          "have",
+          "go",
+          "play"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm đúng là 'go sightseeing', nghĩa là đi tham quan.",
+        "choiceExplanations": [
+          "Sai — 'make': 'make' là tạo ra; đi tham quan nói 'go sightseeing'.",
+          "Sai — 'have': 'have' đi với bữa ăn hay niềm vui (have fun); đi tham quan nói 'go sightseeing'.",
+          "Đúng — 'go sightseeing' nghĩa là đi tham quan.",
+          "Sai — 'play': 'play' dùng cho trò chơi, thể thao; đi tham quan nói 'go sightseeing' (giống 'go shopping')."
+        ]
+      },
+      {
+        "prompt": "We were confused, so we stopped to ____ for directions.",
+        "choices": [
+          "tell",
+          "say",
+          "ask",
+          "speak"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm đúng là 'ask for directions', nghĩa là hỏi đường.",
+        "choiceExplanations": [
+          "Sai — 'tell': 'tell' không đi với 'for'; muốn xin chỉ đường nói 'ask for directions'.",
+          "Sai — 'say': 'say' cần lời nói đi kèm (say hello); xin chỉ đường nói 'ask for directions'.",
+          "Đúng — 'ask for directions' nghĩa là hỏi đường.",
+          "Sai — 'speak': 'speak' là nói (speak English); xin chỉ đường nói 'ask for directions'."
+        ]
+      },
+      {
+        "prompt": "You can ____ in online 24 hours before your flight.",
+        "choices": [
+          "check",
+          "pay",
+          "sit",
+          "put"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm đúng là 'check in', nghĩa là làm thủ tục lên máy bay/nhận phòng.",
+        "choiceExplanations": [
+          "Đúng — 'check in' nghĩa là làm thủ tục lên máy bay/nhận phòng.",
+          "Sai — 'pay': 'pay' là trả tiền; làm thủ tục nói 'check in'.",
+          "Sai — 'sit': 'sit' là ngồi; làm thủ tục nói 'check in'.",
+          "Sai — 'put': 'put' là đặt để; làm thủ tục nói 'check in'."
+        ]
+      },
+      {
+        "prompt": "Our class will ____ a trip to the science museum next month.",
+        "choices": [
+          "do",
+          "go",
+          "run",
+          "take"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm đúng là 'take a trip', nghĩa là đi một chuyến đi.",
+        "choiceExplanations": [
+          "Sai — 'do': 'do' không đi với 'a trip'; nói 'take a trip'.",
+          "Sai — 'go': 'go' chỉ đi được với 'on' ('go on a trip'); câu này không có 'on' nên cần 'take a trip'.",
+          "Sai — 'run': 'run' là chạy hoặc điều hành (run a shop); chuyến đi nói 'take a trip'.",
+          "Đúng — 'take a trip' nghĩa là đi một chuyến đi."
+        ]
+      },
+      {
+        "prompt": "I'd like to ____ a reservation for four people at 7 p.m.",
+        "choices": [
+          "do",
+          "make",
+          "put",
+          "give"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm đúng là 'make a reservation', nghĩa là đặt chỗ trước.",
+        "choiceExplanations": [
+          "Sai — 'do': 'do' không đi với 'a reservation'; đặt chỗ nói 'make a reservation'.",
+          "Đúng — 'make a reservation' nghĩa là đặt chỗ trước.",
+          "Sai — 'put': 'put' là đặt để một vật; đặt chỗ trước nói 'make a reservation'.",
+          "Sai — 'give': 'give' là đưa cho ai; đặt chỗ trước nói 'make a reservation'."
+        ]
+      },
+      {
+        "prompt": "We took a wrong turn and ____ lost in the old town.",
+        "choices": [
+          "got",
+          "went",
+          "made",
+          "took"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm đúng là 'get lost', nghĩa là bị lạc đường.",
+        "choiceExplanations": [
+          "Đúng — 'get lost' nghĩa là bị lạc đường.",
+          "Sai — 'went': 'went lost' không phải cách nói tự nhiên; bị lạc nói 'got lost'.",
+          "Sai — 'made': 'made lost' không đúng ngữ pháp; bị lạc nói 'got lost'.",
+          "Sai — 'took': 'took' đã dùng ở 'took a wrong turn'; 'took lost' không có nghĩa, bị lạc nói 'got lost'."
+        ]
+      },
+      {
+        "prompt": "Passengers can now ____ the plane at Gate 12.",
+        "choices": [
+          "fix",
+          "hold",
+          "board",
+          "join"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm đúng là 'board a plane', nghĩa là lên máy bay.",
+        "choiceExplanations": [
+          "Sai — 'fix': 'fix' là sửa chữa; lên máy bay nói 'board the plane'.",
+          "Sai — 'hold': 'hold the plane' nghĩa là giữ máy bay lại chưa cho cất cánh, không phải bước lên; lên máy bay là 'board'.",
+          "Đúng — 'board a plane' nghĩa là lên máy bay.",
+          "Sai — 'join': 'join' là gia nhập nhóm; không nói 'join the plane', dùng 'board the plane'."
+        ]
+      },
+      {
+        "prompt": "My family will ____ on vacation to the beach in July.",
+        "choices": [
+          "do",
+          "go",
+          "run",
+          "walk"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm đúng là 'go on vacation', nghĩa là đi nghỉ mát.",
+        "choiceExplanations": [
+          "Sai — 'do': 'do' không đi với 'on vacation'; nói 'go on vacation'.",
+          "Đúng — 'go on vacation' nghĩa là đi nghỉ mát.",
+          "Sai — 'run': 'run' là chạy; đi nghỉ mát nói 'go on vacation'.",
+          "Sai — 'walk': 'walk' là đi bộ; 'walk on vacation' không mang nghĩa đi nghỉ, dùng 'go on vacation'."
+        ]
+      },
+      {
+        "prompt": "Don't forget to ____ photos of the beautiful mountains!",
+        "choices": [
+          "make",
+          "do",
+          "hold",
+          "take"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cụm đúng là 'take photos', nghĩa là chụp ảnh.",
+        "choiceExplanations": [
+          "Sai — 'make': 'make' là tạo ra; chụp ảnh không dùng 'make', nói 'take photos'.",
+          "Sai — 'do': 'do' đi với việc như 'do homework'; chụp ảnh nói 'take photos'.",
+          "Sai — 'hold': 'hold' là cầm, giữ; chụp ảnh nói 'take photos'.",
+          "Đúng — 'take photos' nghĩa là chụp ảnh."
+        ]
+      },
+      {
+        "prompt": "I always ____ light when I go on short trips.",
+        "choices": [
+          "move",
+          "run",
+          "travel",
+          "walk"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm đúng là 'travel light', nghĩa là đi du lịch gọn nhẹ, ít đồ.",
+        "choiceExplanations": [
+          "Sai — 'move': 'move light' không phải cách nói; đi gọn nhẹ nói 'travel light'.",
+          "Sai — 'run': 'run light' không có nghĩa này; đi gọn nhẹ nói 'travel light'.",
+          "Đúng — 'travel light' nghĩa là đi du lịch gọn nhẹ, ít đồ.",
+          "Sai — 'walk': 'walk light' không phải cách nói; đi gọn nhẹ nói 'travel light'."
+        ]
+      },
+      {
+        "prompt": "We ____ at a cheap hotel near the beach for a week last summer.",
+        "choices": [
+          "stayed",
+          "kept",
+          "held",
+          "made"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cụm đúng là 'stay at a hotel', nghĩa là ở lại khách sạn.",
+        "choiceExplanations": [
+          "Đúng — 'stay at a hotel' nghĩa là ở lại khách sạn.",
+          "Sai — 'kept': 'keep' là giữ; ở lại khách sạn nói 'stay at a hotel'.",
+          "Sai — 'held': 'hold' là cầm, giữ hoặc tổ chức; ở lại khách sạn nói 'stay at a hotel'.",
+          "Sai — 'made': 'make' là tạo ra; ở lại khách sạn nói 'stay at a hotel'."
+        ]
+      },
+      {
+        "prompt": "Please ____ your seat belt before the plane takes off.",
+        "choices": [
+          "close",
+          "fasten",
+          "lock",
+          "tie"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cụm đúng là 'fasten a seat belt', nghĩa là thắt dây an toàn (ở Mỹ cũng hay nói 'buckle up').",
+        "choiceExplanations": [
+          "Sai — 'close': 'close' dùng cho cửa, hộp; dây an toàn nói 'fasten your seat belt'.",
+          "Đúng — 'fasten a seat belt' nghĩa là thắt dây an toàn.",
+          "Sai — 'lock': 'lock' dùng cho khóa cửa, khóa xe; dây an toàn nói 'fasten your seat belt'.",
+          "Sai — 'tie': 'tie' dùng cho dây giày, cà vạt; dây an toàn nói 'fasten your seat belt'."
+        ]
+      }
+    ]
+  },
+  {
     "id": "colloc-verb-noun-b2",
     "title": "Động từ + danh từ (B2)",
     "desc": "Chọn động từ đi đúng với danh từ để tạo cụm từ kết hợp tự nhiên như raise awareness, reach a conclusion.",
