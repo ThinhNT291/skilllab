@@ -7,6 +7,12 @@ Tài liệu cho bốn tính năng thêm 25/10/2026. Mức chắc chắn: **cao**
 - Mục tiêu đúng khoảng 80% ("85% rule", Wilson và cộng sự 2019, tác vụ đơn giản). Mức chắc chắn **vừa**: nghiên cứu trên bài phân loại đơn giản, chưa có cho ngữ pháp trẻ 9–15. Bậc thang thích ứng: đúng lên 0,05, sai lùi 0,2 (cân bằng ở 80%).
 - Bậc hiển thị là **ước lượng tham khảo**, không phải xếp loại; chỉ dùng để chọn câu vừa sức (`/hoc/[topic]/thich-ung`) và gợi ý.
 
+- Luyện thường (`AbilityPractice`): 10 câu tăng dần từ hơi dễ (thấp hơn mức mục tiêu 80 điểm) đến hơi khó (cao hơn 80 điểm), tâm theo năng lực; làm tốt thì năng lực tăng và lượt sau tự khó hơn (`pickRoundByAbility`). Chưa có dữ liệu thì dùng lượt chuẩn 4/3/3.
+- Game 60 giây (xếp từ chạy đua, nghe-gõ): thang theo số từ + bậc, bắt đầu theo năng lực, đúng lên 0,08 / sai lùi 0,16 (cân bằng khoảng 67% đúng, nhanh hơn luyện thường vì có giới hạn thời gian).
+- Xếp trình độ mọi kỹ năng: ngữ pháp (`/xep-trinh-do`), từ vựng (12 câu A1–B2), đọc và nghe (bậc thang, tối đa 3 bài, bắt đầu Bậc 2, đạt 75% thì lên, chưa đạt thì xuống; `src/lib/placement-skill.ts`). Các câu đều được lưu như câu luyện thường, nên năng lực ước lượng (`estimateAbility`) tự dùng chúng; không cần cài đặt riêng. Các trang Từ vựng/Đọc/Nghe hiện gợi ý bậc (`LevelHint`).
+- Ngân hàng đề cũ `reference/placement bank.txt` (Gemini soạn: 3 câu ngữ pháp + 3 từ vựng + 1 đoạn đọc mỗi cấp) KHÔNG dùng trực tiếp: nội dung hiện có đã gắn bậc và qua phản biện nên dùng làm nguồn; ngân hàng cũ chỉ để đối chiếu cách chia.
+- Hạn chế: bài đọc/nghe mỗi bậc chỉ 1 bài nên độ chính xác thấp; bài xếp trình độ ngữ pháp không đo Bậc 5–6.
+
 ## 2. Phản hồi lỗi
 - Mặc định **xem đáp án ngay**. Lý do: phân tích tổng hợp về thời điểm phản hồi cho kết quả không đồng nhất; phản hồi tức thì tốt hơn với học sinh nhỏ tuổi và kiến thức mức thấp (**vừa**). Chưa tìm thấy bằng chứng cho "gợi ý trước" ở đúng lứa tuổi này (**thấp**), nên chỉ là tùy chọn ("Gợi ý rồi thử lại", cho dạng gõ/sắp xếp/sửa lỗi), học sinh tự chọn ở `/cua-hang`.
 - Phản hồi theo `tag` lỗi: nối về quy tắc, lỗi hay gặp, mục nên ôn (`WrongFeedback`, `ReviewNext`); lần sai thứ hai cùng mục có biểu ngữ nhắc. Lượt trộn nhiều chuyên đề dẫn đúng về chuyên đề của từng câu.

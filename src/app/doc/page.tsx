@@ -1,3 +1,4 @@
+import { LevelHint } from "@/components/level-hint"
 import Link from "next/link"
 import { getReadingPassages } from "@/lib/reading/data"
 import { READING_BACS } from "@/lib/reading/types"
@@ -11,6 +12,7 @@ export default async function ReadingHome() {
     <main className="mx-auto w-full max-w-5xl px-4 py-6">
       <h1 className="text-3xl font-extrabold">Đọc hiểu</h1>
       <p className="mb-4 text-muted-foreground">Đọc một bài ngắn rồi trả lời 4 câu hỏi. Chạm vào từ gạch chân chấm để xem nghĩa. Đúng từ 75% là đạt.</p>
+      <LevelHint skill="reading" placementHref="/xep-trinh-do/doc" />
       <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {READING_BACS.map((b, i) => (
           <li key={b}>

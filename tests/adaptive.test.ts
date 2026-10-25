@@ -36,3 +36,17 @@ test("bước thích ứng cho trắc nghiệm: cân bằng ở tỷ lệ đúng
   assert.ok(Math.abs(np(0.5, false, MCQ_STEPS) - 0.3) < 1e-9)
   assert.equal(np(0.01, false, MCQ_STEPS), 0)
 })
+
+test("pickRoundByAbility: 10 câu, dốc tăng dần, tâm theo năng lực", async () => {
+  const { pickRoundByAbility } = await import("../src/lib/content/rounds.ts")
+  const { itemRating } = await import("../src/lib/progress/ability.ts")
+  const all = Array.from({ length: 120 }, (_, i) => ({ id: `e${i}`, kind: "mcq", bac: 1 + (i % 4), difficulty: 1 + (i % 3) })) as unknown as import("../src/lib/content/types.ts").Exercise[]
+  const rate = (e: (typeof all)[number]) => itemRating(e.bac ?? 2, e.difficulty)
+  const low = pickRoundByAbility(all, 1000)
+  const high = pickRoundByAbility(all, 1600)
+  assert.equal(low.length, 10)
+  assert.equal(new Set(low.map((e) => e.id)).size, 10)
+  const avg = (xs: typeof all) => xs.reduce((a, e) => a + rate(e), 0) / xs.length
+  assert.ok(avg(high) > avg(low) + 300)
+  assert.ok(rate(high[9]) > rate(high[0]))
+})

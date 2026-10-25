@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useRef, useState } from "react"
 import Link from "next/link"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { recordAnswer } from "@/lib/db"
@@ -73,13 +73,17 @@ function Passage({ text, gloss }: { text: string; gloss: Record<string, string> 
 }
 
 /** Một bài đọc: đoạn văn luôn hiện ở trên, trả lời từng câu bên dưới; xong thì báo đạt (từ 75% đúng). */
-export function ReadingSession({ passage, exercises, gloss }: { passage: ReadingPassage; exercises: Exercise[]; gloss: Record<string, string> }) {
+export function ReadingSession({ passage, exercises, gloss, onComplete }: { passage: ReadingPassage; exercises: Exercise[]; gloss: Record<string, string>; /** Dùng trong bài xếp trình độ: báo kết quả cho nơi gọi và không hiện khung kết quả riêng */ onComplete?: (correct: number, total: number) => void }) {
   const [correct, setCorrect] = useState(0)
+  const correctRef = useRef(0)
   const [finished, setFinished] = useState(false)
 
   function onAnswer(record: AnswerRecord) {
     const ex = exercises.find((e) => e.id === record.exerciseId)
-    if (record.correct) setCorrect((c) => c + 1)
+    if (record.correct) {
+      setCorrect((c) => c + 1)
+      correctRef.current++
+    }
     if (ex) void recordAnswer(record, ex)
   }
 
@@ -89,8 +93,11 @@ export function ReadingSession({ passage, exercises, gloss }: { passage: Reading
         {passage.title}
       </h2>
       <Passage text={passage.text} gloss={gloss} />
-      <ExerciseRunner exercises={exercises} onAnswer={onAnswer} onFinish={() => setFinished(true)} />
-      {finished && (
+      <ExerciseRunner exercises={exercises} onAnswer={onAnswer} onFinish={() => {
+          setFinished(true)
+          onComplete?.(correctRef.current, exercises.length)
+        }} />
+      {finished && !onComplete && (
         <div className="anim-pop rounded-game border-2 border-border bg-card p-4 text-center" role="status">
           <p className="font-extrabold">
             {passedReading(correct, exercises.length) ? "✅ Đạt bài đọc này!" : "📌 Chưa đạt (cần từ 75% đúng). Đọc lại bài rồi thử bài khác nhé."}

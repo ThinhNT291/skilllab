@@ -1,3 +1,4 @@
+import { LevelHint } from "@/components/level-hint"
 import Link from "next/link"
 import { getListeningItems } from "@/lib/listening/data"
 import { LISTENING_BACS } from "@/lib/listening/types"
@@ -11,6 +12,7 @@ export default async function ListeningHome() {
     <main className="mx-auto w-full max-w-5xl px-4 py-6">
       <h1 className="text-3xl font-extrabold">Nghe hiểu</h1>
       <p className="mb-4 text-muted-foreground">Nghe một đoạn hội thoại hoặc thông báo rồi trả lời 4 câu hỏi. Lời thoại chỉ hiện sau khi bạn làm xong. Đúng từ 75% là đạt.</p>
+      <LevelHint skill="listening" placementHref="/xep-trinh-do/nghe" />
       <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {LISTENING_BACS.map((b, i) => (
           <li key={b}>

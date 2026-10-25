@@ -1,4 +1,5 @@
 import type { Exercise } from "./types"
+import { itemRating, targetItemRating } from "../progress/ability.ts"
 
 /** Mỗi lượt 10 câu: bốc ngẫu nhiên trong từng mức độ khó rồi xếp dễ → khó (chống học vẹt nhưng vẫn mạch dễ → khó). */
 const ROUND_QUOTA: Record<1 | 2 | 3, number> = { 1: 4, 2: 3, 3: 3 }
@@ -40,4 +41,24 @@ export function pickHardRound(all: Exercise[]): Exercise[] {
   const hard = shuffle(all.filter((e) => e.difficulty === 3))
   const rest = shuffle(all.filter((e) => e.difficulty === 2))
   return [...hard, ...rest].slice(0, ROUND_SIZE)
+}
+
+/** Độ rộng của "dốc" trong một lượt: từ thấp hơn mức mục tiêu `RAMP` điểm đến cao hơn `RAMP` điểm (một bậc = 200 điểm). */
+const RAMP = 80
+
+/**
+ * Lượt luyện quanh năng lực: 10 câu có độ khó tăng dần từ hơi dễ (khởi động) đến hơi khó, tâm ở mức người học làm đúng khoảng 80%.
+ * Làm tốt thì năng lực tăng, lượt sau tự khó hơn. Chọn câu gần mốc từng vị trí nhất, bằng nhau thì ngẫu nhiên. Thiếu câu thì trả ít hơn 10.
+ */
+export function pickRoundByAbility(all: Exercise[], theta: number, rng: () => number = Math.random, size = ROUND_SIZE): Exercise[] {
+  const center = targetItemRating(theta)
+  const free = all.map((ex) => ({ ex, r: itemRating(ex.bac ?? 2, ex.difficulty) + (rng() - 0.5) * 30 }))
+  const out: { ex: Exercise; r: number }[] = []
+  for (let i = 0; i < size && free.length; i++) {
+    const want = center - RAMP + (2 * RAMP * i) / Math.max(1, size - 1)
+    let bi = 0
+    for (let j = 1; j < free.length; j++) if (Math.abs(free[j].r - want) < Math.abs(free[bi].r - want)) bi = j
+    out.push(free.splice(bi, 1)[0])
+  }
+  return out.sort((a, b) => a.r - b.r).map((x) => x.ex)
 }

@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import Link from "next/link"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { recordAnswer } from "@/lib/db"
@@ -15,7 +15,8 @@ const BTN = "rounded-game border-b-[5px] border-primary-deep bg-primary px-5 py-
 const GHOST = "rounded-game border-2 border-border bg-card px-4 py-3 font-extrabold hover:border-primary"
 
 /** Một bài nghe: bấm nghe (có nghe chậm), trả lời từng câu, chỉ xem lời thoại sau khi xong. */
-export function ListeningSession({ item, exercises }: { item: ListeningItem; exercises: Exercise[] }) {
+export function ListeningSession({ item, exercises, onComplete }: { item: ListeningItem; exercises: Exercise[]; /** Dùng trong bài xếp trình độ: báo kết quả cho nơi gọi và không hiện khung kết quả riêng */ onComplete?: (correct: number, total: number) => void }) {
+  const correctRef = useRef(0)
   const parts = useMemo(() => parseDialogue(item.transcript), [item.transcript])
   const [plays, setPlays] = useState(0)
   const [correct, setCorrect] = useState(0)
@@ -32,7 +33,10 @@ export function ListeningSession({ item, exercises }: { item: ListeningItem; exe
 
   function onAnswer(record: AnswerRecord) {
     const ex = exercises.find((e) => e.id === record.exerciseId)
-    if (record.correct) setCorrect((c) => c + 1)
+    if (record.correct) {
+      setCorrect((c) => c + 1)
+      correctRef.current++
+    }
     if (ex) void recordAnswer(record, ex)
   }
 
@@ -77,7 +81,10 @@ export function ListeningSession({ item, exercises }: { item: ListeningItem; exe
       <ExerciseRunner
         exercises={exercises}
         onAnswer={onAnswer}
-        onFinish={() => setFinished(true)}
+        onFinish={() => {
+          setFinished(true)
+          onComplete?.(correctRef.current, exercises.length)
+        }}
         afterResult={(ex) => {
           const q = item.questions[exercises.indexOf(ex)]
           const frags = ex.kind === "mcq" ? quotedFragments(ex.choiceExplanations?.[ex.correctIndex], ex.explanation) : []
@@ -99,7 +106,7 @@ export function ListeningSession({ item, exercises }: { item: ListeningItem; exe
           )
         }}
       />
-      {finished && (
+      {finished && !onComplete && (
         <div className="anim-pop space-y-3 rounded-game border-2 border-border bg-card p-4" role="status">
           <p className="text-center font-extrabold">
             {passedReading(correct, exercises.length) ? "✅ Đạt bài nghe này!" : "📌 Chưa đạt (cần từ 75% đúng). Nghe lại rồi thử bài khác nhé."}
