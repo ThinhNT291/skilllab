@@ -12,7 +12,7 @@
       {
         "id": "adjective-adverb-order-u1-adj-order",
         "label": "Thứ tự tính từ trước danh từ (OSASCOMP)",
-        "explanationVi": "Khi nhiều tính từ đứng trước một danh từ, chúng phải theo một thứ tự cố định, gọi tắt là OSASCOMP: Ý kiến (Opinion) → Kích thước (Size) → Tuổi/độ mới (Age) → Hình dáng (Shape) → Màu sắc (Color) → Nguồn gốc (Origin) → Chất liệu (Material) → Mục đích/công dụng (Purpose) → Danh từ. Ví dụ: 'a beautiful small old round black Italian leather handbag' đi đúng theo tám nhóm này. Tuy nhiên, người bản ngữ hiếm khi xếp chồng quá 3-4 tính từ một lúc vì câu sẽ trở nên nặng nề; tự nhiên nhất là 2-3 tính từ. Nhưng dù chỉ dùng một tập hợp con (ví dụ chỉ 'kích thước + màu sắc' hay 'ý kiến + chất liệu'), thứ tự tương đối giữa các nhóm đó vẫn phải tuân theo OSASCOMP. Đây là lỗi rất phổ biến của người Việt vì tiếng Việt không có quy tắc thứ tự tính từ chặt chẽ như vậy.",
+        "explanationVi": "Khi nhiều tính từ đứng trước một danh từ, chúng phải theo một thứ tự cố định, gọi tắt là OSASCOMP: Ý kiến (Opinion) → Kích thước (Size) → Tuổi/độ mới (Age) → Hình dáng (Shape) → Màu sắc (Color) → Nguồn gốc (Origin) → Chất liệu (Material) → Mục đích/công dụng (Purpose) → Danh từ. Ví dụ: 'a beautiful small old round black Italian leather handbag' đi đúng theo bảy trong tám nhóm này. Tuy nhiên, người bản ngữ hiếm khi xếp chồng quá 3-4 tính từ một lúc vì câu sẽ trở nên nặng nề; tự nhiên nhất là 2-3 tính từ. Nhưng dù chỉ dùng một tập hợp con (ví dụ chỉ 'kích thước + màu sắc' hay 'ý kiến + chất liệu'), thứ tự tương đối giữa các nhóm đó vẫn phải tuân theo OSASCOMP. Đây là lỗi rất phổ biến của người Việt vì tiếng Việt không có quy tắc thứ tự tính từ chặt chẽ như vậy.",
         "examples": [
           {
             "en": "She bought a gorgeous small antique wooden jewelry box.",
@@ -28,7 +28,7 @@
       {
         "id": "adjective-adverb-order-u2-freq-adverbs",
         "label": "Vị trí trạng từ chỉ tần suất",
-        "explanationVi": "Các trạng từ chỉ tần suất như always, usually, often, sometimes, rarely, never, hardly ever thường đứng NGAY TRƯỚC động từ chính (động từ thường), nhưng lại đứng SAU động từ 'to be' và sau trợ động từ/động từ khiếm khuyết (auxiliary/modal). So sánh: 'She always arrives on time' (trước động từ thường 'arrives') với 'She is always late' (sau 'to be') và 'He has never been to Japan' (sau trợ động từ 'has'). Với câu có nhiều trợ động từ (ví dụ thì hoàn thành tiếp diễn hay bị động), trạng từ tần suất đứng ngay sau trợ động từ đầu tiên: 'She has usually been working late.' Người học tiếng Việt hay đặt nhầm các trạng từ này ở đầu câu hoặc sau động từ chính, vì trong tiếng Việt trạng từ tần suất thường đứng trước cả cụm động từ mà không phân biệt loại động từ. Trong câu hỏi có trợ động từ đảo lên đầu, trạng từ tần suất đứng sau chủ ngữ và trước động từ chính: 'Does your brother usually cook dinner?'",
+        "explanationVi": "Các trạng từ chỉ tần suất như always, usually, often, sometimes, rarely, never, hardly ever thường đứng NGAY TRƯỚC động từ chính (động từ thường), nhưng lại đứng SAU động từ 'to be' và sau trợ động từ/động từ khiếm khuyết (auxiliary/modal). So sánh: 'She always arrives on time' (trước động từ thường 'arrives') với 'She is always late' (sau 'to be') và 'He has never been to Japan' (sau trợ động từ 'has'). Với câu có nhiều trợ động từ (ví dụ thì hoàn thành tiếp diễn hay bị động), trạng từ tần suất đứng ngay sau trợ động từ đầu tiên: 'She has usually been working late.' Người học tiếng Việt hay đặt sai chỗ theo hai hướng: để trước 'be' ('She always is late' — sai), vì tiếng Việt đặt trạng từ tần suất trước cả cụm vị ngữ; hoặc để ở cuối câu ('She arrives on time always' — sai). Lưu ý: 'sometimes' còn đứng được đầu hoặc cuối câu ('Sometimes we eat out.' / 'We eat out sometimes.'), 'usually' và 'often' đứng được đầu câu ('Usually, we eat at home.'); còn 'always' và 'never' trong câu trần thuật thì không. Trong câu hỏi có trợ động từ đảo lên đầu, trạng từ tần suất đứng sau chủ ngữ và trước động từ chính: 'Does your brother usually cook dinner?'",
         "examples": [
           {
             "en": "My brother rarely eats breakfast before school.",
@@ -104,7 +104,7 @@
       {
         "id": "adjective-adverb-order-u6-indefinite-pronouns",
         "label": "Tính từ sau đại từ bất định -thing/-body/-one",
-        "explanationVi": "Với các đại từ bất định kết thúc bằng -thing, -body, -one (something, nothing, anything, everything, somebody, nobody, everyone, anyone...), tính từ bổ nghĩa phải đứng SAU đại từ đó, ngược hoàn toàn với quy tắc thông thường là tính từ đứng trước danh từ. Ví dụ: 'something interesting' (không phải 'an interesting something'), 'nobody special' (không phải 'a special nobody'). Nếu có thêm mệnh đề động từ nguyên thể (to-infinitive), thứ tự sẽ là: đại từ bất định + tính từ + to-infinitive, ví dụ 'something cold to drink'. Đây là điểm học sinh Việt Nam hay quên vì phản xạ tự nhiên là đặt tính từ trước danh từ/đại từ như thông lệ. Cùng quy tắc \"đứng SAU\" này còn áp dụng cho từ 'else' (nghĩa \"khác\") khi đi cùng các đại từ bất định — 'else' cũng luôn đứng NGAY SAU đại từ, không phải trước, ví dụ 'everybody else' (không phải 'else everybody'), 'something else', 'anyone else'. Nếu câu có cả tính từ lẫn 'else', thứ tự là: đại từ bất định + tính từ + else, ví dụ 'something nice else' hiếm gặp hơn, thực tế phổ biến nhất vẫn là 'else' đứng một mình ngay sau đại từ.",
+        "explanationVi": "Với các đại từ bất định kết thúc bằng -thing, -body, -one (something, nothing, anything, everything, somebody, nobody, everyone, anyone...), tính từ bổ nghĩa phải đứng SAU đại từ đó, ngược hoàn toàn với quy tắc thông thường là tính từ đứng trước danh từ. Ví dụ: 'something interesting' (không phải 'an interesting something'), 'nobody special'. Nếu có thêm mệnh đề động từ nguyên thể (to-infinitive), thứ tự sẽ là: đại từ bất định + tính từ + to-infinitive, ví dụ 'something cold to drink'. Đây là điểm học sinh Việt Nam hay quên vì phản xạ tự nhiên là đặt tính từ trước danh từ/đại từ như thông lệ. 'Else' (nghĩa \"khác\") cũng đứng NGAY SAU đại từ bất định: 'everybody else' (không phải 'else everybody'), 'something else', 'anyone else'. Khi có cả 'else' và tính từ thì 'else' đứng ngay sau đại từ, tính từ đứng sau 'else': 'anything else interesting', 'someone else special'.",
         "examples": [
           {
             "en": "Did anything unusual happen at the meeting yesterday?",
@@ -124,7 +124,7 @@
       {
         "id": "adjective-adverb-order-u7-adj-vs-adv",
         "label": "Tính từ hay trạng từ: sau động từ nối, good/well, hard/hardly, late/lately",
-        "explanationVi": "Tính từ bổ nghĩa cho danh từ; trạng từ bổ nghĩa cho động từ hành động, tính từ hoặc trạng từ khác. (1) Sau động từ nối (be, look, feel, sound, smell, taste, seem, become, get) ta dùng TÍNH TỪ để mô tả chủ ngữ: 'Your idea sounds great.' Cùng một động từ nhưng chỉ hành động thì dùng TRẠNG TỪ: 'She spoke softly to the baby.' So sánh 'The kids looked happy' (trông vui) với 'The kids looked happily at the cake' (nhìn một cách vui vẻ). (2) 'Good' là tính từ, trạng từ của nó là 'well': 'He plays the guitar well.' (3) Một số trạng từ có cặp dễ nhầm vì nghĩa khác nhau: 'hard' (chăm chỉ, mạnh) và 'hardly' (hầu như không, đã mang nghĩa phủ định nên không thêm 'not'); 'late' (muộn, trễ) và 'lately' (gần đây). (4) Trạng từ đứng trước tính từ để nhấn mức độ: 'very tall', 'really expensive'. (5) Một số tính từ tận cùng -ly (friendly, lovely, lonely, lively) vẫn là TÍNH TỪ, không thêm -ly lần nữa; muốn nói như trạng từ thì dùng cụm 'in a friendly way'.",
+        "explanationVi": "Tính từ bổ nghĩa cho danh từ; trạng từ bổ nghĩa cho động từ hành động, tính từ hoặc trạng từ khác. (1) Sau động từ nối (be, look, feel, sound, smell, taste, seem, become, get) ta dùng TÍNH TỪ để mô tả chủ ngữ: 'Your idea sounds great.' Cùng một động từ nhưng chỉ hành động thì dùng TRẠNG TỪ: 'She spoke softly to the baby.' So sánh 'The kids looked happy' (trông vui) với 'The kids looked happily at the cake' (nhìn một cách vui vẻ). (2) 'Good' là tính từ, trạng từ của nó là 'well': 'He plays the guitar well.' Lưu ý: 'well' còn là tính từ nghĩa 'khỏe': 'I don't feel well today.' (3) Một số trạng từ có cặp dễ nhầm vì nghĩa khác nhau: 'hard' (chăm chỉ, mạnh) và 'hardly' (hầu như không, đã mang nghĩa phủ định nên không thêm 'not'); 'late' (muộn, trễ) và 'lately' (gần đây). (4) Trạng từ đứng trước tính từ để nhấn mức độ: 'very tall', 'really expensive'. (5) Một số tính từ tận cùng -ly (friendly, lovely, lonely, lively) vẫn là TÍNH TỪ, không thêm -ly lần nữa; muốn nói như trạng từ thì dùng cụm 'in a friendly way'.",
         "examples": [
           {
             "en": "Your idea sounds great.",
@@ -145,6 +145,14 @@
           {
             "en": "I've been feeling sleepy lately.",
             "vi": "Dạo này tôi hay thấy buồn ngủ."
+          },
+          {
+            "en": "She works hard every day.",
+            "vi": "Cô ấy làm việc chăm chỉ mỗi ngày."
+          },
+          {
+            "en": "I can hardly hear you.",
+            "vi": "Tôi hầu như không nghe thấy bạn."
           }
         ],
         "bac": 3
@@ -186,6 +194,14 @@
       {
         "word": "good / well",
         "meaningVi": "'Good' là tính từ; 'well' là trạng từ (bổ nghĩa cho động từ hành động)."
+      },
+      {
+        "word": "hard / hardly",
+        "meaningVi": "'hard' = chăm chỉ, mạnh; 'hardly' = hầu như không (đã mang nghĩa phủ định, không thêm 'not')."
+      },
+      {
+        "word": "late / lately",
+        "meaningVi": "'late' = muộn, trễ; 'lately' = gần đây."
       }
     ],
     "commonMistakes": [
@@ -266,6 +282,16 @@
           {
             "wrong": "She sings very good.",
             "correct": "She sings very well."
+          }
+        ]
+      },
+      {
+        "id": "adjective-adverb-order-m9",
+        "note": "Sau động từ nối (smell, look, feel, sound...) dùng tính từ, không dùng trạng từ.",
+        "examples": [
+          {
+            "wrong": "The soup smells deliciously.",
+            "correct": "The soup smells delicious."
           }
         ]
       }

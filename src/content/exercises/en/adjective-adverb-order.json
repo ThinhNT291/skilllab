@@ -850,7 +850,7 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The soup in this café smells ______.",
+    "prompt": "The soup in this cafe smells ______.",
     "choices": [
       "deliciously",
       "delicious",
@@ -883,7 +883,7 @@
       "careful",
       "care",
       "carefully",
-      "carefulness"
+      "more careful"
     ],
     "correctIndex": 2,
     "explanation": "'Listen' là động từ hành động, nên được bổ nghĩa bằng trạng từ: 'listen carefully'.",
@@ -891,7 +891,7 @@
       "Sai — 'careful' là tính từ, không bổ nghĩa cho động từ 'listen'. Trong văn nói thân mật có người nói 'listen careful', nhưng dạng chuẩn là 'carefully'.",
       "Sai — 'care' là danh từ/động từ, không dùng để bổ nghĩa cho 'listen'.",
       "Đúng — trạng từ 'carefully' bổ nghĩa cho động từ hành động 'listen'.",
-      "Sai — 'carefulness' là danh từ, không đứng ở vị trí này."
+      "Sai — 'more careful' là dạng so sánh của tính từ, không bổ nghĩa cho động từ 'listen'."
     ],
     "bac": 2
   },
@@ -910,7 +910,7 @@
     "choices": [
       "well",
       "good",
-      "goodly",
+      "nicely",
       "best"
     ],
     "correctIndex": 0,
@@ -918,10 +918,10 @@
     "choiceExplanations": [
       "Đúng — 'well' là trạng từ của 'good', bổ nghĩa cho động từ 'plays'.",
       "Sai — 'good' là tính từ nên không bổ nghĩa cho động từ 'plays'. Người bản ngữ đôi khi nói 'plays good' khi nói chuyện thân mật, nhưng dạng chuẩn là 'well'.",
-      "Sai — 'goodly' là từ cổ, hiếm gặp, và không phải trạng từ của 'good'.",
+      "Sai — 'nicely' là trạng từ nhưng nghĩa là 'một cách dễ chịu/lịch sự', không nói về trình độ chơi nhạc; trạng từ của 'good' là 'well'.",
       "Sai — 'best' là dạng so sánh nhất; sau 'very' không dùng được, cũng không có 'the' đi kèm."
     ],
-    "bac": 3
+    "bac": 2
   },
   {
     "id": "en-adjective-adverb-order-034",
@@ -966,15 +966,15 @@
     "choices": [
       "extreme",
       "extremely",
-      "extremity",
+      "very extremely",
       "extremer"
     ],
     "correctIndex": 1,
     "explanation": "Để bổ nghĩa cho tính từ 'difficult' ta dùng trạng từ: 'extremely difficult'.",
     "choiceExplanations": [
-      "Sai — 'extreme' là tính từ; tính từ không bổ nghĩa cho tính từ khác theo cách này.",
+      "Sai — 'extreme' là tính từ; để nhấn mạnh mức độ của tính từ 'difficult' cần trạng từ 'extremely'.",
       "Đúng — trạng từ 'extremely' đứng trước và bổ nghĩa cho tính từ 'difficult'.",
-      "Sai — 'extremity' là danh từ nghĩa 'cực điểm', không bổ nghĩa cho tính từ.",
+      "Sai — hai trạng từ nhấn mạnh chồng nhau ('very extremely') là thừa và không tự nhiên.",
       "Sai — 'extremer' là dạng so sánh tự tạo, không tồn tại trong tiếng Anh chuẩn."
     ],
     "bac": 3
@@ -995,15 +995,15 @@
       "hardly",
       "hard",
       "hardy",
-      "hardness"
+      "not hardly"
     ],
     "correctIndex": 0,
     "explanation": "'Hardly' nghĩa là 'hầu như không'; 'could hardly keep' = 'gần như không thể giữ'.",
     "choiceExplanations": [
-      "Đúng — 'hardly' là trạng từ mang nghĩa 'hầu như không', đứng trước động từ chính 'keep'.",
+      "Đúng — 'hardly' là trạng từ mang nghĩa 'hầu như không', đứng sau 'could' và trước động từ chính 'keep'.",
       "Sai — 'hard' nghĩa là 'chăm chỉ/mạnh', 'could hard keep' không đúng nghĩa lẫn cách dùng.",
       "Sai — 'hardy' là tính từ nghĩa 'cứng cáp', không bổ nghĩa cho động từ.",
-      "Sai — 'hardness' là danh từ nghĩa 'độ cứng', không đứng ở vị trí này."
+      "Sai — 'hardly' đã mang nghĩa phủ định ('hầu như không'), thêm 'not' thành phủ định kép, không chuẩn."
     ],
     "bac": 4
   },
@@ -1021,7 +1021,7 @@
     "prompt": "I haven't seen my cousin ______, so I'm excited about his visit.",
     "choices": [
       "late",
-      "lateness",
+      "later",
       "lately",
       "latest"
     ],
@@ -1029,7 +1029,7 @@
     "explanation": "'Lately' nghĩa là 'gần đây'. 'Late' là trạng từ nhưng nghĩa là 'muộn, trễ'.",
     "choiceExplanations": [
       "Sai — 'late' là trạng từ nhưng nghĩa là 'muộn', 'haven't seen him late' đổi hẳn nghĩa và không hợp ngữ cảnh.",
-      "Sai — 'lateness' là danh từ nghĩa 'sự chậm trễ', không đứng ở vị trí này.",
+      "Sai — 'later' nghĩa là 'muộn hơn, sau đó', không hợp nghĩa 'gần đây'.",
       "Đúng — 'lately' là trạng từ nghĩa 'gần đây', hợp với thì hiện tại hoàn thành phủ định.",
       "Sai — 'latest' là dạng so sánh nhất (mới nhất), không phải trạng từ chỉ thời gian ở đây."
     ],
@@ -1057,7 +1057,7 @@
     "explanation": "'Looked at' là hành động nhìn, nên cần trạng từ: 'looked suspiciously at'. Khi 'look' là động từ nối (looked suspicious) thì mới dùng tính từ.",
     "choiceExplanations": [
       "Sai — 'suspicious' là tính từ. 'Looked suspicious' nghĩa là 'trông đáng ngờ' (động từ nối), không dùng được khi có 'at' sau đó.",
-      "Sai — 'suspect' là danh từ/động từ, không bổ nghĩa cho 'looked'.",
+      "Sai — 'suspect' chủ yếu là danh từ/động từ (kẻ tình nghi, nghi ngờ), không dùng để bổ nghĩa cho 'looked' ở đây.",
       "Sai — 'suspicion' là danh từ nghĩa 'sự nghi ngờ', không đứng ở vị trí này.",
       "Đúng — 'looked at' là hành động của thám tử, nên dùng trạng từ 'suspiciously' để bổ nghĩa."
     ],
@@ -1102,18 +1102,18 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "On the shelf stood ______.",
+    "prompt": "There was ______ on the shelf.",
     "choices": [
-      "a little delicate Japanese porcelain tea set",
-      "a delicate little Japanese porcelain tea set",
-      "a delicate little porcelain Japanese tea set",
-      "a Japanese delicate little porcelain tea set"
+      "a tiny charming Japanese porcelain tea set",
+      "a charming tiny Japanese porcelain tea set",
+      "a charming tiny porcelain Japanese tea set",
+      "a Japanese charming tiny porcelain tea set"
     ],
     "correctIndex": 1,
-    "explanation": "Thứ tự đúng: ý kiến (delicate) → kích thước (little) → nguồn gốc (Japanese) → chất liệu (porcelain) → mục đích (tea) → danh từ (set).",
+    "explanation": "Thứ tự đúng: ý kiến (charming) → kích thước (tiny) → nguồn gốc (Japanese) → chất liệu (porcelain) → mục đích (tea) → danh từ (set).",
     "choiceExplanations": [
-      "Sai — kích thước (little) bị đặt trước ý kiến (delicate). Nghe 'a little delicate' vẫn gặp trong văn nói, nhưng thứ tự chuẩn là ý kiến trước kích thước.",
-      "Đúng — delicate (ý kiến) → little (kích thước) → Japanese (nguồn gốc) → porcelain (chất liệu) → tea (mục đích).",
+      "Sai — kích thước (tiny) bị đặt trước ý kiến (charming).",
+      "Đúng — charming (ý kiến) → tiny (kích thước) → Japanese (nguồn gốc) → porcelain (chất liệu) → tea (mục đích) → set.",
       "Sai — chất liệu (porcelain) bị đặt trước nguồn gốc (Japanese); nguồn gốc phải đứng trước chất liệu.",
       "Sai — nguồn gốc (Japanese) bị đặt lên đầu, trước ý kiến và kích thước."
     ],
@@ -1163,7 +1163,7 @@
       "clean never",
       "never clean",
       "cleaning never",
-      "clean ever not"
+      "do never clean"
     ],
     "correctIndex": 1,
     "explanation": "Trạng từ tần suất 'never' đứng ngay trước động từ thường 'clean'.",
@@ -1171,7 +1171,7 @@
       "Sai — 'never' bị đặt sau động từ thường, phải đứng trước.",
       "Đúng — 'never' đứng ngay trước động từ thường 'clean'.",
       "Sai — 'cleaning' sai dạng động từ sau chủ ngữ 'the twins', và 'never' cũng sai vị trí.",
-      "Sai — 'ever not' không phải cách nói tự nhiên; để phủ định ta dùng 'never'."
+      "Sai — với động từ thường, 'never' đã mang nghĩa phủ định nên không dùng thêm 'do'."
     ],
     "bac": 2
   },
@@ -1199,7 +1199,7 @@
       "Đúng — trợ động từ 'Do' + chủ ngữ 'you' + trạng từ 'often' + động từ chính.",
       "Sai — trạng từ 'often' bị đưa lên đầu câu hỏi, không đúng trật tự thông thường.",
       "Sai — 'often' chen vào giữa 'Do' và chủ ngữ 'you', sai trật tự.",
-      "Sai — đây là câu khẳng định (không đảo trợ động từ) và 'do' thừa, không tạo thành câu hỏi đúng."
+      "Sai — đây là trật tự của câu khẳng định (nếu có 'do' thì chỉ để nhấn mạnh), không phải cách đặt câu hỏi chuẩn. Câu hỏi chuẩn phải đảo trợ động từ 'Do' lên trước chủ ngữ."
     ],
     "bac": 3
   },
@@ -1213,7 +1213,7 @@
       "adjective-adverb-order-u3-manner-place-time"
     ],
     "difficulty": 2,
-    "title": "Điền từ vào chỗ trống",
+    "title": "Chọn thứ tự tự nhiên nhất",
     "prompt": "The fans cheered ______.",
     "choices": [
       "in the stadium loudly after the final whistle",
@@ -1224,7 +1224,7 @@
     "correctIndex": 2,
     "explanation": "Thứ tự đúng: cách thức (loudly) → nơi chốn (in the stadium) → thời gian (after the final whistle).",
     "choiceExplanations": [
-      "Sai — nơi chốn bị đặt trước cách thức.",
+      "Sai — nơi chốn bị đặt trước cách thức. Cách nói này đôi khi gặp trong văn nói, nhưng thứ tự chuẩn đã học là cách thức đứng trước nơi chốn.",
       "Sai — thời gian đứng đầu và cách thức đứng cuối, đảo ngược hoàn toàn trật tự M-P-T.",
       "Đúng — đúng thứ tự Manner - Place - Time.",
       "Sai — cách thức bị đẩy xuống cuối. Cách nói này đôi khi gặp trong văn nói, nhưng thứ tự chuẩn đã học là cách thức đứng trước."
@@ -1257,7 +1257,7 @@
       "Sai — thời gian bị đặt trước nơi chốn, sai thứ tự.",
       "Đúng — happily (cách thức) → at the party (nơi chốn) → on Saturday night (thời gian)."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-adjective-adverb-order-046",
@@ -1311,7 +1311,7 @@
       "Sai — 'enough' phải đứng sau trạng từ 'quickly', không đứng trước.",
       "Sai — 'too quickly' đúng vị trí nhưng sai nghĩa: 'bấm quá nhanh nên không thể thắng' không hợp lý ở đây.",
       "Đúng — 'quickly enough' (trạng từ + enough) bổ nghĩa cho 'press', hợp nghĩa 'không đủ nhanh để thắng'.",
-      "Sai — 'enough' đứng trước tính từ và 'quick' là tính từ, không bổ nghĩa cho động từ 'press'."
+      "Sai — 'enough' phải đứng sau từ nó bổ nghĩa, không đứng trước. Ngoài ra dạng chuẩn để bổ nghĩa cho động từ 'press' là trạng từ 'quickly', không phải 'quick'."
     ],
     "bac": 4
   },
@@ -1354,7 +1354,7 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The ______ kids ran out of the haunted house, screaming.",
+    "prompt": "The kids were ______ by the sudden noise in the haunted house.",
     "choices": [
       "terrifying",
       "terrify",
@@ -1362,10 +1362,10 @@
       "terrified"
     ],
     "correctIndex": 3,
-    "explanation": "Bọn trẻ là người cảm thấy sợ, nên dùng 'terrified' (-ed).",
+    "explanation": "Bọn trẻ là người cảm thấy sợ, còn tiếng động (the sudden noise) là nguyên nhân, nên dùng 'terrified' (-ed).",
     "choiceExplanations": [
-      "Sai — 'terrifying' nghĩa là 'gây khiếp sợ'. Về mặt ngữ pháp vẫn có thể nói 'terrifying kids' (những đứa trẻ làm người khác sợ), nhưng không hợp ngữ cảnh chúng chạy ra và hét lên.",
-      "Sai — 'terrify' là động từ nguyên thể, không đứng trước danh từ làm tính từ.",
+      "Sai — 'terrifying' mô tả thứ gây ra nỗi sợ (như tiếng động), không mô tả cảm giác của bọn trẻ. 'The kids were terrifying' sẽ nghĩa là 'bọn trẻ đáng sợ'.",
+      "Sai — 'terrify' là động từ nguyên thể, không dùng sau 'were' làm tính từ.",
       "Sai — 'terrifies' là động từ chia ngôi thứ ba, không phải tính từ.",
       "Đúng — 'terrified' mô tả cảm giác sợ hãi mà bọn trẻ trải qua."
     ],
@@ -1386,7 +1386,7 @@
     "choices": [
       "somebody talented",
       "talented somebody",
-      "a talented somebody",
+      "somebody talent",
       "somebody a talented"
     ],
     "correctIndex": 0,
@@ -1394,7 +1394,7 @@
     "choiceExplanations": [
       "Đúng — tính từ 'talented' đứng ngay sau đại từ bất định 'somebody'.",
       "Sai — tính từ 'talented' bị đặt trước 'somebody', sai vị trí.",
-      "Sai — 'a talented somebody' đúng ngữ pháp nhưng 'a somebody' mang nghĩa 'một nhân vật quan trọng', không hợp ngữ cảnh tìm người chơi piano.",
+      "Sai — 'talent' là danh từ, không phải tính từ; cần 'talented' đứng sau 'somebody'.",
       "Sai — mạo từ 'a' chen vào sau 'somebody', sai ngữ pháp."
     ],
     "bac": 3
