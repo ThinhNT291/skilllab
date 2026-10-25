@@ -104,3 +104,6 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 
 ## Cập nhật 25/10/2026
 Đã làm: lưu điểm Viết/Nói, nghĩa tiếng Việt cho từ vựng, game ghép từ, bố cục rộng, 5 chuyên đề mở rộng 50 câu + liên từ phụ thuộc, module Đọc hiểu `/doc`. Để sau (theo ý chủ dự án): CAPTCHA/hạn mức chấm, trang About + dọn `legacy/`, Shadowing, Nghe hiểu (tái dùng khung của Đọc hiểu), bài gợi ý đề Viết (mindmap) theo `writing controller.txt`, tra từ theo ngữ cảnh bằng Gemini theo `civocab controller.txt`.
+
+## Cập nhật 26/10/2026
+Đã làm: 21 chuyên đề mở rộng lên 50 câu (có phản biện độc lập + sửa), từ vựng B2, Nghe hiểu `/nghe`, gợi ý dàn ý Viết, tra từ theo ngữ cảnh. Còn lại: CAPTCHA/hạn mức chấm (đã hoãn), trang About + dọn `legacy/`, Shadowing, đăng nhập thật; nhờ giáo viên duyệt nghĩa tiếng Việt của từ vựng, bài đọc/bài nghe và số liệu thật trong bài đọc.
