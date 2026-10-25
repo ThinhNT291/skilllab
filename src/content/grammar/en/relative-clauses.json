@@ -60,7 +60,7 @@
       {
         "id": "rc-u4-where-when-why",
         "label": "Trạng từ quan hệ Where / When / Why",
-        "explanationVi": "Các trạng từ này thay thế cho một cụm giới từ chỉ nơi chốn, thời gian hoặc lý do. Cụ thể: 'Where' = in/at/on which (nơi mà); 'When' = in/on/at which (khi mà); 'Why' = for which (thường đứng ngay sau cụm 'the reason').",
+        "explanationVi": "Các trạng từ này thay thế cho một cụm giới từ chỉ nơi chốn, thời gian hoặc lý do. Cụ thể: 'Where' = in/at/on which (nơi mà); 'When' = in/on/at which (khi mà); 'Why' = for which (thường đứng ngay sau cụm 'the reason'). Chỉ dùng where/when/why khi mệnh đề phía sau đã đủ chủ ngữ + tân ngữ; nếu còn thiếu tân ngữ thì dùng which/that (the summer which we spent in Hawaii; the reason that he gave).",
         "examples": [
           {
             "en": "This is the library where I usually study.",
@@ -92,7 +92,7 @@
       {
         "id": "rc-reduced-clauses",
         "label": "Rút gọn mệnh đề quan hệ (Reduced Relative Clauses)",
-        "explanationVi": "Mệnh đề quan hệ xác định có thể rút gọn để câu văn ngắn gọn hơn: (1) Nếu đại từ quan hệ làm CHỦ NGỮ và động từ ở dạng CHỦ ĐỘNG, rút gọn thành V-ing; (2) Nếu đại từ quan hệ làm CHỦ NGỮ và động từ ở dạng BỊ ĐỘNG, rút gọn thành V3/ed; (3) Nếu phía trước là tính từ so sánh nhất/số thứ tự (the first, the best...), rút gọn bằng to-V.",
+        "explanationVi": "Mệnh đề quan hệ xác định có thể rút gọn để câu văn ngắn gọn hơn: (1) Nếu đại từ quan hệ làm CHỦ NGỮ và động từ ở dạng CHỦ ĐỘNG, rút gọn thành V-ing; (2) Nếu đại từ quan hệ làm CHỦ NGỮ và động từ ở dạng BỊ ĐỘNG, rút gọn thành V3/ed; (3) Nếu phía trước là tính từ so sánh nhất/số thứ tự (the first, the best...), rút gọn bằng to-V. Ví dụ với to-V: the first person to walk on the moon.",
         "examples": [
           {
             "en": "The man who is standing near the door is my uncle. -> The man standing near the door is my uncle.",
@@ -133,7 +133,7 @@
       },
       {
         "word": "when",
-        "meaningVi": "thay thế cho lý do (thường đi cùng 'the reason')"
+        "meaningVi": "thay thế cho thời gian (the day/time/year when…)"
       },
       {
         "word": "why",

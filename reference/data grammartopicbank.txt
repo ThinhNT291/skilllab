@@ -1,0 +1,653 @@
+/**
+ * =================================================================
+ * MODULE: NGÂN HÀNG CHUYÊN ĐỀ NGỮ PHÁP (khu "Học" — Bước 2: Bài tập + Bước 3: Lộ trình nhiều chuyên
+ * đề, xem Controller_GrammarTopic.gs).
+ *
+ * Mỗi chuyên đề gồm 2 phần liền nhau (đã chốt phương án "gộp 1 bank" thay vì tách Lý thuyết/Bài tập
+ * ra 2 file riêng — đơn giản hoá Backend, dễ mở rộng thêm chuyên đề sau này):
+ *  - theory: cách dùng (kèm ví dụ song ngữ), công thức khẳng định/phủ định/nghi vấn (CÓ THỂ null nếu
+ *    chủ điểm không có 1 bộ công thức chung — vd Câu điều kiện/Mệnh đề quan hệ/Giới từ, khi đó công
+ *    thức đã nằm sẵn trong từng "usages"), dấu hiệu nhận biết/bảng tra nhanh, lỗi thường gặp của
+ *    người Việt. Trả THẲNG cho Frontend, không cần giấu gì.
+ *  - exercises: bài tập trắc nghiệm 4 lựa chọn. ĐÃ SỬA (chấm tại CLIENT — xem ghi chú đầu
+ *    Controller_GrammarTopic.gs): correctIndex/explanation trả về NGAY, không giấu tới lúc nộp bài.
+ *
+ * ĐÃ THÊM (Bước 3, cùng đợt với màn "lộ trình" ở Frontend): mở rộng từ 1 chuyên đề (present-perfect)
+ * lên 5 chuyên đề, lấy khung nội dung từ mục lục sách "25 chuyên đề ngữ pháp trọng tâm" (tập 2, người
+ * dùng cung cấp) làm CĂN CỨ CHỌN CHỦ ĐIỂM, không phải nguồn copy — mỗi prompt Gemini
+ * (gemini_prompt_grammar_topic_<ten-chu-diem>.txt) đều dặn viết MỚI HOÀN TOÀN câu chữ, không copy
+ * nguyên văn từ sách, để tránh vi phạm bản quyền:
+ *  - present-perfect: Thì hiện tại hoàn thành — chuyên đề gốc của Bước 2 MVP.
+ *  - prepositions: Giới từ — CHỈ lấy phần nền tảng nhất (in/on/at, chuyển động, cụm cố định hay gặp),
+ *    KHÔNG liệt kê hết mọi giới từ trong tiếng Anh vì quá rộng so với quy mô 1 chuyên đề.
+ *  - passive-voice: Câu bị động.
+ *  - relative-clauses: Mệnh đề quan hệ.
+ *  - conditional-sentences: Câu điều kiện (gồm cả loại hỗn hợp và đảo ngữ).
+ * Đã validate cấu trúc từng chuyên đề (JSON hợp lệ, đủ 5 cách dùng x 2 ví dụ, 15 bài tập x 4 lựa
+ * chọn, correctIndex hợp lệ, không id trùng — kể cả trùng id GIỮA các chuyên đề) và soát thủ công
+ * toàn bộ đáp án/giải thích ngữ pháp trước khi nhúng vào đây.
+ *
+ * ĐÃ SỬA (phản hồi "gán Level không chuẩn, vì 1 chuyên đề thường trải dài nhiều trình độ chứ không
+ * gói gọn 1 cấp" — đúng, CEFR mô tả NĂNG LỰC chứ không phải 1 danh sách chuyên đề cố định theo cấp):
+ * BỎ việc dùng "level" để nhóm/sắp xếp màn lộ trình. Thay vào đó dùng field "order" (số nguyên, 1 =
+ * học đầu tiên) — thứ tự THEO LỘ TRÌNH HỌC THỰC TẾ (nền tảng trước, cấu trúc tổng hợp phức tạp xếp
+ * sau), tham khảo cách các giáo trình/app ngoại ngữ thật sắp chương trình, KHÔNG còn nhóm theo CEFR
+ * nữa. "level" VẪN GIỮ trong dữ liệu (tham khảo nội bộ khi cần quyết định "order" cho chuyên đề mới),
+ * nhưng KHÔNG còn hiển thị cho người học trên Frontend (xem app.js) vì dễ gây hiểu nhầm — nhãn 1 cấp
+ * độ duy nhất không phản ánh đúng việc bài tập trong CÙNG 1 chuyên đề đã được thiết kế tăng dần độ
+ * khó, trải dài qua nhiều cấp.
+ * Thứ tự "order" hiện tại (1→5): prepositions → present-perfect → passive-voice → relative-clauses →
+ * conditional-sentences. KHI THÊM CHUYÊN ĐỀ MỚI (vd rà soát thêm từ chính 2 tập sách người dùng cung
+ * cấp, hoặc nguồn khác): cần RÀ SOÁT LẠI toàn bộ "order" của MỌI chuyên đề (không chỉ chèn số mới vào
+ * cuối) để đảm bảo lộ trình vẫn đúng trình tự sư phạm hợp lý — đây là việc CHỦ ĐỘNG làm mỗi lần mở
+ * rộng ngân hàng, không phải làm 1 lần rồi thôi.
+ *
+ * ĐÃ THÊM (Bước 4 — "gom nhóm lỗi sai", tính năng #7, xem Controller_ErrorLog.gs): gắn "tagId" (slug
+ * định danh DUY NHẤT toàn hệ thống, không chỉ riêng chủ điểm này) vào MỖI khối "usages" (25 khối = 5
+ * chủ điểm x 5 cách dùng), và mảng "tags" (1-2 phần tử, tham chiếu tới các tagId đó) vào MỖI bài tập
+ * (75 câu). Lý do gắn NHIỀU tag/câu: 1 câu trắc nghiệm đôi khi kiểm tra kiến thức giao thoa giữa nhiều
+ * cách dùng trong CÙNG chủ điểm (vd Mệnh đề quan hệ không xác định vừa test "which/that" vừa test quy
+ * tắc "không xác định" - xem rc-u2-which-that + rc-u5-defining-nondefining ở relative-clauses/ex7,
+ * ex14) — gắn đủ tag giúp lúc tổng hợp lỗi sai (get_error_summary) và sinh gợi ý ôn tập chuẩn hơn,
+ * đúng yêu cầu người dùng.
+ * Một số câu KHÔNG map gọn vào đúng 1 "usage" (vd phân biệt Hiện tại hoàn thành vs Quá khứ đơn, phân
+ * biệt since/for ở Giới từ, mệnh đề quan hệ rút gọn, liên từ điều kiện, đảo ngữ điều kiện...) — các câu
+ * này dùng "tag CHÉO CHỦ ĐIỂM" (cross-cutting), KHÔNG có "usage" tương ứng để nhảy-tới-đúng-khối lý
+ * thuyết (Frontend sẽ cuộn lên đầu khối lý thuyết thay vì tới đúng đoạn, xem app.js): pp-vs-simple-past,
+ * prep-since-for, rc-reduced-clauses, cond-connectors, cond-inversion (nhãn tiếng Việt của các tag này
+ * định nghĩa tĩnh trong Controller_ErrorLog.gs, vì không có sẵn "label" nào trong bank để lấy).
+ * Toàn bộ tagId đặt tên CHUNG 1 kho từ vựng (không tách riêng theo module) — chủ ý CHUẨN BỊ SẴN cho
+ * việc sau này mở rộng gắn tag cho Nói/Viết (chỉnh prompt chấm AI để trả cùng tagId), dù việc chỉnh
+ * prompt Nói/Viết thực tế CHƯA làm ở bước này (phạm vi Bước 4 đợt 1 chỉ có Ngữ pháp/trắc nghiệm).
+ *
+ * ĐÃ THÊM ("chống học vẹt" — phản hồi "muốn câu hỏi ngẫu nhiên, vẫn khớp chủ điểm, vẫn xếp dễ->khó"):
+ * gắn "difficulty" (1=dễ, 2=trung bình, 3=khó) vào MỖI bài tập. KHÔNG phải suy đoán mới — chỉ hoá
+ * tường minh thành dữ liệu đúng thứ tự độ khó đã yêu cầu sẵn trong từng prompt Gemini lúc sinh nội
+ * dung (vd prompt Giới từ: "câu 1-5 cơ bản, câu 6-10 trung bình, câu 11-15 khó hơn"): 5 câu đầu mỗi
+ * chuyên đề = difficulty 1, 5 câu giữa = 2, 5 câu cuối = 3. Xem pickGrammarExercises_() ở
+ * Controller_GrammarTopic.gs — mỗi lượt học BỐC NGẪU NHIÊN 1 số câu trong TỪNG mức độ khó (vẫn đúng
+ * chủ điểm vì chỉ bốc trong exercises[] của đúng chuyên đề đang mở) rồi GHÉP THEO THỨ TỰ 1->2->3, thay
+ * vì luôn trả nguyên 15 câu cố định như trước — câu hỏi cụ thể ngẫu nhiên nhưng mạch dễ->khó vẫn giữ.
+ *
+ * ĐÃ MỞ RỘNG (phản hồi "tăng số câu hỏi trong ngân hàng đề, không muốn học vẹt khi bốc lặp lại"): mỗi
+ * chuyên đề từ 15 → 30 bài tập (thêm đúng 15 câu MỚI/chuyên đề, id nối tiếp ex16→ex30 — riêng
+ * present-perfect dùng gpp_pp_ex_16→gpp_pp_ex_30 theo đúng quy ước id cũ của chuyên đề đó). 15 câu mới
+ * SINH QUA GEMINI (cùng quy trình prompt "viết mới hoàn toàn, không copy sách" như 15 câu gốc — xem
+ * gemini_prompt_grammar_topic_<ten-chu-diem>_them_15_cau.txt), GẮN "tags"/"difficulty" THỦ CÔNG sau khi
+ * nhận JSON trả về (Gemini được dặn KHÔNG tự gắn "tags" để tránh tự bịa taxonomy khác với hệ thống có
+ * sẵn) — vẫn theo đúng 25 tagId + 5 tag chéo chủ điểm đã có, KHÔNG tạo tag mới. Tỉ lệ độ khó mỗi 15 câu
+ * mới vẫn giữ 5 dễ/5 vừa/5 khó (đúng yêu cầu prompt) để pickGrammarExercises_() tiếp tục hoạt động đúng
+ * trên ngân hàng 30 câu mà KHÔNG cần sửa code — hàm này luôn bốc theo tỉ lệ trong TỪNG mức độ khó của
+ * exercises[] hiện có, không phụ thuộc tổng số câu. Payload trả về Frontend mỗi lượt học vẫn CHỈ 10 câu
+ * (GRAMMAR_EXERCISES_PER_SESSION), nên việc tăng ngân hàng lên 30 câu/chủ điểm KHÔNG ảnh hưởng kích
+ * thước phản hồi mạng — chỉ file .gs này phình thêm (không đáng kể so với Data_ReadingBank.gs/
+ * Data_ListeningBank.gs vốn đã >100KB, chạy ổn định lâu nay).
+ *
+ * ĐÃ THÊM (phản hồi "muốn thêm nhiều chủ điểm khác — thì/cấu trúc câu/từ loại — mà không bị ngợp trong
+ * 1 danh sách phẳng dài dằng dặc"): field "category" (1 trong 3 giá trị cố định: "tenses" = Thì,
+ * "sentence-structure" = Cấu trúc câu, "word-classes" = Từ loại — mượn đúng cách sách ngữ pháp kinh điển
+ * kiểu Murphy "English Grammar in Use" nhóm nội dung: thì trước, cấu trúc câu (bị động/tường thuật/mệnh
+ * đề quan hệ/điều kiện...) sau, từ loại (mạo từ/đại từ/tính từ-trạng từ/giới từ/liên từ...) sau cùng).
+ * CHỈ dùng để Frontend hiển thị mục lớn/mục nhỏ ở màn lộ trình + sidebar TOC (xem app.js:
+ * renderGrammarRoadmap/renderGrammarSidebarToc) — KHÔNG ảnh hưởng gì logic chấm điểm/SRS/gom lỗi sai ở
+ * Backend. Vị trí hiển thị của MỖI NHÓM được tính ĐỘNG bằng order NHỎ NHẤT trong các chuyên đề thuộc
+ * nhóm đó (không cần thêm 1 field "categoryOrder" riêng phải bảo trì tay) — nhờ vậy thứ tự nhóm hiện tại
+ * (Từ loại → Thì → Cấu trúc câu, đúng khớp thứ tự "order" 1→5 đã chốt trước đó) tự động đúng mà không
+ * cần chỉnh gì thêm. Nhãn tiếng Việt của category định nghĩa tĩnh ở app.js (GRAMMAR_CATEGORY_LABELS),
+ * giống cách làm với CROSS_CUTTING_TAG_LABELS ở Controller_ErrorLog.gs — Backend chỉ trả "category" thô
+ * (English slug), không trả nhãn tiếng Việt, tránh trùng lặp logic dịch nhãn ở 2 nơi.
+ * Ánh xạ hiện tại (SAU 2 đợt mở rộng dưới đây — 11 chuyên đề): present-simple/present-continuous/
+ * past-simple/past-continuous/future-simple/present-perfect → tenses | prepositions → word-classes |
+ * passive-voice/relative-clauses/reported-speech/conditional-sentences → sentence-structure. KHI THÊM
+ * CHUYÊN ĐỀ MỚI: bắt buộc gắn đúng 1 trong 3 category có sẵn (không tự bịa category thứ 4 nếu chưa bàn
+ * với người dùng).
+ *
+ * Cấu trúc mỗi chuyên đề:
+ * { id, title, level, order, category, theory: { usages[{..., tagId}], formulas{}|null, signalWords[], commonMistakes[] }, exercises[{..., tags[], difficulty}] }
+ *
+ * chinese/russian: chưa có chuyên đề nào (null) — chuyên đề ngữ pháp mang tính đặc thù riêng theo
+ * từng ngôn ngữ nên KHÔNG dùng chung cấu trúc nội dung giữa các ngôn ngữ, giống PLACEMENT_BANK/
+ * READING_BANK/LISTENING_BANK đang xử lý khi ngôn ngữ chưa có ngân hàng đề.
+ *
+ * ĐÃ MỞ RỘNG (đợt "xây theo lô 3 chuyên đề/lần, tuần tự theo mức ưu tiên" — tham khảo khung nội dung/
+ * phương pháp tổ chức từ bộ Cambridge "English Grammar in Use" (Murphy) + "25 chuyên đề ngữ phá trọng
+ * tâm" làm CĂN CỨ CHỌN CHỦ ĐIỂM & thứ tự sư phạm, KHÔNG phải nguồn copy — toàn bộ câu chữ lý thuyết/ví
+ * dụ/bài tập bên dưới đều tự soạn mới hoàn toàn): thêm 3 chuyên đề Thì cơ bản nhất, xếp NGAY ĐẦU lộ
+ * trình vì đây là nền tảng phải học trước mọi chuyên đề Thì/Cấu trúc câu khác:
+ *  - present-simple (order 1): Thì hiện tại đơn.
+ *  - present-continuous (order 2): Thì hiện tại tiếp diễn.
+ *  - past-simple (order 3): Thì quá khứ đơn.
+ * Đã RÀ SOÁT LẠI "order" của TOÀN BỘ 8 chuyên đề theo đúng quy ước ở trên (không chỉ chèn số mới vào
+ * cuối): prepositions 1→4, present-perfect 2→5, passive-voice 3→6, relative-clauses 4→7,
+ * conditional-sentences 5→8. Hệ quả: vị trí hiển thị NHÓM category (tính động bằng order nhỏ nhất mỗi
+ * nhóm — xem giải thích "category" phía trên) đổi từ "Từ loại → Thì → Cấu trúc câu" thành
+ * "Thì → Từ loại → Cấu trúc câu" (nhóm Thì nay có present-simple ở order=1 nên lên đầu).
+ * tagId MỚI (3 x 5 = 15, cộng vào 25 tagId cũ thành 40, vẫn 1 kho DUY NHẤT không tách theo module):
+ * ps-u1..5 (present-simple), pc-u1..5 (present-continuous), past-u1..5 (past-simple).
+ * Đã dùng LẠI tag chéo chủ điểm (cross-cutting) có sẵn từ trước nhưng trước đó chưa có chuyên đề nào
+ * gắn — nay có "nhà": pp-vs-simple-past (một số bài past-simple so sánh với Hiện tại hoàn thành).
+ * Thêm 1 tag chéo chủ điểm MỚI (nhãn tiếng Việt định nghĩa ở Controller_ErrorLog.gs, theo đúng quy ước
+ * cross-cutting cũ): ps-vs-pc (phân biệt Hiện tại đơn vs Hiện tại tiếp diễn — một số bài present-simple
+ * và present-continuous test đúng ranh giới này nên không gọn vào 1 "usage" duy nhất của riêng 1 chuyên
+ * đề).
+ * Quy ước format prompt bài tập: 3 chuyên đề Thì này dùng gợi ý động từ trong ngoặc ngay trong "prompt"
+ * (vd "She ______ (clean) her room every Saturday."), khác 4 chuyên đề cũ hơn (Giới từ/Bị động/Mệnh đề
+ * quan hệ/Điều kiện) vốn để chỗ trống trơn không gợi ý — CHỦ Ý giữ khác biệt này vì đây là quy ước
+ * chuẩn/rõ ràng hơn riêng cho dạng bài chia động từ theo Thì, không phải lỗi thiếu nhất quán.
+ *
+ * ĐÃ MỞ RỘNG ĐỢT 2 (cùng quy tắc "lô 3 chuyên đề/lần, tuần tự theo mức ưu tiên" — chọn 3 chuyên đề ưu
+ * tiên "Cao" tiếp theo trong bảng ưu tiên, câu chữ tự soạn mới hoàn toàn, không copy sách):
+ *  - past-continuous (order 4): Thì quá khứ tiếp diễn — xếp ngay sau past-simple vì thường học cặp với
+ *    nhau (mệnh đề "khi đang... thì...").
+ *  - future-simple (order 5): Thì tương lai đơn (will).
+ *  - reported-speech (order 10): Câu tường thuật — thuộc category "sentence-structure", xếp SAU
+ *    relative-clauses và TRƯỚC conditional-sentences (độ phức tạp biến đổi câu tương đương bị
+ *    động/mệnh đề quan hệ, còn câu điều kiện có cả dạng hỗn hợp/đảo ngữ nên vẫn xếp sau cùng).
+ * Đã RÀ SOÁT LẠI "order" của TOÀN BỘ 11 chuyên đề (không chỉ chèn số mới vào cuối): present-perfect
+ * 5→6, prepositions 4→7, passive-voice 6→8, relative-clauses 7→9, conditional-sentences 8→11. Nhóm
+ * "Thì" (category) giờ có 6 chuyên đề (order 1-6), vẫn hiển thị đầu tiên vì present-simple order=1 là
+ * nhỏ nhất trong toàn bộ ngân hàng — không đổi thứ tự hiển thị NHÓM category so với đợt 1 ("Thì → Từ
+ * loại → Cấu trúc câu").
+ * tagId MỚI (3 x 5 = 15, cộng vào 40 tagId cũ thành 55, vẫn 1 kho DUY NHẤT không tách theo module):
+ * pastcont-u1..5 (past-continuous), fs-u1..5 (future-simple), rs-u1..5 (reported-speech).
+ * Thêm 1 tag chéo chủ điểm MỚI (nhãn tiếng Việt định nghĩa ở Controller_ErrorLog.gs, theo đúng quy ước
+ * cross-cutting cũ): past-simple-vs-continuous (một số bài past-continuous kết hợp cả quá khứ đơn lẫn
+ * quá khứ tiếp diễn trong cùng 1 câu — vd mệnh đề "while", hành động bị ngắt quãng bởi "when" — nên
+ * không gọn vào đúng 1 "usage" của riêng past-continuous).
+ * Quy ước format prompt: past-continuous/future-simple tiếp tục dùng gợi ý động từ trong ngoặc (giống
+ * đợt 1) vì vẫn là dạng bài chia động từ theo Thì. Riêng reported-speech theo quy ước CŨ HƠN (không có
+ * gợi ý trong ngoặc — prompt là câu trực tiếp + câu tường thuật đã biến đổi 1 phần, chừa 1 chỗ trống để
+ * chọn từ/dạng đúng), giống cách passive-voice/relative-clauses/conditional-sentences đang làm, vì đây
+ * là dạng bài "biến đổi câu" chứ không phải chia động từ theo Thì đơn thuần.
+ * ĐÃ SỬA (rà soát lại đợt 1, phát hiện thiếu sót khi merge đợt 2): tag chéo chủ điểm "ps-vs-pc" thêm ở
+ * đợt 1 trước đó BỊ QUÊN khai nhãn tiếng Việt trong CROSS_CUTTING_TAG_LABELS (Controller_ErrorLog.gs)
+ * — đã bổ sung cùng lúc với đợt 2 này, đúng theo quy ước "thêm tag chéo mới phải khai nhãn ngay".
+ * Đồng thời đã đổi Controller_GrammarTopic.gs: DEFAULT_GRAMMAR_TOPIC_ID từ 'present-perfect' sang
+ * 'present-simple' cho khớp với order=1 mới (chuyên đề khởi đầu lộ trình thực tế).
+ *
+ * ĐÃ AUDIT ĐỘC LẬP (phản hồi lo ngại người dùng "nội dung AI sinh ra có được kiểm định như sách in
+ * không?" — ĐÚNG LÀ KHÔNG có hội đồng thẩm định chuyên môn như sách thật, nên bổ sung bước này để tăng
+ * độ tin cậy): cho 6 agent ĐỘC LẬP (không biết nội dung được sinh ra thế nào, đóng vai phản biện) rà
+ * soát riêng từng chuyên đề trong 2 đợt vừa xây (present-simple, present-continuous, past-simple,
+ * past-continuous, future-simple, reported-speech — 180 bài tập), tìm lỗi ngữ pháp, đáp án gây tranh
+ * cãi (đặc biệt khác biệt Anh-Anh/Anh-Mỹ), câu văn không tự nhiên, và nhãn tag sai. Đã sửa các lỗi THẬT
+ * SỰ tìm được (không sửa các điểm chỉ mang tính "nitpick" quá nhỏ mà agent tự đánh giá là chấp nhận
+ * được ở mức A2/B1): 1 câu bị lỗi cấu trúc (reported-speech/ex10, thiếu tân ngữ), nhiều đáp án đúng gây
+ * tranh cãi được sửa lại đề bài để hết mập mờ (present-continuous/ex30, past-continuous/ex25+ex29,
+ * future-simple/ex4+ex9+ex21+ex30, present-simple/ex25), vài lỗi gắn nhãn tag sai chủ điểm/thiếu tag,
+ * và vài chỗ dịch tiếng Việt chưa tự nhiên (past-continuous, past-simple). Đã re-run Playwright xác nhận
+ * không phá vỡ gì sau khi sửa. TÌNH CỜ phát hiện thêm 1 lỗi CŨ không liên quan (present-perfect/
+ * gpp_pp_ex_05 có 2 lựa chọn trùng nhau y hệt "has read" — lỗi có TỪ TRƯỚC đợt mở rộng này, không phải
+ * do 2 đợt vừa rồi gây ra) — đã sửa luôn tiện thể. 5 chuyên đề cũ còn lại (prepositions/passive-voice/
+ * relative-clauses/conditional-sentences) CHƯA được audit theo quy trình này — nếu người dùng muốn, có
+ * thể làm audit tương tự cho các chuyên đề đó ở một đợt riêng.
+ *
+ * ĐÃ AUDIT ĐỘC LẬP ĐỢT 2 (theo yêu cầu người dùng "làm luôn 5 chuyên đề cũ đi" — mở rộng đúng quy trình
+ * audit ở trên sang 5 chuyên đề CŨ HƠN, có từ trước session này, chưa từng được rà soát độc lập:
+ * present-perfect, prepositions, passive-voice, relative-clauses, conditional-sentences — 150 bài tập):
+ * PHÁT HIỆN QUAN TRỌNG NHẤT — 3 "lỗ hổng nội dung" nghiêm trọng, tức là có bài tập kiểm tra kiến thức mà
+ * phần "theory" của chính chuyên đề đó CHƯA HỀ dạy (người học bị hỏi cái chưa được học):
+ *  - prepositions: since/for (tag prep-since-for, đã "có nhà" trong CROSS_CUTTING_TAG_LABELS từ trước
+ *    nhưng chưa có usage dạy) được test ở 3 câu (ex14/29/30) mà chưa hề có usage nào dạy — đã sửa bằng
+ *    cách thêm hẳn 1 usage thứ 6 (tagId prep-since-for) dạy rõ điểm khác biệt since/for.
+ *  - relative-clauses: mệnh đề quan hệ rút gọn (tag rc-reduced-clauses, tương tự tình trạng trên) được
+ *    test ở 8/30 câu (~27% ngân hàng) mà chưa hề có usage nào dạy — đã sửa bằng cách thêm usage thứ 6
+ *    (tagId rc-reduced-clauses) dạy quy tắc rút gọn bằng V-ing/V-p2/to-V.
+ *  - conditional-sentences: đảo ngữ câu điều kiện (Should/Were/Had — tag cond-inversion, tương tự tình
+ *    trạng trên) được test ở 6/30 câu (~20% ngân hàng) mà chưa hề có usage nào dạy — agent audit đánh
+ *    giá đây là "lỗ hổng cấu trúc lớn nhất" tìm được trong cả 2 đợt audit — đã sửa bằng cách thêm usage
+ *    thứ 6 (tagId cond-inversion) dạy 3 dạng đảo ngữ tương ứng 3 loại điều kiện.
+ * Ngoài ra passive-voice/usage4 (câu bị động tường thuật) trước đó CHỈ dạy mẫu hành động đồng thời/sau
+ * ("S + is/was + V-p2 + to V"), nhưng ex27 lại yêu cầu mẫu hành động XẢY RA TRƯỚC ("to have + V-p2")
+ * chưa hề được dạy — đã sửa bằng cách mở rộng explanationVi của usage4 + thêm ví dụ thứ 3 minh hoạ mẫu
+ * hoàn thành này (không thêm usage mới vì vẫn cùng 1 "cách dùng" báo lại lời nói, chỉ khác thì).
+ * Các lỗi khác đã sửa (không nghiêm trọng bằng 3 lỗ hổng trên nhưng vẫn là lỗi thật): present-perfect/
+ * gpp_pp_ex_07 có "already" là lựa chọn sai nhưng vẫn đúng ngữ pháp (gây mập mờ) — đổi thành "ago" cho
+ * rõ ràng; prepositions/ex6 "along" là đáp án thay thế chấp nhận được cho "across" — thêm mệnh đề làm rõ
+ * nghĩa để hết mập mờ; conditional-sentences/ex12 và ex28 đều có "If" là lựa chọn cũng đúng ngữ pháp
+ * ngang với đáp án đảo ngữ "Should" — bỏ "If" khỏi 4 lựa chọn, thay bằng "Would"; conditional-sentences/
+ * usage2 (Loại 1) có lỗi kiến thức: giải thích ghi "áp dụng ở hiện tại hoặc tương lai" — SAI, Loại 1 CHỈ
+ * dùng cho tương lai — đã bỏ phần "hiện tại"; conditional-sentences/usage5 (Hỗn hợp) trước đó chỉ dạy
+ * chiều Loại 3→2 nhưng ex15/ex27 lại test chiều ngược Loại 2→3 — đã mở rộng lý thuyết + thêm ví dụ thứ 3
+ * cho chiều còn thiếu; conditional-sentences/ex16 là bản SAO Y HỆT ex1 (cùng 1 câu đề bài) — đã thay
+ * ex16 bằng 1 câu Loại 0 khác (chủ đề đá tan chảy). Đã sửa thêm vài lỗi dịch tiếng Việt gượng gạo
+ * (present-perfect/usage5, present-perfect/ex04, prepositions/usage5, passive-voice/usage2+usage3,
+ * relative-clauses/usage1, conditional-sentences/usage3+usage4) và vài chỗ thuật ngữ chưa nhất quán
+ * (present-perfect/ex16+ex22 chuẩn hoá "V3/ed"→"V-p2", prepositions/commonMistakes[0] bớt khẳng định
+ * tuyệt đối, relative-clauses/ex8 giải thích chắc chắn hơn, relative-clauses signalWords "why" bớt từ
+ * "luôn" thành "thường").
+ * QUYẾT ĐỊNH THIẾT KẾ (không phải lỗi, không sửa correctIndex): 6 câu present-perfect (gpp_pp_ex_13/17/
+ * 19/23/25/29) bị agent audit gắn cờ vì khác biệt kinh điển Anh-Mỹ hay dùng Simple Past thay Present
+ * Perfect (vd với just/already/yet) — GIỮ NGUYÊN đáp án chuẩn Anh-Anh/giáo trình (nhất quán với phần còn
+ * lại của app) nhưng đã thêm 1 câu ghi chú ngắn trong "explanation" mỗi câu, thừa nhận biến thể Anh-Mỹ để
+ * người học không hoang mang nếu gặp cách dùng khác ở nơi khác.
+ * CHỦ Ý KHÔNG SỬA (agent audit có nêu nhưng chỉ là nitpick rất nhỏ, chấp nhận được ở quy mô 1 app tự học
+ * miễn phí, tránh vượt phạm vi): passive-voice có signalWord "be supposed to" gần như không dùng tới và
+ * ex2/ex19 gần giống nhau; relative-clauses có ex13 hơi "mềm" và ex6/ex18 độ khó xếp chưa thật khớp;
+ * conditional-sentences có vài liên từ (provided that/supposing/only if) không xuất hiện làm đáp án đúng
+ * ở câu nào, ex1 có 1 nhiễu "will getting" hơi cẩu thả, ex30 có 1 sắc thái hỗn hợp còn tranh cãi thấp;
+ * prepositions có vài cặp bài tập lặp lại cùng 1 collocation (8/30 câu chỉ xoay quanh 4 cụm) và ex7 vẫn
+ * còn hơi mập mờ into/in; present-perfect còn vài quan sát nhỏ về phân bố tag/độ đa dạng nội dung.
+ * Đã re-validate cấu trúc TOÀN BỘ 11 chuyên đề sau khi sửa (330 bài tập, đúng 10/10/10 mỗi mức độ khó/
+ * chuyên đề, không id trùng, đủ 4 lựa chọn/câu không trùng nhau, 58 tagId — tăng từ 55 do 3 usage mới —
+ * không trùng lặp) và re-run Playwright xác nhận cả 11 chuyên đề (gồm 5 chuyên đề vừa thêm usage thứ 6)
+ * vẫn hiển thị đúng, không lỗi trang.
+ *
+ * 2 QUY TẮC CHUẨN MỚI cho MỌI chuyên đề xây TỪ ĐỢT SAU (chuyên đề thứ 12 trở đi — chưa có chuyên đề nào
+ * thuộc diện này tại thời điểm ghi chú này, đây là quy tắc CHUẨN BỊ TRƯỚC):
+ *  1) CHUYỂN SANG CHUẨN ANH-MỸ (American English) làm mặc định cho CẢ lý thuyết lẫn bài tập — trước đó
+ *     (11 chuyên đề hiện có) mặc định là Anh-Anh (British English), Anh-Mỹ chỉ được ghi chú thêm khi có
+ *     khác biệt (vd 6 câu present-perfect nêu trên). Từ chuyên đề 12: đảo ngược lại — đáp án/lý thuyết
+ *     chuẩn Anh-Mỹ, chỗ nào khác biệt đáng chú ý với Anh-Anh thì ghi chú thêm trong "explanation" (giữ
+ *     đúng tinh thần "không giấu, chỉ bổ sung thông tin" như đã làm ở chiều ngược lại trước đó). 11
+ *     chuyên đề cũ KHÔNG đổi ngược lại — giữ nguyên chuẩn Anh-Anh đã có, tránh phải sửa lại đáp án đã
+ *     audit kỹ; nghĩa là app hiện tại có 2 "vùng" chuẩn khác nhau theo thời điểm xây (đã ghi chú rõ ở
+ *     đây để không ai nhầm là lỗi thiếu nhất quán).
+ *  2) KHÔNG ĐỂ TAG "CHÉO CHỦ ĐIỂM" (cross-cutting) NÀO BỊ "VÔ GIA CƯ" NỮA — đây là quy trình khắc phục
+ *     TRIỆT ĐỂ lỗ hổng đã phát hiện ở đợt audit 2 (prep-since-for/rc-reduced-clauses/cond-inversion bị
+ *     khai nhãn tiếng Việt ở CROSS_CUTTING_TAG_LABELS nhưng KHÔNG có usage nào dạy nội dung tương ứng —
+ *     xem đoạn "ĐÃ AUDIT ĐỘC LẬP ĐỢT 2" phía trên). Từ nay, MỌI lần thêm 1 tag chéo chủ điểm mới (hoặc
+ *     tái sử dụng tag cũ cho 1 chuyên đề mới) đều PHẢI xác nhận nội dung đó ĐÃ được dạy ở ĐÂU đó (1 usage
+ *     cụ thể của chính chuyên đề đang xây, hoặc đã có sẵn ở chuyên đề khác) TRƯỚC KHI viết bài tập dùng
+ *     tag đó — nếu chưa có "nhà" thì phải thêm hẳn 1 usage dạy nội dung đó trước, không được chỉ khai
+ *     nhãn tiếng Việt ở Controller_ErrorLog.gs rồi để đó. Áp dụng cho MỌI đợt mở rộng ngân hàng sau này,
+ *     không riêng gì cross-cutting tag — nguyên tắc chung: "không bài tập nào được kiểm tra kiến thức mà
+ *     app chưa dạy".
+ *
+ * ĐÃ THÊM SCHEMA MỚI (OPTIONAL) cho "exercises" — "choiceExplanations" (mảng string, CÙNG ĐỘ DÀI với
+ * "choices", mỗi phần tử giải thích RIÊNG vì sao đáp án ở đúng vị trí đó đúng/sai — thay vì 1 đoạn
+ * "explanation" chung như trước): xem renderGrammarExplanationBox_() ở app.js — field HOÀN TOÀN OPTIONAL,
+ * bài tập không có field này (áp dụng cho TOÀN BỘ 330 câu của 11 chuyên đề hiện tại — CHƯA retrofit, xem
+ * quyết định của người dùng khi hỏi phạm vi mục này) vẫn hiện đúng như cũ (1 đoạn "explanation" chung).
+ * Chuyên đề thứ 12 trở đi BẮT BUỘC dùng "choiceExplanations" (giải thích đủ cả 4 đáp án A/B/C/D) thay vì
+ * chỉ "explanation" chung — vẫn giữ "explanation" chung song song để tương thích ngược/dùng cho các nơi
+ * khác (vd log lỗi sai) nếu cần.
+ *
+ * ĐÃ THÊM (Frontend, khu "Học" — 3 cải tiến giao diện lý thuyết/bài tập, KHÔNG đổi dữ liệu 330 bài tập
+ * hiện có, xem style.css + renderGrammarTopic()/renderGrammarExplanationBox_() ở app.js):
+ *  - Khối "usages" (cách dùng) chia 2 cột (trái: giải thích, phải: ví dụ song ngữ) — tự gộp về 1 cột ở
+ *    màn hình điện thoại/tablet (viewport <=820px). Từ Công thức trở xuống vẫn 1 cột như cũ.
+ *  - Công thức + Lỗi thường gặp chuyển sang render qua safeMarkdown() (marked.js + DOMPurify, tái dùng
+ *    hạ tầng markdown có sẵn của app) thay vì escapeHtml() thô — ra bullet/danh sách thật, hỗ trợ cú pháp
+ *    markdown (**đậm**, `code`, gạch đầu dòng "- ") cho nội dung mới sau này.
+ *  - Bỏ màu nền xám (--bg-color cũ) của phần TRANG phía dưới thanh điều hướng trên cùng — đổi sang biến
+ *    CSS mới "--page-bg" (trắng). Thanh điều hướng trên cùng (topbar) và từng khung panel (sidebar-left/
+ *    main-content/sidebar-right) KHÔNG đổi gì (vẫn nền trắng + viền/box-shadow như cũ) để vẫn tách bạch
+ *    rõ ràng với phần nội dung phía dưới.
+ *
+ * ĐÃ MỞ RỘNG ĐỢT 3 (lô 3 chuyên đề tiếp theo, mức ưu tiên "Cao" kế tiếp trong bảng ưu tiên — xem
+ * Danh_sach_chu_diem_de_xuat_khu_Hoc.xlsx — 4 ứng viên "Cao" là So sánh/Mạo từ & đếm được-không đếm
+ * được/Modal Verbs/Gerund vs Infinitive, lấy 3 đầu theo đúng thứ tự liệt kê, để dành Gerund vs Infinitive
+ * cho đợt sau): ĐỢT NÀY LÀ ĐỢT ĐẦU TIÊN ÁP DỤNG 2 QUY TẮC CHUẨN MỚI đã ghi ở trên (chuẩn Anh-Mỹ +
+ * choiceExplanations bắt buộc) — xem chi tiết dưới đây:
+ *  - articles-countable-uncountable (order 8): Mạo từ & Danh từ đếm được/không đếm được — chuyển lên
+ *    ngay sau Giới từ (cùng category "word-classes") vì cũng là lỗi rất phổ biến của người Việt (tiếng
+ *    Việt không có mạo từ).
+ *  - modal-verbs (order 9): Động từ khuyết thiếu — xếp TRƯỚC Câu bị động dù cùng "word-classes" (không
+ *    theo đúng thứ tự category liền mạch với reported-speech/conditional-sentences phía sau), vì
+ *    passive-voice/usage2 ("pv-u2-modal", đã có từ trước) giả định người học đã biết modal verb — đặt
+ *    modal-verbs TRƯỚC passive-voice trong lộ trình thực tế cho hợp lý, dù thứ tự "category" hiển thị ở
+ *    Frontend vẫn không đổi (tính bằng MIN(order) mỗi nhóm — nhóm "word-classes" vẫn có prepositions
+ *    order=7 làm nhỏ nhất, không bị ảnh hưởng).
+ *  - comparatives-superlatives (order 10): So sánh hơn/so sánh nhất — xếp NGAY TRƯỚC Câu bị động (dùng
+ *    category "sentence-structure" theo đúng bảng ưu tiên đã chốt từ trước), vì đây là phép biến đổi câu
+ *    đơn giản hơn hẳn Bị động/Mệnh đề quan hệ/Tường thuật/Điều kiện (không cần trợ động từ/thay đổi thì).
+ * Đã RÀ SOÁT LẠI "order" của TOÀN BỘ 14 chuyên đề (không chỉ chèn số mới vào cuối): passive-voice 8→11,
+ * relative-clauses 9→12, reported-speech 10→13, conditional-sentences 11→14. Nhóm hiển thị category
+ * KHÔNG đổi ("Thì → Từ loại → Cấu trúc câu") vì MIN(order) mỗi nhóm không đổi (tenses vẫn 1, word-classes
+ * vẫn 7, sentence-structure nay là 10 thay vì 8 — vẫn lớn nhất nên vẫn đứng cuối).
+ * tagId MỚI (3 x 5 = 15, cộng vào 58 tagId cũ thành 73, vẫn 1 kho DUY NHẤT không tách theo module):
+ * art-u1..5 (articles-countable-uncountable), modal-u1..5 (modal-verbs), comp-u1..5
+ * (comparatives-superlatives). KHÔNG thêm tag chéo chủ điểm (cross-cutting) mới đợt này — cả 3 chuyên đề
+ * đều tự bao phủ đủ nội dung trong 5 usage riêng, không cần mượn kiến thức chuyên đề khác — đúng tinh
+ * thần quy tắc "không tag chéo chủ điểm nào bị vô gia cư" đã đặt ra ở trên (an toàn nhất là không tạo
+ * thêm nếu chưa thực sự cần).
+ * modal-verbs là chuyên đề DUY NHẤT trong 3 chuyên đề đợt này có "formulas" khác null (S + modal + V
+ * nguyên thể, dùng chung cho MỌI modal verb) — comparatives-superlatives và articles-countable-uncountable
+ * dùng formulas: null (giống prepositions/relative-clauses/reported-speech/conditional-sentences trước
+ * đó) vì nội dung không gọn thành 1 bộ khẳng định/phủ định/nghi vấn chung.
+ * Quy ước format prompt: cả 3 chuyên đề đợt này KHÔNG dùng gợi ý động từ trong ngoặc (giống Giới
+ * từ/Bị động/Mệnh đề quan hệ/Điều kiện) vì không phải dạng bài chia động từ theo thì.
+ * Nội dung do 3 agent ĐỘC LẬP soạn song song (mỗi agent chỉ nhận đúng 1 chuyên đề, không biết nội dung
+ * 2 chuyên đề còn lại), mỗi agent tự soát cấu trúc JSON bằng Python trước khi trả kết quả (schema hợp
+ * lệ, đủ 5 usages/30 exercises, đúng 10/10/10 độ khó, đủ 4 choiceExplanations/câu, mọi tag map đúng vào
+ * 1 trong 5 usage — không tag chéo chủ điểm). Đã re-validate ĐỘC LẬP lại lần nữa ở phía nhận (không chỉ
+ * tin báo cáo tự soát của agent): parse toàn bộ JSON, so khớp tagId không trùng với 58 tagId cũ, xác
+ * nhận 14 chuyên đề có "order" 1-14 duy nhất liên tục sau khi ráp nối — ĐẠT.
+ *
+ * ĐÃ AUDIT ĐỘC LẬP 3 CHUYÊN ĐỀ MỚI (đợt 3) — 3 agent phản biện riêng biệt, mỗi agent chỉ nhận đúng 1
+ * chuyên đề, không biết cách nội dung được soạn ra. Đây là lần đầu audit áp dụng cho field mới
+ * "choiceExplanations" — cả 3 agent được yêu cầu soát riêng field này (trước đây chưa từng có để soát).
+ * Đã sửa các lỗi THẬT SỰ tìm được (18 lỗi, không sửa các nitpick agent tự đánh giá chấp nhận được ở A2/B1):
+ *  - comparatives-superlatives (8 lỗi): usage "so sánh nhất" bổ sung quy tắc "chỉ so sánh 2 đối tượng
+ *    phải dùng so sánh hơn, không dùng so sánh nhất" (ex26 test đúng quy tắc này nhưng trước đó chưa
+ *    được dạy — đổi thêm "pretty"→"flat" để nhân tiện bù chỗ trống quy tắc nhân đôi phụ âm); usage "tính
+ *    từ dài" bổ sung quy tắc trạng từ -ly luôn dùng more/most; usage "bất quy tắc" bổ sung phân biệt
+ *    good (tính từ) vs well (trạng từ, ex24 cần kiến thức này nhưng chưa được dạy); ex1 đổi "tall"→"nice"
+ *    để bù thiếu quy tắc chính tả -e+r (trước đó 6 câu nhóm tính từ ngắn có 3 câu đổi y→i, 3 câu không
+ *    biến đổi chính tả, thiếu hẳn nhân đôi phụ âm và -e+r); ex15/ex25 sửa vì trùng lặp đáp án "worse and
+ *    worse" tới 3/6 câu nhóm bất quy tắc — đổi thành "less and less" (bù far/little chưa test) và
+ *    "further" (bù far/farther chưa test); ex12 sửa lỗi kiến thức trong "explanation" (ghi nhầm
+ *    "peaceful" có 3 âm tiết, thực tế chỉ có 2).
+ *  - articles-countable-uncountable (4 lỗi): ex20 sửa lỗi cấu trúc câu nghiêm trọng "some some" (prompt
+ *    thừa sẵn "some" trước chỗ trống, trong khi đáp án đúng cũng là cụm có "some" — điền vào ra câu lặp
+ *    từ sai hẳn); ex19 đổi "much"→"little" làm đáp án đúng (rà soát phát hiện "little" được dạy nhưng
+ *    KHÔNG BAO GIỜ là đáp án đúng trong cả 6 câu nhóm đếm được/không đếm được, dù "few" — cặp đối xứng —
+ *    được test đầy đủ); signalWord "the earth" sửa vì tự mâu thuẫn với chính ex5 của bộ đề (ex5 dùng
+ *    "on Earth" không mạo từ — đúng vì "Earth" viết hoa là tên hành tinh, khác "the earth" viết thường);
+ *    ex29 sửa vì "poured herself coffee" (không mạo từ) thực ra cũng tự nhiên như "a coffee", chưa đủ hẹp
+ *    để là đáp án duy nhất — thêm vế "asked...if he wanted a cup too" để ép rõ nghĩa đếm được.
+ *  - modal-verbs (6 lỗi): ex27 tự mâu thuẫn với chính lý thuyết usage "khả năng" (lý thuyết nói rõ thể
+ *    phủ định "couldn't" và "weren't able to" đều dùng được không phân biệt nghiêm ngặt, nhưng câu hỏi
+ *    lại chấm "weren't able to" là sai) — đổi lựa chọn nhiễu đó thành "mustn't" (rõ ràng sai nghĩa) thay
+ *    vì ép buộc 1 phân biệt mà chính lý thuyết đã nói không nghiêm ngặt; ex25 "had better not" vs
+ *    "shouldn't" — KHÔNG đổi đáp án (bản chất vẫn là 1 phân biệt "mềm", đúng như agent audit nhận xét),
+ *    mà sửa choiceExplanations theo hướng minh bạch: thừa nhận "shouldn't" cũng đúng ngữ pháp, chỉ giải
+ *    thích vì sao "had better not" phù hợp NGỮ CẢNH hơn — nhất quán với cách xử lý các trường hợp
+ *    Anh-Anh/Anh-Mỹ mập mờ ở các đợt audit trước (công khai thay vì giả vờ chỉ có 1 đáp án tuyệt đối);
+ *    3 cặp câu dùng NGUYÊN VẸN 4 lựa chọn giống hệt nhau (ex10&ex24, ex12&ex26, ex18&ex21, học sinh có
+ *    thể học thuộc "thấy 4 từ này → chọn X" thay vì hiểu ngữ cảnh) — đổi 1 lựa chọn nhiễu ở câu thứ hai
+ *    mỗi cặp; usage "cho phép" bổ sung nghĩa "could" dùng cho quy định/sự cho phép CHUNG trong quá khứ
+ *    (ex28 cần kiến thức này nhưng chưa được dạy — usage 2 trước đó chỉ dạy "could" xin phép lịch sự ở
+ *    hiện tại); commonMistakes bổ sung 2 ngoại lệ so với "formulas" chung (modal+V không "to"): "ought
+ *    to" là modal duy nhất CÓ "to", và "have to" thực ra không phải modal thật (chia theo ngôi/thì, cần
+ *    do-support) — cả hai đều xuất hiện dày đặc trong bài tập nhưng "formulas" chưa hề nói tới ngoại lệ;
+ *    ex17 sửa 1 chỗ diễn đạt choiceExplanations quy chụp nhầm "must" là "sai ngữ pháp" trong khi thực ra
+ *    chỉ là "không tự nhiên/không đúng ngữ cảnh" (không sai cấu trúc modal+S+V).
+ * Đã re-validate cấu trúc TOÀN BỘ 14 chuyên đề sau khi sửa (420 bài tập, đúng 10/10/10 mỗi mức độ khó/
+ * chuyên đề, không id trùng, đủ 4 lựa chọn/câu không trùng nhau, đủ 4 choiceExplanations/câu ở 3 chuyên
+ * đề mới, 73 tagId không trùng lặp, mọi tag map đúng vào 1 usage hoặc 1 trong 7 tag chéo chủ điểm đã có
+ * — 3 chuyên đề mới xác nhận KHÔNG dùng tag chéo chủ điểm nào, đúng thiết kế ban đầu) và re-run Playwright
+ * xác nhận cả 14 chuyên đề hiển thị đúng, choiceExplanations (A/B/C/D) render đúng cho bài tập thật của 3
+ * chuyên đề mới, không lỗi trang.
+ *
+ * ĐÃ MỞ RỘNG ĐỢT 4 (lô 3 chuyên đề tiếp theo — nốt candidate "Cao" cuối cùng còn lại + 2 candidate
+ * "Trung bình" kế tiếp theo đúng thứ tự liệt kê trong Danh_sach_chu_diem_de_xuat_khu_Hoc.xlsx, tiếp tục
+ * đúng 2 quy tắc chuẩn đã chốt ở đợt 3: Anh-Mỹ mặc định + choiceExplanations bắt buộc):
+ *  - future-going-to (order 6): Thì tương lai gần — chen NGAY SAU future-simple (will) vì 2 chuyên đề
+ *    này đối lập trực tiếp (quyết định tức thời/ý kiến chủ quan vs dự định có sẵn/dự đoán có bằng chứng)
+ *    — usage của future-going-to TỰ DẠY ĐỦ sự đối lập này trong chính nó (không tạo tag chéo chủ điểm
+ *    mới trỏ ngược về future-simple, tránh phải sửa lại bài tập future-simple đã audit/ship trước đó).
+ *  - past-perfect (order 8): Thì quá khứ hoàn thành — chen NGAY SAU present-perfect vì cùng nhóm khái
+ *    niệm "hoàn thành" (have/had + V-p2), người học cần hiểu present-perfect trước khi học past-perfect
+ *    dễ hơn. Usage 5 có nhắc ngắn gọn tới câu điều kiện loại 3 (đã dạy chi tiết ở conditional-sentences)
+ *    nhưng KHÔNG tạo tag chéo chủ điểm — chỉ nhắc để người học nhận ra cấu trúc "had+V-p2" xuất hiện
+ *    xuyên suốt, không lặp lại dạy sâu.
+ *  - gerund-infinitive (order 12): Danh động từ & Động từ nguyên mẫu — thuộc "word-classes", xếp SAU
+ *    modal-verbs (trước comparatives-superlatives) theo đúng thứ tự ưu tiên đã liệt kê trong xlsx.
+ * Đã RÀ SOÁT LẠI "order" của TOÀN BỘ 17 chuyên đề (không chỉ chèn số mới vào cuối): present-perfect
+ * 6→7, prepositions 7→9, articles-countable-uncountable 8→10, modal-verbs 9→11, comparatives-superlatives
+ * 10→13, passive-voice 11→14, relative-clauses 12→15, reported-speech 13→16, conditional-sentences
+ * 14→17. Nhóm hiển thị category KHÔNG đổi ("Thì → Từ loại → Cấu trúc câu") vì MIN(order) mỗi nhóm không
+ * đổi thứ hạng tương đối (tenses vẫn 1, word-classes nay là 9 thay vì 7, sentence-structure nay là 13
+ * thay vì 10 — thứ tự tương đối 3 nhóm vẫn giữ nguyên).
+ * tagId MỚI (3 x 5 = 15, cộng vào 73 tagId cũ thành 88, vẫn 1 kho DUY NHẤT không tách theo module):
+ * fgt-u1..5 (future-going-to), pastperf-u1..5 (past-perfect), gi-u1..5 (gerund-infinitive). KHÔNG thêm
+ * tag chéo chủ điểm mới đợt này — cả 3 chuyên đề đều tự bao phủ đủ nội dung trong 5 usage riêng, kể cả 2
+ * chỗ có liên hệ rõ với chuyên đề khác (will/going-to, had+V-p2/điều kiện loại 3) đều cố ý KHÔNG tạo tag
+ * chéo để tránh phải động vào bài tập chuyên đề cũ đã audit/ship.
+ * Quy ước format prompt: future-going-to/past-perfect dùng gợi ý động từ trong ngoặc (giống mọi chuyên
+ * đề Thì khác) vì vẫn là dạng bài chia động từ theo thì. gerund-infinitive KHÔNG dùng gợi ý kiểu chia
+ * thì (giống Giới từ/Bị động/Mệnh đề quan hệ/Điều kiện/Mạo từ/Modal/So sánh) nhưng vẫn giữ gợi ý động từ
+ * gốc trong ngoặc ở cuối câu vì bài tập là chọn đúng dạng V-ing/to-V của 1 động từ cụ thể — quy ước riêng
+ * chỉ áp dụng nội bộ trong chính 30 câu của chuyên đề này, không xung đột với quy ước chung.
+ * Nội dung do 3 agent ĐỘC LẬP soạn song song, mỗi agent tự soát cấu trúc JSON bằng Python trước khi trả
+ * kết quả. Đã re-validate ĐỘC LẬP lại lần nữa ở phía nhận: parse toàn bộ JSON, so khớp tagId không trùng
+ * với 73 tagId cũ, xác nhận 17 chuyên đề có "order" 1-17 duy nhất liên tục sau khi ráp nối — ĐẠT.
+ *
+ * ĐÃ AUDIT ĐỘC LẬP 3 CHUYÊN ĐỀ MỚI (đợt 4) — tiếp tục đúng quy trình 1 agent phản biện/chuyên đề đã
+ * dùng ở các đợt trước (người dùng xác nhận giữ nguyên quy trình này sau khi tôi trình bày dữ liệu 3 đợt
+ * audit trước đều tìm ra lỗi thật, chưa có bằng chứng nào cho thấy nên cắt bớt).
+ * Đã sửa các lỗi THẬT SỰ tìm được (13 lỗi, không sửa nitpick agent tự đánh giá chấp nhận được):
+ *  - future-going-to (6 lỗi): signalWord "due (to) / due date / expecting" gộp nhầm "due to" (nghĩa "vì,
+ *    bởi vì" — giới từ, không liên quan tín hiệu going-to) chung với "due date/expecting" (đúng ngữ cảnh
+ *    mang thai) — tách riêng, bỏ "due (to)"; ex11 pronoun không nhất quán ("our team" số ít rồi lại dùng
+ *    "They" ở câu sau) — đổi "They"→"We" (khớp chủ ngữ số nhiều có sẵn trong lựa chọn "are going to lose",
+ *    không cần đổi cả bộ 4 lựa chọn); ex25 phần "explanation" chính diễn đạt như thể "going to" sai hẳn
+ *    trong ngữ cảnh cuộc hẹn đã chốt, trong khi choiceExplanations[1] lại nói "không sai ngữ pháp" — tự
+ *    mâu thuẫn — sửa lại "explanation" để nhất quán thừa nhận "going to" không sai hẳn, chỉ kém tự nhiên
+ *    hơn; ex29 có mệnh đề điều kiện thừa "if repairs aren't made soon" làm giảm tính chắc chắn cần thiết
+ *    cho dự đoán có bằng chứng (going-to), trong khi câu lại dùng "engineers say" khẳng định chắc — bỏ
+ *    mệnh đề điều kiện, giữ nguyên phần còn lại; ex13 và ex23 diễn đạt gần như nguyên văn 2 câu ví dụ
+ *    trong chính lý thuyết usage3/usage2 (ex13 lặp gần hệt ví dụ "due date"/"bump" của usage3, ex23 lặp
+ *    gần hệt "dark clouds rolling in" của usage2) — học sinh có thể nhớ mặt chữ thay vì hiểu ý — đổi bối
+ *    cảnh ví dụ hoàn toàn (ex13: dấu hiệu thể chất khác "swollen ankles"/"wincing"; ex23: dấu hiệu khác
+ *    "thunder rumbling"/"wind picked up") nhưng vẫn giữ đúng usage đang test.
+ *  - past-perfect (7 lỗi): ex4 và ex26 sai hòa hợp chủ ngữ-động từ ở lựa chọn nhiễu hiện tại hoàn thành —
+ *    "the family"/"the design team" là danh từ tập hợp số ít (theo quy ước Anh-Mỹ đã chốt từ đợt 3), phải
+ *    chia "has moved"/"hasn't finished", bản gốc lại chia "have moved"/"haven't finished" (sai ngay ở
+ *    chính lựa chọn nhiễu, dù không phải đáp án đúng nhưng vẫn phải đúng ngữ pháp để không dạy sai) — sửa
+ *    lại chia đúng theo chủ ngữ số ít; ex4 và ex21 gắn nhầm tag usage1 ("hoàn tất trước 1 mốc") trong khi
+ *    nội dung thực ra khớp usage4 hơn (usage4 = tổng kết trải nghiệm/thành tựu tính đến 1 mốc quá khứ,
+ *    ví dụ mẫu "by the age of 25, she had published two novels" — cùng cấu trúc với ex4 "by 2018, the
+ *    family had moved to three different cities" và ex21 "had signed five different contracts over three
+ *    years") — gắn lại đúng tag pastperf-u4-experience-up-to-past-point cho cả 2 câu; ex2/ex5/ex12/ex27
+ *    (4 câu dùng after/as soon as/once) có 1 điểm mập mờ thật: quá khứ đơn ở cả 2 mệnh đề đôi khi vẫn được
+ *    chấp nhận trong tiếng Anh tự nhiên vì bản thân từ nối đã ngụ ý trình tự, nhưng choiceExplanations cũ
+ *    lại chấm dứt khoát "sai" cho lựa chọn quá khứ đơn — xử lý nhất quán với tiền lệ mập mờ ngữ pháp ở các
+ *    đợt trước (modal-verbs ex25): công khai thừa nhận quá khứ đơn không sai hoàn toàn trong văn nói tự
+ *    nhiên, nhưng bài học vẫn ưu tiên quá khứ hoàn thành để trình tự trước-sau tường minh rõ ràng — không
+ *    đổi đáp án đúng của cả 4 câu.
+ *  - gerund-infinitive (0 lỗi): agent audit không tìm lỗi thật cần sửa. Điểm "rủi ro nhất" agent nêu (ex25
+ *    "try + V-ing" vs "try + to-V") đã tự đủ ngữ cảnh phân biệt rõ nhờ vế "and see what happens" có sẵn
+ *    trong prompt — rà soát lại xác nhận không cần sửa thêm.
+ * Đã re-validate cấu trúc TOÀN BỘ 17 chuyên đề sau khi sửa (510 bài tập, đúng 10/10/10 mỗi mức độ khó/
+ * chuyên đề, không id trùng, đủ 4 lựa chọn/câu không trùng nhau, đủ 4 choiceExplanations/câu ở 3 chuyên đề
+ * mới, 88 tagId không trùng lặp, mọi tag map đúng vào 1 usage hoặc 1 trong 7 tag chéo chủ điểm đã có — 3
+ * chuyên đề mới đợt 4 xác nhận KHÔNG dùng tag chéo chủ điểm nào, đúng thiết kế ban đầu) và re-run
+ * Playwright xác nhận cả 17 chuyên đề hiển thị đúng, không lỗi trang.
+ *
+ * ĐÃ SỬA LỖI HỆ THỐNG "ĐÁP ÁN ĐÚNG LỆCH VỊ TRÍ A" — phát hiện bởi người dùng khi giải thích cách viết
+ * choiceExplanations (ví dụ minh hoạ "A đúng, BCD sai" bị tôi hiểu nhầm thành quy tắc cố định luôn đặt đáp
+ * án đúng ở vị trí A, thay vì chỉ là 1 ví dụ định dạng). Rà soát lại phát hiện lỗi này KHÔNG chỉ ở đợt 4 mà
+ * ở TOÀN BỘ 17 chuyên đề từ trước tới giờ, mức độ lệch khác nhau theo từng đợt soạn nhưng đều tệ: trước sửa,
+ * correctIndex=A (vị trí 0) chiếm tới 100% ở future-going-to (30/30), 96.7% ở modal-verbs (29/30), 73.3% ở
+ * comparatives-superlatives (22/30), 63.3% ở conditional-sentences (19/30) — học sinh có thể đoán mò "luôn
+ * chọn A" mà không cần hiểu ngữ pháp, làm hỏng hoàn toàn mục đích kiểm tra. Đã viết script Python xáo vị trí
+ * 4 lựa chọn cho TẤT CẢ 510 bài tập của cả 17 chuyên đề (không chỉ đợt 4): với mỗi câu, giữ nguyên văn bản
+ * lựa chọn đúng + choiceExplanation tương ứng (nếu có) đi liền với đáp án đúng khi di chuyển vị trí, 3 lựa
+ * chọn nhiễu xáo ngẫu nhiên vào 3 vị trí còn lại; đích đến của đáp án đúng được rải ĐỀU theo từng chuyên đề
+ * (mỗi chuyên đề 30 câu → đúng 8/8/7/7 câu có đáp án đúng lần lượt ở A/B/C/D, thứ tự phân bổ cũng được xáo
+ * ngẫu nhiên giữa các câu trong cùng chuyên đề, không theo pattern cố định nào). Trường "explanation" chính
+ * (giải thích ngữ pháp chung) giữ nguyên không đổi vì không hề tham chiếu chữ cái A/B/C/D nào (đã rà soát
+ * xác nhận trước khi chạy script). Sau khi sửa: mọi chuyên đề đều đạt đúng 8/8/7/7, đã re-validate cấu trúc
+ * toàn bộ 17 chuyên đề (không lựa chọn trùng lặp trong cùng 1 câu sau khi xáo, choiceExplanations vẫn khớp
+ * đúng theo đáp án đã di chuyển — xác nhận 180/180 câu có choiceExplanations vẫn ghi "Đúng" đúng ngay tại vị
+ * trí correctIndex mới) và re-run Playwright xác nhận không lỗi trang.
+ * =================================================================
+ */
+
+/**
+ * =================================================================
+ * ĐÃ TÁCH NỘI DUNG RA DRIVE (xem Data_ContentStore.gs) — phản hồi người dùng lo file này đã hơn 12.500
+ * dòng/616KB, hỏi kinh nghiệm các trang tương tự xử lý khi mở rộng thêm nhiều loại nội dung khác
+ * (flashcard/quiz/nghe/đọc...). Toàn bộ lịch sử build/audit từng chuyên đề (13 đợt ghi chú bên dưới) VẪN
+ * GIỮ NGUYÊN — không xoá, vì đó là tài liệu tham khảo quan trọng khi sửa/audit nội dung sau này (nội dung
+ * giờ nằm trên Drive dạng JSON, KHÔNG PHẢI không còn cần đọc lại các quyết định đã chốt ở đây).
+ *
+ * FILE NÀY GIỜ CHỈ CÒN LÀ MỤC LỤC (GRAMMAR_TOPIC_INDEX) — id/title/level/order/category của MỖI chuyên
+ * đề, KHÔNG còn "theory"/"exercises" nhúng thẳng nữa. Nội dung đầy đủ từng chuyên đề (theory + 30 bài
+ * tập) nằm trên Google Drive (folder "TrainingZone_ContentStore_DoNotDelete", file
+ * "grammar__<topicId>.json"), đọc qua findGrammarTopic_() ở Controller_GrammarTopic.gs (ưu tiên
+ * CacheService, chỉ chạm Drive khi cache miss — xem Data_ContentStore.gs).
+ *
+ * MUỐN SỬA NỘI DUNG 1 CHUYÊN ĐỀ (thêm/sửa bài tập, sửa lý thuyết...) TỪ NAY: KHÔNG sửa file này nữa (file
+ * này chỉ còn metadata) — sửa trực tiếp file JSON tương ứng trên Drive (thủ công qua giao diện Drive, hoặc
+ * qua 1 script gọi putContent_('grammar', topicId, noiDungMoi) — xem Data_ContentStore.gs). MUỐN THÊM 1
+ * CHUYÊN ĐỀ MỚI: (1) putContent_('grammar', topicIdMoi, {id,title,level,order,category,theory,exercises})
+ * để ghi nội dung lên Drive, (2) thêm 1 dòng vào GRAMMAR_TOPIC_INDEX bên dưới với đúng id/title/level/
+ * order/category (PHẢI khớp với "id" đã ghi ở bước 1) — thiếu bước 2 thì chuyên đề không hiện trên lộ
+ * trình dù đã có nội dung trên Drive (findGrammarTopic_() tra index trước, không thấy thì coi như chưa
+ * tồn tại, KHÔNG đọc content store).
+ *
+ * File Data_ContentStore.gs (module dùng chung, không riêng cho ngữ pháp) + Migration_GrammarToDrive.gs
+ * (script chạy 1 lần để di chuyển dữ liệu — ĐÃ XONG NHIỆM VỤ, có thể xoá khỏi project sau khi xác nhận
+ * verifyGrammarContentStore_() báo ĐẠT) đi kèm đợt sửa này.
+ * =================================================================
+ */
+
+const GRAMMAR_TOPIC_INDEX = {
+  "english": {
+    "present-simple": {
+      "id": "present-simple",
+      "title": "Thì hiện tại đơn (Present Simple)",
+      "level": "A1",
+      "order": 1,
+      "category": "tenses"
+    },
+    "present-continuous": {
+      "id": "present-continuous",
+      "title": "Thì hiện tại tiếp diễn (Present Continuous)",
+      "level": "A1/A2",
+      "order": 2,
+      "category": "tenses"
+    },
+    "past-simple": {
+      "id": "past-simple",
+      "title": "Thì quá khứ đơn (Past Simple)",
+      "level": "A2",
+      "order": 3,
+      "category": "tenses"
+    },
+    "past-continuous": {
+      "id": "past-continuous",
+      "title": "Thì quá khứ tiếp diễn (Past Continuous)",
+      "level": "A2/B1",
+      "order": 4,
+      "category": "tenses"
+    },
+    "future-simple": {
+      "id": "future-simple",
+      "title": "Thì tương lai đơn (Future Simple - will)",
+      "level": "A2",
+      "order": 5,
+      "category": "tenses"
+    },
+    "present-perfect": {
+      "id": "present-perfect",
+      "title": "Thì hiện tại hoàn thành (Present Perfect)",
+      "level": "B1",
+      "order": 7,
+      "category": "tenses"
+    },
+    "prepositions": {
+      "id": "prepositions",
+      "title": "Giới từ (Prepositions)",
+      "level": "A2",
+      "order": 9,
+      "category": "word-classes"
+    },
+    "passive-voice": {
+      "id": "passive-voice",
+      "title": "Câu bị động (Passive Voice)",
+      "level": "B1",
+      "order": 14,
+      "category": "sentence-structure"
+    },
+    "relative-clauses": {
+      "id": "relative-clauses",
+      "title": "Mệnh đề quan hệ (Relative Clauses)",
+      "level": "B1",
+      "order": 15,
+      "category": "sentence-structure"
+    },
+    "reported-speech": {
+      "id": "reported-speech",
+      "title": "Câu tường thuật (Reported Speech)",
+      "level": "B1",
+      "order": 16,
+      "category": "sentence-structure"
+    },
+    "conditional-sentences": {
+      "id": "conditional-sentences",
+      "title": "Câu điều kiện (Conditional Sentences)",
+      "level": "B1/B2",
+      "order": 17,
+      "category": "sentence-structure"
+    },
+    "comparatives-superlatives": {
+      "id": "comparatives-superlatives",
+      "title": "So sánh (Comparatives & Superlatives)",
+      "level": "A2",
+      "order": 13,
+      "category": "sentence-structure"
+    },
+    "articles-countable-uncountable": {
+      "id": "articles-countable-uncountable",
+      "title": "Mạo từ & Danh từ đếm được/không đếm được (Articles & Countable/Uncountable Nouns)",
+      "level": "A2",
+      "order": 10,
+      "category": "word-classes"
+    },
+    "modal-verbs": {
+      "id": "modal-verbs",
+      "title": "Động từ khuyết thiếu (Modal Verbs)",
+      "level": "B1",
+      "order": 11,
+      "category": "word-classes"
+    },
+    "future-going-to": {
+      "id": "future-going-to",
+      "title": "Thì tương lai gần (Future - going to)",
+      "level": "A2",
+      "order": 6,
+      "category": "tenses"
+    },
+    "past-perfect": {
+      "id": "past-perfect",
+      "title": "Thì quá khứ hoàn thành (Past Perfect)",
+      "level": "B1",
+      "order": 8,
+      "category": "tenses"
+    },
+    "gerund-infinitive": {
+      "id": "gerund-infinitive",
+      "title": "Danh động từ & Động từ nguyên mẫu (Gerund vs Infinitive)",
+      "level": "B1",
+      "order": 12,
+      "category": "word-classes"
+    },
+    "present-perfect-continuous": {
+      "id": "present-perfect-continuous",
+      "title": "Thì hiện tại hoàn thành tiếp diễn (Present Perfect Continuous)",
+      "level": "B1/B2",
+      "order": 18,
+      "category": "tenses"
+    },
+    "tag-questions": {
+      "id": "tag-questions",
+      "title": "Câu hỏi đuôi (Tag Questions)",
+      "level": "A2/B1",
+      "order": 19,
+      "category": "sentence-structure"
+    },
+    "adverbial-clauses": {
+      "id": "adverbial-clauses",
+      "title": "Mệnh đề trạng ngữ (Adverbial Clauses: vì/mặc dù/để mà...)",
+      "level": "B1",
+      "order": 20,
+      "category": "sentence-structure"
+    },
+    "subjunctive": {
+      "id": "subjunctive",
+      "title": "Câu giả định (Subjunctive: wish, if only, would rather, it's time...)",
+      "level": "B2",
+      "order": 21,
+      "category": "sentence-structure"
+    },
+    "pronouns-determiners": {
+      "id": "pronouns-determiners",
+      "title": "Đại từ & Từ hạn định (Pronouns & Determiners)",
+      "level": "A2/B1",
+      "order": 22,
+      "category": "word-classes"
+    },
+    "adjective-adverb-order": {
+      "id": "adjective-adverb-order",
+      "title": "Tính từ & Trạng từ — vị trí, thứ tự (Adjective & Adverb Order)",
+      "level": "B1",
+      "order": 23,
+      "category": "word-classes"
+    }
+  }
+};

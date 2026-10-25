@@ -1,0 +1,138 @@
+/**
+ * =================================================================
+ * MODULE: NGHE HIỂU (Listening) + ĐỌC HIỂU (Reading) — 2 kỹ năng chuẩn còn thiếu để đủ bộ 4 kỹ năng
+ * (Nghe/Nói/Đọc/Viết), khác hoàn toàn với Read-aloud/Shadowing (luyện PHÁT ÂM, không phải đọc/nghe
+ * hiểu). Cả 2 dùng chung logic ở đây vì cấu trúc dữ liệu giống hệt nhau (chỉ khác field nội dung:
+ * "passage" vs "transcript") — chỉ khác NGÂN HÀNG ĐỀ nguồn (READING_BANK / LISTENING_BANK, xem
+ * Data_ReadingBank.gs / Data_ListeningBank.gs).
+ *
+ * Trắc nghiệm 4 lựa chọn -> CHẤM NGAY TẠI SERVER, không cần gọi AI (nhanh, miễn phí, không rủi ro
+ * AI chấm sai). Không dùng CacheService lưu trạng thái phiên như Placement Test — vì ngân hàng đề là
+ * DỮ LIỆU TĨNH có sẵn ở server, chỉ cần itemId là tra cứu lại được ngay lúc chấm, không cần nhớ state.
+ *
+ * Sau khi chấm, trả về 1 object "assessment" có "estimated_level" + "errors[]" đúng ĐỊNH DẠNG mà
+ * Router.gs (handleSaveHistoryItem) / Controller_Mastery.gs (updateMasteryAfterAssessment_) /
+ * Controller_Srs.gs (createSrsCardsFromAssessment_) đã hiểu sẵn — nhờ vậy 2 kỹ năng mới này tự động
+ * được cộng vào Mastery, tạo thẻ ôn tập SRS, tính vào streak/heatmap... giống Speaking/Writing hệt,
+ * KHÔNG cần sửa gì thêm ở 3 module đó ngoài nới rộng danh sách skill được theo dõi.
+ * =================================================================
+ */
+
+// Ngưỡng % đúng để coi là "đạt" cấp độ đang luyện (dùng cùng tinh thần thang điểm IELTS/Cambridge:
+// ~75% tương đương band khá trở lên). Đạt -> estimated_level = đúng cấp đang luyện (pass trong cửa sổ
+// trượt Mastery). Không đạt -> estimated_level = tụt xuống 1 cấp (fail).
+const COMPREHENSION_PASS_PERCENT = 75;
+
+function getComprehensionBank_(skill) {
+  return skill === 'listening' ? LISTENING_BANK : READING_BANK; // mặc định 'reading'
+}
+
+function getComprehensionContentField_(skill) {
+  return skill === 'listening' ? 'transcript' : 'passage';
+}
+
+// KHÔNG gửi correctIndex/explanation về Frontend lúc lấy đề — tránh lộ đáp án qua DevTools,
+// giống nguyên tắc questionForClient_() đã áp dụng cho Placement Test (Controller_Mastery.gs).
+function handleGetComprehensionItem(payload) {
+  let skill = payload.skill; // 'reading' | 'listening'
+  let languageCode = resolveLanguageCode_(payload.language);
+  let bank = getComprehensionBank_(skill)[languageCode];
+  if (!bank) throw new Error("Chưa có ngân hàng đề cho kỹ năng này ở ngôn ngữ đã chọn.");
+
+  let level = payload.level; // đã được injectAutoLevel_ gán sẵn ở Router.gs (auto theo Mastery)
+  let items = bank[level] || [];
+  if (!items.length) throw new Error("Ngân hàng đề rỗng ở cấp độ này.");
+
+  let item = items[Math.floor(Math.random() * items.length)];
+  let contentField = getComprehensionContentField_(skill);
+
+  return {
+    itemId: item.id,
+    title: item.title,
+    content: item[contentField],
+    level: level,
+    questions: item.questions.map(function (q) {
+      return { question: q.question, choices: q.choices }; // bỏ correctIndex + explanation
+    })
+  };
+}
+
+// Tra cứu lại đúng mục theo id, quét qua TẤT CẢ các mức (không tin payload.level) — vừa đơn giản
+// (không cần CacheService) vừa AN TOÀN: cấp độ dùng để tính pass/fail lấy từ chính vị trí item nằm
+// trong ngân hàng đề (dữ liệu server), không lấy từ giá trị Frontend tự gửi lên (chống trường hợp
+// người dùng sửa tay payload.level trong DevTools để luôn được tính "đạt").
+function findComprehensionItemById_(skill, languageCode, itemId) {
+  let langBank = getComprehensionBank_(skill)[languageCode];
+  if (!langBank) return null;
+  let levels = Object.keys(langBank);
+  for (let i = 0; i < levels.length; i++) {
+    let items = langBank[levels[i]] || [];
+    for (let j = 0; j < items.length; j++) {
+      if (items[j].id === itemId) return { item: items[j], level: levels[i] };
+    }
+  }
+  return null;
+}
+
+function handleSubmitComprehensionAnswers(payload) {
+  let skill = payload.skill;
+  let languageCode = resolveLanguageCode_(payload.language);
+  let itemId = payload.itemId;
+  if (!itemId) throw new Error("Thiếu itemId.");
+
+  let found = findComprehensionItemById_(skill, languageCode, itemId);
+  if (!found) throw new Error("Không tìm thấy đề bài này (có thể ngân hàng đề đã thay đổi).");
+  let item = found.item;
+  let level = found.level; // LẤY TỪ SERVER — xem ghi chú ở findComprehensionItemById_
+  let answers = Array.isArray(payload.answers) ? payload.answers : [];
+
+  let results = [];
+  let errors = []; // đúng định dạng SRS/Controller_Srs.gs cần: {original_phrase, correction, reason}
+  let correctCount = 0;
+
+  item.questions.forEach(function (q, i) {
+    let selectedIndex = typeof answers[i] === 'number' ? answers[i] : -1;
+    let isCorrect = selectedIndex === q.correctIndex;
+    if (isCorrect) correctCount++;
+    else {
+      errors.push({
+        original_phrase: q.question,
+        correction: q.choices[q.correctIndex],
+        reason: q.explanation || ''
+      });
+    }
+    results.push({
+      question: q.question,
+      choices: q.choices,
+      selectedIndex: selectedIndex,
+      correctIndex: q.correctIndex,
+      isCorrect: isCorrect,
+      explanation: q.explanation || ''
+    });
+  });
+
+  let total = item.questions.length;
+  let scorePercent = total ? Math.round((correctCount / total) * 100) : 0;
+
+  // Quy đổi % đúng -> "estimated_level" để TÁI DÙNG NGUYÊN VẸN thuật toán Mastery cửa sổ trượt đã có
+  // cho Speaking/Writing (updateMasteryAfterAssessment_ ở Controller_Mastery.gs), không cần viết lại.
+  let order = getLevelOrder_(languageCode);
+  let levelIndex = order.indexOf(level);
+  let estimatedLevel = level;
+  if (scorePercent < COMPREHENSION_PASS_PERCENT && levelIndex > 0) estimatedLevel = order[levelIndex - 1];
+
+  let contentField = getComprehensionContentField_(skill);
+
+  return {
+    itemId: item.id,
+    itemTitle: item.title,
+    content: item[contentField], // trả lại nội dung gốc để Frontend hiện lại lúc xem kết quả (review)
+    level: level,
+    estimated_level: estimatedLevel,
+    score_percent: scorePercent,
+    correct_count: correctCount,
+    total_questions: total,
+    results: results,
+    errors: errors
+  };
+}

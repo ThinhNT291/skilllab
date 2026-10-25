@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <main className="mx-auto w-full max-w-xl px-4 py-10">
+    <main className="mx-auto w-full max-w-5xl px-4 py-10">
       <h1 className="text-4xl font-extrabold">Training Zone</h1>
       <p className="mt-2 text-muted-foreground">Luyện ngoại ngữ có chấm điểm, nhận xét và theo dõi tiến độ.</p>
       <Link

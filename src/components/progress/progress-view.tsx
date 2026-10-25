@@ -5,9 +5,11 @@ import Link from "next/link"
 import { summarize, type AnswerRow, type ProgressSummary, type TagInfo } from "@/lib/analytics/progress"
 import { countDueCards, getAnswerHistory } from "@/lib/db"
 import { ProgressBar } from "@/components/exercise/progress-bar"
+import { isGrammarTopic, topicHref } from "@/lib/content/links"
 import { PlayerCard } from "@/components/game/player-card"
 import { ActivityPanel } from "./activity-panel"
 import { TrendPanel } from "./trend-panel"
+import { AttemptsPanel } from "./attempts-panel"
 
 type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; summary: ProgressSummary; rows: AnswerRow[] }
 
@@ -61,6 +63,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
       <PlayerCard />
       <ActivityPanel />
       <TrendPanel rows={state.rows} />
+      <AttemptsPanel />
       <section className="grid grid-cols-3 gap-3 text-center" aria-label="Tổng quan">
         <Stat value={String(s.total)} label="câu đã làm" />
         <Stat value={`${accuracy}%`} label="trả lời đúng" />
@@ -88,11 +91,11 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
                   {w.topicTitle} · sai {w.wrong}/{w.attempts} lần
                 </p>
                 <div className="mt-3 flex flex-wrap gap-2">
-                  <Link href={w.topicId.startsWith("vocab-") ? `/tu-vung/${w.topicId.slice(6)}` : `/hoc/${w.topicId}#${w.tag}`} className="rounded-full border-2 border-border px-3 py-1.5 text-sm hover:border-primary">
+                  <Link href={isGrammarTopic(w.topicId) ? `/hoc/${w.topicId}#${w.tag}` : topicHref(w.topicId)} className="rounded-full border-2 border-border px-3 py-1.5 text-sm hover:border-primary">
                     Xem lại lý thuyết
                   </Link>
                   <Link
-                    href={w.topicId.startsWith("vocab-") ? `/tu-vung/${w.topicId.slice(6)}` : `/hoc/${w.topicId}/luyen-tap?tag=${encodeURIComponent(w.tag)}`}
+                    href={isGrammarTopic(w.topicId) ? `/hoc/${w.topicId}/luyen-tap?tag=${encodeURIComponent(w.tag)}` : topicHref(w.topicId)}
                     className="rounded-full border-b-4 border-primary-deep bg-primary px-3 py-1.5 text-sm font-extrabold text-primary-foreground"
                   >
                     Luyện lại mục này
@@ -108,10 +111,10 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
         <h2 id="topics-heading" className="mb-2 text-xl font-extrabold">
           Theo chuyên đề
         </h2>
-        <ul className="space-y-3">
+        <ul className="grid gap-3 md:grid-cols-2">
           {s.byTopic.map((t) => (
             <li key={t.topicId}>
-              <Link href={t.topicId.startsWith("vocab-") ? `/tu-vung/${t.topicId.slice(6)}` : `/hoc/${t.topicId}`} className="block rounded-game border-2 border-border bg-card p-4 hover:border-primary">
+              <Link href={topicHref(t.topicId)} className="block rounded-game border-2 border-border bg-card p-4 hover:border-primary">
                 <div className="flex items-baseline justify-between gap-3">
                   <span className="font-extrabold">{t.topicTitle}</span>
                   <span className="shrink-0 text-sm text-muted-foreground">
