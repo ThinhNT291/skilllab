@@ -1242,20 +1242,20 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "A: Is it OK if I don't wear a helmet when I ride my bike in the park? B: No way! The law says you ______ ride without one, and you could get a fine.",
+    "prompt": "A: Why can't you come to the movie tonight? B: Sorry, the client moved the deadline up, so I ______ finish these slides by tomorrow. My boss just emailed me the new schedule.",
     "choices": [
-      "don't have to",
+      "must",
+      "have to",
       "mustn't",
-      "couldn't",
-      "might not"
+      "don't have to"
     ],
     "correctIndex": 1,
-    "explanation": "Điều bị cấm theo luật dùng 'mustn't'; 'don't have to' chỉ là không cần.",
+    "explanation": "Nghĩa vụ đến từ yếu tố bên ngoài (sếp, hạn chót của khách hàng) nên dùng 'have to'; 'must' hợp hơn khi nghĩa vụ do chính người nói tự đặt ra.",
     "choiceExplanations": [
-      "Sai — 'don't have to' nghĩa là không cần đội mũ, đúng với câu hỏi của A nhưng trái với câu trả lời 'No way'.",
-      "Đúng — luật cấm đi xe không đội mũ, nên dùng 'mustn't'; 'can't' cũng chấp nhận được nhưng không có trong lựa chọn.",
-      "Sai — 'couldn't' là quá khứ, câu nói về luật hiện hành.",
-      "Sai — 'might not' nghĩa là có thể không, quá yếu so với quy định và tiền phạt."
+      "Sai — 'must' thiên về nghĩa vụ chủ quan, do người nói tự cảm thấy; ở đây hạn chót và lịch mới do người khác đặt ra. Trong văn nói vẫn có người dùng 'must', nhưng 'have to' hợp ngữ cảnh hơn.",
+      "Đúng — nghĩa vụ đến từ bên ngoài (khách hàng và sếp), đúng với cách dùng 'have to'.",
+      "Sai — 'mustn't' nghĩa là bị cấm; người nói không bị cấm làm slide mà là bị buộc phải làm.",
+      "Sai — 'don't have to' nghĩa là không cần thiết, trái với lý do không đi xem phim vì phải làm việc."
     ],
     "bac": 3
   },
@@ -1298,20 +1298,20 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Mia has just finished a long hike, and she's still laughing and joking. She ______ be very tired — she looks full of energy.",
+    "prompt": "Ken has never studied Spanish and doesn't know a single word of it, so the man translating this Spanish speech ______ be Ken, even though he looks just like him.",
     "choices": [
       "can't",
       "mustn't",
-      "doesn't have to",
-      "shouldn't"
+      "might not",
+      "doesn't have to"
     ],
     "correctIndex": 0,
-    "explanation": "Suy đoán phủ định chắc chắn dùng 'can't', không dùng 'mustn't'.",
+    "explanation": "Bằng chứng rất mạnh cho kết luận phủ định nên dùng 'can't'; 'might not' quá yếu, 'mustn't' là cấm.",
     "choiceExplanations": [
-      "Đúng — dựa trên bằng chứng (cười đùa, nhiều năng lượng), chắc chắn cô ấy không mệt: 'can't be'.",
+      "Đúng — 'never ... a single word' là bằng chứng mạnh, nên suy đoán chắc chắn là không phải: 'can't be'.",
       "Sai — 'mustn't' nghĩa là bị cấm, không dùng để suy đoán phủ định.",
-      "Sai — 'doesn't have to' nghĩa là không cần, không phải suy đoán.",
-      "Sai — 'shouldn't' là lời khuyên không nên, không phù hợp với suy đoán."
+      "Sai — 'might not' chỉ là có thể không phải, quá yếu so với bằng chứng 'chưa từng học' và 'không biết một từ'.",
+      "Sai — 'doesn't have to' nghĩa là không cần, không phải suy đoán; câu cũng không nói về nghĩa vụ."
     ],
     "bac": 3
   },
@@ -1354,20 +1354,20 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The door is locked and every light is off, but I'm not sure whether they've gone out or are just sleeping. They ______ be home, but I really can't tell.",
+    "prompt": "A: Where's Priya? B: I haven't seen her since lunch, and her laptop is still open on her desk. She ______ be in a meeting, but she could just as easily be getting coffee.",
     "choices": [
       "must",
       "can't",
-      "have to",
+      "has to",
       "might"
     ],
     "correctIndex": 3,
-    "explanation": "'Might' diễn tả khả năng không chắc chắn, hợp với 'I'm not sure' và 'I can't tell'.",
+    "explanation": "Bằng chứng yếu, có nhiều khả năng ngang nhau nên dùng modal chỉ khả năng không chắc chắn như 'might'.",
     "choiceExplanations": [
-      "Sai — 'must' nghĩa là gần như chắc chắn, trái với 'not sure'.",
-      "Sai — 'can't' nghĩa là chắc chắn không ở nhà, trái với 'I can't tell'.",
-      "Sai — 'have to be' nghĩa là buộc phải là như vậy, quá chắc chắn.",
-      "Đúng — 'might' hợp với việc người nói không biết chắc; 'may' hoặc 'could' cũng dùng được."
+      "Sai — 'must' nghĩa là gần như chắc chắn; laptop mở chỉ cho biết cô ấy ở gần, không cho biết cô ấy đang ở đâu.",
+      "Sai — 'can't' nghĩa là chắc chắn không phải họp, nhưng không có bằng chứng nào loại trừ cuộc họp.",
+      "Sai — 'has to be' cũng chỉ sự chắc chắn cao, trái với 'could just as easily be getting coffee'.",
+      "Đúng — 'might' hợp với khả năng không chắc chắn; 'may' cũng dùng được nhưng không có trong lựa chọn."
     ],
     "bac": 3
   },
@@ -1382,20 +1382,20 @@
     ],
     "difficulty": 3,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Luckily, we ______ wait long at the clinic yesterday; the doctor called our names after five minutes.",
+    "prompt": "A: May I leave my backpack on this chair while I order? B: Sure, you ______ keep it with you, but please don't put it on the floor in the aisle.",
     "choices": [
+      "may not",
       "mustn't",
-      "hadn't to",
-      "didn't have to",
-      "don't have to"
+      "don't have to",
+      "can't"
     ],
     "correctIndex": 2,
-    "explanation": "'Have to' ở quá khứ phủ định dùng 'didn't have to'; 'mustn't' không có dạng quá khứ.",
+    "explanation": "Người nói cho phép và nói việc mang theo là không cần thiết: 'don't have to'; 'may not', 'mustn't', 'can't' đều mang nghĩa cấm.",
     "choiceExplanations": [
-      "Sai — 'mustn't' là hiện tại và nghĩa là cấm, không hợp nghĩa và thì.",
-      "Sai — 'hadn't to' sai cấu trúc; 'have to' dùng trợ động từ 'did' khi phủ định.",
-      "Đúng — 'didn't have to wait long' nghĩa là không phải chờ lâu hôm qua.",
-      "Sai — 'don't have to' là hiện tại, nhưng 'yesterday' chỉ quá khứ."
+      "Sai — 'may not' nghĩa là không được phép, trái với lời đồng ý 'Sure'.",
+      "Sai — 'mustn't' nghĩa là bị cấm giữ ba lô bên mình, mâu thuẫn với 'Sure' và với 'but please...'.",
+      "Đúng — 'you don't have to keep it with you' nghĩa là không bắt buộc phải mang theo, để lại ghế cũng được.",
+      "Sai — 'can't' nghĩa là không được phép, trái với lời đồng ý."
     ],
     "bac": 3
   }

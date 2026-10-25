@@ -839,5 +839,567 @@
       "Sai. \"An\" không phù hợp vì tuy \"ending\" bắt đầu bằng âm nguyên âm, kết thúc này đã được xác định rõ nên phải dùng \"the\" chứ không phải \"an\"."
     ],
     "bac": 1
+  },
+  {
+    "id": "en-articles-countable-uncountable-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u1-indefinite-article",
+    "tags": [
+      "art-u1-indefinite-article"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please bring me ______ orange from the kitchen. I'm hungry.",
+    "choices": [
+      "a",
+      "the",
+      "an",
+      "(no article)"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"Orange\" mở đầu bằng âm nguyên âm, và đây là lần đầu nhắc tới một quả cam bất kỳ, nên dùng \"an\".",
+    "choiceExplanations": [
+      "Sai — \"a\": \"orange\" đọc bắt đầu bằng âm nguyên âm (/ɔː/ hoặc /ɑː/) nên không đi với \"a\".",
+      "Sai — \"the\": chỉ dùng khi hai người đã biết rõ quả cam nào, ví dụ trong bếp chỉ có một quả cam đã biết; ở đây quả nào cũng được, chưa xác định.",
+      "Đúng — \"an\": \"orange\" bắt đầu bằng âm nguyên âm và đây là lần đầu nhắc tới một quả cam bất kỳ.",
+      "Sai — \"(no article)\": \"orange\" ở đây là danh từ đếm được số ít (một quả) nên không thể bỏ mạo từ."
+    ],
+    "bac": 1
+  },
+  {
+    "id": "en-articles-countable-uncountable-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u2-definite-article",
+    "tags": [
+      "art-u2-definite-article"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tonight ______ moon is very bright, so we can walk home without a flashlight.",
+    "choices": [
+      "the",
+      "a",
+      "an",
+      "(no article)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chỉ có một mặt trăng của Trái Đất, ai nghe cũng biết là nói tới nó, nên dùng \"the\".",
+    "choiceExplanations": [
+      "Đúng — \"the\": mặt trăng của Trái Đất là vật duy nhất, người nghe hiểu ngay là cái nào.",
+      "Sai — \"a\": \"a moon\" chỉ một mặt trăng bất kỳ trong nhiều mặt trăng, trong khi ở đây chỉ có một mặt trăng của Trái Đất.",
+      "Sai — \"an\": \"moon\" bắt đầu bằng âm phụ âm /m/, và vật này cũng là duy nhất.",
+      "Sai — \"(no article)\": \"moon\" là danh từ đếm được số ít, ở đây đã xác định nên cần \"the\"."
+    ],
+    "bac": 1
+  },
+  {
+    "id": "en-articles-countable-uncountable-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u3-zero-article",
+    "tags": [
+      "art-u3-zero-article"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My cousin speaks ______ English and French very well.",
+    "choices": [
+      "the",
+      "a",
+      "an",
+      "(no article)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tên ngôn ngữ như \"English\" và \"French\" không dùng mạo từ.",
+    "choiceExplanations": [
+      "Sai — \"the\": tên ngôn ngữ đứng một mình không đi với \"the\".",
+      "Sai — \"a\": \"English\" là tên ngôn ngữ, không phải danh từ đếm được số ít cần \"a\".",
+      "Sai — \"an\": \"English\" bắt đầu bằng âm nguyên âm, nhưng tên ngôn ngữ vẫn không dùng mạo từ.",
+      "Đúng — \"(no article)\": tên các ngôn ngữ (English, French, Vietnamese...) không dùng mạo từ."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-articles-countable-uncountable-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u3-zero-article",
+    "tags": [
+      "art-u3-zero-article"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Lan visited ______ Paris with her parents last summer.",
+    "choices": [
+      "the",
+      "(no article)",
+      "a",
+      "an"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Paris\" là tên thành phố, một tên riêng địa danh nên không dùng mạo từ.",
+    "choiceExplanations": [
+      "Sai — \"the\": tên thành phố như Paris không đi với \"the\".",
+      "Đúng — \"(no article)\": tên thành phố là tên riêng địa danh nên không dùng mạo từ.",
+      "Sai — \"a\": \"a\" không đứng trước tên riêng của một thành phố.",
+      "Sai — \"an\": \"an\" không đứng trước tên riêng địa danh, và \"Paris\" bắt đầu bằng âm phụ âm /p/."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-articles-countable-uncountable-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u4-countable-uncountable",
+    "tags": [
+      "art-u4-countable-uncountable"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "How ______ milk is there in the fridge? We need it for breakfast.",
+    "choices": [
+      "many",
+      "few",
+      "much",
+      "a few"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"Milk\" là danh từ không đếm được, nên hỏi số lượng bằng \"how much\".",
+    "choiceExplanations": [
+      "Sai — \"many\": chỉ dùng với danh từ đếm được số nhiều, còn \"milk\" không đếm được.",
+      "Sai — \"few\": chỉ dùng với danh từ đếm được số nhiều, còn \"milk\" không đếm được.",
+      "Đúng — \"much\": \"milk\" là danh từ không đếm được nên hỏi lượng bằng \"how much\".",
+      "Sai — \"a few\": chỉ dùng với danh từ đếm được số nhiều, còn \"milk\" không đếm được."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-articles-countable-uncountable-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u4-countable-uncountable",
+    "tags": [
+      "art-u4-countable-uncountable"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I can't find ______ pencils in my bag. Can I borrow yours?",
+    "choices": [
+      "any",
+      "some",
+      "a",
+      "much"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu phủ định (\"can't find\") với danh từ đếm được số nhiều dùng \"any\".",
+    "choiceExplanations": [
+      "Đúng — \"any\": câu phủ định với danh từ số nhiều \"pencils\" dùng \"any\".",
+      "Sai — \"some\": \"some\" thường dùng trong câu khẳng định; ở câu phủ định này ta dùng \"any\".",
+      "Sai — \"a\": \"a\" chỉ đứng trước danh từ đếm được số ít, còn \"pencils\" là số nhiều.",
+      "Sai — \"much\": chỉ dùng với danh từ không đếm được, còn \"pencils\" là số nhiều đếm được."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-articles-countable-uncountable-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u5-special-cases",
+    "tags": [
+      "art-u5-special-cases"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My little brother uses ______ internet to watch cartoons after school.",
+    "choices": [
+      "an",
+      "the",
+      "a",
+      "(no article)"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"The internet\" là cụm cố định luôn dùng \"the\", cần nhớ như từ vựng.",
+    "choiceExplanations": [
+      "Sai — \"an\": dù \"internet\" bắt đầu bằng âm nguyên âm, cụm này cố định với \"the\" chứ không dùng \"an\".",
+      "Đúng — \"the\": \"the internet\" là cụm cố định luôn đi với \"the\".",
+      "Sai — \"a\": \"internet\" bắt đầu bằng âm nguyên âm, và cụm này vốn cố định với \"the\".",
+      "Sai — \"(no article)\": tiếng Anh chuẩn nói \"the internet\"; bỏ mạo từ là cách nói không chuẩn."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-articles-countable-uncountable-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u1-indefinite-article",
+    "tags": [
+      "art-u1-indefinite-article"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We saw ______ European tourist taking photos near the old bridge.",
+    "choices": [
+      "an",
+      "the",
+      "(no article)",
+      "a"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"European\" đọc bắt đầu bằng âm phụ âm /j/ nên dùng \"a\", dù chữ viết bắt đầu bằng \"E\".",
+    "choiceExplanations": [
+      "Sai — \"an\": chữ \"E\" là nguyên âm nhưng \"European\" đọc /jʊ-/, bắt đầu bằng âm phụ âm /j/.",
+      "Sai — \"the\": đây là lần đầu nhắc tới người du khách này, chưa xác định cụ thể là ai.",
+      "Sai — \"(no article)\": \"tourist\" là danh từ đếm được số ít nên bắt buộc phải có mạo từ.",
+      "Đúng — \"a\": \"European\" đọc bắt đầu bằng âm phụ âm /j/ nên dùng \"a\"."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-articles-countable-uncountable-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u2-definite-article",
+    "tags": [
+      "art-u2-definite-article"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mom is in ______ kitchen at the back of our house, cooking dinner for the family.",
+    "choices": [
+      "the",
+      "a",
+      "an",
+      "(no article)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cụm \"at the back of our house\" xác định rõ đây là gian bếp nào, nên dùng \"the\".",
+    "choiceExplanations": [
+      "Đúng — \"the\": một ngôi nhà thường chỉ có một gian bếp, và cụm \"at the back of our house\" càng xác định rõ gian bếp nào, nên dùng \"the\".",
+      "Sai — \"a\": \"a kitchen\" gợi ý một gian bếp chưa xác định, trong khi cụm sau đã chỉ rõ bếp nhà mình.",
+      "Sai — \"an\": \"kitchen\" bắt đầu bằng âm phụ âm /k/, và gian bếp này cũng đã được xác định.",
+      "Sai — \"(no article)\": \"kitchen\" là danh từ đếm được số ít nên không thể bỏ mạo từ."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-articles-countable-uncountable-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u3-zero-article",
+    "tags": [
+      "art-u3-zero-article"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Doctors say that ______ vegetables are good for your health.",
+    "choices": [
+      "a",
+      "one",
+      "(no article)",
+      "the"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu nói về rau củ nói chung, không chỉ một số loại cụ thể, nên danh từ số nhiều không dùng mạo từ.",
+    "choiceExplanations": [
+      "Sai — \"a\": \"a\" không đứng trước danh từ số nhiều \"vegetables\".",
+      "Sai — \"one\": \"one\" chỉ đi với danh từ số ít, còn \"vegetables\" là số nhiều.",
+      "Đúng — \"(no article)\": danh từ số nhiều mang nghĩa khái quát (rau củ nói chung) không dùng mạo từ.",
+      "Sai — \"the\": \"the vegetables\" chỉ những loại rau cụ thể đã biết, trong khi bác sĩ đang nói chung."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-articles-countable-uncountable-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u4-countable-uncountable",
+    "tags": [
+      "art-u4-countable-uncountable"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There is ______ water left in the bottle, so you can still have some sips.",
+    "choices": [
+      "a few",
+      "a little",
+      "many",
+      "few"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Water\" không đếm được; ý tích cực (vẫn còn để uống) nên dùng \"a little\".",
+    "choiceExplanations": [
+      "Sai — \"a few\": chỉ dùng với danh từ đếm được số nhiều, còn \"water\" không đếm được.",
+      "Đúng — \"a little\": dùng với danh từ không đếm được, mang nghĩa tích cực (còn một ít, đủ để uống).",
+      "Sai — \"many\": chỉ dùng với danh từ đếm được số nhiều, còn \"water\" không đếm được.",
+      "Sai — \"few\": chỉ dùng với danh từ đếm được số nhiều và mang nghĩa tiêu cực."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-articles-countable-uncountable-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u4-countable-uncountable",
+    "tags": [
+      "art-u4-countable-uncountable"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There is ______ juice in the fridge, so we can have a drink with our sandwiches.",
+    "choices": [
+      "a",
+      "many",
+      "any",
+      "some"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu khẳng định với danh từ không đếm được \"juice\" dùng \"some\"; \"any\" dành cho câu phủ định và câu hỏi.",
+    "choiceExplanations": [
+      "Sai — \"a\": \"juice\" là danh từ không đếm được nên không đi với \"a\" (muốn đếm phải thêm đơn vị, ví dụ \"a glass of juice\").",
+      "Sai — \"many\": chỉ dùng với danh từ đếm được số nhiều, còn \"juice\" không đếm được.",
+      "Sai — \"any\": thường dùng trong câu phủ định và câu hỏi (There isn't any juice. / Is there any juice?); câu khẳng định thông thường dùng \"some\".",
+      "Đúng — \"some\": dùng được với danh từ không đếm được và là từ thường dùng trong câu khẳng định."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-articles-countable-uncountable-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u5-special-cases",
+    "tags": [
+      "art-u5-special-cases"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My uncle is a scientist, and he has published three ______ about ocean pollution this year.",
+    "choices": [
+      "papers",
+      "paper",
+      "pieces of paper",
+      "a paper"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ở nghĩa \"bài nghiên cứu\", \"paper\" là danh từ đếm được; có \"three\" nên dùng số nhiều \"papers\".",
+    "choiceExplanations": [
+      "Đúng — \"papers\": nghĩa \"bài nghiên cứu\" là danh từ đếm được, đi sau \"three\" phải ở dạng số nhiều.",
+      "Sai — \"paper\": dạng không đếm được (giấy nói chung), không có \"-s\" nên không đếm được bằng \"three\".",
+      "Sai — \"pieces of paper\": nghĩa là những tờ giấy (vật liệu), còn thứ được \"published\" ở đây là bài nghiên cứu.",
+      "Sai — \"a paper\": \"a\" nghĩa là một, mâu thuẫn với \"three\" đứng trước."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-articles-countable-uncountable-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u5-special-cases",
+    "tags": [
+      "art-u5-special-cases"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Volunteers deliver hot meals to ______ who cannot leave their homes.",
+    "choices": [
+      "elderly",
+      "an elderly",
+      "the elderly",
+      "elderlies"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"The\" + tính từ (\"the elderly\") chỉ chung một nhóm người trong xã hội.",
+    "choiceExplanations": [
+      "Sai — \"elderly\": là tính từ, đứng một mình không làm danh từ chỉ nhóm người được.",
+      "Sai — \"an elderly\": \"elderly\" là tính từ, không thể đi với \"an\" như danh từ đếm được số ít.",
+      "Đúng — \"the elderly\": \"the\" + tính từ dùng để chỉ chung nhóm người cao tuổi.",
+      "Sai — \"elderlies\": tính từ \"elderly\" không có dạng số nhiều như danh từ."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-articles-countable-uncountable-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u1-indefinite-article",
+    "tags": [
+      "art-u1-indefinite-article"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "That was ______ extremely useful lesson for all of us.",
+    "choices": [
+      "a",
+      "the",
+      "(no article)",
+      "an"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chọn \"a/an\" theo âm đầu của từ đứng ngay sau mạo từ: \"extremely\" bắt đầu bằng âm nguyên âm nên dùng \"an\", dù \"useful\" đọc bắt đầu bằng /j/.",
+    "choiceExplanations": [
+      "Sai — \"a\": từ đứng ngay sau mạo từ là \"extremely\", đọc bắt đầu bằng âm nguyên âm /ɪ/ nên không dùng \"a\" (chữ \"useful\" đứng sau đọc /j/ nhưng không phải từ đi liền mạo từ).",
+      "Sai — \"the\": đây là lần đầu nhắc tới bài học này, chưa xác định cụ thể.",
+      "Sai — \"(no article)\": \"lesson\" là danh từ đếm được số ít nên bắt buộc phải có mạo từ.",
+      "Đúng — \"an\": từ đi liền mạo từ là \"extremely\", bắt đầu bằng âm nguyên âm /ɪ/ nên dùng \"an\"."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-articles-countable-uncountable-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u3-zero-article",
+    "tags": [
+      "art-u3-zero-article",
+      "art-u2-definite-article"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I love ______ music, but I didn't enjoy the music at yesterday's party.",
+    "choices": [
+      "the",
+      "(no article)",
+      "a",
+      "an"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vế đầu nói về âm nhạc nói chung nên không dùng mạo từ; vế sau chỉ chính loại nhạc được phát ở bữa tiệc (\"the music at yesterday's party\") nên dùng \"the\".",
+    "choiceExplanations": [
+      "Sai — \"the\": \"the music\" chỉ một bản nhạc hay loại nhạc cụ thể mà hai bên đã biết; vế đầu lại nói về âm nhạc nói chung.",
+      "Đúng — \"(no article)\": danh từ không đếm được mang nghĩa khái quát (âm nhạc nói chung) không dùng mạo từ.",
+      "Sai — \"a\": \"music\" là danh từ không đếm được nên không đi với \"a\".",
+      "Sai — \"an\": \"an\" không đứng trước danh từ không đếm được, và \"music\" bắt đầu bằng âm phụ âm /m/."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-articles-countable-uncountable-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u4-countable-uncountable",
+    "tags": [
+      "art-u4-countable-uncountable"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "After two hours in line, the kids had ______ patience left, and they were ready to give up and go home.",
+    "choices": [
+      "little",
+      "a little",
+      "few",
+      "a few"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Patience\" không đếm được; kết quả là cả nhóm phàn nàn nên nghĩa tiêu cực (gần như hết kiên nhẫn), dùng \"little\".",
+    "choiceExplanations": [
+      "Đúng — \"little\": dùng với danh từ không đếm được, nghĩa tiêu cực (hầu như không còn kiên nhẫn), khớp với việc phàn nàn.",
+      "Sai — \"a little\": \"a little patience\" đúng ngữ pháp và mang nghĩa còn một ít, đủ dùng; không hợp với việc bọn trẻ đã gần như hết kiên nhẫn và muốn bỏ về.",
+      "Sai — \"few\": chỉ dùng với danh từ đếm được số nhiều, còn \"patience\" không đếm được.",
+      "Sai — \"a few\": chỉ dùng với danh từ đếm được số nhiều, còn \"patience\" không đếm được."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-articles-countable-uncountable-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u4-countable-uncountable",
+    "tags": [
+      "art-u4-countable-uncountable"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our teacher gave us a lot of homework, and I don't know how ______ I can finish tonight.",
+    "choices": [
+      "many",
+      "few",
+      "a little",
+      "much"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"Homework\" là danh từ không đếm được, nên hỏi lượng bằng \"how much\".",
+    "choiceExplanations": [
+      "Sai — \"many\": chỉ dùng với danh từ đếm được số nhiều, còn \"homework\" không đếm được.",
+      "Sai — \"few\": chỉ dùng với danh từ đếm được số nhiều, còn \"homework\" không đếm được.",
+      "Sai — \"a little\": không đứng sau \"how\" để hỏi mức độ.",
+      "Đúng — \"much\": \"homework\" không đếm được, nên hỏi lượng bằng \"how much\"."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-articles-countable-uncountable-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u2-definite-article",
+    "tags": [
+      "art-u2-definite-article"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Ben is ______ only student in our class who has been to Japan, so everyone asks him about it.",
+    "choices": [
+      "a",
+      "an",
+      "the",
+      "(no article)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cụm \"the only + danh từ\" chỉ người hoặc vật duy nhất thỏa điều kiện, nên dùng \"the\".",
+    "choiceExplanations": [
+      "Sai — \"a\": chỉ có duy nhất một bạn từng đi Nhật, nên không dùng \"a\" như chọn một người bất kỳ.",
+      "Sai — \"an\": dù \"only\" bắt đầu bằng âm nguyên âm, bạn Ben là người duy nhất thỏa điều kiện nên cần \"the\", không phải một người bất kỳ.",
+      "Đúng — \"the\": \"the only\" chỉ người duy nhất, và mệnh đề \"who has been to Japan\" càng xác định rõ.",
+      "Sai — \"(no article)\": \"student\" là danh từ đếm được số ít nên bắt buộc phải có mạo từ."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-articles-countable-uncountable-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "articles-countable-uncountable",
+    "usageId": "art-u2-definite-article",
+    "tags": [
+      "art-u2-definite-article",
+      "art-u3-zero-article"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ breakfast that Mom made this morning was so good that I asked for more.",
+    "choices": [
+      "(no article)",
+      "The",
+      "A",
+      "An"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tên bữa ăn thường không có mạo từ, nhưng khi được xác định cụ thể bằng mệnh đề (\"that Mom made this morning\") thì dùng \"the\".",
+    "choiceExplanations": [
+      "Sai — \"(no article)\": tên bữa ăn nói chung không cần mạo từ, nhưng bữa sáng này đã được xác định rõ bằng mệnh đề \"that Mom made this morning\".",
+      "Đúng — \"The\": mệnh đề \"that Mom made this morning\" xác định chính xác bữa sáng nào, nên dùng \"the\".",
+      "Sai — \"A\": \"a breakfast\" dùng khi mô tả một bữa sáng chưa xác định, trong khi ở đây bữa sáng đã được chỉ rõ.",
+      "Sai — \"An\": \"breakfast\" bắt đầu bằng âm phụ âm /b/, và bữa sáng này cũng đã được xác định."
+    ],
+    "bac": 3
   }
 ]

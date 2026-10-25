@@ -13,7 +13,7 @@
       {
         "id": "pronouns-determiners-u1-some-any",
         "label": "Some / Any (và các từ ghép)",
-        "explanationVi": "Quy tắc cơ bản: 'some' dùng trong câu khẳng định, còn 'any' dùng trong câu phủ định và câu nghi vấn. Quy tắc này áp dụng tương tự cho các từ ghép: somebody/someone/something/somewhere đi với 'some', và anybody/anyone/anything/anywhere đi với 'any'. Tuy nhiên có hai ngoại lệ quan trọng hay bị bỏ qua. Thứ nhất, 'some' vẫn xuất hiện trong câu hỏi khi đó là một lời mời, đề nghị, hoặc yêu cầu lịch sự — người hỏi mong đợi câu trả lời 'có', ví dụ 'Would you like some tea?' hay 'Could I have some help?'. Thứ hai, 'any' có thể xuất hiện trong câu khẳng định khi mang nghĩa 'bất kỳ, không quan trọng là cái nào' (no matter which), ví dụ 'Take any book you like' hay 'Come and see me any time'. Phân biệt được hai ngoại lệ này là chìa khóa để dùng đúng some/any trong giao tiếp tự nhiên, không chỉ máy móc theo công thức khẳng định/phủ định.",
+        "explanationVi": "Quy tắc cơ bản: 'some' dùng trong câu khẳng định, còn 'any' dùng trong câu phủ định và câu nghi vấn. Quy tắc này áp dụng tương tự cho các từ ghép: somebody/someone/something/somewhere đi với 'some', và anybody/anyone/anything/anywhere đi với 'any'. Tuy nhiên có hai ngoại lệ quan trọng hay bị bỏ qua. Thứ nhất, 'some' vẫn xuất hiện trong câu hỏi khi đó là một lời mời, đề nghị, hoặc yêu cầu lịch sự — người hỏi mong đợi câu trả lời 'có', ví dụ 'Would you like some tea?' hay 'Could I have some help?'. Thứ hai, 'any' có thể xuất hiện trong câu khẳng định khi mang nghĩa 'bất kỳ, không quan trọng là cái nào' (no matter which), ví dụ 'Take any book you like' hay 'Come and see me any time'. Phân biệt được hai ngoại lệ này là chìa khóa để dùng đúng some/any trong giao tiếp tự nhiên, không chỉ máy móc theo công thức khẳng định/phủ định. Các từ ghép với no- (nobody, no one, nothing, nowhere) tự mang nghĩa phủ định, nên không dùng cùng 'not/n't' trong một mệnh đề: nói 'I didn't tell anyone' hoặc 'I told no one', không nói 'I didn't tell no one'.",
         "examples": [
           {
             "en": "Would you like some cake? I made too much.",
@@ -26,6 +26,10 @@
           {
             "en": "You can call me any time you need help — I don't mind.",
             "vi": "Bạn có thể gọi tôi bất cứ lúc nào bạn cần giúp đỡ — tôi không phiền đâu."
+          },
+          {
+            "en": "I didn't tell anyone, so nobody knows about it.",
+            "vi": "Tôi không kể với ai, nên không ai biết chuyện đó."
           }
         ],
         "bac": 2
@@ -93,7 +97,7 @@
       {
         "id": "pronouns-determiners-u5-possessive",
         "label": "Tính từ sở hữu và Đại từ sở hữu",
-        "explanationVi": "Tính từ sở hữu (my, your, his, her, its, our, their) LUÔN đứng trước một danh từ để bổ nghĩa cho danh từ đó, không bao giờ đứng một mình — ví dụ 'my car', 'their house'. Đại từ sở hữu (mine, yours, his, hers, its, ours, theirs) đứng MỘT MÌNH, thay thế cho toàn bộ cụm 'tính từ sở hữu + danh từ' đã được nhắc đến hoặc ngụ ý trước đó, và KHÔNG bao giờ theo sau bởi danh từ — ví dụ 'This car is mine' (= my car). Lưu ý 'his' và 'its' có hình thức giống nhau ở cả hai vai trò (his book / this book is his), nhưng 'its' với vai trò đại từ sở hữu đứng một mình khá hiếm gặp trong tiếng Anh tự nhiên. Một lỗi rất phổ biến là dùng đại từ sở hữu ngay trước danh từ (ví dụ 'This is mine car' — sai), trong khi đúng ra phải dùng tính từ sở hữu ('This is my car') hoặc để đại từ sở hữu đứng một mình ('This car is mine').",
+        "explanationVi": "Tính từ sở hữu (my, your, his, her, its, our, their) LUÔN đứng trước một danh từ để bổ nghĩa cho danh từ đó, không bao giờ đứng một mình — ví dụ 'my car', 'their house'. Đại từ sở hữu (mine, yours, his, hers, its, ours, theirs) đứng MỘT MÌNH, thay thế cho toàn bộ cụm 'tính từ sở hữu + danh từ' đã được nhắc đến hoặc ngụ ý trước đó, và KHÔNG bao giờ theo sau bởi danh từ — ví dụ 'This car is mine' (= my car). Lưu ý 'his' và 'its' có hình thức giống nhau ở cả hai vai trò (his book / this book is his), nhưng 'its' với vai trò đại từ sở hữu đứng một mình khá hiếm gặp trong tiếng Anh tự nhiên. Một lỗi rất phổ biến là dùng đại từ sở hữu ngay trước danh từ (ví dụ 'This is mine car' — sai), trong khi đúng ra phải dùng tính từ sở hữu ('This is my car') hoặc để đại từ sở hữu đứng một mình ('This car is mine'). Cũng cần phân biệt 'its' (không dấu nháy) là tính từ sở hữu của 'it' với 'it's' là viết tắt của 'it is' hoặc 'it has': 'The museum is proud of its collection' và 'It's a very old museum'.",
         "examples": [
           {
             "en": "Is this your umbrella, or is it mine?",
@@ -106,6 +110,10 @@
           {
             "en": "The dog wagged its tail happily when its owner came home.",
             "vi": "Con chó vẫy đuôi vui vẻ khi chủ nó về nhà."
+          },
+          {
+            "en": "The museum is proud of its collection. It's a very old museum.",
+            "vi": "Bảo tàng tự hào về bộ sưu tập của mình. Đó là một bảo tàng rất lâu đời."
           }
         ],
         "bac": 2
@@ -113,7 +121,7 @@
       {
         "id": "pronouns-determiners-u6-no-none-neither-either",
         "label": "No / None / Neither / Either",
-        "explanationVi": "'No' luôn đứng trực tiếp trước một danh từ để phủ định hoàn toàn, ví dụ 'There is no milk left'. 'None' đứng MỘT MÌNH, thường đi với 'of + danh từ/đại từ' (none of the students, none of them) và dùng cho từ BA đối tượng trở lên, mang nghĩa phủ định hoàn toàn ('không ai/không cái nào cả'). 'Neither' và 'either' chỉ dùng khi nói về đúng HAI đối tượng/lựa chọn: 'neither...nor' mang nghĩa phủ định ('không cái nào trong hai, cả hai đều không'), còn 'either...or' mang nghĩa khẳng định về sự lựa chọn ('một trong hai, cái nào cũng được'). Điểm mấu chốt cần phân biệt: số lượng đối tượng được nói đến (hai hay từ ba trở lên) sẽ quyết định dùng neither/either hay none, còn việc danh từ có xuất hiện trực tiếp sau từ hạn định hay không sẽ quyết định dùng 'no' hay 'none'.",
+        "explanationVi": "'No' luôn đứng trực tiếp trước một danh từ để phủ định hoàn toàn, ví dụ 'There is no milk left'. 'None' đứng MỘT MÌNH, thường đi với 'of + danh từ/đại từ' (none of the students, none of them) và dùng cho từ BA đối tượng trở lên, mang nghĩa phủ định hoàn toàn ('không ai/không cái nào cả'). 'Neither' và 'either' chỉ dùng khi nói về đúng HAI đối tượng/lựa chọn: 'neither...nor' mang nghĩa phủ định ('không cái nào trong hai, cả hai đều không'), còn 'either...or' mang nghĩa khẳng định về sự lựa chọn ('một trong hai, cái nào cũng được'). Điểm mấu chốt cần phân biệt: số lượng đối tượng được nói đến (hai hay từ ba trở lên) sẽ quyết định dùng neither/either hay none, còn việc danh từ có xuất hiện trực tiếp sau từ hạn định hay không sẽ quyết định dùng 'no' hay 'none'. Khi nói về hai vật hoặc hai người, 'either' (cái nào cũng được) và 'neither' (không cái nào) còn đứng trước danh từ SỐ ÍT (either route, neither answer), hoặc đi với 'of' + đại từ/cụm số nhiều (either of them, neither of the two). 'Neither' là lựa chọn chuẩn cho hai đối tượng; 'none of the two' đôi khi vẫn gặp trong văn nói nhưng không nên dùng khi học.",
         "examples": [
           {
             "en": "There is no milk in the fridge; we need to buy some.",
@@ -126,6 +134,10 @@
           {
             "en": "Neither of us wants to go out in this heavy rain.",
             "vi": "Không ai trong hai chúng tôi muốn ra ngoài trong cơn mưa lớn này."
+          },
+          {
+            "en": "Either answer is acceptable; neither answer is wrong.",
+            "vi": "Đáp án nào cũng được chấp nhận; không đáp án nào sai."
           }
         ],
         "bac": 3

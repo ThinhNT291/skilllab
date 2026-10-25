@@ -838,5 +838,565 @@
       "Đúng - 'so many' là cấu trúc ngoại lệ đúng khi đi với danh từ đếm được số nhiều để diễn tả kết quả."
     ],
     "bac": 3
+  },
+  {
+    "id": "en-adverbial-clauses-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u1-reason-clause",
+    "tags": [
+      "adverbial-clauses-u1-reason-clause"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ everyone is already here, we can start the meeting.",
+    "choices": [
+      "Because of",
+      "Since",
+      "Even though",
+      "In order that"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Since' mở đầu một mệnh đề nêu lý do đã rõ (ai cũng thấy mọi người có mặt) và đứng đầu câu.",
+    "choiceExplanations": [
+      "Sai — 'Because of': là giới từ, chỉ đi với danh từ/cụm danh từ, không đi với mệnh đề 'everyone is already here'.",
+      "Đúng — 'since' + mệnh đề (everyone is already here) nêu lý do hiển nhiên, đứng đầu câu.",
+      "Sai — 'Even though': diễn tả tương phản, mà việc mọi người có mặt không đối lập với việc bắt đầu họp.",
+      "Sai — 'In order that': chỉ mục đích và thường kèm modal (can/could...), không nêu lý do."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-adverbial-clauses-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u1-reason-clause",
+    "tags": [
+      "adverbial-clauses-u1-reason-clause"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the newly built bridge between the two islands was closed for repairs, ferries ran every hour.",
+    "choices": [
+      "Although",
+      "Despite",
+      "Because of",
+      "Because"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cụm 'the newly built bridge between the two islands was closed' có động từ chia 'was closed', nên là một mệnh đề: cần liên từ 'because'. Chủ ngữ dài dễ khiến ta nhầm với cụm danh từ.",
+    "choiceExplanations": [
+      "Sai — 'Although': chỉ tương phản; cầu đóng và phà chạy là quan hệ nguyên nhân-kết quả, không đối lập.",
+      "Sai — 'Despite': giới từ chỉ tương phản; ở đây cầu đóng là lý do khiến phà chạy.",
+      "Sai — 'Because of': giới từ, không theo sau bởi mệnh đề có chủ ngữ và động từ chia. Chủ ngữ dài không làm nó thành cụm danh từ.",
+      "Đúng — 'because' là liên từ, đi với mệnh đề đầy đủ 'the ... bridge ... was closed for repairs'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adverbial-clauses-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u2-reason-phrase",
+    "tags": [
+      "adverbial-clauses-u2-reason-phrase"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The team's victory was ______ months of careful planning.",
+    "choices": [
+      "due to",
+      "because",
+      "since",
+      "despite"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau 'was' ta dùng 'due to' + cụm danh từ ('months of careful planning') để nêu nguyên nhân.",
+    "choiceExplanations": [
+      "Đúng — 'due to' là giới từ, đứng sau động từ 'be' và đi với cụm danh từ 'months of careful planning'.",
+      "Sai — 'because': liên từ, cần mệnh đề đầy đủ (S + V) chứ không phải cụm danh từ.",
+      "Sai — 'since': liên từ, cũng cần mệnh đề đầy đủ phía sau.",
+      "Sai — 'despite': là giới từ nhưng chỉ tương phản; kế hoạch kỹ không đối lập với chiến thắng."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adverbial-clauses-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u2-reason-phrase",
+    "tags": [
+      "adverbial-clauses-u2-reason-phrase"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ his being late again, the manager gave Tuan a final warning.",
+    "choices": [
+      "Because",
+      "Although",
+      "Owing to",
+      "So that"
+    ],
+    "correctIndex": 2,
+    "explanation": "'His being late again' là cụm danh động từ (sở hữu + V-ing), không có động từ chia, nên cần giới từ 'owing to' (trang trọng, gần nghĩa 'because of').",
+    "choiceExplanations": [
+      "Sai — 'Because': liên từ, phải đi với mệnh đề có động từ chia; 'his being late again' không phải mệnh đề.",
+      "Sai — 'Although': chỉ tương phản và cũng cần mệnh đề; ở đây đi trễ là lý do bị cảnh cáo.",
+      "Đúng — 'owing to' là giới từ, theo sau bởi cụm danh động từ 'his being late again'.",
+      "Sai — 'So that': chỉ mục đích, không nêu nguyên nhân và cần mệnh đề kèm modal."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-adverbial-clauses-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u3-concession-clause",
+    "tags": [
+      "adverbial-clauses-u3-concession-clause"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We lost the game. We played well, ______.",
+    "choices": [
+      "although",
+      "despite",
+      "though",
+      "even though"
+    ],
+    "correctIndex": 2,
+    "explanation": "Chỉ 'though' đứng được ở cuối câu như một trạng từ, mang nghĩa 'tuy nhiên/dù vậy'.",
+    "choiceExplanations": [
+      "Sai — 'although': là liên từ, phải đứng trước một mệnh đề, không đứng một mình ở cuối câu.",
+      "Sai — 'despite': giới từ, cần danh từ/V-ing theo sau, không đứng cuối câu.",
+      "Đúng — 'though' là từ duy nhất trong nhóm có thể đứng cuối câu: 'We played well, though.'",
+      "Sai — 'even though': luôn mở đầu một mệnh đề, không thể đứng cuối câu như 'though'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adverbial-clauses-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u3-concession-clause",
+    "tags": [
+      "adverbial-clauses-u3-concession-clause"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Although the path was steep and slippery, ______ kept climbing until we reached the top.",
+    "choices": [
+      "we",
+      "but we",
+      "so we",
+      "however we"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu đã có 'although' ở vế đầu thì vế sau không thêm 'but/so/however': hai từ nối cùng lúc là thừa. Chỉ cần 'we kept climbing'.",
+    "choiceExplanations": [
+      "Đúng — 'although' đã nối hai vế, nên vế sau chỉ cần mệnh đề 'we kept climbing'.",
+      "Sai — 'but we': thừa từ nối, vì 'although' đã diễn tả tương phản (trong tiếng Việt 'tuy... nhưng' nói được, tiếng Anh thì không).",
+      "Sai — 'so we': 'so' chỉ kết quả, sai nghĩa và cũng thừa từ nối.",
+      "Sai — 'however we': 'however' là trạng từ nối câu, đi sau dấu chấm hoặc dấu chấm phẩy, không nối vế sau 'although'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adverbial-clauses-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u4-concession-phrase",
+    "tags": [
+      "adverbial-clauses-u4-concession-phrase"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ his serious knee injury, the runner finished the race.",
+    "choices": [
+      "Despite of",
+      "In spite",
+      "Although",
+      "Despite"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Despite' đi thẳng với cụm danh từ, KHÔNG có 'of'. 'In spite' thì phải đủ 'in spite of'.",
+    "choiceExplanations": [
+      "Sai — 'Despite of': 'despite' không đi với 'of'; chỉ 'in spite of' mới có 'of'.",
+      "Sai — 'In spite': thiếu 'of'; dạng đúng là 'in spite of'.",
+      "Sai — 'Although': liên từ, cần một mệnh đề (S + V); 'his serious knee injury' chỉ là cụm danh từ.",
+      "Đúng — 'despite' + cụm danh từ 'his serious knee injury', không thêm 'of'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adverbial-clauses-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u4-concession-phrase",
+    "tags": [
+      "adverbial-clauses-u4-concession-phrase"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Despite ______ for the position, Nam was offered the job on the spot.",
+    "choices": [
+      "he was not qualified",
+      "not being qualified",
+      "not be qualified",
+      "not to be qualified"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sau 'despite' ta dùng danh động từ; phủ định đặt 'not' TRƯỚC V-ing: 'not being qualified'.",
+    "choiceExplanations": [
+      "Sai — 'he was not qualified': là cả mệnh đề, 'despite' không đi với mệnh đề (trừ khi thêm 'the fact that').",
+      "Đúng — 'not being qualified' là danh động từ phủ định, đúng sau giới từ 'despite'.",
+      "Sai — 'not be qualified': 'be' là động từ nguyên mẫu, không đứng sau giới từ 'despite'; cần danh động từ 'not being qualified'.",
+      "Sai — 'not to be qualified': là động từ nguyên mẫu, không đứng sau giới từ."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adverbial-clauses-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u5-purpose",
+    "tags": [
+      "adverbial-clauses-u5-purpose"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He turned off his phone ______ disturb anyone during the movie.",
+    "choices": [
+      "in order not to",
+      "so not to",
+      "so as not",
+      "so that not to"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mục đích phủ định cùng chủ ngữ: 'in order not to' + V (hoặc 'so as not to' + V). 'Not' đứng trước 'to'.",
+    "choiceExplanations": [
+      "Đúng — 'in order not to' + V diễn tả mục đích phủ định, cùng chủ ngữ 'he'.",
+      "Sai — 'so not to': thiếu 'as'; dạng đúng là 'so as not to'.",
+      "Sai — 'so as not': thiếu 'to'; dạng đúng là 'so as not to'.",
+      "Sai — 'so that not to': 'so that' đi với mệnh đề (S + modal + V), không đi với 'not to'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adverbial-clauses-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u5-purpose",
+    "tags": [
+      "adverbial-clauses-u5-purpose"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My dad left the porch light on so that I ______ see the steps when I came home.",
+    "choices": [
+      "can",
+      "could",
+      "will",
+      "am able to"
+    ],
+    "correctIndex": 1,
+    "explanation": "Động từ chính ở quá khứ ('left'), nên modal trong mệnh đề mục đích cũng lùi về quá khứ: 'could'.",
+    "choiceExplanations": [
+      "Sai — 'can': là hiện tại, lệch thì so với 'left' và 'came'.",
+      "Đúng — 'could' là dạng quá khứ của 'can', phù hợp với 'left' và 'came'.",
+      "Sai — 'will': hiện tại/tương lai, không hợp với câu kể về chuyện đã xảy ra.",
+      "Sai — 'am able to': ở hiện tại, lệch thì so với phần còn lại của câu."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adverbial-clauses-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u5-purpose",
+    "tags": [
+      "adverbial-clauses-u5-purpose"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The files were encrypted ______ they could not be read by unauthorized users.",
+    "choices": [
+      "to",
+      "because",
+      "although",
+      "so that"
+    ],
+    "correctIndex": 3,
+    "explanation": "Phía sau là một mệnh đề có chủ ngữ 'they' và modal 'could not be read' (có cả phủ định lẫn bị động), nên cần 'so that'. 'To' chỉ đi với động từ nguyên mẫu, không đi trước một mệnh đề.",
+    "choiceExplanations": [
+      "Sai — 'to': đi với động từ nguyên mẫu, không đứng trước mệnh đề 'they could not be read'.",
+      "Sai — 'because': nêu lý do đã xảy ra, còn 'they could not be read' là điều muốn đạt được (mục đích), nên sai nghĩa.",
+      "Sai — 'although': chỉ tương phản; mã hóa tệp và việc không ai đọc được không đối lập nhau.",
+      "Đúng — 'so that' + S + modal + V diễn tả mục đích, đi được với mệnh đề đầy đủ có phủ định và bị động."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adverbial-clauses-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u6-result",
+    "tags": [
+      "adverbial-clauses-u6-result"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They are ______ friendly neighbors that everyone on the street loves them.",
+    "choices": [
+      "so",
+      "such a",
+      "such",
+      "so a"
+    ],
+    "correctIndex": 2,
+    "explanation": "Danh từ số nhiều 'neighbors' (kèm tính từ) dùng 'such' không có mạo từ: 'such friendly neighbors'.",
+    "choiceExplanations": [
+      "Sai — 'so': chỉ đứng trước tính từ/trạng từ đơn thuần, không đứng trước 'friendly neighbors' (có danh từ).",
+      "Sai — 'such a': 'a' chỉ dùng với danh từ đếm được số ít, còn 'neighbors' là số nhiều.",
+      "Đúng — 'such' + tính từ + danh từ số nhiều, không cần mạo từ.",
+      "Sai — 'so a': không có cấu trúc này trước một cụm danh từ số nhiều."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adverbial-clauses-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u6-result",
+    "tags": [
+      "adverbial-clauses-u6-result"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The line at the museum was so long ______ we gave up and went home.",
+    "choices": [
+      "that",
+      "so that",
+      "which",
+      "what"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cấu trúc 'so + adj + that' đã có 'so' trước tính từ, nên chỉ cần 'that' nối kết quả, không thêm 'so' lần nữa.",
+    "choiceExplanations": [
+      "Đúng — 'so long that...' là cấu trúc kết quả 'đến nỗi'.",
+      "Sai — 'so that': 'so' đã dùng trước 'long'; 'so that' chỉ mục đích, không dùng ở đây.",
+      "Sai — 'which': đại từ quan hệ, không nối được kết quả với 'so confusing'.",
+      "Sai — 'what': không dùng để nối mệnh đề kết quả."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adverbial-clauses-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u6-result",
+    "tags": [
+      "adverbial-clauses-u6-result"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It was ______ day that the whole school closed early. (formal style)",
+    "choices": [
+      "such cold a",
+      "so cold a",
+      "a so cold",
+      "so a cold"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dạng trang trọng: so + tính từ + a/an + danh từ: 'so cold a day'. (Dạng quen thuộc 'such a cold day' cũng đúng nhưng không có trong các lựa chọn.)",
+    "choiceExplanations": [
+      "Sai — 'such cold a': với 'such' mạo từ đứng trước tính từ ('such a cold'), không đứng sau.",
+      "Đúng — 'so cold a day that...' là trật tự trang trọng: so + adj + a + N.",
+      "Sai — 'a so cold': mạo từ không đứng trước 'so + tính từ' trong cấu trúc này.",
+      "Sai — 'so a cold': 'so' phải đứng ngay trước tính từ, rồi mới tới mạo từ."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-adverbial-clauses-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u7-time-clause",
+    "tags": [
+      "adverbial-clauses-u7-time-clause"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time Dad gets home, I ______ my homework already.",
+    "choices": [
+      "will finish",
+      "finish",
+      "will have finished",
+      "am finishing"
+    ],
+    "correctIndex": 2,
+    "explanation": "'By the time' + hiện tại đơn cho thấy việc xảy ra TRƯỚC một mốc tương lai, nên mệnh đề chính dùng tương lai hoàn thành: 'will have finished'.",
+    "choiceExplanations": [
+      "Sai — 'will finish': chỉ việc sẽ xong sau này, không hợp với 'already' và nghĩa 'đã xong trước mốc'.",
+      "Sai — 'finish': hiện tại đơn, không diễn tả việc đã hoàn tất trước mốc tương lai.",
+      "Đúng — 'will have finished' là việc đã hoàn tất trước mốc tương lai 'Dad gets home'.",
+      "Sai — 'am finishing': hiện tại tiếp diễn, không hợp với mốc tương lai và 'already'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adverbial-clauses-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u7-time-clause",
+    "tags": [
+      "adverbial-clauses-u7-time-clause"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the cake has cooled down, spread the cream on top.",
+    "choices": [
+      "Unless",
+      "Once",
+      "Whereas",
+      "Although"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Once' + hiện tại hoàn thành nghĩa 'một khi đã xong', chỉ thứ tự thời gian: nguội rồi mới phết kem.",
+    "choiceExplanations": [
+      "Sai — 'Unless': nghĩa 'trừ khi', chỉ điều kiện, không chỉ thứ tự thời gian.",
+      "Đúng — 'once' nối hai việc theo thứ tự: bánh nguội rồi mới phết kem.",
+      "Sai — 'Whereas': nghĩa 'trong khi đó (đối lập)', không chỉ thời gian.",
+      "Sai — 'Although': chỉ tương phản; bánh nguội và phết kem không đối lập."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-adverbial-clauses-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u8-contrast-while-whereas",
+    "tags": [
+      "adverbial-clauses-u8-contrast-while-whereas"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom is quite shy, ______ his twin brother is very outgoing.",
+    "choices": [
+      "so that",
+      "in case",
+      "because of",
+      "whereas"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Whereas' nối hai vế đối lập: Tom nhút nhát, em/anh sinh đôi thì hòa đồng.",
+    "choiceExplanations": [
+      "Sai — 'so that': chỉ mục đích, không đối chiếu hai tính cách.",
+      "Sai — 'in case': nghĩa 'phòng khi', không hợp nghĩa.",
+      "Sai — 'because of': giới từ chỉ nguyên nhân, cần danh từ chứ không phải mệnh đề.",
+      "Đúng — 'whereas' + mệnh đề nêu vế đối lập, nghĩa 'trong khi đó'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adverbial-clauses-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u8-contrast-while-whereas",
+    "tags": [
+      "adverbial-clauses-u8-contrast-while-whereas"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ I agree with most of your plan, I think the schedule is too tight.",
+    "choices": [
+      "During",
+      "Because",
+      "While",
+      "Despite"
+    ],
+    "correctIndex": 2,
+    "explanation": "'While' ở đầu câu còn có nghĩa 'tuy rằng' (như although), đi với mệnh đề: 'While I agree with most of your plan, ...'.",
+    "choiceExplanations": [
+      "Sai — 'During': giới từ chỉ thời gian, đi với danh từ như 'during the meeting'.",
+      "Sai — 'Because': liên từ nêu lý do, nhưng vế sau đối lập với vế trước chứ không phải hệ quả.",
+      "Đúng — 'while' = 'although' khi nhượng bộ, theo sau là mệnh đề 'I agree with most of your plan'.",
+      "Sai — 'Despite': giới từ, không theo sau bởi mệnh đề 'I agree'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adverbial-clauses-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u9-reduced-clause",
+    "tags": [
+      "adverbial-clauses-u9-reduced-clause"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ all the questions, Lan handed in her test.",
+    "choices": [
+      "To have answered",
+      "Having answering",
+      "Answered",
+      "Having answered"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Having + V3' rút gọn mệnh đề, nhấn việc đã xảy ra trước; chủ ngữ ngầm là 'Lan'.",
+    "choiceExplanations": [
+      "Sai — 'To have answered': nguyên mẫu hoàn thành, không dùng để rút gọn mệnh đề kiểu này.",
+      "Sai — 'Having answering': sau 'having' phải là V3 (answered), không phải V-ing.",
+      "Sai — 'Answered' (V3 đơn): mang nghĩa bị động, như 'đã được trả lời'; Lan không bị 'trả lời'.",
+      "Đúng — 'Having answered all the questions' = After she had answered all the questions."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-adverbial-clauses-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "adverbial-clauses",
+    "usageId": "adverbial-clauses-u9-reduced-clause",
+    "tags": [
+      "adverbial-clauses-u9-reduced-clause"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Walking into the kitchen, ______.",
+    "choices": [
+      "I smelled fresh bread",
+      "the smell of fresh bread was wonderful",
+      "the fresh bread was still warm",
+      "a delicious smell came from the oven"
+    ],
+    "correctIndex": 0,
+    "explanation": "Người 'bước vào bếp' phải là chủ ngữ của mệnh đề chính. Chỉ 'I smelled...' hợp lý; các câu khác khiến mùi, bánh mì hay mùi hương tự 'bước vào'.",
+    "choiceExplanations": [
+      "Đúng — chủ ngữ 'I' cũng là người bước vào bếp.",
+      "Sai — chủ ngữ 'the smell' không thể 'bước vào bếp'.",
+      "Sai — chủ ngữ 'the fresh bread' không thể 'bước vào bếp'.",
+      "Sai — chủ ngữ 'a delicious smell' không thể 'bước vào bếp'."
+    ],
+    "bac": 4
   }
 ]

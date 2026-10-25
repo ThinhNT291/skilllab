@@ -12,7 +12,7 @@
       {
         "id": "pastperf-u1-before-past-point",
         "label": "Hoàn tất trước một mốc thời gian cụ thể trong quá khứ (by / by the time)",
-        "explanationVi": "Dùng quá khứ hoàn thành để diễn tả một hành động hoặc sự việc đã HOÀN TẤT trước một mốc thời gian cụ thể đã qua, thường đi cùng \"by + mốc thời gian\" hoặc \"by the time + mệnh đề chia quá khứ đơn\". Mốc thời gian đóng vai trò là điểm mốc trong quá khứ để so sánh, khác với hiện tại hoàn thành vốn lấy hiện tại làm mốc.",
+        "explanationVi": "Dùng quá khứ hoàn thành để diễn tả một hành động hoặc sự việc đã HOÀN TẤT trước một mốc thời gian cụ thể đã qua, thường đi cùng \"by + mốc thời gian\" hoặc \"by the time + mệnh đề chia quá khứ đơn\". Mốc thời gian đóng vai trò là điểm mốc trong quá khứ để so sánh, khác với hiện tại hoàn thành vốn lấy hiện tại làm mốc. Quá khứ hoàn thành cũng dùng với \"for + khoảng thời gian\" để nói một tình trạng đã kéo dài tính đến mốc quá khứ đó. Lưu ý: động từ \"have\" làm động từ chính có dạng \"had had\" (had + V-p2 của have, mà V-p2 của have là had).",
         "examples": [
           {
             "en": "By the time the plane took off, we had already checked in our luggage.",
@@ -21,6 +21,14 @@
           {
             "en": "By 2015, the city had built two new bridges across the river.",
             "vi": "Tính đến năm 2015, thành phố đã xây xong hai cây cầu mới bắc qua sông."
+          },
+          {
+            "en": "When I got home at midnight, the shop had been closed for hours.",
+            "vi": "Khi tôi về đến nhà lúc nửa đêm, cửa hàng đã đóng cửa mấy tiếng rồi."
+          },
+          {
+            "en": "By noon, she had had two cups of coffee.",
+            "vi": "Đến trưa cô ấy đã uống hai tách cà phê."
           }
         ],
         "bac": 4

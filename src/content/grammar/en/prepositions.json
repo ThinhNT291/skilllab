@@ -12,7 +12,7 @@
       {
         "id": "prep-u1-time",
         "label": "Giới từ chỉ THỜI GIAN cơ bản (In / On / At)",
-        "explanationVi": "Trong tiếng Anh, 'in' dùng cho các khoảng thời gian dài và chung chung như tháng, năm, mùa. 'On' dùng cho các ngày cụ thể như thứ trong tuần hoặc ngày tháng năm. 'At' dùng cho các mốc thời gian chính xác như giờ giấc hoặc một số dịp lễ hội.",
+        "explanationVi": "Trong tiếng Anh, 'in' dùng cho các khoảng thời gian dài và chung chung như tháng, năm, mùa, và các buổi (in the morning, in the afternoon, in the evening). 'On' dùng cho các ngày cụ thể như thứ trong tuần hoặc ngày tháng năm; khi buổi gắn với một ngày cụ thể thì cũng dùng 'on' (on Monday morning, on the morning of May 5). 'At' dùng cho các mốc thời gian chính xác như giờ giấc, và một số cụm cố định: at night, at noon, at Christmas (cả dịp lễ). Riêng 'Christmas Day' là một ngày nên dùng 'on Christmas Day'.",
         "examples": [
           {
             "en": "The meeting is at 9:00 AM on Monday.",
@@ -90,6 +90,42 @@
         "bac": 3
       },
       {
+        "id": "prep-u6-between-among",
+        "label": "BETWEEN và AMONG (giữa hai / giữa nhiều)",
+        "explanationVi": "'Between' dùng khi ở giữa hai người hoặc hai vật (between Nam and Lan, between two hills). 'Among' dùng khi ở giữa một nhóm từ ba người/vật trở lên mà không nhắc từng cá nhân (among the students, among the trees). Lưu ý: nếu muốn nhấn mạnh từng cá nhân riêng lẻ trong nhóm, người bản xứ vẫn có thể dùng 'between' (between the three cities), nhưng ở trình độ này hãy nhớ quy tắc hai/nhiều trước.",
+        "examples": [
+          {
+            "en": "The park is between the library and the bank.",
+            "vi": "Công viên nằm giữa thư viện và ngân hàng."
+          },
+          {
+            "en": "The cat was hiding among the boxes in the garage.",
+            "vi": "Con mèo đang trốn giữa đống hộp trong ga-ra."
+          }
+        ],
+        "bac": 3
+      },
+      {
+        "id": "prep-u7-by-until-during",
+        "label": "BY, UNTIL và DURING (hạn chót, kéo dài đến, trong lúc)",
+        "explanationVi": "'By' + mốc thời gian nghĩa là không muộn hơn mốc đó (hạn chót), dùng cho hành động xảy ra một lần: by Friday, by 8 o'clock. 'Until' + mốc thời gian (hoặc một mệnh đề) diễn tả trạng thái hay hành động kéo dài liên tục đến mốc đó thì dừng: until noon. 'During' + sự kiện/giai đoạn có tên nghĩa là trong lúc đó: during the lesson, during the holidays (khác 'for' đi với số đo thời gian như for two hours).",
+        "examples": [
+          {
+            "en": "Please turn in your homework by Monday.",
+            "vi": "Hãy nộp bài tập về nhà không muộn hơn thứ Hai."
+          },
+          {
+            "en": "We played outside until it got dark.",
+            "vi": "Chúng tôi chơi ngoài trời cho đến khi trời tối."
+          },
+          {
+            "en": "Please don't talk during the test.",
+            "vi": "Xin đừng nói chuyện trong lúc làm bài kiểm tra."
+          }
+        ],
+        "bac": 3
+      },
+      {
         "id": "prep-since-for",
         "label": "Since và For (mốc thời gian vs khoảng thời gian)",
         "explanationVi": "Since và for đều dùng để chỉ thời gian, thường đi kèm thì Hiện tại hoàn thành, nhưng khác nhau về ý nghĩa: 'since' + MỘT MỐC THỜI ĐIỂM cụ thể trong quá khứ (since 2020, since Monday, since I was young); 'for' + MỘT KHOẢNG THỜI GIAN kéo dài (for three years, for a long time, for two weeks).",
@@ -101,6 +137,10 @@
           {
             "en": "She has worked here for six months.",
             "vi": "Cô ấy đã làm việc ở đây được sáu tháng."
+          },
+          {
+            "en": "She has lived here since she was five.",
+            "vi": "Cô ấy đã sống ở đây từ khi cô ấy lên năm."
           }
         ],
         "bac": 3

@@ -12,7 +12,7 @@
       {
         "id": "rs-u1-statements-backshift",
         "label": "Câu tường thuật câu kể và quy tắc lùi thì (backshift)",
-        "explanationVi": "Khi tường thuật lại một câu kể (statement) bằng động từ tường thuật ở quá khứ (said, told), động từ trong câu trực tiếp thường phải lùi một thì về quá khứ (backshift), có thể thêm liên từ 'that' (thường được lược bỏ trong văn nói). Quy tắc lùi thì cụ thể: hiện tại đơn -> quá khứ đơn; hiện tại tiếp diễn -> quá khứ tiếp diễn; hiện tại hoàn thành -> quá khứ hoàn thành; quá khứ đơn -> quá khứ hoàn thành; will -> would; can -> could; may -> might; must -> had to. Nếu động từ tường thuật ở thì hiện tại (says), động từ trong câu tường thuật không cần lùi thì.",
+        "explanationVi": "Khi tường thuật lại một câu kể (statement) bằng động từ tường thuật ở quá khứ (said, told), động từ trong câu trực tiếp thường phải lùi một thì về quá khứ (backshift), có thể thêm liên từ 'that' (thường được lược bỏ trong văn nói). Quy tắc lùi thì cụ thể: hiện tại đơn -> quá khứ đơn; hiện tại tiếp diễn -> quá khứ tiếp diễn; hiện tại hoàn thành -> quá khứ hoàn thành; quá khứ đơn -> quá khứ hoàn thành; will -> would; can -> could; may -> might; must -> had to. Nếu động từ tường thuật ở thì hiện tại (says), động từ trong câu tường thuật không cần lùi thì. Lưu ý động từ tường thuật: 'said' không cần tân ngữ (said that...), còn 'told' bắt buộc có tân ngữ chỉ người nghe (told us that...). Nếu sự việc vẫn đúng ở hiện tại hoặc việc tường thuật diễn ra ngay sau đó thì có thể không lùi thì; trong các bài tập, việc tường thuật diễn ra sau đó một thời gian nên luôn lùi thì.",
         "examples": [
           {
             "en": "Direct: \"I am tired,\" she said. -> Reported: She said (that) she was tired.",
@@ -76,7 +76,7 @@
       {
         "id": "rs-u5-time-place-pronoun-changes",
         "label": "Thay đổi trạng từ chỉ thời gian/nơi chốn và đại từ",
-        "explanationVi": "Khi tường thuật, nếu thời điểm hoặc địa điểm nói đã thay đổi so với lúc phát ngôn gốc, các trạng từ chỉ thời gian/nơi chốn và đại từ nhân xưng/sở hữu phải được đổi cho phù hợp với ngữ cảnh của người tường thuật. Một số thay đổi phổ biến: this -> that, these -> those, here -> there, now -> then, today -> that day, tomorrow -> the next day/the following day, yesterday -> the day before/the previous day, next week -> the following week, ago -> before. Đại từ I/you cũng phải đổi thành he/she/they... tùy theo người được tường thuật lại.",
+        "explanationVi": "Khi tường thuật, nếu thời điểm hoặc địa điểm nói đã thay đổi so với lúc phát ngôn gốc, các trạng từ chỉ thời gian/nơi chốn và đại từ nhân xưng/sở hữu phải được đổi cho phù hợp với ngữ cảnh của người tường thuật. Một số thay đổi phổ biến: this -> that, these -> those, here -> there, now -> then, today -> that day, tomorrow -> the next day/the following day, yesterday -> the day before/the previous day, next week -> the following week, ago -> before, last week/month/night -> the week/month/night before, this morning -> that morning, tonight -> that night. Đại từ I/you cũng phải đổi thành he/she/they... tùy theo người được tường thuật lại.",
         "examples": [
           {
             "en": "Direct: \"I will meet you here tomorrow,\" he said. -> Reported: He said (that) he would meet me there the next day.",
@@ -85,6 +85,10 @@
           {
             "en": "Direct: \"I bought this laptop three days ago,\" she said. -> Reported: She said (that) she had bought that laptop three days before.",
             "vi": "'this' đổi thành 'that', 'ago' đổi thành 'before'; động từ 'bought' lùi thành 'had bought' theo quy tắc lùi thì."
+          },
+          {
+            "en": "Direct: \"I saw him last night,\" she said. -> Reported: She said (that) she had seen him the night before.",
+            "vi": "'last night' đổi thành 'the night before'; 'saw' lùi thành 'had seen'."
           }
         ],
         "bac": 3
@@ -116,12 +120,8 @@
         "meaningVi": "tường thuật câu mệnh lệnh, yêu cầu ở thể phủ định"
       },
       {
-        "word": "advised/suggested/wanted",
-        "meaningVi": "các động từ tường thuật khác, thường đi theo cấu trúc tương tự told/asked tùy ngữ cảnh"
-      },
-      {
-        "word": "reminded + O + to V",
-        "meaningVi": "nhắc nhở ai đó làm việc gì, cấu trúc giống 'told + O + to V'"
+        "word": "advised / warned / reminded + O + (not) to V",
+        "meaningVi": "các động từ tường thuật khác cùng khuôn told/asked + O + (not) to V (lưu ý 'suggested' không theo khuôn này)"
       }
     ],
     "commonMistakes": [
@@ -174,7 +174,8 @@
             "wrong": "She told me to not open the window.",
             "correct": "She told me not to open the window."
           }
-        ]
+        ],
+        "note": "Dạng 'to not + V' cũng gặp trong tiếng Anh-Mỹ, nhưng bài này dạy dạng 'not to + V'."
       }
     ]
   }

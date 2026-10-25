@@ -1,0 +1,762 @@
+[
+  {
+    "id": "ls-b2-001",
+    "bac": 2,
+    "title": "Đặt bàn nhà hàng",
+    "transcript": "A: Good evening. Welcome to Star Restaurant. How can I help you?\nB: Hi. I would like a table for two, please.\nA: Do you have a reservation with us?\nB: No, I don't. We just walked in.\nA: That is fine. We have a free table near the window. Please follow me.\nB: Thank you. Can we have the menu, please?\nA: Yes, of course. Here you go. I will be back in five minutes to take your order.",
+    "questions": [
+      {
+        "prompt": "How many people need a table?",
+        "choices": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người khách nói rõ 'I would like a table for two' (một bàn cho hai người).",
+        "choiceExplanations": [
+          "Sai — 'One': Khách nói 'a table for two' (hai người), không phải một.",
+          "Đúng — Người khách nói rõ 'I would like a table for two' (một bàn cho hai người).",
+          "Sai — 'Three': Bài không nói ba người.",
+          "Sai — 'Four': Bài không nói bốn người."
+        ]
+      },
+      {
+        "prompt": "Where is the table located?",
+        "choices": [
+          "Near the door",
+          "Near the kitchen",
+          "Outside",
+          "Near the window"
+        ],
+        "correctIndex": 3,
+        "explanation": "Người phục vụ nói 'We have a free table near the window' (gần cửa sổ).",
+        "choiceExplanations": [
+          "Sai — 'Near the door': Phục vụ chỉ nói bàn trống 'near the window' (gần cửa sổ), không phải gần cửa ra vào.",
+          "Sai — 'Near the kitchen': Phục vụ chỉ nói bàn trống 'near the window', không nhắc bếp.",
+          "Sai — 'Outside': Bài không nhắc ngồi ngoài trời.",
+          "Đúng — Người phục vụ nói 'We have a free table near the window' (gần cửa sổ)."
+        ]
+      },
+      {
+        "prompt": "What will the waiter do in five minutes?",
+        "choices": [
+          "Take the order",
+          "Bring the food",
+          "Clean the table",
+          "Bring the check"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu cuối phục vụ nói 'I will be back in five minutes to take your order' (quay lại nhận gọi món).",
+        "choiceExplanations": [
+          "Đúng — Câu cuối phục vụ nói 'I will be back in five minutes to take your order' (quay lại nhận gọi món).",
+          "Sai — 'Bring the food': Phục vụ chỉ quay lại nhận món; khách chưa gọi nên chưa có đồ ăn.",
+          "Sai — 'Clean the table': Bài không nhắc dọn bàn.",
+          "Sai — 'Bring the check': Thanh toán xảy ra cuối bữa; bài chưa nhắc."
+        ]
+      },
+      {
+        "prompt": "Which sentence is true about the customers?",
+        "choices": [
+          "They called the restaurant before.",
+          "They want to sit outside.",
+          "They did not reserve a table.",
+          "They are leaving soon."
+        ],
+        "correctIndex": 2,
+        "explanation": "Phục vụ hỏi có đặt bàn trước (reservation) không, khách đáp 'No, I don't' và nói 'We just walked in'.",
+        "choiceExplanations": [
+          "Sai — 'They called the restaurant before.': Phục vụ hỏi có đặt bàn không, khách đáp 'No, I don't'.",
+          "Sai — 'They want to sit outside.': Họ nhận bàn gần cửa sổ trong nhà; không ai nhắc ngồi ngoài.",
+          "Đúng — Phục vụ hỏi có đặt bàn trước (reservation) không, khách đáp 'No, I don't' và nói 'We just walked in'.",
+          "Sai — 'They are leaving soon.': Họ vừa vào và xin thực đơn, chưa gọi món."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-002",
+    "bac": 2,
+    "title": "Hỏi đường",
+    "transcript": "A: Excuse me, can you help me? I am looking for the train station.\nB: Sure. It is not far from here. Walk straight ahead for two blocks, then turn left at the traffic lights.\nA: Turn left at the lights? Okay.\nB: Yes. You will see a big supermarket on the corner. The train station is right across the street.\nA: Great, thank you so much for your help!\nB: You are welcome. Have a safe trip.",
+    "questions": [
+      {
+        "prompt": "What place is the person looking for?",
+        "choices": [
+          "A bus stop",
+          "A supermarket",
+          "A hospital",
+          "A train station"
+        ],
+        "correctIndex": 3,
+        "explanation": "Người hỏi nói 'I am looking for the train station' (ga xe lửa).",
+        "choiceExplanations": [
+          "Sai — 'A bus stop': Người hỏi tìm 'the train station' (ga xe lửa), không phải trạm xe buýt.",
+          "Sai — 'A supermarket': Siêu thị chỉ là mốc để nhận ra đường tới ga.",
+          "Sai — 'A hospital': Bệnh viện không được nhắc.",
+          "Đúng — Người hỏi nói 'I am looking for the train station' (ga xe lửa)."
+        ]
+      },
+      {
+        "prompt": "Which way should the person turn at the traffic lights?",
+        "choices": [
+          "Turn left",
+          "Turn right",
+          "Go straight",
+          "Go back"
+        ],
+        "correctIndex": 0,
+        "explanation": "Người chỉ đường nói 'turn left at the traffic lights' (rẽ trái ở đèn giao thông).",
+        "choiceExplanations": [
+          "Đúng — Người chỉ đường nói 'turn left at the traffic lights' (rẽ trái ở đèn giao thông).",
+          "Sai — 'Turn right': Người chỉ đường nói 'turn left' (rẽ trái), không phải rẽ phải.",
+          "Sai — 'Go straight': Đi thẳng là đoạn đầu (hai khối nhà); đến đèn giao thông thì rẽ trái.",
+          "Sai — 'Go back': Không ai bảo quay lại."
+        ]
+      },
+      {
+        "prompt": "What building is near the train station?",
+        "choices": [
+          "A bank",
+          "A school",
+          "A supermarket",
+          "A hotel"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người chỉ đường nói 'You will see a big supermarket... The train station is right across the street'.",
+        "choiceExplanations": [
+          "Sai — 'A bank': Ngân hàng không được nhắc; chỉ có siêu thị ở gần ga.",
+          "Sai — 'A school': Trường học không được nhắc; chỉ có siêu thị ở gần ga.",
+          "Đúng — Người chỉ đường nói 'You will see a big supermarket... The train station is right across the street'.",
+          "Sai — 'A hotel': Khách sạn không được nhắc; chỉ có siêu thị ở gần ga."
+        ]
+      },
+      {
+        "prompt": "How far should the person walk straight?",
+        "choices": [
+          "One block",
+          "Two blocks",
+          "Three blocks",
+          "Five blocks"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người chỉ đường nói 'Walk straight ahead for two blocks' (đi thẳng hai khối nhà).",
+        "choiceExplanations": [
+          "Sai — 'One block': Người chỉ đường nói 'two blocks' (hai khối nhà), không phải một.",
+          "Đúng — Người chỉ đường nói 'Walk straight ahead for two blocks' (đi thẳng hai khối nhà).",
+          "Sai — 'Three blocks': Người chỉ đường nói 'two blocks' (hai khối nhà), không phải ba.",
+          "Sai — 'Five blocks': Người chỉ đường nói 'two blocks' (hai khối nhà), không phải năm."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-003",
+    "bac": 2,
+    "title": "Mua sắm quần áo",
+    "transcript": "A: Hello, are you looking for anything special today?\nB: Yes, I want to buy a blue shirt for a party this weekend.\nA: What size do you wear? Small, medium, or large?\nB: I usually wear a medium.\nA: Here is a very nice blue shirt in medium. It is on sale for twenty dollars. It was thirty dollars last week.\nB: Oh, it looks great. Can I try it on?\nA: Yes, the fitting room is over there.",
+    "questions": [
+      {
+        "prompt": "What does the customer want to buy?",
+        "choices": [
+          "A red dress",
+          "A pair of shoes",
+          "A blue shirt",
+          "A black hat"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người khách nói 'I want to buy a blue shirt' (muốn mua áo sơ mi xanh).",
+        "choiceExplanations": [
+          "Sai — 'A red dress': Khách nói muốn mua áo sơ mi xanh ('a blue shirt'), không phải váy đỏ.",
+          "Sai — 'A pair of shoes': Khách nói muốn mua áo sơ mi xanh, không phải giày.",
+          "Đúng — Người khách nói 'I want to buy a blue shirt' (muốn mua áo sơ mi xanh).",
+          "Sai — 'A black hat': Khách nói muốn mua áo sơ mi xanh, không phải mũ đen."
+        ]
+      },
+      {
+        "prompt": "What size does the customer wear?",
+        "choices": [
+          "Medium",
+          "Small",
+          "Large",
+          "Extra Large"
+        ],
+        "correctIndex": 0,
+        "explanation": "Người khách trả lời 'I usually wear a medium' (thường mặc cỡ vừa).",
+        "choiceExplanations": [
+          "Đúng — Người khách trả lời 'I usually wear a medium' (thường mặc cỡ vừa).",
+          "Sai — 'Small': Nhân viên chỉ liệt kê các cỡ; khách nói 'I usually wear a medium'.",
+          "Sai — 'Large': Nhân viên chỉ liệt kê các cỡ; khách nói 'I usually wear a medium'.",
+          "Sai — 'Extra Large': Bài không nhắc cỡ này."
+        ]
+      },
+      {
+        "prompt": "How much does the shirt cost now?",
+        "choices": [
+          "Ten dollars",
+          "Twenty dollars",
+          "Fifteen dollars",
+          "Thirty dollars"
+        ],
+        "correctIndex": 1,
+        "explanation": "Nhân viên nói áo 'on sale for twenty dollars' (đang giảm giá còn hai mươi đô la).",
+        "choiceExplanations": [
+          "Sai — 'Ten dollars': Bài không nhắc giá này; áo giảm còn hai mươi đô la.",
+          "Đúng — Nhân viên nói áo 'on sale for twenty dollars' (đang giảm giá còn hai mươi đô la).",
+          "Sai — 'Fifteen dollars': Bài không nhắc giá này; áo giảm còn hai mươi đô la.",
+          "Sai — 'Thirty dollars': Đây là giá tuần trước ('last week'), không phải giá hiện tại."
+        ]
+      },
+      {
+        "prompt": "What does the customer think about the shirt?",
+        "choices": [
+          "It costs too much.",
+          "The color is wrong.",
+          "It is too small.",
+          "It looks great."
+        ],
+        "correctIndex": 3,
+        "explanation": "Khách nói 'Oh, it looks great' (trông rất đẹp) rồi xin thử áo.",
+        "choiceExplanations": [
+          "Sai — 'It costs too much.': Khách không phàn nàn giá; áo đang giảm còn hai mươi đô la.",
+          "Sai — 'The color is wrong.': Khách muốn áo xanh và đây là áo xanh.",
+          "Sai — 'It is too small.': Khách chưa thử; cỡ vừa là cỡ khách thường mặc.",
+          "Đúng — Khách nói 'Oh, it looks great' (trông rất đẹp) rồi xin thử áo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-004",
+    "bac": 2,
+    "title": "Kế hoạch cuối tuần",
+    "transcript": "A: Hi Tom, do you have any plans for this Saturday?\nB: Hi Sarah. Not really. I might just stay home and watch some movies. What about you?\nA: I am going to play tennis in the park with my brother. Do you want to join us?\nB: I am not very good at tennis, but I can come and watch.\nA: That sounds good! We can all go get pizza afterwards.\nB: Perfect. See you on Saturday.",
+    "questions": [
+      {
+        "prompt": "What was Tom's first plan for Saturday?",
+        "choices": [
+          "Staying home to watch movies",
+          "Playing tennis",
+          "Working at the office",
+          "Going shopping"
+        ],
+        "correctIndex": 0,
+        "explanation": "Tom nói lúc đầu anh ấy định 'stay home and watch some movies' (ở nhà xem phim).",
+        "choiceExplanations": [
+          "Đúng — Tom nói lúc đầu anh ấy định 'stay home and watch some movies' (ở nhà xem phim).",
+          "Sai — 'Playing tennis': Đánh tennis là kế hoạch của Sarah, không phải của Tom.",
+          "Sai — 'Working at the office': Bài không nhắc đi làm.",
+          "Sai — 'Going shopping': Bài không nhắc đi mua sắm."
+        ]
+      },
+      {
+        "prompt": "Who is Sarah going to play tennis with?",
+        "choices": [
+          "Tom",
+          "Her friend",
+          "Her brother",
+          "Her father"
+        ],
+        "correctIndex": 2,
+        "explanation": "Sarah nói 'I am going to play tennis... with my brother' (với anh/em trai).",
+        "choiceExplanations": [
+          "Sai — 'Tom': Sarah rủ Tom đi cùng, nhưng Tom chỉ đến xem chứ không đánh cặp.",
+          "Sai — 'Her friend': Sarah nói 'with my brother', không phải với bạn.",
+          "Đúng — Sarah nói 'I am going to play tennis... with my brother' (với anh/em trai).",
+          "Sai — 'Her father': Sarah nói 'with my brother', không phải với bố."
+        ]
+      },
+      {
+        "prompt": "What will they do after the tennis game?",
+        "choices": [
+          "Go to the cinema",
+          "Go home",
+          "Walk in the park",
+          "Get some pizza"
+        ],
+        "correctIndex": 3,
+        "explanation": "Sarah đề nghị 'We can all go get pizza afterwards' và Tom đồng ý.",
+        "choiceExplanations": [
+          "Sai — 'Go to the cinema': Bài không nhắc đi xem phim sau đó; họ đi ăn pizza.",
+          "Sai — 'Go home': Bài không nhắc về nhà; họ đi ăn pizza.",
+          "Sai — 'Walk in the park': Họ đánh tennis ở công viên, nhưng sau đó đi ăn pizza.",
+          "Đúng — Sarah đề nghị 'We can all go get pizza afterwards' và Tom đồng ý."
+        ]
+      },
+      {
+        "prompt": "How does Tom feel about tennis?",
+        "choices": [
+          "He hates the sport.",
+          "He is not good at it.",
+          "He plays it every day.",
+          "He wants to learn it."
+        ],
+        "correctIndex": 1,
+        "explanation": "Tom thừa nhận 'I am not very good at tennis' (không giỏi tennis).",
+        "choiceExplanations": [
+          "Sai — 'He hates the sport.': Tom chỉ nói không giỏi, không nói ghét; còn sẵn sàng đi xem.",
+          "Đúng — Tom thừa nhận 'I am not very good at tennis' (không giỏi tennis).",
+          "Sai — 'He plays it every day.': Tom nói mình 'not very good', không nói chơi mỗi ngày.",
+          "Sai — 'He wants to learn it.': Tom không nói muốn học."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-005",
+    "bac": 2,
+    "title": "Thời tiết hôm nay",
+    "transcript": "A: It is so cold today! I didn't bring my jacket.\nB: Yes, the weather forecast said it will rain this afternoon, too.\nA: Oh no, I have to walk home after work. Do you have an umbrella?\nB: I have a small one. We can share it if we leave at the same time.\nA: Thank you, that is very kind of you. I finish work at five o'clock.\nB: Me too. Let's meet at the front door.",
+    "questions": [
+      {
+        "prompt": "What is the weather like right now?",
+        "choices": [
+          "Hot and sunny",
+          "Windy",
+          "Snowing",
+          "Cold"
+        ],
+        "correctIndex": 3,
+        "explanation": "Người A mở đầu bằng câu 'It is so cold today!' (hôm nay rất lạnh).",
+        "choiceExplanations": [
+          "Sai — 'Hot and sunny': Người A nói 'so cold' (rất lạnh), không phải nóng.",
+          "Sai — 'Windy': Bài không nhắc gió.",
+          "Sai — 'Snowing': Bài không nhắc tuyết.",
+          "Đúng — Người A mở đầu bằng câu 'It is so cold today!' (hôm nay rất lạnh)."
+        ]
+      },
+      {
+        "prompt": "What is expected to happen in the afternoon?",
+        "choices": [
+          "It will snow.",
+          "It will rain.",
+          "The sun will come out.",
+          "It will be very hot."
+        ],
+        "correctIndex": 1,
+        "explanation": "Người B nói 'the weather forecast said it will rain this afternoon' (dự báo chiều nay mưa).",
+        "choiceExplanations": [
+          "Sai — 'It will snow.': Dự báo nói mưa, không phải tuyết.",
+          "Đúng — Người B nói 'the weather forecast said it will rain this afternoon' (dự báo chiều nay mưa).",
+          "Sai — 'The sun will come out.': Dự báo nói 'it will rain' (sẽ mưa), không phải nắng.",
+          "Sai — 'It will be very hot.': Dự báo nói 'it will rain' (sẽ mưa); trời đang lạnh, không nóng."
+        ]
+      },
+      {
+        "prompt": "How will they walk home in the rain?",
+        "choices": [
+          "They will take a taxi.",
+          "They will wait until the rain stops.",
+          "They will share a small umbrella.",
+          "They will buy a raincoat."
+        ],
+        "correctIndex": 2,
+        "explanation": "B đề nghị 'We can share it [the umbrella] if we leave at the same time' (dùng chung ô).",
+        "choiceExplanations": [
+          "Sai — 'They will take a taxi.': Bài không nhắc taxi; hai người dùng chung ô.",
+          "Sai — 'They will wait until the rain stops.': Họ định rời chỗ làm cùng lúc để đi chung ô, không chờ tạnh.",
+          "Đúng — B đề nghị 'We can share it [the umbrella] if we leave at the same time' (dùng chung ô).",
+          "Sai — 'They will buy a raincoat.': Bài không nhắc áo mưa; hai người dùng chung ô."
+        ]
+      },
+      {
+        "prompt": "What time will they meet?",
+        "choices": [
+          "Five o'clock",
+          "Three o'clock",
+          "Four o'clock",
+          "Six o'clock"
+        ],
+        "correctIndex": 0,
+        "explanation": "A nói 'I finish work at five o'clock' và B đáp 'Me too' rồi hẹn gặp ở cửa trước.",
+        "choiceExplanations": [
+          "Đúng — A nói 'I finish work at five o'clock' và B đáp 'Me too' rồi hẹn gặp ở cửa trước.",
+          "Sai — 'Three o'clock': Bài không nhắc ba giờ; cả hai tan làm lúc năm giờ.",
+          "Sai — 'Four o'clock': Bài không nhắc bốn giờ; cả hai tan làm lúc năm giờ.",
+          "Sai — 'Six o'clock': Bài không nhắc sáu giờ; cả hai tan làm lúc năm giờ."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-006",
+    "bac": 2,
+    "title": "Sở thích cá nhân",
+    "transcript": "A: What do you like to do in your free time, David?\nB: I love taking photos. I go to the forest every Sunday to take pictures of birds and trees.\nA: Wow, that sounds very relaxing. I don't have a camera, so I just read books.\nB: Reading is great too. What kind of books do you like?\nA: I enjoy reading mystery novels. They are so exciting!\nB: Maybe you can tell me about a good one next time we meet.",
+    "questions": [
+      {
+        "prompt": "What is David's hobby?",
+        "choices": [
+          "Taking photos",
+          "Reading books",
+          "Painting",
+          "Hiking"
+        ],
+        "correctIndex": 0,
+        "explanation": "David nói 'I love taking photos' (thích chụp ảnh).",
+        "choiceExplanations": [
+          "Đúng — David nói 'I love taking photos' (thích chụp ảnh).",
+          "Sai — 'Reading books': Đọc sách là sở thích của người bạn của David; David thích chụp ảnh.",
+          "Sai — 'Painting': Bài không nhắc vẽ tranh.",
+          "Sai — 'Hiking': Bài không nhắc đi bộ đường dài; David chỉ đi rừng để chụp ảnh."
+        ]
+      },
+      {
+        "prompt": "Where does David go on Sundays?",
+        "choices": [
+          "To the beach",
+          "To the library",
+          "To the forest",
+          "To the park"
+        ],
+        "correctIndex": 2,
+        "explanation": "David nói 'I go to the forest every Sunday' (mỗi Chủ nhật đi vào rừng).",
+        "choiceExplanations": [
+          "Sai — 'To the beach': Bài không nhắc bãi biển.",
+          "Sai — 'To the library': Bài không nhắc thư viện.",
+          "Đúng — David nói 'I go to the forest every Sunday' (mỗi Chủ nhật đi vào rừng).",
+          "Sai — 'To the park': Bài không nhắc công viên; David đi rừng."
+        ]
+      },
+      {
+        "prompt": "What kind of books does David's friend like?",
+        "choices": [
+          "History books",
+          "Mystery novels",
+          "Romance novels",
+          "Science fiction"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bạn của David nói 'I enjoy reading mystery novels' (thích tiểu thuyết trinh thám).",
+        "choiceExplanations": [
+          "Sai — 'History books': Bài không nhắc sách lịch sử.",
+          "Đúng — Bạn của David nói 'I enjoy reading mystery novels' (thích tiểu thuyết trinh thám).",
+          "Sai — 'Romance novels': Bài không nhắc tiểu thuyết lãng mạn.",
+          "Sai — 'Science fiction': Bài không nhắc khoa học viễn tưởng."
+        ]
+      },
+      {
+        "prompt": "Why does David's friend like mystery novels?",
+        "choices": [
+          "They are relaxing.",
+          "They are short.",
+          "They are cheap.",
+          "They are exciting."
+        ],
+        "correctIndex": 3,
+        "explanation": "Bạn của David nói 'They are so exciting!' (chúng rất hấp dẫn).",
+        "choiceExplanations": [
+          "Sai — 'They are relaxing.': 'Relaxing' là lời bạn ấy nói về việc chụp ảnh của David, không phải lý do thích tiểu thuyết.",
+          "Sai — 'They are short.': Bài không nói tiểu thuyết ngắn.",
+          "Sai — 'They are cheap.': Bài không nói tiểu thuyết rẻ.",
+          "Đúng — Bạn của David nói 'They are so exciting!' (chúng rất hấp dẫn)."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-101",
+    "bac": 2,
+    "title": "Mất ba lô",
+    "transcript": "A: Excuse me, I lost my backpack this morning.\nB: Okay. What color is it?\nA: It is dark green, and it has a small white star on the front.\nB: What is inside?\nA: My science book, a water bottle and a yellow notebook.\nB: Where did you last see it?\nA: I think I left it in the music room after lunch.\nB: Wait here. I will ask the music teacher. What is your name?\nA: It is Katie Miller. I am in seventh grade, Room twelve.",
+    "questions": [
+      {
+        "prompt": "What is on the front of the backpack?",
+        "choices": [
+          "A yellow notebook",
+          "A green bottle",
+          "A small white star",
+          "A big red heart"
+        ],
+        "correctIndex": 2,
+        "explanation": "Katie nói 'it has a small white star on the front' (một ngôi sao trắng nhỏ ở mặt trước).",
+        "choiceExplanations": [
+          "Sai — 'A yellow notebook': Vở vàng nằm trong ba lô, không ở mặt trước.",
+          "Sai — 'A green bottle': Ba lô màu xanh lá đậm; bình nước ở bên trong, không ở mặt trước.",
+          "Đúng — Katie nói 'it has a small white star on the front' (một ngôi sao trắng nhỏ ở mặt trước).",
+          "Sai — 'A big red heart': Hình trên mặt trước là ngôi sao trắng nhỏ, không phải trái tim đỏ."
+        ]
+      },
+      {
+        "prompt": "What is inside the backpack?",
+        "choices": [
+          "A science book",
+          "A lunch box",
+          "A jacket",
+          "A music book"
+        ],
+        "correctIndex": 0,
+        "explanation": "Katie nói trong ba lô có 'My science book, a water bottle and a yellow notebook'.",
+        "choiceExplanations": [
+          "Đúng — Katie nói trong ba lô có 'My science book, a water bottle and a yellow notebook'.",
+          "Sai — 'A lunch box': Bài không nhắc hộp cơm; trong ba lô có sách khoa học, bình nước, vở vàng.",
+          "Sai — 'A jacket': Bài không nhắc áo khoác.",
+          "Sai — 'A music book': 'Music' chỉ là tên phòng nhạc nơi Katie để quên; trong ba lô là sách khoa học."
+        ]
+      },
+      {
+        "prompt": "Where did Katie probably leave it?",
+        "choices": [
+          "In the library",
+          "In the gym",
+          "On the bus",
+          "In the music room"
+        ],
+        "correctIndex": 3,
+        "explanation": "Katie nói 'I left it in the music room after lunch' (để quên trong phòng nhạc).",
+        "choiceExplanations": [
+          "Sai — 'In the library': Katie nói để quên ở phòng nhạc, không phải thư viện.",
+          "Sai — 'In the gym': Katie nói để quên ở phòng nhạc, không phải phòng thể dục.",
+          "Sai — 'On the bus': Katie nói để quên ở phòng nhạc, không phải trên xe buýt.",
+          "Đúng — Katie nói 'I left it in the music room after lunch' (để quên trong phòng nhạc)."
+        ]
+      },
+      {
+        "prompt": "Which room is Katie in?",
+        "choices": [
+          "Room thirteen",
+          "Room twelve",
+          "Room twenty",
+          "Room two"
+        ],
+        "correctIndex": 1,
+        "explanation": "Katie nói 'I am in seventh grade, Room twelve' (phòng mười hai).",
+        "choiceExplanations": [
+          "Sai — 'Room thirteen': Katie nói 'Room twelve' (mười hai), không phải mười ba.",
+          "Đúng — Katie nói 'I am in seventh grade, Room twelve' (phòng mười hai).",
+          "Sai — 'Room twenty': Katie nói 'Room twelve' (mười hai), không phải hai mươi.",
+          "Sai — 'Room two': Katie nói 'Room twelve' (mười hai), không phải phòng hai."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-102",
+    "bac": 2,
+    "title": "Tiệc sinh nhật",
+    "transcript": "A: Leo, my birthday party is next Saturday at two o'clock.\nB: Great! Where is it?\nA: At my house. My mom is making a chocolate cake.\nB: Can I bring something?\nA: Yes. Could you bring some juice? My cousin is bringing the music.\nB: Sure. I will bring orange juice. Do we need to wear anything special?\nA: Yes, it is a hat party. Everyone wears a funny hat.\nB: That sounds like fun. I will make one tonight.",
+    "questions": [
+      {
+        "prompt": "When is the party?",
+        "choices": [
+          "Sunday at two o'clock",
+          "Saturday at four o'clock",
+          "Saturday at two o'clock",
+          "Friday at two o'clock"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bạn mời nói 'next Saturday at two o'clock' (thứ Bảy tuần sau lúc hai giờ).",
+        "choiceExplanations": [
+          "Sai — 'Sunday at two o'clock': Tiệc vào thứ Bảy, không phải Chủ nhật.",
+          "Sai — 'Saturday at four o'clock': Giờ tiệc là hai giờ, không phải bốn giờ.",
+          "Đúng — Bạn mời nói 'next Saturday at two o'clock' (thứ Bảy tuần sau lúc hai giờ).",
+          "Sai — 'Friday at two o'clock': Tiệc vào thứ Bảy, không phải thứ Sáu."
+        ]
+      },
+      {
+        "prompt": "Who is making the cake?",
+        "choices": [
+          "Leo",
+          "The host's mother",
+          "The host's cousin",
+          "The host's sister"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người mời nói 'My mom is making a chocolate cake' (mẹ làm bánh sô-cô-la).",
+        "choiceExplanations": [
+          "Sai — 'Leo': Leo là bạn được mời, sẽ mang nước cam.",
+          "Đúng — Người mời nói 'My mom is making a chocolate cake' (mẹ làm bánh sô-cô-la).",
+          "Sai — 'The host's cousin': Anh/chị họ của người mời lo phần nhạc.",
+          "Sai — 'The host's sister': Bài không nhắc chị/em gái."
+        ]
+      },
+      {
+        "prompt": "What will Leo bring to the party?",
+        "choices": [
+          "Chocolate cake",
+          "Some music",
+          "Some balloons",
+          "Orange juice"
+        ],
+        "correctIndex": 3,
+        "explanation": "Người mời nhờ mang nước ép, Leo nói 'I will bring orange juice'.",
+        "choiceExplanations": [
+          "Sai — 'Chocolate cake': Bánh do mẹ của người mời làm.",
+          "Sai — 'Some music': Anh/chị họ của người mời mang nhạc.",
+          "Sai — 'Some balloons': Bài không nhắc bóng bay; Leo mang nước cam.",
+          "Đúng — Người mời nhờ mang nước ép, Leo nói 'I will bring orange juice'."
+        ]
+      },
+      {
+        "prompt": "What will Leo make tonight?",
+        "choices": [
+          "A funny hat",
+          "A cake",
+          "A card",
+          "Some music"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu cuối Leo nói 'I will make one tonight' - 'one' là chiếc mũ ngộ nghĩnh (funny hat).",
+        "choiceExplanations": [
+          "Đúng — Câu cuối Leo nói 'I will make one tonight' - 'one' là chiếc mũ ngộ nghĩnh (funny hat).",
+          "Sai — 'A cake': Bánh do mẹ của người mời làm, không phải Leo.",
+          "Sai — 'A card': Bài không nhắc thiệp.",
+          "Sai — 'Some music': Anh/chị họ của người mời lo phần nhạc."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-103",
+    "bac": 2,
+    "title": "Đi khám bác sĩ",
+    "transcript": "A: Hello, Ryan. Please sit down. What is the matter?\nB: I have a headache and a sore throat, doctor.\nA: How long have you felt sick?\nB: Since Sunday. It is Wednesday now.\nA: Do you have a fever?\nB: No, but I am very tired.\nA: Okay. Drink a lot of water and rest for two days. Do not go to school until Friday.\nB: Can I play soccer?\nA: Not this week. Come back if you feel worse.",
+    "questions": [
+      {
+        "prompt": "What is Ryan's problem?",
+        "choices": [
+          "A fever and a cough",
+          "A headache and a sore throat",
+          "A stomachache",
+          "A sore leg"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ryan nói 'I have a headache and a sore throat' (đau đầu và đau họng).",
+        "choiceExplanations": [
+          "Sai — 'A fever and a cough': Bác sĩ hỏi có sốt không, Ryan đáp 'No'; ho cũng không được nhắc.",
+          "Đúng — Ryan nói 'I have a headache and a sore throat' (đau đầu và đau họng).",
+          "Sai — 'A stomachache': Bài không nhắc đau bụng.",
+          "Sai — 'A sore leg': Bài không nhắc đau chân."
+        ]
+      },
+      {
+        "prompt": "When did Ryan start to feel sick?",
+        "choices": [
+          "On Sunday",
+          "On Monday",
+          "On Wednesday",
+          "On Friday"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ryan nói 'Since Sunday. It is Wednesday now' (từ Chủ nhật).",
+        "choiceExplanations": [
+          "Đúng — Ryan nói 'Since Sunday. It is Wednesday now' (từ Chủ nhật).",
+          "Sai — 'On Monday': Ryan nói 'Since Sunday', không phải thứ Hai.",
+          "Sai — 'On Wednesday': Thứ Tư là hôm nay, không phải ngày bắt đầu ốm.",
+          "Sai — 'On Friday': Thứ Sáu là ngày được đi học lại."
+        ]
+      },
+      {
+        "prompt": "What can Ryan NOT do this week?",
+        "choices": [
+          "Drink water",
+          "Rest at home",
+          "See the doctor again",
+          "Play soccer"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bác sĩ trả lời 'Not this week' khi Ryan hỏi có chơi bóng đá được không.",
+        "choiceExplanations": [
+          "Sai — 'Drink water': Bác sĩ dặn uống nhiều nước.",
+          "Sai — 'Rest at home': Bác sĩ dặn nghỉ ngơi.",
+          "Sai — 'See the doctor again': Bác sĩ bảo quay lại nếu thấy tệ hơn, nên được phép.",
+          "Đúng — Bác sĩ trả lời 'Not this week' khi Ryan hỏi có chơi bóng đá được không."
+        ]
+      },
+      {
+        "prompt": "What does the doctor tell Ryan to do?",
+        "choices": [
+          "Take a long walk",
+          "Go to school tomorrow",
+          "Drink water and rest",
+          "Play outside"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bác sĩ nói 'Drink a lot of water and rest for two days'.",
+        "choiceExplanations": [
+          "Sai — 'Take a long walk': Trái với dặn nghỉ ngơi.",
+          "Sai — 'Go to school tomorrow': Bác sĩ dặn đừng đến trường cho đến thứ Sáu.",
+          "Đúng — Bác sĩ nói 'Drink a lot of water and rest for two days'.",
+          "Sai — 'Play outside': Bác sĩ nói 'Not this week' với việc chơi thể thao; trái với dặn nghỉ ngơi."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-104",
+    "bac": 2,
+    "title": "Gọi điện hỏi sở thú",
+    "transcript": "A: Hello, City Zoo. How can I help you?\nB: Hi. I am a teacher. I want to bring thirty students next Tuesday.\nA: Good. Group tickets are five dollars for each student.\nB: Is there lunch at the zoo?\nA: There is a small cafe, but many groups bring their own lunch. You can eat in the picnic area near the lake.\nB: What time does the zoo open?\nA: At nine in the morning, and it closes at four.\nB: Perfect. We will arrive at nine thirty.",
+    "questions": [
+      {
+        "prompt": "How many students will visit?",
+        "choices": [
+          "Twenty",
+          "Forty",
+          "Twenty-three",
+          "Thirty"
+        ],
+        "correctIndex": 3,
+        "explanation": "Giáo viên nói 'I want to bring thirty students' (ba mươi học sinh).",
+        "choiceExplanations": [
+          "Sai — 'Twenty': Giáo viên nói 'thirty' (ba mươi), không phải hai mươi.",
+          "Sai — 'Forty': Giáo viên nói 'thirty' (ba mươi), không phải bốn mươi.",
+          "Sai — 'Twenty-three': Giáo viên nói 'thirty' (ba mươi), không phải hai mươi ba.",
+          "Đúng — Giáo viên nói 'I want to bring thirty students' (ba mươi học sinh)."
+        ]
+      },
+      {
+        "prompt": "How much is a group ticket for each student?",
+        "choices": [
+          "Four dollars",
+          "Nine dollars",
+          "Five dollars",
+          "Fifteen dollars"
+        ],
+        "correctIndex": 2,
+        "explanation": "Nhân viên nói 'five dollars for each student' (năm đô la mỗi học sinh).",
+        "choiceExplanations": [
+          "Sai — 'Four dollars': Nhân viên nói 'five dollars', không phải bốn.",
+          "Sai — 'Nine dollars': Chín là giờ sở thú mở cửa, không phải giá vé.",
+          "Đúng — Nhân viên nói 'five dollars for each student' (năm đô la mỗi học sinh).",
+          "Sai — 'Fifteen dollars': Nhân viên nói 'five dollars', không phải mười lăm."
+        ]
+      },
+      {
+        "prompt": "Where can the group eat their own lunch?",
+        "choices": [
+          "In the picnic area near the lake",
+          "In the small cafe",
+          "Next to the monkeys",
+          "On the bus"
+        ],
+        "correctIndex": 0,
+        "explanation": "Nhân viên nói 'You can eat in the picnic area near the lake'.",
+        "choiceExplanations": [
+          "Đúng — Nhân viên nói 'You can eat in the picnic area near the lake'.",
+          "Sai — 'In the small cafe': Quán nhỏ bán đồ ăn; nhóm tự mang cơm ăn ở khu picnic.",
+          "Sai — 'Next to the monkeys': Bài không nhắc chỗ ăn cạnh khỉ.",
+          "Sai — 'On the bus': Bài không nhắc ăn trên xe buýt."
+        ]
+      },
+      {
+        "prompt": "What time will the group arrive?",
+        "choices": [
+          "Nine o'clock",
+          "Nine thirty",
+          "Four o'clock",
+          "Ten thirty"
+        ],
+        "correctIndex": 1,
+        "explanation": "Giáo viên nói 'We will arrive at nine thirty'; chín giờ là giờ sở thú mở cửa.",
+        "choiceExplanations": [
+          "Sai — 'Nine o'clock': Đây là giờ sở thú mở cửa; nhóm đến lúc chín giờ rưỡi.",
+          "Đúng — Giáo viên nói 'We will arrive at nine thirty'; chín giờ là giờ sở thú mở cửa.",
+          "Sai — 'Four o'clock': Đây là giờ sở thú đóng cửa.",
+          "Sai — 'Ten thirty': Bài không nhắc mười giờ rưỡi."
+        ]
+      }
+    ]
+  }
+]

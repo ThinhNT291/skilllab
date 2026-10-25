@@ -838,5 +838,565 @@
       "Sai vì 'hardest' là so sánh nhất, không dùng trong cấu trúc lặp tăng tiến 'and'."
     ],
     "bac": 3
+  },
+  {
+    "id": "en-comparatives-superlatives-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u1-short-adjectives",
+    "tags": [
+      "comp-u1-short-adjectives"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Today is ______ than yesterday, so you won't need a jacket.",
+    "choices": [
+      "hoter",
+      "hotter",
+      "more hot",
+      "hottest"
+    ],
+    "correctIndex": 1,
+    "explanation": "'hot' có 1 âm tiết, tận cùng một phụ âm đứng sau một nguyên âm nên nhân đôi 't' rồi thêm -er: hotter.",
+    "choiceExplanations": [
+      "Sai — 'hoter': thiếu việc nhân đôi phụ âm cuối; phải viết 'hotter'.",
+      "Đúng — 'hotter': 'hot' tận cùng nguyên âm + phụ âm nên nhân đôi 't' trước khi thêm -er.",
+      "Sai — 'more hot': tính từ 1 âm tiết dùng đuôi -er, không dùng 'more'.",
+      "Sai — 'hottest': là so sánh nhất (cần 'the'), không đi với 'than'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-comparatives-superlatives-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u3-superlatives",
+    "tags": [
+      "comp-u3-superlatives"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Kim is the ______ player on our basketball team. She can touch the ceiling without jumping.",
+    "choices": [
+      "taller",
+      "most tall",
+      "tall",
+      "tallest"
+    ],
+    "correctIndex": 3,
+    "explanation": "So sánh nhất của tính từ ngắn 'tall' là 'the tallest'; Kim được so với cả đội nên cần so sánh nhất.",
+    "choiceExplanations": [
+      "Sai — 'taller': là so sánh hơn, dùng với 'than' hoặc khi chỉ có hai đối tượng; ở đây so với cả đội.",
+      "Sai — 'most tall': tính từ ngắn dùng đuôi -est, không dùng 'most'.",
+      "Sai — 'tall': dạng gốc, chưa thể hiện ý so sánh nhất sau 'the'.",
+      "Đúng — 'tallest': 'the' + adj-est, so Kim với tất cả những người còn lại trong đội."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-comparatives-superlatives-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u1-short-adjectives",
+    "tags": [
+      "comp-u1-short-adjectives"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My phone battery lasts longer ______ my sister's.",
+    "choices": [
+      "than",
+      "then",
+      "that",
+      "as"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau tính từ/trạng từ so sánh hơn ('longer') ta dùng 'than' để đưa ra đối tượng được so sánh.",
+    "choiceExplanations": [
+      "Đúng — 'than': đi sau dạng so sánh hơn 'longer' để nêu đối tượng so sánh.",
+      "Sai — 'then': nghĩa là 'sau đó' (chỉ thời gian), dễ nhầm với 'than' vì đọc gần giống nhau.",
+      "Sai — 'that': nghĩa là 'đó/rằng', không dùng để nối vế so sánh hơn.",
+      "Sai — 'as': chỉ dùng trong cấu trúc as...as, không đi sau 'longer'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-comparatives-superlatives-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u4-equality",
+    "tags": [
+      "comp-u4-equality"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom is twelve years old and Ben is twelve too. Tom is ______ Ben.",
+    "choices": [
+      "older than",
+      "as older as",
+      "as old as",
+      "old as"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hai bạn bằng tuổi nên dùng so sánh bằng 'as + adj + as' với tính từ giữ nguyên dạng: as old as.",
+    "choiceExplanations": [
+      "Sai — 'older than': nghĩa là 'lớn tuổi hơn', trái với việc hai bạn bằng tuổi.",
+      "Sai — 'as older as': trong as...as phải giữ nguyên 'old', không thêm -er.",
+      "Đúng — 'as old as': so sánh bằng, tính từ giữ nguyên dạng giữa hai chữ 'as'.",
+      "Sai — 'old as': thiếu chữ 'as' đầu tiên của cấu trúc."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-comparatives-superlatives-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u5-irregular-double",
+    "tags": [
+      "comp-u5-irregular-double"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I have only two coins, but you have five. I have ______ money than you.",
+    "choices": [
+      "least",
+      "less",
+      "littler",
+      "more little"
+    ],
+    "correctIndex": 1,
+    "explanation": "'little' (lượng không đếm được) là từ bất quy tắc: little - less - the least. So sánh hơn với 'than' là 'less'.",
+    "choiceExplanations": [
+      "Sai — 'least': là so sánh nhất (cần 'the'), không đi với 'than'.",
+      "Đúng — 'less': dạng so sánh hơn bất quy tắc của 'little' khi nói về lượng (money).",
+      "Sai — 'littler': không dùng để chỉ lượng; dạng so sánh hơn chỉ lượng của 'little' là 'less'.",
+      "Sai — 'more little': 'little' có dạng bất quy tắc riêng, không ghép với 'more'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-comparatives-superlatives-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u2-long-adjectives",
+    "tags": [
+      "comp-u2-long-adjectives"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Making a short video with friends is ______ than writing a long report.",
+    "choices": [
+      "excitinger",
+      "most exciting",
+      "more exciting",
+      "exciting"
+    ],
+    "correctIndex": 2,
+    "explanation": "'exciting' có 3 âm tiết nên dùng 'more + adj + than', không thêm -er.",
+    "choiceExplanations": [
+      "Sai — 'excitinger': tính từ dài (3 âm tiết) không thêm -er.",
+      "Sai — 'most exciting': là so sánh nhất, không đi với 'than'.",
+      "Đúng — 'more exciting': tính từ dài dùng 'more' trước tính từ nguyên dạng, rồi 'than'.",
+      "Sai — 'exciting': dạng gốc, thiếu từ so sánh trước 'than'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-comparatives-superlatives-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u5-irregular-double",
+    "tags": [
+      "comp-u5-irregular-double"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My cold is ______ today than it was yesterday, so I'm staying in bed.",
+    "choices": [
+      "worse",
+      "worst",
+      "badder",
+      "more bad"
+    ],
+    "correctIndex": 0,
+    "explanation": "'bad' là tính từ bất quy tắc: bad - worse - the worst. So sánh hơn với 'than' là 'worse'.",
+    "choiceExplanations": [
+      "Đúng — 'worse': dạng so sánh hơn bất quy tắc của 'bad'.",
+      "Sai — 'worst': là so sánh nhất, không đi với 'than'.",
+      "Sai — 'badder': 'bad' không thêm -er; phải dùng dạng bất quy tắc 'worse'.",
+      "Sai — 'more bad': 'bad' có dạng so sánh riêng 'worse', không dùng 'more'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-comparatives-superlatives-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u1-short-adjectives",
+    "tags": [
+      "comp-u1-short-adjectives"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our café is usually ______ on Saturday than on Sunday.",
+    "choices": [
+      "busyer",
+      "busiest",
+      "more busier",
+      "busier"
+    ],
+    "correctIndex": 3,
+    "explanation": "'busy' tận cùng phụ âm + y: đổi y thành i rồi thêm -er: busier.",
+    "choiceExplanations": [
+      "Sai — 'busyer': sai chính tả; phải đổi 'y' thành 'i' trước khi thêm -er.",
+      "Sai — 'busiest': là so sánh nhất, không đi với 'than'.",
+      "Sai — 'more busier': dùng cả 'more' lẫn đuôi -er là lỗi so sánh kép; 'busy' chỉ cần đổi y thành i rồi thêm -er.",
+      "Đúng — 'busier': đổi y thành i rồi thêm -er."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-comparatives-superlatives-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u3-superlatives",
+    "tags": [
+      "comp-u3-superlatives"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mia is the youngest ______ all my cousins.",
+    "choices": [
+      "in",
+      "of",
+      "than",
+      "from"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sau so sánh nhất, dùng 'of' + danh từ số nhiều/nhóm người ('all my cousins'); dùng 'in' + danh từ số ít chỉ địa điểm/phạm vi.",
+    "choiceExplanations": [
+      "Sai — 'in': dùng với danh từ số ít chỉ nơi chốn/phạm vi (in the class, in the world), không đi với 'all my cousins'.",
+      "Đúng — 'of': đi với danh từ số nhiều/nhóm người sau so sánh nhất.",
+      "Sai — 'than': dùng sau so sánh hơn, không dùng sau so sánh nhất.",
+      "Sai — 'from': không dùng để nêu phạm vi so sánh nhất."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-comparatives-superlatives-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u4-equality",
+    "tags": [
+      "comp-u4-equality"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My shoe size is the same ______ my brother's, so we sometimes share sneakers.",
+    "choices": [
+      "than",
+      "like",
+      "as",
+      "with"
+    ],
+    "correctIndex": 2,
+    "explanation": "'the same as' nghĩa là 'giống hệt/bằng với'; sau 'the same' dùng 'as'.",
+    "choiceExplanations": [
+      "Sai — 'than': chỉ đi với dạng so sánh hơn, không đi sau 'the same'.",
+      "Sai — 'like': 'the same like' là cách nói không chuẩn; cấu trúc đúng là 'the same as'.",
+      "Đúng — 'as': 'the same as' = giống hệt, bằng với.",
+      "Sai — 'with': 'the same with' là lỗi dịch từ 'giống với'; cấu trúc đúng là 'the same as'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-comparatives-superlatives-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u5-irregular-double",
+    "tags": [
+      "comp-u5-irregular-double"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The harder you study, ______ your grades will be.",
+    "choices": [
+      "the better",
+      "best",
+      "the well",
+      "gooder"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cấu trúc 'the + so sánh hơn, the + so sánh hơn'. Dạng so sánh hơn của 'good' là 'better'.",
+    "choiceExplanations": [
+      "Đúng — 'the better': 'the' + dạng so sánh hơn bất quy tắc của 'good', đối xứng với vế đầu.",
+      "Sai — 'best': là so sánh nhất và thiếu 'the' ở vế này, không hợp cấu trúc 'the...the...'.",
+      "Sai — 'the well': 'well' là trạng từ, còn sau 'your grades will be' cần tính từ so sánh; dạng so sánh của 'good/well' là 'better'.",
+      "Sai — 'gooder': 'good' là từ bất quy tắc, không thêm -er."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-comparatives-superlatives-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u2-long-adjectives",
+    "tags": [
+      "comp-u2-long-adjectives"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The new library is ______ bigger than the old one; it has three floors, not one.",
+    "choices": [
+      "very",
+      "most",
+      "more",
+      "much"
+    ],
+    "correctIndex": 3,
+    "explanation": "Để nhấn mạnh mức chênh lệch lớn, đặt 'much/far/a lot' trước dạng so sánh hơn: much bigger. 'very' không dùng với so sánh hơn.",
+    "choiceExplanations": [
+      "Sai — 'very': không đứng trước dạng so sánh hơn (không nói 'very bigger').",
+      "Sai — 'most': dùng cho so sánh nhất, không phù hợp với 'than'.",
+      "Sai — 'more': 'bigger' đã là so sánh hơn rồi, thêm 'more' là thừa ('more bigger' sai).",
+      "Đúng — 'much': nhấn mạnh mức chênh lệch lớn trước so sánh hơn 'bigger'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-comparatives-superlatives-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u4-equality",
+    "tags": [
+      "comp-u4-equality"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Leo doesn't write as ______ as his sister, so his notes are hard to read.",
+    "choices": [
+      "neatly",
+      "neater",
+      "more neatly",
+      "neatest"
+    ],
+    "correctIndex": 0,
+    "explanation": "'write' là động từ nên cần trạng từ 'neatly'; trong as...as, trạng từ giữ nguyên dạng, không thêm -er hay more.",
+    "choiceExplanations": [
+      "Đúng — 'neatly': trạng từ bổ nghĩa cho 'write', giữ nguyên dạng giữa hai chữ 'as'.",
+      "Sai — 'neater': là tính từ ở dạng so sánh hơn; trong as...as phải giữ nguyên dạng, và 'write' cần trạng từ.",
+      "Sai — 'more neatly': dạng so sánh hơn không dùng giữa as...as.",
+      "Sai — 'neatest': là so sánh nhất, không dùng trong as...as."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-comparatives-superlatives-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u5-irregular-double",
+    "tags": [
+      "comp-u5-irregular-double"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Of the three drinks, water has the ______ sugar; it has none at all.",
+    "choices": [
+      "less",
+      "most",
+      "least",
+      "littlest"
+    ],
+    "correctIndex": 2,
+    "explanation": "So sánh nhất của 'little' (lượng) là 'the least'; nước có ít đường nhất trong ba loại.",
+    "choiceExplanations": [
+      "Sai — 'less': là so sánh hơn, dùng khi so sánh hai đối tượng với 'than', không đi sau 'the' trong nhóm ba.",
+      "Sai — 'most': nghĩa là nhiều nhất, trái hẳn ý 'không có đường'.",
+      "Đúng — 'least': dạng so sánh nhất bất quy tắc của 'little'.",
+      "Sai — 'littlest': không dùng để chỉ lượng; dạng đúng là 'least'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-comparatives-superlatives-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u5-irregular-double",
+    "tags": [
+      "comp-u5-irregular-double"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Online games are becoming ______ among teenagers around the world.",
+    "choices": [
+      "popular and popular",
+      "more popular and more popular",
+      "most and most popular",
+      "more and more popular"
+    ],
+    "correctIndex": 3,
+    "explanation": "So sánh kép tăng tiến với tính từ dài: 'more and more + adj' (chỉ lặp 'more', tính từ đứng một lần).",
+    "choiceExplanations": [
+      "Sai — 'popular and popular': lặp tính từ gốc không thể hiện ý ngày càng tăng.",
+      "Sai — 'more popular and more popular': không lặp cả cụm; với tính từ dài chỉ lặp 'more'.",
+      "Sai — 'most and most popular': 'most' là so sánh nhất, không dùng trong cấu trúc tăng tiến.",
+      "Đúng — 'more and more popular': dạng tăng tiến chuẩn của tính từ dài."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-comparatives-superlatives-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u3-superlatives",
+    "tags": [
+      "comp-u3-superlatives"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tokyo is one of ______ cities in the world, with millions of people on its trains every day.",
+    "choices": [
+      "more crowded",
+      "the most crowded",
+      "the crowdedest",
+      "most crowded"
+    ],
+    "correctIndex": 1,
+    "explanation": "'One of the + so sánh nhất + danh từ số nhiều'. 'crowded' (đuôi -ed) dùng 'the most', không thêm -est.",
+    "choiceExplanations": [
+      "Sai — 'more crowded': là so sánh hơn, cần 'than'; sau 'one of' phải dùng so sánh nhất có 'the'.",
+      "Đúng — 'the most crowded': so sánh nhất của tính từ dài, đi sau 'one of'.",
+      "Sai — 'the crowdedest': 'crowded' không thuộc nhóm thêm -est; phải dùng 'the most'.",
+      "Sai — 'most crowded': thiếu 'the' bắt buộc trước so sánh nhất."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-comparatives-superlatives-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u4-equality",
+    "tags": [
+      "comp-u4-equality"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mai's room is 10 square meters, and Lan's is 11. Mai's room is almost ______ Lan's.",
+    "choices": [
+      "bigger than",
+      "the biggest",
+      "as big as",
+      "as bigger as"
+    ],
+    "correctIndex": 2,
+    "explanation": "'almost as ... as' nghĩa là 'gần bằng': 10 m² gần bằng 11 m². Giữa hai chữ 'as' tính từ giữ nguyên dạng gốc: as big as.",
+    "choiceExplanations": [
+      "Sai — 'bigger than': nghĩa là lớn hơn, trái với dữ kiện phòng Mai nhỏ hơn một chút và với 'almost'.",
+      "Sai — 'the biggest': là so sánh nhất, không dùng để nối hai vật với 'Lan's'.",
+      "Đúng — 'as big as': 'almost as ... as' diễn tả gần bằng; tính từ giữ nguyên dạng gốc.",
+      "Sai — 'as bigger as': trong as...as phải giữ nguyên 'big', không thêm -er."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-comparatives-superlatives-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u5-irregular-double",
+    "tags": [
+      "comp-u5-irregular-double"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The less you sleep, ______ you feel the next day.",
+    "choices": [
+      "the worse",
+      "worse",
+      "the worst",
+      "the more bad"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cấu trúc 'the + so sánh hơn, the + so sánh hơn'; 'feel' đi với tính từ nên dùng 'worse', dạng so sánh hơn bất quy tắc của 'bad'.",
+    "choiceExplanations": [
+      "Đúng — 'the worse': 'the' + dạng so sánh hơn bất quy tắc, đối xứng với 'the less'.",
+      "Sai — 'worse': thiếu 'the' ở vế thứ hai của cấu trúc.",
+      "Sai — 'the worst': là so sánh nhất, không dùng trong cấu trúc 'the...the...'.",
+      "Sai — 'the more bad': 'bad' có dạng riêng 'worse', không ghép với 'more'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-comparatives-superlatives-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u2-long-adjectives",
+    "tags": [
+      "comp-u2-long-adjectives"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Ana failed the quiz last month, so now she studies a lot ______ than before.",
+    "choices": [
+      "seriouslier",
+      "more serious",
+      "most seriously",
+      "more seriously"
+    ],
+    "correctIndex": 3,
+    "explanation": "'studies' là động từ nên cần trạng từ 'seriously'; trạng từ đuôi -ly dùng 'more', và 'a lot' nhấn mạnh mức chênh lệch.",
+    "choiceExplanations": [
+      "Sai — 'seriouslier': trạng từ đuôi -ly không bao giờ thêm -er.",
+      "Sai — 'more serious': 'serious' là tính từ, không bổ nghĩa cho động từ 'studies'.",
+      "Sai — 'most seriously': là so sánh nhất, không đi với 'than'.",
+      "Đúng — 'more seriously': trạng từ đuôi -ly dùng 'more', sau 'a lot' và trước 'than'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-comparatives-superlatives-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "comparatives-superlatives",
+    "usageId": "comp-u4-equality",
+    "tags": [
+      "comp-u4-equality"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My grandfather's house is twice as ______ as ours; his has twelve rooms and ours has six.",
+    "choices": [
+      "bigger",
+      "big",
+      "biggest",
+      "more big"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trong 'twice as ... as', tính từ giữ nguyên dạng gốc: twice as big as.",
+    "choiceExplanations": [
+      "Sai — 'bigger': đã chia so sánh hơn; giữa hai chữ 'as' phải giữ nguyên 'big'.",
+      "Đúng — 'big': tính từ nguyên dạng trong cấu trúc 'twice as + adj + as'.",
+      "Sai — 'biggest': là so sánh nhất, không dùng trong as...as.",
+      "Sai — 'more big': 'big' là tính từ ngắn và không dùng 'more' trong as...as."
+    ],
+    "bac": 3
   }
 ]

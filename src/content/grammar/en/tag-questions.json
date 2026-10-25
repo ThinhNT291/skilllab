@@ -13,7 +13,7 @@
       {
         "id": "tag-questions-u1-basic-rule",
         "label": "Quy tắc cơ bản: đối lập và khớp trợ động từ",
-        "explanationVi": "Quy tắc cơ bản của câu hỏi đuôi (tag question) là: nếu mệnh đề chính ở dạng KHẲNG ĐỊNH thì phần đuôi phải ở dạng PHỦ ĐỊNH, và ngược lại nếu mệnh đề chính ở dạng PHỦ ĐỊNH thì phần đuôi phải ở dạng KHẲNG ĐỊNH — gọi là nguyên tắc 'đối lập' (opposite polarity). Phần đuôi luôn dùng ĐÚNG trợ động từ (auxiliary) hoặc động từ khuyết thiếu (modal) đã xuất hiện sẵn trong mệnh đề chính — is/are/was/were, have/has/had, can/could/will/would/should/must... — và giữ nguyên thì của trợ động từ đó. Chủ ngữ trong tag luôn là ĐẠI TỪ tương ứng (danh từ riêng/chung đều chuyển thành he/she/it/they/we...). Điểm dễ nhầm nhất là học viên hay chêm do/does/did vào ngay cả khi mệnh đề chính đã có sẵn trợ động từ khác — điều này SAI; chỉ dùng do/does/did khi mệnh đề chính KHÔNG hề có trợ động từ nào (xem usage số 2).",
+        "explanationVi": "Quy tắc cơ bản của câu hỏi đuôi (tag question) là: nếu mệnh đề chính ở dạng KHẲNG ĐỊNH thì phần đuôi phải ở dạng PHỦ ĐỊNH, và ngược lại nếu mệnh đề chính ở dạng PHỦ ĐỊNH thì phần đuôi phải ở dạng KHẲNG ĐỊNH — gọi là nguyên tắc 'đối lập' (opposite polarity). Phần đuôi luôn dùng ĐÚNG trợ động từ (auxiliary) hoặc động từ khuyết thiếu (modal) đã xuất hiện sẵn trong mệnh đề chính — is/are/was/were, have/has/had, can/could/will/would/should/must... — và giữ nguyên thì của trợ động từ đó. Chủ ngữ trong tag luôn là ĐẠI TỪ tương ứng (danh từ riêng/chung đều chuyển thành he/she/it/they/we...). Điểm dễ nhầm nhất là học viên hay chêm do/does/did vào ngay cả khi mệnh đề chính đã có sẵn trợ động từ khác — điều này SAI; chỉ dùng do/does/did khi mệnh đề chính KHÔNG hề có trợ động từ nào (xem usage số 2). Khi câu có hai mệnh đề (với when, because, if, before, after...), tag luôn bám vào MỆNH ĐỀ CHÍNH: chủ ngữ và trợ động từ của mệnh đề chính, không phải của mệnh đề phụ.",
         "examples": [
           {
             "en": "They are traveling to Japan next month, aren't they?",
@@ -22,6 +22,10 @@
           {
             "en": "Emma isn't coming to the party tonight, is she?",
             "vi": "Emma sẽ không đến bữa tiệc tối nay, đúng không?"
+          },
+          {
+            "en": "Dad was cooking when I got home, wasn't he?",
+            "vi": "Bố đang nấu ăn khi tôi về đến nhà, phải không?"
           }
         ],
         "bac": 3
@@ -45,7 +49,7 @@
       {
         "id": "tag-questions-u3-special-cases",
         "label": "Các trường hợp đặc biệt",
-        "explanationVi": "Một số cấu trúc có phần đuôi KHÔNG theo quy tắc trợ động từ thông thường mà là trường hợp cần học thuộc: (1) Với chủ ngữ 'I am' + tính từ/danh từ, tag luôn là 'aren't I?'; nếu mệnh đề là 'I am not', tag là 'am I?'. (2) Với câu MỆNH LỆNH (cả khẳng định lẫn phủ định, ví dụ 'Open the door' hay 'Don't be late'), tag thường dùng 'will you?' để yêu cầu ai đó làm gì. (3) Với câu rủ rê bắt đầu bằng 'Let's...', tag luôn là 'shall we?', dù là 'Let's...' hay 'Let's not...'. (4) Với câu có chủ ngữ giả 'There is/are/was/were', tag phải lặp lại từ 'there' thay vì chuyển thành it/they — đây là lỗi học viên hay mắc nhất, nhầm 'there' thành 'it'.",
+        "explanationVi": "Một số cấu trúc có phần đuôi KHÔNG theo quy tắc trợ động từ thông thường mà là trường hợp cần học thuộc: (1) Với chủ ngữ 'I am' + tính từ/danh từ, tag luôn là 'aren't I?'; nếu mệnh đề là 'I am not', tag là 'am I?'. (2) Với câu MỆNH LỆNH (cả khẳng định lẫn phủ định, ví dụ 'Open the door' hay 'Don't be late'), tag thường dùng 'will you?' để yêu cầu ai đó làm gì. (3) Với câu rủ rê bắt đầu bằng 'Let's...', tag luôn là 'shall we?', dù là 'Let's...' hay 'Let's not...'. (4) Với câu có chủ ngữ giả 'There is/are/was/were/will be/has been...', tag phải lặp lại từ 'there' thay vì chuyển thành it/they — đây là lỗi học viên hay mắc nhất, nhầm 'there' thành 'it'.",
         "examples": [
           {
             "en": "Close the window, will you?",
@@ -101,7 +105,7 @@
         "meaningVi": "Câu rủ rê luôn dùng tag cố định 'shall we?', không phụ thuộc vào trợ động từ nào khác, kể cả khi là 'Let's not...'."
       },
       {
-        "word": "There is/are/was/were ...",
+        "word": "There is/are/was/were/will be ...",
         "meaningVi": "Chủ ngữ giả 'there' phải được lặp lại trong tag (is/are/was/were + there), tuyệt đối không chuyển thành it/they."
       },
       {
@@ -168,14 +172,13 @@
       },
       {
         "id": "tag-questions-m5",
-        "description": "'I am' luôn ghép với tag 'aren't I' (đây là ngoại lệ cần học thuộc); không dùng 'amn't I', và 'am I not' quá trang trọng trong văn nói thông thường.",
         "examples": [
           {
             "wrong": "I'm right, amn't I?",
             "correct": "I'm right, aren't I?"
           }
         ],
-        "note": "Ví dụ khác: I'm invited to the party, aren't I?"
+        "note": "'I am' luôn ghép với tag 'aren't I' (ngoại lệ cần học thuộc); không dùng 'amn't I', và 'am I not' quá trang trọng trong văn nói thông thường. Ví dụ khác: I'm invited to the party, aren't I?"
       },
       {
         "id": "tag-questions-m6",
@@ -184,6 +187,16 @@
           {
             "wrong": "Open the window, do you?",
             "correct": "Open the window, will you?"
+          }
+        ]
+      },
+      {
+        "id": "tag-questions-m7",
+        "note": "Tag bám mệnh đề chính, không bám mệnh đề phụ sau when/because/if.",
+        "examples": [
+          {
+            "wrong": "Dad was cooking when I got home, wasn't I?",
+            "correct": "Dad was cooking when I got home, wasn't he?"
           }
         ]
       }

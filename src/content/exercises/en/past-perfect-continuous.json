@@ -520,7 +520,7 @@
       "I had been knowing him for years before we met again.",
       "I had been working all night before I fell asleep.",
       "She had been waiting for an hour when I arrived.",
-      "They had been playing football for hours when it got dark."
+      "They had been playing soccer for hours when it got dark."
     ],
     "correctIndex": 0,
     "explanation": "Động từ chỉ trạng thái dùng had + V3, không dùng had been + V-ing.",
@@ -528,7 +528,7 @@
       "Đúng — 'know' là động từ chỉ trạng thái nên thường không dùng dạng -ing; câu đúng là 'I had known him'.",
       "Sai — 'I had been working all night before I fell asleep.': đây là câu đúng nên không phải đáp án.",
       "Sai — 'She had been waiting for an hour when I arrived.': đây là câu đúng nên không phải đáp án.",
-      "Sai — 'They had been playing football for hours when it got dark.': đây là câu đúng nên không phải đáp án."
+      "Sai — 'They had been playing soccer for hours when it got dark.': đây là câu đúng nên không phải đáp án."
     ]
   },
   {
@@ -837,6 +837,566 @@
       "Đúng — ở thì này, sau 'been' phải là V-ing: hadn't been working.",
       "Sai — 'They hadn't been waiting long.': đây là câu đúng nên không phải đáp án.",
       "Sai — 'Had the baby been sleeping when the phone rang?': đây là câu đúng nên không phải đáp án."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u1-duration-before-past-moment",
+    "tags": [
+      "ppc-u1-duration-before-past-moment"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The kids ______ (play) soccer for two hours when it started to get dark.",
+    "choices": [
+      "had been playing",
+      "have been playing",
+      "had been play",
+      "had playing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Việc chơi bóng kéo dài trước mốc 'started to get dark' (quá khứ đơn): had been + V-ing.",
+    "choiceExplanations": [
+      "Đúng — 'for two hours' kéo dài đến lúc trời tối (quá khứ): had been playing.",
+      "Sai — 'have been playing': 'have been' nói về hiện tại, còn mốc 'started' đã ở quá khứ.",
+      "Sai — 'had been play': sau 'been' phải dùng V-ing (playing).",
+      "Sai — 'had playing': thiếu 'been'."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u2-cause-of-past-situation",
+    "tags": [
+      "ppc-u2-cause-of-past-situation"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Sam's hands were covered in paint because he ______ (paint) the fence.",
+    "choices": [
+      "had been painted",
+      "had been painting",
+      "has been painting",
+      "had painting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nguyên nhân (đã sơn hàng rào) để lại dấu vết (tay dính sơn): had been + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'had been painted': sau 'been' ở thì này phải là V-ing (painting), không phải V-ed.",
+      "Đúng — việc sơn hàng rào là nguyên nhân khiến tay dính sơn ở quá khứ: had been painting.",
+      "Sai — 'has been painting': 'has been' nói về hiện tại, còn 'were covered' ở quá khứ.",
+      "Sai — 'had painting': thiếu 'been'."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u4-for-since-how-long",
+    "tags": [
+      "ppc-u4-for-since-how-long"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Lan ______ (practice) the piano since breakfast when her brother woke up.",
+    "choices": [
+      "had been practicing",
+      "has been practicing",
+      "was practicing",
+      "had been practice"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since + mốc thời gian, kèm mốc quá khứ 'woke up': had been + V-ing.",
+    "choiceExplanations": [
+      "Đúng — việc tập đàn kéo dài từ bữa sáng đến lúc em thức dậy: had been practicing.",
+      "Sai — 'has been practicing': 'has been' nói về hiện tại, còn lúc em trai thức dậy đã ở quá khứ.",
+      "Sai — 'was practicing': không dùng was + V-ing với 'since' để nói việc đã kéo dài đến một mốc quá khứ; cần had been practicing.",
+      "Sai — 'had been practice': sau 'been' phải dùng V-ing (practicing)."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u5-form-and-state-verbs",
+    "tags": [
+      "ppc-u5-form-and-state-verbs"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "The classroom was a mess when Ms. Lee came in. Choose the correct question she asked the students.",
+    "choices": [
+      "What did you been doing before I came in?",
+      "What had you doing before I came in?",
+      "What had you been doing before I came in?",
+      "What have you been doing before I came in?"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu hỏi: từ hỏi + had + S + been + V-ing?",
+    "choiceExplanations": [
+      "Sai — 'did ... been': 'did' không đi với 'been'; dùng had + S + been + V-ing.",
+      "Sai — 'had you doing': thiếu 'been' trước doing.",
+      "Đúng — từ hỏi + had + S + been + V-ing hỏi việc đã diễn ra trước mốc quá khứ.",
+      "Sai — 'have you been doing': 'have' nói về hiện tại, còn 'before I came in' đã ở quá khứ."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u4-for-since-how-long",
+    "tags": [
+      "ppc-u4-for-since-how-long"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It was 8 p.m., and Dad was still at the office. He ______ (work) since six that morning.",
+    "choices": [
+      "has been working",
+      "had been working",
+      "had been worked",
+      "was been working"
+    ],
+    "correctIndex": 1,
+    "explanation": "Since + mốc, nói về thời điểm đã ở quá khứ (was still at the office): had been + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'has been working': 'has been' nói về hiện tại, còn câu kể ở quá khứ ('was').",
+      "Đúng — việc làm kéo dài từ 6 giờ sáng đến 8 giờ tối (mốc quá khứ): had been working.",
+      "Sai — 'had been worked': sau 'been' phải là V-ing (working), không phải V-ed.",
+      "Sai — 'was been working': 'was been' không tồn tại; cấu trúc đúng là had been + V-ing."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u2-cause-of-past-situation",
+    "tags": [
+      "ppc-u2-cause-of-past-situation"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My brother's fingers were black because he ______ (draw) with a marker all afternoon.",
+    "choices": [
+      "had been draw",
+      "has been drawing",
+      "had been drawing",
+      "had drawing"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nguyên nhân kéo dài (vẽ cả buổi chiều) dẫn đến kết quả (ngón tay đen): had been + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'had been draw': sau 'been' phải dùng V-ing (drawing).",
+      "Sai — 'has been drawing': 'has been' nói về hiện tại, còn 'were black' ở quá khứ.",
+      "Đúng — vẽ cả buổi chiều là nguyên nhân của ngón tay đen: had been drawing.",
+      "Sai — 'had drawing': thiếu 'been'."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u5-form-and-state-verbs",
+    "tags": [
+      "ppc-u5-form-and-state-verbs"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Nam felt weak during the match because he ______ (not/eat) properly for days.",
+    "choices": [
+      "hasn't been eating",
+      "didn't been eating",
+      "hadn't eating",
+      "hadn't been eating"
+    ],
+    "correctIndex": 3,
+    "explanation": "Phủ định: hadn't been + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'hasn't been eating': 'hasn't been' nói về hiện tại, còn 'felt' ở quá khứ.",
+      "Sai — 'didn't been eating': 'didn't been' không tồn tại; phủ định dùng hadn't been + V-ing.",
+      "Sai — 'hadn't eating': thiếu 'been'.",
+      "Đúng — phủ định kéo dài trước mốc quá khứ: hadn't been eating."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u3-process-vs-result",
+    "tags": [
+      "ppc-u3-process-vs-result"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Ken ______ (write) his essay all evening, but he still did not know how to end it.",
+    "choices": [
+      "had written",
+      "had been writing",
+      "has been writing",
+      "had been wrote"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bài viết còn dang dở nên nhấn mạnh quá trình: had been + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'had written': nghĩa là đã viết xong, mâu thuẫn với việc Ken chưa biết kết thúc bài.",
+      "Đúng — việc viết còn dang dở ('did not know how to end it'), nhấn mạnh quá trình: had been writing.",
+      "Sai — 'has been writing': 'has been' nói về hiện tại, còn 'did not know' ở quá khứ.",
+      "Sai — 'had been wrote': sau 'been' phải dùng V-ing (writing)."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u3-process-vs-result",
+    "tags": [
+      "ppc-u3-process-vs-result"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By lunchtime, Hana ______ (solve) seven puzzles, and she was proud of that number.",
+    "choices": [
+      "had been solving",
+      "had solving",
+      "had solved",
+      "has solved"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nêu số lượng kết quả (seven puzzles): had + V3.",
+    "choiceExplanations": [
+      "Sai — 'had been solving': về ngữ pháp vẫn nói được, nhưng câu nhấn mạnh con số đã hoàn thành (seven puzzles) nên 'had solved' tự nhiên hơn.",
+      "Sai — 'had solving': thiếu 'been'; sau 'had' không đi với V-ing.",
+      "Đúng — có số lượng kết quả (seven puzzles) nên dùng had + V3: had solved.",
+      "Sai — 'has solved': 'has solved' nói về hiện tại, còn mốc 'lunchtime' đã ở quá khứ."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u1-duration-before-past-moment",
+    "tags": [
+      "ppc-u1-duration-before-past-moment"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When I opened the door, the cat ______ (sleep) on my bed for hours, and it did not want to leave.",
+    "choices": [
+      "had been sleeping",
+      "has been sleeping",
+      "was sleeping",
+      "slept"
+    ],
+    "correctIndex": 0,
+    "explanation": "For hours kéo dài đến mốc 'opened': had been + V-ing.",
+    "choiceExplanations": [
+      "Đúng — mèo đã ngủ nhiều giờ trước lúc mở cửa: had been sleeping.",
+      "Sai — 'has been sleeping': 'has been' nói về hiện tại, còn mốc 'opened' ở quá khứ.",
+      "Sai — 'was sleeping' chỉ nói mèo đang ngủ đúng lúc mở cửa, không diễn tả việc ngủ đã kéo dài nhiều giờ TRƯỚC mốc đó; với 'for hours' đếm ngược từ mốc, dùng had been sleeping.",
+      "Sai — 'slept': quá khứ đơn không nối quãng 'for hours' tới thời điểm mở cửa; cần had been sleeping."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u4-for-since-how-long",
+    "tags": [
+      "ppc-u4-for-since-how-long"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "At noon, Lily realized that she ______ (study) since six a.m. without a break.",
+    "choices": [
+      "has been studying",
+      "had been studied",
+      "had been studying",
+      "was studying"
+    ],
+    "correctIndex": 2,
+    "explanation": "Since + mốc, kể ở quá khứ (realized): had been + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'has been studying': 'has been' nói về hiện tại, còn 'realized' ở quá khứ.",
+      "Sai — 'had been studied': sau 'been' ở thì này phải là V-ing (studying).",
+      "Đúng — việc học kéo dài từ 6 giờ sáng đến lúc nhận ra (quá khứ): had been studying.",
+      "Sai — 'was studying': không dùng was + V-ing với 'since' để nói việc đã kéo dài đến một mốc quá khứ; cần had been studying."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u2-cause-of-past-situation",
+    "tags": [
+      "ppc-u2-cause-of-past-situation"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Her throat hurt after the match because she ______ (cheer) for her team all afternoon.",
+    "choices": [
+      "had been cheered",
+      "had been cheering",
+      "has cheered",
+      "had cheering"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nguyên nhân (cổ vũ cả buổi chiều) giải thích kết quả (đau họng): had been + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'had been cheered': sau 'been' ở thì này phải là V-ing (cheering), không phải V-ed.",
+      "Đúng — cổ vũ cả buổi chiều là nguyên nhân khiến cổ họng đau: had been cheering.",
+      "Sai — 'has cheered' nói về hiện tại, còn 'hurt' ở quá khứ.",
+      "Sai — 'had cheering': thiếu 'been'."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u5-form-and-state-verbs",
+    "tags": [
+      "ppc-u5-form-and-state-verbs"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence about the grandparents' shop.",
+    "choices": [
+      "My grandparents had been owning that shop for forty years before they sold it.",
+      "My grandparents had owning that shop for forty years before they sold it.",
+      "My grandparents have owned that shop for forty years before they sold it.",
+      "My grandparents had owned that shop for forty years before they sold it."
+    ],
+    "correctIndex": 3,
+    "explanation": "Động từ chỉ trạng thái (own) thường dùng had + V3, không dùng had been + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'had been owning': 'own' là động từ chỉ trạng thái nên thường không dùng dạng -ing.",
+      "Sai — 'had owning': thiếu 'been', và sau 'had' không đi với V-ing.",
+      "Sai — 'have owned' nói về hiện tại, còn 'before they sold it' ở quá khứ.",
+      "Đúng — 'own' là động từ chỉ trạng thái nên dùng had + V3: had owned."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u4-for-since-how-long",
+    "tags": [
+      "ppc-u4-for-since-how-long"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The twins were still angry at midnight. They ______ (argue) about the game since dinner.",
+    "choices": [
+      "had been arguing",
+      "have been arguing",
+      "had argue",
+      "were arguing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since + mốc, kể ở quá khứ: had been + V-ing.",
+    "choiceExplanations": [
+      "Đúng — cuộc cãi nhau kéo dài từ bữa tối đến nửa đêm (quá khứ): had been arguing.",
+      "Sai — 'have been arguing': 'have been' nói về hiện tại, còn câu kể ở quá khứ ('were').",
+      "Sai — 'had argue': thiếu 'been' và dùng động từ nguyên mẫu.",
+      "Sai — 'were arguing': không dùng were + V-ing với 'since' để nói việc đã kéo dài đến một mốc quá khứ; cần had been arguing."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u3-process-vs-result",
+    "tags": [
+      "ppc-u3-process-vs-result"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn đáp án phù hợp nhất",
+    "prompt": "When the teacher came in, Eva was surrounded by posters. Which pair correctly answers the teacher's questions: 'How long had Eva been working?' and 'How many posters had she made?'",
+    "choices": [
+      "She had been working for three hours. / She had made twelve posters.",
+      "She had worked for three hours. / She had been making twelve posters.",
+      "She has been working for three hours. / She had made twelve posters.",
+      "She had been working for three hours. / She had been making twelve posters."
+    ],
+    "correctIndex": 0,
+    "explanation": "How long hợp với quá trình (had been V-ing); How many hợp với kết quả (had V3).",
+    "choiceExplanations": [
+      "Đúng — How long hỏi quá trình (had been working), How many hỏi kết quả đếm được (had made twelve posters).",
+      "Sai — 'had worked for three hours' vẫn nói được, nhưng vế sau 'had been making twelve posters' sai trọng tâm: có con số thì nêu kết quả (had made).",
+      "Sai — vế đầu 'has been working' nói về hiện tại, không hợp với câu hỏi ở quá khứ (had been).",
+      "Sai — vế đầu đúng, nhưng vế sau 'had been making twelve posters' nhấn mạnh quá trình trong khi câu hỏi How many cần kết quả (had made)."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u1-duration-before-past-moment",
+    "tags": [
+      "ppc-u1-duration-before-past-moment"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Chọn đáp án phù hợp nhất",
+    "prompt": "Tuan ______ (cycle) for two hours when his tire went flat, so he ______ (push) his bike home.",
+    "choices": [
+      "cycled / had been pushing",
+      "had been cycling / had been pushing",
+      "have been cycling / pushed",
+      "had been cycling / pushed"
+    ],
+    "correctIndex": 3,
+    "explanation": "Việc kéo dài trước mốc dùng had been V-ing; việc xảy ra sau mốc dùng quá khứ đơn.",
+    "choiceExplanations": [
+      "Sai — 'cycled / had been pushing': đảo ngược; việc đẩy xe xảy ra SAU khi xẹp lốp nên không dùng had been pushing.",
+      "Sai — vế đầu đúng, nhưng 'had been pushing' sai vì đẩy xe xảy ra sau mốc 'went flat', không phải trước.",
+      "Sai — 'have been cycling': 'have been' nói về hiện tại, còn 'went flat' ở quá khứ.",
+      "Đúng — đạp xe hai giờ trước khi xẹp lốp (had been cycling); đẩy xe là việc xảy ra sau (pushed)."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u4-for-since-how-long",
+    "tags": [
+      "ppc-u4-for-since-how-long"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence about Lan's job is INCORRECT?",
+    "choices": [
+      "Lan hadn't been working there long when she quit.",
+      "Lan had been working there long when she quit.",
+      "Had Lan been working there long when she quit?",
+      "Lan had been working there for a long time when she quit."
+    ],
+    "correctIndex": 1,
+    "explanation": "Chỉ dùng 'long' đứng một mình trong phủ định và câu hỏi; câu khẳng định dùng for a long time.",
+    "choiceExplanations": [
+      "Sai — đây là câu đúng ('long' dùng được trong câu phủ định), nên không phải đáp án.",
+      "Đúng — ở câu khẳng định không dùng 'long' một mình; phải nói for a long time.",
+      "Sai — đây là câu đúng ('long' dùng được trong câu hỏi), nên không phải đáp án.",
+      "Sai — đây là câu đúng (for a long time), nên không phải đáp án."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u3-process-vs-result",
+    "tags": [
+      "ppc-u3-process-vs-result"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By sunset, the hikers ______ (walk) for nine hours and ______ (cover) exactly thirty kilometers.",
+    "choices": [
+      "had walked / had been covering",
+      "had covered / had been walking",
+      "had been walking / had covered",
+      "had been walking / had been covering"
+    ],
+    "correctIndex": 2,
+    "explanation": "Thời lượng đi với quá trình (had been V-ing); quãng đường đã hoàn thành đi với kết quả (had V3).",
+    "choiceExplanations": [
+      "Sai — 'had walked for nine hours' vẫn nói được, nhưng vế sau 'had been covering' sai trọng tâm: 'exactly thirty kilometers' là kết quả đã đạt nên dùng had covered.",
+      "Sai — đảo ngược: 'nine hours' là thời lượng (quá trình) và 'thirty kilometers' là kết quả đã đạt.",
+      "Đúng — 'for nine hours' nhấn mạnh quá trình (had been walking); quãng đường đạt được là kết quả (had covered).",
+      "Sai — vế đầu đúng, nhưng 'had been covering' nhấn mạnh quá trình, trong khi 'exactly thirty kilometers' là kết quả đã đạt; dùng had covered."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u2-cause-of-past-situation",
+    "tags": [
+      "ppc-u2-cause-of-past-situation"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Kai's shoes were muddy because he ______ (walk) through the fields all afternoon. His hands were clean because he ______ (wash) them just before dinner.",
+    "choices": [
+      "had walked / had been washing",
+      "had been walking / had been washing",
+      "was walking / had washed",
+      "had been walking / had washed"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nguyên nhân kéo dài: had been V-ing; việc đã xong trọn vẹn: had V3.",
+    "choiceExplanations": [
+      "Sai — 'had walked' vẫn nói được, nhưng 'all afternoon' nhấn mạnh quá trình nên tự nhiên hơn là had been walking; vế sau 'had been washing' cũng sai vì việc rửa tay đã xong.",
+      "Sai — vế đầu đúng, nhưng 'had been washing' nhấn mạnh quá trình; ở đây tay sạch nghĩa là việc rửa đã xong (had washed).",
+      "Sai — 'was walking' chỉ nói đang đi lúc nào đó, không giải thích nguyên nhân kéo dài 'all afternoon' như had been walking.",
+      "Đúng — đi bộ cả buổi chiều là nguyên nhân kéo dài (had been walking); rửa tay đã xong nên dùng had washed."
+    ]
+  },
+  {
+    "id": "en-past-perfect-continuous-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect-continuous",
+    "usageId": "ppc-u1-duration-before-past-moment",
+    "tags": [
+      "ppc-u1-duration-before-past-moment"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Nobody noticed that the old clock ______ (run) five minutes slow for years until the repairman checked it.",
+    "choices": [
+      "has been running",
+      "had running",
+      "ran",
+      "had been running"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hành động kéo dài đến mốc 'until the repairman checked': had been + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'has been running': 'has been' nói về hiện tại, còn 'noticed' và 'checked' ở quá khứ.",
+      "Sai — 'had running': thiếu 'been'.",
+      "Sai — 'ran': quá khứ đơn không nối 'for years' tới lúc thợ kiểm tra; cần had been running.",
+      "Đúng — đồng hồ chạy chậm suốt nhiều năm cho đến lúc thợ kiểm tra: had been running."
     ]
   }
 ]

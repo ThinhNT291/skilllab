@@ -7,11 +7,12 @@ import { shuffle, type Rng } from "../content/derive.ts"
 import type { MatchPair } from "../content/match.ts"
 import type { Bac, McqExercise, TypedExercise } from "../content/types.ts"
 
-export type VocabLevel = "a1" | "a2" | "b1"
+export type VocabLevel = "a1" | "a2" | "b1" | "b2"
 export const VOCAB_LEVELS: { id: VocabLevel; label: string; bac: Bac }[] = [
   { id: "a1", label: "A1", bac: 1 },
   { id: "a2", label: "A2", bac: 2 },
   { id: "b1", label: "B1", bac: 3 },
+  { id: "b2", label: "B2", bac: 4 },
 ]
 
 export interface VocabWord {
@@ -63,7 +64,7 @@ function build(
     bac,
     topic: `vocab-${level}`,
     tags: [`vocab-${level}`],
-    difficulty: bac as 1 | 2 | 3,
+    difficulty: Math.min(3, bac) as 1 | 2 | 3,
     title,
     prompt,
     choices: options.map((o) => o.word),
@@ -117,7 +118,7 @@ export function pickVocabMatchPairs(pool: VocabWord[], level: VocabLevel, rng: R
       bac,
       topic: `vocab-${level}`,
       tags: [`vocab-${level}`],
-      difficulty: bac as 1 | 2 | 3,
+      difficulty: Math.min(3, bac) as 1 | 2 | 3,
       prompt: `Từ tiếng Anh nghĩa là “${w.vi}” (${POS_VI[w.pos] ?? w.pos})`,
       answers: [w.word],
       explanation: `${w.word} (${w.vi}): ${w.def}.`,

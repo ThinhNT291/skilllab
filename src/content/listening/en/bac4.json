@@ -1,0 +1,458 @@
+[
+  {
+    "id": "ls-b4-001",
+    "bac": 4,
+    "title": "Tranh luận về lùi giờ vào học",
+    "transcript": "A: Did you hear that the school board wants to push the start of classes back from seven thirty to eight thirty next year? I think it's a huge mistake.\nB: Really? I actually think it's a good idea. Researchers say teenagers need more sleep than adults, and most of us are exhausted by first period. It's much easier to concentrate when you're rested.\nA: I disagree. We would finish an hour later in the afternoon, which means less time for sports and homework. Plenty of students look after younger brothers and sisters, or have a long bus ride, and they would get home even later.\nB: I understand that, but you can't deny the current schedule isn't working. Half the class is yawning during math, and test scores in the first two periods are lower than in the afternoon.\nA: Well, if sleep is the problem, we should teach students better habits, like putting their phones away at night, instead of changing everyone's day. A trial in just one grade would be a much better compromise than this sudden, school-wide change.\nB: Maybe a trial is the middle ground. But the board clearly feels they need to see some real results first.",
+    "questions": [
+      {
+        "prompt": "What is the school board's proposal?",
+        "choices": [
+          "To make the school day an hour shorter",
+          "To add classes on Saturday mornings",
+          "To give students a longer lunch break",
+          "To start classes later in the morning"
+        ],
+        "correctIndex": 3,
+        "explanation": "A nói hội đồng muốn 'push the start of classes back from seven thirty to eight thirty'.",
+        "choiceExplanations": [
+          "Sai — 'To make the school day an hour shorter': Giờ vào học lùi nhưng ngày học không ngắn đi; học sinh còn về muộn hơn một giờ.",
+          "Sai — 'To add classes on Saturday mornings': Bài không nhắc lớp học ngày thứ Bảy.",
+          "Sai — 'To give students a longer lunch break': Bài không nhắc giờ ăn trưa.",
+          "Đúng — A nói hội đồng muốn 'push the start of classes back from seven thirty to eight thirty'."
+        ]
+      },
+      {
+        "prompt": "According to Speaker B, what is the main problem with the current schedule?",
+        "choices": [
+          "Students spend too much time on sports.",
+          "The buses are too crowded in the morning.",
+          "Students are tired and do worse in the early classes.",
+          "Teachers give too much homework every night."
+        ],
+        "correctIndex": 2,
+        "explanation": "B nói 'most of us are exhausted by first period' và điểm hai tiết đầu thấp hơn buổi chiều.",
+        "choiceExplanations": [
+          "Sai — 'Students spend too much time on sports.': Thể thao là nỗi lo của A (ít thời gian cho thể thao nếu về muộn), không phải vấn đề B nêu.",
+          "Sai — 'The buses are too crowded in the morning.': 'Bus ride' chỉ được A nhắc như khó khăn của vài bạn; không ai nói xe buýt đông.",
+          "Đúng — B nói 'most of us are exhausted by first period' và điểm hai tiết đầu thấp hơn buổi chiều.",
+          "Sai — 'Teachers give too much homework every night.': 'Homework' chỉ xuất hiện khi A lo thiếu thời gian buổi chiều; B không nói về lượng bài tập."
+        ]
+      },
+      {
+        "prompt": "What does Speaker A suggest instead?",
+        "choices": [
+          "A trial in just one grade",
+          "Ending school an hour earlier",
+          "Canceling all after-school clubs",
+          "Giving students more homework"
+        ],
+        "correctIndex": 0,
+        "explanation": "A đề xuất 'A trial in just one grade would be a much better compromise'.",
+        "choiceExplanations": [
+          "Đúng — A đề xuất 'A trial in just one grade would be a much better compromise'.",
+          "Sai — 'Ending school an hour earlier': A phản đối vì kết thúc muộn hơn; không ai đề nghị tan sớm hơn.",
+          "Sai — 'Canceling all after-school clubs': A lo việc về muộn làm mất thời gian thể thao, không muốn bỏ hoạt động nào.",
+          "Sai — 'Giving students more homework': A không nhắc tăng bài tập; ông chỉ đề nghị dạy thói quen ngủ tốt hơn."
+        ]
+      },
+      {
+        "prompt": "How does the conversation end?",
+        "choices": [
+          "A agrees completely with the board's plan.",
+          "B agrees a trial could work, but says the board wants results first.",
+          "B changes his mind and now opposes the plan.",
+          "They decide to ask the principal to cancel the plan."
+        ],
+        "correctIndex": 1,
+        "explanation": "B nói 'Maybe a trial is the middle ground. But the board clearly feels they need to see some real results first'.",
+        "choiceExplanations": [
+          "Sai — 'A agrees completely with the board's plan.': A phản đối kế hoạch suốt cuộc trò chuyện và không đổi ý.",
+          "Đúng — B nói 'Maybe a trial is the middle ground. But the board clearly feels they need to see some real results first'.",
+          "Sai — 'B changes his mind and now opposes the plan.': B vẫn ủng hộ kế hoạch và chỉ chấp nhận thử nghiệm như hướng trung gian.",
+          "Sai — 'They decide to ask the principal to cancel the plan.': Bài không nhắc việc hỏi hiệu trưởng hay hủy kế hoạch."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-002",
+    "bac": 4,
+    "title": "Ngân sách hội đồng học sinh",
+    "transcript": "A: Let's talk about how the student council should spend its budget this semester. I'm proposing that we take a big part of the money from the school dance and use it for a new study lounge with computers and quiet desks.\nB: I've read your proposal, but I have serious doubts. The dance is the one event that almost every student attends. If we cut it back, we might upset the very people who voted for us.\nA: But the survey shows that most students want a better place to study. If we want to make a lasting difference, we should invest in something that helps everyone every day.\nB: A lounge sounds great, but it might sit empty. Besides, it takes a long time to build the kind of school spirit we have through events like the dance. It feels too risky to give that up.\nA: We aren't giving it up completely, just reducing it by forty percent. It's a calculated risk. If we ignore what students need, they will stop trusting the council.\nB: Fine, but let's try a small study corner in the library first, before we spend that much money.",
+    "questions": [
+      {
+        "prompt": "What does Speaker A propose?",
+        "choices": [
+          "To cancel all school events",
+          "To move money from the dance to a study lounge",
+          "To buy new sports equipment for every team",
+          "To raise the price of tickets for the dance"
+        ],
+        "correctIndex": 1,
+        "explanation": "A nói muốn lấy 'a big part of the money from the school dance' để làm phòng tự học.",
+        "choiceExplanations": [
+          "Sai — 'To cancel all school events': A nói 'We aren't giving it up completely', chỉ giảm ngân sách buổi khiêu vũ.",
+          "Đúng — A nói muốn lấy 'a big part of the money from the school dance' để làm phòng tự học.",
+          "Sai — 'To buy new sports equipment for every team': Bài không nhắc dụng cụ thể thao.",
+          "Sai — 'To raise the price of tickets for the dance': Bài không nhắc giá vé khiêu vũ."
+        ]
+      },
+      {
+        "prompt": "Why is Speaker B worried?",
+        "choices": [
+          "Cutting the dance might upset the students who voted for them.",
+          "The study lounge would cost too much money.",
+          "The library is too small for a study area.",
+          "The council has too few members to run events."
+        ],
+        "correctIndex": 0,
+        "explanation": "B nói 'If we cut it back, we might upset the very people who voted for us'.",
+        "choiceExplanations": [
+          "Đúng — B nói 'If we cut it back, we might upset the very people who voted for us'.",
+          "Sai — 'The study lounge would cost too much money.': B lo phòng tự học có thể bị bỏ trống ('it might sit empty'), không lo chi phí.",
+          "Sai — 'The library is too small for a study area.': B còn đề nghị thử góc học tập nhỏ trong thư viện, nên thư viện không bị chê là nhỏ.",
+          "Sai — 'The council has too few members to run events.': Bài không nhắc số thành viên của hội đồng."
+        ]
+      },
+      {
+        "prompt": "What reason does Speaker A give for the study lounge?",
+        "choices": [
+          "It will make money for the school.",
+          "The teachers asked the council for it.",
+          "Most students want a better place to study.",
+          "It will replace the school library."
+        ],
+        "correctIndex": 2,
+        "explanation": "A dẫn khảo sát: 'most students want a better place to study'.",
+        "choiceExplanations": [
+          "Sai — 'It will make money for the school.': Bài không nhắc việc kiếm tiền cho trường.",
+          "Sai — 'The teachers asked the council for it.': Bài không nhắc giáo viên yêu cầu.",
+          "Đúng — A dẫn khảo sát: 'most students want a better place to study'.",
+          "Sai — 'It will replace the school library.': Phòng tự học không thay thư viện; B còn đề nghị thử góc học tập ngay trong thư viện."
+        ]
+      },
+      {
+        "prompt": "What does Speaker B suggest at the end?",
+        "choices": [
+          "Letting the principal decide",
+          "Canceling the dance for good",
+          "Dropping the study lounge idea completely",
+          "Trying a small study corner in the library first"
+        ],
+        "correctIndex": 3,
+        "explanation": "B nói 'let's try a small study corner in the library first'.",
+        "choiceExplanations": [
+          "Sai — 'Letting the principal decide': Bài không nhắc hiệu trưởng.",
+          "Sai — 'Canceling the dance for good': A đã nói không bỏ hẳn buổi khiêu vũ, và B cũng không đề nghị bỏ.",
+          "Sai — 'Dropping the study lounge idea completely': B không bỏ hẳn ý tưởng, chỉ muốn thử quy mô nhỏ trước.",
+          "Đúng — B nói 'let's try a small study corner in the library first'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-003",
+    "bac": 4,
+    "title": "Thực đơn mới ở căng-tin",
+    "transcript": "A: Have you tried the new lunch menu in the school cafeteria? The posters say it's healthier and tastier than before, and my friends are really excited.\nB: Yes, I had lunch there on Monday. To be honest, I think it's not as good as everyone says. The salad bar looks fantastic, but the main dishes were disappointing.\nA: That's surprising! Everyone says the veggie burger is the best thing they've ever served. What did you order?\nB: I had the baked pasta. It had almost no flavor, and the portion was ridiculously small for the price. I left feeling hungry.\nA: Oh, what a shame. I was planning to stop bringing packed lunches and buy lunch there every day. Maybe they just had a bad day in the kitchen?\nB: Possibly, but a good cafeteria needs to be good every day. Also, the line was painfully slow. We waited almost twenty minutes and barely had time to eat. If you want a proper lunch, I would strongly recommend bringing your own for now. It's much more reliable.\nA: Thanks for the warning. I'll wait a few weeks before I decide. I don't want to waste my whole lunch break standing in line.",
+    "questions": [
+      {
+        "prompt": "What was Speaker B's overall opinion of the new menu?",
+        "choices": [
+          "It was the best lunch B had all year.",
+          "The salad bar was bad but the pasta was great.",
+          "It was not as good as people say, and the main dish was disappointing.",
+          "It was cheap and delicious."
+        ],
+        "correctIndex": 2,
+        "explanation": "B nói 'it's not as good as everyone says' và 'the main dishes were disappointing'.",
+        "choiceExplanations": [
+          "Sai — 'It was the best lunch B had all year.': B nói điều ngược lại: không hay như mọi người nói.",
+          "Sai — 'The salad bar was bad but the pasta was great.': Ngược lại: salad bar 'looks fantastic', còn món pasta thì nhạt và ít.",
+          "Đúng — B nói 'it's not as good as everyone says' và 'the main dishes were disappointing'.",
+          "Sai — 'It was cheap and delicious.': B nói món ăn gần như không có vị và phần quá nhỏ so với giá."
+        ]
+      },
+      {
+        "prompt": "What were Speaker B's complaints about the pasta?",
+        "choices": [
+          "It was too spicy and burnt.",
+          "It was cold and not fresh.",
+          "It was served much too quickly.",
+          "It had little flavor, and the portion was tiny for the price."
+        ],
+        "correctIndex": 3,
+        "explanation": "B nói 'almost no flavor' và 'the portion was ridiculously small for the price'.",
+        "choiceExplanations": [
+          "Sai — 'It was too spicy and burnt.': B nói món gần như không có vị, tức là không cay.",
+          "Sai — 'It was cold and not fresh.': Bài không nhắc món ăn nguội hay không tươi.",
+          "Sai — 'It was served much too quickly.': B phàn nàn hàng chờ rất chậm, không phải phục vụ quá nhanh.",
+          "Đúng — B nói 'almost no flavor' và 'the portion was ridiculously small for the price'."
+        ]
+      },
+      {
+        "prompt": "Why does Speaker A decide to wait before buying lunch there?",
+        "choices": [
+          "B said the food was disappointing and the line was slow.",
+          "The cafeteria is closed for repairs.",
+          "A does not like vegetables.",
+          "A forgot to bring money to school."
+        ],
+        "correctIndex": 0,
+        "explanation": "A cảm ơn lời cảnh báo của B và nói 'I don't want to waste my whole lunch break standing in line'.",
+        "choiceExplanations": [
+          "Đúng — A cảm ơn lời cảnh báo của B và nói 'I don't want to waste my whole lunch break standing in line'.",
+          "Sai — 'The cafeteria is closed for repairs.': Bài không nhắc căng-tin đóng cửa.",
+          "Sai — 'A does not like vegetables.': A còn khen món veggie burger và không nói ghét rau.",
+          "Sai — 'A forgot to bring money to school.': Bài không nhắc chuyện quên tiền."
+        ]
+      },
+      {
+        "prompt": "What does Speaker B recommend for now?",
+        "choices": [
+          "Eating at a restaurant near school",
+          "Bringing lunch from home",
+          "Skipping lunch until the line is shorter",
+          "Buying snacks from the school shop"
+        ],
+        "correctIndex": 1,
+        "explanation": "B nói 'I would strongly recommend bringing your own for now. It's much more reliable'.",
+        "choiceExplanations": [
+          "Sai — 'Eating at a restaurant near school': Bài không nhắc nhà hàng gần trường.",
+          "Đúng — B nói 'I would strongly recommend bringing your own for now. It's much more reliable'.",
+          "Sai — 'Skipping lunch until the line is shorter': B muốn A có bữa trưa đàng hoàng ('a proper lunch'), không bảo nhịn ăn.",
+          "Sai — 'Buying snacks from the school shop': Bài không nhắc cửa hàng đồ ăn vặt."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-004",
+    "bac": 4,
+    "title": "Trường chuyển sang cơ sở mới",
+    "transcript": "A: Did you hear the rumor that our school might move to a new campus outside the city next year? I'm quite worried about it.\nB: Yes, the principal mentioned it at the assembly. Honestly, I'm thrilled. This building is more than eighty years old, the classrooms are overcrowded, and we don't even have a proper science lab.\nA: But think about the trip to school! Right now, most of us walk or take a short bus ride and we're here in fifteen minutes. If we move to the new campus, there is only one bus route, and it takes an hour.\nB: That's a good point, but the new campus is supposed to have a huge sports field, a modern library, and a cafeteria. Plus, the area is much quieter, so it might be easier to focus on studying.\nA: I don't want a quiet campus. I like being in the middle of the city. I just think the school board is only looking at the buildings and completely ignoring how the move will change students' and families' daily lives.\nB: Let's wait for the official announcement before we start panicking.",
+    "questions": [
+      {
+        "prompt": "Why is Speaker B excited about the move?",
+        "choices": [
+          "The old building has problems and the new one has better facilities.",
+          "The trip to the new campus will be shorter.",
+          "B's best friends are already moving there.",
+          "The principal promised longer lunch breaks."
+        ],
+        "correctIndex": 0,
+        "explanation": "B nêu tòa nhà cũ tám mươi năm, lớp đông, không có phòng thí nghiệm; trường mới có sân thể thao, thư viện hiện đại.",
+        "choiceExplanations": [
+          "Đúng — B nêu tòa nhà cũ tám mươi năm, lớp đông, không có phòng thí nghiệm; trường mới có sân thể thao, thư viện hiện đại.",
+          "Sai — 'The trip to the new campus will be shorter.': Ngược lại: A nói đến trường mới mất một giờ và chỉ có một tuyến xe buýt.",
+          "Sai — 'B's best friends are already moving there.': Bài không nhắc bạn bè của B.",
+          "Sai — 'The principal promised longer lunch breaks.': Hiệu trưởng chỉ nhắc chuyện chuyển trường ở buổi tập trung, không hứa gì về giờ nghỉ."
+        ]
+      },
+      {
+        "prompt": "What is Speaker A's main concern?",
+        "choices": [
+          "The lack of a cafeteria",
+          "The noise on the new campus",
+          "The long trip to school with only one bus route",
+          "The price of the new buildings"
+        ],
+        "correctIndex": 2,
+        "explanation": "A nói 'there is only one bus route, and it takes an hour'.",
+        "choiceExplanations": [
+          "Sai — 'The lack of a cafeteria': B nói trường mới sẽ có nhà ăn ('a cafeteria'); A không lo điều này.",
+          "Sai — 'The noise on the new campus': Khu mới yên tĩnh hơn (B nói), và A không lo về tiếng ồn.",
+          "Đúng — A nói 'there is only one bus route, and it takes an hour'.",
+          "Sai — 'The price of the new buildings': Bài không nhắc chi phí xây dựng."
+        ]
+      },
+      {
+        "prompt": "What does Speaker A accuse the school board of?",
+        "choices": [
+          "Spending the school's money in secret",
+          "Planning a library that is too small for everyone",
+          "Forgetting to include a sports field in the plan",
+          "Only looking at the buildings and ignoring students' daily lives"
+        ],
+        "correctIndex": 3,
+        "explanation": "A nói hội đồng 'only looking at the buildings and completely ignoring' ảnh hưởng hằng ngày đến học sinh.",
+        "choiceExplanations": [
+          "Sai — 'Spending the school's money in secret': Bài không nhắc chuyện tiêu tiền bí mật.",
+          "Sai — 'Planning a library that is too small for everyone': B nói thư viện mới là 'modern'; không ai chê nó nhỏ.",
+          "Sai — 'Forgetting to include a sports field in the plan': B nói trường mới có sân thể thao rộng ('a huge sports field').",
+          "Đúng — A nói hội đồng 'only looking at the buildings and completely ignoring' ảnh hưởng hằng ngày đến học sinh."
+        ]
+      },
+      {
+        "prompt": "What is the main topic of the conversation?",
+        "choices": [
+          "Buying a new bus for the school",
+          "The good and bad sides of moving to a new campus",
+          "How to join the school sports team",
+          "How old the school building is"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cả bài là hai bạn nêu lợi và hại của việc chuyển sang cơ sở mới.",
+        "choiceExplanations": [
+          "Sai — 'Buying a new bus for the school': Bài chỉ nhắc tuyến xe buýt hiện có, không nói mua xe mới.",
+          "Đúng — Cả bài là hai bạn nêu lợi và hại của việc chuyển sang cơ sở mới.",
+          "Sai — 'How to join the school sports team': Sân thể thao chỉ được nhắc như một tiện nghi của trường mới.",
+          "Sai — 'How old the school building is': Tuổi của tòa nhà chỉ là một lý do của B, không phải chủ đề chính."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-005",
+    "bac": 4,
+    "title": "Video ngắn trong giờ học",
+    "transcript": "A: I recently read an article saying that teachers should start using short-video apps in their lessons to keep students interested.\nB: I saw that too, and I strongly disagree. School is supposed to be a calm place without distractions. Bringing these apps into the classroom just makes attention spans shorter and gives kids even more screen time.\nA: I see your point, but we have to meet students where they are. They watch these videos every single day anyway, so why not use them? If a teacher can turn a complicated historical event into an interesting sixty-second video, isn't that a great tool?\nB: No, it's shallow learning. Real education takes deep reading, careful thinking, and long periods of focus. You can't learn algebra or understand a novel from a quick, flashy video. It gives you the feeling that you know something when you really don't.\nA: I'm not saying it should replace textbooks. But it can be a great hook to spark interest in a subject. Once students are curious, you move on to deeper methods.\nB: Maybe at first. But next thing you know, entertainment replaces real teaching.",
+    "questions": [
+      {
+        "prompt": "What is the main subject of the conversation?",
+        "choices": [
+          "Banning cell phones in schools completely",
+          "Using short-video apps as teaching tools in class",
+          "Teaching students how to become famous online",
+          "The cost of buying tablets for students"
+        ],
+        "correctIndex": 1,
+        "explanation": "A mở đầu bằng ý tưởng giáo viên 'start using short-video apps in their lessons'.",
+        "choiceExplanations": [
+          "Sai — 'Banning cell phones in schools completely': Hai bạn bàn về dùng ứng dụng video trong bài giảng, không bàn việc cấm điện thoại.",
+          "Đúng — A mở đầu bằng ý tưởng giáo viên 'start using short-video apps in their lessons'.",
+          "Sai — 'Teaching students how to become famous online': Bài không nhắc dạy học sinh nổi tiếng trên mạng.",
+          "Sai — 'The cost of buying tablets for students': Bài không nhắc chi phí mua máy tính bảng."
+        ]
+      },
+      {
+        "prompt": "Why is Speaker B against the idea?",
+        "choices": [
+          "It makes attention spans shorter and leads to shallow learning.",
+          "Teachers do not know how to use the internet.",
+          "Schools cannot afford new technology.",
+          "Students hate watching videos."
+        ],
+        "correctIndex": 0,
+        "explanation": "B nói các ứng dụng này làm 'attention spans shorter' và gọi đó là 'shallow learning'.",
+        "choiceExplanations": [
+          "Đúng — B nói các ứng dụng này làm 'attention spans shorter' và gọi đó là 'shallow learning'.",
+          "Sai — 'Teachers do not know how to use the internet.': Bài không nói giáo viên không biết dùng internet.",
+          "Sai — 'Schools cannot afford new technology.': Bài không nhắc chi phí hay ngân sách của trường.",
+          "Sai — 'Students hate watching videos.': A nói học sinh xem những video này mỗi ngày; B không nói học sinh ghét video."
+        ]
+      },
+      {
+        "prompt": "How does Speaker A see short educational videos?",
+        "choices": [
+          "As a full replacement for textbooks",
+          "As a way to waste time",
+          "As a great hook to spark interest in a subject",
+          "As a reward for hard-working students"
+        ],
+        "correctIndex": 2,
+        "explanation": "A nói video 'can be a great hook to spark interest in a subject'.",
+        "choiceExplanations": [
+          "Sai — 'As a full replacement for textbooks': A nói rõ 'I'm not saying it should replace textbooks'.",
+          "Sai — 'As a way to waste time': A cho rằng video là công cụ hữu ích, không phải lãng phí thời gian.",
+          "Đúng — A nói video 'can be a great hook to spark interest in a subject'.",
+          "Sai — 'As a reward for hard-working students': Bài không nhắc video dùng làm phần thưởng."
+        ]
+      },
+      {
+        "prompt": "What is Speaker B's biggest fear at the end?",
+        "choices": [
+          "That teachers will lose their jobs to apps",
+          "That students will spend too much money on apps",
+          "That students will stop watching videos at home",
+          "That entertainment will replace real teaching"
+        ],
+        "correctIndex": 3,
+        "explanation": "B kết bằng 'next thing you know, entertainment replaces real teaching'.",
+        "choiceExplanations": [
+          "Sai — 'That teachers will lose their jobs to apps': Bài không nhắc giáo viên mất việc.",
+          "Sai — 'That students will spend too much money on apps': Bài không nhắc chuyện chi tiền cho ứng dụng.",
+          "Sai — 'That students will stop watching videos at home': B lo về lớp học, không nói gì về việc xem video ở nhà.",
+          "Đúng — B kết bằng 'next thing you know, entertainment replaces real teaching'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-006",
+    "bac": 4,
+    "title": "Cấm xe cá nhân ở trung tâm",
+    "transcript": "A: The city council's proposal to ban private cars from the city center starting next year is quite controversial. What's your take on it?\nB: I fully support it. The air pollution downtown has reached dangerous levels, and the traffic makes the city almost impossible to live in. Making the center car-free will make it safer, cleaner, and better for local businesses.\nA: I agree with the environmental side, but it seems rushed. Our public transport system is nowhere near ready to handle thousands of extra passengers every day. The buses are already overcrowded and often late.\nB: The plan includes much more money for the trams and buses. The city is buying fifty new electric buses and opening two new tram lines. It's a necessary push to make people change their habits.\nA: But that takes years to build. In the meantime, elderly people, disabled people, and delivery drivers are going to suffer badly. The council should give them special permission and improve public transport first, before punishing car owners.\nB: Sometimes you need strict rules to make fast change happen. Slow, gradual approaches haven't worked.",
+    "questions": [
+      {
+        "prompt": "What is the city council proposing to do?",
+        "choices": [
+          "Raise the price of bus tickets",
+          "Ban private cars from the city center",
+          "Build a new highway through downtown",
+          "Close down local businesses"
+        ],
+        "correctIndex": 1,
+        "explanation": "A nói đến 'proposal to ban private cars from the city center'.",
+        "choiceExplanations": [
+          "Sai — 'Raise the price of bus tickets': Bài nói về việc đầu tư thêm cho xe buýt và tàu điện, không nhắc tăng giá vé.",
+          "Đúng — A nói đến 'proposal to ban private cars from the city center'.",
+          "Sai — 'Build a new highway through downtown': Bài không nhắc đường cao tốc mới.",
+          "Sai — 'Close down local businesses': B nói kế hoạch tốt cho doanh nghiệp địa phương, không đóng cửa họ."
+        ]
+      },
+      {
+        "prompt": "What is Speaker A's main criticism of the proposal?",
+        "choices": [
+          "It would be bad for the environment.",
+          "The council does not care about air pollution.",
+          "Public transport is not ready for so many extra passengers.",
+          "Walking in the city center is dangerous."
+        ],
+        "correctIndex": 2,
+        "explanation": "A nói 'Our public transport system is nowhere near ready to handle thousands of extra passengers'.",
+        "choiceExplanations": [
+          "Sai — 'It would be bad for the environment.': A nói 'I agree with the environmental side', tức là đồng ý về mặt môi trường.",
+          "Sai — 'The council does not care about air pollution.': A không buộc tội hội đồng về ô nhiễm; ông chỉ chê kế hoạch quá vội.",
+          "Đúng — A nói 'Our public transport system is nowhere near ready to handle thousands of extra passengers'.",
+          "Sai — 'Walking in the city center is dangerous.': B mới là người nói trung tâm không xe sẽ an toàn hơn; A không nói đi bộ nguy hiểm."
+        ]
+      },
+      {
+        "prompt": "Who does Speaker A think will suffer most in the short term?",
+        "choices": [
+          "Shop owners",
+          "Politicians",
+          "Tourists and wealthy residents",
+          "Elderly people, disabled people, and delivery drivers"
+        ],
+        "correctIndex": 3,
+        "explanation": "A nói 'elderly people, disabled people, and delivery drivers are going to suffer badly'.",
+        "choiceExplanations": [
+          "Sai — 'Shop owners': Chính B mới nói kế hoạch tốt cho doanh nghiệp địa phương; A không nói chủ cửa hàng chịu thiệt.",
+          "Sai — 'Politicians': Bài không nhắc chính trị gia chịu thiệt.",
+          "Sai — 'Tourists and wealthy residents': Bài không nhắc du khách hay người giàu.",
+          "Đúng — A nói 'elderly people, disabled people, and delivery drivers are going to suffer badly'."
+        ]
+      },
+      {
+        "prompt": "What is Speaker B's main argument?",
+        "choices": [
+          "Strict rules are sometimes needed to make fast change happen.",
+          "The government should never interfere in people's lives.",
+          "Gradual changes are always better than sudden bans.",
+          "Cars are the future of city transport."
+        ],
+        "correctIndex": 0,
+        "explanation": "B kết bằng 'Sometimes you need strict rules to make fast change happen'.",
+        "choiceExplanations": [
+          "Đúng — B kết bằng 'Sometimes you need strict rules to make fast change happen'.",
+          "Sai — 'The government should never interfere in people's lives.': B ủng hộ quy định mạnh tay, nên không thể nghĩ như vậy.",
+          "Sai — 'Gradual changes are always better than sudden bans.': B nói ngược lại: 'Slow, gradual approaches haven't worked'.",
+          "Sai — 'Cars are the future of city transport.': B muốn giảm xe cá nhân và đầu tư xe buýt điện, tàu điện."
+        ]
+      }
+    ]
+  }
+]

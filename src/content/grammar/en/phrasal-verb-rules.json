@@ -30,7 +30,7 @@
         "id": "pvr-u2-inseparable",
         "bac": 3,
         "label": "Cụm động từ không tách được (inseparable)",
-        "explanationVi": "Với một số cụm (look after, get over, run into, depend on, look for), tân ngữ luôn đứng SAU tiểu từ, không được chen vào giữa: look after the baby (không phải look the baby after). Nhiều cụm ở nhóm này có dạng động từ + giới từ.",
+        "explanationVi": "Với một số cụm (look after, get over, run into, come across, depend on, look for), tân ngữ luôn đứng SAU tiểu từ, không được chen vào giữa: look after the baby (không phải look the baby after). Nhiều cụm ở nhóm này có dạng động từ + giới từ.",
         "examples": [
           {
             "en": "We ran into our teacher at the mall.",
@@ -62,7 +62,7 @@
         "id": "pvr-u4-three-word",
         "bac": 4,
         "label": "Cụm động từ ba từ (three-word phrasal verbs)",
-        "explanationVi": "Cụm ba từ gồm động từ + tiểu từ + giới từ (look forward to, get along with, run out of, put up with, come up with). Chúng không tách được và tân ngữ đứng sau cùng. Sau look forward to là danh từ hoặc V-ing vì 'to' ở đây là giới từ: I'm looking forward to seeing you.",
+        "explanationVi": "Cụm ba từ gồm động từ + tiểu từ + giới từ (look forward to, get along with, run out of, put up with, come up with). Chúng không tách được và tân ngữ đứng sau cùng. Sau look forward to là danh từ hoặc V-ing vì 'to' ở đây là giới từ: I'm looking forward to seeing you. Cùng một cụm có thể đổi nghĩa theo giới từ cuối: catch up with + người = theo kịp ai (I have to catch up with my classmates); catch up on + việc = làm bù việc đã lỡ (I need to catch up on my homework).",
         "examples": [
           {
             "en": "We ran out of milk.",
@@ -71,6 +71,10 @@
           {
             "en": "She gets along with her classmates.",
             "vi": "Cô ấy hòa thuận với các bạn cùng lớp."
+          },
+          {
+            "en": "I need to catch up on my homework.",
+            "vi": "Tôi cần làm bù bài tập về nhà."
           }
         ]
       },
@@ -78,7 +82,7 @@
         "id": "pvr-u5-passive",
         "bac": 4,
         "label": "Cụm động từ ở thể bị động",
-        "explanationVi": "Cụm động từ có tân ngữ có thể chuyển sang bị động: be + V3 + tiểu từ. Tiểu từ đi liền với động từ và ở lại sau V3: The meeting was called off. The baby is looked after by a nanny. Không bỏ tiểu từ.",
+        "explanationVi": "Cụm động từ có tân ngữ có thể chuyển sang bị động: be + V3 + tiểu từ. Tiểu từ đi liền với động từ và ở lại sau V3: The meeting was called off. The baby is looked after by a nanny. Không bỏ tiểu từ. Với động từ khuyết thiếu: modal + be + V3 + tiểu từ, ví dụ: All forms must be handed in by Friday.",
         "examples": [
           {
             "en": "The game was put off because of the rain.",
@@ -87,6 +91,54 @@
           {
             "en": "The children are looked after by their grandmother.",
             "vi": "Bọn trẻ được bà trông nom."
+          }
+        ]
+      },
+      {
+        "id": "pvr-u6-long-object",
+        "bac": 4,
+        "label": "Tân ngữ dài với cụm tách được",
+        "explanationVi": "Khi tân ngữ là một cụm dài (có nhiều từ hoặc có mệnh đề đi kèm), nên đặt nó SAU tiểu từ: She gave away all the clothes that no longer fit her. Tách ra giữa động từ và tiểu từ vẫn đúng ngữ pháp, nhưng tiểu từ bị đẩy quá xa động từ nên câu nghe vụng. Tân ngữ ngắn thì cả hai cách đều ổn; đại từ vẫn phải đứng giữa.",
+        "examples": [
+          {
+            "en": "He wrote down everything the doctor said.",
+            "vi": "Cậu ấy ghi lại mọi điều bác sĩ nói."
+          },
+          {
+            "en": "We took off the heavy backpacks we had carried all day.",
+            "vi": "Chúng tôi cởi những chiếc ba lô nặng đã mang cả ngày."
+          }
+        ]
+      },
+      {
+        "id": "pvr-u7-intransitive",
+        "bac": 3,
+        "label": "Cụm động từ không có tân ngữ",
+        "explanationVi": "Nhiều cụm động từ không cần tân ngữ: get up, sit down, grow up, show up, run away, come up (mặt trời mọc). Chúng không tách, không thêm đại từ và không chuyển sang bị động; sau chúng thường là trạng ngữ chỉ nơi chốn hoặc thời gian: grew up in Texas, showed up late. Lưu ý: một số cụm có thể có nghĩa khác khi có tân ngữ (wake up the baby, sit the child down); khi đó chúng theo quy tắc tách được ở trên. Ở đây chỉ nói nghĩa không có tân ngữ.",
+        "examples": [
+          {
+            "en": "The kids woke up early.",
+            "vi": "Bọn trẻ thức dậy sớm."
+          },
+          {
+            "en": "She grew up in a small town.",
+            "vi": "Cô ấy lớn lên ở một thị trấn nhỏ."
+          }
+        ]
+      },
+      {
+        "id": "pvr-u8-multiple-meanings",
+        "bac": 5,
+        "label": "Một cụm động từ, nhiều nghĩa",
+        "explanationVi": "Một cụm động từ có thể có nhiều nghĩa tùy ngữ cảnh, và cách dùng có thể đổi theo nghĩa. Ví dụ take off: cởi (tách được: take off your shoes), trừ đi (take ten dollars off), cất cánh (không tân ngữ: The plane took off). Break down: hỏng máy, bật khóc, chia nhỏ (break the problem down). Turn out: hóa ra, rốt cuộc là (It turned out to be a good idea); turn out cũng có thể là tắt (turn out the lights).",
+        "examples": [
+          {
+            "en": "Our car broke down on the way home.",
+            "vi": "Xe của chúng tôi bị hỏng trên đường về nhà."
+          },
+          {
+            "en": "The party turned out better than we expected.",
+            "vi": "Bữa tiệc rốt cuộc tốt hơn chúng tôi mong đợi."
           }
         ]
       }
@@ -146,6 +198,26 @@
           {
             "wrong": "I look forward to see you.",
             "correct": "I look forward to seeing you."
+          }
+        ]
+      },
+      {
+        "id": "pvr-m4",
+        "description": "Dùng bị động với cụm không có tân ngữ.",
+        "examples": [
+          {
+            "wrong": "Texas was grown up in.",
+            "correct": "My cousin grew up in Texas."
+          }
+        ]
+      },
+      {
+        "id": "pvr-m5",
+        "description": "Tách tân ngữ dài khỏi động từ (không sai ngữ pháp nhưng nghe vụng).",
+        "examples": [
+          {
+            "wrong": "She threw the big pile of old newspapers away.",
+            "correct": "She threw away the big pile of old newspapers."
           }
         ]
       }
