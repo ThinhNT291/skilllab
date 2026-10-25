@@ -17,7 +17,7 @@ test("gom nội dung: mã không trùng, đủ các loại, số lượng khớp
   assert.equal(s.theory, 31)
   assert.equal(s.reading, 56)
   assert.equal(s.listening, 58)
-  assert.equal(s.vocab, 3182)
+  assert.equal(s.vocab, 3179)
   assert.equal(s.collocation, 8)
   assert.equal(s.vocab_topics, 1)
   assert.equal(s.theory_index, 1)

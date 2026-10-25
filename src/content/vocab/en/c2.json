@@ -2383,16 +2383,6 @@
 "vi": "keo dán"
 },
 {
-"id": "v-grace-verb-1",
-"word": "grace",
-"pos": "verb",
-"def": "When a person or object graces a place or thing, they make it more attractive.",
-"ex": [
-"Her face has graced the covers of magazines across the world."
-],
-"vi": "làm đẹp thêm, tô điểm"
-},
-{
 "id": "v-grammatical-adjective-1",
 "word": "grammatical",
 "pos": "adjective",
@@ -5110,7 +5100,7 @@
 "ex": [
 "He resigned following revelations about his private life."
 ],
-"vi": "điều tiết lộ"
+"vi": "điều được tiết lộ"
 },
 {
 "id": "v-reversal-noun-1",
@@ -5635,7 +5625,7 @@
 "ex": [
 "My aunt is such a snob!"
 ],
-"vi": "kẻ trưởng giả"
+"vi": "kẻ hợm hĩnh, khinh người"
 },
 {
 "id": "v-snobbish-adjective-1",
@@ -5888,7 +5878,7 @@
 "ex": [
 "These people are dying of starvation."
 ],
-"vi": "nạn đói"
+"vi": "sự thiếu ăn, chết đói"
 },
 {
 "id": "v-stereotypical-adjective-1",
@@ -6001,16 +5991,6 @@
 "I think that subconsciously I knew I was in danger."
 ],
 "vi": "trong tiềm thức"
-},
-{
-"id": "v-subject-adjective-1",
-"word": "subject",
-"pos": "adjective",
-"def": "a person who is written about in a book or who is shown in a picture",
-"ex": [
-"Rembrandt is the subject of her latest novel."
-],
-"vi": "đối tượng (được viết/vẽ)"
 },
 {
 "id": "v-suck-verb-1",
@@ -6764,7 +6744,7 @@
 "ex": [
 "He's terribly vain."
 ],
-"vi": "tự phụ, hão huyền"
+"vi": "hợm mình, tự phụ"
 },
 {
 "id": "v-validity-noun-1",
@@ -6794,7 +6774,7 @@
 "ex": [
 "Her vanity is staggering."
 ],
-"vi": "sự kiêu hãnh"
+"vi": "tính hợm mình"
 },
 {
 "id": "v-velvet-noun-1",

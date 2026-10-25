@@ -201,7 +201,7 @@
 "ex": [
 "a clothing allowance"
 ],
-"vi": "tiền trợ cấp"
+"vi": "tiền tiêu vặt, trợ cấp"
 },
 {
 "id": "v-alteration-noun-1",
@@ -1382,16 +1382,6 @@
 "vi": "kép, đôi"
 },
 {
-"id": "v-dumb-adjective-1",
-"word": "dumb",
-"pos": "adjective",
-"def": "physically unable to talk",
-"ex": [
-"The child is deaf and dumb."
-],
-"vi": "câm"
-},
-{
 "id": "v-duration-noun-1",
 "word": "duration",
 "pos": "noun",
@@ -2394,7 +2384,7 @@
 "ex": [
 "Try looking up 'heart disease' in the index."
 ],
-"vi": "mục lục tra cứu, chỉ mục"
+"vi": "bảng chỉ mục"
 },
 {
 "id": "v-individually-adverb-1",
@@ -4477,7 +4467,7 @@
 "ex": [
 "My parents are socialists."
 ],
-"vi": "người theo chủ nghĩa XH"
+"vi": "người theo xã hội chủ nghĩa"
 },
 {
 "id": "v-sole-adjective-1",
@@ -5079,7 +5069,7 @@
 "ex": [
 "Twenty-eight per cent of people asked thought that the advertising of tobacco and alcohol should be banned."
 ],
-"vi": "thuốc lá (lá thuốc)"
+"vi": "thuốc lá"
 },
 {
 "id": "v-token-noun-1",
