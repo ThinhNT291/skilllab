@@ -3,6 +3,7 @@
 // Giả lập auth.uid() và vai trò authenticated của Supabase; không cần kết nối mạng hay khóa nào.
 import { PGlite } from "@electric-sql/pglite"
 import fs from "node:fs"
+import { collectItems } from "./lib/content-items.mjs"
 const db = new PGlite()
 const dir = new URL("../supabase/migrations/", import.meta.url).pathname
 await db.exec(`
@@ -70,3 +71,28 @@ check("username sai định dạng bị từ chối (admin cũng không có quy�
 await db.query(`update profiles set username='hs.minh01' where id=$1`, [P.s1]); 
 const dup = await db.query(`update profiles set username='hs.minh01' where id=$1`, [P.s2]).catch(() => "ERR")
 check("username trùng bị từ chối", dup === "ERR", true)
+
+// ---- Kho nội dung (0008) ----
+const items = collectItems(new URL("../src/content", import.meta.url).pathname)
+for (let i = 0; i < items.length; i += 500) {
+  const chunk = items.slice(i, i + 500)
+  await db.query(
+    `insert into content_items (id, collection, language_code, topic, bac, sort, data, content_hash)
+     select x->>'id', x->>'collection', x->>'language_code', x->>'topic', nullif(x->>'bac','')::smallint, (x->>'sort')::int, x->'data', x->>'content_hash'
+     from jsonb_array_elements($1::jsonb) x`,
+    [JSON.stringify(chunk)],
+  )
+}
+check("nhập đủ mục nội dung", (await db.query(`select count(*)::int c from content_items`)).rows[0].c, items.length)
+check("học sinh đọc được nội dung", await count("s1", "content_items"), items.length)
+const w = await as("s1", `update content_items set sort = -1 where id = (select id from content_items limit 1)`)
+check("học sinh không sửa nội dung (không dòng nào bị sửa)", (await db.query(`select count(*)::int c from content_items where sort = -1`)).rows[0].c, 0)
+const insBad = await as("t1", `insert into content_items (id, collection, data, content_hash) values ('zz','vocab','{}','h')`)
+check("giáo viên không thêm nội dung", typeof insBad === "string", true)
+const one = (await db.query(`select id from content_items where collection='exercise' limit 1`)).rows[0].id
+await as("ad", `update content_items set data = jsonb_set(data, '{title}', '"đã sửa"'), content_hash = 'newhash' where id = $1`, [one])
+check("quản trị sửa được", (await db.query(`select content_hash h from content_items where id=$1`, [one])).rows[0].h, "newhash")
+check("bản cũ được lưu vào content_revisions", (await db.query(`select count(*)::int c from content_revisions where item_id=$1 and op='update'`, [one])).rows[0].c, 1)
+await as("ad", `delete from content_items where id = $1`, [one])
+check("xóa cũng lưu bản cũ", (await db.query(`select count(*)::int c from content_revisions where item_id=$1 and op='delete'`, [one])).rows[0].c, 1)
+check("giáo viên không đọc content_revisions", await count("t1", "content_revisions"), 0)

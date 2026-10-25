@@ -42,3 +42,6 @@ next-env.d.ts
 
 # Giữ tệp mẫu biến môi trường (không chứa khóa thật)
 !.env.example
+
+# bản sao lưu nội dung xuất từ cơ sở dữ liệu
+content-backup-*.json
