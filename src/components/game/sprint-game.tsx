@@ -6,6 +6,7 @@ import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { sfx } from "@/lib/audio/sfx"
 import { applySprint, initialSprint, sprintTitle, SPRINT_SECONDS, type SprintState } from "@/lib/game/sprint"
 import { useSettings } from "@/lib/settings"
+import { nextPosition, pickAtPosition } from "@/lib/content/adaptive"
 import { ExerciseView, type Result } from "@/components/exercise/views"
 import { ProgressBar } from "@/components/exercise/progress-bar"
 
@@ -23,7 +24,7 @@ function loadBest(key: string): number {
  * Game mini bấm giờ 60 giây (thử thách từ vựng, xếp từ chạy đua, nghe-gõ): nhận danh sách câu bất kỳ, trả điểm.
  * Độc lập với nguồn nội dung; `onAnswer` để nơi dùng ghi kết quả. `bestKey` là khóa lưu điểm cao nhất theo máy.
  */
-export function SprintGame({ exercises, onAnswer, bestKey, backHref, intro }: { exercises: Exercise[]; onAnswer?: (record: AnswerRecord, exercise: Exercise) => void; bestKey: string; backHref: string; intro?: string }) {
+export function SprintGame({ exercises, onAnswer, bestKey, backHref, intro, adaptive }: { exercises: Exercise[]; onAnswer?: (record: AnswerRecord, exercise: Exercise) => void; bestKey: string; backHref: string; intro?: string; /** Bật chế độ thích ứng: `exercises` đã xếp dễ → khó, bắt đầu ở `start` (0–1), đúng thì khó dần, sai thì dễ lại */ adaptive?: { start: number } }) {
   const { sound } = useSettings()
   const [phase, setPhase] = useState<"ready" | "run" | "done">("ready")
   const [left, setLeft] = useState(SPRINT_SECONDS)
@@ -32,6 +33,9 @@ export function SprintGame({ exercises, onAnswer, bestKey, backHref, intro }: { 
   const [stats, setStats] = useState<SprintState>(initialSprint)
   const [best, setBest] = useState({ value: 0, isNew: false })
   const statsRef = useRef(stats)
+  const positionRef = useRef(adaptive?.start ?? 0)
+  const usedRef = useRef(new Set<string>())
+  const [current, setCurrent] = useState<Exercise>(() => (adaptive ? (pickAtPosition(exercises, new Set(), adaptive.start) ?? exercises[0]) : exercises[0]))
 
   function finish(final: SprintState) {
     const prev = loadBest(bestKey)
@@ -69,12 +73,19 @@ export function SprintGame({ exercises, onAnswer, bestKey, backHref, intro }: { 
     setLeft(SPRINT_SECONDS)
     setIndex(0)
     setResult(null)
+    if (adaptive) {
+      positionRef.current = adaptive.start
+      usedRef.current = new Set()
+      const first = pickAtPosition(exercises, usedRef.current, adaptive.start) ?? exercises[0]
+      usedRef.current.add(first.id)
+      setCurrent(first)
+    } else setCurrent(exercises[0])
     setPhase("run")
   }
 
   function resolve(r: Result) {
     if (result || phase !== "run") return
-    const ex = exercises[index]
+    const ex = current
     const next = applySprint(statsRef.current, r.correct)
     statsRef.current = next
     setStats(next)
@@ -82,11 +93,24 @@ export function SprintGame({ exercises, onAnswer, bestKey, backHref, intro }: { 
     if (sound) (r.correct ? sfx.correct : sfx.wrong)()
     onAnswer?.({ exerciseId: ex.id, correct: r.correct, choiceIndex: r.choiceIndex }, ex)
     setTimeout(() => {
+      if (adaptive) {
+        positionRef.current = nextPosition(positionRef.current, r.correct, { up: 0.08, down: 0.16 })
+        const nextEx = pickAtPosition(exercises, usedRef.current, positionRef.current)
+        if (!nextEx) {
+          finish(statsRef.current)
+          return
+        }
+        usedRef.current.add(nextEx.id)
+        setCurrent(nextEx)
+        setResult(null)
+        return
+      }
       if (index + 1 >= exercises.length) {
         finish(statsRef.current)
         return
       }
       setIndex((i) => i + 1)
+      setCurrent(exercises[index + 1])
       setResult(null)
     }, NEXT_DELAY_MS)
   }
@@ -98,7 +122,7 @@ export function SprintGame({ exercises, onAnswer, bestKey, backHref, intro }: { 
           ⚡
         </p>
         <p className="mt-2 text-xl font-extrabold">{intro ?? `Trả lời thật nhiều câu trong ${SPRINT_SECONDS} giây`}</p>
-        <p className="text-muted-foreground">Mỗi câu đúng 10 điểm, đúng liên tiếp 5 câu được thưởng thêm. Sai không bị trừ điểm.</p>
+        <p className="text-muted-foreground">Mỗi câu đúng 10 điểm, đúng liên tiếp 5 câu được thưởng thêm. Sai không bị trừ điểm.{adaptive ? " Câu bắt đầu vừa sức với bạn: đúng thì khó dần, sai thì dễ lại." : ""}</p>
         <button
           type="button"
           onClick={start}
@@ -149,7 +173,7 @@ export function SprintGame({ exercises, onAnswer, bestKey, backHref, intro }: { 
           {stats.score} <span className="text-sm text-muted-foreground">điểm</span>
         </p>
       </div>
-      <ExerciseView key={exercises[index].id} ex={exercises[index]} result={result} onResolve={resolve} />
+      <ExerciseView key={current.id} ex={current} result={result} onResolve={resolve} />
     </div>
   )
 }

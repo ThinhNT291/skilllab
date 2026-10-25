@@ -111,6 +111,9 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 ## Cập nhật 25/10/2026 (học thuật và động lực)
 - Đã làm 4 mục "học thuật + động lực": thích ứng/ước lượng năng lực, phản hồi lỗi (đáp án ngay hoặc gợi ý trước), xen kẽ + ôn theo ngữ cảnh, động lực không áp lực. Bằng chứng, mức chắc chắn và điều chưa kiểm chứng: `docs/hoc-thuat-dong-luc.md`.
 
+## Cập nhật 28/10/2026
+- Game 60 giây xếp từ chạy đua và nghe-gõ giờ thích ứng: câu xếp dễ → khó (theo số từ + bậc), bắt đầu theo năng lực ước lượng (kể cả từ bài xếp trình độ), đúng thì khó dần, sai thì dễ lại (`lib/game/sprint-ladder.ts`, `useStartPosition`). Còn: áp cho thử thách từ vựng, luyện thường, đọc, nghe; lưu trình độ xếp lớp dùng chung mọi nơi.
+
 ## Cập nhật 27/10/2026
 - Đã làm/tick: mở rộng 50–70 câu cho mọi chuyên đề, nhận xét có cấu trúc, gắn thẻ lỗi, sửa lỗi gõ lại câu đúng, bước dạy trước + độ khó theo màn, 5 âm thanh, hai bộ giao diện theo tuổi, FSRS, hai game mới, can-do và rubric, bảng quy đổi thang (phần đã kiểm chứng).
 - Phần Nghe: nút "Xem lời thoại" xem được bất cứ lúc nào; sau mỗi câu trả lời, lời thoại hiện kèm đoạn làm căn cứ được tô sáng (lấy từ phần trích dẫn trong lời giải thích; tìm thấy ở 212/232 câu).

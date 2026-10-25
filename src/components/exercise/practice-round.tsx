@@ -65,7 +65,7 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
         </Link>
         <h1 className="mt-2 text-3xl font-extrabold">{mode === "race" ? "Xếp từ chạy đua ⚡" : "Nghe và gõ ⚡"}</h1>
         <p className="mb-4 text-muted-foreground">{mode === "race" ? "Sắp xếp các từ thành câu đúng, càng nhiều càng tốt trong 60 giây." : "Nghe câu rồi gõ lại thật nhanh, càng nhiều càng tốt trong 60 giây."}</p>
-        <SprintSession exercises={pool.slice(0, 40)} bestKey={`skilllab.sprintBest.${topic}.${mode}`} backHref={`/hoc/${topic}`} intro={mode === "race" ? "Xếp thật nhiều câu trong 60 giây" : "Nghe và gõ thật nhiều câu trong 60 giây"} />
+        <SprintSession adaptiveSkill="grammar" exercises={pool.slice(0, 60)} bestKey={`skilllab.sprintBest.${topic}.${mode}`} backHref={`/hoc/${topic}`} intro={mode === "race" ? "Xếp thật nhiều câu trong 60 giây" : "Nghe và gõ thật nhiều câu trong 60 giây"} />
       </>
     )
   }
