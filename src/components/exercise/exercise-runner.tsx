@@ -15,7 +15,7 @@ import { Mascot, type Mood } from "@/components/game/mascot"
 import { ProgressBar } from "./progress-bar"
 import { scaffoldFor } from "@/lib/content/derive"
 import type { RuleHints } from "@/lib/content/rule-hints"
-import { WrongFeedback } from "./wrong-feedback"
+import { RetryHint, ReviewNext, WrongFeedback } from "./wrong-feedback"
 import { DictationView, FixView, McqView, ReorderView, SpotView, TypedView, type Result } from "./views"
 
 /** Sao theo số câu đúng, tính từ tỷ lệ nhưng làm tròn theo số câu thực tế để cả bài 3 câu lẫn 10 câu đều có đủ mức. */
@@ -71,7 +71,7 @@ export function ExerciseRunner({
 }: {
   exercises: Exercise[]
   /** Bài thích ứng: câu kế tiếp chọn theo kết quả câu vừa làm (đúng thì khó hơn, sai thì dễ hơn). `exercises` chỉ cần câu đầu. */
-  adaptive?: { ladder: Exercise[]; count: number }
+  adaptive?: { ladder: Exercise[]; count: number; /** vị trí bắt đầu trên thang (0–1) */ start?: number; /** bước lên/xuống sau mỗi câu */ steps?: { up: number; down: number } }
   onAnswer?: (record: AnswerRecord) => void
   /** Gọi một lần khi người học bấm "Xem kết quả" ở câu cuối. */
   onFinish?: () => void
@@ -86,9 +86,9 @@ export function ExerciseRunner({
   /** Nội dung thêm hiện trong khung kết quả của mỗi câu (vd lời thoại kèm căn cứ ở bài nghe). */
   afterResult?: (exercise: Exercise, result: Result) => React.ReactNode
 }) {
-  const { sound, showBac } = useSettings()
+  const { sound, showBac, feedbackMode } = useSettings()
   const [list, setList] = useState(exercises)
-  const positionRef = useRef(START_POSITION)
+  const positionRef = useRef(adaptive?.start ?? START_POSITION)
   const [index, setIndex] = useState(0)
   const [result, setResult] = useState<Result | null>(null)
   const [correctCount, setCorrectCount] = useState(0)
@@ -97,6 +97,9 @@ export function ExerciseRunner({
   const [worn, setWorn] = useState<string[]>([])
   const [offerBonus, setOfferBonus] = useState(false)
   const [levelUp, setLevelUp] = useState<number | null>(null)
+  const [retry, setRetry] = useState<"none" | "offered" | "retried">("none")
+  const [attempt, setAttempt] = useState(0)
+  const [wrongUsages, setWrongUsages] = useState<string[]>([])
 
   useEffect(() => {
     getOwnedItems().then((r) => r.ok && setWorn(r.equipped))
@@ -134,27 +137,46 @@ export function ExerciseRunner({
   }, [done, sound, gainedXp])
   const ex = done ? null : list[index]
 
-  function resolve(r: Result) {
-    if (!ex || result) return
-    setResult(r)
+  /** Ghi nhận kết quả LẦN ĐẦU của một câu: điểm, chuỗi đúng, âm thanh, lưu và bước thích ứng. */
+  function record(r: Result, cur: Exercise) {
     if (r.correct) {
       setCorrectCount((c) => c + 1)
       setStreak((s) => s + 1)
     } else {
       setStreak(0)
-      setWrongIds((w) => [...w, ex.id])
+      setWrongIds((w) => [...w, cur.id])
+      if (cur.usageId) setWrongUsages((w) => [...w, cur.usageId!])
     }
     if (sound) (r.correct ? sfx.correct : sfx.wrong)()
-    onAnswer?.({ exerciseId: ex.id, correct: r.correct, choiceIndex: r.choiceIndex, response: r.response })
+    onAnswer?.({ exerciseId: cur.id, correct: r.correct, choiceIndex: r.choiceIndex, response: r.response })
     if (adaptive && list.length < adaptive.count) {
-      positionRef.current = nextPosition(positionRef.current, r.correct)
+      positionRef.current = nextPosition(positionRef.current, r.correct, adaptive.steps)
       const nxt = pickAtPosition(adaptive.ladder, new Set(list.map((x) => x.id)), positionRef.current)
       if (nxt) setList((l) => [...l, nxt])
     }
   }
 
+  function resolve(r: Result) {
+    if (!ex || result) return
+    // Lần thử lại sau gợi ý: chỉ hiện kết quả, KHÔNG ghi thêm (lần đầu đã được ghi là sai).
+    if (retry !== "none") {
+      setRetry("retried")
+      setResult(r)
+      return
+    }
+    record(r, ex)
+    const retryable = feedbackMode === "hint-first" && (ex.kind === "typed" || ex.kind === "fix" || ex.kind === "reorder")
+    if (retryable && !r.correct) {
+      setRetry("offered")
+      setAttempt((a) => a + 1)
+      return
+    }
+    setResult(r)
+  }
+
   function next() {
     if (sound) sfx.click()
+    setRetry("none")
     const last = index + 1 >= total
     setIndex((n) => n + 1)
     setResult(null)
@@ -170,9 +192,11 @@ export function ExerciseRunner({
 
   function restart() {
     setLevelUp(null)
+    setRetry("none")
+    setWrongUsages([])
     if (adaptive) {
-      positionRef.current = START_POSITION
-      const first = pickAtPosition(adaptive.ladder, new Set(), START_POSITION)
+      positionRef.current = adaptive.start ?? START_POSITION
+      const first = pickAtPosition(adaptive.ladder, new Set(), positionRef.current)
       if (first) setList([first])
     }
     setIndex(0)
@@ -207,6 +231,7 @@ export function ExerciseRunner({
           </p>
         )}
         {wrongIds.length > 0 && <p className="mt-1 text-muted-foreground">{wrongIds.length} câu cần ôn lại</p>}
+        {rules && practiceBase && wrongUsages.length > 0 && <ReviewNext usages={wrongUsages} rules={rules} practiceBase={practiceBase} />}
         {offerBonus && bonusHref && (
           <Link href={bonusHref} className="anim-pop mt-4 block rounded-game border-2 border-accent bg-background px-4 py-3 font-extrabold hover:border-primary">
             🎮 Bạn đã học xong vài vòng! Chơi ghép cặp thưởng nhé?
@@ -247,15 +272,17 @@ export function ExerciseRunner({
         )}
 
         {current.kind === "mcq" && <McqView ex={current} result={result} onResolve={resolve} />}
-        {current.kind === "reorder" && <ReorderView ex={current} result={result} onResolve={resolve} />}
-        {current.kind === "typed" && <TypedView ex={current} result={result} onResolve={resolve} scaffold={scaffoldFor(index, total)} />}
-        {current.kind === "fix" && <FixView ex={current} result={result} onResolve={resolve} scaffold={scaffoldFor(index, total)} />}
+        {current.kind === "reorder" && <ReorderView key={attempt} ex={current} result={result} onResolve={resolve} />}
+        {current.kind === "typed" && <TypedView key={attempt} ex={current} result={result} onResolve={resolve} scaffold={scaffoldFor(index, total)} />}
+        {current.kind === "fix" && <FixView key={attempt} ex={current} result={result} onResolve={resolve} scaffold={scaffoldFor(index, total)} />}
         {current.kind === "spot" && <SpotView ex={current} result={result} onResolve={resolve} />}
         {current.kind === "dictation" && <DictationView ex={current} result={result} onResolve={resolve} />}
 
+        {retry === "offered" && !result && <RetryHint ex={current} rule={current.usageId ? rules?.[current.usageId] : undefined} />}
+
         {result && (
           <div className="mt-4 rounded-game bg-background p-3 font-semibold leading-relaxed" role="status">
-            <p>{result.correct ? "✅ Chính xác!" : "❌ Chưa đúng."}</p>
+            <p>{result.correct ? (retry === "retried" ? "✅ Đúng khi thử lại! Lần đầu chưa đúng nên câu này vẫn được ghi để ôn." : "✅ Chính xác!") : retry === "retried" ? "💡 Vẫn chưa đúng, không sao: xem đáp án bên dưới nhé." : "💡 Chưa đúng, cùng xem nhé."}</p>
             {current.kind === "mcq" ? (
               current.choiceExplanations && current.choiceExplanations.length === current.choices.length ? (
                 <ul className="mt-2 space-y-1.5 text-base">
@@ -279,7 +306,7 @@ export function ExerciseRunner({
               </>
             )}
             {wrong && rules && current.usageId && rules[current.usageId] ? (
-              <WrongFeedback ex={current} choiceIndex={result.choiceIndex} rules={rules} theoryHref={theoryHref?.(current)} practiceBase={practiceBase} />
+              <WrongFeedback ex={current} choiceIndex={result.choiceIndex} rules={rules} theoryHref={theoryHref?.(current)} practiceBase={practiceBase} repeat={wrongUsages.filter((u) => u === current.usageId).length} />
             ) : (
               wrong &&
               theoryHref?.(current) && (

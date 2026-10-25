@@ -67,7 +67,7 @@ export async function getAnswerCounts(): Promise<CountsResult> {
   }
 }
 
-export type TopicRowsResult = { ok: true; rows: { topic: string; correct: boolean; created_at: string }[] } | { ok: false; reason: "not_configured" | "error"; message?: string }
+export type TopicRowsResult = { ok: true; rows: { exercise_id: string; topic: string; correct: boolean; created_at: string }[] } | { ok: false; reason: "not_configured" | "error"; message?: string }
 
 /** Các lượt trả lời gần nhất của mọi chuyên đề (đủ để tính 20 câu gần nhất mỗi chuyên đề với người học thông thường). */
 export async function getRecentTopicRows(limit = 1000): Promise<TopicRowsResult> {
@@ -76,12 +76,12 @@ export async function getRecentTopicRows(limit = 1000): Promise<TopicRowsResult>
     const profile = await ensureProfile()
     const { data, error } = await createClient()
       .from("answers")
-      .select("topic, correct, created_at")
+      .select("exercise_id, topic, correct, created_at")
       .eq("profile_id", profile.id)
       .order("created_at", { ascending: false })
       .limit(limit)
     if (error) return { ok: false, reason: "error", message: error.message }
-    return { ok: true, rows: (data ?? []) as { topic: string; correct: boolean; created_at: string }[] }
+    return { ok: true, rows: (data ?? []) as { exercise_id: string; topic: string; correct: boolean; created_at: string }[] }
   } catch (e) {
     return { ok: false, reason: "error", message: e instanceof Error ? e.message : String(e) }
   }

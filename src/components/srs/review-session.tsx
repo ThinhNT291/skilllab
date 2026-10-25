@@ -6,7 +6,8 @@ import confetti from "canvas-confetti"
 import { getDueCards, reviewCard, type SrsCard } from "@/lib/db"
 import type { Grade } from "@/lib/srs/scheduler"
 import { previewLabels } from "@/lib/srs/preview"
-import { isNewCard, limitNewCards } from "@/lib/srs/queue"
+import { interleaveByTopic, isNewCard, limitNewCards } from "@/lib/srs/queue"
+import { contextFront } from "@/lib/srs/context"
 import { getSettings, useSettings } from "@/lib/settings"
 import { markNewCardDone, newCardsDoneToday } from "@/lib/srs/daily"
 import { isGrammarTopic, topicHref } from "@/lib/content/links"
@@ -61,7 +62,7 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
       }
       const limited = limitNewCards(res.value, newCardsDoneToday(), getSettings().newPerDay)
       setDeferred(limited.deferred)
-      setQueue(limited.cards)
+      setQueue(interleaveByTopic(limited.cards))
       setTotal(limited.cards.length)
       setLoad({ status: "ready" })
     })
@@ -168,7 +169,7 @@ export function ReviewSession({ topicTitles }: { topicTitles: Record<string, str
           backLabel="Đáp án"
           flipped={flipped}
           onFlip={() => setFlipped((f) => !f)}
-          front={<p className="text-2xl font-extrabold leading-relaxed">{current.front}</p>}
+          front={<p className="text-2xl font-extrabold leading-relaxed">{contextFront(current) ?? current.front}</p>}
           back={
             <>
               <p className="rounded-2xl bg-success-soft px-4 py-2 text-2xl font-extrabold text-success">{current.answer}</p>

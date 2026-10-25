@@ -6,6 +6,8 @@ import type { Exercise, GrammarTheory, McqExercise } from "./types.ts"
 
 export interface RuleHint {
   id: string
+  /** Chuyên đề chứa mục này (để dẫn về đúng trang lý thuyết/luyện riêng, kể cả khi trộn nhiều chuyên đề) */
+  topicId: string
   label: string
   /** Giải thích tiếng Việt, đã rút gọn */
   explanationVi: string
@@ -21,11 +23,12 @@ function shorten(text: string, max = 260): string {
   return (end > 80 ? cut.slice(0, end + 1) : cut.replace(/\s+\S*$/, "")) + (end > 80 ? "" : "…")
 }
 
-export function buildRuleHints(theory: GrammarTheory): RuleHints {
+export function buildRuleHints(theory: GrammarTheory, topicId = ""): RuleHints {
   const out: RuleHints = {}
   for (const u of theory.usages) {
     out[u.id] = {
       id: u.id,
+      topicId,
       label: u.label,
       explanationVi: shorten(u.explanationVi),
       example: u.examples[0] ? { en: u.examples[0].en, vi: u.examples[0].vi } : null,

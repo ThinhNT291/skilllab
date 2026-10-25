@@ -10,9 +10,9 @@ import { useSettings } from "@/lib/settings"
 
 /** Dải "hôm nay" ở trang chủ: lời chào, chuỗi ngày, mục tiêu và nút học tiếp. */
 export function TodayPanel() {
-  const { dailyGoal, ageSet } = useSettings()
+  const { dailyGoal, ageSet, calmMode } = useSettings()
   const { state: player } = usePlayer()
-  const [data, setData] = useState<{ today: number; streak: number; due: number; hour: number } | null>(null)
+  const [data, setData] = useState<{ today: number; streak: number; onRestDay: boolean; due: number; hour: number } | null>(null)
 
   useEffect(() => {
     let cancelled = false
@@ -23,6 +23,7 @@ export function TodayPanel() {
       setData({
         today: counts.get(dayKey(now)) ?? 0,
         streak: computeStreaks(counts, now).current,
+        onRestDay: computeStreaks(counts, now).onRestDay,
         due: due.ok ? due.value : 0,
         hour: now.getHours(),
       })
@@ -33,6 +34,7 @@ export function TodayPanel() {
   }, [])
 
   const done = data ? data.today >= dailyGoal : false
+  const showGoal = !calmMode
   const pct = data ? Math.min(100, Math.round((data.today / dailyGoal) * 100)) : 0
   const hour = data?.hour
   const greeting = hour === undefined ? "Chào bạn!" : hour < 11 ? "Chào buổi sáng!" : hour < 18 ? "Chào bạn!" : "Chào buổi tối!"
@@ -48,20 +50,32 @@ export function TodayPanel() {
           <p className="text-muted-foreground">
             {data === null
               ? "Đang tải…"
-              : done
-                ? "Bạn đã đạt mục tiêu hôm nay. Học thêm cho vui nhé!"
-                : `Mục tiêu hôm nay: ${data.today}/${dailyGoal} câu`}
+              : !showGoal
+                ? "Học một chút cũng tốt. Bạn muốn học gì hôm nay?"
+                : done
+                  ? "Bạn đã đạt mục tiêu hôm nay. Học thêm cho vui nhé!"
+                  : data.today === 0
+                    ? `Gợi ý hôm nay: ${dailyGoal} câu. Chỉ cần bắt đầu là tốt rồi.`
+                    : `Hôm nay bạn đã làm ${data.today}/${dailyGoal} câu`}
           </p>
-          <div className="h-3 w-full max-w-sm overflow-hidden rounded-full bg-border" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct} aria-label="Tiến độ mục tiêu hôm nay">
+          {showGoal && <div className="h-3 w-full max-w-sm overflow-hidden rounded-full bg-border" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct} aria-label="Tiến độ mục tiêu hôm nay">
             <div className={`h-full rounded-full transition-[width] duration-700 ${done ? "bg-success" : "bg-primary"}`} style={{ width: `${pct}%` }} />
-          </div>
+          </div>}
+          {data && data.today >= Math.max(30, dailyGoal * 3) && (
+            <p className="text-sm font-extrabold text-foreground">Hôm nay bạn đã học rất nhiều rồi. Nghỉ mắt, uống nước, mai học tiếp nhé!</p>
+          )}
           {data && (
             <p className="text-sm text-muted-foreground">
-              <span aria-hidden="true">🔥 </span>
-              {data.streak} ngày liên tiếp
+              {showGoal && (
+                <>
+                  <span aria-hidden="true">🔥 </span>
+                  {data.streak} ngày học
+                  {data.onRestDay ? " (hôm qua nghỉ, học hôm nay là chuỗi vẫn tiếp)" : ""}
+                </>
+              )}
               {player.status === "ready" && (
                 <>
-                  {" · "}
+                  {showGoal && " · "}
                   {ageSet === "kids" ? `🪙 ${player.player.coins} xu` : `Cấp ${player.player.level.level} · ${player.player.xp} XP`}
                 </>
               )}

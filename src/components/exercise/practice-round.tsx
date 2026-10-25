@@ -10,18 +10,20 @@ import { buildLadder, pickAtPosition, START_POSITION } from "@/lib/content/adapt
 import { pickHardRound, pickRound, pickRoundForTag } from "@/lib/content/rounds"
 import { buildRuleHints, pickWarmup, usagesInRound } from "@/lib/content/rule-hints"
 import { PreLesson } from "./pre-lesson"
+import { AdaptivePractice } from "./adaptive-practice"
+import { itemRating } from "@/lib/progress/ability"
 import { TestSession } from "./test-session"
 import { PracticeSession } from "./practice-session"
 
 /** Một lượt luyện của một chuyên đề. Mỗi lần mở là một lượt câu khác nhau (chạy lúc có yêu cầu, không dựng sẵn lúc build). */
-export async function PracticeRound({ topic, mode = "normal", tag }: { topic: string; mode?: "normal" | "hard" | "dictation" | "match" | "test" | "race" | "listen-type"; tag?: string }) {
+export async function PracticeRound({ topic, mode = "normal", tag }: { topic: string; mode?: "normal" | "hard" | "dictation" | "match" | "test" | "race" | "listen-type" | "adaptive"; tag?: string }) {
   await connection()
   const data = await getGrammarTopic("en", topic)
   if (!data) notFound()
   const all = await getExercises("en", topic)
   if (!all.length) notFound()
 
-  const rules = buildRuleHints(data.theory)
+  const rules = buildRuleHints(data.theory, topic)
   const tagLabel = tag ? data.theory.usages.find((u) => u.id === tag)?.label : undefined
   if (mode === "match") {
     const pairs = pickMatchPairs(all)
@@ -34,6 +36,21 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
         <h1 className="mt-2 text-3xl font-extrabold">Ghép cặp ⏱</h1>
         <p className="mb-4 text-muted-foreground">Ghép mỗi câu với từ điền đúng chỗ trống, càng nhanh càng tốt.</p>
         <MatchSession pairs={pairs} />
+      </>
+    )
+  }
+
+  if (mode === "adaptive") {
+    const ladder = shuffle(all.filter((e) => e.kind === "mcq")).sort((a, b) => itemRating(a.bac ?? 2, a.difficulty) - itemRating(b.bac ?? 2, b.difficulty))
+    if (ladder.length < 12) notFound()
+    return (
+      <>
+        <Link href={`/hoc/${topic}`} className="text-sm text-primary underline underline-offset-4">
+          ← {data.title}
+        </Link>
+        <h1 className="mt-2 text-3xl font-extrabold">Luyện thích ứng 🎯</h1>
+        <p className="mb-2 text-muted-foreground">Câu hỏi tự chọn vừa sức với bạn: làm đúng thì khó dần từ từ, sai thì dễ lại ngay để bạn không nản.</p>
+        <AdaptivePractice ladder={ladder} theoryBase={`/hoc/${topic}`} rules={rules} />
       </>
     )
   }

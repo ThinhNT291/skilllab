@@ -78,10 +78,10 @@ Hệ thống ứng viên để tham khảo **(danh sách gợi ý, chưa khảo 
 
 Chủ đề cần đề xuất (mỗi chủ đề: vấn đề, bằng chứng, đề xuất, chi phí):
 - [x] Thuật toán ôn lặp lại: đã triển khai FSRS song song SM-2 (`docs/srs-sm2-vs-fsrs.md`); [ ] đánh giá bằng số liệu thật còn chờ dữ liệu.
-- [ ] Độ khó thích ứng và xếp trình độ liên tục.
-- [ ] Phản hồi lỗi: sửa ngay hay gợi ý trước, phản hồi theo tag lỗi.
-- [ ] Luyện cách quãng xen kẽ (interleaving) và ôn theo ngữ cảnh.
-- [ ] Động lực: streak, mục tiêu hằng ngày, và cách tránh gây áp lực/lo âu cho học sinh 9–15 tuổi.
+- [x] Độ khó thích ứng và xếp trình độ liên tục. (Elo theo bậc/mức khó, `/hoc/[topic]/thich-ung`, bậc ước lượng ở `/tien-do`; cần dữ liệu thật để chỉnh. Xem `docs/hoc-thuat-dong-luc.md`)
+- [x] Phản hồi lỗi: sửa ngay hay gợi ý trước, phản hồi theo tag lỗi. (mặc định xem đáp án ngay; "gợi ý rồi thử lại" là tùy chọn vì chưa có bằng chứng cho lứa tuổi này)
+- [x] Luyện cách quãng xen kẽ (interleaving) và ôn theo ngữ cảnh. (`/luyen-xen-ke` chỉ trong nhóm chuyên đề dễ lẫn; hàng thẻ ôn xen chuyên đề; thẻ từ vựng đổi sang điền từ vào câu)
+- [x] Động lực: streak, mục tiêu hằng ngày, và cách tránh gây áp lực/lo âu cho học sinh 9–15 tuổi. (ngày nghỉ 1/7 ngày, lời lẽ không trách, chế độ nhẹ nhàng, nhắc nghỉ; bằng chứng về lo âu do streak còn yếu)
 - [ ] Trình bày kết quả cho học sinh, phụ huynh và giáo viên (ba góc nhìn khác nhau).
 - [x] Khả năng truy cập (đợt 1): cỡ chữ, tương phản, bàn phím, liên kết bỏ qua, quét axe-core sạch. [ ] Còn: thử với trình đọc màn hình thật, chế độ tương phản cao, kiểm tra trên thiết bị thật.
 
@@ -107,6 +107,9 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 
 ## Cập nhật 26/10/2026
 Đã làm: 21 chuyên đề mở rộng lên 50 câu (có phản biện độc lập + sửa), từ vựng B2, Nghe hiểu `/nghe`, gợi ý dàn ý Viết, tra từ theo ngữ cảnh. Còn lại: CAPTCHA/hạn mức chấm (đã hoãn), trang About + dọn `legacy/`, Shadowing, đăng nhập thật; nhờ giáo viên duyệt nghĩa tiếng Việt của từ vựng, bài đọc/bài nghe và số liệu thật trong bài đọc.
+
+## Cập nhật 25/10/2026 (học thuật và động lực)
+- Đã làm 4 mục "học thuật + động lực": thích ứng/ước lượng năng lực, phản hồi lỗi (đáp án ngay hoặc gợi ý trước), xen kẽ + ôn theo ngữ cảnh, động lực không áp lực. Bằng chứng, mức chắc chắn và điều chưa kiểm chứng: `docs/hoc-thuat-dong-luc.md`.
 
 ## Cập nhật 27/10/2026
 - Đã làm/tick: mở rộng 50–70 câu cho mọi chuyên đề, nhận xét có cấu trúc, gắn thẻ lỗi, sửa lỗi gõ lại câu đúng, bước dạy trước + độ khó theo màn, 5 âm thanh, hai bộ giao diện theo tuổi, FSRS, hai game mới, can-do và rubric, bảng quy đổi thang (phần đã kiểm chứng).

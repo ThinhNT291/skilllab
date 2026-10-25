@@ -33,6 +33,8 @@ export const DAILY_GOALS = [5, 10, 20, 30] as const
 export const NEW_CARD_LIMITS = [5, 10, 20] as const
 /** Thuật toán lập lịch ôn tập: FSRS (mặc định) hoặc SM-2 (cũ). Chọn theo máy; cả hai đều được tính mỗi lượt ôn nên đổi qua lại không mất dữ liệu. */
 export type SrsAlgorithm = "fsrs" | "sm2"
+/** Khi gõ/sắp xếp/sửa lỗi sai lần đầu: hiện đáp án ngay, hoặc cho gợi ý rồi thử lại một lần (lần đầu vẫn tính là sai). Mặc định hiện ngay. */
+export type FeedbackMode = "immediate" | "hint-first"
 export const RETENTIONS = [0.85, 0.9, 0.95] as const
 
 export interface Settings {
@@ -48,6 +50,9 @@ export interface Settings {
   character: Character
   ageSet: AgeSet
   srsAlgorithm: SrsAlgorithm
+  feedbackMode: FeedbackMode
+  /** Chế độ nhẹ nhàng: ẩn chuỗi ngày và mục tiêu hằng ngày, không nhắc nhở, giữ phần thưởng nhỏ */
+  calmMode: boolean
   /** Mức nhớ mục tiêu của FSRS (0.85 / 0.9 / 0.95) */
   retention: number
   /** Đã qua màn chọn nhân vật và bộ giao diện lần đầu chưa */
@@ -55,7 +60,7 @@ export interface Settings {
 }
 
 const KEY = "skilllab.settings"
-const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", showBac: false, dailyGoal: 10, newPerDay: 10, character: "owl", ageSet: "kids", srsAlgorithm: "fsrs", retention: 0.9, onboarded: false }
+const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", showBac: false, dailyGoal: 10, newPerDay: 10, character: "owl", ageSet: "kids", srsAlgorithm: "fsrs", feedbackMode: "immediate", calmMode: false, retention: 0.9, onboarded: false }
 const listeners = new Set<() => void>()
 let cache: Settings | null = null
 
@@ -70,7 +75,7 @@ function read(): Settings {
       const fontSize = FONT_SIZES.some((f) => f.id === p.fontSize) ? (p.fontSize as FontSize) : DEFAULTS.fontSize
       const character = CHARACTERS.some((c) => c.id === p.character) ? (p.character as Character) : DEFAULTS.character
       const ageSet = AGE_SETS.some((a) => a.id === p.ageSet) ? (p.ageSet as AgeSet) : DEFAULTS.ageSet
-      return { skin, sound: p.sound !== false, fontSize, showBac: p.showBac === true, dailyGoal, newPerDay, character, ageSet, srsAlgorithm: p.srsAlgorithm === "sm2" ? "sm2" : "fsrs", retention: (RETENTIONS as readonly number[]).includes(p.retention as number) ? (p.retention as number) : DEFAULTS.retention, onboarded: p.onboarded === true }
+      return { skin, sound: p.sound !== false, fontSize, showBac: p.showBac === true, dailyGoal, newPerDay, character, ageSet, srsAlgorithm: p.srsAlgorithm === "sm2" ? "sm2" : "fsrs", feedbackMode: p.feedbackMode === "hint-first" ? "hint-first" : "immediate", calmMode: p.calmMode === true, retention: (RETENTIONS as readonly number[]).includes(p.retention as number) ? (p.retention as number) : DEFAULTS.retention, onboarded: p.onboarded === true }
     }
   } catch {
     // Trình duyệt chặn lưu trữ: dùng mặc định

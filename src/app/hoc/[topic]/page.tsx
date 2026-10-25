@@ -69,6 +69,12 @@ async function TopicContent({ params }: { params: PageProps<"/hoc/[topic]">["par
           >
             Kiểm tra cuối chủ điểm 🏅
           </Link>
+          <Link
+            href={`/hoc/${topic}/thich-ung`}
+            className="inline-block rounded-game border-2 border-b-[5px] border-border bg-card px-6 py-3 text-lg font-extrabold text-foreground active:translate-y-[3px] active:border-b-2"
+          >
+            Luyện thích ứng 🎯
+          </Link>
           {canRace && (
             <Link
               href={`/hoc/${topic}/chay-dua`}
