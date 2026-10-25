@@ -21,6 +21,21 @@ export default async function VocabHome() {
           </li>
         ))}
       </ul>
+      <h2 className="mb-2 mt-8 text-xl font-extrabold">Học nâng cao</h2>
+      <ul className="grid gap-3 sm:grid-cols-2">
+        <li>
+          <Link href="/tu-vung/chu-de" className="block rounded-game border-2 border-border bg-card px-4 py-4 hover:border-primary">
+            <span className="text-xl font-extrabold">🗂 Theo chủ đề</span>
+            <span className="block text-muted-foreground">Gom từ A1–B2 theo nhóm, thêm từ vào thẻ ôn riêng</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="/tu-vung/cum-tu" className="block rounded-game border-2 border-border bg-card px-4 py-4 hover:border-primary">
+            <span className="text-xl font-extrabold">🔗 Cụm từ kết hợp</span>
+            <span className="block text-muted-foreground">make a decision, heavy rain… từ nào đi với từ nào</span>
+          </Link>
+        </li>
+      </ul>
       <p className="mt-6 text-sm text-muted-foreground">Danh sách từ và định nghĩa dựa trên English Vocabulary Profile (Cambridge University Press &amp; Assessment), dùng cho mục đích học tập cá nhân, phi thương mại.</p>
     </main>
   )

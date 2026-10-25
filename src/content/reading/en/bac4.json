@@ -606,5 +606,449 @@
         ]
       }
     ]
+  },
+  {
+    "id": "rd-b4-009",
+    "bac": 4,
+    "title": "Why Sunsets Turn Red",
+    "text": "On a clear afternoon, the sky is a deep, cheerful blue. A few hours later, the same sky may glow orange, pink, and red. Nothing in the sky has been painted; what changes is the path the light takes to reach your eyes.\n\nSunlight looks white, but it is actually a mixture of colors. As it passes through the atmosphere, it collides with gas molecules and tiny particles, which scatter the light in different directions. Blue light has a short wavelength, so it is scattered far more easily than red light. At midday, when the sun is high overhead, the light travels through a relatively thin layer of air, and plenty of scattered blue light reaches us from every part of the sky. That is why the sky appears blue.\n\nAt sunset, the sun sits low on the horizon, and its light must cross a much thicker layer of atmosphere before it reaches us. Along the way, most of the blue light is scattered out of the direct beam. What remains is mostly the longer wavelengths: orange and red. Dust, smoke, or moisture in the air can make the effect stronger, which is why sunsets after a wildfire can look unusually dramatic.\n\nSunrises follow the same rules, although the air in the morning is often cleaner and calmer, so the colors may look softer. Next time you watch the sky change, remember that you are seeing the result of a long journey, not a change in the sun itself.",
+    "questions": [
+      {
+        "prompt": "What is the main purpose of the passage?",
+        "choices": [
+          "To describe how sunlight is produced by the sun",
+          "To explain why the sky changes color",
+          "To compare sunsets seen in different countries",
+          "To warn readers about air pollution"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài mở đầu bằng việc bầu trời đổi màu rồi giải thích đường đi của ánh sáng qua khí quyển là nguyên nhân.",
+        "choiceExplanations": [
+          "Sai — 'produced by the sun': bài không nói ánh sáng mặt trời được tạo ra thế nào.",
+          "Đúng — toàn bài giải thích vì sao bầu trời xanh lúc trưa và đỏ lúc hoàng hôn.",
+          "Sai — 'different countries': bài không so sánh các quốc gia.",
+          "Sai — 'air pollution': khói bụi chỉ được nhắc như một yếu tố làm màu rõ hơn, không phải lời cảnh báo."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The sky looks blue at midday because blue light is scattered more easily than red light.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 2 nói 'Blue light ... is scattered far more easily than red light' và 'That is why the sky appears blue'.",
+        "choiceExplanations": [
+          "Đúng — đoạn 2 nêu đúng nguyên nhân này.",
+          "Sai — 'False': nhận định khớp với đoạn 2, không mâu thuẫn.",
+          "Sai — 'Not given': bài có nêu rõ thông tin này ở đoạn 2."
+        ]
+      },
+      {
+        "prompt": "In the third paragraph, the word 'dramatic' is closest in meaning to",
+        "choices": [
+          "related to plays",
+          "frightening and dangerous",
+          "slow and gradual",
+          "striking and impressive"
+        ],
+        "correctIndex": 3,
+        "explanation": "'Unusually dramatic' mô tả hoàng hôn có màu mạnh, gây ấn tượng, không liên quan đến sân khấu.",
+        "choiceExplanations": [
+          "Sai — 'related to plays': nghĩa này không hợp với ngữ cảnh bầu trời.",
+          "Sai — 'frightening and dangerous': bài không nói hoàng hôn nguy hiểm.",
+          "Sai — 'slow and gradual': 'dramatic' nói về độ nổi bật, không nói về tốc độ; 'unusually' còn nhấn mạnh sự khác thường.",
+          "Đúng — hoàng hôn sau cháy rừng có màu nổi bật, gây ấn tượng mạnh."
+        ]
+      },
+      {
+        "prompt": "What can be inferred about a sunset seen after a large wildfire?",
+        "choices": [
+          "It will look blue instead of red or orange.",
+          "It will last for a much shorter time.",
+          "It may look more colorful.",
+          "It will happen earlier in the day."
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài nói khói bụi làm hiệu ứng mạnh hơn, nên hoàng hôn sau cháy rừng có thể rực rỡ hơn bình thường.",
+        "choiceExplanations": [
+          "Sai — 'blue': ánh sáng xanh bị tán xạ đi nên còn lại cam và đỏ.",
+          "Sai — 'shorter': bài không nói gì về thời gian hoàng hôn.",
+          "Đúng — 'Dust, smoke, or moisture ... can make the effect stronger'.",
+          "Sai — 'earlier': giờ mặt trời lặn không bị khói thay đổi theo bài."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-010",
+    "bac": 4,
+    "title": "In Defense of Boredom",
+    "text": "Few things make a modern teenager as uncomfortable as a free hour with nothing to do. Within seconds, a hand reaches for a phone. I want to argue that this reflex is costing us something valuable: the chance to be bored.\n\nBoredom feels unpleasant, which is exactly why we try to escape it. Yet some psychologists who study creativity point out that the mind does some of its most useful work when it is not being entertained. When nothing demands our attention, thoughts wander, connect unrelated ideas, and sometimes arrive at a surprising solution. Many writers and inventors describe their best ideas arriving during a long walk or a quiet bath, not while they were staring at a screen.\n\nCritics may say that boredom is a waste of time, and that a phone can teach us languages or show us the world. That is true, and I am not suggesting we throw our devices away. But there is a difference between using a tool on purpose and grabbing it to avoid an empty moment. The first is a choice; the second is a habit.\n\nHere is a modest experiment. For one week, leave your phone in your bag during the bus ride or the walk to school. At first, the minutes will feel long. By the end of the week, you may find yourself noticing things, planning things, or simply daydreaming. Boredom is not an enemy. It is the empty room in which new ideas finally have space to move.",
+    "questions": [
+      {
+        "prompt": "Why did the writer write this passage?",
+        "choices": [
+          "To advertise a new phone app",
+          "To describe a scientific experiment about attention",
+          "To persuade readers that boredom is useful",
+          "To criticize teachers who give little homework"
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu mở đầu và kết ('Boredom is not an enemy') cho thấy tác giả muốn thuyết phục người đọc rằng chán cũng có ích.",
+        "choiceExplanations": [
+          "Sai — 'phone app': bài không quảng cáo ứng dụng nào.",
+          "Sai — 'scientific experiment': 'experiment' ở cuối chỉ là lời đề nghị thử, không phải mô tả một thí nghiệm khoa học.",
+          "Đúng — cả bài lập luận rằng khoảng trống nhàm chán giúp ý tưởng mới xuất hiện.",
+          "Sai — 'teachers': bài không nhắc đến giáo viên hay bài tập."
+        ]
+      },
+      {
+        "prompt": "Which statement would the writer most likely agree with?",
+        "choices": [
+          "Empty time can be valuable.",
+          "Devices should be removed from teenagers' daily lives.",
+          "Creative people never use technology.",
+          "Boredom becomes pleasant once you get used to it."
+        ],
+        "correctIndex": 0,
+        "explanation": "Tác giả cho rằng khi không có gì chiếm sự chú ý, đầu óc nảy ra ý tưởng; vì vậy thời gian trống có giá trị.",
+        "choiceExplanations": [
+          "Đúng — 'the mind does some of its most useful work when it is not being entertained'.",
+          "Sai — 'removed': tác giả nói 'I am not suggesting we throw our devices away'.",
+          "Sai — 'never use technology': bài không nói thế; chỉ nói ý hay đến lúc đi dạo hay tắm.",
+          "Sai — 'pleasant': bài nói chán 'feels unpleasant', không nói nó trở nên dễ chịu."
+        ]
+      },
+      {
+        "prompt": "In the first paragraph, 'reflex' means",
+        "choices": [
+          "a carefully planned decision",
+          "a kind of physical exercise",
+          "a rule made by parents",
+          "an automatic reaction"
+        ],
+        "correctIndex": 3,
+        "explanation": "'Within seconds, a hand reaches for a phone' mô tả hành động tự động, không suy nghĩ.",
+        "choiceExplanations": [
+          "Sai — 'carefully planned': trái với việc làm trong vài giây mà không nghĩ.",
+          "Sai — 'physical exercise': chỉ là một cử động tay, không phải bài tập.",
+          "Sai — 'a rule': bài không nói về quy định của cha mẹ.",
+          "Đúng — tay tự động với lấy điện thoại, đó là phản xạ."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The writer believes teenagers should give up their phones completely.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 3 viết 'I am not suggesting we throw our devices away', nên nhận định là sai.",
+        "choiceExplanations": [
+          "Sai — 'True': tác giả phủ nhận việc bỏ hẳn điện thoại.",
+          "Đúng — câu 'I am not suggesting we throw our devices away' mâu thuẫn trực tiếp với nhận định.",
+          "Sai — 'Not given': bài có nói rõ quan điểm này ở đoạn 3."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-011",
+    "bac": 4,
+    "title": "A Park, Not a Parking Lot",
+    "text": "To the Editor:\n\nI was disappointed to read that the city council plans to turn Willow Field, the small park behind the library, into a parking lot. As a resident of this neighborhood for twelve years, I would like to explain why this plan is a mistake.\n\nSupporters of the proposal argue that downtown shoppers struggle to find spaces, and I do not deny that traffic can be frustrating on Saturdays. However, a parking lot would solve this problem only temporarily. More spaces tend to attract more cars, and within a few years the new lot would probably be just as crowded as the streets around it.\n\nMeanwhile, the loss would be permanent. Willow Field is where children from three nearby schools play after class, where elderly neighbors sit in the shade, and where the farmers' market sets up every spring. Once the trees are cut down and the ground is covered with asphalt, no amount of money will bring that community space back.\n\nThere are better alternatives. The council could build a bike rack and bus stop beside the library, or ask the owners of the half-empty lot near the train station to open it to the public on weekends. These options are cheaper and would keep the park intact.\n\nI urge the council to listen to residents before the vote next month. A city is judged not only by how easily people can park, but by whether they want to stay.\n\nSincerely,\nDaniel Ortiz",
+    "questions": [
+      {
+        "prompt": "What is the writer's main purpose?",
+        "choices": [
+          "To thank the council for improving the local library",
+          "To explain how new technology can reduce traffic",
+          "To announce the opening of a new market",
+          "To persuade the council to keep the park"
+        ],
+        "correctIndex": 3,
+        "explanation": "Ngay từ đoạn đầu tác giả nói kế hoạch là 'a mistake' và cuối thư 'urge the council' lắng nghe cư dân.",
+        "choiceExplanations": [
+          "Sai — 'thank the council': thư phản đối, không cảm ơn.",
+          "Sai — 'technology': bài không nói về công nghệ giảm kẹt xe.",
+          "Sai — 'new market': chợ nông sản chỉ là một chi tiết cũ về công viên.",
+          "Đúng — thư phản đối kế hoạch biến công viên thành bãi đậu xe."
+        ]
+      },
+      {
+        "prompt": "In the paragraph that begins 'There are better alternatives', 'keep the park intact' means to keep it",
+        "choices": [
+          "open to everyone at all times",
+          "whole",
+          "nicely decorated with flowers",
+          "under supervision"
+        ],
+        "correctIndex": 1,
+        "explanation": "'Intact' nghĩa là còn nguyên vẹn; các phương án thay thế giúp không phải phá công viên.",
+        "choiceExplanations": [
+          "Sai — 'open to everyone': công viên vốn mở, từ 'intact' không nói về việc mở cửa.",
+          "Đúng — các phương án thay thế cho phép giữ công viên nguyên vẹn, không bị phá.",
+          "Sai — 'nicely decorated': bài không nhắc trang trí.",
+          "Sai — 'under supervision': bài không nhắc giám sát."
+        ]
+      },
+      {
+        "prompt": "What does the writer imply about the proposed parking lot?",
+        "choices": [
+          "It would be cheaper than every other possible option.",
+          "It would be built near the train station.",
+          "It might not fix the problem.",
+          "Most residents already support the plan."
+        ],
+        "correctIndex": 2,
+        "explanation": "Tác giả nói bãi mới 'would probably be just as crowded' sau vài năm, tức có thể không giải quyết được vấn đề.",
+        "choiceExplanations": [
+          "Sai — 'cheaper': chính các phương án khác mới được gọi là 'cheaper'.",
+          "Sai — 'train station': bãi gần ga là bãi đã có, không phải bãi mới đề xuất.",
+          "Đúng — 'More spaces tend to attract more cars' nên bãi sẽ lại đông.",
+          "Sai — 'support': bài không nói đa số cư dân ủng hộ; tác giả kêu gọi lắng nghe họ."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The writer admits that traffic can be a problem on Saturdays.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 2: 'I do not deny that traffic can be frustrating on Saturdays'.",
+        "choiceExplanations": [
+          "Đúng — 'I do not deny' nghĩa là thừa nhận.",
+          "Sai — 'False': tác giả không phủ nhận vấn đề giao thông.",
+          "Sai — 'Not given': thông tin này có trong đoạn 2."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-012",
+    "bac": 4,
+    "title": "Wangari Maathai: Planting Hope",
+    "text": "Wangari Maathai grew up in a farming village in the highlands of Kenya, where fig trees shaded the streams and the soil was dark and fertile. Her parents valued education, and she became an excellent student, eventually earning a scholarship to study biology in the United States. When she returned to Kenya, she became a university researcher and teacher.\n\nOver the years, however, Maathai noticed that the landscape of her childhood was changing. Forests were being cleared for farms and building projects, rivers were drying up, and rural women had to walk farther each day to find firewood and clean water. She realized that these problems were connected, and that a simple action could help: planting trees.\n\nIn 1977, she founded the Green Belt Movement, which paid poor rural women a small amount to grow seedlings and plant them. The project gave women income and independence while restoring the land. It was not always welcomed. Government officials sometimes saw her as a troublemaker, and she was arrested more than once for protesting against the destruction of public land. She refused to give up.\n\nIn 2004, Maathai became the first African woman to win the Nobel Peace Prize, an honor that surprised some people because she was known as an environmentalist. The committee, however, argued that protecting the environment and building peace are closely linked, since competition for scarce resources often leads to conflict. She died in 2011, but the movement she began continues to this day.",
+    "questions": [
+      {
+        "prompt": "Which sentence best summarizes the passage?",
+        "choices": [
+          "A scientist turned an environmental worry into a movement.",
+          "A government protected a Kenyan village by banning tree cutting.",
+          "A university added new biology courses to meet the needs of farmers.",
+          "A young student left Kenya to escape the loss of her childhood home."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài kể Maathai thấy rừng và nước cạn kiệt, lập Green Belt Movement giúp phụ nữ và phục hồi đất, rồi nhận giải Nobel.",
+        "choiceExplanations": [
+          "Đúng — bà biến mối lo về môi trường thành phong trào giúp con người và đất đai.",
+          "Sai — 'government ... banning': chính quyền đôi khi chống lại bà, không bảo vệ làng.",
+          "Sai — 'university added': bài không nói về việc thêm khóa học.",
+          "Sai — 'escape': bà trở về Kenya, không bỏ đi để trốn tránh."
+        ]
+      },
+      {
+        "prompt": "In the last paragraph, 'scarce' is closest in meaning to",
+        "choices": [
+          "very valuable",
+          "badly managed by officials",
+          "hard to get",
+          "easy to share with others"
+        ],
+        "correctIndex": 2,
+        "explanation": "'Competition for scarce resources' nghĩa là tranh giành những thứ không đủ dùng.",
+        "choiceExplanations": [
+          "Sai — 'very valuable': quý giá khác với khan hiếm.",
+          "Sai — 'badly managed': bài không nói về quản lý kém.",
+          "Đúng — tranh giành xảy ra khi tài nguyên thiếu.",
+          "Sai — 'easy to share': nếu dễ chia sẻ thì không dẫn tới xung đột."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Maathai founded the Green Belt Movement before she studied in the United States.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bà học ở Mỹ ở đoạn 1 rồi mới lập phong trào năm 1977 ở đoạn 3, nên nhận định sai.",
+        "choiceExplanations": [
+          "Sai — 'True': thứ tự thực tế ngược lại.",
+          "Đúng — bà học ở Mỹ trước, sau đó trở về Kenya và lập phong trào năm 1977.",
+          "Sai — 'Not given': trình tự có thể suy ra từ đoạn 1 và đoạn 3."
+        ]
+      },
+      {
+        "prompt": "What can be inferred about the Green Belt Movement?",
+        "choices": [
+          "It was supported by the government from the start.",
+          "It only employed highly trained scientists.",
+          "It ended when Maathai died.",
+          "It helped people as well as land."
+        ],
+        "correctIndex": 3,
+        "explanation": "Phong trào trả công cho phụ nữ nông thôn, tạo thu nhập và độc lập, đồng thời phục hồi đất.",
+        "choiceExplanations": [
+          "Sai — 'supported by the government': quan chức đôi khi coi bà là kẻ gây rối.",
+          "Sai — 'trained scientists': người tham gia là phụ nữ nông thôn nghèo.",
+          "Sai — 'ended': bài nói phong trào 'continues to this day'.",
+          "Đúng — nó vừa phục hồi đất vừa tạo thu nhập và độc lập cho phụ nữ."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-013",
+    "bac": 4,
+    "title": "How Bats See with Sound",
+    "text": "Bats have a reputation for being blind, but the saying \"blind as a bat\" is unfair. Most bats can see quite well. What makes them remarkable is that they can also \"see\" with sound, a skill scientists call echolocation.\n\nIn most bats, the process begins in the throat, where the animal produces a series of very high-pitched calls, usually too high for human ears to hear. These sounds travel outward until they hit an object, such as a tree, a wall, or an insect, and then bounce back. The bat's large, sensitive ears collect the returning echoes, and its brain compares them with the original call. A short delay means the object is close; a long delay means it is far away. Differences in the echo can also reveal the object's size, shape, and even whether it is moving.\n\nThis system is so precise that some bats can catch tiny insects in complete darkness. When a bat closes in on its prey, it makes its calls faster and faster, which gives it a fresh update on the insect's position many times per second. Some insects have fought back: certain moths can detect the bat's calls and drop suddenly toward the ground to escape.\n\nEngineers have long been fascinated by bats. Underwater sonar and some devices that help blind people sense obstacles work on a similar basic idea. Nature, it seems, solved a difficult problem long before humans did.",
+    "questions": [
+      {
+        "prompt": "What is the passage mainly about?",
+        "choices": [
+          "Why bats are so dangerous to insects",
+          "How bats use sound to find their way",
+          "Why many people are afraid of bats at night",
+          "How moths have become invisible to bats"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 1 giới thiệu echolocation và các đoạn sau giải thích cách dơi dùng âm thanh để định hướng và bắt mồi.",
+        "choiceExplanations": [
+          "Sai — 'dangerous to insects': dơi bắt côn trùng chỉ là một ví dụ, không phải trọng tâm.",
+          "Đúng — toàn bài giải thích echolocation.",
+          "Sai — 'afraid of bats': bài chỉ nhắc tiếng 'mù như dơi', không nói về nỗi sợ.",
+          "Sai — 'invisible': loài bướm đêm chỉ nghe được tiếng dơi chứ không vô hình."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Bats' calls are usually too high-pitched for people to hear.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 2: 'usually too high for human ears to hear'.",
+        "choiceExplanations": [
+          "Đúng — đoạn 2 nói đúng như vậy.",
+          "Sai — 'False': nhận định khớp với bài.",
+          "Sai — 'Not given': thông tin có ở đoạn 2."
+        ]
+      },
+      {
+        "prompt": "In the third paragraph, 'closes in on' means",
+        "choices": [
+          "escapes from",
+          "calls out to",
+          "gets nearer to",
+          "looks away from"
+        ],
+        "correctIndex": 2,
+        "explanation": "Khi dơi 'closes in on its prey', nó gọi nhanh hơn để theo dõi vị trí con mồi, tức đang tiến lại gần.",
+        "choiceExplanations": [
+          "Sai — 'escapes from': dơi đang săn, không bỏ trốn.",
+          "Sai — 'calls out to': nó có phát tiếng gọi nhưng cụm từ nghĩa là tiến gần.",
+          "Đúng — dơi tiến gần con mồi.",
+          "Sai — 'looks away from': trái với việc theo dõi con mồi."
+        ]
+      },
+      {
+        "prompt": "Why do bats speed up their calls as they approach prey?",
+        "choices": [
+          "To scare the insect away from its hiding place",
+          "To save energy",
+          "To warn other bats",
+          "To track the prey more closely"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài nói tiếng gọi nhanh hơn 'gives it a fresh update on the insect's position many times per second'.",
+        "choiceExplanations": [
+          "Sai — 'scare the insect away': bài không nói thế.",
+          "Sai — 'save energy': bài không nhắc năng lượng.",
+          "Sai — 'warn other bats': bài không nhắc dơi khác.",
+          "Đúng — gọi nhanh hơn giúp cập nhật vị trí con mồi nhiều lần mỗi giây."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-014",
+    "bac": 4,
+    "title": "Paper or Screen?",
+    "text": "Few debates divide readers as sharply as this one: should students read on paper or on screens? Many schools now offer both, and teachers rarely agree on which is better. Two teachers at the same school explain their views.\n\nMs. Clark prefers paper. \"A book has a shape you can feel,\" she says. \"When I read on paper, I remember where in the book an idea appeared, so I can find it again quickly. Screens also invite distraction. One notification and my attention is gone. Some researchers have reported that students understand long texts slightly better on paper, although the difference is small, and I would never claim that paper is magic.\"\n\nMr. Evans disagrees. \"I would not give up my tablet,\" he says. \"It holds hundreds of books, which is a relief for students carrying heavy backpacks. I can enlarge the print, which helps readers with weak eyesight, and I can look up an unfamiliar word with one touch. For a student who struggles with reading, those features can make the difference between giving up and continuing.\"\n\nNeither teacher claims that the other is wrong about everything. Despite their disagreement, both teachers accept one point: the format matters less than the habit. A student who reads twenty minutes every day, on any surface, will improve faster than one who owns the perfect device and never opens it.",
+    "questions": [
+      {
+        "prompt": "What is the writer's purpose in this passage?",
+        "choices": [
+          "To prove that paper books are old-fashioned",
+          "To recommend a particular tablet",
+          "To present two opinions about reading",
+          "To explain how reading difficulties are treated in schools"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài giới thiệu 'Two teachers ... explain their views' rồi trình bày quan điểm trái ngược của từng người.",
+        "choiceExplanations": [
+          "Sai — 'old-fashioned': cô Clark ủng hộ sách giấy, bài không chê nó lỗi thời.",
+          "Sai — 'particular tablet': thầy Evans nhắc máy tính bảng nói chung, không giới thiệu hãng nào.",
+          "Đúng — bài đặt hai ý kiến đối lập cạnh nhau.",
+          "Sai — 'treated': bài không bàn về cách chữa khó đọc."
+        ]
+      },
+      {
+        "prompt": "What do both teachers seem to agree on?",
+        "choices": [
+          "Students should stop using phones.",
+          "Heavy backpacks are the biggest problem for students.",
+          "Reading is always more enjoyable on paper.",
+          "Regular reading matters most."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn cuối: 'the format matters less than the habit'.",
+        "choiceExplanations": [
+          "Sai — 'stop using phones': bài không nhắc điều đó.",
+          "Sai — 'heavy backpacks': chỉ là một lý do của thầy Evans.",
+          "Sai — 'more enjoyable on paper': chỉ cô Clark nghĩ thế; thầy Evans thì không.",
+          "Đúng — cả hai đồng ý thói quen đọc quan trọng hơn hình thức."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Ms. Clark says that students always understand paper texts much better than screen texts.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô nói chênh lệch 'slightly' và 'the difference is small', không phải 'much better'.",
+        "choiceExplanations": [
+          "Sai — 'True': cô nói chênh lệch nhỏ chứ không lớn.",
+          "Đúng — 'slightly better' và 'difference is small' mâu thuẫn với 'always much better'.",
+          "Sai — 'Not given': cô có nói rõ ở đoạn 2."
+        ]
+      },
+      {
+        "prompt": "In the second paragraph, 'invite distraction' means",
+        "choices": [
+          "make it easy to lose focus",
+          "ask people to join a party",
+          "force students to concentrate",
+          "reduce the noise around readers"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ngay sau đó là 'One notification and my attention is gone', tức màn hình dễ làm mất tập trung.",
+        "choiceExplanations": [
+          "Đúng — một thông báo là đủ làm cô mất tập trung.",
+          "Sai — 'join a party': hiểu nghĩa đen của 'invite', không hợp ngữ cảnh.",
+          "Sai — 'force students to concentrate': trái nghĩa.",
+          "Sai — 'reduce the noise': bài không nói về tiếng ồn."
+        ]
+      }
+    ]
   }
 ]

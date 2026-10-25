@@ -454,5 +454,449 @@
         ]
       }
     ]
+  },
+  {
+    "id": "ls-b4-007",
+    "bac": 4,
+    "title": "Phỏng vấn cậu bé chế tạo robot nhặt rác",
+    "transcript": "Host: Today we're talking to fifteen-year-old Leo Park, who built a small robot that collects litter from the beach. Leo, how did the idea start?\nLeo: Honestly, it started as a complaint. Every summer my family goes to the same beach, and every summer there's more plastic. My dad said, \"Stop grumbling and do something,\" so I did.\nHost: Many people assume you must have had expensive equipment.\nLeo: That's a common misconception. Most of the parts came from old toys and a broken vacuum cleaner. The only thing I had to buy was the battery, which cost thirty dollars. Well, actually, thirty-five with shipping.\nHost: Did it work right away?\nLeo: Not at all. The first version got stuck in the sand after ten feet. I nearly gave up, but my science teacher pointed out that I had made the wheels too narrow. After I changed them, the robot could cover an entire section of the beach.\nHost: Some critics say a machine like this only treats the symptom, not the cause.\nLeo: They have a point. A robot can't stop people from dropping trash. But I'd argue it also makes people notice the problem. Last month, a group of kids watched it work and then started picking up litter themselves, which was far more than I expected.\nHost: What's next?\nLeo: I'm hoping to teach a workshop so other students can build their own, as long as the school lets me use the lab on weekends.",
+    "questions": [
+      {
+        "prompt": "What is the interview mainly about?",
+        "choices": [
+          "A school science teacher who sells robot parts",
+          "A teenager who built a robot to clean a beach",
+          "A family vacation that went wrong at the beach",
+          "A new law against plastic on beaches"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cuộc phỏng vấn nói về Leo và robot nhặt rác trên bãi biển.",
+        "choiceExplanations": [
+          "Sai — 'A school science teacher who sells robot parts': Giáo viên chỉ được nhắc khi góp ý về bánh xe; không ai bán linh kiện.",
+          "Đúng — Host giới thiệu Leo, người 'built a small robot that collects litter from the beach'.",
+          "Sai — 'A family vacation that went wrong at the beach': Gia đình đi biển chỉ là bối cảnh; cuộc phỏng vấn nói về chiếc robot.",
+          "Sai — 'A new law against plastic on beaches': Bài không nhắc luật nào về nhựa."
+        ]
+      },
+      {
+        "prompt": "Why did Leo's first robot get stuck in the sand?",
+        "choices": [
+          "Its battery was too weak.",
+          "It was too heavy for the beach.",
+          "It was built from toys that broke.",
+          "Its wheels were too narrow."
+        ],
+        "correctIndex": 3,
+        "explanation": "Bánh xe quá hẹp nên robot bị kẹt trong cát.",
+        "choiceExplanations": [
+          "Sai — 'Its battery was too weak.': Pin chỉ được nhắc về giá; không bị nói là yếu.",
+          "Sai — 'It was too heavy for the beach.': Bài không nói robot quá nặng.",
+          "Sai — 'It was built from toys that broke.': Đồ chơi cũ chỉ là nguồn linh kiện; không bị nói là hỏng giữa chừng.",
+          "Đúng — Leo nói giáo viên chỉ ra 'I had made the wheels too narrow'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Leo paid thirty dollars for the battery, including shipping.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Pin giá 30 đô la, tính cả phí vận chuyển là 35 đô la; nên nói 30 đô la đã gồm phí vận chuyển là sai.",
+        "choiceExplanations": [
+          "Sai — 'True': Leo tự sửa: 'thirty dollars. Well, actually, thirty-five with shipping'.",
+          "Đúng — Leo đính chính: 'Well, actually, thirty-five with shipping', tức 30 đô la chưa gồm phí vận chuyển nên tổng là 35.",
+          "Sai — 'Not given': Bài có nêu rõ giá nên đáp án này không đúng."
+        ]
+      },
+      {
+        "prompt": "How does Leo respond to the critics?",
+        "choices": [
+          "He says the critics are completely wrong about the robot.",
+          "He agrees with them and plans to stop the project soon.",
+          "He partly agrees but says the robot raises awareness.",
+          "He ignores them and answers a completely different question."
+        ],
+        "correctIndex": 2,
+        "explanation": "Leo công nhận một phần lời chỉ trích nhưng cho rằng robot giúp mọi người chú ý đến vấn đề.",
+        "choiceExplanations": [
+          "Sai — 'He says the critics are completely wrong about the robot.': Leo thừa nhận 'They have a point'.",
+          "Sai — 'He agrees with them and plans to stop the project soon.': Leo vẫn định mở lớp hướng dẫn, không dừng dự án.",
+          "Đúng — Leo nói 'They have a point' rồi 'it also makes people notice the problem'.",
+          "Sai — 'He ignores them and answers a completely different question.': Leo trả lời trực tiếp bằng ví dụ nhóm trẻ nhặt rác."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-008",
+    "bac": 4,
+    "title": "Chọn điểm đến cho chuyến đi của khối 8",
+    "transcript": "A: Okay, we need to decide where the eighth grade is going in May. The choices are the science museum in the city or the two-day hiking trip at Pine Lake, which I think is eighty dollars per student.\nB: I vote for the museum. It's cheaper, and we'd be back home the same evening. A hiking trip means permission slips, special shoes, and a lot of things that could go wrong.\nC: I see your point, but a museum is just a field trip we've already done twice. Hiking is something most of us have never tried. Plus, the teachers said it would help the class bond.\nB: Bond? Half the class would be complaining about blisters by noon.\nA: Come on, that's a bit of an exaggeration. Although, B, you're right about the cost. Earlier I said the lake trip was eighty dollars per student, but I checked the flyer again and it's actually one hundred twenty, because the price includes a night at the campsite.\nC: That's quite a difference. Could we ask the parents' association to cover part of it?\nA: They helped with the band uniforms, so it's possible. But they usually want to see a clear plan first.\nB: Then here's my compromise. We choose the museum this year and save the hiking trip for ninth grade, when everyone is more experienced.\nC: I'd rather not wait, but I'll agree to ask the parents first before we decide.\nA: Fine. I'll write the proposal tonight.",
+    "questions": [
+      {
+        "prompt": "What are the speakers trying to decide?",
+        "choices": [
+          "Where to take the eighth grade on a trip in May",
+          "Which teacher should lead the school band this year",
+          "How to raise enough money for a new school gym",
+          "Whether the school year should end a week early"
+        ],
+        "correctIndex": 0,
+        "explanation": "Nhóm đang chọn nơi cho chuyến đi của khối lớp 8 vào tháng Năm.",
+        "choiceExplanations": [
+          "Đúng — A mở đầu: 'we need to decide where the eighth grade is going in May'.",
+          "Sai — 'Which teacher should lead the school band this year': Ban nhạc chỉ được nhắc khi nói về quỹ phụ huynh.",
+          "Sai — 'How to raise enough money for a new school gym': Bài không nhắc phòng tập mới.",
+          "Sai — 'Whether the school year should end a week early': Bài không nhắc kết thúc năm học sớm."
+        ]
+      },
+      {
+        "prompt": "Why does C prefer the hiking trip?",
+        "choices": [
+          "It is cheaper than going to the science museum.",
+          "The museum is closed for repairs in May.",
+          "The teachers will not come along to the museum.",
+          "It is new to most of them and helps them bond."
+        ],
+        "correctIndex": 3,
+        "explanation": "C thích đi bộ vì mới mẻ và giúp lớp gắn kết.",
+        "choiceExplanations": [
+          "Sai — 'It is cheaper than going to the science museum.': B mới là người nói bảo tàng rẻ hơn.",
+          "Sai — 'The museum is closed for repairs in May.': Bài không nói bảo tàng đóng cửa.",
+          "Sai — 'The teachers will not come along to the museum.': Bài không nói giáo viên bỏ bảo tàng.",
+          "Đúng — C nói đi bộ đường dài là điều 'most of us have never tried' và 'would help the class bond'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The science museum offers a discount for school groups.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không nhắc đến giảm giá của bảo tàng.",
+        "choiceExplanations": [
+          "Sai — 'True': Không có câu nào nói bảo tàng giảm giá cho nhóm học sinh.",
+          "Sai — 'False': Cũng không có câu nào nói bảo tàng không giảm giá.",
+          "Đúng — bài chỉ nói bảo tàng 'cheaper', không đề cập đến giảm giá cho nhóm học sinh."
+        ]
+      },
+      {
+        "prompt": "What correction does A make?",
+        "choices": [
+          "The lake trip lasts three days, not two days.",
+          "The lake trip costs $120, not $80.",
+          "The museum ticket costs $120, not $80, per student.",
+          "The trip is in June, not May, because of exams."
+        ],
+        "correctIndex": 1,
+        "explanation": "A sửa giá chuyến đi hồ từ 80 lên 120 đô la vì có đêm cắm trại.",
+        "choiceExplanations": [
+          "Sai — 'The lake trip lasts three days, not two days.': Bài luôn nói hai ngày; A không sửa số ngày.",
+          "Đúng — A nói 'it's actually one hundred twenty, because the price includes a night at the campsite'.",
+          "Sai — 'The museum ticket costs $120, not $80, per student.': Giá được sửa là của chuyến hồ, không phải bảo tàng.",
+          "Sai — 'The trip is in June, not May, because of exams.': Bài không sửa tháng và không nhắc kỳ thi."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-009",
+    "bac": 4,
+    "title": "Một tháng không mạng xã hội",
+    "transcript": "Good morning, everyone. For my class project, I deleted all my social media apps for thirty days. I should say right away that the idea wasn't mine: my sister dared me, and I assumed I would give up after two days.\nThe first week was honestly miserable. I kept picking up my phone just to check nothing, and I felt left out when my friends talked about posts I hadn't seen. Actually, I should correct myself: I didn't give up every app. I kept one messaging app, because my basketball team uses it to announce practice times.\nBy the second week, though, something changed. I finished a book for the first time since fifth grade, and I slept about an hour longer each night.\nNow, I'm not saying that social media is evil. Some of my friends use it to share their drawings and even earn a little money, and I think that's impressive. My point is simply that I had never noticed how automatic my habit was.\nSince the experiment ended, I've reinstalled two apps, but I turn off the notifications and I limit myself to thirty minutes a day. If you're curious, I suggest trying a shorter version, maybe a weekend, before you attempt anything bigger. Thank you.",
+    "questions": [
+      {
+        "prompt": "What is the main message of the talk?",
+        "choices": [
+          "Social media should be banned for all teenagers.",
+          "Teenagers should never use any messaging apps.",
+          "Everyone should delete their apps forever.",
+          "A break helped her notice her own habits."
+        ],
+        "correctIndex": 3,
+        "explanation": "Thông điệp chính là việc nghỉ giúp cô nhận ra thói quen tự động của mình.",
+        "choiceExplanations": [
+          "Sai — 'Social media should be banned for all teenagers.': Cô nói rõ 'I'm not saying that social media is evil'.",
+          "Sai — 'Teenagers should never use any messaging apps.': Cô vẫn giữ một ứng dụng nhắn tin cho đội bóng rổ và cài lại hai ứng dụng.",
+          "Sai — 'Everyone should delete their apps forever.': Cô cài lại hai ứng dụng và chỉ gợi ý thử bản ngắn hơn.",
+          "Đúng — Cô nói 'I had never noticed how automatic my habit was'."
+        ]
+      },
+      {
+        "prompt": "Why did the speaker start the experiment?",
+        "choices": [
+          "Her sister challenged her.",
+          "Her parents made a new rule about phones.",
+          "Her basketball coach asked her to.",
+          "She wanted to earn money online."
+        ],
+        "correctIndex": 0,
+        "explanation": "Chị gái thách thức cô thử.",
+        "choiceExplanations": [
+          "Đúng — Cô nói 'my sister dared me'.",
+          "Sai — 'Her parents made a new rule about phones.': Cô nói ý tưởng không phải của mình vì chị gái thách; bài không nhắc quy định của cha mẹ.",
+          "Sai — 'Her basketball coach asked her to.': Huấn luyện viên chỉ liên quan đến ứng dụng nhắn tin của đội.",
+          "Sai — 'She wanted to earn money online.': Kiếm tiền là việc của một số bạn cô, không phải lý do thí nghiệm."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The speaker did not delete every app during the experiment.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cô giữ lại một ứng dụng nhắn tin cho đội bóng rổ.",
+        "choiceExplanations": [
+          "Đúng — Cô nói 'I didn't give up every app. I kept one messaging app, because my basketball team uses it to announce practice times'.",
+          "Sai — 'False': Cô đính chính rằng mình không bỏ mọi ứng dụng.",
+          "Sai — 'Not given': Bài có nêu rõ thông tin này."
+        ]
+      },
+      {
+        "prompt": "What is the speaker's attitude toward social media now?",
+        "choices": [
+          "Completely negative; she thinks no one should use it",
+          "Indifferent, because nothing changed for her",
+          "Balanced: useful, but she wants more control",
+          "Eager to spend more time on it than before"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cô có quan điểm cân bằng và muốn kiểm soát việc dùng.",
+        "choiceExplanations": [
+          "Sai — 'Completely negative; she thinks no one should use it': Cô nói 'I'm not saying that social media is evil'.",
+          "Sai — 'Indifferent, because nothing changed for her': Cô nêu nhiều thay đổi: đọc xong sách, ngủ lâu hơn, đặt giới hạn.",
+          "Đúng — Cô khen bạn dùng để chia sẻ tranh nhưng tự đặt giới hạn thời gian và tắt thông báo.",
+          "Sai — 'Eager to spend more time on it than before': Cô giới hạn ở ba mươi phút mỗi ngày."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-010",
+    "bac": 4,
+    "title": "Bắt buộc làm tình nguyện để tốt nghiệp",
+    "transcript": "A: The district wants to require forty hours of community service before students can graduate. I think it's a great idea. Kids learn responsibility when they help others.\nB: In theory, yes, but a requirement changes the whole meaning. Volunteering is supposed to be voluntary. If you force people, they'll just do the bare minimum and resent it.\nA: That's a fair concern, yet many students would never start without a push. I didn't, until my school required it in seventh grade. Now I help at an animal shelter every Saturday, and I'd do it even if nobody checked.\nB: Good for you, but your story isn't typical. What about students who work after school to support their families? Forty hours is a heavy burden for them, and they might not graduate because of it.\nA: I hadn't thought about that. Though the proposal says students may spread the hours over four years, so it's about ten hours a year.\nB: Ten hours a year is manageable for some, but you also need transportation, and not every neighborhood has opportunities nearby.\nA: Okay, that's a legitimate gap. The district could allow helping at home, like taking care of an elderly neighbor.\nB: Now that would be a reasonable change. I'd still prefer encouragement over a requirement, though. Maybe a certificate or an award for those who volunteer.\nA: We might never agree on that, but at least we agree the rules need to be flexible.",
+    "questions": [
+      {
+        "prompt": "What is the debate about?",
+        "choices": [
+          "Whether schools should stop holding classes on Saturdays",
+          "Whether community service should be required to graduate",
+          "How graduates can find part-time jobs after high school",
+          "Whether animal shelters should get more money from the district"
+        ],
+        "correctIndex": 1,
+        "explanation": "Hai người tranh luận về yêu cầu làm tình nguyện để được tốt nghiệp.",
+        "choiceExplanations": [
+          "Sai — 'Whether schools should stop holding classes on Saturdays': Thứ Bảy chỉ xuất hiện khi A kể về trại động vật.",
+          "Đúng — A mở đầu: 'require forty hours of community service before students can graduate'.",
+          "Sai — 'How graduates can find part-time jobs after high school': Bài không bàn chuyện tìm việc.",
+          "Sai — 'Whether animal shelters should get more money from the district': Trại động vật chỉ là ví dụ cá nhân của A."
+        ]
+      },
+      {
+        "prompt": "What is B's first objection to the requirement?",
+        "choices": [
+          "Being forced may make students do only the minimum.",
+          "Students today are simply too lazy to help others.",
+          "Forty hours is far too few to make any difference.",
+          "Community groups already have more helpers than they need."
+        ],
+        "correctIndex": 0,
+        "explanation": "B lo bắt buộc sẽ khiến học sinh làm cho có và khó chịu (đây là ý phản đối đầu tiên của B).",
+        "choiceExplanations": [
+          "Đúng — B nói 'they'll just do the bare minimum and resent it'.",
+          "Sai — 'Students today are simply too lazy to help others.': B không chê học sinh lười; B lo việc ép buộc làm mất ý nghĩa.",
+          "Sai — 'Forty hours is far too few to make any difference.': B cho rằng bốn mươi giờ là gánh nặng với một số bạn.",
+          "Sai — 'Community groups already have more helpers than they need.': Bài không nói vậy."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Speaker A started volunteering at an animal shelter before the school required it.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "A bắt đầu sau khi trường yêu cầu ở lớp bảy.",
+        "choiceExplanations": [
+          "Sai — 'True': A nói 'I didn't, until my school required it in seventh grade', nên A không bắt đầu trước.",
+          "Đúng — A chỉ bắt đầu sau khi trường yêu cầu ở lớp bảy: 'I didn't, until my school required it'.",
+          "Sai — 'Not given': Bài nêu rõ thời điểm nên không phải 'không nêu'."
+        ]
+      },
+      {
+        "prompt": "What do the speakers agree on at the end?",
+        "choices": [
+          "The district must cancel the plan.",
+          "Volunteering should last all four years.",
+          "Students should receive money for volunteering.",
+          "The rules need to be flexible."
+        ],
+        "correctIndex": 3,
+        "explanation": "Hai người thống nhất rằng quy định cần linh hoạt.",
+        "choiceExplanations": [
+          "Sai — 'The district must cancel the plan.': Hai người không đồng ý hủy kế hoạch.",
+          "Sai — 'Volunteering should last all four years.': Số giờ chia trong bốn năm là chi tiết của đề xuất, không phải điểm họ thống nhất.",
+          "Sai — 'Students should receive money for volunteering.': Bài chỉ nhắc chứng nhận hoặc giải thưởng, không phải tiền.",
+          "Đúng — A nói 'at least we agree the rules need to be flexible'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-011",
+    "bac": 4,
+    "title": "Phỏng vấn vận động viên bơi lội",
+    "transcript": "Host: Our guest today is Mateo Torres, who won two medals at the regional swim championships last weekend. Mateo, congratulations.\nMateo: Thanks. I'm still a bit tired, to be honest.\nHost: You train five mornings a week before school. How do you cope?\nMateo: Some days I don't, really. The alarm goes off at five fifteen, and I think about staying in bed. What keeps me going is knowing my teammates are waiting at the pool.\nHost: People often assume athletes get special treatment at school.\nMateo: Not at my school. My teachers expect the same work from me as from everyone else. Last semester I got a C on a history test because I'd missed a review session for a meet. That was a wake-up call, so now I study on the bus and make a weekly schedule.\nHost: Have you ever thought about quitting?\nMateo: Once, in eighth grade. I was struggling with my times and I felt I'd reached my limit. My coach didn't push me. She just asked me to take two weeks off and then decide. By day ten I missed the water so much that the decision made itself.\nHost: What advice would you give young swimmers?\nMateo: Don't compare yourself with the fastest person in the lane. Compare yourself with who you were last month. And don't skip breakfast, whatever your friends say.\nHost: Do you hope to swim in college?\nMateo: I'd love to, but I'm trying not to plan too far ahead.",
+    "questions": [
+      {
+        "prompt": "How does Mateo feel about his training?",
+        "choices": [
+          "He enjoys waking up early every single day.",
+          "He thinks all the training is a waste of time.",
+          "He trains hard only when his coach is watching.",
+          "It is tough, but his teammates keep him going."
+        ],
+        "correctIndex": 3,
+        "explanation": "Mateo thấy tập luyện vất vả nhưng nhờ đồng đội mà duy trì.",
+        "choiceExplanations": [
+          "Sai — 'He enjoys waking up early every single day.': Mateo nói có ngày chỉ muốn nằm trên giường.",
+          "Sai — 'He thinks all the training is a waste of time.': Mateo không hề nói vậy.",
+          "Sai — 'He trains hard only when his coach is watching.': Bài không nói Mateo tập vì có huấn luyện viên theo dõi.",
+          "Đúng — Mateo nói 'What keeps me going is knowing my teammates are waiting'."
+        ]
+      },
+      {
+        "prompt": "What happened when Mateo took two weeks off in eighth grade?",
+        "choices": [
+          "He quit swimming for good and focused on school.",
+          "His coach was angry and sent him to another team.",
+          "He started a new sport and never swam again.",
+          "He missed the water and chose to keep swimming."
+        ],
+        "correctIndex": 3,
+        "explanation": "Sau hai tuần nghỉ, Mateo nhớ nước và quyết định bơi tiếp.",
+        "choiceExplanations": [
+          "Sai — 'He quit swimming for good and focused on school.': Mateo tiếp tục bơi và giờ đã giành huy chương.",
+          "Sai — 'His coach was angry and sent him to another team.': Huấn luyện viên không ép mà chỉ đề nghị nghỉ hai tuần rồi tự quyết định.",
+          "Sai — 'He started a new sport and never swam again.': Bài không nhắc môn thể thao khác.",
+          "Đúng — Mateo nói 'By day ten I missed the water so much that the decision made itself'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Mateo's family comes to watch every swim meet.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không nhắc gia đình Mateo có đến xem các cuộc thi hay không.",
+        "choiceExplanations": [
+          "Sai — 'True': Không có câu nào nói gia đình Mateo đến xem mọi cuộc thi.",
+          "Sai — 'False': Cũng không có câu nào nói gia đình không đến xem.",
+          "Đúng — bài không nhắc đến gia đình Mateo hay việc họ đi xem thi đấu."
+        ]
+      },
+      {
+        "prompt": "Why did Mateo start studying on the bus?",
+        "choices": [
+          "He got a bad grade after missing a review session.",
+          "His teachers gave him extra time on all his tests.",
+          "He wanted to avoid talking to his friends on the bus.",
+          "His coach told him to get more rest in the morning."
+        ],
+        "correctIndex": 0,
+        "explanation": "Điểm C là hồi chuông cảnh tỉnh khiến Mateo học trên xe buýt.",
+        "choiceExplanations": [
+          "Đúng — Mateo nói điểm C 'because I'd missed a review session' và đó là 'a wake-up call'.",
+          "Sai — 'His teachers gave him extra time on all his tests.': Mateo nói giáo viên đòi hỏi như với mọi học sinh khác.",
+          "Sai — 'He wanted to avoid talking to his friends on the bus.': Bài không nhắc điều này.",
+          "Sai — 'His coach told him to get more rest in the morning.': Huấn luyện viên chỉ khuyên nghỉ hai tuần ở lớp tám."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-012",
+    "bac": 4,
+    "title": "Chọn đề tài cho hội chợ khoa học",
+    "transcript": "A: Okay, team, the science fair is on Thursday, and we still don't have a final topic. Any suggestions?\nB: I'd like to build a model water filter. It's practical, and judges love something that solves a real problem.\nC: Sure, but three other groups did filters last year. Won't the judges find it repetitive? I'd rather test which brand of battery lasts longest.\nB: That sounds dull to me. Nobody wants to look at batteries for ten minutes.\nA: Let's not dismiss it yet. C, how would you make it interesting?\nC: We could connect the batteries to small fans and race them. People like seeing results in real time. The materials would cost around fifteen dollars, and our budget is twenty.\nB: Hmm, that's a fair point, and a filter would use up most of our money on special sand and containers.\nA: Right. Oh, wait, I need to correct something. I said the fair is on Thursday, but the poster says Friday. Thursday is just the practice day.\nC: Good thing you checked. That gives us an extra day to run the tests twice, which is more reliable.\nB: Alright, I'm convinced, as long as we include a chart that explains the results clearly. I don't want the display to look messy.\nA: Deal. B, you design the poster, C buys the batteries, and I'll write the instructions.",
+    "questions": [
+      {
+        "prompt": "What do the speakers finally agree to do?",
+        "choices": [
+          "Build a model water filter for the science fair",
+          "Race fans to see which batteries last longest",
+          "Cancel their project and skip the science fair",
+          "Let the judges choose a topic for their team"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cả nhóm chốt thử độ bền của các loại pin bằng cách cho quạt chạy đua.",
+        "choiceExplanations": [
+          "Sai — 'Build a model water filter for the science fair': Đây là ý của B, sau đó B bị thuyết phục chọn pin.",
+          "Đúng — C đề xuất nối pin với quạt nhỏ và cho chúng 'race', và cả nhóm chấp nhận.",
+          "Sai — 'Cancel their project and skip the science fair': Bài không nhắc hủy hội chợ.",
+          "Sai — 'Let the judges choose a topic for their team': Không ai đề nghị nhờ giám khảo chọn."
+        ]
+      },
+      {
+        "prompt": "Why does B change his mind?",
+        "choices": [
+          "The teacher told the whole class to use batteries.",
+          "He found out three groups built filters last year.",
+          "A filter is too costly, and the race sounds fun.",
+          "The judges asked every group to avoid water filters."
+        ],
+        "correctIndex": 2,
+        "explanation": "B bị thuyết phục vì ngân sách và ý tưởng cuộc đua quạt hấp dẫn.",
+        "choiceExplanations": [
+          "Sai — 'The teacher told the whole class to use batteries.': Bài không nhắc giáo viên ra lệnh.",
+          "Sai — 'He found out three groups built filters last year.': Chính C nêu điều này, và B không dùng nó làm lý do đổi ý.",
+          "Đúng — B nói 'a filter would use up most of our money' sau khi nghe C đề xuất cuộc đua quạt.",
+          "Sai — 'The judges asked every group to avoid water filters.': Bài không nhắc yêu cầu của giám khảo; B còn nói giám khảo thích đề tài giải quyết vấn đề thực tế."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The group can spend up to twenty dollars.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "C nói ngân sách của nhóm là hai mươi đô la.",
+        "choiceExplanations": [
+          "Đúng — C nói 'our budget is twenty', tức hai mươi đô la.",
+          "Sai — 'False': Bài nêu rõ ngân sách nên không sai.",
+          "Sai — 'Not given': Bài có nêu số tiền nên không phải 'không nêu'."
+        ]
+      },
+      {
+        "prompt": "What does A correct?",
+        "choices": [
+          "The budget is fifteen dollars, not twenty dollars.",
+          "The science fair is on Friday, not Thursday.",
+          "The poster is due on Monday, not Wednesday.",
+          "Three groups did batteries last year, not filters."
+        ],
+        "correctIndex": 1,
+        "explanation": "A đính chính ngày hội chợ là thứ Sáu, thứ Năm chỉ là ngày tập dượt.",
+        "choiceExplanations": [
+          "Sai — 'The budget is fifteen dollars, not twenty dollars.': Mười lăm đô la là chi phí vật liệu, không phải ngân sách.",
+          "Đúng — A nói 'the poster says Friday. Thursday is just the practice day'.",
+          "Sai — 'The poster is due on Monday, not Wednesday.': Bài không nhắc hạn nộp áp phích.",
+          "Sai — 'Three groups did batteries last year, not filters.': Ba nhóm làm bộ lọc, không phải pin; và A không sửa điều đó."
+        ]
+      }
+    ]
   }
 ]

@@ -6,11 +6,15 @@ import { FONT_SIZES, SKINS, updateSettings, useSettings } from "@/lib/settings"
 
 /** Gắn skin lên <html> và hiện thanh chọn giao diện / bật tắt âm. */
 export function SettingsBar() {
-  const { skin, sound, fontSize, showBac } = useSettings()
+  const { skin, sound, fontSize, showBac, ageSet } = useSettings()
 
   useEffect(() => {
     document.documentElement.dataset.skin = skin
   }, [skin])
+
+  useEffect(() => {
+    document.documentElement.dataset.age = ageSet
+  }, [ageSet])
 
   useEffect(() => {
     document.documentElement.dataset.font = fontSize

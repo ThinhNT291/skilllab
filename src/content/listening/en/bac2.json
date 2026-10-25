@@ -758,5 +758,449 @@
         ]
       }
     ]
+  },
+  {
+    "id": "ls-b2-011",
+    "bac": 2,
+    "title": "Thông báo đi bảo tàng",
+    "transcript": "Teacher: Good morning, class. I have news about our trip to the science museum. We planned to go on Friday, but the museum is closed for repairs that day. So we will go on Thursday instead. The bus will leave school at eight thirty, not nine o'clock. Please bring a lunch and a bottle of water. You do not need money, because the tickets are free for students. Wear comfortable shoes. We will walk a lot. Also, remember to give me the paper from your parents by Wednesday.",
+    "questions": [
+      {
+        "prompt": "Why did the teacher change the day of the trip?",
+        "choices": [
+          "The bus is broken.",
+          "Many students are sick.",
+          "The museum is closed on Friday.",
+          "It will rain on Friday."
+        ],
+        "correctIndex": 2,
+        "explanation": "Cô giáo nói bảo tàng đóng cửa để sửa chữa vào thứ Sáu ('closed for repairs that day').",
+        "choiceExplanations": [
+          "Sai — 'The bus is broken.': Bài không nhắc xe buýt hỏng.",
+          "Sai — 'Many students are sick.': Bài không nhắc học sinh bị ốm.",
+          "Đúng — Cô giáo nói bảo tàng đóng cửa để sửa chữa vào thứ Sáu ('closed for repairs that day').",
+          "Sai — 'It will rain on Friday.': Bài không nói về thời tiết; lý do là bảo tàng đóng cửa sửa chữa."
+        ]
+      },
+      {
+        "prompt": "What time will the bus leave school?",
+        "choices": [
+          "8:30",
+          "9:00",
+          "9:30",
+          "8:00"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cô nói 'at eight thirty, not nine o'clock' (8 giờ 30, không phải 9 giờ).",
+        "choiceExplanations": [
+          "Đúng — Cô nói 'at eight thirty, not nine o'clock' (8 giờ 30, không phải 9 giờ).",
+          "Sai — '9:00': Đây là giờ dự định cũ; cô đính chính 'not nine o'clock'.",
+          "Sai — '9:30': Bài không nhắc 9 giờ 30.",
+          "Sai — '8:00': Bài không nhắc 8 giờ; giờ đúng là 8 giờ 30."
+        ]
+      },
+      {
+        "prompt": "What should the students bring?",
+        "choices": [
+          "Money for tickets",
+          "A camera",
+          "Some books",
+          "A lunch and water"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cô dặn 'bring a lunch and a bottle of water' (mang bữa trưa và chai nước).",
+        "choiceExplanations": [
+          "Sai — 'Money for tickets': Cô nói 'You do not need money' vì vé miễn phí.",
+          "Sai — 'A camera': Bài không nhắc máy ảnh.",
+          "Sai — 'Some books': Bài không nhắc sách.",
+          "Đúng — Cô dặn 'bring a lunch and a bottle of water' (mang bữa trưa và chai nước)."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Students must buy tickets at the museum.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô nói vé miễn phí cho học sinh ('the tickets are free for students'), nên câu này sai.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài nói ngược lại với câu này.",
+          "Đúng — Cô nói vé miễn phí cho học sinh ('the tickets are free for students'), nên câu này sai.",
+          "Sai — 'Not given': Bài có nói rõ về vé: miễn phí, nên không phải 'không nêu'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-012",
+    "bac": 2,
+    "title": "Mượn sách ở thư viện",
+    "transcript": "Librarian: Hello. Can I help you?\nMia: Yes, I want a library card, please.\nLibrarian: Sure. Are you a student?\nMia: Yes, I am in grade seven.\nLibrarian: Good. I need your address, please.\nMia: It's twenty-four Maple Street. Oh, sorry, I mean forty-two Maple Street.\nLibrarian: Forty-two Maple Street. Thank you. The card is free, and you can borrow five books for two weeks.\nMia: Great! Can I borrow movies too?\nLibrarian: Not with this card. You can borrow books and magazines only.\nMia: Okay. That's fine.",
+    "questions": [
+      {
+        "prompt": "What is Mia's address?",
+        "choices": [
+          "24 Maple Street",
+          "42 Maple Street",
+          "42 Maple Road",
+          "24 Maple Road"
+        ],
+        "correctIndex": 1,
+        "explanation": "Mia tự sửa: 'I mean forty-two Maple Street' (42 phố Maple).",
+        "choiceExplanations": [
+          "Sai — '24 Maple Street': Đây là số Mia nói nhầm lúc đầu rồi đính chính.",
+          "Đúng — Mia tự sửa: 'I mean forty-two Maple Street' (42 phố Maple).",
+          "Sai — '42 Maple Road': Bài nói 'Street', không phải 'Road'.",
+          "Sai — '24 Maple Road': Số và tên đường đều không đúng."
+        ]
+      },
+      {
+        "prompt": "How long can Mia keep the books?",
+        "choices": [
+          "One week",
+          "Five days",
+          "Three weeks",
+          "Two weeks"
+        ],
+        "correctIndex": 3,
+        "explanation": "Thủ thư nói 'borrow five books for two weeks' (mượn năm cuốn trong hai tuần).",
+        "choiceExplanations": [
+          "Sai — 'One week': Bài nói hai tuần, không phải một tuần.",
+          "Sai — 'Five days': Năm là số sách ('five books'), không phải số ngày.",
+          "Sai — 'Three weeks': Bài không nhắc ba tuần.",
+          "Đúng — Thủ thư nói 'borrow five books for two weeks' (mượn năm cuốn trong hai tuần)."
+        ]
+      },
+      {
+        "prompt": "What can Mia NOT borrow with this card?",
+        "choices": [
+          "Movies",
+          "Magazines",
+          "Books",
+          "Storybooks"
+        ],
+        "correctIndex": 0,
+        "explanation": "Thủ thư nói 'Not with this card. You can borrow books and magazines only' (không mượn được phim).",
+        "choiceExplanations": [
+          "Đúng — Thủ thư nói 'Not with this card. You can borrow books and magazines only' (không mượn được phim).",
+          "Sai — 'Magazines': Thủ thư nói mượn được tạp chí ('books and magazines').",
+          "Sai — 'Books': Mượn được sách ('books').",
+          "Sai — 'Storybooks': Truyện là một loại sách; thủ thư nói mượn được sách ('books')."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Mia visits the library every weekend.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không nói Mia đến thư viện khi nào hay thường xuyên ra sao, nên là 'Not given'.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài không có thông tin khẳng định điều này.",
+          "Sai — 'False': Bài cũng không phủ nhận điều này.",
+          "Đúng — Bài không nói Mia đến thư viện khi nào hay thường xuyên ra sao, nên là 'Not given'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-013",
+    "bac": 2,
+    "title": "Tin nhắn thoại đi xem phim",
+    "transcript": "Lucy: Hi, Ben, it's Lucy. This message is about the movie tonight. I said we would meet at six, but the movie starts at seven thirty, so let's meet at seven instead. That gives us time to buy popcorn before the show. It is a funny movie about a dog and a little boy. I will wait for you in front of the movie theater. Oh, and my cousin Jake wants to come too. Is that okay? I already bought the tickets online, so don't worry about them. Call me back if you can't come. Bye!",
+    "questions": [
+      {
+        "prompt": "What time will Lucy and Ben meet?",
+        "choices": [
+          "6:00",
+          "7:30",
+          "6:30",
+          "7:00"
+        ],
+        "correctIndex": 3,
+        "explanation": "Lucy đổi giờ: 'let's meet at seven instead' (gặp lúc 7 giờ).",
+        "choiceExplanations": [
+          "Sai — '6:00': Đây là giờ hẹn ban đầu; Lucy đã đổi.",
+          "Sai — '7:30': 7:30 là giờ phim bắt đầu, không phải giờ gặp.",
+          "Sai — '6:30': Bài không nhắc 6 giờ 30.",
+          "Đúng — Lucy đổi giờ: 'let's meet at seven instead' (gặp lúc 7 giờ)."
+        ]
+      },
+      {
+        "prompt": "Where will Lucy wait for Ben?",
+        "choices": [
+          "Inside the movie theater",
+          "In front of the movie theater",
+          "At Ben's house",
+          "At the bus stop"
+        ],
+        "correctIndex": 1,
+        "explanation": "Lucy nói 'I will wait for you in front of the movie theater' (đợi trước rạp phim).",
+        "choiceExplanations": [
+          "Sai — 'Inside the movie theater': Lucy đợi bên ngoài, trước rạp ('in front of'), không phải bên trong.",
+          "Đúng — Lucy nói 'I will wait for you in front of the movie theater' (đợi trước rạp phim).",
+          "Sai — 'At Ben's house': Bài không nhắc nhà Ben.",
+          "Sai — 'At the bus stop': Bài không nhắc trạm xe buýt."
+        ]
+      },
+      {
+        "prompt": "Who else wants to come to the movie?",
+        "choices": [
+          "Her sister",
+          "Her teacher",
+          "Her cousin",
+          "Her neighbor"
+        ],
+        "correctIndex": 2,
+        "explanation": "Lucy nói 'my cousin Jake wants to come too' (anh/em họ Jake cũng muốn đi).",
+        "choiceExplanations": [
+          "Sai — 'Her sister': Bài không nhắc chị/em gái.",
+          "Sai — 'Her teacher': Bài không nhắc giáo viên.",
+          "Đúng — Lucy nói 'my cousin Jake wants to come too' (anh/em họ Jake cũng muốn đi).",
+          "Sai — 'Her neighbor': Bài không nhắc hàng xóm."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Lucy has already bought the tickets.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Lucy nói 'I already bought the tickets online' (đã mua vé trực tuyến).",
+        "choiceExplanations": [
+          "Đúng — Lucy nói 'I already bought the tickets online' (đã mua vé trực tuyến).",
+          "Sai — 'False': Lucy nói đã mua rồi, nên câu này không sai.",
+          "Sai — 'Not given': Bài có nói rõ về vé nên không phải 'không nêu'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-014",
+    "bac": 2,
+    "title": "Gọi đặt pizza",
+    "transcript": "Clerk: Tony's Pizza. Can I take your order?\nSam: Hi. I'd like one large pizza with cheese and mushrooms, please.\nClerk: Sure. Anything to drink?\nSam: Two orange juices. Oh, wait, make that two lemonades. My sister doesn't like orange juice.\nClerk: No problem. That's fifteen dollars.\nSam: Can you bring it to eighteen Park Avenue?\nClerk: Yes. It will take about thirty minutes. Delivery is free today.\nSam: Great, thank you!\nClerk: Is there anything else you need?\nSam: No, that's all. See you soon!",
+    "questions": [
+      {
+        "prompt": "What kind of pizza does Sam order?",
+        "choices": [
+          "Cheese and mushroom",
+          "Cheese and chicken",
+          "Mushroom and onion",
+          "Cheese and ham"
+        ],
+        "correctIndex": 0,
+        "explanation": "Sam gọi 'a large pizza with cheese and mushrooms' (phô mai và nấm).",
+        "choiceExplanations": [
+          "Đúng — Sam gọi 'a large pizza with cheese and mushrooms' (phô mai và nấm).",
+          "Sai — 'Cheese and chicken': Bài không nhắc gà.",
+          "Sai — 'Mushroom and onion': Bài không nhắc hành.",
+          "Sai — 'Cheese and ham': Bài không nhắc giăm bông."
+        ]
+      },
+      {
+        "prompt": "What drinks does Sam order in the end?",
+        "choices": [
+          "Two orange juices",
+          "Two colas",
+          "Two lemonades",
+          "One lemonade"
+        ],
+        "correctIndex": 2,
+        "explanation": "Sam đổi ý: 'make that two lemonades' (đổi thành hai nước chanh).",
+        "choiceExplanations": [
+          "Sai — 'Two orange juices': Đây là món Sam nói trước, rồi đổi ý.",
+          "Sai — 'Two colas': Bài không nhắc cô-la.",
+          "Đúng — Sam đổi ý: 'make that two lemonades' (đổi thành hai nước chanh).",
+          "Sai — 'One lemonade': Sam gọi hai ly, không phải một."
+        ]
+      },
+      {
+        "prompt": "How long will the delivery take?",
+        "choices": [
+          "About fifteen minutes",
+          "About thirty minutes",
+          "About forty minutes",
+          "About an hour"
+        ],
+        "correctIndex": 1,
+        "explanation": "Nhân viên nói 'It will take about thirty minutes' (khoảng 30 phút).",
+        "choiceExplanations": [
+          "Sai — 'About fifteen minutes': Mười lăm là số tiền (15 đô la), không phải số phút.",
+          "Đúng — Nhân viên nói 'It will take about thirty minutes' (khoảng 30 phút).",
+          "Sai — 'About forty minutes': Bài không nhắc 40 phút.",
+          "Sai — 'About an hour': Bài không nhắc một giờ."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Sam has to pay extra for delivery.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Nhân viên nói 'Delivery is free today' (hôm nay giao hàng miễn phí), nên câu này sai.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài nói ngược lại.",
+          "Đúng — Nhân viên nói 'Delivery is free today' (hôm nay giao hàng miễn phí), nên câu này sai.",
+          "Sai — 'Not given': Bài có nói về phí giao hàng nên không phải 'không nêu'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-015",
+    "bac": 2,
+    "title": "Chọn quà ở hiệu sách",
+    "transcript": "Clerk: Hi, can I help you find something?\nAna: Yes, I need a birthday gift for my brother. He is ten.\nClerk: What does he like?\nAna: He likes animals and drawing.\nClerk: How about this book about wild animals? It has big pictures. It's twelve dollars.\nAna: Hmm, I only have ten dollars.\nClerk: Then look at this drawing set. It's nine dollars, and it has twenty colored pencils.\nAna: Perfect. I'll take it. Can you wrap it?\nClerk: Of course. Wrapping is free.",
+    "questions": [
+      {
+        "prompt": "Who is the gift for?",
+        "choices": [
+          "Her father",
+          "Her brother",
+          "Her friend",
+          "Her cousin"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ana nói 'a birthday gift for my brother' (quà sinh nhật cho em/anh trai).",
+        "choiceExplanations": [
+          "Sai — 'Her father': Bài không nhắc bố.",
+          "Đúng — Ana nói 'a birthday gift for my brother' (quà sinh nhật cho em/anh trai).",
+          "Sai — 'Her friend': Bài không nhắc bạn.",
+          "Sai — 'Her cousin': Bài không nhắc anh/em họ."
+        ]
+      },
+      {
+        "prompt": "Why doesn't Ana buy the animal book?",
+        "choices": [
+          "It costs too much for her.",
+          "Her brother already has it.",
+          "The pictures are too small.",
+          "It is sold out."
+        ],
+        "correctIndex": 0,
+        "explanation": "Sách giá 12 đô la còn Ana chỉ có 10 đô la ('I only have ten dollars').",
+        "choiceExplanations": [
+          "Đúng — Sách giá 12 đô la còn Ana chỉ có 10 đô la ('I only have ten dollars').",
+          "Sai — 'Her brother already has it.': Bài không nói em trai đã có sách.",
+          "Sai — 'The pictures are too small.': Nhân viên nói sách có hình lớn ('big pictures').",
+          "Sai — 'It is sold out.': Bài không nói sách hết hàng."
+        ]
+      },
+      {
+        "prompt": "What does Ana buy?",
+        "choices": [
+          "A book about animals",
+          "A set of markers",
+          "A notebook",
+          "A drawing set"
+        ],
+        "correctIndex": 3,
+        "explanation": "Ana chọn bộ vẽ: 'Perfect. I'll take it' sau khi nghe về 'drawing set'.",
+        "choiceExplanations": [
+          "Sai — 'A book about animals': Đây là món nhân viên giới thiệu trước nhưng Ana không đủ tiền.",
+          "Sai — 'A set of markers': Bài không nhắc bút dạ.",
+          "Sai — 'A notebook': Bài không nhắc vở.",
+          "Đúng — Ana chọn bộ vẽ: 'Perfect. I'll take it' sau khi nghe về 'drawing set'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Ana's brother has many pencils at home.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không nói gì về đồ dùng vẽ em trai đang có, nên là 'Not given'.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài không có thông tin khẳng định điều này.",
+          "Sai — 'False': Bài cũng không phủ nhận điều này.",
+          "Đúng — Bài không nói gì về đồ dùng vẽ em trai đang có, nên là 'Not given'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-016",
+    "bac": 2,
+    "title": "Hạn nộp dự án khoa học",
+    "transcript": "Leo: Nina, are you ready for the science project?\nNina: Almost. I'm making a model of a volcano. It's for Monday.\nLeo: I thought it was due on Tuesday.\nNina: No, Mrs. Brown changed it. It's Monday now.\nLeo: Oh no! I haven't started. I wanted to grow a bean plant, but that takes too long.\nNina: Why don't you make a rainbow with water and a flashlight? It's easy.\nLeo: Good idea. Can you help me on Saturday?\nNina: Sure. Come to my house at ten. My mom will make lunch for us.",
+    "questions": [
+      {
+        "prompt": "When is the science project due?",
+        "choices": [
+          "Friday",
+          "Sunday",
+          "Tuesday",
+          "Monday"
+        ],
+        "correctIndex": 3,
+        "explanation": "Nina nói cô Brown đã đổi: 'It's Monday now' (giờ là thứ Hai).",
+        "choiceExplanations": [
+          "Sai — 'Friday': Bài không nhắc thứ Sáu.",
+          "Sai — 'Sunday': Bài không nhắc Chủ nhật.",
+          "Sai — 'Tuesday': Leo tưởng hạn là thứ Ba nhưng Nina đính chính.",
+          "Đúng — Nina nói cô Brown đã đổi: 'It's Monday now' (giờ là thứ Hai)."
+        ]
+      },
+      {
+        "prompt": "What is Nina making?",
+        "choices": [
+          "A rainbow",
+          "A bean plant",
+          "A model of a volcano",
+          "A robot"
+        ],
+        "correctIndex": 2,
+        "explanation": "Nina nói 'I'm making a model of a volcano' (làm mô hình núi lửa).",
+        "choiceExplanations": [
+          "Sai — 'A rainbow': Đây là ý tưởng Nina gợi ý cho Leo.",
+          "Sai — 'A bean plant': Đây là ý định ban đầu của Leo.",
+          "Đúng — Nina nói 'I'm making a model of a volcano' (làm mô hình núi lửa).",
+          "Sai — 'A robot': Bài không nhắc người máy."
+        ]
+      },
+      {
+        "prompt": "What will Leo do for his project?",
+        "choices": [
+          "Make a rainbow",
+          "Grow a bean plant",
+          "Build a volcano",
+          "Ask the teacher for more time"
+        ],
+        "correctIndex": 0,
+        "explanation": "Leo nghe gợi ý làm cầu vồng bằng nước và đèn pin ('a rainbow with water and a flashlight') và nói 'Good idea'.",
+        "choiceExplanations": [
+          "Đúng — Leo nghe gợi ý làm cầu vồng bằng nước và đèn pin ('a rainbow with water and a flashlight') và nói 'Good idea'.",
+          "Sai — 'Grow a bean plant': Leo bỏ ý định này vì 'that takes too long' (mất quá nhiều thời gian).",
+          "Sai — 'Build a volcano': Núi lửa là dự án của Nina.",
+          "Sai — 'Ask the teacher for more time': Bài không nhắc xin thêm thời gian."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Leo has already finished his project.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Leo nói 'I haven't started' (chưa bắt đầu), nên câu này sai.",
+        "choiceExplanations": [
+          "Sai — 'True': Bài nói ngược lại.",
+          "Đúng — Leo nói 'I haven't started' (chưa bắt đầu), nên câu này sai.",
+          "Sai — 'Not given': Bài có nói rõ nên không phải 'không nêu'."
+        ]
+      }
+    ]
   }
 ]

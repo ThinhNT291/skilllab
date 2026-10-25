@@ -61,6 +61,10 @@
   --radius: 1rem;
 }
 
+/* Bộ giao diện theo tuổi (đặt sau các skin để ghi đè bán kính bo góc) */
+[data-age="kids"] { --radius: 1.4rem; }
+[data-age="teens"] { --radius: 0.8rem; }
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

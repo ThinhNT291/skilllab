@@ -36,7 +36,9 @@ async function Round({ params }: { params: PageProps<"/tu-vung/[level]">["params
         ← Từ vựng
       </Link>
       <h1 className="mt-2 text-3xl font-extrabold">Từ vựng {bacLabel(meta.bac)}</h1>
-      <div className="mb-4" />
+      <Link href={`/tu-vung/${meta.id}/thu-thach`} className="mb-4 mt-1 inline-block rounded-full border-2 border-accent bg-card px-4 py-1.5 font-extrabold hover:border-primary">
+        ⚡ Thử thách 60 giây
+      </Link>
       <PracticeSession exercises={exercises} bonusHref={pickVocabMatchPairs(words, meta.id, () => 0.5).length > 0 ? `/tu-vung/${meta.id}/ghep-cap` : undefined} />
     </>
   )

@@ -1,5 +1,6 @@
 import { createClient } from "@/lib/supabase/client"
 import type { Exercise } from "@/lib/content/types"
+import { POS_VI, type VocabLevel, type VocabWord } from "@/lib/vocab/questions"
 import { cardContentFromExercise } from "@/lib/srs/card-from-exercise"
 import { schedule, type Grade } from "@/lib/srs/scheduler"
 import { dbConfigured, ensureProfile } from "./session"
@@ -93,6 +94,31 @@ export function ensureCardFromError(exercise: Exercise): Promise<CardsResult<voi
       .eq("source_key", sourceKey)
       .eq("status", "mastered")
     if (reopenError) throw new Error(reopenError.message)
+  })
+}
+
+/**
+ * Thêm một từ vựng vào thẻ ôn theo yêu cầu của học sinh (sổ từ riêng). Mặt trước là nghĩa, mặt sau là từ kèm ví dụ.
+ * Thêm lại từ đã có thì giữ nguyên lịch ôn cũ.
+ */
+export function addVocabCard(word: VocabWord, level: VocabLevel): Promise<CardsResult<void>> {
+  return guarded(async () => {
+    const profile = await ensureProfile()
+    const example = word.ex[0] ?? null
+    const { error } = await createClient().from("srs_cards").upsert(
+      {
+        profile_id: profile.id,
+        source_key: `vocab-${level}-${word.id}`,
+        kind: "vocab",
+        topic: `vocab-${level}`,
+        front: word.vi ? `${word.vi} (${POS_VI[word.pos] ?? word.pos})` : word.def,
+        answer: word.word,
+        filled: example,
+        explanation: word.vi ? word.def : null,
+      },
+      { onConflict: "profile_id,source_key", ignoreDuplicates: true },
+    )
+    if (error) throw new Error(error.message)
   })
 }
 
