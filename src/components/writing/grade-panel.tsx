@@ -36,6 +36,7 @@ export function GradePanel({ skill }: { skill: Skill }) {
   const [hints, setHints] = useState<WritingHints | null>(null)
   const [hintBusy, setHintBusy] = useState(false)
   const [saved, setSaved] = useState<"idle" | "saved" | "failed">("idle")
+  const [saveDetail, setSaveDetail] = useState("")
   const recorder = useRef<MediaRecorder | null>(null)
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -105,6 +106,7 @@ export function GradePanel({ skill }: { skill: Skill }) {
         const f = json.feedback
         const r = await saveAttempt({ skill, taskId: task.id, targetBac: task.bac, total: f.total, estimatedBac: f.estimatedBac, scores: f.scores, note: f.improvements[0] })
         setSaved(r.ok ? "saved" : "failed")
+        setSaveDetail(r.ok ? "" : r.reason === "not_configured" ? "chưa kết nối Supabase" : (r.message ?? "lỗi không rõ"))
       }
     } catch {
       setError("Không kết nối được. Kiểm tra mạng rồi thử lại nhé.")
@@ -198,7 +200,7 @@ export function GradePanel({ skill }: { skill: Skill }) {
           <p className="text-3xl font-extrabold">{feedback.total}/10</p>
           {saved !== "idle" && (
             <p className="text-sm text-muted-foreground" role="status">
-              {saved === "saved" ? "Đã lưu điểm vào tiến độ." : "Chưa lưu được điểm (có thể chưa kết nối hoặc chưa chạy bản cập nhật cơ sở dữ liệu)."}
+              {saved === "saved" ? "Đã lưu điểm vào tiến độ." : `Chưa lưu được điểm (${saveDetail}). Nếu thông báo nhắc đến bảng graded_attempts, cần chạy tệp supabase/migrations/0006_graded_attempts.sql trong Supabase.`}
             </p>
           )}
           <p className="text-muted-foreground">
