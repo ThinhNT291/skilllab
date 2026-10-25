@@ -1,0 +1,610 @@
+[
+  {
+    "id": "rd-b2-001",
+    "bac": 2,
+    "title": "Greetings from Da Lat",
+    "text": "Hi Mai! I am at my grandmother's house in Da Lat this week. The weather is cold, so I wear a warm jacket every morning. Yesterday we visited a flower farm. There were red, yellow and purple flowers everywhere, and I took forty photos!\n\nToday we are going to go to the market. My grandmother will buy strawberries, and I will help her carry the bags. On Saturday we are going to take the bus home. Can we meet on Sunday? I want to show you my photos. Love, Lan",
+    "questions": [
+      {
+        "prompt": "What did Lan do yesterday?",
+        "choices": [
+          "She went to the market.",
+          "She took the bus home.",
+          "She visited a flower farm.",
+          "She bought strawberries."
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu 'Yesterday we visited a flower farm' cho biết hôm qua Lan thăm trang trại hoa.",
+        "choiceExplanations": [
+          "Sai — 'She went to the market.': Today we are going to go to the market — chợ là việc hôm nay, chưa làm.",
+          "Sai — 'She took the bus home.': On Saturday we are going to take the bus — đi xe buýt về là kế hoạch thứ Bảy.",
+          "Đúng — Bài viết: 'Yesterday we visited a flower farm.'",
+          "Sai — 'She bought strawberries.': My grandmother will buy strawberries — đây là việc sẽ làm ở chợ, chưa xảy ra."
+        ]
+      },
+      {
+        "prompt": "Which sentence is NOT true?",
+        "choices": [
+          "Lan will go home on Sunday.",
+          "Lan is staying with her grandmother.",
+          "The weather in Da Lat is cold.",
+          "Lan took many photos."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài nói 'On Saturday we are going to take the bus home' nên Lan về nhà thứ Bảy, không phải Chủ nhật.",
+        "choiceExplanations": [
+          "Đúng — Đúng (là câu SAI so với bài) — bài nói Lan về nhà vào thứ Bảy, Chủ nhật là ngày hẹn gặp Mai.",
+          "Sai — 'Lan is staying with her grandmother.': 'I am at my grandmother's house' — câu này đúng theo bài.",
+          "Sai — 'The weather in Da Lat is cold.': 'The weather is cold' — câu này đúng theo bài.",
+          "Sai — 'Lan took many photos.': 'I took forty photos' — câu này đúng theo bài."
+        ]
+      },
+      {
+        "prompt": "In the text, the word 'carry' means",
+        "choices": [
+          "to buy something",
+          "to open something",
+          "to wash something",
+          "to hold something and take it to another place"
+        ],
+        "correctIndex": 3,
+        "explanation": "Đi chợ mua dâu xong thì cần mang túi, nên 'carry' = cầm và mang đi.",
+        "choiceExplanations": [
+          "Sai — 'to buy something': 'Buy' đã dùng cho bà ('will buy strawberries'); 'carry the bags' là mang túi.",
+          "Sai — 'to open something': Không hợp nghĩa: không ai 'mở' túi trong câu này.",
+          "Sai — 'to wash something': Không hợp nghĩa: đi chợ thì mang túi chứ không phải giặt túi.",
+          "Đúng — Mang đồ đi từ chỗ này sang chỗ khác — hợp với 'carry the bags'."
+        ]
+      },
+      {
+        "prompt": "Why does Lan write to Mai?",
+        "choices": [
+          "She wants to buy strawberries for Mai.",
+          "She wants to meet Mai on Sunday and show her photos.",
+          "She wants Mai to come to Da Lat.",
+          "She wants to say she is sick."
+        ],
+        "correctIndex": 1,
+        "explanation": "Hai câu cuối cho thấy mục đích: hẹn gặp Chủ nhật và khoe ảnh.",
+        "choiceExplanations": [
+          "Sai — 'She wants to buy strawberries for Mai.': Dâu là việc của bà ở chợ, không phải lý do Lan viết.",
+          "Đúng — Bài: 'Can we meet on Sunday? I want to show you my photos.'",
+          "Sai — 'She wants Mai to come to Da Lat.': Bài không mời Mai đến Đà Lạt.",
+          "Sai — 'She wants to say she is sick.': Bài không nhắc Lan bị ốm."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-002",
+    "bac": 2,
+    "title": "Science Club Notice",
+    "text": "Do you like animals, plants or space? Join the Science Club! We meet every Wednesday after school in Room 12, from 3:30 to 4:30. Last week, we grew beans in small cups.\n\nThis week, we are going to make a model of the solar system, so please bring an old ball or a small box. Our teacher, Mr. Brown, will give us paint and glue. The club is free, but you must bring a signed note from your parents on the first day. Next month, we will visit the city science museum by bus. Come and have fun!",
+    "questions": [
+      {
+        "prompt": "When does the Science Club meet?",
+        "choices": [
+          "Every Wednesday after school",
+          "Every Friday after school",
+          "Every Wednesday before school",
+          "Every day from 3:30 to 4:30"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu 'We meet every Wednesday after school' trả lời trực tiếp.",
+        "choiceExplanations": [
+          "Đúng — Bài: 'every Wednesday after school ... from 3:30 to 4:30'.",
+          "Sai — 'Every Friday after school': Bài nói Wednesday, không phải Friday.",
+          "Sai — 'Every Wednesday before school': Bài nói 'after school', không phải trước giờ học.",
+          "Sai — 'Every day from 3:30 to 4:30': Giờ 3:30–4:30 đúng nhưng CLB chỉ họp thứ Tư, không phải mỗi ngày."
+        ]
+      },
+      {
+        "prompt": "What should students bring this week?",
+        "choices": [
+          "Paint and glue",
+          "Beans in small cups",
+          "A signed note",
+          "An old ball or a small box"
+        ],
+        "correctIndex": 3,
+        "explanation": "Tuần này làm mô hình hệ mặt trời nên cần mang quả bóng cũ hoặc hộp nhỏ.",
+        "choiceExplanations": [
+          "Sai — 'Paint and glue': Sơn và keo do thầy Brown đưa ('Mr. Brown will give us paint and glue').",
+          "Sai — 'Beans in small cups': Trồng đậu là việc tuần trước ('Last week').",
+          "Sai — 'A signed note': Giấy có chữ ký chỉ cần vào ngày đầu tiên, không phải tuần này.",
+          "Đúng — Bài: 'please bring an old ball or a small box'."
+        ]
+      },
+      {
+        "prompt": "In the text, a 'model' is",
+        "choices": [
+          "a famous person",
+          "a small copy of something",
+          "a kind of game",
+          "a school lesson"
+        ],
+        "correctIndex": 1,
+        "explanation": "Làm bằng bóng, hộp, sơn và keo nên 'model' là bản thu nhỏ.",
+        "choiceExplanations": [
+          "Sai — 'a famous person': Không hợp: 'make a model of the solar system' không phải làm một người nổi tiếng.",
+          "Đúng — Mô hình là bản nhỏ của vật thật, ở đây là hệ mặt trời.",
+          "Sai — 'a kind of game': Không hợp: họ dùng bóng, hộp, sơn, keo để làm ra một vật.",
+          "Sai — 'a school lesson': Không hợp: 'make a model' là làm ra một vật, không phải bài học."
+        ]
+      },
+      {
+        "prompt": "Which sentence is true?",
+        "choices": [
+          "The club costs money.",
+          "The students visited a museum last week.",
+          "The club will visit a museum next month.",
+          "Mr. Brown is a student in the club."
+        ],
+        "correctIndex": 2,
+        "explanation": "Chuyến đi bảo tàng là kế hoạch tháng sau.",
+        "choiceExplanations": [
+          "Sai — 'The club costs money.': Bài: 'The club is free'.",
+          "Sai — 'The students visited a museum last week.': Tuần trước họ trồng đậu; đi bảo tàng là tháng sau.",
+          "Đúng — Bài: 'Next month, we will visit the city science museum by bus.'",
+          "Sai — 'Mr. Brown is a student in the club.': Mr. Brown là giáo viên ('Our teacher')."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-003",
+    "bac": 2,
+    "title": "My Uncle Tom",
+    "text": "My uncle Tom is a bus driver in Chicago. He is taller than my father, and he has short gray hair. Every morning he gets up at five o'clock because his first bus leaves at six. He says the early morning is the quietest time in the city.\n\nAfter work, he likes cooking. His soup is better than any restaurant soup, I think! Last summer, he taught me how to make it. At the weekend, he usually rides his bike by the lake. Next month, he is going to visit us, and I will cook soup for him.",
+    "questions": [
+      {
+        "prompt": "Why does Uncle Tom get up at five o'clock?",
+        "choices": [
+          "He wants to cook soup before work.",
+          "His first bus leaves at six.",
+          "He rides his bike by the lake.",
+          "He wants to teach the writer to cook."
+        ],
+        "correctIndex": 1,
+        "explanation": "Từ 'because' nêu lý do: chuyến xe đầu tiên chạy lúc sáu giờ.",
+        "choiceExplanations": [
+          "Sai — 'He wants to cook soup before work.': Anh nấu ăn 'after work' (sau giờ làm), không phải buổi sáng sớm.",
+          "Đúng — Bài: 'he gets up at five o'clock because his first bus leaves at six'.",
+          "Sai — 'He rides his bike by the lake.': Đi xe đạp ven hồ là việc cuối tuần.",
+          "Sai — 'He wants to teach the writer to cook.': Anh dạy nấu súp từ mùa hè năm ngoái, không liên quan giờ dậy."
+        ]
+      },
+      {
+        "prompt": "Which sentence is NOT true about Uncle Tom?",
+        "choices": [
+          "He is taller than the writer's father.",
+          "He works in Chicago.",
+          "He has long gray hair.",
+          "He cooks very well."
+        ],
+        "correctIndex": 2,
+        "explanation": "Chi tiết 'short gray hair' mâu thuẫn với 'long gray hair'.",
+        "choiceExplanations": [
+          "Sai — 'He is taller than the writer's father.': Bài: 'taller than my father' — đúng.",
+          "Sai — 'He works in Chicago.': Bài: 'bus driver in Chicago' — đúng.",
+          "Đúng — Bài nói 'short gray hair' (tóc ngắn), nên câu này sai.",
+          "Sai — 'He cooks very well.': Bài khen súp của chú ngon hơn súp nhà hàng — đúng."
+        ]
+      },
+      {
+        "prompt": "In the text, 'quietest' means",
+        "choices": [
+          "with the least noise",
+          "with the most people",
+          "the most beautiful",
+          "the coldest"
+        ],
+        "correctIndex": 0,
+        "explanation": "Dạng so sánh nhất của 'quiet' = ít tiếng ồn nhất.",
+        "choiceExplanations": [
+          "Đúng — 'Quiet' là yên tĩnh; 'quietest' là yên tĩnh nhất, ít tiếng ồn nhất.",
+          "Sai — 'with the most people': Trái nghĩa: buổi sáng sớm ít người, không đông.",
+          "Sai — 'the most beautiful': Không phải nghĩa của 'quiet'.",
+          "Sai — 'the coldest': 'Quiet' nói về âm thanh, không phải nhiệt độ."
+        ]
+      },
+      {
+        "prompt": "What will the writer do next month?",
+        "choices": [
+          "Learn to make soup from Uncle Tom",
+          "Ride a bike by the lake",
+          "Drive a bus in Chicago",
+          "Cook soup for Uncle Tom"
+        ],
+        "correctIndex": 3,
+        "explanation": "Tháng sau chú đến thăm và người viết sẽ nấu súp cho chú.",
+        "choiceExplanations": [
+          "Sai — 'Learn to make soup from Uncle Tom': Việc học nấu súp xảy ra mùa hè năm ngoái.",
+          "Sai — 'Ride a bike by the lake': Đi xe đạp ven hồ là thói quen cuối tuần của chú Tom.",
+          "Sai — 'Drive a bus in Chicago': Người viết không lái xe buýt; đó là nghề của chú.",
+          "Đúng — Bài: 'he is going to visit us, and I will cook soup for him'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-004",
+    "bac": 2,
+    "title": "The Lost Dog",
+    "text": "Last Saturday, Ben found a small brown dog near the park. The dog was wet and tired, and it had no collar. Ben took it home and gave it some water and a little chicken. His mother said, \"We can keep the dog for one night, but we must find its owner.\"\n\nSo Ben made a poster with a photo of the dog and put it on the trees near the park. On Sunday morning, a girl called Nina came to his house. She was crying and smiling at the same time. \"That is my dog, Coco!\" she said. \"He ran away on Friday.\" Ben felt happy, and Nina gave him a big thank-you hug.",
+    "questions": [
+      {
+        "prompt": "Where did Ben find the dog?",
+        "choices": [
+          "At his house",
+          "At school",
+          "In Nina's garden",
+          "Near the park"
+        ],
+        "correctIndex": 3,
+        "explanation": "Câu đầu cho biết chỗ Ben thấy chó.",
+        "choiceExplanations": [
+          "Sai — 'At his house': Ben mang chó về nhà sau khi tìm thấy, không tìm thấy ở nhà.",
+          "Sai — 'At school': Bài không nhắc trường học.",
+          "Sai — 'In Nina's garden': Bài không nói chó ở vườn nhà Nina; Nina chỉ đến nhà Ben.",
+          "Đúng — Bài: 'found a small brown dog near the park'."
+        ]
+      },
+      {
+        "prompt": "What did Ben do to find the dog's owner?",
+        "choices": [
+          "He called the police.",
+          "He made a poster and put it on trees.",
+          "He took the dog to school.",
+          "He gave the dog chicken."
+        ],
+        "correctIndex": 1,
+        "explanation": "Tấm áp phích kèm ảnh là cách Ben tìm chủ.",
+        "choiceExplanations": [
+          "Sai — 'He called the police.': Bài không nhắc gọi cảnh sát.",
+          "Đúng — Bài: 'Ben made a poster ... put it on the trees near the park'.",
+          "Sai — 'He took the dog to school.': Bài không nhắc đưa chó đến trường.",
+          "Sai — 'He gave the dog chicken.': Có cho gà ăn, nhưng đó là chăm chó, không phải cách tìm chủ."
+        ]
+      },
+      {
+        "prompt": "In the text, 'ran away' means",
+        "choices": [
+          "walked slowly to the park",
+          "played happily with Nina",
+          "left a place and did not come back",
+          "slept all day on Friday"
+        ],
+        "correctIndex": 2,
+        "explanation": "Nina khóc vì chó biến mất từ thứ Sáu, nên 'ran away' = bỏ đi, không về.",
+        "choiceExplanations": [
+          "Sai — 'walked slowly to the park': 'Ran' là chạy và 'away' là đi xa, không phải đi chậm.",
+          "Sai — 'played happily with Nina': Nina đang khóc vì mất chó, nên không phải chơi vui.",
+          "Đúng — Coco rời nhà từ thứ Sáu và không về, nên Nina đi tìm.",
+          "Sai — 'slept all day on Friday': Không hợp nghĩa: chó đi mất chứ không ngủ."
+        ]
+      },
+      {
+        "prompt": "Which sentence is NOT true?",
+        "choices": [
+          "Ben kept the dog for a week.",
+          "Ben found the dog on Saturday.",
+          "Ben's mother wanted to find the owner.",
+          "Nina hugged Ben."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài nói giữ chó 'one night', nên 'a week' là sai.",
+        "choiceExplanations": [
+          "Đúng — Mẹ cho giữ một đêm, và sáng Chủ nhật Nina đã nhận chó; không phải một tuần.",
+          "Sai — 'Ben found the dog on Saturday.': Bài: 'Last Saturday' — đúng.",
+          "Sai — 'Ben's mother wanted to find the owner.': Bài: 'we must find its owner' — đúng.",
+          "Sai — 'Nina hugged Ben.': Bài: 'Nina gave him a big thank-you hug' — đúng."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-005",
+    "bac": 2,
+    "title": "Summer Camp Plan",
+    "text": "Lakeside Summer Camp - Saturday Plan. 7:30 Breakfast in the big hall. 8:30 Swimming lesson. The water is cold in the morning, so wear your swim cap. 10:00 Art class: we are going to paint pictures of the lake. 12:00 Lunch. Pizza is the favorite food of most children, so we will have it again today.\n\n1:30 Hiking in the forest with Ms. Green. Bring a water bottle and a hat. 4:00 Free time. You can play volleyball or read in the library. 6:00 Dinner. 8:00 Movie night under the stars. Lights out at 9:30.",
+    "questions": [
+      {
+        "prompt": "What time is the art class?",
+        "choices": [
+          "10:00",
+          "8:30",
+          "12:00",
+          "1:30"
+        ],
+        "correctIndex": 0,
+        "explanation": "Giờ học vẽ ghi ngay cạnh 10:00.",
+        "choiceExplanations": [
+          "Đúng — Bài: '10:00 Art class'.",
+          "Sai — '8:30': 8:30 là giờ học bơi.",
+          "Sai — '12:00': 12:00 là bữa trưa.",
+          "Sai — '1:30': 1:30 là giờ đi bộ đường dài."
+        ]
+      },
+      {
+        "prompt": "What will the children do after lunch?",
+        "choices": [
+          "They will take a swimming lesson.",
+          "They will paint pictures of the lake.",
+          "They will go hiking with Ms. Green.",
+          "They will watch a movie."
+        ],
+        "correctIndex": 2,
+        "explanation": "Sau bữa trưa 12:00, lịch tiếp theo là đi bộ đường dài.",
+        "choiceExplanations": [
+          "Sai — 'They will take a swimming lesson.': Học bơi lúc 8:30, trước bữa trưa.",
+          "Sai — 'They will paint pictures of the lake.': Vẽ lúc 10:00, trước bữa trưa.",
+          "Đúng — Sau 12:00 (lunch) là '1:30 Hiking in the forest with Ms. Green'.",
+          "Sai — 'They will watch a movie.': Xem phim lúc 8:00 tối, sau bữa tối."
+        ]
+      },
+      {
+        "prompt": "In the text, 'hiking' means",
+        "choices": [
+          "swimming in a lake",
+          "cooking in the forest",
+          "sleeping outside",
+          "walking a long way in nature"
+        ],
+        "correctIndex": 3,
+        "explanation": "Mang chai nước và mũ vào rừng cho thấy đây là đi bộ đường dài.",
+        "choiceExplanations": [
+          "Sai — 'swimming in a lake': Bơi đã có mục riêng lúc 8:30.",
+          "Sai — 'cooking in the forest': Không có hoạt động nấu ăn trong lịch.",
+          "Sai — 'sleeping outside': Lịch ghi giờ tắt đèn nhưng không nói ngủ ngoài trời.",
+          "Đúng — Đi bộ đường dài trong rừng; hợp với 'forest', 'water bottle', 'hat'."
+        ]
+      },
+      {
+        "prompt": "Which sentence is true?",
+        "choices": [
+          "Children go to bed at 8:00.",
+          "Children should bring a water bottle for the hike.",
+          "Pizza is new today.",
+          "Swimming is in the afternoon."
+        ],
+        "correctIndex": 1,
+        "explanation": "Chai nước được yêu cầu mang cho buổi đi bộ.",
+        "choiceExplanations": [
+          "Sai — 'Children go to bed at 8:00.': 8:00 là giờ xem phim; tắt đèn lúc 9:30.",
+          "Đúng — Bài: 'Bring a water bottle and a hat.'",
+          "Sai — 'Pizza is new today.': Bài: 'we will have it again today' — không phải món mới.",
+          "Sai — 'Swimming is in the afternoon.': Học bơi lúc 8:30 sáng."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-006",
+    "bac": 2,
+    "title": "Jake's Birthday",
+    "text": "Hi Emma, Thank you for your email! You asked about my birthday. I am going to be thirteen on May 4th. This year, my parents are going to take me and four friends to a trampoline park. It is bigger than the park near our house, and it has a foam pit.\n\nAfter that, we will eat burgers and cake at home. My sister Kate made the cake last year, but it was too sweet! This year my mom will make a chocolate one. I wish you could come. Maybe you can visit next summer? Write soon! Jake",
+    "questions": [
+      {
+        "prompt": "Where is Jake going on his birthday?",
+        "choices": [
+          "To the park near his house",
+          "To Emma's house",
+          "To a trampoline park",
+          "To a burger restaurant"
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu về kế hoạch năm nay nêu rõ nơi đi.",
+        "choiceExplanations": [
+          "Sai — 'To the park near his house': Công viên gần nhà nhỏ hơn; bố mẹ đưa đến công viên trampoline.",
+          "Sai — 'To Emma's house': Emma không đến dự được, Jake mời cô ấy hè sau.",
+          "Đúng — Bài: 'take me and four friends to a trampoline park'.",
+          "Sai — 'To a burger restaurant': Burger ăn ở nhà ('at home')."
+        ]
+      },
+      {
+        "prompt": "Who will make the cake this year?",
+        "choices": [
+          "Kate",
+          "Emma",
+          "Jake's friends",
+          "Jake's mom"
+        ],
+        "correctIndex": 3,
+        "explanation": "Năm nay là mẹ của Jake; năm ngoái mới là Kate.",
+        "choiceExplanations": [
+          "Sai — 'Kate': Kate làm bánh năm ngoái ('last year').",
+          "Sai — 'Emma': Emma không ở đó.",
+          "Sai — 'Jake's friends': Bài không nói bạn bè làm bánh.",
+          "Đúng — Bài: 'This year my mom will make a chocolate one'."
+        ]
+      },
+      {
+        "prompt": "In the text, 'too sweet' means",
+        "choices": [
+          "It did not have enough sugar.",
+          "It had more sugar than it needed.",
+          "It was very cheap.",
+          "It was very old."
+        ],
+        "correctIndex": 1,
+        "explanation": "Bánh năm ngoái ngọt hơn mức cần nên năm nay đổi sang bánh sô-cô-la.",
+        "choiceExplanations": [
+          "Sai — 'It did not have enough sugar.': Ngược nghĩa: 'too sweet' là quá ngọt.",
+          "Đúng — 'Too' là quá mức; bánh ngọt quá.",
+          "Sai — 'It was very cheap.': Bài không nói về giá.",
+          "Sai — 'It was very old.': Bài không nói bánh cũ."
+        ]
+      },
+      {
+        "prompt": "Why does Jake write 'Maybe you can visit next summer?'",
+        "choices": [
+          "Emma probably cannot come to the party.",
+          "Emma is Jake's sister.",
+          "Jake is moving next summer.",
+          "The party is next summer."
+        ],
+        "correctIndex": 0,
+        "explanation": "'I wish you could come' + lời mời hè sau cho thấy Emma không thể đến dự tiệc.",
+        "choiceExplanations": [
+          "Đúng — Jake viết 'I wish you could come' — nghĩa là Emma có lẽ ở xa, không đến được.",
+          "Sai — 'Emma is Jake's sister.': Em gái của Jake là Kate, không phải Emma.",
+          "Sai — 'Jake is moving next summer.': Bài không nói Jake chuyển nhà.",
+          "Sai — 'The party is next summer.': Sinh nhật vào ngày 4 tháng 5, không phải mùa hè sau."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-007",
+    "bac": 2,
+    "title": "Friday Night Market",
+    "text": "Every Friday night, the street near my house becomes a market. It starts at six o'clock and finishes at ten. There are more than fifty small stands, and the smells are wonderful. My favorite stand sells hot corn with butter. It is cheaper than the corn at the supermarket, and it tastes better.\n\nOther stands sell toys, T-shirts and phone cases. Last week, I bought a blue cap for my brother for only three dollars. Some people play guitar on the corner, and children dance to the music. My parents say the market is crowded, but I think it is the best place in town on a Friday.",
+    "questions": [
+      {
+        "prompt": "How long is the market open?",
+        "choices": [
+          "Two hours",
+          "Four hours",
+          "Six hours",
+          "Ten hours"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài: 'starts at six ... finishes at ten'.",
+        "choiceExplanations": [
+          "Sai — 'Two hours': Hai tiếng không khớp 6 giờ đến 10 giờ.",
+          "Đúng — Từ 6 giờ đến 10 giờ là bốn tiếng.",
+          "Sai — 'Six hours': Sáu là giờ bắt đầu, không phải thời lượng.",
+          "Sai — 'Ten hours': Mười là giờ kết thúc, không phải thời lượng."
+        ]
+      },
+      {
+        "prompt": "What did the writer buy last week?",
+        "choices": [
+          "A blue cap",
+          "Hot corn",
+          "A T-shirt",
+          "A guitar"
+        ],
+        "correctIndex": 0,
+        "explanation": "Chi tiết tuần trước nằm ở câu 'Last week, I bought ...'.",
+        "choiceExplanations": [
+          "Đúng — Bài: 'I bought a blue cap for my brother'.",
+          "Sai — 'Hot corn': Bắp là món yêu thích nhưng bài không nói tuần trước mua.",
+          "Sai — 'A T-shirt': T-shirt chỉ là món có bán ở các quầy khác.",
+          "Sai — 'A guitar': Có người chơi guitar ở góc phố, người viết không mua."
+        ]
+      },
+      {
+        "prompt": "In the text, 'stands' are",
+        "choices": [
+          "chairs for sitting",
+          "big shops with many floors",
+          "small places where people sell things",
+          "people waiting in a line"
+        ],
+        "correctIndex": 2,
+        "explanation": "Các quầy 'sell' đồ nên 'stand' là chỗ bán hàng.",
+        "choiceExplanations": [
+          "Sai — 'chairs for sitting': Không hợp: 'sells hot corn' nói về nơi bán hàng.",
+          "Sai — 'big shops with many floors': Bài nói 'small stands', không phải cửa hàng nhiều tầng.",
+          "Đúng — Quầy hàng nhỏ ngoài chợ bán bắp, đồ chơi, áo.",
+          "Sai — 'people waiting in a line': Không hợp: 'a stand sells corn'."
+        ]
+      },
+      {
+        "prompt": "Which sentence is NOT true?",
+        "choices": [
+          "The market is on Friday nights.",
+          "There are more than fifty stands.",
+          "The corn is cheaper than at the supermarket.",
+          "The writer's parents think the market is the best place in town."
+        ],
+        "correctIndex": 3,
+        "explanation": "Câu 'my parents say ... crowded, but I think ... best' cho thấy ý kiến khác nhau.",
+        "choiceExplanations": [
+          "Sai — 'The market is on Friday nights.': Bài: 'Every Friday night' — đúng.",
+          "Sai — 'There are more than fifty stands.': Bài nêu đúng như vậy.",
+          "Sai — 'The corn is cheaper than at the supermarket.': Bài: 'cheaper than the corn at the supermarket' — đúng.",
+          "Đúng — Bố mẹ nói chợ đông ('crowded'); chính người viết mới nghĩ đó là nơi tuyệt nhất."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b2-008",
+    "bac": 2,
+    "title": "The Muddy Match",
+    "text": "On Sunday, Tom's football team had an important match against the Blue Tigers. In the morning, it rained hard, and the field was full of mud. Tom was worried because his new shoes were white. The game started at ten. In the first half, nobody scored.\n\nThen, in the second half, Tom's friend Leo fell in the mud and everyone laughed, even Leo. After that, the players relaxed and played better. Tom scored the only goal in the last five minutes, and his team won 1-0. Afterward, Tom's shoes were brown, not white, but he did not care. \"Next time,\" he said, \"I will wear old shoes!\"",
+    "questions": [
+      {
+        "prompt": "Who scored the goal?",
+        "choices": [
+          "Leo",
+          "Nobody",
+          "A player from the Blue Tigers",
+          "Tom"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bàn thắng duy nhất do Tom ghi.",
+        "choiceExplanations": [
+          "Sai — 'Leo': Leo chỉ ngã trong bùn.",
+          "Sai — 'Nobody': Hiệp một không ai ghi bàn, nhưng hiệp hai Tom ghi bàn.",
+          "Sai — 'A player from the Blue Tigers': Đội Blue Tigers thua 1-0 nên không ghi bàn.",
+          "Đúng — Bài: 'Tom scored the only goal'."
+        ]
+      },
+      {
+        "prompt": "Why was Tom worried at the beginning?",
+        "choices": [
+          "His new shoes were white.",
+          "He was late for the match.",
+          "Leo fell in the mud.",
+          "His team was losing 1-0."
+        ],
+        "correctIndex": 0,
+        "explanation": "Giày trắng mới gặp sân bùn nên Tom lo.",
+        "choiceExplanations": [
+          "Đúng — Bài: 'Tom was worried because his new shoes were white'; sân đầy bùn.",
+          "Sai — 'He was late for the match.': Bài không nói Tom đến muộn.",
+          "Sai — 'Leo fell in the mud.': Leo ngã ở hiệp hai, sau lúc Tom lo.",
+          "Sai — 'His team was losing 1-0.': Đội Tom thắng 1-0, không thua."
+        ]
+      },
+      {
+        "prompt": "In the text, 'he did not care' means",
+        "choices": [
+          "he was very sad",
+          "he did not mind",
+          "he was angry at Leo",
+          "he could not see the shoes"
+        ],
+        "correctIndex": 1,
+        "explanation": "Giày đã nâu nhưng Tom vẫn vui, hứa lần sau đi giày cũ.",
+        "choiceExplanations": [
+          "Sai — 'he was very sad': Tom không buồn; đội thắng.",
+          "Đúng — 'Did not care' = không bận tâm, dù giày dơ.",
+          "Sai — 'he was angry at Leo': Bài không nói Tom giận Leo.",
+          "Sai — 'he could not see the shoes': 'Care' không liên quan đến việc nhìn."
+        ]
+      },
+      {
+        "prompt": "What happened after Leo fell in the mud?",
+        "choices": [
+          "The game stopped.",
+          "Everyone went home.",
+          "The players felt more relaxed and played better.",
+          "The players got angry at Leo."
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu ngay sau chuyện Leo ngã nói các cầu thủ thoải mái hơn.",
+        "choiceExplanations": [
+          "Sai — 'The game stopped.': Bài không nói trận đấu dừng.",
+          "Sai — 'Everyone went home.': Trận vẫn tiếp tục, Tom ghi bàn sau đó.",
+          "Đúng — Bài: 'After that, the players relaxed and played better.'",
+          "Sai — 'The players got angry at Leo.': Mọi người cười, kể cả Leo, không giận."
+        ]
+      }
+    ]
+  }
+]

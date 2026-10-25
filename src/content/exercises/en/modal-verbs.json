@@ -838,5 +838,565 @@
       "Sai — 'should' diễn tả kỳ vọng hoặc lời khuyên, không phù hợp để diễn tả một suy đoán chắc chắn dựa trên bằng chứng quan sát được."
     ],
     "bac": 3
+  },
+  {
+    "id": "en-modal-verbs-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u1-ability",
+    "tags": [
+      "modal-u1-ability"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Look at that tiny baby! She ______ walk yet, but she is trying hard.",
+    "choices": [
+      "mustn't",
+      "shouldn't",
+      "can't",
+      "ought to"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Can't' diễn tả chưa có khả năng làm gì ở hiện tại (em bé chưa biết đi).",
+    "choiceExplanations": [
+      "Sai — 'mustn't' nghĩa là bị cấm; không ai cấm một em bé tập đi.",
+      "Sai — 'shouldn't' là lời khuyên không nên, không nói về khả năng của em bé.",
+      "Đúng — 'can't' diễn tả chưa có khả năng ở hiện tại; 'yet' và 'trying hard' cho thấy em bé chưa đi được.",
+      "Sai — 'ought to' là lời khuyên, và sau nó cần 'to' nên không ghép được với 'walk yet' theo nghĩa này."
+    ],
+    "bac": 1
+  },
+  {
+    "id": "en-modal-verbs-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u2-permission",
+    "tags": [
+      "modal-u2-permission"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mom, ______ I go to Jake's house after school? We're working on a project together.",
+    "choices": [
+      "Can",
+      "Must",
+      "Ought to",
+      "Had better"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can I...?' là cách xin phép thông thường, thân mật khi nói với người nhà.",
+    "choiceExplanations": [
+      "Đúng — xin phép mẹ một cách thân mật, tự nhiên trong tiếng Anh Mỹ hằng ngày ('Could' cũng dùng được, lịch sự hơn một chút).",
+      "Sai — 'Must I go?' nghĩa là 'con có bắt buộc phải đi không?', không phải xin phép.",
+      "Sai — 'ought to' không dùng để đặt câu hỏi xin phép.",
+      "Sai — 'had better' là lời cảnh báo, không dùng để xin phép."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-modal-verbs-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u3-obligation",
+    "tags": [
+      "modal-u3-obligation"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Dinner is free tonight, so you ______ bring any money.",
+    "choices": [
+      "mustn't",
+      "shouldn't",
+      "can't",
+      "don't have to"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Don't have to' nghĩa là không cần thiết (vẫn được phép mang nếu muốn), khác với 'mustn't' là bị cấm.",
+    "choiceExplanations": [
+      "Sai — 'mustn't' nghĩa là bị cấm mang tiền, nhưng không có lý do nào để cấm; câu chỉ nói là không cần.",
+      "Sai — 'shouldn't' là lời khuyên không nên mang tiền, trong khi ý đúng chỉ là không cần thiết.",
+      "Sai — 'can't' nghĩa là không thể/không được phép mang tiền, sai ý của câu.",
+      "Đúng — bữa tối miễn phí nên việc mang tiền không còn cần thiết, đúng nghĩa 'don't have to'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-modal-verbs-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u4-advice",
+    "tags": [
+      "modal-u4-advice"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I have a terrible headache. I think I ______ lie down for a while.",
+    "choices": [
+      "mustn't",
+      "should",
+      "can't",
+      "might not"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Should' dùng để nói điều nên làm; ở đây người nói tự đưa ra ý kiến cho bản thân.",
+    "choiceExplanations": [
+      "Sai — 'mustn't' nghĩa là bị cấm nằm xuống, vô lý trong ngữ cảnh đau đầu.",
+      "Đúng — 'should' diễn tả điều nên làm (đau đầu thì nên nằm nghỉ).",
+      "Sai — 'can't' nghĩa là không thể nằm xuống, không có lý do trong câu.",
+      "Sai — 'might not lie down' nghĩa là có thể sẽ không nằm, ngược với ý muốn nghỉ ngơi của người nói."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-modal-verbs-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u5-deduction",
+    "tags": [
+      "modal-u5-deduction"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Ben's backpack is blue, so this red one ______ be his.",
+    "choices": [
+      "must",
+      "should",
+      "may",
+      "can't"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Can't' diễn tả suy đoán chắc chắn điều đó không đúng, dựa trên bằng chứng.",
+    "choiceExplanations": [
+      "Sai — 'must be his' nghĩa là chắc chắn của Ben, ngược với bằng chứng ba lô của Ben màu xanh.",
+      "Sai — 'should be his' nói điều kỳ vọng, không phù hợp với bằng chứng đã cho.",
+      "Sai — 'may be his' nghĩa là có thể của Ben, quá yếu và trái với bằng chứng.",
+      "Đúng — ba lô của Ben màu xanh nên chiếc màu đỏ chắc chắn không phải của cậu ấy."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-modal-verbs-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u1-ability",
+    "tags": [
+      "modal-u1-ability"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Pandas ______ climb trees very well, even though they look heavy and slow.",
+    "choices": [
+      "can",
+      "ought to",
+      "have to",
+      "should"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Can' diễn tả khả năng thật sự, kể cả khi bề ngoài khiến người ta nghĩ khác.",
+    "choiceExplanations": [
+      "Đúng — 'can' nói về khả năng: gấu trúc leo cây rất giỏi.",
+      "Sai — 'ought to' là lời khuyên, không nói về khả năng của loài vật.",
+      "Sai — 'have to' là bắt buộc, không hợp nghĩa 'leo cây giỏi'.",
+      "Sai — 'should' là lời khuyên, không phù hợp khi nói về một sự thật về loài vật."
+    ],
+    "bac": 1
+  },
+  {
+    "id": "en-modal-verbs-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u2-permission",
+    "tags": [
+      "modal-u2-permission"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Look at the sign: you ______ take photos with a flash in this room. It can damage the old paintings.",
+    "choices": [
+      "don't have to",
+      "might",
+      "can't",
+      "are able to"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Can't' dùng để nói điều không được phép làm theo quy định.",
+    "choiceExplanations": [
+      "Sai — 'don't have to' nghĩa là không cần, nhưng biển báo nói rõ là có hại nên không được chụp.",
+      "Sai — 'might take photos' nghĩa là có thể sẽ chụp, không phải quy định.",
+      "Đúng — 'can't' diễn tả điều không được phép (flash gây hại tranh); 'mustn't' hoặc 'may not' cũng dùng được, nhưng không có trong lựa chọn.",
+      "Sai — 'are able to' nói về khả năng chụp được, không nói về việc có được phép hay không."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-modal-verbs-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u3-obligation",
+    "tags": [
+      "modal-u3-obligation"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My sister ______ get up at five o'clock every day because her bus leaves very early.",
+    "choices": [
+      "have to",
+      "has to",
+      "had to",
+      "must to"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Have to' chia theo chủ ngữ như động từ thường: ngôi thứ ba số ít dùng 'has to'.",
+    "choiceExplanations": [
+      "Sai — 'have to' dùng với I/you/we/they, không dùng với 'my sister'.",
+      "Đúng — chủ ngữ ngôi ba số ít, thì hiện tại ('every day') nên dùng 'has to'.",
+      "Sai — 'had to' là quá khứ, trong khi 'every day' và 'leaves' cho thấy thì hiện tại.",
+      "Sai — 'must' là modal nên không có 'to' theo sau; 'must to' sai cấu trúc."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-modal-verbs-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u4-advice",
+    "tags": [
+      "modal-u4-advice"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You ______ be more careful with your little brother near the pool.",
+    "choices": [
+      "ought to",
+      "ought",
+      "should to",
+      "may to"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Ought to' là modal hiếm có 'to'; các modal khác như 'should' không đi với 'to'.",
+    "choiceExplanations": [
+      "Đúng — 'ought to' + động từ nguyên thể dùng để khuyên; câu này là lời khuyên cẩn thận hơn.",
+      "Sai — 'ought' thiếu 'to'; 'ought' luôn cần 'to' theo sau.",
+      "Sai — 'should' không bao giờ đi với 'to'.",
+      "Sai — 'may' cũng không đi với 'to', và nghĩa cho phép không hợp lời khuyên."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-modal-verbs-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u1-ability",
+    "tags": [
+      "modal-u1-ability"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Don't worry about the heavy box. After a few weeks of training, you ______ lift it easily.",
+    "choices": [
+      "can",
+      "are able",
+      "will can",
+      "will be able to"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ở thì tương lai dùng 'will be able to' vì 'can' không có dạng tương lai và không dùng hai modal liền nhau.",
+    "choiceExplanations": [
+      "Sai — 'can' chỉ khả năng hiện tại; trong lời nói thường ngày đôi khi vẫn nghe thấy, nhưng câu này nói khả năng sẽ có sau vài tuần tập nên 'will be able to' chính xác hơn.",
+      "Sai — 'are able' thiếu 'to' và không đúng thì tương lai.",
+      "Sai — 'will can' là hai modal liền nhau, không được phép.",
+      "Đúng — tương lai dùng 'will be able to' để nói khả năng sẽ có sau khi tập luyện."
+    ],
+    "bac": 1
+  },
+  {
+    "id": "en-modal-verbs-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u5-deduction",
+    "tags": [
+      "modal-u5-deduction"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I don't know where Lily is. She ______ be at the library, or maybe she's at the gym.",
+    "choices": [
+      "must",
+      "can't",
+      "might",
+      "has to"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Might' diễn tả khả năng không chắc chắn; 'maybe' và 'or' cho thấy có hai khả năng.",
+    "choiceExplanations": [
+      "Sai — 'must' nghĩa là gần như chắc chắn, trái với 'I don't know' và hai khả năng.",
+      "Sai — 'can't' nghĩa là chắc chắn không phải ở thư viện, trái với 'or maybe'.",
+      "Đúng — 'might' diễn tả khả năng không chắc chắn; 'may' hoặc 'could' cũng dùng được nhưng không có trong lựa chọn.",
+      "Sai — 'has to be' mang nghĩa bắt buộc hoặc suy đoán rất mạnh, quá chắc chắn."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-modal-verbs-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u3-obligation",
+    "tags": [
+      "modal-u3-obligation"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ we have to wear a uniform at the new school? I don't want to buy one if it isn't required.",
+    "choices": [
+      "Does",
+      "Do",
+      "Are",
+      "Can"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu hỏi với 'have to' cần trợ động từ do/does; chủ ngữ 'we' nên dùng 'Do'.",
+    "choiceExplanations": [
+      "Sai — 'Does' dùng với chủ ngữ ngôi ba số ít, không dùng với 'we'.",
+      "Đúng — câu hỏi với 'have to' dùng 'Do' khi chủ ngữ là 'we'.",
+      "Sai — 'Are we have to' sai cấu trúc, 'be' không đi với 'have to'.",
+      "Sai — 'Can we have to' là hai modal liền nhau, không đúng ngữ pháp."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-modal-verbs-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u4-advice",
+    "tags": [
+      "modal-u4-advice"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hurry up! The train leaves in two minutes. We ______ run, or we'll miss it.",
+    "choices": [
+      "had better",
+      "should better",
+      "ought better",
+      "have better"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Had better' là cấu trúc cố định dùng để cảnh báo, luôn có 'had', không thay bằng 'should', 'ought' hay 'have'.",
+    "choiceExplanations": [
+      "Đúng — 'had better' cảnh báo mạnh cho tình huống cụ thể, có hậu quả 'or we'll miss it'.",
+      "Sai — 'should better' không tồn tại; 'should' không đi với 'better'.",
+      "Sai — 'ought better' không tồn tại; sau 'ought' phải là 'to'.",
+      "Sai — 'have better' không đúng; cấu trúc cố định là 'had better'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-modal-verbs-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u1-ability",
+    "tags": [
+      "modal-u1-ability"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I have a soccer game tomorrow morning, but I might ______ help you with the project in the afternoon.",
+    "choices": [
+      "can",
+      "able to",
+      "to be able to",
+      "be able to"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sau 'might' không dùng 'can'; dùng 'be able to' để nói khả năng.",
+    "choiceExplanations": [
+      "Sai — 'might can' là hai modal liền nhau, không được phép.",
+      "Sai — 'might able to' thiếu 'be'.",
+      "Sai — sau 'might' không có 'to'; 'might to be' sai.",
+      "Đúng — 'might be able to' là cách đúng để nói có thể làm được."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-modal-verbs-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u3-obligation",
+    "tags": [
+      "modal-u3-obligation"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Is it OK if I don't wear a helmet when I ride my bike in the park? B: No way! The law says you ______ ride without one, and you could get a fine.",
+    "choices": [
+      "don't have to",
+      "mustn't",
+      "couldn't",
+      "might not"
+    ],
+    "correctIndex": 1,
+    "explanation": "Điều bị cấm theo luật dùng 'mustn't'; 'don't have to' chỉ là không cần.",
+    "choiceExplanations": [
+      "Sai — 'don't have to' nghĩa là không cần đội mũ, đúng với câu hỏi của A nhưng trái với câu trả lời 'No way'.",
+      "Đúng — luật cấm đi xe không đội mũ, nên dùng 'mustn't'; 'can't' cũng chấp nhận được nhưng không có trong lựa chọn.",
+      "Sai — 'couldn't' là quá khứ, câu nói về luật hiện hành.",
+      "Sai — 'might not' nghĩa là có thể không, quá yếu so với quy định và tiền phạt."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-modal-verbs-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u1-ability",
+    "tags": [
+      "modal-u1-ability"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Before he lost his hearing, my uncle ______ hear a pin drop, and he never missed a word at family dinners.",
+    "choices": [
+      "was able to",
+      "has been able to",
+      "could",
+      "can"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Could' diễn tả khả năng chung trong một giai đoạn dài ở quá khứ.",
+    "choiceExplanations": [
+      "Sai — 'was able to' vẫn đúng ngữ pháp nhưng thường nhấn mạnh một lần cụ thể; câu này nói khả năng lâu dài ('never missed') nên 'could' tự nhiên hơn.",
+      "Sai — 'has been able to' là hiện tại hoàn thành, nhưng khả năng đã mất rồi.",
+      "Đúng — 'could' diễn tả khả năng chung của cả giai đoạn trước khi ông mất thính lực.",
+      "Sai — 'can' là hiện tại, trong khi ông đã mất thính lực."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-modal-verbs-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u5-deduction",
+    "tags": [
+      "modal-u5-deduction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mia has just finished a long hike, and she's still laughing and joking. She ______ be very tired — she looks full of energy.",
+    "choices": [
+      "can't",
+      "mustn't",
+      "doesn't have to",
+      "shouldn't"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suy đoán phủ định chắc chắn dùng 'can't', không dùng 'mustn't'.",
+    "choiceExplanations": [
+      "Đúng — dựa trên bằng chứng (cười đùa, nhiều năng lượng), chắc chắn cô ấy không mệt: 'can't be'.",
+      "Sai — 'mustn't' nghĩa là bị cấm, không dùng để suy đoán phủ định.",
+      "Sai — 'doesn't have to' nghĩa là không cần, không phải suy đoán.",
+      "Sai — 'shouldn't' là lời khuyên không nên, không phù hợp với suy đoán."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-modal-verbs-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u4-advice",
+    "tags": [
+      "modal-u4-advice"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I think teenagers ______ sleep at least eight hours a night; it helps them concentrate in class.",
+    "choices": [
+      "had better",
+      "should",
+      "must not",
+      "might"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lời khuyên chung chung, lâu dài dùng 'should'; 'had better' dành cho tình huống cụ thể, có hậu quả.",
+    "choiceExplanations": [
+      "Sai — 'had better' không sai hẳn nhưng quá mạnh, mang tính cảnh báo cho tình huống cụ thể, ít hợp với lời khuyên chung.",
+      "Đúng — 'should' dùng cho lời khuyên chung về sức khỏe; 'ought to' cũng dùng được nhưng không có trong lựa chọn.",
+      "Sai — 'must not' nghĩa là bị cấm ngủ ít nhất tám tiếng, ngược nghĩa.",
+      "Sai — 'might' nghĩa là có thể, không phải lời khuyên."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-modal-verbs-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u5-deduction",
+    "tags": [
+      "modal-u5-deduction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The door is locked and every light is off, but I'm not sure whether they've gone out or are just sleeping. They ______ be home, but I really can't tell.",
+    "choices": [
+      "must",
+      "can't",
+      "have to",
+      "might"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Might' diễn tả khả năng không chắc chắn, hợp với 'I'm not sure' và 'I can't tell'.",
+    "choiceExplanations": [
+      "Sai — 'must' nghĩa là gần như chắc chắn, trái với 'not sure'.",
+      "Sai — 'can't' nghĩa là chắc chắn không ở nhà, trái với 'I can't tell'.",
+      "Sai — 'have to be' nghĩa là buộc phải là như vậy, quá chắc chắn.",
+      "Đúng — 'might' hợp với việc người nói không biết chắc; 'may' hoặc 'could' cũng dùng được."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-modal-verbs-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modal-verbs",
+    "usageId": "modal-u3-obligation",
+    "tags": [
+      "modal-u3-obligation"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Luckily, we ______ wait long at the clinic yesterday; the doctor called our names after five minutes.",
+    "choices": [
+      "mustn't",
+      "hadn't to",
+      "didn't have to",
+      "don't have to"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Have to' ở quá khứ phủ định dùng 'didn't have to'; 'mustn't' không có dạng quá khứ.",
+    "choiceExplanations": [
+      "Sai — 'mustn't' là hiện tại và nghĩa là cấm, không hợp nghĩa và thì.",
+      "Sai — 'hadn't to' sai cấu trúc; 'have to' dùng trợ động từ 'did' khi phủ định.",
+      "Đúng — 'didn't have to wait long' nghĩa là không phải chờ lâu hôm qua.",
+      "Sai — 'don't have to' là hiện tại, nhưng 'yesterday' chỉ quá khứ."
+    ],
+    "bac": 3
   }
 ]

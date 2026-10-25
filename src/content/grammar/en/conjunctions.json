@@ -93,6 +93,42 @@
             "vi": "Chúng tôi dự định thăm bảo tàng, chụp ảnh và mua quà lưu niệm."
           }
         ]
+      },
+      {
+        "id": "conj-u6-subordinating",
+        "bac": 2,
+        "label": "Liên từ phụ thuộc: because, although, when, if, so that...",
+        "explanationVi": "Liên từ phụ thuộc mở đầu một mệnh đề phụ, không đứng một mình mà cần mệnh đề chính. Nguyên nhân: because, since, as (+ mệnh đề, chủ ngữ + động từ). Tương phản: although, though, even though (even though nhấn mạnh hơn), while (trong khi). Thời gian: when, while, before, after, until, as soon as. Điều kiện: if (nếu), unless (= if not, nếu không). Mục đích: so that. Ba điểm hay sai. (1) Because chỉ nguyên nhân còn so chỉ kết quả, và chỉ dùng một trong hai: Because it was late, we went home. = It was late, so we went home. (không viết Because ..., so ...). (2) Although và but cùng chỉ tương phản nên không dùng cả hai: Although it was cold, we went out. (không viết Although ..., but ...). (3) Unless đã có nghĩa phủ định nên không đi với not: Unless you hurry, you will be late. Với mệnh đề thời gian và điều kiện nói về tương lai (when, as soon as, before, after, until, if, unless) dùng hiện tại đơn, không dùng will: I will call you when I arrive. Since, because, as đều chỉ nguyên nhân và thường đổi chỗ được cho nhau (since và as thường dùng khi lý do đã rõ).",
+        "examples": [
+          {
+            "en": "Since Lena was hungry, she made a sandwich.",
+            "vi": "Vì Lena đói, cô ấy làm một cái bánh mì kẹp."
+          },
+          {
+            "en": "Even though the lake was cold, we went swimming.",
+            "vi": "Mặc dù hồ nước lạnh, chúng tôi vẫn đi bơi."
+          },
+          {
+            "en": "She studies every night so that she can pass the exam.",
+            "vi": "Cô ấy học mỗi tối để có thể đậu kỳ thi."
+          }
+        ]
+      },
+      {
+        "id": "conj-u7-comma-subordinate",
+        "bac": 3,
+        "label": "Dấu phẩy với mệnh đề phụ thuộc",
+        "explanationVi": "Khi mệnh đề phụ thuộc đứng ĐẦU câu, đặt dấu phẩy sau cả mệnh đề đó, trước mệnh đề chính: When the bell rings, the students leave. Khi mệnh đề phụ thuộc đứng SAU mệnh đề chính, thường không dùng dấu phẩy: The students leave when the bell rings. Dấu phẩy không đứng ngay sau liên từ (không viết When, the bell rings) và không chen vào giữa chủ ngữ và động từ của mệnh đề chính. Không dùng dấu chấm tách mệnh đề phụ thuộc ra thành một câu riêng, vì mệnh đề đó không tự đứng được (câu cụt, sentence fragment). Với although, dấu phẩy thường vẫn có ở đầu câu; nếu đặt although ở giữa câu để nhấn mạnh sự tương phản thì có thể thêm dấu phẩy.",
+        "examples": [
+          {
+            "en": "When the bell rings, the students leave the room.",
+            "vi": "Khi chuông reo, học sinh rời khỏi phòng."
+          },
+          {
+            "en": "The students leave the room when the bell rings.",
+            "vi": "Học sinh rời khỏi phòng khi chuông reo."
+          }
+        ]
       }
     ],
     "signalWords": [
@@ -115,6 +151,26 @@
       {
         "word": "not only ... but also",
         "meaningVi": "không những ... mà còn ..."
+      },
+      {
+        "word": "because / since / as",
+        "meaningVi": "bởi vì (chỉ nguyên nhân)"
+      },
+      {
+        "word": "although / though / even though / while",
+        "meaningVi": "mặc dù / trong khi (chỉ tương phản)"
+      },
+      {
+        "word": "when / before / after / until / as soon as",
+        "meaningVi": "khi / trước khi / sau khi / cho đến khi / ngay khi"
+      },
+      {
+        "word": "if / unless",
+        "meaningVi": "nếu / nếu không"
+      },
+      {
+        "word": "so that",
+        "meaningVi": "để (chỉ mục đích)"
       }
     ],
     "formulas": {
@@ -154,6 +210,20 @@
           {
             "wrong": "He enjoys cooking and to paint.",
             "correct": "He enjoys cooking and painting."
+          }
+        ]
+      },
+      {
+        "id": "conjunctions-m4",
+        "description": "Dùng cả liên từ phụ thuộc và liên từ đẳng lập cùng nghĩa trong một câu (Although ... but, Because ... so).",
+        "examples": [
+          {
+            "wrong": "Although it was cold, but we went out.",
+            "correct": "Although it was cold, we went out."
+          },
+          {
+            "wrong": "Because it was late, so we went home.",
+            "correct": "Because it was late, we went home."
           }
         ]
       }

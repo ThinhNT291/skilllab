@@ -840,5 +840,569 @@
       "Sai — 'builds' làm câu có hai động từ chia liền nhau và sai nghĩa."
     ],
     "bac": 4
+  },
+  {
+    "id": "en-relative-clauses-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u1-who-whom",
+    "tags": [
+      "rc-u1-who-whom"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The boys ______ were playing basketball in the yard are my cousins.",
+    "choices": [
+      "which",
+      "whom",
+      "who",
+      "whose"
+    ],
+    "correctIndex": 2,
+    "explanation": "'The boys' chỉ người và làm chủ ngữ của 'were playing', nên dùng 'who' (trong câu xác định, 'that' cũng được chấp nhận).",
+    "choiceExplanations": [
+      "Sai — 'which': 'which' dùng cho vật, còn 'The boys' chỉ người.",
+      "Sai — 'whom': 'whom' chỉ làm tân ngữ; sau chỗ trống là động từ 'were playing' nên cần chủ ngữ.",
+      "Đúng — 'The boys' (người) làm chủ ngữ của 'were playing' → who. ('that' cũng dùng được ở đây nhưng không có trong các lựa chọn.)",
+      "Sai — 'whose': 'whose' chỉ sở hữu và phải có danh từ ngay sau; ở đây theo sau là động từ."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-relative-clauses-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u2-which-that",
+    "tags": [
+      "rc-u2-which-that"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I can't find the umbrella ______ I bought last week.",
+    "choices": [
+      "who",
+      "which",
+      "whose",
+      "where"
+    ],
+    "correctIndex": 1,
+    "explanation": "'The umbrella' là vật và là tân ngữ của 'bought', nên dùng 'which' (hoặc 'that').",
+    "choiceExplanations": [
+      "Sai — 'who': 'who' chỉ dùng cho người; 'umbrella' là vật.",
+      "Đúng — 'umbrella' (vật) là tân ngữ của 'bought' → which.",
+      "Sai — 'whose': 'whose' chỉ sở hữu và cần danh từ ngay sau; ở đây theo sau là 'I'.",
+      "Sai — 'where': 'where' dùng cho nơi chốn; 'umbrella' không phải nơi chốn."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-relative-clauses-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u3-whose",
+    "tags": [
+      "rc-u3-whose"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Anna is the student ______ project got the highest score in the class.",
+    "choices": [
+      "whose",
+      "who",
+      "which",
+      "whom"
+    ],
+    "correctIndex": 0,
+    "explanation": "'project' thuộc về người học sinh ('dự án của cô ấy'), nên dùng 'whose' + danh từ.",
+    "choiceExplanations": [
+      "Đúng — 'whose' + 'project' chỉ sự sở hữu: dự án của học sinh đó.",
+      "Sai — 'who': 'who' làm chủ ngữ; nhưng sau chỗ trống là danh từ 'project' chứ không phải động từ.",
+      "Sai — 'which': 'which' dùng cho vật, còn 'the student' chỉ người.",
+      "Sai — 'whom': 'whom' làm tân ngữ và không đứng ngay trước danh từ sở hữu 'project'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-relative-clauses-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u4-where-when-why",
+    "tags": [
+      "rc-u4-where-when-why"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Do you remember the night ______ the power went out in the whole city?",
+    "choices": [
+      "where",
+      "which",
+      "when",
+      "whose"
+    ],
+    "correctIndex": 2,
+    "explanation": "'The night' là thời gian, và mệnh đề sau đã đủ chủ ngữ + động từ ('the power went out'), nên dùng 'when' (= on which).",
+    "choiceExplanations": [
+      "Sai — 'where': 'where' chỉ nơi chốn; 'the night' là thời gian.",
+      "Sai — 'which': 'which' làm chủ ngữ hoặc tân ngữ; mệnh đề đã có đủ chủ ngữ 'the power' và động từ, không còn chỗ cho 'which'.",
+      "Đúng — 'the night' chỉ thời gian → when (= on which).",
+      "Sai — 'whose': 'whose' chỉ sở hữu, không hợp nghĩa ở đây."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-relative-clauses-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u5-defining-nondefining",
+    "tags": [
+      "rc-u5-defining-nondefining"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom's sister, ______ lives in Chicago, is a nurse.",
+    "choices": [
+      "that",
+      "who",
+      "which",
+      "whose"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mệnh đề nằm giữa hai dấu phẩy (không xác định) nên không dùng 'that'. 'Tom's sister' là người, làm chủ ngữ → 'who'.",
+    "choiceExplanations": [
+      "Sai — 'that': Không dùng 'that' trong mệnh đề không xác định (sau dấu phẩy).",
+      "Đúng — 'Tom's sister' chỉ người, làm chủ ngữ của 'lives' → who.",
+      "Sai — 'which': 'which' dùng cho vật, không dùng cho người.",
+      "Sai — 'whose': 'whose' cần danh từ ngay sau; ở đây theo sau là động từ 'lives'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-relative-clauses-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u2-which-that",
+    "tags": [
+      "rc-u2-which-that"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The books ______ are on the top shelf belong to my father.",
+    "choices": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "correctIndex": 3,
+    "explanation": "'The books' là vật và làm chủ ngữ của 'are', nên dùng 'which' (hoặc 'that').",
+    "choiceExplanations": [
+      "Sai — 'who': 'who' chỉ dùng cho người.",
+      "Sai — 'whom': 'whom' chỉ dùng cho người và làm tân ngữ.",
+      "Sai — 'whose': 'whose' chỉ sở hữu và cần danh từ ngay sau.",
+      "Đúng — 'The books' (vật) làm chủ ngữ của 'are' → which. ('that' cũng dùng được nhưng không có trong lựa chọn.)"
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-relative-clauses-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u4-where-when-why",
+    "tags": [
+      "rc-u4-where-when-why"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "That is the village ______ my grandparents were born.",
+    "choices": [
+      "who",
+      "where",
+      "which",
+      "why"
+    ],
+    "correctIndex": 1,
+    "explanation": "'The village' là nơi chốn, và mệnh đề sau đã đủ chủ ngữ + động từ, nên dùng 'where' (= in which).",
+    "choiceExplanations": [
+      "Sai — 'who': 'who' dùng cho người; 'village' là nơi chốn.",
+      "Đúng — 'village' là nơi chốn → where (= in which).",
+      "Sai — 'which': 'which' ở đây cần giới từ đi kèm (in which); đứng một mình thì thiếu giới từ. Dùng 'where' tự nhiên hơn.",
+      "Sai — 'why': 'why' chỉ đi sau 'the reason'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-relative-clauses-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u1-who-whom",
+    "tags": [
+      "rc-u1-who-whom"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The nurse ______ is treating my grandmother is very kind.",
+    "choices": [
+      "who",
+      "who she",
+      "whom she",
+      "which"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Who' đã làm chủ ngữ của 'is treating', nên không thêm đại từ 'she' nữa (lỗi thừa đại từ).",
+    "choiceExplanations": [
+      "Đúng — 'The nurse' (người) làm chủ ngữ của 'is treating' → who, không cần thêm gì.",
+      "Sai — 'who she': 'who she' làm thừa chủ ngữ: 'who' đã là chủ ngữ rồi, thêm 'she' là sai.",
+      "Sai — 'whom she': 'whom she' vừa thừa 'she', vừa dùng 'whom' (tân ngữ) cho vị trí chủ ngữ.",
+      "Sai — 'which': 'which' dùng cho vật; 'nurse' chỉ người."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-relative-clauses-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u2-which-that",
+    "tags": [
+      "rc-u2-which-that"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It was the only restaurant ______ was still open after midnight.",
+    "choices": [
+      "who",
+      "whose",
+      "what",
+      "that"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sau 'the only' ta thường dùng 'that'. 'Restaurant' là vật làm chủ ngữ của 'was'. ('Which' cũng không sai ngữ pháp nhưng 'that' tự nhiên hơn sau 'the only'.)",
+    "choiceExplanations": [
+      "Sai — 'who': 'who' chỉ dùng cho người; 'restaurant' là vật.",
+      "Sai — 'whose': 'whose' chỉ sở hữu và cần danh từ ngay sau.",
+      "Sai — 'what': 'what' không thể bổ nghĩa cho danh từ đứng trước (lỗi 'the car what...').",
+      "Đúng — 'that' thay cho vật, rất hợp sau 'the only' → that."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-relative-clauses-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u3-whose",
+    "tags": [
+      "rc-u3-whose"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The company ______ website crashed yesterday has apologized to its customers.",
+    "choices": [
+      "that",
+      "which",
+      "whose",
+      "who"
+    ],
+    "correctIndex": 2,
+    "explanation": "'whose' cũng dùng được cho vật: 'website của công ty'. Sau 'whose' là danh từ không kèm mạo từ.",
+    "choiceExplanations": [
+      "Sai — 'that': 'that' không chỉ sở hữu; không thể đứng trước 'website' với nghĩa 'của công ty'.",
+      "Sai — 'which': 'which website' sẽ không diễn đạt được sự sở hữu, và câu thiếu mạch.",
+      "Đúng — 'whose' + 'website' = website của công ty đó.",
+      "Sai — 'who': 'who' chỉ người, mà 'company' là tổ chức/vật."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-relative-clauses-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u2-which-that",
+    "tags": [
+      "rc-u2-which-that",
+      "rc-u4-where-when-why"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I will never forget the summer ______ we spent in Hawaii.",
+    "choices": [
+      "when",
+      "where",
+      "which",
+      "why"
+    ],
+    "correctIndex": 2,
+    "explanation": "'spent' cần một tân ngữ ('spent the summer'), nên chỗ trống phải là đại từ làm tân ngữ: 'which' (hoặc 'that'). 'When' chỉ dùng khi mệnh đề sau đã đủ thành phần.",
+    "choiceExplanations": [
+      "Sai — 'when': 'when' dùng khi mệnh đề sau đã đủ; ở đây 'spent' còn thiếu tân ngữ.",
+      "Sai — 'where': 'where' chỉ nơi chốn; 'the summer' là thời gian.",
+      "Đúng — 'the summer' là tân ngữ của 'spent' → which. ('that' cũng được.)",
+      "Sai — 'why': 'why' chỉ đi sau 'the reason'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-relative-clauses-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u4-where-when-why",
+    "tags": [
+      "rc-u4-where-when-why"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The café ______ we usually meet on Saturdays is closing next month.",
+    "choices": [
+      "where",
+      "which",
+      "whose",
+      "who"
+    ],
+    "correctIndex": 0,
+    "explanation": "'The café' là nơi chốn, và mệnh đề sau đã đủ chủ ngữ + động từ ('we usually meet'), nên dùng 'where'.",
+    "choiceExplanations": [
+      "Đúng — 'the café' là nơi chốn, mệnh đề sau đã đủ → where (= at which).",
+      "Sai — 'which': 'which' làm tân ngữ trực tiếp của 'meet'; nhưng 'meet' ở đây không có tân ngữ vật, thiếu giới từ 'at'.",
+      "Sai — 'whose': 'whose' chỉ sở hữu, không hợp nghĩa.",
+      "Sai — 'who': 'who' chỉ dùng cho người."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-relative-clauses-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u5-defining-nondefining",
+    "tags": [
+      "rc-u5-defining-nondefining"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My favorite book, ______ I have read three times, is still on my desk.",
+    "choices": [
+      "that",
+      "which",
+      "who",
+      "what"
+    ],
+    "correctIndex": 1,
+    "explanation": "Có dấu phẩy nên là mệnh đề không xác định; 'that' bị cấm. 'Book' là vật, làm tân ngữ của 'have read' → 'which'.",
+    "choiceExplanations": [
+      "Sai — 'that': Không dùng 'that' sau dấu phẩy.",
+      "Đúng — 'book' (vật) là tân ngữ của 'have read' → which.",
+      "Sai — 'who': 'who' chỉ dùng cho người.",
+      "Sai — 'what': 'what' không dùng để bổ nghĩa cho danh từ đứng trước."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-relative-clauses-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u5-defining-nondefining",
+    "tags": [
+      "rc-u5-defining-nondefining",
+      "rc-u3-whose"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Vietnam, ______ coastline is more than 3,000 kilometers long, attracts many tourists.",
+    "choices": [
+      "that",
+      "which",
+      "who",
+      "whose"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mệnh đề không xác định dùng 'whose' + danh từ để chỉ sở hữu: 'bờ biển của Việt Nam'.",
+    "choiceExplanations": [
+      "Sai — 'that': Không dùng 'that' sau dấu phẩy, và 'that' không chỉ sở hữu.",
+      "Sai — 'which': 'which coastline' không thể hiện được sự sở hữu.",
+      "Sai — 'who': 'who' chỉ người.",
+      "Đúng — 'whose' + 'coastline' = bờ biển của Việt Nam; 'whose' cũng dùng cho vật."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-relative-clauses-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Dr. Lan was the second woman ______ the award.",
+    "choices": [
+      "winning",
+      "won",
+      "to win",
+      "wins"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sau số thứ tự ('the second') và so sánh nhất, mệnh đề quan hệ rút gọn bằng to-V: 'the second woman to win'.",
+    "choiceExplanations": [
+      "Sai — 'winning': 'winning' mô tả hành động đang diễn ra; sau số thứ tự ta dùng to-V cho sự việc xảy ra một lần, nên 'winning' không tự nhiên ở đây.",
+      "Sai — 'won': 'won' không thể đứng sau danh từ để rút gọn: câu sẽ có hai động từ 'was' và 'won' không nối với nhau.",
+      "Đúng — Sau 'the second/first/best...' dùng to-V → 'to win'.",
+      "Sai — 'wins': 'wins' là động từ chia, không rút gọn được và làm câu thiếu quan hệ đúng."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-relative-clauses-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Most of the paintings ______ at the exhibition were created by local students.",
+    "choices": [
+      "displayed",
+      "displaying",
+      "to display",
+      "display"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tranh 'được trưng bày' (bị động), nên rút gọn 'which were displayed' thành V3/ed: 'displayed'.",
+    "choiceExplanations": [
+      "Đúng — Bị động ('được trưng bày') → rút gọn bằng V3/ed.",
+      "Sai — 'displaying': 'displaying' là chủ động; tranh không tự trưng bày.",
+      "Sai — 'to display': 'to display' dùng sau số thứ tự/so sánh nhất, không phù hợp ở đây.",
+      "Sai — 'display': 'display' là dạng nguyên mẫu, không rút gọn được mệnh đề quan hệ."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-relative-clauses-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Anyone ______ to join the club must fill in this form.",
+    "choices": [
+      "wished",
+      "to wish",
+      "wishes",
+      "wishing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rút gọn 'who wishes to join' (chủ động) bằng V-ing: 'wishing'.",
+    "choiceExplanations": [
+      "Sai — 'wished': 'wished' là dạng bị động/quá khứ; 'anyone' tự mong muốn, nên cần chủ động.",
+      "Sai — 'to wish': 'to wish' không dùng ở đây vì trước không có số thứ tự hay so sánh nhất.",
+      "Sai — 'wishes': 'wishes' là động từ chia, làm câu có hai động từ chính không nối nhau.",
+      "Đúng — Chủ động → rút gọn bằng V-ing: 'wishing'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-relative-clauses-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u4-where-when-why",
+    "tags": [
+      "rc-u4-where-when-why",
+      "rc-u2-which-that"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The reason ______ he gave for leaving early made no sense.",
+    "choices": [
+      "why",
+      "when",
+      "where",
+      "which"
+    ],
+    "correctIndex": 3,
+    "explanation": "'gave' cần một tân ngữ (gave a reason), nên chỗ trống là đại từ làm tân ngữ: 'which' (hoặc 'that'). 'Why' chỉ dùng khi mệnh đề sau đã đủ thành phần.",
+    "choiceExplanations": [
+      "Sai — 'why': 'why' = for which, dùng khi mệnh đề sau đã đủ; ở đây 'gave' còn thiếu tân ngữ.",
+      "Sai — 'when': 'when' chỉ thời gian.",
+      "Sai — 'where': 'where' chỉ nơi chốn.",
+      "Đúng — 'the reason' là tân ngữ của 'gave' → which. ('that' cũng được.)"
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-relative-clauses-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-u5-defining-nondefining",
+    "tags": [
+      "rc-u5-defining-nondefining",
+      "rc-u1-who-whom"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Dr. Nguyen, ______ I met at the conference, sent me an email yesterday.",
+    "choices": [
+      "that",
+      "whom",
+      "which",
+      "whose"
+    ],
+    "correctIndex": 1,
+    "explanation": "Có dấu phẩy nên không dùng 'that'. Người làm tân ngữ của 'met' → 'whom' (trang trọng; nói thường người ta hay dùng 'who' nhưng không có trong lựa chọn).",
+    "choiceExplanations": [
+      "Sai — 'that': Không dùng 'that' sau dấu phẩy.",
+      "Đúng — Người làm tân ngữ của 'met' → whom.",
+      "Sai — 'which': 'which' dùng cho vật.",
+      "Sai — 'whose': 'whose' cần danh từ ngay sau; ở đây theo sau là 'I'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-relative-clauses-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "relative-clauses",
+    "usageId": "rc-reduced-clauses",
+    "tags": [
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Everyone ______ for the scholarship must submit an essay by Friday.",
+    "choices": [
+      "applying",
+      "applied",
+      "to apply",
+      "applies"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rút gọn 'who applies' (chủ động) bằng V-ing: 'applying'.",
+    "choiceExplanations": [
+      "Đúng — Chủ động → rút gọn bằng V-ing: 'applying'.",
+      "Sai — 'applied': 'applied' là bị động, nhưng 'apply' ở đây không bị động.",
+      "Sai — 'to apply': 'to apply' dùng sau số thứ tự/so sánh nhất, không phù hợp ở đây.",
+      "Sai — 'applies': 'applies' là động từ chia, làm câu thừa động từ chính."
+    ],
+    "bac": 4
   }
 ]

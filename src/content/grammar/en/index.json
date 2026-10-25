@@ -150,7 +150,7 @@
     ],
     "order": 15,
     "category": "sentence-structure",
-    "usageCount": 5
+    "usageCount": 8
   },
   {
     "id": "relative-clauses",
@@ -257,7 +257,7 @@
     ],
     "order": 25,
     "category": "word-classes",
-    "usageCount": 5
+    "usageCount": 7
   },
   {
     "id": "phrasal-verb-rules",

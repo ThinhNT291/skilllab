@@ -838,5 +838,565 @@
       "Sai — 'expects' là chủ động; bản cập nhật không tự kỳ vọng."
     ],
     "bac": 4
+  },
+  {
+    "id": "en-passive-voice-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u1-basic-tenses",
+    "tags": [
+      "pv-u1-basic-tenses"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The soccer match ______ because of the heavy rain yesterday.",
+    "choices": [
+      "has postponed",
+      "postponed",
+      "was postponed",
+      "is postponing"
+    ],
+    "correctIndex": 2,
+    "explanation": "Có 'yesterday' nên dùng quá khứ đơn; trận đấu là đối tượng bị hoãn nên dùng bị động: was postponed.",
+    "choiceExplanations": [
+      "Sai — 'has postponed' là chủ động; trận đấu không tự hoãn, và 'yesterday' cũng không đi với hiện tại hoàn thành.",
+      "Sai — 'postponed' đứng một mình là dạng chủ động V2; trận đấu là đối tượng bị hoãn nên cần 'was' + V3.",
+      "Đúng — 'yesterday' là quá khứ đơn, trận đấu chịu tác động nên dùng bị động: was postponed.",
+      "Sai — 'is postponing' là chủ động hiện tại tiếp diễn, sai thì và sai thể."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-passive-voice-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u1-basic-tenses",
+    "tags": [
+      "pv-u1-basic-tenses"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Where ______ these photos taken last summer?",
+    "choices": [
+      "were",
+      "did",
+      "was",
+      "have"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu hỏi bị động ở quá khứ đơn: Where + were + S (số nhiều) + V3? Ảnh 'được chụp' chứ không tự chụp.",
+    "choiceExplanations": [
+      "Đúng — câu hỏi bị động quá khứ đơn với chủ ngữ số nhiều: Were + S + V3? (Where were these photos taken?).",
+      "Sai — 'did' phải đi với động từ nguyên mẫu (did ... take); ở đây đã có 'taken' (V3) nên cần 'were'.",
+      "Sai — 'photos' là số nhiều nên phải dùng 'were', không phải 'was'.",
+      "Sai — 'have these photos taken' thiếu 'been' và 'last summer' là mốc quá khứ xác định, không dùng hiện tại hoàn thành."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-passive-voice-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u1-basic-tenses",
+    "tags": [
+      "pv-u1-basic-tenses"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Don't worry. Your package ______ to your house before noon.",
+    "choices": [
+      "is going to deliver",
+      "will delivered",
+      "is going to being delivered",
+      "is going to be delivered"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tương lai gần ở dạng bị động: be going to + be + V3. Gói hàng là đối tượng 'được giao'.",
+    "choiceExplanations": [
+      "Sai — 'is going to deliver' là chủ động; gói hàng không tự giao, nó 'được giao'.",
+      "Sai — sau 'will' phải là động từ nguyên mẫu: will be delivered; 'will delivered' thiếu 'be'.",
+      "Sai — sau 'to' dùng nguyên mẫu 'be', không dùng 'being'.",
+      "Đúng — tương lai gần bị động: is/are going to + be + V3."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-passive-voice-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u1-basic-tenses",
+    "tags": [
+      "pv-u1-basic-tenses"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Several windows in our school were ______ during the storm last night.",
+    "choices": [
+      "broke",
+      "broken",
+      "breaking",
+      "break"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bị động quá khứ: were + V3. Động từ bất quy tắc break có V3 là broken (khác V2 là broke).",
+    "choiceExplanations": [
+      "Sai — 'broke' là V2 (quá khứ đơn); sau 'were' phải dùng V3 là 'broken'.",
+      "Đúng — bị động quá khứ: were + V3. V3 của 'break' là 'broken'.",
+      "Sai — 'were breaking' sẽ là chủ động tiếp diễn, không hợp nghĩa (cửa sổ bị bão làm vỡ).",
+      "Sai — sau 'were' không dùng động từ nguyên mẫu."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-passive-voice-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u1-basic-tenses",
+    "tags": [
+      "pv-u1-basic-tenses"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The Mona Lisa ______ by Leonardo da Vinci.",
+    "choices": [
+      "painted",
+      "has painted",
+      "is painting",
+      "was painted"
+    ],
+    "correctIndex": 3,
+    "explanation": "Quá khứ bị động: was + V3. 'by Leonardo da Vinci' cho biết người thực hiện.",
+    "choiceExplanations": [
+      "Sai — 'painted' đứng một mình sẽ thiếu động từ chính của câu bị động; bức tranh không tự vẽ.",
+      "Sai — chủ động hiện tại hoàn thành, sai nghĩa (bức tranh không vẽ ai).",
+      "Sai — chủ động tiếp diễn, sai nghĩa và sai thì.",
+      "Đúng — hành động đã xảy ra trong quá khứ, bức tranh chịu tác động: was painted."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-passive-voice-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u1-basic-tenses",
+    "tags": [
+      "pv-u1-basic-tenses"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Several new rules ______ at our school this year.",
+    "choices": [
+      "has been introduced",
+      "have been introduced",
+      "have introduced",
+      "were introducing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hiện tại hoàn thành bị động: have/has been + V3, chia theo chủ ngữ ('rules' là số nhiều).",
+    "choiceExplanations": [
+      "Sai — 'rules' là số nhiều nên dùng 'have', không dùng 'has'.",
+      "Đúng — hiện tại hoàn thành bị động: have/has + been + V3, chủ ngữ số nhiều dùng have.",
+      "Sai — chủ động; các quy định không tự 'giới thiệu', chúng 'được đưa ra'.",
+      "Sai — chủ động tiếp diễn quá khứ, sai nghĩa và 'this year' (chưa hết) hợp hiện tại hoàn thành."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-passive-voice-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u1-basic-tenses",
+    "tags": [
+      "pv-u1-basic-tenses"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "How many languages ______ in Switzerland?",
+    "choices": [
+      "are spoken",
+      "is spoken",
+      "does speak",
+      "are speaking"
+    ],
+    "correctIndex": 0,
+    "explanation": "Câu hỏi bị động hiện tại đơn: How many + N số nhiều + are + V3? Ngôn ngữ 'được nói'.",
+    "choiceExplanations": [
+      "Đúng — hiện tại đơn bị động, chủ ngữ số nhiều: are spoken.",
+      "Sai — 'languages' là số nhiều nên dùng 'are', không phải 'is'.",
+      "Sai — chủ động và 'does' đi với chủ ngữ số ít; ngôn ngữ không tự nói.",
+      "Sai — chủ động tiếp diễn, ngôn ngữ không 'đang nói'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-passive-voice-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u6-perfect-modal",
+    "tags": [
+      "pv-u6-perfect-modal"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The accident ______ if the driver had stopped at the red light.",
+    "choices": [
+      "could have avoided",
+      "could be avoided",
+      "could have been avoided",
+      "could avoid"
+    ],
+    "correctIndex": 2,
+    "explanation": "Modal ở quá khứ bị động: modal + have been + V3. Mệnh đề 'had stopped' cho thấy tình huống đã qua.",
+    "choiceExplanations": [
+      "Sai — chủ động; tai nạn không tự 'tránh' ai, nó 'được/đã có thể được tránh'.",
+      "Sai — 'could be avoided' nói về hiện tại/tương lai, nhưng 'had stopped' cho thấy chuyện đã qua.",
+      "Đúng — việc đã qua có thể đã khác đi: could have + been + V3.",
+      "Sai — chủ động và không diễn tả điều đã qua."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-passive-voice-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u1-basic-tenses",
+    "tags": [
+      "pv-u1-basic-tenses"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You can't use the elevator now. It ______ at the moment.",
+    "choices": [
+      "is repairing",
+      "is being repaired",
+      "repairs",
+      "is repaired"
+    ],
+    "correctIndex": 1,
+    "explanation": "Việc đang diễn ra lúc nói + đối tượng bị tác động → bị động hiện tại tiếp diễn: is being repaired.",
+    "choiceExplanations": [
+      "Sai — chủ động; thang máy không tự sửa mình.",
+      "Đúng — 'at the moment' là hiện tại tiếp diễn; bị động tiếp diễn: am/is/are + being + V3.",
+      "Sai — chủ động hiện tại đơn, sai nghĩa và không hợp 'at the moment'.",
+      "Sai — hiện tại đơn bị động nói về sự thật chung, không diễn tả việc đang diễn ra lúc này."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-passive-voice-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u3-two-objects",
+    "tags": [
+      "pv-u3-two-objects"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A new bike was bought ______ me by my uncle for my birthday.",
+    "choices": [
+      "to",
+      "with",
+      "at",
+      "for"
+    ],
+    "correctIndex": 3,
+    "explanation": "Với buy/make/cook, người nhận đi sau 'for' (A bike was bought for me); với give/send/show thì dùng 'to'.",
+    "choiceExplanations": [
+      "Sai — 'to' đi với give, send, show...; với 'buy' ta dùng 'for'.",
+      "Sai — 'with' không dùng để chỉ người nhận lợi ích.",
+      "Sai — 'at' không đi với 'buy' để chỉ người được mua cho.",
+      "Đúng — khi tân ngữ vật làm chủ ngữ, người nhận đi sau 'to' (give, send, show) hoặc 'for' (buy, make, cook)."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-passive-voice-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u1-basic-tenses",
+    "tags": [
+      "pv-u1-basic-tenses"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Children under twelve ______ to enter the pool without an adult.",
+    "choices": [
+      "aren't allowed",
+      "don't allow",
+      "aren't allowing",
+      "not allowed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bị động hiện tại đơn phủ định: S + am/is/are + not + V3. Trẻ em là đối tượng 'được phép'.",
+    "choiceExplanations": [
+      "Đúng — 'allow' là hành động tác động lên trẻ em nên dùng bị động: are not allowed.",
+      "Sai — chủ động, trẻ em không phải người cho phép.",
+      "Sai — chủ động tiếp diễn, sai nghĩa.",
+      "Sai — thiếu động từ 'be' (are) nên câu không đủ động từ chính."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-passive-voice-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u5-causative",
+    "tags": [
+      "pv-u5-causative"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We are having a new window ______ in our living room next Monday.",
+    "choices": [
+      "install",
+      "to install",
+      "installed",
+      "installing"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cấu trúc have something done: have + tân ngữ vật + V3. Người lắp không cần nói ra.",
+    "choiceExplanations": [
+      "Sai — sau 'have + vật' (chuyển nhờ vả bị động) phải là V3, không phải nguyên mẫu.",
+      "Sai — không dùng 'to V' trong cấu trúc have something done.",
+      "Đúng — have + vật + V3: nhờ người khác lắp cửa sổ.",
+      "Sai — dạng V-ing sẽ nghĩa là cửa sổ tự lắp, vô lý."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-passive-voice-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u7-nonfinite",
+    "tags": [
+      "pv-u7-nonfinite"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The science project has to ______ by next Friday.",
+    "choices": [
+      "finish",
+      "be finished",
+      "finishing",
+      "being finished"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sau have to/need to/want to dùng nguyên mẫu bị động: to be + V3.",
+    "choiceExplanations": [
+      "Sai — 'has to finish' là chủ động, nhưng dự án không tự hoàn thành; sai nghĩa.",
+      "Đúng — sau 'have to' dùng nguyên mẫu bị động: be + V3.",
+      "Sai — sau 'has to' phải là nguyên mẫu, không dùng V-ing.",
+      "Sai — 'being finished' là V-ing, không đứng sau 'has to'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-passive-voice-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u7-nonfinite",
+    "tags": [
+      "pv-u7-nonfinite"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Lisa hates ______ at when she makes a small mistake in class.",
+    "choices": [
+      "being laughed",
+      "laughing",
+      "to laugh",
+      "be laughed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau hate/like/avoid/enjoy dùng V-ing; bị động của V-ing là being + V3. 'laugh at' giữ nguyên giới từ 'at'.",
+    "choiceExplanations": [
+      "Đúng — sau 'hate' dùng V-ing; bị động của V-ing là being + V3 (being laughed at).",
+      "Sai — 'laughing at' là chủ động (Lisa cười người khác), ngược nghĩa.",
+      "Sai — chủ động nguyên mẫu, không đúng nghĩa bị người khác cười.",
+      "Sai — sau 'hate' không dùng nguyên mẫu trần 'be'; cần dạng V-ing 'being'."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-passive-voice-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u8-intransitive",
+    "tags": [
+      "pv-u8-intransitive"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The school concert ______ in the main hall last Saturday.",
+    "choices": [
+      "was taken place",
+      "had been taken place",
+      "took place",
+      "is taken place"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nội động từ như take place, happen, arrive, appear không có dạng bị động.",
+    "choiceExplanations": [
+      "Sai — 'take place' không có tân ngữ nên không có dạng bị động.",
+      "Sai — vẫn là bị động của động từ không có dạng bị động.",
+      "Đúng — 'take place' (diễn ra) là nội động từ, chỉ dùng chủ động: took place.",
+      "Sai — không dùng bị động, và 'last Saturday' đòi hỏi quá khứ."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-passive-voice-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u1-basic-tenses",
+    "tags": [
+      "pv-u1-basic-tenses"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time we got to the cinema, all the tickets ______.",
+    "choices": [
+      "sold",
+      "had sold",
+      "were selling",
+      "had been sold"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hành động xảy ra trước 'got to the cinema' (quá khứ) → quá khứ hoàn thành bị động: had been sold.",
+    "choiceExplanations": [
+      "Sai — 'sold' đứng một mình không tạo thành động từ chính của câu.",
+      "Sai — chủ động; vé không tự bán.",
+      "Sai — chủ động tiếp diễn, sai nghĩa.",
+      "Đúng — việc xảy ra trước một mốc quá khứ → quá khứ hoàn thành bị động: had been + V3."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-passive-voice-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u7-nonfinite",
+    "tags": [
+      "pv-u7-nonfinite"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The old castle was believed ______ by ghosts when my grandfather was young.",
+    "choices": [
+      "to haunt",
+      "to be haunted",
+      "to have haunted",
+      "haunting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cấu trúc tường thuật + nguyên mẫu bị động: was believed + to be + V3 khi hai việc xảy ra cùng lúc.",
+    "choiceExplanations": [
+      "Sai — chủ động, nhưng lâu đài là nơi 'bị ám'.",
+      "Đúng — hai việc cùng lúc trong quá khứ, nghĩa bị động → to be + V3.",
+      "Sai — chủ động và chỉ việc xảy ra trước; 'by ghosts' đòi hỏi bị động.",
+      "Sai — sau 'was believed' dùng 'to V', không dùng V-ing."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-passive-voice-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u5-causative",
+    "tags": [
+      "pv-u5-causative"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Poor Ben had his wallet ______ on the bus this morning.",
+    "choices": [
+      "stolen",
+      "steal",
+      "stealing",
+      "to steal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Have something done cũng diễn tả sự việc không may xảy ra: had his wallet stolen.",
+    "choiceExplanations": [
+      "Đúng — have + vật + V3 còn dùng cho điều không may xảy ra với mình, không có nghĩa nhờ ai làm.",
+      "Sai — sau 'have + vật' cần V3, không dùng nguyên mẫu.",
+      "Sai — V-ing sẽ nghĩa là chiếc ví tự đi lấy cắp.",
+      "Sai — không dùng 'to V' trong cấu trúc này."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-passive-voice-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u1-basic-tenses",
+    "tags": [
+      "pv-u1-basic-tenses"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mr. Kim ______ the best teacher in our school by his students for three years.",
+    "choices": [
+      "is considering",
+      "was considered",
+      "has considered",
+      "has been considered"
+    ],
+    "correctIndex": 3,
+    "explanation": "Kéo dài đến hiện tại + for three years → hiện tại hoàn thành bị động: has been considered.",
+    "choiceExplanations": [
+      "Sai — chủ động tiếp diễn, sai nghĩa.",
+      "Sai — quá khứ đơn không đi với 'for three years' nếu việc vẫn đúng đến nay.",
+      "Sai — chủ động hiện tại hoàn thành, nhưng 'by his students' cho thấy câu bị động.",
+      "Đúng — 'for three years' + việc kéo dài đến nay → hiện tại hoàn thành bị động."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-passive-voice-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "passive-voice",
+    "usageId": "pv-u6-perfect-modal",
+    "tags": [
+      "pv-u6-perfect-modal"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Look at the glass on the floor! The window ______ by a ball.",
+    "choices": [
+      "must be broken",
+      "must have broken",
+      "must have been broken",
+      "must been broken"
+    ],
+    "correctIndex": 2,
+    "explanation": "Suy đoán chắc chắn về điều đã xảy ra: must have been + V3.",
+    "choiceExplanations": [
+      "Sai — 'must be broken' chỉ trạng thái hiện tại; ở đây suy đoán về việc đã xảy ra, cần 'have been'.",
+      "Sai — chủ động, cửa sổ không tự làm vỡ.",
+      "Đúng — suy đoán chắc chắn về quá khứ: must have + been + V3.",
+      "Sai — thiếu 'have' sau 'must'."
+    ],
+    "bac": 5
   }
 ]

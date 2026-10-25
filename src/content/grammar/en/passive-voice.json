@@ -44,7 +44,7 @@
       {
         "id": "pv-u3-two-objects",
         "label": "Câu bị động với động từ có hai tân ngữ",
-        "explanationVi": "Một số động từ như give, send, show, buy, teach... thường đi kèm hai tân ngữ (chỉ người và chỉ vật). Ta có thể viết được hai câu bị động khác nhau tuỳ thuộc vào việc đưa tân ngữ nào lên làm chủ ngữ. Việc đưa tân ngữ chỉ người lên làm chủ ngữ thường phổ biến và tự nhiên hơn.",
+        "explanationVi": "Một số động từ như give, send, show, buy, teach... thường đi kèm hai tân ngữ (chỉ người và chỉ vật). Ta có thể viết được hai câu bị động khác nhau tuỳ thuộc vào việc đưa tân ngữ nào lên làm chủ ngữ. Việc đưa tân ngữ chỉ người lên làm chủ ngữ thường phổ biến và tự nhiên hơn. Khi đưa tân ngữ chỉ vật lên làm chủ ngữ, người nhận đứng sau 'to' (give, send, show, teach) hoặc 'for' (buy, make, cook).",
         "examples": [
           {
             "en": "I was given a beautiful gift by my friends.",
@@ -53,6 +53,10 @@
           {
             "en": "A beautiful gift was given to me.",
             "vi": "Một món quà tuyệt đẹp đã được tặng cho tôi."
+          },
+          {
+            "en": "A sweater was knitted for her by her grandmother.",
+            "vi": "Một chiếc áo len đã được bà đan cho cô ấy."
           }
         ],
         "bac": 4
@@ -80,7 +84,7 @@
       {
         "id": "pv-u5-causative",
         "label": "Câu bị động dạng nhờ vả (Causative Passive)",
-        "explanationVi": "Khi bạn thuê hoặc nhờ ai đó làm việc gì cho mình, thay vì dùng dạng chủ động, người bản xứ rất hay dùng cấu trúc (have/get something done) - nghĩa là có cái gì đó được làm bởi người khác. Cấu trúc này nhấn mạnh vào việc công việc đã được hoàn tất.",
+        "explanationVi": "Khi bạn thuê hoặc nhờ ai đó làm việc gì cho mình, thay vì dùng dạng chủ động, người bản xứ rất hay dùng cấu trúc (have/get something done) - nghĩa là có cái gì đó được làm bởi người khác. Cấu trúc này nhấn mạnh vào việc công việc đã được hoàn tất. Cấu trúc have + vật + V3 còn dùng để nói điều không may xảy ra với mình, không có nghĩa nhờ ai.",
         "examples": [
           {
             "en": "She had her car repaired yesterday.",
@@ -89,6 +93,58 @@
           {
             "en": "We will get our house painted next week.",
             "vi": "Chúng tôi sẽ thuê người sơn lại nhà vào tuần tới."
+          },
+          {
+            "en": "He had his phone stolen on the train.",
+            "vi": "Anh ấy bị trộm mất điện thoại trên tàu."
+          }
+        ],
+        "bac": 4
+      },
+      {
+        "id": "pv-u6-perfect-modal",
+        "label": "Bị động với động từ khuyết thiếu ở quá khứ",
+        "explanationVi": "Để nói về việc đã xảy ra trong quá khứ (suy đoán, trách móc, khả năng đã bỏ lỡ), ta dùng modal + have been + V3: must have been, could have been, should have been. Chủ động là modal + have + V3 nên đối tượng chịu tác động phải dùng 'have been'.",
+        "examples": [
+          {
+            "en": "The letter should have been sent yesterday.",
+            "vi": "Lẽ ra lá thư phải được gửi từ hôm qua."
+          },
+          {
+            "en": "The lights must have been turned off by someone.",
+            "vi": "Chắc hẳn ai đó đã tắt đèn."
+          }
+        ],
+        "bac": 5
+      },
+      {
+        "id": "pv-u7-nonfinite",
+        "label": "Nguyên mẫu và V-ing ở dạng bị động",
+        "explanationVi": "Sau have to, need to, want to, be going to hoặc sau động từ chỉ ý kiến (is said, was believed), dạng bị động của nguyên mẫu là to be + V3. Sau giới từ hoặc các động từ như enjoy, hate, like, avoid, dạng bị động của V-ing là being + V3.",
+        "examples": [
+          {
+            "en": "This room needs to be cleaned today.",
+            "vi": "Căn phòng này cần được dọn hôm nay."
+          },
+          {
+            "en": "He avoids being photographed.",
+            "vi": "Anh ấy tránh bị chụp ảnh."
+          }
+        ],
+        "bac": 5
+      },
+      {
+        "id": "pv-u8-intransitive",
+        "label": "Động từ không dùng được ở bị động",
+        "explanationVi": "Chỉ động từ có tân ngữ (ngoại động từ) mới đổi được sang bị động. Nội động từ như happen, take place, arrive, appear, die, seem không có tân ngữ nên không có dạng bị động; ta dùng chủ động.",
+        "examples": [
+          {
+            "en": "The meeting took place on Monday.",
+            "vi": "Cuộc họp đã diễn ra vào thứ Hai."
+          },
+          {
+            "en": "A strange noise happened last night.",
+            "vi": "Có một tiếng động lạ xảy ra đêm qua."
           }
         ],
         "bac": 4

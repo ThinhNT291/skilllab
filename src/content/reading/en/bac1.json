@@ -1,0 +1,610 @@
+[
+  {
+    "id": "rd-b1-001",
+    "bac": 1,
+    "title": "My Family",
+    "text": "My name is Mia. I live in a small house with my mom, my dad, and my brother Sam. Sam is ten. He likes soccer.\n\nMy mom is a teacher. She works at a school near our house. My dad cooks dinner every night. We eat together at six o'clock. I love my family.",
+    "questions": [
+      {
+        "prompt": "Who cooks dinner?",
+        "choices": [
+          "Mia",
+          "Sam",
+          "Her dad",
+          "Her mom"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: \"My dad cooks dinner every night.\" nên bố nấu bữa tối.",
+        "choiceExplanations": [
+          "Sai — 'Mia': bài không nói Mia nấu ăn.",
+          "Sai — 'Sam': bài chỉ nói Sam mười tuổi và thích bóng đá.",
+          "Đúng — bài viết: \"My dad cooks dinner every night.\"",
+          "Sai — 'Her mom': mẹ là giáo viên, bài không nói mẹ nấu bữa tối."
+        ]
+      },
+      {
+        "prompt": "Which is true?",
+        "choices": [
+          "Mia lives in a big house.",
+          "Sam likes soccer.",
+          "Mom cooks dinner.",
+          "Dad is a teacher."
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu \"Sam is ten. He likes soccer.\" cho biết Sam thích bóng đá.",
+        "choiceExplanations": [
+          "Sai — 'Mia lives in a big house.': bài nói \"a small house\", không phải nhà lớn.",
+          "Đúng — bài viết: \"He likes soccer.\" (He = Sam).",
+          "Sai — 'Mom cooks dinner.': bài nói bố (dad) nấu ăn.",
+          "Sai — 'Dad is a teacher.': bài nói mẹ (mom) là giáo viên."
+        ]
+      },
+      {
+        "prompt": "Where does Mia's mom work?",
+        "choices": [
+          "At a school",
+          "At a store",
+          "At home",
+          "At a park"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"She works at a school near our house.\"",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"She works at a school near our house.\"",
+          "Sai — 'At a store': bài không nhắc cửa hàng.",
+          "Sai — 'At home': bài nói mẹ làm ở trường, không phải ở nhà.",
+          "Sai — 'At a park': bài không nhắc công viên."
+        ]
+      },
+      {
+        "prompt": "When does the family eat dinner?",
+        "choices": [
+          "At five o'clock",
+          "At seven o'clock",
+          "At eight o'clock",
+          "At six o'clock"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: \"We eat together at six o'clock.\"",
+        "choiceExplanations": [
+          "Sai — 'At five o'clock': bài nói sáu giờ, không phải năm giờ.",
+          "Sai — 'At seven o'clock': bài nói sáu giờ, không phải bảy giờ.",
+          "Sai — 'At eight o'clock': bài nói sáu giờ, không phải tám giờ.",
+          "Đúng — bài viết: \"We eat together at six o'clock.\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-002",
+    "bac": 1,
+    "title": "My Dog Max",
+    "text": "I have a dog. His name is Max. He is brown and white. Max is two years old.\n\nHe likes to run in the park. He also likes to play with a ball. Every morning, I give him water and food. Max sleeps in my room. He is my best friend.",
+    "questions": [
+      {
+        "prompt": "What color is Max?",
+        "choices": [
+          "Black and white",
+          "Brown and white",
+          "Yellow",
+          "All brown"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: \"He is brown and white.\"",
+        "choiceExplanations": [
+          "Sai — 'Black and white': bài nói nâu và trắng, không phải đen.",
+          "Đúng — bài viết: \"He is brown and white.\"",
+          "Sai — 'Yellow': bài không nói Max màu vàng.",
+          "Sai — 'All brown': bài nói nâu và trắng, không phải toàn nâu."
+        ]
+      },
+      {
+        "prompt": "Which is true?",
+        "choices": [
+          "Max is a cat.",
+          "Max is five years old.",
+          "Max sleeps in the park.",
+          "Max is two years old."
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: \"Max is two years old.\"",
+        "choiceExplanations": [
+          "Sai — 'Max is a cat.': bài nói Max là con chó (dog).",
+          "Sai — 'Max is five years old.': bài nói hai tuổi.",
+          "Sai — 'Max sleeps in the park.': bài nói Max ngủ trong phòng của người viết.",
+          "Đúng — bài viết: \"Max is two years old.\""
+        ]
+      },
+      {
+        "prompt": "Where does Max sleep?",
+        "choices": [
+          "In my room",
+          "In the park",
+          "In the kitchen",
+          "At school"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"Max sleeps in my room.\"",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"Max sleeps in my room.\"",
+          "Sai — 'In the park': Max chạy ở công viên, không ngủ ở đó.",
+          "Sai — 'In the kitchen': bài không nhắc nhà bếp.",
+          "Sai — 'At school': bài không nói Max ở trường."
+        ]
+      },
+      {
+        "prompt": "What is the text about?",
+        "choices": [
+          "A school lesson",
+          "A big zoo",
+          "A girl or boy and a pet dog",
+          "A cat and a ball"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cả bài mô tả chú chó Max: màu lông, tuổi, sở thích, chỗ ngủ.",
+        "choiceExplanations": [
+          "Sai — 'A school lesson': bài không nói về giờ học.",
+          "Sai — 'A big zoo': bài không nói về sở thú.",
+          "Đúng — cả bài kể về chú chó Max của người viết.",
+          "Sai — 'A cat and a ball': con vật trong bài là chó, không phải mèo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-003",
+    "bac": 1,
+    "title": "A Day at School",
+    "text": "Tom is a student. He goes to school by bus. School starts at eight o'clock.\n\nToday he has math, English, and art. He likes art the most. At noon, he eats lunch in the cafeteria with his friends. He has a sandwich and an apple. School ends at three o'clock.",
+    "questions": [
+      {
+        "prompt": "How does Tom go to school?",
+        "choices": [
+          "By car",
+          "By bike",
+          "On foot",
+          "By bus"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: \"He goes to school by bus.\"",
+        "choiceExplanations": [
+          "Sai — 'By car': bài nói đi xe buýt.",
+          "Sai — 'By bike': bài không nhắc xe đạp.",
+          "Sai — 'On foot': bài nói đi xe buýt, không phải đi bộ.",
+          "Đúng — bài viết: \"He goes to school by bus.\""
+        ]
+      },
+      {
+        "prompt": "What does Tom have for lunch?",
+        "choices": [
+          "A sandwich and an apple",
+          "Pizza and milk",
+          "Rice and fish",
+          "An apple only"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"He has a sandwich and an apple.\"",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"He has a sandwich and an apple.\"",
+          "Sai — 'Pizza and milk': bài không nhắc pizza và sữa.",
+          "Sai — 'Rice and fish': bài không nhắc cơm và cá.",
+          "Sai — 'An apple only': Tom có cả bánh sandwich, không chỉ táo."
+        ]
+      },
+      {
+        "prompt": "Which is true?",
+        "choices": [
+          "School starts at nine o'clock.",
+          "Tom likes math the most.",
+          "School ends at three o'clock.",
+          "Tom eats lunch at home."
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: \"School ends at three o'clock.\"",
+        "choiceExplanations": [
+          "Sai — 'School starts at nine o'clock.': bài nói trường bắt đầu lúc tám giờ.",
+          "Sai — 'Tom likes math the most.': bài nói Tom thích môn mỹ thuật (art) nhất.",
+          "Đúng — bài viết: \"School ends at three o'clock.\"",
+          "Sai — 'Tom eats lunch at home.': bài nói Tom ăn trưa ở căng-tin."
+        ]
+      },
+      {
+        "prompt": "In this text, what is a \"cafeteria\"?",
+        "choices": [
+          "A place to play soccer",
+          "A place to eat lunch",
+          "A kind of bus",
+          "A subject at school"
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu \"eats lunch in the cafeteria with his friends\" giúp đoán cafeteria là nơi ăn trưa.",
+        "choiceExplanations": [
+          "Sai — 'A place to play soccer': bài nói Tom ăn trưa ở đó, không chơi bóng.",
+          "Đúng — Tom \"eats lunch in the cafeteria\", nên đó là nơi ăn trưa.",
+          "Sai — 'A kind of bus': Tom đến trường bằng xe buýt, cafeteria là nơi khác.",
+          "Sai — 'A subject at school': các môn học là math, English, art."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-004",
+    "bac": 1,
+    "title": "A Rainy Saturday",
+    "text": "It is Saturday. It is rainy today, so Anna and her brother stay home. They cannot play outside.\n\nAnna is reading a book. Her brother is drawing a big sun. Their mom is making hot soup in the kitchen. The soup smells good. Tomorrow is sunny.",
+    "questions": [
+      {
+        "prompt": "Why do Anna and her brother stay home?",
+        "choices": [
+          "It is cold and snowy.",
+          "They are sick.",
+          "It is rainy.",
+          "It is Sunday."
+        ],
+        "correctIndex": 2,
+        "explanation": "Từ \"so\" nối nguyên nhân (trời mưa) với kết quả (ở nhà).",
+        "choiceExplanations": [
+          "Sai — 'It is cold and snowy.': bài nói trời mưa, không nói có tuyết.",
+          "Sai — 'They are sick.': bài không nói họ bị ốm.",
+          "Đúng — bài viết: \"It is rainy today, so ... stay home.\"",
+          "Sai — 'It is Sunday.': bài nói hôm nay là thứ Bảy."
+        ]
+      },
+      {
+        "prompt": "Which is true?",
+        "choices": [
+          "Mom is making soup.",
+          "Dad is making soup.",
+          "Anna is drawing a sun.",
+          "It is sunny today."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"Their mom is making hot soup in the kitchen.\"",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"Their mom is making hot soup.\"",
+          "Sai — 'Dad is making soup.': bài nói mẹ (mom) nấu súp.",
+          "Sai — 'Anna is drawing a sun.': bài nói em trai vẽ mặt trời, Anna đọc sách.",
+          "Sai — 'It is sunny today.': bài nói hôm nay mưa, ngày mai mới nắng."
+        ]
+      },
+      {
+        "prompt": "What is Anna's brother drawing?",
+        "choices": [
+          "A dog",
+          "A house",
+          "A rainy day",
+          "A big sun"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: \"Her brother is drawing a big sun.\"",
+        "choiceExplanations": [
+          "Sai — 'A dog': bài không nhắc vẽ chó.",
+          "Sai — 'A house': bài không nhắc vẽ nhà.",
+          "Sai — 'A rainy day': em trai vẽ mặt trời, không vẽ ngày mưa.",
+          "Đúng — bài viết: \"Her brother is drawing a big sun.\""
+        ]
+      },
+      {
+        "prompt": "In this text, \"stay home\" means:",
+        "choices": [
+          "go to school",
+          "be at home",
+          "go to the park",
+          "run home"
+        ],
+        "correctIndex": 1,
+        "explanation": "\"Stay home\" nghĩa là ở nhà; câu sau \"They cannot play outside\" xác nhận điều đó.",
+        "choiceExplanations": [
+          "Sai — 'go to school': hôm nay là thứ Bảy và trời mưa, họ không đi học.",
+          "Đúng — \"cannot play outside\" cho thấy họ ở trong nhà.",
+          "Sai — 'go to the park': bài nói họ không thể chơi ngoài trời.",
+          "Sai — 'run home': bài không nói họ chạy về nhà."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-005",
+    "bac": 1,
+    "title": "Soccer Practice",
+    "text": "Ben plays soccer for his school team. The team has practice on Monday and Thursday after school. There are twelve players on the team.\n\nBen is fast, so he plays forward. His friend Leo is the goalkeeper. On Saturday, they have a game. They want to win!",
+    "questions": [
+      {
+        "prompt": "When does the team have practice?",
+        "choices": [
+          "On Saturday and Sunday",
+          "On Monday and Thursday",
+          "On Tuesday and Friday",
+          "Every morning"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: \"practice on Monday and Thursday after school.\"",
+        "choiceExplanations": [
+          "Sai — 'On Saturday and Sunday': thứ Bảy là ngày thi đấu, không phải tập.",
+          "Đúng — bài viết: \"practice on Monday and Thursday after school.\"",
+          "Sai — 'On Tuesday and Friday': bài nói thứ Hai và thứ Năm.",
+          "Sai — 'Every morning': bài nói tập sau giờ học vào hai ngày."
+        ]
+      },
+      {
+        "prompt": "Which is true?",
+        "choices": [
+          "There are twelve players.",
+          "There are ten players.",
+          "Leo plays forward.",
+          "The game is on Monday."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"There are twelve players on the team.\"",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"There are twelve players on the team.\"",
+          "Sai — 'There are ten players.': bài nói mười hai người.",
+          "Sai — 'Leo plays forward.': bài nói Ben chơi tiền đạo, Leo là thủ môn.",
+          "Sai — 'The game is on Monday.': bài nói trận đấu vào thứ Bảy."
+        ]
+      },
+      {
+        "prompt": "Who is the goalkeeper?",
+        "choices": [
+          "Ben",
+          "The teacher",
+          "Leo",
+          "Ben's brother"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: \"His friend Leo is the goalkeeper.\"",
+        "choiceExplanations": [
+          "Sai — 'Ben': Ben chơi tiền đạo (forward).",
+          "Sai — 'The teacher': bài không nhắc giáo viên chơi bóng.",
+          "Đúng — bài viết: \"His friend Leo is the goalkeeper.\"",
+          "Sai — 'Ben's brother': bài không nhắc anh/em của Ben."
+        ]
+      },
+      {
+        "prompt": "Why does Ben play forward?",
+        "choices": [
+          "He is tall.",
+          "He is the goalkeeper.",
+          "He likes the coach.",
+          "He is fast."
+        ],
+        "correctIndex": 3,
+        "explanation": "Từ \"so\" cho biết lý do: Ben chạy nhanh nên chơi tiền đạo.",
+        "choiceExplanations": [
+          "Sai — 'He is tall.': bài không nói Ben cao.",
+          "Sai — 'He is the goalkeeper.': thủ môn là Leo.",
+          "Sai — 'He likes the coach.': bài không nhắc huấn luyện viên.",
+          "Đúng — bài viết: \"Ben is fast, so he plays forward.\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-006",
+    "bac": 1,
+    "title": "Pizza Night",
+    "text": "On Friday night, Lily's family makes pizza at home. Lily puts cheese on the pizza. Her dad cuts the tomatoes and the green peppers.\n\nHer little sister does not like peppers, so she wants only cheese. The pizza is in the oven for fifteen minutes. Then they eat and watch a movie. Lily loves Friday!",
+    "questions": [
+      {
+        "prompt": "What does Lily put on the pizza?",
+        "choices": [
+          "Tomatoes",
+          "Cheese",
+          "Green peppers",
+          "Chicken"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: \"Lily puts cheese on the pizza.\"",
+        "choiceExplanations": [
+          "Sai — 'Tomatoes': bố của Lily cắt cà chua, không phải Lily.",
+          "Đúng — bài viết: \"Lily puts cheese on the pizza.\"",
+          "Sai — 'Green peppers': bố cắt ớt chuông, Lily không nói là cho ớt.",
+          "Sai — 'Chicken': bài không nhắc thịt gà."
+        ]
+      },
+      {
+        "prompt": "Which is true?",
+        "choices": [
+          "Lily's dad does not cook.",
+          "They make pizza on Sunday.",
+          "Lily's sister wants many peppers.",
+          "Lily's sister does not like peppers."
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: \"Her little sister does not like peppers, so she wants only cheese.\"",
+        "choiceExplanations": [
+          "Sai — 'Lily's dad does not cook.': bố cắt rau cho pizza, nên có giúp nấu.",
+          "Sai — 'They make pizza on Sunday.': bài nói tối thứ Sáu.",
+          "Sai — 'Lily's sister wants many peppers.': bài nói em chỉ muốn phô mai.",
+          "Đúng — bài viết: \"Her little sister does not like peppers.\""
+        ]
+      },
+      {
+        "prompt": "How long is the pizza in the oven?",
+        "choices": [
+          "Fifteen minutes",
+          "Five minutes",
+          "Fifty minutes",
+          "One hour"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"The pizza is in the oven for fifteen minutes.\"",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"in the oven for fifteen minutes.\"",
+          "Sai — 'Five minutes': bài nói mười lăm phút.",
+          "Sai — 'Fifty minutes': bài nói mười lăm phút, không phải năm mươi.",
+          "Sai — 'One hour': bài nói mười lăm phút, không phải một giờ."
+        ]
+      },
+      {
+        "prompt": "In this text, an \"oven\" is:",
+        "choices": [
+          "a kind of movie",
+          "a cold box for milk",
+          "a hot place in the kitchen to cook food",
+          "a table for dinner"
+        ],
+        "correctIndex": 2,
+        "explanation": "Pizza cần nướng \"in the oven\", rồi \"then they eat\", nên oven là lò nướng.",
+        "choiceExplanations": [
+          "Sai — 'a kind of movie': họ xem phim sau khi ăn, oven không phải phim.",
+          "Sai — 'a cold box for milk': pizza được nấu trong oven nên nó nóng, không lạnh.",
+          "Đúng — pizza ở trong oven mười lăm phút rồi mới ăn, nên oven dùng để nấu.",
+          "Sai — 'a table for dinner': pizza nằm \"in the oven\", không phải trên bàn."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-007",
+    "bac": 1,
+    "title": "Carlos's Room",
+    "text": "Carlos lives in an apartment with his mom. It is on the third floor. His room is small, but it is nice.\n\nThere is a bed, a desk, and a lamp. There is a big window next to the desk. Carlos can see a park from the window. He does his homework at the desk every day.",
+    "questions": [
+      {
+        "prompt": "Which floor is the apartment on?",
+        "choices": [
+          "The first floor",
+          "The second floor",
+          "The fifth floor",
+          "The third floor"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài viết: \"It is on the third floor.\"",
+        "choiceExplanations": [
+          "Sai — 'The first floor': bài nói tầng ba.",
+          "Sai — 'The second floor': bài nói tầng ba.",
+          "Sai — 'The fifth floor': bài nói tầng ba.",
+          "Đúng — bài viết: \"It is on the third floor.\""
+        ]
+      },
+      {
+        "prompt": "What can Carlos see from the window?",
+        "choices": [
+          "A school",
+          "A park",
+          "A river",
+          "A store"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: \"Carlos can see a park from the window.\"",
+        "choiceExplanations": [
+          "Sai — 'A school': bài không nhắc trường học.",
+          "Đúng — bài viết: \"Carlos can see a park from the window.\"",
+          "Sai — 'A river': bài không nhắc sông.",
+          "Sai — 'A store': bài không nhắc cửa hàng."
+        ]
+      },
+      {
+        "prompt": "Which is true?",
+        "choices": [
+          "His room is small but nice.",
+          "His room is big.",
+          "He lives with his dad.",
+          "There is a TV in his room."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"His room is small, but it is nice.\"",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"His room is small, but it is nice.\"",
+          "Sai — 'His room is big.': bài nói phòng nhỏ.",
+          "Sai — 'He lives with his dad.': bài nói Carlos sống với mẹ.",
+          "Sai — 'There is a TV in his room.': bài chỉ có giường, bàn, đèn."
+        ]
+      },
+      {
+        "prompt": "What does Carlos do at the desk?",
+        "choices": [
+          "He does his homework.",
+          "He eats dinner.",
+          "He plays soccer.",
+          "He sleeps."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài viết: \"He does his homework at the desk every day.\"",
+        "choiceExplanations": [
+          "Đúng — bài viết: \"He does his homework at the desk every day.\"",
+          "Sai — 'He eats dinner.': bài không nói ăn tối ở bàn học.",
+          "Sai — 'He plays soccer.': không ai chơi bóng ở bàn học.",
+          "Sai — 'He sleeps.': giường dùng để ngủ, không phải bàn học."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b1-008",
+    "bac": 1,
+    "title": "A Day at the Zoo",
+    "text": "Emma and her friend Kate go to the zoo on Sunday. They see a tall giraffe, two big elephants, and many monkeys.\n\nKate takes photos with her phone. Emma likes the monkeys because they are funny. They buy ice cream at noon. The zoo closes at five o'clock, so they go home at four.",
+    "questions": [
+      {
+        "prompt": "Who takes photos?",
+        "choices": [
+          "Emma",
+          "A monkey",
+          "Kate",
+          "Emma's mom"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: \"Kate takes photos with her phone.\"",
+        "choiceExplanations": [
+          "Sai — 'Emma': Emma xem khỉ, bài không nói Emma chụp ảnh.",
+          "Sai — 'A monkey': bài không nói khỉ chụp ảnh.",
+          "Đúng — bài viết: \"Kate takes photos with her phone.\"",
+          "Sai — 'Emma's mom': bài không nhắc mẹ của Emma."
+        ]
+      },
+      {
+        "prompt": "How many elephants do they see?",
+        "choices": [
+          "One",
+          "Two",
+          "Three",
+          "Many"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài viết: \"two big elephants\"; \"many\" chỉ dùng cho khỉ.",
+        "choiceExplanations": [
+          "Sai — 'One': bài nói hai con.",
+          "Đúng — bài viết: \"two big elephants.\"",
+          "Sai — 'Three': bài nói hai con.",
+          "Sai — 'Many': \"many\" là số khỉ, voi chỉ có hai con."
+        ]
+      },
+      {
+        "prompt": "Which is true?",
+        "choices": [
+          "They go to the zoo on Saturday.",
+          "They go home at five o'clock.",
+          "The zoo closes at five o'clock.",
+          "They eat ice cream at home."
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài viết: \"The zoo closes at five o'clock, so they go home at four.\"",
+        "choiceExplanations": [
+          "Sai — 'They go to the zoo on Saturday.': bài nói Chủ nhật.",
+          "Sai — 'They go home at five o'clock.': họ về nhà lúc bốn giờ.",
+          "Đúng — bài viết: \"The zoo closes at five o'clock.\"",
+          "Sai — 'They eat ice cream at home.': họ mua kem ở sở thú lúc trưa."
+        ]
+      },
+      {
+        "prompt": "In this text, \"funny\" means:",
+        "choices": [
+          "very big",
+          "very tall",
+          "very quiet",
+          "makes you laugh"
+        ],
+        "correctIndex": 3,
+        "explanation": "Emma thích khỉ vì chúng vui nhộn, làm người ta cười.",
+        "choiceExplanations": [
+          "Sai — 'very big': voi mới được tả là \"big\", không phải khỉ.",
+          "Sai — 'very tall': hươu cao cổ mới là \"tall\".",
+          "Sai — 'very quiet': bài không nói khỉ im lặng.",
+          "Đúng — Emma thích khỉ vì chúng \"funny\", tức là vui, làm người ta cười."
+        ]
+      }
+    ]
+  }
+]

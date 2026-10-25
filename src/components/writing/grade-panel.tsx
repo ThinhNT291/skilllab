@@ -185,6 +185,23 @@ export function GradePanel({ skill }: { skill: Skill }) {
               </li>
             ))}
           </ul>
+          {feedback.transcript && (
+            <div>
+              <h2 className="font-extrabold">📝 Máy nghe được</h2>
+              <p lang="en" className="text-muted-foreground">
+                {feedback.transcript}
+              </p>
+            </div>
+          )}
+          {feedback.message && (
+            <div className="rounded-game border-2 border-border bg-background p-3">
+              {feedback.message.split(/\n\s*\n/).map((para, i) => (
+                <p key={i} className={i > 0 ? "mt-2" : ""}>
+                  {para}
+                </p>
+              ))}
+            </div>
+          )}
           {feedback.strengths.length > 0 && (
             <div>
               <h2 className="font-extrabold">👍 Làm tốt</h2>
