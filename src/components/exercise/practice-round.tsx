@@ -2,8 +2,9 @@ import Link from "next/link"
 import { connection } from "next/server"
 import { notFound } from "next/navigation"
 import { getExercises, getGrammarTopic } from "@/lib/content/grammar"
-import { deriveDictation, mixVariants, shuffle } from "@/lib/content/derive"
+import { deriveDictation, deriveReorder, mixVariants, shuffle } from "@/lib/content/derive"
 import { pickMatchPairs } from "@/lib/content/match"
+import { SprintSession } from "@/components/game/sprint-session"
 import { MatchSession } from "@/components/game/match-session"
 import { buildLadder, pickAtPosition, START_POSITION } from "@/lib/content/adaptive"
 import { pickHardRound, pickRound, pickRoundForTag } from "@/lib/content/rounds"
@@ -13,7 +14,7 @@ import { TestSession } from "./test-session"
 import { PracticeSession } from "./practice-session"
 
 /** Một lượt luyện của một chuyên đề. Mỗi lần mở là một lượt câu khác nhau (chạy lúc có yêu cầu, không dựng sẵn lúc build). */
-export async function PracticeRound({ topic, mode = "normal", tag }: { topic: string; mode?: "normal" | "hard" | "dictation" | "match" | "test"; tag?: string }) {
+export async function PracticeRound({ topic, mode = "normal", tag }: { topic: string; mode?: "normal" | "hard" | "dictation" | "match" | "test" | "race" | "listen-type"; tag?: string }) {
   await connection()
   const data = await getGrammarTopic("en", topic)
   if (!data) notFound()
@@ -33,6 +34,21 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
         <h1 className="mt-2 text-3xl font-extrabold">Ghép cặp ⏱</h1>
         <p className="mb-4 text-muted-foreground">Ghép mỗi câu với từ điền đúng chỗ trống, càng nhanh càng tốt.</p>
         <MatchSession pairs={pairs} />
+      </>
+    )
+  }
+
+  if (mode === "race" || mode === "listen-type") {
+    const pool = shuffle(all).flatMap((e) => (e.kind === "mcq" ? ((mode === "race" ? deriveReorder(e) : deriveDictation(e)) ?? []) : []))
+    if (pool.length < 8) notFound()
+    return (
+      <>
+        <Link href={`/hoc/${topic}`} className="text-sm text-primary underline underline-offset-4">
+          ← {data.title}
+        </Link>
+        <h1 className="mt-2 text-3xl font-extrabold">{mode === "race" ? "Xếp từ chạy đua ⚡" : "Nghe và gõ ⚡"}</h1>
+        <p className="mb-4 text-muted-foreground">{mode === "race" ? "Sắp xếp các từ thành câu đúng, càng nhiều càng tốt trong 60 giây." : "Nghe câu rồi gõ lại thật nhanh, càng nhiều càng tốt trong 60 giây."}</p>
+        <SprintSession exercises={pool.slice(0, 40)} bestKey={`skilllab.sprintBest.${topic}.${mode}`} backHref={`/hoc/${topic}`} intro={mode === "race" ? "Xếp thật nhiều câu trong 60 giây" : "Nghe và gõ thật nhiều câu trong 60 giây"} />
       </>
     )
   }

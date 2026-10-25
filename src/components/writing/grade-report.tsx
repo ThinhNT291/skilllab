@@ -44,7 +44,7 @@ export function GradeReport({ skill, feedback: f, metrics, tagInfo, saveNote }: 
           <details className="mt-2 text-sm">
             <summary className="cursor-pointer font-extrabold text-primary">Mức này nghĩa là gì? ({cando.label}, tương đương {cando.cefr})</summary>
             <p className="mt-1 text-muted-foreground">{cando.text}</p>
-            <p className="mt-1 text-xs text-muted-foreground">Trích từ Khung năng lực ngoại ngữ kèm Thông tư 33/2026/TT-BGDĐT (mô tả tổng quát cho kỹ năng {skill === "writing" ? "Viết" : "Nói"}).</p>
+            <p className="mt-1 text-xs text-muted-foreground">Trích từ Khung năng lực ngoại ngữ kèm Thông tư 33/2026/TT-BGDĐT (mô tả tổng quát cho kỹ năng {skill === "writing" ? "Viết" : "Nói"}). <Link href="/khung-nang-luc" className="underline">Xem cả khung 6 bậc</Link>.</p>
           </details>
         )}
       </div>

@@ -3,6 +3,7 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { getExercises, getGrammarTopic, listGrammarTopics } from "@/lib/content/grammar"
 import { pickMatchPairs } from "@/lib/content/match"
+import { deriveDictation, deriveReorder } from "@/lib/content/derive"
 
 export function generateStaticParams() {
   return listGrammarTopics("en").map((t) => ({ topic: t.id }))
@@ -31,6 +32,8 @@ async function TopicContent({ params }: { params: PageProps<"/hoc/[topic]">["par
   const hasExercises = exercises.length > 0
   // Chỉ hiện nút ghép cặp khi chuyên đề đủ câu để dựng cặp (kết quả không phụ thuộc may rủi vì chỉ kiểm tra có đủ hay không).
   const canMatch = pickMatchPairs(exercises, () => 0.5).length > 0
+  const canRace = exercises.filter((e) => e.kind === "mcq" && deriveReorder(e, () => 0.5)).length >= 8
+  const canListenType = exercises.filter((e) => e.kind === "mcq" && deriveDictation(e)).length >= 8
   const { theory } = data
 
   return (
@@ -66,6 +69,22 @@ async function TopicContent({ params }: { params: PageProps<"/hoc/[topic]">["par
           >
             Kiểm tra cuối chủ điểm 🏅
           </Link>
+          {canRace && (
+            <Link
+              href={`/hoc/${topic}/chay-dua`}
+              className="inline-block rounded-game border-2 border-b-[5px] border-border bg-card px-6 py-3 text-lg font-extrabold text-foreground active:translate-y-[3px] active:border-b-2"
+            >
+              Xếp từ chạy đua ⚡
+            </Link>
+          )}
+          {canListenType && (
+            <Link
+              href={`/hoc/${topic}/nghe-go`}
+              className="inline-block rounded-game border-2 border-b-[5px] border-border bg-card px-6 py-3 text-lg font-extrabold text-foreground active:translate-y-[3px] active:border-b-2"
+            >
+              Nghe và gõ ⚡
+            </Link>
+          )}
           {canMatch && (
             <Link
               href={`/hoc/${topic}/ghep-cap`}

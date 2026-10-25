@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import type { DictationExercise, McqExercise, ReorderExercise, SpotExercise, FixExercise, TypedExercise } from "@/lib/content/types"
+import type { Exercise, DictationExercise, McqExercise, ReorderExercise, SpotExercise, FixExercise, TypedExercise } from "@/lib/content/types"
 import { gradeReorder, gradeSpot, gradeTyped } from "@/lib/grading"
 import { speak, stopSpeaking, useTtsSupported } from "@/lib/audio/tts"
 import { cn } from "@/lib/utils"
@@ -230,4 +230,22 @@ export function SpotView({ ex, result, onResolve }: { ex: SpotExercise; result: 
       </div>
     </>
   )
+}
+
+/** Hiện đúng view cho một câu bất kỳ (dùng cho các game bấm giờ nhận danh sách câu hỗn hợp). */
+export function ExerciseView({ ex, result, onResolve, scaffold = 0 }: { ex: Exercise; result: Result | null; onResolve: (r: Result) => void; scaffold?: 0 | 1 | 2 }) {
+  switch (ex.kind) {
+    case "mcq":
+      return <McqView ex={ex} result={result} onResolve={onResolve} />
+    case "reorder":
+      return <ReorderView ex={ex} result={result} onResolve={onResolve} />
+    case "typed":
+      return <TypedView ex={ex} result={result} onResolve={onResolve} scaffold={scaffold} />
+    case "fix":
+      return <FixView ex={ex} result={result} onResolve={onResolve} scaffold={scaffold} />
+    case "spot":
+      return <SpotView ex={ex} result={result} onResolve={onResolve} />
+    case "dictation":
+      return <DictationView ex={ex} result={result} onResolve={onResolve} />
+  }
 }
