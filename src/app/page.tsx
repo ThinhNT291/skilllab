@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { TodayPanel } from "@/components/home/today-panel"
+import { Suggestions } from "@/components/home/suggestions"
 import { MORE, SKILLS } from "@/components/home/shared"
 
 /** Trang chủ: thông tin hôm nay ở đầu, kỹ năng và game là danh sách gọn. */
@@ -7,6 +8,7 @@ export default function Page() {
   return (
     <main className="mx-auto w-full max-w-5xl space-y-6 px-4 py-6">
       <TodayPanel />
+      <Suggestions />
       <div className="grid gap-6 md:grid-cols-[2fr_1fr]">
         <section aria-labelledby="k">
           <h2 id="k" className="mb-2 text-sm uppercase tracking-wide text-muted-foreground">

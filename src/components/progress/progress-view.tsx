@@ -8,6 +8,7 @@ import { ProgressBar } from "@/components/exercise/progress-bar"
 import { isGrammarTopic, topicHref } from "@/lib/content/links"
 import { PlayerCard } from "@/components/game/player-card"
 import { ActivityPanel } from "./activity-panel"
+import { ProfilePanel } from "./profile-panel"
 import { TrendPanel } from "./trend-panel"
 import { AttemptsPanel } from "./attempts-panel"
 
@@ -62,6 +63,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
       )}
       <PlayerCard />
       <ActivityPanel />
+      <ProfilePanel />
       <TrendPanel rows={state.rows} />
       <AttemptsPanel />
       <section className="grid grid-cols-3 gap-3 text-center" aria-label="Tổng quan">
