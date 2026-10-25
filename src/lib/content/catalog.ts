@@ -1,4 +1,5 @@
 import type { TagInfo } from "@/lib/analytics/progress"
+import { READING_BACS, readingTopic } from "@/lib/reading/types"
 import { VOCAB_LEVELS } from "@/lib/vocab/questions"
 import { getGrammarTopic, listGrammarTopics } from "./grammar"
 
@@ -17,6 +18,11 @@ export async function buildTagCatalog(): Promise<{ catalog: Record<string, TagIn
     const title = `Từ vựng ${l.label}`
     topicTitles[`vocab-${l.id}`] = title
     catalog[`vocab-${l.id}`] = { label: title, topicId: `vocab-${l.id}`, topicTitle: title }
+  }
+  for (const b of READING_BACS) {
+    const title = `Đọc hiểu Bậc ${b}`
+    topicTitles[readingTopic(b)] = title
+    catalog[readingTopic(b)] = { label: title, topicId: readingTopic(b), topicTitle: title }
   }
   return { catalog, topicTitles }
 }

@@ -44,7 +44,7 @@
       {
         "id": "modal-u3-obligation",
         "label": "Nghĩa vụ - Sự cần thiết (Obligation & Necessity)",
-        "explanationVi": "'Must' và 'have to' đều diễn tả một việc bắt buộc phải làm, nhưng nguồn gốc của nghĩa vụ khác nhau. 'Must' thường được dùng khi nghĩa vụ đến từ chính người nói — cảm giác cá nhân, ý kiến chủ quan, hoặc một quy tắc mà người nói tự đặt ra cho mình. 'Have to' thường được dùng khi nghĩa vụ đến từ một yếu tố KHÁCH QUAN bên ngoài, như luật pháp, quy định của tổ chức, hoặc hoàn cảnh không thể thay đổi. Điểm CỰC KỲ dễ nhầm lẫn nằm ở thể phủ định: 'must not' (viết tắt 'mustn't') mang nghĩa BỊ CẤM — bắt buộc KHÔNG được làm việc đó; trong khi 'don't have to' mang nghĩa hoàn toàn khác — KHÔNG CẦN THIẾT phải làm việc đó, nhưng nếu muốn thì vẫn được phép làm. Hai cấu trúc này thường bị người học nhầm lẫn vì cả hai đều chứa từ phủ định nhưng mang ý nghĩa trái ngược nhau hoàn toàn.",
+        "explanationVi": "'Must' và 'have to' đều diễn tả một việc bắt buộc phải làm, nhưng nguồn gốc của nghĩa vụ khác nhau. 'Must' thường được dùng khi nghĩa vụ đến từ chính người nói — cảm giác cá nhân, ý kiến chủ quan, hoặc một quy tắc mà người nói tự đặt ra cho mình. 'Have to' thường được dùng khi nghĩa vụ đến từ một yếu tố KHÁCH QUAN bên ngoài, như luật pháp, quy định của tổ chức, hoặc hoàn cảnh không thể thay đổi. Điểm CỰC KỲ dễ nhầm lẫn nằm ở thể phủ định: 'must not' (viết tắt 'mustn't') mang nghĩa BỊ CẤM — bắt buộc KHÔNG được làm việc đó; trong khi 'don't have to' mang nghĩa hoàn toàn khác — KHÔNG CẦN THIẾT phải làm việc đó, nhưng nếu muốn thì vẫn được phép làm. Hai cấu trúc này thường bị người học nhầm lẫn vì cả hai đều chứa từ phủ định nhưng mang ý nghĩa trái ngược nhau hoàn toàn. Cách chia 'have to': ngôi he/she/it dùng has to; quá khứ là had to ('must' không có quá khứ riêng); phủ định và câu hỏi dùng trợ động từ do/does/did: I don't have to go. / Does she have to work on Saturday? / We didn't have to wait.",
         "examples": [
           {
             "en": "I must call my sister tonight; I promised her I would, and I don't want to break that promise.",
@@ -53,6 +53,10 @@
           {
             "en": "Employees have to wear a helmet on the construction site, according to the safety regulations.",
             "vi": "Theo quy định an toàn, nhân viên bắt buộc phải đội mũ bảo hộ tại công trường."
+          },
+          {
+            "en": "We didn't have to wait long at the clinic.",
+            "vi": "Chúng tôi không phải chờ lâu ở phòng khám."
           }
         ],
         "bac": 2

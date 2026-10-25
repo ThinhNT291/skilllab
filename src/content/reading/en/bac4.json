@@ -1,0 +1,610 @@
+[
+  {
+    "id": "rd-b4-001",
+    "bac": 4,
+    "title": "The Quiet Return of the Library",
+    "text": "Many people believed that public libraries would disappear once the internet became widely available. Instead, libraries in cities across the United States have been reinventing themselves, and visitor numbers in some of them have risen sharply.\n\nHad the librarians simply waited, they might have lost their readers for good. Instead, they changed what a library offers. Many branches now lend not only books but also tools, musical instruments, and even science kits, which families can borrow for a week. Teenagers, who were once seen as a problem in quiet reading rooms, now have their own spaces where they can record podcasts or design video games.\n\nThe change was not cheap. A library in Ohio, whose old building was nearly a century old, had to be rebuilt, and the money came largely from local donations. Not everyone supported the plan at first. Some residents complained that a library full of gadgets would be too noisy to study in. However, the designers solved this problem by placing the loud areas on the ground floor and keeping the upper floors silent.\n\nToday the director says the library's success depends on one simple idea: people come back to places where they feel welcome. If a library only stored books, it would be little more than a warehouse. By offering something new each month, it has become a community center that nobody wants to lose.",
+    "questions": [
+      {
+        "prompt": "What is the main idea of the passage?",
+        "choices": [
+          "Libraries are closing because of the internet.",
+          "Teenagers now prefer making podcasts to reading books.",
+          "Libraries have stayed popular by offering much more than books.",
+          "Old library buildings should always be rebuilt."
+        ],
+        "correctIndex": 2,
+        "explanation": "Cả bài kể việc thư viện thay đổi (cho mượn dụng cụ, nhạc cụ, bộ khoa học, không gian cho thanh thiếu niên) để thu hút người đến; câu mở đầu nói thư viện 'have been reinventing themselves'.",
+        "choiceExplanations": [
+          "Sai — 'libraries would disappear': đó là điều nhiều người từng tin, nhưng bài nói điều ngược lại đã xảy ra.",
+          "Sai — 'record podcasts': podcast chỉ là một hoạt động ví dụ, bài không nói thiếu niên bỏ đọc sách.",
+          "Đúng — bài nói thư viện cho mượn cả dụng cụ, nhạc cụ, bộ khoa học và có không gian cho thiếu niên, nên vẫn đông khách.",
+          "Sai — 'had to be rebuilt': chỉ là chi tiết của một thư viện ở Ohio, không phải ý chính."
+        ]
+      },
+      {
+        "prompt": "Which statement would the library director most likely agree with?",
+        "choices": [
+          "A library must keep changing so that people want to return.",
+          "Books are no longer important to library visitors.",
+          "Libraries should be as silent as possible everywhere.",
+          "Borrowing tools is more valuable than studying."
+        ],
+        "correctIndex": 0,
+        "explanation": "Giám đốc nói 'people come back to places where they feel welcome' và thư viện cần 'something new each month', nghĩa là phải liên tục đổi mới.",
+        "choiceExplanations": [
+          "Đúng — 'By offering something new each month' cho thấy phải đổi mới để người ta quay lại.",
+          "Sai — 'books': bài không nói sách hết quan trọng, chỉ nói thư viện không chỉ có sách.",
+          "Sai — 'silent': các tầng trên yên tĩnh nhưng tầng trệt ồn ào có chủ đích, nên không phải 'im lặng mọi nơi'.",
+          "Sai — 'tools': bài không so sánh giá trị giữa mượn dụng cụ và học tập."
+        ]
+      },
+      {
+        "prompt": "In the first paragraph, the phrase 'reinventing themselves' means",
+        "choices": [
+          "protecting old traditions",
+          "moving to new buildings",
+          "advertising more often",
+          "changing in a basic way"
+        ],
+        "correctIndex": 3,
+        "explanation": "'Reinvent' là tạo lại, thay đổi căn bản; các đoạn sau mô tả những thay đổi lớn về dịch vụ.",
+        "choiceExplanations": [
+          "Sai — 'protecting old traditions': trái nghĩa, vì thư viện làm điều mới.",
+          "Sai — 'moving to new buildings': chỉ một thư viện ở Ohio được xây lại, không phải ý của cụm từ.",
+          "Sai — 'advertising more often': bài không nhắc quảng cáo.",
+          "Đúng — các đoạn sau liệt kê dịch vụ mới, tức thay đổi căn bản."
+        ]
+      },
+      {
+        "prompt": "Which of the following is NOT mentioned in the passage?",
+        "choices": [
+          "Families can borrow science kits for a week.",
+          "Libraries now charge a fee for borrowing instruments.",
+          "Teenagers can design video games in the library.",
+          "The Ohio library was rebuilt mostly with local donations."
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài nói cho mượn nhạc cụ nhưng không hề nhắc đến phí mượn.",
+        "choiceExplanations": [
+          "Sai — 'borrow for a week': có trong đoạn 2.",
+          "Đúng — bài không đề cập đến việc thu phí khi mượn nhạc cụ.",
+          "Sai — 'design video games': có trong đoạn 2.",
+          "Sai — 'local donations': có trong đoạn 3."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-002",
+    "bac": 4,
+    "title": "Mae Jemison: Reaching for the Stars",
+    "text": "Mae Jemison was born in 1956 in Alabama and grew up in Chicago, where her curiosity about science began early. As a child she spent hours in the library reading about astronomy, a subject that her teachers rarely encouraged girls to pursue. She later said that she had never doubted she would travel to space.\n\nAfter studying engineering and medicine, Jemison worked as a doctor with the Peace Corps in West Africa, where she helped improve healthcare for local communities. Had she stayed in that career, she would probably have been remembered as an excellent physician. Instead, she applied to NASA, which accepted her in 1987 from among thousands of candidates.\n\nIn 1992 she flew aboard the space shuttle Endeavour, becoming the first African American woman to travel into space. During the eight-day mission, she carried out experiments on how weightlessness affects living things. Jemison, who also loved dance, took a poster from a famous dance company with her as a personal reminder of the importance of the arts.\n\nShe left NASA in 1993 and founded a company that develops technology for health and education. Today she encourages young people, especially girls, to pursue science without fear. Her message is simple: nobody should let others decide what is possible for them.",
+    "questions": [
+      {
+        "prompt": "What is the writer's main purpose in this passage?",
+        "choices": [
+          "To explain how weightlessness changes the human body",
+          "To show how Jemison followed her ambitions through several careers",
+          "To prove that astronomy is easier than medicine",
+          "To describe how NASA chooses its astronauts"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài kể theo thứ tự: tuổi thơ, bác sĩ, phi hành gia, rồi doanh nhân và người truyền cảm hứng, tức hành trình theo đuổi tham vọng.",
+        "choiceExplanations": [
+          "Sai — 'weightlessness': chỉ nhắc một lần như nội dung thí nghiệm, không giải thích.",
+          "Đúng — bài đi qua nhiều giai đoạn nghề nghiệp của bà theo thứ tự thời gian.",
+          "Sai — 'easier than medicine': bài không so sánh độ khó.",
+          "Sai — 'accepted her in 1987': chỉ nói NASA nhận bà, không mô tả cách tuyển chọn."
+        ]
+      },
+      {
+        "prompt": "In the first paragraph, 'a subject' refers to",
+        "choices": [
+          "the library",
+          "her childhood",
+          "education in general",
+          "astronomy"
+        ],
+        "correctIndex": 3,
+        "explanation": "Câu 'reading about astronomy, a subject that her teachers rarely encouraged girls to pursue' — cụm 'a subject' đứng ngay sau 'astronomy' và bổ nghĩa cho nó.",
+        "choiceExplanations": [
+          "Sai — 'the library': thư viện là nơi bà đọc, không phải môn học.",
+          "Sai — 'her childhood': không phải một môn học.",
+          "Sai — 'education in general': bài nói riêng thiên văn học, không phải giáo dục nói chung.",
+          "Đúng — 'a subject' là phần giải thích cho 'astronomy' đứng ngay trước."
+        ]
+      },
+      {
+        "prompt": "What can be inferred from the sentence 'Had she stayed in that career, she would probably have been remembered as an excellent physician'?",
+        "choices": [
+          "She chose space travel instead of a successful medical career.",
+          "She was not a good doctor.",
+          "NASA forced her to change jobs.",
+          "She regretted working in West Africa."
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu điều kiện 'Had she stayed...' ngụ ý bà có thể thành bác sĩ giỏi nhưng đã chọn rời đi ('Instead, she applied to NASA').",
+        "choiceExplanations": [
+          "Đúng — bà tự nộp đơn vào NASA dù có thể đã thành bác sĩ nổi tiếng.",
+          "Sai — 'excellent physician': bài nói bà có thể là bác sĩ xuất sắc.",
+          "Sai — 'forced': bà tự nộp đơn ('she applied').",
+          "Sai — 'regretted': bài không hề nói bà hối tiếc, còn nói bà giúp cải thiện y tế."
+        ]
+      },
+      {
+        "prompt": "Which statement is NOT true according to the passage?",
+        "choices": [
+          "She worked with the Peace Corps in West Africa.",
+          "She flew on the space shuttle Endeavour in 1992.",
+          "She stayed at NASA for the rest of her working life.",
+          "She started a company after leaving NASA."
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài nói bà rời NASA năm 1993 và lập công ty, nên câu 'ở NASA suốt đời' là sai.",
+        "choiceExplanations": [
+          "Sai — 'Peace Corps': có trong đoạn 2, nên đúng.",
+          "Sai — 'Endeavour in 1992': có trong đoạn 3, nên đúng.",
+          "Đúng — 'She left NASA in 1993' mâu thuẫn với phát biểu này.",
+          "Sai — 'started a company': có trong đoạn 4, nên đúng."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-003",
+    "bac": 4,
+    "title": "Should School Start Later?",
+    "text": "Every morning, millions of teenagers drag themselves out of bed before the sun has fully risen. Many schools in the United States begin classes at 7:30 or earlier, yet researchers have found that adolescents' body clocks naturally shift later during puberty. In other words, a fifteen-year-old who is sleepy at eight o'clock is not being lazy; their brain simply has not woken up.\n\nSeveral districts that moved their start times by an hour have reported encouraging results. Attendance improved, fewer students fell asleep in class, and car accidents involving young drivers dropped. Critics, who worry about bus schedules and after-school sports, argue that the change would cause more trouble than it solves. These concerns are real, but they are practical problems, not reasons to ignore the evidence.\n\nNor is the solution complicated. Not only would later schedules help students concentrate, but they would also give teachers a calmer, more responsive class. Were schools to treat sleep as seriously as they treat homework, grades would almost certainly benefit.\n\nI do not claim that a later bell will fix everything. Students still need to go to bed at a sensible hour, and parents should limit late-night screen use. Nevertheless, it makes little sense to ask young people to learn at the very hour when their brains are least ready. Schools exist for students, so schedules should be built around how students actually function.",
+    "questions": [
+      {
+        "prompt": "What is the writer's main purpose?",
+        "choices": [
+          "To argue that schools should start later in the morning",
+          "To explain how buses are scheduled in school districts",
+          "To warn parents about teenagers' screen use",
+          "To describe a typical day in an American school"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ngay từ đoạn 1 và kết bài, tác giả lập luận rằng lịch học nên xây quanh nhịp sinh học của học sinh, tức nên bắt đầu muộn hơn.",
+        "choiceExplanations": [
+          "Đúng — cả bài là một bài luận ý kiến ủng hộ giờ vào học muộn hơn.",
+          "Sai — 'bus schedules': chỉ là mối lo của người phản đối.",
+          "Sai — 'screen use': chỉ là lời khuyên phụ ở đoạn cuối.",
+          "Sai — 'typical day': bài không mô tả một ngày học."
+        ]
+      },
+      {
+        "prompt": "In the third paragraph, 'responsive' is closest in meaning to",
+        "choices": [
+          "strictly controlled",
+          "easily frightened",
+          "quick to react and take part",
+          "unwilling to listen"
+        ],
+        "correctIndex": 2,
+        "explanation": "Lớp học 'calmer, more responsive' là lớp bình tĩnh và phản hồi, tham gia tốt khi học sinh tỉnh táo.",
+        "choiceExplanations": [
+          "Sai — 'strictly controlled': không liên quan đến việc ngủ đủ.",
+          "Sai — 'easily frightened': 'calmer' nói lớp bình tĩnh, trái với sợ hãi.",
+          "Đúng — học sinh đỡ buồn ngủ nên phản ứng và tham gia bài học tốt hơn.",
+          "Sai — 'unwilling to listen': trái nghĩa với 'responsive'."
+        ]
+      },
+      {
+        "prompt": "Which result is NOT reported in the districts that moved start times?",
+        "choices": [
+          "Attendance improved.",
+          "Students began to do more homework.",
+          "Fewer students fell asleep in class.",
+          "Fewer car accidents involved young drivers."
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 2 nêu đi học đều hơn, ít ngủ gật, ít tai nạn; điểm thi tăng mạnh không được nhắc (đoạn 3 chỉ nói 'grades would almost certainly benefit' như giả định).",
+        "choiceExplanations": [
+          "Sai — 'Attendance improved': có trong đoạn 2.",
+          "Đúng — việc học sinh làm nhiều bài tập hơn không được báo cáo ở các khu học chánh đó.",
+          "Sai — 'fell asleep': có trong đoạn 2.",
+          "Sai — 'car accidents': có trong đoạn 2."
+        ]
+      },
+      {
+        "prompt": "In the second paragraph, 'These concerns' refers to",
+        "choices": [
+          "the researchers' findings about body clocks",
+          "the drop in accidents among young drivers",
+          "the students' complaints about homework",
+          "the critics' worries about bus schedules and after-school sports"
+        ],
+        "correctIndex": 3,
+        "explanation": "'These concerns are real' đứng ngay sau câu nói người phản đối lo về lịch xe buýt và thể thao sau giờ học.",
+        "choiceExplanations": [
+          "Sai — 'body clocks': đó là phát hiện của nhà nghiên cứu, không phải 'concerns'.",
+          "Sai — 'accidents': đây là kết quả tốt, không phải mối lo.",
+          "Sai — 'homework': học sinh không phàn nàn về bài tập trong bài.",
+          "Đúng — câu liền trước nêu mối lo của người phản đối."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-004",
+    "bac": 4,
+    "title": "How Coral Reefs Are Built",
+    "text": "Coral reefs look like rocks, but they are actually built by tiny animals called polyps, which are only a few millimeters across. Each polyp produces a hard skeleton of limestone around its soft body. When the polyp dies, the skeleton remains, and new polyps grow on top of it. Over thousands of years, these layers form enormous structures, some of which can be seen from space.\n\nPolyps cannot survive alone, however. Living inside their tissues are microscopic algae, which use sunlight to make sugar. The polyps, in return, provide the algae with a protected home and the nutrients they need. This partnership, which scientists call symbiosis, explains why reefs are found mainly in clear, shallow water where sunlight can reach.\n\nAlthough reefs cover less than one percent of the ocean floor, they support roughly a quarter of all marine species. Fish hide among the branches, and many fisheries depend on them. Reefs also protect coastlines because they weaken waves before the water reaches the shore.\n\nYet reefs are fragile. If the water becomes too warm, the polyps push out their algae, and the coral turns white. This process, known as bleaching, does not kill the coral immediately, but unless the temperature drops, the reef will slowly starve. Scientists therefore warn that protecting reefs means protecting the climate as well.",
+    "questions": [
+      {
+        "prompt": "What is the passage mainly about?",
+        "choices": [
+          "How to catch fish near the coast",
+          "Why polyps are bigger than algae",
+          "How scientists can see the ocean from space",
+          "How coral reefs form, why they matter, and why they are in danger"
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn 1 nói cách rạn san hô hình thành, đoạn 2 và 3 nói sự cộng sinh và vai trò, đoạn 4 nói mối đe dọa tẩy trắng.",
+        "choiceExplanations": [
+          "Sai — 'fisheries': chỉ nhắc ngắn rằng nghề cá phụ thuộc rạn.",
+          "Sai — 'bigger than algae': tảo là vi sinh vật, nhưng bài không so sánh để làm ý chính.",
+          "Sai — 'seen from space': chỉ là chi tiết về kích thước của rạn.",
+          "Đúng — bài có đủ ba phần: hình thành, tầm quan trọng, nguy cơ."
+        ]
+      },
+      {
+        "prompt": "In the second paragraph, 'This partnership' refers to",
+        "choices": [
+          "the link between reefs and fishermen",
+          "the relationship between the polyps and the algae",
+          "the cooperation among scientists",
+          "the connection between sunlight and coastlines"
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu liền trước nói tảo cho san hô đường, san hô cho tảo chỗ ở và chất dinh dưỡng; đó chính là 'partnership'.",
+        "choiceExplanations": [
+          "Sai — 'fishermen': nghề cá ở đoạn 3, không phải sự cộng sinh.",
+          "Đúng — mối quan hệ trao đổi qua lại giữa polyp và tảo.",
+          "Sai — 'scientists': các nhà khoa học chỉ đặt tên cho mối quan hệ.",
+          "Sai — 'coastlines': bờ biển ở đoạn 3, không liên quan."
+        ]
+      },
+      {
+        "prompt": "Which statement is NOT true according to the passage?",
+        "choices": [
+          "Polyps make limestone skeletons around their bodies.",
+          "Reefs help protect the shore by weakening waves.",
+          "Warm water kills coral immediately by turning it white.",
+          "Reefs cover only a small part of the ocean floor."
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài nói tẩy trắng 'does not kill the coral immediately', rạn chỉ chết đói dần nếu nhiệt độ không giảm.",
+        "choiceExplanations": [
+          "Sai — 'limestone skeletons': có trong đoạn 1.",
+          "Sai — 'weakening waves': có trong đoạn 3.",
+          "Đúng — bài nói rõ nước ấm không giết san hô ngay lập tức.",
+          "Sai — 'less than one percent': có trong đoạn 3, nên đúng."
+        ]
+      },
+      {
+        "prompt": "We can infer that reefs are rarely found in deep, dark water because",
+        "choices": [
+          "the algae inside the polyps need sunlight",
+          "limestone cannot form under pressure",
+          "fish avoid places without waves",
+          "the water there is always too warm"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài nói tảo dùng ánh sáng mặt trời và vì thế rạn chỉ ở nước trong, nông 'where sunlight can reach'.",
+        "choiceExplanations": [
+          "Đúng — tảo cần ánh sáng nên rạn chỉ phát triển ở nước nông.",
+          "Sai — 'limestone': bài không nói áp suất ảnh hưởng đến đá vôi.",
+          "Sai — 'waves': sóng không phải điều kiện sinh tồn của cá trong bài.",
+          "Sai — 'too warm': nước quá ấm gây tẩy trắng, không liên quan đến độ sâu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-005",
+    "bac": 4,
+    "title": "A Letter About Maple Street",
+    "text": "To the Editor:\nI am writing in response to last week's article about the empty lot on Maple Street, which the city council plans to sell to a company that wants to build a parking garage. As a student at Lincoln Middle School, I would like to suggest a better use for the land.\n\nFor years the lot, which is surrounded by a broken fence, has collected trash and attracted nobody. Were it turned into a community garden, neighbors could grow vegetables, and students could learn where their food actually comes from. My science teacher, who visited a similar garden in another town, says that children there ate more fruit and vegetables after they had helped to grow them.\n\nOpponents say that a garden would not bring in money, whereas a garage would. That may be true in the short term. Nevertheless, a garden would cost very little, and volunteers have already offered to build it. Furthermore, the downtown area already has two parking garages, neither of which is ever full.\n\nSeldom does a town have the chance to create something that benefits young and old alike. I hope the council will reconsider before it is too late. A parking space is easily replaced; a place where a community grows together is not.\nSincerely,\nMaya Torres, age 13",
+    "questions": [
+      {
+        "prompt": "Why did the writer write this letter?",
+        "choices": [
+          "To complain about trash in the downtown area",
+          "To ask for money to repair Lincoln Middle School",
+          "To persuade the council to use the lot for a garden instead of a garage",
+          "To thank the newspaper for last week's article"
+        ],
+        "correctIndex": 2,
+        "explanation": "Mở bài và kết bài cho thấy tác giả muốn hội đồng thành phố cân nhắc lại, dùng khu đất làm vườn thay vì nhà để xe.",
+        "choiceExplanations": [
+          "Sai — 'trash': rác chỉ là lý do khu đất đang bị bỏ phí.",
+          "Sai — 'Lincoln Middle School': đó chỉ là trường của tác giả, không xin tiền sửa trường.",
+          "Đúng — mục đích là thuyết phục hội đồng chọn vườn cộng đồng.",
+          "Sai — 'last week's article': thư phản hồi bài báo, không phải cảm ơn."
+        ]
+      },
+      {
+        "prompt": "In the third paragraph, 'That' refers to",
+        "choices": [
+          "the fact that volunteers will build the garden",
+          "the idea that downtown needs more parking",
+          "the opinion that gardens are too expensive",
+          "the claim that a garage would earn more money than a garden"
+        ],
+        "correctIndex": 3,
+        "explanation": "'That may be true' đứng ngay sau câu nói người phản đối cho rằng vườn không sinh lợi còn nhà để xe thì có.",
+        "choiceExplanations": [
+          "Sai — 'volunteers': chi tiết này xuất hiện sau, không phải điều tác giả thừa nhận.",
+          "Sai — 'more parking': tác giả cho rằng đã có hai nhà để xe không bao giờ đầy.",
+          "Sai — 'too expensive': tác giả nói vườn 'cost very little'.",
+          "Đúng — 'That' chỉ nhận định nhà để xe sinh lợi hơn trong ngắn hạn."
+        ]
+      },
+      {
+        "prompt": "Which is NOT mentioned as a reason to build the garden?",
+        "choices": [
+          "It would give students a place to play sports.",
+          "It would teach students where food comes from.",
+          "It would cost very little to build.",
+          "Volunteers are ready to help build it."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài nêu lợi ích giáo dục, chi phí thấp và tình nguyện viên, nhưng không nhắc đến chơi thể thao.",
+        "choiceExplanations": [
+          "Đúng — việc chơi thể thao không được nhắc đến.",
+          "Sai — 'where food comes from': có trong đoạn 2.",
+          "Sai — 'cost very little': có trong đoạn 3.",
+          "Sai — 'Volunteers': có trong đoạn 3."
+        ]
+      },
+      {
+        "prompt": "What does the writer mean by 'A parking space is easily replaced; a place where a community grows together is not'?",
+        "choices": [
+          "Parking spaces are more important than gardens.",
+          "A garden is more valuable to the town because it cannot easily be recreated.",
+          "The council has already chosen the garden.",
+          "Communities grow best when there are fewer cars."
+        ],
+        "correctIndex": 1,
+        "explanation": "Tác giả đối lập chỗ đậu xe (dễ thay thế) với nơi cộng đồng gắn kết (khó thay thế) để nhấn mạnh giá trị của vườn.",
+        "choiceExplanations": [
+          "Sai — 'easily replaced': chỗ đậu xe dễ thay thế nên ít giá trị hơn, trái với đáp án này.",
+          "Đúng — vườn khó có lại nếu mất khu đất, nên đáng giữ hơn.",
+          "Sai — 'reconsider': tác giả mong hội đồng xem xét lại, nghĩa là chưa quyết.",
+          "Sai — 'fewer cars': bài không liên hệ cộng đồng với số lượng xe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-006",
+    "bac": 4,
+    "title": "The Walking School Bus",
+    "text": "In a quiet neighborhood in Portland, a group of children gathers every morning at the same street corner. A parent in a bright yellow vest waits with them, and at 7:45 the group sets off on foot toward school. They are part of a 'walking school bus', an arrangement in which adults guide children along a fixed route, picking up more walkers at each stop.\n\nThe idea began in Australia in the 1990s, and it has since spread to many countries. Organizers say that it solves several problems at once. Fewer parents drive their children to school, so traffic outside the gates is lighter, and the air is cleaner. In addition, children who walk arrive more alert, which teachers say helps them concentrate in the first lesson.\n\nThe system is not without difficulties. It depends on volunteers, and when too few adults are available, routes have to be cancelled. Rain and snow also discourage families. Some parents, who worry about safety, still prefer to drive their children themselves.\n\nEven so, many schools report that the benefits go beyond fitness. Children who might never have met outside the classroom now chat on the way, and neighbors who were once strangers have begun to look out for one another. As one organizer put it, 'We set out to reduce traffic, but what we built was a community.'",
+    "questions": [
+      {
+        "prompt": "What is the main idea of the passage?",
+        "choices": [
+          "Walking is always safer than going to school by car.",
+          "A walking school bus brings practical and social benefits, although it has some problems.",
+          "Parents in Portland have stopped driving completely.",
+          "Australia has the best school system in the world."
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài mô tả lợi ích (giao thông, không khí, tập trung, cộng đồng) và khó khăn (tình nguyện viên, thời tiết, lo an toàn).",
+        "choiceExplanations": [
+          "Sai — 'always safer': bài nói một số phụ huynh còn lo về an toàn.",
+          "Đúng — bài nêu cả lợi ích thực tế lẫn xã hội và những khó khăn.",
+          "Sai — 'stopped driving completely': bài chỉ nói 'Fewer parents drive'.",
+          "Sai — 'best school system': bài không đánh giá hệ thống trường của Úc."
+        ]
+      },
+      {
+        "prompt": "In the second paragraph, 'it' in 'it has since spread to many countries' refers to",
+        "choices": [
+          "the idea of a walking school bus",
+          "the city of Portland",
+          "the school's traffic problem",
+          "the Australian government"
+        ],
+        "correctIndex": 0,
+        "explanation": "Chủ ngữ của câu là 'The idea began in Australia in the 1990s, and it has since spread'; 'it' thay cho 'the idea'.",
+        "choiceExplanations": [
+          "Đúng — 'it' thay cho 'the idea'.",
+          "Sai — 'Portland': chỉ là nơi mở đầu bài, không lan sang nhiều nước.",
+          "Sai — 'traffic problem': vấn đề giao thông là điều được giải quyết, không phải thứ lan ra.",
+          "Sai — 'government': bài không nhắc chính phủ."
+        ]
+      },
+      {
+        "prompt": "Which of the following is NOT mentioned as a difficulty?",
+        "choices": [
+          "There are not always enough volunteers.",
+          "Bad weather puts families off.",
+          "Some parents are concerned about safety.",
+          "Children get lost on unfamiliar routes."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn 3 nêu thiếu tình nguyện viên, mưa tuyết và lo an toàn; việc trẻ bị lạc không được nhắc.",
+        "choiceExplanations": [
+          "Sai — 'enough volunteers': có trong đoạn 3.",
+          "Sai — 'Bad weather': 'Rain and snow' trong đoạn 3.",
+          "Sai — 'concerned about safety': có trong đoạn 3.",
+          "Đúng — bài không nói trẻ bị lạc."
+        ]
+      },
+      {
+        "prompt": "In the last paragraph, 'look out for one another' means",
+        "choices": [
+          "compete with each other",
+          "wait for each other at corners",
+          "take care of each other",
+          "watch each other's homework"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm 'look out for' nghĩa là chú ý bảo vệ, quan tâm; hàng xóm từ xa lạ trở thành người quan tâm lẫn nhau.",
+        "choiceExplanations": [
+          "Sai — 'compete': bài nói về gắn kết cộng đồng, không phải cạnh tranh.",
+          "Sai — 'wait at corners': đó là hoạt động của trẻ, không phải của hàng xóm.",
+          "Đúng — 'look out for' nghĩa là quan tâm, giúp đỡ nhau.",
+          "Sai — 'homework': bài không nhắc bài tập."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-007",
+    "bac": 4,
+    "title": "The Hidden Cost of Fast Fashion",
+    "text": "Walk into almost any clothing store today and you will find new styles arriving every few weeks. This model, called fast fashion, depends on cheap materials and quick production, so shoppers can buy trendy clothes for the price of a sandwich. Not surprisingly, people now buy far more garments than they did a generation ago.\n\nThe true cost, however, is hidden. Making a single cotton shirt can require thousands of liters of water, and the dyes used in factories often flow into rivers if the waste is not treated properly. Moreover, because cheap clothes wear out quickly, many are thrown away after only a few uses. Most of them end up in landfills, where synthetic fibers such as polyester may take decades to break down.\n\nSome shoppers have begun to respond. Secondhand stores, which were once considered embarrassing by many teenagers, are now fashionable, and online platforms let users resell items they no longer wear. Several brands have also started to accept old clothing and recycle the fabric into new products.\n\nExperts warn, though, that recycling alone will not solve the problem. Had consumers bought fewer items in the first place, far less waste would have been produced. The most sustainable shirt, they argue, is the one that is already in your closet. Changing our habits may therefore matter more than any new technology.",
+    "questions": [
+      {
+        "prompt": "What is the main message of the passage?",
+        "choices": [
+          "Secondhand clothes are always better quality than new ones.",
+          "Cotton shirts should be replaced by synthetic ones.",
+          "Clothing stores should change their styles every day.",
+          "Cheap fast fashion harms the environment, and buying less may help the most."
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài mô tả cái giá môi trường ẩn của thời trang nhanh và kết luận rằng thay đổi thói quen mua sắm quan trọng hơn công nghệ mới.",
+        "choiceExplanations": [
+          "Sai — 'always better quality': bài không so sánh chất lượng.",
+          "Sai — 'replaced by synthetic ones': sợi tổng hợp được nhắc là lâu phân hủy, tức là vấn đề.",
+          "Sai — 'every day': bài chỉ nói kiểu mới ra 'every few weeks' như một thực trạng, không đề xuất.",
+          "Đúng — kết luận nói thay đổi thói quen (mua ít hơn) có thể quan trọng nhất."
+        ]
+      },
+      {
+        "prompt": "In the second paragraph, 'synthetic' fibers are fibers that are",
+        "choices": [
+          "grown from cotton plants",
+          "taken from old clothing",
+          "made by people rather than found in nature",
+          "produced only in cold climates"
+        ],
+        "correctIndex": 2,
+        "explanation": "Sợi 'synthetic' là sợi nhân tạo; bài đối lập với áo bông ('cotton') và nói chúng mất hàng chục năm mới phân hủy.",
+        "choiceExplanations": [
+          "Sai — 'cotton plants': bông là sợi tự nhiên, trái với 'synthetic'.",
+          "Sai — 'old clothing': quần áo cũ được tái chế, không phải định nghĩa của sợi tổng hợp.",
+          "Đúng — 'synthetic' nghĩa là nhân tạo.",
+          "Sai — 'cold climates': bài không nhắc khí hậu."
+        ]
+      },
+      {
+        "prompt": "In the second paragraph, 'Most of them' refers to",
+        "choices": [
+          "factories that pollute rivers",
+          "cheap clothes that are thrown away",
+          "cotton shirts made with thousands of liters of water",
+          "shoppers who buy trendy clothes"
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu liền trước nói nhiều quần áo rẻ bị vứt sau vài lần mặc; 'Most of them end up in landfills' chỉ chúng.",
+        "choiceExplanations": [
+          "Sai — 'factories': nhà máy không chôn ở bãi rác.",
+          "Đúng — 'them' là quần áo rẻ bị vứt đi.",
+          "Sai — 'cotton shirts': bài chỉ lấy áo bông làm ví dụ cho lượng nước.",
+          "Sai — 'shoppers': người mua không bị chôn ở bãi rác."
+        ]
+      },
+      {
+        "prompt": "Which problem of fast fashion is NOT mentioned?",
+        "choices": [
+          "Many factory workers receive very low wages.",
+          "It uses large amounts of water.",
+          "Dyes can pollute rivers.",
+          "Discarded clothes fill landfills."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài nêu việc dùng nhiều nước, thuốc nhuộm ô nhiễm sông và rác ở bãi chôn lấp; không nói gì về lương công nhân.",
+        "choiceExplanations": [
+          "Đúng — lương thấp của công nhân không được nhắc đến.",
+          "Sai — 'large amounts of water': đoạn 2 nói hàng nghìn lít nước cho một chiếc áo.",
+          "Sai — 'Dyes': đoạn 2 nêu thuốc nhuộm chảy ra sông.",
+          "Sai — 'landfills': đoạn 2 nêu quần áo ra bãi rác."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b4-008",
+    "bac": 4,
+    "title": "Why Maps Tell White Lies",
+    "text": "Look at any wall map of the world, and you will probably notice that Greenland appears almost as large as Africa. In reality, Africa is about fourteen times bigger. The reason lies in a problem that mapmakers have faced for centuries: it is impossible to flatten a sphere without stretching or tearing it.\n\nThe most familiar solution is the Mercator projection, created in 1569 by a Flemish geographer. Sailors loved it because a straight line drawn on the map gave a constant compass direction, which made navigation far easier. However, to achieve this, Mercator had to enlarge areas as they moved away from the equator. As a result, countries near the poles, such as Canada and Russia, look much larger than they really are.\n\nOther maps solve one problem but create another. Some show sizes accurately but twist the shapes of continents, giving them an odd, stretched appearance. Others keep shapes realistic, yet sizes or distances are wrong. No flat map can be perfect in every respect, so the best choice depends on the purpose.\n\nShould you want to teach geography, therefore, it helps to show students several maps side by side. Only then can they understand that every map, however useful, is a simplified version of reality, not a mirror of it.",
+    "questions": [
+      {
+        "prompt": "What is the main idea of the passage?",
+        "choices": [
+          "Every flat map distorts the world in some way, so no map is perfect.",
+          "Greenland is nearly as large as Africa.",
+          "The Mercator map should never be used.",
+          "Sailors invented the first world maps."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài giải thích vì sao bản đồ phẳng luôn méo và kết luận 'No flat map can be perfect in every respect'.",
+        "choiceExplanations": [
+          "Đúng — đây là ý xuyên suốt: bản đồ phẳng nào cũng bị sai lệch.",
+          "Sai — 'nearly as large as Africa': đó chỉ là cách bản đồ làm ta tưởng, thực tế châu Phi lớn gấp khoảng 14 lần.",
+          "Sai — 'never be used': bài nói Mercator rất hữu ích cho thủy thủ.",
+          "Sai — 'Sailors invented': Mercator là nhà địa lý, và bài không nói thủy thủ phát minh bản đồ."
+        ]
+      },
+      {
+        "prompt": "Why do Canada and Russia look larger than they really are on a Mercator map?",
+        "choices": [
+          "They are close to the equator on the map.",
+          "They are far from the equator, where the map enlarges areas.",
+          "Sailors asked mapmakers to draw them bigger.",
+          "Their shapes were twisted to fit the paper."
+        ],
+        "correctIndex": 1,
+        "explanation": "Mercator 'had to enlarge areas as they moved away from the equator', nên nước gần cực bị phóng to.",
+        "choiceExplanations": [
+          "Sai — 'close to the equator': ngược lại với bài, khu vực gần xích đạo ít bị phóng to.",
+          "Đúng — bản đồ phóng to khu vực càng xa xích đạo.",
+          "Sai — 'Sailors asked': bài nói thủy thủ thích bản đồ vì hướng la bàn, không yêu cầu vẽ to hơn.",
+          "Sai — 'shapes were twisted': đó là mô tả của loại bản đồ khác giữ đúng kích thước."
+        ]
+      },
+      {
+        "prompt": "In the last sentence, 'not a mirror of it' suggests that a map is",
+        "choices": [
+          "a reflection that shows only the sea",
+          "an object that is easily broken",
+          "not a perfectly accurate copy of reality",
+          "a picture that is always out of date"
+        ],
+        "correctIndex": 2,
+        "explanation": "Gương phản chiếu chính xác; nói bản đồ 'not a mirror' nghĩa là nó chỉ là bản đơn giản hóa, không chính xác hoàn toàn.",
+        "choiceExplanations": [
+          "Sai — 'only the sea': bài không nói bản đồ chỉ chiếu biển.",
+          "Sai — 'easily broken': nghĩa đen của gương, không phải ý của tác giả.",
+          "Đúng — câu trước nói bản đồ là 'a simplified version of reality'.",
+          "Sai — 'out of date': bài không nói bản đồ lỗi thời."
+        ]
+      },
+      {
+        "prompt": "Which statement is NOT true according to the passage?",
+        "choices": [
+          "Africa is much bigger than Greenland.",
+          "The Mercator map made navigation easier.",
+          "Some maps keep shapes realistic but get distances wrong.",
+          "Mercator designed his map to show the true sizes of countries."
+        ],
+        "correctIndex": 3,
+        "explanation": "Mercator ưu tiên hướng la bàn không đổi và phải phóng to vùng xa xích đạo, nên bản đồ không cho kích thước thật.",
+        "choiceExplanations": [
+          "Sai — 'Africa is much bigger': bài nói lớn hơn khoảng 14 lần.",
+          "Sai — 'made navigation easier': có trong đoạn 2.",
+          "Sai — 'shapes realistic': có trong đoạn 3.",
+          "Đúng — bản đồ của ông làm sai kích thước để dễ dẫn đường."
+        ]
+      }
+    ]
+  }
+]

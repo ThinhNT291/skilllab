@@ -1,0 +1,610 @@
+[
+  {
+    "id": "rd-b3-001",
+    "bac": 3,
+    "title": "The Class Garden",
+    "text": "Last spring, our science teacher, Ms. Lopez, asked us a simple question: \"What can we do with the empty space behind our school?\" Nobody had a good answer, so she suggested a garden.\n\nWe have worked on it for six months now, and it has changed a lot. At first, the soil was hard and full of stones, so we spent two weeks just cleaning it. Then we planted tomatoes, beans, and some flowers. My job is to water the plants every morning before class. If it rains, I get a day off, which I like!\n\nThe best part is that the garden has made our class closer. Kids who never talked to each other now share tips about insects and sunlight. Last week, we picked our first tomatoes and made a salad for the whole grade. If the weather stays warm, we will have beans by the end of the month. Next year, the younger students will take care of the garden, and we hope they will love it as much as we do.",
+    "questions": [
+      {
+        "prompt": "What did the students do before they planted anything?",
+        "choices": [
+          "They made a salad for the whole grade.",
+          "They watered the plants every morning.",
+          "They cleaned the hard, stony soil.",
+          "They asked Ms. Lopez for a garden."
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn 2 nói đầu tiên họ mất hai tuần dọn đất ('cleaning it'), 'Then' mới trồng cà chua, đậu và hoa.",
+        "choiceExplanations": [
+          "Sai — 'made a salad' xảy ra sau, khi đã hái cà chua đầu tiên.",
+          "Sai — Tưới cây là việc của người viết sau khi đã trồng, không phải việc làm trước khi trồng.",
+          "Đúng — đoạn 2: 'we spent two weeks just cleaning it' (đất cứng, nhiều đá) rồi mới 'Then we planted'.",
+          "Sai — Chính cô Lopez đã đặt câu hỏi và gợi ý làm vườn, không phải học sinh xin."
+        ]
+      },
+      {
+        "prompt": "In the last paragraph, \"the garden has made our class closer\" means that the students",
+        "choices": [
+          "have become friendlier with one another.",
+          "sit nearer to the garden.",
+          "are quieter than before.",
+          "have become a smaller class."
+        ],
+        "correctIndex": 0,
+        "explanation": "'Closer' là nghĩa bóng: ngay sau đó bài nêu ví dụ 'Kids who never talked to each other now share tips'.",
+        "choiceExplanations": [
+          "Đúng — câu sau: trẻ chưa từng nói chuyện nay chia sẻ mẹo với nhau, tức là gắn bó hơn.",
+          "Sai — 'closer' ở đây nói về mối quan hệ, không phải khoảng cách chỗ ngồi.",
+          "Sai — Bài nói họ 'share tips' (trò chuyện nhiều hơn), không phải im lặng hơn.",
+          "Sai — Không có thông tin nào về số học sinh giảm."
+        ]
+      },
+      {
+        "prompt": "What do we know about the beans?",
+        "choices": [
+          "The younger students planted them.",
+          "They were picked last week.",
+          "They will not grow in warm weather.",
+          "They have been planted but are not ready yet."
+        ],
+        "correctIndex": 3,
+        "explanation": "Cần nối hai chỗ: đoạn 2 cho biết đậu đã được trồng, đoạn 3 cho biết cuối tháng mới có đậu nếu trời ấm.",
+        "choiceExplanations": [
+          "Sai — Chính nhóm người viết trồng; học sinh nhỏ hơn chỉ tiếp quản năm sau.",
+          "Sai — Chỉ có cà chua được hái tuần trước ('our first tomatoes').",
+          "Sai — Bài nói ngược lại: nếu thời tiết còn ấm thì sẽ có đậu.",
+          "Đúng — đoạn 2: 'we planted tomatoes, beans'; đoạn 3: 'we will have beans by the end of the month' (chưa có đậu để hái)."
+        ]
+      },
+      {
+        "prompt": "How does the writer feel about the garden project?",
+        "choices": [
+          "Bored and tired.",
+          "Proud and hopeful.",
+          "Worried about the weather.",
+          "Angry about the hard work."
+        ],
+        "correctIndex": 1,
+        "explanation": "Giọng văn tích cực: nói về phần tốt nhất, thành quả đầu tiên và hy vọng cho năm sau, nên thái độ là tự hào và hy vọng.",
+        "choiceExplanations": [
+          "Sai — Người viết nói 'The best part' và 'which I like', không hề chán.",
+          "Đúng — kể thành quả (cà chua, lớp thân nhau hơn) và 'we hope they will love it as much as we do'.",
+          "Sai — Thời tiết chỉ nhắc như một điều kiện ('if the weather stays warm'), không thể hiện lo lắng.",
+          "Sai — Công việc khó (đất cứng) được kể bình thản, không có giận dữ."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-002",
+    "bac": 3,
+    "title": "A Day at the Science Museum",
+    "text": "If you are looking for an exciting weekend plan, try the Riverside Science Museum. It is a place where you can touch, build, and test almost everything. The museum was opened in 1998, and more than two million people have visited since then.\n\nThe most popular room is the Robot Lab. Visitors who like technology can program a small robot to move through a maze. The robots are made by high school students, which makes the room even more special. Remember that the lab is busy in the afternoon, so go before lunch if you do not want to wait in a long line.\n\nAnother good choice is the Weather Room, where you can stand inside a tiny tornado made of mist. Don't forget to bring a jacket, because the room gets cold! Tickets cost eight dollars for students, and children under six can enter for free. If you buy tickets online, you will skip the line at the front door.",
+    "questions": [
+      {
+        "prompt": "Who makes the robots in the Robot Lab?",
+        "choices": [
+          "Visitors to the museum.",
+          "High school students.",
+          "The museum's owners.",
+          "Children under six."
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu 'The robots are made by high school students' (câu bị động) cho biết người làm ra robot.",
+        "choiceExplanations": [
+          "Sai — Khách chỉ lập trình robot cho chạy qua mê cung, không chế tạo chúng.",
+          "Đúng — 'The robots are made by high school students'.",
+          "Sai — Bài không nhắc đến chủ bảo tàng.",
+          "Sai — Trẻ dưới sáu tuổi chỉ được vào cửa miễn phí."
+        ]
+      },
+      {
+        "prompt": "In the last sentence, \"skip the line\" means to",
+        "choices": [
+          "wait longer in the line.",
+          "stand at the end of the line.",
+          "pay less for the ticket.",
+          "avoid waiting in the line."
+        ],
+        "correctIndex": 3,
+        "explanation": "'Skip' ở đây nghĩa là bỏ qua; ý cả câu là mua vé online thì không cần xếp hàng ở cửa.",
+        "choiceExplanations": [
+          "Sai — Ngược nghĩa: mua online là để đỡ phải chờ.",
+          "Sai — Đó là cách xếp hàng bình thường, không phải 'skip'.",
+          "Sai — Bài không nói mua online rẻ hơn; vé học sinh là tám đô la.",
+          "Đúng — mua vé trực tuyến thì khỏi xếp hàng ở cửa trước."
+        ]
+      },
+      {
+        "prompt": "Which plan is best for a student who wants to avoid waiting?",
+        "choices": [
+          "Buy tickets online and visit the Robot Lab before lunch.",
+          "Buy tickets at the door and go in the afternoon.",
+          "Go to the Weather Room first and bring a jacket.",
+          "Visit on the weekend when the museum is open."
+        ],
+        "correctIndex": 0,
+        "explanation": "Cần ghép hai ý ở hai đoạn: vé online (đoạn 3) và đi trước bữa trưa vì buổi chiều đông (đoạn 2).",
+        "choiceExplanations": [
+          "Đúng — đoạn 3: mua vé online thì 'skip the line'; đoạn 2: phòng robot đông vào buổi chiều, nên đi trước bữa trưa.",
+          "Sai — Mua tại cửa phải xếp hàng, buổi chiều lại đông.",
+          "Sai — Áo khoác chỉ để chống lạnh, không liên quan đến việc chờ đợi.",
+          "Sai — Bài không nói cuối tuần ít đông; cuối tuần chỉ là gợi ý đi chơi."
+        ]
+      },
+      {
+        "prompt": "Why did the writer write this text?",
+        "choices": [
+          "To tell a personal story about a school trip.",
+          "To explain how robots are built.",
+          "To give information that encourages people to visit the museum.",
+          "To complain about long lines."
+        ],
+        "correctIndex": 2,
+        "explanation": "Đây là bài giới thiệu địa điểm: mô tả các phòng, giá vé và lời khuyên, nhằm khuyến khích người đọc đến thăm.",
+        "choiceExplanations": [
+          "Sai — Bài không kể chuyện cá nhân; dùng 'you' để hướng dẫn người đọc.",
+          "Sai — Robot chỉ là một chi tiết, không có phần giải thích cách chế tạo.",
+          "Đúng — bài mở đầu bằng gợi ý đi chơi, rồi giới thiệu phòng, giá vé và mẹo.",
+          "Sai — Hàng dài chỉ được nhắc để đưa ra lời khuyên, không phải phàn nàn."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-003",
+    "bac": 3,
+    "title": "The Last Lap",
+    "text": "Jake had never liked running. In fact, he joined the school cross-country team only because his best friend, Omar, asked him. On the first day of practice, Jake finished last, and some students laughed. He almost quit that night.\n\nBut Omar, who was always kind, gave him some advice. \"Don't look at the others. Just try to beat your own time,\" he said. So Jake started to run for twenty minutes every morning before breakfast. At first, his legs hurt and he was often out of breath. Slowly, however, things changed.\n\nTwo months later, the school race took place. It was raining, and the path was muddy. Jake was not the fastest runner that day, but he passed eleven students and finished in the middle of the group. When he crossed the line, Omar was waiting with a big smile. Jake did not win a medal, yet he felt prouder than ever. \"I ran my best race,\" he thought.",
+    "questions": [
+      {
+        "prompt": "Why did Jake join the cross-country team?",
+        "choices": [
+          "He had always loved running.",
+          "He wanted to win a medal.",
+          "His teacher told him to.",
+          "His best friend asked him to."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn 1 nêu rõ lý do duy nhất: 'only because his best friend, Omar, asked him'.",
+        "choiceExplanations": [
+          "Sai — Câu đầu: Jake 'had never liked running'.",
+          "Sai — Cuối bài Jake không có huy chương và vẫn tự hào; không có chỗ nào nói cậu muốn huy chương.",
+          "Sai — Không có giáo viên nào được nhắc đến; chính Omar rủ cậu.",
+          "Đúng — 'he joined the school cross-country team only because his best friend, Omar, asked him'."
+        ]
+      },
+      {
+        "prompt": "In the second paragraph, \"out of breath\" means",
+        "choices": [
+          "unable to find the way.",
+          "feeling very sleepy.",
+          "breathing hard and fast after exercise.",
+          "wearing a wet coat."
+        ],
+        "correctIndex": 2,
+        "explanation": "'Out of breath' là hụt hơi; đi cùng 'his legs hurt' (chân đau) khi mới tập chạy.",
+        "choiceExplanations": [
+          "Sai — Không liên quan đến việc lạc đường; nói về hơi thở.",
+          "Sai — Cậu chạy buổi sáng nhưng bài không nói buồn ngủ.",
+          "Đúng — sau khi chạy, chân đau và hay thở dốc.",
+          "Sai — Áo ướt chỉ có thể liên quan đến mưa ở đoạn 3, không phải nghĩa của cụm này."
+        ]
+      },
+      {
+        "prompt": "How did Omar's advice help Jake?",
+        "choices": [
+          "Jake practiced every day and later passed eleven students in the race.",
+          "Jake stopped racing and won the race.",
+          "Omar ran next to Jake during the race.",
+          "Jake left the team and trained alone."
+        ],
+        "correctIndex": 0,
+        "explanation": "Nối hai đoạn: lời khuyên và việc tập luyện hằng ngày (đoạn 2) dẫn đến kết quả tiến bộ trong cuộc đua (đoạn 3).",
+        "choiceExplanations": [
+          "Đúng — Omar khuyên đua với thời gian của chính mình (đoạn 2); Jake tập mỗi sáng và về giữa nhóm sau khi vượt mười một bạn (đoạn 3).",
+          "Sai — Jake vẫn đua và không thắng; cậu 'did not win a medal'.",
+          "Sai — Omar đứng chờ ở vạch đích, không chạy cùng.",
+          "Sai — Cậu 'almost quit' nhưng không bỏ đội."
+        ]
+      },
+      {
+        "prompt": "What is the main message of the story?",
+        "choices": [
+          "Only fast runners should join a team.",
+          "Doing your best matters more than winning.",
+          "Running in the rain is dangerous.",
+          "Friends should always let you win."
+        ],
+        "correctIndex": 1,
+        "explanation": "Kết truyện nhấn mạnh niềm tự hào dù không có huy chương, nên thông điệp là cố gắng hết sức quan trọng hơn chiến thắng.",
+        "choiceExplanations": [
+          "Sai — Jake chậm nhưng vẫn được lợi từ việc tham gia đội.",
+          "Đúng — Jake không thắng nhưng 'felt prouder than ever' vì đã chạy hết sức.",
+          "Sai — Mưa chỉ là bối cảnh; không ai bị nguy hiểm.",
+          "Sai — Không ai nhường Jake; cậu tự cố gắng."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-004",
+    "bac": 3,
+    "title": "Phones in Class: Yes or No?",
+    "text": "Many schools around the world are asking a big question: should students use phones in class? Some schools have banned them completely, while others have chosen to allow them for learning.\n\nSupporters say that phones can be useful tools. Students can look up words, take photos of the board, or use apps that teach math. A teacher in Ohio, who has used phones in lessons for two years, says her students are more active now.\n\nHowever, many teachers worry about distraction. If a student checks messages during a lesson, he or she will miss important information. Some students also feel sad when classmates post unkind comments online. If I were a principal, I would not ban phones, but I would make clear rules. For example, phones could be kept in bags until the teacher says they are needed. In my opinion, technology is only helpful when we control it, and it does not control us.",
+    "questions": [
+      {
+        "prompt": "What does the teacher in Ohio say about her students?",
+        "choices": [
+          "They have lost their phones.",
+          "They have become more active.",
+          "They miss important information.",
+          "They keep phones in their bags."
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 2 trích lời cô giáo ở Ohio: sau hai năm dùng điện thoại trong bài học, học sinh 'more active now'.",
+        "choiceExplanations": [
+          "Sai — Bài không nói về việc mất điện thoại.",
+          "Đúng — 'says her students are more active now'.",
+          "Sai — Việc bỏ lỡ thông tin là lo ngại ở đoạn 3 nếu học sinh xem tin nhắn, không phải lời cô giáo Ohio.",
+          "Sai — Đó là quy định người viết đề xuất, không phải lời cô giáo."
+        ]
+      },
+      {
+        "prompt": "In the first paragraph, \"banned\" means",
+        "choices": [
+          "not allowed by a rule.",
+          "sold at a lower price.",
+          "checked carefully.",
+          "given as a prize."
+        ],
+        "correctIndex": 0,
+        "explanation": "'Banned' đối lập với 'allow' trong cùng câu, nên nghĩa là bị cấm.",
+        "choiceExplanations": [
+          "Đúng — một số trường cấm hẳn, trong khi trường khác 'allow' (cho phép); hai vế đối lập.",
+          "Sai — Không liên quan đến giá cả.",
+          "Sai — 'Allow' đối lập với 'banned', nên không phải kiểm tra.",
+          "Sai — Điện thoại không phải phần thưởng trong bài."
+        ]
+      },
+      {
+        "prompt": "Why does the writer suggest keeping phones in bags until they are needed?",
+        "choices": [
+          "Because phones are always dangerous.",
+          "Because teachers never use phones.",
+          "To keep their useful side while reducing distraction.",
+          "Because students cannot learn with technology."
+        ],
+        "correctIndex": 2,
+        "explanation": "Cần nối hai đoạn: lợi ích (đoạn 2) và nguy cơ phân tâm (đoạn 3); quy tắc giữ trong cặp giữ được cả hai.",
+        "choiceExplanations": [
+          "Sai — Người viết nói 'I would not ban phones', không cho rằng điện thoại luôn nguy hiểm.",
+          "Sai — Cô giáo Ohio đã dùng điện thoại trong bài học.",
+          "Đúng — đoạn 2 nêu lợi ích của điện thoại; đoạn 3 nêu lo ngại mất tập trung và đề xuất không cấm mà đặt quy tắc.",
+          "Sai — Bài nêu ví dụ học từ và học toán bằng ứng dụng, nên ý này sai."
+        ]
+      },
+      {
+        "prompt": "Which title fits the text best?",
+        "choices": [
+          "Why Phones Must Be Banned",
+          "The Best Math Apps for Students",
+          "A Teacher's Life in Ohio",
+          "Phones in Class: A Tool That Needs Rules"
+        ],
+        "correctIndex": 3,
+        "explanation": "Ý chính: điện thoại hữu ích nhưng gây phân tâm, nên cần quy tắc rõ ràng; tiêu đề đúng phải phản ánh cả hai mặt.",
+        "choiceExplanations": [
+          "Sai — Người viết nói rõ sẽ không cấm.",
+          "Sai — Ứng dụng toán chỉ là một ví dụ nhỏ.",
+          "Sai — Cô giáo Ohio chỉ xuất hiện trong một câu.",
+          "Đúng — toàn bài cân nhắc lợi và hại, kết luận cần quy tắc để kiểm soát."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-005",
+    "bac": 3,
+    "title": "Visit Yellowstone",
+    "text": "Yellowstone, in the United States, was made a national park in 1872. It is believed to be the first national park in the world. Every year, millions of tourists travel there to enjoy its hot springs, forests, and wild animals.\n\nThe most famous sight is Old Faithful, a geyser that shoots hot water high into the air about every ninety minutes. Visitors usually arrive early to find a good place to stand. You can also see bison, which are large animals that sometimes walk across the road. Rangers ask drivers to stay in their cars when this happens, because bison can be dangerous if people get too close.\n\nIf you want to visit, summer is the busiest season. Winter is quieter, but many roads are closed because of snow. Spring, which is cooler and less crowded, may be the best choice for families. Whatever time you choose, wear comfortable shoes and bring plenty of water. You will walk much more than you expect!",
+    "questions": [
+      {
+        "prompt": "Why do rangers ask drivers to stay in their cars when bison cross the road?",
+        "choices": [
+          "Bison can be dangerous if people get too close.",
+          "Bison are afraid of cars.",
+          "The roads are closed because of snow.",
+          "Old Faithful is about to erupt."
+        ],
+        "correctIndex": 0,
+        "explanation": "Lý do được nêu ngay sau từ 'because' ở cuối đoạn 2.",
+        "choiceExplanations": [
+          "Đúng — 'because bison can be dangerous if people get too close'.",
+          "Sai — Bài không nói bison sợ xe.",
+          "Sai — Đường đóng vì tuyết là chuyện mùa đông, không liên quan lệnh này.",
+          "Sai — Old Faithful phun theo chu kỳ, không liên quan đến bison qua đường."
+        ]
+      },
+      {
+        "prompt": "In the last paragraph, \"crowded\" means",
+        "choices": [
+          "very cold.",
+          "covered with snow.",
+          "far from the city.",
+          "full of people."
+        ],
+        "correctIndex": 3,
+        "explanation": "'Crowded' liên hệ với 'busiest season' ở câu trước: đông người.",
+        "choiceExplanations": [
+          "Sai — 'Cooler' đã nói về nhiệt độ; 'crowded' nói về lượng người.",
+          "Sai — Tuyết là chuyện mùa đông.",
+          "Sai — Bài không nói về khoảng cách đến thành phố.",
+          "Đúng — 'less crowded' đi cùng 'summer is the busiest' (đông nhất), tức mùa xuân ít người hơn."
+        ]
+      },
+      {
+        "prompt": "Which statement about the seasons is true?",
+        "choices": [
+          "Summer is the quietest season.",
+          "Winter has fewer visitors than summer, but snow can make travel difficult.",
+          "Spring is the busiest season for families.",
+          "All roads are open in winter."
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu đúng phải ghép hai vế của cùng ý: mùa đông vắng hơn nhưng đường bị đóng vì tuyết.",
+        "choiceExplanations": [
+          "Sai — Bài nói mùa hè là 'the busiest'.",
+          "Đúng — 'Winter is quieter, but many roads are closed because of snow'.",
+          "Sai — Mùa xuân 'less crowded' và chỉ là lựa chọn tốt cho gia đình.",
+          "Sai — Bài nói nhiều đường bị đóng vào mùa đông."
+        ]
+      },
+      {
+        "prompt": "What is the writer's main purpose?",
+        "choices": [
+          "To persuade people to move to the United States.",
+          "To tell a story about the writer's own trip.",
+          "To give information and tips to visitors.",
+          "To explain how geysers are formed."
+        ],
+        "correctIndex": 2,
+        "explanation": "Giọng văn hướng dẫn ('If you want to visit', 'wear comfortable shoes') cho thấy mục đích cung cấp thông tin và lời khuyên.",
+        "choiceExplanations": [
+          "Sai — Bài chỉ nói về việc tham quan, không về chuyển đến sống.",
+          "Sai — Bài không có chi tiết cá nhân như 'I went'.",
+          "Đúng — bài mô tả công viên, điểm nổi tiếng, mùa nên đi và lời khuyên chuẩn bị.",
+          "Sai — Bài chỉ nói geyser phun nước nóng, không giải thích nguyên nhân hình thành."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-006",
+    "bac": 3,
+    "title": "Clean Waves",
+    "text": "Every year, about eight million tons of plastic end up in the oceans. Much of this trash is carried there by rivers, and it can harm sea animals, which often mistake it for food.\n\nA group of students in a small coastal town decided to take action. Last year, they started a project called Clean Waves. Every Saturday, volunteers walk along the beach and collect the trash that has been left behind. So far, they have gathered more than two thousand plastic bottles.\n\nThe students do not only clean. They also visit local shops and ask owners to use paper bags instead of plastic ones. Three shops have already agreed. \"Cleaning is important, but stopping the problem before it starts is even better,\" says Linh, the leader of the group. If more people join the project, the beach will stay clean much longer. The group is now making a short video to show other schools how they can start similar projects.",
+    "questions": [
+      {
+        "prompt": "What do the students ask shop owners to do?",
+        "choices": [
+          "Sell plastic bottles at lower prices.",
+          "Join the Saturday beach cleaning.",
+          "Use paper bags instead of plastic ones.",
+          "Make a video about the beach."
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn 3 nêu trực tiếp yêu cầu của học sinh với các cửa hàng.",
+        "choiceExplanations": [
+          "Sai — Bài không nói gì về giá chai nhựa.",
+          "Sai — Tình nguyện viên tự đi dọn bãi biển; không có yêu cầu này với chủ cửa hàng.",
+          "Đúng — 'ask owners to use paper bags instead of plastic ones'.",
+          "Sai — Video do nhóm học sinh tự làm."
+        ]
+      },
+      {
+        "prompt": "In the first paragraph, \"mistake it for food\" means that sea animals",
+        "choices": [
+          "take food from the plastic bags.",
+          "wrongly think the plastic is something to eat.",
+          "carry the plastic to the rivers.",
+          "make mistakes when they look for food."
+        ],
+        "correctIndex": 1,
+        "explanation": "'Mistake X for Y' nghĩa là nhầm X với Y, nên động vật tưởng rác nhựa là thức ăn.",
+        "choiceExplanations": [
+          "Sai — Không phải lấy thức ăn từ túi nhựa, mà nhầm chính nhựa là thức ăn.",
+          "Đúng — 'mistake A for B' là nhầm A thành B; ngay trước đó nói rác nhựa gây hại cho động vật biển.",
+          "Sai — Bài nói sông mang rác ra biển, không phải động vật.",
+          "Sai — Cách hiểu từng từ rời rạc; cụm cố định 'mistake it for food' có nghĩa nhầm lẫn nó là thức ăn."
+        ]
+      },
+      {
+        "prompt": "How does the shop project help sea animals?",
+        "choices": [
+          "Shops give food to sea animals.",
+          "Paper bags are safe for animals to eat.",
+          "Shop owners clean the beach every Saturday.",
+          "Fewer plastic bags means less trash may reach the sea."
+        ],
+        "correctIndex": 3,
+        "explanation": "Nối đoạn 1 (nhựa hại động vật biển) với đoạn 3 (ít túi nhựa hơn): ngăn rác từ đầu nghĩa là bớt rác ra biển.",
+        "choiceExplanations": [
+          "Sai — Bài không nói cửa hàng cho động vật ăn.",
+          "Sai — Bài không nói động vật ăn túi giấy.",
+          "Sai — Việc dọn bãi biển do tình nguyện viên làm.",
+          "Đúng — đoạn 1: rác nhựa ra biển và hại động vật; đoạn 3: chuyển sang túi giấy để ngăn vấn đề 'before it starts'."
+        ]
+      },
+      {
+        "prompt": "What is the main idea of the text?",
+        "choices": [
+          "Students are protecting the sea in more than one way.",
+          "Plastic comes only from shops.",
+          "Cleaning the beach is not useful.",
+          "A video is the group's most important project."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài kể về nhiều hoạt động: dọn rác, thuyết phục cửa hàng, làm video; ý chính là học sinh bảo vệ biển bằng nhiều cách.",
+        "choiceExplanations": [
+          "Đúng — họ dọn bãi biển, nhờ cửa hàng đổi túi, và làm video chia sẻ.",
+          "Sai — Bài nói nhựa còn trôi ra biển theo sông.",
+          "Sai — Linh nói dọn dẹp là 'important'.",
+          "Sai — Video chỉ là việc nhóm 'is now making', không phải trọng tâm."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-007",
+    "bac": 3,
+    "title": "Why I Love Chess",
+    "text": "I started playing chess two years ago, when my uncle, who is a great player, gave me a small wooden board for my birthday. At first, I thought the game was boring because the pieces moved so slowly. Now I play almost every day, and I have joined the chess club at my school.\n\nChess has taught me a few things that I use outside the game. First, I have learned to think before I act. If I move a piece too quickly, I usually lose it. Second, I have learned that losing is not the end of the world. Every mistake gives me a lesson for the next game.\n\nLast month, I entered my first tournament. I lost three of my five games, but I won the last one against a boy who had been playing for ten years. I was so excited that I could hardly speak! If you have never tried chess, I think you should. All you need is a board, a little patience, and a friend who wants to play.",
+    "questions": [
+      {
+        "prompt": "How did the writer get a chess board?",
+        "choices": [
+          "The writer won it in a tournament.",
+          "The school chess club lent it.",
+          "The writer bought it with a friend.",
+          "An uncle gave it as a birthday present."
+        ],
+        "correctIndex": 3,
+        "explanation": "Câu đầu tiên của bài trả lời trực tiếp.",
+        "choiceExplanations": [
+          "Sai — Giải đấu đầu tiên diễn ra tháng trước, sau hai năm chơi cờ.",
+          "Sai — Câu lạc bộ chỉ được nhắc ở phần sau, không liên quan bàn cờ đầu tiên.",
+          "Sai — Bài không nói mua cùng bạn.",
+          "Đúng — 'my uncle ... gave me a small wooden board for my birthday'."
+        ]
+      },
+      {
+        "prompt": "In the last sentence, \"patience\" means",
+        "choices": [
+          "the ability to wait calmly without getting upset.",
+          "the ability to run quickly.",
+          "a lot of money.",
+          "a big room."
+        ],
+        "correctIndex": 0,
+        "explanation": "'Patience' là tính kiên nhẫn; hợp với cả bài nói về việc nghĩ kỹ và học từ thất bại.",
+        "choiceExplanations": [
+          "Đúng — cờ vua cần suy nghĩ chậm, người viết nhắc 'think before I act' và không nản khi thua.",
+          "Sai — Không liên quan đến tốc độ chạy.",
+          "Sai — Dụng cụ chỉ cần bàn cờ và một người bạn, không cần nhiều tiền.",
+          "Sai — Bài không nói đến phòng rộng."
+        ]
+      },
+      {
+        "prompt": "How has the writer's opinion of chess changed?",
+        "choices": [
+          "The writer loved it at first but now finds it boring.",
+          "The writer has never changed an opinion about it.",
+          "It was boring at first, but now the writer enjoys it nearly every day.",
+          "The writer now thinks only experts should play."
+        ],
+        "correctIndex": 2,
+        "explanation": "Nối hai thời điểm trong đoạn 1 (lúc đầu và hiện tại) để thấy suy nghĩ đã thay đổi.",
+        "choiceExplanations": [
+          "Sai — Ngược lại với bài.",
+          "Sai — Bài nêu rõ sự thay đổi bằng 'At first' và 'Now'.",
+          "Đúng — đoạn 1: 'At first ... boring' rồi 'Now I play almost every day'.",
+          "Sai — Cuối bài khuyên ai chưa thử cũng nên chơi."
+        ]
+      },
+      {
+        "prompt": "Why did the writer write this text?",
+        "choices": [
+          "To show that the writer is the best player.",
+          "To encourage readers to try chess.",
+          "To explain the rules of chess.",
+          "To complain that chess is boring."
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài kể trải nghiệm tích cực và kết bằng lời khuyên thử chơi, nên mục đích là khuyến khích người đọc.",
+        "choiceExplanations": [
+          "Sai — Người viết thua ba trong năm ván; không khoe giỏi nhất.",
+          "Đúng — cuối bài: 'If you have never tried chess, I think you should.'",
+          "Sai — Bài không giải thích luật chơi.",
+          "Sai — Cảm giác chán chỉ là lúc ban đầu, nay đã thay đổi."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b3-008",
+    "bac": 3,
+    "title": "The Busy Life of Bees",
+    "text": "Bees are small, but they play a very big role in our world. About one third of the food we eat depends on pollinators such as bees. When a bee visits a flower to drink a sweet liquid called nectar, tiny grains called pollen stick to its body. The bee then carries the pollen to the next flower, and this helps the plants to grow fruit and seeds.\n\nInside a hive, thousands of bees live and work together. Most of them are female workers, who clean the hive, take care of young bees, and look for food. The honey that we put on our bread is made from nectar. It is stored in small wax rooms until the bees need it in winter.\n\nSadly, the number of bees has fallen in many countries. Scientists believe that some farm chemicals and the loss of wild flowers are part of the problem. If we plant flowers in our gardens and balconies, bees will have more food. Even a small pot of flowers can make a difference.",
+    "questions": [
+      {
+        "prompt": "What is honey made from?",
+        "choices": [
+          "Pollen from the hive.",
+          "Nectar from flowers.",
+          "Wax from small rooms.",
+          "Food from farms."
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 2 nêu rõ mật ong làm từ mật hoa (nectar).",
+        "choiceExplanations": [
+          "Sai — Phấn hoa dính vào người ong để thụ phấn, không phải nguyên liệu của mật ong theo bài.",
+          "Đúng — 'The honey ... is made from nectar'.",
+          "Sai — Sáp tạo thành các ngăn nhỏ để chứa mật, không phải làm ra mật.",
+          "Sai — Bài chỉ nhắc hóa chất nông nghiệp là một vấn đề cho ong."
+        ]
+      },
+      {
+        "prompt": "In the first sentence, \"role\" means",
+        "choices": [
+          "a kind of flower.",
+          "a small, round hive.",
+          "an important job or part.",
+          "a sweet liquid."
+        ],
+        "correctIndex": 2,
+        "explanation": "'Play a big role' nghĩa là đóng vai trò quan trọng; các câu sau mô tả vai trò đó.",
+        "choiceExplanations": [
+          "Sai — Không phải loài hoa.",
+          "Sai — Không liên quan đến tổ ong.",
+          "Đúng — bài giải thích ngay sau đó ong giúp cây ra quả và hạt, và thức ăn phụ thuộc vào chúng.",
+          "Sai — Chất lỏng ngọt là 'nectar'."
+        ]
+      },
+      {
+        "prompt": "How can planting flowers help bees?",
+        "choices": [
+          "It gives bees more food, which is useful because wild flowers are disappearing.",
+          "It gives bees wax for the hive.",
+          "It stops farms from using chemicals.",
+          "It makes bees leave the hive in winter."
+        ],
+        "correctIndex": 0,
+        "explanation": "Nối đoạn 1 (ong uống mật hoa) với đoạn 3 (mất hoa dại, hoa trồng thêm thức ăn).",
+        "choiceExplanations": [
+          "Đúng — đoạn 1: ong lấy mật hoa làm thức ăn; đoạn 3: hoang dã mất hoa, trồng hoa thì ong 'will have more food'.",
+          "Sai — Hoa được nhắc là nguồn thức ăn, không phải sáp.",
+          "Sai — Trồng hoa không ngăn được hóa chất nông nghiệp theo bài.",
+          "Sai — Mật ong được dự trữ cho mùa đông; bài không nói ong rời tổ."
+        ]
+      },
+      {
+        "prompt": "What is the writer's main purpose?",
+        "choices": [
+          "To teach readers how to make honey at home.",
+          "To warn people that bees are dangerous.",
+          "To describe a trip to a farm.",
+          "To explain why bees matter and encourage people to help them."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn cuối kêu gọi hành động ('If we plant flowers...'), sau hai đoạn giải thích tầm quan trọng của ong.",
+        "choiceExplanations": [
+          "Sai — Bài không hướng dẫn làm mật ong.",
+          "Sai — Bài không nói ong nguy hiểm.",
+          "Sai — Không có chuyến đi nào trong bài.",
+          "Đúng — bài giải thích vai trò, cuộc sống trong tổ, vấn đề suy giảm, rồi kêu gọi trồng hoa."
+        ]
+      }
+    ]
+  }
+]

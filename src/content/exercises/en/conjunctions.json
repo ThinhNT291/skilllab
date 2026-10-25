@@ -838,5 +838,565 @@
       "Sai — 'found': 'found' (quá khứ) không song song với help, save (nguyên thể).",
       "Sai — 'finder': 'finder' là danh từ, không song song với các động từ help, save."
     ]
+  },
+  {
+    "id": "en-conjunctions-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The picnic was canceled ______ it rained all day.",
+    "choices": [
+      "so",
+      "or",
+      "because",
+      "but"
+    ],
+    "correctIndex": 2,
+    "explanation": "Because chỉ nguyên nhân: mưa cả ngày là lý do buổi picnic bị hủy.",
+    "choiceExplanations": [
+      "Sai — 'so': 'so' chỉ kết quả và đứng trước kết quả (It rained all day, so the picnic was canceled), nên đặt ở đây sẽ đảo nghĩa.",
+      "Sai — 'or': 'or' nêu lựa chọn, không hợp nghĩa.",
+      "Đúng — 'because' nêu nguyên nhân (mưa cả ngày), theo sau là mệnh đề có chủ ngữ và động từ.",
+      "Sai — 'but': 'but' nêu tương phản, còn ở đây là quan hệ nguyên nhân - kết quả."
+    ]
+  },
+  {
+    "id": "en-conjunctions-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ I was very sleepy, I finished my homework before dinner.",
+    "choices": [
+      "Although",
+      "Because",
+      "So",
+      "Unless"
+    ],
+    "correctIndex": 0,
+    "explanation": "Although nêu sự tương phản: buồn ngủ nhưng vẫn làm xong bài.",
+    "choiceExplanations": [
+      "Đúng — 'Although' nối hai ý trái ngược (buồn ngủ nhưng vẫn làm xong bài).",
+      "Sai — 'Because': buồn ngủ không phải lý do để làm xong bài, nên nghĩa không hợp.",
+      "Sai — 'So': 'So' không đứng đầu một mệnh đề phụ thuộc như vậy; nó nối hai mệnh đề ngang hàng và đứng giữa câu.",
+      "Sai — 'Unless': 'Unless' nghĩa là 'nếu không', không hợp với sự việc đã xảy ra ở quá khứ."
+    ]
+  },
+  {
+    "id": "en-conjunctions-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please wash your hands ______ you eat.",
+    "choices": [
+      "until",
+      "because",
+      "although",
+      "before"
+    ],
+    "correctIndex": 3,
+    "explanation": "Before nghĩa là 'trước khi', chỉ việc rửa tay xảy ra trước việc ăn.",
+    "choiceExplanations": [
+      "Sai — 'until': 'until' nghĩa là 'cho đến khi', không hợp với thói quen rửa tay trước bữa ăn.",
+      "Sai — 'because': câu không nêu nguyên nhân.",
+      "Sai — 'although': câu không có ý tương phản.",
+      "Đúng — 'before' + mệnh đề chỉ việc xảy ra sau: rửa tay trước khi ăn."
+    ]
+  },
+  {
+    "id": "en-conjunctions-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You will be late for school ______ you hurry.",
+    "choices": [
+      "when",
+      "unless",
+      "so that",
+      "while"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unless = if not: bạn sẽ trễ học nếu không nhanh lên.",
+    "choiceExplanations": [
+      "Sai — 'when': 'when you hurry' nghĩa là 'khi bạn nhanh lên', làm câu vô lý (nhanh lên thì lại trễ).",
+      "Đúng — 'unless you hurry' = 'if you don't hurry' (nếu bạn không nhanh lên).",
+      "Sai — 'so that': 'so that' chỉ mục đích, không hợp nghĩa.",
+      "Sai — 'while': 'while' chỉ hai việc xảy ra cùng lúc hoặc tương phản, không hợp nghĩa."
+    ]
+  },
+  {
+    "id": "en-conjunctions-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u7-comma-subordinate",
+    "tags": [
+      "conj-u7-comma-subordinate"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence is punctuated correctly?",
+    "choices": [
+      "Because, it was cold we wore coats.",
+      "Because it was cold, we wore coats.",
+      "Because it was cold we, wore coats.",
+      "Because it was cold. We wore coats."
+    ],
+    "correctIndex": 1,
+    "explanation": "Khi mệnh đề phụ thuộc đứng trước, đặt dấu phẩy sau cả mệnh đề đó, ngay trước mệnh đề chính.",
+    "choiceExplanations": [
+      "Sai — 'Because, it was cold we wore coats.': dấu phẩy không đứng ngay sau liên từ mà đứng sau cả mệnh đề phụ thuộc.",
+      "Đúng — dấu phẩy nằm sau mệnh đề phụ thuộc 'Because it was cold', trước mệnh đề chính.",
+      "Sai — 'Because it was cold we, wore coats.': dấu phẩy chen vào giữa chủ ngữ 'we' và động từ 'wore'.",
+      "Sai — 'Because it was cold. We wore coats.': dấu chấm tách mệnh đề phụ thuộc thành câu cụt (không có mệnh đề chính)."
+    ]
+  },
+  {
+    "id": "en-conjunctions-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We can play games ______ we finish our homework.",
+    "choices": [
+      "so that",
+      "although",
+      "unless",
+      "after"
+    ],
+    "correctIndex": 3,
+    "explanation": "After nghĩa là 'sau khi': làm xong bài rồi mới chơi.",
+    "choiceExplanations": [
+      "Sai — 'so that': 'so that' chỉ mục đích, không hợp nghĩa.",
+      "Sai — 'although': câu không có ý tương phản.",
+      "Sai — 'unless': 'unless we finish' = 'nếu chúng ta không làm xong', trái với ý định.",
+      "Đúng — 'after' nêu việc xảy ra trước: sau khi làm xong bài, mới được chơi."
+    ]
+  },
+  {
+    "id": "en-conjunctions-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u1-coordinating",
+    "tags": [
+      "conj-u1-coordinating"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Bao studied all night, ______ he still did not feel ready for the test.",
+    "choices": [
+      "but",
+      "so",
+      "or",
+      "if"
+    ],
+    "correctIndex": 0,
+    "explanation": "But nối hai ý tương phản: học cả đêm nhưng vẫn chưa thấy sẵn sàng.",
+    "choiceExplanations": [
+      "Đúng — 'but' nối hai ý tương phản (học cả đêm nhưng vẫn chưa sẵn sàng).",
+      "Sai — 'so' nêu kết quả, nhưng 'chưa sẵn sàng' không phải kết quả tự nhiên của việc học cả đêm.",
+      "Sai — 'or' nêu lựa chọn, không hợp nghĩa.",
+      "Sai — 'if' mở đầu mệnh đề điều kiện, không nối hai ý đối lập như vậy."
+    ]
+  },
+  {
+    "id": "en-conjunctions-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence with 'although'.",
+    "choices": [
+      "Although it was snowing, but we played outside.",
+      "Although it was snowing but we played outside.",
+      "Although it was snowing, we played outside.",
+      "It was snowing although, we played outside."
+    ],
+    "correctIndex": 2,
+    "explanation": "Although và but cùng chỉ sự tương phản, nên không dùng cả hai trong một câu.",
+    "choiceExplanations": [
+      "Sai — 'Although ..., but ...': dùng cả although và but là thừa, chỉ chọn một trong hai.",
+      "Sai — 'Although ... but ...': vẫn dùng cả hai liên từ tương phản; thiếu dấu phẩy sau mệnh đề phụ thuộc.",
+      "Đúng — chỉ dùng 'Although', có dấu phẩy sau mệnh đề phụ thuộc. Câu 'It was snowing, but we played outside' cũng đúng nhưng không có trong các lựa chọn.",
+      "Sai — 'although' phải đứng đầu mệnh đề phụ thuộc, không thể đặt lẻ ở cuối rồi dấu phẩy."
+    ]
+  },
+  {
+    "id": "en-conjunctions-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence means the same as 'He was late because he missed the bus'?",
+    "choices": [
+      "He missed the bus because he was late.",
+      "He was late, he missed the bus so.",
+      "He missed the bus, although he was late.",
+      "He missed the bus, so he was late."
+    ],
+    "correctIndex": 3,
+    "explanation": "Because chỉ nguyên nhân, so chỉ kết quả: cùng một quan hệ, nhưng thứ tự hai mệnh đề đảo lại.",
+    "choiceExplanations": [
+      "Sai — 'He missed the bus because he was late': đảo nguyên nhân và kết quả (trễ mới lỡ xe buýt).",
+      "Sai — 'so' không đứng cuối câu như vậy; nó đứng giữa hai mệnh đề, trước kết quả.",
+      "Sai — 'although' nêu tương phản, làm đổi nghĩa.",
+      "Đúng — 'missed the bus' là nguyên nhân, 'so he was late' là kết quả; nghĩa giống câu gốc."
+    ]
+  },
+  {
+    "id": "en-conjunctions-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My brother loves spicy food, ______ I can't eat it at all.",
+    "choices": [
+      "while",
+      "before",
+      "until",
+      "so that"
+    ],
+    "correctIndex": 0,
+    "explanation": "While còn có nghĩa 'trong khi' để đối chiếu hai điều trái ngược.",
+    "choiceExplanations": [
+      "Đúng — 'while' ở đây nghĩa là 'trong khi', đối chiếu sở thích của hai người (anh thích cay, tôi không ăn được).",
+      "Sai — 'before': 'before' chỉ thứ tự thời gian, không hợp nghĩa.",
+      "Sai — 'until': 'until' nghĩa là 'cho đến khi', không hợp nghĩa.",
+      "Sai — 'so that': 'so that' chỉ mục đích, không hợp nghĩa."
+    ]
+  },
+  {
+    "id": "en-conjunctions-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u7-comma-subordinate",
+    "tags": [
+      "conj-u7-comma-subordinate"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the sentence with the correct comma use when the 'when' clause comes last.",
+    "choices": [
+      "I will text you, when I arrive.",
+      "I will text you, when, I arrive.",
+      "I will text you when I arrive.",
+      "I will, text you when I arrive."
+    ],
+    "correctIndex": 2,
+    "explanation": "Khi mệnh đề phụ thuộc đứng sau mệnh đề chính, thường không cần dấu phẩy.",
+    "choiceExplanations": [
+      "Sai — 'text you, when I arrive': mệnh đề phụ thuộc đứng sau nên thường không có dấu phẩy trước nó.",
+      "Sai — có thêm dấu phẩy sau 'when', tách liên từ khỏi mệnh đề của nó.",
+      "Đúng — mệnh đề phụ thuộc 'when I arrive' đứng sau mệnh đề chính nên không dùng dấu phẩy.",
+      "Sai — dấu phẩy chen giữa chủ ngữ 'I will' và động từ 'text'."
+    ]
+  },
+  {
+    "id": "en-conjunctions-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Keep stirring the soup ______ it starts to boil.",
+    "choices": [
+      "so that",
+      "until",
+      "because",
+      "although"
+    ],
+    "correctIndex": 1,
+    "explanation": "Until nghĩa là 'cho đến khi', chỉ hành động kéo dài tới một mốc.",
+    "choiceExplanations": [
+      "Sai — 'so that' chỉ mục đích (khuấy để …), không nói mốc thời gian kết thúc việc khuấy.",
+      "Đúng — 'until' = 'cho đến khi': khuấy liên tục đến khi súp sôi.",
+      "Sai — 'because' chỉ nguyên nhân; súp sôi không phải lý do để khuấy.",
+      "Sai — 'although' chỉ tương phản, câu không có ý đối lập."
+    ]
+  },
+  {
+    "id": "en-conjunctions-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the shop was closed, we bought the cake at another store.",
+    "choices": [
+      "Since",
+      "Although",
+      "Unless",
+      "Until"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since ở đây nghĩa là 'vì', chỉ nguyên nhân (tiệm đóng cửa nên mua ở tiệm khác).",
+    "choiceExplanations": [
+      "Đúng — 'Since' nghĩa là 'vì', chỉ nguyên nhân. 'Because' và 'As' cũng dùng được nhưng không có trong các lựa chọn.",
+      "Sai — 'Although': tiệm đóng cửa và mua bánh ở tiệm khác là nguyên nhân - kết quả, không tương phản.",
+      "Sai — 'Unless': 'Unless' nghĩa là 'nếu không', không hợp với việc đã xảy ra.",
+      "Sai — 'Until': 'Until' nghĩa là 'cho đến khi', không hợp nghĩa."
+    ]
+  },
+  {
+    "id": "en-conjunctions-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u3-correlative",
+    "tags": [
+      "conj-u3-correlative"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My sister can't choose ______ to wear the blue dress or the red one.",
+    "choices": [
+      "if",
+      "either",
+      "whether",
+      "neither"
+    ],
+    "correctIndex": 2,
+    "explanation": "Whether ... or dùng để nêu hai khả năng, kể cả trước to-V.",
+    "choiceExplanations": [
+      "Sai — 'if' không dùng trước 'to' + động từ; ở đây phải dùng whether.",
+      "Sai — 'either' chỉ đi cặp với 'or' để chọn một trong hai, không có nghĩa 'liệu'.",
+      "Đúng — 'whether ... or ...' = liệu ... hay ...; dùng được trước to-V.",
+      "Sai — 'neither' phải đi với 'nor', không đi với 'or'."
+    ]
+  },
+  {
+    "id": "en-conjunctions-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u7-comma-subordinate",
+    "tags": [
+      "conj-u7-comma-subordinate"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence is NOT punctuated correctly?",
+    "choices": [
+      "While I was reading, my sister was cooking.",
+      "My sister was cooking while I was reading.",
+      "Although he was ill, he went to school.",
+      "Although he was ill he, went to school."
+    ],
+    "correctIndex": 3,
+    "explanation": "Dấu phẩy đặt sau cả mệnh đề phụ thuộc, không chen vào giữa chủ ngữ và động từ của mệnh đề chính.",
+    "choiceExplanations": [
+      "Không chọn — đây là câu đúng: mệnh đề phụ thuộc đứng đầu nên có dấu phẩy sau nó.",
+      "Không chọn — đây là câu đúng: mệnh đề phụ thuộc đứng sau nên không cần dấu phẩy.",
+      "Không chọn — đây là câu đúng: có dấu phẩy sau mệnh đề 'Although he was ill'.",
+      "Đúng — câu này sai vì dấu phẩy đứng giữa chủ ngữ 'he' và động từ 'went'; phải viết 'Although he was ill, he went to school.'"
+    ]
+  },
+  {
+    "id": "en-conjunctions-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence uses 'because' or 'so' correctly?",
+    "choices": [
+      "Because it was late, so we went home.",
+      "It was late, so we went home.",
+      "We went home, so it was late.",
+      "So it was late, we went home."
+    ],
+    "correctIndex": 1,
+    "explanation": "Because và so cùng chỉ nguyên nhân - kết quả, nên không dùng cả hai trong một câu.",
+    "choiceExplanations": [
+      "Sai — 'Because ..., so ...': dùng thừa cả because và so, chỉ chọn một.",
+      "Đúng — 'so' đứng giữa hai mệnh đề, sau dấu phẩy, nêu kết quả. Cũng có thể viết 'Because it was late, we went home.'",
+      "Sai — đảo nguyên nhân và kết quả: 'trễ' không phải là kết quả của việc về nhà.",
+      "Sai — 'So' không đứng đầu câu như một liên từ phụ thuộc."
+    ]
+  },
+  {
+    "id": "en-conjunctions-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence has the same meaning as 'If you don't study, you will fail the test'?",
+    "choices": [
+      "Unless you don't study, you will fail the test.",
+      "You will pass the test unless you study.",
+      "You will fail the test unless you study.",
+      "You will fail the test if you study."
+    ],
+    "correctIndex": 2,
+    "explanation": "Unless đã mang nghĩa phủ định (if not), nên không đi với động từ phủ định.",
+    "choiceExplanations": [
+      "Sai — 'Unless you don't study': hai lần phủ định, làm đổi nghĩa; unless đã có nghĩa 'if not'.",
+      "Sai — 'You will pass the test unless you study' nghĩa là học thì lại rớt, ngược nghĩa.",
+      "Đúng — 'unless you study' = 'if you don't study'.",
+      "Sai — 'if you study' chỉ điều kiện có học, ngược nghĩa với câu gốc."
+    ]
+  },
+  {
+    "id": "en-conjunctions-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I will call you as soon as I ______ the airport.",
+    "choices": [
+      "reach",
+      "will reach",
+      "reached",
+      "am reaching"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau as soon as (và when, before, after, until, if) chỉ tương lai, dùng hiện tại đơn, không dùng will.",
+    "choiceExplanations": [
+      "Đúng — mệnh đề thời gian với 'as soon as' dùng hiện tại đơn dù nghĩa là tương lai.",
+      "Sai — 'will reach': không dùng 'will' trong mệnh đề bắt đầu bằng as soon as.",
+      "Sai — 'reached': quá khứ đơn, mâu thuẫn với 'will call' chỉ tương lai.",
+      "Sai — 'am reaching': thì tiếp diễn không hợp với một hành động xảy ra một lần tại thời điểm tới nơi."
+    ]
+  },
+  {
+    "id": "en-conjunctions-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My grandfather still goes jogging every morning ______ he is almost eighty.",
+    "choices": [
+      "because",
+      "even though",
+      "so that",
+      "unless"
+    ],
+    "correctIndex": 1,
+    "explanation": "Even though nhấn mạnh sự tương phản bất ngờ (gần tám mươi tuổi mà vẫn chạy bộ).",
+    "choiceExplanations": [
+      "Sai — 'because': tuổi cao không phải lý do để chạy bộ, nên không hợp nghĩa.",
+      "Đúng — 'even though' = 'mặc dù', nhấn mạnh sự tương phản bất ngờ.",
+      "Sai — 'so that': 'so that' chỉ mục đích, không hợp nghĩa.",
+      "Sai — 'unless': 'unless he is almost eighty' = 'nếu ông không gần tám mươi', không hợp nghĩa."
+    ]
+  },
+  {
+    "id": "en-conjunctions-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conjunctions",
+    "usageId": "conj-u6-subordinating",
+    "tags": [
+      "conj-u6-subordinating"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She spoke slowly ______ everyone could understand her.",
+    "choices": [
+      "because",
+      "although",
+      "unless",
+      "so that"
+    ],
+    "correctIndex": 3,
+    "explanation": "So that chỉ mục đích: nói chậm để mọi người hiểu.",
+    "choiceExplanations": [
+      "Sai — 'because': 'because' chỉ nguyên nhân đã xảy ra; ở đây là mục đích nói chậm nên dùng 'so that'.",
+      "Sai — 'although': nói chậm và được hiểu không mâu thuẫn nhau.",
+      "Sai — 'unless': 'unless everyone could understand' = 'nếu không ai hiểu', sai nghĩa.",
+      "Đúng — 'so that' + mệnh đề (thường có can/could) chỉ mục đích."
+    ]
   }
 ]
