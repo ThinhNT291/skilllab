@@ -1,6 +1,5 @@
 import test from "node:test"
 import assert from "node:assert/strict"
-// @ts-expect-error tệp .mjs của script, không có kiểu
 import { collectItems, hashOf, stableStringify, summarize } from "../scripts/lib/content-items.mjs"
 
 test("mã băm không phụ thuộc thứ tự khóa", () => {

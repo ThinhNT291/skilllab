@@ -85,7 +85,7 @@ for (let i = 0; i < items.length; i += 500) {
 }
 check("nhập đủ mục nội dung", (await db.query(`select count(*)::int c from content_items`)).rows[0].c, items.length)
 check("học sinh đọc được nội dung", await count("s1", "content_items"), items.length)
-const w = await as("s1", `update content_items set sort = -1 where id = (select id from content_items limit 1)`)
+await as("s1", `update content_items set sort = -1 where id = (select id from content_items limit 1)`)
 check("học sinh không sửa nội dung (không dòng nào bị sửa)", (await db.query(`select count(*)::int c from content_items where sort = -1`)).rows[0].c, 0)
 const insBad = await as("t1", `insert into content_items (id, collection, data, content_hash) values ('zz','vocab','{}','h')`)
 check("giáo viên không thêm nội dung", typeof insBad === "string", true)
