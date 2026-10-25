@@ -5,7 +5,7 @@ import html, json, re, sqlite3, tempfile, zipfile, os, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "src/content/vocab/en")
-KEEP = {"A1": "a1", "A2": "a2", "B1": "b1", "B2": "b2"}
+KEEP = {"A1": "a1", "A2": "a2", "B1": "b1", "B2": "b2", "C1": "c1", "C2": "c2"}
 import sys
 ONLY = set(sys.argv[1:])  # ví dụ: python3 scripts/build-vocab.py b2 (chỉ dựng cấp b2, các cấp khác giữ nguyên)
 POS_MAP = {"noun": "noun", "verb": "verb", "adjective": "adjective", "adverb": "adverb"}
