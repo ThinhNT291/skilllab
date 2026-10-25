@@ -1,0 +1,102 @@
+/**
+ * MODULE GỢI Ý & PHÂN TÍCH ĐỀ WRITING (HINTS & MINDMAP)
+ */
+function handleGetWritingHints(payload) {
+  let language = payload.language || "english";
+  let level = payload.level || "intermediate";
+  let promptText = payload.promptText || "Không có đề bài cụ thể.";
+
+  // Gọi hàm tiện ích từ Router
+  let expertRole = getExpertRole(language);
+
+  let systemPrompt = `Bạn là một Cố vấn luyện thi Viết (Writing) chuyên nghiệp, chuẩn sư phạm cho ngôn ngữ ${language}.
+Đề bài: "${promptText}". NẾU CÓ ẢNH ĐÍNH KÈM, hãy trích xuất dữ liệu và đưa vào phân tích. Cấp độ mục tiêu: ${level}. Hệ quy chiếu: ${expertRole}.
+
+Nhiệm vụ: Cung cấp hướng dẫn làm bài thực chiến, như một người thầy đang phân tích đề cho học sinh.
+BẮT BUỘC trả về định dạng JSON. MỌI MỤC TỪ PHÂN TÍCH, BỐ CỤC ĐẾN TƯ DUY ĐỀU PHẢI VIẾT SONG NGỮ (Tiếng Việt và ${language} - phân tách bằng dấu /):
+{
+  "analysis": ["1. Giọng văn/Văn phong cần dùng (Formal/Informal) và tại sao.", "2. Phân tích đối tượng/mục đích bài viết.", "3. Các nội dung/luận điểm bắt buộc phải có.", "4. Số từ khuyên dùng."],
+  "organization": ["Đoạn 1 (Mở bài): Gợi ý cách viết kèm ví dụ.", "Đoạn 2 (Thân bài 1): Gợi ý cách triển khai ý.", "Đoạn 3 (Thân bài 2/Kết bài): Gợi ý kèm ví dụ."],
+  "strategy": {
+    "advice": ["Chiến lược ngữ pháp ăn điểm.", "Chiến lược lập luận chặt chẽ."],
+    "vocabulary": ["Từ/cụm từ 1: Nghĩa, cách dùng, ví dụ", "Từ/cụm từ 2: Nghĩa, cách dùng, ví dụ"],
+    "linking_words": ["Từ nối 1: Nghĩa, cách dùng", "Từ nối 2: Nghĩa, cách dùng"],
+    "expressions": ["Mẫu câu/Cấu trúc hay 1: Nghĩa, phân tích", "Mẫu câu 2"]
+  },
+  "common_mistakes": ["Lỗi tư duy/lập luận thường gặp 1", "Lỗi ngữ pháp/từ vựng thường gặp 2"],
+  "last_minute_check": ["Bước kiểm tra 1", "Bước kiểm tra 2"],
+  "mindset": ["Tư duy tiếp cận đề bài 1", "Tư duy phản biện 2"],
+  "mindmap_markdown": "Tạo sơ đồ tư duy bằng Markdown để người học dễ hình dung dàn ý (Bắt đầu bằng # Chủ đề, ## Luận điểm, ### Diễn giải). Không dùng code block."
+}`;
+
+  let partsArray = [];
+  if (payload.promptImage) {
+      let base64Img = payload.promptImage.includes(",") ? payload.promptImage.split(",")[1] : payload.promptImage;
+      let mimeImg = payload.promptImage.substring(5, payload.promptImage.indexOf(";"));
+      partsArray.push({ "inline_data": { "mime_type": mimeImg, "data": base64Img } });
+  }
+
+  return fetchGeminiAPI(systemPrompt, partsArray);
+}
+
+/**
+ * MODULE CHẤM ĐIỂM WRITING
+ */
+function handleEvaluateWriting(payload) {
+  let text = payload.text;
+  let language = payload.language || "english";
+  let level = payload.level || "intermediate";
+  let promptText = payload.promptText || "Không có đề bài cụ thể.";
+
+  if (!text || text.length < 5) throw new Error("Văn bản quá ngắn.");
+
+  // Gọi hàm tiện ích từ Router
+  let expertRole = getExpertRole(language);
+  // ĐÃ THÊM (Mastery): ép AI chỉ được chọn estimated_level trong đúng danh sách cấp độ cố định của
+  // ngôn ngữ này — xem ghi chú tương tự ở Controller_Speaking.gs.
+  let levelEnumList = getLevelOrder_(resolveLanguageCode_(language)).join(' | ');
+
+  let systemPrompt = `Bạn là một Chuyên gia Ngôn ngữ học ứng dụng và Giám khảo Writing cấp cao, chuyên nghiệp, với kinh nghiệm chuẩn sư phạm.
+Ngôn ngữ: ${language}. CẤP ĐỘ MỤC TIÊU CỦA HỌC VIÊN: ${level}. Hệ quy chiếu: ${expertRole}. Đề bài: "${promptText}".
+
+Nhiệm vụ: Phân tích bài viết của học viên một cách chuyên sâu, không hời hợt.
+LƯU Ý ĐẶC BIỆT CHUYÊN MÔN:
+1. Chấm điểm nghiêm ngặt theo 4 tiêu chí chuẩn quốc tế: Task Achievement, Coherence & Cohesion, Lexical Resource, Grammatical Range and Accuracy.
+2. Sửa lỗi ngữ pháp/từ vựng (errors) BẮT BUỘC phải phân tích xem đó có phải lỗi tư duy mẹ đẻ (Transfer Error) không. Dùng công thức ngữ pháp để giải thích cho dễ hiểu.
+3. Phần better_versions phải thực sự đẳng cấp: 
+   - "upgraded": Giữ nguyên ý tưởng/cấu trúc bài gốc của học viên nhưng sửa lỗi và nâng cấp từ vựng/ngữ pháp cho mượt mà.
+   - "expert": Viết lại hoàn hảo, lập luận xuất sắc, từ vựng học thuật, cấu trúc câu phức tạp chuẩn cấp độ ${level}.
+
+BẮT BUỘC trả về định dạng JSON. MỌI LỜI NHẬN XÉT, PHÂN TÍCH, VÀ LỜI KHUYÊN PHẢI ĐƯỢC VIẾT SONG NGỮ (Tiếng Việt và ${language} (dùng từ ngữ sư phạm, khích lệ) - phân tách bằng dấu /):
+{
+  "estimated_level": "BẮT BUỘC chọn ĐÚNG NGUYÊN VĂN 1 trong các giá trị sau, KHÔNG tự bịa/diễn giải thêm: ${levelEnumList}",
+  "scores": { "task_achievement": 0, "coherence": 0, "vocabulary": 0, "grammar": 0 },
+  "analysis": {
+    "strengths": ["Điểm mạnh về lập luận/từ vựng/ngữ pháp 1", "Điểm mạnh 2"],
+    "weaknesses": ["Điểm yếu về logic/từ vựng/ngữ pháp 1", "Điểm yếu 2"]
+  },
+  "errors": [
+    {
+      "original_phrase": "Câu/Cụm từ sai",
+      "correction": "Cách sửa chuẩn",
+      "reason": "Giải thích quy tắc ngữ pháp/cách dùng từ. BẮT BUỘC phân tích xem đây có phải lỗi tư duy mẹ đẻ (Transfer Error) không. Dùng công thức ngữ pháp để giải thích."
+    }
+  ],
+  "how_to_improve": ["Lời khuyên chiến lược 1", "Lời khuyên chiến lược 2"],
+  "better_versions": {
+    "upgraded": "Bài sửa giữ nguyên văn phong nhưng chuẩn hóa",
+    "expert": "Bài viết mẫu hoàn hảo chuẩn cấp độ mục tiêu"
+  },
+  "reference_links": [{"title": "Tên trang web/sách uy tín (Cambridge, Oxford...)", "url": "URL tham khảo"}]
+}`;
+
+  let partsArray = [{ "text": "Bài viết của học viên:\n" + text }];
+  
+  if (payload.promptImage) {
+      let base64Img = payload.promptImage.includes(",") ? payload.promptImage.split(",")[1] : payload.promptImage;
+      let mimeImg = payload.promptImage.substring(5, payload.promptImage.indexOf(";"));
+      partsArray.push({ "inline_data": { "mime_type": mimeImg, "data": base64Img } });
+  }
+
+  return fetchGeminiAPI(systemPrompt, partsArray);
+}

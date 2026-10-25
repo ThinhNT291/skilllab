@@ -1,0 +1,111 @@
+/**
+ * =================================================================
+ * MODULE: KHO NỘI DUNG TĨNH DÙNG CHUNG (Data_ContentStore.gs)
+ *
+ * LÝ DO CÓ FILE NÀY (phản hồi người dùng lo ngại Data_GrammarTopicBank.gs đã hơn 12.500 dòng/616KB,
+ * hỏi kinh nghiệm các trang tương tự xử lý sao khi mở rộng thêm nhiều loại nội dung khác — flashcard,
+ * quiz game, luyện nghe, luyện từ vựng...): nguyên tắc chung là TÁCH NỘI DUNG (data) ra khỏi CODE ứng
+ * dụng, không nhúng thẳng nội dung ngày càng phình to vào literal trong source code — vì Apps Script
+ * biên dịch TOÀN BỘ project thành 1 context mỗi lần khởi động lại (cold start), và mọi lần đổi nội dung
+ * đều bắt buộc phải deploy lại cả project nếu code+data nằm chung 1 chỗ.
+ *
+ * ĐÂY KHÔNG PHẢI PATTERN MỚI — chính là mở rộng đúng cách audio TTS đã cache từ trước (xem
+ * getTTSCacheFolder()/handleGenerateAudio() ở Controller_Shadowing.gs: 1 folder Drive riêng, mỗi file
+ * cache theo key, đọc lại bằng getFilesByName), chỉ khác là áp dụng cho NỘI DUNG DẠNG JSON (chữ) thay vì
+ * audio (nhị phân), và có thêm 1 lớp CacheService phía trước để đỡ phải đọc Drive mỗi lần (Drive có độ
+ * trễ, CacheService thì gần như tức thì).
+ *
+ * THIẾT KẾ:
+ *  - 1 folder Drive DUY NHẤT cho MỌI loại nội dung tĩnh (ngữ pháp hiện tại, sau này flashcard/quiz/
+ *    nghe/đọc...) — phân biệt bằng tiền tố tên file "<contentType>__<key>.json" (giống cách file cache
+ *    audio hiện có phân biệt bằng cacheKey trong tên file), KHÔNG cần tạo nhiều folder rời rạc.
+ *  - CacheService (đã tra: tối đa 100KB/key, TTL tối đa 21600 giây = 6 giờ — xem
+ *    https://developers.google.com/apps-script/reference/cache/cache) là lớp ĐỌC NHANH đặt trước Drive.
+ *    Với quy mô hiện tại (chuyên đề ngữ pháp nặng nhất ~34.8KB) mọi nội dung đều lọt cache thoải mái.
+ *  - putContent_() luôn XOÁ file cũ trước khi tạo file mới (Drive cho phép nhiều file trùng tên — nếu
+ *    không xoá, getFilesByName() có thể trả về bản CŨ) và tự xoá cache liên quan, để lần đọc kế tiếp lấy
+ *    đúng bản mới ngay, không phải đợi cache tự hết hạn (tối đa 6 giờ).
+ *  - MỌI hàm ở đây đều là hàm DÙNG CHUNG, không có gì riêng cho ngữ pháp — module ngữ pháp
+ *    (Controller_GrammarTopic.gs) chỉ là 1 KHÁCH HÀNG đầu tiên của module này, gọi với
+ *    contentType='grammar'. Module sau này (flashcard/quiz/nghe/đọc) chỉ cần gọi lại ĐÚNG các hàm này
+ *    với contentType riêng của mình (vd 'flashcard', 'listening-item'), KHÔNG cần viết lại logic đọc/ghi/
+ *    cache từ đầu.
+ *  - LƯU Ý QUAN TRỌNG: đây CHỈ dành cho nội dung TĨNH, giống nhau cho mọi người dùng (câu hỏi, thẻ từ,
+ *    transcript...). TRẠNG THÁI RIÊNG TỪNG NGƯỜI DÙNG (lịch ôn SRS, điểm số, cấp độ Mastery...) VẪN giữ
+ *    nguyên trên Google Sheets như đang làm (xem Controller_Srs.gs/Controller_Mastery.gs/
+ *    Controller_Progress.gs) — KHÔNG chuyển trạng thái người dùng qua đây, 2 loại dữ liệu này có đặc
+ *    tính hoàn toàn khác nhau (tĩnh/đọc-nhiều-ghi-ít vs động/ghi liên tục theo từng người).
+ * =================================================================
+ */
+
+// Lấy (hoặc tạo mới) folder Drive DÙNG CHUNG cho mọi loại nội dung tĩnh — giống hệt getTTSCacheFolder()
+// ở Controller_Shadowing.gs, lưu folderId vào PropertiesService để không phải tìm/tạo lại mỗi lần.
+function getContentStoreFolder_() {
+  let props = PropertiesService.getScriptProperties();
+  let folderId = props.getProperty('CONTENT_STORE_FOLDER_ID');
+  if (folderId) {
+    try { return DriveApp.getFolderById(folderId); }
+    catch (e) { /* folder bị xoá tay -> rơi xuống tạo lại bên dưới */ }
+  }
+  let folder = DriveApp.createFolder('TrainingZone_ContentStore_DoNotDelete');
+  props.setProperty('CONTENT_STORE_FOLDER_ID', folder.getId());
+  return folder;
+}
+
+// Tối đa CacheService cho phép (đã tra chính thức, xem ghi chú đầu file) — đặt hằng số riêng để mọi
+// contentType dùng chung, không lặp lại con số rải rác nhiều nơi.
+const CONTENT_STORE_CACHE_TTL_SEC = 21600; // 6 giờ
+
+function contentStoreFileName_(contentType, key) {
+  return contentType + '__' + key + '.json';
+}
+function contentStoreCacheKey_(contentType, key) {
+  return 'cs_' + contentType + '_' + key;
+}
+
+// Đọc 1 nội dung: ưu tiên CacheService (nhanh, không tốn lượt gọi Drive); cache miss/hết hạn (>6 giờ)
+// mới đọc Drive rồi tự nạp lại cache cho lượt sau. Trả về null nếu key này CHƯA TỪNG được ghi qua
+// putContent_() (vd chưa chạy migration, hoặc key gõ sai) — bên gọi tự quyết định xử lý sao (báo lỗi/
+// rơi về đường dự phòng), hàm này không throw để không làm gãy luồng chính.
+function getCachedContent_(contentType, key) {
+  let cache = CacheService.getScriptCache();
+  let cacheKey = contentStoreCacheKey_(contentType, key);
+  let cached = cache.get(cacheKey);
+  if (cached) {
+    try { return JSON.parse(cached); }
+    catch (e) { /* cache hỏng (hiếm) -> rơi xuống đọc lại Drive như cache miss bình thường */ }
+  }
+
+  let folder = getContentStoreFolder_();
+  let fileName = contentStoreFileName_(contentType, key);
+  let files = folder.getFilesByName(fileName);
+  if (!files.hasNext()) return null;
+
+  let jsonText = files.next().getBlob().getDataAsString();
+  try { cache.put(cacheKey, jsonText, CONTENT_STORE_CACHE_TTL_SEC); }
+  catch (e) { Logger.log('Không nạp được cache (bỏ qua, vẫn trả đúng dữ liệu từ Drive): ' + e); }
+  return JSON.parse(jsonText);
+}
+
+// Ghi/ghi đè 1 nội dung — dùng khi soạn/sửa nội dung (migration script hoặc công cụ soạn nội dung sau
+// này). AN TOÀN GỌI LẠI NHIỀU LẦN (idempotent): luôn xoá hết file CŨ trùng tên trước khi tạo file mới,
+// tránh Drive tích tụ nhiều bản trùng tên gây đọc nhầm bản cũ; đồng thời xoá cache liên quan để lần đọc
+// kế tiếp lấy ngay bản mới, không phải đợi cache tự hết hạn.
+function putContent_(contentType, key, dataObject) {
+  let folder = getContentStoreFolder_();
+  let fileName = contentStoreFileName_(contentType, key);
+  let existingFiles = folder.getFilesByName(fileName);
+  while (existingFiles.hasNext()) existingFiles.next().setTrashed(true);
+
+  let jsonText = JSON.stringify(dataObject);
+  folder.createFile(fileName, jsonText, MimeType.PLAIN_TEXT);
+
+  CacheService.getScriptCache().remove(contentStoreCacheKey_(contentType, key));
+}
+
+// Xoá tường minh 1 mục khỏi cache (không đụng tới Drive) — dùng khi biết chắc nội dung đã đổi mà không
+// qua putContent_() (vd cần buộc đọc lại ngay để kiểm tra, xem verifyGrammarContentStore_() ở
+// Migration_GrammarToDrive.gs).
+function invalidateContentCache_(contentType, key) {
+  CacheService.getScriptCache().remove(contentStoreCacheKey_(contentType, key));
+}

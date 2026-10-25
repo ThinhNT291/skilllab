@@ -1,0 +1,76 @@
+/**
+ * =================================================================
+ * MODULE: TRA TỪ THEO NGỮ CẢNH (click-to-gloss) cho nội dung Comprehensible Input.
+ * Người học bấm/chọn 1 từ hoặc cụm từ ngay trong đoạn Đọc hiểu/Nghe hiểu mở rộng (CI).
+ *
+ * ĐÃ SỬA (phản hồi "tra chậm quá"): TÁCH LÀM 2 ĐƯỜNG thay vì chỉ gọi Gemini như bản đầu:
+ *  1. quick_translate_word (handleQuickTranslateWord) — ĐƯỜNG NHANH, MẶC ĐỊNH khi bấm 1 từ. Dùng
+ *     LanguageApp.translate() có SẴN trong Google Apps Script (chính là Google Translate, KHÔNG qua
+ *     Gemini) — gần như tức thì, miễn phí, không tốn quota AI. Dịch theo TỪ ĐƠN (không đọc lại cả
+ *     câu) — đánh đổi lấy tốc độ. Đường này TỰ TẠO thẻ SRS ngay (đúng chủ đích "tra là tự thêm ôn
+ *     tập, không cần thao tác gì thêm").
+ *  2. explain_word_in_context (handleExplainWordInContext) — ĐƯỜNG CHẬM HƠN, CHỈ gọi khi người học
+ *     chủ động bấm nút "Giải thích theo ngữ cảnh" (dùng cho từ đa nghĩa cần phân biệt rõ theo câu).
+ *     Vẫn dùng Gemini nhưng đổi sang model gemini-3.5-flash-lite (nhẹ, độ trễ thấp, Google khuyến
+ *     nghị đúng cho tác vụ trích xuất JSON ngắn kiểu này) thay vì model mặc định gemini-3.6-flash
+ *     (dùng cho chấm điểm Viết/Nói phức tạp hơn, không đổi ở fetchGeminiAPI để không ảnh hưởng nơi
+ *     khác). Đường này KHÔNG tạo thêm thẻ SRS — tránh tạo trùng thẻ với từ đã tra nhanh ở bước 1.
+ *
+ * Client-side (app.js) cũng tự cache theo (ngôn ngữ + từ) — tra lại đúng từ đó lần 2 trong cùng
+ * phiên KHÔNG gửi request nào lên Backend nữa, hiện kết quả tức thì từ cache trên trình duyệt.
+ * =================================================================
+ */
+
+// Map mã ngôn ngữ nội bộ (english/chinese/russian, dùng xuyên suốt dự án) -> mã ISO LanguageApp cần.
+function resolveISOLangCode_(languageCode) {
+  if (languageCode === 'chinese') return 'zh-CN';
+  if (languageCode === 'russian') return 'ru';
+  return 'en';
+}
+
+function handleQuickTranslateWord(payload) {
+  let word = String(payload.word || '').trim();
+  if (!word) throw new Error("Thiếu từ cần tra.");
+  let languageCode = resolveLanguageCode_(payload.language);
+  let sourceIso = resolveISOLangCode_(languageCode);
+
+  let translation = LanguageApp.translate(word, sourceIso, 'vi');
+
+  // Tự tạo thẻ SRS ngay từ lần tra NHANH này — KHÔNG để lỗi ở đây làm hỏng kết quả tra từ trả về.
+  try {
+    createSrsCardFromLookup_(
+      payload.verifiedEmail,
+      payload.skill || 'reading',
+      payload.language,
+      word,
+      translation,
+      payload.contextSentence || ''
+    );
+  } catch (srsErr) {
+    Logger.log("Không tạo được thẻ SRS từ tra từ nhanh: " + srsErr.toString());
+  }
+
+  return { translation: translation };
+}
+
+function handleExplainWordInContext(payload) {
+  let word = String(payload.word || '').trim();
+  let contextSentence = String(payload.contextSentence || '').trim();
+  let language = payload.language || 'english';
+
+  if (!word) throw new Error("Thiếu từ cần tra.");
+
+  let systemPrompt = `Bạn là từ điển ngữ cảnh cho người học ngôn ngữ ${language}. Từ/cụm từ cần tra: "${word}". Câu chứa từ đó: "${contextSentence}".
+Nhiệm vụ: giải thích NGHĨA CỦA TỪ NÀY THEO ĐÚNG NGỮ CẢNH câu trên (không phải liệt kê mọi nghĩa có thể có), ngắn gọn, dễ hiểu, bằng tiếng Việt.
+BẮT BUỘC trả về ĐÚNG JSON theo cấu trúc sau, không thêm chữ nào khác ngoài JSON:
+{
+  "translation": "Nghĩa tiếng Việt ngắn gọn, đúng theo ngữ cảnh câu trên",
+  "part_of_speech": "Từ loại (danh từ/động từ/tính từ/...) viết tắt ngắn gọn",
+  "note": "1 câu giải thích thêm cách dùng nếu cần (có thể để trống nếu từ đơn giản)"
+}`;
+
+  // gemini-3.5-flash-lite: model NHẸ, độ trễ thấp, Google khuyến nghị cho tác vụ trích xuất dữ liệu
+  // đơn giản/JSON ngắn — phù hợp hơn hẳn model mặc định (gemini-3.6-flash, dùng cho chấm điểm Viết/
+  // Nói phức tạp) cho 1 tác vụ nhỏ như giải thích 1 từ theo ngữ cảnh.
+  return fetchGeminiAPI(systemPrompt, [], 'gemini-3.5-flash-lite');
+}

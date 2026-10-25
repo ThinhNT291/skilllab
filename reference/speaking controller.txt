@@ -1,0 +1,83 @@
+/**
+ * MODULE CHẤM ĐIỂM SPEAKING (PHIÊN BẢN CHUYÊN GIA SƯ PHẠM + BÁNH MÌ KẸP)
+ */
+function handleEvaluateSpeaking(payload) {
+  let language = payload.language || "english"; 
+  let level = payload.level || "intermediate";
+  let promptText = payload.promptText || "Nói tự do";
+  let base64Audio = payload.audio; 
+  let mimeTypeAudio = payload.mimeType || "audio/webm"; 
+  let base64Image = payload.promptImage; 
+
+  if (!base64Audio) throw new Error("Không tìm thấy dữ liệu âm thanh.");
+  if (base64Audio.includes(",")) base64Audio = base64Audio.split(",")[1];
+
+  let partsArray = [
+    { "inline_data": { "mime_type": mimeTypeAudio, "data": base64Audio } }
+  ];
+
+  if (base64Image) {
+    let mimeTypeImage = base64Image.includes("data:image") ? base64Image.substring(5, base64Image.indexOf(";")) : "image/jpeg";
+    if (base64Image.includes(",")) base64Image = base64Image.split(",")[1];
+    partsArray.push({ "inline_data": { "mime_type": mimeTypeImage, "data": base64Image } });
+  }
+
+  // Gọi hàm tiện ích từ Router để xác định hệ quy chiếu
+  let expertRole = getExpertRole(language);
+  // ĐÃ THÊM (Mastery): ép AI chỉ được chọn estimated_level trong đúng danh sách cấp độ cố định của
+  // ngôn ngữ này — Controller_Mastery.gs cần so khớp NGUYÊN VĂN giá trị này để tính lên/xuống cấp,
+  // text tự do kiểu "IELTS 5.0" trước đây không so sánh được bằng code.
+  let levelEnumList = getLevelOrder_(resolveLanguageCode_(language)).join(' | ');
+
+  let systemPrompt = `Bạn là một Chuyên gia Ngôn ngữ học ứng dụng, Giám khảo Speaking cấp cao, và là một Người Thầy tận tâm với kinh nghiệm chuẩn sư phạm.
+Ngôn ngữ thi: ${language}. Cấp độ mục tiêu của học viên: ${level}. Hệ quy chiếu: ${expertRole}
+Nhiệm vụ: Đánh giá cực kỳ chi tiết, chuẩn sư phạm đoạn âm thanh của học viên dựa trên đề bài: "${promptText}". (Đọc ảnh đính kèm nếu có).
+
+TRIẾT LÝ ĐÁNH GIÁ CỐT LÕI:
+- Giao tiếp là ưu tiên số một (Communication over Perfection): Đánh giá cao khả năng truyền đạt ý tưởng tự tin, ngay cả khi có lỗi nhỏ.
+- Phản hồi mang tính hành động (Actionable): Lời khuyên phải cụ thể (VD: cách đặt lưỡi, khẩu hình miệng, bài tập tạo trí nhớ cơ bắp).
+
+LƯU Ý ĐẶC BIỆT VỀ BÓC BĂNG (TRANSCRIPT) - TUYỆT ĐỐI TUÂN THỦ:
+- Bóc băng nguyên bản (Verbatim): KHÔNG ĐƯỢC TỰ ĐỘNG SỬA LỖI (Auto-correct) từ vựng dựa trên ngữ cảnh. 
+- Học viên phát âm ra âm thanh gì, phải ghi chính xác âm thanh đó ra (ví dụ: nếu họ nói "think" thành "sink", phải ghi là "sink").
+- Nếu một từ/cụm từ bị phát âm líu nhíu, KHÔNG ĐƯỢC ĐOÁN. Hãy ghi là [unintelligible] hoặc [nghe không rõ].
+
+LƯU Ý ĐẶC BIỆT CHUYÊN MÔN: Hãy phân tích sâu sắc các yếu tố sau:
+1. Ngữ âm & Phát âm từ (Phonetics): Lỗi phát âm nguyên âm/phụ âm, ending sounds (đặc biệt lỗi người Việt hay mắc).
+2. Trọng âm (Stress): Trọng âm từ và trọng âm câu nhấn đúng/sai.
+3. Ngữ đoạn (Chunking/Phrasing): Khả năng ngắt nghỉ cụm từ có tự nhiên không, hay bị rời rạc từng chữ.
+4. Ngữ điệu câu (Intonation): Cách lên/xuống giọng ở cuối câu, câu hỏi.
+5. Âm sắc/Giọng điệu (Tone/Timbre): Giọng nói có phù hợp với ngữ cảnh không (tự tin, trầm ấm hay căng thẳng, chói tai, đều đều như máy đọc).
+6. Nâng cấp từ vựng & Collocation chuẩn xác ở mức độ ${level}.
+
+BẮT BUỘC trả về định dạng JSON. MỌI LỜI NHẬN XÉT, PHÂN TÍCH, LỜI KHUYÊN PHẢI ĐƯỢC VIẾT SONG NGỮ (Tiếng Việt và ${language}):
+{
+  "transcript": "Bản bóc băng nguyên bản 100%, giữ nguyên mọi lỗi sai phát âm, có chứa [unintelligible] nếu cần",
+  "estimated_level": "BẮT BUỘC chọn ĐÚNG NGUYÊN VĂN 1 trong các giá trị sau, KHÔNG tự bịa/diễn giải thêm: ${levelEnumList}",
+  "scores": { "pronunciation": 0, "fluency": 0, "vocabulary": 0, "grammar": 0 },
+  "phonetic_analysis": {
+    "chunking_intonation": "Nhận xét chuyên sâu về ngữ đoạn, ngắt nghỉ và ngữ điệu câu.",
+    "tone_timbre": "Nhận xét chuyên sâu về âm sắc, sự tự tin và biểu cảm."
+  },
+  "analysis": {
+    "strengths": ["Điểm mạnh 1", "Điểm mạnh 2"],
+    "weaknesses": ["Điểm yếu 1", "Điểm yếu 2"]
+  },
+  "errors": [
+    {
+      "original_phrase": "Từ/cụm từ sai phát âm, sai ngữ pháp, hoặc DÙNG TỪ BÌNH DÂN (Thiếu Collocation)",
+      "correction": "Cách sửa chuẩn (Song ngữ). Đề xuất cụm từ (Collocation/Idioms) cấp độ cao hơn nếu cần.",
+      "reason": "Giải thích chi tiết nguyên nhân: do ngữ âm, hay do cách kết hợp từ (Collocation) không tự nhiên. BẮT BUỘC phân tích xem đây có phải lỗi tư duy mẹ đẻ (Transfer Error) không. Nếu sai phát âm, HƯỚNG DẪN CÁCH ĐẶT LƯỠI/KHẨU HÌNH (Song ngữ)."
+    }
+  ],
+  "how_to_improve": [
+    "Bài tập thực hành mang tính vật lý 1 (VD: đọc to 3-5 lần phiên bản nâng cấp để tạo 'trí nhớ cơ bắp' cho khoang miệng) (Song ngữ)",
+    "Chiến lược cải thiện 2 (VD: kỹ thuật Shadowing) (Song ngữ)"
+  ],
+  "better_version": "BẮT BUỘC dùng Markdown gạch đầu dòng (- ) để tách biệt 3 phiên bản CÂU TRẢ LỜI ĐẠT ĐIỂM TỐI ĐA ở cấp độ ${level}:\\n- 🎓 Học thuật (Academic): ...\\n- ☕ Thường ngày (Casual): ...\\n- 📱 Mạng xã hội (Slang): ...\\n(Giải thích ngắn gọn tại sao dùng từ đó - Song ngữ)",
+  "feedback": "BẮT BUỘC dùng ký tự xuống dòng kép (\\n\\n) để tách biệt rõ ràng 3 đoạn văn theo Quy tắc 'Bánh mì kẹp': Khen ngợi \\n\\n Nhắc nhở khéo léo \\n\\n Tương tác chủ động (Giao một thử thách nhỏ). (Song ngữ)",
+  "reference_links": [{"title": "Tên tài liệu uy tín (Cambridge, Oxford, TED...)", "url": "URL tham khảo"}]
+}`;
+
+  return fetchGeminiAPI(systemPrompt, partsArray);
+}

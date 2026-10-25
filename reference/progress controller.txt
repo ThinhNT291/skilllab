@@ -1,0 +1,203 @@
+/**
+ * =================================================================
+ * MODULE: BIỂU ĐỒ TIẾN ĐỘ (chôm ý tưởng Anki heatmap + GitHub contribution graph + Duolingo streak)
+ * Gộp 4 nguồn dữ liệu đã có sẵn (History, SRS, UserLevels) + 2 log nhỏ mới (ActivityLog,
+ * LevelHistory — 2 tab mới trong CHÍNH spreadsheet Traininghistory đã dùng cho SRS/Mastery, không
+ * cần tạo sheet riêng) thành 1 action duy nhất `get_progress_stats` trả về hết 1 lần cho Frontend vẽ:
+ *   1. Streak (chuỗi ngày liên tiếp có hoạt động — TÍNH CẢ luyện tập lẫn ôn tập SRS, theo đã chốt)
+ *   2. Heatmap hoạt động 365 ngày gần nhất (kiểu GitHub/Anki contribution graph)
+ *   3. Đồ thị điểm số theo thời gian, tách riêng Speaking/Writing/Read-aloud
+ *   4. Mốc lên/hạ cấp (Mastery) theo thời gian
+ *   5. Tổng quan thẻ ôn tập SRS (active/mastered)
+ * =================================================================
+ */
+
+const PROGRESS_SPREADSHEET_ID = '1qM6ueY7lr82xGYWSh2KWpl7Tgz-ecEnfJSvkx9jlUO8'; // dùng chung Traininghistory (= SRS_SPREADSHEET_ID ở Controller_Srs.gs), tách tab riêng. Ghi thẳng giá trị (không tham chiếu SRS_SPREADSHEET_ID) để tránh phụ thuộc thứ tự nạp file giữa các .gs — xem ghi chú ở Controller_Srs.gs
+const ACTIVITY_LOG_SHEET_NAME = 'ActivityLog';
+const ACTIVITY_LOG_HEADERS = ['USERID', 'NGÀY', 'LOẠI']; // LOẠI: 'practice' | 'srs_review'
+const LEVEL_HISTORY_SHEET_NAME = 'LevelHistory';
+const LEVEL_HISTORY_HEADERS = ['USERID', 'NGÀY', 'SKILL', 'NGONNGU', 'FROMLEVEL', 'TOLEVEL', 'DIRECTION'];
+
+const PROGRESS_WINDOW_DAYS = 365; // đã chốt: hiển thị cả năm kiểu GitHub
+const PROGRESS_TIMEZONE = 'GMT+7'; // khớp timezone đang dùng ở các chỗ khác trong Router.gs
+
+function formatDateKey_(date) {
+  return Utilities.formatDate(date, PROGRESS_TIMEZONE, 'yyyy-MM-dd');
+}
+
+function parseDateKey_(dateStr) {
+  let parts = String(dateStr).split('-');
+  return new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
+}
+
+function addDays_(date, n) {
+  let d = new Date(date.getTime());
+  d.setDate(d.getDate() + n);
+  return d;
+}
+
+function getActivityLogSheet_() {
+  let ss = SpreadsheetApp.openById(PROGRESS_SPREADSHEET_ID);
+  let sheet = ss.getSheetByName(ACTIVITY_LOG_SHEET_NAME);
+  if (!sheet) {
+    sheet = ss.insertSheet(ACTIVITY_LOG_SHEET_NAME);
+    sheet.appendRow(ACTIVITY_LOG_HEADERS);
+  }
+  return sheet;
+}
+
+function getLevelHistorySheet_() {
+  let ss = SpreadsheetApp.openById(PROGRESS_SPREADSHEET_ID);
+  let sheet = ss.getSheetByName(LEVEL_HISTORY_SHEET_NAME);
+  if (!sheet) {
+    sheet = ss.insertSheet(LEVEL_HISTORY_SHEET_NAME);
+    sheet.appendRow(LEVEL_HISTORY_HEADERS);
+  }
+  return sheet;
+}
+
+// Ghi 1 dòng hoạt động (KHÔNG dedupe theo ngày — cứ ghi mỗi sự kiện, để độ đậm heatmap phản ánh
+// đúng mức độ hoạt động trong ngày, giống contribution graph thật của GitHub). Gọi từ:
+//  - Router.gs handleSaveHistoryItem() -> type 'practice' (Speaking/Writing/Read-aloud)
+//  - Controller_Srs.gs handleReviewSrsCard() -> type 'srs_review'
+// KHÔNG tự throw ra ngoài — nơi gọi tự bọc try/catch, lỗi ở đây không được làm hỏng luồng chính.
+function logActivity_(userId, type) {
+  getActivityLogSheet_().appendRow([userId, formatDateKey_(new Date()), type]);
+}
+
+// Ghi 1 mốc lên/hạ cấp — gọi từ Controller_Mastery.gs updateMasteryAfterAssessment_() khi cấp có đổi.
+function logLevelChange_(userId, skill, languageCode, fromLevel, toLevel, direction) {
+  getLevelHistorySheet_().appendRow([userId, formatDateKey_(new Date()), skill, languageCode, fromLevel, toLevel, direction]);
+}
+
+// current streak: đếm ngược từ HÔM NAY nếu hôm nay đã có hoạt động, hoặc từ HÔM QUA nếu hôm nay
+// chưa có (chưa hết ngày hôm nay thì chưa tính là "đứt streak").
+function computeCurrentStreak_(dateSet) {
+  let streak = 0;
+  let cursor = new Date();
+  if (!dateSet.has(formatDateKey_(cursor))) cursor = addDays_(cursor, -1);
+  while (dateSet.has(formatDateKey_(cursor))) {
+    streak++;
+    cursor = addDays_(cursor, -1);
+  }
+  return streak;
+}
+
+// best streak trong đúng khung PROGRESS_WINDOW_DAYS ngày đang xét (không phải mọi thời gian, để khớp
+// với đúng dữ liệu heatmap đang hiển thị).
+function computeBestStreak_(sortedDateKeysAsc) {
+  let best = 0, run = 0, prevDate = null;
+  sortedDateKeysAsc.forEach(function (ds) {
+    let d = parseDateKey_(ds);
+    if (prevDate && (d - prevDate) === 86400000) run++;
+    else run = 1;
+    if (run > best) best = run;
+    prevDate = d;
+  });
+  return best;
+}
+
+function handleGetProgressStats(payload) {
+  let userId = payload.verifiedEmail;
+  let windowStart = addDays_(new Date(), -PROGRESS_WINDOW_DAYS);
+  let windowStartKey = formatDateKey_(windowStart);
+
+  // 1+2. Streak + heatmap — từ ActivityLog.
+  let activitySheet = getActivityLogSheet_();
+  let activityData = activitySheet.getDataRange().getValues();
+  let countByDate = {}; // {'yyyy-MM-dd': count}
+  for (let i = 1; i < activityData.length; i++) {
+    let row = activityData[i];
+    if (String(row[0]) !== String(userId)) continue;
+    let dateKey = String(row[1]);
+    if (dateKey < windowStartKey) continue; // ngoài khung 365 ngày -> bỏ qua
+    countByDate[dateKey] = (countByDate[dateKey] || 0) + 1;
+  }
+  let sortedDateKeys = Object.keys(countByDate).sort();
+  let heatmap = sortedDateKeys.map(function (k) { return { date: k, count: countByDate[k] }; });
+  let dateSet = new Set(sortedDateKeys);
+  let currentStreak = computeCurrentStreak_(dateSet);
+  let bestStreak = computeBestStreak_(sortedDateKeys);
+
+  // 3. Đồ thị điểm số theo thời gian — từ History, tách riêng theo type.
+  let historySheet = getHistorySheet();
+  let historyData = historySheet.getDataRange().getValues();
+  let scoreTrend = { speaking: [], writing: [], 'read-aloud': [], listening: [], reading: [] };
+  for (let i = 1; i < historyData.length; i++) {
+    let row = historyData[i];
+    if (String(row[1]) !== String(userId)) continue;
+    let type = row[2];
+    if (!scoreTrend.hasOwnProperty(type)) continue;
+    let dateStr = String(row[4] || '');
+    let assessment;
+    try { assessment = JSON.parse(row[13] || '{}'); } catch (e) { continue; }
+    let avgScore = null;
+    if (type === 'speaking' && assessment.scores) {
+      let s = assessment.scores;
+      let vals = [s.pronunciation, s.fluency, s.vocabulary, s.grammar].filter(function (v) { return typeof v === 'number'; });
+      if (vals.length) avgScore = vals.reduce(function (a, b) { return a + b; }, 0) / vals.length;
+    } else if (type === 'writing' && assessment.scores) {
+      let s = assessment.scores;
+      let vals = [s.task_achievement, s.coherence, s.vocabulary, s.grammar].filter(function (v) { return typeof v === 'number'; });
+      if (vals.length) avgScore = vals.reduce(function (a, b) { return a + b; }, 0) / vals.length;
+    } else if (type === 'read-aloud' && typeof assessment.score === 'number') {
+      avgScore = assessment.score;
+    } else if ((type === 'listening' || type === 'reading') && typeof assessment.score_percent === 'number') {
+      // ĐÃ THÊM: Nghe/Đọc hiểu chấm theo % đúng (0-100, Controller_Comprehension.gs) — quy về cùng
+      // thang 0-10 với 3 kỹ năng kia để vẽ chung 1 trục y trên biểu đồ (không được có 2 trục y).
+      avgScore = assessment.score_percent / 10;
+    }
+    if (avgScore === null) continue;
+    // item.date được Frontend lưu dạng chuỗi hiển thị (vd "18/8/2026, 10:30:00") chứ không phải
+    // yyyy-MM-dd — cố lấy phần ngày để nhóm theo ngày cho gọn, không cố parse giờ/phút.
+    let dayKey = normalizeHistoryDateToDayKey_(dateStr);
+    if (!dayKey || dayKey < windowStartKey) continue;
+    scoreTrend[type].push({ date: dayKey, score: Math.round(avgScore * 10) / 10 });
+  }
+  Object.keys(scoreTrend).forEach(function (k) { scoreTrend[k].sort(function (a, b) { return a.date < b.date ? -1 : 1; }); });
+
+  // 4. Mốc lên/hạ cấp — từ LevelHistory.
+  let levelHistorySheet = getLevelHistorySheet_();
+  let levelHistoryData = levelHistorySheet.getDataRange().getValues();
+  let levelEvents = [];
+  for (let i = 1; i < levelHistoryData.length; i++) {
+    let row = levelHistoryData[i];
+    if (String(row[0]) !== String(userId)) continue;
+    if (String(row[1]) < windowStartKey) continue;
+    levelEvents.push({ date: row[1], skill: row[2], language: row[3], fromLevel: row[4], toLevel: row[5], direction: row[6] });
+  }
+  levelEvents.sort(function (a, b) { return a.date < b.date ? 1 : -1; }); // mới nhất trước
+  levelEvents = levelEvents.slice(0, 20); // giới hạn 20 mốc gần nhất, tránh payload phình to
+
+  // 5. Tổng quan SRS — từ sheet Traininghistory chính (Controller_Srs.gs).
+  let srsSheet = getSrsSheet_();
+  let srsData = srsSheet.getDataRange().getValues();
+  let srsActive = 0, srsMastered = 0;
+  for (let i = 1; i < srsData.length; i++) {
+    let row = srsData[i];
+    if (String(row[1]) !== String(userId)) continue;
+    if (String(row[13]) === 'mastered') srsMastered++;
+    else srsActive++;
+  }
+
+  return {
+    windowDays: PROGRESS_WINDOW_DAYS,
+    streak: { current: currentStreak, best: bestStreak },
+    heatmap: heatmap,
+    scoreTrend: scoreTrend,
+    levelEvents: levelEvents,
+    srs: { active: srsActive, mastered: srsMastered, total: srsActive + srsMastered }
+  };
+}
+
+// item.date (History sheet) được Frontend lưu bằng new Date().toLocaleString('vi-VN') — dạng
+// "dd/MM/yyyy, HH:mm:ss". Tách lấy phần ngày rồi quy về 'yyyy-MM-dd' để nhóm theo ngày. Nếu gặp
+// định dạng lạ (dữ liệu cũ trước khi có field này, hoặc test tay) thì trả null để bị bỏ qua an toàn
+// thay vì làm hỏng cả API.
+function normalizeHistoryDateToDayKey_(rawDateStr) {
+  let datePart = String(rawDateStr).split(',')[0].trim(); // "dd/MM/yyyy"
+  let m = datePart.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (!m) return null;
+  let dd = m[1].padStart(2, '0'), mm = m[2].padStart(2, '0'), yyyy = m[3];
+  return yyyy + '-' + mm + '-' + dd;
+}

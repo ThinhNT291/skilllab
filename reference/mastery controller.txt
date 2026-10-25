@@ -1,0 +1,365 @@
+/**
+ * =================================================================
+ * MODULE: CẤP ĐỘ TỰ ĐỘNG KIỂU MASTERY (chôm ý tưởng Khan Academy + Duolingo Test)
+ * Thay cho việc người dùng tự chọn "Cấp độ mục tiêu" mỗi lần luyện — hệ thống tự đặt trình độ ban
+ * đầu (bài test thích ứng 12 câu kiểu staircase — giống cơ chế THẬT của Duolingo Test/EF SET/BOOKR:
+ * đúng thì câu sau khó hơn 1 bậc, sai thì câu sau dễ hơn 1 bậc, hội tụ dần về đúng vùng năng lực),
+ * sau đó tự nâng/hạ cấp dần theo kết quả chấm điểm AI thực tế (cửa sổ trượt 5 bài gần nhất kiểu
+ * Khan Academy — không dùng streak cứng, không phạt nặng vì 1 lần lỡ).
+ *
+ * Chỉ áp dụng Speaking + Writing (giống SRS — Controller_Srs.gs) vì Shadowing không hề dùng tham
+ * số "level" trong prompt chấm điểm. get_random_prompt cho Shadowing vẫn lấy 1 cấp mặc định để có
+ * độ khó tham chiếu, nhưng KHÔNG theo dõi mastery cho kỹ năng này.
+ *
+ * Hoàn toàn tự động — không có chỗ nào cho người dùng tự ghi đè cấp độ (đúng quyết định đã chốt).
+ * =================================================================
+ */
+
+// Dùng chung spreadsheet Traininghistory đã tạo cho SRS (Controller_Srs.gs), tách tab riêng.
+const MASTERY_SPREADSHEET_ID = '1qM6ueY7lr82xGYWSh2KWpl7Tgz-ecEnfJSvkx9jlUO8'; // = SRS_SPREADSHEET_ID ở Controller_Srs.gs. Ghi thẳng giá trị (không tham chiếu SRS_SPREADSHEET_ID) để tránh phụ thuộc thứ tự nạp file giữa các .gs — xem ghi chú ở Controller_Srs.gs
+const MASTERY_SHEET_NAME = 'UserLevels';
+const MASTERY_HEADERS = ['USERID', 'SKILL', 'NGONNGU', 'CURRENTLEVEL', 'RECENTRESULTS', 'NGÀY CẬP NHẬT'];
+
+// BẮT BUỘC khớp NGUYÊN VĂN với LANGUAGE_LEVELS trong app.js VÀ với "level" trong Data_PlacementBank.gs.
+// GAS và Frontend không dùng chung được 1 file constant nên phải duplicate — đổi danh sách cấp độ
+// thì phải sửa CẢ 3 nơi (app.js, đây, Data_PlacementBank.gs).
+const MASTERY_LEVEL_ORDER = {
+  english: ["A1-A2 (Beginner)", "B1 (Intermediate)", "B2 (Upper-Intermediate)", "C1 (Advanced)", "C2 (Proficient)"],
+  chinese: ["HSK 1-2 (Sơ cấp)", "HSK 3-4 (Trung cấp)", "HSK 5 (Cao cấp)", "HSK 6 (Thành thạo)"],
+  russian: ["TORFL A1-A2 (Elementary)", "TORFL B1 (TRKI-1)", "TORFL B2 (TRKI-2)", "TORFL C1-C2 (TRKI-3/4)"]
+};
+
+// ĐÃ THÊM: danh sách kỹ năng có theo dõi Mastery — ban đầu chỉ Speaking/Writing, giờ thêm Listening/
+// Reading (Controller_Comprehension.gs) để đủ bộ 4 kỹ năng chuẩn. Shadowing (read-aloud) KHÔNG nằm
+// trong danh sách này (không dùng tham số "level" trong prompt chấm điểm — xem ghi chú đầu file).
+const MASTERY_TRACKED_SKILLS = ['speaking', 'writing', 'listening', 'reading'];
+
+const MASTERY_WINDOW_SIZE = 5;       // xét 5 bài gần nhất (đúng con số đã chốt ban đầu)
+const MASTERY_PASS_THRESHOLD = 4;    // >=4/5 đạt -> lên cấp; >=4/5 KHÔNG đạt -> hạ cấp (đối xứng)
+const PLACEMENT_TOTAL_STEPS = 12;
+const PLACEMENT_AVERAGE_LAST_N = 4;  // lấy trung bình bậc của 4 câu cuối để chốt cấp khởi điểm, đỡ nhiễu do may/rủi 1 câu
+const PLACEMENT_CACHE_TTL_SEC = 900; // 15 phút — đủ để làm xong 12 câu, hết hạn thì thôi phải bắt đầu lại
+
+function getMasterySheet_() {
+  let ss = SpreadsheetApp.openById(MASTERY_SPREADSHEET_ID);
+  let sheet = ss.getSheetByName(MASTERY_SHEET_NAME);
+  if (!sheet) {
+    sheet = ss.insertSheet(MASTERY_SHEET_NAME);
+    sheet.appendRow(MASTERY_HEADERS);
+  }
+  return sheet;
+}
+
+// Quy đổi text ngôn ngữ hiển thị (vd "Tiếng Anh", do các action CŨ như evaluate_speaking vẫn đang
+// gửi lên) sang mã dùng nội bộ (english/chinese/russian) — cùng cách getExpertRole() ở Router.gs
+// đang làm, để KHÔNG phải sửa những payload cũ. Các action MỚI (get_current_level, start_placement_
+// test...) thì Frontend gửi thẳng mã (langSelect.value), không cần qua hàm này.
+function resolveLanguageCode_(languageText) {
+  let lang = (languageText || "").toLowerCase();
+  if (lang.includes("trung") || lang.includes("chinese")) return "chinese";
+  if (lang.includes("nga") || lang.includes("russian")) return "russian";
+  return "english";
+}
+
+function getLevelOrder_(languageCode) {
+  return MASTERY_LEVEL_ORDER[languageCode] || MASTERY_LEVEL_ORDER.english;
+}
+
+function getDefaultLevelIndex_(orderLength) {
+  return Math.floor((orderLength - 1) / 2); // 5 bậc -> index 2 (B2); 4 bậc -> index 1 (giống mặc định cũ)
+}
+
+// Tìm dòng "cấp độ hiện tại" của user trong sheet UserLevels.
+// Trả về {rowNum, currentLevel, recentResults: [0/1,...]} hoặc null nếu chưa có.
+function findUserLevelRow_(userId, skill, languageCode) {
+  let sheet = getMasterySheet_();
+  let data = sheet.getDataRange().getValues();
+  for (let i = 1; i < data.length; i++) {
+    let row = data[i];
+    if (String(row[0]) === String(userId) && String(row[1]) === String(skill) && String(row[2]) === String(languageCode)) {
+      let recent = String(row[4] || '').split(',').filter(function (s) { return s !== ''; }).map(Number);
+      return { rowNum: i + 1, currentLevel: row[3], recentResults: recent };
+    }
+  }
+  return null;
+}
+
+function upsertUserLevel_(userId, skill, languageCode, level, recentResults) {
+  let existing = findUserLevelRow_(userId, skill, languageCode);
+  let recentStr = (recentResults || []).join(',');
+  if (existing) {
+    let sheet = getMasterySheet_();
+    sheet.getRange(existing.rowNum, 4).setValue(level);
+    sheet.getRange(existing.rowNum, 5).setValue(recentStr);
+    sheet.getRange(existing.rowNum, 6).setValue(new Date());
+  } else {
+    getMasterySheet_().appendRow([userId, skill, languageCode, level, recentStr, new Date()]);
+  }
+}
+
+// Lấy cấp độ dùng để CHÈN VÀO PROMPT chấm điểm/sinh đề (evaluate_speaking, evaluate_writing,
+// get_writing_hints, get_random_prompt) — gọi từ Router.gs, ghi đè payload.level bất kể Frontend
+// gửi gì lên (Frontend giờ không còn dropdown "Cấp độ mục tiêu" nữa).
+function getLevelValueOrDefault_(userId, skill, languageCode) {
+  let order = getLevelOrder_(languageCode);
+  if (MASTERY_TRACKED_SKILLS.indexOf(skill) !== -1) {
+    let existing = findUserLevelRow_(userId, skill, languageCode);
+    if (existing) return existing.currentLevel;
+  }
+  return order[getDefaultLevelIndex_(order.length)];
+}
+
+function injectAutoLevel_(payload, skill) {
+  let languageCode = resolveLanguageCode_(payload.language);
+  payload.level = getLevelValueOrDefault_(payload.verifiedEmail, skill, languageCode);
+  return payload;
+}
+
+// ==========================================================
+// ACTION: get_current_level — Frontend gọi mỗi khi đổi kỹ năng/ngôn ngữ để hiện badge cấp độ,
+// đồng thời là nơi phát hiện "cần đặt trình độ" để tự bật popup placement test.
+// ==========================================================
+function handleGetCurrentLevel(payload) {
+  let userId = payload.verifiedEmail;
+  let skill = payload.skill;
+  let languageCode = payload.language; // action MỚI — Frontend gửi thẳng mã (english/chinese/russian)
+  let order = getLevelOrder_(languageCode);
+
+  if (MASTERY_TRACKED_SKILLS.indexOf(skill) === -1) {
+    // Shadowing: không theo dõi mastery, chỉ trả cấp mặc định để Frontend hiện badge tĩnh nếu cần.
+    return { needsPlacement: false, level: order[getDefaultLevelIndex_(order.length)], tracked: false };
+  }
+
+  let existing = findUserLevelRow_(userId, skill, languageCode);
+  if (existing) {
+    return {
+      needsPlacement: false,
+      level: existing.currentLevel,
+      tracked: true,
+      progress: { passed: existing.recentResults.filter(function (r) { return r === 1; }).length, windowSize: existing.recentResults.length }
+    };
+  }
+
+  // Chưa có bản ghi -> cần đặt trình độ, TRỪ KHI ngôn ngữ này chưa có ngân hàng đề (chinese/russian
+  // hiện tại, xem Data_PlacementBank.gs) -> tạm gán thẳng cấp mặc định, tự điều chỉnh dần qua các
+  // bài luyện sau thay vì chặn người dùng lại.
+  if (!PLACEMENT_BANK[languageCode]) {
+    let defaultLevel = order[getDefaultLevelIndex_(order.length)];
+    upsertUserLevel_(userId, skill, languageCode, defaultLevel, []);
+    return { needsPlacement: false, level: defaultLevel, tracked: true, progress: { passed: 0, windowSize: 0 } };
+  }
+
+  return { needsPlacement: true };
+}
+
+// ==========================================================
+// BÀI ĐẶT TRÌNH ĐỘ — THUẬT TOÁN STAIRCASE THÍCH ỨNG (giống Duolingo Test/EF SET/BOOKR: đúng ->
+// câu sau khó hơn 1 bậc; sai -> câu sau dễ hơn 1 bậc). Trạng thái phiên test lưu tạm ở CacheService
+// (KHÔNG lưu Sheet) vì chỉ tồn tại trong lúc làm bài (~vài phút), có sẵn cơ chế tự hết hạn.
+// ==========================================================
+
+// Gắn id ổn định cho từng câu để theo dõi "đã dùng" trong 1 phiên test.
+function buildQuestionPoolWithIds_(bank, order) {
+  let pool = []; // pool[levelIndex] = [{id, type, question, passage?, choices, correctIndex}, ...]
+  order.forEach(function (levelValue, levelIndex) {
+    let levelData = bank.levels.filter(function (l) { return l.level === levelValue; })[0];
+    let items = [];
+    if (levelData) {
+      (levelData.grammar || []).forEach(function (q, i) {
+        items.push({ id: 'g' + levelIndex + '_' + i, type: 'grammar', question: q.question, choices: q.choices, correctIndex: q.correctIndex });
+      });
+      (levelData.vocabulary || []).forEach(function (q, i) {
+        items.push({ id: 'v' + levelIndex + '_' + i, type: 'vocabulary', question: q.question, choices: q.choices, correctIndex: q.correctIndex });
+      });
+      if (levelData.reading) {
+        (levelData.reading.questions || []).forEach(function (q, i) {
+          items.push({ id: 'r' + levelIndex + '_' + i, type: 'reading', passage: levelData.reading.passage, question: q.question, choices: q.choices, correctIndex: q.correctIndex });
+        });
+      }
+    }
+    pool.push(items);
+  });
+  return pool;
+}
+
+// Chọn 1 câu CHƯA DÙNG ở đúng levelIndex; nếu bậc đó đã hết câu, dò dần ra các bậc lân cận (gần
+// nhất trước) để tránh dừng bài test giữa chừng chỉ vì cạn câu hỏi ở đúng 1 bậc.
+function pickQuestionAtLevel_(pool, levelIndex, usedIds) {
+  let n = pool.length;
+  for (let distance = 0; distance < n; distance++) {
+    let candidates = distance === 0 ? [levelIndex] : [levelIndex - distance, levelIndex + distance];
+    for (let c = 0; c < candidates.length; c++) {
+      let li = candidates[c];
+      if (li < 0 || li >= n) continue;
+      let available = pool[li].filter(function (q) { return usedIds.indexOf(q.id) === -1; });
+      if (available.length > 0) {
+        let chosen = available[Math.floor(Math.random() * available.length)];
+        return { question: chosen, levelIndex: li };
+      }
+    }
+  }
+  return null; // hết sạch câu hỏi trong toàn bộ ngân hàng — không nên xảy ra với ~8 câu/bậc
+}
+
+// KHÔNG gửi correctIndex về Frontend — tránh lộ đáp án qua DevTools. Đáp án đúng chỉ lưu trong
+// state cache phía server, so khớp khi Frontend gọi answer_placement_question.
+function questionForClient_(q) {
+  let out = { type: q.type, question: q.question, choices: q.choices };
+  if (q.passage) out.passage = q.passage;
+  return out;
+}
+
+function handleStartPlacementTest(payload) {
+  let userId = payload.verifiedEmail;
+  let skill = payload.skill;
+  let languageCode = payload.language;
+  let bank = PLACEMENT_BANK[languageCode];
+  if (!bank) throw new Error("Chưa có ngân hàng đề đặt trình độ cho ngôn ngữ này.");
+
+  let order = getLevelOrder_(languageCode);
+  let pool = buildQuestionPoolWithIds_(bank, order);
+  let startIndex = getDefaultLevelIndex_(order.length);
+
+  let picked = pickQuestionAtLevel_(pool, startIndex, []);
+  if (!picked) throw new Error("Ngân hàng đề rỗng, không thể bắt đầu bài đặt trình độ.");
+
+  let placementId = Utilities.getUuid();
+  let state = {
+    userId: userId, skill: skill, languageCode: languageCode,
+    usedIds: [picked.question.id],
+    path: [], // các levelIndex đã đi qua (mỗi câu đã trả lời), dùng để tính trung bình lúc kết thúc
+    step: 1,
+    pendingCorrectIndex: picked.question.correctIndex,
+    pendingLevelIndex: picked.levelIndex
+  };
+
+  CacheService.getScriptCache().put('placement_' + placementId, JSON.stringify(state), PLACEMENT_CACHE_TTL_SEC);
+
+  return { placementId: placementId, step: 1, totalSteps: PLACEMENT_TOTAL_STEPS, question: questionForClient_(picked.question) };
+}
+
+// Tính cấp cuối cùng từ "path" đã đi qua (trung bình bậc của N câu cuối, làm tròn) — giảm nhiễu do
+// may/rủi 1 câu, thay vì chỉ lấy đúng bậc của câu cuối cùng.
+function finalizeFromPath_(path, order) {
+  let tail = path.slice(-PLACEMENT_AVERAGE_LAST_N);
+  let avg = tail.reduce(function (a, b) { return a + b; }, 0) / tail.length;
+  let finalIndex = Math.max(0, Math.min(order.length - 1, Math.round(avg)));
+  return order[finalIndex];
+}
+
+function handleAnswerPlacementQuestion(payload) {
+  let placementId = payload.placementId;
+  let selectedIndex = Number(payload.selectedIndex);
+  if (!placementId) throw new Error("Thiếu placementId.");
+
+  let cache = CacheService.getScriptCache();
+  let cacheKey = 'placement_' + placementId;
+  let raw = cache.get(cacheKey);
+  if (!raw) throw new Error("Phiên đặt trình độ đã hết hạn, vui lòng bắt đầu lại.");
+  let state = JSON.parse(raw);
+
+  if (String(state.userId) !== String(payload.verifiedEmail)) throw new Error("Không có quyền với phiên đặt trình độ này.");
+
+  let order = getLevelOrder_(state.languageCode);
+  let isCorrect = selectedIndex === state.pendingCorrectIndex;
+  state.path.push(state.pendingLevelIndex);
+
+  let nextLevelIndex = state.pendingLevelIndex + (isCorrect ? 1 : -1);
+  nextLevelIndex = Math.max(0, Math.min(order.length - 1, nextLevelIndex));
+  state.step++;
+
+  if (state.step > PLACEMENT_TOTAL_STEPS) {
+    let finalLevel = finalizeFromPath_(state.path, order);
+    upsertUserLevel_(state.userId, state.skill, state.languageCode, finalLevel, []);
+    cache.remove(cacheKey);
+    return { finished: true, finalLevel: finalLevel };
+  }
+
+  let bank = PLACEMENT_BANK[state.languageCode];
+  let pool = buildQuestionPoolWithIds_(bank, order);
+  let picked = pickQuestionAtLevel_(pool, nextLevelIndex, state.usedIds);
+  if (!picked) {
+    // Hết sạch câu hỏi dự phòng (hiếm khi xảy ra) -> kết thúc sớm, chốt cấp theo dữ liệu đã có.
+    let finalLevel = finalizeFromPath_(state.path, order);
+    upsertUserLevel_(state.userId, state.skill, state.languageCode, finalLevel, []);
+    cache.remove(cacheKey);
+    return { finished: true, finalLevel: finalLevel, earlyStop: true };
+  }
+
+  state.usedIds.push(picked.question.id);
+  state.pendingCorrectIndex = picked.question.correctIndex;
+  state.pendingLevelIndex = picked.levelIndex;
+  cache.put(cacheKey, JSON.stringify(state), PLACEMENT_CACHE_TTL_SEC);
+
+  return { finished: false, step: state.step, totalSteps: PLACEMENT_TOTAL_STEPS, question: questionForClient_(picked.question) };
+}
+
+// Người dùng bấm "Bỏ qua" ở popup đặt trình độ — gán thẳng cấp mặc định (giống hệt fallback khi
+// ngôn ngữ chưa có ngân hàng đề) để không bị hỏi lại mỗi lần đổi kỹ năng/ngôn ngữ.
+function handleSkipPlacementTest(payload) {
+  let userId = payload.verifiedEmail;
+  let skill = payload.skill;
+  let languageCode = payload.language;
+  let order = getLevelOrder_(languageCode);
+  let defaultLevel = order[getDefaultLevelIndex_(order.length)];
+  upsertUserLevel_(userId, skill, languageCode, defaultLevel, []);
+  return { level: defaultLevel };
+}
+
+// ==========================================================
+// NÂNG/HẠ CẤP SAU MỖI LẦN CHẤM ĐIỂM — gọi từ handleSaveHistoryItem() ở Router.gs, giống hook SRS.
+// Cửa sổ trượt 5 bài gần nhất (kiểu Khan Academy: không phạt nặng vì 1 lần lỡ, không dùng streak
+// cứng — 1 bài kém giữa chừng KHÔNG xoá sạch tiến độ như "5 bài liên tiếp" ban đầu).
+// KHÔNG tự throw ra ngoài — nơi gọi tự bọc try/catch để lỗi ở đây không làm hỏng việc lưu bài chính.
+// ==========================================================
+function updateMasteryAfterAssessment_(userId, skill, languageText, estimatedLevel) {
+  if (MASTERY_TRACKED_SKILLS.indexOf(skill) === -1) return null;
+  if (!estimatedLevel) return null;
+
+  let languageCode = resolveLanguageCode_(languageText);
+  let order = getLevelOrder_(languageCode);
+  let estimatedIndex = order.indexOf(estimatedLevel);
+  if (estimatedIndex === -1) return null; // AI trả về giá trị không khớp đúng enum cố định -> bỏ qua an toàn
+
+  let existing = findUserLevelRow_(userId, skill, languageCode);
+  let currentLevel = existing ? existing.currentLevel : order[getDefaultLevelIndex_(order.length)];
+  let currentIndex = order.indexOf(currentLevel);
+  if (currentIndex === -1) currentIndex = getDefaultLevelIndex_(order.length);
+
+  let recent = existing ? existing.recentResults.slice() : [];
+  let pass = estimatedIndex >= currentIndex ? 1 : 0;
+  recent.push(pass);
+  if (recent.length > MASTERY_WINDOW_SIZE) recent = recent.slice(-MASTERY_WINDOW_SIZE);
+
+  let newLevel = currentLevel;
+  let changeDirection = null;
+
+  if (recent.length === MASTERY_WINDOW_SIZE) {
+    let passCount = recent.filter(function (r) { return r === 1; }).length;
+    let failCount = MASTERY_WINDOW_SIZE - passCount;
+    if (passCount >= MASTERY_PASS_THRESHOLD && currentIndex < order.length - 1) {
+      newLevel = order[currentIndex + 1];
+      changeDirection = 'up';
+      recent = [];
+    } else if (failCount >= MASTERY_PASS_THRESHOLD && currentIndex > 0) {
+      newLevel = order[currentIndex - 1];
+      changeDirection = 'down';
+      recent = [];
+    }
+  }
+
+  upsertUserLevel_(userId, skill, languageCode, newLevel, recent);
+
+  if (changeDirection) {
+    // ĐÃ THÊM: ghi mốc lên/hạ cấp cho Biểu đồ tiến độ (Controller_Progress.gs — timeline "levelEvents").
+    // Ghi SAU khi upsertUserLevel_ đã lưu xong (bước quan trọng nhất) — bọc try/catch riêng để lỗi ghi
+    // log (hiếm khi xảy ra) không làm mất luôn kết quả đổi cấp đã tính được ở trên.
+    try {
+      logLevelChange_(userId, skill, languageCode, currentLevel, newLevel, changeDirection);
+    } catch (logErr) {
+      Logger.log("Không ghi được LevelHistory: " + logErr.toString());
+    }
+  }
+
+  return changeDirection ? { changed: true, direction: changeDirection, newLevel: newLevel } : { changed: false };
+}

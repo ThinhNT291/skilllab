@@ -1,0 +1,526 @@
+/**
+ * =================================================================
+ * NGAN HANG DE DAT TRINH DO (PLACEMENT TEST) -- dung cho module Mastery (Controller_Mastery.gs).
+ * Soan bang Gemini theo prompt da thong nhat (dinh dang kieu Cambridge English Placement Test:
+ * gap-fill ngu phap, MCQ tu vung, doan doc + cau hoi hieu van ban). Moi bac co 3 cau ngu phap +
+ * 3 cau tu vung + 1 doan doc (2 cau hoi).
+ *
+ * QUAN TRONG: gia tri "level" PHAI khop NGUYEN VAN voi LANGUAGE_LEVELS.value trong app.js va
+ * MASTERY_LEVEL_ORDER trong Controller_Mastery.gs -- thuat toan staircase va tinh len/xuong bac
+ * dua vao thu tu xuat hien trong danh sach do, khong phai anh xa (mapping) rieng.
+ *
+ * Ngon ngu chua co ngan hang de (chinese/russian) de null -- Controller_Mastery.gs tu bo qua buoc
+ * dat trinh do va gan thang cap mac dinh o giua cho ngon ngu do, khong loi/crash. Khi co ngan hang
+ * moi, chi can dan JSON (dung schema nhu 'english' ben duoi) vao dung key tuong ung roi luu lai --
+ * khong can sua code o Controller_Mastery.gs.
+ * =================================================================
+ */
+const PLACEMENT_BANK = {
+  english: {
+  "language": "english",
+  "levels": [
+    {
+      "level": "A1-A2 (Beginner)",
+      "grammar": [
+        {
+          "question": "She ___ to the park with her friends every Sunday morning.",
+          "choices": [
+            "go",
+            "goes",
+            "going",
+            "is go"
+          ],
+          "correctIndex": 1,
+          "explanation": "Chủ ngữ ngôi thứ 3 số ít 'She' trong thì hiện tại đơn diễn tả thói quen cần động từ thêm 's/es'."
+        },
+        {
+          "question": "I don't have ___ money in my wallet to buy this book.",
+          "choices": [
+            "some",
+            "many",
+            "any",
+            "a"
+          ],
+          "correctIndex": 2,
+          "explanation": "'any' được dùng trong câu phủ định với danh từ không đếm được (money)."
+        },
+        {
+          "question": "Yesterday, they ___ a great movie at the local cinema.",
+          "choices": [
+            "see",
+            "seeing",
+            "saw",
+            "seen"
+          ],
+          "correctIndex": 2,
+          "explanation": "Trạng từ 'Yesterday' chỉ thời gian trong quá khứ, nên cần dùng động từ ở dạng quá khứ đơn 'saw'."
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "Chọn từ gần nghĩa nhất với từ 'start' trong câu: 'The class will start at 8 AM.'",
+          "choices": [
+            "finish",
+            "begin",
+            "leave",
+            "stop"
+          ],
+          "correctIndex": 1,
+          "explanation": "Từ 'begin' có nghĩa là bắt đầu, đồng nghĩa với 'start' trong ngữ cảnh này."
+        },
+        {
+          "question": "Chọn từ đúng nghĩa điền vào chỗ trống: 'It is very ___ today. Let's go to the beach.'",
+          "choices": [
+            "cold",
+            "rainy",
+            "hot",
+            "dark"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ngữ cảnh 'đi biển' (go to the beach) phù hợp với thời tiết nóng (hot)."
+        },
+        {
+          "question": "Chọn từ gần nghĩa nhất với từ 'glad' trong câu: 'I am so glad to meet you.'",
+          "choices": [
+            "happy",
+            "sad",
+            "angry",
+            "tired"
+          ],
+          "correctIndex": 0,
+          "explanation": "'glad' có nghĩa là vui vẻ, hài lòng, đồng nghĩa với 'happy'."
+        }
+      ],
+      "reading": {
+        "passage": "Tom is a teacher. He lives in a small apartment in London. He works at a primary school near his home. Every day, he wakes up at 7:00 AM. He eats breakfast, drinks a cup of coffee, and then walks to work. He loves his job because his students are very friendly and smart. In the evening, Tom usually reads a book or watches television.",
+        "questions": [
+          {
+            "question": "How does Tom travel to his workplace?",
+            "choices": [
+              "He takes a bus.",
+              "He drives a car.",
+              "He walks.",
+              "He rides a bicycle."
+            ],
+            "correctIndex": 2,
+            "explanation": "Thông tin nằm ở câu 'He eats breakfast, drinks a cup of coffee, and then walks to work'."
+          },
+          {
+            "question": "What does Tom usually do in the evening?",
+            "choices": [
+              "He cooks dinner for his friends.",
+              "He reads a book or watches TV.",
+              "He plays sports.",
+              "He goes to sleep early."
+            ],
+            "correctIndex": 1,
+            "explanation": "Thông tin nằm ở câu cuối: 'In the evening, Tom usually reads a book or watches television.'"
+          }
+        ]
+      }
+    },
+    {
+      "level": "B1 (Intermediate)",
+      "grammar": [
+        {
+          "question": "If it rains tomorrow, we ___ our trip to the mountains.",
+          "choices": [
+            "cancel",
+            "will cancel",
+            "would cancel",
+            "cancelled"
+          ],
+          "correctIndex": 1,
+          "explanation": "Câu điều kiện loại 1 diễn tả sự việc có thể xảy ra ở tương lai: If + S + V(htđ), S + will + V."
+        },
+        {
+          "question": "She ___ working at this company since she graduated from university.",
+          "choices": [
+            "is",
+            "was",
+            "has been",
+            "had been"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dấu hiệu 'since + mốc thời gian' yêu cầu sử dụng thì hiện tại hoàn thành hoặc hiện tại hoàn thành tiếp diễn."
+        },
+        {
+          "question": "The new shopping mall ___ by the mayor next week.",
+          "choices": [
+            "will open",
+            "opens",
+            "will be opened",
+            "is opening"
+          ],
+          "correctIndex": 2,
+          "explanation": "Chủ ngữ chỉ vật (shopping mall) nên cần dùng dạng bị động ở tương lai đơn 'will be + V3/ed'."
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "Chọn từ gần nghĩa nhất với từ 'opportunity' trong câu: 'This job is a great opportunity for my career.'",
+          "choices": [
+            "problem",
+            "chance",
+            "mistake",
+            "plan"
+          ],
+          "correctIndex": 1,
+          "explanation": "'opportunity' (cơ hội) đồng nghĩa với 'chance'."
+        },
+        {
+          "question": "Chọn từ đúng nghĩa điền vào chỗ trống: 'You need to ___ your English speaking skills to get the job.'",
+          "choices": [
+            "improve",
+            "destroy",
+            "reduce",
+            "forget"
+          ],
+          "correctIndex": 0,
+          "explanation": "'improve' (cải thiện) là từ duy nhất hợp lý về mặt ngữ nghĩa trong ngữ cảnh nâng cao kỹ năng."
+        },
+        {
+          "question": "Chọn từ gần nghĩa nhất với từ 'essential' trong câu: 'Water is essential for all living things.'",
+          "choices": [
+            "optional",
+            "dangerous",
+            "necessary",
+            "expensive"
+          ],
+          "correctIndex": 2,
+          "explanation": "'essential' (thiết yếu, cần thiết) đồng nghĩa với 'necessary'."
+        }
+      ],
+      "reading": {
+        "passage": "Many people enjoy traveling to new countries. When you visit a foreign place, you can learn about different cultures, see famous landmarks, and try new types of food. However, traveling can also be quite challenging. Sometimes it is difficult to communicate if you do not speak the local language. Therefore, it is always a good idea to learn a few basic phrases before your trip. Additionally, planning your itinerary in advance helps you save both time and money. Despite these minor challenges, exploring the world is a rewarding experience that broadens the mind and creates lasting memories.",
+        "questions": [
+          {
+            "question": "According to the passage, why can traveling to a new country be difficult?",
+            "choices": [
+              "Because foreign food is expensive.",
+              "Because landmarks are crowded.",
+              "Because of the language barrier.",
+              "Because it is hard to find a hotel."
+            ],
+            "correctIndex": 2,
+            "explanation": "Thông tin nằm ở câu: 'Sometimes it is difficult to communicate if you do not speak the local language.'"
+          },
+          {
+            "question": "What does the author suggest doing before going on a trip?",
+            "choices": [
+              "Booking an expensive tour guide.",
+              "Learning some basic local phrases.",
+              "Packing a lot of heavy clothes.",
+              "Trying local food at home."
+            ],
+            "correctIndex": 1,
+            "explanation": "Thông tin nằm ở câu: 'it is always a good idea to learn a few basic phrases before your trip.'"
+          }
+        ]
+      }
+    },
+    {
+      "level": "B2 (Upper-Intermediate)",
+      "grammar": [
+        {
+          "question": "By this time next year, I ___ my master's degree in business administration.",
+          "choices": [
+            "will finish",
+            "will have finished",
+            "am finishing",
+            "have finished"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cụm từ 'By this time next year' là dấu hiệu của thì tương lai hoàn thành (will have + V3/ed)."
+        },
+        {
+          "question": "He wouldn't have made such a terrible mistake if he ___ the instructions more carefully.",
+          "choices": [
+            "reads",
+            "read",
+            "has read",
+            "had read"
+          ],
+          "correctIndex": 3,
+          "explanation": "Câu điều kiện loại 3 diễn tả sự việc không có thật trong quá khứ, mệnh đề If dùng thì quá khứ hoàn thành."
+        },
+        {
+          "question": "___ the heavy rain, the outdoor music festival was not cancelled.",
+          "choices": [
+            "Despite",
+            "Although",
+            "Because of",
+            "However"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Despite' + Noun/V-ing mang nghĩa mặc dù. 'the heavy rain' là cụm danh từ nên dùng Despite thay vì Although."
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "Chọn từ gần nghĩa nhất với từ 'alleviate' trong câu: 'The doctor gave him some medicine to alleviate the pain.'",
+          "choices": [
+            "increase",
+            "reduce",
+            "prevent",
+            "cause"
+          ],
+          "correctIndex": 1,
+          "explanation": "'alleviate' có nghĩa là làm giảm bớt, xoa dịu, đồng nghĩa với 'reduce' hoặc 'relieve'."
+        },
+        {
+          "question": "Chọn từ đúng nghĩa điền vào chỗ trống: 'The transition to renewable energy is ___ if we want to combat climate change.'",
+          "choices": [
+            "inevitable",
+            "impossible",
+            "reversible",
+            "optional"
+          ],
+          "correctIndex": 0,
+          "explanation": "'inevitable' (không thể tránh khỏi, tất yếu) hợp lý nhất để chỉ sự bắt buộc phải làm để chống biến đổi khí hậu."
+        },
+        {
+          "question": "Chọn từ gần nghĩa nhất với từ 'investigate' trong câu: 'The police are currently trying to investigate the cause of the fire.'",
+          "choices": [
+            "ignore",
+            "look into",
+            "cover up",
+            "create"
+          ],
+          "correctIndex": 1,
+          "explanation": "'investigate' (điều tra) là một động từ trang trọng, đồng nghĩa với phrasal verb 'look into'."
+        }
+      ],
+      "reading": {
+        "passage": "The modern workplace has undergone a significant transformation in recent years, largely driven by advancements in technology. One of the most notable shifts is the widespread adoption of remote work. Initially implemented as a temporary measure during global crises, telecommuting has proven to be a viable long-term strategy for many organizations. Proponents argue that remote work offers employees greater flexibility, reducing commute times and fostering a better work-life balance. Furthermore, companies can save substantially on overhead costs associated with maintaining large physical office spaces. Conversely, critics point out potential drawbacks. The lack of face-to-face interaction can hinder spontaneous collaboration and make it difficult to maintain a strong company culture. Additionally, some remote workers report feelings of isolation and struggle to disconnect from work when their home becomes their office. As businesses navigate this new landscape, many are adopting a hybrid model, seeking to blend the collaborative benefits of in-person work with the autonomy and flexibility of remote arrangements.",
+        "questions": [
+          {
+            "question": "What is mentioned as a financial benefit for companies adopting remote work?",
+            "choices": [
+              "Employees will accept lower salaries.",
+              "They can save money on office overhead costs.",
+              "Productivity levels will naturally increase.",
+              "Taxes on digital equipment are reduced."
+            ],
+            "correctIndex": 1,
+            "explanation": "Đoạn văn ghi rõ: 'companies can save substantially on overhead costs associated with maintaining large physical office spaces.'"
+          },
+          {
+            "question": "What is a potential negative impact of remote work for employees, according to the critics?",
+            "choices": [
+              "They may spend too much time commuting.",
+              "They might feel isolated and have trouble disconnecting.",
+              "They are often forced to work in hybrid models.",
+              "They lose their technical skills quickly."
+            ],
+            "correctIndex": 1,
+            "explanation": "Đoạn văn nêu: 'some remote workers report feelings of isolation and struggle to disconnect from work'."
+          }
+        ]
+      }
+    },
+    {
+      "level": "C1 (Advanced)",
+      "grammar": [
+        {
+          "question": "Rarely ___ such a compelling and thought-provoking presentation at an academic conference.",
+          "choices": [
+            "I have witnessed",
+            "have I witnessed",
+            "I witnessed",
+            "witnessed I"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cấu trúc đảo ngữ với trạng từ phủ định (Rarely, Seldom, Never...) đứng đầu câu, cần đảo trợ động từ lên trước chủ ngữ."
+        },
+        {
+          "question": "The board of directors strongly recommended that the new policy ___ immediately to prevent further losses.",
+          "choices": [
+            "is implemented",
+            "was implemented",
+            "be implemented",
+            "implements"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cấu trúc bàng thái cách (Subjunctive) sau các động từ như recommend, suggest, demand: S + V + that + S + (should) + V(nguyên thể)."
+        },
+        {
+          "question": "It's high time we ___ a comprehensive review of our cybersecurity protocols.",
+          "choices": [
+            "conduct",
+            "conducted",
+            "are conducting",
+            "will conduct"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cấu trúc 'It's high time + S + V(quá khứ đơn)' dùng để diễn tả một việc đã đến lúc phải làm."
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "Chọn từ gần nghĩa nhất với từ 'ubiquitous' trong câu: 'Smartphones have become ubiquitous in modern society, transforming how we communicate.'",
+          "choices": [
+            "expensive",
+            "omnipresent",
+            "obsolete",
+            "rare"
+          ],
+          "correctIndex": 1,
+          "explanation": "'ubiquitous' (có mặt ở khắp nơi) đồng nghĩa với 'omnipresent'."
+        },
+        {
+          "question": "Chọn từ đúng nghĩa điền vào chỗ trống: 'The scientist was highly ___ in her research, ensuring that no detail was overlooked.'",
+          "choices": [
+            "careless",
+            "ambiguous",
+            "meticulous",
+            "impulsive"
+          ],
+          "correctIndex": 2,
+          "explanation": "'meticulous' (tỉ mỉ, cẩn thận) phù hợp với bối cảnh 'không bỏ sót chi tiết nào'."
+        },
+        {
+          "question": "Chọn từ gần nghĩa nhất với từ 'mitigate' trong câu: 'We need to implement strategies to mitigate the environmental impact of the construction project.'",
+          "choices": [
+            "aggravate",
+            "evaluate",
+            "alleviate",
+            "ignore"
+          ],
+          "correctIndex": 2,
+          "explanation": "'mitigate' có nghĩa là làm giảm nhẹ, xoa dịu, mức độ tương đương 'alleviate'."
+        }
+      ],
+      "reading": {
+        "passage": "The integration of Artificial Intelligence (AI) in healthcare has catalyzed a paradigm shift, transitioning clinical practice from reactive treatments to proactive, predictive care. Machine learning algorithms, trained on vast datasets of medical records and imaging, now demonstrate diagnostic capabilities that sometimes surpass those of human specialists, particularly in radiology and pathology. These systems can identify subtle patterns and anomalies that might elude even the most experienced eye, facilitating early detection of conditions like malignancies or cardiovascular diseases. Beyond diagnostics, AI is instrumental in accelerating drug discovery. By computationally modeling molecular interactions, researchers can bypass years of traditional trial-and-error laboratory work. However, this technological dawn is not without its profound ethical and logistical complexities. Data privacy remains a paramount concern, as the efficacy of these algorithms relies heavily on accessing sensitive patient information. Furthermore, the 'black box' nature of certain deep learning models—where the decision-making process is opaque—raises critical questions regarding accountability and medical liability. If an AI system misdiagnoses a patient, determining culpability among the developer, the hospital, or the physician is legally ambiguous. Consequently, while AI holds unprecedented potential to enhance patient outcomes, establishing robust regulatory frameworks is imperative before widespread autonomous clinical deployment can be fully realized.",
+        "questions": [
+          {
+            "question": "In what specific way is AI described as accelerating drug discovery?",
+            "choices": [
+              "By replacing clinical trials on human subjects entirely.",
+              "By using computational models to simulate molecular interactions.",
+              "By funding new pharmaceutical research laboratories.",
+              "By automatically manufacturing new synthetic chemicals."
+            ],
+            "correctIndex": 1,
+            "explanation": "Đoạn văn nêu: 'By computationally modeling molecular interactions, researchers can bypass years of traditional trial-and-error laboratory work.'"
+          },
+          {
+            "question": "What ethical or logistical issue regarding AI in healthcare is highlighted in the text?",
+            "choices": [
+              "The high cost of electricity to power the servers.",
+              "The inability of AI to read traditional X-ray films.",
+              "The ambiguity of liability due to the opaque decision-making of deep learning models.",
+              "The lack of sufficient medical data to train the initial algorithms."
+            ],
+            "correctIndex": 2,
+            "explanation": "Đoạn văn chỉ ra: 'the \"black box\" nature of certain deep learning models... raises critical questions regarding accountability and medical liability.'"
+          }
+        ]
+      }
+    },
+    {
+      "level": "C2 (Proficient)",
+      "grammar": [
+        {
+          "question": "___ for his astonishingly quick reflexes, the high-speed collision would undoubtedly have been fatal.",
+          "choices": [
+            "If it was not",
+            "Had it not been",
+            "Were it not",
+            "Unless it had been"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cấu trúc đảo ngữ của câu điều kiện loại 3 với cụm 'If it had not been for...' được rút gọn thành 'Had it not been for...' (Nếu không nhờ có...)."
+        },
+        {
+          "question": "The newly appointed manager takes exception ___ being treated as though she lacks industry experience.",
+          "choices": [
+            "with",
+            "at",
+            "to",
+            "about"
+          ],
+          "correctIndex": 2,
+          "explanation": "Thành ngữ 'take exception to something' có nghĩa là bực mình, phản đối điều gì."
+        },
+        {
+          "question": "Scarcely ___ the controversial proposal when a heated debate erupted among the committee members.",
+          "choices": [
+            "he had introduced",
+            "did he introduce",
+            "has he introduced",
+            "had he introduced"
+          ],
+          "correctIndex": 3,
+          "explanation": "Cấu trúc đảo ngữ 'Scarcely had + S + V(p2) + when + S + V(quá khứ)' (Vừa mới... thì...)."
+        }
+      ],
+      "vocabulary": [
+        {
+          "question": "Chọn từ gần nghĩa nhất với từ 'ephemeral' trong câu: 'Fame in the age of social media is often ephemeral, lasting only until the next viral trend emerges.'",
+          "choices": [
+            "transient",
+            "permanent",
+            "lucrative",
+            "profound"
+          ],
+          "correctIndex": 0,
+          "explanation": "'ephemeral' (chóng tàn, phù du, tồn tại trong thời gian ngắn) đồng nghĩa với 'transient' hoặc 'short-lived'."
+        },
+        {
+          "question": "Chọn từ đúng nghĩa điền vào chỗ trống: 'The politician's speech was deliberately designed to ___ the core issues rather than clarify them.'",
+          "choices": [
+            "elucidate",
+            "obfuscate",
+            "exacerbate",
+            "mitigate"
+          ],
+          "correctIndex": 1,
+          "explanation": "'obfuscate' (làm cho mờ mịt, gây bối rối) là từ phù hợp mang nghĩa đối lập với 'clarify' (làm rõ) trong ngữ cảnh đánh lạc hướng của chính trị gia."
+        },
+        {
+          "question": "Chọn từ gần nghĩa nhất với từ 'exacerbate' trong câu: 'His blunt refusal to compromise will only exacerbate the already tense negotiations.'",
+          "choices": [
+            "alleviate",
+            "worsen",
+            "justify",
+            "resolve"
+          ],
+          "correctIndex": 1,
+          "explanation": "'exacerbate' có nghĩa là làm trầm trọng thêm, làm xấu đi, đồng nghĩa với 'worsen'."
+        }
+      ],
+      "reading": {
+        "passage": "The concept of linguistic relativity, often intrinsically associated with the Sapir-Whorf hypothesis, posits that the structural idiosyncrasies of a language profoundly affect its speakers' worldview and cognitive processes. In its most deterministic formulation, language rigidly dictates thought, suggesting an absolute cognitive boundary where individuals cannot conceptualize phenomena for which their native lexicon lacks terminology. While contemporary linguistics overwhelmingly repudiates this strict determinism as overly reductive, a weaker, more nuanced version—that language subtly scaffolds and influences specific cognitive domains—remains a subject of robust empirical scrutiny. For instance, psycholinguistic studies on color perception consistently demonstrate that speakers of languages with distinct, specialized terms for proximate shades can categorize and recall those specific colors with demonstrably greater rapidity than speakers whose languages subsume them under a broader, singular linguistic umbrella. Similarly, spatial orientation strategies diverge markedly between cultures utilizing absolute directional coordinates (e.g., cardinal directions) versus those relying on relative spatial terms (e.g., left, right). The former demographic frequently exhibits exceptional, innate navigational competencies even in highly unfamiliar terrains. Nevertheless, formidable critics argue that these measurable cognitive variances are relatively marginal, highly task-specific, and emphatically do not constitute fundamentally disparate, incommensurable worldviews. They staunchly maintain that baseline human cognition is universally constrained by shared neurobiology, and language merely functions as an exceptionally malleable, culturally evolved tool for articulating these underlying universal cognitive states. The prevailing consensus among modern cognitive scientists consequently gravitates towards a sophisticated interactionism, conceptualizing language, culture, and cognition as mutually constitutive forces that continuously shape and refine one another in a dynamic, inextricably reciprocal dialectic.",
+        "questions": [
+          {
+            "question": "According to the passage, how do critics of linguistic relativity explain the observed cognitive differences among speakers of different languages?",
+            "choices": [
+              "They view them as evidence that humans possess entirely different neurological structures.",
+              "They dismiss them as being completely fabricated by early linguists.",
+              "They consider them to be minor, task-specific, and not indicative of completely different worldviews.",
+              "They argue that these differences only apply to color perception and not spatial navigation."
+            ],
+            "correctIndex": 2,
+            "explanation": "Đoạn văn nêu rõ quan điểm của người chỉ trích: 'critics argue that these measurable cognitive variances are relatively marginal, highly task-specific, and emphatically do not constitute fundamentally disparate, incommensurable worldviews.'"
+          },
+          {
+            "question": "What is the 'sophisticated interactionism' that modern cognitive scientists favor?",
+            "choices": [
+              "The theory that neurobiology alone determines all language rules.",
+              "The idea that language completely controls human thought and culture.",
+              "The belief that culture is the sole factor that shapes neurological pathways.",
+              "The concept that language, culture, and cognition influence each other in a continuous, reciprocal manner."
+            ],
+            "correctIndex": 3,
+            "explanation": "Đoạn cuối định nghĩa interactionism là 'conceptualizing language, culture, and cognition as mutually constitutive forces that continuously shape and refine one another in a dynamic, inextricably reciprocal dialectic.'"
+          }
+        ]
+      }
+    }
+  ]
+},
+  chinese: null,
+  russian: null
+};

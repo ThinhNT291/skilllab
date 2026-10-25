@@ -1,0 +1,332 @@
+/**
+ * =================================================================
+ * MODULE: CHUYÊN ĐỀ NGỮ PHÁP (khu "Học" — Bước 2: Bài tập + Bước 3: Lộ trình nhiều chuyên đề). Xem
+ * Data_GrammarTopicBank.gs để biết cấu trúc dữ liệu chi tiết.
+ *
+ * ĐÃ SỬA (phản hồi "muốn chấm tức thì từng câu, không nộp bài"): chuyển từ chấm tại Server (giấu
+ * correctIndex/explanation tới khi nộp, giống Nghe/Đọc hiểu) sang CHẤM TẠI CLIENT — trả về NGUYÊN
+ * VẸN correctIndex/explanation của cả bài tập NGAY khi lấy chuyên đề, để app.js tự so khớp và hiện
+ * đáp án tức thì mỗi lần bấm chọn (xanh/đỏ + giải thích), không cần gọi lại Server, không độ trễ.
+ * CHỦ Ý đánh đổi bảo mật đáp án (xem được qua DevTools) lấy tốc độ — chấp nhận được vì đây là bài
+ * LUYỆN TỰ HỌC (không phải bài thi tính điểm/Mastery), "gian lận" ở đây chỉ tự lừa chính người học.
+ * Vì vậy KHÔNG còn action chấm bài riêng (đã gỡ handleSubmitGrammarExerciseAnswers cũ) — mọi thứ
+ * gói gọn trong 1 lần gọi handleGetGrammarTopic.
+ *
+ * ĐÃ THÊM (Bước 3 — "Học" và "lộ trình chọn chuyên đề" là 2 phần liên thông, làm cùng 1 đợt theo yêu
+ * cầu người dùng, không tách thành 2 lượt riêng): action list_grammar_topics trả về danh sách RÚT GỌN
+ * (id/title/order, KHÔNG kèm theory/exercises — tránh nặng) để Frontend dựng màn "lộ trình" cho người
+ * học chọn chuyên đề, thay vì chỉ có đúng 1 chuyên đề cứng như Bước 2. Chuyên đề nào đã có nội dung
+ * trong GRAMMAR_TOPIC_INDEX (trước đây là GRAMMAR_TOPIC_BANK — xem ghi chú "tách nội dung ra Drive" ở
+ * hàm getGrammarTopicIndex_/findGrammarTopic_ bên dưới) thì tự động hiện ra trên lộ trình — không cần
+ * sửa code mỗi lần thêm chuyên đề mới, chỉ cần chạy migration đẩy nội dung lên Drive qua
+ * Data_ContentStore.gs.
+ *
+ * ĐÃ SỬA (phản hồi "gán Level không chuẩn, dùng thứ tự lộ trình học thực tế thay vì nhóm theo CEFR" —
+ * xem ghi chú chi tiết đầu Data_GrammarTopicBank.gs): list_grammar_topics trả thêm field "order" (số
+ * nguyên, dùng để Frontend SẮP XẾP danh sách theo đúng thứ tự lộ trình học — 1 = học đầu tiên), KHÔNG
+ * còn trả "level" nữa (Frontend không hiển thị level cho người học, tránh gây hiểu nhầm 1 chuyên đề
+ * chỉ thuộc đúng 1 cấp độ). "level" vẫn còn trong dữ liệu gốc (Data_GrammarTopicBank.gs) để tham khảo
+ * nội bộ khi quyết định "order" cho chuyên đề mới, chỉ là không đưa ra API danh sách này nữa.
+ *
+ * PHẠM VI MVP (cố ý, chưa làm ở bước này):
+ *  - KHÔNG lưu lịch sử (save_history_item) — khác Nghe/Đọc hiểu. "Học/Bài tập" là hoạt động LUYỆN
+ *    TẬP lặp lại nhiều lần cho cùng 1 chuyên đề, không phải 1 lượt "thi" cần lưu vết như Speaking/
+ *    Writing/Nghe/Đọc hiểu.
+ *  - KHÔNG cập nhật Mastery (chuyên đề ngữ pháp không nằm trong 4 kỹ năng chuẩn Nói/Viết/Nghe/Đọc nên
+ *    không có "cấp độ" để tính lên/xuống). ĐÃ CẬP NHẬT: có tự tạo thẻ SRS rồi (Bước 4, xem
+ *    Controller_ErrorLog.gs — handleLogGrammarAnswer/createSrsCardFromGrammarError_), dòng ghi chú cũ
+ *    "KHÔNG tự tạo thẻ SRS" ở đây đã lỗi thời, sửa lại cho đúng thực tế.
+ *
+ * ĐÃ THÊM ("chống học vẹt" — phản hồi "muốn câu hỏi ngẫu nhiên nhưng vẫn khớp chủ điểm, vẫn xếp dễ->khó,
+ * khi đã bốc xong thì không cần đảo nữa"): handleGetGrammarTopic() không còn trả nguyên 15 câu cố định
+ * — BỐC NGẪU NHIÊN GRAMMAR_EXERCISES_PER_SESSION câu trong TỪNG mức "difficulty" (xem
+ * Data_GrammarTopicBank.gs) của ĐÚNG chuyên đề đang mở, rồi GHÉP THEO THỨ TỰ dễ->khó (1->2->3) — xem
+ * pickGrammarExercises_() bên dưới. Kết quả: câu hỏi CỤ THỂ đổi khác nhau giữa các lượt học (đỡ học
+ * vẹt vì nhớ thứ tự/đáp án cố định), nhưng mạch độ khó tăng dần trong 1 lượt vẫn được giữ nguyên. Vì
+ * ngân hàng hiện có ĐÚNG 15 câu/chủ điểm (bằng N mặc định), tác dụng "đỡ trùng lặp" sẽ RÕ RỆT hơn khi
+ * sau này mở rộng ngân hàng lên nhiều hơn 15 câu/chủ điểm — cơ chế đã sẵn sàng chịu tải việc mở rộng
+ * đó mà KHÔNG cần sửa gì thêm ở đây, chỉ cần thêm câu mới (kèm "difficulty") vào Data_GrammarTopicBank.gs.
+ * =================================================================
+ */
+
+// ĐÃ SỬA (tách nội dung ngữ pháp ra khỏi code — xem ghi chú đầu Data_ContentStore.gs, phản hồi người
+// dùng lo Data_GrammarTopicBank.gs đã 12.500+ dòng): GRAMMAR_TOPIC_BANK (chứa CẢ theory lẫn exercises
+// của mọi chuyên đề, nhúng thẳng trong code) đã được thay bằng GRAMMAR_TOPIC_INDEX — chỉ còn
+// id/title/level/order/category, KHÔNG còn theory/exercises. Đổi tên hàm cho đúng bản chất mới (chỉ trả
+// MỤC LỤC, không phải toàn bộ nội dung) — hàm cũ getGrammarTopicBank_() đã bị xoá, 2 nơi từng gọi nó ở
+// Controller_ErrorLog.gs đã được sửa lại tương ứng (đọc index nếu chỉ cần title, hoặc gọi
+// findGrammarTopic_() nếu cần theory/exercises đầy đủ).
+function getGrammarTopicIndex_(languageCode) {
+  return GRAMMAR_TOPIC_INDEX[languageCode]; // null nếu ngôn ngữ chưa có chuyên đề nào
+}
+
+// Không còn "chuyên đề mặc định" cứng kể từ khi có màn lộ trình (Bước 3) — Frontend LUÔN truyền
+// topicId cụ thể (người học tự chọn trên lộ trình). Hằng số này chỉ còn dùng làm phương án dự phòng
+// nếu lỡ có request thiếu topicId (không nên xảy ra trong luồng UI bình thường).
+// ĐÃ SỬA (đợt thêm Present Simple/Present Continuous/Past Simple, xem Data_GrammarTopicBank.gs):
+// present-simple mới là chuyên đề order=1 (điểm khởi đầu lộ trình thực tế), nên đổi phương án dự
+// phòng này từ 'present-perfect' sang 'present-simple' cho khớp.
+const DEFAULT_GRAMMAR_TOPIC_ID = 'present-simple';
+
+// ĐÃ SỬA (tách nội dung ra Drive — xem ghi chú đầu Data_ContentStore.gs): trước đây đọc thẳng từ
+// GRAMMAR_TOPIC_BANK (object nhúng sẵn trong code, có ngay trong bộ nhớ). Giờ tra INDEX trước (rẻ, chỉ
+// đọc RAM, không tốn lượt gọi Drive/Cache) để xác nhận topicId có tồn tại hay không — tránh lãng phí 1
+// lượt đọc content store cho topicId sai/không tồn tại. Nếu index xác nhận có, MỚI gọi getCachedContent_
+// để lấy theory+exercises đầy đủ (ưu tiên CacheService, chỉ chạm Drive khi cache miss — xem
+// Data_ContentStore.gs). Trả về NGUYÊN VẸN shape cũ {id,title,level,order,category,theory,exercises} —
+// không đổi gì ở phía gọi hàm này (handleGetGrammarTopic/handleGetGrammarExercises/findTagLabel_/
+// createSrsCardFromGrammarError_ đều không cần sửa cách dùng kết quả trả về).
+function findGrammarTopic_(languageCode, topicId) {
+  let index = getGrammarTopicIndex_(languageCode);
+  if (!index) return null;
+  let resolvedId = topicId || DEFAULT_GRAMMAR_TOPIC_ID;
+  if (!index[resolvedId]) return null;
+  return getCachedContent_('grammar', resolvedId);
+}
+
+// Số câu bốc ra cho 1 lượt học ("chống học vẹt" — xem ghi chú đầu file). Đặt thành 1 hằng số riêng để
+// dễ chỉnh sau này (vd tăng lên khi ngân hàng mỗi chủ điểm có nhiều hơn 15 câu) — không cần sửa logic.
+const GRAMMAR_EXERCISES_PER_SESSION = 10;
+
+// Xáo mảng tại chỗ kiểu Fisher-Yates (thuật toán xáo chuẩn, không thiên vị) rồi trả lại chính mảng đó.
+function shuffleArray_(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    let tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+  }
+  return arr;
+}
+
+// ĐÃ THÊM (phản hồi "làm lại nhiều lần/chế độ Nhức đầu, câu hỏi lặp lại thì đáp án vẫn nằm y 1 chỗ, dễ
+// học vẹt theo VỊ TRÍ thay vì hiểu bài — có xáo lại vị trí đáp án MỖI LẦN request bài tập về không"):
+// đúng vậy — trước đây "choices"/"correctIndex" của mỗi bài tập là CỐ ĐỊNH theo đúng thứ tự đã lưu trên
+// Drive/Data_GrammarTopicBank.gs, nên nếu 1 câu lặp lại ở lượt học sau (rất dễ xảy ra — mỗi mức
+// difficulty chỉ có 10 câu, mỗi lượt bốc 3-4 câu/mức, hoặc chế độ Nhức đầu dùng lại NGUYÊN 10 câu
+// difficulty=3 mỗi lần), đáp án đúng luôn hiện ở đúng vị trí cũ. Hàm này XÁO LẠI vị trí 4 lựa chọn của
+// MỖI bài tập MỖI LẦN gọi (không đụng tới dữ liệu gốc lưu trữ — chỉ xáo ở bản trả về cho đúng 1 lượt
+// request này), "choices" và "choiceExplanations" luôn xáo ĐỒNG BỘ theo cùng 1 hoán vị (giữ đúng lời
+// giải thích đi kèm đúng lựa chọn), "correctIndex" tính lại theo vị trí mới. TRẢ VỀ BÀI TẬP MỚI (dùng
+// object khác, không sửa trực tiếp field của object gốc) cho an toàn — dù getCachedContent_ hiện tại
+// luôn JSON.parse ra object mới mỗi lần gọi nên sửa tại chỗ cũng không thực sự nguy hiểm, tách riêng vẫn
+// rõ ràng/an toàn hơn nếu sau này đổi cách cache. Frontend KHÔNG cần sửa gì — app.js chỉ đọc ex.choices/
+// ex.correctIndex/ex.choiceExplanations theo đúng CHỈ SỐ tại thời điểm nhận được, không giả định thứ tự
+// cố định nào.
+function shuffleExerciseChoices_(exercises) {
+  return exercises.map(function (ex) {
+    if (!ex.choices || ex.choices.length < 2) return ex; // an toàn nếu có dạng bài tập khác không phải MCQ nhiều lựa chọn
+
+    let order = shuffleArray_(ex.choices.map(function (_, i) { return i; })); // hoán vị ngẫu nhiên CHỈ SỐ
+    let newChoices = order.map(function (oldIndex) { return ex.choices[oldIndex]; });
+    let newChoiceExplanations = Array.isArray(ex.choiceExplanations) && ex.choiceExplanations.length === ex.choices.length
+      ? order.map(function (oldIndex) { return ex.choiceExplanations[oldIndex]; })
+      : ex.choiceExplanations; // giữ nguyên nếu thiếu/lệch độ dài (câu cũ chưa có choiceExplanations)
+    let newCorrectIndex = order.indexOf(ex.correctIndex);
+
+    let shuffled = {};
+    for (let k in ex) shuffled[k] = ex[k]; // copy nông mọi field khác (id/type/prompt/explanation/tags/difficulty...), giữ nguyên
+    shuffled.choices = newChoices;
+    shuffled.choiceExplanations = newChoiceExplanations;
+    shuffled.correctIndex = newCorrectIndex;
+    return shuffled;
+  });
+}
+
+// Bốc "n" câu từ TOÀN BỘ bài tập của 1 chuyên đề, chia đều theo "difficulty" (1/2/3), xáo ngẫu nhiên
+// TRONG từng mức rồi GHÉP LẠI theo đúng thứ tự mức (1 -> 2 -> 3) để giữ mạch dễ->khó của cả lượt học.
+// Nếu ngân hàng có ÍT HƠN HOẶC BẰNG "n" câu (đúng hiện trạng: 15 câu/chủ điểm, n mặc định = 10... nên
+// trường hợp bank <= n chỉ xảy ra khi n được chỉnh >= 15) thì trả nguyên cả bank, khỏi bốc làm gì.
+function pickGrammarExercises_(allExercises, n) {
+  if (!n || n >= allExercises.length) return allExercises.slice();
+
+  let tiers = {}; // difficulty -> [exercise,...]
+  allExercises.forEach(function (ex) {
+    let d = ex.difficulty || 1; // câu cũ/thiếu difficulty (không nên còn xảy ra) rơi về mức dễ nhất, không làm hỏng cả lượt học
+    (tiers[d] = tiers[d] || []).push(ex);
+  });
+  let tierKeys = Object.keys(tiers).map(Number).sort(function (a, b) { return a - b; });
+
+  let perTierBase = Math.floor(n / tierKeys.length);
+  let remainder = n - perTierBase * tierKeys.length; // chia dư -> phát thêm 1 câu cho các mức đầu tiên
+  let picked = [];
+  tierKeys.forEach(function (k) {
+    let pool = shuffleArray_(tiers[k].slice());
+    let take = perTierBase + (remainder > 0 ? 1 : 0);
+    if (remainder > 0) remainder--;
+    picked = picked.concat(pool.slice(0, Math.min(take, pool.length)));
+  });
+  return picked;
+}
+
+// ĐÃ THÊM (chế độ "Nhức đầu" — Legendary style mượn ý tưởng "Legendary Levels" của Duolingo, phản hồi
+// "làm mode nhức đầu, có cơ chế thưởng, đề nghị làm liên tiếp 3 lần đạt >=75% thì chúc mừng"): thay vì
+// xây hẳn 3 mode Easy/Medium/Hard mới (tốn công, chưa rõ "Easy" nên là gì), TÁI DÙNG đúng field
+// "difficulty" đã có sẵn — chế độ "Nhức đầu" chỉ bốc bài tập ở mức khó NHẤT (difficulty=3) của chuyên
+// đề, KHÔNG trộn dễ/vừa như handleGetGrammarTopic() thường. Vì mỗi chuyên đề hiện có ĐÚNG 10 câu
+// difficulty=3 (30 câu/chuyên đề, chia đều 10-10-10), 1 lượt Nhức đầu (n=10) sẽ luôn dùng HẾT cả 10 câu
+// đó (chỉ xáo thứ tự) - chấp nhận được ở quy mô hiện tại, sẽ tự đa dạng hơn khi ngân hàng mở rộng thêm
+// câu difficulty=3 sau này (không cần sửa code, xem GRAMMAR_LEGENDARY_ROUND_SIZE bên dưới).
+const GRAMMAR_LEGENDARY_ROUND_SIZE = 10;
+const GRAMMAR_LEGENDARY_HARDEST_TIER = 3;
+
+function pickLegendaryExercises_(allExercises, n) {
+  let hardTier = allExercises.filter(function (ex) { return ex.difficulty === GRAMMAR_LEGENDARY_HARDEST_TIER; });
+  let pool = hardTier.length ? hardTier : allExercises; // an toàn nếu 1 chuyên đề nào đó lỡ chưa có câu difficulty=3
+  return shuffleArray_(pool.slice()).slice(0, Math.min(n, pool.length));
+}
+
+// ĐÃ THÊM (Bước 3): danh sách RÚT GỌN mọi chuyên đề đang có sẵn của 1 ngôn ngữ, để dựng màn lộ
+// trình — không trả theory/exercises (nặng, chưa cần tới khi mới hiện danh sách).
+// ĐÃ THÊM (nhóm "category" — Thì/Cấu trúc câu/Từ loại, xem ghi chú đầu Data_GrammarTopicBank.gs): trả
+// THÔ field "category" (slug tiếng Anh), KHÔNG dịch nhãn tiếng Việt ở đây — Frontend tự dịch bằng
+// GRAMMAR_CATEGORY_LABELS (app.js), tránh trùng lặp logic dịch nhãn ở 2 nơi. Chuyên đề cũ (nếu lỡ thiếu
+// field) trả về null thay vì crash — Frontend coi null là "chưa phân nhóm".
+// ĐÃ SỬA (tách nội dung ra Drive): đọc từ GRAMMAR_TOPIC_INDEX thay vì GRAMMAR_TOPIC_BANK — kết quả trả
+// về CHO FRONTEND KHÔNG ĐỔI GÌ (vẫn đúng các field id/title/order/category như cũ), nhưng giờ nhanh hơn
+// hẳn: index chỉ có metadata, đọc thẳng từ RAM, không cần chạm Drive/Cache (trước đây vẫn đọc từ 1 object
+// đã có sẵn trong RAM, không thực sự chậm — điểm khác biệt là index giờ nhẹ hơn hẳn vì không còn kéo
+// theo theory/exercises của MỌI chuyên đề chỉ để lấy 4 field metadata).
+function handleListGrammarTopics(payload) {
+  let languageCode = resolveLanguageCode_(payload.language);
+  let index = getGrammarTopicIndex_(languageCode);
+  if (!index) return { topics: [] };
+
+  let topics = Object.keys(index).map(function(topicId) {
+    let t = index[topicId];
+    return { id: t.id, title: t.title, order: t.order, category: t.category || null };
+  });
+  return { topics: topics };
+}
+
+// Trả chuyên đề (lý thuyết đầy đủ + MỘT TẬP CON bài tập đã bốc ngẫu nhiên theo độ khó — xem
+// pickGrammarExercises_ và ghi chú "chống học vẹt" đầu file), GỒM CẢ correctIndex/explanation của các
+// câu được chọn — xem ghi chú đầu file lý do không còn giấu đáp án ở đây nữa.
+// ĐÃ THÊM (chế độ "Nhức đầu"): payload.mode === 'legendary' -> bốc bằng pickLegendaryExercises_ (chỉ
+// difficulty=3) thay vì pickGrammarExercises_ (trộn đều 3 mức) như bình thường. Trả thêm field "mode"
+// để Frontend biết đang ở chế độ nào (phòng trường hợp người học mở 2 tab/bấm nhanh 2 lần).
+function handleGetGrammarTopic(payload) {
+  let languageCode = resolveLanguageCode_(payload.language);
+  let topic = findGrammarTopic_(languageCode, payload.topicId);
+  if (!topic) throw new Error("Chưa có chuyên đề ngữ pháp nào cho ngôn ngữ này.");
+
+  let isLegendary = payload.mode === 'legendary';
+  let exercises = isLegendary
+    ? pickLegendaryExercises_(topic.exercises, GRAMMAR_LEGENDARY_ROUND_SIZE)
+    : pickGrammarExercises_(topic.exercises, GRAMMAR_EXERCISES_PER_SESSION);
+  exercises = shuffleExerciseChoices_(exercises); // xáo lại vị trí đáp án MỖI LẦN gọi — xem ghi chú đầu hàm
+
+  return {
+    id: topic.id,
+    title: topic.title,
+    level: topic.level,
+    mode: isLegendary ? 'legendary' : 'normal',
+    theory: topic.theory,
+    exercises: exercises
+  };
+}
+
+// ĐÃ THÊM (cache lý thuyết offline phía Frontend — phản hồi người dùng "lý thuyết giống hệt mỗi lần mở,
+// nên tải về/lưu offline, chỉ bài tập cần request để bốc ngẫu nhiên"): action NHẸ HƠN get_grammar_topic
+// — CHỈ trả về "exercises" đã bốc ngẫu nhiên (KHÔNG kèm title/level/theory nữa, Frontend giờ tự đọc
+// theory từ bundle tĩnh grammar_theory_bank.js, không cần Server gửi lại mỗi lần — xem ghi chú đầu file
+// đó và startGrammarTopicSession()/startLegendaryRound() ở app.js). Dùng lại NGUYÊN
+// findGrammarTopic_/pickGrammarExercises_/pickLegendaryExercises_ ở trên — chỉ khác phần trả về. Vẫn
+// giữ NGUYÊN action get_grammar_topic cũ (không xoá) làm đường dự phòng cho Frontend nếu bundle tĩnh lỡ
+// thiếu 1 chuyên đề nào đó (vd vừa thêm chuyên đề mới ở đây nhưng quên deploy lại bundle tĩnh).
+function handleGetGrammarExercises(payload) {
+  let languageCode = resolveLanguageCode_(payload.language);
+  let topic = findGrammarTopic_(languageCode, payload.topicId);
+  if (!topic) throw new Error("Chưa có chuyên đề ngữ pháp nào cho ngôn ngữ này.");
+
+  let isLegendary = payload.mode === 'legendary';
+  let exercises = isLegendary
+    ? pickLegendaryExercises_(topic.exercises, GRAMMAR_LEGENDARY_ROUND_SIZE)
+    : pickGrammarExercises_(topic.exercises, GRAMMAR_EXERCISES_PER_SESSION);
+  exercises = shuffleExerciseChoices_(exercises); // xáo lại vị trí đáp án MỖI LẦN gọi — xem ghi chú đầu hàm
+
+  return {
+    id: topic.id,
+    mode: isLegendary ? 'legendary' : 'normal',
+    exercises: exercises
+  };
+}
+
+// =================================================================
+// CHẾ ĐỘ "NHỨC ĐẦU" — cơ chế thưởng: log MỖI lượt hoàn thành (đạt lẫn không đạt — phải log cả 2 để tính
+// đúng "liên tiếp", 1 lượt không đạt sẽ CẮT chuỗi) vào 1 sheet riêng, rồi tính lại chuỗi liên tiếp gần
+// nhất từ toàn bộ lịch sử (đọc lúc cần, không giữ bộ đếm riêng — giống get_error_summary/get_progress_stats).
+// Ngưỡng "đạt" 1 lượt: >=75%. Ngưỡng "chúc mừng + gợi ý chủ điểm khác": 3 lượt liên tiếp đạt (theo đúng
+// yêu cầu người dùng). KHÔNG khoá/chặn gì cả — trượt 1 lượt chỉ cắt chuỗi về 0, người học luyện lại
+// thoải mái, không bị phạt nặng (đúng tinh thần "khoá cứng đôi khi khó chịu" đã thống nhất trước đó).
+// =================================================================
+const GRAMMAR_LEGENDARY_LOG_SHEET_NAME = 'GrammarLegendaryLog';
+const GRAMMAR_LEGENDARY_LOG_HEADERS = ['ID', 'USERID', 'NGÀY', 'TOPICID', 'NGONNGU', 'SCOREPERCENT', 'PASSED'];
+const GRAMMAR_LEGENDARY_PASS_THRESHOLD_PERCENT = 75;
+const GRAMMAR_LEGENDARY_STREAK_TARGET = 3;
+
+function getGrammarLegendaryLogSheet_() {
+  let ss = SpreadsheetApp.openById(ERROR_LOG_SPREADSHEET_ID); // dùng chung spreadsheet Traininghistory, tách tab riêng - giống WrongAnswerLog/ActivityLog
+  let sheet = ss.getSheetByName(GRAMMAR_LEGENDARY_LOG_SHEET_NAME);
+  if (!sheet) {
+    sheet = ss.insertSheet(GRAMMAR_LEGENDARY_LOG_SHEET_NAME);
+    sheet.appendRow(GRAMMAR_LEGENDARY_LOG_HEADERS);
+  }
+  return sheet;
+}
+
+// Đọc TOÀN BỘ lịch sử của đúng user+chuyên đề+ngôn ngữ này, đếm chuỗi liên tiếp ĐẠT (>=75%) tính TỪ
+// LƯỢT GẦN NHẤT lùi về, gặp 1 lượt KHÔNG đạt là dừng đếm (chuỗi hiện tại). "badgeEarned" = đã TỪNG đạt
+// chuỗi 3 liên tiếp ít nhất 1 lần trong toàn bộ lịch sử (huy hiệu vĩnh viễn, không mất dù sau này có lỡ
+// trượt 1 lượt) - quét XUÔI theo thời gian (appendRow luôn thêm cuối, thứ tự dòng = thứ tự thời gian).
+function computeGrammarLegendaryStreak_(userId, languageCode, topicId) {
+  let data = getGrammarLegendaryLogSheet_().getDataRange().getValues();
+  let currentStreak = 0;
+  let badgeEarned = false;
+  for (let i = 1; i < data.length; i++) {
+    let row = data[i];
+    if (String(row[1]) !== String(userId)) continue;
+    if (String(row[3]) !== String(topicId)) continue;
+    if (String(row[4]) !== String(languageCode)) continue;
+    let passed = (row[6] === true || String(row[6]) === 'true');
+    if (passed) {
+      currentStreak++;
+      if (currentStreak >= GRAMMAR_LEGENDARY_STREAK_TARGET) badgeEarned = true;
+    } else {
+      currentStreak = 0;
+    }
+  }
+  return { currentStreak: currentStreak, badgeEarned: badgeEarned };
+}
+
+// Nộp kết quả 1 lượt "Nhức đầu" (Frontend tự chấm/tính % đúng ở Client như mọi chế độ khác - xem ghi
+// chú đầu file, ở đây CHỈ nhận % tổng để log + tính chuỗi, KHÔNG nhận từng câu trả lời chi tiết, giữ
+// payload nhẹ). Bọc try/catch, lỗi không được làm hỏng màn kết quả người học đang xem.
+function handleSubmitLegendaryRound(payload) {
+  try {
+    let userId = payload.verifiedEmail;
+    let languageCode = resolveLanguageCode_(payload.language);
+    let topicId = payload.topicId || '';
+    let scorePercent = Math.max(0, Math.min(100, Number(payload.scorePercent) || 0));
+    let passed = scorePercent >= GRAMMAR_LEGENDARY_PASS_THRESHOLD_PERCENT;
+
+    getGrammarLegendaryLogSheet_().appendRow([
+      Utilities.getUuid(), userId, formatDateKey_(new Date()), topicId, languageCode, scorePercent, passed
+    ]);
+
+    let streakInfo = computeGrammarLegendaryStreak_(userId, languageCode, topicId);
+    // "vừa chạm mốc 3" - CHỈ đúng lượt streak khớp CHÍNH XÁC ngưỡng (không lặp lại thông báo chúc mừng
+    // ở lượt 4, 5, 6... nếu người học tiếp tục thắng, dù badgeEarned vẫn giữ true).
+    let justHitTarget = passed && streakInfo.currentStreak === GRAMMAR_LEGENDARY_STREAK_TARGET;
+
+    return {
+      passed: passed,
+      scorePercent: scorePercent,
+      currentStreak: streakInfo.currentStreak,
+      streakTarget: GRAMMAR_LEGENDARY_STREAK_TARGET,
+      badgeEarned: streakInfo.badgeEarned,
+      justHitTarget: justHitTarget
+    };
+  } catch (e) {
+    Logger.log('handleSubmitLegendaryRound lỗi: ' + e);
+    return { passed: false, scorePercent: 0, currentStreak: 0, streakTarget: GRAMMAR_LEGENDARY_STREAK_TARGET, badgeEarned: false, justHitTarget: false };
+  }
+}
