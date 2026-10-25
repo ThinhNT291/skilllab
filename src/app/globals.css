@@ -100,6 +100,41 @@ body {
   40% { transform: translateY(-8px); }
 }
 
+@keyframes float-y {
+  50% { transform: translateY(-6px); }
+}
+@keyframes drift {
+  from { background-position: 0 0, 0 0; }
+  to { background-position: 160px 80px, 0 0; }
+}
+
+.mascot-float { animation: float-y 3.2s ease-in-out infinite; }
+.home-card { transition: transform 0.15s, border-color 0.15s; }
+.home-card:hover { transform: translateY(-3px); }
+
+/* Hình nền theo giao diện: chỉ là họa tiết rất nhạt, không chứa chữ nên không ảnh hưởng độ tương phản. */
+body {
+  background:
+    radial-gradient(circle at 1.5px 1.5px, color-mix(in srgb, var(--primary) 10%, transparent) 1.5px, transparent 0) 0 0 / 28px 28px,
+    var(--background);
+}
+[data-skin="adventure"] body {
+  background:
+    radial-gradient(ellipse 60% 40% at 100% 0%, color-mix(in srgb, var(--accent) 14%, transparent), transparent),
+    radial-gradient(ellipse 70% 40% at 0% 100%, color-mix(in srgb, var(--primary) 14%, transparent), transparent),
+    var(--background);
+}
+[data-skin="space"] body {
+  background:
+    radial-gradient(1.5px 1.5px at 20px 30px, #fff9, transparent),
+    radial-gradient(1px 1px at 90px 80px, #fff8, transparent),
+    radial-gradient(1.5px 1.5px at 140px 20px, color-mix(in srgb, var(--accent) 70%, transparent), transparent),
+    var(--background);
+  background-size: 160px 100px, 160px 100px, 160px 100px, auto;
+  animation: drift 90s linear infinite;
+}
+.home-hero { box-shadow: 0 6px 0 0 var(--border); }
+
 .anim-pop { animation: pop 0.35s cubic-bezier(0.3, 1.4, 0.5, 1) both; }
 .anim-shake { animation: shake 0.35s; }
 .anim-bounce { animation: bounce-up 0.4s; }
