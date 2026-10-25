@@ -73,12 +73,12 @@ export function pcmToWav(pcm: Buffer, sampleRate = 24000): Buffer {
 }
 
 /** Đọc to một đoạn văn tiếng Anh; trả về WAV. Bản mới trả WAV sẵn, bản cũ trả PCM thô nên xử lý cả hai. */
-export async function generateSpeech(text: string): Promise<Buffer> {
+export async function generateSpeech(text: string, voice: string = TTS_VOICE): Promise<Buffer> {
   const data = (await post(TTS_MODEL, {
     contents: [{ role: "user", parts: [{ text }] }],
     generationConfig: {
       responseModalities: ["AUDIO"],
-      speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: TTS_VOICE } } },
+      speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: voice } } },
     },
   })) as Candidates
   const b64 = data.candidates?.[0]?.content?.parts?.find((p) => p.inlineData?.data)?.inlineData?.data

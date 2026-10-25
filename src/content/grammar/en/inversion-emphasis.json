@@ -89,6 +89,58 @@
             "vi": "Đội chưa bao giờ chơi hay đến thế."
           }
         ]
+      },
+      {
+        "id": "inv-u6-little-so-such",
+        "bac": 6,
+        "label": "Đảo ngữ với Little, So ... that và Such ... that",
+        "explanationVi": "Ba cấu trúc đảo ngữ nữa. (1) 'Little' đứng đầu câu (nghĩa gần như 'hầu như không'), thường với know, realize, imagine: Little + trợ động từ + S + V. Ví dụ: Little did he know... (2) 'So + tính từ/trạng từ' đứng đầu câu: So + adj + be + S + that ... (nếu động từ là 'be') hoặc So + adv + trợ động từ + S + V + that ... (3) 'Such + be + danh từ' ở đầu câu: Such + be + S + that ... (be hòa hợp với danh từ đứng sau). Nghĩa là 'đến mức mà'. Cả ba đều trang trọng và nhấn mạnh hơn trật tự thường (The music was so loud that ...).",
+        "examples": [
+          {
+            "en": "Little did they realize that the game was almost over.",
+            "vi": "Họ hầu như không nhận ra trận đấu sắp kết thúc."
+          },
+          {
+            "en": "So tired was Nam that he fell asleep in class.",
+            "vi": "Nam mệt đến mức ngủ gật trong lớp."
+          },
+          {
+            "en": "Such was her excitement that she could not sit still.",
+            "vi": "Cô ấy hào hứng đến mức không ngồi yên được."
+          }
+        ]
+      },
+      {
+        "id": "inv-u7-no-circumstances",
+        "bac": 5,
+        "label": "Đảo ngữ sau các cụm 'no' (under no circumstances, on no account, in no way, by no means)",
+        "explanationVi": "Các cụm chứa 'no' mang nghĩa phủ định mạnh như under no circumstances (trong bất kỳ hoàn cảnh nào cũng không), on no account (tuyệt đối không), in no way / by no means (hoàn toàn không) khi đứng ĐẦU câu thì phần sau được đảo: cụm + trợ động từ (hoặc be, modal) + S + V. Dùng nhiều trong quy định, lời cảnh báo. Nếu cụm đứng cuối hoặc giữa câu thì không đảo (You should on no account share it).",
+        "examples": [
+          {
+            "en": "Under no circumstances should you open this door.",
+            "vi": "Trong bất kỳ hoàn cảnh nào bạn cũng không được mở cửa này."
+          },
+          {
+            "en": "By no means is the work finished.",
+            "vi": "Công việc hoàn toàn chưa xong."
+          }
+        ]
+      },
+      {
+        "id": "inv-u8-emphatic-do",
+        "bac": 4,
+        "label": "Nhấn mạnh câu khẳng định bằng do / does / did (không đảo)",
+        "explanationVi": "Để nhấn mạnh một câu khẳng định (nhất là khi phản bác hoặc đối lập), thêm do / does / did trước động từ nguyên thể và nhấn giọng vào trợ động từ: S + do/does/did + V nguyên thể. Chọn do/does/did theo chủ ngữ và thì (does cho ngôi thứ ba số ít hiện tại, did cho quá khứ). Đây KHÔNG phải đảo ngữ: trật tự vẫn là chủ ngữ rồi mới đến trợ động từ, và động từ chính không chia thêm.",
+        "examples": [
+          {
+            "en": "I did finish the book; I just forgot to return it.",
+            "vi": "Mình có đọc xong cuốn sách mà, chỉ là quên trả thôi."
+          },
+          {
+            "en": "She does love animals, even though she has no pets.",
+            "vi": "Cô ấy thực sự yêu động vật, dù không nuôi con nào."
+          }
+        ]
       }
     ],
     "signalWords": [

@@ -89,6 +89,26 @@
             "vi": "Chính cô giáo chúng tôi tổ chức câu lạc bộ mỗi năm."
           }
         ]
+      },
+      {
+        "id": "cs-u6-reversed-all-cleft",
+        "bac": 6,
+        "label": "Câu chẻ đảo và All / The only thing",
+        "explanationVi": "(1) Câu chẻ What đảo: đưa phần nhấn mạnh lên trước, rồi be, rồi What + mệnh đề: A good rest is what I need. (2) All + mệnh đề + be + phần nhấn mạnh, nghĩa là 'điều duy nhất': All I want is a quiet room. All she did was smile (sau be là động từ nguyên thể, có hoặc không có to). (3) The only / first / last thing + mệnh đề + be + phần nhấn mạnh: The first thing I noticed was the smell. (4) Be chia theo chủ ngữ thật và theo thời của câu: ở dạng đảo, chia theo phần nhấn mạnh đứng trước (New shoes are what I need); ở dạng All / The only thing, chia theo 'all' hoặc 'thing' (số ít).",
+        "examples": [
+          {
+            "en": "A good rest is what I need right now.",
+            "vi": "Một giấc nghỉ ngơi tốt là điều tôi cần lúc này."
+          },
+          {
+            "en": "All she did was smile and walk away.",
+            "vi": "Cô ấy chỉ mỉm cười rồi bỏ đi."
+          },
+          {
+            "en": "New shoes are what I need.",
+            "vi": "Giày mới là thứ tôi cần."
+          }
+        ]
       }
     ],
     "signalWords": [

@@ -838,5 +838,565 @@
       "Sai — 'will have belong': sau 'have' phải dùng V3 (belonged).",
       "Sai — 'will had belonged': sau will phải dùng 'have', không dùng 'had'."
     ]
+  },
+  {
+    "id": "en-future-perfect-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u1-completed-by-future-time",
+    "tags": [
+      "fp-u1-completed-by-future-time"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the end of this month, our class ______ (collect) 500 plastic bottles.",
+    "choices": [
+      "will have collecting",
+      "have collected",
+      "will have collected",
+      "will has collected"
+    ],
+    "correctIndex": 2,
+    "explanation": "By + mốc tương lai: will have + V3.",
+    "choiceExplanations": [
+      "Sai — 'will have collecting': sau 'have' phải dùng V3 (collected), không dùng V-ing.",
+      "Sai — 'have collected': hiện tại hoàn thành nói về hiện tại; mốc 'by the end of this month' ở tương lai.",
+      "Đúng — 'will have collected': việc sẽ xong trước mốc 'the end of this month': will have + V3.",
+      "Sai — 'will has collected': sau will luôn là 'have', không đổi theo chủ ngữ."
+    ]
+  },
+  {
+    "id": "en-future-perfect-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u1-completed-by-future-time",
+    "tags": [
+      "fp-u1-completed-by-future-time"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My little sister ______ (learn) to ride a bike by her next birthday.",
+    "choices": [
+      "will have learned",
+      "would have learned",
+      "will have learn",
+      "learned"
+    ],
+    "correctIndex": 0,
+    "explanation": "By + mốc tương lai đi với will have + V3.",
+    "choiceExplanations": [
+      "Đúng — 'will have learned': 'by her next birthday' là mốc tương lai, việc sẽ xong trước đó: will have + V3.",
+      "Sai — 'would have learned': would have + V3 nói điều giả định trong quá khứ, không nói về tương lai.",
+      "Sai — 'will have learn': sau 'have' phải dùng V3 (learned).",
+      "Sai — 'learned': quá khứ đơn không hợp với mốc 'next birthday' ở tương lai."
+    ]
+  },
+  {
+    "id": "en-future-perfect-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u5-form-and-state-verbs",
+    "tags": [
+      "fp-u5-form-and-state-verbs"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The builders ______ (not/finish) the new library by December, so it won't open this year.",
+    "choices": [
+      "haven't finished",
+      "won't have finish",
+      "will not had finished",
+      "won't have finished"
+    ],
+    "correctIndex": 3,
+    "explanation": "Phủ định: S + won't have + V3.",
+    "choiceExplanations": [
+      "Sai — 'haven't finished': hiện tại hoàn thành nói về lúc này, còn câu đang nói về tình trạng tại mốc December trong tương lai.",
+      "Sai — 'won't have finish': sau 'have' phải dùng V3 (finished).",
+      "Sai — 'will not had finished': sau will phải là 'have', không dùng 'had'.",
+      "Đúng — 'won't have finished': phủ định của future perfect: won't have + V3, nhìn từ mốc December."
+    ]
+  },
+  {
+    "id": "en-future-perfect-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u5-form-and-state-verbs",
+    "tags": [
+      "fp-u5-form-and-state-verbs"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you ______ (do) all your homework by nine o'clock tonight?",
+    "choices": [
+      "Do / have done",
+      "Will / have done",
+      "Will / has done",
+      "Are / will have done"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu hỏi: Will + S + have + V3?",
+    "choiceExplanations": [
+      "Sai — 'Do / have done': 'Do' phải đi với động từ nguyên thể; 'have done' không tạo thành thì tương lai hoàn thành.",
+      "Đúng — 'Will / have done': câu hỏi: Will + S + have + V3, mốc 'by nine o'clock tonight'.",
+      "Sai — 'Will / has done': sau will phải dùng 'have', không dùng 'has'.",
+      "Sai — 'Are / will have done': không thể đặt hai trợ động từ 'Are' và 'will' liền nhau để tạo câu hỏi."
+    ]
+  },
+  {
+    "id": "en-future-perfect-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u2-duration-up-to-future-time",
+    "tags": [
+      "fp-u2-duration-up-to-future-time"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By Saturday, Ben ______ (play) the guitar for exactly a year.",
+    "choices": [
+      "has been playing",
+      "will have been playing",
+      "will been playing",
+      "will have been play"
+    ],
+    "correctIndex": 1,
+    "explanation": "For + khoảng thời gian tính đến mốc tương lai: will have been + V-ing. (Will have played cũng đúng nhưng không có trong các lựa chọn.)",
+    "choiceExplanations": [
+      "Sai — 'has been playing': hiện tại hoàn thành tiếp diễn chỉ tính đến bây giờ, không phải đến thứ Bảy.",
+      "Đúng — 'will have been playing': tính đến mốc Saturday trong tương lai, đã chơi được đúng một năm: will have been + V-ing với 'for' + khoảng thời gian.",
+      "Sai — 'will been playing': thiếu 'have' sau will.",
+      "Sai — 'will have been play': sau 'been' phải dùng V-ing (playing)."
+    ]
+  },
+  {
+    "id": "en-future-perfect-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u3-by-the-time-before",
+    "tags": [
+      "fp-u3-by-the-time-before"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We will have cleaned the whole kitchen before Grandma ______ (arrive).",
+    "choices": [
+      "will arrive",
+      "will have arrived",
+      "arrived",
+      "arrives"
+    ],
+    "correctIndex": 3,
+    "explanation": "Before + hiện tại đơn; mệnh đề chính dùng will have + V3.",
+    "choiceExplanations": [
+      "Sai — 'will arrive': không dùng will sau 'before'.",
+      "Sai — 'will have arrived': không dùng will have trong mệnh đề thời gian; mệnh đề này dùng hiện tại đơn.",
+      "Sai — 'arrived': quá khứ đơn không hợp vì việc bà đến chưa xảy ra.",
+      "Đúng — 'arrives': sau 'before' mệnh đề thời gian dùng hiện tại đơn dù nói về tương lai."
+    ]
+  },
+  {
+    "id": "en-future-perfect-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u1-completed-by-future-time",
+    "tags": [
+      "fp-u1-completed-by-future-time"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's Wednesday. By Friday, Mai ______ (paint) the whole fence.",
+    "choices": [
+      "will have painted",
+      "painted",
+      "will have paint",
+      "will had painted"
+    ],
+    "correctIndex": 0,
+    "explanation": "By + mốc tương lai: will have + V3.",
+    "choiceExplanations": [
+      "Đúng — 'will have painted': 'By Friday' là mốc tương lai: việc sơn sẽ xong trước đó, dùng will have + V3.",
+      "Sai — 'painted': quá khứ đơn không hợp với mốc 'By Friday' sắp tới.",
+      "Sai — 'will have paint': sau 'have' phải dùng V3 (painted).",
+      "Sai — 'will had painted': sau will phải dùng 'have', không dùng 'had'."
+    ]
+  },
+  {
+    "id": "en-future-perfect-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u3-by-the-time-before",
+    "tags": [
+      "fp-u3-by-the-time-before"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Let's hurry! By the time we get to the mall, the shop ______ (close).",
+    "choices": [
+      "had closed",
+      "has closed",
+      "will have closed",
+      "will have closing"
+    ],
+    "correctIndex": 2,
+    "explanation": "By the time + hiện tại đơn, mệnh đề chính dùng will have + V3.",
+    "choiceExplanations": [
+      "Sai — 'had closed': quá khứ hoàn thành nói việc xảy ra trước một mốc trong quá khứ, còn đây là mốc tương lai.",
+      "Sai — 'has closed': hiện tại hoàn thành nói về lúc này, không phải về mốc lúc ta đến nơi.",
+      "Đúng — 'will have closed': 'By the time we get...' (hiện tại đơn) là mốc tương lai, cửa hàng sẽ đã đóng: will have + V3.",
+      "Sai — 'will have closing': sau 'have' phải dùng V3 (closed), không dùng V-ing."
+    ]
+  },
+  {
+    "id": "en-future-perfect-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u3-by-the-time-before",
+    "tags": [
+      "fp-u3-by-the-time-before"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When you ______ (wake) up tomorrow, the snow will have melted.",
+    "choices": [
+      "will wake",
+      "woke",
+      "will have woken",
+      "wake"
+    ],
+    "correctIndex": 3,
+    "explanation": "Mệnh đề với when dùng hiện tại đơn, không dùng will.",
+    "choiceExplanations": [
+      "Sai — 'will wake': không dùng will trong mệnh đề thời gian sau 'When'.",
+      "Sai — 'woke': quá khứ đơn không hợp với 'tomorrow'.",
+      "Sai — 'will have woken': mệnh đề thời gian không dùng will have; việc tuyết tan mới là việc xong trước.",
+      "Đúng — 'wake': sau 'When' chỉ thời gian tương lai, dùng hiện tại đơn; mệnh đề chính mới dùng will have + V3."
+    ]
+  },
+  {
+    "id": "en-future-perfect-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u5-form-and-state-verbs",
+    "tags": [
+      "fp-u5-form-and-state-verbs"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By next April, my grandparents ______ (be) married for fifty years.",
+    "choices": [
+      "will have been",
+      "will have been being",
+      "will have be",
+      "have been"
+    ],
+    "correctIndex": 0,
+    "explanation": "Động từ chỉ trạng thái không dùng -ing: will have been, không phải will have been being.",
+    "choiceExplanations": [
+      "Đúng — 'will have been': 'be married' chỉ trạng thái: will have been (V3 của be), có mốc 'By next April' và 'for fifty years'.",
+      "Sai — 'will have been being': 'be' ở đây chỉ trạng thái nên không dùng dạng -ing.",
+      "Sai — 'will have be': sau 'have' phải dùng V3 của be là 'been'.",
+      "Sai — 'have been': hiện tại hoàn thành tính đến bây giờ, không tính đến 'next April'."
+    ]
+  },
+  {
+    "id": "en-future-perfect-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u5-form-and-state-verbs",
+    "tags": [
+      "fp-u5-form-and-state-verbs"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By next spring, Uncle Tuan ______ (own) the café for eight years.",
+    "choices": [
+      "will own",
+      "will have owned",
+      "will have been owning",
+      "has owned"
+    ],
+    "correctIndex": 1,
+    "explanation": "Động từ chỉ trạng thái (own, know, belong...) dùng will have + V3.",
+    "choiceExplanations": [
+      "Sai — 'will own': 'will own' không diễn tả quãng thời gian đã kéo dài tính đến mốc tương lai.",
+      "Đúng — 'will have owned': 'own' là động từ chỉ trạng thái nên không dùng -ing: will have + V3.",
+      "Sai — 'will have been owning': 'own' là động từ chỉ trạng thái, không dùng dạng tiếp diễn.",
+      "Sai — 'has owned': hiện tại hoàn thành chỉ tính đến bây giờ, không phải đến mùa xuân tới."
+    ]
+  },
+  {
+    "id": "en-future-perfect-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u4-assumptions-about-now",
+    "tags": [
+      "fp-u4-assumptions-about-now"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hoa left the party at ten and lives nearby. It's nearly midnight, so she ______ (get) home by now.",
+    "choices": [
+      "will get",
+      "will had gotten",
+      "will have gotten",
+      "has will gotten"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đoán việc đã xong tính đến bây giờ: will have + V3 + by now. (Has gotten cũng tự nhiên trong đời thường nhưng không có trong lựa chọn; gotten là dạng Anh-Mỹ.)",
+    "choiceExplanations": [
+      "Sai — 'will get': 'will get' nói về tương lai, trong khi 'by now' nói về hiện tại.",
+      "Sai — 'will had gotten': sau will phải dùng 'have', không dùng 'had'.",
+      "Đúng — 'will have gotten': đoán một việc đã xảy ra xong tính đến lúc nói ('by now'): will have + V3.",
+      "Sai — 'has will gotten': không thể đặt 'has' và 'will' cùng nhau như vậy."
+    ]
+  },
+  {
+    "id": "en-future-perfect-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u5-form-and-state-verbs",
+    "tags": [
+      "fp-u5-form-and-state-verbs"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The teacher ______ (not/grade) our tests by the time we walk in tomorrow.",
+    "choices": [
+      "wouldn't have graded",
+      "hasn't graded",
+      "won't have graded",
+      "won't have grade"
+    ],
+    "correctIndex": 2,
+    "explanation": "Phủ định: won't have + V3, mốc lấy từ by the time + hiện tại đơn.",
+    "choiceExplanations": [
+      "Sai — 'wouldn't have graded': wouldn't have + V3 nói điều giả định trong quá khứ.",
+      "Sai — 'hasn't graded': hiện tại hoàn thành nói về lúc này, không nói về mốc ngày mai.",
+      "Đúng — 'won't have graded': 'by the time we walk in tomorrow' là mốc tương lai; việc chấm bài sẽ chưa xong: won't have + V3.",
+      "Sai — 'won't have grade': sau 'have' phải dùng V3 (graded)."
+    ]
+  },
+  {
+    "id": "en-future-perfect-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u2-duration-up-to-future-time",
+    "tags": [
+      "fp-u2-duration-up-to-future-time"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "How long ______ you ______ (drive) when you finally reach the coast?",
+    "choices": [
+      "will / have been driving",
+      "will / have been drive",
+      "do / have been driving",
+      "did / have been driving"
+    ],
+    "correctIndex": 0,
+    "explanation": "How long + will + S + have been + V-ing?",
+    "choiceExplanations": [
+      "Đúng — 'will / have been driving': câu hỏi về quãng thời gian tính đến mốc tương lai: How long + will + S + have been + V-ing.",
+      "Sai — 'will / have been drive': sau 'been' phải dùng V-ing (driving).",
+      "Sai — 'do / have been driving': 'do' không đi với 'have been driving' để hỏi về tương lai.",
+      "Sai — 'did / have been driving': 'did' là quá khứ, không hợp với mốc 'when you finally reach' ở tương lai."
+    ]
+  },
+  {
+    "id": "en-future-perfect-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u3-by-the-time-before",
+    "tags": [
+      "fp-u3-by-the-time-before"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Before the sun ______ (set), the hikers ______ (reach) the summit.",
+    "choices": [
+      "will set / will have reached",
+      "sets / will have reached",
+      "set / will have reached",
+      "sets / have reached"
+    ],
+    "correctIndex": 1,
+    "explanation": "Before + hiện tại đơn; mệnh đề chính dùng will have + V3.",
+    "choiceExplanations": [
+      "Sai — 'will set / will have reached': không dùng will trong mệnh đề thời gian sau 'Before'.",
+      "Đúng — 'sets / will have reached': sau 'Before' dùng hiện tại đơn (sets); việc lên tới đỉnh xong trước đó: will have + V3.",
+      "Sai — 'set / will have reached': 'set' ở đây là quá khứ đơn; mệnh đề thời gian về tương lai dùng hiện tại đơn.",
+      "Sai — 'sets / have reached': hiện tại hoàn thành chỉ nói về lúc này, thiếu will để diễn tả mốc tương lai."
+    ]
+  },
+  {
+    "id": "en-future-perfect-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u4-assumptions-about-now",
+    "tags": [
+      "fp-u4-assumptions-about-now"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence is a GUESS about something that has probably already happened by now?",
+    "choices": [
+      "Lan's train will reach Hue by noon tomorrow.",
+      "By noon tomorrow, Lan's train will have reached Hue.",
+      "Lan's train would have reached Hue.",
+      "It's late, so Lan's train will have reached Hue by now."
+    ],
+    "correctIndex": 3,
+    "explanation": "Will have + V3 + by now = đoán việc đã xong tính đến lúc nói.",
+    "choiceExplanations": [
+      "Sai — 'Lan's train will reach Hue by noon tomorrow.': đây là dự đoán về tương lai, không phải việc đã xảy ra.",
+      "Sai — 'By noon tomorrow, Lan's train will have reached Hue.': đây là future perfect nói về mốc tương lai (noon tomorrow), không phải đoán về hiện tại.",
+      "Sai — 'Lan's train would have reached Hue.': would have + V3 nói điều giả định trong quá khứ, không phải đoán về bây giờ.",
+      "Đúng — 'by now' + will have + V3 là cách đoán việc đã xảy ra xong tính đến lúc nói."
+    ]
+  },
+  {
+    "id": "en-future-perfect-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u2-duration-up-to-future-time",
+    "tags": [
+      "fp-u2-duration-up-to-future-time"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence emphasizes the ONGOING PROCESS up to 6 p.m., not only the result?",
+    "choices": [
+      "By six, she will have written the report.",
+      "By six, she has been writing the report.",
+      "By six, she will have been writing the report for three hours.",
+      "By six, she will write the report."
+    ],
+    "correctIndex": 2,
+    "explanation": "Will have been + V-ing nhấn mạnh quá trình kéo dài đến mốc tương lai.",
+    "choiceExplanations": [
+      "Sai — 'By six, she will have written the report.': chỉ nhấn mạnh việc đã xong, không nhấn mạnh quá trình kéo dài.",
+      "Sai — 'By six, she has been writing the report.': hiện tại hoàn thành tiếp diễn tính đến bây giờ, không phải đến 6 giờ.",
+      "Đúng — will have been + V-ing nhấn mạnh quá trình kéo dài ('for three hours') tính đến mốc 6 giờ.",
+      "Sai — 'By six, she will write the report.': chỉ nói về một việc sẽ làm, không nhấn mạnh quá trình hay việc đã xong."
+    ]
+  },
+  {
+    "id": "en-future-perfect-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u1-completed-by-future-time",
+    "tags": [
+      "fp-u1-completed-by-future-time"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence stresses that the poster will already be finished at the deadline, Friday?",
+    "choices": [
+      "I'll finish the poster by Friday.",
+      "I'm finishing the poster by Friday.",
+      "I finished the poster by Friday.",
+      "I'll have finished the poster by Friday."
+    ],
+    "correctIndex": 3,
+    "explanation": "Will have + V3 nhấn mạnh việc đã hoàn thành trước mốc; will + V + by chỉ nói sẽ xong trước hạn.",
+    "choiceExplanations": [
+      "Sai — 'I'll finish the poster by Friday.': câu này vẫn tự nhiên và đúng nghĩa, nhưng chỉ nói sẽ làm xong trước hạn, không nhấn mạnh việc đã xong tại mốc đó.",
+      "Sai — 'I'm finishing the poster by Friday.': diễn tả kế hoạch đang thực hiện, không nhấn mạnh việc đã hoàn thành.",
+      "Sai — 'I finished the poster by Friday.': quá khứ đơn nói việc đã xảy ra, không phải mốc Friday ở tương lai.",
+      "Đúng — will have + V3 nhấn mạnh việc đã hoàn thành trước mốc Friday."
+    ]
+  },
+  {
+    "id": "en-future-perfect-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u4-assumptions-about-now",
+    "tags": [
+      "fp-u4-assumptions-about-now"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Dad's plane took off only ten minutes ago, so it ______ (not/land) by now.",
+    "choices": [
+      "won't have landed",
+      "won't land",
+      "wouldn't have landed",
+      "won't has landed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đoán phủ định về hiện tại: won't have + V3 + by now.",
+    "choiceExplanations": [
+      "Đúng — 'won't have landed': đoán về hiện tại, máy bay chưa hạ cánh xong: won't have + V3 với 'by now'.",
+      "Sai — 'won't land': 'won't land' nói về tương lai, không hợp với 'by now' nói về hiện tại.",
+      "Sai — 'wouldn't have landed': wouldn't have + V3 nói điều giả định trong quá khứ.",
+      "Sai — 'won't has landed': sau won't phải dùng 'have', không dùng 'has'."
+    ]
+  },
+  {
+    "id": "en-future-perfect-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-perfect",
+    "usageId": "fp-u3-by-the-time-before",
+    "tags": [
+      "fp-u3-by-the-time-before"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you ______ (finish) packing by the time the taxi ______ (come)?",
+    "choices": [
+      "Will / have finished / will come",
+      "Will / have finished / comes",
+      "Do / have finished / comes",
+      "Will / finished / comes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Will + S + have + V3 ... by the time + hiện tại đơn.",
+    "choiceExplanations": [
+      "Sai — 'Will / have finished / will come': mệnh đề sau 'by the time' không dùng will.",
+      "Đúng — 'Will / have finished / comes': câu hỏi Will + S + have + V3; mệnh đề 'by the time' dùng hiện tại đơn (comes).",
+      "Sai — 'Do / have finished / comes': 'Do' không tạo câu hỏi future perfect; cần Will.",
+      "Sai — 'Will / finished / comes': sau 'Will' cần 'have finished', không dùng 'finished' một mình."
+    ]
   }
 ]

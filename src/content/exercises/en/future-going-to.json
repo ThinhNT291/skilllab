@@ -839,5 +839,565 @@
       "Sai vì 'will apply' không khớp với cấu trúc câu hỏi phủ định 'Isn't your brother...?' đã có sẵn trợ động từ 'is'."
     ],
     "bac": 3
+  },
+  {
+    "id": "en-future-going-to-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u1-planned-intention",
+    "tags": [
+      "fgt-u1-planned-intention"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Minh ______ (join) the chess club next month; he signed up online yesterday.",
+    "choices": [
+      "are going to join",
+      "is going to join",
+      "is going join",
+      "is going to joining"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kế hoạch đã có từ trước (đã đăng ký hôm qua) nên dùng going to; chủ ngữ 'Minh' số ít chia với 'is'.",
+    "choiceExplanations": [
+      "Sai — 'are going to join': 'Minh' là số ít nên không dùng 'are'.",
+      "Đúng — 'is going to join': 'Minh' số ít chia 'is', theo sau là 'going to' + động từ nguyên thể 'join'.",
+      "Sai — 'is going join': thiếu 'to' giữa 'going' và 'join'.",
+      "Sai — 'is going to joining': sau 'going to' phải là động từ nguyên thể, không thêm -ing."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-going-to-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u5-question-negative-vs-continuous",
+    "tags": [
+      "fgt-u5-question-negative-vs-continuous"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ (your cousins / stay) at your house during winter break?",
+    "choices": [
+      "Does your cousins going to stay",
+      "Are your cousins going stay",
+      "Is your cousins going to stay",
+      "Are your cousins going to stay"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu hỏi: Are/Is + S + going to + V. 'Your cousins' là số nhiều nên dùng 'Are'.",
+    "choiceExplanations": [
+      "Sai — 'Does your cousins going to stay': câu hỏi với going to không dùng trợ động từ 'Does'; phải đảo 'are' lên trước chủ ngữ.",
+      "Sai — 'Are your cousins going stay': thiếu 'to' sau 'going'.",
+      "Sai — 'Is your cousins going to stay': 'your cousins' số nhiều, không đi với 'Is'.",
+      "Đúng — 'Are your cousins going to stay': đảo 'Are' lên trước chủ ngữ số nhiều, rồi 'going to' + 'stay'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-going-to-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u2-evidence-prediction",
+    "tags": [
+      "fgt-u2-evidence-prediction"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The baby is yawning and rubbing her eyes. She ______ (fall) asleep soon.",
+    "choices": [
+      "is going to fall",
+      "are going to fall",
+      "is going fall",
+      "goes to fall"
+    ],
+    "correctIndex": 0,
+    "explanation": "Có dấu hiệu quan sát được ngay lúc nói (ngáp, dụi mắt) nên dùng going to để dự đoán; 'she' chia với 'is'.",
+    "choiceExplanations": [
+      "Đúng — 'is going to fall': dấu hiệu rõ ràng + chủ ngữ 'she' nên dùng 'is going to fall'.",
+      "Sai — 'are going to fall': 'she' số ít, không dùng 'are'.",
+      "Sai — 'is going fall': thiếu 'to' sau 'going'.",
+      "Sai — 'goes to fall': 'goes to fall' không phải cấu trúc chỉ tương lai; phải là am/is/are + going to + V."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-going-to-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u5-question-negative-vs-continuous",
+    "tags": [
+      "fgt-u5-question-negative-vs-continuous"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ (not / watch) TV tonight; I decided to read my new book instead.",
+    "choices": [
+      "am not going watch",
+      "don't going to watch",
+      "am not going to watch",
+      "not going to watch"
+    ],
+    "correctIndex": 2,
+    "explanation": "Phủ định: am/is/are + not + going to + V. Với 'I' dùng 'am not'; đây là quyết định đã có.",
+    "choiceExplanations": [
+      "Sai — 'am not going watch': thiếu 'to' sau 'going'.",
+      "Sai — 'don't going to watch': không dùng trợ động từ 'do' với going to; phải dùng 'am not'.",
+      "Đúng — 'am not going to watch': 'am not' + 'going to' + động từ nguyên thể 'watch'.",
+      "Sai — 'not going to watch': thiếu động từ 'am' trước 'not going to'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-going-to-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u4-going-go-come",
+    "tags": [
+      "fgt-u4-going-go-come"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ (go) to the zoo on Sunday; Dad already bought the tickets.",
+    "choices": [
+      "are go",
+      "is going",
+      "are going",
+      "are going to goes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Với động từ 'go', người bản ngữ thường dùng thì hiện tại tiếp diễn thay cho 'going to go' để gọn hơn (nói 'are going to go' cũng đúng ngữ pháp nhưng nghe nặng nề). 'We' chia với 'are'.",
+    "choiceExplanations": [
+      "Sai — 'are go': thiếu -ing; nói về kế hoạch cần 'are going', không phải 'are go'.",
+      "Sai — 'is going': 'we' số nhiều, không đi với 'is'.",
+      "Đúng — 'are going': hiện tại tiếp diễn 'are going' đã đủ diễn tả kế hoạch đã chốt (đã mua vé).",
+      "Sai — 'are going to goes': sau 'going to' phải là động từ nguyên thể, không chia 'goes'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-going-to-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u3-near-future-signs",
+    "tags": [
+      "fgt-u3-near-future-signs"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Careful! The boy on the bike ______ (crash) into that wall!",
+    "choices": [
+      "is going to crash",
+      "are going to crash",
+      "goes to crash",
+      "is going crash"
+    ],
+    "correctIndex": 0,
+    "explanation": "Có dấu hiệu rõ ràng ngay trước mắt cho thấy việc sắp xảy ra ngay nên dùng going to; 'the boy' số ít chia với 'is'.",
+    "choiceExplanations": [
+      "Đúng — 'is going to crash': 'is going to crash' diễn tả việc sắp xảy ra ngay, có dấu hiệu quan sát được.",
+      "Sai — 'are going to crash': 'the boy' số ít, không dùng 'are'.",
+      "Sai — 'goes to crash': 'goes to' không tạo thành thì tương lai gần.",
+      "Sai — 'is going crash': thiếu 'to' sau 'going'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-going-to-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u1-planned-intention",
+    "tags": [
+      "fgt-u1-planned-intention"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My brother and I ______ (build) a treehouse this weekend; we've already drawn the plans.",
+    "choices": [
+      "am going to build",
+      "is going to build",
+      "are going to building",
+      "are going to build"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chủ ngữ 'my brother and I' là số nhiều nên dùng 'are'; đã vẽ sẵn bản thiết kế nên là kế hoạch đã có từ trước.",
+    "choiceExplanations": [
+      "Sai — 'am going to build': 'am' chỉ đi với chủ ngữ 'I' đứng một mình.",
+      "Sai — 'is going to build': chủ ngữ ghép là số nhiều, không dùng 'is'.",
+      "Sai — 'are going to building': sau 'going to' phải là động từ nguyên thể, không thêm -ing.",
+      "Đúng — 'are going to build': chủ ngữ ghép số nhiều chia 'are', theo sau là 'going to' + 'build'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-going-to-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u1-planned-intention",
+    "tags": [
+      "fgt-u1-planned-intention"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: 'Oh no, I forgot my lunch money!' B: 'Don't worry, I ______ (lend) you some.'",
+    "choices": [
+      "am going to lend",
+      "will lend",
+      "lend",
+      "am lending"
+    ],
+    "correctIndex": 1,
+    "explanation": "B quyết định ngay lúc nghe A nói (phản ứng tức thời) nên dùng will; going to dành cho kế hoạch đã có từ trước.",
+    "choiceExplanations": [
+      "Sai — 'am going to lend': về ngữ pháp vẫn được, nhưng 'going to' ngụ ý B đã định cho mượn từ trước; ở đây B chỉ vừa nghe chuyện nên 'will' hợp ngữ cảnh hơn.",
+      "Đúng — 'will lend': quyết định bộc phát, nảy ra ngay khi nghe tin nên dùng 'will lend'.",
+      "Sai — 'lend': thì hiện tại đơn không dùng để hứa hay quyết định giúp ngay lúc nói.",
+      "Sai — 'am lending': 'am lending' hợp với một sắp xếp đã chốt từ trước, không hợp phản ứng tức thời."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-going-to-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u2-evidence-prediction",
+    "tags": [
+      "fgt-u2-evidence-prediction"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The traffic is completely stopped, and it's already 7:50. We ______ (be) late for school.",
+    "choices": [
+      "are going to be",
+      "are going to being",
+      "is going to be",
+      "going to be"
+    ],
+    "correctIndex": 0,
+    "explanation": "Có bằng chứng ngay trước mắt (kẹt xe, đã 7:50) nên dự đoán bằng going to; 'we' chia với 'are'.",
+    "choiceExplanations": [
+      "Đúng — 'are going to be': bằng chứng rõ ràng + 'we' chia 'are', theo sau là 'going to' + 'be'.",
+      "Sai — 'are going to being': sau 'to' phải là động từ nguyên thể 'be', không phải 'being'.",
+      "Sai — 'is going to be': 'we' số nhiều, không đi với 'is'.",
+      "Sai — 'going to be': thiếu động từ 'are' trước 'going to'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-going-to-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u5-question-negative-vs-continuous",
+    "tags": [
+      "fgt-u5-question-negative-vs-continuous"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom and Sam ______ (not / play) in the tournament; the coach has already told them they are too young.",
+    "choices": [
+      "isn't going to play",
+      "don't going to play",
+      "aren't going play",
+      "aren't going to play"
+    ],
+    "correctIndex": 3,
+    "explanation": "Phủ định: am/is/are + not + going to + V. 'Tom and Sam' số nhiều nên dùng 'aren't'.",
+    "choiceExplanations": [
+      "Sai — 'isn't going to play': chủ ngữ ghép số nhiều, không dùng 'isn't'.",
+      "Sai — 'don't going to play': không dùng 'don't' với going to; phải dùng 'aren't'.",
+      "Sai — 'aren't going play': thiếu 'to' sau 'going'.",
+      "Đúng — 'aren't going to play': 'aren't' + 'going to' + 'play' đúng với chủ ngữ số nhiều."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-going-to-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u4-going-go-come",
+    "tags": [
+      "fgt-u4-going-go-come"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Grandma ______ (come) to my school concert on Friday; she told us about it yesterday.",
+    "choices": [
+      "comes",
+      "is coming",
+      "are coming",
+      "is come"
+    ],
+    "correctIndex": 1,
+    "explanation": "Với 'come', thường dùng hiện tại tiếp diễn cho kế hoạch đã chốt (nói 'is going to come' cũng đúng ngữ pháp nhưng nặng nề). 'Grandma' số ít nên dùng 'is'.",
+    "choiceExplanations": [
+      "Sai — 'comes': hiện tại đơn không tự nhiên khi nói về dự định cá nhân; hiện tại đơn dành cho lịch trình cố định.",
+      "Đúng — 'is coming': 'is coming' gọn, tự nhiên và hợp với 'Grandma' số ít.",
+      "Sai — 'are coming': 'Grandma' số ít, không dùng 'are'.",
+      "Sai — 'is come': sau 'is' phải là V-ing 'coming', không phải 'come'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-going-to-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u2-evidence-prediction",
+    "tags": [
+      "fgt-u2-evidence-prediction"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: 'What will life be like in 2100?' B: 'I have no idea, but I think robots ______ (do) most of the work.'",
+    "choices": [
+      "are going to do",
+      "are doing",
+      "will do",
+      "do"
+    ],
+    "correctIndex": 2,
+    "explanation": "B chỉ nêu ý kiến cá nhân, không có bằng chứng nào trước mắt nên dùng will.",
+    "choiceExplanations": [
+      "Sai — 'are going to do': về ngữ pháp vẫn nghe được, nhưng 'going to' hợp khi có bằng chứng; B nói rõ 'I have no idea' nên 'will' hợp hơn.",
+      "Sai — 'are doing': 'are doing' diễn tả việc đang xảy ra hoặc đã sắp xếp, không phải đoán về năm 2100.",
+      "Đúng — 'will do': 'will do' hợp với dự đoán dựa trên ý kiến cá nhân.",
+      "Sai — 'do': hiện tại đơn không dùng để dự đoán về tương lai xa."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-going-to-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u3-near-future-signs",
+    "tags": [
+      "fgt-u3-near-future-signs"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Look! The dog has spotted the cat and is crouching low. He ______ (chase) it!",
+    "choices": [
+      "will chase",
+      "chases",
+      "is going chase",
+      "is going to chase"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dấu hiệu quan sát được ngay lúc nói (con chó đã thấy mèo và đang rình) cho thấy việc sắp xảy ra, nên dùng going to.",
+    "choiceExplanations": [
+      "Sai — 'will chase': 'will' hợp với ý kiến, không dựa trên dấu hiệu cụ thể trước mắt.",
+      "Sai — 'chases': hiện tại đơn không diễn tả việc sắp xảy ra từ dấu hiệu.",
+      "Sai — 'is going chase': thiếu 'to' sau 'going'.",
+      "Đúng — 'is going to chase': dấu hiệu rõ ràng + việc sắp xảy ra: 'is going to chase'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-going-to-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u1-planned-intention",
+    "tags": [
+      "fgt-u1-planned-intention"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: 'Are you going to buy the red jacket?' B: 'No, I ______ (buy) it. I already got a blue one yesterday.'",
+    "choices": [
+      "am not going to buy",
+      "won't buying",
+      "am not go to buy",
+      "not going to buy"
+    ],
+    "correctIndex": 0,
+    "explanation": "Phủ định của kế hoạch: am not + going to + V nguyên thể. B đã mua áo khác nên quyết định có từ trước.",
+    "choiceExplanations": [
+      "Đúng — 'am not going to buy': 'am not going to buy' đúng cấu trúc phủ định.",
+      "Sai — 'won't buying': sau 'will' phải là động từ nguyên thể, không phải V-ing.",
+      "Sai — 'am not go to buy': phải là 'going', không phải 'go'.",
+      "Sai — 'not going to buy': thiếu 'am' trước 'not going to'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-going-to-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u3-near-future-signs",
+    "tags": [
+      "fgt-u3-near-future-signs"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The goalkeeper has slipped, and the striker is alone in front of the empty net. He ______ (score)!",
+    "choices": [
+      "will score",
+      "is scoring",
+      "is going to score",
+      "scores"
+    ],
+    "correctIndex": 2,
+    "explanation": "Có bằng chứng rõ ràng ngay trước mắt cho thấy bàn thắng sắp xảy ra nên dùng going to.",
+    "choiceExplanations": [
+      "Sai — 'will score': 'will' diễn tả ý kiến hoặc quyết định tức thời, không dựa vào dấu hiệu quan sát được.",
+      "Sai — 'is scoring': 'is scoring' diễn tả hành động đang diễn ra hoặc sắp xếp đã chốt, không dự đoán từ dấu hiệu.",
+      "Đúng — 'is going to score': dấu hiệu rõ ràng và việc sắp xảy ra ngay: 'is going to score'.",
+      "Sai — 'scores': hiện tại đơn không dùng để dự đoán từ dấu hiệu trước mắt."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-future-going-to-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u1-planned-intention",
+    "tags": [
+      "fgt-u1-planned-intention"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: 'Why did you buy ten pounds of potatoes?' B: 'I ______ (make) potato salad for the school fair on Saturday. Mrs. Lee asked me two weeks ago.'",
+    "choices": [
+      "will make",
+      "am going to make",
+      "make",
+      "would make"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kế hoạch đã có từ hai tuần trước, không phải quyết định tức thời nên dùng going to.",
+    "choiceExplanations": [
+      "Sai — 'will make': 'will' ngụ ý B vừa quyết định ngay lúc nói; ở đây kế hoạch có từ hai tuần trước nên 'going to' hợp hơn.",
+      "Đúng — 'am going to make': kế hoạch đã có từ trước: 'am going to make'.",
+      "Sai — 'make': hiện tại đơn không diễn tả dự định cá nhân.",
+      "Sai — 'would make': 'would make' dùng cho tình huống giả định hoặc quá khứ, không dùng cho kế hoạch này."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-future-going-to-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u2-evidence-prediction",
+    "tags": [
+      "fgt-u2-evidence-prediction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I bet you ______ (like) the new teacher. She is really friendly, and everyone says so.",
+    "choices": [
+      "will like",
+      "are going to like",
+      "are liking",
+      "like"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đây là dự đoán dựa trên ý kiến, nhận định chung ('I bet', mọi người nói') chứ không phải bằng chứng ngay trước mắt, nên dùng will.",
+    "choiceExplanations": [
+      "Đúng — 'will like': 'will like' hợp với dự đoán dựa trên ý kiến, nhận định chung.",
+      "Sai — 'are going to like': về ngữ pháp có thể nghe được, nhưng 'going to' hợp khi có bằng chứng ngay trước mắt; ở đây chỉ là nhận định nên 'will' tự nhiên hơn.",
+      "Sai — 'are liking': 'like' là động từ chỉ trạng thái, ít dùng ở tiếp diễn; 'are liking' cũng không dự đoán tương lai.",
+      "Sai — 'like': hiện tại đơn không dùng để dự đoán điều chưa xảy ra."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-future-going-to-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u5-question-negative-vs-continuous",
+    "tags": [
+      "fgt-u5-question-negative-vs-continuous"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ (you / not / tell) your parents about your test score? They will find out anyway.",
+    "choices": [
+      "Don't you going to tell",
+      "Aren't you going tell",
+      "Aren't you going to tell",
+      "Aren't you going to telling"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu hỏi phủ định: Aren't/Isn't + S + going to + V. Với 'you' dùng 'Aren't'.",
+    "choiceExplanations": [
+      "Sai — 'Don't you going to tell': không dùng 'Don't' với going to; phải đảo 'Aren't' lên trước chủ ngữ.",
+      "Sai — 'Aren't you going tell': thiếu 'to' sau 'going'.",
+      "Đúng — 'Aren't you going to tell': đúng cấu trúc câu hỏi phủ định: Aren't you going to tell...?",
+      "Sai — 'Aren't you going to telling': sau 'going to' phải là động từ nguyên thể, không phải V-ing."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-future-going-to-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u3-near-future-signs",
+    "tags": [
+      "fgt-u3-near-future-signs"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hurry up! The bus ______ (leave)! I can see the driver closing the doors.",
+    "choices": [
+      "will leave",
+      "is going to leave",
+      "leaves",
+      "left"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dấu hiệu rõ ràng ngay trước mắt (tài xế đóng cửa) cho thấy xe sắp chạy nên dùng going to.",
+    "choiceExplanations": [
+      "Sai — 'will leave': 'will' hợp với quyết định hoặc ý kiến, không dựa vào dấu hiệu quan sát được.",
+      "Đúng — 'is going to leave': dấu hiệu rõ ràng + sắp xảy ra ngay: 'is going to leave'.",
+      "Sai — 'leaves': hiện tại đơn dành cho lịch trình, không dùng để cảnh báo việc sắp xảy ra từ dấu hiệu.",
+      "Sai — 'left': thì quá khứ không hợp vì xe chưa chạy."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-future-going-to-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-going-to",
+    "usageId": "fgt-u1-planned-intention",
+    "tags": [
+      "fgt-u1-planned-intention"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: 'Why did you hang up so quickly?' B: 'I ______ (not / argue) with him again. I decided last night that it's not worth it.'",
+    "choices": [
+      "won't argue",
+      "am not arguing",
+      "don't argue",
+      "am not going to argue"
+    ],
+    "correctIndex": 3,
+    "explanation": "B đã quyết định từ tối qua nên dùng going to cho dự định có từ trước.",
+    "choiceExplanations": [
+      "Sai — 'won't argue': 'won't' thường dùng cho lời từ chối hoặc quyết tâm tức thời; ở đây B đã quyết định từ tối qua nên 'going to' hợp hơn.",
+      "Sai — 'am not arguing': 'am not arguing' diễn tả việc đang xảy ra hoặc sắp xếp đã chốt, không hợp dự định này.",
+      "Sai — 'don't argue': hiện tại đơn không diễn tả dự định cá nhân.",
+      "Đúng — 'am not going to argue': dự định đã có từ trước: 'am not going to argue'."
+    ],
+    "bac": 4
   }
 ]

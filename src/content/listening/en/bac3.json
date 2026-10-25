@@ -1,0 +1,458 @@
+[
+  {
+    "id": "ls-b3-001",
+    "bac": 3,
+    "title": "Thông báo ở sân bay",
+    "transcript": "Attention all passengers travelling on flight BA 246 to London. This is a gate change announcement. Your flight will now depart from gate 15, not gate 9 as previously stated. Also, due to bad weather conditions in London, there will be a slight delay of thirty minutes. The new departure time is 10:45 AM. We apologize for the inconvenience and ask that you please remain seated in the waiting area. Boarding will begin at 10:15 AM. Thank you for your patience and for choosing British Airways.",
+    "questions": [
+      {
+        "prompt": "What is the new gate number for the flight to London?",
+        "choices": [
+          "Gate 9",
+          "Gate 10",
+          "Gate 15",
+          "Gate 45"
+        ],
+        "correctIndex": 2,
+        "explanation": "Thông báo nói rõ 'Your flight will now depart from gate 15'.",
+        "choiceExplanations": [
+          "Sai — 'Gate 9': không khớp với nội dung bài nghe.",
+          "Sai — 'Gate 10': không khớp với nội dung bài nghe.",
+          "Đúng — Thông báo nói rõ 'Your flight will now depart from gate 15'.",
+          "Sai — 'Gate 45': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Why is the flight delayed?",
+        "choices": [
+          "Technical problems with the plane",
+          "Bad weather conditions in London",
+          "A missing pilot",
+          "Security checks"
+        ],
+        "correctIndex": 1,
+        "explanation": "Nguyên nhân được nêu là 'due to bad weather conditions in London'.",
+        "choiceExplanations": [
+          "Sai — 'Technical problems with the plane': không khớp với nội dung bài nghe.",
+          "Đúng — Nguyên nhân được nêu là 'due to bad weather conditions in London'.",
+          "Sai — 'A missing pilot': không khớp với nội dung bài nghe.",
+          "Sai — 'Security checks': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What time will boarding begin?",
+        "choices": [
+          "10:00 AM",
+          "10:15 AM",
+          "10:30 AM",
+          "10:45 AM"
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu gần cuối nói 'Boarding will begin at 10:15 AM'.",
+        "choiceExplanations": [
+          "Sai — '10:00 AM': không khớp với nội dung bài nghe.",
+          "Đúng — Câu gần cuối nói 'Boarding will begin at 10:15 AM'.",
+          "Sai — '10:30 AM': không khớp với nội dung bài nghe.",
+          "Sai — '10:45 AM': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What is the main purpose of this announcement?",
+        "choices": [
+          "To cancel the flight entirely",
+          "To inform passengers about a gate change and a delay",
+          "To advertise British Airways",
+          "To ask passengers to leave the airport"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đây là thông báo đổi cổng ra máy bay và thông báo hoãn chuyến bay 30 phút.",
+        "choiceExplanations": [
+          "Sai — 'To cancel the flight entirely': không khớp với nội dung bài nghe.",
+          "Đúng — Đây là thông báo đổi cổng ra máy bay và thông báo hoãn chuyến bay 30 phút.",
+          "Sai — 'To advertise British Airways': không khớp với nội dung bài nghe.",
+          "Sai — 'To ask passengers to leave the airport': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-002",
+    "bac": 3,
+    "title": "Tin nhắn thoại cho đồng nghiệp",
+    "transcript": "Hi Michael, it's Jennifer calling from the marketing department. I am leaving this message to talk about our meeting scheduled for tomorrow afternoon. Unfortunately, I have a sudden doctor's appointment that I cannot cancel, so I won't be able to make it at 2 PM. Could we possibly reschedule the meeting for Thursday morning instead? Say, around 10 AM? I have already finished the presentation slides, so we just need half an hour to review them together. Please call me back when you get this message so we can confirm the new time. Thanks, bye.",
+    "questions": [
+      {
+        "prompt": "Why is Jennifer calling Michael?",
+        "choices": [
+          "To complain about her doctor",
+          "To ask for help with presentation slides",
+          "To reschedule a meeting",
+          "To invite him to lunch"
+        ],
+        "correctIndex": 2,
+        "explanation": "Jennifer muốn đổi lịch họp sang sáng thứ Năm ('reschedule the meeting').",
+        "choiceExplanations": [
+          "Sai — 'To complain about her doctor': không khớp với nội dung bài nghe.",
+          "Sai — 'To ask for help with presentation slides': không khớp với nội dung bài nghe.",
+          "Đúng — Jennifer muốn đổi lịch họp sang sáng thứ Năm ('reschedule the meeting').",
+          "Sai — 'To invite him to lunch': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Why can't Jennifer attend the meeting tomorrow afternoon?",
+        "choices": [
+          "She has a doctor's appointment.",
+          "She is sick in bed.",
+          "She has not finished her work.",
+          "She is going on a business trip."
+        ],
+        "correctIndex": 0,
+        "explanation": "Cô ấy nêu lý do 'I have a sudden doctor's appointment that I cannot cancel'.",
+        "choiceExplanations": [
+          "Đúng — Cô ấy nêu lý do 'I have a sudden doctor's appointment that I cannot cancel'.",
+          "Sai — 'She is sick in bed.': không khớp với nội dung bài nghe.",
+          "Sai — 'She has not finished her work.': không khớp với nội dung bài nghe.",
+          "Sai — 'She is going on a business trip.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What time does Jennifer suggest for the new meeting?",
+        "choices": [
+          "Wednesday at 2 PM",
+          "Thursday at 10 AM",
+          "Friday at 9 AM",
+          "Thursday at 2 PM"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô ấy đề xuất 'Thursday morning instead? Say, around 10 AM?'.",
+        "choiceExplanations": [
+          "Sai — 'Wednesday at 2 PM': không khớp với nội dung bài nghe.",
+          "Đúng — Cô ấy đề xuất 'Thursday morning instead? Say, around 10 AM?'.",
+          "Sai — 'Friday at 9 AM': không khớp với nội dung bài nghe.",
+          "Sai — 'Thursday at 2 PM': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What can be inferred about the upcoming meeting?",
+        "choices": [
+          "It will take a very long time.",
+          "It will be a short meeting to review slides.",
+          "It is the first time they are meeting.",
+          "It requires a lot of new research."
+        ],
+        "correctIndex": 1,
+        "explanation": "Jennifer nói 'we just need half an hour to review them together', suy ra cuộc họp sẽ ngắn gọn.",
+        "choiceExplanations": [
+          "Sai — 'It will take a very long time.': không khớp với nội dung bài nghe.",
+          "Đúng — Jennifer nói 'we just need half an hour to review them together', suy ra cuộc họp sẽ ngắn gọn.",
+          "Sai — 'It is the first time they are meeting.': không khớp với nội dung bài nghe.",
+          "Sai — 'It requires a lot of new research.': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-003",
+    "bac": 3,
+    "title": "Phỏng vấn xin việc",
+    "transcript": "A: Good morning, please take a seat. I'm Mr. Harris. Let's start the interview. Can you tell me why you want to work for our company?\nB: Good morning. Well, I have been following your recent projects in renewable energy, and I am very impressed. I want to be part of a team that cares about the environment.\nA: That's great to hear. You have three years of experience in sales, right?\nB: Yes, I worked at Tech Solutions. I managed customer accounts and increased sales by twenty percent last year.\nA: Impressive. Are you comfortable working under pressure and meeting strict deadlines?\nB: Absolutely. I actually perform better when I have clear goals to focus on.",
+    "questions": [
+      {
+        "prompt": "Why does the candidate want to work for the company?",
+        "choices": [
+          "Because the salary is very high",
+          "Because she likes their renewable energy projects",
+          "Because she lives near the office",
+          "Because her friend works there"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ứng viên trả lời 'I have been following your recent projects in renewable energy, and I am very impressed'.",
+        "choiceExplanations": [
+          "Sai — 'Because the salary is very high': không khớp với nội dung bài nghe.",
+          "Đúng — Ứng viên trả lời 'I have been following your recent projects in renewable energy, and I am very impressed'.",
+          "Sai — 'Because she lives near the office': không khớp với nội dung bài nghe.",
+          "Sai — 'Because her friend works there': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "How many years of sales experience does the candidate have?",
+        "choices": [
+          "One year",
+          "Two years",
+          "Three years",
+          "Four years"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người phỏng vấn xác nhận 'You have three years of experience in sales, right?' và ứng viên đồng ý.",
+        "choiceExplanations": [
+          "Sai — 'One year': không khớp với nội dung bài nghe.",
+          "Sai — 'Two years': không khớp với nội dung bài nghe.",
+          "Đúng — Người phỏng vấn xác nhận 'You have three years of experience in sales, right?' và ứng viên đồng ý.",
+          "Sai — 'Four years': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What was the candidate's achievement at her previous job?",
+        "choices": [
+          "She invented a new product.",
+          "She hired ten new employees.",
+          "She increased sales by twenty percent.",
+          "She opened a new office."
+        ],
+        "correctIndex": 2,
+        "explanation": "Ứng viên tự hào nói 'increased sales by twenty percent last year'.",
+        "choiceExplanations": [
+          "Sai — 'She invented a new product.': không khớp với nội dung bài nghe.",
+          "Sai — 'She hired ten new employees.': không khớp với nội dung bài nghe.",
+          "Đúng — Ứng viên tự hào nói 'increased sales by twenty percent last year'.",
+          "Sai — 'She opened a new office.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What is the candidate's attitude toward working under pressure?",
+        "choices": [
+          "She hates it and gets stressed.",
+          "She thinks it is impossible.",
+          "She avoids it at all costs.",
+          "She welcomes it and performs better."
+        ],
+        "correctIndex": 3,
+        "explanation": "Cô ấy khẳng định 'Absolutely. I actually perform better when I have clear goals to focus on'.",
+        "choiceExplanations": [
+          "Sai — 'She hates it and gets stressed.': không khớp với nội dung bài nghe.",
+          "Sai — 'She thinks it is impossible.': không khớp với nội dung bài nghe.",
+          "Sai — 'She avoids it at all costs.': không khớp với nội dung bài nghe.",
+          "Đúng — Cô ấy khẳng định 'Absolutely. I actually perform better when I have clear goals to focus on'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-004",
+    "bac": 3,
+    "title": "Thảo luận bài tập nhóm",
+    "transcript": "A: Alright, we need to decide on a topic for our history presentation next week.\nB: How about the Industrial Revolution? There is a lot of information available online.\nA: That's true, but I think many other groups will choose that. We should pick something more unique. What about the history of ancient trade routes in Asia?\nB: Oh, like the Silk Road? That sounds very interesting. But do you think we can find enough pictures for the slides?\nA: Yes, the library has some great books with maps and illustrations. I can scan them.\nB: Okay, let's do it. I will start researching the economic impact, and you can focus on the cultural exchange.",
+    "questions": [
+      {
+        "prompt": "Why does Speaker A reject the topic of the Industrial Revolution?",
+        "choices": [
+          "It is too boring.",
+          "It is too difficult to understand.",
+          "Many other groups might choose it.",
+          "There is no information available online."
+        ],
+        "correctIndex": 2,
+        "explanation": "A nói 'I think many other groups will choose that. We should pick something more unique'.",
+        "choiceExplanations": [
+          "Sai — 'It is too boring.': không khớp với nội dung bài nghe.",
+          "Sai — 'It is too difficult to understand.': không khớp với nội dung bài nghe.",
+          "Đúng — A nói 'I think many other groups will choose that. We should pick something more unique'.",
+          "Sai — 'There is no information available online.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What topic do they finally agree on?",
+        "choices": [
+          "The Industrial Revolution",
+          "Ancient trade routes in Asia (The Silk Road)",
+          "European art history",
+          "Modern technology"
+        ],
+        "correctIndex": 1,
+        "explanation": "A đề xuất 'history of ancient trade routes in Asia' và B đồng ý 'Okay, let's do it'.",
+        "choiceExplanations": [
+          "Sai — 'The Industrial Revolution': không khớp với nội dung bài nghe.",
+          "Đúng — A đề xuất 'history of ancient trade routes in Asia' và B đồng ý 'Okay, let's do it'.",
+          "Sai — 'European art history': không khớp với nội dung bài nghe.",
+          "Sai — 'Modern technology': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Where will they get pictures for their presentation?",
+        "choices": [
+          "From the internet",
+          "From their professor",
+          "From books in the library",
+          "From a museum"
+        ],
+        "correctIndex": 2,
+        "explanation": "A nói 'the library has some great books with maps and illustrations. I can scan them'.",
+        "choiceExplanations": [
+          "Sai — 'From the internet': không khớp với nội dung bài nghe.",
+          "Sai — 'From their professor': không khớp với nội dung bài nghe.",
+          "Đúng — A nói 'the library has some great books with maps and illustrations. I can scan them'.",
+          "Sai — 'From a museum': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What is the main purpose of this conversation?",
+        "choices": [
+          "To argue about history",
+          "To divide work and choose a presentation topic",
+          "To complain about a difficult class",
+          "To plan a trip to Asia"
+        ],
+        "correctIndex": 1,
+        "explanation": "Hai sinh viên đang thảo luận chọn chủ đề thuyết trình và phân công nhiệm vụ.",
+        "choiceExplanations": [
+          "Sai — 'To argue about history': không khớp với nội dung bài nghe.",
+          "Đúng — Hai sinh viên đang thảo luận chọn chủ đề thuyết trình và phân công nhiệm vụ.",
+          "Sai — 'To complain about a difficult class': không khớp với nội dung bài nghe.",
+          "Sai — 'To plan a trip to Asia': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-005",
+    "bac": 3,
+    "title": "Đặt phòng khách sạn",
+    "transcript": "A: Good evening, Welcome to the Grand Plaza Hotel. How may I assist you?\nB: Hi, I have a reservation under the name John Smith. It's for a single room for three nights.\nA: Let me check the system. Yes, Mr. Smith. A single room with a city view. However, I see you didn't include breakfast in your booking. Would you like to add it now?\nB: How much is it per day?\nA: It is an extra fifteen dollars a day, and it includes a full buffet from 6 AM to 10 AM.\nB: That sounds reasonable. Yes, please add breakfast. Here is my credit card.\nA: Thank you. Here is your room key. You are on the seventh floor, room 705.",
+    "questions": [
+      {
+        "prompt": "What kind of room did Mr. Smith book?",
+        "choices": [
+          "A double room",
+          "A single room with a city view",
+          "A suite with a sea view",
+          "A family room"
+        ],
+        "correctIndex": 1,
+        "explanation": "Nhân viên xác nhận: 'A single room with a city view'.",
+        "choiceExplanations": [
+          "Sai — 'A double room': không khớp với nội dung bài nghe.",
+          "Đúng — Nhân viên xác nhận: 'A single room with a city view'.",
+          "Sai — 'A suite with a sea view': không khớp với nội dung bài nghe.",
+          "Sai — 'A family room': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What was missing from the original booking?",
+        "choices": [
+          "The payment",
+          "The guest's name",
+          "Breakfast",
+          "The room key"
+        ],
+        "correctIndex": 2,
+        "explanation": "Nhân viên nhận ra 'I see you didn't include breakfast in your booking'.",
+        "choiceExplanations": [
+          "Sai — 'The payment': không khớp với nội dung bài nghe.",
+          "Sai — 'The guest's name': không khớp với nội dung bài nghe.",
+          "Đúng — Nhân viên nhận ra 'I see you didn't include breakfast in your booking'.",
+          "Sai — 'The room key': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "How much does the breakfast cost?",
+        "choices": [
+          "Ten dollars a day",
+          "Fifteen dollars a day",
+          "Twenty dollars a day",
+          "It is free"
+        ],
+        "correctIndex": 1,
+        "explanation": "Nhân viên báo giá 'It is an extra fifteen dollars a day'.",
+        "choiceExplanations": [
+          "Sai — 'Ten dollars a day': không khớp với nội dung bài nghe.",
+          "Đúng — Nhân viên báo giá 'It is an extra fifteen dollars a day'.",
+          "Sai — 'Twenty dollars a day': không khớp với nội dung bài nghe.",
+          "Sai — 'It is free': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What can we infer about Mr. Smith's decision?",
+        "choices": [
+          "He thinks the breakfast is too expensive.",
+          "He prefers to eat outside the hotel.",
+          "He thinks the price is fair and decides to pay for it.",
+          "He is angry at the receptionist."
+        ],
+        "correctIndex": 2,
+        "explanation": "Ông ấy nói 'That sounds reasonable. Yes, please add breakfast' cho thấy ông thấy giá cả hợp lý.",
+        "choiceExplanations": [
+          "Sai — 'He thinks the breakfast is too expensive.': không khớp với nội dung bài nghe.",
+          "Sai — 'He prefers to eat outside the hotel.': không khớp với nội dung bài nghe.",
+          "Đúng — Ông ấy nói 'That sounds reasonable. Yes, please add breakfast' cho thấy ông thấy giá cả hợp lý.",
+          "Sai — 'He is angry at the receptionist.': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b3-006",
+    "bac": 3,
+    "title": "Nhận xét về bộ phim",
+    "transcript": "A: So, what did you think of the new sci-fi movie we just watched?\nB: Honestly, I was a bit disappointed. The special effects were amazing, but the story was very confusing. I didn't understand the ending at all.\nA: Really? I actually loved it. I think the director wanted to leave the ending open so the audience could imagine what happens next.\nB: Maybe, but I prefer movies with a clear conclusion. Also, the main actor's performance felt very unnatural to me.\nA: I agree with you on that point. His dialogue delivery was quite flat. But overall, I still think the visual style makes it worth watching.\nB: Well, I guess we just have different tastes in movies.",
+    "questions": [
+      {
+        "prompt": "What did Speaker B like about the movie?",
+        "choices": [
+          "The main actor's performance",
+          "The confusing ending",
+          "The special effects",
+          "The background music"
+        ],
+        "correctIndex": 2,
+        "explanation": "B nói 'The special effects were amazing'.",
+        "choiceExplanations": [
+          "Sai — 'The main actor's performance': không khớp với nội dung bài nghe.",
+          "Sai — 'The confusing ending': không khớp với nội dung bài nghe.",
+          "Đúng — B nói 'The special effects were amazing'.",
+          "Sai — 'The background music': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Why did Speaker A enjoy the ending?",
+        "choices": [
+          "Because it was very clear and simple.",
+          "Because it left room for the audience's imagination.",
+          "Because everyone died at the end.",
+          "Because it was very funny."
+        ],
+        "correctIndex": 1,
+        "explanation": "A giải thích 'the director wanted to leave the ending open so the audience could imagine what happens next'.",
+        "choiceExplanations": [
+          "Sai — 'Because it was very clear and simple.': không khớp với nội dung bài nghe.",
+          "Đúng — A giải thích 'the director wanted to leave the ending open so the audience could imagine what happens next'.",
+          "Sai — 'Because everyone died at the end.': không khớp với nội dung bài nghe.",
+          "Sai — 'Because it was very funny.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What point do both speakers agree on?",
+        "choices": [
+          "The movie is a masterpiece.",
+          "The ending was terrible.",
+          "The visual style is ugly.",
+          "The main actor's performance was not good."
+        ],
+        "correctIndex": 3,
+        "explanation": "Khi B chê diễn xuất của diễn viên chính, A đáp lại 'I agree with you on that point. His dialogue delivery was quite flat'.",
+        "choiceExplanations": [
+          "Sai — 'The movie is a masterpiece.': không khớp với nội dung bài nghe.",
+          "Sai — 'The ending was terrible.': không khớp với nội dung bài nghe.",
+          "Sai — 'The visual style is ugly.': không khớp với nội dung bài nghe.",
+          "Đúng — Khi B chê diễn xuất của diễn viên chính, A đáp lại 'I agree with you on that point. His dialogue delivery was quite flat'."
+        ]
+      },
+      {
+        "prompt": "What is the general tone of this conversation?",
+        "choices": [
+          "An angry argument",
+          "A friendly exchange of different opinions",
+          "A formal academic debate",
+          "A sales presentation"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đây là một cuộc trao đổi thân thiện giữa hai người bạn có sở thích xem phim khác nhau.",
+        "choiceExplanations": [
+          "Sai — 'An angry argument': không khớp với nội dung bài nghe.",
+          "Đúng — Đây là một cuộc trao đổi thân thiện giữa hai người bạn có sở thích xem phim khác nhau.",
+          "Sai — 'A formal academic debate': không khớp với nội dung bài nghe.",
+          "Sai — 'A sales presentation': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  }
+]

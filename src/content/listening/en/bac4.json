@@ -1,0 +1,458 @@
+[
+  {
+    "id": "ls-b4-001",
+    "bac": 4,
+    "title": "Tranh luận về làm việc từ xa",
+    "transcript": "A: I saw the new company policy email today. They are asking everyone to return to the office full-time starting next month. I think it's a huge mistake.\nB: Really? I actually think it's a good move. Working from home was fine during the pandemic, but collaboration has definitely suffered. It's much easier to brainstorm when we are in the same room.\nA: I disagree. Our team's productivity has actually increased over the past two years. People save hours by not commuting, and they have a better work-life balance. Forcing everyone back will just lower morale and lead to resignations.\nB: I understand the commuting issue, but you can't deny that the company culture is fading. New employees find it incredibly hard to integrate into the team through video calls alone. There is no spontaneous interaction anymore.\nA: If integration is the problem, we should focus on better onboarding programs, not mandate a full-time return. A hybrid model, maybe two days in the office, would be a much better compromise than this extreme approach.\nB: Perhaps a hybrid model is the middle ground, but management clearly feels we need a reset first.",
+    "questions": [
+      {
+        "prompt": "What is the company's new policy?",
+        "choices": [
+          "To allow everyone to work from home forever",
+          "To mandate a full-time return to the office",
+          "To fire employees who live far away",
+          "To introduce a four-day work week"
+        ],
+        "correctIndex": 1,
+        "explanation": "Speaker A đề cập: 'asking everyone to return to the office full-time starting next month'.",
+        "choiceExplanations": [
+          "Sai — 'To allow everyone to work from home forever': không khớp với nội dung bài nghe.",
+          "Đúng — Speaker A đề cập: 'asking everyone to return to the office full-time starting next month'.",
+          "Sai — 'To fire employees who live far away': không khớp với nội dung bài nghe.",
+          "Sai — 'To introduce a four-day work week': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "According to Speaker B, what is the main problem with working from home?",
+        "choices": [
+          "Employees are too lazy.",
+          "Internet connections are unstable.",
+          "Collaboration and company culture have suffered.",
+          "It costs the company too much money."
+        ],
+        "correctIndex": 2,
+        "explanation": "B nói 'collaboration has definitely suffered' và 'the company culture is fading'.",
+        "choiceExplanations": [
+          "Sai — 'Employees are too lazy.': không khớp với nội dung bài nghe.",
+          "Sai — 'Internet connections are unstable.': không khớp với nội dung bài nghe.",
+          "Đúng — B nói 'collaboration has definitely suffered' và 'the company culture is fading'.",
+          "Sai — 'It costs the company too much money.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What solution does Speaker A propose?",
+        "choices": [
+          "Quitting the company",
+          "A hybrid model of working two days in the office",
+          "Filing a lawsuit against the management",
+          "Moving the office to a cheaper location"
+        ],
+        "correctIndex": 1,
+        "explanation": "A đề xuất 'A hybrid model, maybe two days in the office, would be a much better compromise'.",
+        "choiceExplanations": [
+          "Sai — 'Quitting the company': không khớp với nội dung bài nghe.",
+          "Đúng — A đề xuất 'A hybrid model, maybe two days in the office, would be a much better compromise'.",
+          "Sai — 'Filing a lawsuit against the management': không khớp với nội dung bài nghe.",
+          "Sai — 'Moving the office to a cheaper location': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What can be inferred about the relationship between the two speakers?",
+        "choices": [
+          "They are a boss and an employee arguing.",
+          "They are colleagues openly discussing a policy they disagree on.",
+          "They are married.",
+          "They are strangers meeting on a train."
+        ],
+        "correctIndex": 1,
+        "explanation": "Cách thảo luận chuyên nghiệp về chính sách công ty ('our team's productivity') cho thấy họ là đồng nghiệp.",
+        "choiceExplanations": [
+          "Sai — 'They are a boss and an employee arguing.': không khớp với nội dung bài nghe.",
+          "Đúng — Cách thảo luận chuyên nghiệp về chính sách công ty ('our team's productivity') cho thấy họ là đồng nghiệp.",
+          "Sai — 'They are married.': không khớp với nội dung bài nghe.",
+          "Sai — 'They are strangers meeting on a train.': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-002",
+    "bac": 4,
+    "title": "Thảo luận ngân sách công ty",
+    "transcript": "A: Let's discuss the marketing budget for the next quarter. I'm proposing a significant shift of funds from traditional print advertising towards social media influencers.\nB: I've read your proposal, but I have serious reservations. Our core demographic is over fifty years old. They still read magazines and newspapers. Moving away from print might alienate our most loyal customer base.\nA: But the data shows our growth has stagnated. If we want to secure the company's future, we desperately need to attract a younger audience. Influencer marketing gives us a much higher return on investment and measurable engagement metrics that print simply cannot provide.\nB: Metrics are great, but influencers can be unpredictable and sometimes damage brand reputation. Furthermore, it takes years to build the kind of trust we currently have through our traditional channels. It feels too risky to abandon what works.\nA: We aren't abandoning it completely, just reallocating thirty percent of the budget. It's a calculated risk. If we don't modernize our approach soon, our competitors will completely dominate the digital space.\nB: Fine, let's run a small pilot campaign first before committing thirty percent.",
+    "questions": [
+      {
+        "prompt": "What change is Speaker A proposing for the budget?",
+        "choices": [
+          "Cutting the marketing budget completely",
+          "Shifting funds from print to social media influencers",
+          "Investing more in television commercials",
+          "Increasing the salaries of the marketing team"
+        ],
+        "correctIndex": 1,
+        "explanation": "A nói 'proposing a significant shift of funds from traditional print advertising towards social media influencers'.",
+        "choiceExplanations": [
+          "Sai — 'Cutting the marketing budget completely': không khớp với nội dung bài nghe.",
+          "Đúng — A nói 'proposing a significant shift of funds from traditional print advertising towards social media influencers'.",
+          "Sai — 'Investing more in television commercials': không khớp với nội dung bài nghe.",
+          "Sai — 'Increasing the salaries of the marketing team': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Why is Speaker B worried about this change?",
+        "choices": [
+          "Social media is too expensive.",
+          "Their older core customers might feel alienated.",
+          "The internet is not secure.",
+          "They do not know how to use social media."
+        ],
+        "correctIndex": 1,
+        "explanation": "B lo ngại 'Our core demographic is over fifty... Moving away from print might alienate our most loyal customer base'.",
+        "choiceExplanations": [
+          "Sai — 'Social media is too expensive.': không khớp với nội dung bài nghe.",
+          "Đúng — B lo ngại 'Our core demographic is over fifty... Moving away from print might alienate our most loyal customer base'.",
+          "Sai — 'The internet is not secure.': không khớp với nội dung bài nghe.",
+          "Sai — 'They do not know how to use social media.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What advantage of influencer marketing does Speaker A highlight?",
+        "choices": [
+          "It is completely free.",
+          "It guarantees immediate wealth.",
+          "It provides higher return on investment and measurable metrics.",
+          "It is favored by elderly customers."
+        ],
+        "correctIndex": 2,
+        "explanation": "A lập luận 'Influencer marketing gives us a much higher return on investment and measurable engagement metrics'.",
+        "choiceExplanations": [
+          "Sai — 'It is completely free.': không khớp với nội dung bài nghe.",
+          "Sai — 'It guarantees immediate wealth.': không khớp với nội dung bài nghe.",
+          "Đúng — A lập luận 'Influencer marketing gives us a much higher return on investment and measurable engagement metrics'.",
+          "Sai — 'It is favored by elderly customers.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "How do they resolve the disagreement at the end?",
+        "choices": [
+          "They decide to fire the marketing team.",
+          "Speaker A quits the company.",
+          "They agree to run a small pilot campaign first.",
+          "They shift 100% of the budget to digital immediately."
+        ],
+        "correctIndex": 2,
+        "explanation": "B nhượng bộ nhưng thận trọng: 'let's run a small pilot campaign first before committing thirty percent'.",
+        "choiceExplanations": [
+          "Sai — 'They decide to fire the marketing team.': không khớp với nội dung bài nghe.",
+          "Sai — 'Speaker A quits the company.': không khớp với nội dung bài nghe.",
+          "Đúng — B nhượng bộ nhưng thận trọng: 'let's run a small pilot campaign first before committing thirty percent'.",
+          "Sai — 'They shift 100% of the budget to digital immediately.': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-003",
+    "bac": 4,
+    "title": "Đánh giá một nhà hàng mới",
+    "transcript": "A: Have you tried that new vegan restaurant downtown, 'Green Leaf'? The reviews online are absolutely glowing.\nB: Yes, I went there last Friday for dinner. To be honest, I think the hype is largely unjustified. The interior design is beautiful, but the food itself was quite underwhelming.\nA: That's surprising! Everyone says their plant-based burger is the best in the city. What did you order?\nB: I had the mushroom risotto. It was extremely bland and portion sizes were ridiculously small considering the high prices. I left feeling hungry.\nA: Oh, what a shame. I was planning to book a table there for my anniversary next week. Maybe they just had an off night in the kitchen?\nB: Possibly, but good restaurants need consistency. Also, the service was painfully slow. We waited over forty minutes for our main courses. If you want a nice anniversary dinner, I would strongly recommend 'The Rustic Spoon' instead. It's much more reliable.\nA: Thanks for the warning. I'll definitely look into 'The Rustic Spoon'. I don't want to risk ruining a special evening with bad service.",
+    "questions": [
+      {
+        "prompt": "What was Speaker B's overall impression of the new restaurant?",
+        "choices": [
+          "It was the best dining experience ever.",
+          "The interior was ugly but the food was great.",
+          "The hype was unjustified and the food was underwhelming.",
+          "It was very cheap but delicious."
+        ],
+        "correctIndex": 2,
+        "explanation": "B thẳng thắn nhận xét 'the hype is largely unjustified' và thức ăn 'quite underwhelming'.",
+        "choiceExplanations": [
+          "Sai — 'It was the best dining experience ever.': không khớp với nội dung bài nghe.",
+          "Sai — 'The interior was ugly but the food was great.': không khớp với nội dung bài nghe.",
+          "Đúng — B thẳng thắn nhận xét 'the hype is largely unjustified' và thức ăn 'quite underwhelming'.",
+          "Sai — 'It was very cheap but delicious.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What specific complaints did Speaker B have about the mushroom risotto?",
+        "choices": [
+          "It was too spicy and burnt.",
+          "It was bland, small, and overpriced.",
+          "It contained real meat.",
+          "It was served too quickly."
+        ],
+        "correctIndex": 1,
+        "explanation": "B phàn nàn 'It was extremely bland and portion sizes were ridiculously small considering the high prices'.",
+        "choiceExplanations": [
+          "Sai — 'It was too spicy and burnt.': không khớp với nội dung bài nghe.",
+          "Đúng — B phàn nàn 'It was extremely bland and portion sizes were ridiculously small considering the high prices'.",
+          "Sai — 'It contained real meat.': không khớp với nội dung bài nghe.",
+          "Sai — 'It was served too quickly.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Why did Speaker A change their mind about booking the restaurant?",
+        "choices": [
+          "Because Speaker B said the service was slow and unreliable.",
+          "Because the restaurant closed down.",
+          "Because they don't like vegan food.",
+          "Because they forgot their anniversary."
+        ],
+        "correctIndex": 0,
+        "explanation": "Nghe lời cảnh báo của B về dịch vụ chậm chạp ('painfully slow'), A không muốn mạo hiểm hỏng tiệc kỷ niệm.",
+        "choiceExplanations": [
+          "Đúng — Nghe lời cảnh báo của B về dịch vụ chậm chạp ('painfully slow'), A không muốn mạo hiểm hỏng tiệc kỷ niệm.",
+          "Sai — 'Because the restaurant closed down.': không khớp với nội dung bài nghe.",
+          "Sai — 'Because they don't like vegan food.': không khớp với nội dung bài nghe.",
+          "Sai — 'Because they forgot their anniversary.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What can be inferred about 'The Rustic Spoon'?",
+        "choices": [
+          "It is a fast food chain.",
+          "It has a reputation for reliable food and good service.",
+          "It is much more expensive than 'Green Leaf'.",
+          "It serves only meat."
+        ],
+        "correctIndex": 1,
+        "explanation": "B giới thiệu nhà hàng này vì nó 'much more reliable' cho một bữa tiệc kỷ niệm.",
+        "choiceExplanations": [
+          "Sai — 'It is a fast food chain.': không khớp với nội dung bài nghe.",
+          "Đúng — B giới thiệu nhà hàng này vì nó 'much more reliable' cho một bữa tiệc kỷ niệm.",
+          "Sai — 'It is much more expensive than 'Green Leaf'.': không khớp với nội dung bài nghe.",
+          "Sai — 'It serves only meat.': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-004",
+    "bac": 4,
+    "title": "Kế hoạch chuyển văn phòng",
+    "transcript": "A: Did you hear the rumors about the headquarters moving to the suburbs next year? I'm quite worried about it.\nB: Yes, the CEO mentioned it in the quarterly meeting. Honestly, I'm thrilled. The rent for this downtown office is astronomical. Moving to the suburbs will save the company millions, which hopefully translates to better bonuses for us.\nA: But think about the commute! Right now, most of us take the subway and are here in twenty minutes. If we move to the business park outside the city, there is zero public transport. Everyone will be forced to buy a car and deal with highway traffic.\nB: That's a valid point, but the new facility is supposed to have a massive free parking lot, a gym, and a cafeteria. Plus, housing is much cheaper out there, so it might encourage some staff to relocate and enjoy a quieter lifestyle.\nA: I don't want a quiet lifestyle, I love the city energy. I just think management is only looking at the real estate costs and completely ignoring the daily impact on the employees' lives.\nB: Let's wait for the official announcement before panicking.",
+    "questions": [
+      {
+        "prompt": "Why is Speaker B excited about the office moving?",
+        "choices": [
+          "Because they hate working.",
+          "Because the company will save money on rent, potentially leading to better bonuses.",
+          "Because they want to use the subway more often.",
+          "Because they want to get fired."
+        ],
+        "correctIndex": 1,
+        "explanation": "B nói 'Moving to the suburbs will save the company millions, which hopefully translates to better bonuses'.",
+        "choiceExplanations": [
+          "Sai — 'Because they hate working.': không khớp với nội dung bài nghe.",
+          "Đúng — B nói 'Moving to the suburbs will save the company millions, which hopefully translates to better bonuses'.",
+          "Sai — 'Because they want to use the subway more often.': không khớp với nội dung bài nghe.",
+          "Sai — 'Because they want to get fired.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What is Speaker A's primary concern regarding the move?",
+        "choices": [
+          "The lack of a cafeteria",
+          "The noise in the suburbs",
+          "The difficult commute and lack of public transport",
+          "The cost of renting the new office"
+        ],
+        "correctIndex": 2,
+        "explanation": "A phàn nàn 'there is zero public transport. Everyone will be forced to buy a car and deal with highway traffic'.",
+        "choiceExplanations": [
+          "Sai — 'The lack of a cafeteria': không khớp với nội dung bài nghe.",
+          "Sai — 'The noise in the suburbs': không khớp với nội dung bài nghe.",
+          "Đúng — A phàn nàn 'there is zero public transport. Everyone will be forced to buy a car and deal with highway traffic'.",
+          "Sai — 'The cost of renting the new office': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What does Speaker A accuse the management of doing?",
+        "choices": [
+          "Stealing money from employees",
+          "Only caring about real estate costs and ignoring employees' daily lives",
+          "Failing to build a gym",
+          "Paying too much for the new office"
+        ],
+        "correctIndex": 1,
+        "explanation": "A nói 'management is only looking at the real estate costs and completely ignoring the daily impact on the employees'.",
+        "choiceExplanations": [
+          "Sai — 'Stealing money from employees': không khớp với nội dung bài nghe.",
+          "Đúng — A nói 'management is only looking at the real estate costs and completely ignoring the daily impact on the employees'.",
+          "Sai — 'Failing to build a gym': không khớp với nội dung bài nghe.",
+          "Sai — 'Paying too much for the new office': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What is the main topic of this dialogue?",
+        "choices": [
+          "Buying a new car",
+          "The advantages and disadvantages of relocating the office to the suburbs",
+          "How to ask the CEO for a bonus",
+          "The lack of gyms in the city"
+        ],
+        "correctIndex": 1,
+        "explanation": "Toàn bộ bài là cuộc tranh luận giữa một người ủng hộ (vì lợi ích kinh tế) và một người phản đối (vì bất tiện đi lại) việc dời văn phòng.",
+        "choiceExplanations": [
+          "Sai — 'Buying a new car': không khớp với nội dung bài nghe.",
+          "Đúng — Toàn bộ bài là cuộc tranh luận giữa một người ủng hộ (vì lợi ích kinh tế) và một người phản đối (vì bất tiện đi lại) việc dời văn phòng.",
+          "Sai — 'How to ask the CEO for a bonus': không khớp với nội dung bài nghe.",
+          "Sai — 'The lack of gyms in the city': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-005",
+    "bac": 4,
+    "title": "Sử dụng mạng xã hội trong học tập",
+    "transcript": "A: I recently read an article suggesting that teachers should start incorporating social media platforms like TikTok and Instagram into their lesson plans to keep students engaged.\nB: I saw that too, and I strongly oppose the idea. Schools are supposed to be a distraction-free environment. Bringing social media into the classroom just invites shorter attention spans and exposes kids to more screen time.\nA: I see your point, but we have to meet the students where they are. They are already consuming content on these platforms daily. If an educator can condense a complex historical event into a captivating sixty-second video, isn't that a brilliant educational tool?\nB: No, it's superficial learning. True education requires deep reading, critical thinking, and sustained focus. You can't master algebra or analyze literature through a quick, flashy video. It creates an illusion of knowledge.\nA: I'm not saying it should replace textbooks, but it can be an excellent hook to spark initial interest in a subject. Once they are curious, you transition to traditional, deeper methods.\nB: It's a slippery slope. Before you know it, entertainment replaces actual pedagogy.",
+    "questions": [
+      {
+        "prompt": "What is the main subject of the debate?",
+        "choices": [
+          "Banning cell phones in schools entirely",
+          "Using social media platforms as teaching tools in classrooms",
+          "Teaching students how to become influencers",
+          "The cost of buying iPads for students"
+        ],
+        "correctIndex": 1,
+        "explanation": "A mở đầu bằng việc thảo luận ý tưởng 'incorporating social media platforms... into their lesson plans'.",
+        "choiceExplanations": [
+          "Sai — 'Banning cell phones in schools entirely': không khớp với nội dung bài nghe.",
+          "Đúng — A mở đầu bằng việc thảo luận ý tưởng 'incorporating social media platforms... into their lesson plans'.",
+          "Sai — 'Teaching students how to become influencers': không khớp với nội dung bài nghe.",
+          "Sai — 'The cost of buying iPads for students': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Why is Speaker B against the idea?",
+        "choices": [
+          "Because teachers don't know how to use the internet",
+          "Because it will cause shorter attention spans and superficial learning",
+          "Because schools cannot afford the internet",
+          "Because students hate social media"
+        ],
+        "correctIndex": 1,
+        "explanation": "B lập luận nó gây ra 'shorter attention spans' và chỉ là 'superficial learning' (học tập hời hợt).",
+        "choiceExplanations": [
+          "Sai — 'Because teachers don't know how to use the internet': không khớp với nội dung bài nghe.",
+          "Đúng — B lập luận nó gây ra 'shorter attention spans' và chỉ là 'superficial learning' (học tập hời hợt).",
+          "Sai — 'Because schools cannot afford the internet': không khớp với nội dung bài nghe.",
+          "Sai — 'Because students hate social media': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "How does Speaker A view short educational videos?",
+        "choices": [
+          "As a complete replacement for all textbooks",
+          "As a way to waste time",
+          "As an excellent hook to spark initial student interest",
+          "As a punishment for bad students"
+        ],
+        "correctIndex": 2,
+        "explanation": "A nói video ngắn 'can be an excellent hook to spark initial interest in a subject'.",
+        "choiceExplanations": [
+          "Sai — 'As a complete replacement for all textbooks': không khớp với nội dung bài nghe.",
+          "Sai — 'As a way to waste time': không khớp với nội dung bài nghe.",
+          "Đúng — A nói video ngắn 'can be an excellent hook to spark initial interest in a subject'.",
+          "Sai — 'As a punishment for bad students': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What does Speaker B mean by 'It creates an illusion of knowledge'?",
+        "choices": [
+          "Students think they learned a subject deeply, but they only know surface-level facts.",
+          "Magic tricks should not be taught in school.",
+          "Teachers are lying to students.",
+          "The videos are full of fake news."
+        ],
+        "correctIndex": 0,
+        "explanation": "Ý của B là video ngắn chớp nhoáng khiến người xem lầm tưởng mình đã hiểu sâu sắc vấn đề, nhưng thực ra chỉ là kiến thức bề mặt.",
+        "choiceExplanations": [
+          "Đúng — Ý của B là video ngắn chớp nhoáng khiến người xem lầm tưởng mình đã hiểu sâu sắc vấn đề, nhưng thực ra chỉ là kiến thức bề mặt.",
+          "Sai — 'Magic tricks should not be taught in school.': không khớp với nội dung bài nghe.",
+          "Sai — 'Teachers are lying to students.': không khớp với nội dung bài nghe.",
+          "Sai — 'The videos are full of fake news.': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b4-006",
+    "bac": 4,
+    "title": "Giao thông công cộng vs Xe cá nhân",
+    "transcript": "A: The city council's proposal to ban private cars from the city center starting next year is quite controversial. What's your take on it?\nB: I fully support it. The air pollution levels in the downtown area have reached toxic levels, and the traffic congestion makes the city unlivable. Pedestrianizing the center will make it safer, cleaner, and better for local businesses.\nA: I agree with the environmental aspect, but the execution seems rushed. Our current public transport infrastructure is nowhere near ready to handle thousands of extra commuters every day. The buses are already overcrowded and frequently delayed.\nB: The ban includes a massive funding increase for the tram and bus networks. They are purchasing fifty new electric buses and opening two new tram lines. It's a necessary push to force people to change their habits.\nA: That infrastructure takes years to build. In the meantime, elderly people, disabled individuals, and delivery drivers are going to suffer immensely. The council needs to provide clear exemptions and improve the transit system first, before penalizing car owners.\nB: Sometimes you need strict regulations to force rapid systemic change. Gradual approaches haven't worked.",
+    "questions": [
+      {
+        "prompt": "What is the city council proposing to do?",
+        "choices": [
+          "Increase taxes on public transport",
+          "Ban private cars from the city center",
+          "Build a new highway through the downtown",
+          "Close down local businesses"
+        ],
+        "correctIndex": 1,
+        "explanation": "A đề cập đến 'proposal to ban private cars from the city center'.",
+        "choiceExplanations": [
+          "Sai — 'Increase taxes on public transport': không khớp với nội dung bài nghe.",
+          "Đúng — A đề cập đến 'proposal to ban private cars from the city center'.",
+          "Sai — 'Build a new highway through the downtown': không khớp với nội dung bài nghe.",
+          "Sai — 'Close down local businesses': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What is Speaker A's main criticism of the proposal?",
+        "choices": [
+          "It is bad for the environment.",
+          "The city council doesn't care about air pollution.",
+          "The current public transport system cannot handle the increased passenger load.",
+          "Walking is dangerous for everyone."
+        ],
+        "correctIndex": 2,
+        "explanation": "A chỉ trích việc thực thi quá vội vàng vì 'Our current public transport infrastructure is nowhere near ready to handle thousands of extra commuters'.",
+        "choiceExplanations": [
+          "Sai — 'It is bad for the environment.': không khớp với nội dung bài nghe.",
+          "Sai — 'The city council doesn't care about air pollution.': không khớp với nội dung bài nghe.",
+          "Đúng — A chỉ trích việc thực thi quá vội vàng vì 'Our current public transport infrastructure is nowhere near ready to handle thousands of extra commuters'.",
+          "Sai — 'Walking is dangerous for everyone.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Who does Speaker A think will suffer the most in the short term?",
+        "choices": [
+          "Teenagers and students",
+          "Politicians",
+          "Tourists and wealthy residents",
+          "Elderly, disabled people, and delivery drivers"
+        ],
+        "correctIndex": 3,
+        "explanation": "A nhấn mạnh 'In the meantime, elderly people, disabled individuals, and delivery drivers are going to suffer immensely'.",
+        "choiceExplanations": [
+          "Sai — 'Teenagers and students': không khớp với nội dung bài nghe.",
+          "Sai — 'Politicians': không khớp với nội dung bài nghe.",
+          "Sai — 'Tourists and wealthy residents': không khớp với nội dung bài nghe.",
+          "Đúng — A nhấn mạnh 'In the meantime, elderly people, disabled individuals, and delivery drivers are going to suffer immensely'."
+        ]
+      },
+      {
+        "prompt": "What is Speaker B's underlying philosophy regarding the policy?",
+        "choices": [
+          "Strict regulations are sometimes necessary to force rapid and needed changes.",
+          "The government should never interfere with people's lives.",
+          "Gradual changes are always better than sudden bans.",
+          "Cars are the future of urban transport."
+        ],
+        "correctIndex": 0,
+        "explanation": "B chốt lại quan điểm 'Sometimes you need strict regulations to force rapid systemic change'.",
+        "choiceExplanations": [
+          "Đúng — B chốt lại quan điểm 'Sometimes you need strict regulations to force rapid systemic change'.",
+          "Sai — 'The government should never interfere with people's lives.': không khớp với nội dung bài nghe.",
+          "Sai — 'Gradual changes are always better than sudden bans.': không khớp với nội dung bài nghe.",
+          "Sai — 'Cars are the future of urban transport.': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  }
+]

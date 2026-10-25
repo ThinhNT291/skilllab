@@ -838,5 +838,565 @@
       "Sai — 'during' đi với một sự kiện/giai đoạn có tên (during the summer), không đi với số đo thời gian như 'five months'."
     ],
     "bac": 3
+  },
+  {
+    "id": "en-prepositions-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u1-time",
+    "tags": [
+      "prep-u1-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our school festival is ______ October.",
+    "choices": [
+      "on",
+      "in",
+      "at",
+      "since"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trước tên tháng ta dùng 'in'.",
+    "choiceExplanations": [
+      "Sai — 'on' dùng với ngày cụ thể (on 5 October), không dùng với cả tháng.",
+      "Đúng — tháng dùng 'in'.",
+      "Sai — 'at' dùng với giờ giấc, không dùng với tháng.",
+      "Sai — 'since' chỉ mốc bắt đầu của hành động kéo dài, không nêu thời điểm diễn ra một sự kiện."
+    ],
+    "bac": 1
+  },
+  {
+    "id": "en-prepositions-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u1-time",
+    "tags": [
+      "prep-u1-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I usually get up ______ 6:30 on school days.",
+    "choices": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trước giờ cụ thể (6:30) ta dùng 'at'.",
+    "choiceExplanations": [
+      "Đúng — giờ cụ thể dùng 'at'.",
+      "Sai — 'in' dùng với tháng, năm, mùa, buổi; không dùng với giờ cụ thể.",
+      "Sai — 'on' dùng với ngày; ở đây 'on school days' đã nằm sau chỗ trống.",
+      "Sai — 'for' nêu khoảng thời gian, không nêu giờ."
+    ],
+    "bac": 1
+  },
+  {
+    "id": "en-prepositions-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u2-place",
+    "tags": [
+      "prep-u2-place"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please hang the poster ______ the wall next to the door.",
+    "choices": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tường là một bề mặt, áp sát lên bề mặt thì dùng 'on'.",
+    "choiceExplanations": [
+      "Sai — 'in the wall' nghĩa là nằm sâu trong thân tường (như cái đinh cắm vào tường); tấm áp phích treo ngoài mặt tường.",
+      "Sai — 'at' chỉ một điểm/địa điểm, không chỉ vị trí trên bề mặt.",
+      "Đúng — vật gắn trên bề mặt tường dùng 'on'.",
+      "Sai — 'to' chỉ hướng di chuyển, không nêu vị trí treo đồ."
+    ],
+    "bac": 1
+  },
+  {
+    "id": "en-prepositions-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u2-place",
+    "tags": [
+      "prep-u2-place"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There are thirty students ______ my classroom.",
+    "choices": [
+      "on",
+      "at",
+      "to",
+      "in"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lớp học là một không gian kín, nằm bên trong thì dùng 'in'.",
+    "choiceExplanations": [
+      "Sai — 'on' dùng cho bề mặt, không dùng cho không gian bên trong phòng.",
+      "Sai — 'at my classroom' nghe không tự nhiên: ta nói 'at school' (cả trường như một địa điểm) nhưng 'in the classroom' (căn phòng cụ thể).",
+      "Sai — 'to' chỉ hướng di chuyển, không nêu vị trí.",
+      "Đúng — nằm trong một căn phòng (không gian kín) dùng 'in'."
+    ],
+    "bac": 1
+  },
+  {
+    "id": "en-prepositions-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u1-time",
+    "tags": [
+      "prep-u1-time"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We have a big family dinner ______ Christmas Day.",
+    "choices": [
+      "on",
+      "at",
+      "in",
+      "since"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Christmas Day' là một ngày cụ thể (25/12) nên dùng 'on'.",
+    "choiceExplanations": [
+      "Đúng — một ngày cụ thể dùng 'on'.",
+      "Sai — 'at Christmas' (không có 'Day') dùng được khi nói cả dịp lễ nói chung, nhưng 'Christmas Day' là một ngày nên cần 'on'.",
+      "Sai — 'in' dùng với tháng, năm, mùa; ngày cụ thể thì dùng 'on'.",
+      "Sai — 'since' chỉ mốc bắt đầu của hành động kéo dài."
+    ],
+    "bac": 1
+  },
+  {
+    "id": "en-prepositions-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u3-movement",
+    "tags": [
+      "prep-u3-movement"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom goes ______ school by bike every day.",
+    "choices": [
+      "at",
+      "in",
+      "to",
+      "on"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đi đến một nơi nào đó dùng 'to' (go to school).",
+    "choiceExplanations": [
+      "Sai — 'at' chỉ trạng thái đang ở nơi nào đó, không diễn tả sự di chuyển đến.",
+      "Sai — 'in' chỉ vị trí bên trong, không diễn tả đích đến của chuyển động.",
+      "Đúng — 'to' chỉ hướng đi đến nơi nào (go to school).",
+      "Sai — 'on' không diễn tả đích đến; 'on' dùng cho bề mặt hoặc ngày."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-prepositions-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u4-adjective-prep",
+    "tags": [
+      "prep-u4-adjective-prep"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our teacher is very proud ______ our class.",
+    "choices": [
+      "at",
+      "of",
+      "with",
+      "for"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cụm tính từ cố định 'proud of' nghĩa là tự hào về ai/điều gì.",
+    "choiceExplanations": [
+      "Sai — 'proud at' không phải cụm đúng; 'at' chỉ đi với good/bad.",
+      "Đúng — cụm cố định 'proud of'.",
+      "Sai — 'proud with' không phải cụm đúng.",
+      "Sai — 'proud for' không phải cụm đúng; ý tự hào về điều gì dùng 'of'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-prepositions-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u3-movement",
+    "tags": [
+      "prep-u3-movement"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We walked ______ the river for an hour and watched the boats.",
+    "choices": [
+      "across",
+      "through",
+      "into",
+      "along"
+    ],
+    "correctIndex": 3,
+    "explanation": "Đi men theo bờ sông suốt một giờ là đi dọc theo → 'along'.",
+    "choiceExplanations": [
+      "Sai — 'across' là băng sang bờ bên kia, không thể kéo dài cả giờ như vậy.",
+      "Sai — 'through' chỉ đi xuyên qua một không gian có thành bao quanh (rừng, đường hầm); con sông ở đây là thứ đi men theo.",
+      "Sai — 'into' chỉ đi vào bên trong; họ không đi vào sông.",
+      "Đúng — đi men theo chiều dài của con sông → along."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-prepositions-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u3-movement",
+    "tags": [
+      "prep-u3-movement"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The cat crawled ______ the hole in the fence and came out in our garden.",
+    "choices": [
+      "through",
+      "into",
+      "across",
+      "along"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chui qua lỗ rồi ra phía bên kia là đi xuyên qua → 'through'.",
+    "choiceExplanations": [
+      "Đúng — đi xuyên qua lỗ và ra phía bên kia → through.",
+      "Sai — 'into' chỉ đi vào bên trong và dừng ở đó; câu có 'came out' ở bên kia hàng rào nên cần 'through'.",
+      "Sai — 'across' dùng với bề mặt phẳng (đường, sông); cái lỗ không phải là bề mặt.",
+      "Sai — 'along' nghĩa là đi men theo chiều dài của vật, không nói chui qua lỗ."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-prepositions-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u4-adjective-prep",
+    "tags": [
+      "prep-u4-adjective-prep"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My cousin is married ______ a doctor.",
+    "choices": [
+      "with",
+      "of",
+      "to",
+      "at"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cụm tính từ cố định 'married to' nghĩa là kết hôn với ai.",
+    "choiceExplanations": [
+      "Sai — 'married with' là lỗi dịch từng từ từ tiếng Việt; tiếng Anh dùng 'married to'. ('With' chỉ đúng trong 'married with children', nghĩa là có con.)",
+      "Sai — 'married of' không phải cụm đúng.",
+      "Đúng — cụm cố định 'married to' (kết hôn với).",
+      "Sai — 'married at' không phải cụm đúng."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-prepositions-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u4-adjective-prep",
+    "tags": [
+      "prep-u4-adjective-prep"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I am bad ______ remembering names, so I write them down.",
+    "choices": [
+      "of",
+      "at",
+      "in",
+      "for"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cụm 'bad at' nghĩa là kém, tệ về việc gì (ngược với 'good at').",
+    "choiceExplanations": [
+      "Sai — 'bad of' không phải cụm đúng.",
+      "Đúng — cụm cố định 'bad at' (kém về việc gì).",
+      "Sai — 'bad in' không dùng để nói kém làm việc gì; cụm cố định là 'bad at'.",
+      "Sai — 'bad for' nghĩa là có hại cho (bad for your health), không nói về việc kém."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-prepositions-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u5-verb-prep",
+    "tags": [
+      "prep-u5-verb-prep"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our bus will arrive ______ Da Nang at noon.",
+    "choices": [
+      "at",
+      "to",
+      "on",
+      "in"
+    ],
+    "correctIndex": 3,
+    "explanation": "Với thành phố, ta dùng 'arrive in'.",
+    "choiceExplanations": [
+      "Sai — 'arrive at' dùng với địa điểm nhỏ (nhà ga, sân bay). Với thành phố có thể thấy 'at' khi chỉ coi nó là một điểm dừng trên hành trình, nhưng khi nói đến một thành phố bình thường thì dùng 'in'.",
+      "Sai — 'arrive to' không đúng; 'arrive' đi với 'at' hoặc 'in'.",
+      "Sai — 'arrive on' không phải cụm đúng với địa điểm.",
+      "Đúng — thành phố, quốc gia dùng 'arrive in'."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-prepositions-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u1-time",
+    "tags": [
+      "prep-u1-time"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Owls hunt ______ night.",
+    "choices": [
+      "in",
+      "on",
+      "at",
+      "for"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cụm cố định 'at night' dùng cho ban đêm nói chung.",
+    "choiceExplanations": [
+      "Sai — 'in the night' chỉ có trong vài cụm như 'woke up in the night'; để nói ban đêm nói chung, cụm cố định là 'at night' (không có 'the').",
+      "Sai — 'on' dùng với ngày, ví dụ 'on a cold night' mới dùng được vì có một đêm cụ thể.",
+      "Đúng — 'at night' là cụm cố định.",
+      "Sai — 'for' nêu khoảng thời gian (for three hours), không nêu thời điểm."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-prepositions-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u1-time",
+    "tags": [
+      "prep-u1-time"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Let's meet ______ the afternoon of 5 May.",
+    "choices": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "correctIndex": 0,
+    "explanation": "Buổi của một ngày cụ thể (5 May) thì giới từ đi theo ngày: dùng 'on'.",
+    "choiceExplanations": [
+      "Đúng — buổi thuộc một ngày cụ thể dùng 'on' (on the afternoon of 5 May). 'In the afternoon' chỉ dùng khi không nêu ngày.",
+      "Sai — 'in the afternoon' đứng một mình thì đúng, nhưng khi buổi đó gắn với một ngày cụ thể thì giới từ chuyển sang 'on'.",
+      "Sai — 'at' dùng với giờ giấc, không dùng với buổi trong ngày.",
+      "Sai — 'by' nghĩa là không muộn hơn thời điểm đó, không nêu thời điểm diễn ra cuộc gặp."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-prepositions-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u6-between-among",
+    "tags": [
+      "prep-u6-between-among"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The prize was shared ______ the five finalists.",
+    "choices": [
+      "between",
+      "among",
+      "from",
+      "through"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chia cho một nhóm từ ba người trở lên dùng 'among'.",
+    "choiceExplanations": [
+      "Sai — 'between' chủ yếu dùng cho hai người/vật; với năm người coi như một nhóm thì 'among' tự nhiên hơn, dù tiếng Anh đôi khi vẫn dùng 'between' khi nhắc từng cá nhân riêng lẻ.",
+      "Đúng — nhóm từ ba trở lên → among.",
+      "Sai — 'from' chỉ nguồn gốc/điểm xuất phát, không nêu đối tượng được chia.",
+      "Sai — 'through' chỉ đi xuyên qua, không dùng cho việc chia phần."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-prepositions-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u6-between-among",
+    "tags": [
+      "prep-u6-between-among"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mai sat ______ Nam and Lan in the cinema.",
+    "choices": [
+      "among",
+      "beside",
+      "with",
+      "between"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ngồi ở giữa hai người dùng 'between'.",
+    "choiceExplanations": [
+      "Sai — 'among' dùng khi ở giữa từ ba người/vật trở lên; ở đây chỉ có hai người.",
+      "Sai — 'beside' nghĩa là ở cạnh một bên; nó không cho biết Mai ngồi ở giữa Nam và Lan.",
+      "Sai — 'sat with Nam and Lan' nghĩa là ngồi cùng họ, không nói rõ vị trí ở giữa.",
+      "Đúng — hai người/vật → between."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-prepositions-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u7-by-until-during",
+    "tags": [
+      "prep-u7-by-until-during"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I will finish the poster ______ Friday at the latest.",
+    "choices": [
+      "until",
+      "since",
+      "by",
+      "for"
+    ],
+    "correctIndex": 2,
+    "explanation": "'By' + mốc thời gian nghĩa là không muộn hơn mốc đó; 'at the latest' khẳng định ý này.",
+    "choiceExplanations": [
+      "Sai — 'until' nghĩa là kéo dài liên tục đến mốc đó; 'until Friday at the latest' không hợp vì không có hành động kéo dài.",
+      "Sai — 'since' chỉ mốc bắt đầu trong quá khứ, còn câu nói về tương lai.",
+      "Đúng — hạn chót, không muộn hơn thứ Sáu → by.",
+      "Sai — 'for' đi với khoảng thời gian (for two days), không đi với một ngày mốc như Friday."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-prepositions-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u7-by-until-during",
+    "tags": [
+      "prep-u7-by-until-during"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The shop stays open ______ 10 p.m., and then it closes.",
+    "choices": [
+      "by",
+      "until",
+      "since",
+      "during"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Until' diễn tả trạng thái kéo dài liên tục đến một mốc thì dừng.",
+    "choiceExplanations": [
+      "Sai — 'by' nghĩa là không muộn hơn mốc đó, dùng cho hành động xảy ra một lần; 'stays open' là trạng thái kéo dài nên cần 'until'.",
+      "Đúng — trạng thái kéo dài đến 10 giờ tối rồi dừng → until.",
+      "Sai — 'since' chỉ mốc bắt đầu, không phải mốc kết thúc.",
+      "Sai — 'during' đi với một sự kiện/giai đoạn có tên (during the holiday), không đi với giờ."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-prepositions-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-u7-by-until-during",
+    "tags": [
+      "prep-u7-by-until-during"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I fell asleep ______ the movie, so I missed the ending.",
+    "choices": [
+      "for",
+      "since",
+      "between",
+      "during"
+    ],
+    "correctIndex": 3,
+    "explanation": "'During' + danh từ chỉ sự kiện/giai đoạn nghĩa là trong lúc sự kiện đó diễn ra.",
+    "choiceExplanations": [
+      "Sai — 'for' đi với số đo thời gian (for two hours), không đi với một sự kiện như 'the movie'.",
+      "Sai — 'since' chỉ mốc bắt đầu của hành động kéo dài đến hiện tại.",
+      "Sai — 'between' cần hai mốc hoặc hai đối tượng (between 8 and 10), không đi với một sự kiện.",
+      "Đúng — 'during the movie' (trong lúc xem phim)."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-prepositions-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "prepositions",
+    "usageId": "prep-since-for",
+    "tags": [
+      "prep-since-for"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She has lived here ______ she was five years old.",
+    "choices": [
+      "since",
+      "for",
+      "from",
+      "in"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Since' có thể đi với một mệnh đề chỉ mốc trong quá khứ (since she was five).",
+    "choiceExplanations": [
+      "Đúng — 'since' + mệnh đề chỉ mốc thời gian trong quá khứ.",
+      "Sai — 'for' đi với khoảng thời gian (for five years); đứng trước mệnh đề 'she was five' thì không dùng.",
+      "Sai — 'from' không đi với mệnh đề kiểu này để nói 'kể từ khi'; câu hiện tại hoàn thành cần 'since'.",
+      "Sai — 'in' không đứng trước mệnh đề 'she was five years old' với nghĩa 'kể từ khi'."
+    ],
+    "bac": 4
   }
 ]

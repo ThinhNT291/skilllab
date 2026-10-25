@@ -90,6 +90,42 @@
         "bac": 3
       },
       {
+        "id": "prep-u6-between-among",
+        "label": "BETWEEN và AMONG (giữa hai / giữa nhiều)",
+        "explanationVi": "'Between' dùng khi ở giữa hai người hoặc hai vật (between Nam and Lan, between two hills). 'Among' dùng khi ở giữa một nhóm từ ba người/vật trở lên mà không nhắc từng cá nhân (among the students, among the trees).",
+        "examples": [
+          {
+            "en": "The park is between the library and the bank.",
+            "vi": "Công viên nằm giữa thư viện và ngân hàng."
+          },
+          {
+            "en": "The cat was hiding among the boxes in the garage.",
+            "vi": "Con mèo đang trốn giữa đống hộp trong ga-ra."
+          }
+        ],
+        "bac": 3
+      },
+      {
+        "id": "prep-u7-by-until-during",
+        "label": "BY, UNTIL và DURING (hạn chót, kéo dài đến, trong lúc)",
+        "explanationVi": "'By' + mốc thời gian nghĩa là không muộn hơn mốc đó (hạn chót), dùng cho hành động xảy ra một lần: by Friday, by 8 o'clock. 'Until' + mốc thời gian diễn tả trạng thái hay hành động kéo dài liên tục đến mốc đó thì dừng: until noon. 'During' + sự kiện/giai đoạn có tên nghĩa là trong lúc đó: during the lesson, during the holidays (khác 'for' đi với số đo thời gian như for two hours).",
+        "examples": [
+          {
+            "en": "Please hand in your homework by Monday.",
+            "vi": "Hãy nộp bài tập về nhà không muộn hơn thứ Hai."
+          },
+          {
+            "en": "We played outside until it got dark.",
+            "vi": "Chúng tôi chơi ngoài trời cho đến khi trời tối."
+          },
+          {
+            "en": "Please don't talk during the test.",
+            "vi": "Xin đừng nói chuyện trong lúc làm bài kiểm tra."
+          }
+        ],
+        "bac": 3
+      },
+      {
         "id": "prep-since-for",
         "label": "Since và For (mốc thời gian vs khoảng thời gian)",
         "explanationVi": "Since và for đều dùng để chỉ thời gian, thường đi kèm thì Hiện tại hoàn thành, nhưng khác nhau về ý nghĩa: 'since' + MỘT MỐC THỜI ĐIỂM cụ thể trong quá khứ (since 2020, since Monday, since I was young); 'for' + MỘT KHOẢNG THỜI GIAN kéo dài (for three years, for a long time, for two weeks).",

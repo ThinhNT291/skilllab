@@ -62,7 +62,7 @@
         "id": "asr-u4-choosing-auxiliary",
         "bac": 3,
         "label": "Chọn trợ động từ cho đúng",
-        "explanationVi": "Nhìn vào động từ của câu gốc để chọn trợ động từ trả lời: 'I'm tired' → am; 'I love pizza' → do; 'She plays' → does; 'I went' → did; 'I've finished' → have; 'I'll go' → will; 'I can swim' → can; 'I'd like' → would. Với chủ ngữ ngôi thứ ba số ít ở hiện tại đơn dùng does, với I/you/we/they dùng do. Với động từ khuyết thiếu thì lặp lại chính nó (We should leave. → So should they). Nếu câu gốc có mệnh đề phụ (I wish ..., I hope ...) thì nhìn động từ chính: I wish I had more time. → So do I; I hope it's sunny. → So do I. Quá khứ tiếp diễn dùng was/were: My parents were watching TV. → So were we.",
+        "explanationVi": "Nhìn vào động từ của câu gốc để chọn trợ động từ trả lời: 'I'm tired' → am; 'I love pizza' → do; 'She plays' → does; 'I went' → did; 'I've finished' → have; 'I'll go' → will; 'I can swim' → can; 'I'd like' → would. Với chủ ngữ ngôi thứ ba số ít ở hiện tại đơn dùng does, với I/you/we/they dùng do. Với động từ khuyết thiếu thì lặp lại chính nó (We should leave. → So should they). Nếu câu gốc có mệnh đề phụ (I wish ..., I hope ...) thì nhìn động từ chính: I wish I had more time. → So do I; I hope it's sunny. → So do I. Quá khứ tiếp diễn dùng was/were: My parents were watching TV. → So were we. Chú ý 'd có thể là would hoặc had: I'd like to go → would (So would I); I'd already left → had (So had I).",
         "examples": [
           {
             "en": "A: I have to leave early. B: So do I.",
@@ -78,7 +78,7 @@
         "id": "asr-u5-short-replies",
         "bac": 4,
         "label": "Đáp lời ngắn: Me too, Me neither và khi không đồng ý",
-        "explanationVi": "Trong hội thoại thân mật, có thể chỉ nói Me too (với câu khẳng định) hoặc Me neither (với câu phủ định). Khi không đồng ý thì dùng trợ động từ trái nghĩa: A: I love early mornings. B: I don't. / A: I don't like fish. B: I do. Lưu ý: Me neither dùng với câu phủ định, Me too dùng với câu khẳng định. Trong tiếng Anh Mỹ thân mật cũng hay nghe 'Me either'; bài này dùng dạng chuẩn Me neither.",
+        "explanationVi": "Trong hội thoại thân mật, có thể chỉ nói Me too (với câu khẳng định) hoặc Me neither (với câu phủ định). Khi không đồng ý thì dùng trợ động từ trái nghĩa: A: I love early mornings. B: I don't. / A: I don't like fish. B: I do. Lưu ý: Me neither dùng với câu phủ định, Me too dùng với câu khẳng định. Trong tiếng Anh Mỹ thân mật cũng hay nghe 'Me either'; bài này dùng dạng chuẩn Me neither. Cách này dùng được với mọi trợ động từ, kể cả be và động từ khuyết thiếu: A: I'm not nervous. B: I am. / A: I can't cook. B: I can. / A: I've never skied. B: I have.",
         "examples": [
           {
             "en": "A: I love horror movies. B: Me too.",
@@ -87,6 +87,22 @@
           {
             "en": "A: I'm not tired. B: Me neither.",
             "vi": "A: Tôi không mệt. B: Tôi cũng không."
+          }
+        ]
+      },
+      {
+        "id": "asr-u6-and-so-neither",
+        "bac": 5,
+        "label": "Nối hai vế: ..., and so / and neither + trợ động từ + chủ ngữ mới",
+        "explanationVi": "Có thể ghép sự đồng tình vào cùng một câu bằng cách nối vế thứ hai sau dấu phẩy với and so (sau vế khẳng định) hoặc and neither / and nor (sau vế phủ định). Cấu trúc vẫn là trợ động từ + chủ ngữ MỚI, nên trợ động từ phải khớp với thì của vế đầu và với chủ ngữ mới, không phải chủ ngữ của vế đầu. Chủ ngữ ghép nối bằng and là số nhiều: Ben speaks Spanish, and so do Ana and Carlos. Neither đã mang nghĩa phủ định nên trợ động từ ở dạng khẳng định: Tim isn't going, and neither are his sisters.",
+        "examples": [
+          {
+            "en": "My parents work downtown, and so does my aunt.",
+            "vi": "Bố mẹ tôi làm việc ở trung tâm, và dì tôi cũng vậy."
+          },
+          {
+            "en": "Our team didn't win, and neither did our rivals.",
+            "vi": "Đội chúng tôi không thắng, và đối thủ cũng không."
           }
         ]
       }

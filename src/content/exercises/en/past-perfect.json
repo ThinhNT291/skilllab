@@ -838,5 +838,565 @@
       "Sai. Hiện tại hoàn thành không đi cùng 'wish' khi diễn tả tiếc nuối về quá khứ."
     ],
     "bac": 4
+  },
+  {
+    "id": "en-past-perfect-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u1-before-past-point",
+    "tags": [
+      "pastperf-u1-before-past-point"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time Minh got to the cinema, the movie ______ (start).",
+    "choices": [
+      "starts",
+      "had started",
+      "has started",
+      "would start"
+    ],
+    "correctIndex": 1,
+    "explanation": "'By the time' + quá khứ đơn (got) đặt mốc trong quá khứ; phim đã bắt đầu TRƯỚC mốc đó nên dùng 'had started'.",
+    "choiceExplanations": [
+      "Sai — 'starts': Hiện tại đơn không dùng được khi mốc là một thời điểm đã qua.",
+      "Đúng — 'had started' diễn tả việc xảy ra trước mốc 'got to the cinema'.",
+      "Sai — 'has started': Hiện tại hoàn thành lấy bây giờ làm mốc, mà câu kể chuyện quá khứ.",
+      "Sai — 'would start': 'would start' nói về việc dự định trong tương lai của quá khứ, không phải việc đã xảy ra."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-perfect-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u2-sequence-of-events",
+    "tags": [
+      "pastperf-u2-sequence-of-events"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When we got to the stadium, the game ______ (already / begin).",
+    "choices": [
+      "already begins",
+      "has already begun",
+      "had already begun",
+      "would already begin"
+    ],
+    "correctIndex": 2,
+    "explanation": "Trận đấu bắt đầu trước khi chúng tôi đến nên dùng 'had already begun'; 'already' đứng giữa 'had' và V-p2.",
+    "choiceExplanations": [
+      "Sai — 'already begins': Hiện tại đơn không hợp với câu kể chuyện đã qua.",
+      "Sai — 'has already begun': Hiện tại hoàn thành lấy hiện tại làm mốc, còn mốc ở đây là lúc 'got to the stadium'.",
+      "Đúng — 'had already begun' cho thấy trận đấu bắt đầu trước lúc đến sân.",
+      "Sai — 'would already begin': 'would' không diễn tả việc đã xảy ra xong trước một mốc quá khứ."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-perfect-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u3-reason-for-past-situation",
+    "tags": [
+      "pastperf-u3-reason-for-past-situation"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Ben was angry because his little brother ______ (break) his model plane.",
+    "choices": [
+      "breaks",
+      "has broken",
+      "would break",
+      "had broken"
+    ],
+    "correctIndex": 3,
+    "explanation": "Việc em trai làm hỏng máy bay xảy ra trước, là nguyên nhân khiến Ben giận ở quá khứ nên dùng 'had broken'. (Ở Anh-Mỹ đời thường vẫn gặp 'broke', nhưng đáp án này không có trong các lựa chọn.)",
+    "choiceExplanations": [
+      "Sai — 'breaks': Thì hiện tại không hợp với một sự việc đã xảy ra trong quá khứ.",
+      "Sai — 'has broken': Hiện tại hoàn thành gắn với hiện tại, trong khi lúc Ben giận là quá khứ.",
+      "Sai — 'would break': 'would break' chỉ khả năng/thói quen, không nêu nguyên nhân đã xảy ra.",
+      "Đúng — 'had broken' là việc xảy ra trước và giải thích cho cơn giận."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-perfect-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u4-experience-up-to-past-point",
+    "tags": [
+      "pastperf-u4-experience-up-to-past-point"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Before that summer camp, Lan ______ (never / sleep) in a tent.",
+    "choices": [
+      "had never slept",
+      "never sleeps",
+      "has never slept",
+      "would never sleep"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trải nghiệm tính đến mốc 'before that summer camp' dùng 'had never + V-p2'.",
+    "choiceExplanations": [
+      "Đúng — 'had never slept' tổng kết trải nghiệm (chưa từng) tính đến một mốc quá khứ.",
+      "Sai — 'never sleeps': Hiện tại đơn nói về thói quen hiện tại, không đúng với 'before that summer camp'.",
+      "Sai — 'has never slept': 'has never slept' tổng kết tính đến bây giờ, không phải tính đến trại hè.",
+      "Sai — 'would never sleep': 'would never sleep' không diễn tả trải nghiệm đã có hay chưa có trước một mốc."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-perfect-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u5-conditional-wish",
+    "tags": [
+      "pastperf-u5-conditional-wish"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I wish I ______ (bring) my umbrella this morning.",
+    "choices": [
+      "bring",
+      "had brought",
+      "would bring",
+      "have brought"
+    ],
+    "correctIndex": 1,
+    "explanation": "'wish' + 'had + V-p2' diễn tả tiếc nuối về việc đã không làm trong quá khứ (sáng nay tôi đã không mang ô).",
+    "choiceExplanations": [
+      "Sai — 'bring': Sau 'wish' tiếc nuối quá khứ không dùng nguyên mẫu.",
+      "Đúng — 'had brought' diễn tả tiếc nuối vì sáng nay đã không mang ô.",
+      "Sai — 'would bring': 'would bring' là mong muốn cho tương lai/hiện tại, không phải tiếc việc đã qua.",
+      "Sai — 'have brought': Hiện tại hoàn thành không dùng sau 'wish' để tiếc nuối chuyện quá khứ."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-perfect-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u2-sequence-of-events",
+    "tags": [
+      "pastperf-u2-sequence-of-events"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "After Sam ______ (finish) his homework, he played video games.",
+    "choices": [
+      "finishes",
+      "has finished",
+      "had finished",
+      "would finish"
+    ],
+    "correctIndex": 2,
+    "explanation": "Làm xong bài là việc xảy ra trước, chơi game là việc sau (played) nên 'finish' lùi về 'had finished'. (Người Mỹ đời thường đôi khi nói 'finished' sau 'after', nhưng bài này chỉ có một đáp án đúng trong số các lựa chọn.)",
+    "choiceExplanations": [
+      "Sai — 'finishes': Hiện tại đơn không hợp với câu kể chuyện đã qua.",
+      "Sai — 'has finished': Hiện tại hoàn thành lấy bây giờ làm mốc, còn mốc ở đây là lúc Sam chơi game.",
+      "Đúng — 'had finished' đánh dấu việc xảy ra trước 'played'.",
+      "Sai — 'would finish': 'would finish' chỉ việc sẽ xảy ra, trái với trình tự đã diễn ra."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-perfect-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u1-before-past-point",
+    "tags": [
+      "pastperf-u1-before-past-point"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By 6 p.m. yesterday, the bakery ______ (sell) all of its bread.",
+    "choices": [
+      "sells",
+      "has sold",
+      "would sell",
+      "had sold"
+    ],
+    "correctIndex": 3,
+    "explanation": "'By 6 p.m. yesterday' là mốc quá khứ; việc bán hết bánh hoàn tất trước mốc đó nên dùng 'had sold'.",
+    "choiceExplanations": [
+      "Sai — 'sells': Hiện tại đơn không hợp với mốc 'yesterday'.",
+      "Sai — 'has sold': Hiện tại hoàn thành không đi với mốc thời gian đã qua như 'yesterday'.",
+      "Sai — 'would sell': 'would sell' chỉ thói quen/dự định, không nói việc đã hoàn tất.",
+      "Đúng — 'had sold' diễn tả việc hoàn tất trước mốc 6 giờ chiều hôm qua."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-perfect-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u3-reason-for-past-situation",
+    "tags": [
+      "pastperf-u3-reason-for-past-situation"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Nga's room looked spotless because her sister ______ (tidy) it while she was out.",
+    "choices": [
+      "had tidied",
+      "would tidy",
+      "tidies",
+      "has tidied"
+    ],
+    "correctIndex": 0,
+    "explanation": "Việc dọn dẹp xảy ra trước và giải thích vì sao phòng sạch ở thời điểm Nga nhìn thấy, nên dùng 'had tidied'.",
+    "choiceExplanations": [
+      "Đúng — 'had tidied' nêu nguyên nhân đã hoàn tất trước lúc căn phòng 'looked spotless'.",
+      "Sai — 'would tidy': 'would tidy' không diễn tả việc đã làm xong.",
+      "Sai — 'tidies': Hiện tại đơn không hợp với câu kể ở quá khứ.",
+      "Sai — 'has tidied': Hiện tại hoàn thành lấy bây giờ làm mốc, còn câu này kể về quá khứ."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-perfect-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u4-experience-up-to-past-point",
+    "tags": [
+      "pastperf-u4-experience-up-to-past-point"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time he was twelve, Kenji ______ (visit) six countries with his parents.",
+    "choices": [
+      "visits",
+      "has visited",
+      "would visit",
+      "had visited"
+    ],
+    "correctIndex": 3,
+    "explanation": "Thành tích tính đến mốc 'by the time he was twelve' (quá khứ) dùng 'had visited'.",
+    "choiceExplanations": [
+      "Sai — 'visits': Hiện tại đơn không dùng được với mốc tuổi đã qua.",
+      "Sai — 'has visited': 'has visited' tính đến bây giờ, nhưng mốc ở đây là lúc cậu 12 tuổi.",
+      "Sai — 'would visit': 'would visit' không tổng kết trải nghiệm tính đến một mốc.",
+      "Đúng — 'had visited' tổng kết trải nghiệm tính đến mốc 12 tuổi."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-perfect-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u1-before-past-point",
+    "tags": [
+      "pastperf-u1-before-past-point"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the end of the semester, Carlos ______ (not / read) a single book from the list.",
+    "choices": [
+      "hadn't read",
+      "doesn't read",
+      "hasn't read",
+      "wouldn't read"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mốc 'the end of the semester' đã qua; tính đến mốc đó Carlos chưa đọc quyển nào nên dùng 'hadn't read'.",
+    "choiceExplanations": [
+      "Đúng — 'hadn't read' là dạng phủ định tính đến một mốc quá khứ.",
+      "Sai — 'doesn't read': Hiện tại đơn không hợp với câu kể về học kỳ đã kết thúc.",
+      "Sai — 'hasn't read': 'hasn't read' tính đến bây giờ, không phải đến cuối học kỳ.",
+      "Sai — 'wouldn't read': 'wouldn't' không diễn tả việc chưa làm tính đến một mốc đã qua."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-perfect-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u2-sequence-of-events",
+    "tags": [
+      "pastperf-u2-sequence-of-events"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mrs. Lee ______ (already / lock) the classroom before the students came back from lunch.",
+    "choices": [
+      "has already locked",
+      "had already locked",
+      "already locks",
+      "would already lock"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cô khóa cửa trước khi học sinh quay lại (came back), nên việc khóa cửa dùng 'had already locked'.",
+    "choiceExplanations": [
+      "Sai — 'has already locked': Hiện tại hoàn thành lấy bây giờ làm mốc, không đi với 'came back' ở quá khứ.",
+      "Đúng — 'had already locked' là việc xảy ra trước 'came back'.",
+      "Sai — 'already locks': Hiện tại đơn nói thói quen hiện tại, không kể sự việc đã qua.",
+      "Sai — 'would already lock': 'would' không diễn tả việc đã hoàn tất trước một việc quá khứ khác."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-perfect-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u5-conditional-wish",
+    "tags": [
+      "pastperf-u5-conditional-wish"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If Tara ______ (not / forget) her passport, she would have caught the flight.",
+    "choices": [
+      "doesn't forget",
+      "wouldn't forget",
+      "hadn't forgotten",
+      "hasn't forgotten"
+    ],
+    "correctIndex": 2,
+    "explanation": "Điều kiện loại 3: 'If + had + V-p2, would have + V-p2'. Tara đã quên hộ chiếu nên lỡ chuyến bay.",
+    "choiceExplanations": [
+      "Sai — 'doesn't forget': Hiện tại đơn dùng cho điều kiện loại 0/1, không phải điều kiện không có thật ở quá khứ.",
+      "Sai — 'wouldn't forget': 'would' không đứng trong mệnh đề 'if' của điều kiện loại 3.",
+      "Đúng — 'hadn't forgotten' là dạng đúng của mệnh đề 'if' loại 3.",
+      "Sai — 'hasn't forgotten': Hiện tại hoàn thành không dùng trong mệnh đề 'if' của điều kiện loại 3."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-perfect-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u3-reason-for-past-situation",
+    "tags": [
+      "pastperf-u3-reason-for-past-situation"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Khoa's hands were shaking at the contest because he ______ (never / speak) in front of such a big crowd before.",
+    "choices": [
+      "has never spoken",
+      "had never spoken",
+      "never speaks",
+      "would never speak"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lý do (chưa từng nói trước đám đông) có trước cảm xúc run ở cuộc thi, nên dùng 'had never spoken'.",
+    "choiceExplanations": [
+      "Sai — 'has never spoken': 'has never spoken' tính đến bây giờ, nhưng cuộc thi đã qua.",
+      "Đúng — 'had never spoken' nêu lý do tính đến thời điểm cuộc thi.",
+      "Sai — 'never speaks': Hiện tại đơn không hợp với câu kể ở quá khứ.",
+      "Sai — 'would never speak': 'would never speak' không nêu nguyên nhân đã có trước đó."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-perfect-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u2-sequence-of-events",
+    "tags": [
+      "pastperf-u2-sequence-of-events"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When Dad opened the fridge, he discovered that someone ______ (eat) the last slice of cake.",
+    "choices": [
+      "had eaten",
+      "was eating",
+      "has eaten",
+      "would eat"
+    ],
+    "correctIndex": 0,
+    "explanation": "Có người đã ăn miếng bánh trước khi Bố mở tủ lạnh, nên dùng 'had eaten'.",
+    "choiceExplanations": [
+      "Đúng — 'had eaten' là việc xảy ra trước 'opened the fridge'.",
+      "Sai — 'was eating': 'was eating' nghĩa là đang ăn đúng lúc Bố mở tủ, không hợp với 'discovered' miếng bánh đã hết.",
+      "Sai — 'has eaten': Hiện tại hoàn thành lấy bây giờ làm mốc, còn câu kể ở quá khứ.",
+      "Sai — 'would eat': 'would eat' chỉ việc sẽ xảy ra, trái với việc đã xong."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-past-perfect-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u1-before-past-point",
+    "tags": [
+      "pastperf-u1-before-past-point"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Leo's package finally arrived at 9 p.m., and by then the party ______ (be) over for two hours.",
+    "choices": [
+      "was",
+      "has been",
+      "had been",
+      "would be"
+    ],
+    "correctIndex": 2,
+    "explanation": "'For two hours' đo khoảng thời gian kéo dài tính đến mốc 9 p.m. trong quá khứ, nên dùng 'had been'; 'was' không diễn tả khoảng thời gian tính đến mốc đó.",
+    "choiceExplanations": [
+      "Sai — 'was': 'was' chỉ trạng thái tại một thời điểm, không thể hiện khoảng 'for two hours' tính đến 9 giờ.",
+      "Sai — 'has been': 'has been' tính đến bây giờ, không phải đến 9 giờ tối hôm đó.",
+      "Đúng — 'had been' diễn tả trạng thái kéo dài hai tiếng tính đến mốc quá khứ.",
+      "Sai — 'would be': 'would be' chỉ dự đoán/dự định, không mô tả tình trạng đã có."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-past-perfect-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u1-before-past-point",
+    "tags": [
+      "pastperf-u1-before-past-point"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By the time the bell rang, Kim ______ (have) three helpings of rice and was too full to move.",
+    "choices": [
+      "has had",
+      "had have",
+      "had",
+      "had had"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ăn xong ba phần trước khi chuông reo nên dùng quá khứ hoàn thành của 'have': 'had had' (had + V-p2 của have là had).",
+    "choiceExplanations": [
+      "Sai — 'has had': Hiện tại hoàn thành tính đến bây giờ, không hợp với mốc 'bell rang'.",
+      "Sai — 'had have': Sau 'had' phải là V-p2 ('had'), không phải nguyên mẫu 'have'.",
+      "Sai — 'had': 'had' đơn lẻ là quá khứ đơn, không thể hiện việc đã hoàn tất trước mốc.",
+      "Đúng — 'had had' = had + V-p2 của 'have', đúng cấu trúc."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-past-perfect-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u3-reason-for-past-situation",
+    "tags": [
+      "pastperf-u3-reason-for-past-situation"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mia felt terrible at the party because she ______ (not / tell) her parents where she was going.",
+    "choices": [
+      "hadn't told",
+      "hasn't told",
+      "doesn't tell",
+      "wouldn't tell"
+    ],
+    "correctIndex": 0,
+    "explanation": "Việc không báo bố mẹ xảy ra trước khi đến bữa tiệc và là lý do cô thấy tệ, nên dùng 'hadn't told'.",
+    "choiceExplanations": [
+      "Đúng — 'hadn't told' nêu nguyên nhân phủ định xảy ra trước mốc 'felt terrible'.",
+      "Sai — 'hasn't told': 'hasn't told' tính đến bây giờ, câu kể ở quá khứ.",
+      "Sai — 'doesn't tell': Hiện tại đơn không hợp với sự việc đã qua.",
+      "Sai — 'wouldn't tell': 'wouldn't tell' nói về sự từ chối/dự định, không nêu việc đã không xảy ra."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-past-perfect-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u5-conditional-wish",
+    "tags": [
+      "pastperf-u5-conditional-wish"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I wish I ______ (listen) to my coach's advice before the match, but I thought I knew better.",
+    "choices": [
+      "listen",
+      "would listen",
+      "had listened",
+      "have listened"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tiếc nuối về việc đã không làm trong quá khứ: 'wish + had + V-p2' (had listened).",
+    "choiceExplanations": [
+      "Sai — 'listen': Nguyên mẫu không dùng sau 'wish' khi tiếc chuyện quá khứ.",
+      "Sai — 'would listen': 'would listen' là mong muốn thay đổi ở tương lai.",
+      "Đúng — 'had listened' diễn tả tiếc nuối vì đã không nghe lời huấn luyện viên.",
+      "Sai — 'have listened': Hiện tại hoàn thành không dùng sau 'wish' để tiếc nuối chuyện đã qua."
+    ],
+    "bac": 5
+  },
+  {
+    "id": "en-past-perfect-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u2-sequence-of-events",
+    "tags": [
+      "pastperf-u2-sequence-of-events"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Once the players ______ (line up) in the tunnel, the officials checked their shoes.",
+    "choices": [
+      "line up",
+      "had lined up",
+      "were lining up",
+      "have lined up"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cầu thủ xếp hàng xong thì ban tổ chức mới kiểm tra giày, nên việc xếp hàng là việc trước: 'had lined up'. (Người Mỹ đời thường đôi khi dùng 'lined up' sau 'once', nhưng đáp án này không có trong lựa chọn.)",
+    "choiceExplanations": [
+      "Sai — 'line up': Hiện tại đơn không hợp với câu kể ở quá khứ.",
+      "Đúng — 'had lined up' là việc đã xong trước 'checked'.",
+      "Sai — 'were lining up': 'were lining up' là đang xếp hàng, chưa xong, nên không phải điều kiện để kiểm tra bắt đầu.",
+      "Sai — 'have lined up': Hiện tại hoàn thành lấy bây giờ làm mốc, câu này kể ở quá khứ."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-past-perfect-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-perfect",
+    "usageId": "pastperf-u4-experience-up-to-past-point",
+    "tags": [
+      "pastperf-u4-experience-up-to-past-point"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Before Tuan's grandmother visited Hanoi at age seventy, she ______ (not / ride) in an elevator even once.",
+    "choices": [
+      "hasn't ridden",
+      "wouldn't ride",
+      "doesn't ride",
+      "hadn't ridden"
+    ],
+    "correctIndex": 3,
+    "explanation": "Trải nghiệm chưa từng có tính đến mốc quá khứ (chuyến thăm Hà Nội) dùng 'hadn't ridden'.",
+    "choiceExplanations": [
+      "Sai — 'hasn't ridden': 'hasn't ridden' tính đến bây giờ, không phải đến chuyến thăm.",
+      "Sai — 'wouldn't ride': 'wouldn't ride' nói về sự từ chối, không phải trải nghiệm chưa có.",
+      "Sai — 'doesn't ride': Hiện tại đơn nói thói quen hiện tại, không hợp với 'before ... visited'.",
+      "Đúng — 'hadn't ridden' tổng kết trải nghiệm chưa có tính đến mốc quá khứ."
+    ],
+    "bac": 5
   }
 ]

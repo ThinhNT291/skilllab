@@ -2,10 +2,11 @@
 export function topicHref(topicId: string): string {
   if (topicId.startsWith("vocab-")) return `/tu-vung/${topicId.slice(6)}`
   if (topicId.startsWith("reading-b")) return `/doc/${topicId.slice(9)}`
+  if (topicId.startsWith("listening-b")) return `/nghe/${topicId.slice(11)}`
   return `/hoc/${topicId}`
 }
 
 /** Có phải chuyên đề ngữ pháp (có mục lý thuyết và trang luyện riêng) không. */
 export function isGrammarTopic(topicId: string): boolean {
-  return !topicId.startsWith("vocab-") && !topicId.startsWith("reading-b")
+  return !topicId.startsWith("vocab-") && !topicId.startsWith("reading-b") && !topicId.startsWith("listening-b")
 }

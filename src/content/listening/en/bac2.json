@@ -1,0 +1,458 @@
+[
+  {
+    "id": "ls-b2-001",
+    "bac": 2,
+    "title": "Đặt bàn nhà hàng",
+    "transcript": "A: Good evening. Welcome to Star Restaurant. How can I help you?\nB: Hi. I would like a table for two, please.\nA: Do you have a reservation with us?\nB: No, I don't. We just walked in.\nA: That is fine. We have a free table near the window. Please follow me.\nB: Thank you. Can we have the menu, please?\nA: Yes, of course. Here you go. I will be back in five minutes to take your order.",
+    "questions": [
+      {
+        "prompt": "How many people need a table?",
+        "choices": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người khách (B) nói rõ 'I would like a table for two' (một bàn cho 2 người).",
+        "choiceExplanations": [
+          "Sai — 'One': không khớp với nội dung bài nghe.",
+          "Đúng — Người khách (B) nói rõ 'I would like a table for two' (một bàn cho 2 người).",
+          "Sai — 'Three': không khớp với nội dung bài nghe.",
+          "Sai — 'Four': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Where is the table located?",
+        "choices": [
+          "Near the door",
+          "Near the kitchen",
+          "Near the window",
+          "Outside"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người phục vụ (A) nói 'We have a free table near the window' (gần cửa sổ).",
+        "choiceExplanations": [
+          "Sai — 'Near the door': không khớp với nội dung bài nghe.",
+          "Sai — 'Near the kitchen': không khớp với nội dung bài nghe.",
+          "Đúng — Người phục vụ (A) nói 'We have a free table near the window' (gần cửa sổ).",
+          "Sai — 'Outside': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What will the waiter do in five minutes?",
+        "choices": [
+          "Bring the food",
+          "Clean the table",
+          "Take the order",
+          "Bring the bill"
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu cuối phục vụ nói 'I will be back in five minutes to take your order' (quay lại nhận gọi món).",
+        "choiceExplanations": [
+          "Sai — 'Bring the food': không khớp với nội dung bài nghe.",
+          "Sai — 'Clean the table': không khớp với nội dung bài nghe.",
+          "Đúng — Câu cuối phục vụ nói 'I will be back in five minutes to take your order' (quay lại nhận gọi món).",
+          "Sai — 'Bring the bill': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What can we guess about the customers?",
+        "choices": [
+          "They called before coming.",
+          "They don't have a reservation.",
+          "They want to sit outside.",
+          "They are very angry."
+        ],
+        "correctIndex": 1,
+        "explanation": "Người khách trả lời 'No, I don't' khi được hỏi có đặt bàn trước (reservation) hay không.",
+        "choiceExplanations": [
+          "Sai — 'They called before coming.': không khớp với nội dung bài nghe.",
+          "Đúng — Người khách trả lời 'No, I don't' khi được hỏi có đặt bàn trước (reservation) hay không.",
+          "Sai — 'They want to sit outside.': không khớp với nội dung bài nghe.",
+          "Sai — 'They are very angry.': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-002",
+    "bac": 2,
+    "title": "Hỏi đường",
+    "transcript": "A: Excuse me, can you help me? I am looking for the train station.\nB: Sure. It is not far from here. Walk straight ahead for two blocks, then turn left at the traffic lights.\nA: Turn left at the lights? Okay.\nB: Yes. You will see a big supermarket on the corner. The train station is right across the street.\nA: Great, thank you so much for your help!\nB: You are welcome. Have a safe trip.",
+    "questions": [
+      {
+        "prompt": "What is the man looking for?",
+        "choices": [
+          "A bus stop",
+          "A supermarket",
+          "A train station",
+          "A hospital"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người A hỏi 'I am looking for the train station' (nhà ga xe lửa).",
+        "choiceExplanations": [
+          "Sai — 'A bus stop': không khớp với nội dung bài nghe.",
+          "Sai — 'A supermarket': không khớp với nội dung bài nghe.",
+          "Đúng — Người A hỏi 'I am looking for the train station' (nhà ga xe lửa).",
+          "Sai — 'A hospital': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Which direction should the man turn at the traffic lights?",
+        "choices": [
+          "Turn left",
+          "Turn right",
+          "Go straight",
+          "Go back"
+        ],
+        "correctIndex": 0,
+        "explanation": "Người B hướng dẫn 'turn left at the traffic lights' (rẽ trái ở đèn giao thông).",
+        "choiceExplanations": [
+          "Đúng — Người B hướng dẫn 'turn left at the traffic lights' (rẽ trái ở đèn giao thông).",
+          "Sai — 'Turn right': không khớp với nội dung bài nghe.",
+          "Sai — 'Go straight': không khớp với nội dung bài nghe.",
+          "Sai — 'Go back': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What building is near the train station?",
+        "choices": [
+          "A bank",
+          "A supermarket",
+          "A school",
+          "A hotel"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người B nói 'You will see a big supermarket... The train station is right across the street'.",
+        "choiceExplanations": [
+          "Sai — 'A bank': không khớp với nội dung bài nghe.",
+          "Đúng — Người B nói 'You will see a big supermarket... The train station is right across the street'.",
+          "Sai — 'A school': không khớp với nội dung bài nghe.",
+          "Sai — 'A hotel': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What is the main topic of the conversation?",
+        "choices": [
+          "Buying train tickets",
+          "Asking for directions",
+          "Going shopping",
+          "Waiting for a friend"
+        ],
+        "correctIndex": 1,
+        "explanation": "Toàn bộ đoạn hội thoại là quá trình người A hỏi đường và người B chỉ đường.",
+        "choiceExplanations": [
+          "Sai — 'Buying train tickets': không khớp với nội dung bài nghe.",
+          "Đúng — Toàn bộ đoạn hội thoại là quá trình người A hỏi đường và người B chỉ đường.",
+          "Sai — 'Going shopping': không khớp với nội dung bài nghe.",
+          "Sai — 'Waiting for a friend': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-003",
+    "bac": 2,
+    "title": "Mua sắm quần áo",
+    "transcript": "A: Hello, are you looking for anything special today?\nB: Yes, I want to buy a blue shirt for a party this weekend.\nA: What size do you wear? Small, medium, or large?\nB: I usually wear a medium.\nA: Here is a very nice blue shirt in medium. It is on sale for twenty dollars.\nB: Oh, it looks great. Can I try it on?\nA: Yes, the fitting room is over there.",
+    "questions": [
+      {
+        "prompt": "What does the customer want to buy?",
+        "choices": [
+          "A red dress",
+          "A blue shirt",
+          "A pair of shoes",
+          "A black hat"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người khách nói 'I want to buy a blue shirt'.",
+        "choiceExplanations": [
+          "Sai — 'A red dress': không khớp với nội dung bài nghe.",
+          "Đúng — Người khách nói 'I want to buy a blue shirt'.",
+          "Sai — 'A pair of shoes': không khớp với nội dung bài nghe.",
+          "Sai — 'A black hat': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What size does the customer wear?",
+        "choices": [
+          "Small",
+          "Medium",
+          "Large",
+          "Extra Large"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người khách trả lời 'I usually wear a medium'.",
+        "choiceExplanations": [
+          "Sai — 'Small': không khớp với nội dung bài nghe.",
+          "Đúng — Người khách trả lời 'I usually wear a medium'.",
+          "Sai — 'Large': không khớp với nội dung bài nghe.",
+          "Sai — 'Extra Large': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "How much does the item cost?",
+        "choices": [
+          "Ten dollars",
+          "Fifteen dollars",
+          "Twenty dollars",
+          "Thirty dollars"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người bán hàng thông báo giá là 'twenty dollars'.",
+        "choiceExplanations": [
+          "Sai — 'Ten dollars': không khớp với nội dung bài nghe.",
+          "Sai — 'Fifteen dollars': không khớp với nội dung bài nghe.",
+          "Đúng — Người bán hàng thông báo giá là 'twenty dollars'.",
+          "Sai — 'Thirty dollars': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "How does the customer feel about the shirt?",
+        "choices": [
+          "He thinks it is too expensive.",
+          "He doesn't like the color.",
+          "He likes it and wants to try it on.",
+          "He thinks it is too small."
+        ],
+        "correctIndex": 2,
+        "explanation": "Khách nói 'Oh, it looks great. Can I try it on?' thể hiện sự hài lòng và muốn thử.",
+        "choiceExplanations": [
+          "Sai — 'He thinks it is too expensive.': không khớp với nội dung bài nghe.",
+          "Sai — 'He doesn't like the color.': không khớp với nội dung bài nghe.",
+          "Đúng — Khách nói 'Oh, it looks great. Can I try it on?' thể hiện sự hài lòng và muốn thử.",
+          "Sai — 'He thinks it is too small.': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-004",
+    "bac": 2,
+    "title": "Kế hoạch cuối tuần",
+    "transcript": "A: Hi Sarah, do you have any plans for this Saturday?\nB: Hi Tom. Not really. I might just stay home and watch some movies. What about you?\nA: I am going to play tennis in the park with my brother. Do you want to join us?\nB: I am not very good at tennis, but I can come and watch.\nA: That sounds good! We can all go get pizza afterwards.\nB: Perfect. See you on Saturday.",
+    "questions": [
+      {
+        "prompt": "What was Sarah's original plan for Saturday?",
+        "choices": [
+          "Playing tennis",
+          "Working at the office",
+          "Staying home to watch movies",
+          "Going shopping"
+        ],
+        "correctIndex": 2,
+        "explanation": "Sarah nói lúc đầu cô ấy định 'stay home and watch some movies'.",
+        "choiceExplanations": [
+          "Sai — 'Playing tennis': không khớp với nội dung bài nghe.",
+          "Sai — 'Working at the office': không khớp với nội dung bài nghe.",
+          "Đúng — Sarah nói lúc đầu cô ấy định 'stay home and watch some movies'.",
+          "Sai — 'Going shopping': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Who is Tom going to play tennis with?",
+        "choices": [
+          "Sarah",
+          "His brother",
+          "His friend",
+          "His father"
+        ],
+        "correctIndex": 1,
+        "explanation": "Tom nói 'I am going to play tennis... with my brother'.",
+        "choiceExplanations": [
+          "Sai — 'Sarah': không khớp với nội dung bài nghe.",
+          "Đúng — Tom nói 'I am going to play tennis... with my brother'.",
+          "Sai — 'His friend': không khớp với nội dung bài nghe.",
+          "Sai — 'His father': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What will they do after the tennis game?",
+        "choices": [
+          "Go to the cinema",
+          "Go home",
+          "Get some pizza",
+          "Walk in the park"
+        ],
+        "correctIndex": 2,
+        "explanation": "Tom đề nghị 'We can all go get pizza afterwards' và Sarah đồng ý.",
+        "choiceExplanations": [
+          "Sai — 'Go to the cinema': không khớp với nội dung bài nghe.",
+          "Sai — 'Go home': không khớp với nội dung bài nghe.",
+          "Đúng — Tom đề nghị 'We can all go get pizza afterwards' và Sarah đồng ý.",
+          "Sai — 'Walk in the park': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What is Sarah's attitude towards playing tennis?",
+        "choices": [
+          "She is a professional player.",
+          "She hates the sport.",
+          "She prefers to just watch because she is not good at it.",
+          "She wants to learn how to play."
+        ],
+        "correctIndex": 2,
+        "explanation": "Sarah thừa nhận 'I am not very good at tennis, but I can come and watch'.",
+        "choiceExplanations": [
+          "Sai — 'She is a professional player.': không khớp với nội dung bài nghe.",
+          "Sai — 'She hates the sport.': không khớp với nội dung bài nghe.",
+          "Đúng — Sarah thừa nhận 'I am not very good at tennis, but I can come and watch'.",
+          "Sai — 'She wants to learn how to play.': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-005",
+    "bac": 2,
+    "title": "Thời tiết hôm nay",
+    "transcript": "A: It is so cold today! I didn't bring my jacket.\nB: Yes, the weather forecast said it will rain this afternoon, too.\nA: Oh no, I have to walk home after work. Do you have an umbrella?\nB: I have a small one. We can share it if we leave at the same time.\nA: Thank you, that is very kind of you. I finish work at five o'clock.\nB: Me too. Let's meet at the front door.",
+    "questions": [
+      {
+        "prompt": "What is the weather like right now?",
+        "choices": [
+          "Hot and sunny",
+          "Cold",
+          "Windy",
+          "Snowing"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người A mở đầu bằng câu 'It is so cold today!'.",
+        "choiceExplanations": [
+          "Sai — 'Hot and sunny': không khớp với nội dung bài nghe.",
+          "Đúng — Người A mở đầu bằng câu 'It is so cold today!'.",
+          "Sai — 'Windy': không khớp với nội dung bài nghe.",
+          "Sai — 'Snowing': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What is expected to happen in the afternoon?",
+        "choices": [
+          "It will rain.",
+          "It will snow.",
+          "The sun will come out.",
+          "It will be very hot."
+        ],
+        "correctIndex": 0,
+        "explanation": "Người B nói 'the weather forecast said it will rain this afternoon'.",
+        "choiceExplanations": [
+          "Đúng — Người B nói 'the weather forecast said it will rain this afternoon'.",
+          "Sai — 'It will snow.': không khớp với nội dung bài nghe.",
+          "Sai — 'The sun will come out.': không khớp với nội dung bài nghe.",
+          "Sai — 'It will be very hot.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "How will they solve the problem of walking in the rain?",
+        "choices": [
+          "They will take a taxi.",
+          "They will wait until the rain stops.",
+          "They will share a small umbrella.",
+          "They will buy a raincoat."
+        ],
+        "correctIndex": 2,
+        "explanation": "B đề xuất 'We can share it [umbrella] if we leave at the same time'.",
+        "choiceExplanations": [
+          "Sai — 'They will take a taxi.': không khớp với nội dung bài nghe.",
+          "Sai — 'They will wait until the rain stops.': không khớp với nội dung bài nghe.",
+          "Đúng — B đề xuất 'We can share it [umbrella] if we leave at the same time'.",
+          "Sai — 'They will buy a raincoat.': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What time will they meet?",
+        "choices": [
+          "Three o'clock",
+          "Four o'clock",
+          "Five o'clock",
+          "Six o'clock"
+        ],
+        "correctIndex": 2,
+        "explanation": "A nói kết thúc công việc lúc 5 giờ ('five o'clock') và B đồng ý hẹn gặp lúc đó.",
+        "choiceExplanations": [
+          "Sai — 'Three o'clock': không khớp với nội dung bài nghe.",
+          "Sai — 'Four o'clock': không khớp với nội dung bài nghe.",
+          "Đúng — A nói kết thúc công việc lúc 5 giờ ('five o'clock') và B đồng ý hẹn gặp lúc đó.",
+          "Sai — 'Six o'clock': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b2-006",
+    "bac": 2,
+    "title": "Sở thích cá nhân",
+    "transcript": "A: What do you like to do in your free time, David?\nB: I love taking photos. I go to the forest every Sunday to take pictures of birds and trees.\nA: Wow, that sounds very relaxing. I don't have a camera, so I just read books.\nB: Reading is great too. What kind of books do you like?\nA: I enjoy reading mystery novels. They keep me excited.\nB: Maybe you can tell me a good story next time we meet.",
+    "questions": [
+      {
+        "prompt": "What is David's hobby?",
+        "choices": [
+          "Reading books",
+          "Taking photos",
+          "Painting",
+          "Hiking"
+        ],
+        "correctIndex": 1,
+        "explanation": "David (B) nói 'I love taking photos'.",
+        "choiceExplanations": [
+          "Sai — 'Reading books': không khớp với nội dung bài nghe.",
+          "Đúng — David (B) nói 'I love taking photos'.",
+          "Sai — 'Painting': không khớp với nội dung bài nghe.",
+          "Sai — 'Hiking': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "Where does David go on Sundays?",
+        "choices": [
+          "To the beach",
+          "To the library",
+          "To the forest",
+          "To the park"
+        ],
+        "correctIndex": 2,
+        "explanation": "David nói 'I go to the forest every Sunday'.",
+        "choiceExplanations": [
+          "Sai — 'To the beach': không khớp với nội dung bài nghe.",
+          "Sai — 'To the library': không khớp với nội dung bài nghe.",
+          "Đúng — David nói 'I go to the forest every Sunday'.",
+          "Sai — 'To the park': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What kind of books does the woman like?",
+        "choices": [
+          "History books",
+          "Romance novels",
+          "Mystery novels",
+          "Science fiction"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người A nói 'I enjoy reading mystery novels'.",
+        "choiceExplanations": [
+          "Sai — 'History books': không khớp với nội dung bài nghe.",
+          "Sai — 'Romance novels': không khớp với nội dung bài nghe.",
+          "Đúng — Người A nói 'I enjoy reading mystery novels'.",
+          "Sai — 'Science fiction': không khớp với nội dung bài nghe."
+        ]
+      },
+      {
+        "prompt": "What can we infer about the woman's personality?",
+        "choices": [
+          "She hates the outdoors.",
+          "She likes exciting stories.",
+          "She wants to buy a camera.",
+          "She gets bored easily."
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô ấy thích tiểu thuyết bí ẩn vì 'They keep me excited' (giữ cho cô ấy cảm giác hào hứng).",
+        "choiceExplanations": [
+          "Sai — 'She hates the outdoors.': không khớp với nội dung bài nghe.",
+          "Đúng — Cô ấy thích tiểu thuyết bí ẩn vì 'They keep me excited' (giữ cho cô ấy cảm giác hào hứng).",
+          "Sai — 'She wants to buy a camera.': không khớp với nội dung bài nghe.",
+          "Sai — 'She gets bored easily.': không khớp với nội dung bài nghe."
+        ]
+      }
+    ]
+  }
+]

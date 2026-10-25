@@ -100,7 +100,7 @@
     ],
     "order": 10,
     "category": "word-classes",
-    "usageCount": 6
+    "usageCount": 8
   },
   {
     "id": "articles-countable-uncountable",
@@ -236,7 +236,7 @@
     ],
     "order": 23,
     "category": "sentence-structure",
-    "usageCount": 5
+    "usageCount": 6
   },
   {
     "id": "adverbial-clauses",
@@ -300,7 +300,7 @@
     ],
     "order": 29,
     "category": "sentence-structure",
-    "usageCount": 5
+    "usageCount": 6
   },
   {
     "id": "pronouns-determiners",

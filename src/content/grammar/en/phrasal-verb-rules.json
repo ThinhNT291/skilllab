@@ -89,6 +89,54 @@
             "vi": "Bọn trẻ được bà trông nom."
           }
         ]
+      },
+      {
+        "id": "pvr-u6-long-object",
+        "bac": 4,
+        "label": "Tân ngữ dài với cụm tách được",
+        "explanationVi": "Khi tân ngữ là một cụm dài (có nhiều từ hoặc có mệnh đề đi kèm), nên đặt nó SAU tiểu từ: She threw away the pile of old newspapers that had been in the garage. Tách ra giữa động từ và tiểu từ vẫn đúng ngữ pháp, nhưng tiểu từ bị đẩy quá xa động từ nên câu nghe vụng. Tân ngữ ngắn thì cả hai cách đều ổn; đại từ vẫn phải đứng giữa.",
+        "examples": [
+          {
+            "en": "He wrote down everything the doctor said.",
+            "vi": "Cậu ấy ghi lại mọi điều bác sĩ nói."
+          },
+          {
+            "en": "We took off the heavy backpacks we had carried all day.",
+            "vi": "Chúng tôi cởi những chiếc ba lô nặng đã mang cả ngày."
+          }
+        ]
+      },
+      {
+        "id": "pvr-u7-intransitive",
+        "bac": 3,
+        "label": "Cụm động từ không có tân ngữ",
+        "explanationVi": "Nhiều cụm động từ không cần tân ngữ: get up, sit down, grow up, show up, run away, come up (mặt trời mọc). Chúng không tách, không thêm đại từ và không chuyển sang bị động; sau chúng thường là trạng ngữ chỉ nơi chốn hoặc thời gian: grew up in Texas, showed up late.",
+        "examples": [
+          {
+            "en": "The kids woke up early.",
+            "vi": "Bọn trẻ thức dậy sớm."
+          },
+          {
+            "en": "She grew up in a small town.",
+            "vi": "Cô ấy lớn lên ở một thị trấn nhỏ."
+          }
+        ]
+      },
+      {
+        "id": "pvr-u8-multiple-meanings",
+        "bac": 5,
+        "label": "Một cụm động từ, nhiều nghĩa",
+        "explanationVi": "Một cụm động từ có thể có nhiều nghĩa tùy ngữ cảnh, và cách dùng có thể đổi theo nghĩa. Ví dụ take off: cởi (tách được: take off your shoes), trừ đi (take ten dollars off), cất cánh (không tân ngữ: The plane took off). Break down: hỏng máy, bật khóc, chia nhỏ (break the problem down). Turn out: hóa ra, rốt cuộc là (It turned out great).",
+        "examples": [
+          {
+            "en": "The bus broke down on the highway.",
+            "vi": "Xe buýt bị hỏng trên đường cao tốc."
+          },
+          {
+            "en": "The party turned out better than we expected.",
+            "vi": "Bữa tiệc rốt cuộc tốt hơn chúng tôi mong đợi."
+          }
+        ]
       }
     ],
     "signalWords": [

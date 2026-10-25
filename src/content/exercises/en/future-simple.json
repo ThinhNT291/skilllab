@@ -839,5 +839,565 @@
       "Sai — sau 'will' động từ giữ nguyên thể, không thêm -s."
     ],
     "bac": 3
+  },
+  {
+    "id": "en-future-simple-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u1-spontaneous-decision",
+    "tags": [
+      "fs-u1-spontaneous-decision"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Oh no, I forgot my lunch! - Don't worry, I ______ (share) mine with you.",
+    "choices": [
+      "share",
+      "am sharing",
+      "will share",
+      "shared"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lời đề nghị nảy ra ngay lúc nghe bạn nói quên bữa trưa, chưa hề có kế hoạch từ trước, nên dùng 'will + V': will share.",
+    "choiceExplanations": [
+      "Sai — 'share' (hiện tại đơn) mô tả thói quen hoặc sự thật chung, không diễn tả quyết định vừa nảy ra.",
+      "Sai — 'am sharing' hợp với việc đang làm hoặc đã sắp xếp từ trước; ở đây người nói vừa quyết định.",
+      "Đúng — quyết định/đề nghị tức thời ngay lúc nói → will share.",
+      "Sai — 'shared' là quá khứ đơn, nhưng việc chia sẻ chưa xảy ra."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-simple-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I think Lily ______ (love) the present we bought her. She opens it tomorrow.",
+    "choices": [
+      "will love",
+      "loved",
+      "is loving",
+      "love"
+    ],
+    "correctIndex": 0,
+    "explanation": "'I think' cho thấy đây là dự đoán dựa trên suy nghĩ cá nhân về điều sẽ xảy ra, nên dùng 'will + V': will love.",
+    "choiceExplanations": [
+      "Đúng — dự đoán theo cảm nhận của người nói (I think) về tương lai → will love.",
+      "Sai — 'loved' là quá khứ đơn, nhưng Lily chưa mở quà.",
+      "Sai — 'love' là động từ chỉ trạng thái, thường không dùng ở thì tiếp diễn; 'is loving' không tự nhiên ở đây.",
+      "Sai — 'love' (không chia -s) vừa không hợp chủ ngữ số ít Lily, vừa không diễn đạt tương lai."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-simple-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u3-promise-offer-request",
+    "tags": [
+      "fs-u3-promise-offer-request"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You have so many bags! Wait, I ______ (hold) the door open for you.",
+    "choices": [
+      "held",
+      "hold",
+      "am holding",
+      "will hold"
+    ],
+    "correctIndex": 3,
+    "explanation": "Đây là lời đề nghị giúp đỡ nảy ra ngay khi thấy người kia ôm nhiều túi, nên dùng 'will hold'.",
+    "choiceExplanations": [
+      "Sai — 'held' là quá khứ đơn, nhưng cửa chưa được giữ.",
+      "Sai — 'hold' (hiện tại đơn) không diễn tả lời đề nghị làm ngay.",
+      "Sai — 'am holding' nói về việc đang làm; nếu dùng thì ý là đã giữ cửa rồi, không phải lời đề nghị vừa nảy ra.",
+      "Đúng — lời đề nghị giúp đỡ tức thời → will hold."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-simple-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'll wash the dishes after we ______ (finish) dinner.",
+    "choices": [
+      "will finish",
+      "finish",
+      "are finishing",
+      "finished"
+    ],
+    "correctIndex": 1,
+    "explanation": "'After' mở đầu mệnh đề thời gian. Dù nói về tương lai, mệnh đề này dùng hiện tại đơn, còn 'will' chỉ dùng ở mệnh đề chính (I'll wash).",
+    "choiceExplanations": [
+      "Sai — không dùng 'will' ngay sau 'after' trong mệnh đề thời gian.",
+      "Đúng — mệnh đề thời gian với 'after' dùng hiện tại đơn dù nghĩa tương lai → finish.",
+      "Sai — hiện tại tiếp diễn không phải cách chia chuẩn của mệnh đề thời gian với 'after' ở câu này.",
+      "Sai — 'finished' là quá khứ đơn, nhưng bữa tối chưa kết thúc."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-simple-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u3-promise-offer-request",
+    "tags": [
+      "fs-u3-promise-offer-request"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mom: Please don't be late again tonight. Ben: Don't worry, I ______ (be) home by nine.",
+    "choices": [
+      "will be",
+      "am",
+      "was",
+      "have been"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ben đang hứa với mẹ về việc sẽ làm, nên dùng 'will + V': will be.",
+    "choiceExplanations": [
+      "Đúng — lời hứa về tương lai → will be (I'll be).",
+      "Sai — 'am' là hiện tại, nhưng hiện giờ Ben chưa ở nhà.",
+      "Sai — 'was' là quá khứ, trong khi lời hứa nói về buổi tối nay.",
+      "Sai — 'have been' liên quan đến quá khứ nối với hiện tại, không dùng để hứa việc sắp tới."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-simple-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u1-spontaneous-decision",
+    "tags": [
+      "fs-u1-spontaneous-decision"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This soup tastes a bit bland. I ______ (add) a little salt.",
+    "choices": [
+      "add",
+      "added",
+      "am adding",
+      "will add"
+    ],
+    "correctIndex": 3,
+    "explanation": "Người nói vừa nếm và quyết định ngay lúc đó, chưa có kế hoạch từ trước nên dùng 'will add'. (Trong lời nói thân mật có thể nghe 'I'm adding' khi đang làm, nhưng đó là mô tả hành động đang diễn ra, không phải quyết định vừa nảy ra.)",
+    "choiceExplanations": [
+      "Sai — 'add' (hiện tại đơn) không diễn tả quyết định tức thời.",
+      "Sai — 'added' là quá khứ đơn, nhưng muối chưa được thêm.",
+      "Sai — 'am adding' mô tả hành động đang diễn ra hoặc đã sắp xếp; ở đây là quyết định vừa nghĩ ra, 'will add' hợp hơn.",
+      "Đúng — quyết định tức thời sau khi nếm → will add."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-simple-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u4-facts-certainty",
+    "tags": [
+      "fs-u4-facts-certainty"
+    ],
+    "difficulty": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Nobody lives forever. Even the oldest tortoise in the zoo ______ (die) one day.",
+    "choices": [
+      "dies",
+      "is dying",
+      "will die",
+      "died"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đây là điều chắc chắn xảy ra theo quy luật tự nhiên và hướng về tương lai ('one day'), nên dùng 'will die'.",
+    "choiceExplanations": [
+      "Sai — 'dies' (hiện tại đơn) nói về sự thật chung; cụm 'one day' hướng về tương lai nên cần 'will'.",
+      "Sai — 'is dying' nghĩa là đang hấp hối ngay lúc này, không phải điều sẽ xảy ra 'một ngày nào đó'.",
+      "Đúng — việc chắc chắn xảy ra theo lẽ tự nhiên trong tương lai → will die.",
+      "Sai — 'died' là quá khứ đơn, mâu thuẫn với 'one day' (tương lai)."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-simple-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'll keep the lights on until my brother ______ (come) home from school.",
+    "choices": [
+      "will come",
+      "comes",
+      "is coming",
+      "came"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Until' mở đầu mệnh đề thời gian nên dùng hiện tại đơn dù nghĩa tương lai; 'will' chỉ có ở mệnh đề chính (I'll keep).",
+    "choiceExplanations": [
+      "Sai — không dùng 'will' sau 'until' trong mệnh đề thời gian.",
+      "Đúng — mệnh đề thời gian với 'until' dùng hiện tại đơn; chủ ngữ số ít nên thêm -s → comes.",
+      "Sai — 'is coming' không phải cách chia chuẩn của mệnh đề thời gian với 'until'.",
+      "Sai — 'came' là quá khứ đơn, nhưng cậu em chưa về."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-simple-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I doubt my little brother ______ (finish) all that homework tonight.",
+    "choices": [
+      "will finish",
+      "finishes",
+      "is finishing",
+      "finished"
+    ],
+    "correctIndex": 0,
+    "explanation": "'I doubt' thể hiện suy đoán chủ quan của người nói về tương lai (gần như 'tôi không nghĩ là...'), nên dùng 'will finish'.",
+    "choiceExplanations": [
+      "Đúng — dự đoán dựa trên quan điểm cá nhân (I doubt) → will finish.",
+      "Sai — 'finishes' là hiện tại đơn, dùng cho thói quen hoặc lịch trình, không dùng cho dự đoán này.",
+      "Sai — 'is finishing' hợp với việc đang làm dở; ở đây người nói đang đoán chuyện tối nay.",
+      "Sai — 'finished' là quá khứ, nhưng chưa đến tối."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-simple-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u3-promise-offer-request",
+    "tags": [
+      "fs-u3-promise-offer-request"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm so sorry I broke your cup. I ______ (buy) you a new one tomorrow, I promise.",
+    "choices": [
+      "bought",
+      "buy",
+      "am buying",
+      "will buy"
+    ],
+    "correctIndex": 3,
+    "explanation": "'I promise' cho thấy đây là lời hứa, nên dùng 'will + V': will buy. ('I'm buying' nghe như một việc đã sắp xếp, không có sắc thái hứa.)",
+    "choiceExplanations": [
+      "Sai — 'bought' là quá khứ đơn, nhưng việc mua là chuyện của ngày mai.",
+      "Sai — 'buy' (hiện tại đơn) không diễn tả lời hứa.",
+      "Sai — 'am buying' nói về điều đã sắp xếp hoặc đang làm; ở đây người nói đưa ra lời hứa.",
+      "Đúng — lời hứa → will buy."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-simple-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u1-spontaneous-decision",
+    "tags": [
+      "fs-u1-spontaneous-decision"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The printer is out of paper again. Hold on, I ______ (get) some from the supply room.",
+    "choices": [
+      "got",
+      "will get",
+      "get",
+      "have gotten"
+    ],
+    "correctIndex": 1,
+    "explanation": "Người nói vừa phát hiện hết giấy và quyết định đi lấy ngay, nên dùng 'will get'.",
+    "choiceExplanations": [
+      "Sai — 'got' là quá khứ đơn, nhưng giấy chưa được lấy.",
+      "Đúng — quyết định tức thời ngay lúc phát hiện vấn đề → will get.",
+      "Sai — 'get' (hiện tại đơn) không diễn tả quyết định làm ngay.",
+      "Sai — 'have gotten' (hiện tại hoàn thành) nghĩa là đã lấy xong rồi, mâu thuẫn với 'hold on'."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-simple-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u3-promise-offer-request",
+    "tags": [
+      "fs-u3-promise-offer-request"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mom, my bike has a flat tire. ______ me to school this morning, please?",
+    "choices": [
+      "Do you drive",
+      "Did you drive",
+      "Will you drive",
+      "Are you drive"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu yêu cầu nhờ ai làm gì dùng cấu trúc 'Will you + V...?'. Đáp án phải có cả trợ động từ lẫn động từ chính.",
+    "choiceExplanations": [
+      "Sai — 'Do you drive' hỏi mẹ có biết/hay lái xe không, không phải lời nhờ.",
+      "Sai — 'Did you drive' là quá khứ, hỏi mẹ đã lái xe chưa.",
+      "Đúng — yêu cầu nhờ vả dùng 'Will you + V...?' → Will you drive.",
+      "Sai — 'Are you drive' sai cấu trúc: sau 'are' cần V-ing, không phải động từ nguyên thể."
+    ],
+    "bac": 2
+  },
+  {
+    "id": "en-future-simple-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u4-facts-certainty",
+    "tags": [
+      "fs-u4-facts-certainty"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If the volcano erupts, the lava ______ (reach) the village in under an hour.",
+    "choices": [
+      "will reach",
+      "reaches",
+      "reached",
+      "is reaching"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đây là hệ quả chắc chắn theo quy luật tự nhiên nếu núi lửa phun trào, nên dùng 'will reach'.",
+    "choiceExplanations": [
+      "Đúng — kết quả tất yếu trong tương lai → will reach.",
+      "Sai — 'reaches' (hiện tại đơn) không nhấn mạnh hệ quả sẽ xảy ra trong tương lai ở ngữ cảnh này.",
+      "Sai — 'reached' là quá khứ đơn, nhưng núi lửa chưa phun.",
+      "Sai — 'is reaching' nghĩa là dung nham đang tới nơi ngay lúc này."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-simple-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Don't worry about Jake. After a good night's sleep, I'm sure he ______ (feel) much better.",
+    "choices": [
+      "is feeling",
+      "felt",
+      "will feel",
+      "feels"
+    ],
+    "correctIndex": 2,
+    "explanation": "'I'm sure' diễn tả niềm tin chủ quan của người nói về tương lai, nên dùng 'will feel'.",
+    "choiceExplanations": [
+      "Sai — 'is feeling' nói về cảm giác ngay lúc này, không phải sau một đêm ngủ ngon.",
+      "Sai — 'felt' là quá khứ đơn, nhưng Jake chưa ngủ.",
+      "Đúng — dự đoán dựa trên niềm tin cá nhân (I'm sure) → will feel.",
+      "Sai — 'feels' là hiện tại đơn, không diễn tả dự đoán về sau đêm ngủ."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-simple-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Before the sun ______ (set), we ______ (reach) the campsite.",
+    "choices": [
+      "will set / will reach",
+      "will set / reach",
+      "sets / reach",
+      "sets / will reach"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Before' mở đầu mệnh đề thời gian nên chia hiện tại đơn (sets); mệnh đề chính nói về dự đoán/dự kiến dùng 'will' (will reach).",
+    "choiceExplanations": [
+      "Sai — mệnh đề thời gian sau 'before' không dùng 'will'.",
+      "Sai — vừa dùng 'will' sai trong mệnh đề thời gian, vừa thiếu 'will' ở mệnh đề chính.",
+      "Sai — mệnh đề thời gian chia đúng (sets) nhưng mệnh đề chính cần 'will reach'.",
+      "Đúng — mệnh đề thời gian: hiện tại đơn (sets); mệnh đề chính: will reach."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-simple-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u1-spontaneous-decision",
+    "tags": [
+      "fs-u1-spontaneous-decision"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Are you coming to the beach on Saturday? B: Sorry, I can't. I ______ (visit) my aunt. I bought the train ticket yesterday.",
+    "choices": [
+      "will visit",
+      "am going to visit",
+      "visit",
+      "visited"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vé tàu đã mua từ hôm qua cho thấy đây là dự định có sẵn kế hoạch, không phải quyết định tức thời, nên dùng 'be going to' thay vì 'will'. ('Am visiting' cũng tự nhiên trong đời thực nhưng không có trong các lựa chọn.)",
+    "choiceExplanations": [
+      "Sai — 'will visit' dùng cho quyết định vừa nảy ra; ở đây kế hoạch đã có từ hôm qua.",
+      "Đúng — dự định đã có kế hoạch rõ ràng (đã mua vé) → am going to visit.",
+      "Sai — 'visit' (hiện tại đơn) dùng cho lịch trình cố định, không hợp với kế hoạch cá nhân này.",
+      "Sai — 'visited' là quá khứ đơn, nhưng chuyến đi chưa diễn ra."
+    ],
+    "bac": 3
+  },
+  {
+    "id": "en-future-simple-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u5-time-clause-restriction",
+    "tags": [
+      "fs-u5-time-clause-restriction"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mr. Park says that before the festival ______ (begin), the students ______ (rehearse) one last time.",
+    "choices": [
+      "begins / will rehearse",
+      "will begin / rehearse",
+      "begins / rehearse",
+      "will begin / will rehearse"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau 'before', mệnh đề thời gian dùng hiện tại đơn (begins); mệnh đề chính nói về việc sẽ làm nên dùng 'will rehearse'.",
+    "choiceExplanations": [
+      "Đúng — mệnh đề thời gian: begins; mệnh đề chính: will rehearse.",
+      "Sai — không dùng 'will' trong mệnh đề thời gian với 'before', và mệnh đề chính cũng thiếu 'will'.",
+      "Sai — mệnh đề thời gian chia đúng nhưng mệnh đề chính cần 'will rehearse' để chỉ việc sẽ làm.",
+      "Sai — 'will begin' sai vì dùng 'will' trong mệnh đề thời gian."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-future-simple-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Look at those dark clouds! It ______ (rain) any minute.",
+    "choices": [
+      "will rain",
+      "rained",
+      "rains",
+      "is going to rain"
+    ],
+    "correctIndex": 3,
+    "explanation": "Bằng chứng rõ ràng ở hiện tại (mây đen) cho thấy sắp mưa, nên 'be going to' hợp hơn. 'Will' dùng cho dự đoán dựa trên suy nghĩ cá nhân, không dựa vào bằng chứng đang thấy.",
+    "choiceExplanations": [
+      "Sai — 'will rain' vẫn có thể nghe được, nhưng ngữ cảnh có bằng chứng rõ ràng (Look at...) nên 'is going to rain' tự nhiên hơn.",
+      "Sai — 'rained' là quá khứ đơn, nhưng trời chưa mưa.",
+      "Sai — 'rains' (hiện tại đơn) dùng cho sự thật chung hoặc lịch trình, không dự đoán sắp xảy ra.",
+      "Đúng — dự đoán dựa trên bằng chứng nhìn thấy ngay lúc nói → is going to rain."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-future-simple-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u4-facts-certainty",
+    "tags": [
+      "fs-u4-facts-certainty"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Scientists say that in about five billion years, the Sun ______ (run) out of fuel.",
+    "choices": [
+      "runs",
+      "will run",
+      "is running",
+      "ran"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đây là sự việc chắc chắn xảy ra trong tương lai xa theo quy luật tự nhiên, không phải lịch trình do con người sắp xếp, nên dùng 'will run'.",
+    "choiceExplanations": [
+      "Sai — 'runs' (hiện tại đơn) dùng cho lịch trình hoặc sự thật chung, còn 'in about five billion years' chỉ rõ tương lai.",
+      "Đúng — sự việc tất yếu trong tương lai theo quy luật tự nhiên → will run.",
+      "Sai — 'is running' nghĩa là Mặt Trời đang cạn nhiên liệu ngay lúc này.",
+      "Sai — 'ran' là quá khứ đơn, mâu thuẫn với 'in about five billion years'."
+    ],
+    "bac": 4
+  },
+  {
+    "id": "en-future-simple-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "future-simple",
+    "usageId": "fs-u2-prediction-belief",
+    "tags": [
+      "fs-u2-prediction-belief"
+    ],
+    "difficulty": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I don't think Dad ______ (let) us stay up late tonight.",
+    "choices": [
+      "lets",
+      "is letting",
+      "will let",
+      "let"
+    ],
+    "correctIndex": 2,
+    "explanation": "'I don't think' cho thấy đây là dự đoán chủ quan về tương lai (tối nay), nên dùng 'will let'.",
+    "choiceExplanations": [
+      "Sai — 'lets' (hiện tại đơn) không diễn tả dự đoán về tối nay.",
+      "Sai — 'is letting' mô tả việc đang xảy ra; ở đây người nói đang đoán trước.",
+      "Đúng — dự đoán theo suy nghĩ cá nhân (I don't think) → will let.",
+      "Sai — 'let' là quá khứ hoặc nguyên thể, không hợp cấu trúc dự đoán tương lai ở đây."
+    ],
+    "bac": 3
   }
 ]
