@@ -413,7 +413,7 @@
     "correctIndex": 3,
     "explanation": "Số lượng việc đã xong đi với had + V3.",
     "choiceExplanations": [
-      "Sai — 'had been cooking': câu này có thể đúng nếu chỉ nói Dad đang nấu, nhưng ở đây nêu số món và mọi thứ đã xong ('everything was on the table'), nên 'had cooked' tự nhiên hơn.",
+      "Sai — 'had been cooking': không sai hẳn về ngữ pháp, nhưng ở đây có số món (three different dishes) và mọi thứ đã xong ('everything was on the table'), nên 'had cooked' (nhấn mạnh kết quả) phù hợp hơn.",
       "Sai — 'had cooking': thiếu 'been' và dạng V-ing không đứng sau had.",
       "Sai — 'has cooked': 'has cooked' nói về hiện tại, còn mốc (guests arrived) ở quá khứ.",
       "Đúng — có số lượng món đã hoàn thành (three dishes) nên dùng had + V3: had cooked."
@@ -711,20 +711,20 @@
     "difficulty": 3,
     "bac": 4,
     "title": "Tìm câu đúng nghĩa",
-    "prompt": "Which sentence does NOT say that the cleaning was completed?",
+    "prompt": "Which sentence does NOT clearly say that she finished cleaning the house?",
     "choices": [
-      "When I called, she had finished the kitchen.",
-      "By the time I called, she had finished cleaning the house.",
+      "When I called, she had finished cleaning the house.",
+      "By the time I called, she had cleaned the whole house.",
       "When I called, she had been cleaning the house since morning.",
-      "When I called, she had cleaned the whole house."
+      "When I called, she had cleaned every room in the house."
     ],
     "correctIndex": 2,
     "explanation": "Had been + V-ing nhấn mạnh quá trình, không nói việc đã xong chưa. Had + V3 cho thấy việc đã hoàn thành.",
     "choiceExplanations": [
-      "Sai — 'When I called, she had finished the kitchen.': câu này nói việc đã xong, không phải việc dang dở.",
-      "Sai — 'By the time I called, she had finished cleaning the house.': câu này nói việc đã xong, không phải việc dang dở.",
+      "Sai — 'When I called, she had finished cleaning the house.': câu này nói việc đã xong, không phải việc dang dở.",
+      "Sai — 'By the time I called, she had cleaned the whole house.': câu này nói việc đã xong, không phải việc dang dở.",
       "Đúng — had been + V-ing nhấn mạnh quá trình; câu không nói việc đã xong (có thể chưa xong).",
-      "Sai — 'When I called, she had cleaned the whole house.': câu này nói việc đã xong ('the whole house'), không phải việc dang dở."
+      "Sai — 'When I called, she had cleaned every room in the house.': câu này nói việc đã xong, không phải việc dang dở."
     ]
   },
   {
@@ -1085,7 +1085,7 @@
     "correctIndex": 2,
     "explanation": "Nêu số lượng kết quả (seven puzzles): had + V3.",
     "choiceExplanations": [
-      "Sai — 'had been solving': về ngữ pháp vẫn nói được, nhưng câu nhấn mạnh con số đã hoàn thành (seven puzzles) nên 'had solved' tự nhiên hơn.",
+      "Sai — 'had been solving': không sai hẳn về ngữ pháp, nhưng câu nhấn mạnh con số đã hoàn thành (seven puzzles) nên 'had solved' (nhấn mạnh kết quả) phù hợp hơn.",
       "Sai — 'had solving': thiếu 'been'; sau 'had' không đi với V-ing.",
       "Đúng — có số lượng kết quả (seven puzzles) nên dùng had + V3: had solved.",
       "Sai — 'has solved': 'has solved' nói về hiện tại, còn mốc 'lunchtime' đã ở quá khứ."

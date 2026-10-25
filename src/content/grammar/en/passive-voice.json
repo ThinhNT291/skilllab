@@ -217,6 +217,9 @@
             "wrong": "The letter be sent yesterday.",
             "correct": "The letter was sent yesterday."
           }
+        ],
+        "usageIds": [
+          "pv-u1-basic-tenses"
         ]
       },
       {
@@ -227,6 +230,9 @@
             "wrong": "The window was broke.",
             "correct": "The window was broken."
           }
+        ],
+        "usageIds": [
+          "pv-u1-basic-tenses"
         ]
       },
       {
@@ -238,7 +244,10 @@
             "correct": "The street is cleaned."
           }
         ],
-        "note": "Chỉ cần nói \"The street is cleaned\" là đã đủ tự nhiên và chính xác."
+        "note": "Chỉ cần nói \"The street is cleaned\" là đã đủ tự nhiên và chính xác.",
+        "usageIds": [
+          "pv-u1-basic-tenses"
+        ]
       }
     ],
     "formulas": {

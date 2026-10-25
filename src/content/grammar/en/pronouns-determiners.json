@@ -187,7 +187,10 @@
             "correct": "I'm not lonely — I have a few close friends who I trust completely."
           }
         ],
-        "note": "Ý muốn nói tích cực 'có một số bạn' nên phải dùng 'a few' có mạo từ."
+        "note": "Ý muốn nói tích cực 'có một số bạn' nên phải dùng 'a few' có mạo từ.",
+        "usageIds": [
+          "pronouns-determiners-u3-few-little"
+        ]
       },
       {
         "id": "pronouns-determiners-m2",
@@ -197,6 +200,9 @@
             "wrong": "How much people came to the party last night?",
             "correct": "How many people came to the party last night?"
           }
+        ],
+        "usageIds": [
+          "pronouns-determiners-u2-much-many-alotof"
         ]
       },
       {
@@ -207,6 +213,9 @@
             "wrong": "She doesn't have many information about the new policy.",
             "correct": "She doesn't have much information about the new policy."
           }
+        ],
+        "usageIds": [
+          "pronouns-determiners-u2-much-many-alotof"
         ]
       },
       {
@@ -218,7 +227,10 @@
             "correct": "Tom and Mary looked at each other and smiled when they met at the station."
           }
         ],
-        "note": "Hai người nhìn NHAU (hành động qua lại) nên dùng đại từ tương hỗ 'each other', không dùng đại từ phản thân 'themselves' vốn chỉ mỗi người tự nhìn chính mình."
+        "note": "Hai người nhìn NHAU (hành động qua lại) nên dùng đại từ tương hỗ 'each other', không dùng đại từ phản thân 'themselves' vốn chỉ mỗi người tự nhìn chính mình.",
+        "usageIds": [
+          "pronouns-determiners-u4-reflexive-reciprocal"
+        ]
       },
       {
         "id": "pronouns-determiners-m5",
@@ -228,6 +240,9 @@
             "wrong": "This is mine car; yours is over there.",
             "correct": "This is my car; yours is over there."
           }
+        ],
+        "usageIds": [
+          "pronouns-determiners-u5-possessive"
         ]
       },
       {
@@ -238,6 +253,9 @@
             "wrong": "I don't have some time to help you today, sorry.",
             "correct": "I don't have any time to help you today, sorry."
           }
+        ],
+        "usageIds": [
+          "pronouns-determiners-u1-some-any"
         ]
       },
       {
@@ -249,7 +267,10 @@
             "correct": "No students came to class because of the storm."
           }
         ],
-        "note": "'none' không đứng trực tiếp trước danh từ; dùng 'no + danh từ' hoặc 'none of + danh từ' (None of the students came to class)."
+        "note": "'none' không đứng trực tiếp trước danh từ; dùng 'no + danh từ' hoặc 'none of + danh từ' (None of the students came to class).",
+        "usageIds": [
+          "pronouns-determiners-u6-no-none-neither-either"
+        ]
       }
     ]
   }

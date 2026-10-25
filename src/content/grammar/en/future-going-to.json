@@ -125,6 +125,9 @@
             "wrong": "I am going study tonight.",
             "correct": "I am going to study tonight."
           }
+        ],
+        "usageIds": [
+          "fgt-u1-planned-intention"
         ]
       },
       {
@@ -136,7 +139,11 @@
             "correct": "The phone is ringing! I'll answer it."
           }
         ],
-        "note": "Câu sai nếu đây là phản ứng tức thời."
+        "note": "Câu sai nếu đây là phản ứng tức thời.",
+        "usageIds": [
+          "fgt-u1-planned-intention",
+          "fgt-u5-question-negative-vs-continuous"
+        ]
       },
       {
         "id": "future-going-to-m3",
@@ -146,6 +153,9 @@
             "wrong": "She going to travel to Japan next year.",
             "correct": "She is going to travel to Japan next year."
           }
+        ],
+        "usageIds": [
+          "fgt-u1-planned-intention"
         ]
       },
       {
@@ -156,6 +166,9 @@
             "wrong": "We are going to go to the beach this weekend.",
             "correct": "We are going to the beach this weekend."
           }
+        ],
+        "usageIds": [
+          "fgt-u4-going-go-come"
         ]
       },
       {
@@ -166,6 +179,9 @@
             "wrong": "My brother and I is going to build a treehouse.",
             "correct": "My brother and I are going to build a treehouse."
           }
+        ],
+        "usageIds": [
+          "fgt-u1-planned-intention"
         ]
       }
     ],

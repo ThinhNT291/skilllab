@@ -147,6 +147,9 @@
             "wrong": "A: I don't like spicy food. B: Neither don't I.",
             "correct": "A: I don't like spicy food. B: Neither do I."
           }
+        ],
+        "usageIds": [
+          "asr-u2-neither-agreement"
         ]
       },
       {
@@ -157,6 +160,10 @@
             "wrong": "A: I went to the beach. B: So do we.",
             "correct": "A: I went to the beach. B: So did we."
           }
+        ],
+        "usageIds": [
+          "asr-u4-choosing-auxiliary",
+          "asr-u1-so-agreement"
         ]
       },
       {
@@ -167,6 +174,9 @@
             "wrong": "She doesn't eat meat, and I don't too.",
             "correct": "She doesn't eat meat, and I don't either."
           }
+        ],
+        "usageIds": [
+          "asr-u3-too-either"
         ]
       }
     ]

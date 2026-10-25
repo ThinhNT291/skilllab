@@ -178,7 +178,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The company ______ money every month this year, which is why they're worried.",
+    "prompt": "The company ______ money for the past six months, which is why they're worried.",
     "choices": [
       "loses",
       "has been losing",
@@ -186,12 +186,12 @@
       "is losing"
     ],
     "correctIndex": 1,
-    "explanation": "Tình trạng thua lỗ lặp lại/kéo dài suốt 'this year' đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
+    "explanation": "'For the past six months' là khoảng thời gian kéo dài đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
     "choiceExplanations": [
-      "Sai — hiện tại đơn không nhấn mạnh được khoảng thời gian kéo dài đến hiện tại.",
-      "Đúng — 'has been losing' nhấn mạnh quá trình thua lỗ liên tục trong suốt năm, đến tận bây giờ.",
-      "Sai — quá khứ đơn không phù hợp vì tình trạng vẫn tiếp diễn (năm nay chưa kết thúc).",
-      "Sai — hiện tại tiếp diễn chỉ nói về hành động đang xảy ra ngay lúc nói, không bao trùm cả khoảng thời gian 'this year'."
+      "Sai — hiện tại đơn không diễn tả khoảng thời gian đã kéo dài đến hiện tại.",
+      "Đúng — 'has been losing' nhấn mạnh quá trình thua lỗ liên tục suốt sáu tháng qua, đến tận bây giờ.",
+      "Sai — quá khứ đơn coi việc thua lỗ là đã xong, trong khi công ty vẫn đang lo lắng vì tình trạng này.",
+      "Sai — hiện tại tiếp diễn chỉ nói về lúc này, không bao trùm cả sáu tháng qua như 'for the past six months'."
     ],
     "bac": 3
   },
@@ -206,7 +206,7 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Why are your hands so dirty? — I ______ in the garden.",
+    "prompt": "You just came inside, and your hands are covered in dirt. — Sorry, I ______ in the garden since this morning.",
     "choices": [
       "am working",
       "worked",
@@ -216,10 +216,10 @@
     "correctIndex": 3,
     "explanation": "Kết quả ở hiện tại (tay bẩn) do một hành động vừa mới xảy ra gần đây nên dùng hiện tại hoàn thành tiếp diễn.",
     "choiceExplanations": [
-      "Sai — hiện tại tiếp diễn nghĩa là đang làm ngay lúc nói, nhưng câu hỏi ngụ ý người đó vừa dừng lại.",
-      "Sai — quá khứ đơn không liên kết trực tiếp với kết quả hiện tại (tay đang bẩn).",
-      "Sai — hiện tại đơn không giải thích được lý do tay bẩn ngay bây giờ.",
-      "Đúng — 'have been working' giải thích lý do (dấu vết/kết quả) hiện tại của một hoạt động vừa mới dừng."
+      "Sai — hiện tại tiếp diễn không đi với 'since this morning' (mốc bắt đầu trong quá khứ).",
+      "Sai — quá khứ đơn không đi với 'since'; 'since this morning' cần thì nối quá khứ với hiện tại.",
+      "Sai — hiện tại đơn nói thói quen, không đi với 'since this morning'.",
+      "Đúng — 'have been working' giải thích lý do (tay bẩn) bằng hoạt động kéo dài từ sáng đến giờ."
     ],
     "bac": 3
   },
@@ -245,7 +245,7 @@
     "explanation": "Hỏi về nguyên nhân của tình trạng hiện tại (mệt) — hành động vừa xảy ra gần đây nên dùng hiện tại hoàn thành tiếp diễn.",
     "choiceExplanations": [
       "Sai — hiện tại đơn hỏi về thói quen chung, không hỏi lý do trạng thái hiện tại.",
-      "Sai — quá khứ đơn không gắn với kết quả rõ ràng ở hiện tại.",
+      "Sai (khó hơn bạn nghĩ) — 'Did you exercise' hỏi về một lần tập đã xong, nghe được; nhưng ở đây ta thấy dấu hiệu ngay bây giờ (trông kiệt sức), nên hỏi về hoạt động gần đây bằng 'Have you been exercising' hợp hơn.",
       "Sai — hiện tại tiếp diễn hỏi về việc đang xảy ra ngay lúc nói, nhưng người này đang đứng nói chuyện, không đang tập.",
       "Đúng — hỏi về hoạt động gần đây gây ra kết quả/trạng thái hiện tại (trông mệt mỏi)."
     ],
@@ -262,7 +262,7 @@
     ],
     "difficulty": 1,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "The kitchen smells amazing! ______ ?",
+    "prompt": "The kitchen smells amazing, and the stove is already off. ______ ?",
     "choices": [
       "Did you cook",
       "Do you cook",
@@ -272,10 +272,10 @@
     "correctIndex": 2,
     "explanation": "Mùi thơm là bằng chứng hiện tại do hành động vừa mới xảy ra gần đây nên dùng hiện tại hoàn thành tiếp diễn.",
     "choiceExplanations": [
-      "Sai — 'did you cook' hỏi về một lần nấu ăn cụ thể trong quá khứ đã kết thúc, không phù hợp khi có bằng chứng ngay lúc nói (mùi thơm).",
+      "Sai (khó hơn bạn nghĩ) — 'Did you cook' hỏi một lần nấu đã xong, nghe được; nhưng câu này dựa vào dấu hiệu đang thấy (mùi thơm), nên 'Have you been cooking' hợp hơn.",
       "Sai — hiện tại đơn hỏi về thói quen, không phù hợp với bằng chứng tức thời.",
       "Đúng — hỏi về hoạt động vừa xảy ra để lại dấu hiệu ở hiện tại (mùi thơm).",
-      "Sai — 'are you cooking' (hiện tại tiếp diễn) hỏi về việc đang nấu NGAY lúc này, trong khi câu hỏi ở đây là về hành động vừa mới xảy ra để lại dấu hiệu, không nhất thiết vẫn đang nấu."
+      "Sai — 'Are you cooking' hỏi về việc đang nấu NGAY lúc này, nhưng đề cho biết bếp đã tắt."
     ],
     "bac": 3
   },
@@ -290,7 +290,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "Look at this mess! Who ______ in here?",
+    "prompt": "Look at this mess! Someone ______ in here, and the stove is still warm.",
     "choices": [
       "has been cooking",
       "cooks",
@@ -300,10 +300,10 @@
     "correctIndex": 0,
     "explanation": "Kết quả hiện tại (căn phòng bừa bộn) là bằng chứng của một hành động vừa mới xảy ra nên dùng hiện tại hoàn thành tiếp diễn.",
     "choiceExplanations": [
-      "Đúng — 'has been cooking' giải thích nguyên nhân của tình trạng lộn xộn đang thấy trước mắt.",
+      "Đúng — 'has been cooking' giải thích nguyên nhân của tình trạng lộn xộn và bếp còn ấm đang thấy trước mắt.",
       "Sai — hiện tại đơn không diễn tả được sự việc vừa xảy ra để lại dấu vết.",
-      "Sai — hiện tại tiếp diễn ngụ ý hành động đang xảy ra ngay lúc này, nhưng câu hỏi ngụ ý người đó đã xong và để lại hậu quả.",
-      "Sai — quá khứ đơn không nhấn mạnh mối liên hệ với tình trạng hiện tại (căn phòng vẫn đang bừa bộn)."
+      "Sai — hiện tại tiếp diễn ngụ ý người đó đang nấu ngay lúc này, nhưng đề cho thấy việc nấu vừa mới dừng.",
+      "Sai (khó hơn bạn nghĩ) — 'cooked' kể một việc đã xong, nghe được; nhưng bếp còn ấm và căn phòng còn bừa nên hoàn thành tiếp diễn nối tốt hơn với hiện tại."
     ],
     "bac": 3
   },
@@ -318,7 +318,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "My eyes are stinging because I ______ onions for the soup.",
+    "prompt": "My eyes are stinging because I ______ onions for twenty minutes.",
     "choices": [
       "have been cutting",
       "cut",
@@ -326,12 +326,12 @@
       "have cut"
     ],
     "correctIndex": 0,
-    "explanation": "Nguyên nhân của cảm giác hiện tại (mắt cay) là hành động vừa mới thực hiện, nhấn mạnh quá trình nên dùng hiện tại hoàn thành tiếp diễn.",
+    "explanation": "Nguyên nhân của cảm giác hiện tại (mắt cay) là hoạt động kéo dài đến vừa rồi, nên dùng hiện tại hoàn thành tiếp diễn.",
     "choiceExplanations": [
       "Đúng — 'have been cutting' giải thích nguyên nhân của cảm giác hiện tại bằng một hoạt động vừa mới diễn ra.",
-      "Sai — quá khứ đơn không gắn kết rõ với cảm giác đang diễn ra ở hiện tại.",
-      "Sai — hiện tại tiếp diễn ngụ ý hành động đang xảy ra ngay lúc nói, nhưng người nói có thể đã dừng cắt hành và giờ chỉ còn lại cảm giác cay mắt.",
-      "Sai — 'have cut' (hiện tại hoàn thành đơn) nhấn mạnh kết quả/số lượng hoàn thành hơn là nguyên nhân của cảm giác đang diễn ra."
+      "Sai (khó hơn bạn nghĩ) — 'cut' kể việc đã xong, nghe được; nhưng 'for twenty minutes' kèm cảm giác mắt cay lúc này cần thì nối quá khứ với hiện tại.",
+      "Sai — hiện tại tiếp diễn không đi với 'for twenty minutes' tính đến bây giờ.",
+      "Sai — 'have cut' (thể đơn) nhấn mạnh kết quả/số lượng, không hợp với 'for twenty minutes' nhấn mạnh quá trình."
     ],
     "bac": 3
   },
@@ -346,7 +346,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "She's out of breath because she ______ to catch the train.",
+    "prompt": "She's out of breath because she ______ around the track for the last ten minutes.",
     "choices": [
       "ran",
       "is running",
@@ -356,9 +356,9 @@
     "correctIndex": 2,
     "explanation": "Hơi thở gấp gáp là kết quả hiện tại của một hoạt động thể chất vừa mới xảy ra nên dùng hiện tại hoàn thành tiếp diễn.",
     "choiceExplanations": [
-      "Sai — quá khứ đơn không liên kết trực tiếp đến trạng thái đang diễn ra ở hiện tại.",
-      "Sai — hiện tại tiếp diễn nghĩa là đang chạy ngay lúc nói, nhưng câu văn mô tả cô ấy đang đứng thở dốc, không phải đang chạy.",
-      "Đúng — giải thích nguyên nhân của trạng thái hiện tại (thở gấp) bằng hoạt động chạy vừa xảy ra.",
+      "Sai — quá khứ đơn không nối với 'for the last ten minutes' tính đến hiện tại (cô ấy đang thở dốc).",
+      "Sai — hiện tại tiếp diễn không đi với 'for the last ten minutes' (khoảng thời gian tính đến bây giờ).",
+      "Đúng — giải thích nguyên nhân của trạng thái hiện tại (thở gấp) bằng hoạt động chạy vừa kéo dài đến giờ.",
       "Sai — hiện tại đơn diễn tả thói quen, không phải nguyên nhân tức thời."
     ],
     "bac": 3
@@ -402,7 +402,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "He ______ me all week about the meeting, so I finally agreed to attend.",
+    "prompt": "He ______ me about the meeting all week, so I'll go this time.",
     "choices": [
       "asked",
       "has been asking",
@@ -412,10 +412,10 @@
     "correctIndex": 1,
     "explanation": "Nhấn mạnh hành động lặp đi lặp lại suốt cả tuần, dẫn đến kết quả hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
     "choiceExplanations": [
-      "Sai — quá khứ đơn không thể hiện được sự liên kết với kết quả ở hiện tại ('finally agreed').",
+      "Sai (khó hơn bạn nghĩ) — 'asked' nghe được nếu tuần đã kết thúc; nhưng ở đây ý là cả tuần nay anh ấy cứ lặp lại và dẫn đến quyết định bây giờ, nên hoàn thành tiếp diễn hợp hơn.",
       "Đúng — nhấn mạnh việc hỏi lặp đi lặp lại suốt cả tuần, dẫn tới quyết định ở hiện tại.",
-      "Sai — hiện tại đơn không diễn tả được tính lặp lại kéo dài suốt tuần qua.",
-      "Sai — hiện tại tiếp diễn chỉ diễn tả hành động đang xảy ra ngay lúc nói, không phù hợp với 'all week'."
+      "Sai — hiện tại đơn không diễn tả được việc lặp lại kéo dài suốt tuần qua.",
+      "Sai — hiện tại tiếp diễn chỉ nói về lúc này, không bao gồm cả tuần vừa qua như 'all week'."
     ],
     "bac": 4
   },
@@ -442,8 +442,8 @@
     "choiceExplanations": [
       "Đúng — 'have been ringing' nhấn mạnh sự lặp đi lặp lại gây khó chịu của hành động tính đến thời điểm hiện tại.",
       "Sai — quá khứ đơn không phù hợp vì hành động vẫn đang tiếp diễn/lặp lại vào lúc nói.",
-      "Sai — hiện tại đơn không phù hợp để hỏi về một hành động lặp lại đã và đang diễn ra tính đến hiện tại.",
-      "Sai — 'are ringing' không đúng ngữ pháp khi câu hỏi nhìn lại một khoảng thời gian đã qua trong buổi tối."
+      "Sai — 'do ring' không đúng ngữ pháp trong câu này và không nối khoảng thời gian 'for the last ten minutes' với hiện tại.",
+      "Sai — 'are ringing' (hiện tại tiếp diễn) không đi với 'for the last ten minutes' là khoảng thời gian tính đến bây giờ."
     ],
     "bac": 4
   },
@@ -542,7 +542,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "______ have you been waiting for the doctor?",
+    "prompt": "A: ______ have you been waiting for the doctor?\nB: About forty minutes.",
     "choices": [
       "What",
       "Why",
@@ -552,10 +552,10 @@
     "correctIndex": 2,
     "explanation": "'How long' dùng để hỏi về khoảng thời gian một hành động đã tiếp diễn, đi cùng hiện tại hoàn thành tiếp diễn.",
     "choiceExplanations": [
-      "Sai — 'what' không dùng để hỏi về khoảng thời gian.",
-      "Sai — 'why' hỏi lý do, không phù hợp với cấu trúc câu hỏi về thời lượng.",
+      "Sai — 'what' không hỏi về khoảng thời gian.",
+      "Sai — 'why' hỏi lý do, trong khi B trả lời bằng một khoảng thời gian.",
       "Đúng — 'how long' là từ để hỏi chuẩn cho khoảng thời gian một hành động đã kéo dài đến hiện tại.",
-      "Sai — 'when' hỏi về thời điểm cụ thể, không phù hợp với cấu trúc hỏi khoảng thời gian tiếp diễn."
+      "Sai — 'when' hỏi về một thời điểm, còn B trả lời bằng độ dài thời gian ('about forty minutes')."
     ],
     "bac": 3
   },
@@ -570,7 +570,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "How long ______ your brother ______ for that company?",
+    "prompt": "Your brother still works at that company. How long ______ he ______ there?",
     "choices": [
       "has / been working",
       "did / work",
@@ -580,10 +580,10 @@
     "correctIndex": 0,
     "explanation": "Câu hỏi 'How long' về khoảng thời gian một công việc đã kéo dài đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
     "choiceExplanations": [
-      "Đúng — cấu trúc chuẩn 'How long has/have + S + been + V-ing' để hỏi khoảng thời gian tiếp diễn đến hiện tại.",
-      "Sai — quá khứ đơn ngụ ý hành động đã kết thúc, không phù hợp nếu người đó vẫn đang làm việc ở đó.",
+      "Đúng — cấu trúc chuẩn 'How long + has/have + S + been + V-ing' hỏi khoảng thời gian kéo dài đến hiện tại.",
+      "Sai — quá khứ đơn hỏi về khoảng thời gian đã kết thúc, nhưng anh ấy vẫn còn làm ở đó.",
       "Sai — hiện tại đơn không phù hợp để hỏi về khoảng thời gian đã trôi qua.",
-      "Sai — hiện tại tiếp diễn không kết hợp với 'how long' để hỏi khoảng thời gian tính đến hiện tại."
+      "Sai — hiện tại tiếp diễn không đi với 'How long' theo nghĩa 'đã được bao lâu'."
     ],
     "bac": 3
   },
@@ -598,7 +598,7 @@
     ],
     "difficulty": 2,
     "title": "Điền từ vào chỗ trống",
-    "prompt": "How long ______ she ______ the piano this afternoon?",
+    "prompt": "Listen, she is still at the piano. How long ______ she ______ this afternoon?",
     "choices": [
       "did / practice",
       "is / practicing",
@@ -608,10 +608,10 @@
     "correctIndex": 2,
     "explanation": "Hỏi về khoảng thời gian luyện tập đã kéo dài liên tục đến hiện tại nên dùng hiện tại hoàn thành tiếp diễn.",
     "choiceExplanations": [
-      "Sai — quá khứ đơn phù hợp cho hành động đã hoàn toàn kết thúc, không phải khoảng thời gian tính đến hiện tại.",
+      "Sai — quá khứ đơn hỏi về khoảng thời gian đã kết thúc hẳn, nhưng cô ấy vẫn đang tập.",
       "Sai — hiện tại tiếp diễn thiếu ý 'khoảng thời gian từ quá khứ đến nay'.",
       "Đúng — 'How long has she been practicing' hỏi khoảng thời gian luyện tập đã kéo dài đến bây giờ.",
-      "Sai — hiện tại đơn không phù hợp để hỏi về khoảng thời gian đã trải qua."
+      "Sai — hiện tại đơn không phù hợp để hỏi về khoảng thời gian đã trôi qua."
     ],
     "bac": 3
   },
@@ -748,10 +748,10 @@
     "correctIndex": 1,
     "explanation": "'Have been painting' nhấn mạnh quá trình sơn kéo dài cả buổi chiều; 'have finished' nói về kết quả đã hoàn thành công việc.",
     "choiceExplanations": [
-      "Sai — 'have painted' không nhấn mạnh được quá trình kéo dài cả buổi chiều bằng 'have been painting'.",
+      "Sai — 'have painted' (thể đơn) nhấn mạnh kết quả; với 'all afternoon' (nhấn mạnh quá trình) thì 'have been painting' tự nhiên hơn, và thể đơn cũng không giải thích vết sơn trên áo bằng quá trình.",
       "Đúng — 'have been painting' (quá trình cả buổi chiều, giải thích vết sơn) kết hợp 'have finished' (kết quả: đã xong việc).",
       "Sai — hiện tại đơn không phù hợp với ngữ cảnh tường thuật kết quả/quá trình vừa xảy ra.",
-      "Sai — 'have been finishing' không hợp lý vì 'finish' thường không dùng ở dạng tiếp diễn khi nói về việc đã hoàn tất."
+      "Sai — 'have been finishing' không hợp lý: 'finish' nói về điểm hoàn tất (kết quả) nên dùng thể đơn 'have finished'; ngoài ra 'am painting' không đi với 'all afternoon'."
     ],
     "bac": 4
   },
@@ -796,18 +796,18 @@
     "title": "Chọn đáp án đúng",
     "prompt": "Choose the correct sentence:",
     "choices": [
-      "She has wanted to visit Japan for a long time.",
-      "She wants to visit Japan since a long time.",
-      "She is wanting to visit Japan for a long time.",
-      "She has been wanting to visit Japan for a long time."
+      "This farm has belonged to my family for a hundred years.",
+      "This farm belongs to my family since a hundred years.",
+      "This farm is belonging to my family for a hundred years.",
+      "This farm has been belonging to my family for a hundred years."
     ],
     "correctIndex": 0,
-    "explanation": "'Want' là động từ trạng thái, không dùng ở dạng tiếp diễn nên phải dùng hiện tại hoàn thành đơn.",
+    "explanation": "'Belong' là động từ trạng thái, không dùng ở dạng tiếp diễn nên phải dùng hiện tại hoàn thành đơn.",
     "choiceExplanations": [
-      "Đúng — 'has wanted...for a long time' đúng ngữ pháp vì 'want' phải ở thì hiện tại hoàn thành đơn.",
-      "Sai — sai cả động từ trạng thái và cách dùng 'since' (phải dùng 'for' với khoảng thời gian, không phải mốc thời gian).",
-      "Sai — 'want' không dùng ở thì hiện tại tiếp diễn.",
-      "Sai — 'want' là động từ trạng thái, không dùng dạng tiếp diễn 'has been wanting'."
+      "Đúng — 'has belonged ... for a hundred years': 'belong' là động từ trạng thái nên dùng hiện tại hoàn thành đơn.",
+      "Sai — hiện tại đơn không đi với khoảng thời gian tính đến nay, và 'since' phải đi với mốc thời gian chứ không phải khoảng thời gian ('a hundred years').",
+      "Sai — 'belong' không dùng ở thì hiện tại tiếp diễn.",
+      "Sai — 'belong' là động từ trạng thái, không dùng dạng tiếp diễn 'has been belonging'."
     ],
     "bac": 4
   },
@@ -1219,7 +1219,7 @@
       "have been studying",
       "am studying",
       "have studying",
-      "studied"
+      "had studied"
     ],
     "correctIndex": 0,
     "explanation": "'all week' nhấn mạnh quá trình học liên tục suốt tuần này, nên dùng have been studying.",
@@ -1227,7 +1227,7 @@
       "Đúng — 'have been studying': 'all week' nhấn mạnh việc học liên tục, đang gây ra sự mệt hiện giờ, nên dùng have been studying.",
       "Sai — 'am studying': hiện tại tiếp diễn chỉ lúc này, không bao gồm cả tuần học liên tục.",
       "Sai — 'have studying': thiếu 'been' sau 'have'.",
-      "Sai — 'studied': quá khứ đơn coi việc học như đã xong, trong khi tuần này chưa hết và việc ôn vẫn tiếp tục."
+      "Sai — 'had studied': quá khứ hoàn thành dành cho việc xảy ra trước một mốc trong quá khứ; ở đây mốc là hiện tại (đang mệt vì việc học cả tuần nay)."
     ],
     "bac": 4
   },
@@ -1341,7 +1341,7 @@
       "Sai — 'had been practicing': quá khứ hoàn thành tiếp diễn dành cho việc diễn ra trước một mốc trong quá khứ; ở đây mốc là hiện tại.",
       "Sai — 'was practicing': quá khứ tiếp diễn chỉ một lúc trong quá khứ, không nối với hiện tại."
     ],
-    "bac": 4
+    "bac": 3
   },
   {
     "id": "en-present-perfect-continuous-049",

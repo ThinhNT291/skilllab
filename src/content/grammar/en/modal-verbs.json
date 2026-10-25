@@ -137,6 +137,10 @@
             "wrong": "She can to swim very well.",
             "correct": "She can swim very well."
           }
+        ],
+        "usageIds": [
+          "modal-u1-ability",
+          "modal-u2-permission"
         ]
       },
       {
@@ -147,6 +151,10 @@
             "wrong": "He cans speak French.",
             "correct": "He can speak French."
           }
+        ],
+        "usageIds": [
+          "modal-u1-ability",
+          "modal-u4-advice"
         ]
       },
       {
@@ -158,7 +166,11 @@
             "correct": "You don't have to finish the homework tonight"
           }
         ],
-        "note": "Câu sai nghĩa là bị cấm làm bài tập, trong khi ý thực sự chỉ là bài tập không cần nộp gấp (không bắt buộc, để mai làm cũng được)."
+        "note": "Câu sai nghĩa là bị cấm làm bài tập, trong khi ý thực sự chỉ là bài tập không cần nộp gấp (không bắt buộc, để mai làm cũng được).",
+        "usageIds": [
+          "modal-u3-obligation",
+          "modal-u2-permission"
+        ]
       },
       {
         "id": "modal-verbs-m4",
@@ -168,6 +180,10 @@
             "wrong": "I might can help you tomorrow.",
             "correct": "I might be able to help you tomorrow."
           }
+        ],
+        "usageIds": [
+          "modal-u1-ability",
+          "modal-u5-deduction"
         ]
       },
       {
@@ -182,6 +198,10 @@
             "wrong": "Has she to work on Saturdays?",
             "correct": "Does she have to work on Saturdays?"
           }
+        ],
+        "usageIds": [
+          "modal-u4-advice",
+          "modal-u3-obligation"
         ]
       }
     ],

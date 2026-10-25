@@ -175,6 +175,10 @@
             "wrong": "Turn off it.",
             "correct": "Turn it off."
           }
+        ],
+        "usageIds": [
+          "pvr-u3-pronoun",
+          "pvr-u1-separable"
         ]
       },
       {
@@ -185,6 +189,9 @@
             "wrong": "She looks the baby after.",
             "correct": "She looks after the baby."
           }
+        ],
+        "usageIds": [
+          "pvr-u2-inseparable"
         ]
       },
       {
@@ -199,6 +206,10 @@
             "wrong": "I look forward to see you.",
             "correct": "I look forward to seeing you."
           }
+        ],
+        "usageIds": [
+          "pvr-u5-passive",
+          "pvr-u4-three-word"
         ]
       },
       {
@@ -209,6 +220,10 @@
             "wrong": "Texas was grown up in.",
             "correct": "My cousin grew up in Texas."
           }
+        ],
+        "usageIds": [
+          "pvr-u7-intransitive",
+          "pvr-u5-passive"
         ]
       },
       {
@@ -219,6 +234,9 @@
             "wrong": "She threw the big pile of old newspapers away.",
             "correct": "She threw away the big pile of old newspapers."
           }
+        ],
+        "usageIds": [
+          "pvr-u6-long-object"
         ]
       }
     ]

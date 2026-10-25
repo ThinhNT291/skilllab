@@ -169,6 +169,10 @@
             "wrong": "I lived in this city since 2015.",
             "correct": "I have lived in this city since 2015."
           }
+        ],
+        "usageIds": [
+          "past-u1-finished-action",
+          "past-u5-definite-time-marker"
         ]
       },
       {
@@ -179,6 +183,9 @@
             "wrong": "Did you went to school yesterday?",
             "correct": "Did you go to school yesterday?"
           }
+        ],
+        "usageIds": [
+          "past-u6-negatives-questions"
         ]
       },
       {
@@ -189,6 +196,9 @@
             "wrong": "She goed to the market by bike.",
             "correct": "She went to the market by bike."
           }
+        ],
+        "usageIds": [
+          "past-u7-regular-irregular-forms"
         ]
       },
       {
@@ -199,6 +209,9 @@
             "wrong": "I not finished my homework last night.",
             "correct": "I didn't finish my homework last night."
           }
+        ],
+        "usageIds": [
+          "past-u6-negatives-questions"
         ]
       }
     ],

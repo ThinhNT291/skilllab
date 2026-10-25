@@ -129,6 +129,9 @@
             "wrong": "I will call you when I will arrive home.",
             "correct": "I will call you when I arrive home."
           }
+        ],
+        "usageIds": [
+          "fs-u5-time-clause-restriction"
         ]
       },
       {
@@ -139,6 +142,9 @@
             "wrong": "She wills help you tomorrow.",
             "correct": "She will help you tomorrow."
           }
+        ],
+        "usageIds": [
+          "fs-u2-prediction-belief"
         ]
       },
       {
@@ -149,6 +155,9 @@
             "wrong": "You will come to the party tonight?",
             "correct": "Will you come to the party tonight?"
           }
+        ],
+        "usageIds": [
+          "fs-u3-promise-offer-request"
         ]
       },
       {
@@ -159,6 +168,9 @@
             "wrong": "I wont be late for the meeting.",
             "correct": "I won't be late for the meeting."
           }
+        ],
+        "usageIds": [
+          "fs-u1-spontaneous-decision"
         ]
       },
       {
@@ -169,6 +181,9 @@
             "wrong": "I've already bought the train tickets - I will visit my hometown next week.",
             "correct": "I've already bought the train tickets - I'm going to visit my hometown next week."
           }
+        ],
+        "usageIds": [
+          "fs-u1-spontaneous-decision"
         ]
       }
     ],

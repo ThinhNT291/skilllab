@@ -137,6 +137,8 @@ export interface GrammarMistake {
   description?: string
   examples: { wrong: string; correct: string }[]
   note?: string
+  /** Các mục lý thuyết (usage) mà lỗi này thuộc về; nối lỗi với bài tập có cùng `usageId` để nhận xét khi làm sai */
+  usageIds: string[]
 }
 
 export interface GrammarTheory {

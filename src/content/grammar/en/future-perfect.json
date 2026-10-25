@@ -62,7 +62,7 @@
         "id": "fp-u4-assumptions-about-now",
         "bac": 5,
         "label": "Đoán việc đã xảy ra rồi (suy đoán về hiện tại, nâng cao)",
-        "explanationVi": "Will have + V3 còn dùng để ĐOÁN một việc đã xảy ra xong rồi tính đến lúc nói, dựa trên hiểu biết của người nói. Cách dùng này nói về hiện tại, nên đi với các dấu hiệu như by now, already. Mức độ trang trọng hơn trong giao tiếp, thường gặp ở văn viết và trình độ cao. Trạng từ (probably, already, surely) đứng giữa will và have hoặc giữa have và V3: will probably have arrived, will have already gone. Trong đời thường, người ta cũng hay nói 'must have gone' hoặc 'has probably gone'.",
+        "explanationVi": "Will have + V3 còn dùng để ĐOÁN một việc đã xảy ra xong rồi tính đến lúc nói, dựa trên hiểu biết của người nói (phủ định: won't have + V3, ví dụ: Dad's plane took off ten minutes ago, so it won't have landed by now). Cách dùng này nói về hiện tại, nên đi với các dấu hiệu như by now, already. Cách nói này khá trang trọng, thường gặp ở văn viết và trình độ cao. Trạng từ (probably, already, surely) đứng giữa will và have hoặc giữa have và V3: will probably have arrived, will have already gone. Trong đời thường, người ta cũng hay nói 'must have gone' hoặc 'has probably gone'.",
         "examples": [
           {
             "en": "It's late, so the bus will have gone by now.",
@@ -127,6 +127,9 @@
             "wrong": "By the time Mom will come back, I will have tidied my room.",
             "correct": "By the time Mom comes back, I will have tidied my room."
           }
+        ],
+        "usageIds": [
+          "fp-u3-by-the-time-before"
         ]
       },
       {
@@ -141,6 +144,10 @@
             "wrong": "By Friday, she will had finished the report.",
             "correct": "By Friday, she will have finished the report."
           }
+        ],
+        "usageIds": [
+          "fp-u1-completed-by-future-time",
+          "fp-u5-form-and-state-verbs"
         ]
       },
       {
@@ -151,6 +158,10 @@
             "wrong": "By May, I will have been owning this bike for two years.",
             "correct": "By May, I will have owned this bike for two years."
           }
+        ],
+        "usageIds": [
+          "fp-u5-form-and-state-verbs",
+          "fp-u2-duration-up-to-future-time"
         ]
       }
     ]

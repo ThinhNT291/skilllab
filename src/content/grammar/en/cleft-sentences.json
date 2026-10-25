@@ -147,6 +147,9 @@
             "wrong": "It was my sister what broke the vase.",
             "correct": "It was my sister who broke the vase."
           }
+        ],
+        "usageIds": [
+          "cs-u1-it-cleft"
         ]
       },
       {
@@ -157,6 +160,9 @@
             "wrong": "It was the rain who ruined our picnic.",
             "correct": "It was the rain that ruined our picnic."
           }
+        ],
+        "usageIds": [
+          "cs-u1-it-cleft"
         ]
       },
       {
@@ -167,6 +173,9 @@
             "wrong": "The problem that the bus is always late.",
             "correct": "The problem is that the bus is always late."
           }
+        ],
+        "usageIds": [
+          "cs-u3-the-thing-is"
         ]
       }
     ]

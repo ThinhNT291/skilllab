@@ -213,7 +213,10 @@
             "correct": "a small old red car"
           }
         ],
-        "note": "Thứ tự OSASCOMP: Kích thước → Tuổi → Màu sắc."
+        "note": "Thứ tự OSASCOMP: Kích thước → Tuổi → Màu sắc.",
+        "usageIds": [
+          "adjective-adverb-order-u1-adj-order"
+        ]
       },
       {
         "id": "adjective-adverb-order-m2",
@@ -223,6 +226,9 @@
             "wrong": "She arrives always on time.",
             "correct": "She always arrives on time."
           }
+        ],
+        "usageIds": [
+          "adjective-adverb-order-u2-freq-adverbs"
         ]
       },
       {
@@ -233,6 +239,9 @@
             "wrong": "She is late always.",
             "correct": "She is always late."
           }
+        ],
+        "usageIds": [
+          "adjective-adverb-order-u2-freq-adverbs"
         ]
       },
       {
@@ -243,6 +252,9 @@
             "wrong": "The bag is enough big to carry all my books.",
             "correct": "The bag is big enough to carry all my books."
           }
+        ],
+        "usageIds": [
+          "adjective-adverb-order-u4-enough-too"
         ]
       },
       {
@@ -253,6 +265,9 @@
             "wrong": "I am boring with this lecture.",
             "correct": "I am bored with this lecture."
           }
+        ],
+        "usageIds": [
+          "adjective-adverb-order-u5-ing-ed"
         ]
       },
       {
@@ -263,6 +278,9 @@
             "wrong": "an interesting something to read",
             "correct": "something interesting to read"
           }
+        ],
+        "usageIds": [
+          "adjective-adverb-order-u6-indefinite-pronouns"
         ]
       },
       {
@@ -273,6 +291,9 @@
             "wrong": "He walks too fast enough to catch the bus.",
             "correct": "He walks fast enough to catch the bus."
           }
+        ],
+        "usageIds": [
+          "adjective-adverb-order-u4-enough-too"
         ]
       },
       {
@@ -283,6 +304,9 @@
             "wrong": "She sings very good.",
             "correct": "She sings very well."
           }
+        ],
+        "usageIds": [
+          "adjective-adverb-order-u7-adj-vs-adv"
         ]
       },
       {
@@ -293,6 +317,9 @@
             "wrong": "The soup smells deliciously.",
             "correct": "The soup smells delicious."
           }
+        ],
+        "usageIds": [
+          "adjective-adverb-order-u7-adj-vs-adv"
         ]
       }
     ]

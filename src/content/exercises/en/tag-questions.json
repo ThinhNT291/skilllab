@@ -96,16 +96,16 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "You can speak French fluently, ______?",
     "choices": [
-      "can't you",
       "aren't you",
+      "can't you",
       "won't you",
       "don't you"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "'Can' là modal verb trong mệnh đề chính nên tag phải lặp lại chính modal đó ở dạng phủ định: 'can't you'.",
     "choiceExplanations": [
-      "Đúng — tag phải lặp lại đúng modal verb 'can' đã có trong mệnh đề chính, ở dạng phủ định rút gọn.",
       "Sai — mệnh đề chính không dùng động từ 'to be' nên không thể dùng 'aren't'.",
+      "Đúng — tag phải lặp lại đúng modal verb 'can' đã có trong mệnh đề chính, ở dạng phủ định rút gọn.",
       "Sai — sai modal, mệnh đề chính dùng 'can' (khả năng) chứ không phải 'will' (tương lai).",
       "Sai — không dùng do-support khi mệnh đề chính đã có modal verb 'can'."
     ],
@@ -460,7 +460,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Close the window, ______?",
     "choices": [
-      "won't you",
+      "are you",
       "do you",
       "shall you",
       "will you"
@@ -468,7 +468,7 @@
     "correctIndex": 3,
     "explanation": "Đây là câu mệnh lệnh (yêu cầu ai đó làm gì), tag chuẩn cho câu mệnh lệnh là 'will you?'.",
     "choiceExplanations": [
-      "Sai — 'won't you' thường dùng cho lời mời lịch sự (ví dụ 'Have a seat, won't you?'), không phù hợp với mệnh lệnh trực tiếp này.",
+      "Sai — 'are you': câu mệnh lệnh không có trợ động từ 'are' để lặp lại; tag của câu mệnh lệnh là 'will you'.",
       "Sai — câu mệnh lệnh không phải câu trần thuật với chủ ngữ rõ ràng nên không dùng do-support.",
       "Sai — 'shall you' không phải cấu trúc tag chuẩn được dùng cho câu mệnh lệnh.",
       "Đúng — câu mệnh lệnh trực tiếp dùng tag 'will you?' để nhờ vả/yêu cầu."
@@ -488,7 +488,7 @@
     "title": "Điền từ vào chỗ trống",
     "prompt": "Don't forget to lock the door, ______?",
     "choices": [
-      "won't you",
+      "do you",
       "don't you",
       "will you",
       "shall you"
@@ -496,7 +496,7 @@
     "correctIndex": 2,
     "explanation": "Câu mệnh lệnh phủ định vẫn dùng tag 'will you?' tương tự câu mệnh lệnh khẳng định.",
     "choiceExplanations": [
-      "Sai — 'won't you' không phải tag chuẩn cho câu mệnh lệnh mang tính nhắc nhở như thế này.",
+      "Sai — 'do you': câu mệnh lệnh không dùng do-support để tạo tag; tag phù hợp là 'will you'.",
       "Sai — câu mệnh lệnh không dùng do-support để tạo tag.",
       "Đúng — cả câu mệnh lệnh khẳng định lẫn phủ định đều dùng tag cố định 'will you?'.",
       "Sai — 'shall you' không phải cấu trúc tag chuẩn được dùng cho câu mệnh lệnh."

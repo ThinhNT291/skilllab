@@ -185,6 +185,9 @@
             "wrong": "I am looking forward to see you soon.",
             "correct": "I am looking forward to seeing you soon."
           }
+        ],
+        "usageIds": [
+          "gi-u5-after-preposition"
         ]
       },
       {
@@ -196,7 +199,10 @@
             "correct": "She is used to working night shifts now."
           }
         ],
-        "note": "\"She used to work night shifts\" lại mang nghĩa hoàn toàn khác: thói quen quá khứ đã kết thúc."
+        "note": "\"She used to work night shifts\" lại mang nghĩa hoàn toàn khác: thói quen quá khứ đã kết thúc.",
+        "usageIds": [
+          "gi-u5-after-preposition"
+        ]
       },
       {
         "id": "gerund-infinitive-m3",
@@ -207,7 +213,10 @@
             "correct": "He stopped smoking after the doctor's warning."
           }
         ],
-        "note": "Câu sai thực chất có nghĩa 'anh ấy dừng lại để hút thuốc', trái với ý muốn diễn đạt (bỏ hẳn thuốc lá)."
+        "note": "Câu sai thực chất có nghĩa 'anh ấy dừng lại để hút thuốc', trái với ý muốn diễn đạt (bỏ hẳn thuốc lá).",
+        "usageIds": [
+          "gi-u4-both-different-meaning"
+        ]
       },
       {
         "id": "gerund-infinitive-m4",
@@ -221,6 +230,10 @@
             "wrong": "She suggested to leave early.",
             "correct": "She suggested leaving early."
           }
+        ],
+        "usageIds": [
+          "gi-u1-gerund-only",
+          "gi-u2-infinitive-only"
         ]
       }
     ]
