@@ -47,7 +47,7 @@ Tham khảo cách làm của repo `daotao` (API route dùng `service_role`, nh�
 ### Thiết lập một lần
 1. Chạy `0007_roles_classes.sql`.
 2. Thêm `SUPABASE_SERVICE_ROLE_KEY` vào biến môi trường Vercel (Production) và `.env.local` (khóa ở Supabase > Project Settings > API, mục `service_role`). Không dán khóa vào chat hay commit.
-3. Tạo quản trị đầu tiên trên máy bạn: `ADMIN_PASSWORD='…' node scripts/create-admin.mjs tenban` (xem đầu tệp script).
+3. Tạo quản trị đầu tiên: mở terminal trong VS Code (đang ở thư mục dự án), điền `NEXT_PUBLIC_SUPABASE_URL` và `SUPABASE_SERVICE_ROLE_KEY` vào `.env.local`, rồi chạy `node scripts/create-admin.mjs tenban`. Script tự đọc `.env.local` và hỏi mật khẩu (gõ không hiện chữ). Cần Node 20.12 trở lên.
 4. Vào `/dang-nhap`, đăng nhập, mở `/quan-ly/lop` tạo lớp, rồi `/quan-ly/tai-khoan` tạo tài khoản học sinh.
 
 ### Rủi ro đã biết

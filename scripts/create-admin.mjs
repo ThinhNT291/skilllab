@@ -1,24 +1,48 @@
-// Tạo tài khoản quản trị đầu tiên (hoặc đặt lại mật khẩu cho một quản trị đã có). Chạy trên máy của bạn, KHÔNG chạy trong môi trường chia sẻ.
+// Tạo tài khoản quản trị đầu tiên (hoặc đặt lại mật khẩu cho một quản trị đã có). Chạy trên MÁY CỦA BẠN, không chạy trên Vercel.
 //
-//   NEXT_PUBLIC_SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... ADMIN_PASSWORD='mật-khẩu-của-bạn' node scripts/create-admin.mjs tenquantri
-//
-// Khóa service_role lấy ở Supabase > Project Settings > API (mục "service_role", giữ bí mật, không dán vào chat, không commit).
-// Cần đã chạy migration 0007. Mật khẩu tối thiểu 8 ký tự.
+// Cách dùng (trong terminal, đang đứng ở thư mục dự án có package.json):
+//   node scripts/create-admin.mjs tenquantri
+// Script tự đọc NEXT_PUBLIC_SUPABASE_URL và SUPABASE_SERVICE_ROLE_KEY từ tệp .env.local, rồi hỏi mật khẩu (gõ không hiện chữ).
+// Khóa service_role lấy ở Supabase > Project Settings > API (mục "service_role"); giữ bí mật, không dán vào chat, không commit.
+// Cần Node 20.12 trở lên và đã chạy migration 0007. Mật khẩu tối thiểu 8 ký tự.
+// Muốn chạy không hỏi (tự động): đặt sẵn biến môi trường ADMIN_PASSWORD.
 import { createClient } from "@supabase/supabase-js"
+
+import readline from "node:readline"
+
+try {
+  process.loadEnvFile(".env.local")
+} catch {
+  // Không có .env.local: dùng biến môi trường hiện có
+}
+
+/** Hỏi mật khẩu, không in ký tự đã gõ ra màn hình. */
+function askHidden(question) {
+  return new Promise((resolve) => {
+    const rl = readline.createInterface({ input: process.stdin, output: process.stdout, terminal: true })
+    const write = rl._writeToOutput
+    rl._writeToOutput = (text) => (text.includes(question) ? write.call(rl, text) : undefined)
+    rl.question(question, (answer) => {
+      rl.close()
+      process.stdout.write("\n")
+      resolve(answer)
+    })
+  })
+}
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL
 const key = process.env.SUPABASE_SERVICE_ROLE_KEY
-const password = process.env.ADMIN_PASSWORD
 const username = (process.argv[2] ?? "").trim().toLowerCase()
 
-if (!url || !key || !password) {
-  console.error("Thiếu NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY hoặc ADMIN_PASSWORD.")
+if (!url || !key) {
+  console.error("Thiếu NEXT_PUBLIC_SUPABASE_URL hoặc SUPABASE_SERVICE_ROLE_KEY. Điền vào tệp .env.local ở thư mục dự án (xem .env.example).")
   process.exit(1)
 }
 if (!/^[a-z0-9][a-z0-9._]{2,29}$/.test(username)) {
   console.error("Tên đăng nhập gồm chữ thường, số, dấu chấm hoặc gạch dưới (3–30 ký tự). Ví dụ: node scripts/create-admin.mjs thinh")
   process.exit(1)
 }
+const password = process.env.ADMIN_PASSWORD || (await askHidden("Mật khẩu quản trị (tối thiểu 8 ký tự, gõ không hiện chữ): "))
 if (password.length < 8) {
   console.error("Mật khẩu quản trị tối thiểu 8 ký tự.")
   process.exit(1)
