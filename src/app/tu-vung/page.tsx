@@ -1,3 +1,4 @@
+import { LevelHint } from "@/components/level-hint"
 import Link from "next/link"
 import { getVocab } from "@/lib/vocab/data"
 import { VOCAB_LEVELS } from "@/lib/vocab/questions"
@@ -11,6 +12,7 @@ export default async function VocabHome() {
     <main className="mx-auto w-full max-w-5xl px-4 py-6">
       <h1 className="text-3xl font-extrabold">Từ vựng</h1>
       <p className="mb-4 text-muted-foreground">Mỗi lượt 10 câu: đọc nghĩa chọn từ, hoặc điền từ vào câu. Sai thì nghĩa của từng từ hiện ngay để bạn nhớ.</p>
+      <LevelHint skill="vocab" placementHref="/xep-trinh-do/tu-vung" />
       <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {VOCAB_LEVELS.map((l, i) => (
           <li key={l.id}>

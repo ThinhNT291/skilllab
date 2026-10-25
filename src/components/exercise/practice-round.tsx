@@ -10,6 +10,7 @@ import { buildLadder, pickAtPosition, START_POSITION } from "@/lib/content/adapt
 import { pickHardRound, pickRound, pickRoundForTag } from "@/lib/content/rounds"
 import { buildRuleHints, pickWarmup, usagesInRound } from "@/lib/content/rule-hints"
 import { PreLesson } from "./pre-lesson"
+import { AbilityPractice } from "./ability-practice"
 import { AdaptivePractice } from "./adaptive-practice"
 import { itemRating } from "@/lib/progress/ability"
 import { TestSession } from "./test-session"
@@ -114,9 +115,7 @@ export async function PracticeRound({ topic, mode = "normal", tag }: { topic: st
       {subtitle && <p className="mb-4 text-muted-foreground">{subtitle}</p>}
       {!subtitle && <div className="mb-4" />}
       {mode === "normal" && !tagLabel ? (
-        <PreLesson rules={usagesInRound(exercises).map((id) => rules[id]).filter(Boolean)} warmup={pickWarmup(all, exercises)} topicHref={`/hoc/${topic}`}>
-          <PracticeSession exercises={exercises} theoryBase={`/hoc/${topic}`} rules={rules} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
-        </PreLesson>
+        <AbilityPractice all={all} topic={topic} rules={rules} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
       ) : (
         <PracticeSession exercises={exercises} adaptive={adaptive} theoryBase={`/hoc/${topic}`} rules={rules} bonusHref={pickMatchPairs(all, () => 0.5).length > 0 ? `/hoc/${topic}/ghep-cap` : undefined} />
       )}

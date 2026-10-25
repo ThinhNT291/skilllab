@@ -112,7 +112,7 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 - Đã làm 4 mục "học thuật + động lực": thích ứng/ước lượng năng lực, phản hồi lỗi (đáp án ngay hoặc gợi ý trước), xen kẽ + ôn theo ngữ cảnh, động lực không áp lực. Bằng chứng, mức chắc chắn và điều chưa kiểm chứng: `docs/hoc-thuat-dong-luc.md`.
 
 ## Cập nhật 28/10/2026
-- Game 60 giây xếp từ chạy đua và nghe-gõ giờ thích ứng: câu xếp dễ → khó (theo số từ + bậc), bắt đầu theo năng lực ước lượng (kể cả từ bài xếp trình độ), đúng thì khó dần, sai thì dễ lại (`lib/game/sprint-ladder.ts`, `useStartPosition`). Còn: áp cho thử thách từ vựng, luyện thường, đọc, nghe; lưu trình độ xếp lớp dùng chung mọi nơi.
+- Game 60 giây xếp từ chạy đua và nghe-gõ giờ thích ứng: câu xếp dễ → khó (theo số từ + bậc), bắt đầu theo năng lực ước lượng (kể cả từ bài xếp trình độ), đúng thì khó dần, sai thì dễ lại (`lib/game/sprint-ladder.ts`, `useStartPosition`). Luyện thường chọn câu quanh năng lực (tăng dần trong lượt); có xếp trình độ Từ vựng/Đọc/Nghe (`/xep-trinh-do/[skill]`) và gợi ý bậc ở các trang kỹ năng; kết quả placement đi vào ước lượng năng lực chung. Còn: thử thách từ vựng chưa thích ứng; đọc/nghe mỗi bậc chỉ 1 bài placement; Nói/Viết chưa có placement (chấm bằng Gemini, tốn hạn mức).
 
 ## Cập nhật 27/10/2026
 - Đã làm/tick: mở rộng 50–70 câu cho mọi chuyên đề, nhận xét có cấu trúc, gắn thẻ lỗi, sửa lỗi gõ lại câu đúng, bước dạy trước + độ khó theo màn, 5 âm thanh, hai bộ giao diện theo tuổi, FSRS, hai game mới, can-do và rubric, bảng quy đổi thang (phần đã kiểm chứng).
