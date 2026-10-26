@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { SKILL_INFO, MIN_SAMPLE } from "@/lib/progress/profile"
 import { CONFIDENCE_LABEL } from "@/lib/progress/ability"
+import { levelOfAbility, overallLevel } from "@/lib/progress/level"
 import { candoFor } from "@/lib/content/cando"
 import { useProfile } from "./use-profile"
 
@@ -10,12 +11,22 @@ import { useProfile } from "./use-profile"
 export function ProfilePanel() {
   const data = useProfile()
   if (!data) return null
+  const overall = overallLevel(data.abilities)
   return (
     <section aria-labelledby="profile-heading" className="rounded-game border-2 border-border bg-card p-4">
       <h2 id="profile-heading" className="text-xl font-extrabold">
         Hồ sơ năng lực
       </h2>
       <p className="mb-3 text-sm text-muted-foreground">Dựa trên các lượt làm gần đây. Mức ước lượng tự điều chỉnh sau mỗi câu (đúng câu khó thì tăng, sai câu dễ thì giảm). Chỉ để bạn tự theo dõi, không phải xếp loại hay điểm thi.</p>
+      <p className="mb-3 text-sm" data-testid="overall-level">
+        {overall ? (
+          <>
+            Bậc tổng (trung vị các kỹ năng đã đủ câu): <strong>{overall.label}</strong>
+          </>
+        ) : (
+          <span className="text-muted-foreground">Bậc tổng sẽ hiện khi có ít nhất 3 kỹ năng đủ câu để ước lượng.</span>
+        )}
+      </p>
       <ul className="space-y-3">
         {data.profile.map((p) => {
           const pct = p.score === null ? 0 : Math.round(p.score * 100)
@@ -32,7 +43,7 @@ export function ProfilePanel() {
               </div>
               {ab && ab.n > 0 && (
                 <p className="text-sm text-muted-foreground">
-                  Mức ước lượng: <strong className="text-foreground">{ab.bac <= 0 ? "dưới Bậc 1" : `Bậc ${ab.bac}`}</strong> · độ tin cậy {CONFIDENCE_LABEL[ab.confidence]}
+                  Mức ước lượng: <strong className="text-foreground">{levelOfAbility(ab).label}</strong> · độ tin cậy {CONFIDENCE_LABEL[ab.confidence]}
                 </p>
               )}
               {ab && ab.n > 0 && ab.bac >= 1 && (p.skill === "reading" || p.skill === "listening") && (

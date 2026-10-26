@@ -5,7 +5,7 @@ import Link from "next/link"
 import { getStudentData } from "@/lib/db"
 import { buildProfile, SKILL_INFO, MIN_SAMPLE, type SkillProfile } from "@/lib/progress/profile"
 import { summarizeAttempts } from "@/lib/analytics/attempts"
-import { computeStreaks, countByDay } from "@/lib/analytics/activity"
+import { computeStreaks, countByDay, countsFromDaily } from "@/lib/analytics/activity"
 
 type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; name: string; username: string | null; profile: SkillProfile[]; streak: number; best: number; total: number; accuracy: number | null; writing: ReturnType<typeof summarizeAttempts> }
 
@@ -16,7 +16,10 @@ export function StudentDetail({ id }: { id: string }) {
     getStudentData(id).then((r) => {
       if (cancelled) return
       if (!r.ok) return setState({ status: "error", message: r.message === "not_found" ? "Không tìm thấy học sinh này (hoặc bạn không có quyền xem)." : "Không tải được dữ liệu." })
-      const streaks = computeStreaks(countByDay(r.answers.map((a) => a.created_at)))
+      // Chuỗi ngày và tổng số câu lấy từ bộ đếm theo ngày (đủ cả năm, không bị cắt ở 1.000 dòng); chưa có thì dùng các dòng đã tải.
+      const streaks = computeStreaks(r.daily ? countsFromDaily(r.daily) : countByDay(r.answers.map((a) => a.created_at)))
+      const total = r.daily ? r.daily.reduce((n, d) => n + d.answers, 0) : r.answers.length
+      const correct = r.daily ? r.daily.reduce((n, d) => n + d.correct, 0) : r.answers.filter((a) => a.correct).length
       setState({
         status: "ready",
         name: r.profile.nickname ?? r.profile.username ?? "Học sinh",
@@ -24,8 +27,8 @@ export function StudentDetail({ id }: { id: string }) {
         profile: buildProfile(r.answers, r.attempts),
         streak: streaks.current,
         best: streaks.best,
-        total: r.answers.length,
-        accuracy: r.answers.length ? r.answers.filter((a) => a.correct).length / r.answers.length : null,
+        total,
+        accuracy: total ? correct / total : null,
         writing: summarizeAttempts(r.attempts),
       })
     })

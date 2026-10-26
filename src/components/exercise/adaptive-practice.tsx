@@ -5,6 +5,7 @@ import type { Exercise } from "@/lib/content/types"
 import type { RuleHints } from "@/lib/content/rule-hints"
 import { MCQ_STEPS, pickAtPosition } from "@/lib/content/adaptive"
 import { getRecentTopicRows } from "@/lib/db"
+import { levelOfAbility } from "@/lib/progress/level"
 import { CONFIDENCE_LABEL, estimateAbility, itemRating, startPositionFor, START_RATING, type ItemMeta } from "@/lib/progress/ability"
 import itemMeta from "@/content/meta/items.json"
 import { PracticeSession } from "./practice-session"
@@ -27,7 +28,7 @@ export function AdaptivePractice({ ladder, theoryBase, rules }: { ladder: Exerci
       const a = estimateAbility(res.rows.map((r) => ({ exerciseId: r.exercise_id, topic: r.topic, correct: r.correct, created_at: r.created_at })), itemMeta as unknown as ItemMeta, "grammar")
       setStart({
         position: startPositionFor(ratings, a.rating),
-        note: a.n === 0 ? "Chưa có dữ liệu của bạn nên bắt đầu ở mức khởi điểm." : `Bắt đầu theo mức ước lượng của bạn (Ngữ pháp ≈ Bậc ${Math.max(1, a.bac)}, độ tin cậy ${CONFIDENCE_LABEL[a.confidence]}).`,
+        note: a.n === 0 ? "Chưa có dữ liệu của bạn nên bắt đầu ở mức khởi điểm." : `Bắt đầu theo mức ước lượng của bạn (Ngữ pháp ≈ ${levelOfAbility({ ...a, bac: Math.max(1, a.bac) }).label}, độ tin cậy ${CONFIDENCE_LABEL[a.confidence]}).`,
       })
     })
     return () => {

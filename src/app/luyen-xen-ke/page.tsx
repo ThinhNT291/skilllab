@@ -8,7 +8,7 @@ export const metadata = { title: "Luyện xen kẽ" }
 export default function Page() {
   const titles = new Map(listGrammarTopics("en").map((t) => [t.id, t.title]))
   return (
-    <main className="mx-auto w-full max-w-5xl px-4 py-6 [&>*]:max-w-2xl">
+    <main className="mx-auto w-full max-w-7xl px-4 py-6 [&>*]:max-w-4xl">
       <h1 className="text-3xl font-extrabold">Luyện xen kẽ 🔀</h1>
       <p className="mb-4 text-muted-foreground">
         Trộn câu của vài chuyên đề dễ lẫn nhau vào một lượt, để bạn tập <strong>chọn đúng cách dùng</strong> thay vì chỉ làm theo thói quen. Hơi khó hơn luyện từng chuyên đề, nên hãy làm sau khi đã học từng chuyên đề.

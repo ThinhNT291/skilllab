@@ -9,7 +9,7 @@ export const metadata = { title: "Đọc hiểu" }
 export default async function ReadingHome() {
   const counts = await Promise.all(READING_BACS.map(async (b) => (await getReadingPassages(b))?.length ?? 0))
   return (
-    <main className="mx-auto w-full max-w-5xl px-4 py-6">
+    <main className="mx-auto w-full max-w-7xl px-4 py-6">
       <h1 className="text-3xl font-extrabold">Đọc hiểu</h1>
       <p className="mb-4 text-muted-foreground">Đọc một bài ngắn rồi trả lời 4 câu hỏi. Chạm vào từ gạch chân chấm để xem nghĩa. Đúng từ 75% là đạt.</p>
       <LevelHint skill="reading" placementHref="/xep-trinh-do/doc" />

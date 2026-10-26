@@ -28,6 +28,16 @@ export async function signOut(): Promise<void> {
   resetProfileCache()
 }
 
+/** Gọi `cb` mỗi khi phiên đăng nhập đổi (đăng nhập, đăng xuất, tạo phiên ẩn danh). Trả hàm hủy đăng ký. */
+export function onAuthChange(cb: () => void): () => void {
+  if (!supabaseEnv()) return () => {}
+  const { data } = createClient().auth.onAuthStateChange(() => {
+    // Hoãn ra khỏi hàm gọi lại: gọi tiếp Supabase ngay trong đây có thể bị treo.
+    setTimeout(cb, 0)
+  })
+  return () => data.subscription.unsubscribe()
+}
+
 export interface AccountInfo {
   anonymous: boolean
   role: "student" | "teacher" | "admin"

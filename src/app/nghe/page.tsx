@@ -9,7 +9,7 @@ export const metadata = { title: "Nghe hiểu" }
 export default async function ListeningHome() {
   const counts = await Promise.all(LISTENING_BACS.map(async (b) => (await getListeningItems(b))?.length ?? 0))
   return (
-    <main className="mx-auto w-full max-w-5xl px-4 py-6">
+    <main className="mx-auto w-full max-w-7xl px-4 py-6">
       <h1 className="text-3xl font-extrabold">Nghe hiểu</h1>
       <p className="mb-4 text-muted-foreground">Nghe một đoạn hội thoại hoặc thông báo rồi trả lời 4 câu hỏi. Lời thoại chỉ hiện sau khi bạn làm xong. Đúng từ 75% là đạt.</p>
       <LevelHint skill="listening" placementHref="/xep-trinh-do/nghe" />

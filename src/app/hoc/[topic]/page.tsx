@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: PageProps<"/hoc/[topic]">) {
 // Đọc `params` phải nằm trong <Suspense> (Next 16 kiểm tra "URL data outside of Suspense" ở chế độ dev).
 export default function TopicPage({ params }: PageProps<"/hoc/[topic]">) {
   return (
-    <Suspense fallback={<p className="mx-auto w-full max-w-5xl px-4 py-6 text-muted-foreground">Đang tải chuyên đề…</p>}>
+    <Suspense fallback={<p className="mx-auto w-full max-w-7xl px-4 py-6 text-muted-foreground">Đang tải chuyên đề…</p>}>
       <TopicContent params={params} />
     </Suspense>
   )
@@ -37,7 +37,7 @@ async function TopicContent({ params }: { params: PageProps<"/hoc/[topic]">["par
   const { theory } = data
 
   return (
-    <main className="mx-auto w-full max-w-5xl px-4 py-6 [&>*]:max-w-3xl">
+    <main className="mx-auto w-full max-w-7xl px-4 py-6 [&>*]:max-w-5xl">
       <Link href="/hoc" className="text-sm text-primary underline underline-offset-4">
         ← Danh sách chuyên đề
       </Link>

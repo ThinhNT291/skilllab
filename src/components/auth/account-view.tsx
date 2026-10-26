@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { useRouter } from "next/navigation"
 import { getAccountInfo, signOut, updateNickname, type AccountInfo } from "@/lib/db"
 import { ROLE_LABEL } from "@/lib/auth/roles"
 import { PasswordForm } from "./password-form"
@@ -10,7 +9,6 @@ const INPUT = "mt-1 block w-full rounded-game border-2 border-border bg-card p-3
 const BTN = "rounded-game border-2 border-border bg-card px-4 py-2.5 font-extrabold hover:border-primary disabled:opacity-50"
 
 export function AccountView() {
-  const router = useRouter()
   const [info, setInfo] = useState<AccountInfo | null>(null)
   const [nick, setNick] = useState("")
   const [note, setNote] = useState("")
@@ -35,8 +33,8 @@ export function AccountView() {
   }
   async function logout() {
     await signOut()
-    router.push("/")
-    router.refresh()
+    // eslint-disable-next-line @next/next/no-location-assign-relative-destination -- cố ý tải lại hẳn trang để mọi dữ liệu theo phiên lấy lại
+    window.location.assign("/")
   }
 
   return (

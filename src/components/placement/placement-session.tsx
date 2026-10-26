@@ -4,8 +4,9 @@ import { useState } from "react"
 import Link from "next/link"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { recordAnswer } from "@/lib/db"
-import { bacLabel } from "@/lib/content/bac"
-import type { Bac } from "@/lib/content/types"
+import { placementLevel } from "@/lib/progress/level"
+import type { ItemMeta } from "@/lib/progress/ability"
+import itemMeta from "@/content/meta/items.json"
 import { scorePlacement, type PlacementTopic } from "@/lib/placement"
 import { ExerciseRunner } from "@/components/exercise/exercise-runner"
 import { ProgressBar } from "@/components/exercise/progress-bar"
@@ -32,6 +33,12 @@ export function PlacementSession({ exercises, topics }: { exercises: Exercise[];
   }
 
   const r = scorePlacement(answers, exercises, topics)
+  const exById = new Map(exercises.map((e) => [e.id, e]))
+  const level = placementLevel(
+    answers.map((a, i) => ({ exerciseId: a.exerciseId, topic: exById.get(a.exerciseId)?.topic ?? "", correct: a.correct, created_at: String(i).padStart(4, "0") })),
+    itemMeta as unknown as ItemMeta,
+    "grammar",
+  )
   const titleOf = (id: string) => topics.find((t) => t.id === id)?.title ?? id
   return (
     <div className="space-y-6">
@@ -40,9 +47,9 @@ export function PlacementSession({ exercises, topics }: { exercises: Exercise[];
         <p className="mt-1 text-2xl font-extrabold">
           {r.startBand === null ? "Bạn làm rất tốt ở cả ba nhóm! 🎉 Hãy thử chế độ Nhức đầu ở các chuyên đề." : START_MESSAGE[r.startBand]}
         </p>
-        {r.estimatedBac !== null && (
+        {level && (
           <p className="mt-2 text-muted-foreground">
-            Mức ước lượng từ các câu bạn làm: <strong>{r.estimatedBac === 0 ? "dưới Bậc 1" : bacLabel(r.estimatedBac as Bac)}</strong> (chỉ tham khảo)
+            Mức ước lượng từ các câu bạn làm: <strong>{level.label}</strong> (chỉ tham khảo)
           </p>
         )}
         <ul className="mt-4 space-y-3">

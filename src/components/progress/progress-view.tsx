@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { summarize, type AnswerRow, type ProgressSummary, type TagInfo } from "@/lib/analytics/progress"
-import { countDueCards, getAnswerHistory } from "@/lib/db"
+import { countDueCards, getAnswerHistory, getDailyActivity } from "@/lib/db"
 import { ProgressBar } from "@/components/exercise/progress-bar"
 import { isGrammarTopic, topicHref } from "@/lib/content/links"
 import { PlayerCard } from "@/components/game/player-card"
@@ -12,6 +12,7 @@ import { ProfilePanel } from "./profile-panel"
 import { ScalePanel } from "./scale-panel"
 import type { Totals } from "@/lib/progress/scale"
 import { TrendPanel } from "./trend-panel"
+import type { DailyRow } from "@/lib/analytics/activity"
 import { AttemptsPanel } from "./attempts-panel"
 
 type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; summary: ProgressSummary; rows: AnswerRow[] }
@@ -19,6 +20,7 @@ type State = { status: "loading" } | { status: "error"; message: string } | { st
 export function ProgressView({ catalog, topicTitles, scaleTotals }: { catalog: Record<string, TagInfo>; topicTitles: Record<string, string>; scaleTotals: Totals }) {
   const [state, setState] = useState<State>({ status: "loading" })
   const [due, setDue] = useState<number | null>(null)
+  const [daily, setDaily] = useState<DailyRow[] | null>(null)
 
   useEffect(() => {
     let cancelled = false
@@ -29,6 +31,10 @@ export function ProgressView({ catalog, topicTitles, scaleTotals }: { catalog: R
         return
       }
       setState({ status: "ready", summary: summarize(res.rows, catalog, topicTitles), rows: res.rows })
+    })
+    // Tỷ lệ đúng theo tuần lấy từ bộ đếm theo ngày (không bị cắt theo số dòng thô); lỗi thì biểu đồ dùng các dòng đã tải.
+    getDailyActivity(60).then((res) => {
+      if (!cancelled && res.ok && res.source === "daily") setDaily(res.rows)
     })
     countDueCards().then((res) => {
       if (!cancelled && res.ok) setDue(res.value)
@@ -67,7 +73,7 @@ export function ProgressView({ catalog, topicTitles, scaleTotals }: { catalog: R
       <ActivityPanel />
       <ProfilePanel />
       <ScalePanel totals={scaleTotals} />
-      <TrendPanel rows={state.rows} />
+      <TrendPanel rows={state.rows} daily={daily} />
       <AttemptsPanel catalog={catalog} />
       <section className="grid grid-cols-3 gap-3 text-center" aria-label="Tổng quan">
         <Stat value={String(s.total)} label="câu đã làm" />

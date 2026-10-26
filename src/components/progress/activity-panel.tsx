@@ -1,8 +1,8 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { buildHeatmap, computeStreaks, countByDay, dayKey, type HeatCell } from "@/lib/analytics/activity"
-import { getActivityTimestamps } from "@/lib/db"
+import { buildHeatmap, computeStreaks, dayKey, type HeatCell } from "@/lib/analytics/activity"
+import { getActivityCounts } from "@/lib/db"
 import { DAILY_GOALS, updateSettings, useSettings } from "@/lib/settings"
 
 const LEVEL_STYLE: Record<HeatCell["level"], string> = {
@@ -21,8 +21,8 @@ export function ActivityPanel() {
 
   useEffect(() => {
     let cancelled = false
-    getActivityTimestamps(100).then((res) => {
-      if (!cancelled && res.ok) setCounts(countByDay(res.timestamps))
+    getActivityCounts(100).then((res) => {
+      if (!cancelled && res.ok) setCounts(res.counts)
     })
     return () => {
       cancelled = true

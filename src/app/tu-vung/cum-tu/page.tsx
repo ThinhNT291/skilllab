@@ -6,7 +6,7 @@ export const metadata = { title: "Cụm từ kết hợp" }
 
 export default function CollocationsPage() {
   return (
-    <main className="mx-auto w-full max-w-5xl px-4 py-6">
+    <main className="mx-auto w-full max-w-7xl px-4 py-6">
       <Link href="/tu-vung" className="text-sm text-primary underline underline-offset-4">
         ← Từ vựng
       </Link>

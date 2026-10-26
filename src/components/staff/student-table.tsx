@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react"
 import Link from "next/link"
-import { attentionReasons, summarizeActivity } from "@/lib/staff/summary"
+import { attentionReasons, summarizeDaily } from "@/lib/staff/summary"
 import { useStaffData } from "./use-staff-data"
 
 /** Danh sách học sinh: hoạt động 7 ngày, ai cần chú ý hiện lên đầu. */
@@ -12,8 +12,8 @@ export function StudentTable() {
 
   const view = useMemo(() => {
     if (state.status !== "ready") return null
-    const { accounts, classes, answers, now } = state.data
-    const activity = summarizeActivity(answers)
+    const { accounts, classes, activity: daily, now } = state.data
+    const activity = summarizeDaily(daily)
     const inClass = classId === "all" ? null : new Set(classes.find((c) => c.id === classId)?.members ?? [])
     const rows = accounts
       .filter((a) => a.role === "student" && (!inClass || inClass.has(a.id)))

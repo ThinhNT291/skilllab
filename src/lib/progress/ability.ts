@@ -64,7 +64,7 @@ export function itemOfAnswer(a: AnswerForAbility, meta: ItemMeta): number | null
   return n >= 1 && n <= 6 ? itemRating(n) : null
 }
 
-function kFactor(n: number): number {
+export function kFactor(n: number): number {
   return n < 15 ? 40 : n < 40 ? 24 : 14
 }
 
@@ -80,14 +80,19 @@ export interface Ability {
   confidence: Confidence
 }
 
-export function estimateAbility(answers: AnswerForAbility[], meta: ItemMeta, skill: AbilitySkill): Ability {
+export interface EstimateOptions {
+  /** Nhân hệ số K: >1 cho bài xếp trình độ ngắn, để ước lượng hội tụ nhanh hơn luyện thường. */
+  kScale?: number
+}
+
+export function estimateAbility(answers: AnswerForAbility[], meta: ItemMeta, skill: AbilitySkill, { kScale = 1 }: EstimateOptions = {}): Ability {
   const mine = answers.filter((a) => skillOfTopic(a.topic) === skill).sort((x, y) => (x.created_at < y.created_at ? -1 : 1)).slice(-400)
   let theta = START_RATING
   let n = 0
   for (const a of mine) {
     const b = itemOfAnswer(a, meta)
     if (b === null) continue
-    theta += kFactor(n) * ((a.correct ? 1 : 0) - expectedCorrect(theta, b))
+    theta += kScale * kFactor(n) * ((a.correct ? 1 : 0) - expectedCorrect(theta, b))
     n++
   }
   return { skill, rating: Math.round(theta), bac: Math.round(bacFromRating(theta)), n, confidence: n < 12 ? "low" : n < 35 ? "mid" : "high" }

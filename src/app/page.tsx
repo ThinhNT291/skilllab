@@ -7,7 +7,7 @@ import { MORE, SKILLS } from "@/components/home/shared"
 /** Trang chủ: thông tin hôm nay ở đầu, kỹ năng và game là danh sách gọn. */
 export default function Page() {
   return (
-    <main className="mx-auto w-full max-w-5xl space-y-6 px-4 py-6">
+    <main className="mx-auto w-full max-w-7xl space-y-6 px-4 py-6">
       <WelcomeCard />
       <TodayPanel />
       <Suggestions />
