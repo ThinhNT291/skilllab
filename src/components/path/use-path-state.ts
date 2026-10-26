@@ -35,6 +35,8 @@ export function usePathState(path: PathStep[]): PathData {
   const [start, setStart] = useState<PathStart | null>(null)
   const [answers, setAnswers] = useState<GateAnswer[]>([])
   const [cards, setCards] = useState<RetentionCardRow[]>([])
+  // Thời điểm tính mức nhớ: lấy lúc dữ liệu về (không gọi new Date() lúc dựng trang để trang chủ vẫn dựng sẵn được)
+  const [loadedAt, setLoadedAt] = useState<Date | null>(null)
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
@@ -48,6 +50,7 @@ export function usePathState(path: PathStep[]): PathData {
       }
       if (rows.ok) setAnswers(rows.rows)
       if (cardRows.ok) setCards(cardRows.value)
+      setLoadedAt(new Date())
       // Điểm bắt đầu: cao nhất giữa điểm đã lưu và bài xếp trình độ gần nhất (chỉ tăng, không hạ).
       const placed = placement.ok && placement.completed[0] ? parseResult(placement.completed[0].result) : null
       const { start: best, changed } = bestStart(saved.ok ? saved.start : null, [placed ? startFromPlacement(placed.overall.bac) : null])
@@ -61,7 +64,7 @@ export function usePathState(path: PathStep[]): PathData {
 
   const map = useMemo(() => results ?? new Map<string, LessonResult>(), [results])
   const byBac = useMemo(() => rowsByBac(answers, itemMeta as unknown as ItemMeta, vnDayKey), [answers])
-  const retention = useMemo(() => retentionByBac(cards, itemMeta as unknown as ItemMeta, new Date()), [cards])
+  const retention = useMemo(() => (loadedAt ? retentionByBac(cards, itemMeta as unknown as ItemMeta, loadedAt) : new Map<number, number | null>()), [cards, loadedAt])
   const readiness = useMemo(() => {
     const out = new Map<number, JumpReadiness>()
     for (let b = 1; b <= 6; b++) out.set(b, jumpReadinessAt(b, byBac.get(b) ?? [], retention.get(b) ?? null))
