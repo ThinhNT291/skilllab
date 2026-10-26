@@ -1,6 +1,8 @@
 import { createClient } from "@/lib/supabase/client"
 import { dbConfigured } from "./session"
 import type { AttemptRow } from "@/lib/analytics/attempts"
+import { vnDayKey, type DailyRow } from "@/lib/analytics/activity"
+import type { DailyLite } from "@/lib/staff/summary"
 
 type Fail = { ok: false; reason: "not_configured" | "error"; message?: string }
 const fail = (e: unknown): Fail => ({ ok: false, reason: "error", message: e instanceof Error ? e.message : String(e) })
@@ -101,23 +103,52 @@ export async function listRecentAnswers(days = 7): Promise<{ ok: true; rows: Rec
   }
 }
 
+/**
+ * Hoạt động theo ngày của mọi học sinh được phép thấy, `days` ngày gần nhất: một dòng mỗi học sinh mỗi ngày (bảng `daily_activity`, migration 0011),
+ * nên không bị cắt như khi đọc từng lượt trả lời. Chưa chạy migration thì lùi về gom từ `answers` (tối đa 10.000 dòng).
+ */
+export async function listRecentActivity(days = 7): Promise<{ ok: true; rows: DailyLite[]; source: "daily" | "answers" } | Fail> {
+  if (!dbConfigured()) return nc
+  try {
+    const supabase = createClient()
+    const since = new Date(Date.now() - days * 86_400_000)
+    const daily = await supabase.from("daily_activity").select("profile_id, day, answers, correct").gte("day", vnDayKey(since)).limit(50000)
+    if (!daily.error) return { ok: true, rows: (daily.data ?? []) as DailyLite[], source: "daily" }
+    const raw = await listRecentAnswers(days)
+    if (!raw.ok) return raw
+    const per = new Map<string, DailyLite>()
+    for (const r of raw.rows) {
+      const day = vnDayKey(r.created_at)
+      const key = `${r.profile_id}|${day}`
+      const cur = per.get(key) ?? { profile_id: r.profile_id, day, answers: 0, correct: 0 }
+      cur.answers++
+      if (r.correct) cur.correct++
+      per.set(key, cur)
+    }
+    return { ok: true, rows: [...per.values()], source: "answers" }
+  } catch (e) {
+    return fail(e)
+  }
+}
+
 /** Dữ liệu học tập của một học sinh (để dựng hồ sơ năng lực). */
 export async function getStudentData(profileId: string): Promise<
-  | { ok: true; profile: StaffProfile; answers: { topic: string; correct: boolean; created_at: string }[]; attempts: AttemptRow[] }
+  | { ok: true; profile: StaffProfile; answers: { topic: string; correct: boolean; created_at: string }[]; attempts: AttemptRow[]; daily: DailyRow[] | null }
   | Fail
 > {
   if (!dbConfigured()) return nc
   try {
     const supabase = createClient()
-    const [p, a, g] = await Promise.all([
+    const [p, a, g, d] = await Promise.all([
       supabase.from("profiles").select("id, nickname, username, role, disabled_at, created_at").eq("id", profileId).maybeSingle(),
       supabase.from("answers").select("topic, correct, created_at").eq("profile_id", profileId).order("created_at", { ascending: false }).limit(1000),
       supabase.from("graded_attempts").select("skill, task_id, target_bac, total, estimated_bac, scores, note, created_at").eq("profile_id", profileId).order("created_at", { ascending: false }).limit(60),
+      supabase.from("daily_activity").select("day, answers, correct").eq("profile_id", profileId).gte("day", vnDayKey(new Date(Date.now() - 365 * 86_400_000))).order("day", { ascending: true }),
     ])
     const err = p.error ?? a.error ?? g.error
     if (err) return { ok: false, reason: "error", message: err.message }
     if (!p.data) return { ok: false, reason: "error", message: "not_found" }
-    return { ok: true, profile: p.data as StaffProfile, answers: (a.data ?? []) as { topic: string; correct: boolean; created_at: string }[], attempts: (g.data ?? []) as AttemptRow[] }
+    return { ok: true, profile: p.data as StaffProfile, answers: (a.data ?? []) as { topic: string; correct: boolean; created_at: string }[], attempts: (g.data ?? []) as AttemptRow[], daily: d.error ? null : ((d.data ?? []) as DailyRow[]) }
   } catch (e) {
     return fail(e)
   }

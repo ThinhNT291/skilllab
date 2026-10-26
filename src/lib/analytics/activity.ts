@@ -1,7 +1,8 @@
 /**
  * Chuỗi ngày học và bản đồ nhiệt từ lịch sử trả lời. Hàm thuần.
  * Mọi lượt trả lời (đúng lẫn sai) đều tính là "có học trong ngày" (theo thiết kế bản cũ).
- * Ngày tính theo giờ địa phương của trình duyệt.
+ * Ngày tính theo giờ địa phương của trình duyệt cho chuỗi/bản đồ nhiệt; số đếm lấy từ bảng `daily_activity` và tính theo giờ Việt Nam
+ * (`vnDayKey`), nên với học sinh ở Việt Nam hai cách trùng nhau.
  */
 export const DAILY_GOAL = 10
 
@@ -10,6 +11,37 @@ export function dayKey(d: Date): string {
   const m = String(d.getMonth() + 1).padStart(2, "0")
   const day = String(d.getDate()).padStart(2, "0")
   return `${d.getFullYear()}-${m}-${day}`
+}
+
+const VN_DAY = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Ho_Chi_Minh", year: "numeric", month: "2-digit", day: "2-digit" })
+
+/** Khóa ngày YYYY-MM-DD theo giờ Việt Nam, khớp `vn_day()` trong migration 0011. */
+export function vnDayKey(t: string | Date): string {
+  return VN_DAY.format(typeof t === "string" ? new Date(t) : t)
+}
+
+/** Số lượt và số lượt đúng trong một ngày (một dòng của bảng `daily_activity`). */
+export interface DailyRow {
+  day: string
+  answers: number
+  correct: number
+}
+
+/** Gom các lượt trả lời thành từng ngày (đường dự phòng khi chưa chạy migration 0011). */
+export function aggregateDaily(rows: { correct: boolean; created_at: string }[]): DailyRow[] {
+  const map = new Map<string, DailyRow>()
+  for (const r of rows) {
+    const day = vnDayKey(r.created_at)
+    const cur = map.get(day) ?? { day, answers: 0, correct: 0 }
+    cur.answers++
+    if (r.correct) cur.correct++
+    map.set(day, cur)
+  }
+  return [...map.values()].sort((a, b) => (a.day < b.day ? -1 : 1))
+}
+
+export function countsFromDaily(rows: DailyRow[]): Map<string, number> {
+  return new Map(rows.filter((r) => r.answers > 0).map((r) => [r.day, r.answers]))
 }
 
 export function countByDay(timestamps: string[]): Map<string, number> {
@@ -133,17 +165,21 @@ export interface WeekBucket {
 
 /** Số câu và số câu đúng theo tuần (thứ Hai đến Chủ nhật), `weeks` tuần gần nhất, cũ nhất trước, tuần cuối chứa hôm nay. */
 export function weeklyAccuracy(rows: { correct: boolean; created_at: string }[], today: Date = new Date(), weeks = 8): WeekBucket[] {
+  return weeklyAccuracyFromDaily(rows.map((r) => ({ day: dayKey(new Date(r.created_at)), answers: 1, correct: r.correct ? 1 : 0 })), today, weeks)
+}
+
+/** Như `weeklyAccuracy` nhưng từ số đếm từng ngày (bảng `daily_activity`), không phụ thuộc số dòng thô. */
+export function weeklyAccuracyFromDaily(rows: DailyRow[], today: Date = new Date(), weeks = 8): WeekBucket[] {
   const dow = (today.getDay() + 6) % 7
   const firstStart = addDays(today, -dow - (weeks - 1) * 7)
   const buckets: WeekBucket[] = Array.from({ length: weeks }, (_, i) => ({ start: dayKey(addDays(firstStart, i * 7)), attempts: 0, correct: 0 }))
   for (const r of rows) {
-    const key = dayKey(new Date(r.created_at))
     // Tuần của dòng: bucket cuối cùng có start <= ngày của dòng
     let idx = -1
-    for (let i = 0; i < weeks; i++) if (buckets[i].start <= key) idx = i
+    for (let i = 0; i < weeks; i++) if (buckets[i].start <= r.day) idx = i
     if (idx < 0) continue
-    buckets[idx].attempts++
-    if (r.correct) buckets[idx].correct++
+    buckets[idx].attempts += r.answers
+    buckets[idx].correct += r.correct
   }
   return buckets
 }

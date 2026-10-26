@@ -92,3 +92,34 @@ test("chuỗi ngày: hôm qua nghỉ, hôm nay chưa học vẫn còn chuỗi (o
   assert.equal(s.onRestDay, true)
   assert.equal(computeStreaks(counts, new Date(2026, 9, 24, 9)).current, 0)
 })
+
+test("ngày theo giờ Việt Nam: 17h UTC đã sang ngày hôm sau; gom theo ngày và đếm đúng", async () => {
+  const { vnDayKey, aggregateDaily, countsFromDaily } = await import("../src/lib/analytics/activity.ts")
+  assert.equal(vnDayKey("2026-10-25T16:30:00Z"), "2026-10-25")
+  assert.equal(vnDayKey("2026-10-25T17:30:00Z"), "2026-10-26")
+  const rows = aggregateDaily([
+    { correct: true, created_at: "2026-10-25T10:00:00Z" },
+    { correct: false, created_at: "2026-10-25T16:30:00Z" },
+    { correct: true, created_at: "2026-10-25T17:30:00Z" },
+  ])
+  assert.deepEqual(rows, [
+    { day: "2026-10-25", answers: 2, correct: 1 },
+    { day: "2026-10-26", answers: 1, correct: 1 },
+  ])
+  assert.deepEqual([...countsFromDaily([...rows, { day: "2026-10-27", answers: 0, correct: 0 }])], [["2026-10-25", 2], ["2026-10-26", 1]])
+})
+
+test("tỷ lệ đúng theo tuần từ bộ đếm ngày bằng cách tính từ từng dòng", async () => {
+  const { weeklyAccuracy, weeklyAccuracyFromDaily, aggregateDaily } = await import("../src/lib/analytics/activity.ts")
+  const today = new Date("2026-03-18T12:00:00")
+  const raw = [
+    { correct: true, created_at: "2026-03-16T08:00:00+07:00" },
+    { correct: false, created_at: "2026-03-18T08:00:00+07:00" },
+    { correct: true, created_at: "2026-03-15T08:00:00+07:00" },
+    { correct: true, created_at: "2025-01-01T08:00:00+07:00" },
+  ]
+  assert.deepEqual(weeklyAccuracyFromDaily(aggregateDaily(raw), today, 3), weeklyAccuracy(raw, today, 3))
+  const big = weeklyAccuracyFromDaily([{ day: "2026-03-17", answers: 5000, correct: 4000 }], today, 3)
+  assert.equal(big[2].attempts, 5000)
+  assert.equal(big[2].correct, 4000)
+})

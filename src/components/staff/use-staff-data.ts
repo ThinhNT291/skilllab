@@ -1,12 +1,14 @@
 "use client"
 
 import { useCallback, useEffect, useState } from "react"
-import { listAccounts, listClasses, listRecentAnswers, type ClassRow, type RecentAnswer, type StaffProfile } from "@/lib/db"
+import { listAccounts, listClasses, listRecentActivity, type ClassRow, type StaffProfile } from "@/lib/db"
+import type { DailyLite } from "@/lib/staff/summary"
 
 export interface StaffData {
   accounts: StaffProfile[]
   classes: ClassRow[]
-  answers: RecentAnswer[]
+  /** Bộ đếm theo ngày của 7 ngày gần nhất, một dòng mỗi học sinh mỗi ngày */
+  activity: DailyLite[]
   now: Date
 }
 
@@ -18,10 +20,10 @@ export function useStaffData(): { state: State; reload: () => void } {
   const [tick, setTick] = useState(0)
   useEffect(() => {
     let cancelled = false
-    Promise.all([listAccounts(), listClasses(), listRecentAnswers(7)]).then(([a, c, r]) => {
+    Promise.all([listAccounts(), listClasses(), listRecentActivity(7)]).then(([a, c, r]) => {
       if (cancelled) return
       if (!a.ok) return setState({ status: "error", message: a.reason === "not_configured" ? "Chưa kết nối Supabase." : `Không tải được (${a.message ?? "lỗi không rõ"}). Đã chạy migration 0007 chưa?` })
-      setState({ status: "ready", data: { accounts: a.rows, classes: c.ok ? c.rows : [], answers: r.ok ? r.rows : [], now: new Date() } })
+      setState({ status: "ready", data: { accounts: a.rows, classes: c.ok ? c.rows : [], activity: r.ok ? r.rows : [], now: new Date() } })
     })
     return () => {
       cancelled = true

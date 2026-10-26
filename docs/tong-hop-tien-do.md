@@ -1,6 +1,6 @@
 # Tổng hợp và "chốt" tiến độ khi số dòng `answers` lớn
 
-Tài liệu thiết kế (26/10/2026), chưa xây. Con số là ước lượng của Claude, chưa đo trên dữ liệu thật.
+Tài liệu thiết kế (26/10/2026). **Đã xây (bước 1, phần `daily_activity`):** migration `0011_daily_activity.sql` + đọc từ bảng này ở chuỗi ngày/bản đồ nhiệt/tỷ lệ đúng theo tuần/tóm tắt lớp/chi tiết học sinh (chưa chạy migration thì tự lùi về cách cũ). Còn lại chưa xây: `progress_counters` (topic/tag; sẽ làm khi có nơi đọc), ảnh chụp Elo, script dựng lại, hàng đợi ghi lại. Con số là ước lượng của Claude, chưa đo trên dữ liệu thật.
 
 ## 1. Vấn đề
 Phần lớn số liệu tiến độ đang tính **lúc đọc** từ bảng `answers`, nhưng chỉ đọc một cửa sổ dòng gần nhất:
@@ -49,7 +49,7 @@ Một dòng `answers` ~ 100–150 byte cả chỉ mục. 100 học sinh × 50 c�
 - **`report:items`** vẫn đọc `answers` thô (không bị ảnh hưởng).
 
 ## 6. Thứ tự làm đề xuất
-1. Migration: `daily_activity` + `progress_counters` + trigger, nạp lại từ `answers` hiện có; chuyển chuỗi ngày/bản đồ nhiệt/quản lý lớp sang đọc bảng này (giá trị lớn nhất, ít rủi ro).
+1. **XONG (26/10/2026):** migration `0011` (bảng `daily_activity` + trigger cộng/trừ + nạp lại + RLS), đã chạy thử SQL trên Postgres giả lập (cộng, trừ, chạy lại, xóa hồ sơ, múi giờ Việt Nam); chuỗi ngày/bản đồ nhiệt/tuần/lớp/chi tiết học sinh đọc bảng này. **Chưa làm:** `progress_counters` (tổng đúng/sai theo chuyên đề và thẻ lỗi), chờ có nơi dùng.
 2. `progress_snapshots` + route chốt + đọc "ảnh chụp + dòng mới".
 3. `scripts/rebuild-progress.mjs` kèm chế độ kiểm tra; test hàm thuần (gộp ảnh chụp ≡ phát lại toàn bộ).
 4. Hàng đợi ghi lại khi lỗi mạng ở `recordAnswer` (hiện lỗi mạng làm mất câu trả lời âm thầm).

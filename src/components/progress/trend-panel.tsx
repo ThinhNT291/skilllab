@@ -1,8 +1,8 @@
-import { weeklyAccuracy } from "@/lib/analytics/activity"
+import { weeklyAccuracy, weeklyAccuracyFromDaily, type DailyRow } from "@/lib/analytics/activity"
 
 /** Tỷ lệ đúng theo tuần trong 8 tuần gần nhất: cột cao = đúng nhiều; tuần không học để trống. */
-export function TrendPanel({ rows }: { rows: { correct: boolean; created_at: string }[] }) {
-  const weeks = weeklyAccuracy(rows, new Date(), 8)
+export function TrendPanel({ rows, daily }: { rows: { correct: boolean; created_at: string }[]; daily?: DailyRow[] | null }) {
+  const weeks = daily ? weeklyAccuracyFromDaily(daily, new Date(), 8) : weeklyAccuracy(rows, new Date(), 8)
   if (weeks.every((w) => w.attempts === 0)) return null
   const last = [...weeks].reverse().find((w) => w.attempts > 0)
   const prev = [...weeks].reverse().filter((w) => w.attempts > 0)[1]

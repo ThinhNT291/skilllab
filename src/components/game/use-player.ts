@@ -1,8 +1,8 @@
 "use client"
 
 import { useCallback, useEffect, useState } from "react"
-import { computeStreaks, countByDay } from "@/lib/analytics/activity"
-import { getActivityTimestamps, getAnswerCounts, getAnswerHistory, getOwnedItems } from "@/lib/db"
+import { computeStreaks } from "@/lib/analytics/activity"
+import { getActivityCounts, getAnswerCounts, getAnswerHistory, getOwnedItems } from "@/lib/db"
 import { earnedBadges, type Badge, type GameStats } from "@/lib/game/badges"
 import { spentOn } from "@/lib/game/shop"
 import { coinsAvailable, levelFromXp, xpFor, type LevelInfo } from "@/lib/game/xp"
@@ -26,13 +26,13 @@ export function usePlayer(): { state: PlayerState; reload: () => void } {
 
   useEffect(() => {
     let cancelled = false
-    Promise.all([getAnswerCounts(), getAnswerHistory(), getActivityTimestamps(), getOwnedItems()]).then(([counts, history, activity, items]) => {
+    Promise.all([getAnswerCounts(), getAnswerHistory(), getActivityCounts(), getOwnedItems()]).then(([counts, history, activity, items]) => {
       if (cancelled) return
       if (!counts.ok) {
         setState({ status: "unavailable", message: counts.reason === "not_configured" ? "Chưa kết nối Supabase nên chưa có điểm kinh nghiệm." : `Không tải được dữ liệu (${counts.message ?? "lỗi không rõ"}).` })
         return
       }
-      const byDay = activity.ok ? countByDay(activity.timestamps) : new Map<string, number>()
+      const byDay = activity.ok ? activity.counts : new Map<string, number>()
       const topics = history.ok ? new Set(history.rows.map((r) => r.topic)).size : 0
       const stats: GameStats = {
         answers: counts.total,

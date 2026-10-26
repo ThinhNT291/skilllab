@@ -3,8 +3,8 @@
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { Mascot } from "@/components/game/mascot"
-import { computeStreaks, countByDay, dayKey } from "@/lib/analytics/activity"
-import { countDueCards, getActivityTimestamps } from "@/lib/db"
+import { computeStreaks, dayKey } from "@/lib/analytics/activity"
+import { countDueCards, getActivityCounts } from "@/lib/db"
 import { usePlayer } from "@/components/game/use-player"
 import { useSettings } from "@/lib/settings"
 
@@ -16,9 +16,9 @@ export function TodayPanel() {
 
   useEffect(() => {
     let cancelled = false
-    Promise.all([getActivityTimestamps(100), countDueCards()]).then(([act, due]) => {
+    Promise.all([getActivityCounts(100), countDueCards()]).then(([act, due]) => {
       if (cancelled) return
-      const counts = act.ok ? countByDay(act.timestamps) : new Map<string, number>()
+      const counts = act.ok ? act.counts : new Map<string, number>()
       const now = new Date()
       setData({
         today: counts.get(dayKey(now)) ?? 0,
