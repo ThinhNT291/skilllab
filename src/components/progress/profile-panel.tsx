@@ -4,6 +4,7 @@ import Link from "next/link"
 import { SKILL_INFO, MIN_SAMPLE } from "@/lib/progress/profile"
 import { CONFIDENCE_LABEL } from "@/lib/progress/ability"
 import { levelOfAbility, overallLevel } from "@/lib/progress/level"
+import { candoFor } from "@/lib/content/cando"
 import { useProfile } from "./use-profile"
 
 /** Hồ sơ năng lực: sáu kỹ năng cạnh nhau để thấy chỗ mạnh, chỗ yếu. */
@@ -44,6 +45,12 @@ export function ProfilePanel() {
                 <p className="text-sm text-muted-foreground">
                   Mức ước lượng: <strong className="text-foreground">{levelOfAbility(ab).label}</strong> · độ tin cậy {CONFIDENCE_LABEL[ab.confidence]}
                 </p>
+              )}
+              {ab && ab.n > 0 && ab.bac >= 1 && (p.skill === "reading" || p.skill === "listening") && (
+                <details className="text-sm text-muted-foreground">
+                  <summary className="cursor-pointer">Ở bậc này người học thường làm được…</summary>
+                  <p className="mt-1">{candoFor(Math.min(6, ab.bac), p.skill)?.text}</p>
+                </details>
               )}
               <div className="mt-1 h-3 overflow-hidden rounded-full bg-border" role="img" aria-label={`${SKILL_INFO[p.skill].label}: ${p.score === null ? "chưa đủ dữ liệu" : `${pct} phần trăm`}`}>
                 <div className="h-full rounded-full bg-primary transition-[width] duration-700" style={{ width: `${pct}%` }} />

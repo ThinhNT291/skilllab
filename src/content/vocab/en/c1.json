@@ -1,0 +1,5433 @@
+[
+{
+"id": "v-aboard-adverb-1",
+"word": "aboard",
+"pos": "adverb",
+"def": "on or onto a plane, ship, bus, or train",
+"ex": [
+"Welcome aboard flight BA109 to Paris."
+],
+"vi": "trên tàu, xe, máy bay"
+},
+{
+"id": "v-acclaimed-adjective-1",
+"word": "acclaimed",
+"pos": "adjective",
+"def": "praised by a lot of people",
+"ex": [
+"the acclaimed singer and songwriter"
+],
+"vi": "được ca ngợi"
+},
+{
+"id": "v-accomplish-verb-1",
+"word": "accomplish",
+"pos": "verb",
+"def": "to succeed in doing something good",
+"ex": [
+"I feel as if I've accomplished nothing all day."
+],
+"vi": "hoàn thành, đạt được"
+},
+{
+"id": "v-accumulate-verb-1",
+"word": "accumulate",
+"pos": "verb",
+"def": "to increase in amount over a period of time, or to make something increase over a period of time",
+"ex": [
+"The chemicals accumulate in your body."
+],
+"vi": "tích lũy, chất đống"
+},
+{
+"id": "v-acquaintance-noun-1",
+"word": "acquaintance",
+"pos": "noun",
+"def": "someone who you know but do not know well",
+"ex": [
+"He's just a business acquaintance."
+],
+"vi": "người quen"
+},
+{
+"id": "v-adaptation-noun-1",
+"word": "adaptation",
+"pos": "noun",
+"def": "the process or act of changing to suit a new situation",
+"ex": [
+"Evolution occurs as a result of adaptation to new environments."
+],
+"vi": "sự thích nghi"
+},
+{
+"id": "v-administration-noun-1",
+"word": "administration",
+"pos": "noun",
+"def": "the work of organizing and arranging the operation of something, such as a company",
+"ex": [
+"The job involves a lot of administration."
+],
+"vi": "việc quản lý, hành chính"
+},
+{
+"id": "v-administrative-adjective-1",
+"word": "administrative",
+"pos": "adjective",
+"def": "relating to the organization and management of something",
+"ex": [
+"The work is largely administrative."
+],
+"vi": "thuộc hành chính"
+},
+{
+"id": "v-administrator-noun-1",
+"word": "administrator",
+"pos": "noun",
+"def": "someone who helps to manage an organization",
+"ex": [
+"She is an administrator at the hospital."
+],
+"vi": "người quản lý"
+},
+{
+"id": "v-affordable-adjective-1",
+"word": "affordable",
+"pos": "adjective",
+"def": "cheap enough for most people to be able to buy",
+"ex": [
+"We need more affordable housing in this area."
+],
+"vi": "giá phải chăng"
+},
+{
+"id": "v-aggression-noun-1",
+"word": "aggression",
+"pos": "noun",
+"def": "angry or violent behaviour towards someone",
+"ex": [
+"an act of aggression"
+],
+"vi": "sự hung hăng"
+},
+{
+"id": "v-aid-verb-1",
+"word": "aid",
+"pos": "verb",
+"def": "to help someone",
+"ex": [
+"The project is designed to aid the homeless.",
+"He was aided in his research by his knowledge of Greek."
+],
+"vi": "giúp đỡ"
+},
+{
+"id": "v-alarm-verb-1",
+"word": "alarm",
+"pos": "verb",
+"def": "to make someone worried or frightened",
+"ex": [
+"I don't want to alarm you but he really should be here by now."
+],
+"vi": "làm lo sợ"
+},
+{
+"id": "v-alarming-adjective-1",
+"word": "alarming",
+"pos": "adjective",
+"def": "causing worry or fear",
+"ex": [
+"Crime has been increasing at an alarming rate."
+],
+"vi": "đáng lo ngại"
+},
+{
+"id": "v-alert-adjective-1",
+"word": "alert",
+"pos": "adjective",
+"def": "quick to notice and react to things around you",
+"ex": [
+"A young dog should be alert and playful.",
+"Teachers need to be alert to sudden changes in students' behaviour."
+],
+"vi": "tỉnh táo, cảnh giác"
+},
+{
+"id": "v-alert-noun-1",
+"word": "alert",
+"pos": "noun",
+"def": "a warning about a possibly dangerous situation",
+"ex": [
+"a bomb alert"
+],
+"vi": "cảnh báo"
+},
+{
+"id": "v-allegation-noun-1",
+"word": "allegation",
+"pos": "noun",
+"def": "when you say that someone has done something wrong or illegal, without proof that this is true",
+"ex": [
+"allegations of corruption",
+"Several of her patients have made allegations of professional misconduct against her."
+],
+"vi": "lời cáo buộc"
+},
+{
+"id": "v-alleged-adjective-1",
+"word": "alleged",
+"pos": "adjective",
+"def": "believed to be true, but not proved",
+"ex": [
+"an alleged attack"
+],
+"vi": "bị cho là, bị cáo buộc"
+},
+{
+"id": "v-allocate-verb-1",
+"word": "allocate",
+"pos": "verb",
+"def": "to give some time, money, space, etc. to be used for a particular purpose",
+"ex": [
+"The government has promised to allocate extra money for health care.",
+"More police time should be allocated to crime prevention."
+],
+"vi": "phân bổ"
+},
+{
+"id": "v-allowance-noun-1",
+"word": "allowance",
+"pos": "noun",
+"def": "money that you are given regularly, especially to pay for a particular thing",
+"ex": [
+"a clothing allowance"
+],
+"vi": "tiền tiêu vặt, trợ cấp"
+},
+{
+"id": "v-alteration-noun-1",
+"word": "alteration",
+"pos": "noun",
+"def": "a change, or the process of changing something",
+"ex": [
+"We've made a few alterations to the kitchen."
+],
+"vi": "sự thay đổi"
+},
+{
+"id": "v-amateur-adjective-1",
+"word": "amateur",
+"pos": "adjective",
+"def": "doing something as a hobby and not as your job",
+"ex": [
+"an amateur photographer"
+],
+"vi": "nghiệp dư"
+},
+{
+"id": "v-amendment-noun-1",
+"word": "amendment",
+"pos": "noun",
+"def": "a change in the words of a document, or the process of doing this",
+"ex": [
+"to make an amendment to the human rights law"
+],
+"vi": "bản sửa đổi"
+},
+{
+"id": "v-ample-adjective-1",
+"word": "ample",
+"pos": "adjective",
+"def": "enough, or more than enough",
+"ex": [
+"She's had ample time to get the work done."
+],
+"vi": "dư dả, rộng rãi"
+},
+{
+"id": "v-analytical-adjective-1",
+"word": "analytical",
+"pos": "adjective",
+"def": "examining the details of something carefully, in order to understand or explain it",
+"ex": [
+"an analytical mind"
+],
+"vi": "có tính phân tích"
+},
+{
+"id": "v-annoyance-noun-1",
+"word": "annoyance",
+"pos": "noun",
+"def": "the feeling of being annoyed",
+"ex": [
+"He kept losing his keys, much to the annoyance of his wife."
+],
+"vi": "sự bực mình"
+},
+{
+"id": "v-anticipate-verb-1",
+"word": "anticipate",
+"pos": "verb",
+"def": "to expect something, or to prepare for something before it happens",
+"ex": [
+"to anticipate a problem",
+"We anticipate that prices will fall next year."
+],
+"vi": "dự đoán, lường trước"
+},
+{
+"id": "v-appetite-noun-1",
+"word": "appetite",
+"pos": "noun",
+"def": "the feeling that makes you want to eat",
+"ex": [
+"All that walking has given me an appetite.",
+"I won't have any chocolate, thanks - it'll spoil my appetite."
+],
+"vi": "sự thèm ăn, khẩu vị"
+},
+{
+"id": "v-applause-noun-1",
+"word": "applause",
+"pos": "noun",
+"def": "when people make a noise by clapping their hands to show they have enjoyed or approve of something",
+"ex": [
+"There was loud applause at the end of her speech."
+],
+"vi": "tràng vỗ tay"
+},
+{
+"id": "v-appliance-noun-1",
+"word": "appliance",
+"pos": "noun",
+"def": "a piece of electrical equipment with a particular purpose in the home",
+"ex": [
+"fridges, radios, and other electrical appliances"
+],
+"vi": "đồ gia dụng"
+},
+{
+"id": "v-appoint-verb-1",
+"word": "appoint",
+"pos": "verb",
+"def": "to officially choose someone for a job",
+"ex": [
+"He was appointed as company director last year."
+],
+"vi": "bổ nhiệm"
+},
+{
+"id": "v-archaeologist-noun-1",
+"word": "archaeologist",
+"pos": "noun",
+"def": "someone who studies ancient cultures by looking for and examining their buildings, tools, and other objects",
+"ex": [
+"Archaeologists believe the remains date back to the 5th century."
+],
+"vi": "nhà khảo cổ"
+},
+{
+"id": "v-archaeology-noun-1",
+"word": "archaeology",
+"pos": "noun",
+"def": "the study of ancient cultures by looking for and examining their buildings, tools, and other objects",
+"ex": [
+"He did archaeology at university."
+],
+"vi": "khảo cổ học"
+},
+{
+"id": "v-assert-verb-1",
+"word": "assert",
+"pos": "verb",
+"def": "to say that something is certainly true",
+"ex": [
+"He asserts that she stole money from him."
+],
+"vi": "khẳng định"
+},
+{
+"id": "v-assign-verb-1",
+"word": "assign",
+"pos": "verb",
+"def": "to give someone a particular job or responsibility",
+"ex": [
+"UN forces were assigned the task of rebuilding the hospital.",
+"The case has been assigned to our most senior officer."
+],
+"vi": "giao (việc)"
+},
+{
+"id": "v-assignment-noun-1",
+"word": "assignment",
+"pos": "noun",
+"def": "a piece of work given to someone, especially as part of their studies or job",
+"ex": [
+"a freelance/photo assignment",
+"The assignment is due on Friday."
+],
+"vi": "bài tập, nhiệm vụ"
+},
+{
+"id": "v-associate-verb-1",
+"word": "associate",
+"pos": "verb",
+"def": "to connect someone or something in your mind with someone or something else",
+"ex": [
+"Most people associate this brand with good quality."
+],
+"vi": "liên tưởng, gắn với"
+},
+{
+"id": "v-assumption-noun-1",
+"word": "assumption",
+"pos": "noun",
+"def": "something that you think is true without having any proof",
+"ex": [
+"People tend to make assumptions about you when you have a disability.",
+"These calculations are based on the assumption that prices will continue to rise."
+],
+"vi": "giả định"
+},
+{
+"id": "v-attain-verb-1",
+"word": "attain",
+"pos": "verb",
+"def": "to achieve something, especially after a lot of work",
+"ex": [
+"She's attained a high level of fitness."
+],
+"vi": "đạt được"
+},
+{
+"id": "v-auction-noun-1",
+"word": "auction",
+"pos": "noun",
+"def": "a sale in which things are sold to the person who offers the most money",
+"ex": [
+"The furniture was sold at auction."
+],
+"vi": "cuộc đấu giá"
+},
+{
+"id": "v-audition-noun-1",
+"word": "audition",
+"pos": "noun",
+"def": "when someone does a short performance to try to get a job as an actor, singer, etc.",
+"ex": [
+"She's got an audition for the show."
+],
+"vi": "buổi thử giọng, thử vai"
+},
+{
+"id": "v-bacteria-noun-1",
+"word": "bacteria",
+"pos": "noun",
+"def": "very small living things that sometimes cause disease",
+"ex": [
+"The infection was caused by bacteria in the lung."
+],
+"vi": "vi khuẩn"
+},
+{
+"id": "v-bankrupt-adjective-1",
+"word": "bankrupt",
+"pos": "adjective",
+"def": "unable to continue in business because you cannot pay your debts",
+"ex": [
+"He went bankrupt after only a year in business."
+],
+"vi": "phá sản"
+},
+{
+"id": "v-beak-noun-1",
+"word": "beak",
+"pos": "noun",
+"def": "the hard part of a bird's mouth",
+"ex": [
+"It carried a huge stick in its beak."
+],
+"vi": "mỏ chim"
+},
+{
+"id": "v-bet-verb-1",
+"word": "bet",
+"pos": "verb",
+"def": "to risk money on the result of a game, competition, etc.",
+"ex": [
+"I bet him a dollar that I was right."
+],
+"vi": "đặt cược"
+},
+{
+"id": "v-beware-verb-1",
+"word": "beware",
+"pos": "verb",
+"def": "used in order to warn someone to be careful",
+"ex": [
+"Beware of the dog.",
+"You should beware of spending too long in the sun."
+],
+"vi": "hãy coi chừng"
+},
+{
+"id": "v-biased-adjective-1",
+"word": "biased",
+"pos": "adjective",
+"def": "showing unfair support for or opposition to someone or something because of your personal opinions",
+"ex": [
+"to be biased against/towards younger workers"
+],
+"vi": "thiên vị, thiên kiến"
+},
+{
+"id": "v-bilingual-adjective-1",
+"word": "bilingual",
+"pos": "adjective",
+"def": "using or able to speak two languages",
+"ex": [
+"a bilingual dictionary"
+],
+"vi": "song ngữ"
+},
+{
+"id": "v-bound-adjective-1",
+"word": "bound",
+"pos": "adjective",
+"def": "travelling towards a particular place",
+"ex": [
+"He was on a train bound for Berlin."
+],
+"vi": "đi về hướng"
+},
+{
+"id": "v-bribe-noun-1",
+"word": "bribe",
+"pos": "noun",
+"def": "money or a present given to someone so that they will do something for you, usually something dishonest",
+"ex": [
+"The politician was accused of accepting bribes from businessmen."
+],
+"vi": "tiền hối lộ"
+},
+{
+"id": "v-bribe-verb-1",
+"word": "bribe",
+"pos": "verb",
+"def": "to try to make someone do something for you by giving them money, presents or something else they want",
+"ex": [
+"He bribed immigration officials and entered the country illegally."
+],
+"vi": "hối lộ"
+},
+{
+"id": "v-broaden-verb-1",
+"word": "broaden",
+"pos": "verb",
+"def": "to increase or make something increase and include more things or people",
+"ex": [
+"We need to broaden the range of services that we offer.",
+"Travel broadens your mind."
+],
+"vi": "mở rộng"
+},
+{
+"id": "v-broadly-adverb-1",
+"word": "broadly",
+"pos": "adverb",
+"def": "in a general way and not including everything or everyone",
+"ex": [
+"The plans have been broadly accepted.",
+"Broadly speaking, don't you think women make better drivers than men?"
+],
+"vi": "nói chung, đại thể"
+},
+{
+"id": "v-brutal-adjective-1",
+"word": "brutal",
+"pos": "adjective",
+"def": "very violent or cruel",
+"ex": [
+"a brutal murder"
+],
+"vi": "tàn bạo"
+},
+{
+"id": "v-bubble-noun-1",
+"word": "bubble",
+"pos": "noun",
+"def": "a ball of air or gas with liquid around it",
+"ex": [
+"an air bubble"
+],
+"vi": "bong bóng, bọt"
+},
+{
+"id": "v-bully-noun-1",
+"word": "bully",
+"pos": "noun",
+"def": "someone who intentionally frightens a person who is smaller or weaker than them",
+"ex": [
+"He's just a bully."
+],
+"vi": "kẻ bắt nạt"
+},
+{
+"id": "v-burden-noun-1",
+"word": "burden",
+"pos": "noun",
+"def": "something difficult or unpleasant that you have to deal with or worry about",
+"ex": [
+"the burden of responsibility",
+"I'd hate to be a burden to you when I'm older."
+],
+"vi": "gánh nặng"
+},
+{
+"id": "v-campaign-verb-1",
+"word": "campaign",
+"pos": "verb",
+"def": "to organize a series of activities to try to achieve something",
+"ex": [
+"to campaign against/for something"
+],
+"vi": "vận động, tổ chức chiến dịch"
+},
+{
+"id": "v-cancellation-noun-1",
+"word": "cancellation",
+"pos": "noun",
+"def": "when someone decides that an event will not now happen or stops an order for something",
+"ex": [
+"a last-minute cancellation"
+],
+"vi": "việc hủy bỏ"
+},
+{
+"id": "v-capture-noun-1",
+"word": "capture",
+"pos": "noun",
+"def": "when a person or animal is caught and made a prisoner",
+"ex": [
+"He shot himself to avoid capture."
+],
+"vi": "sự bắt giữ"
+},
+{
+"id": "v-cater-verb-1",
+"word": "cater",
+"pos": "verb",
+"def": "to provide and often serve food and drinks for a particular event",
+"ex": [
+"How many are we catering for at the wedding reception?"
+],
+"vi": "phục vụ ăn uống"
+},
+{
+"id": "v-caution-noun-1",
+"word": "caution",
+"pos": "noun",
+"def": "great care and attention not to take risks or get into danger",
+"ex": [
+"Travellers have been advised to exercise great caution when passing through the region.",
+"I would treat anything he says with extreme caution."
+],
+"vi": "sự thận trọng"
+},
+{
+"id": "v-chaotic-adjective-1",
+"word": "chaotic",
+"pos": "adjective",
+"def": "in a state of chaos",
+"ex": [
+"a chaotic situation"
+],
+"vi": "hỗn loạn"
+},
+{
+"id": "v-chilly-adjective-1",
+"word": "chilly",
+"pos": "adjective",
+"def": "unpleasantly cold",
+"ex": [
+"a chilly evening"
+],
+"vi": "lành lạnh, se lạnh"
+},
+{
+"id": "v-cholesterol-noun-1",
+"word": "cholesterol",
+"pos": "noun",
+"def": "a type of fat in your body that can cause heart disease if you have too much",
+"ex": [
+"The doctor said I had high cholesterol."
+],
+"vi": "cholesterol, mỡ máu"
+},
+{
+"id": "v-chore-noun-1",
+"word": "chore",
+"pos": "noun",
+"def": "a boring job that you must do",
+"ex": [
+"I find cooking a real chore."
+],
+"vi": "việc vặt"
+},
+{
+"id": "v-civil-adjective-1",
+"word": "civil",
+"pos": "adjective",
+"def": "relating to the ordinary people or things in a country and not to military or religious organizations",
+"ex": [
+"They married in a civil ceremony."
+],
+"vi": "dân sự"
+},
+{
+"id": "v-clarification-noun-1",
+"word": "clarification",
+"pos": "noun",
+"def": "an explanation which makes something clearer or easier to understand",
+"ex": [
+"Please contact this office again if you require further clarification.",
+"Our lawyer has advised us to seek clarification on the matter."
+],
+"vi": "sự làm rõ"
+},
+{
+"id": "v-clarify-verb-1",
+"word": "clarify",
+"pos": "verb",
+"def": "to make something easier to understand by explaining it",
+"ex": [
+"The law aims to clarify building regulations."
+],
+"vi": "làm rõ"
+},
+{
+"id": "v-clutch-noun-1",
+"word": "clutch",
+"pos": "noun",
+"def": "the part of a car or truck that you press with your foot when you change gear",
+"ex": [
+"I put my foot on the clutch."
+],
+"vi": "bàn đạp côn"
+},
+{
+"id": "v-coal-noun-1",
+"word": "coal",
+"pos": "noun",
+"def": "a hard, black substance that is dug from under the ground and burnt as fuel",
+"ex": [
+"a lump of coal"
+],
+"vi": "than đá"
+},
+{
+"id": "v-collaboration-noun-1",
+"word": "collaboration",
+"pos": "noun",
+"def": "when two or more people work together to create or achieve the same thing, or a product of this",
+"ex": [
+"The show was a result of collaboration between several museums."
+],
+"vi": "sự hợp tác"
+},
+{
+"id": "v-commonly-adverb-1",
+"word": "commonly",
+"pos": "adverb",
+"def": "often or usually",
+"ex": [
+"These caterpillars are commonly found on nettles."
+],
+"vi": "thường, phổ biến"
+},
+{
+"id": "v-commute-verb-1",
+"word": "commute",
+"pos": "verb",
+"def": "to regularly travel between work and home",
+"ex": [
+"He commutes to London every day."
+],
+"vi": "đi làm đi lại hằng ngày"
+},
+{
+"id": "v-competence-noun-1",
+"word": "competence",
+"pos": "noun",
+"def": "the ability to do something well",
+"ex": [
+"Her competence as a teacher is unquestionable."
+],
+"vi": "năng lực"
+},
+{
+"id": "v-competent-adjective-1",
+"word": "competent",
+"pos": "adjective",
+"def": "able to do something well",
+"ex": [
+"a competent teacher/swimmer",
+"I wouldn't say he was brilliant but he is competent at his job."
+],
+"vi": "có năng lực, giỏi"
+},
+{
+"id": "v-compile-verb-1",
+"word": "compile",
+"pos": "verb",
+"def": "to collect information and arrange it in a book, report, list, etc.",
+"ex": [
+"We're compiling some facts and figures for a documentary on climate change."
+],
+"vi": "biên soạn, tổng hợp"
+},
+{
+"id": "v-compliment-verb-1",
+"word": "compliment",
+"pos": "verb",
+"def": "to praise or express admiration for someone",
+"ex": [
+"He complimented me on my writing."
+],
+"vi": "khen ngợi"
+},
+{
+"id": "v-comprehensive-adjective-1",
+"word": "comprehensive",
+"pos": "adjective",
+"def": "including everything",
+"ex": [
+"a comprehensive study of the subject"
+],
+"vi": "toàn diện"
+},
+{
+"id": "v-comprehensively-adverb-1",
+"word": "comprehensively",
+"pos": "adverb",
+"def": "completely",
+"ex": [
+"We were comprehensively beaten in the final."
+],
+"vi": "một cách toàn diện"
+},
+{
+"id": "v-conquer-verb-1",
+"word": "conquer",
+"pos": "verb",
+"def": "to take control of a country or to defeat people by war",
+"ex": [
+"The English were conquered by the Normans in 1066."
+],
+"vi": "chinh phục, chiếm"
+},
+{
+"id": "v-conscientious-adjective-1",
+"word": "conscientious",
+"pos": "adjective",
+"def": "always doing your work with a lot of care",
+"ex": [
+"a conscientious student"
+],
+"vi": "tận tâm"
+},
+{
+"id": "v-consent-noun-1",
+"word": "consent",
+"pos": "noun",
+"def": "permission for someone to do something",
+"ex": [
+"You can't come without your parents' consent."
+],
+"vi": "sự đồng ý"
+},
+{
+"id": "v-conservative-adjective-1",
+"word": "conservative",
+"pos": "adjective",
+"def": "not trusting sudden changes or new ideas",
+"ex": [
+"Older people tend to be very conservative."
+],
+"vi": "bảo thủ"
+},
+{
+"id": "v-constitute-verb-1",
+"word": "constitute",
+"pos": "verb",
+"def": "to be or form something",
+"ex": [
+"This defeat constitutes a real setback for their championship hopes."
+],
+"vi": "cấu thành, là"
+},
+{
+"id": "v-consumption-noun-1",
+"word": "consumption",
+"pos": "noun",
+"def": "the amount of something that someone uses, eats, or drinks",
+"ex": [
+"We need to reduce our energy consumption."
+],
+"vi": "sự tiêu thụ"
+},
+{
+"id": "v-contestant-noun-1",
+"word": "contestant",
+"pos": "noun",
+"def": "someone who competes in a contest",
+"ex": [
+"All the contestants are ready to begin."
+],
+"vi": "thí sinh"
+},
+{
+"id": "v-controversy-noun-1",
+"word": "controversy",
+"pos": "noun",
+"def": "a lot of disagreement and argument about something",
+"ex": [
+"There is a lot of controversy over mobile phone towers."
+],
+"vi": "cuộc tranh cãi"
+},
+{
+"id": "v-convey-verb-1",
+"word": "convey",
+"pos": "verb",
+"def": "to communicate information, feelings, or images to someone",
+"ex": [
+"She always conveys a sense of enthusiasm for her work."
+],
+"vi": "truyền đạt"
+},
+{
+"id": "v-corrupt-verb-1",
+"word": "corrupt",
+"pos": "verb",
+"def": "to make someone or something become dishonest or immoral",
+"ex": [
+"He became corrupted by power and money."
+],
+"vi": "làm hư hỏng, tha hóa"
+},
+{
+"id": "v-corrupt-adjective-1",
+"word": "corrupt",
+"pos": "adjective",
+"def": "dishonest or illegal",
+"ex": [
+"a corrupt government"
+],
+"vi": "tham nhũng, bất lương"
+},
+{
+"id": "v-cosmopolitan-adjective-1",
+"word": "cosmopolitan",
+"pos": "adjective",
+"def": "consisting of people and things from many different countries",
+"ex": [
+"London is a very cosmopolitan city."
+],
+"vi": "mang tính quốc tế"
+},
+{
+"id": "v-courageous-adjective-1",
+"word": "courageous",
+"pos": "adjective",
+"def": "brave",
+"ex": [
+"a courageous decision"
+],
+"vi": "dũng cảm"
+},
+{
+"id": "v-cultivation-noun-1",
+"word": "cultivation",
+"pos": "noun",
+"def": "the process of preparing land and growing crops",
+"ex": [
+"The area was drained so that cultivation could begin."
+],
+"vi": "việc trồng trọt"
+},
+{
+"id": "v-cutback-noun-1",
+"word": "cutback",
+"pos": "noun",
+"def": "a reduction of something, usually to save money",
+"ex": [
+"The company has made cutbacks and closed one of its factories."
+],
+"vi": "sự cắt giảm"
+},
+{
+"id": "v-daycare-noun-1",
+"word": "daycare",
+"pos": "noun",
+"def": "care provided during the day for people who cannot look after themselves, especially young children or old people",
+"ex": [
+"a daycare centre"
+],
+"vi": "dịch vụ giữ trẻ ban ngày"
+},
+{
+"id": "v-daydream-verb-1",
+"word": "daydream",
+"pos": "verb",
+"def": "to have pleasant thoughts about something you like or would like to happen",
+"ex": [
+"She just sits in class daydreaming about her horses."
+],
+"vi": "mơ mộng"
+},
+{
+"id": "v-dead-adverb-1",
+"word": "dead",
+"pos": "adverb",
+"def": "extremely or completely",
+"ex": [
+"The exam was dead easy."
+],
+"vi": "cực kỳ, hoàn toàn"
+},
+{
+"id": "v-debut-noun-1",
+"word": "debut",
+"pos": "noun",
+"def": "when someone performs or presents something to the public for the first time",
+"ex": [
+"She made her debut as a pianist in 1975.",
+"This is the band's debut album."
+],
+"vi": "buổi ra mắt"
+},
+{
+"id": "v-declaration-noun-1",
+"word": "declaration",
+"pos": "noun",
+"def": "an announcement, often one that is written and official",
+"ex": [
+"a declaration of independence"
+],
+"vi": "bản tuyên bố"
+},
+{
+"id": "v-dedication-noun-1",
+"word": "dedication",
+"pos": "noun",
+"def": "when you are willing to give a lot of time and energy to something because you believe it is very important",
+"ex": [
+"She thanked the staff for their dedication and enthusiasm."
+],
+"vi": "sự cống hiến, tận tụy"
+},
+{
+"id": "v-defect-noun-1",
+"word": "defect",
+"pos": "noun",
+"def": "a fault or problem with someone or something",
+"ex": [
+"A mechanical defect caused the plane to crash."
+],
+"vi": "khuyết điểm, lỗi"
+},
+{
+"id": "v-deficit-noun-1",
+"word": "deficit",
+"pos": "noun",
+"def": "the amount by which the money that you spend is more than the money that you receive",
+"ex": [
+"a budget deficit"
+],
+"vi": "thâm hụt"
+},
+{
+"id": "v-delegate-noun-1",
+"word": "delegate",
+"pos": "noun",
+"def": "someone who is sent somewhere to represent a group of people, especially at a meeting",
+"ex": [
+"The delegates were all given badges to wear."
+],
+"vi": "đại biểu"
+},
+{
+"id": "v-density-noun-1",
+"word": "density",
+"pos": "noun",
+"def": "the number of people or things in a place when compared with the size of the place",
+"ex": [
+"The area has a high population density."
+],
+"vi": "mật độ"
+},
+{
+"id": "v-deodorant-noun-1",
+"word": "deodorant",
+"pos": "noun",
+"def": "a substance that you put on your body to prevent or hide unpleasant smells",
+"ex": [
+"I always use deodorant."
+],
+"vi": "chất khử mùi"
+},
+{
+"id": "v-deposit-verb-1",
+"word": "deposit",
+"pos": "verb",
+"def": "to put money into a bank or valuable things into a safe place",
+"ex": [
+"She deposited $150,000 in a Swiss bank account."
+],
+"vi": "gửi (tiền), đặt cọc"
+},
+{
+"id": "v-deprived-adjective-1",
+"word": "deprived",
+"pos": "adjective",
+"def": "not having enough food, money, and the things that you need to have a normal life",
+"ex": [
+"children from deprived backgrounds"
+],
+"vi": "thiếu thốn"
+},
+{
+"id": "v-deputy-noun-1",
+"word": "deputy",
+"pos": "noun",
+"def": "someone who has the second most important job in an organization",
+"ex": [
+"the deputy Prime Minister"
+],
+"vi": "phó, người thay thế"
+},
+{
+"id": "v-detect-verb-1",
+"word": "detect",
+"pos": "verb",
+"def": "to discover or notice something, especially something that is difficult to see, hear, smell, etc.",
+"ex": [
+"Some sounds cannot be detected by the human ear.",
+"This special camera can detect bodies by their heat."
+],
+"vi": "phát hiện"
+},
+{
+"id": "v-deteriorate-verb-1",
+"word": "deteriorate",
+"pos": "verb",
+"def": "to become worse",
+"ex": [
+"Her condition deteriorated rapidly."
+],
+"vi": "xấu đi"
+},
+{
+"id": "v-devastated-adjective-1",
+"word": "devastated",
+"pos": "adjective",
+"def": "very shocked and upset",
+"ex": [
+"She was devastated when her husband died.",
+"They were devastated by the terrible news."
+],
+"vi": "suy sụp, đau khổ"
+},
+{
+"id": "v-dictate-verb-1",
+"word": "dictate",
+"pos": "verb",
+"def": "to decide or control what happens",
+"ex": [
+"The weather will dictate where we hold the party."
+],
+"vi": "quyết định, chi phối"
+},
+{
+"id": "v-diesel-noun-1",
+"word": "diesel",
+"pos": "noun",
+"def": "fuel used in the engines of some vehicles, especially buses and trucks",
+"ex": [
+"We need to stop for some diesel."
+],
+"vi": "dầu diesel"
+},
+{
+"id": "v-digestion-noun-1",
+"word": "digestion",
+"pos": "noun",
+"def": "when your body changes food in your stomach into substances that it can use",
+"ex": [
+"He has problems with his digestion."
+],
+"vi": "sự tiêu hóa"
+},
+{
+"id": "v-diminish-verb-1",
+"word": "diminish",
+"pos": "verb",
+"def": "to become less, or to make something become less",
+"ex": [
+"Your pain should diminish gradually after taking these tablets."
+],
+"vi": "giảm bớt"
+},
+{
+"id": "v-directory-noun-1",
+"word": "directory",
+"pos": "noun",
+"def": "a book or list of names, numbers, or other facts",
+"ex": [
+"I looked in the telephone directory."
+],
+"vi": "danh bạ"
+},
+{
+"id": "v-discontent-noun-1",
+"word": "discontent",
+"pos": "noun",
+"def": "unhappiness about a situation",
+"ex": [
+"There is growing discontent with this government."
+],
+"vi": "sự bất mãn"
+},
+{
+"id": "v-discrimination-noun-1",
+"word": "discrimination",
+"pos": "noun",
+"def": "when someone is treated unfairly because of their sex, race, religion, etc.",
+"ex": [
+"discrimination against older workers"
+],
+"vi": "sự phân biệt đối xử"
+},
+{
+"id": "v-disgusted-adjective-1",
+"word": "disgusted",
+"pos": "adjective",
+"def": "feeling extreme dislike or disapproval of something",
+"ex": [
+"I'm totally disgusted with your behaviour."
+],
+"vi": "ghê tởm, chán ghét"
+},
+{
+"id": "v-disruption-noun-1",
+"word": "disruption",
+"pos": "noun",
+"def": "when something is stopped from happening as it should",
+"ex": [
+"a disruption of services"
+],
+"vi": "sự gián đoạn"
+},
+{
+"id": "v-dissertation-noun-1",
+"word": "dissertation",
+"pos": "noun",
+"def": "a very long piece of writing done as part of a course of study",
+"ex": [
+"She's writing a dissertation on American poetry."
+],
+"vi": "luận văn"
+},
+{
+"id": "v-distort-verb-1",
+"word": "distort",
+"pos": "verb",
+"def": "to change information so that it is not true or realistic",
+"ex": [
+"Newspapers distorted the truth about their marriage."
+],
+"vi": "bóp méo"
+},
+{
+"id": "v-distressed-adjective-1",
+"word": "distressed",
+"pos": "adjective",
+"def": "extremely upset or worried",
+"ex": [
+"They were very distressed to learn of her death."
+],
+"vi": "đau khổ, lo lắng"
+},
+{
+"id": "v-diversity-noun-1",
+"word": "diversity",
+"pos": "noun",
+"def": "when many different types of things or people are included in something",
+"ex": [
+"Does television adequately reflect the ethnic and cultural diversity of the country?",
+"There is a wide diversity of opinion on the issue."
+],
+"vi": "sự đa dạng"
+},
+{
+"id": "v-dock-noun-1",
+"word": "dock",
+"pos": "noun",
+"def": "the place where ships stop and goods are taken off or put on",
+"ex": [
+"The ship is in dock."
+],
+"vi": "bến tàu"
+},
+{
+"id": "v-domain-noun-1",
+"word": "domain",
+"pos": "noun",
+"def": "a particular area, activity, or subject that someone controls or deals with",
+"ex": [
+"The garden is his domain.",
+"This information should be in the public domain."
+],
+"vi": "lĩnh vực"
+},
+{
+"id": "v-downside-noun-1",
+"word": "downside",
+"pos": "noun",
+"def": "the disadvantage of a situation",
+"ex": [
+"The downside of living in a city is all the pollution."
+],
+"vi": "mặt trái, bất lợi"
+},
+{
+"id": "v-downward-adjective-1",
+"word": "downward",
+"pos": "adjective",
+"def": "moving towards a lower position",
+"ex": [
+"a downward trend"
+],
+"vi": "đi xuống"
+},
+{
+"id": "v-downwards-adverb-1",
+"word": "downwards",
+"pos": "adverb",
+"def": "towards a lower place or level",
+"ex": [
+"The road slopes downwards to the river."
+],
+"vi": "xuống dưới"
+},
+{
+"id": "v-dozens-noun-1",
+"word": "dozens",
+"pos": "noun",
+"def": "a lot",
+"ex": [
+"She's got dozens of friends."
+],
+"vi": "hàng chục, rất nhiều"
+},
+{
+"id": "v-draft-verb-1",
+"word": "draft",
+"pos": "verb",
+"def": "to produce a piece of writing or a plan that you intend to change later",
+"ex": [
+"to draft a letter"
+],
+"vi": "soạn thảo, viết nháp"
+},
+{
+"id": "v-drastically-adverb-1",
+"word": "drastically",
+"pos": "adverb",
+"def": "in a drastic way",
+"ex": [
+"The number of bees has drastically declined due to a combination of factors."
+],
+"vi": "mạnh mẽ, quyết liệt"
+},
+{
+"id": "v-draught-noun-1",
+"word": "draught",
+"pos": "noun",
+"def": "a current of cold air in a room",
+"ex": [
+"There's a terrible draught coming from under the door."
+],
+"vi": "luồng gió lùa"
+},
+{
+"id": "v-drawback-noun-1",
+"word": "drawback",
+"pos": "noun",
+"def": "a problem or disadvantage",
+"ex": [
+"The only drawback with this camera is the price.",
+"One of the main drawbacks of the program is the amount of memory required."
+],
+"vi": "hạn chế, nhược điểm"
+},
+{
+"id": "v-dual-adjective-1",
+"word": "dual",
+"pos": "adjective",
+"def": "having two parts, or having two of something",
+"ex": [
+"She's got a bit of a dual personality."
+],
+"vi": "kép, đôi"
+},
+{
+"id": "v-duration-noun-1",
+"word": "duration",
+"pos": "noun",
+"def": "the amount of time that something lasts",
+"ex": [
+"The singer remained in the hotel for the duration of his stay in the UK."
+],
+"vi": "khoảng thời gian"
+},
+{
+"id": "v-ecology-noun-1",
+"word": "ecology",
+"pos": "noun",
+"def": "the relationship between living things and the environment, or the scientific study of this",
+"ex": [
+"The oil spill caused terrible damage to the fragile ecology of the coast."
+],
+"vi": "sinh thái học"
+},
+{
+"id": "v-elegance-noun-1",
+"word": "elegance",
+"pos": "noun",
+"def": "when someone or something is stylish or attractive in their appearance or behaviour",
+"ex": [
+"We were impressed by the elegance of his clothes."
+],
+"vi": "sự thanh lịch"
+},
+{
+"id": "v-elite-noun-1",
+"word": "elite",
+"pos": "noun",
+"def": "the richest, most powerful, or best educated group in a society",
+"ex": [
+"a member of the elite",
+"an elite group"
+],
+"vi": "giới tinh hoa"
+},
+{
+"id": "v-emission-noun-1",
+"word": "emission",
+"pos": "noun",
+"def": "when gas, heat, light, etc. is sent out into the air, or an amount of gas, heat, light, etc. that is sent out",
+"ex": [
+"Carbon dioxide emissions will be reduced by 20%."
+],
+"vi": "khí thải, sự phát ra"
+},
+{
+"id": "v-enforce-verb-1",
+"word": "enforce",
+"pos": "verb",
+"def": "to make people obey a rule or law",
+"ex": [
+"It is the duty of the police to enforce the law."
+],
+"vi": "thi hành, buộc tuân theo"
+},
+{
+"id": "v-engage-verb-1",
+"word": "engage",
+"pos": "verb",
+"def": "to interest someone in something and keep them thinking about it",
+"ex": [
+"The debate about food safety has engaged the whole nation."
+],
+"vi": "thu hút, lôi cuốn"
+},
+{
+"id": "v-enhance-verb-1",
+"word": "enhance",
+"pos": "verb",
+"def": "to improve something",
+"ex": [
+"Winning that award greatly enhanced her reputation."
+],
+"vi": "nâng cao, cải thiện"
+},
+{
+"id": "v-envisage-verb-1",
+"word": "envisage",
+"pos": "verb",
+"def": "to imagine something happening, or think that something is likely to happen",
+"ex": [
+"The police don't envisage any trouble at the festival."
+],
+"vi": "hình dung, dự tính"
+},
+{
+"id": "v-envision-verb-1",
+"word": "envision",
+"pos": "verb",
+"def": "to imagine something happening, or think that something is likely to happen",
+"ex": [
+"He envisioned a partnership between business and government."
+],
+"vi": "hình dung, mường tượng"
+},
+{
+"id": "v-equation-noun-1",
+"word": "equation",
+"pos": "noun",
+"def": "when you show that two amounts are equal using mathematical symbols",
+"ex": [
+"In this equation, x = 6."
+],
+"vi": "phương trình"
+},
+{
+"id": "v-equivalent-adjective-1",
+"word": "equivalent",
+"pos": "adjective",
+"def": "equal in amount, value, importance, or meaning",
+"ex": [
+"The UK's Brit Awards are roughly equivalent to the Oscars."
+],
+"vi": "tương đương"
+},
+{
+"id": "v-equivalent-noun-1",
+"word": "equivalent",
+"pos": "noun",
+"def": "something that has the same value, importance, size, or meaning as something else",
+"ex": [
+"She won the equivalent of $5 million."
+],
+"vi": "vật tương đương"
+},
+{
+"id": "v-evaluate-verb-1",
+"word": "evaluate",
+"pos": "verb",
+"def": "to consider or study something carefully and decide how good or bad it is",
+"ex": [
+"We need time to evaluate the proposal."
+],
+"vi": "đánh giá"
+},
+{
+"id": "v-evaluation-noun-1",
+"word": "evaluation",
+"pos": "noun",
+"def": "the act of considering something carefully and deciding how good or bad it is",
+"ex": [
+"There was no evaluation of the risks involved.",
+"She carried out an evaluation of their services."
+],
+"vi": "sự đánh giá"
+},
+{
+"id": "v-evolve-verb-1",
+"word": "evolve",
+"pos": "verb",
+"def": "to develop or make something develop, usually gradually",
+"ex": [
+"rapidly evolving technology"
+],
+"vi": "tiến hóa, phát triển"
+},
+{
+"id": "v-exaggerate-verb-1",
+"word": "exaggerate",
+"pos": "verb",
+"def": "to make something seem larger, better, worse, etc. than it really is",
+"ex": [
+"Don't exaggerate - it didn't cost that much!"
+],
+"vi": "phóng đại"
+},
+{
+"id": "v-exaggeration-noun-1",
+"word": "exaggeration",
+"pos": "noun",
+"def": "when you describe something as larger, better, worse, etc. than it really is",
+"ex": [
+"a slight/gross exaggeration of the facts"
+],
+"vi": "sự phóng đại"
+},
+{
+"id": "v-exceed-verb-1",
+"word": "exceed",
+"pos": "verb",
+"def": "to be more than a particular number or amount",
+"ex": [
+"Sales have exceeded $1 million so far this year."
+],
+"vi": "vượt quá"
+},
+{
+"id": "v-exceptionally-adverb-1",
+"word": "exceptionally",
+"pos": "adverb",
+"def": "extremely",
+"ex": [
+"an exceptionally gifted student"
+],
+"vi": "đặc biệt, cực kỳ"
+},
+{
+"id": "v-excess-adjective-1",
+"word": "excess",
+"pos": "adjective",
+"def": "more than is usual or allowed",
+"ex": [
+"We had to pay £100 for excess baggage."
+],
+"vi": "dư thừa, quá mức"
+},
+{
+"id": "v-excess-noun-1",
+"word": "excess",
+"pos": "noun",
+"def": "more of something than is usual or needed",
+"ex": [
+"An excess of oil on the markets has caused prices to fall sharply.",
+"He earns in excess of £60,000 a year."
+],
+"vi": "sự dư thừa"
+},
+{
+"id": "v-excessive-adjective-1",
+"word": "excessive",
+"pos": "adjective",
+"def": "more than is necessary or wanted",
+"ex": [
+"They accused the police of using excessive force."
+],
+"vi": "quá mức"
+},
+{
+"id": "v-exclusively-adverb-1",
+"word": "exclusively",
+"pos": "adverb",
+"def": "only",
+"ex": [
+"an exclusively female audience"
+],
+"vi": "chỉ riêng, độc quyền"
+},
+{
+"id": "v-executive-noun-1",
+"word": "executive",
+"pos": "noun",
+"def": "someone who has an important job in a business",
+"ex": [
+"a company executive"
+],
+"vi": "giám đốc điều hành"
+},
+{
+"id": "v-executive-adjective-1",
+"word": "executive",
+"pos": "adjective",
+"def": "relating to making decisions and managing businesses",
+"ex": [
+"an executive director"
+],
+"vi": "điều hành, quản trị"
+},
+{
+"id": "v-exhaust-verb-1",
+"word": "exhaust",
+"pos": "verb",
+"def": "to make someone very tired",
+"ex": [
+"The long journey exhausted the children."
+],
+"vi": "làm kiệt sức"
+},
+{
+"id": "v-exhaustive-adjective-1",
+"word": "exhaustive",
+"pos": "adjective",
+"def": "complete and including everything",
+"ex": [
+"an exhaustive account of the incident"
+],
+"vi": "đầy đủ, toàn diện"
+},
+{
+"id": "v-exhibit-noun-1",
+"word": "exhibit",
+"pos": "noun",
+"def": "an object such as a painting that is shown to the public",
+"ex": [
+"a museum exhibit"
+],
+"vi": "vật trưng bày"
+},
+{
+"id": "v-expenses-noun-1",
+"word": "expenses",
+"pos": "noun",
+"def": "money that you spend when you are doing your job, that your employer will pay back to you",
+"ex": [
+"They pay us two hundred pounds a week, plus expenses."
+],
+"vi": "chi phí công tác"
+},
+{
+"id": "v-exposure-noun-1",
+"word": "exposure",
+"pos": "noun",
+"def": "when someone experiences something or is affected by it because they are in a particular situation or place",
+"ex": [
+"There is a risk of exposure to radiation.",
+"Many young children now have exposure to computers in the home."
+],
+"vi": "sự tiếp xúc, phơi nhiễm"
+},
+{
+"id": "v-exterior-noun-1",
+"word": "exterior",
+"pos": "noun",
+"def": "the outside part of something or someone",
+"ex": [
+"The exterior of the house was painted white."
+],
+"vi": "bên ngoài"
+},
+{
+"id": "v-extinction-noun-1",
+"word": "extinction",
+"pos": "noun",
+"def": "when a type of animal no longer exists",
+"ex": [
+"Many species of animal are threatened with extinction."
+],
+"vi": "sự tuyệt chủng"
+},
+{
+"id": "v-extrovert-noun-1",
+"word": "extrovert",
+"pos": "noun",
+"def": "someone who is very confident and likes being with other people",
+"ex": [
+"She is an extrovert."
+],
+"vi": "người hướng ngoại"
+},
+{
+"id": "v-fabric-noun-1",
+"word": "fabric",
+"pos": "noun",
+"def": "cloth",
+"ex": [
+"a light/woollen fabric"
+],
+"vi": "vải"
+},
+{
+"id": "v-fabulous-adjective-1",
+"word": "fabulous",
+"pos": "adjective",
+"def": "extremely good",
+"ex": [
+"They've got a fabulous house.",
+"We had an absolutely fabulous holiday."
+],
+"vi": "tuyệt vời"
+},
+{
+"id": "v-facilitate-verb-1",
+"word": "facilitate",
+"pos": "verb",
+"def": "to make something possible or easier",
+"ex": [
+"I will do everything in my power to facilitate the process."
+],
+"vi": "tạo điều kiện, làm dễ"
+},
+{
+"id": "v-fake-adjective-1",
+"word": "fake",
+"pos": "adjective",
+"def": "not real, but made to look or seem real",
+"ex": [
+"a fake passport"
+],
+"vi": "giả"
+},
+{
+"id": "v-fascinate-verb-1",
+"word": "fascinate",
+"pos": "verb",
+"def": "to interest someone a lot",
+"ex": [
+"Science has always fascinated me."
+],
+"vi": "làm say mê"
+},
+{
+"id": "v-fascination-noun-1",
+"word": "fascination",
+"pos": "noun",
+"def": "when you find someone or something fascinating",
+"ex": [
+"Her fascination with fashion started at an early age."
+],
+"vi": "sự say mê"
+},
+{
+"id": "v-feasible-adjective-1",
+"word": "feasible",
+"pos": "adjective",
+"def": "possible to do",
+"ex": [
+"a feasible plan",
+"It may be feasible to clone human beings, but is it ethical?"
+],
+"vi": "khả thi"
+},
+{
+"id": "v-feast-noun-1",
+"word": "feast",
+"pos": "noun",
+"def": "a large meal, especially to celebrate something special",
+"ex": [
+"a wedding feast"
+],
+"vi": "bữa tiệc lớn"
+},
+{
+"id": "v-feminine-adjective-1",
+"word": "feminine",
+"pos": "adjective",
+"def": "showing qualities that people generally think are typical of women",
+"ex": [
+"a feminine voice"
+],
+"vi": "nữ tính"
+},
+{
+"id": "v-fibre-noun-1",
+"word": "fibre",
+"pos": "noun",
+"def": "the substance in plants which cannot be digested and helps food pass through your body",
+"ex": [
+"Broccoli is a good source of fibre."
+],
+"vi": "chất xơ"
+},
+{
+"id": "v-flaw-noun-1",
+"word": "flaw",
+"pos": "noun",
+"def": "a mistake or bad characteristic that stops someone or something from being perfect",
+"ex": [
+"There's a flaw in your reasoning."
+],
+"vi": "khuyết điểm"
+},
+{
+"id": "v-flee-verb-1",
+"word": "flee",
+"pos": "verb",
+"def": "to leave a place quickly because you are in danger or are afraid",
+"ex": [
+"Police think the suspect has now fled the country."
+],
+"vi": "chạy trốn"
+},
+{
+"id": "v-flow-noun-1",
+"word": "flow",
+"pos": "noun",
+"def": "when something flows in one direction",
+"ex": [
+"the flow of a river",
+"the flow of traffic"
+],
+"vi": "dòng chảy"
+},
+{
+"id": "v-footstep-noun-1",
+"word": "footstep",
+"pos": "noun",
+"def": "the sound of a foot hitting the ground when someone walks",
+"ex": [
+"I heard footsteps behind me and quickly turned round."
+],
+"vi": "tiếng bước chân"
+},
+{
+"id": "v-foresee-verb-1",
+"word": "foresee",
+"pos": "verb",
+"def": "to expect a future situation or event",
+"ex": [
+"I don't foresee any problems in the future."
+],
+"vi": "lường trước"
+},
+{
+"id": "v-format-noun-1",
+"word": "format",
+"pos": "noun",
+"def": "the way something is designed, arranged, or produced",
+"ex": [
+"This year's event will have a new format."
+],
+"vi": "định dạng, hình thức"
+},
+{
+"id": "v-friction-noun-1",
+"word": "friction",
+"pos": "noun",
+"def": "disagreement or dislike caused by people having different opinions",
+"ex": [
+"There’s less friction in relationships when you use teamwork."
+],
+"vi": "xích mích"
+},
+{
+"id": "v-frustrated-adjective-1",
+"word": "frustrated",
+"pos": "adjective",
+"def": "annoyed because things are not happening in the way that you want, or in the way that they should",
+"ex": [
+"I'm very frustrated at/with my lack of progress.",
+"Fans are frustrated by their lack of success this season."
+],
+"vi": "bực bội, thất vọng"
+},
+{
+"id": "v-frustrating-adjective-1",
+"word": "frustrating",
+"pos": "adjective",
+"def": "making you feel frustrated",
+"ex": [
+"a frustrating situation",
+"It's frustrating to see money going to waste like that."
+],
+"vi": "gây bực bội"
+},
+{
+"id": "v-fumes-noun-1",
+"word": "fumes",
+"pos": "noun",
+"def": "strong, unpleasant, and often dangerous gas or smoke",
+"ex": [
+"car exhaust fumes"
+],
+"vi": "khói độc, hơi độc"
+},
+{
+"id": "v-funds-noun-1",
+"word": "funds",
+"pos": "noun",
+"def": "money needed or available to spend on something \nWord Family: \nNouns: fund, refund, funding, Verbs: fund, refund",
+"ex": [
+"The charity closed down due to lack of funds."
+],
+"vi": "quỹ, tiền vốn"
+},
+{
+"id": "v-fuss-noun-1",
+"word": "fuss",
+"pos": "noun",
+"def": "when people become excited, annoyed, or anxious about something, especially something unimportant",
+"ex": [
+"What's all the fuss about?",
+"She made such a fuss when Richard spilt a drop of coffee on her blouse!"
+],
+"vi": "sự ồn ào, làm quá lên"
+},
+{
+"id": "v-gadget-noun-1",
+"word": "gadget",
+"pos": "noun",
+"def": "a small piece of equipment that does a particular job, especially a new type",
+"ex": [
+"a kitchen gadget"
+],
+"vi": "thiết bị nhỏ"
+},
+{
+"id": "v-gardens-noun-1",
+"word": "gardens",
+"pos": "noun",
+"def": "a park or large public area where plants and flowers are grown \nWord Family: \nNouns: garden, gardener, gardening",
+"ex": [
+"We visited the botanic gardens."
+],
+"vi": "công viên, vườn hoa"
+},
+{
+"id": "v-garment-noun-1",
+"word": "garment",
+"pos": "noun",
+"def": "a piece of clothing",
+"ex": [
+"They were luxurious garments, made of silk and velvet."
+],
+"vi": "quần áo, trang phục"
+},
+{
+"id": "v-gathering-noun-1",
+"word": "gathering",
+"pos": "noun",
+"def": "a party or a meeting when many people get together as a group",
+"ex": [
+"a family gathering"
+],
+"vi": "buổi họp mặt"
+},
+{
+"id": "v-gene-noun-1",
+"word": "gene",
+"pos": "noun",
+"def": "a part of a cell that is passed on from a parent to a child and that controls particular characteristics",
+"ex": [
+"Scientists have discovered the gene responsible for causing this disease."
+],
+"vi": "gen"
+},
+{
+"id": "v-genetic-adjective-1",
+"word": "genetic",
+"pos": "adjective",
+"def": "relating to genes",
+"ex": [
+"a rare genetic disorder"
+],
+"vi": "thuộc di truyền"
+},
+{
+"id": "v-geology-noun-1",
+"word": "geology",
+"pos": "noun",
+"def": "the study of rocks and soil and the physical structure of the Earth",
+"ex": [
+"a book about geology"
+],
+"vi": "địa chất học"
+},
+{
+"id": "v-germ-noun-1",
+"word": "germ",
+"pos": "noun",
+"def": "a very small living thing that causes disease",
+"ex": [
+"Wash your hands before cooking so that you don't spread germs."
+],
+"vi": "vi trùng"
+},
+{
+"id": "v-glamour-noun-1",
+"word": "glamour",
+"pos": "noun",
+"def": "the quality of being attractive, exciting and special",
+"ex": [
+"the glamour of Hollywood"
+],
+"vi": "vẻ hào nhoáng"
+},
+{
+"id": "v-glimpse-noun-1",
+"word": "glimpse",
+"pos": "noun",
+"def": "when you see something or someone for a very short time",
+"ex": [
+"He caught/got a glimpse of her as she got into the car."
+],
+"vi": "cái nhìn thoáng qua"
+},
+{
+"id": "v-globalization-noun-1",
+"word": "globalization",
+"pos": "noun",
+"def": "the process by which businesses operate in many different countries and the culture of different countries becomes more similar",
+"ex": [
+"the globalization of big brands"
+],
+"vi": "toàn cầu hóa"
+},
+{
+"id": "v-grand-adjective-1",
+"word": "grand",
+"pos": "adjective",
+"def": "very large and special",
+"ex": [
+"a grand hotel",
+"the Grand Canal"
+],
+"vi": "lớn, hoành tráng"
+},
+{
+"id": "v-greed-noun-1",
+"word": "greed",
+"pos": "noun",
+"def": "when you want a lot more food, money, etc., than you need",
+"ex": [
+"We were shocked by their greed."
+],
+"vi": "lòng tham"
+},
+{
+"id": "v-grumpy-adjective-1",
+"word": "grumpy",
+"pos": "adjective",
+"def": "easily annoyed and often complaining",
+"ex": [
+"a grumpy old man"
+],
+"vi": "cáu kỉnh"
+},
+{
+"id": "v-guideline-noun-1",
+"word": "guideline",
+"pos": "noun",
+"def": "advice about how to do something",
+"ex": [
+"The EU has issued guidelines on appropriate levels of pay."
+],
+"vi": "hướng dẫn"
+},
+{
+"id": "v-habitat-noun-1",
+"word": "habitat",
+"pos": "noun",
+"def": "the natural environment of an animal or plant",
+"ex": [
+"We want to see lions in their natural habitat."
+],
+"vi": "môi trường sống"
+},
+{
+"id": "v-hate-noun-1",
+"word": "hate",
+"pos": "noun",
+"def": "a strong dislike for someone or something",
+"ex": [
+"Hate and bigotry can only make our lives more difficult."
+],
+"vi": "sự căm ghét"
+},
+{
+"id": "v-hatred-noun-1",
+"word": "hatred",
+"pos": "noun",
+"def": "an extremely strong feeling of dislike",
+"ex": [
+"What is very clear in these letters is Clark's passionate hatred of his father.",
+"The motive for this shocking attack seems to be racial hatred."
+],
+"vi": "lòng thù hận"
+},
+{
+"id": "v-hazard-noun-1",
+"word": "hazard",
+"pos": "noun",
+"def": "something that is dangerous",
+"ex": [
+"a fire hazard",
+"a health hazard"
+],
+"vi": "mối nguy hiểm"
+},
+{
+"id": "v-heavenly-adjective-1",
+"word": "heavenly",
+"pos": "adjective",
+"def": "very nice",
+"ex": [
+"a heavenly day"
+],
+"vi": "tuyệt diệu"
+},
+{
+"id": "v-hectic-adjective-1",
+"word": "hectic",
+"pos": "adjective",
+"def": "extremely busy and full of activity",
+"ex": [
+"a hectic day/week"
+],
+"vi": "bận rộn, náo nhiệt"
+},
+{
+"id": "v-hence-adverb-1",
+"word": "hence",
+"pos": "adverb",
+"def": "for this reason",
+"ex": [
+"He's got an interview today, hence the suit."
+],
+"vi": "vì vậy, do đó"
+},
+{
+"id": "v-hilarious-adjective-1",
+"word": "hilarious",
+"pos": "adjective",
+"def": "extremely funny",
+"ex": [
+"They all thought the film was hilarious."
+],
+"vi": "cực kỳ buồn cười"
+},
+{
+"id": "v-holy-adjective-1",
+"word": "holy",
+"pos": "adjective",
+"def": "relating to a religion or a god",
+"ex": [
+"the holy city of Jerusalem"
+],
+"vi": "thiêng liêng"
+},
+{
+"id": "v-honoured-adjective-1",
+"word": "honoured",
+"pos": "adjective",
+"def": "proud and pleased because you have been given respect or asked to do something special",
+"ex": [
+"I am honoured to accept your invitation.",
+"We would be honoured if you would join us for the day."
+],
+"vi": "vinh dự"
+},
+{
+"id": "v-horizontal-adjective-1",
+"word": "horizontal",
+"pos": "adjective",
+"def": "level and flat, or parallel to the ground or to the bottom of a page",
+"ex": [
+"a horizontal line/stripe"
+],
+"vi": "nằm ngang"
+},
+{
+"id": "v-hospitality-noun-1",
+"word": "hospitality",
+"pos": "noun",
+"def": "when people are friendly and welcoming to guests and visitors",
+"ex": [
+"The local people showed me great hospitality."
+],
+"vi": "lòng hiếu khách"
+},
+{
+"id": "v-host-verb-1",
+"word": "host",
+"pos": "verb",
+"def": "If a place hosts an event, people there arrange it and it happens there.",
+"ex": [
+"The town hosts an annual jazz festival."
+],
+"vi": "đăng cai, tổ chức"
+},
+{
+"id": "v-hourly-adverb-1",
+"word": "hourly",
+"pos": "adverb",
+"def": "once every hour",
+"ex": [
+"Trains stop here hourly."
+],
+"vi": "hằng giờ"
+},
+{
+"id": "v-housing-noun-1",
+"word": "housing",
+"pos": "noun",
+"def": "buildings for people to live in",
+"ex": [
+"a shortage of local housing"
+],
+"vi": "nhà ở"
+},
+{
+"id": "v-humorous-adjective-1",
+"word": "humorous",
+"pos": "adjective",
+"def": "funny, or making you laugh",
+"ex": [
+"a humorous book"
+],
+"vi": "hài hước"
+},
+{
+"id": "v-hunt-noun-1",
+"word": "hunt",
+"pos": "noun",
+"def": "a search for something or someone",
+"ex": [
+"After a long hunt we finally found a house we liked.",
+"The hunt for the injured climber continued throughout the night."
+],
+"vi": "cuộc tìm kiếm"
+},
+{
+"id": "v-hygiene-noun-1",
+"word": "hygiene",
+"pos": "noun",
+"def": "the process of keeping things clean, especially to prevent disease",
+"ex": [
+"health and hygiene regulations"
+],
+"vi": "vệ sinh"
+},
+{
+"id": "v-iceberg-noun-1",
+"word": "iceberg",
+"pos": "noun",
+"def": "a very large piece of ice that floats in the sea",
+"ex": [
+"The ship hit an iceberg."
+],
+"vi": "tảng băng trôi"
+},
+{
+"id": "v-idealistic-adjective-1",
+"word": "idealistic",
+"pos": "adjective",
+"def": "believing that it is possible to achieve very good things, even when others do not think this is likely",
+"ex": [
+"When I was young and idealistic, I believed it was possible to change the world."
+],
+"vi": "lý tưởng hóa"
+},
+{
+"id": "v-imitate-verb-1",
+"word": "imitate",
+"pos": "verb",
+"def": "to copy the way someone or something looks, sounds, or behaves",
+"ex": [
+"She tried to imitate the way the models walked."
+],
+"vi": "bắt chước"
+},
+{
+"id": "v-immense-adjective-1",
+"word": "immense",
+"pos": "adjective",
+"def": "extremely big",
+"ex": [
+"Health care costs the country an immense amount of money."
+],
+"vi": "to lớn, khổng lồ"
+},
+{
+"id": "v-impact-verb-1",
+"word": "impact",
+"pos": "verb",
+"def": "to affect something or someone",
+"ex": [
+"Rising interest rates are sure to impact on the housing market."
+],
+"vi": "tác động đến"
+},
+{
+"id": "v-inappropriate-adjective-1",
+"word": "inappropriate",
+"pos": "adjective",
+"def": "not suitable",
+"ex": [
+"It would be inappropriate for me to comment, without knowing the facts."
+],
+"vi": "không phù hợp"
+},
+{
+"id": "v-inappropriately-adverb-1",
+"word": "inappropriately",
+"pos": "adverb",
+"def": "in a way that is not suitable",
+"ex": [
+"The meeting was inappropriately handled and an argument broke out."
+],
+"vi": "không phù hợp"
+},
+{
+"id": "v-incidentally-adverb-1",
+"word": "incidentally",
+"pos": "adverb",
+"def": "used when you add related but less important information to what has just been said or when you suddenly introduce a new subject",
+"ex": [
+"Incidentally, talking of Stephen, have you met Stephen's girlfriend?"
+],
+"vi": "nhân tiện"
+},
+{
+"id": "v-inclusion-noun-1",
+"word": "inclusion",
+"pos": "noun",
+"def": "when you include someone or something, especially in a group, amount, or event",
+"ex": [
+"Her self-portrait was chosen for inclusion in the exhibition."
+],
+"vi": "sự bao gồm"
+},
+{
+"id": "v-index-noun-1",
+"word": "index",
+"pos": "noun",
+"def": "an alphabetical list, such as one printed at the back of a book showing which page a subject, name, etc. is found on",
+"ex": [
+"Try looking up 'heart disease' in the index."
+],
+"vi": "bảng chỉ mục"
+},
+{
+"id": "v-individually-adverb-1",
+"word": "individually",
+"pos": "adverb",
+"def": "separately rather than with others",
+"ex": [
+"I spoke to them all individually.",
+"The sweets are individually wrapped."
+],
+"vi": "riêng lẻ, từng cái"
+},
+{
+"id": "v-inedible-adjective-1",
+"word": "inedible",
+"pos": "adjective",
+"def": "not suitable for eating",
+"ex": [
+"The meat was inedible."
+],
+"vi": "không ăn được"
+},
+{
+"id": "v-inevitable-adjective-1",
+"word": "inevitable",
+"pos": "adjective",
+"def": "certain to happen and unable to be avoided or prevented",
+"ex": [
+"The accident was the inevitable consequence/result/outcome of carelessness."
+],
+"vi": "không thể tránh khỏi"
+},
+{
+"id": "v-inevitably-adverb-1",
+"word": "inevitably",
+"pos": "adverb",
+"def": "in a way that cannot be avoided",
+"ex": [
+"Their arguments inevitably end in tears."
+],
+"vi": "tất yếu"
+},
+{
+"id": "v-inferior-adjective-1",
+"word": "inferior",
+"pos": "adjective",
+"def": "not good, or not so good as someone or something else",
+"ex": [
+"I've never felt inferior to anyone.",
+"They're selling inferior products at inflated prices."
+],
+"vi": "kém hơn"
+},
+{
+"id": "v-influential-adjective-1",
+"word": "influential",
+"pos": "adjective",
+"def": "having a lot of influence",
+"ex": [
+"an influential figure in modern jazz"
+],
+"vi": "có ảnh hưởng"
+},
+{
+"id": "v-infrastructure-noun-1",
+"word": "infrastructure",
+"pos": "noun",
+"def": "the basic systems and services, such as transport and power supplies, that a country or organization uses in order to work effectively",
+"ex": [
+"The war has badly damaged the country's infrastructure."
+],
+"vi": "cơ sở hạ tầng"
+},
+{
+"id": "v-injustice-noun-1",
+"word": "injustice",
+"pos": "noun",
+"def": "a situation or action in which people are treated unfairly",
+"ex": [
+"the fight against racial injustice",
+"the injustices of the legal system"
+],
+"vi": "sự bất công"
+},
+{
+"id": "v-innovation-noun-1",
+"word": "innovation",
+"pos": "noun",
+"def": "a new idea or method that is being tried for the first time, or the use of such ideas or methods",
+"ex": [
+"the latest innovations in education"
+],
+"vi": "sự đổi mới, sáng kiến"
+},
+{
+"id": "v-innovative-adjective-1",
+"word": "innovative",
+"pos": "adjective",
+"def": "using new methods or ideas",
+"ex": [
+"an innovative approach to programme making"
+],
+"vi": "đổi mới, sáng tạo"
+},
+{
+"id": "v-inspect-verb-1",
+"word": "inspect",
+"pos": "verb",
+"def": "to look at something or someone carefully in order to discover information, especially about their quality or condition",
+"ex": [
+"After the crash, both drivers got out and inspected their cars for damage.",
+"She held the bank note up to the light and inspected it carefully."
+],
+"vi": "kiểm tra"
+},
+{
+"id": "v-insufficient-adjective-1",
+"word": "insufficient",
+"pos": "adjective",
+"def": "not enough",
+"ex": [
+"Her income is insufficient to support a family."
+],
+"vi": "không đủ"
+},
+{
+"id": "v-integral-adjective-1",
+"word": "integral",
+"pos": "adjective",
+"def": "necessary and important as part of something",
+"ex": [
+"The Internet has become an integral part of modern life."
+],
+"vi": "không thể thiếu"
+},
+{
+"id": "v-integrate-verb-1",
+"word": "integrate",
+"pos": "verb",
+"def": "to become part of a group or society, or to help someone do this",
+"ex": [
+"After a few weeks of training he was fully integrated into the team."
+],
+"vi": "hòa nhập"
+},
+{
+"id": "v-intensively-adverb-1",
+"word": "intensively",
+"pos": "adverb",
+"def": "in way that involves a lot of work in a short period of time",
+"ex": [
+"I spent three weeks working intensively on my thesis."
+],
+"vi": "dồn dập, tập trung"
+},
+{
+"id": "v-internally-adverb-1",
+"word": "internally",
+"pos": "adverb",
+"def": "inside a person, object, organization, place or country",
+"ex": [
+"This medicine is for external use only and should not be taken internally."
+],
+"vi": "bên trong, nội bộ"
+},
+{
+"id": "v-irritate-verb-1",
+"word": "irritate",
+"pos": "verb",
+"def": "to annoy someone",
+"ex": [
+"His comments really irritated me."
+],
+"vi": "làm bực mình"
+},
+{
+"id": "v-itinerary-noun-1",
+"word": "itinerary",
+"pos": "noun",
+"def": "a list of places that you plan to visit on a journey",
+"ex": [
+"The President's itinerary includes visits to Boston and New York."
+],
+"vi": "lịch trình chuyến đi"
+},
+{
+"id": "v-jealousy-noun-1",
+"word": "jealousy",
+"pos": "noun",
+"def": "a feeling of unhappiness or anger because you want what someone else has or fear that someone will take what you have",
+"ex": [
+"He broke his brother's new bike in a fit of jealousy.",
+"Jealousy can ruin relationships."
+],
+"vi": "sự ghen tị"
+},
+{
+"id": "v-jointly-adverb-1",
+"word": "jointly",
+"pos": "adverb",
+"def": "in a shared way",
+"ex": [
+"The Channel Tunnel was jointly funded by the French and British."
+],
+"vi": "cùng nhau"
+},
+{
+"id": "v-junk-noun-1",
+"word": "junk",
+"pos": "noun",
+"def": "old things which have little value",
+"ex": [
+"His car is just a heap of junk."
+],
+"vi": "đồ cũ, đồ bỏ đi"
+},
+{
+"id": "v-just-adjective-1",
+"word": "just",
+"pos": "adjective",
+"def": "fair or morally right",
+"ex": [
+"a just society"
+],
+"vi": "công bằng"
+},
+{
+"id": "v-justified-adjective-1",
+"word": "justified",
+"pos": "adjective",
+"def": "fair or having a good reason",
+"ex": [
+"He's perfectly justified in asking for a salary increase."
+],
+"vi": "chính đáng"
+},
+{
+"id": "v-knob-noun-1",
+"word": "knob",
+"pos": "noun",
+"def": "a round handle, or a round button on a machine",
+"ex": [
+"Turn the black knob to switch on the radio."
+],
+"vi": "nút xoay, núm cửa"
+},
+{
+"id": "v-lawn-noun-1",
+"word": "lawn",
+"pos": "noun",
+"def": "an area of grass that is cut",
+"ex": [
+"Will you mow the lawn at the weekend?"
+],
+"vi": "bãi cỏ"
+},
+{
+"id": "v-layout-noun-1",
+"word": "layout",
+"pos": "noun",
+"def": "the way that something is arranged",
+"ex": [
+"Pay attention to the layout of your report.",
+"Do you like the layout of the kitchen?"
+],
+"vi": "bố cục"
+},
+{
+"id": "v-lessen-verb-1",
+"word": "lessen",
+"pos": "verb",
+"def": "to become less or to make something less",
+"ex": [
+"Exercise and a healthy diet lessen the chance of heart disease.",
+"Strengthen the legs and it lessens the strain on the knees."
+],
+"vi": "giảm bớt"
+},
+{
+"id": "v-liable-adjective-1",
+"word": "liable",
+"pos": "adjective",
+"def": "legally responsible",
+"ex": [
+"Corporate officials are liable for the safety of their employees."
+],
+"vi": "chịu trách nhiệm pháp lý"
+},
+{
+"id": "v-liberation-noun-1",
+"word": "liberation",
+"pos": "noun",
+"def": "when something or someone is released or made free",
+"ex": [
+"the liberation of France from Nazi occupation",
+"Leaving school was such a liberation for me."
+],
+"vi": "sự giải phóng"
+},
+{
+"id": "v-likely-adverb-1",
+"word": "likely",
+"pos": "adverb",
+"def": "probably",
+"ex": [
+"She'll most likely come without him."
+],
+"vi": "có lẽ"
+},
+{
+"id": "v-linguistic-adjective-1",
+"word": "linguistic",
+"pos": "adjective",
+"def": "relating to language or linguistics",
+"ex": [
+"I'm particularly interested in the linguistic development of young children."
+],
+"vi": "thuộc ngôn ngữ"
+},
+{
+"id": "v-listener-noun-1",
+"word": "listener",
+"pos": "noun",
+"def": "someone who listens",
+"ex": [
+"The new radio station already has twelve million listeners.",
+"She's a good listener."
+],
+"vi": "người nghe"
+},
+{
+"id": "v-little-adverb-1",
+"word": "little",
+"pos": "adverb",
+"def": "not much or not enough",
+"ex": [
+"a little-known fact",
+"Little did he know what lay in store for him."
+],
+"vi": "ít, không nhiều"
+},
+{
+"id": "v-log-noun-1",
+"word": "log",
+"pos": "noun",
+"def": "a thick piece of tree trunk or branch, especially one cut for burning on a fire",
+"ex": [
+"Let's put another log on the fire."
+],
+"vi": "khúc gỗ"
+},
+{
+"id": "v-logic-noun-1",
+"word": "logic",
+"pos": "noun",
+"def": "the use of reason, or the science of using reason",
+"ex": [
+"I fail to see the logic behind his argument.",
+"If prices go up, wages will go up too - that's just logic."
+],
+"vi": "logic, lý lẽ"
+},
+{
+"id": "v-loneliness-noun-1",
+"word": "loneliness",
+"pos": "noun",
+"def": "the state of being lonely",
+"ex": [
+"I wasn't prepared for the loneliness of living in a small village."
+],
+"vi": "sự cô đơn"
+},
+{
+"id": "v-lounge-noun-1",
+"word": "lounge",
+"pos": "noun",
+"def": "a room in a hotel, theatre, airport, etc. where people can relax or wait",
+"ex": [
+"Drinks were served in the lounge."
+],
+"vi": "phòng chờ, phòng khách"
+},
+{
+"id": "v-luxurious-adjective-1",
+"word": "luxurious",
+"pos": "adjective",
+"def": "very comfortable and expensive",
+"ex": [
+"They have a very luxurious house."
+],
+"vi": "sang trọng"
+},
+{
+"id": "v-magistrate-noun-1",
+"word": "magistrate",
+"pos": "noun",
+"def": "a type of judge who deals with less serious crimes",
+"ex": [
+"The case will be heard by a magistrate."
+],
+"vi": "thẩm phán sơ cấp"
+},
+{
+"id": "v-magnificently-adverb-1",
+"word": "magnificently",
+"pos": "adverb",
+"def": "extremely well",
+"ex": [
+"I thought she coped magnificently."
+],
+"vi": "tuyệt vời, lộng lẫy"
+},
+{
+"id": "v-mammal-noun-1",
+"word": "mammal",
+"pos": "noun",
+"def": "an animal that feeds its babies on milk from its body",
+"ex": [
+"Dolphins and other sea mammals are being harmed by waste in the oceans."
+],
+"vi": "động vật có vú"
+},
+{
+"id": "v-mansion-noun-1",
+"word": "mansion",
+"pos": "noun",
+"def": "a very large expensive house",
+"ex": [
+"The street is lined with enormous mansions where the rich and famous live."
+],
+"vi": "biệt thự lớn"
+},
+{
+"id": "v-march-noun-1",
+"word": "march",
+"pos": "noun",
+"def": "an organized walk by a group to show that they disagree with something",
+"ex": [
+"She's going on a march on Saturday in protest over the closure of the hospital."
+],
+"vi": "cuộc tuần hành"
+},
+{
+"id": "v-masculine-adjective-1",
+"word": "masculine",
+"pos": "adjective",
+"def": "having qualities that are typical of men",
+"ex": [
+"a masculine appearance/voice"
+],
+"vi": "nam tính"
+},
+{
+"id": "v-mass-adjective-1",
+"word": "mass",
+"pos": "adjective",
+"def": "having an effect on or involving a large number of people",
+"ex": [
+"They hope the new movie will appeal to a mass audience.",
+"weapons of mass destruction"
+],
+"vi": "đại chúng, hàng loạt"
+},
+{
+"id": "v-mat-noun-1",
+"word": "mat",
+"pos": "noun",
+"def": "a piece of thick material that you put on the floor, often in order to protect it",
+"ex": [
+"There's a mat by the door for you to wipe your feet on."
+],
+"vi": "tấm thảm lót, thảm"
+},
+{
+"id": "v-memo-noun-1",
+"word": "memo",
+"pos": "noun",
+"def": "a written message sent from one member of an organization to another",
+"ex": [
+"Did you see the memo about expenses?"
+],
+"vi": "bản ghi nhớ"
+},
+{
+"id": "v-merit-noun-1",
+"word": "merit",
+"pos": "noun",
+"def": "good qualities which deserve praise",
+"ex": [
+"His ideas have merit.",
+"We debated the merits of using television in the classroom."
+],
+"vi": "ưu điểm, giá trị"
+},
+{
+"id": "v-migration-noun-1",
+"word": "migration",
+"pos": "noun",
+"def": "when people go to another place to live or find work, or when an animal or bird moves to another place, usually when the season changes",
+"ex": [
+"There was a mass migration of poor farmers into the cities.",
+"The butterflies come to Mexico during their annual migration."
+],
+"vi": "sự di cư"
+},
+{
+"id": "v-miner-noun-1",
+"word": "miner",
+"pos": "noun",
+"def": "someone who works in a mine",
+"ex": [
+"a coal miner"
+],
+"vi": "thợ mỏ"
+},
+{
+"id": "v-ministry-noun-1",
+"word": "ministry",
+"pos": "noun",
+"def": "a government department which is responsible for a particular subject",
+"ex": [
+"the Ministry of Defence/Agriculture",
+"a Foreign Ministry spokesman"
+],
+"vi": "bộ (cơ quan chính phủ)"
+},
+{
+"id": "v-misfortune-noun-1",
+"word": "misfortune",
+"pos": "noun",
+"def": "bad luck, or an unlucky event",
+"ex": [
+"He had the misfortune to fall in love with a married woman."
+],
+"vi": "sự rủi ro, bất hạnh"
+},
+{
+"id": "v-mode-noun-1",
+"word": "mode",
+"pos": "noun",
+"def": "a way of doing something",
+"ex": [
+"a mode of transport"
+],
+"vi": "cách thức, chế độ"
+},
+{
+"id": "v-moderate-adjective-1",
+"word": "moderate",
+"pos": "adjective",
+"def": "average in size or amount and not too much",
+"ex": [
+"a moderate increase in salaries",
+"Eating a moderate amount of fat is healthy."
+],
+"vi": "vừa phải"
+},
+{
+"id": "v-modification-noun-1",
+"word": "modification",
+"pos": "noun",
+"def": "a small change to something",
+"ex": [
+"We've made a few modifications to the system."
+],
+"vi": "sự điều chỉnh"
+},
+{
+"id": "v-monitor-verb-1",
+"word": "monitor",
+"pos": "verb",
+"def": "to watch something carefully and record your results",
+"ex": [
+"to monitor progress",
+"The new findings suggest that women ought to monitor their cholesterol levels."
+],
+"vi": "theo dõi, giám sát"
+},
+{
+"id": "v-multiple-adjective-1",
+"word": "multiple",
+"pos": "adjective",
+"def": "with several things or parts",
+"ex": [
+"We made multiple copies of the report."
+],
+"vi": "nhiều, đa"
+},
+{
+"id": "v-mundane-adjective-1",
+"word": "mundane",
+"pos": "adjective",
+"def": "ordinary, or not interesting",
+"ex": [
+"a mundane task/life"
+],
+"vi": "tầm thường, nhàm chán"
+},
+{
+"id": "v-municipal-adjective-1",
+"word": "municipal",
+"pos": "adjective",
+"def": "relating or belonging to the government of a town or city",
+"ex": [
+"municipal tennis courts",
+"a municipal council/election"
+],
+"vi": "thuộc thành phố"
+},
+{
+"id": "v-mustard-noun-1",
+"word": "mustard",
+"pos": "noun",
+"def": "a thick, spicy yellow or brown sauce often eaten in small amounts with meat",
+"ex": [
+"a teaspoon of mustard"
+],
+"vi": "mù tạt"
+},
+{
+"id": "v-mysteriously-adverb-1",
+"word": "mysteriously",
+"pos": "adverb",
+"def": "in a way that is mysterious",
+"ex": [
+"\"Perhaps, and perhaps not,\" she said mysteriously.",
+"Mysteriously, the light came on, although no one was near the switch."
+],
+"vi": "một cách bí ẩn"
+},
+{
+"id": "v-nap-noun-1",
+"word": "nap",
+"pos": "noun",
+"def": "a short sleep",
+"ex": [
+"He likes to have/take a nap after lunch."
+],
+"vi": "giấc ngủ ngắn"
+},
+{
+"id": "v-neatly-adverb-1",
+"word": "neatly",
+"pos": "adverb",
+"def": "in a tidy way",
+"ex": [
+"a neatly folded pile of clothes"
+],
+"vi": "gọn gàng"
+},
+{
+"id": "v-neglect-verb-1",
+"word": "neglect",
+"pos": "verb",
+"def": "to not give enough care or attention to something or someone",
+"ex": [
+"to neglect your appearance",
+"Some of these kids have been badly neglected in the past."
+],
+"vi": "bỏ bê"
+},
+{
+"id": "v-neglect-noun-1",
+"word": "neglect",
+"pos": "noun",
+"def": "when you do not give enough care or attention to something or someone",
+"ex": [
+"to suffer years of neglect"
+],
+"vi": "sự bỏ bê"
+},
+{
+"id": "v-negotiate-verb-1",
+"word": "negotiate",
+"pos": "verb",
+"def": "to try to make or change an agreement by discussion",
+"ex": [
+"to negotiate with employers about working conditions"
+],
+"vi": "đàm phán, thương lượng"
+},
+{
+"id": "v-negotiation-noun-1",
+"word": "negotiation",
+"pos": "noun",
+"def": "when people try to make or change an agreement by discussion",
+"ex": [
+"Peace negotiations are due to start."
+],
+"vi": "cuộc đàm phán"
+},
+{
+"id": "v-nerves-noun-2",
+"word": "nerves",
+"pos": "noun",
+"def": "worry or anxiety about something that is going to happen \nWord Family: \nNouns: nerve, nervousness, Adjectives: nervous, Adverbs: nervously",
+"ex": [
+"I sometimes suffer from nerves when I'm speaking in public.",
+"I need something to calm my nerves."
+],
+"vi": "sự hồi hộp, lo lắng"
+},
+{
+"id": "v-networking-noun-1",
+"word": "networking",
+"pos": "noun",
+"def": "the activity of meeting and contacting people who might be useful to know, especially for your job",
+"ex": [
+"I often go to networking events."
+],
+"vi": "kết nối quan hệ"
+},
+{
+"id": "v-newsletter-noun-1",
+"word": "newsletter",
+"pos": "noun",
+"def": "a regular report with information for people who belong to an organization or who are interested in a particular subject",
+"ex": [
+"a monthly newsletter about business and the environment"
+],
+"vi": "bản tin"
+},
+{
+"id": "v-nickname-noun-1",
+"word": "nickname",
+"pos": "noun",
+"def": "a name used informally instead of your real name",
+"ex": [
+"His behaviour has earned him the nickname 'Mad Dog'."
+],
+"vi": "biệt danh"
+},
+{
+"id": "v-nominate-verb-1",
+"word": "nominate",
+"pos": "verb",
+"def": "to officially suggest a person for a job or a position in an organization, or to suggest a person or their work for a prize",
+"ex": [
+"Judges are nominated by the governor.",
+"The film was nominated for an Academy Award."
+],
+"vi": "đề cử"
+},
+{
+"id": "v-nomination-noun-1",
+"word": "nomination",
+"pos": "noun",
+"def": "the act of officially suggesting a person for a job or their work for a prize",
+"ex": [
+"to seek/win a nomination",
+"He won the Democratic nomination for mayor of Chicago."
+],
+"vi": "sự đề cử"
+},
+{
+"id": "v-nonetheless-adverb-1",
+"word": "nonetheless",
+"pos": "adverb",
+"def": "despite what has just been said",
+"ex": [
+"He was extremely rude in meetings. Nonetheless, his arguments found some support."
+],
+"vi": "tuy nhiên, dù vậy"
+},
+{
+"id": "v-notable-adjective-1",
+"word": "notable",
+"pos": "adjective",
+"def": "important or interesting",
+"ex": [
+"With one notable exception, everyone replied to my letter."
+],
+"vi": "đáng chú ý"
+},
+{
+"id": "v-notably-adverb-1",
+"word": "notably",
+"pos": "adverb",
+"def": "especially or most importantly",
+"ex": [
+"They have begun attracting investors, most notably big Japanese financial houses."
+],
+"vi": "đặc biệt là"
+},
+{
+"id": "v-notify-verb-1",
+"word": "notify",
+"pos": "verb",
+"def": "to officially tell someone about something",
+"ex": [
+"You should notify the police if you are involved in a road accident."
+],
+"vi": "thông báo chính thức"
+},
+{
+"id": "v-notion-noun-1",
+"word": "notion",
+"pos": "noun",
+"def": "an idea or belief",
+"ex": [
+"The notion of sharing is unknown to most two-year-olds."
+],
+"vi": "ý niệm, quan niệm"
+},
+{
+"id": "v-notorious-adjective-1",
+"word": "notorious",
+"pos": "adjective",
+"def": "famous for something bad",
+"ex": [
+"a notorious criminal",
+"She was notorious for her bad temper."
+],
+"vi": "khét tiếng"
+},
+{
+"id": "v-notwithstanding-adverb-1",
+"word": "notwithstanding",
+"pos": "adverb",
+"def": "despite",
+"ex": [
+"Injuries notwithstanding, he won the semi-final match."
+],
+"vi": "mặc dù, bất chấp"
+},
+{
+"id": "v-nutrition-noun-1",
+"word": "nutrition",
+"pos": "noun",
+"def": "the food that you eat and the way that it affects your health",
+"ex": [
+"Good nutrition is essential for growing children."
+],
+"vi": "dinh dưỡng"
+},
+{
+"id": "v-nutritional-adjective-1",
+"word": "nutritional",
+"pos": "adjective",
+"def": "relating to the food that you eat and the way it affects your health",
+"ex": [
+"These snacks have very little nutritional value."
+],
+"vi": "thuộc dinh dưỡng"
+},
+{
+"id": "v-obese-adjective-1",
+"word": "obese",
+"pos": "adjective",
+"def": "extremely fat",
+"ex": [
+"Currently, 15% of the population are classified as obese."
+],
+"vi": "béo phì"
+},
+{
+"id": "v-obesity-noun-1",
+"word": "obesity",
+"pos": "noun",
+"def": "the state of being extremely fat",
+"ex": [
+"The government is concerned about childhood obesity."
+],
+"vi": "chứng béo phì"
+},
+{
+"id": "v-objectively-adverb-1",
+"word": "objectively",
+"pos": "adverb",
+"def": "in a way that is only influenced by facts and not by feelings",
+"ex": [
+"This test assesses all candidates objectively."
+],
+"vi": "một cách khách quan"
+},
+{
+"id": "v-oblige-verb-1",
+"word": "oblige",
+"pos": "verb",
+"def": "to be helpful",
+"ex": [
+"The manager was only too happy to oblige."
+],
+"vi": "giúp đỡ, chiều lòng"
+},
+{
+"id": "v-obsolete-adjective-1",
+"word": "obsolete",
+"pos": "adjective",
+"def": "not used now",
+"ex": [
+"Will books become obsolete because of computers?"
+],
+"vi": "lỗi thời"
+},
+{
+"id": "v-obstacle-noun-1",
+"word": "obstacle",
+"pos": "noun",
+"def": "something that makes it hard for you to go somewhere or to succeed at something",
+"ex": [
+"to overcome an obstacle",
+"His refusal to talk is the main obstacle to peace."
+],
+"vi": "chướng ngại, trở ngại"
+},
+{
+"id": "v-occurrence-noun-1",
+"word": "occurrence",
+"pos": "noun",
+"def": "something that happens or how often it happens",
+"ex": [
+"Street fights are an everyday occurrence in this area of the city.",
+"The study compares the occurrence of heart disease in various countries."
+],
+"vi": "sự việc xảy ra, tần suất"
+},
+{
+"id": "v-odds-noun-1",
+"word": "odds",
+"pos": "noun",
+"def": "the probability that a particular thing will or will not happen",
+"ex": [
+"If you drive a car all your life, the odds are that you'll have an accident at some point.",
+"There are heavy odds against people succeeding in such a bad economic climate."
+],
+"vi": "khả năng xảy ra"
+},
+{
+"id": "v-optimist-noun-1",
+"word": "optimist",
+"pos": "noun",
+"def": "someone who always believes that good things will happen",
+"ex": [
+"She's an optimist."
+],
+"vi": "người lạc quan"
+},
+{
+"id": "v-outcome-noun-1",
+"word": "outcome",
+"pos": "noun",
+"def": "the final result of an activity or process",
+"ex": [
+"It's too early to predict the outcome of the meeting."
+],
+"vi": "kết quả"
+},
+{
+"id": "v-outrage-verb-1",
+"word": "outrage",
+"pos": "verb",
+"def": "to cause someone to feel very angry, shocked, or upset",
+"ex": [
+"The proposed pay cut outraged the staff."
+],
+"vi": "làm phẫn nộ"
+},
+{
+"id": "v-overwhelm-verb-1",
+"word": "overwhelm",
+"pos": "verb",
+"def": "If a feeling or situation overwhelms someone, it has an effect that is too strong or extreme.",
+"ex": [
+"She was overwhelmed by the excitement of it all."
+],
+"vi": "làm choáng ngợp"
+},
+{
+"id": "v-overwhelming-adjective-1",
+"word": "overwhelming",
+"pos": "adjective",
+"def": "very strong in effect or large in amount",
+"ex": [
+"She felt an overwhelming urge/desire/need to tell someone about what had happened.",
+"She said how much she appreciated the overwhelming generosity of the public in responding to the appeal."
+],
+"vi": "áp đảo, choáng ngợp"
+},
+{
+"id": "v-ozone-noun-1",
+"word": "ozone",
+"pos": "noun",
+"def": "a form of oxygen that exists high in the atmosphere",
+"ex": [
+"the ozone layer"
+],
+"vi": "khí ô-dôn"
+},
+{
+"id": "v-paradise-noun-1",
+"word": "paradise",
+"pos": "noun",
+"def": "a perfect place or situation",
+"ex": [
+"a tropical paradise",
+"a shoppers' paradise"
+],
+"vi": "thiên đường"
+},
+{
+"id": "v-participant-noun-1",
+"word": "participant",
+"pos": "noun",
+"def": "someone who is involved in an activity",
+"ex": [
+"All participants finishing the race will receive a medal."
+],
+"vi": "người tham gia"
+},
+{
+"id": "v-peasant-noun-1",
+"word": "peasant",
+"pos": "noun",
+"def": "a poor person who works on the land, usually in a poor country",
+"ex": [
+"a peasant farmer"
+],
+"vi": "nông dân nghèo"
+},
+{
+"id": "v-peer-noun-1",
+"word": "peer",
+"pos": "noun",
+"def": "someone who is the same age, or who has the same social position or abilities as other members of a group",
+"ex": [
+"Most teenagers want to be accepted by their peers."
+],
+"vi": "bạn đồng trang lứa"
+},
+{
+"id": "v-pensioner-noun-1",
+"word": "pensioner",
+"pos": "noun",
+"def": "a person who is receiving a pension",
+"ex": [
+"Many pensioners are worried about rises in heating costs."
+],
+"vi": "người hưu trí"
+},
+{
+"id": "v-perk-noun-1",
+"word": "perk",
+"pos": "noun",
+"def": "something special in addition to the money you are paid that you are given because of your job",
+"ex": [
+"Free child care for preschool children of employees was a popular perk."
+],
+"vi": "đặc quyền, phúc lợi"
+},
+{
+"id": "v-perspective-noun-1",
+"word": "perspective",
+"pos": "noun",
+"def": "the way you think about something",
+"ex": [
+"Being unemployed has made me see things from a different perspective."
+],
+"vi": "góc nhìn, quan điểm"
+},
+{
+"id": "v-phenomenon-noun-1",
+"word": "phenomenon",
+"pos": "noun",
+"def": "something that exists or happens, usually something unusual",
+"ex": [
+"Road rage seems to be a fairly recent phenomenon."
+],
+"vi": "hiện tượng"
+},
+{
+"id": "v-plunge-verb-1",
+"word": "plunge",
+"pos": "verb",
+"def": "to become lower in temperature, value, etc. very suddenly and quickly",
+"ex": [
+"Temperatures plunged below zero."
+],
+"vi": "lao dốc, giảm mạnh"
+},
+{
+"id": "v-pony-noun-1",
+"word": "pony",
+"pos": "noun",
+"def": "a small horse",
+"ex": [
+"I have a pony."
+],
+"vi": "ngựa nhỏ"
+},
+{
+"id": "v-poorly-adjective-1",
+"word": "poorly",
+"pos": "adjective",
+"def": "ill",
+"ex": [
+"Rosie was feeling poorly so I put her to bed."
+],
+"vi": "ốm, không khỏe"
+},
+{
+"id": "v-portable-adjective-1",
+"word": "portable",
+"pos": "adjective",
+"def": "able to be carried",
+"ex": [
+"a portable computer"
+],
+"vi": "xách tay, di động"
+},
+{
+"id": "v-pose-verb-1",
+"word": "pose",
+"pos": "verb",
+"def": "to stay in a particular position so that someone can paint or photograph you",
+"ex": [
+"The two leaders posed for photographs outside the White House."
+],
+"vi": "tạo dáng"
+},
+{
+"id": "v-possess-verb-1",
+"word": "possess",
+"pos": "verb",
+"def": "to have or own something",
+"ex": [
+"He was found guilty of possessing an illegal weapon."
+],
+"vi": "sở hữu"
+},
+{
+"id": "v-posture-noun-1",
+"word": "posture",
+"pos": "noun",
+"def": "the position of your back, shoulders, etc. when you are standing or sitting",
+"ex": [
+"She has very good posture."
+],
+"vi": "tư thế"
+},
+{
+"id": "v-praise-noun-1",
+"word": "praise",
+"pos": "noun",
+"def": "words you say to show that you admire someone or something",
+"ex": [
+"They deserve praise for their achievements.",
+"Her first novel won a lot of praise from the critics."
+],
+"vi": "lời khen"
+},
+{
+"id": "v-precaution-noun-1",
+"word": "precaution",
+"pos": "noun",
+"def": "something that you do to prevent bad things happening in the future",
+"ex": [
+"Driving alone at night can be dangerous, so always take precautions.",
+"They called the doctor as a precaution."
+],
+"vi": "biện pháp phòng ngừa"
+},
+{
+"id": "v-predator-noun-1",
+"word": "predator",
+"pos": "noun",
+"def": "an animal that kills and eats other animals",
+"ex": [
+"These animals have remarkably few predators."
+],
+"vi": "động vật săn mồi"
+},
+{
+"id": "v-pregnancy-noun-1",
+"word": "pregnancy",
+"pos": "noun",
+"def": "when a woman is pregnant",
+"ex": [
+"a teenage pregnancy"
+],
+"vi": "thai kỳ, mang thai"
+},
+{
+"id": "v-prejudiced-adjective-1",
+"word": "prejudiced",
+"pos": "adjective",
+"def": "feeling dislike for a group of people or treating them unfairly because they are a different race, sex, religion, etc.",
+"ex": [
+"Are the police prejudiced against black people?"
+],
+"vi": "có thành kiến"
+},
+{
+"id": "v-preliminary-adjective-1",
+"word": "preliminary",
+"pos": "adjective",
+"def": "done or happening in order to prepare for the main event or activity",
+"ex": [
+"a preliminary discussion/meeting"
+],
+"vi": "sơ bộ, dự bị"
+},
+{
+"id": "v-premises-noun-1",
+"word": "premises",
+"pos": "noun",
+"def": "the land and buildings owned by someone, especially by a company or organization",
+"ex": [
+"The company is moving to new premises.",
+"The ice cream is made on the premises."
+],
+"vi": "khuôn viên, cơ sở"
+},
+{
+"id": "v-preservation-noun-1",
+"word": "preservation",
+"pos": "noun",
+"def": "when you keep something the same or prevent it from being damaged or destroyed",
+"ex": [
+"the preservation of peace",
+"the preservation of wildlife"
+],
+"vi": "sự bảo tồn"
+},
+{
+"id": "v-prestige-noun-1",
+"word": "prestige",
+"pos": "noun",
+"def": "when people feel respect and admiration for you, often because you are successful",
+"ex": [
+"His company has gained international prestige."
+],
+"vi": "uy tín, danh tiếng"
+},
+{
+"id": "v-prestigious-adjective-1",
+"word": "prestigious",
+"pos": "adjective",
+"def": "respected and admired, usually because of being important",
+"ex": [
+"a prestigious award"
+],
+"vi": "có uy tín, danh giá"
+},
+{
+"id": "v-presume-verb-1",
+"word": "presume",
+"pos": "verb",
+"def": "to believe something to be true because it is very likely, although you are not certain",
+"ex": [
+"I presume (that) they're not coming, since they haven't replied to the invitation.",
+"You are Dr Smith, I presume?"
+],
+"vi": "cho rằng, giả định"
+},
+{
+"id": "v-prior-adjective-1",
+"word": "prior",
+"pos": "adjective",
+"def": "existing or happening before something else",
+"ex": [
+"The course requires no prior knowledge of Spanish."
+],
+"vi": "trước, có trước"
+},
+{
+"id": "v-problematic-adjective-1",
+"word": "problematic",
+"pos": "adjective",
+"def": "full of problems or difficulties",
+"ex": [
+"He has a very problematic relationship with his father."
+],
+"vi": "có nhiều vấn đề"
+},
+{
+"id": "v-proceed-verb-1",
+"word": "proceed",
+"pos": "verb",
+"def": "to continue to happen",
+"ex": [
+"His lawyers have decided not to proceed with the case."
+],
+"vi": "tiếp tục, tiến hành"
+},
+{
+"id": "v-programmer-noun-1",
+"word": "programmer",
+"pos": "noun",
+"def": "someone who writes computer programs as a job",
+"ex": [
+"We employ six programmers on the project."
+],
+"vi": "lập trình viên"
+},
+{
+"id": "v-prolong-verb-1",
+"word": "prolong",
+"pos": "verb",
+"def": "to make something last longer",
+"ex": [
+"Eating a good diet can prolong your life."
+],
+"vi": "kéo dài"
+},
+{
+"id": "v-prolonged-adjective-1",
+"word": "prolonged",
+"pos": "adjective",
+"def": "continuing for a long time",
+"ex": [
+"a prolonged illness",
+"Avoid prolonged exposure to the sun."
+],
+"vi": "kéo dài lâu"
+},
+{
+"id": "v-promising-adjective-1",
+"word": "promising",
+"pos": "adjective",
+"def": "likely to be very good or successful in the future",
+"ex": [
+"a promising student",
+"a promising start to the game"
+],
+"vi": "đầy triển vọng"
+},
+{
+"id": "v-proportion-noun-1",
+"word": "proportion",
+"pos": "noun",
+"def": "a part of a total number or amount",
+"ex": [
+"Children make up a large proportion of the world's population.",
+"The class consists of men and women in roughly equal proportions."
+],
+"vi": "tỉ lệ, phần"
+},
+{
+"id": "v-proposition-noun-1",
+"word": "proposition",
+"pos": "noun",
+"def": "an offer or suggestion, usually in business",
+"ex": [
+"an attractive/interesting proposition"
+],
+"vi": "đề nghị, đề xuất"
+},
+{
+"id": "v-prosperity-noun-1",
+"word": "prosperity",
+"pos": "noun",
+"def": "when a person or group of people is successful, usually by earning a lot of money",
+"ex": [
+"Our nation's prosperity comes from oil."
+],
+"vi": "sự thịnh vượng"
+},
+{
+"id": "v-prosperous-adjective-1",
+"word": "prosperous",
+"pos": "adjective",
+"def": "successful, usually by earning a lot of money",
+"ex": [
+"He is a prosperous car dealer."
+],
+"vi": "thịnh vượng"
+},
+{
+"id": "v-protein-noun-1",
+"word": "protein",
+"pos": "noun",
+"def": "food such as meat, cheese, fish, or eggs that is necessary for the body to grow and be strong",
+"ex": [
+"Nuts and fish both contain protein."
+],
+"vi": "chất đạm, protein"
+},
+{
+"id": "v-pulse-noun-1",
+"word": "pulse",
+"pos": "noun",
+"def": "the regular movement of blood through your body when your heart is beating",
+"ex": [
+"She put her fingers on my wrist to take my pulse (=count the number of beats per minute).",
+"My pulse rate is 70."
+],
+"vi": "mạch đập"
+},
+{
+"id": "v-puzzle-verb-1",
+"word": "puzzle",
+"pos": "verb",
+"def": "to make someone confused because they do not understand something",
+"ex": [
+"I was puzzled by what he said."
+],
+"vi": "làm bối rối"
+},
+{
+"id": "v-pyramid-noun-1",
+"word": "pyramid",
+"pos": "noun",
+"def": "a shape with a square base and four triangular sides that meet to form a point at the top",
+"ex": [
+"The stones were shaped into a pyramid."
+],
+"vi": "kim tự tháp, hình chóp"
+},
+{
+"id": "v-radiation-noun-1",
+"word": "radiation",
+"pos": "noun",
+"def": "a form of energy that comes from a nuclear reaction and that in large amounts can be very dangerous",
+"ex": [
+"dangerously high levels of radiation"
+],
+"vi": "bức xạ"
+},
+{
+"id": "v-radically-adverb-1",
+"word": "radically",
+"pos": "adverb",
+"def": "in a way that shows radical change or beliefs",
+"ex": [
+"The company has changed radically in recent years.",
+"Barker introduced some radically new ideas."
+],
+"vi": "triệt để, hoàn toàn"
+},
+{
+"id": "v-random-adjective-1",
+"word": "random",
+"pos": "adjective",
+"def": "happening, done or chosen by chance rather than according to a plan",
+"ex": [
+"We asked a random sample/selection of people what they thought."
+],
+"vi": "ngẫu nhiên"
+},
+{
+"id": "v-randomly-adverb-1",
+"word": "randomly",
+"pos": "adverb",
+"def": "in a random way",
+"ex": [
+"The books were randomly arranged on the shelves."
+],
+"vi": "một cách ngẫu nhiên"
+},
+{
+"id": "v-rank-noun-1",
+"word": "rank",
+"pos": "noun",
+"def": "a position in an organization, such as the army, showing someone's importance",
+"ex": [
+"He has just been promoted to the rank of captain."
+],
+"vi": "cấp bậc"
+},
+{
+"id": "v-rank-verb-1",
+"word": "rank",
+"pos": "verb",
+"def": "to have a position in a list which shows things or people in order of importance, or to give someone or something a position on such a list",
+"ex": [
+"He ranked number one in the world at the start of the competition.",
+"The city's canals now rank among the world's dirtiest."
+],
+"vi": "xếp hạng"
+},
+{
+"id": "v-ratio-noun-1",
+"word": "ratio",
+"pos": "noun",
+"def": "the relationship between two groups or amounts, which expresses how much bigger one is than the other",
+"ex": [
+"The ratio of men to women at the conference was ten to one/10:1.",
+"The school is trying to improve its pupil-teacher ratio."
+],
+"vi": "tỉ lệ"
+},
+{
+"id": "v-rational-adjective-1",
+"word": "rational",
+"pos": "adjective",
+"def": "showing clear thought and reason",
+"ex": [
+"He was too upset to be rational.",
+"a rational argument/debate/explanation"
+],
+"vi": "hợp lý, lý trí"
+},
+{
+"id": "v-reassure-verb-1",
+"word": "reassure",
+"pos": "verb",
+"def": "to say something to stop someone from worrying",
+"ex": [
+"He reassured me that I would be paid soon."
+],
+"vi": "trấn an"
+},
+{
+"id": "v-reassuring-adjective-1",
+"word": "reassuring",
+"pos": "adjective",
+"def": "making you feel less worried",
+"ex": [
+"a reassuring smile/voice"
+],
+"vi": "làm yên lòng"
+},
+{
+"id": "v-rebellion-noun-1",
+"word": "rebellion",
+"pos": "noun",
+"def": "when people fight against the government in their country",
+"ex": [
+"Government troops defeated an armed rebellion in the south."
+],
+"vi": "cuộc nổi loạn"
+},
+{
+"id": "v-rebellious-adjective-1",
+"word": "rebellious",
+"pos": "adjective",
+"def": "refusing to obey rules because you do not like authority",
+"ex": [
+"a rebellious teenager"
+],
+"vi": "ngang bướng, nổi loạn"
+},
+{
+"id": "v-recharge-verb-1",
+"word": "recharge",
+"pos": "verb",
+"def": "to fill a battery with electricity so that it can work again",
+"ex": [
+"You can recharge these batteries."
+],
+"vi": "sạc lại"
+},
+{
+"id": "v-recruitment-noun-1",
+"word": "recruitment",
+"pos": "noun",
+"def": "the process of finding people to work for a company or become a new member of an organization",
+"ex": [
+"The recession has forced a lot of companies to cut down on staff recruitment."
+],
+"vi": "việc tuyển dụng"
+},
+{
+"id": "v-rectangle-noun-1",
+"word": "rectangle",
+"pos": "noun",
+"def": "a shape with four 90° angles and four sides, with opposite sides of equal length and two sides longer than the other two",
+"ex": [
+"The garden is in the shape of a rectangle."
+],
+"vi": "hình chữ nhật"
+},
+{
+"id": "v-rectify-verb-1",
+"word": "rectify",
+"pos": "verb",
+"def": "to correct something or change it so that it is acceptable",
+"ex": [
+"The government has promised to rectify the situation."
+],
+"vi": "sửa chữa, chỉnh lại"
+},
+{
+"id": "v-refusal-noun-1",
+"word": "refusal",
+"pos": "noun",
+"def": "when someone refuses to do or accept something",
+"ex": [
+"Her refusal to cooperate didn't help her case.",
+"What shocked me was his complete refusal to admit his mistake."
+],
+"vi": "sự từ chối"
+},
+{
+"id": "v-regard-noun-1",
+"word": "regard",
+"pos": "noun",
+"def": "respect or admiration for someone",
+"ex": [
+"I have the greatest regard for her."
+],
+"vi": "sự kính trọng"
+},
+{
+"id": "v-register-noun-1",
+"word": "register",
+"pos": "noun",
+"def": "the style of language, grammar, and words used in particular situations",
+"ex": [
+"a formal/informal register"
+],
+"vi": "văn phong, sắc thái"
+},
+{
+"id": "v-rehearse-verb-1",
+"word": "rehearse",
+"pos": "verb",
+"def": "to practise a play, dance, etc. in order to prepare for a performance",
+"ex": [
+"We usually rehearse on Wednesdays."
+],
+"vi": "diễn tập, tập dượt"
+},
+{
+"id": "v-reign-noun-1",
+"word": "reign",
+"pos": "noun",
+"def": "a period of time when a king or queen rules a country",
+"ex": [
+"the reign of Henry VIII"
+],
+"vi": "triều đại, thời trị vì"
+},
+{
+"id": "v-relevance-noun-1",
+"word": "relevance",
+"pos": "noun",
+"def": "the degree to which something is related or useful to what is happening or being talked about",
+"ex": [
+"This point has no relevance to the discussion."
+],
+"vi": "sự liên quan"
+},
+{
+"id": "v-reluctant-adjective-1",
+"word": "reluctant",
+"pos": "adjective",
+"def": "not wanting to do something",
+"ex": [
+"Many victims of crime are reluctant to go to the police."
+],
+"vi": "miễn cưỡng, ngần ngại"
+},
+{
+"id": "v-reluctantly-adverb-1",
+"word": "reluctantly",
+"pos": "adverb",
+"def": "in a reluctant way",
+"ex": [
+"She reluctantly agreed to step down as managing director."
+],
+"vi": "một cách miễn cưỡng"
+},
+{
+"id": "v-renovate-verb-1",
+"word": "renovate",
+"pos": "verb",
+"def": "to repair and decorate a building that is old and in bad condition",
+"ex": [
+"He has a business renovating old buildings."
+],
+"vi": "tân trang, sửa sang"
+},
+{
+"id": "v-renovation-noun-1",
+"word": "renovation",
+"pos": "noun",
+"def": "the act of repairing and decorating a building that is old and in bad condition",
+"ex": [
+"They spent all their savings on the renovation of an old cottage."
+],
+"vi": "việc tân trang"
+},
+{
+"id": "v-repetitive-adjective-1",
+"word": "repetitive",
+"pos": "adjective",
+"def": "doing or saying the same thing several times, especially in a way that is boring",
+"ex": [
+"a repetitive job"
+],
+"vi": "lặp đi lặp lại"
+},
+{
+"id": "v-reptile-noun-1",
+"word": "reptile",
+"pos": "noun",
+"def": "an animal which produces eggs and uses the heat of the sun to keep its blood warm",
+"ex": [
+"Tom liked the reptiles, especially the snakes and the lizards."
+],
+"vi": "loài bò sát"
+},
+{
+"id": "v-republic-noun-1",
+"word": "republic",
+"pos": "noun",
+"def": "a country with no king or queen but with an elected government",
+"ex": [
+"France is a republic."
+],
+"vi": "nước cộng hòa"
+},
+{
+"id": "v-resemble-verb-1",
+"word": "resemble",
+"pos": "verb",
+"def": "to look like or be like someone or something",
+"ex": [
+"She resembles her father.",
+"After the earthquake, the city resembled a battlefield."
+],
+"vi": "giống với"
+},
+{
+"id": "v-resident-adjective-1",
+"word": "resident",
+"pos": "adjective",
+"def": "living in a place",
+"ex": [
+"She has been resident in Britain for most of her life."
+],
+"vi": "cư trú, thường trú"
+},
+{
+"id": "v-resolve-verb-1",
+"word": "resolve",
+"pos": "verb",
+"def": "to solve or end a problem or difficulty",
+"ex": [
+"an attempt to resolve the dispute"
+],
+"vi": "giải quyết"
+},
+{
+"id": "v-restrain-verb-1",
+"word": "restrain",
+"pos": "verb",
+"def": "to stop someone doing something, sometimes by using force",
+"ex": [
+"He became violent and had to be physically restrained.",
+"I had to restrain myself from shouting at him."
+],
+"vi": "kiềm chế, ngăn lại"
+},
+{
+"id": "v-restrict-verb-1",
+"word": "restrict",
+"pos": "verb",
+"def": "to limit something",
+"ex": [
+"They've brought in new laws to restrict the sale of cigarettes.",
+"The government has restricted freedom of movement into and out of the country."
+],
+"vi": "hạn chế"
+},
+{
+"id": "v-restricted-adjective-1",
+"word": "restricted",
+"pos": "adjective",
+"def": "controlled or limited",
+"ex": [
+"They do good food but the choice is fairly restricted."
+],
+"vi": "bị hạn chế"
+},
+{
+"id": "v-retail-noun-1",
+"word": "retail",
+"pos": "noun",
+"def": "when products are sold to customers from shops",
+"ex": [
+"jobs in retail"
+],
+"vi": "bán lẻ"
+},
+{
+"id": "v-revenue-noun-1",
+"word": "revenue",
+"pos": "noun",
+"def": "large amounts of money received by a government as tax, or by a company",
+"ex": [
+"Revenue was up in the last quarter."
+],
+"vi": "doanh thu, nguồn thu"
+},
+{
+"id": "v-riot-noun-1",
+"word": "riot",
+"pos": "noun",
+"def": "angry, violent behaviour by a crowd of people",
+"ex": [
+"Riots started in several cities."
+],
+"vi": "cuộc bạo loạn"
+},
+{
+"id": "v-runway-noun-1",
+"word": "runway",
+"pos": "noun",
+"def": "a large road that aircraft use to land on or to start flying from",
+"ex": [
+"The runway was covered with snow."
+],
+"vi": "đường băng"
+},
+{
+"id": "v-sack-noun-1",
+"word": "sack",
+"pos": "noun",
+"def": "a large bag made of paper, plastic, or cloth and used to carry or store things",
+"ex": [
+"sacks of coal"
+],
+"vi": "bao tải"
+},
+{
+"id": "v-sacrifice-verb-1",
+"word": "sacrifice",
+"pos": "verb",
+"def": "to give up something that is valuable to you in order to achieve something or help someone",
+"ex": [
+"Many women sacrifice interesting careers for their family."
+],
+"vi": "hy sinh"
+},
+{
+"id": "v-sacrifice-noun-1",
+"word": "sacrifice",
+"pos": "noun",
+"def": "something valuable that you give up in order to achieve something or help someone, or the act of giving it up",
+"ex": [
+"We had to make sacrifices in order to pay for our children's education.",
+"They cared for their disabled son for 27 years, at great personal sacrifice."
+],
+"vi": "sự hy sinh"
+},
+{
+"id": "v-saint-noun-1",
+"word": "saint",
+"pos": "noun",
+"def": "a dead person who has been officially respected by the Christian church for living their life in a holy way",
+"ex": [
+"Catherine of Siena was made a saint in 1461."
+],
+"vi": "thánh"
+},
+{
+"id": "v-scenic-adjective-1",
+"word": "scenic",
+"pos": "adjective",
+"def": "having views of the attractive, natural things in the countryside",
+"ex": [
+"a scenic route",
+"an area of great scenic beauty"
+],
+"vi": "có cảnh đẹp"
+},
+{
+"id": "v-scholar-noun-1",
+"word": "scholar",
+"pos": "noun",
+"def": "someone who has studied a subject and knows a lot about it",
+"ex": [
+"a classics/history scholar",
+"Dr Miles was a distinguished scholar of Russian history."
+],
+"vi": "học giả"
+},
+{
+"id": "v-scholarship-noun-1",
+"word": "scholarship",
+"pos": "noun",
+"def": "an amount of money given to a person by an organization to pay for their education, usually at a college or university",
+"ex": [
+"She got a scholarship to the college."
+],
+"vi": "học bổng"
+},
+{
+"id": "v-sector-noun-1",
+"word": "sector",
+"pos": "noun",
+"def": "one part of a country's economy",
+"ex": [
+"In the financial sector, banks and insurance companies have both lost a lot of money.",
+"The new government's policy is to transfer state industries from the public sector to the private sector."
+],
+"vi": "lĩnh vực, khu vực kinh tế"
+},
+{
+"id": "v-seemingly-adverb-1",
+"word": "seemingly",
+"pos": "adverb",
+"def": "appearing to be something without really being that thing",
+"ex": [
+"a seemingly harmless comment"
+],
+"vi": "có vẻ như"
+},
+{
+"id": "v-selective-adjective-1",
+"word": "selective",
+"pos": "adjective",
+"def": "intentionally choosing some things or people and not others",
+"ex": [
+"As a teacher she was very selective, accepting only a small number of highly talented pupils.",
+"He seemed to have a very selective recall of past events."
+],
+"vi": "có chọn lọc"
+},
+{
+"id": "v-self-noun-1",
+"word": "self",
+"pos": "noun",
+"def": "your characteristics, including your personality, your abilities, etc.",
+"ex": [
+"our sense of self",
+"his real/true self"
+],
+"vi": "bản thân"
+},
+{
+"id": "v-selfishness-noun-1",
+"word": "selfishness",
+"pos": "noun",
+"def": "the quality of being selfish",
+"ex": [
+"I was appalled by his selfishness."
+],
+"vi": "tính ích kỷ"
+},
+{
+"id": "v-serial-noun-1",
+"word": "serial",
+"pos": "noun",
+"def": "a story in a magazine or on television or radio that is told in separate parts over a period of time",
+"ex": [
+"I'm watching a serial set in Yorkshire."
+],
+"vi": "truyện, phim nhiều kỳ"
+},
+{
+"id": "v-setback-noun-1",
+"word": "setback",
+"pos": "noun",
+"def": "a problem that makes something happen later or more slowly than it should",
+"ex": [
+"The project has suffered a series of setbacks this year."
+],
+"vi": "trở ngại, sự chậm trễ"
+},
+{
+"id": "v-sewing-noun-1",
+"word": "sewing",
+"pos": "noun",
+"def": "the activity of joining pieces of cloth together or repairing them with a needle and thread",
+"ex": [
+"I'm not very good at sewing."
+],
+"vi": "may vá"
+},
+{
+"id": "v-shield-verb-1",
+"word": "shield",
+"pos": "verb",
+"def": "to protect someone or something from something dangerous or unpleasant",
+"ex": [
+"to shield your eyes from the sun"
+],
+"vi": "che chở, bảo vệ"
+},
+{
+"id": "v-shortcoming-noun-1",
+"word": "shortcoming",
+"pos": "noun",
+"def": "a fault",
+"ex": [
+"I like him despite his shortcomings."
+],
+"vi": "khuyết điểm"
+},
+{
+"id": "v-shuttle-noun-1",
+"word": "shuttle",
+"pos": "noun",
+"def": "a bus, train, plane, etc. which travels regularly between two places, usually a short distance",
+"ex": [
+"the London-Glasgow shuttle",
+"There's a shuttle service between the airport and the city centre."
+],
+"vi": "xe/chuyến đưa đón"
+},
+{
+"id": "v-simulation-noun-1",
+"word": "simulation",
+"pos": "noun",
+"def": "a model of something that can be used to teach someone how to do something, or the process of making such a model",
+"ex": [
+"Students can study a computer simulation of these atomic processes."
+],
+"vi": "mô phỏng"
+},
+{
+"id": "v-sincere-adjective-1",
+"word": "sincere",
+"pos": "adjective",
+"def": "honest and saying or showing what you really feel or believe",
+"ex": [
+"He seems to be sincere."
+],
+"vi": "chân thành"
+},
+{
+"id": "v-sincerely-adverb-1",
+"word": "sincerely",
+"pos": "adverb",
+"def": "in a sincere way",
+"ex": [
+"I sincerely hope that this never happens again."
+],
+"vi": "một cách chân thành"
+},
+{
+"id": "v-slavery-noun-1",
+"word": "slavery",
+"pos": "noun",
+"def": "the system of owning slaves, or the condition of being a slave",
+"ex": [
+"They campaigned for the abolition of slavery."
+],
+"vi": "chế độ nô lệ"
+},
+{
+"id": "v-slogan-noun-1",
+"word": "slogan",
+"pos": "noun",
+"def": "a short phrase that is easy to remember and is used to make people notice something",
+"ex": [
+"an advertising slogan"
+],
+"vi": "khẩu hiệu"
+},
+{
+"id": "v-smog-noun-1",
+"word": "smog",
+"pos": "noun",
+"def": "air pollution in a city that is a mixture of smoke, gases, and chemicals",
+"ex": [
+"Smog hung over the city."
+],
+"vi": "khói bụi, sương khói"
+},
+{
+"id": "v-smuggle-verb-1",
+"word": "smuggle",
+"pos": "verb",
+"def": "to take something into or out of a place in an illegal or secret way",
+"ex": [
+"He was arrested for smuggling cocaine into Britain."
+],
+"vi": "buôn lậu, đưa lậu"
+},
+{
+"id": "v-soaring-adjective-1",
+"word": "soaring",
+"pos": "adjective",
+"def": "increasing very quickly",
+"ex": [
+"soaring property prices"
+],
+"vi": "tăng vọt"
+},
+{
+"id": "v-socialist-noun-1",
+"word": "socialist",
+"pos": "noun",
+"def": "someone who supports socialism",
+"ex": [
+"My parents are socialists."
+],
+"vi": "người theo xã hội chủ nghĩa"
+},
+{
+"id": "v-sole-adjective-1",
+"word": "sole",
+"pos": "adjective",
+"def": "only or not shared with anyone else",
+"ex": [
+"My sole objective is to make the information more widely available.",
+"The sole survivor of the accident was found in the water after six hours."
+],
+"vi": "duy nhất"
+},
+{
+"id": "v-solely-adverb-1",
+"word": "solely",
+"pos": "adverb",
+"def": "only and not involving anyone or anything else",
+"ex": [
+"I bought it solely for that purpose.",
+"It seems he's not solely to blame for the accident."
+],
+"vi": "chỉ riêng, duy nhất"
+},
+{
+"id": "v-solitude-noun-1",
+"word": "solitude",
+"pos": "noun",
+"def": "being alone",
+"ex": [
+"He went upstairs to read the letter in solitude."
+],
+"vi": "sự cô độc, một mình"
+},
+{
+"id": "v-somewhat-adverb-1",
+"word": "somewhat",
+"pos": "adverb",
+"def": "slightly",
+"ex": [
+"The resort has changed somewhat over the last few years.",
+"She's somewhat more confident than she used to be."
+],
+"vi": "hơi, phần nào"
+},
+{
+"id": "v-sow-verb-1",
+"word": "sow",
+"pos": "verb",
+"def": "to put seeds into the ground",
+"ex": [
+"to sow seeds/crops"
+],
+"vi": "gieo hạt"
+},
+{
+"id": "v-soya-noun-1",
+"word": "soya",
+"pos": "noun",
+"def": "a substance made from beans and used to make many foods",
+"ex": [
+"This milk is made from soya."
+],
+"vi": "đậu nành"
+},
+{
+"id": "v-spacious-adjective-1",
+"word": "spacious",
+"pos": "adjective",
+"def": "large and with a lot of space",
+"ex": [
+"a spacious apartment/office"
+],
+"vi": "rộng rãi"
+},
+{
+"id": "v-spam-noun-1",
+"word": "spam",
+"pos": "noun",
+"def": "emails that you do not want, usually advertisements",
+"ex": [
+"Most of the emails I receive are spam."
+],
+"vi": "thư rác"
+},
+{
+"id": "v-spare-verb-1",
+"word": "spare",
+"pos": "verb",
+"def": "to give time or money to someone",
+"ex": [
+"I have to go soon, but I can spare a few minutes.",
+"Can you spare me some change?"
+],
+"vi": "dành ra (thời gian, tiền)"
+},
+{
+"id": "v-specification-noun-1",
+"word": "specification",
+"pos": "noun",
+"def": "a detailed description of how something should be done, made, etc.",
+"ex": [
+"They are made exactly to the customer's specifications."
+],
+"vi": "thông số kỹ thuật"
+},
+{
+"id": "v-speculation-noun-1",
+"word": "speculation",
+"pos": "noun",
+"def": "when people guess about something without having enough information to be certain",
+"ex": [
+"She has dismissed the claims as pure speculation."
+],
+"vi": "sự suy đoán"
+},
+{
+"id": "v-sphere-noun-1",
+"word": "sphere",
+"pos": "noun",
+"def": "a subject or area of knowledge, work, etc.",
+"ex": [
+"the political sphere"
+],
+"vi": "lĩnh vực"
+},
+{
+"id": "v-spine-noun-1",
+"word": "spine",
+"pos": "noun",
+"def": "the long structure of bones down the centre of your back, which supports your body",
+"ex": [
+"She injured her spine in a riding accident."
+],
+"vi": "cột sống"
+},
+{
+"id": "v-splendid-adjective-1",
+"word": "splendid",
+"pos": "adjective",
+"def": "very good or very beautiful, special, etc.",
+"ex": [
+"a splendid idea",
+"a splendid view"
+],
+"vi": "tuyệt vời, lộng lẫy"
+},
+{
+"id": "v-spokesman-noun-1",
+"word": "spokesman",
+"pos": "noun",
+"def": "a man who is chosen to speak officially for a group or organization",
+"ex": [
+"He was the spokesman for their organization."
+],
+"vi": "người phát ngôn (nam)"
+},
+{
+"id": "v-spokesperson-noun-1",
+"word": "spokesperson",
+"pos": "noun",
+"def": "someone who is chosen to speak officially for a group or organization",
+"ex": [
+"She was the spokesperson for the group."
+],
+"vi": "người phát ngôn"
+},
+{
+"id": "v-sponsorship-noun-1",
+"word": "sponsorship",
+"pos": "noun",
+"def": "when someone gives money to support something",
+"ex": [
+"We wanted to set up a youth club, and asked local businesses for sponsorship."
+],
+"vi": "sự tài trợ"
+},
+{
+"id": "v-spy-verb-1",
+"word": "spy",
+"pos": "verb",
+"def": "to secretly try to discover information about a person, country, etc.",
+"ex": [
+"He was accused of spying."
+],
+"vi": "do thám, theo dõi"
+},
+{
+"id": "v-staggering-adjective-1",
+"word": "staggering",
+"pos": "adjective",
+"def": "very shocking and surprising",
+"ex": [
+"He earns a staggering amount of money."
+],
+"vi": "choáng váng, kinh ngạc"
+},
+{
+"id": "v-staircase-noun-1",
+"word": "staircase",
+"pos": "noun",
+"def": "a set of stairs and the structure around them",
+"ex": [
+"a spiral staircase"
+],
+"vi": "cầu thang"
+},
+{
+"id": "v-stale-adjective-1",
+"word": "stale",
+"pos": "adjective",
+"def": "old and not fresh",
+"ex": [
+"Cake goes stale quickly if it's not covered."
+],
+"vi": "cũ, ôi, không tươi"
+},
+{
+"id": "v-stamina-noun-1",
+"word": "stamina",
+"pos": "noun",
+"def": "the physical or mental energy that allows you to do something for a long time",
+"ex": [
+"Marathon runners need a lot of stamina."
+],
+"vi": "sức bền"
+},
+{
+"id": "v-starve-verb-1",
+"word": "starve",
+"pos": "verb",
+"def": "to become ill or die because you do not have enough food, or to make someone ill or die because they do not have enough food",
+"ex": [
+"Many people have starved to death in parts of Africa."
+],
+"vi": "chết đói, bỏ đói"
+},
+{
+"id": "v-statistic-noun-1",
+"word": "statistic",
+"pos": "noun",
+"def": "a fact in the form of a number that shows information about something",
+"ex": [
+"Statistics show that skin cancer is becoming more common."
+],
+"vi": "số liệu thống kê"
+},
+{
+"id": "v-statistical-adjective-1",
+"word": "statistical",
+"pos": "adjective",
+"def": "relating to statistics",
+"ex": [
+"There is no statistical evidence to support his claims."
+],
+"vi": "thuộc thống kê"
+},
+{
+"id": "v-status-noun-1",
+"word": "status",
+"pos": "noun",
+"def": "an accepted or official position, especially in a social group",
+"ex": [
+"The association works to promote the status of retired people as useful members of the community.",
+"There has been an increase in applications for refugee status."
+],
+"vi": "địa vị, vị thế"
+},
+{
+"id": "v-stock-verb-1",
+"word": "stock",
+"pos": "verb",
+"def": "to have something available for people to buy",
+"ex": [
+"We stock a good range of spices."
+],
+"vi": "bày bán, tích trữ hàng"
+},
+{
+"id": "v-stocking-noun-1",
+"word": "stocking",
+"pos": "noun",
+"def": "a very thin piece of clothing that covers a woman's foot and leg",
+"ex": [
+"a pair of stockings"
+],
+"vi": "tất dài"
+},
+{
+"id": "v-strategic-adjective-1",
+"word": "strategic",
+"pos": "adjective",
+"def": "helping to achieve a plan, usually in business, politics, or war",
+"ex": [
+"The new offices are in a strategic location, with easy access to the motorway."
+],
+"vi": "mang tính chiến lược"
+},
+{
+"id": "v-straw-noun-1",
+"word": "straw",
+"pos": "noun",
+"def": "the long, dried stems of plants such as wheat, often given to animals for sleeping on and eating",
+"ex": [
+"a straw basket/hat"
+],
+"vi": "rơm"
+},
+{
+"id": "v-stretch-noun-1",
+"word": "stretch",
+"pos": "noun",
+"def": "a continuous area of land or water",
+"ex": [
+"This particular stretch of coast is especially popular with walkers.",
+"Traffic is at a standstill along a five-mile stretch of the M11 just south of Cambridge."
+],
+"vi": "dải, khu vực rộng"
+},
+{
+"id": "v-strip-noun-1",
+"word": "strip",
+"pos": "noun",
+"def": "a long, narrow piece of something",
+"ex": [
+"a strip of paper"
+],
+"vi": "dải, mảnh dài"
+},
+{
+"id": "v-stroll-noun-1",
+"word": "stroll",
+"pos": "noun",
+"def": "a slow, relaxed walk somewhere",
+"ex": [
+"We went for a stroll around the city centre."
+],
+"vi": "cuộc đi dạo"
+},
+{
+"id": "v-subjective-adjective-1",
+"word": "subjective",
+"pos": "adjective",
+"def": "influenced by someone's beliefs or feelings, instead of facts",
+"ex": [
+"a subjective judgment"
+],
+"vi": "chủ quan"
+},
+{
+"id": "v-subsequent-adjective-1",
+"word": "subsequent",
+"pos": "adjective",
+"def": "happening after something else",
+"ex": [
+"The mistakes were corrected in a subsequent edition of the book."
+],
+"vi": "tiếp theo, sau đó"
+},
+{
+"id": "v-subsequently-adverb-1",
+"word": "subsequently",
+"pos": "adverb",
+"def": "after that",
+"ex": [
+"In 1982 he was arrested and subsequently convicted on drug trafficking charges."
+],
+"vi": "sau đó"
+},
+{
+"id": "v-substitution-noun-1",
+"word": "substitution",
+"pos": "noun",
+"def": "when you use someone or something instead of another person or thing",
+"ex": [
+"The coach has made two substitutions in the team."
+],
+"vi": "sự thay thế"
+},
+{
+"id": "v-sue-verb-1",
+"word": "sue",
+"pos": "verb",
+"def": "to take legal action against someone and try to get money from them because they have harmed you",
+"ex": [
+"He's threatening to sue the newspaper for slander."
+],
+"vi": "kiện, khởi kiện"
+},
+{
+"id": "v-sufficiently-adverb-1",
+"word": "sufficiently",
+"pos": "adverb",
+"def": "as much as is necessary",
+"ex": [
+"McGeechan has not recovered sufficiently to play in the semifinal tomorrow.",
+"The case was sufficiently serious to warrant investigation by the police."
+],
+"vi": "đủ, một cách đầy đủ"
+},
+{
+"id": "v-suitability-noun-1",
+"word": "suitability",
+"pos": "noun",
+"def": "the state of being suitable",
+"ex": [
+"Nobody could doubt her suitability for the job."
+],
+"vi": "sự phù hợp"
+},
+{
+"id": "v-summarize-verb-1",
+"word": "summarize",
+"pos": "verb",
+"def": "to describe briefly the main facts or ideas of something",
+"ex": [
+"I'd like to briefly summarize the arguments for and against."
+],
+"vi": "tóm tắt"
+},
+{
+"id": "v-superior-noun-1",
+"word": "superior",
+"pos": "noun",
+"def": "someone in a higher position than you at work",
+"ex": [
+"I will have to report this to my superiors."
+],
+"vi": "cấp trên"
+},
+{
+"id": "v-supervision-noun-1",
+"word": "supervision",
+"pos": "noun",
+"def": "when you supervise someone or something",
+"ex": [
+"He needs constant supervision.",
+"Students are not allowed to handle these chemicals unless they are under the supervision of a teacher."
+],
+"vi": "sự giám sát"
+},
+{
+"id": "v-supervisor-noun-1",
+"word": "supervisor",
+"pos": "noun",
+"def": "a person whose job is to supervise someone or something",
+"ex": [
+"His supervisor told him to work faster."
+],
+"vi": "người giám sát"
+},
+{
+"id": "v-surge-verb-1",
+"word": "surge",
+"pos": "verb",
+"def": "to increase very quickly",
+"ex": [
+"Prices surged on the stock exchange."
+],
+"vi": "tăng vọt"
+},
+{
+"id": "v-surge-noun-1",
+"word": "surge",
+"pos": "noun",
+"def": "a large increase in something",
+"ex": [
+"a surge in spending"
+],
+"vi": "sự tăng vọt"
+},
+{
+"id": "v-surgeon-noun-1",
+"word": "surgeon",
+"pos": "noun",
+"def": "a doctor who is specially trained to perform medical operations",
+"ex": [
+"He is a leading surgeon at a London hospital."
+],
+"vi": "bác sĩ phẫu thuật"
+},
+{
+"id": "v-tactic-noun-1",
+"word": "tactic",
+"pos": "noun",
+"def": "a way of doing something that you plan in order to achieve what you want",
+"ex": [
+"These bomb attacks represent a change of tactics by the terrorists."
+],
+"vi": "chiến thuật"
+},
+{
+"id": "v-takeover-noun-1",
+"word": "takeover",
+"pos": "noun",
+"def": "when a company gets control of another company",
+"ex": [
+"The company was involved in a takeover last year."
+],
+"vi": "sự thâu tóm"
+},
+{
+"id": "v-teamwork-noun-1",
+"word": "teamwork",
+"pos": "noun",
+"def": "when a group of people work well together",
+"ex": [
+"We won't achieve anything without good teamwork."
+],
+"vi": "tinh thần đồng đội"
+},
+{
+"id": "v-tedious-adjective-1",
+"word": "tedious",
+"pos": "adjective",
+"def": "boring",
+"ex": [
+"a tedious job"
+],
+"vi": "tẻ nhạt, chán ngắt"
+},
+{
+"id": "v-tendency-noun-1",
+"word": "tendency",
+"pos": "noun",
+"def": "something that someone often does, or something that often happens",
+"ex": [
+"She has a tendency to talk for too long.",
+"There is a growing tendency for companies to employ people on short contracts."
+],
+"vi": "xu hướng, thói quen"
+},
+{
+"id": "v-texture-noun-1",
+"word": "texture",
+"pos": "noun",
+"def": "the way that something feels when you touch it",
+"ex": [
+"wood with a rough texture"
+],
+"vi": "kết cấu, cảm giác khi sờ"
+},
+{
+"id": "v-therapist-noun-1",
+"word": "therapist",
+"pos": "noun",
+"def": "someone whose job is to treat a particular type of mental or physical illness",
+"ex": [
+"a speech therapist"
+],
+"vi": "nhà trị liệu"
+},
+{
+"id": "v-thereby-adverb-1",
+"word": "thereby",
+"pos": "adverb",
+"def": "as a result of a particular action or event",
+"ex": [
+"The new dam will improve the water supply and thereby reduce hunger and disease."
+],
+"vi": "nhờ đó, do đó"
+},
+{
+"id": "v-thrill-noun-1",
+"word": "thrill",
+"pos": "noun",
+"def": "a strong feeling of excitement and pleasure",
+"ex": [
+"It was a big thrill meeting the stars of the show.",
+"the thrill of winning a competition"
+],
+"vi": "cảm giác phấn khích"
+},
+{
+"id": "v-thrive-verb-1",
+"word": "thrive",
+"pos": "verb",
+"def": "to grow very well, or to become very healthy or successful",
+"ex": [
+"The business is thriving.",
+"He seems to thrive on hard work."
+],
+"vi": "phát triển mạnh"
+},
+{
+"id": "v-throughout-adverb-1",
+"word": "throughout",
+"pos": "adverb",
+"def": "in every part of a place or during the whole of a period of time",
+"ex": [
+"The house was painted pink throughout."
+],
+"vi": "khắp, suốt"
+},
+{
+"id": "v-tobacco-noun-1",
+"word": "tobacco",
+"pos": "noun",
+"def": "dried leaves that are inside cigarettes",
+"ex": [
+"Twenty-eight per cent of people asked thought that the advertising of tobacco and alcohol should be banned."
+],
+"vi": "thuốc lá"
+},
+{
+"id": "v-token-noun-1",
+"word": "token",
+"pos": "noun",
+"def": "something that you give to someone in order to show them love, to thank them, etc.",
+"ex": [
+"I gave Helen some chocolates as a token of thanks for all her help."
+],
+"vi": "vật kỷ niệm, món quà nhỏ"
+},
+{
+"id": "v-tolerant-adjective-1",
+"word": "tolerant",
+"pos": "adjective",
+"def": "allowing people to do what they want especially when you do not agree with it",
+"ex": [
+"a tolerant attitude",
+"I think we're becoming more tolerant of children in public places."
+],
+"vi": "khoan dung"
+},
+{
+"id": "v-tranquil-adjective-1",
+"word": "tranquil",
+"pos": "adjective",
+"def": "calm and quiet",
+"ex": [
+"a tranquil garden"
+],
+"vi": "yên bình"
+},
+{
+"id": "v-trek-noun-1",
+"word": "trek",
+"pos": "noun",
+"def": "a long, difficult journey that you make by walking",
+"ex": [
+"They started out on the long trek across the mountains."
+],
+"vi": "chuyến đi bộ dài"
+},
+{
+"id": "v-trigger-verb-1",
+"word": "trigger",
+"pos": "verb",
+"def": "to make something begin to happen",
+"ex": [
+"Some people find that certain foods trigger their headaches.",
+"The racial killings at the weekend have triggered off a wave of protests."
+],
+"vi": "gây ra, kích hoạt"
+},
+{
+"id": "v-unaffordable-adjective-1",
+"word": "unaffordable",
+"pos": "adjective",
+"def": "too expensive for people to be able to buy",
+"ex": [
+"Such clothes are unaffordable for most people."
+],
+"vi": "quá đắt, không đủ tiền mua"
+},
+{
+"id": "v-uncomfortably-adverb-1",
+"word": "uncomfortably",
+"pos": "adverb",
+"def": "in a way that is not comfortable or pleasant",
+"ex": [
+"I was warm but not uncomfortably so."
+],
+"vi": "một cách khó chịu"
+},
+{
+"id": "v-uncommon-adjective-1",
+"word": "uncommon",
+"pos": "adjective",
+"def": "unusual",
+"ex": [
+"It's not uncommon for people to become ill when they travel."
+],
+"vi": "hiếm, không phổ biến"
+},
+{
+"id": "v-unconventional-adjective-1",
+"word": "unconventional",
+"pos": "adjective",
+"def": "doing things in a way that is different from most people",
+"ex": [
+"an unconventional lifestyle"
+],
+"vi": "khác thường, phá cách"
+},
+{
+"id": "v-undergo-verb-1",
+"word": "undergo",
+"pos": "verb",
+"def": "to experience something, especially a change or medical treatment",
+"ex": [
+"The country is currently undergoing major political change.",
+"He is undergoing surgery for a heart problem."
+],
+"vi": "trải qua"
+},
+{
+"id": "v-unforeseen-adjective-1",
+"word": "unforeseen",
+"pos": "adjective",
+"def": "not expected",
+"ex": [
+"The concert was cancelled due to unforeseen circumstances."
+],
+"vi": "không lường trước"
+},
+{
+"id": "v-unite-verb-1",
+"word": "unite",
+"pos": "verb",
+"def": "to join together as a group, or to make people join together as a group",
+"ex": [
+"We need a leader who can unite the party."
+],
+"vi": "đoàn kết, hợp nhất"
+},
+{
+"id": "v-universally-adverb-1",
+"word": "universally",
+"pos": "adverb",
+"def": "in a way that involves everyone in the world, or everyone in a particular group",
+"ex": [
+"She is universally adored.",
+"Water is one of the most common and universally known substances."
+],
+"vi": "phổ biến toàn cầu"
+},
+{
+"id": "v-unproductive-adjective-1",
+"word": "unproductive",
+"pos": "adjective",
+"def": "not producing anything of value",
+"ex": [
+"There were months of unproductive bureaucracy.",
+"The meeting was totally unproductive."
+],
+"vi": "không hiệu quả"
+},
+{
+"id": "v-upward-adjective-1",
+"word": "upward",
+"pos": "adjective",
+"def": "moving towards a higher place or level",
+"ex": [
+"an upward glance",
+"an upward trend in sales"
+],
+"vi": "hướng lên"
+},
+{
+"id": "v-upwards-adverb-1",
+"word": "upwards",
+"pos": "adverb",
+"def": "towards a higher position, level or value",
+"ex": [
+"The cost of completion has been revised upwards again due to inflation."
+],
+"vi": "lên trên"
+},
+{
+"id": "v-utmost-adjective-1",
+"word": "utmost",
+"pos": "adjective",
+"def": "used to emphasize how important or serious something is",
+"ex": [
+"a matter of the utmost importance",
+"The situation needs to be handled with the utmost care."
+],
+"vi": "tối đa, cực kỳ"
+},
+{
+"id": "v-utterly-adverb-1",
+"word": "utterly",
+"pos": "adverb",
+"def": "completely",
+"ex": [
+"It's utterly ridiculous."
+],
+"vi": "hoàn toàn"
+},
+{
+"id": "v-vegetation-noun-1",
+"word": "vegetation",
+"pos": "noun",
+"def": "the plants and trees that grow in a particular area",
+"ex": [
+"They hacked a path through the dense vegetation."
+],
+"vi": "thảm thực vật"
+},
+{
+"id": "v-veil-noun-1",
+"word": "veil",
+"pos": "noun",
+"def": "a thin piece of material that covers a woman's face",
+"ex": [
+"She wore a thin veil."
+],
+"vi": "mạng che mặt"
+},
+{
+"id": "v-vein-noun-1",
+"word": "vein",
+"pos": "noun",
+"def": "one of the tubes in your body that carries blood to the heart",
+"ex": [
+"the veins in the leg/neck"
+],
+"vi": "tĩnh mạch"
+},
+{
+"id": "v-verify-verb-1",
+"word": "verify",
+"pos": "verb",
+"def": "to prove that something is true, or do something to discover if it is true",
+"ex": [
+"It was impossible to verify her statement."
+],
+"vi": "xác minh"
+},
+{
+"id": "v-vertical-adjective-1",
+"word": "vertical",
+"pos": "adjective",
+"def": "pointing straight up from a surface",
+"ex": [
+"a vertical line"
+],
+"vi": "thẳng đứng"
+},
+{
+"id": "v-viewpoint-noun-1",
+"word": "viewpoint",
+"pos": "noun",
+"def": "a way of thinking about a situation",
+"ex": [
+"From his viewpoint the action seemed entirely justified."
+],
+"vi": "quan điểm"
+},
+{
+"id": "v-vine-noun-1",
+"word": "vine",
+"pos": "noun",
+"def": "a plant that grapes grow on",
+"ex": [
+"The wall was covered in a vine."
+],
+"vi": "cây nho"
+},
+{
+"id": "v-volunteer-verb-1",
+"word": "volunteer",
+"pos": "verb",
+"def": "to offer to do something without being asked or told to do it",
+"ex": [
+"Rob volunteered to look after the kids."
+],
+"vi": "tình nguyện"
+},
+{
+"id": "v-walker-noun-1",
+"word": "walker",
+"pos": "noun",
+"def": "someone who walks for exercise or enjoyment",
+"ex": [
+"This pub is popular with walkers."
+],
+"vi": "người đi bộ"
+},
+{
+"id": "v-widespread-adjective-1",
+"word": "widespread",
+"pos": "adjective",
+"def": "affecting or including a lot of places, people, etc.",
+"ex": [
+"a widespread problem"
+],
+"vi": "lan rộng, phổ biến"
+},
+{
+"id": "v-wisely-adverb-1",
+"word": "wisely",
+"pos": "adverb",
+"def": "in a wise way",
+"ex": [
+"She wisely advised me to wait."
+],
+"vi": "một cách khôn ngoan"
+},
+{
+"id": "v-wit-noun-1",
+"word": "wit",
+"pos": "noun",
+"def": "the ability to say things that are funny and clever",
+"ex": [
+"a woman of great intelligence and wit",
+"He was known for his dry/sharp wit."
+],
+"vi": "sự hóm hỉnh"
+},
+{
+"id": "v-witch-noun-1",
+"word": "witch",
+"pos": "noun",
+"def": "in stories, a woman who has magical powers that she uses to do bad or strange things",
+"ex": [
+"It was a story about an old witch."
+],
+"vi": "phù thủy"
+},
+{
+"id": "v-workplace-noun-1",
+"word": "workplace",
+"pos": "noun",
+"def": "the place where you work",
+"ex": [
+"We are trying to get rid of bullying in the workplace."
+],
+"vi": "nơi làm việc"
+},
+{
+"id": "v-workshop-noun-1",
+"word": "workshop",
+"pos": "noun",
+"def": "when a group of people meet to learn more about something by discussing it and doing practical exercises",
+"ex": [
+"a workshop on crime prevention"
+],
+"vi": "buổi hội thảo thực hành"
+},
+{
+"id": "v-worse-noun-1",
+"word": "worse",
+"pos": "noun",
+"def": "something that is more unpleasant or difficult",
+"ex": [
+"By the third month of the expedition they had endured many hardships, but worse was to follow.",
+"\"What about the bride's dress - wasn't it appalling?\" \"I don't know, I've seen worse.\""
+],
+"vi": "điều tệ hơn"
+},
+{
+"id": "v-worsen-verb-1",
+"word": "worsen",
+"pos": "verb",
+"def": "to become worse or to make something become worse",
+"ex": [
+"His condition suddenly worsened last week."
+],
+"vi": "trở nên tệ hơn"
+}
+]

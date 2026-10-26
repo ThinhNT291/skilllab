@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "en-style-and-register-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u1-who-whom",
+    "tags": [
+      "sr-u1-who-whom"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In a formal letter: To ______ should I address the complaint?",
+    "choices": [
+      "whom",
+      "who",
+      "whose",
+      "which"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau giới từ, dạng tân ngữ whom là chuẩn trang trọng.",
+    "choiceExplanations": [
+      "Đúng — whom là dạng tân ngữ và là dạng trang trọng đứng ngay sau giới từ to.",
+      "Sai — who tự nhiên khi giới từ để cuối câu (Who should I address it to?), nhưng ngay sau giới từ trong thư trang trọng phải là whom.",
+      "Sai — whose chỉ sự sở hữu và cần một danh từ theo sau (whose complaint), không hợp nghĩa ở đây.",
+      "Sai — which dùng cho vật hoặc sự lựa chọn, còn ở đây ta hỏi gửi cho người nào."
+    ]
+  },
+  {
+    "id": "en-style-and-register-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u1-who-whom",
+    "tags": [
+      "sr-u1-who-whom"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn dạng trang trọng nhất",
+    "prompt": "Which sentence is the most formal?",
+    "choices": [
+      "The scientist who the students interviewed won a prize.",
+      "The scientist whose the students interviewed won a prize.",
+      "The scientist whom interviewed the students won a prize.",
+      "The scientist whom the students interviewed won a prize."
+    ],
+    "correctIndex": 3,
+    "explanation": "Whom là tân ngữ của students interviewed, nên là lựa chọn trang trọng nhất.",
+    "choiceExplanations": [
+      "Sai — who vẫn đúng ngữ pháp và rất tự nhiên trong lời nói, nhưng không phải dạng trang trọng nhất.",
+      "Sai — whose phải đi kèm một danh từ (whose book); ở đây theo sau là the students nên câu sai.",
+      "Sai — whom là dạng tân ngữ nên không thể làm chủ ngữ của interviewed; câu này còn mất tân ngữ.",
+      "Đúng — whom là tân ngữ của interviewed (students interviewed him/her), là dạng trang trọng."
+    ]
+  },
+  {
+    "id": "en-style-and-register-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u1-who-whom",
+    "tags": [
+      "sr-u1-who-whom"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ do you think organized the science fair?",
+    "choices": [
+      "Whom",
+      "Whose",
+      "Who",
+      "Whomever"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mẹo: thay bằng he/she. 'She organized' nên chọn who.",
+    "choiceExplanations": [
+      "Sai — đây là lỗi 'whom cho sang': ai đó organized (she organized) nên từ hỏi là chủ ngữ, chỉ dùng who.",
+      "Sai — whose chỉ sự sở hữu và cần một danh từ theo sau, không đứng một mình trước động từ.",
+      "Đúng — who là chủ ngữ của organized (she organized), nên không dùng whom.",
+      "Sai — whomever là dạng tân ngữ của whoever, dùng trong mệnh đề danh từ chứ không dùng để đặt câu hỏi."
+    ]
+  },
+  {
+    "id": "en-style-and-register-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u1-who-whom",
+    "tags": [
+      "sr-u1-who-whom"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She is the candidate for ______ most of us voted.",
+    "choices": [
+      "who",
+      "whose",
+      "that",
+      "whom"
+    ],
+    "correctIndex": 3,
+    "explanation": "for + whom, tân ngữ của giới từ.",
+    "choiceExplanations": [
+      "Sai — who không đứng ngay sau giới từ for trong văn trang trọng (for whom).",
+      "Sai — whose cần một danh từ theo sau (for whose vote), không hợp nghĩa ở đây.",
+      "Sai — that không bao giờ đứng ngay sau giới từ; chỉ dùng whom hoặc which.",
+      "Đúng — voted for her nên là giới từ for + whom (tân ngữ)."
+    ]
+  },
+  {
+    "id": "en-style-and-register-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u1-who-whom",
+    "tags": [
+      "sr-u1-who-whom"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The award goes to ______ you think deserves it most.",
+    "choices": [
+      "whomever",
+      "whichever",
+      "whoever",
+      "whatever"
+    ],
+    "correctIndex": 2,
+    "explanation": "Chọn theo vai trò trong mệnh đề riêng: whoever deserves.",
+    "choiceExplanations": [
+      "Sai — whomever là bẫy: nó đứng sau giới từ to nhưng vai trò của nó nằm trong mệnh đề riêng, nơi nó là chủ ngữ của deserves (you think chỉ là cụm xen), nên không dùng dạng tân ngữ.",
+      "Sai — whichever chỉ sự lựa chọn trong một nhóm đã nêu, không có nhóm nào được nêu ở đây.",
+      "Đúng — whoever là chủ ngữ của deserves (he/she deserves it), dù cả mệnh đề đứng sau to.",
+      "Sai — whatever dùng cho vật hoặc sự việc, còn ở đây nói về người nhận giải."
+    ]
+  },
+  {
+    "id": "en-style-and-register-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u1-who-whom",
+    "tags": [
+      "sr-u1-who-whom"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn câu hỏi trang trọng nhất",
+    "prompt": "Which question is the most formal?",
+    "choices": [
+      "Whom did you invite to the ceremony?",
+      "Who did you invite to the ceremony?",
+      "Who you invited to the ceremony?",
+      "Whom you did invite to the ceremony?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Whom + trợ động từ + chủ ngữ + động từ.",
+    "choiceExplanations": [
+      "Đúng — whom là tân ngữ của invite (invite him/her), dạng trang trọng nhất.",
+      "Sai — đúng ngữ pháp và rất tự nhiên trong nói, nhưng kém trang trọng hơn dùng whom.",
+      "Sai — câu hỏi thiếu trợ động từ did đứng trước chủ ngữ you (Who did you invite...).",
+      "Sai — whom đứng đầu nhưng trợ động từ bị đặt sau chủ ngữ; phải là Whom did you invite."
+    ]
+  },
+  {
+    "id": "en-style-and-register-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u2-stranding-piedpiping",
+    "tags": [
+      "sr-u2-stranding-piedpiping"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Formal report: This is the study ______ the committee based its decision.",
+    "choices": [
+      "which on",
+      "that on",
+      "on that",
+      "on which"
+    ],
+    "correctIndex": 3,
+    "explanation": "Giới từ + which, ví dụ based its decision on the study.",
+    "choiceExplanations": [
+      "Sai — which đứng trước giới từ là trật tự ngược: giới từ phải đứng trước which (on which).",
+      "Sai — that on đặt giới từ sau đại từ; nếu dùng that thì giới từ phải ở cuối mệnh đề (the study that the committee based its decision on).",
+      "Sai — that không bao giờ đi ngay sau giới từ nên không có on that.",
+      "Đúng — pied-piping: giới từ đứng trước which (based its decision on the study)."
+    ]
+  },
+  {
+    "id": "en-style-and-register-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u2-stranding-piedpiping",
+    "tags": [
+      "sr-u2-stranding-piedpiping"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence is grammatically correct?",
+    "choices": [
+      "The teacher to whom I spoke was kind.",
+      "The teacher to that I spoke was kind.",
+      "The teacher whom to I spoke was kind.",
+      "The teacher who to I spoke was kind."
+    ],
+    "correctIndex": 0,
+    "explanation": "Pied-piping: giới từ + whom.",
+    "choiceExplanations": [
+      "Đúng — giới từ to đứng trước whom.",
+      "Sai — that không đứng sau giới từ.",
+      "Sai — giới từ không đứng sau whom.",
+      "Sai — giới từ không đứng sau who."
+    ]
+  },
+  {
+    "id": "en-style-and-register-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u2-stranding-piedpiping",
+    "tags": [
+      "sr-u2-stranding-piedpiping"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In a text to a friend: That's the café ______ I told you about.",
+    "choices": [
+      "that",
+      "about which",
+      "in which",
+      "whom"
+    ],
+    "correctIndex": 0,
+    "explanation": "Giới từ ở cuối (stranding) đi với that/which hoặc bỏ đại từ.",
+    "choiceExplanations": [
+      "Đúng — trong lời nhắn thân mật, giới từ about ở cuối nên dùng that (hoặc bỏ luôn đại từ).",
+      "Sai — about đã đứng cuối câu rồi (told you about), dùng thêm about which làm thừa giới từ.",
+      "Sai — in which sai nghĩa (không có 'told you in the café'), và about vẫn bị thừa.",
+      "Sai — whom chỉ dùng cho người, còn café là nơi chốn."
+    ]
+  },
+  {
+    "id": "en-style-and-register-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u2-stranding-piedpiping",
+    "tags": [
+      "sr-u2-stranding-piedpiping"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence is NOT acceptable in standard English?",
+    "choices": [
+      "The pen I wrote with is lost.",
+      "The pen with that I wrote is lost.",
+      "The pen with which I wrote is lost.",
+      "The pen that I wrote with is lost."
+    ],
+    "correctIndex": 1,
+    "explanation": "Sau giới từ chỉ dùng whom/which.",
+    "choiceExplanations": [
+      "Sai — câu này hoàn toàn đúng (giới từ ở cuối, đại từ quan hệ được lược), nên không phải câu cần tìm.",
+      "Đúng — that không bao giờ đứng ngay sau giới từ, nên with that là câu không chấp nhận được.",
+      "Sai — câu này đúng và trang trọng (with which), nên không phải câu cần tìm.",
+      "Sai — câu này đúng (giới từ ở cuối với that), nên không phải câu cần tìm."
+    ]
+  },
+  {
+    "id": "en-style-and-register-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u2-stranding-piedpiping",
+    "tags": [
+      "sr-u2-stranding-piedpiping"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng nhất",
+    "prompt": "Which sentence is the most formal and fully correct?",
+    "choices": [
+      "These are the conditions which the agreement may be ended under.",
+      "These are the conditions under that the agreement may be ended.",
+      "These are the conditions under which the agreement may be ended.",
+      "These are the conditions which under the agreement may be ended."
+    ],
+    "correctIndex": 2,
+    "explanation": "under which: trang trọng nhất.",
+    "choiceExplanations": [
+      "Sai — đúng ngữ pháp, nhưng giới từ under bị đẩy xuống cuối là dạng kém trang trọng, còn đề hỏi câu trang trọng nhất.",
+      "Sai — that không bao giờ đi ngay sau giới từ (under which mới đúng).",
+      "Đúng — pied-piping: giới từ under đứng trước which, trang trọng và đúng ngữ pháp.",
+      "Sai — giới từ under bị tách khỏi which và bị đặt vào chỗ không có nghĩa."
+    ]
+  },
+  {
+    "id": "en-style-and-register-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u2-stranding-piedpiping",
+    "tags": [
+      "sr-u2-stranding-piedpiping"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The club has forty members, ______ are under fifteen.",
+    "choices": [
+      "most of them",
+      "whom most",
+      "most of whom",
+      "of which most"
+    ],
+    "correctIndex": 2,
+    "explanation": "most of whom đóng vai trò chủ ngữ của are.",
+    "choiceExplanations": [
+      "Sai — most of them là cụm đại từ nên cần một liên từ; nối hai mệnh đề độc lập chỉ bằng dấu phẩy là lỗi comma splice.",
+      "Sai — whom most are không có giới từ/lượng từ trước whom, câu sai trật tự.",
+      "Đúng — lượng từ + of whom nối thêm thông tin về người, trang trọng; most of whom làm chủ ngữ của are.",
+      "Sai — which chỉ vật, còn forty members là người; trật tự of which most cũng sai."
+    ]
+  },
+  {
+    "id": "en-style-and-register-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u3-pronoun-case",
+    "tags": [
+      "sr-u3-pronoun-case"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Formal presentation: My sister is far more patient than ______ am.",
+    "choices": [
+      "me",
+      "mine",
+      "I",
+      "myself"
+    ],
+    "correctIndex": 2,
+    "explanation": "Có trợ động từ theo sau thì dùng đại từ chủ ngữ.",
+    "choiceExplanations": [
+      "Sai — me là dạng tân ngữ nên không thể làm chủ ngữ của am (than I am).",
+      "Sai — mine là đại từ sở hữu (của tôi), không đóng vai chủ ngữ của am.",
+      "Đúng — sau than có động từ am nên cần đại từ chủ ngữ I.",
+      "Sai — myself là đại từ phản thân, chỉ dùng khi chủ ngữ của cùng mệnh đề là I, và không đứng một mình làm chủ ngữ."
+    ]
+  },
+  {
+    "id": "en-style-and-register-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u3-pronoun-case",
+    "tags": [
+      "sr-u3-pronoun-case"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Between you and ______, I think the surprise party is a bad idea.",
+    "choices": [
+      "me",
+      "I",
+      "my",
+      "mine"
+    ],
+    "correctIndex": 0,
+    "explanation": "between + tân ngữ: between you and me.",
+    "choiceExplanations": [
+      "Đúng — đại từ sau giới từ between phải ở dạng tân ngữ: between you and me.",
+      "Sai — I là hypercorrection: dạng chủ ngữ không đứng sau giới từ.",
+      "Sai — my là tính từ sở hữu, cần một danh từ theo sau.",
+      "Sai — mine là đại từ sở hữu (của tôi), không thay được tân ngữ của between."
+    ]
+  },
+  {
+    "id": "en-style-and-register-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u3-pronoun-case",
+    "tags": [
+      "sr-u3-pronoun-case"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Formal writing: Few students worked as hard as ______ did.",
+    "choices": [
+      "she",
+      "her",
+      "hers",
+      "herself"
+    ],
+    "correctIndex": 0,
+    "explanation": "Có trợ động từ did theo sau, nên dùng đại từ chủ ngữ: as she did.",
+    "choiceExplanations": [
+      "Đúng — sau as ... as có động từ did nên cần đại từ chủ ngữ she (as she did).",
+      "Sai — her là dạng tân ngữ nên không thể làm chủ ngữ của did. (Thân mật không có did mới nghe as her.)",
+      "Sai — hers là đại từ sở hữu (của cô ấy), không làm chủ ngữ.",
+      "Sai — herself là đại từ phản thân, không làm chủ ngữ của did."
+    ]
+  },
+  {
+    "id": "en-style-and-register-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u3-pronoun-case",
+    "tags": [
+      "sr-u3-pronoun-case"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence is correct in standard English?",
+    "choices": [
+      "She invited Tom and I to the concert.",
+      "She invited I and Tom to the concert.",
+      "She invited Tom and me to the concert.",
+      "She invited Tom and myself to the concert."
+    ],
+    "correctIndex": 2,
+    "explanation": "Tân ngữ luôn là me, dù đi với tên người.",
+    "choiceExplanations": [
+      "Sai — I là dạng chủ ngữ, nhưng Tom and I ở đây là tân ngữ của invited; đây là lỗi hypercorrection.",
+      "Sai — I không thể làm tân ngữ của invited, và I đứng trước Tom nghe không tự nhiên.",
+      "Đúng — me là tân ngữ của invited, dù đi cùng tên người (Tom and me).",
+      "Sai — myself là đại từ phản thân, chỉ dùng khi I là chủ ngữ của cùng mệnh đề (I invited myself)."
+    ]
+  },
+  {
+    "id": "en-style-and-register-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u3-pronoun-case",
+    "tags": [
+      "sr-u3-pronoun-case"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu trả lời trang trọng nhất",
+    "prompt": "Which reply to 'Who left the lights on?' is the most formal?",
+    "choices": [
+      "It was me.",
+      "Me did.",
+      "Was me.",
+      "It was I."
+    ],
+    "correctIndex": 3,
+    "explanation": "It was I là dạng cổ điển, ít dùng thường ngày.",
+    "choiceExplanations": [
+      "Sai — It was me tự nhiên và phổ biến hơn trong thực tế, nhưng kém trang trọng hơn It was I.",
+      "Sai — Me did không đúng ngữ pháp vì me không làm chủ ngữ.",
+      "Sai — Was me thiếu chủ ngữ It nên không thành câu hoàn chỉnh.",
+      "Đúng — It was I là dạng chủ ngữ cổ điển, cực kỳ trang trọng (đề hỏi dạng trang trọng nhất)."
+    ]
+  },
+  {
+    "id": "en-style-and-register-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u3-pronoun-case",
+    "tags": [
+      "sr-u3-pronoun-case"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu có nghĩa đúng",
+    "prompt": "Which sentence can mean 'He likes the dog more than he likes me'?",
+    "choices": [
+      "He likes the dog more than me.",
+      "He likes the dog more than I.",
+      "He likes the dog more than I do.",
+      "He likes the dog more than mine."
+    ],
+    "correctIndex": 0,
+    "explanation": "Đại từ sau than có thể quyết định nghĩa: than me (đối tượng được thích) khác than I do (chủ thể thích). Than me trong lời nói còn có thể mơ hồ, nên cần rõ thì thêm động từ.",
+    "choiceExplanations": [
+      "Đúng — than me ngay sau động từ có thể hiểu là so sánh hai đối tượng được thích: con chó hơn cả tôi. (Vì dễ gây mơ hồ, văn viết cẩn thận sẽ nói rõ than he likes me.)",
+      "Sai — than I (do) chỉ chủ thể: tôi cũng thích con chó nhưng anh ấy thích hơn; nghĩa khác.",
+      "Sai — than I do cũng so sánh mức độ thích con chó của hai người (anh ấy và tôi), không nói gì về việc anh ấy thích tôi.",
+      "Sai — mine thay cho my dog, nghĩa là hơn con chó của tôi, không liên quan đến việc thích tôi."
+    ]
+  },
+  {
+    "id": "en-style-and-register-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u4-that-omission",
+    "tags": [
+      "sr-u4-that-omission"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn câu không được lược that",
+    "prompt": "In which sentence can 'that' NOT be left out?",
+    "choices": [
+      "She said that she was tired.",
+      "That he lied surprised everyone.",
+      "I'm sure that he will come.",
+      "They know that we're late."
+    ],
+    "correctIndex": 1,
+    "explanation": "Mệnh đề chủ ngữ cần that.",
+    "choiceExplanations": [
+      "Sai — said that she was tired lược that vẫn tự nhiên (She said she was tired), vì that chỉ nối mệnh đề báo cáo.",
+      "Đúng — That he lied là mệnh đề làm chủ ngữ của surprised; lược that sẽ thành He lied surprised everyone, câu khó hiểu.",
+      "Sai — sau tính từ sure, that thường được lược (I'm sure he will come); đây là cách nói tự nhiên.",
+      "Sai — sau động từ suy nghĩ know, that thường được lược (They know we're late); không bắt buộc phải giữ."
+    ]
+  },
+  {
+    "id": "en-style-and-register-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u4-that-omission",
+    "tags": [
+      "sr-u4-that-omission"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence is incorrect?",
+    "choices": [
+      "The song I heard yesterday was great.",
+      "The girl I met yesterday is my cousin.",
+      "The movie we watched was funny.",
+      "The girl lives next door is my cousin."
+    ],
+    "correctIndex": 3,
+    "explanation": "The girl that lives next door.",
+    "choiceExplanations": [
+      "Sai — câu này đúng: that (tân ngữ của heard) đã được lược, nên không phải câu sai cần tìm.",
+      "Sai — câu này đúng: that (tân ngữ của met) có thể lược, nên không phải đáp án.",
+      "Sai — câu này đúng: that (tân ngữ của watched) có thể lược, nên không phải đáp án.",
+      "Đúng — ở đây that/who là chủ ngữ của lives, không được lược; phải nói The girl that/who lives next door."
+    ]
+  },
+  {
+    "id": "en-style-and-register-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u4-that-omission",
+    "tags": [
+      "sr-u4-that-omission"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng nhất",
+    "prompt": "Which sentence is the best choice for a formal report?",
+    "choices": [
+      "She told the committee, in a calm voice, the project had failed.",
+      "She told the committee, in a calm voice, which the project had failed.",
+      "She told the committee, in a calm voice, what the project had failed.",
+      "She told the committee, in a calm voice, that the project had failed."
+    ],
+    "correctIndex": 3,
+    "explanation": "Khi có cụm xen vào, không lược that.",
+    "choiceExplanations": [
+      "Sai — bỏ that khi có cụm xen in a calm voice làm người đọc khó thấy mệnh đề the project had failed bắt đầu từ đâu; văn trang trọng nên giữ that.",
+      "Sai — which không thể mở mệnh đề danh từ sau told (the project had failed không phải là mệnh đề quan hệ).",
+      "Sai — what tạo ra nghĩa 'cái mà' và để lại động từ failed không có chủ ngữ rõ ràng; sai chức năng.",
+      "Đúng — khi có cụm xen, giữ that để báo hiệu rõ mệnh đề được thuật lại."
+    ]
+  },
+  {
+    "id": "en-style-and-register-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u4-that-omission",
+    "tags": [
+      "sr-u4-that-omission"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The fact ______ she had never visited the city surprised her hosts.",
+    "choices": [
+      "which",
+      "what",
+      "that",
+      "of"
+    ],
+    "correctIndex": 2,
+    "explanation": "the fact that.",
+    "choiceExplanations": [
+      "Sai — which không nối được danh từ fact với mệnh đề giải thích; đồng vị mệnh đề dùng that.",
+      "Sai — what không đi sau danh từ để mở mệnh đề giải thích (the fact what là sai).",
+      "Đúng — that mở mệnh đề đồng vị giải thích cho danh từ trừu tượng fact (the fact that...).",
+      "Sai — the fact of cần danh động từ (the fact of her never having visited), không đi với mệnh đề she had never visited."
+    ]
+  },
+  {
+    "id": "en-style-and-register-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u4-that-omission",
+    "tags": [
+      "sr-u4-that-omission"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the experiment failed twice did not discourage the team.",
+    "choices": [
+      "It",
+      "That",
+      "Which",
+      "Because"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mệnh đề chủ ngữ bắt đầu bằng That.",
+    "choiceExplanations": [
+      "Sai — It the experiment failed twice không thành mệnh đề; It chỉ dùng được với chủ ngữ giả (It surprised... that ...).",
+      "Đúng — That mở mệnh đề danh từ làm chủ ngữ của did not discourage.",
+      "Sai — which không mở được mệnh đề danh từ làm chủ ngữ; nó chỉ là đại từ quan hệ hoặc nghi vấn.",
+      "Sai — Because tạo mệnh đề trạng ngữ nên câu thiếu chủ ngữ cho did not discourage."
+    ]
+  },
+  {
+    "id": "en-style-and-register-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u5-formal-subjunctive-shall",
+    "tags": [
+      "sr-u5-formal-subjunctive-shall"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We will finish the project on time, come what ______.",
+    "choices": [
+      "must",
+      "do",
+      "is",
+      "may"
+    ],
+    "correctIndex": 3,
+    "explanation": "Come what may là thành ngữ giả định cố định: dù chuyện gì xảy ra.",
+    "choiceExplanations": [
+      "Sai — come what must không phải thành ngữ; dạng cố định dùng may.",
+      "Sai — come what do sai ngữ pháp; thành ngữ giữ nguyên mẫu may.",
+      "Sai — come what is không tạo thành thành ngữ này, và is không phải dạng giả định.",
+      "Đúng — come what may là cụm giả định cố định, nghĩa là dù có chuyện gì xảy ra."
+    ]
+  },
+  {
+    "id": "en-style-and-register-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u5-formal-subjunctive-shall",
+    "tags": [
+      "sr-u5-formal-subjunctive-shall"
+    ],
+    "difficulty": 2,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Suffice it ______ that the trip was a complete success.",
+    "choices": [
+      "saying",
+      "said",
+      "say",
+      "to say"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suffice it to say that... là cụm giả định cố định, nghĩa là chỉ cần nói rằng.",
+    "choiceExplanations": [
+      "Sai — suffice it saying không đúng cấu trúc; cụm cố định dùng to + nguyên mẫu.",
+      "Sai — said là quá khứ/V3, không đi sau suffice it.",
+      "Sai — thiếu to; cụm cố định là suffice it to say.",
+      "Đúng — Suffice it to say (that)... là cách nói giả định cố định: chỉ cần nói rằng."
+    ]
+  },
+  {
+    "id": "en-style-and-register-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u5-formal-subjunctive-shall",
+    "tags": [
+      "sr-u5-formal-subjunctive-shall"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Formal register: The speaker acted as though he ______ the only expert in the room, although three others were present.",
+    "choices": [
+      "is",
+      "being",
+      "were",
+      "be"
+    ],
+    "correctIndex": 2,
+    "explanation": "as though he were.",
+    "choiceExplanations": [
+      "Sai — is nói về điều có thật ở hiện tại, nhưng trong khi đó có ba chuyên gia khác, nên điều này trái thực tế và cần were.",
+      "Sai — being không phải động từ chia nên không tạo thành mệnh đề đầy đủ sau as though.",
+      "Đúng — were dùng cho điều trái thực tế sau as though/as if, ở mọi ngôi trong văn trang trọng.",
+      "Sai — be là dạng giả định sau yêu cầu/đề nghị (insist that he be), không dùng sau as though."
+    ]
+  },
+  {
+    "id": "en-style-and-register-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u5-formal-subjunctive-shall",
+    "tags": [
+      "sr-u5-formal-subjunctive-shall"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "In formal rules, 'The committee shall meet twice a year' mainly expresses:",
+    "choices": [
+      "a polite request",
+      "a rule or obligation",
+      "a past habit",
+      "a simple prediction"
+    ],
+    "correctIndex": 1,
+    "explanation": "shall = phải.",
+    "choiceExplanations": [
+      "Sai — lời yêu cầu lịch sự thường dùng would you mind hoặc could, còn shall ở đây nêu quy định.",
+      "Đúng — trong quy định, điều lệ, shall diễn tả nghĩa vụ bắt buộc (the committee phải họp hai lần một năm).",
+      "Sai — thói quen quá khứ dùng used to/would, không dùng shall.",
+      "Sai — dự đoán dùng will; shall trong văn bản quy định không đoán mà bắt buộc."
+    ]
+  },
+  {
+    "id": "en-style-and-register-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u5-formal-subjunctive-shall",
+    "tags": [
+      "sr-u5-formal-subjunctive-shall"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Prices have risen sharply. ______, the club will not raise its fees this year.",
+    "choices": [
+      "Being that as it may",
+      "Be that as it may",
+      "It be that as it may",
+      "Is that as it may"
+    ],
+    "correctIndex": 1,
+    "explanation": "Be that as it may là cụm giả định cố định nghĩa là dù vậy, tuy nhiên.",
+    "choiceExplanations": [
+      "Sai — being biến cụm thành V-ing; thành ngữ cố định dùng dạng nguyên mẫu be.",
+      "Đúng — Be that as it may là cụm giả định cố định trang trọng, nghĩa là tuy nhiên/dù vậy.",
+      "Sai — it be that as it may không phải thành ngữ; câu mở đầu bằng be, không có it.",
+      "Sai — Is that as it may là dạng câu hỏi, không phải cụm giả định cố định."
+    ]
+  },
+  {
+    "id": "en-style-and-register-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u5-formal-subjunctive-shall",
+    "tags": [
+      "sr-u5-formal-subjunctive-shall"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Formal minutes: Her proposal that the library ______ open on Sundays was approved.",
+    "choices": [
+      "stay",
+      "stays",
+      "staying",
+      "to stay"
+    ],
+    "correctIndex": 0,
+    "explanation": "proposal/suggestion/demand + that + S + nguyên mẫu.",
+    "choiceExplanations": [
+      "Đúng — sau danh từ chỉ đề nghị (proposal) trong văn trang trọng, mệnh đề that dùng nguyên mẫu cho mọi ngôi (stay).",
+      "Sai — stays là thì thường; trong văn bản trang trọng sau proposal that cần nguyên mẫu stay (Anh-Anh còn dùng should stay).",
+      "Sai — staying là V-ing nên mệnh đề that không có động từ chia, câu không hoàn chỉnh.",
+      "Sai — to stay không đi sau that và chủ ngữ the library trong mệnh đề này."
+    ]
+  },
+  {
+    "id": "en-style-and-register-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u6-passive-nominalisation",
+    "tags": [
+      "sr-u6-passive-nominalisation"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn câu khách quan nhất",
+    "prompt": "Which sentence sounds the most objective, as in a science report?",
+    "choices": [
+      "We put the samples in water for ten minutes.",
+      "The samples were placed in water for ten minutes.",
+      "I put the samples in water for ten minutes.",
+      "You put the samples in water for ten minutes."
+    ],
+    "correctIndex": 1,
+    "explanation": "Báo cáo khoa học thường dùng bị động để tập trung vào việc làm.",
+    "choiceExplanations": [
+      "Sai — nêu người làm (We), nghe cá nhân hơn.",
+      "Đúng — bị động bỏ tác nhân, tập trung vào quy trình, đúng văn báo cáo.",
+      "Sai — nêu người làm (I), kém khách quan.",
+      "Sai — You nghe như hướng dẫn, không phải báo cáo khách quan."
+    ]
+  },
+  {
+    "id": "en-style-and-register-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u6-passive-nominalisation",
+    "tags": [
+      "sr-u6-passive-nominalisation"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The ______ to close the pool surprised many families.",
+    "choices": [
+      "decision",
+      "decide",
+      "deciding",
+      "decided"
+    ],
+    "correctIndex": 0,
+    "explanation": "The decision to close... là danh hóa của 'They decided to close'.",
+    "choiceExplanations": [
+      "Đúng — danh từ do decide biến thành, làm chủ ngữ cùng 'to close'.",
+      "Sai — decide là động từ, không làm trung tâm cụm danh từ sau The.",
+      "Sai — deciding không đi với 'to close' để tạo cụm danh từ tự nhiên ở đây.",
+      "Sai — decided là quá khứ/V3, không đứng sau The làm danh từ."
+    ]
+  },
+  {
+    "id": "en-style-and-register-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u6-passive-nominalisation",
+    "tags": [
+      "sr-u6-passive-nominalisation"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu danh hóa",
+    "prompt": "Which sentence is a nominalised version of 'Because the town grew quickly, traffic got worse'?",
+    "choices": [
+      "The town rapidly grew, so traffic got worse.",
+      "As the town grew rapidly, traffic worsened.",
+      "Traffic worsened because it grew.",
+      "The rapid growth of the town worsened traffic."
+    ],
+    "correctIndex": 3,
+    "explanation": "Danh hóa biến mệnh đề thành cụm danh từ: the rapid growth of the town.",
+    "choiceExplanations": [
+      "Sai — vẫn dùng động từ grew và so, chưa danh hóa.",
+      "Sai — vẫn là mệnh đề với động từ grew.",
+      "Sai — đổi chủ ngữ it, nghĩa mơ hồ và vẫn là mệnh đề.",
+      "Đúng — growth (danh từ) thay mệnh đề 'the town grew quickly'."
+    ]
+  },
+  {
+    "id": "en-style-and-register-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u6-passive-nominalisation",
+    "tags": [
+      "sr-u6-passive-nominalisation"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It is widely ______ that sleep improves memory.",
+    "choices": [
+      "believed",
+      "believe",
+      "believing",
+      "to believe"
+    ],
+    "correctIndex": 0,
+    "explanation": "It is + V3 + that... dùng để nêu quan điểm chung mà không nói ai tin.",
+    "choiceExplanations": [
+      "Đúng — It is believed that: bị động vô nhân xưng.",
+      "Sai — believe là nguyên mẫu, sau is cần V3.",
+      "Sai — believing là V-ing, không tạo bị động.",
+      "Sai — to believe không đứng sau is widely trong cấu trúc này."
+    ]
+  },
+  {
+    "id": "en-style-and-register-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u6-passive-nominalisation",
+    "tags": [
+      "sr-u6-passive-nominalisation"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu không chỉ mặt ai",
+    "prompt": "A newsletter reports a broken window without blaming anyone. Which sentence does this best?",
+    "choices": [
+      "Someone broke the window during the match.",
+      "The pupil broke the window during the match.",
+      "A window was broken during the match.",
+      "They broke the window during the match."
+    ],
+    "correctIndex": 2,
+    "explanation": "Bị động bỏ tác nhân giúp tránh chỉ mặt ai.",
+    "choiceExplanations": [
+      "Sai — someone vẫn nêu ra một người làm hành động (dù không rõ ai), nên không thật sự bỏ tác nhân.",
+      "Sai — the pupil nêu rõ người làm, có thể chỉ mặt ai đó.",
+      "Đúng — bị động không có by-phrase bỏ hẳn tác nhân, nên không chỉ mặt ai.",
+      "Sai — they vẫn là tác nhân (một nhóm người), nên vẫn gán trách nhiệm cho ai đó."
+    ]
+  },
+  {
+    "id": "en-style-and-register-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u6-passive-nominalisation",
+    "tags": [
+      "sr-u6-passive-nominalisation"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The experiment ______ to have been the first of its kind.",
+    "choices": [
+      "believes",
+      "is believing",
+      "believed",
+      "is believed"
+    ],
+    "correctIndex": 3,
+    "explanation": "is believed to have been.",
+    "choiceExplanations": [
+      "Sai — chủ ngữ là thí nghiệm, không tự 'believe'.",
+      "Sai — is believing là tiếp diễn chủ động, sai nghĩa.",
+      "Sai — thiếu is, thành chủ động quá khứ với chủ ngữ vô tri.",
+      "Đúng — bị động + to have been: việc xảy ra trước thời điểm nói."
+    ]
+  },
+  {
+    "id": "en-style-and-register-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u7-stylistic-fronting",
+    "tags": [
+      "sr-u7-stylistic-fronting"
+    ],
+    "difficulty": 2,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Gone are the days ______ students copied notes from the board by hand.",
+    "choices": [
+      "which",
+      "when",
+      "what",
+      "why"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gone are the days when... là cấu trúc đưa bổ ngữ lên đầu với be đảo trước chủ ngữ.",
+    "choiceExplanations": [
+      "Sai — which làm tân ngữ/chủ ngữ trong mệnh đề quan hệ, nhưng mệnh đề students copied notes đã đủ thành phần, nên cần when (chỉ thời gian).",
+      "Đúng — when nối danh từ chỉ thời gian days với mệnh đề: gone are the days when...",
+      "Sai — what không đi sau danh từ the days để mở mệnh đề quan hệ.",
+      "Sai — why chỉ đi sau reason (the reason why), không đi sau days."
+    ]
+  },
+  {
+    "id": "en-style-and-register-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u7-stylistic-fronting",
+    "tags": [
+      "sr-u7-stylistic-fronting"
+    ],
+    "difficulty": 2,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ as he might, Leo could not open the jar.",
+    "choices": [
+      "Trying",
+      "Tried",
+      "Try",
+      "To try"
+    ],
+    "correctIndex": 2,
+    "explanation": "Động từ nguyên mẫu + as + S + might/may: dù cố thế nào đi nữa (Try as he might).",
+    "choiceExplanations": [
+      "Sai — Trying as he might không phải cấu trúc nhượng bộ cố định; cần dạng nguyên mẫu Try.",
+      "Sai — Tried as he might nhầm thì; sau as có might nên phần đầu giữ nguyên mẫu.",
+      "Đúng — Try as he might là cấu trúc nhượng bộ trang trọng: dù anh cố thế nào.",
+      "Sai — To try as he might không tạo cấu trúc nhượng bộ; không dùng to ở đầu."
+    ]
+  },
+  {
+    "id": "en-style-and-register-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u7-stylistic-fronting",
+    "tags": [
+      "sr-u7-stylistic-fronting"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Much ______ I admire her courage, I cannot support the plan.",
+    "choices": [
+      "like",
+      "as",
+      "than",
+      "how"
+    ],
+    "correctIndex": 1,
+    "explanation": "Much as + S + V mang nghĩa dù rất, rất trang trọng: Much as I admire her courage.",
+    "choiceExplanations": [
+      "Sai — much like nghĩa là rất giống, không mở mệnh đề nhượng bộ với chủ ngữ I.",
+      "Đúng — Much as I admire... = dù tôi rất ngưỡng mộ...; as ở đây mang nghĩa nhượng bộ.",
+      "Sai — much than không tồn tại; than chỉ dùng sau so sánh hơn.",
+      "Sai — much how không tạo mệnh đề nhượng bộ; how hỏi cách thức."
+    ]
+  },
+  {
+    "id": "en-style-and-register-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u7-stylistic-fronting",
+    "tags": [
+      "sr-u7-stylistic-fronting"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đưa tân ngữ lên đầu",
+    "prompt": "Which sentence fronts the object for emphasis?",
+    "choices": [
+      "This I refuse to believe.",
+      "I refuse to believe this.",
+      "This refuse I believe.",
+      "To believe I refuse this."
+    ],
+    "correctIndex": 0,
+    "explanation": "Đưa tân ngữ lên đầu để nhấn mạnh.",
+    "choiceExplanations": [
+      "Đúng — tân ngữ This được đưa lên đầu để nhấn mạnh, còn chủ ngữ I và động từ refuse giữ nguyên trật tự.",
+      "Sai — I refuse to believe this là trật tự thường, không đưa tân ngữ lên đầu.",
+      "Sai — This refuse I believe làm đảo động từ và chủ ngữ sai thứ tự, câu mất nghĩa.",
+      "Sai — To believe I refuse this đưa nhầm cụm to believe lên đầu và tách rời khỏi refuse."
+    ]
+  },
+  {
+    "id": "en-style-and-register-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u7-stylistic-fronting",
+    "tags": [
+      "sr-u7-stylistic-fronting"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Young ______ she was, Priya led the team with confidence.",
+    "choices": [
+      "despite",
+      "though",
+      "however",
+      "unless"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tính từ + though/as + S + V: dù còn trẻ (Young though she was).",
+    "choiceExplanations": [
+      "Sai — despite là giới từ, đi với danh từ hoặc V-ing, không đi với mệnh đề she was.",
+      "Đúng — Adj + though + S + V là cấu trúc nhượng bộ: Young though she was = dù còn trẻ.",
+      "Sai — however là trạng từ nối, không đứng giữa tính từ và chủ ngữ ở dạng này; Young however she was có nghĩa khác (dù trẻ đến đâu).",
+      "Sai — unless nghĩa là trừ khi, không có nghĩa nhượng bộ."
+    ]
+  },
+  {
+    "id": "en-style-and-register-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u7-stylistic-fronting",
+    "tags": [
+      "sr-u7-stylistic-fronting"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Tìm câu sai",
+    "prompt": "Which sentence is NOT correct?",
+    "choices": [
+      "Hard as it was, she finished the race.",
+      "Try as might she, she could not remember the code.",
+      "Gone are the days when we wrote letters by hand.",
+      "This I have always believed."
+    ],
+    "correctIndex": 1,
+    "explanation": "Try as she might: chủ ngữ she đứng trước might; không đảo thành might she.",
+    "choiceExplanations": [
+      "Sai — câu này đúng (Adj + as + S + V nhượng bộ), nên không phải câu cần tìm.",
+      "Đúng — sai vì sau as phải là chủ ngữ + might (as she might), không đảo might she.",
+      "Sai — câu này đúng: gone are the days when là cấu trúc đảo văn phong cố định.",
+      "Sai — câu này đúng: tân ngữ This được đưa lên đầu, giữ nguyên chủ ngữ và động từ."
+    ]
+  },
+  {
+    "id": "en-style-and-register-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u8-formal-words-tone",
+    "tags": [
+      "sr-u8-formal-words-tone"
+    ],
+    "difficulty": 2,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Formal email: The company introduced a scheme ______ employees can work from home two days a week.",
+    "choices": [
+      "whereas",
+      "whenever",
+      "whereupon",
+      "whereby"
+    ],
+    "correctIndex": 3,
+    "explanation": "a scheme whereby employees can work from home = a scheme by which employees can work from home.",
+    "choiceExplanations": [
+      "Sai — whereas nghĩa là trong khi (đối chiếu hai ý), không nối danh từ scheme với cách thức.",
+      "Sai — whenever nghĩa là bất cứ khi nào, nên không mang nghĩa cách thức/cơ chế.",
+      "Sai — whereupon nghĩa là ngay sau đó, thường nối hai sự kiện kế tiếp nhau, không mô tả một cơ chế.",
+      "Đúng — whereby = by which, dùng để mô tả cơ chế/cách thức mà nhờ đó điều gì xảy ra."
+    ]
+  },
+  {
+    "id": "en-style-and-register-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u8-formal-words-tone",
+    "tags": [
+      "sr-u8-formal-words-tone"
+    ],
+    "difficulty": 2,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ declare that the information in this form is correct.",
+    "choices": [
+      "whereby",
+      "thereby",
+      "hereby",
+      "thereof"
+    ],
+    "correctIndex": 2,
+    "explanation": "I hereby declare = tôi xin tuyên bố bằng văn bản này.",
+    "choiceExplanations": [
+      "Sai — whereby = by which cần một danh từ đứng trước để nối (a scheme whereby), không dùng để tuyên bố.",
+      "Sai — thereby chỉ kết quả của hành động vừa nêu (thereby giving up), không dùng để tuyên bố.",
+      "Đúng — hereby = bằng văn bản này, dùng khi tuyên bố chính thức: I hereby declare...",
+      "Sai — thereof nghĩa là của cái đó và đứng sau danh từ (the terms thereof), không đứng trước declare."
+    ]
+  },
+  {
+    "id": "en-style-and-register-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u4-that-omission",
+    "tags": [
+      "sr-u4-that-omission"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu phù hợp nhất",
+    "prompt": "Which version is the most appropriate for a formal notice?",
+    "choices": [
+      "We regret to inform you, the course has been cancelled.",
+      "We regret to inform you what the course has been cancelled.",
+      "We regret to inform you that the course has been cancelled.",
+      "We regret to inform you the course has been cancelled."
+    ],
+    "correctIndex": 2,
+    "explanation": "Văn bản trang trọng thường giữ that sau động từ/cụm báo tin để câu rõ ràng.",
+    "choiceExplanations": [
+      "Sai — nối hai mệnh đề chỉ bằng dấu phẩy là lỗi comma splice, và thiếu that.",
+      "Sai — what tạo mệnh đề danh từ có nghĩa 'cái mà', không hợp ở đây vì the course has been cancelled là sự việc cần thuật lại.",
+      "Đúng — giữ that làm câu rõ ràng và trang trọng trong thông báo chính thức.",
+      "Sai — lược that nghe chấp nhận được trong lời nói, nhưng không phải lựa chọn trang trọng nhất cho thông báo."
+    ]
+  },
+  {
+    "id": "en-style-and-register-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u8-formal-words-tone",
+    "tags": [
+      "sr-u8-formal-words-tone"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn từ đồng nghĩa trang trọng",
+    "prompt": "Which word is the formal equivalent of 'find out'?",
+    "choices": [
+      "ascertain",
+      "ascend",
+      "assure",
+      "assemble"
+    ],
+    "correctIndex": 0,
+    "explanation": "find out → ascertain.",
+    "choiceExplanations": [
+      "Đúng — ascertain là từ trang trọng gốc Latin nghĩa là tìm ra, xác định (= find out).",
+      "Sai — ascend nghĩa là đi lên, bay lên, không liên quan đến việc tìm ra thông tin.",
+      "Sai — assure nghĩa là đảm bảo, trấn an ai, khác với find out.",
+      "Sai — assemble nghĩa là lắp ráp hoặc tập hợp, không đồng nghĩa với find out."
+    ]
+  },
+  {
+    "id": "en-style-and-register-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u8-formal-words-tone",
+    "tags": [
+      "sr-u8-formal-words-tone"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng và trang trọng",
+    "prompt": "Which sentence is grammatically correct AND uses the more formal verb?",
+    "choices": [
+      "She turned down it.",
+      "She turned it down.",
+      "She declined down it.",
+      "She declined it."
+    ],
+    "correctIndex": 3,
+    "explanation": "Decline là động từ trang trọng, không cần tiểu từ; turn down là động từ cụm, đại từ phải tách (turn it down).",
+    "choiceExplanations": [
+      "Sai — với động từ cụm tách được, đại từ phải đứng giữa: turned it down, không phải turned down it.",
+      "Sai — turned it down đúng ngữ pháp nhưng là động từ cụm thân mật, không phải dạng trang trọng mà đề yêu cầu.",
+      "Sai — declined là động từ một từ, không đi với tiểu từ down.",
+      "Đúng — declined it dùng động từ gốc Latin trang trọng, nhận tân ngữ trực tiếp, không cần tiểu từ."
+    ]
+  },
+  {
+    "id": "en-style-and-register-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u8-formal-words-tone",
+    "tags": [
+      "sr-u8-formal-words-tone"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn sắc thái",
+    "prompt": "A student reads: 'With respect, I believe the figures may need to be checked again.' The tone is best described as:",
+    "choices": [
+      "rude and blunt",
+      "polite and indirect",
+      "sarcastic",
+      "casual and joking"
+    ],
+    "correctIndex": 1,
+    "explanation": "Các từ giảm nhẹ (with respect, I believe, may) tạo giọng lịch sự, gián tiếp.",
+    "choiceExplanations": [
+      "Sai — câu thô lỗ sẽ nói thẳng như The figures are wrong, còn câu này dùng With respect và may need.",
+      "Đúng — With respect, I believe và may need làm giảm nhẹ lời phản đối, giọng lịch sự và gián tiếp.",
+      "Sai — mỉa mai cần lời khen trái ngược hoàn cảnh; ở đây không có từ nào như vậy.",
+      "Sai — từ ngữ trang trọng, không có yếu tố đùa, nên không phải giọng thân mật hay đùa."
+    ]
+  },
+  {
+    "id": "en-style-and-register-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u8-formal-words-tone",
+    "tags": [
+      "sr-u8-formal-words-tone"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Nhận ra sắc thái",
+    "prompt": "After the bus left without them for the third time, Ana said, 'Well, that was SO well organised.' She is being:",
+    "choices": [
+      "grateful",
+      "sarcastic",
+      "formal",
+      "uncertain"
+    ],
+    "correctIndex": 1,
+    "explanation": "Khen trái hoàn cảnh cộng nhấn mạnh thường là mỉa mai.",
+    "choiceExplanations": [
+      "Sai — nếu biết ơn thì hoàn cảnh phải tốt, ở đây bị bỏ lại ba lần.",
+      "Đúng — lời khen trái với hoàn cảnh tệ, nhấn mạnh SO nên là mỉa mai.",
+      "Sai — câu mang giọng nói thân mật (Well, SO), không trang trọng.",
+      "Sai — không có dấu hiệu do dự; giọng chắc chắn và chua chát."
+    ]
+  },
+  {
+    "id": "en-style-and-register-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u8-formal-words-tone",
+    "tags": [
+      "sr-u8-formal-words-tone"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn câu thẳng thừng nhất",
+    "prompt": "Which sentence is the most direct?",
+    "choices": [
+      "Would you mind handing in your essay today?",
+      "Hand in your essay today.",
+      "I wonder if you could possibly hand in your essay today.",
+      "It would be appreciated if essays were handed in today."
+    ],
+    "correctIndex": 1,
+    "explanation": "Mệnh lệnh trực tiếp là thẳng nhất.",
+    "choiceExplanations": [
+      "Sai — Would you mind...? là cách hỏi lịch sự, ít thẳng hơn một mệnh lệnh.",
+      "Đúng — Hand in your essay today là mệnh lệnh trực tiếp, không có từ giảm nhẹ nên thẳng nhất.",
+      "Sai — I wonder if you could possibly rất gián tiếp, ngược với thẳng.",
+      "Sai — dùng bị động và It would be appreciated nên gián tiếp, trang trọng hơn nhiều."
+    ]
+  },
+  {
+    "id": "en-style-and-register-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "style-and-register",
+    "usageId": "sr-u8-formal-words-tone",
+    "tags": [
+      "sr-u8-formal-words-tone"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn yêu cầu trang trọng nhất",
+    "prompt": "Which request is the most formal and indirect?",
+    "choices": [
+      "It would be greatly appreciated if essays were submitted by Friday.",
+      "Give me your essay by Friday.",
+      "Can you give me your essay by Friday?",
+      "Please hand in your essay by Friday."
+    ],
+    "correctIndex": 0,
+    "explanation": "Bị động + would be appreciated = trang trọng, gián tiếp.",
+    "choiceExplanations": [
+      "Đúng — bị động, would be appreciated và greatly tạo giọng trang trọng, gián tiếp nhất (không nêu ai phải làm).",
+      "Sai — Give me your essay là mệnh lệnh trực tiếp, thẳng thừng.",
+      "Sai — Can you...? là câu hỏi thân mật, chưa trang trọng.",
+      "Sai — Please làm mệnh lệnh lịch sự hơn, nhưng vẫn là mệnh lệnh trực tiếp, kém gián tiếp hơn câu bị động."
+    ]
+  }
+]

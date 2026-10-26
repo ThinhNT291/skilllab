@@ -10,7 +10,7 @@ export interface ListeningItem {
   questions: ReadingQuestion[]
 }
 
-export const LISTENING_BACS: Bac[] = [1, 2, 3, 4]
+export const LISTENING_BACS: Bac[] = [1, 2, 3, 4, 5, 6]
 export const listeningTopic = (bac: number) => `listening-b${bac}`
 
 export function itemToExercises(it: ListeningItem): McqExercise[] {

@@ -53,6 +53,8 @@ export interface Settings {
   feedbackMode: FeedbackMode
   /** Chế độ nhẹ nhàng: ẩn chuỗi ngày và mục tiêu hằng ngày, không nhắc nhở, giữ phần thưởng nhỏ */
   calmMode: boolean
+  /** Kiểu hiển thị khu Học: bản đồ chặng hay danh sách */
+  hocView: "road" | "list"
   /** Mức nhớ mục tiêu của FSRS (0.85 / 0.9 / 0.95) */
   retention: number
   /** Đã qua màn chọn nhân vật và bộ giao diện lần đầu chưa */
@@ -60,7 +62,7 @@ export interface Settings {
 }
 
 const KEY = "skilllab.settings"
-const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", showBac: false, dailyGoal: 10, newPerDay: 10, character: "owl", ageSet: "kids", srsAlgorithm: "fsrs", feedbackMode: "immediate", calmMode: false, retention: 0.9, onboarded: false }
+const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", showBac: false, dailyGoal: 10, newPerDay: 10, character: "owl", ageSet: "kids", srsAlgorithm: "fsrs", feedbackMode: "immediate", calmMode: false, hocView: "road", retention: 0.9, onboarded: false }
 const listeners = new Set<() => void>()
 let cache: Settings | null = null
 
@@ -75,7 +77,7 @@ function read(): Settings {
       const fontSize = FONT_SIZES.some((f) => f.id === p.fontSize) ? (p.fontSize as FontSize) : DEFAULTS.fontSize
       const character = CHARACTERS.some((c) => c.id === p.character) ? (p.character as Character) : DEFAULTS.character
       const ageSet = AGE_SETS.some((a) => a.id === p.ageSet) ? (p.ageSet as AgeSet) : DEFAULTS.ageSet
-      return { skin, sound: p.sound !== false, fontSize, showBac: p.showBac === true, dailyGoal, newPerDay, character, ageSet, srsAlgorithm: p.srsAlgorithm === "sm2" ? "sm2" : "fsrs", feedbackMode: p.feedbackMode === "hint-first" ? "hint-first" : "immediate", calmMode: p.calmMode === true, retention: (RETENTIONS as readonly number[]).includes(p.retention as number) ? (p.retention as number) : DEFAULTS.retention, onboarded: p.onboarded === true }
+      return { skin, sound: p.sound !== false, fontSize, showBac: p.showBac === true, dailyGoal, newPerDay, character, ageSet, srsAlgorithm: p.srsAlgorithm === "sm2" ? "sm2" : "fsrs", feedbackMode: p.feedbackMode === "hint-first" ? "hint-first" : "immediate", calmMode: p.calmMode === true, hocView: p.hocView === "list" ? "list" : "road", retention: (RETENTIONS as readonly number[]).includes(p.retention as number) ? (p.retention as number) : DEFAULTS.retention, onboarded: p.onboarded === true }
     }
   } catch {
     // Trình duyệt chặn lưu trữ: dùng mặc định

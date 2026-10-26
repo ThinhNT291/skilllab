@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "ls-b5-001",
+    "bac": 5,
+    "title": "Thảo luận nhóm chọn dự án môi trường",
+    "transcript": "A: Okay, so we've got two proposals for the environmental project, and we need to settle on one by Friday. Marcus, you wanted to start with the wetland?\nB: Yes. The marsh behind the sports field has been neglected for years. My idea is to clear it, then record which birds come back. I reckoned we'd need about twenty volunteers, though Mr. Ortiz said fifteen would be plenty.\nC: I like the ambition, but I'm not convinced it's realistic. The ground there floods every spring, so anything we build could be washed away. And we'd need permission from the city, which could take months.\nB: Fair enough, but we wouldn't be building anything. That's the point. We'd just be removing trash and writing down what we see.\nC: Although, doesn't that make it less impressive? The judges tend to reward projects with something tangible at the end.\nA: That's a good point, Dana. Remind us what yours was?\nC: A rooftop garden on the science building. It's visible, it's measurable, and the principal has already said he's open to it. The downside is the cost. I've heard estimates of around eight hundred dollars, maybe closer to a thousand once you add soil and drainage.\nB: A thousand dollars is a lot to raise by the spring, and honestly, I'd worry it's the kind of project that looks great on opening day and then gets abandoned by the summer.\nA: What if we combined them? Start with the marsh cleanup this term, since it costs almost nothing, and use the photos and bird records to support a garden application later?\nC: I could live with that, as long as the garden isn't dropped completely.\nB: And I'd be happy provided we organize the volunteers properly this time.\nA: Then I'll draft a schedule tonight and we'll vote tomorrow.",
+    "questions": [
+      {
+        "prompt": "What is Dana's remaining worry about the marsh project?",
+        "choices": [
+          "It would need more than twenty volunteers.",
+          "The ground is too wet for anyone to work there.",
+          "It might not impress the judges because there is nothing tangible to show.",
+          "The city will certainly refuse permission."
+        ],
+        "correctIndex": 2,
+        "explanation": "Dana nói dự án 'less impressive' vì ban giám khảo thích thứ 'tangible at the end'.",
+        "choiceExplanations": [
+          "Sai — 'It would need more than twenty volunteers.': Số tình nguyện viên là chuyện Marcus và thầy Ortiz bàn, Dana không lo về điều đó.",
+          "Sai — 'The ground is too wet for anyone to work there.': Dana lo về việc xây dựng bị lũ cuốn, nhưng khi Marcus nói không xây gì thì Dana không còn lo điều này.",
+          "Đúng — Dana nói dự án 'less impressive' vì ban giám khảo thích thứ 'tangible at the end'.",
+          "Sai — 'The city will certainly refuse permission.': Dana chỉ nói xin phép có thể mất nhiều tháng, không nói thành phố sẽ từ chối."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Marcus and Mr. Ortiz agree that about twenty volunteers will be needed.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Marcus ước tính khoảng hai mươi người, nhưng thầy Ortiz nói 'fifteen would be plenty', nên hai người không đồng ý với nhau.",
+        "choiceExplanations": [
+          "Sai — 'True': Chỉ Marcus nói hai mươi; thầy Ortiz cho rằng mười lăm là đủ.",
+          "Đúng — Marcus ước tính khoảng hai mươi người, nhưng thầy Ortiz nói 'fifteen would be plenty', nên hai người không đồng ý với nhau.",
+          "Sai — 'Not given': Bài có nêu rõ ý kiến của cả hai người."
+        ]
+      },
+      {
+        "prompt": "What is Marcus's attitude to the rooftop garden?",
+        "choices": [
+          "She fears it may be neglected after the first excitement.",
+          "She thinks it is far too cheap to impress anyone.",
+          "She believes the principal will refuse it.",
+          "She wants to begin building it this term."
+        ],
+        "correctIndex": 0,
+        "explanation": "Marcus lo nó 'looks great on opening day and then gets abandoned by the summer'.",
+        "choiceExplanations": [
+          "Đúng — Marcus lo nó 'looks great on opening day and then gets abandoned by the summer'.",
+          "Sai — 'She thinks it is far too cheap to impress anyone.': Marcus lo về việc bỏ dở, còn chi phí thì chính Marcus cho là 'a lot to raise'.",
+          "Sai — 'She believes the principal will refuse it.': Chính Dana nói hiệu trưởng đã tỏ ý sẵn sàng; Marcus không phản bác điều đó.",
+          "Sai — 'She wants to begin building it this term.': Marcus muốn bắt đầu với đầm lầy, còn khu vườn để sau."
+        ]
+      },
+      {
+        "prompt": "What do the three students finally agree to try?",
+        "choices": [
+          "Voting at once between the marsh and the garden.",
+          "Dropping the garden and raising money for the marsh.",
+          "Asking the city for money to build in the marsh.",
+          "Cleaning the marsh first and using the results to support a later garden application."
+        ],
+        "correctIndex": 3,
+        "explanation": "A đề nghị 'Start with the marsh cleanup this term' rồi dùng ảnh và ghi chép để xin làm vườn sau; Dana và Marcus đều chấp nhận.",
+        "choiceExplanations": [
+          "Sai — 'Voting at once between the marsh and the garden.': Họ định bỏ phiếu 'tomorrow' sau khi A soạn lịch, và đề xuất là kết hợp chứ không chọn một.",
+          "Sai — 'Dropping the garden and raising money for the marsh.': Dana đặt điều kiện 'as long as the garden isn't dropped completely'.",
+          "Sai — 'Asking the city for money to build in the marsh.': Không ai bàn xin tiền thành phố; chỉ nhắc cần xin phép nếu xây dựng.",
+          "Đúng — A đề nghị 'Start with the marsh cleanup this term' rồi dùng ảnh và ghi chép để xin làm vườn sau; Dana và Marcus đều chấp nhận."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-002",
+    "bac": 5,
+    "title": "Phỏng vấn chủ nhiệm câu lạc bộ thiên văn",
+    "transcript": "A: Today I'm joined by Arjun Nair, who runs the school astronomy club and has just won a regional prize for his sky photographs. Arjun, welcome.\nB: Thanks for having me. Although I should say the prize was for a team entry, so it wasn't really just me.\nA: Modest! Now, your photos were taken from the roof of the school, in the middle of town. Most people assume you need a remote mountain for that.\nB: That's the common assumption, and it's partly true. Light pollution is a real obstacle. From the roof we can see maybe a few hundred stars on a good night, whereas in the countryside you'd see thousands. But the city does have one advantage: you can't beat the convenience. We meet right after school.\nA: So how do you cope with the glare?\nB: Filters help, and so does patience. We take dozens of short exposures and combine them on a laptop. Honestly, the hardest part isn't the software. It's persuading people to turn off their lights.\nA: Persuading? How do you mean?\nB: Last autumn we wrote to local stores asking them to switch off their signs after midnight. Only two agreed, which was disappointing, but one of them was the big bookstore on Main Street, so it did make a visible difference.\nA: Do you think it's a losing battle?\nB: I used to. Now I think it's slow rather than lost. People tend to care once they've actually looked through a telescope. We held an open evening in March and over a hundred people came.\nA: And what's next for the team?\nB: We're hoping to borrow a larger telescope from the university, though nothing's been confirmed. If that falls through, we'll carry on with what we have. It's never really been about the equipment.",
+    "questions": [
+      {
+        "prompt": "What does Arjun say about photographing the sky from the middle of town?",
+        "choices": [
+          "It is impossible without a remote mountain.",
+          "It is harder because of the lights, but very convenient.",
+          "It is easier because the sky is clearer.",
+          "It is cheaper because filters are not needed."
+        ],
+        "correctIndex": 1,
+        "explanation": "Arjun nói ánh sáng đô thị là 'a real obstacle' nhưng 'you can't beat the convenience'.",
+        "choiceExplanations": [
+          "Sai — 'It is impossible without a remote mountain.': Arjun nói giả định đó chỉ 'partly true' và nhóm vẫn chụp được từ mái nhà.",
+          "Đúng — Arjun nói ánh sáng đô thị là 'a real obstacle' nhưng 'you can't beat the convenience'.",
+          "Sai — 'It is easier because the sky is clearer.': Anh nói ngược lại: ánh sáng đô thị che mất nhiều sao.",
+          "Sai — 'It is cheaper because filters are not needed.': Nhóm vẫn dùng bộ lọc; bài không bàn về chi phí."
+        ]
+      },
+      {
+        "prompt": "According to Arjun, what is the hardest part of the work?",
+        "choices": [
+          "Learning the editing software.",
+          "Taking enough photographs in one evening.",
+          "Convincing people to switch off unnecessary lights.",
+          "Finding a place to hold meetings."
+        ],
+        "correctIndex": 2,
+        "explanation": "Anh nói phần khó nhất là 'persuading people to turn off their lights', không phải phần mềm.",
+        "choiceExplanations": [
+          "Sai — 'Learning the editing software.': Anh nói rõ 'the hardest part isn't the software'.",
+          "Sai — 'Taking enough photographs in one evening.': Việc chụp nhiều ảnh phơi sáng ngắn không được nói là khó.",
+          "Đúng — Anh nói phần khó nhất là 'persuading people to turn off their lights', không phải phần mềm.",
+          "Sai — 'Finding a place to hold meetings.': Câu lạc bộ họp ngay sau giờ học; bài không nói đây là khó khăn."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The prize was won by Arjun on his own.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Arjun nói ngay đầu: 'the prize was for a team entry, so it wasn't really just me'.",
+        "choiceExplanations": [
+          "Sai — 'True': Anh đính chính rằng giải dành cho bài dự thi của cả nhóm.",
+          "Đúng — Arjun nói ngay đầu: 'the prize was for a team entry, so it wasn't really just me'.",
+          "Sai — 'Not given': Bài nói rõ giải thuộc về cả nhóm."
+        ]
+      },
+      {
+        "prompt": "How has Arjun's view of the campaign against light pollution changed?",
+        "choices": [
+          "He once felt it was hopeless, but now sees steady progress.",
+          "He used to be hopeful but is now ready to give up.",
+          "He has always believed stores will cooperate.",
+          "He now thinks only the university can solve it."
+        ],
+        "correctIndex": 0,
+        "explanation": "Anh nói 'I used to' nghĩ là thua cuộc, giờ thấy 'slow rather than lost'.",
+        "choiceExplanations": [
+          "Đúng — Anh nói 'I used to' nghĩ là thua cuộc, giờ thấy 'slow rather than lost'.",
+          "Sai — 'He used to be hopeful but is now ready to give up.': Diễn biến ngược lại: trước kia bi quan, giờ lạc quan hơn.",
+          "Sai — 'He has always believed stores will cooperate.': Anh thất vọng vì chỉ hai cửa hàng đồng ý.",
+          "Sai — 'He now thinks only the university can solve it.': Anh tin vào việc cho người ta nhìn qua kính thiên văn; đại học chỉ liên quan đến việc mượn kính."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-003",
+    "bac": 5,
+    "title": "Bài giảng ngắn về hiệu ứng giãn cách khi học",
+    "transcript": "A: Right, before we begin the review workshop, I want to challenge a habit most of you have. Many students believe the best way to prepare for a test is to read the same chapter again and again the night before. It feels productive. The material looks familiar, so you assume you know it. But familiarity and knowledge are not the same thing.\nA: Research on memory has shown something rather different. When you revisit material after a gap, say a day, then a few days, then a week, you remember it far better than if you study for the same total time in one sitting. This is known as the spacing effect. The effort of pulling information back out of your head is exactly what strengthens it.\nA: Now, I'm not saying cramming never works. If your test is tomorrow and you haven't opened the book, then of course you should study tonight. It will help you for a day or two. The trouble is that it fades quickly, and then you're starting from zero next term.\nA: So here is what I'd like you to try. After today's lesson, close your notebooks and write down everything you remember, without peeking. It will feel uncomfortable, and that's the whole point. Check your notes afterwards and mark what you missed. Then repeat the exercise on Thursday, and again at the weekend.\nB: Does it matter how long each session is?\nA: Good question. Short sessions of around twenty minutes are fine. Consistency matters much more than length. I'd rather see you do twenty minutes three times than one exhausting hour.\nB: And what about using flashcards?\nA: They're excellent, provided you actually test yourself instead of just flipping through them.",
+    "questions": [
+      {
+        "prompt": "What is the speaker's main point?",
+        "choices": [
+          "Students should avoid studying before tests.",
+          "Long study sessions are always the most effective.",
+          "Revisiting material at spaced intervals works better than repeated last-minute reading.",
+          "Familiar material is the easiest to remember."
+        ],
+        "correctIndex": 2,
+        "explanation": "A nói ôn lại sau những khoảng nghỉ cho kết quả tốt hơn học dồn cùng tổng thời gian ('the spacing effect').",
+        "choiceExplanations": [
+          "Sai — 'Students should avoid studying before tests.': A chỉ phản đối cách học dồn đêm trước, không bảo đừng học.",
+          "Sai — 'Long study sessions are always the most effective.': A nói 'Consistency matters much more than length'.",
+          "Đúng — A nói ôn lại sau những khoảng nghỉ cho kết quả tốt hơn học dồn cùng tổng thời gian ('the spacing effect').",
+          "Sai — 'Familiar material is the easiest to remember.': A cảnh báo rằng cảm giác quen thuộc không đồng nghĩa với việc đã biết."
+        ]
+      },
+      {
+        "prompt": "What does the speaker say about cramming?",
+        "choices": [
+          "It never produces any results at all.",
+          "It can help in the short term but the effect fades fast.",
+          "It is the best method if you start early enough.",
+          "It is only useful for science subjects."
+        ],
+        "correctIndex": 1,
+        "explanation": "A nói cramming giúp 'for a day or two' nhưng 'it fades quickly'.",
+        "choiceExplanations": [
+          "Sai — 'It never produces any results at all.': A nói rõ 'I'm not saying cramming never works'.",
+          "Đúng — A nói cramming giúp 'for a day or two' nhưng 'it fades quickly'.",
+          "Sai — 'It is the best method if you start early enough.': A không nói thế; người nói ủng hộ giãn cách.",
+          "Sai — 'It is only useful for science subjects.': Bài không phân biệt môn học."
+        ]
+      },
+      {
+        "prompt": "Why does the speaker want students to write down what they remember?",
+        "choices": [
+          "Struggling to recall information makes memory stronger.",
+          "It shows the teacher which students are weak.",
+          "It makes the notes neater for later.",
+          "It replaces the need for any further revision."
+        ],
+        "correctIndex": 0,
+        "explanation": "A nói 'the effort of pulling information back out of your head is exactly what strengthens it' và cảm giác khó chịu là 'the whole point'.",
+        "choiceExplanations": [
+          "Đúng — A nói 'the effort of pulling information back out of your head is exactly what strengthens it' và cảm giác khó chịu là 'the whole point'.",
+          "Sai — 'It shows the teacher which students are weak.': Người nói bảo học sinh tự kiểm tra ghi chép, không nói giáo viên thu bài.",
+          "Sai — 'It makes the notes neater for later.': Mục đích là luyện nhớ lại, không phải chép cho đẹp.",
+          "Sai — 'It replaces the need for any further revision.': Người nói yêu cầu lặp lại vào thứ Năm và cuối tuần."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The speaker says flashcards are useful if students test themselves with them.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "A nói flashcards 'excellent, provided you actually test yourself'.",
+        "choiceExplanations": [
+          "Đúng — A nói flashcards 'excellent, provided you actually test yourself'.",
+          "Sai — 'False': A khen flashcards, miễn là dùng để tự kiểm tra.",
+          "Sai — 'Not given': A có trả lời trực tiếp câu hỏi về flashcards."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-004",
+    "bac": 5,
+    "title": "Thông báo thay đổi lịch buổi hòa nhạc",
+    "transcript": "Good morning, everyone, and thank you for your attention. I have a few announcements about the winter concert, and I'm afraid some of the details have changed since the poster went up, so please listen carefully.\nFirst, the date. The concert was originally planned for Thursday evening, but the main hall is now needed for a regional exam. So we have moved it to Friday, the same week. Please correct your calendars, and tell your parents, because several of them have already asked.\nSecond, the time. The doors will open at six thirty, as before, but the performance itself will begin at seven rather than seven fifteen, because the school choir has to leave early for a competition the next morning. Orchestra members, that means you need to be backstage by five forty-five, not six.\nThird, tickets. Prices have not changed: five dollars for students and eight for adults. However, tickets bought at the door will cost two dollars more than those bought in advance, so I would encourage everyone to buy theirs from the office this week. Anyone who has already bought a ticket for Thursday does not need to do anything. Those tickets will be accepted on Friday.\nFinally, a request. Our program includes a piece written by one of our own ninth graders, and she has asked that nobody take photographs during it, as she is rather nervous. I'd be grateful if you could pass that on. Between pieces, of course, you're welcome to take as many pictures as you like.\nThat's everything. If you have questions, see Mrs. Alvarez in the music room, not at the main office, because the office has no further information. Thank you.",
+    "questions": [
+      {
+        "prompt": "Why has the concert been moved?",
+        "choices": [
+          "Too few tickets have been sold.",
+          "The choir is competing on Thursday evening.",
+          "Mrs. Alvarez is unavailable on Thursday.",
+          "The hall is needed for an exam."
+        ],
+        "correctIndex": 3,
+        "explanation": "Người thông báo nói sảnh chính 'is now needed for a regional exam'.",
+        "choiceExplanations": [
+          "Sai — 'Too few tickets have been sold.': Bài không nói bán vé ít.",
+          "Sai — 'The choir is competing on Thursday evening.': Hợp xướng đi thi vào sáng hôm sau buổi diễn, không liên quan đến việc đổi ngày.",
+          "Sai — 'Mrs. Alvarez is unavailable on Thursday.': Bà Alvarez chỉ được nhắc là người trả lời thắc mắc.",
+          "Đúng — Người thông báo nói sảnh chính 'is now needed for a regional exam'."
+        ]
+      },
+      {
+        "prompt": "What time must orchestra members be backstage?",
+        "choices": [
+          "At six o'clock",
+          "At a quarter to six",
+          "At six thirty",
+          "At seven o'clock"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người thông báo nói 'backstage by five forty-five, not six'.",
+        "choiceExplanations": [
+          "Sai — 'At six o'clock': Đây là giờ cũ, đã bị thay đổi.",
+          "Đúng — Người thông báo nói 'backstage by five forty-five, not six'.",
+          "Sai — 'At six thirty': Đây là giờ mở cửa cho khán giả, không phải giờ có mặt của dàn nhạc.",
+          "Sai — 'At seven o'clock': Đây là giờ bắt đầu buổi diễn."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Students who bought tickets for Thursday must exchange them at the office.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Người thông báo nói ai đã mua vé cho thứ Năm 'does not need to do anything', vé vẫn dùng được vào thứ Sáu.",
+        "choiceExplanations": [
+          "Sai — 'True': Họ không phải đổi vé.",
+          "Đúng — Người thông báo nói ai đã mua vé cho thứ Năm 'does not need to do anything', vé vẫn dùng được vào thứ Sáu.",
+          "Sai — 'Not given': Bài nói rõ về vé đã mua cho thứ Năm."
+        ]
+      },
+      {
+        "prompt": "Why does the speaker mention photographs?",
+        "choices": [
+          "Photography is banned in the whole hall.",
+          "The school wants pictures for the website.",
+          "A student performer would like the audience not to take any during her piece.",
+          "Parents have complained about flash lights."
+        ],
+        "correctIndex": 2,
+        "explanation": "Một học sinh lớp chín 'asked that nobody take photographs during it, as she is rather nervous'.",
+        "choiceExplanations": [
+          "Sai — 'Photography is banned in the whole hall.': Giữa các tiết mục thì được phép chụp thoải mái.",
+          "Sai — 'The school wants pictures for the website.': Bài không nhắc đến trang web.",
+          "Đúng — Một học sinh lớp chín 'asked that nobody take photographs during it, as she is rather nervous'.",
+          "Sai — 'Parents have complained about flash lights.': Bài không nhắc đến phàn nàn nào."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-005",
+    "bac": 5,
+    "title": "Tranh luận lịch sự về máy tính cầm tay trong thi toán",
+    "transcript": "A: I'll be honest, I think banning calculators from the math exam is a step backwards. In the real world, nobody does long division by hand. We're being tested on a skill that technology made obsolete.\nB: I see where you're coming from, but I'd say you're confusing two things. Nobody is suggesting that arithmetic is the point of the exam. The point is to see whether you understand what you're doing. If you can't estimate that forty-eight times fifty is roughly two thousand five hundred, you won't notice when the calculator gives you nonsense because you pressed the wrong key.\nA: That's fair, though mistakes like that are exactly what a calculator exercise could teach us to catch. And frankly, I'd rather my teacher spent class time on problem-solving than on drilling multiplication tables.\nB: Hold on, that's a false choice. You can do both. Mr. Hendricks lets us use calculators for the final section of every test, and we still practice mental math in the first ten minutes of each lesson. It works rather well, in my experience.\nA: Hmm. I suppose that's a reasonable compromise, but it still doesn't answer my main objection. Exams create anxiety, and taking away a tool you've used all year feels unfair. People who are slower at arithmetic get penalized for something unrelated to understanding.\nB: That's the strongest point you've made so far, and I'll concede it. If the exam is mostly about arithmetic, then it's badly designed. But then the solution is to redesign the questions, not to hand everyone a machine and pretend the problem has gone away.\nA: Well, maybe we're not as far apart as I thought. I'd accept a ban on calculators if the questions were rewritten to test reasoning rather than speed.\nB: That I could happily support.",
+    "questions": [
+      {
+        "prompt": "What is Speaker B's main argument against relying on calculators in exams?",
+        "choices": [
+          "Students need to understand numbers well enough to notice wrong answers.",
+          "Calculators are too expensive for many students.",
+          "Mental arithmetic is the only real math skill.",
+          "Teachers cannot mark calculator work fairly."
+        ],
+        "correctIndex": 0,
+        "explanation": "B nói nếu không ước lượng được thì sẽ 'won't notice when the calculator gives you nonsense'.",
+        "choiceExplanations": [
+          "Đúng — B nói nếu không ước lượng được thì sẽ 'won't notice when the calculator gives you nonsense'.",
+          "Sai — 'Calculators are too expensive for many students.': Bài không nhắc đến giá.",
+          "Sai — 'Mental arithmetic is the only real math skill.': B nói rõ 'Nobody is suggesting that arithmetic is the point of the exam'.",
+          "Sai — 'Teachers cannot mark calculator work fairly.': Bài không bàn về chấm điểm."
+        ]
+      },
+      {
+        "prompt": "What does Speaker B say about Mr. Hendricks's tests?",
+        "choices": [
+          "Calculators are forbidden completely.",
+          "Students may use calculators throughout.",
+          "Calculators are allowed in only the last part.",
+          "There is no mental math practice."
+        ],
+        "correctIndex": 2,
+        "explanation": "B nói thầy cho dùng máy tính 'for the final section of every test'.",
+        "choiceExplanations": [
+          "Sai — 'Calculators are forbidden completely.': Học sinh được dùng ở phần cuối.",
+          "Sai — 'Students may use calculators throughout.': Chỉ phần cuối mới được dùng.",
+          "Đúng — B nói thầy cho dùng máy tính 'for the final section of every test'.",
+          "Sai — 'There is no mental math practice.': Lớp vẫn luyện tính nhẩm mười phút đầu mỗi tiết."
+        ]
+      },
+      {
+        "prompt": "Which of A's points does B accept as the strongest?",
+        "choices": [
+          "Nobody does long division in real life.",
+          "Teachers should spend more time on drills.",
+          "Mr. Hendricks's system is unfair.",
+          "Slow arithmetic should not lower the mark of a student who understands the ideas."
+        ],
+        "correctIndex": 3,
+        "explanation": "B nói đó là 'the strongest point you've made so far' khi A bảo người tính chậm bị phạt vì điều không liên quan đến sự hiểu.",
+        "choiceExplanations": [
+          "Sai — 'Nobody does long division in real life.': B đáp lại ý này bằng lập luận về việc hiểu số.",
+          "Sai — 'Teachers should spend more time on drills.': A nói ngược lại: nên dành thời gian cho giải quyết vấn đề.",
+          "Sai — 'Mr. Hendricks's system is unfair.': A gọi đó là một thỏa hiệp hợp lý, không phải bất công.",
+          "Đúng — B nói đó là 'the strongest point you've made so far' khi A bảo người tính chậm bị phạt vì điều không liên quan đến sự hiểu."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Both speakers finally agree that the exam questions might be redesigned.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "A nói chấp nhận lệnh cấm 'if the questions were rewritten' và B nói 'That I could happily support'.",
+        "choiceExplanations": [
+          "Đúng — A nói chấp nhận lệnh cấm 'if the questions were rewritten' và B nói 'That I could happily support'.",
+          "Sai — 'False': Cuối cùng hai người đồng ý với hướng viết lại câu hỏi.",
+          "Sai — 'Not given': Điều này được nói rõ ở đoạn kết."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-006",
+    "bac": 5,
+    "title": "Hướng dẫn làm thùng ủ phân hữu cơ ở trường",
+    "transcript": "A: Okay, you've all agreed to start the composting scheme, so let me walk you through the setup. The bin goes behind the cafeteria, on bare soil rather than concrete, so worms and other creatures can get in from underneath.\nB: Why not concrete? It'd be easier to clean.\nA: True, but a compost heap needs drainage and living organisms. Concrete blocks both. Now, the secret is balance. You need two kinds of material: greens, like fruit peels, vegetable scraps and fresh grass, and browns, like dry leaves, torn cardboard and paper. A common beginner's mistake is to put in only greens. It turns into a smelly, wet mess within a week.\nB: So what ratio should we aim for?\nA: Roughly two parts brown to one part green, by volume. Don't worry about measuring exactly. If it smells bad, add browns. If it looks dry and nothing is happening, add greens and a little water.\nB: Can we put in leftover meat from the cafeteria?\nA: Please don't. Meat, dairy and oily food attract rats and take far too long to break down. That goes in the regular trash, I'm afraid.\nB: How often do we turn it?\nA: Every two weeks is enough. I originally said weekly, but that's for people in a hurry. Use a garden fork, and mix the outer layers into the middle.\nB: And when will it be ready?\nA: Depends on the weather. In warm months, perhaps three months; in winter, much longer. You'll know it's finished when it looks like dark, crumbly soil and you can't recognize what went in. Then it goes on the school flowerbeds.\nB: Is there a student schedule?\nA: We'll make one on Monday. Each class takes a week, starting with yours.",
+    "questions": [
+      {
+        "prompt": "Why will the bin be placed on bare soil?",
+        "choices": [
+          "Because concrete is too expensive to lay.",
+          "Because it is easier to clean.",
+          "Because the cafeteria asked for it.",
+          "So that worms and other creatures can reach the heap and water can drain."
+        ],
+        "correctIndex": 3,
+        "explanation": "A giải thích đống ủ cần thoát nước và sinh vật sống, còn bê tông 'blocks both'.",
+        "choiceExplanations": [
+          "Sai — 'Because concrete is too expensive to lay.': A không nói về giá; lý do là thoát nước và sinh vật.",
+          "Sai — 'Because it is easier to clean.': B mới là người nêu ý dễ lau chùi, và A nói đó không phải ưu tiên.",
+          "Sai — 'Because the cafeteria asked for it.': Bài chỉ nói thùng đặt phía sau căng-tin, không nói căng-tin yêu cầu.",
+          "Đúng — A giải thích đống ủ cần thoát nước và sinh vật sống, còn bê tông 'blocks both'."
+        ]
+      },
+      {
+        "prompt": "What should students do if the heap smells bad?",
+        "choices": [
+          "Add more fruit peels and fresh grass.",
+          "Move the bin onto the concrete.",
+          "Add dry materials such as leaves or cardboard.",
+          "Throw the whole heap in the regular trash."
+        ],
+        "correctIndex": 2,
+        "explanation": "A nói 'If it smells bad, add browns' tức lá khô, bìa các-tông, giấy.",
+        "choiceExplanations": [
+          "Sai — 'Add more fruit peels and fresh grass.': Đó là 'greens' và chính là nguyên nhân gây mùi nếu thừa.",
+          "Sai — 'Move the bin onto the concrete.': A nói bê tông làm cản thoát nước và sinh vật.",
+          "Đúng — A nói 'If it smells bad, add browns' tức lá khô, bìa các-tông, giấy.",
+          "Sai — 'Throw the whole heap in the regular trash.': Chỉ thịt, sữa và đồ chiên mỡ mới bỏ vào thùng rác thường."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The finished compost will be sold to raise money for the school.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài chỉ nói phân ủ xong sẽ dùng cho các luống hoa của trường, không nhắc việc bán hay gây quỹ.",
+        "choiceExplanations": [
+          "Sai — 'True': Không có thông tin nào về việc bán phân ủ.",
+          "Sai — 'False': Bài không phủ nhận việc bán; đơn giản là không đề cập, nên không thể kết luận Sai.",
+          "Đúng — Bài chỉ nói phân ủ xong sẽ dùng cho các luống hoa của trường, không nhắc việc bán hay gây quỹ."
+        ]
+      },
+      {
+        "prompt": "How often should the heap be turned?",
+        "choices": [
+          "Every day",
+          "Once a week",
+          "Once a month",
+          "Once every two weeks"
+        ],
+        "correctIndex": 3,
+        "explanation": "A nói 'Every two weeks is enough', sau khi đính chính lại câu 'weekly' trước đó.",
+        "choiceExplanations": [
+          "Sai — 'Every day': Bài không đề cập đến việc đảo mỗi ngày.",
+          "Sai — 'Once a week': Đây là con số A nói lúc đầu rồi sửa; người nói cho rằng mỗi tuần là dành cho 'people in a hurry'.",
+          "Sai — 'Once a month': Bài không nhắc đến đảo mỗi tháng.",
+          "Đúng — A nói 'Every two weeks is enough', sau khi đính chính lại câu 'weekly' trước đó."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-007",
+    "bac": 5,
+    "title": "Bản tin về thư viện hạt giống",
+    "transcript": "Good evening. The town library in Maple Grove has opened an unusual new service this week: a seed library. Visitors can now borrow packets of vegetable and flower seeds for free, the way they would borrow a book. The only condition is that, at the end of the growing season, borrowers return some seeds from the plants they've grown, so the collection can keep expanding.\nThe idea came from librarian Carla Mendes, who first suggested it two years ago. At first the council turned her down, saying the shelf space was needed for computers. She tried again last spring, this time with letters of support from three local schools, and the council agreed. The seeds themselves were donated by a gardening club and several neighbors, so the project cost the library almost nothing beyond a wooden cabinet.\nOn opening day, about sixty packets were borrowed within the first two hours, which surprised even Ms. Mendes. She had expected perhaps twenty. Most popular were tomatoes and sunflowers, while beans, which she personally recommends for beginners, were far less in demand.\nNot everyone is convinced. One local gardener told us that some varieties cross-pollinate, meaning the seeds you return may not grow into the same plant, and that beginners may be disappointed. Ms. Mendes accepts this, but says that is part of the learning. The library will run a free workshop on saving seeds next month, and it has asked for volunteers to help sort donations on Saturday mornings.\nAnd now, the weather.",
+    "questions": [
+      {
+        "prompt": "What must people do after borrowing seeds?",
+        "choices": [
+          "Pay a small fee for each packet.",
+          "Return the empty packets within a week.",
+          "Write a report about each plant.",
+          "Bring back some seeds from the plants they grow."
+        ],
+        "correctIndex": 3,
+        "explanation": "Điều kiện duy nhất là cuối vụ người mượn 'return some seeds from the plants they've grown'.",
+        "choiceExplanations": [
+          "Sai — 'Pay a small fee for each packet.': Việc mượn là miễn phí.",
+          "Sai — 'Return the empty packets within a week.': Bài không nhắc đến hạn trả túi hạt.",
+          "Sai — 'Write a report about each plant.': Bài không yêu cầu báo cáo.",
+          "Đúng — Điều kiện duy nhất là cuối vụ người mượn 'return some seeds from the plants they've grown'."
+        ]
+      },
+      {
+        "prompt": "Why was the first proposal rejected?",
+        "choices": [
+          "The seeds would have been too expensive.",
+          "Three schools opposed the idea.",
+          "The council wanted the space for computers.",
+          "Ms. Mendes had no wooden cabinet."
+        ],
+        "correctIndex": 2,
+        "explanation": "Hội đồng từ chối vì cho rằng 'the shelf space was needed for computers'.",
+        "choiceExplanations": [
+          "Sai — 'The seeds would have been too expensive.': Bài nói dự án gần như không tốn kém.",
+          "Sai — 'Three schools opposed the idea.': Ba trường ủng hộ ở lần đề xuất thứ hai, không phản đối.",
+          "Đúng — Hội đồng từ chối vì cho rằng 'the shelf space was needed for computers'.",
+          "Sai — 'Ms. Mendes had no wooden cabinet.': Tủ gỗ là khoản chi duy nhất, nhưng không phải lý do bị từ chối."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The number of packets borrowed on the first day was higher than Ms. Mendes expected.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Khoảng sáu mươi túi được mượn, 'which surprised even Ms. Mendes. She had expected perhaps twenty'.",
+        "choiceExplanations": [
+          "Đúng — Khoảng sáu mươi túi được mượn, 'which surprised even Ms. Mendes. She had expected perhaps twenty'.",
+          "Sai — 'False': Con số thực tế cao hơn nhiều so với dự đoán hai mươi của cô.",
+          "Sai — 'Not given': Bài nêu cả số thực tế lẫn dự đoán của bà Mendes."
+        ]
+      },
+      {
+        "prompt": "What is the gardener's concern?",
+        "choices": [
+          "Beginners will take all the beans.",
+          "Returned seeds might not produce the same kind of plant.",
+          "Neighbors will stop donating seeds.",
+          "The library will run out of space."
+        ],
+        "correctIndex": 1,
+        "explanation": "Người làm vườn nói hạt trả lại 'may not grow into the same plant' do lai phấn.",
+        "choiceExplanations": [
+          "Sai — 'Beginners will take all the beans.': Đậu ít được mượn; không ai lo bị lấy hết.",
+          "Đúng — Người làm vườn nói hạt trả lại 'may not grow into the same plant' do lai phấn.",
+          "Sai — 'Neighbors will stop donating seeds.': Bài không nhắc điều này.",
+          "Sai — 'The library will run out of space.': Bài không nêu lo ngại về chỗ chứa."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-008",
+    "bac": 5,
+    "title": "Podcast về chuyện làm nhiều việc cùng lúc",
+    "transcript": "A: Welcome back. Today's topic is one that many of us are quietly proud of: multitasking. Dr. Kovacs, you've called it a myth. Isn't that a bit strong?\nB: Perhaps, but I'd stand by it, with a small caveat. What we call multitasking is really rapid switching. The brain isn't doing two demanding things at once, it's jumping between them, and every jump costs a little time and attention.\nA: But surely some people are better at it than others?\nB: That's what people believe. In studies, the ones who describe themselves as skilled multitaskers often perform worse than those who don't. Their confidence outruns their ability, which is a rather human flaw.\nA: Are there any exceptions?\nB: Yes, when one of the tasks is automatic. You can walk and chat, or fold laundry while listening to music, because walking and folding need almost no conscious thought. The trouble starts when both tasks demand attention, like writing an essay while answering messages.\nA: I think a lot of teenagers would push back on that. They say they do homework with music and a chat window open and still get everything done.\nB: And I wouldn't say they get nothing done. They finish, but it takes longer and the quality tends to suffer. The more worrying part is that they rarely notice. Each time you check your phone, it can take a while to regain your earlier level of focus.\nA: So what's the advice?\nB: Work in blocks. Twenty-five minutes with the phone in another room, then a short break. And be honest with yourself: if you enjoy the interruptions, that's a sign they're pulling you away from the task.",
+    "questions": [
+      {
+        "prompt": "What does Dr. Kovacs mean by multitasking?",
+        "choices": [
+          "Doing two difficult things at exactly the same moment.",
+          "Focusing on one task for a very long time.",
+          "Moving quickly back and forth between tasks.",
+          "Learning a skill without any practice."
+        ],
+        "correctIndex": 2,
+        "explanation": "Ông nói đó 'is really rapid switching' và mỗi lần chuyển đều tốn thời gian, sự chú ý.",
+        "choiceExplanations": [
+          "Sai — 'Doing two difficult things at exactly the same moment.': Ông nói não không làm hai việc đòi hỏi cao cùng lúc.",
+          "Sai — 'Focusing on one task for a very long time.': Đó là điều trái ngược với chuyển đổi nhanh.",
+          "Đúng — Ông nói đó 'is really rapid switching' và mỗi lần chuyển đều tốn thời gian, sự chú ý.",
+          "Sai — 'Learning a skill without any practice.': Bài không bàn về điều này."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Dr. Kovacs says that children switch between tasks more easily than adults do.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không so sánh trẻ em với người lớn về khả năng chuyển đổi giữa các việc; chỉ nói về những người tự nhận giỏi làm nhiều việc và học sinh vừa làm bài vừa nghe nhạc.",
+        "choiceExplanations": [
+          "Sai — 'True': Không có câu nào nói trẻ em chuyển đổi dễ hơn người lớn.",
+          "Sai — 'False': Ông cũng không nói điều ngược lại, nên không thể kết luận Sai.",
+          "Đúng — Bài không so sánh trẻ em với người lớn về khả năng chuyển đổi giữa các việc; chỉ nói về những người tự nhận giỏi làm nhiều việc và học sinh vừa làm bài vừa nghe nhạc."
+        ]
+      },
+      {
+        "prompt": "What does Dr. Kovacs say about people who think they are good at multitasking?",
+        "choices": [
+          "They always finish tasks faster than other people.",
+          "They are usually older than the average student.",
+          "They never need a break while working.",
+          "They often do worse than people who do not make that claim."
+        ],
+        "correctIndex": 3,
+        "explanation": "Ông nói người tự nhận giỏi 'often perform worse than those who don't'.",
+        "choiceExplanations": [
+          "Sai — 'They always finish tasks faster than other people.': Ông nói ngược lại, họ thường làm kém hơn.",
+          "Sai — 'They are usually older than the average student.': Bài không đề cập đến tuổi.",
+          "Sai — 'They never need a break while working.': Bài không nói về nghỉ giải lao theo cách này.",
+          "Đúng — Ông nói người tự nhận giỏi 'often perform worse than those who don't'."
+        ]
+      },
+      {
+        "prompt": "What practical advice does he give?",
+        "choices": [
+          "Work in short blocks with the phone out of reach.",
+          "Check messages every few minutes to stay relaxed.",
+          "Study for a whole evening without a break.",
+          "Avoid all activities that need attention."
+        ],
+        "correctIndex": 0,
+        "explanation": "Ông khuyên 'Work in blocks' hai mươi lăm phút, điện thoại ở phòng khác, rồi nghỉ ngắn.",
+        "choiceExplanations": [
+          "Đúng — Ông khuyên 'Work in blocks' hai mươi lăm phút, điện thoại ở phòng khác, rồi nghỉ ngắn.",
+          "Sai — 'Check messages every few minutes to stay relaxed.': Ông cảnh báo mỗi lần kiểm tra điện thoại làm mất tập trung.",
+          "Sai — 'Study for a whole evening without a break.': Ông khuyên học theo khối và có nghỉ.",
+          "Sai — 'Avoid all activities that need attention.': Ông chỉ khuyên tập trung một việc đòi hỏi chú ý một lần."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-009",
+    "bac": 5,
+    "title": "Phỏng vấn nhà thiết kế trò chơi đến thăm trường",
+    "transcript": "A: We're lucky to have Jonah Weiss, a game designer, visiting our school today. Jonah, I think students imagine your job is mostly playing games all day.\nB: I wish! In fact I spend most of my time on spreadsheets and meetings. The playing part is maybe one afternoon a week, and even then it's testing for bugs, which is less fun than it sounds.\nA: How did you start?\nB: With a board game I made when I was thirteen, for my younger sister. It was terrible, honestly. The rules were so complicated that she gave up after ten minutes. But that's when I learned the most important lesson, which is that a game nobody can understand isn't a game.\nA: Was it difficult to turn that into a career?\nB: People assume you must be a great programmer. I'm not. I can code a little, but the real skill is empathy: imagining what a stranger will feel at minute five, and at minute fifty. My first studio project failed, actually. We spent two years on a game that players found boring after an hour.\nA: Two years! What did you do?\nB: We scrapped half of it and rebuilt around the one feature people loved, a simple puzzle with a time limit. The second version did far better. I'd say failure was the best teacher I had.\nA: What advice would you give students who want to follow you?\nB: Make small things, finish them, and show them to people who'll be honest. Don't wait until you have a brilliant idea. And please keep enjoying other things too, such as books, music and sports. The best ideas tend to come from outside games.",
+    "questions": [
+      {
+        "prompt": "How does Jonah describe his job?",
+        "choices": [
+          "Playing new games all day long.",
+          "Writing code for most of the week.",
+          "Teaching children how to play board games.",
+          "Mostly planning and meetings, with a little testing."
+        ],
+        "correctIndex": 3,
+        "explanation": "Jonah nói ông dành phần lớn thời gian cho 'spreadsheets and meetings', chơi game chỉ khoảng một buổi chiều mỗi tuần để thử lỗi.",
+        "choiceExplanations": [
+          "Sai — 'Playing new games all day long.': Ông nói 'I wish!' tức điều này không đúng.",
+          "Sai — 'Writing code for most of the week.': Ông nói mình chỉ biết lập trình chút ít.",
+          "Sai — 'Teaching children how to play board games.': Bài không nói ông dạy chơi cờ bàn.",
+          "Đúng — Jonah nói ông dành phần lớn thời gian cho 'spreadsheets and meetings', chơi game chỉ khoảng một buổi chiều mỗi tuần để thử lỗi."
+        ]
+      },
+      {
+        "prompt": "What did Jonah learn from his first board game?",
+        "choices": [
+          "Younger children enjoy complicated rules.",
+          "Board games always sell better than computer games.",
+          "A game has to be understandable to be worth playing.",
+          "Making games is easier than he expected."
+        ],
+        "correctIndex": 2,
+        "explanation": "Ông nói 'a game nobody can understand isn't a game' sau khi em gái bỏ cuộc vì luật quá phức tạp.",
+        "choiceExplanations": [
+          "Sai — 'Younger children enjoy complicated rules.': Em gái bỏ cuộc sau mười phút vì luật rối.",
+          "Sai — 'Board games always sell better than computer games.': Bài không so sánh doanh số.",
+          "Đúng — Ông nói 'a game nobody can understand isn't a game' sau khi em gái bỏ cuộc vì luật quá phức tạp.",
+          "Sai — 'Making games is easier than he expected.': Ông gọi trò chơi đầu tiên là 'terrible'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Jonah's first studio project was a success.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ông nói 'My first studio project failed, actually' vì người chơi thấy chán sau một giờ.",
+        "choiceExplanations": [
+          "Sai — 'True': Ông nói thẳng dự án đầu tiên thất bại.",
+          "Đúng — Ông nói 'My first studio project failed, actually' vì người chơi thấy chán sau một giờ.",
+          "Sai — 'Not given': Bài nêu rõ kết quả của dự án đầu tiên."
+        ]
+      },
+      {
+        "prompt": "According to Jonah, which skill matters most for a designer?",
+        "choices": [
+          "Being an excellent programmer.",
+          "Having one brilliant idea early.",
+          "Playing as many games as possible.",
+          "Understanding how other people will feel while playing."
+        ],
+        "correctIndex": 3,
+        "explanation": "Ông nói kỹ năng thật sự là 'empathy', hình dung người lạ cảm thấy gì ở phút thứ năm và phút thứ năm mươi.",
+        "choiceExplanations": [
+          "Sai — 'Being an excellent programmer.': Ông nói rõ mình không phải lập trình viên giỏi.",
+          "Sai — 'Having one brilliant idea early.': Ông khuyên 'Don't wait until you have a brilliant idea'.",
+          "Sai — 'Playing as many games as possible.': Ông khuyên cả đọc sách, nghe nhạc và chơi thể thao.",
+          "Đúng — Ông nói kỹ năng thật sự là 'empathy', hình dung người lạ cảm thấy gì ở phút thứ năm và phút thứ năm mươi."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-010",
+    "bac": 5,
+    "title": "Nhóm làm phim tài liệu về lịch sử trường",
+    "transcript": "A: So, for the documentary about the school's history, we have until the end of March, and we should decide who does what. I've found out that the school opened in nineteen fifty-eight.\nB: Are you sure? The plaque in the lobby says nineteen fifty-six.\nA: That's what I thought too, but the archive says the building was finished in fifty-six and the first students arrived two years later. So both are correct, in a way.\nC: Interesting. That might make a good opening: the empty building waiting for students.\nB: I like that. But we need people to interview. Mrs. Okafor, who taught here for over thirty years, said she'd talk to us. She retires in June, so we should film her soon.\nC: Do we have a camera? Last time the media club's was broken.\nA: It was repaired last week, but the microphone is still missing. I could ask my cousin to lend us one. I wouldn't count on it, though.\nB: There's also an old photo album in the library. I haven't looked through it yet, so I can't say whether it's any use.\nC: One thing worries me. Documentaries about the past can be dull unless there's a story. We need a thread running through it.\nA: What about following one object? Say, the bell that used to ring between lessons. Everyone remembers it, and it was replaced by a speaker system at some point.\nC: I do like that. Though I'd want to check when. If we get the date wrong, the teachers will never let us forget it.\nB: Right. Then let's divide it up. I'll contact Mrs. Okafor, and I'll leave the dates and the album to you two.",
+    "questions": [
+      {
+        "prompt": "Why does C like the information about the school's opening?",
+        "choices": [
+          "It proves the plaque in the lobby is wrong.",
+          "It means the school is older than expected.",
+          "It suggests an interesting way to begin the film.",
+          "It shows the archive is unreliable."
+        ],
+        "correctIndex": 2,
+        "explanation": "C nói đó 'might make a good opening: the empty building waiting for students'.",
+        "choiceExplanations": [
+          "Sai — 'It proves the plaque in the lobby is wrong.': A nói cả hai năm đều đúng 'in a way'.",
+          "Sai — 'It means the school is older than expected.': C không so sánh tuổi của trường; chỉ thích hình ảnh mở đầu.",
+          "Đúng — C nói đó 'might make a good opening: the empty building waiting for students'.",
+          "Sai — 'It shows the archive is unreliable.': Chính tài liệu lưu trữ giải thích được sự khác biệt."
+        ]
+      },
+      {
+        "prompt": "What is the situation with the equipment?",
+        "choices": [
+          "The camera is still broken and the microphone works.",
+          "Both the camera and the microphone are ready.",
+          "The media club has no camera at all.",
+          "The camera works again, but there is no microphone."
+        ],
+        "correctIndex": 3,
+        "explanation": "A nói máy quay 'was repaired last week, but the microphone is still missing'.",
+        "choiceExplanations": [
+          "Sai — 'The camera is still broken and the microphone works.': Ngược lại: máy quay đã sửa, micro mới thiếu.",
+          "Sai — 'Both the camera and the microphone are ready.': Micro vẫn còn thiếu.",
+          "Sai — 'The media club has no camera at all.': Câu lạc bộ có máy quay, vừa được sửa.",
+          "Đúng — A nói máy quay 'was repaired last week, but the microphone is still missing'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The school's bell was replaced by a speaker system in the nineties.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "A chỉ nói chuông được thay bằng hệ thống loa 'at some point', C muốn kiểm tra thời điểm; không có năm hay thập niên nào được nêu.",
+        "choiceExplanations": [
+          "Sai — 'True': Không ai nêu thời điểm thay chuông, càng không nói là thập niên chín mươi.",
+          "Sai — 'False': Cũng không ai nói rằng không phải thập niên chín mươi; thời điểm chưa được xác định.",
+          "Đúng — A chỉ nói chuông được thay bằng hệ thống loa 'at some point', C muốn kiểm tra thời điểm; không có năm hay thập niên nào được nêu."
+        ]
+      },
+      {
+        "prompt": "What is C's main concern about the project?",
+        "choices": [
+          "Without a central story, the film could be boring.",
+          "Mrs. Okafor may change her mind.",
+          "There may not be enough time before March.",
+          "The library might not allow filming."
+        ],
+        "correctIndex": 0,
+        "explanation": "C nói phim về quá khứ có thể nhàm 'unless there's a story' và cần một sợi chỉ xuyên suốt.",
+        "choiceExplanations": [
+          "Đúng — C nói phim về quá khứ có thể nhàm 'unless there's a story' và cần một sợi chỉ xuyên suốt.",
+          "Sai — 'Mrs. Okafor may change her mind.': Bài không nêu mối lo này.",
+          "Sai — 'There may not be enough time before March.': Hạn cuối tháng Ba chỉ được A nhắc đến một lần, không ai lo thiếu thời gian.",
+          "Sai — 'The library might not allow filming.': Bài không nói đến việc quay trong thư viện."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-011",
+    "bac": 5,
+    "title": "Bài giảng về đảo nhiệt đô thị",
+    "transcript": "A: Today we're looking at a phenomenon you've probably felt without knowing its name: the urban heat island. Put simply, cities tend to be warmer than the surrounding countryside, especially at night.\nB: Is that because of cars and air conditioning?\nA: Those contribute, but they're not the main reason. The bigger factor is the surfaces. Asphalt, concrete and dark roofs absorb sunlight during the day and release it slowly after sunset, so the city never fully cools down. Meanwhile, fields and forests lose heat faster, partly because plants release water vapor, which has a cooling effect.\nB: So adding trees would help?\nA: Yes, and that's why many cities are planting more of them. But it's not a simple fix. Trees take years to grow, and they need space, which is scarce downtown. Some cities paint roofs white instead, because pale surfaces reflect more sunlight. That works faster, but it doesn't give you shade or a pleasant place to sit.\nB: Does it actually matter? A few degrees doesn't sound like much.\nA: It matters more than you'd think. During a heat wave, those extra degrees at night prevent people from recovering, and older residents and young children are especially vulnerable. So it's a health issue, not just a comfort issue.\nB: Could we measure it at school?\nA: Absolutely, and I'd love that. I'd suggest taking temperature readings at the same time in the courtyard, the sports field and the park nearby, over several evenings. Even a cheap thermometer will do. If there's a big gap between them, that would make a lovely report.",
+    "questions": [
+      {
+        "prompt": "According to the speaker, what is the main cause of the urban heat island?",
+        "choices": [
+          "Cars and air conditioners alone.",
+          "Surfaces that store heat during the day and release it slowly.",
+          "A lack of rain in cities.",
+          "Too many tall buildings blocking the wind."
+        ],
+        "correctIndex": 1,
+        "explanation": "A nói yếu tố lớn hơn là bề mặt: nhựa đường, bê tông, mái tối 'absorb sunlight during the day and release it slowly'.",
+        "choiceExplanations": [
+          "Sai — 'Cars and air conditioners alone.': A nói chúng có góp phần nhưng 'not the main reason'.",
+          "Đúng — A nói yếu tố lớn hơn là bề mặt: nhựa đường, bê tông, mái tối 'absorb sunlight during the day and release it slowly'.",
+          "Sai — 'A lack of rain in cities.': Bài không nhắc đến mưa.",
+          "Sai — 'Too many tall buildings blocking the wind.': Bài không đề cập đến gió hay nhà cao tầng."
+        ]
+      },
+      {
+        "prompt": "What does the speaker say about painting roofs white?",
+        "choices": [
+          "It is slower than planting trees but cheaper.",
+          "It cools the city more than any other solution.",
+          "It has been banned in many cities.",
+          "It is quicker than planting trees but offers no shade."
+        ],
+        "correctIndex": 3,
+        "explanation": "A nói cách này 'works faster' nhưng 'it doesn't give you shade or a pleasant place to sit'.",
+        "choiceExplanations": [
+          "Sai — 'It is slower than planting trees but cheaper.': Bài không nói về giá, và A nói sơn mái nhanh hơn.",
+          "Sai — 'It cools the city more than any other solution.': A không so sánh hiệu quả theo cách này.",
+          "Sai — 'It has been banned in many cities.': Bài không nhắc đến lệnh cấm.",
+          "Đúng — A nói cách này 'works faster' nhưng 'it doesn't give you shade or a pleasant place to sit'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The speaker says that warm nights can be a health risk.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "A nói những độ nóng thừa ban đêm khiến người ta không hồi phục, và người già, trẻ nhỏ dễ bị ảnh hưởng: 'a health issue, not just a comfort issue'.",
+        "choiceExplanations": [
+          "Đúng — A nói những độ nóng thừa ban đêm khiến người ta không hồi phục, và người già, trẻ nhỏ dễ bị ảnh hưởng: 'a health issue, not just a comfort issue'.",
+          "Sai — 'False': A khẳng định đó là vấn đề sức khỏe chứ không chỉ sự khó chịu.",
+          "Sai — 'Not given': Bài nêu rõ điều này."
+        ]
+      },
+      {
+        "prompt": "What does the speaker suggest the class could do?",
+        "choices": [
+          "Plant trees in the courtyard immediately.",
+          "Paint the school roof white.",
+          "Interview older residents about heat waves.",
+          "Compare evening temperatures at several places around the school."
+        ],
+        "correctIndex": 3,
+        "explanation": "A đề nghị đo nhiệt độ cùng giờ ở sân trường, sân thể thao và công viên gần đó trong vài buổi tối.",
+        "choiceExplanations": [
+          "Sai — 'Plant trees in the courtyard immediately.': A không đề nghị trồng cây ngay.",
+          "Sai — 'Paint the school roof white.': Đó là biện pháp của một số thành phố, không phải bài tập A giao.",
+          "Sai — 'Interview older residents about heat waves.': Bài không đề nghị phỏng vấn.",
+          "Đúng — A đề nghị đo nhiệt độ cùng giờ ở sân trường, sân thể thao và công viên gần đó trong vài buổi tối."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-012",
+    "bac": 5,
+    "title": "Góp ý bộ phim ngắn của một bạn",
+    "transcript": "A: So that's the final cut, Ms. Reyes. I know the ending is a bit abrupt, but the deadline is tomorrow.\nB: I thought the first half was great, honestly. The shot of the empty bus stop in the rain says more than any dialogue. But the middle dragged.\nC: I'd agree with Tom on that, Noor, though I'd put it more diplomatically. Your instincts for images are excellent. The difficulty is that the story pauses for about five minutes while the grandfather explains his past, and the audience doesn't need it all spelled out.\nA: I was worried about that. I wanted people to understand why he never speaks to his neighbor.\nC: But we do understand, long before he says it. Remember the scene where he puts two cups on the table and then quietly puts one back? That's all we need.\nB: Yes! That was my favorite moment. I'd cut the monologue to a minute.\nA: Hmm. It took me two weekends to film that scene, so cutting it feels painful.\nC: I understand. Every filmmaker feels that. But a good editor is someone who can throw away their own best work for the sake of the film.\nA: You sound like my uncle. Okay, I'll try a shorter version tonight and see how it feels.\nB: And the music?\nC: Lovely, though it covers the dialogue in one place. Lower it a little around the three-minute mark. I'd also check the credits, because one name is spelled wrong.\nA: Which one?\nC: I'll point it out afterwards.",
+    "questions": [
+      {
+        "prompt": "What is Ms. Reyes's overall opinion of the film?",
+        "choices": [
+          "The images are strong, but a long explanation slows the story.",
+          "It is excellent from beginning to end.",
+          "The acting is weak but the music is perfect.",
+          "It should be remade with a new story."
+        ],
+        "correctIndex": 0,
+        "explanation": "Cô khen 'instincts for images are excellent' nhưng nói truyện bị chững khoảng năm phút khi ông kể quá khứ.",
+        "choiceExplanations": [
+          "Đúng — Cô khen 'instincts for images are excellent' nhưng nói truyện bị chững khoảng năm phút khi ông kể quá khứ.",
+          "Sai — 'It is excellent from beginning to end.': Cô chỉ ra phần giữa phim bị chậm.",
+          "Sai — 'The acting is weak but the music is perfect.': Bài không bàn về diễn xuất; nhạc có chỗ lấn lời thoại.",
+          "Sai — 'It should be remade with a new story.': Cô chỉ đề nghị cắt bớt độc thoại."
+        ]
+      },
+      {
+        "prompt": "Which moment does Ms. Reyes use to show that the audience can understand without words?",
+        "choices": [
+          "A man waits at a bus stop in the rain.",
+          "A man puts one of two cups back.",
+          "A man argues with his neighbor.",
+          "A man plays music for his grandson."
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô nhắc cảnh ông đặt hai cái cốc rồi lặng lẽ cất lại một cái: 'That's all we need'.",
+        "choiceExplanations": [
+          "Sai — 'A man waits at a bus stop in the rain.': Tom khen cảnh trạm xe buýt, còn cô dùng cảnh hai cái cốc làm ví dụ.",
+          "Đúng — Cô nhắc cảnh ông đặt hai cái cốc rồi lặng lẽ cất lại một cái: 'That's all we need'.",
+          "Sai — 'A man argues with his neighbor.': Ông không bao giờ nói chuyện với hàng xóm trong phim.",
+          "Sai — 'A man plays music for his grandson.': Bài không có cảnh này."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Noor composed the music for the film herself.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài khen âm nhạc nhưng không nói ai sáng tác.",
+        "choiceExplanations": [
+          "Sai — 'True': Không có thông tin nào nói Noor tự sáng tác nhạc.",
+          "Sai — 'False': Cũng không có thông tin nào nói cô không tự sáng tác.",
+          "Đúng — Bài khen âm nhạc nhưng không nói ai sáng tác."
+        ]
+      },
+      {
+        "prompt": "How does Noor react to the suggestion about the monologue?",
+        "choices": [
+          "She refuses to change anything.",
+          "She agrees at once and feels happy.",
+          "She asks for more time to film a new scene.",
+          "She is reluctant, but willing to try a shorter version."
+        ],
+        "correctIndex": 3,
+        "explanation": "Cô nói cắt cảnh ấy 'feels painful' nhưng sẽ thử bản ngắn hơn tối nay.",
+        "choiceExplanations": [
+          "Sai — 'She refuses to change anything.': Cô đồng ý thử phiên bản ngắn.",
+          "Sai — 'She agrees at once and feels happy.': Cô thấy tiếc vì đã mất hai cuối tuần để quay.",
+          "Sai — 'She asks for more time to film a new scene.': Cô không xin thêm thời gian; hạn chót là ngày mai.",
+          "Đúng — Cô nói cắt cảnh ấy 'feels painful' nhưng sẽ thử bản ngắn hơn tối nay."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-013",
+    "bac": 5,
+    "title": "Podcast về giai đoạn chững lại khi học ngoại ngữ",
+    "transcript": "A: Today we're talking about something every language learner meets sooner or later: the plateau. You progress quickly for a year, and then suddenly it feels like nothing is improving. Ian, you teach adults and teenagers. Is it real?\nB: It's real, but I'd describe it differently. Improvement doesn't stop; it becomes harder to see. At the beginning, every new word changes what you can say. Later you already know the common ones, so each extra word adds very little, and the progress hides in details like word choice, rhythm, and understanding jokes.\nA: So what do people do wrong?\nB: Two things, mainly. First, they keep doing exactly what worked before, such as memorizing lists, even though they now need to listen to real speech. Second, they compare themselves to native speakers, which is discouraging and, frankly, unfair.\nA: What do you recommend?\nB: Change the kind of practice. If you've mostly read, start listening to podcasts at normal speed and don't stop to look up every word. Record yourself talking for two minutes and compare it with a month ago. That's often the first time people realize they've improved.\nA: Some learners think moving abroad is the only solution.\nB: It helps, but I wouldn't call it the only one. I've had students reach a very high level without leaving their hometown, because they talked every day with a friend online. Others lived abroad for a year and never improved, because they only spoke their own language at home.\nA: So the secret is?\nB: Regular contact and being willing to sound foolish. Perfectionism is the biggest enemy of fluency.",
+    "questions": [
+      {
+        "prompt": "What does Ian say about the plateau?",
+        "choices": [
+          "Progress stops completely after one year.",
+          "It only happens to adult learners.",
+          "It can be avoided by memorizing more words.",
+          "Progress continues but becomes harder to notice."
+        ],
+        "correctIndex": 3,
+        "explanation": "Ian nói 'Improvement doesn't stop; it becomes harder to see'.",
+        "choiceExplanations": [
+          "Sai — 'Progress stops completely after one year.': Thầy phản bác: tiến bộ không dừng lại.",
+          "Sai — 'It only happens to adult learners.': Thầy dạy cả người lớn lẫn thiếu niên và không giới hạn như vậy.",
+          "Sai — 'It can be avoided by memorizing more words.': Thầy nói thêm từ mới mang lại ít lợi ích ở giai đoạn này.",
+          "Đúng — Ian nói 'Improvement doesn't stop; it becomes harder to see'."
+        ]
+      },
+      {
+        "prompt": "Which mistake does Ian mention?",
+        "choices": [
+          "Continuing with methods that no longer match their needs.",
+          "Practicing speaking too often.",
+          "Listening to podcasts at normal speed.",
+          "Recording themselves every day."
+        ],
+        "correctIndex": 0,
+        "explanation": "Thầy nói người học 'keep doing exactly what worked before' dù giờ cần nghe lời nói thật.",
+        "choiceExplanations": [
+          "Đúng — Thầy nói người học 'keep doing exactly what worked before' dù giờ cần nghe lời nói thật.",
+          "Sai — 'Practicing speaking too often.': Thầy khuyên nói thường xuyên.",
+          "Sai — 'Listening to podcasts at normal speed.': Thầy khuyên làm điều này.",
+          "Sai — 'Recording themselves every day.': Thầy nói ghi âm và so sánh với tháng trước, không nói đó là sai lầm."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Ian believes living abroad is the only way to reach a high level.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Thầy nói 'I wouldn't call it the only one' và kể học viên đạt trình độ cao mà không rời quê nhà.",
+        "choiceExplanations": [
+          "Sai — 'True': Thầy phản đối ý rằng đó là cách duy nhất.",
+          "Đúng — Thầy nói 'I wouldn't call it the only one' và kể học viên đạt trình độ cao mà không rời quê nhà.",
+          "Sai — 'Not given': Thầy trả lời trực tiếp câu hỏi này."
+        ]
+      },
+      {
+        "prompt": "Why does Ian suggest recording yourself?",
+        "choices": [
+          "It helps teachers correct every error.",
+          "It lets learners hear how much they have improved.",
+          "It proves they sound like native speakers.",
+          "It replaces the need to speak with others."
+        ],
+        "correctIndex": 1,
+        "explanation": "Thầy nói so sánh với một tháng trước thường là lần đầu người học nhận ra mình đã tiến bộ.",
+        "choiceExplanations": [
+          "Sai — 'It helps teachers correct every error.': Bài không nói giáo viên nghe bản ghi.",
+          "Đúng — Thầy nói so sánh với một tháng trước thường là lần đầu người học nhận ra mình đã tiến bộ.",
+          "Sai — 'It proves they sound like native speakers.': Thầy cho rằng so với người bản ngữ là 'unfair'.",
+          "Sai — 'It replaces the need to speak with others.': Thầy nhấn mạnh 'Regular contact' với người khác."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ls-b5-014",
+    "bac": 5,
+    "title": "Phỏng vấn dịch giả thơ",
+    "transcript": "A: My guest today translates poetry from Spanish into English, which many people would consider an impossible job. Rafael, is it really impossible?\nB: Some days I agree. People say poetry is what gets lost in translation, and there's truth in that. If a poem depends on a pun or a rhyme, you rarely keep both the sound and the meaning.\nA: So what do you give up?\nB: It depends on the poem. Sometimes I give up the rhyme to keep the image, because the image is what stays in your head. Other times the rhythm matters more, so I'll change a word that's close in meaning but sounds better. I make these choices constantly, and I'm not always happy with them.\nA: Do you ever disagree with the poet?\nB: Occasionally, politely. One poet I worked with insisted that a line about the sea be translated literally. I thought it sounded awkward in English. We compromised, but I still wonder who was right.\nA: Some say a translation can never be as good as the original.\nB: I'm not sure that's the right question. A translation is a different poem written by a second person, using the first poem as a starting point. It may be worse, but it may also introduce readers to something they would never otherwise have read, and surely that counts for a lot.\nA: What would you say to students who are learning a language?\nB: Read poems in the original, even if you only understand half. Sounds carry feeling before meaning does. And then try translating a short one. It teaches you more about your own language than anything else I know.",
+    "questions": [
+      {
+        "prompt": "What does Rafael find most difficult about translating poetry?",
+        "choices": [
+          "Finding poems that are worth translating.",
+          "Learning enough Spanish vocabulary.",
+          "Persuading publishers to print translations.",
+          "Keeping both the sound and the meaning of a line."
+        ],
+        "correctIndex": 3,
+        "explanation": "Ông nói nếu bài thơ dựa vào chơi chữ hoặc vần thì 'you rarely keep both the sound and the meaning'.",
+        "choiceExplanations": [
+          "Sai — 'Finding poems that are worth translating.': Bài không nhắc khó khăn này.",
+          "Sai — 'Learning enough Spanish vocabulary.': Bài không nói ông thiếu từ vựng.",
+          "Sai — 'Persuading publishers to print translations.': Bài không nhắc nhà xuất bản.",
+          "Đúng — Ông nói nếu bài thơ dựa vào chơi chữ hoặc vần thì 'you rarely keep both the sound and the meaning'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Rafael sometimes gives up a rhyme so that he can preserve an image.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ông nói 'Sometimes I give up the rhyme to keep the image'.",
+        "choiceExplanations": [
+          "Đúng — Ông nói 'Sometimes I give up the rhyme to keep the image'.",
+          "Sai — 'False': Ông nói thẳng rằng có lúc bỏ vần để giữ hình ảnh.",
+          "Sai — 'Not given': Bài nêu rõ điều này."
+        ]
+      },
+      {
+        "prompt": "What is Rafael's attitude to the claim that a translation is never as good as the original?",
+        "choices": [
+          "He completely agrees with it.",
+          "He thinks the question misses the point, because a translation is a new work.",
+          "He believes translations are always better.",
+          "He refuses to answer the question."
+        ],
+        "correctIndex": 1,
+        "explanation": "Ông nói 'I'm not sure that's the right question' và coi bản dịch là một bài thơ khác có thể đưa người đọc đến điều mới.",
+        "choiceExplanations": [
+          "Sai — 'He completely agrees with it.': Ông chỉ thừa nhận bản dịch 'may be worse' nhưng không đồng ý hoàn toàn.",
+          "Đúng — Ông nói 'I'm not sure that's the right question' và coi bản dịch là một bài thơ khác có thể đưa người đọc đến điều mới.",
+          "Sai — 'He believes translations are always better.': Ông không nói như vậy.",
+          "Sai — 'He refuses to answer the question.': Ông trả lời và giải thích quan điểm của mình."
+        ]
+      },
+      {
+        "prompt": "What advice does Rafael give to language learners?",
+        "choices": [
+          "Read poems in the original language, even without understanding every word.",
+          "Avoid poetry until they are advanced.",
+          "Translate long novels first.",
+          "Only read translations by famous poets."
+        ],
+        "correctIndex": 0,
+        "explanation": "Ông khuyên 'Read poems in the original, even if you only understand half' vì âm thanh mang cảm xúc trước nghĩa.",
+        "choiceExplanations": [
+          "Đúng — Ông khuyên 'Read poems in the original, even if you only understand half' vì âm thanh mang cảm xúc trước nghĩa.",
+          "Sai — 'Avoid poetry until they are advanced.': Ông khuyên làm ngược lại.",
+          "Sai — 'Translate long novels first.': Ông khuyên thử dịch một bài thơ ngắn.",
+          "Sai — 'Only read translations by famous poets.': Bài không nói điều này."
+        ]
+      }
+    ]
+  }
+]

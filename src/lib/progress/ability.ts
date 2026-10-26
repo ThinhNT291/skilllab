@@ -47,7 +47,7 @@ export interface AnswerForAbility {
   created_at: string
 }
 
-const VOCAB_BAC: Record<string, number> = { "vocab-a1": 1, "vocab-a2": 2, "vocab-b1": 3, "vocab-b2": 4 }
+const VOCAB_BAC: Record<string, number> = { "vocab-a1": 1, "vocab-a2": 2, "vocab-b1": 3, "vocab-b2": 4, "vocab-c1": 5, "vocab-c2": 6 }
 
 /** Độ khó của một câu đã trả lời; null nếu không xác định (bỏ qua). */
 export function itemOfAnswer(a: AnswerForAbility, meta: ItemMeta): number | null {

@@ -1,0 +1,305 @@
+{
+  "id": "participle-clauses",
+  "language": "en",
+  "title": "Mệnh đề phân từ (Participle Clauses)",
+  "levels": [
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "order": 32,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "pc-u1-present-participle",
+        "bac": 4,
+        "label": "Mệnh đề phân từ hiện tại (V-ing): hai việc cùng lúc hoặc chỉ nguyên nhân",
+        "explanationVi": "Khi hai hành động do CÙNG MỘT chủ ngữ làm, có thể rút một hành động thành cụm V-ing để câu gọn hơn: Walking along the beach, we found a shell (= While we were walking...). Cụm này cũng có thể chỉ nguyên nhân: Feeling tired, Ben went to bed (= Because he felt tired...). Phủ định đặt Not trước V-ing: Not knowing the answer, she asked for help. Với be, có thể dùng Being + tính từ/danh từ hoặc bỏ Being: (Being) the youngest, Hana got extra help. Cụm V-ing cũng có thể đứng SAU mệnh đề chính để nói hành động đi kèm cùng lúc: The kids sat on the floor, telling stories. Bẫy: chủ ngữ của mệnh đề chính phải là người/vật thực hiện hành động V-ing (xem mục về chủ ngữ treo).",
+        "examples": [
+          {
+            "en": "Walking home, I met my old teacher.",
+            "vi": "Trên đường đi bộ về nhà, tôi gặp thầy giáo cũ."
+          },
+          {
+            "en": "Not wanting to be late, she took a taxi.",
+            "vi": "Vì không muốn trễ, cô ấy đi taxi."
+          },
+          {
+            "en": "Being the oldest, Tuan looked after his cousins.",
+            "vi": "Là người lớn nhất, Tuấn trông các em họ."
+          }
+        ]
+      },
+      {
+        "id": "pc-u2-result-sequence",
+        "bac": 5,
+        "label": "Phân từ chỉ kết quả và hành động nối tiếp (, V-ing)",
+        "explanationVi": "Đặt cụm V-ing SAU mệnh đề chính, ngăn bằng dấu phẩy, để nói kết quả hoặc hệ quả của cả sự việc vừa nêu: The volcano erupted, covering the island with ash. Động từ thường gặp: causing, leading to, making, forcing, allowing, killing, attracting. Chủ ngữ của cụm V-ing vẫn là chủ ngữ mệnh đề chính, hoặc ngầm là cả sự việc phía trước. Đặt V-ing ở đầu câu cũng có thể diễn tả hai việc xảy ra liền nhau: Grabbing her coat, Lena ran out. Không thêm and trước cụm V-ing chỉ kết quả (không nói ...ash, and covering...), và không dùng động từ chia ngôi thứ hai, V3 hay to-V thay cho V-ing ở vị trí này (không nói ...erupted, covered...).",
+        "examples": [
+          {
+            "en": "Prices rose sharply, forcing many families to cut back.",
+            "vi": "Giá tăng mạnh, buộc nhiều gia đình phải cắt giảm chi tiêu."
+          },
+          {
+            "en": "Heavy rain fell all night, causing the river to rise.",
+            "vi": "Mưa to cả đêm, làm nước sông dâng lên."
+          },
+          {
+            "en": "Grabbing her coat, Lena ran out of the house.",
+            "vi": "Chộp lấy áo khoác, Lena chạy ra khỏi nhà."
+          }
+        ]
+      },
+      {
+        "id": "pc-u3-perfect-participle",
+        "bac": 5,
+        "label": "Phân từ hoàn thành: Having + V3, Not having + V3, Having been + V3",
+        "explanationVi": "Dùng Having + V3 khi hành động trong cụm phân từ đã HOÀN THÀNH TRƯỚC hành động của mệnh đề chính: Having finished his homework, Tom turned on the TV. Phủ định: Not having + V3 (Not having read the instructions, he...). Nghĩa bị động: Having been + V3 (Having been warned, the residents left early). Nếu hai việc xảy ra cùng lúc thì dùng V-ing đơn giản, không dùng Having + V3. Cụm này hay chỉ nguyên nhân và đặc biệt thường gặp trong văn viết. Chủ ngữ của cụm vẫn phải trùng chủ ngữ mệnh đề chính.",
+        "examples": [
+          {
+            "en": "Having visited the museum twice, we tried the zoo.",
+            "vi": "Đã đến bảo tàng hai lần, chúng tôi thử đi sở thú."
+          },
+          {
+            "en": "Not having read the instructions, he built the shelf wrongly.",
+            "vi": "Vì chưa đọc hướng dẫn, cậu ấy lắp kệ sai."
+          },
+          {
+            "en": "Having been given no warning, the residents had no time to prepare.",
+            "vi": "Vì không được báo trước, cư dân không kịp chuẩn bị."
+          }
+        ]
+      },
+      {
+        "id": "pc-u4-past-participle",
+        "bac": 5,
+        "label": "Phân từ quá khứ (V3) mang nghĩa bị động; Given / Not + V3",
+        "explanationVi": "Cụm V3 đặt ở đầu câu mang nghĩa BỊ ĐỘNG: chủ ngữ mệnh đề chính là người/vật chịu tác động của hành động. Built in 1998, the stadium is still used (= Because/Although it was built in 1998...). Cụm có thể chỉ nguyên nhân, thời gian, đối lập, và được hiểu như (Being) + V3 với Being bị lược. Phủ định: Not affected by the rain, the match went ahead. V3 đi với by + tác nhân: Frightened by the noise, the baby cried. Given + danh từ là cách nói cố định nghĩa 'xét đến, vì': Given the difficulty of the task, the team did remarkably well (trình độ cao).",
+        "examples": [
+          {
+            "en": "Built in 1998, the stadium is still used today.",
+            "vi": "Được xây năm 1998, sân vận động vẫn còn được dùng."
+          },
+          {
+            "en": "Frightened by the noise, the baby started to cry.",
+            "vi": "Bị tiếng ồn làm sợ, em bé bắt đầu khóc."
+          },
+          {
+            "en": "Given the weather, the match was postponed.",
+            "vi": "Xét thời tiết, trận đấu bị hoãn."
+          }
+        ]
+      },
+      {
+        "id": "pc-u5-after-conjunctions",
+        "bac": 5,
+        "label": "Phân từ sau liên từ/giới từ: While/After/Before/Since/On/By + V-ing; Once/Although/Unless/When + V3",
+        "explanationVi": "Sau một số liên từ và giới từ, có thể giữ lại từ nối rồi dùng phân từ thay mệnh đề đầy đủ, khi chủ ngữ hai vế giống nhau. (1) V-ing: while, after, before, since, on, by, without (On seeing the results, the students cheered; She has lived in Hanoi since graduating). Sau giới từ (before, after, since, on, by) dùng V-ing, không dùng to-V hay V nguyên mẫu. (2) V3 (nghĩa bị động, lược be): once, when, although, if, unless, until (Once applied, the paint dries fast; When asked, Nam said nothing; Unless stated otherwise, all students must wear uniform). Bẫy: chủ ngữ phải trùng; nếu cần nghĩa chủ động dùng V-ing, nghĩa bị động dùng V3.",
+        "examples": [
+          {
+            "en": "Before entering the house, please take off your shoes.",
+            "vi": "Trước khi vào nhà, hãy cởi giày."
+          },
+          {
+            "en": "When asked about the plan, Nam said nothing.",
+            "vi": "Khi được hỏi về kế hoạch, Nam không nói gì."
+          },
+          {
+            "en": "Once applied, the paint dries in ten minutes.",
+            "vi": "Một khi đã sơn lên, lớp sơn khô trong mười phút."
+          }
+        ]
+      },
+      {
+        "id": "pc-u6-dangling",
+        "bac": 5,
+        "label": "Chủ ngữ phân từ treo (dangling participle) và cách sửa",
+        "explanationVi": "Chủ ngữ ngầm của cụm phân từ PHẢI là chủ ngữ của mệnh đề chính. Nếu không, câu mắc lỗi chủ ngữ treo và nghe vô lý: Walking to school, a rainbow appeared (cầu vồng không đi bộ). Có hai cách sửa: (1) đổi mệnh đề chính để chủ ngữ đúng là người làm hành động: Walking to school, I saw a rainbow; (2) đổi cụm phân từ thành mệnh đề đầy đủ có chủ ngữ riêng: While I was walking to school, a rainbow appeared. Lưu ý: it/there làm chủ ngữ giả cũng gây treo (Walking to school, it started to rain là câu sai), trừ các cụm cố định ở cuối mục. Quy tắc này áp dụng cả cho cụm tính từ hoặc danh từ mở đầu câu: Tired after the long flight, Maya fell asleep (không thể là the hotel seemed too far). Ngoại lệ: một số cụm cố định không cần trùng chủ ngữ như Generally speaking, Strictly speaking, Judging by..., Considering..., Taking everything into account.",
+        "examples": [
+          {
+            "en": "Walking to school, I saw a rainbow.",
+            "vi": "Trên đường đi bộ đến trường, tôi thấy cầu vồng."
+          },
+          {
+            "en": "While I was walking to school, a rainbow appeared.",
+            "vi": "Khi tôi đang đi bộ đến trường, một cầu vồng hiện ra."
+          },
+          {
+            "en": "Judging by the clouds, it will rain soon.",
+            "vi": "Xét theo những đám mây, trời sắp mưa."
+          }
+        ]
+      },
+      {
+        "id": "pc-u7-absolute",
+        "bac": 6,
+        "label": "Mệnh đề phân từ có chủ ngữ riêng (absolute): Weather permitting, The work done, With + N + V-ing/V3",
+        "explanationVi": "Khi cụm phân từ có CHỦ NGỮ RIÊNG khác chủ ngữ mệnh đề chính, đặt danh từ ngay trước phân từ, ngăn với mệnh đề chính bằng dấu phẩy: The work done, the builders went home (= When the work was done...). Dạng này mang tính trang trọng. Cách dùng: nguyên nhân/điều kiện/thời gian. Cụm cố định: Weather permitting, Time permitting, All things considered. Dùng With + danh từ + V-ing/V3 diễn tả hoàn cảnh: With the roads blocked by snow, we stayed home. Nghĩa hoàn thành dùng having + V3: All the guests having arrived, the ceremony began. Bẫy: không được nối hai mệnh đề đầy đủ chỉ bằng dấu phẩy (The deadline approached, the students worked... là lỗi).",
+        "examples": [
+          {
+            "en": "Weather permitting, we will have the picnic tomorrow.",
+            "vi": "Nếu thời tiết cho phép, ngày mai chúng ta sẽ đi dã ngoại."
+          },
+          {
+            "en": "The work done, the builders went home.",
+            "vi": "Việc xong, các thợ xây ra về."
+          },
+          {
+            "en": "With the roads blocked by snow, we decided to stay home.",
+            "vi": "Vì đường bị tuyết chặn, chúng tôi quyết định ở nhà."
+          }
+        ]
+      },
+      {
+        "id": "pc-u8-vs-reduced-relative",
+        "bac": 5,
+        "label": "Phân biệt mệnh đề phân từ trạng ngữ và mệnh đề quan hệ rút gọn",
+        "explanationVi": "Cụm phân từ có hai nhiệm vụ khác nhau. (1) Mệnh đề quan hệ rút gọn bổ nghĩa cho DANH TỪ ngay phía trước, đứng sau danh từ, không dấu phẩy khi xác định (đã học ở rc-reduced-clauses): The girl standing by the window is my cousin (= who is standing). (2) Mệnh đề phân từ trạng ngữ nói về HÀNH ĐỘNG của câu: lý do, thời gian, cách thức; thường đứng đầu câu, có dấu phẩy: Knowing the area well, Sam acted as our guide (= Because he knew...). Dấu phẩy có thể đổi nghĩa: The children delighted by the show asked for more (chỉ một số trẻ thích); The children, delighted by the show, asked for more (tất cả trẻ thích). Mẹo: thử thêm who/which + be; nếu hợp lý thì đó là mệnh đề quan hệ rút gọn; nếu hợp với because/when/while thì đó là phân từ trạng ngữ.",
+        "examples": [
+          {
+            "en": "The man waiting outside is our guide.",
+            "vi": "Người đàn ông đang đợi bên ngoài là hướng dẫn viên của chúng ta."
+          },
+          {
+            "en": "Knowing the area well, Sam acted as our guide.",
+            "vi": "Vì biết rõ khu vực, Sam làm hướng dẫn viên."
+          },
+          {
+            "en": "The children, delighted by the show, asked for more.",
+            "vi": "Lũ trẻ, vốn rất thích buổi diễn, đòi xem thêm."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "-ing clause",
+        "meaningVi": "Cụm V-ing: đồng thời, nguyên nhân, kết quả"
+      },
+      {
+        "word": "Having + V3",
+        "meaningVi": "Đã làm xong trước (nguyên nhân, trình tự)"
+      },
+      {
+        "word": "Not + V-ing / Not having + V3",
+        "meaningVi": "Phủ định của cụm phân từ"
+      },
+      {
+        "word": "V3 clause (Built in..., Given...)",
+        "meaningVi": "Cụm quá khứ phân từ mang nghĩa bị động"
+      },
+      {
+        "word": "While / After / Before / Since / On / By + V-ing",
+        "meaningVi": "Liên từ/giới từ + V-ing"
+      },
+      {
+        "word": "Once / When / Although / Unless + V3",
+        "meaningVi": "Liên từ + V3 (bị động, lược be)"
+      },
+      {
+        "word": "Weather permitting / All things considered",
+        "meaningVi": "Cụm phân từ cố định, trang trọng"
+      },
+      {
+        "word": "With + N + V-ing/V3",
+        "meaningVi": "Hoàn cảnh kèm theo"
+      }
+    ],
+    "formulas": {
+      "present": "V-ing + ..., + mệnh đề chính. Ví dụ: Walking along the beach, we found a shell.",
+      "perfect": "Having + V3 + ..., + mệnh đề chính. Ví dụ: Having finished his homework, Tom turned on the TV.",
+      "passive": "V3 / Having been + V3 + ..., + mệnh đề chính. Ví dụ: Built in 1998, the stadium is still used.",
+      "negative": "Not + V-ing / Not having + V3 + ... Ví dụ: Not knowing the answer, she asked for help.",
+      "result": "Mệnh đề chính, + V-ing. Ví dụ: The volcano erupted, covering the island with ash.",
+      "absolute": "Danh từ + phân từ + ..., + mệnh đề chính. Ví dụ: The work done, the builders went home."
+    },
+    "commonMistakes": [
+      {
+        "id": "participle-clauses-m1",
+        "description": "Chủ ngữ treo: chủ ngữ của mệnh đề chính không phải người làm hành động trong cụm phân từ.",
+        "examples": [
+          {
+            "wrong": "Walking to school, a rainbow appeared.",
+            "correct": "Walking to school, I saw a rainbow."
+          }
+        ],
+        "usageIds": [
+          "pc-u6-dangling"
+        ]
+      },
+      {
+        "id": "participle-clauses-m2",
+        "description": "Dùng V-ing đơn thay cho Having + V3 khi hành động trong cụm đã hoàn thành trước, hoặc ngược lại.",
+        "examples": [
+          {
+            "wrong": "Having talked on the phone, Dad cooked dinner at the same time.",
+            "correct": "Talking on the phone, Dad cooked dinner."
+          }
+        ],
+        "usageIds": [
+          "pc-u3-perfect-participle"
+        ]
+      },
+      {
+        "id": "participle-clauses-m3",
+        "description": "Dùng sai dạng phân từ: V-ing cho nghĩa bị động hoặc V3 cho nghĩa chủ động.",
+        "examples": [
+          {
+            "wrong": "Frightening by the noise, the baby cried.",
+            "correct": "Frightened by the noise, the baby cried."
+          }
+        ],
+        "usageIds": [
+          "pc-u4-past-participle",
+          "pc-u1-present-participle"
+        ]
+      },
+      {
+        "id": "participle-clauses-m4",
+        "description": "Đặt not sai chỗ hoặc dùng trợ động từ trong cụm phân từ phủ định.",
+        "examples": [
+          {
+            "wrong": "Don't knowing the answer, she raised her hand.",
+            "correct": "Not knowing the answer, she raised her hand."
+          }
+        ],
+        "usageIds": [
+          "pc-u1-present-participle",
+          "pc-u3-perfect-participle"
+        ]
+      },
+      {
+        "id": "participle-clauses-m5",
+        "description": "Nối hai mệnh đề đầy đủ chỉ bằng dấu phẩy thay vì dùng cụm phân từ có chủ ngữ riêng.",
+        "examples": [
+          {
+            "wrong": "The work was done, the builders went home.",
+            "correct": "The work done, the builders went home."
+          }
+        ],
+        "usageIds": [
+          "pc-u7-absolute"
+        ]
+      },
+      {
+        "id": "participle-clauses-m6",
+        "description": "Dùng to-V hoặc động từ nguyên mẫu sau before/after/since/on/by, hoặc thêm and trước cụm V-ing chỉ kết quả.",
+        "examples": [
+          {
+            "wrong": "Before to enter the house, take off your shoes.",
+            "correct": "Before entering the house, take off your shoes."
+          },
+          {
+            "wrong": "The storm hit the coast, and causing floods in two towns.",
+            "correct": "The storm hit the coast, causing floods in two towns."
+          }
+        ],
+        "usageIds": [
+          "pc-u5-after-conjunctions",
+          "pc-u2-result-sequence"
+        ]
+      }
+    ]
+  }
+}

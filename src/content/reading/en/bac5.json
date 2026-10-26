@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "rd-b5-001",
+    "bac": 5,
+    "title": "The Sound of a Silent City",
+    "text": "When traffic thinned out during public-health restrictions a few years ago, many city dwellers reported hearing birdsong for the first time in years. It is tempting to conclude that the solution to urban noise is simply less of it. Dr. Marta Lindqvist, an acoustic scientist, thinks the matter is considerably more subtle.\n\nIn her team's surveys, residents were asked to rate recorded street scenes. Predictably, many of the quietest scenes were popular. Yet some quiet recordings were rated as unpleasant, while a few lively ones, featuring fountains, street musicians and children playing, were rated highly. \"What people dislike,\" Lindqvist says, \"is not sound as such but sound they cannot control or explain.\" A constant engine drone offers no information and no variety; a fountain, by contrast, is a sound that someone has chosen to put there.\n\nThis finding has practical consequences. Planners have traditionally relied on barriers and thick windows, which lower decibel levels but do nothing to improve the quality of what remains. Lindqvist's group proposes a different approach, sometimes called soundscape design: adding pleasant sounds, such as running water, to cover unwanted ones, and arranging buildings so that a courtyard is sheltered from the main road. Critics object that this merely hides the problem rather than solving it. Lindqvist concedes the point in part, but replies that cities will never be silent, and that the realistic goal is for residents to feel at ease rather than to hear nothing.\n\nShe is also careful not to overstate her results. The surveys involved only a few hundred volunteers, most of them young adults, and people's tastes in sound vary with age and culture. \"I would not call this a recipe,\" she says. \"It is a reason to ask people what they actually hear, not just to measure it.\"",
+    "questions": [
+      {
+        "prompt": "What is the main point of the passage?",
+        "choices": [
+          "Cities should aim to remove as much noise as possible.",
+          "Scientists disagree about whether birdsong is pleasant.",
+          "How much people enjoy a city's sounds depends on more than how loud they are.",
+          "The restrictions proved that people prefer silent streets."
+        ],
+        "correctIndex": 2,
+        "explanation": "Cả bài xoay quanh phát hiện rằng độ dễ chịu của âm thanh không chỉ do âm lượng: có bản ghi yên tĩnh bị chê, có bản sôi động được khen.",
+        "choiceExplanations": [
+          "Sai — 'the solution to urban noise is simply less of it' là kết luận hấp dẫn mà bài đưa ra rồi bác bỏ; Lindqvist cho rằng vấn đề tinh tế hơn.",
+          "Sai — Tiếng chim chỉ là chi tiết mở đầu; bài không nói có tranh cãi về việc nó dễ chịu hay không.",
+          "Đúng — 'not sound as such but sound they cannot control or explain': yếu tố quyết định không chỉ là độ lớn.",
+          "Sai — 'some quiet recordings were rated as unpleasant': bài cho thấy điều ngược lại."
+        ]
+      },
+      {
+        "prompt": "According to Lindqvist, which kind of sound do people dislike?",
+        "choices": [
+          "Sound from fountains and street musicians",
+          "Sound they cannot control or explain",
+          "Any sound that is louder than birdsong",
+          "Sound made by children playing"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô nói rõ: 'sound they cannot control or explain'.",
+        "choiceExplanations": [
+          "Sai — Tiếng đài phun nước và nghệ sĩ đường phố nằm trong số bản ghi 'rated highly'.",
+          "Đúng — câu trích của cô nêu đúng điều này; tiếng máy xe đều đều là ví dụ.",
+          "Sai — Bài không so sánh với tiếng chim; cô không nói về một ngưỡng âm lượng.",
+          "Sai — Trẻ em chơi đùa cũng nằm trong số bản ghi được đánh giá cao."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Lindqvist is convinced that adding pleasant sounds completely solves the problem of urban noise.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô chỉ 'concedes the point in part' trước lời phê bình rằng cách này che giấu vấn đề, và nói 'I would not call this a recipe'.",
+        "choiceExplanations": [
+          "Sai — 'True': cô không khẳng định giải quyết hoàn toàn; cô thừa nhận một phần lời phê bình và nói kết quả chưa phải công thức.",
+          "Đúng — cô đặt mục tiêu thực tế là cư dân thấy dễ chịu, và thận trọng với kết quả của mình, nên không thể 'convinced' rằng nó giải quyết hoàn toàn.",
+          "Sai — Bài có nêu quan điểm của cô ở đoạn 3 và 4, nên không phải 'Not given'."
+        ]
+      },
+      {
+        "prompt": "What does the last paragraph show about Lindqvist's attitude to her own findings?",
+        "choices": [
+          "She is certain that they apply to all cultures and ages.",
+          "She regrets carrying out the surveys.",
+          "She thinks planners should ignore them.",
+          "She is cautious about how widely they can be applied."
+        ],
+        "correctIndex": 3,
+        "explanation": "Cô nhắc mẫu khảo sát nhỏ, chủ yếu người trẻ, khẩu vị âm thanh khác nhau theo tuổi và văn hóa, và nói 'I would not call this a recipe'.",
+        "choiceExplanations": [
+          "Sai — Cô nói ngược lại: 'tastes in sound vary with age and culture'.",
+          "Sai — Bài không cho thấy cô hối tiếc về các khảo sát.",
+          "Sai — Cô muốn người ta hỏi cư dân nghe thấy gì, chứ không bảo bỏ qua kết quả.",
+          "Đúng — 'careful not to overstate her results': cô thận trọng về phạm vi áp dụng."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-002",
+    "bac": 5,
+    "title": "Why Translation Is Never Neutral",
+    "text": "People who have never translated anything often imagine it as a kind of code-breaking: each word in one language has a partner in another, and the translator's job is simply to find the pairs. Anyone who has tried knows that the reality is messier. Take the Portuguese word saudade, which is often described as a longing for something or someone absent. English offers nostalgia, yearning and homesickness, yet none of them quite carries the same weight.\n\nThe difficulty is not only vocabulary. Languages disagree about what must be said. In some, a speaker cannot form a sentence about a friend without revealing whether the friend is male or female; in others, the verb must show how the speaker came to know the information, whether by seeing it or merely hearing about it. A translator moving into English must decide whether to add such details, which English does not require, or to leave them out and risk losing something the original author took for granted.\n\nConsequently, every translation is a series of small judgments, and judgments reflect the person making them. A translator who prizes faithfulness to the original may produce sentences that feel stiff to an English reader. One who prizes fluency may smooth away the very oddities that gave the original its flavor. Neither approach is wrong, but neither is neutral. Indeed, when two skilled translators render the same poem, the results can differ so much that readers might suspect they were working from different texts.\n\nNone of this should discourage us from reading works in translation; without it, most of us would be limited to the literature of a single language. It should, however, make us a little humbler. When we say that we have read a foreign novel, what we have really read is one person's careful, imperfect interpretation of it. Recognizing that does not diminish the experience. If anything, it invites us to treat the translator as a co-author, whose name deserves a place on the cover.",
+    "questions": [
+      {
+        "prompt": "The writer's main purpose is to",
+        "choices": [
+          "show that translation involves interpretation rather than simple word-matching",
+          "persuade readers to study Portuguese",
+          "criticize translators who work too quickly",
+          "explain how translation software functions"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài mở bằng hình dung 'code-breaking' rồi chứng minh dịch là chuỗi phán đoán cá nhân ('a series of small judgments').",
+        "choiceExplanations": [
+          "Đúng — đúng với toàn bài: từ không có cặp tương ứng hoàn toàn, mỗi người dịch phải lựa chọn.",
+          "Sai — Từ saudade chỉ là ví dụ; bài không khuyên học tiếng Bồ Đào Nha.",
+          "Sai — Bài không chê người dịch làm vội; hai cách dịch đều được cho là 'not wrong'.",
+          "Sai — Bài không nhắc đến phần mềm dịch."
+        ]
+      },
+      {
+        "prompt": "What does the writer suggest about a translator who values fluency above all?",
+        "choices": [
+          "Such a translator will always produce a more accurate text.",
+          "Such a translator usually ignores the original author.",
+          "The result may lose some of the original's distinctive qualities.",
+          "Such a translator cannot work with poetry."
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn 3: người ưu tiên độ trôi chảy có thể 'smooth away the very oddities that gave the original its flavor'.",
+        "choiceExplanations": [
+          "Sai — Bài nói cả hai cách đều không trung lập; không cách nào 'always more accurate'.",
+          "Sai — Bài không nói họ phớt lờ tác giả.",
+          "Đúng — 'smooth away the very oddities': nét riêng của bản gốc có thể mất.",
+          "Sai — Bài còn nhắc hai người dịch cùng một bài thơ, nên không có ý đó."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The writer believes translators deserve more public recognition than they often receive.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu cuối: nên coi người dịch là 'co-author, whose name deserves a place on the cover'.",
+        "choiceExplanations": [
+          "Đúng — tác giả đề nghị tên người dịch xứng đáng được in trên bìa, tức cần được ghi nhận rõ hơn.",
+          "Sai — Tác giả nói ngược lại.",
+          "Sai — Bài có nêu quan điểm này ở đoạn cuối."
+        ]
+      },
+      {
+        "prompt": "In paragraph 3, 'smooth away' is closest in meaning to",
+        "choices": [
+          "make more attractive",
+          "carefully preserve",
+          "gradually explain",
+          "get rid of"
+        ],
+        "correctIndex": 3,
+        "explanation": "'smooth away the very oddities' nghĩa là loại bỏ những nét lạ của bản gốc.",
+        "choiceExplanations": [
+          "Sai — Nghĩa đen 'làm đẹp' không khớp: các nét lạ bị mất đi, không được tô điểm.",
+          "Sai — Trái nghĩa: các nét lạ bị bỏ, không được giữ.",
+          "Sai — Không có ý giải thích dần.",
+          "Đúng — 'smooth away' ở đây là xóa đi, loại bỏ."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-003",
+    "bac": 5,
+    "title": "The Case for Slow Science",
+    "text": "Scientific journals reward novelty. A study that overturns an accepted idea is likely to be published, praised and reported in the news; a study that merely confirms an earlier result, however carefully, often struggles to find a home. This preference seems harmless until one considers its consequences. Researchers, knowing what is rewarded, may hurry toward surprising findings, and a surprising finding is, statistically speaking, more likely to be a fluke than an unsurprising one.\n\nThe remedy, some scientists argue, is to slow down. Raj Menon, a biologist who has become an outspoken advocate of what he calls slow science, says that the profession celebrates the wrong moment. \"We celebrate the instant of discovery and forget the long, dull stretch that comes afterward,\" he says. \"But that dull stretch is where science actually happens: someone else repeats the experiment, gets a slightly different answer, and the two sides work out why.\" In his own laboratory, no result is submitted for publication until a second member of the team has reproduced it independently. This policy has, he admits, reduced the number of papers the group produces each year by roughly a third.\n\nNot everyone is convinced. Critics point out that young researchers are judged largely by how many papers they publish, so a laboratory that publishes less may find it harder to attract funding and talented students. Menon does not dismiss this concern. He argues, though, that the system will change only if respected scientists take the first step, and that funders, who are after all paying for reliable knowledge, ought to welcome the shift.\n\nIt would be naive to expect journals to abandon their taste for the new overnight. Yet there are signs of movement: a few have begun to set aside space for replication studies, and some now agree to accept a paper before the results are known, judging it solely on the quality of its design. Whether such experiments will spread is uncertain. What seems clear is that science, which prides itself on questioning everything, has been slow to question the way it rewards itself.",
+    "questions": [
+      {
+        "prompt": "What is the writer's attitude toward the current system of scientific publishing?",
+        "choices": [
+          "Admiring, because it rewards bold discoveries",
+          "Concerned that it may encourage haste and unreliable results",
+          "Indifferent, because journals will never change",
+          "Hostile toward every scientist who publishes frequently"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 1 chỉ ra hệ quả của việc thưởng cho điều mới, và câu cuối nói khoa học 'has been slow to question the way it rewards itself'.",
+        "choiceExplanations": [
+          "Sai — Tác giả không ca ngợi mà chỉ ra hậu quả xấu.",
+          "Đúng — Đoạn 1 nêu nguy cơ vội vàng ('hurry toward surprising findings') dẫn tới kết quả dễ là ngẫu nhiên.",
+          "Sai — Tác giả vẫn nêu 'signs of movement' ở đoạn cuối, không thờ ơ.",
+          "Sai — Bài không công kích cá nhân nhà khoa học nào."
+        ]
+      },
+      {
+        "prompt": "According to the passage, why is a surprising finding more likely to be a fluke?",
+        "choices": [
+          "Because, statistically, unexpected results are more often produced by chance",
+          "Because journals check surprising results less carefully",
+          "Because the scientists who report them are usually inexperienced",
+          "Because other researchers never repeat them"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 1: 'statistically speaking, more likely to be a fluke than an unsurprising one'.",
+        "choiceExplanations": [
+          "Đúng — đúng như câu trong đoạn 1: về mặt thống kê, kết quả bất ngờ dễ là ngẫu nhiên hơn.",
+          "Sai — Bài không nói tạp chí kiểm tra ít kỹ hơn.",
+          "Sai — Bài không nói gì về kinh nghiệm của nhà khoa học.",
+          "Sai — 'never repeat' quá tuyệt đối; bài chỉ nói việc lặp lại thường bị xem nhẹ."
+        ]
+      },
+      {
+        "prompt": "In paragraph 2, 'This policy' refers to",
+        "choices": [
+          "the habit of celebrating discoveries",
+          "the rule that journals must accept repeated studies",
+          "the requirement that results be independently reproduced before submission",
+          "the decision to publish fewer papers each year"
+        ],
+        "correctIndex": 2,
+        "explanation": "Câu ngay trước: 'no result is submitted ... until a second member of the team has reproduced it independently'.",
+        "choiceExplanations": [
+          "Sai — Đó là điều Menon phê bình, không phải chính sách của phòng thí nghiệm.",
+          "Sai — Không có quy tắc nào buộc tạp chí nhận nghiên cứu lặp lại.",
+          "Đúng — 'This policy' chỉ quy định ở câu liền trước.",
+          "Sai — Việc giảm số bài báo là hệ quả của chính sách, không phải chính sách."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Menon's laboratory has lost funding because of its policy.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài chỉ nói phòng thí nghiệm như vậy 'may find it harder to attract funding' (lời phê bình), không nói đã mất tài trợ.",
+        "choiceExplanations": [
+          "Sai — 'True': bài không nói phòng thí nghiệm của Menon đã mất tài trợ.",
+          "Sai — 'False': bài cũng không nói phòng thí nghiệm vẫn được tài trợ bình thường.",
+          "Đúng — Không có thông tin nào về việc mất tài trợ thực tế, chỉ có nguy cơ do người phê bình nêu."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-004",
+    "bac": 5,
+    "title": "Numbers Behind the Goal",
+    "text": "Interviewer: Many fans picture a sports statistician as someone who records numbers after the match. Is that your job?\n\nVasquez: That is the old version, and it is still part of it. But the more interesting work happens before the match. We build models that estimate how likely a team is to score from a particular position, then compare that estimate with what actually happened. If a striker keeps missing chances the model considered easy, we ask whether she is simply unlucky or whether something about her technique needs attention. Luck evens out over a season; skill does not.\n\nInterviewer: Do coaches welcome this?\n\nVasquez: Some do, some are politely skeptical, and I do not blame the skeptics. A coach has watched thousands of hours of play and has instincts that no spreadsheet can reproduce. My first rule is never to present a number as if it were an order. I say, \"Here is something you might not have noticed,\" and then I let the coach decide whether it matters. The best partnerships I have seen are ones in which each side is slightly wary of the other.\n\nInterviewer: Is there a danger in trusting numbers too much?\n\nVasquez: A serious one. Numbers measure what is easy to count, and the easy-to-count things are not always the important ones. A defender who prevents a goal by standing in exactly the right place leaves no mark in the statistics, because nothing happened. Her work is invisible unless you know what to look for. So when a young analyst tells me a player is useless because he hardly appears in the data, I ask them to watch the match again, following only that player.\n\nInterviewer: What advice would you give to a student who loves both sport and mathematics?\n\nVasquez: Learn to explain your results to someone who does not care about mathematics. If you cannot, your analysis, however clever, will never leave your computer.",
+    "questions": [
+      {
+        "prompt": "Why does Vasquez compare the model's estimates with what actually happened?",
+        "choices": [
+          "To prove to coaches that their instincts are wrong",
+          "To record the final score of each match",
+          "To decide which players should be sold",
+          "To judge whether a player's misses come from bad luck or from something that can be improved"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cô nói về tiền đạo bỏ lỡ cơ hội 'easy': 'whether she is simply unlucky or whether something about her technique needs attention'.",
+        "choiceExplanations": [
+          "Sai — Cô tôn trọng bản năng của huấn luyện viên và không muốn chứng minh họ sai.",
+          "Sai — Ghi tỉ số là việc 'old version', không phải mục đích của việc so sánh này.",
+          "Sai — Bài không nhắc đến chuyện bán cầu thủ.",
+          "Đúng — chính là lý do cô nêu: phân biệt xui rủi với vấn đề kỹ thuật."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Vasquez thinks analysts should give coaches clear instructions based on the data.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô nói: 'never to present a number as if it were an order'.",
+        "choiceExplanations": [
+          "Sai — 'True': cô nói ngược lại, không đưa số liệu như mệnh lệnh.",
+          "Đúng — cô chỉ nêu điều huấn luyện viên có thể chưa để ý và để họ tự quyết.",
+          "Sai — Bài nêu rõ quan điểm này ở câu trả lời thứ hai."
+        ]
+      },
+      {
+        "prompt": "What does Vasquez imply about the best partnerships between analysts and coaches?",
+        "choices": [
+          "Each side keeps a healthy doubt about the other's methods.",
+          "The coach follows every recommendation.",
+          "The analyst has played professionally.",
+          "Both sides avoid any disagreement."
+        ],
+        "correctIndex": 0,
+        "explanation": "Cô nói: 'each side is slightly wary of the other'.",
+        "choiceExplanations": [
+          "Đúng — 'slightly wary of the other': hai bên hơi dè chừng nhau lại là điều tốt.",
+          "Sai — Cô nói rõ không đưa số liệu như mệnh lệnh nên huấn luyện viên không phải làm theo tất cả.",
+          "Sai — Bài không nói nhà phân tích từng chơi chuyên nghiệp; lời khuyên cuối bài là học cách giải thích kết quả cho người không thích toán.",
+          "Sai — Sự dè chừng lẫn nhau hàm ý hai bên vẫn có bất đồng."
+        ]
+      },
+      {
+        "prompt": "When Vasquez says a defender 'leaves no mark in the statistics', she means that",
+        "choices": [
+          "the defender never plays well",
+          "good defending can go unrecorded because nothing visible happens",
+          "the statistics are often copied incorrectly",
+          "defenders are not allowed to be measured"
+        ],
+        "correctIndex": 1,
+        "explanation": "Hậu vệ đứng đúng chỗ khiến bàn thua không xảy ra, 'because nothing happened', nên số liệu không ghi lại.",
+        "choiceExplanations": [
+          "Sai — Ngược lại, cô nói hậu vệ này ngăn được bàn thắng.",
+          "Đúng — việc phòng ngự tốt có thể không để lại dấu vết nào trong số liệu.",
+          "Sai — Bài không nói về sai sót khi sao chép.",
+          "Sai — Bài không nói có điều cấm đo lường hậu vệ."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-005",
+    "bac": 5,
+    "title": "Soil: The Living Skin of the Planet",
+    "text": "To most of us, soil is simply what lies beneath our shoes. Yet a single spoonful of healthy earth can contain billions of microscopic organisms, and the ground is better understood as a community than as a heap of crushed rock. Bacteria and fungi break down fallen leaves and dead roots, releasing nutrients that plants can absorb. Earthworms tunnel through the ground, allowing air and water to move downward. Fungal threads, far thinner than a hair, attach themselves to the roots of many plants and exchange minerals for sugars, effectively extending the reach of the plant.\n\nForming soil takes an extraordinarily long time. Rock is broken down by wind, water and changes in temperature, and by the slow work of living things; the process can take centuries to produce even a thin fertile layer. Losing it, by contrast, can happen in a single season. When forests are cleared or fields are left bare, heavy rain can wash away the upper layer, which is exactly the richest part.\n\nFarmers who plant cover crops between harvests, or who avoid turning the soil more than necessary, can reduce this loss considerably. These methods are not new; many were abandoned when cheap fertilizers made it seem unnecessary to care for the soil itself. Fertilizer, however, supplies only a few nutrients. It does not rebuild the structure or the living community that make soil resilient.\n\nScientists increasingly regard soil as a resource that is renewable only in theory. Because replacement is so slow, a field that is damaged today will, for practical purposes, remain damaged for the lifetimes of those who farm it. This is why many researchers now argue that protecting soil should rank alongside protecting water and air, even though, unlike a polluted river, a damaged field rarely makes headlines.",
+    "questions": [
+      {
+        "prompt": "What is the main idea of the passage?",
+        "choices": [
+          "Soil is a living resource that forms slowly and deserves protection.",
+          "Fertilizers are the best way to improve soil.",
+          "Earthworms are the most important organisms in the ground.",
+          "Rain is the main cause of poor farming."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài tả đất như một cộng đồng sinh vật, hình thành rất chậm, dễ mất, và cần được bảo vệ.",
+        "choiceExplanations": [
+          "Đúng — tóm đúng ba ý: đất sống, hình thành chậm, cần bảo vệ.",
+          "Sai — Bài nói phân bón chỉ cung cấp 'only a few nutrients'.",
+          "Sai — Giun chỉ là một ví dụ trong cộng đồng sinh vật đất.",
+          "Sai — Mưa chỉ làm trôi lớp đất khi đất để trống; bài không coi đó là nguyên nhân chính của nông nghiệp kém."
+        ]
+      },
+      {
+        "prompt": "How do fungal threads help plants, according to the passage?",
+        "choices": [
+          "They let air and water move downward.",
+          "They protect roots from heavy rain.",
+          "They extend the plant's reach by exchanging minerals for sugars.",
+          "They remove the need for fertilizer."
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn 1: sợi nấm 'exchange minerals for sugars, effectively extending the reach of the plant'.",
+        "choiceExplanations": [
+          "Sai — Đó là vai trò của giun đất.",
+          "Sai — Bài không nói sợi nấm bảo vệ rễ khỏi mưa.",
+          "Đúng — đúng theo đoạn 1.",
+          "Sai — Bài không nói sợi nấm thay thế được phân bón."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Cheap fertilizers led many farmers to give up some soil-protecting methods.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 3: 'many were abandoned when cheap fertilizers made it seem unnecessary to care for the soil itself'.",
+        "choiceExplanations": [
+          "Đúng — đúng theo đoạn 3: nhiều phương pháp bị bỏ khi có phân bón rẻ.",
+          "Sai — Bài khẳng định điều này, không phủ nhận.",
+          "Sai — Bài có nói rõ điều này ở đoạn 3."
+        ]
+      },
+      {
+        "prompt": "What does the writer mean by saying that soil is 'renewable only in theory'?",
+        "choices": [
+          "Scientists have only theories about how soil forms.",
+          "It can be replaced in principle, but too slowly to matter in practice.",
+          "It can be renewed quickly by adding fertilizer.",
+          "Farmers believe that soil never runs out."
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu sau giải thích: 'Because replacement is so slow, a field that is damaged today will, for practical purposes, remain damaged'.",
+        "choiceExplanations": [
+          "Sai — Bài mô tả quá trình hình thành đất khá cụ thể, không chỉ là lý thuyết.",
+          "Đúng — về nguyên tắc đất tái tạo được, nhưng quá chậm nên thực tế như không.",
+          "Sai — Bài nói phân bón không xây lại cấu trúc đất.",
+          "Sai — Bài không nói điều này về niềm tin của nông dân."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-006",
+    "bac": 5,
+    "title": "Grading Without Numbers",
+    "text": "At Harbor Hill Middle School, one grade-level team spent a semester doing something many colleagues considered risky: they stopped giving percentage scores on written assignments. Instead, each piece of work came back with a short comment naming one strength and one next step, and students were asked to respond in writing before moving on.\n\nThe idea rested on a familiar worry. When a number appears on a returned essay, many students look at it, compare it with a neighbor's, and ignore everything else. The teachers wanted attention to shift from the mark to the work, and they hoped that students would begin to treat feedback as advice to be used rather than as a judgment to be endured. \"A grade is a verdict,\" said Ms. Dana Pruitt, who coordinated the trial. \"A comment is a conversation.\"\n\nThe results were mixed, and the team's report is candid about it. Students said they read the feedback more carefully, and teachers noticed that revisions became more substantial: rather than merely correcting spelling, students rewrote entire paragraphs. On the other hand, writing comments took each teacher considerably longer, and several admitted that they could not have kept up the pace beyond one semester. Some parents, meanwhile, complained that they could no longer tell at a glance how their children were doing. A handful of students even confessed that they missed the numbers, which at least told them where they stood.\n\nThe team has not concluded that grades should be abolished. Its recommendation is narrower: numbers should be withheld on drafts, where the purpose is improvement, and reserved for final versions, where the purpose is to report. Whether that compromise will satisfy everybody is doubtful, but it has the merit of fitting the workload of a human teacher.",
+    "questions": [
+      {
+        "prompt": "What is the main purpose of the passage?",
+        "choices": [
+          "To prove that grades should be abolished",
+          "To advise parents how to help with homework",
+          "To describe a new way of marking mathematics",
+          "To report on a trial of number-free feedback and its mixed results"
+        ],
+        "correctIndex": 3,
+        "explanation": "Bài kể một lần thử bỏ điểm số trong một học kỳ và nêu cả kết quả tốt lẫn hạn chế ('The results were mixed').",
+        "choiceExplanations": [
+          "Sai — Nhóm giáo viên 'has not concluded that grades should be abolished'.",
+          "Sai — Bài không đưa lời khuyên cho phụ huynh.",
+          "Sai — Bài nói về bài viết, không phải cách chấm môn toán.",
+          "Đúng — tóm đúng nội dung: một thử nghiệm và kết quả không đồng nhất."
+        ]
+      },
+      {
+        "prompt": "What change did teachers notice in students' revisions?",
+        "choices": [
+          "Students made larger changes, such as rewriting whole paragraphs.",
+          "Students stopped revising their work.",
+          "Students corrected only their spelling.",
+          "Students asked their parents for help."
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 3: 'rather than merely correcting spelling, students rewrote entire paragraphs'.",
+        "choiceExplanations": [
+          "Đúng — đúng theo đoạn 3.",
+          "Sai — Bài nói bản sửa trở nên 'more substantial', không phải bỏ sửa.",
+          "Sai — Bài nói học sinh làm nhiều hơn chỉ sửa chính tả.",
+          "Sai — Bài không nhắc đến việc nhờ phụ huynh."
+        ]
+      },
+      {
+        "prompt": "How would the team's final recommendation best be described?",
+        "choices": [
+          "A complete ban on all grades",
+          "A return to the old system without any changes",
+          "A limited compromise rather than a complete change",
+          "A call for teachers to write much longer comments"
+        ],
+        "correctIndex": 2,
+        "explanation": "Khuyến nghị là chỉ giữ điểm trên bản nháp và dùng điểm cho bản cuối: 'narrower'.",
+        "choiceExplanations": [
+          "Sai — Nhóm không muốn bãi bỏ điểm số hoàn toàn.",
+          "Sai — Họ đề nghị thay đổi một phần, không quay về hoàn toàn.",
+          "Đúng — 'withheld on drafts ... reserved for final versions': một sự dung hòa có giới hạn.",
+          "Sai — Bài nói viết nhận xét đã tốn thời gian; không đề nghị viết dài hơn."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Students' test scores rose during the trial.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không đề cập điểm kiểm tra tăng hay giảm; chỉ nói về việc đọc nhận xét và chất lượng bản sửa.",
+        "choiceExplanations": [
+          "Sai — 'True': bài không có thông tin về điểm kiểm tra.",
+          "Sai — 'False': bài cũng không nói điểm kiểm tra không tăng.",
+          "Đúng — Không có dữ liệu nào về điểm kiểm tra trong bài."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-007",
+    "bac": 5,
+    "title": "The Printing Press and the Spread of Ideas",
+    "text": "Historians often describe the arrival of the printing press in Europe as a turning point, and in many ways it was. Before the middle of the fifteenth century, every book had to be copied by hand, a process so slow and costly that a library of a few dozen volumes was a considerable treasure. Printing with movable metal type, associated above all with Johannes Gutenberg, changed the arithmetic. Once the letters had been set, many identical pages could be produced in the time a scribe needed for one.\n\nYet it would be misleading to credit a single invention with transforming a continent. Movable type had been used in East Asia centuries earlier, and its effects there were not the same. Some historians suggest that the reason lies partly in the writing systems: an alphabet of a few dozen letters suits movable type far better than a script of thousands of characters. Others stress economic factors, such as the growth of towns, merchants and universities, whose members were eager to buy books.\n\nWhat printing undoubtedly did was make both errors and ideas travel faster. A mistake in a handwritten copy usually stayed local; a mistake in a printed edition could be reproduced a thousand times. By the same token, a new argument could reach readers in distant cities within weeks. Authorities soon realized this, and many responded with licensing rules and lists of forbidden books, which suggests that they, at least, did not doubt the power of the new technology.\n\nThe lesson may be that technologies rarely act alone. They amplify tendencies already present in a society, and the same tool can produce quite different results in different hands. It is a lesson worth remembering whenever we are told that some new device will, by itself, change everything.",
+    "questions": [
+      {
+        "prompt": "What is the writer's view of the printing press?",
+        "choices": [
+          "It was the single cause of Europe's transformation.",
+          "It was important, but its effects depended on other conditions in society.",
+          "Its importance has been exaggerated, and it changed nothing.",
+          "It was harmful because it spread mistakes."
+        ],
+        "correctIndex": 1,
+        "explanation": "Mở bài thừa nhận bước ngoặt, rồi nói 'misleading to credit a single invention' và kết rằng công nghệ 'rarely act alone'.",
+        "choiceExplanations": [
+          "Sai — Tác giả bác bỏ chính điều này: 'misleading to credit a single invention'.",
+          "Đúng — đúng với lập luận: quan trọng nhưng phụ thuộc điều kiện xã hội.",
+          "Sai — Tác giả nói 'what printing undoubtedly did' là làm ý tưởng lan nhanh, nên không phủ nhận tác động.",
+          "Sai — Lỗi lan nhanh chỉ là một mặt; tác giả không kết luận máy in có hại."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Some historians connect the effects of printing partly to the kind of writing system used.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 2: 'Some historians suggest that the reason lies partly in the writing systems'.",
+        "choiceExplanations": [
+          "Đúng — đúng theo đoạn 2.",
+          "Sai — Bài khẳng định có sử gia nêu điều này.",
+          "Sai — Bài có nói rõ ở đoạn 2."
+        ]
+      },
+      {
+        "prompt": "Why does the writer mention East Asia?",
+        "choices": [
+          "To claim that Europeans copied Asian books",
+          "To argue that alphabets are inferior to other scripts",
+          "To prove that Gutenberg invented nothing",
+          "To show that movable type alone did not guarantee the same results"
+        ],
+        "correctIndex": 3,
+        "explanation": "Chữ rời đã có ở Đông Á trước nhiều thế kỷ nhưng 'its effects there were not the same', cho thấy phát minh một mình chưa đủ.",
+        "choiceExplanations": [
+          "Sai — Bài không nói người châu Âu sao chép sách châu Á.",
+          "Sai — Bài nói bảng chữ cái hợp với chữ rời hơn, không nói nó 'kém hơn' loại chữ nào.",
+          "Sai — Bài không phủ nhận vai trò của Gutenberg.",
+          "Đúng — nêu đúng mục đích của ví dụ."
+        ]
+      },
+      {
+        "prompt": "In paragraph 3, 'By the same token' is closest in meaning to",
+        "choices": [
+          "in the same way",
+          "on the other hand",
+          "after a short time",
+          "for the same price"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu trước nói lỗi lan nhanh, câu này nói ý tưởng cũng lan nhanh: cùng một lý do, tức 'in the same way'.",
+        "choiceExplanations": [
+          "Đúng — hai câu nối nhau bằng cùng một nguyên lý: in tràn thì cái gì cũng lan nhanh.",
+          "Sai — 'On the other hand' diễn tả tương phản, không phù hợp.",
+          "Sai — Không liên quan đến thời gian.",
+          "Sai — Không liên quan đến giá cả."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-008",
+    "bac": 5,
+    "title": "Robots on the Sidewalk",
+    "text": "Last autumn, the town of Larkfield allowed a small fleet of delivery robots, each about the size of a cooler, to roll along its sidewalks carrying groceries and parcels. The town council described the project as an experiment. Its reasoning was straightforward: Larkfield has an aging population, and many residents find it hard to carry heavy bags. A robot that delivers shopping for a small fee seemed an elegant answer.\n\nEarly reports were encouraging. Customers praised the convenience, and the robots, programmed to stop whenever anything blocked their path, caused no injuries. Complaints, however, soon followed. The machines moved slowly, and pedestrians sometimes found themselves stepping into the road to get around one that had halted. Wheelchair users reported that the robots occasionally stopped in places that blocked the curb ramps. A group of local teenagers discovered that a robot could be paralyzed simply by standing in front of it, and they treated this as a game.\n\nShop owners were divided. Those with delivery services welcomed the robots, while the owner of a family-run bakery worried that customers who ordered online would no longer visit in person. \"Half of what I sell is conversation,\" she said. \"You cannot deliver that in a box.\"\n\nWhat interests researchers is less the technology than the behavior it provokes. Dr. Samir Haddad, who has studied the project, observes that people quickly started to treat the robots like unusual pets: some greeted them, others spoke to them as they passed, and few seemed afraid. \"We designed the machines for the sidewalk,\" he says, \"but we forgot that the sidewalk is a social space, with its own unwritten rules.\"\n\nThe council has not yet decided whether to extend the trial. A decision is expected after a public meeting, to which residents with objections have been specifically invited.",
+    "questions": [
+      {
+        "prompt": "What does the passage mainly discuss?",
+        "choices": [
+          "How delivery robots are manufactured",
+          "Why teenagers dislike new technology",
+          "Both the benefits and the problems of a town's robot-delivery experiment",
+          "A council's decision to ban robots"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài nêu lý do dự án, lời khen, lời phàn nàn, ý kiến cửa hàng và nhận xét của nhà nghiên cứu; hội đồng chưa quyết định.",
+        "choiceExplanations": [
+          "Sai — Bài không nói về sản xuất rô-bốt.",
+          "Sai — Thanh thiếu niên chỉ là một ví dụ về hành vi, không phải chủ đề, và bài không nói họ ghét công nghệ.",
+          "Đúng — tóm đúng nội dung chính.",
+          "Sai — 'has not yet decided': hội đồng chưa quyết định, càng chưa cấm."
+        ]
+      },
+      {
+        "prompt": "What does Haddad mean by 'the sidewalk is a social space'?",
+        "choices": [
+          "Sidewalks are too crowded for any machines.",
+          "People's behavior on sidewalks follows unwritten rules that the designers overlooked.",
+          "Residents use sidewalks mainly for shopping.",
+          "Robots should be designed to talk to pedestrians."
+        ],
+        "correctIndex": 1,
+        "explanation": "Ông nói: 'we forgot that the sidewalk is a social space, with its own unwritten rules'.",
+        "choiceExplanations": [
+          "Sai — Ông không nói vỉa hè quá đông.",
+          "Đúng — đúng theo câu của ông về 'unwritten rules'.",
+          "Sai — Bài không nói cư dân dùng vỉa hè chủ yếu để mua sắm.",
+          "Sai — Bài không đề xuất rô-bốt biết nói."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The robots injured several pedestrians during the trial.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 2: các rô-bốt 'caused no injuries'.",
+        "choiceExplanations": [
+          "Sai — 'True': bài nói rõ không có thương tích.",
+          "Đúng — đúng: 'caused no injuries'.",
+          "Sai — Bài có nêu rõ thông tin này nên không phải 'Not given'."
+        ]
+      },
+      {
+        "prompt": "Why was the owner of the family-run bakery concerned?",
+        "choices": [
+          "The robots frightened her customers.",
+          "The robots were too expensive to hire.",
+          "The robots blocked the entrance to her shop.",
+          "Customers who ordered online might stop visiting the shop."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn 3: bà lo khách đặt hàng trực tuyến 'would no longer visit in person'.",
+        "choiceExplanations": [
+          "Sai — Bài nói ít người sợ rô-bốt.",
+          "Sai — Bài không nói giá thuê rô-bốt.",
+          "Sai — Chỗ cản lối là đường dốc cho xe lăn, không liên quan đến cửa hàng của bà.",
+          "Đúng — đúng theo đoạn 3."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-009",
+    "bac": 5,
+    "title": "What a Conductor Actually Does",
+    "text": "To an outsider, an orchestral conductor can seem to be doing very little. The musicians already have their notes in front of them; the conductor makes no sound; and some members of the audience cheerfully suspect that all the waving is for show. The truth is more interesting.\n\nA well-rehearsed group of four players, such as a string quartet, can keep time by listening to one another. An orchestra of eighty cannot. The players at the back are physically far from those at the front, and sound takes time to travel; if each musician waited to hear the others, the music would drag. The conductor solves the problem by giving a single, visible beat that everyone can follow, a fraction ahead of the sound itself.\n\nYet keeping time is the least of the job. Most of a conductor's influence is exerted before the concert, in rehearsal, where decisions about balance, tempo and mood are made. A score does not say exactly how quiet \"quiet\" is, or how long a pause should last; those questions have to be answered by someone, and the answers shape the whole performance. Two conductors leading the same orchestra in the same piece can leave listeners arguing afterward over which of them played the real music.\n\nConductors also work as psychologists. A good one must correct dozens of musicians without humiliating any of them, and must sense when to insist and when to trust. The famous tyrants of the podium, who shouted and threw batons, are now remembered more for their tempers than for their music, and many orchestras today favor leaders who inspire rather than intimidate.\n\nSo the common suspicion is half right. In the moment of performance, the conductor's hands may produce no sound at all. But by then, most of the real work has been done.",
+    "questions": [
+      {
+        "prompt": "What is the writer's main point about conductors?",
+        "choices": [
+          "Their most important work is not the part the audience can see.",
+          "They are mainly needed to impress audiences.",
+          "They are unnecessary in large orchestras.",
+          "They should avoid speaking to the musicians."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài nói việc giữ nhịp chỉ là phần nhỏ; phần lớn ảnh hưởng nằm ở buổi tập; 'by then, most of the real work has been done'.",
+        "choiceExplanations": [
+          "Đúng — khớp với kết luận của bài.",
+          "Sai — Bài phản bác ý rằng việc vẫy tay chỉ để trình diễn.",
+          "Sai — Bài giải thích vì sao dàn nhạc lớn cần nhạc trưởng.",
+          "Sai — Bài không khuyên nhạc trưởng tránh nói chuyện; còn nhắc việc chỉnh sửa nhạc công trong buổi tập."
+        ]
+      },
+      {
+        "prompt": "Why can a string quartet manage without a conductor, while a large orchestra cannot?",
+        "choices": [
+          "Quartet players are generally more skillful than orchestra players",
+          "Large orchestras play much louder music than a quartet can",
+          "String instruments are easier to play together than other instruments",
+          "In a small group the players can follow one another easily, but in a large one sound takes too long to reach everyone."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn 2: nhóm bốn người giữ nhịp bằng cách nghe nhau; dàn nhạc tám mươi người thì người ở cuối ở xa và âm thanh cần thời gian để truyền.",
+        "choiceExplanations": [
+          "Sai — Bài không so sánh kỹ năng.",
+          "Sai — Bài không nói về âm lượng.",
+          "Sai — Bài không nói nhạc cụ dây dễ chơi cùng nhau hơn.",
+          "Đúng — đúng với giải thích ở đoạn 2."
+        ]
+      },
+      {
+        "prompt": "What does the writer mean by saying that 'the common suspicion is half right'?",
+        "choices": [
+          "Half of all conductors are unnecessary.",
+          "Conductors work only in rehearsals.",
+          "Conductors make no sound themselves, but that does not mean they contribute little.",
+          "Audiences understand only half of the music."
+        ],
+        "correctIndex": 2,
+        "explanation": "Nghi ngờ phổ biến là nhạc trưởng làm rất ít vì không phát ra âm thanh; đúng ở chỗ họ không phát âm, nhưng sai ở chỗ họ đóng góp ít.",
+        "choiceExplanations": [
+          "Sai — Bài không nói một nửa số nhạc trưởng là thừa.",
+          "Sai — Bài nói phần lớn việc làm trong buổi tập, nhưng cũng nhắc nhịp đánh trong buổi biểu diễn.",
+          "Đúng — một nửa đúng (không phát ra âm thanh) và một nửa sai (không đóng góp nhiều).",
+          "Sai — Bài không nói về mức độ hiểu nhạc của khán giả."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Most professional conductors began their careers as violinists.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không nói gì về xuất thân nghề nghiệp của nhạc trưởng.",
+        "choiceExplanations": [
+          "Sai — 'True': bài không đưa thông tin về việc nhạc trưởng từng chơi vĩ cầm.",
+          "Sai — 'False': bài cũng không phủ nhận điều đó.",
+          "Đúng — Không có thông tin nào về khởi đầu sự nghiệp của nhạc trưởng."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-010",
+    "bac": 5,
+    "title": "Farming on the Roof",
+    "text": "Across several large cities, flat rooftops that once held nothing more than water tanks and antennas are being turned into vegetable gardens. Supporters of rooftop farming make bold claims: fresher food, cooler buildings, less pollution from transport. How many of these claims hold up?\n\nThe cooling benefit is the best supported. A layer of soil and plants absorbs sunlight that would otherwise heat a dark roof, and the evaporation of water from leaves has a further cooling effect. Buildings beneath such roofs generally need less air-conditioning in summer, and the layer also slows the runoff of rainwater, easing the pressure on drains during storms.\n\nThe food claims are more modest. A rooftop cannot feed a city; even if every suitable roof were planted, the harvest would supply only a small proportion of what the population eats. The crops grown, moreover, tend to be leafy greens and herbs, which are valuable but light, so the effect on the total distance food travels is small. Rooftop farmers themselves rarely claim otherwise. Mia Torres, who runs a vegetable garden on top of a school, says its real value is educational. \"Children who have grown a tomato,\" she says, \"are far more curious about where the rest of their dinner comes from.\"\n\nThere are obstacles, too. Roofs must be strong enough to bear the weight of wet soil, and many older buildings are not; strengthening them can cost more than the garden would ever earn. Water must be carried upward, and wind can dry and damage the plants. For these reasons, most successful projects are on new buildings designed with gardens in mind.\n\nThe sensible conclusion, then, is neither enthusiasm nor dismissal. Rooftop farming is a useful addition to a city, valuable chiefly for what it does for buildings and for people's attitudes, rather than a revolution in how cities eat.",
+    "questions": [
+      {
+        "prompt": "What is the passage mainly about?",
+        "choices": [
+          "A step-by-step guide to planting vegetables",
+          "An assessment of what rooftop farming can and cannot achieve",
+          "A complaint about the cost of air-conditioning",
+          "A report on a city that banned rooftop gardens"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài đánh giá lần lượt các tuyên bố (làm mát, thực phẩm), trở ngại, rồi kết luận cân bằng.",
+        "choiceExplanations": [
+          "Sai — Bài không hướng dẫn cách trồng.",
+          "Đúng — mô tả đúng cấu trúc: từng tuyên bố được xem xét xem đúng đến đâu.",
+          "Sai — Điều hòa chỉ nhắc như lợi ích gián tiếp.",
+          "Sai — Bài không nói thành phố nào cấm vườn trên mái."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Many older buildings may not be strong enough to carry a rooftop garden.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 4: 'Roofs must be strong enough to bear the weight of wet soil, and many older buildings are not'.",
+        "choiceExplanations": [
+          "Đúng — đúng theo đoạn 4.",
+          "Sai — Bài khẳng định điều này.",
+          "Sai — Bài có nêu rõ ở đoạn 4."
+        ]
+      },
+      {
+        "prompt": "What is the writer's overall view of rooftop farming?",
+        "choices": [
+          "Enthusiastic about every claim made for it",
+          "Dismissive of the whole idea",
+          "Positive about some benefits but realistic about its limits",
+          "Unable to reach any opinion because there is no evidence"
+        ],
+        "correctIndex": 2,
+        "explanation": "Kết luận: 'neither enthusiasm nor dismissal'; hữu ích chủ yếu cho tòa nhà và nhận thức, không phải cuộc cách mạng ăn uống.",
+        "choiceExplanations": [
+          "Sai — Tác giả bác một số tuyên bố, nên không hào hứng với tất cả.",
+          "Sai — Tác giả vẫn gọi đây là 'a useful addition'.",
+          "Đúng — cân bằng giữa lợi ích và giới hạn.",
+          "Sai — Tác giả đưa kết luận rõ ràng ở đoạn cuối."
+        ]
+      },
+      {
+        "prompt": "Why does the passage say that rooftop crops have little effect on how far food travels?",
+        "choices": [
+          "They are mostly light leafy crops, and they supply only a small part of what a city eats.",
+          "Rooftops are too far from the shops.",
+          "Rooftop farmers refuse to sell their crops.",
+          "Plants cannot grow in the wind."
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 3: mùa màng chủ yếu rau lá và thảo mộc 'valuable but light', và sản lượng chỉ nuôi 'a small proportion' dân số.",
+        "choiceExplanations": [
+          "Đúng — khớp với đoạn 3.",
+          "Sai — Bài không nói mái nhà ở xa cửa hàng.",
+          "Sai — Bài không nói nông dân từ chối bán.",
+          "Sai — Gió chỉ được nhắc là khó khăn cho cây, không phải lý do về quãng đường vận chuyển thực phẩm."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-011",
+    "bac": 5,
+    "title": "Inside the Marathon Runner's Mind",
+    "text": "Long-distance runners speak of \"hitting the wall\", the moment late in a marathon when the legs turn heavy and every step seems to require a decision. Physiologists explain part of it: the body's stored carbohydrate runs low, and the muscles must switch to a slower fuel. Yet physiology alone does not explain why two runners of similar fitness, reaching the same point in the same race, can react so differently.\n\nSports psychologists have long been interested in that difference. One finding is that runners who concentrate on the sensations of their bodies, such as the burning in the thighs or the tightness of the breath, tend to feel the effort more keenly than those who direct their attention outward, toward the road, the scenery or a simple counting game. Experienced athletes often alternate between the two: they pay close attention to the body in order to avoid injury, then deliberately look away when the discomfort threatens to overwhelm them.\n\nAnother strategy concerns the way a race is divided. Instead of thinking of the entire distance, many runners learn to think only of the next lamp-post or the next water station. The finish line, which is far too distant to be a useful goal, is mentally set aside. Coaches describe this as shrinking the problem, and the idea applies far beyond sport: a student facing a mountain of revision may find it more manageable to commit to the next thirty minutes.\n\nNone of this makes the pain disappear, and the more honest coaches say so. What these techniques change is the runner's relationship with the pain. Discomfort that is noticed, accepted and then set aside is far less likely to end in withdrawal than discomfort that is fought at every step.",
+    "questions": [
+      {
+        "prompt": "What point does the writer make in the first paragraph?",
+        "choices": [
+          "Marathons should be shortened.",
+          "All runners hit the wall at exactly the same point.",
+          "Stored carbohydrate has no effect on the muscles",
+          "Body chemistry alone cannot explain why runners respond differently to exhaustion."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn 1 giải thích phần sinh lý rồi nêu: 'physiology alone does not explain' vì sao hai người cùng thể lực phản ứng khác nhau.",
+        "choiceExplanations": [
+          "Sai — Bài không đề xuất rút ngắn cuộc đua.",
+          "Sai — Bài nói hai người cùng điểm có thể phản ứng khác nhau, không nói mọi người chạm 'bức tường' cùng lúc.",
+          "Sai — Bài nói carbohydrate dự trữ cạn là một phần nguyên nhân, nên nó có ảnh hưởng đến cơ.",
+          "Đúng — đúng với ý cuối đoạn 1."
+        ]
+      },
+      {
+        "prompt": "What do experienced athletes often do, according to the passage?",
+        "choices": [
+          "Ignore their bodies completely",
+          "Switch between attending to their bodies and looking away from the discomfort",
+          "Count their steps throughout the whole race",
+          "Avoid thinking about the race before it begins"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 2: họ 'alternate between the two'.",
+        "choiceExplanations": [
+          "Sai — Họ vẫn chú ý đến cơ thể để tránh chấn thương.",
+          "Đúng — đúng với đoạn 2.",
+          "Sai — Đếm số chỉ là một ví dụ về chú ý ra bên ngoài, không phải việc họ làm suốt cuộc đua.",
+          "Sai — Bài không nói gì về việc trước cuộc đua."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? According to the writer, mental techniques make the pain of running disappear.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 4: 'None of this makes the pain disappear, and the more honest coaches say so'.",
+        "choiceExplanations": [
+          "Sai — 'True': 'None of this makes the pain disappear' — bài nói rõ kỹ thuật tinh thần không làm cơn đau biến mất.",
+          "Đúng — 'None of this makes the pain disappear': tác giả khẳng định các kỹ thuật này không loại bỏ cơn đau, chỉ thay đổi cách người chạy đối diện với nó.",
+          "Sai — Bài nêu rõ điều này ở đoạn cuối nên không phải 'Not given'."
+        ]
+      },
+      {
+        "prompt": "In paragraph 3, 'shrinking the problem' refers to",
+        "choices": [
+          "running shorter races",
+          "forgetting that a task exists",
+          "breaking a large task into smaller, nearer goals",
+          "reducing the number of runners in a race"
+        ],
+        "correctIndex": 2,
+        "explanation": "Ngay trước đó: nghĩ đến cột đèn hay trạm nước tiếp theo thay vì cả quãng đường.",
+        "choiceExplanations": [
+          "Sai — Bài không nói về chạy cự ly ngắn hơn.",
+          "Sai — Vạch đích chỉ được tạm gác lại, không bị quên là không tồn tại.",
+          "Đúng — đúng: chia nhỏ thành mục tiêu gần.",
+          "Sai — Không liên quan đến số người chạy."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-012",
+    "bac": 5,
+    "title": "The Repair Café",
+    "text": "On the first Saturday of every month, the community hall in a small town fills with the sound of sewing machines, screwdrivers and cheerful argument. This is a repair café: a place where residents bring broken toasters, torn jackets and wobbly chairs, and volunteers help them mend the objects instead of throwing them away. The service is free, although a jar for donations stands by the door.\n\nThe movement began as a response to waste, and its founders' arguments are practical. Many products are now designed in ways that make repair difficult: batteries are glued in, screws have unusual shapes, and spare parts are unavailable or cost almost as much as a replacement. Visitors to the café, however, seem to care about more than money or the environment. \"People come in embarrassed,\" says Joanna Whitlock, a retired electrician who volunteers there, \"as if the broken object were their own fault. By the end of the afternoon they are proud.\"\n\nThe learning runs in both directions. Younger volunteers are often better with electronics, while older ones know how to mend cloth and wood, and the café becomes one of the few places where the two groups work side by side as equals. Teenagers who come with a broken headphone sometimes stay for hours, and one or two have become volunteers themselves.\n\nThe cafés cannot fix everything. Some devices are sealed so tightly that no amount of skill can open them without damage, and volunteers will not attempt repairs on anything that might be dangerous, such as heaters whose wiring cannot be inspected. They do, though, change how people look at the things they own. An object that you have seen opened up and understood is harder to throw away carelessly.",
+    "questions": [
+      {
+        "prompt": "What is the main idea of the passage?",
+        "choices": [
+          "Repair cafés offer social and educational benefits as well as reducing waste.",
+          "Repair cafés are the cheapest way to buy new goods.",
+          "Modern products are impossible to repair.",
+          "Volunteers at repair cafés are mostly teenagers."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài nêu mục đích chống lãng phí rồi nhấn mạnh niềm tự hào, việc học hai chiều giữa các thế hệ và thay đổi cách nhìn đồ vật.",
+        "choiceExplanations": [
+          "Đúng — tóm đúng các ý chính.",
+          "Sai — Quán sửa đồ không bán hàng mới.",
+          "Sai — Bài nói sản phẩm 'difficult' để sửa chứ không phải 'impossible'; và nhiều món vẫn sửa được.",
+          "Sai — Thanh thiếu niên chỉ là một nhóm, 'one or two' trở thành tình nguyện viên."
+        ]
+      },
+      {
+        "prompt": "Why does Whitlock say people arrive at the café feeling embarrassed?",
+        "choices": [
+          "They have no money to donate.",
+          "They feel responsible for the object being broken.",
+          "They think the volunteers are unfriendly.",
+          "They are unsure where the hall is."
+        ],
+        "correctIndex": 1,
+        "explanation": "Bà nói họ đến 'as if the broken object were their own fault'.",
+        "choiceExplanations": [
+          "Sai — Việc quyên góp chỉ là tùy ý, không phải lý do xấu hổ.",
+          "Đúng — đúng theo câu nói của bà.",
+          "Sai — Bài tả không khí vui vẻ, thân thiện.",
+          "Sai — Bài không nói gì về chuyện tìm địa điểm."
+        ]
+      },
+      {
+        "prompt": "Why do volunteers refuse to repair some items?",
+        "choices": [
+          "The items are too old.",
+          "Volunteers dislike electrical work.",
+          "The owners ask them not to.",
+          "Some items may be unsafe to mend if their wiring cannot be inspected."
+        ],
+        "correctIndex": 3,
+        "explanation": "Đoạn 4: họ không sửa những thứ có thể nguy hiểm, 'such as heaters whose wiring cannot be inspected'.",
+        "choiceExplanations": [
+          "Sai — Bài không nói đồ cũ là lý do từ chối.",
+          "Sai — Một người tình nguyện còn là thợ điện về hưu; bài không nói họ ngại việc điện.",
+          "Sai — Bài không nói chủ đồ yêu cầu như vậy.",
+          "Đúng — đúng theo đoạn 4."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The café receives financial support from the town council.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài chỉ nói dịch vụ miễn phí và có hũ quyên góp; không nói ai tài trợ.",
+        "choiceExplanations": [
+          "Sai — 'True': bài không nói hội đồng thị trấn tài trợ.",
+          "Sai — 'False': bài cũng không nói hội đồng không tài trợ.",
+          "Đúng — Bài không có thông tin về nguồn tài trợ của quán."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-013",
+    "bac": 5,
+    "title": "How Memory Rewrites the Past",
+    "text": "We tend to think of memory as a kind of recording: an event happens, the brain stores it, and years later we play it back. Research over several decades suggests that this picture is wrong. Remembering is closer to rebuilding than to replaying. Each time we recall an event, we reassemble it from fragments, and in the process the memory can be subtly altered.\n\nExperiments have shown how easily this happens. In a well-known type of study, volunteers watch a short film of a traffic accident and are later asked questions about it. Those asked how fast the cars were going when they smashed into each other tend to give higher estimates than those asked about cars that had bumped. A week later, some of the first group even recall seeing broken glass, although none appeared in the film.\n\nThis does not mean that memory is useless. Reconstruction has advantages: it allows us to blend many experiences into general knowledge, so that we know what a restaurant is like without remembering every meal. But it does mean that confidence is a poor guide to accuracy. People can feel entirely certain about a memory that is partly or wholly mistaken, and that certainty is not a sign of dishonesty.\n\nThe implications reach into courtrooms and classrooms. Legal systems have begun to treat eyewitness testimony with greater caution, and some teachers encourage students to write down events soon after they happen. For ordinary life, the most useful conclusion may be a gentle one: when two friends remember the same afternoon differently, it is rarely because one of them is lying. More often, each has rebuilt the afternoon in a slightly different way.",
+    "questions": [
+      {
+        "prompt": "What is the main idea of the passage?",
+        "choices": [
+          "Memory works like a video recorder.",
+          "People who misremember are usually lying.",
+          "Memory is a process of rebuilding, which can change what we remember.",
+          "Experiments on memory are unreliable."
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn 1: 'Remembering is closer to rebuilding than to replaying', và các đoạn sau minh họa hệ quả.",
+        "choiceExplanations": [
+          "Sai — Đó là quan niệm bài bác bỏ.",
+          "Sai — Bài nói ngược lại: 'that certainty is not a sign of dishonesty'.",
+          "Đúng — tóm đúng luận điểm của bài.",
+          "Sai — Bài dùng thí nghiệm làm bằng chứng, không chê chúng."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The writer suggests that feeling certain about a memory does not guarantee that it is accurate.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 3: 'confidence is a poor guide to accuracy'.",
+        "choiceExplanations": [
+          "Đúng — đúng theo đoạn 3.",
+          "Sai — 'False': bài khẳng định ngược lại — 'confidence is a poor guide to accuracy' và người ta có thể 'feel entirely certain' về ký ức sai.",
+          "Sai — Bài có nêu ý này ở đoạn 3."
+        ]
+      },
+      {
+        "prompt": "What did the traffic-accident experiment show?",
+        "choices": [
+          "The wording of a question could change the speed that volunteers remembered.",
+          "Volunteers could not remember any details.",
+          "Films are less reliable than real events.",
+          "Volunteers who recalled broken glass were lying."
+        ],
+        "correctIndex": 0,
+        "explanation": "Nhóm được hỏi với từ 'smashed' ước tính tốc độ cao hơn nhóm được hỏi với 'bumped'.",
+        "choiceExplanations": [
+          "Đúng — đúng theo đoạn 2.",
+          "Sai — Bài không nói họ không nhớ gì.",
+          "Sai — Bài không so sánh phim với sự kiện thật.",
+          "Sai — Bài nói chắc chắn không phải là dấu hiệu nói dối."
+        ]
+      },
+      {
+        "prompt": "What does the writer imply in the final paragraph?",
+        "choices": [
+          "One of two friends who disagree about the past must be lying.",
+          "Schools should ban discussions of the past.",
+          "Courts should ignore all witnesses.",
+          "Disagreements between friends about the past are usually honest ones."
+        ],
+        "correctIndex": 3,
+        "explanation": "Cuối bài: hai người bạn nhớ khác nhau 'rarely because one of them is lying'.",
+        "choiceExplanations": [
+          "Sai — Bài nói ngược lại.",
+          "Sai — Bài không đề xuất như vậy.",
+          "Sai — Bài chỉ nói các hệ thống pháp lý 'greater caution', không nói bỏ qua mọi nhân chứng.",
+          "Đúng — đúng với kết luận cuối bài."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b5-014",
+    "bac": 5,
+    "title": "The Trouble with Prediction",
+    "text": "When a weather forecast announces a thirty percent chance of rain and the afternoon stays dry, many people conclude that the forecaster was wrong. When it rains, they conclude the same thing. This is a strange state of affairs, because a probability is not a promise about a single day. A forecaster who says \"thirty percent\" on many occasions is, if skillful, right when rain falls on roughly three of every ten of those days. A forecast of this kind can be judged only over a long run, and few of us keep that sort of record.\n\nThe misunderstanding matters because it shapes how people respond to warnings. Emergency planners know that if residents are told that a storm might strike, some will prepare and others will shrug, and after a false alarm the shrugging group grows. Authorities therefore face an uncomfortable trade-off. Warn too readily, and people stop listening; warn too rarely, and some will be caught unprepared. There is no setting that satisfies everyone, and responsible forecasters are open about it.\n\nSome meteorologists have experimented with new ways of communicating uncertainty, for instance by showing a range of possible storm tracks rather than a single line. This seems to help many people understand the risk, although it also leaves some viewers more confused, and a few complain that the forecaster cannot make up her mind. Whether clarity or comfort is more important is itself a matter on which reasonable people disagree.\n\nPerhaps the deeper lesson concerns our appetite for certainty. We want the future to be announced, not estimated, and we judge those who admit doubt as less competent than those who sound sure. Yet in a world of genuine uncertainty, the confident prediction is the one to be suspicious of; the forecaster who says \"probably\" may simply be the one telling the truth.",
+    "questions": [
+      {
+        "prompt": "What is the writer's main point?",
+        "choices": [
+          "Forecasters are generally incompetent.",
+          "People misjudge forecasters because they expect certainty from predictions that are really probabilities.",
+          "Storm warnings should be abolished.",
+          "New technology will soon allow weather to be predicted exactly."
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài mở bằng việc hiểu sai xác suất và kết bằng 'our appetite for certainty'.",
+        "choiceExplanations": [
+          "Sai — Bài bênh vực nhà dự báo giỏi, không chê họ kém.",
+          "Đúng — tóm đúng lập luận từ đầu đến cuối.",
+          "Sai — Bài nói các cảnh báo có đánh đổi, không đề nghị bỏ.",
+          "Sai — Bài nói về sự bất định thật sự, không hứa dự báo chính xác tuyệt đối."
+        ]
+      },
+      {
+        "prompt": "What dilemma do authorities face when issuing warnings?",
+        "choices": [
+          "They must choose between accurate and cheap forecasts.",
+          "They must decide which cities deserve forecasts.",
+          "Warning too often makes people ignore warnings, while warning too rarely leaves some unprepared.",
+          "They must decide whether to show maps or numbers."
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn 2: 'Warn too readily, and people stop listening; warn too rarely, and some will be caught unprepared'.",
+        "choiceExplanations": [
+          "Sai — Bài không nói về chi phí của dự báo.",
+          "Sai — Bài không nói về việc chọn thành phố.",
+          "Đúng — đúng theo đoạn 2.",
+          "Sai — Chọn bản đồ hay con số là vấn đề giao tiếp ở đoạn 3, không phải thế tiến thoái lưỡng nan khi cảnh báo."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The writer believes that confident predictions are generally more trustworthy than cautious ones.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu cuối: 'the confident prediction is the one to be suspicious of'.",
+        "choiceExplanations": [
+          "Sai — 'True': tác giả nói ngược lại.",
+          "Đúng — đúng: tác giả cho rằng nên nghi ngờ dự đoán quá chắc chắn.",
+          "Sai — Tác giả nói rõ quan điểm này ở đoạn cuối."
+        ]
+      },
+      {
+        "prompt": "In paragraph 2, 'the shrugging group grows' suggests that after a false alarm",
+        "choices": [
+          "more people tend to ignore later warnings",
+          "more people prepare for storms",
+          "forecasters stop issuing warnings",
+          "residents leave the area"
+        ],
+        "correctIndex": 0,
+        "explanation": "'shrug' là không quan tâm; nhóm không để ý lớn dần sau cảnh báo sai.",
+        "choiceExplanations": [
+          "Đúng — đúng: càng nhiều người xem nhẹ cảnh báo sau đó.",
+          "Sai — Ngược lại với ý của câu.",
+          "Sai — Bài không nói nhà dự báo ngừng cảnh báo.",
+          "Sai — Bài không nhắc đến việc cư dân rời đi."
+        ]
+      }
+    ]
+  }
+]

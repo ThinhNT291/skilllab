@@ -7,12 +7,14 @@ import { shuffle, type Rng } from "../content/derive.ts"
 import type { MatchPair } from "../content/match.ts"
 import type { Bac, McqExercise, TypedExercise } from "../content/types.ts"
 
-export type VocabLevel = "a1" | "a2" | "b1" | "b2"
+export type VocabLevel = "a1" | "a2" | "b1" | "b2" | "c1" | "c2"
 export const VOCAB_LEVELS: { id: VocabLevel; label: string; bac: Bac }[] = [
   { id: "a1", label: "A1", bac: 1 },
   { id: "a2", label: "A2", bac: 2 },
   { id: "b1", label: "B1", bac: 3 },
   { id: "b2", label: "B2", bac: 4 },
+  { id: "c1", label: "C1", bac: 5 },
+  { id: "c2", label: "C2", bac: 6 },
 ]
 
 export interface VocabWord {

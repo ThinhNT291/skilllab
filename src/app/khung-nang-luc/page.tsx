@@ -1,4 +1,5 @@
 import data from "@/content/cando/vi.json"
+import { getScaleTotals } from "@/lib/progress/totals"
 
 export const metadata = { title: "Khung năng lực 6 bậc" }
 
@@ -13,7 +14,17 @@ const SKILLS: { key: keyof Level; label: string }[] = [
   { key: "writing", label: "Viết" },
 ]
 
-export default function FrameworkPage() {
+export default async function FrameworkPage() {
+  const totals = await getScaleTotals()
+  const have = (bac: number) => {
+    const parts = [
+      [totals.grammar[bac], "câu ngữ pháp"],
+      [totals.vocab[bac], "từ vựng"],
+      [totals.reading[bac], "bài đọc"],
+      [totals.listening[bac], "bài nghe"],
+    ].filter(([n]) => (n as number) > 0)
+    return parts.length ? parts.map(([n, l]) => `${n} ${l}`).join(" · ") : "chưa có nội dung"
+  }
   return (
     <main className="mx-auto w-full max-w-7xl px-4 py-6">
       <h1 className="text-3xl font-extrabold">Khung năng lực 6 bậc</h1>
@@ -35,6 +46,11 @@ export default function FrameworkPage() {
                   </div>
                 ))}
               </dl>
+              {l.bac >= 1 && (
+                <p className="mt-3 border-t-2 border-border pt-2 text-sm">
+                  <span className="font-extrabold">Nội dung trong ứng dụng:</span> <span className="text-muted-foreground">{have(l.bac)}</span>
+                </p>
+              )}
             </details>
           </li>
         ))}

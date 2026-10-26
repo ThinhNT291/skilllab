@@ -1,0 +1,345 @@
+{
+  "id": "conditionals-advanced",
+  "language": "en",
+  "title": "Câu điều kiện nâng cao (Advanced Conditionals)",
+  "levels": [
+    "C1",
+    "C2"
+  ],
+  "order": 37,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "ca-u1-mixed-nuance",
+        "bac": 5,
+        "label": "Điều kiện hỗn hợp nâng cao: nối quá khứ với hiện tại (và ngược lại)",
+        "explanationVi": "Hai mệnh đề không cần cùng một mốc thời gian. Kiểu 1: If + had + V3, would/could/might + V (nguyên mẫu) — một việc KHÔNG xảy ra trong quá khứ, kết quả đang ảnh hưởng đến HIỆN TẠI (thường có now, today, still). Kiểu 2: If + quá khứ đơn/were, would have + V3 — một đặc điểm hay hoàn cảnh còn đúng ở hiện tại (tính cách, sở thích, thói quen) là lý do một việc không xảy ra trong QUÁ KHỨ. Mệnh đề chính có thể dùng could hoặc might để giảm độ chắc chắn. Bẫy: đừng máy móc dùng loại 3 cho cả hai mệnh đề; hãy nhìn các dấu hiệu thời gian (now, last year, at the time) để chọn dạng động từ cho từng mệnh đề.",
+        "examples": [
+          {
+            "en": "If I had saved my allowance, I could afford a better laptop now.",
+            "vi": "Nếu trước đây tôi để dành tiền tiêu vặt thì bây giờ tôi đã đủ tiền mua máy tính tốt hơn."
+          },
+          {
+            "en": "If Mai weren't so shy, she would have joined the debate club last year.",
+            "vi": "Nếu Mai không quá nhút nhát thì năm ngoái cô ấy đã vào câu lạc bộ tranh biện."
+          },
+          {
+            "en": "If we hadn't taken the shortcut, we might still be walking through the forest now.",
+            "vi": "Nếu chúng tôi không đi đường tắt thì có lẽ giờ này vẫn đang đi trong rừng. (might: kết quả chỉ là khả năng)"
+          }
+        ]
+      },
+      {
+        "id": "ca-u2-were-to-should-happen-to",
+        "bac": 5,
+        "label": "If … were to / should / happen to: khả năng thấp và lịch sự",
+        "explanationVi": "If + were to + V (nguyên mẫu) nói về một giả định rất xa vời hoặc làm lời đề nghị nghe lịch sự, dè dặt hơn; mệnh đề chính dùng would/could. If + should + V nói về điều ít có khả năng xảy ra nhưng vẫn là khả năng thật, nên mệnh đề chính thường là will, can hoặc câu mệnh lệnh. If + happen to + V nghĩa là 'nếu tình cờ, nếu ngẫu nhiên', rất hay dùng để nhờ vả nhẹ nhàng. Với should, động từ vẫn ở nguyên mẫu (should + V). Với happen to, bài này dùng hiện tại (happen to + V); dạng quá khứ 'If you happened to…' cũng gặp và nghe còn dè dặt hơn. Bẫy: sau were to luôn là động từ nguyên mẫu (were to disappear, không phải were to disappeared), và cấu trúc đảo ngữ (Should you…, Were we to…) đã học ở bài câu điều kiện cơ bản; ở đây ta chỉ học nghĩa và cách dùng ở dạng có If.",
+        "examples": [
+          {
+            "en": "If the school were to double the number of computers, every student could have one.",
+            "vi": "Nếu nhà trường (giả sử) tăng gấp đôi số máy tính thì mỗi học sinh đều có thể có một máy."
+          },
+          {
+            "en": "If anyone should ask for me, tell them I'll be back at three.",
+            "vi": "Nếu có ai (lỡ) hỏi tìm tôi thì cứ nói tôi sẽ về lúc ba giờ."
+          },
+          {
+            "en": "If you happen to pass the post office, could you mail this letter?",
+            "vi": "Nếu bạn tình cờ đi ngang bưu điện thì gửi giúp tôi lá thư này nhé."
+          }
+        ]
+      },
+      {
+        "id": "ca-u3-but-for-without",
+        "bac": 5,
+        "label": "But for / without / if it weren't for / if it hadn't been for / were it not for",
+        "explanationVi": "Dùng các cụm này khi điều kiện là một DANH TỪ (một người, vật, sự kiện) mà nếu không có nó thì kết quả sẽ khác. 'If it weren't for + danh từ' nói về hiện tại (hoặc tình huống chung): If it weren't for your advice, I'd be lost. 'If it hadn't been for + danh từ' nói về quá khứ và đi với would have + V3. 'But for' và 'without' đứng đầu mệnh đề, trang trọng hơn một chút và dùng được cho cả hai mốc thời gian, nên phải nhìn mệnh đề chính để hiểu: But for the storm, we would have arrived on time. Dạng trang trọng 'Were it not for…' và 'Had it not been for…' (đảo ngữ, đã học ở bài câu điều kiện cơ bản) có cùng nghĩa với hai dạng If ở trên; hai mốc có thể trộn: If it hadn't been for her, I wouldn't be here today. Bẫy: sau but for và without là DANH TỪ hoặc cụm danh từ, không phải một mệnh đề đầy đủ có chủ ngữ và động từ.",
+        "examples": [
+          {
+            "en": "But for the coach's patience, our team would have given up long ago.",
+            "vi": "Nếu không có sự kiên nhẫn của huấn luyện viên thì đội chúng tôi đã bỏ cuộc từ lâu."
+          },
+          {
+            "en": "If it weren't for the internet, I wouldn't be able to study with students abroad.",
+            "vi": "Nếu không có Internet thì tôi không thể học cùng các bạn ở nước ngoài."
+          },
+          {
+            "en": "Without the volunteers, the festival could not have taken place.",
+            "vi": "Không có các tình nguyện viên thì lễ hội đã không thể diễn ra."
+          }
+        ]
+      },
+      {
+        "id": "ca-u4-formal-connectors",
+        "bac": 5,
+        "label": "Liên từ điều kiện trang trọng: provided/providing that, on condition that, as long as, in case, whether … or not, suppose/supposing",
+        "explanationVi": "Provided (that), providing (that), as long as, so long as và on condition that đều nghĩa là 'miễn là, với điều kiện là'; on condition that trang trọng nhất, thường gặp trong quy định, hợp đồng. Sau chúng dùng hiện tại đơn để nói về tương lai (provided that you return it, không phải will return). 'In case' KHÔNG thay cho 'if': bạn làm việc ở mệnh đề chính TRƯỚC để phòng khi điều ở mệnh đề in case xảy ra (Take a coat in case it rains). 'Whether … or not' nghĩa là 'dù có … hay không', điều kiện nào cũng không làm kết quả đổi khác. 'Suppose/Supposing (that)' mở đầu một giả thiết, thường đi với câu hỏi: Suppose we missed the bus, what would we do? Bẫy: thường không dùng will sau các liên từ này khi nói về tương lai, và đừng dùng in case khi ý là 'nếu … thì mới …'.",
+        "examples": [
+          {
+            "en": "You may use the science lab after school, provided that a teacher is present.",
+            "vi": "Các em được dùng phòng thí nghiệm sau giờ học, miễn là có giáo viên ở đó."
+          },
+          {
+            "en": "Bring some cash in case the card machine isn't working.",
+            "vi": "Hãy mang ít tiền mặt phòng khi máy quẹt thẻ không hoạt động."
+          },
+          {
+            "en": "Whether or not it rains, the match will go ahead.",
+            "vi": "Dù trời có mưa hay không, trận đấu vẫn diễn ra."
+          }
+        ]
+      },
+      {
+        "id": "ca-u5-otherwise-or-else",
+        "bac": 5,
+        "label": "Otherwise và or else: điều kiện phủ định ở câu thứ hai",
+        "explanationVi": "Otherwise nghĩa là 'nếu không thì, nếu không như vậy thì', nối hai câu hoặc hai mệnh đề: ý của câu sau là hệ quả nếu điều ở câu trước KHÔNG xảy ra hoặc không đúng. Or else gần nghĩa nhưng thân mật hơn và thường mang sắc thái cảnh báo: Be quiet, or else you'll wake the baby. Thì của mệnh đề sau otherwise/or else phụ thuộc vào thì của câu đầu: câu đầu nói về tương lai/hiện tại thì dùng will hoặc would; câu đầu nói về điều đã xảy ra trong quá khứ thì dùng would have + V3 (I took a taxi. Otherwise, I would have missed my flight). Otherwise còn có nghĩa khác là 'về các mặt khác, ngoài ra': The soup was salty, but otherwise the meal was lovely. Bẫy: unless và otherwise không thay thế nhau; unless là liên từ nghĩa 'trừ khi' nối hai mệnh đề trong cùng một câu, còn otherwise là trạng từ liên kết nghĩa 'nếu không thì'.",
+        "examples": [
+          {
+            "en": "Save your file now. Otherwise, you may lose your work.",
+            "vi": "Hãy lưu tệp ngay. Nếu không, bạn có thể mất bài đã làm."
+          },
+          {
+            "en": "We left at six, or else we would have missed the sunrise.",
+            "vi": "Chúng tôi xuất phát lúc sáu giờ, nếu không thì đã lỡ mất bình minh."
+          },
+          {
+            "en": "The hotel was a little noisy, but otherwise our stay was perfect.",
+            "vi": "Khách sạn hơi ồn, nhưng ngoài ra kỳ nghỉ của chúng tôi rất hoàn hảo."
+          }
+        ]
+      },
+      {
+        "id": "ca-u6-implicit-conditions",
+        "bac": 6,
+        "label": "Điều kiện ngầm: điều kiện nằm trong chủ ngữ hoặc cụm từ, không có If",
+        "explanationVi": "Nhiều câu không có từ if nhưng vẫn mang nghĩa điều kiện, và động từ chính dùng would/could/would have + V3. Điều kiện có thể nằm trong chủ ngữ (A true friend would have helped = If he had been a true friend, he would have helped), trong cụm giới từ (With a little luck, we could win; In your place, I would apologize; Under other circumstances, I would agree), trong cụm phân từ (Left alone, the plant would die; Seen from space, the lake would look like a coin) hoặc trong 'To hear/To look at + O, …' (To hear her speak, you would think she was a native). Hãy hỏi: 'nếu điều gì thì…?' để nhận ra điều kiện bị ẩn. Bẫy: trong những câu này would báo hiệu giả định, nên đừng chuyển sang will khi điều kiện chỉ là tưởng tượng.",
+        "examples": [
+          {
+            "en": "A true friend would have told you the truth.",
+            "vi": "Một người bạn thật sự thì đã nói cho bạn sự thật rồi. (= If he had been a true friend, he would have told you.)"
+          },
+          {
+            "en": "In your place, I would ask the teacher for another chance.",
+            "vi": "Nếu ở vào vị trí của bạn, tôi sẽ xin thầy cô thêm một cơ hội."
+          },
+          {
+            "en": "Left alone, the seedlings would dry out within days.",
+            "vi": "Nếu bị bỏ mặc, những cây con sẽ khô héo chỉ trong vài ngày."
+          }
+        ]
+      },
+      {
+        "id": "ca-u7-will-would-in-if-clause",
+        "bac": 5,
+        "label": "Will / would trong mệnh đề If: lịch sự, khăng khăng, hoặc nói về kết quả",
+        "explanationVi": "Thông thường không dùng will/would trong mệnh đề if. Nhưng có ba ngoại lệ. (1) Lịch sự: If you will / would + V có nghĩa gần như 'xin vui lòng', would lịch sự hơn: If you would just sign here, we can begin. Cũng dùng I would be grateful if you would…, và 'If you would like to…' (mời lịch sự). (2) Khăng khăng, thường hơi bực: If you will stay up late every night, don't complain about being tired (nếu bạn cứ nhất định thức khuya). (3) Khi will nằm ở chính điều là KẾT QUẢ của hành động ở mệnh đề chính: If it will help you relax, we can listen to music (= if it is going to help). Bẫy: với việc đơn thuần về tương lai, không dùng will: If it rains tomorrow (không phải If it will rain), và would trong mệnh đề if không dùng để chỉ giả định trong câu điều kiện loại 2 thông thường (If I were you, không phải If I would be you).",
+        "examples": [
+          {
+            "en": "I would be grateful if you would send me the details by Friday.",
+            "vi": "Tôi sẽ rất biết ơn nếu bạn vui lòng gửi cho tôi chi tiết trước thứ Sáu."
+          },
+          {
+            "en": "If you will keep eating so quickly, you'll get a stomachache.",
+            "vi": "Nếu bạn cứ nhất định ăn nhanh thế thì sẽ đau bụng đấy."
+          },
+          {
+            "en": "If it will make you feel better, I'll apologize to her.",
+            "vi": "Nếu việc đó giúp bạn thấy khá hơn thì tôi sẽ xin lỗi cô ấy."
+          }
+        ]
+      },
+      {
+        "id": "ca-u8-elliptical-embedded",
+        "bac": 5,
+        "label": "Điều kiện rút gọn và lồng trong cụm: if any, if ever, if not, if necessary, if anything, who should",
+        "explanationVi": "Trong văn viết và nói tự nhiên, mệnh đề if thường bị rút gọn khi nghĩa đã rõ: if necessary / if possible / if needed (nếu cần), if so / if not (nếu vậy / nếu không), if any (nếu có), if ever (nếu có bao giờ), if at all (nếu có thì cũng rất ít), if anything (nếu có khác thì chỉ là…, nếu nói đúng ra thì). Các cụm này thường nằm giữa hai dấu phẩy và theo sau những từ như few, little, rarely, seldom: Few, if any, of them were late; He rarely, if ever, complains. Điều kiện cũng có thể gắn vào danh từ trong trang trọng: Any student who should miss the deadline must inform the office (should trong mệnh đề quan hệ thể hiện điều không chắc xảy ra). Bẫy: if not = 'nếu không thì', khác unless not (không tồn tại), và động từ sau few, if any luôn chia theo few (số nhiều).",
+        "examples": [
+          {
+            "en": "Few, if any, of the original photographs have survived.",
+            "vi": "Rất ít, nếu có, những bức ảnh gốc còn sót lại."
+          },
+          {
+            "en": "Pack warm clothes. If not, you will be cold on the summit.",
+            "vi": "Hãy mang quần áo ấm. Nếu không, bạn sẽ lạnh trên đỉnh núi."
+          },
+          {
+            "en": "The exam isn't difficult. If anything, it's too easy.",
+            "vi": "Bài thi không khó. Nếu nói đúng ra thì nó còn quá dễ."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "provided / providing that",
+        "meaningVi": "miễn là, với điều kiện là"
+      },
+      {
+        "word": "on condition that",
+        "meaningVi": "với điều kiện là (trang trọng)"
+      },
+      {
+        "word": "as long as / so long as",
+        "meaningVi": "miễn là"
+      },
+      {
+        "word": "in case",
+        "meaningVi": "phòng khi (không phải 'nếu')"
+      },
+      {
+        "word": "whether … or not",
+        "meaningVi": "dù có … hay không"
+      },
+      {
+        "word": "suppose / supposing",
+        "meaningVi": "giả sử như"
+      },
+      {
+        "word": "but for / without",
+        "meaningVi": "nếu không có (+ danh từ)"
+      },
+      {
+        "word": "if it weren't for / if it hadn't been for",
+        "meaningVi": "nếu không có (hiện tại / quá khứ)"
+      },
+      {
+        "word": "otherwise / or else",
+        "meaningVi": "nếu không thì"
+      },
+      {
+        "word": "if any / if ever / if at all",
+        "meaningVi": "nếu có / nếu có bao giờ / nếu có thì cũng rất ít"
+      },
+      {
+        "word": "if so / if not",
+        "meaningVi": "nếu vậy / nếu không"
+      },
+      {
+        "word": "if necessary / if possible",
+        "meaningVi": "nếu cần / nếu có thể"
+      },
+      {
+        "word": "happen to",
+        "meaningVi": "tình cờ"
+      },
+      {
+        "word": "if anything",
+        "meaningVi": "nếu nói đúng ra thì"
+      }
+    ],
+    "formulas": {
+      "mixed_past_present": "If + had + V3, would/could/might + V  →  If I had saved more, I could afford it now.",
+      "mixed_present_past": "If + V2/were, would/could/might + have + V3  →  If she weren't so shy, she would have joined.",
+      "remote_were_to": "If + S + were to + V, would/could + V  →  If we were to move, we would lose our garden.",
+      "unlikely_should": "If + S + should + V, will/can/imperative  →  If you should need help, call me.",
+      "tentative_happen_to": "If + S + happen to + V, imperative/modal  →  If you happen to see her, tell her hello.",
+      "without_noun": "But for / Without / If it weren't for / If it hadn't been for + noun, would (have) + V",
+      "otherwise": "Clause 1. Otherwise, would/will (have) + V  →  We hurried. Otherwise, we would have missed it.",
+      "polite_would": "If you will / would + V, … →  If you would sign here, we can begin."
+    },
+    "commonMistakes": [
+      {
+        "id": "conditionals-advanced-m1",
+        "description": "Dùng loại 3 cho cả hai mệnh đề khi kết quả ở hiện tại (hoặc ngược lại), bỏ qua dấu hiệu thời gian.",
+        "examples": [
+          {
+            "wrong": "If I had studied harder, I would have been a doctor now.",
+            "correct": "If I had studied harder, I would be a doctor now."
+          }
+        ],
+        "usageIds": [
+          "ca-u1-mixed-nuance"
+        ]
+      },
+      {
+        "id": "conditionals-advanced-m2",
+        "description": "Dùng was to / will / would sai chỗ trong mệnh đề If: sau were to dùng nguyên mẫu; không dùng will chỉ tương lai đơn thuần.",
+        "examples": [
+          {
+            "wrong": "If the sun would disappear, the Earth would freeze.",
+            "correct": "If the sun were to disappear, the Earth would freeze."
+          },
+          {
+            "wrong": "If it will rain tomorrow, we will stay home.",
+            "correct": "If it rains tomorrow, we will stay home."
+          }
+        ],
+        "usageIds": [
+          "ca-u2-were-to-should-happen-to",
+          "ca-u7-will-would-in-if-clause"
+        ]
+      },
+      {
+        "id": "conditionals-advanced-m3",
+        "description": "Sau but for / without / if it weren't for phải là danh từ hoặc cụm danh từ, không phải mệnh đề đầy đủ; và nhầm mốc thời gian giữa weren't for và hadn't been for.",
+        "examples": [
+          {
+            "wrong": "But for you helped me, I would have failed.",
+            "correct": "But for your help, I would have failed."
+          },
+          {
+            "wrong": "If it wasn't for the map, we would have been lost.",
+            "correct": "If it hadn't been for the map, we would have been lost."
+          }
+        ],
+        "usageIds": [
+          "ca-u3-but-for-without"
+        ]
+      },
+      {
+        "id": "conditionals-advanced-m4",
+        "description": "Dùng in case thay cho if, hoặc dùng will sau provided that / as long as khi nói về tương lai.",
+        "examples": [
+          {
+            "wrong": "I will call you in case I finish early.",
+            "correct": "I will call you if I finish early."
+          },
+          {
+            "wrong": "You can go provided that you will finish your homework.",
+            "correct": "You can go provided that you finish your homework."
+          }
+        ],
+        "usageIds": [
+          "ca-u4-formal-connectors"
+        ]
+      },
+      {
+        "id": "conditionals-advanced-m5",
+        "description": "Nối hai câu bằng unless hoặc dùng sai thì sau otherwise.",
+        "examples": [
+          {
+            "wrong": "Leave now, unless we will miss the train.",
+            "correct": "Leave now, otherwise we will miss the train."
+          },
+          {
+            "wrong": "I took a taxi. Otherwise, I would miss my flight.",
+            "correct": "I took a taxi. Otherwise, I would have missed my flight."
+          }
+        ],
+        "usageIds": [
+          "ca-u5-otherwise-or-else"
+        ]
+      },
+      {
+        "id": "conditionals-advanced-m6",
+        "description": "Không nhận ra điều kiện ngầm và dùng sai dạng động từ (will thay cho would) hoặc sai chia động từ sau few, if any.",
+        "examples": [
+          {
+            "wrong": "A true friend will have helped you.",
+            "correct": "A true friend would have helped you."
+          },
+          {
+            "wrong": "Few, if any, of the students has finished.",
+            "correct": "Few, if any, of the students have finished."
+          }
+        ],
+        "usageIds": [
+          "ca-u6-implicit-conditions",
+          "ca-u8-elliptical-embedded"
+        ]
+      }
+    ]
+  }
+}

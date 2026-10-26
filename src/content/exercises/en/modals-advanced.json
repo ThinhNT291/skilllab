@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "en-modals-advanced-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u1-past-deduction",
+    "tags": [
+      "ma-u1-past-deduction"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The ground is wet. It ______ during the night.",
+    "choices": [
+      "must rain",
+      "must be raining",
+      "must have rained",
+      "can't have rained"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mặt đất ướt là bằng chứng cho một việc đã xảy ra, nên suy đoán gần như chắc chắn về quá khứ dùng must have + V3.",
+    "choiceExplanations": [
+      "Sai — 'must rain' là suy đoán về hiện tại/tương lai (không có 'have + V3'), nên không nói được việc mưa đã xảy ra 'during the night'.",
+      "Sai — 'must be raining' suy đoán về điều đang diễn ra ngay lúc nói, trong khi câu nói về đêm qua.",
+      "Đúng — Mặt đất ướt là bằng chứng rõ ràng, nên dùng 'must have + V3' (gần như chắc chắn) cho việc đã xảy ra trong quá khứ.",
+      "Sai — 'can't have rained' nghĩa là chắc chắn trời KHÔNG mưa, ngược hẳn với bằng chứng mặt đất ướt."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u1-past-deduction",
+    "tags": [
+      "ma-u1-past-deduction"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mia isn't answering her phone. She ______ it at home, because she never goes anywhere without it.",
+    "choices": [
+      "can't have left",
+      "must have left",
+      "should have left",
+      "will have left"
+    ],
+    "correctIndex": 0,
+    "explanation": "Phủ định của suy đoán 'must have + V3' là 'can't have + V3' (chắc chắn không xảy ra). Ở đây lý do 'never goes anywhere without it' làm việc để quên điện thoại gần như không thể.",
+    "choiceExplanations": [
+      "Đúng — 'can't have + V3' = chắc chắn KHÔNG xảy ra; vì Mia không bao giờ ra ngoài mà thiếu điện thoại nên việc để quên ở nhà gần như không thể.",
+      "Sai — 'must have left' khẳng định chắc chắn cô ấy đã để quên, ngược với lý do 'never goes anywhere without it'.",
+      "Sai — 'should have left' nghĩa là 'lẽ ra nên để lại' (một lời nhận xét), không phải suy đoán về điều đã xảy ra.",
+      "Sai — 'will have left' là suy đoán khẳng định rằng cô ấy đã để quên, cùng hướng với 'must have left' và trái với lý do nêu trong câu."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u1-past-deduction",
+    "tags": [
+      "ma-u1-past-deduction"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm not sure why the experiment failed. The temperature ______ too high, or perhaps the sample was contaminated.",
+    "choices": [
+      "must have been",
+      "can't have been",
+      "should have been",
+      "may have been"
+    ],
+    "correctIndex": 3,
+    "explanation": "'or perhaps' cho thấy người nói chưa chắc chắn và còn khả năng khác, nên dùng may/might/could have + V3.",
+    "choiceExplanations": [
+      "Sai — 'must have been' diễn tả gần như chắc chắn; không hợp với 'or perhaps', vì người nói còn một khả năng khác.",
+      "Sai — 'can't have been' nghĩa là chắc chắn KHÔNG phải nguyên nhân, mâu thuẫn với việc đang nêu nó như một khả năng.",
+      "Sai — 'should have been' nghĩa là 'lẽ ra phải như vậy' (điều mong đợi), không phải phỏng đoán nguyên nhân.",
+      "Đúng — 'perhaps' cho thấy người nói chỉ cho rằng điều đó có thể đúng: 'may have been'."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u1-past-deduction",
+    "tags": [
+      "ma-u1-past-deduction"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She ______ the whole book in one night — it's 600 pages and she only had two free hours.",
+    "choices": [
+      "must have read",
+      "can't have read",
+      "may have read",
+      "should have read"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hai giờ không đủ để đọc 600 trang, nên người nói cho rằng việc đó gần như không thể xảy ra: can't have + V3.",
+    "choiceExplanations": [
+      "Sai — 'must have read' khẳng định chắc chắn cô ấy đã đọc xong, ngược với bằng chứng (600 trang, hai giờ).",
+      "Đúng — Bằng chứng (600 trang, chỉ hai giờ) khiến việc đọc xong gần như không thể, nên dùng 'can't have + V3'.",
+      "Sai — 'may have read' chỉ là 'có thể đã đọc', quá yếu: bằng chứng (600 trang, hai giờ) cho thấy việc đó gần như không thể.",
+      "Sai — 'should have read' nghĩa là 'lẽ ra nên đọc', một lời trách/nhắc nhở chứ không phải suy đoán."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u1-past-deduction",
+    "tags": [
+      "ma-u1-past-deduction"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Look at the empty plate! Someone ______ all the cookies.",
+    "choices": [
+      "must eat",
+      "must be eating",
+      "must have eaten",
+      "can have eaten"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cái đĩa trống là bằng chứng rõ ràng cho điều đã xảy ra, nên suy đoán chắc chắn dùng must have + V3.",
+    "choiceExplanations": [
+      "Sai — 'must eat' không có 'have + V3' nên không diễn tả việc đã xảy ra; cái đĩa đã trống rồi.",
+      "Sai — 'must be eating' chỉ việc đang diễn ra lúc này, trong khi kết quả (đĩa trống) cho thấy đã ăn xong.",
+      "Đúng — Có bằng chứng rõ (đĩa trống) nên suy đoán chắc chắn về quá khứ: 'must have eaten'.",
+      "Sai — 'can have eaten' hầu như không dùng để suy đoán trong câu khẳng định; ta dùng must/may/might/could have + V3."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u1-past-deduction",
+    "tags": [
+      "ma-u1-past-deduction"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Ana looks exhausted. She ______ all night on that project.",
+    "choices": [
+      "must have been working",
+      "must be worked",
+      "must have been worked",
+      "must working"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ana trông kiệt sức, và việc làm việc suốt đêm là một hành động kéo dài, nên dùng must have been + V-ing.",
+    "choiceExplanations": [
+      "Đúng — Suy đoán chắc chắn về hành động kéo dài trong quá khứ: must have been + V-ing.",
+      "Sai — 'must be worked' là bị động ở hiện tại, không hợp nghĩa (Ana tự làm việc) lẫn mốc 'all night'.",
+      "Sai — 'must have been worked' là bị động, nghĩa là cô ấy bị người khác bắt làm việc, không phải ý của câu.",
+      "Sai — 'must working' thiếu 'be/have been' nên không thành cấu trúc đúng; sau modal phải là động từ nguyên thể."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u1-past-deduction",
+    "tags": [
+      "ma-u1-past-deduction"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The package hasn't arrived. The courier ______ our new address, which would explain it.",
+    "choices": [
+      "can't have received",
+      "shouldn't have received",
+      "couldn't receive",
+      "might not have received"
+    ],
+    "correctIndex": 3,
+    "explanation": "'which would explain it' cho thấy người nói chỉ đưa ra một khả năng, nên dùng 'might not have + V3' (có thể đã không nhận). 'Can't have' mạnh hơn nhiều, nghĩa là chắc chắn không.",
+    "choiceExplanations": [
+      "Sai — 'can't have received' = chắc chắn người giao hàng KHÔNG nhận được; người nói chỉ đang đưa ra một khả năng chứ không chắc như vậy.",
+      "Sai — 'shouldn't have received' nghĩa là 'lẽ ra không nên nhận', đổi hẳn nghĩa và không phải suy đoán.",
+      "Sai — 'couldn't receive' nói về khả năng/khả năng làm được trong quá khứ (không thể nhận), không phải suy đoán về điều đã xảy ra.",
+      "Đúng — 'might not have received' = có thể đã không nhận được, đúng mức chắc chắn vừa phải của 'which would explain it'."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u2-needn-t-have",
+    "tags": [
+      "ma-u2-needn-t-have"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ so much food — only half of it was eaten.",
+    "choices": [
+      "needn't cook",
+      "needn't have cooked",
+      "mustn't have cooked",
+      "didn't need cooking"
+    ],
+    "correctIndex": 1,
+    "explanation": "Họ ĐÃ nấu nhiều thức ăn nhưng hóa ra không cần: needn't have + V3.",
+    "choiceExplanations": [
+      "Sai — 'needn't cook' nói về hiện tại/tương lai (không cần nấu), không hợp với việc đã nấu rồi và chỉ một nửa được ăn.",
+      "Đúng — Việc nấu đã xảy ra rồi mới thấy thừa, nên dùng 'needn't have + V3'.",
+      "Sai — 'mustn't have cooked' không diễn tả việc làm thừa; nếu hiểu theo kiểu suy đoán thì lại gợi ý họ không nấu, trái với ngữ cảnh.",
+      "Sai — 'didn't need cooking' sai cấu trúc: sau 'didn't need' phải là 'to + V' (didn't need to cook)."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u2-needn-t-have",
+    "tags": [
+      "ma-u2-needn-t-have"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The museum was free on Sundays, so we ______ tickets. We just walked in.",
+    "choices": [
+      "needn't have bought",
+      "mustn't have bought",
+      "didn't need to buy",
+      "needn't to buy"
+    ],
+    "correctIndex": 2,
+    "explanation": "Họ không mua vé vì không cần ('We just walked in'), nên dùng 'didn't need to + V'. 'Needn't have bought' lại hàm ý đã mua.",
+    "choiceExplanations": [
+      "Sai — 'needn't have bought' hàm ý đã mua vé rồi mới thấy thừa, mâu thuẫn với 'We just walked in'.",
+      "Sai — 'mustn't have bought' không diễn tả việc không cần thiết ('mustn't' thường nghĩa là cấm), nên không hợp ngữ cảnh.",
+      "Đúng — Vì vé miễn phí nên không cần mua và họ đã không mua: 'didn't need to buy'.",
+      "Sai — 'needn't to buy' sai vì 'needn't' là modal nên không đi với 'to' (needn't buy)."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u2-needn-t-have",
+    "tags": [
+      "ma-u2-needn-t-have"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I rushed to the station, but the train was twenty minutes late. I ______ so fast.",
+    "choices": [
+      "needn't have run",
+      "mustn't have run",
+      "can't have run",
+      "couldn't run"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cô ấy đã chạy vội rồi mới biết tàu trễ, nên việc chạy là thừa: needn't have + V3.",
+    "choiceExplanations": [
+      "Đúng — 'needn't have run' = đã chạy nhưng hóa ra không cần, đúng với 'I rushed ... the train was late'.",
+      "Sai — 'mustn't have run' không diễn tả việc làm thừa; nếu hiểu là suy đoán thì lại nghĩa là 'chắc là không chạy', trái với 'I rushed'.",
+      "Sai — 'can't have run' nghĩa là chắc chắn đã không chạy, trái với 'I rushed to the station'.",
+      "Sai — 'couldn't run' nói về việc không thể/không có khả năng chạy, không phải việc chạy mà thừa."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u2-needn-t-have",
+    "tags": [
+      "ma-u2-needn-t-have"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng nhất",
+    "prompt": "Which sentence suggests that Ben DID take an umbrella, though it turned out to be unnecessary?",
+    "choices": [
+      "Ben needn't take an umbrella.",
+      "Ben mustn't have taken an umbrella.",
+      "Ben wasn't needing to take an umbrella.",
+      "Ben needn't have taken an umbrella."
+    ],
+    "correctIndex": 3,
+    "explanation": "Chỉ 'needn't have + V3' mới vừa nói được rằng việc đã làm (mang ô) nhưng không cần thiết.",
+    "choiceExplanations": [
+      "Sai — 'needn't take' nói về hiện tại/tương lai (không cần mang), không cho biết Ben đã mang ô.",
+      "Sai — 'mustn't have taken' gợi suy đoán rằng Ben đã không mang ô, ngược với yêu cầu của đề.",
+      "Sai — 'wasn't needing to take' sai: 'need' (nghĩa cần thiết) hầu như không dùng ở thì tiếp diễn, và cấu trúc này không hàm ý đã làm.",
+      "Đúng — 'needn't have taken' = đã mang ô nhưng hóa ra không cần."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u2-needn-t-have",
+    "tags": [
+      "ma-u2-needn-t-have"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Thank you for coming, but you ______ all the way here; a phone call would have been enough.",
+    "choices": [
+      "needn't come",
+      "needn't have come",
+      "mustn't have come",
+      "needn't to have come"
+    ],
+    "correctIndex": 1,
+    "explanation": "Người nói biết khách đã đến rồi và nay nói việc đó không cần thiết: needn't have + V3.",
+    "choiceExplanations": [
+      "Sai — 'needn't come' nói về hiện tại/tương lai, nhưng việc đến đã xảy ra rồi.",
+      "Đúng — Khách đã đến, và điện thoại là đủ, nên 'needn't have come' (đã làm nhưng không cần).",
+      "Sai — 'mustn't have come' không diễn tả việc làm thừa ('mustn't' liên quan đến cấm đoán/suy đoán), nên đổi hẳn nghĩa.",
+      "Sai — 'needn't to have come' sai vì modal 'needn't' không đi với 'to'."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u2-needn-t-have",
+    "tags": [
+      "ma-u2-needn-t-have"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's a holiday tomorrow, so we ______ up early.",
+    "choices": [
+      "needn't have got",
+      "mustn't have got",
+      "needn't get",
+      "didn't need get"
+    ],
+    "correctIndex": 2,
+    "explanation": "'tomorrow' nói về tương lai, nên dùng 'needn't + V' (không cần) chứ không dùng dạng quá khứ.",
+    "choiceExplanations": [
+      "Sai — 'needn't have got' là dạng quá khứ (đã dậy sớm mà không cần), không hợp với 'tomorrow'.",
+      "Sai — 'mustn't have got' cũng là dạng quá khứ, và 'mustn't' (cấm) không phải 'không cần'.",
+      "Đúng — Nói về ngày mai nên dùng 'needn't + V nguyên thể': we needn't get up early.",
+      "Sai — 'didn't need get' sai hai chỗ: dùng thì quá khứ trong khi nói về ngày mai và thiếu 'to'."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u3-should-have",
+    "tags": [
+      "ma-u3-should-have"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You failed because you didn't study. You ______ harder.",
+    "choices": [
+      "should have studied",
+      "should study",
+      "should be studying",
+      "ought study"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cô ấy đã trượt và việc học chưa đủ chăm là chuyện đã qua, nên trách/tiếc nuối dùng 'should have + V3'.",
+    "choiceExplanations": [
+      "Đúng — 'should have + V3' = lẽ ra nên làm (trách/tiếc nuối về quá khứ), đúng với việc đã trượt.",
+      "Sai — 'should study' là lời khuyên cho hiện tại/tương lai, không nhắc đến chuyện đã xảy ra.",
+      "Sai — 'should be studying' nói việc đáng ra đang làm lúc này, không phải việc nên làm trước kỳ thi đã qua.",
+      "Sai — 'ought study' thiếu 'to': ought luôn đi với 'to' (ought to have studied)."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u3-should-have",
+    "tags": [
+      "ma-u3-should-have"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm so tired. I ______ up so late last night.",
+    "choices": [
+      "shouldn't stay",
+      "mustn't have stayed",
+      "shouldn't be staying",
+      "shouldn't have stayed"
+    ],
+    "correctIndex": 3,
+    "explanation": "'last night' là mốc quá khứ, và người nói tiếc vì đã làm; dùng 'shouldn't have + V3'.",
+    "choiceExplanations": [
+      "Sai — 'shouldn't stay' là lời khuyên hiện tại/tương lai, không hợp mốc 'last night'.",
+      "Sai — 'mustn't have stayed' không diễn tả sự tiếc nuối; nếu là suy đoán thì lại nghĩa là 'chắc là không thức'.",
+      "Sai — 'shouldn't be staying' nói về việc đang làm lúc này, trong khi chuyện thức khuya đã xảy ra.",
+      "Đúng — Tiếc vì đã thức khuya: 'shouldn't have + V3' (lẽ ra không nên)."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u3-should-have",
+    "tags": [
+      "ma-u3-should-have"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My stomach hurts because that milk expired last week. You ______ the date before you poured it.",
+    "choices": [
+      "ought have checked",
+      "ought to have checked",
+      "ought to check",
+      "ought to be checked"
+    ],
+    "correctIndex": 1,
+    "explanation": "Việc kiểm tra hạn dùng là điều lẽ ra phải làm trước khi rót sữa, và đã bỏ qua (bụng đã đau): ought to have + V3.",
+    "choiceExplanations": [
+      "Sai — 'ought have checked' thiếu 'to': ought luôn cần 'to' (ought to have checked).",
+      "Đúng — 'ought to have checked' = lẽ ra nên kiểm tra, vì chuyện uống sữa đã xảy ra rồi.",
+      "Sai — 'ought to check' là lời khuyên cho hiện tại/tương lai, không hợp vì sữa đã được rót và uống.",
+      "Sai — 'ought to be checked' là bị động, nghĩa là 'cái gì đó cần được kiểm tra', sai nghĩa và sai thì."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u3-should-have",
+    "tags": [
+      "ma-u3-should-have"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Your phone is at 2%. You ______ charge it now, or it'll die during the match.",
+    "choices": [
+      "had better to",
+      "ought",
+      "had better",
+      "would better"
+    ],
+    "correctIndex": 2,
+    "explanation": "Điện thoại sắp hết pin và có hậu quả cụ thể, nên dùng 'had better + V' (không 'to') để khuyên khẩn cấp.",
+    "choiceExplanations": [
+      "Sai — 'had better to' sai vì sau 'had better' dùng động từ nguyên thể không 'to'.",
+      "Sai — 'ought' thiếu 'to' (ought to charge), nên không hoàn chỉnh.",
+      "Đúng — Khuyên khẩn cấp kèm cảnh báo hậu quả ('or it'll die'): 'had better + V'.",
+      "Sai — 'would better' không tồn tại; cụm đúng là 'had better' (hoặc 'would rather')."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u3-should-have",
+    "tags": [
+      "ma-u3-should-have"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng nhất",
+    "prompt": "Choose the best sentence to give gentle, general advice to a friend who dreams of studying abroad someday.",
+    "choices": [
+      "You ought to improve your language skills over time.",
+      "You had better improve your language skills over time.",
+      "You should to improve your language skills over time.",
+      "You ought improving your language skills over time."
+    ],
+    "correctIndex": 0,
+    "explanation": "'ought to' và 'should' hợp với lời khuyên chung, nhẹ nhàng; 'had better' dùng cho tình huống cụ thể và hàm ý cảnh báo.",
+    "choiceExplanations": [
+      "Đúng — 'ought to' là lời khuyên nhẹ nhàng, hợp với mơ ước chung chung 'someday'.",
+      "Sai — 'had better' mạnh và mang hàm ý cảnh báo hậu quả, không hợp với lời khuyên nhẹ về ước mơ xa.",
+      "Sai — 'should to' sai vì sau 'should' không có 'to'.",
+      "Sai — 'ought improving' sai vì sau 'ought to' phải là động từ nguyên thể, không phải V-ing, và thiếu 'to'."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u3-should-have",
+    "tags": [
+      "ma-u3-should-have"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You ______ forget your passport tomorrow, or they won't let you board.",
+    "choices": [
+      "had not better to",
+      "would better not",
+      "better don't",
+      "had better not"
+    ],
+    "correctIndex": 3,
+    "explanation": "Phủ định của 'had better' là 'had better not + V' (không 'to', 'not' đứng sau 'better').",
+    "choiceExplanations": [
+      "Sai — 'had not better to' sai vị trí của 'not' và có thêm 'to'.",
+      "Sai — 'would better not' không phải cụm chuẩn; phải là 'had better not'.",
+      "Sai — 'better don't' không đúng ngữ pháp: sau 'better' (viết tắt của 'had better') phủ định là 'not', không phải 'don't'.",
+      "Đúng — 'had better not + V' = tốt hơn là đừng, kèm cảnh báo hậu quả ('or they won't let you board')."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u4-will-would",
+    "tags": [
+      "ma-u4-will-would"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When I was a kid, we ______ spend every summer at my grandparents' farm.",
+    "choices": [
+      "will",
+      "would",
+      "are going to",
+      "must"
+    ],
+    "correctIndex": 1,
+    "explanation": "Thói quen lặp lại trong quá khứ ('every summer', 'when I was a kid') dùng would + V.",
+    "choiceExplanations": [
+      "Sai — 'will' nói về thói quen/dự đoán ở hiện tại, không hợp với 'When I was a kid'.",
+      "Đúng — 'would + V' diễn tả thói quen lặp lại trong quá khứ, hợp với 'every summer'.",
+      "Sai — 'are going to' nói về dự định ở tương lai, mâu thuẫn với 'When I was a kid'.",
+      "Sai — 'must' diễn tả bắt buộc hoặc suy đoán, không phải thói quen quá khứ."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u4-will-would",
+    "tags": [
+      "ma-u4-will-would"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He ______ leave the lights on every time he goes out, however often we remind him.",
+    "choices": [
+      "is going to",
+      "shall",
+      "will",
+      "must"
+    ],
+    "correctIndex": 2,
+    "explanation": "'however often we remind him' cho thấy thói quen gây bực của hiện tại, dùng 'will + V' (nhấn mạnh).",
+    "choiceExplanations": [
+      "Sai — 'is going to' nói về dự định, không diễn tả thói quen lặp đi lặp lại.",
+      "Sai — 'shall' dùng cho đề nghị hoặc văn bản trang trọng, không diễn tả thói quen.",
+      "Đúng — 'will + V' diễn tả thói quen hiện tại, thường gây bực khi nhấn mạnh.",
+      "Sai — 'must' diễn tả bắt buộc, câu sẽ thành 'cậu ấy buộc phải để đèn bật', sai nghĩa."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u4-will-would",
+    "tags": [
+      "ma-u4-will-would"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I hear a knock. That ______ be the postman — he always comes at this time.",
+    "choices": [
+      "will",
+      "would have been",
+      "shall",
+      "ought"
+    ],
+    "correctIndex": 0,
+    "explanation": "'will' diễn tả suy đoán chắc chắn dựa trên thói quen ('he always comes at this time').",
+    "choiceExplanations": [
+      "Đúng — Suy đoán dựa trên thói quen ở hiện tại: 'That will be the postman.'",
+      "Sai — 'would have been' là dạng quá khứ, nhưng tiếng gõ cửa đang xảy ra bây giờ.",
+      "Sai — 'shall' không dùng để suy đoán; nó dùng cho đề nghị hoặc văn bản pháp lý.",
+      "Sai — 'ought' thiếu 'to'; và 'ought to be' chỉ là kỳ vọng, không phải suy đoán từ thói quen."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u4-will-would",
+    "tags": [
+      "ma-u4-will-would"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When I was young, I ______ a bike with a red basket.",
+    "choices": [
+      "would own",
+      "would be owning",
+      "was using to own",
+      "used to own"
+    ],
+    "correctIndex": 3,
+    "explanation": "'own' là động từ trạng thái, nên khi nói về trạng thái trong quá khứ dùng 'used to', không dùng 'would'.",
+    "choiceExplanations": [
+      "Sai — 'would own' sai vì 'would' chỉ thói quen với hành động lặp lại, không dùng với động từ trạng thái như 'own'.",
+      "Sai — 'would be owning' sai vì 'own' hầu như không dùng ở dạng tiếp diễn và 'would' không hợp với trạng thái.",
+      "Sai — 'was using to own' sai cấu trúc; 'use' ở đây không thể ghép như vậy.",
+      "Đúng — 'used to own' đúng vì diễn tả trạng thái đã qua, không còn đúng nữa."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u4-will-would",
+    "tags": [
+      "ma-u4-will-would"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Grandpa loved our porch. Whenever he visited, he ______ sit there for hours, watching the street.",
+    "choices": [
+      "will have",
+      "would",
+      "is used",
+      "should"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lặp lại 'whenever he visited' là thói quen trong quá khứ, dùng 'would + V'.",
+    "choiceExplanations": [
+      "Sai — 'will have' sai cấu trúc: 'will have sit' không đúng, và 'will' thuộc hiện tại.",
+      "Đúng — 'would sit' diễn tả thói quen lặp lại trong quá khứ ('whenever he visited').",
+      "Sai — 'is used' sai cấu trúc, vì sau đó phải là 'to sit' (is used to sitting).",
+      "Sai — 'should sit' có nghĩa 'nên ngồi', là lời khuyên chứ không kể một thói quen đã qua."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u4-will-would",
+    "tags": [
+      "ma-u4-will-would"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Ask any teenager and they ______ tell you that sleep is overrated — until exam week arrives.",
+    "choices": [
+      "would have",
+      "must",
+      "will",
+      "are going"
+    ],
+    "correctIndex": 2,
+    "explanation": "'will' còn diễn tả đặc điểm hoặc hành vi thường thấy của một nhóm người ('Ask any teenager and they will tell you...').",
+    "choiceExplanations": [
+      "Sai — 'would have tell' sai cấu trúc (phải là V3) và thì quá khứ không hợp với 'any teenager'.",
+      "Sai — 'must tell' diễn tả sự bắt buộc ('họ buộc phải nói'), sai nghĩa.",
+      "Đúng — 'will tell' diễn tả hành vi điển hình, chắc chắn sẽ xảy ra với bất kỳ thiếu niên nào được hỏi.",
+      "Sai — 'are going tell' thiếu 'to' nên sai cấu trúc, và còn là dự định tương lai, không phải đặc điểm chung."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u5-would-rather",
+    "tags": [
+      "ma-u5-would-rather"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'd rather ______ at home tonight than go to the party.",
+    "choices": [
+      "stay",
+      "to stay",
+      "staying",
+      "stayed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau 'would rather' dùng động từ nguyên thể không 'to'; 'than go' cũng giữ nguyên thể.",
+    "choiceExplanations": [
+      "Đúng — 'would rather + V nguyên thể' nên dùng 'stay', song song với 'than go'.",
+      "Sai — 'to stay' sai vì sau 'would rather' không có 'to'.",
+      "Sai — 'staying' sai vì sau 'would rather' không dùng V-ing.",
+      "Sai — 'stayed' sai vì khi cùng chủ ngữ ta dùng nguyên thể; thì quá khứ chỉ dùng khi đổi chủ ngữ ('I'd rather you stayed')."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u5-would-rather",
+    "tags": [
+      "ma-u5-would-rather"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm trying to concentrate. I'd rather you ______ your music so loudly right now.",
+    "choices": [
+      "didn't played",
+      "not to play",
+      "won't play",
+      "didn't play"
+    ],
+    "correctIndex": 3,
+    "explanation": "Muốn người khác làm/không làm gì ở hiện tại, dùng 'would rather + S + quá khứ đơn'. Phủ định là 'didn't + V nguyên thể'.",
+    "choiceExplanations": [
+      "Sai — 'didn't played' sai vì sau 'didn't' phải là nguyên thể (didn't play).",
+      "Sai — 'not to play' sai vì khi đổi chủ ngữ ('you'), 'would rather' không đi với 'to + V'.",
+      "Sai — 'won't play' sai vì sau 'would rather + S' phải dùng thì quá khứ đơn, không dùng 'will/won't'.",
+      "Đúng — 'would rather + S + didn't play' = tôi muốn bạn đừng bật nhạc to (quá khứ đơn mang nghĩa hiện tại)."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u5-would-rather",
+    "tags": [
+      "ma-u5-would-rather"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Shall we take the bus? B: I'd sooner ______ home than wait in this rain.",
+    "choices": [
+      "to walk",
+      "walk",
+      "walking",
+      "walked"
+    ],
+    "correctIndex": 1,
+    "explanation": "'would sooner' giống 'would rather': theo sau là động từ nguyên thể không 'to'.",
+    "choiceExplanations": [
+      "Sai — 'to walk' sai vì sau 'would sooner' không có 'to'.",
+      "Đúng — 'would sooner + V' = thà... hơn, với 'walk' ở dạng nguyên thể.",
+      "Sai — 'walking' sai vì sau 'would sooner' không dùng V-ing.",
+      "Sai — 'walked' sai vì cùng chủ ngữ nên dùng nguyên thể, không dùng quá khứ."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u5-would-rather",
+    "tags": [
+      "ma-u5-would-rather"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'd rather you ______ me about the party last week, not the day before.",
+    "choices": [
+      "told",
+      "would tell",
+      "had told",
+      "tell"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mong muốn về một việc đã qua ('last week') dùng 'would rather + S + had V3'.",
+    "choiceExplanations": [
+      "Sai — 'told' chỉ nói về hiện tại/tương lai ('I'd rather you told me now'), không hợp với 'last week'.",
+      "Sai — 'would tell' sai cấu trúc: không dùng 'would' sau 'would rather + S'.",
+      "Đúng — 'had told' = tôi ước bạn đã nói với tôi (nhưng bạn đã không), cho việc đã qua.",
+      "Sai — 'tell' (nguyên thể) chỉ dùng với nghĩa thân mật ở hiện tại, không hợp mốc 'last week'."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u5-would-rather",
+    "tags": [
+      "ma-u5-would-rather"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She'd rather not ______ about it until she's sure.",
+    "choices": [
+      "talk",
+      "to talk",
+      "talking",
+      "talked"
+    ],
+    "correctIndex": 0,
+    "explanation": "Phủ định của 'would rather' là 'would rather not + V nguyên thể'.",
+    "choiceExplanations": [
+      "Đúng — 'would rather not + V' đúng: 'talk' ở dạng nguyên thể sau 'not'.",
+      "Sai — 'to talk' sai vì sau 'would rather not' không có 'to'.",
+      "Sai — 'talking' sai vì sau 'would rather (not)' không dùng V-ing.",
+      "Sai — 'talked' sai vì cùng chủ ngữ nên dùng nguyên thể, không dùng quá khứ."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u5-would-rather",
+    "tags": [
+      "ma-u5-would-rather"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'd sooner be honest and lose than ______ and win.",
+    "choices": [
+      "cheats",
+      "cheating",
+      "cheated",
+      "cheat"
+    ],
+    "correctIndex": 3,
+    "explanation": "Trong 'would sooner A than B', cả A và B đều là động từ nguyên thể không 'to' (song song): be honest ... than cheat.",
+    "choiceExplanations": [
+      "Sai — 'cheats' sai vì sau 'than' vẫn là nguyên thể, không chia theo ngôi.",
+      "Sai — 'cheating' sai vì vế sau phải song song với 'be honest' (nguyên thể), không dùng V-ing.",
+      "Sai — 'cheated' sai vì vế sau phải song song với 'be honest' (nguyên thể), không phải quá khứ.",
+      "Đúng — 'than + V nguyên thể' song song với 'be honest': ... than cheat and win."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u6-dare-need-shall",
+    "tags": [
+      "ma-u6-dare-need-shall"
+    ],
+    "difficulty": 2,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Article 5: The tenant ______ pay the rent on the first day of each month (a legal obligation).",
+    "choices": [
+      "may",
+      "shall",
+      "can",
+      "might"
+    ],
+    "correctIndex": 1,
+    "explanation": "'shall' trong văn bản pháp lý/hợp đồng diễn tả nghĩa vụ bắt buộc.",
+    "choiceExplanations": [
+      "Sai — 'may' chỉ sự cho phép (được phép trả), không phải nghĩa vụ.",
+      "Đúng — 'shall' trong hợp đồng chỉ nghĩa vụ: 'The tenant shall pay...' (phải trả).",
+      "Sai — 'can' chỉ khả năng hoặc sự cho phép, không tạo ra nghĩa vụ.",
+      "Sai — 'might' chỉ khả năng thấp, hoàn toàn không phù hợp với điều khoản bắt buộc."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u6-dare-need-shall",
+    "tags": [
+      "ma-u6-dare-need-shall"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "How ______ you speak to your teacher like that?",
+    "choices": [
+      "do",
+      "would",
+      "dare",
+      "daring"
+    ],
+    "correctIndex": 2,
+    "explanation": "'How dare you + V!' là cụm cố định, dùng để bày tỏ sự phẫn nộ ('sao dám').",
+    "choiceExplanations": [
+      "Sai — 'How do you speak ...!' không mang nghĩa 'sao dám'; cụm biểu lộ giận dữ phải là 'How dare you'.",
+      "Sai — 'How would you' mang nghĩa hỏi giả định, không phải trách mắng.",
+      "Đúng — 'How dare you + V' là cụm cố định biểu lộ sự giận dữ; 'dare' không thêm -s hay 'to'.",
+      "Sai — 'daring' sai dạng vì sau 'How' ở cụm này cần 'dare' + chủ ngữ + động từ nguyên thể."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u6-dare-need-shall",
+    "tags": [
+      "ma-u6-dare-need-shall"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng nhất",
+    "prompt": "Which sentence uses dare as a modal verb correctly?",
+    "choices": [
+      "He dare not tell her.",
+      "He dares not to tell her.",
+      "He dare not to tell her.",
+      "He doesn't dare telling her."
+    ],
+    "correctIndex": 0,
+    "explanation": "Khi là modal, 'dare' không thêm -s và không có 'to': 'He dare not tell her' (Anh-Mỹ thường nói 'He doesn't dare (to) tell her').",
+    "choiceExplanations": [
+      "Đúng — Dạng modal: chủ ngữ + dare not + V nguyên thể, không thêm -s.",
+      "Sai — 'dares not to' pha dạng thường (dares) với 'to' sau 'not', nên không đúng với dạng modal.",
+      "Sai — 'dare not to' sai vì modal 'dare' đi với nguyên thể không 'to'.",
+      "Sai — 'doesn't dare telling' sai vì sau 'dare' dùng nguyên thể (có hoặc không 'to'), không dùng V-ing."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u6-dare-need-shall",
+    "tags": [
+      "ma-u6-dare-need-shall"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You ______ worry — everything is under control.",
+    "choices": [
+      "don't need",
+      "doesn't need",
+      "needing not",
+      "needn't"
+    ],
+    "correctIndex": 3,
+    "explanation": "'needn't + V' (không cần) là dạng modal; 'don't need' phải đi với 'to + V'.",
+    "choiceExplanations": [
+      "Sai — 'don't need worry' thiếu 'to': phải nói 'don't need to worry'.",
+      "Sai — 'doesn't need' sai ngôi: chủ ngữ là 'you'.",
+      "Sai — 'needing not' không phải cấu trúc đúng trong tiếng Anh.",
+      "Đúng — 'needn't worry' là dạng modal: needn't + V nguyên thể."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u6-dare-need-shall",
+    "tags": [
+      "ma-u6-dare-need-shall"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ we really leave so early? Surely the film doesn't start until eight.",
+    "choices": [
+      "Needs",
+      "Need",
+      "Must to",
+      "Do need"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trong câu hỏi, 'need' dùng như modal: 'Need + chủ ngữ + V nguyên thể?'.",
+    "choiceExplanations": [
+      "Sai — 'Needs we' sai vì modal 'need' không thêm -s và không đảo như vậy.",
+      "Đúng — 'Need we leave ...?' là dạng nghi vấn của modal 'need'.",
+      "Sai — 'Must to' sai vì sau 'must' không có 'to'.",
+      "Sai — 'Do need we' sai trật tự; với 'do' phải nói 'Do we need to leave...?'."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u6-dare-need-shall",
+    "tags": [
+      "ma-u6-dare-need-shall"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's hot in here. ______ I turn on the fan?",
+    "choices": [
+      "Will",
+      "Am",
+      "Shall",
+      "Does"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Shall I/we ...?' dùng để đề nghị giúp hoặc gợi ý (Anh-Mỹ cũng hay nói 'Should I ...?').",
+    "choiceExplanations": [
+      "Sai — 'Will I turn' hỏi về dự đoán tương lai của chính mình, không dùng để đề nghị.",
+      "Sai — 'Am I turn' sai cấu trúc: 'am' không đi với động từ nguyên thể ở đây.",
+      "Đúng — 'Shall I ...?' dùng để đề nghị làm giúp ('Tôi bật quạt nhé?').",
+      "Sai — 'Does I' sai vì 'does' không đi với chủ ngữ 'I' (phải là 'Do I')."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u7-be-to-bound",
+    "tags": [
+      "ma-u7-be-to-bound"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Given how hard she has practiced, she ______ do well in the competition.",
+    "choices": [
+      "is bound to",
+      "is willing to",
+      "is allowed to",
+      "is used to"
+    ],
+    "correctIndex": 0,
+    "explanation": "'be bound to + V' nghĩa là chắc chắn sẽ; cô ấy đã luyện tập chăm chỉ nên có thể dự đoán chắc chắn.",
+    "choiceExplanations": [
+      "Đúng — 'is bound to' = chắc chắn sẽ, dự đoán dựa trên nỗ lực luyện tập.",
+      "Sai — 'is willing to' nghĩa là sẵn lòng, không phải dự đoán chắc chắn.",
+      "Sai — 'is allowed to' nghĩa là được phép, không phải dự đoán.",
+      "Sai — 'is used to' nghĩa là đã quen, và phải đi với V-ing/danh từ."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u7-be-to-bound",
+    "tags": [
+      "ma-u7-be-to-bound"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The old bridge is in poor condition and is liable to ______ in heavy rain.",
+    "choices": [
+      "collapsing",
+      "collapsed",
+      "be collapse",
+      "collapse"
+    ],
+    "correctIndex": 3,
+    "explanation": "'be liable to + V' đi với động từ nguyên thể; cây cầu cũ dễ sập (điều xấu).",
+    "choiceExplanations": [
+      "Sai — 'collapsing' sai vì sau 'liable to' dùng nguyên thể, không dùng V-ing.",
+      "Sai — 'collapsed' sai vì sau 'to' phải là nguyên thể, không phải quá khứ.",
+      "Sai — 'be collapse' sai vì sai dạng: không thêm 'be' khi đã có 'is liable to'.",
+      "Đúng — 'is liable to collapse' = dễ sập (điều không mong muốn)."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u7-be-to-bound",
+    "tags": [
+      "ma-u7-be-to-bound"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You were ______ call me when you arrived! I was worried.",
+    "choices": [
+      "bound to",
+      "supposed to",
+      "liable to",
+      "used to"
+    ],
+    "correctIndex": 1,
+    "explanation": "'were supposed to + V' = lẽ ra phải làm (đã được kỳ vọng nhưng không làm), dùng để trách nhẹ.",
+    "choiceExplanations": [
+      "Sai — 'bound to' nghĩa là chắc chắn sẽ, không nói về điều lẽ ra phải làm.",
+      "Đúng — 'supposed to' = lẽ ra phải gọi, khớp với việc người nói đã lo lắng.",
+      "Sai — 'liable to' nghĩa là dễ xảy ra điều xấu, không hợp ngữ cảnh.",
+      "Sai — 'used to' + động từ nguyên thể chỉ thói quen quá khứ, không nhắc đến điều lẽ ra phải làm."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u7-be-to-bound",
+    "tags": [
+      "ma-u7-be-to-bound"
+    ],
+    "difficulty": 2,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The head teacher has announced that every student ______ be in the hall by 8:45.",
+    "choices": [
+      "is bound to",
+      "is liable to",
+      "is to",
+      "is used to"
+    ],
+    "correctIndex": 2,
+    "explanation": "'be to + V' dùng cho mệnh lệnh hoặc sắp xếp chính thức, thường trong thông báo.",
+    "choiceExplanations": [
+      "Sai — 'is bound to' nghĩa là chắc chắn sẽ (dự đoán), không phải mệnh lệnh của cô hiệu trưởng.",
+      "Sai — 'is liable to' nghĩa là dễ xảy ra điều không mong muốn, không hợp với thông báo.",
+      "Đúng — 'is to be in the hall' là mệnh lệnh/sắp xếp chính thức từ thông báo.",
+      "Sai — 'is used to be' sai cấu trúc; muốn nói 'đã quen' phải dùng 'is used to being'."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u7-be-to-bound",
+    "tags": [
+      "ma-u7-be-to-bound"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Wooden floors ______ warp if they get damp.",
+    "choices": [
+      "are liable to",
+      "are supposed to",
+      "are able to",
+      "are used to"
+    ],
+    "correctIndex": 0,
+    "explanation": "'be liable to + V' nghĩa là dễ xảy ra, thường là điều xấu như cong vênh, hư hỏng.",
+    "choiceExplanations": [
+      "Đúng — 'are liable to warp' = dễ bị cong vênh (điều không mong muốn).",
+      "Sai — 'are supposed to' nghĩa là được kỳ vọng/lẽ ra phải, không mô tả hậu quả tự nhiên.",
+      "Sai — 'are able to' nghĩa là có khả năng làm gì, và sàn gỗ không 'chủ động' làm việc đó.",
+      "Sai — 'are used to' phải đi với V-ing/danh từ, không đi với động từ nguyên thể 'warp'."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u7-be-to-bound",
+    "tags": [
+      "ma-u7-be-to-bound"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The talks ______ have started at noon, but they were postponed.",
+    "choices": [
+      "were bound to",
+      "were liable to",
+      "were used to",
+      "were to"
+    ],
+    "correctIndex": 3,
+    "explanation": "'were to have + V3' diễn tả dự định, sắp xếp trong quá khứ nhưng không xảy ra (vì bị hoãn).",
+    "choiceExplanations": [
+      "Sai — 'were bound to have started' là suy đoán chắc chắn rằng đã bắt đầu, trái với việc bị hoãn.",
+      "Sai — 'were liable to have started' không tự nhiên và sai nghĩa.",
+      "Sai — 'were used to have started' sai cấu trúc.",
+      "Đúng — 'were to have started' = dự định bắt đầu lúc trưa (nhưng không xảy ra)."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u7-be-to-bound",
+    "tags": [
+      "ma-u7-be-to-bound"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If we ______ finish the project on time, we must start now.",
+    "choices": [
+      "are for",
+      "are to",
+      "are used to",
+      "are liable to"
+    ],
+    "correctIndex": 1,
+    "explanation": "'If + S + be to + V' nghĩa là 'nếu muốn/để mà', nói điều kiện cần cho mục tiêu.",
+    "choiceExplanations": [
+      "Sai — 'are for' sai giới từ; không có cấu trúc 'be for + V'.",
+      "Đúng — 'If we are to + V' = nếu chúng ta muốn làm được việc gì, thường kèm điều cần làm.",
+      "Sai — 'are used to' phải đi với V-ing (are used to finishing), nên không hợp ở đây.",
+      "Sai — 'are liable to' nghĩa là dễ xảy ra điều xấu, và không hợp với ý 'để mà'."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u8-hedging",
+    "tags": [
+      "ma-u8-hedging"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I haven't seen the final results, but the rumor ______ well be true.",
+    "choices": [
+      "does",
+      "will",
+      "may",
+      "shall"
+    ],
+    "correctIndex": 2,
+    "explanation": "'may well + V' = rất có thể; ở đây người nói chưa thấy kết quả nhưng nghiêng về khả năng đúng.",
+    "choiceExplanations": [
+      "Sai — 'does well be' sai cấu trúc; 'does' không đi với 'be' như vậy.",
+      "Sai — 'will well be' không phải cụm tự nhiên; 'well' đi với may/might/could.",
+      "Đúng — 'may well be true' = rất có thể là thật.",
+      "Sai — 'shall well' không tự nhiên và 'shall' không dùng cho suy đoán."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u8-hedging",
+    "tags": [
+      "ma-u8-hedging"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You ______ possibly expect me to believe that story!",
+    "choices": [
+      "can't",
+      "mustn't",
+      "needn't",
+      "shan't"
+    ],
+    "correctIndex": 0,
+    "explanation": "'can't possibly + V' nhấn mạnh sự không thể ('không thể nào').",
+    "choiceExplanations": [
+      "Đúng — 'can't possibly' = hoàn toàn không thể; người nói cho rằng câu chuyện khó tin.",
+      "Sai — 'mustn't possibly' không phải cách nói tự nhiên; 'mustn't' nghĩa cấm đoán.",
+      "Sai — 'needn't possibly' không tự nhiên và nghĩa 'không cần' không hợp với 'expect me to believe'.",
+      "Sai — 'shan't possibly' là dạng Anh-Anh cũ ('sẽ không'), không hợp để chê một câu chuyện."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u8-hedging",
+    "tags": [
+      "ma-u8-hedging"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Do you think she'll win? B: She ______ well win — she's trained for years, but the other finalist is strong too.",
+    "choices": [
+      "must",
+      "ought",
+      "shall",
+      "might"
+    ],
+    "correctIndex": 3,
+    "explanation": "'might well + V' = rất có thể; 'but the other finalist is strong too' cho thấy người nói không chắc.",
+    "choiceExplanations": [
+      "Sai — 'must well win' không tự nhiên; 'must' đã chắc chắn, và 'well' không đi với 'must'.",
+      "Sai — 'ought well win' thiếu 'to' và không dùng 'well' như vậy.",
+      "Sai — 'shall well win' không dùng để suy đoán mức chắc chắn.",
+      "Đúng — 'might well win' = rất có thể thắng, nhưng chưa chắc (vì còn đối thủ mạnh)."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u8-hedging",
+    "tags": [
+      "ma-u8-hedging"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ possibly lend you that much money, I'm afraid — I only have five dollars.",
+    "choices": [
+      "needn't",
+      "couldn't",
+      "mustn't",
+      "shan't"
+    ],
+    "correctIndex": 1,
+    "explanation": "'couldn't possibly + V' = hoàn toàn không thể, thường dùng lịch sự để từ chối.",
+    "choiceExplanations": [
+      "Sai — 'needn't possibly lend' không tự nhiên, và 'needn't' nghĩa là không cần, không phải không thể.",
+      "Đúng — 'couldn't possibly lend' = hoàn toàn không thể cho mượn (vì chỉ có năm đô la).",
+      "Sai — 'mustn't possibly lend' sai vì 'mustn't' nghĩa là cấm, không phải không thể.",
+      "Sai — 'shan't possibly lend' không tự nhiên và là cách nói Anh-Anh cũ."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u8-hedging",
+    "tags": [
+      "ma-u8-hedging"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Scientists say the glacier ______ well continue to retreat, though no one can be sure.",
+    "choices": [
+      "must",
+      "ought to",
+      "could",
+      "needn't"
+    ],
+    "correctIndex": 2,
+    "explanation": "'could well + V' = rất có thể, hợp với dự báo của nhà khoa học có kèm 'though no one can be sure'.",
+    "choiceExplanations": [
+      "Sai — 'must well continue' không tự nhiên; 'must' đã chắc chắn, mâu thuẫn với 'no one can be sure'.",
+      "Sai — 'ought to well continue' không tự nhiên; 'well' không đứng sau 'ought to'.",
+      "Đúng — 'could well continue' = rất có thể tiếp tục, vẫn chừa chỗ cho sự không chắc chắn.",
+      "Sai — 'needn't well continue' sai nghĩa (không cần), không phải dự báo."
+    ]
+  },
+  {
+    "id": "en-modals-advanced-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "modals-advanced",
+    "usageId": "ma-u8-hedging",
+    "tags": [
+      "ma-u8-hedging"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn câu đúng nhất",
+    "prompt": "Which sentence shows the speaker thinks something is quite likely to happen?",
+    "choices": [
+      "She may well forget.",
+      "She can't possibly forget.",
+      "She might possibly forget.",
+      "She couldn't possibly forget."
+    ],
+    "correctIndex": 0,
+    "explanation": "'may well' diễn tả khả năng khá cao; 'might possibly' nhấn mạnh khả năng thấp; 'can't/couldn't possibly' nghĩa là chắc chắn không.",
+    "choiceExplanations": [
+      "Đúng — 'may well forget' = khá có khả năng sẽ quên.",
+      "Sai — 'can't possibly forget' = chắc chắn không thể quên, tức khả năng bằng không.",
+      "Sai — 'might possibly forget' chỉ khả năng thấp, nhẹ hơn nhiều so với 'may well'.",
+      "Sai — 'couldn't possibly forget' = hoàn toàn không thể quên, khả năng bằng không."
+    ]
+  }
+]
