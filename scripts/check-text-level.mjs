@@ -5,59 +5,21 @@
 import fs from "node:fs"
 import path from "node:path"
 
-const { analyzeText, bacOfLevel, buildLevelIndex, flagsFor } = await import("../src/lib/content/text-level.ts")
+const { analyzeText, flagsFor } = await import("../src/lib/content/text-level.ts")
+const { loadLevelIndex } = await import("./lib/level-index.mjs")
 const args = process.argv.slice(2)
 const which = args.find((a) => !a.startsWith("--")) ?? "all"
 const showAll = args.includes("--all")
 const asJson = args.includes("--json")
 
-/** Đọc CSV có dấu ngoặc kép (đủ cho hai tệp từ vựng này). */
-function parseCsv(text) {
-  const rows = []
-  let row = []
-  let cell = ""
-  let quoted = false
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i]
-    if (quoted) {
-      if (c === '"' && text[i + 1] === '"') {
-        cell += '"'
-        i++
-      } else if (c === '"') quoted = false
-      else cell += c
-    } else if (c === '"') quoted = true
-    else if (c === ",") {
-      row.push(cell)
-      cell = ""
-    }
-    else if (c === "\n" || c === "\r") {
-      if (c === "\r" && text[i + 1] === "\n") i++
-      row.push(cell)
-      cell = ""
-      if (row.length > 1 || row[0] !== "") rows.push(row)
-      row = []
-    } else cell += c
-  }
-  if (cell || row.length) rows.push([...row, cell])
-  return rows
-}
-
 // Danh sách cấp độ đầy đủ: CEFR-J (A1–B2) và Octanove (C1–C2), đã có trong reference/.
-const entries = []
-for (const file of ["reference/cefrj-vocabulary-profile-1.5.csv", "reference/octanove-vocabulary-profile-c1c2-1.0.csv"]) {
-  if (!fs.existsSync(file)) {
-    console.error(`Thiếu ${file}`)
-    process.exit(1)
-  }
-  const [head, ...body] = parseCsv(fs.readFileSync(file, "utf8").replace(/^\uFEFF/, ""))
-  const hw = head.indexOf("headword")
-  const lv = head.indexOf("CEFR")
-  for (const r of body) {
-    const bac = bacOfLevel(r[lv] ?? "")
-    if (bac && r[hw]) entries.push({ word: r[hw], bac })
-  }
+let index
+try {
+  index = await loadLevelIndex()
+} catch (e) {
+  console.error(e.message)
+  process.exit(1)
 }
-const index = buildLevelIndex(entries)
 console.log(`Danh sách cấp độ: ${index.size} từ khóa (CEFR-J + Octanove)`)
 
 const rows = []
