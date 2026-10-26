@@ -35,3 +35,9 @@ test("câu đọc to: mặc định bật, tắt được; chủ điểm 'speak'
   assert.equal(skillOfTopic("speak"), "speaking")
   assert.equal(answerBac({ exercise_id: "en-x-001~speak", topic: "speak" }, { "en-x-001": [3, 2] }), null, "không tính vào cổng nhảy bậc")
 })
+
+test("kiểu hiển thị Lộ trình: mặc định bản đồ, nhận 'list', giá trị lạ về bản đồ", () => {
+  assert.equal(sanitizeSettings(null).pathView, "road")
+  assert.equal(sanitizeSettings({ pathView: "list" }).pathView, "list")
+  assert.equal(sanitizeSettings({ pathView: "grid" }).pathView, "road")
+})

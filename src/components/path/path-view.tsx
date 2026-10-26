@@ -1,6 +1,7 @@
 "use client"
 
 import { useMemo } from "react"
+import { updateSettings, useSettings } from "@/lib/settings"
 import Link from "next/link"
 import { levelLabel } from "@/lib/content/bac"
 import { KIND_LABEL, STEPS_PER_BAC, type PathStep } from "@/lib/path/catalog"
@@ -10,6 +11,8 @@ import { lessonPassed, skippedSteps, type LessonResult, type StepState } from "@
 import { startOrder } from "@/lib/path/start"
 import { useProfile } from "@/components/progress/use-profile"
 import { usePathState } from "./use-path-state"
+import { PathRoad } from "./path-road"
+import { LeapLink, LessonList } from "./step-parts"
 
 const BTN = "inline-block rounded-game border-b-[5px] border-primary-deep bg-primary px-5 py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2"
 const TODAY_COUNT = 4
@@ -39,6 +42,7 @@ const SOURCE_TEXT = { placement: "theo bài xếp trình độ", leap: "nhờ b�
 export function PathView({ path }: { path: PathStep[] }) {
   const { loading, error, results: map, start, readiness, state, next } = usePathState(path)
   const profile = useProfile()
+  const { pathView: view } = useSettings()
 
   const weakest = useMemo(() => weakestSkill((profile?.abilities ?? []).map((a) => ({ skill: a.skill, rating: a.rating, reliable: a.confidence !== "low" }))), [profile])
   const today = useMemo(() => {
@@ -114,6 +118,18 @@ export function PathView({ path }: { path: PathStep[] }) {
         </p>
       )}
 
+      <div className="flex gap-2" role="group" aria-label="Cách xem Lộ trình">
+        {(["road", "list"] as const).map((v) => (
+          <button key={v} type="button" aria-pressed={view === v} onClick={() => updateSettings({ pathView: v })} className={`rounded-full border-2 px-3 py-1.5 text-sm font-bold ${view === v ? "border-primary text-primary" : "border-border bg-card"}`}>
+            {v === "road" ? "🗺️ Bản đồ" : "☰ Danh sách"}
+          </button>
+        ))}
+      </div>
+
+      {view === "road" ? (
+        <PathRoad state={state} map={map} readiness={readiness} startBac={start?.bac ?? 1} />
+      ) : (
+        <>
       {[...new Set(path.map((s) => s.bac))].map((bac) => {
         const steps = state.steps.filter((s) => s.step.bac === bac)
         if (steps.every((s) => s.step.lessons.length === 0)) return null
@@ -128,6 +144,8 @@ export function PathView({ path }: { path: PathStep[] }) {
           </section>
         )
       })}
+        </>
+      )}
     </div>
   )
 }
@@ -170,7 +188,6 @@ function GateBox({ bac, readiness }: { bac: number; readiness: JumpReadiness }) 
 }
 
 function StepCard({ s, map, canLeap }: { s: StepState; map: Map<string, LessonResult>; canLeap: boolean }) {
-  const open = s.status !== "locked" && s.status !== "gated"
   return (
     <details className={`rounded-game border-2 bg-card p-4 ${s.status === "current" ? "border-primary" : "border-border"}`} open={s.status === "current"}>
       <summary className="cursor-pointer list-none">
@@ -186,30 +203,13 @@ function StepCard({ s, map, canLeap }: { s: StepState; map: Map<string, LessonRe
         </span>
       </summary>
       {canLeap && (
-        <Link href={`/lo-trinh/vuot-cap/b${s.step.bac}-s${s.step.stepInBac}`} className="mt-3 inline-block rounded-game border-2 border-primary px-3 py-1 text-sm font-extrabold text-primary hover:bg-primary hover:text-primary-foreground">
-          🚀 Vượt cấp tới đây (20 câu)
-        </Link>
+        <div className="mt-3">
+          <LeapLink s={s} />
+        </div>
       )}
-      <ul className="mt-3 space-y-1 text-sm">
-        {s.step.lessons.map((l) => {
-          const r = map.get(l.id)
-          const ok = lessonPassed(r, l.bac)
-          return (
-            <li key={l.id} className="flex items-center justify-between gap-2">
-              {open ? (
-                <Link href={`/lo-trinh/bai/${l.id}`} className="text-primary underline underline-offset-4">
-                  {KIND_LABEL[l.kind]} · {l.title}
-                </Link>
-              ) : (
-                <span className="text-muted-foreground">
-                  {KIND_LABEL[l.kind]} · {l.title}
-                </span>
-              )}
-              <span className={ok ? "font-bold" : "text-muted-foreground"}>{ok ? "✓" : r ? `${Math.round(r.bestRatio * 100)}%` : ""}</span>
-            </li>
-          )
-        })}
-      </ul>
+      <div className="mt-3">
+        <LessonList s={s} map={map} />
+      </div>
     </details>
   )
 }

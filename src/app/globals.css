@@ -113,6 +113,11 @@ body {
 }
 
 .mascot-float { animation: float-y 3.2s ease-in-out infinite; }
+@keyframes node-pulse {
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--primary) 55%, transparent); }
+  100% { box-shadow: 0 0 0 14px transparent; }
+}
+.node-pulse { animation: node-pulse 1.8s ease-out infinite; }
 .home-card { transition: transform 0.15s, border-color 0.15s; }
 .home-card:hover { transform: translateY(-3px); }
 
