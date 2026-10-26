@@ -1,0 +1,322 @@
+{
+  "id": "discourse-linking-advanced",
+  "language": "en",
+  "title": "Liên kết diễn ngôn nâng cao (Advanced Linking & Discourse)",
+  "levels": [
+    "C1",
+    "C2"
+  ],
+  "order": 39,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "dl-u1-concession-adverbs",
+        "bac": 5,
+        "label": "Trạng từ nhượng bộ: nevertheless, nonetheless, even so, albeit",
+        "explanationVi": "Nevertheless, nonetheless và even so nối hai ý trái với mong đợi, nghĩa là 'tuy vậy, dù thế'. Chúng là trạng từ, không phải liên từ, nên không nối hai mệnh đề chỉ bằng dấu phẩy: dùng dấu chấm hoặc chấm phẩy ở trước, rồi dấu phẩy sau từ nối (The road was closed. Nevertheless, we arrived on time). Chúng cũng đứng giữa câu hoặc cuối câu: We nonetheless won; We enjoyed it, nonetheless. Albeit (= although it is/was) trang trọng, thường đứng trước một tính từ, trạng từ hay cụm từ ngắn: She smiled, albeit nervously. Dùng albeit trước một mệnh đề đầy đủ (albeit it was costly) rất hiếm và bị nhiều người coi là không chuẩn, nên hãy dùng although. Even so khác Even though: Even so là trạng từ chỉ 'dù vậy' (đứng đầu câu mới), còn Even though là liên từ nối mệnh đề phụ.",
+        "examples": [
+          {
+            "en": "The forecast was bad. Nevertheless, the match went ahead.",
+            "vi": "Dự báo thời tiết xấu. Tuy vậy, trận đấu vẫn diễn ra."
+          },
+          {
+            "en": "He accepted the offer, albeit with some reluctance.",
+            "vi": "Anh ấy nhận lời đề nghị, dù có phần miễn cưỡng."
+          },
+          {
+            "en": "The test was hard. We enjoyed it, nonetheless.",
+            "vi": "Bài kiểm tra khó. Dù vậy chúng tôi vẫn thích nó."
+          }
+        ]
+      },
+      {
+        "id": "dl-u2-concession-despite",
+        "bac": 5,
+        "label": "Đối lập: whereas / while / whilst và despite / in spite of / notwithstanding",
+        "explanationVi": "Whereas, while và whilst (whilst trang trọng và chủ yếu gặp trong tiếng Anh-Anh; tiếng Anh-Mỹ dùng while) nối hai mệnh đề để đối chiếu hai sự việc: Lena likes tea, whereas Omar prefers coffee. Despite và in spite of đứng trước danh từ, cụm danh từ hoặc V-ing, không đứng trước một mệnh đề đầy đủ: Despite the rain / Despite being tired. Muốn dùng mệnh đề thì thêm the fact that: Despite the fact that it rained. Lưu ý: không có 'despite of' (chỉ 'in spite of'), và không nói 'although the fact that'. Notwithstanding là giới từ rất trang trọng (C2), đứng trước hoặc sau danh từ: Notwithstanding the warnings / The warnings notwithstanding, the festival went ahead.",
+        "examples": [
+          {
+            "en": "Despite the fact that the course was expensive, almost everyone enrolled.",
+            "vi": "Mặc dù khóa học đắt, hầu như ai cũng đăng ký."
+          },
+          {
+            "en": "The north is dry, whereas the south is wet.",
+            "vi": "Miền bắc thì khô, trong khi miền nam thì ẩm ướt."
+          },
+          {
+            "en": "The festival went ahead, notwithstanding the storm warnings.",
+            "vi": "Lễ hội vẫn diễn ra bất chấp các cảnh báo bão."
+          }
+        ]
+      },
+      {
+        "id": "dl-u3-addition",
+        "bac": 5,
+        "label": "Bổ sung ý: moreover, furthermore, what is more, in addition to, besides, not to mention",
+        "explanationVi": "Moreover, furthermore và what is more thêm một ý mạnh hơn hoặc quan trọng hơn vào ý trước, thường đứng đầu câu (hoặc sau dấu chấm phẩy) và có dấu phẩy theo sau. Chúng là trạng từ nên không nối hai mệnh đề chỉ bằng dấu phẩy. 'What is more' là cụm cố định, không đảo thành 'more is what'. In addition to và besides là giới từ: theo sau là danh từ hoặc V-ing (In addition to singing, she plays the violin), không phải mệnh đề; 'in addition' (không có to) là trạng từ đứng riêng. Not to mention + danh từ/cụm danh từ dùng để thêm một ý nữa, thường là ý hiển nhiên hoặc phụ. Lưu ý: besides còn là trạng từ đứng đầu câu (Besides, it is cheap), nghĩa 'ngoài ra'; khi theo sau là V-ing hoặc danh từ thì nó là giới từ.",
+        "examples": [
+          {
+            "en": "The app is free. Moreover, it works offline.",
+            "vi": "Ứng dụng miễn phí. Hơn nữa, nó dùng được khi không có mạng."
+          },
+          {
+            "en": "In addition to singing in the choir, Linh plays the violin.",
+            "vi": "Ngoài việc hát trong dàn hợp xướng, Linh còn chơi vĩ cầm."
+          },
+          {
+            "en": "The museum offers tours in five languages, not to mention a free audio guide.",
+            "vi": "Bảo tàng có tour bằng năm thứ tiếng, chưa kể hướng dẫn âm thanh miễn phí."
+          }
+        ]
+      },
+      {
+        "id": "dl-u4-cause-result",
+        "bac": 5,
+        "label": "Nguyên nhân và kết quả trang trọng: consequently, hence, thereby, owing to, on account of, given that, in view of",
+        "explanationVi": "Consequently, hence và thus (trang trọng hơn so với so/therefore) đưa ra kết quả. Consequently đứng đầu câu với dấu phẩy: The river flooded. Consequently, the bridge was closed. Hence thường đi với danh từ: Prices rose; hence the drop in sales (= đó là lý do có sự sụt giảm). Hence + V-ing rất hiếm, nên khi cần nêu kết quả với V-ing hãy dùng thereby. Thereby + V-ing nêu kết quả đi kèm của hành động trước: The firm switched to solar power, thereby cutting its bills. Chỉ nguyên nhân: owing to, on account of, in view of là giới từ (đi với danh từ, không đi với mệnh đề): on account of the delay, in view of the strong winds. Given that + mệnh đề nghĩa là 'xét rằng, vì'. Không nói 'on account that' hay 'owing that'. Đừng nhầm thereby với whereby (= theo đó, mở đầu một mệnh đề) hay hereby (= bằng văn bản này, dùng trong tuyên bố chính thức).",
+        "examples": [
+          {
+            "en": "The river flooded. Consequently, the bridge was closed.",
+            "vi": "Sông tràn bờ. Do đó cây cầu bị đóng."
+          },
+          {
+            "en": "The firm switched to solar power, thereby cutting its energy bills.",
+            "vi": "Công ty chuyển sang điện mặt trời, nhờ đó giảm hóa đơn năng lượng."
+          },
+          {
+            "en": "In view of the strong winds, the ferry service was suspended.",
+            "vi": "Xét đến gió mạnh, dịch vụ phà bị tạm dừng."
+          }
+        ]
+      },
+      {
+        "id": "dl-u5-stance-adverbs",
+        "bac": 5,
+        "label": "Trạng từ thái độ / lập trường: admittedly, arguably, evidently, supposedly, presumably, ideally, regrettably",
+        "explanationVi": "Đây là trạng từ bình luận (stance adverbs): chúng cho biết thái độ của người nói đối với cả câu. Admittedly = thừa nhận (nhượng bộ trước khi nêu ý chính). Arguably = có thể lập luận rằng (ý kiến, có thể tranh cãi). Evidently = rõ ràng, dựa trên bằng chứng người nói thấy. Supposedly = theo lời đồn / người ta cho là, người nói có phần nghi ngờ. Presumably = chắc là, suy đoán hợp lý. Ideally = lý tưởng nhất là. Regrettably = đáng tiếc là. Chúng thường đứng đầu câu có dấu phẩy, hoặc trước động từ chính / sau be. Đừng nhầm evidently (có bằng chứng) với supposedly (chỉ nghe nói) hoặc presumably (tự suy đoán).",
+        "examples": [
+          {
+            "en": "Admittedly, the film is long, but the ending is worth it.",
+            "vi": "Phải thừa nhận phim dài, nhưng đoạn kết đáng xem."
+          },
+          {
+            "en": "She is arguably the best goalkeeper in the league.",
+            "vi": "Có thể nói cô ấy là thủ môn giỏi nhất giải."
+          },
+          {
+            "en": "The old house is supposedly haunted.",
+            "vi": "Người ta đồn ngôi nhà cũ bị ma ám."
+          }
+        ]
+      },
+      {
+        "id": "dl-u6-summary-topic",
+        "bac": 5,
+        "label": "Tóm tắt và chuyển ý: in short, to sum up, as far as ... is concerned, with regard to, as for",
+        "explanationVi": "In short, in brief, to sum up, in conclusion dùng ở cuối đoạn hoặc bài để tóm ý; đứng đầu câu, có dấu phẩy. To sum up cố định, không đổi dạng (không nói 'to summary'). Để chuyển sang một chủ đề khác hoặc giới hạn phạm vi, dùng as far as + danh từ + is/are concerned (be chia theo danh từ ở giữa: As far as the rules are concerned), with regard to / regarding / as for + danh từ. As for thường dùng khi đổi sang đối tượng khác: Linh is good at maths. As for English, she needs more practice. Không nói 'as far as the cost concerned' (thiếu be) hay 'with regard of'.",
+        "examples": [
+          {
+            "en": "In short, recycling saves resources and cuts waste.",
+            "vi": "Tóm lại, tái chế tiết kiệm tài nguyên và giảm rác."
+          },
+          {
+            "en": "As far as the cost is concerned, the trip is a bargain.",
+            "vi": "Còn về chi phí thì chuyến đi rất rẻ."
+          },
+          {
+            "en": "As for English, she needs more practice.",
+            "vi": "Còn tiếng Anh thì cô ấy cần luyện thêm."
+          }
+        ]
+      },
+      {
+        "id": "dl-u7-reference",
+        "bac": 6,
+        "label": "Tham chiếu: the former / the latter, the above, this/that + danh từ tóm lược",
+        "explanationVi": "The former là cái được nhắc đến trước (trong hai thứ), the latter là cái nhắc sau: dùng cho đúng hai đối tượng, không dùng khi có ba thứ trở lên. Nhớ nghĩa: 'latter' (cái sau) khác 'later' (muộn hơn). The above (trong văn bản trang trọng) chỉ những điều đã nêu ở trên: any of the above. Để nhắc lại cả một ý đã nói, dùng this/that/these/those + danh từ tóm lược (this move, this decision, that trend), nghĩa là danh từ khái quát hóa ý trước, phải hòa hợp số (This decision, không phải 'These decision'). Cách này giúp bài viết mạch lạc và tránh lặp từ.",
+        "examples": [
+          {
+            "en": "Football and chess both teach discipline, but the latter also demands long silent concentration.",
+            "vi": "Bóng đá và cờ vua đều dạy tính kỷ luật, nhưng môn sau còn đòi hỏi tập trung im lặng lâu."
+          },
+          {
+            "en": "The council cut funding for libraries. This decision was widely criticized.",
+            "vi": "Hội đồng cắt kinh phí thư viện. Quyết định này bị chỉ trích rộng rãi."
+          },
+          {
+            "en": "Of the two options, cycling and walking, I prefer the former; it is faster.",
+            "vi": "Trong hai lựa chọn, đạp xe và đi bộ, tôi thích cái đầu hơn vì nó nhanh hơn."
+          }
+        ]
+      },
+      {
+        "id": "dl-u8-punctuation",
+        "bac": 5,
+        "label": "Dấu câu với từ nối: chấm phẩy, dấu phẩy, vị trí đầu / giữa / cuối câu",
+        "explanationVi": "Các trạng từ nối (however, nevertheless, moreover, consequently, therefore...) không phải liên từ, nên nối hai mệnh đề độc lập bằng dấu phẩy là lỗi 'comma splice'. Cách đúng: tách bằng dấu chấm, hoặc dùng chấm phẩy ở trước từ nối và dấu phẩy ở sau: The plan was risky; however, it worked. Khi từ nối đứng giữa câu, đặt dấu phẩy ở hai bên: The plan, however, worked. Khi đứng cuối câu, chỉ cần dấu phẩy phía trước. Ngược lại, liên từ thật (whereas, although, while) nối hai mệnh đề với dấu phẩy hoặc không dấu, và không có dấu phẩy ngay sau liên từ: Lena likes tea, whereas Omar prefers coffee.",
+        "examples": [
+          {
+            "en": "The plan was risky; however, it worked.",
+            "vi": "Kế hoạch mạo hiểm; tuy vậy, nó đã thành công."
+          },
+          {
+            "en": "The plan, however, worked.",
+            "vi": "Tuy vậy, kế hoạch đã thành công."
+          },
+          {
+            "en": "We enjoyed it, nonetheless.",
+            "vi": "Dù vậy chúng tôi vẫn thích nó."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "nevertheless / nonetheless / even so",
+        "meaningVi": "tuy vậy, dù thế"
+      },
+      {
+        "word": "albeit",
+        "meaningVi": "dù là (+ tính từ/cụm ngắn)"
+      },
+      {
+        "word": "whereas / whilst",
+        "meaningVi": "trong khi (đối chiếu)"
+      },
+      {
+        "word": "despite / in spite of / notwithstanding",
+        "meaningVi": "mặc dù (+ danh từ/V-ing)"
+      },
+      {
+        "word": "moreover / furthermore / what is more",
+        "meaningVi": "hơn nữa"
+      },
+      {
+        "word": "in addition to / besides / not to mention",
+        "meaningVi": "ngoài ... ra / chưa kể"
+      },
+      {
+        "word": "consequently / hence / thereby",
+        "meaningVi": "do đó / từ đó / nhờ đó"
+      },
+      {
+        "word": "owing to / on account of / in view of",
+        "meaningVi": "bởi vì / xét đến"
+      },
+      {
+        "word": "given that",
+        "meaningVi": "xét rằng"
+      },
+      {
+        "word": "admittedly / arguably / evidently / supposedly / presumably / ideally / regrettably",
+        "meaningVi": "thừa nhận / có thể lập luận / rõ ràng / theo đồn / chắc là / lý tưởng nhất / đáng tiếc"
+      },
+      {
+        "word": "in short / to sum up",
+        "meaningVi": "tóm lại"
+      },
+      {
+        "word": "as far as ... is concerned / with regard to / as for",
+        "meaningVi": "về phần / liên quan đến / còn về"
+      },
+      {
+        "word": "the former / the latter",
+        "meaningVi": "cái trước / cái sau"
+      }
+    ],
+    "formulas": {
+      "concession": "S1. Nevertheless/Nonetheless, S2. | S1; even so, S2. | S, albeit + adj/adv/cụm. | Despite/In spite of + N/V-ing | Despite the fact that + S V | S1, whereas S2.",
+      "addition": "S1. Moreover/Furthermore/What is more, S2. | In addition to + N/V-ing, S V | not to mention + N.",
+      "causeResult": "S1. Consequently, S2. | S, thereby + V-ing | Owing to/On account of/In view of + N, S V | Given that + S V, S V | ...; hence + N.",
+      "stance": "Admittedly/Arguably/Evidently/Presumably/Ideally/Regrettably, S V. | S be + supposedly + adj.",
+      "summaryReference": "In short/To sum up, S V. | As far as + N + is/are concerned, S V. | With regard to/As for + N, S V. | the former ... the latter (đúng hai đối tượng).",
+      "punctuation": "S1; however, S2. | S1. However, S2. | S, however, V. | (SAI) S1, however S2."
+    },
+    "commonMistakes": [
+      {
+        "id": "discourse-linking-advanced-m1",
+        "description": "Dùng dấu phẩy để nối hai mệnh đề bằng trạng từ nối (comma splice): cần dấu chấm hoặc chấm phẩy trước nevertheless, however, moreover...",
+        "examples": [
+          {
+            "wrong": "The road was closed, nevertheless we arrived on time.",
+            "correct": "The road was closed; nevertheless, we arrived on time."
+          }
+        ],
+        "usageIds": [
+          "dl-u1-concession-adverbs",
+          "dl-u8-punctuation"
+        ]
+      },
+      {
+        "id": "discourse-linking-advanced-m2",
+        "description": "Viết 'despite of' hoặc dùng despite / in spite of trước một mệnh đề đầy đủ: despite + danh từ/V-ing hoặc despite the fact that + mệnh đề.",
+        "examples": [
+          {
+            "wrong": "Despite of the rain, the match went ahead.",
+            "correct": "Despite the rain, the match went ahead."
+          },
+          {
+            "wrong": "In spite he was tired, he kept running.",
+            "correct": "In spite of the fact that he was tired, he kept running."
+          }
+        ],
+        "usageIds": [
+          "dl-u2-concession-despite"
+        ]
+      },
+      {
+        "id": "discourse-linking-advanced-m3",
+        "description": "Dùng owing to / on account of / in view of trước mệnh đề, hoặc viết 'on account that', 'owing that'. Các cụm này là giới từ, theo sau là danh từ.",
+        "examples": [
+          {
+            "wrong": "On account of there was a power cut, the library closed early.",
+            "correct": "On account of a power cut, the library closed early."
+          }
+        ],
+        "usageIds": [
+          "dl-u4-cause-result"
+        ]
+      },
+      {
+        "id": "discourse-linking-advanced-m4",
+        "description": "Dùng 'in addition to' / 'besides' trước mệnh đề, hoặc sau 'in addition to' dùng động từ nguyên thể thay vì V-ing.",
+        "examples": [
+          {
+            "wrong": "In addition to sing in the choir, Linh plays the violin.",
+            "correct": "In addition to singing in the choir, Linh plays the violin."
+          }
+        ],
+        "usageIds": [
+          "dl-u3-addition"
+        ]
+      },
+      {
+        "id": "discourse-linking-advanced-m5",
+        "description": "Nhầm the former / the latter với 'later', hoặc dùng cho nhiều hơn hai đối tượng.",
+        "examples": [
+          {
+            "wrong": "Football and chess are both useful, but the later is harder.",
+            "correct": "Football and chess are both useful, but the latter is harder."
+          }
+        ],
+        "usageIds": [
+          "dl-u7-reference"
+        ]
+      },
+      {
+        "id": "discourse-linking-advanced-m6",
+        "description": "Nhầm trạng từ thái độ: dùng supposedly cho điều có bằng chứng, hoặc dùng presumably cho điều chỉ nghe đồn.",
+        "examples": [
+          {
+            "wrong": "Supposedly, it had rained overnight, because the street was full of puddles.",
+            "correct": "Evidently, it had rained overnight, because the street was full of puddles."
+          }
+        ],
+        "usageIds": [
+          "dl-u5-stance-adverbs"
+        ]
+      }
+    ]
+  }
+}

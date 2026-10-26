@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "en-conditionals-advanced-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u1-mixed-nuance",
+    "tags": [
+      "ca-u1-mixed-nuance"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If I had gone to bed earlier last night, I ______ so tired now.",
+    "choices": [
+      "wouldn't have been",
+      "wouldn't be",
+      "won't be",
+      "hadn't been"
+    ],
+    "correctIndex": 1,
+    "explanation": "Điều kiện ở quá khứ (had gone), kết quả ở hiện tại (now): would + V.",
+    "choiceExplanations": [
+      "Sai — 'wouldn't have been' là kết quả ở quá khứ, mâu thuẫn với 'now'.",
+      "Đúng — 'now' chỉ hiện tại nên dùng would + nguyên mẫu: wouldn't be.",
+      "Sai — 'won't be' là câu điều kiện thật, không hợp với điều kiện đã không xảy ra (had gone).",
+      "Sai — 'hadn't been' là thì quá khứ hoàn thành, không phải dạng kết quả của câu điều kiện."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u1-mixed-nuance",
+    "tags": [
+      "ca-u1-mixed-nuance"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mai isn't confident at all. If she were more confident, she ______ for the speech contest last month.",
+    "choices": [
+      "would enter",
+      "will enter",
+      "would have entered",
+      "had entered"
+    ],
+    "correctIndex": 2,
+    "explanation": "Đặc điểm hiện tại (were) làm một việc quá khứ không xảy ra: would have + V3.",
+    "choiceExplanations": [
+      "Sai — 'would enter' chỉ hiện tại/tương lai, sai với 'last month'.",
+      "Sai — 'will enter' không dùng được vì điều kiện đang là giả định.",
+      "Đúng — 'last month' là quá khứ nên dùng would have + V3.",
+      "Sai — 'had entered' không phải dạng kết quả; mệnh đề chính cần would."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u1-mixed-nuance",
+    "tags": [
+      "ca-u1-mixed-nuance"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu có hai mệnh đề đều đúng mốc thời gian: bây giờ tôi vẫn đang làm thêm vì năm ngoái không thắng học bổng.",
+    "choices": [
+      "If I won the scholarship last year, I wouldn't have worked part-time now.",
+      "If I had won the scholarship last year, I wouldn't be working part-time now.",
+      "If I had won the scholarship last year, I wouldn't have worked part-time now.",
+      "If I would win the scholarship last year, I wouldn't work part-time now."
+    ],
+    "correctIndex": 1,
+    "explanation": "Quá khứ (had won) → hiện tại (wouldn't be working now).",
+    "choiceExplanations": [
+      "Sai — 'won ... last year' sai thì cho điều kiện quá khứ, và 'have worked now' lẫn mốc.",
+      "Đúng — had won (quá khứ) + wouldn't be working (hiện tại, có 'now').",
+      "Sai — 'wouldn't have worked ... now' lẫn mốc: 'now' không đi với have + V3 ở đây.",
+      "Sai — 'would win ... last year' sai: would không dùng trong mệnh đề if thường, và không hợp 'last year'."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u1-mixed-nuance",
+    "tags": [
+      "ca-u1-mixed-nuance"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm not good at maths now because I skipped so many lessons. If I ______ those lessons, I would be better at it today.",
+    "choices": [
+      "didn't skip",
+      "wouldn't skip",
+      "hadn't skipped",
+      "haven't skipped"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mệnh đề chính would be ... today (hiện tại) nên mệnh đề if nói về quá khứ: had + V3.",
+    "choiceExplanations": [
+      "Sai — 'didn't skip' là giả định hiện tại, nhưng việc bỏ học đã xảy ra trong quá khứ.",
+      "Sai — 'wouldn't skip' không dùng trong mệnh đề if theo nghĩa này.",
+      "Đúng — việc bỏ học ở quá khứ nên dùng hadn't skipped; kết quả would be ở hiện tại (today).",
+      "Sai — 'haven't skipped' là hiện tại hoàn thành, không dùng trong câu điều kiện giả định."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u1-mixed-nuance",
+    "tags": [
+      "ca-u1-mixed-nuance"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Leo is allergic to cats. If he weren't allergic, he ______ the kitten from the shelter last week.",
+    "choices": [
+      "would have adopted",
+      "would adopt",
+      "had adopted",
+      "wouldn't adopt"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đặc điểm hiện tại (weren't allergic) làm một việc quá khứ không xảy ra (last week): would have + V3.",
+    "choiceExplanations": [
+      "Đúng — 'last week' là quá khứ nên mệnh đề chính cần would have + V3.",
+      "Sai — 'would adopt' nói về hiện tại/tương lai, không khớp với 'last week'.",
+      "Sai — 'had adopted' là quá khứ hoàn thành, không phải dạng kết quả; mệnh đề chính cần would.",
+      "Sai — 'wouldn't adopt' vừa sai mốc thời gian vừa đảo nghĩa (câu muốn nói cậu ấy đã không nhận nuôi vì dị ứng)."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u1-mixed-nuance",
+    "tags": [
+      "ca-u1-mixed-nuance"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If we hadn't taken the shortcut, we ______ still be walking through that forest now.",
+    "choices": [
+      "might have",
+      "will",
+      "should have",
+      "might"
+    ],
+    "correctIndex": 3,
+    "explanation": "Kết quả ở hiện tại, độ chắc chắn thấp: might + V (nguyên mẫu).",
+    "choiceExplanations": [
+      "Sai — sau 'might have' phải là V3; 'might have still be' sai dạng động từ, trong khi 'now' cần dạng nguyên mẫu.",
+      "Sai — 'will' là dự đoán thật về tương lai, không hợp với giả định trái thực tế (hadn't taken).",
+      "Sai — 'should have still be' sai dạng động từ; và 'should have' chỉ điều lẽ ra nên làm, không phải kết quả giả định.",
+      "Đúng — 'might still be walking' = có lẽ vẫn đang đi; 'now' chỉ hiện tại, might diễn đạt khả năng."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u1-mixed-nuance",
+    "tags": [
+      "ca-u1-mixed-nuance"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng: tính cách bướng bỉnh vẫn còn, nhưng việc từ chối giúp đã xảy ra trong quá khứ.",
+    "choices": [
+      "If he weren't so stubborn, he would have accepted our help at the time.",
+      "If he hadn't been so stubborn, he would accept our help at the time.",
+      "If he wouldn't be so stubborn, he would have accepted our help.",
+      "If he weren't so stubborn, he would accept our help at the time."
+    ],
+    "correctIndex": 0,
+    "explanation": "If + were (đặc điểm hiện tại) + would have + V3 (kết quả quá khứ, 'at the time').",
+    "choiceExplanations": [
+      "Đúng — weren't (đặc điểm hiện tại) + would have accepted (quá khứ).",
+      "Sai — 'would accept ... at the time' sai mốc: 'at the time' là quá khứ.",
+      "Sai — 'wouldn't be' trong mệnh đề if là sai.",
+      "Sai — Mệnh đề chính 'would accept' không hợp với 'at the time'."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u2-were-to-should-happen-to",
+    "tags": [
+      "ca-u2-were-to-should-happen-to"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If you ______ to see Ms. Park, could you give her this note?",
+    "choices": [
+      "will happen",
+      "happen",
+      "would happen",
+      "are happening"
+    ],
+    "correctIndex": 1,
+    "explanation": "If you happen to + V: nếu tình cờ.",
+    "choiceExplanations": [
+      "Sai — 'will' không đi trước 'to see' sau 'If you' trong cấu trúc này; ta dùng 'happen to + V'.",
+      "Đúng — 'If you happen to + V' = nếu bạn tình cờ; 'happen' chia hiện tại sau 'you'.",
+      "Sai — 'would happen to see' không phải cấu trúc chuẩn trong mệnh đề if; 'happen' đã có sẵn nghĩa tình cờ.",
+      "Sai — 'are happening to see' dùng thì tiếp diễn, tạo ra cấu trúc không tồn tại."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u2-were-to-should-happen-to",
+    "tags": [
+      "ca-u2-were-to-should-happen-to"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If you ______ need any help, just press the red button.",
+    "choices": [
+      "would",
+      "were",
+      "should",
+      "could"
+    ],
+    "correctIndex": 2,
+    "explanation": "If + should + V: khả năng thấp, mệnh đề chính là mệnh lệnh.",
+    "choiceExplanations": [
+      "Sai — 'If you would need' không tự nhiên: would ở mệnh đề if chỉ dùng để nhờ vả/khăng khăng, không dùng để nói khả năng ít xảy ra.",
+      "Sai — 'were need' ghép 'were' với nguyên mẫu mà thiếu 'to'; muốn dùng 'were' phải là 'were to need'.",
+      "Đúng — 'If you should need' = nếu lỡ bạn cần; should + V nói về khả năng thấp.",
+      "Sai — 'If you could need' không phải cách diễn đạt chuẩn; could không dùng để nói khả năng ít xảy ra trong mệnh đề if."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u2-were-to-should-happen-to",
+    "tags": [
+      "ca-u2-were-to-should-happen-to"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If the Sun ______ to disappear, the Earth would quickly grow cold.",
+    "choices": [
+      "would",
+      "been",
+      "were",
+      "going"
+    ],
+    "correctIndex": 2,
+    "explanation": "If + were to + V: giả định rất xa vời.",
+    "choiceExplanations": [
+      "Sai — 'would to disappear' không tồn tại; would không đi với 'to' + nguyên mẫu.",
+      "Sai — 'been to disappear' không tạo thành cấu trúc điều kiện nào.",
+      "Đúng — 'If + S + were to + V' nói về giả định rất xa vời (với 'the Sun' thì dùng were, không phải was).",
+      "Sai — 'going to disappear' cần 'were going to', và 'If … were going to' lại mang nghĩa dự định, không phải giả định xa vời."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u2-were-to-should-happen-to",
+    "tags": [
+      "ca-u2-were-to-should-happen-to"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If anyone ______ call while I'm out, please take a message.",
+    "choices": [
+      "will",
+      "would",
+      "is",
+      "should"
+    ],
+    "correctIndex": 3,
+    "explanation": "If + should + V rồi mệnh đề chính là mệnh lệnh.",
+    "choiceExplanations": [
+      "Sai — 'If anyone will call' chỉ dùng khi 'will' mang nghĩa sẵn lòng/khăng khăng, không hợp ý 'lỡ có ai gọi'.",
+      "Sai — 'If anyone would call' không phải dạng chuẩn để nói khả năng thấp; would chỉ dùng để nhờ vả lịch sự.",
+      "Sai — 'is call' ghép 'is' với động từ nguyên mẫu, sai ngữ pháp (nếu dùng is phải là 'is calling' hoặc 'calls').",
+      "Đúng — 'If anyone should call' = nếu có ai lỡ gọi; should + V nói về khả năng thấp, mệnh đề chính là mệnh lệnh."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u2-were-to-should-happen-to",
+    "tags": [
+      "ca-u2-were-to-should-happen-to"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Tìm lỗi sai",
+    "prompt": "Chọn câu SAI ngữ pháp (ba câu còn lại đều đúng).",
+    "choices": [
+      "If it should rain, the match will be moved indoors.",
+      "If the board were to approve the plan, work would begin in May.",
+      "If you happen to pass the post office, please mail this.",
+      "If you happen to are free, call me."
+    ],
+    "correctIndex": 3,
+    "explanation": "Sau 'happen to' phải là động từ nguyên mẫu (happen to be), không phải 'are'. Ba câu còn lại đều đúng.",
+    "choiceExplanations": [
+      "Sai — đây không phải đáp án cần chọn vì câu này ĐÚNG ngữ pháp: If + should + V, mệnh đề chính dùng will.",
+      "Sai — đây không phải đáp án cần chọn vì câu này ĐÚNG ngữ pháp: were to + V đi với would.",
+      "Sai — đây không phải đáp án cần chọn vì câu này ĐÚNG ngữ pháp: happen to + V (pass), mệnh đề chính là mệnh lệnh.",
+      "Đúng — đây là câu SAI cần tìm: 'happen to are' sai vì sau 'to' phải là nguyên mẫu; câu đúng là 'happen to be free'."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u2-were-to-should-happen-to",
+    "tags": [
+      "ca-u2-were-to-should-happen-to"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If the committee should reject our request, we ______ appeal to the principal.",
+    "choices": [
+      "would have",
+      "are",
+      "will",
+      "had"
+    ],
+    "correctIndex": 2,
+    "explanation": "If + should + V: khả năng thật nhưng thấp, nên mệnh đề chính dùng will.",
+    "choiceExplanations": [
+      "Sai — 'would have appeal' sai dạng (would have + V3 mới đúng) và là giả định quá khứ, không hợp với 'should reject' nói về tương lai.",
+      "Sai — 'are appeal' ghép 'are' với nguyên mẫu, sai ngữ pháp.",
+      "Đúng — If … should + V (khả năng thật nhưng thấp) đi với mệnh đề chính dùng will.",
+      "Sai — 'had appeal' ghép 'had' với nguyên mẫu, sai ngữ pháp."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u2-were-to-should-happen-to",
+    "tags": [
+      "ca-u2-were-to-should-happen-to"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If we were to double the budget, the project ______ still not finish on time.",
+    "choices": [
+      "would",
+      "will",
+      "has",
+      "had"
+    ],
+    "correctIndex": 0,
+    "explanation": "If + were to + V thì mệnh đề chính dùng would.",
+    "choiceExplanations": [
+      "Đúng — 'were to' (giả định xa vời) đi với would: the project would still not finish on time.",
+      "Sai — 'will' là dự đoán thật, không khớp với giả định xa 'were to double'.",
+      "Sai — 'has finish' sai dạng: sau 'has' phải là V3 (has finished), và 'has' không hợp với giả định.",
+      "Sai — 'had finish' sai dạng: had + V3 mới đúng, và quá khứ hoàn thành không hợp ở đây."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u3-but-for-without",
+    "tags": [
+      "ca-u3-but-for-without"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ your help, I would never have finished the project.",
+    "choices": [
+      "But for",
+      "Except",
+      "Unless",
+      "Despite"
+    ],
+    "correctIndex": 0,
+    "explanation": "But for + danh từ = nếu không có.",
+    "choiceExplanations": [
+      "Đúng — 'But for your help' = nếu không có sự giúp đỡ của bạn.",
+      "Sai — 'Except' không mang nghĩa điều kiện.",
+      "Sai — 'Unless' + mệnh đề, không + danh từ.",
+      "Sai — 'Despite' = mặc dù, ngược nghĩa."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u3-but-for-without",
+    "tags": [
+      "ca-u3-but-for-without"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If it ______ for the lifeguard on duty that afternoon, the boy would have drowned.",
+    "choices": [
+      "wouldn't be",
+      "weren't",
+      "hasn't been",
+      "hadn't been"
+    ],
+    "correctIndex": 3,
+    "explanation": "Việc xảy ra trong quá khứ (that afternoon): if it hadn't been for + would have + V3.",
+    "choiceExplanations": [
+      "Sai — 'wouldn't be' là dạng của mệnh đề chính, không đứng trong mệnh đề if.",
+      "Sai — 'weren't for' nói về hiện tại hoặc tình huống chung, không hợp với sự việc xảy ra 'that afternoon'.",
+      "Sai — 'hasn't been for' thì hiện tại hoàn thành, không tạo thành cấu trúc 'if it … for'.",
+      "Đúng — 'If it hadn't been for' dùng cho quá khứ và đi với would have drowned."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u3-but-for-without",
+    "tags": [
+      "ca-u3-but-for-without"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ his long legs, he wouldn't be such a good runner.",
+    "choices": [
+      "If it hadn't been for",
+      "If it weren't for",
+      "Unless it were for",
+      "If it wouldn't be for"
+    ],
+    "correctIndex": 1,
+    "explanation": "Điều kiện về một đặc điểm hiện tại: if it weren't for.",
+    "choiceExplanations": [
+      "Sai — 'hadn't been for' dùng cho một việc đã xảy ra trong quá khứ, còn 'long legs' là đặc điểm hiện tại (wouldn't be).",
+      "Đúng — 'If it weren't for his long legs' nói về đặc điểm hiện tại, đi với wouldn't be.",
+      "Sai — 'Unless it were for' không phải cấu trúc có thật; unless không thay cho if it weren't for.",
+      "Sai — 'If it wouldn't be for' sai vì would không đứng trong mệnh đề if ở đây; phải là 'weren't'."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u3-but-for-without",
+    "tags": [
+      "ca-u3-but-for-without"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "But for the storm last Saturday, the match ______ on time.",
+    "choices": [
+      "would have started",
+      "would start",
+      "will start",
+      "had started"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sự kiện quá khứ (last Saturday): would have + V3.",
+    "choiceExplanations": [
+      "Đúng — 'last Saturday' là quá khứ nên dùng would have started.",
+      "Sai — 'would start' chỉ hiện tại/tương lai.",
+      "Sai — 'will start' sai thì.",
+      "Sai — 'had started' không phải dạng kết quả."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u3-but-for-without",
+    "tags": [
+      "ca-u3-but-for-without"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the generous donations we received last spring, the library would have closed by June.",
+    "choices": [
+      "Were it not for",
+      "Had it not been for",
+      "Hadn't it been for",
+      "It had not been for"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dạng trang trọng cho quá khứ: Had it not been for + danh từ, tương đương If it hadn't been for.",
+    "choiceExplanations": [
+      "Sai — 'Were it not for' tương đương 'If it weren't for', dùng cho hiện tại; ở đây sự việc 'last spring' là quá khứ.",
+      "Đúng — 'Had it not been for' = If it hadn't been for, dùng cho quá khứ và đi với would have closed.",
+      "Sai — 'Hadn't it been for' đảo ngữ sai: dạng đúng là 'Had it not been for' (not đứng sau chủ ngữ).",
+      "Sai — 'It had not been for' không đảo ngữ nên không thành mệnh đề điều kiện; cần 'Had it not been for'."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u3-but-for-without",
+    "tags": [
+      "ca-u3-but-for-without"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng (cấu trúc but for).",
+    "choices": [
+      "But for we received the funding, the observatory could never have been built.",
+      "But for the funding was received, the observatory could never have been built.",
+      "But for received the funding, the observatory could never have been built.",
+      "But for the funding we received, the observatory could never have been built."
+    ],
+    "correctIndex": 3,
+    "explanation": "But for + danh từ/cụm danh từ.",
+    "choiceExplanations": [
+      "Sai — sau 'But for' phải là danh từ/cụm danh từ, không phải mệnh đề đầy đủ 'we received the funding'.",
+      "Sai — 'the funding was received' là mệnh đề bị động đầy đủ, không đứng được sau 'But for'.",
+      "Sai — 'received the funding' là cụm động từ, không phải danh từ nên không đi sau 'But for'.",
+      "Đúng — 'the funding we received' là cụm danh từ (mệnh đề quan hệ rút gọn), đúng sau 'But for'."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u4-formal-connectors",
+    "tags": [
+      "ca-u4-formal-connectors"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You may use the lab after school ______ you sign the register.",
+    "choices": [
+      "in case",
+      "even though",
+      "whether",
+      "provided that"
+    ],
+    "correctIndex": 3,
+    "explanation": "Provided that = miễn là, với điều kiện là; sau đó dùng hiện tại đơn.",
+    "choiceExplanations": [
+      "Sai — 'in case' = phòng khi; việc ký sổ không phải để đề phòng điều gì, nên sai nghĩa.",
+      "Sai — 'even though' = mặc dù; câu thành 'dùng được dù bạn ký sổ', vô lý.",
+      "Sai — 'whether' phải đi cùng 'or not' (hoặc or + vế khác); đứng một mình không nối được hai vế này.",
+      "Đúng — 'Provided that you sign' = miễn là bạn ký sổ: điều kiện bắt buộc để được dùng phòng."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u4-formal-connectors",
+    "tags": [
+      "ca-u4-formal-connectors"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Take a jacket ______ it gets cold tonight.",
+    "choices": [
+      "as long as",
+      "in case",
+      "unless",
+      "providing"
+    ],
+    "correctIndex": 1,
+    "explanation": "In case = phòng khi: mang áo trước, để dự phòng.",
+    "choiceExplanations": [
+      "Sai — 'as long as' = miễn là; câu thành 'mang áo miễn là trời lạnh', mất ý đề phòng.",
+      "Đúng — 'in case it gets cold' = mang áo trước để phòng khi trời lạnh.",
+      "Sai — 'unless' = trừ khi; 'mang áo trừ khi trời lạnh' ngược nghĩa.",
+      "Sai — 'providing' cũng nghĩa là miễn là (và thường đi với 'that'), nên cùng lỗi nghĩa với 'as long as'."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u4-formal-connectors",
+    "tags": [
+      "ca-u4-formal-connectors"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We'll lend you the equipment on condition that you ______ it by Friday.",
+    "choices": [
+      "will return",
+      "returned",
+      "are returning",
+      "return"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sau on condition that nói về tương lai thì dùng hiện tại đơn, không dùng will.",
+    "choiceExplanations": [
+      "Sai — 'will return' sai vì không dùng will trong mệnh đề điều kiện.",
+      "Sai — 'returned' là quá khứ đơn, mâu thuẫn với 'by Friday' sắp tới.",
+      "Sai — 'are returning' là thì tiếp diễn, không tự nhiên cho điều kiện bắt buộc kiểu quy định.",
+      "Đúng — 'return' (hiện tại đơn) là dạng đúng sau on condition that."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u4-formal-connectors",
+    "tags": [
+      "ca-u4-formal-connectors"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you like it or not, the exam will take place on Monday.",
+    "choices": [
+      "Whether",
+      "If",
+      "Unless",
+      "Although"
+    ],
+    "correctIndex": 0,
+    "explanation": "Whether ... or not = dù có ... hay không.",
+    "choiceExplanations": [
+      "Đúng — 'Whether you like it or not' = dù bạn thích hay không, kết quả không đổi.",
+      "Sai — 'If you like it or not' không dùng được để mở đầu câu với nghĩa 'dù có'.",
+      "Sai — 'Unless' = trừ khi, và không đi với 'or not'.",
+      "Sai — 'Although' = mặc dù, không đi với 'or not' để tạo nghĩa 'dù có ... hay không'."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u4-formal-connectors",
+    "tags": [
+      "ca-u4-formal-connectors"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I don't think it will rain, but I'll take an umbrella ______.",
+    "choices": [
+      "in case that",
+      "if so",
+      "unless",
+      "just in case"
+    ],
+    "correctIndex": 3,
+    "explanation": "Just in case đứng cuối câu: phòng khi (có chuyện xảy ra).",
+    "choiceExplanations": [
+      "Sai — 'in case that' cần một mệnh đề theo sau, nên không đứng cuối câu được.",
+      "Sai — 'if so' = nếu vậy; không có điều gì ở trước để 'nếu vậy'.",
+      "Sai — 'unless' cần một mệnh đề đi sau; đứng cuối câu là sai.",
+      "Đúng — 'just in case' ở cuối câu = phòng khi, không cần mệnh đề theo sau."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u4-formal-connectors",
+    "tags": [
+      "ca-u4-formal-connectors"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the museum remains open late, we should be able to see the whole exhibit.",
+    "choices": [
+      "Whether",
+      "Providing that",
+      "Lest",
+      "Unless"
+    ],
+    "correctIndex": 1,
+    "explanation": "Providing that = miễn là: điều kiện cần để việc sau thành hiện thực.",
+    "choiceExplanations": [
+      "Sai — 'Whether' cần 'or not' hoặc vế đối lập.",
+      "Đúng — 'Providing that the museum remains open late' = miễn là bảo tàng mở cửa muộn.",
+      "Sai — 'Lest' = kẻo, để tránh; nghĩa phòng ngừa tiêu cực, không hợp câu này.",
+      "Sai — 'Unless' = trừ khi: câu thành 'trừ khi bảo tàng mở muộn, ta xem hết được', ngược nghĩa."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u4-formal-connectors",
+    "tags": [
+      "ca-u4-formal-connectors"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Suppose we hadn't found the key last night. What ______?",
+    "choices": [
+      "would we do",
+      "will we do",
+      "would we have done",
+      "did we do"
+    ],
+    "correctIndex": 2,
+    "explanation": "Suppose + quá khứ hoàn thành (hadn't found) → hỏi hệ quả bằng would have + V3.",
+    "choiceExplanations": [
+      "Sai — 'would we do' là câu hỏi cho hiện tại/tương lai, không hợp với 'last night'.",
+      "Sai — 'will we do' là điều kiện thật về tương lai, sai mốc.",
+      "Đúng — 'last night' + hadn't found → would we have done (giả thiết về quá khứ).",
+      "Sai — 'did we do' hỏi về sự việc có thật đã xảy ra, không phải giả thiết."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u5-otherwise-or-else",
+    "tags": [
+      "ca-u5-otherwise-or-else"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hurry up, ______ we'll miss the bus.",
+    "choices": [
+      "otherwise",
+      "unless",
+      "so",
+      "although"
+    ],
+    "correctIndex": 0,
+    "explanation": "Otherwise = nếu không thì.",
+    "choiceExplanations": [
+      "Đúng — 'otherwise' = nếu không (nhanh lên) thì sẽ lỡ xe buýt.",
+      "Sai — 'unless' = trừ khi, đảo nghĩa; hơn nữa unless nối mệnh đề trong cùng câu, không nối hệ quả như vậy.",
+      "Sai — 'so' chỉ kết quả, câu thành 'nhanh lên, vì vậy sẽ lỡ xe', vô lý về nghĩa.",
+      "Sai — 'although' = mặc dù, mâu thuẫn với ý cảnh báo."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u5-otherwise-or-else",
+    "tags": [
+      "ca-u5-otherwise-or-else"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You must save your work now, ______ you could lose everything.",
+    "choices": [
+      "and else",
+      "except",
+      "instead",
+      "or else"
+    ],
+    "correctIndex": 3,
+    "explanation": "Or else = nếu không thì, mang sắc thái cảnh báo.",
+    "choiceExplanations": [
+      "Sai — 'and else' không phải cụm có nghĩa trong tiếng Anh.",
+      "Sai — 'except' = ngoại trừ; không nối được hệ quả.",
+      "Sai — 'instead' = thay vào đó; không mang nghĩa điều kiện phủ định.",
+      "Đúng — 'or else' = nếu không lưu thì bạn có thể mất tất cả."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u5-otherwise-or-else",
+    "tags": [
+      "ca-u5-otherwise-or-else"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I took a taxi. ______, I would have missed my flight.",
+    "choices": [
+      "Unless",
+      "Otherwise",
+      "Whereas",
+      "Moreover"
+    ],
+    "correctIndex": 1,
+    "explanation": "Otherwise + would have + V3 nói về hệ quả nếu việc quá khứ không xảy ra.",
+    "choiceExplanations": [
+      "Sai — 'Unless' là liên từ nối trong một câu, không đứng đầu câu mới.",
+      "Đúng — 'Otherwise' = nếu không (đi taxi) thì đã lỡ chuyến bay.",
+      "Sai — 'Whereas' = trong khi (so sánh), không nêu hệ quả.",
+      "Sai — 'Moreover' = hơn nữa, thêm ý chứ không nêu hệ quả."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u5-otherwise-or-else",
+    "tags": [
+      "ca-u5-otherwise-or-else"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The soup was too salty, but ______ the dinner was excellent.",
+    "choices": [
+      "or else",
+      "unless",
+      "otherwise",
+      "else"
+    ],
+    "correctIndex": 2,
+    "explanation": "Otherwise còn có nghĩa: ngoài ra, về các mặt khác.",
+    "choiceExplanations": [
+      "Sai — 'or else' = nếu không thì, và theo sau cần hệ quả, không hợp 'was excellent'.",
+      "Sai — 'unless' = trừ khi, cần một mệnh đề có chủ ngữ và động từ.",
+      "Đúng — 'otherwise' = ngoài món súp ra thì bữa tối rất tuyệt.",
+      "Sai — 'else' không đứng một mình để nối ý như vậy."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u5-otherwise-or-else",
+    "tags": [
+      "ca-u5-otherwise-or-else"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Luckily, the alarm rang. Otherwise, we ______ the train.",
+    "choices": [
+      "will miss",
+      "would have missed",
+      "would miss",
+      "had missed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sự việc đã xảy ra trong quá khứ (the alarm rang) → hệ quả giả định: would have + V3.",
+    "choiceExplanations": [
+      "Sai — 'will miss' nói về tương lai, trong khi sự việc đã xong.",
+      "Đúng — 'would have missed' = nếu chuông không reo thì chúng tôi đã lỡ chuyến tàu.",
+      "Sai — 'would miss' chỉ hiện tại/tương lai chung, không khớp 'luckily, the alarm rang' đã xảy ra.",
+      "Sai — 'had missed' là quá khứ hoàn thành, không phải dạng kết quả giả định (cần would)."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u6-implicit-conditions",
+    "tags": [
+      "ca-u6-implicit-conditions"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A true friend ______ have lied to you.",
+    "choices": [
+      "didn't",
+      "hadn't",
+      "isn't",
+      "wouldn't"
+    ],
+    "correctIndex": 3,
+    "explanation": "Điều kiện ngầm ở chủ ngữ: A true friend = If he had been a true friend; kết quả là wouldn't have + V3.",
+    "choiceExplanations": [
+      "Sai — 'didn't have lied' sai dạng: sau 'didn't have' phải là nguyên mẫu, không phải V3.",
+      "Sai — 'hadn't have lied' sai dạng; quá khứ hoàn thành chỉ cần 'hadn't lied', và câu này cần would.",
+      "Sai — 'isn't have lied' sai ngữ pháp: is không đi với have + V3.",
+      "Đúng — 'wouldn't have lied' = nếu là người bạn thật thì đã không nói dối bạn (điều kiện ngầm ở chủ ngữ)."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u6-implicit-conditions",
+    "tags": [
+      "ca-u6-implicit-conditions"
+    ],
+    "difficulty": 2,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "To hear her sing, you ______ think she was a professional.",
+    "choices": [
+      "had",
+      "have",
+      "would",
+      "are"
+    ],
+    "correctIndex": 2,
+    "explanation": "'To hear her sing' ngầm là If you heard her sing; kết quả giả định dùng would.",
+    "choiceExplanations": [
+      "Sai — 'had think' sai dạng: had phải đi với V3 (had thought), và không có nghĩa giả định ở đây.",
+      "Sai — 'have think' sai dạng; sau 'you have' cần V3 (have thought) hoặc dạng khác, không phải nguyên mẫu.",
+      "Đúng — 'would think' = nếu nghe cô ấy hát thì bạn sẽ nghĩ cô ấy là người chuyên nghiệp.",
+      "Sai — 'are think' ghép 'are' với nguyên mẫu, sai ngữ pháp."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u6-implicit-conditions",
+    "tags": [
+      "ca-u6-implicit-conditions"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our model wasn't ready for the fair. With a little more time yesterday, we ______ it.",
+    "choices": [
+      "could finish",
+      "finished",
+      "could have finished",
+      "are finishing"
+    ],
+    "correctIndex": 2,
+    "explanation": "With a little more time = If we had had a little more time; 'yesterday' đòi could have + V3.",
+    "choiceExplanations": [
+      "Sai — 'could finish' chỉ khả năng hiện tại/tương lai, không khớp với 'yesterday'.",
+      "Sai — 'finished' khẳng định đã làm xong, trái với 'wasn't ready' và mất nghĩa điều kiện.",
+      "Đúng — 'could have finished' = đã có thể hoàn thành nếu có thêm thời gian; mốc quá khứ khớp 'yesterday'.",
+      "Sai — 'are finishing' là hiện tại tiếp diễn, sai mốc 'yesterday' và sai nghĩa điều kiện."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u6-implicit-conditions",
+    "tags": [
+      "ca-u6-implicit-conditions"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Anyone ______ the two paintings side by side would notice the difference.",
+    "choices": [
+      "seeing",
+      "saw",
+      "to saw",
+      "seen"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Anyone seeing' ngầm là Anyone who saw / If anyone saw.",
+    "choiceExplanations": [
+      "Đúng — 'Anyone seeing' = Anyone who saw / If anyone saw; phân từ hiện tại chủ động rút gọn mệnh đề quan hệ mang nghĩa điều kiện.",
+      "Sai — 'Anyone saw' có hai động từ chia (saw và would notice) mà không có từ nối nên sai; cần 'Anyone who saw'.",
+      "Sai — 'to saw' không tồn tại vì sau 'to' phải là nguyên mẫu (to see).",
+      "Sai — 'Anyone seen' mang nghĩa bị động (người bị nhìn), trong khi người xem mới là chủ động."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u6-implicit-conditions",
+    "tags": [
+      "ca-u6-implicit-conditions"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Left to himself, the puppy ______ chew the cushion to pieces.",
+    "choices": [
+      "would",
+      "has",
+      "is",
+      "had"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Left to himself' = If he were left to himself; kết quả giả định dùng would.",
+    "choiceExplanations": [
+      "Đúng — 'would chew' = nếu bị bỏ mặc, chú chó con sẽ nhai nát chiếc gối.",
+      "Sai — 'has chew' sai dạng: sau 'has' phải là V3 (has chewed), và không diễn đạt giả định.",
+      "Sai — 'is chew' ghép 'is' với nguyên mẫu, sai ngữ pháp.",
+      "Sai — 'had chew' sai dạng: had phải đi với V3 (had chewed), và không diễn đạt giả định."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u6-implicit-conditions",
+    "tags": [
+      "ca-u6-implicit-conditions"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In your position, I ______ ask for a second opinion.",
+    "choices": [
+      "will",
+      "would",
+      "had",
+      "have"
+    ],
+    "correctIndex": 1,
+    "explanation": "'In your position' = If I were in your position → would + V.",
+    "choiceExplanations": [
+      "Sai — 'will ask' nói như thể bạn thật sự ở vị trí đó và mất nghĩa giả định ('In your position' = nếu tôi ở vị trí bạn).",
+      "Đúng — 'would ask' = nếu ở vị trí bạn thì tôi sẽ xin ý kiến thứ hai.",
+      "Sai — 'had ask' sai dạng: had phải đi với V3 (had asked).",
+      "Sai — 'have ask' sai dạng: sau 'I have' phải là V3 (have asked)."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u7-will-would-in-if-clause",
+    "tags": [
+      "ca-u7-will-would-in-if-clause"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'd be grateful if you ______ send me the file by noon.",
+    "choices": [
+      "are",
+      "were",
+      "would",
+      "had"
+    ],
+    "correctIndex": 2,
+    "explanation": "If you would + V = lời đề nghị lịch sự (xin vui lòng).",
+    "choiceExplanations": [
+      "Sai — 'if you are send' ghép 'are' với nguyên mẫu, sai ngữ pháp.",
+      "Sai — 'if you were send' ghép 'were' với nguyên mẫu, sai ngữ pháp.",
+      "Đúng — 'if you would send' là cách lịch sự để nhờ vả (would = vui lòng).",
+      "Sai — 'if you had send' sai dạng (had sent mới đúng) và là giả định quá khứ, không phải lời nhờ vả."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u7-will-would-in-if-clause",
+    "tags": [
+      "ca-u7-will-would-in-if-clause"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu ĐÚNG.",
+    "choices": [
+      "If it will rain tomorrow, we'll stay in.",
+      "If I will pass the test, I'll buy a bike.",
+      "If she will win the prize, she'll share it.",
+      "If it will make you feel better, I'll apologize."
+    ],
+    "correctIndex": 3,
+    "explanation": "Will trong mệnh đề if chỉ đúng khi nó diễn đạt kết quả (nếu việc đó sẽ làm bạn khá hơn).",
+    "choiceExplanations": [
+      "Sai — chỉ là tương lai đơn thuần của thời tiết; phải dùng 'If it rains'.",
+      "Sai — phải là 'If I pass the test'.",
+      "Sai — phải là 'If she wins the prize'.",
+      "Đúng — 'will make you feel better' là kết quả của hành động xin lỗi."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u7-will-would-in-if-clause",
+    "tags": [
+      "ca-u7-will-would-in-if-clause"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If you ______ stay up so late every night, it's no wonder you're tired.",
+    "choices": [
+      "are",
+      "have",
+      "will",
+      "being"
+    ],
+    "correctIndex": 2,
+    "explanation": "If you will + V = nếu bạn cứ nhất định (thường hơi bực).",
+    "choiceExplanations": [
+      "Sai — 'are stay up' ghép 'are' với nguyên mẫu; muốn dùng 'are' phải là 'are staying up'.",
+      "Sai — 'have stay up' sai dạng (have stayed up mới đúng) và không mang nghĩa khăng khăng.",
+      "Đúng — 'If you will stay up' = nếu bạn cứ nhất định thức khuya; will nhấn mạnh thói quen cố chấp, giọng hơi bực.",
+      "Sai — 'being stay up' không phải dạng động từ chia, nên không thành mệnh đề if."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u7-will-would-in-if-clause",
+    "tags": [
+      "ca-u7-will-would-in-if-clause"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "If you ______ like to join us, there is a free seat.",
+    "choices": [
+      "will",
+      "would",
+      "did",
+      "are"
+    ],
+    "correctIndex": 1,
+    "explanation": "If you would like to = lịch sự (nếu bạn muốn).",
+    "choiceExplanations": [
+      "Sai — 'will like to' không dùng được ở đây: để mời lịch sự phải dùng 'would like to'.",
+      "Đúng — 'If you would like to join us' là cách mời lịch sự cố định (would like = muốn).",
+      "Sai — 'did like to' là quá khứ, không phải lời mời lịch sự ở hiện tại.",
+      "Sai — 'are like to' sai ngữ pháp, không tạo thành cấu trúc hợp lệ."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u7-will-would-in-if-clause",
+    "tags": [
+      "ca-u7-will-would-in-if-clause"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng (would trong mệnh đề if).",
+    "choices": [
+      "If you would be so kind as to wait, the doctor will see you soon.",
+      "If it would rain tomorrow, we will stay in.",
+      "If I would be you, I would go.",
+      "If the temperature would drop tonight, the pipes will freeze."
+    ],
+    "correctIndex": 0,
+    "explanation": "Would trong mệnh đề if chỉ dùng cho lời đề nghị lịch sự (would be so kind as to…). Với sự việc thông thường, dùng thì hiện tại đơn.",
+    "choiceExplanations": [
+      "Đúng — 'If you would be so kind as to wait' là lời đề nghị lịch sự, would ở đây mang nghĩa vui lòng.",
+      "Sai — thời tiết không có 'ý muốn', nên would không hợp trong mệnh đề if; phải là 'If it rains tomorrow'.",
+      "Sai — với giả định không có thật về bản thân, dùng 'If I were you', không dùng 'would be'.",
+      "Sai — nhiệt độ không có 'ý muốn', would không đứng trong mệnh đề if; phải là 'If the temperature drops tonight'."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u8-elliptical-embedded",
+    "tags": [
+      "ca-u8-elliptical-embedded"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Few students, ______ any, finished the whole book.",
+    "choices": [
+      "when",
+      "unless",
+      "if",
+      "though"
+    ],
+    "correctIndex": 2,
+    "explanation": "Few, if any = rất ít, nếu có.",
+    "choiceExplanations": [
+      "Sai — 'when any' không phải cụm có nghĩa; cụm cố định là 'if any'.",
+      "Sai — 'unless any' không tạo thành cụm hợp lệ, và nghĩa 'trừ khi' không hợp.",
+      "Đúng — 'Few …, if any, …' = rất ít, nếu có.",
+      "Sai — 'though any' không phải cụm hợp lệ; chỉ 'if any' mới có nghĩa 'nếu có'."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u8-elliptical-embedded",
+    "tags": [
+      "ca-u8-elliptical-embedded"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He rarely, ______ ever, arrives on time.",
+    "choices": [
+      "if",
+      "when",
+      "than",
+      "unless"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rarely, if ever = hiếm khi, nếu có bao giờ.",
+    "choiceExplanations": [
+      "Đúng — 'rarely, if ever' = hiếm khi, nếu có bao giờ.",
+      "Sai — 'when ever' không phải cụm cố định có nghĩa này.",
+      "Sai — 'than ever' chỉ dùng trong so sánh (better than ever), không đi với rarely.",
+      "Sai — 'unless ever' không tạo thành cụm hợp lệ."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u8-elliptical-embedded",
+    "tags": [
+      "ca-u8-elliptical-embedded"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please bring your passport. ______ not, you will not be allowed to board.",
+    "choices": [
+      "If",
+      "Unless",
+      "When",
+      "Whether"
+    ],
+    "correctIndex": 0,
+    "explanation": "If not = nếu không thì.",
+    "choiceExplanations": [
+      "Đúng — 'If not' = nếu bạn không mang (hộ chiếu), bạn sẽ không được lên máy bay.",
+      "Sai — 'Unless not' là phủ định kép, sai ngữ pháp; unless đã mang nghĩa phủ định.",
+      "Sai — 'When not' không mang nghĩa điều kiện ở đây.",
+      "Sai — 'Whether not' không tạo thành cấu trúc hợp lệ; whether cần đi với 'or not'."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u8-elliptical-embedded",
+    "tags": [
+      "ca-u8-elliptical-embedded"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We will stay in the cabin, ______ necessary, until the storm passes.",
+    "choices": [
+      "since",
+      "than",
+      "despite",
+      "if"
+    ],
+    "correctIndex": 3,
+    "explanation": "If necessary = nếu cần.",
+    "choiceExplanations": [
+      "Sai — 'since necessary' không phải cụm hợp lệ.",
+      "Sai — 'than necessary' chỉ dùng sau so sánh (longer than necessary), không đứng ở vị trí này.",
+      "Sai — 'despite necessary' sai vì despite phải đi với danh từ/V-ing, không đi với tính từ.",
+      "Đúng — 'if necessary' = nếu cần thiết, một cụm điều kiện rút gọn."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u8-elliptical-embedded",
+    "tags": [
+      "ca-u8-elliptical-embedded"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Any student who ______ be absent on the day of the exam must inform the office in advance.",
+    "choices": [
+      "being",
+      "should",
+      "were",
+      "has"
+    ],
+    "correctIndex": 1,
+    "explanation": "Who should + V trong văn trang trọng: lỡ (có ai) vắng.",
+    "choiceExplanations": [
+      "Sai — 'who being be' sai ngữ pháp.",
+      "Đúng — 'who should be absent' = ai lỡ vắng mặt, dạng trang trọng cho khả năng thấp.",
+      "Sai — 'who were be absent' ghép 'were' với nguyên mẫu; muốn dùng were phải là 'were to be'.",
+      "Sai — 'who has be absent' sai dạng (has been mới đúng) và không mang nghĩa giả định."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u8-elliptical-embedded",
+    "tags": [
+      "ca-u8-elliptical-embedded"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The new bridge, ______ completed on time, will open to traffic in May.",
+    "choices": [
+      "if",
+      "unless",
+      "lest",
+      "whereas"
+    ],
+    "correctIndex": 0,
+    "explanation": "If completed on time = nếu hoàn thành đúng hạn.",
+    "choiceExplanations": [
+      "Đúng — 'if completed on time' = nếu được hoàn thành đúng hạn (điều kiện rút gọn).",
+      "Sai — 'unless completed on time' nghĩa 'trừ khi hoàn thành', ngược lại với ý câu.",
+      "Sai — 'lest' = kẻo, để tránh, không hợp nghĩa.",
+      "Sai — 'whereas' = trong khi (đối lập), không phải điều kiện."
+    ]
+  },
+  {
+    "id": "en-conditionals-advanced-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "conditionals-advanced",
+    "usageId": "ca-u8-elliptical-embedded",
+    "tags": [
+      "ca-u8-elliptical-embedded"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm not tired. ______, I feel more energetic than this morning.",
+    "choices": [
+      "Unless anything",
+      "If anything",
+      "When anything",
+      "Whether anything"
+    ],
+    "correctIndex": 1,
+    "explanation": "If anything = nếu nói đúng ra thì.",
+    "choiceExplanations": [
+      "Sai — 'Unless anything' không phải cụm hợp lệ.",
+      "Đúng — 'If anything' = nếu nói đúng ra thì (thậm chí còn hơn).",
+      "Sai — 'When anything' không phải cụm hợp lệ.",
+      "Sai — 'Whether anything' không phải cụm hợp lệ."
+    ]
+  }
+]

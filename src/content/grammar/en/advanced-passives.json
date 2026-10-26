@@ -1,0 +1,370 @@
+{
+  "id": "advanced-passives",
+  "language": "en",
+  "title": "Bị động nâng cao (Advanced Passives)",
+  "levels": [
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "order": 33,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "ap-u1-reporting",
+        "bac": 5,
+        "label": "Bị động tường thuật nâng cao: is said to be / to be doing / to have done",
+        "explanationVi": "Với các động từ say, think, believe, know, report, understand, consider, expect, ta có hai kiểu: It is said that + mệnh đề, hoặc đưa chủ ngữ của mệnh đề sau lên đầu: S + is/was said + to-V. Dạng của to-V cho biết thời điểm của hành động so với lúc 'nói/tin': to be / to do (cùng lúc hoặc sau), to be doing (đang diễn ra), to have done (đã xảy ra trước), to have been doing (đã và đang kéo dài). Nếu động từ tường thuật ở quá khứ (was believed), to be vẫn chỉ cùng lúc với lúc người ta tin, còn to have done chỉ việc xảy ra trước lúc đó. Khi chủ ngữ thật của hành động là vật, bị động tiếp tục xuất hiện ở nguyên thể: is believed to have been painted. Cấu trúc There is said to be + danh từ dùng be theo danh từ thật phía sau (There are said to be two exits). Động từ nội động như die, happen, arrive không có dạng bị động nên nguyên thể vẫn là chủ động: to have died.",
+        "examples": [
+          {
+            "en": "The lighthouse is said to be more than a century old.",
+            "vi": "Ngọn hải đăng được cho là đã hơn một thế kỷ tuổi."
+          },
+          {
+            "en": "The missing hiker is thought to be sheltering in a cave.",
+            "vi": "Người đi bộ mất tích được cho là đang trú trong một cái hang."
+          },
+          {
+            "en": "The painting is believed to have been painted in the 1600s.",
+            "vi": "Bức tranh được cho là đã được vẽ vào thế kỷ 17."
+          }
+        ]
+      },
+      {
+        "id": "ap-u2-aspect-modal",
+        "bac": 5,
+        "label": "Bị động tiếp diễn, hoàn thành và với động từ khuyết thiếu",
+        "explanationVi": "Bị động được xây bằng be + V3, trong đó be mang thì và thể: tiếp diễn là am/is/are/was/were being + V3 (The stage was being set up); hoàn thành là has/have/had been + V3 và will have been + V3 (The stadium will have been completed by summer); modal là modal + be + V3, modal ở quá khứ là modal + have been + V3 (The damage could have been avoided). Khi muốn nhấn mạnh việc đang diễn ra mà vẫn dùng modal, có dạng modal + be being + V3 (It must be being repaired: chắc là đang được sửa). Lưu ý: thể hoàn thành tiếp diễn bị động (has been being repaired) cực kỳ hiếm và nặng nề, nên người bản ngữ thường đổi cách nói (has been under repair, has been repaired). Những dạng này thường gặp trong tin tức và văn viết học thuật.",
+        "examples": [
+          {
+            "en": "The exam papers are being marked at the moment.",
+            "vi": "Bài thi đang được chấm vào lúc này."
+          },
+          {
+            "en": "By the time the rescuers arrived, the village had already been evacuated.",
+            "vi": "Khi đội cứu hộ đến thì ngôi làng đã được sơ tán."
+          },
+          {
+            "en": "I can hear hammering, so the attic must be being renovated.",
+            "vi": "Tôi nghe tiếng búa nên chắc gác mái đang được sửa."
+          }
+        ]
+      },
+      {
+        "id": "ap-u3-nonfinite",
+        "bac": 5,
+        "label": "Bị động ở nguyên thể và V-ing: to be done, being done, having been done",
+        "explanationVi": "Nguyên thể bị động là to be + V3 (She hopes to be chosen); nguyên thể hoàn thành bị động là to have been + V3 (He seems to have been forgotten). Sau enjoy, avoid, resent, remember, deny, giới từ (the idea of), dùng V-ing bị động: being + V3 hoặc having been + V3 khi việc xảy ra trước (He denied having been seen). Cụm phân từ hoàn thành bị động Having been told ... diễn tả việc đã xảy ra trước hành động chính, và chủ ngữ của hai vế phải là một. Cấu trúc be + to be + V3 diễn tả kế hoạch hoặc mệnh lệnh (The gym is to be demolished next month). Bẫy thường gặp: deny, admit, resent đi với V-ing, không đi với to-V; remember + V-ing nói việc đã xảy ra trong quá khứ.",
+        "examples": [
+          {
+            "en": "She hates being interrupted when she is speaking.",
+            "vi": "Cô ấy ghét bị ngắt lời khi đang nói."
+          },
+          {
+            "en": "Having been told twice that the flight was canceled, we went home.",
+            "vi": "Đã được báo hai lần rằng chuyến bay bị hủy, chúng tôi đi về nhà."
+          },
+          {
+            "en": "The old gym is to be demolished next month.",
+            "vi": "Nhà thể chất cũ sẽ bị phá vào tháng tới."
+          }
+        ]
+      },
+      {
+        "id": "ap-u4-causative",
+        "bac": 5,
+        "label": "Nhờ làm hộ và gặp chuyện: have / get something done",
+        "explanationVi": "Cấu trúc have/get + vật + V3 có hai nghĩa. (1) Nhờ hoặc thuê người khác làm: I had my bike repaired (không phải tự sửa). (2) Gặp chuyện, thường không may: She had her wallet stolen (không ai được nhờ). Get thân mật hơn và nhấn mạnh sự cố gắng hoàn tất: We must get the report finished by Friday. Ở cấu trúc chủ động tương ứng, have + người + động từ nguyên không to (The teacher had the students read aloud), còn get + người + to-V (She got him to help). Với will not / won't have, nghĩa là không chấp nhận: I won't have rude comments made here. Giữ nguyên thứ tự: chủ thể bị tác động đứng ngay sau have/get, rồi mới đến V3.",
+        "examples": [
+          {
+            "en": "We are having the house painted next week.",
+            "vi": "Tuần sau chúng tôi sẽ thuê người sơn nhà."
+          },
+          {
+            "en": "He had his bike stolen outside the library.",
+            "vi": "Anh ấy bị mất xe đạp ngay trước thư viện."
+          },
+          {
+            "en": "I won't have my time wasted.",
+            "vi": "Tôi sẽ không để thời gian của mình bị lãng phí."
+          }
+        ]
+      },
+      {
+        "id": "ap-u5-get-passive",
+        "bac": 5,
+        "label": "Bị động với get: sắc thái và hạn chế",
+        "explanationVi": "Get + V3 (The window got broken) thường dùng khi nói chuyện thân mật, về điều bất ngờ, không dự tính, hoặc một thay đổi (get lost, get married, get dressed, get injured, get told off). Get-passive cũng tự nhiên với việc lặp lại hằng ngày mang tính thông tin (The trash gets collected on Mondays). Be + V3 trung tính hơn và trang trọng hơn, đặc biệt trong văn viết. Get-passive không dùng với động từ chỉ trạng thái như own, know, love, need, see (nói The house is owned by ..., không nói gets owned), và không hợp với sự việc có kế hoạch trang trọng hoặc sự kiện lịch sử (The school was founded in 1890). Get-passive có thể dùng với by + người làm, nhưng ít tự nhiên hơn khi nhấn mạnh người làm.",
+        "examples": [
+          {
+            "en": "Several players got injured during the match.",
+            "vi": "Vài cầu thủ bị thương trong trận đấu."
+          },
+          {
+            "en": "The old library is owned by the city council.",
+            "vi": "Thư viện cũ thuộc sở hữu của hội đồng thành phố."
+          },
+          {
+            "en": "She got told off for arriving late again.",
+            "vi": "Cô ấy bị mắng vì lại đến muộn."
+          }
+        ]
+      },
+      {
+        "id": "ap-u6-verb-patterns",
+        "bac": 5,
+        "label": "Bị động với động từ hai tân ngữ và động từ không có tân ngữ gián tiếp",
+        "explanationVi": "Với give, send, show, lend, buy, tell, teach, tân ngữ chỉ người hoặc tân ngữ chỉ vật đều lên làm chủ ngữ được (She was shown the way / The way was shown to her). Với bị động tân ngữ vật, người nhận cần có to hoặc for: buy, make, cook đi với for (A bouquet was bought for her). Nhưng explain, suggest, announce, describe, say, mention, report không có tân ngữ chỉ người liền sau, nên người nhận không thể làm chủ ngữ bị động: nói It was explained to us that ... chứ không nói We were explained ... Động từ refuse, deny có hai tân ngữ và khi bị động giữ lại tân ngữ vật (He was refused entry / He was denied entry). Với show around, giữ nguyên phần đi kèm (They were shown around).",
+        "examples": [
+          {
+            "en": "She was shown the way to the station.",
+            "vi": "Cô ấy được chỉ đường tới nhà ga."
+          },
+          {
+            "en": "The rules were explained to us by the referee.",
+            "vi": "Các luật được trọng tài giải thích cho chúng tôi."
+          },
+          {
+            "en": "He was refused entry because he had no ticket.",
+            "vi": "Anh ấy bị từ chối cho vào vì không có vé."
+          }
+        ]
+      },
+      {
+        "id": "ap-u7-need-ing",
+        "bac": 4,
+        "label": "need / require + V-ing hoặc to be done (nghĩa bị động)",
+        "explanationVi": "Khi chủ ngữ là vật cần được làm gì đó, ta dùng need + V-ing hoặc need + to be + V3 với nghĩa bị động và hai cách này gần như đồng nghĩa: The car needs washing = The car needs to be washed. Không dùng need + to-V chủ động (The car needs to wash là sai nghĩa vì xe không tự rửa). Nếu động từ đi với giới từ, giữ nguyên giới từ: needs disposing of. Trong tiếng Anh Anh còn dùng want với nghĩa này (It wants tidying) nhưng Anh-Mỹ ít nói; require và deserve cũng có thể đi với V-ing bị động trong văn viết.",
+        "examples": [
+          {
+            "en": "My bike's brakes need replacing.",
+            "vi": "Phanh xe đạp của tôi cần được thay."
+          },
+          {
+            "en": "The grass needs to be cut before the party.",
+            "vi": "Cỏ cần được cắt trước bữa tiệc."
+          },
+          {
+            "en": "These batteries need disposing of safely.",
+            "vi": "Những cục pin này cần được vứt bỏ an toàn."
+          }
+        ]
+      },
+      {
+        "id": "ap-u8-science-style",
+        "bac": 6,
+        "label": "Bị động trong văn phong khoa học và trang trọng",
+        "explanationVi": "Văn khoa học dùng bị động để tập trung vào việc làm và kết quả, vì người làm không quan trọng hoặc đã rõ: The samples were weighed and the results were recorded. Dùng It + be + V3 + that (It has been shown that ...) để nêu kết luận khách quan, và Further research is needed để kết thúc phần tóm tắt (đây là bị động hiện tại đơn). Phân từ bị động rút gọn như Heated gently, the mixture turns blue có chủ ngữ phải chính là vật bị làm (không viết Heating gently, the mixture...). Nhưng đừng lạm dụng: khi người làm quan trọng hoặc khi bị động làm câu mơ hồ, hãy dùng chủ động. Văn nói và bài viết thân mật nên tránh kiểu bị động nặng nề này.",
+        "examples": [
+          {
+            "en": "The water was heated to 100°C and then allowed to cool.",
+            "vi": "Nước được đun tới 100°C rồi để nguội."
+          },
+          {
+            "en": "It has been shown that regular sleep improves memory.",
+            "vi": "Đã có chứng minh rằng ngủ đều đặn giúp cải thiện trí nhớ."
+          },
+          {
+            "en": "Heated gently, the mixture turns blue.",
+            "vi": "Khi được đun nhẹ, hỗn hợp chuyển màu xanh."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "is said / believed / thought to",
+        "meaningVi": "được cho là / tin rằng"
+      },
+      {
+        "word": "is reported / known / expected to",
+        "meaningVi": "được báo cáo / biết / kỳ vọng"
+      },
+      {
+        "word": "to have been + V3",
+        "meaningVi": "đã được (làm xong trước đó)"
+      },
+      {
+        "word": "is/are/was being + V3",
+        "meaningVi": "đang được (làm)"
+      },
+      {
+        "word": "will have been + V3",
+        "meaningVi": "sẽ đã được làm xong"
+      },
+      {
+        "word": "having been + V3",
+        "meaningVi": "sau khi đã được"
+      },
+      {
+        "word": "have/get + vật + V3",
+        "meaningVi": "nhờ làm hộ / gặp chuyện"
+      },
+      {
+        "word": "get + V3 (get lost, get injured)",
+        "meaningVi": "bị / trở nên (thân mật)"
+      },
+      {
+        "word": "need + V-ing",
+        "meaningVi": "cần được"
+      },
+      {
+        "word": "It has been shown that",
+        "meaningVi": "đã có chứng minh rằng"
+      },
+      {
+        "word": "Further research is needed",
+        "meaningVi": "cần có thêm nghiên cứu"
+      }
+    ],
+    "formulas": {
+      "reporting": "S + is/was said/believed/thought + to be (+V-ing) | to have + V3 | to have been + V3 (bị động). Ví dụ: The painting is believed to have been painted in the 1600s.",
+      "aspect": "am/is/are/was/were being + V3 | has/have/had been + V3 | will have been + V3 | modal + be/have been + V3 | modal + be being + V3.",
+      "nonfinite": "to be + V3 | to have been + V3 | being + V3 | having been + V3. Ví dụ: Having been told twice, we left.",
+      "causative": "have/get + vật + V3 (nhờ hoặc gặp chuyện); have + người + V (nguyên); get + người + to-V.",
+      "get": "get + V3: The window got broken. Không dùng với động từ trạng thái (own, know, love...).",
+      "need": "need + V-ing = need + to be + V3: The car needs washing.",
+      "science": "It has been shown that ... | The samples were weighed ... | Heated gently, the mixture turns blue."
+    },
+    "commonMistakes": [
+      {
+        "id": "advanced-passives-m1",
+        "description": "Dùng sai dạng nguyên thể sau động từ tường thuật bị động: đánh đồng to be và to have been, hoặc thêm that vào cấu trúc có chủ ngữ đã đưa lên đầu.",
+        "examples": [
+          {
+            "wrong": "Dinosaurs are believed to die out long ago.",
+            "correct": "Dinosaurs are believed to have died out long ago."
+          },
+          {
+            "wrong": "He is said that he is the best player.",
+            "correct": "He is said to be the best player."
+          }
+        ],
+        "usageIds": [
+          "ap-u1-reporting"
+        ]
+      },
+      {
+        "id": "advanced-passives-m2",
+        "description": "Quên be của bị động khi kết hợp với modal, thể tiếp diễn hoặc hoàn thành (thiếu been, being).",
+        "examples": [
+          {
+            "wrong": "The damage could have avoided.",
+            "correct": "The damage could have been avoided."
+          },
+          {
+            "wrong": "The papers are marking at the moment.",
+            "correct": "The papers are being marked at the moment."
+          }
+        ],
+        "usageIds": [
+          "ap-u2-aspect-modal"
+        ]
+      },
+      {
+        "id": "advanced-passives-m3",
+        "description": "Dùng sai dạng V-ing/nguyên thể bị động sau deny, enjoy, resent, giới từ hoặc remember.",
+        "examples": [
+          {
+            "wrong": "He denied to have been seen.",
+            "correct": "He denied having been seen."
+          },
+          {
+            "wrong": "I remember to be given a bike.",
+            "correct": "I remember being given a bike."
+          }
+        ],
+        "usageIds": [
+          "ap-u3-nonfinite"
+        ]
+      },
+      {
+        "id": "advanced-passives-m4",
+        "description": "Nhầm cấu trúc have/get something done với have + người + động từ, hoặc thiếu V3.",
+        "examples": [
+          {
+            "wrong": "I had my bike repair.",
+            "correct": "I had my bike repaired."
+          },
+          {
+            "wrong": "The teacher had the students to read.",
+            "correct": "The teacher had the students read."
+          }
+        ],
+        "usageIds": [
+          "ap-u4-causative"
+        ]
+      },
+      {
+        "id": "advanced-passives-m5",
+        "description": "Dùng get-passive với động từ trạng thái hoặc sự kiện có kế hoạch trang trọng.",
+        "examples": [
+          {
+            "wrong": "The library gets owned by the council.",
+            "correct": "The library is owned by the council."
+          },
+          {
+            "wrong": "The school got founded in 1890.",
+            "correct": "The school was founded in 1890."
+          }
+        ],
+        "usageIds": [
+          "ap-u5-get-passive"
+        ]
+      },
+      {
+        "id": "advanced-passives-m6",
+        "description": "Đưa người nhận lên làm chủ ngữ bị động với explain, suggest, announce; hoặc dùng sai giới từ to/for.",
+        "examples": [
+          {
+            "wrong": "We were explained the rules.",
+            "correct": "The rules were explained to us."
+          },
+          {
+            "wrong": "A bouquet was bought to the teacher.",
+            "correct": "A bouquet was bought for the teacher."
+          }
+        ],
+        "usageIds": [
+          "ap-u6-verb-patterns"
+        ]
+      },
+      {
+        "id": "advanced-passives-m7",
+        "description": "Dùng need + to-V chủ động cho vật cần được làm; quên giới từ đi kèm động từ.",
+        "examples": [
+          {
+            "wrong": "The car needs to wash.",
+            "correct": "The car needs washing."
+          },
+          {
+            "wrong": "The batteries need disposing.",
+            "correct": "The batteries need disposing of."
+          }
+        ],
+        "usageIds": [
+          "ap-u7-need-ing"
+        ]
+      },
+      {
+        "id": "advanced-passives-m8",
+        "description": "Phân từ bị động rút gọn bị treo chủ ngữ, hoặc dùng văn khoa học nhưng chia sai bị động.",
+        "examples": [
+          {
+            "wrong": "Heating gently, the mixture turns blue.",
+            "correct": "Heated gently, the mixture turns blue."
+          },
+          {
+            "wrong": "It has shown that regular sleep improves memory.",
+            "correct": "It has been shown that regular sleep improves memory."
+          }
+        ],
+        "usageIds": [
+          "ap-u8-science-style",
+          "ap-u3-nonfinite"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "en-discourse-linking-advanced-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u1-concession-adverbs",
+    "tags": [
+      "dl-u1-concession-adverbs"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The experiment failed twice. ______, the team decided to try a third time.",
+    "choices": [
+      "Nevertheless",
+      "Because",
+      "Whereas",
+      "Unless"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nevertheless là trạng từ nối chỉ sự tương phản bất ngờ. Hai ý trái với mong đợi (thất bại hai lần nhưng vẫn thử lại), Nevertheless diễn đạt đúng 'tuy vậy'.",
+    "choiceExplanations": [
+      "Đúng — Hai ý trái với mong đợi (thất bại hai lần nhưng vẫn thử lại), Nevertheless diễn đạt đúng 'tuy vậy'.",
+      "Sai — Because là liên từ chỉ nguyên nhân và không đứng đầu câu độc lập như một trạng từ nối; nghĩa cũng sai.",
+      "Sai — Whereas đối chiếu hai sự việc trong cùng một câu, không dùng làm trạng từ nối đầu câu như thế này.",
+      "Sai — Unless chỉ điều kiện phủ định ('trừ khi'), không đúng nghĩa."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u1-concession-adverbs",
+    "tags": [
+      "dl-u1-concession-adverbs"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The test was hard. We enjoyed it, ______.",
+    "choices": [
+      "therefore",
+      "nonetheless",
+      "instead",
+      "furthermore"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nonetheless có thể đứng đầu, giữa hoặc cuối câu. Nonetheless đứng cuối câu, sau dấu phẩy, nghĩa là 'dù vậy', hợp với ý tương phản.",
+    "choiceExplanations": [
+      "Sai — Therefore chỉ kết quả, không hợp nghĩa 'khó nhưng vẫn thích'.",
+      "Đúng — Nonetheless đứng cuối câu, sau dấu phẩy, nghĩa là 'dù vậy', hợp với ý tương phản.",
+      "Sai — Instead nghĩa là 'thay vào đó', không nêu sự nhượng bộ.",
+      "Sai — Furthermore chỉ thêm ý cùng chiều, không phải tương phản."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u1-concession-adverbs",
+    "tags": [
+      "dl-u1-concession-adverbs"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He accepted the offer, ______ with some reluctance.",
+    "choices": [
+      "despite",
+      "because",
+      "albeit",
+      "whereas"
+    ],
+    "correctIndex": 2,
+    "explanation": "Albeit dùng trước tính từ, trạng từ hoặc cụm ngắn, không trước mệnh đề. Albeit (= although it was) đứng trước cụm ngắn 'with some reluctance'.",
+    "choiceExplanations": [
+      "Sai — Despite + cụm giới từ 'with some reluctance' không đúng; despite cần danh từ hoặc V-ing, và nghĩa cũng không khớp.",
+      "Sai — Because tạo quan hệ nguyên nhân, và không đi trước cụm giới từ ngắn như vậy.",
+      "Đúng — Albeit (= although it was) đứng trước cụm ngắn 'with some reluctance'.",
+      "Sai — Whereas là liên từ nối hai mệnh đề đối chiếu, không đứng trước cụm giới từ 'with some reluctance'."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u1-concession-adverbs",
+    "tags": [
+      "dl-u1-concession-adverbs"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The results were disappointing. The researchers, ______, published their findings.",
+    "choices": [
+      "therefore",
+      "meanwhile",
+      "moreover",
+      "nevertheless"
+    ],
+    "correctIndex": 3,
+    "explanation": "Trạng từ nối đứng giữa câu thường có dấu phẩy hai bên. Ở đây Nevertheless nối hai ý trái mong đợi: kết quả thất vọng, nhưng nhóm nghiên cứu vẫn công bố.",
+    "choiceExplanations": [
+      "Sai — Therefore nêu kết quả đương nhiên; kết quả đáng thất vọng thì việc công bố không phải hệ quả đương nhiên, nên nghĩa không hợp.",
+      "Sai — Meanwhile chỉ hai việc xảy ra cùng lúc, không diễn đạt sự tương phản.",
+      "Sai — Moreover thêm một ý cùng chiều; ở đây hai ý đối lập (thất vọng nhưng vẫn công bố).",
+      "Đúng — Nevertheless đứng giữa câu giữa hai dấu phẩy, nghĩa 'tuy vậy': dù kết quả đáng thất vọng, họ vẫn công bố."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u1-concession-adverbs",
+    "tags": [
+      "dl-u1-concession-adverbs"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She was exhausted. She ______ finished the race.",
+    "choices": [
+      "nonetheless",
+      "therefore",
+      "otherwise",
+      "whereas"
+    ],
+    "correctIndex": 0,
+    "explanation": "Giữa câu, trạng từ đứng trước động từ chính. Đặt nonetheless trước động từ chính: 'She nonetheless finished', nghĩa 'dù vậy cô vẫn về đích'.",
+    "choiceExplanations": [
+      "Đúng — Đặt nonetheless trước động từ chính: 'She nonetheless finished', nghĩa 'dù vậy cô vẫn về đích'.",
+      "Sai — Therefore chỉ kết quả, nên 'kiệt sức vì thế về đích' vô lý.",
+      "Sai — Otherwise nghĩa 'nếu không thì', không hợp ngữ cảnh.",
+      "Sai — Whereas là liên từ, không đứng giữa chủ ngữ và động từ."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u1-concession-adverbs",
+    "tags": [
+      "dl-u1-concession-adverbs"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu dùng đúng cấu trúc nhượng bộ.",
+    "choices": [
+      "He had warned us about the storm. Even though, we were caught off guard.",
+      "He had warned us about the storm. Even so, we were caught off guard.",
+      "He had warned us about the storm. Even if, we were caught off guard.",
+      "He had warned us about the storm. Even while, we were caught off guard."
+    ],
+    "correctIndex": 1,
+    "explanation": "Even so khác Even though: so là trạng từ, though là liên từ. Even so là trạng từ nối, đứng đầu câu mới, nghĩa 'dù vậy'.",
+    "choiceExplanations": [
+      "Sai — Even though là liên từ phụ thuộc, bắt buộc có mệnh đề đi sau; không dùng như trạng từ đứng riêng rồi dấu phẩy.",
+      "Đúng — Even so là trạng từ nối, đứng đầu câu mới, nghĩa 'dù vậy'.",
+      "Sai — Even if chỉ điều kiện giả định và cũng cần mệnh đề đi theo.",
+      "Sai — Even while chỉ thời gian đồng thời và cần mệnh đề."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u2-concession-despite",
+    "tags": [
+      "dl-u2-concession-despite"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the heavy rain, the match went ahead.",
+    "choices": [
+      "Although",
+      "However",
+      "Despite",
+      "Because"
+    ],
+    "correctIndex": 2,
+    "explanation": "Despite đứng trước danh từ hoặc V-ing. Despite + cụm danh từ 'the heavy rain'.",
+    "choiceExplanations": [
+      "Sai — Although cần mệnh đề (chủ ngữ + động từ), không đi với danh từ.",
+      "Sai — However là trạng từ nối câu, không đi thẳng với một danh từ như vậy.",
+      "Đúng — Despite + cụm danh từ 'the heavy rain'.",
+      "Sai — Because chỉ nguyên nhân, nghĩa sai."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u2-concession-despite",
+    "tags": [
+      "dl-u2-concession-despite"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In spite ______ being late, she stayed calm.",
+    "choices": [
+      "from",
+      "with",
+      "to",
+      "of"
+    ],
+    "correctIndex": 3,
+    "explanation": "In spite of = despite. Cụm cố định là 'in spite of' + V-ing.",
+    "choiceExplanations": [
+      "Sai — 'In spite from' không tồn tại.",
+      "Sai — 'In spite with' không tồn tại.",
+      "Sai — 'In spite to' không tồn tại.",
+      "Đúng — Cụm cố định là 'in spite of' + V-ing."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u2-concession-despite",
+    "tags": [
+      "dl-u2-concession-despite"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the fact that the course was expensive, nearly everyone enrolled.",
+    "choices": [
+      "Despite",
+      "In spite",
+      "Although",
+      "However"
+    ],
+    "correctIndex": 0,
+    "explanation": "Muốn dùng mệnh đề sau despite, thêm 'the fact that'. Despite the fact that + mệnh đề là cấu trúc đúng.",
+    "choiceExplanations": [
+      "Đúng — Despite the fact that + mệnh đề là cấu trúc đúng.",
+      "Sai — 'In spite' thiếu 'of'; phải là 'in spite of the fact that'.",
+      "Sai — Although không đi với 'the fact that'.",
+      "Sai — However là trạng từ, không mở mệnh đề phụ thuộc như thế này."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u2-concession-despite",
+    "tags": [
+      "dl-u2-concession-despite"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Maya loves team sports, ______ her brother prefers working alone.",
+    "choices": [
+      "despite",
+      "whereas",
+      "owing to",
+      "hence"
+    ],
+    "correctIndex": 1,
+    "explanation": "Whereas/while/whilst nối hai mệnh đề đối lập. Whereas đối chiếu hai người có sở thích khác nhau.",
+    "choiceExplanations": [
+      "Sai — Despite cần danh từ/V-ing, không nối hai mệnh đề.",
+      "Đúng — Whereas đối chiếu hai người có sở thích khác nhau.",
+      "Sai — Owing to chỉ nguyên nhân và cần danh từ.",
+      "Sai — Hence chỉ kết quả, không đối chiếu."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u2-concession-despite",
+    "tags": [
+      "dl-u2-concession-despite"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ winning the cup, the club had little money.",
+    "choices": [
+      "Despite of",
+      "Because of",
+      "Despite",
+      "In case of"
+    ],
+    "correctIndex": 2,
+    "explanation": "Không thêm 'of' sau despite. Despite + V-ing là đúng.",
+    "choiceExplanations": [
+      "Sai — Không có 'despite of'; phải là 'despite' hoặc 'in spite of'.",
+      "Sai — Because of chỉ nguyên nhân; thắng cúp không gây ra thiếu tiền, nghĩa sai.",
+      "Đúng — Despite + V-ing là đúng.",
+      "Sai — In case of nghĩa 'trong trường hợp', không hợp."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u2-concession-despite",
+    "tags": [
+      "dl-u2-concession-despite"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The festival went ahead, ______ the storm warnings.",
+    "choices": [
+      "nevertheless",
+      "albeit",
+      "regarding",
+      "notwithstanding"
+    ],
+    "correctIndex": 3,
+    "explanation": "Notwithstanding có thể đứng trước hoặc sau danh từ. Notwithstanding là giới từ trang trọng (= despite) đứng trước danh từ.",
+    "choiceExplanations": [
+      "Sai — Nevertheless là trạng từ, không đứng trực tiếp trước cụm danh từ.",
+      "Sai — Albeit đi với tính từ/trạng từ/cụm ngắn, không đi với danh từ 'the storm warnings' như một giới từ.",
+      "Sai — Regarding nghĩa 'liên quan đến', không mang nghĩa nhượng bộ.",
+      "Đúng — Notwithstanding là giới từ trang trọng (= despite) đứng trước danh từ."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u2-concession-despite",
+    "tags": [
+      "dl-u2-concession-despite"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu dùng đúng cấu trúc đối lập.",
+    "choices": [
+      "While some pupils prefer printed books, others favor tablets.",
+      "Despite some pupils prefer printed books, others favor tablets.",
+      "In spite some pupils prefer printed books, others favor tablets.",
+      "Nevertheless some pupils prefer printed books, others favor tablets."
+    ],
+    "correctIndex": 0,
+    "explanation": "While/whereas/whilst + mệnh đề dùng để đối chiếu hai ý. Whilst có cùng nghĩa nhưng trang trọng, chủ yếu thấy trong tiếng Anh-Anh; tiếng Anh-Mỹ dùng while hoặc whereas.",
+    "choiceExplanations": [
+      "Đúng — While (trang trọng và Anh-Anh hơn: whilst) + mệnh đề nối hai ý đối lập: một nhóm thích sách in, nhóm khác thích máy tính bảng.",
+      "Sai — Despite chỉ đi với danh từ/V-ing hoặc 'the fact that', không đi trực tiếp với mệnh đề 'some pupils prefer...'.",
+      "Sai — In spite phải là 'in spite of', và cũng không đi trực tiếp với mệnh đề đầy đủ.",
+      "Sai — Nevertheless là trạng từ nối câu, nên cần dấu chấm hoặc chấm phẩy ở trước và dấu phẩy ở sau; dùng với dấu phẩy giữa hai mệnh đề là lỗi."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u3-addition",
+    "tags": [
+      "dl-u3-addition"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The app is free. ______, it works offline.",
+    "choices": [
+      "Nevertheless",
+      "Moreover",
+      "Consequently",
+      "Otherwise"
+    ],
+    "correctIndex": 1,
+    "explanation": "Moreover = hơn nữa. Moreover thêm một ý cùng chiều.",
+    "choiceExplanations": [
+      "Sai — Nevertheless chỉ sự tương phản.",
+      "Đúng — Moreover thêm một ý cùng chiều.",
+      "Sai — Consequently chỉ kết quả, không phải thêm ý.",
+      "Sai — Otherwise nghĩa 'nếu không thì'."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u3-addition",
+    "tags": [
+      "dl-u3-addition"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In addition ______ the lectures, students attend weekly labs.",
+    "choices": [
+      "of",
+      "with",
+      "to",
+      "for"
+    ],
+    "correctIndex": 2,
+    "explanation": "In addition to là giới từ. 'In addition to' + danh từ, nghĩa 'ngoài ... ra'.",
+    "choiceExplanations": [
+      "Sai — 'In addition of' không đúng.",
+      "Sai — 'In addition with' không đúng.",
+      "Đúng — 'In addition to' + danh từ, nghĩa 'ngoài ... ra'.",
+      "Sai — 'In addition for' không đúng."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u3-addition",
+    "tags": [
+      "dl-u3-addition"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In addition to ______ in the choir, Linh plays the violin.",
+    "choices": [
+      "sing",
+      "sung",
+      "to sing",
+      "singing"
+    ],
+    "correctIndex": 3,
+    "explanation": "In addition to + V-ing. 'To' ở đây là giới từ nên theo sau là V-ing.",
+    "choiceExplanations": [
+      "Sai — Sau giới từ to không dùng nguyên thể.",
+      "Sai — Sung là quá khứ phân từ, không hợp.",
+      "Sai — Sau giới từ không dùng to-infinitive.",
+      "Đúng — 'To' ở đây là giới từ nên theo sau là V-ing."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u3-addition",
+    "tags": [
+      "dl-u3-addition"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The museum offers guided tours in five languages, not to mention ______.",
+    "choices": [
+      "a free audio guide for children",
+      "to provide a free audio guide",
+      "that a free audio guide",
+      "of a free audio guide"
+    ],
+    "correctIndex": 0,
+    "explanation": "Not to mention + danh từ/cụm danh từ. Not to mention + cụm danh từ.",
+    "choiceExplanations": [
+      "Đúng — Not to mention + cụm danh từ.",
+      "Sai — Trong bài học này, sau not to mention dùng danh từ/cụm danh từ; 'to provide' (to-infinitive) không đi được sau cụm này.",
+      "Sai — Not to mention that cần có một mệnh đề đầy đủ, ở đây thiếu động từ.",
+      "Sai — Không có 'not to mention of'."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u3-addition",
+    "tags": [
+      "dl-u3-addition"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The proposal is cheap. What ______, it is environmentally friendly.",
+    "choices": [
+      "more is",
+      "is more",
+      "are more",
+      "does more"
+    ],
+    "correctIndex": 1,
+    "explanation": "What is more đứng đầu câu và có dấu phẩy theo sau. Cụm cố định 'What is more' = hơn nữa.",
+    "choiceExplanations": [
+      "Sai — Không đảo trật tự cụm cố định.",
+      "Đúng — Cụm cố định 'What is more' = hơn nữa.",
+      "Sai — What is more luôn dùng is.",
+      "Sai — Không phải cụm đúng."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u3-addition",
+    "tags": [
+      "dl-u3-addition"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ being a gifted painter, she also composes music.",
+    "choices": [
+      "Moreover",
+      "Furthermore",
+      "Besides",
+      "In addition"
+    ],
+    "correctIndex": 2,
+    "explanation": "Besides + V-ing; trạng từ thì cần mệnh đề riêng. Besides là giới từ, theo sau là V-ing.",
+    "choiceExplanations": [
+      "Sai — Moreover là trạng từ nối câu, không đi với V-ing.",
+      "Sai — Furthermore cũng là trạng từ, không đi với V-ing.",
+      "Đúng — Besides là giới từ, theo sau là V-ing.",
+      "Sai — In addition (không có to) là trạng từ, không đi với V-ing."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u4-cause-result",
+    "tags": [
+      "dl-u4-cause-result"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The river flooded. ______, the bridge was closed.",
+    "choices": [
+      "Despite",
+      "Whereas",
+      "Albeit",
+      "Consequently"
+    ],
+    "correctIndex": 3,
+    "explanation": "Consequently = do đó. Consequently nêu kết quả.",
+    "choiceExplanations": [
+      "Sai — Despite cần danh từ/V-ing, không đứng đầu câu với dấu phẩy.",
+      "Sai — Whereas nối hai mệnh đề đối chiếu.",
+      "Sai — Albeit chỉ đi với cụm ngắn trong cùng câu.",
+      "Đúng — Consequently nêu kết quả."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u4-cause-result",
+    "tags": [
+      "dl-u4-cause-result"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The match was postponed ______ the heavy snow.",
+    "choices": [
+      "owing to",
+      "owing that",
+      "so as to",
+      "in order to"
+    ],
+    "correctIndex": 0,
+    "explanation": "Owing to là giới từ chỉ nguyên nhân. Owing to + danh từ chỉ nguyên nhân.",
+    "choiceExplanations": [
+      "Đúng — Owing to + danh từ chỉ nguyên nhân.",
+      "Sai — 'Owing that' không tồn tại.",
+      "Sai — So as to chỉ mục đích + nguyên thể.",
+      "Sai — In order to chỉ mục đích + nguyên thể."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u4-cause-result",
+    "tags": [
+      "dl-u4-cause-result"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ that the exam is tomorrow, we should go to bed early.",
+    "choices": [
+      "Giving",
+      "Given",
+      "Gave",
+      "Given to"
+    ],
+    "correctIndex": 1,
+    "explanation": "Given that = since / considering that. Given that + mệnh đề = xét rằng.",
+    "choiceExplanations": [
+      "Sai — 'Giving that' không phải liên từ; cụm cố định dùng quá khứ phân từ: given that.",
+      "Đúng — Given that + mệnh đề = xét rằng.",
+      "Sai — Gave là động từ chia ở quá khứ, không thể mở đầu mệnh đề chỉ lý do như 'given that'.",
+      "Sai — Không có giới từ 'to' trong cụm này; 'given to that' không tạo thành liên từ chỉ lý do."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u4-cause-result",
+    "tags": [
+      "dl-u4-cause-result"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The company switched to solar panels, ______ cutting its energy bills.",
+    "choices": [
+      "whereby",
+      "hereby",
+      "thereby",
+      "nevertheless"
+    ],
+    "correctIndex": 2,
+    "explanation": "Thereby + V-ing nêu kết quả đi kèm của hành động trước. (Hence + V-ing hiếm gặp, nên đề này tránh dùng nó làm đáp án nhiễu.)",
+    "choiceExplanations": [
+      "Sai — Whereby ('theo đó, nhờ đó mà') mở đầu một mệnh đề đầy đủ (a system whereby pupils choose their own topics), không đi trước V-ing.",
+      "Sai — Hereby ('bằng văn bản này') chỉ dùng trong lời tuyên bố chính thức (I hereby declare...), không nêu kết quả của hành động.",
+      "Đúng — Thereby + V-ing nêu kết quả đi kèm hành động ở mệnh đề trước: chuyển sang pin mặt trời, nhờ đó cắt giảm hóa đơn.",
+      "Sai — Nevertheless chỉ sự tương phản; việc giảm hóa đơn là kết quả chứ không đối lập, và nó cũng không đứng trước V-ing."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u4-cause-result",
+    "tags": [
+      "dl-u4-cause-result"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Prices rose sharply; ______ the drop in sales.",
+    "choices": [
+      "nevertheless",
+      "owing",
+      "whereas",
+      "hence"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hence + danh từ (hence the drop in sales) là cách nêu kết quả rất trang trọng, nghĩa 'đó là lý do có...'.",
+    "choiceExplanations": [
+      "Sai — Nevertheless chỉ sự tương phản; giá tăng dẫn đến doanh số giảm là quan hệ nguyên nhân - kết quả, và nó cũng cần một mệnh đề đầy đủ.",
+      "Sai — Owing là chưa đủ: giới từ chỉ nguyên nhân là 'owing to' và theo sau là nguyên nhân, trong khi chỗ trống cần từ nêu kết quả.",
+      "Sai — Whereas là liên từ đối chiếu hai ý, không nêu kết quả.",
+      "Đúng — Hence + danh từ nêu kết quả, nghĩa 'vì vậy mà có': giá tăng, vì vậy có sự sụt giảm doanh số."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u4-cause-result",
+    "tags": [
+      "dl-u4-cause-result"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In view ______ the strong winds, the ferry service was suspended.",
+    "choices": [
+      "of",
+      "to",
+      "from",
+      "on"
+    ],
+    "correctIndex": 0,
+    "explanation": "In view of + N. 'In view of' = xét đến.",
+    "choiceExplanations": [
+      "Đúng — 'In view of' = xét đến.",
+      "Sai — 'In view to' không đúng.",
+      "Sai — 'In view from' không đúng.",
+      "Sai — 'In view on' không đúng."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u4-cause-result",
+    "tags": [
+      "dl-u4-cause-result"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng.",
+    "choices": [
+      "On account of there was a power cut, the library closed early.",
+      "On account of a power cut, the library closed early.",
+      "On account a power cut, the library closed early.",
+      "On account that a power cut, the library closed early."
+    ],
+    "correctIndex": 1,
+    "explanation": "On account of là giới từ. On account of + danh từ.",
+    "choiceExplanations": [
+      "Sai — Sau on account of không dùng mệnh đề.",
+      "Đúng — On account of + danh từ.",
+      "Sai — Thiếu of.",
+      "Sai — 'On account that' không đúng."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u5-stance-adverbs",
+    "tags": [
+      "dl-u5-stance-adverbs"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______, the film is too long, but the ending makes it worthwhile.",
+    "choices": [
+      "Presumably",
+      "Ideally",
+      "Admittedly",
+      "Evidently"
+    ],
+    "correctIndex": 2,
+    "explanation": "Admittedly dùng để nhượng bộ. Admittedly thừa nhận một nhược điểm trước khi nêu ý chính.",
+    "choiceExplanations": [
+      "Sai — Presumably = chắc là (người nói suy đoán); câu này không suy đoán mà thừa nhận một nhược điểm của phim.",
+      "Sai — Ideally = lý tưởng nhất là; không hợp với việc thừa nhận phim quá dài.",
+      "Đúng — Admittedly thừa nhận một điểm bất lợi (phim quá dài) trước khi nêu ý chính (kết thúc đáng xem).",
+      "Sai — Evidently = rõ ràng (có bằng chứng); không mang nghĩa nhượng bộ trước chữ 'but'."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u5-stance-adverbs",
+    "tags": [
+      "dl-u5-stance-adverbs"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Nobody has answered my message; they ______ haven't seen it yet.",
+    "choices": [
+      "regrettably",
+      "arguably",
+      "ideally",
+      "presumably"
+    ],
+    "correctIndex": 3,
+    "explanation": "Presumably = người nói tự suy đoán. Presumably = chắc là, suy đoán hợp lý.",
+    "choiceExplanations": [
+      "Sai — Regrettably = đáng tiếc là, bộc lộ cảm xúc tiếc nuối; ở đây người nói chỉ đang đoán vì sao chưa có hồi âm.",
+      "Sai — Arguably = có thể lập luận rằng; dùng cho ý kiến gây tranh cãi, không phải để đoán nguyên nhân.",
+      "Sai — Ideally = lý tưởng nhất là; không hợp nghĩa với việc suy đoán.",
+      "Đúng — Presumably đứng trước động từ: người nói suy đoán hợp lý (chắc là họ chưa thấy tin nhắn), không có bằng chứng chắc chắn."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u5-stance-adverbs",
+    "tags": [
+      "dl-u5-stance-adverbs"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______, all students would finish homework before dinner, but that rarely happens.",
+    "choices": [
+      "Ideally",
+      "Evidently",
+      "Supposedly",
+      "Admittedly"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ideally nêu điều lý tưởng. Ideally = lý tưởng nhất, đối lập với thực tế 'rarely happens'.",
+    "choiceExplanations": [
+      "Đúng — Ideally nêu điều lý tưởng, đối lập với thực tế 'that rarely happens' ở vế sau.",
+      "Sai — Evidently = rõ ràng (dựa trên bằng chứng); không hợp với một tình huống lý tưởng chưa xảy ra.",
+      "Sai — Supposedly = theo lời đồn; không diễn đạt điều 'nên như vậy'.",
+      "Sai — Admittedly = phải thừa nhận; không hợp vì câu không nhượng bộ mà nêu điều mong muốn."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u5-stance-adverbs",
+    "tags": [
+      "dl-u5-stance-adverbs"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She is ______ the best goalkeeper in the league, though some fans disagree.",
+    "choices": [
+      "evidently",
+      "arguably",
+      "regrettably",
+      "presumably"
+    ],
+    "correctIndex": 1,
+    "explanation": "Arguably dùng cho ý kiến có thể tranh cãi. Arguably = có thể lập luận rằng; hợp với 'some fans disagree'.",
+    "choiceExplanations": [
+      "Sai — Evidently = rõ ràng, chắc chắn có bằng chứng; mâu thuẫn với ý 'some fans disagree'.",
+      "Đúng — Arguably đứng sau be, nghĩa 'có thể lập luận rằng': một ý kiến có thể tranh cãi, hợp với 'some fans disagree'.",
+      "Sai — Regrettably = đáng tiếc là; cô ấy giỏi nhất không phải điều đáng tiếc.",
+      "Sai — Presumably = chắc là (suy đoán); không phải cách nêu một ý kiến có thể tranh cãi."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u5-stance-adverbs",
+    "tags": [
+      "dl-u5-stance-adverbs"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The old bridge is ______ haunted, though I have never seen anything strange there.",
+    "choices": [
+      "evidently",
+      "admittedly",
+      "supposedly",
+      "ideally"
+    ],
+    "correctIndex": 2,
+    "explanation": "Supposedly ngầm báo thông tin chưa kiểm chứng. Supposedly = theo lời đồn, người nói có phần nghi ngờ.",
+    "choiceExplanations": [
+      "Sai — Evidently = rõ ràng (có bằng chứng); người nói chưa từng thấy điều gì lạ nên không hợp.",
+      "Sai — Admittedly = phải thừa nhận; 'admittedly haunted' không hợp nghĩa.",
+      "Đúng — Supposedly = theo lời đồn; người nói truyền lại tin đồn nhưng tỏ ý nghi ngờ vì chưa từng thấy gì.",
+      "Sai — Ideally = lý tưởng nhất là; không hợp nghĩa với 'haunted'."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u5-stance-adverbs",
+    "tags": [
+      "dl-u5-stance-adverbs"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The ground was wet and there were puddles; ______ it had rained overnight.",
+    "choices": [
+      "ideally",
+      "admittedly",
+      "supposedly",
+      "evidently"
+    ],
+    "correctIndex": 3,
+    "explanation": "Evidently dùng khi có bằng chứng. Evidently = rõ ràng, dựa trên bằng chứng thấy được.",
+    "choiceExplanations": [
+      "Sai — Ideally = lý tưởng nhất là; không dùng để rút ra kết luận từ bằng chứng.",
+      "Sai — Admittedly = phải thừa nhận (nhượng bộ); câu này suy ra từ bằng chứng chứ không nhượng bộ.",
+      "Sai — Supposedly = theo lời đồn, không dựa trên bằng chứng; ở đây có bằng chứng nhìn thấy (mặt đất ướt, vũng nước).",
+      "Đúng — Evidently = rõ ràng, dựa trên bằng chứng nhìn thấy: mặt đất ướt và có vũng nước cho thấy trời đã mưa."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u6-summary-topic",
+    "tags": [
+      "dl-u6-summary-topic"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "(Final sentence of an essay) ______, recycling saves resources and cuts waste.",
+    "choices": [
+      "In short",
+      "As for",
+      "Whereas",
+      "Besides"
+    ],
+    "correctIndex": 0,
+    "explanation": "In short tóm tắt ý chính. In short = tóm lại.",
+    "choiceExplanations": [
+      "Đúng — In short = tóm lại; hợp với câu kết bài.",
+      "Sai — As for dùng để chuyển sang một đối tượng khác, không dùng để kết bài.",
+      "Sai — Whereas là liên từ đối chiếu, cần nối hai mệnh đề trong cùng câu; không thể mở đầu câu rồi có dấu phẩy.",
+      "Sai — Besides thêm một ý nữa (ngoài ra), chứ không tóm tắt; câu kết bài cần In short hoặc To sum up."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u6-summary-topic",
+    "tags": [
+      "dl-u6-summary-topic"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the cost is concerned, the trip is a bargain.",
+    "choices": [
+      "As long as",
+      "As far as",
+      "As well as",
+      "As soon as"
+    ],
+    "correctIndex": 1,
+    "explanation": "As far as + danh từ + is/are concerned là cấu trúc cố định. As far as ... is concerned = về phần.",
+    "choiceExplanations": [
+      "Sai — As long as = miễn là (điều kiện); không tạo cấu trúc 'về phần ... thì'.",
+      "Đúng — As far as + danh từ + is/are concerned = về phần; ghép đúng với 'is concerned' ở sau.",
+      "Sai — As well as = cũng như; không đi với 'is concerned'.",
+      "Sai — As soon as = ngay khi (thời gian); không tạo cấu trúc 'về phần ... thì'."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u6-summary-topic",
+    "tags": [
+      "dl-u6-summary-topic"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "With regard ______ your application, we will reply by Friday.",
+    "choices": [
+      "of",
+      "for",
+      "to",
+      "on"
+    ],
+    "correctIndex": 2,
+    "explanation": "With regard to + N. With regard to = liên quan đến.",
+    "choiceExplanations": [
+      "Sai — With regard of không tồn tại; giới từ cố định là to (with regard to).",
+      "Sai — With regard for là một cụm khác, nghĩa 'sự quan tâm, tôn trọng dành cho' (regard for others), không nghĩa 'liên quan đến'.",
+      "Đúng — With regard to = liên quan đến, đúng với thư trả lời một đơn xin việc.",
+      "Sai — With regard on không tồn tại trong tiếng Anh."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u6-summary-topic",
+    "tags": [
+      "dl-u6-summary-topic"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Linh is good at maths. ______ English, she needs more practice.",
+    "choices": [
+      "As to be",
+      "As far",
+      "In short",
+      "As for"
+    ],
+    "correctIndex": 3,
+    "explanation": "As for dùng để chuyển sang đối tượng khác. As for + N = còn về.",
+    "choiceExplanations": [
+      "Sai — 'As to be' không phải cụm chuyển ý; sau cụm chuyển ý như as for phải là một danh từ (as for English).",
+      "Sai — 'As far' chưa đủ cấu trúc: phải là 'as far as ... is concerned'; 'As far English' không đúng.",
+      "Sai — In short = tóm lại; câu này không tóm tắt mà chuyển sang môn khác.",
+      "Đúng — As for + danh từ = còn về; chuyển từ môn toán sang môn tiếng Anh."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u6-summary-topic",
+    "tags": [
+      "dl-u6-summary-topic"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ up, the experiment showed that plants grow faster with more light.",
+    "choices": [
+      "To sum",
+      "To summary",
+      "Sum",
+      "To summing"
+    ],
+    "correctIndex": 0,
+    "explanation": "To sum up = tóm lại. To sum up cố định.",
+    "choiceExplanations": [
+      "Đúng — To sum up là cụm cố định = tóm lại.",
+      "Sai — Summary là danh từ; không có cụm 'to summary'.",
+      "Sai — 'Sum up' đứng riêng thiếu 'to' nên không thành cụm tóm ý đầu câu.",
+      "Sai — Sau to ở cụm này là up (to sum up), không phải dạng -ing."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u6-summary-topic",
+    "tags": [
+      "dl-u6-summary-topic"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "As far as the new rules ______ concerned, nothing will change.",
+    "choices": [
+      "is",
+      "are",
+      "be",
+      "being"
+    ],
+    "correctIndex": 1,
+    "explanation": "Be chia theo danh từ đứng giữa as far as và concerned (rules: số nhiều). The new rules số nhiều nên dùng are.",
+    "choiceExplanations": [
+      "Sai — Is dùng với chủ ngữ số ít; danh từ ở giữa cụm là 'the new rules' (số nhiều) nên phải dùng are.",
+      "Đúng — Be chia theo danh từ đứng giữa as far as và concerned: rules số nhiều nên dùng are.",
+      "Sai — Be nguyên dạng không chia theo chủ ngữ số nhiều; cấu trúc cố định cần is hoặc are.",
+      "Sai — Being là dạng V-ing, không phải động từ chia, nên cấu trúc 'as far as ... is/are concerned' bị thiếu động từ."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u7-reference",
+    "tags": [
+      "dl-u7-reference"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Of the two options, cycling and walking, I prefer ______; it is faster.",
+    "choices": [
+      "the latter",
+      "the above",
+      "the former",
+      "the later"
+    ],
+    "correctIndex": 2,
+    "explanation": "The former chỉ cái nhắc trước, the latter chỉ cái nhắc sau; chỉ dùng cho hai đối tượng. The former = cái nhắc trước (cycling).",
+    "choiceExplanations": [
+      "Sai — The latter là 'walking' (nhắc sau), mà câu nói thích phương tiện nhanh hơn là cycling.",
+      "Sai — The above chỉ điều đã nêu ở trên văn bản trang trọng, không chọn một trong hai phương án.",
+      "Đúng — The former chỉ cái nhắc trước trong hai thứ: cycling, đúng với ý 'it is faster'.",
+      "Sai — The later không phải cách nói này: later = muộn hơn; cái được nhắc sau là the latter."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u7-reference",
+    "tags": [
+      "dl-u7-reference"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Football and chess both teach discipline, but ______ also demands long silent concentration.",
+    "choices": [
+      "the former",
+      "the above",
+      "the later",
+      "the latter"
+    ],
+    "correctIndex": 3,
+    "explanation": "The latter chỉ cái nhắc sau trong hai đối tượng: ở đây là chess. The latter = chess.",
+    "choiceExplanations": [
+      "Sai — The former là football (nhắc trước), mà môn đòi hỏi tập trung im lặng là chess.",
+      "Sai — The above chỉ những điều đã nêu ở trên, không chỉ riêng một trong hai môn.",
+      "Sai — Later = muộn hơn; cái được nhắc sau phải viết là the latter.",
+      "Đúng — The latter chỉ cái nhắc sau trong hai thứ: chess."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u7-reference",
+    "tags": [
+      "dl-u7-reference"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Schools may ban phones. ______ would reduce distractions but also make emergencies harder to handle.",
+    "choices": [
+      "This move",
+      "These move",
+      "This moves",
+      "Those move"
+    ],
+    "correctIndex": 0,
+    "explanation": "This/that + danh từ khái quát (this move) giúp nhắc lại cả ý đã nêu mà không lặp từ. This move tóm lược ý đã nêu.",
+    "choiceExplanations": [
+      "Đúng — This move: danh từ số ít tóm lược ý 'cấm điện thoại', hòa hợp với would reduce.",
+      "Sai — These là số nhiều, không đi với danh từ số ít move.",
+      "Sai — This moves biến move thành động từ ngôi ba số ít, nên câu thiếu danh từ tóm lược.",
+      "Sai — Those là số nhiều, không đi với danh từ số ít move."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u7-reference",
+    "tags": [
+      "dl-u7-reference"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The council cut funding for libraries. ______ decision was widely criticized.",
+    "choices": [
+      "These",
+      "This",
+      "Those",
+      "Such"
+    ],
+    "correctIndex": 1,
+    "explanation": "This/that + danh từ số ít, these/those + danh từ số nhiều; phải hòa hợp số. This decision tóm lược.",
+    "choiceExplanations": [
+      "Sai — These là số nhiều, không đi với danh từ số ít decision.",
+      "Đúng — This decision: danh từ số ít tóm lược việc cắt kinh phí thư viện, hòa hợp số.",
+      "Sai — Those là số nhiều, không đi với danh từ số ít decision.",
+      "Sai — Such decision thiếu mạo từ: phải là 'such a decision' hoặc 'this decision'."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u7-reference",
+    "tags": [
+      "dl-u7-reference"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Applicants must submit a photo, a form and a short essay. Failure to provide ______ will result in rejection.",
+    "choices": [
+      "any of above",
+      "any above",
+      "any of the above",
+      "any the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "The above là cách nói trang trọng chỉ những điều đã liệt kê ở trên; 'any of the above' = bất kỳ mục nào trong số đó.",
+    "choiceExplanations": [
+      "Sai — Thiếu 'the': cụm cố định là the above, nên phải là 'any of the above'.",
+      "Sai — Thiếu 'of the': any cần 'of' để chỉ 'bất kỳ mục nào trong số những mục đã nêu'.",
+      "Đúng — Any of the above = bất kỳ mục nào đã liệt kê ở trên (ảnh, đơn, bài luận), cách nói trang trọng trong thông báo.",
+      "Sai — Không thể đặt the ngay sau any; cần giới từ of: any of the above."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u7-reference",
+    "tags": [
+      "dl-u7-reference"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu dùng đúng the former / the latter.",
+    "choices": [
+      "Of the three subjects, the latter is hardest.",
+      "Of the two subjects, the former is more popular than the former.",
+      "The latter and the former is popular.",
+      "Of the two subjects, history and art, the latter is more popular."
+    ],
+    "correctIndex": 3,
+    "explanation": "Former/latter chỉ dùng khi nói về đúng hai đối tượng đã nêu; the latter là cái nhắc sau, the former là cái nhắc trước.",
+    "choiceExplanations": [
+      "Sai — Former/latter chỉ dùng cho đúng hai đối tượng; ở đây có ba môn (three subjects) nên không dùng the latter.",
+      "Sai — The former so sánh với chính nó nên vô nghĩa; phải so sánh the former với the latter.",
+      "Sai — Chủ ngữ 'the latter and the former' là số nhiều nên phải đi với are; câu cũng không nêu rõ hai đối tượng nào.",
+      "Đúng — Đúng hai đối tượng (history và art), the latter = art, nhắc sau."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u8-punctuation",
+    "tags": [
+      "dl-u8-punctuation"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu dùng dấu câu đúng.",
+    "choices": [
+      "The road was closed; nevertheless, we arrived on time.",
+      "The road was closed, nevertheless we arrived on time.",
+      "The road was closed nevertheless, we arrived on time.",
+      "The road was closed, nevertheless, we arrived on time."
+    ],
+    "correctIndex": 0,
+    "explanation": "Dùng ; hoặc . Chấm phẩy trước nevertheless và dấu phẩy sau nó: đúng quy tắc.",
+    "choiceExplanations": [
+      "Đúng — Chấm phẩy trước nevertheless và dấu phẩy sau nó: đúng quy tắc cho trạng từ nối giữa hai mệnh đề độc lập.",
+      "Sai — Comma splice: dấu phẩy không đủ nối hai mệnh đề độc lập khi từ nối là trạng từ, và thiếu dấu phẩy sau nevertheless.",
+      "Sai — Hai mệnh đề bị dính liền (run-on): dấu phẩy chỉ nằm sau nevertheless nên thiếu chấm hoặc chấm phẩy ngăn cách ở trước.",
+      "Sai — Comma splice: hai dấu phẩy bao quanh nevertheless vẫn không đủ để ngăn hai mệnh đề độc lập; cần chấm hoặc chấm phẩy ở trước."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u8-punctuation",
+    "tags": [
+      "dl-u8-punctuation"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The tickets sold out in minutes ______ we missed the concert.",
+    "choices": [
+      ", consequently",
+      "; consequently,",
+      "consequently;",
+      ", consequently,"
+    ],
+    "correctIndex": 1,
+    "explanation": "Từ nối consequently cần chấm phẩy hoặc dấu chấm ở trước và dấu phẩy ở sau. Chấm phẩy trước và dấu phẩy sau đúng quy tắc cho trạng từ nối.",
+    "choiceExplanations": [
+      "Sai — Comma splice: dấu phẩy không đủ nối hai mệnh đề độc lập, và thiếu dấu phẩy sau consequently.",
+      "Đúng — Chấm phẩy trước và dấu phẩy sau là dấu câu đúng cho trạng từ nối giữa hai mệnh đề độc lập.",
+      "Sai — Chấm phẩy đặt sau từ nối là sai vị trí; nó phải đứng trước từ nối.",
+      "Sai — Comma splice: hai dấu phẩy quanh consequently vẫn không đủ để ngăn hai mệnh đề độc lập."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u8-punctuation",
+    "tags": [
+      "dl-u8-punctuation"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Everyone expected the plan to fail. The plan ______ worked.",
+    "choices": [
+      ", however",
+      "however,",
+      ", however,",
+      "; however,"
+    ],
+    "correctIndex": 2,
+    "explanation": "Trạng từ nối đứng giữa câu (sau chủ ngữ) được tách bằng dấu phẩy ở cả hai bên.",
+    "choiceExplanations": [
+      "Sai — Thiếu dấu phẩy sau however: khi however đứng giữa câu cần dấu phẩy ở cả hai bên.",
+      "Sai — Thiếu dấu phẩy trước however; từ nối giữa câu phải được ngăn bằng dấu phẩy ở cả hai phía.",
+      "Đúng — The plan, however, worked: however đứng giữa câu nên có dấu phẩy hai bên.",
+      "Sai — Chấm phẩy chỉ dùng giữa hai mệnh đề độc lập; sau 'The plan' chưa có mệnh đề hoàn chỉnh nên không dùng được."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u8-punctuation",
+    "tags": [
+      "dl-u8-punctuation"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu dùng đúng dấu câu với liên từ đối lập.",
+    "choices": [
+      "Lena likes tea, however Omar prefers coffee.",
+      "Lena likes tea whereas, Omar prefers coffee.",
+      "Lena likes tea; whereas, Omar prefers coffee.",
+      "Lena likes tea, whereas Omar prefers coffee."
+    ],
+    "correctIndex": 3,
+    "explanation": "Whereas là liên từ thật nên nối hai mệnh đề bằng dấu phẩy, không dấu phẩy sau nó. Whereas là liên từ nên dùng dấu phẩy trước, không dấu phẩy sau.",
+    "choiceExplanations": [
+      "Sai — However là trạng từ, không thể nối hai mệnh đề chỉ bằng dấu phẩy (comma splice).",
+      "Sai — Không đặt dấu phẩy ngay sau liên từ whereas; dấu phẩy nếu có phải đứng trước nó.",
+      "Sai — Whereas là liên từ phụ thuộc nên không cần chấm phẩy trước, và dấu phẩy ngay sau whereas là thừa.",
+      "Đúng — Whereas là liên từ nên dùng dấu phẩy trước, không dấu phẩy sau."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u8-punctuation",
+    "tags": [
+      "dl-u8-punctuation"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu dùng đúng dấu câu với trạng từ bổ sung ý.",
+    "choices": [
+      "The task was easy; moreover, it was short, and we finished early.",
+      "The task was easy, moreover it was short, and we finished early.",
+      "The task was easy moreover; it was short, and we finished early.",
+      "The task was easy moreover, it was short, and we finished early."
+    ],
+    "correctIndex": 0,
+    "explanation": "Quy tắc dấu câu với trạng từ nối. Chấm phẩy trước moreover và dấu phẩy sau nó là đúng.",
+    "choiceExplanations": [
+      "Đúng — Chấm phẩy trước moreover và dấu phẩy sau nó: đúng quy tắc cho trạng từ nối.",
+      "Sai — Comma splice: dấu phẩy không đủ nối hai mệnh đề độc lập khi từ nối là trạng từ, và thiếu dấu phẩy sau moreover.",
+      "Sai — Chấm phẩy đặt sau moreover là sai vị trí; nó phải đứng trước trạng từ nối.",
+      "Sai — Hai mệnh đề bị dính liền (run-on): trước moreover thiếu chấm hoặc chấm phẩy ngăn cách."
+    ]
+  },
+  {
+    "id": "en-discourse-linking-advanced-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "discourse-linking-advanced",
+    "usageId": "dl-u5-stance-adverbs",
+    "tags": [
+      "dl-u5-stance-adverbs"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The school won the national quiz last year. ______, it did not even reach the final this year.",
+    "choices": [
+      "Presumably",
+      "Regrettably",
+      "Arguably",
+      "Supposedly"
+    ],
+    "correctIndex": 1,
+    "explanation": "Regrettably = đáng tiếc là. Regrettably thể hiện sự tiếc nuối của người nói về kết quả này.",
+    "choiceExplanations": [
+      "Sai — Presumably = chắc là (suy đoán), không bộc lộ sự tiếc nuối về kết quả.",
+      "Đúng — Regrettably = đáng tiếc là: người nói tiếc vì trường không vào nổi chung kết.",
+      "Sai — Arguably = có thể lập luận rằng (ý kiến tranh cãi); đây là sự việc đã biết, không phải ý kiến.",
+      "Sai — Supposedly = theo lời đồn; không hợp vì kết quả của trường đã được biết chắc."
+    ]
+  }
+]

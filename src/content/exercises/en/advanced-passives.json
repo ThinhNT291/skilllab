@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "en-advanced-passives-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u1-reporting",
+    "tags": [
+      "ap-u1-reporting"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The old lighthouse is said ______ more than a century old.",
+    "choices": [
+      "to being",
+      "to be",
+      "be",
+      "being"
+    ],
+    "correctIndex": 1,
+    "explanation": "is said + to-V: to be chỉ trạng thái hiện tại.",
+    "choiceExplanations": [
+      "Sai — 'to' đi với nguyên thể, không đi với V-ing ở cấu trúc này.",
+      "Đúng — Dùng to be khi trạng thái đồng thời với lúc người ta nói.",
+      "Sai — Thiếu 'to': cấu trúc là is said to be.",
+      "Sai — sau is said phải là to-V (to be), không dùng V-ing."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u1-reporting",
+    "tags": [
+      "ap-u1-reporting"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Dinosaurs are believed ______ out long before humans appeared on Earth.",
+    "choices": [
+      "to die",
+      "dying",
+      "to have died",
+      "to be died"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nguyên thể hoàn thành to have died chỉ việc xảy ra trước.",
+    "choiceExplanations": [
+      "Sai — Chỉ việc cùng lúc hoặc sau lúc tin, không hợp 'long before'.",
+      "Sai — Sau are believed phải là to-V, không phải V-ing.",
+      "Đúng — Việc xảy ra trước lúc 'believed' nên dùng to have + V3; die là nội động nên giữ chủ động.",
+      "Sai — die là động từ nội động, không có dạng bị động nên không thể nói to be died."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u1-reporting",
+    "tags": [
+      "ap-u1-reporting"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "At the moment, the missing hiker is thought ______ in a cave near the lake.",
+    "choices": [
+      "to have sheltered",
+      "to be sheltering",
+      "to sheltering",
+      "to have been sheltered"
+    ],
+    "correctIndex": 1,
+    "explanation": "to be + V-ing diễn tả hành động đang diễn ra.",
+    "choiceExplanations": [
+      "Sai — Chỉ việc xong trước đó, mâu thuẫn với 'at the moment'.",
+      "Đúng — Đang diễn ra ngay lúc này nên dùng to be + V-ing.",
+      "Sai — sau is thought chỉ dùng to-V, không dùng to + V-ing.",
+      "Sai — Dạng bị động sai nghĩa: người đi bộ tự trú, không 'được trú'."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u1-reporting",
+    "tags": [
+      "ap-u1-reporting"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence correctly uses a passive reporting verb for an event that had already happened?",
+    "choices": [
+      "The storm is reported to cause serious damage along the coast last night.",
+      "It is reported the storm to have caused serious damage along the coast.",
+      "The storm is reported to have caused serious damage along the coast.",
+      "The storm reports to have caused serious damage along the coast."
+    ],
+    "correctIndex": 2,
+    "explanation": "S + is reported + to have + V3.",
+    "choiceExplanations": [
+      "Sai — 'last night' là quá khứ, to cause không hợp.",
+      "Sai — Trộn hai cấu trúc: It is reported that ... hoặc The storm is reported to ...",
+      "Đúng — Việc gây thiệt hại xảy ra trước lúc báo cáo nên dùng to have caused.",
+      "Sai — Bão không 'report' (chủ động sai)."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u1-reporting",
+    "tags": [
+      "ap-u1-reporting"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There ______ to be a secret tunnel under the old school.",
+    "choices": [
+      "is said",
+      "are said",
+      "said",
+      "is saying"
+    ],
+    "correctIndex": 0,
+    "explanation": "There is said to be + danh từ.",
+    "choiceExplanations": [
+      "Đúng — Danh từ thật là 'a secret tunnel' số ít nên dùng is said.",
+      "Sai — Chia theo 'a secret tunnel' số ít, không dùng are.",
+      "Sai — thiếu is: cấu trúc đầy đủ là There is said to be ...",
+      "Sai — Không có nghĩa bị động: cần is said."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u1-reporting",
+    "tags": [
+      "ap-u1-reporting"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence correctly turns \"People say that he is the best player in the league\" into a personal passive?",
+    "choices": [
+      "He is said that he is the best player in the league.",
+      "It is said him to be the best player in the league.",
+      "It is said to be he the best player in the league.",
+      "He is said to be the best player in the league."
+    ],
+    "correctIndex": 3,
+    "explanation": "Hai cách đúng là It is said that he ... hoặc He is said to ...",
+    "choiceExplanations": [
+      "Sai — Không dùng that sau chủ ngữ đã đưa lên đầu.",
+      "Sai — Sai chủ ngữ: It is said that he is ... hoặc He is said to be ...",
+      "Sai — trật tự và cấu trúc đều sai; không có dạng 'it is said to be he'.",
+      "Đúng — đưa chủ ngữ của mệnh đề sau lên đầu rồi dùng to-V (to be) cho trạng thái hiện tại."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u1-reporting",
+    "tags": [
+      "ap-u1-reporting"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The painting, which is believed ______ in the 1600s, will go on display next month.",
+    "choices": [
+      "to have been painted",
+      "to have painted",
+      "to be painted",
+      "to being painted"
+    ],
+    "correctIndex": 0,
+    "explanation": "to have been + V3: bị động đã xảy ra trước.",
+    "choiceExplanations": [
+      "Đúng — Bức tranh được vẽ (bị động) và việc đó xảy ra trước nên dùng to have been painted.",
+      "Sai — dạng chủ động: bức tranh là vật được vẽ, nên cần bị động to have been painted.",
+      "Sai — Chỉ hiện tại hoặc tương lai, không hợp 'in the 1600s'.",
+      "Sai — to đi với nguyên thể, không đi với being."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u1-reporting",
+    "tags": [
+      "ap-u1-reporting"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Only one of the stolen paintings ______ to have been recovered so far.",
+    "choices": [
+      "are reported",
+      "is reported",
+      "reports",
+      "is reporting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chủ ngữ chính là one (số ít) nên dùng is reported; the stolen paintings chỉ bổ nghĩa cho one, không quyết định chia động từ.",
+    "choiceExplanations": [
+      "Sai — Chia theo 'paintings' sai: chủ ngữ chính là one.",
+      "Đúng — chủ ngữ chính là 'one' (số ít) nên dùng is reported, dù 'paintings' đứng gần động từ.",
+      "Sai — Chủ động sai, tranh không 'report'.",
+      "Sai — Tiếp diễn chủ động không hợp nghĩa."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u2-aspect-modal",
+    "tags": [
+      "ap-u2-aspect-modal"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please be quiet. The exam papers ______ at the moment.",
+    "choices": [
+      "are marking",
+      "were being marked",
+      "are being marked",
+      "have been marking"
+    ],
+    "correctIndex": 2,
+    "explanation": "am/is/are being + V3.",
+    "choiceExplanations": [
+      "Sai — are marking là chủ động: bài thi không tự chấm, cần bị động are being marked.",
+      "Sai — were being marked là quá khứ tiếp diễn bị động, mâu thuẫn với 'at the moment' (đang diễn ra bây giờ).",
+      "Đúng — Đang diễn ra lúc này nên dùng hiện tại tiếp diễn bị động: are being marked.",
+      "Sai — have been marking là chủ động hoàn thành tiếp diễn; bài thi không phải người chấm."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u2-aspect-modal",
+    "tags": [
+      "ap-u2-aspect-modal"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The new stadium ______ by next summer.",
+    "choices": [
+      "will be completing",
+      "has completed",
+      "will have been completed",
+      "will have completed"
+    ],
+    "correctIndex": 2,
+    "explanation": "will have been + V3.",
+    "choiceExplanations": [
+      "Sai — Chủ động tiếp diễn, sân không tự hoàn thành.",
+      "Sai — Chủ động, thì hiện tại hoàn thành không hợp mốc tương lai.",
+      "Đúng — by + mốc tương lai nên dùng future perfect bị động.",
+      "Sai — Chủ động: cần bị động will have been completed."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u2-aspect-modal",
+    "tags": [
+      "ap-u2-aspect-modal"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence correctly uses the past perfect passive for an action completed before another past event?",
+    "choices": [
+      "By the time the firefighters arrived, the museum's paintings had already removed to safety.",
+      "By the time the firefighters arrived, the museum's paintings had already being removed to safety.",
+      "By the time the firefighters arrived, the museum's paintings has already been removed to safety.",
+      "By the time the firefighters arrived, the museum's paintings had already been removed to safety."
+    ],
+    "correctIndex": 3,
+    "explanation": "had been + V3.",
+    "choiceExplanations": [
+      "Sai — had already removed là chủ động: tranh không tự di chuyển, thiếu been (had been removed).",
+      "Sai — sau had phải là been, không phải being (had been removed, không phải had being removed).",
+      "Sai — has đi với mốc hiện tại; mốc 'the firefighters arrived' ở quá khứ nên phải là had been removed.",
+      "Đúng — Past perfect bị động: had been + V3, việc chuyển tranh xong trước lúc lính cứu hỏa đến."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u2-aspect-modal",
+    "tags": [
+      "ap-u2-aspect-modal"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When we arrived, the stage ______ by the crew, so we had to wait outside until it was ready.",
+    "choices": [
+      "was set up",
+      "had set up",
+      "was setting up",
+      "was being set up"
+    ],
+    "correctIndex": 3,
+    "explanation": "was/were being + V3.",
+    "choiceExplanations": [
+      "Sai — was set up cho thấy sân khấu đã dựng xong, mâu thuẫn với việc phải chờ đến khi nó sẵn sàng.",
+      "Sai — dạng chủ động, sân khấu không tự dựng; cũng không diễn tả việc đang diễn ra.",
+      "Sai — dạng chủ động tiếp diễn, sân khấu không tự dựng được.",
+      "Đúng — Việc đang diễn ra khi chúng tôi đến nên dùng was being + V3."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u2-aspect-modal",
+    "tags": [
+      "ap-u2-aspect-modal"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The damage ______ avoided if the warnings had been taken seriously.",
+    "choices": [
+      "could have being",
+      "could have",
+      "could have been",
+      "could has been"
+    ],
+    "correctIndex": 2,
+    "explanation": "could have been + V3.",
+    "choiceExplanations": [
+      "Sai — sau have phải là been (could have been), không phải being.",
+      "Sai — thiếu been, nên thành dạng chủ động và không có tân ngữ.",
+      "Đúng — modal + have been + V3 là bị động của khả năng đã bỏ lỡ trong câu điều kiện loại 3.",
+      "Sai — sau modal không chia has."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u2-aspect-modal",
+    "tags": [
+      "ap-u2-aspect-modal"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Since the museum reopened, over a hundred new exhibits ______ added.",
+    "choices": [
+      "have been",
+      "had been",
+      "are being",
+      "have"
+    ],
+    "correctIndex": 0,
+    "explanation": "have/has been + V3.",
+    "choiceExplanations": [
+      "Đúng — Since + mốc đến nay thì dùng hiện tại hoàn thành bị động.",
+      "Sai — had been là quá khứ hoàn thành, cần một mốc quá khứ khác; 'Since the museum reopened' đòi hiện tại hoàn thành (have been). Quá khứ đơn were added đôi khi nghe trong nói thân mật nhưng không phải dạng chuẩn.",
+      "Sai — Nhấn đang diễn ra tại lúc nói, không hợp since.",
+      "Sai — thiếu been: bị động hoàn thành cần have been + V3."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u2-aspect-modal",
+    "tags": [
+      "ap-u2-aspect-modal"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I can hear hammering upstairs right now, so the attic must ______ renovated.",
+    "choices": [
+      "be being",
+      "have been",
+      "being",
+      "have being"
+    ],
+    "correctIndex": 0,
+    "explanation": "modal + be being + V3.",
+    "choiceExplanations": [
+      "Đúng — Tiếng búa đang vang lên: modal + be being + V3.",
+      "Sai — must have been renovated suy đoán việc đã xong, mâu thuẫn với 'right now' và tiếng búa đang vang.",
+      "Sai — thiếu be: sau must cần be being (must be being renovated).",
+      "Sai — không phải dạng hợp lệ: phải là have been hoặc be being."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u3-nonfinite",
+    "tags": [
+      "ap-u3-nonfinite"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She hates ______ interrupted when she is speaking.",
+    "choices": [
+      "to being",
+      "been",
+      "be",
+      "being"
+    ],
+    "correctIndex": 3,
+    "explanation": "being + V3.",
+    "choiceExplanations": [
+      "Sai — hate to + V hoặc hate + V-ing, không có to being.",
+      "Sai — been không đứng một mình sau hates; cần being interrupted.",
+      "Sai — Sau hates không dùng nguyên không to ở đây.",
+      "Đúng — hate + V-ing bị động: being + V3."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u3-nonfinite",
+    "tags": [
+      "ap-u3-nonfinite"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He was lucky ______ a place at two universities.",
+    "choices": [
+      "to offer",
+      "to be offered",
+      "being offered",
+      "to be offering"
+    ],
+    "correctIndex": 1,
+    "explanation": "to be + V3.",
+    "choiceExplanations": [
+      "Sai — dạng chủ động: ở đây anh ấy là người nhận, cần bị động to be offered.",
+      "Đúng — lucky + to-V bị động: to be + V3.",
+      "Sai — sau lucky dùng to-V (lucky to be offered), không dùng V-ing.",
+      "Sai — tiếp diễn chủ động, nghĩa sai: anh ấy không phải người đưa ra."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u3-nonfinite",
+    "tags": [
+      "ap-u3-nonfinite"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ twice that the flight was canceled, we finally gave up and went home.",
+    "choices": [
+      "Having been told",
+      "Having told",
+      "To have been told",
+      "Having been telling"
+    ],
+    "correctIndex": 0,
+    "explanation": "Having been + V3.",
+    "choiceExplanations": [
+      "Đúng — Việc nghe tin xảy ra trước hành động chính và chủ thể bị động: Having been told.",
+      "Sai — Chủ động: chúng tôi không phải người báo.",
+      "Sai — Không dùng to-V làm cụm phân từ ở đây.",
+      "Sai — hình thức sai: bị động hoàn thành là having been + V3, không có V-ing sau been trong nghĩa này."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u3-nonfinite",
+    "tags": [
+      "ap-u3-nonfinite"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I remember ______ a bicycle by my grandparents on my seventh birthday.",
+    "choices": [
+      "giving",
+      "being given",
+      "to be given",
+      "to give"
+    ],
+    "correctIndex": 1,
+    "explanation": "remember + being + V3.",
+    "choiceExplanations": [
+      "Sai — Chủ động: người nhớ là người nhận.",
+      "Đúng — remember + V-ing nói việc đã xảy ra; nhận quà là bị động.",
+      "Sai — remember + to-V nghĩa là nhớ để làm; ở đây nói điều đã xảy ra nên dùng remember + V-ing.",
+      "Sai — chủ động và là nhớ để làm, sai nghĩa."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u3-nonfinite",
+    "tags": [
+      "ap-u3-nonfinite"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The old gym ______ demolished next month, according to the school board.",
+    "choices": [
+      "is to",
+      "is to have",
+      "is to being",
+      "is to be"
+    ],
+    "correctIndex": 3,
+    "explanation": "is to be + V3.",
+    "choiceExplanations": [
+      "Sai — thiếu be: cần is to be demolished.",
+      "Sai — to have + V3 chủ động hoặc hoàn thành, không hợp kế hoạch ở tương lai.",
+      "Sai — to không đi với being trong cấu trúc be to.",
+      "Đúng — be to + do: kế hoạch chính thức, bị động: is to be + V3."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u3-nonfinite",
+    "tags": [
+      "ap-u3-nonfinite"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She resents ______ like a child by her older colleagues.",
+    "choices": [
+      "to be treated",
+      "treating",
+      "having treat",
+      "being treated"
+    ],
+    "correctIndex": 3,
+    "explanation": "resent + being + V3.",
+    "choiceExplanations": [
+      "Sai — resent đi với V-ing, không đi với to-V.",
+      "Sai — Chủ động: cô ấy là người bị đối xử.",
+      "Sai — treat chưa chia V3 nên sai; hơn nữa dạng đúng là being treated.",
+      "Đúng — resent + V-ing bị động."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u3-nonfinite",
+    "tags": [
+      "ap-u3-nonfinite"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The suspect denied ______ at the scene, although several witnesses disagreed.",
+    "choices": [
+      "to have been seen",
+      "having been seen",
+      "having seen",
+      "to be seen"
+    ],
+    "correctIndex": 1,
+    "explanation": "deny + having been + V3.",
+    "choiceExplanations": [
+      "Sai — deny không đi với to-V.",
+      "Đúng — deny + V-ing; việc xảy ra trước. (Being seen cũng chấp nhận được nhưng không có trong lựa chọn.)",
+      "Sai — Chủ động: nghi phạm là người bị nhìn thấy.",
+      "Sai — deny không đi với to-V."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u3-nonfinite",
+    "tags": [
+      "ap-u3-nonfinite"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "No one likes the idea of ______ to apologize in public.",
+    "choices": [
+      "forcing",
+      "to be forced",
+      "having forced",
+      "being forced"
+    ],
+    "correctIndex": 3,
+    "explanation": "giới từ + being + V3.",
+    "choiceExplanations": [
+      "Sai — Chủ động: không ai ép người khác ở đây.",
+      "Sai — sau giới từ of phải dùng V-ing, không dùng to-V.",
+      "Sai — dạng chủ động và sai V3.",
+      "Đúng — sau giới từ of dùng V-ing; bị động là being forced."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u4-causative",
+    "tags": [
+      "ap-u4-causative"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm taking my laptop to the shop to ______ the screen replaced.",
+    "choices": [
+      "have",
+      "make",
+      "let",
+      "do"
+    ],
+    "correctIndex": 0,
+    "explanation": "have + vật + V3.",
+    "choiceExplanations": [
+      "Đúng — have + vật + V3: nhờ người khác thay. (get cũng đúng nhưng không có trong lựa chọn.)",
+      "Sai — make + O + V nguyên (make him do), không đi với V3 nghĩa nhờ làm hộ.",
+      "Sai — let + O + V nguyên, không đi với V3 ở nghĩa này.",
+      "Sai — Không dùng do + O + V3 ở nghĩa này."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u4-causative",
+    "tags": [
+      "ap-u4-causative"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our neighbors had their house ______ last month, so now it's bright yellow.",
+    "choices": [
+      "paint",
+      "painting",
+      "to paint",
+      "painted"
+    ],
+    "correctIndex": 3,
+    "explanation": "have + vật + V3.",
+    "choiceExplanations": [
+      "Sai — thiếu V3: have + vật + painted.",
+      "Sai — have + vật + V-ing là cấu trúc khác, nghĩa không phải nhờ người sơn.",
+      "Sai — have + vật + to-V không phải cấu trúc nhờ làm hộ.",
+      "Đúng — have + vật + V3."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u4-causative",
+    "tags": [
+      "ap-u4-causative"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence describes something unlucky that happened to someone, not something they arranged?",
+    "choices": [
+      "She had her hair cut at a new salon.",
+      "She had her wallet stolen on the train.",
+      "She had her photo taken at the studio.",
+      "She had her bike repaired by her dad."
+    ],
+    "correctIndex": 1,
+    "explanation": "have something done có hai nghĩa; dựa vào ngữ cảnh.",
+    "choiceExplanations": [
+      "Sai — nghĩa nhờ làm hộ: cô ấy chủ động đặt người cắt tóc.",
+      "Đúng — Gặp chuyện không may: have + vật + V3.",
+      "Sai — nghĩa nhờ làm hộ: cô ấy đến studio chụp ảnh theo ý mình.",
+      "Sai — nghĩa nhờ làm hộ: cô ấy nhờ bố sửa xe."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u4-causative",
+    "tags": [
+      "ap-u4-causative"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We need to ______ the report finished before the deadline, so everyone must stay late.",
+    "choices": [
+      "let",
+      "make",
+      "get",
+      "allow"
+    ],
+    "correctIndex": 2,
+    "explanation": "get + vật + V3.",
+    "choiceExplanations": [
+      "Sai — let + O + V nguyên, không đi với V3.",
+      "Sai — make + O + V nguyên (make everyone stay), không có nghĩa hoàn tất báo cáo.",
+      "Đúng — get + vật + V3 nhấn mạnh hoàn tất. (have cũng đúng nhưng không có trong lựa chọn.)",
+      "Sai — allow + O + to-V, không phải cấu trúc hoàn tất."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u4-causative",
+    "tags": [
+      "ap-u4-causative"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The teacher had the students ______ their projects aloud.",
+    "choices": [
+      "read",
+      "to read",
+      "be read",
+      "reads"
+    ],
+    "correctIndex": 0,
+    "explanation": "have + người + V nguyên.",
+    "choiceExplanations": [
+      "Đúng — have + người + V nguyên (không to): có người làm điều đó theo yêu cầu.",
+      "Sai — sau have + O không dùng to; get mới đi với to-V.",
+      "Sai — bị động sai: học sinh là người đọc, nên dùng chủ động read.",
+      "Sai — sau have + O dùng động từ nguyên, không chia s."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u4-causative",
+    "tags": [
+      "ap-u4-causative"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I won't ______ rude comments made about my classmates in this room.",
+    "choices": [
+      "allow",
+      "let",
+      "make",
+      "have"
+    ],
+    "correctIndex": 3,
+    "explanation": "won't have + O + V3.",
+    "choiceExplanations": [
+      "Sai — allow + O + to be + V3 mới đúng; 'allow rude comments made' thiếu to be.",
+      "Sai — let + O + V nguyên, không đi với made.",
+      "Sai — make + O + V nguyên, không có nghĩa không chấp nhận.",
+      "Đúng — won't have + O + V3 có nghĩa 'sẽ không chấp nhận để'."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u5-get-passive",
+    "tags": [
+      "ap-u5-get-passive"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Careful! The glass will ______ broken if you leave it on the edge.",
+    "choices": [
+      "make",
+      "get",
+      "do",
+      "take"
+    ],
+    "correctIndex": 1,
+    "explanation": "get + V3.",
+    "choiceExplanations": [
+      "Sai — make không tạo nghĩa bị động với V3: The glass will make broken không có nghĩa 'cái ly sẽ bị vỡ'.",
+      "Đúng — get + V3 nói về chuyện bất ngờ hoặc không dự định, hợp với 'sẽ vỡ nếu để ở mép'.",
+      "Sai — do không đi với V3 để chỉ chuyện xảy ra với chủ ngữ; The glass will do broken không thành câu.",
+      "Sai — take broken không có nghĩa 'bị vỡ'; take không tạo bị động."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u5-get-passive",
+    "tags": [
+      "ap-u5-get-passive"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My cousin and her fiancé are ______ married in June.",
+    "choices": [
+      "having",
+      "making",
+      "getting",
+      "doing"
+    ],
+    "correctIndex": 2,
+    "explanation": "get married.",
+    "choiceExplanations": [
+      "Sai — are having married không có nghĩa 'kết hôn'; muốn nói tổ chức đám cưới phải là having a wedding.",
+      "Sai — không có cụm making married; 'kết hôn' là get married.",
+      "Đúng — get married: get + V3 chỉ sự thay đổi trạng thái (are getting married = sắp kết hôn).",
+      "Sai — không có cụm doing married."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u5-get-passive",
+    "tags": [
+      "ap-u5-get-passive"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hurry up and get ______ — the bus leaves in five minutes!",
+    "choices": [
+      "dress",
+      "dressed",
+      "dressing",
+      "dresses"
+    ],
+    "correctIndex": 1,
+    "explanation": "get dressed.",
+    "choiceExplanations": [
+      "Sai — get + V3 (dressed), không dùng nguyên thể sau get ở nghĩa mặc đồ xong.",
+      "Đúng — get dressed là cụm cố định: tự mặc quần áo.",
+      "Sai — dressing là V-ing, mang nghĩa khác (băng, nước sốt) và không đúng cụm.",
+      "Sai — dresses không phải V3."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u5-get-passive",
+    "tags": [
+      "ap-u5-get-passive"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "In which sentence is the verb form correct for describing a long-term state of ownership?",
+    "choices": [
+      "The old library gets owned by the city council.",
+      "The old library is getting owned by the city council.",
+      "The old library has got owned by the city council.",
+      "The old library is owned by the city council."
+    ],
+    "correctIndex": 3,
+    "explanation": "Động từ trạng thái dùng be.",
+    "choiceExplanations": [
+      "Sai — own là động từ chỉ trạng thái nên không đi với get-passive (gets owned). Lưu ý 'get owned' chỉ có nghĩa lóng 'bị đánh bại' trong game, không phải sở hữu.",
+      "Sai — is getting owned diễn tả quá trình thay đổi, không hợp với trạng thái sở hữu kéo dài.",
+      "Sai — has got owned không phải dạng bị động tự nhiên của own; trạng thái sở hữu dùng be + owned.",
+      "Đúng — own là động từ trạng thái, bị động dùng be: is owned by."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u5-get-passive",
+    "tags": [
+      "ap-u5-get-passive"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She ______ told off by the principal for arriving late again.",
+    "choices": [
+      "had",
+      "made",
+      "got",
+      "turned"
+    ],
+    "correctIndex": 2,
+    "explanation": "get told off.",
+    "choiceExplanations": [
+      "Sai — She had told off... là chủ động quá khứ hoàn thành (hoặc thiếu been); câu cần bị động: got/was told off.",
+      "Sai — made không là trợ động từ bị động; made + told off không thành cụm hợp lệ.",
+      "Đúng — got told off là bị động thân mật nghĩa 'bị mắng' (was told off trung tính hơn, nhưng không có trong lựa chọn).",
+      "Sai — turned + V3 không tạo bị động (turned có nghĩa 'trở nên' đi với tính từ)."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u5-get-passive",
+    "tags": [
+      "ap-u5-get-passive"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence forms the get-passive correctly?",
+    "choices": [
+      "Our dog got hitting by a bicycle on the path yesterday.",
+      "Our dog was got hit by a bicycle on the path yesterday.",
+      "Our dog got hit by a bicycle on the path yesterday.",
+      "Our dog got been hit by a bicycle on the path yesterday."
+    ],
+    "correctIndex": 2,
+    "explanation": "Get-passive = get (chia thì) + V3, dùng cho chuyện bất ngờ: Our dog got hit. Không thêm was/been và không dùng V-ing.",
+    "choiceExplanations": [
+      "Sai — sau got phải là V3 (hit), không phải V-ing (hitting).",
+      "Sai — was got hit trộn hai kiểu bị động; chọn một: was hit hoặc got hit.",
+      "Đúng — got + V3: chuyện bất ngờ, không ai dự định, rất hợp get-passive.",
+      "Sai — got been không phải cấu trúc hợp lệ; been không đi sau get ở bị động."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u6-verb-patterns",
+    "tags": [
+      "ap-u6-verb-patterns"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It was suggested ______ the school should start an hour later.",
+    "choices": [
+      "that",
+      "to",
+      "for",
+      "if"
+    ],
+    "correctIndex": 0,
+    "explanation": "It was suggested that.",
+    "choiceExplanations": [
+      "Đúng — suggest không có tân ngữ chỉ người; dùng it was suggested that.",
+      "Sai — suggest that + mệnh đề; dùng to ở đây sai cấu trúc.",
+      "Sai — it was suggested for không đúng cấu trúc.",
+      "Sai — if (nếu / liệu) không thay that để dẫn mệnh đề sau suggest ở cấu trúc It was suggested that."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u6-verb-patterns",
+    "tags": [
+      "ap-u6-verb-patterns"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The new students ______ around the campus by older pupils before classes began.",
+    "choices": [
+      "were shown",
+      "showed",
+      "were showed",
+      "were showing"
+    ],
+    "correctIndex": 0,
+    "explanation": "were shown.",
+    "choiceExplanations": [
+      "Đúng — show around được giữ nguyên khi bị động: the new students were shown around.",
+      "Sai — dạng chủ động, nhưng chủ ngữ là học sinh được dẫn đi.",
+      "Sai — V3 của show là shown, không phải showed.",
+      "Sai — dạng chủ động tiếp diễn, sai nghĩa."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u6-verb-patterns",
+    "tags": [
+      "ap-u6-verb-patterns"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A bouquet of roses was bought ______ the retiring teacher by the whole class.",
+    "choices": [
+      "to",
+      "for",
+      "at",
+      "with"
+    ],
+    "correctIndex": 1,
+    "explanation": "buy + for.",
+    "choiceExplanations": [
+      "Sai — buy đi với for khi nêu người nhận ở bị động của tân ngữ vật.",
+      "Đúng — buy, make, cook đi với for, còn give, send, show đi với to.",
+      "Sai — at không đi với buy khi nêu người nhận.",
+      "Sai — with không đi với buy khi nêu người nhận."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u6-verb-patterns",
+    "tags": [
+      "ap-u6-verb-patterns"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence is correct when the verb explain is used in the passive?",
+    "choices": [
+      "We were explained the rules of the game by the referee.",
+      "The rules of the game were explained us by the referee.",
+      "The rules of the game were explained to us by the referee.",
+      "We were explained about the rules of the game."
+    ],
+    "correctIndex": 2,
+    "explanation": "explain to somebody.",
+    "choiceExplanations": [
+      "Sai — explain không có tân ngữ chỉ người liền sau, nên người nhận không làm chủ ngữ bị động.",
+      "Sai — thiếu to: explained to us.",
+      "Đúng — explain + to somebody; vật làm chủ ngữ bị động.",
+      "Sai — vẫn đưa người nhận làm chủ ngữ với explain, vốn không được."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u6-verb-patterns",
+    "tags": [
+      "ap-u6-verb-patterns"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The young man ______ entry to the concert because he had no ticket.",
+    "choices": [
+      "was refused to",
+      "was refuse",
+      "was been refused",
+      "was refused"
+    ],
+    "correctIndex": 3,
+    "explanation": "was refused entry.",
+    "choiceExplanations": [
+      "Sai — was refused to entry... thừa to: refuse trực tiếp đi với tân ngữ vật (refused entry).",
+      "Sai — refuse chưa chia V3: bị động cần was refused.",
+      "Sai — was been refused trộn was và been; bị động đơn chỉ cần was refused.",
+      "Đúng — refuse + người + vật; bị động giữ tân ngữ vật: was refused entry."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u7-need-ing",
+    "tags": [
+      "ap-u7-need-ing"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My sneakers are worn out. They need ______ soon.",
+    "choices": [
+      "to replacing",
+      "replace",
+      "replacing",
+      "replacing to"
+    ],
+    "correctIndex": 2,
+    "explanation": "need + V-ing.",
+    "choiceExplanations": [
+      "Sai — to + V-ing không đi sau need.",
+      "Sai — need replace thiếu -ing hoặc to be + V3.",
+      "Đúng — need + V-ing mang nghĩa bị động: cần được thay.",
+      "Sai — sai trật tự."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u7-need-ing",
+    "tags": [
+      "ap-u7-need-ing"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The car is filthy. It badly needs ______.",
+    "choices": [
+      "to washing",
+      "washing",
+      "to be washing",
+      "wash"
+    ],
+    "correctIndex": 1,
+    "explanation": "need + V-ing.",
+    "choiceExplanations": [
+      "Sai — to + V-ing không đi sau need.",
+      "Đúng — need + V-ing mang nghĩa bị động: cần được rửa.",
+      "Sai — to be washing là tiếp diễn chủ động: xe không tự rửa; cần to be washed hoặc washing.",
+      "Sai — need wash thiếu -ing; xe không tự rửa."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u7-need-ing",
+    "tags": [
+      "ap-u7-need-ing"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The grass is too long. It needs ______ before the party.",
+    "choices": [
+      "to be cut",
+      "to cut",
+      "to cutting",
+      "to be cutting"
+    ],
+    "correctIndex": 0,
+    "explanation": "need to be + V3.",
+    "choiceExplanations": [
+      "Đúng — need to be + V3 là cách khác của need + V-ing, mang nghĩa bị động.",
+      "Sai — dạng chủ động: cỏ không tự cắt.",
+      "Sai — to + V-ing sai hình thức.",
+      "Sai — to be cutting là tiếp diễn chủ động: cỏ không tự cắt; cần to be cut hoặc cutting."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u7-need-ing",
+    "tags": [
+      "ap-u7-need-ing"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence means that the window needs someone to fix it?",
+    "choices": [
+      "The window needs to fix.",
+      "The window needs fixing it.",
+      "The window needs fixing.",
+      "The window needs fix."
+    ],
+    "correctIndex": 2,
+    "explanation": "need + V-ing.",
+    "choiceExplanations": [
+      "Sai — dạng chủ động: cửa sổ không tự sửa.",
+      "Sai — thừa it; need + V-ing không cần tân ngữ.",
+      "Đúng — need + V-ing nghĩa là cần được sửa.",
+      "Sai — thiếu -ing hoặc to be fixed."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u7-need-ing",
+    "tags": [
+      "ap-u7-need-ing"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The leftover chemicals from the science lab are dangerous, so they need ______ safely.",
+    "choices": [
+      "disposing of",
+      "disposing",
+      "to dispose",
+      "dispose of"
+    ],
+    "correctIndex": 0,
+    "explanation": "disposing of.",
+    "choiceExplanations": [
+      "Đúng — need + V-ing mang nghĩa bị động và giữ giới từ of vì dispose of là cụm cố định.",
+      "Sai — thiếu of.",
+      "Sai — to dispose là chủ động (hóa chất không tự vứt) và thiếu of.",
+      "Sai — thiếu -ing: need + V-ing hoặc to be disposed of."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u8-science-style",
+    "tags": [
+      "ap-u8-science-style"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In the experiment, the solution ______ gently for ten minutes and then left to cool.",
+    "choices": [
+      "was heated",
+      "heated",
+      "were heated",
+      "has heating"
+    ],
+    "correctIndex": 0,
+    "explanation": "was heated.",
+    "choiceExplanations": [
+      "Đúng — bị động quá khứ số ít: was heated (and then [was] left to cool).",
+      "Sai — heated đứng một mình là chủ động quá khứ, thiếu was; cũng làm vế 'left to cool' mất song song.",
+      "Sai — were heated chia số nhiều, nhưng solution là số ít nên phải là was heated.",
+      "Sai — has heating không phải dạng động từ hợp lệ."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u8-science-style",
+    "tags": [
+      "ap-u8-science-style"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence suits the method section of a science report?",
+    "choices": [
+      "First, I put the samples on the scale, then I wrote the numbers, super quick.",
+      "The samples weighed every ten minutes, and the results recorded in a table.",
+      "Each sample was weighing every ten minutes, and the results were recorded in a table.",
+      "The samples were weighed every ten minutes, and the results were recorded in a table."
+    ],
+    "correctIndex": 3,
+    "explanation": "Phần phương pháp trong báo cáo khoa học dùng bị động quá khứ (were weighed, were recorded) để tập trung vào thao tác và kết quả, không dùng ngôi thứ nhất thân mật.",
+    "choiceExplanations": [
+      "Sai — quá thân mật và dùng ngôi thứ nhất, không hợp phần phương pháp.",
+      "Sai — thiếu were: cần were weighed và were recorded.",
+      "Sai — was weighing là dạng chủ động tiếp diễn, sai nghĩa.",
+      "Đúng — bị động tập trung vào việc làm và kết quả, đúng văn phong khoa học."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u8-science-style",
+    "tags": [
+      "ap-u8-science-style"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It ______ by several studies that the new software reduces errors in data entry.",
+    "choices": [
+      "has shown",
+      "has been shown",
+      "has been showing",
+      "have shown"
+    ],
+    "correctIndex": 1,
+    "explanation": "It has been shown that.",
+    "choiceExplanations": [
+      "Sai — has shown là chủ động; câu có 'by several studies' nên cần bị động.",
+      "Đúng — It has been shown (by ...) that là bị động hoàn thành dùng để nêu kết luận khách quan.",
+      "Sai — has been showing là tiếp diễn, không hợp nghĩa kết luận đã được chứng minh.",
+      "Sai — It là chủ ngữ số ít, không đi với have; và show chủ động không hợp với 'by'."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u8-science-style",
+    "tags": [
+      "ap-u8-science-style"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Further research ______ before these findings can be confirmed.",
+    "choices": [
+      "is needed",
+      "needs",
+      "is needing",
+      "has needing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Further research is needed là bị động hiện tại đơn, công thức cố định ở cuối phần tóm tắt khoa học.",
+    "choiceExplanations": [
+      "Đúng — bị động hiện tại đơn: Further research is needed (before ...).",
+      "Sai — needs cần tân ngữ; nghĩa cũng thay đổi (research tự cần).",
+      "Sai — need ít dùng ở tiếp diễn, nghĩa không đúng.",
+      "Sai — sai hình thức."
+    ]
+  },
+  {
+    "id": "en-advanced-passives-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "advanced-passives",
+    "usageId": "ap-u8-science-style",
+    "tags": [
+      "ap-u8-science-style"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence has an opening participle phrase that is correctly attached to its subject?",
+    "choices": [
+      "Heating gently, the mixture slowly turns blue.",
+      "Heated gently, the mixture slowly turns blue.",
+      "Heated gently, the student slowly turns the mixture blue.",
+      "Having heat gently, the mixture slowly turns blue."
+    ],
+    "correctIndex": 1,
+    "explanation": "Phân từ mở đầu phải có cùng chủ ngữ với mệnh đề chính: cái bị đun là the mixture nên cần Heated gently.",
+    "choiceExplanations": [
+      "Sai — Heating cho nghĩa chủ động: hỗn hợp không tự đun, nên chủ ngữ treo.",
+      "Đúng — phân từ bị động rút gọn, chủ ngữ là hỗn hợp, đúng.",
+      "Sai — chủ ngữ của cụm phân từ bị treo: học sinh không bị đun.",
+      "Sai — heat chưa chia V3 và dạng sai."
+    ]
+  }
+]

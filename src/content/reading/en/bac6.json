@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "rd-b6-001",
+    "bac": 6,
+    "title": "The Archive of Small Sounds",
+    "text": "Every archive has its celebrated treasures: the signed treaty, the faded map, the letter written by someone whose name every schoolchild knows. The Harbor Sound Library, housed in two cramped rooms above a bakery, has none of these. What it holds instead is the ordinary noise of a town: the rattle of a ferry gate, a market trader calling out the price of mackerel, the creak of a wooden pier in a winter wind. Its founder, a retired radio engineer named Dolores Quint, began recording in her twenties, mostly out of habit, and never quite stopped.\n\nQuint is quick to admit that the project looked absurd at the outset. \"People assumed I was either lonely or slightly mad,\" she says. \"Nobody thinks a sound is worth keeping until it has gone.\" Her turning point came when the old foghorn, which had warned ships for generations, was replaced by a silent electronic beacon. Within a month, residents who had grumbled about its racket for years were asking, a little sheepishly, whether anyone happened to have a recording. Quint had forty-one.\n\nSince then the library has grown steadily, though it remains modest by any measure. Volunteers now catalog roughly a thousand recordings, each labeled with the date, the place and, crucially, the weather, since a street sounds quite different in fog than in sunshine. Schools borrow the collection for history lessons, and a local theater company once built an entire play around the recorded chatter of a vanished fish market. Even so, Quint resists the suggestion that the archive is merely sentimental. Sounds, she argues, carry information that photographs cannot: how crowded a place felt, how quickly people spoke, what everyone considered too ordinary to mention in a diary.\n\nThe difficulty, as she is the first to concede, lies in deciding what to leave out. A town produces far more noise than any team of volunteers could preserve, and every decision to record one thing is, implicitly, a decision to ignore another. Critics have pointed out that the collection leans toward the picturesque, favoring gulls and church bells over traffic and building sites. Quint accepts the charge with good grace and has begun asking residents to nominate the sounds they would least like to lose. The most frequent suggestion so far, she reports with a smile, is the ferry's rusty gate.",
+    "questions": [
+      {
+        "prompt": "Which best describes the writer's purpose in the passage?",
+        "choices": [
+          "To argue that sound recordings are more valuable than photographs",
+          "To criticize the library for recording only pleasant sounds",
+          "To portray an unusual archive and the thinking behind it",
+          "To explain the technical methods used to record sound"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài kể về một thư viện âm thanh nhỏ, người sáng lập và lý lẽ của bà; không phải bài phản đối kho lưu trữ truyền thống hay hướng dẫn kỹ thuật.",
+        "choiceExplanations": [
+          "Sai — Quá đà — bà chỉ nói âm thanh giữ được thông tin mà ảnh không giữ được (\"carry information that photographs cannot\"), không nói âm thanh giá trị hơn.",
+          "Sai — Lời chê \"leans toward the picturesque\" chỉ là một ý trong đoạn 4 và bà đã chấp nhận; đó không phải mục đích của cả bài.",
+          "Đúng — Bài mô tả kho lưu trữ ('two cramped rooms above a bakery'), người lập ra nó và quan điểm 'Sounds ... carry information that photographs cannot'.",
+          "Sai — bài chỉ nhắc ngắn việc gắn nhãn bản ghi, không giải thích kỹ thuật thu âm."
+        ]
+      },
+      {
+        "prompt": "Why does Quint say, \"Nobody thinks a sound is worth keeping until it has gone\"?",
+        "choices": [
+          "She regrets that nobody helped her make recordings.",
+          "She is explaining why her project was at first met with doubt.",
+          "She believes the foghorn should never have been replaced.",
+          "She is criticizing residents who dislike noise."
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu nói đi ngay sau 'People assumed I was either lonely or slightly mad', nên bà đang giải thích vì sao ban đầu dự án bị coi là kỳ quặc.",
+        "choiceExplanations": [
+          "Sai — bài không nói bà tiếc vì thiếu người giúp.",
+          "Đúng — Câu nói giải thích vì sao người ta xem việc ghi âm của bà là 'absurd' lúc đầu: chỉ khi âm thanh mất đi người ta mới thấy quý.",
+          "Sai — bà không bày tỏ ý kiến về việc thay còi sương mù; đó chỉ là sự kiện làm thay đổi thái độ của dân.",
+          "Sai — bà không chỉ trích ai; cư dân từng phàn nàn rồi tự thấy ngượng ('a little sheepishly')."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Quint already owned recordings of the foghorn when residents asked whether any existed.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu cuối đoạn 2: 'Quint had forty-one' ngay sau khi dân hỏi có bản ghi nào không.",
+        "choiceExplanations": [
+          "Đúng — Bài nói dân hỏi 'whether anyone happened to have a recording' và 'Quint had forty-one', tức bà đã có sẵn.",
+          "Sai — không có chi tiết nào cho thấy bà ghi âm sau khi dân hỏi.",
+          "Sai — thông tin này có trong đoạn 2."
+        ]
+      },
+      {
+        "prompt": "In the final paragraph, the phrase \"accepts the charge with good grace\" suggests that Quint",
+        "choices": [
+          "denies the criticism angrily",
+          "ignores the critics completely",
+          "feels deeply offended but stays polite",
+          "acknowledges the criticism without resentment"
+        ],
+        "correctIndex": 3,
+        "explanation": "'Charge' ở đây là lời chê; 'with good grace' là chấp nhận một cách thoải mái, và bà còn đáp lại bằng cách nhờ dân đề cử âm thanh.",
+        "choiceExplanations": [
+          "Sai — 'accepts' nghĩa là chấp nhận, không phải phủ nhận.",
+          "Sai — bà có phản ứng: bà nhờ cư dân đề cử âm thanh.",
+          "Sai — 'with good grace' không hàm ý bị xúc phạm; bà còn mỉm cười ('with a smile').",
+          "Đúng — Bà thừa nhận bộ sưu tập thiên về cảnh đẹp và sẵn sàng sửa mà không giận dỗi."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-002",
+    "bac": 6,
+    "title": "Why Rivers Refuse to Run Straight",
+    "text": "Rivers, one might suppose, would prefer the shortest route to the sea. They do not. Seen from a hill or an airplane, almost any river crossing a flat plain looks less like a road than like a dropped ribbon, looping and doubling back as though in no hurry to arrive. This is not caprice. It is the predictable result of how moving water treats the ground beneath it.\n\nThe process begins with an almost trivial irregularity: a fallen log, a patch of harder clay, a slight dip in the bed. The current is nudged sideways, and from that moment the trouble compounds itself. On the outside of the curve the water runs faster, gnawing at the bank; on the inside it slows and lets go of the sand and silt it has been carrying. The outer bank retreats, the inner bank grows, and the bend sharpens itself, handing a fresh problem to the stretch below, where the next bend begins. Over decades the loops swell until, in a flood, the river may cut through the narrow neck of land between two curves and abandon the old loop altogether, leaving a crescent-shaped lake behind.\n\nNone of this is convenient for people who live nearby. A river that wanders also floods unpredictably, gives up its farmland, and refuses to stay where a map once placed it. For much of the last century, engineers answered by straightening channels, shortening the route so that water could be hurried away. The logic was impeccable on paper. A straight channel carries water faster, and faster water means less standing water in the fields.\n\nThe difficulty is that speed does not disappear; it moves. Water rushed through a straightened section arrives downstream sooner and in greater force, and towns that were safe for generations may suddenly find themselves in its path. Meanwhile, the river itself seems unconvinced by the engineers' tidy solution. Left to its own devices, a straightened channel usually begins to bend again, as if quietly restoring the pattern it never really abandoned. A straightened river, in other words, is not a tamed one but merely an unhappy one.\n\nThis is why a growing number of planners now speak of \"making room\" for rivers rather than commanding them. They allow a stretch of floodplain to be flooded on purpose, and in some places they have even rebuilt the curves their predecessors removed. The approach asks for patience and a certain humility, qualities not always associated with civil engineering. But it begins from a sound observation: that a river's windings are not a defect in its design. They are the design.",
+    "questions": [
+      {
+        "prompt": "The passage mainly argues that",
+        "choices": [
+          "a river's windings come from how flowing water behaves, so forcing rivers straight creates new problems",
+          "engineers should never alter the course of any river",
+          "rivers are most dangerous when they flow across flat plains",
+          "crescent-shaped lakes are the most valuable feature of a river"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài giải thích vì sao sông uốn khúc rồi lập luận rằng làm thẳng sông chỉ dời vấn đề đi nơi khác.",
+        "choiceExplanations": [
+          "Đúng — Bài giải thích cơ chế xói mòn và bồi tụ, rồi chỉ ra việc làm thẳng sông khiến lũ dồn xuống hạ lưu.",
+          "Sai — Quá đà — bài không nói 'never'; còn nhắc các kế hoạch hiện nay vẫn can thiệp có chủ ý (cho ngập bãi bồi).",
+          "Sai — đồng bằng phẳng chỉ là bối cảnh; bài không khẳng định sông nguy hiểm nhất ở đó.",
+          "Sai — hồ hình lưỡi liềm (\"crescent-shaped lake\") chỉ là một kết quả được nhắc thoáng qua, không phải trọng tâm hay điều được đánh giá là quý nhất."
+        ]
+      },
+      {
+        "prompt": "The phrase \"merely an unhappy one\" is best understood as",
+        "choices": [
+          "a literal claim that rivers have feelings",
+          "an angry attack on the engineers",
+          "an admiring comment on the engineers' skill",
+          "a playful way of saying that straightened rivers are not truly under control"
+        ],
+        "correctIndex": 3,
+        "explanation": "Câu có giọng đùa: người làm thẳng sông tưởng đã 'tamed' nó, nhưng sông vẫn có xu hướng uốn lại.",
+        "choiceExplanations": [
+          "Sai — đây là cách nói nhân hóa, không phải khẳng định sông có cảm xúc.",
+          "Sai — giọng bài mỉa mai nhẹ nhàng, không giận dữ.",
+          "Sai — bài cho thấy giải pháp của kỹ sư chưa giải quyết được vấn đề.",
+          "Đúng — Đối lập 'tamed' với 'unhappy' cho thấy sông chưa hề bị khuất phục, nói bằng giọng dí dỏm."
+        ]
+      },
+      {
+        "prompt": "In the fourth paragraph, \"its path\" in \"in its path\" refers to the path of",
+        "choices": [
+          "the town",
+          "the straightened section",
+          "the water rushed downstream",
+          "the engineers"
+        ],
+        "correctIndex": 2,
+        "explanation": "'Its' thay cho nước bị dồn nhanh xuống hạ lưu ('Water rushed through a straightened section ... in greater force').",
+        "choiceExplanations": [
+          "Sai — thị trấn là thứ nằm trên đường đi, không phải chủ sở hữu của 'its'.",
+          "Sai — đoạn kênh thẳng là nơi nước đi qua, còn 'its path' là đường đi của nước sau đó.",
+          "Đúng — 'Water ... arrives downstream sooner and in greater force, and towns ... find themselves in its path': 'its' là của nước.",
+          "Sai — kỹ sư là người làm thẳng sông, không phải thứ có 'path' ở đây."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? According to the writer, a straightened river will never develop bends again.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 4: 'a straightened channel usually begins to bend again'.",
+        "choiceExplanations": [
+          "Sai — bài nói điều ngược lại.",
+          "Đúng — Bài viết rằng kênh được làm thẳng thường bắt đầu uốn cong trở lại.",
+          "Sai — bài có nêu rõ thông tin này nên không thể là 'Not given'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-003",
+    "bac": 6,
+    "title": "The Paradox of the Helpful App",
+    "text": "At Hollis Ridge School, the study-planning app arrived with an almost evangelical reputation. Students entered their exam dates, and the program did the rest: it divided the weeks into neat sessions, reminded them when to start, and congratulated them when they finished. Teachers, who had spent years watching students leave studying until the final weekend, were delighted. For a while, it seemed that a long-standing problem had been solved by a few lines of code.\n\nThe trouble, as one geography teacher put it, was that the students became wonderfully obedient and strangely helpless. When the app was unavailable during a network outage, a number of tenth-grade students could not decide what to study first. They had not forgotten the content; what they had lost, or perhaps never acquired, was the habit of choosing. Every decision about priorities, such as which topic was weakest or which deserved an extra hour, had been quietly taken from them. The app had not merely assisted their judgment; it had replaced it.\n\nThis is not an argument against technology, nor a nostalgic plea for the days of crumpled schedules. The app's schedules were, by any objective standard, better than those most teenagers would have drawn up unaided. That is precisely what makes the situation so awkward. When a tool performs a task more competently than we do, we are tempted to hand it over entirely, forgetting that the clumsy early attempts were how the skill was developed in the first place. A student who plans badly this month may plan well next year; a student who never plans may never learn to.\n\nSome designers have begun to take this seriously. One proposal is that such apps should gradually withdraw their support, offering detailed schedules in the first weeks and then asking users to make their own choices, intervening only to comment on them. Another suggestion, rather less comfortable for developers, is that the program should occasionally refuse to help. Whether schools would tolerate software that deliberately makes a task harder is another matter, since a product that frustrates its customers is rarely a popular one.\n\nYet the underlying principle deserves more attention than it receives. Good teaching has always involved a kind of managed discomfort: enough guidance to prevent despair, but not so much that the learner has nothing left to do. An app that removes every difficulty may produce excellent results on Friday and leave a student less capable on Monday. Convenience, in education at least, is not always a gift.",
+    "questions": [
+      {
+        "prompt": "What is the writer's main argument?",
+        "choices": [
+          "Study apps should be banned from schools.",
+          "Support that removes all decision-making can weaken the very skill it is meant to help.",
+          "Teenagers cannot plan their time as well as adults.",
+          "Planning apps are less effective than printed schedules."
+        ],
+        "correctIndex": 1,
+        "explanation": "Lập luận trung tâm: ứng dụng làm thay việc chọn ưu tiên khiến học sinh mất thói quen tự quyết định.",
+        "choiceExplanations": [
+          "Sai — Quá đà — bài nói rõ 'not an argument against technology'.",
+          "Đúng — Ý chính: 'it had replaced' sự phán đoán của học sinh, và kỹ năng chỉ hình thành qua các lần thử vụng về.",
+          "Sai — bài chỉ nói lịch của ứng dụng tốt hơn lịch tự lập, không so sánh với người lớn.",
+          "Sai — bài nói lịch của ứng dụng tốt hơn lịch học sinh tự lập (\"better than those most teenagers would have drawn up unaided\"); vấn đề là sự lệ thuộc."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The students who used the app paid a monthly fee for it.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài không hề nói gì về chi phí hay phí hằng tháng của ứng dụng.",
+        "choiceExplanations": [
+          "Sai — không có thông tin nào xác nhận việc trả phí.",
+          "Sai — cũng không có thông tin nào phủ nhận; bài không đề cập tiền.",
+          "Đúng — Bài chỉ mô tả cách ứng dụng hoạt động; không đoạn nào nhắc đến phí."
+        ]
+      },
+      {
+        "prompt": "In the third paragraph, what does the writer find \"so awkward\"?",
+        "choices": [
+          "That the app's schedules were actually better than students' own",
+          "That teachers disliked the app",
+          "That the app often stopped working",
+          "That students refused to use technology"
+        ],
+        "correctIndex": 0,
+        "explanation": "'That is precisely what makes the situation so awkward' đứng ngay sau nhận xét lịch của ứng dụng tốt hơn lịch tự lập.",
+        "choiceExplanations": [
+          "Đúng — Chính vì lịch của ứng dụng tốt hơn nên ta muốn giao hết cho nó, và đó là cái bẫy.",
+          "Sai — giáo viên ban đầu 'delighted'.",
+          "Sai — mất mạng chỉ xảy ra một lần để lộ vấn đề, không phải điều khó xử.",
+          "Sai — học sinh dùng ứng dụng rất ngoan ('wonderfully obedient')."
+        ]
+      },
+      {
+        "prompt": "The writer's attitude toward the designers' proposals is best described as",
+        "choices": [
+          "dismissive",
+          "angry",
+          "indifferent",
+          "interested but doubtful about their practicality"
+        ],
+        "correctIndex": 3,
+        "explanation": "Tác giả cho rằng đề xuất 'deserves more attention' nhưng nghi ngờ trường học có chấp nhận phần mềm cố tình làm khó.",
+        "choiceExplanations": [
+          "Sai — tác giả cho rằng nguyên tắc 'deserves more attention'.",
+          "Sai — giọng bài điềm tĩnh, không giận dữ.",
+          "Sai — tác giả quan tâm rõ rệt.",
+          "Đúng — Vừa ủng hộ nguyên tắc vừa nói 'Whether schools would tolerate software that deliberately makes a task harder is another matter'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-004",
+    "bac": 6,
+    "title": "From the Furnace: A Conversation with a Glassblower",
+    "text": "Interviewer: Most people picture glassblowing as a graceful craft. After a morning in your workshop, I would call it a negotiation with a very hot and very stubborn partner.\n\nIlse Brandt: [laughing] That is the kindest description I have heard. The glass is never really under your control. It sags when you hesitate and cools when you linger, so the whole art lies in working with its timetable rather than your own. Beginners always want to rush, and rushing is the one thing it punishes immediately.\n\nInterviewer: You trained as a chemist before turning to glass. Did that help?\n\nIlse Brandt: Less than you would expect. It explained why a flask cracks, which is useful in the abstract, but a chemist writes down the temperature, whereas a glassblower feels it on her face. I had to unlearn the habit of wanting a number for everything. Eventually I could judge the glass by its color, a dull orange meaning it was still forgiving, a paler one meaning it was almost too soft to hold its shape.\n\nInterviewer: Is there a piece you remember with particular affection?\n\nIlse Brandt: A pitcher that went wrong. I had meant it to be perfectly symmetrical, and one side drooped slightly while it cooled. My first instinct was to throw it away. Instead, I kept it on a shelf and watched people pick it up. They loved it, precisely because it leaned. A flawless object invites admiration; a flawed one invites conversation. I have been making slightly imperfect pitchers ever since, though I admit that deliberately creating a mistake is far harder than accidentally making one.\n\nInterviewer: Do you worry that machines will make your work obsolete?\n\nIlse Brandt: Factories can already produce glass more cheaply and consistently than I ever will, and I have no quarrel with that. A machine is excellent when the goal is a thousand identical objects. My customers are looking for something else: a trace of the person who made the object, and of the afternoon in which it happened. If I ever turned out perfect copies, I would be competing with the factories on their ground, and I would lose.\n\nInterviewer: What do you say to young people who want to learn?\n\nIlse Brandt: I tell them to expect to be bad for a long time. The furnace is not cruel, but it is honest, and it does not offer much encouragement in the early years. Those who stay are usually the ones who find the failures interesting rather than humiliating. And I tell them to burn a few fingers early, because after that you stop being careless.",
+    "questions": [
+      {
+        "prompt": "What does Ilse Brandt mean when she says glass 'punishes' rushing?",
+        "choices": [
+          "It makes the glass cool and harden too quickly.",
+          "The craft takes years to learn, which discourages impatient people.",
+          "Beginners lose interest in the craft too soon.",
+          "Hurrying leads to immediate flaws or damage in the work."
+        ],
+        "correctIndex": 3,
+        "explanation": "Cô nói thủy tinh làm theo 'its timetable'; vội vàng khiến sản phẩm hỏng ngay.",
+        "choiceExplanations": [
+          "Sai — Chính việc chần chừ mới làm thủy tinh nguội (\"cools when you linger\"); bài không nói vội vàng làm nó cứng lại.",
+          "Sai — Ý này chỉ gần với phần cuối bài (người mới \"expect to be bad for a long time\"), không giải thích nghĩa của \"punishes\".",
+          "Sai — cô không nói người mới chán nản vì vội.",
+          "Đúng — Cô nói vội vàng là điều duy nhất thủy tinh \"punishes immediately\", đối lập với việc làm theo \"its timetable\"; nghĩa bóng là vội thì sản phẩm hỏng ngay."
+        ]
+      },
+      {
+        "prompt": "Why did Brandt keep the drooping pitcher?",
+        "choices": [
+          "She did not have time to make another.",
+          "She planned to repair it later.",
+          "She noticed how much attention the flaw drew from people.",
+          "She wanted to show the chemist's methods."
+        ],
+        "correctIndex": 2,
+        "explanation": "Cô thấy mọi người thích chiếc bình vì nó nghiêng, nên giữ lại và sau đó cố ý làm những chiếc bình hơi lệch.",
+        "choiceExplanations": [
+          "Sai — không có chi tiết về thời gian.",
+          "Sai — cô không định sửa nó.",
+          "Đúng — Mọi người cầm lên và yêu thích chính vì nó nghiêng: 'A flawed one invites conversation'.",
+          "Sai — chiếc bình không liên quan đến phương pháp của nhà hóa học."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Brandt thinks customers who buy her work want evidence of the person who made it.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cô nói khách hàng tìm 'a trace of the person who made the object'.",
+        "choiceExplanations": [
+          "Đúng — Khớp lời cô: 'My customers are looking for ... a trace of the person who made the object'.",
+          "Sai — cô khẳng định điều này chứ không phủ nhận.",
+          "Sai — thông tin có trong câu trả lời về máy móc."
+        ]
+      },
+      {
+        "prompt": "Which statement best summarizes Brandt's view of machines?",
+        "choices": [
+          "They are a serious threat that she resents.",
+          "They suit a different purpose from the one her work serves.",
+          "They will replace all craft workers eventually.",
+          "They produce glass of lower quality than hers."
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô nói 'I have no quarrel with that' và cho rằng máy tốt khi cần hàng nghìn món giống nhau, còn khách của cô cần thứ khác.",
+        "choiceExplanations": [
+          "Sai — cô nói rõ 'no quarrel'.",
+          "Đúng — Máy làm hàng loạt, còn cô bán dấu ấn con người; hai mục đích khác nhau.",
+          "Sai — cô không dự đoán điều đó.",
+          "Sai — cô nói nhà máy làm 'more cheaply and consistently', không nói chất lượng thấp hơn."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-005",
+    "bac": 6,
+    "title": "What Gets Lost, and What Gets Found",
+    "text": "A translator's work is best when nobody notices it. Readers of a foreign novel in their own language rarely stop to think that every sentence they admire has passed through the judgment of someone else, someone who had to decide, hundreds of times a page, which of two imperfect options to choose. Ines Varga, who has spent three decades translating fiction, describes the job as \"disappointing people in the most considerate way possible.\"\n\nThe popular belief that some words are simply \"untranslatable\" strikes her as both true and misleading. It is true in that a word often carries a bundle of associations, historical, social and emotional, that no single word in another language can reproduce. It is misleading because it implies that translation is a matter of finding equivalents, as if two languages were identical maps drawn in different colors. In practice, Varga insists, the translator is seldom hunting for a matching word. She is hunting for a matching effect. A joke that depends on a pun cannot survive intact, but an equally funny joke with a different pun might.\n\nThis is where the difficulty becomes philosophical. If the translator replaces the pun, is the result still the author's joke? Purists argue that any such substitution betrays the original, and that a faithful version should stay close to the words even at the cost of awkwardness. Varga is not persuaded. A translation that is faithful to every word, she says, is often unfaithful to the book, since the original was surely meant to be read easily by its own audience. \"If the author's sentences glide, mine must glide too. Otherwise I have not translated the novel; I have only translated its dictionary.\"\n\nHer convictions are not held lightly, but neither are they rigid. She admits that she has made decisions that she later regretted, including the removal of a long, rambling sentence that she thought too difficult for readers, and which a reviewer afterward praised, in the original, as the novel's finest moment. \"That taught me humility,\" she says, \"although humility is a poor consolation when the book is already in print.\"\n\nFor students hoping to follow the same path, her advice is surprisingly unglamorous. Read widely in your own language, she says, because a translator is judged more by the quality of her native writing than by her command of the foreign one. The paradox of her profession is that the better she does her job, the less visible she becomes, and she has made her peace with that. Disappearing, she suggests, is simply what it looks like when the work is done properly.",
+    "questions": [
+      {
+        "prompt": "True, False, or Not given? Varga believes that the idea of 'untranslatable' words is completely wrong.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Cô nói ý tưởng đó 'both true and misleading', tức không hoàn toàn sai.",
+        "choiceExplanations": [
+          "Sai — cô không hoàn toàn đồng tình với phát biểu này; cô thấy nó có một phần đúng.",
+          "Đúng — Cô gọi nó là 'both true and misleading'; vì có phần đúng nên 'completely wrong' là sai.",
+          "Sai — cô nêu quan điểm rõ ràng trong đoạn 2."
+        ]
+      },
+      {
+        "prompt": "What does Varga mean by being 'faithful to the book' rather than to every word?",
+        "choices": [
+          "Reproducing the effect and ease of the original for its readers",
+          "Adding her own opinions to the story",
+          "Translating each word using a dictionary",
+          "Making the novel shorter"
+        ],
+        "correctIndex": 0,
+        "explanation": "Cô nói nếu câu gốc 'glide' thì bản dịch cũng phải 'glide'; trung thành với sách là giữ hiệu quả đọc.",
+        "choiceExplanations": [
+          "Đúng — Cô nói 'the translator is ... hunting for a matching effect' và câu văn phải trôi chảy như bản gốc.",
+          "Sai — cô không nói về việc chèn ý kiến riêng.",
+          "Sai — cô còn chê cách dịch như vậy: 'I have only translated its dictionary'.",
+          "Sai — việc rút ngắn không phải điều cô nói đến, và cô còn hối hận vì đã bỏ một câu dài."
+        ]
+      },
+      {
+        "prompt": "Why does Varga mention the long, rambling sentence she removed?",
+        "choices": [
+          "To show that critics are usually mistaken",
+          "To prove that readers prefer short sentences",
+          "To demonstrate that she has never made an error",
+          "To illustrate a mistake that taught her to be modest"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cô nói chuyện đó 'taught me humility', tức là một sai lầm khiến cô khiêm tốn hơn.",
+        "choiceExplanations": [
+          "Sai — nhà phê bình ở đây đúng, cô là người sai.",
+          "Sai — chi tiết này không nói về sở thích của độc giả.",
+          "Sai — cô thừa nhận đã sai.",
+          "Đúng — Cô gọi đó là quyết định cô hối tiếc và nói 'That taught me humility'."
+        ]
+      },
+      {
+        "prompt": "The final paragraph suggests that Varga regards her own invisibility as",
+        "choices": [
+          "a sign that she has been treated unfairly",
+          "a reason to leave the profession",
+          "an acceptable consequence of doing the job well",
+          "something that she hopes will soon change"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cô nói đã 'made her peace' và biến mất là dấu hiệu công việc được làm tốt.",
+        "choiceExplanations": [
+          "Sai — cô không phàn nàn về sự bất công.",
+          "Sai — cô không có ý bỏ nghề.",
+          "Đúng — Cô cho rằng 'Disappearing ... is simply what it looks like when the work is done properly'.",
+          "Sai — cô đã chấp nhận ('made her peace'), không mong thay đổi."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-006",
+    "bac": 6,
+    "title": "The Referee's Dilemma",
+    "text": "In youth soccer, the referee is the one participant whom nobody has chosen to see. Parents shout at the referee, players blame the referee, and coaches, who ought to know better, have been known to describe a decision as \"a disgrace\" with a nine-year-old standing beside them. Yet the same adults would be astonished to learn that, in many local leagues, the person blowing the whistle is a fourteen-year-old earning a small fee.\n\nThis arrangement is defended on the grounds of necessity. There are never enough qualified adults willing to give up their weekends, so leagues rely on teenagers who have completed a short course and are then thrown into matches with real emotions at stake. The results are, to put it charitably, uneven. Some of these young referees display a composure that would be creditable in people twice their age. Others quit after a single season, having discovered that the job consists largely of being wrong in public.\n\nThe usual response to such abuse is to demand better behavior from spectators, and banners reminding parents to \"respect the officials\" now hang beside many fields. Their effect is debatable. A reminder to be calm tends to be heard most clearly by those who were never in danger of shouting. A more interesting proposal comes from a league in a mid-sized town that has begun appointing an experienced referee to sit quietly at the edge of the field and observe, not the players, but the adults. If a spectator crosses a line, the observer speaks to him privately at the end of the match, without any announcement or punishment.\n\nWhether this will work remains to be seen, and its advocates are careful not to oversell it. What it does acknowledge, however, is something more subtle than a rule about conduct: that the referee's authority is not a fixed quantity, but a kind of credit that the surrounding community either extends or withdraws. A young referee who feels supported will make braver and more consistent decisions, which in turn earns further respect. One who feels abandoned will tend to avoid controversy, and the match, ironically, becomes less fair as a result.\n\nNone of this will make a disputed penalty any easier to accept. Disappointment is, after all, part of the game, and no one is likely to cheer for a decision that goes against his own child. But the principle, if not yet the practice, is clear enough. If we want fair matches, we must start by treating the person responsible for fairness as someone worth protecting.",
+    "questions": [
+      {
+        "prompt": "The writer's tone when describing the coaches' behavior is best described as",
+        "choices": [
+          "sympathetic",
+          "bitterly resentful",
+          "critical and slightly ironic",
+          "completely neutral"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cụm 'who ought to know better' và 'with a nine-year-old standing beside them' cho thấy sự phê phán pha mỉa mai nhẹ.",
+        "choiceExplanations": [
+          "Sai — Chi tiết \"who ought to know better\" là lời trách các huấn luyện viên, không phải sự đồng cảm với họ.",
+          "Sai — Giọng bài chê khéo và mỉa nhẹ, không cay đắng hay oán giận.",
+          "Đúng — 'Who ought to know better' là lời trách khéo, kèm chi tiết có đứa trẻ chín tuổi đứng cạnh.",
+          "Sai — cách dùng từ rõ ràng mang thái độ."
+        ]
+      },
+      {
+        "prompt": "Why does the writer doubt the usefulness of banners reminding parents to respect officials?",
+        "choices": [
+          "Because the message mostly reaches people who were already well behaved",
+          "Because parents resent being told how to behave",
+          "Because the banners do nothing to help the young referees feel supported",
+          "Because they draw attention to the abuse they are meant to prevent"
+        ],
+        "correctIndex": 0,
+        "explanation": "Câu 'A reminder to be calm tends to be heard most clearly by those who were never in danger of shouting'.",
+        "choiceExplanations": [
+          "Đúng — Người vốn đã bình tĩnh mới để ý lời nhắc, còn người hay la hét thì không.",
+          "Sai — Bài không nói phụ huynh bực bội; lý do được nêu là lời nhắc chỉ đến tai những người vốn đã bình tĩnh.",
+          "Sai — Đây không phải lý do tác giả nêu cho việc nghi ngờ biển báo; lý do là ai nghe lời nhắc (\"heard most clearly by those who were never in danger of shouting\").",
+          "Sai — Bài không nói biển báo làm tình trạng xấu đi, chỉ nói tác dụng của chúng đáng ngờ vì người cần nghe lại không nghe."
+        ]
+      },
+      {
+        "prompt": "In the fourth paragraph, what is the 'kind of credit' that the community 'extends or withdraws'?",
+        "choices": [
+          "Money paid to referees",
+          "A referee's authority",
+          "Tickets sold to spectators",
+          "A certificate from the training course"
+        ],
+        "correctIndex": 1,
+        "explanation": "Câu đó nói 'the referee's authority is not a fixed quantity, but a kind of credit'.",
+        "choiceExplanations": [
+          "Sai — 'credit' ở đây là ẩn dụ, không phải tiền.",
+          "Đúng — Theo câu: quyền uy của trọng tài là 'a kind of credit' mà cộng đồng cho hoặc rút lại.",
+          "Sai — không liên quan đến vé.",
+          "Sai — chứng chỉ khóa học không được nói là thứ cộng đồng cấp hay rút."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The experienced referees who observe spectators in this league are all retired professionals.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn 3 chỉ nói liên đoàn cử một trọng tài giàu kinh nghiệm ngồi quan sát; không có thông tin về việc họ đã nghỉ hưu hay là chuyên nghiệp.",
+        "choiceExplanations": [
+          "Sai — Bài chỉ nói \"an experienced referee\", không nói đó là người đã nghỉ hưu hay chuyên nghiệp.",
+          "Sai — Bài cũng không phủ nhận điều này; không có thông tin về nghề nghiệp của họ.",
+          "Đúng — Bài chỉ nêu \"experienced referee\" mà không cho biết họ đã nghỉ hưu hay là chuyên nghiệp, nên không thể xác nhận hay bác bỏ."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-007",
+    "bac": 6,
+    "title": "The Slow Return of the Wetland",
+    "text": "A generation ago, the town of Alderbrook drained the marsh on its eastern edge with the confidence of people who knew precisely what they were doing. The land was soggy, mosquito-ridden and, by the standards of the day, useless. Within a few years it had become a handful of tidy fields and a parking lot for the new gym. Nobody saw any reason to mourn a swamp.\n\nThe first complaints arrived with the rain. Without the marsh to soak up the water, the streams that ran through the town began to overflow after every heavy storm, and the lower streets flooded so regularly that shopkeepers kept sandbags beside their doors. The council responded in the manner councils usually do, by building higher walls and deeper drains. These measures worked for a time, then failed more expensively, and eventually even the most cautious officials began to ask whether the original decision had been a mistake.\n\nThe scheme that followed was, in the words of one council member, \"an exercise in paying to undo our own cleverness.\" The town bought back the fields, removed a stretch of the drainage channels and allowed the water to return. The reaction was divided. A group of farmers warned that the project would produce nothing but insects and neighbors' complaints, and several residents wondered aloud why a town in difficulty should spend money on a bog. The council, to its credit, did not pretend that the objections were foolish. It simply asked for time.\n\nThe results, after six years, can fairly be described as modest but unmistakable. The wetland now absorbs enough rainwater to spare the lower streets in all but the worst storms. Herons have returned, along with several kinds of frog that the older residents had assumed were extinct locally, and a school group counts the birds each spring. The mosquitoes, it should be said, have not disappeared, though most people agree they are no worse than before.\n\nIt would be tempting to treat Alderbrook as a parable, but the town's own officials are wary of that. The wetland did not solve every problem, and a fiercer storm may yet test it. What it did accomplish was to expose an assumption that had gone unquestioned for decades: that land is only valuable when it is doing something obviously useful. As the council chairman remarked at the reopening, \"Nature does not send invoices, but it does keep accounts.\"",
+    "questions": [
+      {
+        "prompt": "Which of the following best summarizes the passage?",
+        "choices": [
+          "A town successfully removed its marshes and prospered",
+          "A town came to regret draining a marsh and has partly reversed the decision",
+          "A group of farmers defeated a council plan",
+          "Scientists discovered a new species of frog in a town marsh"
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài kể việc rút nước đầm lầy, hậu quả lũ lụt, rồi thị trấn trả lại đầm lầy với kết quả khả quan.",
+        "choiceExplanations": [
+          "Sai — bài nói việc rút nước gây lũ, không phải thành công.",
+          "Đúng — Từ 'the original decision had been a mistake' đến việc 'allowed the water to return'.",
+          "Sai — nông dân phản đối nhưng bài không nói họ thắng.",
+          "Sai — ếch chỉ là một chi tiết, và là loài người già tưởng đã biến mất tại địa phương, không phải loài mới."
+        ]
+      },
+      {
+        "prompt": "The phrase \"modest but unmistakable\" most nearly means",
+        "choices": [
+          "unimportant and hard to see",
+          "large and surprising",
+          "disappointing and temporary",
+          "small yet clearly noticeable"
+        ],
+        "correctIndex": 3,
+        "explanation": "'Modest' = khiêm tốn, 'unmistakable' = không thể nhầm lẫn; sau đó bài liệt kê lợi ích cụ thể.",
+        "choiceExplanations": [
+          "Sai — kết quả được liệt kê rõ ràng, không phải 'hard to see'.",
+          "Sai — 'modest' nghĩa là không lớn.",
+          "Sai — bài không gọi kết quả là gây thất vọng hay tạm thời.",
+          "Đúng — Kết quả không lớn lao nhưng thấy rõ: giảm ngập, chim và ếch trở lại."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? According to the passage, nobody in Alderbrook objected to the plan to restore the wetland.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 3: một nhóm nông dân cảnh báo và vài cư dân thắc mắc.",
+        "choiceExplanations": [
+          "Sai — bài nêu nhiều ý kiến phản đối.",
+          "Đúng — nhận định 'nobody objected' là sai vì có 'A group of farmers warned...' và cư dân thắc mắc việc chi tiền.",
+          "Sai — thông tin được nêu rõ trong đoạn 3."
+        ]
+      },
+      {
+        "prompt": "The chairman's remark \"Nature does not send invoices, but it does keep accounts\" implies that",
+        "choices": [
+          "ignoring natural systems may eventually carry a cost, even if no bill is sent at the time",
+          "nature is more expensive than most people think",
+          "councils should avoid spending money on land",
+          "wetlands will always protect towns from floods"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ẩn dụ: thiên nhiên không gửi hóa đơn ngay, nhưng cái giá của việc phá hoại rồi cũng đến (lũ, chi phí đắp tường, mua lại ruộng).",
+        "choiceExplanations": [
+          "Đúng — Chính chuyện Alderbrook cho thấy cái giá đến muộn: lũ lụt và việc phải 'pay to undo our own cleverness'.",
+          "Sai — câu nói không bàn về việc thiên nhiên đắt hay rẻ.",
+          "Sai — thị trấn chính là đã chi tiền để phục hồi đất.",
+          "Sai — bài nói 'a fiercer storm may yet test it', nên không khẳng định 'always'."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-008",
+    "bac": 6,
+    "title": "Memory and the Photograph",
+    "text": "Standing before a famous painting, most visitors to a museum now do the same thing: they raise a phone, take a picture, and move on. The gesture seems harmless, even sensible. A photograph is a far more reliable record than a visitor's memory, and it can be consulted at leisure. The assumption behind it is that, having captured the object, we no longer need to carry it in our heads.\n\nSome psychologists have questioned that assumption. In some experiments, participants who photographed objects during a guided museum tour tended to remember fewer of the objects, and fewer details about them, than those who simply looked. The researchers' explanation is plausible, if not yet conclusive: once we know that a camera is keeping the record, our minds seem to release the task. We outsource our remembering, and the effort of paying attention goes with it. Intriguingly, in one variation the effect appeared to weaken when people used the camera to zoom in on a single detail, as if the deliberate choice of what to photograph restored some of the attention that casual snapping had removed.\n\nThese findings should be handled carefully. Such studies are often small, the settings artificial, and real life is far messier than a laboratory. Later work has not always found the same pattern, and some of it suggests that taking photographs can make an experience more enjoyable. A holiday photograph can bring back a smell or a joke that no amount of staring would have preserved, and anyone who has found an old picture in a drawer knows the sudden warmth it can produce. Nobody is arguing that cameras damage memory in general. The question is narrower and, perhaps for that reason, more interesting: what do we give up when we replace attention with documentation?\n\nThere is also a quieter irony. We take photographs in order to remember, yet many of us rarely look at them again. The image is stored, tagged and forgotten, and the moment it was meant to preserve may have been experienced less fully than if the phone had stayed in the pocket. In this sense the photograph becomes a promise of future remembering that we are not always inclined to keep.\n\nNone of this calls for a ban on cameras, and the writer of this article has no intention of giving up his own. A more modest suggestion is available. Before raising the phone, we might pause for a few seconds and simply look, and then take the picture afterward, as a supplement to the experience rather than a substitute for it. The result may be a slightly slower walk through the museum, but a richer one.",
+    "questions": [
+      {
+        "prompt": "What is the writer's main purpose in the passage?",
+        "choices": [
+          "To examine whether taking photographs may weaken the memories they are meant to preserve",
+          "To persuade readers to stop visiting museums",
+          "To explain how cameras work",
+          "To prove that photographs are always unreliable"
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài đặt câu hỏi 'what do we give up when we replace attention with documentation?' và dè dặt dẫn nghiên cứu.",
+        "choiceExplanations": [
+          "Đúng — Bài xem xét việc chụp ảnh có thể làm giảm trí nhớ về chính điều muốn lưu giữ, và đề xuất cách dung hòa.",
+          "Sai — bảo tàng chỉ là bối cảnh.",
+          "Sai — bài không giải thích kỹ thuật máy ảnh.",
+          "Sai — Quá đà — bài nói ảnh có thể gợi lại mùi hương hay câu đùa, và 'None of this calls for a ban on cameras'."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The passage suggests that choosing to zoom in on one detail may reduce the negative effect of photographing.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 2: 'the effect appeared to weaken when people used the camera to zoom in on a single detail'.",
+        "choiceExplanations": [
+          "Đúng — Bài nói hiệu ứng yếu đi khi người ta phóng to một chi tiết.",
+          "Sai — bài nói điều ngược lại.",
+          "Sai — thông tin có trong đoạn 2."
+        ]
+      },
+      {
+        "prompt": "In the second paragraph, \"We outsource our remembering\" means that we",
+        "choices": [
+          "forget everything we see",
+          "remember more because we trust cameras",
+          "leave the job of remembering to something else",
+          "refuse to take pictures"
+        ],
+        "correctIndex": 2,
+        "explanation": "'Outsource' là giao việc cho bên ngoài; ở đây là giao việc nhớ cho máy ảnh.",
+        "choiceExplanations": [
+          "Sai — bài nói nhớ ít chi tiết hơn, không phải quên hết.",
+          "Sai — kết quả là nhớ ít hơn.",
+          "Đúng — Ý là ta để máy ảnh giữ ký ức thay mình.",
+          "Sai — mô tả này mâu thuẫn với việc họ chụp ảnh."
+        ]
+      },
+      {
+        "prompt": "The writer's attitude toward the research can best be described as",
+        "choices": [
+          "completely convinced",
+          "scornful",
+          "uninterested",
+          "interested yet careful about drawing conclusions"
+        ],
+        "correctIndex": 3,
+        "explanation": "Tác giả dùng 'plausible, if not yet conclusive' và 'should be handled carefully'.",
+        "choiceExplanations": [
+          "Sai — tác giả nêu nhiều hạn chế của các nghiên cứu.",
+          "Sai — không có thái độ coi thường.",
+          "Sai — tác giả bàn kỹ và gọi câu hỏi là 'more interesting'.",
+          "Đúng — Vừa thấy nghiên cứu đáng chú ý vừa nhắc các nghiên cứu nhỏ và trong môi trường nhân tạo."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-009",
+    "bac": 6,
+    "title": "The Tyranny of the Ranking",
+    "text": "Few numbers wield as much power over a school as its position in a published school ranking. A rise of three places is announced on banners and on websites; a fall of five is explained, with some embarrassment, in letters to parents. It is easy to see why. A ranking promises to reduce the complicated, many-sided life of a school to a single figure, and few of us can resist a figure that seems to tell us where we stand.\n\nThe difficulty begins when the figure becomes the goal. Consider a school, which I shall call Westbrook, that was determined to climb the ranking. Its principal noticed that the ranking depended heavily on the proportion of students achieving a certain grade in an examination. The fastest way to improve that proportion, it turned out, was not to teach better but to be more selective about who sat the exam. Students who were considered unlikely to succeed were quietly encouraged to take a different course. The school's ranking rose handsomely, and nobody had technically broken any rule.\n\nThe episode illustrates a principle that has been noticed in fields from economics to medicine: when a measure turns into a target, it ceases to be a good measure. The number was originally meant to reflect how well students were learning. Once schools began competing for the number itself, it came to reflect, in part, how skillfully they could manage it. What had been a useful instrument became a game, and like all games it rewarded cleverness rather than virtue.\n\nIt would be wrong, however, to conclude that rankings are worthless. Parents deserve some means of comparing schools, and without public figures there would be little to prevent a weak school from hiding behind vague reassurances. The sensible response is not to abolish the ranking but to be suspicious of what it can say. A single number cannot show whether a school is kind, whether it notices the shy child at the back of the class, or whether its graduates keep reading after the final exam.\n\nPerhaps the wisest approach is to treat a ranking as a conversation starter rather than a verdict. When a school proudly announces its place, the intelligent question is not \"How high?\" but \"How was that achieved, and at whose expense?\" If the answer is a good one, the figure will survive the scrutiny. If it is not, the number was never telling the truth.",
+    "questions": [
+      {
+        "prompt": "The passage as a whole argues that school rankings",
+        "choices": [
+          "should be abolished immediately",
+          "are always accurate",
+          "are mainly a matter of parents' opinions",
+          "are useful but misleading if treated as the only measure of quality"
+        ],
+        "correctIndex": 3,
+        "explanation": "Tác giả nói bảng xếp hạng có ích ('Parents deserve some means of comparing') nhưng không thể là tiêu chuẩn duy nhất.",
+        "choiceExplanations": [
+          "Sai — tác giả nói rõ 'not to abolish the ranking'.",
+          "Sai — bài chỉ ra chúng có thể bị thao túng.",
+          "Sai — bài nói về số liệu thi cử, không phải ý kiến phụ huynh.",
+          "Đúng — Cả hai mặt: cần để so sánh nhưng dễ bị biến thành mục tiêu."
+        ]
+      },
+      {
+        "prompt": "What is the purpose of the Westbrook example in the second paragraph?",
+        "choices": [
+          "To praise a school for good teaching",
+          "To show how pursuing the number can distort what a school does",
+          "To criticize one particular principal's honesty",
+          "To explain how examinations are graded"
+        ],
+        "correctIndex": 1,
+        "explanation": "Ví dụ cho thấy trường tăng hạng bằng cách chọn lọc thí sinh thay vì dạy tốt hơn.",
+        "choiceExplanations": [
+          "Sai — tăng hạng không nhờ dạy tốt hơn.",
+          "Đúng — Ví dụ minh họa luận điểm 'when a measure turns into a target...'.",
+          "Sai — bài nói 'nobody had technically broken any rule', và mục đích là minh họa nguyên lý, không công kích cá nhân.",
+          "Sai — bài không giải thích cách chấm thi."
+        ]
+      },
+      {
+        "prompt": "In the third paragraph, \"it ceases to be a good measure\" means that the measure",
+        "choices": [
+          "no longer shows what it was meant to show",
+          "is calculated with a mistake in the arithmetic",
+          "turns into a better measure",
+          "is applied to the wrong group of students"
+        ],
+        "correctIndex": 0,
+        "explanation": "Khi con số thành mục tiêu, nó bị thao túng nên không còn phản ánh việc học thật.",
+        "choiceExplanations": [
+          "Đúng — Con số 'came to reflect, in part, how skillfully they could manage it'.",
+          "Sai — Bài nói con số bị \"quản lý\" khéo léo mà không ai phạm quy tắc; không có lỗi tính toán.",
+          "Sai — ngược nghĩa.",
+          "Sai — Bài không nói con số áp dụng sai nhóm học sinh; vấn đề là con số bị biến thành mục tiêu."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The teachers at Westbrook were pleased with the school's rise in the school's ranking.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài chỉ nói thứ hạng 'rose handsomely' và nhắc hiệu trưởng; không nói gì về cảm xúc của giáo viên.",
+        "choiceExplanations": [
+          "Sai — không có thông tin nào xác nhận.",
+          "Sai — cũng không có thông tin nào phủ nhận.",
+          "Đúng — Bài không đề cập đến cảm nghĩ của giáo viên."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-010",
+    "bac": 6,
+    "title": "The Understudy",
+    "text": "Every evening in the theater, an audience settles into its seats and the lights go down, and somewhere in the building a person sits in a small room, fully dressed, waiting for something to go wrong. The understudy has learned a leading role line by line, movement by movement, without any guarantee that she will ever stand before a crowd. Tomas Reyes, an understudy at a regional theater, spent a whole season preparing for the part of a prince in a classic tragedy. He learned the lines, rehearsed the duels in an empty hallway, and attended the show every night, not knowing whether he would ever perform it.\n\nMost of the time he did not. The leading actor was healthy, reliable and, as Reyes admits with a rueful smile, annoyingly punctual. Yet the preparation was never wasted, because it changed how he listened. Unlike the rest of the cast, he had to watch the whole performance as a possibility. A pause that seemed insignificant to others might, for him, be the only chance to find his breath on a night when it mattered.\n\nThen one evening, forty minutes before curtain, the lead actor lost his voice. Reyes was handed a costume that did not quite fit and told, with admirable calm, that he was on. What followed was not, by his own account, a triumph. He forgot a line in the second act and recovered by repeating the previous one with unusual emphasis, a trick that, he suspects, only the other actors noticed. But the performance continued, the audience applauded, and nobody asked for their money back. In the theater, that counts as success.\n\nThe curious thing about the understudy's art is that its very best result is invisibility. If the substitute is competent, the evening passes much as it would have done, and the audience leaves without any sense that anything extraordinary has happened. A triumph is only discovered by those who know what was prevented. This makes the role an unusual one, demanding enormous preparation in exchange for the slimmest of recognition.\n\nReyes does not seem to resent this. He describes the experience as the best lesson in readiness he has ever received: a reminder that most of what matters in life happens not when we are prepared, but because we were. Some of us, he suggests, are always waiting in the small room, and the task is simply to be worthy of the call if it comes.",
+    "questions": [
+      {
+        "prompt": "True, False, or Not given? Reyes learned the leading role without knowing whether he would ever perform it.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 1: 'not knowing whether he would ever perform it'.",
+        "choiceExplanations": [
+          "Đúng — Câu nói trực tiếp rằng anh học vai mà không biết có diễn không.",
+          "Sai — bài khẳng định điều này.",
+          "Sai — thông tin có ngay trong đoạn 1."
+        ]
+      },
+      {
+        "prompt": "According to the passage, why was Reyes's preparation not wasted even when he did not perform?",
+        "choices": [
+          "It earned him praise from the leading actor.",
+          "It made the leading actor more punctual.",
+          "It taught him to watch the performance attentively as something he might have to take over.",
+          "It prepared him to direct the production."
+        ],
+        "correctIndex": 2,
+        "explanation": "Đoạn 2: 'it changed how he listened'; anh phải xem toàn bộ vở diễn như một khả năng.",
+        "choiceExplanations": [
+          "Sai — Bài không nhắc đến lời khen của diễn viên chính; lợi ích nêu ra là thay đổi cách anh lắng nghe.",
+          "Sai — diễn viên chính vốn đã đúng giờ.",
+          "Đúng — Việc chuẩn bị khiến anh chú ý đến từng khoảng dừng, vì có thể phải đảm nhận vai.",
+          "Sai — Không có chi tiết nào về việc anh làm đạo diễn; chỉ nói anh xem vở diễn như một khả năng phải thay thế."
+        ]
+      },
+      {
+        "prompt": "The phrase \"that counts as success\" is used to suggest that",
+        "choices": [
+          "Reyes performed flawlessly",
+          "in the theater, finishing the show without disaster is a real achievement",
+          "the audience was very generous",
+          "money matters more than quality"
+        ],
+        "correctIndex": 1,
+        "explanation": "Reyes quên lời và vẫn hoàn thành; 'nobody asked for their money back' được coi là thành công.",
+        "choiceExplanations": [
+          "Sai — anh quên một câu thoại.",
+          "Đúng — Buổi diễn tiếp tục trôi chảy và không ai đòi lại tiền; trong sân khấu như thế đã là thành công.",
+          "Sai — bài không bàn về sự hào phóng của khán giả.",
+          "Sai — thành công ở đây nói về việc buổi diễn được giữ trọn."
+        ]
+      },
+      {
+        "prompt": "What is the point of the last sentence of the passage?",
+        "choices": [
+          "Understudies should become leading actors.",
+          "Theaters ought to pay understudies more.",
+          "Preparation is useless if no one notices it.",
+          "Being ready matters even when the moment may never come."
+        ],
+        "correctIndex": 3,
+        "explanation": "Reyes nói chuẩn bị là điều đáng giá; 'be worthy of the call if it comes'.",
+        "choiceExplanations": [
+          "Sai — bài không đề xuất điều đó.",
+          "Sai — bài nói anh không oán trách.",
+          "Sai — bài khẳng định điều ngược lại.",
+          "Đúng — Câu kết nhấn mạnh sự sẵn sàng, dù cơ hội có thể không bao giờ đến."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-011",
+    "bac": 6,
+    "title": "Old Bridges, New Questions",
+    "text": "For almost two centuries, the Haldane Bridge has carried the people of a small river town from one bank to the other. It is made of local stone, humped in the middle like a sleeping animal, and wide enough for a cart and a half. Last spring, engineers announced that it could no longer safely bear the weight of modern trucks. Within a week, the town was in uproar.\n\nWhat is curious is the identity of the protesters. At the first public meeting, a succession of speakers rose to declare that the bridge was the soul of the town and that its loss would be unforgivable. Yet the local newspaper, with a mischievous sense of timing, reported that a great many of them had not crossed it on foot in years. They drove, as everyone does, over the newer road bridge a mile upstream, and regarded the old one as something to be admired from a distance, much as one admires a grandparent who lives in another city.\n\nThe council faced a decidedly contentious choice. Reinforcing the structure so that it could carry heavy traffic would cost more than a new bridge and would, by the engineers' own admission, change its appearance beyond recognition. Demolishing it and building a replacement on the same spot would be cheaper but would erase the very thing people claimed to cherish. After months of argument, a compromise emerged: a new road bridge would be built downstream, and the old one would be closed to vehicles and reserved for walkers and cyclists.\n\nThe solution satisfied almost nobody completely, which is perhaps the mark of a reasonable one. The heritage society complained that the old bridge would become a museum piece. Drivers grumbled about the additional detour. Yet something unexpected followed. Freed from traffic, the bridge began to be used in ways no one had anticipated: children fishing from its parapets, couples taking photographs in the evening, a weekly market on the Saturday after the harvest.\n\nThe episode suggests that the usual contest between preservation and progress is often misconceived. People rarely defend a monument because of its practical function; they defend it because of what it allows them to imagine about themselves. The bridge, in the end, may have been saved less by the arguments of the engineers than by the discovery that a place can be loved more intensely once it no longer has to be useful.",
+    "questions": [
+      {
+        "prompt": "What is the writer's main point about the debate over the bridge?",
+        "choices": [
+          "The council made a serious mistake.",
+          "Engineers are not to be trusted with old buildings.",
+          "People's attachment to a place may not match how they actually use it.",
+          "New bridges are always cheaper than old ones."
+        ],
+        "correctIndex": 2,
+        "explanation": "Nhiều người phản đối đã lâu không đi bộ qua cầu; bài kết luận người ta bảo vệ biểu tượng vì điều nó gợi lên.",
+        "choiceExplanations": [
+          "Sai — bài gọi giải pháp là hợp lý ('a reasonable one').",
+          "Sai — chính các kỹ sư phát hiện cầu không còn an toàn.",
+          "Đúng — Đoạn 2 và đoạn cuối: người ta bảo vệ cây cầu vì hình ảnh về bản thân, dù ít dùng nó.",
+          "Sai — bài nói sửa cầu cũ còn đắt hơn cầu mới, không khẳng định 'always'."
+        ]
+      },
+      {
+        "prompt": "What does the writer imply about many of the protesters?",
+        "choices": [
+          "They rarely used the bridge they wished to save.",
+          "They had never visited the old bridge.",
+          "They preferred the newer bridge to the old one.",
+          "They wanted the bridge to be rebuilt."
+        ],
+        "correctIndex": 0,
+        "explanation": "'A great many of them had not crossed it on foot in years' và 'They drove ... over the newer road bridge'.",
+        "choiceExplanations": [
+          "Đúng — Họ đi qua cầu mới và 'had not crossed it on foot in years'.",
+          "Sai — Quá đà — bài chỉ nói nhiều người \"had not crossed it on foot in years\", không phải chưa từng đến.",
+          "Sai — Bài chỉ nói họ lái xe qua cầu mới; không nói họ thích nó hơn, và họ còn phản đối việc mất cây cầu cũ.",
+          "Sai — họ muốn bảo tồn cầu, và việc xây lại cùng chỗ sẽ 'erase' thứ họ quý."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The new road bridge was built on the same spot as the Haldane Bridge.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 3: cầu mới được xây 'downstream'; xây tại chỗ cũ chỉ là phương án bị bác bỏ.",
+        "choiceExplanations": [
+          "Sai — bài nói cầu mới ở hạ lưu.",
+          "Đúng — Cầu mới được xây ở hạ lưu ('downstream'), cầu cũ được giữ lại cho người đi bộ.",
+          "Sai — thông tin này có trong đoạn 3."
+        ]
+      },
+      {
+        "prompt": "In the third paragraph, \"contentious\" most nearly means",
+        "choices": [
+          "inexpensive",
+          "obvious",
+          "mysterious",
+          "likely to cause disagreement"
+        ],
+        "correctIndex": 3,
+        "explanation": "Cả hai phương án đều có người phản đối, nên đây là lựa chọn gây tranh cãi.",
+        "choiceExplanations": [
+          "Sai — bài nhấn mạnh chi phí cao của một phương án.",
+          "Sai — chuyện này khó quyết định, không hề hiển nhiên.",
+          "Sai — không có điều gì bí ẩn.",
+          "Đúng — 'Contentious' = gây tranh cãi, đúng với tình huống hai phương án đều bị phản đối."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-012",
+    "bac": 6,
+    "title": "In Defense of the Difficult Book",
+    "text": "There is a fashionable assumption that reading should be effortless, and that a book which makes demands on its reader has somehow failed. Publishers promise \"unputdownable\" stories; reviewers praise novels that \"fly by\"; and any text that obliges us to slow down is likely to be accused of showing off. The assumption is understandable. We are busy, our attention is constantly under siege, and no one wishes to pay for confusion.\n\nYet there is a case to be made for the book that resists. Last year, a teacher named Ms. Adeyemi assigned her class a dense nineteenth-century novel, a work full of long sentences and unfamiliar references. By her own account, the early weeks were grim. Students complained that the prose was impenetrable, and a few suggested, not entirely in jest, that the author had been paid by the word. Then, gradually, something shifted. A student who had grumbled loudest began to read passages aloud simply because she enjoyed the sound of them. Another remarked that she had never before noticed how much she skipped when a text was easy.\n\nThat remark deserves attention. Easy reading allows the eye to travel faster than the mind, and what is understood quickly is often forgotten quickly too. A difficult book obliges us to stay with uncertainty, to hold a half-understood sentence in the head while the next one arrives, and to tolerate the unpleasant feeling of not yet knowing. These are not merely literary skills. They are the habits needed to follow any complex argument, whether in science, in law or in an ordinary disagreement with a friend.\n\nIt would be a mistake, however, to turn difficulty into a virtue in its own right. A mountain is not better than a hill merely because it is harder to climb, and some books are obscure only because their authors never learned to be clear. The reader owes no loyalty to unnecessary confusion. The point is rather that the reward is not always proportional to the speed at which it arrives, and that effort is sometimes the price of a deeper kind of pleasure.\n\nNone of this is to look down on the easy book. A light novel on a long journey is one of life's modest consolations, and nobody should be made to feel guilty for enjoying it. But a reader who never attempts anything harder may eventually find that the territory of the possible has grown smaller than it needs to be, and that the climb was less frightening than the fear of it.",
+    "questions": [
+      {
+        "prompt": "What is the writer's central argument?",
+        "choices": [
+          "Easy books are a waste of time.",
+          "Books that demand effort can develop valuable mental habits, though difficulty alone is no merit.",
+          "Nineteenth-century novels are better than modern ones.",
+          "Publishers should stop promising entertaining stories."
+        ],
+        "correctIndex": 1,
+        "explanation": "Bài bênh vực sách khó nhưng nói rõ 'turn difficulty into a virtue in its own right' là sai lầm, và không coi thường sách dễ.",
+        "choiceExplanations": [
+          "Sai — đoạn cuối nói rõ không nên coi thường sách dễ.",
+          "Đúng — Sách khó rèn khả năng chịu đựng sự mơ hồ, nhưng độ khó không phải là giá trị tự thân.",
+          "Sai — cuốn tiểu thuyết thế kỷ 19 chỉ là ví dụ, không có so sánh với sách hiện đại.",
+          "Sai — bài chỉ nêu đó là xu hướng phổ biến, không đòi nhà xuất bản thay đổi."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? Ms. Adeyemi has taught the same novel to several different classes.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 2,
+        "explanation": "Bài chỉ nói 'Last year' cô giao tiểu thuyết cho một lớp, không nói cô đã dạy lại nhiều lần.",
+        "choiceExplanations": [
+          "Sai — không có thông tin xác nhận.",
+          "Sai — cũng không có thông tin phủ nhận.",
+          "Đúng — Bài chỉ nhắc một lớp vào năm ngoái; không đề cập số lớp hay số năm cô dạy cuốn này."
+        ]
+      },
+      {
+        "prompt": "What does the writer mean by saying that difficulty is not \"a virtue in its own right\"?",
+        "choices": [
+          "Hard books are always badly written.",
+          "Nobody should read difficult books.",
+          "Reading should be done only for pleasure.",
+          "A book is not good simply because it is hard to read."
+        ],
+        "correctIndex": 3,
+        "explanation": "Ví dụ 'A mountain is not better than a hill merely because it is harder to climb' giải thích ý này.",
+        "choiceExplanations": [
+          "Sai — bài nói 'some books' mơ hồ vô ích, không phải mọi sách khó.",
+          "Sai — cả bài bênh vực sách khó.",
+          "Sai — tác giả nhấn mạnh lợi ích ngoài giải trí.",
+          "Đúng — Độ khó không tự nó làm sách hay; có sách tối nghĩa chỉ vì tác giả viết không rõ."
+        ]
+      },
+      {
+        "prompt": "The writer's attitude toward easy books is best described as",
+        "choices": [
+          "tolerant, accepting them while preferring other kinds of reading",
+          "scornful",
+          "envious",
+          "completely indifferent"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn cuối: 'nobody should be made to feel guilty for enjoying it'.",
+        "choiceExplanations": [
+          "Đúng — Tác giả coi sách nhẹ nhàng là niềm an ủi nhỏ nhưng khuyến khích thử thách hơn.",
+          "Sai — tác giả nói rõ không coi thường.",
+          "Sai — không có chi tiết thể hiện sự ghen tị.",
+          "Sai — tác giả bàn đến chúng một cách có thiện cảm."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-013",
+    "bac": 6,
+    "title": "The Night Sky We Have Misplaced",
+    "text": "For most of human history, the night sky was the common property of everyone who stepped outdoors after dark. It guided travelers, marked the seasons for farmers and provided a vast, silent canvas on which cultures wrote their myths. Today, a child growing up in a large city may never see the band of stars known as the Milky Way. It has not gone anywhere. It has simply been drowned out by the glow of our own lamps.\n\nScientists call this phenomenon light pollution, a phrase that sounds technical but describes something quite simple: light that is wasted, shining upward or sideways where nobody needs it. The consequences extend well beyond astronomy. Many nocturnal animals rely on darkness to feed or to find their way. Young sea turtles, for instance, instinctively head toward the brightest horizon, which for millions of years meant the moon on the water, and which on some coasts now means a hotel parking lot. Migrating birds can be drawn off course by lit buildings, and even plants, it appears, are affected by the length of their nights.\n\nFaced with such arguments, people often raise a fair objection: surely lighting makes streets safer? The honest answer is that the evidence is more mixed than most of us assume. Some studies suggest that brighter streets reduce certain crimes, others find little effect, and a harsh glare can actually make it harder to see what lies in the shadows. What seems to matter is not the amount of light but the way it is used. A lamp that points downward lights the sidewalk just as effectively as one that sprays light in every direction, while sending far less into the sky.\n\nThis distinction gives reason for optimism, because it means the problem is not a choice between safety and stars. Shielded fixtures, warmer colors and lights that dim when nobody is about are all available, and several towns that have adopted them report lower electricity bills as well as darker skies. The remaining obstacle is not technological but psychological. Darkness has long been associated with danger, and we tend to equate more light with more security, even when the facts are less obliging.\n\nIt would be extravagant to claim that the stars will save anyone's life. But there is something worth preserving in the experience of looking up and feeling small, and that experience is increasingly difficult to obtain. It is a curious kind of poverty to have built a civilization capable of reaching the moon and then to have mislaid the means of seeing the stars properly.",
+    "questions": [
+      {
+        "prompt": "What is the main message of the passage?",
+        "choices": [
+          "We can reduce light pollution without giving up safety, and doing so is worthwhile.",
+          "All outdoor lighting should be switched off.",
+          "Sea turtles are the animals most threatened by cities.",
+          "Astronomers should decide how cities are lit."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bài kết luận có thể giảm ô nhiễm ánh sáng bằng thiết kế đèn hợp lý mà không đánh đổi an toàn.",
+        "choiceExplanations": [
+          "Đúng — Bài nêu giải pháp (đèn có chụp, đèn dịu, đèn tự giảm sáng) và giá trị của việc giữ bầu trời đêm.",
+          "Sai — bài ủng hộ cách chiếu sáng hợp lý, không bỏ hết đèn.",
+          "Sai — rùa biển chỉ là ví dụ.",
+          "Sai — Thiên văn học chỉ là một lĩnh vực chịu ảnh hưởng; bài không giao cho giới thiên văn quyết định cách chiếu sáng."
+        ]
+      },
+      {
+        "prompt": "Why does the writer mention that the evidence about lighting and safety is \"mixed\"?",
+        "choices": [
+          "To show that streets are dangerous in the dark",
+          "To acknowledge a reasonable objection before suggesting a solution",
+          "To prove that crime is increasing",
+          "To criticize scientists"
+        ],
+        "correctIndex": 1,
+        "explanation": "Tác giả nêu phản bác 'surely lighting makes streets safer?' rồi trả lời công bằng, sau đó đưa giải pháp.",
+        "choiceExplanations": [
+          "Sai — bài nói chứng cứ không rõ ràng.",
+          "Đúng — Tác giả thừa nhận phản bác hợp lý, rồi nói điều quan trọng là cách chiếu sáng.",
+          "Sai — bài không bàn về xu hướng tội phạm.",
+          "Sai — bài không chỉ trích giới khoa học."
+        ]
+      },
+      {
+        "prompt": "In the last paragraph, the phrase \"mislaid the means of seeing the stars properly\" suggests that",
+        "choices": [
+          "the moon has become smaller",
+          "scientists cannot find the moon",
+          "we have lost something we once had through our own carelessness",
+          "astronomers have forgotten how to use telescopes"
+        ],
+        "correctIndex": 2,
+        "explanation": "'Mislaid' = để thất lạc; ý nói chúng ta tự làm mất khả năng ngắm trời đêm.",
+        "choiceExplanations": [
+          "Sai — nghĩa bóng, không nói trăng thu nhỏ.",
+          "Sai — không có ý đó.",
+          "Đúng — Chính ánh sáng do con người tạo ra đã làm ta mất trải nghiệm ngắm trời.",
+          "Sai — bài không nói về kính thiên văn."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? According to the writer, a lamp that points downward can light a sidewalk as effectively as one that sends light in all directions.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đoạn 3: 'A lamp that points downward lights the sidewalk just as effectively as one that sprays light in every direction'.",
+        "choiceExplanations": [
+          "Đúng — Khớp câu trong đoạn 3.",
+          "Sai — bài nói đúng như vậy.",
+          "Sai — thông tin được nêu rõ."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-b6-014",
+    "bac": 6,
+    "title": "A Museum of Magnificent Mistakes",
+    "text": "It takes a certain nerve to open a museum devoted entirely to failure, and the Museum of Magnificent Mistakes has nerve in abundance. Housed in a former umbrella factory, a coincidence the staff insist is accidental, it displays more than two hundred inventions that, in one way or another, did not work. There is a boot that was meant to warm the wearer's feet and which, according to the label, achieved this chiefly by catching fire. There is a clock that apologized every morning for waking its owner. There is a bicycle so ingeniously designed that nobody ever managed to ride it.\n\nThe museum's chief attraction is, undeniably, its sense of humor. Visitors move through the galleries in a state of cheerful disbelief, and I confess that I laughed aloud in front of a self-stirring teacup that, as far as anyone can tell, only stirred itself when nobody was drinking. The curators know when to leave a ridiculous object alone, and the display cases are admirably free of the solemn commentary that spoils so many exhibitions.\n\nYet it is precisely here that my reservations begin. Behind every failed invention there is a story, and the story is usually more interesting than the joke. These were not fools. Most of the inventors were skilled people trying to solve a genuine problem, and several of the devices failed only because of poor timing, unlucky competition or a manufacturer who lost his nerve. The labels, however, rarely say why anything failed, and visitors leave knowing that a thing did not work without learning what that failure might teach. A museum of mistakes that never examines its mistakes is a little like a school that hands out grades and never explains the answers.\n\nThe gift shop, to be fair, is a triumph. It sells the clock that apologizes, in a version that has been improved to the point of working, and I spent considerably more there than I intended. I suspect that this is the gentlest irony of the whole enterprise: the only invention in the building that truly succeeds is the one that persuades us to buy a souvenir of the others.\n\nI would recommend the museum without hesitation to anyone who enjoys an afternoon of laughter, and I would recommend it with some regret to anyone hoping to learn from the wreckage. With a few more sentences on each wall, it could have been something rare: an institution that makes us smile at the past and, at the same moment, think harder about the future.",
+    "questions": [
+      {
+        "prompt": "Which statement best expresses the reviewer's overall opinion of the museum?",
+        "choices": [
+          "It is a complete disappointment.",
+          "It is a perfect museum in every respect.",
+          "It is only suitable for scientists.",
+          "It is entertaining, but it misses a chance to teach."
+        ],
+        "correctIndex": 3,
+        "explanation": "Người viết khen sự hài hước nhưng tiếc vì nhãn không giải thích vì sao thất bại, với lời kết 'something rare'.",
+        "choiceExplanations": [
+          "Sai — người viết khen sự hài hước và cửa hàng.",
+          "Sai — người viết nêu rõ phần còn thiếu.",
+          "Sai — người viết khuyên cho ai thích cười.",
+          "Đúng — Khớp phần kết: 'with some regret to anyone hoping to learn from the wreckage'."
+        ]
+      },
+      {
+        "prompt": "The reviewer's tone in the passage is best described as",
+        "choices": [
+          "bitter and hostile",
+          "formal and neutral",
+          "wry and affectionate, with some criticism",
+          "excited and uncritical"
+        ],
+        "correctIndex": 2,
+        "explanation": "Người viết hóm hỉnh ('a coincidence the staff insist is accidental'), có thiện cảm và vẫn đưa ra phê bình.",
+        "choiceExplanations": [
+          "Sai — không có sự cay đắng.",
+          "Sai — giọng văn rất dí dỏm, không trung tính.",
+          "Đúng — Giọng dí dỏm, thân thiện, kèm phê bình ở đoạn 3 và lời kết.",
+          "Sai — người viết có nêu hạn chế."
+        ]
+      },
+      {
+        "prompt": "True, False, or Not given? The reviewer believes that the museum clearly explains why each invention failed.",
+        "choices": [
+          "True",
+          "False",
+          "Not given"
+        ],
+        "correctIndex": 1,
+        "explanation": "Đoạn 3: 'The labels, however, rarely say why anything failed'.",
+        "choiceExplanations": [
+          "Sai — bài nói điều ngược lại.",
+          "Đúng — Người viết phàn nàn các nhãn hiếm khi giải thích nguyên nhân thất bại.",
+          "Sai — bài nêu rõ ý kiến này."
+        ]
+      },
+      {
+        "prompt": "What does the reviewer suggest about the inventors?",
+        "choices": [
+          "They were careless people who deserved to fail.",
+          "They were often capable people whose ideas failed for various reasons.",
+          "They were mostly amateurs with no real experience.",
+          "They never intended their inventions to work."
+        ],
+        "correctIndex": 1,
+        "explanation": "'These were not fools. Most of the inventors were skilled people ... failed only because of poor timing, unlucky competition...'.",
+        "choiceExplanations": [
+          "Sai — người viết nói rõ 'not fools'.",
+          "Đúng — Người viết viết họ có kỹ năng và thất bại vì thời điểm, đối thủ hoặc nhà sản xuất.",
+          "Sai — Bài nói \"Most of the inventors were skilled people\", tức không phải nghiệp dư thiếu kinh nghiệm.",
+          "Sai — họ cố giải quyết một vấn đề thật."
+        ]
+      }
+    ]
+  }
+]

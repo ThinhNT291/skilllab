@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "en-ellipsis-substitution-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u1-clause-parallel",
+    "tags": [
+      "ell-u1-clause-parallel"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence correctly avoids repeating the subject?",
+    "choices": [
+      "Lan picked up her bag and leaving the room.",
+      "Lan picked up her bag and left the room.",
+      "Lan picked up her bag and left she the room.",
+      "Lan picked up her bag and she leave the room."
+    ],
+    "correctIndex": 1,
+    "explanation": "Hai vế có cùng chủ ngữ (Lan) nên vế sau có thể bỏ chủ ngữ, động từ giữ nguyên dạng quá khứ song song.",
+    "choiceExplanations": [
+      "Sai — 'and leaving' không song song với 'picked up'; sau and cần động từ cùng dạng.",
+      "Đúng — Lan là chủ ngữ của cả hai động từ picked và left, nên không cần nhắc lại.",
+      "Sai — 'left she the room' đặt đại từ chủ ngữ sai chỗ, sau động từ.",
+      "Sai — Nếu nhắc lại chủ ngữ thì phải chia động từ: 'she left', không phải 'she leave'."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u1-clause-parallel",
+    "tags": [
+      "ell-u1-clause-parallel"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence means that the children ran outside after the rain stopped?",
+    "choices": [
+      "The rain stopped and ran outside.",
+      "The rain stopped and ran the children outside.",
+      "The rain stopped, and the children ran outside.",
+      "The rain stopped and outside the children."
+    ],
+    "correctIndex": 2,
+    "explanation": "Chỉ được bỏ chủ ngữ khi hai vế cùng chủ ngữ. Ở đây người chạy là the children, khác chủ ngữ the rain, nên phải nêu rõ.",
+    "choiceExplanations": [
+      "Sai — Bỏ chủ ngữ khiến câu hiểu thành 'the rain ran outside' — sai nghĩa.",
+      "Sai — 'ran the children outside' dùng sai cấu trúc; ran không có tân ngữ như vậy.",
+      "Đúng — Chủ ngữ khác nhau (the rain / the children) nên vế sau phải có chủ ngữ riêng.",
+      "Sai — Câu thiếu động từ nên không hoàn chỉnh."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u1-clause-parallel",
+    "tags": [
+      "ell-u1-clause-parallel"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom emailed the teacher, and ______ replied within an hour.",
+    "choices": [
+      "replying",
+      "she",
+      "to reply",
+      "been"
+    ],
+    "correctIndex": 1,
+    "explanation": "Người trả lời là cô giáo, khác chủ ngữ Tom của vế đầu, nên cần nêu chủ ngữ she.",
+    "choiceExplanations": [
+      "Sai — 'replying' không phải dạng động từ chia nên không làm vị ngữ ở vế sau.",
+      "Đúng — Chủ ngữ khác vế trước nên phải nêu rõ: she replied.",
+      "Sai — 'to reply' không có chủ ngữ và không chia động từ.",
+      "Sai — 'been' không thể đứng một mình làm vị ngữ ở đây."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u1-clause-parallel",
+    "tags": [
+      "ell-u1-clause-parallel"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence is correct?",
+    "choices": [
+      "The students are interested and enthusiastic about robotics.",
+      "The students are interested in and enthusiastic robotics.",
+      "The students are interested in and enthusiastic about robotics.",
+      "The students are interested about and enthusiastic in robotics."
+    ],
+    "correctIndex": 2,
+    "explanation": "Hai tính từ đi với giới từ khác nhau (interested in, enthusiastic about) nên cả hai giới từ đều phải giữ.",
+    "choiceExplanations": [
+      "Sai — Bỏ in làm 'interested about' sai; interested đi với in.",
+      "Sai — Thiếu about sau enthusiastic nên không nối được với robotics.",
+      "Đúng — Giữ cả in và about nên mỗi tính từ đều đi đúng giới từ.",
+      "Sai — Hai giới từ bị đặt ngược: interested in, enthusiastic about."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u1-clause-parallel",
+    "tags": [
+      "ell-u1-clause-parallel"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She is not only a talented singer but also ______.",
+    "choices": [
+      "a gifted songwriter",
+      "writes her own songs",
+      "she writes songs",
+      "songwriting is her talent"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau not only ... but also hai thành phần phải song song: cùng là cụm danh từ (a talented singer / a gifted songwriter).",
+    "choiceExplanations": [
+      "Đúng — Cụm danh từ song song với 'a talented singer'.",
+      "Sai — 'writes her own songs' là cụm động từ, không song song với cụm danh từ.",
+      "Sai — 'she writes songs' là cả mệnh đề, phá vỡ sự song song.",
+      "Sai — 'songwriting is her talent' là mệnh đề đầy đủ, không song song."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u1-clause-parallel",
+    "tags": [
+      "ell-u1-clause-parallel"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence uses formal gapping (omitting the repeated verb) correctly?",
+    "choices": [
+      "Tom prefers tea and Mia coffee prefers.",
+      "Tom prefers tea and Mia prefer coffee.",
+      "Tom prefers tea and Mia, she coffee.",
+      "Tom prefers tea and Mia coffee."
+    ],
+    "correctIndex": 3,
+    "explanation": "Trong văn viết trang trọng có thể bỏ động từ lặp ở vế sau (gapping): Mia coffee = Mia prefers coffee.",
+    "choiceExplanations": [
+      "Sai — Đặt prefers cuối câu sai trật tự từ.",
+      "Sai — Nếu nhắc lại động từ thì phải chia prefers theo Mia (số ít).",
+      "Sai — Thêm she làm thừa chủ ngữ và dấu phẩy vô nghĩa.",
+      "Đúng — Động từ prefers được hiểu ngầm từ vế đầu."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u2-aux-ellipsis",
+    "tags": [
+      "ell-u2-aux-ellipsis"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I can't swim, but my sister ______.",
+    "choices": [
+      "can",
+      "does",
+      "is",
+      "do"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trợ động từ giữ lại phải khớp với động từ đã bị lược: can't swim → can.",
+    "choiceExplanations": [
+      "Đúng — Câu trước dùng can nên giữ can.",
+      "Sai — 'does' thay cho động từ thường, không khớp với can't.",
+      "Sai — 'is' không khớp: câu trước không có be.",
+      "Sai — 'do' không khớp với chủ ngữ số ít my sister và với can."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u2-aux-ellipsis",
+    "tags": [
+      "ell-u2-aux-ellipsis"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He doesn't like horror films, but I ______.",
+    "choices": [
+      "am",
+      "do",
+      "did",
+      "does"
+    ],
+    "correctIndex": 1,
+    "explanation": "Động từ thường ở hiện tại → dùng do/does. Chủ ngữ I nên dùng do.",
+    "choiceExplanations": [
+      "Sai — 'am' dùng cho be, không khớp động từ like.",
+      "Đúng — Thay cho 'like horror films', chủ ngữ I → do.",
+      "Sai — 'did' là quá khứ, không khớp với doesn't like (hiện tại).",
+      "Sai — 'does' dùng cho chủ ngữ số ít ngôi 3, không dùng với I."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u2-aux-ellipsis",
+    "tags": [
+      "ell-u2-aux-ellipsis"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "They haven't finished the project, but we ______.",
+    "choices": [
+      "do",
+      "has",
+      "have",
+      "are"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu trước dùng haven't (have) nên vế sau giữ have.",
+    "choiceExplanations": [
+      "Sai — 'do' không khớp thì hoàn thành.",
+      "Sai — 'has' đi với chủ ngữ số ít; chủ ngữ ở đây là we nên phải là have.",
+      "Đúng — Khớp với haven't finished.",
+      "Sai — 'are' thuộc be, không khớp."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u2-aux-ellipsis",
+    "tags": [
+      "ell-u2-aux-ellipsis"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mark isn't ready, but his brother ______.",
+    "choices": [
+      "does",
+      "has",
+      "is",
+      "can"
+    ],
+    "correctIndex": 2,
+    "explanation": "Động từ chính là be nên giữ be: isn't ready → is.",
+    "choiceExplanations": [
+      "Sai — 'does' không dùng cho be.",
+      "Sai — 'has' không khớp: câu trước dùng be.",
+      "Đúng — be được giữ lại, ready bị lược.",
+      "Sai — 'can' làm đổi nghĩa thành 'có thể' và không khớp isn't."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u2-aux-ellipsis",
+    "tags": [
+      "ell-u2-aux-ellipsis"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "'Has she been waiting long?' 'Yes, she ______.'",
+    "choices": [
+      "does",
+      "is",
+      "did",
+      "has"
+    ],
+    "correctIndex": 3,
+    "explanation": "Khi đáp ngắn, giữ trợ động từ đầu tiên: Has ... been waiting → she has.",
+    "choiceExplanations": [
+      "Sai — 'does' không khớp thì hoàn thành tiếp diễn.",
+      "Sai — 'is' không khớp: câu hỏi không bắt đầu bằng is.",
+      "Sai — 'did' là quá khứ đơn, không khớp.",
+      "Đúng — Trợ động từ đầu tiên của câu hỏi là has."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u2-aux-ellipsis",
+    "tags": [
+      "ell-u2-aux-ellipsis"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Nobody expected Sam to win, but he ______.",
+    "choices": [
+      "was",
+      "is",
+      "does",
+      "did"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ý là Sam đã thắng (quá khứ đơn): win bị lược, dùng did.",
+    "choiceExplanations": [
+      "Sai — 'was' không thay được động từ win.",
+      "Sai — is là be ở hiện tại, không thay được động từ win.",
+      "Sai — 'does' là hiện tại, sai thì.",
+      "Đúng — Thay cho 'won' ở quá khứ đơn."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u3-to-ellipsis",
+    "tags": [
+      "ell-u3-to-ellipsis"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "'Do you want to come with us?' 'I'd love ______.'",
+    "choices": [
+      "going",
+      "go",
+      "to",
+      "for"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lược động từ nhưng vẫn giữ to: I'd love to (come).",
+    "choiceExplanations": [
+      "Sai — 'going' dùng -ing thay cho to; không đúng khi lược.",
+      "Sai — 'go' thiếu to nên sai sau 'would love'.",
+      "Đúng — Giữ to, bỏ động từ come đã rõ.",
+      "Sai — 'for' không dùng ở đây."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u3-to-ellipsis",
+    "tags": [
+      "ell-u3-to-ellipsis"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I didn't clean my room because I didn't want ______.",
+    "choices": [
+      "to",
+      "clean",
+      "cleans",
+      "been"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau want dùng to; động từ clean đã rõ nên bỏ: didn't want to.",
+    "choiceExplanations": [
+      "Đúng — Giữ to, bỏ clean.",
+      "Sai — Sau want không dùng động từ nguyên thể không to.",
+      "Sai — 'cleans' sai dạng; không dùng sau want.",
+      "Sai — 'been' không phù hợp nghĩa."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u3-to-ellipsis",
+    "tags": [
+      "ell-u3-to-ellipsis"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You can join us if you want ______.",
+    "choices": [
+      "to",
+      "go",
+      "going",
+      "for"
+    ],
+    "correctIndex": 0,
+    "explanation": "Giữ to sau want khi bỏ động từ join.",
+    "choiceExplanations": [
+      "Đúng — 'if you want to' = nếu bạn muốn (tham gia).",
+      "Sai — Sau want không dùng nguyên thể không to.",
+      "Sai — 'going' không thay được to.",
+      "Sai — 'for' không đúng cấu trúc."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u3-to-ellipsis",
+    "tags": [
+      "ell-u3-to-ellipsis"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I'm not a champion yet, but I hope ______ one.",
+    "choices": [
+      "to",
+      "be",
+      "being",
+      "to be"
+    ],
+    "correctIndex": 3,
+    "explanation": "Phía sau còn bổ ngữ (one = a champion) nên phải giữ be: hope to be one.",
+    "choiceExplanations": [
+      "Sai — Bỏ be thành 'hope to one' thiếu động từ trước bổ ngữ.",
+      "Sai — Thiếu to sau hope: 'hope be' sai.",
+      "Sai — being không đi trực tiếp sau hope.",
+      "Đúng — Giữ to be để be nối với bổ ngữ 'one'."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u3-to-ellipsis",
+    "tags": [
+      "ell-u3-to-ellipsis"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She hasn't called yet, but she promised ______.",
+    "choices": [
+      "calling",
+      "to",
+      "call",
+      "for"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sau promise dùng to; call đã rõ nên bỏ.",
+    "choiceExplanations": [
+      "Sai — promise không đi với -ing.",
+      "Đúng — promise + to; bỏ call.",
+      "Sai — Thiếu to sau promise.",
+      "Sai — 'for' không đúng cấu trúc."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u3-to-ellipsis",
+    "tags": [
+      "ell-u3-to-ellipsis"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "'Why didn't you join the club?' 'Because nobody asked me ______.'",
+    "choices": [
+      "to",
+      "joining",
+      "for",
+      "join"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau ask someone dùng to; join đã rõ nên bỏ.",
+    "choiceExplanations": [
+      "Đúng — ask + người + to-infinitive; join đã rõ từ câu hỏi nên chỉ giữ to.",
+      "Sai — ask someone + V-ing không phải cấu trúc đúng; ask đi với to-infinitive.",
+      "Sai — 'asked me for' cần một danh từ theo sau, không thể kết thúc câu như vậy.",
+      "Sai — 'asked me join' thiếu to; sau ask someone phải có to."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u4-do-so-it-that",
+    "tags": [
+      "ell-u4-do-so-it-that"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "'Can you open the window?' 'Sure, I'll ______ right now.'",
+    "choices": [
+      "do so it",
+      "do it",
+      "do too",
+      "does it"
+    ],
+    "correctIndex": 1,
+    "explanation": "Do it thay cho hành động cụ thể vừa được nhờ.",
+    "choiceExplanations": [
+      "Sai — 'do so it' không tồn tại.",
+      "Đúng — do it = làm việc đó, thân mật.",
+      "Sai — 'do too' thiếu tân ngữ thay thế.",
+      "Sai — Sau will dùng nguyên thể 'do', không phải 'does'."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u4-do-so-it-that",
+    "tags": [
+      "ell-u4-do-so-it-that"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Anyone who wishes to withdraw from the course may ______ before Friday.",
+    "choices": [
+      "do such",
+      "doing so",
+      "do it so",
+      "do so"
+    ],
+    "correctIndex": 3,
+    "explanation": "Do so là cách trang trọng thay cho cụm hành động đã nói (withdraw).",
+    "choiceExplanations": [
+      "Sai — 'do such' không phải cấu trúc đúng.",
+      "Sai — sau động từ khuyết thiếu may phải là nguyên thể (do so), không dùng dạng -ing.",
+      "Sai — 'do it so' không tồn tại.",
+      "Đúng — Do so dùng trong thông báo, văn bản trang trọng."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u4-do-so-it-that",
+    "tags": [
+      "ell-u4-do-so-it-that"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "'I told the teacher it was my fault.' 'Why did you ______?'",
+    "choices": [
+      "does that",
+      "doing that",
+      "do so that",
+      "do that"
+    ],
+    "correctIndex": 3,
+    "explanation": "Do that thân mật, chỉ một việc cụ thể vừa nghe; sau did you dùng nguyên thể do.",
+    "choiceExplanations": [
+      "Sai — Sau did không chia -es.",
+      "Sai — Sau did không dùng -ing.",
+      "Sai — 'do so that' là cấu trúc chỉ mục đích khác nghĩa.",
+      "Đúng — Sau did you dùng nguyên thể: do that."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u4-do-so-it-that",
+    "tags": [
+      "ell-u4-do-so-it-that"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Tom knows the answer, and Ana ______ too.",
+    "choices": [
+      "does so",
+      "does",
+      "does it",
+      "does that"
+    ],
+    "correctIndex": 1,
+    "explanation": "Know là động từ trạng thái nên không dùng do so/it/that; chỉ dùng does.",
+    "choiceExplanations": [
+      "Sai — do so chỉ dùng cho hành động.",
+      "Đúng — Với động từ trạng thái chỉ dùng trợ động từ does.",
+      "Sai — do it chỉ dùng cho hành động.",
+      "Sai — do that chỉ dùng cho hành động."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u4-do-so-it-that",
+    "tags": [
+      "ell-u4-do-so-it-that"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Passengers must switch off their phones. Those who fail to ______ may be asked to leave.",
+    "choices": [
+      "do such",
+      "do as",
+      "do like",
+      "do so"
+    ],
+    "correctIndex": 3,
+    "explanation": "Văn phong thông báo trang trọng nên dùng do so thay cho switch off their phones.",
+    "choiceExplanations": [
+      "Sai — 'do such' sai cấu trúc.",
+      "Sai — 'do as' mang nghĩa 'làm theo' không thay hành động.",
+      "Sai — 'do like' không đúng.",
+      "Đúng — Do so là cách nói chuẩn, trang trọng."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u4-do-so-it-that",
+    "tags": [
+      "ell-u4-do-so-it-that"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence uses 'do so' correctly?",
+    "choices": [
+      "Visitors who wish to ask questions are welcome to do so.",
+      "She resembles her mother, and her brother does so too.",
+      "Anyone who wants to leave early must do so it quietly.",
+      "Students who need help should ask for it, and those who do such will be answered first."
+    ],
+    "correctIndex": 0,
+    "explanation": "Do so chỉ thay cho hành động có chủ ý (ask questions) và đứng trọn vẹn, không thêm it hay such. Với động từ trạng thái như resemble, dùng does too.",
+    "choiceExplanations": [
+      "Đúng — ask questions là hành động có chủ ý nên thay được bằng do so (to do so).",
+      "Sai — resemble là động từ trạng thái nên không dùng do so; phải nói 'her brother does too'.",
+      "Sai — do so đã thay cho cả cụm động từ, không thêm it: 'must do so quietly'.",
+      "Sai — 'do such' không phải cách thay thế động từ; phải nói 'those who do so' (hoặc 'those who do')."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u5-so-not",
+    "tags": [
+      "ell-u5-so-not"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "'Will it rain tomorrow?' 'I think ______.'",
+    "choices": [
+      "it",
+      "that",
+      "not so",
+      "so"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sau think dùng so để thay mệnh đề khẳng định.",
+    "choiceExplanations": [
+      "Sai — 'it' không thay được mệnh đề sau think.",
+      "Sai — 'that' tạo cấu trúc chưa đầy đủ.",
+      "Sai — 'not so' không dùng; phủ định là 'I don't think so'.",
+      "Đúng — I think so = tôi nghĩ là vậy."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u5-so-not",
+    "tags": [
+      "ell-u5-so-not"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "'Is the shop open on Sunday? I need to buy milk.' 'I'm afraid ______. It closes at weekends.'",
+    "choices": [
+      "so",
+      "not",
+      "not so",
+      "don't"
+    ],
+    "correctIndex": 1,
+    "explanation": "Be afraid + not thay mệnh đề phủ định: I'm afraid not.",
+    "choiceExplanations": [
+      "Sai — 'I'm afraid so' nghĩa là 'tiếc là đúng vậy' (tức là có mở), mâu thuẫn với câu sau 'It closes at weekends'.",
+      "Đúng — I'm afraid not = tiếc là không (không mở cửa).",
+      "Sai — 'not so' không dùng.",
+      "Sai — 'don't' không đứng sau I'm afraid."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u5-so-not",
+    "tags": [
+      "ell-u5-so-not"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "'Will she forgive me?' 'I don't think ______.'",
+    "choices": [
+      "not",
+      "it",
+      "so",
+      "that"
+    ],
+    "correctIndex": 2,
+    "explanation": "Phủ định của think thường là don't think so.",
+    "choiceExplanations": [
+      "Sai — 'I don't think not' là phủ định kép.",
+      "Sai — 'it' không thay mệnh đề.",
+      "Đúng — I don't think so là cách nói chuẩn.",
+      "Sai — 'that' không thay mệnh đề."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u5-so-not",
+    "tags": [
+      "ell-u5-so-not"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "'Will the test be hard?' 'I hope ______.'",
+    "choices": [
+      "not",
+      "no",
+      "don't",
+      "not so"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hope dùng 'not' cho nghĩa phủ định: I hope not.",
+    "choiceExplanations": [
+      "Đúng — I hope not = tôi hy vọng là không.",
+      "Sai — 'no' không dùng sau hope.",
+      "Sai — 'don't' không đứng sau hope.",
+      "Sai — 'not so' không dùng."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u5-so-not",
+    "tags": [
+      "ell-u5-so-not"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "'Will the rain stop soon?' Which short reply means 'I hope it won't stop soon'?",
+    "choices": [
+      "I don't hope so.",
+      "I hope not so.",
+      "I hope no.",
+      "I hope not."
+    ],
+    "correctIndex": 3,
+    "explanation": "Với hope không dùng don't; dùng I hope not.",
+    "choiceExplanations": [
+      "Sai — với hope không dùng don't: 'I don't hope so' không tự nhiên và không đúng ý.",
+      "Sai — sau hope phải là so hoặc not, không ghép 'not so'.",
+      "Sai — 'no' không thay được mệnh đề sau hope; phải dùng not.",
+      "Đúng — hope đi với not để thay mệnh đề phủ định: I hope not (= I hope it won't)."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u5-so-not",
+    "tags": [
+      "ell-u5-so-not"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Are you thirsty? If ______, there is water in the fridge.",
+    "choices": [
+      "it",
+      "so",
+      "then",
+      "thus"
+    ],
+    "correctIndex": 1,
+    "explanation": "If so = nếu vậy (nếu bạn khát).",
+    "choiceExplanations": [
+      "Sai — 'if it' cần mệnh đề sau.",
+      "Đúng — If so là cụm cố định.",
+      "Sai — 'if then' không phải cụm thay mệnh đề; muốn nói 'nếu vậy' phải dùng if so.",
+      "Sai — 'if thus' không tự nhiên."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u5-so-not",
+    "tags": [
+      "ell-u5-so-not"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I warned you the path was slippery, and I told you ______.",
+    "choices": [
+      "it",
+      "so that",
+      "so",
+      "thus"
+    ],
+    "correctIndex": 2,
+    "explanation": "I told you so là cụm cố định (đã bảo rồi mà).",
+    "choiceExplanations": [
+      "Sai — 'told you it' sai cấu trúc.",
+      "Sai — 'so that' mở đầu mệnh đề chỉ mục đích và cần mệnh đề theo sau; không phải cụm 'I told you so'.",
+      "Đúng — Cụm cố định nghĩa 'tôi đã nói rồi'.",
+      "Sai — 'thus' không dùng trong cụm này."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u6-one-ones-such",
+    "tags": [
+      "ell-u6-one-ones-such"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I lost my old phone, so I bought a new ______.",
+    "choices": [
+      "ones",
+      "one",
+      "it",
+      "that"
+    ],
+    "correctIndex": 1,
+    "explanation": "One thay danh từ đếm được số ít: a new one = a new phone.",
+    "choiceExplanations": [
+      "Sai — 'ones' là số nhiều, không khớp với a.",
+      "Đúng — a new one = một chiếc mới.",
+      "Sai — 'it' không đi với tính từ new.",
+      "Sai — 'that' không đi với a."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u6-one-ones-such",
+    "tags": [
+      "ell-u6-one-ones-such"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "These shoes are too small. Do you have bigger ______?",
+    "choices": [
+      "one",
+      "them",
+      "it",
+      "ones"
+    ],
+    "correctIndex": 3,
+    "explanation": "Shoes là số nhiều nên thay bằng ones: bigger ones.",
+    "choiceExplanations": [
+      "Sai — 'one' là số ít, không khớp shoes.",
+      "Sai — 'them' không đi với tính từ bigger.",
+      "Sai — 'it' không phù hợp số nhiều.",
+      "Đúng — bigger ones = những đôi lớn hơn."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u6-one-ones-such",
+    "tags": [
+      "ell-u6-one-ones-such"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence uses 'ones' correctly?",
+    "choices": [
+      "I don't like the red shirts; I prefer blue the ones.",
+      "I don't like the red shirts; I prefer the blues ones.",
+      "I don't like the red shirts; I prefer the blue ones.",
+      "I don't like the red shirts; I prefer the blue one's."
+    ],
+    "correctIndex": 2,
+    "explanation": "Ones đứng sau tính từ: the blue ones.",
+    "choiceExplanations": [
+      "Sai — Trật tự sai: tính từ đứng trước 'the'.",
+      "Sai — 'blues ones' thêm s thừa vào tính từ.",
+      "Đúng — Đúng trật tự: the + tính từ + ones.",
+      "Sai — 'one's' là sở hữu cách, không phải danh từ thay thế."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u6-one-ones-such",
+    "tags": [
+      "ell-u6-one-ones-such"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The air in the mountains is cleaner than ______ in the city.",
+    "choices": [
+      "one",
+      "those",
+      "that",
+      "it"
+    ],
+    "correctIndex": 2,
+    "explanation": "Air là danh từ không đếm được nên không dùng one/ones; dùng that.",
+    "choiceExplanations": [
+      "Sai — 'one' chỉ thay danh từ đếm được.",
+      "Sai — 'those' dùng cho danh từ số nhiều.",
+      "Đúng — that in the city = không khí ở thành phố.",
+      "Sai — 'it' không đi với 'in the city'."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u6-one-ones-such",
+    "tags": [
+      "ell-u6-one-ones-such"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The prices in this shop are lower than ______ in the mall.",
+    "choices": [
+      "those",
+      "that",
+      "them",
+      "it"
+    ],
+    "correctIndex": 0,
+    "explanation": "Prices số nhiều nên dùng those in the mall.",
+    "choiceExplanations": [
+      "Đúng — those = những mức giá.",
+      "Sai — 'that' dùng cho danh từ số ít.",
+      "Sai — 'them' là đại từ tân ngữ, không thay danh từ prices trong so sánh như vậy; cần those.",
+      "Sai — 'it' không phù hợp."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u6-one-ones-such",
+    "tags": [
+      "ell-u6-one-ones-such"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I forgot my umbrella, so I borrowed ______.",
+    "choices": [
+      "my brother's",
+      "my brother's one",
+      "one of my brother",
+      "the my brother's"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau sở hữu cách 's không dùng one: borrowed my brother's.",
+    "choiceExplanations": [
+      "Đúng — sau sở hữu cách 's có thể bỏ hẳn danh từ (umbrella): my brother's.",
+      "Sai — 'one' không đứng ngay sau sở hữu cách 's khi không có tính từ đi kèm.",
+      "Sai — 'one of my brother' sai cấu trúc: sau of phải là my brother's hoặc danh từ số nhiều, và nghĩa cũng lệch.",
+      "Sai — 'the' và 'my' không đi cùng nhau trước một danh từ."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u6-one-ones-such",
+    "tags": [
+      "ell-u6-one-ones-such"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She is a trained doctor and, ______, she knows how to help.",
+    "choices": [
+      "such as",
+      "as such",
+      "like such",
+      "so such"
+    ],
+    "correctIndex": 1,
+    "explanation": "As such = với tư cách đó (là bác sĩ).",
+    "choiceExplanations": [
+      "Sai — 'such as' nghĩa 'chẳng hạn như'.",
+      "Đúng — Cụm cố định 'as such'.",
+      "Sai — 'like such' không dùng.",
+      "Sai — 'so such' không dùng."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u7-comparison",
+    "tags": [
+      "ell-u7-comparison"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My brother is taller than ______.",
+    "choices": [
+      "myself",
+      "mine",
+      "me",
+      "my"
+    ],
+    "correctIndex": 2,
+    "explanation": "Khi không có động từ theo sau, than me là dạng thân mật phổ biến; trong văn trang trọng cũng có thể nói 'than I (am)'.",
+    "choiceExplanations": [
+      "Sai — myself là đại từ phản thân, chỉ dùng khi chủ ngữ cùng là I.",
+      "Sai — mine là đại từ sở hữu (của tôi), không phải 'tôi'.",
+      "Đúng — khi không có động từ theo sau, than me là dạng thân mật phổ biến (= than I am).",
+      "Sai — my là tính từ sở hữu, phải đứng trước danh từ."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u7-comparison",
+    "tags": [
+      "ell-u7-comparison"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She plays chess better than I ______.",
+    "choices": [
+      "am",
+      "have",
+      "does",
+      "do"
+    ],
+    "correctIndex": 3,
+    "explanation": "Than I + trợ động từ khớp với plays: do.",
+    "choiceExplanations": [
+      "Sai — am là be, không thay được động từ thường play.",
+      "Sai — have thuộc thì hoàn thành, không khớp với plays.",
+      "Sai — does dành cho ngôi thứ ba số ít, còn chủ ngữ ở đây là I.",
+      "Đúng — do thay cho 'play chess', khớp với plays ở hiện tại đơn và chủ ngữ I."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u7-comparison",
+    "tags": [
+      "ell-u7-comparison"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He didn't try as hard as his sister ______.",
+    "choices": [
+      "do",
+      "was",
+      "did",
+      "done"
+    ],
+    "correctIndex": 2,
+    "explanation": "Didn't try → as ... as his sister did.",
+    "choiceExplanations": [
+      "Sai — 'do' không hợp chủ ngữ his sister (ngôi thứ ba số ít) và cũng không khớp thì quá khứ.",
+      "Sai — was là be, không thay được động từ try.",
+      "Đúng — didn't try là quá khứ nên vế so sánh dùng did (thay cho 'tried hard').",
+      "Sai — 'done' là quá khứ phân từ, không đứng một mình làm trợ động từ để thay cho tried."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u7-comparison",
+    "tags": [
+      "ell-u7-comparison"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The second test was easier than ______ expected.",
+    "choices": [
+      "me",
+      "I",
+      "myself",
+      "mine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sau than có mệnh đề (expected) nên dùng chủ ngữ I.",
+    "choiceExplanations": [
+      "Sai — me là tân ngữ, không dùng làm chủ ngữ của expected.",
+      "Đúng — sau than có mệnh đề đầy đủ (… expected), nên cần đại từ chủ ngữ I.",
+      "Sai — myself là đại từ phản thân, không làm chủ ngữ.",
+      "Sai — mine là đại từ sở hữu, không làm chủ ngữ."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u7-comparison",
+    "tags": [
+      "ell-u7-comparison"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He doesn't speak as fluently as she ______.",
+    "choices": [
+      "does",
+      "is",
+      "has",
+      "do"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hiện tại đơn nên dùng does.",
+    "choiceExplanations": [
+      "Đúng — does thay cho 'speak fluently' ở hiện tại đơn.",
+      "Sai — is là be, không thay được động từ speak.",
+      "Sai — has không khớp thì hiện tại đơn của doesn't speak.",
+      "Sai — 'do' không hợp chủ ngữ she (ngôi thứ ba số ít, phải là does)."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u7-comparison",
+    "tags": [
+      "ell-u7-comparison"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence clearly means 'I like Tom more than Mia likes Tom'?",
+    "choices": [
+      "I like Tom more than Mia.",
+      "I like Tom more than Mia is.",
+      "I like Tom more than Mia does.",
+      "I like Tom more than to Mia."
+    ],
+    "correctIndex": 2,
+    "explanation": "Thêm does để rõ Mia là chủ ngữ.",
+    "choiceExplanations": [
+      "Sai — câu này mơ hồ: có thể hiểu là thích Tom hơn thích Mia.",
+      "Sai — is là be, không thay được likes, nên sai.",
+      "Đúng — thêm does cho thấy Mia là chủ ngữ của vế sau: Mia likes Tom, nên nghĩa rõ ràng.",
+      "Sai — 'than to Mia' là cấu trúc không tồn tại trong so sánh này."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u8-register-dialogue",
+    "tags": [
+      "ell-u8-register-dialogue"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Which is the full form of 'Anyone seen my keys?'",
+    "choices": [
+      "Has anyone seen my keys?",
+      "Does anyone seen my keys?",
+      "Is anyone seen my keys?",
+      "Did anyone saw my keys?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Anyone seen... = Has anyone seen...",
+    "choiceExplanations": [
+      "Đúng — anyone seen = has anyone seen: bỏ trợ động từ has ở đầu câu hỏi thân mật.",
+      "Sai — does + seen sai dạng: does đi với nguyên thể, không phải quá khứ phân từ.",
+      "Sai — 'Is anyone seen' ghép be với quá khứ phân từ nên thành câu bị động sai ngữ pháp; không phải dạng đầy đủ của 'Anyone seen...?'.",
+      "Sai — did + saw sai vì sau did phải là nguyên thể (see)."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u8-register-dialogue",
+    "tags": [
+      "ell-u8-register-dialogue"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Which is the full form of 'Want some tea?'",
+    "choices": [
+      "Do you want some tea?",
+      "Are you want some tea?",
+      "Does you want some tea?",
+      "Did you wanted some tea?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Want some tea? = Do you want some tea?",
+    "choiceExplanations": [
+      "Đúng — want some tea? = Do you want some tea?: bỏ do you ở đầu câu hỏi thân mật.",
+      "Sai — are không đi với want trong hiện tại đơn.",
+      "Sai — does không đi với chủ ngữ you.",
+      "Sai — did đã chỉ quá khứ nên không đi với wanted (thêm -ed lần hai)."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u8-register-dialogue",
+    "tags": [
+      "ell-u8-register-dialogue"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Please arrange the chairs in rows, where ______.",
+    "choices": [
+      "is possible",
+      "possibly",
+      "it possible",
+      "possible"
+    ],
+    "correctIndex": 3,
+    "explanation": "Where possible = where it is possible.",
+    "choiceExplanations": [
+      "Sai — 'where is possible' thiếu chủ ngữ it (where it is possible); dạng rút gọn đúng bỏ cả it và is.",
+      "Sai — 'where possibly' dùng trạng từ, không đúng cấu trúc này.",
+      "Sai — 'where it possible' thiếu động từ be; hoặc đủ (it is possible) hoặc rút gọn (possible).",
+      "Đúng — where possible = where it is possible, bỏ chủ ngữ và be trong văn viết trang trọng."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u8-register-dialogue",
+    "tags": [
+      "ell-u8-register-dialogue"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Though ______, she finished the race.",
+    "choices": [
+      "exhausting",
+      "exhausted",
+      "exhaust",
+      "she exhausted"
+    ],
+    "correctIndex": 1,
+    "explanation": "Though exhausted = though she was exhausted.",
+    "choiceExplanations": [
+      "Sai — exhausting nghĩa là 'gây mệt mỏi' (tả việc), không tả cảm giác của cô ấy.",
+      "Đúng — though exhausted = though she was exhausted; chủ ngữ ngầm trùng với she.",
+      "Sai — exhaust là động từ, không dùng sau though theo kiểu rút gọn này.",
+      "Sai — 'though she exhausted' không có tân ngữ nên không hoàn chỉnh; muốn đủ vế phải là 'though she was exhausted'."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u8-register-dialogue",
+    "tags": [
+      "ell-u8-register-dialogue"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Unless otherwise ______, the museum is closed on Mondays.",
+    "choices": [
+      "stated",
+      "stating",
+      "state",
+      "states"
+    ],
+    "correctIndex": 0,
+    "explanation": "Unless otherwise stated.",
+    "choiceExplanations": [
+      "Đúng — unless otherwise stated = unless it is otherwise stated, rút gọn bị động trong văn bản trang trọng.",
+      "Sai — stating là dạng chủ động, không khớp nghĩa bị động.",
+      "Sai — state là nguyên thể, không dùng sau otherwise ở đây.",
+      "Sai — states chia động từ, không dùng được trong mệnh đề rút gọn."
+    ]
+  },
+  {
+    "id": "en-ellipsis-substitution-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "ellipsis-substitution",
+    "usageId": "ell-u8-register-dialogue",
+    "tags": [
+      "ell-u8-register-dialogue"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence is most suitable for a formal essay?",
+    "choices": [
+      "Need be, committee may extend deadline.",
+      "If necessary, the committee may extend the deadline.",
+      "Might extend deadline, if need.",
+      "Anyone know if committee extend deadline?"
+    ],
+    "correctIndex": 1,
+    "explanation": "Văn viết trang trọng dùng if necessary.",
+    "choiceExplanations": [
+      "Sai — bỏ cả mạo từ lẫn chủ ngữ làm câu giống ghi chú, không dùng trong bài luận.",
+      "Đúng — if necessary là cách rút gọn chuẩn mực trong văn viết trang trọng.",
+      "Sai — câu thiếu chủ ngữ và 'if need' sai cấu trúc.",
+      "Sai — đây là kiểu lược của hội thoại thân mật, không phù hợp bài luận."
+    ]
+  }
+]

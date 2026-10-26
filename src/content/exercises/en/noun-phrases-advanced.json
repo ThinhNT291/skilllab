@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "en-noun-phrases-advanced-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u1-premodifiers",
+    "tags": [
+      "npa-u1-premodifiers"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My little brother is a ______ boy and loves astronomy.",
+    "choices": [
+      "ten-years-old",
+      "ten years old",
+      "ten-year-old",
+      "ten-year-olds"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tính từ ghép làm bổ nghĩa trước danh từ giữ danh từ số ít, có gạch nối.",
+    "choiceExplanations": [
+      "Sai — 'ten-years-old' có gạch nối nhưng giữ 'years' số nhiều; trong tính từ ghép đứng trước danh từ, danh từ phải ở số ít.",
+      "Sai — 'ten years old' viết rời chỉ dùng sau be (My brother is ten years old); đứng trước 'boy' thì phải nối bằng gạch nối và dùng 'year'.",
+      "Đúng — số + year + old đều ở số ít và có gạch nối, tạo thành tính từ ghép đứng trước 'boy'.",
+      "Sai — 'ten-year-olds' là danh từ số nhiều (những đứa trẻ mười tuổi), nên không thể bổ nghĩa cho 'boy' sau mạo từ a."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u1-premodifiers",
+    "tags": [
+      "npa-u1-premodifiers"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We took a ______ flight from Hanoi to Tokyo.",
+    "choices": [
+      "five-hour",
+      "five-hours",
+      "five hours",
+      "five-hour's"
+    ],
+    "correctIndex": 0,
+    "explanation": "Số + danh từ số ít + gạch nối làm tính từ trước danh từ.",
+    "choiceExplanations": [
+      "Đúng — 'five-hour' là tính từ ghép: số đếm + danh từ số ít + gạch nối, đứng trước 'flight'.",
+      "Sai — 'five-hours' có gạch nối nhưng vẫn để 'hours' số nhiều; danh từ trong tính từ ghép luôn ở số ít.",
+      "Sai — 'a five hours flight' vừa thiếu gạch nối vừa dùng số nhiều. Có thể nói 'a five-hour flight' hoặc 'a flight of five hours'.",
+      "Sai — không thêm 's vào tính từ ghép; 's là dấu sở hữu, còn 'five-hour' đã đủ nghĩa 'kéo dài năm tiếng'."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u1-premodifiers",
+    "tags": [
+      "npa-u1-premodifiers"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She is a ______ author whose novels have been translated into forty languages.",
+    "choices": [
+      "well-knowing",
+      "well-known",
+      "known-well",
+      "good-known"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tính từ ghép well-known (trạng từ + quá khứ phân từ), nghĩa là nổi tiếng.",
+    "choiceExplanations": [
+      "Sai — 'well-knowing' mang nghĩa chủ động 'biết rõ', còn tác giả ở đây là người 'được nhiều người biết đến' (nghĩa bị động, cần known).",
+      "Đúng — well-known (trạng từ well + quá khứ phân từ known) nghĩa là nổi tiếng, đứng trước danh từ 'author'.",
+      "Sai — trật tự bị đảo: trạng từ 'well' phải đứng trước 'known', không có dạng 'known-well'.",
+      "Sai — 'good' là tính từ, mà bộ phận đứng trước phân từ trong tính từ ghép này phải là trạng từ well; 'good-known' không phải cách nói có thật."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u1-premodifiers",
+    "tags": [
+      "npa-u1-premodifiers"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I bought these sneakers at the ______ shop on Main Street.",
+    "choices": [
+      "shoes",
+      "shoes'",
+      "shoe's",
+      "shoe"
+    ],
+    "correctIndex": 3,
+    "explanation": "Danh từ bổ nghĩa đứng trước danh từ chính ở dạng số ít.",
+    "choiceExplanations": [
+      "Sai — 'shoes shop' dùng danh từ bổ nghĩa ở số nhiều; danh từ đứng trước danh từ chính phải ở số ít (shoe shop).",
+      "Sai — dạng sở hữu số nhiều 'shoes'' không tạo ra danh từ ghép chỉ loại cửa hàng; câu cần danh từ bổ nghĩa thuần túy.",
+      "Sai — 'shoe's shop' hiểu là cửa hàng thuộc về một chiếc giày; ý của câu là cửa hàng bán giày nên không dùng 's.",
+      "Đúng — 'shoe shop' (cửa hàng giày): danh từ bổ nghĩa ở số ít, không thêm s hay 's."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u1-premodifiers",
+    "tags": [
+      "npa-u1-premodifiers"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A ______ project like this needs very careful planning.",
+    "choices": [
+      "multi-million-dollars",
+      "multi-millions-dollar",
+      "multi-million-dollar",
+      "multi million dollars"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tính từ ghép trước danh từ giữ danh từ số ít, có gạch nối.",
+    "choiceExplanations": [
+      "Sai — 'multi-million-dollars' để 'dollars' số nhiều; trong tính từ ghép trước danh từ, danh từ cuối phải ở số ít.",
+      "Sai — 'multi-millions-dollar' thêm s vào 'million' sau tiền tố multi-, trong khi cả hai thành phần đều phải ở số ít.",
+      "Đúng — 'multi-million-dollar' giữ dollar ở số ít, có gạch nối, bổ nghĩa cho 'project'.",
+      "Sai — viết rời, số nhiều và không có gạch nối nên không tạo thành một tính từ ghép bổ nghĩa cho 'project'."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u1-premodifiers",
+    "tags": [
+      "npa-u1-premodifiers"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng về cách nói tuổi của cậu bé.",
+    "choices": [
+      "The boy, who is a ten years old, won the quiz.",
+      "The boy who is ten-years won the quiz.",
+      "The boy, ten-year-olds, won the quiz.",
+      "The boy, who is ten years old, won the quiz."
+    ],
+    "correctIndex": 3,
+    "explanation": "Sau be viết rời 'ten years old'; trước danh từ mới dùng ten-year-old.",
+    "choiceExplanations": [
+      "Sai — 'who is a ten years old' thừa mạo từ a: sau be, tuổi chỉ cần 'ten years old', không có 'a'.",
+      "Sai — 'ten-years' không có old và vẫn để years số nhiều; sau be phải nói 'ten years old' (viết rời).",
+      "Sai — 'ten-year-olds' là danh từ số nhiều (những đứa trẻ mười tuổi), không dùng làm đồng vị ngữ cho 'the boy' như thế này.",
+      "Đúng — sau 'is' dùng 'ten years old' viết rời, years số nhiều; gạch nối chỉ dùng khi cụm đứng trước danh từ (a ten-year-old boy)."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u2-postmodifiers",
+    "tags": [
+      "npa-u2-postmodifiers"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The girl ______ by the window is my cousin.",
+    "choices": [
+      "stood",
+      "stands",
+      "to stand",
+      "standing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dùng V-ing để rút gọn mệnh đề quan hệ chủ động: who is standing.",
+    "choiceExplanations": [
+      "Sai — 'stood' là động từ chia; câu sẽ có hai động từ chính (stood và is) mà không có từ nối.",
+      "Sai — 'stands' cũng là động từ chia, tạo hai động từ chính trong một mệnh đề; muốn rút gọn who stands thì dùng V-ing.",
+      "Sai — 'to stand' diễn tả mục đích hay việc dự định, không dùng để chỉ cô gái đang đứng ở cạnh cửa sổ.",
+      "Đúng — 'standing' (V-ing) rút gọn 'who is standing', mang nghĩa chủ động và đang diễn ra."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u2-postmodifiers",
+    "tags": [
+      "npa-u2-postmodifiers"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There has been a sharp increase ______ the price of fuel.",
+    "choices": [
+      "of",
+      "on",
+      "in",
+      "for"
+    ],
+    "correctIndex": 2,
+    "explanation": "Danh từ increase đi với giới từ in khi nói về cái tăng.",
+    "choiceExplanations": [
+      "Sai — 'increase of' đi với con số (an increase of 5%), không đi với thứ tăng (the price of fuel).",
+      "Sai — 'increase on' không dùng để nói đại lượng nào tăng; giới từ cố định ở đây là in.",
+      "Đúng — an increase in + danh từ chỉ cái tăng (an increase in the price of fuel).",
+      "Sai — 'increase for' không diễn đạt cái gì tăng; 'for' chỉ người nhận hoặc mục đích, không đi với increase trong nghĩa này."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u2-postmodifiers",
+    "tags": [
+      "npa-u2-postmodifiers"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I was impressed by her decision ______ the team after the final.",
+    "choices": [
+      "to leave",
+      "leave",
+      "of leave",
+      "for leave"
+    ],
+    "correctIndex": 0,
+    "explanation": "Danh từ decision đi với to-infinitive.",
+    "choiceExplanations": [
+      "Đúng — danh từ decision đi với to-infinitive: the decision to leave the team.",
+      "Sai — thiếu 'to', động từ nguyên thể không thể đứng ngay sau danh từ decision.",
+      "Sai — 'of' không đi với động từ nguyên thể; sau 'decision' ta dùng to + V (hoặc 'decision about/on' + V-ing), không dùng 'of leave'.",
+      "Sai — 'for leave' sẽ thành 'vì/cho kỳ nghỉ phép' (leave là danh từ), sai nghĩa với 'rời đội'."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u2-postmodifiers",
+    "tags": [
+      "npa-u2-postmodifiers"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The books ______ by this author are very popular in our school library.",
+    "choices": [
+      "writing",
+      "wrote",
+      "are written",
+      "written"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dùng V-ed (bị động) để bổ nghĩa sau danh từ: which are written.",
+    "choiceExplanations": [
+      "Sai — 'writing' mang nghĩa chủ động, thành 'những cuốn sách đang viết tác giả này', trái với ý sách do tác giả viết.",
+      "Sai — 'wrote' là động từ chia ở quá khứ; câu sẽ có hai động từ chính (wrote và are) mà không có từ nối.",
+      "Sai — 'are written' cũng là động từ chia; câu có hai động từ chính. Muốn dùng dạng này phải thêm 'which/that'.",
+      "Đúng — 'written' (V-ed) mang nghĩa bị động, rút gọn 'which are written by this author'."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u2-postmodifiers",
+    "tags": [
+      "npa-u2-postmodifiers"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Amy was the first student ______ the new robot.",
+    "choices": [
+      "trying",
+      "tried",
+      "to try",
+      "who try"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sau the first/last/only + danh từ, thường dùng to-infinitive.",
+    "choiceExplanations": [
+      "Sai — 'trying' diễn tả cô ấy đang thử ngay lúc đó, không có nghĩa 'người đầu tiên thử'; sau the first + danh từ ta dùng to-infinitive.",
+      "Sai — 'tried' mang nghĩa bị động hoặc quá khứ; Amy là người thực hiện hành động thử, và cần dạng to-infinitive sau 'the first student'.",
+      "Đúng — 'the first student to try' là mẫu cố định: the first/last/only + danh từ + to-infinitive.",
+      "Sai — 'who try' sai chia động từ: who thay cho 'student' (số ít) nên phải là 'who tried'; dạng 'who try' không khớp với chủ ngữ số ít."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u2-postmodifiers",
+    "tags": [
+      "npa-u2-postmodifiers"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng nói về một học sinh ham học hỏi.",
+    "choices": [
+      "She is a keen to learn student.",
+      "She is a student keen to learn new things.",
+      "She is a student keen learn new things.",
+      "She is a student keen for learn new things."
+    ],
+    "correctIndex": 1,
+    "explanation": "Tính từ có bổ ngữ phải đứng sau danh từ.",
+    "choiceExplanations": [
+      "Sai — cụm tính từ có bổ ngữ (keen to learn) không được chen trước danh từ; phải đặt sau 'student'.",
+      "Đúng — 'a student keen to learn new things': tính từ kèm bổ ngữ đứng sau danh từ.",
+      "Sai — thiếu 'to' trước động từ: keen đi với to-infinitive (keen to learn), không đi với động từ nguyên thể trần.",
+      "Sai — 'keen for learn' sai cả hai chỗ: sau for phải là danh từ hoặc V-ing (keen for success), không phải động từ nguyên thể."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u2-postmodifiers",
+    "tags": [
+      "npa-u2-postmodifiers"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Everything ______ she told us turned out to be true.",
+    "choices": [
+      "that",
+      "what",
+      "who",
+      "whose"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sau everything/all/something dùng that, không dùng what.",
+    "choiceExplanations": [
+      "Đúng — sau everything dùng that (hoặc bỏ that): everything that she told us.",
+      "Sai — 'what' đã mang nghĩa 'điều mà' nên không đi sau everything; ta nói 'what she told us' hoặc 'everything that she told us'.",
+      "Sai — 'who' chỉ dùng thay cho người, mà everything là vật.",
+      "Sai — 'whose' chỉ sở hữu và cần danh từ đi liền sau, không phù hợp với 'she told us'."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u3-apposition",
+    "tags": [
+      "npa-u3-apposition"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My neighbor, ______ , taught me how to fly a kite.",
+    "choices": [
+      "retired pilot",
+      "a retired pilot",
+      "he is a retired pilot",
+      "being retired pilot"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đồng vị ngữ là một cụm danh từ đầy đủ, cần có mạo từ.",
+    "choiceExplanations": [
+      "Sai — 'retired pilot' thiếu mạo từ: đồng vị ngữ là một cụm danh từ đếm được số ít nên cần a/an/the.",
+      "Đúng — 'a retired pilot' là cụm danh từ đầy đủ, đứng giữa hai dấu phẩy để bổ sung thông tin về 'my neighbor'.",
+      "Sai — 'he is a retired pilot' là một mệnh đề độc lập có động từ riêng; chèn vào giữa hai dấu phẩy sẽ tạo câu sai cấu trúc.",
+      "Sai — 'being retired pilot' thiếu mạo từ a; hơn nữa 'being' tạo cụm phân từ chứ không phải đồng vị ngữ."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u3-apposition",
+    "tags": [
+      "npa-u3-apposition"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mount Fuji, ______ , attracts many climbers every summer.",
+    "choices": [
+      "highest mountain in Japan",
+      "it is the highest mountain in Japan",
+      "which highest mountain in Japan",
+      "the highest mountain in Japan"
+    ],
+    "correctIndex": 3,
+    "explanation": "Đồng vị ngữ cần mạo từ và không có động từ.",
+    "choiceExplanations": [
+      "Sai — 'highest mountain in Japan' thiếu mạo từ the; đồng vị ngữ cần một cụm danh từ đầy đủ.",
+      "Sai — 'it is the highest mountain...' là một mệnh đề độc lập có động từ riêng; đặt giữa hai dấu phẩy sẽ nối hai mệnh đề sai cách.",
+      "Sai — 'which highest mountain...' có which nhưng không có động từ (đúng ra phải là 'which is the highest...'); cũng thiếu mạo từ.",
+      "Đúng — 'the highest mountain in Japan' là cụm danh từ có mạo từ the, đồng vị với Mount Fuji."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u3-apposition",
+    "tags": [
+      "npa-u3-apposition"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng về dấu câu của đồng vị ngữ.",
+    "choices": [
+      "Dr. Patel our school's science coordinator, is organizing the fair.",
+      "Dr. Patel, our school's science coordinator is organizing the fair.",
+      "Dr. Patel, our school's science coordinator, is organizing the fair.",
+      "Dr. Patel; our school's science coordinator; is organizing the fair."
+    ],
+    "correctIndex": 2,
+    "explanation": "Đồng vị ngữ giữa câu phải có đủ hai dấu phẩy.",
+    "choiceExplanations": [
+      "Sai — thiếu dấu phẩy trước 'our school's science coordinator'; đồng vị ngữ giữa câu phải được bao bằng hai dấu phẩy.",
+      "Sai — chỉ có dấu phẩy mở mà thiếu dấu phẩy đóng sau 'coordinator', nên cụm đồng vị ngữ không được tách khỏi động từ 'is organizing'.",
+      "Đúng — đồng vị ngữ nằm giữa hai dấu phẩy: Dr. Patel, our school's science coordinator, is organizing the fair.",
+      "Sai — dấu chấm phẩy dùng để nối hai mệnh đề độc lập hoặc liệt kê phức tạp, không dùng để bao đồng vị ngữ."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u3-apposition",
+    "tags": [
+      "npa-u3-apposition"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hue, ______ , is famous for its imperial citadel.",
+    "choices": [
+      "imperial capital of the Nguyen dynasty",
+      "it was the imperial capital of the Nguyen dynasty",
+      "which the imperial capital of the Nguyen dynasty",
+      "the imperial capital of the Nguyen dynasty"
+    ],
+    "correctIndex": 3,
+    "explanation": "Đồng vị ngữ là một cụm danh từ đầy đủ có mạo từ (the imperial capital of the Nguyen dynasty), đặt giữa hai dấu phẩy.",
+    "choiceExplanations": [
+      "Sai — 'imperial capital of the Nguyen dynasty' thiếu mạo từ the, nên không phải cụm danh từ hoàn chỉnh.",
+      "Sai — 'it was the imperial capital...' là một mệnh đề độc lập; đặt giữa hai dấu phẩy sẽ nối hai mệnh đề sai cách.",
+      "Sai — 'which' mở mệnh đề quan hệ và phải có động từ ('which was the imperial capital...'); ở đây không có động từ.",
+      "Đúng — 'the imperial capital of the Nguyen dynasty' là cụm danh từ có the, đồng vị với Hue."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u3-apposition",
+    "tags": [
+      "npa-u3-apposition"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The news ______ the team had won delighted everyone.",
+    "choices": [
+      "that",
+      "what",
+      "which",
+      "who"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mệnh đề đồng vị với danh từ news dùng that.",
+    "choiceExplanations": [
+      "Đúng — 'the news that + mệnh đề' là mệnh đề đồng vị, giải thích nội dung của tin tức: tin rằng đội đã thắng.",
+      "Sai — 'what' không đứng sau danh từ để mở mệnh đề đồng vị; sau 'news' phải là that.",
+      "Sai — 'which' mở mệnh đề quan hệ và cần thiếu một thành phần (chủ ngữ hoặc tân ngữ), nhưng 'the team had won' đã đủ chủ ngữ, động từ.",
+      "Sai — 'who' chỉ thay cho người, mà 'news' là một sự việc."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u3-apposition",
+    "tags": [
+      "npa-u3-apposition"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ , Linh quickly became the star of the team.",
+    "choices": [
+      "Talented swimmer",
+      "Being a talented swimmer who",
+      "Talented a swimmer",
+      "A talented swimmer"
+    ],
+    "correctIndex": 3,
+    "explanation": "Đồng vị ngữ đứng đầu câu, bổ nghĩa cho chủ ngữ Linh.",
+    "choiceExplanations": [
+      "Sai — 'Talented swimmer' thiếu mạo từ a; đồng vị ngữ là cụm danh từ đếm được số ít nên cần a/an.",
+      "Sai — 'Being a talented swimmer who' có who mở mệnh đề quan hệ nhưng sau đó không có động từ, nên câu bị đứt.",
+      "Sai — 'Talented a swimmer' đặt tính từ trước mạo từ; trật tự đúng là mạo từ + tính từ + danh từ (a talented swimmer).",
+      "Đúng — 'A talented swimmer' là cụm danh từ đồng vị ngữ đứng đầu câu, bổ nghĩa cho chủ ngữ Linh."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u4-nominalisation",
+    "tags": [
+      "npa-u4-nominalisation"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The ______ of the vaccine saved millions of lives.",
+    "choices": [
+      "develop",
+      "development",
+      "developed",
+      "developmental"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sau mạo từ the cần một danh từ: develop (động từ) được danh hóa thành development.",
+    "choiceExplanations": [
+      "Sai — 'develop' là động từ; sau mạo từ The cần một danh từ.",
+      "Đúng — 'development' là danh từ chỉ quá trình phát triển, hợp với 'The ... of the vaccine' (việc phát triển vắc-xin).",
+      "Sai — 'developed' là dạng quá khứ hoặc tính từ, không đứng một mình làm danh từ sau The.",
+      "Sai — 'developmental' là tính từ (thuộc về sự phát triển), không thể làm danh từ trung tâm sau The."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u4-nominalisation",
+    "tags": [
+      "npa-u4-nominalisation"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Scientists were surprised by the ______ of a new species in the deep sea.",
+    "choices": [
+      "discover",
+      "discovery",
+      "discovered",
+      "discoverable"
+    ],
+    "correctIndex": 1,
+    "explanation": "Danh hóa: discover thành discovery, nghĩa là việc khám phá ra.",
+    "choiceExplanations": [
+      "Sai — 'discover' là động từ nguyên thể, không đứng sau 'the ... of'.",
+      "Đúng — 'discovery' là danh từ chỉ việc khám phá ra một thứ: the discovery of a new species.",
+      "Sai — 'discovered' là dạng quá khứ của động từ, không phải danh từ.",
+      "Sai — 'discoverable' là tính từ (có thể được khám phá), không làm danh từ sau 'the'."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u4-nominalisation",
+    "tags": [
+      "npa-u4-nominalisation"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The ______ of the plan disappointed us.",
+    "choices": [
+      "failure",
+      "fail",
+      "failed",
+      "fails"
+    ],
+    "correctIndex": 0,
+    "explanation": "Danh hóa: fail thành failure. Cụm 'The failure of the plan' thay cho 'The plan failed'.",
+    "choiceExplanations": [
+      "Đúng — 'failure' là danh từ làm chủ ngữ của 'disappointed'; 'The failure of the plan' thay cho 'The plan failed'.",
+      "Sai — 'fail' là động từ nguyên thể; sau mạo từ The cần danh từ.",
+      "Sai — 'failed' là dạng quá khứ của động từ (hoặc tính từ), không dùng làm danh từ sau The.",
+      "Sai — 'fails' là động từ chia ngôi thứ ba số ít, không thể làm chủ ngữ sau The."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u4-nominalisation",
+    "tags": [
+      "npa-u4-nominalisation"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A careful ______ of the data revealed a surprising pattern.",
+    "choices": [
+      "analysis",
+      "analyze",
+      "analytic",
+      "analyses"
+    ],
+    "correctIndex": 0,
+    "explanation": "Danh hóa: analyze thành analysis, đi sau tính từ careful và mạo từ a.",
+    "choiceExplanations": [
+      "Đúng — 'analysis' là danh từ số ít (sự phân tích), hợp với 'A careful ... of the data'.",
+      "Sai — 'analyze' là động từ; sau 'A careful' cần danh từ.",
+      "Sai — 'analytic' là tính từ, mà sau 'careful' phải là danh từ trung tâm.",
+      "Sai — 'analyses' là số nhiều của analysis, không đi với mạo từ số ít 'A'."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u4-nominalisation",
+    "tags": [
+      "npa-u4-nominalisation"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Students must show greater ______ for their own learning.",
+    "choices": [
+      "responsible",
+      "responsibly",
+      "responsibility",
+      "irresponsible"
+    ],
+    "correctIndex": 2,
+    "explanation": "Danh hóa tính từ responsible thành responsibility; sau tính từ so sánh greater cần một danh từ.",
+    "choiceExplanations": [
+      "Sai — 'responsible' là tính từ; sau 'greater' cần danh từ để tạo cụm 'greater responsibility'.",
+      "Sai — 'responsibly' là trạng từ (một cách có trách nhiệm), không thể làm danh từ sau greater.",
+      "Đúng — 'responsibility' là danh từ chuẩn, danh hóa của responsible; 'responsibility for' = trách nhiệm với.",
+      "Sai — 'irresponsible' là tính từ (vô trách nhiệm), không làm danh từ và trái nghĩa với ý câu."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u4-nominalisation",
+    "tags": [
+      "npa-u4-nominalisation"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn cách viết học thuật chính xác cho ý: People use more renewable energy, and this helps reduce pollution.",
+    "choices": [
+      "The increased use of renewable energy help reduce pollution.",
+      "The increased use of renewable energy helps reduce pollution.",
+      "Increased using of renewable energy helps reduce pollution.",
+      "The increased use of renewable energy which helps reduce pollution."
+    ],
+    "correctIndex": 1,
+    "explanation": "Danh hóa người ta dùng thành cụm danh từ the increased use of renewable energy; động từ helps chia theo use (số ít).",
+    "choiceExplanations": [
+      "Sai — chủ ngữ 'the increased use' là số ít nên động từ phải là helps; 'help' chia theo danh từ cuối cụm (energy) là sai.",
+      "Đúng — chủ ngữ là cụm danh từ 'the increased use of renewable energy', động từ helps chia số ít theo use.",
+      "Sai — 'Increased using of renewable energy' pha trộn danh từ và V-ing (using of); khi danh hóa dùng danh từ use hoặc V-ing mà không có of.",
+      "Sai — 'which helps' mở một mệnh đề quan hệ, nên cả câu không có động từ chính và chủ ngữ bị bỏ lửng."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u5-fact-that",
+    "tags": [
+      "npa-u5-fact-that"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Despite the fact ______ he was nervous, he gave an excellent speech.",
+    "choices": [
+      "that",
+      "what",
+      "of",
+      "which"
+    ],
+    "correctIndex": 0,
+    "explanation": "Despite the fact that + mệnh đề. That là bắt buộc trong cụm cố định này.",
+    "choiceExplanations": [
+      "Đúng — 'the fact that + mệnh đề' (he was nervous); that là bắt buộc trong cụm cố định despite the fact that.",
+      "Sai — 'what' không đi sau 'fact' để mở mệnh đề; ta phải dùng that.",
+      "Sai — 'of' đi với danh từ hoặc V-ing (the fact of being nervous), không đứng trước một mệnh đề đầy đủ.",
+      "Sai — 'which' mở mệnh đề quan hệ nhưng 'he was nervous' đã đủ chủ ngữ và động từ, không thiếu thành phần."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u5-fact-that",
+    "tags": [
+      "npa-u5-fact-that"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the park is free makes it popular with families.",
+    "choices": [
+      "The fact that",
+      "Fact that",
+      "That fact",
+      "The fact what"
+    ],
+    "correctIndex": 0,
+    "explanation": "Muốn dùng cả mệnh đề làm chủ ngữ, nói the fact that + mệnh đề.",
+    "choiceExplanations": [
+      "Đúng — 'The fact that + mệnh đề' làm chủ ngữ; động từ 'makes' chia theo fact (số ít).",
+      "Sai — 'Fact that' thiếu mạo từ the; fact là danh từ đếm được nên cần hạn định từ.",
+      "Sai — 'That fact' chỉ một sự việc đã nhắc đến trước đó, không mở được mệnh đề 'the park is free'.",
+      "Sai — 'The fact what' dùng what thay cho that; sau fact phải là that."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u5-fact-that",
+    "tags": [
+      "npa-u5-fact-that"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ it was raining, we went hiking.",
+    "choices": [
+      "In spite of that",
+      "In spite the fact that",
+      "Despite of the fact that",
+      "In spite of the fact that"
+    ],
+    "correctIndex": 3,
+    "explanation": "In spite of the fact that + mệnh đề. Thiếu of hoặc thêm of đều sai.",
+    "choiceExplanations": [
+      "Sai — 'In spite of that' dùng như trạng ngữ đứng riêng, không nối được với mệnh đề 'it was raining' (thiếu fact).",
+      "Sai — 'in spite' luôn đi với of; thiếu of là sai.",
+      "Sai — 'despite' đã là giới từ rồi, không đi với of ('despite of' là lỗi hay gặp).",
+      "Đúng — 'In spite of the fact that' là cụm liên từ trang trọng, theo sau là một mệnh đề đầy đủ."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u5-fact-that",
+    "tags": [
+      "npa-u5-fact-that"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The fact that students use phones in class ______ a problem for some teachers.",
+    "choices": [
+      "is",
+      "are",
+      "were being",
+      "have"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chủ ngữ là The fact (số ít), không phải students.",
+    "choiceExplanations": [
+      "Đúng — chủ ngữ là 'The fact' (số ít) nên dùng is.",
+      "Sai — 'are' chia theo 'students' nằm trong mệnh đề that, nhưng chủ ngữ của động từ chính là 'The fact'.",
+      "Sai — 'were being' sai thì (câu nói chung ở hiện tại) và dạng tiếp diễn bị động không hợp với 'a problem'.",
+      "Sai — 'have' không phải động từ nối với 'a problem' và sai ngôi vì chủ ngữ số ít."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u5-fact-that",
+    "tags": [
+      "npa-u5-fact-that"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng về cấu trúc the fact that.",
+    "choices": [
+      "The fact that so many people recycle show that attitudes are changing.",
+      "The fact so many people recycle that shows attitudes are changing.",
+      "The fact that so many people recycle shows that attitudes are changing.",
+      "Fact that so many people recycle shows that attitudes are changing."
+    ],
+    "correctIndex": 2,
+    "explanation": "Cả cụm The fact that ... recycle là chủ ngữ số ít; động từ chính là shows.",
+    "choiceExplanations": [
+      "Sai — 'show' chia theo 'people', nhưng chủ ngữ thật của câu là 'The fact that ... recycle' (số ít) nên phải là shows.",
+      "Sai — that bị đặt sai vị trí ('The fact so many people recycle that shows'), làm vỡ cấu trúc the fact that + mệnh đề.",
+      "Đúng — 'The fact that so many people recycle' là chủ ngữ số ít, động từ chính là shows.",
+      "Sai — 'Fact that ...' thiếu mạo từ the, không dùng trong văn viết chuẩn."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u6-quantifiers",
+    "tags": [
+      "npa-u6-quantifiers"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She has done a great deal of ______ on climate change.",
+    "choices": [
+      "research",
+      "researches",
+      "a research",
+      "experiments"
+    ],
+    "correctIndex": 0,
+    "explanation": "A great deal of đi với danh từ không đếm được; research là danh từ không đếm được.",
+    "choiceExplanations": [
+      "Đúng — 'research' là danh từ không đếm được, đi với 'a great deal of' và không thêm s.",
+      "Sai — 'researches' là số nhiều; 'a great deal of' chỉ đi với danh từ không đếm được.",
+      "Sai — 'a research' có mạo từ a, mà sau 'a great deal of' không dùng thêm a và research ở đây không đếm được.",
+      "Sai — 'experiments' là danh từ đếm được số nhiều, mà 'a great deal of' chỉ đi với danh từ không đếm được (với danh từ số nhiều dùng 'a number of')."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u6-quantifiers",
+    "tags": [
+      "npa-u6-quantifiers"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We invited our classmates, and ______ them came to the party.",
+    "choices": [
+      "all",
+      "all of",
+      "every of",
+      "whole of"
+    ],
+    "correctIndex": 1,
+    "explanation": "Khi sau all là đại từ (them) phải có of.",
+    "choiceExplanations": [
+      "Sai — 'all them' thiếu of: trước đại từ như them, all phải đi kèm of.",
+      "Đúng — 'all of them' = tất cả bọn họ; of bắt buộc khi sau all là đại từ.",
+      "Sai — 'every' là hạn định từ, không đi với of và đại từ (phải là every one of them).",
+      "Sai — 'whole of them' không tự nhiên: whole đi với danh từ số ít (the whole class), không đi với đại từ them."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u6-quantifiers",
+    "tags": [
+      "npa-u6-quantifiers"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A number of students ______ late for the trip yesterday.",
+    "choices": [
+      "was",
+      "is",
+      "were",
+      "has been"
+    ],
+    "correctIndex": 2,
+    "explanation": "A number of + danh từ số nhiều dùng động từ số nhiều; yesterday cần quá khứ.",
+    "choiceExplanations": [
+      "Sai — 'was' là số ít; 'a number of students' nghĩa là 'một số học sinh' nên dùng động từ số nhiều (khác với 'the number of').",
+      "Sai — 'is' số ít và ở hiện tại, trong khi có 'yesterday' đòi hỏi thì quá khứ.",
+      "Đúng — 'a number of students' đi với động từ số nhiều, quá khứ là were.",
+      "Sai — 'has been' là hiện tại hoàn thành số ít, sai với 'yesterday' và sai số."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u6-quantifiers",
+    "tags": [
+      "npa-u6-quantifiers"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Each of ______ received a medal.",
+    "choices": [
+      "player",
+      "the players",
+      "players",
+      "a player"
+    ],
+    "correctIndex": 1,
+    "explanation": "Each of phải đi với hạn định từ + danh từ số nhiều.",
+    "choiceExplanations": [
+      "Sai — 'each of player' thiếu hạn định từ và danh từ ở số ít; sau 'each of' phải có hạn định từ và danh từ số nhiều.",
+      "Đúng — 'each of the players': each of + hạn định từ + danh từ số nhiều.",
+      "Sai — 'each of players' thiếu hạn định từ (the/his/these) giữa of và danh từ.",
+      "Sai — 'each of a player' vô nghĩa: sau 'each of' phải là cả nhóm số nhiều, không phải một người."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u6-quantifiers",
+    "tags": [
+      "npa-u6-quantifiers"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The number of students who joined the club ______ rising steadily.",
+    "choices": [
+      "are",
+      "is",
+      "were",
+      "have"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chủ ngữ là the number (số ít), không phải students; một con số chỉ có thể là số ít.",
+    "choiceExplanations": [
+      "Sai — 'are' chia theo students, nhưng chủ ngữ thật là 'The number' (số ít).",
+      "Đúng — 'the number of + danh từ số nhiều' đi với động từ số ít: The number ... is rising.",
+      "Sai — 'were' là quá khứ số nhiều, sai cả thì lẫn số vì 'steadily' diễn tả quá trình đang diễn ra.",
+      "Sai — 'have rising' sai cấu trúc; phải là 'has been rising', và have không hợp với chủ ngữ số ít."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u6-quantifiers",
+    "tags": [
+      "npa-u6-quantifiers"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A handful of ______ stayed to clean the playground.",
+    "choices": [
+      "volunteer",
+      "volunteer's",
+      "much volunteers",
+      "volunteers"
+    ],
+    "correctIndex": 3,
+    "explanation": "A handful of + danh từ số nhiều đếm được.",
+    "choiceExplanations": [
+      "Sai — 'volunteer' ở số ít; sau 'a handful of' phải là danh từ số nhiều đếm được.",
+      "Sai — 'volunteer's' là dạng sở hữu và cần một danh từ theo sau, nên không dùng được sau 'a handful of'.",
+      "Sai — 'much' chỉ đi với danh từ không đếm được, còn volunteers đếm được; much cũng thừa sau 'a handful of'.",
+      "Đúng — 'volunteers' (số nhiều) hợp với 'a handful of', nghĩa là một vài người."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u6-quantifiers",
+    "tags": [
+      "npa-u6-quantifiers"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The majority of the water in the lake ______ polluted.",
+    "choices": [
+      "are",
+      "were being",
+      "is",
+      "have been"
+    ],
+    "correctIndex": 2,
+    "explanation": "Với the majority of, động từ chia theo danh từ sau of; water không đếm được nên số ít.",
+    "choiceExplanations": [
+      "Sai — 'are' dùng khi danh từ sau of là số nhiều (the majority of the students are); water là không đếm được.",
+      "Sai — 'were being' sai thì (câu nói tình trạng hiện tại) và dạng số nhiều không khớp với water.",
+      "Đúng — với the majority of, động từ chia theo danh từ sau of; water không đếm được nên dùng is.",
+      "Sai — 'have been' là số nhiều, không hợp với water."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u7-possessives",
+    "tags": [
+      "npa-u7-possessives"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hoa is a close friend ______ .",
+    "choices": [
+      "of me",
+      "of my",
+      "of mine",
+      "my"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sở hữu kép: of + đại từ sở hữu (mine, yours, hers...).",
+    "choiceExplanations": [
+      "Sai — 'me' là đại từ tân ngữ; trong sở hữu kép sau of phải là đại từ sở hữu (mine).",
+      "Sai — 'my' là tính từ sở hữu, luôn cần danh từ đi sau (my friend); đứng một mình phải dùng mine.",
+      "Đúng — 'a close friend of mine' = một người bạn thân của tôi (sở hữu kép: of + đại từ sở hữu).",
+      "Sai — 'friend my' đảo trật tự và thiếu of, không phải cách nói của tiếng Anh."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u7-possessives",
+    "tags": [
+      "npa-u7-possessives"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The cover ______ was torn.",
+    "choices": [
+      "the book's",
+      "of book",
+      "of the book",
+      "book's of"
+    ],
+    "correctIndex": 2,
+    "explanation": "Với vật, dùng of: the cover of the book.",
+    "choiceExplanations": [
+      "Sai — ghép vào thành 'The cover the book's was torn', thiếu of và sai trật tự ('s phải đứng ngay sau danh từ sở hữu và đứng trước vật bị sở hữu).",
+      "Sai — 'of book' thiếu mạo từ the; danh từ đếm được số ít cần hạn định từ.",
+      "Đúng — 'the cover of the book': với vật, ta thường dùng of + danh từ.",
+      "Sai — \"book's of\" đảo trật tự: 's phải đứng trước danh từ bị sở hữu, và không đi với of."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u7-possessives",
+    "tags": [
+      "npa-u7-possessives"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I read ______ newspaper on the bus.",
+    "choices": [
+      "yesterdays",
+      "of yesterday",
+      "yesterday",
+      "yesterday's"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cụm thời gian dùng 's: yesterday's newspaper, today's news.",
+    "choiceExplanations": [
+      "Sai — 'yesterdays' (số nhiều) không dùng để bổ nghĩa cho newspaper.",
+      "Sai — 'of yesterday' đứng sau danh từ (the newspaper of yesterday) chứ không đứng trước 'newspaper'.",
+      "Sai — 'yesterday' đứng một mình là trạng từ, không bổ nghĩa cho danh từ; cần thêm 's.",
+      "Đúng — 'yesterday's newspaper' = tờ báo của hôm qua; cụm chỉ thời gian dùng 's."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u7-possessives",
+    "tags": [
+      "npa-u7-possessives"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I found ______ under the sofa.",
+    "choices": [
+      "that old watch of my grandfather",
+      "that old watch of him",
+      "that old watch of my grandfather's",
+      "that my grandfather old watch"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sở hữu kép với danh từ chỉ người: of + danh từ + 's.",
+    "choiceExplanations": [
+      "Sai — thiếu 's sau grandfather; sở hữu kép phải là 'of my grandfather's'.",
+      "Sai — 'of him' sai dạng đại từ: him là đại từ tân ngữ, phải dùng his (that old watch of his).",
+      "Đúng — 'that old watch of my grandfather's' là sở hữu kép: of + danh từ chỉ người + 's, nghĩa là chiếc đồng hồ cũ ấy của ông.",
+      "Sai — 'my grandfather old watch' thiếu of và đặt danh từ sở hữu không có 's trước tính từ, sai cấu trúc."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u7-possessives",
+    "tags": [
+      "npa-u7-possessives"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Ba and Lan own the house together, so it is ______ .",
+    "choices": [
+      "Ba and Lans' house",
+      "Ba and Lan's house",
+      "Ba and Lan' house",
+      "Ba' and Lan house"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hai người cùng sở hữu thì chỉ thêm 's cho người thứ hai.",
+    "choiceExplanations": [
+      "Sai — 'Lans'' thêm s không cần thiết; tên Lan là số ít, chỉ cần 's.",
+      "Đúng — 'Ba and Lan's house': hai người cùng sở hữu một vật thì chỉ thêm 's vào người thứ hai.",
+      "Sai — 'Lan'' chỉ có dấu nháy thiếu s; danh từ số ít thêm 's chứ không chỉ thêm dấu nháy.",
+      "Sai — 'Ba'' sai vị trí dấu sở hữu; trong sở hữu chung, 's đặt ở người cuối cùng, không đặt ở người đầu."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u7-possessives",
+    "tags": [
+      "npa-u7-possessives"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The beach is only ______ from here.",
+    "choices": [
+      "two hour's drive",
+      "two hours drive's",
+      "two-hours drive",
+      "two hours' drive"
+    ],
+    "correctIndex": 3,
+    "explanation": "Khoảng thời gian số nhiều: two hours' (dấu nháy sau s).",
+    "choiceExplanations": [
+      "Sai — \"hour's\" là số ít, không khớp với 'two'; hai giờ phải là hours'.",
+      "Sai — \"drive's\" gắn nhầm 's vào danh từ chính 'drive'; dấu sở hữu phải gắn vào 'hours'.",
+      "Sai — 'two-hours drive' có gạch nối nhưng giữ hours số nhiều; nếu dùng gạch nối phải là 'a two-hour drive'.",
+      "Đúng — \"two hours' drive\": danh từ số nhiều đã có s nên chỉ thêm dấu nháy."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u8-complex-structure",
+    "tags": [
+      "npa-u8-complex-structure"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ students in our class passed the test.",
+    "choices": [
+      "All the",
+      "The all",
+      "All of",
+      "Every the"
+    ],
+    "correctIndex": 0,
+    "explanation": "All là tiền hạn định từ, đứng trước the.",
+    "choiceExplanations": [
+      "Đúng — 'All the students': all là tiền hạn định từ, đứng trước the.",
+      "Sai — 'The all' đặt the trước all; all phải đứng trước the.",
+      "Sai — 'All of students' thiếu hạn định từ sau of (phải là all of the students).",
+      "Sai — 'Every the' không dùng được: every đã là hạn định từ nên không đi cùng the, và every đi với danh từ số ít."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u8-complex-structure",
+    "tags": [
+      "npa-u8-complex-structure"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What ______ view!",
+    "choices": [
+      "beautiful a",
+      "a beautiful",
+      "the beautiful",
+      "beautiful"
+    ],
+    "correctIndex": 1,
+    "explanation": "What + a/an + tính từ + danh từ số ít đếm được.",
+    "choiceExplanations": [
+      "Sai — 'beautiful a' đặt a sau tính từ; trong câu cảm thán, a đứng ngay sau What và trước tính từ.",
+      "Đúng — 'What a beautiful view!': What + a/an + tính từ + danh từ số ít đếm được.",
+      "Sai — câu cảm thán với What dùng a/an chứ không dùng the.",
+      "Sai — 'What beautiful view' thiếu a; 'view' là danh từ đếm được số ít nên cần a."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u8-complex-structure",
+    "tags": [
+      "npa-u8-complex-structure"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "That was ______ idea!",
+    "choices": [
+      "such a great",
+      "a such great",
+      "such great an",
+      "so a great"
+    ],
+    "correctIndex": 0,
+    "explanation": "Such đứng trước a/an.",
+    "choiceExplanations": [
+      "Đúng — 'such a great idea': such đứng trước a/an + tính từ + danh từ.",
+      "Sai — 'a such great' đặt a trước such; such phải đứng trước mạo từ.",
+      "Sai — 'such great an idea' đặt an sau tính từ; sau such, mạo từ đứng ngay trước tính từ (such a great idea).",
+      "Sai — 'so a great' không dùng được: so không đi trực tiếp với a + tính từ + danh từ, ta nói 'such a great idea'."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u8-complex-structure",
+    "tags": [
+      "npa-u8-complex-structure"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Read ______ of the novel before Friday.",
+    "choices": [
+      "the three first chapters",
+      "first the three chapters",
+      "three the first chapters",
+      "the first three chapters"
+    ],
+    "correctIndex": 3,
+    "explanation": "Số thứ tự đứng trước số đếm: the first three.",
+    "choiceExplanations": [
+      "Sai — 'the three first chapters' đặt số đếm trước số thứ tự; số thứ tự (first) phải đứng trước số đếm (three).",
+      "Sai — 'first the three chapters' đặt first trước mạo từ the; mạo từ phải đứng đầu cụm.",
+      "Sai — 'three the first chapters' đặt số đếm trước mạo từ; the phải đứng đầu cụm, trước cả số thứ tự và số đếm.",
+      "Đúng — 'the first three chapters': mạo từ + số thứ tự + số đếm + danh từ."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u8-complex-structure",
+    "tags": [
+      "npa-u8-complex-structure"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We waited for ______ hour.",
+    "choices": [
+      "an half",
+      "half an",
+      "half the an",
+      "halves an"
+    ],
+    "correctIndex": 1,
+    "explanation": "Half đứng trước an: half an hour.",
+    "choiceExplanations": [
+      "Sai — 'an half' đặt an trước half; half là tiền hạn định từ nên phải đứng trước an.",
+      "Đúng — 'half an hour': half đứng trước mạo từ an.",
+      "Sai — 'half the an' dùng cùng lúc hai mạo từ the và an, không có cách nói này.",
+      "Sai — 'halves' là số nhiều của half, không đi với mạo từ số ít an và danh từ hour."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u8-complex-structure",
+    "tags": [
+      "npa-u8-complex-structure"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The ______ won the national award.",
+    "choices": [
+      "captain team football school",
+      "football school captain team",
+      "team captain school football",
+      "school football team captain"
+    ],
+    "correctIndex": 3,
+    "explanation": "Danh từ chính đứng cuối cụm; các danh từ bổ nghĩa xếp phạm vi lớn đến nhỏ.",
+    "choiceExplanations": [
+      "Sai — 'captain team football school' đặt danh từ chính captain ở đầu; danh từ chính luôn đứng cuối cụm.",
+      "Sai — 'football school captain team' kết thúc bằng team nên danh từ chính là 'đội', nghĩa thành 'đội của đội trưởng trường bóng đá', sai ý.",
+      "Sai — 'team captain school football' kết thúc bằng football, nên danh từ chính là 'bóng đá', không phải người nhận giải.",
+      "Đúng — 'school football team captain': captain là danh từ chính ở cuối, các bổ nghĩa xếp theo thứ tự school, football, team."
+    ]
+  },
+  {
+    "id": "en-noun-phrases-advanced-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "noun-phrases-advanced",
+    "usageId": "npa-u8-complex-structure",
+    "tags": [
+      "npa-u8-complex-structure"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng về trật tự trong cụm danh từ.",
+    "choices": [
+      "All the other students in the lab wore the new white coats.",
+      "The all other students in the lab wore the new white coats.",
+      "All the others students in the lab wore the new white coats.",
+      "All other the students in the lab wore the new white coats."
+    ],
+    "correctIndex": 0,
+    "explanation": "Trật tự: all + the + other + danh từ.",
+    "choiceExplanations": [
+      "Đúng — 'All the other students': all + the + other + danh từ.",
+      "Sai — 'The all other' đặt the trước all; all phải đứng trước the.",
+      "Sai — 'the others students' dùng others (đại từ số nhiều) trước danh từ; trước danh từ chỉ dùng other.",
+      "Sai — 'All other the students' đặt other trước the; the phải đứng trước other."
+    ]
+  }
+]

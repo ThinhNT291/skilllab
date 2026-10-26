@@ -1,0 +1,321 @@
+{
+  "id": "style-and-register",
+  "language": "en",
+  "title": "Văn phong và mức độ trang trọng (Style & Register)",
+  "levels": [
+    "C1",
+    "C2"
+  ],
+  "order": 40,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "sr-u1-who-whom",
+        "bac": 5,
+        "label": "Who và whom: chọn dạng theo mức trang trọng",
+        "explanationVi": "Whom là dạng tân ngữ của who. Trong văn viết trang trọng, dùng whom khi từ này là tân ngữ hoặc đứng ngay sau giới từ: the candidate whom we interviewed, to whom it may concern. Trong lời nói và văn thân mật, người bản ngữ thường dùng who (Who did you invite?). Cái bẫy lớn nhất là 'dùng whom cho sang': khi từ hỏi là CHỦ NGỮ của động từ thì chỉ được dùng who (Who do you think organized it? vì who organized). Mẹo kiểm tra: thay bằng he/she thì chọn who, thay bằng him/her thì chọn whom. Cặp whoever/whomever theo cùng quy tắc, nhưng chọn theo vai trò trong mệnh đề riêng của nó: Give it to whoever deserves it (whoever là chủ ngữ của deserves, dù đứng sau to).",
+        "examples": [
+          {
+            "en": "To whom should the complaint be addressed?",
+            "vi": "Đơn khiếu nại nên gửi cho ai?"
+          },
+          {
+            "en": "Who do you think designed the poster? (he designed)",
+            "vi": "Bạn nghĩ ai đã thiết kế tấm áp phích? (chủ ngữ nên dùng who)"
+          },
+          {
+            "en": "The prize goes to whoever finishes first.",
+            "vi": "Giải thưởng thuộc về ai về đích đầu tiên."
+          }
+        ]
+      },
+      {
+        "id": "sr-u2-stranding-piedpiping",
+        "bac": 5,
+        "label": "Giới từ ở cuối câu và giới từ đứng trước whom/which",
+        "explanationVi": "Có hai cách đặt giới từ trong mệnh đề quan hệ. Cách thân mật (preposition stranding): giới từ nằm cuối mệnh đề, và dùng that, who hoặc bỏ luôn đại từ: the topic (that) we talked about. Cách trang trọng (pied-piping): giới từ đi trước whom/which: the topic about which we talked. Khi giới từ đứng trước đại từ thì CHỈ được dùng whom hoặc which, không dùng that: không nói 'the pen with that I wrote'. Văn viết trang trọng còn dùng lượng từ + of whom/of which để thêm thông tin: forty members, most of whom are under fifteen. Đặt giới từ ở cuối câu KHÔNG sai; đây là lựa chọn về văn phong, và quy tắc 'không được kết thúc câu bằng giới từ' là một lầm tưởng.",
+        "examples": [
+          {
+            "en": "These are the conditions under which the agreement may be ended.",
+            "vi": "Đây là những điều kiện mà thỏa thuận có thể chấm dứt."
+          },
+          {
+            "en": "That's the café I told you about.",
+            "vi": "Đó là quán cà phê mình đã kể với bạn."
+          },
+          {
+            "en": "The club has forty members, most of whom are under fifteen.",
+            "vi": "Câu lạc bộ có bốn mươi thành viên, phần lớn dưới mười lăm tuổi."
+          }
+        ]
+      },
+      {
+        "id": "sr-u3-pronoun-case",
+        "bac": 5,
+        "label": "Đại từ sau as, than và sau liên từ: I hay me",
+        "explanationVi": "Sau as và than, văn viết trang trọng xem đây là mệnh đề rút gọn nên dùng đại từ chủ ngữ: She is taller than I (am); Few worked as hard as she did. Trong lời nói thường ngày, người ta dùng me/him/her: taller than me. Hai cách đều tồn tại, nhưng khi có trợ động từ theo sau thì bắt buộc dùng đại từ chủ ngữ (than I am, không phải 'than me am'). Cẩn thận với nghĩa: He likes the dog more than I (do) = anh ấy thích con chó hơn tôi thích nó; còn He likes the dog more than me thường hiểu là anh ấy thích con chó hơn thích tôi. Trong lời nói câu sau dễ mơ hồ, nên muốn rõ hãy thêm động từ (than he likes me / than I do). Chiều ngược lại cũng là bẫy: sau giới từ và động từ, đại từ phải là dạng tân ngữ dù đi với tên người: between you and me, invited Tom and me (không dùng 'and I' cho sang). Trả lời cực kỳ trang trọng có thể là It was I, còn thường ngày là It was me.",
+        "examples": [
+          {
+            "en": "My sister is far more patient than I am.",
+            "vi": "Chị tôi kiên nhẫn hơn tôi nhiều."
+          },
+          {
+            "en": "She invited Tom and me to the concert.",
+            "vi": "Cô ấy mời Tom và tôi đến buổi hòa nhạc."
+          },
+          {
+            "en": "He likes the dog more than he likes me.",
+            "vi": "Anh ấy thích con chó hơn là thích tôi."
+          }
+        ]
+      },
+      {
+        "id": "sr-u4-that-omission",
+        "bac": 5,
+        "label": "Lược that và những chỗ không được lược",
+        "explanationVi": "Trong lời nói và văn thân mật, that thường bị lược sau động từ báo cáo/suy nghĩ và sau tính từ: I think (that) it will rain; I'm sure (that) he'll come; hoặc khi that là tân ngữ của mệnh đề quan hệ: the song (that) I heard. Văn bản trang trọng hay giữ that để câu rõ ràng (We regret to inform you that...). Có bốn chỗ cần giữ that, trong đó hai chỗ là bắt buộc: (1) mệnh đề làm chủ ngữ: That he lied surprised everyone; (3) that là CHỦ ngữ của mệnh đề quan hệ: the girl that lives next door. Hai chỗ còn lại nên giữ trong văn viết: (2) mệnh đề giải thích cho danh từ trừu tượng: the fact that, the news that, the idea that; (4) khi có cụm xen giữa động từ và mệnh đề: She told the committee, in a calm voice, that the project had failed.",
+        "examples": [
+          {
+            "en": "I think (that) it's going to rain.",
+            "vi": "Mình nghĩ trời sắp mưa."
+          },
+          {
+            "en": "That the experiment failed twice did not discourage the team.",
+            "vi": "Việc thí nghiệm thất bại hai lần không làm cả nhóm nản chí."
+          },
+          {
+            "en": "The fact that she had never visited the city surprised her hosts.",
+            "vi": "Việc cô ấy chưa từng đến thành phố làm chủ nhà ngạc nhiên."
+          }
+        ]
+      },
+      {
+        "id": "sr-u5-formal-subjunctive-shall",
+        "bac": 6,
+        "label": "Giả định mở rộng: sau danh từ, were, shall và cụm cố định",
+        "explanationVi": "Dạng giả định cơ bản sau động từ/tính từ chỉ yêu cầu (insist that he leave, essential that she not be late) đã học ở chuyên đề Câu giả định. Ở cấp cao hơn có thêm bốn điều. (1) Giả định cũng đi sau danh từ chỉ đề nghị: proposal, recommendation, demand, requirement + that + S + động từ nguyên mẫu: Her proposal that the library stay open on Sundays was approved. (2) were thay was khi nói điều trái thực tế trong văn trang trọng: as though he were the only expert (dù thực tế còn người khác). (3) shall trong quy định, điều lệ, hợp đồng diễn tả nghĩa vụ ('phải'): The committee shall meet twice a year; Shall I...? là lời đề nghị giúp đỡ lịch sự. (4) Một số cụm giả định cố định, dùng nguyên mẫu mọi ngôi: Be that as it may (tuy nhiên), Come what may (dù chuyện gì xảy ra), Suffice it to say (chỉ cần nói rằng). Chúng là thành ngữ, nên học thuộc, không biến đổi.",
+        "examples": [
+          {
+            "en": "Her proposal that the library stay open on Sundays was approved.",
+            "vi": "Đề xuất của cô ấy rằng thư viện mở cửa cả Chủ nhật đã được chấp thuận."
+          },
+          {
+            "en": "Members shall return all books before the end of term.",
+            "vi": "Thành viên phải trả toàn bộ sách trước khi hết học kỳ."
+          },
+          {
+            "en": "Be that as it may, we must finish today.",
+            "vi": "Tuy nhiên, chúng ta phải hoàn thành hôm nay."
+          }
+        ]
+      },
+      {
+        "id": "sr-u6-passive-nominalisation",
+        "bac": 6,
+        "label": "Bị động và danh hóa để văn phong khách quan",
+        "explanationVi": "Văn khoa học, báo cáo và văn nghị luận thường bỏ người làm hành động để tập trung vào sự việc. Có ba công cụ. (1) Bị động không nêu tác nhân: The samples were placed in water (thay vì We put...). (2) Bị động ngôi vô nhân xưng: It is widely believed that...; The experiment is believed to have been the first of its kind (to have + V3 khi việc xảy ra trước thời điểm của động từ believed). (3) Danh hóa: biến động từ hay mệnh đề thành danh từ: decide - decision, grow - growth. Because the town grew quickly, traffic got worse thành The rapid growth of the town worsened traffic. Khi danh hóa, nhớ đổi trạng từ thành tính từ đứng trước danh từ (quickly - rapid growth). Danh hóa làm câu đặc, trang trọng; lạm dụng thì khó đọc, và bị động cũng hữu ích để tránh chỉ mặt ai đó: A window was broken during the match.",
+        "examples": [
+          {
+            "en": "The decision to close the pool surprised many families.",
+            "vi": "Quyết định đóng cửa hồ bơi làm nhiều gia đình bất ngờ."
+          },
+          {
+            "en": "It is widely believed that sleep improves memory.",
+            "vi": "Nhiều người tin rằng giấc ngủ cải thiện trí nhớ."
+          },
+          {
+            "en": "The rapid growth of the town worsened traffic.",
+            "vi": "Sự phát triển nhanh của thị trấn làm giao thông tệ hơn."
+          }
+        ]
+      },
+      {
+        "id": "sr-u7-stylistic-fronting",
+        "bac": 6,
+        "label": "Đưa thành phần lên đầu câu: This I believe, Try as he might, Gone are the days",
+        "explanationVi": "Văn kể chuyện, diễn văn và văn nghị luận trang trọng đôi khi đổi thứ tự câu để tạo nhịp điệu và nhấn mạnh. (Các kiểu đảo sau Such was, So + adj + was đã học ở chuyên đề Đảo ngữ nhấn mạnh nên không nhắc lại ở đây.) Ba kiểu mới: (1) đưa tân ngữ lên đầu, KHÔNG đảo chủ ngữ: This I refuse to believe. (2) cấu trúc nhượng bộ trang trọng: tính từ/trạng từ/động từ nguyên mẫu + as/though + S + V, nghĩa là 'dù...': Young though she was, Priya led the team; Try as he might, Leo could not open the jar; Much as I admire her courage, I cannot support the plan. Thứ tự là từ đưa lên + as/though + chủ ngữ + động từ: không đảo sau as (not 'Try as might he'), và không dùng although/despite ở kiểu này. Lưu ý Tired as she was có thể mang nghĩa 'vì' tùy ngữ cảnh. (3) đưa bổ ngữ lên đầu câu và đảo be: Gone are the days when students copied notes by hand. Chỉ dùng thỉnh thoảng; dùng nhiều sẽ nghe giả tạo.",
+        "examples": [
+          {
+            "en": "This I refuse to believe.",
+            "vi": "Điều này thì tôi không chịu tin."
+          },
+          {
+            "en": "Try as he might, Leo could not open the jar.",
+            "vi": "Dù cố thế nào, Leo cũng không mở được cái hũ."
+          },
+          {
+            "en": "Gone are the days when students copied notes by hand.",
+            "vi": "Cái thời học sinh chép bài tay đã qua rồi."
+          }
+        ]
+      },
+      {
+        "id": "sr-u8-formal-words-tone",
+        "bac": 6,
+        "label": "Từ nối và động từ trang trọng; đọc sắc thái câu",
+        "explanationVi": "Văn bản trang trọng có những từ nối đặc trưng: whereby = by which (cách/hệ thống mà nhờ đó): a scheme whereby employees can work from home; wherein = in which (rất trang trọng/pháp lý); hereby = bằng văn bản này, dùng khi tuyên bố: I hereby declare...; thereby = nhờ đó, do đó (chỉ kết quả của hành động vừa nêu): He signed, thereby giving up his rights. Động từ gốc Latin thay động từ cụm (find out - ascertain, turn down - decline, put off - postpone) và khác về cấu trúc: động từ cụm có đại từ thì phải tách (turn it down, không phải 'turn down it'), còn động từ một từ thì không có tiểu từ (declined it). Cuối cùng, hãy đọc sắc thái: lệnh trực tiếp (Hand in your essay today) thẳng thừng; Would you mind...? lịch sự; It would be appreciated if... rất trang trọng; With respect, I believe... giữ lịch sự khi phản đối. Khi lời khen trái với hoàn cảnh (bị bỏ lại ba lần mà nói 'That was SO well organised') thì đó là mỉa mai.",
+        "examples": [
+          {
+            "en": "The company introduced a scheme whereby employees can work from home two days a week.",
+            "vi": "Công ty áp dụng một cơ chế cho phép nhân viên làm việc tại nhà hai ngày mỗi tuần."
+          },
+          {
+            "en": "She declined the invitation. / She turned it down.",
+            "vi": "Cô ấy từ chối lời mời. / Cô ấy từ chối nó."
+          },
+          {
+            "en": "It would be appreciated if essays were submitted by Friday.",
+            "vi": "Mong các bài luận được nộp trước thứ Sáu."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "whom",
+        "meaningVi": "dạng tân ngữ trang trọng của who"
+      },
+      {
+        "word": "to whom / in which",
+        "meaningVi": "giới từ đứng trước đại từ quan hệ (trang trọng)"
+      },
+      {
+        "word": "than I am",
+        "meaningVi": "dạng chủ ngữ trang trọng sau than"
+      },
+      {
+        "word": "It is essential that ... be",
+        "meaningVi": "giả định trang trọng sau tính từ chỉ yêu cầu"
+      },
+      {
+        "word": "shall",
+        "meaningVi": "nghĩa vụ trong quy định, hợp đồng"
+      },
+      {
+        "word": "It is believed that",
+        "meaningVi": "bị động vô nhân xưng, giữ khách quan"
+      },
+      {
+        "word": "Be that as it may / Come what may",
+        "meaningVi": "cụm giả định cố định: tuy nhiên / dù chuyện gì xảy ra"
+      },
+      {
+        "word": "Try as he might / Much as",
+        "meaningVi": "dù (cấu trúc nhượng bộ trang trọng)"
+      },
+      {
+        "word": "whereby",
+        "meaningVi": "nhờ đó, theo cách mà (= by which)"
+      },
+      {
+        "word": "hereby",
+        "meaningVi": "bằng văn bản này"
+      },
+      {
+        "word": "thereby",
+        "meaningVi": "nhờ đó, do đó"
+      },
+      {
+        "word": "ascertain",
+        "meaningVi": "xác định, tìm cho ra (trang trọng của find out)"
+      }
+    ],
+    "formulas": {
+      "formal relative": "giới từ + whom/which: the person to whom it was addressed",
+      "informal relative": "(that/who) ... giới từ: the person (who) it was addressed to",
+      "mandative": "demand/recommend/essential/proposal that + S + V nguyên mẫu (not + V): It is essential that she not be late; Her proposal that the library stay open...",
+      "fronting": "This + S + V | Adj/Adv/V + as/though + S + V (Try as he might) | Gone are the days when ...",
+      "nominalisation": "V/mệnh đề -> danh từ: grow - growth, decide - decision"
+    },
+    "commonMistakes": [
+      {
+        "id": "sr-m1",
+        "description": "Dùng whom hoặc I cho 'sang' ở chỗ sai (hypercorrection): whom cho từ làm chủ ngữ, hoặc Tom and I sau động từ/giới từ.",
+        "examples": [
+          {
+            "wrong": "Whom do you think organized the fair?",
+            "correct": "Who do you think organized the fair?"
+          },
+          {
+            "wrong": "She invited Tom and I to the concert.",
+            "correct": "She invited Tom and me to the concert."
+          }
+        ],
+        "usageIds": [
+          "sr-u1-who-whom",
+          "sr-u3-pronoun-case"
+        ]
+      },
+      {
+        "id": "sr-m2",
+        "description": "Đặt that ngay sau giới từ trong mệnh đề quan hệ; sau giới từ chỉ được dùng whom/which.",
+        "examples": [
+          {
+            "wrong": "The pen with that I wrote is lost.",
+            "correct": "The pen with which I wrote is lost."
+          }
+        ],
+        "usageIds": [
+          "sr-u2-stranding-piedpiping"
+        ]
+      },
+      {
+        "id": "sr-m3",
+        "description": "Lược that ở chỗ cần giữ (mệnh đề làm chủ ngữ, đồng vị của danh từ trừu tượng, that là chủ ngữ của mệnh đề quan hệ).",
+        "examples": [
+          {
+            "wrong": "The girl lives next door is my cousin.",
+            "correct": "The girl that lives next door is my cousin."
+          }
+        ],
+        "usageIds": [
+          "sr-u4-that-omission"
+        ]
+      },
+      {
+        "id": "sr-m4",
+        "description": "Dùng động từ chia thì sau danh từ/động từ chỉ đề nghị trong văn trang trọng thay vì nguyên mẫu.",
+        "examples": [
+          {
+            "wrong": "Her recommendation that he gets more rest was ignored.",
+            "correct": "Her recommendation that he get more rest was ignored."
+          }
+        ],
+        "usageIds": [
+          "sr-u5-formal-subjunctive-shall"
+        ]
+      },
+      {
+        "id": "sr-m5",
+        "description": "Đảo sai trật tự trong cấu trúc nhượng bộ trang trọng (đảo might trước chủ ngữ) thay vì Try as + chủ ngữ + might.",
+        "examples": [
+          {
+            "wrong": "Try as might he, he could not open the jar.",
+            "correct": "Try as he might, he could not open the jar."
+          }
+        ],
+        "usageIds": [
+          "sr-u7-stylistic-fronting"
+        ]
+      },
+      {
+        "id": "sr-m6",
+        "description": "Tách sai vị trí đại từ với động từ cụm, hoặc thêm tiểu từ vào động từ gốc Latin.",
+        "examples": [
+          {
+            "wrong": "She turned down it.",
+            "correct": "She turned it down."
+          },
+          {
+            "wrong": "She declined down the offer.",
+            "correct": "She declined the offer."
+          }
+        ],
+        "usageIds": [
+          "sr-u8-formal-words-tone"
+        ]
+      }
+    ]
+  }
+}

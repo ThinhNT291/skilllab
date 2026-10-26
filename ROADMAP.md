@@ -111,6 +111,9 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 ## Cập nhật 25/10/2026 (học thuật và động lực)
 - Đã làm 4 mục "học thuật + động lực": thích ứng/ước lượng năng lực, phản hồi lỗi (đáp án ngay hoặc gợi ý trước), xen kẽ + ôn theo ngữ cảnh, động lực không áp lực. Bằng chứng, mức chắc chắn và điều chưa kiểm chứng: `docs/hoc-thuat-dong-luc.md`.
 
+## Cập nhật 30/10/2026 (nội dung Bậc 5–6)
+- Đã thêm nội dung Bậc 5–6 (xem `docs/noi-dung-bac5-6.md`): 9 chuyên đề ngữ pháp C1–C2 (450 câu), 28 bài đọc, 28 bài nghe, từ vựng C1 và C2 (1.238 từ). Có phản biện độc lập nhưng CHƯA có người bản ngữ duyệt. Còn: placement cho bậc cao, từ vựng C1/C2 theo chủ đề, thêm nội dung C2 thật (nhiều câu vẫn ở mức C1), `npm run content:push`.
+
 ## Cập nhật 29/10/2026
 - Đã làm: tiến độ theo thang trình độ (`/tien-do` → "Đường lên các bậc": mức bao phủ nội dung A1–C2 theo kỹ năng, bậc chưa có nội dung ghi "sắp có"; `lib/progress/scale.ts`), mô tả can-do kèm bậc đang học/ước lượng, `/khung-nang-luc` có dòng "Nội dung trong ứng dụng" từng bậc, bản đồ chặng A1→C2 vẽ bằng SVG ở `/hoc` (chuyển được sang danh sách). Còn: nội dung Bậc 5–6 (chặng C1/C2 đang "sắp có"); độ bao phủ chỉ tính trong 1000 câu trả lời gần nhất.
 

@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "en-negation-advanced-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u1-emphatic",
+    "tags": [
+      "na-u1-emphatic"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our school library is ______ quiet during exams; students whisper and move chairs all the time.",
+    "choices": [
+      "away from",
+      "far away",
+      "far from",
+      "much from"
+    ],
+    "correctIndex": 2,
+    "explanation": "Far from + tính từ = hoàn toàn không (nhấn mạnh phủ định).",
+    "choiceExplanations": [
+      "Sai — 'away from': 'away from' chỉ khoảng cách hoặc hướng, không tạo nghĩa phủ định nhấn mạnh trước tính từ.",
+      "Sai — 'far away': 'far away' chỉ khoảng cách xa về địa điểm, không đứng trước tính từ để phủ định.",
+      "Đúng — 'far from quiet' nghĩa là hoàn toàn không yên tĩnh, khớp với việc học sinh nói chuyện và kéo ghế.",
+      "Sai — 'much from' không phải cụm có sẵn; để phủ định nhấn mạnh trước tính từ cần 'far from'."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u1-emphatic",
+    "tags": [
+      "na-u1-emphatic"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There wasn't ______ cloud in the sky, so the astronomy club had a perfect night.",
+    "choices": [
+      "a single",
+      "single",
+      "the single",
+      "one alone"
+    ],
+    "correctIndex": 0,
+    "explanation": "Not a single + danh từ đếm được số ít = không có lấy một.",
+    "choiceExplanations": [
+      "Đúng — 'not a single cloud' nhấn mạnh là không có dù chỉ một đám mây.",
+      "Sai — 'single': thiếu mạo từ 'a'; danh từ số ít đếm được cần 'a single'.",
+      "Sai — 'the single': 'the single' xác định một vật cụ thể, không dùng trong cấu trúc 'there wasn't ... cloud'.",
+      "Sai — 'one alone': 'one alone' không phải cách nói tự nhiên trước danh từ trong cấu trúc này."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u1-emphatic",
+    "tags": [
+      "na-u1-emphatic"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I wasn't ______ worried about the exam; I had prepared for weeks.",
+    "choices": [
+      "at least",
+      "in the least",
+      "in least",
+      "by the least"
+    ],
+    "correctIndex": 1,
+    "explanation": "Not ... in the least = hoàn toàn không, một chút cũng không.",
+    "choiceExplanations": [
+      "Sai — 'at least': 'at least' nghĩa là ít nhất, không tạo nghĩa phủ định nhấn mạnh.",
+      "Đúng — 'not in the least worried' = chẳng lo chút nào.",
+      "Sai — 'in least': thiếu 'the'; cụm cố định là 'in the least'.",
+      "Sai — 'by the least': 'by the least' không phải cụm cố định."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u1-emphatic",
+    "tags": [
+      "na-u1-emphatic"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence.",
+    "choices": [
+      "The experiment is by no means not finished.",
+      "The experiment is by no mean finished.",
+      "The experiment by no means are finished.",
+      "The experiment is by no means finished."
+    ],
+    "correctIndex": 3,
+    "explanation": "By no means đã mang nghĩa phủ định, không thêm not.",
+    "choiceExplanations": [
+      "Sai — 'The experiment is by no means not finished.': 'by no means not' tạo phủ định kép, làm nghĩa thành khẳng định hoặc sai.",
+      "Sai — 'The experiment is by no mean finished.': 'means' trong cụm này luôn có s: by no means.",
+      "Sai — 'The experiment by no means are finished.': chủ ngữ 'experiment' số ít nên dùng 'is', không dùng 'are'.",
+      "Đúng — 'by no means' + tính từ = hoàn toàn chưa; câu đúng cả về cụm từ lẫn chia động từ."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u1-emphatic",
+    "tags": [
+      "na-u1-emphatic"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "This phone is nothing ______ the model I had before; the camera is far better.",
+    "choices": [
+      "alike",
+      "as",
+      "like",
+      "likely"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nothing like + danh từ = hoàn toàn khác, không giống chút nào.",
+    "choiceExplanations": [
+      "Sai — 'alike': 'alike' là tính từ đứng sau chủ ngữ (They are alike), không đứng trước danh từ như giới từ.",
+      "Sai — 'as': 'nothing as' không tạo cụm 'nothing like'; nghĩa cũng không đúng.",
+      "Đúng — 'nothing like' nhấn mạnh sự khác biệt hoàn toàn.",
+      "Sai — 'likely': 'likely' nghĩa là có khả năng, không liên quan."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u1-emphatic",
+    "tags": [
+      "na-u1-emphatic"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Her essay was ______ perfect; it contained several errors, and the argument was weak.",
+    "choices": [
+      "nothing but",
+      "all but",
+      "but for",
+      "anything but"
+    ],
+    "correctIndex": 3,
+    "explanation": "Anything but + tính từ = hoàn toàn không (nhấn mạnh phủ định); không nhầm với nothing but (chỉ) và all but (gần như).",
+    "choiceExplanations": [
+      "Sai — 'nothing but': 'nothing but' nghĩa là chỉ/toàn là, 'nothing but perfect' = hoàn hảo hoàn toàn, trái với ngữ cảnh.",
+      "Sai — 'all but': 'all but' nghĩa là gần như, 'all but perfect' = gần như hoàn hảo, mâu thuẫn với việc có nhiều lỗi.",
+      "Sai — 'but for': 'but for' nghĩa là nếu không có, không đứng trước tính từ như vậy.",
+      "Đúng — 'anything but perfect' = chẳng hoàn hảo chút nào, hợp với bài có nhiều lỗi."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u2-neither-nor-either",
+    "tags": [
+      "na-u2-neither-nor-either"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I don't like football, and my brother doesn't like it ______.",
+    "choices": [
+      "too",
+      "neither",
+      "also",
+      "either"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cuối câu phủ định dùng either để nói 'cũng không'.",
+    "choiceExplanations": [
+      "Sai — 'too': 'too' dùng sau câu khẳng định, không dùng sau câu phủ định.",
+      "Sai — 'neither': 'neither' đã mang nghĩa phủ định, thêm 'doesn't' sẽ thành phủ định kép.",
+      "Sai — 'also': 'also' không đứng cuối câu phủ định theo cách này.",
+      "Đúng — sau câu phủ định dùng 'either' ở cuối: doesn't like it either."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u2-neither-nor-either",
+    "tags": [
+      "na-u2-neither-nor-either"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the teacher nor the students knew about the schedule change.",
+    "choices": [
+      "Either",
+      "Not",
+      "Neither",
+      "Both"
+    ],
+    "correctIndex": 2,
+    "explanation": "Neither ... nor ... = không ... cũng không ...",
+    "choiceExplanations": [
+      "Sai — 'Either': 'Either' đi với 'or', không đi với 'nor'.",
+      "Sai — 'Not': 'Not ... nor' không phải cặp chuẩn mở đầu câu; cặp chuẩn là Neither ... nor.",
+      "Đúng — 'Neither ... nor ...' nối hai chủ thể cùng bị phủ định.",
+      "Sai — 'Both': 'Both' đi với 'and', mang nghĩa khẳng định."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u2-neither-nor-either",
+    "tags": [
+      "na-u2-neither-nor-either"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Neither the captain nor the players ______ happy with the result of yesterday's match.",
+    "choices": [
+      "were",
+      "was",
+      "is",
+      "has been"
+    ],
+    "correctIndex": 0,
+    "explanation": "Với neither ... nor, động từ chia theo chủ ngữ đứng gần nó nhất.",
+    "choiceExplanations": [
+      "Đúng — 'the players' (số nhiều) đứng gần động từ nhất nên dùng 'were'.",
+      "Sai — 'was': 'was' là số ít, không hợp với 'the players' đứng gần động từ.",
+      "Sai — 'is': 'is' là số ít, không hợp với chủ ngữ số nhiều gần nhất.",
+      "Sai — 'has been': 'has been' là số ít, không hợp với 'the players'."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u2-neither-nor-either",
+    "tags": [
+      "na-u2-neither-nor-either"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence.",
+    "choices": [
+      "Neither of the girls didn't pass the test.",
+      "Neither of girls passed the test.",
+      "Neither of the girls haven't passed the test.",
+      "Neither of the girls passed the test."
+    ],
+    "correctIndex": 3,
+    "explanation": "Neither of + the/my/these + danh từ số nhiều đã mang nghĩa phủ định (không ai trong hai người), nên động từ để dạng khẳng định.",
+    "choiceExplanations": [
+      "Sai — neither đã mang nghĩa phủ định; thêm didn't tạo phủ định kép, nghĩa thành cả hai đều đỗ.",
+      "Sai — sau neither of cần từ hạn định + danh từ số nhiều (the girls); 'of girls' thiếu 'the'.",
+      "Sai — neither đã phủ định nên không thêm haven't; động từ đi sau neither of phải ở dạng khẳng định.",
+      "Đúng — 'Neither of the girls passed' dùng đúng neither of + the + danh từ số nhiều, động từ khẳng định."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u2-neither-nor-either",
+    "tags": [
+      "na-u2-neither-nor-either"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Neither ______ the twins wants to play goalkeeper.",
+    "choices": [
+      "from",
+      "among",
+      "of",
+      "to"
+    ],
+    "correctIndex": 2,
+    "explanation": "Neither of + đại từ/danh từ số nhiều xác định = không ai trong hai người/vật.",
+    "choiceExplanations": [
+      "Sai — 'from': 'Neither from' không phải cấu trúc đúng.",
+      "Sai — 'among': 'Neither among' không dùng; 'among' dùng cho từ ba trở lên và không đi với neither.",
+      "Đúng — 'Neither of the twins' đúng; hai em là hai người nên dùng neither.",
+      "Sai — 'to': 'Neither to' không phải cấu trúc đúng."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u2-neither-nor-either",
+    "tags": [
+      "na-u2-neither-nor-either"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence.",
+    "choices": [
+      "I haven't read the report, and Sam hasn't neither.",
+      "I haven't read the report, and Sam hasn't either.",
+      "I haven't read the report, and Sam has either.",
+      "I haven't read the report, and Sam hasn't too."
+    ],
+    "correctIndex": 1,
+    "explanation": "Sau vế phủ định, vế rút gọn dùng trợ động từ phủ định + either.",
+    "choiceExplanations": [
+      "Sai — 'I haven't read the report, and Sam hasn't neither.': 'hasn't neither' là phủ định kép.",
+      "Đúng — 'hasn't either' = cũng chưa; phủ định + either là đúng.",
+      "Sai — 'I haven't read the report, and Sam has either.': 'has either' làm vế sau khẳng định, sai nghĩa và sai cấu trúc.",
+      "Sai — 'I haven't read the report, and Sam hasn't too.': 'too' không dùng sau câu phủ định."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u2-neither-nor-either",
+    "tags": [
+      "na-u2-neither-nor-either"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The test was ______ difficult nor boring; it was just right.",
+    "choices": [
+      "neither",
+      "both",
+      "either",
+      "nor"
+    ],
+    "correctIndex": 0,
+    "explanation": "Neither X nor Y: hai tính từ song song, cùng bị phủ định.",
+    "choiceExplanations": [
+      "Đúng — 'neither difficult nor boring' = không khó cũng không chán.",
+      "Sai — 'both' đi với 'and' và mang nghĩa khẳng định; 'both difficult nor boring' không thành cặp hợp lệ.",
+      "Sai — 'either': 'either' đi với 'or', không đi với 'nor'.",
+      "Sai — 'nor': 'nor' phải đi sau 'neither', không mở đầu cặp."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u3-hardly-barely",
+    "tags": [
+      "na-u3-hardly-barely"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I could ______ hear the speaker at the back of the hall.",
+    "choices": [
+      "hard",
+      "hardly",
+      "hardly not",
+      "not hardly"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hardly = gần như không; bản thân đã mang nghĩa phủ định.",
+    "choiceExplanations": [
+      "Sai — 'hard': 'hard' là tính từ hoặc trạng từ chỉ sự vất vả, không có nghĩa 'gần như không'.",
+      "Đúng — 'could hardly hear' = hầu như không nghe được.",
+      "Sai — 'hardly not': 'hardly not' là phủ định kép, sai.",
+      "Sai — 'not hardly': 'not hardly' là phủ định kép không chuẩn."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u3-hardly-barely",
+    "tags": [
+      "na-u3-hardly-barely"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She is so busy that she ______ ever has time to play video games.",
+    "choices": [
+      "hard",
+      "not hardly",
+      "barely not",
+      "hardly"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hardly ever = hầu như không bao giờ.",
+    "choiceExplanations": [
+      "Sai — 'hard': 'hard ever' không phải cụm đúng.",
+      "Sai — 'not hardly': 'not hardly' là phủ định kép.",
+      "Sai — 'barely not': 'barely not' là phủ định kép.",
+      "Đúng — 'hardly ever' là cụm cố định."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u3-hardly-barely",
+    "tags": [
+      "na-u3-hardly-barely"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence.",
+    "choices": [
+      "I can't hardly believe we won the final.",
+      "I hardly can't believe we won the final.",
+      "I can hardly believe we won the final.",
+      "I can hardly not believe we won the final."
+    ],
+    "correctIndex": 2,
+    "explanation": "Hardly đã mang nghĩa phủ định nên không thêm can't/not (lỗi phủ định kép).",
+    "choiceExplanations": [
+      "Sai — 'I can't hardly believe we won the final.': 'can't hardly' là phủ định kép.",
+      "Sai — 'I hardly can't believe we won the final.': 'hardly can't' là phủ định kép.",
+      "Đúng — 'can hardly believe' = khó mà tin được; dùng một phủ định duy nhất.",
+      "Sai — 'I can hardly not believe we won the final.': 'hardly not' làm nghĩa đổi thành khẳng định và lạ, không phải điều người nói muốn."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u3-hardly-barely",
+    "tags": [
+      "na-u3-hardly-barely"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He is ______ late for class; in three years it has happened only once.",
+    "choices": [
+      "rare",
+      "scarce",
+      "hard",
+      "rarely"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rarely/seldom = hiếm khi (tần suất), tự mang nghĩa phủ định.",
+    "choiceExplanations": [
+      "Sai — 'rare': 'rare' là tính từ, không bổ nghĩa cho tính từ 'late'.",
+      "Sai — 'scarce': 'scarce' là tính từ nghĩa khan hiếm.",
+      "Sai — 'hard': 'hard' không có nghĩa 'hiếm khi'.",
+      "Đúng — 'rarely late' = hiếm khi trễ."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u3-hardly-barely",
+    "tags": [
+      "na-u3-hardly-barely"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Hardly ______ came to the meeting because of the storm.",
+    "choices": [
+      "anyone",
+      "no one",
+      "not anyone",
+      "none"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hardly + any/anyone/anything (không dùng no/nobody/nothing).",
+    "choiceExplanations": [
+      "Đúng — 'Hardly anyone' = hầu như không ai.",
+      "Sai — 'no one': 'hardly no one' là phủ định kép.",
+      "Sai — 'not anyone': 'hardly not anyone' là phủ định kép.",
+      "Sai — 'none': 'none' không đứng sau hardly như một đại từ chỉ người trong câu này."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u3-hardly-barely",
+    "tags": [
+      "na-u3-hardly-barely"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She had ______ finished the speech when the audience started to clap.",
+    "choices": [
+      "not barely",
+      "barely not",
+      "seldom",
+      "barely"
+    ],
+    "correctIndex": 3,
+    "explanation": "Barely = vừa mới, suýt không; không thêm not.",
+    "choiceExplanations": [
+      "Sai — 'not barely' chồng hai phủ định; barely đã tự mang nghĩa phủ định.",
+      "Sai — 'barely not' cũng chồng hai phủ định và không thể đứng như vậy trước finished.",
+      "Sai — seldom nghĩa là hiếm khi (tần suất), không dùng với past perfect + when để nói 'vừa mới xong thì'.",
+      "Đúng — 'had barely finished ... when' = vừa mới xong thì."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u3-hardly-barely",
+    "tags": [
+      "na-u3-hardly-barely"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the sentence that means 'almost nobody noticed the mistake'.",
+    "choices": [
+      "Hardly nobody noticed the mistake.",
+      "Hardly anybody noticed the mistake.",
+      "Not hardly anybody noticed the mistake.",
+      "Hardly anybody didn't notice the mistake."
+    ],
+    "correctIndex": 1,
+    "explanation": "Hardly đi với anybody (không với nobody) và không thêm phủ định nữa.",
+    "choiceExplanations": [
+      "Sai — 'Hardly nobody noticed the mistake.': 'hardly nobody' là phủ định kép.",
+      "Đúng — 'Hardly anybody noticed' = hầu như không ai nhận ra.",
+      "Sai — 'Not hardly anybody noticed the mistake.': 'not hardly' không chuẩn.",
+      "Sai — 'Hardly anybody didn't notice the mistake.': 'Hardly anybody didn't notice' nghĩa là gần như ai cũng nhận ra, trái ý đề."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u4-neg-raising",
+    "tags": [
+      "na-u4-neg-raising"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ the museum is open on Mondays; it is usually closed.",
+    "choices": [
+      "think don't",
+      "don't think",
+      "not think",
+      "don't thinking"
+    ],
+    "correctIndex": 1,
+    "explanation": "Với think/believe/suppose/imagine, đặt not ở mệnh đề chính: I don't think + mệnh đề khẳng định.",
+    "choiceExplanations": [
+      "Sai — 'think don't' đảo trật tự: trợ động từ phải đứng trước động từ chính (I don't think).",
+      "Đúng — 'I don't think the museum is open' đặt phủ định ở mệnh đề chính và giữ mệnh đề sau khẳng định, tự nhiên hơn 'I think it isn't open'.",
+      "Sai — 'I not think' thiếu trợ động từ: phủ định của think ở hiện tại đơn là don't think.",
+      "Sai — sau trợ động từ don't phải dùng động từ nguyên mẫu (think), không chia thêm -ing."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u4-neg-raising",
+    "tags": [
+      "na-u4-neg-raising"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Will it be sunny tomorrow? B: I'm afraid ______.",
+    "choices": [
+      "not",
+      "no",
+      "don't",
+      "none"
+    ],
+    "correctIndex": 0,
+    "explanation": "I'm afraid not / I hope not / I think not là câu trả lời phủ định rút gọn.",
+    "choiceExplanations": [
+      "Đúng — 'I'm afraid not' là câu trả lời phủ định rút gọn, nghĩa 'e rằng không'; not thay cho cả mệnh đề 'it won't be sunny'.",
+      "Sai — 'no' là từ trả lời độc lập (No.), không đi sau 'I'm afraid'; cấu trúc cố định là 'I'm afraid so / I'm afraid not'.",
+      "Sai — 'don't' là trợ động từ, cần động từ chính đi sau; không thể đứng một mình để đáp lời sau 'I'm afraid'.",
+      "Sai — 'none' thay cho danh từ đã biết (none of them), không dùng để đáp câu hỏi có/không về thời tiết."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u4-neg-raising",
+    "tags": [
+      "na-u4-neg-raising"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I ______ it won't rain during the picnic.",
+    "choices": [
+      "hope",
+      "don't hope",
+      "am not hoping",
+      "do not hope"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hope không chuyển phủ định lên mệnh đề chính: I hope it won't rain.",
+    "choiceExplanations": [
+      "Đúng — với 'hope', giữ phủ định ở mệnh đề sau: I hope it won't rain.",
+      "Sai — 'don't hope' không phải cách chuyển phủ định; khác think, động từ hope giữ phủ định ở mệnh đề sau (I hope it won't rain).",
+      "Sai — 'am not hoping' kết hợp với 'won't rain' tạo phủ định ở cả hai vế, nghĩa rối và không ai nói như vậy.",
+      "Sai — quy tắc chuyển phủ định lên mệnh đề chính chỉ áp dụng cho think, believe, suppose...; với hope, 'do not hope ... won't' thành hai phủ định chồng nhau."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u4-neg-raising",
+    "tags": [
+      "na-u4-neg-raising"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I don't expect they ______ the match, because their best player is injured.",
+    "choices": [
+      "won't win",
+      "win not",
+      "will win",
+      "would not win"
+    ],
+    "correctIndex": 2,
+    "explanation": "Khi đã có don't expect ở mệnh đề chính, mệnh đề sau giữ khẳng định.",
+    "choiceExplanations": [
+      "Sai — don't expect đã mang phủ định, thêm 'won't win' tạo phủ định kép; nghĩa thành 'tôi không mong họ không thắng'.",
+      "Sai — 'win not' sai ngữ pháp: tiếng Anh hiện đại không đặt not sau động từ thường, phải dùng won't/will not.",
+      "Đúng — 'don't expect they will win' = tôi không nghĩ họ sẽ thắng.",
+      "Sai — 'would not win' lại phủ định mệnh đề sau, chồng lên phủ định của 'don't expect'."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u4-neg-raising",
+    "tags": [
+      "na-u4-neg-raising"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I don't think he's coming, ______?",
+    "choices": [
+      "isn't he",
+      "is he",
+      "does he",
+      "doesn't he"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu hỏi đuôi bám vào mệnh đề sau; vì nghĩa là phủ định nên đuôi ở dạng khẳng định.",
+    "choiceExplanations": [
+      "Sai — 'isn't he' là đuôi phủ định; câu có nghĩa phủ định (I don't think) nên đuôi phải khẳng định.",
+      "Đúng — 'He's coming' + đuôi khẳng định 'is he'.",
+      "Sai — 'does he' dùng trợ động từ do/does, nhưng mệnh đề sau là 'he's (is) coming', nên đuôi phải lặp lại 'is'.",
+      "Sai — 'doesn't he' vừa sai trợ động từ (phải là is) vừa là đuôi phủ định, trái quy tắc."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u4-neg-raising",
+    "tags": [
+      "na-u4-neg-raising"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence means the same as 'I believe the experiment won't succeed'?",
+    "choices": [
+      "I don't believe the experiment will succeed.",
+      "I don't believe the experiment won't succeed.",
+      "I believe the experiment will succeed.",
+      "I believe not the experiment will succeed."
+    ],
+    "correctIndex": 0,
+    "explanation": "Phủ định chuyển lên mệnh đề chính: I don't believe + will.",
+    "choiceExplanations": [
+      "Đúng — hai câu cùng nghĩa: không tin thí nghiệm sẽ thành công.",
+      "Sai — 'don't believe ... won't succeed' chồng hai phủ định, nghĩa gần như 'tôi không tin nó sẽ thất bại', khác câu gốc.",
+      "Sai — câu này khẳng định thí nghiệm sẽ thành công, nghĩa ngược với câu gốc.",
+      "Sai — 'believe not the experiment...' sai trật tự từ; 'I believe not' chỉ dùng như câu đáp rút gọn, không đứng trước một mệnh đề."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u5-no-none",
+    "tags": [
+      "na-u5-no-none"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There are ______ tickets left; the concert is sold out.",
+    "choices": [
+      "no",
+      "none",
+      "not",
+      "any"
+    ],
+    "correctIndex": 0,
+    "explanation": "No + danh từ = không có.",
+    "choiceExplanations": [
+      "Đúng — 'no tickets' đứng trước danh từ.",
+      "Sai — none thay cho cả cụm danh từ hoặc đi với of (none of the tickets); đứng trực tiếp trước danh từ phải dùng no.",
+      "Sai — 'There are not tickets' thiếu any; phải nói 'There are not any tickets' hoặc 'There are no tickets'.",
+      "Sai — any chỉ dùng trong câu phủ định hoặc nghi vấn (There aren't any tickets); 'There are any tickets' là câu khẳng định sai."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u5-no-none",
+    "tags": [
+      "na-u5-no-none"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I asked three friends for help, but ______ of them could come.",
+    "choices": [
+      "no",
+      "neither",
+      "nothing",
+      "none"
+    ],
+    "correctIndex": 3,
+    "explanation": "None of + từ ba trở lên; neither of dùng cho hai.",
+    "choiceExplanations": [
+      "Sai — no phải đứng ngay trước danh từ (no friends); trước 'of them' phải dùng none.",
+      "Sai — neither of chỉ dùng cho đúng hai người; ở đây có ba người bạn.",
+      "Sai — nothing chỉ vật, còn ở đây nói về người; nothing cũng không đi với 'of them'.",
+      "Đúng — có ba người bạn nên dùng 'none of them'."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u5-no-none",
+    "tags": [
+      "na-u5-no-none"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I asked both of my cousins, but ______ of them could come.",
+    "choices": [
+      "neither",
+      "either",
+      "no",
+      "nobody"
+    ],
+    "correctIndex": 0,
+    "explanation": "Neither of dùng cho đúng hai người/vật; vì 'both of my cousins' chỉ có hai người nên dùng 'neither of them', không dùng none of.",
+    "choiceExplanations": [
+      "Đúng — hai người em họ nên dùng 'neither of them' (không ai trong hai người).",
+      "Sai — 'either of them could come' là câu khẳng định (một trong hai người đến được), mâu thuẫn với 'but' và ý không ai đến được.",
+      "Sai — no phải đứng ngay trước danh từ (no cousins); trước 'of them' phải dùng neither/none, không dùng no.",
+      "Sai — nobody không đi với 'of them'; muốn dùng nobody phải bỏ 'of them' (nobody could come)."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u5-no-none",
+    "tags": [
+      "na-u5-no-none"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Did anyone call while I was out? B: No, ______ called.",
+    "choices": [
+      "anybody",
+      "not anybody",
+      "nobody",
+      "no"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nobody (= no one) đóng vai chủ ngữ phủ định: 'No, nobody called.' Các từ any- không tự phủ định nên không làm chủ ngữ của câu trả lời này.",
+    "choiceExplanations": [
+      "Sai — 'anybody called' là câu khẳng định; any- chỉ xuất hiện trong câu phủ định hoặc nghi vấn, không phủ định được ở vị trí chủ ngữ.",
+      "Sai — 'not anybody called' sai ngữ pháp: not không đứng trực tiếp trước chủ ngữ để phủ định như vậy; dùng nobody.",
+      "Đúng — 'nobody called' = không ai gọi; nobody là chủ ngữ phủ định, hợp với câu trả lời 'No, ...'.",
+      "Sai — no phải đứng trước danh từ (no calls, no visitors); không thể làm chủ ngữ đứng một mình chỉ người."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u5-no-none",
+    "tags": [
+      "na-u5-no-none"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence.",
+    "choices": [
+      "None of the information was useful for the project.",
+      "No of the information was useful for the project.",
+      "None information was useful for the project.",
+      "Not none of the information was useful for the project."
+    ],
+    "correctIndex": 0,
+    "explanation": "None of + the + danh từ.",
+    "choiceExplanations": [
+      "Đúng — 'None of the information' đúng cấu trúc.",
+      "Sai — 'no of' không tồn tại; trước 'of the' phải dùng none.",
+      "Sai — none không đứng trực tiếp trước danh từ; phải là 'none of the information' hoặc 'no information'.",
+      "Sai — 'not none' chồng hai phủ định; none đã phủ định rồi nên không cần not."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u5-no-none",
+    "tags": [
+      "na-u5-no-none"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Who helped you with this puzzle? B: ______. I did it myself.",
+    "choices": [
+      "Anyone",
+      "No one",
+      "Nothing",
+      "Not any"
+    ],
+    "correctIndex": 1,
+    "explanation": "No one/nobody chỉ người; none cần một tập hợp xác định; nothing chỉ vật.",
+    "choiceExplanations": [
+      "Sai — anyone thường dùng trong câu phủ định hoặc nghi vấn; đứng riêng làm câu đáp 'không ai' thì không đúng.",
+      "Đúng — 'No one' (= nobody) đáp cho câu hỏi Who về người, nghĩa 'không ai cả'.",
+      "Sai — nothing chỉ vật; câu hỏi 'Who helped you?' hỏi về người.",
+      "Sai — 'Not any' cần danh từ hoặc 'of' theo sau (not any of them), không đứng một mình làm câu đáp."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u6-implicit-double",
+    "tags": [
+      "na-u6-implicit-double"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She left the room without ______ a word.",
+    "choices": [
+      "not saying",
+      "to say",
+      "saying",
+      "say"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sau without dùng danh động từ (V-ing); without đã mang nghĩa phủ định.",
+    "choiceExplanations": [
+      "Sai — without đã mang nghĩa phủ định; thêm not tạo phủ định kép (không không nói = có nói).",
+      "Sai — sau giới từ (without) động từ phải ở dạng V-ing, không dùng to-V.",
+      "Đúng — 'without saying a word' = không nói một lời.",
+      "Sai — sau giới từ without cần V-ing; nguyên mẫu trần 'say' không đứng được sau giới từ."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u6-implicit-double",
+    "tags": [
+      "na-u6-implicit-double"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He left the party without saying ______ to anyone.",
+    "choices": [
+      "nothing",
+      "anything",
+      "something",
+      "no"
+    ],
+    "correctIndex": 1,
+    "explanation": "Without đã mang nghĩa phủ định; dùng any-.",
+    "choiceExplanations": [
+      "Sai — 'without saying nothing' chồng hai phủ định; without đã phủ định nên dùng any- (anything).",
+      "Đúng — 'without saying anything' = không nói gì.",
+      "Sai — something dùng trong câu khẳng định; sau without ta dùng anything và 'to anyone' đã báo trước nghĩa phủ định.",
+      "Sai — no đứng trước danh từ; 'saying no to anyone' không đúng nghĩa và without đã phủ định rồi."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u6-implicit-double",
+    "tags": [
+      "na-u6-implicit-double"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The company refused ______ the report to journalists.",
+    "choices": [
+      "showing",
+      "to show",
+      "not to show",
+      "show"
+    ],
+    "correctIndex": 1,
+    "explanation": "Refuse + to-V; refuse đã mang nghĩa phủ định.",
+    "choiceExplanations": [
+      "Sai — refuse đi với to-V, không đi với V-ing (khác với deny, avoid).",
+      "Đúng — 'refused to show' = từ chối đưa.",
+      "Sai — 'refused not to show' nghĩa là từ chối việc không đưa, tức là cuối cùng phải đưa; ngược với ý công ty không đưa báo cáo.",
+      "Sai — thiếu to: refuse + to-V, không dùng nguyên mẫu trần."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u6-implicit-double",
+    "tags": [
+      "na-u6-implicit-double"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The minister denied ______ any money from the company.",
+    "choices": [
+      "to receive",
+      "receive",
+      "not receiving",
+      "receiving"
+    ],
+    "correctIndex": 3,
+    "explanation": "Deny + V-ing.",
+    "choiceExplanations": [
+      "Sai — deny đi với V-ing; to-V dùng sau refuse hay decide, không dùng sau deny.",
+      "Sai — sau deny cần V-ing; nguyên mẫu trần 'receive' không đi sau deny.",
+      "Sai — 'denied not receiving' chồng hai phủ định (phủ nhận việc không nhận) và không hợp với 'any money'.",
+      "Đúng — 'denied receiving' = phủ nhận đã nhận."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u6-implicit-double",
+    "tags": [
+      "na-u6-implicit-double"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We managed to avoid ______ the same mistake twice.",
+    "choices": [
+      "to make",
+      "make",
+      "making",
+      "for making"
+    ],
+    "correctIndex": 2,
+    "explanation": "Avoid + V-ing.",
+    "choiceExplanations": [
+      "Sai — avoid đi với V-ing, không dùng to-V (to-V đã dùng sau manage).",
+      "Sai — avoid cần V-ing; nguyên mẫu trần không đi sau avoid.",
+      "Đúng — 'avoid making' = tránh mắc lỗi.",
+      "Sai — 'avoid for making' thừa giới từ for; avoid là ngoại động từ, theo sau trực tiếp là V-ing."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u6-implicit-double",
+    "tags": [
+      "na-u6-implicit-double"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the sentence with the same meaning as: 'The goalkeeper tried to stop the ball but did not succeed.'",
+    "choices": [
+      "The goalkeeper failed not to stop the ball.",
+      "The goalkeeper didn't try to stop the ball.",
+      "The goalkeeper failed to stop the ball.",
+      "The goalkeeper failed to not stop the ball."
+    ],
+    "correctIndex": 2,
+    "explanation": "Fail to + V = cố làm nhưng không làm được; fail đã mang nghĩa phủ định nên không thêm not.",
+    "choiceExplanations": [
+      "Sai — 'failed not to stop' = không tránh được việc cản bóng, tức là rốt cuộc đã cản; ngược nghĩa.",
+      "Sai — 'didn't try to stop' nói thủ môn không hề cố gắng, khác với việc cố mà không được.",
+      "Đúng — 'failed to stop' = cố cản nhưng không cản được; fail to tự mang nghĩa phủ định.",
+      "Sai — 'failed to not stop' ghép hai phủ định và nghĩa trở nên rối (cố không cản mà vẫn thất bại), không diễn đạt ý của đề."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u6-implicit-double",
+    "tags": [
+      "na-u6-implicit-double"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence means that the speaker DID see the mistake?",
+    "choices": [
+      "I failed to notice the mistake.",
+      "I didn't notice the mistake.",
+      "I didn't fail to notice the mistake.",
+      "I noticed no mistake."
+    ],
+    "correctIndex": 2,
+    "explanation": "Phủ định kép có chủ ý: didn't fail to notice = đã nhận ra (hai phủ định triệt tiêu nhau). Khác với lỗi phủ định kép như 'didn't tell nobody'.",
+    "choiceExplanations": [
+      "Sai — 'failed to notice' = không nhận ra, nghĩa phủ định.",
+      "Sai — 'didn't notice' = không nhận ra, cũng nghĩa phủ định.",
+      "Đúng — 'didn't fail to notice' = không phải là không nhận ra, tức là đã nhận ra; phủ định kép có chủ ý, triệt tiêu nhau.",
+      "Sai — 'noticed no mistake' = không thấy lỗi nào, nghĩa phủ định."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u7-litotes-rhetorical",
+    "tags": [
+      "na-u7-litotes-rhetorical"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It is ______ for students to feel nervous before exams; many of them do.",
+    "choices": [
+      "uncommon not",
+      "not common",
+      "no uncommon",
+      "not uncommon"
+    ],
+    "correctIndex": 3,
+    "explanation": "Not uncommon (litotes) = khá phổ biến.",
+    "choiceExplanations": [
+      "Sai — 'uncommon not' đảo trật tự; phủ định phải đứng trước: not uncommon.",
+      "Sai — 'not common' nghĩa là hiếm, trái với vế sau 'many of them do'.",
+      "Sai — 'no uncommon' không thành cụm hợp lệ; no đi trước danh từ (no small achievement), với tính từ phải dùng not.",
+      "Đúng — 'not uncommon' = không hiếm, tức là phổ biến."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u7-litotes-rhetorical",
+    "tags": [
+      "na-u7-litotes-rhetorical"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ it be better to ask the teacher before we start?",
+    "choices": [
+      "Aren't",
+      "Don't",
+      "Wouldn't",
+      "Hasn't"
+    ],
+    "correctIndex": 2,
+    "explanation": "Câu hỏi phủ định tu từ gợi ý nhẹ nhàng.",
+    "choiceExplanations": [
+      "Sai — aren't là dạng của be, không thể đứng trước động từ nguyên mẫu 'be'; câu cần một động từ khuyết thiếu như would.",
+      "Sai — Don't là trợ động từ của động từ thường (Don't you think...?); không ghép được với 'it be better'.",
+      "Đúng — 'Wouldn't it be better' = gợi ý nhẹ nhàng.",
+      "Sai — Hasn't phải đi cùng quá khứ phân từ (Hasn't it been better?); 'it be' là nguyên mẫu nên không hợp."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u7-litotes-rhetorical",
+    "tags": [
+      "na-u7-litotes-rhetorical"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "'Haven't I told you a hundred times to knock first?' This negative question is ______.",
+    "choices": [
+      "a request for information",
+      "a complaint, not a real question",
+      "a polite offer",
+      "a compliment"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu hỏi phủ định tu từ thường chỉ trách móc.",
+    "choiceExplanations": [
+      "Sai — người nói đã biết câu trả lời (đã dặn hàng trăm lần) và đang bực, nên không hỏi để lấy thông tin.",
+      "Đúng — người nói không hỏi thật, mà phàn nàn.",
+      "Sai — 'a polite offer': câu này không đưa ra lời mời hay đề nghị nào, chỉ trách móc.",
+      "Sai — 'a compliment': nội dung 'đã bảo cả trăm lần' là than phiền, không phải lời khen."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u7-litotes-rhetorical",
+    "tags": [
+      "na-u7-litotes-rhetorical"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "In 'The village is not unlike the one in the film,' 'not unlike' means ______.",
+    "choices": [
+      "very different from",
+      "less beautiful than",
+      "unlike",
+      "fairly similar to"
+    ],
+    "correctIndex": 3,
+    "explanation": "Not unlike (litotes) = khá giống.",
+    "choiceExplanations": [
+      "Sai — 'not unlike' khẳng định sự giống nhau, không phải khác biệt (đừng nhầm với unlike).",
+      "Sai — câu chỉ nói ngôi làng giống ngôi làng trong phim, không so sánh mức độ đẹp.",
+      "Sai — 'unlike' (khác với) ngược nghĩa với 'not unlike' (khá giống).",
+      "Đúng — 'not unlike' = khá giống."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u7-litotes-rhetorical",
+    "tags": [
+      "na-u7-litotes-rhetorical"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Finishing the marathon at his age was no ______ achievement.",
+    "choices": [
+      "small",
+      "smallest",
+      "short",
+      "low"
+    ],
+    "correctIndex": 0,
+    "explanation": "No small + danh từ = rất đáng kể.",
+    "choiceExplanations": [
+      "Đúng — 'no small achievement' = thành tích đáng kể.",
+      "Sai — 'no smallest achievement' không phải cụm cố định; litotes dùng dạng nguyên: no small achievement.",
+      "Sai — 'short': 'short' không kết hợp với 'achievement' theo nghĩa 'to lớn'.",
+      "Sai — 'low': 'low' không tạo nghĩa litotes 'đáng kể'; cụm cố định là 'no small'."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u7-litotes-rhetorical",
+    "tags": [
+      "na-u7-litotes-rhetorical"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "He was not a little ______ by the news; he could not speak for a minute.",
+    "choices": [
+      "unsurprised",
+      "surprised",
+      "surprising",
+      "surprise"
+    ],
+    "correctIndex": 1,
+    "explanation": "Not a little = rất.",
+    "choiceExplanations": [
+      "Sai — 'not a little unsurprised' nghĩa là rất không ngạc nhiên, trái với việc anh ấy sững sờ không nói nên lời.",
+      "Đúng — 'not a little surprised' = rất ngạc nhiên, hợp với việc anh ấy không nói nên lời.",
+      "Sai — surprising mô tả điều gây bất ngờ; người cảm thấy ngạc nhiên phải dùng surprised.",
+      "Sai — surprise là danh từ; sau 'not a little' trước 'by the news' cần tính từ cảm xúc surprised."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u8-not-only-parallel",
+    "tags": [
+      "na-u8-not-only-parallel"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She is not only clever ______ also kind.",
+    "choices": [
+      "but",
+      "and",
+      "or",
+      "so"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cặp chuẩn: not only ... but also.",
+    "choiceExplanations": [
+      "Đúng — 'not only ... but also'.",
+      "Sai — 'not only ... and' không tạo thành cặp liên kết; cặp chuẩn là not only ... but also.",
+      "Sai — or dùng với either hoặc để đưa lựa chọn, không đi với not only.",
+      "Sai — so chỉ kết quả (so ... that), không đi với not only."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u8-not-only-parallel",
+    "tags": [
+      "na-u8-not-only-parallel"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The festival not only attracts tourists but also ______ local businesses.",
+    "choices": [
+      "supporting",
+      "supports",
+      "to support",
+      "supported"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hai vế sau not only/but also song song về dạng.",
+    "choiceExplanations": [
+      "Sai — 'supporting' là V-ing, không song song với 'attracts' (hiện tại đơn); hai vế phải cùng dạng.",
+      "Đúng — 'attracts' - 'supports' song song.",
+      "Sai — 'to support' là to-V; hai vế phải cùng chia hiện tại đơn với chủ ngữ 'the festival': attracts ... supports.",
+      "Sai — 'supported' là quá khứ, lệch thì với 'attracts' (hiện tại đơn)."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u8-not-only-parallel",
+    "tags": [
+      "na-u8-not-only-parallel"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our club is interested not only in music but also ______ painting.",
+    "choices": [
+      "on",
+      "in",
+      "with",
+      "of"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hai vế sau not only ... but also phải song song, gồm cả giới từ: interested in music ... interested in painting.",
+    "choiceExplanations": [
+      "Sai — 'interested on' sai kết hợp từ; tính từ interested đi với giới từ in.",
+      "Đúng — lặp lại giới từ in cho vế sau (interested in painting), giữ hai vế song song.",
+      "Sai — 'interested with' sai kết hợp từ, và không song song với 'in music'.",
+      "Sai — 'interested of' sai kết hợp từ; phải dùng interested in."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u8-not-only-parallel",
+    "tags": [
+      "na-u8-not-only-parallel"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the sentence with correct parallel structure.",
+    "choices": [
+      "The new app not only saves time but also reducing stress.",
+      "The new app not only saving time but also reduces stress.",
+      "The new app not only saves time but also is reducing stress.",
+      "The new app not only saves time but also reduces stress."
+    ],
+    "correctIndex": 3,
+    "explanation": "Hai vế song song cùng dạng.",
+    "choiceExplanations": [
+      "Sai — 'saves' (động từ chia) và 'reducing' (V-ing) không song song; sau but also cần 'reduces'.",
+      "Sai — 'not only saving' là V-ing còn vế sau 'reduces' là động từ chia; hai vế lệch dạng và câu thiếu động từ chính.",
+      "Sai — 'saves' (hiện tại đơn) và 'is reducing' (hiện tại tiếp diễn) khác dạng, không song song.",
+      "Đúng — 'saves' - 'reduces' song song."
+    ]
+  },
+  {
+    "id": "en-negation-advanced-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "negation-advanced",
+    "usageId": "na-u8-not-only-parallel",
+    "tags": [
+      "na-u8-not-only-parallel"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Not only the coach but also the players ______ been praised for the win.",
+    "choices": [
+      "have",
+      "has",
+      "is",
+      "was"
+    ],
+    "correctIndex": 0,
+    "explanation": "Với not only ... but also, động từ chia theo chủ ngữ đứng gần nó nhất: 'the players' (số nhiều) nên dùng have been.",
+    "choiceExplanations": [
+      "Đúng — 'the players' (số nhiều) đứng gần động từ nhất nên dùng 'have been'.",
+      "Sai — 'has' hợp với 'the coach' (số ít), nhưng chủ ngữ gần động từ nhất là 'the players' (số nhiều).",
+      "Sai — 'is been' không tồn tại; is không đi với quá khứ phân từ been.",
+      "Sai — 'was been' không tồn tại; was không đi với quá khứ phân từ been."
+    ]
+  }
+]
