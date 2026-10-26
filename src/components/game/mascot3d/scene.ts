@@ -259,7 +259,9 @@ export function createScene(T: THREE, container: HTMLElement, opts: SceneOptions
       const g = new T.Group()
       def.build(g)
       g.scale.setScalar(anchor.scale)
+      g.rotation.order = "YXZ"
       g.rotation.x = anchor.rotX ?? 0
+      g.rotation.y = anchor.rotY ?? 0
       // Đặt theo phần cơ thể gắn với xương lúc đứng yên rồi gắn vào xương để đi theo hoạt ảnh (attach giữ nguyên vị trí thế giới).
       const base = bone ? restPoint(bone, anchor.at ?? "center") : new T.Vector3()
       g.position.set(base.x + anchor.offset[0], base.y + anchor.offset[1], base.z + anchor.offset[2])

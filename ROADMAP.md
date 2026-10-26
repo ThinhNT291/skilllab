@@ -171,5 +171,6 @@ CAPTCHA + hạn mức chấm Gemini (cần trước khi mở công khai và trư
 
 ## Nhân vật 3D (bản thử, 26/10/2026)
 - Trang thử `/cua-hang/phong-trung-bay`: 3 nhân vật glTF miễn phí không phải người (Cáo, Robot, Bạn nhỏ), kéo chuột xoay 360° (cảm ứng chỉ xoay ngang), phím mũi tên, zoom, 7 phụ kiện (nơ, mũ, vương miện, kính, kính râm, khăn, huy chương) và 4 đồ trang trí (cây, đèn, thảm, sách). Three.js chỉ nạp ở trang này; lỗi WebGL thì lùi về cú SVG. Mã ở `src/components/game/mascot3d/`; mô hình và giấy phép ở `public/models/` (`CREDITS.md`; Cáo cần ghi nguồn CC BY 4.0).
+- Nhân vật thứ tư "Cáo con" dựng từ ảnh của chủ dự án bằng Hunyuan3D 2.0 (khối xám → bỏ tấm nền, giảm 7000 mặt, tô màu đỉnh bằng `scripts/3d/make-kit-fox.py`); không có xương nên phụ kiện gắn theo tọa độ trong `characters.ts` (`bone: "-"`, có `rotY`). Chưa có hoạt ảnh. Giấy phép Hunyuan có giới hạn lãnh thổ (EU/Anh/Hàn Quốc): xem `public/models/CREDITS.md`.
 - Giới hạn: phụ kiện gắn theo xương và hộp bao nên vừa xấp xỉ, mỗi nhân vật có bảng neo riêng trong `characters.ts`; chưa nối với cửa hàng/`player_items`; chưa thay cú SVG ở nơi khác.
 - Bước sau (chờ chủ dự án chọn): nối với cửa hàng, thay đổi/thêm nhân vật.

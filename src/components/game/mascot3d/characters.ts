@@ -5,7 +5,7 @@
  *  - Bạn nhỏ: nhân vật Starter Kit 3D Platformer (Kenney, giấy phép MIT).
  * Vị trí neo phụ kiện tính theo "không gian chuẩn hóa" (nhân vật co giãn theo `size`, chân chạm sàn, quay mặt về +z, tâm ở gốc), tính từ vị trí lúc đứng yên của một xương/nút.
  */
-export type CharacterId = "fox" | "robot" | "buddy"
+export type CharacterId = "fox" | "robot" | "buddy" | "kit"
 
 export interface Anchor {
   /** Tên xương/nút để gắn vào: phụ kiện đi theo hoạt ảnh và vị trí tính từ vị trí lúc đứng yên của xương này */
@@ -18,6 +18,8 @@ export interface Anchor {
   scale: number
   /** Nghiêng về phía trước (radian), cho nhân vật cúi đầu */
   rotX?: number
+  /** Xoay quanh trục đứng (radian), cho nhân vật quay đầu lệch */
+  rotY?: number
 }
 
 export interface CharacterDef {
@@ -68,6 +70,22 @@ export const CHARACTERS: Record<CharacterId, CharacterDef> = {
       face: { bone: "Head", at: "front", offset: [0, 0.05, -0.1], scale: 0.8 },
       neck: { bone: "Neck", offset: [0, 0, 0], scale: 0.9 },
       chest: { bone: "Torso", offset: [0, -0.05, 0.4], scale: 0.7 },
+    },
+  },
+  kit: {
+    id: "kit",
+    name: "Cáo con",
+    url: "/models/fox2.glb",
+    size: 3.4,
+    fit: "max",
+    yaw: 0,
+    idle: null,
+    credit: "Cáo con: dựng từ ảnh của chủ dự án bằng Hunyuan3D 2.0, giảm mặt và tô màu bằng mã (không có xương, phụ kiện gắn theo tọa độ).",
+    anchors: {
+      head: { bone: "-", offset: [0.1, 2.05, 0.65], scale: 0.8, rotX: 0.1, rotY: 0.38 },
+      face: { bone: "-", offset: [0.06, 1.68, 1.55], scale: 0.5, rotY: 0.4 },
+      neck: { bone: "-", offset: [0, 1.0, 0.45], scale: 0.7, rotX: 0.5 },
+      chest: { bone: "-", offset: [0.1, 0.8, 1.2], scale: 0.4, rotX: 0.3 },
     },
   },
   buddy: {
