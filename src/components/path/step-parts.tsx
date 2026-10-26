@@ -13,7 +13,7 @@ export function LessonList({ s, map }: { s: StepState; map: ReadonlyMap<string, 
         return (
           <li key={l.id} className="flex items-center justify-between gap-2">
             {open ? (
-              <Link href={`/lo-trinh/bai/${l.id}`} className="text-primary underline underline-offset-4">
+              <Link href={`/lo-trinh/bai/${l.id}`} className="inline-block py-1 text-primary underline underline-offset-4">
                 {KIND_LABEL[l.kind]} · {l.title}
               </Link>
             ) : (

@@ -12,7 +12,8 @@
     "content:status": "node scripts/content-sync.mjs status",
     "content:push": "node scripts/content-sync.mjs push",
     "report:items": "node scripts/item-report.mjs",
-    "check:text-level": "node scripts/check-text-level.mjs"
+    "check:text-level": "node scripts/check-text-level.mjs",
+    "check:a11y": "node scripts/a11y-scan.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

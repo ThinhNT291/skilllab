@@ -5,6 +5,7 @@ import { levelLabel } from "@/lib/content/bac"
 import { STEPS_PER_BAC } from "@/lib/path/catalog"
 import type { JumpReadiness } from "@/lib/path/jump"
 import type { LessonResult, PathState, StepState } from "@/lib/path/progress"
+import { NO_EVENTS, type CelebrationEvents } from "@/lib/path/celebrate"
 import { getOwnedItems } from "@/lib/db"
 import { Mascot } from "@/components/game/mascot"
 import { LeapLink, LessonList } from "./step-parts"
@@ -50,7 +51,7 @@ function pathD(points: { x: number; y: number }[]): string {
  * Bản đồ con đường của Lộ trình: mỗi bậc một đoạn đường uốn lượn năm điểm dừng (chặng), linh vật đứng ở chặng hiện tại,
  * cổng nhảy bậc giữa các bậc. Chạm một điểm dừng để xem các bài của chặng ngay dưới đoạn đường đó.
  */
-export function PathRoad({ state, map, readiness, startBac }: { state: PathState; map: ReadonlyMap<string, LessonResult>; readiness: ReadonlyMap<number, JumpReadiness>; startBac: number }) {
+export function PathRoad({ state, map, readiness, startBac, events = NO_EVENTS }: { state: PathState; map: ReadonlyMap<string, LessonResult>; readiness: ReadonlyMap<number, JumpReadiness>; startBac: number; /** Điều vừa thay đổi kể từ lần xem trước, để ăn mừng */ events?: CelebrationEvents }) {
   const [worn, setWorn] = useState<string[]>([])
   const currentId = state.steps[state.frontier]?.step.id ?? null
   const [picked, setPicked] = useState<string | null>(null)
@@ -107,7 +108,6 @@ export function PathRoad({ state, map, readiness, startBac }: { state: PathState
                       <button
                         type="button"
                         aria-pressed={sel}
-                        aria-label={`Chặng ${s.step.stepInBac} của ${levelLabel(bac)}: ${v.label}, ${s.passed}/${s.total} bài`}
                         onClick={() => {
                           userPicked.current = true
                           setPicked(s.step.id)
@@ -115,10 +115,10 @@ export function PathRoad({ state, map, readiness, startBac }: { state: PathState
                         className="group flex items-center gap-3"
                       >
                         <span className="relative shrink-0">
-                          <span className={`flex h-14 w-14 items-center justify-center rounded-full border-4 text-xl font-extrabold group-hover:border-primary ${v.ring} ${sel ? "ring-4 ring-primary/40" : ""}`} aria-hidden="true">
+                          <span className={`flex h-14 w-14 items-center justify-center rounded-full border-4 text-xl font-extrabold group-hover:border-primary ${v.ring} ${sel ? "ring-4 ring-primary/40" : ""} ${events.newlyDone.includes(s.step.id) ? "node-done-pop" : ""}`} aria-hidden="true">
                             {v.icon}
                           </span>
-                          {here && <Mascot mood="happy" size={46} items={worn} className="mascot-float pointer-events-none absolute -top-9 -right-4" />}
+                          {here && <Mascot mood={events.movedTo === s.step.id || events.newlyDone.length > 0 ? "cheer" : "happy"} size={46} items={worn} className="mascot-float pointer-events-none absolute -top-9 -right-4" />}
                         </span>
                         <span className={`max-w-[9rem] text-sm font-extrabold leading-tight ${right ? "text-left" : "order-first text-right"}`}>
                           Chặng {s.step.stepInBac}
@@ -128,6 +128,7 @@ export function PathRoad({ state, map, readiness, startBac }: { state: PathState
                               {s.passed}/{s.total} bài
                             </span>
                           )}
+                          <span className="sr-only">, {levelLabel(bac)}</span>
                         </span>
                       </button>
                     </li>
@@ -158,7 +159,7 @@ export function PathRoad({ state, map, readiness, startBac }: { state: PathState
               </div>
             )}
 
-            {bac < 6 && g && <Gate bac={bac} readiness={g} cleared={cleared} />}
+            {bac < 6 && g && <Gate bac={bac} readiness={g} cleared={cleared} justOpened={events.gatesOpened.includes(bac)} />}
           </section>
         )
       })}
@@ -167,14 +168,14 @@ export function PathRoad({ state, map, readiness, startBac }: { state: PathState
 }
 
 /** Cổng giữa hai bậc: hiện điều kiện nhảy bậc và mức đã đạt. */
-function Gate({ bac, readiness, cleared }: { bac: number; readiness: JumpReadiness; cleared: boolean }) {
+function Gate({ bac, readiness, cleared, justOpened }: { bac: number; readiness: JumpReadiness; cleared: boolean; justOpened: boolean }) {
   const pct = Math.round(readiness.progress * 100)
   return (
-    <details className="mt-3 rounded-game border-2 border-dashed border-border bg-card px-4 py-3">
+    <details className={`mt-3 rounded-game border-2 border-dashed border-border bg-card px-4 py-3 ${justOpened ? "gate-open" : ""}`}>
       <summary className="cursor-pointer list-none">
         <span className="flex items-center justify-between gap-2 font-extrabold">
           <span>
-            <span aria-hidden="true">{cleared ? "🚪✅" : "🚪"}</span> Cổng lên {levelLabel(bac + 1)}
+            <span aria-hidden="true" className="gate-icon">{cleared ? "🚪✅" : "🚪"}</span> Cổng lên {levelLabel(bac + 1)}
           </span>
           <span className="text-sm">{cleared ? "đã mở" : `${pct}%`}</span>
         </span>

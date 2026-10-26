@@ -1,6 +1,7 @@
 "use client"
 
-import { useMemo } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
+import confetti from "canvas-confetti"
 import { updateSettings, useSettings } from "@/lib/settings"
 import Link from "next/link"
 import { levelLabel } from "@/lib/content/bac"
@@ -12,10 +13,12 @@ import { startOrder } from "@/lib/path/start"
 import { useProfile } from "@/components/progress/use-profile"
 import { usePathState } from "./use-path-state"
 import { PathRoad } from "./path-road"
+import { describeEvents, diffSnapshot, hasEvents, NO_EVENTS, parseSnapshot, snapshotOf } from "@/lib/path/celebrate"
 import { LeapLink, LessonList } from "./step-parts"
 
 const BTN = "inline-block rounded-game border-b-[5px] border-primary-deep bg-primary px-5 py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2"
 const TODAY_COUNT = 4
+const SEEN_KEY = "skilllab.pathSeen"
 
 const CHIP: Record<StepState["status"], string> = {
   done: "bg-success-soft text-foreground",
@@ -43,6 +46,29 @@ export function PathView({ path }: { path: PathStep[] }) {
   const { loading, error, results: map, start, readiness, state, next } = usePathState(path)
   const profile = useProfile()
   const { pathView: view } = useSettings()
+  // Ảnh chụp trạng thái lần xem trước (lưu ở trình duyệt): đọc một lần lúc mở trang, để so với trạng thái hiện tại.
+  const [prevSeen] = useState(() => {
+    try {
+      return parseSnapshot(JSON.parse(localStorage.getItem(SEEN_KEY) ?? "null"))
+    } catch {
+      return null
+    }
+  })
+  const snapshot = useMemo(() => snapshotOf(state, [1, 2, 3, 4, 5].filter((b) => readiness.get(b)?.ready)), [state, readiness])
+  // Chặng vừa xong, cổng vừa mở so với lần xem trước thì ăn mừng. Lần đầu xem (chưa có ảnh chụp) chỉ ghi lại, không ăn mừng.
+  const events = useMemo(() => (loading ? NO_EVENTS : diffSnapshot(prevSeen, snapshot)), [loading, prevSeen, snapshot])
+  const celebrated = useRef(false)
+  useEffect(() => {
+    if (loading || celebrated.current) return
+    celebrated.current = true
+    try {
+      localStorage.setItem(SEEN_KEY, JSON.stringify(snapshot))
+    } catch {
+      // Trình duyệt chặn lưu trữ: bỏ qua, chỉ mất việc ăn mừng lần sau
+    }
+    if (hasEvents(events) && (events.newlyDone.length > 0 || events.gatesOpened.length > 0) && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) confetti({ particleCount: events.gatesOpened.length ? 160 : 90, spread: 80, origin: { y: 0.4 } })
+  }, [loading, snapshot, events])
+  const celebration = useMemo(() => describeEvents(events, (id) => { const st = state.steps.find((x) => x.step.id === id); return st ? `${levelLabel(st.step.bac)} · chặng ${st.step.stepInBac}` : "chặng mới" }, levelLabel), [events, state])
 
   const weakest = useMemo(() => weakestSkill((profile?.abilities ?? []).map((a) => ({ skill: a.skill, rating: a.rating, reliable: a.confidence !== "low" }))), [profile])
   const today = useMemo(() => {
@@ -60,6 +86,13 @@ export function PathView({ path }: { path: PathStep[] }) {
   return (
     <div className="space-y-6">
       {error && <p className="rounded-game border-2 border-dashed border-border p-3 text-sm text-muted-foreground">Chưa đọc được kết quả đã lưu ({error}). Đã chạy các tệp 0014 và 0015 trong Supabase chưa? Lộ trình vẫn xem được nhưng chưa nhớ tiến độ.</p>}
+
+      {celebration && (
+        <p className="anim-pop rounded-game border-2 border-success bg-success-soft px-4 py-3 font-extrabold" role="status">
+          <span aria-hidden="true">🎉 </span>
+          {celebration}
+        </p>
+      )}
 
       <section className="rounded-game border-2 border-border bg-card p-5">
         {cur ? (
@@ -91,7 +124,7 @@ export function PathView({ path }: { path: PathStep[] }) {
                     <ul className="mt-1 space-y-1">
                       {today.map((l) => (
                         <li key={l.id}>
-                          <Link href={`/lo-trinh/bai/${l.id}`} className="text-primary underline underline-offset-4">
+                          <Link href={`/lo-trinh/bai/${l.id}`} className="inline-block py-1 text-primary underline underline-offset-4">
                             {KIND_LABEL[l.kind]} · {l.title}
                           </Link>
                         </li>
@@ -127,7 +160,7 @@ export function PathView({ path }: { path: PathStep[] }) {
       </div>
 
       {view === "road" ? (
-        <PathRoad state={state} map={map} readiness={readiness} startBac={start?.bac ?? 1} />
+        <PathRoad state={state} map={map} readiness={readiness} startBac={start?.bac ?? 1} events={events} />
       ) : (
         <>
       {[...new Set(path.map((s) => s.bac))].map((bac) => {

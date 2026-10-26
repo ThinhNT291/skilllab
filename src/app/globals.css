@@ -118,6 +118,23 @@ body {
   100% { box-shadow: 0 0 0 14px transparent; }
 }
 .node-pulse { animation: node-pulse 1.8s ease-out infinite; }
+@keyframes node-pop {
+  0% { transform: scale(0.5); }
+  60% { transform: scale(1.28); }
+  100% { transform: scale(1); }
+}
+.node-done-pop { animation: node-pop 0.8s cubic-bezier(0.3, 1.4, 0.5, 1) both; }
+@keyframes gate-swing {
+  0%, 100% { transform: rotate(0); }
+  25% { transform: rotate(-14deg); }
+  75% { transform: rotate(14deg); }
+}
+@keyframes gate-glow {
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--success) 70%, transparent); }
+  100% { box-shadow: 0 0 0 18px transparent; }
+}
+.gate-open { animation: gate-glow 1.6s ease-out 2; }
+.gate-open .gate-icon { display: inline-block; animation: gate-swing 0.9s ease-in-out 2; }
 .home-card { transition: transform 0.15s, border-color 0.15s; }
 .home-card:hover { transform: translateY(-3px); }
 
