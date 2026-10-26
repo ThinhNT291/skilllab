@@ -17,7 +17,7 @@ import { injectSpeak, scaffoldFor } from "@/lib/content/derive"
 import { useSttSupported } from "@/lib/audio/stt"
 import type { RuleHints } from "@/lib/content/rule-hints"
 import { RetryHint, ReviewNext, WrongFeedback } from "./wrong-feedback"
-import { DictationView, EvidenceView, FixView, McqView, ReorderView, SpeakView, SpotView, TypedView, type Result } from "./views"
+import { DictationView, EvidenceView, FixView, GapfillView, McqView, ReorderView, SpeakView, SpotView, TypedView, WordfindView, type Result } from "./views"
 
 /** Sao theo số câu đúng, tính từ tỷ lệ nhưng làm tròn theo số câu thực tế để cả bài 3 câu lẫn 10 câu đều có đủ mức. */
 function starsFor(correct: number, total: number): 0 | 1 | 2 | 3 {
@@ -41,6 +41,8 @@ const KIND_TITLE: Record<Exercise["kind"], string> = {
   fix: "Sửa lỗi: gõ lại câu đúng",
   speak: "Đọc to",
   evidence: "Tìm câu làm căn cứ",
+  gapfill: "Nghe và điền từ",
+  wordfind: "Tìm từ theo nghĩa",
 }
 
 function titleOf(ex: Exercise): string {
@@ -56,6 +58,8 @@ function correctText(ex: Exercise): string | null {
   if (ex.kind === "fix") return ex.answers[0]
   if (ex.kind === "speak") return ex.text
   if (ex.kind === "evidence") return ex.sentences[ex.answerIndex]
+  if (ex.kind === "gapfill") return ex.answers[0]
+  if (ex.kind === "wordfind") return ex.target
   return null
 }
 
@@ -306,6 +310,8 @@ export function ExerciseRunner({
         {current.kind === "fix" && <FixView key={attempt} ex={current} result={result} onResolve={resolve} scaffold={scaffoldFor(index, total)} />}
         {current.kind === "spot" && <SpotView ex={current} result={result} onResolve={resolve} />}
         {current.kind === "dictation" && <DictationView ex={current} result={result} onResolve={resolve} />}
+        {current.kind === "gapfill" && <GapfillView ex={current} result={result} onResolve={resolve} />}
+        {current.kind === "wordfind" && <WordfindView ex={current} result={result} onResolve={resolve} />}
         {current.kind === "evidence" && <EvidenceView ex={current} result={result} onResolve={resolve} />}
         {current.kind === "speak" && <SpeakView ex={current} result={result} onResolve={resolve} onSkip={skip} />}
 

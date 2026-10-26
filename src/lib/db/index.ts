@@ -1,7 +1,7 @@
 // Lớp truy cập dữ liệu: component chỉ import từ đây, không gọi supabase.from() trực tiếp.
 export { dbConfigured, ensureProfile, resetProfileCache } from "./session"
 export { recordAnswer, type SaveResult } from "./answers"
-export { ensureCardFromError, addVocabCard, getDueCards, countDueCards, reviewCard, listAllCards, deleteCard, type SrsCard, type SrsCardRow, type CardsResult } from "./srs"
+export { ensureCardFromError, addVocabCard, getDueCards, countDueCards, reviewCard, listAllCards, deleteCard, getCardsForRetention, type RetentionCardRow, type SrsCard, type SrsCardRow, type CardsResult } from "./srs"
 export { getAnswerHistory, getDailyActivity, getActivityCounts, getAnswerCounts, getRecentTopicRows, type HistoryResult } from "./progress"
 export type { Profile } from "./types"
 export { getOwnedItems, buyItem, saveEquipped, type OwnedItems, type ItemsResult, type ItemWrite } from "./items"

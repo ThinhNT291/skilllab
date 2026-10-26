@@ -6,6 +6,7 @@ import { ReadingSession } from "@/components/reading/reading-session"
 import { glossFor, getReadingPassages, pickPassage } from "@/lib/reading/data"
 import { passageToExercises, READING_BACS } from "@/lib/reading/types"
 import { readingExtras } from "@/lib/content/passage-extras"
+import { getDefIndex } from "@/lib/vocab/defs"
 import { bacLabel } from "@/lib/content/bac"
 
 export const metadata = { title: "Đọc hiểu" }
@@ -37,7 +38,7 @@ async function Passage({ params }: { params: PageProps<"/doc/[bac]">["params"] }
         ← Đọc hiểu
       </Link>
       <h1 className="mt-2 mb-4 text-3xl font-extrabold">Đọc hiểu {bacLabel(passage.bac)}</h1>
-      <ReadingSession passage={passage} exercises={[...passageToExercises(passage), ...readingExtras(passage)]} gloss={gloss} />
+      <ReadingSession passage={passage} exercises={[...passageToExercises(passage), ...readingExtras(passage, Math.random, await getDefIndex())]} gloss={gloss} />
     </>
   )
 }

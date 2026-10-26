@@ -91,8 +91,102 @@ test("trên toàn ngân hàng bài nghe: nghe gõ lại câu có thật trong l�
     assert.ok(it.transcript.includes(d.text), `${it.id}: ${d.text}`)
     assert.ok(gradeTyped(d.text, d.answers), it.id)
     assert.ok(listeningLines(it).includes(d.text), it.id)
-    assert.equal(listeningExtras(it).length, 1)
+    assert.ok(listeningExtras(it).length >= 1)
   }
   console.log(`# ${items.length} bài nghe: gõ lại ${n}`)
   assert.ok(n >= items.length * 0.9)
+})
+
+import { buildDefIndex, deriveListeningGapfill, deriveWordfind } from "../src/lib/content/passage-extras.ts"
+import { gradeTyped as gradeTypedGap } from "../src/lib/grading.ts"
+
+test("bảng nghĩa: chỉ từ có đúng một mục, bỏ từ dành riêng nhưng vẫn đếm chúng", () => {
+  const idx = buildDefIndex([
+    { word: "bottle", def: "a container for liquids", vi: "chai", pos: "noun" },
+    { word: "quickly", def: "fast", pos: "adverb" },
+    { word: "run", def: "to move fast on foot", pos: "verb" },
+    { word: "light", def: "not heavy", pos: "adjective" },
+    { word: "light", def: "bright, with a lot of light" },
+    { word: "Cloud", def: "a white mass in the sky", reserved: true, pos: "noun" },
+    { word: "river", def: "a large natural stream of water", reserved: false, pos: "noun" },
+    { word: "river", def: "other", reserved: true },
+  ])
+  assert.deepEqual([...idx.keys()], ["bottle"])
+  assert.equal(idx.get("bottle")?.vi, "chai")
+})
+
+test("tìm từ theo nghĩa: chỉ khi định nghĩa không chứa từ, không trùng định nghĩa với từ khác trong bài", () => {
+  const p: RP = { id: "w1", bac: 2, title: "T", text: "Mai drinks water from a bottle. Her bottle is blue. She walks to school.", questions: [] }
+  const defs = new Map([
+    ["bottle", { def: "a container for liquids", vi: "chai" }],
+    ["water", { def: "the clear liquid in rivers", vi: "nước" }],
+    ["blue", { def: "the colour of the sky on a sunny day", vi: null }],
+  ])
+  const ex = deriveWordfind(p, defs, () => 0)!
+  assert.equal(ex.kind, "wordfind")
+  assert.ok(["bottle", "water", "blue"].includes(ex.target))
+  assert.ok(ex.answerIndexes.length >= 1 && ex.answerIndexes.every((i) => ex.words[i].toLowerCase().replace(/[^a-z]/g, "") === ex.target))
+  if (ex.target === "bottle") assert.equal(ex.answerIndexes.length, 2, "mọi chỗ xuất hiện đều đúng")
+  // hai từ cùng định nghĩa → cả hai bị loại
+  const same = new Map([["bottle", { def: "x thing", vi: null }], ["water", { def: "x thing", vi: null }]])
+  assert.equal(deriveWordfind({ ...p, text: "Mai drinks water from a bottle." }, same), null)
+  // định nghĩa chứa chính từ → bị loại
+  assert.equal(deriveWordfind({ ...p, text: "Mai has a bottle." }, new Map([["bottle", { def: "a bottle for water", vi: null }]])), null)
+  assert.equal(deriveWordfind(p, new Map()), null)
+  // dạng số nhiều cũng đúng
+  const plural = deriveWordfind({ ...p, text: "The road is long. Many roads are closed." }, new Map([["road", { def: "a long hard surface for vehicles", vi: null }]]), () => 0)!
+  assert.equal(plural.target, "road")
+  assert.deepEqual(plural.answerIndexes.map((i) => plural.words[i]), ["road", "roads"])
+})
+
+test("nghe điền chỗ trống: từ bị khuyết là từ nội dung xuất hiện một lần, đáp án chấm được, câu đầy đủ có trong lời thoại", () => {
+  const it: ListeningItem = { id: "t1", bac: 2, title: "T", transcript: "A: Where is the library, please?\nB: The library is next to the big supermarket.", questions: [] }
+  const g = deriveListeningGapfill(it, () => 0)!
+  assert.equal(g.kind, "gapfill")
+  assert.ok(g.shown.includes("______"))
+  assert.equal(g.shown.split("______").length, 2)
+  assert.ok(gradeTypedGap(g.answers[0], g.answers))
+  assert.equal(g.text.replace(new RegExp(g.answers[0], "i"), "______").replace(/[.,?!]/g, ""), g.shown.replace(/[.,?!]/g, ""))
+  // không dùng từ chức năng, tên riêng, từ lặp
+  const none: ListeningItem = { ...it, transcript: "A: That is what they will do.\nB: Is Linh there? Yes, Linh is here." }
+  assert.equal(deriveListeningGapfill(none), null)
+})
+
+test("trên toàn ngân hàng: nghe điền từ có ở hầu hết bài nghe, hợp lệ", () => {
+  const items = loadAll<ListeningItem>("listening")
+  let n = 0
+  for (const it of items) {
+    const g = deriveListeningGapfill(it)
+    if (!g) continue
+    n++
+    assert.ok(it.transcript.includes(g.text), it.id)
+    assert.equal(g.shown.split("______").length, 2, it.id)
+    assert.ok(g.text.toLowerCase().includes(g.answers[0]), it.id)
+    const ex = listeningExtras(it)
+    assert.ok(ex.length >= 1 && ex.length <= 2)
+    if (ex.length === 2) assert.notEqual((ex[0] as { text: string }).text, (ex[1] as { text: string }).text, `${it.id}: hai câu hỏi thêm trùng một câu`)
+  }
+  console.log(`# ${items.length} bài nghe: điền từ ${n}`)
+  assert.ok(n >= items.length * 0.9)
+})
+
+test("trên toàn ngân hàng bài đọc: tìm từ theo nghĩa có ở nhiều bài, đáp án đúng chỗ", () => {
+  const entries = ["a1", "a2", "b1", "b2", "c1", "c2"].flatMap((l) => JSON.parse(fs.readFileSync(`src/content/vocab/en/${l}.json`, "utf8")) as { word: string; def: string; vi?: string; pos?: string }[])
+  const defs = buildDefIndex(entries)
+  const passages = loadAll<RP>("reading")
+  let n = 0
+  for (const p of passages) {
+    const w = deriveWordfind(p, defs)
+    if (!w) continue
+    n++
+    assert.ok(w.answerIndexes.length >= 1, p.id)
+    for (const i of w.answerIndexes) {
+      const tok = w.words[i].replace(/^[^A-Za-z]+|[^A-Za-z]+$/g, "").toLowerCase()
+      assert.ok([w.target, `${w.target}s`, `${w.target}es`, `${w.target.slice(0, -1)}ies`].includes(tok), `${p.id}: ${tok} ≠ ${w.target}`)
+    }
+    assert.ok(!w.definition.toLowerCase().includes(w.target), `${p.id}: định nghĩa lộ đáp án`)
+    assert.ok(readingExtras(p, Math.random, defs).length <= 2)
+  }
+  console.log(`# ${passages.length} bài đọc: tìm từ theo nghĩa ${n}`)
+  assert.ok(n >= passages.length * 0.5)
 })

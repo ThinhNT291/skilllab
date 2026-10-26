@@ -1,13 +1,14 @@
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
-import { getPathResults, getPathStart, getPlacementOverview, getRecentTopicRows, raisePathStart, type PathStart } from "@/lib/db"
+import { getCardsForRetention, getPathResults, getPathStart, getPlacementOverview, getRecentTopicRows, raisePathStart, type PathStart, type RetentionCardRow } from "@/lib/db"
 import { vnDayKey } from "@/lib/analytics/activity"
 import { parseResult } from "@/lib/placement/full"
 import type { PathStep } from "@/lib/path/catalog"
 import { rowsByBac, type GateAnswer } from "@/lib/path/gate"
 import { jumpReadinessAt, type JumpReadiness } from "@/lib/path/jump"
 import { computePath, nextLesson, type LessonResult, type PathState } from "@/lib/path/progress"
+import { retentionByBac } from "@/lib/path/retention"
 import { bestStart, startFromPlacement, startIndexOf } from "@/lib/path/start"
 import type { ItemMeta } from "@/lib/progress/ability"
 import type { PathLesson } from "@/lib/path/catalog"
@@ -33,11 +34,12 @@ export function usePathState(path: PathStep[]): PathData {
   const [results, setResults] = useState<Map<string, LessonResult> | null>(null)
   const [start, setStart] = useState<PathStart | null>(null)
   const [answers, setAnswers] = useState<GateAnswer[]>([])
+  const [cards, setCards] = useState<RetentionCardRow[]>([])
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
     let cancelled = false
-    Promise.all([getPathResults(), getPathStart(), getPlacementOverview(), getRecentTopicRows(1000)]).then(([res, saved, placement, rows]) => {
+    Promise.all([getPathResults(), getPathStart(), getPlacementOverview(), getRecentTopicRows(1000), getCardsForRetention()]).then(([res, saved, placement, rows, cardRows]) => {
       if (cancelled) return
       if (res.ok) setResults(res.results)
       else {
@@ -45,6 +47,7 @@ export function usePathState(path: PathStep[]): PathData {
         if (res.reason === "error") setError(res.message ?? "lỗi không rõ")
       }
       if (rows.ok) setAnswers(rows.rows)
+      if (cardRows.ok) setCards(cardRows.value)
       // Điểm bắt đầu: cao nhất giữa điểm đã lưu và bài xếp trình độ gần nhất (chỉ tăng, không hạ).
       const placed = placement.ok && placement.completed[0] ? parseResult(placement.completed[0].result) : null
       const { start: best, changed } = bestStart(saved.ok ? saved.start : null, [placed ? startFromPlacement(placed.overall.bac) : null])
@@ -58,11 +61,12 @@ export function usePathState(path: PathStep[]): PathData {
 
   const map = useMemo(() => results ?? new Map<string, LessonResult>(), [results])
   const byBac = useMemo(() => rowsByBac(answers, itemMeta as unknown as ItemMeta, vnDayKey), [answers])
+  const retention = useMemo(() => retentionByBac(cards, itemMeta as unknown as ItemMeta, new Date()), [cards])
   const readiness = useMemo(() => {
     const out = new Map<number, JumpReadiness>()
-    for (let b = 1; b <= 6; b++) out.set(b, jumpReadinessAt(b, byBac.get(b) ?? [], null))
+    for (let b = 1; b <= 6; b++) out.set(b, jumpReadinessAt(b, byBac.get(b) ?? [], retention.get(b) ?? null))
     return out
-  }, [byBac])
+  }, [byBac, retention])
   const startIndex = useMemo(() => startIndexOf(path, start), [path, start])
   const state = useMemo(() => computePath(path, map, { startIndex, bacCleared: (b) => b >= 6 || (readiness.get(b)?.ready ?? false) }), [path, map, startIndex, readiness])
   const next = useMemo(() => nextLesson(state, map), [state, map])

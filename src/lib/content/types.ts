@@ -141,7 +141,41 @@ export interface EvidenceExercise extends ExerciseBase {
   card: CardSource
 }
 
-export type Exercise = McqExercise | ReorderExercise | TypedExercise | DictationExercise | SpotExercise | FixExercise | SpeakExercise | EvidenceExercise
+/**
+ * Nghe điền chỗ trống: nghe cả câu trong bài nghe, câu hiện ra với một từ bị khuyết, người học gõ từ đó.
+ * Đáp án duy nhất vì chính giọng đọc cho biết từ nào (xem lib/content/passage-extras.ts).
+ */
+export interface GapfillExercise extends ExerciseBase {
+  kind: "gapfill"
+  /** Cả câu, được đọc to */
+  text: string
+  /** Câu với chỗ trống "______" */
+  shown: string
+  answers: string[]
+  explanation: string
+  card: CardSource
+}
+
+/**
+ * Tìm từ theo nghĩa: cho định nghĩa tiếng Anh của một từ trong bài đọc, người học chạm vào từ đó trong bài.
+ * Chỉ dùng từ có đúng một nghĩa trong kho từ vựng và không có từ nào khác trong bài mang cùng nghĩa.
+ */
+export interface WordfindExercise extends ExerciseBase {
+  kind: "wordfind"
+  definition: string
+  /** Nghĩa tiếng Việt của từ cần tìm (gợi ý), nếu kho từ vựng có */
+  vi: string | null
+  /** Các từ của bài đọc theo thứ tự (dính dấu câu như trong bài) */
+  words: string[]
+  /** Chỉ số mọi chỗ từ đó xuất hiện trong `words` */
+  answerIndexes: number[]
+  /** Từ cần tìm (chữ thường) */
+  target: string
+  explanation: string
+  card: CardSource
+}
+
+export type Exercise = McqExercise | ReorderExercise | TypedExercise | DictationExercise | SpotExercise | FixExercise | SpeakExercise | EvidenceExercise | GapfillExercise | WordfindExercise
 
 export interface AnswerRecord {
   exerciseId: string

@@ -244,3 +244,31 @@ export function deleteCard(id: string): Promise<CardsResult<void>> {
     if (error) throw new Error(error.message)
   })
 }
+
+export interface RetentionCardRow {
+  topic: string
+  sourceKey: string | null
+  fsrs: FsrsState | null
+  sm2: { intervalDays: number; ease: number; reps: number; lapses: number }
+  lastReviewedAt: string | null
+}
+
+/** Dữ liệu thẻ đủ để tính mức nhớ theo bậc (xem lib/path/retention.ts). Chưa chạy migration 0010 thì tự lùi về chỉ dùng SM-2. */
+export function getCardsForRetention(limit = 1000): Promise<CardsResult<RetentionCardRow[]>> {
+  return guarded(async () => {
+    const profile = await ensureProfile()
+    const supabase = createClient()
+    const withFsrs = "topic, source_key, interval_days, ease, reps, lapses, last_reviewed_at, stability, difficulty, fsrs_state"
+    let res = await supabase.from("srs_cards").select(withFsrs).eq("profile_id", profile.id).gt("reps", 0).limit(limit)
+    if (res.error && /stability|difficulty|fsrs_state/i.test(res.error.message)) res = await supabase.from("srs_cards").select("topic, source_key, interval_days, ease, reps, lapses, last_reviewed_at").eq("profile_id", profile.id).gt("reps", 0).limit(limit) as typeof res
+    if (res.error) throw new Error(res.error.message)
+    type R = { topic: string; source_key: string | null; interval_days: number; ease: number | string; reps: number; lapses: number; last_reviewed_at: string | null; stability?: number | null; difficulty?: number | null; fsrs_state?: number | null }
+    return ((res.data ?? []) as unknown as R[]).map((r) => ({
+      topic: r.topic,
+      sourceKey: r.source_key,
+      sm2: { intervalDays: r.interval_days, ease: Number(r.ease), reps: r.reps, lapses: r.lapses },
+      lastReviewedAt: r.last_reviewed_at,
+      fsrs: r.stability != null && r.difficulty != null && (r.fsrs_state ?? 0) > 0 ? { stability: Number(r.stability), difficulty: Number(r.difficulty), state: (r.fsrs_state ?? 2) as 0 | 1 | 2 | 3, reps: r.reps, lapses: r.lapses, lastReview: r.last_reviewed_at ? new Date(r.last_reviewed_at) : null } : null,
+    }))
+  })
+}

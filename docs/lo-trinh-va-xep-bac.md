@@ -167,7 +167,7 @@ Chạy `npm run report:items` và `node scripts/srs-report.mjs`, rồi chỉnh t
 
 **Cổng bậc:** làm hết các chặng của một bậc chưa đủ để sang bậc kế; còn phải đủ điều kiện nhảy bậc ở bảng trên (tính trên các câu đã trả lời ở bậc đó, gộp bốn kỹ năng nhận biết). Chưa đủ thì chặng đầu của bậc kế hiện "Chờ lên bậc" kèm danh sách điều kiện còn thiếu, các nấc sau khóa; thử sức không vượt được cổng, chỉ bài vượt cấp hoặc bài xếp trình độ mới nhảy qua. Thanh "Tiến độ lên Bậc kế" luôn hiện ở thẻ đầu trang.
 
-Chưa làm: điều kiện thẻ ôn đang truyền `null` (bỏ qua) vì chưa tính mức nhớ theo bậc từ FSRS; điều kiện chưa tách theo từng kỹ năng; giới hạn số lần thử bài vượt cấp mỗi ngày (hiện thử lại thoải mái); nhắc giáo viên khi học sinh vượt cấp.
+**Điều kiện thẻ ôn đã nối (26/10/2026):** `src/lib/path/retention.ts` tính mức nhớ trung bình (xác suất nhớ hiện tại do FSRS ước lượng) của các thẻ ĐÃ ÔN theo bậc: từ vựng theo cấp, đọc/nghe theo bậc bài, ngữ pháp theo nhãn câu gốc; thẻ cũ chỉ có SM-2 được quy đổi; cần ít nhất 5 thẻ đã ôn ở bậc đó, ít hơn thì bỏ qua điều kiện này (không chặn). Còn lại: điều kiện chưa tách theo từng kỹ năng; giới hạn số lần thử bài vượt cấp mỗi ngày (hiện thử lại thoải mái); nhắc giáo viên khi học sinh vượt cấp.
 
 ## 13. Phòng thử thách (ĐÃ XÂY bản đầu, 26/10/2026)
 

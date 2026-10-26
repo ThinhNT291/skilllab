@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import type { Exercise, DictationExercise, EvidenceExercise, McqExercise, ReorderExercise, SpeakExercise, SpotExercise, FixExercise, TypedExercise } from "@/lib/content/types"
+import type { Exercise, DictationExercise, EvidenceExercise, GapfillExercise, McqExercise, ReorderExercise, SpeakExercise, SpotExercise, FixExercise, TypedExercise, WordfindExercise } from "@/lib/content/types"
 import { gradeReorder, gradeSpot, gradeTyped } from "@/lib/grading"
 import { speak, stopSpeaking, useTtsSupported } from "@/lib/audio/tts"
 import { listenOnce, useSttSupported, type Listening, type ListenError } from "@/lib/audio/stt"
@@ -311,6 +311,74 @@ export function SpeakView({ ex, result, onResolve, onSkip }: { ex: SpeakExercise
   )
 }
 
+/** Nghe điền chỗ trống: nghe cả câu rồi gõ từ còn thiếu. */
+export function GapfillView({ ex, result, onResolve }: { ex: GapfillExercise; result: Result | null; onResolve: (r: Result) => void }) {
+  const supported = useTtsSupported()
+  return (
+    <>
+      <p className="my-2 text-xl font-extrabold leading-relaxed">Nghe và điền từ còn thiếu</p>
+      {supported ? (
+        <div className="mb-3 flex flex-wrap gap-2">
+          <button type="button" className={PRIMARY_BTN} onClick={() => speak(ex.text, 0.9)}>
+            🔊 Nghe
+          </button>
+          <button type="button" className={GHOST_BTN} onClick={() => speak(ex.text, 0.6)}>
+            🐢 Nghe chậm
+          </button>
+          <button type="button" className={GHOST_BTN} onClick={stopSpeaking}>
+            ⏹
+          </button>
+        </div>
+      ) : (
+        <p className="mb-3 rounded-game border-2 border-dashed border-border px-3 py-2 text-muted-foreground">Trình duyệt này chưa hỗ trợ đọc to. Hãy thử Chrome, Edge hoặc Safari.</p>
+      )}
+      <p lang="en" className="mb-3 text-2xl font-extrabold leading-relaxed">
+        {ex.shown}
+      </p>
+      <TextAnswer placeholder="Gõ từ còn thiếu" result={result} accepted={ex.answers} onResolve={onResolve} />
+    </>
+  )
+}
+
+/** Tìm từ theo nghĩa: chạm vào từ trong bài có nghĩa như định nghĩa. */
+export function WordfindView({ ex, result, onResolve }: { ex: WordfindExercise; result: Result | null; onResolve: (r: Result) => void }) {
+  const [tapped, setTapped] = useState<number | null>(null)
+  const done = result !== null
+  return (
+    <>
+      <p className="my-2 text-xl font-extrabold leading-relaxed">Tìm từ theo nghĩa</p>
+      <p className="mb-1 text-muted-foreground">Chạm vào từ trong bài có nghĩa là:</p>
+      <p lang="en" className="mb-1 text-xl font-extrabold">
+        “{ex.definition}”
+      </p>
+      {ex.vi && <p className="mb-3 text-sm text-muted-foreground">Gợi ý tiếng Việt: {ex.vi}</p>}
+      <p lang="en" className="flex flex-wrap gap-x-1 gap-y-1.5 text-lg leading-relaxed" aria-label="Các từ trong bài">
+        {ex.words.map((w, i) => {
+          const isAnswer = ex.answerIndexes.includes(i)
+          return (
+            <button
+              key={i}
+              type="button"
+              disabled={done}
+              onClick={() => {
+                setTapped(i)
+                onResolve({ correct: isAnswer, response: w })
+              }}
+              className={cn(
+                "rounded-lg px-1.5 py-0.5 enabled:hover:bg-background enabled:active:translate-y-[1px]",
+                done && isAnswer && "bg-success-soft font-extrabold",
+                done && !isAnswer && i === tapped && "bg-danger-soft",
+              )}
+            >
+              {w}
+            </button>
+          )
+        })}
+      </p>
+    </>
+  )
+}
+
 /** Tìm câu làm căn cứ: chạm vào câu trong bài đọc chứa thông tin cho đáp án đúng. */
 export function EvidenceView({ ex, result, onResolve }: { ex: EvidenceExercise; result: Result | null; onResolve: (r: Result) => void }) {
   const [tapped, setTapped] = useState<number | null>(null)
@@ -410,5 +478,9 @@ export function ExerciseView({ ex, result, onResolve, scaffold = 0 }: { ex: Exer
       return <SpeakView ex={ex} result={result} onResolve={onResolve} />
     case "evidence":
       return <EvidenceView ex={ex} result={result} onResolve={onResolve} />
+    case "gapfill":
+      return <GapfillView ex={ex} result={result} onResolve={onResolve} />
+    case "wordfind":
+      return <WordfindView ex={ex} result={result} onResolve={onResolve} />
   }
 }
