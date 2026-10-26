@@ -1,11 +1,13 @@
 import { LISTENING_BACS, type ListeningItem } from "./types"
+import { filterReserved, type ReservedMode } from "@/lib/placement/filter"
+import { RESERVED } from "@/lib/placement/reserved"
 
-/** Nạp các bài nghe của một bậc. Chỉ nhận bậc có trong danh mục. */
-export async function getListeningItems(bac: number): Promise<ListeningItem[] | null> {
+/** Nạp các bài nghe của một bậc. Chỉ nhận bậc có trong danh mục. Bài dành riêng cho bài xếp trình độ tổng hợp bị loại (mặc định). */
+export async function getListeningItems(bac: number, opts: { reserved?: ReservedMode } = {}): Promise<ListeningItem[] | null> {
   if (!LISTENING_BACS.includes(bac as 1)) return null
   try {
     const mod = await import(`@/content/listening/en/bac${bac}.json`)
-    return mod.default as ListeningItem[]
+    return filterReserved(mod.default as ListeningItem[], RESERVED.listening, opts.reserved)
   } catch {
     return []
   }

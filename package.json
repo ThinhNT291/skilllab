@@ -11,7 +11,8 @@
     "test": "node --test tests/*.test.ts",
     "content:status": "node scripts/content-sync.mjs status",
     "content:push": "node scripts/content-sync.mjs push",
-    "report:items": "node scripts/item-report.mjs"
+    "report:items": "node scripts/item-report.mjs",
+    "check:text-level": "node scripts/check-text-level.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

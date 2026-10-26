@@ -64,3 +64,30 @@ test("xếp trình độ đọc/nghe theo bậc thang: đạt Bậc 2, 3, trư�
   assert.equal(placementLevel(run, {}, "reading")!.bac, 3)
   assert.equal(placementLevel(ans("reading-b2", [true]), {}, "reading"), null)
 })
+
+import { estimateThetaMAP, itemRating, bacOfItemRating } from "../src/lib/progress/ability.ts"
+import { levelFromRows, ROUND_UP_FROM } from "../src/lib/progress/level.ts"
+
+const rowsAt = (bac: number, flags: boolean[]) => flags.map((correct) => ({ rating: itemRating(bac, 2), correct }))
+
+test("MAP: không phụ thuộc thứ tự; đúng hết ở câu khó thì cao, sai hết ở câu dễ thì thấp, không chạy ra vô cực", () => {
+  const a = [...rowsAt(2, [true, false]), ...rowsAt(4, [true, true])]
+  const b = [...rowsAt(4, [true, true]), ...rowsAt(2, [false, true])]
+  assert.equal(estimateThetaMAP(a), estimateThetaMAP(b))
+  assert.ok(estimateThetaMAP(rowsAt(5, Array(6).fill(true))) > estimateThetaMAP(rowsAt(3, Array(6).fill(true))))
+  assert.ok(estimateThetaMAP(rowsAt(1, Array(12).fill(false))) >= 600)
+  assert.ok(estimateThetaMAP(rowsAt(6, Array(12).fill(true))) <= 2400)
+  assert.equal(bacOfItemRating(itemRating(4, 3)), 4)
+})
+
+test("làm tròn lấy bậc dưới khi chưa rõ; đủ bằng chứng mới được bậc cao", () => {
+  assert.equal(ROUND_UP_FROM, 0.6)
+  // sáu câu đúng ở Bậc 5: đủ bằng chứng (≥2 câu đúng từ Bậc 5 trở lên)
+  assert.equal(levelFromRows(rowsAt(5, Array(6).fill(true))).bac, 5)
+  // chỉ một câu đúng ở Bậc 6, còn lại sai: không công nhận Bậc 6
+  const lucky = [...rowsAt(6, [true]), ...rowsAt(2, [false, false, false]), ...rowsAt(3, [false, false])]
+  assert.ok(levelFromRows(lucky).bac < 6)
+  // ít câu thì ghi chưa chắc, nhiều câu thì tương đối
+  assert.equal(levelFromRows(rowsAt(3, [true, true, true])).confidence, "low")
+  assert.equal(levelFromRows(rowsAt(3, Array(12).fill(true))).confidence, "mid")
+})

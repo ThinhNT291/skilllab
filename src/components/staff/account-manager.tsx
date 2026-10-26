@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { useStaffData } from "./use-staff-data"
 import { ROLE_LABEL } from "@/lib/auth/roles"
+import { RESET_SCOPES } from "@/lib/auth/reset"
 
 const INPUT = "mt-1 block w-full rounded-game border-2 border-border bg-card px-3 py-2"
 const BTN = "rounded-game border-2 border-border bg-card px-3 py-1.5 text-sm font-extrabold hover:border-primary disabled:opacity-50"
@@ -15,6 +16,10 @@ const ERRORS: Record<string, string> = {
   last_admin: "Không thể khóa quản trị viên cuối cùng.",
   protected_role: "Không đổi vai trò của quản trị viên ở đây.",
   forbidden: "Chỉ quản trị mới dùng được chức năng này.",
+  bad_scope: "Chọn ít nhất một loại dữ liệu cần xóa.",
+  not_student: "Chỉ đặt lại dữ liệu của học sinh.",
+  confirm_mismatch: "Tên đăng nhập gõ xác nhận chưa khớp.",
+  reset_data_failed: "Xóa dữ liệu chưa xong (xem nhật ký). Thử lại sau.",
   server_not_configured: "Máy chủ chưa có khóa service_role (xem docs/phan-quyen.md).",
 }
 
@@ -35,6 +40,10 @@ export function AccountManager() {
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState("")
   const [issued, setIssued] = useState<Issued | null>(null)
+  const [resetId, setResetId] = useState<string | null>(null)
+  const [resetScopes, setResetScopes] = useState<string[]>([])
+  const [resetConfirm, setResetConfirm] = useState("")
+  const [resetNote, setResetNote] = useState("")
 
   if (state.status === "loading") return <p className="text-muted-foreground">Đang tải…</p>
   if (state.status === "error") return <p role="alert" className="rounded-game border-2 border-dashed border-border px-4 py-3 text-muted-foreground">{state.message}</p>
@@ -70,6 +79,16 @@ export function AccountManager() {
     if (j?.password) setIssued({ username: name, password: j.password, what: "Mật khẩu mới" })
   }
 
+  async function resetData(id: string) {
+    const j = await call({ action: "reset_data", id, scopes: resetScopes, confirm: resetConfirm })
+    if (j) {
+      setResetNote("Đã xóa dữ liệu đã chọn. Việc này được ghi vào nhật ký quản lý.")
+      setResetId(null)
+      setResetScopes([])
+      setResetConfirm("")
+    }
+  }
+
   return (
     <div className="space-y-6">
       <label className="block max-w-sm">
@@ -79,6 +98,11 @@ export function AccountManager() {
       {error && (
         <p role="alert" className="font-bold text-danger">
           {error}
+        </p>
+      )}
+      {resetNote && (
+        <p role="status" className="font-bold text-success">
+          {resetNote}
         </p>
       )}
       {issued && (
@@ -151,6 +175,44 @@ export function AccountManager() {
                 <button type="button" className={BTN} disabled={busy || !adminPassword} onClick={() => void call({ action: a.disabled_at ? "unlock" : "lock", id: a.id })}>
                   {a.disabled_at ? "Mở khóa" : "Khóa"}
                 </button>
+                {a.role === "student" && (
+                  <button
+                    type="button"
+                    className={BTN}
+                    disabled={busy || !adminPassword}
+                    onClick={() => {
+                      setResetNote("")
+                      setResetId(resetId === a.id ? null : a.id)
+                      setResetScopes([])
+                      setResetConfirm("")
+                    }}
+                  >
+                    Đặt lại dữ liệu học…
+                  </button>
+                )}
+                {resetId === a.id && (
+                  <div className="w-full space-y-3 rounded-game border-2 border-danger bg-danger-soft p-3">
+                    <p className="font-extrabold">Xóa dữ liệu học của {name}. Không khôi phục được. Tài khoản đăng nhập vẫn giữ nguyên.</p>
+                    <div className="grid gap-1 sm:grid-cols-2">
+                      {RESET_SCOPES.map((s) => (
+                        <label key={s.id} className="flex items-center gap-2 text-sm">
+                          <input type="checkbox" checked={resetScopes.includes(s.id)} onChange={(e) => setResetScopes((cur) => (e.target.checked ? [...cur, s.id] : cur.filter((x) => x !== s.id)))} />
+                          {s.label}
+                        </label>
+                      ))}
+                    </div>
+                    <button type="button" className="text-sm underline underline-offset-4" onClick={() => setResetScopes(resetScopes.length === RESET_SCOPES.length ? [] : RESET_SCOPES.map((s) => s.id))}>
+                      {resetScopes.length === RESET_SCOPES.length ? "Bỏ chọn hết" : "Chọn tất cả"}
+                    </button>
+                    <label className="block">
+                      <span className="text-sm font-extrabold">Gõ lại tên đăng nhập “{a.username}” để xác nhận</span>
+                      <input value={resetConfirm} onChange={(e) => setResetConfirm(e.target.value)} className={INPUT} autoCapitalize="none" spellCheck={false} />
+                    </label>
+                    <button type="button" className="rounded-game border-2 border-danger bg-card px-4 py-2 font-extrabold text-danger disabled:opacity-50" disabled={busy || !adminPassword || resetScopes.length === 0 || resetConfirm.trim() === ""} onClick={() => void resetData(a.id)}>
+                      {busy ? "Đang xóa…" : "Xóa dữ liệu đã chọn"}
+                    </button>
+                  </div>
+                )}
               </li>
             )
           })}

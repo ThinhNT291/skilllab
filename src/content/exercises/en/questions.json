@@ -1,0 +1,1403 @@
+[
+  {
+    "id": "en-questions-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u1-yes-no",
+    "tags": [
+      "q-u1-yes-no"
+    ],
+    "difficulty": 1,
+    "bac": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ your brother like football?",
+    "choices": [
+      "Do",
+      "Is",
+      "Are",
+      "Does"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu hỏi Yes/No với động từ thường ở hiện tại đơn: Do/Does + chủ ngữ + V nguyên thể.",
+    "choiceExplanations": [
+      "Sai — \"Do\" dùng với I/you/we/they hoặc chủ ngữ số nhiều, không hợp với \"your brother\".",
+      "Sai — \"Is like\" không tạo thành câu hỏi: be không đi chung với động từ thường like ở thì hiện tại đơn.",
+      "Sai — \"Are like\" sai vì like là động từ thường cần do/does; chủ ngữ \"your brother\" cũng không đi với are.",
+      "Đúng — Động từ chính là like, nên mượn trợ động từ; \"your brother\" là ngôi thứ ba số ít nên dùng Does."
+    ]
+  },
+  {
+    "id": "en-questions-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u1-yes-no",
+    "tags": [
+      "q-u1-yes-no"
+    ],
+    "difficulty": 1,
+    "bac": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you at home last night?",
+    "choices": [
+      "Did",
+      "Were",
+      "Was",
+      "Are"
+    ],
+    "correctIndex": 1,
+    "explanation": "Với be, đảo be lên trước chủ ngữ; \"you\" ở quá khứ dùng were.",
+    "choiceExplanations": [
+      "Sai — với động từ be không mượn did: câu hỏi là Were you...?",
+      "Đúng — Động từ be ở quá khứ với \"you\" là were; câu hỏi chỉ cần đảo be lên trước chủ ngữ.",
+      "Sai — \"Was\" dùng với I/he/she/it; \"you\" đi với were.",
+      "Sai — \"Are\" là hiện tại, mà \"last night\" cho thấy câu hỏi về quá khứ."
+    ]
+  },
+  {
+    "id": "en-questions-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u1-yes-no",
+    "tags": [
+      "q-u1-yes-no"
+    ],
+    "difficulty": 1,
+    "bac": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Do you play the guitar? B: No, ______.",
+    "choices": [
+      "I don't",
+      "I'm not",
+      "I doesn't",
+      "I didn't"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trả lời ngắn dùng lại đúng trợ động từ và thì của câu hỏi.",
+    "choiceExplanations": [
+      "Đúng — Trả lời ngắn lặp lại trợ động từ của câu hỏi (do): No, I don't.",
+      "Sai — \"I'm not\" dùng để trả lời câu hỏi có be (Are you...?), không khớp với Do you...?",
+      "Sai — \"I doesn't\" sai vì doesn't chỉ dùng với he/she/it; với I dùng don't.",
+      "Sai — \"I didn't\" là quá khứ, trong khi câu hỏi ở hiện tại (Do you play...?)."
+    ]
+  },
+  {
+    "id": "en-questions-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u1-yes-no",
+    "tags": [
+      "q-u1-yes-no"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu hỏi Yes/No đúng (hỏi bạn có thấy Linh ở công viên không).",
+    "choices": [
+      "Saw you Linh at the park?",
+      "Did you see Linh at the park?",
+      "Did you saw Linh at the park?",
+      "Do you saw Linh at the park?"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sau did dùng động từ nguyên thể; động từ thường không được đảo thẳng lên đầu câu.",
+    "choiceExplanations": [
+      "Sai — \"Saw you Linh...?\" đảo trực tiếp động từ thường lên đầu — không đúng trong tiếng Anh hiện đại; phải mượn did.",
+      "Đúng — Quá khứ đơn: Did + chủ ngữ + V nguyên thể (see).",
+      "Sai — \"Did you saw\" sai vì sau did động từ chính phải ở nguyên thể (see).",
+      "Sai — \"Do you saw\" lẫn do (hiện tại) với saw (quá khứ); câu đúng là Did you see...?"
+    ]
+  },
+  {
+    "id": "en-questions-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u1-yes-no",
+    "tags": [
+      "q-u1-yes-no"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Has she finished her homework? B: Yes, ______.",
+    "choices": [
+      "she has",
+      "she does",
+      "she is",
+      "she did"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trả lời ngắn dùng lại đúng trợ động từ (has).",
+    "choiceExplanations": [
+      "Đúng — Câu hỏi dùng has (hiện tại hoàn thành) nên trả lời ngắn: Yes, she has.",
+      "Sai — \"does\" không khớp với trợ động từ has trong câu hỏi.",
+      "Sai — \"is\" không khớp: câu hỏi không dùng be.",
+      "Sai — \"did\" là quá khứ đơn, không lặp lại has của câu hỏi."
+    ]
+  },
+  {
+    "id": "en-questions-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u1-yes-no",
+    "tags": [
+      "q-u1-yes-no"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ your parents going to visit Da Nang this summer?",
+    "choices": [
+      "Do",
+      "Does",
+      "Is",
+      "Are"
+    ],
+    "correctIndex": 3,
+    "explanation": "Với be going to, đảo be lên trước chủ ngữ: Are + S + going to + V?",
+    "choiceExplanations": [
+      "Sai — \"Do ... going to\" sai vì going to cần be, không dùng do.",
+      "Sai — \"Does\" sai vì vừa không dùng với be going to, vừa không hợp chủ ngữ số nhiều.",
+      "Sai — \"Is\" dùng với chủ ngữ số ít; \"your parents\" là số nhiều.",
+      "Đúng — \"be going to\" có be là trợ động từ; \"your parents\" số nhiều nên dùng Are."
+    ]
+  },
+  {
+    "id": "en-questions-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u1-yes-no",
+    "tags": [
+      "q-u1-yes-no"
+    ],
+    "difficulty": 3,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mai: ______ you ever tried durian? Tom: Yes, I have. It smells strange!",
+    "choices": [
+      "Did",
+      "Have",
+      "Do",
+      "Are"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trợ động từ trong câu hỏi quyết định thì: have + V3 → Have you ever tried...? và Yes, I have.",
+    "choiceExplanations": [
+      "Sai — \"Did you ever tried\" sai vì sau did phải là nguyên thể (try); hơn nữa câu trả lời Yes, I have cho thấy câu hỏi dùng have.",
+      "Đúng — \"ever tried\" là hiện tại hoàn thành (have + V3), nên câu hỏi mở đầu bằng Have, khớp với câu trả lời Yes, I have.",
+      "Sai — \"Do you ever tried\" sai: do đi với nguyên thể, không đi với tried.",
+      "Sai — \"Are you ever tried\" sai: are + V3 là thể bị động, nghĩa không hợp."
+    ]
+  },
+  {
+    "id": "en-questions-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u1-yes-no",
+    "tags": [
+      "q-u1-yes-no"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Is there a post office near here? B: Yes, ______.",
+    "choices": [
+      "it is",
+      "there is",
+      "there does",
+      "there has"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trả lời ngắn với there: Yes, there is. / No, there isn't.",
+    "choiceExplanations": [
+      "Sai — \"it\" không thay được \"there\": \"Yes, it is\" trả lời câu hỏi Is it...?; với Is there...? phải lặp lại there + be.",
+      "Đúng — Câu hỏi dùng Is there...? nên trả lời ngắn lặp lại there + be: Yes, there is.",
+      "Sai — \"there does\" sai vì câu hỏi dùng be, không dùng do.",
+      "Sai — \"there has\" sai: câu hỏi không dùng have."
+    ]
+  },
+  {
+    "id": "en-questions-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u2-wh-questions",
+    "tags": [
+      "q-u2-wh-questions"
+    ],
+    "difficulty": 1,
+    "bac": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ do you live? — In Hue.",
+    "choices": [
+      "When",
+      "Who",
+      "Where",
+      "How many"
+    ],
+    "correctIndex": 2,
+    "explanation": "Chọn từ để hỏi theo loại thông tin của câu trả lời: nơi chốn → where.",
+    "choiceExplanations": [
+      "Sai — \"When\" hỏi thời gian, không hợp với \"In Hue\".",
+      "Sai — \"Who\" hỏi người, không hợp với một địa điểm.",
+      "Đúng — Câu trả lời nói về nơi chốn (In Hue) nên hỏi bằng Where.",
+      "Sai — \"How many\" hỏi số lượng đếm được, không hợp với địa điểm."
+    ]
+  },
+  {
+    "id": "en-questions-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u2-wh-questions",
+    "tags": [
+      "q-u2-wh-questions"
+    ],
+    "difficulty": 1,
+    "bac": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ is your birthday? — On May 5th.",
+    "choices": [
+      "Who",
+      "Where",
+      "When",
+      "How many"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hỏi ngày/thời gian dùng when.",
+    "choiceExplanations": [
+      "Sai — \"Who\" hỏi người, không hợp với một ngày.",
+      "Sai — \"Where\" hỏi nơi chốn, không hợp với ngày tháng.",
+      "Đúng — Câu trả lời là một ngày (On May 5th) nên hỏi bằng When.",
+      "Sai — \"How many\" hỏi số lượng, không hợp với câu trả lời về ngày."
+    ]
+  },
+  {
+    "id": "en-questions-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u2-wh-questions",
+    "tags": [
+      "q-u2-wh-questions"
+    ],
+    "difficulty": 1,
+    "bac": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ old is your little sister? — She's seven.",
+    "choices": [
+      "What",
+      "Which",
+      "Who",
+      "How"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hỏi tuổi: How old + be + S?",
+    "choiceExplanations": [
+      "Sai — \"What old\" không phải cách hỏi tuổi trong tiếng Anh.",
+      "Sai — \"Which old\" không dùng để hỏi tuổi.",
+      "Sai — \"Who old\" sai: who hỏi người, không đi với tính từ old.",
+      "Đúng — Hỏi tuổi dùng how old; câu hỏi là How old is...?"
+    ]
+  },
+  {
+    "id": "en-questions-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u2-wh-questions",
+    "tags": [
+      "q-u2-wh-questions"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ does it take to get to school? — About fifteen minutes.",
+    "choices": [
+      "How far",
+      "How often",
+      "How much",
+      "How long"
+    ],
+    "correctIndex": 3,
+    "explanation": "How long hỏi quãng thời gian; How far hỏi khoảng cách; How often hỏi tần suất.",
+    "choiceExplanations": [
+      "Sai — \"How far\" hỏi khoảng cách (ví dụ two kilometers), không phải thời gian.",
+      "Sai — \"How often\" hỏi tần suất (every day), không hợp với \"fifteen minutes\".",
+      "Sai — \"How much does it take\" không tự nhiên khi hỏi thời gian đi lại; câu trả lời cũng không phải số tiền hay lượng.",
+      "Đúng — Câu trả lời nói về quãng thời gian (fifteen minutes), nên hỏi How long does it take...?"
+    ]
+  },
+  {
+    "id": "en-questions-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u2-wh-questions",
+    "tags": [
+      "q-u2-wh-questions"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ bag is this? — It's Nam's.",
+    "choices": [
+      "Who's",
+      "Whose",
+      "Who",
+      "Which"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hỏi sở hữu: Whose + danh từ + be + ...? (khác với who's = who is).",
+    "choiceExplanations": [
+      "Sai — \"Who's\" là who is, nên \"Who's bag is this?\" thành \"Who is bag is this?\" — sai.",
+      "Đúng — Câu trả lời chỉ người sở hữu (Nam's), nên hỏi bằng whose + danh từ.",
+      "Sai — \"Who bag\" sai vì who không đứng trước danh từ để hỏi sở hữu.",
+      "Sai — \"Which bag\" hỏi chọn một cái trong nhóm, và câu trả lời \"It's Nam's\" nói về chủ sở hữu nên không khớp."
+    ]
+  },
+  {
+    "id": "en-questions-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u2-wh-questions",
+    "tags": [
+      "q-u2-wh-questions"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Where ______ yesterday afternoon, Minh?",
+    "choices": [
+      "you went",
+      "did you go",
+      "did you went",
+      "went you"
+    ],
+    "correctIndex": 1,
+    "explanation": "Quá khứ đơn: Wh- + did + S + V nguyên thể?",
+    "choiceExplanations": [
+      "Sai — \"you went\" thiếu trợ động từ và không đảo: Where you went là câu thiếu cấu trúc câu hỏi.",
+      "Đúng — Wh- + trợ động từ + chủ ngữ + V nguyên thể: Where did you go...?",
+      "Sai — \"did you went\" sai vì sau did động từ chính phải ở nguyên thể (go).",
+      "Sai — \"went you\" đảo động từ thường lên trước chủ ngữ — không đúng; phải mượn did."
+    ]
+  },
+  {
+    "id": "en-questions-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u2-wh-questions",
+    "tags": [
+      "q-u2-wh-questions"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu hỏi đúng (hỏi tần suất lớp có bài kiểm tra).",
+    "choices": [
+      "How often does your class have a test?",
+      "How often your class has a test?",
+      "How often does your class has a test?",
+      "How often does your class to have a test?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Wh- + does + chủ ngữ số ít + V nguyên thể; không chia động từ chính hai lần.",
+    "choiceExplanations": [
+      "Đúng — How often + does + chủ ngữ số ít + V nguyên thể (have).",
+      "Sai — thiếu trợ động từ does và chưa đảo: How often your class has...? không phải cấu trúc câu hỏi.",
+      "Sai — \"does ... has\": sau does động từ chính phải ở nguyên thể (have).",
+      "Sai — sau does động từ chính ở nguyên thể không có to (have), không dùng to have."
+    ]
+  },
+  {
+    "id": "en-questions-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u2-wh-questions",
+    "tags": [
+      "q-u2-wh-questions"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ of these two books is yours?",
+    "choices": [
+      "Which",
+      "What",
+      "Who",
+      "Whose"
+    ],
+    "correctIndex": 0,
+    "explanation": "Which dùng khi chọn trong một nhóm xác định (Which of ...?).",
+    "choiceExplanations": [
+      "Đúng — Chọn một trong hai quyển đã biết nên dùng which.",
+      "Sai — \"What of these two books\" không tự nhiên; khi chọn trong nhóm có giới hạn dùng which of.",
+      "Sai — \"Who\" hỏi người, không phải vật.",
+      "Sai — \"Whose of these two books\" sai; whose cần đi ngay trước danh từ (Whose book...?)."
+    ]
+  },
+  {
+    "id": "en-questions-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u3-subject-object",
+    "tags": [
+      "q-u3-subject-object"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Who ______ you last night? — Mai did.",
+    "choices": [
+      "did called",
+      "does call",
+      "called",
+      "calls"
+    ],
+    "correctIndex": 2,
+    "explanation": "Who/What làm chủ ngữ: giữ trật tự câu khẳng định, không dùng do/does/did.",
+    "choiceExplanations": [
+      "Sai — \"did called\": không mượn did khi who là chủ ngữ; hơn nữa sau did phải là nguyên thể.",
+      "Sai — \"does call\" là hiện tại và còn mượn does không cần thiết; \"last night\" là quá khứ.",
+      "Đúng — Who là chủ ngữ (\"Mai gọi bạn\"), nên dùng như câu khẳng định, động từ ở quá khứ: Who called you?",
+      "Sai — \"calls\" là hiện tại, trong khi \"last night\" cho thấy quá khứ."
+    ]
+  },
+  {
+    "id": "en-questions-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u3-subject-object",
+    "tags": [
+      "q-u3-subject-object"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What ______ at school yesterday?",
+    "choices": [
+      "did happened",
+      "happened",
+      "was happen",
+      "happens"
+    ],
+    "correctIndex": 1,
+    "explanation": "What happened? là câu hỏi về chủ ngữ nên không có do/does/did.",
+    "choiceExplanations": [
+      "Sai — \"did happened\" sai: không dùng did khi what là chủ ngữ, và sau did không dùng V2.",
+      "Đúng — What là chủ ngữ của happened, nên không cần did: What happened...?",
+      "Sai — \"was happen\" không phải thì quá khứ đúng của happen.",
+      "Sai — \"happens\" là hiện tại, mà \"yesterday\" cho thấy quá khứ."
+    ]
+  },
+  {
+    "id": "en-questions-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u3-subject-object",
+    "tags": [
+      "q-u3-subject-object"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What ______ you see at the zoo?",
+    "choices": [
+      "does",
+      "has",
+      "was",
+      "did"
+    ],
+    "correctIndex": 3,
+    "explanation": "What là tân ngữ: What + did + chủ ngữ + V nguyên thể?",
+    "choiceExplanations": [
+      "Sai — \"does\" không hợp với chủ ngữ \"you\" (cần do) và không hợp thì quá khứ của câu chuyện đi sở thú.",
+      "Sai — \"has\" không tạo câu hỏi đúng với V nguyên thể see.",
+      "Sai — \"was\" là be, không đi với động từ chính see ở nguyên thể.",
+      "Đúng — What là tân ngữ của see (bạn thấy cái gì), nên dùng trật tự câu hỏi thường: What did you see...?"
+    ]
+  },
+  {
+    "id": "en-questions-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u3-subject-object",
+    "tags": [
+      "q-u3-subject-object"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Chọn câu hỏi phù hợp với câu trả lời",
+    "prompt": "Nam saw a snake in the garden. Câu hỏi nào hỏi về con rắn (vật Nam nhìn thấy)?",
+    "choices": [
+      "Who saw a snake in the garden?",
+      "What did Nam see in the garden?",
+      "What saw Nam in the garden?",
+      "What Nam saw in the garden?"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tân ngữ → dùng trợ động từ; chủ ngữ → không dùng.",
+    "choiceExplanations": [
+      "Sai — Hỏi về chủ ngữ (người nhìn thấy rắn), không phải về con rắn.",
+      "Đúng — Hỏi về tân ngữ (cái Nam thấy): What + did + Nam + see...?",
+      "Sai — Câu này là câu hỏi về chủ ngữ — nghĩa là \"cái gì nhìn thấy Nam\" — sai nghĩa.",
+      "Sai — Thiếu trợ động từ và không đảo: What Nam saw... không phải câu hỏi trực tiếp đúng."
+    ]
+  },
+  {
+    "id": "en-questions-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u3-subject-object",
+    "tags": [
+      "q-u3-subject-object"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu hỏi phù hợp với câu trả lời",
+    "prompt": "Câu trả lời: \"Linh helped me with my homework.\" Câu hỏi nào được trả lời bằng câu đó?",
+    "choices": [
+      "Who did you help with your homework?",
+      "Who helped you with your homework?",
+      "Who help you with your homework?",
+      "Who do you help with your homework?"
+    ],
+    "correctIndex": 1,
+    "explanation": "Who làm chủ ngữ → Who + V (không do/does/did).",
+    "choiceExplanations": [
+      "Sai — Hỏi về tân ngữ (bạn giúp ai) — câu trả lời đúng sẽ là \"I helped Linh\".",
+      "Đúng — Linh là người làm hành động (chủ ngữ), nên hỏi Who helped you...? (không mượn did).",
+      "Sai — who là chủ ngữ nên không cần did, nhưng động từ phải chia thì: câu trả lời ở quá khứ nên phải là helped (hiện tại thì là helps).",
+      "Sai — Câu hỏi về tân ngữ ở hiện tại (bạn giúp ai), không khớp câu trả lời."
+    ]
+  },
+  {
+    "id": "en-questions-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u3-subject-object",
+    "tags": [
+      "q-u3-subject-object"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu hỏi phù hợp với câu trả lời",
+    "prompt": "Câu trả lời: \"She calls her grandmother.\" (she = mẹ của bạn). Câu hỏi nào được trả lời bằng câu đó?",
+    "choices": [
+      "Who does your mom call every Sunday?",
+      "Who calls your mom every Sunday?",
+      "Who your mom calls every Sunday?",
+      "Who do your mom call every Sunday?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nhìn câu trả lời để biết từ để hỏi thay cho chủ ngữ hay tân ngữ.",
+    "choiceExplanations": [
+      "Đúng — Bà là người được gọi (tân ngữ), nên cần trợ động từ: Who does your mom call...?",
+      "Sai — Hỏi về chủ ngữ (ai gọi mẹ bạn) — câu trả lời sẽ là \"Her sister does\".",
+      "Sai — Thiếu trợ động từ và không đảo.",
+      "Sai trợ động từ: \"your mom\" số ít cần does, không phải do."
+    ]
+  },
+  {
+    "id": "en-questions-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u3-subject-object",
+    "tags": [
+      "q-u3-subject-object"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "What ______ you the most in the museum yesterday? — The dinosaur skeleton.",
+    "choices": [
+      "did impressed",
+      "impressed",
+      "does impress",
+      "impressing"
+    ],
+    "correctIndex": 1,
+    "explanation": "What impressed you? — what là chủ ngữ; What did you like? — what là tân ngữ.",
+    "choiceExplanations": [
+      "Sai — \"did impressed\" sai: không dùng did khi what là chủ ngữ, và sau did không dùng V2.",
+      "Đúng — Bộ xương khủng long là thứ gây ấn tượng (chủ ngữ), nên không mượn did: What impressed you...?",
+      "Sai — \"does impress\" là hiện tại và không cần trợ động từ khi what là chủ ngữ.",
+      "Sai — \"impressing\" thiếu trợ động từ be, không tạo câu hỏi đúng."
+    ]
+  },
+  {
+    "id": "en-questions-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u2-wh-questions",
+    "tags": [
+      "q-u2-wh-questions",
+      "q-u3-subject-object"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Who ______ to at the party last night?",
+    "choices": [
+      "talked you",
+      "you talked",
+      "did talk you",
+      "did you talk"
+    ],
+    "correctIndex": 3,
+    "explanation": "Giới từ thường đứng cuối câu hỏi: Who did you talk to?",
+    "choiceExplanations": [
+      "Sai — \"talked you\" đảo thẳng động từ thường — sai.",
+      "Sai — \"you talked\" thiếu trợ động từ và không đảo.",
+      "Sai — \"did talk you\" sai trật tự: chủ ngữ phải đứng trước động từ chính (did you talk).",
+      "Đúng — Who là tân ngữ của giới từ to; dùng trật tự câu hỏi thường với did: Who did you talk to...?"
+    ]
+  },
+  {
+    "id": "en-questions-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u3-subject-object",
+    "tags": [
+      "q-u3-subject-object"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Nam: I met someone at the cinema yesterday. Lan: Who ______ at the cinema?",
+    "choices": [
+      "did you meet",
+      "you met",
+      "did you met",
+      "do you meet"
+    ],
+    "correctIndex": 0,
+    "explanation": "Who là tân ngữ → Who + did + chủ ngữ + V nguyên thể?",
+    "choiceExplanations": [
+      "Đúng — Who là tân ngữ (người Nam gặp), nên dùng trật tự câu hỏi với did + chủ ngữ + V nguyên thể: Who did you meet...?",
+      "Sai — \"Who you met\" thiếu trợ động từ did và không đảo; đó là trật tự của câu khẳng định hoặc câu gián tiếp.",
+      "Sai — sau did động từ chính phải ở nguyên thể (meet), không dùng met.",
+      "Sai — do là hiện tại, trong khi Nam kể chuyện hôm qua (yesterday)."
+    ]
+  },
+  {
+    "id": "en-questions-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u4-choice-negative",
+    "tags": [
+      "q-u4-choice-negative"
+    ],
+    "difficulty": 1,
+    "bac": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Would you like juice ______ milk with your cake?",
+    "choices": [
+      "and",
+      "but",
+      "so",
+      "or"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu hỏi lựa chọn: A or B?",
+    "choiceExplanations": [
+      "Sai — \"and\" nối thêm, không hỏi chọn một trong hai.",
+      "Sai — \"but\" diễn tả đối lập, không dùng để nêu lựa chọn.",
+      "Sai — \"so\" chỉ kết quả, không hợp nghĩa lựa chọn.",
+      "Đúng — Câu hỏi lựa chọn nối hai phương án bằng or."
+    ]
+  },
+  {
+    "id": "en-questions-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u4-choice-negative",
+    "tags": [
+      "q-u4-choice-negative"
+    ],
+    "difficulty": 1,
+    "bac": 1,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Do you walk to school, or ______ you take the bus?",
+    "choices": [
+      "do",
+      "are",
+      "does",
+      "did"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trong câu hỏi lựa chọn, vế sau giữ đúng thì và trợ động từ của vế trước.",
+    "choiceExplanations": [
+      "Đúng — Vế sau lặp lại cấu trúc câu hỏi hiện tại đơn với you: do you take the bus?",
+      "Sai — \"are you take\" sai: are không đi với động từ nguyên thể take.",
+      "Sai — \"does\" dùng với he/she/it, không dùng với you.",
+      "Sai — \"did\" là quá khứ, trong khi vế trước (Do you walk...?) nói về thói quen ở hiện tại."
+    ]
+  },
+  {
+    "id": "en-questions-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u4-choice-negative",
+    "tags": [
+      "q-u4-choice-negative"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ you coming to the party? I thought you'd be there.",
+    "choices": [
+      "Don't",
+      "Haven't",
+      "Isn't",
+      "Aren't"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu hỏi phủ định: trợ động từ + n't + chủ ngữ + ...?",
+    "choiceExplanations": [
+      "Sai — \"Don't you coming\" sai: don't cần động từ nguyên thể, không phải V-ing.",
+      "Sai — \"Haven't you coming\" sai: have + V-ing không đúng ở đây.",
+      "Sai — \"Isn't\" không hợp với chủ ngữ you (cần aren't).",
+      "Đúng — Câu có coming (tiếp diễn) nên dùng be: Aren't you coming...? thể hiện sự ngạc nhiên."
+    ]
+  },
+  {
+    "id": "en-questions-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u4-choice-negative",
+    "tags": [
+      "q-u4-choice-negative"
+    ],
+    "difficulty": 2,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It's really hot today. ______ we go swimming?",
+    "choices": [
+      "Why don't",
+      "Why doesn't",
+      "Why aren't",
+      "Why didn't"
+    ],
+    "correctIndex": 0,
+    "explanation": "Why don't we/you + V = gợi ý; Why didn't...? = hỏi lý do ở quá khứ.",
+    "choiceExplanations": [
+      "Đúng — Why don't we + V...? là lời rủ rê, gợi ý.",
+      "Sai — \"Why doesn't we\" sai vì chủ ngữ we đi với don't.",
+      "Sai — \"Why aren't we go\" sai: aren't không đi với V nguyên thể.",
+      "Sai — \"Why didn't we go swimming?\" hỏi lý do một việc ĐÃ không xảy ra, không còn là lời rủ rê về hôm nay."
+    ]
+  },
+  {
+    "id": "en-questions-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u4-choice-negative",
+    "tags": [
+      "q-u4-choice-negative"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Don't you like spicy food? B: ______ I love it!",
+    "choices": [
+      "No, I do.",
+      "Yes, I don't.",
+      "No, I'm not.",
+      "Yes, I do."
+    ],
+    "correctIndex": 3,
+    "explanation": "Trả lời câu hỏi phủ định theo sự thật: thích → Yes, I do; không thích → No, I don't.",
+    "choiceExplanations": [
+      "Sai — \"No, I do\" mâu thuẫn: No đi với phủ định (No, I don't).",
+      "Sai — \"Yes, I don't\" mâu thuẫn: Yes đi với khẳng định.",
+      "Sai — \"I'm not\" dùng với be, không khớp với trợ động từ do.",
+      "Đúng — Bạn có thích (love it), nên trả lời Yes, I do — dựa vào sự thật, không dựa vào chữ \"not\"."
+    ]
+  },
+  {
+    "id": "en-questions-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u4-choice-negative",
+    "tags": [
+      "q-u4-choice-negative"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Why ______ you tell me about the test? I would have helped you.",
+    "choices": [
+      "didn't",
+      "doesn't",
+      "aren't",
+      "won't"
+    ],
+    "correctIndex": 0,
+    "explanation": "Why didn't + S + V? hỏi lý do một việc đã không xảy ra.",
+    "choiceExplanations": [
+      "Đúng — Việc đã không xảy ra trong quá khứ (would have helped), nên hỏi lý do: Why didn't you tell me...?",
+      "Sai — \"doesn't\" không hợp với chủ ngữ you.",
+      "Sai — \"aren't you tell\" sai: aren't không đi với động từ nguyên thể.",
+      "Sai — \"won't\" nói về việc sau này hoặc sự từ chối, không phải về việc đã không xảy ra."
+    ]
+  },
+  {
+    "id": "en-questions-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u4-choice-negative",
+    "tags": [
+      "q-u4-choice-negative"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu hỏi lựa chọn đúng (xem phim hay chơi game).",
+    "choices": [
+      "Would you rather to watch a movie or play a game?",
+      "Do you rather watch a movie or play a game?",
+      "Would you rather watching a movie or play a game?",
+      "Would you rather watch a movie or play a game?"
+    ],
+    "correctIndex": 3,
+    "explanation": "Would you rather + V (A) or (V) B?",
+    "choiceExplanations": [
+      "Sai: sau would rather không dùng to.",
+      "Sai: cấu trúc là would rather, không phải do rather.",
+      "Sai: sau would rather không dùng V-ing.",
+      "Đúng — Would you rather + V nguyên thể (không có to): đưa ra hai lựa chọn bằng or."
+    ]
+  },
+  {
+    "id": "en-questions-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u4-choice-negative",
+    "tags": [
+      "q-u4-choice-negative"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu hỏi phủ định đúng.",
+    "choices": [
+      "Hasn't Lan call you yet?",
+      "Doesn't Lan called you yet?",
+      "Hasn't called Lan you yet?",
+      "Hasn't Lan called you yet?"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu hỏi phủ định: trợ động từ + n't + chủ ngữ + V đúng dạng.",
+    "choiceExplanations": [
+      "Sai: sau hasn't phải dùng V3 (called), không dùng nguyên thể.",
+      "Sai: doesn't đi với V nguyên thể; called là V2/V3.",
+      "Sai trật tự: chủ ngữ Lan phải đứng ngay sau hasn't.",
+      "Đúng — Hasn't + chủ ngữ + V3: câu hỏi phủ định thì hiện tại hoàn thành."
+    ]
+  },
+  {
+    "id": "en-questions-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u5-indirect",
+    "tags": [
+      "q-u5-indirect"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Do you know where ______?",
+    "choices": [
+      "is the station",
+      "does the station is",
+      "the station is",
+      "the station does"
+    ],
+    "correctIndex": 2,
+    "explanation": "Where is the station? → Do you know where the station is?",
+    "choiceExplanations": [
+      "Sai — \"is the station\" giữ trật tự của câu hỏi trực tiếp (Where is the station?); trong câu gián tiếp chủ ngữ phải đứng trước be.",
+      "Sai — không dùng does trong câu gián tiếp, và câu còn thừa động từ (does ... is).",
+      "Đúng — Trong câu hỏi gián tiếp dùng trật tự câu khẳng định: where + chủ ngữ + động từ (the station is).",
+      "Sai — \"the station does\" thiếu động từ chính be; does không thể thay cho is ở đây."
+    ]
+  },
+  {
+    "id": "en-questions-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u5-indirect",
+    "tags": [
+      "q-u5-indirect"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I wonder ______ she likes pizza.",
+    "choices": [
+      "does",
+      "that",
+      "if",
+      "what"
+    ],
+    "correctIndex": 2,
+    "explanation": "Does she like pizza? → I wonder if she likes pizza.",
+    "choiceExplanations": [
+      "Sai — does là trợ động từ của câu hỏi trực tiếp; câu gián tiếp không dùng nó, và likes đã chia sẵn.",
+      "Sai — that tạo mệnh đề khẳng định, mất nghĩa \"liệu có... không\" của câu hỏi.",
+      "Đúng — Câu hỏi Yes/No (Does she like pizza?) chuyển sang gián tiếp bằng if hoặc whether: I wonder if she likes pizza.",
+      "Sai — what cần thay cho một thông tin còn thiếu, nhưng she likes pizza đã đủ chủ ngữ và tân ngữ."
+    ]
+  },
+  {
+    "id": "en-questions-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u5-indirect",
+    "tags": [
+      "q-u5-indirect"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Can you tell me what time ______?",
+    "choices": [
+      "the movie starts",
+      "does the movie start",
+      "starts the movie",
+      "does the movie starts"
+    ],
+    "correctIndex": 0,
+    "explanation": "What time does the movie start? → Can you tell me what time the movie starts?",
+    "choiceExplanations": [
+      "Đúng — Mệnh đề hỏi dùng trật tự khẳng định và chia động từ theo chủ ngữ: the movie starts.",
+      "Sai — \"does the movie start\" là trật tự câu hỏi trực tiếp, không dùng bên trong câu gián tiếp.",
+      "Sai — đảo động từ lên trước chủ ngữ (starts the movie) không đúng trong tiếng Anh.",
+      "Sai — vừa mượn does vừa chia starts; mỗi câu chỉ chia động từ một lần, và gián tiếp thì không có does."
+    ]
+  },
+  {
+    "id": "en-questions-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u5-indirect",
+    "tags": [
+      "q-u5-indirect"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Do you know ______ Tom lives?",
+    "choices": [
+      "where does",
+      "where",
+      "does where",
+      "where do"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trong câu hỏi gián tiếp bỏ do/does/did; động từ chia theo chủ ngữ (Tom lives).",
+    "choiceExplanations": [
+      "Sai — \"where does Tom lives\" thừa does (và lives lại bị chia dư).",
+      "Đúng — Sau từ để hỏi where dùng luôn chủ ngữ và động từ: where Tom lives.",
+      "Sai — does không đứng trước từ để hỏi trong trường hợp này; câu thành sai cấu trúc.",
+      "Sai — do không dùng trong mệnh đề gián tiếp, và không hợp với chủ ngữ Tom."
+    ]
+  },
+  {
+    "id": "en-questions-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u5-indirect",
+    "tags": [
+      "q-u5-indirect"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Where is the bank? → Could you tell me ______?",
+    "choices": [
+      "where the bank is",
+      "where is the bank",
+      "where the bank",
+      "where does the bank be"
+    ],
+    "correctIndex": 0,
+    "explanation": "Where is the bank? → Could you tell me where the bank is?",
+    "choiceExplanations": [
+      "Đúng — Đổi sang gián tiếp: where + chủ ngữ (the bank) + be (is).",
+      "Sai — giữ nguyên trật tự câu hỏi trực tiếp (is the bank).",
+      "Sai — thiếu động từ be nên câu cụt.",
+      "Sai — be không dùng với does, và gián tiếp không mượn does."
+    ]
+  },
+  {
+    "id": "en-questions-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u5-indirect",
+    "tags": [
+      "q-u5-indirect"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Do you remember how much ______ yesterday?",
+    "choices": [
+      "did the ticket cost",
+      "does the ticket cost",
+      "cost the ticket",
+      "the ticket cost"
+    ],
+    "correctIndex": 3,
+    "explanation": "How much did the ticket cost? → Do you remember how much the ticket cost?",
+    "choiceExplanations": [
+      "Sai — did the ticket cost là trật tự câu hỏi trực tiếp, không dùng trong câu gián tiếp.",
+      "Sai — does là hiện tại và vẫn là trật tự câu hỏi trực tiếp, mà yesterday chỉ quá khứ.",
+      "Sai — đảo động từ cost lên trước chủ ngữ the ticket.",
+      "Đúng — Trong gián tiếp bỏ did; động từ vẫn ở quá khứ: how much the ticket cost."
+    ]
+  },
+  {
+    "id": "en-questions-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u5-indirect",
+    "tags": [
+      "q-u5-indirect"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I haven't decided ______ to go to the beach or to the mountains.",
+    "choices": [
+      "if",
+      "that",
+      "whether",
+      "what"
+    ],
+    "correctIndex": 2,
+    "explanation": "Whether + to V: I haven't decided whether to go or stay.",
+    "choiceExplanations": [
+      "Sai — if không đi với to + động từ trong cấu trúc này.",
+      "Sai — that mở đầu mệnh đề khẳng định, không đi với to + động từ và không nêu lựa chọn.",
+      "Đúng — Whether đi được với to + động từ khi cân nhắc giữa các lựa chọn: whether to go.",
+      "Sai — \"what to go\" không có nghĩa trong câu này (go không có tân ngữ để what thay thế)."
+    ]
+  },
+  {
+    "id": "en-questions-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u5-indirect",
+    "tags": [
+      "q-u5-indirect"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Do you know who ______ the window yesterday?",
+    "choices": [
+      "broke",
+      "did broke",
+      "does break",
+      "the window broke"
+    ],
+    "correctIndex": 0,
+    "explanation": "Do you know who broke the window? (who là chủ ngữ nên không đổi trật tự).",
+    "choiceExplanations": [
+      "Đúng — Who là chủ ngữ nên giữ nguyên như câu khẳng định: who broke the window.",
+      "Sai — không mượn did khi who là chủ ngữ, và sau did không dùng broke.",
+      "Sai — does break là hiện tại và là trợ động từ thừa; \"yesterday\" chỉ quá khứ.",
+      "Sai — \"who the window broke\" sai trật tự và sai nghĩa (như thể cái cửa sổ làm vỡ ai đó); who là chủ ngữ phải đứng ngay trước động từ."
+    ]
+  },
+  {
+    "id": "en-questions-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u5-indirect",
+    "tags": [
+      "q-u5-indirect"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu gián tiếp đúng (nói về việc khóa cửa).",
+    "choices": [
+      "I can't remember whether did I lock the door.",
+      "I can't remember did I lock the door.",
+      "I can't remember whether I locked the door.",
+      "I can't remember if did I lock the door."
+    ],
+    "correctIndex": 2,
+    "explanation": "Did I lock the door? → I can't remember whether/if I locked the door.",
+    "choiceExplanations": [
+      "Sai — có whether nhưng vẫn giữ did I lock của câu hỏi trực tiếp.",
+      "Sai — thiếu if/whether, và vẫn đảo did I lock.",
+      "Đúng — whether + trật tự khẳng định + động từ quá khứ đơn (locked), bỏ did.",
+      "Sai — có if nhưng vẫn dùng trật tự câu hỏi did I lock."
+    ]
+  },
+  {
+    "id": "en-questions-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u5-indirect",
+    "tags": [
+      "q-u5-indirect"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu gián tiếp đúng (hỏi cô ấy đang nói chuyện với ai).",
+    "choices": [
+      "Can you tell me who is she talking to?",
+      "Can you tell me who she is talking?",
+      "Can you tell me who she is talking to?",
+      "Can you tell me who she talking to?"
+    ],
+    "correctIndex": 2,
+    "explanation": "Who is she talking to? → Can you tell me who she is talking to?",
+    "choiceExplanations": [
+      "Sai — \"who is she talking to\" giữ trật tự câu hỏi trực tiếp.",
+      "Sai — thiếu giới từ to; talking cần to để nói \"nói chuyện với ai\".",
+      "Đúng — Trật tự khẳng định (who she is talking to), giữ giới từ to ở cuối.",
+      "Sai — thiếu be: she talking to không có is."
+    ]
+  },
+  {
+    "id": "en-questions-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u6-polite-intonation",
+    "tags": [
+      "q-u6-polite-intonation"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn lời nhờ vả đúng (hỏi giờ).",
+    "choices": [
+      "Could you telling me the time, please?",
+      "Could you tell me the time, please?",
+      "Could you to tell me the time, please?",
+      "Could tell you me the time, please?"
+    ],
+    "correctIndex": 1,
+    "explanation": "Could you + V nguyên thể + ..., please?",
+    "choiceExplanations": [
+      "Sai — sau could dùng động từ nguyên thể, không dùng -ing.",
+      "Đúng — Could you + động từ nguyên thể: lời nhờ vả lịch sự.",
+      "Sai — sau could không dùng to.",
+      "Sai — trật tự phải là could + chủ ngữ + động từ (Could you tell...)."
+    ]
+  },
+  {
+    "id": "en-questions-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u6-polite-intonation",
+    "tags": [
+      "q-u6-polite-intonation"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Would you mind ______ the window? It's cold in here.",
+    "choices": [
+      "close",
+      "to close",
+      "closing",
+      "closed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Would you mind + V-ing...?",
+    "choiceExplanations": [
+      "Sai — sau mind không dùng động từ nguyên thể.",
+      "Sai — sau mind không dùng to + động từ.",
+      "Đúng — Sau Would you mind dùng V-ing: Would you mind closing the window?",
+      "Sai — closed (quá khứ/V3) không đi sau mind trong lời nhờ này."
+    ]
+  },
+  {
+    "id": "en-questions-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u6-polite-intonation",
+    "tags": [
+      "q-u6-polite-intonation"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Would you mind opening the door? B: ______ I'm going that way anyway.",
+    "choices": [
+      "Yes, I would.",
+      "No, not at all.",
+      "No, I do.",
+      "Yes, I would like."
+    ],
+    "correctIndex": 1,
+    "explanation": "Với Would you mind, đồng ý = No, not at all / Of course not.",
+    "choiceExplanations": [
+      "Sai — \"Yes, I would\" nghĩa là \"có, tôi thấy phiền\" (I would mind), mâu thuẫn với câu sau \"I'm going that way anyway\".",
+      "Đúng — \"No, not at all\" nghĩa là không phiền, tức là đồng ý giúp.",
+      "Sai — \"No, I do\" tự mâu thuẫn: No đi với phủ định (No, I wouldn't).",
+      "Sai — \"Yes, I would like\" không trả lời được câu hỏi có phiền không."
+    ]
+  },
+  {
+    "id": "en-questions-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u6-polite-intonation",
+    "tags": [
+      "q-u6-polite-intonation"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn đáp án đúng",
+    "prompt": "Thông thường, câu hỏi nào XUỐNG giọng ở cuối câu?",
+    "choices": [
+      "Do you live here?",
+      "Are you hungry?",
+      "Where do you live?",
+      "Is this your bag?"
+    ],
+    "correctIndex": 2,
+    "explanation": "Wh- thường xuống giọng; Yes/No thường lên giọng (đây là xu hướng, không tuyệt đối).",
+    "choiceExplanations": [
+      "Sai — câu hỏi Yes/No thường lên giọng ở cuối.",
+      "Sai — câu hỏi Yes/No thường lên giọng ở cuối.",
+      "Đúng — Câu hỏi Wh- thường xuống giọng ở cuối (đây là xu hướng; Wh- lên giọng nhẹ vẫn có thể nghe thân thiện).",
+      "Sai — câu hỏi Yes/No thường lên giọng ở cuối."
+    ]
+  },
+  {
+    "id": "en-questions-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u6-polite-intonation",
+    "tags": [
+      "q-u6-polite-intonation"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Do you mind if I ______ the window? It's hot in here.",
+    "choices": [
+      "open",
+      "opening",
+      "to open",
+      "will open"
+    ],
+    "correctIndex": 0,
+    "explanation": "Do you mind if I + động từ ở hiện tại đơn...? (xin phép).",
+    "choiceExplanations": [
+      "Đúng — Do you mind if I + hiện tại đơn (open): xin phép lịch sự.",
+      "Sai — sau if I dùng một mệnh đề có động từ chia, không dùng -ing (-ing chỉ đi sau Would you mind, không có if).",
+      "Sai — sau if I không dùng to + động từ.",
+      "Sai — sau if trong lời xin phép không dùng will."
+    ]
+  },
+  {
+    "id": "en-questions-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u6-polite-intonation",
+    "tags": [
+      "q-u6-polite-intonation"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Excuse me, ______ the nearest bank is?",
+    "choices": [
+      "could you tell me where does",
+      "could you tell me if where",
+      "could you tell me where",
+      "could you to tell me where"
+    ],
+    "correctIndex": 2,
+    "explanation": "Could you tell me where the nearest bank is? (gián tiếp: where + chủ ngữ + động từ).",
+    "choiceExplanations": [
+      "Sai — không dùng does trong mệnh đề gián tiếp.",
+      "Sai — không dùng if cùng với từ để hỏi where.",
+      "Đúng — Lời nhờ lịch sự kèm câu hỏi gián tiếp: could you tell me where + chủ ngữ + động từ (the nearest bank is).",
+      "Sai — sau could không dùng to: could you tell, không phải could you to tell."
+    ]
+  },
+  {
+    "id": "en-questions-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "questions",
+    "usageId": "q-u6-polite-intonation",
+    "tags": [
+      "q-u6-polite-intonation"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Would you mind if I ______ your pen?",
+    "choices": [
+      "using",
+      "to use",
+      "used",
+      "will use"
+    ],
+    "correctIndex": 2,
+    "explanation": "Would you mind if I used your pen?",
+    "choiceExplanations": [
+      "Sai — sau if I dùng một mệnh đề có động từ chia, không dùng -ing.",
+      "Sai — không dùng to use sau if I.",
+      "Đúng — Would you mind if I + quá khứ đơn (used): xin phép lịch sự (quá khứ ở đây chỉ để lịch sự, không nói về quá khứ). Trong hội thoại thân mật người ta cũng nghe \"if I use\", nhưng dạng chuẩn ở mức này là used.",
+      "Sai — will use không dùng sau if trong lời xin phép lịch sự này."
+    ]
+  }
+]

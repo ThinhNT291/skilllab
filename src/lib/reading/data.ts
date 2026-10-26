@@ -1,13 +1,15 @@
 import { READING_BACS, type ReadingPassage } from "./types"
 import { getVocab } from "@/lib/vocab/data"
 import { VOCAB_LEVELS } from "@/lib/vocab/questions"
+import { filterReserved, type ReservedMode } from "@/lib/placement/filter"
+import { RESERVED } from "@/lib/placement/reserved"
 
-/** Nạp các bài đọc của một bậc. Chỉ nhận bậc có trong danh mục. */
-export async function getReadingPassages(bac: number): Promise<ReadingPassage[] | null> {
+/** Nạp các bài đọc của một bậc. Chỉ nhận bậc có trong danh mục. Bài dành riêng cho bài xếp trình độ tổng hợp bị loại (mặc định). */
+export async function getReadingPassages(bac: number, opts: { reserved?: ReservedMode } = {}): Promise<ReadingPassage[] | null> {
   if (!READING_BACS.includes(bac as 1)) return null
   try {
     const mod = await import(`@/content/reading/en/bac${bac}.json`)
-    return mod.default as ReadingPassage[]
+    return filterReserved(mod.default as ReadingPassage[], RESERVED.reading, opts.reserved)
   } catch {
     return []
   }

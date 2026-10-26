@@ -45,3 +45,9 @@ next-env.d.ts
 
 # bản sao lưu nội dung xuất từ cơ sở dữ liệu
 content-backup-*.json
+
+# nội dung sinh tạm bằng scripts/gen-items.mjs (chưa duyệt)
+/tmp/
+
+# bộ bài mẫu thật có bài viết của học sinh
+/eval/grade-samples.json

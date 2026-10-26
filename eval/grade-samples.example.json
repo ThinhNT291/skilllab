@@ -1,0 +1,20 @@
+[
+  {
+    "id": "vi-du-1",
+    "example": true,
+    "skill": "writing",
+    "task": "Write 3–5 sentences about your best friend.",
+    "targetBac": 2,
+    "text": "My best friend is Lan. She is twelve years old. She like play badminton and she have a cat. We study in the same class.",
+    "human": { "scores": { "task": 3, "organization": 2, "vocabulary": 2, "grammar": 1 }, "bac": 2 }
+  },
+  {
+    "id": "vi-du-2",
+    "example": true,
+    "skill": "writing",
+    "task": "Describe a place you like in your town.",
+    "targetBac": 3,
+    "text": "I like the old park near my house because it is quiet and green. On weekends, I often go there with my brother to ride bikes. Although the park is small, it has a beautiful lake, so many people come to take photos.",
+    "human": { "scores": { "task": 3, "organization": 3, "vocabulary": 3, "grammar": 3 }, "bac": 3 }
+  }
+]

@@ -1,254 +1,254 @@
 {
- "id": "inversion-emphasis",
- "language": "en",
- "title": "Đảo ngữ nhấn mạnh (Inversion)",
- "levels": [
-  "B2",
-  "C1"
- ],
- "order": 28,
- "category": "sentence-structure",
- "theory": {
-  "usages": [
-   {
-    "id": "inv-u1-negative-adverbials",
-    "bac": 5,
-    "label": "Đảo ngữ sau trạng từ phủ định (never, rarely, seldom, hardly ever, at no time...)",
-    "explanationVi": "Khi đặt trạng từ phủ định hoặc gần như phủ định ở ĐẦU câu để nhấn mạnh (never, rarely, seldom, hardly ever, at no time, nowhere), ta đảo trợ động từ lên trước chủ ngữ: trạng từ + trợ động từ + chủ ngữ + động từ chính. Khi đó nghĩa không đổi, chỉ nghe trang trọng và nhấn mạnh hơn. Nếu trạng từ đứng giữa câu thì không đảo (I have never seen it).",
-    "examples": [
-     {
-      "en": "Rarely do we see snow in this city.",
-      "vi": "Hiếm khi chúng tôi thấy tuyết ở thành phố này."
-     },
-     {
-      "en": "Never has she missed a deadline.",
-      "vi": "Cô ấy chưa bao giờ trễ hạn."
-     }
-    ]
-   },
-   {
-    "id": "inv-u2-not-only",
-    "bac": 4,
-    "label": "Not only ... but (also) ...",
-    "explanationVi": "Khi 'Not only' mở đầu câu, phần đứng sau nó được đảo: Not only + trợ động từ (hoặc be) + chủ ngữ + động từ chính, but (chủ ngữ) also... Mệnh đề thứ hai sau 'but also' giữ trật tự bình thường. Nếu câu chỉ có động từ 'be' thì đảo luôn 'be' lên trước chủ ngữ, không cần thêm do/does/did. Chỉ đảo khi 'Not only' đứng đầu một mệnh đề đầy đủ (chủ ngữ + động từ). Nếu 'Not only' chỉ đứng trước một danh từ hay cụm từ (Not only Tom but also Anna came) thì không đảo.",
-    "examples": [
-     {
-      "en": "Not only is the room small, but it is also dark.",
-      "vi": "Căn phòng không chỉ nhỏ mà còn tối nữa."
-     },
-     {
-      "en": "Not only did they lose the match, but they also lost their captain.",
-      "vi": "Họ không chỉ thua trận mà còn mất cả đội trưởng."
-     }
-    ]
-   },
-   {
-    "id": "inv-u3-hardly-no-sooner",
-    "bac": 5,
-    "label": "Hardly / Scarcely ... when và No sooner ... than",
-    "explanationVi": "Để nói việc này vừa xảy ra thì việc kia xảy ra ngay, dùng: Hardly (hoặc Scarcely) + had + S + V3 + when ... ; No sooner + had + S + V3 + than ... Mệnh đề đầu dùng quá khứ hoàn thành và đảo had lên trước chủ ngữ; mệnh đề sau dùng quá khứ đơn. Dạng chuẩn: hardly/scarcely đi với WHEN, no sooner đi với THAN (dạng lẫn lộn vẫn gặp nhưng bị coi là không chuẩn). Trong tiếng Anh Mỹ thân mật đôi khi dùng quá khứ đơn (No sooner did he arrive than ...), nhưng bài này luyện dạng chuẩn had + V3.",
-    "examples": [
-     {
-      "en": "Hardly had we reached the station when the train left.",
-      "vi": "Chúng tôi vừa đến ga thì tàu chạy."
-     },
-     {
-      "en": "No sooner had he sat down than the phone rang.",
-      "vi": "Anh ấy vừa ngồi xuống thì điện thoại reo."
-     }
-    ]
-   },
-   {
-    "id": "inv-u4-only-not-until",
-    "bac": 5,
-    "label": "Only + cụm trạng ngữ và Not until",
-    "explanationVi": "Khi 'Only after / when / if / by + ...' hoặc 'Not until + ...' đứng ĐẦU câu, mệnh đề chính được đảo: trợ động từ + chủ ngữ + động từ chính. Chỉ đảo ở mệnh đề chính, không đảo ở mệnh đề đi sau 'only after/when/if' hay 'not until'. Với 'not until', nghĩa là 'mãi đến khi... thì mới...'.",
-    "examples": [
-     {
-      "en": "Only after the guests left did we start cleaning.",
-      "vi": "Chỉ sau khi khách ra về chúng tôi mới bắt đầu dọn dẹp."
-     },
-     {
-      "en": "Not until midnight did the noise stop.",
-      "vi": "Mãi đến nửa đêm tiếng ồn mới dừng."
-     }
-    ]
-   },
-   {
-    "id": "inv-u5-form-rules",
-    "bac": 4,
-    "label": "Quy tắc hình thức của đảo ngữ",
-    "explanationVi": "Cách chọn từ đứng trước chủ ngữ: nếu câu thường đã có trợ động từ hoặc động từ khuyết thiếu (have, will, can...) thì đảo chính từ đó lên trước chủ ngữ. Nếu chỉ có động từ 'be' thì đảo 'be'. Nếu chỉ có động từ thường (hiện tại đơn, quá khứ đơn) thì mượn do/does/did và đưa động từ chính về nguyên thể. Chủ ngữ số nhiều dùng do, số ít dùng does. Đảo ngữ thường gặp ở văn viết và bài phát biểu; hội thoại hằng ngày ít dùng.",
-    "examples": [
-     {
-      "en": "Seldom does it snow here.",
-      "vi": "Hiếm khi tuyết rơi ở đây."
-     },
-     {
-      "en": "Never has the team played so well.",
-      "vi": "Đội chưa bao giờ chơi hay đến thế."
-     }
-    ]
-   },
-   {
-    "id": "inv-u6-little-so-such",
-    "bac": 6,
-    "label": "Đảo ngữ với Little, So ... that và Such ... that",
-    "explanationVi": "Ba cấu trúc đảo ngữ nữa. (1) 'Little' đứng đầu câu (nghĩa là 'hoàn toàn không ngờ/không biết'), thường với know, realize, imagine: Little + trợ động từ + S + V. Ví dụ: Little did he know... (2) 'So + tính từ/trạng từ' đứng đầu câu: So + adj + be + S + that ... (nếu động từ là 'be') hoặc So + adv + trợ động từ + S + V + that ... (3) 'Such + be + danh từ' ở đầu câu: Such + be + S + that ... (be hòa hợp với danh từ đứng sau). Nghĩa là 'đến mức mà'. Cả ba đều trang trọng và nhấn mạnh hơn trật tự thường (The music was so loud that ...).",
-    "examples": [
-     {
-      "en": "Little did they realize that the game was almost over.",
-      "vi": "Họ hoàn toàn không nhận ra trận đấu sắp kết thúc."
-     },
-     {
-      "en": "So tired was Nam that he fell asleep in class.",
-      "vi": "Nam mệt đến mức ngủ gật trong lớp."
-     },
-     {
-      "en": "Such was her excitement that she could not sit still.",
-      "vi": "Cô ấy hào hứng đến mức không ngồi yên được."
-     },
-     {
-      "en": "So fast did he run that nobody could catch him.",
-      "vi": "Anh ấy chạy nhanh đến mức không ai đuổi kịp."
-     }
-    ]
-   },
-   {
-    "id": "inv-u7-no-circumstances",
-    "bac": 5,
-    "label": "Đảo ngữ sau các cụm 'no' (under no circumstances, on no account, in no way, by no means)",
-    "explanationVi": "Các cụm chứa 'no' mang nghĩa phủ định mạnh như under no circumstances (trong bất kỳ hoàn cảnh nào cũng không), on no account (tuyệt đối không), in no way / by no means (hoàn toàn không) khi đứng ĐẦU câu thì phần sau được đảo: cụm + trợ động từ (hoặc be, modal) + S + V. Dùng nhiều trong quy định, lời cảnh báo. Nếu cụm đứng cuối hoặc giữa câu thì không đảo (You should on no account share it). Lưu ý: on no account hơi thiên về tiếng Anh-Anh, tiếng Anh-Mỹ thường dùng under no circumstances. In no way / by no means thường đi với be (By no means is...).",
-    "examples": [
-     {
-      "en": "Under no circumstances should the door be left open.",
-      "vi": "Trong bất kỳ hoàn cảnh nào cũng không được để cửa mở."
-     },
-     {
-      "en": "By no means is the work finished.",
-      "vi": "Công việc hoàn toàn chưa xong."
-     }
-    ]
-   },
-   {
-    "id": "inv-u8-emphatic-do",
-    "bac": 4,
-    "label": "Nhấn mạnh câu khẳng định bằng do / does / did (không đảo)",
-    "explanationVi": "Để nhấn mạnh một câu khẳng định (nhất là khi phản bác hoặc đối lập), thêm do / does / did trước động từ nguyên thể và nhấn giọng vào trợ động từ: S + do/does/did + V nguyên thể. Chọn do/does/did theo chủ ngữ và thì (does cho ngôi thứ ba số ít hiện tại, did cho quá khứ). Đây KHÔNG phải đảo ngữ: trật tự vẫn là chủ ngữ rồi mới đến trợ động từ, và động từ chính không chia thêm. Không dùng do nhấn mạnh với be hoặc modal; thay vào đó nhấn giọng chính từ đó (She IS tired), trừ mệnh lệnh nhấn mạnh như Do be careful.",
-    "examples": [
-     {
-      "en": "I did finish the book; I just forgot to return it.",
-      "vi": "Mình có đọc xong cuốn sách mà, chỉ là quên trả thôi."
-     },
-     {
-      "en": "She does love animals, even though she has no pets.",
-      "vi": "Cô ấy thực sự yêu động vật, dù không nuôi con nào."
-     }
-    ]
-   }
+  "id": "inversion-emphasis",
+  "language": "en",
+  "title": "Đảo ngữ nhấn mạnh (Inversion)",
+  "levels": [
+    "B2",
+    "C1"
   ],
-  "signalWords": [
-   {
-    "word": "never, rarely, seldom, hardly ever",
-    "meaningVi": "không bao giờ, hiếm khi (đứng đầu câu)"
-   },
-   {
-    "word": "not only ... but also",
-    "meaningVi": "không chỉ ... mà còn"
-   },
-   {
-    "word": "hardly / scarcely ... when",
-    "meaningVi": "vừa mới ... thì"
-   },
-   {
-    "word": "no sooner ... than",
-    "meaningVi": "vừa mới ... thì"
-   },
-   {
-    "word": "only after / only when / not until",
-    "meaningVi": "chỉ sau khi / chỉ khi / mãi đến khi"
-   },
-   {
-    "word": "little / so ... that / such ... that",
-    "meaningVi": "hầu như không biết / đến mức mà (đứng đầu câu)"
-   },
-   {
-    "word": "under no circumstances / on no account / by no means",
-    "meaningVi": "trong hoàn cảnh nào cũng không / tuyệt đối không / hoàn toàn không"
-   }
-  ],
-  "formulas": {
-   "affirmative": "Trạng từ phủ định + trợ động từ + S + V. Ví dụ: Rarely do we eat out. | Hardly + had + S + V3 + when ... | No sooner + had + S + V3 + than ...",
-   "negative": "Not only + trợ động từ + S + V, but (S) also ... Ví dụ: Not only did he win, but he also broke the record.",
-   "question": "Only + cụm trạng ngữ + trợ động từ + S + V. Ví dụ: Only after the rain stopped did we go out. | Not until + mệnh đề + trợ động từ + S + V."
-  },
-  "commonMistakes": [
-   {
-    "id": "inversion-emphasis-m1",
-    "description": "Quên đảo ngữ khi trạng từ phủ định đứng đầu câu.",
-    "examples": [
-     {
-      "wrong": "Seldom she complains about her homework.",
-      "correct": "Seldom does she complain about her homework."
-     }
+  "order": 30,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "inv-u1-negative-adverbials",
+        "bac": 5,
+        "label": "Đảo ngữ sau trạng từ phủ định (never, rarely, seldom, hardly ever, at no time...)",
+        "explanationVi": "Khi đặt trạng từ phủ định hoặc gần như phủ định ở ĐẦU câu để nhấn mạnh (never, rarely, seldom, hardly ever, at no time, nowhere), ta đảo trợ động từ lên trước chủ ngữ: trạng từ + trợ động từ + chủ ngữ + động từ chính. Khi đó nghĩa không đổi, chỉ nghe trang trọng và nhấn mạnh hơn. Nếu trạng từ đứng giữa câu thì không đảo (I have never seen it).",
+        "examples": [
+          {
+            "en": "Rarely do we see snow in this city.",
+            "vi": "Hiếm khi chúng tôi thấy tuyết ở thành phố này."
+          },
+          {
+            "en": "Never has she missed a deadline.",
+            "vi": "Cô ấy chưa bao giờ trễ hạn."
+          }
+        ]
+      },
+      {
+        "id": "inv-u2-not-only",
+        "bac": 4,
+        "label": "Not only ... but (also) ...",
+        "explanationVi": "Khi 'Not only' mở đầu câu, phần đứng sau nó được đảo: Not only + trợ động từ (hoặc be) + chủ ngữ + động từ chính, but (chủ ngữ) also... Mệnh đề thứ hai sau 'but also' giữ trật tự bình thường. Nếu câu chỉ có động từ 'be' thì đảo luôn 'be' lên trước chủ ngữ, không cần thêm do/does/did. Chỉ đảo khi 'Not only' đứng đầu một mệnh đề đầy đủ (chủ ngữ + động từ). Nếu 'Not only' chỉ đứng trước một danh từ hay cụm từ (Not only Tom but also Anna came) thì không đảo.",
+        "examples": [
+          {
+            "en": "Not only is the room small, but it is also dark.",
+            "vi": "Căn phòng không chỉ nhỏ mà còn tối nữa."
+          },
+          {
+            "en": "Not only did they lose the match, but they also lost their captain.",
+            "vi": "Họ không chỉ thua trận mà còn mất cả đội trưởng."
+          }
+        ]
+      },
+      {
+        "id": "inv-u3-hardly-no-sooner",
+        "bac": 5,
+        "label": "Hardly / Scarcely ... when và No sooner ... than",
+        "explanationVi": "Để nói việc này vừa xảy ra thì việc kia xảy ra ngay, dùng: Hardly (hoặc Scarcely) + had + S + V3 + when ... ; No sooner + had + S + V3 + than ... Mệnh đề đầu dùng quá khứ hoàn thành và đảo had lên trước chủ ngữ; mệnh đề sau dùng quá khứ đơn. Dạng chuẩn: hardly/scarcely đi với WHEN, no sooner đi với THAN (dạng lẫn lộn vẫn gặp nhưng bị coi là không chuẩn). Trong tiếng Anh Mỹ thân mật đôi khi dùng quá khứ đơn (No sooner did he arrive than ...), nhưng bài này luyện dạng chuẩn had + V3.",
+        "examples": [
+          {
+            "en": "Hardly had we reached the station when the train left.",
+            "vi": "Chúng tôi vừa đến ga thì tàu chạy."
+          },
+          {
+            "en": "No sooner had he sat down than the phone rang.",
+            "vi": "Anh ấy vừa ngồi xuống thì điện thoại reo."
+          }
+        ]
+      },
+      {
+        "id": "inv-u4-only-not-until",
+        "bac": 5,
+        "label": "Only + cụm trạng ngữ và Not until",
+        "explanationVi": "Khi 'Only after / when / if / by + ...' hoặc 'Not until + ...' đứng ĐẦU câu, mệnh đề chính được đảo: trợ động từ + chủ ngữ + động từ chính. Chỉ đảo ở mệnh đề chính, không đảo ở mệnh đề đi sau 'only after/when/if' hay 'not until'. Với 'not until', nghĩa là 'mãi đến khi... thì mới...'.",
+        "examples": [
+          {
+            "en": "Only after the guests left did we start cleaning.",
+            "vi": "Chỉ sau khi khách ra về chúng tôi mới bắt đầu dọn dẹp."
+          },
+          {
+            "en": "Not until midnight did the noise stop.",
+            "vi": "Mãi đến nửa đêm tiếng ồn mới dừng."
+          }
+        ]
+      },
+      {
+        "id": "inv-u5-form-rules",
+        "bac": 4,
+        "label": "Quy tắc hình thức của đảo ngữ",
+        "explanationVi": "Cách chọn từ đứng trước chủ ngữ: nếu câu thường đã có trợ động từ hoặc động từ khuyết thiếu (have, will, can...) thì đảo chính từ đó lên trước chủ ngữ. Nếu chỉ có động từ 'be' thì đảo 'be'. Nếu chỉ có động từ thường (hiện tại đơn, quá khứ đơn) thì mượn do/does/did và đưa động từ chính về nguyên thể. Chủ ngữ số nhiều dùng do, số ít dùng does. Đảo ngữ thường gặp ở văn viết và bài phát biểu; hội thoại hằng ngày ít dùng.",
+        "examples": [
+          {
+            "en": "Seldom does it snow here.",
+            "vi": "Hiếm khi tuyết rơi ở đây."
+          },
+          {
+            "en": "Never has the team played so well.",
+            "vi": "Đội chưa bao giờ chơi hay đến thế."
+          }
+        ]
+      },
+      {
+        "id": "inv-u6-little-so-such",
+        "bac": 6,
+        "label": "Đảo ngữ với Little, So ... that và Such ... that",
+        "explanationVi": "Ba cấu trúc đảo ngữ nữa. (1) 'Little' đứng đầu câu (nghĩa là 'hoàn toàn không ngờ/không biết'), thường với know, realize, imagine: Little + trợ động từ + S + V. Ví dụ: Little did he know... (2) 'So + tính từ/trạng từ' đứng đầu câu: So + adj + be + S + that ... (nếu động từ là 'be') hoặc So + adv + trợ động từ + S + V + that ... (3) 'Such + be + danh từ' ở đầu câu: Such + be + S + that ... (be hòa hợp với danh từ đứng sau). Nghĩa là 'đến mức mà'. Cả ba đều trang trọng và nhấn mạnh hơn trật tự thường (The music was so loud that ...).",
+        "examples": [
+          {
+            "en": "Little did they realize that the game was almost over.",
+            "vi": "Họ hoàn toàn không nhận ra trận đấu sắp kết thúc."
+          },
+          {
+            "en": "So tired was Nam that he fell asleep in class.",
+            "vi": "Nam mệt đến mức ngủ gật trong lớp."
+          },
+          {
+            "en": "Such was her excitement that she could not sit still.",
+            "vi": "Cô ấy hào hứng đến mức không ngồi yên được."
+          },
+          {
+            "en": "So fast did he run that nobody could catch him.",
+            "vi": "Anh ấy chạy nhanh đến mức không ai đuổi kịp."
+          }
+        ]
+      },
+      {
+        "id": "inv-u7-no-circumstances",
+        "bac": 5,
+        "label": "Đảo ngữ sau các cụm 'no' (under no circumstances, on no account, in no way, by no means)",
+        "explanationVi": "Các cụm chứa 'no' mang nghĩa phủ định mạnh như under no circumstances (trong bất kỳ hoàn cảnh nào cũng không), on no account (tuyệt đối không), in no way / by no means (hoàn toàn không) khi đứng ĐẦU câu thì phần sau được đảo: cụm + trợ động từ (hoặc be, modal) + S + V. Dùng nhiều trong quy định, lời cảnh báo. Nếu cụm đứng cuối hoặc giữa câu thì không đảo (You should on no account share it). Lưu ý: on no account hơi thiên về tiếng Anh-Anh, tiếng Anh-Mỹ thường dùng under no circumstances. In no way / by no means thường đi với be (By no means is...).",
+        "examples": [
+          {
+            "en": "Under no circumstances should the door be left open.",
+            "vi": "Trong bất kỳ hoàn cảnh nào cũng không được để cửa mở."
+          },
+          {
+            "en": "By no means is the work finished.",
+            "vi": "Công việc hoàn toàn chưa xong."
+          }
+        ]
+      },
+      {
+        "id": "inv-u8-emphatic-do",
+        "bac": 4,
+        "label": "Nhấn mạnh câu khẳng định bằng do / does / did (không đảo)",
+        "explanationVi": "Để nhấn mạnh một câu khẳng định (nhất là khi phản bác hoặc đối lập), thêm do / does / did trước động từ nguyên thể và nhấn giọng vào trợ động từ: S + do/does/did + V nguyên thể. Chọn do/does/did theo chủ ngữ và thì (does cho ngôi thứ ba số ít hiện tại, did cho quá khứ). Đây KHÔNG phải đảo ngữ: trật tự vẫn là chủ ngữ rồi mới đến trợ động từ, và động từ chính không chia thêm. Không dùng do nhấn mạnh với be hoặc modal; thay vào đó nhấn giọng chính từ đó (She IS tired), trừ mệnh lệnh nhấn mạnh như Do be careful.",
+        "examples": [
+          {
+            "en": "I did finish the book; I just forgot to return it.",
+            "vi": "Mình có đọc xong cuốn sách mà, chỉ là quên trả thôi."
+          },
+          {
+            "en": "She does love animals, even though she has no pets.",
+            "vi": "Cô ấy thực sự yêu động vật, dù không nuôi con nào."
+          }
+        ]
+      }
     ],
-    "usageIds": [
-     "inv-u1-negative-adverbials",
-     "inv-u5-form-rules"
-    ]
-   },
-   {
-    "id": "inversion-emphasis-m2",
-    "description": "Vừa đảo ngữ vừa chia động từ chính: sau do/does/did động từ chính phải ở dạng nguyên thể.",
-    "examples": [
-     {
-      "wrong": "Rarely does he goes to the gym.",
-      "correct": "Rarely does he go to the gym."
-     }
+    "signalWords": [
+      {
+        "word": "never, rarely, seldom, hardly ever",
+        "meaningVi": "không bao giờ, hiếm khi (đứng đầu câu)"
+      },
+      {
+        "word": "not only ... but also",
+        "meaningVi": "không chỉ ... mà còn"
+      },
+      {
+        "word": "hardly / scarcely ... when",
+        "meaningVi": "vừa mới ... thì"
+      },
+      {
+        "word": "no sooner ... than",
+        "meaningVi": "vừa mới ... thì"
+      },
+      {
+        "word": "only after / only when / not until",
+        "meaningVi": "chỉ sau khi / chỉ khi / mãi đến khi"
+      },
+      {
+        "word": "little / so ... that / such ... that",
+        "meaningVi": "hầu như không biết / đến mức mà (đứng đầu câu)"
+      },
+      {
+        "word": "under no circumstances / on no account / by no means",
+        "meaningVi": "trong hoàn cảnh nào cũng không / tuyệt đối không / hoàn toàn không"
+      }
     ],
-    "usageIds": [
-     "inv-u5-form-rules"
+    "formulas": {
+      "affirmative": "Trạng từ phủ định + trợ động từ + S + V. Ví dụ: Rarely do we eat out. | Hardly + had + S + V3 + when ... | No sooner + had + S + V3 + than ...",
+      "negative": "Not only + trợ động từ + S + V, but (S) also ... Ví dụ: Not only did he win, but he also broke the record.",
+      "question": "Only + cụm trạng ngữ + trợ động từ + S + V. Ví dụ: Only after the rain stopped did we go out. | Not until + mệnh đề + trợ động từ + S + V."
+    },
+    "commonMistakes": [
+      {
+        "id": "inversion-emphasis-m1",
+        "description": "Quên đảo ngữ khi trạng từ phủ định đứng đầu câu.",
+        "examples": [
+          {
+            "wrong": "Seldom she complains about her homework.",
+            "correct": "Seldom does she complain about her homework."
+          }
+        ],
+        "usageIds": [
+          "inv-u1-negative-adverbials",
+          "inv-u5-form-rules"
+        ]
+      },
+      {
+        "id": "inversion-emphasis-m2",
+        "description": "Vừa đảo ngữ vừa chia động từ chính: sau do/does/did động từ chính phải ở dạng nguyên thể.",
+        "examples": [
+          {
+            "wrong": "Rarely does he goes to the gym.",
+            "correct": "Rarely does he go to the gym."
+          }
+        ],
+        "usageIds": [
+          "inv-u5-form-rules"
+        ]
+      },
+      {
+        "id": "inversion-emphasis-m3",
+        "description": "Dùng lẫn cặp từ: dạng chuẩn là hardly/scarcely ... when và no sooner ... than (dạng lẫn lộn bị coi là không chuẩn).",
+        "examples": [
+          {
+            "wrong": "No sooner had I left when it rained.",
+            "correct": "No sooner had I left than it rained."
+          }
+        ],
+        "usageIds": [
+          "inv-u3-hardly-no-sooner"
+        ]
+      },
+      {
+        "id": "inversion-emphasis-m4",
+        "description": "Quên đảo sau cụm 'no' ở đầu câu.",
+        "examples": [
+          {
+            "wrong": "Under no circumstances you should leave the door open.",
+            "correct": "Under no circumstances should you leave the door open."
+          }
+        ],
+        "usageIds": [
+          "inv-u7-no-circumstances"
+        ]
+      },
+      {
+        "id": "inversion-emphasis-m5",
+        "description": "Mượn does cho động từ be khi đảo ngữ: be tự đảo.",
+        "examples": [
+          {
+            "wrong": "Rarely does he is late.",
+            "correct": "Rarely is he late."
+          }
+        ],
+        "usageIds": [
+          "inv-u5-form-rules"
+        ]
+      }
     ]
-   },
-   {
-    "id": "inversion-emphasis-m3",
-    "description": "Dùng lẫn cặp từ: dạng chuẩn là hardly/scarcely ... when và no sooner ... than (dạng lẫn lộn bị coi là không chuẩn).",
-    "examples": [
-     {
-      "wrong": "No sooner had I left when it rained.",
-      "correct": "No sooner had I left than it rained."
-     }
-    ],
-    "usageIds": [
-     "inv-u3-hardly-no-sooner"
-    ]
-   },
-   {
-    "id": "inversion-emphasis-m4",
-    "description": "Quên đảo sau cụm 'no' ở đầu câu.",
-    "examples": [
-     {
-      "wrong": "Under no circumstances you should leave the door open.",
-      "correct": "Under no circumstances should you leave the door open."
-     }
-    ],
-    "usageIds": [
-     "inv-u7-no-circumstances"
-    ]
-   },
-   {
-    "id": "inversion-emphasis-m5",
-    "description": "Mượn does cho động từ be khi đảo ngữ: be tự đảo.",
-    "examples": [
-     {
-      "wrong": "Rarely does he is late.",
-      "correct": "Rarely is he late."
-     }
-    ],
-    "usageIds": [
-     "inv-u5-form-rules"
-    ]
-   }
-  ]
- }
+  }
 }

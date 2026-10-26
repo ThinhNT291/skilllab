@@ -6,8 +6,9 @@ import { getStudentData } from "@/lib/db"
 import { buildProfile, SKILL_INFO, MIN_SAMPLE, type SkillProfile } from "@/lib/progress/profile"
 import { summarizeAttempts } from "@/lib/analytics/attempts"
 import { computeStreaks, countByDay, countsFromDaily } from "@/lib/analytics/activity"
+import { parseResult, PLACEMENT_SKILLS, type PlacementResult } from "@/lib/placement/full"
 
-type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; name: string; username: string | null; profile: SkillProfile[]; streak: number; best: number; total: number; accuracy: number | null; writing: ReturnType<typeof summarizeAttempts> }
+type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; name: string; username: string | null; profile: SkillProfile[]; streak: number; best: number; total: number; accuracy: number | null; windowLabel: string; placement: { result: PlacementResult; at: string } | null; writing: ReturnType<typeof summarizeAttempts> }
 
 export function StudentDetail({ id }: { id: string }) {
   const [state, setState] = useState<State>({ status: "loading" })
@@ -28,6 +29,11 @@ export function StudentDetail({ id }: { id: string }) {
         streak: streaks.current,
         best: streaks.best,
         total,
+        windowLabel: r.daily ? "trong 365 ngày gần nhất" : "trong 1.000 lượt gần nhất",
+        placement: (() => {
+          const res = r.placement ? parseResult(r.placement.result) : null
+          return res && r.placement ? { result: res, at: r.placement.completed_at } : null
+        })(),
         accuracy: total ? correct / total : null,
         writing: summarizeAttempts(r.attempts),
       })
@@ -51,7 +57,7 @@ export function StudentDetail({ id }: { id: string }) {
       </div>
       <div className="grid gap-3 sm:grid-cols-3">
         <Stat label="Chuỗi ngày học" value={`🔥 ${state.streak}`} sub={`dài nhất ${state.best}`} />
-        <Stat label="Tổng lượt làm" value={String(state.total)} sub="trong 1.000 lượt gần nhất" />
+        <Stat label="Tổng lượt làm" value={String(state.total)} sub={state.windowLabel} />
         <Stat label="Tỷ lệ đúng" value={state.accuracy === null ? "—" : `${Math.round(state.accuracy * 100)}%`} sub="trong các lượt trên" />
       </div>
       <section aria-labelledby="sk" className="rounded-game border-2 border-border bg-card p-4">
@@ -74,6 +80,29 @@ export function StudentDetail({ id }: { id: string }) {
             )
           })}
         </ul>
+      </section>
+      <section aria-labelledby="pl" className="rounded-game border-2 border-border bg-card p-4">
+        <h3 id="pl" className="mb-2 text-xl font-extrabold">
+          Xếp trình độ tổng hợp
+        </h3>
+        {state.placement ? (
+          <>
+            <p>
+              Lần gần nhất {new Date(state.placement.at).toLocaleDateString("vi-VN")}: bậc tổng <strong>{state.placement.result.overall.label}</strong>
+            </p>
+            <ul className="mt-1 grid gap-x-6 sm:grid-cols-2">
+              {PLACEMENT_SKILLS.map((k) => (
+                <li key={k} className="text-sm">
+                  {{ grammar: "Ngữ pháp", vocab: "Từ vựng", reading: "Đọc hiểu", listening: "Nghe hiểu" }[k]}: <strong>{state.placement!.result.skills[k].label}</strong>
+                  {state.placement!.result.skills[k].confidence === "low" ? " (chưa chắc)" : ""}
+                </li>
+              ))}
+            </ul>
+            <p className="mt-1 text-sm text-muted-foreground">Ước lượng của máy từ 36 câu, chỉ để tham khảo; khi chưa rõ lấy bậc thấp hơn.</p>
+          </>
+        ) : (
+          <p className="text-muted-foreground">Chưa làm bài xếp trình độ tổng hợp (hoặc chưa chạy migration 0013).</p>
+        )}
       </section>
       <section aria-labelledby="wr" className="rounded-game border-2 border-border bg-card p-4">
         <h3 id="wr" className="mb-2 text-xl font-extrabold">

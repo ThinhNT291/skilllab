@@ -133,22 +133,24 @@ export async function listRecentActivity(days = 7): Promise<{ ok: true; rows: Da
 
 /** Dữ liệu học tập của một học sinh (để dựng hồ sơ năng lực). */
 export async function getStudentData(profileId: string): Promise<
-  | { ok: true; profile: StaffProfile; answers: { topic: string; correct: boolean; created_at: string }[]; attempts: AttemptRow[]; daily: DailyRow[] | null }
+  | { ok: true; profile: StaffProfile; answers: { topic: string; correct: boolean; created_at: string }[]; attempts: AttemptRow[]; daily: DailyRow[] | null; placement: { result: unknown; completed_at: string } | null }
   | Fail
 > {
   if (!dbConfigured()) return nc
   try {
     const supabase = createClient()
-    const [p, a, g, d] = await Promise.all([
+    const [p, a, g, d, pl] = await Promise.all([
       supabase.from("profiles").select("id, nickname, username, role, disabled_at, created_at").eq("id", profileId).maybeSingle(),
       supabase.from("answers").select("topic, correct, created_at").eq("profile_id", profileId).order("created_at", { ascending: false }).limit(1000),
       supabase.from("graded_attempts").select("skill, task_id, target_bac, total, estimated_bac, scores, note, created_at").eq("profile_id", profileId).order("created_at", { ascending: false }).limit(60),
       supabase.from("daily_activity").select("day, answers, correct").eq("profile_id", profileId).gte("day", vnDayKey(new Date(Date.now() - 365 * 86_400_000))).order("day", { ascending: true }),
+      // Bảng có thể chưa tạo (chưa chạy migration 0013): lỗi thì bỏ qua phần này.
+      supabase.from("placement_sessions").select("result, completed_at").eq("profile_id", profileId).eq("status", "completed").order("completed_at", { ascending: false }).limit(1),
     ])
     const err = p.error ?? a.error ?? g.error
     if (err) return { ok: false, reason: "error", message: err.message }
     if (!p.data) return { ok: false, reason: "error", message: "not_found" }
-    return { ok: true, profile: p.data as StaffProfile, answers: (a.data ?? []) as { topic: string; correct: boolean; created_at: string }[], attempts: (g.data ?? []) as AttemptRow[], daily: d.error ? null : ((d.data ?? []) as DailyRow[]) }
+    return { ok: true, profile: p.data as StaffProfile, answers: (a.data ?? []) as { topic: string; correct: boolean; created_at: string }[], attempts: (g.data ?? []) as AttemptRow[], daily: d.error ? null : ((d.data ?? []) as DailyRow[]), placement: pl.error || !pl.data?.[0] ? null : (pl.data[0] as { result: unknown; completed_at: string }) }
   } catch (e) {
     return fail(e)
   }

@@ -201,14 +201,23 @@ Khuôn BÀI NGHE: như trên, thay phần nội dung bằng quy tắc **viết c
 
 Giải mù cho đọc/nghe: mô hình trả lời 4 câu **chỉ dựa vào đoạn/lời thoại, không thấy đáp án**; lệch đáp án thì câu hỏi mơ hồ, loại.
 
-### 10.5 Kiểm bằng mã: độ khó từ vựng và độ dài
-Đề xuất script `scripts/check-text-level.mjs` (chưa viết): với mỗi bài đọc/nghe tính số từ, độ dài câu trung bình, và **tỷ lệ từ nằm ngoài danh sách từ vựng của bậc** (dùng danh sách từ vựng A1–C2 đã có trong `src/content/vocab`, đã nạp từ English Vocabulary Profile). Báo bài vượt ngưỡng (vd >5% từ cao hơn bậc) hoặc lệch độ dài. Dùng được **ngay** để rà ngân hàng hiện có (có thể phát hiện bài ghi bậc thấp mà từ khó) và để lọc bài do Gemini sinh trước khi người duyệt. Cần lưu ý: danh sách từ chỉ gồm danh/động/tính/trạng từ đơn, nên tỷ lệ chỉ là chỉ báo, không phải kết luận.
+### 10.5 Kiểm bằng mã: độ khó từ vựng và độ dài (ĐÃ CÓ: `npm run check:text-level`)
+`scripts/check-text-level.mjs` (logic ở `src/lib/content/text-level.ts`, có test): với mỗi bài đọc/nghe tính số từ, từ/câu, **tỷ lệ từ nằm ngoài danh sách của bậc** và liệt kê từ vượt bậc; đánh dấu bài lệch độ dài, câu dài, hoặc nhiều từ vượt bậc.
+- **Nguồn danh sách cấp độ:** CEFR-J Vocabulary Profile (A1–B2, `reference/cefrj-vocabulary-profile-1.5.csv`) và Octanove Vocabulary Profile (C1–C2, `reference/octanove-vocabulary-profile-c1c2-1.0.csv`), cộng gộp lấy cấp thấp nhất của mỗi từ khóa. **Không** dùng `src/content/vocab` của ứng dụng: đó là tập con đã lọc cho trẻ (A1 chỉ 180 từ, thiếu cả "day", "school") nên dùng sẽ báo sai hàng loạt (lần chạy đầu cho 65–77% "không có trong danh sách"; đã đổi nguồn).
+- **Kết quả rà ngân hàng hiện có (26/10/2026):** 16/170 bài bị đánh dấu. Bài đọc/nghe từ Bậc 3 trở lên gần như sạch (tỷ lệ từ vượt bậc trung vị 0–1,4%); Bậc 1–2 có từ cụ thể xếp cấp cao hơn (giraffe, oven, lamp, noon…) là chủ ý cho trẻ nhỏ nên ngưỡng nới (15% và 10%); phần lớn cờ còn lại là "ngắn hơn khoảng ưa dùng vài từ". Chưa có bài nào cần sửa gấp; người duyệt xem danh sách.
+- **Hạn chế:** danh sách là từ khóa gốc (không có dạng biến cách, cụm từ, tên riêng; dạng biến cách đoán bằng quy tắc đơn giản); từ nhiều nghĩa lấy cấp thấp nhất; chỉ là chỉ báo cho người duyệt, không phải kết luận. Giấy phép hai danh sách cần xem lại nếu muốn đóng gói vào sản phẩm (hiện chỉ dùng cho công cụ kiểm tra nội bộ, không phân phối trong ứng dụng).
 
 ### 10.6 Hai loại nội dung đọc/nghe: tách rõ
 - **Bài kiểm hiểu (trắc nghiệm, chấm bằng mã):** loại đang có (`/doc`, `/nghe`), dùng cho luyện, xếp trình độ, Phòng thử thách.
 - **Đầu vào dễ hiểu (Comprehensible Input), câu hỏi mở không bắt buộc:** loại của prompt 2 và 3. Chưa có trong app. Rất hợp với **luồng "một con đường"**: một khối thư giãn cuối bài hôm nay, đọc/nghe vì thú vị, không áp lực, không tính điểm. Câu hỏi mở dùng `modelAnswer` để **tự đối chiếu** (người học gõ rồi xem đáp án mẫu), nên **không tốn chi phí chấm AI** và không cần hạn mức. Khi làm: nâng từ 5 cấp lên Bậc 1–6, thêm kiểm từ vựng (10.5), tăng đa dạng thể loại, mã đặt id.
 
-### 10.7 Việc tiếp theo cho phần lời nhắc
-1. Viết `scripts/check-text-level.mjs` và chạy trên ngân hàng đọc/nghe/chuyên đề hiện có, báo cáo cho chủ dự án duyệt.
-2. Chuyển các khuôn ở mục 4, 5, 10.4 thành tệp trong `src/lib/ai/prompts/` có phiên bản; viết `scripts/gen-items.mjs` và `scripts/review-items.mjs` (chạy ở máy chủ dự án với khóa của chủ dự án).
-3. Soạn lời nhắc cho ngân hàng placement tổng hợp (bản vẽ mục 7) khi làm bài xếp trình độ 30–40 câu.
+### 10.7 Trạng thái phần lời nhắc và script (26/10/2026)
+**Đã có (đã thử bằng máy chủ Gemini giả, CHƯA thử với Gemini thật, nên chưa biết chất lượng câu sinh ra):**
+- `npm run check:text-level`: rà độ khó từ vựng và độ dài bài đọc/nghe (mục 10.5).
+- `scripts/gen-items.mjs`: sinh câu ngữ pháp theo khuôn mục 4 (đưa danh sách câu cũ vào lời nhắc; mã kiểm tra cấu trúc, ký hiệu markdown, đáp án trùng, bốn lời giải thích "Đúng —"/"Sai —", chỉ một đáp án chấp nhận được do mô hình tự xác nhận; loại câu trùng/gần trùng; vị trí đáp án đúng rải đều cả lô bằng mã; mã câu nối tiếp). Ghi `tmp/gen/*.json`, KHÔNG ghi vào `src/content`. Lời nhắc có phiên bản `grammar-items-v1` (`src/lib/ai/prompts/grammar-items.ts`).
+- `scripts/review-items.mjs`: giải mù (mục 5), có thể chạy nhiều lần độc lập (`--runs`); câu phải qua tất cả các lần. Ghi `*.reviewed.json` và `*.passed.json`.
+- `scripts/gen-passages.mjs` + `scripts/review-passages.mjs`: sinh và giải mù bài đọc/nghe (khuôn mục 10.4; lời nhắc `passages-v1` ở `src/lib/ai/prompts/passages.ts`; mã kiểm: độ dài theo bậc, nhãn người nói, **bằng chứng trích từ bài phải có thật trong bài**, đáp án đúng diễn đạt lại, giải thích từng đáp án, câu Đúng/Sai/Không nêu giữ thứ tự cố định, tối đa 2 câu như vậy mỗi bài; đo từ vựng vượt bậc, chỉ cảnh báo). Mỗi bài một lần gọi. Chưa thử với Gemini thật.
+- `scripts/grade-eval.mjs` + `eval/` : đo độ khớp điểm máy chấm Viết với điểm người chấm trên bộ mẫu (khớp hoàn toàn, lệch ≤1, độ lệch, kappa), có phiên bản lời nhắc chấm `grading-v2`. **Chờ bộ mẫu ~30 bài do giáo viên chấm** (`eval/README.md`); chưa có bài nào thật.
+- Cách dùng: đặt `GEMINI_API_KEY` (và `GEMINI_TEXT_MODEL` sau khi đối chiếu mã mô hình hiện hành trên ai.google.dev) trong `.env.local`, rồi `node scripts/gen-items.mjs --topic present-simple --bac 3 --n 10` → `node scripts/review-items.mjs tmp/gen/<tệp>` → người duyệt mẫu → tự gộp vào `src/content/exercises/en/<chuyên đề>.json` → `node scripts/build-item-meta.mjs`, `npm run check:content`, `npm test`.
+
+**Chưa làm:** lời nhắc sinh lý thuyết chuyên đề ngữ pháp mới, từ vựng bổ sung, cụm từ, đề Viết/Nói (xem `docs/khoang-trong-noi-dung.md` mục 4); lời nhắc sinh ngân hàng placement riêng; lưu `promptVersion` cùng kết quả chấm trong `graded_attempts.detail`; các cải tiến lời nhắc chấm Viết/Nói ở mục 8 (chỉ đo được sau khi có bộ mẫu).

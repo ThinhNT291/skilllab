@@ -27,6 +27,19 @@ export function ensureProfile(): Promise<Profile> {
   return profilePromise
 }
 
+/**
+ * Mã hồ sơ của phiên ĐÃ CÓ (không tạo phiên ẩn danh mới). Null nếu chưa có phiên hoặc chưa có hồ sơ.
+ * Dùng cho việc chỉ nên làm khi người dùng đã có tài khoản/phiên (đồng bộ cài đặt), để khách chỉ xem trang không bị tạo tài khoản ẩn danh.
+ */
+export async function existingProfileId(): Promise<string | null> {
+  if (!dbConfigured()) return null
+  const supabase = createClient()
+  const { data: { user } } = await supabase.auth.getUser()
+  if (!user) return null
+  const { data } = await supabase.from("profiles").select("id").eq("auth_user_id", user.id).maybeSingle()
+  return data?.id ?? null
+}
+
 async function load(): Promise<Profile> {
   const supabase = createClient()
 

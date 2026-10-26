@@ -125,7 +125,7 @@ Việc nhỏ cho từ vựng, làm cùng đợt: chọn đáp án nhiễu gần 
 ## 9. Thứ tự làm
 1. Duyệt tài liệu này (bạn).
 2. `scripts/item-report.mjs` (đo chất lượng câu).
-3. **XONG (26/10/2026):** một nơi duy nhất đổi Elo thành Bậc + CEFR: `src/lib/progress/level.ts` (`skillLevel`, `placementLevel`, `overallLevel`, `levelOfAbility`) và `levelLabel` ở `src/lib/content/bac.ts`. Đã dùng ở bốn bài xếp trình độ (ngữ pháp, từ vựng, đọc, nghe), `LevelHint`, ghi chú của luyện thích ứng và hồ sơ năng lực ở `/tien-do` (có dòng Bậc tổng). Đã gỡ `estimateBac` và `stairResult`. Bài xếp trình độ dùng cùng công thức Elo nhưng K nhân 2 (`PLACEMENT_K_SCALE`, giá trị khởi điểm) vì chỉ có 12–20 câu. Bậc tổng cần ≥3 kỹ năng không ở mức tin cậy thấp. Còn lại: bậc Viết/Nói (do Gemini ước lượng) vẫn hiển thị riêng, chưa gộp.
+3. **XONG (26/10/2026):** một nơi duy nhất đổi Elo thành Bậc + CEFR: `src/lib/progress/level.ts` (`skillLevel`, `placementLevel`, `overallLevel`, `levelOfAbility`) và `levelLabel` ở `src/lib/content/bac.ts`. Đã dùng ở bốn bài xếp trình độ (ngữ pháp, từ vựng, đọc, nghe), `LevelHint`, ghi chú của luyện thích ứng và hồ sơ năng lực ở `/tien-do` (có dòng Bậc tổng). Đã gỡ `estimateBac` và `stairResult`. Bài xếp trình độ (ngắn, 12–36 câu) dùng ước lượng MAP cùng mô hình xác suất (`estimateThetaMAP`), không dùng Elo tuần tự (Elo với vài câu nhích quá ít); lấy bậc dưới khi chưa rõ. Chi tiết và mô phỏng: `docs/xep-trinh-do-tong-hop.md`. Bậc tổng cần ≥3 kỹ năng không ở mức tin cậy thấp. Còn lại: bậc Viết/Nói (do Gemini ước lượng) vẫn hiển thị riêng, chưa gộp.
 4. Hàm thuần cho Lộ trình: nấc, mở khóa tuần tự và thử sức, điều kiện nhảy bậc, chọn bài có trọng số kỹ năng yếu. Có test.
 5. Phòng thử thách và lời giải thích áp lực.
 6. Giao diện và đồ họa (sau cùng).

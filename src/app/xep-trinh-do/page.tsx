@@ -11,6 +11,11 @@ export default function PlacementPage() {
   return (
     <main className="mx-auto w-full max-w-7xl px-4 py-6 [&>*]:max-w-4xl">
       <h1 className="text-3xl font-extrabold">Xếp trình độ</h1>
+      <Link href="/xep-trinh-do/tong-hop" className="mb-4 block rounded-game border-2 border-primary bg-card p-4 hover:bg-card/80">
+        <span className="block text-xl font-extrabold">🧭 Bài xếp trình độ tổng hợp (khuyên dùng)</span>
+        <span className="block text-muted-foreground">36 câu gồm ngữ pháp, từ vựng, đọc và nghe; ra bậc cho từng kỹ năng và bậc tổng. Đăng nhập thì lưu được phần làm dở và kết quả.</span>
+      </Link>
+      <p className="mb-1 font-extrabold">Hoặc làm bài ngắn từng phần</p>
       <p className="mb-3 text-muted-foreground">Bài ngữ pháp: 20 câu ngắn từ nhiều chuyên đề để biết nên bắt đầu học từ đâu. Không tính điểm xếp hạng. Làm xong, các bài luyện và game sẽ bắt đầu vừa sức với bạn.</p>
       <nav aria-label="Xếp trình độ kỹ năng khác" className="mb-5 flex flex-wrap gap-2">
         {[

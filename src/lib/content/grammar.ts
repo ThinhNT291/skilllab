@@ -1,5 +1,7 @@
 import enIndex from "@/content/grammar/en/index.json"
 import type { Exercise, GrammarTopic, GrammarTopicMeta, Language } from "./types"
+import { filterReserved, type ReservedMode } from "@/lib/placement/filter"
+import { RESERVED } from "@/lib/placement/reserved"
 
 /**
  * Nạp nội dung ngữ pháp từ tệp JSON trong src/content. Đây là điểm duy nhất biết nội dung nằm ở đâu:
@@ -25,12 +27,15 @@ export async function getGrammarTopic(language: Language, id: string): Promise<G
   return mod.default as GrammarTopic
 }
 
-/** Bài tập của một chuyên đề. Chuyên đề chưa có bài tập trả về mảng rỗng. */
-export async function getExercises(language: Language, topicId: string): Promise<Exercise[]> {
+/**
+ * Bài tập của một chuyên đề. Chuyên đề chưa có bài tập trả về mảng rỗng.
+ * Câu dành riêng cho bài xếp trình độ tổng hợp bị loại (mặc định), trừ khi lấy `reserved: "only"` (chỉ bài xếp trình độ dùng).
+ */
+export async function getExercises(language: Language, topicId: string, opts: { reserved?: ReservedMode } = {}): Promise<Exercise[]> {
   if (!findGrammarTopicMeta(language, topicId)) return []
   try {
     const mod = await import(`@/content/exercises/${language}/${topicId}.json`)
-    return mod.default as Exercise[]
+    return filterReserved(mod.default as Exercise[], RESERVED.grammar, opts.reserved)
   } catch {
     return []
   }
