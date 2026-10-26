@@ -24,3 +24,14 @@ test("kỷ lục: chỉ nhận số hợp lệ, giới hạn độ dài khóa v�
   assert.equal(Object.keys(sanitizeSettings({ records: many }).records).length, 100)
   assert.deepEqual(sanitizeSettings({ updatedAt: -5 }).updatedAt, 0)
 })
+
+import { skillOfTopic } from "../src/lib/progress/profile.ts"
+import { answerBac } from "../src/lib/path/gate.ts"
+
+test("câu đọc to: mặc định bật, tắt được; chủ điểm 'speak' không thuộc kỹ năng nhận biết nào", () => {
+  assert.equal(sanitizeSettings(null).speakQuestions, true)
+  assert.equal(sanitizeSettings({ speakQuestions: false }).speakQuestions, false)
+  assert.equal(sanitizeSettings({ speakQuestions: "no" }).speakQuestions, true)
+  assert.equal(skillOfTopic("speak"), "speaking")
+  assert.equal(answerBac({ exercise_id: "en-x-001~speak", topic: "speak" }, { "en-x-001": [3, 2] }), null, "không tính vào cổng nhảy bậc")
+})

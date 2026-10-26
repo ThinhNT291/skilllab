@@ -25,6 +25,8 @@ export const MIN_SAMPLE = 10
 export const NEGLECT_DAYS = 4
 
 export function skillOfTopic(topicId: string): SkillId {
+  // Câu đọc to (chủ điểm "speak") không thuộc kỹ năng nhận biết nào; kỹ năng Nói đo bằng bài chấm riêng.
+  if (topicId === "speak") return "speaking"
   if (topicId.startsWith("vocab-") || topicId.startsWith("colloc-")) return "vocab"
   if (topicId.startsWith("reading-b")) return "reading"
   if (topicId.startsWith("listening-b")) return "listening"

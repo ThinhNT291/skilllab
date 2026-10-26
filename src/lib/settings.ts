@@ -53,6 +53,8 @@ export interface Settings {
   feedbackMode: FeedbackMode
   /** Chế độ nhẹ nhàng: ẩn chuỗi ngày và mục tiêu hằng ngày, không nhắc nhở, giữ phần thưởng nhỏ */
   calmMode: boolean
+  /** Cho phép câu đọc to (dùng micro) xuất hiện trong bài; tắt được cho trẻ ngại nói hoặc lớp học ồn */
+  speakQuestions: boolean
   /** Kiểu hiển thị khu Học: bản đồ chặng hay danh sách */
   hocView: "road" | "list"
   /** Mức nhớ mục tiêu của FSRS (0.85 / 0.9 / 0.95) */
@@ -66,7 +68,7 @@ export interface Settings {
 }
 
 const KEY = "skilllab.settings"
-const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", showBac: false, dailyGoal: 10, newPerDay: 10, character: "owl", ageSet: "kids", srsAlgorithm: "fsrs", feedbackMode: "immediate", calmMode: false, hocView: "road", retention: 0.9, onboarded: false, records: {}, updatedAt: 0 }
+const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", showBac: false, dailyGoal: 10, newPerDay: 10, character: "owl", ageSet: "kids", srsAlgorithm: "fsrs", feedbackMode: "immediate", calmMode: false, speakQuestions: true, hocView: "road", retention: 0.9, onboarded: false, records: {}, updatedAt: 0 }
 const listeners = new Set<() => void>()
 let cache: Settings | null = null
 
@@ -86,7 +88,7 @@ export function sanitizeSettings(raw: unknown): Settings {
     }
   }
   const updatedAt = typeof p.updatedAt === "number" && Number.isFinite(p.updatedAt) && p.updatedAt > 0 ? p.updatedAt : 0
-  return { skin, sound: p.sound !== false, fontSize, showBac: p.showBac === true, dailyGoal, newPerDay, character, ageSet, srsAlgorithm: p.srsAlgorithm === "sm2" ? "sm2" : "fsrs", feedbackMode: p.feedbackMode === "hint-first" ? "hint-first" : "immediate", calmMode: p.calmMode === true, hocView: p.hocView === "list" ? "list" : "road", retention: (RETENTIONS as readonly number[]).includes(p.retention as number) ? (p.retention as number) : DEFAULTS.retention, onboarded: p.onboarded === true, records, updatedAt }
+  return { skin, sound: p.sound !== false, fontSize, showBac: p.showBac === true, dailyGoal, newPerDay, character, ageSet, srsAlgorithm: p.srsAlgorithm === "sm2" ? "sm2" : "fsrs", feedbackMode: p.feedbackMode === "hint-first" ? "hint-first" : "immediate", calmMode: p.calmMode === true, speakQuestions: p.speakQuestions !== false, hocView: p.hocView === "list" ? "list" : "road", retention: (RETENTIONS as readonly number[]).includes(p.retention as number) ? (p.retention as number) : DEFAULTS.retention, onboarded: p.onboarded === true, records, updatedAt }
 }
 
 function read(): Settings {

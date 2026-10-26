@@ -1,6 +1,6 @@
 import { answerVariants } from "../grading.ts"
 import { cardContentFromExercise } from "../srs/card-from-exercise.ts"
-import type { CardSource, FixExercise, DictationExercise, Exercise, McqExercise, ReorderExercise, SpotExercise, TypedExercise } from "./types.ts"
+import type { CardSource, FixExercise, DictationExercise, Exercise, McqExercise, ReorderExercise, SpeakExercise, SpotExercise, TypedExercise } from "./types.ts"
 
 /**
  * Sinh câu biến thể (sắp xếp từ, gõ đáp án, nghe chép) từ câu trắc nghiệm gốc đã được kiểm định.
@@ -113,6 +113,49 @@ export function deriveDictation(ex: McqExercise): DictationExercise | null {
     explanation: `Câu đúng: ${filled}`,
     card: cardOf(ex),
   }
+}
+
+/** Số từ của câu đọc to: đủ ngắn để đọc một hơi, đủ dài để có nội dung. */
+export const SPEAK_MIN_WORDS = 4
+export const SPEAK_MAX_WORDS = 12
+
+/** Câu đọc to từ câu hoàn chỉnh của câu trắc nghiệm gốc. Bỏ câu có số, ký hiệu hoặc chữ ngoài tiếng Anh (nhận dạng giọng nói dễ nghe sai). */
+export function deriveSpeak(ex: McqExercise): SpeakExercise | null {
+  const filled = filledOf(ex)
+  if (!filled || NOT_A_SENTENCE.test(filled)) return null
+  const text = filled.trim()
+  const n = text.split(/\s+/).length
+  if (n < SPEAK_MIN_WORDS || n > SPEAK_MAX_WORDS) return null
+  if (!/^[A-Za-z][A-Za-z ,.'’!?-]*$/.test(text)) return null
+  return {
+    ...shared(ex, "speak"),
+    kind: "speak",
+    text,
+    explanation: "Luyện đọc to: chú ý các từ bị đánh dấu chưa rõ, nghe mẫu rồi đọc lại.",
+    card: cardOf(ex),
+  }
+}
+
+/**
+ * Đổi tối đa MỘT câu trắc nghiệm trong lượt thành câu đọc to: ở nửa sau lượt (từ `from` trở đi), chọn câu ngắn nhất.
+ * Lượt đã có câu đọc to thì giữ nguyên. Gọi lúc chạy trên trình duyệt vì cần biết micro có dùng được không.
+ */
+export function injectSpeak(exercises: Exercise[], from = 0, rng: Rng = Math.random): Exercise[] {
+  if (exercises.some((e) => e.kind === "speak")) return exercises
+  const start = Math.max(from, Math.ceil(exercises.length / 2))
+  const cands: { index: number; speak: SpeakExercise }[] = []
+  exercises.forEach((ex, index) => {
+    if (index < start || ex.kind !== "mcq" || ex.id.includes("~")) return
+    const speak = deriveSpeak(ex)
+    if (speak) cands.push({ index, speak })
+  })
+  if (!cands.length) return exercises
+  const shortest = Math.min(...cands.map((c) => c.speak.text.split(/\s+/).length))
+  const pool = cands.filter((c) => c.speak.text.split(/\s+/).length === shortest)
+  const pick = pool[Math.floor(rng() * pool.length)]
+  const out = [...exercises]
+  out[pick.index] = pick.speak
+  return out
 }
 
 /** Điền một đáp án sai (có lời giải thích bắt đầu bằng "Sai") vào chỗ trống duy nhất; dùng chung cho dạng tìm lỗi và sửa lỗi. */

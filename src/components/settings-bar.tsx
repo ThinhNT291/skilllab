@@ -8,7 +8,7 @@ import { useSettingsSync } from "@/components/settings-sync"
 
 /** Gắn skin lên <html> và hiện thanh chọn giao diện / bật tắt âm. */
 export function SettingsBar() {
-  const { skin, sound, fontSize, showBac, ageSet } = useSettings()
+  const { skin, sound, fontSize, showBac, ageSet, speakQuestions } = useSettings()
   useSettingsSync()
 
   useEffect(() => {
@@ -48,6 +48,9 @@ export function SettingsBar() {
       </button>
       <button type="button" className={chip(sound)} aria-pressed={sound} onClick={() => updateSettings({ sound: !sound })}>
         {sound ? "🔊 Âm thanh" : "🔇 Âm thanh"}
+      </button>
+      <button type="button" className={chip(speakQuestions)} aria-pressed={speakQuestions} onClick={() => updateSettings({ speakQuestions: !speakQuestions })} title="Cho phép thỉnh thoảng có câu đọc to bằng micro trong bài. Tắt nếu bạn ngại nói hoặc đang ở nơi ồn.">
+        {speakQuestions ? "🎤 Câu đọc to" : "🎤 Câu đọc to (tắt)"}
       </button>
       <span className="ml-auto">
         <AccountMenu />

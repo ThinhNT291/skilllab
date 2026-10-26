@@ -21,6 +21,7 @@ type Done = { correct: number; total: number; saved: "ok" | "fail"; next: { id: 
 export function LessonSession({ payload, bac, stepLessons }: { payload: LessonPayload; bac: number; /** Các bài của cùng nấc theo thứ tự, để mời bài kế tiếp */ stepLessons: { id: string; title: string }[] }) {
   const [done, setDone] = useState<Done | null>(null)
   const correctRef = useRef(0)
+  const answeredRef = useRef(0)
 
   async function finish(correct: number, total: number) {
     const pass = passRatioFor(bac)
@@ -36,10 +37,13 @@ export function LessonSession({ payload, bac, stepLessons }: { payload: LessonPa
     setDone({ correct, total, saved: res.ok ? "ok" : "fail", next })
   }
 
-  function onAnswer(record: AnswerRecord) {
-    if (record.correct) correctRef.current++
-    const ex = (payload.exercises as Exercise[]).find((e) => e.id === record.exerciseId)
-    if (ex) void recordAnswer(record, ex)
+  function onAnswer(record: AnswerRecord, ex: Exercise) {
+    // Câu đọc to chỉ để đa dạng bài: ghi lại nhưng không tính vào đạt/chưa đạt (chấm bằng micro không nên chặn việc mở nấc).
+    if (ex.kind !== "speak") {
+      answeredRef.current++
+      if (record.correct) correctRef.current++
+    }
+    void recordAnswer(record, ex)
   }
 
   if (done) return <Result done={done} pass={passRatioFor(bac)} />
@@ -50,7 +54,8 @@ export function LessonSession({ payload, bac, stepLessons }: { payload: LessonPa
     <ExerciseRunner
       exercises={payload.exercises}
       onAnswer={onAnswer}
-      onFinish={() => void finish(correctRef.current, payload.exercises.length)}
+      onFinish={() => void finish(correctRef.current, Math.max(1, answeredRef.current))}
+      speak
       theoryHref={payload.kind === "grammar" ? (ex) => `${payload.theoryBase}${ex.usageId ? `#${ex.usageId}` : ""}` : undefined}
       practiceBase={payload.kind === "grammar" ? payload.theoryBase : undefined}
     />

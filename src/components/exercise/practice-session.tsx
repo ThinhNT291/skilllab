@@ -13,9 +13,7 @@ export function PracticeSession({ exercises, theoryBase, bonusHref, adaptive, ru
   const [status, setStatus] = useState<Status>("idle")
   const [detail, setDetail] = useState("")
 
-  async function onAnswer(record: AnswerRecord) {
-    const ex = [...exercises, ...(adaptive?.ladder ?? [])].find((e) => e.id === record.exerciseId)
-    if (!ex) return
+  async function onAnswer(record: AnswerRecord, ex: Exercise) {
     const result = await recordAnswer(record, ex)
     setStatus(result.ok ? "saved" : "not_saved")
     setDetail(result.ok ? "" : result.reason === "not_configured" ? "chưa kết nối Supabase" : (result.message ?? "lỗi không rõ"))
@@ -29,6 +27,7 @@ export function PracticeSession({ exercises, theoryBase, bonusHref, adaptive, ru
         bonusHref={bonusHref}
         adaptive={adaptive}
         rules={rules}
+        speak
         practiceBase={theoryBase}
         theoryHref={byTopic ? (ex) => `/hoc/${ex.topic}${ex.usageId ? `#${ex.usageId}` : ""}` : theoryBase ? (ex) => `${theoryBase}${ex.usageId ? `#${ex.usageId}` : ""}` : undefined}
       />

@@ -169,3 +169,62 @@ test("độ khó theo màn: gợi ý giảm dần; ba câu đầu luôn là tr�
     assert.ok(out.filter((e) => e.kind !== "mcq").length <= 4)
   }
 })
+
+import { deriveSpeak, injectSpeak, SPEAK_MAX_WORDS, SPEAK_MIN_WORDS } from "../src/lib/content/derive.ts"
+
+test("câu đọc to: từ câu hoàn chỉnh, độ dài vừa đọc, chỉ chữ tiếng Anh", () => {
+  const s = deriveSpeak(mcq({}))!
+  assert.equal(s.kind, "speak")
+  assert.equal(s.text, "She cleans her room on Saturday morning.")
+  assert.equal(s.id, "en-present-simple-001~speak")
+  assert.equal(s.topic, "present-simple")
+  assert.equal(s.card.key, "en-present-simple-001", "sai vẫn trỏ về thẻ của câu gốc")
+  assert.equal(deriveSpeak(mcq({ prompt: "I ______ (go) home.", choices: ["go", "went", "goes", "going"] })), null, "quá ngắn")
+  assert.equal(deriveSpeak(mcq({ prompt: "She ______ (clean) her room on 5 May and again in the early evening with her little sister.", choices: ["cleans", "x", "y", "z"] })), null, "có số hoặc quá dài")
+  assert.equal(deriveSpeak(mcq({ prompt: "A: Is she there? B: She ______ (clean) her room.", choices: ["cleans", "x", "y", "z"] })), null, "hội thoại")
+})
+
+test("trên toàn ngân hàng: đủ nhiều câu đọc to, độ dài và ký tự hợp lệ", () => {
+  const dir = "src/content/exercises/en"
+  let speak = 0
+  let total = 0
+  for (const f of fs.readdirSync(dir)) {
+    for (const ex of JSON.parse(fs.readFileSync(`${dir}/${f}`, "utf8")) as McqExercise[]) {
+      total++
+      const s = deriveSpeak(ex)
+      if (!s) continue
+      speak++
+      const n = s.text.split(/\s+/).length
+      assert.ok(n >= SPEAK_MIN_WORDS && n <= SPEAK_MAX_WORDS, ex.id)
+      assert.ok(/^[A-Za-z][A-Za-z ,.'’!?-]*$/.test(s.text), `${ex.id}: ${s.text}`)
+    }
+  }
+  console.log(`# ${total} câu gốc: đọc to ${speak}`)
+  assert.ok(speak > 150)
+})
+
+test("chèn câu đọc to: tối đa một câu, ở nửa sau, chọn câu ngắn nhất, không đổi câu biến thể, idempotent", () => {
+  const mk = (i: number, prompt: string) => mcq({ id: `en-x-${i}`, prompt, choices: ["cleans", "clean", "cleaned", "cleaning"] })
+  const list: Exercise[] = [
+    mk(1, "She ______ (clean) her room on Saturday morning."), // nửa đầu: không được đổi dù ngắn
+    mk(2, "She ______ (clean) her room."),
+    mk(3, "She ______ (clean) her room on Saturday morning very early."),
+    mk(4, "She ______ (clean) her small room every day."), // nửa sau, 7 từ
+    mk(5, "She ______ (clean) her big room too."), // nửa sau, 6 từ ← ngắn nhất
+    { ...mk(6, "She ______ (clean) her tidy room."), id: "en-x-6~reorder" },
+  ]
+  const out = injectSpeak(list, 0, () => 0)
+  assert.equal(out.length, list.length)
+  assert.equal(out.filter((e) => e.kind === "speak").length, 1)
+  const i = out.findIndex((e) => e.kind === "speak")
+  assert.ok(i >= 3, "nửa sau")
+  assert.equal(i, 4, "câu ngắn nhất")
+  assert.equal(out[0], list[0])
+  assert.equal(injectSpeak(out, 0, () => 0), out, "đã có thì giữ nguyên")
+  // không có ứng viên: trả lại đúng danh sách
+  const none: Exercise[] = [mk(1, "I ______ (go) home."), mk(2, "I ______ (go) home.")]
+  assert.equal(injectSpeak(none), none)
+  // `from` chặn các câu đã qua
+  const late = injectSpeak(list, 5, () => 0)
+  assert.equal(late.some((e) => e.kind === "speak"), false)
+})

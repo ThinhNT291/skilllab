@@ -87,8 +87,9 @@ export async function recordAnswer(record: AnswerRecord, exercise: Exercise): Pr
       client_id: crypto.randomUUID(),
       profile_id: profile.id,
       exercise_id: record.exerciseId,
-      topic: exercise.topic,
-      tags: exercise.tags,
+      // Câu đọc to ghi ở chủ điểm riêng "speak" và không gắn thẻ: vẫn tính vào chuỗi ngày và XP nhưng không đổi năng lực Elo, độ vững chuyên đề hay thẻ ôn ngữ pháp.
+      topic: exercise.kind === "speak" ? "speak" : exercise.topic,
+      tags: exercise.kind === "speak" ? [] : exercise.tags,
       correct: record.correct,
       choice_index: record.choiceIndex ?? null,
       created_at: new Date().toISOString(),
@@ -99,7 +100,7 @@ export async function recordAnswer(record: AnswerRecord, exercise: Exercise): Pr
       return { ok: false, reason: "error", message: r.message }
     }
     // Câu sai tự thành thẻ ôn tập. Lỗi tạo thẻ (vd chưa chạy migration 0002) không làm hỏng việc ghi câu trả lời.
-    if (!record.correct) void ensureCardFromError(exercise)
+    if (!record.correct && exercise.kind !== "speak") void ensureCardFromError(exercise)
     if (loadQueue().length > 0) void flushPendingAnswers()
     return { ok: true }
   } catch (e) {
