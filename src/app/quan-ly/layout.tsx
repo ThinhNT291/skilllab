@@ -11,7 +11,7 @@ export const metadata = { title: "Quản lý" }
 
 export default function StaffLayout({ children }: LayoutProps<"/quan-ly">) {
   return (
-    <div className="mx-auto w-full max-w-5xl px-4 py-6">
+    <div className="mx-auto w-full max-w-7xl px-4 py-6">
       <h1 className="mb-3 text-3xl font-extrabold">Khu quản lý</h1>
       <nav aria-label="Khu quản lý" className="mb-5 flex flex-wrap gap-2">
         {TABS.map((t) => (

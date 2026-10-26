@@ -143,9 +143,10 @@ body {
 .anim-shake { animation: shake 0.35s; }
 .anim-bounce { animation: bounce-up 0.4s; }
 
-/* Cỡ chữ người dùng chọn: mọi kích thước đều theo rem nên cả trang co giãn theo. */
-html[data-font="lg"] { font-size: 112.5%; }
-html[data-font="xl"] { font-size: 125%; }
+/* Cỡ chữ người dùng chọn: mọi kích thước đều theo rem nên cả trang co giãn theo. Mặc định 90% (nhỏ hơn 10% so với cỡ chuẩn 16px của trình duyệt). */
+html { font-size: 90%; }
+html[data-font="lg"] { font-size: 101.25%; }
+html[data-font="xl"] { font-size: 112.5%; }
 
 /* Viền focus rõ cho người dùng bàn phím */
 :focus-visible {

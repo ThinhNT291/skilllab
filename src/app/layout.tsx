@@ -28,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <a href="#noi-dung" className="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:rounded-game focus:bg-primary focus:px-4 focus:py-2 focus:font-extrabold focus:text-primary-foreground">
           Bỏ qua, tới nội dung chính
         </a>
-        <div className="mx-auto w-full max-w-5xl space-y-3 px-4 pt-4">
+        <div className="mx-auto w-full max-w-7xl space-y-3 px-4 pt-4">
           <SiteNav />
           <SettingsBar />
         </div>

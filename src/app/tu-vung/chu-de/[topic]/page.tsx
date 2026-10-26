@@ -15,7 +15,7 @@ export function generateStaticParams() {
 
 export default function TopicPage({ params }: PageProps<"/tu-vung/chu-de/[topic]">) {
   return (
-    <main className="mx-auto w-full max-w-5xl px-4 py-6 [&>*]:max-w-2xl">
+    <main className="mx-auto w-full max-w-7xl px-4 py-6 [&>*]:max-w-4xl">
       <Suspense fallback={<p className="text-muted-foreground">Đang tải…</p>}>
         <Round params={params} />
       </Suspense>

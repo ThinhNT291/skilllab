@@ -15,9 +15,9 @@ const SKILLS: { key: keyof Level; label: string }[] = [
 
 export default function FrameworkPage() {
   return (
-    <main className="mx-auto w-full max-w-5xl px-4 py-6">
+    <main className="mx-auto w-full max-w-7xl px-4 py-6">
       <h1 className="text-3xl font-extrabold">Khung năng lực 6 bậc</h1>
-      <p className="mb-4 max-w-3xl text-muted-foreground">
+      <p className="mb-4 max-w-5xl text-muted-foreground">
         “Bậc” của bạn là gì và biết làm được những gì ở mỗi bậc. Nội dung trích từ Khung năng lực ngoại ngữ kèm Thông tư 33/2026/TT-BGDĐT (các bảng mô tả tổng quát). Tiền Bậc 1 tương đương Pre-A1, Bậc 1–6 tương đương A1–C2.
       </p>
       <ul className="space-y-4">
@@ -39,7 +39,7 @@ export default function FrameworkPage() {
           </li>
         ))}
       </ul>
-      <p className="mt-4 max-w-3xl text-sm text-muted-foreground">Mô tả được chép lại từ bản quét của văn bản nên có thể còn sai sót nhỏ; hãy đối chiếu bản gốc khi cần dùng chính thức. Bậc do máy ước lượng trong ứng dụng chỉ để tham khảo.</p>
+      <p className="mt-4 max-w-5xl text-sm text-muted-foreground">Mô tả được chép lại từ bản quét của văn bản nên có thể còn sai sót nhỏ; hãy đối chiếu bản gốc khi cần dùng chính thức. Bậc do máy ước lượng trong ứng dụng chỉ để tham khảo.</p>
     </main>
   )
 }
