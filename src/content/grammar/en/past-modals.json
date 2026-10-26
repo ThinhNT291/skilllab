@@ -1,0 +1,338 @@
+{
+  "id": "past-modals",
+  "language": "en",
+  "title": "Động từ khuyết thiếu ở quá khứ và used to / would (Past Modals)",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "order": 13,
+  "category": "word-classes",
+  "theory": {
+    "usages": [
+      {
+        "id": "pm-u1-used-to",
+        "bac": 3,
+        "label": "Used to + V: thói quen hoặc trạng thái đã chấm dứt",
+        "explanationVi": "Used to + động từ nguyên thể nói về một thói quen hoặc một trạng thái ĐÃ TỪNG đúng trong quá khứ nhưng nay không còn nữa. Nó dùng được cho cả hành động lặp lại (used to play) lẫn trạng thái (used to live, used to be, used to have). Phủ định và nghi vấn mượn trợ động từ did, và lúc đó 'used' trở lại thành 'use': I didn't use to like fish. / Did you use to play chess? (không viết didn't used to). Trong văn nói thân mật đôi khi nghe 'did you used to', nhưng dạng chuẩn là 'use to'; câu hỏi dùng used to khá hiếm, người ta thường chọn quá khứ đơn hoặc 'Did you ever...?'. Đừng nhầm với hai cấu trúc có hình thức gần giống: be used to + V-ing/danh từ nghĩa là 'quen với' (I'm used to getting up early), và get used to + V-ing/danh từ nghĩa là 'dần trở nên quen' (I'm getting used to the cold). Hai cấu trúc này nói về hiện tại hoặc quá trình làm quen, KHÔNG nói về thói quen cũ đã mất. Mẹo: sau 'be/get used to' có thể thay bằng danh từ (used to the noise), còn sau 'used to' (thói quen cũ) luôn là động từ nguyên thể.",
+        "examples": [
+          {
+            "en": "We used to live in a small house near the river.",
+            "vi": "Trước đây chúng tôi sống trong một ngôi nhà nhỏ gần sông."
+          },
+          {
+            "en": "Did you use to play the violin when you were little?",
+            "vi": "Hồi nhỏ bạn có hay chơi đàn vi-ô-lông không?"
+          },
+          {
+            "en": "I didn't use to like broccoli, but now I eat it every day.",
+            "vi": "Trước đây tôi không thích bông cải xanh, nhưng giờ ngày nào tôi cũng ăn."
+          },
+          {
+            "en": "My cousin grew up in Alaska, so he is used to cold weather.",
+            "vi": "Anh họ tôi lớn lên ở Alaska nên anh ấy quen với thời tiết lạnh."
+          },
+          {
+            "en": "It took me a month to get used to waking up at six.",
+            "vi": "Tôi mất một tháng để quen với việc thức dậy lúc sáu giờ."
+          }
+        ]
+      },
+      {
+        "id": "pm-u2-would-habit",
+        "bac": 3,
+        "label": "Would nói về thói quen trong quá khứ (chỉ hành động lặp lại)",
+        "explanationVi": "Would + động từ nguyên thể cũng kể về thói quen trong quá khứ, thường trong lời kể hoài niệm, và hay đi với every Sunday, every summer, whenever, each time. Điểm khác quan trọng với used to: would CHỈ dùng cho HÀNH ĐỘNG lặp đi lặp lại, KHÔNG dùng cho trạng thái (have, be, live, know, like, own...). Nói 'We would live in Hue' là sai nghĩa vì 'live' ở đây là trạng thái; phải nói 'We used to live in Hue'. Cách an toàn: câu mở đầu về bối cảnh/trạng thái thì dùng used to hoặc quá khứ đơn, sau đó mới chuyển sang would để kể từng hành động lặp lại. Would cần một mốc quá khứ đã được nêu trước (when I was young, in those days...) thì người nghe mới hiểu là thói quen. Would cũng không dùng cho một sự kiện xảy ra đúng một lần (Yesterday we went to the cinema, không phải 'would go').",
+        "examples": [
+          {
+            "en": "Every Sunday, my grandma would bake an apple pie for the whole family.",
+            "vi": "Chủ nhật nào bà tôi cũng nướng một chiếc bánh táo cho cả nhà."
+          },
+          {
+            "en": "Whenever it rained, my little sister would hide under her blanket.",
+            "vi": "Hễ trời mưa là em gái tôi lại chui vào chăn."
+          },
+          {
+            "en": "We used to have a boat, and every evening we would row out to fish.",
+            "vi": "Nhà tôi từng có một chiếc thuyền, và tối nào chúng tôi cũng chèo ra khơi câu cá."
+          }
+        ]
+      },
+      {
+        "id": "pm-u3-could-managed",
+        "bac": 3,
+        "label": "Could, was able to, managed to trong quá khứ",
+        "explanationVi": "Để nói về KHẢ NĂNG CHUNG mà ai đó có trong quá khứ (kỹ năng, khả năng kéo dài), dùng could: When I was six, I could read simple books. Để nói về việc ai đó LÀM ĐƯỢC MỘT VIỆC CỤ THỂ, chỉ một lần, thường là sau nỗ lực hoặc khó khăn, dùng was/were able to hoặc managed to + V: After two hours, we managed to fix the bike. Ở câu khẳng định, 'could' cho một lần thành công nghe không tự nhiên. Ở câu phủ định thì không cần phân biệt: couldn't dùng được cho cả khả năng chung lẫn một lần thất bại cụ thể (I couldn't open the jar yesterday). Chú ý hình thức: was able to + V nguyên thể, managed to + V nguyên thể; không viết 'managed fix' hay 'was able fix'. Couldn't đồng nghĩa với wasn't/weren't able to; phủ định của managed to là didn't manage to. Ngoại lệ: với các động từ giác quan và nhận thức (see, hear, smell, understand, remember), could dùng được cả cho một lần cụ thể: I could see the mountain from the window.",
+        "examples": [
+          {
+            "en": "When I was six, I could already read simple books.",
+            "vi": "Lúc sáu tuổi tôi đã có thể đọc những cuốn sách đơn giản."
+          },
+          {
+            "en": "After two hours, we managed to fix the bike.",
+            "vi": "Sau hai giờ, chúng tôi đã sửa được chiếc xe đạp."
+          },
+          {
+            "en": "The shop was closed, so Ken couldn't buy the game yesterday.",
+            "vi": "Cửa hàng đóng cửa nên hôm qua Ken không mua được trò chơi."
+          }
+        ]
+      },
+      {
+        "id": "pm-u4-had-to-needn-t",
+        "bac": 4,
+        "label": "Had to, didn't have to, didn't need to và needn't have + V3",
+        "explanationVi": "Had to + V nguyên thể là quá khứ của must/have to: nghĩa vụ ở quá khứ (We had to wear a uniform). Phủ định didn't have to = 'không bắt buộc, không cần' (khác hẳn mustn't = 'bị cấm'); câu hỏi: Did + S + have to + V? (không viết 'Had he to'). Needn't have + V3 nói về việc ĐÃ LÀM nhưng hóa ra không cần thiết, nên là một sự lãng phí: You needn't have brought a gift (bạn đã mang quà, thật ra không cần). Didn't need to + V chỉ nói không cần thiết, và thường ngụ ý là người ta đã không làm; riêng nó không cho biết chắc việc có xảy ra hay không. Vì vậy muốn nói rõ 'đã làm rồi mà thừa' hãy dùng needn't have + V3. Lưu ý về Anh-Mỹ: người Mỹ ít dùng needn't have; họ thường nói didn't need to / didn't have to ('You didn't need to bring a gift') kể cả khi việc đã làm, còn needn't have + V3 chủ yếu gặp trong Anh-Anh và sách luyện thi. Lưu ý: mustn't nói về cấm đoán ở hiện tại (You mustn't talk loudly here); không dùng mustn't để nói 'không cần'.",
+        "examples": [
+          {
+            "en": "Last week the printer broke, so we had to write our essays by hand.",
+            "vi": "Tuần trước máy in hỏng nên chúng tôi phải viết bài luận bằng tay."
+          },
+          {
+            "en": "Yesterday was a holiday, so Dad didn't have to go to work.",
+            "vi": "Hôm qua là ngày lễ nên bố không phải đi làm."
+          },
+          {
+            "en": "Mia took an umbrella, but it didn't rain. She needn't have taken it.",
+            "vi": "Mia mang theo ô nhưng trời không mưa. Lẽ ra bạn ấy không cần mang."
+          },
+          {
+            "en": "In the library, you mustn't talk loudly.",
+            "vi": "Trong thư viện, bạn không được nói to."
+          }
+        ]
+      },
+      {
+        "id": "pm-u5-should-have",
+        "bac": 3,
+        "label": "Should have, shouldn't have, ought to have, could have + V3",
+        "explanationVi": "Should have + V3 nói về việc LẼ RA đã nên làm nhưng đã không làm (chỉ trích, hối tiếc, lời khuyên đến muộn): You should have worn a helmet. Shouldn't have + V3 nói về việc đã làm mà không nên: I shouldn't have shouted. Ought to have + V3 mang nghĩa tương tự should have (ought not to have + V3 ở phủ định). Could have + V3 nói về việc CÓ THỂ đã làm được nhưng thực tế đã không làm: Ben could have won the race, but he stopped to tie his shoe. Điểm chung của cả nhóm: sự thật là điều ngược lại với câu nói. Dạng động từ sau have luôn là V3 (should have gone, không phải 'should have went').",
+        "examples": [
+          {
+            "en": "You should have told me about the test.",
+            "vi": "Lẽ ra bạn nên nói với tôi về bài kiểm tra."
+          },
+          {
+            "en": "Mai shouldn't have shouted at her brother.",
+            "vi": "Lẽ ra Mai không nên quát em trai."
+          },
+          {
+            "en": "We ought to have booked the tickets earlier; now the show is sold out.",
+            "vi": "Lẽ ra chúng ta nên đặt vé sớm hơn; giờ buổi diễn hết vé rồi."
+          },
+          {
+            "en": "Ben could have won the race, but he stopped to tie his shoe.",
+            "vi": "Ben có thể đã thắng cuộc đua, nhưng cậu ấy dừng lại buộc dây giày."
+          }
+        ]
+      },
+      {
+        "id": "pm-u6-must-have",
+        "bac": 4,
+        "label": "Must have, can't have, might have + V3: suy đoán về quá khứ",
+        "explanationVi": "Khi ta không chắc chuyện gì đã xảy ra nhưng có bằng chứng, ta chọn mức độ chắc chắn: must have + V3 = gần như chắc chắn là đã xảy ra (Mai got 100%. She must have studied hard); can't have / couldn't have + V3 = gần như chắc chắn là KHÔNG xảy ra (Ken was with me all afternoon, so he can't have broken the window); might have / may have / could have + V3 = có thể đã xảy ra, không chắc (I might have left my keys in the car). Phủ định của must have khi suy đoán là can't have, KHÔNG phải mustn't have. Hãy đọc kỹ bằng chứng trong ngữ cảnh: bằng chứng mạnh thì dùng must/can't, còn các từ như 'maybe', 'I'm not sure', 'or' báo hiệu might/may/could. Sau have luôn là V3, không dùng V-ing hay nguyên thể.",
+        "examples": [
+          {
+            "en": "There are leaves and branches all over the street. There must have been a storm last night.",
+            "vi": "Đường đầy lá và cành cây. Đêm qua chắc chắn đã có bão."
+          },
+          {
+            "en": "Ken was with me all afternoon, so he can't have broken the window.",
+            "vi": "Ken ở cùng tôi cả buổi chiều nên cậu ấy không thể là người làm vỡ cửa sổ."
+          },
+          {
+            "en": "I can't find my phone. I might have left it on the bus.",
+            "vi": "Tôi không tìm thấy điện thoại. Có thể tôi đã để quên nó trên xe buýt."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "when I was a child / years ago",
+        "meaningVi": "hồi nhỏ / nhiều năm trước (dấu hiệu của used to)"
+      },
+      {
+        "word": "every Sunday / every summer / whenever",
+        "meaningVi": "mỗi Chủ nhật / mỗi mùa hè / hễ khi nào (thói quen, hợp với would)"
+      },
+      {
+        "word": "finally / after a lot of effort",
+        "meaningVi": "cuối cùng / sau nhiều nỗ lực (một lần thành công: managed to, was able to)"
+      },
+      {
+        "word": "but it didn't happen / but he didn't",
+        "meaningVi": "nhưng thực tế không xảy ra (could have, should have)"
+      },
+      {
+        "word": "so ... must have / evidence",
+        "meaningVi": "vì vậy chắc hẳn là (suy đoán chắc chắn dựa trên bằng chứng)"
+      },
+      {
+        "word": "maybe / perhaps / I'm not sure",
+        "meaningVi": "có lẽ / không chắc (might have, may have, could have)"
+      },
+      {
+        "word": "a waste / unnecessary",
+        "meaningVi": "phí công / không cần thiết (needn't have + V3)"
+      }
+    ],
+    "formulas": {
+      "affirmative": "used to + V: She used to live in Hue. | would + V (hành động lặp lại): He would visit us every summer. | was able to / managed to + V: We managed to finish. | had to + V: I had to wait. | should / ought to / could / must / might + have + V3: You should have called.",
+      "negative": "didn't use to + V: I didn't use to like fish. | couldn't + V: I couldn't open it. | didn't have to + V: We didn't have to pay. | needn't have + V3: You needn't have waited. | shouldn't / can't / couldn't / might not + have + V3: She can't have forgotten.",
+      "question": "Did + S + use to + V? Did you use to play chess? | Did + S + have to + V? Did he have to leave? | Could / Was ... able to ...? Were you able to open it?"
+    },
+    "commonMistakes": [
+      {
+        "id": "past-modals-m1",
+        "description": "Sau must have / should have / might have phải là V3, không dùng V-ing hay động từ nguyên thể.",
+        "examples": [
+          {
+            "wrong": "Mai must have study hard for the test.",
+            "correct": "Mai must have studied hard for the test."
+          },
+          {
+            "wrong": "He might have leaving his bag on the bus.",
+            "correct": "He might have left his bag on the bus."
+          }
+        ],
+        "usageIds": [
+          "pm-u6-must-have"
+        ]
+      },
+      {
+        "id": "past-modals-m2",
+        "description": "Dùng should have went / should have wrote: sau have phải là V3 (gone, written), không dùng dạng quá khứ đơn.",
+        "examples": [
+          {
+            "wrong": "You should have went to bed earlier.",
+            "correct": "You should have gone to bed earlier."
+          },
+          {
+            "wrong": "She should have wrote down the address.",
+            "correct": "She should have written down the address."
+          }
+        ],
+        "usageIds": [
+          "pm-u5-should-have"
+        ]
+      },
+      {
+        "id": "past-modals-m3",
+        "description": "Dùng would cho trạng thái (have, live, be, know, like); would chỉ hợp với hành động lặp lại, còn trạng thái dùng used to.",
+        "examples": [
+          {
+            "wrong": "When I was five, I would have a stuffed rabbit.",
+            "correct": "When I was five, I used to have a stuffed rabbit."
+          },
+          {
+            "wrong": "We would live in a small town.",
+            "correct": "We used to live in a small town."
+          }
+        ],
+        "usageIds": [
+          "pm-u2-would-habit",
+          "pm-u1-used-to"
+        ]
+      },
+      {
+        "id": "past-modals-m4",
+        "description": "Viết didn't used to / Did you used to: sau did/didn't thì 'used' trở lại thành 'use'.",
+        "examples": [
+          {
+            "wrong": "I didn't used to like tea.",
+            "correct": "I didn't use to like tea."
+          },
+          {
+            "wrong": "Did she used to walk to school?",
+            "correct": "Did she use to walk to school?"
+          }
+        ],
+        "usageIds": [
+          "pm-u1-used-to"
+        ]
+      },
+      {
+        "id": "past-modals-m5",
+        "description": "Dùng mustn't have để suy đoán điều chắc chắn không xảy ra: phải dùng can't have / couldn't have. Mustn't nói về cấm đoán.",
+        "examples": [
+          {
+            "wrong": "Ken was with me all day, so he mustn't have broken the window.",
+            "correct": "Ken was with me all day, so he can't have broken the window."
+          }
+        ],
+        "usageIds": [
+          "pm-u6-must-have"
+        ]
+      },
+      {
+        "id": "past-modals-m6",
+        "description": "Nhầm be used to / get used to (quen với) với used to (thói quen cũ): be/get used to đi với V-ing hoặc danh từ.",
+        "examples": [
+          {
+            "wrong": "I'm used to live with a lot of noise.",
+            "correct": "I'm used to living with a lot of noise."
+          },
+          {
+            "wrong": "I used to getting up early, but now I sleep in.",
+            "correct": "I used to get up early, but now I sleep in."
+          }
+        ],
+        "usageIds": [
+          "pm-u1-used-to"
+        ]
+      },
+      {
+        "id": "past-modals-m7",
+        "description": "Dùng could cho một lần thành công cụ thể ở câu khẳng định: nên dùng was able to hoặc managed to (phủ định thì couldn't vẫn đúng).",
+        "examples": [
+          {
+            "wrong": "After a long search, we could find the keys.",
+            "correct": "After a long search, we managed to find the keys."
+          },
+          {
+            "wrong": "We managed find the keys.",
+            "correct": "We managed to find the keys."
+          }
+        ],
+        "usageIds": [
+          "pm-u3-could-managed"
+        ]
+      },
+      {
+        "id": "past-modals-m8",
+        "description": "Dùng mustn't để nói 'không cần' (mustn't là cấm đoán, 'không cần' là don't/didn't have to); và thêm to sau needn't have (needn't không đi với to).",
+        "examples": [
+          {
+            "wrong": "You mustn't bring a gift to the party; the host said it was not necessary.",
+            "correct": "You don't have to bring a gift to the party; the host said it was not necessary."
+          },
+          {
+            "wrong": "You needn't to have waited for me.",
+            "correct": "You needn't have waited for me."
+          }
+        ],
+        "usageIds": [
+          "pm-u4-had-to-needn-t"
+        ]
+      },
+      {
+        "id": "past-modals-m9",
+        "description": "Sai hình thức phủ định và nghi vấn của had to: dùng did/didn't + have to, không viết hadn't to hay Had he to.",
+        "examples": [
+          {
+            "wrong": "We hadn't to wait long.",
+            "correct": "We didn't have to wait long."
+          },
+          {
+            "wrong": "Had Nam to finish the project alone?",
+            "correct": "Did Nam have to finish the project alone?"
+          }
+        ],
+        "usageIds": [
+          "pm-u4-had-to-needn-t"
+        ]
+      }
+    ]
+  }
+}

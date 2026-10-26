@@ -140,7 +140,7 @@ Nguyên tắc xếp: việc chặn người dùng thật trước, rồi nền n
 - [ ] Merge nhánh (PR) về `main`; sau 1 tháng có dữ liệu thật thì xem lại các ngưỡng ở `docs/lo-trinh-va-xep-bac.md` mục 11.
 
 ### B. Nội dung nền (làm trước Lộ trình, vì mỗi nấc cần đủ bài)
-1. [x→đang làm] Ngữ pháp thiếu rõ nhất theo `docs/khoang-trong-noi-dung.md`: **Câu hỏi** (`questions`), rồi **Modal ở quá khứ + used to/would** (`past-modals`); sau đó: mệnh đề danh từ + câu hỏi gián tiếp mở rộng, mẫu động từ + tân ngữ, trạng từ, danh từ/đại từ cơ bản A1–A2. Mỗi chuyên đề 50 câu, phản biện độc lập.
+1. [x] ĐÃ XONG `questions` + `past-modals` (26/10/2026, 50 câu mỗi chuyên đề, có phản biện độc lập). Còn lại: ngữ pháp thiếu rõ nhất theo `docs/khoang-trong-noi-dung.md`: **Câu hỏi** (`questions`), rồi **Modal ở quá khứ + used to/would** (`past-modals`); sau đó: mệnh đề danh từ + câu hỏi gián tiếp mở rộng, mẫu động từ + tân ngữ, trạng từ, danh từ/đại từ cơ bản A1–A2. Mỗi chuyên đề 50 câu, phản biện độc lập.
 2. [ ] **Mở rộng từ vựng A1–B2 từ CEFR-J** (công khai, đã có trong `reference/`): hiện kho chỉ phủ ~33–36% từ gốc CEFR-J A1–B2 (thiếu cả animal, baby, bed, big…). Quy trình: lấy danh sách từ thiếu → Gemini gợi ý nghĩa Việt + câu ví dụ theo `docs/prompt-sinh-noi-dung.md` → giải mù → người duyệt → `scripts/build-vocab.py`.
 3. [ ] Cụm từ kết hợp (collocations) thêm bộ; từ vựng C1/C2 theo chủ đề.
 4. [ ] Đề Viết/Nói thêm (hiện Viết 12 đề bậc 1–4): thêm bậc 5–6 và đề theo chủ điểm lớp 4–9.

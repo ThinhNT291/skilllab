@@ -79,3 +79,6 @@ Hướng xử lý: dựng quy trình **bổ sung từ** (lấy từ khóa còn t
 2. Bổ sung **từ vựng A1–A2** (nền) với giáo viên duyệt nghĩa Việt.
 3. Mở rộng **đọc/nghe** bằng `gen-passages` để bù phần đã dành cho placement.
 4. Các chuyên đề còn lại ở mục 1 theo thứ tự trên.
+
+## Đã bù (26/10/2026)
+Chuyên đề `questions` (Câu hỏi, gồm câu hỏi gián tiếp cơ bản) và `past-modals` (modal quá khứ, used to/would) đã thêm. Còn thiếu: mệnh đề danh ngữ mở rộng, mẫu động từ + tân ngữ, trạng từ, danh từ/đại từ A1–A2.

@@ -13,8 +13,8 @@ test("gom nội dung: mã không trùng, đủ các loại, số lượng khớp
   const ids = items.map((i) => i.id)
   assert.equal(new Set(ids).size, ids.length, "có mã trùng giữa các loại nội dung")
   const s = summarize(items) as Record<string, number>
-  assert.equal(s.exercise, 2060)
-  assert.equal(s.theory, 41)
+  assert.equal(s.exercise, 2110)
+  assert.equal(s.theory, 42)
   assert.equal(s.reading, 84)
   assert.equal(s.listening, 86)
   assert.equal(s.vocab, 3179)

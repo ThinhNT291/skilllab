@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "en-past-modals-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u1-used-to",
+    "tags": [
+      "pm-u1-used-to"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ live in a small house near the river before we moved to the city.",
+    "choices": [
+      "used to",
+      "are used to",
+      "use to",
+      "get used to"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trạng thái đã chấm dứt trong quá khứ (nay đã chuyển đi) dùng used to + V nguyên thể.",
+    "choiceExplanations": [
+      "Đúng — trước đây ở nhà nhỏ, nay đã chuyển đi: trạng thái đã chấm dứt, dùng used to + V.",
+      "Sai — 'be used to' nghĩa là 'quen với' và đi với V-ing/danh từ; không dùng cho thói quen cũ, lại sai thì (are).",
+      "Sai — ở câu khẳng định phải là 'used to' (có -d); 'use to' chỉ xuất hiện sau did/didn't.",
+      "Sai — 'get used to' là 'dần quen với' và theo sau là V-ing/danh từ, không đi với live (nguyên thể) trong nghĩa này."
+    ]
+  },
+  {
+    "id": "en-past-modals-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u1-used-to",
+    "tags": [
+      "pm-u1-used-to"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Did you ______ play the violin when you were in elementary school?",
+    "choices": [
+      "be used to",
+      "use to",
+      "using to",
+      "used to"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu hỏi về thói quen cũ: Did + S + use to + V.",
+    "choiceExplanations": [
+      "Sai — 'be used to' là 'quen với', không dùng được sau Did.",
+      "Đúng — sau Did, 'used' trở lại thành 'use': Did you use to + V?",
+      "Sai — không có dạng 'using to' trong cấu trúc thói quen quá khứ.",
+      "Sai — 'Did you used to' gặp trong văn nói thân mật nhưng không chuẩn; sách và bài thi yêu cầu 'use to' sau did."
+    ]
+  },
+  {
+    "id": "en-past-modals-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u1-used-to",
+    "tags": [
+      "pm-u1-used-to"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Our town ______ have a cinema, but it closed last year.",
+    "choices": [
+      "is used to",
+      "uses to",
+      "was used to",
+      "used to"
+    ],
+    "correctIndex": 3,
+    "explanation": "Used to dùng được cho trạng thái (have, be, live) đã chấm dứt; không chia theo chủ ngữ.",
+    "choiceExplanations": [
+      "Sai — 'is used to' nghĩa là 'quen với', không đi với động từ nguyên thể have.",
+      "Sai — không có dạng 'uses to'; 'used to' không chia theo chủ ngữ.",
+      "Sai — 'was used to' cần V-ing/danh từ sau nó và có nghĩa 'đã quen', không phải 'trước kia từng có'.",
+      "Đúng — trước kia có rạp, nay đã đóng: trạng thái cũ đã chấm dứt, dùng used to + have."
+    ]
+  },
+  {
+    "id": "en-past-modals-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u1-used-to",
+    "tags": [
+      "pm-u1-used-to"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct negative sentence about a food the speaker did not like in the past.",
+    "choices": [
+      "I didn't use to like broccoli, but now I eat it every day.",
+      "I don't used to like broccoli, but now I eat it every day.",
+      "I not use to like broccoli, but now I eat it every day.",
+      "I didn't used to like broccoli, but now I eat it every day."
+    ],
+    "correctIndex": 0,
+    "explanation": "Phủ định: didn't use to + V.",
+    "choiceExplanations": [
+      "Đúng — phủ định của used to là didn't use to + V (use không có -d).",
+      "Sai — 'don't used to' không tồn tại; thói quen cũ cần didn't use to.",
+      "Sai — thiếu trợ động từ: phủ định phải là didn't use to.",
+      "Sai — didn't đã mang dấu quá khứ nên 'used' phải trở lại thành 'use'."
+    ]
+  },
+  {
+    "id": "en-past-modals-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u1-used-to",
+    "tags": [
+      "pm-u1-used-to"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My cousin grew up in Alaska, so he ______ cold weather.",
+    "choices": [
+      "used to",
+      "is used to",
+      "gets use to",
+      "use to"
+    ],
+    "correctIndex": 1,
+    "explanation": "Be used to + danh từ/V-ing = quen với.",
+    "choiceExplanations": [
+      "Sai — 'used to' đứng một mình trước danh từ không tạo thành câu đúng; thói quen cũ phải có động từ nguyên thể theo sau.",
+      "Đúng — be used to + danh từ nghĩa là 'quen với': lớn lên ở Alaska nên quen với thời tiết lạnh.",
+      "Sai — 'gets use to' sai hình thức (phải là 'used'); và ngay cả 'gets used to' cũng nói về quá trình dần quen, không phải trạng thái đã quen.",
+      "Sai — 'use to' chỉ xuất hiện sau did/didn't và cần động từ nguyên thể theo sau."
+    ]
+  },
+  {
+    "id": "en-past-modals-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u1-used-to",
+    "tags": [
+      "pm-u1-used-to"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "It took me a month to get ______ up at six every morning.",
+    "choices": [
+      "used to wake",
+      "use to waking",
+      "used to waking",
+      "used waking"
+    ],
+    "correctIndex": 2,
+    "explanation": "Get used to + V-ing = dần trở nên quen với việc gì.",
+    "choiceExplanations": [
+      "Sai — sau get used to phải là V-ing (waking), không phải nguyên thể.",
+      "Sai — 'get use to' sai hình thức, phải là 'used to'.",
+      "Đúng — get used to + V-ing nghĩa là 'dần quen với việc ...'.",
+      "Sai — thiếu 'to': cấu trúc là get used to + V-ing."
+    ]
+  },
+  {
+    "id": "en-past-modals-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u1-used-to",
+    "tags": [
+      "pm-u1-used-to"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Viết lại câu",
+    "prompt": "Choose the sentence closest in meaning to: 'Tom isn't a football fan anymore, but he was one when he was ten.'",
+    "choices": [
+      "Tom gets used to football fans.",
+      "Tom didn't use to be a football fan.",
+      "Tom is used to being a football fan.",
+      "Tom used to be a football fan."
+    ],
+    "correctIndex": 3,
+    "explanation": "'Từng là nhưng nay không còn' = used to be.",
+    "choiceExplanations": [
+      "Sai — nghĩa là Tom dần quen với những người hâm mộ, lệch nghĩa và dùng hiện tại.",
+      "Sai — nghĩa là trước đây Tom KHÔNG phải fan, ngược với đề.",
+      "Sai — nghĩa là 'Tom đã quen với việc là fan', vẫn còn hiện tại, trái với 'not anymore'.",
+      "Đúng — used to + be nói về trạng thái từng đúng nhưng nay không còn."
+    ]
+  },
+  {
+    "id": "en-past-modals-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u1-used-to",
+    "tags": [
+      "pm-u1-used-to"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "Which sentence means that the noise doesn't bother the speaker anymore, because the speaker has become accustomed to it?",
+    "choices": [
+      "I'm used to living with the noise.",
+      "I used to live with the noise.",
+      "I'm used to live with the noise.",
+      "I used to living with the noise."
+    ],
+    "correctIndex": 0,
+    "explanation": "Phân biệt: used to + V (thói quen cũ đã mất) và be used to + V-ing (đã quen).",
+    "choiceExplanations": [
+      "Đúng — be used to + V-ing: đã quen với việc sống cùng tiếng ồn, nên không còn bị làm phiền.",
+      "Sai — câu đúng ngữ pháp nhưng nghĩa là 'trước đây tôi sống cùng tiếng ồn', nay đã không còn.",
+      "Sai — sau be used to phải là V-ing (living), không phải nguyên thể.",
+      "Sai — 'used to living' thiếu be (I'm used to living) nên không đúng ngữ pháp."
+    ]
+  },
+  {
+    "id": "en-past-modals-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u1-used-to",
+    "tags": [
+      "pm-u1-used-to"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "What games ______ play when you were little?",
+    "choices": [
+      "you used to",
+      "were you used to",
+      "did you used to",
+      "did you use to"
+    ],
+    "correctIndex": 3,
+    "explanation": "Câu hỏi có từ để hỏi về thói quen cũ: Wh- + did + S + use to + V.",
+    "choiceExplanations": [
+      "Sai — thiếu trợ động từ did để đảo câu hỏi.",
+      "Sai — 'be used to' nghĩa là 'quen với' và cần V-ing/danh từ, không hỏi về thói quen cũ.",
+      "Sai — hay gặp khi nói nhanh nhưng không chuẩn: sau did dùng 'use to'.",
+      "Đúng — What games + did you use to + V: sau did, 'used' trở lại thành 'use'."
+    ]
+  },
+  {
+    "id": "en-past-modals-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u2-would-habit",
+    "tags": [
+      "pm-u2-would-habit"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Every Sunday, my grandma ______ bake an apple pie for the whole family.",
+    "choices": [
+      "has",
+      "would",
+      "was",
+      "is"
+    ],
+    "correctIndex": 1,
+    "explanation": "Would + V nói về hành động lặp lại trong quá khứ.",
+    "choiceExplanations": [
+      "Sai — 'has bake' sai ngữ pháp; has đi với V3, không đi với nguyên thể.",
+      "Đúng — would + V diễn tả hành động lặp lại trong quá khứ, hợp với 'Every Sunday'.",
+      "Sai — 'was bake' sai ngữ pháp; was không đi với động từ nguyên thể.",
+      "Sai — 'is bake' sai ngữ pháp và nói về hiện tại."
+    ]
+  },
+  {
+    "id": "en-past-modals-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u2-would-habit",
+    "tags": [
+      "pm-u2-would-habit"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Which sentence correctly describes a repeated childhood summer habit?",
+    "choices": [
+      "As a child, I would visit my aunt every summer.",
+      "As a child, I would visiting my aunt every summer.",
+      "As a child, I would visited my aunt every summer.",
+      "As a child, I would to visit my aunt every summer."
+    ],
+    "correctIndex": 0,
+    "explanation": "Would + V nguyên thể, không to, không V-ed, không V-ing.",
+    "choiceExplanations": [
+      "Đúng — would + V nguyên thể cho hành động lặp lại (every summer).",
+      "Sai — sau would không dùng V-ing.",
+      "Sai — sau would phải là động từ nguyên thể, không phải V-ed.",
+      "Sai — would là modal, không thêm 'to' sau nó."
+    ]
+  },
+  {
+    "id": "en-past-modals-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u2-would-habit",
+    "tags": [
+      "pm-u2-would-habit"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "My uncle was a sailor. Whenever he came home, he ______ tell us stories about distant islands.",
+    "choices": [
+      "would be",
+      "was",
+      "would",
+      "had"
+    ],
+    "correctIndex": 2,
+    "explanation": "Whenever/every + hành động lặp lại ở quá khứ: would + V.",
+    "choiceExplanations": [
+      "Sai — 'would be tell' sai ngữ pháp.",
+      "Sai — 'was tell' sai ngữ pháp.",
+      "Đúng — 'Whenever' báo hiệu hành động lặp lại trong quá khứ: would + V.",
+      "Sai — 'had tell' sai ngữ pháp (had phải đi với V3 hoặc là động từ chính)."
+    ]
+  },
+  {
+    "id": "en-past-modals-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u2-would-habit",
+    "tags": [
+      "pm-u2-would-habit"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "In which sentence can 'would' replace 'used to' without a problem?",
+    "choices": [
+      "I used to be afraid of the dark.",
+      "She used to live in Hanoi.",
+      "He used to knock on my door every morning before school.",
+      "We used to have a dog called Max."
+    ],
+    "correctIndex": 2,
+    "explanation": "Would thay được used to chỉ với hành động lặp lại, không với trạng thái.",
+    "choiceExplanations": [
+      "Sai — 'be afraid' là trạng thái; would be afraid sẽ sai nghĩa.",
+      "Sai — 'live' là trạng thái kéo dài; chỉ dùng used to (hoặc quá khứ đơn).",
+      "Đúng — 'knock' là hành động lặp lại, thay bằng would knock được.",
+      "Sai — 'have' ở đây là trạng thái sở hữu; would không dùng cho trạng thái."
+    ]
+  },
+  {
+    "id": "en-past-modals-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u2-would-habit",
+    "tags": [
+      "pm-u2-would-habit"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Every time it rained, my little sister ______ cry and hide under her blanket.",
+    "choices": [
+      "was used to",
+      "would be",
+      "would",
+      "used to be"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hành động lặp lại sau 'every time': would + V.",
+    "choiceExplanations": [
+      "Sai — 'was used to' nghĩa là 'đã quen', cần V-ing sau nó.",
+      "Sai — 'would be cry' sai ngữ pháp; sau would dùng thẳng động từ nguyên thể.",
+      "Đúng — 'Every time' báo hiệu hành động lặp lại: would cry.",
+      "Sai — 'used to be cry' sai cấu trúc; used to chỉ cần + V (used to cry)."
+    ]
+  },
+  {
+    "id": "en-past-modals-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u2-would-habit",
+    "tags": [
+      "pm-u2-would-habit"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence about a toy the speaker owned when young.",
+    "choices": [
+      "When I was five, I used to having a stuffed rabbit called Pip.",
+      "When I was five, I would own a stuffed rabbit called Pip.",
+      "When I was five, I have a stuffed rabbit called Pip.",
+      "When I was five, I used to have a stuffed rabbit called Pip."
+    ],
+    "correctIndex": 3,
+    "explanation": "Trạng thái (have, be, live...) dùng used to hoặc quá khứ đơn, không dùng would.",
+    "choiceExplanations": [
+      "Sai — sau used to là nguyên thể (have), không phải V-ing.",
+      "Sai — would không dùng cho trạng thái sở hữu (own/have); phải dùng used to hoặc quá khứ đơn.",
+      "Sai — 'When I was five' nói về quá khứ nên không dùng hiện tại đơn.",
+      "Đúng — 'have' (sở hữu) là trạng thái, nên dùng used to."
+    ]
+  },
+  {
+    "id": "en-past-modals-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u2-would-habit",
+    "tags": [
+      "pm-u2-would-habit"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We lived by the sea. We ______ a small boat, and every evening we would row out to fish.",
+    "choices": [
+      "would have",
+      "had",
+      "were having",
+      "are having"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sở hữu là trạng thái: dùng had / used to have; would chỉ dùng cho hành động lặp lại (would row).",
+    "choiceExplanations": [
+      "Sai — would không dùng cho trạng thái sở hữu; nên dùng had hoặc used to have.",
+      "Đúng — 'had' (trạng thái sở hữu) dùng quá khứ đơn; phần 'every evening we would row' mới là hành động lặp lại.",
+      "Sai — have (sở hữu) không dùng ở dạng tiếp diễn.",
+      "Sai — hiện tại tiếp diễn, câu kể chuyện trong quá khứ."
+    ]
+  },
+  {
+    "id": "en-past-modals-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u2-would-habit",
+    "tags": [
+      "pm-u2-would-habit"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence about ONE event last Friday.",
+    "choices": [
+      "Last Friday, my friends used to come over and we used to play video games until midnight.",
+      "Last Friday, my friends would came over and we played video games until midnight.",
+      "Last Friday, my friends would come over and we would play video games until midnight.",
+      "Last Friday, my friends came over and we played video games until midnight."
+    ],
+    "correctIndex": 3,
+    "explanation": "Would và used to không dùng cho sự kiện một lần.",
+    "choiceExplanations": [
+      "Sai — used to cũng nói về thói quen lặp lại, không dùng cho một lần cụ thể.",
+      "Sai — would + V-ed sai cấu trúc, và would không hợp với một lần cụ thể.",
+      "Sai — would chỉ dùng cho hành động lặp lại, không dùng cho một lần cụ thể (Last Friday).",
+      "Đúng — một sự kiện xảy ra đúng một lần dùng quá khứ đơn."
+    ]
+  },
+  {
+    "id": "en-past-modals-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u3-could-managed",
+    "tags": [
+      "pm-u3-could-managed"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When I was six, I ______ already read simple books.",
+    "choices": [
+      "can",
+      "managed",
+      "am able to",
+      "could"
+    ],
+    "correctIndex": 3,
+    "explanation": "Khả năng chung ở quá khứ: could + V.",
+    "choiceExplanations": [
+      "Sai — can là hiện tại, câu nói về quá khứ.",
+      "Sai — 'managed' phải đi với 'to' (managed to read) và nói về một lần thành công, không phải khả năng chung.",
+      "Sai — 'am able to' là hiện tại, không hợp với 'When I was six'.",
+      "Đúng — could diễn tả khả năng chung ở quá khứ (kỹ năng lúc sáu tuổi)."
+    ]
+  },
+  {
+    "id": "en-past-modals-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u3-could-managed",
+    "tags": [
+      "pm-u3-could-managed"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I studied hard, so I ______ pass the test yesterday.",
+    "choices": [
+      "was able to",
+      "am able to",
+      "could to",
+      "can to"
+    ],
+    "correctIndex": 0,
+    "explanation": "Một lần thành công cụ thể dùng was/were able to hoặc managed to.",
+    "choiceExplanations": [
+      "Đúng — một lần thành công cụ thể (bài kiểm tra hôm qua): was able to + V.",
+      "Sai — 'am able to' là hiện tại, câu nói về 'yesterday'.",
+      "Sai — could là modal, không có 'to' theo sau.",
+      "Sai — can là hiện tại và không có 'to' theo sau."
+    ]
+  },
+  {
+    "id": "en-past-modals-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u3-could-managed",
+    "tags": [
+      "pm-u3-could-managed"
+    ],
+    "difficulty": 1,
+    "bac": 2,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We looked everywhere, but we ______ find the keys.",
+    "choices": [
+      "don't can",
+      "couldn't",
+      "didn't could",
+      "didn't able to"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phủ định ở quá khứ: couldn't / wasn't able to.",
+    "choiceExplanations": [
+      "Sai — can không dùng với don't, lại sai thì.",
+      "Đúng — couldn't + V nói về việc không làm được ở quá khứ.",
+      "Sai — sau didn't dùng nguyên thể; could không chia theo kiểu này.",
+      "Sai — thiếu be và sai dạng: phải là weren't able to (chủ ngữ we)."
+    ]
+  },
+  {
+    "id": "en-past-modals-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u3-could-managed",
+    "tags": [
+      "pm-u3-could-managed"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The ice was thin, but the children ______ cross the frozen pond safely.",
+    "choices": [
+      "can",
+      "must",
+      "managed to",
+      "might"
+    ],
+    "correctIndex": 2,
+    "explanation": "Một lần thành công sau khó khăn: managed to / was able to.",
+    "choiceExplanations": [
+      "Sai — can là hiện tại.",
+      "Sai — must không nói về việc làm được; nghĩa không hợp.",
+      "Đúng — một lần vượt qua khó khăn cụ thể: managed to + V.",
+      "Sai — might nói về khả năng, không kể một việc đã xảy ra thành công; ngoài ra 'could' cho một lần thành công khẳng định cũng không tự nhiên (xem câu 023)."
+    ]
+  },
+  {
+    "id": "en-past-modals-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u3-could-managed",
+    "tags": [
+      "pm-u3-could-managed"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The shop was closed, so Ken ______ buy the game yesterday.",
+    "choices": [
+      "wasn't managed to",
+      "couldn't",
+      "didn't could",
+      "hadn't able to"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ở câu phủ định, couldn't dùng cho cả khả năng chung lẫn một lần cụ thể.",
+    "choiceExplanations": [
+      "Sai — sai hình thức: phủ định của managed to là didn't manage to, không có 'wasn't managed to'.",
+      "Đúng — couldn't dùng được cho một lần không làm được cụ thể ở câu phủ định.",
+      "Sai — sai cấu trúc: không viết didn't could.",
+      "Sai — sai hình thức: phải là wasn't able to."
+    ]
+  },
+  {
+    "id": "en-past-modals-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u3-could-managed",
+    "tags": [
+      "pm-u3-could-managed"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct sentence about arriving on time in spite of heavy traffic.",
+    "choices": [
+      "Although the traffic was terrible, we were able arrive on time.",
+      "Although the traffic was terrible, we managed arrive on time.",
+      "Although the traffic was terrible, we could arrive on time.",
+      "Although the traffic was terrible, we managed to arrive on time."
+    ],
+    "correctIndex": 3,
+    "explanation": "Managed to / was able to luôn có 'to' và theo sau là động từ nguyên thể.",
+    "choiceExplanations": [
+      "Sai — thiếu 'to' sau were able.",
+      "Sai — thiếu 'to' sau managed.",
+      "Sai — 'could' cho một lần thành công khẳng định nghe không tự nhiên (chuẩn mực dùng managed to / were able to; couldn't thì dùng được).",
+      "Đúng — một lần thành công cụ thể sau khó khăn: managed to + V."
+    ]
+  },
+  {
+    "id": "en-past-modals-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u3-could-managed",
+    "tags": [
+      "pm-u3-could-managed"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "Which sentence is about one successful event, not a general ability?",
+    "choices": [
+      "Lan could run fast when she was young.",
+      "Lan could ride a bike at the age of five.",
+      "Lan managed to fix her bike this morning.",
+      "Lan could speak French as a child."
+    ],
+    "correctIndex": 2,
+    "explanation": "Khả năng chung: could. Một lần thành công cụ thể: managed to / was able to.",
+    "choiceExplanations": [
+      "Sai — khả năng chung trong một giai đoạn dài.",
+      "Sai — 'could' cho khả năng chung lúc năm tuổi.",
+      "Đúng — 'managed to' + 'this morning': một lần thành công cụ thể.",
+      "Sai — kỹ năng chung suốt thời thơ ấu."
+    ]
+  },
+  {
+    "id": "en-past-modals-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u3-could-managed",
+    "tags": [
+      "pm-u3-could-managed"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "When I was a kid, I couldn't stay up for the New Year's countdown, but last night I finally ______ stay up.",
+    "choices": [
+      "could to",
+      "was able",
+      "managed to",
+      "can"
+    ],
+    "correctIndex": 2,
+    "explanation": "Một lần thành công cụ thể sau nhiều lần không được: managed to / was able to + V.",
+    "choiceExplanations": [
+      "Sai — could là modal, không có 'to' theo sau.",
+      "Sai — thiếu 'to': phải là was able to + V.",
+      "Đúng — 'finally' và 'last night': một lần thành công cụ thể sau khó khăn, dùng managed to + V.",
+      "Sai — can là hiện tại, câu nói về 'last night'."
+    ]
+  },
+  {
+    "id": "en-past-modals-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u4-had-to-needn-t",
+    "tags": [
+      "pm-u4-had-to-needn-t"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Last week the printer broke, so we ______ write our essays by hand.",
+    "choices": [
+      "had to",
+      "have to",
+      "must",
+      "has to"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nghĩa vụ ở quá khứ: had to + V.",
+    "choiceExplanations": [
+      "Đúng — had to + V là nghĩa vụ ở quá khứ.",
+      "Sai — have to là hiện tại, không hợp với 'last week'.",
+      "Sai — must không có dạng quá khứ; câu nói về 'last week'.",
+      "Sai — has to là hiện tại và dùng cho ngôi thứ ba số ít."
+    ]
+  },
+  {
+    "id": "en-past-modals-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u4-had-to-needn-t",
+    "tags": [
+      "pm-u4-had-to-needn-t"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Yesterday was a holiday, so Dad ______ go to work.",
+    "choices": [
+      "didn't have to",
+      "doesn't have to",
+      "hadn't to",
+      "mustn't"
+    ],
+    "correctIndex": 0,
+    "explanation": "Quá khứ của 'không phải làm': didn't have to + V.",
+    "choiceExplanations": [
+      "Đúng — không bắt buộc đi làm (ngày lễ): didn't have to + V.",
+      "Sai — hiện tại, trong khi câu nói về 'yesterday'.",
+      "Sai — không có dạng 'hadn't to'; phủ định dùng didn't have to.",
+      "Sai — mustn't là 'bị cấm', và là hiện tại; không hợp với nghĩa 'không phải đi làm' ở quá khứ."
+    ]
+  },
+  {
+    "id": "en-past-modals-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u4-had-to-needn-t",
+    "tags": [
+      "pm-u4-had-to-needn-t"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Did you ______ wear a uniform at your old school?",
+    "choices": [
+      "must",
+      "have to",
+      "has to",
+      "had to"
+    ],
+    "correctIndex": 1,
+    "explanation": "Câu hỏi: Did + S + have to + V?",
+    "choiceExplanations": [
+      "Sai — 'Did you must' sai cấu trúc; must không dùng với did.",
+      "Đúng — Did + S + have to + V.",
+      "Sai — has to là hiện tại, không đi sau Did.",
+      "Sai — sau Did dùng nguyên thể: have to."
+    ]
+  },
+  {
+    "id": "en-past-modals-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u4-had-to-needn-t",
+    "tags": [
+      "pm-u4-had-to-needn-t"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn câu đúng",
+    "prompt": "Choose the correct question about a past obligation in a school project.",
+    "choices": [
+      "Had Nam to finish the project alone?",
+      "Did Nam had to finish the project alone?",
+      "Does Nam had to finish the project alone?",
+      "Did Nam have to finish the project alone?"
+    ],
+    "correctIndex": 3,
+    "explanation": "Nghi vấn của had to: Did + S + have to + V.",
+    "choiceExplanations": [
+      "Sai — have to không đảo trợ động từ kiểu này; phải dùng did.",
+      "Sai — sau Did dùng nguyên thể 'have', không dùng had.",
+      "Sai — does là hiện tại, không đi với had.",
+      "Đúng — Did + S + have to + V nguyên thể."
+    ]
+  },
+  {
+    "id": "en-past-modals-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u4-had-to-needn-t",
+    "tags": [
+      "pm-u4-had-to-needn-t"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mia took an umbrella, but it didn't rain. She ______ it.",
+    "choices": [
+      "didn't need to took",
+      "needn't have taken",
+      "needn't take",
+      "mustn't have taken"
+    ],
+    "correctIndex": 1,
+    "explanation": "Needn't have + V3: việc đã làm nhưng không cần thiết (trong tiếng Anh Mỹ thường nói didn't need to cho cả hai nghĩa).",
+    "choiceExplanations": [
+      "Sai — sau to phải là nguyên thể (take), không phải took.",
+      "Đúng — đã mang rồi mà hóa ra không cần: needn't have + V3.",
+      "Sai — dạng này nói về hiện tại/tương lai, không nói được việc đã mang rồi.",
+      "Sai — mustn't là 'cấm', không có nghĩa 'thừa, không cần'."
+    ]
+  },
+  {
+    "id": "en-past-modals-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u4-had-to-needn-t",
+    "tags": [
+      "pm-u4-had-to-needn-t"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "In the library, you ______ talk loudly. It is against the rules.",
+    "choices": [
+      "don't have to",
+      "mustn't",
+      "didn't have to",
+      "needn't have"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mustn't = cấm; don't have to = không cần.",
+    "choiceExplanations": [
+      "Sai — don't have to là 'không cần', không phải 'bị cấm'.",
+      "Đúng — 'against the rules' = bị cấm: mustn't + V.",
+      "Sai — là quá khứ và nghĩa 'không phải', không phải 'bị cấm'.",
+      "Sai — needn't have phải đi với V3 và nói về việc đã làm."
+    ]
+  },
+  {
+    "id": "en-past-modals-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u4-had-to-needn-t",
+    "tags": [
+      "pm-u4-had-to-needn-t"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "Which sentence clearly says that Anna DID buy a new dress for the party, and it turned out to be unnecessary?",
+    "choices": [
+      "Anna didn't have to buy a new dress.",
+      "Anna needn't have bought a new dress.",
+      "Anna didn't need to buy a new dress.",
+      "Anna mustn't have bought a new dress."
+    ],
+    "correctIndex": 1,
+    "explanation": "Muốn nói rõ 'đã làm mà thừa', dùng needn't have + V3.",
+    "choiceExplanations": [
+      "Sai — nói không bắt buộc, nhưng riêng câu này không khẳng định Anna đã mua hay chưa.",
+      "Đúng — needn't have + V3: đã mua rồi mà hóa ra thừa.",
+      "Sai — thường hiểu là Anna không phải mua (và đã không mua); trong hội thoại đôi khi người ta nói câu này khi việc đã làm, nhưng riêng nó không cho biết chắc, nên không 'rõ ràng' bằng needn't have.",
+      "Sai — 'mustn't have' không dùng để nói việc thừa; dạng đúng để suy đoán là can't have."
+    ]
+  },
+  {
+    "id": "en-past-modals-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u4-had-to-needn-t",
+    "tags": [
+      "pm-u4-had-to-needn-t"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Did you take a taxi to school? B: No, there was a free school bus, so I ______ a taxi.",
+    "choices": [
+      "needn't have taken",
+      "had to take",
+      "mustn't take",
+      "didn't need to take"
+    ],
+    "correctIndex": 3,
+    "explanation": "Didn't need to: không cần và thường không làm; needn't have: đã làm mà thừa.",
+    "choiceExplanations": [
+      "Sai — needn't have taken nghĩa là đã đi taxi mà thừa, mâu thuẫn với 'No'.",
+      "Sai — had to là 'phải', ngược với 'có xe buýt miễn phí'.",
+      "Sai — mustn't là 'cấm', không hợp ngữ cảnh và không phải quá khứ.",
+      "Đúng — B không đi taxi (No) vì không cần: didn't need to + V."
+    ]
+  },
+  {
+    "id": "en-past-modals-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u5-should-have",
+    "tags": [
+      "pm-u5-should-have"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I forgot my homework. I ______ it in my bag last night.",
+    "choices": [
+      "should have put",
+      "should have putted",
+      "should put",
+      "should had put"
+    ],
+    "correctIndex": 0,
+    "explanation": "Should have + V3: lẽ ra nên làm nhưng đã không làm.",
+    "choiceExplanations": [
+      "Đúng — lẽ ra nên bỏ vào cặp nhưng đã không: should have + V3 (put).",
+      "Sai — put là động từ bất quy tắc, V3 vẫn là put.",
+      "Sai — nói về lời khuyên hiện tại/tương lai, không hợp với 'last night'.",
+      "Sai — sau should phải là 'have', không phải 'had'."
+    ]
+  },
+  {
+    "id": "en-past-modals-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u5-should-have",
+    "tags": [
+      "pm-u5-should-have"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "You ate that whole cake, and now you feel sick. You ______ it.",
+    "choices": [
+      "shouldn't ate",
+      "shouldn't have eat",
+      "shouldn't have eaten",
+      "should have eaten"
+    ],
+    "correctIndex": 2,
+    "explanation": "Shouldn't have + V3: đã làm mà không nên.",
+    "choiceExplanations": [
+      "Sai — sau shouldn't dùng nguyên thể (eat) hoặc have + V3, không dùng ate.",
+      "Sai — sau have phải là V3 (eaten).",
+      "Đúng — đã ăn rồi và không nên: shouldn't have + V3.",
+      "Sai — nghĩa là 'lẽ ra nên ăn', ngược với ngữ cảnh."
+    ]
+  },
+  {
+    "id": "en-past-modals-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u5-should-have",
+    "tags": [
+      "pm-u5-should-have"
+    ],
+    "difficulty": 1,
+    "bac": 3,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Lan didn't wear a helmet and fell off her bike. She ______ a helmet.",
+    "choices": [
+      "should wear",
+      "should had worn",
+      "should have wore",
+      "should have worn"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sau should have luôn là V3 (worn, gone, written).",
+    "choiceExplanations": [
+      "Sai — lời khuyên cho hiện tại/tương lai, không phải việc đã qua.",
+      "Sai — sau should dùng have, không dùng had.",
+      "Sai — sau have phải là V3 'worn', không phải 'wore'.",
+      "Đúng — lẽ ra nên đội mũ: should have + V3 (worn)."
+    ]
+  },
+  {
+    "id": "en-past-modals-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u5-should-have",
+    "tags": [
+      "pm-u5-should-have"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "Which sentence says it was possible for Ben to win the race, but he didn't?",
+    "choices": [
+      "Ben could have won the race, but he stopped to tie his shoe.",
+      "Ben can't have won the race, but he stopped to tie his shoe.",
+      "Ben couldn't won the race, but he stopped to tie his shoe.",
+      "Ben must have won the race, but he stopped to tie his shoe."
+    ],
+    "correctIndex": 0,
+    "explanation": "Could have + V3: có thể đã làm nhưng đã không làm.",
+    "choiceExplanations": [
+      "Đúng — could have + V3: có thể đã làm được nhưng thực tế không.",
+      "Sai — 'can't have won' là chắc chắn không thắng; không nói về khả năng.",
+      "Sai — sau couldn't dùng nguyên thể (win), và nghĩa cũng không phải khả năng bị bỏ lỡ.",
+      "Sai — 'must have won' là chắc chắn đã thắng, mâu thuẫn với 'but he stopped'."
+    ]
+  },
+  {
+    "id": "en-past-modals-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u5-should-have",
+    "tags": [
+      "pm-u5-should-have"
+    ],
+    "difficulty": 2,
+    "bac": 3,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "'You should have told me about the test.' What does the speaker mean?",
+    "choices": [
+      "You must tell me about the test now.",
+      "You will tell me about the test later.",
+      "You told me about the test, and I was happy.",
+      "I'm unhappy that you didn't tell me about the test."
+    ],
+    "correctIndex": 3,
+    "explanation": "Should have + V3 ngụ ý việc đó đã không xảy ra.",
+    "choiceExplanations": [
+      "Sai — đó là yêu cầu cho hiện tại, không phải chỉ trích việc đã qua.",
+      "Sai — should have nói về quá khứ, không phải tương lai.",
+      "Sai — thực tế ngược lại: người kia đã không nói.",
+      "Đúng — should have + V3: lẽ ra nên làm nhưng đã không làm (chỉ trích nhẹ)."
+    ]
+  },
+  {
+    "id": "en-past-modals-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u5-should-have",
+    "tags": [
+      "pm-u5-should-have"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "We ______ the tickets earlier. Now the show is sold out.",
+    "choices": [
+      "ought to have booked",
+      "ought to had booked",
+      "ought have booked",
+      "ought to book"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ought to have + V3 có nghĩa gần giống should have + V3.",
+    "choiceExplanations": [
+      "Đúng — ought to have + V3 = should have + V3: lẽ ra nên đặt sớm hơn.",
+      "Sai — sau ought to dùng 'have', không dùng 'had'.",
+      "Sai — thiếu 'to': ought to have + V3.",
+      "Sai — nói về lời khuyên hiện tại; 'earlier' và 'now sold out' cho thấy việc đã qua."
+    ]
+  },
+  {
+    "id": "en-past-modals-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u5-should-have",
+    "tags": [
+      "pm-u5-should-have"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "Which sentence shows regret about something Mai DID do?",
+    "choices": [
+      "Mai could have shouted at her brother.",
+      "Mai shouldn't have shouted at her brother.",
+      "Mai must have shouted at her brother.",
+      "Mai should have shouted at her brother."
+    ],
+    "correctIndex": 1,
+    "explanation": "Hối tiếc về việc đã làm: shouldn't have + V3.",
+    "choiceExplanations": [
+      "Sai — nghĩa là có thể đã quát nhưng không quát.",
+      "Đúng — shouldn't have + V3: đã làm mà không nên.",
+      "Sai — là suy đoán chắc chắn rằng Mai đã quát, không thể hiện sự hối tiếc.",
+      "Sai — nghĩa là lẽ ra nên quát mà đã không quát."
+    ]
+  },
+  {
+    "id": "en-past-modals-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u5-should-have",
+    "tags": [
+      "pm-u5-should-have"
+    ],
+    "difficulty": 3,
+    "bac": 3,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "Dan promised to call Mom last night, but he forgot. Which sentence criticizes Dan?",
+    "choices": [
+      "Dan can't have called Mom last night.",
+      "Dan should have called Mom last night.",
+      "Dan must have called Mom last night.",
+      "Dan shouldn't have called Mom last night."
+    ],
+    "correctIndex": 1,
+    "explanation": "Chỉ trích việc đã không làm: should have + V3.",
+    "choiceExplanations": [
+      "Sai — là suy đoán rằng Dan chắc chắn không gọi; đây là suy luận, không phải lời chỉ trích.",
+      "Đúng — should have + V3: lẽ ra nên gọi nhưng đã không gọi.",
+      "Sai — là suy đoán rằng Dan đã gọi, trái với sự thật 'he forgot'.",
+      "Sai — nghĩa là không nên gọi mà đã gọi, trái với sự thật."
+    ]
+  },
+  {
+    "id": "en-past-modals-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u6-must-have",
+    "tags": [
+      "pm-u6-must-have"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "There are leaves and branches all over the street this morning. There ______ a storm last night.",
+    "choices": [
+      "must been",
+      "must be",
+      "must had been",
+      "must have been"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suy đoán chắc chắn về quá khứ: must have + V3.",
+    "choiceExplanations": [
+      "Sai — thiếu have.",
+      "Sai — dạng hiện tại, trong khi 'last night' là quá khứ.",
+      "Sai — sau must dùng have, không dùng had.",
+      "Đúng — bằng chứng rõ ràng (lá và cành khắp đường): must have + V3 (been)."
+    ]
+  },
+  {
+    "id": "en-past-modals-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u6-must-have",
+    "tags": [
+      "pm-u6-must-have"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Mai got 100% on the test. She ______ very hard last week.",
+    "choices": [
+      "must have study",
+      "must be studied",
+      "must have studied",
+      "must study"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sau must have luôn là V3, không phải nguyên thể.",
+    "choiceExplanations": [
+      "Sai — sau have phải là V3 (studied).",
+      "Sai — dạng bị động, sai nghĩa.",
+      "Đúng — điểm tuyệt đối là bằng chứng mạnh: must have + V3.",
+      "Sai — nói về hiện tại, không suy đoán việc đã xảy ra."
+    ]
+  },
+  {
+    "id": "en-past-modals-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u6-must-have",
+    "tags": [
+      "pm-u6-must-have"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Ken was with me all afternoon, so he ______ broken the window.",
+    "choices": [
+      "can't",
+      "mustn't have",
+      "can't have",
+      "must have"
+    ],
+    "correctIndex": 2,
+    "explanation": "Phủ định của must have khi suy đoán là can't have.",
+    "choiceExplanations": [
+      "Sai — thiếu have: 'can't broken' sai ngữ pháp.",
+      "Sai — mustn't không dùng để suy đoán điều chắc chắn không xảy ra; dùng can't have.",
+      "Đúng — bằng chứng cho thấy gần như chắc chắn không phải Ken: can't have + V3.",
+      "Sai — nghĩa là chắc chắn Ken đã làm vỡ, ngược với ngữ cảnh."
+    ]
+  },
+  {
+    "id": "en-past-modals-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u6-must-have",
+    "tags": [
+      "pm-u6-must-have"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I can't find my keys. Maybe I ______ them in the car.",
+    "choices": [
+      "should have left",
+      "must have left",
+      "might have left",
+      "can't have left"
+    ],
+    "correctIndex": 2,
+    "explanation": "Có 'maybe', chỉ là khả năng: might have / may have / could have + V3.",
+    "choiceExplanations": [
+      "Sai — should have là 'lẽ ra nên', không nói về khả năng.",
+      "Sai — must have là gần như chắc chắn; không đi với 'maybe'.",
+      "Đúng — 'Maybe' cho thấy chỉ là khả năng, dùng might have + V3.",
+      "Sai — nghĩa là chắc chắn không để, trái với 'maybe'."
+    ]
+  },
+  {
+    "id": "en-past-modals-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u6-must-have",
+    "tags": [
+      "pm-u6-must-have"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "A: Why didn't Eva answer her phone? B: I don't know. She ______ it on silent, or maybe the battery died.",
+    "choices": [
+      "might have put",
+      "can't have put",
+      "should have put",
+      "must have put"
+    ],
+    "correctIndex": 0,
+    "explanation": "Khi có nhiều khả năng (or maybe), dùng might have + V3.",
+    "choiceExplanations": [
+      "Đúng — 'I don't know' và 'or maybe' cho thấy chỉ là khả năng: might have + V3.",
+      "Sai — nghĩa là chắc chắn không bật im lặng, trái với ngữ cảnh.",
+      "Sai — should have là 'lẽ ra nên', không phù hợp với việc đoán nguyên nhân.",
+      "Sai — must have là gần như chắc chắn, nhưng người nói đã nói 'I don't know' và đưa ra hai khả năng với 'or maybe'."
+    ]
+  },
+  {
+    "id": "en-past-modals-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u6-must-have",
+    "tags": [
+      "pm-u6-must-have"
+    ],
+    "difficulty": 2,
+    "bac": 4,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "The whole cake has disappeared, and there are chocolate fingerprints on the plate. Which sentence shows the speaker is almost certain?",
+    "choices": [
+      "Someone could have eaten it.",
+      "Someone must have eaten it.",
+      "Someone might have eaten it.",
+      "Someone may have eaten it."
+    ],
+    "correctIndex": 1,
+    "explanation": "Bằng chứng mạnh thì chọn must have + V3.",
+    "choiceExplanations": [
+      "Sai — could have chỉ là khả năng, không chắc chắn.",
+      "Đúng — must have + V3: gần như chắc chắn, có bằng chứng (dấu tay sô-cô-la).",
+      "Sai — might have chỉ là khả năng yếu.",
+      "Sai — may have chỉ là khả năng; ở đây người nói gần như chắc chắn."
+    ]
+  },
+  {
+    "id": "en-past-modals-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u6-must-have",
+    "tags": [
+      "pm-u6-must-have"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Chọn nghĩa đúng",
+    "prompt": "'Nam can't have seen the message.' What does the speaker think?",
+    "choices": [
+      "It is almost impossible that Nam saw the message.",
+      "Nam should have seen the message.",
+      "Nam probably saw the message.",
+      "Nam was not allowed to see the message."
+    ],
+    "correctIndex": 0,
+    "explanation": "Can't have + V3 = gần như chắc chắn là KHÔNG xảy ra.",
+    "choiceExplanations": [
+      "Đúng — can't have + V3: gần như chắc chắn là không.",
+      "Sai — should have là 'lẽ ra nên thấy', không phải suy đoán.",
+      "Sai — can't have nói điều ngược lại: gần như chắc chắn không thấy.",
+      "Sai — đây là suy đoán về sự thật, không phải về sự cho phép."
+    ]
+  },
+  {
+    "id": "en-past-modals-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u6-must-have",
+    "tags": [
+      "pm-u6-must-have"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "I locked the door myself and kept the only key in my pocket. The window was open, so someone ______ in through the window. It's the only explanation.",
+    "choices": [
+      "might have climbed",
+      "needn't have climbed",
+      "must have climbed",
+      "can't have climbed"
+    ],
+    "correctIndex": 2,
+    "explanation": "'The only explanation' = mức chắc chắn cao nhất: must have + V3.",
+    "choiceExplanations": [
+      "Sai — might have chỉ là khả năng yếu, nghe mâu thuẫn với 'It's the only explanation' (khi chỉ có một cách giải thích thì người nói gần như chắc chắn).",
+      "Sai — nghĩa là việc trèo vào thừa, không phải suy đoán.",
+      "Đúng — 'the only explanation' là bằng chứng mạnh: must have + V3.",
+      "Sai — nghĩa là chắc chắn không ai trèo vào, trái với ngữ cảnh."
+    ]
+  },
+  {
+    "id": "en-past-modals-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "past-modals",
+    "usageId": "pm-u6-must-have",
+    "tags": [
+      "pm-u6-must-have"
+    ],
+    "difficulty": 3,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The test papers were in a locked cabinet, and the teacher kept the only key in her pocket all week. Jun ______ the questions in advance.",
+    "choices": [
+      "can't have seen",
+      "mustn't have seen",
+      "may have seen",
+      "must have seen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bằng chứng loại trừ gần như hoàn toàn: can't have + V3.",
+    "choiceExplanations": [
+      "Đúng — chỉ giáo viên có chìa khóa nên gần như chắc chắn Jun không thể thấy: can't have + V3.",
+      "Sai — mustn't không dùng để suy đoán điều chắc chắn không xảy ra.",
+      "Sai — may have chỉ là khả năng, nhưng bằng chứng gần như loại trừ hoàn toàn.",
+      "Sai — nghĩa là chắc chắn Jun đã thấy, ngược với bằng chứng."
+    ]
+  }
+]
