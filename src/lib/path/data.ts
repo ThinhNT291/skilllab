@@ -9,6 +9,7 @@ import { getListeningItems } from "@/lib/listening/data"
 import { itemToExercises, type ListeningItem } from "@/lib/listening/types"
 import { getReadingPassages, glossFor } from "@/lib/reading/data"
 import { passageToExercises, type ReadingPassage } from "@/lib/reading/types"
+import { listeningExtras, readingExtras } from "@/lib/content/passage-extras"
 import { getVocab } from "@/lib/vocab/data"
 import { pickVocabRound, VOCAB_LEVELS, type VocabLevel } from "@/lib/vocab/questions"
 import { shuffle } from "@/lib/content/derive"
@@ -66,12 +67,12 @@ export async function getLessonPayload(lessonId: string): Promise<{ lesson: Path
   if (lesson.kind === "reading" && lesson.ref.itemId) {
     const passage = ((await getReadingPassages(lesson.bac)) ?? []).find((p) => p.id === lesson.ref.itemId)
     if (!passage) return null
-    return { lesson, payload: { ...base, kind: "reading", passage, exercises: passageToExercises(passage), gloss: await glossFor(passage.text) } }
+    return { lesson, payload: { ...base, kind: "reading", passage, exercises: [...passageToExercises(passage), ...readingExtras(passage)], gloss: await glossFor(passage.text) } }
   }
   if (lesson.kind === "listening" && lesson.ref.itemId) {
     const item = ((await getListeningItems(lesson.bac)) ?? []).find((p) => p.id === lesson.ref.itemId)
     if (!item) return null
-    return { lesson, payload: { ...base, kind: "listening", item, exercises: itemToExercises(item) } }
+    return { lesson, payload: { ...base, kind: "listening", item, exercises: [...itemToExercises(item), ...listeningExtras(item)] } }
   }
   return null
 }

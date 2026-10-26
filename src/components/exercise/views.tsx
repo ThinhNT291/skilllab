@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import type { Exercise, DictationExercise, McqExercise, ReorderExercise, SpeakExercise, SpotExercise, FixExercise, TypedExercise } from "@/lib/content/types"
+import type { Exercise, DictationExercise, EvidenceExercise, McqExercise, ReorderExercise, SpeakExercise, SpotExercise, FixExercise, TypedExercise } from "@/lib/content/types"
 import { gradeReorder, gradeSpot, gradeTyped } from "@/lib/grading"
 import { speak, stopSpeaking, useTtsSupported } from "@/lib/audio/tts"
 import { listenOnce, useSttSupported, type Listening, type ListenError } from "@/lib/audio/stt"
@@ -311,6 +311,50 @@ export function SpeakView({ ex, result, onResolve, onSkip }: { ex: SpeakExercise
   )
 }
 
+/** Tìm câu làm căn cứ: chạm vào câu trong bài đọc chứa thông tin cho đáp án đúng. */
+export function EvidenceView({ ex, result, onResolve }: { ex: EvidenceExercise; result: Result | null; onResolve: (r: Result) => void }) {
+  const [tapped, setTapped] = useState<number | null>(null)
+  const done = result !== null
+  return (
+    <>
+      <p className="my-2 text-xl font-extrabold leading-relaxed">Tìm câu làm căn cứ</p>
+      <p className="mb-1 text-muted-foreground">
+        Câu hỏi: <span lang="en" className="font-bold text-foreground">{ex.question}</span>
+      </p>
+      <p className="mb-3 text-muted-foreground">
+        Đáp án đúng là <strong lang="en" className="text-foreground">{ex.answerText}</strong>. Chạm vào câu trong bài cho biết điều đó.
+      </p>
+      <ol className="space-y-2" aria-label="Các câu trong bài">
+        {ex.sentences.map((sentence, i) => {
+          const isAnswer = i === ex.answerIndex
+          return (
+            <li key={i}>
+              <button
+                type="button"
+                lang="en"
+                disabled={done}
+                onClick={() => {
+                  setTapped(i)
+                  onResolve({ correct: i === ex.answerIndex, response: String(i) })
+                }}
+                className={cn(
+                  "w-full rounded-xl border-2 border-b-4 bg-card px-3 py-2 text-left text-base enabled:hover:border-primary enabled:active:translate-y-[2px] enabled:active:border-b-2",
+                  !done && "border-border",
+                  done && isAnswer && "border-success bg-success-soft",
+                  done && !isAnswer && i === tapped && "border-danger bg-danger-soft",
+                  done && !isAnswer && i !== tapped && "border-border opacity-60",
+                )}
+              >
+                {sentence}
+              </button>
+            </li>
+          )
+        })}
+      </ol>
+    </>
+  )
+}
+
 export function SpotView({ ex, result, onResolve }: { ex: SpotExercise; result: Result | null; onResolve: (r: Result) => void }) {
   const [tapped, setTapped] = useState<number | null>(null)
   const done = result !== null
@@ -364,5 +408,7 @@ export function ExerciseView({ ex, result, onResolve, scaffold = 0 }: { ex: Exer
       return <DictationView ex={ex} result={result} onResolve={onResolve} />
     case "speak":
       return <SpeakView ex={ex} result={result} onResolve={onResolve} />
+    case "evidence":
+      return <EvidenceView ex={ex} result={result} onResolve={onResolve} />
   }
 }

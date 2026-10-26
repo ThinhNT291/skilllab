@@ -63,8 +63,8 @@ function filledOf(ex: McqExercise): string | null {
   return cardContentFromExercise(ex).filled
 }
 
-export function deriveReorder(ex: McqExercise, rng: Rng = Math.random): ReorderExercise | null {
-  const filled = filledOf(ex)
+/** Xáo các từ của một câu hoàn chỉnh thành bài sắp xếp; null nếu câu không hợp (quá ngắn/dài, có trạng từ đổi chỗ được, không xáo ra khác câu gốc). */
+export function reorderFromSentence(filled: string, base: Pick<ReorderExercise, "id" | "language" | "level" | "bac" | "topic" | "usageId" | "tags" | "difficulty">, card: CardSource, rng: Rng = Math.random): ReorderExercise | null {
   if (!filled || NOT_A_SENTENCE.test(filled) || MOVABLE.test(filled)) return null
   const words = filled.trim().split(/\s+/)
   if (words.length < 4 || words.length > 12 || !/[.!?]$/.test(filled.trim())) return null
@@ -72,14 +72,20 @@ export function deriveReorder(ex: McqExercise, rng: Rng = Math.random): ReorderE
   for (let i = 0; i < 5 && pool.join(" ") === words.join(" "); i++) pool = shuffle(words, rng)
   if (pool.join(" ") === words.join(" ")) return null
   return {
-    ...shared(ex, "reorder"),
+    ...base,
     kind: "reorder",
     prompt: "Sắp xếp các từ thành câu đúng",
     pool,
     answerWords: words,
     explanation: `Câu đúng: ${filled}`,
-    card: cardOf(ex),
+    card,
   }
+}
+
+export function deriveReorder(ex: McqExercise, rng: Rng = Math.random): ReorderExercise | null {
+  const filled = filledOf(ex)
+  if (!filled) return null
+  return reorderFromSentence(filled, shared(ex, "reorder"), cardOf(ex), rng)
 }
 
 export function deriveTyped(ex: McqExercise): TypedExercise | null {

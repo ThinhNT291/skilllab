@@ -5,6 +5,7 @@ import { notFound } from "next/navigation"
 import { ListeningSession } from "@/components/listening/listening-session"
 import { getListeningItems, pickListening } from "@/lib/listening/data"
 import { itemToExercises, LISTENING_BACS } from "@/lib/listening/types"
+import { listeningExtras } from "@/lib/content/passage-extras"
 import { bacLabel } from "@/lib/content/bac"
 
 export const metadata = { title: "Nghe hiểu" }
@@ -35,7 +36,7 @@ async function Item({ params }: { params: PageProps<"/nghe/[bac]">["params"] }) 
         ← Nghe hiểu
       </Link>
       <h1 className="mt-2 mb-4 text-3xl font-extrabold">Nghe hiểu {bacLabel(item.bac)}</h1>
-      <ListeningSession item={item} exercises={itemToExercises(item)} />
+      <ListeningSession item={item} exercises={[...itemToExercises(item), ...listeningExtras(item)]} />
     </>
   )
 }
