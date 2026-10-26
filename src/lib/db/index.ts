@@ -8,5 +8,6 @@ export { getOwnedItems, buyItem, saveEquipped, type OwnedItems, type ItemsResult
 export { saveTopicTest, getPassedTopics } from "./tests"
 export { saveAttempt, getAttempts, type NewAttempt } from "./attempts"
 export { fetchRemoteSettings, pushRemoteSettings } from "./settings"
+export { getPlacementOverview, startPlacementSession, savePlacementState, finishPlacementSession, abandonPlacementSession, type PlacementRow } from "./placement"
 export { signInWithUsername, signInWithGoogle, signOut, onAuthChange, getAccountInfo, updateNickname, type AccountInfo, type AuthResult } from "./auth"
 export { listAccounts, listClasses, createClass, setMembership, listRecentAnswers, listRecentActivity, getStudentData, listAudit, type StaffProfile, type ClassRow, type RecentAnswer, type AuditRow } from "./staff"

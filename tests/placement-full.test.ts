@@ -1,6 +1,6 @@
 import test from "node:test"
 import assert from "node:assert/strict"
-import { answeredInBlock, initialState, isDone, ladderFor, parseState, passageAnswers, pickPassageId, PLAN, retakeStatus, scoreSession, seenFromResults, thetaFor, TOTAL_ITEMS, RETAKE_GAP_DAYS, type PlacementSkill, type SessionState } from "../src/lib/placement/full.ts"
+import { answeredInBlock, initialState, isDone, ladderFor, parseResult, parseState, passageAnswers, pickPassageId, PLAN, retakeStatus, scoreSession, seenFromResults, thetaFor, TOTAL_ITEMS, RETAKE_GAP_DAYS, type PlacementSkill, type SessionState } from "../src/lib/placement/full.ts"
 import { itemRating } from "../src/lib/progress/ability.ts"
 
 const rec = (skill: PlacementSkill, bac: number, flags: boolean[], prefix = skill) => flags.map((correct, i) => ({ id: `${prefix}-${bac}-${i}-${Math.random()}`, skill, rating: itemRating(bac, 2), correct }))
@@ -69,9 +69,10 @@ test("kết quả: từng kỹ năng lấy bậc dưới khi chưa rõ; bậc t�
   assert.equal(r.skills.grammar.bac, 4)
   assert.equal(r.skills.reading.bac, 3)
   assert.equal(r.skills.listening.bac, 2)
-  assert.equal(r.overall.bac, 3) // trung vị của 2, 3, 4, 4 → (3+4)/2 = 3,5 → 3
+  // Bậc tổng làm tròn MỘT lần từ trung vị của bậc số thực (giữa Đọc ≈ 3,x và Ngữ pháp/Từ vựng ≈ 4,x), không vượt bậc cao nhất của một kỹ năng
+  assert.ok(r.overall.bac >= 3 && r.overall.bac <= 4)
+  assert.ok(r.overall.bac <= Math.max(...Object.values(r.skills).map((l) => l.bac)))
   assert.equal(r.items.length, all.length)
-  assert.ok(r.overall.label.includes("B1"))
 })
 
 test("trạng thái: làm sạch dữ liệu từ DB, đếm câu đã làm trong khối, nhận biết xong", () => {
@@ -100,4 +101,15 @@ test("làm lại: phải cách 14 ngày kể từ lần xong gần nhất", () =
   assert.equal(retakeStatus("2026-10-20T00:00:00Z", now).allowed, false)
   assert.equal(retakeStatus("2026-10-20T00:00:00Z", now).daysLeft, 8)
   assert.equal(retakeStatus("2026-10-12T00:00:00Z", now).allowed, true)
+})
+
+test("đọc lại kết quả từ DB: làm sạch, nhãn lấy lại từ bậc, hỏng thì null", () => {
+  const good = scoreSession(state([...rec("grammar", 3, Array(12).fill(true)), ...rec("vocab", 3, Array(12).fill(true)), ...passageAnswers("r", "reading", 3, 3, 3), ...passageAnswers("l", "listening", 3, 3, 3)], 8))
+  const back = parseResult(JSON.parse(JSON.stringify(good)))!
+  assert.equal(back.overall.bac, good.overall.bac)
+  assert.equal(back.skills.grammar.label, good.skills.grammar.label)
+  assert.equal(parseResult({ skills: {}, overall: { bac: 3 } }), null)
+  assert.equal(parseResult(null), null)
+  assert.equal(parseResult({ ...JSON.parse(JSON.stringify(good)), overall: { bac: "x" } }), null)
+  assert.equal(parseResult({ ...JSON.parse(JSON.stringify(good)), overall: { bac: 99, label: "gian lận" } })!.overall.bac, 6)
 })

@@ -81,7 +81,7 @@ test("MAP: không phụ thuộc thứ tự; đúng hết ở câu khó thì cao,
 })
 
 test("làm tròn lấy bậc dưới khi chưa rõ; đủ bằng chứng mới được bậc cao", () => {
-  assert.equal(ROUND_UP_FROM, 0.75)
+  assert.equal(ROUND_UP_FROM, 0.6)
   // sáu câu đúng ở Bậc 5: đủ bằng chứng (≥2 câu đúng từ Bậc 5 trở lên)
   assert.equal(levelFromRows(rowsAt(5, Array(6).fill(true))).bac, 5)
   // chỉ một câu đúng ở Bậc 6, còn lại sai: không công nhận Bậc 6

@@ -43,18 +43,23 @@ export const MIN_CORRECT_FOR_BAC = 2
 export const PLACEMENT_MID_CONFIDENCE_N = 12
 
 /**
- * Muốn được bậc kế tiếp thì ước lượng phải đi được ít nhất bấy nhiêu phần của khoảng giữa hai bậc (0,75 = ba phần tư).
+ * Muốn được bậc kế tiếp thì ước lượng phải đi được ít nhất bấy nhiêu phần của khoảng giữa hai bậc (0,6 = sáu phần mười).
  * Nằm giữa hai bậc (chưa rõ) thì lấy bậc dưới, theo quyết định của chủ dự án. Giá trị khởi điểm, xem lại khi có dữ liệu thật.
  */
-export const ROUND_UP_FROM = 0.75
+export const ROUND_UP_FROM = 0.6
 
 /**
  * Bậc từ các dòng đã chấm của bài xếp trình độ: ước lượng MAP, rồi **lấy bậc dưới** khi chưa rõ (`ROUND_UP_FROM`),
  * và không vượt quá bậc cao nhất có đủ bằng chứng (`MIN_CORRECT_FOR_BAC` câu đúng ở độ khó từ bậc đó trở lên).
  */
+/** Bậc số thực → bậc nguyên theo quy tắc "chưa rõ thì lấy bậc dưới" (`ROUND_UP_FROM`). */
+export function roundBac(real: number): number {
+  return Math.min(6, Math.max(0, Math.floor(real + (1 - ROUND_UP_FROM))))
+}
+
 export function levelFromRows(rows: PlacementRow[]): Level {
   const theta = estimateThetaMAP(rows)
-  let bac = Math.min(6, Math.max(0, Math.floor(bacFromRating(theta) + (1 - ROUND_UP_FROM))))
+  let bac = roundBac(bacFromRating(theta))
   while (bac > 1 && rows.filter((r) => r.correct && bacOfItemRating(r.rating) >= bac).length < MIN_CORRECT_FOR_BAC) bac--
   const confidence: Confidence = rows.length >= PLACEMENT_MID_CONFIDENCE_N ? "mid" : "low"
   return { bac, label: levelLabel(bac), confidence, n: rows.length }

@@ -5,7 +5,7 @@
  * Thiết kế và con số: docs/lo-trinh-va-xep-bac.md, docs/phan-quyen.md (lưu dở), CLAUDE.md quyết định 8. Chỉ là ước lượng tham khảo của máy.
  */
 import { bacFromRating, estimateThetaMAP, itemRating, startPositionFor, START_RATING } from "../progress/ability.ts"
-import { levelFromRows, type Level } from "../progress/level.ts"
+import { levelFromRows, roundBac, type Level } from "../progress/level.ts"
 import { levelLabel } from "../content/bac.ts"
 
 export type PlacementSkill = "grammar" | "vocab" | "reading" | "listening"
@@ -25,6 +25,12 @@ export const PLAN: readonly Block[] = [
   { skill: "listening", kind: "passage", n: 3 },
 ]
 export const TOTAL_ITEMS = PLAN.reduce((n, b) => n + b.n, 0)
+
+/**
+ * Bước lên/xuống trên thang câu sau mỗi câu trong một khối (đối xứng, lớn hơn luyện thường vì chỉ có 6 câu mỗi khối).
+ * Thang khoảng 10 câu/bậc nên 0,15 ≈ một bậc.
+ */
+export const PLACEMENT_STEPS = { up: 0.15, down: 0.15 }
 
 /** Giãn cách tối thiểu giữa hai lần làm xong (ngày). Giá trị khởi điểm, xem lại khi có dữ liệu thật. */
 export const RETAKE_GAP_DAYS = 14
@@ -138,9 +144,29 @@ export interface PlacementResult {
 
 export function scoreSession(s: SessionState): PlacementResult {
   const skills = Object.fromEntries(PLACEMENT_SKILLS.map((k) => [k, levelFromRows(rowsOf(s, k))])) as Record<PlacementSkill, Level>
-  const bacs = PLACEMENT_SKILLS.map((k) => skills[k].bac).sort((a, b) => a - b)
-  const overallBac = Math.floor((bacs[1] + bacs[2]) / 2)
+  // Bậc tổng: trung vị của bậc SỐ THỰC bốn kỹ năng rồi làm tròn MỘT lần (làm tròn từng kỹ năng rồi lại làm tròn xuống trung bình
+  // thì bị trừ hai lần). Không vượt bậc cao nhất của một kỹ năng nào.
+  const reals = PLACEMENT_SKILLS.map((k) => bacFromRating(estimateThetaMAP(rowsOf(s, k)))).sort((a, b) => a - b)
+  const top = Math.max(...PLACEMENT_SKILLS.map((k) => skills[k].bac))
+  const overallBac = Math.min(top, roundBac((reals[1] + reals[2]) / 2))
   return { skills, overall: { bac: overallBac, label: levelLabel(overallBac) }, items: s.answers.map((a) => ({ id: a.id, skill: a.skill, correct: a.correct })) }
+}
+
+/** Làm sạch kết quả đọc từ DB (nơi không tin được). Null nếu hỏng. */
+export function parseResult(raw: unknown): PlacementResult | null {
+  if (!raw || typeof raw !== "object") return null
+  const r = raw as Partial<PlacementResult>
+  const skills = {} as Record<PlacementSkill, Level>
+  for (const k of PLACEMENT_SKILLS) {
+    const l = r.skills?.[k] as Partial<Level> | undefined
+    if (!l || typeof l.bac !== "number" || typeof l.n !== "number") return null
+    const bac = Math.min(6, Math.max(0, Math.floor(l.bac)))
+    skills[k] = { bac, label: levelLabel(bac), confidence: l.confidence === "mid" || l.confidence === "high" ? l.confidence : "low", n: l.n }
+  }
+  const ob = typeof r.overall?.bac === "number" ? Math.min(6, Math.max(0, Math.floor(r.overall.bac))) : null
+  if (ob === null) return null
+  const items = Array.isArray(r.items) ? r.items.filter((i): i is PlacementResult["items"][number] => !!i && typeof i.id === "string" && typeof i.correct === "boolean" && PLACEMENT_SKILLS.includes(i.skill)) : []
+  return { skills, overall: { bac: ob, label: levelLabel(ob) }, items }
 }
 
 /** Mã đã gặp và mã từng sai trong các lần làm xong trước (từ `items` của kết quả). Mã bài đọc/nghe gộp từ "bài#k" về mã bài. */
