@@ -25,9 +25,10 @@ const PAGES = [
   { path: "/phong-thu-thach/3", wait: "Bắt đầu tính giờ", name: "thử thách (giới thiệu)" },
   { path: "/phong-thu-thach/3", wait: "Bắt đầu tính giờ", name: "thử thách (đang làm)", act: async (p) => { await p.click("button:has-text('Bắt đầu tính giờ')"); await p.waitForSelector("[role=timer]"); await p.locator("[role=radio]").first().click() } },
   { path: "/quan-ly/noi-dung", wait: "Khu quản lý" },
+  { path: "/cua-hang/phong-trung-bay", wait: "Nhân vật", name: "phòng trưng bày 3D" },
 ]
 
-const browser = await chromium.launch()
+const browser = await chromium.launch({ args: ["--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist", "--enable-webgl"] })
 let total = 0
 for (const skin of SKINS) {
   for (const pg of PAGES) {

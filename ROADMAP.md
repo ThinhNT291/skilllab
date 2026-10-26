@@ -168,3 +168,8 @@ Mọi dạng dưới đây sinh từ bài và câu có sẵn bằng hàm thuần
 
 ### F. Hoãn theo ý chủ dự án
 CAPTCHA + hạn mức chấm Gemini (cần trước khi mở công khai và trước mọi dạng chấm bằng Gemini mới), trang About ghi nguồn + dọn `legacy/`, Shadowing, giáo viên duyệt nội dung hàng loạt, tách tài khoản Vercel/Supabase khi thương mại hóa.
+
+## Nhân vật 3D (bản thử, 26/10/2026)
+- Trang thử `/cua-hang/phong-trung-bay`: 3 nhân vật glTF miễn phí không phải người (Cáo, Robot, Bạn nhỏ), kéo chuột xoay 360° (cảm ứng chỉ xoay ngang), phím mũi tên, zoom, 7 phụ kiện (nơ, mũ, vương miện, kính, kính râm, khăn, huy chương) và 4 đồ trang trí (cây, đèn, thảm, sách). Three.js chỉ nạp ở trang này; lỗi WebGL thì lùi về cú SVG. Mã ở `src/components/game/mascot3d/`; mô hình và giấy phép ở `public/models/` (`CREDITS.md`; Cáo cần ghi nguồn CC BY 4.0).
+- Giới hạn: phụ kiện gắn theo xương và hộp bao nên vừa xấp xỉ, mỗi nhân vật có bảng neo riêng trong `characters.ts`; chưa nối với cửa hàng/`player_items`; chưa thay cú SVG ở nơi khác.
+- Bước sau (chờ chủ dự án chọn): nối với cửa hàng, thay đổi/thêm nhân vật.
