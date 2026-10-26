@@ -111,6 +111,11 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 ## Cập nhật 25/10/2026 (học thuật và động lực)
 - Đã làm 4 mục "học thuật + động lực": thích ứng/ước lượng năng lực, phản hồi lỗi (đáp án ngay hoặc gợi ý trước), xen kẽ + ôn theo ngữ cảnh, động lực không áp lực. Bằng chứng, mức chắc chắn và điều chưa kiểm chứng: `docs/hoc-thuat-dong-luc.md`.
 
+## Việc tiếp theo (đã chốt 26/10/2026)
+- [ ] **Soạn thêm nội dung C2 thật** (Bậc 6): nhiều câu/bài hiện chỉ ở mức C1. Ngữ pháp: thêm mục và câu C2 (notwithstanding sau danh từ, "Be that as it may", đảo ngữ văn chương, mệnh đề nhượng bộ nâng cao, tinh tế về sắc thái/văn phong…), cân lại phân bố `bac` 5/6; đọc và nghe Bậc 6: thêm câu suy luận về thái độ, ngụ ý, giọng điệu thay vì tra chi tiết; từ vựng C2 theo chủ đề. Mỗi đợt có phản biện độc lập.
+- [ ] **Placement cho bậc cao**: mở rộng bậc thang Đọc/Nghe tới Bậc 6 (hiện dừng ở Bậc 4), từ vựng C1/C2, ngữ pháp Bậc 5–6 (hiện `/xep-trinh-do` chưa đo). Cần nhiều bài mỗi bậc để đủ chính xác (hiện 1 bài/bậc). Làm sau khi có thêm nội dung C2.
+- [ ] Từ vựng C1/C2 theo chủ đề (`/tu-vung/chu-de`), người bản ngữ duyệt nội dung Bậc 5–6, đối chiếu nguồn các điểm kiến thức (xem `docs/noi-dung-bac5-6.md`), `npm run content:push`.
+
 ## Cập nhật 30/10/2026 (nội dung Bậc 5–6)
 - Đã thêm nội dung Bậc 5–6 (xem `docs/noi-dung-bac5-6.md`): 9 chuyên đề ngữ pháp C1–C2 (450 câu), 28 bài đọc, 28 bài nghe, từ vựng C1 và C2 (1.238 từ). Có phản biện độc lập nhưng CHƯA có người bản ngữ duyệt. Còn: placement cho bậc cao, từ vựng C1/C2 theo chủ đề, thêm nội dung C2 thật (nhiều câu vẫn ở mức C1), `npm run content:push`.
 

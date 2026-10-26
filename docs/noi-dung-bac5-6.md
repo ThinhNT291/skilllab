@@ -9,7 +9,7 @@ Thêm 25/10–26/10/2026. Quy trình: soạn (agent) → phản biện độc l�
 - **Từ vựng:** C1 (532 từ) và C2 (706 từ) từ English Vocabulary Profile qua `scripts/build-vocab.py c1 c2`, nghĩa tiếng Việt do Claude soạn và qua phản biện (9 sửa, 3 loại); đã loại từ không hợp lứa tuổi.
 
 ## Việc cần người duyệt
-- **Giọng đọc bài nghe:** tên và đại từ người nói đã đổi cho khớp giới tính giọng TTS theo thứ tự xuất hiện (A = Kore nữ, B = Puck nam, C = Zephyr nữ). Cần nghe thử để xác nhận; đổi `VOICES` trong `src/lib/audio/dialogue.ts` thì phải xem lại tên.
+- **Giọng đọc bài nghe:** tên và đại từ người nói đã đổi cho khớp giới tính giọng TTS theo thứ tự xuất hiện (A = Kore nữ, B = Puck nam, C = Zephyr nữ). Chủ dự án đã nghe thử (26/10/2026): tạm ổn. Đổi `VOICES` trong `src/lib/audio/dialogue.ts` thì phải xem lại tên.
 - **Kiến thức cần đối chiếu nguồn:** bài đọc Bậc 5 (saudade, Gutenberg và chữ rời Đông Á, Loftus–Palmer, nấm rễ, "hitting the wall"), bài đọc Bậc 6 (bài 008 chụp ảnh và trí nhớ, 002 sông uốn khúc, 013), `noun-phrases-advanced` (Huế, Fuji).
 - **Độ khó C2 chưa thật đủ:** nhiều câu đọc/nghe Bậc 6 chỉ tra chi tiết; nhiều câu ngữ pháp gắn bậc 5 nhiều hơn bậc 6; `noun-phrases-advanced` và `discourse-linking-advanced` thực chất thiên B2–C1. Muốn nhiều C2 thật thì cần soạn thêm (notwithstanding sau danh từ, "Be that as it may"…), không nâng nhãn.
 - **Tranh cãi Anh-Mỹ/Anh-Anh:** `whilst`, `daren't`, `shall I`, `than I/than me`, "who/whom", `get owned` (tiếng lóng), litotes (`not a little surprised`).
