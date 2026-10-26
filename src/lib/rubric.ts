@@ -23,6 +23,8 @@ export const CRITERIA = {
   ],
 } as const
 
+/** Phiên bản lời nhắc chấm; đổi khi sửa `buildGradingPrompt` để so sánh kết quả giữa các phiên bản (scripts/grade-eval.mjs). */
+export const GRADING_PROMPT_VERSION = "grading-v2"
 export const MAX_PER_CRITERION = 4
 export const MAX_WRITING_CHARS = 1500
 /** Dưới mức này thì bài quá ngắn để chấm có ý nghĩa. */

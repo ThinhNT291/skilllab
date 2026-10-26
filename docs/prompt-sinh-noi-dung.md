@@ -211,7 +211,12 @@ Giải mù cho đọc/nghe: mô hình trả lời 4 câu **chỉ dựa vào đo�
 - **Bài kiểm hiểu (trắc nghiệm, chấm bằng mã):** loại đang có (`/doc`, `/nghe`), dùng cho luyện, xếp trình độ, Phòng thử thách.
 - **Đầu vào dễ hiểu (Comprehensible Input), câu hỏi mở không bắt buộc:** loại của prompt 2 và 3. Chưa có trong app. Rất hợp với **luồng "một con đường"**: một khối thư giãn cuối bài hôm nay, đọc/nghe vì thú vị, không áp lực, không tính điểm. Câu hỏi mở dùng `modelAnswer` để **tự đối chiếu** (người học gõ rồi xem đáp án mẫu), nên **không tốn chi phí chấm AI** và không cần hạn mức. Khi làm: nâng từ 5 cấp lên Bậc 1–6, thêm kiểm từ vựng (10.5), tăng đa dạng thể loại, mã đặt id.
 
-### 10.7 Việc tiếp theo cho phần lời nhắc
-1. ~~Viết `scripts/check-text-level.mjs`~~ (xong, mục 10.5).
-2. Chuyển các khuôn ở mục 4, 5, 10.4 thành tệp trong `src/lib/ai/prompts/` có phiên bản; viết `scripts/gen-items.mjs` và `scripts/review-items.mjs` (chạy ở máy chủ dự án với khóa của chủ dự án).
-3. Soạn lời nhắc cho ngân hàng placement tổng hợp (bản vẽ mục 7) khi làm bài xếp trình độ 30–40 câu.
+### 10.7 Trạng thái phần lời nhắc và script (26/10/2026)
+**Đã có (đã thử bằng máy chủ Gemini giả, CHƯA thử với Gemini thật, nên chưa biết chất lượng câu sinh ra):**
+- `npm run check:text-level`: rà độ khó từ vựng và độ dài bài đọc/nghe (mục 10.5).
+- `scripts/gen-items.mjs`: sinh câu ngữ pháp theo khuôn mục 4 (đưa danh sách câu cũ vào lời nhắc; mã kiểm tra cấu trúc, ký hiệu markdown, đáp án trùng, bốn lời giải thích "Đúng —"/"Sai —", chỉ một đáp án chấp nhận được do mô hình tự xác nhận; loại câu trùng/gần trùng; vị trí đáp án đúng rải đều cả lô bằng mã; mã câu nối tiếp). Ghi `tmp/gen/*.json`, KHÔNG ghi vào `src/content`. Lời nhắc có phiên bản `grammar-items-v1` (`src/lib/ai/prompts/grammar-items.ts`).
+- `scripts/review-items.mjs`: giải mù (mục 5), có thể chạy nhiều lần độc lập (`--runs`); câu phải qua tất cả các lần. Ghi `*.reviewed.json` và `*.passed.json`.
+- `scripts/grade-eval.mjs` + `eval/` : đo độ khớp điểm máy chấm Viết với điểm người chấm trên bộ mẫu (khớp hoàn toàn, lệch ≤1, độ lệch, kappa), có phiên bản lời nhắc chấm `grading-v2`. **Chờ bộ mẫu ~30 bài do giáo viên chấm** (`eval/README.md`); chưa có bài nào thật.
+- Cách dùng: đặt `GEMINI_API_KEY` (và `GEMINI_TEXT_MODEL` sau khi đối chiếu mã mô hình hiện hành trên ai.google.dev) trong `.env.local`, rồi `node scripts/gen-items.mjs --topic present-simple --bac 3 --n 10` → `node scripts/review-items.mjs tmp/gen/<tệp>` → người duyệt mẫu → tự gộp vào `src/content/exercises/en/<chuyên đề>.json` → `node scripts/build-item-meta.mjs`, `npm run check:content`, `npm test`.
+
+**Chưa làm:** khuôn sinh bài đọc/nghe (mục 10.4) và từ vựng thành script; lời nhắc sinh ngân hàng placement riêng; lưu `promptVersion` cùng kết quả chấm trong `graded_attempts.detail`; các cải tiến lời nhắc chấm Viết/Nói ở mục 8 (chỉ đo được sau khi có bộ mẫu).
