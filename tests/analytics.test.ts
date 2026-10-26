@@ -123,3 +123,15 @@ test("tỷ lệ đúng theo tuần từ bộ đếm ngày bằng cách tính t�
   assert.equal(big[2].attempts, 5000)
   assert.equal(big[2].correct, 4000)
 })
+
+test("so bộ đếm đang lưu với số đếm đúng: thiếu, sai số, thừa", async () => {
+  const { diffDaily } = await import("../src/lib/analytics/rebuild.ts")
+  const row = (p: string, day: string, answers: number, correct: number) => ({ profile_id: p, day, answers, correct })
+  const truth = [row("a", "2026-10-25", 3, 2), row("a", "2026-10-26", 1, 1), row("b", "2026-10-26", 2, 0)]
+  const stored = [row("a", "2026-10-25", 3, 2), row("a", "2026-10-26", 2, 1), row("c", "2026-10-01", 5, 5)]
+  const d = diffDaily(truth, stored)
+  assert.deepEqual(d.missing, [row("b", "2026-10-26", 2, 0)])
+  assert.deepEqual(d.wrong, [row("a", "2026-10-26", 1, 1)])
+  assert.deepEqual(d.extra, [row("c", "2026-10-01", 5, 5)])
+  assert.deepEqual(diffDaily(truth, truth), { missing: [], wrong: [], extra: [] })
+})
