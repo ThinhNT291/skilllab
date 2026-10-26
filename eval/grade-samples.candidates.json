@@ -1,0 +1,212 @@
+[
+ {
+  "id": "m01",
+  "skill": "writing",
+  "task": "Describe your best friend. What does he or she look like, and why do you like him or her?",
+  "targetBac": 2,
+  "text": "My best friend name is Nam. He is tall and he have short hair. I like him because he is kind and he help me."
+ },
+ {
+  "id": "m02",
+  "skill": "writing",
+  "task": "Describe a normal school day. What do you do in the morning, at school, and in the evening?",
+  "targetBac": 2,
+  "text": "My school day starts early. I usually get up at six, eat a quick breakfast and cycle to school with my friend. In the morning I have four lessons, and my favourite one is English. After school I have a nap, then I do my homework before dinner. Before bed I read a book for half an hour."
+ },
+ {
+  "id": "m03",
+  "skill": "writing",
+  "task": "Describe a normal school day. What do you do in the morning, at school, and in the evening?",
+  "targetBac": 2,
+  "text": "I wake up at six. I go school by bike. I eat lunch at school. In the evening I do homework and watch TV. I go to bed at ten."
+ },
+ {
+  "id": "m04",
+  "skill": "writing",
+  "task": "Introduce yourself: your name, your age, where you live, and one thing you like.",
+  "targetBac": 1,
+  "text": "Hi! My name is Hoa and I am eleven years old. I live in Hue, a beautiful city near the river. I like drawing because it makes me happy."
+ },
+ {
+  "id": "m05",
+  "skill": "writing",
+  "task": "Some people think students should not bring phones to school. Do you agree or disagree? Give reasons and examples.",
+  "targetBac": 4,
+  "text": "Although phones can be distracting, I believe students should be allowed to bring them to school. First, they are a powerful learning tool: for example, I use a dictionary app every day to check new words. Second, phones keep students safe, since parents can reach them if plans change. Of course, there must be clear rules, such as keeping phones in bags during lessons, so that everyone can concentrate."
+ },
+ {
+  "id": "m06",
+  "skill": "writing",
+  "task": "Write about your family. Who is in your family and what do they do?",
+  "targetBac": 1,
+  "text": "I live with my parents and my younger brother. My dad is an engineer, and he often fixes our bikes at weekends. My mom is a teacher at a primary school. My brother is six, and he loves dinosaurs."
+ },
+ {
+  "id": "m07",
+  "skill": "writing",
+  "task": "What do you want to be in the future, and what will you do to reach this goal?",
+  "targetBac": 3,
+  "text": "I want to be a doctor because I want help people. I will study hard. I will learn English too."
+ },
+ {
+  "id": "m08",
+  "skill": "writing",
+  "task": "What do you want to be in the future, and what will you do to reach this goal?",
+  "targetBac": 3,
+  "text": "I would like to become a vet one day, because I love animals and I hate seeing them suffer. To get there, I must do well in science at school and then study veterinary medicine at university. In the meantime, I am going to volunteer at an animal shelter at weekends, so I can learn how to look after different kinds of pets."
+ },
+ {
+  "id": "m09",
+  "skill": "writing",
+  "task": "Describe a trip you remember well. Where did you go, what happened, and how did you feel?",
+  "targetBac": 4,
+  "text": "Last summer I went to Ha Long Bay with my family. We took a boat and visited a big cave. The water was green and there were many small islands. We also swam and ate fresh seafood. I felt amazed because I had never seen such a beautiful place."
+ },
+ {
+  "id": "m10",
+  "skill": "writing",
+  "task": "Write about your family. Who is in your family and what do they do?",
+  "targetBac": 1,
+  "text": "There are five people in my family: my parents, my sister, my grandmother and me. My father is a driver and my mother works in a shop. My sister is a student."
+ },
+ {
+  "id": "m11",
+  "skill": "writing",
+  "task": "What did you do last weekend? Write about two or three things.",
+  "targetBac": 2,
+  "text": "Last weekend was great. On Saturday I went to the cinema with my best friend and we watched an animated film. It was so funny that we laughed all the time. On Sunday I stayed at home, tidied my room and finished my science project."
+ },
+ {
+  "id": "m12",
+  "skill": "writing",
+  "task": "Introduce yourself: your name, your age, where you live, and one thing you like.",
+  "targetBac": 1,
+  "text": "Hello, my name is Minh. I am ten years old. I live in Da Nang with my family. I like playing football."
+ },
+ {
+  "id": "m13",
+  "skill": "writing",
+  "task": "What did you do last weekend? Write about two or three things.",
+  "targetBac": 2,
+  "text": "Last weekend I go to my grandmother house. I eat many food. I play with my cousin. It is fun."
+ },
+ {
+  "id": "m14",
+  "skill": "writing",
+  "task": "Introduce yourself: your name, your age, where you live, and one thing you like.",
+  "targetBac": 1,
+  "text": "My name Lan. I am twelve. I live Ha Noi. I like cat."
+ },
+ {
+  "id": "m15",
+  "skill": "writing",
+  "task": "Some people think students should not bring phones to school. Do you agree or disagree? Give reasons and examples.",
+  "targetBac": 4,
+  "text": "I disagree. Phone is useful. We can use it study. Teacher say not use phone but I think it is good. Also parents can call us."
+ },
+ {
+  "id": "m16",
+  "skill": "writing",
+  "task": "Describe your best friend. What does he or she look like, and why do you like him or her?",
+  "targetBac": 2,
+  "text": "My best friend is Linh. She is quite tall, with long black hair and a big smile. She is funny and generous, so everybody likes her. I like her most because she listens carefully when I have a problem, and she never laughs at my mistakes."
+ },
+ {
+  "id": "m17",
+  "skill": "writing",
+  "task": "Write an email to a friend. Invite him or her to your birthday party. Say when and where it is and what you will do.",
+  "targetBac": 3,
+  "text": "Hi Lan, I will have a birthday party. It is on Saturday. At my house. Please come. We will eat cake and play game. Bye"
+ },
+ {
+  "id": "m18",
+  "skill": "writing",
+  "task": "Some people think students should not bring phones to school. Do you agree or disagree? Give reasons and examples.",
+  "targetBac": 4,
+  "text": "I disagree with the idea that students should not bring phones to school. Firstly, phones are useful for studying because we can look up words and find information quickly. Secondly, parents can contact their children in an emergency. However, students should turn them off during lessons."
+ },
+ {
+  "id": "m19",
+  "skill": "writing",
+  "task": "Write about a hobby you enjoy. When did you start it, and why do you like it?",
+  "targetBac": 3,
+  "text": "My hobby is play guitar. I start it when I am ten. I like it because it is nice and I feel happy. I play every day."
+ },
+ {
+  "id": "m20",
+  "skill": "writing",
+  "task": "Describe your best friend. What does he or she look like, and why do you like him or her?",
+  "targetBac": 2,
+  "text": "My best friend is Linh. She is short and has long black hair. She is funny and very kind. I like her because she always helps me with my homework and we play together at break time."
+ },
+ {
+  "id": "m21",
+  "skill": "writing",
+  "task": "Write an email to a friend. Invite him or her to your birthday party. Say when and where it is and what you will do.",
+  "targetBac": 3,
+  "text": "Dear Lan, I'm writing to invite you to my birthday party. It will be at my house at 3 p.m. next Saturday, 14th. We're going to have a barbecue in the garden, and then we will play some board games. My mom is baking a chocolate cake! Could you let me know by Thursday if you can come? I really hope you can make it. Best wishes, Minh"
+ },
+ {
+  "id": "m22",
+  "skill": "writing",
+  "task": "What do you want to be in the future, and what will you do to reach this goal?",
+  "targetBac": 3,
+  "text": "In the future I want to be a doctor because I want to help sick people. To reach this goal, I will study hard, especially biology and English. I will also read books about medicine and join a first-aid club at school."
+ },
+ {
+  "id": "m23",
+  "skill": "writing",
+  "task": "Write about a hobby you enjoy. When did you start it, and why do you like it?",
+  "targetBac": 3,
+  "text": "I enjoy playing the guitar. I started two years ago when my uncle gave me an old guitar. At first it was difficult, but now I can play some easy songs. I like it because it helps me relax after school."
+ },
+ {
+  "id": "m24",
+  "skill": "writing",
+  "task": "Describe a normal school day. What do you do in the morning, at school, and in the evening?",
+  "targetBac": 2,
+  "text": "On a normal school day, I get up at 6 o'clock and have breakfast with my family. Then I go to school by bus. I have lessons in the morning and I eat lunch in the canteen. In the evening, I do my homework and sometimes I play games."
+ },
+ {
+  "id": "m25",
+  "skill": "writing",
+  "task": "Describe a trip you remember well. Where did you go, what happened, and how did you feel?",
+  "targetBac": 4,
+  "text": "The trip I remember best was to Sa Pa two years ago. We took a night train, and when I woke up, the mountains were covered in mist. During the trek, I slipped on the wet path and my little sister laughed so hard that I started laughing too. In the evening we had hot soup in a tiny village house. I felt tired but incredibly happy, and I still look at the photos whenever I miss that weekend."
+ },
+ {
+  "id": "m26",
+  "skill": "writing",
+  "task": "Write about a hobby you enjoy. When did you start it, and why do you like it?",
+  "targetBac": 3,
+  "text": "My favourite hobby is photography. I began taking photos three years ago, when my dad lent me his old camera. Since then I have taken hundreds of pictures of animals and street life. What I enjoy most is that every photo tells a small story, and it makes me notice beautiful things that other people might miss."
+ },
+ {
+  "id": "m27",
+  "skill": "writing",
+  "task": "Describe a trip you remember well. Where did you go, what happened, and how did you feel?",
+  "targetBac": 4,
+  "text": "I remember trip to Ha Long Bay. We go by bus. The sea is beautiful. We eat seafood and swim. I feel very happy. It is a good trip."
+ },
+ {
+  "id": "m28",
+  "skill": "writing",
+  "task": "Write an email to a friend. Invite him or her to your birthday party. Say when and where it is and what you will do.",
+  "targetBac": 3,
+  "text": "Hi Lan, I am having a birthday party next Saturday at 3 p.m. at my house. We will eat cake, play games and listen to music. Can you come? Please tell me before Thursday. See you soon! Minh"
+ },
+ {
+  "id": "m29",
+  "skill": "writing",
+  "task": "What did you do last weekend? Write about two or three things.",
+  "targetBac": 2,
+  "text": "Last weekend I visited my grandparents in the countryside. We cooked dinner together and I helped my grandma in the garden. On Sunday I played badminton with my cousins. I was very happy."
+ },
+ {
+  "id": "m30",
+  "skill": "writing",
+  "task": "Write about your family. Who is in your family and what do they do?",
+  "targetBac": 1,
+  "text": "My family have four people. My father is teacher. My mother is nurse. I have a brother."
+ }
+]
