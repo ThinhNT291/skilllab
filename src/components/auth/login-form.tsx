@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { useRouter, useSearchParams } from "next/navigation"
+import { useSearchParams } from "next/navigation"
 import Link from "next/link"
 import { signInWithGoogle, signInWithUsername } from "@/lib/db"
 
@@ -21,7 +21,6 @@ const MESSAGES: Record<string, string> = {
 }
 
 export function LoginForm() {
-  const router = useRouter()
   const params = useSearchParams()
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
@@ -39,8 +38,8 @@ export function LoginForm() {
       setBusy(false)
       return
     }
-    router.push(safeRedirect(params.get("redirect")))
-    router.refresh()
+    // Tải lại trang hẳn (không điều hướng mềm) để thanh trên cùng, hồ sơ và mọi dữ liệu theo phiên đều lấy lại theo tài khoản mới.
+    window.location.assign(safeRedirect(params.get("redirect")))
   }
 
   return (
