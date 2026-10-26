@@ -145,7 +145,8 @@ Nguyên tắc xếp: việc chặn người dùng thật trước, rồi nền n
 3. [ ] Cụm từ kết hợp (collocations) thêm bộ; từ vựng C1/C2 theo chủ đề.
 4. [ ] Đề Viết/Nói thêm (hiện Viết 12 đề bậc 1–4): thêm bậc 5–6 và đề theo chủ điểm lớp 4–9.
 5. [ ] Nội dung C2 thật; mở rộng ngân hàng xếp trình độ (`reserved.json`) cho bậc 5–6 và cho Đọc/Nghe nhiều bài mỗi bậc.
-6. [ ] Người bản ngữ/giáo viên duyệt: nghĩa Việt từ vựng, bài đọc/nghe, nội dung Bậc 5–6.
+6. [ ] **Sinh/duyệt/gộp nội dung trên giao diện quản trị** (`/quan-ly/noi-dung`, thiết kế ở `docs/quan-ly-noi-dung-tren-giao-dien.md`; giai đoạn A: bảng nháp, duyệt, thống kê tỷ lệ, xuất JSON; giai đoạn B = đọc nội dung từ DB). Làm sau Lộ trình bước đầu.
+7. [ ] Người bản ngữ/giáo viên duyệt: nghĩa Việt từ vựng, bài đọc/nghe, nội dung Bậc 5–6.
 
 ### C. Lộ trình một con đường + Phòng thử thách (sau B1–B2)
 Thiết kế đã chốt ở `docs/lo-trinh-va-xep-bac.md` (chưa xây): bảng nấc/tiến độ nấc, mở nấc khi làm hết bài, thử sức nấc cao hơn, trang `/lo-trinh`, Phòng thử thách tính giờ, đề xuất nâng/hạ bậc, kỹ năng yếu nhất đẩy nhiều hơn khi chọn bài.
