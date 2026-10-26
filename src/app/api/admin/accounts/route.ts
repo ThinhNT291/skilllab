@@ -6,18 +6,21 @@ import { createClient as createServerClient } from "@/lib/supabase/server"
 import { getCaller } from "@/lib/auth/server"
 import { accountEmail, normalizeUsername } from "@/lib/auth/roles"
 import { generatePassword } from "@/lib/auth/password"
+import { confirmMatches, expandScopes, tablesFor } from "@/lib/auth/reset"
 
 /** ~100 năm: coi như khóa vô thời hạn; mở khóa bằng "none". */
 const LOCK_FOR = "876000h"
 
 type Body = {
-  action?: "create" | "reset_password" | "lock" | "unlock" | "update"
+  action?: "create" | "reset_password" | "lock" | "unlock" | "update" | "reset_data"
   adminPassword?: string
   id?: string
   username?: string
   nickname?: string
   role?: string
   classId?: string
+  scopes?: string[]
+  confirm?: string
 }
 
 const fail = (code: string, status = 400) => NextResponse.json({ error: code }, { status })
@@ -28,6 +31,7 @@ const fail = (code: string, status = 400) => NextResponse.json({ error: code }, 
  *  - reset_password: sinh mật khẩu tạm mới, bắt đổi lại.
  *  - lock / unlock: khóa/mở khóa đăng nhập (giữ nguyên dữ liệu học tập).
  *  - update: đổi biệt danh, đổi giữa học sinh và giáo viên.
+ *  - reset_data: xóa dữ liệu học tập của MỘT học sinh theo phạm vi (câu trả lời, thẻ ôn, kiểm tra, điểm Viết/Nói, đồ, xếp trình độ); phải gõ lại tên đăng nhập để xác nhận; không đụng tài khoản đăng nhập.
  * Quản trị mới chỉ tạo bằng scripts/create-admin.mjs, không qua API này. Mọi thao tác (kể cả bị từ chối) ghi vào audit_log.
  */
 export async function POST(req: Request) {
@@ -120,6 +124,25 @@ export async function POST(req: Request) {
     await admin.from("profiles").update({ disabled_at: b.action === "lock" ? new Date().toISOString() : null }).eq("id", target.id)
     await audit(b.action === "lock" ? "account_lock" : "account_unlock", target.id, { username: target.username })
     return NextResponse.json({ ok: true })
+  }
+
+  if (b.action === "reset_data") {
+    if (target.role !== "student") return refuse("not_student", 400, target.id)
+    const scopes = expandScopes(b.scopes)
+    if (scopes.length === 0) return refuse("bad_scope", 400, target.id)
+    if (!confirmMatches(b.confirm, target.username)) return refuse("confirm_mismatch", 400, target.id)
+    const counts: Record<string, number | null> = {}
+    for (const table of tablesFor(scopes)) {
+      const { error, count } = await admin.from(table).delete({ count: "exact" }).eq("profile_id", target.id)
+      // Bảng chưa tạo (chưa chạy migration tương ứng) thì không có gì để xóa; lỗi khác dừng lại và báo.
+      if (error && !/does not exist|schema cache|could not find/i.test(error.message)) {
+        await audit("data_reset_failed", target.id, { scopes, table, message: error.message, done: counts })
+        return fail("reset_data_failed", 500)
+      }
+      counts[table] = error ? null : count
+    }
+    await audit("data_reset", target.id, { username: target.username, scopes, deleted: counts })
+    return NextResponse.json({ ok: true, deleted: counts })
   }
 
   if (b.action === "update") {
