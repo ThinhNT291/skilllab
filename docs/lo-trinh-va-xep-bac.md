@@ -1,6 +1,6 @@
 # Lộ trình một con đường, phòng thử thách và cách xếp bậc
 
-Tài liệu thiết kế (thảo luận 26/10/2026). Mục **ĐÃ CHỐT** là quyết định của chủ dự án; mục **ĐỀ XUẤT** là điểm xuất phát, con số chưa có bằng chứng, cần chỉnh bằng dữ liệu học sinh thật. Chưa có dòng nào trong tài liệu này được xây.
+Tài liệu thiết kế (thảo luận 26/10/2026). Mục **ĐÃ CHỐT** là quyết định của chủ dự án; mục **ĐỀ XUẤT** là cách làm chưa xây. Các **con số** (ngưỡng, trọng số, số câu/ngày…) đã được chủ dự án đồng ý làm **giá trị khởi điểm**, không có bằng chứng khoa học, và phải xem lại sau 1 tháng có dữ liệu học sinh thật (mục 11). Đã xây: script đo chất lượng câu (mục 7). Phần còn lại chưa xây.
 
 ## 1. Vấn đề cần giải quyết
 
@@ -39,7 +39,7 @@ Hệ quả thiết kế: một bài thử thách tệ KHÔNG tự hạ bậc. N�
 
 ### 3.3 Hiển thị kèm khung chuẩn
 - Mọi chỗ hiện Bậc đều kèm CEFR (đã kiểm chứng ở `docs/quy-doi-thang.md` mục 1; `src/lib/content/bac.ts`).
-- **VSTEP:** chỉ dùng làm khuôn đề cho Phòng thử thách (bốn kỹ năng, tính giờ), KHÔNG quy đổi ra điểm VSTEP hay chứng chỉ nào. Lý do: văn bản hiện hành (Thông tư 33/2026) không có bảng quy đổi chứng chỉ, và thang điểm VSTEP chưa được đối chiếu (`docs/quy-doi-thang.md` mục 2, `docs/khung-cefr-vstep.md`). Nếu muốn quy đổi, chủ dự án đưa tài liệu chính thức vào `reference/` để đối chiếu trước.
+- **Chứng chỉ (IELTS, TOEFL, VSTEP, Cambridge…): BỎ HẲN việc quy đổi** (chủ dự án chốt 26/10/2026: văn bản nhà nước không có bảng quy đổi, tìm không ra). Không ghi điểm quy đổi ở bất kỳ đâu. VSTEP chỉ còn là gợi ý cấu trúc đề (bốn kỹ năng, tính giờ) cho Phòng thử thách. Chỉ giữ Bậc ↔ CEFR đã kiểm chứng.
 - Luôn ghi: "Bậc do máy ước lượng, tham khảo, không phải kết quả thi".
 
 ### 3.4 Độ tin cậy của câu hỏi (ĐỀ XUẤT)
@@ -61,14 +61,14 @@ Làm hết các bài của nấc thì nấc kế mở. Học sinh luôn thấy m
 - Thử sức KHÔNG đổi bậc. Câu trả lời đi vào Elo như luyện thường, và bậc chỉ nhảy theo mục 5. Nhờ đó thử sức không thành đường tắt lên bậc.
 - Thất bại không mất gì: bài chưa đạt làm lại được, câu sai thành thẻ ôn như thường.
 
-Tham số ĐỀ XUẤT (cần bạn chốt):
+Tham số khởi điểm (đã đồng ý, xem lại sau 1 tháng):
 - "Làm được" một bài = đúng từ **70%** (thấp hơn ngưỡng 80% của bài kiểm tra cuối chủ điểm vì đây là bài luyện; ngưỡng chọn theo thiết kế, không lấy từ nguồn nào).
 - Chỉ cho thử sức tối đa **2 nấc** phía trên nấc cao nhất đang mở, để học sinh bậc 1 không thử thẳng Bậc 6.
 - Bài làm lại phải bốc câu khác (không nhớ đáp án), dùng cơ chế bốc câu hiện có.
 
 Rủi ro cần theo dõi: học sinh đoán mò để mở khóa. Giảm nhẹ bằng cách bốc câu khác mỗi lần và dùng tỷ lệ đúng thật đi vào Elo; nếu thử sức xong mà Elo thấp hơn nhiều so với nấc, hiển thị gợi ý "nên ôn các nấc bị bỏ qua".
 
-## 5. Nhảy bậc chậm (ĐỀ XUẤT)
+## 5. Nhảy bậc chậm (số liệu khởi điểm)
 
 Bậc là thanh tiến độ liên tục. Chặng nhích hằng ngày; **nhảy sang bậc kế** chỉ khi đồng thời đủ ba điều kiện:
 
@@ -91,7 +91,7 @@ Giữ mục tiêu hằng ngày 5/10/20/30 câu như hiện có. Một bài hôm 
 3. Củng cố: câu sai hôm nay thành thẻ và hiện lại một lần.
 4. Thưởng (tùy chọn): một game 60 giây đúng nội dung vừa học.
 
-### 6.2 Đẩy kỹ năng yếu nhất (ĐÃ CHỐT hướng, ĐỀ XUẤT con số)
+### 6.2 Đẩy kỹ năng yếu nhất (ĐÃ CHỐT hướng; con số khởi điểm)
 Khi chọn bài chính, bài luyện, game và thẻ ôn, kỹ năng có Elo thấp nhất trong bốn kỹ năng được **trọng số 1,5** so với 1,0 của các kỹ năng còn lại ("đẩy hơn một chút", không dồn hết). Giới hạn trên: không quá khoảng 40% số bài trong ngày. Kỹ năng ở mức tin cậy thấp không được tính là "yếu nhất" (tránh đẩy theo nhiễu). Cách chọn nên là hàm thuần có test.
 
 ### 6.3 Module "hoa lá" kết nối ra sao
@@ -109,7 +109,7 @@ Quy tắc chung: Lộ trình chỉ **gợi ý** phần tùy chọn bằng một 
 
 | Bước | Việc | Cần làm gì |
 |---|---|---|
-| Đo | Báo cáo từng câu: số lượt, tỷ lệ đúng, so với dự đoán từ nhãn; đánh dấu "nhãn khó mà ai cũng đúng" và ngược lại | Viết `scripts/item-report.mjs` (kiểu `srs-report.mjs`) đọc bảng `answers`; chạy được ngay cả khi ít dữ liệu |
+| Đo | Báo cáo từng câu: số lượt, tỷ lệ đúng, so với dự đoán từ nhãn; đánh dấu "nhãn khó mà ai cũng đúng" và ngược lại | **ĐÃ CÓ:** `npm run report:items` (`scripts/item-report.mjs`, logic ở `src/lib/analytics/item-quality.ts`, có test). Dự kiến theo năng lực học sinh ngay trước lượt đó; gom được theo nhóm (chủ đề · dạng câu). Cờ: dễ hơn nhãn, khó hơn nhãn (lệch > 15 điểm %, ≥ 30 lượt và ≥ 8 học sinh), dưới mức đoán mò (<25%). Cần Supabase thật và `.env.local`; chưa chạy thử trên dữ liệu thật |
 | Duyệt | Người xem danh sách câu bị đánh dấu rồi sửa JSON | Sửa dữ liệu, sinh lại `items.json` bằng `scripts/build-item-meta.mjs` |
 | Hiệu chỉnh tự động | Độ khó thực của câu cập nhật dần từ dữ liệu | Chỉ làm sau khi đủ dữ liệu (ước tính vài chục lượt/câu); chưa làm |
 
@@ -117,7 +117,7 @@ Không tự đổi nhãn khi chưa có người duyệt, để không làm trôi
 
 Việc nhỏ cho từ vựng, làm cùng đợt: chọn đáp án nhiễu gần nghĩa/cùng chủ đề, cho độ khó phụ thuộc dạng câu (nghĩa tiếng Việt dễ hơn đọc nghĩa tiếng Anh), tăng số câu mỗi cấp trong bài xếp trình độ và cho dừng sớm khi kết quả rõ.
 
-## 8. Dữ liệu cần thêm (ĐỀ XUẤT)
+## 8. Dữ liệu cần thêm (ĐỀ XUẤT, chưa xây)
 - Bảng `path_progress` (khóa theo `profile_id`, mã nấc, trạng thái, cách mở, thời điểm): migration mới; tuân CLAUDE.md 3b (Postgres thuần, qua lớp `src/lib/db`).
 - Cột/nhãn `mode` ('practice' | 'test') ở bảng `answers` hoặc bảng ghi riêng cho Phòng thử thách.
 - Bảng định nghĩa nấc và bài: bắt đầu bằng tệp JSON trong repo (như nội dung), có validator `check:content`.
@@ -131,6 +131,17 @@ Việc nhỏ cho từ vựng, làm cùng đợt: chọn đáp án nhiễu gần 
 6. Giao diện và đồ họa (sau cùng).
 
 ## 10. Câu hỏi còn mở
-- Ngưỡng "làm được một bài" 70% và giới hạn thử sức tối đa 2 nấc có hợp lý không?
-- Số chặng mỗi bậc (khởi điểm 5) và số câu/số ngày tối thiểu cho nhảy bậc.
 - Có cho giáo viên thấy nấc "bỏ qua" của học sinh không (liên quan `docs/phan-quyen.md`)?
+
+## 11. Việc cần xem lại khi có dữ liệu thật (hẹn: khoảng 26/11/2026, 1 tháng sau khi có học sinh dùng)
+Chạy `npm run report:items` và `node scripts/srs-report.mjs`, rồi chỉnh theo số liệu. Dưới ~1.000 lượt trả lời hoặc ~8 học sinh thì số liệu chưa đủ; hoãn thêm đến khi đủ.
+- [ ] Nhãn `bac`/`difficulty` của câu: duyệt các câu bị đánh dấu và các nhóm (chủ đề · dạng câu) lệch, sửa JSON, chạy `node scripts/build-item-meta.mjs`. Đặc biệt kiểm từ vựng B2 và dạng câu "nghĩa tiếng Việt".
+- [ ] Ngưỡng cờ (`MIN_ATTEMPTS`=30, `MIN_LEARNERS`=8, `FLAG_GAP`=0,15, `BELOW_GUESS`=0,25 ở `item-quality.ts`): nhiều quá hay ít quá cờ?
+- [ ] Hằng số Elo (`ability.ts`: K, `TARGET_SUCCESS`=0,8, `BAC_STEP`=200, `DIFF_STEP`=40, `START_RATING`): bậc ước lượng có khớp cảm nhận của giáo viên không?
+- [ ] Ngưỡng bài "làm được" 70% và giới hạn thử sức 2 nấc: có học sinh đoán mò để mở khóa không?
+- [ ] Điều kiện nhảy bậc (40–60 câu, 80% đúng, ≥3 ngày, thẻ còn nhớ): nhảy quá chậm hay quá nhanh?
+- [ ] Số chặng mỗi bậc (khởi điểm 5).
+- [ ] Trọng số kỹ năng yếu 1,5 và trần 40% mỗi ngày.
+- [ ] Số câu và dừng sớm của bài xếp trình độ từ vựng.
+- [ ] Ngưỡng 80% bài kiểm tra cuối chủ điểm và các mức khác của `docs/hoc-thuat-dong-luc.md` ("Chưa làm / cần dữ liệu thật").
+(Phần Lộ trình/Phòng thử thách chưa xây thì chưa có dữ liệu cho các mục tương ứng; khi xây xong mới đo.)

@@ -64,7 +64,7 @@ export function itemOfAnswer(a: AnswerForAbility, meta: ItemMeta): number | null
   return n >= 1 && n <= 6 ? itemRating(n) : null
 }
 
-function kFactor(n: number): number {
+export function kFactor(n: number): number {
   return n < 15 ? 40 : n < 40 ? 24 : 14
 }
 
