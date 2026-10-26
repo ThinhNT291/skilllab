@@ -1,20 +1,15 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useMemo } from "react"
 import Link from "next/link"
-import { getPathResults, getPathStart, getPlacementOverview, getRecentTopicRows, raisePathStart, type PathStart } from "@/lib/db"
 import { levelLabel } from "@/lib/content/bac"
-import { vnDayKey } from "@/lib/analytics/activity"
-import { parseResult } from "@/lib/placement/full"
 import { KIND_LABEL, STEPS_PER_BAC, type PathStep } from "@/lib/path/catalog"
 import { pickToday, skillWeights, weakestSkill } from "@/lib/path/focus"
-import { rowsByBac, type GateAnswer } from "@/lib/path/gate"
-import { jumpReadinessAt, type JumpReadiness } from "@/lib/path/jump"
-import { computePath, lessonPassed, nextLesson, skippedSteps, type LessonResult, type StepState } from "@/lib/path/progress"
-import { bestStart, startFromPlacement, startIndexOf, startOrder } from "@/lib/path/start"
-import type { ItemMeta } from "@/lib/progress/ability"
+import type { JumpReadiness } from "@/lib/path/jump"
+import { lessonPassed, skippedSteps, type LessonResult, type StepState } from "@/lib/path/progress"
+import { startOrder } from "@/lib/path/start"
 import { useProfile } from "@/components/progress/use-profile"
-import itemMeta from "@/content/meta/items.json"
+import { usePathState } from "./use-path-state"
 
 const BTN = "inline-block rounded-game border-b-[5px] border-primary-deep bg-primary px-5 py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2"
 const TODAY_COUNT = 4
@@ -42,43 +37,9 @@ const SOURCE_TEXT = { placement: "theo bài xếp trình độ", leap: "nhờ b�
 
 /** Bản đồ Lộ trình: nấc hiện tại, bài hôm nay, các nấc theo bậc. Trạng thái tính lại từ kết quả từng bài (`lib/path/progress.ts`). */
 export function PathView({ path }: { path: PathStep[] }) {
-  const [results, setResults] = useState<Map<string, LessonResult> | null>(null)
-  const [start, setStart] = useState<PathStart | null>(null)
-  const [answers, setAnswers] = useState<GateAnswer[]>([])
-  const [error, setError] = useState<string | null>(null)
+  const { loading, error, results: map, start, readiness, state, next } = usePathState(path)
   const profile = useProfile()
 
-  useEffect(() => {
-    let cancelled = false
-    Promise.all([getPathResults(), getPathStart(), getPlacementOverview(), getRecentTopicRows(1000)]).then(([res, saved, placement, rows]) => {
-      if (cancelled) return
-      if (res.ok) setResults(res.results)
-      else {
-        setResults(new Map())
-        if (res.reason === "error") setError(res.message ?? "lỗi không rõ")
-      }
-      if (rows.ok) setAnswers(rows.rows)
-      // Điểm bắt đầu: cao nhất giữa điểm đã lưu và bài xếp trình độ gần nhất (chỉ tăng, không hạ).
-      const placed = placement.ok && placement.completed[0] ? parseResult(placement.completed[0].result) : null
-      const { start: best, changed } = bestStart(saved.ok ? saved.start : null, [placed ? startFromPlacement(placed.overall.bac) : null])
-      setStart(best)
-      if (changed && best) void raisePathStart(best.bac, best.step, best.source)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [])
-
-  const map = useMemo(() => results ?? new Map<string, LessonResult>(), [results])
-  const byBac = useMemo(() => rowsByBac(answers, itemMeta as unknown as ItemMeta, vnDayKey), [answers])
-  const readiness = useMemo(() => {
-    const out = new Map<number, JumpReadiness>()
-    for (let b = 1; b <= 6; b++) out.set(b, jumpReadinessAt(b, byBac.get(b) ?? [], null))
-    return out
-  }, [byBac])
-  const startIndex = useMemo(() => startIndexOf(path, start), [path, start])
-  const state = useMemo(() => computePath(path, map, { startIndex, bacCleared: (b) => b >= 6 || (readiness.get(b)?.ready ?? false) }), [path, map, startIndex, readiness])
-  const next = useMemo(() => nextLesson(state, map), [state, map])
   const weakest = useMemo(() => weakestSkill((profile?.abilities ?? []).map((a) => ({ skill: a.skill, rating: a.rating, reliable: a.confidence !== "low" }))), [profile])
   const today = useMemo(() => {
     const cur = state.steps[state.frontier]
@@ -86,7 +47,7 @@ export function PathView({ path }: { path: PathStep[] }) {
     return pickToday(cur.step.lessons.filter((l) => !lessonPassed(map.get(l.id), l.bac)), TODAY_COUNT, skillWeights(weakest))
   }, [state, map, weakest])
 
-  if (results === null) return <p className="text-muted-foreground">Đang tải Lộ trình…</p>
+  if (loading) return <p className="text-muted-foreground">Đang tải Lộ trình…</p>
 
   const cur = state.steps[state.frontier]
   const skipped = skippedSteps(state)

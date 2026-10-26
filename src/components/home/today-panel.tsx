@@ -6,10 +6,14 @@ import { Mascot } from "@/components/game/mascot"
 import { computeStreaks, dayKey } from "@/lib/analytics/activity"
 import { countDueCards, getActivityCounts } from "@/lib/db"
 import { usePlayer } from "@/components/game/use-player"
+import { usePathState } from "@/components/path/use-path-state"
+import { levelLabel } from "@/lib/content/bac"
+import type { PathStep } from "@/lib/path/catalog"
 import { useSettings } from "@/lib/settings"
 
 /** Dải "hôm nay" ở trang chủ: lời chào, chuỗi ngày, mục tiêu và nút học tiếp. */
-export function TodayPanel() {
+export function TodayPanel({ path }: { path: PathStep[] }) {
+  const pathData = usePathState(path)
   const { dailyGoal, ageSet, calmMode } = useSettings()
   const { state: player } = usePlayer()
   const [data, setData] = useState<{ today: number; streak: number; onRestDay: boolean; due: number; hour: number } | null>(null)
@@ -90,12 +94,17 @@ export function TodayPanel() {
             </p>
           )}
         </div>
-        <Link
-          href="/hoc"
-          className="w-full rounded-game border-b-[5px] text-center sm:w-auto border-primary-deep bg-primary px-6 py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2"
-        >
-          Học tiếp
-        </Link>
+        <div className="w-full sm:w-auto sm:max-w-64">
+          <Link
+            href={pathData.next ? `/lo-trinh/bai/${pathData.next.id}` : "/lo-trinh"}
+            className="block w-full rounded-game border-b-[5px] text-center border-primary-deep bg-primary px-6 py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2"
+          >
+            {pathData.next && pathData.state.steps[pathData.state.frontier]?.passed === 0 && pathData.state.frontier === 0 ? "Bắt đầu Lộ trình" : "Học tiếp"}
+          </Link>
+          <p className="mt-1 text-center text-xs text-muted-foreground">
+            {pathData.loading ? "Đang tải Lộ trình…" : pathData.next ? `Lộ trình: ${levelLabel(pathData.next.bac)} · ${pathData.next.title}` : pathData.state.gatedBac ? "Lộ trình: cần luyện thêm để lên bậc" : "Mở Lộ trình"}
+          </p>
+        </div>
       </div>
     </section>
   )

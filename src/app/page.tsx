@@ -3,13 +3,15 @@ import { TodayPanel } from "@/components/home/today-panel"
 import { WelcomeCard } from "@/components/home/welcome-card"
 import { Suggestions } from "@/components/home/suggestions"
 import { MORE, SKILLS } from "@/components/home/shared"
+import { getPath } from "@/lib/path/data"
 
 /** Trang chủ: thông tin hôm nay ở đầu, kỹ năng và game là danh sách gọn. */
-export default function Page() {
+export default async function Page() {
+  const path = await getPath()
   return (
     <main className="mx-auto w-full max-w-7xl space-y-6 px-4 py-6">
       <WelcomeCard />
-      <TodayPanel />
+      <TodayPanel path={path} />
       <Suggestions />
       <div className="grid gap-6 md:grid-cols-[2fr_1fr]">
         <section aria-labelledby="k">
