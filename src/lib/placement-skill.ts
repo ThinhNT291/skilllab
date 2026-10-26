@@ -1,7 +1,7 @@
 /**
  * Xếp trình độ cho Đọc, Nghe (bậc thang) và Từ vựng (cố định theo cấp). Hàm thuần.
  * Đọc/Nghe: mỗi bước là một bài ở một bậc; đạt (từ 75% đúng) thì lên bậc kế, chưa đạt thì xuống; tối đa 3 bài.
- * Kết quả là bậc cao nhất đã đạt (0 = chưa đạt bài nào, tức dưới Bậc 1). Chỉ là ước lượng tham khảo, không phải xếp loại.
+ * Chỉ chọn bài kế tiếp; bậc hiển thị sau bài xếp trình độ tính ở `progress/level.ts` (placementLevel), không có công thức riêng.
  */
 export const STAIR_START_BAC = 2
 export const STAIR_MAX_STEPS = 3
@@ -22,9 +22,4 @@ export function nextStairBac(history: StairStep[]): number | null {
   if (next < STAIR_MIN_BAC || next > STAIR_MAX_BAC) return null
   if (history.some((h) => h.bac === next)) return null
   return next
-}
-
-/** Bậc cao nhất đã đạt (0 nếu chưa đạt bài nào). */
-export function stairResult(history: StairStep[]): number {
-  return history.filter((h) => h.passed).reduce((m, h) => Math.max(m, h.bac), 0)
 }

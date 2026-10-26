@@ -28,4 +28,4 @@ Không làm quy đổi điểm chứng chỉ trong dự án này (văn bản nh�
 Dự án hiện chỉ có tiếng Anh. Khi thêm ngôn ngữ thứ hai: tra văn bản của chính tổ chức ban hành thang (JLPT N5–N1, HSK bản đang áp dụng, TOPIK I–II) và khung quy đổi CEFR do họ công bố (nếu có); bản nháp cũ trong repo (nếu còn) không dùng làm nguồn. Điều 4, khoản 3 của Thông tư: với ngôn ngữ không dùng chữ Latin đã có khung riêng, việc áp dụng và quy đổi tương đương theo hướng dẫn riêng của Bộ GD&ĐT.
 
 ## 4. Bậc do máy ước lượng trong ứng dụng
-`estimateBac` (bài xếp trình độ) và Bậc trong báo cáo chấm Viết/Nói là **ước lượng tham khảo của máy**, không phải kết quả thi và không được quy ra điểm chứng chỉ.
+Bậc hiển thị ở bài xếp trình độ và hồ sơ năng lực (`src/lib/progress/level.ts`, từ Elo) và Bậc trong báo cáo chấm Viết/Nói là **ước lượng tham khảo của máy**, không phải kết quả thi và không được quy ra điểm chứng chỉ.

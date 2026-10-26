@@ -37,28 +37,6 @@ function preferBac(pool: Exercise[], band: 0 | 1 | 2): Exercise[] {
 }
 
 /**
- * Ước lượng bậc từ các câu đã làm: xét từng cửa sổ hai bậc liền nhau (b-1 và b, cần ít nhất 3 câu);
- * bậc cao nhất liên tiếp mà cửa sổ đạt PASS_RATIO. Trả null nếu không đủ câu có gắn bậc. Chỉ là ước lượng tham khảo.
- */
-export function estimateBac(answers: { exerciseId: string; correct: boolean }[], exercises: Exercise[]): number | null {
-  const bacOf = new Map(exercises.map((e) => [e.id, e.bac]))
-  const rows = answers.flatMap((a) => {
-    const bac = bacOf.get(a.exerciseId)
-    return bac ? [{ bac, correct: a.correct }] : []
-  })
-  if (rows.length < 3) return null
-  let best: number | null = null
-  const maxBac = Math.max(...rows.map((r) => r.bac))
-  for (let b = 1; b <= maxBac; b++) {
-    const win = rows.filter((r) => r.bac === b || r.bac === b - 1)
-    if (win.length < 3) continue
-    if (win.filter((r) => r.correct).length / win.length < PASS_RATIO) break
-    best = b
-  }
-  return best ?? 0
-}
-
-/**
  * Chọn câu: mỗi nhóm bốc ngẫu nhiên, luân phiên giữa các chuyên đề của nhóm để không dồn vào một chuyên đề.
  * Chỉ lấy câu trắc nghiệm mức 1–2: bài đo xem đã học nhóm đó chưa, không phải đố mẹo. Xếp nhóm dễ trước.
  */
@@ -94,8 +72,6 @@ export interface PlacementResult {
   startBand: 0 | 1 | 2 | null
   /** Chuyên đề nên học trước, theo thứ tự ưu tiên (tối đa `limit`). */
   recommended: PlacementTopic[]
-  /** Bậc ước lượng (0 = dưới Bậc 1); null nếu chưa đủ dữ liệu. Chỉ để tham khảo. */
-  estimatedBac: number | null
 }
 
 export function scorePlacement(
@@ -134,5 +110,5 @@ export function scorePlacement(
     .filter((t) => wrongByTopic.has(t.id))
     .sort((a, b) => bandOf(a.firstLevel) - bandOf(b.firstLevel) || (wrongByTopic.get(b.id) ?? 0) - (wrongByTopic.get(a.id) ?? 0) || a.order - b.order)
   const fill = startBand === null ? [] : topics.filter((t) => bandOf(t.firstLevel) === startBand && !wrongByTopic.has(t.id)).sort((a, b) => a.order - b.order)
-  return { bands, startBand, recommended: [...wrongTopics, ...fill].slice(0, limit), estimatedBac: estimateBac(answers, exercises) }
+  return { bands, startBand, recommended: [...wrongTopics, ...fill].slice(0, limit) }
 }

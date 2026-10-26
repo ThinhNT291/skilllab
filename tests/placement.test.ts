@@ -1,6 +1,6 @@
 import test from "node:test"
 import assert from "node:assert/strict"
-import { bandOf, estimateBac, pickPlacement, scorePlacement, type PlacementTopic } from "../src/lib/placement.ts"
+import { bandOf, pickPlacement, scorePlacement, type PlacementTopic } from "../src/lib/placement.ts"
 import type { Exercise } from "../src/lib/content/types.ts"
 
 const topics: PlacementTopic[] = [
@@ -52,13 +52,4 @@ test("đúng hết → không có nhóm xuất phát", () => {
   const r = scorePlacement(picked.map((p) => ({ exerciseId: p.id, correct: true })), picked, topics)
   assert.equal(r.startBand, null)
   assert.deepEqual(r.recommended, [])
-})
-
-test("ước lượng bậc: dừng ở cửa sổ đầu tiên không đạt", () => {
-  const exs = [1, 1, 2, 2, 3, 3, 3].map((bac, i) => ({ id: `x${i}`, bac }) as unknown as Exercise)
-  const ans = (flags: boolean[]) => flags.map((correct, i) => ({ exerciseId: `x${i}`, correct }))
-  assert.equal(estimateBac(ans([true, true, true, true, false, false, false]), exs), 2)
-  assert.equal(estimateBac(ans([true, true, true, true, true, true, true]), exs), 3)
-  assert.equal(estimateBac(ans([false, false, false, false, false, false, false]), exs), 0)
-  assert.equal(estimateBac([], exs), null)
 })
