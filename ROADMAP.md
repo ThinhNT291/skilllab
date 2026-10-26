@@ -111,7 +111,7 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 ## Cập nhật 25/10/2026 (học thuật và động lực)
 - Đã làm 4 mục "học thuật + động lực": thích ứng/ước lượng năng lực, phản hồi lỗi (đáp án ngay hoặc gợi ý trước), xen kẽ + ôn theo ngữ cảnh, động lực không áp lực. Bằng chứng, mức chắc chắn và điều chưa kiểm chứng: `docs/hoc-thuat-dong-luc.md`.
 
-## Việc tiếp theo (đã chốt 26/10/2026)
+## Việc tiếp theo (đã chốt 26/10/2026; thứ tự mới nhất xem mục "Kế hoạch tổng hợp" ngay dưới)
 - [ ] **Soạn thêm nội dung C2 thật** (Bậc 6): nhiều câu/bài hiện chỉ ở mức C1. Ngữ pháp: thêm mục và câu C2 (notwithstanding sau danh từ, "Be that as it may", đảo ngữ văn chương, mệnh đề nhượng bộ nâng cao, tinh tế về sắc thái/văn phong…), cân lại phân bố `bac` 5/6; đọc và nghe Bậc 6: thêm câu suy luận về thái độ, ngụ ý, giọng điệu thay vì tra chi tiết; từ vựng C2 theo chủ đề. Mỗi đợt có phản biện độc lập.
 - [ ] **Placement cho bậc cao**: mở rộng bậc thang Đọc/Nghe tới Bậc 6 (hiện dừng ở Bậc 4), từ vựng C1/C2, ngữ pháp Bậc 5–6 (hiện `/xep-trinh-do` chưa đo). Cần nhiều bài mỗi bậc để đủ chính xác (hiện 1 bài/bậc). Làm sau khi có thêm nội dung C2.
 - [ ] Từ vựng C1/C2 theo chủ đề (`/tu-vung/chu-de`), người bản ngữ duyệt nội dung Bậc 5–6, đối chiếu nguồn các điểm kiến thức (xem `docs/noi-dung-bac5-6.md`), `npm run content:push`.
@@ -129,3 +129,40 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 - Đã làm/tick: mở rộng 50–70 câu cho mọi chuyên đề, nhận xét có cấu trúc, gắn thẻ lỗi, sửa lỗi gõ lại câu đúng, bước dạy trước + độ khó theo màn, 5 âm thanh, hai bộ giao diện theo tuổi, FSRS, hai game mới, can-do và rubric, bảng quy đổi thang (phần đã kiểm chứng).
 - Phần Nghe: nút "Xem lời thoại" xem được bất cứ lúc nào; sau mỗi câu trả lời, lời thoại hiện kèm đoạn làm căn cứ được tô sáng (lấy từ phần trích dẫn trong lời giải thích; tìm thấy ở 212/232 câu).
 - Chưa làm (theo thứ tự chủ dự án chọn để sau): CAPTCHA kèm hạn mức chấm điểm, trang giới thiệu nguồn và dọn `legacy/`, Shadowing.
+
+## Kế hoạch tổng hợp (sắp xếp lại 26/10/2026, thứ tự làm)
+Nguyên tắc xếp: việc chặn người dùng thật trước, rồi nền nội dung (vì Lộ trình cần nhiều câu), rồi Lộ trình, rồi game/dạng câu mới, cuối cùng việc cần dữ liệu thật hoặc chủ dự án để sau.
+
+### A. Việc của chủ dự án (không cần code)
+- [ ] Chạy migration `0011`, `0012`, `0013` trên Supabase SQL Editor (chưa chạy thì app lùi về cách cũ, bài xếp trình độ tổng hợp không lưu dở được).
+- [ ] Nhờ giáo viên chấm 30 bài mẫu: `eval/phieu-cham.csv` + `eval/huong-dan-cham.md` → `node scripts/eval-import.mjs <phiếu>` → `node scripts/grade-eval.mjs eval/grade-samples.json` (cần khóa Gemini). Kết quả quyết định có tin máy chấm Viết hay không.
+- [ ] Thử `gen-items`/`gen-passages` với Gemini thật theo `docs/thu-gen-noi-dung.md`.
+- [ ] Merge nhánh (PR) về `main`; sau 1 tháng có dữ liệu thật thì xem lại các ngưỡng ở `docs/lo-trinh-va-xep-bac.md` mục 11.
+
+### B. Nội dung nền (làm trước Lộ trình, vì mỗi nấc cần đủ bài)
+1. [x→đang làm] Ngữ pháp thiếu rõ nhất theo `docs/khoang-trong-noi-dung.md`: **Câu hỏi** (`questions`), rồi **Modal ở quá khứ + used to/would** (`past-modals`); sau đó: mệnh đề danh từ + câu hỏi gián tiếp mở rộng, mẫu động từ + tân ngữ, trạng từ, danh từ/đại từ cơ bản A1–A2. Mỗi chuyên đề 50 câu, phản biện độc lập.
+2. [ ] **Mở rộng từ vựng A1–B2 từ CEFR-J** (công khai, đã có trong `reference/`): hiện kho chỉ phủ ~33–36% từ gốc CEFR-J A1–B2 (thiếu cả animal, baby, bed, big…). Quy trình: lấy danh sách từ thiếu → Gemini gợi ý nghĩa Việt + câu ví dụ theo `docs/prompt-sinh-noi-dung.md` → giải mù → người duyệt → `scripts/build-vocab.py`.
+3. [ ] Cụm từ kết hợp (collocations) thêm bộ; từ vựng C1/C2 theo chủ đề.
+4. [ ] Đề Viết/Nói thêm (hiện Viết 12 đề bậc 1–4): thêm bậc 5–6 và đề theo chủ điểm lớp 4–9.
+5. [ ] Nội dung C2 thật; mở rộng ngân hàng xếp trình độ (`reserved.json`) cho bậc 5–6 và cho Đọc/Nghe nhiều bài mỗi bậc.
+6. [ ] Người bản ngữ/giáo viên duyệt: nghĩa Việt từ vựng, bài đọc/nghe, nội dung Bậc 5–6.
+
+### C. Lộ trình một con đường + Phòng thử thách (sau B1–B2)
+Thiết kế đã chốt ở `docs/lo-trinh-va-xep-bac.md` (chưa xây): bảng nấc/tiến độ nấc, mở nấc khi làm hết bài, thử sức nấc cao hơn, trang `/lo-trinh`, Phòng thử thách tính giờ, đề xuất nâng/hạ bậc, kỹ năng yếu nhất đẩy nhiều hơn khi chọn bài.
+
+### D. Dạng câu hỏi và game mới cho Đọc/Nghe (dùng lại bài sẵn có, không cần soạn thêm bài)
+Mọi dạng dưới đây sinh từ bài và câu có sẵn bằng hàm thuần (như `derive.ts` làm cho ngữ pháp) và **máy chấm bằng mã, không dùng Gemini** vì đáp án cố định. Chỉ bài tự luận mở (Viết/Nói) mới cần Gemini.
+- [ ] Điền từ vào bài đọc (cloze): che 6–8 từ nội dung của đoạn, chọn từ từ kho từ của bài (chấm: so khớp chuỗi).
+- [ ] Xếp lại câu/đoạn theo thứ tự (reorder) cho bài đọc ngắn; xếp lời thoại theo thứ tự cho bài nghe (chấm: so thứ tự).
+- [ ] Ghép ý chính với đoạn / ghép nhan đề với đoạn (matching; chấm: so cặp). Tiêu đề lấy từ nhãn của bài hoặc trường mới `title`.
+- [ ] Nghe-điền chỗ trống (bài nghe, che từ khóa; chấm: so khớp chuỗi có chấp nhận biến thể chính tả Anh-Mỹ).
+- [ ] Tìm bằng chứng: chạm vào câu trong bài làm căn cứ cho đáp án (dùng dữ liệu `evidence` sẵn có; chấm: câu chạm trùng câu căn cứ).
+- [ ] Game "săn từ khóa" cho đọc: 60 giây chạm đúng từ/cụm theo yêu cầu; game "nghe nhanh" cho nghe: câu Đúng/Sai/Không nêu bấm giờ (tái dùng `SprintGame`).
+- [ ] Tóm tắt một câu (viết ngắn sau khi đọc/nghe) — dạng mở, chấm bằng Gemini nên để sau cùng và chỉ làm khi đã có CAPTCHA + hạn mức.
+
+### E. Theo dõi tiến độ (chỉ làm khi có dữ liệu thật)
+- [ ] Không xây bảng chụp riêng 800 dòng: Elo đã dùng chung các dòng `answers` đang đọc (`getRecentTopicRows`). Chỉ khi một học sinh vượt ~5.000 dòng thì mới cần `progress_counters`/ảnh chụp Elo (mô tả ở `docs/tong-hop-tien-do.md`).
+- [ ] Tối ưu đọc dữ liệu cho các chỗ còn đọc dòng thô (bản đồ chuyên đề, bảng thang, trùm, hồ sơ năng lực) sau khi có số liệu tải thật.
+
+### F. Hoãn theo ý chủ dự án
+CAPTCHA + hạn mức chấm Gemini (cần trước khi mở công khai và trước mọi dạng chấm bằng Gemini mới), trang About ghi nguồn + dọn `legacy/`, Shadowing, giáo viên duyệt nội dung hàng loạt, tách tài khoản Vercel/Supabase khi thương mại hóa.
