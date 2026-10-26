@@ -201,14 +201,17 @@ Khuôn BÀI NGHE: như trên, thay phần nội dung bằng quy tắc **viết c
 
 Giải mù cho đọc/nghe: mô hình trả lời 4 câu **chỉ dựa vào đoạn/lời thoại, không thấy đáp án**; lệch đáp án thì câu hỏi mơ hồ, loại.
 
-### 10.5 Kiểm bằng mã: độ khó từ vựng và độ dài
-Đề xuất script `scripts/check-text-level.mjs` (chưa viết): với mỗi bài đọc/nghe tính số từ, độ dài câu trung bình, và **tỷ lệ từ nằm ngoài danh sách từ vựng của bậc** (dùng danh sách từ vựng A1–C2 đã có trong `src/content/vocab`, đã nạp từ English Vocabulary Profile). Báo bài vượt ngưỡng (vd >5% từ cao hơn bậc) hoặc lệch độ dài. Dùng được **ngay** để rà ngân hàng hiện có (có thể phát hiện bài ghi bậc thấp mà từ khó) và để lọc bài do Gemini sinh trước khi người duyệt. Cần lưu ý: danh sách từ chỉ gồm danh/động/tính/trạng từ đơn, nên tỷ lệ chỉ là chỉ báo, không phải kết luận.
+### 10.5 Kiểm bằng mã: độ khó từ vựng và độ dài (ĐÃ CÓ: `npm run check:text-level`)
+`scripts/check-text-level.mjs` (logic ở `src/lib/content/text-level.ts`, có test): với mỗi bài đọc/nghe tính số từ, từ/câu, **tỷ lệ từ nằm ngoài danh sách của bậc** và liệt kê từ vượt bậc; đánh dấu bài lệch độ dài, câu dài, hoặc nhiều từ vượt bậc.
+- **Nguồn danh sách cấp độ:** CEFR-J Vocabulary Profile (A1–B2, `reference/cefrj-vocabulary-profile-1.5.csv`) và Octanove Vocabulary Profile (C1–C2, `reference/octanove-vocabulary-profile-c1c2-1.0.csv`), cộng gộp lấy cấp thấp nhất của mỗi từ khóa. **Không** dùng `src/content/vocab` của ứng dụng: đó là tập con đã lọc cho trẻ (A1 chỉ 180 từ, thiếu cả "day", "school") nên dùng sẽ báo sai hàng loạt (lần chạy đầu cho 65–77% "không có trong danh sách"; đã đổi nguồn).
+- **Kết quả rà ngân hàng hiện có (26/10/2026):** 16/170 bài bị đánh dấu. Bài đọc/nghe từ Bậc 3 trở lên gần như sạch (tỷ lệ từ vượt bậc trung vị 0–1,4%); Bậc 1–2 có từ cụ thể xếp cấp cao hơn (giraffe, oven, lamp, noon…) là chủ ý cho trẻ nhỏ nên ngưỡng nới (15% và 10%); phần lớn cờ còn lại là "ngắn hơn khoảng ưa dùng vài từ". Chưa có bài nào cần sửa gấp; người duyệt xem danh sách.
+- **Hạn chế:** danh sách là từ khóa gốc (không có dạng biến cách, cụm từ, tên riêng; dạng biến cách đoán bằng quy tắc đơn giản); từ nhiều nghĩa lấy cấp thấp nhất; chỉ là chỉ báo cho người duyệt, không phải kết luận. Giấy phép hai danh sách cần xem lại nếu muốn đóng gói vào sản phẩm (hiện chỉ dùng cho công cụ kiểm tra nội bộ, không phân phối trong ứng dụng).
 
 ### 10.6 Hai loại nội dung đọc/nghe: tách rõ
 - **Bài kiểm hiểu (trắc nghiệm, chấm bằng mã):** loại đang có (`/doc`, `/nghe`), dùng cho luyện, xếp trình độ, Phòng thử thách.
 - **Đầu vào dễ hiểu (Comprehensible Input), câu hỏi mở không bắt buộc:** loại của prompt 2 và 3. Chưa có trong app. Rất hợp với **luồng "một con đường"**: một khối thư giãn cuối bài hôm nay, đọc/nghe vì thú vị, không áp lực, không tính điểm. Câu hỏi mở dùng `modelAnswer` để **tự đối chiếu** (người học gõ rồi xem đáp án mẫu), nên **không tốn chi phí chấm AI** và không cần hạn mức. Khi làm: nâng từ 5 cấp lên Bậc 1–6, thêm kiểm từ vựng (10.5), tăng đa dạng thể loại, mã đặt id.
 
 ### 10.7 Việc tiếp theo cho phần lời nhắc
-1. Viết `scripts/check-text-level.mjs` và chạy trên ngân hàng đọc/nghe/chuyên đề hiện có, báo cáo cho chủ dự án duyệt.
+1. ~~Viết `scripts/check-text-level.mjs`~~ (xong, mục 10.5).
 2. Chuyển các khuôn ở mục 4, 5, 10.4 thành tệp trong `src/lib/ai/prompts/` có phiên bản; viết `scripts/gen-items.mjs` và `scripts/review-items.mjs` (chạy ở máy chủ dự án với khóa của chủ dự án).
 3. Soạn lời nhắc cho ngân hàng placement tổng hợp (bản vẽ mục 7) khi làm bài xếp trình độ 30–40 câu.
