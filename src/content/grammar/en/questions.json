@@ -1,0 +1,322 @@
+{
+  "id": "questions",
+  "language": "en",
+  "title": "Câu hỏi (Questions)",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "order": 14,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "q-u1-yes-no",
+        "bac": 1,
+        "label": "Câu hỏi Yes/No: đảo trợ động từ lên đầu và trả lời ngắn",
+        "explanationVi": "Câu hỏi Yes/No (trả lời Yes hoặc No) được tạo bằng cách đưa động từ be hoặc trợ động từ (do/does/did, have/has, will, can, could, should...) lên TRƯỚC chủ ngữ. Với động từ be, chỉ cần đảo: You are ready. → Are you ready? Với động từ thường ở hiện tại và quá khứ đơn, phải mượn do/does/did, và động từ chính trở về nguyên thể: She likes tea. → Does she like tea? / He went home. → Did he go home? Không dùng do/does/did cùng với be hoặc với can, will, have (hoàn thành). Trả lời ngắn lặp lại đúng trợ động từ đã dùng trong câu hỏi: Do you play chess? → Yes, I do. / No, I don't. Is it open? → Yes, it is. Have they left? → No, they haven't. Với there is/are thì lặp lại there: Is there a bank near here? → Yes, there is. / No, there isn't. (Câu hỏi đuôi như \"You like it, don't you?\" có chuyên đề riêng: tag-questions.)",
+        "examples": [
+          {
+            "en": "Does your brother like football?",
+            "vi": "Anh trai bạn có thích bóng đá không?"
+          },
+          {
+            "en": "Were you at home last night? — No, I wasn't.",
+            "vi": "Tối qua bạn có ở nhà không? — Không, tôi không ở nhà."
+          },
+          {
+            "en": "Can she swim? — Yes, she can.",
+            "vi": "Cô ấy biết bơi không? — Có, cô ấy biết."
+          }
+        ]
+      },
+      {
+        "id": "q-u2-wh-questions",
+        "bac": 1,
+        "label": "Câu hỏi Wh- với trợ động từ",
+        "explanationVi": "Từ để hỏi (what, where, when, why, who, which, whose, how) đứng ĐẦU câu, sau đó là cấu trúc câu hỏi Yes/No: Wh- + trợ động từ + chủ ngữ + động từ chính (nguyên thể). Ví dụ: Where do you live? / What did she buy? / Why is he late? How + tính từ/trạng từ hỏi về mức độ: how old (tuổi), how long (bao lâu / dài bao nhiêu), how far (khoảng cách), how often (tần suất), how much (+ danh từ không đếm được, hoặc giá tiền), how many (+ danh từ đếm được số nhiều). Which dùng khi chọn trong một nhóm biết trước (Which of these two books...?), whose hỏi về sở hữu (Whose bag is this?; khác với who's = who is). Giới từ thường đứng cuối câu hỏi trong tiếng Anh hằng ngày: Who are you talking to?",
+        "examples": [
+          {
+            "en": "Where do you live?",
+            "vi": "Bạn sống ở đâu?"
+          },
+          {
+            "en": "How long does it take to get to school?",
+            "vi": "Đi đến trường mất bao lâu?"
+          },
+          {
+            "en": "Whose bag is this?",
+            "vi": "Cái cặp này của ai?"
+          }
+        ]
+      },
+      {
+        "id": "q-u3-subject-object",
+        "bac": 2,
+        "label": "Câu hỏi về chủ ngữ và về tân ngữ (who, what)",
+        "explanationVi": "Khi who hoặc what LÀ CHỦ NGỮ của câu (hỏi \"ai/cái gì làm hành động\"), KHÔNG mượn do/does/did và KHÔNG đảo: dùng như câu khẳng định, động từ chia theo thì: Who called you? (Linh called me.) / What happened? Khi who/what là TÂN NGỮ (hỏi \"làm gì đến ai/cái gì\"), dùng trật tự câu hỏi bình thường với trợ động từ: Who did you call? (I called Linh.) / What did you see? Muốn chọn đúng, hãy nhìn câu trả lời: nếu từ để hỏi thay cho người/vật làm hành động thì là câu hỏi về chủ ngữ. Who dùng với động từ số ít ở hiện tại đơn: Who lives here? (Có trường hợp dùng did để NHẤN MẠNH, ví dụ \"But who DID call you?\", nhưng ở mức này hãy dùng dạng không mượn trợ động từ: Who called you?)",
+        "examples": [
+          {
+            "en": "Who called you last night? — Linh did.",
+            "vi": "Tối qua ai gọi bạn? — Linh gọi."
+          },
+          {
+            "en": "Who did you call last night? — I called Linh.",
+            "vi": "Tối qua bạn gọi cho ai? — Mình gọi cho Linh."
+          },
+          {
+            "en": "What happened at school yesterday?",
+            "vi": "Hôm qua ở trường có chuyện gì xảy ra?"
+          }
+        ]
+      },
+      {
+        "id": "q-u4-choice-negative",
+        "bac": 2,
+        "label": "Câu hỏi lựa chọn (A or B) và câu hỏi phủ định",
+        "explanationVi": "Câu hỏi lựa chọn nêu hai (hoặc nhiều) khả năng nối bằng or: Do you want tea or coffee? / Which do you prefer, tea or coffee? / Would you rather watch a movie or play a game? (would rather + động từ nguyên thể, không có to). Trả lời bằng cách chọn một phương án, không trả lời Yes/No. Câu hỏi phủ định đặt not (dạng rút gọn n't) ngay sau trợ động từ, TRƯỚC chủ ngữ: Don't you like it? / Isn't it cold? / Aren't you coming? Câu này thường thể hiện sự ngạc nhiên hoặc mong chờ một câu trả lời \"có\". Trả lời dựa vào sự thật, không dựa vào chữ \"not\": nếu bạn có thích thì trả lời Yes, I do. Why don't we/you + động từ nguyên thể...? là lời gợi ý (Why don't we go swimming?); Why didn't you...? hỏi lý do một việc đã không xảy ra.",
+        "examples": [
+          {
+            "en": "Do you walk to school, or do you take the bus?",
+            "vi": "Bạn đi bộ đến trường hay đi xe buýt?"
+          },
+          {
+            "en": "Aren't you coming to the party?",
+            "vi": "Bạn không đến buổi tiệc à?"
+          },
+          {
+            "en": "It's hot. Why don't we go swimming?",
+            "vi": "Nóng quá. Sao mình không đi bơi nhỉ?"
+          }
+        ]
+      },
+      {
+        "id": "q-u5-indirect",
+        "bac": 3,
+        "label": "Câu hỏi gián tiếp (Do you know where...?)",
+        "explanationVi": "Câu hỏi gián tiếp là câu hỏi nằm trong một câu khác, mở đầu bằng cụm như Do you know..., Can you tell me..., I wonder..., I don't know..., Do you remember... Phần hỏi bên trong dùng TRẬT TỰ CÂU KHẲNG ĐỊNH: chủ ngữ rồi động từ, KHÔNG đảo và KHÔNG dùng do/does/did; động từ chia theo thì và chủ ngữ. Direct: Where is the station? → Indirect: Do you know where the station is? / Direct: What time does the movie start? → Can you tell me what time the movie starts? Câu hỏi Yes/No chuyển thành gián tiếp bằng if hoặc whether (không dùng that): Does she like pizza? → I wonder if she likes pizza. Whether thường dùng khi có or not hoặc đi với to + động từ (I haven't decided whether to go or stay; không dùng if trong trường hợp này). Nếu từ để hỏi (who, what) là chủ ngữ thì giữ nguyên: Do you know who broke the window? Giới từ vẫn đứng cuối mệnh đề: Can you tell me who she is talking to? Chỉ câu mở đầu cả câu mới có dấu hỏi nếu là câu hỏi (Do you know...?); với I wonder... / I don't know... thì dùng dấu chấm.",
+        "examples": [
+          {
+            "en": "Do you know where the station is?",
+            "vi": "Bạn có biết nhà ga ở đâu không?"
+          },
+          {
+            "en": "Can you tell me what time the movie starts?",
+            "vi": "Bạn cho mình biết phim bắt đầu lúc mấy giờ được không?"
+          },
+          {
+            "en": "I wonder if she likes pizza.",
+            "vi": "Mình tự hỏi liệu cô ấy có thích pizza không."
+          },
+          {
+            "en": "I haven't decided whether to go to the beach or the mountains.",
+            "vi": "Mình chưa quyết định nên đi biển hay đi núi."
+          }
+        ]
+      },
+      {
+        "id": "q-u6-polite-intonation",
+        "bac": 3,
+        "label": "Ngữ điệu và câu hỏi lịch sự, nhờ vả",
+        "explanationVi": "Ngữ điệu: câu hỏi Yes/No thường LÊN giọng ở cuối (Are you hungry? ↗), còn câu hỏi Wh- thường XUỐNG giọng (Where do you live? ↘); đây là xu hướng, không phải quy tắc tuyệt đối (Wh- lên giọng có thể thể hiện sự thân thiện hoặc hỏi lại). Để nhờ vả lịch sự dùng: Could you + V...? / Can you + V...? (thân mật hơn), Could you tell me...? (kèm câu hỏi gián tiếp: Could you tell me where the library is?), Would you mind + V-ing...? (Would you mind opening the window?). Với Would you mind / Do you mind, trả lời \"No, not at all\" / \"Of course not\" nghĩa là ĐỒNG Ý (không phiền); nếu nói \"Yes\" thì nghĩa là bạn thấy phiền. Xin phép: Do you mind if I + hiện tại đơn...? / Would you mind if I + quá khứ đơn...? (lịch sự hơn): Would you mind if I used your pen? Thêm please làm lời nhờ lịch sự hơn.",
+        "examples": [
+          {
+            "en": "Could you tell me the time, please?",
+            "vi": "Bạn có thể cho mình biết mấy giờ rồi không?"
+          },
+          {
+            "en": "Would you mind opening the window? — No, not at all.",
+            "vi": "Bạn mở giúp cửa sổ được không? — Được chứ, không sao."
+          },
+          {
+            "en": "Do you mind if I sit here?",
+            "vi": "Bạn có phiền nếu mình ngồi đây không?"
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "what",
+        "meaningVi": "cái gì, gì"
+      },
+      {
+        "word": "where",
+        "meaningVi": "ở đâu"
+      },
+      {
+        "word": "when",
+        "meaningVi": "khi nào"
+      },
+      {
+        "word": "why",
+        "meaningVi": "tại sao"
+      },
+      {
+        "word": "who",
+        "meaningVi": "ai"
+      },
+      {
+        "word": "which",
+        "meaningVi": "nào (chọn trong nhóm biết trước)"
+      },
+      {
+        "word": "whose",
+        "meaningVi": "của ai"
+      },
+      {
+        "word": "how",
+        "meaningVi": "như thế nào, bằng cách nào"
+      },
+      {
+        "word": "how much / how many",
+        "meaningVi": "bao nhiêu (không đếm được / đếm được)"
+      },
+      {
+        "word": "how often / how long / how far / how old",
+        "meaningVi": "bao lâu một lần / bao lâu, dài bao nhiêu / bao xa / bao nhiêu tuổi"
+      },
+      {
+        "word": "if / whether",
+        "meaningVi": "liệu có... không (câu hỏi gián tiếp Yes/No)"
+      }
+    ],
+    "formulas": {
+      "affirmative": "Câu khẳng định: S + V. Ví dụ: She lives in Hue. | Câu hỏi về chủ ngữ giữ trật tự này: Who lives in Hue? (Who/What + V...).",
+      "negative": "Câu hỏi phủ định: Trợ động từ + n't + S + V...? Ví dụ: Don't you like it? / Isn't it cold? | Gợi ý: Why don't we + V...?",
+      "question": "Yes/No: Trợ động từ/be + S + V...? (Does she live in Hue?) | Wh-: Wh- + trợ động từ + S + V...? (Where does she live?) | Chủ ngữ: Who/What + V...? (Who lives in Hue?) | Lựa chọn: ... A or B? | Gián tiếp: Do you know + Wh-/if + S + V...? (Do you know where she lives?)"
+    },
+    "commonMistakes": [
+      {
+        "id": "questions-m1",
+        "description": "Quên trợ động từ trong câu hỏi: động từ thường cần do/does/did đứng trước chủ ngữ.",
+        "examples": [
+          {
+            "wrong": "Where you live?",
+            "correct": "Where do you live?"
+          },
+          {
+            "wrong": "What time you get up?",
+            "correct": "What time do you get up?"
+          }
+        ],
+        "usageIds": [
+          "q-u1-yes-no",
+          "q-u2-wh-questions"
+        ]
+      },
+      {
+        "id": "questions-m2",
+        "description": "Vẫn chia động từ chính (V2, V-s) sau did/does: sau trợ động từ động từ chính ở nguyên thể.",
+        "examples": [
+          {
+            "wrong": "Did she went to school?",
+            "correct": "Did she go to school?"
+          },
+          {
+            "wrong": "Does he likes music?",
+            "correct": "Does he like music?"
+          }
+        ],
+        "usageIds": [
+          "q-u1-yes-no",
+          "q-u2-wh-questions"
+        ]
+      },
+      {
+        "id": "questions-m3",
+        "description": "Dùng do/does/did khi who/what là chủ ngữ của câu hỏi.",
+        "examples": [
+          {
+            "wrong": "Who did call you?",
+            "correct": "Who called you?"
+          },
+          {
+            "wrong": "What did happen?",
+            "correct": "What happened?"
+          }
+        ],
+        "usageIds": [
+          "q-u3-subject-object"
+        ]
+      },
+      {
+        "id": "questions-m4",
+        "description": "Nhầm câu hỏi về chủ ngữ và tân ngữ: \"Who did you call?\" hỏi người được gọi, \"Who called you?\" hỏi người gọi.",
+        "examples": [
+          {
+            "wrong": "Who you called last night?",
+            "correct": "Who did you call last night?"
+          }
+        ],
+        "usageIds": [
+          "q-u3-subject-object"
+        ]
+      },
+      {
+        "id": "questions-m5",
+        "description": "Giữ trật tự câu hỏi trong câu hỏi gián tiếp (đảo động từ lên trước chủ ngữ).",
+        "examples": [
+          {
+            "wrong": "Do you know where is the bank?",
+            "correct": "Do you know where the bank is?"
+          }
+        ],
+        "usageIds": [
+          "q-u5-indirect"
+        ]
+      },
+      {
+        "id": "questions-m6",
+        "description": "Thêm do/does/did vào câu hỏi gián tiếp: trong mệnh đề hỏi, dùng thì như câu khẳng định.",
+        "examples": [
+          {
+            "wrong": "Can you tell me what time does the movie start?",
+            "correct": "Can you tell me what time the movie starts?"
+          }
+        ],
+        "usageIds": [
+          "q-u5-indirect",
+          "q-u6-polite-intonation"
+        ]
+      },
+      {
+        "id": "questions-m7",
+        "description": "Quên if/whether trong câu hỏi gián tiếp Yes/No (that không thay được: that tạo mệnh đề khẳng định, nghĩa khác).",
+        "examples": [
+          {
+            "wrong": "I wonder she likes pizza.",
+            "correct": "I wonder if she likes pizza."
+          },
+          {
+            "wrong": "Can you tell me she is at home?",
+            "correct": "Can you tell me if she is at home?"
+          }
+        ],
+        "usageIds": [
+          "q-u5-indirect"
+        ]
+      },
+      {
+        "id": "questions-m8",
+        "description": "Trả lời câu hỏi phủ định theo chữ \"not\" thay vì theo sự thật; hoặc sai động từ sau Would you mind (phải V-ing).",
+        "examples": [
+          {
+            "wrong": "Don't you like spicy food? — Yes, I don't.",
+            "correct": "Don't you like spicy food? — No, I don't. / Yes, I do."
+          },
+          {
+            "wrong": "Would you mind to open the window?",
+            "correct": "Would you mind opening the window?"
+          }
+        ],
+        "usageIds": [
+          "q-u4-choice-negative",
+          "q-u6-polite-intonation"
+        ]
+      }
+    ]
+  }
+}

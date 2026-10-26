@@ -133,12 +133,25 @@
     "usageCount": 5
   },
   {
+    "id": "questions",
+    "title": "Câu hỏi (Questions)",
+    "levels": [
+      "A1",
+      "A2",
+      "B1",
+      "B2"
+    ],
+    "order": 14,
+    "category": "sentence-structure",
+    "usageCount": 6
+  },
+  {
     "id": "comparatives-superlatives",
     "title": "So sánh (Comparatives & Superlatives)",
     "levels": [
       "A2"
     ],
-    "order": 14,
+    "order": 15,
     "category": "sentence-structure",
     "usageCount": 5
   },
@@ -148,7 +161,7 @@
     "levels": [
       "B1"
     ],
-    "order": 15,
+    "order": 16,
     "category": "sentence-structure",
     "usageCount": 8
   },
@@ -158,7 +171,7 @@
     "levels": [
       "B1"
     ],
-    "order": 16,
+    "order": 17,
     "category": "sentence-structure",
     "usageCount": 6
   },
@@ -168,7 +181,7 @@
     "levels": [
       "B1"
     ],
-    "order": 17,
+    "order": 18,
     "category": "sentence-structure",
     "usageCount": 5
   },
@@ -179,7 +192,7 @@
       "B1",
       "B2"
     ],
-    "order": 18,
+    "order": 19,
     "category": "sentence-structure",
     "usageCount": 7
   },
@@ -190,7 +203,7 @@
       "B1",
       "B2"
     ],
-    "order": 19,
+    "order": 20,
     "category": "tenses",
     "usageCount": 5
   },
@@ -201,7 +214,7 @@
       "B1",
       "B2"
     ],
-    "order": 20,
+    "order": 21,
     "category": "tenses",
     "usageCount": 5
   },
@@ -212,7 +225,7 @@
       "B2",
       "C1"
     ],
-    "order": 21,
+    "order": 22,
     "category": "tenses",
     "usageCount": 5
   },
@@ -223,7 +236,7 @@
       "A2",
       "B1"
     ],
-    "order": 22,
+    "order": 23,
     "category": "sentence-structure",
     "usageCount": 5
   },
@@ -234,7 +247,7 @@
       "B1",
       "B2"
     ],
-    "order": 23,
+    "order": 24,
     "category": "sentence-structure",
     "usageCount": 6
   },
@@ -244,7 +257,7 @@
     "levels": [
       "B1"
     ],
-    "order": 24,
+    "order": 25,
     "category": "sentence-structure",
     "usageCount": 9
   },
@@ -255,7 +268,7 @@
       "A2",
       "B1"
     ],
-    "order": 25,
+    "order": 26,
     "category": "word-classes",
     "usageCount": 7
   },
@@ -266,7 +279,7 @@
       "B1",
       "B2"
     ],
-    "order": 26,
+    "order": 27,
     "category": "word-classes",
     "usageCount": 8
   },
@@ -276,7 +289,7 @@
     "levels": [
       "B2"
     ],
-    "order": 27,
+    "order": 28,
     "category": "sentence-structure",
     "usageCount": 7
   },
@@ -287,7 +300,7 @@
       "B2",
       "C1"
     ],
-    "order": 28,
+    "order": 29,
     "category": "sentence-structure",
     "usageCount": 8
   },
@@ -298,7 +311,7 @@
       "B2",
       "C1"
     ],
-    "order": 29,
+    "order": 30,
     "category": "sentence-structure",
     "usageCount": 6
   },
@@ -309,7 +322,7 @@
       "A2",
       "B1"
     ],
-    "order": 30,
+    "order": 31,
     "category": "word-classes",
     "usageCount": 6
   },
@@ -319,7 +332,7 @@
     "levels": [
       "B1"
     ],
-    "order": 31,
+    "order": 32,
     "category": "word-classes",
     "usageCount": 7
   },
@@ -331,7 +344,7 @@
       "C1",
       "C2"
     ],
-    "order": 32,
+    "order": 33,
     "category": "sentence-structure",
     "usageCount": 8
   },
@@ -343,7 +356,7 @@
       "C1",
       "C2"
     ],
-    "order": 33,
+    "order": 34,
     "category": "sentence-structure",
     "usageCount": 8
   },
@@ -354,7 +367,7 @@
       "C1",
       "C2"
     ],
-    "order": 34,
+    "order": 35,
     "category": "word-classes",
     "usageCount": 8
   },
@@ -365,7 +378,7 @@
       "C1",
       "C2"
     ],
-    "order": 35,
+    "order": 36,
     "category": "sentence-structure",
     "usageCount": 8
   },
@@ -376,7 +389,7 @@
       "C1",
       "C2"
     ],
-    "order": 36,
+    "order": 37,
     "category": "word-classes",
     "usageCount": 8
   },
@@ -387,7 +400,7 @@
       "C1",
       "C2"
     ],
-    "order": 37,
+    "order": 38,
     "category": "sentence-structure",
     "usageCount": 8
   },
@@ -398,7 +411,7 @@
       "C1",
       "C2"
     ],
-    "order": 38,
+    "order": 39,
     "category": "sentence-structure",
     "usageCount": 8
   },
@@ -409,7 +422,7 @@
       "C1",
       "C2"
     ],
-    "order": 39,
+    "order": 40,
     "category": "sentence-structure",
     "usageCount": 8
   },
@@ -420,7 +433,7 @@
       "C1",
       "C2"
     ],
-    "order": 40,
+    "order": 41,
     "category": "sentence-structure",
     "usageCount": 8
   }
