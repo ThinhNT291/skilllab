@@ -80,22 +80,51 @@ export interface Ability {
   confidence: Confidence
 }
 
-export interface EstimateOptions {
-  /** Nhân hệ số K: >1 cho bài xếp trình độ ngắn, để ước lượng hội tụ nhanh hơn luyện thường. */
-  kScale?: number
-}
-
-export function estimateAbility(answers: AnswerForAbility[], meta: ItemMeta, skill: AbilitySkill, { kScale = 1 }: EstimateOptions = {}): Ability {
+export function estimateAbility(answers: AnswerForAbility[], meta: ItemMeta, skill: AbilitySkill): Ability {
   const mine = answers.filter((a) => skillOfTopic(a.topic) === skill).sort((x, y) => (x.created_at < y.created_at ? -1 : 1)).slice(-400)
   let theta = START_RATING
   let n = 0
   for (const a of mine) {
     const b = itemOfAnswer(a, meta)
     if (b === null) continue
-    theta += kScale * kFactor(n) * ((a.correct ? 1 : 0) - expectedCorrect(theta, b))
+    theta += kFactor(n) * ((a.correct ? 1 : 0) - expectedCorrect(theta, b))
     n++
   }
   return { skill, rating: Math.round(theta), bac: Math.round(bacFromRating(theta)), n, confidence: n < 12 ? "low" : n < 35 ? "mid" : "high" }
+}
+
+/** Một câu đã làm trong bài xếp trình độ: độ khó của câu (cùng thang với `itemRating`) và đúng/sai. */
+export interface PlacementRow {
+  rating: number
+  correct: boolean
+}
+
+/**
+ * Ước lượng năng lực cho bài xếp trình độ ngắn: điểm có khả năng nhất (MAP) theo cùng mô hình xác suất đúng của Elo (có sàn đoán mò),
+ * kèm một phân phối tiên nghiệm rộng quanh mức khởi điểm để không chạy ra vô cực khi đúng hết hoặc sai hết.
+ * Khác Elo tuần tự ở chỗ KHÔNG phụ thuộc thứ tự câu và phản ứng mạnh với chỉ vài câu (Elo với 6 câu chỉ nhích rất ít).
+ * Chỉ là ước lượng tham khảo của máy.
+ */
+export function estimateThetaMAP(rows: PlacementRow[], prior: { mean: number; sd: number } = { mean: START_RATING, sd: 500 }): number {
+  let best: number = prior.mean
+  let bestLL = -Infinity
+  for (let t = 600; t <= 2400; t += 10) {
+    let ll = -((t - prior.mean) ** 2) / (2 * prior.sd ** 2)
+    for (const r of rows) {
+      const p = expectedCorrect(t, r.rating)
+      ll += Math.log(r.correct ? p : 1 - p)
+    }
+    if (ll > bestLL) {
+      bestLL = ll
+      best = t
+    }
+  }
+  return best
+}
+
+/** Bậc (số nguyên gần nhất) ứng với độ khó của một câu. */
+export function bacOfItemRating(rating: number): number {
+  return Math.min(6, Math.max(1, Math.round((rating - BASE) / BAC_STEP + 1)))
 }
 
 export function estimateAll(answers: AnswerForAbility[], meta: ItemMeta): Ability[] {

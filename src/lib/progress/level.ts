@@ -5,10 +5,9 @@
  * Hàm thuần.
  */
 import { levelLabel } from "../content/bac.ts"
-import { estimateAbility, type Ability, type AbilitySkill, type AnswerForAbility, type Confidence, type ItemMeta } from "./ability.ts"
+import { bacFromRating, bacOfItemRating, estimateAbility, estimateThetaMAP, itemOfAnswer, type Ability, type AbilitySkill, type AnswerForAbility, type Confidence, type ItemMeta, type PlacementRow } from "./ability.ts"
+import { skillOfTopic as skillOfAnswerTopic } from "./profile.ts"
 
-/** Bài xếp trình độ ngắn (12–20 câu): nhân K để hội tụ nhanh hơn luyện thường. Giá trị khởi điểm, xem lại khi có dữ liệu thật. */
-export const PLACEMENT_K_SCALE = 2
 /** Cần ít nhất bấy nhiêu kỹ năng đủ tin cậy mới tính bậc tổng. */
 export const MIN_SKILLS_FOR_OVERALL = 3
 /** Số câu tối thiểu để hiện bậc ở gợi ý trang kỹ năng. */
@@ -38,10 +37,37 @@ export function skillLevel(answers: AnswerForAbility[], meta: ItemMeta, skill: A
   return a.n >= minAnswers ? levelOfAbility(a) : null
 }
 
-/** Bậc sau bài xếp trình độ: cùng công thức Elo, chỉ khác hệ số K. Chỉ truyền các câu của bài xếp trình độ. */
+/** Cần ít nhất bấy nhiêu câu ĐÚNG ở câu có độ khó từ bậc b trở lên thì mới công nhận bậc b (tránh bậc cao nhờ may mắn). */
+export const MIN_CORRECT_FOR_BAC = 2
+/** Từ ngần này câu trở lên mới coi là "tương đối chắc"; ít hơn thì ghi "chưa chắc". */
+export const PLACEMENT_MID_CONFIDENCE_N = 12
+
+/**
+ * Muốn được bậc kế tiếp thì ước lượng phải đi được ít nhất bấy nhiêu phần của khoảng giữa hai bậc (0,75 = ba phần tư).
+ * Nằm giữa hai bậc (chưa rõ) thì lấy bậc dưới, theo quyết định của chủ dự án. Giá trị khởi điểm, xem lại khi có dữ liệu thật.
+ */
+export const ROUND_UP_FROM = 0.75
+
+/**
+ * Bậc từ các dòng đã chấm của bài xếp trình độ: ước lượng MAP, rồi **lấy bậc dưới** khi chưa rõ (`ROUND_UP_FROM`),
+ * và không vượt quá bậc cao nhất có đủ bằng chứng (`MIN_CORRECT_FOR_BAC` câu đúng ở độ khó từ bậc đó trở lên).
+ */
+export function levelFromRows(rows: PlacementRow[]): Level {
+  const theta = estimateThetaMAP(rows)
+  let bac = Math.min(6, Math.max(0, Math.floor(bacFromRating(theta) + (1 - ROUND_UP_FROM))))
+  while (bac > 1 && rows.filter((r) => r.correct && bacOfItemRating(r.rating) >= bac).length < MIN_CORRECT_FOR_BAC) bac--
+  const confidence: Confidence = rows.length >= PLACEMENT_MID_CONFIDENCE_N ? "mid" : "low"
+  return { bac, label: levelLabel(bac), confidence, n: rows.length }
+}
+
+/** Bậc sau bài xếp trình độ một kỹ năng, từ các câu của bài đó (cùng mô hình xác suất với Elo). Null nếu quá ít câu. */
 export function placementLevel(answers: AnswerForAbility[], meta: ItemMeta, skill: AbilitySkill): Level | null {
-  const a = estimateAbility(answers, meta, skill, { kScale: PLACEMENT_K_SCALE })
-  return a.n >= MIN_ANSWERS_FOR_HINT ? levelOfAbility(a) : null
+  const rows = answers.flatMap((a) => {
+    if (skillOfAnswerTopic(a.topic) !== skill) return []
+    const rating = itemOfAnswer(a, meta)
+    return rating === null ? [] : [{ rating, correct: a.correct }]
+  })
+  return rows.length >= MIN_ANSWERS_FOR_HINT ? levelFromRows(rows) : null
 }
 
 export interface OverallLevel {
