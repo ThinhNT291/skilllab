@@ -4,7 +4,7 @@ import { confirmMatches, expandScopes, tablesFor } from "../src/lib/auth/reset.t
 
 test("phạm vi đặt lại: chỉ nhận giá trị hợp lệ, không trùng, giữ thứ tự chuẩn; all là tất cả", () => {
   assert.deepEqual(expandScopes(["srs", "answers", "srs", "zzz"]), ["answers", "srs"])
-  assert.equal(expandScopes(["all"]).length, 6)
+  assert.equal(expandScopes(["all"]).length, 7)
   assert.deepEqual(expandScopes("answers"), [])
   assert.deepEqual(expandScopes(undefined), [])
   assert.deepEqual(expandScopes(["drop table"]), [])
@@ -13,6 +13,7 @@ test("phạm vi đặt lại: chỉ nhận giá trị hợp lệ, không trùng,
 test("bảng cần xóa: bộ đếm theo ngày trước dòng thô; không có bảng ngoài danh sách", () => {
   assert.deepEqual(tablesFor(["answers"]), ["daily_activity", "answers"])
   assert.deepEqual(tablesFor(["srs", "items"]), ["srs_cards", "player_items"])
+  assert.deepEqual(tablesFor(["path"]), ["path_lessons", "path_state"])
   assert.deepEqual(tablesFor([]), [])
 })
 

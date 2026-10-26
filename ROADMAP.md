@@ -134,7 +134,7 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 Nguyên tắc xếp: việc chặn người dùng thật trước, rồi nền nội dung (vì Lộ trình cần nhiều câu), rồi Lộ trình, rồi game/dạng câu mới, cuối cùng việc cần dữ liệu thật hoặc chủ dự án để sau.
 
 ### A. Việc của chủ dự án (không cần code)
-- [ ] Chạy migration `0011`, `0012`, `0013` trên Supabase SQL Editor (chưa chạy thì app lùi về cách cũ, bài xếp trình độ tổng hợp không lưu dở được).
+- [ ] Chạy migration `0011`, `0012`, `0013`, `0014`, `0015` trên Supabase SQL Editor (chưa chạy thì app lùi về cách cũ, bài xếp trình độ tổng hợp không lưu dở được).
 - [ ] Nhờ giáo viên chấm 30 bài mẫu: `eval/phieu-cham.csv` + `eval/huong-dan-cham.md` → `node scripts/eval-import.mjs <phiếu>` → `node scripts/grade-eval.mjs eval/grade-samples.json` (cần khóa Gemini). Kết quả quyết định có tin máy chấm Viết hay không.
 - [ ] Thử `gen-items`/`gen-passages` với Gemini thật theo `docs/thu-gen-noi-dung.md`.
 - [ ] Merge nhánh (PR) về `main`; sau 1 tháng có dữ liệu thật thì xem lại các ngưỡng ở `docs/lo-trinh-va-xep-bac.md` mục 11.
@@ -145,10 +145,11 @@ Nguyên tắc xếp: việc chặn người dùng thật trước, rồi nền n
 3. [ ] Cụm từ kết hợp (collocations) thêm bộ; từ vựng C1/C2 theo chủ đề.
 4. [ ] Đề Viết/Nói thêm (hiện Viết 12 đề bậc 1–4): thêm bậc 5–6 và đề theo chủ điểm lớp 4–9.
 5. [ ] Nội dung C2 thật; mở rộng ngân hàng xếp trình độ (`reserved.json`) cho bậc 5–6 và cho Đọc/Nghe nhiều bài mỗi bậc.
-6. [ ] Người bản ngữ/giáo viên duyệt: nghĩa Việt từ vựng, bài đọc/nghe, nội dung Bậc 5–6.
+6. [ ] **Sinh/duyệt/gộp nội dung trên giao diện quản trị** (`/quan-ly/noi-dung`, thiết kế ở `docs/quan-ly-noi-dung-tren-giao-dien.md`; giai đoạn A: bảng nháp, duyệt, thống kê tỷ lệ, xuất JSON; giai đoạn B = đọc nội dung từ DB). Làm sau Lộ trình bước đầu.
+7. [ ] Người bản ngữ/giáo viên duyệt: nghĩa Việt từ vựng, bài đọc/nghe, nội dung Bậc 5–6.
 
-### C. Lộ trình một con đường + Phòng thử thách (sau B1–B2)
-Thiết kế đã chốt ở `docs/lo-trinh-va-xep-bac.md` (chưa xây): bảng nấc/tiến độ nấc, mở nấc khi làm hết bài, thử sức nấc cao hơn, trang `/lo-trinh`, Phòng thử thách tính giờ, đề xuất nâng/hạ bậc, kỹ năng yếu nhất đẩy nhiều hơn khi chọn bài.
+### C. Lộ trình một con đường + Phòng thử thách
+**Đã xây bản đầu (26/10/2026):** `/lo-trinh`, bài trong nấc, mở nấc tuần tự/thử sức, bỏ qua, gợi ý hôm nay có đẩy kỹ năng yếu (cần migration `0014`). **Đã thêm (26/10/2026):** điểm bắt đầu từ bài xếp trình độ / bài vượt cấp 20 câu (migration `0015`), cổng nhảy bậc + thanh tiến độ, ngưỡng nghiêm dần theo bậc (`docs/lo-trinh-va-xep-bac.md` mục 12). Còn lại: mức nhớ thẻ ôn theo bậc cho điều kiện nhảy bậc, điều kiện theo từng kỹ năng, giới hạn thử bài vượt cấp, Phòng thử thách + lời giải thích áp lực, Học tiếp ở trang chủ, giáo viên xem nấc bỏ qua, đồ họa. Thiết kế đã chốt ở `docs/lo-trinh-va-xep-bac.md`; ban đầu gồm: bảng nấc/tiến độ nấc, mở nấc khi làm hết bài, thử sức nấc cao hơn, trang `/lo-trinh`, Phòng thử thách tính giờ, đề xuất nâng/hạ bậc, kỹ năng yếu nhất đẩy nhiều hơn khi chọn bài.
 
 ### D. Dạng câu hỏi và game mới cho Đọc/Nghe (dùng lại bài sẵn có, không cần soạn thêm bài)
 Mọi dạng dưới đây sinh từ bài và câu có sẵn bằng hàm thuần (như `derive.ts` làm cho ngữ pháp) và **máy chấm bằng mã, không dùng Gemini** vì đáp án cố định. Chỉ bài tự luận mở (Viết/Nói) mới cần Gemini.
@@ -158,6 +159,7 @@ Mọi dạng dưới đây sinh từ bài và câu có sẵn bằng hàm thuần
 - [ ] Nghe-điền chỗ trống (bài nghe, che từ khóa; chấm: so khớp chuỗi có chấp nhận biến thể chính tả Anh-Mỹ).
 - [ ] Tìm bằng chứng: chạm vào câu trong bài làm căn cứ cho đáp án (dùng dữ liệu `evidence` sẵn có; chấm: câu chạm trùng câu căn cứ).
 - [ ] Game "săn từ khóa" cho đọc: 60 giây chạm đúng từ/cụm theo yêu cầu; game "nghe nhanh" cho nghe: câu Đúng/Sai/Không nêu bấm giờ (tái dùng `SprintGame`).
+- [ ] **Câu đọc to (read-aloud) lồng vào các bài sẵn có** (đề xuất và làm rõ của chủ dự án 26/10/2026: KHÔNG phải bài tập riêng, chỉ là một dạng câu cho đa dạng): thêm `kind: "speak"` cạnh sắp xếp/gõ/nghe chép/tìm lỗi. Sinh từ câu trắc nghiệm có sẵn bằng `deriveSpeak` trong `derive.ts` (lấy câu đúng hoàn chỉnh), chen vào qua `mixVariants` (tối đa 1 câu mỗi lượt, ở nửa sau lượt, câu ngắn trước câu dài), nên tự có mặt ở luyện chủ điểm, luyện thích ứng, bài trong Lộ trình, bài kiểm tra cuối chủ điểm, bài vượt cấp, game 60 giây (một số game bấm giờ có thể bỏ vì đọc to chậm). Quy tắc: chỉ xuất hiện khi trình duyệt có nhận dạng giọng nói và đã cho phép micro; có công tắc "Tắt câu đọc to" ở thanh cài đặt (ngại nói, lớp ồn); câu đọc to luôn có nút "Bỏ qua câu này" và bỏ qua không bị tính sai. Chấm: (1) nhận dạng giọng nói của trình duyệt, chấm bằng mã (so từng từ với câu mẫu, báo từ nào chưa rõ, đúng khi từ 80% từ đúng); không lưu âm thanh; chỉ đo mức nghe hiểu được, không đo từng âm, nên nhãn trên giao diện là "đọc rõ từ nào" chứ không phải "điểm phát âm"; (2) sau này, khi đã có CAPTCHA/hạn mức, nhận xét từng âm bằng Gemini nghe âm thanh và đo bằng bộ mẫu giáo viên chấm trước khi tin điểm. Điểm câu đọc to ghi như câu trả lời thường (vào Elo/chuỗi ngày).
 - [ ] Tóm tắt một câu (viết ngắn sau khi đọc/nghe) — dạng mở, chấm bằng Gemini nên để sau cùng và chỉ làm khi đã có CAPTCHA + hạn mức.
 
 ### E. Theo dõi tiến độ (chỉ làm khi có dữ liệu thật)
