@@ -3,7 +3,7 @@
 Tài liệu đề xuất (26/10/2026), chưa dùng để sinh nội dung chính thức. Mọi con số là điểm khởi đầu, chỉnh bằng dữ liệu thật.
 
 ## 1. Bốn tệp "Gemini prompt grammar topic …" thật ra là gì
-`reference/Gemini prompt grammar topic {prepositions, passive voice, relative clauses, conditional sentences}.txt` (trên nhánh `claude/improve-exercises-n2fs1t`) **không phải prompt**: đó là **kết quả JSON** Gemini trả về cho bốn chuyên đề đầu của bản cũ. **Lời nhắc gốc không còn trong repo**. Nếu bạn còn lịch sử trò chuyện Gemini cũ thì dán đoạn lời nhắc vào `reference/`; nếu không, bốn tệp cho ta biết *lời nhắc cũ đã đòi gì* (lược đồ ngầm) và chất lượng nó cho ra.
+`reference/Gemini prompt grammar topic {prepositions, passive voice, relative clauses, conditional sentences}.txt` (trên nhánh `claude/improve-exercises-n2fs1t`) **không phải prompt**: đó là **kết quả JSON** Gemini trả về cho bốn chuyên đề đầu của bản cũ. Các lời nhắc thật nằm ở chín tệp `reference/prompt soạn nội dung*.txt` và `reference/prompt placement test bank tham khảo.txt` (xem mục 10). Bốn tệp kết quả cho ta biết lời nhắc cũ cho ra chất lượng gì.
 
 **Lược đồ ngầm của bản cũ:** `{id, title, level (một nhãn), theory{usages[label, explanationVi, examples[en, vi]], formulas|null, signalWords[word, meaningVi], commonMistakes[chuỗi]}, exercises[15 × {id, type "fill-blank-mcq", prompt, choices[4], correctIndex, explanation}]}`.
 
@@ -130,3 +130,85 @@ Bổ sung vào cùng quy trình (tham số khởi điểm, **đo lại từ chí
 3. Từ vựng: nhóm từ riêng cho placement, theo dõi từ đã dùng.
 4. Đọc rồi nghe: ~24 bài mỗi kỹ năng.
 5. Eval set cho chấm Viết/Nói.
+
+## 10. Đánh giá chín lời nhắc thật của chủ dự án và khuôn nâng cấp
+Đã đọc toàn bộ chín tệp (cập nhật 26/10/2026).
+
+### 10.1 Các tệp này là gì
+| Tệp | Mục đích | Ghi chú |
+|---|---|---|
+| `prompt soạn nội dung.txt` | Soạn trọn một chuyên đề ngữ pháp (lý thuyết + 15 câu), mẫu Present Perfect B1 | Nền của cả bộ chuyên đề đầu |
+| `… 4, 5, 6, 7, 8` | **Mở rộng** thêm 15 câu cho: mệnh đề quan hệ, hiện tại hoàn thành, giới từ, bị động, điều kiện | Theo mẫu: "đã có 15 câu, soạn 15 câu mới" |
+| `… 3` | Ngân hàng **Đọc** theo kiểu "đầu vào dễ hiểu" (Krashen i+1): 5 cấp × 5 bài, câu hỏi mở không bắt buộc | Không phải trắc nghiệm |
+| `… 2` | Ngân hàng **Nghe** song sinh với (3): viết cho tai, nhãn người nói, câu hỏi mở | Không phải trắc nghiệm |
+| `prompt placement test bank tham khảo.txt` | **Ngân hàng nghe hiểu trắc nghiệm** kiểu Cambridge/IELTS, 5 cấp × 6 bài × 4 câu | Tên tệp ghi "placement" nhưng nội dung là ngân hàng **Nghe**; lời nhắc sinh `placement bank` (3 ngữ pháp + 3 từ vựng + 1 đoạn đọc mỗi cấp) **vẫn chưa có** trong repo |
+
+### 10.2 Điểm mạnh đáng giữ (và đã dùng được cho nội dung hiện tại)
+1. **Ràng buộc cấp độ nói bằng số:** độ dài, độ dài câu, thì được phép, "không chắc thì chọn từ đơn giản hơn". Đây là chỗ AI hay sai nhất; lời nhắc đã nêu rõ.
+2. **"Viết cho tai":** câu ngắn hơn văn viết, ít mệnh đề lồng nhau, ngập ngừng nhẹ kiểu "well", "you know" từ B1; nhãn người nói; nghe kể chuyện/podcast/voice message. Khớp với cách app đọc bằng TTS nhiều giọng.
+3. **Phủ đều các cách dùng** của chuyên đề bằng danh sách đánh số, và tách riêng "phần khó" ngoài danh sách (since/for, đảo ngữ, rút gọn…).
+4. **Cấu trúc độ khó theo vị trí** (5/5/5) với nội dung từng nhóm được mô tả rõ (ví dụ nhóm 3 gồm đảo ngữ, hỗn hợp).
+5. **Ràng buộc JSON cụ thể** từ kinh nghiệm thật (dấu nháy kép, `\n`, không dùng markdown) và "không thêm `tags`, người biên tập làm thủ công".
+6. **Bộ loại câu hỏi nghe chuẩn thi:** chi tiết, ý chính, thái độ/quan điểm, suy luận, và mỗi bài trộn các loại (đã dùng trong ngân hàng nghe hiện có).
+7. **Câu hỏi mở kèm đáp án mẫu** (`modelAnswer`) để người học tự đối chiếu mà không tốn chi phí chấm AI.
+8. Giải thích tiếng Việt bắt buộc, ví dụ song ngữ, lỗi thường gặp của người Việt kèm câu sai/đúng.
+
+### 10.3 Chỗ thiếu và cách nâng cấp
+| Thiếu | Hậu quả đã thấy | Nâng cấp |
+|---|---|---|
+| Lời nhắc mở rộng **không đưa 15 câu cũ vào** nhưng đòi "không trùng" | Mô hình không thể biết nên trùng ngữ cảnh | Truyền danh sách đề cũ (hoặc mẫu) vào lời nhắc; **mã** lọc câu trùng/gần trùng sau khi sinh |
+| `correctIndex` do mô hình tự đặt | Lệch vị trí (đã đo: B nhiều, D ít) | Bắt đặt đáp án đúng ở vị trí 0, **mã xáo** và xáo kèm giải thích |
+| Một `explanation` chung, "3 đáp án nhiễu hợp lý" nhưng không nói thế nào là hợp lý | Giải thích thiếu cho đáp án sai; đáp án nhiễu cũng đúng (40 câu phải sửa) | Giải thích riêng từng đáp án; đáp án nhiễu là lỗi thật của người Việt, có nhãn loại lỗi; tự kiểm "chỉ một đáp án chấp nhận được" |
+| Cấp độ chỉ 5 mức, gộp A1–A2, nhãn CEFR | Không khớp Bậc 1–6 của dự án | Dùng Bậc 1–6 (kèm CEFR); mô hình chỉ đề xuất bậc, bậc cuối cùng do mã/dữ liệu |
+| Ràng buộc từ vựng chỉ bằng lời ("500–800 từ phổ biến nhất") | Không kiểm chứng được; AI "thường viết khó hơn" | Đưa danh sách từ cho phép; **kiểm bằng mã** với English Vocabulary Profile (xem 10.5) |
+| Đối tượng "người học luyện thi", chủ đề tự do | Chủ đề không hợp trẻ 9–15, thiếu kiểm soát nội dung | Nêu tuổi, chủ đề phù hợp, danh sách điều cấm; ưu tiên tiếng Anh Mỹ |
+| Một lần sinh 25–30 bài dài | Đã "gặp lỗi JSON nhiều lần"; chất lượng giảm cuối lượt | Mỗi lần **một bậc, 3–5 bài**; dùng đầu ra có cấu trúc nếu API hỗ trợ (cần đối chiếu tài liệu Google); mã kiểm tra và yêu cầu sinh lại phần lỗi |
+| Độ dài bài đọc/nghe lệch với thực tế ngân hàng hiện có | Bậc 1 bài đọc hiện ~46–77 từ, prompt đòi 100–150 | Dùng độ dài thật của ngân hàng hiện có làm bản vẽ (10.4) |
+| Id do mô hình đặt | Dễ trùng, khó nối vào hệ thống | Mã đặt id |
+| Không có bước phản biện độc lập | "không có con người kiểm tra lại" | Quy trình mục 3: giải mù + người duyệt mẫu |
+| Câu hỏi đọc/nghe trong hai bản khác nhau (mở vs trắc nghiệm) | Hai sản phẩm trộn lẫn | Tách rõ hai loại (xem 10.6) |
+
+### 10.4 Khuôn nâng cấp cho bài đọc và nghe (trắc nghiệm, Bậc 1–6)
+Độ dài mục tiêu lấy từ **ngân hàng hiện có** (đo bằng số từ tiếng Anh của từng bài), để bài mới cùng thang với bài cũ:
+| Bậc | Đọc (từ) | Nghe (từ) |
+|---|---|---|
+| 1 | 45–75 | 40–55 |
+| 2 | 85–120 | 78–96 |
+| 3 | 150–190 | 90–170 |
+| 4 | 205–250 | 190–250 |
+| 5 | 280–345 | 250–305 |
+| 6 | 390–445 | 340–395 |
+(Nghe Bậc 3 hiện có biên độ rộng, nên thu hẹp khi sinh mới: 110–150. Mỗi bài 4 câu.)
+
+Khuôn BÀI ĐỌC (mã điền `{{ }}`):
+```
+You are an experienced EFL materials writer. Write ONE reading passage for Vietnamese students aged 9–15 at Bậc {{bac}} (CEFR {{cefr}}), American English, original text.
+GENRE: {{genre: narrative | blog/diary | email/letter | informational article | dialogue | notice/advert}}  TOPIC: {{topic}}  (not already used: {{usedTopics}})
+LENGTH: {{minWords}}–{{maxWords}} words.
+LEVEL CONTROL: at least 95% of running words must be at or below CEFR {{cefr}} (English Vocabulary Profile); the rest are proper names or words
+that the context makes clear. Sentences average {{avgSentence}} words. Allowed grammar: {{allowedGrammar}}. NOT allowed: {{forbiddenGrammar}}.
+If unsure whether a word is too hard, use a simpler word.
+CONTENT RULES: engaging, with a real story, feeling or surprise; suitable for children; no violence, romance, politics, brands or real people. Any real-world fact
+(dates, numbers, places) must be correct and widely known; list each fact in "facts".
+QUESTIONS: write exactly 4 multiple-choice questions, in this mix: {{questionMix: e.g. 1 detail, 1 main idea, 1 inference, 1 vocabulary-in-context or True/False/Not given}}.
+For each: the correct option PARAPHRASES the text (never copy a phrase verbatim); each wrong option is plausible, uses words from the text, but is clearly wrong;
+exactly one option is correct; "Not given" must truly be not inferable.
+PUT THE CORRECT OPTION FIRST (index 0); the system will shuffle. choiceExplanations: four Vietnamese strings ("Đúng —" / "Sai —" + reason + the sentence in the text
+that proves it). Return ONLY JSON: {"title":"","genre":"","passage":"","facts":[],"questions":[{"type":"detail|main_idea|inference|vocab|tfng","question":"",
+"choices":["","","",""],"choiceExplanations":["","","",""],"evidence":"quote from passage","intendedBac":0}]}
+```
+Khuôn BÀI NGHE: như trên, thay phần nội dung bằng quy tắc **viết cho tai** (câu ngắn hơn văn viết, ít mệnh đề lồng, lời nói tự nhiên từ B1 như "well", "you know", không lạm dụng), thể loại (hội thoại 2 người, độc thoại/podcast cá nhân, thông báo, voice message, bản tin nhẹ), **nhãn người nói** `A:`/`B:` (hoặc tên) xuống dòng giữa lượt (khớp `src/lib/audio/dialogue.ts`), thông tin then chốt xuất hiện trong lời nói rồi được **diễn đạt lại** trong đáp án (không để đáp án trùng cụm từ nghe), và loại câu thêm `attitude` (thái độ/quan điểm người nói).
+
+Giải mù cho đọc/nghe: mô hình trả lời 4 câu **chỉ dựa vào đoạn/lời thoại, không thấy đáp án**; lệch đáp án thì câu hỏi mơ hồ, loại.
+
+### 10.5 Kiểm bằng mã: độ khó từ vựng và độ dài
+Đề xuất script `scripts/check-text-level.mjs` (chưa viết): với mỗi bài đọc/nghe tính số từ, độ dài câu trung bình, và **tỷ lệ từ nằm ngoài danh sách từ vựng của bậc** (dùng danh sách từ vựng A1–C2 đã có trong `src/content/vocab`, đã nạp từ English Vocabulary Profile). Báo bài vượt ngưỡng (vd >5% từ cao hơn bậc) hoặc lệch độ dài. Dùng được **ngay** để rà ngân hàng hiện có (có thể phát hiện bài ghi bậc thấp mà từ khó) và để lọc bài do Gemini sinh trước khi người duyệt. Cần lưu ý: danh sách từ chỉ gồm danh/động/tính/trạng từ đơn, nên tỷ lệ chỉ là chỉ báo, không phải kết luận.
+
+### 10.6 Hai loại nội dung đọc/nghe: tách rõ
+- **Bài kiểm hiểu (trắc nghiệm, chấm bằng mã):** loại đang có (`/doc`, `/nghe`), dùng cho luyện, xếp trình độ, Phòng thử thách.
+- **Đầu vào dễ hiểu (Comprehensible Input), câu hỏi mở không bắt buộc:** loại của prompt 2 và 3. Chưa có trong app. Rất hợp với **luồng "một con đường"**: một khối thư giãn cuối bài hôm nay, đọc/nghe vì thú vị, không áp lực, không tính điểm. Câu hỏi mở dùng `modelAnswer` để **tự đối chiếu** (người học gõ rồi xem đáp án mẫu), nên **không tốn chi phí chấm AI** và không cần hạn mức. Khi làm: nâng từ 5 cấp lên Bậc 1–6, thêm kiểm từ vựng (10.5), tăng đa dạng thể loại, mã đặt id.
+
+### 10.7 Việc tiếp theo cho phần lời nhắc
+1. Viết `scripts/check-text-level.mjs` và chạy trên ngân hàng đọc/nghe/chuyên đề hiện có, báo cáo cho chủ dự án duyệt.
+2. Chuyển các khuôn ở mục 4, 5, 10.4 thành tệp trong `src/lib/ai/prompts/` có phiên bản; viết `scripts/gen-items.mjs` và `scripts/review-items.mjs` (chạy ở máy chủ dự án với khóa của chủ dự án).
+3. Soạn lời nhắc cho ngân hàng placement tổng hợp (bản vẽ mục 7) khi làm bài xếp trình độ 30–40 câu.
