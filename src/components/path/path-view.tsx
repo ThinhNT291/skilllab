@@ -1,6 +1,8 @@
 "use client"
 
-import { useMemo } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
+import confetti from "canvas-confetti"
+import { updateSettings, useSettings } from "@/lib/settings"
 import Link from "next/link"
 import { levelLabel } from "@/lib/content/bac"
 import { KIND_LABEL, STEPS_PER_BAC, type PathStep } from "@/lib/path/catalog"
@@ -10,9 +12,13 @@ import { lessonPassed, skippedSteps, type LessonResult, type StepState } from "@
 import { startOrder } from "@/lib/path/start"
 import { useProfile } from "@/components/progress/use-profile"
 import { usePathState } from "./use-path-state"
+import { PathRoad } from "./path-road"
+import { describeEvents, diffSnapshot, hasEvents, NO_EVENTS, parseSnapshot, snapshotOf } from "@/lib/path/celebrate"
+import { LeapLink, LessonList } from "./step-parts"
 
 const BTN = "inline-block rounded-game border-b-[5px] border-primary-deep bg-primary px-5 py-3 text-lg font-extrabold text-primary-foreground active:translate-y-[3px] active:border-b-2"
 const TODAY_COUNT = 4
+const SEEN_KEY = "skilllab.pathSeen"
 
 const CHIP: Record<StepState["status"], string> = {
   done: "bg-success-soft text-foreground",
@@ -33,12 +39,36 @@ function chipText(s: StepState): string {
   return "🔒 Chưa mở"
 }
 
-const SOURCE_TEXT = { placement: "theo bài xếp trình độ", leap: "nhờ bài vượt cấp" } as const
+const SOURCE_TEXT = { placement: "theo bài xếp trình độ", leap: "nhờ bài vượt cấp", challenge: "nhờ Phòng thử thách" } as const
 
 /** Bản đồ Lộ trình: nấc hiện tại, bài hôm nay, các nấc theo bậc. Trạng thái tính lại từ kết quả từng bài (`lib/path/progress.ts`). */
 export function PathView({ path }: { path: PathStep[] }) {
   const { loading, error, results: map, start, readiness, state, next } = usePathState(path)
   const profile = useProfile()
+  const { pathView: view } = useSettings()
+  // Ảnh chụp trạng thái lần xem trước (lưu ở trình duyệt): đọc một lần lúc mở trang, để so với trạng thái hiện tại.
+  const [prevSeen] = useState(() => {
+    try {
+      return parseSnapshot(JSON.parse(localStorage.getItem(SEEN_KEY) ?? "null"))
+    } catch {
+      return null
+    }
+  })
+  const snapshot = useMemo(() => snapshotOf(state, [1, 2, 3, 4, 5].filter((b) => readiness.get(b)?.ready)), [state, readiness])
+  // Chặng vừa xong, cổng vừa mở so với lần xem trước thì ăn mừng. Lần đầu xem (chưa có ảnh chụp) chỉ ghi lại, không ăn mừng.
+  const events = useMemo(() => (loading ? NO_EVENTS : diffSnapshot(prevSeen, snapshot)), [loading, prevSeen, snapshot])
+  const celebrated = useRef(false)
+  useEffect(() => {
+    if (loading || celebrated.current) return
+    celebrated.current = true
+    try {
+      localStorage.setItem(SEEN_KEY, JSON.stringify(snapshot))
+    } catch {
+      // Trình duyệt chặn lưu trữ: bỏ qua, chỉ mất việc ăn mừng lần sau
+    }
+    if (hasEvents(events) && (events.newlyDone.length > 0 || events.gatesOpened.length > 0) && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) confetti({ particleCount: events.gatesOpened.length ? 160 : 90, spread: 80, origin: { y: 0.4 } })
+  }, [loading, snapshot, events])
+  const celebration = useMemo(() => describeEvents(events, (id) => { const st = state.steps.find((x) => x.step.id === id); return st ? `${levelLabel(st.step.bac)} · chặng ${st.step.stepInBac}` : "chặng mới" }, levelLabel), [events, state])
 
   const weakest = useMemo(() => weakestSkill((profile?.abilities ?? []).map((a) => ({ skill: a.skill, rating: a.rating, reliable: a.confidence !== "low" }))), [profile])
   const today = useMemo(() => {
@@ -56,6 +86,13 @@ export function PathView({ path }: { path: PathStep[] }) {
   return (
     <div className="space-y-6">
       {error && <p className="rounded-game border-2 border-dashed border-border p-3 text-sm text-muted-foreground">Chưa đọc được kết quả đã lưu ({error}). Đã chạy các tệp 0014 và 0015 trong Supabase chưa? Lộ trình vẫn xem được nhưng chưa nhớ tiến độ.</p>}
+
+      {celebration && (
+        <p className="anim-pop rounded-game border-2 border-success bg-success-soft px-4 py-3 font-extrabold" role="status">
+          <span aria-hidden="true">🎉 </span>
+          {celebration}
+        </p>
+      )}
 
       <section className="rounded-game border-2 border-border bg-card p-5">
         {cur ? (
@@ -87,7 +124,7 @@ export function PathView({ path }: { path: PathStep[] }) {
                     <ul className="mt-1 space-y-1">
                       {today.map((l) => (
                         <li key={l.id}>
-                          <Link href={`/lo-trinh/bai/${l.id}`} className="text-primary underline underline-offset-4">
+                          <Link href={`/lo-trinh/bai/${l.id}`} className="inline-block py-1 text-primary underline underline-offset-4">
                             {KIND_LABEL[l.kind]} · {l.title}
                           </Link>
                         </li>
@@ -106,7 +143,7 @@ export function PathView({ path }: { path: PathStep[] }) {
       </section>
 
       <p className="text-sm text-muted-foreground">
-        Làm hết bài trong một chặng thì chặng kế mở ra. Bạn cũng được thử sức tối đa hai chặng phía trên, hoặc bấm <strong>Vượt cấp</strong> ở một chặng cao hơn: làm đúng hết 20 câu ở chặng đó thì bạn được bắt đầu từ đó (các chặng dưới vẫn mở để ôn). Thử sức không đổi bậc; lên bậc kế cần học đều nhiều ngày, và bậc càng cao càng cần nhiều câu, nhiều ngày hơn. Muốn bắt đầu cao hơn ngay? <Link href="/xep-trinh-do/tong-hop" className="text-primary underline underline-offset-4">Làm bài xếp trình độ</Link>.
+        Làm hết bài trong một chặng thì chặng kế mở ra. Bạn cũng được thử sức tối đa hai chặng phía trên, hoặc bấm <strong>Vượt cấp</strong> ở một chặng cao hơn: làm đúng hết 20 câu ở chặng đó thì bạn được bắt đầu từ đó (các chặng dưới vẫn mở để ôn). Thử sức không đổi bậc; lên bậc kế cần học đều nhiều ngày, và bậc càng cao càng cần nhiều câu, nhiều ngày hơn. Muốn bắt đầu cao hơn ngay? <Link href="/xep-trinh-do/tong-hop" className="text-primary underline underline-offset-4">Làm bài xếp trình độ</Link>, hoặc thử sức ở <Link href="/phong-thu-thach" className="text-primary underline underline-offset-4">Phòng thử thách</Link> (bài tính giờ, chỉ đề xuất, không bao giờ hạ bậc).
       </p>
       {skipped.length > 0 && (
         <p className="rounded-game border-2 border-dashed border-border p-3 text-sm text-muted-foreground">
@@ -114,6 +151,18 @@ export function PathView({ path }: { path: PathStep[] }) {
         </p>
       )}
 
+      <div className="flex gap-2" role="group" aria-label="Cách xem Lộ trình">
+        {(["road", "list"] as const).map((v) => (
+          <button key={v} type="button" aria-pressed={view === v} onClick={() => updateSettings({ pathView: v })} className={`rounded-full border-2 px-3 py-1.5 text-sm font-bold ${view === v ? "border-primary text-primary" : "border-border bg-card"}`}>
+            {v === "road" ? "🗺️ Bản đồ" : "☰ Danh sách"}
+          </button>
+        ))}
+      </div>
+
+      {view === "road" ? (
+        <PathRoad state={state} map={map} readiness={readiness} startBac={start?.bac ?? 1} events={events} />
+      ) : (
+        <>
       {[...new Set(path.map((s) => s.bac))].map((bac) => {
         const steps = state.steps.filter((s) => s.step.bac === bac)
         if (steps.every((s) => s.step.lessons.length === 0)) return null
@@ -128,6 +177,8 @@ export function PathView({ path }: { path: PathStep[] }) {
           </section>
         )
       })}
+        </>
+      )}
     </div>
   )
 }
@@ -170,7 +221,6 @@ function GateBox({ bac, readiness }: { bac: number; readiness: JumpReadiness }) 
 }
 
 function StepCard({ s, map, canLeap }: { s: StepState; map: Map<string, LessonResult>; canLeap: boolean }) {
-  const open = s.status !== "locked" && s.status !== "gated"
   return (
     <details className={`rounded-game border-2 bg-card p-4 ${s.status === "current" ? "border-primary" : "border-border"}`} open={s.status === "current"}>
       <summary className="cursor-pointer list-none">
@@ -186,30 +236,13 @@ function StepCard({ s, map, canLeap }: { s: StepState; map: Map<string, LessonRe
         </span>
       </summary>
       {canLeap && (
-        <Link href={`/lo-trinh/vuot-cap/b${s.step.bac}-s${s.step.stepInBac}`} className="mt-3 inline-block rounded-game border-2 border-primary px-3 py-1 text-sm font-extrabold text-primary hover:bg-primary hover:text-primary-foreground">
-          🚀 Vượt cấp tới đây (20 câu)
-        </Link>
+        <div className="mt-3">
+          <LeapLink s={s} />
+        </div>
       )}
-      <ul className="mt-3 space-y-1 text-sm">
-        {s.step.lessons.map((l) => {
-          const r = map.get(l.id)
-          const ok = lessonPassed(r, l.bac)
-          return (
-            <li key={l.id} className="flex items-center justify-between gap-2">
-              {open ? (
-                <Link href={`/lo-trinh/bai/${l.id}`} className="text-primary underline underline-offset-4">
-                  {KIND_LABEL[l.kind]} · {l.title}
-                </Link>
-              ) : (
-                <span className="text-muted-foreground">
-                  {KIND_LABEL[l.kind]} · {l.title}
-                </span>
-              )}
-              <span className={ok ? "font-bold" : "text-muted-foreground"}>{ok ? "✓" : r ? `${Math.round(r.bestRatio * 100)}%` : ""}</span>
-            </li>
-          )
-        })}
-      </ul>
+      <div className="mt-3">
+        <LessonList s={s} map={map} />
+      </div>
     </details>
   )
 }

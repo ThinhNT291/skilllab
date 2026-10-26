@@ -35,7 +35,7 @@ export async function recordPathLesson(lessonId: string, correct: number, total:
 export interface PathStart {
   bac: number
   step: number
-  source: "placement" | "leap"
+  source: "placement" | "leap" | "challenge"
 }
 
 /** Điểm bắt đầu đã lưu của hồ sơ hiện tại (null nếu chưa có). Chưa chạy migration 0015 thì trả lỗi `error`, giao diện coi như chưa có. */
@@ -57,6 +57,39 @@ export async function raisePathStart(bac: number, step: number, source: PathStar
   try {
     await ensureProfile()
     const { error } = await createClient().rpc("raise_path_start", { p_bac: bac, p_step: step, p_source: source })
+    return error ? { ok: false, reason: "error", message: error.message } : { ok: true }
+  } catch (e) {
+    return fail(e)
+  }
+}
+
+export interface ChallengeAttemptRow {
+  bac: number
+  correct: number
+  total: number
+  seconds: number
+  verdict: "up" | "stay" | "review"
+  created_at: string
+}
+
+/** Các lần thử Phòng thử thách của hồ sơ hiện tại, mới nhất trước. Chưa chạy migration 0016 thì trả lỗi `error`. */
+export async function getChallengeAttempts(limit = 50): Promise<{ ok: true; rows: ChallengeAttemptRow[] } | Fail> {
+  if (!dbConfigured()) return { ok: false, reason: "not_configured" }
+  try {
+    const profile = await ensureProfile()
+    const { data, error } = await createClient().from("challenge_attempts").select("bac, correct, total, seconds, verdict, created_at").eq("profile_id", profile.id).order("created_at", { ascending: false }).limit(limit)
+    if (error) return { ok: false, reason: "error", message: error.message }
+    return { ok: true, rows: (data ?? []) as ChallengeAttemptRow[] }
+  } catch (e) {
+    return fail(e)
+  }
+}
+
+export async function recordChallengeAttempt(a: { bac: number; correct: number; total: number; seconds: number; skills: { skill: string; correct: number; total: number }[]; verdict: "up" | "stay" | "review" }): Promise<{ ok: true } | Fail> {
+  if (!dbConfigured()) return { ok: false, reason: "not_configured" }
+  try {
+    await ensureProfile()
+    const { error } = await createClient().rpc("record_challenge_attempt", { p_bac: a.bac, p_correct: a.correct, p_total: a.total, p_seconds: Math.round(a.seconds), p_skills: a.skills, p_verdict: a.verdict })
     return error ? { ok: false, reason: "error", message: error.message } : { ok: true }
   } catch (e) {
     return fail(e)

@@ -13,10 +13,11 @@ import { recordRoundDone } from "@/lib/game/bonus"
 import { levelFromXp, xpFor, XP_PER_COIN } from "@/lib/game/xp"
 import { Mascot, type Mood } from "@/components/game/mascot"
 import { ProgressBar } from "./progress-bar"
-import { scaffoldFor } from "@/lib/content/derive"
+import { injectSpeak, scaffoldFor } from "@/lib/content/derive"
+import { useSttSupported } from "@/lib/audio/stt"
 import type { RuleHints } from "@/lib/content/rule-hints"
 import { RetryHint, ReviewNext, WrongFeedback } from "./wrong-feedback"
-import { DictationView, FixView, McqView, ReorderView, SpotView, TypedView, type Result } from "./views"
+import { DictationView, EvidenceView, FixView, McqView, ReorderView, SpeakView, SpotView, TypedView, type Result } from "./views"
 
 /** Sao theo số câu đúng, tính từ tỷ lệ nhưng làm tròn theo số câu thực tế để cả bài 3 câu lẫn 10 câu đều có đủ mức. */
 function starsFor(correct: number, total: number): 0 | 1 | 2 | 3 {
@@ -38,6 +39,8 @@ const KIND_TITLE: Record<Exercise["kind"], string> = {
   dictation: "Nghe và gõ lại",
   spot: "Tìm lỗi sai",
   fix: "Sửa lỗi: gõ lại câu đúng",
+  speak: "Đọc to",
+  evidence: "Tìm câu làm căn cứ",
 }
 
 function titleOf(ex: Exercise): string {
@@ -51,6 +54,8 @@ function correctText(ex: Exercise): string | null {
   if (ex.kind === "dictation") return ex.text
   if (ex.kind === "spot") return ex.correctSentence
   if (ex.kind === "fix") return ex.answers[0]
+  if (ex.kind === "speak") return ex.text
+  if (ex.kind === "evidence") return ex.sentences[ex.answerIndex]
   return null
 }
 
@@ -68,11 +73,14 @@ export function ExerciseRunner({
   rules,
   practiceBase,
   afterResult,
+  speak,
 }: {
   exercises: Exercise[]
+  /** Cho phép chèn một câu đọc to ở nửa sau lượt (chỉ khi trình duyệt nghe được giọng nói và người học không tắt). Không dùng cho bài đo trình độ hay bài thích ứng. */
+  speak?: boolean
   /** Bài thích ứng: câu kế tiếp chọn theo kết quả câu vừa làm (đúng thì khó hơn, sai thì dễ hơn). `exercises` chỉ cần câu đầu. */
   adaptive?: { ladder: Exercise[]; count: number; /** vị trí bắt đầu trên thang (0–1) */ start?: number; /** bước lên/xuống sau mỗi câu */ steps?: { up: number; down: number } }
-  onAnswer?: (record: AnswerRecord) => void
+  onAnswer?: (record: AnswerRecord, exercise: Exercise) => void
   /** Gọi một lần khi người học bấm "Xem kết quả" ở câu cuối. */
   onFinish?: () => void
   /** Đường dẫn về đúng mục lý thuyết của câu (hiện khi trả lời sai). Trả null nếu không có. */
@@ -86,7 +94,8 @@ export function ExerciseRunner({
   /** Nội dung thêm hiện trong khung kết quả của mỗi câu (vd lời thoại kèm căn cứ ở bài nghe). */
   afterResult?: (exercise: Exercise, result: Result) => React.ReactNode
 }) {
-  const { sound, showBac, feedbackMode } = useSettings()
+  const { sound, showBac, feedbackMode, speakQuestions } = useSettings()
+  const sttOk = useSttSupported()
   const [list, setList] = useState(exercises)
   const positionRef = useRef(adaptive?.start ?? START_POSITION)
   const [index, setIndex] = useState(0)
@@ -104,6 +113,15 @@ export function ExerciseRunner({
   useEffect(() => {
     getOwnedItems().then((r) => r.ok && setWorn(r.equipped))
   }, [])
+
+  // Câu đọc to chỉ chèn ở nửa sau lượt và chỉ khi micro dùng được; chèn một lần ngay đầu lượt (câu chưa tới thì mới đổi).
+  const speakInjected = useRef(false)
+  useEffect(() => {
+    if (!speak || adaptive || !sttOk || !speakQuestions || speakInjected.current) return
+    speakInjected.current = true
+    setList((l) => injectSpeak(l, index + 1))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [speak, adaptive, sttOk, speakQuestions])
 
   const total = adaptive ? adaptive.count : list.length
   const done = index >= total
@@ -148,7 +166,7 @@ export function ExerciseRunner({
       if (cur.usageId) setWrongUsages((w) => [...w, cur.usageId!])
     }
     if (sound) (r.correct ? sfx.correct : sfx.wrong)()
-    onAnswer?.({ exerciseId: cur.id, correct: r.correct, choiceIndex: r.choiceIndex, response: r.response })
+    onAnswer?.({ exerciseId: cur.id, correct: r.correct, choiceIndex: r.choiceIndex, response: r.response }, cur)
     if (adaptive && list.length < adaptive.count) {
       positionRef.current = nextPosition(positionRef.current, r.correct, adaptive.steps)
       const nxt = pickAtPosition(adaptive.ladder, new Set(list.map((x) => x.id)), positionRef.current)
@@ -172,6 +190,17 @@ export function ExerciseRunner({
       return
     }
     setResult(r)
+  }
+
+  /** Bỏ qua một câu (câu đọc to): không tính đúng cũng không tính sai, bài ngắn đi một câu. */
+  function skip() {
+    if (!ex || result) return
+    const wasLast = index + 1 >= list.length
+    setList((l) => l.filter((x) => x.id !== ex.id))
+    if (wasLast) {
+      onFinish?.()
+      if (bonusHref) setOfferBonus(recordRoundDone())
+    }
   }
 
   function next() {
@@ -277,6 +306,8 @@ export function ExerciseRunner({
         {current.kind === "fix" && <FixView key={attempt} ex={current} result={result} onResolve={resolve} scaffold={scaffoldFor(index, total)} />}
         {current.kind === "spot" && <SpotView ex={current} result={result} onResolve={resolve} />}
         {current.kind === "dictation" && <DictationView ex={current} result={result} onResolve={resolve} />}
+        {current.kind === "evidence" && <EvidenceView ex={current} result={result} onResolve={resolve} />}
+        {current.kind === "speak" && <SpeakView ex={current} result={result} onResolve={resolve} onSkip={skip} />}
 
         {retry === "offered" && !result && <RetryHint ex={current} rule={current.usageId ? rules?.[current.usageId] : undefined} />}
 

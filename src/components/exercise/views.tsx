@@ -1,9 +1,11 @@
 "use client"
 
 import { useState } from "react"
-import type { Exercise, DictationExercise, McqExercise, ReorderExercise, SpotExercise, FixExercise, TypedExercise } from "@/lib/content/types"
+import type { Exercise, DictationExercise, EvidenceExercise, McqExercise, ReorderExercise, SpeakExercise, SpotExercise, FixExercise, TypedExercise } from "@/lib/content/types"
 import { gradeReorder, gradeSpot, gradeTyped } from "@/lib/grading"
 import { speak, stopSpeaking, useTtsSupported } from "@/lib/audio/tts"
+import { listenOnce, useSttSupported, type Listening, type ListenError } from "@/lib/audio/stt"
+import { bestOf, type SpeakScore } from "@/lib/speech/score"
 import { sfx } from "@/lib/audio/sfx"
 import { getSettings } from "@/lib/settings"
 import { cn } from "@/lib/utils"
@@ -212,6 +214,147 @@ export function DictationView({ ex, result, onResolve }: { ex: DictationExercise
   )
 }
 
+const LISTEN_ERROR: Record<ListenError, string> = {
+  denied: "Trình duyệt chưa cho dùng micro. Bấm vào biểu tượng khóa cạnh địa chỉ trang để cho phép, hoặc bỏ qua câu này.",
+  "no-speech": "Chưa nghe thấy giọng bạn. Thử đọc to hơn, gần micro hơn nhé.",
+  unavailable: "Trình duyệt này chưa hỗ trợ nhận dạng giọng nói. Hãy thử Chrome hoặc Edge, hoặc bỏ qua câu này.",
+  other: "Không nghe được lần này (micro hoặc mạng có vấn đề). Thử lại hoặc bỏ qua câu này.",
+}
+
+const MAX_TRIES = 2
+
+/**
+ * Đọc to một câu: nghe mẫu, bấm mic đọc, thấy ngay từ nào đã nghe rõ. Đạt khi nghe được từ 80% số từ.
+ * Được thử tối đa 2 lần; có nút bỏ qua (câu bị bỏ qua không tính đúng cũng không tính sai).
+ */
+export function SpeakView({ ex, result, onResolve, onSkip }: { ex: SpeakExercise; result: Result | null; onResolve: (r: Result) => void; onSkip?: () => void }) {
+  const stt = useSttSupported()
+  const tts = useTtsSupported()
+  const [listening, setListening] = useState<Listening | null>(null)
+  const [tries, setTries] = useState(0)
+  const [score, setScore] = useState<SpeakScore | null>(null)
+  const [heardText, setHeardText] = useState("")
+  const [error, setError] = useState<ListenError | null>(null)
+  const done = result !== null
+
+  function start() {
+    tap()
+    stopSpeaking()
+    setError(null)
+    const l = listenOnce({
+      onDone: (alts) => {
+        setListening(null)
+        const best = bestOf(ex.text, alts)
+        setScore(best.score)
+        setHeardText(best.text)
+        const used = tries + 1
+        setTries(used)
+        // Đúng thì xong ngay; chưa đúng thì cho thử thêm một lần rồi mới tính.
+        if (best.score.passed || used >= MAX_TRIES) onResolve({ correct: best.score.passed })
+      },
+      onError: (e) => {
+        setListening(null)
+        setError(e)
+      },
+    })
+    setListening(l)
+  }
+
+  const canTry = !done && !listening && stt
+  return (
+    <>
+      <p className="my-2 text-2xl font-extrabold leading-relaxed">Đọc to câu này</p>
+      <p lang="en" className="mb-3 flex flex-wrap gap-x-2 text-2xl leading-relaxed">
+        {(score?.words ?? ex.text.split(/\s+/).map((word) => ({ word, heard: null as boolean | null }))).map((w, i) => (
+          <span key={i} className={cn("rounded px-1", w.heard === true && "bg-success-soft", w.heard === false && "bg-danger-soft underline decoration-wavy decoration-danger")}>
+            {w.word}
+          </span>
+        ))}
+      </p>
+      <div className="mb-3 flex flex-wrap gap-2">
+        {tts && (
+          <>
+            <button type="button" className={GHOST_BTN} disabled={!!listening} onClick={() => speak(ex.text, 0.9)}>
+              🔊 Nghe mẫu
+            </button>
+            <button type="button" className={GHOST_BTN} disabled={!!listening} onClick={() => speak(ex.text, 0.6)}>
+              🐢 Chậm
+            </button>
+          </>
+        )}
+        {canTry && (
+          <button type="button" className={PRIMARY_BTN} onClick={start}>
+            🎤 {tries === 0 ? "Bấm để đọc" : "Đọc lại"}
+          </button>
+        )}
+        {listening && (
+          <button type="button" className={PRIMARY_BTN} onClick={() => listening.stop()} aria-live="polite">
+            ⏺ Đang nghe… bấm khi đọc xong
+          </button>
+        )}
+        {!done && onSkip && !listening && (
+          <button type="button" className={GHOST_BTN} onClick={onSkip}>
+            Bỏ qua câu này
+          </button>
+        )}
+      </div>
+      {!stt && !done && <p className="mb-2 rounded-game border-2 border-dashed border-border px-3 py-2 text-muted-foreground">{LISTEN_ERROR.unavailable}</p>}
+      {error && !done && <p className="mb-2 rounded-game border-2 border-dashed border-border px-3 py-2 text-muted-foreground">{LISTEN_ERROR[error]}</p>}
+      {score && (
+        <p className="text-muted-foreground" role="status">
+          Máy nghe được: <span lang="en">“{heardText}”</span> · rõ {score.words.filter((w) => w.heard).length}/{score.words.length} từ
+          {!done && !score.passed && tries < MAX_TRIES ? ". Chưa đủ, thử đọc lại nhé (từ màu đỏ là từ chưa rõ)." : ""}
+        </p>
+      )}
+      <p className="mt-2 text-xs text-muted-foreground">Máy chỉ kiểm tra từng từ có nghe rõ không, chưa phải điểm phát âm. Ứng dụng không lưu giọng nói; trình duyệt có thể gửi giọng nói tới nhà cung cấp của nó để nhận dạng.</p>
+    </>
+  )
+}
+
+/** Tìm câu làm căn cứ: chạm vào câu trong bài đọc chứa thông tin cho đáp án đúng. */
+export function EvidenceView({ ex, result, onResolve }: { ex: EvidenceExercise; result: Result | null; onResolve: (r: Result) => void }) {
+  const [tapped, setTapped] = useState<number | null>(null)
+  const done = result !== null
+  return (
+    <>
+      <p className="my-2 text-xl font-extrabold leading-relaxed">Tìm câu làm căn cứ</p>
+      <p className="mb-1 text-muted-foreground">
+        Câu hỏi: <span lang="en" className="font-bold text-foreground">{ex.question}</span>
+      </p>
+      <p className="mb-3 text-muted-foreground">
+        Đáp án đúng là <strong lang="en" className="text-foreground">{ex.answerText}</strong>. Chạm vào câu trong bài cho biết điều đó.
+      </p>
+      <ol className="space-y-2" aria-label="Các câu trong bài">
+        {ex.sentences.map((sentence, i) => {
+          const isAnswer = i === ex.answerIndex
+          return (
+            <li key={i}>
+              <button
+                type="button"
+                lang="en"
+                disabled={done}
+                onClick={() => {
+                  setTapped(i)
+                  onResolve({ correct: i === ex.answerIndex, response: String(i) })
+                }}
+                className={cn(
+                  "w-full rounded-xl border-2 border-b-4 bg-card px-3 py-2 text-left text-base enabled:hover:border-primary enabled:active:translate-y-[2px] enabled:active:border-b-2",
+                  !done && "border-border",
+                  done && isAnswer && "border-success bg-success-soft",
+                  done && !isAnswer && i === tapped && "border-danger bg-danger-soft",
+                  done && !isAnswer && i !== tapped && "border-border opacity-60",
+                )}
+              >
+                {sentence}
+              </button>
+            </li>
+          )
+        })}
+      </ol>
+    </>
+  )
+}
+
 export function SpotView({ ex, result, onResolve }: { ex: SpotExercise; result: Result | null; onResolve: (r: Result) => void }) {
   const [tapped, setTapped] = useState<number | null>(null)
   const done = result !== null
@@ -263,5 +406,9 @@ export function ExerciseView({ ex, result, onResolve, scaffold = 0 }: { ex: Exer
       return <SpotView ex={ex} result={result} onResolve={onResolve} />
     case "dictation":
       return <DictationView ex={ex} result={result} onResolve={onResolve} />
+    case "speak":
+      return <SpeakView ex={ex} result={result} onResolve={onResolve} />
+    case "evidence":
+      return <EvidenceView ex={ex} result={result} onResolve={onResolve} />
   }
 }

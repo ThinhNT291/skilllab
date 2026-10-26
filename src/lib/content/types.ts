@@ -112,7 +112,36 @@ export interface FixExercise extends ExerciseBase {
   card: CardSource
 }
 
-export type Exercise = McqExercise | ReorderExercise | TypedExercise | DictationExercise | SpotExercise | FixExercise
+/**
+ * Đọc to một câu hoàn chỉnh (sinh từ câu trắc nghiệm gốc, xem derive.ts). Chấm bằng mã từ lời nhận dạng của trình duyệt (lib/speech/score.ts),
+ * chỉ đo mức nghe rõ từng từ. Câu trả lời ghi ở chủ điểm "speak" nên không tính vào năng lực Elo hay độ vững chuyên đề.
+ */
+export interface SpeakExercise extends ExerciseBase {
+  kind: "speak"
+  /** Câu mẫu hiện cho người học đọc */
+  text: string
+  explanation: string
+  card: CardSource
+}
+
+/**
+ * Tìm câu làm căn cứ: cho câu hỏi của một bài đọc cùng đáp án đúng, người học chạm vào CÂU trong bài chứa căn cứ.
+ * Sinh từ phần trích dẫn trong lời giải thích của câu gốc (xem lib/content/passage-extras.ts); chỉ sinh khi đúng một câu chứa căn cứ.
+ */
+export interface EvidenceExercise extends ExerciseBase {
+  kind: "evidence"
+  /** Câu hỏi của bài đọc */
+  question: string
+  /** Đáp án đúng của câu hỏi (để biết cần tìm căn cứ cho điều gì) */
+  answerText: string
+  /** Các câu của bài đọc theo thứ tự */
+  sentences: string[]
+  answerIndex: number
+  explanation: string
+  card: CardSource
+}
+
+export type Exercise = McqExercise | ReorderExercise | TypedExercise | DictationExercise | SpotExercise | FixExercise | SpeakExercise | EvidenceExercise
 
 export interface AnswerRecord {
   exerciseId: string

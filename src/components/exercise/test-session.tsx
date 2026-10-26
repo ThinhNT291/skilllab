@@ -15,27 +15,27 @@ export function TestSession({ exercises, topic, topicTitle, rules }: { exercises
   const [finished, setFinished] = useState(false)
   const [saved, setSaved] = useState<"pending" | "ok" | "fail">("pending")
 
-  function onAnswer(record: AnswerRecord) {
-    setResults((r) => [...r, record.correct])
-    const ex = exercises.find((e) => e.id === record.exerciseId)
-    if (ex) void recordAnswer(record, ex)
+  function onAnswer(record: AnswerRecord, ex: Exercise) {
+    // Câu đọc to được ghi lại nhưng không tính vào đạt/chưa đạt: nhận dạng giọng nói có thể nghe sai, không nên làm trượt bài kiểm tra.
+    if (ex.kind !== "speak") setResults((r) => [...r, record.correct])
+    void recordAnswer(record, ex)
   }
 
   // Câu cuối đã được ghi nhận từ lúc trả lời (trước khi bấm "Xem kết quả") nên `results` ở đây đã đủ.
   function onFinish() {
     const correct = results.filter(Boolean).length
-    const passed = passedTest(correct, exercises.length)
-    void saveTopicTest(topic, correct, exercises.length, passed).then((r) => setSaved(r.ok ? "ok" : "fail"))
+    const passed = passedTest(correct, results.length)
+    void saveTopicTest(topic, correct, results.length, passed).then((r) => setSaved(r.ok ? "ok" : "fail"))
     if (passed && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) confetti({ particleCount: 140, spread: 90, origin: { y: 0.6 } })
     setFinished(true)
   }
 
   if (!finished) {
-    return <ExerciseRunner exercises={exercises} onAnswer={onAnswer} onFinish={onFinish} rules={rules} practiceBase={`/hoc/${topic}`} theoryHref={(ex) => `/hoc/${ex.topic}${ex.usageId ? `#${ex.usageId}` : ""}`} />
+    return <ExerciseRunner exercises={exercises} onAnswer={onAnswer} onFinish={onFinish} speak rules={rules} practiceBase={`/hoc/${topic}`} theoryHref={(ex) => `/hoc/${ex.topic}${ex.usageId ? `#${ex.usageId}` : ""}`} />
   }
 
   const correct = results.filter(Boolean).length
-  const total = exercises.length
+  const total = results.length
   const passed = passedTest(correct, total)
   return <Result topic={topic} topicTitle={topicTitle} correct={correct} total={total} passed={passed} saved={saved} />
 }
