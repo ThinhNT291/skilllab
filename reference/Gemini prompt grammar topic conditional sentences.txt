@@ -1,0 +1,312 @@
+{
+"id": "conditional-sentences",
+"title": "Câu điều kiện (Conditional Sentences)",
+"level": "B1/B2",
+"theory": {
+"usages": [
+{
+"label": "Câu điều kiện loại 0 (Zero Conditional)",
+"explanationVi": "Cấu trúc: If + S + V(hiện tại đơn), S + V(hiện tại đơn). Loại câu này được dùng để diễn tả những sự thật hiển nhiên, các chân lý hoặc quy luật tự nhiên luôn luôn đúng. Cả hai vế đều sử dụng thì hiện tại đơn.",
+"examples": [
+{
+"en": "If you heat ice, it melts.",
+"vi": "Nếu bạn đun nóng đá, nó sẽ tan chảy."
+},
+{
+"en": "Plants die if they don't get enough water.",
+"vi": "Cây cối sẽ chết nếu chúng không nhận đủ nước."
+}
+]
+},
+{
+"label": "Câu điều kiện loại 1 (First Conditional)",
+"explanationVi": "Cấu trúc: If + S + V(hiện tại đơn), S + will/can/may + V_inf. Dùng để nói về một sự việc hoặc tình huống có khả năng cao sẽ xảy ra ở hiện tại hoặc tương lai nếu điều kiện được đáp ứng.",
+"examples": [
+{
+"en": "If it rains tomorrow, we will stay at home.",
+"vi": "Nếu ngày mai trời mưa, chúng tôi sẽ ở nhà."
+},
+{
+"en": "I will send you the report if I finish it early.",
+"vi": "Tôi sẽ gửi cho bạn báo cáo nếu tôi hoàn thành nó sớm."
+}
+]
+},
+{
+"label": "Câu điều kiện loại 2 (Second Conditional)",
+"explanationVi": "Cấu trúc: If + S + V2/ed (động từ 'to be' dùng 'were' cho mọi ngôi), S + would/could/might + V_inf. Dùng để diễn tả một giả định không có thật hoặc khó có thể xảy ra ở hiện tại, thường mang tính tưởng tượng hoặc khuyên nhủ.",
+"examples": [
+{
+"en": "If I were you, I would tell her the truth.",
+"vi": "Nếu tôi là bạn, tôi sẽ nói cho cô ấy sự thật."
+},
+{
+"en": "If he had a lot of money, he could buy that sports car.",
+"vi": "Nếu anh ấy có nhiều tiền, anh ấy đã có thể mua chiếc xe thể thao đó."
+}
+]
+},
+{
+"label": "Câu điều kiện loại 3 (Third Conditional)",
+"explanationVi": "Cấu trúc: If + S + had + V3/ed, S + would/could/might + have + V3/ed. Dùng để diễn tả một giả định trái ngược hoàn toàn với những gì đã thực sự xảy ra trong quá khứ, thường mang ý nghĩa nuối tiếc hoặc trách móc.",
+"examples": [
+{
+"en": "If she had studied harder, she would have passed the final exam.",
+"vi": "Nếu cô ấy học chăm chỉ hơn, cô ấy đã vượt qua bài thi cuối kỳ."
+},
+{
+"en": "We wouldn't have missed the flight if we had left the house earlier.",
+"vi": "Chúng tôi đã không lỡ chuyến bay nếu chúng tôi rời nhà sớm hơn."
+}
+]
+},
+{
+"label": "Câu điều kiện hỗn hợp (Mixed Conditional)",
+"explanationVi": "Cấu trúc phổ biến nhất (Loại 3 + Loại 2): If + S + had + V3/ed, S + would + V_inf. Dùng để diễn tả một giả định trái ngược trong quá khứ nhưng kết quả của nó lại ảnh hưởng trực tiếp đến hiện tại.",
+"examples": [
+{
+"en": "If I had eaten breakfast this morning, I wouldn't be so hungry now.",
+"vi": "Nếu sáng nay tôi ăn sáng thì bây giờ tôi đã không đói thế này."
+},
+{
+"en": "If he had taken the map, he wouldn't be lost right now.",
+"vi": "Nếu anh ấy cầm theo bản đồ thì bây giờ anh ấy đã không bị lạc."
+}
+]
+}
+],
+"formulas": null,
+"signalWords": [
+{
+"word": "unless",
+"meaningVi": "trừ khi (= if... not)"
+},
+{
+"word": "provided that / providing that",
+"meaningVi": "với điều kiện là, miễn là"
+},
+{
+"word": "as long as",
+"meaningVi": "miễn là"
+},
+{
+"word": "in case",
+"meaningVi": "phòng khi, trong trường hợp"
+},
+{
+"word": "suppose / supposing (that)",
+"meaningVi": "giả sử như"
+},
+{
+"word": "even if",
+"meaningVi": "ngay cả khi, cho dù"
+},
+{
+"word": "only if",
+"meaningVi": "chỉ khi"
+}
+],
+"commonMistakes": [
+"Sử dụng thì tương lai (will/would) ngay bên trong mệnh đề 'If'. Ví dụ sai: 'If it will rain...'. Cần nhớ mệnh đề If luôn dùng thì hiện tại/quá khứ, thì tương lai/giả định chỉ dùng ở mệnh đề chính.",
+"Nhầm lẫn to be 'was' và 'were' trong câu điều kiện loại 2. Trong tiếng Anh chuẩn, đặc biệt ở ngữ cảnh trang trọng, ta phải dùng 'were' cho mọi chủ ngữ (If I were, If she were) thay vì 'was'.",
+"Quên trợ động từ 'have' trong mệnh đề chính của câu điều kiện loại 3. Ví dụ sai: 'would had done' hoặc 'would done', cách chia đúng luôn phải là 'would have + V3/ed'."
+]
+},
+"exercises": [
+{
+"id": "ex1",
+"type": "fill-blank-mcq",
+"prompt": "If you mix blue and yellow, you ______ green.",
+"choices": [
+"are getting",
+"gets",
+"get",
+"will getting"
+],
+"correctIndex": 2,
+"explanation": "Câu điều kiện loại 0 diễn tả một chân lý, sự thật hiển nhiên (pha màu). Mệnh đề chính chia ở thì hiện tại đơn. Chủ ngữ 'you' đi với động từ nguyên mẫu 'get'."
+},
+{
+"id": "ex2",
+"type": "fill-blank-mcq",
+"prompt": "If the weather ______ nice tomorrow, we will go for a picnic.",
+"choices": [
+"is",
+"will be",
+"were",
+"was"
+],
+"correctIndex": 0,
+"explanation": "Câu điều kiện loại 1 nói về sự việc có thể xảy ra ở tương lai ('tomorrow'). Mệnh đề If phải chia ở thì hiện tại đơn. Chủ ngữ 'the weather' số ít đi với 'is'."
+},
+{
+"id": "ex3",
+"type": "fill-blank-mcq",
+"prompt": "If I ______ a millionaire, I would buy a large mansion in the countryside.",
+"choices": [
+"am",
+"was",
+"have been",
+"were"
+],
+"correctIndex": 3,
+"explanation": "Câu điều kiện loại 2 giả định điều không có thật ở hiện tại ('Tôi không phải triệu phú'). Với động từ 'to be', ta dùng 'were' cho mọi ngôi."
+},
+{
+"id": "ex4",
+"type": "fill-blank-mcq",
+"prompt": "We wouldn't have got wet if you ______ to bring the umbrella.",
+"choices": [
+"hadn't forgotten",
+"didn't forget",
+"wouldn't forget",
+"haven't forgotten"
+],
+"correctIndex": 0,
+"explanation": "Câu điều kiện loại 3 diễn tả điều trái ngược với quá khứ. Mệnh đề chính dùng 'wouldn't have + V3', nên mệnh đề If phải dùng quá khứ hoàn thành (had + V3)."
+},
+{
+"id": "ex5",
+"type": "fill-blank-mcq",
+"prompt": "She will be very happy if you ______ her a nice birthday gift.",
+"choices": [
+"gives",
+"gave",
+"give",
+"will give"
+],
+"correctIndex": 2,
+"explanation": "Câu điều kiện loại 1 (nhận biết qua vế chính 'will be'). Mệnh đề If dùng hiện tại đơn. Chủ ngữ 'you' đi với động từ 'give' nguyên thể."
+},
+{
+"id": "ex6",
+"type": "fill-blank-mcq",
+"prompt": "______ you study hard, you won't pass the final examination.",
+"choices": [
+"If",
+"Unless",
+"Provided that",
+"As long as"
+],
+"correctIndex": 1,
+"explanation": "Về mặt ngữ nghĩa: 'Trừ khi bạn học chăm, nếu không bạn sẽ trượt'. 'Unless' mang nghĩa phủ định (If you don't study hard), phù hợp nhất với ngữ cảnh."
+},
+{
+"id": "ex7",
+"type": "fill-blank-mcq",
+"prompt": "I will give you my phone number ______ you need to contact me urgently.",
+"choices": [
+"in case",
+"unless",
+"supposing",
+"even if"
+],
+"correctIndex": 0,
+"explanation": "'In case' có nghĩa là 'phòng khi, trong trường hợp'. Câu này mang nghĩa: 'Tôi sẽ đưa số cho bạn phòng khi bạn cần liên lạc khẩn cấp'."
+},
+{
+"id": "ex8",
+"type": "fill-blank-mcq",
+"prompt": "If he ______ the speed limit, he wouldn't have paid such a heavy fine.",
+"choices": [
+"hasn't exceeded",
+"didn't exceed",
+"doesn't exceed",
+"hadn't exceeded"
+],
+"correctIndex": 3,
+"explanation": "Mệnh đề chính dùng 'wouldn't have paid' (Loại 3). Do đó mệnh đề If cần lùi về quá khứ hoàn thành 'hadn't exceeded' (nếu anh ta đã không vượt quá tốc độ)."
+},
+{
+"id": "ex9",
+"type": "fill-blank-mcq",
+"prompt": "You can use my laptop ______ you promise to handle it carefully.",
+"choices": [
+"in case",
+"unless",
+"as long as",
+"even if"
+],
+"correctIndex": 2,
+"explanation": "'As long as' có nghĩa là 'miễn là'. Ngữ nghĩa câu: Bạn có thể dùng máy của tôi miễn là bạn hứa sẽ giữ gìn cẩn thận."
+},
+{
+"id": "ex10",
+"type": "fill-blank-mcq",
+"prompt": "What would you do if you ______ a wallet full of cash on the street?",
+"choices": [
+"find",
+"will find",
+"found",
+"had found"
+],
+"correctIndex": 2,
+"explanation": "Đây là câu hỏi của câu điều kiện loại 2 ('would you do'). Do đó, mệnh đề If phải chia ở thì quá khứ đơn, dạng quá khứ của find là 'found'."
+},
+{
+"id": "ex11",
+"type": "fill-blank-mcq",
+"prompt": "If I had listened to my parents, I ______ in this messy situation right now.",
+"choices": [
+"wouldn't be",
+"won't be",
+"wouldn't have been",
+"am not"
+],
+"correctIndex": 0,
+"explanation": "Đây là câu điều kiện hỗn hợp (Mixed conditional). Mệnh đề If dùng quá khứ hoàn thành (giả định ở quá khứ), nhưng mệnh đề chính có dấu hiệu 'right now' nên phải dùng 'would + V' để chỉ hậu quả ở hiện tại."
+},
+{
+"id": "ex12",
+"type": "fill-blank-mcq",
+"prompt": "______ you need any further assistance, please inform our reception desk.",
+"choices": [
+"If",
+"Should",
+"Were",
+"Had"
+],
+"correctIndex": 1,
+"explanation": "Đây là hiện tượng đảo ngữ của câu điều kiện loại 1. Ta bỏ 'If' và đưa 'Should' lên đầu câu: Should + S + V(nguyên mẫu). Cấu trúc gốc là 'If you should need...'."
+},
+{
+"id": "ex13",
+"type": "fill-blank-mcq",
+"prompt": "______ about the terrible traffic jam, we would have taken a different route.",
+"choices": [
+"If we know",
+"Did we know",
+"Were we to know",
+"Had we known"
+],
+"correctIndex": 3,
+"explanation": "Đảo ngữ của câu điều kiện loại 3. Ta bỏ 'If' và đảo 'Had' lên trước chủ ngữ: Had + S + V3. Câu đầy đủ là 'If we had known...'."
+},
+{
+"id": "ex14",
+"type": "fill-blank-mcq",
+"prompt": "______ the CEO of this company, I would strictly ban single-use plastics.",
+"choices": [
+"Were I",
+"If I am",
+"Had I been",
+"Should I be"
+],
+"correctIndex": 0,
+"explanation": "Đảo ngữ của câu điều kiện loại 2 với động từ to be. Ta bỏ 'If' và đưa 'Were' lên đầu: Were + S + N/Adj. Câu đầy đủ là 'If I were the CEO...'."
+},
+{
+"id": "ex15",
+"type": "fill-blank-mcq",
+"prompt": "If she wasn't so afraid of flying, she ______ to Paris with us last summer.",
+"choices": [
+"would travel",
+"will travel",
+"would have traveled",
+"traveled"
+],
+"correctIndex": 2,
+"explanation": "Câu điều kiện hỗn hợp loại 2-3 (Ngược với loại 3-2). Mệnh đề If dùng Loại 2 (bản tính, sự thật hiện tại: cô ấy vốn sợ bay), nhưng kết quả trái ngược lại nằm trong quá khứ ('last summer') nên vế chính dùng Loại 3: 'would have + V3'."
+}
+]
+}

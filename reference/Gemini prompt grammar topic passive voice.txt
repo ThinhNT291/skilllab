@@ -1,0 +1,316 @@
+{
+"id": "passive-voice",
+"title": "Câu bị động (Passive Voice)",
+"level": "B1",
+"theory": {
+"usages": [
+{
+"label": "Cấu trúc bị động cơ bản (Các thì thông dụng)",
+"explanationVi": "Câu bị động được dùng khi ta muốn nhấn mạnh vào đối tượng chịu tác động của hành động thay vì người thực hiện. Để tạo câu bị động, ta biến đổi động từ to be theo đúng thì của câu chủ động, sau đó cộng với động từ chính ở dạng phân từ 2 (V3/ed).",
+"examples": [
+{
+"en": "The house is cleaned every day.",
+"vi": "Ngôi nhà được dọn dẹp mỗi ngày."
+},
+{
+"en": "A new bridge was built in this city last year.",
+"vi": "Một cây cầu mới đã được xây dựng ở thành phố này năm ngoái."
+}
+]
+},
+{
+"label": "Câu bị động với động từ khuyết thiếu (Modal verbs)",
+"explanationVi": "Đối với các động từ khiếm khuyết như can, could, must, should, may, might..., cấu trúc bị động rất đơn giản. Ta chỉ cần giữ nguyên động từ khuyết thiếu, thêm be ở dạng nguyên thể và sau đó là động từ chính ở cột 3 (V3/ed).",
+"examples": [
+{
+"en": "Tickets must be booked in advance.",
+"vi": "Vé phải được đặt trước."
+},
+{
+"en": "This math problem can be solved easily.",
+"vi": "Bài toán này có thể được giải quyết dễ dàng."
+}
+]
+},
+{
+"label": "Câu bị động với động từ có hai tân ngữ",
+"explanationVi": "Một số động từ như give, send, show, buy, teach... thường đi kèm hai tân ngữ (chỉ người và chỉ vật). Ta có thể viết được hai câu bị động khác nhau tuỳ thuộc vào việc đưa tân ngữ nào lên làm chủ ngữ. Việc đưa tân ngữ chỉ người lên làm chủ ngữ thường phổ biến và tự nhiên hơn.",
+"examples": [
+{
+"en": "I was given a beautiful gift by my friends.",
+"vi": "Tôi đã được tặng một món quà tuyệt đẹp bởi những người bạn."
+},
+{
+"en": "A beautiful gift was given to me.",
+"vi": "Một món quà tuyệt đẹp đã được tặng cho tôi."
+}
+]
+},
+{
+"label": "Câu bị động với các động từ chỉ ý kiến/tường thuật",
+"explanationVi": "Khi dùng các động từ như say, think, believe, report, ta có hai cách đổi sang bị động. Cách thứ nhất dùng chủ ngữ giả (It is/was + V3 + that...). Cách thứ hai đưa chủ ngữ của mệnh đề sau lên đầu, áp dụng cấu trúc (S + is/was + V3 + to V).",
+"examples": [
+{
+"en": "It is believed that he is a millionaire.",
+"vi": "Người ta tin rằng anh ấy là một triệu phú."
+},
+{
+"en": "He is said to work very hard.",
+"vi": "Anh ấy được cho là làm việc rất chăm chỉ."
+}
+]
+},
+{
+"label": "Câu bị động dạng nhờ vả (Causative Passive)",
+"explanationVi": "Khi bạn thuê hoặc nhờ ai đó làm việc gì cho mình, thay vì dùng dạng chủ động, người bản xứ rất hay dùng cấu trúc (have/get something done) - nghĩa là có cái gì đó được làm bởi người khác. Cấu trúc này nhấn mạnh vào việc công việc đã được hoàn tất.",
+"examples": [
+{
+"en": "She had her car repaired yesterday.",
+"vi": "Cô ấy đã nhờ người sửa xe ngày hôm qua."
+},
+{
+"en": "We will get our house painted next week.",
+"vi": "Chúng tôi sẽ thuê người sơn lại nhà vào tuần tới."
+}
+]
+}
+],
+"formulas": {
+"affirmative": "S + be + V3/Ved",
+"negative": "S + be + not + V3/Ved",
+"question": "Be + S + V3/Ved?"
+},
+"signalWords": [
+{
+"word": "be said to V",
+"meaningVi": "được cho là, người ta nói rằng"
+},
+{
+"word": "be believed to V",
+"meaningVi": "được tin rằng"
+},
+{
+"word": "be expected to V",
+"meaningVi": "được kỳ vọng sẽ, được dự kiến"
+},
+{
+"word": "be reported to V",
+"meaningVi": "được báo cáo là, có tin cho rằng"
+},
+{
+"word": "have something done",
+"meaningVi": "thuê hoặc nhờ ai đó làm việc gì"
+},
+{
+"word": "get something done",
+"meaningVi": "thuê hoặc nhờ ai đó làm việc gì (dùng nhiều trong văn nói)"
+},
+{
+"word": "be supposed to V",
+"meaningVi": "được cho là phải làm gì, có bổn phận làm gì"
+}
+],
+"commonMistakes": [
+"Quên biến đổi động từ 'to be' theo thì của câu gốc. Ví dụ: Viết sai 'The letter be sent yesterday' thay vì câu đúng 'The letter was sent yesterday'.",
+"Nhầm lẫn giữa phân từ 2 (V3) và quá khứ đơn (V2) đối với các động từ bất quy tắc. Ví dụ: Viết sai 'The window was broke' thay vì câu đúng 'The window was broken'.",
+"Lạm dụng 'by + tân ngữ' ngay cả khi không cần thiết. Nhiều người học hay viết 'The street is cleaned by people', trong khi chỉ cần nói 'The street is cleaned' là đã đủ tự nhiên và chính xác."
+]
+},
+"exercises": [
+{
+"id": "ex1",
+"type": "fill-blank-mcq",
+"prompt": "English ______ all over the world as an international language.",
+"choices": [
+"speaks",
+"is spoken",
+"is speaking",
+"spoken"
+],
+"correctIndex": 1,
+"explanation": "Câu diễn tả một sự thật ở hiện tại (hiện tại đơn). Tiếng Anh 'được nói' chứ không tự nói, nên ta dùng bị động hiện tại đơn (is + V3): is spoken."
+},
+{
+"id": "ex2",
+"type": "fill-blank-mcq",
+"prompt": "My bicycle ______ yesterday while I was in the library.",
+"choices": [
+"was stolen",
+"is stolen",
+"stole",
+"has stolen"
+],
+"correctIndex": 0,
+"explanation": "Có dấu hiệu 'yesterday' nên dùng thì quá khứ đơn. Xe đạp 'bị trộm' nên phải dùng bị động quá khứ đơn (was + V3): was stolen."
+},
+{
+"id": "ex3",
+"type": "fill-blank-mcq",
+"prompt": "The annual report ______ yet, so the manager is very angry.",
+"choices": [
+"hasn't finished",
+"wasn't finished",
+"hasn't been finished",
+"isn't finished"
+],
+"correctIndex": 2,
+"explanation": "Dấu hiệu 'yet' chỉ thì hiện tại hoàn thành. Báo cáo không tự hoàn thành nên dùng bị động của hiện tại hoàn thành (has/have + been + V3): hasn't been finished."
+},
+{
+"id": "ex4",
+"type": "fill-blank-mcq",
+"prompt": "The final results of the exam ______ tomorrow morning.",
+"choices": [
+"will announce",
+"are announced",
+"will be announcing",
+"will be announced"
+],
+"correctIndex": 3,
+"explanation": "Dấu hiệu 'tomorrow morning' chỉ thì tương lai. Kết quả 'được thông báo' nên dùng bị động của tương lai đơn (will + be + V3): will be announced."
+},
+{
+"id": "ex5",
+"type": "fill-blank-mcq",
+"prompt": "When I came to the restaurant, the dinner **.",
+"choices": [
+"was preparing",
+"is being prepared",
+"was being prepared",
+"prepared"
+],
+"correctIndex": 2,
+"explanation": "Hành động đang xảy ra trong quá khứ (khi tôi đến) thì dùng quá khứ tiếp diễn. Bữa tối 'đang được chuẩn bị' nên dùng bị động quá khứ tiếp diễn (was/were + being + V3): was being prepared."
+},
+{
+"id": "ex6",
+"type": "fill-blank-mcq",
+"prompt": "Safety helmets ______ at all times on the construction site.",
+"choices": [
+"must wear",
+"must be worn",
+"must be wearing",
+"must worn"
+],
+"correctIndex": 1,
+"explanation": "Với động từ khuyết thiếu 'must', cấu trúc bị động là 'must + be + V3'. Mũ bảo hiểm 'phải được đội': must be worn."
+},
+{
+"id": "ex7",
+"type": "fill-blank-mcq",
+"prompt": "The instructions for this software ______ easily on our website.",
+"choices": [
+"can be found",
+"can find",
+"can found",
+"can be finding"
+],
+"correctIndex": 0,
+"explanation": "Động từ khuyết thiếu 'can' chuyển sang bị động là 'can + be + V3'. Hướng dẫn 'có thể được tìm thấy': can be found."
+},
+{
+"id": "ex8",
+"type": "fill-blank-mcq",
+"prompt": "She was ______ a beautiful bouquet of flowers on her graduation day.",
+"choices": [
+"give",
+"gave",
+"giving",
+"given"
+],
+"correctIndex": 3,
+"explanation": "Đây là câu bị động với động từ có 2 tân ngữ (give). Cấu trúc bị động yêu cầu động từ ở dạng V3/ed. V3 của give là 'given'."
+},
+{
+"id": "ex9",
+"type": "fill-blank-mcq",
+"prompt": "A warning letter ______ to the negligent employees last week.",
+"choices": [
+"was sent",
+"sent",
+"was sending",
+"has sent"
+],
+"correctIndex": 0,
+"explanation": "Câu bị động với động từ có 2 tân ngữ, ở đây tân ngữ chỉ vật (A warning letter) được đưa lên làm chủ ngữ, đi kèm giới từ 'to'. Sự việc ở quá khứ nên dùng 'was sent'."
+},
+{
+"id": "ex10",
+"type": "fill-blank-mcq",
+"prompt": "This medicine ______ immediately after meals.",
+"choices": [
+"should take",
+"should be took",
+"should be taken",
+"should taking"
+],
+"correctIndex": 2,
+"explanation": "Thuốc 'nên được uống', dùng bị động của 'should' là 'should + be + V3'. V3 của take là 'taken', nên đáp án đúng là 'should be taken'."
+},
+{
+"id": "ex11",
+"type": "fill-blank-mcq",
+"prompt": "It ______ that the company is facing serious financial difficulties.",
+"choices": [
+"is reporting",
+"reports",
+"has reported",
+"is reported"
+],
+"correctIndex": 3,
+"explanation": "Cấu trúc tường thuật khách quan với chủ ngữ giả 'It': It + be + V3 + that... Do đó dùng 'is reported' (người ta báo cáo rằng)."
+},
+{
+"id": "ex12",
+"type": "fill-blank-mcq",
+"prompt": "The new manager is said ______ a very strict but fair person.",
+"choices": [
+"be",
+"to be",
+"being",
+"is"
+],
+"correctIndex": 1,
+"explanation": "Cấu trúc bị động của động từ tường thuật khi đưa chủ ngữ thật lên đầu: S + be + said/believed... + to V. Do đó chọn 'to be'."
+},
+{
+"id": "ex13",
+"type": "fill-blank-mcq",
+"prompt": "I am going to ______ my hair cut at the new salon tomorrow.",
+"choices": [
+"make",
+"have",
+"let",
+"do"
+],
+"correctIndex": 1,
+"explanation": "Cấu trúc bị động nhờ vả: 'have something done' (have + tân ngữ chỉ vật + V3). Ở đây là 'have my hair cut' (nhờ thợ cắt tóc)."
+},
+{
+"id": "ex14",
+"type": "fill-blank-mcq",
+"prompt": "We had our roof ______ by a professional builder after the severe storm.",
+"choices": [
+"to repair",
+"repairing",
+"repaired",
+"repair"
+],
+"correctIndex": 2,
+"explanation": "Áp dụng công thức thể nhờ vả bị động: have + something (our roof) + V3/ed. V3 của repair là 'repaired'."
+},
+{
+"id": "ex15",
+"type": "fill-blank-mcq",
+"prompt": "** this famous novel written by Mark Twain?",
+"choices": [
+"Did",
+"Was",
+"Had",
+"Has"
+],
+"correctIndex": 1,
+"explanation": "Đây là câu hỏi ở thể bị động quá khứ đơn. Công thức: Was/Were + S + V3/ed? Chủ ngữ 'this famous novel' số ít nên dùng 'Was'."
+}
+]
+}

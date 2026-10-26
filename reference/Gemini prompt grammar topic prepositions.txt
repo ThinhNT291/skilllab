@@ -1,0 +1,308 @@
+{
+"id": "prepositions",
+"title": "Giới từ (Prepositions)",
+"level": "A2",
+"theory": {
+"usages": [
+{
+"label": "Giới từ chỉ THỜI GIAN cơ bản (In / On / At)",
+"explanationVi": "Trong tiếng Anh, 'in' dùng cho các khoảng thời gian dài và chung chung như tháng, năm, mùa. 'On' dùng cho các ngày cụ thể như thứ trong tuần hoặc ngày tháng năm. 'At' dùng cho các mốc thời gian chính xác như giờ giấc hoặc một số dịp lễ hội.",
+"examples": [
+{
+"en": "The meeting is at 9:00 AM on Monday.",
+"vi": "Cuộc họp diễn ra vào lúc 9:00 sáng thứ Hai."
+},
+{
+"en": "We usually go on holiday in summer.",
+"vi": "Chúng tôi thường đi nghỉ mát vào mùa hè."
+}
+]
+},
+{
+"label": "Giới từ chỉ NƠI CHỐN cơ bản (In / On / At)",
+"explanationVi": "'In' dùng để chỉ vị trí bên trong một không gian kín hoặc một khu vực địa lý lớn (phòng, thành phố, quốc gia). 'On' dùng để chỉ vị trí nằm trên một bề mặt (trên bàn, trên đường). 'At' dùng để chỉ một địa điểm cụ thể, một điểm dừng chân mang tính chức năng (tại trường, tại trạm xe).",
+"examples": [
+{
+"en": "The keys are on the table in the living room.",
+"vi": "Chùm chìa khóa ở trên bàn trong phòng khách."
+},
+{
+"en": "I will meet you at the bus stop.",
+"vi": "Tôi sẽ gặp bạn tại trạm xe buýt."
+}
+]
+},
+{
+"label": "Giới từ chỉ CHUYỂN ĐỘNG / PHƯƠNG HƯỚNG",
+"explanationVi": "Nhóm giới từ này diễn tả hướng đi của một hành động. Các giới từ thông dụng nhất ở trình độ A2 gồm: 'to' (đi đến đâu đó), 'into' (đi vào bên trong), 'from' (từ đâu tới), 'through' (đi xuyên qua), 'across' (băng qua đường/sông), và 'along' (đi dọc theo con đường/bờ sông).",
+"examples": [
+{
+"en": "They walked across the street to get to the park.",
+"vi": "Họ đã đi bộ băng qua con đường để đến công viên."
+},
+{
+"en": "The train went through a very dark tunnel.",
+"vi": "Đoàn tàu đã đi xuyên qua một đường hầm rất tối."
+}
+]
+},
+{
+"label": "Giới từ đi kèm TÍNH TỪ thông dụng",
+"explanationVi": "Rất nhiều tính từ luôn đi kèm với một giới từ cố định mà người học bắt buộc phải ghi nhớ. Ở mức độ cơ bản, bạn cần nắm vững các cụm: interested in (quan tâm/thích thú), afraid of (sợ hãi), good/bad at (giỏi/tệ môn gì), married to (kết hôn với), proud of (tự hào về), và famous for (nổi tiếng vì điều gì).",
+"examples": [
+{
+"en": "My little brother is very good at playing chess.",
+"vi": "Em trai tôi rất giỏi chơi cờ vua."
+},
+{
+"en": "She is afraid of dogs, so she never goes near them.",
+"vi": "Cô ấy sợ chó, nên cô ấy không bao giờ lại gần chúng."
+}
+]
+},
+{
+"label": "Giới từ đi kèm ĐỘNG TỪ thông dụng",
+"explanationVi": "Tương tự tính từ, nhiều động từ cũng yêu cầu giới từ cụ thể để tạo thành cụm có nghĩa. Những cụm quen thuộc nhất gồm: listen to (lắng nghe), look at (nhìn vào), depend on (phụ thuộc vào), wait for (chờ đợi), arrive at (đến một địa điểm nhỏ như nhà ga, sân bay), arrive in (đến thành phố, quốc gia).",
+"examples": [
+{
+"en": "Please listen to the teacher carefully.",
+"vi": "Vui lòng lắng nghe giáo viên cẩn thận."
+},
+{
+"en": "I am waiting for my friend outside the cinema.",
+"vi": "Tôi đang đợi bạn tôi ở bên ngoài rạp chiếu phim."
+}
+]
+}
+],
+"formulas": null,
+"signalWords": [
+{
+"word": "in / on / at (Thời gian)",
+"meaningVi": "in + tháng/năm/mùa, on + thứ/ngày tháng, at + giờ cụ thể/dịp lễ"
+},
+{
+"word": "in / on / at (Nơi chốn)",
+"meaningVi": "in + bên trong/thành phố, on + trên bề mặt, at + địa điểm cụ thể (trường, siêu thị)"
+},
+{
+"word": "since vs for",
+"meaningVi": "since + mốc thời gian (từ năm 2020), for + khoảng thời gian (trong 3 năm)"
+},
+{
+"word": "to vs at",
+"meaningVi": "to chỉ sự di chuyển (đi đến...), at chỉ trạng thái đứng yên (đang ở tại...)"
+},
+{
+"word": "in vs into",
+"meaningVi": "in chỉ vị trí tĩnh (đang ở trong), into chỉ sự chuyển động (đang đi vào bên trong)"
+},
+{
+"word": "between vs among",
+"meaningVi": "between + giữa 2 người/vật, among + giữa từ 3 người/vật trở lên"
+}
+],
+"commonMistakes": [
+"Nhầm lẫn các buổi trong ngày: Chúng ta nói 'in the morning', 'in the afternoon', 'in the evening' nhưng bắt buộc phải dùng 'at night' hoặc 'at noon', không được dùng 'in the night'.",
+"Dùng sai giới từ với từ 'married': Người Việt hay dịch word-by-word là 'married with' (kết hôn với), nhưng đúng ngữ pháp tiếng Anh chuẩn phải là 'married to'.",
+"Dùng giới từ chỉ hướng 'to' sau động từ 'arrive': Nhiều người học nói 'arrive to the airport', nhưng cách dùng đúng phải là 'arrive at the airport' (với địa điểm nhỏ) hoặc 'arrive in London' (với thành phố/quốc gia)."
+]
+},
+"exercises": [
+{
+"id": "ex1",
+"type": "fill-blank-mcq",
+"prompt": "The English test starts ______ 9:00 AM tomorrow.",
+"choices": [
+"in",
+"on",
+"at",
+"to"
+],
+"correctIndex": 2,
+"explanation": "Đứng trước một giờ cụ thể (9:00 AM), ta phải dùng giới từ chỉ thời gian 'at'."
+},
+{
+"id": "ex2",
+"type": "fill-blank-mcq",
+"prompt": "My parents always go to the supermarket ______ Sunday mornings.",
+"choices": [
+"at",
+"on",
+"in",
+"for"
+],
+"correctIndex": 1,
+"explanation": "Khi có nhắc đến thứ trong tuần (Sunday), cho dù có kèm theo buổi (mornings) thì ta vẫn ưu tiên dùng giới từ 'on'."
+},
+{
+"id": "ex3",
+"type": "fill-blank-mcq",
+"prompt": "It snows a lot in this country ______ winter.",
+"choices": [
+"in",
+"on",
+"at",
+"with"
+],
+"correctIndex": 0,
+"explanation": "Với các mùa trong năm (spring, summer, autumn, winter), giới từ thời gian đi kèm luôn là 'in'."
+},
+{
+"id": "ex4",
+"type": "fill-blank-mcq",
+"prompt": "Please don't put your dirty shoes ______ the sofa.",
+"choices": [
+"in",
+"on",
+"at",
+"from"
+],
+"correctIndex": 1,
+"explanation": "'The sofa' (ghế sô-pha) là một bề mặt phẳng. Để chỉ vị trí ở phía trên bề mặt, ta dùng 'on'."
+},
+{
+"id": "ex5",
+"type": "fill-blank-mcq",
+"prompt": "My best friend lives ______ Ho Chi Minh City.",
+"choices": [
+"at",
+"on",
+"to",
+"in"
+],
+"correctIndex": 3,
+"explanation": "Ho Chi Minh City là tên một thành phố lớn, một khu vực địa lý rộng. Theo quy tắc, ta dùng 'in' cho phường/xã, quận/huyện, thành phố, quốc gia."
+},
+{
+"id": "ex6",
+"type": "fill-blank-mcq",
+"prompt": "You must hold my hand when we walk ______ the busy street.",
+"choices": [
+"across",
+"through",
+"into",
+"along"
+],
+"correctIndex": 0,
+"explanation": "Khi đi bộ từ bên này sang bên kia của một con đường phẳng, ta dùng giới từ 'across' (băng qua)."
+},
+{
+"id": "ex7",
+"type": "fill-blank-mcq",
+"prompt": "When it started to rain, everyone ran ______ the building.",
+"choices": [
+"in",
+"into",
+"on",
+"through"
+],
+"correctIndex": 1,
+"explanation": "Hành động chạy từ ngoài hướng vào bên trong một không gian kín cần giới từ chỉ chuyển động 'into'."
+},
+{
+"id": "ex8",
+"type": "fill-blank-mcq",
+"prompt": "Sarah is very good ______ learning new languages.",
+"choices": [
+"at",
+"in",
+"with",
+"for"
+],
+"correctIndex": 0,
+"explanation": "Cụm tính từ cố định: 'good at something / doing something' mang nghĩa là giỏi về việc gì đó."
+},
+{
+"id": "ex9",
+"type": "fill-blank-mcq",
+"prompt": "Are you interested ______ joining our music club?",
+"choices": [
+"on",
+"at",
+"in",
+"of"
+],
+"correctIndex": 2,
+"explanation": "Tính từ 'interested' luôn đi kèm với giới từ 'in' để tạo thành cụm mang nghĩa 'hứng thú, quan tâm đến cái gì'."
+},
+{
+"id": "ex10",
+"type": "fill-blank-mcq",
+"prompt": "Vietnam is famous ______ its delicious street food.",
+"choices": [
+"with",
+"for",
+"of",
+"to"
+],
+"correctIndex": 1,
+"explanation": "Cụm tính từ cố định 'famous for' có nghĩa là nổi tiếng vì điều gì."
+},
+{
+"id": "ex11",
+"type": "fill-blank-mcq",
+"prompt": "I don't like this song. Can we listen ______ something else?",
+"choices": [
+"at",
+"for",
+"to",
+"with"
+],
+"correctIndex": 2,
+"explanation": "Động từ 'listen' (lắng nghe) luôn bắt buộc đi kèm với giới từ 'to' khi theo sau là một đối tượng."
+},
+{
+"id": "ex12",
+"type": "fill-blank-mcq",
+"prompt": "We might go to the beach tomorrow, but it depends ______ the weather.",
+"choices": [
+"in",
+"on",
+"of",
+"at"
+],
+"correctIndex": 1,
+"explanation": "Cụm động từ 'depend on' có nghĩa là phụ thuộc vào điều gì/ai đó."
+},
+{
+"id": "ex13",
+"type": "fill-blank-mcq",
+"prompt": "I have been waiting ______ the bus for 30 minutes.",
+"choices": [
+"to",
+"at",
+"for",
+"in"
+],
+"correctIndex": 2,
+"explanation": "Khi muốn nói 'chờ đợi ai/cái gì', động từ 'wait' phải luôn đi kèm với giới từ 'for'."
+},
+{
+"id": "ex14",
+"type": "fill-blank-mcq",
+"prompt": "Mr. John has worked in this hospital ______ 2015.",
+"choices": [
+"in",
+"since",
+"for",
+"at"
+],
+"correctIndex": 1,
+"explanation": "'2015' là một mốc thời gian cụ thể. Trong thì hiện tại hoàn thành, ta dùng 'since' trước mốc thời gian (từ năm 2015)."
+},
+{
+"id": "ex15",
+"type": "fill-blank-mcq",
+"prompt": "What time did you arrive ______ the airport yesterday?",
+"choices": [
+"to",
+"in",
+"at",
+"on"
+],
+"correctIndex": 2,
+"explanation": "Sân bay (the airport) được xem là một địa điểm nhỏ, một điểm dừng chân chức năng. Do đó động từ arrive phải đi với 'at' (arrive at the airport)."
+}
+]
+}
