@@ -4,7 +4,7 @@
  */
 import { STEPS_PER_BAC, type PathStep } from "./catalog.ts"
 
-export type StartSource = "placement" | "leap"
+export type StartSource = "placement" | "leap" | "challenge"
 export interface StartPoint {
   bac: number
   step: number

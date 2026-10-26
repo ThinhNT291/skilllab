@@ -33,7 +33,7 @@ function chipText(s: StepState): string {
   return "🔒 Chưa mở"
 }
 
-const SOURCE_TEXT = { placement: "theo bài xếp trình độ", leap: "nhờ bài vượt cấp" } as const
+const SOURCE_TEXT = { placement: "theo bài xếp trình độ", leap: "nhờ bài vượt cấp", challenge: "nhờ Phòng thử thách" } as const
 
 /** Bản đồ Lộ trình: nấc hiện tại, bài hôm nay, các nấc theo bậc. Trạng thái tính lại từ kết quả từng bài (`lib/path/progress.ts`). */
 export function PathView({ path }: { path: PathStep[] }) {
@@ -106,7 +106,7 @@ export function PathView({ path }: { path: PathStep[] }) {
       </section>
 
       <p className="text-sm text-muted-foreground">
-        Làm hết bài trong một chặng thì chặng kế mở ra. Bạn cũng được thử sức tối đa hai chặng phía trên, hoặc bấm <strong>Vượt cấp</strong> ở một chặng cao hơn: làm đúng hết 20 câu ở chặng đó thì bạn được bắt đầu từ đó (các chặng dưới vẫn mở để ôn). Thử sức không đổi bậc; lên bậc kế cần học đều nhiều ngày, và bậc càng cao càng cần nhiều câu, nhiều ngày hơn. Muốn bắt đầu cao hơn ngay? <Link href="/xep-trinh-do/tong-hop" className="text-primary underline underline-offset-4">Làm bài xếp trình độ</Link>.
+        Làm hết bài trong một chặng thì chặng kế mở ra. Bạn cũng được thử sức tối đa hai chặng phía trên, hoặc bấm <strong>Vượt cấp</strong> ở một chặng cao hơn: làm đúng hết 20 câu ở chặng đó thì bạn được bắt đầu từ đó (các chặng dưới vẫn mở để ôn). Thử sức không đổi bậc; lên bậc kế cần học đều nhiều ngày, và bậc càng cao càng cần nhiều câu, nhiều ngày hơn. Muốn bắt đầu cao hơn ngay? <Link href="/xep-trinh-do/tong-hop" className="text-primary underline underline-offset-4">Làm bài xếp trình độ</Link>, hoặc thử sức ở <Link href="/phong-thu-thach" className="text-primary underline underline-offset-4">Phòng thử thách</Link> (bài tính giờ, chỉ đề xuất, không bao giờ hạ bậc).
       </p>
       {skipped.length > 0 && (
         <p className="rounded-game border-2 border-dashed border-border p-3 text-sm text-muted-foreground">

@@ -7,7 +7,7 @@ export const RESET_SCOPES = [
   { id: "graded", label: "Điểm Viết/Nói đã chấm", tables: ["graded_attempts"] },
   { id: "items", label: "Đồ trang trí đã mua", tables: ["player_items"] },
   { id: "placement", label: "Bài xếp trình độ tổng hợp", tables: ["placement_sessions"] },
-  { id: "path", label: "Lộ trình (kết quả từng bài)", tables: ["path_lessons", "path_state"] },
+  { id: "path", label: "Lộ trình và Phòng thử thách (kết quả, điểm bắt đầu, các lần thử)", tables: ["path_lessons", "path_state", "challenge_attempts"] },
 ] as const
 
 export type ResetScope = (typeof RESET_SCOPES)[number]["id"]

@@ -5,7 +5,7 @@ export { ensureCardFromError, addVocabCard, getDueCards, countDueCards, reviewCa
 export { getAnswerHistory, getDailyActivity, getActivityCounts, getAnswerCounts, getRecentTopicRows, type HistoryResult } from "./progress"
 export type { Profile } from "./types"
 export { getOwnedItems, buyItem, saveEquipped, type OwnedItems, type ItemsResult, type ItemWrite } from "./items"
-export { getPathResults, recordPathLesson, getPathStart, raisePathStart, type PathStart } from "./path"
+export { getPathResults, recordPathLesson, getPathStart, raisePathStart, getChallengeAttempts, recordChallengeAttempt, type PathStart, type ChallengeAttemptRow } from "./path"
 export { saveTopicTest, getPassedTopics } from "./tests"
 export { saveAttempt, getAttempts, type NewAttempt } from "./attempts"
 export { fetchRemoteSettings, pushRemoteSettings } from "./settings"
