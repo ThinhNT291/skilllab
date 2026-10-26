@@ -134,7 +134,7 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 Nguyên tắc xếp: việc chặn người dùng thật trước, rồi nền nội dung (vì Lộ trình cần nhiều câu), rồi Lộ trình, rồi game/dạng câu mới, cuối cùng việc cần dữ liệu thật hoặc chủ dự án để sau.
 
 ### A. Việc của chủ dự án (không cần code)
-- [ ] Chạy migration `0011`, `0012`, `0013`, `0014`, `0015`, `0016` trên Supabase SQL Editor (chưa chạy thì app lùi về cách cũ, bài xếp trình độ tổng hợp không lưu dở được).
+- [ ] Chạy migration `0011`, `0012`, `0013`, `0014`, `0015`, `0016`, `0017` trên Supabase SQL Editor (chưa chạy thì app lùi về cách cũ, bài xếp trình độ tổng hợp không lưu dở được).
 - [ ] Nhờ giáo viên chấm 30 bài mẫu: `eval/phieu-cham.csv` + `eval/huong-dan-cham.md` → `node scripts/eval-import.mjs <phiếu>` → `node scripts/grade-eval.mjs eval/grade-samples.json` (cần khóa Gemini). Kết quả quyết định có tin máy chấm Viết hay không.
 - [ ] Thử `gen-items`/`gen-passages` với Gemini thật theo `docs/thu-gen-noi-dung.md`.
 - [ ] Merge nhánh (PR) về `main`; sau 1 tháng có dữ liệu thật thì xem lại các ngưỡng ở `docs/lo-trinh-va-xep-bac.md` mục 11.
@@ -145,7 +145,7 @@ Nguyên tắc xếp: việc chặn người dùng thật trước, rồi nền n
 3. [ ] Cụm từ kết hợp (collocations) thêm bộ; từ vựng C1/C2 theo chủ đề.
 4. [ ] Đề Viết/Nói thêm (hiện Viết 12 đề bậc 1–4): thêm bậc 5–6 và đề theo chủ điểm lớp 4–9.
 5. [ ] Nội dung C2 thật; mở rộng ngân hàng xếp trình độ (`reserved.json`) cho bậc 5–6 và cho Đọc/Nghe nhiều bài mỗi bậc.
-6. [ ] **Sinh/duyệt/gộp nội dung trên giao diện quản trị** (`/quan-ly/noi-dung`, thiết kế ở `docs/quan-ly-noi-dung-tren-giao-dien.md`; giai đoạn A: bảng nháp, duyệt, thống kê tỷ lệ, xuất JSON; giai đoạn B = đọc nội dung từ DB). Làm sau Lộ trình bước đầu.
+6. [ ] **Sinh/duyệt/gộp nội dung trên giao diện quản trị** (`/quan-ly/noi-dung`, thiết kế ở `docs/quan-ly-noi-dung-tren-giao-dien.md`; giai đoạn A: bảng nháp, duyệt, thống kê tỷ lệ, xuất JSON; giai đoạn B = đọc nội dung từ DB). Lát 1 (nháp, duyệt, thống kê, xuất) đã xong 26/10/2026, cần migration `0017`; còn lát 2 (sinh qua giao diện) và lát 3.
 7. [ ] Người bản ngữ/giáo viên duyệt: nghĩa Việt từ vựng, bài đọc/nghe, nội dung Bậc 5–6.
 
 ### C. Lộ trình một con đường + Phòng thử thách

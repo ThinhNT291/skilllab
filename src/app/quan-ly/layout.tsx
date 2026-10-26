@@ -4,6 +4,7 @@ const TABS = [
   { href: "/quan-ly", label: "Học sinh" },
   { href: "/quan-ly/lop", label: "Lớp" },
   { href: "/quan-ly/tai-khoan", label: "Tài khoản" },
+  { href: "/quan-ly/noi-dung", label: "Nội dung" },
   { href: "/quan-ly/nhat-ky", label: "Nhật ký" },
 ]
 
