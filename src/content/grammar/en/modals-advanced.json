@@ -1,0 +1,285 @@
+{
+  "id": "modals-advanced",
+  "language": "en",
+  "title": "Động từ khuyết thiếu nâng cao (Advanced Modals)",
+  "levels": [
+    "C1",
+    "C2"
+  ],
+  "order": 34,
+  "category": "word-classes",
+  "theory": {
+    "usages": [
+      {
+        "id": "ma-u1-past-deduction",
+        "bac": 5,
+        "label": "Phỏng đoán về quá khứ (Past Deduction)",
+        "explanationVi": "Để phỏng đoán về một việc đã xảy ra, ta dùng modal + have + V3, và mức độ chắc chắn đi từ cao xuống thấp: must have (gần như chắc chắn đúng), may/might/could have (có thể đúng), can't/couldn't have (gần như chắc chắn KHÔNG xảy ra). Phủ định của 'must have' khi suy đoán là 'can't have'; dạng 'mustn't have' hầu như không được dạy chuẩn (trong tiếng Anh-Mỹ đời thường đôi khi nghe 'must not have', nhưng cách an toàn và phổ biến nhất vẫn là 'can't have'). 'Might not have' khác 'can't have': một bên là 'có thể không', một bên là 'chắc chắn không'. Với hành động kéo dài, dùng modal + have been + V-ing.",
+        "examples": [
+          {
+            "en": "The ground is wet, so it must have rained overnight.",
+            "vi": "Mặt đất ướt, nên chắc hẳn đêm qua trời đã mưa."
+          },
+          {
+            "en": "She can't have finished a 600-page book in two hours.",
+            "vi": "Cô ấy không thể nào đọc xong cuốn sách 600 trang trong hai giờ."
+          },
+          {
+            "en": "The courier might not have received our new address.",
+            "vi": "Có thể người giao hàng đã không nhận được địa chỉ mới."
+          }
+        ]
+      },
+      {
+        "id": "ma-u2-needn-t-have",
+        "bac": 5,
+        "label": "Needn't have và didn't need to",
+        "explanationVi": "'Needn't have + V3' nghĩa là bạn ĐÃ làm việc đó nhưng hóa ra không cần thiết (ví dụ chạy vội ra ga rồi mới biết tàu trễ). 'Didn't need to + V' chỉ nói việc đó không cần thiết, thường hàm ý bạn đã không làm (hoặc không nói rõ có làm hay không). Đừng nhầm với 'shouldn't have + V3' (làm việc sai/không nên). Ở hiện tại và tương lai dùng 'needn't + V' hoặc 'don't need to + V'. Lưu ý 'needn't' là modal nên không có 'to' phía sau.",
+        "examples": [
+          {
+            "en": "I needn't have run; the train was late.",
+            "vi": "Lẽ ra tôi không cần chạy; tàu đến trễ."
+          },
+          {
+            "en": "We didn't need to buy tickets; entry was free.",
+            "vi": "Chúng tôi không cần mua vé; vào cửa miễn phí."
+          }
+        ]
+      },
+      {
+        "id": "ma-u3-should-have",
+        "bac": 5,
+        "label": "Should/ought to have và had better",
+        "explanationVi": "'Should have + V3' và 'ought to have + V3' nói về điều lẽ ra nên làm trong quá khứ (trách móc, tiếc nuối); 'shouldn't have + V3' là điều lẽ ra không nên làm. 'Ought' luôn phải có 'to' (ought to have checked). 'Should/ought to' dùng cho lời khuyên chung; 'had better' (không 'to') mạnh hơn, dùng cho tình huống cụ thể kèm cảnh báo hậu quả, phủ định là 'had better not'. Trong tiếng Anh-Mỹ, 'should' phổ biến hơn 'ought to'.",
+        "examples": [
+          {
+            "en": "You should have studied harder.",
+            "vi": "Lẽ ra bạn nên học chăm hơn."
+          },
+          {
+            "en": "You'd better charge your phone now.",
+            "vi": "Bạn nên sạc điện thoại ngay đi."
+          }
+        ]
+      },
+      {
+        "id": "ma-u4-will-would",
+        "bac": 5,
+        "label": "Will và would: thói quen và suy đoán",
+        "explanationVi": "'Would + V' diễn tả thói quen lặp lại trong quá khứ (thường đi với 'every summer', 'whenever...'), nhưng KHÔNG dùng với động từ trạng thái như own, be, have (nghĩa sở hữu): với trạng thái dùng 'used to'. 'Will + V' diễn tả thói quen hiện tại hoặc hành vi đặc trưng, khi nhấn mạnh có thể mang sắc thái bực bội (He will leave the lights on) hoặc nói về điều thường xảy ra với một nhóm người (Ask any teenager and they will tell you...). 'Will' còn dùng để suy đoán dựa trên thói quen, như 'That will be the postman'. Đừng dùng dạng quá khứ 'would have been' khi sự việc đang xảy ra ở hiện tại.",
+        "examples": [
+          {
+            "en": "Every summer we would visit my grandparents.",
+            "vi": "Mỗi mùa hè chúng tôi thường về thăm ông bà."
+          },
+          {
+            "en": "He will leave the lights on, however often we remind him.",
+            "vi": "Cậu ấy cứ để đèn bật, dù chúng tôi nhắc bao nhiêu lần."
+          },
+          {
+            "en": "Ask any teenager and they will tell you that sleep is overrated.",
+            "vi": "Cứ hỏi bất kỳ thiếu niên nào, họ cũng sẽ nói rằng ngủ là chuyện bị đánh giá quá cao."
+          }
+        ]
+      },
+      {
+        "id": "ma-u5-would-rather",
+        "bac": 5,
+        "label": "Would rather / would sooner",
+        "explanationVi": "'Would rather/sooner + V' diễn tả sở thích của chính chủ ngữ, theo sau là động từ nguyên thể không 'to' (I'd rather stay). Phủ định: 'would rather not + V'. So sánh dùng 'than + V' và hai vế phải song song, cùng nguyên thể (I'd sooner be honest than cheat). Khi muốn người KHÁC làm gì, ta đổi chủ ngữ và lùi thì: 'would rather + S + quá khứ đơn' cho hiện tại/tương lai (I'd rather you didn't smoke) và 'would rather + S + had V3' cho điều trong quá khứ (I'd rather you had told me). Quá khứ đơn ở đây mang nghĩa hiện tại, không phải quá khứ thật.",
+        "examples": [
+          {
+            "en": "I'd rather stay home tonight.",
+            "vi": "Tôi thích ở nhà tối nay hơn."
+          },
+          {
+            "en": "I'd rather you hadn't told him.",
+            "vi": "Tôi ước gì bạn đã không nói với anh ấy."
+          },
+          {
+            "en": "She'd rather not talk about it until she's sure.",
+            "vi": "Cô ấy không muốn nói về chuyện đó cho đến khi chắc chắn."
+          }
+        ]
+      },
+      {
+        "id": "ma-u6-dare-need-shall",
+        "bac": 6,
+        "label": "Modal hiếm: dare, need, shall",
+        "explanationVi": "'Dare' và 'need' có thể làm modal trong câu phủ định và nghi vấn: 'He dare not tell her' (không thêm -s, không có 'to'), 'Need we leave?', 'You needn't worry'. Trong đời thường, người Mỹ thường dùng dạng thường: 'He doesn't dare tell her', 'You don't need to worry'. 'Shall' dùng cho đề nghị ('Shall I open the window?'; người Mỹ cũng hay nói 'Should I...?') và trong văn bản pháp lý trang trọng để chỉ nghĩa vụ ('The tenant shall pay rent monthly'). 'How dare you + V!' là cụm cố định biểu lộ sự giận dữ hoặc bất bình, nghĩa là 'sao dám...'.",
+        "examples": [
+          {
+            "en": "How dare you speak to me like that!",
+            "vi": "Sao bạn dám nói với tôi như vậy!"
+          },
+          {
+            "en": "The tenant shall pay rent monthly.",
+            "vi": "Bên thuê phải trả tiền thuê hằng tháng."
+          },
+          {
+            "en": "Need we leave so early?",
+            "vi": "Chúng ta có cần đi sớm vậy không?"
+          }
+        ]
+      },
+      {
+        "id": "ma-u7-be-to-bound",
+        "bac": 6,
+        "label": "Be to, supposed to, bound to, liable to",
+        "explanationVi": "'Be to + V' chỉ một sắp xếp chính thức hoặc mệnh lệnh (All students are to wait here); trong mệnh đề 'if', 'If we are to + V' nghĩa là 'nếu muốn/để mà' (If we are to finish on time, we must start now). 'Were to have + V3' nói về dự định trong quá khứ nhưng không xảy ra. 'Be supposed to' = lẽ ra phải/được kỳ vọng (You were supposed to call me). 'Be bound to' = chắc chắn sẽ, một dự đoán tự tin (She's bound to do well). 'Be liable to' = dễ xảy ra, và thường là điều không mong muốn (Old bridges are liable to collapse), nên không dùng cho kết quả tốt. Cả bốn cụm đều có 'to' và theo sau là động từ nguyên thể.",
+        "examples": [
+          {
+            "en": "The talks were to have started at noon.",
+            "vi": "Các cuộc đàm phán lẽ ra bắt đầu vào buổi trưa."
+          },
+          {
+            "en": "She has practiced so hard that she is bound to do well.",
+            "vi": "Cô ấy luyện tập chăm chỉ đến mức chắc chắn sẽ làm tốt."
+          },
+          {
+            "en": "You were supposed to call me when you arrived.",
+            "vi": "Lẽ ra bạn phải gọi cho tôi khi bạn đến nơi."
+          }
+        ]
+      },
+      {
+        "id": "ma-u8-hedging",
+        "bac": 6,
+        "label": "Modal làm mềm ý kiến (Hedging)",
+        "explanationVi": "'May/might/could well + V' = rất có thể; 'well' làm tăng khả năng so với 'may' đơn thuần, nhưng vẫn chưa chắc chắn (She may well win, but the other finalist is strong too). 'Might possibly' lại chỉ khả năng thấp. 'Can't/couldn't possibly + V' = hoàn toàn không thể, nhấn mạnh sự bất khả; 'couldn't possibly' lịch sự hơn khi từ chối (I couldn't possibly lend you that much). Không dùng 'well' với 'must', 'ought to' hay 'shall' theo cách này. Những cụm này giúp nói mức chắc chắn tinh tế, thường gặp trong văn viết học thuật và báo cáo khoa học.",
+        "examples": [
+          {
+            "en": "The rumor may well be true.",
+            "vi": "Tin đồn rất có thể là thật."
+          },
+          {
+            "en": "I couldn't possibly lend you that much.",
+            "vi": "Tôi hoàn toàn không thể cho bạn mượn nhiều như vậy."
+          },
+          {
+            "en": "The glacier could well continue to retreat, though no one can be sure.",
+            "vi": "Sông băng rất có thể tiếp tục rút lui, dù không ai chắc chắn."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "evidently / obviously",
+        "meaningVi": "rõ ràng"
+      },
+      {
+        "word": "possibly",
+        "meaningVi": "có thể, đi với can't/couldn't"
+      },
+      {
+        "word": "rather / sooner",
+        "meaningVi": "thà... hơn"
+      },
+      {
+        "word": "well (may well, might well)",
+        "meaningVi": "rất có thể"
+      },
+      {
+        "word": "however often / whenever",
+        "meaningVi": "dấu hiệu của thói quen với will/would"
+      }
+    ],
+    "formulas": {
+      "pastDeduction": "S + must/may/might/could/can't + have + V3",
+      "needntHave": "S + needn't + have + V3",
+      "shouldHave": "S + should/ought to + have + V3",
+      "wouldRather": "S + would rather + V / S + would rather + S2 + V2",
+      "beTo": "S + be to + V / S + were to have + V3",
+      "hedging": "S + may/might/could well + V / S + can't/couldn't possibly + V"
+    },
+    "commonMistakes": [
+      {
+        "id": "modals-advanced-m1",
+        "description": "Dùng 'mustn't have' để suy đoán về quá khứ. Dạng chuẩn cho nghĩa 'chắc chắn không' là 'can't have + V3' ('mustn't' thường mang nghĩa cấm).",
+        "examples": [
+          {
+            "wrong": "She mustn't have seen it.",
+            "correct": "She can't have seen it."
+          }
+        ],
+        "usageIds": [
+          "ma-u1-past-deduction"
+        ]
+      },
+      {
+        "id": "modals-advanced-m2",
+        "description": "Nhầm needn't have với didn't need to.",
+        "examples": [
+          {
+            "wrong": "We needn't have bought tickets; we just walked in.",
+            "correct": "We didn't need to buy tickets; we just walked in."
+          }
+        ],
+        "usageIds": [
+          "ma-u2-needn-t-have"
+        ]
+      },
+      {
+        "id": "modals-advanced-m3",
+        "description": "Thiếu 'to' sau ought, hoặc thêm 'to' sau had better.",
+        "examples": [
+          {
+            "wrong": "You ought have checked.",
+            "correct": "You ought to have checked."
+          },
+          {
+            "wrong": "You had better to hurry.",
+            "correct": "You had better hurry."
+          }
+        ],
+        "usageIds": [
+          "ma-u3-should-have"
+        ]
+      },
+      {
+        "id": "modals-advanced-m4",
+        "description": "Dùng would với động từ trạng thái (own, be, have...) khi nói về quá khứ.",
+        "examples": [
+          {
+            "wrong": "When I was young, I would own a red bike.",
+            "correct": "When I was young, I used to own a red bike."
+          }
+        ],
+        "usageIds": [
+          "ma-u4-will-would"
+        ]
+      },
+      {
+        "id": "modals-advanced-m5",
+        "description": "Thêm 'to' sau would rather.",
+        "examples": [
+          {
+            "wrong": "I'd rather to stay.",
+            "correct": "I'd rather stay."
+          }
+        ],
+        "usageIds": [
+          "ma-u5-would-rather"
+        ]
+      },
+      {
+        "id": "modals-advanced-m6",
+        "description": "Quên 'to' trong be bound to / be liable to / be supposed to, hoặc dùng 'liable to' cho điều tốt.",
+        "examples": [
+          {
+            "wrong": "She is bound win the race.",
+            "correct": "She is bound to win the race."
+          },
+          {
+            "wrong": "She is liable to win the race.",
+            "correct": "She is bound to win the race."
+          }
+        ],
+        "usageIds": [
+          "ma-u7-be-to-bound"
+        ]
+      }
+    ]
+  }
+}

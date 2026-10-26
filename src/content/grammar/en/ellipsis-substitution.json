@@ -1,0 +1,303 @@
+{
+  "id": "ellipsis-substitution",
+  "language": "en",
+  "title": "Lược và thay thế (Ellipsis & Substitution)",
+  "levels": [
+    "C1",
+    "C2"
+  ],
+  "order": 38,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "ell-u1-clause-parallel",
+        "bac": 5,
+        "label": "Lược trong câu ghép và cấu trúc song song",
+        "explanationVi": "Khi hai vế nối bằng and / but / or có CÙNG chủ ngữ, ta thường bỏ chủ ngữ ở vế sau: She opened the door and walked in. Trợ động từ giống nhau cũng có thể chỉ nói một lần: He has finished the essay and sent it. Nếu chủ ngữ khác nhau thì phải nêu rõ chủ ngữ mới: Tom emailed the teacher, and she replied at once. Các thành phần nối nhau phải song song về loại từ (not only a singer but also a songwriter, không phải but also writes songs), và giới từ đi kèm mỗi từ vẫn phải giữ: interested in and enthusiastic about robotics. Trong văn viết trang trọng còn có lược động từ ở vế sau (gapping): Tom prefers tea and Mia coffee.",
+        "examples": [
+          {
+            "en": "Lan picked up her bag and left the room.",
+            "vi": "Lan cầm túi lên và rời khỏi phòng."
+          },
+          {
+            "en": "The students are interested in and enthusiastic about robotics.",
+            "vi": "Các bạn học sinh quan tâm và hào hứng với robot."
+          },
+          {
+            "en": "Tom prefers tea and Mia coffee.",
+            "vi": "Tom thích trà còn Mia thích cà phê."
+          }
+        ]
+      },
+      {
+        "id": "ell-u2-aux-ellipsis",
+        "bac": 5,
+        "label": "Lược sau trợ động từ và động từ khuyết thiếu",
+        "explanationVi": "Để tránh lặp lại cả cụm động từ, ta giữ lại trợ động từ (hoặc động từ khuyết thiếu, hoặc be) rồi bỏ phần còn lại: I can't swim, but my sister can. Nếu câu trước dùng động từ thường ở thì hiện tại hay quá khứ đơn, dùng do / does / did: He doesn't like horror films, but I do. Trợ động từ giữ lại phải khớp với ý và thì của động từ đã bị lược: haven't seen → has / have, không dùng do. Khi động từ chính là be, giữ nguyên be: Mark isn't ready, but his brother is. Nếu có nhiều trợ động từ, thường chỉ giữ trợ động từ đầu tiên: 'Has she been waiting long?' 'Yes, she has.' (nói 'Yes, she has been' cũng đúng, nhưng ngắn gọn hơn thì chỉ giữ has)",
+        "examples": [
+          {
+            "en": "I can't swim, but my sister can.",
+            "vi": "Tôi không biết bơi nhưng chị tôi biết."
+          },
+          {
+            "en": "They haven't finished, but we have.",
+            "vi": "Họ chưa xong nhưng chúng tôi xong rồi."
+          },
+          {
+            "en": "Nobody expected Sam to win, but he did.",
+            "vi": "Không ai nghĩ Sam sẽ thắng, nhưng cậu ấy đã thắng."
+          }
+        ]
+      },
+      {
+        "id": "ell-u3-to-ellipsis",
+        "bac": 5,
+        "label": "Lược động từ sau to (to-infinitive)",
+        "explanationVi": "Khi động từ nguyên thể đã rõ nghĩa từ ngữ cảnh, ta bỏ nó và chỉ giữ to: 'Do you want to come?' 'I'd love to.' Hay gặp sau want, hope, expect, promise, try, love, like, would like, be able, be going, ought, used. Lưu ý quan trọng: nếu bỏ động từ mà còn một thành phần theo sau (như be + bổ ngữ), thì phải giữ be: I'm not a champion yet, but I hope to be one day. Đáp ngắn thiếu to (I'd love.) nghe cụt và không chuẩn, còn dùng -ing thay cho to (I'd love going) thì đổi cấu trúc chứ không phải lược. Riêng với want và like, nếu có if/when thì người Mỹ cũng hay bỏ luôn to (You can come if you want); bài tập ở đây luôn yêu cầu giữ to.",
+        "examples": [
+          {
+            "en": "I didn't clean my room because I didn't want to.",
+            "vi": "Tôi không dọn phòng vì tôi không muốn."
+          },
+          {
+            "en": "You can come if you want to.",
+            "vi": "Bạn có thể đến nếu bạn muốn."
+          },
+          {
+            "en": "I'm not a champion yet, but I hope to be one day.",
+            "vi": "Tôi chưa là nhà vô địch, nhưng tôi hy vọng một ngày nào đó sẽ là."
+          }
+        ]
+      },
+      {
+        "id": "ell-u4-do-so-it-that",
+        "bac": 6,
+        "label": "Thay thế động từ bằng do so / do it / do that",
+        "explanationVi": "Để thay cho một hành động đã nói, dùng do + so / it / that. Do so là cách trang trọng, hay gặp trong văn bản và thông báo (có thể chia: did so, doing so, to do so): Anyone who wishes to withdraw may do so before Friday. Do it / do that thân mật hơn, thường dùng trong hội thoại và chỉ một việc cụ thể: 'Why did you do that?'. Chỉ dùng được cho hành động (động từ chỉ hành động có chủ ý), KHÔNG dùng cho động từ trạng thái như know, like, resemble, own, belong: Tom knows the answer, and Ana does too (không phải does so). Không nói *do so it* hay *do such*.",
+        "examples": [
+          {
+            "en": "Passengers must switch off their phones. Those who fail to do so may be asked to leave.",
+            "vi": "Hành khách phải tắt điện thoại. Ai không làm vậy có thể bị yêu cầu rời đi."
+          },
+          {
+            "en": "'Why did you do that?'",
+            "vi": "'Sao em lại làm thế?'"
+          },
+          {
+            "en": "She resembles her mother, and her brother does too.",
+            "vi": "Cô ấy giống mẹ, và em trai cô ấy cũng vậy."
+          }
+        ]
+      },
+      {
+        "id": "ell-u5-so-not",
+        "bac": 5,
+        "label": "Thay mệnh đề bằng so / not (think, hope, suppose, be afraid, if so/not)",
+        "explanationVi": "Sau các động từ think, believe, suppose, expect, guess, hope, be afraid, ta dùng so để thay cả mệnh đề khẳng định và not để thay mệnh đề phủ định: 'Will it rain?' 'I think so.' / 'I hope not.' / 'I'm afraid so.' Với think, believe, suppose, expect, guess, phủ định thường là don't + động từ + so: I don't think so (I think not nghe rất trang trọng). Với hope và be afraid không dùng don't: nói I hope not, I'm afraid not (không nói *I don't hope so*). I'm afraid so nghĩa là 'tiếc là đúng vậy' (tin xấu được xác nhận). Còn có if so / if not (nếu vậy / nếu không) và các cụm cố định như I told you so, I said so.",
+        "examples": [
+          {
+            "en": "'Will the test be hard?' 'I hope not.'",
+            "vi": "'Bài kiểm tra có khó không?' 'Tôi hy vọng là không.'"
+          },
+          {
+            "en": "'Is the shop open on Sunday?' 'I'm afraid not.'",
+            "vi": "'Chủ nhật cửa hàng có mở không?' 'Tiếc là không.'"
+          },
+          {
+            "en": "Are you thirsty? If so, there is water in the fridge.",
+            "vi": "Bạn khát không? Nếu có thì trong tủ lạnh có nước."
+          }
+        ]
+      },
+      {
+        "id": "ell-u6-one-ones-such",
+        "bac": 5,
+        "label": "Thay danh từ: one / ones, that of / those of, such",
+        "explanationVi": "One thay một danh từ đếm được số ít đã nhắc, ones thay danh từ số nhiều: I lost my old phone, so I bought a new one. These shoes are too small; do you have bigger ones? One/ones thường cần từ đứng trước như tính từ, the, which: the red ones. KHÔNG dùng one/ones thay danh từ không đếm được (dùng that hoặc bỏ hẳn) và nên tránh ngay sau sở hữu cách 's (dạng my brother's one chỉ gặp trong khẩu ngữ, không chuẩn): borrowed my brother's. Trong so sánh trang trọng, that thay danh từ số ít (nhất là không đếm được) và those thay danh từ số nhiều khi sau đó có cụm of / in: The air in the mountains is cleaner than that in the city; the prices here are lower than those in the mall. Such (và as such) thay cho 'loại đó / với tư cách đó': She is a trained doctor and, as such, she knows how to help.",
+        "examples": [
+          {
+            "en": "I lost my old phone, so I bought a new one.",
+            "vi": "Tôi làm mất chiếc điện thoại cũ nên mua chiếc mới."
+          },
+          {
+            "en": "The prices here are lower than those in the mall.",
+            "vi": "Giá ở đây thấp hơn giá ở trung tâm thương mại."
+          },
+          {
+            "en": "She is a trained doctor and, as such, she knows how to help.",
+            "vi": "Cô ấy là bác sĩ được đào tạo, và với tư cách đó cô biết cách giúp."
+          }
+        ]
+      },
+      {
+        "id": "ell-u7-comparison",
+        "bac": 5,
+        "label": "Lược trong so sánh (than I did / than me, as ... as she does)",
+        "explanationVi": "Sau than và as có thể là một mệnh đề đã bị lược. Dạng đủ: She plays chess better than I do. Dạng lược trong lời nói thân mật: than me (khi không có động từ theo sau). Nếu sau than/as có một mệnh đề (có động từ), dùng đại từ chủ ngữ và trợ động từ khớp với thì: than I do, than I expected, as hard as she did, as fluently as she does. Khi viết rất trang trọng, than I (không có động từ) cũng gặp. Chú ý mơ hồ: I like Tom more than Mia có thể là 'hơn Mia thích Tom' hoặc 'thích Tom hơn thích Mia'. Hãy thêm trợ động từ để rõ: more than Mia does hoặc more than I like Mia.",
+        "examples": [
+          {
+            "en": "She plays chess better than I do.",
+            "vi": "Cô ấy chơi cờ giỏi hơn tôi."
+          },
+          {
+            "en": "He didn't try as hard as his sister did.",
+            "vi": "Anh ấy không cố gắng bằng chị mình."
+          },
+          {
+            "en": "I like Tom more than Mia does.",
+            "vi": "Tôi quý Tom hơn Mia quý Tom."
+          }
+        ]
+      },
+      {
+        "id": "ell-u8-register-dialogue",
+        "bac": 6,
+        "label": "Lược ở đầu câu hội thoại và mệnh đề rút gọn trong văn viết trang trọng",
+        "explanationVi": "Mục này gồm hai kiểu lược khác nhau, đừng nhầm. (1) Hội thoại thân mật: bỏ chủ ngữ và trợ động từ ở đầu câu hỏi hay câu nói: (Has anyone) seen my keys? (Do you) want some tea? (That) sounds good. Không dùng cách này trong bài viết trang trọng. (2) Văn viết trang trọng: dùng mệnh đề rút gọn sau liên từ, bỏ chủ ngữ và be: if necessary (= if it is necessary), where possible, when asked, though exhausted, unless otherwise stated. Quy tắc: phần bị lược phải suy ra được rõ ràng. Với chủ ngữ thật (though exhausted, when asked), chủ ngữ ngầm phải trùng với chủ ngữ mệnh đề chính (she ... exhausted); với it/there (if necessary, where possible, unless otherwise stated) thì không cần.",
+        "examples": [
+          {
+            "en": "Anyone seen my keys?",
+            "vi": "Có ai thấy chìa khóa của tôi không?"
+          },
+          {
+            "en": "If necessary, the committee may extend the deadline.",
+            "vi": "Nếu cần, ủy ban có thể gia hạn."
+          },
+          {
+            "en": "Though exhausted, she finished the race.",
+            "vi": "Dù kiệt sức, cô ấy vẫn hoàn thành cuộc đua."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "and / but / or + (bỏ chủ ngữ)",
+        "meaningVi": "nối hai vế cùng chủ ngữ, vế sau có thể bỏ chủ ngữ"
+      },
+      {
+        "word": "can / do / did (đứng cuối)",
+        "meaningVi": "trợ động từ thay cả cụm động từ đã nói"
+      },
+      {
+        "word": "I'd love to",
+        "meaningVi": "giữ to, bỏ động từ"
+      },
+      {
+        "word": "do so / do it / do that",
+        "meaningVi": "làm việc đó (so: trang trọng)"
+      },
+      {
+        "word": "I think so / I hope not",
+        "meaningVi": "thay cả mệnh đề bằng so / not"
+      },
+      {
+        "word": "if so / if not",
+        "meaningVi": "nếu vậy / nếu không"
+      },
+      {
+        "word": "one / ones",
+        "meaningVi": "cái / những cái đó (danh từ đếm được)"
+      },
+      {
+        "word": "that of / those of",
+        "meaningVi": "cái của / những cái của (so sánh trang trọng)"
+      },
+      {
+        "word": "as such",
+        "meaningVi": "với tư cách đó"
+      },
+      {
+        "word": "where possible / if necessary",
+        "meaningVi": "mệnh đề rút gọn trong văn viết trang trọng"
+      }
+    ],
+    "formulas": {
+      "auxiliary": "Câu 1 + , but + chủ ngữ + trợ động từ. Ví dụ: I can't swim, but she can.",
+      "to-infinitive": "want / hope / love + to (bỏ động từ). Ví dụ: 'Coming?' 'I'd love to.'",
+      "substitution": "think / hope / suppose / be afraid + so / not. Ví dụ: I think so. | I hope not.",
+      "comparison": "than / as + chủ ngữ + trợ động từ. Ví dụ: She plays better than I do."
+    },
+    "commonMistakes": [
+      {
+        "id": "ellipsis-substitution-m1",
+        "description": "Dùng sai trợ động từ khi lược: trợ động từ giữ lại phải khớp với động từ đã bị lược (can → can, không phải does).",
+        "examples": [
+          {
+            "wrong": "I can't swim, but my sister does.",
+            "correct": "I can't swim, but my sister can."
+          }
+        ],
+        "usageIds": [
+          "ell-u2-aux-ellipsis"
+        ]
+      },
+      {
+        "id": "ellipsis-substitution-m2",
+        "description": "Dùng don't với hope hoặc be afraid: phải nói I hope not, I'm afraid not.",
+        "examples": [
+          {
+            "wrong": "I don't hope so.",
+            "correct": "I hope not."
+          }
+        ],
+        "usageIds": [
+          "ell-u5-so-not"
+        ]
+      },
+      {
+        "id": "ellipsis-substitution-m3",
+        "description": "Bỏ luôn to khi lược (cụt, không chuẩn) hoặc thay bằng -ing: nên giữ to.",
+        "examples": [
+          {
+            "wrong": "'Do you want to come?' 'I'd love.'",
+            "correct": "'Do you want to come?' 'I'd love to.'"
+          }
+        ],
+        "usageIds": [
+          "ell-u3-to-ellipsis"
+        ]
+      },
+      {
+        "id": "ellipsis-substitution-m4",
+        "description": "Dùng do so cho động từ trạng thái (know, like, resemble...): chỉ dùng cho hành động.",
+        "examples": [
+          {
+            "wrong": "Tom knows the answer, and Ana does so too.",
+            "correct": "Tom knows the answer, and Ana does too."
+          }
+        ],
+        "usageIds": [
+          "ell-u4-do-so-it-that"
+        ]
+      },
+      {
+        "id": "ellipsis-substitution-m5",
+        "description": "Dùng one sau sở hữu cách 's (không chuẩn), hoặc dùng one cho danh từ không đếm được.",
+        "examples": [
+          {
+            "wrong": "I forgot my umbrella, so I borrowed my brother's one.",
+            "correct": "I forgot my umbrella, so I borrowed my brother's."
+          }
+        ],
+        "usageIds": [
+          "ell-u6-one-ones-such"
+        ]
+      },
+      {
+        "id": "ellipsis-substitution-m6",
+        "description": "Dùng đại từ tân ngữ me khi sau than/as còn có động từ: phải dùng chủ ngữ + trợ động từ.",
+        "examples": [
+          {
+            "wrong": "She plays chess better than me do.",
+            "correct": "She plays chess better than I do."
+          }
+        ],
+        "usageIds": [
+          "ell-u7-comparison"
+        ]
+      }
+    ]
+  }
+}

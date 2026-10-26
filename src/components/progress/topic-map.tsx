@@ -4,6 +4,8 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { getPassedTopics, getRecentTopicRows } from "@/lib/db"
 import { nextTopic, topicStats, type MasteryStatus, type TopicStat } from "@/lib/progress/mastery"
+import { updateSettings, useSettings } from "@/lib/settings"
+import { TopicRoad, type RoadStage } from "./topic-road"
 
 export interface MapCategory {
   id: string
@@ -19,8 +21,10 @@ const STATUS: Record<MasteryStatus, { icon: string; label: string; style: string
 }
 
 /** Bản đồ chuyên đề: trạng thái từng chuyên đề và gợi ý học tiếp. Không khóa chuyên đề nào. */
-export function TopicMap({ categories }: { categories: MapCategory[] }) {
+export function TopicMap({ categories, stages }: { categories: MapCategory[]; stages: RoadStage[] }) {
   const [stats, setStats] = useState<Map<string, TopicStat> | null>(null)
+  const { hocView: view } = useSettings()
+  const pick = (v: "road" | "list") => updateSettings({ hocView: v })
 
   useEffect(() => {
     let cancelled = false
@@ -57,7 +61,15 @@ export function TopicMap({ categories }: { categories: MapCategory[] }) {
           )}
         </div>
       )}
-      {categories.map((cat) =>
+      <div className="mb-4 flex gap-2" role="group" aria-label="Kiểu hiển thị">
+        {([["road", "🗺️ Bản đồ"], ["list", "☰ Danh sách"]] as const).map(([v, label]) => (
+          <button key={v} type="button" aria-pressed={view === v} onClick={() => pick(v)} className="rounded-full border-2 border-border px-4 py-1 font-extrabold aria-pressed:border-primary aria-pressed:text-primary">
+            {label}
+          </button>
+        ))}
+      </div>
+      {view === "road" && <TopicRoad stages={stages} stats={stats} next={next} />}
+      {view === "list" && categories.map((cat) =>
         cat.topics.length === 0 ? null : (
           <section key={cat.id} className="mb-6">
             <h2 className="mb-2 text-sm uppercase tracking-wide text-muted-foreground">{cat.label}</h2>

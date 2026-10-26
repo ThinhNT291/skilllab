@@ -9,12 +9,14 @@ import { isGrammarTopic, topicHref } from "@/lib/content/links"
 import { PlayerCard } from "@/components/game/player-card"
 import { ActivityPanel } from "./activity-panel"
 import { ProfilePanel } from "./profile-panel"
+import { ScalePanel } from "./scale-panel"
+import type { Totals } from "@/lib/progress/scale"
 import { TrendPanel } from "./trend-panel"
 import { AttemptsPanel } from "./attempts-panel"
 
 type State = { status: "loading" } | { status: "error"; message: string } | { status: "ready"; summary: ProgressSummary; rows: AnswerRow[] }
 
-export function ProgressView({ catalog, topicTitles }: { catalog: Record<string, TagInfo>; topicTitles: Record<string, string> }) {
+export function ProgressView({ catalog, topicTitles, scaleTotals }: { catalog: Record<string, TagInfo>; topicTitles: Record<string, string>; scaleTotals: Totals }) {
   const [state, setState] = useState<State>({ status: "loading" })
   const [due, setDue] = useState<number | null>(null)
 
@@ -64,6 +66,7 @@ export function ProgressView({ catalog, topicTitles }: { catalog: Record<string,
       <PlayerCard />
       <ActivityPanel />
       <ProfilePanel />
+      <ScalePanel totals={scaleTotals} />
       <TrendPanel rows={state.rows} />
       <AttemptsPanel catalog={catalog} />
       <section className="grid grid-cols-3 gap-3 text-center" aria-label="Tổng quan">

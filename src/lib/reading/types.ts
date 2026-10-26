@@ -17,7 +17,7 @@ export interface ReadingPassage {
   questions: ReadingQuestion[]
 }
 
-export const READING_BACS: Bac[] = [1, 2, 3, 4]
+export const READING_BACS: Bac[] = [1, 2, 3, 4, 5, 6]
 export const READING_PASS_RATIO = 0.75
 
 /** Mã chuyên đề dùng khi ghi câu trả lời (không trùng chuyên đề ngữ pháp). */

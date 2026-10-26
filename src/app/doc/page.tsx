@@ -13,7 +13,7 @@ export default async function ReadingHome() {
       <h1 className="text-3xl font-extrabold">Đọc hiểu</h1>
       <p className="mb-4 text-muted-foreground">Đọc một bài ngắn rồi trả lời 4 câu hỏi. Chạm vào từ gạch chân chấm để xem nghĩa. Đúng từ 75% là đạt.</p>
       <LevelHint skill="reading" placementHref="/xep-trinh-do/doc" />
-      <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {READING_BACS.map((b, i) => (
           <li key={b}>
             {counts[i] > 0 ? (

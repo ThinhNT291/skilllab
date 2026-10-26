@@ -1,0 +1,294 @@
+{
+  "id": "noun-phrases-advanced",
+  "language": "en",
+  "title": "Cụm danh từ nâng cao (Advanced Noun Phrases)",
+  "levels": [
+    "C1",
+    "C2"
+  ],
+  "order": 36,
+  "category": "word-classes",
+  "theory": {
+    "usages": [
+      {
+        "id": "npa-u1-premodifiers",
+        "bac": 5,
+        "label": "Bổ nghĩa trước danh từ: danh từ ghép và tính từ ghép",
+        "explanationVi": "Trước danh từ chính có thể đặt danh từ làm bổ nghĩa (shoe shop, city bus driver) hoặc tính từ ghép (well-known, a ten-year-old boy). Danh từ bổ nghĩa luôn ở dạng số ít (a shoe shop, không phải 'shoes shop'), trừ vài trường hợp cố định như sports car. Khi số đo ghép với danh từ để làm tính từ thì danh từ trong đó cũng số ít và có gạch nối: a five-hour flight, a 1,000-word essay, a ten-year-old boy. Khi đứng sau động từ be thì viết rời và có số nhiều: The boy is ten years old. Chuỗi danh từ đọc ngược từ phải sang trái: danh từ cuối là danh từ chính (a school football team captain là 'đội trưởng' chứ không phải 'đội').",
+        "examples": [
+          {
+            "en": "She is a well-known author, and her novels are popular.",
+            "vi": "Bà ấy là một tác giả nổi tiếng, tiểu thuyết của bà rất được yêu thích."
+          },
+          {
+            "en": "We took a five-hour flight to Tokyo.",
+            "vi": "Chúng tôi đi chuyến bay năm tiếng tới Tokyo."
+          },
+          {
+            "en": "The boy is ten years old, but he is a ten-year-old chess champion.",
+            "vi": "Cậu bé mười tuổi, và là nhà vô địch cờ vua mười tuổi."
+          }
+        ]
+      },
+      {
+        "id": "npa-u2-postmodifiers",
+        "bac": 5,
+        "label": "Bổ nghĩa sau danh từ: cụm giới từ, mệnh đề, to-infinitive, V-ing/V-ed",
+        "explanationVi": "Thông tin bổ sung thường đứng sau danh từ. Có năm dạng chính: (1) cụm giới từ: an increase in prices, a demand for change, a solution to the problem (giới từ đi theo danh từ là cố định, cần học theo cụm); (2) mệnh đề quan hệ, có thể bỏ that khi nó là tân ngữ: everything that she said, the book I borrowed (sau all, everything, something dùng that, không dùng what); (3) to-infinitive sau danh từ: the decision to leave, the first student to arrive, the ability to adapt; (4) V-ing mang nghĩa chủ động: the girl standing by the window; (5) V-ed mang nghĩa bị động: the books written by this author. Ngoài ra, tính từ có bổ ngữ đi kèm phải đứng sau danh từ: a student keen to learn (không nói 'a keen to learn student').",
+        "examples": [
+          {
+            "en": "The decision to leave was difficult.",
+            "vi": "Quyết định ra đi thật khó khăn."
+          },
+          {
+            "en": "Amy was the first student to try the robot.",
+            "vi": "Amy là học sinh đầu tiên thử con robot."
+          },
+          {
+            "en": "The books written by this author are popular.",
+            "vi": "Những cuốn sách do tác giả này viết rất được ưa chuộng."
+          }
+        ]
+      },
+      {
+        "id": "npa-u3-apposition",
+        "bac": 5,
+        "label": "Đồng vị ngữ (Apposition)",
+        "explanationVi": "Đồng vị ngữ là một cụm danh từ đặt cạnh danh từ khác để giải thích hoặc định danh nó: My neighbor, a retired pilot, taught me to fly kites. Khi thông tin chỉ là bổ sung, đặt giữa hai dấu phẩy (hoặc một dấu phẩy ở cuối câu); đừng bỏ một trong hai dấu phẩy khi cụm nằm giữa câu. Đồng vị ngữ cần có mạo từ hoặc hạn định từ như một cụm danh từ hoàn chỉnh: a retired pilot, không phải 'retired pilot'. Đồng vị ngữ cũng có thể đứng đầu câu: A talented swimmer, Linh quickly became the star of the team. Có loại đồng vị ngữ là cả mệnh đề that đi sau danh từ trừu tượng (news, idea, claim, rumor): the news that the team had won. Ở đây that không thay được bằng what hay which, và mệnh đề that này không đặt giữa dấu phẩy. Nếu chỉ có một đối tượng như vậy, dùng dấu phẩy: My only brother, Nam, lives abroad.",
+        "examples": [
+          {
+            "en": "My neighbor, a retired pilot, taught me to fly kites.",
+            "vi": "Hàng xóm của tôi, một phi công đã nghỉ hưu, dạy tôi thả diều."
+          },
+          {
+            "en": "A talented swimmer, Linh quickly became the star of the team.",
+            "vi": "Là một vận động viên bơi lội tài năng, Linh nhanh chóng trở thành ngôi sao của đội."
+          },
+          {
+            "en": "The news that the team had won delighted everyone.",
+            "vi": "Tin đội thắng khiến mọi người vui mừng."
+          }
+        ]
+      },
+      {
+        "id": "npa-u4-nominalisation",
+        "bac": 5,
+        "label": "Danh hóa (Nominalisation) trong văn viết",
+        "explanationVi": "Danh hóa là biến động từ hoặc tính từ thành danh từ: decide - decision, develop - development, discover - discovery, fail - failure, analyze - analysis, responsible - responsibility, important - importance. Văn học thuật dùng danh hóa để nén cả mệnh đề thành một cụm danh từ, làm câu gọn và trang trọng hơn. Ví dụ: 'People use more renewable energy, and this helps reduce pollution' thành 'The increased use of renewable energy helps reduce pollution.' Hãy học đuôi từ thường gặp (-tion, -ment, -ure, -ity, -ness, -ance/-ence, -sis) và nhớ rằng động từ chia theo danh từ chính (use), không theo danh từ nằm cuối cụm (energy). Đừng lạm dụng: câu quá nhiều danh từ trừu tượng khó đọc.",
+        "examples": [
+          {
+            "en": "The development of the vaccine saved millions of lives.",
+            "vi": "Việc phát triển vắc-xin đã cứu hàng triệu mạng người."
+          },
+          {
+            "en": "The failure of the plan disappointed us.",
+            "vi": "Sự thất bại của kế hoạch làm chúng tôi thất vọng."
+          },
+          {
+            "en": "A careful analysis of the data revealed a pattern.",
+            "vi": "Một phân tích kỹ lưỡng dữ liệu đã cho thấy một quy luật."
+          }
+        ]
+      },
+      {
+        "id": "npa-u5-fact-that",
+        "bac": 5,
+        "label": "The fact that ... và danh từ + mệnh đề that",
+        "explanationVi": "The fact that + mệnh đề biến cả một sự việc thành chủ ngữ hoặc tân ngữ của câu: The fact that the museum is free makes it popular. Phải giữ đủ the fact that: không bỏ mạo từ (không nói 'Fact that ...'), không đổi that thành what. Động từ chia số ít theo fact: The fact that students use phones in class is a problem. Sau giới từ, cụm này dùng được trong các liên từ trang trọng: despite the fact that, in spite of the fact that, owing to the fact that, given the fact that. Không nói 'despite of'. Dạng 'despite that' không dùng để mở một mệnh đề phụ như vậy; hãy dùng despite the fact that hoặc although.",
+        "examples": [
+          {
+            "en": "The fact that the museum is free makes it popular with students.",
+            "vi": "Việc bảo tàng miễn phí khiến nó được học sinh ưa chuộng."
+          },
+          {
+            "en": "Despite the fact that she was tired, she kept studying.",
+            "vi": "Mặc dù cô ấy mệt, cô ấy vẫn tiếp tục học."
+          },
+          {
+            "en": "Owing to the fact that the lake had frozen, the race was canceled.",
+            "vi": "Vì hồ đã đóng băng nên cuộc đua bị hủy."
+          }
+        ]
+      },
+      {
+        "id": "npa-u6-quantifiers",
+        "bac": 5,
+        "label": "Lượng từ nâng cao",
+        "explanationVi": "(1) a great deal of + danh từ không đếm được: a great deal of research (không thêm s). (2) a number of + danh từ số nhiều (nghĩa là 'một số'), động từ số nhiều: A number of students were late; nhưng the number of + danh từ số nhiều, động từ số ít: The number of students is rising. (3) a handful of + danh từ số nhiều đếm được, nghĩa là 'một vài, rất ít'. (4) the majority of + danh từ: động từ theo danh từ sau of (the majority of the students are..., the majority of the water is...). (5) each of / either of / neither of + hạn định từ + danh từ số nhiều (each of the players). (6) all, both, half đứng được trước hạn định từ: all the students, both my sisters, half the price; trước đại từ thì bắt buộc có of: all of them, both of us, half of it.",
+        "examples": [
+          {
+            "en": "A great deal of research has been done on climate change.",
+            "vi": "Rất nhiều nghiên cứu đã được thực hiện về biến đổi khí hậu."
+          },
+          {
+            "en": "A number of students were late, but the number of absences is small.",
+            "vi": "Một số học sinh đến muộn, nhưng số lượt vắng mặt thì ít."
+          },
+          {
+            "en": "I invited ten friends, and all of them came.",
+            "vi": "Tôi mời mười người bạn và tất cả đều đến."
+          }
+        ]
+      },
+      {
+        "id": "npa-u7-possessives",
+        "bac": 5,
+        "label": "Sở hữu: 's và of, sở hữu kép (a friend of mine)",
+        "explanationVi": "Dùng 's cho người, động vật và cụm chỉ thời gian hoặc khoảng cách: Maria's bicycle, yesterday's news, two hours' drive (danh từ số nhiều đã có s thì chỉ thêm dấu nháy). Với vật và ý trừu tượng thường dùng of: the cover of the book, the end of the film (dạng 's với vật như the book's cover vẫn gặp trong văn nói, nhưng of tự nhiên hơn trong văn viết trang trọng). Sở hữu kép (double genitive) gồm of + sở hữu cách hoặc đại từ sở hữu, dùng khi danh từ đứng trước là một trong nhiều thứ: a friend of mine, that old watch of my grandfather's, a mistake of Tom's. Phải là 'of mine' chứ không phải 'of me' hay 'of my'. Khi hai người cùng sở hữu một vật, chỉ thêm 's ở người thứ hai: Ba and Lan's house. Với danh từ sở hữu là cụm dài, of thường tự nhiên hơn dấu 's.",
+        "examples": [
+          {
+            "en": "Tom is a close friend of mine.",
+            "vi": "Tom là một người bạn thân của tôi."
+          },
+          {
+            "en": "That old watch of my grandfather's still works.",
+            "vi": "Chiếc đồng hồ cũ của ông tôi vẫn chạy."
+          },
+          {
+            "en": "It is only two hours' drive from here.",
+            "vi": "Chỉ mất hai giờ lái xe từ đây."
+          }
+        ]
+      },
+      {
+        "id": "npa-u8-complex-structure",
+        "bac": 5,
+        "label": "Cấu trúc cụm danh từ phức tạp: từ đứng trước mạo từ và thứ tự các thành phần",
+        "explanationVi": "Một cụm danh từ đầy đủ có trật tự: tiền hạn định từ (all, both, half, such, quite, what) + mạo từ/hạn định từ + số thứ tự + số đếm + bổ nghĩa + danh từ chính + bổ nghĩa sau. Ví dụ: all the other students; such a great idea; what a beautiful view; half an hour. Số thứ tự đứng trước số đếm: the first three chapters (không phải 'the three first chapters'). Với such, what và quite dùng 'a' sau chúng: such a great idea, không phải 'a such great idea'. Danh từ làm bổ nghĩa xếp theo thứ tự phạm vi, danh từ chính đứng cuối cùng: the school football team captain. Chuyên đề này chỉ nói về trật tự ở mức cả cụm; thứ tự các tính từ miêu tả xem chuyên đề Thứ tự tính từ.",
+        "examples": [
+          {
+            "en": "All the other students wore white coats.",
+            "vi": "Tất cả các học sinh khác đều mặc áo choàng trắng."
+          },
+          {
+            "en": "Such a great idea deserves a prize!",
+            "vi": "Một ý tưởng tuyệt vời như thế xứng đáng có giải!"
+          },
+          {
+            "en": "Read the first three chapters before Friday.",
+            "vi": "Hãy đọc ba chương đầu trước thứ Sáu."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "a ten-year-old / a five-hour",
+        "meaningVi": "tính từ ghép số đo, danh từ số ít"
+      },
+      {
+        "word": "the decision to / the ability to",
+        "meaningVi": "danh từ + to-infinitive"
+      },
+      {
+        "word": ", a retired pilot,",
+        "meaningVi": "đồng vị ngữ giữa hai dấu phẩy"
+      },
+      {
+        "word": "the fact that",
+        "meaningVi": "việc mà, sự thật là"
+      },
+      {
+        "word": "a great deal of / a handful of",
+        "meaningVi": "rất nhiều (không đếm được) / một vài"
+      },
+      {
+        "word": "a friend of mine",
+        "meaningVi": "sở hữu kép: một người bạn của tôi"
+      }
+    ],
+    "formulas": {
+      "structure": "Tiền hạn định từ + hạn định từ + số thứ tự + số đếm + bổ nghĩa + danh từ chính + bổ nghĩa sau. Ví dụ: all the first three chapters of the book.",
+      "apposition": "Danh từ, + a/an/the + cụm danh từ, + vị ngữ. Ví dụ: My neighbor, a retired pilot, taught me.",
+      "nominalisation": "động từ/tính từ + hậu tố -tion/-ment/-ure/-ity/-sis... Ví dụ: decide - decision; fail - failure."
+    },
+    "commonMistakes": [
+      {
+        "id": "noun-phrases-advanced-m1",
+        "description": "Dùng danh từ bổ nghĩa ở số nhiều hoặc thêm s vào tính từ ghép số đo.",
+        "examples": [
+          {
+            "wrong": "a shoes shop",
+            "correct": "a shoe shop"
+          },
+          {
+            "wrong": "a ten-years-old boy",
+            "correct": "a ten-year-old boy"
+          }
+        ],
+        "usageIds": [
+          "npa-u1-premodifiers"
+        ]
+      },
+      {
+        "id": "noun-phrases-advanced-m2",
+        "description": "Bỏ mạo từ trong đồng vị ngữ hoặc thiếu một dấu phẩy.",
+        "examples": [
+          {
+            "wrong": "My neighbor, retired pilot, taught me.",
+            "correct": "My neighbor, a retired pilot, taught me."
+          }
+        ],
+        "usageIds": [
+          "npa-u3-apposition"
+        ]
+      },
+      {
+        "id": "noun-phrases-advanced-m3",
+        "description": "Chọn sai chia động từ với the number of / a number of.",
+        "examples": [
+          {
+            "wrong": "The number of students are rising.",
+            "correct": "The number of students is rising."
+          }
+        ],
+        "usageIds": [
+          "npa-u6-quantifiers"
+        ]
+      },
+      {
+        "id": "noun-phrases-advanced-m4",
+        "description": "Dùng of me / of my thay cho đại từ sở hữu trong sở hữu kép.",
+        "examples": [
+          {
+            "wrong": "a friend of me",
+            "correct": "a friend of mine"
+          }
+        ],
+        "usageIds": [
+          "npa-u7-possessives"
+        ]
+      },
+      {
+        "id": "noun-phrases-advanced-m5",
+        "description": "Sai trật tự tiền hạn định từ và mạo từ: a such, the all, three first.",
+        "examples": [
+          {
+            "wrong": "a such great idea",
+            "correct": "such a great idea"
+          },
+          {
+            "wrong": "the three first chapters",
+            "correct": "the first three chapters"
+          }
+        ],
+        "usageIds": [
+          "npa-u8-complex-structure"
+        ]
+      },
+      {
+        "id": "noun-phrases-advanced-m6",
+        "description": "Bỏ the fact that hoặc dùng despite of.",
+        "examples": [
+          {
+            "wrong": "Despite of the fact that it rained, we went.",
+            "correct": "Despite the fact that it rained, we went."
+          }
+        ],
+        "usageIds": [
+          "npa-u5-fact-that"
+        ]
+      }
+    ]
+  }
+}

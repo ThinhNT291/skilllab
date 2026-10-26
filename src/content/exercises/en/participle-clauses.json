@@ -1,0 +1,1406 @@
+[
+  {
+    "id": "en-participle-clauses-001",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u1-present-participle",
+    "tags": [
+      "pc-u1-present-participle"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ along the beach, we found a beautiful shell.",
+    "choices": [
+      "Walking",
+      "Walked",
+      "To walk",
+      "Walk"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cụm V-ing thay While we were walking... khi chủ ngữ hai vế trùng nhau.",
+    "choiceExplanations": [
+      "Đúng — Chủ ngữ we tự đi bộ (chủ động) và việc đi bộ diễn ra cùng lúc với việc tìm thấy vỏ sò, nên dùng V-ing.",
+      "Sai — Walked là dạng quá khứ/bị động; we không 'bị đi bộ', nên không dùng V3 cho nghĩa chủ động.",
+      "Sai — To walk đứng đầu câu thường chỉ mục đích (để đi bộ), không diễn tả việc đang diễn ra cùng lúc.",
+      "Sai — Walk là dạng nguyên mẫu/mệnh lệnh, không thể làm cụm phân từ bổ nghĩa cho chủ ngữ we."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-002",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u1-present-participle",
+    "tags": [
+      "pc-u1-present-participle"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the news, Mia burst into tears.",
+    "choices": [
+      "Heard",
+      "Hearing",
+      "Hear",
+      "Hears"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mia chủ động nghe tin, nên dùng V-ing.",
+    "choiceExplanations": [
+      "Sai — Heard the news (V3 + tân ngữ) không phải cụm phân từ hợp lệ; Mia chủ động nghe tin nên không dùng V3 bị động.",
+      "Đúng — Hearing the news = When she heard the news: V-ing chủ động chỉ thời điểm/nguyên nhân, chủ ngữ Mia trùng.",
+      "Sai — Hear là nguyên mẫu/mệnh lệnh, không làm cụm phân từ cho Mia.",
+      "Sai — Hears là động từ chia ngôi; Hears the news, Mia burst... nối hai mệnh đề chỉ bằng dấu phẩy."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-003",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u1-present-participle",
+    "tags": [
+      "pc-u1-present-participle"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ very tired, Ben went to bed at eight.",
+    "choices": [
+      "Felt",
+      "Feel",
+      "To feel",
+      "Feeling"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cụm V-ing chỉ nguyên nhân: Feeling tired = Because he felt tired.",
+    "choiceExplanations": [
+      "Sai — Felt là quá khứ đơn (động từ chia ngôi); không mở đầu được cụm phân từ chủ động chỉ nguyên nhân.",
+      "Sai — Feel là nguyên mẫu/mệnh lệnh, không tạo cụm phân từ chỉ lý do cho Ben.",
+      "Sai — To feel very tired nghe như mục đích, không giải thích vì sao Ben đi ngủ.",
+      "Đúng — Feeling very tired = Because he felt very tired: V-ing chủ động chỉ nguyên nhân."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-004",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u1-present-participle",
+    "tags": [
+      "pc-u1-present-participle"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the answer, she raised her hand and asked for help.",
+    "choices": [
+      "Not to know",
+      "Not knowing",
+      "Not know",
+      "Don't knowing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phủ định: Not + V-ing.",
+    "choiceExplanations": [
+      "Sai — Not to know đứng đầu câu nghe như mục đích hay điều kiện, không phải lý do có sẵn; phủ định của cụm phân từ là Not + V-ing.",
+      "Đúng — Phủ định của cụm phân từ đặt Not trước V-ing: Not knowing = Because she didn't know.",
+      "Sai — Not know thiếu đuôi -ing; sau Not trong cụm phân từ phải là V-ing.",
+      "Sai — Don't là trợ động từ chia ngôi; cụm phân từ không dùng trợ động từ, chỉ cần Not + V-ing."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-005",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u1-present-participle",
+    "tags": [
+      "pc-u1-present-participle"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The kids sat on the floor, ______ stories about dragons.",
+    "choices": [
+      "they told",
+      "telling",
+      "tells",
+      "tell"
+    ],
+    "correctIndex": 1,
+    "explanation": "V-ing sau mệnh đề chính nói hành động đi kèm.",
+    "choiceExplanations": [
+      "Sai — They told là mệnh đề đầy đủ thứ hai, nối với mệnh đề đầu chỉ bằng dấu phẩy (lỗi comma splice); cần cụm phân từ telling.",
+      "Đúng — Hành động đi kèm cùng lúc, cùng chủ ngữ the kids: dùng V-ing đặt sau dấu phẩy.",
+      "Sai — Tells là động từ chia ngôi số ít, không hợp với the kids và lại tạo hai mệnh đề nối bằng dấu phẩy.",
+      "Sai — tell là động từ chia ngôi (số nhiều) sau dấu phẩy mà không có liên từ, nên thành comma splice."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-006",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u1-present-participle",
+    "tags": [
+      "pc-u1-present-participle"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the youngest in the class, Hana was often given extra help.",
+    "choices": [
+      "Being",
+      "Been",
+      "Be",
+      "To be"
+    ],
+    "correctIndex": 0,
+    "explanation": "Being the youngest = Because she was the youngest.",
+    "choiceExplanations": [
+      "Đúng — Being the youngest = Because she was the youngest; chủ ngữ Hana trùng nên dùng Being (bỏ được Being nhưng không đổi dạng khác).",
+      "Sai — Been chỉ đi sau have/has/had (Having been...), không đứng riêng ở đầu cụm phân từ.",
+      "Sai — Be là nguyên mẫu, không làm cụm phân từ chỉ lý do.",
+      "Sai — To be the youngest... nghe như mục đích ('để là người nhỏ nhất'), không nêu nguyên nhân."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-007",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u2-result-sequence",
+    "tags": [
+      "pc-u2-result-sequence"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The volcano erupted, ______ the whole island in thick ash.",
+    "choices": [
+      "covering",
+      "covered",
+      "covers",
+      "cover"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cụm V-ing sau dấu phẩy chỉ kết quả của sự việc ở mệnh đề chính.",
+    "choiceExplanations": [
+      "Đúng — covering the whole island in thick ash là kết quả của vụ phun trào: , + V-ing.",
+      "Sai — erupted, covered... thêm động từ quá khứ thứ hai sau dấu phẩy mà không có liên từ; kết quả phải dùng V-ing.",
+      "Sai — covers là động từ hiện tại chia ngôi, sai thì và thiếu liên từ.",
+      "Sai — cover là nguyên mẫu, không nối được kết quả vào mệnh đề trước."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-008",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u2-result-sequence",
+    "tags": [
+      "pc-u2-result-sequence"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Heavy rain fell all night, ______ the river to rise by two meters.",
+    "choices": [
+      "caused",
+      "causing",
+      "cause",
+      "to cause"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dùng V-ing chỉ kết quả, causing + O + to V.",
+    "choiceExplanations": [
+      "Sai — caused là động từ quá khứ thứ hai sau dấu phẩy, không có liên từ nối; kết quả phải dùng V-ing.",
+      "Đúng — causing + tân ngữ + to-V: kết quả của trận mưa là sông dâng lên.",
+      "Sai — cause là nguyên mẫu, không nối được kết quả vào mệnh đề trước.",
+      "Sai — To cause nghe như mục đích (mưa rơi để làm sông dâng), mà mưa không có chủ ý."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-009",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u2-result-sequence",
+    "tags": [
+      "pc-u2-result-sequence"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng.",
+    "choices": [
+      "Grabbed her coat, Lena ran out of the house.",
+      "Grab her coat, Lena ran out of the house.",
+      "Grabs her coat, Lena ran out of the house.",
+      "Grabbing her coat, Lena ran out of the house."
+    ],
+    "correctIndex": 3,
+    "explanation": "Cụm V-ing đầu câu diễn tả việc làm trước/liền với hành động chính; chủ ngữ Lena làm cả hai việc.",
+    "choiceExplanations": [
+      "Sai — Grabbed (V3) mang nghĩa bị động nên không đi với tân ngữ her coat; Lena chủ động nên cần V-ing.",
+      "Sai — Grab là nguyên mẫu/mệnh lệnh, không làm cụm phân từ cho Lena.",
+      "Sai — Grabs là động từ chia ngôi nối với ran bằng dấu phẩy (comma splice) và sai thì.",
+      "Đúng — Grabbing her coat: V-ing chủ động, hai việc liền nhau, chủ ngữ Lena trùng."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-010",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u2-result-sequence",
+    "tags": [
+      "pc-u2-result-sequence"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The company cut its prices by half, ______ many new customers.",
+    "choices": [
+      "attracted",
+      "attracts",
+      "attracting",
+      "attract"
+    ],
+    "correctIndex": 2,
+    "explanation": "Kết quả: , + V-ing.",
+    "choiceExplanations": [
+      "Sai — attracted là động từ quá khứ thứ hai sau dấu phẩy, không có liên từ; muốn nói kết quả phải dùng attracting.",
+      "Sai — attracts là hiện tại, sai thì với cut và nối hai động từ chia ngôi chỉ bằng dấu phẩy.",
+      "Đúng — attracting many new customers là kết quả của việc giảm giá: , + V-ing.",
+      "Sai — attract là nguyên mẫu, không nối được kết quả vào mệnh đề trước."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-011",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u2-result-sequence",
+    "tags": [
+      "pc-u2-result-sequence"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The factory released chemicals into the river, ______ thousands of fish.",
+    "choices": [
+      "killed",
+      "killing",
+      "and killing",
+      "was killing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Không dùng and cùng V-ing.",
+    "choiceExplanations": [
+      "Sai — killed là động từ chia ngôi thứ hai sau dấu phẩy, không có liên từ nối.",
+      "Đúng — killing thousands of fish là kết quả trực tiếp của việc xả hóa chất: , + V-ing.",
+      "Sai — Không đặt and trước cụm V-ing chỉ kết quả; and killing chỉ hợp khi song song với một V-ing khác.",
+      "Sai — was killing là động từ chia ngôi cần chủ ngữ riêng và liên từ; ở đây thiếu cả hai."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-012",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u2-result-sequence",
+    "tags": [
+      "pc-u2-result-sequence"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Prices rose sharply last year, ______ many families to cut back on spending.",
+    "choices": [
+      "forced",
+      "to force",
+      "force",
+      "forcing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Kết quả: V-ing.",
+    "choiceExplanations": [
+      "Sai — forced là động từ quá khứ thứ hai sau dấu phẩy, không có liên từ nối; kết quả phải dùng V-ing.",
+      "Sai — To force nghe như mục đích có chủ ý, mà việc giá tăng không có ý định.",
+      "Sai — force là nguyên mẫu, không nối được kết quả vào mệnh đề trước.",
+      "Đúng — forcing + tân ngữ + to-V diễn tả kết quả: giá tăng buộc nhiều gia đình phải cắt giảm."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-013",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u3-perfect-participle",
+    "tags": [
+      "pc-u3-perfect-participle"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ his homework, Tom turned on the TV.",
+    "choices": [
+      "Finished",
+      "Have finished",
+      "Having been finished",
+      "Having finished"
+    ],
+    "correctIndex": 3,
+    "explanation": "Having + V3 cho việc xong trước.",
+    "choiceExplanations": [
+      "Sai — Finished + his homework: V3 mang nghĩa bị động, không đi với tân ngữ khi Tom chủ động làm xong; cần Having finished.",
+      "Sai — Have finished là động từ chia ngôi (hiện tại hoàn thành), không mở đầu được cụm phân từ.",
+      "Sai — Having been finished là bị động ('được hoàn thành'), nhưng Tom là người làm bài nên cần chủ động.",
+      "Đúng — Hoàn thành bài trước khi bật TV: Having + V3."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-014",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u3-perfect-participle",
+    "tags": [
+      "pc-u3-perfect-participle"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the museum twice before, we decided to try the zoo.",
+    "choices": [
+      "Visiting",
+      "Visited",
+      "Having visited",
+      "Having visiting"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dùng Having + V3.",
+    "choiceExplanations": [
+      "Sai — Visiting là V-ing đơn (cùng lúc), không thể hiện việc đã đi thăm xong từ trước như twice before gợi ý.",
+      "Sai — Visited the museum: V3 mang nghĩa bị động, không đi với tân ngữ khi we chủ động.",
+      "Đúng — Việc đã làm hai lần trước đó: Having + V3.",
+      "Sai — Having phải đi với phân từ quá khứ visited, không đi với V-ing."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-015",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u3-perfect-participle",
+    "tags": [
+      "pc-u3-perfect-participle"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the instructions, he put the shelf together the wrong way.",
+    "choices": [
+      "Not have read",
+      "Not having read",
+      "Not read",
+      "Having not been read"
+    ],
+    "correctIndex": 1,
+    "explanation": "Not having + V3.",
+    "choiceExplanations": [
+      "Sai — Not have read dùng nguyên mẫu have; cụm phân từ hoàn thành phủ định là Not having read.",
+      "Đúng — Phủ định của phân từ hoàn thành: Not having + V3 (vì chưa đọc hướng dẫn).",
+      "Sai — Not read không cho thấy việc chưa đọc là việc xảy ra trước; trong cụm phân từ cần Not having + V3.",
+      "Sai — Having not been read là bị động ('chưa được đọc'); chủ ngữ he là người đọc chứ không phải thứ bị đọc."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-016",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u3-perfect-participle",
+    "tags": [
+      "pc-u3-perfect-participle"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ by the coach, the player was allowed to rejoin the team.",
+    "choices": [
+      "Having forgiven",
+      "Forgiving",
+      "Been forgiven",
+      "Having been forgiven"
+    ],
+    "correctIndex": 3,
+    "explanation": "Having been + V3.",
+    "choiceExplanations": [
+      "Sai — Having forgiven là chủ động: cầu thủ đã tha thứ cho huấn luyện viên, ngược nghĩa câu.",
+      "Sai — Forgiving là chủ động, cũng đảo ngược nghĩa: cầu thủ trở thành người tha thứ.",
+      "Sai — Been forgiven thiếu Having; Been không đứng một mình mở đầu cụm phân từ.",
+      "Đúng — Having been forgiven = After he had been forgiven: bị động hoàn thành, tha thứ xảy ra trước."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-017",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u3-perfect-participle",
+    "tags": [
+      "pc-u3-perfect-participle"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng.",
+    "choices": [
+      "Having live in Canada for ten years, Marco speaks excellent English.",
+      "Have lived in Canada for ten years, Marco speaks excellent English.",
+      "Having been lived in Canada for ten years, Marco speaks excellent English.",
+      "Having lived in Canada for ten years, Marco speaks excellent English."
+    ],
+    "correctIndex": 3,
+    "explanation": "Having lived.",
+    "choiceExplanations": [
+      "Sai — Having phải đi với phân từ quá khứ lived, không phải live.",
+      "Sai — Have lived là động từ chia ngôi, không làm cụm phân từ.",
+      "Sai — Having been lived là bị động; Marco là người sống ở Canada, không phải thứ bị 'sống'.",
+      "Đúng — Having lived in Canada for ten years: hoàn thành, chủ động, chỉ lý do Marco nói giỏi."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-018",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u3-perfect-participle",
+    "tags": [
+      "pc-u3-perfect-participle"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "(Hai việc xảy ra cùng lúc.) ______ on the phone, Dad cooked dinner.",
+    "choices": [
+      "Having talked",
+      "Talking",
+      "Talked",
+      "Having been talked"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cùng lúc: V-ing.",
+    "choiceExplanations": [
+      "Sai — Having talked nghĩa là nói điện thoại xong rồi mới nấu; đề nói hai việc cùng lúc.",
+      "Đúng — Hai việc cùng lúc, cùng chủ ngữ Dad: dùng V-ing đơn.",
+      "Sai — Talked (V3) mang nghĩa bị động, không hợp vì Dad chủ động nói chuyện.",
+      "Sai — Having been talked là bị động hoàn thành, sai cả về chủ động lẫn thời điểm."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-019",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u3-perfect-participle",
+    "tags": [
+      "pc-u3-perfect-participle"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ no warning, the residents had no time to prepare.",
+    "choices": [
+      "Having been given",
+      "Having given",
+      "Giving",
+      "Given having"
+    ],
+    "correctIndex": 0,
+    "explanation": "Having been given.",
+    "choiceExplanations": [
+      "Đúng — Cư dân là người được cảnh báo (hoặc không được cảnh báo) trước đó: bị động hoàn thành Having been given.",
+      "Sai — Having given là chủ động: cư dân đã đưa lời cảnh báo, trái nghĩa với câu.",
+      "Sai — Giving là chủ động: cư dân là người đưa lời cảnh báo, ngược nghĩa.",
+      "Sai — Given having là trật tự sai; chỉ có Having been given hoặc Given (không kèm having)."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-020",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u4-past-participle",
+    "tags": [
+      "pc-u4-past-participle"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ in 1998, the stadium is still used today.",
+    "choices": [
+      "Building",
+      "To build",
+      "Having built",
+      "Built"
+    ],
+    "correctIndex": 3,
+    "explanation": "Chủ ngữ the stadium chịu tác động của hành động xây, nên dùng V3 (Built).",
+    "choiceExplanations": [
+      "Sai — Building mang nghĩa chủ động (sân vận động tự đi xây), không hợp nghĩa.",
+      "Sai — To build chỉ mục đích hoặc dự định, không nói việc đã được xây năm 1998.",
+      "Sai — Having built là chủ động hoàn thành; sân vận động không phải người xây.",
+      "Đúng — Sân vận động là vật được xây, nên cần V3 bị động: Built in 1998 = Because/Although it was built in 1998."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-021",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u4-past-participle",
+    "tags": [
+      "pc-u4-past-participle"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ by the noise, the baby started to cry.",
+    "choices": [
+      "Frightened",
+      "Frightening",
+      "Frighten",
+      "Having frightened"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cảm xúc của người bị tác động dùng V3 (frightened, amazed); by chỉ nguyên nhân.",
+    "choiceExplanations": [
+      "Đúng — Em bé bị tiếng ồn làm sợ: bị động nên dùng V3, đi với by.",
+      "Sai — Frightening nghĩa là 'đáng sợ, gây sợ', không diễn tả em bé bị sợ.",
+      "Sai — Frighten là nguyên mẫu, không làm cụm phân từ bổ nghĩa cho the baby.",
+      "Sai — Having frightened là chủ động hoàn thành, nghĩa em bé đã làm ai đó sợ, trái ý câu."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-022",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u4-past-participle",
+    "tags": [
+      "pc-u4-past-participle"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng.",
+    "choices": [
+      "Painting by a local artist, the mural attracts many visitors.",
+      "Painted a local artist, the mural attracts many visitors.",
+      "Having paint by a local artist, the mural attracts many visitors.",
+      "Painted by a local artist, the mural attracts many visitors."
+    ],
+    "correctIndex": 3,
+    "explanation": "Cụm V3 + by + tác nhân là bị động rút gọn của Because it was painted by...",
+    "choiceExplanations": [
+      "Sai — Painting là chủ động và không đi với by + tác nhân; bức tranh không tự vẽ.",
+      "Sai — Painted a local artist thiếu by trước tác nhân: phải là Painted by a local artist.",
+      "Sai — Having paint: Having phải đi với V3 (painted), và nghĩa chủ động cũng sai.",
+      "Đúng — Bức tranh tường được vẽ bởi nghệ sĩ: V3 + by + tác nhân."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-023",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u4-past-participle",
+    "tags": [
+      "pc-u4-past-participle"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ by the rain, the match went ahead as planned.",
+    "choices": [
+      "Not affected",
+      "Not affecting",
+      "Not to affect",
+      "No affected"
+    ],
+    "correctIndex": 0,
+    "explanation": "Phủ định của V3 đặt Not trước V3.",
+    "choiceExplanations": [
+      "Đúng — Phủ định bị động: Not + V3. Nghĩa: vì trận đấu không bị mưa ảnh hưởng.",
+      "Sai — Not affecting là chủ động, nghĩa là trận đấu không tác động đến mưa.",
+      "Sai — Not to affect là nguyên thể phủ định, không diễn tả trạng thái bị tác động.",
+      "Sai — Không dùng No trước V3 trong cụm phân từ; phủ định phải là Not."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-024",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u4-past-participle",
+    "tags": [
+      "pc-u4-past-participle"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ in a hurry, the report was full of mistakes.",
+    "choices": [
+      "Writing",
+      "Written",
+      "Having written",
+      "To write"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nếu chủ ngữ là vật, cụm phân từ thường là V3.",
+    "choiceExplanations": [
+      "Sai — Writing là chủ động; báo cáo không tự viết mình, thành chủ ngữ treo.",
+      "Đúng — Báo cáo là vật được viết, nên dùng V3 bị động: Written in a hurry.",
+      "Sai — Having written là chủ động hoàn thành và để lại chủ ngữ treo (the report không phải người viết).",
+      "Sai — To write chỉ mục đích, không diễn tả cách báo cáo đã được viết."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-025",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u4-past-participle",
+    "tags": [
+      "pc-u4-past-participle"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ the difficulty of the task, the team did remarkably well.",
+    "choices": [
+      "Giving",
+      "Having given",
+      "To give",
+      "Given"
+    ],
+    "correctIndex": 3,
+    "explanation": "Given hoạt động như giới từ (= considering): Given the weather, ... Không cần chủ ngữ trùng.",
+    "choiceExplanations": [
+      "Sai — Giving nghĩa 'đang cho', không có nghĩa 'xét đến' và để lại chủ ngữ treo (the team không đưa ra độ khó).",
+      "Sai — Having given là chủ động hoàn thành, nghĩa 'sau khi đã đưa ra', không mang nghĩa xét đến.",
+      "Sai — To give the difficulty không có nghĩa 'xét đến'; cách nói cố định là Given.",
+      "Đúng — Given + danh từ là cách nói cố định nghĩa 'xét đến, vì', không cần chủ ngữ trùng."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-026",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u5-after-conjunctions",
+    "tags": [
+      "pc-u5-after-conjunctions"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Before ______ the house, please take off your shoes.",
+    "choices": [
+      "entering",
+      "enter",
+      "to enter",
+      "entered"
+    ],
+    "correctIndex": 0,
+    "explanation": "Before + V-ing = Before you enter...",
+    "choiceExplanations": [
+      "Đúng — Before là giới từ trong cụm này nên sau nó dùng V-ing.",
+      "Sai — Sau giới từ before không dùng động từ nguyên mẫu enter.",
+      "Sai — Before to enter là lỗi hay gặp: sau before (giới từ) không dùng to-V.",
+      "Sai — entered (V2/V3) mang nghĩa quá khứ/bị động, nhưng đây là việc sắp làm và người nghe chủ động."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-027",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u5-after-conjunctions",
+    "tags": [
+      "pc-u5-after-conjunctions"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "She has lived in Hanoi ______ graduating from university.",
+    "choices": [
+      "for",
+      "from",
+      "since",
+      "by"
+    ],
+    "correctIndex": 2,
+    "explanation": "Since + V-ing = kể từ khi làm việc gì.",
+    "choiceExplanations": [
+      "Sai — for dùng với khoảng thời gian (for five years), không dùng với một sự kiện như graduating.",
+      "Sai — from + V-ing không dùng để nêu mốc bắt đầu của hiện tại hoàn thành; nghĩa 'kể từ khi' dùng since.",
+      "Đúng — Since + V-ing chỉ mốc thời gian bắt đầu: kể từ khi tốt nghiệp.",
+      "Sai — By + V-ing chỉ cách thức ('bằng cách'), không chỉ mốc thời gian."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-028",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u5-after-conjunctions",
+    "tags": [
+      "pc-u5-after-conjunctions"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ asked about the plan by the teacher, Nam said nothing.",
+    "choices": [
+      "When asking",
+      "When",
+      "When ask",
+      "When to ask"
+    ],
+    "correctIndex": 1,
+    "explanation": "When + V3 (lược be): When asked, ...",
+    "choiceExplanations": [
+      "Sai — When asking là chủ động: Nam sẽ là người đi hỏi, trái với by the teacher (Nam được hỏi).",
+      "Đúng — When asked = When he was asked: liên từ + V3 bị động, lược he was.",
+      "Sai — When ask thiếu dạng phân từ; không thể lược chủ ngữ + be rồi giữ động từ nguyên mẫu.",
+      "Sai — When to ask nghĩa 'khi nào nên hỏi', không phải 'khi được hỏi'."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-029",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u5-after-conjunctions",
+    "tags": [
+      "pc-u5-after-conjunctions"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "On ______ the results, the students cheered.",
+    "choices": [
+      "seeing",
+      "to see",
+      "see",
+      "seen"
+    ],
+    "correctIndex": 0,
+    "explanation": "On + V-ing chỉ việc xảy ra ngay lập tức.",
+    "choiceExplanations": [
+      "Đúng — On + V-ing = ngay khi (On seeing = As soon as they saw).",
+      "Sai — on là giới từ; on to see là cụm khác và không đúng nghĩa 'ngay khi'.",
+      "Sai — Sau giới từ on không dùng động từ nguyên mẫu see.",
+      "Sai — On seen: sau on cần V-ing chủ động (học sinh tự nhìn kết quả), không dùng V3."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-030",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u5-after-conjunctions",
+    "tags": [
+      "pc-u5-after-conjunctions"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Once ______, the paint dries in ten minutes.",
+    "choices": [
+      "applying",
+      "applied",
+      "apply",
+      "to apply"
+    ],
+    "correctIndex": 1,
+    "explanation": "Once + V3 là bị động rút gọn.",
+    "choiceExplanations": [
+      "Sai — Applying là chủ động; sơn không tự sơn lên mình, nên sai nghĩa.",
+      "Đúng — Lớp sơn được sơn lên: Once applied = Once it has been applied.",
+      "Sai — Once apply: sau Once rút gọn cần phân từ (applied), không dùng nguyên mẫu.",
+      "Sai — Once to apply không tạo được nghĩa 'sau khi được sơn lên'."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-031",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u5-after-conjunctions",
+    "tags": [
+      "pc-u5-after-conjunctions"
+    ],
+    "difficulty": 1,
+    "bac": 4,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "By ______ the tickets early, we saved a lot of money.",
+    "choices": [
+      "buy",
+      "bought",
+      "buying",
+      "to buy"
+    ],
+    "correctIndex": 2,
+    "explanation": "By + V-ing = bằng cách làm gì.",
+    "choiceExplanations": [
+      "Sai — By là giới từ, sau đó phải là V-ing chứ không phải nguyên mẫu buy.",
+      "Sai — Bought là V2/V3; sau by cần V-ing (buying) cho nghĩa 'bằng cách mua'.",
+      "Đúng — By + V-ing chỉ cách thức: bằng việc mua vé sớm.",
+      "Sai — By to buy: sau giới từ by không dùng to-V."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-032",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u5-after-conjunctions",
+    "tags": [
+      "pc-u5-after-conjunctions"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "While ______ in London, she visited several galleries.",
+    "choices": [
+      "studied",
+      "study",
+      "to study",
+      "studying"
+    ],
+    "correctIndex": 3,
+    "explanation": "While + V-ing = While she was studying.",
+    "choiceExplanations": [
+      "Sai — Studied (V2/V3) chỉ hợp nghĩa bị động; cô ấy chủ động học nên cần studying.",
+      "Sai — While study: sau while rút gọn cần V-ing, không dùng nguyên mẫu.",
+      "Sai — While to study: sau liên từ rút gọn không dùng to-V.",
+      "Đúng — While + V-ing = While she was studying: hai việc cùng lúc, cô ấy chủ động học."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-033",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u5-after-conjunctions",
+    "tags": [
+      "pc-u5-after-conjunctions"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "Unless ______ otherwise, all students must wear uniform.",
+    "choices": [
+      "stating",
+      "state",
+      "to state",
+      "stated"
+    ],
+    "correctIndex": 3,
+    "explanation": "Unless + V3 (stated, specified, indicated) rất thường gặp trong văn bản quy định.",
+    "choiceExplanations": [
+      "Sai — Unless stating otherwise sẽ hiểu là chính học sinh hay quy định 'nêu khác đi', sai nghĩa; cụm cố định cần stated (bị động).",
+      "Sai — Unless state: sau unless rút gọn cần phân từ, không dùng nguyên mẫu.",
+      "Sai — Unless to state không phải cấu trúc rút gọn đúng sau unless.",
+      "Đúng — Unless stated otherwise = Unless it is stated otherwise: V3 bị động lược be, văn phong quy định."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-034",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u6-dangling",
+    "tags": [
+      "pc-u6-dangling"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng.",
+    "choices": [
+      "Walking to school, I saw a rainbow in the sky.",
+      "Walking to school, a rainbow appeared in the sky.",
+      "Walking to school, the rainbow was beautiful.",
+      "Walking to school, it started to rain."
+    ],
+    "correctIndex": 0,
+    "explanation": "Chủ ngữ của mệnh đề chính phải là người đang đi bộ.",
+    "choiceExplanations": [
+      "Đúng — Người đi bộ và người thấy cầu vồng đều là I, nên chủ ngữ trùng.",
+      "Sai — Chủ ngữ treo: a rainbow không thể đi bộ đến trường.",
+      "Sai — Chủ ngữ treo: the rainbow was beautiful nói về cầu vồng, trong khi người đi bộ phải là chủ ngữ.",
+      "Sai — Chủ ngữ treo: it (chủ ngữ giả chỉ thời tiết) không đi bộ đến trường."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-035",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u6-dangling",
+    "tags": [
+      "pc-u6-dangling"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Chọn mệnh đề đúng",
+    "prompt": "Opening the box, ______.",
+    "choices": [
+      "a strange smell hit him",
+      "the box was empty",
+      "he noticed a strange smell inside",
+      "there was a strange smell"
+    ],
+    "correctIndex": 2,
+    "explanation": "Opening the box có chủ ngữ ngầm là người, không phải vật.",
+    "choiceExplanations": [
+      "Sai — Chủ ngữ treo: a strange smell không thể mở hộp.",
+      "Sai — Chủ ngữ treo: the box was empty, nhưng chiếc hộp không tự mở chính nó.",
+      "Đúng — Người mở hộp phải là chủ ngữ của mệnh đề chính: he.",
+      "Sai — Chủ ngữ treo: there là chủ ngữ giả, không phải người mở hộp."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-036",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u6-dangling",
+    "tags": [
+      "pc-u6-dangling"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Câu nào sửa đúng câu 'Looking out of the window, the mountains looked beautiful'?",
+    "choices": [
+      "Looking out of the window, beautiful were the mountains.",
+      "The mountains looked beautiful, looking out of the window.",
+      "Looking out of the window, we thought the mountains looked beautiful.",
+      "Looked out of the window, the mountains looked beautiful."
+    ],
+    "correctIndex": 2,
+    "explanation": "Muốn sửa phải đổi chủ ngữ mệnh đề chính hoặc đổi cụm thành mệnh đề đầy đủ.",
+    "choiceExplanations": [
+      "Sai — Vẫn treo: đảo ngữ beautiful were the mountains không đổi chủ ngữ, vẫn là the mountains.",
+      "Sai — Vẫn treo: đổi vị trí cụm phân từ ra cuối không đổi chủ ngữ the mountains.",
+      "Đúng — Người nhìn là we, chủ ngữ mệnh đề chính, nên hết treo.",
+      "Sai — Looked out of the window không phải cụm phân từ hợp lệ (looked là quá khứ chia ngôi) và câu vẫn treo."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-037",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u6-dangling",
+    "tags": [
+      "pc-u6-dangling"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn mệnh đề đúng",
+    "prompt": "Tired after the long flight, ______.",
+    "choices": [
+      "Maya fell asleep as soon as she reached her room",
+      "the hotel seemed too far away",
+      "the taxi ride felt endless",
+      "the first night's sleep came quickly"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tính từ/V3 đầu câu cũng cần chủ ngữ trùng.",
+    "choiceExplanations": [
+      "Đúng — Maya là người mệt sau chuyến bay, nên đúng chủ ngữ.",
+      "Sai — Chủ ngữ treo: khách sạn không thể mệt sau chuyến bay.",
+      "Sai — Chủ ngữ treo: chuyến taxi không thể mệt.",
+      "Sai — Chủ ngữ treo: giấc ngủ không thể mệt."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-038",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u6-dangling",
+    "tags": [
+      "pc-u6-dangling"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng.",
+    "choices": [
+      "After finishing dinner, we washed the dishes.",
+      "After finishing dinner, the dishes were washed by Dad.",
+      "After finishing dinner, the dishes needed washing.",
+      "After finished dinner, we washed the dishes."
+    ],
+    "correctIndex": 0,
+    "explanation": "After + V-ing cũng phải có chủ ngữ trùng.",
+    "choiceExplanations": [
+      "Đúng — Người ăn xong và người rửa chén đều là we.",
+      "Sai — Chủ ngữ treo: the dishes were washed... nhưng chén dĩa không ăn xong bữa tối.",
+      "Sai — Chủ ngữ treo: the dishes needed washing, chén dĩa không phải người ăn tối.",
+      "Sai — After finished dinner dùng V3 sau After; với nghĩa chủ động cần finishing."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-039",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u6-dangling",
+    "tags": [
+      "pc-u6-dangling"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng",
+    "prompt": "Câu nào chấp nhận được dù chủ ngữ cụm phân từ không trùng chủ ngữ chính?",
+    "choices": [
+      "Walking home, the rain started.",
+      "Judging by the clouds, it will rain soon.",
+      "Waiting for the bus, the rain started.",
+      "Eating lunch, the phone rang."
+    ],
+    "correctIndex": 1,
+    "explanation": "Chỉ một số cụm cố định (Judging by, Generally speaking...) được phép không trùng chủ ngữ.",
+    "choiceExplanations": [
+      "Sai — Chủ ngữ treo: mưa không đi bộ về nhà.",
+      "Đúng — Judging by... là cụm cố định (như Generally speaking), chủ thể ngầm là người nói nên được chấp nhận.",
+      "Sai — Chủ ngữ treo: mưa không chờ xe buýt.",
+      "Sai — Chủ ngữ treo: điện thoại không ăn trưa."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-040",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u6-dangling",
+    "tags": [
+      "pc-u6-dangling"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Câu nào sửa đúng câu 'Sitting on the bench, a bird landed on my shoulder'?",
+    "choices": [
+      "While sitting on the bench, a bird landed on my shoulder.",
+      "Sitting on the bench, my shoulder was landed on by a bird.",
+      "Sitting on the bench, I felt a bird land on my shoulder.",
+      "A bird landed on my shoulder, sitting on the bench."
+    ],
+    "correctIndex": 2,
+    "explanation": "Sửa bằng cách đổi chủ ngữ chính, hoặc đổi thành mệnh đề đầy đủ.",
+    "choiceExplanations": [
+      "Sai — Vẫn treo: thêm While không đổi chủ ngữ a bird, nghĩa là con chim ngồi trên ghế.",
+      "Sai — Vẫn treo: my shoulder không ngồi trên ghế (và dạng bị động này cũng gượng).",
+      "Đúng — Chủ ngữ mệnh đề chính đổi thành I, là người ngồi trên ghế.",
+      "Sai — Cụm V-ing đặt sau sẽ gắn với chủ ngữ a bird, nghĩa là con chim ngồi trên ghế, nên câu mơ hồ/sai nghĩa."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-041",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u7-absolute",
+    "tags": [
+      "pc-u7-absolute"
+    ],
+    "difficulty": 1,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______ permitting, we will have the picnic tomorrow.",
+    "choices": [
+      "Weather is",
+      "Weathers",
+      "Weather",
+      "To weather"
+    ],
+    "correctIndex": 2,
+    "explanation": "Weather permitting = if the weather permits; cụm cố định trang trọng.",
+    "choiceExplanations": [
+      "Sai — Weather is permitting thêm động từ chia ngôi is, thành hai mệnh đề nối bằng dấu phẩy; cụm cố định không có is.",
+      "Sai — Weathers là dạng động từ ngôi thứ ba (weather = vượt qua), không phải danh từ 'thời tiết'.",
+      "Đúng — Weather permitting là cụm cố định: nếu thời tiết cho phép.",
+      "Sai — To weather là động từ 'vượt qua, chịu đựng', không tạo nghĩa 'nếu thời tiết cho phép'."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-042",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u7-absolute",
+    "tags": [
+      "pc-u7-absolute"
+    ],
+    "difficulty": 2,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "The work ______, the builders went home.",
+    "choices": [
+      "done",
+      "doing",
+      "did",
+      "to do"
+    ],
+    "correctIndex": 0,
+    "explanation": "Danh từ + V3 nghĩa bị động; ngăn với mệnh đề chính bằng dấu phẩy.",
+    "choiceExplanations": [
+      "Đúng — Chủ ngữ riêng the work, bị động: the work done = when the work was done.",
+      "Sai — Doing mang nghĩa chủ động: công việc không tự làm chính nó.",
+      "Sai — Did là động từ chia ngôi, câu thành hai mệnh đề nối bằng dấu phẩy (comma splice).",
+      "Sai — The work to do nghĩa 'công việc cần làm', tức chưa xong, trái ý câu."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-043",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u7-absolute",
+    "tags": [
+      "pc-u7-absolute"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "All the guests ______, the ceremony began.",
+    "choices": [
+      "having arrived",
+      "arrived",
+      "have arrived",
+      "to have arrived"
+    ],
+    "correctIndex": 0,
+    "explanation": "Danh từ riêng + having + V3: hành động hoàn thành trước (all the guests having arrived = when all the guests had arrived).",
+    "choiceExplanations": [
+      "Đúng — All the guests having arrived: cụm có chủ ngữ riêng, hành động hoàn thành trước.",
+      "Sai — All the guests arrived, the ceremony began là hai mệnh đề đầy đủ nối bằng dấu phẩy (comma splice).",
+      "Sai — Have arrived là động từ chia ngôi, vẫn là comma splice và sai thì.",
+      "Sai — To have arrived không đứng sau danh từ để tạo cụm có chủ ngữ riêng chỉ thời gian; cần having arrived."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-044",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u7-absolute",
+    "tags": [
+      "pc-u7-absolute"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "With the roads ______ by snow, we decided to stay home.",
+    "choices": [
+      "blocking",
+      "blocked",
+      "block",
+      "to block"
+    ],
+    "correctIndex": 1,
+    "explanation": "With + danh từ + V3 nghĩa bị động.",
+    "choiceExplanations": [
+      "Sai — blocking là chủ động: con đường sẽ thành thứ đang chặn tuyết, ngược nghĩa.",
+      "Đúng — With + N + V3: con đường bị tuyết chặn.",
+      "Sai — With the roads block: sau danh từ cần phân từ (blocked), không dùng nguyên mẫu.",
+      "Sai — With the roads to block by snow: to-V không diễn tả hoàn cảnh sẵn có mà chỉ việc dự định."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-045",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u7-absolute",
+    "tags": [
+      "pc-u7-absolute"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng",
+    "prompt": "Chọn câu đúng.",
+    "choices": [
+      "The deadline approached, the students worked late into the night.",
+      "The deadline to approach, the students worked late into the night.",
+      "The deadline approaching, the students worked late into the night.",
+      "The deadline is approaching, the students worked late into the night."
+    ],
+    "correctIndex": 2,
+    "explanation": "Chủ ngữ riêng the deadline + V-ing, dấu phẩy rồi mới đến mệnh đề chính.",
+    "choiceExplanations": [
+      "Sai — Hai mệnh đề đầy đủ chỉ nối bằng dấu phẩy là lỗi (comma splice); cần cụm phân từ approaching hoặc liên từ.",
+      "Sai — The deadline to approach (nguyên mẫu) không diễn tả hoàn cảnh đang diễn ra, nên không đúng nghĩa 'khi hạn chót đến gần'.",
+      "Đúng — Chủ ngữ riêng the deadline + approaching, tiếp theo dấu phẩy rồi mệnh đề chính.",
+      "Sai — The deadline is approaching là mệnh đề đầy đủ, nên cũng thành comma splice; cần phân từ approaching."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-046",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u7-absolute",
+    "tags": [
+      "pc-u7-absolute"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Điền từ vào chỗ trống",
+    "prompt": "______, the trip was a great success despite the delays.",
+    "choices": [
+      "All things consider",
+      "All things considering",
+      "All things considered",
+      "All things to consider"
+    ],
+    "correctIndex": 2,
+    "explanation": "All things considered là cụm có chủ ngữ riêng (all things), nghĩa: xét tất cả các yếu tố, tổng kết lại.",
+    "choiceExplanations": [
+      "Sai — All things consider thiếu -ed; things là thứ được cân nhắc nên cần phân từ quá khứ considered.",
+      "Sai — Considering là chủ động; cụm cố định đúng là All things considered (bị động).",
+      "Đúng — Cụm cố định: All things considered = xét mọi mặt.",
+      "Sai — To consider chỉ việc cần cân nhắc, không phải nghĩa 'xét mọi mặt'."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-047",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u8-vs-reduced-relative",
+    "tags": [
+      "pc-u8-vs-reduced-relative",
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Câu nào chứa mệnh đề quan hệ rút gọn (bổ nghĩa cho danh từ), không phải phân từ trạng ngữ?",
+    "choices": [
+      "Standing by the window, the girl waved at us.",
+      "Feeling nervous, the girl avoided the window.",
+      "Having stood there for hours, the girl was tired.",
+      "The girl standing by the window is my cousin."
+    ],
+    "correctIndex": 3,
+    "explanation": "Standing đứng ngay sau danh từ the girl, không dấu phẩy, thay thế who is standing.",
+    "choiceExplanations": [
+      "Sai — Đây là phân từ trạng ngữ: đứng đầu câu, có dấu phẩy, nói về hành động vẫy tay.",
+      "Sai — Đây là phân từ trạng ngữ chỉ nguyên nhân, không bổ nghĩa danh từ.",
+      "Sai — Đây là phân từ trạng ngữ hoàn thành chỉ lý do mệt.",
+      "Đúng — Standing bổ nghĩa the girl (= who is standing), không có dấu phẩy."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-048",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u8-vs-reduced-relative",
+    "tags": [
+      "pc-u8-vs-reduced-relative",
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Câu nào có cụm phân từ chỉ LÝ DO?",
+    "choices": [
+      "The man waiting outside is our guide.",
+      "The letter sent yesterday arrived today.",
+      "Knowing the area well, Sam acted as our guide.",
+      "The students working in groups finished early."
+    ],
+    "correctIndex": 2,
+    "explanation": "Đầu câu, có dấu phẩy, nói lý do cho hành động của Sam: phân từ trạng ngữ. Ba câu còn lại là mệnh đề quan hệ rút gọn bổ nghĩa danh từ.",
+    "choiceExplanations": [
+      "Sai — Waiting outside đứng sau danh từ the man, là mệnh đề quan hệ rút gọn, không chỉ lý do.",
+      "Sai — Sent yesterday bổ nghĩa the letter (= which was sent), không chỉ lý do.",
+      "Đúng — Knowing the area well = Because he knew the area well; chỉ lý do của việc Sam làm hướng dẫn.",
+      "Sai — Working in groups bổ nghĩa the students (= who were working), không chỉ lý do."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-049",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u8-vs-reduced-relative",
+    "tags": [
+      "pc-u8-vs-reduced-relative",
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "bac": 5,
+    "title": "Chọn câu đúng",
+    "prompt": "Thử thêm who/which + be trước cụm phân từ. Câu nào KHÔNG làm được như vậy (tức là cụm phân từ trạng ngữ, không bổ nghĩa cho danh từ)?",
+    "choices": [
+      "The pupils chosen for the contest are meeting in room 5.",
+      "Hearing the alarm, the pupils left the room quietly.",
+      "The notice posted on the door explains the rules.",
+      "The boy playing the piano is my brother."
+    ],
+    "correctIndex": 1,
+    "explanation": "Mệnh đề quan hệ rút gọn thêm lại được who/which + be (the notice which was posted). Phân từ trạng ngữ nói về hành động của cả câu nên không thêm được.",
+    "choiceExplanations": [
+      "Sai — chosen for the contest = who were chosen: thêm lại được who + be, nên đây là mệnh đề quan hệ rút gọn.",
+      "Đúng — Hearing the alarm = When they heard the alarm: nói lý do/thời điểm cho hành động left; không thể viết 'the pupils who is hearing'.",
+      "Sai — posted on the door = which was posted, bổ nghĩa the notice: mệnh đề quan hệ rút gọn.",
+      "Sai — playing the piano = who is playing, bổ nghĩa the boy: mệnh đề quan hệ rút gọn."
+    ]
+  },
+  {
+    "id": "en-participle-clauses-050",
+    "kind": "mcq",
+    "language": "en",
+    "topic": "participle-clauses",
+    "usageId": "pc-u8-vs-reduced-relative",
+    "tags": [
+      "pc-u8-vs-reduced-relative",
+      "rc-reduced-clauses"
+    ],
+    "difficulty": 3,
+    "bac": 6,
+    "title": "Chọn câu đúng",
+    "prompt": "Câu nào ngụ ý chỉ MỘT SỐ trẻ thích buổi diễn?",
+    "choices": [
+      "The children, delighted by the show, asked for more.",
+      "Delighted by the show, the children asked for more.",
+      "The children delighted by the show asked for more.",
+      "The children asked for more, delighted by the show."
+    ],
+    "correctIndex": 2,
+    "explanation": "Không có dấu phẩy: delighted by the show giới hạn nhóm (chỉ những đứa trẻ thích). Có dấu phẩy: thông tin thêm về tất cả.",
+    "choiceExplanations": [
+      "Sai — Có dấu phẩy hai bên: thông tin thêm về cả nhóm, nghĩa là tất cả trẻ đều thích.",
+      "Sai — Cụm phân từ trạng ngữ đầu câu nói về cả nhóm the children: tất cả đều thích.",
+      "Đúng — Không có dấu phẩy, cụm giới hạn nhóm: chỉ những đứa trẻ thích buổi diễn.",
+      "Sai — Cụm phân từ sau dấu phẩy là thông tin thêm về cả nhóm, không giới hạn."
+    ]
+  }
+]

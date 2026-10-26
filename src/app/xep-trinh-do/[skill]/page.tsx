@@ -44,7 +44,7 @@ async function Body({ params }: { params: PageProps<"/xep-trinh-do/[skill]">["pa
 
   let body: React.ReactNode
   if (key === "tu-vung") {
-    const parts = await Promise.all(VOCAB_LEVELS.map(async (l) => pickVocabRound((await getVocab(l.id)) ?? [], l.id, 3)))
+    const parts = await Promise.all(VOCAB_LEVELS.filter((l) => l.bac <= 4).map(async (l) => pickVocabRound((await getVocab(l.id)) ?? [], l.id, 3)))
     const exercises = parts.flat()
     if (exercises.length < 8) notFound()
     body = <VocabPlacement exercises={exercises} />

@@ -1,0 +1,297 @@
+{
+  "id": "negation-advanced",
+  "language": "en",
+  "title": "Phủ định nâng cao (Advanced Negation)",
+  "levels": [
+    "C1",
+    "C2"
+  ],
+  "order": 35,
+  "category": "sentence-structure",
+  "theory": {
+    "usages": [
+      {
+        "id": "na-u1-emphatic",
+        "bac": 5,
+        "label": "Nhấn mạnh phủ định (not a single, not in the least, by no means, nothing like, far from, anything but)",
+        "explanationVi": "Để phủ định mạnh hơn 'not', tiếng Anh có các cụm nhấn mạnh: not a single + danh từ số ít (không có lấy một), not ... in the least / at all (chút nào cũng không), by no means (hoàn toàn không), nothing like (hoàn toàn khác), far from + tính từ/danh từ (xa mới là, hoàn toàn không) và anything but + tính từ (chẳng hề). Bẫy: các cụm này đã mang nghĩa phủ định nên không thêm 'not' nữa; đừng nhầm anything but (hoàn toàn không) với nothing but (chỉ, toàn là) và all but (gần như). Khi by no means đứng giữa câu thì không đảo ngữ (đảo ngữ khi đứng đầu câu thuộc chuyên đề Đảo ngữ).",
+        "examples": [
+          {
+            "en": "There wasn't a single seat left in the hall.",
+            "vi": "Không còn lấy một chỗ ngồi trong hội trường."
+          },
+          {
+            "en": "The answer is far from obvious.",
+            "vi": "Câu trả lời hoàn toàn không hiển nhiên."
+          },
+          {
+            "en": "Her room is anything but tidy.",
+            "vi": "Phòng cô ấy chẳng gọn gàng chút nào."
+          }
+        ]
+      },
+      {
+        "id": "na-u2-neither-nor-either",
+        "bac": 5,
+        "label": "Neither ... nor, not ... either và neither of",
+        "explanationVi": "Neither ... nor ... nối hai thành phần cùng bị phủ định (không ... cũng không ...); hai thành phần phải song song về dạng (hai tính từ, hai danh từ...). Khi nối hai chủ ngữ, động từ thường chia theo chủ ngữ đứng gần nó nhất (Neither the captain nor the players were happy). Sau câu phủ định, dùng not ... either để nói 'cũng không' (không dùng too); neither đã mang nghĩa phủ định nên không thêm not. Neither of + the/my/these + danh từ số nhiều (hoặc đại từ them/us) chỉ đúng hai người/vật, và động từ ở dạng khẳng định (với ba trở lên dùng none of). Nor mở thêm vế phủ định sau câu phủ định và đi cùng đảo trợ động từ (He didn't call, nor did he write); đảo ngữ là chuyên đề riêng. Rút gọn đồng tình (Neither do I) đã học ở chuyên đề So/Neither.",
+        "examples": [
+          {
+            "en": "Neither the book nor the film was very good.",
+            "vi": "Cả sách lẫn phim đều không hay lắm."
+          },
+          {
+            "en": "I haven't seen it, and Sam hasn't either.",
+            "vi": "Tôi chưa xem, và Sam cũng chưa."
+          },
+          {
+            "en": "Neither of the twins wants to play goalkeeper.",
+            "vi": "Cả hai em sinh đôi đều không muốn làm thủ môn."
+          }
+        ]
+      },
+      {
+        "id": "na-u3-hardly-barely",
+        "bac": 5,
+        "label": "Hardly / scarcely / barely / rarely / seldom (nghĩa gần như phủ định)",
+        "explanationVi": "Hardly, scarcely và barely nghĩa là 'hầu như không / vừa đủ'; rarely và seldom nghĩa là 'hiếm khi'. Cả nhóm đã mang nghĩa phủ định nên KHÔNG thêm not, never hay no (can't hardly, hardly nobody đều sai). Dùng any-: hardly any, hardly anyone, hardly ever. Hardly/scarcely/barely chỉ mức độ (could hardly hear), còn rarely/seldom chỉ tần suất (rarely late). Barely còn có nghĩa 'vừa mới' (She had barely finished when...). Câu hỏi đuôi sau nhóm này dùng dạng khẳng định (She rarely complains, does she?). Đảo ngữ khi đứng đầu câu thuộc chuyên đề Đảo ngữ.",
+        "examples": [
+          {
+            "en": "I could hardly hear the speaker.",
+            "vi": "Tôi hầu như không nghe được diễn giả."
+          },
+          {
+            "en": "Hardly anyone noticed the change.",
+            "vi": "Hầu như không ai nhận ra sự thay đổi."
+          },
+          {
+            "en": "He rarely misses a practice.",
+            "vi": "Anh ấy hiếm khi bỏ buổi tập."
+          }
+        ]
+      },
+      {
+        "id": "na-u4-neg-raising",
+        "bac": 5,
+        "label": "Phủ định chuyển lên mệnh đề chính (I don't think...)",
+        "explanationVi": "Với các động từ chỉ ý kiến như think, believe, suppose, imagine, expect, ta thường đặt phủ định ở mệnh đề chính: I don't think he will win tự nhiên hơn I think he won't win, nghĩa gần như nhau (đây là cách nói lịch sự, bớt gay gắt). Mệnh đề sau giữ khẳng định, không thêm phủ định (không nói I don't think he won't). Hope thì khác: giữ phủ định ở mệnh đề sau (I hope it won't rain). Câu hỏi đuôi bám theo mệnh đề sau: I don't think he's coming, is he? Trả lời rút gọn: I think so / I don't think so; I hope so / I hope not; I'm afraid not.",
+        "examples": [
+          {
+            "en": "I don't think the shop is open today.",
+            "vi": "Tôi không nghĩ hôm nay cửa hàng mở cửa."
+          },
+          {
+            "en": "I don't suppose you have a spare pen, do you?",
+            "vi": "Tôi đoán bạn không có bút dự phòng nhỉ?"
+          },
+          {
+            "en": "I hope it won't rain tomorrow.",
+            "vi": "Mong là mai trời không mưa."
+          }
+        ]
+      },
+      {
+        "id": "na-u5-no-none",
+        "bac": 5,
+        "label": "No, none, not any và neither of / none of",
+        "explanationVi": "No đứng trước danh từ (no tickets) và tương đương not any (There aren't any tickets); đừng dùng no sau động từ đã phủ định (didn't make no mistakes sai). None đứng một mình hoặc đi với of (none of the students, none of them) và thay cả cụm danh từ. Neither of dùng cho đúng hai, none of dùng cho từ ba trở lên (với hai người/vật hãy dùng neither of, tránh none of). Nobody/no one chỉ người, nothing chỉ vật; nobody/no one cũng làm chủ ngữ của câu trả lời ngắn (Who called? - No one). Sau none of + danh từ không đếm được dùng động từ số ít (None of the information was useful). Lưu ý: none of + số nhiều có thể đi với động từ số ít (trang trọng) hoặc số nhiều (thân mật), nên bài này tránh kiểm tra chỗ đó.",
+        "examples": [
+          {
+            "en": "None of the three candidates had any experience.",
+            "vi": "Không ai trong ba ứng viên có kinh nghiệm."
+          },
+          {
+            "en": "Neither of my parents plays chess.",
+            "vi": "Cả bố lẫn mẹ tôi đều không chơi cờ."
+          },
+          {
+            "en": "There is no time to waste.",
+            "vi": "Không có thời gian để lãng phí."
+          }
+        ]
+      },
+      {
+        "id": "na-u6-implicit-double",
+        "bac": 5,
+        "label": "Phủ định ngầm (without, fail to, refuse to, deny, avoid) và lỗi phủ định kép",
+        "explanationVi": "Một số từ mang nghĩa phủ định mà không có not: without + V-ing (không), fail to + V (không làm được), refuse to + V (từ chối), deny + V-ing (phủ nhận), avoid + V-ing (tránh). Vì đã phủ định, không thêm not hoặc từ phủ định khác và dùng any- thay cho no-: without saying anything, không phải without saying nothing. Trong tiếng Anh chuẩn, hai phủ định triệt tiêu nhau (nghĩa khẳng định); dạng I didn't see nobody xuất hiện trong khẩu ngữ địa phương nhưng bị coi là sai trong bài thi và văn viết. Phủ định kép chủ ý ('didn't fail to notice' = đã nhận ra) là cách nói tinh tế, khác với lỗi. Fail to hàm ý đã cố làm nhưng không được.",
+        "examples": [
+          {
+            "en": "She left without saying a word.",
+            "vi": "Cô ấy rời đi mà không nói lời nào."
+          },
+          {
+            "en": "The shop refused to refund the money.",
+            "vi": "Cửa hàng từ chối hoàn tiền."
+          },
+          {
+            "en": "He didn't tell anybody about the surprise.",
+            "vi": "Anh ấy không kể với ai về điều bất ngờ."
+          }
+        ]
+      },
+      {
+        "id": "na-u7-litotes-rhetorical",
+        "bac": 6,
+        "label": "Giảm nhẹ phủ định (litotes) và câu hỏi phủ định tu từ",
+        "explanationVi": "Litotes là cách nói giảm bằng phủ định của từ trái nghĩa: not uncommon (khá phổ biến), not unlike (khá giống), not without (có phần), not a little (rất), no small (đáng kể), not infrequently (khá thường). Nghĩa là mạnh hơn hoặc khác với vẻ ngoài, sắc thái trang trọng, hơi mỉa hoặc nhã nhặn, thường gặp trong văn viết C2. Bẫy: not a little nghĩa là 'rất', còn not a bit là 'không chút nào'. Câu hỏi phủ định tu từ (Isn't it obvious...? Haven't I told you...?) hiếm khi hỏi thật: chúng gợi ý, thuyết phục (Wouldn't it be better to...?) hoặc trách móc, tùy ngữ điệu và ngữ cảnh.",
+        "examples": [
+          {
+            "en": "It is not uncommon for students to feel nervous.",
+            "vi": "Học sinh lo lắng là chuyện khá thường gặp."
+          },
+          {
+            "en": "Finishing the course was no small achievement.",
+            "vi": "Hoàn thành khóa học là thành tích không nhỏ."
+          },
+          {
+            "en": "Wouldn't it be better to ask first?",
+            "vi": "Hỏi trước chẳng phải tốt hơn sao?"
+          }
+        ]
+      },
+      {
+        "id": "na-u8-not-only-parallel",
+        "bac": 5,
+        "label": "Not only ... but also: song song và hòa hợp (không đảo ngữ)",
+        "explanationVi": "Not only ... but also ... nối hai thành phần ngang hàng (không chỉ ... mà còn ...). Hai thành phần phải song song về dạng: hai động từ cùng thì, hai tính từ, hai cụm danh từ (not only saves time but also reduces stress; không nói not only saves time but also reducing stress). Đặt not only ngay trước thành phần cần so sánh. Khi nối hai chủ ngữ, động từ chia theo chủ ngữ gần nhất (Not only the students but also the teacher is excited). Đảo ngữ khi Not only mở đầu câu thuộc chuyên đề Đảo ngữ, không học ở đây.",
+        "examples": [
+          {
+            "en": "She is not only clever but also kind.",
+            "vi": "Cô ấy không chỉ thông minh mà còn tốt bụng."
+          },
+          {
+            "en": "The app not only saves time but also reduces stress.",
+            "vi": "Ứng dụng không chỉ tiết kiệm thời gian mà còn giảm căng thẳng."
+          },
+          {
+            "en": "Not only the students but also the teacher is excited.",
+            "vi": "Không chỉ học sinh mà cả thầy giáo cũng háo hức."
+          }
+        ]
+      }
+    ],
+    "signalWords": [
+      {
+        "word": "not a single / not ... in the least / by no means / far from / anything but",
+        "meaningVi": "không lấy một / chút nào cũng không / hoàn toàn không / xa mới là / chẳng hề"
+      },
+      {
+        "word": "neither ... nor / not ... either / neither of",
+        "meaningVi": "không ... cũng không / cũng không / cả hai đều không"
+      },
+      {
+        "word": "hardly / scarcely / barely / rarely / seldom",
+        "meaningVi": "hầu như không / vừa đủ / hiếm khi"
+      },
+      {
+        "word": "I don't think ... / I don't suppose ...",
+        "meaningVi": "tôi không nghĩ / tôi đoán là không (phủ định ở mệnh đề chính)"
+      },
+      {
+        "word": "no / none of / nobody / nothing",
+        "meaningVi": "không có / không ai trong / không ai / không gì"
+      },
+      {
+        "word": "without / fail to / refuse to / deny / avoid",
+        "meaningVi": "không / không làm được / từ chối / phủ nhận / tránh"
+      },
+      {
+        "word": "not uncommon / not unlike / no small / not a little",
+        "meaningVi": "khá phổ biến / khá giống / đáng kể / rất"
+      },
+      {
+        "word": "not only ... but also",
+        "meaningVi": "không chỉ ... mà còn"
+      }
+    ],
+    "formulas": {
+      "affirmative": "Nhấn mạnh phủ định: not a single + N số ít | not ... in the least | far from + adj | anything but + adj. Ví dụ: The answer is far from obvious.",
+      "negative": "Từ gần như phủ định không thêm not: hardly/barely + V | hardly any/anyone/ever | without + V-ing | refuse to + V. Ví dụ: I can hardly believe it. (KHÔNG: I can't hardly believe it.)",
+      "question": "Phủ định chuyển lên: I don't think + mệnh đề khẳng định, tag khẳng định. Ví dụ: I don't think he's coming, is he? | Câu hỏi phủ định tu từ: Wouldn't it be better to ...?"
+    },
+    "commonMistakes": [
+      {
+        "id": "negation-advanced-m1",
+        "description": "Phủ định kép với hardly/barely/scarcely: nhóm này đã mang nghĩa phủ định nên không thêm not/can't.",
+        "examples": [
+          {
+            "wrong": "I can't hardly see the board.",
+            "correct": "I can hardly see the board."
+          }
+        ],
+        "usageIds": [
+          "na-u3-hardly-barely"
+        ]
+      },
+      {
+        "id": "negation-advanced-m2",
+        "description": "Dùng no/nothing/nobody sau từ đã phủ định (without, didn't): phải dùng any-.",
+        "examples": [
+          {
+            "wrong": "He left without saying nothing.",
+            "correct": "He left without saying anything."
+          }
+        ],
+        "usageIds": [
+          "na-u6-implicit-double",
+          "na-u5-no-none"
+        ]
+      },
+      {
+        "id": "negation-advanced-m3",
+        "description": "Giữ phủ định ở mệnh đề phụ sau don't think (phủ định chồng phủ định) hoặc quên chuyển phủ định lên mệnh đề chính.",
+        "examples": [
+          {
+            "wrong": "I don't think she won't come.",
+            "correct": "I don't think she will come."
+          }
+        ],
+        "usageIds": [
+          "na-u4-neg-raising"
+        ]
+      },
+      {
+        "id": "negation-advanced-m4",
+        "description": "Dùng neither of / none of sai số lượng: neither of chỉ cho hai, none of cho ba trở lên; đồng thời không thêm not sau neither.",
+        "examples": [
+          {
+            "wrong": "None of the two answers is correct.",
+            "correct": "Neither of the two answers is correct."
+          }
+        ],
+        "usageIds": [
+          "na-u2-neither-nor-either",
+          "na-u5-no-none"
+        ]
+      },
+      {
+        "id": "negation-advanced-m5",
+        "description": "Not only ... but also không song song: hai vế phải cùng dạng.",
+        "examples": [
+          {
+            "wrong": "The course not only teaches grammar but also improving speaking.",
+            "correct": "The course not only teaches grammar but also improves speaking."
+          }
+        ],
+        "usageIds": [
+          "na-u8-not-only-parallel"
+        ]
+      },
+      {
+        "id": "negation-advanced-m6",
+        "description": "Nhầm anything but (chẳng hề) với nothing but (chỉ) hoặc all but (gần như); và nhầm not unlike với unlike.",
+        "examples": [
+          {
+            "wrong": "The test was nothing but easy; it was extremely hard.",
+            "correct": "The test was anything but easy; it was extremely hard."
+          }
+        ],
+        "usageIds": [
+          "na-u1-emphatic",
+          "na-u7-litotes-rhetorical"
+        ]
+      }
+    ]
+  }
+}

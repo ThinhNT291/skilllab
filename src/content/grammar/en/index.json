@@ -322,5 +322,106 @@
     "order": 31,
     "category": "word-classes",
     "usageCount": 7
+  },
+  {
+    "id": "participle-clauses",
+    "title": "Mệnh đề phân từ (Participle Clauses)",
+    "levels": [
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "order": 32,
+    "category": "sentence-structure",
+    "usageCount": 8
+  },
+  {
+    "id": "advanced-passives",
+    "title": "Bị động nâng cao (Advanced Passives)",
+    "levels": [
+      "B2",
+      "C1",
+      "C2"
+    ],
+    "order": 33,
+    "category": "sentence-structure",
+    "usageCount": 8
+  },
+  {
+    "id": "modals-advanced",
+    "title": "Động từ khuyết thiếu nâng cao (Advanced Modals)",
+    "levels": [
+      "C1",
+      "C2"
+    ],
+    "order": 34,
+    "category": "word-classes",
+    "usageCount": 8
+  },
+  {
+    "id": "negation-advanced",
+    "title": "Phủ định nâng cao (Advanced Negation)",
+    "levels": [
+      "C1",
+      "C2"
+    ],
+    "order": 35,
+    "category": "sentence-structure",
+    "usageCount": 8
+  },
+  {
+    "id": "noun-phrases-advanced",
+    "title": "Cụm danh từ nâng cao (Advanced Noun Phrases)",
+    "levels": [
+      "C1",
+      "C2"
+    ],
+    "order": 36,
+    "category": "word-classes",
+    "usageCount": 8
+  },
+  {
+    "id": "conditionals-advanced",
+    "title": "Câu điều kiện nâng cao (Advanced Conditionals)",
+    "levels": [
+      "C1",
+      "C2"
+    ],
+    "order": 37,
+    "category": "sentence-structure",
+    "usageCount": 8
+  },
+  {
+    "id": "ellipsis-substitution",
+    "title": "Lược và thay thế (Ellipsis & Substitution)",
+    "levels": [
+      "C1",
+      "C2"
+    ],
+    "order": 38,
+    "category": "sentence-structure",
+    "usageCount": 8
+  },
+  {
+    "id": "discourse-linking-advanced",
+    "title": "Liên kết diễn ngôn nâng cao (Advanced Linking & Discourse)",
+    "levels": [
+      "C1",
+      "C2"
+    ],
+    "order": 39,
+    "category": "sentence-structure",
+    "usageCount": 8
+  },
+  {
+    "id": "style-and-register",
+    "title": "Văn phong và mức độ trang trọng (Style & Register)",
+    "levels": [
+      "C1",
+      "C2"
+    ],
+    "order": 40,
+    "category": "sentence-structure",
+    "usageCount": 8
   }
 ]
