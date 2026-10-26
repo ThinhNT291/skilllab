@@ -134,7 +134,7 @@ Nghe chép thích ứng; bài xếp trình độ theo bậc; chấm Viết/Nói 
 Nguyên tắc xếp: việc chặn người dùng thật trước, rồi nền nội dung (vì Lộ trình cần nhiều câu), rồi Lộ trình, rồi game/dạng câu mới, cuối cùng việc cần dữ liệu thật hoặc chủ dự án để sau.
 
 ### A. Việc của chủ dự án (không cần code)
-- [ ] Chạy migration `0011`, `0012`, `0013` trên Supabase SQL Editor (chưa chạy thì app lùi về cách cũ, bài xếp trình độ tổng hợp không lưu dở được).
+- [ ] Chạy migration `0011`, `0012`, `0013`, `0014` trên Supabase SQL Editor (chưa chạy thì app lùi về cách cũ, bài xếp trình độ tổng hợp không lưu dở được).
 - [ ] Nhờ giáo viên chấm 30 bài mẫu: `eval/phieu-cham.csv` + `eval/huong-dan-cham.md` → `node scripts/eval-import.mjs <phiếu>` → `node scripts/grade-eval.mjs eval/grade-samples.json` (cần khóa Gemini). Kết quả quyết định có tin máy chấm Viết hay không.
 - [ ] Thử `gen-items`/`gen-passages` với Gemini thật theo `docs/thu-gen-noi-dung.md`.
 - [ ] Merge nhánh (PR) về `main`; sau 1 tháng có dữ liệu thật thì xem lại các ngưỡng ở `docs/lo-trinh-va-xep-bac.md` mục 11.
@@ -148,8 +148,8 @@ Nguyên tắc xếp: việc chặn người dùng thật trước, rồi nền n
 6. [ ] **Sinh/duyệt/gộp nội dung trên giao diện quản trị** (`/quan-ly/noi-dung`, thiết kế ở `docs/quan-ly-noi-dung-tren-giao-dien.md`; giai đoạn A: bảng nháp, duyệt, thống kê tỷ lệ, xuất JSON; giai đoạn B = đọc nội dung từ DB). Làm sau Lộ trình bước đầu.
 7. [ ] Người bản ngữ/giáo viên duyệt: nghĩa Việt từ vựng, bài đọc/nghe, nội dung Bậc 5–6.
 
-### C. Lộ trình một con đường + Phòng thử thách (sau B1–B2)
-Thiết kế đã chốt ở `docs/lo-trinh-va-xep-bac.md` (chưa xây): bảng nấc/tiến độ nấc, mở nấc khi làm hết bài, thử sức nấc cao hơn, trang `/lo-trinh`, Phòng thử thách tính giờ, đề xuất nâng/hạ bậc, kỹ năng yếu nhất đẩy nhiều hơn khi chọn bài.
+### C. Lộ trình một con đường + Phòng thử thách
+**Đã xây bản đầu (26/10/2026):** `/lo-trinh`, bài trong nấc, mở nấc tuần tự/thử sức, bỏ qua, gợi ý hôm nay có đẩy kỹ năng yếu (cần migration `0014`). Còn lại: nối nhảy bậc vào giao diện (thanh tiến độ, lưu bậc), Phòng thử thách + lời giải thích áp lực, Học tiếp ở trang chủ, giáo viên xem nấc bỏ qua, đồ họa. Thiết kế đã chốt ở `docs/lo-trinh-va-xep-bac.md`; ban đầu gồm: bảng nấc/tiến độ nấc, mở nấc khi làm hết bài, thử sức nấc cao hơn, trang `/lo-trinh`, Phòng thử thách tính giờ, đề xuất nâng/hạ bậc, kỹ năng yếu nhất đẩy nhiều hơn khi chọn bài.
 
 ### D. Dạng câu hỏi và game mới cho Đọc/Nghe (dùng lại bài sẵn có, không cần soạn thêm bài)
 Mọi dạng dưới đây sinh từ bài và câu có sẵn bằng hàm thuần (như `derive.ts` làm cho ngữ pháp) và **máy chấm bằng mã, không dùng Gemini** vì đáp án cố định. Chỉ bài tự luận mở (Viết/Nói) mới cần Gemini.

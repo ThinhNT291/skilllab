@@ -2,6 +2,7 @@ import Link from "next/link"
 
 const LINKS = [
   { href: "/", label: "Trang chủ" },
+  { href: "/lo-trinh", label: "Lộ trình" },
   { href: "/hoc", label: "Ngữ pháp" },
   { href: "/tu-vung", label: "Từ vựng" },
   { href: "/nghe", label: "Nghe" },

@@ -29,7 +29,7 @@ export interface LessonRef {
 }
 
 export interface PathLesson {
-  /** Ổn định theo nội dung, dùng làm khóa lưu kết quả: g:<chuyên đề>:b<bậc> | v:b<bậc>:p<phần> | r:<mã bài> | l:<mã bài> */
+  /** Ổn định theo nội dung, dùng làm khóa lưu kết quả và đường dẫn: g.<chuyên đề>.b<bậc> | v.b<bậc>.p<phần> | r.<mã bài> | l.<mã bài> */
   id: string
   kind: LessonKind
   bac: number
@@ -93,17 +93,17 @@ export function buildPath(input: PathInput): PathStep[] {
     const grammar = input.grammar
       .filter((g) => g.bac === bac && g.count >= MIN_GRAMMAR_ITEMS)
       .sort((a, b) => a.order - b.order || a.topic.localeCompare(b.topic))
-      .map<PathLesson>((g) => ({ id: `g:${g.topic}:b${bac}`, kind: "grammar", bac, stepInBac: 0, title: g.title, ref: { topic: g.topic } }))
+      .map<PathLesson>((g) => ({ id: `g.${g.topic}.b${bac}`, kind: "grammar", bac, stepInBac: 0, title: g.title, ref: { topic: g.topic } }))
     put(splitEven(grammar, STEPS_PER_BAC))
 
     const slices = STEPS_PER_BAC * VOCAB_LESSONS_PER_STEP
     if ((input.vocabWords[bac] ?? 0) >= slices * MIN_WORDS_PER_VOCAB_SLICE) {
-      const vocab = Array.from({ length: slices }, (_, p) => ({ id: `v:b${bac}:p${p + 1}`, kind: "vocab", bac, stepInBac: 0, title: `Từ vựng · phần ${p + 1}`, ref: { slice: p, slices } }) as PathLesson)
+      const vocab = Array.from({ length: slices }, (_, p) => ({ id: `v.b${bac}.p${p + 1}`, kind: "vocab", bac, stepInBac: 0, title: `Phần ${p + 1}`, ref: { slice: p, slices } }) as PathLesson)
       put(splitEven(vocab, STEPS_PER_BAC))
     }
 
     const passages = (prefix: "r" | "l", kind: "reading" | "listening", list: { id: string; title: string; bac: number }[]) =>
-      list.filter((p) => p.bac === bac).map<PathLesson>((p) => ({ id: `${prefix}:${p.id}`, kind, bac, stepInBac: 0, title: p.title, ref: { itemId: p.id } }))
+      list.filter((p) => p.bac === bac).map<PathLesson>((p) => ({ id: `${prefix}.${p.id}`, kind, bac, stepInBac: 0, title: p.title, ref: { itemId: p.id } }))
     put(splitEven(passages("r", "reading", input.reading), STEPS_PER_BAC))
     put(splitEven(passages("l", "listening", input.listening), STEPS_PER_BAC))
 
@@ -116,3 +116,5 @@ export function buildPath(input: PathInput): PathStep[] {
 }
 
 export const allLessons = (path: PathStep[]): PathLesson[] => path.flatMap((s) => s.lessons)
+
+export const findLesson = (path: PathStep[], id: string): PathLesson | undefined => allLessons(path).find((l) => l.id === id)

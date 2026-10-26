@@ -132,10 +132,13 @@ export function pickVocabMatchPairs(pool: VocabWord[], level: VocabLevel, rng: R
   return []
 }
 
-/** Một lượt 10 câu: bốc từ ngẫu nhiên, xen kẽ hai dạng câu (dạng điền từ chỉ khi từ có câu ví dụ phù hợp). */
-export function pickVocabRound(pool: VocabWord[], level: VocabLevel, size = 10, rng: Rng = Math.random): McqExercise[] {
+/**
+ * Một lượt 10 câu: bốc từ ngẫu nhiên, xen kẽ hai dạng câu (dạng điền từ chỉ khi từ có câu ví dụ phù hợp).
+ * `targets`: chỉ hỏi các từ này (vd một phần của cấp, ở Lộ trình); từ gây nhiễu vẫn lấy từ cả `pool`.
+ */
+export function pickVocabRound(pool: VocabWord[], level: VocabLevel, size = 10, rng: Rng = Math.random, targets: VocabWord[] = pool): McqExercise[] {
   const out: McqExercise[] = []
-  for (const w of shuffle(pool, rng)) {
+  for (const w of shuffle(targets, rng)) {
     if (out.length >= size) break
     // Xoay vòng ba dạng: đọc nghĩa Anh → chọn từ, điền từ vào câu, nghĩa Việt → chọn từ (dạng nào không dùng được thì rơi về dạng đọc nghĩa).
     const turn = out.length % 3

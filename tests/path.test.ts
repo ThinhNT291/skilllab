@@ -30,8 +30,8 @@ test("danh mục: 6 bậc × 5 chặng, mã bài ổn định và không trùng,
   assert.equal(path[0].id, stepId(1, 1))
   const ids = allLessons(path).map((l) => l.id)
   assert.equal(new Set(ids).size, ids.length)
-  assert.ok(!ids.some((i) => i.includes("tiny")))
-  assert.ok(ids.includes("g:a:b1") && ids.includes("v:b1:p10") && ids.includes("r:rd3") && ids.includes("l:ls2"))
+  assert.ok(!ids.some((i) => i.includes(".tiny.")))
+  assert.ok(ids.includes("g.a.b1") && ids.includes("v.b1.p10") && ids.includes("r.rd3") && ids.includes("l.ls2"))
   // 10 phần từ vựng chia cho 5 chặng = 2 bài mỗi chặng; bậc không có nội dung thì nấc rỗng
   for (const s of path.filter((p) => p.bac === 1)) assert.equal(s.lessons.filter((l) => l.kind === "vocab").length, 2)
   assert.equal(path.filter((p) => p.bac === 2).every((s) => s.lessons.length === 0), true)
