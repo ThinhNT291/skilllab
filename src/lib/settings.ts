@@ -59,40 +59,86 @@ export interface Settings {
   retention: number
   /** Đã qua màn chọn nhân vật và bộ giao diện lần đầu chưa */
   onboarded: boolean
+  /** Kỷ lục game theo khóa (vd điểm cao nhất mỗi game), đi theo tài khoản */
+  records: Record<string, number>
+  /** Thời điểm (ms) sửa lần cuối trên máy này, để so với bản lưu trên tài khoản (bản mới hơn thắng). 0 = chưa sửa gì. */
+  updatedAt: number
 }
 
 const KEY = "skilllab.settings"
-const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", showBac: false, dailyGoal: 10, newPerDay: 10, character: "owl", ageSet: "kids", srsAlgorithm: "fsrs", feedbackMode: "immediate", calmMode: false, hocView: "road", retention: 0.9, onboarded: false }
+const DEFAULTS: Settings = { skin: "explore", sound: true, fontSize: "md", showBac: false, dailyGoal: 10, newPerDay: 10, character: "owl", ageSet: "kids", srsAlgorithm: "fsrs", feedbackMode: "immediate", calmMode: false, hocView: "road", retention: 0.9, onboarded: false, records: {}, updatedAt: 0 }
 const listeners = new Set<() => void>()
 let cache: Settings | null = null
+
+/** Làm sạch cài đặt từ nơi không tin được (bộ nhớ trình duyệt hoặc bản lưu trên tài khoản): giá trị lạ về mặc định. */
+export function sanitizeSettings(raw: unknown): Settings {
+  const p = (raw && typeof raw === "object" ? raw : {}) as Partial<Settings>
+  const skin = SKINS.some((s) => s.id === p.skin) ? (p.skin as Skin) : DEFAULTS.skin
+  const dailyGoal = (DAILY_GOALS as readonly number[]).includes(p.dailyGoal as number) ? (p.dailyGoal as number) : DEFAULTS.dailyGoal
+  const newPerDay = (NEW_CARD_LIMITS as readonly number[]).includes(p.newPerDay as number) ? (p.newPerDay as number) : DEFAULTS.newPerDay
+  const fontSize = FONT_SIZES.some((f) => f.id === p.fontSize) ? (p.fontSize as FontSize) : DEFAULTS.fontSize
+  const character = CHARACTERS.some((c) => c.id === p.character) ? (p.character as Character) : DEFAULTS.character
+  const ageSet = AGE_SETS.some((a) => a.id === p.ageSet) ? (p.ageSet as AgeSet) : DEFAULTS.ageSet
+  const records: Record<string, number> = {}
+  if (p.records && typeof p.records === "object") {
+    for (const [k, v] of Object.entries(p.records).slice(0, 100)) {
+      if (k.length <= 80 && typeof v === "number" && Number.isFinite(v) && v >= 0) records[k] = v
+    }
+  }
+  const updatedAt = typeof p.updatedAt === "number" && Number.isFinite(p.updatedAt) && p.updatedAt > 0 ? p.updatedAt : 0
+  return { skin, sound: p.sound !== false, fontSize, showBac: p.showBac === true, dailyGoal, newPerDay, character, ageSet, srsAlgorithm: p.srsAlgorithm === "sm2" ? "sm2" : "fsrs", feedbackMode: p.feedbackMode === "hint-first" ? "hint-first" : "immediate", calmMode: p.calmMode === true, hocView: p.hocView === "list" ? "list" : "road", retention: (RETENTIONS as readonly number[]).includes(p.retention as number) ? (p.retention as number) : DEFAULTS.retention, onboarded: p.onboarded === true, records, updatedAt }
+}
 
 function read(): Settings {
   try {
     const raw = localStorage.getItem(KEY)
-    if (raw) {
-      const p = JSON.parse(raw) as Partial<Settings>
-      const skin = SKINS.some((s) => s.id === p.skin) ? (p.skin as Skin) : DEFAULTS.skin
-      const dailyGoal = (DAILY_GOALS as readonly number[]).includes(p.dailyGoal as number) ? (p.dailyGoal as number) : DEFAULTS.dailyGoal
-      const newPerDay = (NEW_CARD_LIMITS as readonly number[]).includes(p.newPerDay as number) ? (p.newPerDay as number) : DEFAULTS.newPerDay
-      const fontSize = FONT_SIZES.some((f) => f.id === p.fontSize) ? (p.fontSize as FontSize) : DEFAULTS.fontSize
-      const character = CHARACTERS.some((c) => c.id === p.character) ? (p.character as Character) : DEFAULTS.character
-      const ageSet = AGE_SETS.some((a) => a.id === p.ageSet) ? (p.ageSet as AgeSet) : DEFAULTS.ageSet
-      return { skin, sound: p.sound !== false, fontSize, showBac: p.showBac === true, dailyGoal, newPerDay, character, ageSet, srsAlgorithm: p.srsAlgorithm === "sm2" ? "sm2" : "fsrs", feedbackMode: p.feedbackMode === "hint-first" ? "hint-first" : "immediate", calmMode: p.calmMode === true, hocView: p.hocView === "list" ? "list" : "road", retention: (RETENTIONS as readonly number[]).includes(p.retention as number) ? (p.retention as number) : DEFAULTS.retention, onboarded: p.onboarded === true }
-    }
+    if (raw) return sanitizeSettings(JSON.parse(raw))
   } catch {
     // Trình duyệt chặn lưu trữ: dùng mặc định
   }
   return DEFAULTS
 }
 
-export function updateSettings(patch: Partial<Settings>) {
-  cache = { ...(cache ?? read()), ...patch }
+function persist() {
   try {
     localStorage.setItem(KEY, JSON.stringify(cache))
   } catch {
     // Bỏ qua: cài đặt chỉ giữ trong phiên này
   }
+}
+
+const localChangeListeners = new Set<() => void>()
+
+/** Đăng ký nhận báo khi NGƯỜI DÙNG sửa cài đặt (không báo khi nhận bản từ tài khoản), để đẩy lên tài khoản. */
+export function onLocalSettingsChange(cb: () => void): () => void {
+  localChangeListeners.add(cb)
+  return () => {
+    localChangeListeners.delete(cb)
+  }
+}
+
+export function updateSettings(patch: Partial<Omit<Settings, "updatedAt">>) {
+  cache = { ...(cache ?? read()), ...patch, updatedAt: Date.now() }
+  persist()
   listeners.forEach((l) => l())
+  localChangeListeners.forEach((l) => l())
+}
+
+/** Thay cài đặt bằng bản nhận từ tài khoản (đã làm sạch), giữ nguyên thời điểm sửa của bản đó. Không đẩy ngược lên. */
+export function replaceSettings(next: unknown) {
+  cache = sanitizeSettings(next)
+  persist()
+  listeners.forEach((l) => l())
+}
+
+/** Kỷ lục theo khóa (điểm cao nhất của một game). 0 nếu chưa có. */
+export function getRecord(key: string): number {
+  return getSnapshot().records[key] ?? 0
+}
+
+/** Ghi kỷ lục mới nếu cao hơn kỷ lục cũ; đi theo tài khoản. */
+export function setRecord(key: string, value: number) {
+  if (value > getRecord(key)) updateSettings({ records: { ...getSnapshot().records, [key]: value } })
 }
 
 function subscribe(cb: () => void) {

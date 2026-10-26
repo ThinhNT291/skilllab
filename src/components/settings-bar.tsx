@@ -4,10 +4,12 @@ import { useEffect } from "react"
 import { cn } from "@/lib/utils"
 import { AccountMenu } from "@/components/auth/account-menu"
 import { FONT_SIZES, SKINS, updateSettings, useSettings } from "@/lib/settings"
+import { useSettingsSync } from "@/components/settings-sync"
 
 /** Gắn skin lên <html> và hiện thanh chọn giao diện / bật tắt âm. */
 export function SettingsBar() {
   const { skin, sound, fontSize, showBac, ageSet } = useSettings()
+  useSettingsSync()
 
   useEffect(() => {
     document.documentElement.dataset.skin = skin

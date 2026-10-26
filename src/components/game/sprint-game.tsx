@@ -5,19 +5,22 @@ import Link from "next/link"
 import type { AnswerRecord, Exercise } from "@/lib/content/types"
 import { sfx } from "@/lib/audio/sfx"
 import { applySprint, initialSprint, sprintTitle, SPRINT_SECONDS, type SprintState } from "@/lib/game/sprint"
-import { useSettings } from "@/lib/settings"
+import { getRecord, setRecord, useSettings } from "@/lib/settings"
 import { nextPosition, pickAtPosition } from "@/lib/content/adaptive"
 import { ExerciseView, type Result } from "@/components/exercise/views"
 import { ProgressBar } from "@/components/exercise/progress-bar"
 
 const NEXT_DELAY_MS = 700
 
+/** Kỷ lục theo tài khoản (cài đặt); kỷ lục cũ lưu riêng trên máy vẫn được tính để không mất. */
 function loadBest(key: string): number {
+  let legacy = 0
   try {
-    return Number(localStorage.getItem(key)) || 0
+    legacy = Number(localStorage.getItem(key)) || 0
   } catch {
-    return 0
+    // Trình duyệt chặn lưu trữ
   }
+  return Math.max(getRecord(key), legacy)
 }
 
 /**
@@ -40,13 +43,7 @@ export function SprintGame({ exercises, onAnswer, bestKey, backHref, intro, adap
   function finish(final: SprintState) {
     const prev = loadBest(bestKey)
     const isNew = final.score > prev
-    if (isNew) {
-      try {
-        localStorage.setItem(bestKey, String(final.score))
-      } catch {
-        // Bỏ qua: điểm cao nhất chỉ giữ trong phiên này
-      }
-    }
+    if (isNew) setRecord(bestKey, final.score)
     setBest({ value: Math.max(prev, final.score), isNew })
     setPhase("done")
   }
