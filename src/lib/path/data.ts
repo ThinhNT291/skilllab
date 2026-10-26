@@ -11,7 +11,9 @@ import { getReadingPassages, glossFor } from "@/lib/reading/data"
 import { passageToExercises, type ReadingPassage } from "@/lib/reading/types"
 import { getVocab } from "@/lib/vocab/data"
 import { pickVocabRound, VOCAB_LEVELS, type VocabLevel } from "@/lib/vocab/questions"
+import { shuffle } from "@/lib/content/derive"
 import { BACS, buildPath, findLesson, type PathLesson, type PathStep } from "./catalog"
+import { planLeap, type LeapPlan } from "./leap"
 
 let cached: Promise<PathStep[]> | null = null
 
@@ -72,4 +74,53 @@ export async function getLessonPayload(lessonId: string): Promise<{ lesson: Path
     return { lesson, payload: { ...base, kind: "listening", item, exercises: itemToExercises(item) } }
   }
   return null
+}
+
+export interface LeapPayload {
+  bac: number
+  stepInBac: number
+  plan: LeapPlan
+  /** Ngữ pháp + từ vựng, xếp dễ → khó trong từng kỹ năng */
+  items: Exercise[]
+  reading: { passage: ReadingPassage; exercises: Exercise[]; gloss: Record<string, string> } | null
+  listening: { item: ListeningItem; exercises: Exercise[] } | null
+}
+
+/** Chuẩn bị bài vượt cấp 20 câu cho một chặng: câu lấy từ chính nội dung của chặng đó. null nếu chặng không có nội dung. */
+export async function getLeapPayload(bac: number, stepInBac: number): Promise<LeapPayload | null> {
+  const step = (await getPath()).find((s) => s.bac === bac && s.stepInBac === stepInBac)
+  if (!step || step.lessons.length === 0) return null
+  const plan = planLeap(step)
+
+  const topics = [...new Set(step.lessons.filter((l) => l.kind === "grammar").map((l) => l.ref.topic!))]
+  const grammarPool = (await Promise.all(topics.map((t) => getExercises("en", t)))).flat().filter((e) => e.bac === bac)
+  const grammar = shuffle(grammarPool).slice(0, plan.grammar).sort((a, b) => a.difficulty - b.difficulty)
+
+  let vocab: Exercise[] = []
+  const level = VOCAB_LEVELS.find((l) => l.bac === bac)
+  const words = level ? await getVocab(level.id) : null
+  if (level && words && plan.vocab > 0) {
+    const targets = step.lessons
+      .filter((l) => l.kind === "vocab" && l.ref.slices !== undefined && l.ref.slice !== undefined)
+      .flatMap((l) => words.slice(Math.floor((l.ref.slice! * words.length) / l.ref.slices!), Math.floor(((l.ref.slice! + 1) * words.length) / l.ref.slices!)))
+    vocab = pickVocabRound(words, level.id, plan.vocab, Math.random, targets)
+  }
+
+  const pickId = (kind: "reading" | "listening") => {
+    const ids = step.lessons.filter((l) => l.kind === kind && l.ref.itemId).map((l) => l.ref.itemId!)
+    return ids.length ? ids[Math.floor(Math.random() * ids.length)] : null
+  }
+  let reading: LeapPayload["reading"] = null
+  const readingId = plan.reading ? pickId("reading") : null
+  if (readingId) {
+    const passage = ((await getReadingPassages(bac)) ?? []).find((p) => p.id === readingId)
+    if (passage) reading = { passage, exercises: passageToExercises(passage), gloss: await glossFor(passage.text) }
+  }
+  let listening: LeapPayload["listening"] = null
+  const listeningId = plan.listening ? pickId("listening") : null
+  if (listeningId) {
+    const item = ((await getListeningItems(bac)) ?? []).find((p) => p.id === listeningId)
+    if (item) listening = { item, exercises: itemToExercises(item) }
+  }
+  return { bac, stepInBac, plan, items: [...grammar, ...vocab], reading, listening }
 }

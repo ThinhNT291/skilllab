@@ -66,11 +66,11 @@ test("tiến độ: chưa làm gì thì nấc 0 hiện tại, kế 2 nấc thử
   assert.equal(nextLesson(st, new Map())?.id, path[0].lessons[0].id)
 })
 
-test("làm tuần tự: xong nấc thì nấc kế thành hiện tại; bài dưới 70% chưa tính", () => {
+test("làm tuần tự: xong nấc thì nấc kế thành hiện tại; bài dưới ngưỡng của bậc (60% ở Bậc 1) chưa tính", () => {
   const path = buildPath(small)
-  const half = new Map(idsOfStep(path, 0).map((id) => [id, { bestRatio: 0.69 }]))
+  const half = new Map(idsOfStep(path, 0).map((id) => [id, { bestRatio: 0.59 }]))
   assert.equal(computePath(path, half).frontier, 0)
-  const st = computePath(path, R(idsOfStep(path, 0), 0.7))
+  const st = computePath(path, R(idsOfStep(path, 0), 0.6))
   assert.equal(st.frontier, 1)
   assert.equal(st.steps[0].status, "done")
   assert.equal(st.steps[0].viaTrial, false)
@@ -195,4 +195,145 @@ test("danh mục từ nội dung thật: nấc nào cũng có bài, số bài m�
   }
   const ids = allLessons(path).map((l) => l.id)
   assert.equal(new Set(ids).size, ids.length)
+})
+
+// ---- điểm bắt đầu, cổng bậc, ngưỡng theo bậc, vượt cấp ----
+import { PASS_BY_BAC, passRatioFor } from "../src/lib/path/rules.ts"
+import { JUMP_BY_BAC, jumpConfigFor, jumpReadinessAt } from "../src/lib/path/jump.ts"
+import { bestStart, startFromPlacement, startIndexOf, startOrder, validStart } from "../src/lib/path/start.ts"
+import { LEAP_TOTAL, leapPassed, leapQuestionCount, planLeap } from "../src/lib/path/leap.ts"
+import { answerBac, rowsByBac } from "../src/lib/path/gate.ts"
+
+test("ngưỡng theo bậc tăng dần (kiểu game), không dưới 60%", () => {
+  const vals = [1, 2, 3, 4, 5, 6].map(passRatioFor)
+  assert.deepEqual(vals, vals.slice().sort((a, b) => a - b))
+  assert.ok(Math.min(...vals) >= 0.6 && PASS_BY_BAC[1] < PASS_BY_BAC[6])
+  assert.equal(passRatioFor(0), PASS_BY_BAC[1], "ngoài khoảng thì kẹp về biên")
+  assert.equal(passRatioFor(9), PASS_BY_BAC[6])
+})
+
+test("điều kiện nhảy bậc nghiêm dần: câu, ngày, tỷ lệ đúng và mức nhớ đều không giảm khi lên bậc", () => {
+  for (const key of ["minAnswers", "minAccuracy", "minDays", "minPerDay", "minRetention"] as const) {
+    const v = [1, 2, 3, 4, 5, 6].map((b) => JUMP_BY_BAC[b][key])
+    assert.deepEqual(v, v.slice().sort((a, b) => a - b), key)
+    assert.ok(v[5] > v[0], `${key} phải tăng từ bậc 1 đến bậc 6`)
+  }
+  assert.equal(jumpConfigFor(2.4), JUMP_BY_BAC[2])
+  // cùng một dữ liệu: đủ để lên từ Bậc 1 nhưng chưa đủ để lên từ Bậc 5
+  const rows = Array.from({ length: 3 }, (_, d) => Array.from({ length: 10 }, (_, i) => ({ correct: i < 9, day: `2026-11-0${d + 1}` }))).flat()
+  assert.equal(jumpReadinessAt(1, rows, null).ready, true)
+  assert.equal(jumpReadinessAt(5, rows, null).ready, false)
+})
+
+test("ngưỡng xong bài theo bậc: 62% đủ ở Bậc 1 nhưng chưa đủ ở Bậc 5", () => {
+  const mk = (bac: number): PathInput => ({ ...real(), grammar: [], vocabWords: {}, reading: [{ id: `x${bac}`, title: "x", bac }], listening: [] })
+  for (const [bac, expectDone] of [[1, true], [5, false]] as const) {
+    const path = buildPath(mk(bac))
+    const st = computePath(path, new Map([[`r.x${bac}`, { bestRatio: 0.62 }]]))
+    const step = st.steps.find((s) => s.step.lessons.length > 0)!
+    assert.equal(step.status === "done", expectDone, `bậc ${bac}`)
+  }
+})
+
+test("điểm bắt đầu: nấc dưới là 'ôn lại' không bắt buộc, nấc hiện tại tính từ điểm bắt đầu, nấc dưới vẫn mở được", () => {
+  const path = buildPath(real())
+  const startIdx = startIndexOf(path, { bac: 3, step: 1 })
+  assert.equal(startIdx, 10)
+  const st = computePath(path, new Map(), { startIndex: startIdx })
+  assert.equal(st.frontier, 10)
+  assert.equal(st.steps[0].status, "review")
+  assert.equal(st.steps[9].status, "review")
+  assert.equal(st.steps[10].status, "current")
+  assert.deepEqual(st.steps.slice(11, 14).map((s) => s.status), ["trial", "trial", "locked"])
+  assert.ok(canOpenStep(st, 0), "nấc ôn lại vẫn mở")
+  assert.equal(skippedSteps(st).length, 0, "nấc dưới điểm bắt đầu không bị coi là bỏ qua")
+  assert.equal(nextLesson(st, new Map())?.bac, 3)
+})
+
+test("cổng bậc: làm hết các chặng của bậc mà chưa đủ điều kiện nhảy bậc thì chờ, bậc sau khóa, thử sức không vượt cổng", () => {
+  const path = buildPath(real())
+  const bac1 = path.slice(0, 5).flatMap((s) => s.lessons.map((l) => l.id))
+  const closed = (b: number) => b !== 1
+  const st = computePath(path, R(bac1), { bacCleared: closed })
+  assert.equal(st.frontier, 5)
+  assert.equal(st.gatedBac, 1)
+  assert.equal(st.steps[5].status, "gated")
+  assert.ok(st.steps.slice(6).every((s) => s.status === "locked"), "các nấc sau cổng khóa hẳn")
+  assert.equal(nextLesson(st, R(bac1)), null)
+  assert.equal(canOpenStep(st, 5), false)
+  // qua cổng thì đi tiếp bình thường
+  const open = computePath(path, R(bac1), { bacCleared: () => true })
+  assert.equal(open.gatedBac, null)
+  assert.equal(open.steps[5].status, "current")
+  // cổng chưa mở nhưng vẫn còn chặng trong bậc: chưa "chờ", học bình thường
+  const mid = computePath(path, R(idsOfStep(path, 0)), { bacCleared: closed })
+  assert.equal(mid.gatedBac, null)
+  assert.equal(mid.steps[1].status, "current")
+  // bắt đầu từ bậc cao hơn thì cổng của các bậc dưới không còn chặn
+  const high = computePath(path, new Map(), { startIndex: 10, bacCleared: closed })
+  assert.equal(high.steps[10].status, "current")
+  assert.equal(high.gatedBac, null)
+})
+
+test("điểm bắt đầu từ bài xếp trình độ và bài vượt cấp: chỉ tăng, dữ liệu xấu bị bỏ", () => {
+  assert.deepEqual(startFromPlacement(3), { bac: 3, step: 1, source: "placement" })
+  assert.equal(startFromPlacement(0)!.bac, 1, "dưới Bậc 1 → Bậc 1")
+  assert.equal(startFromPlacement(9)!.bac, 6)
+  assert.equal(startFromPlacement(NaN), null)
+  const placed = startFromPlacement(2)!
+  // chưa có gì → nhận ứng viên
+  assert.deepEqual(bestStart(null, [placed]), { start: placed, changed: true })
+  // thấp hơn hoặc bằng điểm đã lưu → giữ nguyên
+  const saved = { bac: 3, step: 2, source: "leap" as const }
+  assert.deepEqual(bestStart(saved, [placed, startFromPlacement(3), null]), { start: saved, changed: false })
+  // cao hơn → lên
+  const better = bestStart(saved, [startFromPlacement(4)])
+  assert.equal(better.changed, true)
+  assert.equal(better.start!.bac, 4)
+  // giá trị không hợp lệ không được nhận
+  assert.equal(bestStart(null, [{ bac: 7, step: 1, source: "leap" }, { bac: 1, step: 9, source: "leap" }]).start, null)
+  assert.equal(validStart(6, 5), true)
+  assert.equal(validStart(0, 1), false)
+  assert.equal(startOrder(1, 1), 0)
+  assert.equal(startOrder(2, 1), 5)
+  assert.equal(startIndexOf(buildPath(real()), null), 0)
+})
+
+test("bài vượt cấp: luôn đủ 20 câu; thiếu kỹ năng thì chuyển phần câu sang ngữ pháp/từ vựng; chỉ đạt khi đúng hết", () => {
+  const step = (kinds: PathLesson["kind"][]) => ({ lessons: kinds.map((kind, i) => ({ id: `${kind}${i}`, kind, bac: 3, stepInBac: 1, title: "t", ref: {} })) })
+  const full = planLeap(step(["grammar", "vocab", "reading", "listening"]))
+  assert.deepEqual(full, { grammar: 8, vocab: 4, reading: 1, listening: 1 })
+  assert.equal(leapQuestionCount(full), LEAP_TOTAL)
+  for (const kinds of [["grammar", "vocab"], ["grammar", "reading", "listening"], ["vocab", "listening"], ["grammar"], ["vocab"]] as PathLesson["kind"][][]) {
+    const p = planLeap(step(kinds))
+    assert.equal(leapQuestionCount(p), LEAP_TOTAL, kinds.join())
+    assert.equal(p.reading, kinds.includes("reading") ? 1 : 0)
+    assert.equal(p.listening, kinds.includes("listening") ? 1 : 0)
+    assert.equal(p.grammar > 0, kinds.includes("grammar"))
+    assert.equal(p.vocab > 0, kinds.includes("vocab"))
+  }
+  assert.equal(leapPassed(20, 20), true)
+  assert.equal(leapPassed(19, 20), false)
+  assert.equal(leapPassed(0, 0), false)
+})
+
+test("dữ liệu cổng: bậc của câu theo loại, gom theo bậc và ngày", () => {
+  const meta = { "en-x-001": [3, 2] } as Record<string, [number, number]>
+  assert.equal(answerBac({ exercise_id: "en-x-001~2", topic: "x" }, meta), 3)
+  assert.equal(answerBac({ exercise_id: "zzz", topic: "x" }, meta), null)
+  assert.equal(answerBac({ exercise_id: "vq-m-1", topic: "vocab-b2" }, meta), 4)
+  assert.equal(answerBac({ exercise_id: "rq-1", topic: "reading-b5" }, meta), 5)
+  assert.equal(answerBac({ exercise_id: "lq-1", topic: "listening-b1" }, meta), 1)
+  assert.equal(answerBac({ exercise_id: "c", topic: "colloc-make-do" }, meta), null)
+  const by = rowsByBac(
+    [
+      { exercise_id: "en-x-001", topic: "x", correct: true, created_at: "2026-11-01T10:00:00Z" },
+      { exercise_id: "rq-1", topic: "reading-b3", correct: false, created_at: "2026-11-02T10:00:00Z" },
+      { exercise_id: "zzz", topic: "x", correct: true, created_at: "2026-11-02T10:00:00Z" },
+    ],
+    meta,
+    (iso) => iso.slice(0, 10),
+  )
+  assert.deepEqual(by.get(3), [{ correct: true, day: "2026-11-01" }, { correct: false, day: "2026-11-02" }])
+  assert.equal(by.size, 1)
 })

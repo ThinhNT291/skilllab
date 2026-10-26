@@ -146,3 +146,25 @@ Chạy `npm run report:items` và `node scripts/srs-report.mjs`, rồi chỉnh t
 - [ ] Số câu và dừng sớm của bài xếp trình độ từ vựng.
 - [ ] Ngưỡng 80% bài kiểm tra cuối chủ điểm và các mức khác của `docs/hoc-thuat-dong-luc.md` ("Chưa làm / cần dữ liệu thật").
 (Phần Lộ trình/Phòng thử thách chưa xây thì chưa có dữ liệu cho các mục tương ứng; khi xây xong mới đo.)
+
+## 12. Điểm bắt đầu, bài vượt cấp và độ khó tăng dần theo bậc (chốt 26/10/2026, ĐÃ XÂY bản đầu)
+
+**Điểm bắt đầu** (bảng `path_state`, migration `0015`, chỉ tăng, không tự hạ):
+- Có kết quả **bài xếp trình độ tổng hợp** thì bắt đầu ở chặng 1 của bậc tổng (dưới Bậc 1 → Bậc 1). Trang `/lo-trinh` tự đọc kết quả gần nhất khi mở.
+- Hoặc **bài vượt cấp**: nút "🚀 Vượt cấp tới đây" ở các chặng phía trên chặng hiện tại. 20 câu đủ kỹ năng của chặng đó (8 ngữ pháp, 4 từ vựng, một bài đọc 4 câu, một bài nghe 4 câu; thiếu kỹ năng nào thì chia lại cho ngữ pháp/từ vựng), **phải đúng hết** thì bắt đầu từ chặng đó. Không đạt thì cứ tiếp tục ở chặng hiện tại, thử lại được (câu khác). Câu trả lời vẫn đi vào Elo như luyện thường.
+- Không có gì thì chặng 1 của Bậc 1. Nấc dưới điểm bắt đầu không bắt buộc ("Ôn lại"), vẫn mở để quay lại, không bị coi là "bỏ qua".
+
+**Độ nghiêm ngặt tăng theo bậc, kiểu game** (`src/lib/path/rules.ts`, `jump.ts`; mọi số là giá trị khởi điểm, chỉnh dần):
+
+| Bậc | Đúng để xong một bài | Câu cần để lên bậc kế | Đúng | Số ngày | Câu/ngày (tối thiểu) | Thẻ ôn còn nhớ |
+|---|---|---|---|---|---|---|
+| 1 | 60% | 25 | 75% | 2 | 5 | 60% |
+| 2 | 65% | 35 | 78% | 2 | 5 | 65% |
+| 3 | 70% | 50 | 80% | 3 | 5 | 70% |
+| 4 | 75% | 70 | 83% | 4 | 6 | 72% |
+| 5 | 80% | 100 | 85% | 5 | 8 | 75% |
+| 6 | 80% | 150 | 88% | 7 | 10 | 78% |
+
+**Cổng bậc:** làm hết các chặng của một bậc chưa đủ để sang bậc kế; còn phải đủ điều kiện nhảy bậc ở bảng trên (tính trên các câu đã trả lời ở bậc đó, gộp bốn kỹ năng nhận biết). Chưa đủ thì chặng đầu của bậc kế hiện "Chờ lên bậc" kèm danh sách điều kiện còn thiếu, các nấc sau khóa; thử sức không vượt được cổng, chỉ bài vượt cấp hoặc bài xếp trình độ mới nhảy qua. Thanh "Tiến độ lên Bậc kế" luôn hiện ở thẻ đầu trang.
+
+Chưa làm: điều kiện thẻ ôn đang truyền `null` (bỏ qua) vì chưa tính mức nhớ theo bậc từ FSRS; điều kiện chưa tách theo từng kỹ năng; giới hạn số lần thử bài vượt cấp mỗi ngày (hiện thử lại thoải mái); nhắc giáo viên khi học sinh vượt cấp.

@@ -11,8 +11,6 @@ export const KIND_LABEL: Record<LessonKind, string> = { grammar: "Ngữ pháp", 
 /** Bậc 1–6 (A1–C2), mỗi bậc chia thành bấy nhiêu chặng. Giá trị khởi điểm, xem lại khi có dữ liệu thật. */
 export const BACS = [1, 2, 3, 4, 5, 6] as const
 export const STEPS_PER_BAC = 5
-/** "Làm được" một bài = đúng từ ngần này (thấp hơn 80% của bài kiểm tra cuối chủ điểm vì đây là bài luyện). */
-export const PASS_RATIO = 0.7
 /** Một chuyên đề × bậc cần ít nhất bấy nhiêu câu mới thành một bài ngữ pháp (đủ để bốc một lượt không lặp). */
 export const MIN_GRAMMAR_ITEMS = 6
 /** Số bài từ vựng mỗi chặng; mỗi bậc chia kho từ của bậc đó thành `STEPS_PER_BAC × VOCAB_LESSONS_PER_STEP` phần. */

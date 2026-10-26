@@ -33,7 +33,7 @@ async function Lesson({ params }: { params: PageProps<"/lo-trinh/bai/[lessonId]"
       <h1 className="mt-2 mb-4 text-2xl font-extrabold">
         {KIND_LABEL[lesson.kind]} · Bậc {lesson.bac} · chặng {lesson.stepInBac}
       </h1>
-      <LessonSession payload={payload} stepLessons={(step?.lessons ?? []).map((l) => ({ id: l.id, title: l.title }))} />
+      <LessonSession payload={payload} bac={lesson.bac} stepLessons={(step?.lessons ?? []).map((l) => ({ id: l.id, title: l.title }))} />
     </>
   )
 }
