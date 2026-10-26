@@ -1,0 +1,84 @@
+BẠN LÀ MỘT GIÁO VIÊN TIẾNG ANH BIÊN SOẠN NỘI DUNG HỌC CHO ỨNG DỤNG LUYỆN THI TIẾNG ANH.
+
+NHIỆM VỤ: Soạn 1 CHUYÊN ĐỀ NGỮ PHÁP hoàn chỉnh (Lý thuyết + Bài tập) cho chủ điểm:
+
+  - Chủ điểm: THÌ HIỆN TẠI HOÀN THÀNH (Present Perfect)
+  - Cấp độ: B1 (Intermediate) theo khung CEFR
+  - Đối tượng học: người Việt học tiếng Anh (tiếng Việt KHÔNG có thì ngữ pháp tương đương, nên đây là
+    điểm ngữ pháp người Việt thường sai/lẫn lộn với thì quá khứ đơn — hãy khai thác kỹ điểm này ở phần
+    "lỗi thường gặp").
+
+QUAN TRỌNG — YÊU CẦU VỀ TÍNH NGUYÊN BẢN (BẢN QUYỀN):
+Hãy TỰ VIẾT MỚI HOÀN TOÀN mọi câu ví dụ, câu hỏi bài tập và lời giải thích — dùng kiến thức ngữ pháp
+tiếng Anh phổ thông (ai cũng biết, không thuộc về riêng ai) để soạn, KHÔNG chép nguyên văn câu chữ từ
+bất kỳ sách/tài liệu có sẵn nào (kể cả sách giáo khoa, sách luyện thi). Văn phong: rõ ràng, ngắn gọn,
+đúng chuẩn sư phạm — trình bày CÁCH DÙNG kèm VÍ DỤ, CÔNG THỨC, DẤU HIỆU NHẬN BIẾT rồi đến BÀI TẬP,
+giống cấu trúc quen thuộc của sách ngữ pháp luyện thi tiếng Việt (nhưng nội dung câu chữ là do bạn tự
+soạn mới).
+
+BẮT BUỘC trả về ĐÚNG 1 khối JSON duy nhất theo đúng cấu trúc dưới đây, không thêm chữ nào khác ngoài
+JSON (không thêm markdown code fence, không thêm lời dẫn/giải thích ngoài JSON):
+
+{
+  "id": "present-perfect",
+  "title": "Thì hiện tại hoàn thành (Present Perfect)",
+  "level": "B1",
+  "theory": {
+    "usages": [
+      {
+        "label": "Tên ngắn gọn cách dùng (ví dụ: 'Hành động xảy ra trong quá khứ, không rõ thời gian cụ thể')",
+        "explanationVi": "Giải thích cách dùng này bằng tiếng Việt, 1-2 câu, dễ hiểu",
+        "examples": [
+          { "en": "Câu ví dụ tiếng Anh tự soạn mới", "vi": "Bản dịch tiếng Việt" },
+          { "en": "Câu ví dụ tiếng Anh tự soạn mới thứ 2", "vi": "Bản dịch tiếng Việt" }
+        ]
+      }
+      // Viết ĐỦ 5 cách dùng chính của thì hiện tại hoàn thành (tương tự các sách ngữ pháp chuẩn):
+      // 1) hành động xảy ra trong quá khứ không rõ thời gian, 2) hành động bắt đầu trong quá khứ và
+      // còn tiếp diễn/liên quan đến hiện tại (with since/for), 3) hành động lặp lại nhiều lần trong
+      // quá khứ, 4) hành động vừa xảy ra để lại dấu hiệu/kết quả ở hiện tại, 5) diễn tả kinh nghiệm/
+      // trải nghiệm (have you ever...). Mỗi cách dùng có ĐÚNG 2 câu ví dụ (kèm dịch nghĩa).
+    ],
+    "formulas": {
+      "affirmative": "S + have/has + V(p2) + O",
+      "negative": "S + have/has + not + V(p2) + O",
+      "question": "Have/Has + S + V(p2) + O?"
+    },
+    "signalWords": [
+      { "word": "already", "meaningVi": "đã ... rồi (thường đứng trước V-p2, trong câu khẳng định)" }
+      // Liệt kê ĐỦ các từ nhận biết quan trọng: already, just, yet, ever, never, since, for,
+      // recently, lately, so far, up to now — mỗi từ 1 dòng, ghi rõ nghĩa + vị trí dùng trong câu.
+    ],
+    "commonMistakes": [
+      "Mô tả 1 lỗi người Việt hay mắc khi dùng thì này (ví dụ: dùng since/for lẫn lộn, hoặc lẫn với thì quá khứ đơn), kèm 1 câu ví dụ SAI và câu ĐÚNG để đối chiếu."
+      // Viết 3-4 lỗi thường gặp, mỗi lỗi là 1 chuỗi text mô tả đầy đủ kèm ví dụ sai/đúng ngay trong chuỗi đó.
+    ]
+  },
+  "exercises": [
+    {
+      "id": "gpp_pp_ex_01",
+      "type": "fill-blank-mcq",
+      "prompt": "Câu tiếng Anh có 1 chỗ trống (dùng dấu ______ để đánh dấu chỗ trống), yêu cầu chọn dạng đúng của động từ hoặc từ nhận biết phù hợp",
+      "choices": ["lựa chọn A", "lựa chọn B", "lựa chọn C", "lựa chọn D"],
+      "correctIndex": 0,
+      "explanation": "Giải thích chi tiết TẠI SAO đáp án này đúng và các đáp án còn lại sai — theo đúng tinh thần 'đáp án chi tiết' của sách luyện thi (chỉ rõ dấu hiệu nhận biết/cách dùng nào áp dụng ở câu này)."
+    }
+    // Soạn ĐỦ 15 câu bài tập (gpp_pp_ex_01 đến gpp_pp_ex_15), ĐỘ KHÓ TĂNG DẦN:
+    //  - Câu 1-5: chọn đúng cách chia động từ hiện tại hoàn thành (khẳng định/phủ định/nghi vấn cơ bản)
+    //  - Câu 6-10: chọn đúng từ nhận biết (already/yet/since/for/ever/never...) điền vào câu
+    //  - Câu 11-15: câu phức hợp hơn, có thể yêu cầu phân biệt hiện tại hoàn thành với quá khứ đơn
+    //    (đúng điểm hay nhầm lẫn nhất với người Việt), mỗi câu có 4 lựa chọn, chỉ 1 đáp án đúng.
+    // Mỗi câu PHẢI có "explanation" giải thích chi tiết, không được để trống.
+  ]
+}
+
+LƯU Ý KỸ THUẬT:
+- correctIndex là số nguyên từ 0 đến 3 (0=A, 1=B, 2=C, 3=D), TRỎ ĐÚNG vào vị trí trong mảng "choices".
+- Đảm bảo MỖI câu bài tập CHỈ CÓ ĐÚNG 1 đáp án đúng duy nhất, không có câu nào có 2 đáp án đều đúng
+  hoặc không đáp án nào đúng — vì hệ thống sẽ tự động chấm điểm dựa trên correctIndex, không có
+  con người kiểm tra lại.
+- Chuỗi JSON phải hợp lệ 100%: escape đúng các dấu ngoặc kép bên trong nội dung (dùng \" ), không có
+  dấu phẩy dư ở cuối mảng/object, không dùng comment trong JSON thật (các dòng "//" ở trên chỉ là
+  HƯỚNG DẪN cho bạn, không được xuất hiện trong JSON kết quả).
+- Toàn bộ nội dung tiếng Anh trong "examples"/"choices"/"prompt" phải ở mức B1 (từ vựng và cấu trúc
+  câu vừa phải, không quá phức tạp), phù hợp người học trình độ trung cấp.

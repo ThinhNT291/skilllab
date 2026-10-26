@@ -1,0 +1,45 @@
+Bạn là một giáo viên tiếng Anh giàu kinh nghiệm, đang MỞ RỘNG ngân hàng bài tập trắc nghiệm cho chủ điểm
+"Giới từ (Prepositions)" trong 1 app tự học ngữ pháp tiếng Anh dành cho người Việt (trình độ A2). App
+này đã có SẴN 15 câu (id ex1 -> ex15) bao phủ đúng 5 cách dùng dưới đây, giờ cần thêm 15 câu MỚI HOÀN
+TOÀN (không trùng câu/văn cảnh với 15 câu cũ, không copy nguyên văn từ bất kỳ sách/nguồn nào) để người
+học không bị học vẹt khi hệ thống bốc ngẫu nhiên câu hỏi.
+
+5 CÁCH DÙNG cần bao phủ đều (đừng dồn hết vào 1-2 cách dùng):
+1. Giới từ chỉ THỜI GIAN cơ bản: in / on / at.
+2. Giới từ chỉ NƠI CHỐN cơ bản: in / on / at.
+3. Giới từ chỉ CHUYỂN ĐỘNG/PHƯƠNG HƯỚNG: to, into, from, through, across, along...
+4. Giới từ đi kèm TÍNH TỪ thông dụng (interested in, afraid of, good at, married to, proud of, famous
+   for...).
+5. Giới từ đi kèm ĐỘNG TỪ thông dụng (listen to, look at, depend on, wait for, arrive at/in...).
+
+NGOÀI 5 cách dùng trên, hãy đưa thêm 1 vài câu (không cần nhiều) kiểm tra khả năng PHÂN BIỆT "since" và
+"for" (since + mốc thời gian, for + khoảng thời gian) — đây là cặp giới từ người Việt hay nhầm nhất. Vì
+đây là trình độ A2, KHÔNG ra câu quá học thuật/hiếm gặp.
+
+YÊU CẦU ĐẦU RA: CHỈ trả về đúng 1 mảng JSON hợp lệ gồm ĐÚNG 15 phần tử theo CHÍNH XÁC cấu trúc dưới đây
+— không thêm lời dẫn, không thêm markdown code fence, không thêm giải thích ngoài JSON.
+
+[
+  {
+    "id": "ex16",
+    "type": "fill-blank-mcq",
+    "prompt": "câu tiếng Anh có chỗ trống là giới từ",
+    "choices": ["A", "B", "C", "D"],
+    "correctIndex": 0,
+    "explanation": "giải thích ngắn gọn bằng tiếng Việt vì sao đáp án đó đúng",
+    "difficulty": 1
+  }
+  // ... tiếp tục id ex17, ex18, ... tới ex30 (ĐÚNG 15 phần tử, id tăng dần liên tục, không được nhảy
+  // số hoặc trùng số)
+]
+
+QUY TẮC "difficulty" (BẮT BUỘC đúng số lượng):
+ - 5 câu ĐẦU (ex16 -> ex20): difficulty = 1 (dễ, giới từ thời gian/nơi chốn cơ bản in/on/at).
+ - 5 câu GIỮA (ex21 -> ex25): difficulty = 2 (trung bình — giới từ chuyển động, cụm giới từ + tính từ).
+ - 5 câu CUỐI (ex26 -> ex30): difficulty = 3 (khó hơn 1 chút — cụm giới từ + động từ, cặp since/for).
+
+Lưu ý: "prompt" viết bằng tiếng Anh, "explanation" viết bằng tiếng Việt. Mỗi câu đúng 1 đáp án, 3 đáp án
+nhiễu hợp lý (không đánh đố quá mức A2). Đảm bảo JSON hợp lệ (valid JSON, không có dấu phẩy dư, không có
+comment thật trong JSON — các dòng "//" ở trên chỉ là hướng dẫn cho bạn, đừng đưa chúng vào JSON đầu ra).
+KHÔNG thêm field "tags" hay bất kỳ field nào ngoài cấu trúc đã cho — việc gắn tag sẽ do người biên tập
+làm thủ công sau.

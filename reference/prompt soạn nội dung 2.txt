@@ -1,0 +1,77 @@
+Bạn là chuyên gia biên soạn tài liệu học ngoại ngữ theo phương pháp "Comprehensible Input" (Krashen's i+1) — đầu vào dễ hiểu, học từ vựng/ngữ pháp qua NGỮ CẢNH, KHÔNG học qua giải thích tường minh hay bài tập ngữ pháp/trắc nghiệm.
+
+MỤC TIÊU: tạo một ngân hàng bài NGHE (listening) cho người học tiếng Anh — kịch bản (transcript) sẽ được đọc thành giọng nói bằng Text-to-Speech, người học nghe để giải trí/tiếp nhận tự nhiên (không phải để kiểm tra), theo đúng 5 cấp độ CEFR sau: "A1-A2 (Beginner)", "B1 (Intermediate)", "B2 (Upper-Intermediate)", "C1 (Advanced)", "C2 (Proficient)".
+
+Đây là bản song sinh với ngân hàng ĐỌC (gemini_prompt_ci_reading_bank.txt) — áp dụng CHÍNH XÁC cùng
+nguyên tắc ràng buộc từ vựng/độ dài/JSON escaping, chỉ khác ở chỗ nội dung phải PHÙ HỢP ĐỂ NGHE (viết
+ra để đọc thành tiếng, không phải để đọc bằng mắt).
+
+===================================================================
+NGUYÊN TẮC QUAN TRỌNG NHẤT — KHÁC HẲN NGÂN HÀNG TRẮC NGHIỆM ĐÃ LÀM TRƯỚC ĐÓ:
+===================================================================
+1. ĐÂY KHÔNG PHẢI bài kiểm tra. Không tạo câu hỏi trắc nghiệm (multiple choice). Kịch bản phải giống
+   1 đoạn hội thoại đời thường, 1 người kể chuyện (podcast ngắn/vlog), hoặc 1 bản tin nhẹ nhàng —
+   thứ người học MUỐN nghe vì tò mò nội dung.
+2. VIẾT CHO TAI, KHÔNG PHẢI CHO MẮT: câu ngắn hơn văn bản đọc thông thường ở cùng cấp độ, tránh câu
+   quá nhiều mệnh đề lồng nhau (người nghe không "đọc lại" được như đọc chữ), ưu tiên cấu trúc hội
+   thoại tự nhiên (có ngập ngừng nhẹ kiểu "well,", "you know,", "so," ở B1 trở lên để giống lời nói
+   thật, nhưng KHÔNG lạm dụng gây khó hiểu).
+3. RÀNG BUỘC TỪ VỰNG NGHIÊM NGẶT theo cấp độ (lỗi phổ biến nhất của AI là viết khó hơn cấp độ yêu
+   cầu). Quy tắc bắt buộc — giống hệt ngân hàng Đọc:
+   - A1-A2: CHỈ dùng 500-800 từ thông dụng nhất, câu dưới 12 từ/câu, chỉ thì hiện tại đơn/quá khứ
+     đơn/tương lai gần, KHÔNG thành ngữ, KHÔNG câu bị động.
+   - B1: từ vựng ~1500-2000 từ, câu 12-18 từ, có thì hoàn thành, câu điều kiện loại 1.
+   - B2: từ vựng đa dạng hơn, câu phức có mệnh đề quan hệ/bị động, thành ngữ tự nhiên không giải thích.
+   - C1: từ vựng trừu tượng/sắc thái, phong cách đa dạng, cấu trúc câu phức tạp.
+   - C2: gần với hội thoại/podcast bản ngữ thật — từ vựng chuyên sâu, có thể dùng slang tự nhiên.
+   Không chắc thì luôn chọn từ ĐƠN GIẢN HƠN.
+4. ĐỘ DÀI mỗi bài (đếm từ tiếng Anh, không tính tiêu đề) — giữ mức tương tự bài Đọc vì TTS đọc mất
+   khoảng 130-150 từ/phút, đủ ngắn để không quá tải:
+   - A1-A2: 100-150 từ
+   - B1: 160-220 từ
+   - B2: 230-300 từ
+   - C1: 320-400 từ
+   - C2: 420-500 từ
+5. ĐA DẠNG thể loại: đối thoại 2 người (đánh dấu rõ người nói bằng tên, vd "Anna: ... \nTom: ..."),
+   độc thoại kiểu kể chuyện/podcast cá nhân, bản tin ngắn nhẹ nhàng (không phải tin thời sự nặng nề),
+   lời nhắn thoại (voice message) gửi bạn bè. Không lặp chủ đề trong cùng 1 cấp độ.
+6. MỖI bài đi kèm 1-2 câu hỏi kiểm tra hiểu bài NHẸ NHÀNG, KHÔNG BẮT BUỘC, dạng MỞ (không trắc
+   nghiệm), kèm 1 đáp án mẫu tham khảo (modelAnswer) — giống hệt quy tắc của ngân hàng Đọc.
+
+===================================================================
+SỐ LƯỢNG:
+===================================================================
+5 cấp độ, MỖI cấp độ 5 bài (tổng 25 bài).
+
+===================================================================
+CẤU TRÚC JSON BẮT BUỘC (chỉ trả về JSON, không thêm chữ nào khác, không thêm ```json):
+===================================================================
+{
+  "A1-A2 (Beginner)": [
+    {
+      "id": "ci_listen_en_a1_01",
+      "title": "Tiêu đề ngắn bằng tiếng Việt (2-6 từ, gợi tò mò)",
+      "transcript": "Toàn bộ kịch bản tiếng Anh, đúng độ dài quy định ở trên. Nếu là hội thoại, mỗi lượt lời xuống dòng bằng \\n và ghi rõ tên người nói, ví dụ: \"Anna: Hi Tom!\\nTom: Hey, how are you?\"",
+      "checkQuestions": [
+        { "question": "Câu hỏi mở bằng tiếng Anh, đơn giản đúng cấp độ", "modelAnswer": "Câu trả lời mẫu tham khảo bằng tiếng Anh, ngắn gọn" }
+      ]
+    }
+  ],
+  "B1 (Intermediate)": [ ... 5 bài, id dạng ci_listen_en_b1_01 ... ],
+  "B2 (Upper-Intermediate)": [ ... 5 bài, id dạng ci_listen_en_b2_01 ... ],
+  "C1 (Advanced)": [ ... 5 bài, id dạng ci_listen_en_c1_01 ... ],
+  "C2 (Proficient)": [ ... 5 bài, id dạng ci_listen_en_c2_01 ... ]
+}
+
+===================================================================
+LƯU Ý KỸ THUẬT BẮT BUỘC (rất quan trọng — đã gặp lỗi này nhiều lần trước đây):
+===================================================================
+- Đây phải là JSON HỢP LỆ 100% (sẽ được JSON.parse trực tiếp).
+- TUYỆT ĐỐI KHÔNG được có dấu ngoặc kép " chưa escape nằm bên trong 1 chuỗi string. Nếu cần trích dẫn
+  lời thoại bên trong lời kể (nested quote), PHẢI escape thành \" — hoặc ưu tiên dùng dấu nháy đơn (')
+  để tránh rủi ro escape sai hoàn toàn.
+- Xuống dòng bên trong transcript (giữa các lượt lời hội thoại) PHẢI dùng \\n (escape đúng chuẩn
+  JSON), KHÔNG được xuống dòng thật (raw newline) bên trong chuỗi.
+- Không dùng dấu backtick, không dùng markdown, không thêm chú thích ngoài JSON.
+- Kiểm tra lại toàn bộ JSON trước khi trả lời: đúng 5 cấp độ, mỗi cấp độ đúng 5 bài, mỗi bài có đủ 4
+  field (id, title, transcript, checkQuestions), mỗi checkQuestions có 1-2 phần tử, id không trùng.

@@ -1,0 +1,42 @@
+Bạn là một giáo viên tiếng Anh giàu kinh nghiệm, đang MỞ RỘNG ngân hàng bài tập trắc nghiệm cho chủ điểm
+"Câu bị động (Passive Voice)" trong 1 app tự học ngữ pháp tiếng Anh dành cho người Việt (trình độ B1).
+App này đã có SẴN 15 câu (id ex1 -> ex15) bao phủ đúng 5 cách dùng dưới đây, giờ cần thêm 15 câu MỚI
+HOÀN TOÀN (không trùng câu/văn cảnh với 15 câu cũ, không copy nguyên văn từ bất kỳ sách/nguồn nào) để
+người học không bị học vẹt khi hệ thống bốc ngẫu nhiên câu hỏi.
+
+5 CÁCH DÙNG cần bao phủ đều (đừng dồn hết vào 1-2 cách dùng):
+1. Cấu trúc bị động cơ bản ở các thì thông dụng (hiện tại đơn, quá khứ đơn, hiện tại hoàn thành, tương
+   lai đơn, quá khứ tiếp diễn...).
+2. Câu bị động với động từ khuyết thiếu (can/could/must/should/may/might + be + V3).
+3. Câu bị động với động từ có hai tân ngữ (give, send, show, buy, teach...).
+4. Câu bị động với các động từ chỉ ý kiến/tường thuật (say, think, believe, report — cả 2 dạng "It is
+   believed that..." và "S is believed to V...").
+5. Câu bị động dạng nhờ vả/Causative Passive (have/get something done).
+
+YÊU CẦU ĐẦU RA: CHỈ trả về đúng 1 mảng JSON hợp lệ gồm ĐÚNG 15 phần tử theo CHÍNH XÁC cấu trúc dưới đây
+— không thêm lời dẫn, không thêm markdown code fence, không thêm giải thích ngoài JSON.
+
+[
+  {
+    "id": "ex16",
+    "type": "fill-blank-mcq",
+    "prompt": "câu tiếng Anh có chỗ trống ở thể bị động",
+    "choices": ["A", "B", "C", "D"],
+    "correctIndex": 0,
+    "explanation": "giải thích ngắn gọn bằng tiếng Việt vì sao đáp án đó đúng",
+    "difficulty": 1
+  }
+  // ... tiếp tục id ex17, ex18, ... tới ex30 (ĐÚNG 15 phần tử, id tăng dần liên tục, không được nhảy
+  // số hoặc trùng số)
+]
+
+QUY TẮC "difficulty" (BẮT BUỘC đúng số lượng):
+ - 5 câu ĐẦU (ex16 -> ex20): difficulty = 1 (dễ, bị động cơ bản ở thì hiện tại đơn/quá khứ đơn).
+ - 5 câu GIỮA (ex21 -> ex25): difficulty = 2 (trung bình — động từ khuyết thiếu, 2 tân ngữ).
+ - 5 câu CUỐI (ex26 -> ex30): difficulty = 3 (khó hơn — động từ tường thuật, causative passive).
+
+Lưu ý: "prompt" viết bằng tiếng Anh, "explanation" viết bằng tiếng Việt. Mỗi câu đúng 1 đáp án, 3 đáp án
+nhiễu hợp lý (không đánh đố quá mức B1). Đảm bảo JSON hợp lệ (valid JSON, không có dấu phẩy dư, không có
+comment thật trong JSON — các dòng "//" ở trên chỉ là hướng dẫn cho bạn, đừng đưa chúng vào JSON đầu ra).
+KHÔNG thêm field "tags" hay bất kỳ field nào ngoài cấu trúc đã cho — việc gắn tag sẽ do người biên tập
+làm thủ công sau.

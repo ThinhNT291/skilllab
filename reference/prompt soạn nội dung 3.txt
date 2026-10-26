@@ -1,0 +1,77 @@
+Bạn là chuyên gia biên soạn tài liệu học ngoại ngữ theo phương pháp "Comprehensible Input" (Krashen's i+1) — đầu vào dễ hiểu, học từ vựng/ngữ pháp qua NGỮ CẢNH, KHÔNG học qua giải thích tường minh hay bài tập ngữ pháp/trắc nghiệm.
+
+MỤC TIÊU: tạo một ngân hàng bài ĐỌC (reading) cho người học tiếng Anh, dùng để đọc tự nhiên/giải trí (không phải để kiểm tra), theo đúng 5 cấp độ CEFR sau: "A1-A2 (Beginner)", "B1 (Intermediate)", "B2 (Upper-Intermediate)", "C1 (Advanced)", "C2 (Proficient)".
+
+===================================================================
+NGUYÊN TẮC QUAN TRỌNG NHẤT — KHÁC HẲN NGÂN HÀNG TRẮC NGHIỆM ĐÃ LÀM TRƯỚC ĐÓ:
+===================================================================
+1. ĐÂY KHÔNG PHẢI bài kiểm tra. Không tạo câu hỏi trắc nghiệm (multiple choice). Văn bản phải giống
+   truyện ngắn/bài báo nhẹ/blog cá nhân/đối thoại đời thường — thứ người học MUỐN đọc vì tò mò nội
+   dung, không phải vì bị bắt buộc.
+2. RÀNG BUỘC TỪ VỰNG NGHIÊM NGẶT theo cấp độ (đây là lỗi phổ biến nhất của AI khi viết văn bản
+   "graded" — thường viết khó hơn cấp độ yêu cầu rất nhiều). Quy tắc bắt buộc:
+   - A1-A2: CHỈ dùng 500-800 từ thông dụng nhất tiếng Anh (từ vựng sinh hoạt hàng ngày: gia đình, đồ
+     ăn, thời gian, địa điểm, cảm xúc cơ bản). Câu ngắn (dưới 12 từ/câu). Chỉ thì hiện tại đơn, quá
+     khứ đơn, tương lai gần (going to). KHÔNG dùng thành ngữ, KHÔNG dùng câu bị động, KHÔNG dùng mệnh
+     đề quan hệ phức tạp.
+   - B1: từ vựng thông dụng mở rộng (~1500-2000 từ), câu dài trung bình (12-18 từ/câu), được dùng thì
+     hoàn thành, câu điều kiện loại 1, một vài thành ngữ đơn giản có giải thích ngầm qua ngữ cảnh.
+   - B2: từ vựng học thuật/chủ đề đa dạng hơn, câu phức có mệnh đề quan hệ, câu bị động, câu điều kiện
+     loại 2-3, một số thành ngữ/collocation tự nhiên không cần giải thích.
+   - C1: từ vựng trừu tượng, sắc thái (nuance), phong cách viết đa dạng (mỉa mai, ẩn dụ nhẹ), cấu trúc
+     câu phức tạp, đảo ngữ, câu ghép nhiều mệnh đề.
+   - C2: gần với văn bản bản ngữ thật (native-level) — từ vựng chuyên sâu/hiếm gặp, phong cách văn học,
+     có thể dùng slang/thành ngữ nâng cao, cấu trúc câu tự do như người bản xứ viết.
+   Nếu không chắc một từ có phù hợp cấp độ không, hãy chọn từ ĐƠN GIẢN HƠN — thà dễ hơn một chút còn
+   hơn khó hơn yêu cầu.
+3. ĐỘ DÀI mỗi bài (đếm từ tiếng Anh, không tính tiêu đề):
+   - A1-A2: 100-150 từ
+   - B1: 160-220 từ
+   - B2: 230-300 từ
+   - C1: 320-400 từ
+   - C2: 420-500 từ
+4. ĐA DẠNG chủ đề và thể loại trong cùng 1 cấp độ — không lặp lại chủ đề (vd không viết 2 bài đều về
+   "buổi sáng đi học"). Trộn các thể loại: truyện ngắn kể chuyện (narrative), nhật ký/blog cá nhân,
+   đối thoại giữa 2 người, bài viết dạng thư, mô tả một trải nghiệm/chuyến đi, tản văn về một chủ đề
+   đời thường (sở thích, thói quen, kỷ niệm). Ưu tiên văn bản có mạch truyện/cảm xúc thật để người học
+   MUỐN đọc tiếp, không phải văn bản khô khan liệt kê thông tin.
+5. MỖI bài đi kèm 1-2 câu hỏi kiểm tra hiểu bài NHẸ NHÀNG, KHÔNG BẮT BUỘC (người học có thể bỏ qua,
+   không tính điểm/không ảnh hưởng cấp độ) — câu hỏi dạng MỞ (không phải trắc nghiệm), mục đích giúp
+   người học tự phản tư xem có hiểu đúng ý chính không, kèm 1 đáp án mẫu tham khảo (modelAnswer) để
+   người học tự đối chiếu, không phải đáp án "duy nhất đúng".
+
+===================================================================
+SỐ LƯỢNG:
+===================================================================
+5 cấp độ, MỖI cấp độ 5 bài (tổng 25 bài).
+
+===================================================================
+CẤU TRÚC JSON BẮT BUỘC (chỉ trả về JSON, không thêm chữ nào khác, không thêm ```json):
+===================================================================
+{
+  "A1-A2 (Beginner)": [
+    {
+      "id": "ci_read_en_a1_01",
+      "title": "Tiêu đề ngắn bằng tiếng Việt (2-6 từ, gợi tò mò)",
+      "passage": "Toàn bộ văn bản tiếng Anh, đúng độ dài quy định ở trên.",
+      "checkQuestions": [
+        { "question": "Câu hỏi mở bằng tiếng Anh, đơn giản đúng cấp độ", "modelAnswer": "Câu trả lời mẫu tham khảo bằng tiếng Anh, ngắn gọn" }
+      ]
+    }
+  ],
+  "B1 (Intermediate)": [ ... 5 bài, id dạng ci_read_en_b1_01 ... ],
+  "B2 (Upper-Intermediate)": [ ... 5 bài, id dạng ci_read_en_b2_01 ... ],
+  "C1 (Advanced)": [ ... 5 bài, id dạng ci_read_en_c1_01 ... ],
+  "C2 (Proficient)": [ ... 5 bài, id dạng ci_read_en_c2_01 ... ]
+}
+
+===================================================================
+LƯU Ý KỸ THUẬT BẮT BUỘC (rất quan trọng — đã gặp lỗi này nhiều lần trước đây):
+===================================================================
+- Đây phải là JSON HỢP LỆ 100% (sẽ được JSON.parse trực tiếp).
+- TUYỆT ĐỐI KHÔNG được có dấu ngoặc kép " chưa escape nằm bên trong 1 chuỗi string. Nếu trong bài văn
+  cần trích dẫn lời thoại/câu nói, PHẢI escape thành \" (ví dụ: "She said, \"I love this town.\"") —
+  hoặc đơn giản hơn, ưu tiên dùng dấu nháy đơn (') cho lời thoại để tránh rủi ro escape sai hoàn toàn.
+- Không dùng dấu backtick, không dùng markdown, không thêm chú thích ngoài JSON.
+- Kiểm tra lại toàn bộ JSON trước khi trả lời: đúng 5 cấp độ, mỗi cấp độ đúng 5 bài, mỗi bài có đủ 4
+  field (id, title, passage, checkQuestions), mỗi checkQuestions có 1-2 phần tử, id không trùng nhau.

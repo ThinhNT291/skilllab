@@ -1,0 +1,45 @@
+Bạn là một giáo viên tiếng Anh giàu kinh nghiệm, đang MỞ RỘNG ngân hàng bài tập trắc nghiệm cho chủ điểm
+"Câu điều kiện (Conditional Sentences)" trong 1 app tự học ngữ pháp tiếng Anh dành cho người Việt (trình
+độ B1/B2). App này đã có SẴN 15 câu (id ex1 -> ex15) bao phủ đúng 5 cách dùng dưới đây, giờ cần thêm 15
+câu MỚI HOÀN TOÀN (không trùng câu/văn cảnh với 15 câu cũ, không copy nguyên văn từ bất kỳ sách/nguồn
+nào) để người học không bị học vẹt khi hệ thống bốc ngẫu nhiên câu hỏi.
+
+5 CÁCH DÙNG cần bao phủ đều (đừng dồn hết vào 1-2 cách dùng):
+1. Câu điều kiện loại 0 (Zero Conditional) — sự thật hiển nhiên/quy luật tự nhiên.
+2. Câu điều kiện loại 1 (First Conditional) — khả năng cao xảy ra ở hiện tại/tương lai.
+3. Câu điều kiện loại 2 (Second Conditional) — giả định không có thật ở hiện tại.
+4. Câu điều kiện loại 3 (Third Conditional) — giả định trái ngược với quá khứ.
+5. Câu điều kiện hỗn hợp (Mixed Conditional) — phổ biến nhất là loại 3+2 (giả định trái quá khứ, hệ quả
+   ảnh hưởng tới hiện tại).
+
+NGOÀI 5 cách dùng trên, hãy đưa thêm 1 vài câu (không cần nhiều) về: (a) các liên từ điều kiện thay thế
+cho "if" (unless, provided that, as long as, in case, even if...), và (b) ĐẢO NGỮ trong câu điều kiện
+(Should + S..., Were + S..., Had + S...) — đây là 2 phần khó, thường xuất hiện ở câu nâng cao.
+
+YÊU CẦU ĐẦU RA: CHỈ trả về đúng 1 mảng JSON hợp lệ gồm ĐÚNG 15 phần tử theo CHÍNH XÁC cấu trúc dưới đây
+— không thêm lời dẫn, không thêm markdown code fence, không thêm giải thích ngoài JSON.
+
+[
+  {
+    "id": "ex16",
+    "type": "fill-blank-mcq",
+    "prompt": "câu tiếng Anh có chỗ trống thuộc câu điều kiện (hoặc liên từ/đảo ngữ điều kiện)",
+    "choices": ["A", "B", "C", "D"],
+    "correctIndex": 0,
+    "explanation": "giải thích ngắn gọn bằng tiếng Việt vì sao đáp án đó đúng",
+    "difficulty": 1
+  }
+  // ... tiếp tục id ex17, ex18, ... tới ex30 (ĐÚNG 15 phần tử, id tăng dần liên tục, không được nhảy
+  // số hoặc trùng số)
+]
+
+QUY TẮC "difficulty" (BẮT BUỘC đúng số lượng):
+ - 5 câu ĐẦU (ex16 -> ex20): difficulty = 1 (dễ, loại 0 và loại 1).
+ - 5 câu GIỮA (ex21 -> ex25): difficulty = 2 (trung bình — loại 2, loại 3, liên từ thay "if").
+ - 5 câu CUỐI (ex26 -> ex30): difficulty = 3 (khó hơn — câu hỗn hợp, đảo ngữ).
+
+Lưu ý: "prompt" viết bằng tiếng Anh, "explanation" viết bằng tiếng Việt. Mỗi câu đúng 1 đáp án, 3 đáp án
+nhiễu hợp lý (không đánh đố quá mức B1/B2). Đảm bảo JSON hợp lệ (valid JSON, không có dấu phẩy dư, không
+có comment thật trong JSON — các dòng "//" ở trên chỉ là hướng dẫn cho bạn, đừng đưa chúng vào JSON đầu
+ra). KHÔNG thêm field "tags" hay bất kỳ field nào ngoài cấu trúc đã cho — việc gắn tag sẽ do người biên
+tập làm thủ công sau.

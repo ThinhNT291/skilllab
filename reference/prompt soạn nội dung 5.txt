@@ -1,0 +1,46 @@
+Bạn là một giáo viên tiếng Anh giàu kinh nghiệm, đang MỞ RỘNG ngân hàng bài tập trắc nghiệm cho chủ điểm
+"Thì hiện tại hoàn thành (Present Perfect)" trong 1 app tự học ngữ pháp tiếng Anh dành cho người Việt
+(trình độ B1). App này đã có SẴN 15 câu (id gpp_pp_ex_01 -> gpp_pp_ex_15) bao phủ đúng 5 cách dùng dưới
+đây, giờ cần thêm 15 câu MỚI HOÀN TOÀN (không trùng câu/văn cảnh với 15 câu cũ, không copy nguyên văn
+từ bất kỳ sách/nguồn nào) để người học không bị học vẹt khi hệ thống bốc ngẫu nhiên câu hỏi.
+
+5 CÁCH DÙNG cần bao phủ đều (đừng dồn hết vào 1-2 cách dùng):
+1. Hành động xảy ra trong quá khứ không rõ thời gian.
+2. Hành động bắt đầu trong quá khứ và còn tiếp diễn đến hiện tại (since/for).
+3. Hành động lặp lại nhiều lần trong quá khứ.
+4. Hành động vừa xảy ra để lại dấu hiệu hoặc kết quả ở hiện tại.
+5. Kinh nghiệm/trải nghiệm sống (ever/never).
+
+NGOÀI 5 cách dùng trên, hãy đưa thêm 1 vài câu (không cần nhiều) kiểm tra khả năng PHÂN BIỆT Hiện tại
+hoàn thành với Quá khứ đơn (câu có mốc thời gian cụ thể trong quá khứ như "yesterday", "last week",
+"in 2020"... bắt buộc phải dùng Quá khứ đơn, không phải Hiện tại hoàn thành) — đây là lỗi người Việt hay
+mắc nhất với thì này.
+
+YÊU CẦU ĐẦU RA: CHỈ trả về đúng 1 mảng JSON hợp lệ gồm ĐÚNG 15 phần tử theo CHÍNH XÁC cấu trúc dưới đây
+— không thêm lời dẫn, không thêm markdown code fence, không thêm giải thích ngoài JSON.
+
+[
+  {
+    "id": "gpp_pp_ex_16",
+    "type": "fill-blank-mcq",
+    "prompt": "câu tiếng Anh có chỗ trống",
+    "choices": ["A", "B", "C", "D"],
+    "correctIndex": 0,
+    "explanation": "giải thích ngắn gọn bằng tiếng Việt vì sao đáp án đó đúng",
+    "difficulty": 1
+  }
+  // ... tiếp tục id gpp_pp_ex_17, gpp_pp_ex_18, ... tới gpp_pp_ex_30 (ĐÚNG 15 phần tử, id tăng dần
+  // liên tục, không được nhảy số hoặc trùng số)
+]
+
+QUY TẮC "difficulty" (BẮT BUỘC đúng số lượng):
+ - 5 câu ĐẦU (gpp_pp_ex_16 -> gpp_pp_ex_20): difficulty = 1 (dễ, cấu trúc cơ bản, 1 cách dùng rõ ràng).
+ - 5 câu GIỮA (gpp_pp_ex_21 -> gpp_pp_ex_25): difficulty = 2 (trung bình).
+ - 5 câu CUỐI (gpp_pp_ex_26 -> gpp_pp_ex_30): difficulty = 3 (khó hơn — ưu tiên đặt các câu phân biệt
+   Hiện tại hoàn thành/Quá khứ đơn vào nhóm này).
+
+Lưu ý: "prompt" viết bằng tiếng Anh, "explanation" viết bằng tiếng Việt. Mỗi câu đúng 1 đáp án, 3 đáp án
+nhiễu hợp lý (không đánh đố quá mức B1). Đảm bảo JSON hợp lệ (valid JSON, không có dấu phẩy dư, không có
+comment thật trong JSON — các dòng "//" ở trên chỉ là hướng dẫn cho bạn, đừng đưa chúng vào JSON đầu ra).
+KHÔNG thêm field "tags" hay bất kỳ field nào ngoài cấu trúc đã cho — việc gắn tag sẽ do người biên tập
+làm thủ công sau.

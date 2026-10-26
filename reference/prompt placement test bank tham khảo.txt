@@ -1,0 +1,42 @@
+Bạn là chuyên gia biên soạn đề thi Listening Comprehension theo chuẩn Cambridge English (FCE/CAE) và IELTS Listening. Nhiệm vụ: xây dựng một NGÂN HÀNG ĐỀ NGHE HIỂU tiếng Anh đầy đủ. Mỗi bài sẽ được hệ thống tự chuyển thành audio bằng Text-to-Speech (TTS) từ đúng phần "transcript" bạn viết ra — vì vậy transcript PHẢI viết như văn nói tự nhiên (có thể dùng ngắt câu, dấu phẩy hợp lý để TTS đọc đúng nhịp), KHÔNG phải văn viết học thuật.
+
+QUY TẮC BẮT BUỘC:
+1. Chia theo đúng 5 mức độ (giữ nguyên chính tả, không đổi khác): "A1-A2 (Beginner)", "B1 (Intermediate)", "B2 (Upper-Intermediate)", "C1 (Advanced)", "C2 (Proficient)".
+2. Mỗi mức độ tạo ĐÚNG 6 bài nghe (clip), mỗi bài 1 chủ đề/tình huống khác nhau (không lặp trong cùng mức): hội thoại đời sống, thông báo công cộng, phỏng vấn, bài giảng ngắn, bản tin, cuộc gọi điện thoại...
+3. Dạng bài xen kẽ hợp lý theo mức độ:
+   - A1-A2: hội thoại 2 người rất đơn giản (đặt tên rõ ràng "A:" và "B:" ở đầu mỗi lượt nói), 50-80 từ, tốc độ nói chậm, từ vựng cơ bản.
+   - B1: hội thoại 2 người hoặc 1 người nói (thông báo/tin nhắn thoại), 90-130 từ.
+   - B2: hội thoại/phỏng vấn ngắn có ý kiến trái chiều, 140-190 từ.
+   - C1: bài giảng/thuyết trình 1 người nói hoặc phỏng vấn chuyên sâu, 200-260 từ, từ vựng học thuật.
+   - C2: bài giảng/thảo luận học thuật hoặc bản tin phức tạp, 260-320 từ, ý tưởng trừu tượng, có thể có số liệu.
+4. Nếu là hội thoại nhiều người, PHẢI ghi rõ nhãn người nói ở đầu mỗi câu trong transcript theo mẫu "A: ..." / "B: ..." (xuống dòng bằng \n giữa các lượt nói) để hệ thống có thể tách giọng đọc sau này. Nếu là 1 người nói (bài giảng/thông báo) thì không cần nhãn.
+5. Mỗi bài có ĐÚNG 4 câu hỏi trắc nghiệm (4 lựa chọn A/B/C/D), pha trộn dạng câu hỏi chuẩn thi thật: chi tiết cụ thể (detail), ý chính (main idea/gist), thái độ/quan điểm người nói (attitude), suy luận (inference). Không dùng 4 câu hỏi cùng 1 dạng cho 1 bài.
+6. Mỗi câu hỏi có "explanation" ngắn gọn (1-2 câu, bằng tiếng Việt) giải thích vì sao đáp án đúng.
+7. correctIndex là số nguyên 0-3 (0=A, 1=B, 2=C, 3=D). Chỉ có DUY NHẤT 1 đáp án đúng.
+8. id đặt theo mẫu: "listen_en_<mã_mức_độ_viết_tắt>_<số_thứ_tự_2_chữ_số>", ví dụ "listen_en_a1_01", "listen_en_c1_05". Mã mức viết tắt: a1 (A1-A2), b1 (B1), b2 (B2), c1 (C1), c2 (C2).
+9. title: tên chủ đề ngắn gọn bằng tiếng Việt (vd "Đặt bàn nhà hàng", "Phỏng vấn về biến đổi khí hậu").
+
+CHỈ TRẢ VỀ DUY NHẤT JSON hợp lệ theo đúng cấu trúc sau, KHÔNG kèm markdown, KHÔNG kèm giải thích ngoài JSON:
+
+{
+  "A1-A2 (Beginner)": [
+    {
+      "id": "listen_en_a1_01",
+      "title": "...",
+      "transcript": "A: ...\nB: ...\nA: ...",
+      "questions": [
+        { "question": "...", "choices": ["...", "...", "...", "..."], "correctIndex": 0, "explanation": "..." },
+        { "question": "...", "choices": ["...", "...", "...", "..."], "correctIndex": 1, "explanation": "..." },
+        { "question": "...", "choices": ["...", "...", "...", "..."], "correctIndex": 2, "explanation": "..." },
+        { "question": "...", "choices": ["...", "...", "...", "..."], "correctIndex": 3, "explanation": "..." }
+      ]
+    }
+    // ... đủ 6 bài cho mức A1-A2
+  ],
+  "B1 (Intermediate)": [ /* đủ 6 bài */ ],
+  "B2 (Upper-Intermediate)": [ /* đủ 6 bài */ ],
+  "C1 (Advanced)": [ /* đủ 6 bài */ ],
+  "C2 (Proficient)": [ /* đủ 6 bài */ ]
+}
+
+Tổng cộng: 5 mức x 6 bài = 30 bài nghe, 120 câu hỏi. Hãy kiểm tra lại toàn bộ JSON hợp lệ (đúng dấu ngoặc, dấu phẩy, escape dấu ngoặc kép và ký tự xuống dòng \n bên trong chuỗi) trước khi trả lời.
